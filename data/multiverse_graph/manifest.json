@@ -13,7 +13,8 @@
  ],
  "deck_evidence": [
   "data/lore_decks/drafts/ugin_bolas_elder_dragon_duality_printing_evidence.json",
-  "data/lore_decks/drafts/original_primeval_dragons_printing_evidence.json"
+  "data/lore_decks/drafts/original_primeval_dragons_printing_evidence.json",
+  "data/lore_decks/drafts/ugins_allies_and_heroes_printing_evidence.json"
  ],
  "curated_lore_graph": "data/lore_graph.json",
  "name_anchor_packs": [

@@ -7,7 +7,7 @@
   "HYPOTHETICAL": "Creative or deckbuilding connection; never canon.",
   "OPEN_QUESTION": "Primary sources leave the matter unresolved; do not assert either way."
  },
- "content_sha256": "ef6403bd7a2c34fe6cd32261befb5e808b2c6db2c7c989fb163e9cb5dbd2d46a",
+ "content_sha256": "6a0505e3df8f2de9c1fbc2d8c8dfd80e3af34fe2b1ebefc7dfa1a4111e1e0873",
  "edges": [
   {
    "artists": [
@@ -1427,6 +1427,78 @@
    "to": "deck:original_primeval_dragons"
   },
   {
+   "beat": "I. The Lithomancer, the vampire and the spirit dragon seal the Eldrazi",
+   "claims": [
+    "U001",
+    "U003"
+   ],
+   "from": "card:nahiri_the_lithomancer",
+   "printing": "9a226eae-1c77-45a9-9115-f846b76681a3",
+   "relation": "proposed_in",
+   "tier": "CANON_REFERENCE",
+   "to": "deck:ugins_allies_and_heroes"
+  },
+  {
+   "beat": "I. The Lithomancer, the vampire and the spirit dragon seal the Eldrazi",
+   "claims": [
+    "U001"
+   ],
+   "from": "card:sorin_markov",
+   "printing": "29606aca-f23f-4dfe-b685-2065193109c8",
+   "relation": "proposed_in",
+   "tier": "CANON_REFERENCE",
+   "to": "deck:ugins_allies_and_heroes"
+  },
+  {
+   "beat": "I. The Lithomancer, the vampire and the spirit dragon seal the Eldrazi",
+   "claims": [
+    "U001"
+   ],
+   "from": "card:ulamog_the_infinite_gyre",
+   "printing": "225e3cc6-34d0-4f81-9f49-162d97e2ea59",
+   "relation": "proposed_in",
+   "tier": "CANON_REFERENCE",
+   "to": "deck:ugins_allies_and_heroes"
+  },
+  {
+   "beat": "I. The Lithomancer, the vampire and the spirit dragon seal the Eldrazi",
+   "claims": [
+    "U002"
+   ],
+   "from": "card:eye_of_ugin",
+   "printing": "c3b21941-1b7d-4fde-8b1d-7edbd5e5b796",
+   "relation": "proposed_in",
+   "tier": "CANON_REFERENCE",
+   "to": "deck:ugins_allies_and_heroes"
+  },
+  {
+   "beat": "I. The Lithomancer, the vampire and the spirit dragon seal the Eldrazi",
+   "claims": [],
+   "from": "card:all_is_dust",
+   "printing": "62dba377-7446-4517-a504-ee04568fd6cf",
+   "relation": "proposed_in",
+   "tier": "LORE_INSPIRED",
+   "to": "deck:ugins_allies_and_heroes"
+  },
+  {
+   "beat": "I. The Lithomancer, the vampire and the spirit dragon seal the Eldrazi",
+   "claims": [],
+   "from": "card:hedron_archive",
+   "printing": "2519149c-f8a3-413f-b7b2-cd596970be4c",
+   "relation": "proposed_in",
+   "tier": "LORE_INSPIRED",
+   "to": "deck:ugins_allies_and_heroes"
+  },
+  {
+   "beat": "I. The Lithomancer, the vampire and the spirit dragon seal the Eldrazi",
+   "claims": [],
+   "from": "card:perilous_vault",
+   "printing": "9a5f1810-a852-454f-b1d6-eb40ea4e0148",
+   "relation": "proposed_in",
+   "tier": "LORE_INSPIRED",
+   "to": "deck:ugins_allies_and_heroes"
+  },
+  {
    "beat": "I. Twin Elder Dragons of Dominaria and the Elder Dragon War",
    "claims": [
     "A001",
@@ -1594,6 +1666,180 @@
    "relation": "proposed_in",
    "tier": "CANON_REFERENCE",
    "to": "deck:ugin_bolas_elder_dragon_duality"
+  },
+  {
+   "beat": "II. The warden left alone",
+   "claims": [
+    "U003"
+   ],
+   "from": "card:ulamog_the_ceaseless_hunger",
+   "printing": "1192f7a9-102e-4b3a-b154-18c8eb332217",
+   "relation": "proposed_in",
+   "tier": "CANON_REFERENCE",
+   "to": "deck:ugins_allies_and_heroes"
+  },
+  {
+   "beat": "II. The warden left alone",
+   "claims": [
+    "U005"
+   ],
+   "from": "card:nahiri_the_harbinger",
+   "printing": "84d70487-21d1-4897-ac20-2a996e893b5b",
+   "relation": "proposed_in",
+   "tier": "CANON_REFERENCE",
+   "to": "deck:ugins_allies_and_heroes"
+  },
+  {
+   "beat": "II. The warden left alone",
+   "claims": [],
+   "from": "card:avacyn_angel_of_hope",
+   "printing": "ba149706-cd17-4da6-8403-ccfe2d6cb437",
+   "relation": "proposed_in",
+   "tier": "LORE_INSPIRED",
+   "to": "deck:ugins_allies_and_heroes"
+  },
+  {
+   "beat": "II. The warden left alone",
+   "claims": [],
+   "from": "card:cliffside_lookout",
+   "printing": "8c755ae6-badc-4dc8-bfa6-fdebcb00bfba",
+   "relation": "proposed_in",
+   "tier": "LORE_INSPIRED",
+   "to": "deck:ugins_allies_and_heroes"
+  },
+  {
+   "beat": "II. The warden left alone",
+   "claims": [],
+   "from": "card:helvault",
+   "printing": "16d2448c-1b2e-466a-a0ab-e20ba1de6bc9",
+   "relation": "proposed_in",
+   "tier": "LORE_INSPIRED",
+   "to": "deck:ugins_allies_and_heroes"
+  },
+  {
+   "beat": "II. The warden left alone",
+   "claims": [],
+   "from": "card:magma_rift",
+   "printing": "ee526306-6959-421c-9969-3c19b666d6da",
+   "relation": "proposed_in",
+   "tier": "LORE_INSPIRED",
+   "to": "deck:ugins_allies_and_heroes"
+  },
+  {
+   "beat": "II. The warden left alone",
+   "claims": [],
+   "from": "card:paraselene",
+   "printing": "406380ab-2695-4084-99a5-f5560304f8cb",
+   "relation": "proposed_in",
+   "tier": "LORE_INSPIRED",
+   "to": "deck:ugins_allies_and_heroes"
+  },
+  {
+   "beat": "III. Tarkir: Sorin seeks Ugin, and Sarkhan rewrites the past",
+   "claims": [
+    "U006"
+   ],
+   "from": "card:sorin_solemn_visitor",
+   "printing": "da1a9643-34d6-4b4b-b896-2d4626eca40a",
+   "relation": "proposed_in",
+   "tier": "CANON_REFERENCE",
+   "to": "deck:ugins_allies_and_heroes"
+  },
+  {
+   "beat": "III. Tarkir: Sorin seeks Ugin, and Sarkhan rewrites the past",
+   "claims": [
+    "U007"
+   ],
+   "from": "card:ugin_the_spirit_dragon",
+   "printing": "58c1e824-c8a9-4312-8e4c-a29a26d189a4",
+   "relation": "proposed_in",
+   "tier": "CANON_REFERENCE",
+   "to": "deck:ugins_allies_and_heroes"
+  },
+  {
+   "beat": "III. Tarkir: Sorin seeks Ugin, and Sarkhan rewrites the past",
+   "claims": [
+    "U008"
+   ],
+   "from": "card:sarkhan_the_dragonspeaker",
+   "printing": "c58064fd-4d8b-4f54-812f-0bb1d7e2ddc2",
+   "relation": "proposed_in",
+   "tier": "CANON_REFERENCE",
+   "to": "deck:ugins_allies_and_heroes"
+  },
+  {
+   "beat": "III. Tarkir: Sorin seeks Ugin, and Sarkhan rewrites the past",
+   "claims": [
+    "U009"
+   ],
+   "from": "card:narset_transcendent",
+   "printing": "4816d092-e34b-4397-8599-43d8e85a8f39",
+   "relation": "proposed_in",
+   "tier": "CANON_REFERENCE",
+   "to": "deck:ugins_allies_and_heroes"
+  },
+  {
+   "beat": "III. Tarkir: Sorin seeks Ugin, and Sarkhan rewrites the past",
+   "claims": [],
+   "from": "card:bitter_revelation",
+   "printing": "e42f5aa9-2a47-47c3-ab87-dc25735b0e54",
+   "relation": "proposed_in",
+   "tier": "LORE_INSPIRED",
+   "to": "deck:ugins_allies_and_heroes"
+  },
+  {
+   "beat": "III. Tarkir: Sorin seeks Ugin, and Sarkhan rewrites the past",
+   "claims": [],
+   "from": "card:cruel_ultimatum",
+   "printing": "73430a6c-7196-4f6c-91d6-50fcc8b0eedb",
+   "relation": "proposed_in",
+   "tier": "LORE_INSPIRED",
+   "to": "deck:ugins_allies_and_heroes"
+  },
+  {
+   "beat": "III. Tarkir: Sorin seeks Ugin, and Sarkhan rewrites the past",
+   "claims": [],
+   "from": "card:dragon_tempest",
+   "printing": "cefac283-8491-4d11-9a40-0e90cbeac19f",
+   "relation": "proposed_in",
+   "tier": "LORE_INSPIRED",
+   "to": "deck:ugins_allies_and_heroes"
+  },
+  {
+   "beat": "III. Tarkir: Sorin seeks Ugin, and Sarkhan rewrites the past",
+   "claims": [],
+   "from": "card:learn_from_the_past",
+   "printing": "347c6e76-dba4-4448-a4f4-d9591d4539c7",
+   "relation": "proposed_in",
+   "tier": "LORE_INSPIRED",
+   "to": "deck:ugins_allies_and_heroes"
+  },
+  {
+   "beat": "III. Tarkir: Sorin seeks Ugin, and Sarkhan rewrites the past",
+   "claims": [],
+   "from": "card:scion_of_ugin",
+   "printing": "302d62d6-8abf-4693-974c-bef6841b394f",
+   "relation": "proposed_in",
+   "tier": "LORE_INSPIRED",
+   "to": "deck:ugins_allies_and_heroes"
+  },
+  {
+   "beat": "III. Tarkir: Sorin seeks Ugin, and Sarkhan rewrites the past",
+   "claims": [],
+   "from": "card:soul_summons",
+   "printing": "fb884ac2-c990-4ab0-8610-e07d93da2f13",
+   "relation": "proposed_in",
+   "tier": "LORE_INSPIRED",
+   "to": "deck:ugins_allies_and_heroes"
+  },
+  {
+   "beat": "III. Tarkir: Sorin seeks Ugin, and Sarkhan rewrites the past",
+   "claims": [],
+   "from": "card:tormenting_voice",
+   "printing": "25af9ac1-a03b-4be7-b726-fb66427b1caa",
+   "relation": "proposed_in",
+   "tier": "LORE_INSPIRED",
+   "to": "deck:ugins_allies_and_heroes"
   },
   {
    "beat": "III. The Primeval Dragons: heirs of the Elder Dragons",
@@ -1973,6 +2219,89 @@
    "to": "deck:ugin_bolas_elder_dragon_duality"
   },
   {
+   "beat": "IV. Zendikar: Jace at the Eye, and the alliance that did not reunite",
+   "claims": [
+    "U010"
+   ],
+   "from": "card:jace_unraveler_of_secrets",
+   "printing": "20d5521d-e9f1-49e0-aa13-8e6de794cb12",
+   "relation": "proposed_in",
+   "tier": "CANON_REFERENCE",
+   "to": "deck:ugins_allies_and_heroes"
+  },
+  {
+   "beat": "IV. Zendikar: Jace at the Eye, and the alliance that did not reunite",
+   "claims": [],
+   "from": "card:call_the_gatewatch",
+   "printing": "4719ac60-2cff-4abb-b9cc-b677d3ac945c",
+   "relation": "proposed_in",
+   "tier": "LORE_INSPIRED",
+   "to": "deck:ugins_allies_and_heroes"
+  },
+  {
+   "beat": "IV. Zendikar: Jace at the Eye, and the alliance that did not reunite",
+   "claims": [],
+   "from": "card:dispel",
+   "printing": "08d4a8d7-c136-472f-8146-a1100701ca4f",
+   "relation": "proposed_in",
+   "tier": "LORE_INSPIRED",
+   "to": "deck:ugins_allies_and_heroes"
+  },
+  {
+   "beat": "IV. Zendikar: Jace at the Eye, and the alliance that did not reunite",
+   "claims": [],
+   "from": "card:oath_of_chandra",
+   "printing": "f570b0cb-2f38-422d-89d6-22c85e085328",
+   "relation": "proposed_in",
+   "tier": "LORE_INSPIRED",
+   "to": "deck:ugins_allies_and_heroes"
+  },
+  {
+   "beat": "IV. Zendikar: Jace at the Eye, and the alliance that did not reunite",
+   "claims": [],
+   "from": "card:oath_of_gideon",
+   "printing": "97976ade-c6ec-4068-be6b-953255b86a79",
+   "relation": "proposed_in",
+   "tier": "LORE_INSPIRED",
+   "to": "deck:ugins_allies_and_heroes"
+  },
+  {
+   "beat": "IV. Zendikar: Jace at the Eye, and the alliance that did not reunite",
+   "claims": [],
+   "from": "card:oath_of_jace",
+   "printing": "e8e7b007-a14b-40b2-9de7-38545c50a073",
+   "relation": "proposed_in",
+   "tier": "LORE_INSPIRED",
+   "to": "deck:ugins_allies_and_heroes"
+  },
+  {
+   "beat": "IV. Zendikar: Jace at the Eye, and the alliance that did not reunite",
+   "claims": [],
+   "from": "card:salvage_drone",
+   "printing": "4b8ce2a9-9d8e-442b-bc12-74545ceb65bd",
+   "relation": "proposed_in",
+   "tier": "LORE_INSPIRED",
+   "to": "deck:ugins_allies_and_heroes"
+  },
+  {
+   "beat": "IV. Zendikar: Jace at the Eye, and the alliance that did not reunite",
+   "claims": [],
+   "from": "card:unity_of_purpose",
+   "printing": "6f87292c-0140-44d7-881e-2e8c9ff737a1",
+   "relation": "proposed_in",
+   "tier": "LORE_INSPIRED",
+   "to": "deck:ugins_allies_and_heroes"
+  },
+  {
+   "beat": "IV. Zendikar: Jace at the Eye, and the alliance that did not reunite",
+   "claims": [],
+   "from": "card:zada_hedron_grinder",
+   "printing": "fc0969f1-92a0-47c3-8eff-d106fbef2f7e",
+   "relation": "proposed_in",
+   "tier": "LORE_INSPIRED",
+   "to": "deck:ugins_allies_and_heroes"
+  },
+  {
    "beat": "V. Amonkhet: the God-Pharaoh and the Hour of Devastation",
    "claims": [],
    "from": "card:chandra_s_defeat",
@@ -2097,6 +2426,48 @@
    "relation": "proposed_in",
    "tier": "CANON_REFERENCE",
    "to": "deck:ugin_bolas_elder_dragon_duality"
+  },
+  {
+   "beat": "V. Tarkir: Dragonstorm: the gem, the brothers and Narset",
+   "claims": [
+    "U014"
+   ],
+   "from": "card:ugin_eye_of_the_storms",
+   "printing": "64a5d494-efa1-446b-bebe-2ad36e154376",
+   "relation": "proposed_in",
+   "tier": "CANON_REFERENCE",
+   "to": "deck:ugins_allies_and_heroes"
+  },
+  {
+   "beat": "V. Tarkir: Dragonstorm: the gem, the brothers and Narset",
+   "claims": [
+    "U015"
+   ],
+   "from": "card:narset_jeskai_waymaster",
+   "printing": "6b77cbc1-dbc8-44d9-aa29-15cbb19afecd",
+   "relation": "proposed_in",
+   "tier": "CANON_REFERENCE",
+   "to": "deck:ugins_allies_and_heroes"
+  },
+  {
+   "beat": "V. Tarkir: Dragonstorm: the gem, the brothers and Narset",
+   "claims": [
+    "U015"
+   ],
+   "from": "card:nicol_bolas_the_ravager_nicol_bolas_the_arisen",
+   "printing": "7b215968-93a6-4278-ac61-4e3e8c3c3943",
+   "relation": "proposed_in",
+   "tier": "CANON_REFERENCE",
+   "to": "deck:ugins_allies_and_heroes"
+  },
+  {
+   "beat": "V. Tarkir: Dragonstorm: the gem, the brothers and Narset",
+   "claims": [],
+   "from": "card:elspeth_storm_slayer",
+   "printing": "73a065e3-b530-4e62-ab3c-4f6f908184ec",
+   "relation": "proposed_in",
+   "tier": "LORE_INSPIRED",
+   "to": "deck:ugins_allies_and_heroes"
   },
   {
    "beat": "VI. War of the Spark: the Elderspell, the fall, the prison",
@@ -2260,6 +2631,19 @@
   },
   {
    "beat": "commander",
+   "claims": [
+    "U010",
+    "U011",
+    "U013"
+   ],
+   "from": "card:jace_multiverse_architect",
+   "printing": "55cd03d9-2535-4cf3-a8b2-1418e1190f4a",
+   "relation": "proposed_in",
+   "tier": "CANON_REFERENCE",
+   "to": "deck:ugins_allies_and_heroes"
+  },
+  {
+   "beat": "commander",
    "claims": [],
    "from": "card:nicol_bolas_the_ravager_nicol_bolas_the_arisen",
    "printing": "7b215968-93a6-4278-ac61-4e3e8c3c3943",
@@ -2288,6 +2672,24 @@
   {
    "beat": "playability",
    "claims": [],
+   "from": "card:anguished_unmaking",
+   "printing": "90ced4fa-6509-4f7a-9da7-efc70de6f90c",
+   "relation": "proposed_in",
+   "tier": "MECHANICAL_SYMBOL",
+   "to": "deck:ugins_allies_and_heroes"
+  },
+  {
+   "beat": "playability",
+   "claims": [],
+   "from": "card:arcane_denial",
+   "printing": "b0c5728e-43e7-417a-ba18-5038345cec67",
+   "relation": "proposed_in",
+   "tier": "MECHANICAL_SYMBOL",
+   "to": "deck:ugins_allies_and_heroes"
+  },
+  {
+   "beat": "playability",
+   "claims": [],
    "from": "card:arcane_signet",
    "printing": "84128e98-87d6-4c2f-909b-9435a7833e63",
    "relation": "proposed_in",
@@ -2302,6 +2704,15 @@
    "relation": "proposed_in",
    "tier": "MECHANICAL_SYMBOL",
    "to": "deck:ugin_bolas_elder_dragon_duality"
+  },
+  {
+   "beat": "playability",
+   "claims": [],
+   "from": "card:arcane_signet",
+   "printing": "84128e98-87d6-4c2f-909b-9435a7833e63",
+   "relation": "proposed_in",
+   "tier": "MECHANICAL_SYMBOL",
+   "to": "deck:ugins_allies_and_heroes"
   },
   {
    "beat": "playability",
@@ -2324,6 +2735,24 @@
   {
    "beat": "playability",
    "claims": [],
+   "from": "card:blood_crypt",
+   "printing": "f281e16f-0fe1-4095-bd63-0a4479f75c11",
+   "relation": "proposed_in",
+   "tier": "MECHANICAL_SYMBOL",
+   "to": "deck:ugins_allies_and_heroes"
+  },
+  {
+   "beat": "playability",
+   "claims": [],
+   "from": "card:brainstorm",
+   "printing": "8d42d7aa-7f53-4cfc-842a-086aab2448d1",
+   "relation": "proposed_in",
+   "tier": "MECHANICAL_SYMBOL",
+   "to": "deck:ugins_allies_and_heroes"
+  },
+  {
+   "beat": "playability",
+   "claims": [],
    "from": "card:cavern_of_souls",
    "printing": "1381c8f1-a292-4bdf-b20c-a5c2a169ee84",
    "relation": "proposed_in",
@@ -2338,6 +2767,15 @@
    "relation": "proposed_in",
    "tier": "MECHANICAL_SYMBOL",
    "to": "deck:original_primeval_dragons"
+  },
+  {
+   "beat": "playability",
+   "claims": [],
+   "from": "card:chaos_warp",
+   "printing": "042431bc-0b21-4920-802f-6dd02e4c8721",
+   "relation": "proposed_in",
+   "tier": "MECHANICAL_SYMBOL",
+   "to": "deck:ugins_allies_and_heroes"
   },
   {
    "beat": "playability",
@@ -2360,6 +2798,15 @@
   {
    "beat": "playability",
    "claims": [],
+   "from": "card:city_of_brass",
+   "printing": "f4e32327-380d-471e-813b-4c27477787ce",
+   "relation": "proposed_in",
+   "tier": "MECHANICAL_SYMBOL",
+   "to": "deck:ugins_allies_and_heroes"
+  },
+  {
+   "beat": "playability",
+   "claims": [],
    "from": "card:command_tower",
    "printing": "46982091-cc78-4171-8b3d-d07592684728",
    "relation": "proposed_in",
@@ -2378,8 +2825,53 @@
   {
    "beat": "playability",
    "claims": [],
+   "from": "card:command_tower",
+   "printing": "46982091-cc78-4171-8b3d-d07592684728",
+   "relation": "proposed_in",
+   "tier": "MECHANICAL_SYMBOL",
+   "to": "deck:ugins_allies_and_heroes"
+  },
+  {
+   "beat": "playability",
+   "claims": [],
+   "from": "card:counterspell",
+   "printing": "0df55e3f-14de-46ef-b6b1-616618724d9e",
+   "relation": "proposed_in",
+   "tier": "MECHANICAL_SYMBOL",
+   "to": "deck:ugins_allies_and_heroes"
+  },
+  {
+   "beat": "playability",
+   "claims": [],
    "from": "card:cultivate",
    "printing": "2ef3dbe4-5c03-4be4-ab48-45b6689b6712",
+   "relation": "proposed_in",
+   "tier": "MECHANICAL_SYMBOL",
+   "to": "deck:original_primeval_dragons"
+  },
+  {
+   "beat": "playability",
+   "claims": [],
+   "from": "card:damnation",
+   "printing": "26c68473-70ca-40ba-b5c6-71ec30f88a2c",
+   "relation": "proposed_in",
+   "tier": "MECHANICAL_SYMBOL",
+   "to": "deck:ugins_allies_and_heroes"
+  },
+  {
+   "beat": "playability",
+   "claims": [],
+   "from": "card:deepglow_skate",
+   "printing": "0f7c787f-2134-4cfd-901f-d5e45e62de1e",
+   "relation": "proposed_in",
+   "tier": "MECHANICAL_SYMBOL",
+   "to": "deck:ugins_allies_and_heroes"
+  },
+  {
+   "beat": "playability",
+   "claims": [],
+   "from": "card:despark",
+   "printing": "32b17dfc-b916-4134-ba77-501cff435e7e",
    "relation": "proposed_in",
    "tier": "MECHANICAL_SYMBOL",
    "to": "deck:original_primeval_dragons"
@@ -2391,7 +2883,7 @@
    "printing": "32b17dfc-b916-4134-ba77-501cff435e7e",
    "relation": "proposed_in",
    "tier": "MECHANICAL_SYMBOL",
-   "to": "deck:original_primeval_dragons"
+   "to": "deck:ugins_allies_and_heroes"
   },
   {
    "beat": "playability",
@@ -2432,11 +2924,65 @@
   {
    "beat": "playability",
    "claims": [],
+   "from": "card:exotic_orchard",
+   "printing": "6aae6480-4e71-4d94-a648-f80d3849d792",
+   "relation": "proposed_in",
+   "tier": "MECHANICAL_SYMBOL",
+   "to": "deck:ugins_allies_and_heroes"
+  },
+  {
+   "beat": "playability",
+   "claims": [],
+   "from": "card:fact_or_fiction",
+   "printing": "7fd4d018-dcf3-4439-8445-02d66e44f7d3",
+   "relation": "proposed_in",
+   "tier": "MECHANICAL_SYMBOL",
+   "to": "deck:ugins_allies_and_heroes"
+  },
+  {
+   "beat": "playability",
+   "claims": [],
    "from": "card:farseek",
    "printing": "8180abec-9459-4b81-987e-b1794e45d543",
    "relation": "proposed_in",
    "tier": "MECHANICAL_SYMBOL",
    "to": "deck:original_primeval_dragons"
+  },
+  {
+   "beat": "playability",
+   "claims": [],
+   "from": "card:fellwar_stone",
+   "printing": "dc47e322-f8b8-4685-b035-fda0cc433e6b",
+   "relation": "proposed_in",
+   "tier": "MECHANICAL_SYMBOL",
+   "to": "deck:ugins_allies_and_heroes"
+  },
+  {
+   "beat": "playability",
+   "claims": [],
+   "from": "card:flux_channeler",
+   "printing": "c6202e82-e159-482f-9224-292cb533171c",
+   "relation": "proposed_in",
+   "tier": "MECHANICAL_SYMBOL",
+   "to": "deck:ugins_allies_and_heroes"
+  },
+  {
+   "beat": "playability",
+   "claims": [],
+   "from": "card:godless_shrine",
+   "printing": "be010c2f-06db-47e3-80bd-df3f2a21ca34",
+   "relation": "proposed_in",
+   "tier": "MECHANICAL_SYMBOL",
+   "to": "deck:ugins_allies_and_heroes"
+  },
+  {
+   "beat": "playability",
+   "claims": [],
+   "from": "card:hallowed_fountain",
+   "printing": "c28aea19-2a39-4934-afda-909e234fa3ba",
+   "relation": "proposed_in",
+   "tier": "MECHANICAL_SYMBOL",
+   "to": "deck:ugins_allies_and_heroes"
   },
   {
    "beat": "playability",
@@ -2455,6 +3001,15 @@
    "relation": "proposed_in",
    "tier": "MECHANICAL_SYMBOL",
    "to": "deck:original_primeval_dragons"
+  },
+  {
+   "beat": "playability",
+   "claims": [],
+   "from": "card:hero_s_downfall",
+   "printing": "596822f6-dbd4-4cc8-aa50-9331ff42544e",
+   "relation": "proposed_in",
+   "tier": "MECHANICAL_SYMBOL",
+   "to": "deck:ugins_allies_and_heroes"
   },
   {
    "beat": "playability",
@@ -2513,11 +3068,38 @@
   {
    "beat": "playability",
    "claims": [],
+   "from": "card:mana_confluence",
+   "printing": "504a69eb-3c2d-4bb1-b117-252b15acf0c2",
+   "relation": "proposed_in",
+   "tier": "MECHANICAL_SYMBOL",
+   "to": "deck:ugins_allies_and_heroes"
+  },
+  {
+   "beat": "playability",
+   "claims": [],
+   "from": "card:mind_stone",
+   "printing": "162e81d3-6cd4-4cb8-8ed8-cfbd8d34ca71",
+   "relation": "proposed_in",
+   "tier": "MECHANICAL_SYMBOL",
+   "to": "deck:ugins_allies_and_heroes"
+  },
+  {
+   "beat": "playability",
+   "claims": [],
    "from": "card:nature_s_lore",
    "printing": "668d2969-b6b7-4507-bdd4-20bbaa68035a",
    "relation": "proposed_in",
    "tier": "MECHANICAL_SYMBOL",
    "to": "deck:original_primeval_dragons"
+  },
+  {
+   "beat": "playability",
+   "claims": [],
+   "from": "card:oath_of_teferi",
+   "printing": "5a7fadca-0a94-4624-ab95-2c2410829824",
+   "relation": "proposed_in",
+   "tier": "MECHANICAL_SYMBOL",
+   "to": "deck:ugins_allies_and_heroes"
   },
   {
    "beat": "playability",
@@ -2531,11 +3113,38 @@
   {
    "beat": "playability",
    "claims": [],
+   "from": "card:path_to_exile",
+   "printing": "29b7a8b1-b98e-483a-87a4-73bd831c03d4",
+   "relation": "proposed_in",
+   "tier": "MECHANICAL_SYMBOL",
+   "to": "deck:ugins_allies_and_heroes"
+  },
+  {
+   "beat": "playability",
+   "claims": [],
+   "from": "card:ponder",
+   "printing": "ba6b6fc5-5077-4812-b8e9-906783dbaf67",
+   "relation": "proposed_in",
+   "tier": "MECHANICAL_SYMBOL",
+   "to": "deck:ugins_allies_and_heroes"
+  },
+  {
+   "beat": "playability",
+   "claims": [],
    "from": "card:raffine_s_tower",
    "printing": "a2c56479-4bee-4edb-80d7-4af010b7c793",
    "relation": "proposed_in",
    "tier": "MECHANICAL_SYMBOL",
    "to": "deck:original_primeval_dragons"
+  },
+  {
+   "beat": "playability",
+   "claims": [],
+   "from": "card:raffine_s_tower",
+   "printing": "a2c56479-4bee-4edb-80d7-4af010b7c793",
+   "relation": "proposed_in",
+   "tier": "MECHANICAL_SYMBOL",
+   "to": "deck:ugins_allies_and_heroes"
   },
   {
    "beat": "playability",
@@ -2558,6 +3167,24 @@
   {
    "beat": "playability",
    "claims": [],
+   "from": "card:raugrin_triome",
+   "printing": "02138fbb-3962-4348-8d31-faaefba0b8b2",
+   "relation": "proposed_in",
+   "tier": "MECHANICAL_SYMBOL",
+   "to": "deck:ugins_allies_and_heroes"
+  },
+  {
+   "beat": "playability",
+   "claims": [],
+   "from": "card:sacred_foundry",
+   "printing": "168ef687-5797-4b45-b75b-393d8117cebd",
+   "relation": "proposed_in",
+   "tier": "MECHANICAL_SYMBOL",
+   "to": "deck:ugins_allies_and_heroes"
+  },
+  {
+   "beat": "playability",
+   "claims": [],
    "from": "card:sarkhan_s_unsealing",
    "printing": "edfa8c8c-8013-46d5-8e80-3d9285fe81c8",
    "relation": "proposed_in",
@@ -2572,6 +3199,15 @@
    "relation": "proposed_in",
    "tier": "MECHANICAL_SYMBOL",
    "to": "deck:original_primeval_dragons"
+  },
+  {
+   "beat": "playability",
+   "claims": [],
+   "from": "card:savai_triome",
+   "printing": "748e6a61-9c1f-4225-9f04-e54002f63ac3",
+   "relation": "proposed_in",
+   "tier": "MECHANICAL_SYMBOL",
+   "to": "deck:ugins_allies_and_heroes"
   },
   {
    "beat": "playability",
@@ -2603,6 +3239,15 @@
   {
    "beat": "playability",
    "claims": [],
+   "from": "card:sol_ring",
+   "printing": "c4300d24-1cae-4dd5-be7e-38cc677cf5bd",
+   "relation": "proposed_in",
+   "tier": "MECHANICAL_SYMBOL",
+   "to": "deck:ugins_allies_and_heroes"
+  },
+  {
+   "beat": "playability",
+   "claims": [],
    "from": "card:spara_s_headquarters",
    "printing": "7363f1fb-9af3-4212-921f-d59533faf0e5",
    "relation": "proposed_in",
@@ -2617,6 +3262,15 @@
    "relation": "proposed_in",
    "tier": "MECHANICAL_SYMBOL",
    "to": "deck:ugin_bolas_elder_dragon_duality"
+  },
+  {
+   "beat": "playability",
+   "claims": [],
+   "from": "card:steam_vents",
+   "printing": "054f2276-2dd5-43da-bb26-c57c560861fe",
+   "relation": "proposed_in",
+   "tier": "MECHANICAL_SYMBOL",
+   "to": "deck:ugins_allies_and_heroes"
   },
   {
    "beat": "playability",
@@ -2639,11 +3293,38 @@
   {
    "beat": "playability",
    "claims": [],
+   "from": "card:supreme_verdict",
+   "printing": "4e9648f9-7a67-4717-bca1-861d1f7fed43",
+   "relation": "proposed_in",
+   "tier": "MECHANICAL_SYMBOL",
+   "to": "deck:ugins_allies_and_heroes"
+  },
+  {
+   "beat": "playability",
+   "claims": [],
    "from": "card:swords_to_plowshares",
    "printing": "386ea9eb-abc1-4862-aa2d-8fb808d79490",
    "relation": "proposed_in",
    "tier": "MECHANICAL_SYMBOL",
    "to": "deck:original_primeval_dragons"
+  },
+  {
+   "beat": "playability",
+   "claims": [],
+   "from": "card:swords_to_plowshares",
+   "printing": "386ea9eb-abc1-4862-aa2d-8fb808d79490",
+   "relation": "proposed_in",
+   "tier": "MECHANICAL_SYMBOL",
+   "to": "deck:ugins_allies_and_heroes"
+  },
+  {
+   "beat": "playability",
+   "claims": [],
+   "from": "card:talisman_of_conviction",
+   "printing": "1dbce82d-1bc0-43c4-b4f7-7d1166d664e0",
+   "relation": "proposed_in",
+   "tier": "MECHANICAL_SYMBOL",
+   "to": "deck:ugins_allies_and_heroes"
   },
   {
    "beat": "playability",
@@ -2666,11 +3347,47 @@
   {
    "beat": "playability",
    "claims": [],
+   "from": "card:talisman_of_dominance",
+   "printing": "991037a2-fea2-49f5-8ace-ebbf9f678cff",
+   "relation": "proposed_in",
+   "tier": "MECHANICAL_SYMBOL",
+   "to": "deck:ugins_allies_and_heroes"
+  },
+  {
+   "beat": "playability",
+   "claims": [],
    "from": "card:talisman_of_indulgence",
    "printing": "e14011b3-56ce-4b93-833f-d8403809159c",
    "relation": "proposed_in",
    "tier": "MECHANICAL_SYMBOL",
    "to": "deck:ugin_bolas_elder_dragon_duality"
+  },
+  {
+   "beat": "playability",
+   "claims": [],
+   "from": "card:talisman_of_indulgence",
+   "printing": "e14011b3-56ce-4b93-833f-d8403809159c",
+   "relation": "proposed_in",
+   "tier": "MECHANICAL_SYMBOL",
+   "to": "deck:ugins_allies_and_heroes"
+  },
+  {
+   "beat": "playability",
+   "claims": [],
+   "from": "card:talisman_of_progress",
+   "printing": "41ff849e-2439-4690-8aa4-769039b6da4c",
+   "relation": "proposed_in",
+   "tier": "MECHANICAL_SYMBOL",
+   "to": "deck:ugins_allies_and_heroes"
+  },
+  {
+   "beat": "playability",
+   "claims": [],
+   "from": "card:the_chain_veil",
+   "printing": "0415cc0e-979e-42cc-a56d-88d13153a7de",
+   "relation": "proposed_in",
+   "tier": "MECHANICAL_SYMBOL",
+   "to": "deck:ugins_allies_and_heroes"
   },
   {
    "beat": "playability",
@@ -2720,6 +3437,15 @@
   {
    "beat": "playability",
    "claims": [],
+   "from": "card:vindicate",
+   "printing": "2a1bfefd-dae8-49e9-9d56-cc852e3dc93b",
+   "relation": "proposed_in",
+   "tier": "MECHANICAL_SYMBOL",
+   "to": "deck:ugins_allies_and_heroes"
+  },
+  {
+   "beat": "playability",
+   "claims": [],
    "from": "card:watery_grave",
    "printing": "139b90cd-8272-457a-be32-1298145345be",
    "relation": "proposed_in",
@@ -2729,11 +3455,29 @@
   {
    "beat": "playability",
    "claims": [],
+   "from": "card:watery_grave",
+   "printing": "139b90cd-8272-457a-be32-1298145345be",
+   "relation": "proposed_in",
+   "tier": "MECHANICAL_SYMBOL",
+   "to": "deck:ugins_allies_and_heroes"
+  },
+  {
+   "beat": "playability",
+   "claims": [],
    "from": "card:xander_s_lounge",
    "printing": "54f449ff-4025-465e-9ec5-a5cf42c4c9d3",
    "relation": "proposed_in",
    "tier": "MECHANICAL_SYMBOL",
    "to": "deck:original_primeval_dragons"
+  },
+  {
+   "beat": "playability",
+   "claims": [],
+   "from": "card:xander_s_lounge",
+   "printing": "54f449ff-4025-465e-9ec5-a5cf42c4c9d3",
+   "relation": "proposed_in",
+   "tier": "MECHANICAL_SYMBOL",
+   "to": "deck:ugins_allies_and_heroes"
   },
   {
    "beat": "playability",
@@ -2783,6 +3527,15 @@
   {
    "beat": "story lands",
    "claims": [],
+   "from": "card:crucible_of_the_spirit_dragon",
+   "printing": "6bf563e0-1f42-4768-a667-3e120bdb6534",
+   "relation": "proposed_in",
+   "tier": "LORE_INSPIRED",
+   "to": "deck:ugins_allies_and_heroes"
+  },
+  {
+   "beat": "story lands",
+   "claims": [],
    "from": "card:crumbling_necropolis",
    "printing": "94da8e38-77a4-4d25-9e1f-f33c246f60c8",
    "relation": "proposed_in",
@@ -2819,11 +3572,29 @@
   {
    "beat": "story lands",
    "claims": [],
+   "from": "card:haven_of_the_spirit_dragon",
+   "printing": "9910042e-091f-47da-ad29-8f76c9d3b8c1",
+   "relation": "proposed_in",
+   "tier": "LORE_INSPIRED",
+   "to": "deck:ugins_allies_and_heroes"
+  },
+  {
+   "beat": "story lands",
+   "claims": [],
    "from": "card:interplanar_beacon",
    "printing": "132d8e2a-e1dd-4867-8e8c-e48b9450b350",
    "relation": "proposed_in",
    "tier": "LORE_INSPIRED",
    "to": "deck:ugin_bolas_elder_dragon_duality"
+  },
+  {
+   "beat": "story lands",
+   "claims": [],
+   "from": "card:looming_spires",
+   "printing": "b88177a2-de41-417d-a8f1-07edf005b453",
+   "relation": "proposed_in",
+   "tier": "LORE_INSPIRED",
+   "to": "deck:ugins_allies_and_heroes"
   },
   {
    "beat": "story lands",
@@ -2837,11 +3608,38 @@
   {
    "beat": "story lands",
    "claims": [],
+   "from": "card:prairie_stream",
+   "printing": "9625911f-1dd3-4044-ac06-3c0c3198b6fd",
+   "relation": "proposed_in",
+   "tier": "LORE_INSPIRED",
+   "to": "deck:ugins_allies_and_heroes"
+  },
+  {
+   "beat": "story lands",
+   "claims": [],
    "from": "card:rith_s_grove",
    "printing": "740fa25d-9c1f-44eb-9eb4-0dd514cb315a",
    "relation": "proposed_in",
    "tier": "LORE_INSPIRED",
    "to": "deck:original_primeval_dragons"
+  },
+  {
+   "beat": "story lands",
+   "claims": [],
+   "from": "card:sanctum_of_ugin",
+   "printing": "86798d03-9f2d-46bd-a660-13c8dd5535ce",
+   "relation": "proposed_in",
+   "tier": "LORE_INSPIRED",
+   "to": "deck:ugins_allies_and_heroes"
+  },
+  {
+   "beat": "story lands",
+   "claims": [],
+   "from": "card:sea_gate_wreckage",
+   "printing": "cd42576b-9de5-4d77-9d30-1ef5b5a4fd73",
+   "relation": "proposed_in",
+   "tier": "LORE_INSPIRED",
+   "to": "deck:ugins_allies_and_heroes"
   },
   {
    "beat": "story lands",
@@ -2869,6 +3667,24 @@
    "relation": "proposed_in",
    "tier": "LORE_INSPIRED",
    "to": "deck:ugin_bolas_elder_dragon_duality"
+  },
+  {
+   "beat": "story lands",
+   "claims": [],
+   "from": "card:valakut_the_molten_pinnacle",
+   "printing": "37bce60d-2cb0-4772-9f5c-122a7ed426a0",
+   "relation": "proposed_in",
+   "tier": "LORE_INSPIRED",
+   "to": "deck:ugins_allies_and_heroes"
+  },
+  {
+   "beat": "story lands",
+   "claims": [],
+   "from": "card:wastes",
+   "printing": "9cc070d3-4b83-4684-9caf-063e5c473a77",
+   "relation": "proposed_in",
+   "tier": "LORE_INSPIRED",
+   "to": "deck:ugins_allies_and_heroes"
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
@@ -8545,6 +9361,11 @@
     "cards": 85,
     "file": "data/lore_decks/drafts/original_primeval_dragons_printing_evidence.json",
     "sha256": "e88ad609d22c7fa768513195c26c709ea0acc5ee33f99f3757a2eb95b99f3245"
+   },
+   {
+    "cards": 87,
+    "file": "data/lore_decks/drafts/ugins_allies_and_heroes_printing_evidence.json",
+    "sha256": "abcdf2bdbe2667898d799bd53e18a4da146d46a0063b1c153d80bb45d408ff9c"
    }
   ],
   "name_anchor_packs": [
@@ -8848,7 +9669,8 @@
    "name": "All Is Dust",
    "oracle_id": "14693689-d087-43b6-9c3f-63ab0648fc20",
    "origins": [
-    "story_art_captions_2026-10-30.json"
+    "story_art_captions_2026-10-30.json",
+    "ugins_allies_and_heroes_printing_evidence.json"
    ],
    "type": "Card"
   },
@@ -8866,7 +9688,8 @@
    "name": "Anguished Unmaking",
    "oracle_id": "ad09b3c3-c8e7-481c-8c45-e7f234935117",
    "origins": [
-    "original_primeval_dragons_printing_evidence.json"
+    "original_primeval_dragons_printing_evidence.json",
+    "ugins_allies_and_heroes_printing_evidence.json"
    ],
    "type": "Card"
   },
@@ -8892,12 +9715,22 @@
    "type": "Card"
   },
   {
+   "id": "card:arcane_denial",
+   "name": "Arcane Denial",
+   "oracle_id": "ab1cc360-b9de-48d9-9983-4dfe4a7d2a37",
+   "origins": [
+    "ugins_allies_and_heroes_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:arcane_signet",
    "name": "Arcane Signet",
    "oracle_id": "0bc7f093-bef0-4f1a-852c-4b75ebf54838",
    "origins": [
     "original_primeval_dragons_printing_evidence.json",
-    "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+    "ugin_bolas_elder_dragon_duality_printing_evidence.json",
+    "ugins_allies_and_heroes_printing_evidence.json"
    ],
    "type": "Card"
   },
@@ -8960,7 +9793,8 @@
    "name": "Avacyn, Angel of Hope",
    "oracle_id": "216cb26e-8da9-478b-bfbc-8030f7adee72",
    "origins": [
-    "story_art_captions_2026-10-30.json"
+    "story_art_captions_2026-10-30.json",
+    "ugins_allies_and_heroes_printing_evidence.json"
    ],
    "type": "Card"
   },
@@ -8997,7 +9831,8 @@
    "oracle_id": "f3e025ce-6114-42d0-842f-73366c853657",
    "origins": [
     "story_art_captions_2026-10-30.json",
-    "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+    "ugin_bolas_elder_dragon_duality_printing_evidence.json",
+    "ugins_allies_and_heroes_printing_evidence.json"
    ],
    "type": "Card"
   },
@@ -9015,7 +9850,8 @@
    "name": "Blood Crypt",
    "oracle_id": "43985bbc-a0f6-4812-984e-392bc8562633",
    "origins": [
-    "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+    "ugin_bolas_elder_dragon_duality_printing_evidence.json",
+    "ugins_allies_and_heroes_printing_evidence.json"
    ],
    "type": "Card"
   },
@@ -9025,6 +9861,15 @@
    "oracle_id": "2bd111bb-ce02-414c-b5b7-e0e037d8d96b",
    "origins": [
     "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:brainstorm",
+   "name": "Brainstorm",
+   "oracle_id": "36cd2364-d113-47d1-b2c4-b088d9eb88dd",
+   "origins": [
+    "ugins_allies_and_heroes_printing_evidence.json"
    ],
    "type": "Card"
   },
@@ -9061,7 +9906,8 @@
    "name": "Call the Gatewatch",
    "oracle_id": "652bfa31-b2eb-4cba-850f-1db02a83bb35",
    "origins": [
-    "story_art_captions_2026-10-30.json"
+    "story_art_captions_2026-10-30.json",
+    "ugins_allies_and_heroes_printing_evidence.json"
    ],
    "type": "Card"
   },
@@ -9133,7 +9979,8 @@
    "name": "Chaos Warp",
    "oracle_id": "07a0cba9-8768-4fd9-a3d5-b0f83b4bf8e8",
    "origins": [
-    "original_primeval_dragons_printing_evidence.json"
+    "original_primeval_dragons_printing_evidence.json",
+    "ugins_allies_and_heroes_printing_evidence.json"
    ],
    "type": "Card"
   },
@@ -9181,7 +10028,8 @@
    "name": "City of Brass",
    "oracle_id": "f25351e3-539b-4bbc-b92d-6480acf4d722",
    "origins": [
-    "original_primeval_dragons_printing_evidence.json"
+    "original_primeval_dragons_printing_evidence.json",
+    "ugins_allies_and_heroes_printing_evidence.json"
    ],
    "type": "Card"
   },
@@ -9190,7 +10038,8 @@
    "name": "Cliffside Lookout",
    "oracle_id": "97671aac-7322-44ae-8908-d573734db3af",
    "origins": [
-    "story_art_captions_2026-10-30.json"
+    "story_art_captions_2026-10-30.json",
+    "ugins_allies_and_heroes_printing_evidence.json"
    ],
    "type": "Card"
   },
@@ -9209,7 +10058,8 @@
    "oracle_id": "0895c9b7-ae7d-4bb3-af17-3b75deb50a25",
    "origins": [
     "original_primeval_dragons_printing_evidence.json",
-    "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+    "ugin_bolas_elder_dragon_duality_printing_evidence.json",
+    "ugins_allies_and_heroes_printing_evidence.json"
    ],
    "type": "Card"
   },
@@ -9219,6 +10069,15 @@
    "oracle_id": "fedb1947-9fa5-4655-8d02-b370fa63dd16",
    "origins": [
     "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:counterspell",
+   "name": "Counterspell",
+   "oracle_id": "cc187110-1148-4090-bbb8-e205694a39f5",
+   "origins": [
+    "ugins_allies_and_heroes_printing_evidence.json"
    ],
    "type": "Card"
   },
@@ -9283,7 +10142,8 @@
     "pack_a4_printing_art_matches_2026-10-30.json",
     "pack_a_tarkir_card_scenes_2026-10-30.json",
     "story_art_captions_2026-10-30.json",
-    "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+    "ugin_bolas_elder_dragon_duality_printing_evidence.json",
+    "ugins_allies_and_heroes_printing_evidence.json"
    ],
    "story_art_illustration_id": "12281ea1-2759-4c81-a881-e308c497fcf3",
    "type": "Card"
@@ -9293,7 +10153,8 @@
    "name": "Cruel Ultimatum",
    "oracle_id": "01294ac9-1a06-4ee8-b3b1-db1f07c9d94e",
    "origins": [
-    "story_art_captions_2026-10-30.json"
+    "story_art_captions_2026-10-30.json",
+    "ugins_allies_and_heroes_printing_evidence.json"
    ],
    "type": "Card"
   },
@@ -9368,7 +10229,8 @@
    "name": "Damnation",
    "oracle_id": "d57a8f0b-7989-4db5-8756-6f2690097252",
    "origins": [
-    "story_art_captions_2026-10-30.json"
+    "story_art_captions_2026-10-30.json",
+    "ugins_allies_and_heroes_printing_evidence.json"
    ],
    "type": "Card"
   },
@@ -9445,6 +10307,15 @@
    "type": "Card"
   },
   {
+   "id": "card:deepglow_skate",
+   "name": "Deepglow Skate",
+   "oracle_id": "debce64a-18bd-42f5-9e85-158c2242e9e9",
+   "origins": [
+    "ugins_allies_and_heroes_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:demonic_pact",
    "name": "Demonic Pact",
    "oracle_id": "19a2f0a0-9e68-4982-a5f5-b77d805befd7",
@@ -9467,7 +10338,8 @@
    "name": "Despark",
    "oracle_id": "bd16434d-55ea-4c5a-a9ef-752971a4af16",
    "origins": [
-    "original_primeval_dragons_printing_evidence.json"
+    "original_primeval_dragons_printing_evidence.json",
+    "ugins_allies_and_heroes_printing_evidence.json"
    ],
    "type": "Card"
   },
@@ -9495,7 +10367,8 @@
    "oracle_id": "6d7be242-a072-40ce-b540-95880506cccd",
    "origins": [
     "story_art_captions_2026-10-30.json",
-    "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+    "ugin_bolas_elder_dragon_duality_printing_evidence.json",
+    "ugins_allies_and_heroes_printing_evidence.json"
    ],
    "type": "Card"
   },
@@ -9531,7 +10404,8 @@
    "name": "Dragon Tempest",
    "oracle_id": "b9bacb46-fd1d-459b-81c2-d7d08fe73848",
    "origins": [
-    "story_art_captions_2026-10-30.json"
+    "story_art_captions_2026-10-30.json",
+    "ugins_allies_and_heroes_printing_evidence.json"
    ],
    "type": "Card"
   },
@@ -9653,6 +10527,15 @@
    "type": "Card"
   },
   {
+   "id": "card:elspeth_storm_slayer",
+   "name": "Elspeth, Storm Slayer",
+   "oracle_id": "f78af825-023a-42e9-8374-5c52303a1417",
+   "origins": [
+    "ugins_allies_and_heroes_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:elspeth_tirel",
    "name": "Elspeth Tirel",
    "oracle_id": "5f815e69-fdd6-4186-9317-25f5c7e0b08e",
@@ -9675,7 +10558,8 @@
    "name": "Exotic Orchard",
    "oracle_id": "27b047e3-0d41-45e2-98e9-9391d7923a1e",
    "origins": [
-    "original_primeval_dragons_printing_evidence.json"
+    "original_primeval_dragons_printing_evidence.json",
+    "ugins_allies_and_heroes_printing_evidence.json"
    ],
    "type": "Card"
   },
@@ -9702,7 +10586,17 @@
    "name": "Eye of Ugin",
    "oracle_id": "10d13ff6-c4d0-4753-8939-a8a90f0e92bb",
    "origins": [
-    "card_name_anchors_2026-10-30.json"
+    "card_name_anchors_2026-10-30.json",
+    "ugins_allies_and_heroes_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:fact_or_fiction",
+   "name": "Fact or Fiction",
+   "oracle_id": "437b2dab-15e0-4b9a-a204-58622d37a3b3",
+   "origins": [
+    "ugins_allies_and_heroes_printing_evidence.json"
    ],
    "type": "Card"
   },
@@ -9721,6 +10615,15 @@
    "oracle_id": "b6e87f78-d4dd-44b2-bf70-92436ce583c9",
    "origins": [
     "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:fellwar_stone",
+   "name": "Fellwar Stone",
+   "oracle_id": "95560508-7ac9-4be9-8a3f-3c7d5b52807b",
+   "origins": [
+    "ugins_allies_and_heroes_printing_evidence.json"
    ],
    "type": "Card"
   },
@@ -9748,6 +10651,15 @@
    "oracle_id": "755bd5d8-67f1-4f24-a4e8-d98edf2f2e03",
    "origins": [
     "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:flux_channeler",
+   "name": "Flux Channeler",
+   "oracle_id": "83874e60-291b-47a7-ba9f-69437fa7e3c7",
+   "origins": [
+    "ugins_allies_and_heroes_printing_evidence.json"
    ],
    "type": "Card"
   },
@@ -9879,6 +10791,15 @@
    "type": "Card"
   },
   {
+   "id": "card:godless_shrine",
+   "name": "Godless Shrine",
+   "oracle_id": "73864fcc-1bde-4bc0-831e-2b93e546e417",
+   "origins": [
+    "ugins_allies_and_heroes_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:golgothian_sylex",
    "name": "Golgothian Sylex",
    "oracle_id": "95197f8f-c24e-4d13-a106-7186b3cc59e0",
@@ -9893,6 +10814,15 @@
    "oracle_id": "0fb90df6-a62b-4a9f-ae79-db71d40466ce",
    "origins": [
     "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:hallowed_fountain",
+   "name": "Hallowed Fountain",
+   "oracle_id": "f1750962-a87c-49f6-b731-02ae971ac6ea",
+   "origins": [
+    "ugins_allies_and_heroes_printing_evidence.json"
    ],
    "type": "Card"
   },
@@ -9920,7 +10850,8 @@
    "oracle_id": "acc9c16a-5e72-43bd-87e1-56a16aa892f5",
    "origins": [
     "story_art_captions_2026-10-30.json",
-    "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+    "ugin_bolas_elder_dragon_duality_printing_evidence.json",
+    "ugins_allies_and_heroes_printing_evidence.json"
    ],
    "type": "Card"
   },
@@ -9930,7 +10861,8 @@
    "oracle_id": "32263baa-d3f0-463f-92b3-4e9938476add",
    "origins": [
     "story_art_captions_2026-10-30.json",
-    "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+    "ugin_bolas_elder_dragon_duality_printing_evidence.json",
+    "ugins_allies_and_heroes_printing_evidence.json"
    ],
    "type": "Card"
   },
@@ -9939,7 +10871,8 @@
    "name": "Helvault",
    "oracle_id": "fa3d8a6f-dc5b-4890-a806-f785a41660c7",
    "origins": [
-    "story_art_captions_2026-10-30.json"
+    "story_art_captions_2026-10-30.json",
+    "ugins_allies_and_heroes_printing_evidence.json"
    ],
    "type": "Card"
   },
@@ -9949,6 +10882,15 @@
    "oracle_id": "c02c5547-b9c9-4b2d-9d12-e87bfba8f2d2",
    "origins": [
     "original_primeval_dragons_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:hero_s_downfall",
+   "name": "Hero's Downfall",
+   "oracle_id": "03df6a57-37c9-46d3-83b3-4a6240100714",
+   "origins": [
+    "ugins_allies_and_heroes_printing_evidence.json"
    ],
    "type": "Card"
   },
@@ -10016,11 +10958,29 @@
    "type": "Card"
   },
   {
+   "id": "card:jace_multiverse_architect",
+   "name": "Jace, Multiverse Architect",
+   "oracle_id": "3321c134-bf5b-4f63-8035-fca0bbdfa86b",
+   "origins": [
+    "ugins_allies_and_heroes_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:jace_s_defeat",
    "name": "Jace's Defeat",
    "oracle_id": "8ed8e27b-2137-4e19-99bb-5e0d6d32e3af",
    "origins": [
     "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:jace_unraveler_of_secrets",
+   "name": "Jace, Unraveler of Secrets",
+   "oracle_id": "ac29873e-28c3-4933-b427-61d34ff0afcd",
+   "origins": [
+    "ugins_allies_and_heroes_printing_evidence.json"
    ],
    "type": "Card"
   },
@@ -10247,7 +11207,8 @@
    "name": "Learn from the Past",
    "oracle_id": "f325fd7a-dcae-4892-adf5-de9893a23ac5",
    "origins": [
-    "story_art_captions_2026-10-30.json"
+    "story_art_captions_2026-10-30.json",
+    "ugins_allies_and_heroes_printing_evidence.json"
    ],
    "type": "Card"
   },
@@ -10302,7 +11263,8 @@
    "name": "Looming Spires",
    "oracle_id": "7d09b136-525f-49dd-a3a2-dfaca4e8e9a8",
    "origins": [
-    "story_art_captions_2026-10-30.json"
+    "story_art_captions_2026-10-30.json",
+    "ugins_allies_and_heroes_printing_evidence.json"
    ],
    "type": "Card"
   },
@@ -10329,7 +11291,8 @@
    "name": "Magma Rift",
    "oracle_id": "0996d48a-f92a-4aaf-b8a3-f7ec8ff986ca",
    "origins": [
-    "story_art_captions_2026-10-30.json"
+    "story_art_captions_2026-10-30.json",
+    "ugins_allies_and_heroes_printing_evidence.json"
    ],
    "type": "Card"
   },
@@ -10356,7 +11319,8 @@
    "name": "Mana Confluence",
    "oracle_id": "d0ee5bdc-2b69-4b73-9a20-ffcc18783b29",
    "origins": [
-    "original_primeval_dragons_printing_evidence.json"
+    "original_primeval_dragons_printing_evidence.json",
+    "ugins_allies_and_heroes_printing_evidence.json"
    ],
    "type": "Card"
   },
@@ -10375,6 +11339,15 @@
    "oracle_id": "81763d7d-3897-4be9-bbf6-f6f5dee366ff",
    "origins": [
     "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:mind_stone",
+   "name": "Mind Stone",
+   "oracle_id": "c97361b5-af16-4a7b-af85-a429dbaf4ad2",
+   "origins": [
+    "ugins_allies_and_heroes_printing_evidence.json"
    ],
    "type": "Card"
   },
@@ -10492,7 +11465,8 @@
    "name": "Nahiri, the Harbinger",
    "oracle_id": "d492eb9a-1f3b-4bf2-9a5d-0f4a4433f33f",
    "origins": [
-    "story_art_captions_2026-10-30.json"
+    "story_art_captions_2026-10-30.json",
+    "ugins_allies_and_heroes_printing_evidence.json"
    ],
    "type": "Card"
   },
@@ -10502,7 +11476,8 @@
    "oracle_id": "a554aa2c-d947-4fc6-929d-d5891f467615",
    "origins": [
     "card_name_anchors_2026-10-30.json",
-    "story_art_captions_2026-10-30.json"
+    "story_art_captions_2026-10-30.json",
+    "ugins_allies_and_heroes_printing_evidence.json"
    ],
    "type": "Card"
   },
@@ -10529,7 +11504,8 @@
    "name": "Narset, Jeskai Waymaster",
    "oracle_id": "1a2a74b8-0689-4959-9348-02cc832194cf",
    "origins": [
-    "card_name_anchors_2026-10-30.json"
+    "card_name_anchors_2026-10-30.json",
+    "ugins_allies_and_heroes_printing_evidence.json"
    ],
    "type": "Card"
   },
@@ -10557,7 +11533,8 @@
    "oracle_id": "e1de0c94-0ecc-425a-9b92-27c2745d07e7",
    "origins": [
     "card_name_anchors_2026-10-30.json",
-    "story_art_captions_2026-10-30.json"
+    "story_art_captions_2026-10-30.json",
+    "ugins_allies_and_heroes_printing_evidence.json"
    ],
    "type": "Card"
   },
@@ -10674,7 +11651,8 @@
     "card_name_anchors_2026-10-30.json",
     "original_primeval_dragons_printing_evidence.json",
     "pack_a_elder_dragon_war_extension_2026-10-30.json",
-    "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+    "ugin_bolas_elder_dragon_duality_printing_evidence.json",
+    "ugins_allies_and_heroes_printing_evidence.json"
    ],
    "type": "Card"
   },
@@ -10710,7 +11688,8 @@
    "name": "Oath of Chandra",
    "oracle_id": "53a0923f-7da8-4e31-a231-9b275916e2a2",
    "origins": [
-    "story_art_captions_2026-10-30.json"
+    "story_art_captions_2026-10-30.json",
+    "ugins_allies_and_heroes_printing_evidence.json"
    ],
    "type": "Card"
   },
@@ -10719,7 +11698,8 @@
    "name": "Oath of Gideon",
    "oracle_id": "ea168acc-22a1-4ba5-affd-fb813b93535a",
    "origins": [
-    "story_art_captions_2026-10-30.json"
+    "story_art_captions_2026-10-30.json",
+    "ugins_allies_and_heroes_printing_evidence.json"
    ],
    "type": "Card"
   },
@@ -10728,7 +11708,8 @@
    "name": "Oath of Jace",
    "oracle_id": "dc92b420-8ac7-4478-a287-3d897357be08",
    "origins": [
-    "story_art_captions_2026-10-30.json"
+    "story_art_captions_2026-10-30.json",
+    "ugins_allies_and_heroes_printing_evidence.json"
    ],
    "type": "Card"
   },
@@ -10746,7 +11727,8 @@
    "name": "Oath of Teferi",
    "oracle_id": "ee00a42d-6ee4-4e46-92d6-62e8e5910880",
    "origins": [
-    "story_art_captions_2026-10-30.json"
+    "story_art_captions_2026-10-30.json",
+    "ugins_allies_and_heroes_printing_evidence.json"
    ],
    "type": "Card"
   },
@@ -10785,7 +11767,8 @@
    "name": "Paraselene",
    "oracle_id": "e14ac0f3-00d5-4a95-990c-b7ea157bb87e",
    "origins": [
-    "story_art_captions_2026-10-30.json"
+    "story_art_captions_2026-10-30.json",
+    "ugins_allies_and_heroes_printing_evidence.json"
    ],
    "type": "Card"
   },
@@ -10799,12 +11782,22 @@
    "type": "Card"
   },
   {
+   "id": "card:path_to_exile",
+   "name": "Path to Exile",
+   "oracle_id": "d683d985-9888-4d21-8b5f-69e69ce4a03b",
+   "origins": [
+    "ugins_allies_and_heroes_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:perilous_vault",
    "name": "Perilous Vault",
    "oracle_id": "7acd7ef5-0e26-436d-962a-1a391f81c2e8",
    "origins": [
     "story_art_captions_2026-10-30.json",
-    "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+    "ugin_bolas_elder_dragon_duality_printing_evidence.json",
+    "ugins_allies_and_heroes_printing_evidence.json"
    ],
    "type": "Card"
   },
@@ -10829,11 +11822,21 @@
    "type": "Card"
   },
   {
+   "id": "card:ponder",
+   "name": "Ponder",
+   "oracle_id": "02090581-61aa-4348-ad57-451be8ee91c2",
+   "origins": [
+    "ugins_allies_and_heroes_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:prairie_stream",
    "name": "Prairie Stream",
    "oracle_id": "5330e24a-8568-446e-840a-594cd08bd1bc",
    "origins": [
-    "story_art_captions_2026-10-30.json"
+    "story_art_captions_2026-10-30.json",
+    "ugins_allies_and_heroes_printing_evidence.json"
    ],
    "type": "Card"
   },
@@ -10905,7 +11908,8 @@
    "name": "Raffine's Tower",
    "oracle_id": "6e9ef5ef-6aed-4d3e-a59b-9e3dc8740b1b",
    "origins": [
-    "original_primeval_dragons_printing_evidence.json"
+    "original_primeval_dragons_printing_evidence.json",
+    "ugins_allies_and_heroes_printing_evidence.json"
    ],
    "type": "Card"
   },
@@ -10923,7 +11927,8 @@
    "name": "Raugrin Triome",
    "oracle_id": "c7fa1dda-9312-4ec8-82cd-a1ba7bc33497",
    "origins": [
-    "original_primeval_dragons_printing_evidence.json"
+    "original_primeval_dragons_printing_evidence.json",
+    "ugins_allies_and_heroes_printing_evidence.json"
    ],
    "type": "Card"
   },
@@ -10990,6 +11995,15 @@
    "oracle_id": "d463de75-8d3c-4077-a2cc-c304a63acc69",
    "origins": [
     "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:sacred_foundry",
+   "name": "Sacred Foundry",
+   "oracle_id": "45181cb8-2090-4471-ba90-e5a8f04d525f",
+   "origins": [
+    "ugins_allies_and_heroes_printing_evidence.json"
    ],
    "type": "Card"
   },
@@ -11070,7 +12084,8 @@
    "name": "Salvage Drone",
    "oracle_id": "9b18bbf3-3b1c-4010-bc6f-e7eacb2ffb70",
    "origins": [
-    "story_art_captions_2026-10-30.json"
+    "story_art_captions_2026-10-30.json",
+    "ugins_allies_and_heroes_printing_evidence.json"
    ],
    "type": "Card"
   },
@@ -11079,7 +12094,8 @@
    "name": "Sanctum of Ugin",
    "oracle_id": "72cb5dcd-9b24-435c-921a-3766108374c4",
    "origins": [
-    "story_art_captions_2026-10-30.json"
+    "story_art_captions_2026-10-30.json",
+    "ugins_allies_and_heroes_printing_evidence.json"
    ],
    "type": "Card"
   },
@@ -11144,7 +12160,8 @@
    "origins": [
     "card_name_anchors_2026-10-30.json",
     "story_art_captions_2026-10-30.json",
-    "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+    "ugin_bolas_elder_dragon_duality_printing_evidence.json",
+    "ugins_allies_and_heroes_printing_evidence.json"
    ],
    "type": "Card"
   },
@@ -11200,7 +12217,8 @@
    "name": "Savai Triome",
    "oracle_id": "00625242-9348-4ef4-b975-f2ac82fee21d",
    "origins": [
-    "original_primeval_dragons_printing_evidence.json"
+    "original_primeval_dragons_printing_evidence.json",
+    "ugins_allies_and_heroes_printing_evidence.json"
    ],
    "type": "Card"
   },
@@ -11218,7 +12236,8 @@
    "name": "Scion of Ugin",
    "oracle_id": "7422f43d-0c1e-42cb-864d-1c63f2ec533a",
    "origins": [
-    "story_art_captions_2026-10-30.json"
+    "story_art_captions_2026-10-30.json",
+    "ugins_allies_and_heroes_printing_evidence.json"
    ],
    "type": "Card"
   },
@@ -11227,7 +12246,8 @@
    "name": "Sea Gate Wreckage",
    "oracle_id": "91f34686-cb96-49c0-b4a7-49dd1fd076e2",
    "origins": [
-    "story_art_captions_2026-10-30.json"
+    "story_art_captions_2026-10-30.json",
+    "ugins_allies_and_heroes_printing_evidence.json"
    ],
    "type": "Card"
   },
@@ -11337,7 +12357,8 @@
    "oracle_id": "6ad8011d-3471-4369-9d68-b264cc027487",
    "origins": [
     "original_primeval_dragons_printing_evidence.json",
-    "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+    "ugin_bolas_elder_dragon_duality_printing_evidence.json",
+    "ugins_allies_and_heroes_printing_evidence.json"
    ],
    "type": "Card"
   },
@@ -11347,7 +12368,8 @@
    "oracle_id": "c151e8b7-4b28-4f03-8a81-9bf623f893d7",
    "origins": [
     "card_name_anchors_2026-10-30.json",
-    "story_art_captions_2026-10-30.json"
+    "story_art_captions_2026-10-30.json",
+    "ugins_allies_and_heroes_printing_evidence.json"
    ],
    "type": "Card"
   },
@@ -11356,7 +12378,8 @@
    "name": "Sorin, Solemn Visitor",
    "oracle_id": "1f1f1ae7-dd00-4825-832e-3a049cf8ce73",
    "origins": [
-    "story_art_captions_2026-10-30.json"
+    "story_art_captions_2026-10-30.json",
+    "ugins_allies_and_heroes_printing_evidence.json"
    ],
    "type": "Card"
   },
@@ -11374,7 +12397,8 @@
    "name": "Soul Summons",
    "oracle_id": "0f5b79ca-9f80-420b-a6c5-bb2a9a95c7e7",
    "origins": [
-    "story_art_captions_2026-10-30.json"
+    "story_art_captions_2026-10-30.json",
+    "ugins_allies_and_heroes_printing_evidence.json"
    ],
    "type": "Card"
   },
@@ -11401,7 +12425,8 @@
    "name": "Steam Vents",
    "oracle_id": "17039058-822d-409f-938c-b727a366ba63",
    "origins": [
-    "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+    "ugin_bolas_elder_dragon_duality_printing_evidence.json",
+    "ugins_allies_and_heroes_printing_evidence.json"
    ],
    "type": "Card"
   },
@@ -11434,6 +12459,15 @@
    "type": "Card"
   },
   {
+   "id": "card:supreme_verdict",
+   "name": "Supreme Verdict",
+   "oracle_id": "0230de18-8d15-4cfa-9d42-7ccddd9f9570",
+   "origins": [
+    "ugins_allies_and_heroes_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:swamp",
    "name": "Swamp",
    "oracle_id": "56719f6a-1a6c-4c0a-8d21-18f7d7350b68",
@@ -11447,7 +12481,8 @@
    "name": "Swords to Plowshares",
    "oracle_id": "b1544f21-7e98-461b-aed5-e748b0168c52",
    "origins": [
-    "original_primeval_dragons_printing_evidence.json"
+    "original_primeval_dragons_printing_evidence.json",
+    "ugins_allies_and_heroes_printing_evidence.json"
    ],
    "type": "Card"
   },
@@ -11457,6 +12492,15 @@
    "oracle_id": "318f7f70-e374-40ef-8afb-3389c10461d8",
    "origins": [
     "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:talisman_of_conviction",
+   "name": "Talisman of Conviction",
+   "oracle_id": "6c326439-5620-4ec6-a56a-fe9c3d5d2a46",
+   "origins": [
+    "ugins_allies_and_heroes_printing_evidence.json"
    ],
    "type": "Card"
   },
@@ -11474,7 +12518,8 @@
    "name": "Talisman of Dominance",
    "oracle_id": "4c0a0448-b9d6-43a0-8549-64066dac63f0",
    "origins": [
-    "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+    "ugin_bolas_elder_dragon_duality_printing_evidence.json",
+    "ugins_allies_and_heroes_printing_evidence.json"
    ],
    "type": "Card"
   },
@@ -11483,7 +12528,17 @@
    "name": "Talisman of Indulgence",
    "oracle_id": "1d9aeaaa-66f6-41cb-9bac-162d6fd8662c",
    "origins": [
-    "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+    "ugin_bolas_elder_dragon_duality_printing_evidence.json",
+    "ugins_allies_and_heroes_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:talisman_of_progress",
+   "name": "Talisman of Progress",
+   "oracle_id": "00e35322-1a9a-41e3-9ce1-359c8eaa3bc7",
+   "origins": [
+    "ugins_allies_and_heroes_printing_evidence.json"
    ],
    "type": "Card"
   },
@@ -11657,7 +12712,8 @@
    "name": "The Chain Veil",
    "oracle_id": "fb88fb3d-6a85-4bb1-b316-7f759b45a0fa",
    "origins": [
-    "card_name_anchors_2026-10-30.json"
+    "card_name_anchors_2026-10-30.json",
+    "ugins_allies_and_heroes_printing_evidence.json"
    ],
    "type": "Card"
   },
@@ -11769,7 +12825,8 @@
    "name": "Tormenting Voice",
    "oracle_id": "f307b5b4-e949-4f69-8dc7-856e33a45a16",
    "origins": [
-    "story_art_captions_2026-10-30.json"
+    "story_art_captions_2026-10-30.json",
+    "ugins_allies_and_heroes_printing_evidence.json"
    ],
    "type": "Card"
   },
@@ -11815,7 +12872,8 @@
    "oracle_id": "5c58353a-fd60-4528-bf0d-669626cda0b2",
    "origins": [
     "card_name_anchors_2026-10-30.json",
-    "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+    "ugin_bolas_elder_dragon_duality_printing_evidence.json",
+    "ugins_allies_and_heroes_printing_evidence.json"
    ],
    "type": "Card"
   },
@@ -11899,7 +12957,8 @@
     "pack_a4_printing_art_matches_2026-10-30.json",
     "pack_a_tarkir_card_scenes_2026-10-30.json",
     "story_art_captions_2026-10-30.json",
-    "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+    "ugin_bolas_elder_dragon_duality_printing_evidence.json",
+    "ugins_allies_and_heroes_printing_evidence.json"
    ],
    "story_art_illustration_id": "47715ae0-7456-449e-ad32-0a7bc47a4e7a",
    "type": "Card"
@@ -11909,7 +12968,8 @@
    "name": "Ulamog, the Ceaseless Hunger",
    "oracle_id": "0bfa4512-e35a-4c93-b324-80ec659f5a97",
    "origins": [
-    "story_art_captions_2026-10-30.json"
+    "story_art_captions_2026-10-30.json",
+    "ugins_allies_and_heroes_printing_evidence.json"
    ],
    "type": "Card"
   },
@@ -11918,7 +12978,8 @@
    "name": "Ulamog, the Infinite Gyre",
    "oracle_id": "b817bc56-9b4d-4c50-bafa-3c652b99578f",
    "origins": [
-    "story_art_captions_2026-10-30.json"
+    "story_art_captions_2026-10-30.json",
+    "ugins_allies_and_heroes_printing_evidence.json"
    ],
    "type": "Card"
   },
@@ -11945,7 +13006,8 @@
    "name": "Unity of Purpose",
    "oracle_id": "9fbcae6e-5523-47a3-b0ff-ab7a8bb72822",
    "origins": [
-    "story_art_captions_2026-10-30.json"
+    "story_art_captions_2026-10-30.json",
+    "ugins_allies_and_heroes_printing_evidence.json"
    ],
    "type": "Card"
   },
@@ -12056,7 +13118,8 @@
    "name": "Valakut, the Molten Pinnacle",
    "oracle_id": "1bc44216-4e06-4f66-89b7-5c327004604e",
    "origins": [
-    "story_art_captions_2026-10-30.json"
+    "story_art_captions_2026-10-30.json",
+    "ugins_allies_and_heroes_printing_evidence.json"
    ],
    "type": "Card"
   },
@@ -12115,6 +13178,15 @@
    "type": "Card"
   },
   {
+   "id": "card:vindicate",
+   "name": "Vindicate",
+   "oracle_id": "63c1ac21-e3d8-40c2-8c09-3f31c52992ef",
+   "origins": [
+    "ugins_allies_and_heroes_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:visage_of_bolas",
    "name": "Visage of Bolas",
    "oracle_id": "21bb3c03-c1c0-40ec-8df4-8d0054c3742b",
@@ -12137,7 +13209,8 @@
    "name": "Wastes",
    "oracle_id": "05d24b0c-904a-46b6-b42a-96a4d91a0dd4",
    "origins": [
-    "story_art_captions_2026-10-30.json"
+    "story_art_captions_2026-10-30.json",
+    "ugins_allies_and_heroes_printing_evidence.json"
    ],
    "type": "Card"
   },
@@ -12155,7 +13228,8 @@
    "name": "Watery Grave",
    "oracle_id": "fc9ec820-4245-4a96-b009-5308a818ca58",
    "origins": [
-    "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+    "ugin_bolas_elder_dragon_duality_printing_evidence.json",
+    "ugins_allies_and_heroes_printing_evidence.json"
    ],
    "type": "Card"
   },
@@ -12210,7 +13284,8 @@
    "name": "Xander's Lounge",
    "oracle_id": "8291543f-d086-48aa-b2b7-5481ca8c9198",
    "origins": [
-    "original_primeval_dragons_printing_evidence.json"
+    "original_primeval_dragons_printing_evidence.json",
+    "ugins_allies_and_heroes_printing_evidence.json"
    ],
    "type": "Card"
   },
@@ -12247,7 +13322,8 @@
    "name": "Zada, Hedron Grinder",
    "oracle_id": "9f7d5e1c-bf5b-4ab9-bd6e-2627b4d22b36",
    "origins": [
-    "story_art_captions_2026-10-30.json"
+    "story_art_captions_2026-10-30.json",
+    "ugins_allies_and_heroes_printing_evidence.json"
    ],
    "type": "Card"
   },
@@ -14722,6 +15798,16 @@
    "type": "DeckProposal"
   },
   {
+   "id": "deck:ugins_allies_and_heroes",
+   "name": "Ugin's Allies and Heroes: the Eldrazi sealers, Tarkir and the Gatewatch (Phase 6 Pilot 3)",
+   "origins": [
+    "ugins_allies_and_heroes_printing_evidence.json"
+   ],
+   "raw_sha256": "05cd56bd3d58b153f35ad86f896d6c383f99bca9722e6124e627daad74641c6c",
+   "status": "UNAPPROVED PROPOSAL - awaiting Cory's review; not approved, not locked, not certified",
+   "type": "DeckProposal"
+  },
+  {
    "id": "event:belzenlok_death",
    "name": "Death of Belzenlok at the Cabal Stronghold",
    "origins": [
@@ -15761,16 +16847,16 @@
    "OPEN_QUESTION": 2
   },
   "curated_bridges": 39,
-  "edges": 1128,
+  "edges": 1215,
   "literal_objects": 12,
   "node_types": {
    "AlternateContinuity": 1,
-   "Card": 390,
+   "Card": 411,
    "CardTheme": 1,
    "Character": 56,
    "Claim": 133,
    "Concept": 44,
-   "DeckProposal": 2,
+   "DeckProposal": 3,
    "Event": 14,
    "Faction": 4,
    "Literal": 12,
@@ -15779,7 +16865,7 @@
    "Plane": 8,
    "Source": 59
   },
-  "nodes": 745,
+  "nodes": 767,
   "non_wizards_sources": 0,
   "relations": 130,
   "wizards_official_sources": 59

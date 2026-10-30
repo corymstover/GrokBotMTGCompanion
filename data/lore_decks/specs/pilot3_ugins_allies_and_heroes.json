@@ -1,0 +1,621 @@
+{
+ "schema": "lore-pilot-spec/v1",
+ "stem": "ugins_allies_and_heroes",
+ "theme": "Ugin's Allies and Heroes: the Eldrazi sealers, Tarkir and the Gatewatch (Phase 6 Pilot 3)",
+ "status": "UNAPPROVED PROPOSAL - awaiting Cory's review; not approved, not locked, not certified",
+ "color_identity": [
+  "W",
+  "U",
+  "B",
+  "R"
+ ],
+ "claims_key": "claims",
+ "narrator_note": "A four-colour story procession built on Pack A5. Ugin, Sorin and Nahiri seal the Eldrazi; Nahiri is left alone as warden; Sorin seeks Ugin on Tarkir as Sarkhan rewrites the past; Jace visits the Eye of Ugin as the Gatewatch forms; and Tarkir: Dragonstorm brings the gem, the brothers' clash and Narset carried away. Jace, Multiverse Architect leads as the ally Ugin counselled.",
+ "sources": {
+  "lithomancer": "https://magic.wizards.com/en/news/magic-story/the-lithomancer",
+  "stone_and_blood": "https://magic.wizards.com/en/news/magic-story/stone-and-blood-2016-06-15",
+  "sorins_revelation": "https://magic.wizards.com/en/news/magic-story/sorins-revelation",
+  "sorins_restoration": "https://magic.wizards.com/en/news/magic-story/sorins-restoration-2015-03-27",
+  "unbroken_unbowed": "https://magic.wizards.com/en/news/magic-story/unbroken-and-unbowed-2015-04-22",
+  "revelation_eye": "https://magic.wizards.com/en/news/magic-story/revelation-eye-2015-10-14",
+  "brink_extinction": "https://magic.wizards.com/en/news/magic-story/brink-extinction-2016-02-10",
+  "zendikar_resurgent": "https://magic.wizards.com/en/news/magic-story/zendikar-resurgent-2016-02-24",
+  "tdm_ep6": "https://magic.wizards.com/en/news/magic-story/tarkir-dragonstorm-episode-6-how-wretched-love",
+  "tdm_ep7": "https://magic.wizards.com/en/news/magic-story/tarkir-dragonstorm-episode-7-return",
+  "scryfall_card_text": "scryfall-snapshot:printed_flavor_or_name"
+ },
+ "commander": {
+  "name": "Jace, Multiverse Architect",
+  "tier": "CANON_REFERENCE",
+  "source_id": "revelation_eye",
+  "claims": [
+   "U010",
+   "U011",
+   "U013"
+  ],
+  "why": "Jace Beleren as a named character card that can be your commander. He travelled to the Eye of Ugin to learn about the hedron network, and Ugin warned him not to kill the titans and not to let them escape (U010, U011); he later seized Ugin's gem (U013). The card's Reality Fracture setting is not asserted to be any of these events.",
+  "set": "frc",
+  "collector_number": "1"
+ },
+ "acts": [
+  {
+   "title": "I. The Lithomancer, the vampire and the spirit dragon seal the Eldrazi",
+   "lore_keys": [
+    "U001",
+    "U002",
+    "U003"
+   ],
+   "cards": [
+    {
+     "name": "Sorin Markov",
+     "tier": "CANON_REFERENCE",
+     "source_id": "lithomancer",
+     "claims": [
+      "U001"
+     ],
+     "why": "Sorin Markov, one of the three Planeswalkers who sealed the Eldrazi (U001). Its art (by Michael Komarck) is embedded with an 'Art by' caption in the official story \"The Lithomancer\" (caption atlas: navigation only, no scene asserted).",
+     "set": "zen",
+     "collector_number": "111"
+    },
+    {
+     "name": "Nahiri, the Lithomancer",
+     "tier": "CANON_REFERENCE",
+     "source_id": "lithomancer",
+     "claims": [
+      "U001",
+      "U003"
+     ],
+     "why": "Nahiri, the Lithomancer: the third sealer, who stayed on as the prison's warden (U001, U003). Its art (by Eric Deschamps) is embedded with an 'Art by' caption in the official story \"Sorin's Restoration\" (caption atlas: navigation only, no scene asserted).",
+     "set": "c14",
+     "collector_number": "10"
+    },
+    {
+     "name": "Ulamog, the Infinite Gyre",
+     "tier": "CANON_REFERENCE",
+     "source_id": "lithomancer",
+     "claims": [
+      "U001"
+     ],
+     "why": "Ulamog, one of the Eldrazi titans the three sealed away (U001). Its art (by Aleksi Briclot) is embedded with an 'Art by' caption in the official story \"The Lithomancer\" (caption atlas: navigation only, no scene asserted).",
+     "set": "roe",
+     "collector_number": "12"
+    },
+    {
+     "name": "Eye of Ugin",
+     "tier": "CANON_REFERENCE",
+     "source_id": "stone_and_blood",
+     "claims": [
+      "U002"
+     ],
+     "why": "The Eye of Ugin, the chamber at the centre of the prison, named by Nahiri and Sorin (U002). Card name only.",
+     "set": "wwk",
+     "collector_number": "136"
+    },
+    {
+     "name": "All Is Dust",
+     "tier": "LORE_INSPIRED",
+     "source_id": "lithomancer",
+     "claims": [],
+     "why": "All Is Dust: no claim cited. Its art (by Jason Felix) is embedded with an 'Art by' caption in the official story \"The Lithomancer\" (caption atlas: navigation only, no scene asserted).",
+     "set": "roe",
+     "collector_number": "1"
+    },
+    {
+     "name": "Perilous Vault",
+     "tier": "LORE_INSPIRED",
+     "source_id": "lithomancer",
+     "claims": [],
+     "why": "Perilous Vault: no claim cited. Its art (by Sam Burley) is embedded with an 'Art by' caption in the official story \"The Lithomancer\" (caption atlas: navigation only, no scene asserted).",
+     "set": "m15",
+     "collector_number": "224"
+    },
+    {
+     "name": "Hedron Archive",
+     "tier": "LORE_INSPIRED",
+     "source_id": "revelation_eye",
+     "claims": [],
+     "why": "Hedron Archive: no claim cited. Its art (by Craig J Spearing) is embedded with an 'Art by' caption in the official story \"Revelation at the Eye\" (caption atlas: navigation only, no scene asserted).",
+     "set": "bfz",
+     "collector_number": "223"
+    }
+   ]
+  },
+  {
+   "title": "II. The warden left alone",
+   "lore_keys": [
+    "U004",
+    "U005"
+   ],
+   "cards": [
+    {
+     "name": "Nahiri, the Harbinger",
+     "tier": "CANON_REFERENCE",
+     "source_id": "stone_and_blood",
+     "claims": [
+      "U005"
+     ],
+     "why": "Nahiri, who contained the Eldrazi alone when neither Ugin nor Sorin answered (U005). Its art (by Aleksi Briclot) is embedded with an 'Art by' caption in the official story \"Stone and Blood\" (caption atlas: navigation only, no scene asserted).",
+     "set": "soi",
+     "collector_number": "247"
+    },
+    {
+     "name": "Ulamog, the Ceaseless Hunger",
+     "tier": "CANON_REFERENCE",
+     "source_id": "stone_and_blood",
+     "claims": [
+      "U003"
+     ],
+     "why": "Ulamog, one of the titans Nahiri guarded as warden (U003). Its art (by Michael Komarck) is embedded with an 'Art by' caption in the official story \"Stone and Blood\" (caption atlas: navigation only, no scene asserted).",
+     "set": "bfz",
+     "collector_number": "15"
+    },
+    {
+     "name": "Helvault",
+     "tier": "LORE_INSPIRED",
+     "source_id": "stone_and_blood",
+     "claims": [],
+     "why": "Helvault: no claim cited. Its art (by Jaime Jones) is embedded with an 'Art by' caption in the official story \"Stone and Blood\" (caption atlas: navigation only, no scene asserted).",
+     "set": "dka",
+     "collector_number": "151"
+    },
+    {
+     "name": "Avacyn, Angel of Hope",
+     "tier": "LORE_INSPIRED",
+     "source_id": "stone_and_blood",
+     "claims": [],
+     "why": "Avacyn, Angel of Hope: no claim cited. Its art (by Jason Chan) is embedded with an 'Art by' caption in the official story \"Stone and Blood\" (caption atlas: navigation only, no scene asserted).",
+     "set": "avr",
+     "collector_number": "6"
+    },
+    {
+     "name": "Paraselene",
+     "tier": "LORE_INSPIRED",
+     "source_id": "stone_and_blood",
+     "claims": [],
+     "why": "Paraselene: no claim cited. Its art (by Ryan Yee) is embedded with an 'Art by' caption in the official story \"Stone and Blood\" (caption atlas: navigation only, no scene asserted).",
+     "set": "isd",
+     "collector_number": "26"
+    },
+    {
+     "name": "Magma Rift",
+     "tier": "LORE_INSPIRED",
+     "source_id": "stone_and_blood",
+     "claims": [],
+     "why": "Magma Rift: no claim cited. Its art (by Jung Park) is embedded with an 'Art by' caption in the official story \"Stone and Blood\" (caption atlas: navigation only, no scene asserted).",
+     "set": "zen",
+     "collector_number": "136"
+    },
+    {
+     "name": "Cliffside Lookout",
+     "tier": "LORE_INSPIRED",
+     "source_id": "stone_and_blood",
+     "claims": [],
+     "why": "Cliffside Lookout: no claim cited. Its art (by Eric Deschamps) is embedded with an 'Art by' caption in the official story \"Stone and Blood\" (caption atlas: navigation only, no scene asserted).",
+     "set": "bfz",
+     "collector_number": "20"
+    }
+   ]
+  },
+  {
+   "title": "III. Tarkir: Sorin seeks Ugin, and Sarkhan rewrites the past",
+   "lore_keys": [
+    "U006",
+    "U007",
+    "U008",
+    "U009"
+   ],
+   "cards": [
+    {
+     "name": "Sorin, Solemn Visitor",
+     "tier": "CANON_REFERENCE",
+     "source_id": "sorins_revelation",
+     "claims": [
+      "U006"
+     ],
+     "why": "Sorin, who came to Tarkir looking for Ugin after the Eldrazi escaped (U006). Its art (by Cynthia Sheppard) is embedded with an 'Art by' caption in the official story \"Sorin's Revelation\" (caption atlas: navigation only, no scene asserted).",
+     "set": "ktk",
+     "collector_number": "202"
+    },
+    {
+     "name": "Ugin, the Spirit Dragon",
+     "tier": "CANON_REFERENCE",
+     "source_id": "sorins_restoration",
+     "claims": [
+      "U007"
+     ],
+     "why": "Ugin, whom Sorin finds alive and newly freed in the rewritten timeline (U007). This is the Raymond Swanland printing matched in Pack A4. Its art (by Raymond Swanland) is embedded with an 'Art by' caption in the official story \"Unbroken and Unbowed\" (caption atlas: navigation only, no scene asserted).",
+     "set": "frf",
+     "collector_number": "1"
+    },
+    {
+     "name": "Sarkhan, the Dragonspeaker",
+     "tier": "CANON_REFERENCE",
+     "source_id": "unbroken_unbowed",
+     "claims": [
+      "U008"
+     ],
+     "why": "Sarkhan Vol as a named character card: his intervention in the past left Ugin alive but dormant (U008). This printing is not captioned in the story.",
+     "set": "ktk",
+     "collector_number": "119"
+    },
+    {
+     "name": "Narset Transcendent",
+     "tier": "CANON_REFERENCE",
+     "source_id": "unbroken_unbowed",
+     "claims": [
+      "U009"
+     ],
+     "why": "Narset, who in the new timeline sets out to speak with Ugin (U009). Its art (by Magali Villeneuve) is embedded with an 'Art by' caption in the official story \"Unbroken and Unbowed\" (caption atlas: navigation only, no scene asserted).",
+     "set": "dtk",
+     "collector_number": "225"
+    },
+    {
+     "name": "Bitter Revelation",
+     "tier": "LORE_INSPIRED",
+     "source_id": "sorins_revelation",
+     "claims": [],
+     "why": "Bitter Revelation: no claim cited. Its art (by Viktor Titov) is embedded with an 'Art by' caption in the official story \"Sorin's Revelation\" (caption atlas: navigation only, no scene asserted).",
+     "set": "ktk",
+     "collector_number": "65"
+    },
+    {
+     "name": "Soul Summons",
+     "tier": "LORE_INSPIRED",
+     "source_id": "sorins_restoration",
+     "claims": [],
+     "why": "Soul Summons: no claim cited. Its art (by Johann Bodin) is embedded with an 'Art by' caption in the official story \"Sorin's Restoration\" (caption atlas: navigation only, no scene asserted).",
+     "set": "frf",
+     "collector_number": "26"
+    },
+    {
+     "name": "Scion of Ugin",
+     "tier": "LORE_INSPIRED",
+     "source_id": "unbroken_unbowed",
+     "claims": [],
+     "why": "Scion of Ugin: no claim cited. Its art (by Cliff Childs) is embedded with an 'Art by' caption in the official story \"Unbroken and Unbowed\" (caption atlas: navigation only, no scene asserted).",
+     "set": "dtk",
+     "collector_number": "1"
+    },
+    {
+     "name": "Cruel Ultimatum",
+     "tier": "LORE_INSPIRED",
+     "source_id": "unbroken_unbowed",
+     "claims": [],
+     "why": "Cruel Ultimatum: no claim cited. Its art (by Todd Lockwood) is embedded with an 'Art by' caption in the official story \"Unbroken and Unbowed\" (caption atlas: navigation only, no scene asserted).",
+     "set": "c13",
+     "collector_number": "182"
+    },
+    {
+     "name": "Tormenting Voice",
+     "tier": "LORE_INSPIRED",
+     "source_id": "unbroken_unbowed",
+     "claims": [],
+     "why": "Tormenting Voice: no claim cited. Its art (by Volkan Baǵa) is embedded with an 'Art by' caption in the official story \"Unbroken and Unbowed\" (caption atlas: navigation only, no scene asserted).",
+     "set": "ktk",
+     "collector_number": "123"
+    },
+    {
+     "name": "Dragon Tempest",
+     "tier": "LORE_INSPIRED",
+     "source_id": "unbroken_unbowed",
+     "claims": [],
+     "why": "Dragon Tempest: no claim cited. Its art (by Willian Murai) is embedded with an 'Art by' caption in the official story \"Unbroken and Unbowed\" (caption atlas: navigation only, no scene asserted).",
+     "set": "dtk",
+     "collector_number": "136"
+    },
+    {
+     "name": "Learn from the Past",
+     "tier": "LORE_INSPIRED",
+     "source_id": "unbroken_unbowed",
+     "claims": [],
+     "why": "Learn from the Past: no claim cited. Its art (by Chase Stone) is embedded with an 'Art by' caption in the official story \"Unbroken and Unbowed\" (caption atlas: navigation only, no scene asserted).",
+     "set": "dtk",
+     "collector_number": "60"
+    }
+   ]
+  },
+  {
+   "title": "IV. Zendikar: Jace at the Eye, and the alliance that did not reunite",
+   "lore_keys": [
+    "U010",
+    "U011",
+    "U012"
+   ],
+   "cards": [
+    {
+     "name": "Zada, Hedron Grinder",
+     "tier": "LORE_INSPIRED",
+     "source_id": "revelation_eye",
+     "claims": [],
+     "why": "Zada, Hedron Grinder: no claim cited. Its art (by Chris Rallis) is embedded with an 'Art by' caption in the official story \"Revelation at the Eye\" (caption atlas: navigation only, no scene asserted).",
+     "set": "bfz",
+     "collector_number": "162"
+    },
+    {
+     "name": "Salvage Drone",
+     "tier": "LORE_INSPIRED",
+     "source_id": "revelation_eye",
+     "claims": [],
+     "why": "Salvage Drone: no claim cited. Its art (by Slawomir Maniak) is embedded with an 'Art by' caption in the official story \"Revelation at the Eye\" (caption atlas: navigation only, no scene asserted).",
+     "set": "bfz",
+     "collector_number": "65"
+    },
+    {
+     "name": "Dispel",
+     "tier": "LORE_INSPIRED",
+     "source_id": "revelation_eye",
+     "claims": [],
+     "why": "Dispel: no claim cited. Its art (by Chase Stone) is embedded with an 'Art by' caption in the official story \"Revelation at the Eye\" (caption atlas: navigation only, no scene asserted).",
+     "set": "rtr",
+     "collector_number": "36"
+    },
+    {
+     "name": "Jace, Unraveler of Secrets",
+     "tier": "CANON_REFERENCE",
+     "source_id": "revelation_eye",
+     "claims": [
+      "U010"
+     ],
+     "why": "Jace Beleren as a named character card: he travelled to the Eye of Ugin to learn about the hedron network (U010). This printing is not captioned in the story.",
+     "set": "soi",
+     "collector_number": "69"
+    },
+    {
+     "name": "Call the Gatewatch",
+     "tier": "LORE_INSPIRED",
+     "source_id": "brink_extinction",
+     "claims": [],
+     "why": "Call the Gatewatch: no claim cited. Its art (by Yefim Kligerman) is embedded with an 'Art by' caption in the official story \"Brink of Extinction\" (caption atlas: navigation only, no scene asserted).",
+     "set": "ogw",
+     "collector_number": "16"
+    },
+    {
+     "name": "Unity of Purpose",
+     "tier": "LORE_INSPIRED",
+     "source_id": "brink_extinction",
+     "claims": [],
+     "why": "Unity of Purpose: no claim cited. Its art (by Jason Felix) is embedded with an 'Art by' caption in the official story \"Brink of Extinction\" (caption atlas: navigation only, no scene asserted).",
+     "set": "ogw",
+     "collector_number": "66"
+    },
+    {
+     "name": "Oath of Gideon",
+     "tier": "LORE_INSPIRED",
+     "source_id": "zendikar_resurgent",
+     "claims": [],
+     "why": "Oath of Gideon: no claim cited. Its art (by Wesley Burt) is embedded with an 'Art by' caption in the official story \"Zendikar Resurgent\" (caption atlas: navigation only, no scene asserted).",
+     "set": "ogw",
+     "collector_number": "30"
+    },
+    {
+     "name": "Oath of Chandra",
+     "tier": "LORE_INSPIRED",
+     "source_id": "zendikar_resurgent",
+     "claims": [],
+     "why": "Oath of Chandra: no claim cited. Its art (by Wesley Burt) is embedded with an 'Art by' caption in the official story \"Zendikar Resurgent\" (caption atlas: navigation only, no scene asserted).",
+     "set": "ogw",
+     "collector_number": "113"
+    },
+    {
+     "name": "Oath of Jace",
+     "tier": "LORE_INSPIRED",
+     "source_id": "zendikar_resurgent",
+     "claims": [],
+     "why": "Oath of Jace: no claim cited. Its art (by Wesley Burt) is embedded with an 'Art by' caption in the official story \"Zendikar Resurgent\" (caption atlas: navigation only, no scene asserted).",
+     "set": "ogw",
+     "collector_number": "60"
+    }
+   ]
+  },
+  {
+   "title": "V. Tarkir: Dragonstorm: the gem, the brothers and Narset",
+   "lore_keys": [
+    "U013",
+    "U014",
+    "U015",
+    "U016"
+   ],
+   "cards": [
+    {
+     "name": "Ugin, Eye of the Storms",
+     "tier": "CANON_REFERENCE",
+     "source_id": "tdm_ep6",
+     "claims": [
+      "U014"
+     ],
+     "why": "Ugin as a named Tarkir: Dragonstorm character card: he threw himself at his brother as Bolas broke free (U014). The card's art is not asserted to depict that scene.",
+     "set": "tdm",
+     "collector_number": "1"
+    },
+    {
+     "name": "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+     "tier": "CANON_REFERENCE",
+     "source_id": "tdm_ep7",
+     "claims": [
+      "U015"
+     ],
+     "why": "Nicol Bolas as a named character card: Narset sees Ugin and Bolas vanish, and both survive (U015). The art is not asserted to depict that scene.",
+     "set": "m19",
+     "collector_number": "218"
+    },
+    {
+     "name": "Narset, Jeskai Waymaster",
+     "tier": "CANON_REFERENCE",
+     "source_id": "tdm_ep7",
+     "claims": [
+      "U015"
+     ],
+     "why": "Narset as a named Tarkir: Dragonstorm character card: she witnesses the brothers vanish (U015). No scene asserted.",
+     "set": "tdm",
+     "collector_number": "209"
+    },
+    {
+     "name": "Elspeth, Storm Slayer",
+     "tier": "LORE_INSPIRED",
+     "source_id": "tdm_ep7",
+     "claims": [],
+     "why": "Elspeth as a named Tarkir: Dragonstorm character card. Her carrying Narset into the Omenpath (U016) is only CANON_IMPLIED, so no claim is cited.",
+     "set": "tdm",
+     "collector_number": "11"
+    }
+   ]
+  }
+ ],
+ "story_lands": {
+  "title": "Story lands: art embedded in the cited stories",
+  "lore_keys": [
+   "caption atlas"
+  ],
+  "cards": [
+   {
+    "name": "Valakut, the Molten Pinnacle",
+    "tier": "LORE_INSPIRED",
+    "source_id": "stone_and_blood",
+    "claims": [],
+    "why": "Valakut, the Molten Pinnacle: no claim cited. Its art (by Kieran Yanner) is embedded with an 'Art by' caption in the official story \"Stone and Blood\" (caption atlas: navigation only, no scene asserted).",
+    "set": "zen",
+    "collector_number": "228"
+   },
+   {
+    "name": "Prairie Stream",
+    "tier": "LORE_INSPIRED",
+    "source_id": "stone_and_blood",
+    "claims": [],
+    "why": "Prairie Stream: no claim cited. Its art (by Adam Paquette) is embedded with an 'Art by' caption in the official story \"Stone and Blood\" (caption atlas: navigation only, no scene asserted).",
+    "set": "bfz",
+    "collector_number": "241"
+   },
+   {
+    "name": "Wastes",
+    "tier": "LORE_INSPIRED",
+    "source_id": "stone_and_blood",
+    "claims": [],
+    "why": "Wastes: no claim cited. Its art (by Jason Felix) is embedded with an 'Art by' caption in the official story \"Stone and Blood\" (caption atlas: navigation only, no scene asserted).",
+    "set": "ogw",
+    "collector_number": "183a"
+   },
+   {
+    "name": "Crucible of the Spirit Dragon",
+    "tier": "LORE_INSPIRED",
+    "source_id": "sorins_restoration",
+    "claims": [],
+    "why": "Crucible of the Spirit Dragon: no claim cited. Its art (by Jung Park) is embedded with an 'Art by' caption in the official story \"Sorin's Restoration\" (caption atlas: navigation only, no scene asserted).",
+    "set": "frf",
+    "collector_number": "167"
+   },
+   {
+    "name": "Haven of the Spirit Dragon",
+    "tier": "LORE_INSPIRED",
+    "source_id": "sorins_restoration",
+    "claims": [],
+    "why": "Haven of the Spirit Dragon: no claim cited. Its art (by Raymond Swanland) is embedded with an 'Art by' caption in the official story \"Sorin's Restoration\" (caption atlas: navigation only, no scene asserted).",
+    "set": "dtk",
+    "collector_number": "249"
+   },
+   {
+    "name": "Sanctum of Ugin",
+    "tier": "LORE_INSPIRED",
+    "source_id": "revelation_eye",
+    "claims": [],
+    "why": "Sanctum of Ugin: no claim cited. Its art (by James Paick) is embedded with an 'Art by' caption in the official story \"Revelation at the Eye\" (caption atlas: navigation only, no scene asserted).",
+    "set": "bfz",
+    "collector_number": "242"
+   },
+   {
+    "name": "Looming Spires",
+    "tier": "LORE_INSPIRED",
+    "source_id": "revelation_eye",
+    "claims": [],
+    "why": "Looming Spires: no claim cited. Its art (by Florian de Gesincourt) is embedded with an 'Art by' caption in the official story \"Revelation at the Eye\" (caption atlas: navigation only, no scene asserted).",
+    "set": "bfz",
+    "collector_number": "238"
+   },
+   {
+    "name": "Sea Gate Wreckage",
+    "tier": "LORE_INSPIRED",
+    "source_id": "zendikar_resurgent",
+    "claims": [],
+    "why": "Sea Gate Wreckage: no claim cited. Its art (by Zack Stella) is embedded with an 'Art by' caption in the official story \"Zendikar Resurgent\" (caption atlas: navigation only, no scene asserted).",
+    "set": "ogw",
+    "collector_number": "177"
+   }
+  ]
+ },
+ "playability": {
+  "names": [
+   "Command Tower",
+   "Exotic Orchard",
+   "City of Brass",
+   "Mana Confluence",
+   "Raffine's Tower",
+   "Xander's Lounge",
+   "Raugrin Triome",
+   "Savai Triome",
+   "Hallowed Fountain",
+   "Watery Grave",
+   "Blood Crypt",
+   "Sacred Foundry",
+   "Godless Shrine",
+   "Steam Vents",
+   "Sol Ring",
+   "Arcane Signet",
+   "Fellwar Stone",
+   "Mind Stone",
+   "Talisman of Dominance",
+   "Talisman of Progress",
+   "Talisman of Indulgence",
+   "Talisman of Conviction",
+   "Swords to Plowshares",
+   "Path to Exile",
+   "Chaos Warp",
+   "Anguished Unmaking",
+   "Despark",
+   "Vindicate",
+   "Hero's Downfall",
+   "Counterspell",
+   "Arcane Denial",
+   "Supreme Verdict",
+   "Damnation",
+   "Fact or Fiction",
+   "Brainstorm",
+   "Ponder",
+   "Oath of Teferi",
+   "Deepglow Skate",
+   "Flux Channeler",
+   "The Chain Veil"
+  ],
+  "why": "Mana, fixing, interaction or planeswalker support for a WUBR commander; no story claim."
+ },
+ "basics": {
+  "Plains": 4,
+  "Island": 4,
+  "Swamp": 3,
+  "Mountain": 2
+ },
+ "canon_caveats": [
+  "Caption-atlas cards (LORE_INSPIRED) only show that Wizards embedded that card's art in a cited official story page; they do not assert that the art depicts a story scene.",
+  "U016 (Elspeth carries Narset into the Omenpath) is CANON_IMPLIED; no card cites it.",
+  "Jace, Multiverse Architect (Reality Fracture Commander, 2026) is a Jace character card; its own story setting is not tied to the Ugin claims.",
+  "No in-universe (AR) dates are asserted; Pack A5 records none.",
+  "Kaya and Teyo (War of the Spark allies) are not included: Pack A5 has no evidence for them yet."
+ ],
+ "unrepresentable_in_identity": [
+  "Green: Nissa's Oath of Nissa and Nissa's Judgment, the Kiora card, General Tazri (WUBRG ally identity), Dragonlord Atarka, Sarkhan Unbroken, Explore and Zendikar Resurgent are embedded in the cited stories but are outside WUBR."
+ ],
+ "archidekt_tags": [
+  "Story: Ugin's Allies and Heroes",
+  "Four-Color Planeswalkers",
+  "Unapproved Lore Pilot"
+ ],
+ "tier_definitions": {
+  "DIRECT_DEPICTION": "Official Wizards story captions this exact art at the event (none in this pilot).",
+  "CANON_REFERENCE": "The card names a character, place or being that a cited CANON_CONFIRMED Pack A5 claim is about.",
+  "LORE_INSPIRED": "Its art is embedded in a cited official story page (caption atlas), or it is a named character with only an implied claim; no scene or event asserted.",
+  "MECHANICAL_SYMBOL": "Included for function; no story claim."
+ },
+ "claim_packs": [
+  "data/lore_research/pack_a5_ugin_allies_2026-10-30.json"
+ ],
+ "exact_art_pack": "data/lore_research/pack_a4_printing_art_matches_2026-10-30.json",
+ "game_changer_ceiling": 3
+}

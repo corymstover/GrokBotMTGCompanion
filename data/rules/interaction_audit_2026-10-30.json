@@ -133,6 +133,51 @@
    ]
   },
   {
+   "deck": "data/lore_decks/drafts/ugins_allies_and_heroes_decklist.txt",
+   "cards": 91,
+   "resolved": 91,
+   "missing": [],
+   "cards_with_rulings": 59,
+   "rulings_total": 212,
+   "direct_ruling_links": [
+    {
+     "kind": "DIRECT_RULING",
+     "ruling_of": "Oath of Chandra",
+     "names": "Oath of Gideon",
+     "date": "2016-01-22",
+     "text": "The “legend rule” checks the full names of legendary permanents. You can control Oath of Gideon and Oath of Chandra at the same time, for example."
+    },
+    {
+     "kind": "DIRECT_RULING",
+     "ruling_of": "Oath of Gideon",
+     "names": "Oath of Chandra",
+     "date": "2016-01-22",
+     "text": "The “legend rule” checks the full names of legendary permanents. You can control Oath of Gideon and Oath of Chandra at the same time, for example."
+    },
+    {
+     "kind": "DIRECT_RULING",
+     "ruling_of": "Oath of Jace",
+     "names": "Oath of Chandra",
+     "date": "2016-01-22",
+     "text": "The “legend rule” checks the full names of legendary permanents. You can control Oath of Gideon and Oath of Chandra at the same time, for example."
+    },
+    {
+     "kind": "DIRECT_RULING",
+     "ruling_of": "Oath of Jace",
+     "names": "Oath of Gideon",
+     "date": "2016-01-22",
+     "text": "The “legend rule” checks the full names of legendary permanents. You can control Oath of Gideon and Oath of Chandra at the same time, for example."
+    },
+    {
+     "kind": "DIRECT_RULING",
+     "ruling_of": "Sorin Markov",
+     "names": "Fact or Fiction",
+     "date": "2009-10-01",
+     "text": "While controlling another player, you make all choices and decisions that player is allowed to make or is told to make during that turn. For example: -- You choose which lands the other player plays. -- You choose which spells the other player casts, and make all decisions as those spells are cast and as they resolve. For example, you choose the value of X for that player's Earthquake, the target for that player's Lightning Bolt, what mana that player spends to cast Day of Judgment, and what card that player gets with Diabolic Tutor. -- You choose which activated abilities the other player activates, and make all decisions as those abilities are activated and as they resolve. For example, you can have your opponent sacrifice their creatures to their Vampire Aristocrat or have your opponent's Caller of Gales give one of your creatures flying. -- You make all decisions for the other player's triggered abilities, including what they target and any decisions made when they resolve. -- You choose which creatures controlled by the other player attack, who or what they attack, and how they assign their combat damage. -- You make any choices and decisions that player would make for any other reason. For example, you could cast Fact or Fiction, choose that player to divide the revealed cards into piles, and thus divide those cards into piles yourself."
+    }
+   ]
+  },
+  {
    "deck": "data/lore_decks/drafts/yawgmoth_complete_biography_decklist.txt",
    "cards": 95,
    "resolved": 95,
@@ -143,8 +188,8 @@
   }
  ],
  "totals": {
-  "decks": 5,
-  "direct_ruling_links": 12,
+  "decks": 6,
+  "direct_ruling_links": 17,
   "unresolved_cards": 0
  }
 }
