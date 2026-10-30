@@ -1,0 +1,33 @@
+name: Phase 1B source-reviewed token product families
+
+on:
+  push:
+    paths:
+      - 'data/set_atlas/token_families_primary_*'
+      - 'scripts/audit_token_families_primary_sources.py'
+      - 'scripts/product_family_lookup.py'
+      - 'tests/test_token_families_primary_sources.py'
+      - '.github/workflows/phase1b-token-families-sources.yml'
+  pull_request:
+    paths:
+      - 'data/set_atlas/token_families_primary_*'
+      - 'scripts/audit_token_families_primary_sources.py'
+      - 'scripts/product_family_lookup.py'
+      - 'tests/test_token_families_primary_sources.py'
+      - '.github/workflows/phase1b-token-families-sources.yml'
+  workflow_dispatch:
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Reproduce 34 direct Wizards token-family source reviews
+        run: python3 scripts/audit_token_families_primary_sources.py
+      - name: Regression-test all cumulative family sources
+        run: python3 -m unittest discover -s tests -p 'test_*sources.py' -v
+      - name: Inspect bounded offline catalog status
+        run: python3 scripts/product_family_lookup.py --summary

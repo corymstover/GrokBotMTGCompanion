@@ -47,11 +47,11 @@ class ArtSeriesPrimarySourcesTests(unittest.TestCase):
             self.assertFalse(row["new_playable_card_debut_count_certified"])
             self.assertFalse(row["current_format_legality_certified"])
 
-    def test_lookup_includes_all_sourced_art_insert_families_and_three_pending(self):
+    def test_lookup_preserves_art_families_after_later_source_batches(self):
         data = load_current_index()
-        self.assertEqual(data["wizards_reviewed_examples"], 259)
-        self.assertEqual(len(select(data, only_pending=True)), 589)
-        self.assertEqual(len(select(data, cohort="promotional_and_record_extras", only_pending=True)), 565)
+        self.assertGreaterEqual(data["wizards_reviewed_examples"], 259)
+        self.assertLessEqual(len(select(data, only_pending=True)), 589)
+        self.assertLessEqual(len(select(data, cohort="promotional_and_record_extras", only_pending=True)), 565)
         for code in A.EXPECTED_ART_CODES:
             row = select(data, code=code)[0]
             self.assertTrue(row["wizards_individual_source_review"])
