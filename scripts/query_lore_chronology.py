@@ -14,6 +14,7 @@ from collections import defaultdict, deque
 import hashlib
 import json
 from pathlib import Path
+import source_event_sequences as SEQ
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data/lore_research/relative_chronology_2026-10-30.json"
@@ -127,6 +128,30 @@ def check(data):
             "unresolved_pairs": data["counts"]["total_pairs"] - data["counts"]["comparable_pairs"]}
 
 
+def compare_across_datasets(legacy, local, left, right):
+    """Query both independent chronology ledgers without inventing links between them."""
+    old_ids = {n['id'] for n in legacy['nodes']}
+    new_ids = {n['id'] for n in local['nodes']}
+    lookup = {n['id']:n['label'] for n in legacy['nodes'] + local['nodes']}
+    def resolve(phrase):
+        if phrase in lookup:
+            return phrase
+        hits = [eid for eid, name in lookup.items() if phrase.casefold() in name.casefold()]
+        if len(hits) != 1:
+            raise ValueError(f'ambiguous or unknown chronology label {phrase!r}; use --list or a full event ID')
+        return hits[0]
+    left, right = resolve(left), resolve(right)
+    if left in old_ids and right in old_ids:
+        return compare(legacy, left, right)
+    if left in new_ids and right in new_ids:
+        return SEQ.proof(local, left, right)
+    if (left in old_ids | new_ids) and (right in old_ids | new_ids):
+        return {'result': 'UNKNOWN', 'left': left, 'right': right, 'proof': [],
+                'confidence': 'UNRESOLVED',
+                'limitation': 'The original Packs A–C chronology and new source-local strands have no cited cross-ledger bridge. No relative order can be inferred.'}
+    raise ValueError('unknown chronology event ID; use --list')
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__)
     choice = ap.add_mutually_exclusive_group(required=True)
@@ -135,12 +160,18 @@ def main():
     choice.add_argument("--check", action="store_true")
     args = ap.parse_args()
     data = json.loads(DATA.read_text(encoding="utf-8"))
+    source_data = json.loads(SEQ.OUT.read_text(encoding='utf-8'))
     if args.list:
-        result = [{"id": n["id"], "label": n["label"]} for n in data["nodes"] if n["kind"] == "EVENT"]
+        result = ([{"id": n["id"], "label": n["label"]} for n in data["nodes"] if n["kind"] == "EVENT"]
+                  + [{"id": n["id"], "label": n["label"], "certainty": n["certainty"]}
+                     for n in source_data["nodes"]])
     elif args.compare:
-        result = compare(data, *args.compare)
+        result = compare_across_datasets(data, source_data, *args.compare)
     else:
         result = check(data)
+        if source_data != SEQ.build():
+            raise ValueError('source-event sequences stale; regenerate from quoted specification')
+        result['source_local_sequences'] = source_data['counts']
     print(json.dumps(result, ensure_ascii=False, indent=2))
 
 

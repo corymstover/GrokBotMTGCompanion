@@ -1,0 +1,84 @@
+{
+  "schema": "source-local-event-order-spec/v1",
+  "status": "PRELIMINARY_RESEARCH_NOT_OWNER_APPROVED",
+  "scope": "Three bounded, individually sourced chronology strands. No cross-plane alignment, no absolute AR date conversion and no assertions that a narrated legend is historical fact.",
+  "sources": {
+    "neo_guide": "data/lore_research/pack_p5_kamigawa_history_profile_2026-10-30.json",
+    "blb_guide1": "data/lore_research/pack_p5_bloomburrow_valley_history_2026-10-30.json",
+    "dsk_guide": "data/lore_research/pack_p5_duskmourn_origin_2026-10-30.json"
+  },
+  "strands": [
+    {
+      "id": "K",
+      "title": "Kamigawa — the Kami War and early Imperial administration",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "limitation": "Only stated within the Neon Dynasty guide's historical summary. The Imperials' founding is not automatically chained to the boundary breakdown without a direct before/after statement.",
+      "nodes": [
+        {"id":"K:konda_imprisons","label":"Konda imprisons a part of O-Kagachi","claim_ids":["KMH004"]},
+        {"id":"K:kami_war","label":"O-Kagachi retaliates and the Kami War begins","claim_ids":["KMH002"]},
+        {"id":"K:kyodai_emerges","label":"The imprisoned part escapes and becomes Kyodai","claim_ids":["KMH005"]},
+        {"id":"K:kyodai_victory","label":"Kyodai and Michiko defeat Konda and O-Kagachi","claim_ids":["KMH006"]},
+        {"id":"K:realm_barrier_breaks","label":"O-Kagachi's death breaks the barrier between realms","claim_ids":["KMH007"]},
+        {"id":"K:imperials_founded","label":"Imperials are founded to aid Kyodai","claim_ids":["KMH009"]},
+        {"id":"K:imperials_govern","label":"Imperials expand into governance","claim_ids":["KMH010"]}
+      ],
+      "edges": [
+        {"earlier":"K:konda_imprisons","later":"K:kami_war","source_id":"neo_guide","quote":"Konda, Lord of Eiganjo, captured and imprisoned a part of O-Kagachi, the mightiest kami of Kamigawa. Enraged, O-Kagachi retaliated, plunging the mortal and spirit realms into a decades-long war.","note":"Retaliation follows the imprisonment; no absolute year."},
+        {"earlier":"K:konda_imprisons","later":"K:kyodai_emerges","source_id":"neo_guide","quote":"The imprisoned part of O-Kagachi broke free and became a new kami named Kyodai.","note":"The fragment had to be imprisoned before it escaped."},
+        {"earlier":"K:kyodai_emerges","later":"K:kyodai_victory","source_id":"neo_guide","quote":"The imprisoned part of O-Kagachi broke free and became a new kami named Kyodai. Kyodai partnered with Konda's daughter, Michiko, to defeat both O-Kagachi and Konda.","note":"The account presents Kyodai's emergence before the victory."},
+        {"earlier":"K:kyodai_victory","later":"K:realm_barrier_breaks","source_id":"neo_guide","quote":"Kyodai partnered with Konda's daughter, Michiko, to defeat both O-Kagachi and Konda. The death of O-Kagachi caused the barrier between the two realms to break down","note":"The boundary rupture follows O-Kagachi's death in the narrated victory; does not order the individual defeats."},
+        {"earlier":"K:imperials_founded","later":"K:imperials_govern","source_id":"neo_guide","quote":"founded to help Kyodai manage the merging of the mortal and spirit realms. Over time, they expanded into government and rulership.","note":"Explicit 'Over time' after the institution's initial mission."}
+      ]
+    },
+    {
+      "id": "V",
+      "title": "Bloomburrow Valley — narrated local legend, not established universal history",
+      "certainty": "NARRATED_TRADITION_ONLY",
+      "limitation": "The guide tells the Order of the Holly Leaf and Calamities history in an in-world voice and calls the Order legendary. Order here is the order of the tradition's account, not proved historical sequence or an AR calendar.",
+      "nodes": [
+        {"id":"V:calamity_dominance","label":"Calamity Beasts dominate the ancient Valley tale","claim_ids":["BLH001"]},
+        {"id":"V:animalfolk_shelter","label":"Animalfolk band together and shelter underground","claim_ids":["BLH002"]},
+        {"id":"V:holly_pact","label":"Order of the Holly Leaf makes its legendary pact","claim_ids":["BLH003"]},
+        {"id":"V:weaving","label":"The pact gives rise to mighty weaving in the tradition","claim_ids":["BLH004"]},
+        {"id":"V:war_of_cinders","label":"War of Cinders is fought over two generations","claim_ids":["BLH005","BLH006"]},
+        {"id":"V:wildsear_appears","label":"Wildsear appears during the legendary conflict","claim_ids":["BLH007"]},
+        {"id":"V:lily_saves_valley","label":"Lily's Seed Flame drives back Wildsear","claim_ids":["BLH008"]},
+        {"id":"V:weaving_backlash","label":"Unrestrained weaving causes destructive backlashes","claim_ids":["BLH010"]},
+        {"id":"V:sealed_great_magic","label":"Heroes' descendants seal the most powerful weaving","claim_ids":["BLH011"]}
+      ],
+      "edges": [
+        {"earlier":"V:calamity_dominance","later":"V:animalfolk_shelter","source_id":"blb_guide1","quote":"The oppressive heel of the Calamities imposed an unstable equality, a reason for those who could not contend with their power alone to band together.","note":"The storyteller describes animalfolk banding together in response to the Calamities."},
+        {"earlier":"V:animalfolk_shelter","later":"V:holly_pact","source_id":"blb_guide1","quote":"Discontented to live their lives in the deep tunnels beneath Valley, a band was formed","note":"The narrated underground life precedes the formation of the Order."},
+        {"earlier":"V:holly_pact","later":"V:weaving","source_id":"blb_guide1","quote":"However, their pact had another consequence. The land was now a wellspring of energy for them to draw from.","note":"The narrator says the magical transformation followed the pact."},
+        {"earlier":"V:weaving","later":"V:war_of_cinders","source_id":"blb_guide1","quote":"Powerful as weaving was, the Calamity Beasts would not succumb to their terrible new powers. For two generations, battles raged throughout Valley.","note":"The account says weaving existed when two generations of battles began."},
+        {"earlier":"V:war_of_cinders","later":"V:wildsear_appears","source_id":"blb_guide1","quote":"It was then that the greatest among the Calamities appeared: Wildsear","note":"The storyteller situates Wildsear's appearance during the war; 'then' does not prove the whole war ended first.","relation":"DURING_OR_AFTER_START"},
+        {"earlier":"V:lily_saves_valley","later":"V:weaving_backlash","source_id":"blb_guide1","quote":"The animalfolk grew indulgent in the seasons after Lily has saved them. Weaving grew too powerful","note":"The excess weaving is explicitly after Lily's rescue in the traditional account."},
+        {"earlier":"V:weaving_backlash","later":"V:sealed_great_magic","source_id":"blb_guide1","quote":"In response to the chaos that weaving had wrought, the lineage of heroes chose to seal their most powerful knowledge away.","note":"The sealing follows and responds to the dangerous backlashes."}
+      ]
+    },
+    {
+      "id": "D",
+      "title": "Duskmourn — the original House, Marina and the Ascension",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "limitation": "The guide's origin account does not specify an original plane name, AR date, post-2024 exit or present-day political status.",
+      "nodes": [
+        {"id":"D:valgavoth_bound","label":"Valgavoth is bound within the original House","claim_ids":["DS001"]},
+        {"id":"D:marina_meets","label":"Marina encounters Valgavoth","claim_ids":["DH004"]},
+        {"id":"D:marina_lures","label":"Marina lures her bullies into the basement","claim_ids":["DH005"]},
+        {"id":"D:house_spreads","label":"The House's influence warps the neighborhood","claim_ids":["DH006"]},
+        {"id":"D:marina_researches","label":"Marina investigates the old House and discovers the demon","claim_ids":[]},
+        {"id":"D:marina_confronts","label":"Marina demands that Valgavoth stop and threatens to burn the House","claim_ids":[]},
+        {"id":"D:marina_illusion","label":"Valgavoth deceives Marina with apparent normality","claim_ids":["DH007"]},
+        {"id":"D:ascension","label":"The House ultimately consumes the whole plane","claim_ids":["DS002"]}
+      ],
+      "edges": [
+        {"earlier":"D:valgavoth_bound","later":"D:marina_meets","source_id":"dsk_guide","quote":"Trapped and unable to feed, the demon had sunk into hibernation and bided his time—until Marina came along and unwittingly loosened his shackles.","note":"The binding and hibernation precede Marina's involvement."},
+        {"earlier":"D:marina_lures","later":"D:house_spreads","source_id":"dsk_guide","quote":"However, it was already too late. People around Marina began to meet sudden, unexplained, and terrifying ends. The neighborhood began to warp as well","note":"The neighborhood's distortion follows the basement victims in the guide's account."},
+        {"earlier":"D:house_spreads","later":"D:marina_researches","source_id":"dsk_guide","quote":"But then, her parents vanished. Unable to deny it any longer, she delved into research","note":"Marina investigates once the spreading horrors and disappearances become undeniable."},
+        {"earlier":"D:marina_researches","later":"D:marina_confronts","source_id":"dsk_guide","quote":"Faced with the full truth at last of what she had done, Marina confronted the entity and demanded it stop.","note":"Her discovery precedes the confrontation."},
+        {"earlier":"D:marina_confronts","later":"D:marina_illusion","source_id":"dsk_guide","quote":"With no other choice, the demon agreed to give her back the world as she remembered it.","note":"The false restoration follows Marina's ultimatum."},
+        {"earlier":"D:marina_illusion","later":"D:ascension","source_id":"dsk_guide","quote":"In reality, the house continued to expand. The horrors continued to increase, drowning all who lived within in terror. And the demon grew in power, until the entirety of the plane was swallowed up in the walls of Duskmourn.","note":"While Marina saw a false restoration, the House expanded into the Ascension."}
+      ]
+    }
+  ]
+}
