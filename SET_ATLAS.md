@@ -131,6 +131,17 @@ The [offline product-family lookup](scripts/product_family_lookup.py) now overla
 
 **Not yet reviewed individually:** `cp1`, `cp2`, `h17`, `h1r`, `h2r`, `hho`, `itp`, `ph17`, `ph18`, `ph19`, `ph20`, `ph21`, `ph22`, `ph23`, `phtr`, `ptg`, `punk`, `ulst`, `unk`, `w16`, and `w17`. No official-source or premier conclusion is invented for these 21 codes.
 
+## Additional Wizards evidence — graded eight-code draft/starter batch
+
+The [second eight-code evidence ledger](data/set_atlas/draft_starter_evidence_batch2_2026-10-29.json) and [deterministic audit](data/set_atlas/draft_starter_batch2_audit_2026-10-29.json) extend the earlier 23-product report without overwriting it. Across the **848 released nondigital outside-expansion/core Scryfall codes**, now **43** have direct Wizards *product-family* evidence and **805** remain source-pending. Of the 43, eight were added in this batch, and the **draft/starter** review queue is down to **13**.
+
+For source integrity, the new ledger distinguishes two kinds of claims:
+
+- **Wizards names the exact set code:** `H2R` is expressly named as a group of Modern Horizons 1/2 retro-frame reprints in [Collecting Modern Horizons 3](https://magic.wizards.com/en/news/feature/collecting-modern-horizons-3); `W17` is expressly called the ancillary Welcome Deck code in [Ixalan Release Notes](https://magic.wizards.com/en/news/feature/ixalan-release-notes).
+- **Wizards establishes the product family, while Scryfall supplies the archived set code:** `H1R` is a retro-reprint component within [Modern Horizons 2](https://magic.wizards.com/en/news/feature/collecting-modern-horizons-2-2021-05-21); `ULST` denotes [The List reprints in Unfinity Collector Boosters](https://magic.wizards.com/en/news/feature/list-unfinity-un-usual-twist-list-2022-09-20); `H17` covers the [HASCON crossover card collaboration](https://magic.wizards.com/en/news/making-magic/unstable-scraps-part-3-2017-12-11); `HHO` traces Wizards' [employee/business holiday cards](https://magic.wizards.com/en/news/making-magic/seeing-forest-treefolk-2007-12-17-0); `PTG` identifies the limited [Extra Life charity Ponies product](https://magic.wizards.com/en/news/announcements/magic-extra-life-2019-10-03); and `UNK` tracks [Gavin's Unknown Event playtest cards](https://magic.wizards.com/en/news/feature/whats-inside-mystery-booster-2).
+
+**Do not turn a family citation into an assertion that Wizards published the precise Scryfall set code.** The remaining **13** are `CP1`, `CP2`, `ITP`, `PH17`–`PH23`, `PHTR`, `PUNK`, and `W16`. None is automatically premier or Standard-legal based on its Scryfall category. Consult the dated [graded review report](data/set_atlas/draft_starter_batch2_audit_2026-10-29.json) and the current [offline lookup](scripts/product_family_lookup.py) for exact evidence flags. A replay check is `python3 scripts/audit_draft_starter_batch2.py`.
+
 ## Read-only lookups
 
 On a checkout of this repository, no Scryfall download is needed for the following commands:

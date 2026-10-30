@@ -1,0 +1,53 @@
+name: Phase 1B graded Wizards draft-starter second evidence batch
+on:
+  push:
+    branches:
+      - main
+      - chatgpt-phase1b-draft-starter-final-evidence-20261029
+    paths:
+      - scripts/audit_draft_starter_batch2.py
+      - scripts/product_family_lookup.py
+      - tests/test_draft_starter_batch2.py
+      - data/set_atlas/draft_starter_evidence_batch2_2026-10-29.json
+      - data/set_atlas/draft_starter_batch2_audit_2026-10-29.json
+      - .github/workflows/phase1b-draft-starter-batch2.yml
+  pull_request:
+    paths:
+      - scripts/audit_draft_starter_batch2.py
+      - scripts/product_family_lookup.py
+      - tests/test_draft_starter_batch2.py
+      - data/set_atlas/draft_starter_evidence_batch2_2026-10-29.json
+      - data/set_atlas/draft_starter_batch2_audit_2026-10-29.json
+      - .github/workflows/phase1b-draft-starter-batch2.yml
+permissions:
+  contents: write
+jobs:
+  verify-graded-eight-set-evidence:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Primary family source and exact-code grade regressions
+        run: python3 -m unittest discover -s tests -p test_draft_starter_batch2.py -v
+      - name: Generate on designated research branch only
+        if: github.event_name == 'push' && github.ref_name == 'chatgpt-phase1b-draft-starter-final-evidence-20261029'
+        run: python3 scripts/audit_draft_starter_batch2.py --write
+      - name: Replay exact immutable-report output
+        run: |
+          python3 scripts/audit_draft_starter_batch2.py
+          python3 scripts/product_family_lookup.py --summary
+          python3 -m py_compile scripts/audit_draft_starter_batch2.py scripts/product_family_lookup.py
+      - name: Publish reproducible source report to research branch
+        if: github.event_name == 'push' && github.ref_name == 'chatgpt-phase1b-draft-starter-final-evidence-20261029'
+        run: |
+          git add data/set_atlas/draft_starter_batch2_audit_2026-10-29.json
+          if ! git diff --cached --quiet; then
+            git config user.name 'github-actions[bot]'
+            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+            git commit -m "Phase 1B: publish eight graded Wizards product-family evidence records"
+            git push origin HEAD:chatgpt-phase1b-draft-starter-final-evidence-20261029
+          fi

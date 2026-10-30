@@ -16,6 +16,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 INDEX = ROOT / "data/set_atlas/product_family_triage_2026-10-29.json"
 SOURCE_REVIEW = ROOT / "data/set_atlas/draft_starter_primary_audit_2026-10-29.json"
+SECOND_SOURCE_REVIEW = ROOT / "data/set_atlas/draft_starter_batch2_audit_2026-10-29.json"
 
 
 def apply_source_overlay(data, verified):
@@ -62,11 +63,64 @@ def apply_source_overlay(data, verified):
     return revised
 
 
+def apply_second_source_overlay(data, verified):
+    """Add eight graded product-family citations without changing prior snapshots."""
+    if verified["cutoff"] != data["snapshot_date"]:
+        raise ValueError("Review dates incompatible")
+    updates = {x["code"]: x for x in verified["newly_sourced_family_evidence"]}
+    if len(updates) != verified["new_wizards_family_evidence_count"] or len(updates) != 8:
+        raise ValueError("New review contains duplicated or absent source codes")
+    patched = set()
+    result = []
+    for item in data["all_848_released_nondigital_other_type_records"]:
+        record = dict(item)
+        src = updates.get(record["code"])
+        if src:
+            if record["wizards_individual_source_review"]:
+                raise ValueError(f"Attempt to replace previous official review: {record['code']}")
+            if src["scryfall_set_type"] != record["scryfall_set_type"]:
+                raise ValueError(f"Official reviewed category drift for {record['code']}")
+            record.update({
+                "wizards_individual_source_review": True,
+                "review_status": "wizards_family_source_with_evidence_grade",
+                "wizards_primary_source": src["direct_official_article_url"],
+                "wizards_review_product_group": src["product_family_wizards_supported"],
+                "wizards_source_grade": src["wizards_family_evidence_grade"],
+                "wizards_code_explicitly_confirmed": src["wizards_explicitly_printed_set_code"],
+                "verified_evidence_note": src["wizards_article_supports"],
+            })
+            patched.add(record["code"])
+        result.append(record)
+    if patched != set(updates) or len(result) != 848:
+        raise ValueError("Graded citations do not match existing Scryfall codes")
+    current = dict(data)
+    current["all_848_released_nondigital_other_type_records"] = result
+    current["wizards_reviewed_examples"] = verified[
+        "cumulative_outside_category_codes_with_wizards_source_family_evidence"]
+    current["metadata_only_pending_wizards_individual_review"] = verified[
+        "cumulative_outside_category_codes_individual_wizards_source_pending"]
+    current["cohort_review_progress"] = {}
+    for cohort in data["metadata_research_cohorts"]:
+        members = [r for r in result if r["metadata_cohort_not_official_classification"] == cohort]
+        current["cohort_review_progress"][cohort] = {
+            "codes": len(members),
+            "wizards_reviewed": sum(bool(r["wizards_individual_source_review"]) for r in members),
+            "needs_individual_review": sum(not r["wizards_individual_source_review"] for r in members),
+            "explicit_parent_links": sum(bool(r["parent_set_code_explicit_only"]) for r in members),
+        }
+    if sum(bool(r["wizards_individual_source_review"]) for r in result) != 43:
+        raise ValueError("Cumulative official source records not 43")
+    return current
+
+
 def load_current_index():
     data = json.loads(INDEX.read_text(encoding="utf-8"))
     if SOURCE_REVIEW.exists():
         verified = json.loads(SOURCE_REVIEW.read_text(encoding="utf-8"))
-        return apply_source_overlay(data, verified)
+        data = apply_source_overlay(data, verified)
+    if SECOND_SOURCE_REVIEW.exists():
+        second = json.loads(SECOND_SOURCE_REVIEW.read_text(encoding="utf-8"))
+        data = apply_second_source_overlay(data, second)
     return data
 
 
