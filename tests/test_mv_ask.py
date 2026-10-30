@@ -55,6 +55,23 @@ class CompanionTests(unittest.TestCase):
         self.assertEqual(r["result"], {})
         self.assertIn("NO_CITED_LORE", r["flags"])
 
+    def test_who_defeated_yawgmoth_preserves_all_accounts(self):
+        r = A.ask("Who defeated Yawgmoth?")
+        self.assertEqual(r["confidence"], "QUALIFIED")
+        self.assertIn("CANON_DISPUTED_PRESENT", r["flags"])
+        names = {x["name"] for x in r["result"]["relations_by_status"]["CANON_DISPUTED"]}
+        self.assertTrue({"Karn", "Gerrard Capashen", "Urza"} <= names)
+
+    def test_who_created_old_phyrexia_is_open(self):
+        r = A.ask("Who created Old Phyrexia?")
+        self.assertEqual(r["confidence"], "QUALIFIED")
+        self.assertIn("OPEN_QUESTION_PRESENT", r["flags"])
+
+    def test_who_created_mirrodin(self):
+        r = A.ask("Who created Mirrodin?")
+        self.assertEqual(r["confidence"], "VERIFIED")
+        self.assertIn("Karn", {x["name"] for x in r["result"]["relations_by_status"]["CANON_CONFIRMED"]})
+
     def test_cli_exit_codes(self):
         self.assertEqual(A.main(["ask", "Who was Kayla bin-Kroog's husband?"]), 0)
         self.assertEqual(A.main(["ask", "Who is Zorblax the Unreal?"]), 3)

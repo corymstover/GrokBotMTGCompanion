@@ -40,8 +40,8 @@ class GraphBuildTests(unittest.TestCase):
         for n in self.graph["nodes"]:
             if n["type"] == "Claim":
                 by_status.setdefault(n["grade"], set()).add(n["id"])
-        self.assertEqual(by_status.get("CANON_DISPUTED"), {"claim:A003", "claim:A004", "claim:B012"})
-        self.assertEqual(by_status.get("OPEN_QUESTION"), {"claim:A011"})
+        self.assertEqual(by_status.get("CANON_DISPUTED"), {"claim:A003", "claim:A004", "claim:B012", "claim:C012"})
+        self.assertEqual(by_status.get("OPEN_QUESTION"), {"claim:A011", "claim:C010"})
         self.assertEqual(by_status.get("ALTERNATE_CONTINUITY"), {"claim:A012"})
 
     def test_no_broken_or_duplicate_edges(self):
@@ -94,7 +94,7 @@ class QueryTests(unittest.TestCase):
         self.assertIn("e1d45374-a41b-4b3f-a7c8-3eb5ca767cf6", res["card"]["exact_story_art_printings"])
 
     def test_status_query(self):
-        self.assertEqual([r["claim"] for r in self.mg.status("OPEN_QUESTION")], ["claim:A011"])
+        self.assertEqual([r["claim"] for r in self.mg.status("OPEN_QUESTION")], ["claim:A011", "claim:C010"])
 
 
     # --- Pack B (Thran / Yawgmoth / Brothers' War) ---
@@ -120,6 +120,27 @@ class QueryTests(unittest.TestCase):
         for nid in ("character:urza", "character:mishra", "character:yawgmoth", "artifact:golgothian_sylex"):
             self.assertIn(nid, bridged)
 
+    def test_pack_c_yawgmoth_defeat_accounts_preserved(self):
+        edges = [e for e in self.mg.g["edges"] if e.get("claim") == "C012"]
+        targets = {e["to"] for e in edges}
+        for nid in ("character:karn", "character:gerrard", "character:urza"):
+            self.assertIn(nid, targets)
+        self.assertTrue(all(e["grade"] == "CANON_DISPUTED" for e in edges))
+
+    def test_pack_c_old_phyrexia_creator_is_open(self):
+        edges = [e for e in self.mg.g["edges"] if e.get("claim") == "C010"]
+        self.assertTrue(edges)
+        self.assertTrue(all(e["grade"] == "OPEN_QUESTION" for e in edges))
+
+    def test_pack_c_path_urza_to_mirrodin(self):
+        hops = self.mg.path("urza", "mirrodin")
+        self.assertTrue(hops)
+        self.assertTrue(all(h["claim"] and h["source_urls"] for h in hops))
+
+    def test_pack_c_sources_all_official(self):
+        srcs = [n for n in self.mg.g["nodes"] if n["id"].startswith("source:c_")]
+        self.assertEqual(len(srcs), 6)
+        self.assertTrue(all(n.get("url", "").startswith("https://magic.wizards.com/") for n in srcs))
 
 class MutationTests(unittest.TestCase):
     """Corrupt a temporary copy of the inputs and confirm the validator catches it."""
