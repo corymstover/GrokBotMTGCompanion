@@ -1,0 +1,134 @@
+{
+ "schema": "story-claim-pipeline-audit/v1",
+ "pack": "data/lore_research/pack_p5_kamigawa_neon_dynasty_2026-10-30.json",
+ "pack_status": "PRELIMINARY_RESEARCH (not owner approved, not certified)",
+ "arc": "NEO",
+ "claims": 12,
+ "entities": 13,
+ "sources": 6,
+ "grades": {
+  "CANON_CONFIRMED": 9,
+  "CANON_IMPLIED": 3
+ },
+ "quotes": 19,
+ "quotes_verbatim": 19,
+ "quote_rows": [
+  {
+   "claim": "NEO001",
+   "source_id": "neo_ep4",
+   "quote_sha256": "5da08dcfaf6cfc685edf92a5342d6ca16e1f890abdfa2ceae5d2a7d97eb14ea8",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "NEO001",
+   "source_id": "neo_ep3",
+   "quote_sha256": "0925b435c25c872cd8be23885a97710031863392faf51e3f3a3f0628bc9bcf5b",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "NEO002",
+   "source_id": "neo_ep5",
+   "quote_sha256": "a6d13d0e5c9973e3578ea174a21f4c7af2963312cf5d8ee1d7ba5ccfa7f4c49c",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "NEO002",
+   "source_id": "neo_ep3",
+   "quote_sha256": "af4a3044037d8483459622c79407c67ad55c0b0c004cce798932cea83331c5c7",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "NEO003",
+   "source_id": "neo_ep3",
+   "quote_sha256": "ea0d9b26a6c2a9ead9ef916227204bf7109db72c493ee42aa2e7f3e13472dd72",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "NEO003",
+   "source_id": "neo_ep4",
+   "quote_sha256": "e4cf87a3f531681f4dc3132aca3b65dfea569becf3240c3ec4ed92eeb1004edd",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "NEO004",
+   "source_id": "neo_ep3",
+   "quote_sha256": "c67a576b5ca91e3c32205723eab35a2c272a337cf0fa81cc0e02d8fe8d18b987",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "NEO005",
+   "source_id": "neo_ep2",
+   "quote_sha256": "c440d9927e0637baf5b96942566d939a1a6b3e45f78ae33dd0879313946c8205",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "NEO006",
+   "source_id": "neo_ep1",
+   "quote_sha256": "3f4ca446a40f9d5b8fafb647c04f4d6c12de269b9723ac6df7af0daf2a4a5e36",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "NEO007",
+   "source_id": "neo_ep4",
+   "quote_sha256": "71a2d5f5b902e094b303560f9e4ea577582e36b2d60182bb3d807837504ad84a",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "NEO008",
+   "source_id": "neo_ep4",
+   "quote_sha256": "f6a9daadf5a33c8fb2d1d6dfbca0380856ed3c6d51cc5e33216480e73cc210bc",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "NEO008",
+   "source_id": "neo_ep3",
+   "quote_sha256": "9bb9f1081db5daacdcee88b7ea30505352bd21d4587f3fb48b61e671f7e3d8d3",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "NEO009",
+   "source_id": "neo_guide",
+   "quote_sha256": "f619e133ba84fbfcc24f139423c6c30ee10e3421c874d23c0a96898671026e3e",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "NEO009",
+   "source_id": "neo_ep1",
+   "quote_sha256": "26e4ffcba4f4cb012779a92a9a78af0d54334921882363fe1a9511c53bd0d9a8",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "NEO010",
+   "source_id": "neo_ep5",
+   "quote_sha256": "68fdbf7d76ea6a84b2afbbace7ce8dfb5fc8c7f736e0f422d754b10ab1f53f53",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "NEO010",
+   "source_id": "neo_ep5",
+   "quote_sha256": "4a7e45947ad2a338f5b8e53dca7c73392889cf745540989bdfe578f2f042a9fc",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "NEO011",
+   "source_id": "neo_ep5",
+   "quote_sha256": "82e14e59b360b4ba6fabfca4ea1be1141b76cb48233a1ca0b89487ef5d38c02f",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "NEO011",
+   "source_id": "neo_ep5",
+   "quote_sha256": "9ebd985035dc2a9e4e6937e23d001eeecb2e3fe3c6674ad0e818cdb56600051d",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "NEO012",
+   "source_id": "neo_ep5",
+   "quote_sha256": "24b1e6bac5074a93b9782e964428ea9477b4cd9aef43e8a7c0621cda8c49837a",
+   "status": "VERBATIM"
+  }
+ ],
+ "problems": [],
+ "note": "Verbatim-quote audit against cached official Wizards story text. Research evidence only: not owner approval, not certification, not an exhaustive reading.",
+ "content_sha256": "a6cfe5bda97e387785ba01386fa35794c6902edb429ee8b3d9da848be7e2f893"
+}

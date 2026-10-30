@@ -29,6 +29,9 @@
   "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json": [
    "akh",
    "hou"
+  ],
+  "pack_p5_kamigawa_neon_dynasty_2026-10-30.json": [
+   "neo"
   ]
  },
  "rule": "Each claim participant with a card-name anchor contributes its cards. Tier ART_IN_CITED_SOURCE: the card's art is credited by exact name on an official page the claim cites. PRINTED_IN_STORY_SET: a paper printing in the set whose main-story episodes the pack covers. NAMED_PARTICIPANT: otherwise. An anchor never asserts that the card depicts the claimed event and never changes a claim grade.",
@@ -9851,6 +9854,496 @@
    "card": "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
    "oracle_id": "55e4b27e-5447-4fc2-8cae-a03e344600c6",
    "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "NEO001",
+   "pack": "pack_p5_kamigawa_neon_dynasty_2026-10-30.json",
+   "participant": "the_wanderer",
+   "card": "The Wanderer",
+   "oracle_id": "4c2196e5-6ed7-4cd2-b8e7-f01aff236569",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "NEO002",
+   "pack": "pack_p5_kamigawa_neon_dynasty_2026-10-30.json",
+   "participant": "the_wanderer",
+   "card": "The Wanderer",
+   "oracle_id": "4c2196e5-6ed7-4cd2-b8e7-f01aff236569",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "NEO002",
+   "pack": "pack_p5_kamigawa_neon_dynasty_2026-10-30.json",
+   "participant": "tezzeret",
+   "card": "Tezzeret the Schemer",
+   "oracle_id": "49d64ecb-3a4f-4013-9a34-8b1539a91e96",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "NEO002",
+   "pack": "pack_p5_kamigawa_neon_dynasty_2026-10-30.json",
+   "participant": "tezzeret",
+   "card": "Tezzeret the Seeker",
+   "oracle_id": "4aeafdf3-7828-4114-8c74-3bd46357caec",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "NEO002",
+   "pack": "pack_p5_kamigawa_neon_dynasty_2026-10-30.json",
+   "participant": "tezzeret",
+   "card": "Tezzeret, Agent of Bolas",
+   "oracle_id": "8ab7358e-a0f5-4220-8769-25177237bcdf",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "NEO002",
+   "pack": "pack_p5_kamigawa_neon_dynasty_2026-10-30.json",
+   "participant": "tezzeret",
+   "card": "Tezzeret, Artifice Master",
+   "oracle_id": "e22824cf-07a1-4c83-b6c4-9d8fcff3892f",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "NEO002",
+   "pack": "pack_p5_kamigawa_neon_dynasty_2026-10-30.json",
+   "participant": "tezzeret",
+   "card": "Tezzeret, Betrayer of Flesh",
+   "oracle_id": "5dedd5a9-bc5d-47bb-9ae1-7d683843d041",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "neo"
+   ]
+  },
+  {
+   "claim": "NEO002",
+   "pack": "pack_p5_kamigawa_neon_dynasty_2026-10-30.json",
+   "participant": "tezzeret",
+   "card": "Tezzeret, Cruel Captain",
+   "oracle_id": "0eb11b2d-a397-48da-a0f3-9f0f83f42282",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "NEO002",
+   "pack": "pack_p5_kamigawa_neon_dynasty_2026-10-30.json",
+   "participant": "tezzeret",
+   "card": "Tezzeret, Cruel Machinist",
+   "oracle_id": "e5a95145-dc29-4bfc-bb14-b7a269268366",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "NEO002",
+   "pack": "pack_p5_kamigawa_neon_dynasty_2026-10-30.json",
+   "participant": "tezzeret",
+   "card": "Tezzeret, Master of Metal",
+   "oracle_id": "3fba19a9-44c6-4771-9587-9d2c4009e996",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "NEO002",
+   "pack": "pack_p5_kamigawa_neon_dynasty_2026-10-30.json",
+   "participant": "tezzeret",
+   "card": "Tezzeret, Master of the Bridge",
+   "oracle_id": "d097991c-41df-47de-a439-57a0693b9581",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "NEO003",
+   "pack": "pack_p5_kamigawa_neon_dynasty_2026-10-30.json",
+   "participant": "tezzeret",
+   "card": "Tezzeret the Schemer",
+   "oracle_id": "49d64ecb-3a4f-4013-9a34-8b1539a91e96",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "NEO003",
+   "pack": "pack_p5_kamigawa_neon_dynasty_2026-10-30.json",
+   "participant": "tezzeret",
+   "card": "Tezzeret the Seeker",
+   "oracle_id": "4aeafdf3-7828-4114-8c74-3bd46357caec",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "NEO003",
+   "pack": "pack_p5_kamigawa_neon_dynasty_2026-10-30.json",
+   "participant": "tezzeret",
+   "card": "Tezzeret, Agent of Bolas",
+   "oracle_id": "8ab7358e-a0f5-4220-8769-25177237bcdf",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "NEO003",
+   "pack": "pack_p5_kamigawa_neon_dynasty_2026-10-30.json",
+   "participant": "tezzeret",
+   "card": "Tezzeret, Artifice Master",
+   "oracle_id": "e22824cf-07a1-4c83-b6c4-9d8fcff3892f",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "NEO003",
+   "pack": "pack_p5_kamigawa_neon_dynasty_2026-10-30.json",
+   "participant": "tezzeret",
+   "card": "Tezzeret, Betrayer of Flesh",
+   "oracle_id": "5dedd5a9-bc5d-47bb-9ae1-7d683843d041",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "neo"
+   ]
+  },
+  {
+   "claim": "NEO003",
+   "pack": "pack_p5_kamigawa_neon_dynasty_2026-10-30.json",
+   "participant": "tezzeret",
+   "card": "Tezzeret, Cruel Captain",
+   "oracle_id": "0eb11b2d-a397-48da-a0f3-9f0f83f42282",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "NEO003",
+   "pack": "pack_p5_kamigawa_neon_dynasty_2026-10-30.json",
+   "participant": "tezzeret",
+   "card": "Tezzeret, Cruel Machinist",
+   "oracle_id": "e5a95145-dc29-4bfc-bb14-b7a269268366",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "NEO003",
+   "pack": "pack_p5_kamigawa_neon_dynasty_2026-10-30.json",
+   "participant": "tezzeret",
+   "card": "Tezzeret, Master of Metal",
+   "oracle_id": "3fba19a9-44c6-4771-9587-9d2c4009e996",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "NEO003",
+   "pack": "pack_p5_kamigawa_neon_dynasty_2026-10-30.json",
+   "participant": "tezzeret",
+   "card": "Tezzeret, Master of the Bridge",
+   "oracle_id": "d097991c-41df-47de-a439-57a0693b9581",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "NEO003",
+   "pack": "pack_p5_kamigawa_neon_dynasty_2026-10-30.json",
+   "participant": "kyodai",
+   "card": "Kyodai, Soul of Kamigawa",
+   "oracle_id": "d89bd776-8489-4c34-94ea-db1b088d9379",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "neo"
+   ]
+  },
+  {
+   "claim": "NEO004",
+   "pack": "pack_p5_kamigawa_neon_dynasty_2026-10-30.json",
+   "participant": "the_wanderer",
+   "card": "The Wanderer",
+   "oracle_id": "4c2196e5-6ed7-4cd2-b8e7-f01aff236569",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "NEO005",
+   "pack": "pack_p5_kamigawa_neon_dynasty_2026-10-30.json",
+   "participant": "kaito",
+   "card": "Kaito Shizuki",
+   "oracle_id": "ba48e067-f4d9-45b2-ade1-71cf8cda418c",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "neo"
+   ]
+  },
+  {
+   "claim": "NEO006",
+   "pack": "pack_p5_kamigawa_neon_dynasty_2026-10-30.json",
+   "participant": "kaito",
+   "card": "Kaito Shizuki",
+   "oracle_id": "ba48e067-f4d9-45b2-ade1-71cf8cda418c",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "neo"
+   ]
+  },
+  {
+   "claim": "NEO007",
+   "pack": "pack_p5_kamigawa_neon_dynasty_2026-10-30.json",
+   "participant": "kaito",
+   "card": "Kaito Shizuki",
+   "oracle_id": "ba48e067-f4d9-45b2-ade1-71cf8cda418c",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "neo"
+   ]
+  },
+  {
+   "claim": "NEO007",
+   "pack": "pack_p5_kamigawa_neon_dynasty_2026-10-30.json",
+   "participant": "the_wanderer",
+   "card": "The Wanderer",
+   "oracle_id": "4c2196e5-6ed7-4cd2-b8e7-f01aff236569",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "NEO008",
+   "pack": "pack_p5_kamigawa_neon_dynasty_2026-10-30.json",
+   "participant": "jin_gitaxias",
+   "card": "Jin-Gitaxias // The Great Synthesis",
+   "oracle_id": "b70c3adb-64ba-49ea-bcf6-6406a58cb453",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "NEO008",
+   "pack": "pack_p5_kamigawa_neon_dynasty_2026-10-30.json",
+   "participant": "jin_gitaxias",
+   "card": "Jin-Gitaxias, Core Augur",
+   "oracle_id": "eb23aed0-c450-4e57-96f2-2866dceca004",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "NEO008",
+   "pack": "pack_p5_kamigawa_neon_dynasty_2026-10-30.json",
+   "participant": "jin_gitaxias",
+   "card": "Jin-Gitaxias, Progress Tyrant",
+   "oracle_id": "f5daadc1-98ff-480a-82bb-fe7bfaa7b60e",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "neo"
+   ]
+  },
+  {
+   "claim": "NEO008",
+   "pack": "pack_p5_kamigawa_neon_dynasty_2026-10-30.json",
+   "participant": "tameshi",
+   "card": "Tameshi, Reality Architect",
+   "oracle_id": "b47b3cfe-7005-4b33-9d41-83b60808e12b",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "neo"
+   ]
+  },
+  {
+   "claim": "NEO009",
+   "pack": "pack_p5_kamigawa_neon_dynasty_2026-10-30.json",
+   "participant": "kyodai",
+   "card": "Kyodai, Soul of Kamigawa",
+   "oracle_id": "d89bd776-8489-4c34-94ea-db1b088d9379",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "neo"
+   ]
+  },
+  {
+   "claim": "NEO010",
+   "pack": "pack_p5_kamigawa_neon_dynasty_2026-10-30.json",
+   "participant": "tezzeret",
+   "card": "Tezzeret the Schemer",
+   "oracle_id": "49d64ecb-3a4f-4013-9a34-8b1539a91e96",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "NEO010",
+   "pack": "pack_p5_kamigawa_neon_dynasty_2026-10-30.json",
+   "participant": "tezzeret",
+   "card": "Tezzeret the Seeker",
+   "oracle_id": "4aeafdf3-7828-4114-8c74-3bd46357caec",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "NEO010",
+   "pack": "pack_p5_kamigawa_neon_dynasty_2026-10-30.json",
+   "participant": "tezzeret",
+   "card": "Tezzeret, Agent of Bolas",
+   "oracle_id": "8ab7358e-a0f5-4220-8769-25177237bcdf",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "NEO010",
+   "pack": "pack_p5_kamigawa_neon_dynasty_2026-10-30.json",
+   "participant": "tezzeret",
+   "card": "Tezzeret, Artifice Master",
+   "oracle_id": "e22824cf-07a1-4c83-b6c4-9d8fcff3892f",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "NEO010",
+   "pack": "pack_p5_kamigawa_neon_dynasty_2026-10-30.json",
+   "participant": "tezzeret",
+   "card": "Tezzeret, Betrayer of Flesh",
+   "oracle_id": "5dedd5a9-bc5d-47bb-9ae1-7d683843d041",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "neo"
+   ]
+  },
+  {
+   "claim": "NEO010",
+   "pack": "pack_p5_kamigawa_neon_dynasty_2026-10-30.json",
+   "participant": "tezzeret",
+   "card": "Tezzeret, Cruel Captain",
+   "oracle_id": "0eb11b2d-a397-48da-a0f3-9f0f83f42282",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "NEO010",
+   "pack": "pack_p5_kamigawa_neon_dynasty_2026-10-30.json",
+   "participant": "tezzeret",
+   "card": "Tezzeret, Cruel Machinist",
+   "oracle_id": "e5a95145-dc29-4bfc-bb14-b7a269268366",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "NEO010",
+   "pack": "pack_p5_kamigawa_neon_dynasty_2026-10-30.json",
+   "participant": "tezzeret",
+   "card": "Tezzeret, Master of Metal",
+   "oracle_id": "3fba19a9-44c6-4771-9587-9d2c4009e996",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "NEO010",
+   "pack": "pack_p5_kamigawa_neon_dynasty_2026-10-30.json",
+   "participant": "tezzeret",
+   "card": "Tezzeret, Master of the Bridge",
+   "oracle_id": "d097991c-41df-47de-a439-57a0693b9581",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "NEO010",
+   "pack": "pack_p5_kamigawa_neon_dynasty_2026-10-30.json",
+   "participant": "tamiyo",
+   "card": "Tamiyo, Collector of Tales",
+   "oracle_id": "75d56a0a-2f64-4e80-b83e-85942d3e6dd7",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "NEO010",
+   "pack": "pack_p5_kamigawa_neon_dynasty_2026-10-30.json",
+   "participant": "tamiyo",
+   "card": "Tamiyo, Compleated Sage",
+   "oracle_id": "021b4745-4a15-462c-a6b0-2dee1dc9d196",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "neo"
+   ]
+  },
+  {
+   "claim": "NEO010",
+   "pack": "pack_p5_kamigawa_neon_dynasty_2026-10-30.json",
+   "participant": "tamiyo",
+   "card": "Tamiyo, Field Researcher",
+   "oracle_id": "9cf99129-f51a-4418-a8cc-8ca2992b17fa",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "NEO010",
+   "pack": "pack_p5_kamigawa_neon_dynasty_2026-10-30.json",
+   "participant": "tamiyo",
+   "card": "Tamiyo, Inquisitive Student // Tamiyo, Seasoned Scholar",
+   "oracle_id": "1ed9e351-0000-4b75-8ecb-d15bd88df68a",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "NEO010",
+   "pack": "pack_p5_kamigawa_neon_dynasty_2026-10-30.json",
+   "participant": "tamiyo",
+   "card": "Tamiyo, Upriser Crowned",
+   "oracle_id": "8e0f2e26-1e14-422a-aafe-e1da38ab10a3",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "NEO010",
+   "pack": "pack_p5_kamigawa_neon_dynasty_2026-10-30.json",
+   "participant": "tamiyo",
+   "card": "Tamiyo, the Moon Sage",
+   "oracle_id": "f88be051-36ae-407e-bd5a-2b029c26414e",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "NEO011",
+   "pack": "pack_p5_kamigawa_neon_dynasty_2026-10-30.json",
+   "participant": "jin_gitaxias",
+   "card": "Jin-Gitaxias // The Great Synthesis",
+   "oracle_id": "b70c3adb-64ba-49ea-bcf6-6406a58cb453",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "NEO011",
+   "pack": "pack_p5_kamigawa_neon_dynasty_2026-10-30.json",
+   "participant": "jin_gitaxias",
+   "card": "Jin-Gitaxias, Core Augur",
+   "oracle_id": "eb23aed0-c450-4e57-96f2-2866dceca004",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "NEO011",
+   "pack": "pack_p5_kamigawa_neon_dynasty_2026-10-30.json",
+   "participant": "jin_gitaxias",
+   "card": "Jin-Gitaxias, Progress Tyrant",
+   "oracle_id": "f5daadc1-98ff-480a-82bb-fe7bfaa7b60e",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "neo"
+   ]
+  },
+  {
+   "claim": "NEO011",
+   "pack": "pack_p5_kamigawa_neon_dynasty_2026-10-30.json",
+   "participant": "tamiyo",
+   "card": "Tamiyo, Collector of Tales",
+   "oracle_id": "75d56a0a-2f64-4e80-b83e-85942d3e6dd7",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "NEO011",
+   "pack": "pack_p5_kamigawa_neon_dynasty_2026-10-30.json",
+   "participant": "tamiyo",
+   "card": "Tamiyo, Compleated Sage",
+   "oracle_id": "021b4745-4a15-462c-a6b0-2dee1dc9d196",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "neo"
+   ]
+  },
+  {
+   "claim": "NEO011",
+   "pack": "pack_p5_kamigawa_neon_dynasty_2026-10-30.json",
+   "participant": "tamiyo",
+   "card": "Tamiyo, Field Researcher",
+   "oracle_id": "9cf99129-f51a-4418-a8cc-8ca2992b17fa",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "NEO011",
+   "pack": "pack_p5_kamigawa_neon_dynasty_2026-10-30.json",
+   "participant": "tamiyo",
+   "card": "Tamiyo, Inquisitive Student // Tamiyo, Seasoned Scholar",
+   "oracle_id": "1ed9e351-0000-4b75-8ecb-d15bd88df68a",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "NEO011",
+   "pack": "pack_p5_kamigawa_neon_dynasty_2026-10-30.json",
+   "participant": "tamiyo",
+   "card": "Tamiyo, Upriser Crowned",
+   "oracle_id": "8e0f2e26-1e14-422a-aafe-e1da38ab10a3",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "NEO011",
+   "pack": "pack_p5_kamigawa_neon_dynasty_2026-10-30.json",
+   "participant": "tamiyo",
+   "card": "Tamiyo, the Moon Sage",
+   "oracle_id": "f88be051-36ae-407e-bd5a-2b029c26414e",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "NEO012",
+   "pack": "pack_p5_kamigawa_neon_dynasty_2026-10-30.json",
+   "participant": "kaito",
+   "card": "Kaito Shizuki",
+   "oracle_id": "ba48e067-f4d9-45b2-ade1-71cf8cda418c",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "neo"
+   ]
   }
  ],
  "by_pack": {
@@ -9937,15 +10430,22 @@
    "ART_IN_CITED_SOURCE": 3,
    "PRINTED_IN_STORY_SET": 24,
    "NAMED_PARTICIPANT": 105
+  },
+  "pack_p5_kamigawa_neon_dynasty_2026-10-30.json": {
+   "claims": 12,
+   "claims_anchored": 12,
+   "ART_IN_CITED_SOURCE": 0,
+   "PRINTED_IN_STORY_SET": 14,
+   "NAMED_PARTICIPANT": 42
   }
  },
  "counts": {
-  "claims": 231,
-  "claims_anchored": 206,
-  "anchors": 1179,
+  "claims": 243,
+  "claims_anchored": 218,
+  "anchors": 1235,
   "ART_IN_CITED_SOURCE": 31,
-  "PRINTED_IN_STORY_SET": 96,
-  "NAMED_PARTICIPANT": 1052
+  "PRINTED_IN_STORY_SET": 110,
+  "NAMED_PARTICIPANT": 1094
  },
- "content_sha256": "29725c690854a2608a1904215f3da1fa433eb7f1b325acc65cb58df202e2cd11"
+ "content_sha256": "e1b01818e78868c35578be65a60deed3eb8debc5d0ca541a60570921aeaa9546"
 }

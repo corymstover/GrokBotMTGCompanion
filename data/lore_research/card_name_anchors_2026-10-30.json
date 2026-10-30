@@ -1195,6 +1195,23 @@
    ]
   },
   {
+   "entity": "kyodai",
+   "entity_type": "Character",
+   "entity_name": "Kyodai",
+   "aliases": [
+    "Kyodai"
+   ],
+   "pack": "pack_p5_kamigawa_neon_dynasty_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Kyodai, Soul of Kamigawa",
+     "oracle_id": "d89bd776-8489-4c34-94ea-db1b088d9379",
+     "type_line": "Legendary Creature — Dragon Spirit",
+     "scryfall_uri": "https://scryfall.com/card/neo/23/kyodai-soul-of-kamigawa"
+    }
+   ]
+  },
+  {
    "entity": "liliana_vess",
    "entity_type": "Character",
    "entity_name": "Liliana Vess",
@@ -2033,6 +2050,23 @@
    ]
   },
   {
+   "entity": "tameshi",
+   "entity_type": "Character",
+   "entity_name": "Tameshi",
+   "aliases": [
+    "Tameshi"
+   ],
+   "pack": "pack_p5_kamigawa_neon_dynasty_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Tameshi, Reality Architect",
+     "oracle_id": "b47b3cfe-7005-4b33-9d41-83b60808e12b",
+     "type_line": "Legendary Creature — Moonfolk Wizard",
+     "scryfall_uri": "https://scryfall.com/card/neo/82/tameshi-reality-architect"
+    }
+   ]
+  },
+  {
    "entity": "tamiyo",
    "entity_type": "Character",
    "entity_name": "Tamiyo",
@@ -2624,10 +2658,12 @@
   "dhiren_baral",
   "dmu_sheoldred_invasion",
   "dragonstorm_escape",
+  "eiko",
   "first_phyrexian_invasion",
   "ghirapur_revolution",
   "ice_age",
   "immortal_sun",
+  "imperial_palace",
   "innistrad_silver_moon",
   "kayla_bin_kroog",
   "kiran_nalaar",
@@ -2636,6 +2672,7 @@
   "one_sylex",
   "orazca",
   "original_tarkir_clash",
+  "reality_chip",
   "realmbreaker",
   "rtd_sylex",
   "skysovereign",
@@ -2660,9 +2697,9 @@
   "Urza, Academy Headmaster"
  ],
  "counts": {
-  "entities_anchored": 100,
-  "anchor_edges": 250,
-  "unanchored_entities": 35
+  "entities_anchored": 102,
+  "anchor_edges": 252,
+  "unanchored_entities": 38
  },
- "content_sha256": "688a86ef82472b97a9c2b4a5ac5cabe997b40754efce202faead42fdb6522312"
+ "content_sha256": "b68dd1883ec7a622a7ab41ac882af3536d8f70c3fa12cc0e15c3233622d2c065"
 }
