@@ -9,7 +9,14 @@
   "khm_legends": "legends-kaldheim-2021-01-21",
   "khm_ep3": "episode-3-saga-tibalt-2021-01-20",
   "khm_ep4": "episode-4-demons-realm-2021-01-27",
-  "khm_ep5": "episode-5-battle-kaldheim-2021-02-03"
+  "khm_ep5": "episode-5-battle-kaldheim-2021-02-03",
+  "khm_aim": "aim-through-target-2021-01-15",
+  "khm_brokenbrow": "brokenbrow-2021-01-22",
+  "khm_direction": "direction-purpose-honor-glory-2021-01-29",
+  "khm_ep1": "episode-1-travelers-2021-01-07",
+  "khm_ep2": "episode-2-awaken-trolls-2021-01-13",
+  "khm_wind": "know-which-way-wind-blowing-2021-01-08",
+  "khm_lathril": "saga-lathril-2021-02-05"
  },
  "entities": [
   {
@@ -116,6 +123,71 @@
    "id": "skoti",
    "type": "Faction",
    "name": "The Skoti"
+  },
+  {
+   "id": "thura",
+   "type": "Character",
+   "name": "Thura Sail-Rend"
+  },
+  {
+   "id": "beskir",
+   "type": "Faction",
+   "name": "Beskir clan"
+  },
+  {
+   "id": "arni_brokenbrow",
+   "type": "Character",
+   "name": "Arni Brokenbrow"
+  },
+  {
+   "id": "tuskeri",
+   "type": "Faction",
+   "name": "Tuskeri clan"
+  },
+  {
+   "id": "njala",
+   "type": "Character",
+   "name": "Njala"
+  },
+  {
+   "id": "alajn",
+   "type": "Character",
+   "name": "Alajn"
+  },
+  {
+   "id": "egon",
+   "type": "Character",
+   "name": "Egon"
+  },
+  {
+   "id": "istfell",
+   "type": "Place",
+   "name": "Istfell"
+  },
+  {
+   "id": "inga_rune_eyes",
+   "type": "Character",
+   "name": "Inga Rune-Eyes"
+  },
+  {
+   "id": "omenseekers",
+   "type": "Faction",
+   "name": "Omenseekers"
+  },
+  {
+   "id": "niko_aris",
+   "type": "Character",
+   "name": "Niko Aris"
+  },
+  {
+   "id": "lathril",
+   "type": "Character",
+   "name": "Lathril"
+  },
+  {
+   "id": "sarulf",
+   "type": "Character",
+   "name": "Sarulf"
   }
  ],
  "claims": [
@@ -344,6 +416,167 @@
    ],
    "summary": "The Skoti banished Koma to the Cosmos.",
    "limitation": "The guide does not name who banished him; the Skoti come from Tibalt's narration in episode 3."
+  },
+  {
+   "id": "KH015",
+   "subject": "thura",
+   "predicate": "member_of",
+   "object": "beskir",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "khm_aim",
+     "quote": "Thura Sail-Rend, she of the Beskir clan."
+    }
+   ],
+   "summary": "Thura Sail-Rend is of the Beskir clan."
+  },
+  {
+   "id": "KH016",
+   "subject": "arni_brokenbrow",
+   "predicate": "leader_of",
+   "object": "tuskeri",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "khm_brokenbrow",
+     "quote": "He's the new leader of the Tuskeri."
+    },
+    {
+     "page": "khm_brokenbrow",
+     "quote": "Arni Brokenbrow, they call him."
+    }
+   ],
+   "summary": "Arni Brokenbrow is the Tuskeri clan's new leader.",
+   "limitation": "The two lines are consecutive dialogue between the Valkyries; the name and the title are not in one sentence."
+  },
+  {
+   "id": "KH017",
+   "subject": "njala",
+   "predicate": "member_of",
+   "object": "valkyries_of_starnheim",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "khm_brokenbrow",
+     "quote": "To her, a Valkyrie, no mortal seemed to last longer than a sunny afternoon"
+    }
+   ],
+   "summary": "Njala is a Valkyrie who watches and judges the battle.",
+   "limitation": "'Her' is Njala from the point-of-view narration."
+  },
+  {
+   "id": "KH018",
+   "subject": "njala",
+   "predicate": "sibling_of",
+   "object": "alajn",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "khm_brokenbrow",
+     "quote": "She was trying to think of some point, some argument that would move her sister out of the way, when she saw it, over Alajn's shoulder."
+    },
+    {
+     "page": "khm_brokenbrow",
+     "quote": "muttered Njala to her sister."
+    }
+   ],
+   "summary": "The Valkyries Njala and Alajn are sisters.",
+   "limitation": "Sisterhood may be in the sense of fellow Valkyries; the text does not say blood relation."
+  },
+  {
+   "id": "KH019",
+   "subject": "egon",
+   "predicate": "leader_of",
+   "object": "istfell",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "khm_direction",
+     "quote": "In his place stood the very lord of Istfell himself, Egon, god of the dead"
+    }
+   ],
+   "summary": "Egon, god of the dead, is the lord of Istfell."
+  },
+  {
+   "id": "KH020",
+   "subject": "inga_rune_eyes",
+   "predicate": "leader_of",
+   "object": "omenseekers",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "khm_ep1",
+     "quote": "Inga, leader of the Omenseekers, was the first person Kaya had met on this plane"
+    }
+   ],
+   "summary": "Inga Rune-Eyes leads the Omenseekers."
+  },
+  {
+   "id": "KH021",
+   "subject": "kaya",
+   "predicate": "met",
+   "object": "inga_rune_eyes",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "khm_ep1",
+     "quote": "Inga, leader of the Omenseekers, was the first person Kaya had met on this plane"
+    }
+   ],
+   "summary": "Inga is the first person Kaya met on Kaldheim."
+  },
+  {
+   "id": "KH022",
+   "subject": "alrund",
+   "predicate": "aided",
+   "object": "kaya",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "khm_ep2",
+     "quote": "In the bottom of the longship of Cosima, Kaya lay back and watched the night sky above drift by."
+    },
+    {
+     "page": "khm_ep2",
+     "quote": "when Alrund had told her the ship"
+    }
+   ],
+   "summary": "Alrund sends Kaya across the Cosmos on Cosima's longship.",
+   "limitation": "'Aided' is an editorial reading of Alrund providing the ship."
+  },
+  {
+   "id": "KH023",
+   "subject": "niko_aris",
+   "predicate": "visited",
+   "object": "kaldheim",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "khm_wind",
+     "quote": "There was no sun or moon in Kaldheim, and its nights were growing longer."
+    },
+    {
+     "page": "khm_wind",
+     "quote": "glinted off Niko Aris's new breastplate and pauldrons"
+    }
+   ],
+   "summary": "Niko Aris is on Kaldheim, in a longhall of warriors."
+  },
+  {
+   "id": "KH024",
+   "subject": "sarulf",
+   "predicate": "chose",
+   "object": "lathril",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "khm_lathril",
+     "quote": "There was only one divine being that sent wolf children to his chosen, and that was Sarulf."
+    }
+   ],
+   "summary": "Sarulf sends a wolf child to Lathril, marking her as his chosen as she takes on godhood.",
+   "limitation": "The page shows the wolf with Lathril; the 'chosen' link is the narrator's inference."
   }
  ],
  "remaining": [

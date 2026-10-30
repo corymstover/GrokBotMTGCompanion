@@ -17519,6 +17519,209 @@
    "tier": "NAMED_PARTICIPANT"
   },
   {
+   "claim": "KH016",
+   "pack": "pack_p5_kaldheim_2026-10-30.json",
+   "participant": "arni_brokenbrow",
+   "card": "Arni Brokenbrow",
+   "oracle_id": "3dce6c6c-599f-4e35-ae15-728c5e78dee1",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "khm"
+   ]
+  },
+  {
+   "claim": "KH019",
+   "pack": "pack_p5_kaldheim_2026-10-30.json",
+   "participant": "egon",
+   "card": "Egon, God of Death // Throne of Death",
+   "oracle_id": "8fa7bd8f-f712-4dd1-9ffb-e30dfe744389",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "khm"
+   ]
+  },
+  {
+   "claim": "KH020",
+   "pack": "pack_p5_kaldheim_2026-10-30.json",
+   "participant": "inga_rune_eyes",
+   "card": "Inga Rune-Eyes",
+   "oracle_id": "78afa295-c9f4-4a81-9f7b-5746a3cf6b31",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "khm"
+   ]
+  },
+  {
+   "claim": "KH021",
+   "pack": "pack_p5_kaldheim_2026-10-30.json",
+   "participant": "kaya",
+   "card": "Kaya the Inexorable",
+   "oracle_id": "13a4f88b-6832-43a1-b4fa-c1ee60560bad",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "khm"
+   ]
+  },
+  {
+   "claim": "KH021",
+   "pack": "pack_p5_kaldheim_2026-10-30.json",
+   "participant": "kaya",
+   "card": "Kaya, Bane of the Dead",
+   "oracle_id": "29d58aa4-9a7e-4052-9b0d-fc282f1be40e",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "KH021",
+   "pack": "pack_p5_kaldheim_2026-10-30.json",
+   "participant": "kaya",
+   "card": "Kaya, Geist Hunter",
+   "oracle_id": "e0edb2fc-2533-407c-85e5-4337f4233f05",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "KH021",
+   "pack": "pack_p5_kaldheim_2026-10-30.json",
+   "participant": "kaya",
+   "card": "Kaya, Ghost Assassin",
+   "oracle_id": "5e4c81b9-a31e-45e6-983f-30f11b8a05c0",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "KH021",
+   "pack": "pack_p5_kaldheim_2026-10-30.json",
+   "participant": "kaya",
+   "card": "Kaya, Intangible Slayer",
+   "oracle_id": "9260ae3d-59bf-4e46-a13e-930754c3f0d2",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "KH021",
+   "pack": "pack_p5_kaldheim_2026-10-30.json",
+   "participant": "kaya",
+   "card": "Kaya, Orzhov Usurper",
+   "oracle_id": "7dd4a1a1-d5f4-4ac7-a9f6-34af411f070b",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "KH021",
+   "pack": "pack_p5_kaldheim_2026-10-30.json",
+   "participant": "kaya",
+   "card": "Kaya, Spirits' Justice",
+   "oracle_id": "0a094c5f-cefb-4ba1-90c8-dd78ae8efe95",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "KH021",
+   "pack": "pack_p5_kaldheim_2026-10-30.json",
+   "participant": "inga_rune_eyes",
+   "card": "Inga Rune-Eyes",
+   "oracle_id": "78afa295-c9f4-4a81-9f7b-5746a3cf6b31",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "khm"
+   ]
+  },
+  {
+   "claim": "KH022",
+   "pack": "pack_p5_kaldheim_2026-10-30.json",
+   "participant": "alrund",
+   "card": "Alrund, God of the Cosmos // Hakka, Whispering Raven",
+   "oracle_id": "0a69c3dd-52a3-4ef6-b53f-b0780e0dc5f8",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "khm"
+   ]
+  },
+  {
+   "claim": "KH022",
+   "pack": "pack_p5_kaldheim_2026-10-30.json",
+   "participant": "kaya",
+   "card": "Kaya the Inexorable",
+   "oracle_id": "13a4f88b-6832-43a1-b4fa-c1ee60560bad",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "khm"
+   ]
+  },
+  {
+   "claim": "KH022",
+   "pack": "pack_p5_kaldheim_2026-10-30.json",
+   "participant": "kaya",
+   "card": "Kaya, Bane of the Dead",
+   "oracle_id": "29d58aa4-9a7e-4052-9b0d-fc282f1be40e",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "KH022",
+   "pack": "pack_p5_kaldheim_2026-10-30.json",
+   "participant": "kaya",
+   "card": "Kaya, Geist Hunter",
+   "oracle_id": "e0edb2fc-2533-407c-85e5-4337f4233f05",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "KH022",
+   "pack": "pack_p5_kaldheim_2026-10-30.json",
+   "participant": "kaya",
+   "card": "Kaya, Ghost Assassin",
+   "oracle_id": "5e4c81b9-a31e-45e6-983f-30f11b8a05c0",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "KH022",
+   "pack": "pack_p5_kaldheim_2026-10-30.json",
+   "participant": "kaya",
+   "card": "Kaya, Intangible Slayer",
+   "oracle_id": "9260ae3d-59bf-4e46-a13e-930754c3f0d2",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "KH022",
+   "pack": "pack_p5_kaldheim_2026-10-30.json",
+   "participant": "kaya",
+   "card": "Kaya, Orzhov Usurper",
+   "oracle_id": "7dd4a1a1-d5f4-4ac7-a9f6-34af411f070b",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "KH022",
+   "pack": "pack_p5_kaldheim_2026-10-30.json",
+   "participant": "kaya",
+   "card": "Kaya, Spirits' Justice",
+   "oracle_id": "0a094c5f-cefb-4ba1-90c8-dd78ae8efe95",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "KH023",
+   "pack": "pack_p5_kaldheim_2026-10-30.json",
+   "participant": "niko_aris",
+   "card": "Niko Aris",
+   "oracle_id": "781162c4-9c0f-436c-b9a5-214e60e009e4",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "khm"
+   ]
+  },
+  {
+   "claim": "KH024",
+   "pack": "pack_p5_kaldheim_2026-10-30.json",
+   "participant": "sarulf",
+   "card": "Sarulf, Realm Eater",
+   "oracle_id": "789964f5-79c5-4329-b68f-b15b0d54b0b2",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "khm"
+   ]
+  },
+  {
+   "claim": "KH024",
+   "pack": "pack_p5_kaldheim_2026-10-30.json",
+   "participant": "lathril",
+   "card": "Lathril, Blade of the Elves",
+   "oracle_id": "9b568c34-ba0a-44a7-a0ee-bee3a37b3396",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
    "claim": "SX001",
    "pack": "pack_p5_strixhaven_2026-10-30.json",
    "participant": "extus",
@@ -17670,6 +17873,149 @@
    "participant": "liliana_vess",
    "card": "Liliana Vess",
    "oracle_id": "a6c05941-2cfb-4dac-a7c0-ab808187eb7c",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SX012",
+   "pack": "pack_p5_strixhaven_2026-10-30.json",
+   "participant": "zimone",
+   "card": "Zimone, All-Questioning",
+   "oracle_id": "6c044dd1-8938-4d62-a7b2-e2298de08f70",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SX012",
+   "pack": "pack_p5_strixhaven_2026-10-30.json",
+   "participant": "zimone",
+   "card": "Zimone, Infinite Analyst",
+   "oracle_id": "977f9390-e01d-4e9d-8e9c-e543b1266972",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SX012",
+   "pack": "pack_p5_strixhaven_2026-10-30.json",
+   "participant": "zimone",
+   "card": "Zimone, Mystery Unraveler",
+   "oracle_id": "75bf0f27-9df1-4ab4-97a8-94bb3223bdf9",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SX012",
+   "pack": "pack_p5_strixhaven_2026-10-30.json",
+   "participant": "zimone",
+   "card": "Zimone, Paradox Sculptor",
+   "oracle_id": "9dd674a7-becf-4106-b53f-bca88426d92d",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SX012",
+   "pack": "pack_p5_strixhaven_2026-10-30.json",
+   "participant": "zimone",
+   "card": "Zimone, Quandrix Prodigy",
+   "oracle_id": "ee2ef1e0-6803-4eb5-8664-605438c67505",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "stx"
+   ]
+  },
+  {
+   "claim": "SX013",
+   "pack": "pack_p5_strixhaven_2026-10-30.json",
+   "participant": "dina",
+   "card": "Dina, Essence Brewer",
+   "oracle_id": "f61c1dc4-2f09-4b50-957f-ee656c659072",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SX013",
+   "pack": "pack_p5_strixhaven_2026-10-30.json",
+   "participant": "dina",
+   "card": "Dina, Soul Steeper",
+   "oracle_id": "2121bcb4-f5fe-447f-9112-c7e5b5c45baf",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "stx"
+   ]
+  },
+  {
+   "claim": "SX014",
+   "pack": "pack_p5_strixhaven_2026-10-30.json",
+   "participant": "uvilda",
+   "card": "Uvilda, Dean of Perfection // Nassari, Dean of Expression",
+   "oracle_id": "63c4915f-5ad9-468f-95c5-d44f1b71631e",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "stx"
+   ]
+  },
+  {
+   "claim": "SX015",
+   "pack": "pack_p5_strixhaven_2026-10-30.json",
+   "participant": "kasmina",
+   "card": "Kasmina, Enigma Sage",
+   "oracle_id": "06425cb9-d157-4155-a727-78656df12458",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "stx"
+   ]
+  },
+  {
+   "claim": "SX015",
+   "pack": "pack_p5_strixhaven_2026-10-30.json",
+   "participant": "kasmina",
+   "card": "Kasmina, Enigmatic Mentor",
+   "oracle_id": "df561b38-fe2a-4db9-a9d4-ec25b1c7572a",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SX015",
+   "pack": "pack_p5_strixhaven_2026-10-30.json",
+   "participant": "lukka",
+   "card": "Lukka, Bound to Ruin",
+   "oracle_id": "8e68eba1-65ac-4c03-956f-45e7b5695e2a",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SX015",
+   "pack": "pack_p5_strixhaven_2026-10-30.json",
+   "participant": "lukka",
+   "card": "Lukka, Coppercoat Outcast",
+   "oracle_id": "1ca97394-4e8c-4698-bea1-554f9b10927b",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SX016",
+   "pack": "pack_p5_strixhaven_2026-10-30.json",
+   "participant": "quintorius",
+   "card": "Quintorius Kand",
+   "oracle_id": "91babc5f-ebeb-4894-8c35-b0f60249cb80",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SX016",
+   "pack": "pack_p5_strixhaven_2026-10-30.json",
+   "participant": "quintorius",
+   "card": "Quintorius, Field Historian",
+   "oracle_id": "28b64167-b7ea-4b4f-8434-061298050366",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "stx"
+   ]
+  },
+  {
+   "claim": "SX016",
+   "pack": "pack_p5_strixhaven_2026-10-30.json",
+   "participant": "quintorius",
+   "card": "Quintorius, History Chaser",
+   "oracle_id": "5c40a8d4-6969-4d71-aba5-5c7e4109b7d5",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SX016",
+   "pack": "pack_p5_strixhaven_2026-10-30.json",
+   "participant": "quintorius",
+   "card": "Quintorius, Loremaster",
+   "oracle_id": "c3d38129-b955-4fb5-8486-095f918935b9",
    "tier": "NAMED_PARTICIPANT"
   },
   {
@@ -20833,6 +21179,30 @@
    "participant": "quintorius",
    "card": "Quintorius Kand",
    "oracle_id": "91babc5f-ebeb-4894-8c35-b0f60249cb80",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SS026",
+   "pack": "pack_p5_secrets_of_strixhaven_2026-10-30.json",
+   "participant": "quintorius",
+   "card": "Quintorius, Field Historian",
+   "oracle_id": "28b64167-b7ea-4b4f-8434-061298050366",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SS026",
+   "pack": "pack_p5_secrets_of_strixhaven_2026-10-30.json",
+   "participant": "quintorius",
+   "card": "Quintorius, History Chaser",
+   "oracle_id": "5c40a8d4-6969-4d71-aba5-5c7e4109b7d5",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SS026",
+   "pack": "pack_p5_secrets_of_strixhaven_2026-10-30.json",
+   "participant": "quintorius",
+   "card": "Quintorius, Loremaster",
+   "oracle_id": "c3d38129-b955-4fb5-8486-095f918935b9",
    "tier": "NAMED_PARTICIPANT"
   },
   {
@@ -27225,11 +27595,11 @@
    "NAMED_PARTICIPANT": 115
   },
   "pack_p5_kaldheim_2026-10-30.json": {
-   "claims": 14,
-   "claims_anchored": 14,
+   "claims": 24,
+   "claims_anchored": 21,
    "ART_IN_CITED_SOURCE": 0,
-   "PRINTED_IN_STORY_SET": 16,
-   "NAMED_PARTICIPANT": 20
+   "PRINTED_IN_STORY_SET": 25,
+   "NAMED_PARTICIPANT": 33
   },
   "pack_p5_kamigawa_neon_dynasty_2026-10-30.json": {
    "claims": 12,
@@ -27320,7 +27690,7 @@
    "claims_anchored": 26,
    "ART_IN_CITED_SOURCE": 0,
    "PRINTED_IN_STORY_SET": 19,
-   "NAMED_PARTICIPANT": 72
+   "NAMED_PARTICIPANT": 75
   },
   "pack_p5_shadows_eldritch_moon_2026-10-30.json": {
    "claims": 36,
@@ -27344,11 +27714,11 @@
    "NAMED_PARTICIPANT": 46
   },
   "pack_p5_strixhaven_2026-10-30.json": {
-   "claims": 11,
-   "claims_anchored": 11,
+   "claims": 19,
+   "claims_anchored": 16,
    "ART_IN_CITED_SOURCE": 0,
-   "PRINTED_IN_STORY_SET": 6,
-   "NAMED_PARTICIPANT": 11
+   "PRINTED_IN_STORY_SET": 11,
+   "NAMED_PARTICIPANT": 22
   },
   "pack_p5_tarkir_dragonstorm_2026-10-30.json": {
    "claims": 22,
@@ -27394,12 +27764,12 @@
   }
  },
  "counts": {
-  "claims": 790,
-  "claims_anchored": 686,
-  "anchors": 3146,
+  "claims": 808,
+  "claims_anchored": 698,
+  "anchors": 3187,
   "ART_IN_CITED_SOURCE": 69,
-  "PRINTED_IN_STORY_SET": 514,
-  "NAMED_PARTICIPANT": 2563
+  "PRINTED_IN_STORY_SET": 528,
+  "NAMED_PARTICIPANT": 2590
  },
- "content_sha256": "7b6c2a5cfaa72387da8030c596e3e8491cea629d14481b6f51aa603983dbb50e"
+ "content_sha256": "31ce81eaea6ce2c78fd8991802d4a6c2952ee6834410649e69914fc287f8497b"
 }

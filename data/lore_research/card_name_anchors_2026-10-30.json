@@ -443,6 +443,23 @@
    ]
   },
   {
+   "entity": "arni_brokenbrow",
+   "entity_type": "Character",
+   "entity_name": "Arni Brokenbrow",
+   "aliases": [
+    "Arni Brokenbrow"
+   ],
+   "pack": "pack_p5_kaldheim_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Arni Brokenbrow",
+     "oracle_id": "3dce6c6c-599f-4e35-ae15-728c5e78dee1",
+     "type_line": "Legendary Creature — Human Berserker",
+     "scryfall_uri": "https://scryfall.com/card/khm/120/arni-brokenbrow"
+    }
+   ]
+  },
+  {
    "entity": "arvad",
    "entity_type": "Character",
    "entity_name": "Arvad",
@@ -1264,7 +1281,7 @@
    "aliases": [
     "Dina"
    ],
-   "pack": "pack_p5_secrets_of_strixhaven_2026-10-30.json",
+   "pack": "pack_p5_strixhaven_2026-10-30.json",
    "cards": [
     {
      "name": "Dina, Essence Brewer",
@@ -1345,6 +1362,23 @@
      "oracle_id": "41e2790d-49f5-4e98-b8d9-04179f47f13a",
      "type_line": "Legendary Creature — Vampire Knight",
      "scryfall_uri": "https://scryfall.com/card/inr/234/edgar-markov"
+    }
+   ]
+  },
+  {
+   "entity": "egon",
+   "entity_type": "Character",
+   "entity_name": "Egon",
+   "aliases": [
+    "Egon"
+   ],
+   "pack": "pack_p5_kaldheim_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Egon, God of Death // Throne of Death",
+     "oracle_id": "8fa7bd8f-f712-4dd1-9ffb-e30dfe744389",
+     "type_line": "Legendary Creature — God // Legendary Artifact",
+     "scryfall_uri": "https://scryfall.com/card/khm/92/egon-god-of-death-throne-of-death"
     }
    ]
   },
@@ -2262,6 +2296,23 @@
    ]
   },
   {
+   "entity": "inga_rune_eyes",
+   "entity_type": "Character",
+   "entity_name": "Inga Rune-Eyes",
+   "aliases": [
+    "Inga Rune-Eyes"
+   ],
+   "pack": "pack_p5_kaldheim_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Inga Rune-Eyes",
+     "oracle_id": "78afa295-c9f4-4a81-9f7b-5746a3cf6b31",
+     "type_line": "Legendary Creature — Human Wizard",
+     "scryfall_uri": "https://scryfall.com/card/cmm/100/inga-rune-eyes"
+    }
+   ]
+  },
+  {
    "entity": "inti",
    "entity_type": "Character",
    "entity_name": "Inti",
@@ -2711,6 +2762,29 @@
      "oracle_id": "a20dd48d-d344-4db1-b0e9-a2b71c3cc9d1",
      "type_line": "Legendary Planeswalker — Karn",
      "scryfall_uri": "https://scryfall.com/card/rvr/1/karn-the-great-creator"
+    }
+   ]
+  },
+  {
+   "entity": "kasmina",
+   "entity_type": "Character",
+   "entity_name": "Kasmina",
+   "aliases": [
+    "Kasmina"
+   ],
+   "pack": "pack_p5_strixhaven_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Kasmina, Enigma Sage",
+     "oracle_id": "06425cb9-d157-4155-a727-78656df12458",
+     "type_line": "Legendary Planeswalker — Kasmina",
+     "scryfall_uri": "https://scryfall.com/card/stx/196/kasmina-enigma-sage"
+    },
+    {
+     "name": "Kasmina, Enigmatic Mentor",
+     "oracle_id": "df561b38-fe2a-4db9-a9d4-ec25b1c7572a",
+     "type_line": "Legendary Planeswalker — Kasmina",
+     "scryfall_uri": "https://scryfall.com/card/war/56/kasmina-enigmatic-mentor"
     }
    ]
   },
@@ -3201,6 +3275,23 @@
      "oracle_id": "d89bd776-8489-4c34-94ea-db1b088d9379",
      "type_line": "Legendary Creature — Dragon Spirit",
      "scryfall_uri": "https://scryfall.com/card/neo/23/kyodai-soul-of-kamigawa"
+    }
+   ]
+  },
+  {
+   "entity": "lathril",
+   "entity_type": "Character",
+   "entity_name": "Lathril",
+   "aliases": [
+    "Lathril"
+   ],
+   "pack": "pack_p5_kaldheim_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Lathril, Blade of the Elves",
+     "oracle_id": "9b568c34-ba0a-44a7-a0ee-bee3a37b3396",
+     "type_line": "Legendary Creature — Elf Noble",
+     "scryfall_uri": "https://scryfall.com/card/fdn/242/lathril-blade-of-the-elves"
     }
    ]
   },
@@ -3970,6 +4061,23 @@
    ]
   },
   {
+   "entity": "niko_aris",
+   "entity_type": "Character",
+   "entity_name": "Niko Aris",
+   "aliases": [
+    "Niko Aris"
+   ],
+   "pack": "pack_p5_kaldheim_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Niko Aris",
+     "oracle_id": "781162c4-9c0f-436c-b9a5-214e60e009e4",
+     "type_line": "Legendary Planeswalker — Niko",
+     "scryfall_uri": "https://scryfall.com/card/khm/225/niko-aris"
+    }
+   ]
+  },
+  {
    "entity": "nissa_revane",
    "entity_type": "Character",
    "entity_name": "Nissa Revane",
@@ -4558,17 +4666,35 @@
   {
    "entity": "quintorius",
    "entity_type": "Character",
-   "entity_name": "Quintorius Kand",
+   "entity_name": "Quintorius",
    "aliases": [
-    "Quintorius Kand"
+    "Quintorius"
    ],
-   "pack": "pack_p5_secrets_of_strixhaven_2026-10-30.json",
+   "pack": "pack_p5_strixhaven_2026-10-30.json",
    "cards": [
     {
      "name": "Quintorius Kand",
      "oracle_id": "91babc5f-ebeb-4894-8c35-b0f60249cb80",
      "type_line": "Legendary Planeswalker — Quintorius",
      "scryfall_uri": "https://scryfall.com/card/lci/238/quintorius-kand"
+    },
+    {
+     "name": "Quintorius, Field Historian",
+     "oracle_id": "28b64167-b7ea-4b4f-8434-061298050366",
+     "type_line": "Legendary Creature — Elephant Cleric",
+     "scryfall_uri": "https://scryfall.com/card/soc/326/quintorius-field-historian"
+    },
+    {
+     "name": "Quintorius, History Chaser",
+     "oracle_id": "5c40a8d4-6969-4d71-aba5-5c7e4109b7d5",
+     "type_line": "Legendary Planeswalker — Quintorius",
+     "scryfall_uri": "https://scryfall.com/card/soc/7/quintorius-history-chaser"
+    },
+    {
+     "name": "Quintorius, Loremaster",
+     "oracle_id": "c3d38129-b955-4fb5-8486-095f918935b9",
+     "type_line": "Legendary Creature — Elephant Cleric",
+     "scryfall_uri": "https://scryfall.com/card/soc/327/quintorius-loremaster"
     }
    ]
   },
@@ -5131,6 +5257,23 @@
      "oracle_id": "80c26f58-04b0-4db0-b84e-9b136609abe0",
      "type_line": "Legendary Planeswalker — Sarkhan",
      "scryfall_uri": "https://scryfall.com/card/ktk/119/sarkhan-the-dragonspeaker"
+    }
+   ]
+  },
+  {
+   "entity": "sarulf",
+   "entity_type": "Character",
+   "entity_name": "Sarulf",
+   "aliases": [
+    "Sarulf"
+   ],
+   "pack": "pack_p5_kaldheim_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Sarulf, Realm Eater",
+     "oracle_id": "789964f5-79c5-4329-b68f-b15b0d54b0b2",
+     "type_line": "Legendary Creature — Wolf",
+     "scryfall_uri": "https://scryfall.com/card/khm/228/sarulf-realm-eater"
     }
    ]
   },
@@ -6257,6 +6400,23 @@
    ]
   },
   {
+   "entity": "uvilda",
+   "entity_type": "Character",
+   "entity_name": "Uvilda",
+   "aliases": [
+    "Uvilda"
+   ],
+   "pack": "pack_p5_strixhaven_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Uvilda, Dean of Perfection // Nassari, Dean of Expression",
+     "oracle_id": "63c4915f-5ad9-468f-95c5-d44f1b71631e",
+     "type_line": "Legendary Creature — Djinn Wizard // Legendary Creature — Efreet Shaman",
+     "scryfall_uri": "https://scryfall.com/card/stx/160/uvilda-dean-of-perfection-nassari-dean-of-expression"
+    }
+   ]
+  },
+  {
    "entity": "vadrok",
    "entity_type": "Character",
    "entity_name": "Vadrok",
@@ -6871,6 +7031,8 @@
  "unanchored_entities": [
   "adrix",
   "akros",
+  "alajn",
+  "amaka",
   "amalia",
   "amarth_tel",
   "amelia",
@@ -6908,9 +7070,11 @@
   "eclipsed_realms",
   "eiko",
   "elnor",
+  "embrose_lu",
   "emeria_skyclave",
   "eric_kenrith",
   "evendo",
+  "fannessa",
   "far_corner",
   "farakatolar",
   "first_phyrexian_invasion",
@@ -6936,6 +7100,7 @@
   "imperial_palace",
   "innistrad_silver_moon",
   "isilu",
+  "istfell",
   "jarad_vod_savo",
   "jilesa_clarus",
   "kavaron",
@@ -6956,6 +7121,7 @@
   "liliana_doppelganger",
   "lily_of_the_valley",
   "linden",
+  "lisette",
   "locthwain",
   "lorwyn_aspect",
   "maag_taranau",
@@ -6972,6 +7138,7 @@
   "nakht",
   "niharet",
   "nishang",
+  "njala",
   "norika",
   "oba",
   "omenpaths",
@@ -7021,6 +7188,7 @@
   "the_silence_theros",
   "theros_underworld",
   "thraben",
+  "thura",
   "titsui",
   "tomik_vrona",
   "torrezon",
@@ -7046,9 +7214,9 @@
   "Urza, Academy Headmaster"
  ],
  "counts": {
-  "entities_anchored": 300,
-  "anchor_edges": 592,
-  "unanchored_entities": 167
+  "entities_anchored": 308,
+  "anchor_edges": 604,
+  "unanchored_entities": 175
  },
- "content_sha256": "3ca8c4f5ffa44fc51cad8e590e6336d9f21f5385eda74d52d0c7285040da9b35"
+ "content_sha256": "2158493fdd170f74ab4c23b27da8e120e801538079b924573f9d4527157a6b47"
 }
