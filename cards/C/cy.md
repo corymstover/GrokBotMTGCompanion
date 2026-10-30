@@ -73,6 +73,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10293 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2025-06-06* — If multiple creature cards leave your graveyard at the same time, Cyan's last ability will trigger only once.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 164 decks; highest synergy [Millikin](../../cards/M/mil.md#millikin) (+63%), [Selfless Samurai](../../cards/S/sel.md#selfless-samurai) (+63%), [Selfless Spirit](../../cards/S/sel.md#selfless-spirit) (+61%) · EDHREC: in 12,013 decks; most often under [Terra, Herald of Hope](../../cards/T/te.md#terra-herald-of-hope) (43.5% of its decks), [Celes, Rune Knight](../../cards/C/ce.md#celes-rune-knight) (8.4% of its decks), [Jin Sakai, Ghost of Tsushima](../../cards/J/ji.md#jin-sakai-ghost-of-tsushima) (1.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fic/16/cyan-vengeful-samurai) · oracle_id `5a2fa420-c27f-4c14-b285-e0bb2828e053` · printing: FIC #16 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cyber Conversion
@@ -351,6 +353,8 @@ schema: 2
   - *2022-10-14* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a More Than Meets the Eye cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of a spell cast using More Than Meets the Eye is determined by the mana cost on the front face of the card, no matter what the total cost to cast the spell was.
   - *2022-10-14* — When you cast a spell using its More Than Meets the Eye ability, the card is put onto the stack with its back face up. The resulting spell has all characteristics of that face.
   - *2022-10-14* — While it's a creature, the Vehicle has its printed power and toughness.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 2 combos; most popular [Cyclonus, the Saboteur // Cyclonus, Cybertronian Fighter + Aggravated Assault](https://commanderspellbook.com/combo/3750-3898/) (Infinite card draw, Infinite draw triggers) · EDHREC as commander: 381 decks; highest synergy [Thopter Spy Network](../../cards/T/tho.md#thopter-spy-network) (+57%), [As Foretold](../../cards/A/as.md#as-foretold) (+56%), [Sphinx of the Second Sun](../../cards/S/sph.md#sphinx-of-the-second-sun) (+54%) · EDHREC: in 7,987 decks; most often under [Dr. Eggman](../../cards/D/dre.md#dr-eggman) (12.5% of its decks), [Infinite Guideline Station](../../cards/I/inf.md#infinite-guideline-station) (6.8% of its decks), [Soundwave, Sonic Spy](../../cards/S/so.md#soundwave-sonic-spy--soundwave-superior-captain) (32.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bot/9/cyclonus-the-saboteur-cyclonus-cybertronian-fighter) · oracle_id `7ead01b9-def3-4f9d-a860-af64e94cb45e` · printing: BOT #9 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cyclopean Giant
@@ -556,6 +560,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12280 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2024-11-08* — Because damage remains marked on a creature until it's removed as the turn ends, nonlethal damage dealt to creatures you control with flying may become lethal if Cynette leaves the battlefield during that turn.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 3,050 decks; highest synergy [Favorable Winds](../../cards/F/fa.md#favorable-winds) (+68%), [Naban, Dean of Iteration](../../cards/N/na.md#naban-dean-of-iteration) (+62%), [Curiosity Crafter](../../cards/C/cu.md#curiosity-crafter) (+60%) · EDHREC: in 5,713 decks; most often under [Mu Yanling, Wind Rider](../../cards/M/mu.md#mu-yanling-wind-rider) (34.8% of its decks), [Y'shtola Rhul](../../cards/Y/ys.md#yshtola-rhul) (14.5% of its decks), [The Lord of the Eagles](../../cards/T/thel.md#the-lord-of-the-eagles) (41.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/j25/35/cynette-jelly-drover) · oracle_id `8170ddd6-c054-4851-bdc2-4d319b60ba41` · printing: J25 #35 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cynical Loner

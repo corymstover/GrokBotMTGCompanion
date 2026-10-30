@@ -138,6 +138,8 @@ schema: 2
 - **Rulings** (2):
   - *2025-06-06* — The second ability of Cid, Timeless Artificer also lets you ignore the "singleton" rule in formats like Commander.
   - *2025-06-06* — The second ability of Cid, Timeless Artificer lets you ignore the "four-of" rule in constructed play. It doesn't let you ignore format legality. For example, during a Magic: The Gathering—FINAL FANTASY Limited event, you can't add copies of Cid, Timeless Artificer to your deck from your personal collection.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1,550 decks; highest synergy [Cid, Timeless Artificer](../../cards/C/ci.md#cid-timeless-artificer) (+87%), [Sai, Master Thopterist](../../cards/S/sai.md#sai-master-thopterist) (+50%), [Etherium Sculptor](../../cards/E/et.md#etherium-sculptor) (+49%) · EDHREC: in 8,784 decks; most often under [G'raha Tia, Scion Reborn](../../cards/G/gra.md#graha-tia-scion-reborn) (11.7% of its decks), [Wraith, Vicious Vigilante](../../cards/W/wr.md#wraith-vicious-vigilante) (20.8% of its decks), [The Wandering Minstrel](../../cards/T/thew.md#the-wandering-minstrel) (1.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#cid-timeless-artificer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/216/cid-timeless-artificer) · oracle_id `87050537-99c9-4993-a770-4329b2e749e4` · printing: FIN #216 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -457,6 +459,8 @@ schema: 2
   > {2}, {T}, Sacrifice Cinnamon, Seasoned Steed: You gain 3 life.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RA01/cinnamon-seasoned-steed) · oracle_id `b6f27e98-6c12-453c-8321-891f2f7c2bbb` · printing: UNK #RA01 (2023-09-23) · [rulings](https://api.scryfall.com/cards/281b8ca4-e65f-4dcf-9f28-667f4d73e9b3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Circle of Affliction
@@ -731,6 +735,8 @@ schema: 2
   - *2005-10-01* — Circu's last ability applies to all of its controller's opponents, not just the owner of the exiled card.
   - *2005-10-01* — If a split card is exiled this way, opponents can't cast either half of the split card.
   - *2005-10-01* — If you cast a blue and black spell, both of Circu's triggered abilities trigger. You can target two different players or target the same player twice.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [The Madcap Jester (Grixis)](../../grixis/decks/the-madcap-jester.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 962 decks; highest synergy [Lantern of Insight](../../cards/L/la.md#lantern-of-insight) (+71%), [Codex Shredder](../../cards/C/cod.md#codex-shredder) (+62%), [Ghoulcaller's Bell](../../cards/G/gh.md#ghoulcallers-bell) (+56%) · EDHREC: in 2,405 decks; most often under [Umbris, Fear Manifest](../../cards/U/um.md#umbris-fear-manifest) (3.0% of its decks), [Xanathar, Guild Kingpin](../../cards/X/xa.md#xanathar-guild-kingpin) (7.6% of its decks), [Phenax, God of Deception](../../cards/P/ph.md#phenax-god-of-deception) (1.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 decks) → [reverse index](../../references/C.md#circu-dimir-lobotomist)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rav/196/circu-dimir-lobotomist) · oracle_id `c87d547b-00a4-4fdd-ade4-f3f032e5ea3b` · printing: RAV #196 (2005-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1040,6 +1046,8 @@ schema: 2
 - **Keywords:** Lifelink
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19593 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 3 combos; most popular [All Will Be One + Exquisite Blood + Citizen V, Helmut Zemo](https://commanderspellbook.com/combo/2390-3966-7862/) (Infinite +1/+1 counters on a creature, Infinite lifegain) · EDHREC as commander: 52 decks; highest synergy [Baron Strucker, HYDRA Overlord](../../cards/B/bar.md#baron-strucker-hydra-overlord) (+95%), [Crimson Cowl, Master of Evil](../../cards/C/cr.md#crimson-cowl-master-of-evil) (+94%), [Tombstone, Career Criminal](../../cards/T/to.md#tombstone-career-criminal) (+94%) · EDHREC: in 2,532 decks; most often under [Doctor Doom, King of Latveria](../../cards/D/do.md#doctor-doom-king-of-latveria) (3.2% of its decks), [Madame Hydra](../../cards/M/mad.md#madame-hydra) (41.5% of its decks), [Thanos, the Mad Titan](../../cards/T/tha.md#thanos-the-mad-titan) (7.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/650/citizen-v-helmut-zemo) · oracle_id `974fbeb0-77d6-4a29-aa91-226cb5b32233` · printing: MSC #650 (2026-06-26) · [rulings](https://api.scryfall.com/cards/4c2bdc18-9648-44a2-97dd-b0e03789d186/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### City in a Bottle

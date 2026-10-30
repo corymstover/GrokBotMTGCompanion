@@ -166,6 +166,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25275 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2009-10-01* — Despite the similarities between horsemanship and flying, horsemanship doesn’t interact with flying or reach.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 29 decks; highest synergy [All That Glitters](../../cards/A/al.md#all-that-glitters) (+45%), [Blackblade Reforged](../../cards/B/bla.md#blackblade-reforged) (+45%), [Guan Yu, Sainted Warrior](../../cards/G/gu.md#guan-yu-sainted-warrior) (+45%) · EDHREC: in 764 decks; most often under [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.2% of its decks), [Kenrith, the Returned King](../../cards/K/ke.md#kenrith-the-returned-king) (0.2% of its decks), [Liu Bei, Lord of Shu](../../cards/L/li.md#liu-bei-lord-of-shu) (96.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me3/28/zhang-fei-fierce-warrior) · oracle_id `f3f815b8-75c6-40e0-9716-872f0f5c9d46` · printing: ME3 #28 (2009-09-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zhang He, Wei General
@@ -180,6 +182,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26964 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2009-10-01* — Despite the similarities between horsemanship and flying, horsemanship doesn't interact with flying or reach.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 33 decks; highest synergy [Wei Strike Force](../../cards/W/we.md#wei-strike-force) (+58%), [Wei Scout](../../cards/W/we.md#wei-scout) (+54%), [Wei Ambush Force](../../cards/W/we.md#wei-ambush-force) (+52%) · EDHREC: in 506 decks; most often under [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.2% of its decks), [Kenrith, the Returned King](../../cards/K/ke.md#kenrith-the-returned-king) (0.2% of its decks), [Esika, God of the Tree](../../cards/E/es.md#esika-god-of-the-tree--the-prismatic-bridge) (0.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/Z.md#zhang-he-wei-general)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ptk/95/zhang-he-wei-general) · oracle_id `fe35b809-7439-4bdc-bce2-42262095064f` · printing: PTK #95 (1999-05-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -192,6 +196,8 @@ schema: 2
   > Whenever Zhang Liao deals damage to an opponent, that opponent discards a card.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30035 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 15 decks; highest synergy [The Raven Man](../../cards/T/ther.md#the-raven-man) (+95%), [Waste Not](../../cards/W/was.md#waste-not) (+90%), [Liliana's Caress](../../cards/L/li.md#lilianas-caress) (+88%) · EDHREC: in 203 decks; most often under [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.1% of its decks), [Cao Cao, Lord of Wei](../../cards/C/cao.md#cao-cao-lord-of-wei) (18.0% of its decks), [Kenrith, the Returned King](../../cards/K/ke.md#kenrith-the-returned-king) (0.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/Z.md#zhang-liao-hero-of-hefei)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ptk/96/zhang-liao-hero-of-hefei) · oracle_id `244541f6-cbfc-4e89-9156-64e412f745a7` · printing: PTK #96 (1999-05-01) · [rulings](https://api.scryfall.com/cards/8f42a953-3073-4e74-9bb8-c8c5a45d1dfa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -213,6 +219,8 @@ schema: 2
   - *2025-10-02* — Firebending abilities aren't mana abilities. They use the stack and can be responded to.
   - *2025-10-02* — Mana from firebending abilities isn't lost until you leave combat and go to your second main phase. It can be used at any time during combat, even after combat damage has been dealt.
   - *2025-10-02* — Multiple instances of firebending on the same creature trigger separately, each granting you the appropriate amount of mana.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 199 decks; highest synergy [Obsessive Pursuit](../../cards/O/ob.md#obsessive-pursuit) (+55%), [Azula, On the Hunt](../../cards/A/az.md#azula-on-the-hunt) (+45%), [Pirate Peddlers](../../cards/P/pi.md#pirate-peddlers) (+38%) · EDHREC: in 5,414 decks; most often under [Ozai, the Phoenix King](../../cards/O/oz.md#ozai-the-phoenix-king) (22.4% of its decks), [Fire Lord Azula](../../cards/F/fi.md#fire-lord-azula) (3.3% of its decks), [Fire Lord Zuko](../../cards/F/fi.md#fire-lord-zuko) (2.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/Z.md#zhao-ruthless-admiral)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/252/zhao-ruthless-admiral) · oracle_id `d6b0198a-c1f2-4142-b5e2-8205adf14d0a` · printing: TLA #252 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -231,6 +239,8 @@ schema: 2
 - **Rulings** (2):
   - *2025-10-02* — If an effect states that a land enters tapped unless a condition is met, Zhao, the Moon Slayer's second ability has it enter tapped even if that condition is true. For example, you may control a basic land while playing Abandoned Air Temple, but Abandoned Air Temple will still enter tapped.
   - *2025-10-02* — While Zhao has a conqueror counter on him, if a nonbasic land has an ability that triggers "when" it enters, it will lose that ability before it can trigger. Nonbasic lands will lose any other land types and abilities they had. They will have the land type Mountain and the intrinsic ability "{T}: Add {R}." This effect doesn't affect names or supertypes. It won't turn any land into a basic land or remove the legendary supertype from a legendary land, and the lands won't be named "Mountain."
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 510 decks; highest synergy [Magus of the Moon](../../cards/M/mag.md#magus-of-the-moon) (+62%), [Blood Moon](../../cards/B/blo.md#blood-moon) (+56%), [Winter Moon](../../cards/W/wi.md#winter-moon) (+56%) · EDHREC: in 12,183 decks; most often under [Ozai, the Phoenix King](../../cards/O/oz.md#ozai-the-phoenix-king) (20.3% of its decks), [Kratos, God of War](../../cards/K/kr.md#kratos-god-of-war) (10.3% of its decks), [Fire Lord Azula](../../cards/F/fi.md#fire-lord-azula) (1.8% of its decks) — *Guidance (Oracle pattern)* — packages: [Ramp: Mana creatures (MV ≤ 2)](../../EDH%20Packages.md#ramp-mana-creatures-mv--2) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/Z.md#zhao-the-moon-slayer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/162/zhao-the-moon-slayer) · oracle_id `94c64d41-d756-42b6-b0e7-0a351d64a68c` · printing: TLA #162 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -246,6 +256,8 @@ schema: 2
 - **Keywords:** Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25997 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 9 decks; highest synergy [Vision of Love](../../cards/V/vi.md#vision-of-love) (+45%), [Fiery Fall](../../cards/F/fi.md#fiery-fall) (+44%), [Sunken Citadel](../../cards/S/sun.md#sunken-citadel) (+44%) · EDHREC: in 675 decks; most often under [Ozai, the Phoenix King](../../cards/O/oz.md#ozai-the-phoenix-king) (1.4% of its decks), [Fire Lord Azula](../../cards/F/fi.md#fire-lord-azula) (0.3% of its decks), [Fire Lord Zuko](../../cards/F/fi.md#fire-lord-zuko) (0.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tle/245/zhao-the-seething-flame) · oracle_id `92ce3e30-dde3-43bb-a3d6-ccd91ff18bc3` · printing: TLE #245 (2025-11-21) · [rulings](https://api.scryfall.com/cards/f3fa493e-b58a-4b77-88e8-b8890eefb2b7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zhao Zilong, Tiger General
@@ -262,6 +274,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26412 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2009-10-01* — Despite the similarities between horsemanship and flying, horsemanship doesn't interact with flying or reach.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 23 decks; highest synergy [Guan Yu, Sainted Warrior](../../cards/G/gu.md#guan-yu-sainted-warrior) (+43%), [Riding Red Hare](../../cards/R/ri.md#riding-red-hare) (+43%), [Liu Bei, Lord of Shu](../../cards/L/li.md#liu-bei-lord-of-shu) (+39%) · EDHREC: in 595 decks; most often under [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.2% of its decks), [Kenrith, the Returned King](../../cards/K/ke.md#kenrith-the-returned-king) (0.2% of its decks), [Liu Bei, Lord of Shu](../../cards/L/li.md#liu-bei-lord-of-shu) (73.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 rules · 1 card data) → [reverse index](../../references/Z.md#zhao-zilong-tiger-general)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ptk/33/zhao-zilong-tiger-general) · oracle_id `22aa8e7f-b30d-49e2-b99e-9232e1a3bcf3` · printing: PTK #33 (1999-05-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -292,6 +306,8 @@ schema: 2
   > *—Zhou Yu crying to heaven on his deathbed*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29704 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 36 decks; highest synergy [Sea's Claim](../../cards/S/sea.md#seas-claim) (+75%), [Spreading Seas](../../cards/S/spr.md#spreading-seas) (+71%), [Lingering Mirage](../../cards/L/li.md#lingering-mirage) (+67%) · EDHREC: in 210 decks; most often under [Sun Quan, Lord of Wu](../../cards/S/sun.md#sun-quan-lord-of-wu) (2.4% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.1% of its decks), [Esika, God of the Tree](../../cards/E/es.md#esika-god-of-the-tree--the-prismatic-bridge) (0.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ptk/65/zhou-yu-chief-commander) · oracle_id `0b4742b7-e769-4354-beaf-6b4d18768ec1` · printing: PTK #65 (1999-05-01) · [rulings](https://api.scryfall.com/cards/6e2cf83b-417d-41ca-8e65-86aa65180c40/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zhuge Jin, Wu Strategist
@@ -306,6 +322,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27544 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2013-09-20* — If a turn has multiple combat phases, the ability can only be activated before the beginning of the declare attackers step of the first combat phase in that turn.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 25 decks; highest synergy [Bident of Thassa](../../cards/B/bi.md#bident-of-thassa) (+63%), [Sword of the Animist](../../cards/S/sw.md#sword-of-the-animist) (+63%), [Coastal Piracy](../../cards/C/coa.md#coastal-piracy) (+59%) · EDHREC: in 438 decks; most often under [Sun Quan, Lord of Wu](../../cards/S/sun.md#sun-quan-lord-of-wu) (3.2% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.2% of its decks), [Lo and Li, Royal Advisors](../../cards/L/lo.md#lo-and-li-royal-advisors) (2.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/Z.md#zhuge-jin-wu-strategist)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ptk/66/zhuge-jin-wu-strategist) · oracle_id `ce995d3f-be7c-4d2a-8ec4-c7f7f831f0bf` · printing: PTK #66 (1999-05-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

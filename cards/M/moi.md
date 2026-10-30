@@ -35,6 +35,8 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15921 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 505 decks; highest synergy [Angel of the Ruins](../../cards/A/an.md#angel-of-the-ruins) (+59%), [Millikin](../../cards/M/mil.md#millikin) (+57%), [Perpetual Timepiece](../../cards/P/pe.md#perpetual-timepiece) (+49%) · EDHREC: in 4,110 decks; most often under [Brimaz, Blight of Oreskos](../../cards/B/br.md#brimaz-blight-of-oreskos) (18.4% of its decks), [Ardbert, Warrior of Darkness](../../cards/A/ard.md#ardbert-warrior-of-darkness) (7.2% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/moc/7/moira-and-teshar) · oracle_id `445ad01c-c899-424d-8666-ee7bb2a6e535` · printing: MOC #7 (2023-04-21) · [rulings](https://api.scryfall.com/cards/19d0acaa-bfbf-4155-a9b0-5b39c3c87361/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moira Brown, Guide Author
@@ -47,6 +49,8 @@ schema: 2
   > Whenever you attack, put a quest counter on target nonland permanent you control.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15239 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 758 decks; highest synergy [Craig Boone, Novac Guard](../../cards/C/cr.md#craig-boone-novac-guard) (+91%), [Overseer of Vault 76](../../cards/O/ov.md#overseer-of-vault-76) (+86%), [Duchess, Wayward Tavernkeep](../../cards/D/du.md#duchess-wayward-tavernkeep) (+84%) · EDHREC: in 4,486 decks; most often under [Dogmeat, Ever Loyal](../../cards/D/do.md#dogmeat-ever-loyal) (21.4% of its decks), [Craig Boone, Novac Guard](../../cards/C/cr.md#craig-boone-novac-guard) (77.8% of its decks), [Preston Garvey, Minuteman](../../cards/P/pr.md#preston-garvey-minuteman) (7.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#moira-brown-guide-author)
 - **Source flags:** [Scryfall](https://scryfall.com/card/pip/110/moira-brown-guide-author) · oracle_id `db02644b-820f-4102-b1f6-ed8fac40baf8` · printing: PIP #110 (2024-03-08) · [rulings](https://api.scryfall.com/cards/418ce6f6-b483-4695-aaf5-e4f7eeb9eb16/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -62,4 +66,6 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15488 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2022-09-09* — You may target a creature card with Moira's triggered ability that was put into your graveyard as a result of combat damage dealt in the same combat damage step.
+- **Lore:** ✅ Presented with an official backstory on [The Legends You'll Find in Dominaria United](https://magic.wizards.com/en/news/feature/legends-youll-find-dominaria-united-2022-09-01) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Breath of Fury + Moira, Urborg Haunt](https://commanderspellbook.com/combo/3259-4553/) (Infinite combat damage, Infinite combat phases) · EDHREC as commander: 101 decks; highest synergy [Shriekmaw](../../cards/S/shr.md#shriekmaw) (+55%), [Twilight Diviner](../../cards/T/tw.md#twilight-diviner) (+55%), [Viscera Seer](../../cards/V/vi.md#viscera-seer) (+49%) · EDHREC: in 4,868 decks; most often under [Dihada, Binder of Wills](../../cards/D/di.md#dihada-binder-of-wills) (9.4% of its decks), [Iname, Death Aspect](../../cards/I/ina.md#iname-death-aspect) (53.4% of its decks), [Ratadrabik of Urborg](../../cards/R/rat.md#ratadrabik-of-urborg) (3.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmc/6/moira-urborg-haunt) · oracle_id `48060406-dd5a-4df5-84e9-3e797f0248cd` · printing: DMC #6 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

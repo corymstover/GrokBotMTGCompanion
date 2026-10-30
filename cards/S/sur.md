@@ -330,6 +330,8 @@ schema: 2
 - **Rulings** (2):
   - *2020-02-29* — Mutate is a keyword from the future! Unless you’re reading this after it’s been released, in which case it’s … &lt;spooky music>a keyword from the present!&lt;/spooky music>. But I suppose you could be reading this in a theoretical future in which the keyword was released, threatened to destroy Magic (as I do occasionally), and removed from the game, in which case it’s… &lt;spookier music>a keyword from the past!&lt;/spookier music>.
   - *2020-02-29* — Surgeon Commander’s color identity is all five colors, thanks to the mana symbols in its rules text. It can be included only in five-color Commander decks. Creative templating, indeed.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/und/72/surgeon-general-commander) · oracle_id `cd6f44b7-4e30-4728-b199-3d1479e7b27b` · printing: UND #72 (2020-02-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Surgespanner

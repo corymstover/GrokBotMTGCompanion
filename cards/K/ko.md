@@ -207,6 +207,8 @@ schema: 2
 - **Rulings** (2):
   - *2005-02-01* — Kodama of the Center Tree can return itself to its owner’s hand if you control five or more Spirits when it is put into a graveyard from the battlefield.
   - *2005-02-01* — Soulshift is a leaves the battlefield trigger, so the gamestate is referenced immediately before the Soulshift trigger to determine the value of X. Soulshift X includes Kodama of the Center Tree. So, X is always at least 1.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 15 combos; most popular [Kodama of the Center Tree + Deathrender + Ashnod's Altar](https://commanderspellbook.com/combo/2034-4766-7361/) (Infinite creature ETB, Infinite creature LTB) · EDHREC as commander: 199 decks; highest synergy [Kodama of the South Tree](../../cards/K/ko.md#kodama-of-the-south-tree) (+93%), [Elder Pine of Jukai](../../cards/E/el.md#elder-pine-of-jukai) (+89%), [Loam Dweller](../../cards/L/lo.md#loam-dweller) (+89%) · EDHREC: in 2,088 decks; most often under [O-Kagachi, Vengeful Kami](../../cards/O/ok.md#o-kagachi-vengeful-kami) (13.3% of its decks), [Iname as One](../../cards/I/ina.md#iname-as-one) (56.0% of its decks), [Sekki, Seasons' Guide](../../cards/S/sek.md#sekki-seasons-guide) (41.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bok/131/kodama-of-the-center-tree) · oracle_id `88188cc1-3211-4bf8-a591-613b66192695` · printing: BOK #131 (2005-02-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kodama of the East Tree
@@ -248,6 +250,8 @@ schema: 2
 - **Keywords:** Shroud, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22323 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 46 decks; highest synergy [Thundering Mightmare](../../cards/T/thu.md#thundering-mightmare) (+54%), [Ohran Frostfang](../../cards/O/oh.md#ohran-frostfang) (+51%), [Forgotten Ancient](../../cards/F/fo.md#forgotten-ancient) (+50%) · EDHREC: in 1,401 decks; most often under [Kodama of the Center Tree](../../cards/K/ko.md#kodama-of-the-center-tree) (77.4% of its decks), [Bounteous Kirin](../../cards/B/bo.md#bounteous-kirin) (67.7% of its decks), [Kodama of the South Tree](../../cards/K/ko.md#kodama-of-the-south-tree) (76.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/chk/222/kodama-of-the-north-tree) · oracle_id `15d8f129-2518-45f4-9f34-a4fcd4d859af` · printing: CHK #222 (2004-10-01) · [rulings](https://api.scryfall.com/cards/2d9b5c33-63c4-4ddd-9f04-37bb36970b43/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kodama of the South Tree
@@ -262,6 +266,8 @@ schema: 2
   > *—"Poem of the Five Trees"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19295 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 128 decks; highest synergy [Loam Dweller](../../cards/L/lo.md#loam-dweller) (+94%), [Kodama of the Center Tree](../../cards/K/ko.md#kodama-of-the-center-tree) (+92%), [Wear Away](../../cards/W/we.md#wear-away) (+89%) · EDHREC: in 2,430 decks; most often under [O-Kagachi, Vengeful Kami](../../cards/O/ok.md#o-kagachi-vengeful-kami) (19.1% of its decks), [Iname as One](../../cards/I/ina.md#iname-as-one) (56.7% of its decks), [Kyodai, Soul of Kamigawa](../../cards/K/ky.md#kyodai-soul-of-kamigawa) (8.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/chk/223/kodama-of-the-south-tree) · oracle_id `655ff78d-3e77-4c97-a1e2-bd6a3c65cd77` · printing: CHK #223 (2004-10-01) · [rulings](https://api.scryfall.com/cards/120c05f1-5ec3-4a0f-8628-6919e393104a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kodama of the West Tree
@@ -598,6 +604,8 @@ schema: 2
   > *"Stay in formation! We win this together, or not at all."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10433 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Presented with an official backstory on [The Legends of Aetherdrift](https://magic.wizards.com/en/news/feature/the-legends-of-aetherdrift) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 96 combos; most popular [Kolodin, Triumph Caster + Salvaging Station + Grinding Station + Voyager Glidecar](https://commanderspellbook.com/combo/2073-3698-7877-7878/) (Infinite creature LTB, Infinite death triggers) · EDHREC as commander: 4,205 decks; highest synergy [Cloudspire Coordinator](../../cards/C/cl.md#cloudspire-coordinator) (+81%), [Peacewalker Colossus](../../cards/P/pe.md#peacewalker-colossus) (+77%), [Salvation Engine](../../cards/S/sal.md#salvation-engine) (+76%) · EDHREC: in 7,773 decks; most often under [Samut, the Driving Force](../../cards/S/sam.md#samut-the-driving-force) (41.7% of its decks), [Depala, Pilot Exemplar](../../cards/D/dep.md#depala-pilot-exemplar) (38.3% of its decks), [Captain Rex Nebula](../../cards/C/cap.md#captain-rex-nebula) (37.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/210/kolodin-triumph-caster) · oracle_id `45682055-d02a-450c-a41d-aa67162ff015` · printing: DFT #210 (2025-02-14) · [rulings](https://api.scryfall.com/cards/36bcd476-a236-4434-b191-5c8b6fa7be7b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kolvori, God of Kinship // The Ringhart Crest
@@ -644,6 +652,8 @@ schema: 2
   > • Koma and Toski, Compleated gains indestructible until end of turn.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ08b/koma-and-toski-compleated) · oracle_id `b57f9ed0-db4e-46dd-9fe6-956958ce6434` · printing: UNK #RZ08b (2023-05-06) · [rulings](https://api.scryfall.com/cards/d8dd0e55-d8eb-4cf5-a860-65f1e6fe661f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Koma, Cosmos Serpent
@@ -775,6 +785,8 @@ schema: 2
 - **Keywords:** Indestructible, Bushido, Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15748 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 235 decks; highest synergy [Takeno, Samurai General](../../cards/T/ta.md#takeno-samurai-general) (+73%), [Konda's Hatamoto](../../cards/K/ko.md#kondas-hatamoto) (+55%), [Nagao, Bound by Honor](../../cards/N/na.md#nagao-bound-by-honor) (+54%) · EDHREC: in 4,581 decks; most often under [Isshin, Two Heavens as One](../../cards/I/is.md#isshin-two-heavens-as-one) (3.8% of its decks), [Jin Sakai, Ghost of Tsushima](../../cards/J/ji.md#jin-sakai-ghost-of-tsushima) (3.2% of its decks), [Raiyuu, Storm's Edge](../../cards/R/rai.md#raiyuu-storms-edge) (18.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/K.md#konda-lord-of-eiganjo)
 - **Source flags:** [Scryfall](https://scryfall.com/card/chk/30/konda-lord-of-eiganjo) · oracle_id `efea2342-bb24-472a-acfb-1b9e012af91b` · printing: CHK #30 (2004-10-01) · [rulings](https://api.scryfall.com/cards/5edab171-94b9-4e5e-ab61-bd8c6c8cfc38/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -831,6 +843,8 @@ schema: 2
   > *"Such a lord as this—all virtues' height—Had never been, nor ever was again."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18050 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — EDHREC as commander: 147 decks; highest synergy [Benalish Marshal](../../cards/B/be.md#benalish-marshal) (+48%), [Honor of the Pure](../../cards/H/ho.md#honor-of-the-pure) (+47%), [Spear of Heliod](../../cards/S/spe.md#spear-of-heliod) (+45%) · EDHREC: in 3,056 decks; most often under [Takeno, Samurai General](../../cards/T/ta.md#takeno-samurai-general) (44.8% of its decks), [Keleth, Sunmane Familiar // Yoshimaru, Ever Faithful](../../cards/K/ke.md#keleth-sunmane-familiar) (6.2% of its decks), [Oloro, Ageless Ascetic](../../cards/O/ol.md#oloro-ageless-ascetic) (0.5% of its decks) — *Guidance (Oracle pattern)* — packages: [Tokens: Anthems](../../EDH%20Packages.md#tokens-anthems) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/a25/20/kongming-sleeping-dragon) · oracle_id `21e9e1a9-5d6d-473e-adab-6a1e8e2b0ebd` · printing: A25 #20 (2018-03-16) · [rulings](https://api.scryfall.com/cards/70c9e4fd-e987-4653-abb1-e32971745db2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Konstrari Annex
@@ -1147,6 +1161,8 @@ schema: 2
 - **Keywords:** Grandeur, Regenerate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16717 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1,407 decks; highest synergy [Blackblade Reforged](../../cards/B/bla.md#blackblade-reforged) (+75%), [Lashwrithe](../../cards/L/la.md#lashwrithe) (+74%), [Nightmare Lash](../../cards/N/ni.md#nightmare-lash) (+69%) · EDHREC: in 2,657 decks; most often under [Dakkon Blackblade](../../cards/D/da.md#dakkon-blackblade) (22.8% of its decks), [Ob Nixilis, the Fallen](../../cards/O/ob.md#ob-nixilis-the-fallen) (21.4% of its decks), [Ghoulcaller Gisa](../../cards/G/gh.md#ghoulcaller-gisa) (1.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fut/87/korlash-heir-to-blackblade) · oracle_id `09f99b5a-66cf-4178-ae64-29f2004fe899` · printing: FUT #87 (2007-05-04) · [rulings](https://api.scryfall.com/cards/32f1f022-da7f-49a4-881d-b3a2c54c38eb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Korlessa, Scale Singer
@@ -1393,6 +1409,8 @@ schema: 2
   - *2023-09-01* — Korvold's cost-reduction ability doesn't affect the colored mana in its mana cost. It can't reduce its cost to less than {B}{R}{G}.
   - *2023-09-01* — The cost-reduction ability of Korvold, Gleeful Glutton doesn't change its mana cost or mana value, only the total cost you pay. Specifically, the mana value of Korvold, Gleeful Glutton is always 8.
   - *2023-09-01* — The permanent types are artifact, battle, creature, enchantment, land, and planeswalker. Things like "legendary" or "snow" are supertypes, not types. "Token" is not a type.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1,292 decks; highest synergy [Goldhound](../../cards/G/gol.md#goldhound) (+73%), [Seal of Primordium](../../cards/S/sea.md#seal-of-primordium) (+66%), [Haywire Mite](../../cards/H/ha.md#haywire-mite) (+62%) · EDHREC: in 2,119 decks; most often under [Korvold, Fae-Cursed King](../../cards/K/ko.md#korvold-fae-cursed-king) (2.5% of its decks), [Slimefoot and Squee](../../cards/S/sl.md#slimefoot-and-squee) (1.8% of its decks), [Disa the Restless](../../cards/D/di.md#disa-the-restless) (1.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/woc/26/korvold-gleeful-glutton) · oracle_id `99e89098-bc55-4297-9407-ab9256b609da` · printing: WOC #26 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kosei, Penitent Warlord
@@ -1404,6 +1422,8 @@ schema: 2
   > As long as Kosei is enchanted, equipped, and has a counter on it, Kosei has "Whenever Kosei deals combat damage to an opponent, you draw that many cards and Kosei deals that much damage to each other opponent."
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14999 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Presented with an official backstory on [The Legends of Kamigawa: Neon Dynasty](https://magic.wizards.com/en/news/feature/legends-kamigawa-neon-dynasty-2022-02-11) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 2,767 decks; highest synergy [Ring of Kalonia](../../cards/R/ri.md#ring-of-kalonia) (+73%), [Forced Adaptation](../../cards/F/fo.md#forced-adaptation) (+71%), [Hydra's Growth](../../cards/H/hy.md#hydras-growth) (+70%) · EDHREC: in 2,700 decks; most often under [Chishiro, the Shattered Blade](../../cards/C/chi.md#chishiro-the-shattered-blade) (22.6% of its decks), [Isao, Enlightened Bushi](../../cards/I/is.md#isao-enlightened-bushi) (42.7% of its decks), [Doran, Besieged by Time](../../cards/D/do.md#doran-besieged-by-time) (0.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/nec/26/kosei-penitent-warlord) · oracle_id `41f7e725-bdb8-4c3a-adc7-a8184ec7c394` · printing: NEC #26 (2022-02-18) · [rulings](https://api.scryfall.com/cards/82291f66-f4f0-4542-992e-8342e90033da/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Koskun Falls
@@ -1606,6 +1626,8 @@ schema: 2
   - *2022-02-18* — If another player gains control of Kotose, the Silent Spider, you won't be able to play any of the exiled cards, even if you later regain control of it. Similarly, if Kotose leaves the battlefield and later returns, you won't be able to play the cards that were exiled the first time it was on the battlefield.
   - *2022-02-18* — You may leave any cards with the same name as the target card in the zones they're in if you want.
   - *2022-02-18* — You may play exactly one of the exiled cards. Once you play one of them, the others will remain in exile.
+- **Lore:** ✅ Presented with an official backstory on [The Legends of Kamigawa: Neon Dynasty](https://magic.wizards.com/en/news/feature/legends-kamigawa-neon-dynasty-2022-02-11) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 176 decks; highest synergy [Conjurer's Closet](../../cards/C/con.md#conjurers-closet) (+40%), [Thassa, Deep-Dwelling](../../cards/T/tha.md#thassa-deep-dwelling) (+39%), [Ghostly Flicker](../../cards/G/gh.md#ghostly-flicker) (+36%) · EDHREC: in 2,538 decks; most often under [Yuriko, the Tiger's Shadow](../../cards/Y/yu.md#yuriko-the-tigers-shadow) (3.0% of its decks), [Satoru Umezawa](../../cards/S/sat.md#satoru-umezawa) (3.0% of its decks), [Splinter, Radical Rat](../../cards/S/spl.md#splinter-radical-rat) (3.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/228/kotose-the-silent-spider) · oracle_id `bfef4daa-b950-46ce-8c08-11f9983741cf` · printing: NEO #228 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Koya, Death from Above
@@ -1624,6 +1646,8 @@ schema: 2
   - *2026-01-27* — Auras attached to the exiled creature will be put into their owners' graveyards. Any Equipment will become unattached and remain on the battlefield. Any counters on the exiled creature will cease to exist. If the card returns to the battlefield, it will be a new object with no connection to the card that was exiled.
   - *2026-01-27* — If Koya leaves the battlefield before the delayed triggered ability goes on the stack at the beginning of the next end step, the delayed triggered ability will still resolve as normal. You'll still get the chance to pay {3}{B}, and if you don't, the exiled card will still return under its owner's control.
   - *2026-01-27* — If a token is exiled this way, it will cease to exist and won't return to the battlefield.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 29 decks; highest synergy [Charming Prince](../../cards/C/cha.md#charming-prince) (+75%), [Ephemerate](../../cards/E/ep.md#ephemerate) (+72%), [Restoration Angel](../../cards/R/res.md#restoration-angel) (+62%) · EDHREC: in 2,163 decks; most often under [Dark Leo & Shredder](../../cards/D/da.md#dark-leo--shredder) (29.7% of its decks), [Splinter, Radical Rat](../../cards/S/spl.md#splinter-radical-rat) (10.7% of its decks), [Karai, Future of the Foot](../../cards/K/ka.md#karai-future-of-the-foot) (17.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmt/11/koya-death-from-above) · oracle_id `e7cd87d4-028c-49d9-9416-69f57e7dfec5` · printing: TMT #11 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kozilek, Butcher of Truth
@@ -1664,6 +1688,8 @@ schema: 2
   - *2024-11-08* — Playtest cards aren’t legal for play in any tournament format other than Mystery Booster Limited formats. On the other hand, we expect they will spice up a wide variety of non-tournament games (as long as everyone’s on the same page about using them!).
   - *2024-11-08* — Playtest cards use a modified version of game symbols, such as {T} and {W}. These modified symbols should be treated as the standard symbols during play.
   - *2024-11-08* — The number of cards each opponent discards is calculated as Kozilek’s first ability resolves. If an opponent has two or fewer cards in their hand at that time, they won’t discard any cards.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/K.md#kozilek-compleated)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mb2/502/kozilek-compleated) · oracle_id `fd0592e0-021a-450f-b0fb-e4a242dc16bf` · printing: MB2 #502 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

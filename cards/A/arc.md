@@ -200,6 +200,8 @@ schema: 2
   - *2024-03-08* — Once you begin to cast the spell, losing control of Arcade Gannon won’t affect the spell.
   - *2024-03-08* — You must follow the normal timing permissions and restrictions of the spell you cast from your graveyard.
   - *2024-03-08* — You must pay the costs to cast that spell. If it has an alternative cost, you may cast it for that cost instead.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 3 combos; most popular [Arcade Gannon + Coretapper + Magistrate's Scepter](https://commanderspellbook.com/combo/3492-3609-5397/) (Infinite turns, Lock) · EDHREC as commander: 516 decks; highest synergy [Elder Owyn Lyons](../../cards/E/el.md#elder-owyn-lyons) (+44%), [Thirst for Knowledge](../../cards/T/thi.md#thirst-for-knowledge) (+38%), [Sai, Master Thopterist](../../cards/S/sai.md#sai-master-thopterist) (+37%) · EDHREC: in 10,034 decks; most often under [Dr. Madison Li](../../cards/D/drm.md#dr-madison-li) (27.3% of its decks), [Liberty Prime, Recharged](../../cards/L/li.md#liberty-prime-recharged) (23.6% of its decks), [Captain America, Living Legend](../../cards/C/cap.md#captain-america-living-legend) (16.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/pip/92/arcade-gannon) · oracle_id `e001d7e6-71c9-42fa-9d5c-9455da66e4ec` · printing: PIP #92 (2024-03-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arcades Sabboth
@@ -216,6 +218,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24197 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2022-12-08* — As long as Arcades Sabboth is untapped and isn’t attacking, it gets +0/+2 from its own third ability.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 231 decks; highest synergy [Assault Formation](../../cards/A/as.md#assault-formation) (+31%), [Arcades, the Strategist](../../cards/A/arc.md#arcades-the-strategist) (+29%), [High Alert](../../cards/H/hi.md#high-alert) (+29%) · EDHREC: in 748 decks; most often under [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (0.3% of its decks), [Arcades, the Strategist](../../cards/A/arc.md#arcades-the-strategist) (0.6% of its decks), [Morophon, the Boundless](../../cards/M/mor.md#morophon-the-boundless) (0.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmr/187/arcades-sabboth) · oracle_id `8ead94c5-8447-4f20-87ec-efdccde689fc` · printing: DMR #187 (2023-01-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arcades, the Strategist
@@ -1095,6 +1099,8 @@ schema: 2
   - *2022-10-14* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a More Than Meets the Eye cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of a spell cast using More Than Meets the Eye is determined by the mana cost on the front face of the card, no matter what the total cost to cast the spell was.
   - *2022-10-14* — When you cast a spell using its More Than Meets the Eye ability, the card is put onto the stack with its back face up. The resulting spell has all characteristics of that face.
   - *2022-10-14* — While it's a creature, the Vehicle has its printed power and toughness.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 196 decks; highest synergy [Unbounded Potential](../../cards/U/un.md#unbounded-potential) (+70%), [Feather, the Redeemed](../../cards/F/fe.md#feather-the-redeemed) (+66%), [Angelfire Ignition](../../cards/A/an.md#angelfire-ignition) (+64%) · EDHREC: in 6,726 decks; most often under [Optimus Prime, Hero](../../cards/O/op.md#optimus-prime-hero--optimus-prime-autobot-leader) (55.6% of its decks), [Infinite Guideline Station](../../cards/I/inf.md#infinite-guideline-station) (5.2% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (1.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bot/7/arcee-sharpshooter-arcee-acrobatic-coupe) · oracle_id `9fba3097-d53f-4ea4-b5d2-8adddaa09524` · printing: BOT #7 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Archaeological Dig

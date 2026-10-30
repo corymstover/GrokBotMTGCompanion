@@ -35,6 +35,8 @@ schema: 2
   > *"Rogers can talk all he wants about unity and dreams. Enemies understand strength."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25912 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 63 decks; highest synergy [Puresteel Paladin](../../cards/P/pu.md#puresteel-paladin) (+76%), [Ephemerate](../../cards/E/ep.md#ephemerate) (+56%), [Ardenn, Intrepid Archaeologist](../../cards/A/ard.md#ardenn-intrepid-archaeologist) (+53%) · EDHREC: in 656 decks; most often under [Winter Soldier, Icy Assassin](../../cards/W/wi.md#winter-soldier-icy-assassin) (20.4% of its decks), [Nick Fury, Agent of S.H.I.E.L.D.](../../cards/N/ni.md#nick-fury-agent-of-shield) (3.0% of its decks), [Black Widow, Double Agent](../../cards/B/bla.md#black-widow-double-agent) (18.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/U.md#usagent-john-walker)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/236/usagent-john-walker) · oracle_id `2b6fa8b6-4865-4eb6-974b-00f6b16b6f0f` · printing: MSH #236 (2026-06-26) · [rulings](https://api.scryfall.com/cards/35e11911-799c-4d82-9109-3ca27964bef0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

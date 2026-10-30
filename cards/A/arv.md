@@ -35,6 +35,8 @@ schema: 2
 - **Keywords:** Rulebreaker
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ06a/arvad-of-the-weatherlight) · oracle_id `a98df6bd-e806-4ee1-a418-ad318d5d0425` · printing: UNK #RZ06a (2023-07-29) · [rulings](https://api.scryfall.com/cards/37a04a94-d5ed-4f30-a750-fe6db7add1d1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arvad the Cursed

@@ -537,6 +537,8 @@ schema: 2
   - *2022-06-10* — Alaundo's ability is not the same as the suspend ability. However, if you exile a card with suspend this way, the suspend ability will also cause you to remove time counters from it.
   - *2022-06-10* — Alaundo's ability will remove time counters from all cards you own in exile, even ones that were put there another way, such as with the suspend ability.
   - *2022-06-10* — If you exile a card with a mana value of 0, such as a land card, no time counters will be placed on it. Unless you find a way to put time counters on it in exile, the triggered ability it gains from Alaundo will never trigger.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 7 combos; most popular [Alaundo the Seer + Tolarian Kraken + Teferi's Ageless Insight](https://commanderspellbook.com/combo/1029-2784-5042/) (Infinite card draw, Infinite draw triggers) · EDHREC as commander: 3,203 decks; highest synergy [Ioreth of the Healing House](../../cards/I/io.md#ioreth-of-the-healing-house) (+72%), [Kiora's Follower](../../cards/K/ki.md#kioras-follower) (+70%), [Vizier of Tumbling Sands](../../cards/V/vi.md#vizier-of-tumbling-sands) (+66%) · EDHREC: in 4,043 decks; most often under [Kellan, the Kid](../../cards/K/ke.md#kellan-the-kid) (14.0% of its decks), [Derevi, Empyrial Tactician](../../cards/D/der.md#derevi-empyrial-tactician) (1.3% of its decks), [The Tenth Doctor // Clara Oswald](../../cards/T/thet.md#the-tenth-doctor) (13.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/264/alaundo-the-seer) · oracle_id `1e048c15-50d6-4313-880a-e04348952a51` · printing: CLB #264 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Alberix, the Trade Planet
@@ -968,6 +970,8 @@ schema: 2
   - *2020-02-29* — Some card layouts include rules text in different sections. Count each one separately. For example, “the battlefield” in the “pin-up” section of a host creature is counted separately from the first line of text of that ability’s effect.
   - *2020-02-29* — There are a million things it hasn’t done, including count reminder text and flavor text. Those aren’t rules text.
   - *2020-02-29* — This card’s name is Alexander Clamilton.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/und/16/alexander-clamilton) · oracle_id `60875e8e-fc71-4eb3-8c2d-70f2fd1f11ae` · printing: UND #16 (2020-02-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Alexios, Deimos of Kosmos
@@ -1021,6 +1025,8 @@ schema: 2
   > *The Keldons didn't know her name, but they still cursed her in battle.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24026 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 79 decks; highest synergy [Containment Construct](../../cards/C/con.md#containment-construct) (+53%), [Circular Logic](../../cards/C/ci.md#circular-logic) (+49%), [Deep Analysis](../../cards/D/dee.md#deep-analysis) (+43%) · EDHREC: in 945 decks; most often under [Damia, Sage of Stone](../../cards/D/da.md#damia-sage-of-stone) (2.6% of its decks), [Tazri, Stalwart Survivor](../../cards/T/ta.md#tazri-stalwart-survivor) (2.0% of its decks), [Glarb, Calamity's Augur](../../cards/G/gl.md#glarb-calamitys-augur) (0.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/pcy/28/alexi-zephyr-mage) · oracle_id `3f60de36-ed63-4d08-a012-fc16e91da46d` · printing: PCY #28 (2000-06-05) · [rulings](https://api.scryfall.com/cards/6f8fc0b0-4a23-47ed-b61b-a4505fcfc5d2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Alex Wilder, Runaway
@@ -1034,6 +1040,8 @@ schema: 2
 - **Keywords:** Escape
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21521 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 16 decks; highest synergy [Laelia, the Blade Reforged](../../cards/L/la.md#laelia-the-blade-reforged) (+76%), [Nalfeshnee](../../cards/N/na.md#nalfeshnee) (+66%), [Nico Minoru, Runaway](../../cards/N/ni.md#nico-minoru-runaway) (+61%) · EDHREC: in 1,818 decks; most often under [Karolina Dean, Runaway](../../cards/K/ka.md#karolina-dean-runaway) (34.8% of its decks), [Daredevil, Man Without Fear](../../cards/D/da.md#daredevil-man-without-fear) (11.4% of its decks), [Nico Minoru, Runaway](../../cards/N/ni.md#nico-minoru-runaway) (17.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/677/alex-wilder-runaway) · oracle_id `f3031397-c2d5-40c6-8eca-88faed00a5ea` · printing: MSC #677 (2026-06-26) · [rulings](https://api.scryfall.com/cards/78ba8bef-5b36-4e63-b708-d77250ebaf62/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Algae Gharial
@@ -1069,6 +1077,8 @@ schema: 2
   - *2015-06-22* — If your opponents have no nonland cards in their hands, you can't choose a card name. Alhammarret's last ability won't stop any spells from being cast in that case.
   - *2015-06-22* — You choose one card name, not one name per opponent.
   - *2015-06-22* — Your opponents can still cast a card with the chosen name face down if it has a morph ability. A card with the chosen name can also be manifested.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 41 decks; highest synergy [Telepathy](../../cards/T/te.md#telepathy) (+49%), [Atemsis, All-Seeing](../../cards/A/at.md#atemsis-all-seeing) (+45%), [Unesh, Criosphinx Sovereign](../../cards/U/un.md#unesh-criosphinx-sovereign) (+44%) · EDHREC: in 2,942 decks; most often under [Unesh, Criosphinx Sovereign](../../cards/U/un.md#unesh-criosphinx-sovereign) (27.2% of its decks), [Yennett, Cryptic Sovereign](../../cards/Y/ye.md#yennett-cryptic-sovereign) (4.3% of its decks), [Isperia the Inscrutable](../../cards/I/is.md#isperia-the-inscrutable) (19.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ori/43/alhammarret-high-arbiter) · oracle_id `c2531360-61f8-4edc-886b-408811a0639d` · printing: ORI #43 (2015-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Alhammarret's Archive
@@ -1112,6 +1122,8 @@ schema: 2
   - *2020-11-10* — To have two commanders, both must have the partner ability as the game begins. Losing the ability during the game doesn't cause either to cease to be your commander.
   - *2020-11-10* — You can choose two commanders with partner that are the same color or colors. In Commander Draft, you can even choose two of the same commander with partner if you drafted them. If you do this, make sure you keep the number of times you've cast each from the command zone clear for "commander tax" purposes.
   - *2020-11-10* — You create just one Spirit token, not one for each +1/+1 counter that was on the creature that died.
+- **Lore:** ✅ Presented with an official backstory on [The Legendary Characters of Commander Legends, Part 2](https://magic.wizards.com/en/news/card-preview/legendary-characters-commander-legends-part-2-2020-11-06) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 19 combos; most popular [Alharu, Solemn Ritualist + Beifong's Bounty Hunters + Carrion Feeder](https://commanderspellbook.com/combo/2438-7084-8232/) (Infinite +1/+1 counters on a creature, Infinite creature ETB) · EDHREC as commander: 12 decks; highest synergy [Doomed Traveler](../../cards/D/do.md#doomed-traveler) (+58%), [Intangible Virtue](../../cards/I/int.md#intangible-virtue) (+48%), [Ainok Bond-Kin](../../cards/A/ai.md#ainok-bond-kin) (+41%) · EDHREC: in 4,569 decks; most often under [Bright-Palm, Soul Awakener](../../cards/B/br.md#bright-palm-soul-awakener) (11.0% of its decks), [Hamza, Guardian of Arashin](../../cards/H/ha.md#hamza-guardian-of-arashin) (4.1% of its decks), [Shalai and Hallar](../../cards/S/sha.md#shalai-and-hallar) (2.4% of its decks) — *Guidance (Oracle pattern)* — packages: [+1/+1 counters: Counter payoffs](../../EDH%20Packages.md#11-counters-counter-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/8/alharu-solemn-ritualist) · oracle_id `c8deef08-fcf2-41e1-8aeb-aa4e0af147ca` · printing: CMM #8 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ali Baba
@@ -1175,6 +1187,8 @@ schema: 2
 - **Keywords:** Sense the Good, Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14063 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 94 decks; highest synergy [Humble Defector](../../cards/H/hu.md#humble-defector) (+82%), [Khârn the Betrayer](../../cards/K/kh.md#khârn-the-betrayer) (+77%), [Starke of Rath](../../cards/S/sta.md#starke-of-rath) (+76%) · EDHREC: in 6,908 decks; most often under [Mister Fantastic](../../cards/M/mis.md#mister-fantastic) (62.1% of its decks), [The Fantastic Four](../../cards/T/thef.md#the-fantastic-four) (26.4% of its decks), [Invisible Woman](../../cards/I/inv.md#invisible-woman) (52.2% of its decks) — *Guidance (Oracle pattern)* — packages: [Treasure: Repeatable Treasure makers](../../EDH%20Packages.md#treasure-repeatable-treasure-makers) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/48/alicia-masters-skilled-sculptor) · oracle_id `223504ba-174a-46f2-a4a2-5d663a82dfd3` · printing: MSC #48 (2026-06-26) · [rulings](https://api.scryfall.com/cards/3db94749-340c-4454-a15d-ba6353e0c4a4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Alien Invasion
@@ -1272,6 +1286,8 @@ schema: 2
 - **Rulings** (2):
   - *2020-01-24* — Once you no longer control a Reflection, Alirios doesn't immediately become untapped. It'll be untapped during your next untap step.
   - *2020-01-24* — Spells and abilities can untap Alirios, even if it doesn't untap during your untap step.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 166 decks; highest synergy [Displace](../../cards/D/di.md#displace) (+60%), [Candlekeep Sage](../../cards/C/can.md#candlekeep-sage) (+58%), [Ghostly Flicker](../../cards/G/gh.md#ghostly-flicker) (+58%) · EDHREC: in 1,209 decks; most often under [Jalira, Master Polymorphist](../../cards/J/ja.md#jalira-master-polymorphist) (8.7% of its decks), [Brago, King Eternal](../../cards/B/br.md#brago-king-eternal) (0.8% of its decks), [Y'shtola Rhul](../../cards/Y/ys.md#yshtola-rhul) (3.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#alirios-enraptured)
 - **Source flags:** [Scryfall](https://scryfall.com/card/thb/42/alirios-enraptured) · oracle_id `7dbf9e96-e61f-43db-8767-63a351cf4ef8` · printing: THB #42 (2020-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1314,6 +1330,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12434 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2023-10-13* — You choose whether to pay {8} as Alistair's second ability resolves. Notably, once it begins to resolve, none of your opponents may take actions that might change the result before it happens, such as casting a spell that destroys one of your historic permanents.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1,700 decks; highest synergy [Queen Allenal of Ruadach](../../cards/Q/qu.md#queen-allenal-of-ruadach) (+52%), [Harbin, Vanguard Aviator](../../cards/H/ha.md#harbin-vanguard-aviator) (+50%), [Idol of Oblivion](../../cards/I/id.md#idol-of-oblivion) (+45%) · EDHREC: in 6,692 decks; most often under [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (2.5% of its decks), [The Fourth Doctor // Sarah Jane Smith](../../cards/T/thef.md#the-fourth-doctor) (71.8% of its decks), [Aragorn, the Uniter](../../cards/A/ara.md#aragorn-the-uniter) (2.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/112/alistair-the-brigadier) · oracle_id `2fe8d739-dee5-4220-8102-6fbae7d4fc19` · printing: WHO #112 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### A Little Chat
@@ -2056,6 +2074,8 @@ schema: 2
   - *2022-06-10* — If your commander loses the choose a Background ability or stops being a Background during the game, as appropriate, it is still your commander.
   - *2022-06-10* — Once the game begins, your two commanders are tracked separately. If you cast one, you won’t have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 combat damage from any one of them, not from both of them combined (although your Background won’t usually be a creature anyway).
   - *2022-06-10* — You can choose two commanders that are the same color or colors.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 16 decks; highest synergy [Unsummon](../../cards/U/un.md#unsummon) (+39%), [Chrome Prowler](../../cards/C/chr.md#chrome-prowler) (+31%), [Moon-Circuit Hacker](../../cards/M/moo.md#moon-circuit-hacker) (+31%) · EDHREC: in 9,943 decks; most often under [Goro-Goro and Satoru](../../cards/G/gor.md#goro-goro-and-satoru) (37.1% of its decks), [Yuriko, the Tiger's Shadow](../../cards/Y/yu.md#yuriko-the-tigers-shadow) (3.9% of its decks), [Satoru Umezawa](../../cards/S/sat.md#satoru-umezawa) (3.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/A.md#alora-merry-thief)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/55/alora-merry-thief) · oracle_id `a26432ff-ae60-454d-a6de-fec3feafa669` · printing: CLB #55 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2070,6 +2090,8 @@ schema: 2
 - **Keywords:** Reach, Vigilance, Discover, In You, All Things Are Possible
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10589 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 10,381 decks; highest synergy [Blightsteel Colossus](../../cards/B/bli.md#blightsteel-colossus) (+83%), [Kappa Cannoneer](../../cards/K/ka.md#kappa-cannoneer) (+76%), [Meteor Golem](../../cards/M/me.md#meteor-golem) (+76%) · EDHREC: in 1,234 decks; most often under [Saheeli, Radiant Creator](../../cards/S/sah.md#saheeli-radiant-creator) (2.7% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.6% of its decks), [Infinite Guideline Station](../../cards/I/inf.md#infinite-guideline-station) (1.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sld/2221/aloy-savior-of-meridian) · oracle_id `f0554a8f-32de-4069-9f47-5e06ceb3f09d` · printing: SLD #2221 (2025-10-27) · [rulings](https://api.scryfall.com/cards/90dee895-037c-45f9-ac4f-b2277da85459/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Alpha Authority
@@ -2366,6 +2388,8 @@ schema: 2
   - *2024-02-02* — Some abilities trigger "whenever you sacrifice a Clue". Those abilities trigger whenever you sacrifice a Clue for any reason, not just to activate a Clue's activated ability.
   - *2024-02-02* — Some spells and abilities that investigate may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't create any Clue tokens.
   - *2024-02-02* — You can't sacrifice a Clue to pay multiple costs. For example, you can't sacrifice a Clue token to activate its own ability and also to activate Alquist Proft, Master Sleuth's ability.
+- **Lore:** ✅ Presented with an official backstory on [The Legends (and Characters) of Murders at Karlov Manor](https://magic.wizards.com/en/news/feature/the-legends-and-characters-of-murders-at-karlov-manor) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 790 decks; highest synergy [Officious Interrogation](../../cards/O/of.md#officious-interrogation) (+77%), [Ezrim, Agency Chief](../../cards/E/ez.md#ezrim-agency-chief) (+70%), [Deduce](../../cards/D/ded.md#deduce) (+69%) · EDHREC: in 7,132 decks; most often under [Morska, Undersea Sleuth](../../cards/M/mor.md#morska-undersea-sleuth) (24.2% of its decks), [Inquisitor Greyfax](../../cards/I/inq.md#inquisitor-greyfax) (26.6% of its decks), [Ezrim, Agency Chief](../../cards/E/ez.md#ezrim-agency-chief) (62.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkm/185/alquist-proft-master-sleuth) · oracle_id `dd79a994-7dad-49d4-8d8f-62dbedde4a38` · printing: MKM #185 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Alrund, God of the Cosmos // Hakka, Whispering Raven

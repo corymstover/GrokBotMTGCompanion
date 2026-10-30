@@ -340,6 +340,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18544 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2026-08-21* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
+- **Lore:** ✅ Presented with an official backstory on [The Legends of Reality Fracture](https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 24 decks; highest synergy [Thalia, Heretic Cathar](../../cards/T/tha.md#thalia-heretic-cathar) (+62%), [Aven Mindcensor](../../cards/A/av.md#aven-mindcensor) (+57%), [Ghostly Prison](../../cards/G/gh.md#ghostly-prison) (+49%) · EDHREC: in 4,800 decks; most often under [Grand Arbiter Augustin IV](../../cards/G/gra.md#grand-arbiter-augustin-iv) (15.8% of its decks), [Winota, Joiner of Forces](../../cards/W/wi.md#winota-joiner-of-forces) (11.1% of its decks), [Myrel, Shield of Argive](../../cards/M/my.md#myrel-shield-of-argive) (12.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/205/thalia-the-survivor) · oracle_id `55ef129e-698e-424f-be3c-3fbba6c2cc3e` · printing: FRA #205 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thalisse, Reverent Medium
@@ -470,6 +472,8 @@ schema: 2
 - **Keywords:** Lifelink
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17447 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 87 decks; highest synergy [The Soul Stone](../../cards/T/thes.md#the-soul-stone) (+33%), [Ophiomancer](../../cards/O/op.md#ophiomancer) (+31%), [Black Market](../../cards/B/bla.md#black-market) (+30%) · EDHREC: in 3,717 decks; most often under [Thanos, the Mad Titan](../../cards/T/tha.md#thanos-the-mad-titan) (22.2% of its decks), [Doctor Doom, King of Latveria](../../cards/D/do.md#doctor-doom-king-of-latveria) (3.3% of its decks), [Loki, the Deceiver](../../cards/L/lo.md#loki-the-deceiver) (14.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/508/thanos-deaths-consort) · oracle_id `3c067370-1e3d-4262-b7d6-f2bb2656b1d8` · printing: MSC #508 (2026-06-26) · [rulings](https://api.scryfall.com/cards/4842d520-8bce-4b95-bcb6-bd9eb9374f90/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thanos, the Mad Titan
@@ -485,6 +489,8 @@ schema: 2
 - **Keywords:** Deathtouch, Power-up, Lifelink
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16413 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 3,603 decks; highest synergy [The Mind Stone](../../cards/T/them.md#the-mind-stone) (+49%), [Baron Strucker, HYDRA Overlord](../../cards/B/bar.md#baron-strucker-hydra-overlord) (+45%), [The Soul Stone](../../cards/T/thes.md#the-soul-stone) (+45%) · EDHREC: in 883 decks; most often under [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (2.2% of its decks), [Nick Fury, Agent of S.H.I.E.L.D.](../../cards/N/ni.md#nick-fury-agent-of-shield) (1.9% of its decks), [Super-Skrull](../../cards/S/sup.md#super-skrull) (5.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#thanos-the-mad-titan)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/233/thanos-the-mad-titan) · oracle_id `090d815b-b2c8-48cd-a0b3-dc662d5352ac` · printing: MSH #233 (2026-06-26) · [rulings](https://api.scryfall.com/cards/e669c0b2-0011-4feb-9263-f1ecc0a98f18/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -505,6 +511,8 @@ schema: 2
   - *2018-07-13* — Each creature's controller still chooses which player or planeswalker the creature attacks.
   - *2018-07-13* — If a creature can't attack for any reason (such as being tapped or having come under that player's control that turn), then it doesn't attack. If there's a cost associated with having it attack, the player isn't forced to pay that cost, so it doesn't have to attack in that case either.
   - *2018-07-13* — You can't attack yourself or your own planeswalkers to give Thantis +1/+1 counters, but Thantis appreciates the way you think.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 7,664 decks; highest synergy [Arachnogenesis](../../cards/A/ara.md#arachnogenesis) (+60%), [Kazuul, Tyrant of the Cliffs](../../cards/K/ka.md#kazuul-tyrant-of-the-cliffs) (+60%), [Kardur, Doomscourge](../../cards/K/ka.md#kardur-doomscourge) (+57%) · EDHREC: in 3,762 decks; most often under [Cosmic Spider-Man](../../cards/C/cos.md#cosmic-spider-man) (6.7% of its decks), [Saskia the Unyielding](../../cards/S/sas.md#saskia-the-unyielding) (4.6% of its decks), [Lord Windgrace](../../cards/L/lo.md#lord-windgrace) (2.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c18/46/thantis-the-warweaver) · oracle_id `be543388-1e4f-412f-8f3b-dd826fd8e03d` · printing: C18 #46 (2018-08-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thassa, Deep-Dwelling

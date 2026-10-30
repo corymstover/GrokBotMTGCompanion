@@ -166,6 +166,8 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24136 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Presented with an official backstory on [The Legends of Reality Fracture](https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 98 decks; highest synergy [Anticausal Vestige](../../cards/A/an.md#anticausal-vestige) (+54%), [Spirited Companion](../../cards/S/spi.md#spirited-companion) (+51%), [Wall of Omens](../../cards/W/wal.md#wall-of-omens) (+49%) · EDHREC: in 1,589 decks; most often under [Rocco, Cabaretti Caterer](../../cards/R/ro.md#rocco-cabaretti-caterer) (2.3% of its decks), [God-Eternal Oketra](../../cards/G/god.md#god-eternal-oketra) (10.7% of its decks), [Dack Fayden, Helping Hand](../../cards/D/da.md#dack-fayden-helping-hand) (0.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/202/rescue-girl-first-responder) · oracle_id `df6fc0b4-333b-4f6c-804c-ba6c8e29c88e` · printing: FRA #202 (2026-10-02) · [rulings](https://api.scryfall.com/cards/699874e3-1ccf-4a6c-8371-61040de82d08/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rescue Leopard
@@ -194,6 +196,8 @@ schema: 2
 - **Keywords:** Flying, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14817 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 5 decks; highest synergy [Silver Myr](../../cards/S/si.md#silver-myr) (+89%), [Darksteel Citadel](../../cards/D/da.md#darksteel-citadel) (+88%), [Seat of the Synod](../../cards/S/sea.md#seat-of-the-synod) (+81%) · EDHREC: in 6,016 decks; most often under [Captain America, Team Leader](../../cards/C/cap.md#captain-america-team-leader) (39.0% of its decks), [Tony Stark](../../cards/T/to.md#tony-stark--the-invincible-iron-man) (20.1% of its decks), [Director Nick Fury](../../cards/D/di.md#director-nick-fury) (34.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/755/rescue-pepper-potts) · oracle_id `54917578-9493-499e-b200-51d5cf7978ff` · printing: MSC #755 (2026-06-26) · [rulings](https://api.scryfall.com/cards/476f75a4-a4e0-4d09-9756-f1001ebabc84/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rescuer Chwinga

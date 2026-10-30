@@ -325,6 +325,8 @@ schema: 2
 - **Rulings** (2):
   - *2025-09-19* — Mayhem represents an alternative cost that can be paid to cast a spell from your graveyard if you discarded the card with mayhem that turn. You must pay any additional costs the spell has.
   - *2025-09-19* — You must follow all normal timing rules when casting a spell with mayhem. For example, you can't cast a creature card with mayhem you couldn't normally cast during an opponent's turn, even if you discard that card during an opponent's turn.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 34 decks; highest synergy [Great Fierce Bee](../../cards/G/gre.md#great-fierce-bee) (+66%), [Fumulus, the Infestation](../../cards/F/fu.md#fumulus-the-infestation) (+46%), [Swarmyard](../../cards/S/sw.md#swarmyard) (+39%) · EDHREC: in 8,439 decks; most often under [Norman Osborn](../../cards/N/no.md#norman-osborn--green-goblin) (12.6% of its decks), [Doctor Octopus, Master Planner](../../cards/D/do.md#doctor-octopus-master-planner) (52.8% of its decks), [Eddie Brock](../../cards/E/ed.md#eddie-brock--venom-lethal-protector) (3.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/799/swarm-being-of-bees) · oracle_id `10c8cf3b-2530-49e7-b38e-95cdaae8a6e7` · printing: MSC #799 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Swarmborn Giant
@@ -1735,6 +1737,8 @@ schema: 2
 - **Keywords:** Connive
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20193 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 14 combos; most popular [Oathkeeper, Takeno's Daisho + Umbral Collar Zealot + Swordsman, Sharp Scoundrel](https://commanderspellbook.com/combo/4640-6798-8032--201/) (Infinite creature ETB, Infinite creature LTB) · EDHREC as commander: 87 decks; highest synergy [Whiplash, Vengeful Engineer](../../cards/W/wh.md#whiplash-vengeful-engineer) (+94%), [Baron Strucker, HYDRA Overlord](../../cards/B/bar.md#baron-strucker-hydra-overlord) (+89%), [Tombstone, Career Criminal](../../cards/T/to.md#tombstone-career-criminal) (+87%) · EDHREC: in 2,196 decks; most often under [Whiplash, Vengeful Engineer](../../cards/W/wh.md#whiplash-vengeful-engineer) (53.6% of its decks), [Winter Soldier, Icy Assassin](../../cards/W/wi.md#winter-soldier-icy-assassin) (28.2% of its decks), [Madame Hydra](../../cards/M/mad.md#madame-hydra) (18.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/116/swordsman-sharp-scoundrel) · oracle_id `2f15abe7-54aa-40ed-a15d-5b827f1c3923` · printing: MSH #116 (2026-06-26) · [rulings](https://api.scryfall.com/cards/6572aafe-18ed-4182-92e9-25f003f5fe3d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Swordsman's Steel

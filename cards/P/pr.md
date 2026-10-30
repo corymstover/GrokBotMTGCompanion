@@ -1411,6 +1411,8 @@ schema: 2
 - **Rulings** (2):
   - *2024-03-08* — If the target land is an illegal target as Preston Garvey's first ability tries to resolve, it won't resolve and none of its effects happen. The Settlement token won't be created.
   - *2024-03-08* — In the rare case that the target land is a legal target as Preston Garvey's first ability resolves but the target land can't legally be enchanted by the Settlement token, the token won't be created at all.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 3 combos; most popular [Preston Garvey, Minuteman + Aggravated Assault](https://commanderspellbook.com/combo/3750-5453/) (Infinite combat phases, Infinite mana creatures you control can produce) · EDHREC as commander: 2,200 decks; highest synergy [All That Glitters](../../cards/A/al.md#all-that-glitters) (+75%), [Fertile Ground](../../cards/F/fe.md#fertile-ground) (+73%), [Wild Growth](../../cards/W/wi.md#wild-growth) (+69%) · EDHREC: in 5,424 decks; most often under [Dogmeat, Ever Loyal](../../cards/D/do.md#dogmeat-ever-loyal) (37.9% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.7% of its decks), [Mazzy, Truesword Paladin](../../cards/M/maz.md#mazzy-truesword-paladin) (7.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/P.md#preston-garvey-minuteman)
 - **Source flags:** [Scryfall](https://scryfall.com/card/pip/8/preston-garvey-minuteman) · oracle_id `08a0c661-5ed5-47a6-aa1d-3114bf5db3fb` · printing: PIP #8 (2024-03-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2951,6 +2953,8 @@ schema: 2
   > {T}: Add {U}.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30102 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Princess Lucrezia + Haunted One + Fain, the Broker + Intruder Alarm + Viscera Seer](https://commanderspellbook.com/combo/1636-2110-2292-2527-4170/) (Infinite artifact ETB, Infinite artifact LTB) · EDHREC as commander: 49 decks; highest synergy [Freed from the Real](../../cards/F/fr.md#freed-from-the-real) (+42%), [Pemmin's Aura](../../cards/P/pe.md#pemmins-aura) (+36%), [Unctus, Grand Metatect](../../cards/U/un.md#unctus-grand-metatect) (+36%) · EDHREC: in 162 decks; most often under [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.1% of its decks), [Nicol Bolas](../../cards/N/ni.md#nicol-bolas) (1.0% of its decks), [Sisay, Weatherlight Captain](../../cards/S/si.md#sisay-weatherlight-captain) (0.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me3/166/princess-lucrezia) · oracle_id `dd1d21f5-f5cd-43e4-8155-3cca85da80a9` · printing: ME3 #166 (2009-09-07) · [rulings](https://api.scryfall.com/cards/be8f707d-58a6-4e18-a45a-fcfdd1336a64/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Princess Snowfall
@@ -2962,6 +2966,8 @@ schema: 2
   > When Princess Snowfall enters the battlefield and at the beginning of your upkeep, create a token that's a copy of Seven Dwarves. When you do, each Dwarf you control deals 1 damage to any target.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ04e/princess-snowfall) · oracle_id `15e7c155-a6d2-494b-970d-583f0e270eed` · printing: UNK #RZ04e (2023-09-23) · [rulings](https://api.scryfall.com/cards/8a9d2bb9-b7ca-46dc-b35b-da6184cc63f6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Princess Twilight Sparkle
@@ -2978,6 +2984,8 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/P.md#princess-twilight-sparkle)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ptg/2/princess-twilight-sparkle) · oracle_id `f430f7b6-6392-4921-a20b-38fa542a49c1` · printing: PTG #2 (2019-10-22) · [rulings](https://api.scryfall.com/cards/9a4e07b3-b095-4335-b636-2d1c34c7db9b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2994,6 +3002,8 @@ schema: 2
 - **Rulings** (2):
   - *2025-10-02* — When Princess Yue returns to the battlefield as a land named Moon, she is no longer a creature. That's rough, buddy.
   - *2025-10-02* — You cannot have multiple legendary permanents with the same name on the battlefield at the same time. However, Princess Yue's name becomes Moon when she returns to the battlefield as a land. Notably, you can control a legendary creature named Princess Yue and a legendary land named Moon at the same time.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 82 combos; most popular [Princess Yue + Wormfang Newt + Phyrexian Metamorph](https://commanderspellbook.com/combo/3734-5282-7149/) (Infinite creature LTB, Infinite creature ETB) · EDHREC as commander: 2,003 decks; highest synergy [Clever Impersonator](../../cards/C/cl.md#clever-impersonator) (+87%), [Stunt Double](../../cards/S/stu.md#stunt-double) (+81%), [Mirror Image](../../cards/M/mir.md#mirror-image) (+79%) · EDHREC: in 6,264 decks; most often under [Sokka, Tenacious Tactician](../../cards/S/so.md#sokka-tenacious-tactician) (3.8% of its decks), [Elminster](../../cards/E/el.md#elminster) (10.9% of its decks), [Galadriel of Lothlórien](../../cards/G/ga.md#galadriel-of-lothlórien) (12.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tle/95/princess-yue) · oracle_id `08c59e5e-d01c-49b7-a812-8ea75e9e945d` · printing: TLE #95 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Printlifter Ooze
@@ -4178,6 +4188,8 @@ schema: 2
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9980 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 323 decks; highest synergy [Nerd Rage](../../cards/N/ne.md#nerd-rage) (+84%), [Empyrial Plate](../../cards/E/em.md#empyrial-plate) (+74%), [Genji Glove](../../cards/G/ge.md#genji-glove) (+65%) · EDHREC: in 12,953 decks; most often under [Captain America, Team Leader](../../cards/C/cap.md#captain-america-team-leader) (82.7% of its decks), [Bruce Banner](../../cards/B/br.md#bruce-banner--the-incredible-hulk) (40.2% of its decks), [Nick Fury, Agent of S.H.I.E.L.D.](../../cards/N/ni.md#nick-fury-agent-of-shield) (13.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/P.md#professor-hulk)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/37/professor-hulk) · oracle_id `b8a627a1-d6d7-45d1-aeea-ff7b834cbb29` · printing: MSC #37 (2026-06-26) · [rulings](https://api.scryfall.com/cards/1b03fa4e-b3a1-4c23-8341-e9ce89aa872f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -4266,6 +4278,8 @@ schema: 2
   > *"I'm not leaving. I can't. I've spent too long trying to find this place. There's not another collection of knowledge like this on earth."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10352 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 5 combos; most popular [Professor Zei, Anthropologist + Mind Over Matter + Teferi's Ageless Insight](https://commanderspellbook.com/combo/4067-5042-7064/) (Infinite self-discard triggers, Infinite draw triggers) · EDHREC as commander: 170 decks; highest synergy [Abandon Attachments](../../cards/A/ab.md#abandon-attachments) (+25%), [Monument to Endurance](../../cards/M/mon.md#monument-to-endurance) (+22%), [Circular Logic](../../cards/C/ci.md#circular-logic) (+21%) · EDHREC: in 11,900 decks; most often under [Iroh, Grand Lotus](../../cards/I/ir.md#iroh-grand-lotus) (19.3% of its decks), [Fire Lord Azula](../../cards/F/fi.md#fire-lord-azula) (4.5% of its decks), [Sokka, Tenacious Tactician](../../cards/S/so.md#sokka-tenacious-tactician) (11.8% of its decks) — *Guidance (Oracle pattern)* — packages: [Graveyard: Recursion to hand](../../EDH%20Packages.md#graveyard-recursion-to-hand) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/238/professor-zei-anthropologist) · oracle_id `59a10335-72df-44a5-a514-5bac392cd282` · printing: TLA #238 (2025-11-21) · [rulings](https://api.scryfall.com/cards/27baccc0-7e25-4f39-be0d-31cd98ca0dc5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Proficient Pyrodancer
@@ -4674,6 +4688,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10196 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2025-06-06* — Prompto's last ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered or otherwise leaves the stack.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 134 decks; highest synergy [Pirate's Pillage](../../cards/P/pi.md#pirates-pillage) (+57%), [Alchemist's Talent](../../cards/A/al.md#alchemists-talent) (+54%), [Brass's Bounty](../../cards/B/br.md#brasss-bounty) (+52%) · EDHREC: in 12,249 decks; most often under [The Emperor of Palamecia](../../cards/T/thee.md#the-emperor-of-palamecia--the-lord-master-of-hell) (27.4% of its decks), [Tellah, Great Sage](../../cards/T/te.md#tellah-great-sage) (40.5% of its decks), [Vaan, Street Thief](../../cards/V/va.md#vaan-street-thief) (53.8% of its decks) — *Guidance (Oracle pattern)* — packages: [Spellslinger: Cast-trigger payoffs](../../EDH%20Packages.md#spellslinger-cast-trigger-payoffs) · [Treasure: Repeatable Treasure makers](../../EDH%20Packages.md#treasure-repeatable-treasure-makers) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/148/prompto-argentum) · oracle_id `e13d7600-0924-42eb-9d65-aa18548624a7` · printing: FIN #148 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Propaganda
@@ -5704,6 +5720,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20497 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2025-09-19* — Prowler's first ability applies only at the time blockers are declared. For example, if Prowler is blocked by a creature with 4 power, and then an effect gives that creature -3/-0, it won't stop blocking Prowler.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 16 decks; highest synergy [Strength of Will](../../cards/S/str.md#strength-of-will) (+75%), [Rancor](../../cards/R/ran.md#rancor) (+66%), [Terrasymbiosis](../../cards/T/te.md#terrasymbiosis) (+66%) · EDHREC: in 2,067 decks; most often under [Miles Morales](../../cards/M/mil.md#miles-morales--ultimate-spider-man) (15.8% of its decks), [Eddie Brock](../../cards/E/ed.md#eddie-brock--venom-lethal-protector) (1.8% of its decks), [Spider-Man, Miles Morales](../../cards/S/spi.md#spider-man-miles-morales) (39.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/spe/17/prowler-misguided-mentor) · oracle_id `8a56c2a7-7131-4495-aa27-52f48e5f1fb6` · printing: SPE #17 (2025-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Prowler's Helm
@@ -5840,6 +5858,8 @@ schema: 2
   - *2022-10-14* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a More Than Meets the Eye cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of a spell cast using More Than Meets the Eye is determined by the mana cost on the front face of the card, no matter what the total cost to cast the spell was.
   - *2022-10-14* — When you cast a spell using its More Than Meets the Eye ability, the card is put onto the stack with its back face up. The resulting spell has all characteristics of that face.
   - *2022-10-14* — While it's a creature, the Vehicle has its printed power and toughness.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 128 decks; highest synergy [Spirited Companion](../../cards/S/spi.md#spirited-companion) (+60%), [Charming Prince](../../cards/C/cha.md#charming-prince) (+44%), [Aerial Extortionist](../../cards/A/ae.md#aerial-extortionist) (+43%) · EDHREC: in 10,489 decks; most often under [Optimus Prime, Hero](../../cards/O/op.md#optimus-prime-hero--optimus-prime-autobot-leader) (55.8% of its decks), [Tetzin, Gnome Champion](../../cards/T/te.md#tetzin-gnome-champion--the-golden-gear-colossus) (19.9% of its decks), [Ultra Magnus, Tactician](../../cards/U/ul.md#ultra-magnus-tactician--ultra-magnus-armored-carrier) (39.8% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bot/1/prowl-stoic-strategist-prowl-pursuit-vehicle) · oracle_id `8dfd9baf-c3cc-4d2f-a0b0-b323b6480562` · printing: BOT #1 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Prudent Fateseer // Peer Review

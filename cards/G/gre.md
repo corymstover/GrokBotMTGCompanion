@@ -125,6 +125,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11542 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2022-02-18* — A Vehicle with haste must still be crewed (or become a creature some other way) before it can attack.
+- **Lore:** ✅ Presented with an official backstory on [The Legends of Kamigawa: Neon Dynasty](https://magic.wizards.com/en/news/feature/legends-kamigawa-neon-dynasty-2022-02-11) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 6,675 decks; highest synergy [Parhelion II](../../cards/P/pa.md#parhelion-ii) (+91%), [Mech Hangar](../../cards/M/me.md#mech-hangar) (+79%), [Skysovereign, Consul Flagship](../../cards/S/sk.md#skysovereign-consul-flagship) (+75%) · EDHREC: in 3,082 decks; most often under [Sydri, Galvanic Genius](../../cards/S/sy.md#sydri-galvanic-genius) (24.8% of its decks), [Breya, Etherium Shaper](../../cards/B/br.md#breya-etherium-shaper) (1.9% of its decks), [Alela, Artful Provocateur](../../cards/A/al.md#alela-artful-provocateur) (2.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/220/greasefang-okiba-boss) · oracle_id `0129ffe2-389f-4e05-8a04-96461bac39a5` · printing: NEO #220 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Greasewrench Goblin
@@ -530,6 +532,8 @@ schema: 2
   - *2026-06-29* — Some cards refer to the "amassed Army." That means the Army creature you chose to receive counters, even if no counters were placed on it for some reason.
   - *2026-06-29* — Some spells and abilities that amass Goblins may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't amass Goblins.
   - *2026-06-29* — To amass Goblins N, if you don't control an Army creature, create a 0/0 black Goblin Army creature token. Then you choose an Army creature you control and put N +1/+1 counters on it. If that Army isn't already a Goblin, it becomes a Goblin in addition to its other types.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Sauron, the Dark Lord (Grixis)](../../grixis/decks/sauron-the-dark-lord.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 288 decks; highest synergy [Bothersome Noisemaker](../../cards/B/bo.md#bothersome-noisemaker) (+82%), [The Great Goblin](../../cards/T/theg.md#the-great-goblin) (+81%), [Misty Mountains Raider](../../cards/M/mis.md#misty-mountains-raider) (+80%) · EDHREC: in 4,453 decks; most often under [The Great Goblin](../../cards/T/theg.md#the-great-goblin) (24.4% of its decks), [Sauron, the Dark Lord](../../cards/S/sau.md#sauron-the-dark-lord) (13.9% of its decks), [Saruman, the White Hand](../../cards/S/sar.md#saruman-the-white-hand) (13.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 decks) → [reverse index](../../references/G.md#great-goblin-foul-hearted)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hoc/105/great-goblin-foul-hearted) · oracle_id `080f504f-20c8-4975-837c-d704e879d7f5` · printing: HOC #105 (2026-08-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -853,6 +857,8 @@ schema: 2
   > *"You're Latulla's gift to me, and I always play with my presents."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24742 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 152 decks; highest synergy [Geth's Grimoire](../../cards/G/ge.md#geths-grimoire) (+60%), [Necrogoyf](../../cards/N/ne.md#necrogoyf) (+60%), [Asylum Visitor](../../cards/A/as.md#asylum-visitor) (+57%) · EDHREC: in 727 decks; most often under [Tinybones, Bauble Burglar](../../cards/T/ti.md#tinybones-bauble-burglar) (0.6% of its decks), [Tinybones, Trinket Thief](../../cards/T/ti.md#tinybones-trinket-thief) (1.3% of its decks), [Damia, Sage of Stone](../../cards/D/da.md#damia-sage-of-stone) (1.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/pcy/66/greel-mind-raker) · oracle_id `2b84a10e-4c5c-407f-8b5b-a23d402f0529` · printing: PCY #66 (2000-06-05) · [rulings](https://api.scryfall.com/cards/e9d1f317-efd1-4595-92e2-44815a2b8147/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Greel's Caress
@@ -976,6 +982,8 @@ schema: 2
 - **Keywords:** Flying, Mayhem, Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18494 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 15 decks; highest synergy [Waste Not](../../cards/W/was.md#waste-not) (+77%), [Geth's Grimoire](../../cards/G/ge.md#geths-grimoire) (+60%), [Raiders' Wake](../../cards/R/rai.md#raiders-wake) (+57%) · EDHREC: in 3,154 decks; most often under [Norman Osborn](../../cards/N/no.md#norman-osborn--green-goblin) (15.1% of its decks), [Doctor Doom, King of Latveria](../../cards/D/do.md#doctor-doom-king-of-latveria) (6.2% of its decks), [Songbird, Sonic Screamer](../../cards/S/so.md#songbird-sonic-screamer) (16.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/657/green-goblin-back-for-more) · oracle_id `622fbc01-9099-4b6c-b2ce-e41247fc7355` · printing: MSC #657 (2026-06-26) · [rulings](https://api.scryfall.com/cards/5a1d3cb7-cd6a-4a81-b2b1-8fb5eeb49595/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Green Goblin, Nemesis
@@ -1296,6 +1304,8 @@ schema: 2
 - **Keywords:** Skulk
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12797 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Gregor, Shrewd Magistrate + Body of Research + Resourceful Defense](https://commanderspellbook.com/combo/648-4153-4975/) (Infinite card draw, Infinite draw triggers) · EDHREC as commander: 835 decks; highest synergy [Duelist's Heritage](../../cards/D/du.md#duelists-heritage) (+54%), [Steel of the Godhead](../../cards/S/ste.md#steel-of-the-godhead) (+52%), [Aqueous Form](../../cards/A/aq.md#aqueous-form) (+43%) · EDHREC: in 7,132 decks; most often under [Jin Sakai, Ghost of Tsushima](../../cards/J/ji.md#jin-sakai-ghost-of-tsushima) (7.7% of its decks), [The Archimandrite](../../cards/T/thea.md#the-archimandrite) (39.3% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (2.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/G.md#gregor-shrewd-magistrate)
 - **Source flags:** [Scryfall](https://scryfall.com/card/slx/21/gregor-shrewd-magistrate) · oracle_id `0b64da77-ca1c-427b-b48b-b919f0fe08e9` · printing: SLX #21 (2023-09-08) · [rulings](https://api.scryfall.com/cards/88818c8b-dfd8-4aa6-b7bb-1c8e67d01c48/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1310,6 +1320,8 @@ schema: 2
 - **Keywords:** Food
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RG05a/grek-the-ogre) · oracle_id `7bcd54d8-8b36-4623-87fc-ff630280fa12` · printing: UNK #RG05a (2023-09-23) · [rulings](https://api.scryfall.com/cards/6af577f7-ae32-4aa6-a810-9c9050ada0de/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Grell Philosopher
@@ -1383,6 +1395,8 @@ schema: 2
 - **Keywords:** Deathtouch, Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16358 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 15 decks; highest synergy [Sword of the Animist](../../cards/S/sw.md#sword-of-the-animist) (+63%), [Vorpal Sword](../../cards/V/vo.md#vorpal-sword) (+50%), [The Master of Lake-town](../../cards/T/them.md#the-master-of-lake-town) (+46%) · EDHREC: in 4,360 decks; most often under [Eddie Brock](../../cards/E/ed.md#eddie-brock--venom-lethal-protector) (7.9% of its decks), [Venom, Deadly Devourer](../../cards/V/ve.md#venom-deadly-devourer) (34.4% of its decks), [Doctor Octopus, Master Planner](../../cards/D/do.md#doctor-octopus-master-planner) (32.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/spe/9/grendel-spawn-of-knull) · oracle_id `a93f0735-9854-487d-b646-d55e2bee00c0` · printing: SPE #9 (2025-09-26) · [rulings](https://api.scryfall.com/cards/5fa7a8dc-67b3-4f96-af6e-98bb0a052d92/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Grenzo, Dungeon Warden
@@ -1398,6 +1412,8 @@ schema: 2
   - *2021-03-19* — Compare Grenzo's power when the ability resolves with the power of the creature card in your graveyard to determine if you put it onto the battlefield. If Grenzo isn't on the battlefield at this time, use its last known power from when it was on the battlefield.
   - *2021-03-19* — If a replacement effect (such as that of Leyline of the Void) causes the card to be put from your library directly into exile, you'll put it onto the battlefield from exile if it's a creature card with appropriate power.
   - *2021-03-19* — If the card is a creature card with power less than or equal to Grenzo's power, it's put onto the battlefield from your graveyard, not from your library. Players can't attempt to exile it from your graveyard in response.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 100+ combos; most popular [Grenzo, Dungeon Warden + The Cauldron of Eternity + Ashnod's Altar](https://commanderspellbook.com/combo/1799-2034-2579/) (Infinite death triggers, Infinite creature ETB) · EDHREC as commander: 5,478 decks; highest synergy [Heartstone](../../cards/H/he.md#heartstone) (+67%), [Barkform Harvester](../../cards/B/bar.md#barkform-harvester) (+62%), [Tomb Trawler](../../cards/T/to.md#tomb-trawler) (+59%) · EDHREC: in 4,737 decks; most often under [Wort, Boggart Auntie](../../cards/W/wo.md#wort-boggart-auntie) (20.8% of its decks), [Alesha, Who Smiles at Death](../../cards/A/al.md#alesha-who-smiles-at-death) (5.9% of its decks), [Grub, Storied Matriarch](../../cards/G/gru.md#grub-storied-matriarch--grub-notorious-auntie) (5.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/a25/205/grenzo-dungeon-warden) · oracle_id `a374f99e-6443-486c-8026-8eba4c7e6ad7` · printing: A25 #205 (2018-03-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Grenzo, Havoc Raiser
@@ -1531,6 +1547,8 @@ schema: 2
   - *2019-08-23* — Greven checks for how much life you lost, not how much your life total has changed. If you lost 4 life but also gained 6 life, you still lost 4 life and Greven gets +4/+0.
   - *2019-08-23* — The sacrificed creature's power and toughness are determined by its last known information before it left the battlefield.
   - *2019-08-23* — You sacrifice a creature (or choose not to), draw cards, and lose life all while Greven's triggered ability is resolving. Nothing can happen in between, and no player may choose to take actions.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 27 combos; most popular [Greven, Predator Captain + Wall of Blood](https://commanderspellbook.com/combo/2749-4567/) (Target opponent loses the game) · EDHREC as commander: 1,286 decks; highest synergy [Wall of Blood](../../cards/W/wal.md#wall-of-blood) (+65%), [Immolating Souleater](../../cards/I/im.md#immolating-souleater) (+61%), [Rush of Vitality](../../cards/R/ru.md#rush-of-vitality) (+57%) · EDHREC: in 3,880 decks; most often under [Rowan, Scion of War](../../cards/R/ro.md#rowan-scion-of-war) (7.9% of its decks), [Anje Falkenrath](../../cards/A/an.md#anje-falkenrath) (4.5% of its decks), [Isshin, Two Heavens as One](../../cards/I/is.md#isshin-two-heavens-as-one) (0.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c19/43/greven-predator-captain) · oracle_id `b22f4797-c74f-4d95-9528-c16c2bc4c05b` · printing: C19 #43 (2019-08-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Grey Havens Navigator

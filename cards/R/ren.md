@@ -543,6 +543,8 @@ schema: 2
 - **Keywords:** Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21162 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 29 decks; highest synergy [Riptide Laboratory](../../cards/R/ri.md#riptide-laboratory) (+56%), [Essence Flux](../../cards/E/es.md#essence-flux) (+50%), [Planar Incision](../../cards/P/pl.md#planar-incision) (+50%) · EDHREC: in 1,845 decks; most often under [Sonic the Hedgehog](../../cards/S/so.md#sonic-the-hedgehog) (1.5% of its decks), [Gandalf, Party Guest](../../cards/G/ga.md#gandalf-party-guest) (1.1% of its decks), [Helga, Skittish Seer](../../cards/H/he.md#helga-skittish-seer) (0.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmt/50/renet-temporal-apprentice) · oracle_id `6c754808-86a6-43d3-8aeb-96ec19f7396c` · printing: TMT #50 (2026-03-06) · [rulings](https://api.scryfall.com/cards/2ae30766-c858-4f4e-a042-14af55698cb2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Renewal
@@ -630,6 +632,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12767 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2025-06-06* — You pay all costs and follow all timing rules for cards played this way. For example, if the exiled card is a land card, you may play it only during your main phase while the stack is empty and only if you have an available land play remaining.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 115 decks; highest synergy [Gonti, Night Minister](../../cards/G/gon.md#gonti-night-minister) (+47%), [Reassembling Skeleton](../../cards/R/rea.md#reassembling-skeleton) (+38%), [Rev, Tithe Extractor](../../cards/R/rev.md#rev-tithe-extractor) (+37%) · EDHREC: in 7,998 decks; most often under [Sephiroth, Fabled SOLDIER](../../cards/S/sep.md#sephiroth-fabled-soldier--sephiroth-one-winged-angel) (2.5% of its decks), [Altaïr Ibn-La'Ahad](../../cards/A/al.md#altaïr-ibn-laahad) (15.6% of its decks), [Etrata, Deadly Fugitive](../../cards/E/et.md#etrata-deadly-fugitive) (19.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/113/reno-and-rude) · oracle_id `f749a6d6-2c55-439f-bb02-e95fa54c2ef3` · printing: FIN #113 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Renounce

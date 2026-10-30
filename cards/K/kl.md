@@ -72,6 +72,8 @@ schema: 2
 - **Keywords:** Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16612 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 8 decks; highest synergy [Black Widow, Super Spy](../../cards/B/bla.md#black-widow-super-spy) (+99%), [Cunning Rhetoric](../../cards/C/cu.md#cunning-rhetoric) (+73%), [Gonti, Night Minister](../../cards/G/gon.md#gonti-night-minister) (+72%) · EDHREC: in 4,399 decks; most often under [Doctor Doom, King of Latveria](../../cards/D/do.md#doctor-doom-king-of-latveria) (16.7% of its decks), [Loki, the Deceiver](../../cards/L/lo.md#loki-the-deceiver) (15.6% of its decks), [Gonti, Canny Acquisitor](../../cards/G/gon.md#gonti-canny-acquisitor) (8.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/46/klaw-master-of-sound) · oracle_id `8eaa8833-ab9e-4bd8-92de-63e195b8d912` · printing: MSC #46 (2026-06-26) · [rulings](https://api.scryfall.com/cards/5c589d94-7cea-4d4c-91a8-4d939634a5e5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Klaw, Sonic Subjugator
@@ -86,6 +88,8 @@ schema: 2
 - **Keywords:** Sonic Attack
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24532 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 4 decks; highest synergy [Snow-Covered Swamp](../../cards/S/sn.md#snow-covered-swamp) (+69%), [Horrifying Revelation](../../cards/H/ho.md#horrifying-revelation) (+50%), [Keening Stone](../../cards/K/ke.md#keening-stone) (+50%) · EDHREC: in 968 decks; most often under [Madame Hydra](../../cards/M/mad.md#madame-hydra) (23.3% of its decks), [Thanos, the Mad Titan](../../cards/T/tha.md#thanos-the-mad-titan) (2.0% of its decks), [Loki, the Deceiver](../../cards/L/lo.md#loki-the-deceiver) (2.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/103/klaw-sonic-subjugator) · oracle_id `1c233e08-d5a3-48d7-9074-20393896a480` · printing: MSH #103 (2026-06-26) · [rulings](https://api.scryfall.com/cards/c79a86f8-24e9-49a2-8b1c-72a72fed1985/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Klingon Strike Force

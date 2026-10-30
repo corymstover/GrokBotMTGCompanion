@@ -58,6 +58,8 @@ schema: 2
   > Whenever another legendary creature or creature with mana value one enters the battlefield under your control, put a +1/+1 counter on Isamaru and Yoshimaru.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RW02b/isamaru-and-yoshimaru) · oracle_id `c22cb20a-f280-4e47-9556-ca8b465f9b17` · printing: UNK #RW02b (2023-05-06) · [rulings](https://api.scryfall.com/cards/32e7bc06-504b-467c-9bff-51cc77f68c75/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Isamaru, Hound of Konda
@@ -90,6 +92,8 @@ schema: 2
 - **Keywords:** Bushido, Regenerate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23244 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 213 decks; highest synergy [Blanchwood Armor](../../cards/B/bla.md#blanchwood-armor) (+63%), [Rancor](../../cards/R/ran.md#rancor) (+62%), [Snake Umbra](../../cards/S/sn.md#snake-umbra) (+62%) · EDHREC: in 997 decks; most often under [Kosei, Penitent Warlord](../../cards/K/ko.md#kosei-penitent-warlord) (13.2% of its decks), [Chishiro, the Shattered Blade](../../cards/C/chi.md#chishiro-the-shattered-blade) (1.1% of its decks), [Saskia the Unyielding](../../cards/S/sas.md#saskia-the-unyielding) (0.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bok/129/isao-enlightened-bushi) · oracle_id `15ec1bfc-b0a0-4058-87bb-8dbaf17b7f3b` · printing: BOK #129 (2005-02-04) · [rulings](https://api.scryfall.com/cards/90334b59-73d8-4459-af59-d7a0539e2cc5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Isareth the Awakener
@@ -109,6 +113,8 @@ schema: 2
   - *2018-07-13* — If a card in your graveyard has {X} in its mana cost, X is considered to be 0.
   - *2018-07-13* — If you somehow remove a corpse counter from a creature Isareth has returned to the battlefield, the replacement effect that will exile it continues to apply. The counter is only to help remind you which creatures will be exiled if they would leave the battlefield.
   - *2018-07-13* — Isareth's triggered ability goes on the stack without a target. While that ability is resolving, you may pay {X}. When you do, a second ability triggers and you pick a target creature card to return. This is different from abilities that say "If you do . . ." in that players may cast spells and activate abilities after mana is paid and the target creature card is chosen, but before that card is returned.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 120 decks; highest synergy [Buried Alive](../../cards/B/bu.md#buried-alive) (+35%), [Liliana, Death's Majesty](../../cards/L/li.md#liliana-deaths-majesty) (+35%), [Archfiend's Vessel](../../cards/A/arc.md#archfiends-vessel) (+30%) · EDHREC: in 5,499 decks; most often under [Aveline de Grandpré](../../cards/A/av.md#aveline-de-grandpré) (18.8% of its decks), [Nalia de'Arnise](../../cards/N/na.md#nalia-dearnise) (8.6% of its decks), [The Serpent Society](../../cards/T/thes.md#the-serpent-society) (3.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/168/isareth-the-awakener) · oracle_id `7af0e2da-9163-42d9-bf69-439cc61cd28d` · printing: CMM #168 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Isengard Unleashed
@@ -203,6 +209,8 @@ schema: 2
   > *—Cave inscription*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30429 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 31 decks; highest synergy [Goblin Cratermaker](../../cards/G/gob.md#goblin-cratermaker) (+33%), [Gamble](../../cards/G/ga.md#gamble) (+30%), [Knowledge Pool](../../cards/K/kn.md#knowledge-pool) (+29%) · EDHREC: in 155 decks; most often under [Krenko, Mob Boss](../../cards/K/kr.md#krenko-mob-boss) (0.1% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.0% of its decks), [Morophon, the Boundless](../../cards/M/mor.md#morophon-the-boundless) (0.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bok/110/ishi-ishi-akki-crackshot) · oracle_id `30265fce-28e6-4994-83f7-0e4c4b22df35` · printing: BOK #110 (2005-02-04) · [rulings](https://api.scryfall.com/cards/8e94fec2-dc56-4961-ba80-b9c904a345ab/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ishkanah, Grafwidow
@@ -465,6 +473,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18696 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2006-05-01* — The card is named when the ability resolves. The named card can't be played after it's named but before the player's hand is revealed.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 747 decks; highest synergy [Telepathy](../../cards/T/te.md#telepathy) (+72%), [Glasses of Urza](../../cards/G/gl.md#glasses-of-urza) (+70%), [Watcher of the Spheres](../../cards/W/wat.md#watcher-of-the-spheres) (+65%) · EDHREC: in 2,249 decks; most often under [Yennett, Cryptic Sovereign](../../cards/Y/ye.md#yennett-cryptic-sovereign) (4.7% of its decks), [The Celestial Toymaker](../../cards/T/thec.md#the-celestial-toymaker) (5.8% of its decks), [Grand Arbiter Augustin IV](../../cards/G/gra.md#grand-arbiter-augustin-iv) (0.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dis/114/isperia-the-inscrutable) · oracle_id `7aa39b85-6646-4365-99c3-9de31ab0594f` · printing: DIS #114 (2006-05-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Isshin, Two Heavens as One
@@ -498,6 +508,8 @@ schema: 2
   > *No beast in Terisiare is more frightening than the man who haunts its woods.*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #26053 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 383 decks; highest synergy [Basilisk Collar](../../cards/B/bas.md#basilisk-collar) (+64%), [Haunted Cloak](../../cards/H/ha.md#haunted-cloak) (+56%), [Tarrian's Soulcleaver](../../cards/T/ta.md#tarrians-soulcleaver) (+56%) · EDHREC: in 339 decks; most often under [Thantis, the Warweaver](../../cards/T/tha.md#thantis-the-warweaver) (4.0% of its decks), [Massacre Girl, Known Killer](../../cards/M/mas.md#massacre-girl-known-killer) (3.2% of its decks), [Massacre Girl](../../cards/M/mas.md#massacre-girl) (2.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbc/14/istvan-butcher-of-eln) · oracle_id `5e277de5-793a-4364-923a-a55b53c0fa85` · printing: MBC #14 (2026-10-19) · [rulings](https://api.scryfall.com/cards/b30b1577-6b04-4ab5-92bc-ab54fdd5a621/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Isu the Abominable
@@ -513,4 +525,6 @@ schema: 2
 - **Rulings** (2):
   - *2022-12-02* — The top card of your library is still in your library and not in your hand. You can't discard cards from the top of your library or activate abilities of cards on top of your library that normally work in your hand.
   - *2022-12-02* — You must pay all costs and follow all timing rules for cards played from the top of your library this way. For example, you may play a snow land this way only while the stack is empty during one of your own main phases, and only if you haven't played a land yet this turn.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 2,757 decks; highest synergy [Marit Lage's Slumber](../../cards/M/mar.md#marit-lages-slumber) (+95%), [Snow-Covered Island](../../cards/S/sn.md#snow-covered-island) (+95%), [Snow-Covered Forest](../../cards/S/sn.md#snow-covered-forest) (+94%) · EDHREC: in 432 decks; most often under [Esika, God of the Tree](../../cards/E/es.md#esika-god-of-the-tree--the-prismatic-bridge) (0.3% of its decks), [Kenrith, the Returned King](../../cards/K/ke.md#kenrith-the-returned-king) (0.2% of its decks), [Atraxa, Grand Unifier](../../cards/A/at.md#atraxa-grand-unifier) (0.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/j22/12/isu-the-abominable) · oracle_id `b34823a3-7bee-4e71-a3df-9b533c8ddf15` · printing: J22 #12 (2022-12-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

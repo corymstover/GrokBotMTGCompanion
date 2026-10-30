@@ -579,6 +579,8 @@ schema: 2
 - **Rulings** (2):
   - *2026-01-27* — Savanti Romero's last ability counts all counters on Savanti Romero, not just +1/+1 counters.
   - *2026-01-27* — The value of X is calculated only once, as Savanti Romero's last ability resolves.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 110 decks; highest synergy [Basilisk Collar](../../cards/B/bas.md#basilisk-collar) (+51%), [Eternal Thirst](../../cards/E/et.md#eternal-thirst) (+48%), [Duskfang Mentor](../../cards/D/du.md#duskfang-mentor) (+46%) · EDHREC: in 6,527 decks; most often under [Betor, Ancestor's Voice](../../cards/B/be.md#betor-ancestors-voice) (8.7% of its decks), [Madame Null, Power Broker](../../cards/M/mad.md#madame-null-power-broker) (53.9% of its decks), [Be'lakor, the Dark Master](../../cards/B/be.md#belakor-the-dark-master) (4.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmt/72/savanti-romero-times-exile) · oracle_id `6074632b-4520-4ae8-bcdc-26b1eff71af9` · printing: TMT #72 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Saved by the Shell

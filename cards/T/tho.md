@@ -309,6 +309,8 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13278 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 14 decks; highest synergy [Lightning Bolt](../../cards/L/li.md#lightning-bolt) (+50%), [Origin of Thor](../../cards/O/or.md#origin-of-thor) (+49%), [Hawkeye, Young Avenger](../../cards/H/ha.md#hawkeye-young-avenger) (+46%) · EDHREC: in 7,883 decks; most often under [Captain America, Team Leader](../../cards/C/cap.md#captain-america-team-leader) (43.7% of its decks), [Thor, God of Thunder](../../cards/T/tho.md#thor-god-of-thunder) (32.7% of its decks), [Atreus, Impulsive Son // Kratos, Stoic Father](../../cards/A/at.md#atreus-impulsive-son) (9.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/756/thor-asgards-avenger) · oracle_id `44c2fefb-5de3-4406-955a-3fabc46357d0` · printing: MSC #756 (2026-06-26) · [rulings](https://api.scryfall.com/cards/3513c041-7147-467d-845d-3d1c83fb3328/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thor, God of Thunder
@@ -339,6 +341,8 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16674 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 172 decks; highest synergy [Coruscation Mage](../../cards/C/cor.md#coruscation-mage) (+72%), [Boltwave](../../cards/B/bo.md#boltwave) (+69%), [Birgi, God of Storytelling](../../cards/B/bi.md#birgi-god-of-storytelling--harnfel-horn-of-bounty) (+66%) · EDHREC: in 4,315 decks; most often under [Vivi Ornitier](../../cards/V/vi.md#vivi-ornitier) (5.5% of its decks), [Thor, God of Thunder](../../cards/T/tho.md#thor-god-of-thunder) (37.3% of its decks), [Atreus, Impulsive Son // Kratos, Stoic Father](../../cards/A/at.md#atreus-impulsive-son) (4.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/503/thor-guardian-of-midgard) · oracle_id `74acdcbc-5185-422a-a236-0a126edd2eee` · printing: MSC #503 (2026-06-26) · [rulings](https://api.scryfall.com/cards/36a1069a-5282-42cf-809f-9cf273a1148c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thorin, Company's Leader
@@ -353,6 +357,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13299 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2026-06-29* — If multiple Dwarves you control deal combat damage to players and/or battles at the same time, Thorin's first ability will trigger once for each of those Dwarves.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 4 combos; most popular [Thorin, Company's Leader + Aggravated Assault](https://commanderspellbook.com/combo/3750-7903/) (Infinite Treasure tokens, Infinite colored mana) · EDHREC as commander: 26 decks; highest synergy [Magda, Brazen Outlaw](../../cards/M/mag.md#magda-brazen-outlaw) (+92%), [Fíli and Kíli, Joyous](../../cards/F/fi.md#fíli-and-kíli-joyous) (+82%), [Gimli of the Glittering Caves](../../cards/G/gi.md#gimli-of-the-glittering-caves) (+79%) · EDHREC: in 7,794 decks; most often under [Thorin, King of Durin's Folk](../../cards/T/tho.md#thorin-king-of-durins-folk) (50.9% of its decks), [Dáin of the Ancient Halls](../../cards/D/da.md#dáin-of-the-ancient-halls) (68.0% of its decks), [Magda, Brazen Outlaw](../../cards/M/mag.md#magda-brazen-outlaw) (9.9% of its decks) — *Guidance (Oracle pattern)* — packages: [Treasure: Repeatable Treasure makers](../../EDH%20Packages.md#treasure-repeatable-treasure-makers) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hoc/100/thorin-companys-leader) · oracle_id `7926b4c1-9a93-4193-ae6f-e75bbcd762ec` · printing: HOC #100 (2026-08-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thorin, King of Durin's Folk
@@ -366,6 +372,8 @@ schema: 2
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10370 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 60 combos; most popular [Thorin, King of Durin's Folk + Cloudstone Curio + Bloodfire Dwarf + Dwarven Grunt](https://commanderspellbook.com/combo/2232-7827-7828-7831/) (Infinite creature ETB, Infinite creature LTB) · EDHREC as commander: 8,508 decks; highest synergy [Fíli the Pathfinder](../../cards/F/fi.md#fíli-the-pathfinder) (+78%), [Bifur, Melodic Rider](../../cards/B/bi.md#bifur-melodic-rider) (+77%), [Thorin Oakenshield](../../cards/T/tho.md#thorin-oakenshield) (+77%) · EDHREC: in 4,204 decks; most often under [Dáin of the Ancient Halls](../../cards/D/da.md#dáin-of-the-ancient-halls) (86.9% of its decks), [Thorin Oakenshield](../../cards/T/tho.md#thorin-oakenshield) (44.1% of its decks), [Dwalin, Weaponmaster](../../cards/D/dw.md#dwalin-weaponmaster) (22.1% of its decks) — *Guidance (Oracle pattern)* — packages: [Treasure: Repeatable Treasure makers](../../EDH%20Packages.md#treasure-repeatable-treasure-makers) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hoc/3/thorin-king-of-durins-folk) · oracle_id `6aabead3-3c81-40b8-8a8d-8f817094d84d` · printing: HOC #3 (2026-08-14) · [rulings](https://api.scryfall.com/cards/773813a8-723f-4c26-9e0a-a01b2faada98/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thorin, Mountain-king
@@ -381,6 +389,8 @@ schema: 2
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9703 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 25 combos; most popular [Thorin, Mountain-king + Raphael, Ninja Destroyer + Nim Deathmantle + Ashnod's Altar](https://commanderspellbook.com/combo/2034-5003-7283-7649/) (Infinite creature ETB, Infinite creature LTB) · EDHREC as commander: 414 decks; highest synergy [Colossus Hammer](../../cards/C/col.md#colossus-hammer) (+85%), [The Lonely Mountain](../../cards/T/thel.md#the-lonely-mountain) (+66%), [Blackblade Reforged](../../cards/B/bla.md#blackblade-reforged) (+56%) · EDHREC: in 13,827 decks; most often under [Thorin, King of Durin's Folk](../../cards/T/tho.md#thorin-king-of-durins-folk) (69.9% of its decks), [Dáin of the Ancient Halls](../../cards/D/da.md#dáin-of-the-ancient-halls) (73.8% of its decks), [Dwalin, Weaponmaster](../../cards/D/dw.md#dwalin-weaponmaster) (53.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hob/114/thorin-mountain-king) · oracle_id `94917b80-ac32-45ab-b4ee-157ade024bcd` · printing: HOB #114 (2026-08-14) · [rulings](https://api.scryfall.com/cards/117347af-0dd7-4350-901d-8c8a81387e22/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thorin Oakenshield
@@ -895,6 +905,8 @@ schema: 2
 - **Keywords:** Flying, Prowess, Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14845 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 947 decks; highest synergy [Mjölnir, Hammer of Thor](../../cards/M/mj.md#mjölnir-hammer-of-thor) (+58%), [Bulk Up](../../cards/B/bu.md#bulk-up) (+49%), [Temur Battle Rage](../../cards/T/te.md#temur-battle-rage) (+49%) · EDHREC: in 4,978 decks; most often under [Atreus, Impulsive Son // Kratos, Stoic Father](../../cards/A/at.md#atreus-impulsive-son) (15.3% of its decks), [Nick Fury, Agent of S.H.I.E.L.D.](../../cards/N/ni.md#nick-fury-agent-of-shield) (11.3% of its decks), [Daredevil, Man Without Fear](../../cards/D/da.md#daredevil-man-without-fear) (38.6% of its decks) — *Guidance (Oracle pattern)* — packages: [Spellslinger: Cast-trigger payoffs](../../EDH%20Packages.md#spellslinger-cast-trigger-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/234/thor-odinson) · oracle_id `ec9b74d0-e4fe-4764-b628-992a62f2a1cf` · printing: MSH #234 (2026-06-26) · [rulings](https://api.scryfall.com/cards/0e06f730-ae30-4ef2-88b1-073e02afdb25/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thorough Investigation

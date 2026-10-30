@@ -2172,6 +2172,8 @@ schema: 2
   - *2025-10-02* — If Hei Bai has -1/-1 counters on him when he leaves the battlefield, that ability will include those as well. This may result in the recipient of the counters dying.
   - *2025-10-02* — If enough -1/-1 counters are put on Hei Bai at the same time to make his toughness 0 or less, his last ability will see all of the +1/+1 counters he had when he left the battlefield as well as the -1/-1 counters he had, and an equal number of each of those types of counters (plus any other applicable counters) will be put onto the target creature.
   - *2025-10-02* — In some cases, you may end up putting the appropriate counters on more than one permanent. For example, if you control a Buzzard-Wasp Colony when Hei Bai dies, you'll put the appropriate number of each kind of counter onto both the Buzzard-Wasp Colony and the target creature. If you target Buzzard-Wasp Colony with Hei Bai's last ability, it will receive counters from both abilities.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 804 decks; highest synergy [Tolls of War](../../cards/T/to.md#tolls-of-war) (+47%), [Sandbender Scavengers](../../cards/S/san.md#sandbender-scavengers) (+41%), [Pirate Peddlers](../../cards/P/pi.md#pirate-peddlers) (+38%) · EDHREC: in 3,408 decks; most often under [Ardbert, Warrior of Darkness](../../cards/A/ard.md#ardbert-warrior-of-darkness) (5.7% of its decks), [Fire Lord Zuko](../../cards/F/fi.md#fire-lord-zuko) (2.3% of its decks), [Avatar Aang](../../cards/A/av.md#avatar-aang--aang-master-of-elements) (1.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/225/hei-bai-spirit-of-balance) · oracle_id `8f709660-bb26-409f-9650-e5228ac8db7e` · printing: TLA #225 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Heidar, Rimewind Master
@@ -2185,6 +2187,8 @@ schema: 2
   > *"The umber stain of the Thaw will be bleached away. Once again the world will be sharp, white, perfect!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16885 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 15 combos; most popular [Heidar, Rimewind Master + Stasis](https://commanderspellbook.com/combo/1025-4782/) (Mass Land Denial, Lock) · EDHREC as commander: 96 decks; highest synergy [Snow-Covered Island](../../cards/S/sn.md#snow-covered-island) (+91%), [Marit Lage's Slumber](../../cards/M/mar.md#marit-lages-slumber) (+71%), [Rimewind Taskmage](../../cards/R/ri.md#rimewind-taskmage) (+70%) · EDHREC: in 3,847 decks; most often under [Jorn, God of Winter](../../cards/J/jo.md#jorn-god-of-winter--kaldring-the-rimestaff) (35.9% of its decks), [Isu the Abominable](../../cards/I/is.md#isu-the-abominable) (35.3% of its decks), [Narfi, Betrayer King](../../cards/N/na.md#narfi-betrayer-king) (4.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/csp/36/heidar-rimewind-master) · oracle_id `58ac4cce-506e-4d6e-a19c-0e875fbfcd81` · printing: CSP #36 (2006-07-21) · [rulings](https://api.scryfall.com/cards/39916d65-60a6-4da6-8675-8a8ef9505772/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Heidegger, Shinra Executive
@@ -2198,6 +2202,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12085 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2025-06-06* — The value of X is calculated only once, as Heidegger's first ability resolves.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 151 decks; highest synergy [SOLDIER Military Program](../../cards/S/so.md#soldier-military-program) (+77%), [Captain of the Watch](../../cards/C/cap.md#captain-of-the-watch) (+67%), [Valiant Veteran](../../cards/V/va.md#valiant-veteran) (+64%) · EDHREC: in 8,935 decks; most often under [Cloud, Ex-SOLDIER](../../cards/C/cl.md#cloud-ex-soldier) (11.7% of its decks), [Commander Mustard](../../cards/C/com.md#commander-mustard) (24.4% of its decks), [Myrel, Shield of Argive](../../cards/M/my.md#myrel-shield-of-argive) (8.4% of its decks) — *Guidance (Oracle pattern)* — packages: [Aristocrats: Fodder makers (multiple creature tokens)](../../EDH%20Packages.md#aristocrats-fodder-makers-multiple-creature-tokens) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fic/21/heidegger-shinra-executive) · oracle_id `215024ba-811e-4011-bbc8-8dd14a34f973` · printing: FIC #21 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Heightened Awareness
@@ -2241,6 +2247,8 @@ schema: 2
 - **Rulings** (2):
   - *2022-02-18* — A creature attacks alone if it's the only creature declared as an attacker during the declare attackers step. For example, Heiko Yamazaki's triggered ability won't trigger if you attack with multiple creatures and all but one of them are removed from combat.
   - *2022-02-18* — You must still pay all costs and follow all normal timing rules when casting an artifact from your graveyard this way. Normally, this means you will not be able to cast that card until your post-combat main phase.
+- **Lore:** ✅ Presented with an official backstory on [The Legends of Kamigawa: Neon Dynasty](https://magic.wizards.com/en/news/feature/legends-kamigawa-neon-dynasty-2022-02-11) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Tetsuo, Imperial Champion (Grixis)](../../grixis/decks/tetsuo-imperial-champion.md) · Commander Spellbook: 1 combo; most popular [Heiko Yamazaki, the General + Coretapper + Magistrate's Scepter](https://commanderspellbook.com/combo/3186-3492-3609/) (Infinite turns, Lock) · EDHREC as commander: 201 decks; highest synergy [Akki Ronin](../../cards/A/ak.md#akki-ronin) (+72%), [Peerless Samurai](../../cards/P/pe.md#peerless-samurai) (+71%), [Foundry Inspector](../../cards/F/fo.md#foundry-inspector) (+55%) · EDHREC: in 12,508 decks; most often under [Isshin, Two Heavens as One](../../cards/I/is.md#isshin-two-heavens-as-one) (12.0% of its decks), [Raiyuu, Storm's Edge](../../cards/R/rai.md#raiyuu-storms-edge) (74.7% of its decks), [Tetsuo, Imperial Champion](../../cards/T/te.md#tetsuo-imperial-champion) (50.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/H.md#heiko-yamazaki-the-general)
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/146/heiko-yamazaki-the-general) · oracle_id `a4d67f2d-6b0f-4feb-bf7d-90ab4f2e46ab` · printing: NEO #146 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2405,6 +2413,8 @@ schema: 2
   > Search your library for a card, put it into your hand or graveyard, then shuffle. You lose 3 life.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #30951 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 87 decks; highest synergy [Death Baron](../../cards/D/dea.md#death-baron) (+55%), [Endless Ranks of the Dead](../../cards/E/en.md#endless-ranks-of-the-dead) (+48%), [Shepherd of Rot](../../cards/S/she.md#shepherd-of-rot) (+48%) · EDHREC: in 372 decks; most often under [The Scarab God](../../cards/T/thes.md#the-scarab-god) (2.1% of its decks), [Varina, Lich Queen](../../cards/V/va.md#varina-lich-queen) (1.3% of its decks), [Loki, the Deceiver](../../cards/L/lo.md#loki-the-deceiver) (5.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/H.md#hela-mistress-of-darkness--dark-tutor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mdd/106/hela-mistress-of-darkness-dark-tutor) · oracle_id `203f6f4a-1cf5-4ddc-b60f-676832eeff6b` · printing: MDD #106 (2027-04-09) · [rulings](https://api.scryfall.com/cards/7750d4bb-0463-43fd-bdf3-a14271cace20/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2793,6 +2803,8 @@ schema: 2
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22413 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 14 decks; highest synergy [Hunter's Bow](../../cards/H/hu.md#hunters-bow) (+63%), [Armory of Iroas](../../cards/A/arm.md#armory-of-iroas) (+57%), [Kami of Whispered Hopes](../../cards/K/ka.md#kami-of-whispered-hopes) (+50%) · EDHREC: in 1,473 decks; most often under [Jennifer Walters](../../cards/J/je.md#jennifer-walters--the-sensational-she-hulk) (9.0% of its decks), [Nick Fury, Agent of S.H.I.E.L.D.](../../cards/N/ni.md#nick-fury-agent-of-shield) (1.6% of its decks), [Bruce Banner](../../cards/B/br.md#bruce-banner--the-incredible-hulk) (1.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/H.md#hellcat-undying-vigilante)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/170/hellcat-undying-vigilante) · oracle_id `4c27ba61-6812-4dd7-8efc-65435a8df7b5` · printing: MSH #170 (2026-06-26) · [rulings](https://api.scryfall.com/cards/d7922c5f-d6ee-4b62-a537-3be5aa280e10/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -3390,6 +3402,8 @@ schema: 2
   > Whenever Helmut Zemo attacks, you may cast target instant or sorcery card with mana value less than or equal to his power from your graveyard. If that spell would be put into your graveyard, exile it instead. If you cast a spell this way, put a +1/+1 counter on Helmut Zemo.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17603 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 27 decks; highest synergy [Consider](../../cards/C/con.md#consider) (+66%), [Thunderclap Drake](../../cards/T/thu.md#thunderclap-drake) (+66%), [Enter the Enigma](../../cards/E/en.md#enter-the-enigma) (+64%) · EDHREC: in 3,625 decks; most often under [Doctor Doom, King of Latveria](../../cards/D/do.md#doctor-doom-king-of-latveria) (21.2% of its decks), [Loki, the Deceiver](../../cards/L/lo.md#loki-the-deceiver) (14.6% of its decks), [Norman Osborn](../../cards/N/no.md#norman-osborn--green-goblin) (3.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/32/helmut-zemo-mastermind) · oracle_id `657c5473-f153-4dd2-94a0-d477cbc2451d` · printing: MSC #32 (2026-06-26) · [rulings](https://api.scryfall.com/cards/545f7f8d-f6a3-4e85-a53c-3eb9b28ebd14/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Helpful Hunter
@@ -3627,6 +3641,8 @@ schema: 2
   - *2023-11-10* — You can sacrifice the creature with exploit if it's still on the battlefield.
   - *2023-11-10* — You can't sacrifice more than one creature to any one exploit ability.
   - *2023-11-10* — You choose whether to sacrifice a creature and which creature to sacrifice as the exploit ability resolves.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 4 combos; most popular [Henry Wu, InGen Geneticist + Chatterfang, Squirrel General + Nadir Kraken + Artificial Evolution + Druid's Familiar](https://commanderspellbook.com/combo/105-1722-2444-3000-3297/) (Infinite card draw, Near-infinite +1/+1 counters on a creature) · EDHREC as commander: 1,499 decks; highest synergy [Pitiless Plunderer](../../cards/P/pi.md#pitiless-plunderer) (+68%), [Zulaport Cutthroat](../../cards/Z/zu.md#zulaport-cutthroat) (+59%), [Honest Rutstein](../../cards/H/ho.md#honest-rutstein) (+57%) · EDHREC: in 506 decks; most often under [Morophon, the Boundless](../../cards/M/mor.md#morophon-the-boundless) (0.8% of its decks), [Esika, God of the Tree](../../cards/E/es.md#esika-god-of-the-tree--the-prismatic-bridge) (0.2% of its decks), [Indominus Rex, Alpha](../../cards/I/ind.md#indominus-rex-alpha) (0.7% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/H.md#henry-wu-ingen-geneticist)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rex/12/henry-wu-ingen-geneticist) · oracle_id `d94a792f-a48b-4181-b656-86fe452a4875` · printing: REX #12 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -4130,6 +4146,8 @@ schema: 2
 - **Keywords:** Flying, Surveil
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10491 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 147 decks; highest synergy [Ring of the Lucii](../../cards/R/ri.md#ring-of-the-lucii) (+64%), [Sisay's Ring](../../cards/S/si.md#sisays-ring) (+58%), [Ichor Elixir](../../cards/I/ic.md#ichor-elixir) (+57%) · EDHREC: in 12,823 decks; most often under [Mister Fantastic](../../cards/M/mis.md#mister-fantastic) (53.0% of its decks), [Invisible Woman](../../cards/I/inv.md#invisible-woman) (44.0% of its decks), [Arcum Dagsson](../../cards/A/arc.md#arcum-dagsson) (28.0% of its decks) — *Guidance (Oracle pattern)* — packages: [Ramp: Mana creatures (MV ≤ 2)](../../EDH%20Packages.md#ramp-mana-creatures-mv--2) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/106/herbie-lovable-robot) · oracle_id `064a2f4a-ff3f-4622-8727-24b22965416d` · printing: MSC #106 (2026-06-26) · [rulings](https://api.scryfall.com/cards/5e2f9f4c-dbdd-4da6-b08f-1f4d3fcb1328/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### H.E.R.B.I.E. Scout Unit
@@ -4177,6 +4195,8 @@ schema: 2
   > Whenever Hercules is dealt damage for the first time each turn, put that many +1/+1 counters on him. (He must survive the damage to get the counters.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15135 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 67 decks; highest synergy [Selfless Samurai](../../cards/S/sel.md#selfless-samurai) (+42%), [Steelshaper's Gift](../../cards/S/ste.md#steelshapers-gift) (+41%), [Bastion Protector](../../cards/B/bas.md#bastion-protector) (+40%) · EDHREC: in 5,604 decks; most often under [Captain America, Team Leader](../../cards/C/cap.md#captain-america-team-leader) (46.6% of its decks), [Jennifer Walters](../../cards/J/je.md#jennifer-walters--the-sensational-she-hulk) (41.1% of its decks), [Nick Fury, Agent of S.H.I.E.L.D.](../../cards/N/ni.md#nick-fury-agent-of-shield) (6.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/16/hercules-olympian-hero) · oracle_id `ee3dfdb2-07ef-4ce2-9806-0a5b7f19aa67` · printing: MSC #16 (2026-06-26) · [rulings](https://api.scryfall.com/cards/77be0e26-90db-41a5-97c2-43cf6ef87ab0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hercules, Prince of Power
@@ -4191,6 +4211,8 @@ schema: 2
 - **Keywords:** Power-up
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23517 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 5 decks; highest synergy [Bristly Bill, Spine Sower](../../cards/B/br.md#bristly-bill-spine-sower) (+71%), [Oracle of Mul Daya](../../cards/O/or.md#oracle-of-mul-daya) (+65%), [Bushmaster, Coiled Henchman](../../cards/B/bu.md#bushmaster-coiled-henchman) (+59%) · EDHREC: in 1,186 decks; most often under [Hulk, Gamma Goliath](../../cards/H/hu.md#hulk-gamma-goliath) (72.6% of its decks), [Bruce Banner](../../cards/B/br.md#bruce-banner--the-incredible-hulk) (1.9% of its decks), [Nick Fury, Agent of S.H.I.E.L.D.](../../cards/N/ni.md#nick-fury-agent-of-shield) (1.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/H.md#hercules-prince-of-power)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/171/hercules-prince-of-power) · oracle_id `c3a8cc79-3771-484d-84dd-1a97f8bd12c2` · printing: MSH #171 (2026-06-26) · [rulings](https://api.scryfall.com/cards/d610d9fe-f8ae-473f-9325-e2f28f7e8a69/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -5178,6 +5200,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18327 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2013-04-15* — If you cast this as normal during your main phase, it will enter the battlefield and you’ll receive priority. If no abilities trigger because of this, you can activate its ability immediately, before any other player has a chance to remove it from the battlefield.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 181 decks; highest synergy [Thief of Hope](../../cards/T/thi.md#thief-of-hope) (+84%), [Infernal Kirin](../../cards/I/inf.md#infernal-kirin) (+77%), [Junji, the Midnight Sky](../../cards/J/ju.md#junji-the-midnight-sky) (+74%) · EDHREC: in 2,858 decks; most often under [Iname, Death Aspect](../../cards/I/ina.md#iname-death-aspect) (73.6% of its decks), [King of the Oathbreakers](../../cards/K/ki.md#king-of-the-oathbreakers) (14.4% of its decks), [Iname as One](../../cards/I/ina.md#iname-as-one) (48.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 rules) → [reverse index](../../references/H.md#he-who-hungers)
 - **Source flags:** [Scryfall](https://scryfall.com/card/chk/114/he-who-hungers) · oracle_id `5449bf36-e26c-4f76-bcae-944c70d184f8` · printing: CHK #114 (2004-10-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

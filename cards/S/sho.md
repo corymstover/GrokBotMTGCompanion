@@ -153,6 +153,8 @@ schema: 2
 - **Keywords:** Vibro-Shock Gauntlets
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17977 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 50 decks; highest synergy [Shock](../../cards/S/sho.md#shock) (+74%), [Conjurer's Closet](../../cards/C/con.md#conjurers-closet) (+62%), [Delina, Wild Mage](../../cards/D/del.md#delina-wild-mage) (+56%) · EDHREC: in 3,223 decks; most often under [Norman Osborn](../../cards/N/no.md#norman-osborn--green-goblin) (4.7% of its decks), [Eddie Brock](../../cards/E/ed.md#eddie-brock--venom-lethal-protector) (4.1% of its decks), [Cosmic Spider-Man](../../cards/C/cos.md#cosmic-spider-man) (0.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/spm/89/shocker-unshakable) · oracle_id `564dac59-97f7-4988-9f30-d82a891e29ef` · printing: SPM #89 (2025-09-26) · [rulings](https://api.scryfall.com/cards/8b2c0d9a-364a-4823-aa4c-fe473d4463f0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shocking Grasp

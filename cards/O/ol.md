@@ -71,6 +71,8 @@ schema: 2
   > At the beginning of your end step, each opponent loses life equal to the number of tapped Cats and/or Zombies you control.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #22619 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 28 combos; most popular [Olag and Miau, New Friends + Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight + Carrion Feeder](https://commanderspellbook.com/combo/2438-6972-8329--225/) (Infinite +1/+1 counters on a creature, Infinite +1/+1 counters on certain creatures) · EDHREC as commander: 1,499 decks; highest synergy [Arahbo, the First Fang](../../cards/A/ara.md#arahbo-the-first-fang) (+83%), [Regal Caracal](../../cards/R/reg.md#regal-caracal) (+80%), [God-Eternal Oketra](../../cards/G/god.md#god-eternal-oketra) (+74%) · EDHREC: in 41 decks; most often under [Morophon, the Boundless](../../cards/M/mor.md#morophon-the-boundless) (0.2% of its decks), [The Necrobloom](../../cards/T/then.md#the-necrobloom) (0.1% of its decks), [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (0.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbc/48/olag-and-miau-new-friends) · oracle_id `d117825e-fb7d-44dc-a17d-71bd610a6078` · printing: MBC #48 (2026-10-19) · [rulings](https://api.scryfall.com/cards/d77ee4fa-1e10-4668-8666-86d37471a1b6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ol' Buzzbark
@@ -88,6 +90,8 @@ schema: 2
   - *2018-01-19* — Dice rolled for Ol’ Buzzbark can’t be greater than one inch in width. Yes, we’ve seen how rolling millions of dice from orbit will destroy Earth. Please don’t do this. We just bought a house.
   - *2018-01-19* — Once rolled, no player can interfere with the dice. Players also can’t move any permanents on the battlefield until the dice have come to rest.
   - *2018-01-19* — To count for either effect, the die must come to rest touching a creature. Touching it mid-roll doesn’t count if it isn’t touching when the die stops rolling.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ust/134/ol-buzzbark) · oracle_id `0a028cee-0f23-43d5-991f-2d10de044d59` · printing: UST #134 (2017-12-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Old-Fashioned Vampire
@@ -279,6 +283,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23882 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2026-01-27* — In the case where the Mutant creature token isn't destroyed by the delayed triggered ability (probably because it gained indestructible due to Old Hob's last ability), that delayed triggered ability won't trigger again.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 48 decks; highest synergy [Slash, Reptile Rampager](../../cards/S/sl.md#slash-reptile-rampager) (+68%), [Raphael, Tough Turtle](../../cards/R/rap.md#raphael-tough-turtle) (+66%), [Sally Pride, Lioness Leader](../../cards/S/sal.md#sally-pride-lioness-leader) (+60%) · EDHREC: in 1,039 decks; most often under [Leonardo, the Balance // Michelangelo, the Heart](../../cards/L/le.md#leonardo-the-balance) (1.6% of its decks), [Raph & Leo, Sibling Rivals](../../cards/R/rap.md#raph--leo-sibling-rivals) (18.3% of its decks), [Heroes in a Half Shell](../../cards/H/he.md#heroes-in-a-half-shell) (1.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmt/99/old-hob-alleycat-blues) · oracle_id `e88b1520-aa9a-41ee-9036-4d4bebd1a0c0` · printing: TMT #99 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Old Man of the Sea
@@ -308,6 +314,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11993 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2023-06-16* — You don't choose a target for Old Man Willow's last ability at the time it triggers. Rather, a second "reflexive" ability triggers when you sacrifice a creature or token this way. You choose a target for that ability as it goes on the stack. Each player may respond to this triggered ability as normal.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 394 decks; highest synergy [Entish Restoration](../../cards/E/en.md#entish-restoration) (+39%), [Fangorn, Tree Shepherd](../../cards/F/fa.md#fangorn-tree-shepherd) (+37%), [Explore](../../cards/E/ex.md#explore) (+34%) · EDHREC: in 8,625 decks; most often under [Sméagol, Helpful Guide](../../cards/S/sm.md#sméagol-helpful-guide) (24.8% of its decks), [The Gitrog, Ravenous Ride](../../cards/T/theg.md#the-gitrog-ravenous-ride) (19.3% of its decks), [Doran, the Siege Tower](../../cards/D/do.md#doran-the-siege-tower) (21.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltr/217/old-man-willow) · oracle_id `96c96842-42c2-4aa3-95e2-6186d4ab5693` · printing: LTR #217 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Old One Eye
@@ -403,6 +411,8 @@ schema: 2
   > Whenever Olinda enters or attacks, for each opponent, put an odor counter on up to one target creature that player controls without an odor counter on it. Each of those creatures has "At the beginning of your upkeep, you lose 2 life" for as long as it has an odor counter on it. (They continue to smell after Olinda has left the battlefield.)
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #21554 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1,208 decks; highest synergy [Conjurer's Closet](../../cards/C/con.md#conjurers-closet) (+73%), [Blade of Selves](../../cards/B/bla.md#blade-of-selves) (+72%), [Feign Death](../../cards/F/fe.md#feign-death) (+68%) · EDHREC: in 657 decks; most often under [Valgavoth, Harrower of Souls](../../cards/V/va.md#valgavoth-harrower-of-souls) (1.0% of its decks), [Deadpool, Trading Card](../../cards/D/dea.md#deadpool-trading-card) (1.8% of its decks), [Scriv, the Obligator](../../cards/S/sc.md#scriv-the-obligator) (3.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbc/17/olinda-the-oblivious) · oracle_id `6ec8a9b8-233f-4de5-8f4c-3d677fbf2f30` · printing: MBC #17 (2026-10-19) · [rulings](https://api.scryfall.com/cards/ed522096-8db5-4205-b49f-d41230cce4d7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oliphaunt

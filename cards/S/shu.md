@@ -229,6 +229,8 @@ schema: 2
 - **Keywords:** Lifelink
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16220 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 217 decks; highest synergy [Ancient Den](../../cards/A/an.md#ancient-den) (+66%), [Tree of Tales](../../cards/T/tre.md#tree-of-tales) (+66%), [Dispatch](../../cards/D/di.md#dispatch) (+65%) · EDHREC: in 4,466 decks; most often under [T'Challa, the Black Panther](../../cards/T/tc.md#tchalla-the-black-panther) (79.4% of its decks), [Nick Fury, Agent of S.H.I.E.L.D.](../../cards/N/ni.md#nick-fury-agent-of-shield) (1.3% of its decks), [Black Panther, Wakandan King](../../cards/B/bla.md#black-panther-wakandan-king) (5.4% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/95/shuri-the-black-panther) · oracle_id `1ea7b298-be87-4032-9f45-37f9b39ce3fa` · printing: MSC #95 (2026-06-26) · [rulings](https://api.scryfall.com/cards/bb9efb2e-3fe8-4f21-82c5-e089d835bdd5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shuri, Vibranium Technologist
@@ -246,6 +248,8 @@ schema: 2
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26463 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Nim Deathmantle + Ashnod's Altar + Shuri, Vibranium Technologist](https://commanderspellbook.com/combo/2034-5003-7731/) (Infinite creature ETB, Infinite creature LTB) · EDHREC as commander: 18 decks; highest synergy [Ephemerate](../../cards/E/ep.md#ephemerate) (+74%), [Cid, Timeless Artificer](../../cards/C/ci.md#cid-timeless-artificer) (+71%), [Airbender Ascension](../../cards/A/ai.md#airbender-ascension) (+52%) · EDHREC: in 634 decks; most often under [Captain America, Team Leader](../../cards/C/cap.md#captain-america-team-leader) (1.2% of its decks), [Cid, Timeless Artificer](../../cards/C/ci.md#cid-timeless-artificer) (11.6% of its decks), [The Mighty Thor, Jane Foster](../../cards/T/them.md#the-mighty-thor-jane-foster) (3.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#shuri-vibranium-technologist)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/746/shuri-vibranium-technologist) · oracle_id `94b2a7a6-9e9a-437f-9cde-111b1b02a68e` · printing: MSC #746 (2026-06-26) · [rulings](https://api.scryfall.com/cards/33795ef2-2215-4a69-9127-25ef252db684/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

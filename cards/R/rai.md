@@ -219,6 +219,8 @@ schema: 2
 - **Keywords:** Flying, Haste, Sonic Rainboom
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sld/1540/rainbow-dash) · oracle_id `fe0b4822-7db2-4d74-ba31-8df495fbaeb1` · printing: SLD #1540 (2024-03-01) · [rulings](https://api.scryfall.com/cards/6ab2cbaa-58c5-4612-8d99-10f5ee5041ee/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rainbow Efreet

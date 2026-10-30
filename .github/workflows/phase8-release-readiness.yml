@@ -9,6 +9,8 @@ on:
       - 'data/multiverse_graph/**'
       - 'data/card_db/**'
       - 'data/card_enrichment.json'
+      - 'scripts/build_card_enrichment.py'
+      - 'tests/test_phase8_batch38.py'
       - '.github/workflows/phase8-release-readiness.yml'
   workflow_dispatch:
 
@@ -38,4 +40,6 @@ jobs:
           print("OK", f, saved)
           PY
       - name: Tests
-        run: python3 -m unittest discover -s tests -p 'test_release_readiness.py' -v
+        run: |
+          python3 -m unittest discover -s tests -p 'test_release_readiness.py' -v
+          python3 -m unittest discover -s tests -p 'test_phase8_batch38.py' -v

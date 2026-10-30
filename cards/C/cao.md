@@ -33,6 +33,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22660 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2013-09-20* — If a turn has multiple combat phases, the ability can only be activated before the beginning of the declare attackers step of the first combat phase in that turn.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 178 decks; highest synergy [Waste Not](../../cards/W/was.md#waste-not) (+72%), [Geth's Grimoire](../../cards/G/ge.md#geths-grimoire) (+68%), [Megrim](../../cards/M/me.md#megrim) (+66%) · EDHREC: in 1,181 decks; most often under [Tinybones, Bauble Burglar](../../cards/T/ti.md#tinybones-bauble-burglar) (1.3% of its decks), [Tergrid, God of Fright](../../cards/T/te.md#tergrid-god-of-fright--tergrids-lantern) (1.1% of its decks), [Tinybones, Trinket Thief](../../cards/T/ti.md#tinybones-trinket-thief) (1.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#cao-cao-lord-of-wei)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ptk/68/cao-cao-lord-of-wei) · oracle_id `81a98b14-e827-4241-a401-64890def51af` · printing: PTK #68 (1999-05-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -50,5 +52,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26984 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2009-10-01* — Despite the similarities between horsemanship and flying, horsemanship doesn't interact with flying or reach.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 46 decks; highest synergy [Vorpal Sword](../../cards/V/vo.md#vorpal-sword) (+64%), [Fireshrieker](../../cards/F/fi.md#fireshrieker) (+63%), [Blackblade Reforged](../../cards/B/bla.md#blackblade-reforged) (+60%) · EDHREC: in 488 decks; most often under [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.2% of its decks), [Kenrith, the Returned King](../../cards/K/ke.md#kenrith-the-returned-king) (0.2% of its decks), [Sliver Queen](../../cards/S/sl.md#sliver-queen) (1.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#cao-ren-wei-commander)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ptk/69/cao-ren-wei-commander) · oracle_id `99cbc054-2757-4c07-ad04-9ac67dad4abc` · printing: PTK #69 (1999-05-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

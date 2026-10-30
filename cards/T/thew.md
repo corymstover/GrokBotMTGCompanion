@@ -274,6 +274,8 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27392 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 6 decks; highest synergy [Photon, Lady of Light](../../cards/P/ph.md#photon-lady-of-light) (+100%), [Split Up](../../cards/S/spl.md#split-up) (+96%), [Thalia, Heretic Cathar](../../cards/T/tha.md#thalia-heretic-cathar) (+91%) · EDHREC: in 501 decks; most often under [Captain America, Team Leader](../../cards/C/cap.md#captain-america-team-leader) (0.8% of its decks), [Daredevil, Man Without Fear](../../cards/D/da.md#daredevil-man-without-fear) (1.9% of its decks), [Captain America, Wings of Freedom](../../cards/C/cap.md#captain-america-wings-of-freedom) (14.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/844/the-wasp-janet-van-dyne) · oracle_id `8d35c7c8-1342-40b7-82ec-2f7973ee8af8` · printing: MSC #844 (2026-06-26) · [rulings](https://api.scryfall.com/cards/cd009478-6df9-4ebc-b0a4-0c50da82ad11/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Wasp, Winsome Avenger
@@ -291,6 +293,8 @@ schema: 2
 - **Keywords:** Flying, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14412 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1 decks; highest synergy [Arch of Orazca](../../cards/A/arc.md#arch-of-orazca) (+100%), [Dismissive Denial](../../cards/D/di.md#dismissive-denial) (+100%), [Hero's Blade](../../cards/H/he.md#heros-blade) (+100%) · EDHREC: in 6,463 decks; most often under [Captain America, Team Leader](../../cards/C/cap.md#captain-america-team-leader) (76.7% of its decks), [Director Nick Fury](../../cards/D/di.md#director-nick-fury) (65.7% of its decks), [Nick Fury, Agent of S.H.I.E.L.D.](../../cards/N/ni.md#nick-fury-agent-of-shield) (6.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/39/the-wasp-winsome-avenger) · oracle_id `4b706959-ea38-4808-870a-7c35d83f7ab2` · printing: MSC #39 (2026-06-26) · [rulings](https://api.scryfall.com/cards/ce5fb436-fcc6-426f-a33b-a8ba904df0ff/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Watcher in the Water
@@ -344,6 +348,8 @@ schema: 2
   > *DESTROY*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ01b/the-water-maro) · oracle_id `4efc68ba-6366-4e3c-8539-4cde0cc45e82` · printing: UNK #RZ01b (2024-02-24) · [rulings](https://api.scryfall.com/cards/8f104d73-793d-49e8-bf1d-82a0aa1bd1d1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Weatherseed Treaty
@@ -375,6 +381,8 @@ schema: 2
 - **Keywords:** Shadow, Mill
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #21848 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 343 decks; highest synergy [The Water Crystal](../../cards/T/thew.md#the-water-crystal) (+68%), [Captain N'ghathrod](../../cards/C/cap.md#captain-nghathrod) (+66%), [Ruin Crab](../../cards/R/ru.md#ruin-crab) (+66%) · EDHREC: in 1,423 decks; most often under [Captain N'ghathrod](../../cards/C/cap.md#captain-nghathrod) (14.2% of its decks), [Umbris, Fear Manifest](../../cards/U/um.md#umbris-fear-manifest) (3.6% of its decks), [The Wise Mothman](../../cards/T/thew.md#the-wise-mothman) (0.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbc/56/the-weaver-king) · oracle_id `ed1a6d06-436b-45c0-979c-7802246eeb9e` · printing: MBC #56 (2026-10-19) · [rulings](https://api.scryfall.com/cards/34390921-6fe4-463a-af1c-2aa5f0bfe82a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Wedding of River Song
@@ -416,6 +424,8 @@ schema: 2
   > When The Weekly Princess leaves the battlefield, it stops being day or night. (Stop tracking it. Trust us, it's better this way.)
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ03e/the-weekly-princess) · oracle_id `3088d1ba-a478-4657-8675-195fc4f7d23c` · printing: UNK #RZ03e (2024-10-25) · [rulings](https://api.scryfall.com/cards/293c4bc6-7b58-4e2c-b7d3-5ce0900fdfb1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Wheeling Runner
@@ -429,6 +439,8 @@ schema: 2
   > Ready to run (You can have two commanders if both have ready to run.)
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RR04d/the-wheeling-runner) · oracle_id `d4199531-b8b2-4c3d-b0a2-534f38d7f3bb` · printing: UNK #RR04d (2024-10-25) · [rulings](https://api.scryfall.com/cards/5f9b509c-009e-4f5f-84b4-d139cf6a655d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Whiteboarder
@@ -442,6 +454,8 @@ schema: 2
   > {6}, {T}: Create a white-bordered blue Elemental creature token. It has noted power and toughness and up to two noted abilities. Erase whatever text you use this way.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed — *Guidance (Oracle pattern)* — packages: [Tokens: Anthems](../../EDH%20Packages.md#tokens-anthems) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RU01a/the-whiteboarder) · oracle_id `ad0f1851-695e-44b0-ad91-9ed6489713f6` · printing: UNK #RU01a (2026-05-01) · [rulings](https://api.scryfall.com/cards/3ab96f42-52cd-4487-bfdd-959b14a9762b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Whizzer, Classic Speedster
@@ -456,6 +470,8 @@ schema: 2
 - **Keywords:** First strike, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30105 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 69 decks; highest synergy [Count on Luck](../../cards/C/cou.md#count-on-luck) (+45%), [Muraganda Raceway](../../cards/M/mu.md#muraganda-raceway) (+44%), [Full Throttle](../../cards/F/fu.md#full-throttle) (+41%) · EDHREC: in 154 decks; most often under [Sonic the Hedgehog](../../cards/S/so.md#sonic-the-hedgehog) (0.6% of its decks), [Speed, Young Avenger](../../cards/S/spe.md#speed-young-avenger) (37.5% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#the-whizzer-classic-speedster)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/710/the-whizzer-classic-speedster) · oracle_id `aa86bce1-9cde-44d8-9455-24502221f31d` · printing: MSC #710 (2026-06-26) · [rulings](https://api.scryfall.com/cards/77134e93-4c03-476b-ab60-d8fb48f7a74f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -472,6 +488,8 @@ schema: 2
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RR03/the-wiley-speedster) · oracle_id `1a0ff3b5-cd25-4803-a7ee-614348b4e0aa` · printing: UNK #RR03 (2024-10-25) · [rulings](https://api.scryfall.com/cards/7ba815c0-a1c7-42c2-b1f8-a999f68704c5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Wind Crystal
@@ -530,6 +548,8 @@ schema: 2
 - **Keywords:** Judge Call!
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ06c/the-wise-sable) · oracle_id `c0d27f3e-90a4-47f5-bace-9e91d7a05022` · printing: UNK #RZ06c (2024-06-29) · [rulings](https://api.scryfall.com/cards/8953a06a-3aff-4920-a131-5b9e2d4393f7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Witch's Vanity
@@ -585,6 +605,8 @@ schema: 2
 - **Keywords:** Flying, Wasp's Sting, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12762 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 6 combos; most popular [Medomai the Ageless + The Wondrous Wasp + Phelia, Exuberant Shepherd](https://commanderspellbook.com/combo/1267-5625-7712/) (Infinite turns, Lock) · EDHREC as commander: 13 decks; highest synergy [Displacer Kitten](../../cards/D/di.md#displacer-kitten) (+60%), [Venser, Shaper Savant](../../cards/V/ve.md#venser-shaper-savant) (+48%), [Essence Flux](../../cards/E/es.md#essence-flux) (+45%) · EDHREC: in 8,541 decks; most often under [Captain America, Team Leader](../../cards/C/cap.md#captain-america-team-leader) (23.0% of its decks), [Nick Fury, Agent of S.H.I.E.L.D.](../../cards/N/ni.md#nick-fury-agent-of-shield) (11.3% of its decks), [The Astonishing Ant-Man](../../cards/T/thea.md#the-astonishing-ant-man) (9.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/84/the-wondrous-wasp) · oracle_id `5ad8963b-8091-4787-9147-20a1fe7bf0fb` · printing: MSH #84 (2026-06-26) · [rulings](https://api.scryfall.com/cards/484e80a4-1d5f-4c27-98a8-ee2ef9d6cbdc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The World Spell

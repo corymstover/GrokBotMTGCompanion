@@ -394,6 +394,8 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13878 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1,239 decks; highest synergy [Iridescent Hornbeetle](../../cards/I/ir.md#iridescent-hornbeetle) (+76%), [Hornet Queen](../../cards/H/ho.md#hornet-queen) (+66%), [Scute Swarm](../../cards/S/sc.md#scute-swarm) (+64%) · EDHREC: in 5,371 decks; most often under [Hamza, Guardian of Arashin](../../cards/H/ha.md#hamza-guardian-of-arashin) (6.8% of its decks), [Helga, Skittish Seer](../../cards/H/he.md#helga-skittish-seer) (1.8% of its decks), [The Fourth Doctor // Sarah Jane Smith](../../cards/T/thef.md#the-fourth-doctor) (28.7% of its decks) — *Guidance (Oracle pattern)* — packages: [Aristocrats: Fodder makers (multiple creature tokens)](../../EDH%20Packages.md#aristocrats-fodder-makers-multiple-creature-tokens) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/V.md#vrestin-menoptra-leader)
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/166/vrestin-menoptra-leader) · oracle_id `1db6a042-303e-4b76-bb6c-63df846fd6c9` · printing: WHO #166 (2023-10-13) · [rulings](https://api.scryfall.com/cards/b117d388-ac94-4e20-84f0-f4d242121d7f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -424,6 +426,8 @@ schema: 2
 - **Keywords:** Enrage
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11022 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 13 combos; most popular [Vrondiss, Rage of Ancients + Scourge of Valkas](https://commanderspellbook.com/combo/2676-4245/) (Infinite death triggers, Infinite creature ETB) · EDHREC as commander: 3,035 decks; highest synergy [Chaos Dragon](../../cards/C/cha.md#chaos-dragon) (+71%), [Component Pouch](../../cards/C/com.md#component-pouch) (+68%), [Dragon's Hoard](../../cards/D/dra.md#dragons-hoard) (+64%) · EDHREC: in 7,652 decks; most often under [Wayta, Trainer Prodigy](../../cards/W/way.md#wayta-trainer-prodigy) (33.1% of its decks), [Hansk, Slayer Zealot](../../cards/H/ha.md#hansk-slayer-zealot) (35.5% of its decks), [The Space Family Goblinson](../../cards/T/thes.md#the-space-family-goblinson) (73.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/V.md#vrondiss-rage-of-ancients)
 - **Source flags:** [Scryfall](https://scryfall.com/card/afc/4/vrondiss-rage-of-ancients) · oracle_id `2160c837-342b-409f-a1db-0ec5ac023ccf` · printing: AFC #4 (2021-07-23) · [rulings](https://api.scryfall.com/cards/683ca7f0-e9df-459b-a8e3-cf80b39c732d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

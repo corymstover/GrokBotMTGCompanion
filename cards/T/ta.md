@@ -429,6 +429,8 @@ schema: 2
 - **Keywords:** Reach
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12737 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 2,509 decks; highest synergy [Arasta of the Endless Web](../../cards/A/ara.md#arasta-of-the-endless-web) (+83%), [Assault Formation](../../cards/A/as.md#assault-formation) (+82%), [Baldin, Century Herdmaster](../../cards/B/bal.md#baldin-century-herdmaster) (+81%) · EDHREC: in 5,515 decks; most often under [Ohabi Caleria](../../cards/O/oh.md#ohabi-caleria) (32.3% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (1.1% of its decks), [Polukranos Reborn](../../cards/P/po.md#polukranos-reborn--polukranos-engine-of-ruin) (12.1% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/slx/16/tadeas-juniper-ascendant) · oracle_id `b4b5b928-8b98-4f65-9f15-212859874fe4` · printing: SLX #16 (2023-02-10) · [rulings](https://api.scryfall.com/cards/eb79f973-2384-4de4-81fb-14ba5a0e5556/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Taeko, the Patient Avalanche
@@ -445,6 +447,8 @@ schema: 2
 - **Rulings** (2):
   - *2024-11-08* — If Taeko leaves the battlefield or dies at the same time as one or more other creatures you control leave the battlefield without dying, its second ability triggers once for each of those other creatures. You will scry for each of those other creatures, but Taeko will not be on the battlefield to receive +1/+1 counters.
   - *2024-11-08* — You don't choose a target for Taeko's last ability at the time it triggers. Rather, a second "reflexive" ability triggers when you pay {U}{B} this way. You choose a target for that ability as it goes on the stack. Each player may respond to this triggered ability as normal.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 938 decks; highest synergy [Prosperous Thief](../../cards/P/pr.md#prosperous-thief) (+76%), [Silver-Fur Master](../../cards/S/si.md#silver-fur-master) (+76%), [Ninja of the Deep Hours](../../cards/N/ni.md#ninja-of-the-deep-hours) (+72%) · EDHREC: in 7,587 decks; most often under [Yuriko, the Tiger's Shadow](../../cards/Y/yu.md#yuriko-the-tigers-shadow) (6.8% of its decks), [Splinter, Radical Rat](../../cards/S/spl.md#splinter-radical-rat) (31.8% of its decks), [Satoru Umezawa](../../cards/S/sat.md#satoru-umezawa) (5.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#taeko-the-patient-avalanche)
 - **Source flags:** [Scryfall](https://scryfall.com/card/j25/39/taeko-the-patient-avalanche) · oracle_id `3d3eb043-8ce6-461a-b8bc-67f0ba6cd580` · printing: J25 #39 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -506,6 +510,8 @@ schema: 2
   - *2019-08-23* — If an opponent is attacking a planeswalker but not that planeswalker's controller, Tahngarth can't attack that player.
   - *2019-08-23* — Players can't take any actions between the time you choose to give control of Tahngarth to the attacking player and the time it becomes an attacking creature.
   - *2019-08-23* — Tahngarth may end up attacking its owner this way.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1,009 decks; highest synergy [Beamtown Beatstick](../../cards/B/be.md#beamtown-beatstick) (+70%), [Komainu Battle Armor](../../cards/K/ko.md#komainu-battle-armor) (+62%), [Madcap Skills](../../cards/M/mad.md#madcap-skills) (+61%) · EDHREC: in 3,631 decks; most often under [Karona, False God](../../cards/K/ka.md#karona-false-god) (10.6% of its decks), [Marisi, Breaker of the Coil](../../cards/M/mar.md#marisi-breaker-of-the-coil) (6.1% of its decks), [Thantis, the Warweaver](../../cards/T/tha.md#thantis-the-warweaver) (4.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 rules · 1 card data) → [reverse index](../../references/T.md#tahngarth-first-mate)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c19/50/tahngarth-first-mate) · oracle_id `1a8a41a1-6fc5-4dc8-bd28-9bf404c777d7` · printing: C19 #50 (2019-08-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -546,6 +552,8 @@ schema: 2
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21250 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 58 decks; highest synergy [Hammer of Nazahn](../../cards/H/ha.md#hammer-of-nazahn) (+54%), [Fiendlash](../../cards/F/fi.md#fiendlash) (+50%), [Arcbond](../../cards/A/arc.md#arcbond) (+43%) · EDHREC: in 1,750 decks; most often under [Sethron, Hurloon General](../../cards/S/set.md#sethron-hurloon-general) (36.4% of its decks), [Neheb, the Worthy](../../cards/N/ne.md#neheb-the-worthy) (24.7% of its decks), [Sisay, Weatherlight Captain](../../cards/S/si.md#sisay-weatherlight-captain) (0.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/pls/74/tahngarth-talruum-hero) · oracle_id `c5b4131e-13aa-4a22-b8f5-e5f9d366cb4f` · printing: PLS #74 (2001-02-05) · [rulings](https://api.scryfall.com/cards/c1778f37-af01-4f8c-ab9d-a4c60abf7e78/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Taiga
@@ -608,6 +616,8 @@ schema: 2
   - *2017-08-25* — If a spell moves itself into another zone as part of its resolution (as Teferi's Protection, All Suns' Dawn, and Beacon of Unrest do), rebound won't get a chance to apply.
   - *2017-08-25* — If a spell with rebound that you cast from your hand doesn't resolve for any reason (either because another spell or ability counters it or because all its targets are illegal as it tries to resolve), none of its effects will happen, including rebound. The spell will be put into its owner's graveyard and you won't get to cast it again on your next turn.
   - *2017-08-25* — If you cast a card from exile, it will go to its owner's graveyard when it resolves, fails to resolve, or is countered. It won't go back to exile.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1,519 decks; highest synergy [See the Truth](../../cards/S/see.md#see-the-truth) (+59%), [Archmage Emeritus](../../cards/A/arc.md#archmage-emeritus) (+51%), [Vega, the Watcher](../../cards/V/ve.md#vega-the-watcher) (+49%) · EDHREC: in 11,575 decks; most often under [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (3.1% of its decks), [Narset, Enlightened Exile](../../cards/N/na.md#narset-enlightened-exile) (12.9% of its decks), [The Archimandrite](../../cards/T/thea.md#the-archimandrite) (38.7% of its decks) — *Guidance (Oracle pattern)* — packages: [Spellslinger: Cast-trigger payoffs](../../EDH%20Packages.md#spellslinger-cast-trigger-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c17/46/taigam-ojutai-master) · oracle_id `e4cf3710-8600-4f95-abb2-faefdc25693d` · printing: C17 #46 (2017-08-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Taigam, Sidisi's Hand
@@ -622,6 +632,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17260 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2017-08-25* — The “legend rule” cares about legendary permanents with the exact same English name. You can control Taigam, Sidisi’s Hand and Taigam, Ojutai Master at the same time.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 483 decks; highest synergy [Stitch Together](../../cards/S/sti.md#stitch-together) (+47%), [Dread Return](../../cards/D/dre.md#dread-return) (+43%), [Deranged Assistant](../../cards/D/der.md#deranged-assistant) (+40%) · EDHREC: in 3,185 decks; most often under [Sidisi, Brood Tyrant](../../cards/S/si.md#sidisi-brood-tyrant) (7.1% of its decks), [Muldrotha, the Gravetide](../../cards/M/mu.md#muldrotha-the-gravetide) (1.2% of its decks), [Obeka, Splitter of Seconds](../../cards/O/ob.md#obeka-splitter-of-seconds) (1.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/357/taigam-sidisis-hand) · oracle_id `677aa518-072b-46d2-b0da-da57c7bc2bba` · printing: CMM #357 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Taigam's Scheming
@@ -1285,6 +1297,8 @@ schema: 2
 - **Keywords:** Bushido
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17610 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 513 decks; highest synergy [Konda's Hatamoto](../../cards/K/ko.md#kondas-hatamoto) (+96%), [Konda, Lord of Eiganjo](../../cards/K/ko.md#konda-lord-of-eiganjo) (+96%), [Nagao, Bound by Honor](../../cards/N/na.md#nagao-bound-by-honor) (+96%) · EDHREC: in 2,954 decks; most often under [Isshin, Two Heavens as One](../../cards/I/is.md#isshin-two-heavens-as-one) (2.9% of its decks), [Jin Sakai, Ghost of Tsushima](../../cards/J/ji.md#jin-sakai-ghost-of-tsushima) (2.9% of its decks), [Raiyuu, Storm's Edge](../../cards/R/rai.md#raiyuu-storms-edge) (13.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/chk/46/takeno-samurai-general) · oracle_id `f995e0cc-b2bd-41c3-8c08-c8873312cebe` · printing: CHK #46 (2004-10-01) · [rulings](https://api.scryfall.com/cards/d038df46-4a30-4125-be0e-8781b16b523e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Takeno's Cavalry
@@ -2177,6 +2191,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10287 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2022-02-18* — Tameshi's first ability triggers only whenever one or more noncreature permanents are returned to hand from the battlefield. Noncreature permanent cards returned to hand from other zones do not cause this ability to trigger.
+- **Lore:** ✅ Presented with an official backstory on [The Legends of Kamigawa: Neon Dynasty](https://magic.wizards.com/en/news/feature/legends-kamigawa-neon-dynasty-2022-02-11) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 46 combos; most popular [Tameshi, Reality Architect + Patron of the Moon + Lotus Bloom](https://commanderspellbook.com/combo/231-774-3390/) (Infinite colored mana, Infinite landfall triggers) · EDHREC as commander: 3,389 decks; highest synergy [Lotus Bloom](../../cards/L/lo.md#lotus-bloom) (+73%), [Aether Spellbomb](../../cards/A/ae.md#aether-spellbomb) (+68%), [Ancient Den](../../cards/A/an.md#ancient-den) (+62%) · EDHREC: in 8,603 decks; most often under [Shorikai, Genesis Engine](../../cards/S/sho.md#shorikai-genesis-engine) (4.3% of its decks), [Sharuum the Hegemon](../../cards/S/sha.md#sharuum-the-hegemon) (18.3% of its decks), [Genku, Future Shaper](../../cards/G/ge.md#genku-future-shaper) (28.5% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#tameshi-reality-architect)
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/82/tameshi-reality-architect) · oracle_id `b47b3cfe-7005-4b33-9d41-83b60808e12b` · printing: NEO #82 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2542,6 +2558,8 @@ schema: 2
   - *2020-11-10* — Once the game begins, your two commanders are tracked separately. If you cast one, you won't have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 damage from any one of them, not from both of them combined.
   - *2020-11-10* — To have two commanders, both must have the partner ability as the game begins. Losing the ability during the game doesn't cause either to cease to be your commander.
   - *2020-11-10* — You can choose two commanders with partner that are the same color or colors. In Commander Draft, you can even choose two of the same commander with partner if you drafted them. If you do this, make sure you keep the number of times you've cast each from the command zone clear for "commander tax" purposes.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 38 combos; most popular [Tana, the Bloodsower + Aggravated Assault + Utopia Mycon](https://commanderspellbook.com/combo/1991-3750-4214/) (Infinite colored mana, Infinite combat damage) · EDHREC as commander: 40 decks; highest synergy [Impact Tremors](../../cards/I/im.md#impact-tremors) (+61%), [Tendershoot Dryad](../../cards/T/te.md#tendershoot-dryad) (+57%), [Artifact Mutation](../../cards/A/art.md#artifact-mutation) (+54%) · EDHREC: in 2,286 decks; most often under [Slimefoot and Squee](../../cards/S/sl.md#slimefoot-and-squee) (2.5% of its decks), [Saskia the Unyielding](../../cards/S/sas.md#saskia-the-unyielding) (1.8% of its decks), [Rith, the Awakener](../../cards/R/ri.md#rith-the-awakener) (6.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c16/45/tana-the-bloodsower) · oracle_id `a7dff624-1f6b-4e00-b13b-0b0d69a48ec2` · printing: C16 #45 (2016-11-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tanazir Quandrix
@@ -3012,6 +3030,8 @@ schema: 2
 - **Keywords:** Trample, Phasing
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14608 · Game Changer: no · Can be commander: Yes (legendary creature) · Reserved List
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 497 decks; highest synergy [Sunder](../../cards/S/sun.md#sunder) (+77%), [Mana Breach](../../cards/M/man.md#mana-breach) (+68%), [Overburden](../../cards/O/ov.md#overburden) (+67%) · EDHREC: in 5,414 decks; most often under [Jon Irenicus, Shattered One](../../cards/J/jo.md#jon-irenicus-shattered-one) (33.4% of its decks), [Zedruu the Greathearted](../../cards/Z/ze.md#zedruu-the-greathearted) (3.5% of its decks), [Bill Ferny, Bree Swindler](../../cards/B/bi.md#bill-ferny-bree-swindler) (19.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mir/95/taniwha) · oracle_id `371c993a-69b8-4a51-af89-982b79940b2d` · printing: MIR #95 (1996-10-08) · [rulings](https://api.scryfall.com/cards/72d12315-4220-470d-9628-b9a3ea904ca7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tannuk, Memorial Ensign
@@ -3202,6 +3222,8 @@ schema: 2
   - *2020-01-24* — Taranika's triggered ability can target a creature that's already untapped. It still becomes 4/4 and gains indestructible.
   - *2020-01-24* — Taranika's triggered ability isn't optional. If your only other creatures are bigger than 4/4, you'll have to shrink one for the turn.
   - *2020-01-24* — Untapping an attacking creature doesn't remove it from combat.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 102 decks; highest synergy [Deftblade Elite](../../cards/D/def.md#deftblade-elite) (+52%), [Bastion Protector](../../cards/B/bas.md#bastion-protector) (+48%), [Mentor of the Meek](../../cards/M/me.md#mentor-of-the-meek) (+44%) · EDHREC: in 4,846 decks; most often under [Agrus Kos, Eternal Soldier](../../cards/A/ag.md#agrus-kos-eternal-soldier) (55.6% of its decks), [Keleth, Sunmane Familiar // Yoshimaru, Ever Faithful](../../cards/K/ke.md#keleth-sunmane-familiar) (17.9% of its decks), [Isshin, Two Heavens as One](../../cards/I/is.md#isshin-two-heavens-as-one) (1.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/thb/39/taranika-akroan-veteran) · oracle_id `1e3c1920-7bf5-44f9-b1ff-b17d6420e69b` · printing: THB #39 (2020-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### TARDIS
@@ -3242,6 +3264,8 @@ schema: 2
 - **Keywords:** Soulbond
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed — *Guidance (Oracle pattern)* — packages: [Ramp: Cost reducers](../../EDH%20Packages.md#ramp-cost-reducers) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ03v/tarelily-lovestruck-archer) · oracle_id `9f4cad96-079d-4791-9971-d7ebe43f5e04` · printing: UNK #RZ03v (2026-07-17) · [rulings](https://api.scryfall.com/cards/8d5af209-44ec-4ccd-b863-d77a346bf5b6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tar Fiend
@@ -3326,6 +3350,8 @@ schema: 2
 - **Rulings** (2):
   - *2021-07-23* — If a creature's power is less than 0 when it's doubled, instead that creature gets -X/-0, where X is how much less than 0 its power is. For example, if an effect has given a 2/2 creature -4/-0 so that it's a -2/2 creature, doubling its power and toughness gives it -2/+2, and it becomes a -4/4 creature.
   - *2021-07-23* — If an effect instructs you to "double" a creature's power, that creature gets +X/+0, where X is its power as that effect begins to apply. The same is true for toughness.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Mayael's Aria + Targ Nar, Demon-Fang Gnoll](https://commanderspellbook.com/combo/3858-6729/) (Win the game) · EDHREC as commander: 359 decks; highest synergy [Raised by Giants](../../cards/R/rai.md#raised-by-giants) (+36%), [Rancor](../../cards/R/ran.md#rancor) (+36%), [Temur Battle Rage](../../cards/T/te.md#temur-battle-rage) (+36%) · EDHREC: in 2,215 decks; most often under [Duskana, the Rage Mother](../../cards/D/du.md#duskana-the-rage-mother) (3.4% of its decks), [Wulfgar of Icewind Dale](../../cards/W/wu.md#wulfgar-of-icewind-dale) (7.7% of its decks), [Xenagos, God of Revels](../../cards/X/xe.md#xenagos-god-of-revels) (1.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/afr/234/targ-nar-demon-fang-gnoll) · oracle_id `d53ef172-8c26-4469-94c6-bf7fe4d48dbf` · printing: AFR #234 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tariel, Reckoner of Souls
@@ -3344,6 +3370,8 @@ schema: 2
 - **Rulings** (2):
   - *2011-09-22* — The creature card is chosen at random from among creature cards in the target opponent's graveyard as the ability resolves. Players can respond to the ability knowing the targeted player, but they won't know which creature card is about to enter.
   - *2011-09-22* — The only target of this ability is the opponent.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 2 combos; most popular [Phyrexian Altar + Tariel, Reckoner of Souls + Thornbite Staff](https://commanderspellbook.com/combo/1959-2178-4050/) (Infinite colored mana, Infinite death triggers) · EDHREC as commander: 1,788 decks; highest synergy [Crackling Doom](../../cards/C/cr.md#crackling-doom) (+39%), [Debtors' Knell](../../cards/D/deb.md#debtors-knell) (+39%), [Adarkar Valkyrie](../../cards/A/ad.md#adarkar-valkyrie) (+37%) · EDHREC: in 10,028 decks; most often under [Kaalia of the Vast](../../cards/K/ka.md#kaalia-of-the-vast) (18.6% of its decks), [Esika, God of the Tree](../../cards/E/es.md#esika-god-of-the-tree--the-prismatic-bridge) (0.7% of its decks), [Dihada, Binder of Wills](../../cards/D/di.md#dihada-binder-of-wills) (1.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/281/tariel-reckoner-of-souls) · oracle_id `9c00b503-ae5e-4ce3-ad6a-92b541b2e3cd` · printing: 2X2 #281 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tariff
@@ -3371,6 +3399,8 @@ schema: 2
   > Whenever one or more Rebels you control deal combat damage to a player, you gain 2 life.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ05k/tarkiran-towelsbane) · oracle_id `a02b97ea-7bb9-45af-84d1-bbe9a62bb253` · printing: UNK #RZ05k (2025-06-20) · [rulings](https://api.scryfall.com/cards/be3dc3f8-33a1-43ce-8f7a-d16982b8a1b6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tarkir Charm
@@ -3492,6 +3522,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30532 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2007-05-01* — The +X/+X bonus is based on Tarox Bladewing’s power at the time the ability resolves. It won’t change if Tarox’s power changes later in the turn.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 28 decks; highest synergy [Flameshadow Conjuring](../../cards/F/fl.md#flameshadow-conjuring) (+58%), [Haven of the Spirit Dragon](../../cards/H/ha.md#haven-of-the-spirit-dragon) (+51%), [Lithoform Engine](../../cards/L/li.md#lithoform-engine) (+48%) · EDHREC: in 144 decks; most often under [Scion of the Ur-Dragon](../../cards/S/sc.md#scion-of-the-ur-dragon) (0.2% of its decks), [Lathliss, Dragon Queen](../../cards/L/la.md#lathliss-dragon-queen) (0.2% of its decks), [Bladewing, Deathless Tyrant](../../cards/B/bla.md#bladewing-deathless-tyrant) (0.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fut/123/tarox-bladewing) · oracle_id `e195f2f8-2db7-46b8-948c-c3c27f2e5825` · printing: FUT #123 (2007-05-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tarpan
@@ -3860,6 +3892,8 @@ schema: 2
   > {1}{G/U}: Tatsunari and target Frog you control can't be blocked this turn except by creatures with flying or reach.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12783 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 27 combos; most popular [Tatsunari, Toad Rider + Phyrexian Altar + Pitiless Plunderer + Whip Silk](https://commanderspellbook.com/combo/1472-4050-4124-4871/) (Infinite death triggers, Infinite creature ETB) · EDHREC as commander: 5,643 decks; highest synergy [Enchantress's Presence](../../cards/E/en.md#enchantresss-presence) (+77%), [Sanctum Weaver](../../cards/S/san.md#sanctum-weaver) (+72%), [Eidolon of Blossoms](../../cards/E/ei.md#eidolon-of-blossoms) (+69%) · EDHREC: in 2,244 decks; most often under [Go-Shintai of Life's Origin](../../cards/G/gos.md#go-shintai-of-lifes-origin) (3.0% of its decks), [Glarb, Calamity's Augur](../../cards/G/gl.md#glarb-calamitys-augur) (2.4% of its decks), [Marina Vendrell](../../cards/M/mar.md#marina-vendrell) (0.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (2 card data) → [reverse index](../../references/T.md#tatsunari-toad-rider)
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/123/tatsunari-toad-rider) · oracle_id `e87be082-eafd-480e-b150-d27fd937e1b1` · printing: NEO #123 (2022-02-18) · [rulings](https://api.scryfall.com/cards/abf42833-43d0-4b05-b499-d13b2c577ee8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -4350,6 +4384,8 @@ schema: 2
   - *2022-10-14* — For both abilities, if a token is created copying a token or card with {X} in its mana cost, X is 0.
   - *2022-10-14* — If the original token is copying something else, the token you create will use the copiable values of the original token. In most cases, it will be a copy of whatever the original token is copying.
   - *2022-10-14* — The token you create with the first ability copies the original characteristics of the token it’s copying as stated by the effect that created that token. The newly created token doesn’t copy whether the original token is tapped or untapped, whether it has any counters on it, whether it has any Auras and/or Equipment attached to it, or any non-copy effects that changed its power, toughness, types, color, and so on.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 46 combos; most popular [Tawnos, Solemn Survivor + Corridor Monitor + Krark-Clan Ironworks](https://commanderspellbook.com/combo/1921-4404-4659/) (Infinite artifact ETB, Infinite artifact LTB) · EDHREC as commander: 1,378 decks; highest synergy [Worldwalker Helm](../../cards/W/wo.md#worldwalker-helm) (+51%), [Seat of the Synod](../../cards/S/sea.md#seat-of-the-synod) (+50%), [Emry, Lurker of the Loch](../../cards/E/em.md#emry-lurker-of-the-loch) (+47%) · EDHREC: in 3,626 decks; most often under [Urza, Chief Artificer](../../cards/U/ur.md#urza-chief-artificer) (16.7% of its decks), [Breya, Etherium Shaper](../../cards/B/br.md#breya-etherium-shaper) (0.9% of its decks), [Soundwave, Sonic Spy](../../cards/S/so.md#soundwave-sonic-spy--soundwave-superior-captain) (3.4% of its decks) — *Guidance (Oracle pattern)* — packages: [Graveyard: Self-mill](../../EDH%20Packages.md#graveyard-self-mill) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/brc/3/tawnos-solemn-survivor) · oracle_id `871fbbd6-76a0-4f79-b89f-afee6ebe5a59` · printing: BRC #3 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tawnos's Tinkering
@@ -4431,6 +4467,8 @@ schema: 2
   - *2018-07-13* — Tawnos's ability targets an ability that is on the stack and creates another instance of that ability on the stack. It doesn't cause any object to gain an ability.
   - *2018-07-13* — The source of the copy is the same as the source of the original ability.
   - *2018-07-13* — Triggered abilities use the word "when," "whenever," or "at." They're often written as "[Trigger condition], [effect]." Some keyword abilities are triggered abilities and will have "when," "whenever," or "at the beginning of" in their reminder text.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 14 combos; most popular [Tawnos, Urza's Apprentice + Mechanized Production + Myr Battlesphere](https://commanderspellbook.com/combo/888-2047-4840/) (Win the game at the beginning of your next upkeep) · EDHREC as commander: 381 decks; highest synergy [Emry, Lurker of the Loch](../../cards/E/em.md#emry-lurker-of-the-loch) (+64%), [Seat of the Synod](../../cards/S/sea.md#seat-of-the-synod) (+60%), [Great Furnace](../../cards/G/gre.md#great-furnace) (+58%) · EDHREC: in 3,425 decks; most often under [Saheeli, the Gifted](../../cards/S/sah.md#saheeli-the-gifted) (17.4% of its decks), [Iron Man, Titan of Innovation](../../cards/I/ir.md#iron-man-titan-of-innovation) (3.5% of its decks), [Breya, Etherium Shaper](../../cards/B/br.md#breya-etherium-shaper) (1.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c18/45/tawnos-urzas-apprentice) · oracle_id `e835da40-f484-4d8b-98de-595cd23b51bc` · printing: C18 #45 (2018-08-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tax Bolt
@@ -4550,6 +4588,8 @@ schema: 2
   - *2020-04-17* — Because the activated ability doesn’t target the permanent card in your graveyard, you may choose one of the three cards you put there from your library.
   - *2020-04-17* — If a card in your graveyard has {X} in its mana cost, X is considered to be 0.
   - *2020-04-17* — You can remove any three counters to activate Tayam’s last ability, not just vigilance counters.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 100+ combos; most popular [Tayam, Luminous Enigma + Devoted Druid](https://commanderspellbook.com/combo/687-4762/) (Infinite self-mill, Put a selection of permanant cards from your library and graveyard onto the battlefield) · EDHREC as commander: 9,424 decks; highest synergy [Devoted Druid](../../cards/D/dev.md#devoted-druid) (+74%), [Rishkar, Peema Renegade](../../cards/R/ri.md#rishkar-peema-renegade) (+68%), [Wall of Roots](../../cards/W/wal.md#wall-of-roots) (+63%) · EDHREC: in 3,345 decks; most often under [Kathril, Aspect Warper](../../cards/K/ka.md#kathril-aspect-warper) (16.5% of its decks), [Betor, Ancestor's Voice](../../cards/B/be.md#betor-ancestors-voice) (2.1% of its decks), [Ghave, Guru of Spores](../../cards/G/gh.md#ghave-guru-of-spores) (3.5% of its decks) — *Guidance (Oracle pattern)* — packages: [Graveyard: Self-mill](../../EDH%20Packages.md#graveyard-self-mill) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c20/16/tayam-luminous-enigma) · oracle_id `84be8354-0bfa-4df1-868a-13197bd49191` · printing: C20 #16 (2020-04-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tazeem Raptor
@@ -4607,6 +4647,8 @@ schema: 2
   - *2020-09-25* — Tazri's activated ability lets you put up to two cards total into your hand, not two cards of each of the listed creature types.
   - *2020-09-25* — To determine "the number of creatures in your party," check whether you control a Cleric, whether you control a Rogue, whether you control a Warrior, and whether you control a Wizard. The number is the total number of those checks to which you answered yes. Each creature you control can be counted for only one of those checks.
   - *2020-09-25* — To determine the cost of Tazri's activated ability, you choose which cost you'll pay for each of the four mana symbols (either {2} or one mana of the appropriate color), add up the total cost, apply any additional costs, then apply any cost reductions.
+- **Lore:** ✅ Presented with an official backstory on [The Legends of Zendikar Rising](https://magic.wizards.com/en/news/feature/legends-zendikar-rising-2020-09-15) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 2,970 decks; highest synergy [Nalia de'Arnise](../../cards/N/na.md#nalia-dearnise) (+72%), [Burakos, Party Leader](../../cards/B/bu.md#burakos-party-leader) (+69%), [Coveted Prize](../../cards/C/cov.md#coveted-prize) (+67%) · EDHREC: in 1,450 decks; most often under [Morophon, the Boundless](../../cards/M/mor.md#morophon-the-boundless) (2.8% of its decks), [General Tazri](../../cards/G/ge.md#general-tazri) (8.0% of its decks), [Najeela, the Blade-Blossom](../../cards/N/na.md#najeela-the-blade-blossom) (0.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/znr/44/tazri-beacon-of-unity) · oracle_id `ce703e1d-b7b2-4b8b-a12c-714fc152d0a5` · printing: ZNR #44 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tazri, Stalwart Survivor
@@ -4622,4 +4664,6 @@ schema: 2
 - **Rulings** (2):
   - *2023-05-12* — The mana produced by the ability granted by Tazri's first ability may be spent only to activate an ability of a creature on the battlefield. It can't be spent to activate abilities of creature cards in other zones.
   - *2023-05-12* — The other activated ability the creature must have can be any activated ability, including one that can't be activated at the moment, or even one that can't be activated while the creature is on the battlefield. For example, you could tap a creature with cycling and Tazri's ability for mana.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 28 combos; most popular [Tazri, Stalwart Survivor + Knacksaw Clique + Biomancer's Familiar](https://commanderspellbook.com/combo/800-1912-4949/) (Exile each opponent's library) · EDHREC as commander: 2,299 decks; highest synergy [Biomancer's Familiar](../../cards/B/bi.md#biomancers-familiar) (+63%), [Agatha of the Vile Cauldron](../../cards/A/ag.md#agatha-of-the-vile-cauldron) (+61%), [Dynaheir, Invoker Adept](../../cards/D/dy.md#dynaheir-invoker-adept) (+52%) · EDHREC: in 904 decks; most often under [Kenrith, the Returned King](../../cards/K/ke.md#kenrith-the-returned-king) (0.9% of its decks), [Sisay, Weatherlight Captain](../../cards/S/si.md#sisay-weatherlight-captain) (0.6% of its decks), [Najeela, the Blade-Blossom](../../cards/N/na.md#najeela-the-blade-blossom) (0.6% of its decks) — *Guidance (Oracle pattern)* — packages: [Graveyard: Self-mill](../../EDH%20Packages.md#graveyard-self-mill) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mat/6/tazri-stalwart-survivor) · oracle_id `13a3e61d-c9ff-447d-9016-09a183b7af1d` · printing: MAT #6 (2023-05-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

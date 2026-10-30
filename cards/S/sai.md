@@ -174,6 +174,8 @@ schema: 2
 - **Rulings** (2):
   - *2023-04-14* — If it’s the fourth or subsequent time the first ability has resolved in a turn, nothing happens.
   - *2023-04-14* — The last ability of Saint Traft and Rem Karolus will trigger whether you tapped any creatures to pay for the spell or not, as long as it has convoke.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Saint Traft and Rem Karolus + Intruder Alarm + Deadeye Navigator + Phyrexian Altar](https://commanderspellbook.com/combo/1409-1636-4050-5927--59/) (Infinite untap of most creatures you control, Infinite creature LTB) · EDHREC as commander: 1,949 decks; highest synergy [Wildfire Awakener](../../cards/W/wi.md#wildfire-awakener) (+83%), [Kasla, the Broken Halo](../../cards/K/ka.md#kasla-the-broken-halo) (+78%), [Meeting of Minds](../../cards/M/me.md#meeting-of-minds) (+75%) · EDHREC: in 4,128 decks; most often under [Kasla, the Broken Halo](../../cards/K/ka.md#kasla-the-broken-halo) (85.5% of its decks), [Aragorn, the Uniter](../../cards/A/ara.md#aragorn-the-uniter) (0.4% of its decks), [Kykar, Wind's Fury](../../cards/K/ky.md#kykar-winds-fury) (0.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#saint-traft-and-rem-karolus)
 - **Source flags:** [Scryfall](https://scryfall.com/card/moc/9/saint-traft-and-rem-karolus) · oracle_id `3a1be8b3-16e2-4fae-bea7-3a98f2f9db38` · printing: MOC #9 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

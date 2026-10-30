@@ -143,6 +143,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11614 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2004-10-04* — When you turn a card face up, its controller does not have to pay its Morph cost.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Missy (Grixis)](../../grixis/decks/missy.md) · Commander Spellbook: 5 combos; most popular [Missy + Ixidor, Reality Sculptor + Pitiless Plunderer + Ashnod's Altar](https://commanderspellbook.com/combo/419-2034-4424-4871/) (Infinite death triggers, Infinite creature ETB) · EDHREC as commander: 353 decks; highest synergy [Scroll of Fate](../../cards/S/sc.md#scroll-of-fate) (+88%), [Willbender](../../cards/W/wi.md#willbender) (+85%), [Ixidron](../../cards/I/ix.md#ixidron) (+83%) · EDHREC: in 9,262 decks; most often under [Kadena, Slinking Sorcerer](../../cards/K/ka.md#kadena-slinking-sorcerer) (39.8% of its decks), [Vannifar, Evolved Enigma](../../cards/V/va.md#vannifar-evolved-enigma) (46.2% of its decks), [Missy](../../cards/M/mis.md#missy) (49.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 decks) → [reverse index](../../references/I.md#ixidor-reality-sculptor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ons/89/ixidor-reality-sculptor) · oracle_id `90b98aa7-c8d0-4853-887c-164f8160c3f3` · printing: ONS #89 (2002-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

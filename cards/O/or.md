@@ -367,6 +367,8 @@ schema: 2
   - *2020-09-25* — If a creature on the battlefield or a creature card in a graveyard has {X} in its mana cost, X is considered to be 0.
   - *2020-09-25* — If another Cleric you control dies at the same time as Orah, Orah's ability triggers for that Cleric in addition to triggering for itself.
   - *2020-09-25* — Orah's ability can target a Cleric card that was put into your graveyard at the same time as the Cleric whose death caused the ability to trigger.
+- **Lore:** ✅ Presented with an official backstory on [The Legends of Zendikar Rising](https://magic.wizards.com/en/news/feature/legends-zendikar-rising-2020-09-15) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 49 combos; most popular [Orah, Skyclave Hierophant + Doomed Necromancer + Lightning Greaves + Phyrexian Altar](https://commanderspellbook.com/combo/876-1312-3081-4050/) (Infinite death triggers, Infinite creature ETB) · EDHREC as commander: 3,695 decks; highest synergy [Taborax, Hope's Demise](../../cards/T/ta.md#taborax-hopes-demise) (+85%), [Edgewalker](../../cards/E/ed.md#edgewalker) (+83%), [Starlit Sanctum](../../cards/S/sta.md#starlit-sanctum) (+75%) · EDHREC: in 2,961 decks; most often under [Ravos, Soultender // Tymna the Weaver](../../cards/R/rav.md#ravos-soultender) (55.5% of its decks), [Athreos, God of Passage](../../cards/A/at.md#athreos-god-of-passage) (2.3% of its decks), [Elas il-Kor, Sadistic Pilgrim](../../cards/E/el.md#elas-il-kor-sadistic-pilgrim) (2.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/znr/233/orah-skyclave-hierophant) · oracle_id `fe348f31-4530-4c59-9ee2-6839eab973da` · printing: ZNR #233 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oran-Rief Hydra
@@ -657,6 +659,8 @@ schema: 2
   - *2022-09-09* — If Orca, Siege Demon's last ability has multiple targets, and some but not all of them are illegal targets when the ability resolves, Orca, Siege Demon will still deal damage to the remaining legal targets according to the original damage division.
   - *2022-09-09* — If all of the targets are illegal when the ability tries to resolve, it won't resolve and none of its effects will happen. Nothing will be dealt damage.
   - *2022-09-09* — You announce how the damage will be divided as part of putting Orca, Siege Demon's last triggered ability on the stack. Each chosen target must receive at least 1 damage.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 2 combos; most popular [Orca, Siege Demon + Animation Module + Ashnod's Altar](https://commanderspellbook.com/combo/2034-3490-4362/) (Infinite +1/+1 counters on a creature, Infinite colorless mana) · EDHREC as commander: 200 decks; highest synergy [Fling](../../cards/F/fl.md#fling) (+55%), [Lagomos, Hand of Hatred](../../cards/L/la.md#lagomos-hand-of-hatred) (+48%), [Supernatural Stamina](../../cards/S/sup.md#supernatural-stamina) (+48%) · EDHREC: in 5,715 decks; most often under [Raphael, Fiendish Savior](../../cards/R/rap.md#raphael-fiendish-savior) (18.6% of its decks), [Akul the Unrepentant](../../cards/A/ak.md#akul-the-unrepentant) (26.8% of its decks), [Kaalia of the Vast](../../cards/K/ka.md#kaalia-of-the-vast) (1.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmc/37/orca-siege-demon) · oracle_id `b8600894-3229-420e-9464-d92cf0a7d0fc` · printing: DMC #37 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Orc General
@@ -1896,6 +1900,8 @@ schema: 2
   - *2026-06-29* — If your third legendary, Saga, or artifact permanent enters the battlefield and then one of those permanents leaves the battlefield immediately afterwards (most likely due to the "legend rule" or due to being a creature with 0 toughness), you get an enduring story before it leaves the battlefield.
   - *2026-06-29* — Once you have an enduring story, you have it for the rest of the game, even if you lose control of some or all of your storied permanents. The enduring story designation is on the player and can't be removed by any effect.
   - *2026-06-29* — Storied isn't a triggered ability and doesn't use the stack. Players can respond to a spell that will give you your third legendary, Saga, and/or artifact permanent, but they can't respond to you getting an enduring story once you control that third permanent.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 4 decks; highest synergy [Barkform Harvester](../../cards/B/bar.md#barkform-harvester) (+50%), [Brave-Kin Duo](../../cards/B/br.md#brave-kin-duo) (+50%), [Captivating Cave](../../cards/C/cap.md#captivating-cave) (+50%) · EDHREC: in 5,464 decks; most often under [Thorin, King of Durin's Folk](../../cards/T/tho.md#thorin-king-of-durins-folk) (33.3% of its decks), [Thorin Oakenshield](../../cards/T/tho.md#thorin-oakenshield) (70.4% of its decks), [Dáin of the Ancient Halls](../../cards/D/da.md#dáin-of-the-ancient-halls) (25.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hob/23/ori-keeper-of-songs) · oracle_id `69cc089a-abd3-4edb-bc79-f02daac70837` · printing: HOB #23 (2026-08-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Orim, Samite Healer
@@ -1910,6 +1916,8 @@ schema: 2
   > *—Orim, Samite healer*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26407 · Game Changer: no · Can be commander: Yes (legendary creature) · Reserved List
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 78 decks; highest synergy [Battletide Alchemist](../../cards/B/bat.md#battletide-alchemist) (+61%), [Battlefield Medic](../../cards/B/bat.md#battlefield-medic) (+60%), [Master Apothecary](../../cards/M/mas.md#master-apothecary) (+58%) · EDHREC: in 536 decks; most often under [Sisay, Weatherlight Captain](../../cards/S/si.md#sisay-weatherlight-captain) (0.7% of its decks), [Atalya, Samite Master](../../cards/A/at.md#atalya-samite-master) (25.4% of its decks), [Minwu, White Mage](../../cards/M/min.md#minwu-white-mage) (0.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tpr/21/orim-samite-healer) · oracle_id `9d405e5b-0cee-4c8f-b3ef-65765853b8a4` · printing: TPR #21 (2015-05-06) · [rulings](https://api.scryfall.com/cards/7567daf2-343f-4d62-977e-0b3b6001d57a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Orim's Chant
@@ -2008,6 +2016,8 @@ schema: 2
 - **Rulings** (2):
   - *2026-06-29* — Artifacts and enchantments destroyed this way count toward the life gained even if they're put into a zone other than a graveyard.
   - *2026-06-29* — You won't gain life for an artifact or enchantment that isn't actually destroyed (for example, if it has indestructible).
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 16 decks; highest synergy [Ephemerate](../../cards/E/ep.md#ephemerate) (+62%), [Mycosynth Lattice](../../cards/M/my.md#mycosynth-lattice) (+62%), [Ghostly Prison](../../cards/G/gh.md#ghostly-prison) (+54%) · EDHREC: in 14,154 decks; most often under [Thorin, King of Durin's Folk](../../cards/T/tho.md#thorin-king-of-durins-folk) (70.1% of its decks), [Dáin of the Ancient Halls](../../cards/D/da.md#dáin-of-the-ancient-halls) (57.1% of its decks), [Terra, Herald of Hope](../../cards/T/te.md#terra-herald-of-hope) (11.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hoc/6/ori-plate-stacker) · oracle_id `7fc9f7e3-5347-4ea1-9bec-9e04ed78d16a` · printing: HOC #6 (2026-08-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oriq Loremage
@@ -2035,6 +2045,8 @@ schema: 2
 - **Keywords:** Grandeur
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25184 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 64 decks; highest synergy [Palace Guard](../../cards/P/pa.md#palace-guard) (+63%), [Protector of the Crown](../../cards/P/pr.md#protector-of-the-crown) (+54%), [Approach of the Second Sun](../../cards/A/ap.md#approach-of-the-second-sun) (+50%) · EDHREC: in 735 decks; most often under [Hashaton, Scarab's Fist](../../cards/H/ha.md#hashaton-scarabs-fist) (0.3% of its decks), [Orim, Samite Healer](../../cards/O/or.md#orim-samite-healer) (29.5% of its decks), [The Ever-Changing 'Dane](../../cards/T/thee.md#the-ever-changing-dane) (1.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fut/28/oriss-samite-guardian) · oracle_id `8d6e0dab-400a-4761-8343-92c7eb7e8735` · printing: FUT #28 (2007-05-04) · [rulings](https://api.scryfall.com/cards/7a9a3aeb-a316-4b1e-927b-36c3f999f2c3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ormacar, Relic Wraith
@@ -2049,6 +2061,8 @@ schema: 2
 - **Keywords:** Lifelink, Vigilance, Menace
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ph23/2/ormacar-relic-wraith) · oracle_id `db957d57-d36d-4d7b-92ae-5a1385a1be97` · printing: PH23 #2 (2025-08-24) · [rulings](https://api.scryfall.com/cards/ed39da4b-d24e-44bb-a534-a43b63520692/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ormos, Archive Keeper
@@ -2066,6 +2080,8 @@ schema: 2
   - *2020-06-23* — If a spell or ability causes you to put a card into your hand without specifically using the word "draw," it's not a card drawn.
   - *2020-06-23* — If two or more replacement effects would apply to a card-drawing event, the player drawing the card chooses the order in which to apply them.
   - *2020-06-23* — If you're instructed to draw more than one card and you have fewer cards in your library, you draw each card in your library, then you begin replacing draws with counters for the remaining draws.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 5 combos; most popular [Ormos, Archive Keeper + Mind Over Matter + Teferi's Ageless Insight](https://commanderspellbook.com/combo/2954-4067-5042/) (Infinite card draw, Infinite draw triggers) · EDHREC as commander: 446 decks; highest synergy [Body of Knowledge](../../cards/B/bo.md#body-of-knowledge) (+51%), [Teferi's Ageless Insight](../../cards/T/te.md#teferis-ageless-insight) (+50%), [Wizard Class](../../cards/W/wi.md#wizard-class) (+43%) · EDHREC: in 7,571 decks; most often under [Unesh, Criosphinx Sovereign](../../cards/U/un.md#unesh-criosphinx-sovereign) (45.5% of its decks), [Atemsis, All-Seeing](../../cards/A/at.md#atemsis-all-seeing) (16.8% of its decks), [Vnwxt, Verbose Host](../../cards/V/vn.md#vnwxt-verbose-host) (2.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/jmp/13/ormos-archive-keeper) · oracle_id `06d60b71-a9f9-4a7f-ad69-15d760b6e5c3` · printing: JMP #13 (2020-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ornamental Courage
@@ -2335,6 +2351,8 @@ schema: 2
   - *2026-01-27* — Although a creature put onto the battlefield this way is attacking, it was never declared as an attacking creature. Abilities that trigger whenever a creature attacks won't trigger when that creature enters attacking.
   - *2026-01-27* — If a creature spell's sneak cost was paid, the creature it becomes enters tapped and attacking the same player, planeswalker, or battle as the creature that was returned to its owner's hand to pay its sneak cost. This is a rule specific to sneak; in other cases, when a creature is put onto the battlefield attacking, that creature's controller chooses which player, planeswalker, or battle it's attacking.
   - *2026-01-27* — Spells can only be cast for their sneak costs any time you could play an instant during the declare blockers step on your turn (after your opponent has decided whether to block).
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 23 decks; highest synergy [Virus Beetle](../../cards/V/vi.md#virus-beetle) (+37%), [Murder](../../cards/M/mu.md#murder) (+34%), [Pain 101](../../cards/P/pa.md#pain-101) (+33%) · EDHREC: in 7,960 decks; most often under [Splinter, Radical Rat](../../cards/S/spl.md#splinter-radical-rat) (43.7% of its decks), [Dark Leo & Shredder](../../cards/D/da.md#dark-leo--shredder) (70.8% of its decks), [Yuriko, the Tiger's Shadow](../../cards/Y/yu.md#yuriko-the-tigers-shadow) (5.7% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmt/68/oroku-saki-shredder-rising) · oracle_id `d14f620c-0fbd-485c-9fe4-34949e742147` · printing: TMT #68 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oros, the Avenger
@@ -2348,6 +2366,8 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19548 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 399 decks; highest synergy [Basilisk Collar](../../cards/B/bas.md#basilisk-collar) (+57%), [Brash Taunter](../../cards/B/br.md#brash-taunter) (+46%), [Stuffy Doll](../../cards/S/stu.md#stuffy-doll) (+43%) · EDHREC: in 2,040 decks; most often under [Kaalia of the Vast](../../cards/K/ka.md#kaalia-of-the-vast) (2.3% of its decks), [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (0.5% of its decks), [Scion of the Ur-Dragon](../../cards/S/sc.md#scion-of-the-ur-dragon) (2.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cma/188/oros-the-avenger) · oracle_id `454b898f-b134-4d63-ae7b-1e736964cd48` · printing: CMA #188 (2017-06-09) · [rulings](https://api.scryfall.com/cards/fc4d7aa2-ee1b-435c-8876-44111fafc97a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Orphans of the Wheat
@@ -2446,6 +2466,8 @@ schema: 2
   - *2026-03-20* — Once you determine the cost to cast Orysa, you may activate mana abilities to pay that cost. If the total toughness of creatures you control changes while activating mana abilities, the cost to cast Orysa remains what you previously determined.
   - *2026-03-20* — The first step of casting a spell is to move it to the stack. If this causes the total toughness of creatures you control to change (perhaps because you control a creature whose toughness is determined by the number of cards in your hand), that new toughness will be used to determine whether or not the cost reduction from Orysa's first ability applies.
   - *2026-03-20* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions (such as that of Orysa's first ability). The mana value of the spell is determined by only its mana cost, no matter what the total cost to cast that spell was.
+- **Lore:** ✅ Presented with an official backstory on [The Legends of Secrets of Strixhaven](https://magic.wizards.com/en/news/magic-story/the-legends-of-secrets-of-strixhaven) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Orysa, Tide Choreographer + Deadeye Navigator + Mind Over Matter](https://commanderspellbook.com/combo/1409-4067-7432/) (Infinite draw triggers, Infinite looting) · EDHREC as commander: 76 decks; highest synergy [Essence Flux](../../cards/E/es.md#essence-flux) (+71%), [Blur](../../cards/B/blu.md#blur) (+65%), [Planar Incision](../../cards/P/pl.md#planar-incision) (+62%) · EDHREC: in 3,210 decks; most often under [Hakbal of the Surging Soul](../../cards/H/ha.md#hakbal-of-the-surging-soul) (3.1% of its decks), [Namor the Sub-Mariner](../../cards/N/na.md#namor-the-sub-mariner) (4.0% of its decks), [Prismari, the Inspiration](../../cards/P/pr.md#prismari-the-inspiration) (1.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sos/62/orysa-tide-choreographer) · oracle_id `cf56a5b4-48fa-4d53-a4b9-14afe079c1d3` · printing: SOS #62 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Orzhov Advokist

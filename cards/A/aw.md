@@ -302,6 +302,8 @@ schema: 2
   > During deck construction, name a Nephilim card originally printed in Guildpact. Awoken Nephilim has that card's color identity and is a copy of that card in all zones except it's also Legendary.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ11a/awoken-nephilim) · oracle_id `b890b2d4-4baa-4be6-996f-5333a4a767c8` · printing: UNK #RZ11a (2023-07-29) · [rulings](https://api.scryfall.com/cards/0ec501f0-6eb7-46d4-a679-7545a49b6c64/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### AWOL

@@ -363,6 +363,8 @@ schema: 2
 - **Rulings** (2):
   - *2009-10-01* — You don’t name a card until the ability resolves. Once you name a card, it’s too late for the targeted opponent to respond.
   - *2009-10-01* — You may activate the ability only during your turn, but you may do so any time you have priority. (In other words, it’s not restricted to only the times you could cast a sorcery.)
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 545 decks; highest synergy [Telepathy](../../cards/T/te.md#telepathy) (+81%), [Glasses of Urza](../../cards/G/gl.md#glasses-of-urza) (+79%), [Seer's Vision](../../cards/S/see.md#seers-vision) (+71%) · EDHREC: in 261 decks; most often under [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.1% of its decks), [Nicol Bolas](../../cards/N/ni.md#nicol-bolas) (1.5% of its decks), [Dakkon Blackblade](../../cards/D/da.md#dakkon-blackblade) (1.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me3/162/nebuchadnezzar) · oracle_id `7c48448e-4e13-4cda-999e-e06ae0f7dcea` · printing: ME3 #162 (2009-09-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nebula Dragon
@@ -1512,6 +1514,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17792 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2012-07-01* — Nefarox's last ability will trigger and resolve before blockers are declared.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 121 decks; highest synergy [Cathedral of War](../../cards/C/cat.md#cathedral-of-war) (+74%), [Duty-Bound Dead](../../cards/D/du.md#duty-bound-dead) (+64%), [Knight of Infamy](../../cards/K/kn.md#knight-of-infamy) (+64%) · EDHREC: in 3,226 decks; most often under [Isshin, Two Heavens as One](../../cards/I/is.md#isshin-two-heavens-as-one) (0.9% of its decks), [Jin Sakai, Ghost of Tsushima](../../cards/J/ji.md#jin-sakai-ghost-of-tsushima) (1.3% of its decks), [Be'lakor, the Dark Master](../../cards/B/be.md#belakor-the-dark-master) (1.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m13/103/nefarox-overlord-of-grixis) · oracle_id `0632f0f9-8d4f-4e94-8b53-1275b7f21a57` · printing: M13 #103 (2012-07-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nefashu
@@ -1670,6 +1674,8 @@ schema: 2
 - **Rulings** (2):
   - *2017-04-18* — Neheb is affected by its own power-modifying ability once you have one or zero cards in hand.
   - *2017-04-18* — When Neheb's triggered ability resolves, first the player whose turn it is chooses a card to discard, then each other player in turn order chooses a card to discard, then all of those cards are discarded simultaneously. No one sees what the other players are discarding before deciding which card to discard.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 974 decks; highest synergy [Felhide Petrifier](../../cards/F/fe.md#felhide-petrifier) (+90%), [Kragma Warcaller](../../cards/K/kr.md#kragma-warcaller) (+90%), [Rageblood Shaman](../../cards/R/rag.md#rageblood-shaman) (+90%) · EDHREC: in 3,022 decks; most often under [Sethron, Hurloon General](../../cards/S/set.md#sethron-hurloon-general) (94.5% of its decks), [Mogis, God of Slaughter](../../cards/M/mog.md#mogis-god-of-slaughter) (4.2% of its decks), [Magar of the Magic Strings](../../cards/M/mag.md#magar-of-the-magic-strings) (1.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/akh/203/neheb-the-worthy) · oracle_id `092847a7-a238-4acf-9dcd-be6f3e6a6b93` · printing: AKH #203 (2017-04-28) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Neighborhood Guardian
@@ -2003,6 +2009,8 @@ schema: 2
   > *When it awoke, the five stirred from their slumber.*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #22092 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1,592 decks; highest synergy [Ink-Treader Nephilim](../../cards/I/ink.md#ink-treader-nephilim) (+78%), [Yore-Tiller Nephilim](../../cards/Y/yo.md#yore-tiller-nephilim) (+74%), [Dune-Brood Nephilim](../../cards/D/du.md#dune-brood-nephilim) (+72%) · EDHREC: in 152 decks; most often under [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (0.4% of its decks), [Morophon, the Boundless](../../cards/M/mor.md#morophon-the-boundless) (1.2% of its decks), [Rukarumel, Biologist](../../cards/R/ru.md#rukarumel-biologist) (2.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbc/47/nephilim-epochal) · oracle_id `c1198033-47bc-4bee-a3a5-3917dae5cba3` · printing: MBC #47 (2026-10-19) · [rulings](https://api.scryfall.com/cards/0d2ca6c6-f94f-4a2a-b9df-d67f9c8aae76/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nerd Rage
@@ -2991,6 +2999,8 @@ schema: 2
 - **Rulings** (2):
   - *2023-09-01* — Enchantment tokens (such as Roles) that are sacrificed, destroyed, or would otherwise go to the graveyard are put into their owner's graveyard before ceasing to exist. If you controlled the token, Neva's ability will trigger.
   - *2023-09-01* — If Neva leaves the battlefield while it has an Aura you control attached to it or at the same time as another creature with an Aura you control attached to it, its ability won't trigger for those enchantments unless they were destroyed by the same effect that caused Neva to leave the battlefield.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 568 decks; highest synergy [Ashiok's Reaper](../../cards/A/as.md#ashioks-reaper) (+62%), [Wicked Visitor](../../cards/W/wi.md#wicked-visitor) (+56%), [Seal of Cleansing](../../cards/S/sea.md#seal-of-cleansing) (+55%) · EDHREC: in 11,506 decks; most often under [Eriette of the Charmed Apple](../../cards/E/er.md#eriette-of-the-charmed-apple) (29.7% of its decks), [Narci, Fable Singer](../../cards/N/na.md#narci-fable-singer) (14.7% of its decks), [Eriette, the Beguiler](../../cards/E/er.md#eriette-the-beguiler) (10.8% of its decks) — *Guidance (Oracle pattern)* — packages: [Graveyard: Recursion to hand](../../EDH%20Packages.md#graveyard-recursion-to-hand) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/209/neva-stalked-by-nightmares) · oracle_id `ba5895e1-f12b-43c7-b47c-376588d9d2d2` · printing: WOE #209 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Neverending Torment
@@ -3159,6 +3169,8 @@ schema: 2
 - **Rulings** (2):
   - *2020-11-10* — If you choose to pay {1} for the last ability, a second triggered ability triggers. Players may respond to that reflexive triggered ability before artifacts, creatures, and enchantments are destroyed.
   - *2020-11-10* — Nevinyrral can't be the target of artifact, creature, or enchantment spells your opponents control. (This is mostly Auras, but also includes mutating creature spells.) Nevinyrral can't be the target of abilities of artifacts, creatures, or enchantments your opponents control. Nevinyrral also can't be the target of abilities of artifact, creature, or enchantment cards in zones other than the battlefield if those abilities are controlled by an opponent.
+- **Lore:** ✅ Presented with an official backstory on [The Legendary Characters of Commander Legends, Part 2](https://magic.wizards.com/en/news/card-preview/legendary-characters-commander-legends-part-2-2020-11-06) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 11 combos; most popular [Nevinyrral, Urborg Tyrant + Phyrexian Altar](https://commanderspellbook.com/combo/2782-4050/) (Infinite colored mana, Infinite death triggers) · EDHREC as commander: 2,109 decks; highest synergy [Diregraf Captain](../../cards/D/di.md#diregraf-captain) (+45%), [Ratadrabik of Urborg](../../cards/R/rat.md#ratadrabik-of-urborg) (+42%), [Rooftop Storm](../../cards/R/ro.md#rooftop-storm) (+42%) · EDHREC: in 2,712 decks; most often under [Varina, Lich Queen](../../cards/V/va.md#varina-lich-queen) (8.6% of its decks), [Temmet, Naktamun's Will](../../cards/T/te.md#temmet-naktamuns-will) (2.8% of its decks), [Hashaton, Scarab's Fist](../../cards/H/ha.md#hashaton-scarabs-fist) (0.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmr/287/nevinyrral-urborg-tyrant) · oracle_id `3ddde895-12aa-488a-94fb-27a1064bdb72` · printing: CMR #287 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nev, the Practical Dean
@@ -3472,6 +3484,8 @@ schema: 2
 - **Rulings** (2):
   - *2022-10-07* — If the card in your opponent's graveyard isn't a legal target as the ability tries to resolve, it will be removed from the stack and your opponent won't get to choose a permanent card from your graveyard.
   - *2022-10-07* — You choose the target card in your opponent's graveyard as you put the triggered ability on the stack. That opponent chooses the card in your graveyard as the ability resolves.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 693 decks; highest synergy [Key to the City](../../cards/K/ke.md#key-to-the-city) (+72%), [Duelist's Heritage](../../cards/D/du.md#duelists-heritage) (+58%), [Angel of the Ruins](../../cards/A/an.md#angel-of-the-ruins) (+57%) · EDHREC: in 3,215 decks; most often under [Marneus Calgar](../../cards/M/mar.md#marneus-calgar) (3.9% of its decks), [Ardbert, Warrior of Darkness](../../cards/A/ard.md#ardbert-warrior-of-darkness) (5.0% of its decks), [Inquisitor Greyfax](../../cards/I/inq.md#inquisitor-greyfax) (9.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/40k/135/neyam-shai-murad) · oracle_id `9466cfc1-a8fe-44a0-abd2-5d2dfe7110e0` · printing: 40K #135 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Neyith of the Dire Hunt

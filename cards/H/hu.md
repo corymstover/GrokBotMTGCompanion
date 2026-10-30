@@ -165,6 +165,8 @@ schema: 2
   > *"Virile in war, he kept the north in fear; His prodigies subdued the western sphere."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29415 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 19 decks; highest synergy [Puresteel Paladin](../../cards/P/pu.md#puresteel-paladin) (+77%), [Genji Glove](../../cards/G/ge.md#genji-glove) (+75%), [Sram, Senior Edificer](../../cards/S/sr.md#sram-senior-edificer) (+69%) · EDHREC: in 256 decks; most often under [Liu Bei, Lord of Shu](../../cards/L/li.md#liu-bei-lord-of-shu) (69.7% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.1% of its decks), [Kenrith, the Returned King](../../cards/K/ke.md#kenrith-the-returned-king) (0.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ptk/8/huang-zhong-shu-general) · oracle_id `7d6c4290-d46d-4b98-805c-3f537462c4c8` · printing: PTK #8 (1999-05-01) · [rulings](https://api.scryfall.com/cards/c079037c-f4cf-423f-ad15-ee57136d6148/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Huatli, Dinosaur Knight
@@ -336,6 +338,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14603 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2013-09-20* — If a turn has multiple combat phases, the ability can only be activated before the beginning of the declare attackers step of the first combat phase in that turn.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 74 combos; most popular [Hua Tuo, Honored Physician + Verdant Succession + Thornbite Staff + Altar of Dementia](https://commanderspellbook.com/combo/2178-4147-4215-5256/) (Infinite creature LTB, Infinite creature ETB) · EDHREC as commander: 342 decks; highest synergy [Call of the Wild](../../cards/C/cal.md#call-of-the-wild) (+72%), [Zoologist](../../cards/Z/zo.md#zoologist) (+64%), [Aid from the Cowl](../../cards/A/ai.md#aid-from-the-cowl) (+60%) · EDHREC: in 5,560 decks; most often under [Vaevictis Asmadi, the Dire](../../cards/V/va.md#vaevictis-asmadi-the-dire) (38.1% of its decks), [Hans Eriksson](../../cards/H/ha.md#hans-eriksson) (60.9% of its decks), [Reki, the History of Kamigawa](../../cards/R/rek.md#reki-the-history-of-kamigawa) (20.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/H.md#hua-tuo-honored-physician)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c13/149/hua-tuo-honored-physician) · oracle_id `00284955-0a1b-4939-9567-a7d34cbcee51` · printing: C13 #149 (2013-11-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -418,6 +422,8 @@ schema: 2
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17496 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 20 decks; highest synergy [Geosurge](../../cards/G/ge.md#geosurge) (+67%), [Irencrag Feat](../../cards/I/ir.md#irencrag-feat) (+67%), [Chandra's Ignition](../../cards/C/cha.md#chandras-ignition) (+65%) · EDHREC: in 3,758 decks; most often under [Bruce Banner](../../cards/B/br.md#bruce-banner--the-incredible-hulk) (22.1% of its decks), [Captain America, Team Leader](../../cards/C/cap.md#captain-america-team-leader) (5.4% of its decks), [Nick Fury, Agent of S.H.I.E.L.D.](../../cards/N/ni.md#nick-fury-agent-of-shield) (3.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/502/hulk-always-angry) · oracle_id `495054c8-d21d-4b89-9853-bb299d30ef63` · printing: MSC #502 (2026-06-26) · [rulings](https://api.scryfall.com/cards/eab5ca32-fe4c-41d2-9b80-9992ee482c01/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hulk, Bruce Banner
@@ -432,6 +438,8 @@ schema: 2
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21880 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 2 decks; highest synergy [Colossus Hammer](../../cards/C/col.md#colossus-hammer) (+98%), [Rabbit Battery](../../cards/R/rab.md#rabbit-battery) (+98%), [Raubahn, Bull of Ala Mhigo](../../cards/R/rau.md#raubahn-bull-of-ala-mhigo) (+98%) · EDHREC: in 1,655 decks; most often under [Bruce Banner](../../cards/B/br.md#bruce-banner--the-incredible-hulk) (13.1% of its decks), [Captain America, Team Leader](../../cards/C/cap.md#captain-america-team-leader) (1.5% of its decks), [Hulk, Gamma Goliath](../../cards/H/hu.md#hulk-gamma-goliath) (17.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/850/hulk-bruce-banner) · oracle_id `1f14d336-71ef-4e3f-b8e0-42585af8db40` · printing: MSC #850 (2026-06-26) · [rulings](https://api.scryfall.com/cards/54e1b2c0-76c6-42d9-9a2b-0ebb605ad1a0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hulk, Brutal Brawler
@@ -446,6 +454,8 @@ schema: 2
   > *"Puny Banner thinks he can keep me locked away! I want to be free!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16272 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 39 decks; highest synergy [Kami of Whispered Hopes](../../cards/K/ka.md#kami-of-whispered-hopes) (+70%), [Hardened Scales](../../cards/H/ha.md#hardened-scales) (+68%), [High Score](../../cards/H/hi.md#high-score) (+65%) · EDHREC: in 4,588 decks; most often under [Bruce Banner](../../cards/B/br.md#bruce-banner--the-incredible-hulk) (28.9% of its decks), [Nick Fury, Agent of S.H.I.E.L.D.](../../cards/N/ni.md#nick-fury-agent-of-shield) (5.1% of its decks), [Hulk, Gamma Goliath](../../cards/H/hu.md#hulk-gamma-goliath) (44.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/833/hulk-brutal-brawler) · oracle_id `6a953b71-2994-4c08-9602-b2bbce5b5b4f` · printing: MSC #833 (2026-06-26) · [rulings](https://api.scryfall.com/cards/46d9f159-715e-4450-9f83-0fd050e2382e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hulkbuster Armor
@@ -477,6 +487,8 @@ schema: 2
 - **Keywords:** Power-up, Reach, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16299 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 449 decks; highest synergy [She-Hulk, Jade Defender](../../cards/S/she.md#she-hulk-jade-defender) (+90%), [Abomination, Terrifying Titan](../../cards/A/ab.md#abomination-terrifying-titan) (+89%), [Wonder Man, Hollywood Hero](../../cards/W/wo.md#wonder-man-hollywood-hero) (+85%) · EDHREC: in 4,125 decks; most often under [Bruce Banner](../../cards/B/br.md#bruce-banner--the-incredible-hulk) (28.9% of its decks), [Nick Fury, Agent of S.H.I.E.L.D.](../../cards/N/ni.md#nick-fury-agent-of-shield) (16.6% of its decks), [Thanos, the Mad Titan](../../cards/T/tha.md#thanos-the-mad-titan) (3.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/215/hulk-gamma-goliath) · oracle_id `3508fd7d-ca02-47f9-8b0a-525f7bde4f57` · printing: MSH #215 (2026-06-26) · [rulings](https://api.scryfall.com/cards/682b9f91-18bb-4113-9d5c-a381c191def9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hulking Bugbear
@@ -605,6 +617,8 @@ schema: 2
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21912 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 7 decks; highest synergy [Scavenging Ooze](../../cards/S/sc.md#scavenging-ooze) (+64%), [Garruk's Harbinger](../../cards/G/ga.md#garruks-harbinger) (+57%), [Lifecrafter's Gift](../../cards/L/li.md#lifecrafters-gift) (+57%) · EDHREC: in 1,630 decks; most often under [Bruce Banner](../../cards/B/br.md#bruce-banner--the-incredible-hulk) (9.6% of its decks), [Hulk, Gamma Goliath](../../cards/H/hu.md#hulk-gamma-goliath) (28.8% of its decks), [Nick Fury, Agent of S.H.I.E.L.D.](../../cards/N/ni.md#nick-fury-agent-of-shield) (1.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/173/hulkling-burgeoning-bruiser) · oracle_id `03c934a6-be57-480d-8c84-4e46d9ccb406` · printing: MSH #173 (2026-06-26) · [rulings](https://api.scryfall.com/cards/9018477f-a67b-4fa4-8661-11ab91fae863/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hulkling, Young Avenger
@@ -620,6 +634,8 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19666 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 18 decks; highest synergy [Elturel Survivors](../../cards/E/el.md#elturel-survivors) (+60%), [Wiccan, Young Avenger](../../cards/W/wi.md#wiccan-young-avenger) (+55%), [Dreadhorde Arcanist](../../cards/D/dre.md#dreadhorde-arcanist) (+54%) · EDHREC: in 2,532 decks; most often under [Scarlet Witch, Chaotic Avenger](../../cards/S/sc.md#scarlet-witch-chaotic-avenger) (31.1% of its decks), [Bruce Banner](../../cards/B/br.md#bruce-banner--the-incredible-hulk) (4.1% of its decks), [Mister Fantastic](../../cards/M/mis.md#mister-fantastic) (7.7% of its decks) — *Guidance (Oracle pattern)* — packages: [Spellslinger: Cast-trigger payoffs](../../EDH%20Packages.md#spellslinger-cast-trigger-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/H.md#hulkling-young-avenger)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/689/hulkling-young-avenger) · oracle_id `c92f20c4-838d-43a1-8a71-dae205789d94` · printing: MSC #689 (2026-06-26) · [rulings](https://api.scryfall.com/cards/6358d9ec-7542-4364-8bba-ca29fe470338/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -664,6 +680,8 @@ schema: 2
 - **Keywords:** Trample, Double
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15918 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 20 combos; most popular [Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight + Shilgengar, Sire of Famine + Hulk, Strongest There Is](https://commanderspellbook.com/combo/5686-6972-7727/) (Infinite artifact tokens, Infinite Blood tokens) · EDHREC as commander: 132 decks; highest synergy [Doc Samson, Super Psychiatrist](../../cards/D/do.md#doc-samson-super-psychiatrist) (+76%), [Abomination, Irradiated Brute](../../cards/A/ab.md#abomination-irradiated-brute) (+70%), [Branching Evolution](../../cards/B/br.md#branching-evolution) (+69%) · EDHREC: in 4,791 decks; most often under [Bruce Banner](../../cards/B/br.md#bruce-banner--the-incredible-hulk) (43.3% of its decks), [Hulk, Gamma Goliath](../../cards/H/hu.md#hulk-gamma-goliath) (56.7% of its decks), [Jennifer Walters](../../cards/J/je.md#jennifer-walters--the-sensational-she-hulk) (16.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/724/hulk-strongest-there-is) · oracle_id `35daea08-655d-4588-8430-b078769d22b6` · printing: MSC #724 (2026-06-26) · [rulings](https://api.scryfall.com/cards/336a976b-c9db-4fcd-ac57-14eeb97962e8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hull Breach
@@ -771,6 +789,8 @@ schema: 2
   > Whenever Human Torch attacks, you may pay {R}{G}{W}{U}. If you do, until end of turn, whenever he deals combat damage to an opponent, he deals that much damage to each other opponent.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16103 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 667 decks; highest synergy [Kediss, Emberclaw Familiar](../../cards/K/ke.md#kediss-emberclaw-familiar) (+48%), [Seize the Day](../../cards/S/sei.md#seize-the-day) (+44%), [Unstable Molecule Suit](../../cards/U/un.md#unstable-molecule-suit) (+44%) · EDHREC: in 4,073 decks; most often under [Mister Fantastic](../../cards/M/mis.md#mister-fantastic) (67.1% of its decks), [The Fantastic Four](../../cards/T/thef.md#the-fantastic-four) (46.5% of its decks), [Invisible Woman](../../cards/I/inv.md#invisible-woman) (54.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/3/human-torch) · oracle_id `d55cb52d-b35c-4602-a518-cd51f155a2d1` · printing: MSC #3 (2026-06-26) · [rulings](https://api.scryfall.com/cards/bf7b63ef-c7b4-4001-b64a-c7443f5268ba/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Human Torch, Johnny Storm
@@ -785,6 +805,8 @@ schema: 2
 - **Keywords:** Flying, Power-up
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12754 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 23 combos; most popular [Mister Fantastic, Reed Richards + The Thing, Ben Grimm + Invisible Woman, Sue Storm + Human Torch, Johnny Storm](https://commanderspellbook.com/combo/7687-7690-7691-7863/) (Infinite card draw, Infinite draw triggers) · EDHREC as commander: 30 decks; highest synergy [Hawkeye, Young Avenger](../../cards/H/ha.md#hawkeye-young-avenger) (+76%), [Spider-Man, New Champion](../../cards/S/spi.md#spider-man-new-champion) (+66%), [Misty Knight, Hero for Hire](../../cards/M/mis.md#misty-knight-hero-for-hire) (+65%) · EDHREC: in 8,372 decks; most often under [Nick Fury, Agent of S.H.I.E.L.D.](../../cards/N/ni.md#nick-fury-agent-of-shield) (28.5% of its decks), [The Fantastic Four](../../cards/T/thef.md#the-fantastic-four) (53.0% of its decks), [Mister Fantastic](../../cards/M/mis.md#mister-fantastic) (33.9% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 rules) → [reverse index](../../references/H.md#human-torch-johnny-storm)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/136/human-torch-johnny-storm) · oracle_id `5b6f2770-e774-4a77-801f-a3fda093c3dd` · printing: MSH #136 (2026-06-26) · [rulings](https://api.scryfall.com/cards/8f8659f6-a793-4edc-8401-d9126840c1c2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1007,6 +1029,8 @@ schema: 2
 - **Keywords:** Rampage
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30691 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 33 decks; highest synergy [Blackblade Reforged](../../cards/B/bla.md#blackblade-reforged) (+38%), [Nemesis Mask](../../cards/N/ne.md#nemesis-mask) (+36%), [Open the Armory](../../cards/O/op.md#open-the-armory) (+36%) · EDHREC: in 132 decks; most often under [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.1% of its decks), [Chromium](../../cards/C/chr.md#chromium) (2.2% of its decks), [Ayesha Tanaka](../../cards/A/ay.md#ayesha-tanaka) (1.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me3/152/hunding-gjornersen) · oracle_id `dd4f3a78-3167-42d0-8334-5ac36750a253` · printing: ME3 #152 (2009-09-07) · [rulings](https://api.scryfall.com/cards/4049abac-cb54-4af2-b2df-ffb8fdc22e84/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hundred-Battle Veteran
@@ -1926,6 +1950,8 @@ schema: 2
 - **Rulings** (2):
   - *2022-10-14* — Hurkyl need not have been on the battlefield at the time the noncreature spells were cast for the ability to trigger or for the spells to be counted.
   - *2022-10-14* — The card types that a noncreature spell can have are artifact, battle, enchantment, instant, kindred, planeswalker, and sorcery. Subtypes, like Human and Equipment, and supertypes, like snow and legendary, aren't card types.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Urza, Lord High Artificer](../../decks/lore-brothers-war-urza-lord-high-artificer.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 223 decks; highest synergy [Shark Typhoon](../../cards/S/sha.md#shark-typhoon) (+36%), [Witness Protection](../../cards/W/wi.md#witness-protection) (+33%), [Serum Visions](../../cards/S/ser.md#serum-visions) (+27%) · EDHREC: in 5,090 decks; most often under [Gandalf, Party Guest](../../cards/G/ga.md#gandalf-party-guest) (15.3% of its decks), [Y'shtola Rhul](../../cards/Y/ys.md#yshtola-rhul) (19.2% of its decks), [The Archimandrite](../../cards/T/thea.md#the-archimandrite) (15.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 decks) → [reverse index](../../references/H.md#hurkyl-master-wizard)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/51/hurkyl-master-wizard) · oracle_id `957df9f4-73e9-4540-b838-52f65d0c62ee` · printing: BRO #51 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2121,6 +2147,8 @@ schema: 2
 - **Rulings** (2):
   - *2024-11-08* — The value of X is calculated only once, as the reflexive triggered ability resolves.
   - *2024-11-08* — You don't choose a target for Hurska's last ability at the time it triggers. Rather, a second "reflexive" ability triggers when you pay {G/W} this way. You choose a target for that ability as it goes on the stack. Each player may respond to this triggered ability as normal.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1,333 decks; highest synergy [Peregrin Took](../../cards/P/pe.md#peregrin-took) (+73%), [Gilded Goose](../../cards/G/gi.md#gilded-goose) (+71%), [Sam, Loyal Attendant](../../cards/S/sam.md#sam-loyal-attendant) (+71%) · EDHREC: in 3,950 decks; most often under [Frodo, Adventurous Hobbit // Sam, Loyal Attendant](../../cards/F/fr.md#frodo-adventurous-hobbit) (2.4% of its decks), [Duskana, the Rage Mother](../../cards/D/du.md#duskana-the-rage-mother) (4.8% of its decks), [Kudo, King Among Bears](../../cards/K/ku.md#kudo-king-among-bears) (3.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/j25/53/hurska-sweet-tooth) · oracle_id `8d49b6a1-4ae2-4443-a6b3-9ef806cb6fc4` · printing: J25 #53 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hush

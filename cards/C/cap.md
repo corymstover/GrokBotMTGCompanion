@@ -108,6 +108,8 @@ schema: 2
   - *2023-11-10* — When you discover, you must exile cards. The only optional part of the ability is whether you cast the exiled card or put it into your hand.
   - *2023-11-10* — You can tap any two untapped artifacts and/or creatures you control, including creatures you haven't controlled continuously since the beginning of your most recent turn, for Caparocti Sunborn's ability.
   - *2023-11-10* — You exile the cards face up. All players will be able to see them.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 505 decks; highest synergy [Curator of Sun's Creation](../../cards/C/cu.md#curator-of-suns-creation) (+63%), [Etali's Favor](../../cards/E/et.md#etalis-favor) (+48%), [Long-Range Sensor](../../cards/L/lo.md#long-range-sensor) (+34%) · EDHREC: in 7,734 decks; most often under [General Ferrous Rokiric](../../cards/G/ge.md#general-ferrous-rokiric) (16.4% of its decks), [Rocco, Street Chef](../../cards/R/ro.md#rocco-street-chef) (5.9% of its decks), [Pia Nalaar, Consul of Revival](../../cards/P/pi.md#pia-nalaar-consul-of-revival) (15.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lci/226/caparocti-sunborn) · oracle_id `7f87a770-af47-4345-8dc1-0a1e8bae75c5` · printing: LCI #226 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Capashen Knight
@@ -384,6 +386,8 @@ schema: 2
   > Whenever Captain America attacks, for each Equipment attached to him, create a 1/1 white Soldier creature token.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18306 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 95 decks; highest synergy [Captain America's Shield](../../cards/C/cap.md#captain-americas-shield) (+71%), [Puresteel Paladin](../../cards/P/pu.md#puresteel-paladin) (+69%), [Super-Soldier Serum](../../cards/S/sup.md#super-soldier-serum) (+54%) · EDHREC: in 3,177 decks; most often under [Captain America, First Avenger](../../cards/C/cap.md#captain-america-first-avenger) (12.9% of its decks), [Captain America, Team Leader](../../cards/C/cap.md#captain-america-team-leader) (4.0% of its decks), [Winter Soldier, Icy Assassin](../../cards/W/wi.md#winter-soldier-icy-assassin) (16.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/587/captain-america-liberator) · oracle_id `26e92eb8-7a23-4e7e-be83-244bb6078606` · printing: MSC #587 (2026-06-26) · [rulings](https://api.scryfall.com/cards/bfa75d51-307f-45da-8fac-81bb32830ee9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Captain America, Living Legend
@@ -414,6 +418,8 @@ schema: 2
 - **Keywords:** Flying, Vigilance, Battalion
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16636 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 12 decks; highest synergy [Fumigate](../../cards/F/fu.md#fumigate) (+68%), [Day of Judgment](../../cards/D/da.md#day-of-judgment) (+61%), [Doomskar](../../cards/D/do.md#doomskar) (+57%) · EDHREC: in 4,361 decks; most often under [Captain America, Team Leader](../../cards/C/cap.md#captain-america-team-leader) (25.5% of its decks), [Nick Fury, Agent of S.H.I.E.L.D.](../../cards/N/ni.md#nick-fury-agent-of-shield) (7.2% of its decks), [Daredevil, Man Without Fear](../../cards/D/da.md#daredevil-man-without-fear) (12.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#captain-america-skybound)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/588/captain-america-skybound) · oracle_id `e9566303-15cf-4444-a044-fc19540f21b6` · printing: MSC #588 (2026-06-26) · [rulings](https://api.scryfall.com/cards/49d952d9-8584-435a-bf45-62bf13887083/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -459,6 +465,8 @@ schema: 2
 - **Keywords:** Lifelink
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20197 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 14 decks; highest synergy [The Falcon, Sam Wilson](../../cards/T/thef.md#the-falcon-sam-wilson) (+78%), [Captain's Defense](../../cards/C/cap.md#captains-defense) (+71%), [Mandroid Squadron](../../cards/M/man.md#mandroid-squadron) (+71%) · EDHREC: in 2,322 decks; most often under [Captain America, Team Leader](../../cards/C/cap.md#captain-america-team-leader) (9.8% of its decks), [Captain America, First Avenger](../../cards/C/cap.md#captain-america-first-avenger) (3.2% of its decks), [Nick Fury, Agent of S.H.I.E.L.D.](../../cards/N/ni.md#nick-fury-agent-of-shield) (2.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#captain-america-steve-rogers)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/835/captain-america-steve-rogers) · oracle_id `d2084a6b-3248-4ed4-8fb5-d9c439d1ee72` · printing: MSC #835 (2026-06-26) · [rulings](https://api.scryfall.com/cards/cdbfb76f-0ec1-445f-8341-0a64f495c79f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -474,6 +482,8 @@ schema: 2
 - **Keywords:** First strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10442 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 153 decks; highest synergy [Agent Phil Coulson](../../cards/A/ag.md#agent-phil-coulson) (+83%), [Captain America, Wings of Freedom](../../cards/C/cap.md#captain-america-wings-of-freedom) (+80%), [Captain America's Shield](../../cards/C/cap.md#captain-americas-shield) (+69%) · EDHREC: in 12,152 decks; most often under [Captain America, Team Leader](../../cards/C/cap.md#captain-america-team-leader) (64.4% of its decks), [Nick Fury, Agent of S.H.I.E.L.D.](../../cards/N/ni.md#nick-fury-agent-of-shield) (40.5% of its decks), [Daredevil, Man Without Fear](../../cards/D/da.md#daredevil-man-without-fear) (65.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/9/captain-america-super-soldier) · oracle_id `ac1b6ffc-12a9-4d9c-a9fc-68a839a40738` · printing: MSH #9 (2026-06-26) · [rulings](https://api.scryfall.com/cards/33631d6c-c584-42ff-afe5-2647b5fb321f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Captain America, Team Leader
@@ -485,6 +495,8 @@ schema: 2
   > Whenever another Hero you control enters, it gains vigilance and haste until end of turn. Put a +1/+1 counter on that Hero and a +1/+1 counter on Captain America.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11580 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 20 combos; most popular [Captain America, Team Leader + Animation Module + Ashnod's Altar + Maskwood Nexus](https://commanderspellbook.com/combo/643-2034-3490-7665/) (Infinite artifact ETB, Infinite artifact LTB) · EDHREC as commander: 6,081 decks; highest synergy [Avengers Tower](../../cards/A/av.md#avengers-tower) (+90%), [Director Nick Fury](../../cards/D/di.md#director-nick-fury) (+90%), [Iron Man, Armored Avenger](../../cards/I/ir.md#iron-man-armored-avenger) (+87%) · EDHREC: in 4,192 decks; most often under [Nick Fury, Agent of S.H.I.E.L.D.](../../cards/N/ni.md#nick-fury-agent-of-shield) (44.9% of its decks), [Director Nick Fury](../../cards/D/di.md#director-nick-fury) (86.2% of its decks), [Captain America, First Avenger](../../cards/C/cap.md#captain-america-first-avenger) (3.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#captain-america-team-leader)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lmar/6/captain-america-team-leader) · oracle_id `916cf34a-fd2c-47fe-bebb-f7b52b3dabed` · printing: LMAR #6 (2026-10-15) · [rulings](https://api.scryfall.com/cards/ff25a4f5-c1de-464b-8153-7678bca847a8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -499,6 +511,8 @@ schema: 2
 - **Keywords:** Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17609 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 7 decks; highest synergy [Captain America, Skybound](../../cards/C/cap.md#captain-america-skybound) (+85%), [Captain America, Steve Rogers](../../cards/C/cap.md#captain-america-steve-rogers) (+85%), [Iconic Shield](../../cards/I/ic.md#iconic-shield) (+85%) · EDHREC: in 3,644 decks; most often under [Captain America, Team Leader](../../cards/C/cap.md#captain-america-team-leader) (21.8% of its decks), [Nick Fury, Agent of S.H.I.E.L.D.](../../cards/N/ni.md#nick-fury-agent-of-shield) (9.7% of its decks), [Captain America, First Avenger](../../cards/C/cap.md#captain-america-first-avenger) (4.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/505/captain-america-unbowed) · oracle_id `4fa2c9cb-106c-482c-9ba7-5bba2ea9e4a3` · printing: MSC #505 (2026-06-26) · [rulings](https://api.scryfall.com/cards/1f482932-a157-4884-934c-20fca1da7a66/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Captain America, Wings of Freedom
@@ -515,6 +529,8 @@ schema: 2
 - **Keywords:** Flying, First strike, Ward
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11789 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 166 decks; highest synergy [Agent Phil Coulson](../../cards/A/ag.md#agent-phil-coulson) (+91%), [Captain America's Shield](../../cards/C/cap.md#captain-americas-shield) (+89%), [Captain America, Super-Soldier](../../cards/C/cap.md#captain-america-super-soldier) (+80%) · EDHREC: in 9,717 decks; most often under [Captain America, Team Leader](../../cards/C/cap.md#captain-america-team-leader) (66.7% of its decks), [Nick Fury, Agent of S.H.I.E.L.D.](../../cards/N/ni.md#nick-fury-agent-of-shield) (34.3% of its decks), [Daredevil, Man Without Fear](../../cards/D/da.md#daredevil-man-without-fear) (60.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#captain-america-wings-of-freedom)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/10/captain-america-wings-of-freedom) · oracle_id `942ac2ac-7528-4768-8398-8520a8ee15e5` · printing: MSH #10 (2026-06-26) · [rulings](https://api.scryfall.com/cards/c87ca9ce-5034-4137-99cc-c2b28f298912/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -546,6 +562,8 @@ schema: 2
   > • Creatures you control get +1/+0 until end of turn.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #30542 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Nim Deathmantle + Ashnod's Altar + Captain James T. Kirk](https://commanderspellbook.com/combo/2034-5003-7805/) (Infinite creature ETB, Infinite creature LTB) · EDHREC as commander: 40 decks; highest synergy [Monument to Endurance](../../cards/M/mon.md#monument-to-endurance) (+55%), [Fear of Missing Out](../../cards/F/fe.md#fear-of-missing-out) (+54%), U.S.S. Enterprise-C, Time-Tossed (+50%) · EDHREC: in 339 decks; most often under [Omnath, Locus of Creation](../../cards/O/om.md#omnath-locus-of-creation) (0.5% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.2% of its decks), [Jiang Yanggu, Alone](../../cards/J/ji.md#jiang-yanggu-alone) (1.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/trk/142/captain-james-t-kirk) · oracle_id `19edde54-153f-46b8-8a8d-a20fdef0667f` · printing: TRK #142 (2026-11-13) · [rulings](https://api.scryfall.com/cards/40a0466d-20bb-4ed5-858d-947fb9144580/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Captain Kathryn Janeway
@@ -559,6 +577,8 @@ schema: 2
 - **Keywords:** Explore
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #24435 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 62 combos; most popular [Altar of Dementia + Captain Kathryn Janeway](https://commanderspellbook.com/combo/5256-7804--5/) (Infinite creature ETB, Infinite creature LTB) · EDHREC as commander: 144 decks; highest synergy [Topography Tracker](../../cards/T/to.md#topography-tracker) (+58%), [Wildgrowth Walker](../../cards/W/wi.md#wildgrowth-walker) (+53%), [Sapling Nursery](../../cards/S/sap.md#sapling-nursery) (+51%) · EDHREC: in 1,252 decks; most often under [Sidisi, Brood Tyrant](../../cards/S/si.md#sidisi-brood-tyrant) (3.2% of its decks), [Omnath, Locus of Creation](../../cards/O/om.md#omnath-locus-of-creation) (0.9% of its decks), [Mole Man, Moloid Master](../../cards/M/mol.md#mole-man-moloid-master) (6.6% of its decks) — *Guidance (Oracle pattern)* — packages: [Lands / landfall: Extra land drops](../../EDH%20Packages.md#lands--landfall-extra-land-drops) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#captain-kathryn-janeway)
 - **Source flags:** [Scryfall](https://scryfall.com/card/trk/187/captain-kathryn-janeway) · oracle_id `d77d1895-ce02-4302-87c9-649e852fd0ea` · printing: TRK #187 (2026-11-13) · [rulings](https://api.scryfall.com/cards/d17ea45c-7f9c-411f-b7d3-ca7100ffe53b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -574,6 +594,8 @@ schema: 2
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #31060 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 125 decks; highest synergy [The Seriema](../../cards/T/thes.md#the-seriema) (+88%), [Dawnsire, Sunstar Dreadnought](../../cards/D/da.md#dawnsire-sunstar-dreadnought) (+87%), [Exploration Broodship](../../cards/E/ex.md#exploration-broodship) (+86%) · EDHREC: in 116 decks; most often under [Infinite Guideline Station](../../cards/I/inf.md#infinite-guideline-station) (1.1% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.1% of its decks), [Sisay, Weatherlight Captain](../../cards/S/si.md#sisay-weatherlight-captain) (0.1% of its decks) — *Guidance (Oracle pattern)* — packages: [Tokens: Anthems](../../EDH%20Packages.md#tokens-anthems) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/trc/85/captain-kirk-boldly-going) · oracle_id `5228fffe-6347-4177-bccb-b15621c7159c` · printing: TRC #85 (2026-11-13) · [rulings](https://api.scryfall.com/cards/6b5d9bd2-cc78-4c30-b6ee-65b76c60a588/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Captain Lannery Storm
@@ -609,6 +631,8 @@ schema: 2
 - **Keywords:** Flying, Indestructible, Double strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13234 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 134 decks; highest synergy [Abandoned Air Temple](../../cards/A/ab.md#abandoned-air-temple) (+67%), [Mikaeus, the Lunarch](../../cards/M/mik.md#mikaeus-the-lunarch) (+59%), [Black Widow, Agile Avenger](../../cards/B/bla.md#black-widow-agile-avenger) (+57%) · EDHREC: in 7,713 decks; most often under [Captain America, Team Leader](../../cards/C/cap.md#captain-america-team-leader) (66.8% of its decks), [Nick Fury, Agent of S.H.I.E.L.D.](../../cards/N/ni.md#nick-fury-agent-of-shield) (26.2% of its decks), [Daredevil, Man Without Fear](../../cards/D/da.md#daredevil-man-without-fear) (28.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/78/captain-marvel-apex-avenger) · oracle_id `6d86d783-7116-4426-8c0f-718c2d904887` · printing: MSC #78 (2026-06-26) · [rulings](https://api.scryfall.com/cards/516e14ce-9cc8-4be3-aacb-ba801f26a6bc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Captain Marvel, Earth's Protector
@@ -623,6 +647,8 @@ schema: 2
 - **Keywords:** Flying, Power-up, Lifelink, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15455 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 39 decks; highest synergy [Super-Soldier Serum](../../cards/S/sup.md#super-soldier-serum) (+41%), [Agent Phil Coulson](../../cards/A/ag.md#agent-phil-coulson) (+40%), [Captain Mar-Vell, Space-Born](../../cards/C/cap.md#captain-mar-vell-space-born) (+40%) · EDHREC: in 5,295 decks; most often under [Nick Fury, Agent of S.H.I.E.L.D.](../../cards/N/ni.md#nick-fury-agent-of-shield) (19.3% of its decks), [Captain America, Team Leader](../../cards/C/cap.md#captain-america-team-leader) (12.9% of its decks), [Daredevil, Man Without Fear](../../cards/D/da.md#daredevil-man-without-fear) (17.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/11/captain-marvel-earths-protector) · oracle_id `2e665a03-bece-43df-bd15-b4496e233f2e` · printing: MSH #11 (2026-06-26) · [rulings](https://api.scryfall.com/cards/eb098550-22e6-4079-8c59-ed9ec2f764e3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Captain Mar-Vell, Space-Born
@@ -638,6 +664,8 @@ schema: 2
 - **Keywords:** Flying, Vigilance, Cosmic Awareness
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15814 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 33 decks; highest synergy [Bender's Waterskin](../../cards/B/be.md#benders-waterskin) (+38%), [Avatar's Wrath](../../cards/A/av.md#avatars-wrath) (+32%), [Joined Researchers](../../cards/J/jo.md#joined-researchers--secret-rendezvous) (+30%) · EDHREC: in 4,992 decks; most often under [Captain America, Team Leader](../../cards/C/cap.md#captain-america-team-leader) (22.9% of its decks), [Nick Fury, Agent of S.H.I.E.L.D.](../../cards/N/ni.md#nick-fury-agent-of-shield) (5.6% of its decks), [Daredevil, Man Without Fear](../../cards/D/da.md#daredevil-man-without-fear) (15.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/12/captain-mar-vell-space-born) · oracle_id `b74c072d-77ac-460d-9d9c-75b25874f58b` · printing: MSH #12 (2026-06-26) · [rulings](https://api.scryfall.com/cards/27924c2f-756c-42af-9830-18a5a2735137/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Captain Marvel, Shooting Star
@@ -652,6 +680,8 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16133 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 63 decks; highest synergy [Ephemerate](../../cards/E/ep.md#ephemerate) (+68%), [Teleportation Circle](../../cards/T/te.md#teleportation-circle) (+67%), [Avatar's Wrath](../../cards/A/av.md#avatars-wrath) (+65%) · EDHREC: in 4,761 decks; most often under [Nick Fury, Agent of S.H.I.E.L.D.](../../cards/N/ni.md#nick-fury-agent-of-shield) (12.0% of its decks), [Captain America, Team Leader](../../cards/C/cap.md#captain-america-team-leader) (10.1% of its decks), [Winota, Joiner of Forces](../../cards/W/wi.md#winota-joiner-of-forces) (4.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/589/captain-marvel-shooting-star) · oracle_id `73fdb375-9c71-421d-8027-8636e3ea8f35` · printing: MSC #589 (2026-06-26) · [rulings](https://api.scryfall.com/cards/bc52fc96-69ea-4eda-97ec-6f54014797c2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Captain N'ghathrod
@@ -737,6 +767,8 @@ schema: 2
   - *2022-10-07* — The Crash Land ability will trigger whenever the Vehicle deals any damage, not only combat damage.
   - *2022-10-07* — The Vehicle will retain any abilities it previously had, as well as gaining crew 2 and the ability to crash into stuff.
   - *2022-10-07* — The target of Rex Nebula's ability will become a Vehicle artifact until end of turn. It will lose all of its previous card types and subtypes, but it will keep any supertypes (such as legendary) it previously had. If the target of Rex Nebula's ability is a creature, it will lose all creature types (such as Zombie) it had until end of turn, and becoming crewed will not cause it to regain those subtypes.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 7 combos; most popular [Captain Rex Nebula + Aetherflux Reservoir + Basilisk Collar](https://commanderspellbook.com/combo/1410-3500-4740/) (Infinite damage, Infinite die rolls) · EDHREC as commander: 1,456 decks; highest synergy [Parhelion II](../../cards/P/pa.md#parhelion-ii) (+62%), [Pia's Revolution](../../cards/P/pi.md#pias-revolution) (+57%), [Salvation Engine](../../cards/S/sal.md#salvation-engine) (+57%) · EDHREC: in 1,558 decks; most often under [Mr. House, President and CEO](../../cards/M/mr.md#mr-house-president-and-ceo) (2.9% of its decks), [Kolodin, Triumph Caster](../../cards/K/ko.md#kolodin-triumph-caster) (1.8% of its decks), [Infinite Guideline Station](../../cards/I/inf.md#infinite-guideline-station) (0.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unf/164/captain-rex-nebula) · oracle_id `984adc49-421b-488f-b316-ed7323c5735b` · printing: UNF #164 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Captain Ripley Vance
@@ -753,6 +785,8 @@ schema: 2
   - *2021-06-18* — Believe it or not, Ripley counts spells that were cast even if they didn't resolve. This means it still counts spells that were countered.
   - *2021-06-18* — Captain Ripley Vance need not be on the battlefield to witness the first two spells being cast. As long as it's already on the battlefield when you cast the third spell of a turn, its ability triggers.
   - *2021-06-18* — Copying a spell is not the same as casting a spell.
+- **Lore:** ✅ Presented with an official backstory on [The Returning Legends of Modern Horizons 2](https://magic.wizards.com/en/news/feature/returning-legends-modern-horizons-2-2021-06-10) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 475 decks; highest synergy [Crash Through](../../cards/C/cr.md#crash-through) (+56%), [Fists of Flame](../../cards/F/fi.md#fists-of-flame) (+52%), [Expedite](../../cards/E/ex.md#expedite) (+50%) · EDHREC: in 3,487 decks; most often under [Breeches, Brazen Plunderer // Malcolm, Keen-Eyed Navigator](../../cards/B/br.md#breeches-brazen-plunderer) (7.0% of its decks), [Admiral Beckett Brass](../../cards/A/ad.md#admiral-beckett-brass) (3.9% of its decks), [Edward Kenway](../../cards/E/ed.md#edward-kenway) (1.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/209/captain-ripley-vance) · oracle_id `eefeeab1-b9f2-451a-9250-eb7b54d00fc1` · printing: CMM #209 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Captain's Call
@@ -887,6 +921,8 @@ schema: 2
   > *"To be a successful cutthroat, you have to truly enjoy the work."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13095 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Presented with an official backstory on [The Legendary Characters of Commander Legends, Part 2](https://magic.wizards.com/en/news/card-preview/legendary-characters-commander-legends-part-2-2020-11-06) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 208 decks; highest synergy [Corsair Captain](../../cards/C/cor.md#corsair-captain) (+71%), [Malcolm, Keen-Eyed Navigator](../../cards/M/mal.md#malcolm-keen-eyed-navigator) (+69%), [Merchant Raiders](../../cards/M/me.md#merchant-raiders) (+69%) · EDHREC: in 7,327 decks; most often under [Breeches, Brazen Plunderer // Malcolm, Keen-Eyed Navigator](../../cards/B/br.md#breeches-brazen-plunderer) (48.4% of its decks), [Admiral Beckett Brass](../../cards/A/ad.md#admiral-beckett-brass) (34.0% of its decks), [Admiral Brass, Unsinkable](../../cards/A/ad.md#admiral-brass-unsinkable) (14.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmr/273/captain-vargus-wrath) · oracle_id `e73d72f6-5572-47e0-90c9-dc1c146029d7` · printing: CMR #273 (2020-11-20) · [rulings](https://api.scryfall.com/cards/0beafec9-24db-4903-97c1-c5fe740ada83/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Captivating Cave

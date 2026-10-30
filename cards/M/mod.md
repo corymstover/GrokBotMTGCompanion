@@ -104,6 +104,8 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16040 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 8 decks; highest synergy [Greed](../../cards/G/gre.md#greed) (+82%), [Phyrexian Arena](../../cards/P/ph.md#phyrexian-arena) (+61%), [Plumb the Forbidden](../../cards/P/pl.md#plumb-the-forbidden) (+58%) · EDHREC: in 4,898 decks; most often under [Doctor Doom, King of Latveria](../../cards/D/do.md#doctor-doom-king-of-latveria) (14.4% of its decks), [Norman Osborn](../../cards/N/no.md#norman-osborn--green-goblin) (5.5% of its decks), [Loki, the Deceiver](../../cards/L/lo.md#loki-the-deceiver) (13.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/509/modok-evil-intellect) · oracle_id `59f75a19-95cd-4ac8-94f1-27c1f915c34a` · printing: MSC #509 (2026-06-26) · [rulings](https://api.scryfall.com/cards/de490be1-4b62-4dc8-ad00-55de74d501dd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### M'Odo, the Gnarled Oracle
@@ -119,6 +121,8 @@ schema: 2
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2019-12-07* *(Scryfall note)* — The Commander RC has ruled that if your name is printed on the bottom of a Heroes of the Realm card, that card is legal for you in Commander.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ph17/3/modo-the-gnarled-oracle) · oracle_id `8579ff4f-6e23-47dd-bae6-06e827644b20` · printing: PH17 #3 (2018-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Modular Monstrosity

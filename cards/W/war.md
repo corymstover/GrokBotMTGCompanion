@@ -1048,6 +1048,8 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11169 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 21 decks; highest synergy [Steel Overseer](../../cards/S/ste.md#steel-overseer) (+62%), [Iron Man, Tony Stark](../../cards/I/ir.md#iron-man-tony-stark) (+61%), [Akki Battle Squad](../../cards/A/ak.md#akki-battle-squad) (+56%) · EDHREC: in 10,994 decks; most often under [Captain America, Team Leader](../../cards/C/cap.md#captain-america-team-leader) (89.9% of its decks), [Tony Stark](../../cards/T/to.md#tony-stark--the-invincible-iron-man) (26.5% of its decks), [Nick Fury, Agent of S.H.I.E.L.D.](../../cards/N/ni.md#nick-fury-agent-of-shield) (10.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/W.md#war-machine-avenging-arsenal)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/63/war-machine-avenging-arsenal) · oracle_id `b4f35cdd-3857-4a7d-8ef6-df5424dd40e7` · printing: MSC #63 (2026-06-26) · [rulings](https://api.scryfall.com/cards/8c62621f-20b2-4950-a74a-7c2e4fc02e54/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1064,6 +1066,8 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27276 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 14 decks; highest synergy [Borrowing 100,000 Arrows](../../cards/B/bo.md#borrowing-100000-arrows) (+54%), [Verity Circle](../../cards/V/ve.md#verity-circle) (+52%), [Master of Diversion](../../cards/M/mas.md#master-of-diversion) (+50%) · EDHREC: in 516 decks; most often under [Captain America, Team Leader](../../cards/C/cap.md#captain-america-team-leader) (1.4% of its decks), [Nick Fury, Agent of S.H.I.E.L.D.](../../cards/N/ni.md#nick-fury-agent-of-shield) (1.2% of its decks), [Hylda of the Icy Crown](../../cards/H/hy.md#hylda-of-the-icy-crown) (0.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/572/war-machine-james-rhodes) · oracle_id `0a512e55-793e-4936-bd27-80d749f4657e` · printing: MSC #572 (2026-06-26) · [rulings](https://api.scryfall.com/cards/78bb5ed6-bb29-49a9-be0d-d9934f00dddd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### War Machine, Legacy of Iron
@@ -1079,6 +1083,8 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21065 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 47 decks; highest synergy [Puresteel Paladin](../../cards/P/pu.md#puresteel-paladin) (+34%), [Akiri, Fearless Voyager](../../cards/A/ak.md#akiri-fearless-voyager) (+31%), [All That Glitters](../../cards/A/al.md#all-that-glitters) (+29%) · EDHREC: in 1,922 decks; most often under [Captain America, Team Leader](../../cards/C/cap.md#captain-america-team-leader) (6.0% of its decks), [Nick Fury, Agent of S.H.I.E.L.D.](../../cards/N/ni.md#nick-fury-agent-of-shield) (4.5% of its decks), [Daredevil, Man Without Fear](../../cards/D/da.md#daredevil-man-without-fear) (19.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/238/war-machine-legacy-of-iron) · oracle_id `ae6d1aa3-4ceb-4fc1-a3a6-033afd4b3bce` · printing: MSH #238 (2026-06-26) · [rulings](https://api.scryfall.com/cards/433a7d97-9c0b-4f5c-85ad-b55342c02d22/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Warmaker Gunship

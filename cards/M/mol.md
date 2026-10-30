@@ -432,6 +432,8 @@ schema: 2
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12074 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 228 decks; highest synergy [Blanchwood Armor](../../cards/B/bla.md#blanchwood-armor) (+47%), [Explosive Vegetation](../../cards/E/ex.md#explosive-vegetation) (+38%), [Khalni Heart Expedition](../../cards/K/kh.md#khalni-heart-expedition) (+38%) · EDHREC: in 8,665 decks; most often under [Aesi, Tyrant of Gyre Strait](../../cards/A/ae.md#aesi-tyrant-of-gyre-strait) (10.9% of its decks), [Loot, Exuberant Explorer](../../cards/L/lo.md#loot-exuberant-explorer) (4.6% of its decks), [Azusa, Lost but Seeking](../../cards/A/az.md#azusa-lost-but-seeking) (3.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/305/molimo-maro-sorcerer) · oracle_id `b87a2d20-4e9f-4256-9d24-80c38515119e` · printing: CMM #305 (2023-08-04) · [rulings](https://api.scryfall.com/cards/6c5d3eba-e456-47c2-992b-a97ba66e9676/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Molly Hayes, Runaway
@@ -446,6 +448,8 @@ schema: 2
 - **Keywords:** Power-up
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25519 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1 decks; highest synergy [Abstruse Archaic](../../cards/A/ab.md#abstruse-archaic) (+100%), [Akoum Warrior](../../cards/A/ak.md#akoum-warrior--akoum-teeth) (+100%), [Bearer of the Heavens](../../cards/B/be.md#bearer-of-the-heavens) (+100%) · EDHREC: in 772 decks; most often under [Karolina Dean, Runaway](../../cards/K/ka.md#karolina-dean-runaway) (26.3% of its decks), [Hulk, Gamma Goliath](../../cards/H/hu.md#hulk-gamma-goliath) (40.2% of its decks), [Nico Minoru, Runaway](../../cards/N/ni.md#nico-minoru-runaway) (5.9% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Impulse / exile-to-play](../../EDH%20Packages.md#card-advantage-impulse--exile-to-play) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/698/molly-hayes-runaway) · oracle_id `e3f0a2a6-7a42-46bc-9736-d0f6a0ce0b37` · printing: MSC #698 (2026-06-26) · [rulings](https://api.scryfall.com/cards/c0251b8f-e848-47ad-a22c-9594e08f0f5c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Molten Birth
@@ -694,6 +698,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13090 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2025-09-19* — If Molten Man leaves the battlefield before his enters triggered ability resolves, the leaves-the-battlefield triggered ability will resolve first, and you will sacrifice a land before searching your library for a Mountain.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 323 decks; highest synergy [Zell Dincht](../../cards/Z/ze.md#zell-dincht) (+64%), [Koth, Fire of Resistance](../../cards/K/ko.md#koth-fire-of-resistance) (+63%), [Akoum Hellkite](../../cards/A/ak.md#akoum-hellkite) (+56%) · EDHREC: in 7,562 decks; most often under [Norman Osborn](../../cards/N/no.md#norman-osborn--green-goblin) (3.4% of its decks), [Zell Dincht](../../cards/Z/ze.md#zell-dincht) (57.5% of its decks), [Kratos, God of War](../../cards/K/kr.md#kratos-god-of-war) (3.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/spm/84/molten-man-inferno-incarnate) · oracle_id `c6fcf3c1-0626-4d53-92c0-caa22fa61e9a` · printing: SPM #84 (2025-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Molten Monstrosity

@@ -144,6 +144,8 @@ schema: 2
   - *2013-10-17* — If an Equipment attached to a creature becomes a creature, it becomes unattached. An Equipment that is also a creature can’t equip another creature.
   - *2013-10-17* — If the noncreature artifact had any other supertypes, types, or subtypes, it will keep those. In most cases, the artifact creature won’t have any creature types.
   - *2013-10-17* — Multiple instances of deathtouch or lifelink on the same creature are redundant.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 99+ combos; most popular [Sydri, Galvanic Genius + Aetherflux Reservoir](https://commanderspellbook.com/combo/1358-4740/) (Infinite damage) · EDHREC as commander: 3,064 decks; highest synergy [Etherium Sculptor](../../cards/E/et.md#etherium-sculptor) (+62%), [Padeem, Consul of Innovation](../../cards/P/pa.md#padeem-consul-of-innovation) (+56%), [Seat of the Synod](../../cards/S/sea.md#seat-of-the-synod) (+56%) · EDHREC: in 2,538 decks; most often under [Breya, Etherium Shaper](../../cards/B/br.md#breya-etherium-shaper) (2.7% of its decks), [Urza, Chief Artificer](../../cards/U/ur.md#urza-chief-artificer) (2.1% of its decks), [Oloro, Ageless Ascetic](../../cards/O/ol.md#oloro-ageless-ascetic) (1.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c16/224/sydri-galvanic-genius) · oracle_id `4e92d36b-1a35-4fa9-87ea-10eace5a3cc7` · printing: C16 #224 (2016-11-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sygg, River Cutthroat
@@ -181,6 +183,8 @@ schema: 2
 - **Keywords:** Landwalk, Islandwalk
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18037 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 825 decks; highest synergy [Merrow Reejerey](../../cards/M/me.md#merrow-reejerey) (+87%), [Stonybrook Banneret](../../cards/S/sto.md#stonybrook-banneret) (+80%), [Master of the Pearl Trident](../../cards/M/mas.md#master-of-the-pearl-trident) (+79%) · EDHREC: in 2,425 decks; most often under [Sygg, Wanderwine Wisdom](../../cards/S/sy.md#sygg-wanderwine-wisdom--sygg-wanderbrine-shield) (46.8% of its decks), [Tuvasa the Sunlit](../../cards/T/tu.md#tuvasa-the-sunlit) (2.7% of its decks), [Chulane, Teller of Tales](../../cards/C/chu.md#chulane-teller-of-tales) (1.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lrw/251/sygg-river-guide) · oracle_id `73f6da1e-b8ce-4b5a-9da0-84ca67adaf1c` · printing: LRW #251 (2007-10-12) · [rulings](https://api.scryfall.com/cards/fb1aefaf-1b96-4c08-a73e-98e401655965/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sygg's Command
@@ -233,6 +237,8 @@ schema: 2
   - *2025-11-17* — In the Commander variant, a double-faced card's color identity is determined by the mana costs and mana symbols in the rules text of both faces combined. If either face has a color indicator or basic land type, those are also considered. For example, Oko, Lorwyn Liege's color identity is green and blue, since its front face is blue, its rules text contains a green mana symbol, and its back face has a green color indicator as well as a blue mana symbol in its rules text.
   - *2025-11-17* — The back face of a nonmodal double-faced card usually has a color indicator that defines its color.
   - *2025-11-17* — The mana value of a nonmodal double-faced card is the mana value of its front face, no matter which face is up.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 2,470 decks; highest synergy [Deepchannel Duelist](../../cards/D/dee.md#deepchannel-duelist) (+78%), [Sygg's Command](../../cards/S/sy.md#syggs-command) (+72%), [Adept Watershaper](../../cards/A/ad.md#adept-watershaper) (+71%) · EDHREC: in 7,689 decks; most often under [The Destined Warrior](../../cards/T/thed.md#the-destined-warrior) (26.1% of its decks), [Jin Sakai, Ghost of Tsushima](../../cards/J/ji.md#jin-sakai-ghost-of-tsushima) (3.9% of its decks), [Splinter, Radical Rat](../../cards/S/spl.md#splinter-radical-rat) (4.4% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecl/76/sygg-wanderwine-wisdom-sygg-wanderbrine-shield) · oracle_id `9cc91ac5-6f2b-4fc0-b810-cdc92eebe6de` · printing: ECL #76 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sylvan Advocate
@@ -599,6 +605,8 @@ schema: 2
   - *2018-06-08* — The triggered ability of the “partner with” keyword still triggers in a Commander game. If your other commander has somehow ended up in your library, you can find it. You can also target another player who might have that card in their library.
   - *2018-06-08* — To have two commanders, both must have the partner ability (featured in the Magic: The Gathering—Commander™ (2016 Edition) set) or corresponding “partner with” abilities as the game begins. A creature with a “partner with” ability can’t partner with any creature other than its designated partner. Losing a partner ability during the game doesn’t cause either to cease to be your commander.
   - *2018-06-08* — “Partner with [name]” represents two abilities. The first is a triggered ability: “When this permanent enters the battlefield, target player may search their library for a card named [name], reveal it, put it into their hand, then shuffle their library.”
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 64 decks; highest synergy [Sunscorch Regent](../../cards/S/sun.md#sunscorch-regent) (+85%), [Scalelord Reckoner](../../cards/S/sc.md#scalelord-reckoner) (+81%), [Guardian Scalelord](../../cards/G/gu.md#guardian-scalelord) (+79%) · EDHREC: in 8,681 decks; most often under [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (7.5% of its decks), [Zurgo and Ojutai](../../cards/Z/zu.md#zurgo-and-ojutai) (36.8% of its decks), [Estinien Varlineau](../../cards/E/es.md#estinien-varlineau) (40.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/S.md#sylvia-brightspear)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bbd/10/sylvia-brightspear) · oracle_id `22a93a6d-fe58-4135-8ac2-6b92e9bb75a3` · printing: BBD #10 (2018-06-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1324,6 +1332,8 @@ schema: 2
 - **Keywords:** First strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15181 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 53 decks; highest synergy [Benalish Marshal](../../cards/B/be.md#benalish-marshal) (+41%), [Ardenvale Paladin](../../cards/A/ard.md#ardenvale-paladin) (+38%), [Paladin Class](../../cards/P/pa.md#paladin-class) (+38%) · EDHREC: in 5,285 decks; most often under [Dion, Bahamut's Dominant](../../cards/D/di.md#dion-bahamuts-dominant--bahamut-warden-of-light) (16.9% of its decks), [Aurelia, the Warleader](../../cards/A/au.md#aurelia-the-warleader) (7.6% of its decks), [Sidar Jabari of Zhalfir](../../cards/S/si.md#sidar-jabari-of-zhalfir) (2.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/582/syr-alin-the-lions-claw) · oracle_id `5d9a4905-4a26-410e-936c-56de849e9ca3` · printing: FDN #582 (2024-11-15) · [rulings](https://api.scryfall.com/cards/5d42be5f-a6a7-4699-abf7-9632de6daede/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Syr Armont, the Redeemer
@@ -1345,6 +1355,8 @@ schema: 2
   - *2023-09-01* — In rare cases, a spell or ability might attempt to create a Role token enchanting a permanent that it can't legally enchant (because of an ability like protection from enchantments). In such cases, the Role token isn't created.
   - *2023-09-01* — Roles are colorless enchantment tokens. Each one has the Aura and Role subtypes and the enchant creature ability.
   - *2023-09-01* — Some spells and abilities that create Role tokens require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. The Role token won't be created.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 58 decks; highest synergy [Tanglespan Lookout](../../cards/T/ta.md#tanglespan-lookout) (+46%), [A Tale for the Ages](../../cards/A/at.md#a-tale-for-the-ages) (+42%), [Royal Treatment](../../cards/R/ro.md#royal-treatment) (+41%) · EDHREC: in 3,092 decks; most often under [Ellivere of the Wild Court](../../cards/E/el.md#ellivere-of-the-wild-court) (14.4% of its decks), [Gylwain, Casting Director](../../cards/G/gy.md#gylwain-casting-director) (19.4% of its decks), [Yenna, Redtooth Regent](../../cards/Y/ye.md#yenna-redtooth-regent) (4.4% of its decks) — *Guidance (Oracle pattern)* — packages: [Tokens: Anthems](../../EDH%20Packages.md#tokens-anthems) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/214/syr-armont-the-redeemer) · oracle_id `53fc09e1-1e5d-4f22-b623-2c5c770183ab` · printing: WOE #214 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Syr Cadian, Knight Owl
@@ -1363,6 +1375,8 @@ schema: 2
   - *2020-02-29* — If it's the exact minute of sunrise or sunset, you may activate both abilities. But hurry! 
   - *2020-02-29* — Knightlifelink is the same as granting lifelink to each Knight you control, but much, much cooler.
   - *2020-02-29* — Syr Cadian is a Knight, so knightlifelink applies to it.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/und/15/syr-cadian-knight-owl) · oracle_id `d847854a-8449-4731-a320-b144995042f4` · printing: UND #15 (2020-02-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Syr Carah, the Bold
@@ -1382,6 +1396,8 @@ schema: 2
   - *2019-10-04* — Playing an exiled card causes it to leave exile. You can't play it multiple times.
   - *2019-10-04* — Syr Carah doesn't change when you can cast the exiled card. For example, if you exile a sorcery card, you can cast it only during your main phase when the stack is empty. If you exile a land card, you can play it only during your main phase and only if you have an available land play remaining.
   - *2019-10-04* — Syr Carah's first ability triggers even if Syr Carah is dealt lethal damage at the same time that it or an instant or sorcery spell you control deals damage to a player.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 597 decks; highest synergy [Storm-Kiln Artist](../../cards/S/sto.md#storm-kiln-artist) (+58%), [Runaway Steam-Kin](../../cards/R/ru.md#runaway-steam-kin) (+54%), [Birgi, God of Storytelling](../../cards/B/bi.md#birgi-god-of-storytelling--harnfel-horn-of-bounty) (+49%) · EDHREC: in 5,306 decks; most often under [Torbran, Thane of Red Fell](../../cards/T/to.md#torbran-thane-of-red-fell) (14.2% of its decks), [Taii Wakeen, Perfect Shot](../../cards/T/ta.md#taii-wakeen-perfect-shot) (11.3% of its decks), [Ghyrson Starn, Kelermorph](../../cards/G/gh.md#ghyrson-starn-kelermorph) (1.6% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Impulse / exile-to-play](../../EDH%20Packages.md#card-advantage-impulse--exile-to-play) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eld/145/syr-carah-the-bold) · oracle_id `c3da0550-b816-4aed-8174-ddde199b6589` · printing: ELD #145 (2019-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Syr Elenora, the Discerning
@@ -1397,6 +1413,8 @@ schema: 2
 - **Rulings** (2):
   - *2019-10-04* — The ability that defines Syr Elenora's power works in all zones, not just the battlefield.
   - *2019-10-04* — To determine the total cost of an opponent's spell that targets Syr Elenora, start with the mana cost or alternative cost that player is paying, add any cost increases (such as that of Syr Elenora's effect), then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 729 decks; highest synergy [Body of Knowledge](../../cards/B/bo.md#body-of-knowledge) (+60%), [Wizard Class](../../cards/W/wi.md#wizard-class) (+55%), [Rogue's Passage](../../cards/R/ro.md#rogues-passage) (+52%) · EDHREC: in 5,466 decks; most often under [Sidar Jabari of Zhalfir](../../cards/S/si.md#sidar-jabari-of-zhalfir) (8.5% of its decks), [Kenrith, the Returned King](../../cards/K/ke.md#kenrith-the-returned-king) (0.8% of its decks), [The Council of Four](../../cards/T/thec.md#the-council-of-four) (3.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/moc/239/syr-elenora-the-discerning) · oracle_id `8f6a3dcf-32e0-48c7-9265-0e298df4a5e4` · printing: MOC #239 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Syr Faren, the Hengehammer
@@ -1413,6 +1431,8 @@ schema: 2
   - *2019-10-04* — If Syr Faren leaves the battlefield before its triggered ability resolves, use its power as it last existed on the battlefield to determine the value of X.
   - *2019-10-04* — If Syr Faren's power is negative as its triggered ability resolves, X is considered to be 0.
   - *2019-10-04* — The value of X is determined only as Syr Faren's triggered ability resolves. Once that happens, the value of X won't change later in the turn even if Syr Faren's power changes.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 129 decks; highest synergy [Rancor](../../cards/R/ran.md#rancor) (+46%), [Wild Beastmaster](../../cards/W/wi.md#wild-beastmaster) (+46%), [Blanchwood Armor](../../cards/B/bla.md#blanchwood-armor) (+39%) · EDHREC: in 4,086 decks; most often under [Duskana, the Rage Mother](../../cards/D/du.md#duskana-the-rage-mother) (6.0% of its decks), [Kenrith, the Returned King](../../cards/K/ke.md#kenrith-the-returned-king) (1.0% of its decks), [Torgal, A Fine Hound](../../cards/T/to.md#torgal-a-fine-hound) (22.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eld/177/syr-faren-the-hengehammer) · oracle_id `2158fb0d-c199-4cb1-848c-077113348980` · printing: ELD #177 (2019-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Syr Ginger, the Meal Ender
@@ -1451,6 +1471,8 @@ schema: 2
   - *2019-10-04* — If Syr Gwyn leaves the battlefield after an equip Knight ability has been activated, that ability still resolves even though the Equipment has lost that ability.
   - *2019-10-04* — Syr Gwyn's triggered ability triggers once per attacking creature that's equipped, regardless of how many Equipment those creatures each carry.
   - *2019-10-04* — Whether the target creature is a Knight is checked only as the equip Knight ability is activated and as that ability resolves. If the creature somehow becomes a non-Knight creature later, the Equipment remains attached to it.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 37 combos; most popular [Syr Gwyn, Hero of Ashvale + Crackdown Construct](https://commanderspellbook.com/combo/3626-4944/) (Infinitely large creature until end of turn) · EDHREC as commander: 9,179 decks; highest synergy [Puresteel Paladin](../../cards/P/pu.md#puresteel-paladin) (+80%), [Danitha Capashen, Paragon](../../cards/D/da.md#danitha-capashen-paragon) (+78%), [Colossus Hammer](../../cards/C/col.md#colossus-hammer) (+77%) · EDHREC: in 1,295 decks; most often under [Kenrith, the Returned King](../../cards/K/ke.md#kenrith-the-returned-king) (1.5% of its decks), [Shanid, Sleepers' Scourge](../../cards/S/sha.md#shanid-sleepers-scourge) (6.9% of its decks), [Isshin, Two Heavens as One](../../cards/I/is.md#isshin-two-heavens-as-one) (0.3% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eld/330/syr-gwyn-hero-of-ashvale) · oracle_id `ca411184-3413-492c-ab87-08c9fa1d4806` · printing: ELD #330 (2019-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Syrix, Carrier of the Flame
@@ -1468,6 +1490,8 @@ schema: 2
   - *2022-04-29* — If Syrix dies at the same time as another Phoenix, its last ability won't trigger. It must be in the graveyard already at the time that the other Phoenix dies.
   - *2022-04-29* — The damage dealt by the target Phoenix as Syrix's first triggered ability resolves is equal to its own power, not the power of the creature card that left the graveyard this turn.
   - *2022-04-29* — You must pay all costs for Syrix when you cast it using its last ability and you must cast it as the ability resolves. You may not wait and cast it later in the turn (unless of course the ability triggers and resolves again).
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 5 combos; most popular [Syrix, Carrier of the Flame + Skyfire Phoenix + Ashnod's Altar + Pitiless Plunderer](https://commanderspellbook.com/combo/2034-2421-4005-4871/) (Infinite colorless mana, Infinite death triggers) · EDHREC as commander: 2,339 decks; highest synergy [Rekindling Phoenix](../../cards/R/rek.md#rekindling-phoenix) (+93%), [Skyfire Phoenix](../../cards/S/sk.md#skyfire-phoenix) (+93%), [Flamewake Phoenix](../../cards/F/fl.md#flamewake-phoenix) (+90%) · EDHREC: in 1,197 decks; most often under [Celes, Rune Knight](../../cards/C/ce.md#celes-rune-knight) (1.4% of its decks), [Anhelo, the Painter](../../cards/A/an.md#anhelo-the-painter) (2.5% of its decks), [Terra, Herald of Hope](../../cards/T/te.md#terra-herald-of-hope) (0.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ncc/80/syrix-carrier-of-the-flame) · oracle_id `ec97bb0e-0dc8-4b9b-8762-2f1649cc9044` · printing: NCC #80 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Syr Konrad's Squire
@@ -1530,6 +1554,8 @@ schema: 2
 - **Keywords:** Lifelink, Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12276 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 363 decks; highest synergy [Dawnstrike Vanguard](../../cards/D/da.md#dawnstrike-vanguard) (+36%), [Luxknight Breacher](../../cards/L/lu.md#luxknight-breacher) (+35%), [Knight Luminary](../../cards/K/kn.md#knight-luminary) (+32%) · EDHREC: in 8,425 decks; most often under [Sidar Jabari of Zhalfir](../../cards/S/si.md#sidar-jabari-of-zhalfir) (10.1% of its decks), [Ardbert, Warrior of Darkness](../../cards/A/ard.md#ardbert-warrior-of-darkness) (18.4% of its decks), [Syr Vondam, Sunstar Exemplar](../../cards/S/sy.md#syr-vondam-sunstar-exemplar) (15.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoe/232/syr-vondam-the-lucent) · oracle_id `28225bae-2d96-4352-b256-0c2ff4ef65e9` · printing: EOE #232 (2025-08-01) · [rulings](https://api.scryfall.com/cards/ea954205-5ff5-493b-bf30-6212042c2bc9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Systems Override
@@ -1569,4 +1595,6 @@ schema: 2
   > At the beginning of your upkeep, target opponent may guess if a creature you control is an invader. If they guess right, exile that creature. If they guess wrong, they lose 3 life. Then you may reveal the name of an invader you control. If you do, put two +1/+1 counters on it. It becomes a Robot artifact creature.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ02f/syx-robot-overlord) · oracle_id `54779b84-7dc7-4a89-b0ae-b6c59af5ead8` · printing: UNK #RZ02f (2025-08-02) · [rulings](https://api.scryfall.com/cards/161dc704-6b91-4076-9769-adb18c94b4dd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

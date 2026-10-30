@@ -1218,6 +1218,8 @@ schema: 2
   - *2022-10-14* — When you cast a spell using its More Than Meets the Eye ability, the card is put onto the stack with its back face up. The resulting spell has all characteristics of that face.
   - *2022-10-14* — While it's a creature, the Vehicle has its printed power and toughness.
   - *2022-10-14* — You don't get to look at the cards exiled by Flamewar, Streetwise Operative's triggered ability.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1,358 decks; highest synergy [Ichor Wellspring](../../cards/I/ic.md#ichor-wellspring) (+66%), [Prized Statue](../../cards/P/pr.md#prized-statue) (+64%), [Oni-Cult Anvil](../../cards/O/on.md#oni-cult-anvil) (+61%) · EDHREC: in 6,051 decks; most often under [Megatron, Tyrant](../../cards/M/me.md#megatron-tyrant--megatron-destructive-force) (20.4% of its decks), [Dr. Eggman](../../cards/D/dre.md#dr-eggman) (7.3% of its decks), [Infinite Guideline Station](../../cards/I/inf.md#infinite-guideline-station) (5.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bot/10/flamewar-brash-veteran-flamewar-streetwise-operative) · oracle_id `cf812f1e-f48a-4375-8d2c-f6e3cb82e067` · printing: BOT #10 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Flame Wave
@@ -1765,6 +1767,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11676 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2025-09-19* — If you choose both modes, the first mode will happen, then the second mode will happen. In particular, this means that if you choose the same target for both modes, it will be tapped before it is untapped.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 9 combos; most popular [Emry, Lurker of the Loch + Displacer Kitten + Lotus Petal + Flash Thompson, Spider-Fan](https://commanderspellbook.com/combo/1170-1329-1414-6912/) (Infinite artifact ETB, Infinite artifact LTB) · EDHREC as commander: 25 decks; highest synergy [Conjurer's Closet](../../cards/C/con.md#conjurers-closet) (+46%), [Spider-Man, Web-Slinger](../../cards/S/spi.md#spider-man-web-slinger) (+40%), [Spider-UK](../../cards/S/spi.md#spider-uk) (+39%) · EDHREC: in 9,768 decks; most often under [Sisay, Weatherlight Captain](../../cards/S/si.md#sisay-weatherlight-captain) (12.8% of its decks), [Brigid, Clachan's Heart](../../cards/B/br.md#brigid-clachans-heart--brigid-douns-mind) (23.2% of its decks), [Peter Parker](../../cards/P/pe.md#peter-parker--amazing-spider-man) (12.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/772/flash-thompson-spider-fan) · oracle_id `f536a518-160e-4267-89da-3d34accc6d2c` · printing: MSC #772 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Flatline
@@ -1794,6 +1798,8 @@ schema: 2
 - **Keywords:** Origami-Fu
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23087 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 43 decks; highest synergy [Arbor Adherent](../../cards/A/arb.md#arbor-adherent) (+66%), [Bedrock Tortoise](../../cards/B/be.md#bedrock-tortoise) (+65%), [Assault Formation](../../cards/A/as.md#assault-formation) (+60%) · EDHREC: in 1,258 decks; most often under [Doran, Besieged by Time](../../cards/D/do.md#doran-besieged-by-time) (5.5% of its decks), [Felothar the Steadfast](../../cards/F/fe.md#felothar-the-steadfast) (3.7% of its decks), [Betor, Kin to All](../../cards/B/be.md#betor-kin-to-all) (3.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/721/flatman) · oracle_id `3a7e3423-4df3-4e10-9861-ac2f403bc49d` · printing: MSC #721 (2026-06-26) · [rulings](https://api.scryfall.com/cards/0b3e0339-f54b-41a9-ac80-8d58a61ef5b9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Flatten
@@ -3027,6 +3033,8 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #28880 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 39 combos; most popular [Flitwing, Lyev Detective + Summoning Station + Krark-Clan Ironworks](https://commanderspellbook.com/combo/3764-4659-7924/) (Infinite artifact ETB, Infinite artifact LTB) · EDHREC as commander: 111 decks; highest synergy [Tangletrove Kelp](../../cards/T/ta.md#tangletrove-kelp) (+88%), [Academy Manufactor](../../cards/A/ac.md#academy-manufactor) (+82%), [Tamiyo's Journal](../../cards/T/ta.md#tamiyos-journal) (+80%) · EDHREC: in 250 decks; most often under [Morska, Undersea Sleuth](../../cards/M/mor.md#morska-undersea-sleuth) (1.2% of its decks), [Lonis, Cryptozoologist](../../cards/L/lo.md#lonis-cryptozoologist) (1.8% of its decks), [Alquist Proft, Master Sleuth](../../cards/A/al.md#alquist-proft-master-sleuth) (7.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbc/8/flitwing-lyev-detective) · oracle_id `e8a9dddd-4527-46cd-8b7e-4f83c5b51e48` · printing: MBC #8 (2026-10-19) · [rulings](https://api.scryfall.com/cards/82f58bb5-5838-4862-a3a3-69c6f05a0cd8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Floating-Dream Zubera
@@ -4097,6 +4105,8 @@ schema: 2
   - *2024-11-08* — Players can represent Gunk cards using objects from outside the game so long as the game state remains clear and understandable to all players. They might need to get creative. Since Gunk cards are shuffled into players’ libraries, those players should represent Gunk cards using objects that, while face down, are indistinguishable from other cards in their deck.
   - *2024-11-08* — Playtest cards aren’t legal for play in any tournament format other than Mystery Booster Limited formats. On the other hand, we expect they will spice up a wide variety of non-tournament games (as long as everyone’s on the same page about using them!).
   - *2024-11-08* — Playtest cards use a modified version of game symbols, such as {T} and {W}. These modified symbols should be treated as the standard symbols during play.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/F.md#fludge-gunk-guardian)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mb2/593/fludge-gunk-guardian) · oracle_id `f281fb62-83d8-4721-b1d1-20aab3e008cf` · printing: MB2 #593 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -4168,6 +4178,8 @@ schema: 2
   - *2022-10-07* — Fluros’s middle ability triggers only once if you cast a creature or Vehicle spell with power and toughness both equal to the chosen number.
   - *2022-10-07* — Fluros’s middle ability will overwrite any previous effects that set the target’s power and toughness (if any) to specific numbers. Effects that otherwise modify its power and toughness will still apply no matter when they took effect. The same is true for +1/+1 counters.
   - *2022-10-07* — If Fluros’s middle ability causes a Vehicle to become an artifact creature, it doesn’t count as “crewing” that Vehicle for any ability that would trigger off of a Vehicle becoming crewed. That Vehicle will become an X/X artifact creature, not whatever its printed power/toughness is.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 26 decks; most often under [Vorthos, Steward of Myth](../../cards/V/vo.md#vorthos-steward-of-myth) (1.6% of its decks), [Ambassador Blorpityblorpboop](../../cards/A/am.md#ambassador-blorpityblorpboop) (0.3% of its decks), [Ghost of Ramirez DePietro](../../cards/G/gh.md#ghost-of-ramirez-depietro) (6.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unf/46/fluros-of-myras-marvels) · oracle_id `1862716c-02b9-4f0f-8d47-5ac8c86c32d4` · printing: UNF #46 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Flurry of Horns
@@ -4246,6 +4258,8 @@ schema: 2
 - **Keywords:** Flying, Defender
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sld/1538/fluttershy) · oracle_id `df6c25c9-da2b-44f5-97bc-3eef4d795ff9` · printing: SLD #1538 (2024-03-01) · [rulings](https://api.scryfall.com/cards/ad9c0698-aaa3-4aef-b1a6-0963e10cd94b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Flux

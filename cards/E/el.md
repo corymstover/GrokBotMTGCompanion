@@ -440,6 +440,8 @@ schema: 2
   > *"Definitely try this at home, kids!"*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #18948 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Elda, Conjurer of Spectacle + Leveler](https://commanderspellbook.com/combo/1068-8033/) (Exile target opponent's library, Exile your library) · EDHREC as commander: 2,622 decks; highest synergy [Silverquill Lecturer](../../cards/S/si.md#silverquill-lecturer) (+73%), [Radagast of Rhosgobel](../../cards/R/rad.md#radagast-of-rhosgobel) (+68%), [Nesting Dovehawk](../../cards/N/ne.md#nesting-dovehawk) (+59%) · EDHREC: in 317 decks; most often under [Trostani, Selesnya's Voice](../../cards/T/tro.md#trostani-selesnyas-voice) (0.7% of its decks), [Kynaios and Tiro of Meletis](../../cards/K/ky.md#kynaios-and-tiro-of-meletis) (0.5% of its decks), [Gluntch, the Bestower](../../cards/G/gl.md#gluntch-the-bestower) (1.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbc/37/elda-conjurer-of-spectacle) · oracle_id `7c39639e-c611-46ee-beda-aef466170ba2` · printing: MBC #37 (2026-10-19) · [rulings](https://api.scryfall.com/cards/96a12028-cf12-4d3d-af5f-a161cb2b7d97/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Elder Arthur Maxson
@@ -674,6 +676,8 @@ schema: 2
   > When Elder Owyn Lyons enters or dies, return target artifact card from your graveyard to your hand.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11679 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 104 decks; highest synergy [Foundry Inspector](../../cards/F/fo.md#foundry-inspector) (+50%), [Etherium Sculptor](../../cards/E/et.md#etherium-sculptor) (+45%), [Razortide Bridge](../../cards/R/raz.md#razortide-bridge) (+45%) · EDHREC: in 9,481 decks; most often under [Dr. Madison Li](../../cards/D/drm.md#dr-madison-li) (36.6% of its decks), [Liberty Prime, Recharged](../../cards/L/li.md#liberty-prime-recharged) (47.6% of its decks), [Satya, Aetherflux Genius](../../cards/S/sat.md#satya-aetherflux-genius) (3.9% of its decks) — *Guidance (Oracle pattern)* — packages: [Graveyard: Recursion to hand](../../EDH%20Packages.md#graveyard-recursion-to-hand) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/pip/103/elder-owyn-lyons) · oracle_id `19788405-7141-475e-94ee-d0c89488f50f` · printing: PIP #103 (2024-03-08) · [rulings](https://api.scryfall.com/cards/d923c845-59e0-403e-b57b-955fec528f1e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Elder Pine of Jukai
@@ -754,6 +758,8 @@ schema: 2
 - **Keywords:** Flying, Trample, Rampage
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ12chan/eldest-dragon-highlander) · oracle_id `1c2e5bbf-9b09-46c6-b654-fb7c887f3f8b` · printing: UNK #RZ12chan (2023-07-29) · [rulings](https://api.scryfall.com/cards/230c6c88-928c-450d-a76c-07e10ee991eb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eldrazi Aggressor
@@ -1445,6 +1451,8 @@ schema: 2
 - **Keywords:** Sneak
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15882 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 29 decks; highest synergy [Blade of Selves](../../cards/B/bla.md#blade-of-selves) (+54%), [Panharmonicon](../../cards/P/pa.md#panharmonicon) (+54%), [Massacre Girl](../../cards/M/mas.md#massacre-girl) (+52%) · EDHREC: in 4,970 decks; most often under [Splinter, Radical Rat](../../cards/S/spl.md#splinter-radical-rat) (22.7% of its decks), [Loki, the Deceiver](../../cards/L/lo.md#loki-the-deceiver) (22.8% of its decks), [Yuriko, the Tiger's Shadow](../../cards/Y/yu.md#yuriko-the-tigers-shadow) (5.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/E.md#elektra-daughter-of-the-hand)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/97/elektra-daughter-of-the-hand) · oracle_id `b46647a1-0c91-451b-8c0b-be8fe02faee2` · printing: MSH #97 (2026-06-26) · [rulings](https://api.scryfall.com/cards/ac3e586c-d654-4631-beda-a5e29cf04717/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1459,6 +1467,8 @@ schema: 2
   > *"To look upon me . . . is to see the end of life."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20925 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 2 decks; highest synergy [Endless Sands](../../cards/E/en.md#endless-sands) (+99%), [Aspect of Manticore](../../cards/A/as.md#aspect-of-manticore) (+50%), [Barrage of Boulders](../../cards/B/bar.md#barrage-of-boulders) (+50%) · EDHREC: in 1,979 decks; most often under [Daredevil, Fearless Fighter](../../cards/D/da.md#daredevil-fearless-fighter) (58.1% of its decks), [Daredevil, Man Without Fear](../../cards/D/da.md#daredevil-man-without-fear) (50.8% of its decks), [Altaïr Ibn-La'Ahad](../../cards/A/al.md#altaïr-ibn-laahad) (4.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/687/elektra-femme-fatale) · oracle_id `75f2545d-cd31-4404-953f-1110f646228b` · printing: MSC #687 (2026-06-26) · [rulings](https://api.scryfall.com/cards/a89e2707-33eb-40b1-a883-bab02995da21/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Elemental Appeal
@@ -2142,6 +2152,8 @@ schema: 2
   - *2020-11-10* — Once the game begins, your two commanders are tracked separately. If you cast one, you won't have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 damage from any one of them, not from both of them combined.
   - *2020-11-10* — To have two commanders, both must have the partner ability as the game begins. Losing the ability during the game doesn't cause either to cease to be your commander.
   - *2020-11-10* — You can choose two commanders with partner that are the same color or colors. In Commander Draft, you can even choose two of the same commander with partner if you drafted them. If you do this, make sure you keep the number of times you've cast each from the command zone clear for "commander tax" purposes.
+- **Lore:** ✅ Presented with an official backstory on [The Legendary Characters of Commander Legends, Part 1](https://magic.wizards.com/en/news/card-preview/legendary-characters-commander-legends-part-1-2020-10-30) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 46 combos; most popular [Eligeth, Crossroads Augur + Curator of Mysteries + Prognostic Sphinx](https://commanderspellbook.com/combo/191-1689-5437/) (Infinite draw triggers, Infinite rummaging) · EDHREC as commander: 44 decks; highest synergy [Serum Visions](../../cards/S/ser.md#serum-visions) (+73%), [Augury Owl](../../cards/A/au.md#augury-owl) (+70%), [Deliberate](../../cards/D/del.md#deliberate) (+66%) · EDHREC: in 6,742 decks; most often under [Aragorn, the Uniter](../../cards/A/ara.md#aragorn-the-uniter) (2.6% of its decks), [Galadriel of Lothlórien](../../cards/G/ga.md#galadriel-of-lothlórien) (11.9% of its decks), [Unesh, Criosphinx Sovereign](../../cards/U/un.md#unesh-criosphinx-sovereign) (24.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmr/66/eligeth-crossroads-augur) · oracle_id `65e15354-4258-411f-a8f1-f64f4ccb873b` · printing: CMR #66 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eliminate
@@ -2516,6 +2528,8 @@ schema: 2
   - *2023-11-10* — The mana value of a split card is determined by the combined mana cost of its two halves. If discover allows you to cast a split card, you may cast either half (as long as its mana value is less than or equal to the effect's discover value) but not both halves.
   - *2023-11-10* — When you discover, you must exile cards. The only optional part of the ability is whether you cast the exiled card or put it into your hand.
   - *2023-11-10* — You exile the cards face up. All players will be able to see them.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 2,850 decks; highest synergy [Titanoth Rex](../../cards/T/ti.md#titanoth-rex) (+76%), [Marauding Brinefang](../../cards/M/mar.md#marauding-brinefang) (+72%), [Nurturing Bristleback](../../cards/N/nu.md#nurturing-bristleback) (+71%) · EDHREC: in 2,831 decks; most often under [Kellan, the Kid](../../cards/K/ke.md#kellan-the-kid) (10.9% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (1.4% of its decks), [Morophon, the Boundless](../../cards/M/mor.md#morophon-the-boundless) (1.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rex/10/ellie-and-alan-paleontologists) · oracle_id `0f4d513e-100d-4cbb-b919-09249cef5fad` · printing: REX #10 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ellie, Brick Master
@@ -2529,6 +2543,8 @@ schema: 2
 - **Keywords:** Distract the Horde, Partner
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11786 · Game Changer: no · Can be commander: Yes (legendary creature) · Pairing: Partner
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 13 decks; highest synergy [Disrupt Decorum](../../cards/D/di.md#disrupt-decorum) (+68%), [Acquired Mutation](../../cards/A/ac.md#acquired-mutation) (+61%), [Popular Entertainer](../../cards/P/po.md#popular-entertainer) (+61%) · EDHREC: in 5,071 decks; most often under [Ellie, Vengeful Hunter // Joel, Resolute Survivor](../../cards/E/el.md#ellie-vengeful-hunter) (69.9% of its decks), [Abby, Merciless Soldier // Ellie, Vengeful Hunter](../../cards/A/ab.md#abby-merciless-soldier) (52.4% of its decks), [Abby, Merciless Soldier // Joel, Resolute Survivor](../../cards/A/ab.md#abby-merciless-soldier) (77.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/E.md#ellie-brick-master)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sld/2197/ellie-brick-master) · oracle_id `299ff264-c6db-4b48-88fb-ca006cb84f88` · printing: SLD #2197 (2025-10-27) · [rulings](https://api.scryfall.com/cards/e973462f-589d-4c53-81d7-075ec1d5a9b4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2543,6 +2559,8 @@ schema: 2
 - **Keywords:** Partner
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16064 · Game Changer: no · Can be commander: Yes (legendary creature) · Pairing: Partner
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 22 decks; highest synergy [Juri, Master of the Revue](../../cards/J/ju.md#juri-master-of-the-revue) (+44%), [Zulaport Cutthroat](../../cards/Z/zu.md#zulaport-cutthroat) (+42%), [Bastion of Remembrance](../../cards/B/bas.md#bastion-of-remembrance) (+39%) · EDHREC: in 3,595 decks; most often under [Ellie, Brick Master // Joel, Resolute Survivor](../../cards/E/el.md#ellie-brick-master) (62.5% of its decks), [Abby, Merciless Soldier // Joel, Resolute Survivor](../../cards/A/ab.md#abby-merciless-soldier) (72.3% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/E.md#ellie-vengeful-hunter)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sld/2203/ellie-vengeful-hunter) · oracle_id `e619cb66-8c0d-408a-829c-6f02bf25fd0f` · printing: SLD #2203 (2025-10-27) · [rulings](https://api.scryfall.com/cards/dd0b3ace-91aa-46b7-8265-b8bc22dff5f7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2593,6 +2611,8 @@ schema: 2
   - *2022-06-10* — If your commander loses the choose a Background ability or stops being a Background during the game, as appropriate, it is still your commander.
   - *2022-06-10* — Once the game begins, your two commanders are tracked separately. If you cast one, you won't have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 combat damage from any one of them, not from both of them combined (although your Background won't usually be a creature anyway).
   - *2022-06-10* — You can choose two commanders that are the same color or colors.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 15 decks; highest synergy [Anointer Priest](../../cards/A/an.md#anointer-priest) (+52%), [Martial Coup](../../cards/M/mar.md#martial-coup) (+47%), [Halo Fountain](../../cards/H/ha.md#halo-fountain) (+40%) · EDHREC: in 6,727 decks; most often under [Samwise Gamgee](../../cards/S/sam.md#samwise-gamgee) (13.7% of its decks), [Cadira, Caller of the Small](../../cards/C/cad.md#cadira-caller-of-the-small) (10.5% of its decks), [Apothecary White](../../cards/A/ap.md#apothecary-white) (36.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/E.md#ellyn-harbreeze-busybody)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/16/ellyn-harbreeze-busybody) · oracle_id `ca5ecc26-5ed8-4466-bb8f-df2b39bddd18` · printing: CLB #16 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2637,6 +2657,8 @@ schema: 2
 - **Keywords:** Investigate, Haste, Partner
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13164 · Game Changer: no · Can be commander: Yes (legendary creature) · Pairing: Partner
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 41 decks; highest synergy [Manamorphose](../../cards/M/man.md#manamorphose) (+40%), [Academy Manufactor](../../cards/A/ac.md#academy-manufactor) (+36%), [Expedite](../../cards/E/ex.md#expedite) (+33%) · EDHREC: in 4,705 decks; most often under [Cecily, Haunted Mage // Othelm, Sigardian Outcast](../../cards/C/ce.md#cecily-haunted-mage) (33.5% of its decks), [Jenny Flint // Madame Vastra](../../cards/J/je.md#jenny-flint) (26.8% of its decks), [Hansk, Slayer Zealot](../../cards/H/ha.md#hansk-slayer-zealot) (15.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/E.md#elmar-ulvenwald-informant)
 - **Source flags:** [Scryfall](https://scryfall.com/card/slx/4/elmar-ulvenwald-informant) · oracle_id `5a35201d-e9b1-433a-bb70-3280ceedbcd6` · printing: SLX #4 (2022-03-03) · [rulings](https://api.scryfall.com/cards/95d197b3-fc56-43a2-981f-b5b905222b5c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2685,6 +2707,8 @@ schema: 2
   - *2021-09-24* — Eloise's last ability triggers whenever you sacrifice any token for any reason, not just whenever you sacrifice Clue tokens.
   - *2021-09-24* — If you create a token that's a copy of Eloise and both are legendary, you will choose either the token or the original Eloise to keep and put the other into the graveyard. This is not the same as sacrificing it. Putting the token into the graveyard won't cause nontoken Eloise's last ability to trigger.
   - *2021-09-24* — If you sacrifice a Clue token, Eloise's last ability will trigger in response. You'll surveil before drawing the card.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 100+ combos; most popular [Eloise, Nephalia Sleuth + March of the Machines](https://commanderspellbook.com/combo/1808-4694/) (Draw the game, Infinite death triggers) · EDHREC as commander: 1,486 decks; highest synergy [Academy Manufactor](../../cards/A/ac.md#academy-manufactor) (+73%), [Nadier's Nightblade](../../cards/N/na.md#nadiers-nightblade) (+61%), [Erdwal Illuminator](../../cards/E/er.md#erdwal-illuminator) (+59%) · EDHREC: in 7,897 decks; most often under [Wilhelt, the Rotcleaver](../../cards/W/wi.md#wilhelt-the-rotcleaver) (4.5% of its decks), [Inquisitor Greyfax](../../cards/I/inq.md#inquisitor-greyfax) (25.7% of its decks), [Ashnod the Uncaring](../../cards/A/as.md#ashnod-the-uncaring) (17.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mic/3/eloise-nephalia-sleuth) · oracle_id `65e65eab-bc3f-4eae-8361-7f0a65fc1673` · printing: MIC #3 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Elrond, Lord of Rivendell
@@ -2740,6 +2764,8 @@ schema: 2
   - *2026-06-29* — After each permanent returns to the battlefield, it will be a new object with no connection to the permanent that was exiled. It won't be in combat or have any additional abilities it may have had when it was exiled. Any counters on it cease to exist; Auras attached to it are put into their owner's graveyards; and any Equipment will become unattached.
   - *2026-06-29* — An activated ability of a creature that's also a mana ability (such as "{T}: Add {G}") can cause Elrond's first ability to trigger.
   - *2026-06-29* — If a token is exiled this way, it will cease to exist and will not return to the battlefield.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 10 combos; most popular [Thor, God of Thunder + Time Stretch + Elrond, Moon-Reader](https://commanderspellbook.com/combo/957-7722-7843/) (Infinite turns, Lock) · EDHREC as commander: 274 decks; highest synergy [Training Grounds](../../cards/T/tra.md#training-grounds) (+55%), [Agent of Treachery](../../cards/A/ag.md#agent-of-treachery) (+46%), [Gogo, Master of Mimicry](../../cards/G/gog.md#gogo-master-of-mimicry) (+44%) · EDHREC: in 12,789 decks; most often under [Thranduil, the Elvenking](../../cards/T/thr.md#thranduil-the-elvenking) (58.3% of its decks), [Galadriel, Light of Valinor](../../cards/G/ga.md#galadriel-light-of-valinor) (12.2% of its decks), [Thranduil the Strategist](../../cards/T/thr.md#thranduil-the-strategist) (48.1% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hob/36/elrond-moon-reader) · oracle_id `3f4d6f91-95ad-4687-8899-5a21a0abb49e` · printing: HOB #36 (2026-08-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Elrond of the White Council
@@ -3123,6 +3149,8 @@ schema: 2
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2019-12-07* *(Scryfall note)* — The Commander RC has ruled that if your name is printed on the bottom of a Heroes of the Realm card, that card is legal for you in Commander.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ph22/2/elusen-the-giving) · oracle_id `9c47d2ab-a7df-4c3c-81d4-462d2637cbae` · printing: PH22 #2 (2023-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Elusive Krasis

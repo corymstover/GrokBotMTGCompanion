@@ -147,6 +147,8 @@ schema: 2
 - **Rulings** (2):
   - *2022-06-10* — Dynaheir has received an update to its Oracle text. Specifically, the delayed triggered ability doesn't trigger if you activate a mana ability that costs four or more mana to activate.
   - *2022-06-10* — Dynaheir, Invoker Adept doesn't actually grant haste to creatures you control, nor does it let you attack with them as though they had haste.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 100+ combos; most popular [Selvala, Heart of the Wilds + Emiel the Blessed + Dynaheir, Invoker Adept](https://commanderspellbook.com/combo/527-4499-4785/) (Infinite creature LTB, Infinite creature ETB) · EDHREC as commander: 1,483 decks; highest synergy [Ioreth of the Healing House](../../cards/I/io.md#ioreth-of-the-healing-house) (+67%), [Omen Hawker](../../cards/O/om.md#omen-hawker) (+64%), [Vizier of Tumbling Sands](../../cards/V/vi.md#vizier-of-tumbling-sands) (+64%) · EDHREC: in 5,579 decks; most often under [Sisay, Weatherlight Captain](../../cards/S/si.md#sisay-weatherlight-captain) (13.5% of its decks), [Tazri, Stalwart Survivor](../../cards/T/ta.md#tazri-stalwart-survivor) (52.3% of its decks), [Kenrith, the Returned King](../../cards/K/ke.md#kenrith-the-returned-king) (0.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/273/dynaheir-invoker-adept) · oracle_id `a968524a-3d2d-4c0c-8f66-bfbfb9ff3c36` · printing: CLB #273 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dynamite Diver

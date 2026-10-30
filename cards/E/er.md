@@ -206,6 +206,8 @@ schema: 2
   - *2005-06-01* — Erayo’s Essence triggers only for the first spell an opponent casts in a given turn. It doesn’t trigger off any other spell that player casts after the first.
   - *2005-06-01* — If Erayo, Soratami Ascendant flips while an opponent’s first spell for the turn is still on the stack, the ability of Erayo’s Essence doesn’t trigger because the opponent’s spell has already been cast. The spell isn’t countered.
   - *2005-06-01* — If you have multiple opponents, Erayo’s Essence can trigger once for each opponent.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/E.md#erayo-soratami-ascendant--erayos-essence)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sok/35/erayo-soratami-ascendant-erayos-essence) · oracle_id `d83bb32d-f409-421a-9d93-bd7ea3240b47` · printing: SOK #35 (2005-06-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -387,6 +389,8 @@ schema: 2
 - **Rulings** (2):
   - *2023-06-16* — If an opponent has multiple votes, it's possible for them to count as both an opponent who voted for a choice you voted for and an opponent who voted for a choice you didn't vote for.
   - *2023-06-16* — When Erestor of the Council's ability resolves, you'll draw a card at the end no matter how other players voted.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 644 decks; highest synergy [Círdan the Shipwright](../../cards/C/ci.md#círdan-the-shipwright) (+96%), [Plea for Power](../../cards/P/pl.md#plea-for-power) (+95%), [Elrond of the White Council](../../cards/E/el.md#elrond-of-the-white-council) (+94%) · EDHREC: in 9,269 decks; most often under [Círdan the Shipwright](../../cards/C/ci.md#círdan-the-shipwright) (76.5% of its decks), [Galadriel, Elven-Queen](../../cards/G/ga.md#galadriel-elven-queen) (85.1% of its decks), [Kenrith, the Returned King](../../cards/K/ke.md#kenrith-the-returned-king) (4.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltc/53/erestor-of-the-council) · oracle_id `b65e1dff-9423-4840-a6af-78cb3e6f4f31` · printing: LTC #53 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Erg Raiders
@@ -499,6 +503,8 @@ schema: 2
 - **Rulings** (2):
   - *2024-04-12* — If the Aura you control becomes unattached from a nonland permanent (most likely because the Aura left the battlefield) before Eriette’s triggered ability resolves, you won’t gain control of that nonland permanent at all.
   - *2024-04-12* — If the mana cost of a permanent includes {X}, X is 0 for the purpose of determining its mana value.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 4,695 decks; highest synergy [Killian, Ink Duelist](../../cards/K/ki.md#killian-ink-duelist) (+77%), [Angelic Destiny](../../cards/A/an.md#angelic-destiny) (+76%), [Sage's Reverie](../../cards/S/sag.md#sages-reverie) (+73%) · EDHREC: in 686 decks; most often under [Zur the Enchanter](../../cards/Z/zu.md#zur-the-enchanter) (0.9% of its decks), [Arna Kennerüd, Skycaptain](../../cards/A/arn.md#arna-kennerüd-skycaptain) (1.2% of its decks), [Y'shtola, Night's Blessed](../../cards/Y/ys.md#yshtola-nights-blessed) (0.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otj/202/eriette-the-beguiler) · oracle_id `710a3499-64f8-4d2c-8c9c-d58950e47ea7` · printing: OTJ #202 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Erinis, Gloom Stalker
@@ -624,6 +630,8 @@ schema: 2
 - **Keywords:** Regenerate, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28999 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 81 decks; highest synergy [Nevinyrral's Disk](../../cards/N/ne.md#nevinyrrals-disk) (+27%), [Starstorm](../../cards/S/sta.md#starstorm) (+23%), [Solemn Simulacrum](../../cards/S/so.md#solemn-simulacrum) (+19%) · EDHREC: in 228 decks; most often under [Joven](../../cards/J/jo.md#joven) (13.7% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.0% of its decks), [Chandler](../../cards/C/cha.md#chandler) (8.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tsb/61/eron-the-relentless) · oracle_id `cabcc2b7-0cdb-4ec2-b6a3-47644335abff` · printing: TSB #61 (2006-10-06) · [rulings](https://api.scryfall.com/cards/bcf16fb0-f60f-4b96-b5a6-2a42ae01e8cb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Erosion
@@ -1013,6 +1021,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18414 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2004-10-04* — The Legend rule only applies to two legendary permanents with identical names. If the names are different, even if they depict the same character, the rule does not apply.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1,252 decks; highest synergy [Hatching Plans](../../cards/H/ha.md#hatching-plans) (+47%), [Lullmage Mentor](../../cards/L/lu.md#lullmage-mentor) (+39%), [Freed from the Real](../../cards/F/fr.md#freed-from-the-real) (+37%) · EDHREC: in 1,782 decks; most often under [Zur the Enchanter](../../cards/Z/zu.md#zur-the-enchanter) (0.8% of its decks), [Alela, Artful Provocateur](../../cards/A/al.md#alela-artful-provocateur) (0.6% of its decks), [Merieke Ri Berit](../../cards/M/me.md#merieke-ri-berit) (3.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/pls/107/ertai-the-corrupted) · oracle_id `36934bd0-b275-4222-926c-b5a74cf0967d` · printing: PLS #107 (2001-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ertai, Wizard Adept
@@ -1028,6 +1038,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18681 · Game Changer: no · Can be commander: Yes (legendary creature) · Reserved List
 - **Rulings** (1):
   - *2004-10-04* — The Legend rule only applies to two legendary permanents with identical names. If the names are different, even if they depict the same character, the rule does not apply.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 151 decks; highest synergy [Patron Wizard](../../cards/P/pa.md#patron-wizard) (+45%), [Rewind](../../cards/R/rew.md#rewind) (+42%), [Baral, Chief of Compliance](../../cards/B/bar.md#baral-chief-of-compliance) (+39%) · EDHREC: in 2,736 decks; most often under [Azami, Lady of Scrolls](../../cards/A/az.md#azami-lady-of-scrolls) (5.9% of its decks), [Sisay, Weatherlight Captain](../../cards/S/si.md#sisay-weatherlight-captain) (0.8% of its decks), [Baral, Chief of Compliance](../../cards/B/bar.md#baral-chief-of-compliance) (2.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/exo/33/ertai-wizard-adept) · oracle_id `f2902dfd-888f-4b02-b8ad-1056f0059fc3` · printing: EXO #33 (1998-06-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ertha Jo, Frontier Mentor

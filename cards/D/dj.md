@@ -96,6 +96,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12132 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2017-07-14* — If multiple sources would deal damage to one or more planeswalkers you control at once (for example, several attacking creatures), 1 damage from each of those sources to each of those planeswalkers is prevented.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 464 decks; highest synergy [Elspeth, Sun's Champion](../../cards/E/el.md#elspeth-suns-champion) (+72%), [Oath of Gideon](../../cards/O/oa.md#oath-of-gideon) (+71%), [Ajani Steadfast](../../cards/A/aj.md#ajani-steadfast) (+67%) · EDHREC: in 8,449 decks; most often under [Atraxa, Praetors' Voice](../../cards/A/at.md#atraxa-praetors-voice) (2.2% of its decks), [Commodore Guff](../../cards/C/com.md#commodore-guff) (12.7% of its decks), [Tomik, Wielder of Law](../../cards/T/to.md#tomik-wielder-of-law) (46.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hou/10/djeru-with-eyes-open) · oracle_id `5d520dd4-7986-41fa-ab94-9226da751668` · printing: HOU #10 (2017-07-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Djinn Illuminatus

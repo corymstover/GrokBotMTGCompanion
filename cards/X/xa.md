@@ -64,6 +64,8 @@ schema: 2
 - **Keywords:** Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15361 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 383 decks; highest synergy [Consider](../../cards/C/con.md#consider) (+42%), [Enter the Enigma](../../cards/E/en.md#enter-the-enigma) (+41%), [Fandaniel, Telophoroi Ascian](../../cards/F/fa.md#fandaniel-telophoroi-ascian) (+41%) · EDHREC: in 4,877 decks; most often under [Emet-Selch, Unsundered](../../cards/E/em.md#emet-selch-unsundered--hades-sorcerer-of-eld) (21.6% of its decks), [Sephiroth, Planet's Heir](../../cards/S/sep.md#sephiroth-planets-heir) (26.9% of its decks), [Kefka, Court Mage](../../cards/K/ke.md#kefka-court-mage--kefka-ruler-of-ruin) (2.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/561/xande-dark-mage) · oracle_id `36b5c793-30f6-4f21-8bf6-c18d1c46d732` · printing: FIN #561 (2025-06-13) · [rulings](https://api.scryfall.com/cards/1caed9a8-b73b-470e-b9d8-8c3b7cac3eee/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Xander's Lounge

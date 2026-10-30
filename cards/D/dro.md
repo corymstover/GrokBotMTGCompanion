@@ -253,6 +253,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21075 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2004-10-04* — You choose the color during resolution. This means your opponent does not get to react after knowing the color you chose.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 632 decks; highest synergy [Sway of Illusion](../../cards/S/sw.md#sway-of-illusion) (+66%), [Distorting Lens](../../cards/D/di.md#distorting-lens) (+63%), [Blind Seer](../../cards/B/bli.md#blind-seer) (+59%) · EDHREC: in 1,236 decks; most often under [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (0.5% of its decks), [Scion of the Ur-Dragon](../../cards/S/sc.md#scion-of-the-ur-dragon) (1.9% of its decks), [Tiamat](../../cards/T/ti.md#tiamat) (0.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/inv/244/dromar-the-banisher) · oracle_id `35ad7f82-a1b1-4aa7-a8b0-3f99ca2cff52` · printing: INV #244 (2000-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dromoka Captain

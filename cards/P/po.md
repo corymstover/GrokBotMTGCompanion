@@ -452,6 +452,8 @@ schema: 2
   - *2024-11-08* — If you really want to, you can apply the effects of both Pokey’s second and third abilities to a coin flip or a d20 roll. For example, if you would flip a coin, you can choose to replace that flip with a d20 roll, and you can choose to replace that d20 roll with a coin flip. (Since you can only apply a replacement effect to a single event once, the nonsense stops there.) In that case, you’d flip a coin. If it’s heads, that would count as 20 for the replaced d20 roll, which would count as heads for the originally replaced coin flip. Great job.
   - *2024-11-08* — Playtest cards aren’t legal for play in any tournament format other than Mystery Booster Limited formats. On the other hand, we expect they will spice up a wide variety of non-tournament games (as long as everyone’s on the same page about using them!).
   - *2024-11-08* — Playtest cards use a modified version of game symbols, such as {T} and {W}. These modified symbols should be treated as the standard symbols during play.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/P.md#pokey-the-scallywagg)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mb2/600/pokey-the-scallywagg) · oracle_id `146fe477-129f-42af-825d-6e524089fd5a` · printing: MB2 #600 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -504,6 +506,8 @@ schema: 2
   > *Prize Card for the Unknown event at MagicCon Minneapolis, May 7, 2023.*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/MR01/polis-the-planeshifter) · oracle_id `0392f4ee-0614-4330-96ba-36d310c818e4` · printing: UNK #MR01 (2023-05-07) · [rulings](https://api.scryfall.com/cards/7e6e84d8-f40d-4e58-b795-818a69121d01/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Political Trickery
@@ -545,6 +549,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13701 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2024-11-08* — The choice of creature type is made as Pol Jamaar's last ability resolves. Players can't take any actions between the time the choice is made and the time you draw cards.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 280 decks; highest synergy [Titan of Littjara](../../cards/T/ti.md#titan-of-littjara) (+54%), [Distant Melody](../../cards/D/di.md#distant-melody) (+53%), [Ghostly Flicker](../../cards/G/gh.md#ghostly-flicker) (+46%) · EDHREC: in 6,654 decks; most often under [Minn, Wily Illusionist](../../cards/M/min.md#minn-wily-illusionist) (18.0% of its decks), [Inalla, Archmage Ritualist](../../cards/I/ina.md#inalla-archmage-ritualist) (5.4% of its decks), [Cynette, Jelly Drover](../../cards/C/cy.md#cynette-jelly-drover) (26.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/j25/38/pol-jamaar-illusionist) · oracle_id `2f200a14-7e5b-4b7c-a283-5cf9abb1f95d` · printing: J25 #38 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pollenbright Druid
@@ -795,6 +801,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14161 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2023-04-14* — If Polukranos, Engine of Ruin and other nontoken Hydras you control die at the same time, Polukranos’s triggered ability will trigger once for itself and once for each of those other Hydras.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Polukranos Reborn // Polukranos, Engine of Ruin + Nim Deathmantle + Ashnod's Altar](https://commanderspellbook.com/combo/1607-2034-5003/) (Infinite colored mana, Infinite creature tokens) · EDHREC as commander: 2,854 decks; highest synergy [Hungering Hydra](../../cards/H/hu.md#hungering-hydra) (+87%), [Genesis Hydra](../../cards/G/ge.md#genesis-hydra) (+84%), [Mistcutter Hydra](../../cards/M/mis.md#mistcutter-hydra) (+78%) · EDHREC: in 3,508 decks; most often under [Progenitus](../../cards/P/pr.md#progenitus) (12.6% of its decks), [Helga, Skittish Seer](../../cards/H/he.md#helga-skittish-seer) (1.4% of its decks), [Tadeas, Juniper Ascendant](../../cards/T/ta.md#tadeas-juniper-ascendant) (11.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/P.md#polukranos-reborn--polukranos-engine-of-ruin)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mom/200/polukranos-reborn-polukranos-engine-of-ruin) · oracle_id `7a9fa906-b43e-4d98-b134-5936d3085851` · printing: MOM #200 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -821,6 +829,8 @@ schema: 2
   - *2020-01-24* — If you cast a spell with its escape permission, you can't choose to apply any other alternative costs or to cast it without paying its mana cost. If it has any additional costs, you must pay those.
   - *2020-01-24* — Once you begin casting a spell with escape, it immediately moves to the stack. Players can't take any other actions until you're done casting the spell.
   - *2020-01-24* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as an escape cost), add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was and no matter whether an alternative cost was paid.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 7 combos; most popular [Polukranos, Unchained + Vigor + Crystalline Crawler](https://commanderspellbook.com/combo/2060-2230-4120/) (Infinite colored mana, Infinitely large creatures) · EDHREC as commander: 394 decks; highest synergy [Corpsejack Menace](../../cards/C/cor.md#corpsejack-menace) (+62%), [Branching Evolution](../../cards/B/br.md#branching-evolution) (+53%), [Hydra's Growth](../../cards/H/hy.md#hydras-growth) (+50%) · EDHREC: in 8,460 decks; most often under [Nethroi, Apex of Death](../../cards/N/ne.md#nethroi-apex-of-death) (27.0% of its decks), [Zaxara, the Exemplary](../../cards/Z/za.md#zaxara-the-exemplary) (4.5% of its decks), [Cleopatra, Exiled Pharaoh](../../cards/C/cl.md#cleopatra-exiled-pharaoh) (42.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/thb/224/polukranos-unchained) · oracle_id `649e7237-b38b-43e9-83f4-763751fb1bea` · printing: THB #224 (2020-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Polukranos, World Eater
@@ -2146,6 +2156,8 @@ schema: 2
 - **Keywords:** Flying, Vigilance, Haste, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18211 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 308 decks; highest synergy [Quantum Misalignment](../../cards/Q/qu.md#quantum-misalignment) (+43%), [Frantic Search](../../cards/F/fr.md#frantic-search) (+39%), [Improvisation Capstone](../../cards/I/im.md#improvisation-capstone) (+37%) · EDHREC: in 3,006 decks; most often under [Mister Fantastic](../../cards/M/mis.md#mister-fantastic) (54.0% of its decks), [The Fantastic Four](../../cards/T/thef.md#the-fantastic-four) (30.5% of its decks), [Invisible Woman](../../cards/I/inv.md#invisible-woman) (42.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/90/power-pack) · oracle_id `3d5c98ff-fcf1-42bd-9533-2648791a4f45` · printing: MSC #90 (2026-06-26) · [rulings](https://api.scryfall.com/cards/04f8aa71-f27b-48b3-9146-b9e785555428/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Power Plant Worker

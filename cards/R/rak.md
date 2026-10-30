@@ -517,6 +517,8 @@ schema: 2
 - **Rulings** (2):
   - *2006-05-01* — A permanent with the subtype Demon, including Rakdos the Defiler itself, can't be sacrificed this way.
   - *2006-05-01* — To calculate the number of permanents that must be sacrificed, count the number of permanents the affected player controls that don't have the subtype Demon, then divide that number in half and round up. For example, a player who controls eleven non-Demon permanents will need to sacrifice six of them.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 321 decks; highest synergy [Herald of Slaanesh](../../cards/H/he.md#herald-of-slaanesh) (+51%), [Rakdos, Lord of Riots](../../cards/R/rak.md#rakdos-lord-of-riots) (+50%), [Harvester of Souls](../../cards/H/ha.md#harvester-of-souls) (+48%) · EDHREC: in 3,629 decks; most often under [Kaalia of the Vast](../../cards/K/ka.md#kaalia-of-the-vast) (3.0% of its decks), [Be'lakor, the Dark Master](../../cards/B/be.md#belakor-the-dark-master) (3.4% of its decks), [Rakdos, Lord of Riots](../../cards/R/rak.md#rakdos-lord-of-riots) (3.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dis/129/rakdos-the-defiler) · oracle_id `789bf406-38f0-4888-b2ff-c4a95ac79283` · printing: DIS #129 (2006-05-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rakdos, the Muscle
@@ -700,6 +702,8 @@ schema: 2
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18406 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 39 combos; most popular [Rakka Mar + Intruder Alarm](https://commanderspellbook.com/combo/1636-1684/) (Infinite creature tokens with haste, Infinite creature ETB) · EDHREC as commander: 185 decks; highest synergy [Incandescent Soulstoke](../../cards/I/inc.md#incandescent-soulstoke) (+67%), [Flamekin Harbinger](../../cards/F/fl.md#flamekin-harbinger) (+63%), [Soulbright Flamekin](../../cards/S/so.md#soulbright-flamekin) (+58%) · EDHREC: in 2,848 decks; most often under [Omnath, Locus of Rage](../../cards/O/om.md#omnath-locus-of-rage) (1.9% of its decks), [Shadow the Hedgehog](../../cards/S/sha.md#shadow-the-hedgehog) (1.3% of its decks), [Ognis, the Dragon's Lash](../../cards/O/og.md#ognis-the-dragons-lash) (2.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#rakka-mar)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/247/rakka-mar) · oracle_id `6d92f14b-470b-40bc-b294-f725d46f307e` · printing: CMM #247 (2023-08-04) · [rulings](https://api.scryfall.com/cards/cd36b274-5b76-44ec-8d62-069b08debe89/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -717,6 +721,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15770 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2004-12-01* — Raksha Golden Cub is a Cat, so it also gets +2/+2 and double strike if it’s equipped.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 103 decks; highest synergy [Kemba, Kha Regent](../../cards/K/ke.md#kemba-kha-regent) (+77%), [Regal Caracal](../../cards/R/reg.md#regal-caracal) (+74%), [Leonin Shikari](../../cards/L/le.md#leonin-shikari) (+73%) · EDHREC: in 4,693 decks; most often under [Arahbo, Roar of the World](../../cards/A/ara.md#arahbo-roar-of-the-world) (15.8% of its decks), [Kemba, Kha Regent](../../cards/K/ke.md#kemba-kha-regent) (39.9% of its decks), [Mirri, Weatherlight Duelist](../../cards/M/mir.md#mirri-weatherlight-duelist) (12.4% of its decks) — *Guidance (Oracle pattern)* — packages: [Tokens: Anthems](../../EDH%20Packages.md#tokens-anthems) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c17/69/raksha-golden-cub) · oracle_id `a3c672b8-9c7d-47cc-877b-580904c6d72b` · printing: C17 #69 (2017-08-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rakshasa Deathdealer

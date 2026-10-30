@@ -1064,6 +1064,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15541 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2025-06-06* — The ability that defines Snow Villiers's power applies in all zones, not just the battlefield. As long as Snow Villiers is on the battlefield (and still a creature), that ability will count Snow Villiers itself.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Mayael's Aria + Storm Herd + Snow Villiers](https://commanderspellbook.com/combo/2067-3858-6651/) (Win the game at the beginning of your next upkeep) · EDHREC as commander: 104 decks; highest synergy [Moogles' Valor](../../cards/M/moo.md#moogles-valor) (+47%), [Adeline, Resplendent Cathar](../../cards/A/ad.md#adeline-resplendent-cathar) (+45%), [Champions from Beyond](../../cards/C/cha.md#champions-from-beyond) (+40%) · EDHREC: in 4,919 decks; most often under [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (1.2% of its decks), [Lin Sivvi, Defiant Hero](../../cards/L/li.md#lin-sivvi-defiant-hero) (32.5% of its decks), [Serah Farron](../../cards/S/ser.md#serah-farron--crystallized-serah) (11.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/33/snow-villiers) · oracle_id `01cdaf69-f53a-4735-92f2-ef149de4d5c9` · printing: FIN #33 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Snubhorn Sentry

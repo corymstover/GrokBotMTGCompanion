@@ -233,6 +233,8 @@ schema: 2
 - **Keywords:** Flying, Lifelink, Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12821 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 214 decks; highest synergy [Blade of the Bloodchief](../../cards/B/bla.md#blade-of-the-bloodchief) (+23%), [Morlun, Devourer of Spiders](../../cards/M/mor.md#morlun-devourer-of-spiders) (+21%), [Visions of Villainy](../../cards/V/vi.md#visions-of-villainy) (+21%) · EDHREC: in 7,865 decks; most often under [Indominus Rex, Alpha](../../cards/I/ind.md#indominus-rex-alpha) (42.0% of its decks), [Norman Osborn](../../cards/N/no.md#norman-osborn--green-goblin) (8.2% of its decks), [Doctor Octopus, Master Planner](../../cards/D/do.md#doctor-octopus-master-planner) (62.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/spm/137/morbius-the-living-vampire) · oracle_id `1a947e4d-8a14-45f1-bb80-760a317b1ed0` · printing: SPM #137 (2025-09-26) · [rulings](https://api.scryfall.com/cards/b978d0e2-f5a7-4ade-befc-11b406e84477/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Morcant's Eyes
@@ -531,6 +533,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27836 · Game Changer: no · Can be commander: Yes (legendary creature) · Reserved List
 - **Rulings** (1):
   - *2008-10-01* — Paying cumulative upkeep is always optional. If it’s not paid, the permanent with cumulative upkeep is sacrificed. Partial payments of the total cumulative upkeep cost can’t be made. For example, if a permanent with “cumulative upkeep {1}” has three age counters on it when its cumulative upkeep ability triggers, it gets another age counter and then its controller chooses to either pay {4} or sacrifice the permanent.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 142 decks; highest synergy [Repay in Kind](../../cards/R/rep.md#repay-in-kind) (+88%), [Magus of the Mirror](../../cards/M/mag.md#magus-of-the-mirror) (+85%), [Soul Conduit](../../cards/S/so.md#soul-conduit) (+84%) · EDHREC: in 290 decks; most often under [Jon Irenicus, Shattered One](../../cards/J/jo.md#jon-irenicus-shattered-one) (0.4% of its decks), [Gallowbraid](../../cards/G/ga.md#gallowbraid) (39.1% of its decks), [Rowan, Scion of War](../../cards/R/ro.md#rowan-scion-of-war) (0.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/wth/75/morinfen) · oracle_id `d69f3aaf-8462-432d-afaf-4176ac04962b` · printing: WTH #75 (1997-06-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moriok Reaver
@@ -947,6 +951,8 @@ schema: 2
 - **Rulings** (2):
   - *2022-10-07* — If a spell or ability sets a player's life total to a specified amount, that player gains or loses the appropriate amount of life. For example, if your life total is 20 and an effect sets your life total to 15, you lost 5 life.
   - *2022-10-07* — Mortarion, Demon Primarch's ability looks only at the amount of life you've lost this turn, regardless of any life you may have gained. For example, if you lost 3 life due to combat damage, but gained 2 life later in the turn, X may be up to 3 for this ability.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1,877 decks; highest synergy [Tallyman of Nurgle](../../cards/T/ta.md#tallyman-of-nurgle) (+74%), [Defiler of Flesh](../../cards/D/def.md#defiler-of-flesh) (+61%), [Great Unclean One](../../cards/G/gre.md#great-unclean-one) (+58%) · EDHREC: in 6,759 decks; most often under [Be'lakor, the Dark Master](../../cards/B/be.md#belakor-the-dark-master) (14.6% of its decks), [Abaddon the Despoiler](../../cards/A/ab.md#abaddon-the-despoiler) (13.3% of its decks), [Betor, Ancestor's Voice](../../cards/B/be.md#betor-ancestors-voice) (0.9% of its decks) — *Guidance (Oracle pattern)* — packages: [Aristocrats: Fodder makers (multiple creature tokens)](../../EDH%20Packages.md#aristocrats-fodder-makers-multiple-creature-tokens) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#mortarion-daemon-primarch)
 - **Source flags:** [Scryfall](https://scryfall.com/card/40k/41/mortarion-daemon-primarch) · oracle_id `588eecbf-dcfc-4b97-b81c-8b9f3d39e08f` · printing: 40K #41 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

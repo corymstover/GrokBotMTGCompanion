@@ -89,6 +89,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11306 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2017-08-25* — If a creature is dealt lethal combat damage at the same time that Wasitora deals combat damage to that creature's controller, that creature will be destroyed before that player chooses a creature to sacrifice.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 30 combos; most popular [Wasitora, Nekoru Queen + Breath of Fury + Fires of Yavimaya](https://commanderspellbook.com/combo/3259-5223-5722/) (Infinite combat damage, Infinite combat phases) · EDHREC as commander: 1,510 decks; highest synergy [Atarka, World Render](../../cards/A/at.md#atarka-world-render) (+58%), [Crux of Fate](../../cards/C/cr.md#crux-of-fate) (+51%), [Dragon Tempest](../../cards/D/dra.md#dragon-tempest) (+51%) · EDHREC: in 8,682 decks; most often under [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (7.9% of its decks), [Vaevictis Asmadi, the Dire](../../cards/V/va.md#vaevictis-asmadi-the-dire) (11.0% of its decks), [Ziatora, the Incinerator](../../cards/Z/zi.md#ziatora-the-incinerator) (3.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/W.md#wasitora-nekoru-queen)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/293/wasitora-nekoru-queen) · oracle_id `13fc4168-fcc2-4011-804f-211d5d86b7dd` · printing: 2X2 #293 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -136,6 +138,8 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27287 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 101 decks; highest synergy [Dampening Pulse](../../cards/D/da.md#dampening-pulse) (+83%), [Cumber Stone](../../cards/C/cu.md#cumber-stone) (+78%), [Fresh Start](../../cards/F/fr.md#fresh-start) (+78%) · EDHREC: in 417 decks; most often under [The Astonishing Ant-Man](../../cards/T/thea.md#the-astonishing-ant-man) (1.8% of its decks), [Captain America, Team Leader](../../cards/C/cap.md#captain-america-team-leader) (0.9% of its decks), [Nick Fury, Agent of S.H.I.E.L.D.](../../cards/N/ni.md#nick-fury-agent-of-shield) (0.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/646/wasp-shrinking-savior) · oracle_id `002cd9b4-efce-429f-82cd-d37352d2e932` · printing: MSC #646 (2026-06-26) · [rulings](https://api.scryfall.com/cards/ad66392c-f117-4dfd-8ea1-86291e7e4ce5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Waste Away

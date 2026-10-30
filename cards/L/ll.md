@@ -363,6 +363,8 @@ schema: 2
   > Your opponents can't cast blue creature spells.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15531 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Llawan, Cephalid Empress + Painter's Servant](https://commanderspellbook.com/combo/2250-2302/) (Opponents can't cast creature spells, Lock) · EDHREC as commander: 257 decks; highest synergy [Shifting Sky](../../cards/S/shi.md#shifting-sky) (+76%), [Painter's Servant](../../cards/P/pa.md#painters-servant) (+73%), [Sway of Illusion](../../cards/S/sw.md#sway-of-illusion) (+61%) · EDHREC: in 4,734 decks; most often under [Blind Seer](../../cards/B/bli.md#blind-seer) (79.9% of its decks), [Dromar, the Banisher](../../cards/D/dro.md#dromar-the-banisher) (52.4% of its decks), [Aboshan, Cephalid Emperor](../../cards/A/ab.md#aboshan-cephalid-emperor) (76.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tor/42/llawan-cephalid-empress) · oracle_id `55f9a9a2-2842-4555-8b54-03aebc8d6fb8` · printing: TOR #42 (2002-02-04) · [rulings](https://api.scryfall.com/cards/a9821970-a5da-4045-93d8-f58c9e5797c1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lluwen, Exchange Student // Pest Friend

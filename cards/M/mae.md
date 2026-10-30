@@ -342,6 +342,8 @@ schema: 2
 - **Keywords:** Goad
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14878 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 541 decks; highest synergy [Training Grounds](../../cards/T/tra.md#training-grounds) (+81%), [Dulcet Sirens](../../cards/D/du.md#dulcet-sirens) (+66%), [Omen Hawker](../../cards/O/om.md#omen-hawker) (+65%) · EDHREC: in 5,050 decks; most often under [Red Death, Shipwrecker](../../cards/R/red.md#red-death-shipwrecker) (21.2% of its decks), [The Rani](../../cards/T/ther.md#the-rani) (18.4% of its decks), [Firkraag, Cunning Instigator](../../cards/F/fi.md#firkraag-cunning-instigator) (6.5% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/plst/GN3-2/maeve-insidious-singer) · oracle_id `2494daad-c81d-4a80-ba5d-e7011af8de46` · printing: PLST #GN3-2 (2026-10-19) · [rulings](https://api.scryfall.com/cards/5e31ce2f-378e-4c00-abf3-6b9e0db98141/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Maeve, Wearer of Many Hats
@@ -355,4 +357,6 @@ schema: 2
   > Whenever you attach a Role to Maeve, draw a card.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ04d/maeve-wearer-of-many-hats) · oracle_id `5216f55c-1e8c-4412-bd0e-d933a1b7aee1` · printing: UNK #RZ04d (2023-09-23) · [rulings](https://api.scryfall.com/cards/30d71c6a-22a7-42ba-b02a-3c434d98caff/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

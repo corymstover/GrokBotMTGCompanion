@@ -56,6 +56,8 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10501 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Presented with an official backstory on [The Legends of Strixhaven](https://magic.wizards.com/en/news/feature/legends-strixhaven-2021-04-13) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Feather, the Redeemed](../../decks/feather-the-redeemed.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 467 decks; highest synergy [Shelter](../../cards/S/she.md#shelter) (+79%), [Defiant Strike](../../cards/D/def.md#defiant-strike) (+74%), [Stirring Hopesinger](../../cards/S/sti.md#stirring-hopesinger) (+73%) · EDHREC: in 11,114 decks; most often under [Feather, the Redeemed](../../cards/F/fe.md#feather-the-redeemed) (41.9% of its decks), [Brigone, Soldier of Meletis](../../cards/B/br.md#brigone-soldier-of-meletis) (38.2% of its decks), [Hinata, Dawn-Crowned](../../cards/H/hi.md#hinata-dawn-crowned) (7.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 decks) → [reverse index](../../references/M.md#mavinda-students-advocate)
 - **Source flags:** [Scryfall](https://scryfall.com/card/stx/21/mavinda-students-advocate) · oracle_id `1c248187-0be3-4a03-a817-14f68f638ae7` · printing: STX #21 (2021-04-23) · [rulings](https://api.scryfall.com/cards/8b3d521f-31cd-4bd2-b6b6-771c79252789/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

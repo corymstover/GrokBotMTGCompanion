@@ -73,6 +73,8 @@ schema: 2
   - *2021-02-05* — If it's not your turn and you gain control of a creature with a boast ability after that creature attacked, you can activate that creature's boast ability if it hasn't been activated yet that turn.
   - *2021-02-05* — In some unfortunate cases, the greatest power among other creatures you control may be negative. For example, if that greatest power is -3, you could change Arni's base power to -2 until end of turn. Arni strenuously objects to this course of action.
   - *2021-02-05* — The greatest power among other creatures you control is determined as the boast ability resolves. You choose at that time whether you'd like to change Arni Brokenbrow's base power. If you control no other creatures at that time, you can change Arni's base power to 1 until end of turn. Arni objects to this course of action.
+- **Lore:** ✅ Presented with an official backstory on [The Legends of Kaldheim](https://magic.wizards.com/en/news/feature/legends-kaldheim-2021-01-21) — ✅ Presented with an official backstory on [The Legends of Reality Fracture](https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 78 decks; highest synergy [Temur Battle Rage](../../cards/T/te.md#temur-battle-rage) (+52%), [Anax, Hardened in the Forge](../../cards/A/an.md#anax-hardened-in-the-forge) (+51%), [Fling](../../cards/F/fl.md#fling) (+48%) · EDHREC: in 3,899 decks; most often under [Zilortha, Strength Incarnate](../../cards/Z/zi.md#zilortha-strength-incarnate) (14.9% of its decks), [Mr. Orfeo, the Boulder](../../cards/M/mr.md#mr-orfeo-the-boulder) (9.7% of its decks), [Lovisa Coldeyes](../../cards/L/lo.md#lovisa-coldeyes) (26.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/khm/120/arni-brokenbrow) · oracle_id `3dce6c6c-599f-4e35-ae15-728c5e78dee1` · printing: KHM #120 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arni, Humble Scribe
@@ -87,6 +89,8 @@ schema: 2
   > *"If you have a tale worthy of telling, I would hear it, friend."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23199 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Presented with an official backstory on [The Legends of Reality Fracture](https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 80 decks; highest synergy [Retraction Helix](../../cards/R/ret.md#retraction-helix) (+58%), [Banishing Knack](../../cards/B/ban.md#banishing-knack) (+57%), [Starfield Vocalist](../../cards/S/sta.md#starfield-vocalist) (+57%) · EDHREC: in 1,901 decks; most often under [Sefris of the Hidden Ways](../../cards/S/sef.md#sefris-of-the-hidden-ways) (5.7% of its decks), [Gandalf, Party Guest](../../cards/G/ga.md#gandalf-party-guest) (4.9% of its decks), [Oskar, Rubbish Reclaimer](../../cards/O/os.md#oskar-rubbish-reclaimer) (20.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/211/arni-humble-scribe) · oracle_id `a680d1ab-99f2-43d0-b289-5fdba4083d03` · printing: FRA #211 (2026-10-02) · [rulings](https://api.scryfall.com/cards/8e3a2239-9348-4639-9318-e9e35b2cf86b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arni Metalbrow
@@ -101,6 +105,8 @@ schema: 2
   - *2023-05-12* — If the attacking creature or creature that entered the battlefield attacking isn't on the battlefield as the triggered ability resolves, use its mana value from when it was last on the battlefield. (If it's on the battlefield but is no longer attacking, use its current mana value.)
   - *2023-05-12* — Putting a creature onto the battlefield attacking as the ability resolves will cause the ability to trigger again. This instance of the ability will consider the mana value of the new creature that entered the battlefield attacking.
   - *2023-05-12* — You decide whether to pay {1}{R} as the triggered ability resolves.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Arni Metalbrow + Thousand-Faced Shadow + Cloudstone Curio + Priest of Urabrask](https://commanderspellbook.com/combo/232-307-2232-3612/) (Infinite creature ETB, Infinite creature LTB) · EDHREC as commander: 217 decks; highest synergy [Ilharg, the Raze-Boar](../../cards/I/il.md#ilharg-the-raze-boar) (+62%), [Molten Monstrosity](../../cards/M/mol.md#molten-monstrosity) (+59%), [Combustible Gearhulk](../../cards/C/com.md#combustible-gearhulk) (+56%) · EDHREC: in 10,310 decks; most often under [Arthur, Marigold Knight](../../cards/A/art.md#arthur-marigold-knight) (35.9% of its decks), [Kaalia of the Vast](../../cards/K/ka.md#kaalia-of-the-vast) (1.7% of its decks), [Ilharg, the Raze-Boar](../../cards/I/il.md#ilharg-the-raze-boar) (49.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mat/16/arni-metalbrow) · oracle_id `d799e58a-0032-4df8-a77f-0d824ec15214` · printing: MAT #16 (2023-05-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arnim Zola, Bio-Fanatic
@@ -114,6 +120,8 @@ schema: 2
   > *"You are not the only one who found a way to live across the ages, Captain America."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19881 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 4 decks; highest synergy [Go for the Throat](../../cards/G/gof.md#go-for-the-throat) (+52%), [One Ring to Rule Them All](../../cards/O/on.md#one-ring-to-rule-them-all) (+49%), [Shoot the Sheriff](../../cards/S/sho.md#shoot-the-sheriff) (+48%) · EDHREC: in 2,425 decks; most often under [Madame Hydra](../../cards/M/mad.md#madame-hydra) (63.0% of its decks), [Thanos, the Mad Titan](../../cards/T/tha.md#thanos-the-mad-titan) (8.1% of its decks), [Doctor Doom, King of Latveria](../../cards/D/do.md#doctor-doom-king-of-latveria) (1.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/86/arnim-zola-bio-fanatic) · oracle_id `95161e23-e4c4-411f-bce5-58a02abc0958` · printing: MSH #86 (2026-06-26) · [rulings](https://api.scryfall.com/cards/07c70df6-b064-424a-852e-201b312a5b54/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arni, Renowned Champion
@@ -129,6 +137,8 @@ schema: 2
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27499 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Presented with an official backstory on [The Legends of Reality Fracture](https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 31 decks; highest synergy [Ball Lightning](../../cards/B/bal.md#ball-lightning) (+67%), [Flameshadow Conjuring](../../cards/F/fl.md#flameshadow-conjuring) (+58%), [Cosmic Larva](../../cards/C/cos.md#cosmic-larva) (+52%) · EDHREC: in 718 decks; most often under [Winota, Joiner of Forces](../../cards/W/wi.md#winota-joiner-of-forces) (1.9% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.6% of its decks), [Éowyn, Shieldmaiden](../../cards/E/eo.md#éowyn-shieldmaiden) (1.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/243/arni-renowned-champion) · oracle_id `1a929c4f-ae1f-44d9-a0a7-2ca2dc928dee` · printing: FRA #243 (2026-10-02) · [rulings](https://api.scryfall.com/cards/bd8db649-1dba-457d-8327-e1f1da1aab36/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arni Slays the Troll

@@ -102,6 +102,8 @@ schema: 2
 - **Keywords:** Food
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ03d/the-caffeinated-runner) · oracle_id `c1d8b17f-7a21-479f-9907-2276a035e289` · printing: UNK #RZ03d (2024-10-25) · [rulings](https://api.scryfall.com/cards/e846cdb2-936d-4b47-af1f-68df7dd22868/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Capitoline Triad
@@ -193,6 +195,8 @@ schema: 2
   > At the beginning of each end step, each opponent loses 2 life for each spell or ability that caused one or more players to guess or to group cards or permanents into a pile this turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17130 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 3,393 decks; highest synergy [Fact or Fiction](../../cards/F/fa.md#fact-or-fiction) (+92%), [Gollum, Scheming Guide](../../cards/G/gol.md#gollum-scheming-guide) (+90%), [Fight or Flight](../../cards/F/fi.md#fight-or-flight) (+89%) · EDHREC: in 379 decks; most often under [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.2% of its decks), [The Fourteenth Doctor // Clara Oswald](../../cards/T/thef.md#the-fourteenth-doctor) (1.6% of its decks), [Tivit, Seller of Secrets](../../cards/T/ti.md#tivit-seller-of-secrets) (0.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sld/1582/the-celestial-toymaker) · oracle_id `388fe92a-0bc0-4c0a-a7c6-910c5e71e342` · printing: SLD #1582 (2023-12-11) · [rulings](https://api.scryfall.com/cards/55c9e915-9cee-45c3-96aa-9dfd5a600d0a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Celestus
@@ -256,6 +260,8 @@ schema: 2
   > Whenever The Chaos Keeper deals combat damage to a player, reveal its cards and put one of them into your hand. (Don't open the booster pack until the first time this ability resolves.)
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ02c/the-chaos-keeper) · oracle_id `e8080592-3782-4aa7-84ca-2c019263bf69` · printing: UNK #RZ02c (2024-10-25) · [rulings](https://api.scryfall.com/cards/26263231-f4ad-44ff-8922-15391d09e70f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Charitable Drafter
@@ -268,6 +274,8 @@ schema: 2
   > Creatures you control have "{T}: Add one mana of any color. Spend this mana only to cast a card that wasn't in your starting deck."
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RU06/the-charitable-drafter) · oracle_id `3d85e2b9-d324-49ca-9d38-a83e880f1467` · printing: UNK #RU06 (2025-09-26) · [rulings](https://api.scryfall.com/cards/b5f5ff37-19b4-4e69-b60a-99d441c560c5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Chase Is On
@@ -317,6 +325,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16897 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2026-06-29* — The Chief Warg's triggered ability will check when you attack to see if you control a creature with power 4 or greater. If you don't, the ability won't trigger at all. It will not check again when it resolves, so the trigger will resolve even if you no longer control a creature with power 4 or greater.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 352 decks; highest synergy [Chief Warg's Company](../../cards/C/chi.md#chief-wargs-company) (+81%), [Ravening Warg](../../cards/R/rav.md#ravening-warg) (+78%), [Wargling](../../cards/W/war.md#wargling) (+78%) · EDHREC: in 3,867 decks; most often under [Chief of the Wilds](../../cards/C/chi.md#chief-of-the-wilds) (92.5% of its decks), [Sarulf, Realm Eater](../../cards/S/sar.md#sarulf-realm-eater) (13.7% of its decks), [Thranduil, the Elvenking](../../cards/T/thr.md#thranduil-the-elvenking) (0.7% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hob/150/the-chief-warg) · oracle_id `5ebe8de1-aa3d-410d-b43d-1685259c7a97` · printing: HOB #150 (2026-08-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Cinematic Phoenix
@@ -332,6 +342,8 @@ schema: 2
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2019-12-07* *(Scryfall note)* — The Commander RC has ruled that if your name is printed on the bottom of a Heroes of the Realm card, that card is legal for you in Commander.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ph19/6/the-cinematic-phoenix) · oracle_id `35358853-7443-4f3f-8922-fbcfc88bbd81` · printing: PH19 #6 (2020-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Circle of Loyalty
@@ -378,6 +390,8 @@ schema: 2
 - **Keywords:** Rule Zero, Scry
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RU04a/the-clever-magician) · oracle_id `2c4af7da-ed1c-4dd9-a5e7-7a00922127d2` · printing: UNK #RU04a (2024-06-29) · [rulings](https://api.scryfall.com/cards/7f7b811a-a49d-4ccd-98a0-9b46b3b988e0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Clone Saga
@@ -422,6 +436,8 @@ schema: 2
 - **Keywords:** Strike first, Fight, Strike hard
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ06/the-cobra-king) · oracle_id `b7773555-7e0f-44bd-8140-686ca71263c9` · printing: UNK #RZ06 (2024-10-25) · [rulings](https://api.scryfall.com/cards/8aaddcc9-2c6d-4baf-a91e-a68a07709218/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Collector
@@ -436,6 +452,8 @@ schema: 2
   > *Prize Card for the Unknown events at MagicCon Chicago, February 24-25, 2024.*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/MZ99/the-collector) · oracle_id `d85f70d8-272a-4f62-8e71-92507782db0a` · printing: UNK #MZ99 (2024-02-24) · [rulings](https://api.scryfall.com/cards/11c455b9-fd1c-44b9-9f4c-87c1934b6c6b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Colossal Dreadmaw
@@ -455,6 +473,8 @@ schema: 2
   - *2024-11-08* — Once you’ve started casting a spell as Colossal Dreadmaw, it’s too late . . . for an opponent to prevent you from doing that by killing The Colossal Dreadmaw.
   - *2024-11-08* — Playtest cards aren’t legal for play in any tournament format other than Mystery Booster Limited formats. On the other hand, we expect they will spice up a wide variety of non-tournament games (as long as everyone’s on the same page about using them!).
   - *2024-11-08* — Playtest cards use a modified version of game symbols, such as {T} and {W}. These modified symbols should be treated as the standard symbols during play.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mb2/573/the-colossal-dreadmaw) · oracle_id `549443ab-620e-433a-b782-386cb23b0052` · printing: MB2 #573 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Coming of Galactus
@@ -482,6 +502,8 @@ schema: 2
   > Whenever an opponent guesses wrong (like to Liar's Pendulum... or the above effect), you draw two cards.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RU05d/the-commander-recommender) · oracle_id `696c9e73-b5df-4662-8b66-c3e0d462b583` · printing: UNK #RU05d (2025-09-26) · [rulings](https://api.scryfall.com/cards/ad03fec1-ec23-4b60-9142-e049dcfbe009/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Companion of the Wilds
@@ -495,6 +517,8 @@ schema: 2
 - **Keywords:** Role token, Food
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RC05b/the-companion-of-the-wilds) · oracle_id `83e89b97-c83f-4db8-8940-d8b533fe2391` · printing: UNK #RC05b (2023-09-23) · [rulings](https://api.scryfall.com/cards/2c0127ce-32ad-4860-85c2-95a085532492/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Convention Enthusiast
@@ -509,6 +533,8 @@ schema: 2
   > *Prize Card for the Unknown events at GenCon, July 31-August 3, 2025.*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ05l/the-convention-enthusiast) · oracle_id `fb9b8272-b07a-4115-a5cd-e57c53c16a7b` · printing: UNK #RZ05l (2025-08-02) · [rulings](https://api.scryfall.com/cards/d9943669-dc56-49b2-9a65-35ec7be69a18/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Convincing General
@@ -525,6 +551,8 @@ schema: 2
 - **Keywords:** Changeling
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/MZ05a/the-convincing-general) · oracle_id `5dd4e011-c5e7-488f-a592-d72dfe00a493` · printing: UNK #MZ05a (2024-08-03) · [rulings](https://api.scryfall.com/cards/0017051f-bb7d-4f78-b214-02d08a542400/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Cookout Creator
@@ -539,6 +567,8 @@ schema: 2
 - **Keywords:** Treasure, Food
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ03p/the-cookout-creator) · oracle_id `59361f63-967c-420a-a57b-cecf73ce5209` · printing: UNK #RZ03p (2026-05-01) · [rulings](https://api.scryfall.com/cards/864e7046-f05c-4cbb-a3ba-8e4f27e312d0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Cosplayzer
@@ -550,6 +580,8 @@ schema: 2
   > You may have The Cosplayzer enter as a copy of any creature on the battlefield, except it has "The first time each turn an ability of this creature is activated or triggered, copy it. You may choose new targets for the copy" and the first letter of its name is Z. (This is both stylish AND makes it a different name for the legend rule!)
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RU05a/the-cosplayzer) · oracle_id `6a82d247-749f-48ff-acad-414553f02fcd` · printing: UNK #RU05a (2024-10-25) · [rulings](https://api.scryfall.com/cards/7461dba5-8546-436c-a0d2-84dd6cb2aa19/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Council of Four
@@ -595,6 +627,8 @@ schema: 2
   > Ready to run (You can have two commanders if both have ready to run.)
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RU05b/the-countering-runner) · oracle_id `9761c2bc-1e18-4fe4-8ccc-7b2df9ae7046` · printing: UNK #RU05b (2024-10-25) · [rulings](https://api.scryfall.com/cards/354f9932-4c1e-4a90-bfdf-0dd02be45fed/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Covert Blue Mage
@@ -607,6 +641,8 @@ schema: 2
   > When The Covert Blue Mage enters, create a colorless Equipment artifact token named Covert Sunglasses. It has "Equipped creature can't be blocked" and equip {2}{W/U}.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RU03c/the-covert-blue-mage) · oracle_id `c51a0ccb-220d-46f6-9813-62f2d36356a5` · printing: UNK #RU03c (2024-10-25) · [rulings](https://api.scryfall.com/cards/b4de2229-185c-4f54-a9e3-9947c41606e5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Crab Queen
@@ -620,6 +656,8 @@ schema: 2
   > *DIFFERENCE*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RU38/the-crab-queen) · oracle_id `232df79b-b848-4148-a0a6-2c7a91d7bf84` · printing: UNK #RU38 (2024-02-24) · [rulings](https://api.scryfall.com/cards/bc28b93d-c25b-4e26-af0f-f84e0c03e72e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Crafter
@@ -636,6 +674,8 @@ schema: 2
 - **Keywords:** Affinity
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RR66/the-crafter) · oracle_id `d3c5b218-a00b-4530-a88c-60a2aa83137b` · printing: UNK #RR66 (2024-02-24) · [rulings](https://api.scryfall.com/cards/f23f0b7e-ff04-45ea-bb0c-1e54afac8de0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Creation of Avacyn
@@ -667,6 +707,8 @@ schema: 2
 - **Keywords:** Flash
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RR10/the-crimson-avenger) · oracle_id `9a460790-2261-4ffa-b35d-5c3363b5845d` · printing: UNK #RR10 (2024-02-24) · [rulings](https://api.scryfall.com/cards/a8b8428b-63f3-4183-9235-159cfc9bf8df/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Crowd Goes Wild
@@ -749,6 +791,8 @@ schema: 2
   > *THE*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RW47/the-curve-keeper) · oracle_id `6ca5b1e3-4fb3-4438-839b-e1b680aee108` · printing: UNK #RW47 (2024-02-24) · [rulings](https://api.scryfall.com/cards/c058eaf2-624d-41ff-b894-13eecd9a5645/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Cyber-Controller

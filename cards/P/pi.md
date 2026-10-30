@@ -166,6 +166,8 @@ schema: 2
   > *"Perhaps one day I will learn how to break the hold the Consulate has over Chandra and Kiran."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10283 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Presented with an official backstory on [The Legends of Reality Fracture](https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 798 decks; highest synergy [Destiny Spinner](../../cards/D/des.md#destiny-spinner) (+30%), [Sanctum Weaver](../../cards/S/san.md#sanctum-weaver) (+27%), [Utopia Sprawl](../../cards/U/ut.md#utopia-sprawl) (+27%) · EDHREC: in 18,988 decks; most often under [Rograkh, Son of Rohgahh // Thrasios, Triton Hero](../../cards/R/ro.md#rograkh-son-of-rohgahh) (48.9% of its decks), [Kinnan, Bonder Prodigy](../../cards/K/ki.md#kinnan-bonder-prodigy) (20.2% of its decks), [Etali, Primal Conqueror](../../cards/E/et.md#etali-primal-conqueror--etali-primal-sickness) (31.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/264/pia-aether-ascetic) · oracle_id `6519dc16-4960-4220-aaa8-7e4279743714` · printing: FRA #264 (2026-10-02) · [rulings](https://api.scryfall.com/cards/ff0bc30f-9d20-458e-808f-bdc2825905a5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pia and Kiran Nalaar
@@ -195,6 +197,8 @@ schema: 2
   > *"We've kept one foot in the past for too long. Now we walk into a better future!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24233 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Presented with an official backstory on [The Legends of Reality Fracture](https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 10 decks; highest synergy [Foundry of the Consuls](../../cards/F/fo.md#foundry-of-the-consuls) (+70%), [Thopter Engineer](../../cards/T/tho.md#thopter-engineer) (+70%), [Breya's Apprentice](../../cards/B/br.md#breyas-apprentice) (+69%) · EDHREC: in 1,584 decks; most often under [Breya, Etherium Shaper](../../cards/B/br.md#breya-etherium-shaper) (1.9% of its decks), [Karn, Gilded Guardian](../../cards/K/ka.md#karn-gilded-guardian) (1.5% of its decks), [Tony Stark](../../cards/T/to.md#tony-stark--the-invincible-iron-man) (0.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/250/pia-determined-rebuilder) · oracle_id `a49c0c64-ea87-44f4-9acf-e7181962aeb2` · printing: FRA #250 (2026-10-02) · [rulings](https://api.scryfall.com/cards/dd3faaf4-45ca-4714-8dbe-37102ec131cf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pia Nalaar
@@ -233,6 +237,8 @@ schema: 2
   - *2025-02-07* — Some spells and abilities say that you “may pay” a certain amount of {E}. You can’t pay that amount multiple times to multiply the effect. You simply choose whether or not to pay that amount of {E} as the ability resolves.
   - *2025-02-07* — Some spells and abilities which give you {E} or say you “may pay” some amount of {E} require one or more targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won’t resolve. None of its effects will happen, you won’t get any {E} from it, and you won’t get the chance to pay any {E} for its effects even if you want to.
   - *2025-02-07* — {E} is the energy symbol. It represents one energy counter.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1,406 decks; highest synergy [Thopter Spy Network](../../cards/T/tho.md#thopter-spy-network) (+77%), [Aether Hub](../../cards/A/ae.md#aether-hub) (+76%), [Izzet Generatorium](../../cards/I/iz.md#izzet-generatorium) (+76%) · EDHREC: in 6,862 decks; most often under [Saheeli, Radiant Creator](../../cards/S/sah.md#saheeli-radiant-creator) (55.3% of its decks), [Gimbal, Gremlin Prodigy](../../cards/G/gi.md#gimbal-gremlin-prodigy) (6.9% of its decks), [Aragorn, the Uniter](../../cards/A/ara.md#aragorn-the-uniter) (0.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/P.md#pia-nalaar-chief-mechanic)
 - **Source flags:** [Scryfall](https://scryfall.com/card/drc/2/pia-nalaar-chief-mechanic) · oracle_id `31cb87bf-1020-4fd5-95f7-8ecb197d823b` · printing: DRC #2 (2025-02-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -264,6 +270,8 @@ schema: 2
   > *Some find inspiration in their swords. Others find it in their leaders.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22154 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 69 decks; highest synergy [Benalish Marshal](../../cards/B/be.md#benalish-marshal) (+48%), [Glorious Anthem](../../cards/G/gl.md#glorious-anthem) (+47%), [Accorder Paladin](../../cards/A/ac.md#accorder-paladin) (+40%) · EDHREC: in 1,421 decks; most often under [Isshin, Two Heavens as One](../../cards/I/is.md#isshin-two-heavens-as-one) (0.9% of its decks), [Hazezon, Shaper of Sand](../../cards/H/ha.md#hazezon-shaper-of-sand) (0.8% of its decks), [Duskana, the Rage Mother](../../cards/D/du.md#duskana-the-rage-mother) (0.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/50/pianna-nomad-captain) · oracle_id `9cd8f7f6-0b69-466a-8f4c-d864ff682457` · printing: CMM #50 (2023-08-04) · [rulings](https://api.scryfall.com/cards/90ebb129-aa8d-4107-8e74-0b04525d76e0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pia's Revolution
@@ -297,6 +305,8 @@ schema: 2
   > *"I have the utmost confidence in your ability to perform the impossible."*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #32259 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 3 decks; highest synergy [Mantle of the Ancients](../../cards/M/man.md#mantle-of-the-ancients) (+92%), [All That Glitters](../../cards/A/al.md#all-that-glitters) (+90%), [Sram, Senior Edificer](../../cards/S/sr.md#sram-senior-edificer) (+84%) · EDHREC: in 132 decks; most often under [Storvald, Frost Giant Jarl](../../cards/S/sto.md#storvald-frost-giant-jarl) (1.5% of its decks), [Whtz, the Bibliophile](../../cards/W/wh.md#whtz-the-bibliophile) (0.0% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/trk/29/picard-leading-by-example) · oracle_id `4b36f8e2-ba7d-4bc7-890f-dd6ab73eef17` · printing: TRK #29 (2026-11-13) · [rulings](https://api.scryfall.com/cards/f9fa20c5-f241-4da2-9c99-c9b650095d74/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Picard, Steadfast Captain
@@ -310,6 +320,8 @@ schema: 2
   > *"That is what it is to be human: to make yourself more than you are."*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #31592 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 13 decks; highest synergy [Conjurer's Closet](../../cards/C/con.md#conjurers-closet) (+63%), [Felidar Guardian](../../cards/F/fe.md#felidar-guardian) (+63%), [Eerie Interlude](../../cards/E/ee.md#eerie-interlude) (+61%) · EDHREC: in 166 decks; most often under [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.1% of its decks), [Esika, God of the Tree](../../cards/E/es.md#esika-god-of-the-tree--the-prismatic-bridge) (0.1% of its decks), [Omnath, Locus of Creation](../../cards/O/om.md#omnath-locus-of-creation) (0.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/trc/193/picard-steadfast-captain) · oracle_id `cda786aa-1259-45e8-a834-21c7ad0259a6` · printing: TRC #193 (2026-11-13) · [rulings](https://api.scryfall.com/cards/ddfbfc4f-eeea-4b49-92c2-3060e2cef830/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pick-a-Beeble
@@ -587,6 +599,8 @@ schema: 2
   - *2022-10-07* — While you must use a new joke each time you activate Pietra’s ability, you may choose the same person as the audience, especially if they think you’re funny.
   - *2022-10-07* — You may find yourself drawing quite the crowd as your joke-telling skills become legend. Make sure you identify one specific person outside the game before your joke. Only their laughter (or lack thereof) matters, even if others are rolling on the proverbial or literal floor.
   - *2022-10-07* — You may read the joke from an outside source if you need to.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 91 decks; highest synergy [Circuits Act](../../cards/C/ci.md#circuits-act) (+86%), [Clowning Around](../../cards/C/cl.md#clowning-around) (+86%), [Assembled Ensemble](../../cards/A/as.md#assembled-ensemble) (+80%) · EDHREC: in 75 decks; most often under [Mr. House, President and CEO](../../cards/M/mr.md#mr-house-president-and-ceo) (0.1% of its decks), [Vorthos, Steward of Myth](../../cards/V/vo.md#vorthos-steward-of-myth) (1.9% of its decks), [The Jolly Balloon Man](../../cards/T/thej.md#the-jolly-balloon-man) (0.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unf/176/pietra-crafter-of-clowns) · oracle_id `3a7372b0-94a2-4e94-b635-a8e0a2f04967` · printing: UNF #176 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Piety
@@ -1263,6 +1277,8 @@ schema: 2
 - **Keywords:** Everypony's Invited, Treasure
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sld/1539/pinkie-pie) · oracle_id `818f7024-bdce-4cf2-af64-00ae7864defb` · printing: SLD #1539 (2024-03-01) · [rulings](https://api.scryfall.com/cards/c790770c-110d-4eb2-b9ae-3aa2bc745a9d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pinnacle Emissary
@@ -1539,6 +1555,8 @@ schema: 2
   - *2020-02-29* — For the first ability, you roll a die that isn’t already in the game. That die will be used to represent the Die creature you create.
   - *2020-02-29* — Pippa’s second ability can be used to reroll any die roll, not just yours. If you reroll another player’s roll, the result still counts for whatever instructed them to roll a die, but abilities you control that trigger “whenever you roll a die” will trigger.
   - *2020-02-29* — The Die creature you create enters the battlefield.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/und/68/pippa-duchess-of-dice) · oracle_id `10d52b6f-8845-4d79-a2db-11456915a177` · printing: UND #68 (2020-02-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pippin, Guard of the Citadel
@@ -1620,6 +1638,8 @@ schema: 2
   > *"You think my name is funny?"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26904 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 9 decks; highest synergy [The Duke, Rebel Sentry](../../cards/T/thed.md#the-duke-rebel-sentry) (+55%), [Urdnan, Dromoka Warrior](../../cards/U/ur.md#urdnan-dromoka-warrior) (+54%), [Troop of Ponies](../../cards/T/tro.md#troop-of-ponies) (+48%) · EDHREC: in 536 decks; most often under [Sokka, Tenacious Tactician](../../cards/S/so.md#sokka-tenacious-tactician) (0.5% of its decks), [Katara, the Fearless](../../cards/K/ka.md#katara-the-fearless) (0.5% of its decks), [Lin Sivvi, Defiant Hero](../../cards/L/li.md#lin-sivvi-defiant-hero) (10.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tle/82/pipsqueak-rebel-strongarm) · oracle_id `08a5445b-e9e6-44c3-9bc4-aff1b91c18a7` · printing: TLE #82 (2025-11-21) · [rulings](https://api.scryfall.com/cards/6ee743f6-0c8b-4fbc-a0ef-0b9933b77617/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Piracy
@@ -1819,6 +1839,8 @@ schema: 2
   > Whenever you fully station a Spacecraft, draw a card. (A Spacecraft is fully stationed when you unlock its highest station number.)
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ03n/pirk-heroic-captain) · oracle_id `e8e2cd4d-c0b0-4a4f-bbc9-2d51c99ed5b7` · printing: UNK #RZ03n (2025-08-02) · [rulings](https://api.scryfall.com/cards/67ccec81-25db-4f39-8583-74c3791039ef/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pir's Whim
@@ -1853,6 +1875,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10071 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2021-06-18* — Because Piru had lifelink when it was on the battlefield, you will gain life equal to the damage it deals as its last triggered ability resolves.
+- **Lore:** ✅ Presented with an official backstory on [The Returning Legends of Modern Horizons 2](https://magic.wizards.com/en/news/feature/returning-legends-modern-horizons-2-2021-06-10) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 2,222 decks; highest synergy [Brash Taunter](../../cards/B/br.md#brash-taunter) (+68%), [Barbed Servitor](../../cards/B/bar.md#barbed-servitor) (+55%), [Stuffy Doll](../../cards/S/stu.md#stuffy-doll) (+55%) · EDHREC: in 10,187 decks; most often under [Kaalia of the Vast](../../cards/K/ka.md#kaalia-of-the-vast) (7.6% of its decks), [Dihada, Binder of Wills](../../cards/D/di.md#dihada-binder-of-wills) (18.7% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (2.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh2/207/piru-the-volatile) · oracle_id `dcd13eab-7ed7-4e95-bdae-d140c1ff84df` · printing: MH2 #207 (2021-06-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Piston-Fist Cyclops
@@ -2318,4 +2342,6 @@ schema: 2
   - *2026-01-27* — The resulting creature will be able to attack on your turn if it's been under your control continuously since the turn began. That is, it doesn't matter how long it's been a creature, just how long it's been on the battlefield.
   - *2026-01-27* — The target permanent retains any types, subtypes, or supertypes it has.
   - *2026-01-27* — Whatever you do, don't eat the cards. (Also, don't make the pizzas pictured on the cards. You don't have the digestive system of a Ninja Turtle.)
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 935 decks; highest synergy [Anchovy & Banana Pizza](../../cards/A/an.md#anchovy--banana-pizza) (+74%), [Ice Cream Kitty](../../cards/I/ic.md#ice-cream-kitty) (+73%), [Tainted Treats](../../cards/T/ta.md#tainted-treats) (+68%) · EDHREC: in 4,071 decks; most often under [Ygra, Eater of All](../../cards/Y/yg.md#ygra-eater-of-all) (6.1% of its decks), [Frodo, Adventurous Hobbit // Sam, Loyal Attendant](../../cards/F/fr.md#frodo-adventurous-hobbit) (2.3% of its decks), [Leonardo, the Balance // Michelangelo, the Heart](../../cards/L/le.md#leonardo-the-balance) (3.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmt/163/pizza-face-gastromancer) · oracle_id `e71479c9-bb38-4112-bf8a-41b39a3ade51` · printing: TMT #163 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

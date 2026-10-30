@@ -38,6 +38,8 @@ schema: 2
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20299 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 10 decks; highest synergy [Sevinne's Reclamation](../../cards/S/sev.md#sevinnes-reclamation) (+57%), [Marsh Flats](../../cards/M/mar.md#marsh-flats) (+55%), [Shifting Woodland](../../cards/S/shi.md#shifting-woodland) (+47%) · EDHREC: in 2,245 decks; most often under [T'Challa, the Black Panther](../../cards/T/tc.md#tchalla-the-black-panther) (36.8% of its decks), [Jared Carthalion, True Heir](../../cards/J/ja.md#jared-carthalion-true-heir) (9.1% of its decks), [Shuri, the Black Panther](../../cards/S/shu.md#shuri-the-black-panther) (25.0% of its decks) — *Guidance (Oracle pattern)* — packages: [Graveyard: Self-mill](../../EDH%20Packages.md#graveyard-self-mill) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/98/tchaka-venerable-king) · oracle_id `2a9f2d69-328c-46f4-be37-60b85b197b72` · printing: MSC #98 (2026-06-26) · [rulings](https://api.scryfall.com/cards/28deeaf6-c32b-41f1-b94f-0ae303377ea0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### T'Challa, the Black Panther
@@ -50,6 +52,8 @@ schema: 2
   > Whenever you cast an artifact spell with mana value 4 or greater, put two +1/+1 counters on T'Challa.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15170 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 4,803 decks; highest synergy [Thran Dynamo](../../cards/T/thr.md#thran-dynamo) (+83%), [Hammer of Nazahn](../../cards/H/ha.md#hammer-of-nazahn) (+81%), [Dispatch](../../cards/D/di.md#dispatch) (+79%) · EDHREC: in 823 decks; most often under [Shuri, the Black Panther](../../cards/S/shu.md#shuri-the-black-panther) (54.8% of its decks), [Nick Fury, Agent of S.H.I.E.L.D.](../../cards/N/ni.md#nick-fury-agent-of-shield) (1.6% of its decks), [Black Panther, Wakandan King](../../cards/B/bla.md#black-panther-wakandan-king) (3.2% of its decks) — *Guidance (Oracle pattern)* — packages: [Artifacts: Artifact payoffs](../../EDH%20Packages.md#artifacts-artifact-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lmar/8/tchalla-the-black-panther) · oracle_id `ae10eb15-28e7-46d1-9a2e-85763d93febf` · printing: LMAR #8 (2026-10-08) · [rulings](https://api.scryfall.com/cards/d72c4452-b4f2-45a8-9127-42368a23ac6a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tchotchke Elemental

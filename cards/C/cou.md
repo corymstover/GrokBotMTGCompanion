@@ -135,6 +135,8 @@ schema: 2
   > *"Reed Richards of Earth-616, it is time you reached your full potential."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12389 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 50 combos; most popular [Prismari, the Inspiration + Inspired Skypainter // Maestro's Gift + Council of Reeds](https://commanderspellbook.com/combo/7546-7683-7752/) (Near-infinite creature ETB, Near-infinite creature tokens with haste) · EDHREC as commander: 1,265 decks; highest synergy [Mass Appeal](../../cards/M/mas.md#mass-appeal) (+69%), [Relic of Legends](../../cards/R/rel.md#relic-of-legends) (+69%), [Heroes' Podium](../../cards/H/he.md#heroes-podium) (+68%) · EDHREC: in 7,948 decks; most often under [Mister Fantastic](../../cards/M/mis.md#mister-fantastic) (63.7% of its decks), [Invisible Woman](../../cards/I/inv.md#invisible-woman) (58.3% of its decks), [The Fantastic Four](../../cards/T/thef.md#the-fantastic-four) (21.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (2 card data) → [reverse index](../../references/C.md#council-of-reeds)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/28/council-of-reeds) · oracle_id `33fa949c-f29e-4a98-9381-ecfa9e5c3f6d` · printing: MSC #28 (2026-06-26) · [rulings](https://api.scryfall.com/cards/a0d824ea-75d2-4de5-923b-813bba44e80b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -324,6 +326,8 @@ schema: 2
   - *2026-08-21* — If you control a Jace planeswalker token, you can't choose to create a new one when you empower Jace. You have to put the loyalty counters on your existing Jace planeswalker token. In the rare case that you control multiple Jace planeswalker tokens, you'll choose one of those tokens to put the loyalty counters on.
   - *2026-08-21* — Some spells and abilities that empower Jace may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't empower Jace.
   - *2026-08-21* — To empower Jace N, if you don't control a Jace planeswalker token, create a blue Jace planeswalker token with 0 loyalty, "[−1]: Surveil 1," and "[−3]: Draw a card." Choose a Jace planeswalker token you control. Put N loyalty counters on it.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): FRA #25 · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — none in the cached data · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/25/countersculpt) · oracle_id `fc3353e9-fe24-4ca7-bff8-9da767f2903a` · printing: FRA #25 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Counterspell
@@ -397,6 +401,8 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30067 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 2 decks; highest synergy [Thoughtrender Lamia](../../cards/T/tho.md#thoughtrender-lamia) (+100%), [Agent of Erebos](../../cards/A/ag.md#agent-of-erebos) (+50%), [Alien Symbiosis](../../cards/A/al.md#alien-symbiosis) (+50%) · EDHREC: in 222 decks; most often under [Eddie Brock](../../cards/E/ed.md#eddie-brock--venom-lethal-protector) (0.8% of its decks), [Madame Hydra](../../cards/M/mad.md#madame-hydra) (3.0% of its decks), [Loki, the Deceiver](../../cards/L/lo.md#loki-the-deceiver) (0.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/651/count-nefaria) · oracle_id `5ec4f81e-ede4-4d45-b768-16583f6f5b8d` · printing: MSC #651 (2026-06-26) · [rulings](https://api.scryfall.com/cards/06fe30ef-75bb-43aa-827c-234dcf57eb6d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Count on Luck

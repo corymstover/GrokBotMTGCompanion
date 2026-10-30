@@ -134,6 +134,8 @@ schema: 2
   > *—Princess Yue*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12312 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 33 combos; most popular [Tui and La, Moon and Ocean + Freed from the Real + Relic of Legends](https://commanderspellbook.com/combo/4222-4549-7065/) (Infinite draw triggers, Infinite looting) · EDHREC as commander: 743 decks; highest synergy [Freed from the Real](../../cards/F/fr.md#freed-from-the-real) (+71%), [Ioreth of the Healing House](../../cards/I/io.md#ioreth-of-the-healing-house) (+67%), [Relic of Legends](../../cards/R/rel.md#relic-of-legends) (+63%) · EDHREC: in 8,139 decks; most often under [Princess Yue](../../cards/P/pr.md#princess-yue) (47.0% of its decks), [Captain America, Living Legend](../../cards/C/cap.md#captain-america-living-legend) (25.8% of its decks), [Yue, the Moon Spirit](../../cards/Y/yu.md#yue-the-moon-spirit) (34.1% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tle/96/tui-and-la-moon-and-ocean) · oracle_id `781c9391-0322-40ad-8050-07151e2e6fc7` · printing: TLE #96 (2025-11-21) · [rulings](https://api.scryfall.com/cards/edf0d06a-4eef-40cb-951c-74d7e0ffae13/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tuinvale Guide
@@ -209,6 +211,8 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30903 · Game Changer: no · Can be commander: Yes (legendary creature) · Reserved List
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 40 decks; highest synergy [Gigantic Big Bear](../../cards/G/gi.md#gigantic-big-bear) (+33%), [Fire-Lit Thicket](../../cards/F/fi.md#fire-lit-thicket) (+32%), [Fire Sprites](../../cards/F/fi.md#fire-sprites) (+30%) · EDHREC: in 102 decks; most often under [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.1% of its decks), [Hazezon Tamar](../../cards/H/ha.md#hazezon-tamar) (1.2% of its decks), [Palladia-Mors](../../cards/P/pa.md#palladia-mors) (3.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me3/184/tuknir-deathlock) · oracle_id `0b6fa658-a344-4202-866b-e19997e32ff2` · printing: ME3 #184 (2009-09-07) · [rulings](https://api.scryfall.com/cards/5ab10b32-00b6-40b7-ad5e-ff2fd35951ef/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tuktuk Grunts
@@ -270,6 +274,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15273 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2010-06-15* — Both Tuktuk the Explorer and Tuktuk the Returned are legendary creatures. However, since they have different names, one of each may coexist without being affected by the “legend rule.”
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Tuktuk the Explorer + Nim Deathmantle + Ashnod's Altar](https://commanderspellbook.com/combo/1728-2034-5003/) (Infinite death triggers, Infinite creature ETB) · EDHREC as commander: 68 decks; highest synergy [Mirror Box](../../cards/M/mir.md#mirror-box) (+61%), [Orthion, Hero of Lavabrink](../../cards/O/or.md#orthion-hero-of-lavabrink) (+59%), [Flameshadow Conjuring](../../cards/F/fl.md#flameshadow-conjuring) (+53%) · EDHREC: in 5,110 decks; most often under [Krenko, Mob Boss](../../cards/K/kr.md#krenko-mob-boss) (3.3% of its decks), [Cadric, Soul Kindler](../../cards/C/cad.md#cadric-soul-kindler) (14.6% of its decks), [Gimbal, Gremlin Prodigy](../../cards/G/gi.md#gimbal-gremlin-prodigy) (5.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#tuktuk-the-explorer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2xm/149/tuktuk-the-explorer) · oracle_id `754e227b-ff31-4b5c-b612-2221c2b44246` · printing: 2XM #149 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -566,6 +572,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16269 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2022-09-09* — Tura’s triggered ability resolves before the spell that caused it to trigger. The ability will resolve even if that spell is countered.
+- **Lore:** ✅ Presented with an official backstory on [The Legends You'll Find in Dominaria United](https://magic.wizards.com/en/news/feature/legends-youll-find-dominaria-united-2022-09-01) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 8 combos; most popular [Tura Kennerüd, Skyknight + Mnemonic Wall + Essence Flux + Phyrexian Altar](https://commanderspellbook.com/combo/2556-4050-4598-5316/) (Infinite death triggers, Infinite creature ETB) · EDHREC as commander: 356 decks; highest synergy [Raff, Weatherlight Stalwart](../../cards/R/raf.md#raff-weatherlight-stalwart) (+48%), [Opt](../../cards/O/op.md#opt) (+46%), [Intangible Virtue](../../cards/I/int.md#intangible-virtue) (+44%) · EDHREC: in 4,037 decks; most often under [Zethi, Arcane Blademaster](../../cards/Z/ze.md#zethi-arcane-blademaster) (13.2% of its decks), [Raff, Weatherlight Stalwart](../../cards/R/raf.md#raff-weatherlight-stalwart) (25.2% of its decks), [Sidar Jabari of Zhalfir](../../cards/S/si.md#sidar-jabari-of-zhalfir) (0.8% of its decks) — *Guidance (Oracle pattern)* — packages: [Spellslinger: Cast-trigger payoffs](../../EDH%20Packages.md#spellslinger-cast-trigger-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmu/224/tura-kenner%C3%BCd-skyknight) · oracle_id `4cb3a303-9ded-46d5-90e7-1cc1c65a75da` · printing: DMU #224 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Turbo-Thwacking Auto-Hammer
@@ -1291,6 +1299,8 @@ schema: 2
   > *Weighing in at a combined thirteen thousand pounds and two ounces.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28648 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 62 decks; highest synergy [Clandestine Chameleon](../../cards/C/cl.md#clandestine-chameleon) (+92%), [Park Bleater](../../cards/P/pa.md#park-bleater) (+92%), [Chicken Troupe](../../cards/C/chi.md#chicken-troupe) (+90%) · EDHREC: in 277 decks; most often under [Atraxa, Praetors' Voice](../../cards/A/at.md#atraxa-praetors-voice) (0.1% of its decks), [Rocco, Cabaretti Caterer](../../cards/R/ro.md#rocco-cabaretti-caterer) (0.4% of its decks), [Yenna, Redtooth Regent](../../cards/Y/ye.md#yenna-redtooth-regent) (0.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#tusk-and-whiskers)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unf/182/tusk-and-whiskers) · oracle_id `de45de7e-5bba-4612-8bb7-755710d93ecf` · printing: UNF #182 (2022-10-07) · [rulings](https://api.scryfall.com/cards/903168f6-c195-47af-bdf7-b5748108d2a8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1379,4 +1389,6 @@ schema: 2
 - **Rulings** (2):
   - *2020-11-10* — Once the ability resolves and the bonus is applied, that bonus won't change, even if the greatest power among other creatures you control does.
   - *2020-11-10* — The value of X is calculated as Tuya Bearclaw's ability resolves. If you control no other creatures at that time or if the greatest power among other creatures you control is 0 or less, X will be 0.
+- **Lore:** ✅ Presented with an official backstory on [The Legendary Characters of Commander Legends, Part 2](https://magic.wizards.com/en/news/card-preview/legendary-characters-commander-legends-part-2-2020-11-06) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 288 decks; highest synergy [Ghalta, Primal Hunger](../../cards/G/gh.md#ghalta-primal-hunger) (+48%), [Temur Battle Rage](../../cards/T/te.md#temur-battle-rage) (+36%), [Goreclaw, Terror of Qal Sisma](../../cards/G/gor.md#goreclaw-terror-of-qal-sisma) (+35%) · EDHREC: in 10,792 decks; most often under [Duskana, the Rage Mother](../../cards/D/du.md#duskana-the-rage-mother) (34.0% of its decks), [Zilortha, Strength Incarnate](../../cards/Z/zi.md#zilortha-strength-incarnate) (25.6% of its decks), [Mr. Orfeo, the Boulder](../../cards/M/mr.md#mr-orfeo-the-boulder) (36.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/360/tuya-bearclaw) · oracle_id `63e8ac70-0ec3-4bef-832f-e3f4c8a692ad` · printing: CMM #360 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

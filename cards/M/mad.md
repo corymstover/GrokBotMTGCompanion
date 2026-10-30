@@ -52,6 +52,8 @@ schema: 2
   > *"This will be our night of glory! Hail HYDRA!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11459 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Loki, the Deceiver (Grixis)](../../grixis/decks/loki-the-deceiver.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 606 decks; highest synergy [Baron Strucker, HYDRA Overlord](../../cards/B/bar.md#baron-strucker-hydra-overlord) (+92%), [HYDRA Assault Robot](../../cards/H/hy.md#hydra-assault-robot) (+83%), [Crossbones, Malicious Mercenary](../../cards/C/cr.md#crossbones-malicious-mercenary) (+81%) · EDHREC: in 9,823 decks; most often under [Doctor Doom, King of Latveria](../../cards/D/do.md#doctor-doom-king-of-latveria) (47.7% of its decks), [Loki, the Deceiver](../../cards/L/lo.md#loki-the-deceiver) (65.1% of its decks), [Thanos, the Mad Titan](../../cards/T/tha.md#thanos-the-mad-titan) (36.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/M.md#madame-hydra)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/221/madame-hydra) · oracle_id `d812c8e3-a475-4ad2-a93f-7208ad873676` · printing: MSH #221 (2026-06-26) · [rulings](https://api.scryfall.com/cards/e94ccedb-1d27-4098-8823-d8d99b30387c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -67,6 +69,8 @@ schema: 2
 - **Keywords:** Menace, Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22678 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 24 decks; highest synergy [Stitcher's Supplier](../../cards/S/sti.md#stitchers-supplier) (+61%), [Millikin](../../cards/M/mil.md#millikin) (+55%), [Mire Triton](../../cards/M/mir.md#mire-triton) (+52%) · EDHREC: in 1,426 decks; most often under [Madame Hydra](../../cards/M/mad.md#madame-hydra) (16.8% of its decks), [Doctor Doom, King of Latveria](../../cards/D/do.md#doctor-doom-king-of-latveria) (0.7% of its decks), [Black Widow, Daring Operative](../../cards/B/bla.md#black-widow-daring-operative) (63.2% of its decks) — *Guidance (Oracle pattern)* — packages: [Graveyard: Self-mill](../../EDH%20Packages.md#graveyard-self-mill) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#madame-hydra-reanimated)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/538/madame-hydra-reanimated) · oracle_id `7274f6ed-310d-4b65-8083-eedb8e885a33` · printing: MSC #538 (2026-06-26) · [rulings](https://api.scryfall.com/cards/c831bdda-06a9-465a-bec5-2b380d28d82a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -81,6 +85,8 @@ schema: 2
 - **Keywords:** Connive
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15128 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 7 decks; highest synergy [Fanatical Offering](../../cards/F/fa.md#fanatical-offering) (+84%), [Rowan's Grim Search](../../cards/R/ro.md#rowans-grim-search) (+71%), [Succumb to Temptation](../../cards/S/suc.md#succumb-to-temptation) (+70%) · EDHREC: in 5,638 decks; most often under [Doctor Doom, King of Latveria](../../cards/D/do.md#doctor-doom-king-of-latveria) (12.6% of its decks), [Norman Osborn](../../cards/N/no.md#norman-osborn--green-goblin) (7.6% of its decks), [Ultron, Unlimited](../../cards/U/ul.md#ultron-unlimited) (26.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#madame-masque)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/104/madame-masque) · oracle_id `b5b0e85f-6651-4667-829c-2253ff8b130d` · printing: MSH #104 (2026-06-26) · [rulings](https://api.scryfall.com/cards/f54197b8-6279-43ee-9340-69bd22cf3775/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -98,6 +104,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9782 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2026-01-27* — Use the creature's power as Madame Null's last ability resolves to determine how much life you may pay. If that creature is no longer on the battlefield, use its power as it last existed on the battlefield. (You probably won't want to pay life in that case, though.)
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1,069 decks; highest synergy [Qarsi Revenant](../../cards/Q/qa.md#qarsi-revenant) (+79%), [Elegy Acolyte](../../cards/E/el.md#elegy-acolyte) (+68%), [Nighthawk Scavenger](../../cards/N/ni.md#nighthawk-scavenger) (+67%) · EDHREC: in 12,478 decks; most often under [Betor, Ancestor's Voice](../../cards/B/be.md#betor-ancestors-voice) (17.3% of its decks), [Marchesa, the Black Rose](../../cards/M/mar.md#marchesa-the-black-rose) (14.1% of its decks), [Be'lakor, the Dark Master](../../cards/B/be.md#belakor-the-dark-master) (8.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmt/66/madame-null-power-broker) · oracle_id `73413bd5-8c40-4d45-8f05-c20c39ee4017` · printing: TMT #66 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Madame Vastra
@@ -119,6 +127,8 @@ schema: 2
   - *2024-11-08* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
   - *2024-11-08* — Whatever you do, don't eat the delicious cards.
   - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 8 decks; highest synergy [Beorn the Fierce](../../cards/B/be.md#beorn-the-fierce) (+99%), [Fateful Discovery](../../cards/F/fa.md#fateful-discovery) (+99%), [Infiltration Lens](../../cards/I/inf.md#infiltration-lens) (+87%) · EDHREC: in 2,128 decks; most often under [The Thirteenth Doctor // Yasmin Khan](../../cards/T/thet.md#the-thirteenth-doctor) (17.7% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.6% of its decks), [Cecily, Haunted Mage // Othelm, Sigardian Outcast](../../cards/C/ce.md#cecily-haunted-mage) (4.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/M.md#madame-vastra)
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/142/madame-vastra) · oracle_id `4789357c-3ab7-4327-b5ee-b1110ddb876f` · printing: WHO #142 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -137,6 +147,8 @@ schema: 2
   - *2025-09-19* — If the top card of your library changes while you're casting a spell, playing a land, activating an ability, or taking a special action, you can't look at the new top card until you finish doing so. This means that if you cast the top card of your library, you can't look at the next one until you're done paying for that spell.
   - *2025-09-19* — Madame Web lets you look at the top card of your library whenever you want (with one restriction—see below), even if you don't have priority. This action doesn't use the stack. Knowing what that card is becomes part of the information you have access to, just like you can look at the cards in your hand.
   - *2025-09-19* — You must follow all normal timing rules when casting a spell this way.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 98+ combos; most popular [Sensei's Divining Top + Etherium Sculptor + Madame Web, Clairvoyant](https://commanderspellbook.com/combo/1976-5078-6918/) (Infinite card draw, Infinite draw triggers) · EDHREC as commander: 41 decks; highest synergy [Spider-Man No More](../../cards/S/spi.md#spider-man-no-more) (+49%), [Spider-Byte, Web Warden](../../cards/S/spi.md#spider-byte-web-warden) (+46%), [Shark Typhoon](../../cards/S/sha.md#shark-typhoon) (+42%) · EDHREC: in 8,889 decks; most often under [Cosmic Spider-Man](../../cards/C/cos.md#cosmic-spider-man) (38.0% of its decks), [Peter Parker](../../cards/P/pe.md#peter-parker--amazing-spider-man) (12.4% of its decks), [Spider-Man 2099](../../cards/S/spi.md#spider-man-2099) (17.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/spm/36/madame-web-clairvoyant) · oracle_id `b1e0841d-b004-40f9-a644-aecb422f6ad5` · printing: SPM #36 (2025-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mad Auntie

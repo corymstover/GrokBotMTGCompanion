@@ -202,6 +202,8 @@ schema: 2
 - **Keywords:** Flying, Lethal Voice
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20487 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 134 decks; highest synergy [Lockjaw, Slobbering Teleporter](../../cards/L/lo.md#lockjaw-slobbering-teleporter) (+49%), [Combat Research](../../cards/C/com.md#combat-research) (+44%), [Sheltered by Ghosts](../../cards/S/she.md#sheltered-by-ghosts) (+44%) · EDHREC: in 2,031 decks; most often under [Mister Fantastic](../../cards/M/mis.md#mister-fantastic) (38.1% of its decks), [Invisible Woman](../../cards/I/inv.md#invisible-woman) (29.8% of its decks), [The Fantastic Four](../../cards/T/thef.md#the-fantastic-four) (12.4% of its decks) — *Guidance (Oracle pattern)* — packages: [Spellslinger: Cast-trigger payoffs](../../EDH%20Packages.md#spellslinger-cast-trigger-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/76/black-bolt-inhuman-king) · oracle_id `a30f30e3-dbbf-4cb2-b3d0-76f57dffb2dd` · printing: MSC #76 (2026-06-26) · [rulings](https://api.scryfall.com/cards/0d484566-6816-4535-a754-dbda8073ae73/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Black Carriage
@@ -505,6 +507,8 @@ schema: 2
 - **Keywords:** Lifelink
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21364 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 16 decks; highest synergy [Peggy Carter, Secret Agent](../../cards/P/pe.md#peggy-carter-secret-agent) (+62%), [Agent 13, Sharon Carter](../../cards/A/ag.md#agent-13-sharon-carter) (+56%), [S.H.I.E.L.D. Spy Kit](../../cards/S/shi.md#shield-spy-kit) (+56%) · EDHREC: in 1,866 decks; most often under [Black Widow, Double Agent](../../cards/B/bla.md#black-widow-double-agent) (46.1% of its decks), [T'Challa, the Black Panther](../../cards/T/tc.md#tchalla-the-black-panther) (2.4% of its decks), [Daredevil, Man Without Fear](../../cards/D/da.md#daredevil-man-without-fear) (6.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/829/black-panther-claws-of-bast) · oracle_id `0a41221a-0cce-4aae-989a-24b70acca8db` · printing: MSC #829 (2026-06-26) · [rulings](https://api.scryfall.com/cards/4cb5a5ad-35fb-4e90-bc8b-d70a9d3bfba7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Black Panther, Most Dangerous
@@ -518,6 +522,8 @@ schema: 2
 - **Keywords:** Power-up
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17591 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 3 combos; most popular [Dawnsire, Sunstar Dreadnought + Black Panther, Most Dangerous](https://commanderspellbook.com/combo/6758-7872/) (Near-infinite damage to one opponent) · EDHREC as commander: 54 decks; highest synergy [Pariah](../../cards/P/pa.md#pariah) (+77%), [With Great Power . . .](../../cards/W/wi.md#with-great-power---) (+69%), [Gideon's Sacrifice](../../cards/G/gi.md#gideons-sacrifice) (+66%) · EDHREC: in 3,654 decks; most often under [Wayta, Trainer Prodigy](../../cards/W/way.md#wayta-trainer-prodigy) (19.2% of its decks), [Jennifer Walters](../../cards/J/je.md#jennifer-walters--the-sensational-she-hulk) (34.6% of its decks), [Anti-Venom, Horrifying Healer](../../cards/A/an.md#anti-venom-horrifying-healer) (8.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/584/black-panther-most-dangerous) · oracle_id `7ba593fd-93db-452f-ad80-7f0f37afb09d` · printing: MSC #584 (2026-06-26) · [rulings](https://api.scryfall.com/cards/a10f1578-2b8a-49c6-ab59-dd2c5fb1d69f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Black Panther, Vanguard
@@ -533,6 +539,8 @@ schema: 2
   > *"Wakanda forever!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21169 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Nim Deathmantle + Ashnod's Altar + Black Panther, Vanguard](https://commanderspellbook.com/combo/2034-5003-7689--165/) (Infinite creature ETB, Infinite creature LTB) · EDHREC as commander: 84 decks; highest synergy [Okoye, Dora Milaje Leader](../../cards/O/ok.md#okoye-dora-milaje-leader) (+68%), [Hero in Training](../../cards/H/he.md#hero-in-training) (+65%), [Wakandan Royal Guard](../../cards/W/wak.md#wakandan-royal-guard) (+64%) · EDHREC: in 1,797 decks; most often under [Nick Fury, Agent of S.H.I.E.L.D.](../../cards/N/ni.md#nick-fury-agent-of-shield) (14.0% of its decks), [T'Challa, the Black Panther](../../cards/T/tc.md#tchalla-the-black-panther) (3.8% of its decks), [Jennifer Walters](../../cards/J/je.md#jennifer-walters--the-sensational-she-hulk) (7.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/207/black-panther-vanguard) · oracle_id `b0bf1964-c543-4c53-9f09-0dd7c608d5c5` · printing: MSH #207 (2026-06-26) · [rulings](https://api.scryfall.com/cards/9e308f77-206b-4c9d-bfba-f4c476ea574a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Black Panther, Wakandan King
@@ -676,6 +684,8 @@ schema: 2
   > *"I talk to the dirt and the dirt talks back. And you listen to Black Tom—the dirt knows everything."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21160 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 15 decks; highest synergy [Migration Path](../../cards/M/mig.md#migration-path) (+56%), [Disciple of Freyalise](../../cards/D/di.md#disciple-of-freyalise--garden-of-freyalise) (+55%), [Explosive Vegetation](../../cards/E/ex.md#explosive-vegetation) (+54%) · EDHREC: in 1,929 decks; most often under [Jenova, Ancient Calamity](../../cards/J/je.md#jenova-ancient-calamity) (7.6% of its decks), [Wolverine, Claws Out](../../cards/W/wo.md#wolverine-claws-out) (62.3% of its decks), [Wolverine, Best There Is](../../cards/W/wo.md#wolverine-best-there-is) (3.6% of its decks) — *Guidance (Oracle pattern)* — packages: [Ramp: Mana creatures (MV ≤ 2)](../../EDH%20Packages.md#ramp-mana-creatures-mv--2) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/715/black-tom-cassidy) · oracle_id `c0d20e66-deb6-4a20-a2c1-8a79514e3792` · printing: MSC #715 (2026-06-26) · [rulings](https://api.scryfall.com/cards/084275b3-4a51-46dc-adbc-e2d0a59d3545/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Black Tulip
@@ -762,6 +772,8 @@ schema: 2
 - **Keywords:** Menace, Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21823 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 95 decks; highest synergy [Stitcher's Supplier](../../cards/S/sti.md#stitchers-supplier) (+79%), [Undead Butler](../../cards/U/un.md#undead-butler) (+71%), [Siegfried, Famed Swordsman](../../cards/S/si.md#siegfried-famed-swordsman) (+68%) · EDHREC: in 1,626 decks; most often under [Terra, Herald of Hope](../../cards/T/te.md#terra-herald-of-hope) (4.7% of its decks), [Taskmaster, Mercenary Mimic](../../cards/T/ta.md#taskmaster-mercenary-mimic) (6.9% of its decks), [The Master of Lake-town](../../cards/T/them.md#the-master-of-lake-town) (11.7% of its decks) — *Guidance (Oracle pattern)* — packages: [Graveyard: Self-mill](../../EDH%20Packages.md#graveyard-self-mill) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/831/black-widow-daring-operative) · oracle_id `e8815686-8c47-4067-9dfa-744b2f5c1ba2` · printing: MSC #831 (2026-06-26) · [rulings](https://api.scryfall.com/cards/b1dc3b66-51a2-4ed5-ac79-5dcc39fd8ca4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Black Widow, Deadly Hunter
@@ -777,6 +789,8 @@ schema: 2
 - **Keywords:** Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15435 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 109 decks; highest synergy [White Widow, Yelena Belova](../../cards/W/wh.md#white-widow-yelena-belova) (+88%), [Hooded Blightfang](../../cards/H/ho.md#hooded-blightfang) (+81%), [Gifted Aetherborn](../../cards/G/gi.md#gifted-aetherborn) (+75%) · EDHREC: in 5,312 decks; most often under [The Serpent Society](../../cards/T/thes.md#the-serpent-society) (45.0% of its decks), [Ezio Auditore da Firenze](../../cards/E/ez.md#ezio-auditore-da-firenze) (5.8% of its decks), [Aveline de Grandpré](../../cards/A/av.md#aveline-de-grandpré) (50.8% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/648/black-widow-deadly-hunter) · oracle_id `12a7bf3c-5194-48ad-be0b-553b8ad67671` · printing: MSC #648 (2026-06-26) · [rulings](https://api.scryfall.com/cards/c51a2ec4-2a8b-451b-b0b4-a778b9377948/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Black Widow, Double Agent
@@ -792,6 +806,8 @@ schema: 2
 - **Keywords:** Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18830 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 313 decks; highest synergy [S.H.I.E.L.D. Spy Kit](../../cards/S/shi.md#shield-spy-kit) (+74%), [Agent 13, Sharon Carter](../../cards/A/ag.md#agent-13-sharon-carter) (+69%), [Peggy Carter, Secret Agent](../../cards/P/pe.md#peggy-carter-secret-agent) (+67%) · EDHREC: in 2,626 decks; most often under [Winter Soldier, Icy Assassin](../../cards/W/wi.md#winter-soldier-icy-assassin) (43.5% of its decks), [Thanos, the Mad Titan](../../cards/T/tha.md#thanos-the-mad-titan) (11.8% of its decks), [Nick Fury, Agent of S.H.I.E.L.D.](../../cards/N/ni.md#nick-fury-agent-of-shield) (6.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/208/black-widow-double-agent) · oracle_id `e6c181f1-f4f7-4a96-b50c-717cf2a02098` · printing: MSH #208 (2026-06-26) · [rulings](https://api.scryfall.com/cards/aa8dbbb9-36a5-48e0-9e30-aeed0fb5d522/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Black Widow, Intel Expert
@@ -805,6 +821,8 @@ schema: 2
 - **Keywords:** First strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17048 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 29 decks; highest synergy [Joined Researchers](../../cards/J/jo.md#joined-researchers--secret-rendezvous) (+38%), [Cut a Deal](../../cards/C/cu.md#cut-a-deal) (+36%), [Secret Rendezvous](../../cards/S/sec.md#secret-rendezvous) (+34%) · EDHREC: in 4,031 decks; most often under [Captain America, Team Leader](../../cards/C/cap.md#captain-america-team-leader) (9.3% of its decks), [Nick Fury, Agent of S.H.I.E.L.D.](../../cards/N/ni.md#nick-fury-agent-of-shield) (4.6% of its decks), [Daredevil, Man Without Fear](../../cards/D/da.md#daredevil-man-without-fear) (16.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/504/black-widow-intel-expert) · oracle_id `99c3a315-db53-4292-9d31-1efd791d3a13` · printing: MSC #504 (2026-06-26) · [rulings](https://api.scryfall.com/cards/49671454-db5d-4b0f-a609-7f717dd96d24/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Black Widow, Natasha Romanoff
@@ -818,6 +836,8 @@ schema: 2
   > *"They tell me now that I'm an Avenger I can't kill anyone. You want to put that to the test?"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29604 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 14 decks; highest synergy [Wheel of Misfortune](../../cards/W/wh.md#wheel-of-misfortune) (+33%), [Commander's Plate](../../cards/C/com.md#commanders-plate) (+30%), [Capital Guard](../../cards/C/cap.md#capital-guard) (+29%) · EDHREC: in 272 decks; most often under [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.2% of its decks), [Captain America, Team Leader](../../cards/C/cap.md#captain-america-team-leader) (0.3% of its decks), [Daredevil, Man Without Fear](../../cards/D/da.md#daredevil-man-without-fear) (1.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/846/black-widow-natasha-romanoff) · oracle_id `f3882587-7aff-451f-a990-e25039e5ef85` · printing: MSC #846 (2026-06-26) · [rulings](https://api.scryfall.com/cards/2f3e2f33-9c31-4107-b9b4-a7e1d2d43bab/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Black Widow, Super Spy
@@ -831,6 +851,8 @@ schema: 2
 - **Keywords:** Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13723 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 205 decks; highest synergy [Gonti, Night Minister](../../cards/G/gon.md#gonti-night-minister) (+59%), [Black Cat, Cunning Thief](../../cards/B/bla.md#black-cat-cunning-thief) (+56%), [Dauthi Voidwalker](../../cards/D/da.md#dauthi-voidwalker) (+47%) · EDHREC: in 7,058 decks; most often under [Nick Fury, Agent of S.H.I.E.L.D.](../../cards/N/ni.md#nick-fury-agent-of-shield) (23.2% of its decks), [Jin Sakai, Ghost of Tsushima](../../cards/J/ji.md#jin-sakai-ghost-of-tsushima) (4.3% of its decks), [Gonti, Canny Acquisitor](../../cards/G/gon.md#gonti-canny-acquisitor) (10.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#black-widow-super-spy)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/89/black-widow-super-spy) · oracle_id `579f9a86-a1af-4c2a-a7e5-8fea0bd0eb61` · printing: MSH #89 (2026-06-26) · [rulings](https://api.scryfall.com/cards/63ce0909-7d7d-410d-ab6c-c87fa3e23877/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1535,6 +1557,8 @@ schema: 2
   - *2022-10-14* — The mana value of a converted permanent on the battlefield is equal to the mana value of the card's front face, no matter which face is up.
   - *2022-10-14* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a More Than Meets the Eye cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of a spell cast using More Than Meets the Eye is determined by the mana cost on the front face of the card, no matter what the total cost to cast the spell was.
   - *2022-10-14* — When you cast a spell using its More Than Meets the Eye ability, the card is put onto the stack with its back face up. The resulting spell has all characteristics of that face.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 710 decks; highest synergy [Steel Overseer](../../cards/S/ste.md#steel-overseer) (+81%), [Arcbound Crusher](../../cards/A/arc.md#arcbound-crusher) (+70%), [Foundry Inspector](../../cards/F/fo.md#foundry-inspector) (+70%) · EDHREC: in 5,824 decks; most often under [Ultra Magnus, Tactician](../../cards/U/ul.md#ultra-magnus-tactician--ultra-magnus-armored-carrier) (56.8% of its decks), [Balthier and Fran](../../cards/B/bal.md#balthier-and-fran) (27.3% of its decks), [Infinite Guideline Station](../../cards/I/inf.md#infinite-guideline-station) (6.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bot/8/blaster-combat-dj-blaster-morale-booster) · oracle_id `59c2af34-a2e5-4c67-af2d-a782e41a8e1e` · printing: BOT #8 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blaster Hulk

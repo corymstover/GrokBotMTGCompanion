@@ -155,6 +155,8 @@ schema: 2
 - **Keywords:** Flying, Lifelink, Vigilance
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ08a/avacyn-and-griselbrand) · oracle_id `9fddede8-927c-4dbc-a0fe-d47194c55e1a` · printing: UNK #RZ08a (2023-05-06) · [rulings](https://api.scryfall.com/cards/498a63d5-4f35-4d69-bca0-f24aaf1d581d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Avacyn, Angel of Hope
@@ -382,6 +384,8 @@ schema: 2
 - **Rulings** (2):
   - *2025-06-06* — Activated abilities contain a colon. They're generally written "[Cost]: [Effect]." Some keyword abilities (such as equip) are activated abilities and will have a colon in their reminder text.
   - *2025-06-06* — The ability that defines Avalanche of Sector 7's power applies in all zones, not just the battlefield.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 248 decks; highest synergy [Pain Distributor](../../cards/P/pa.md#pain-distributor) (+86%), [Generous Plunderer](../../cards/G/ge.md#generous-plunderer) (+82%), [Marching Duodrone](../../cards/M/mar.md#marching-duodrone) (+80%) · EDHREC: in 12,406 decks; most often under [Cloud, Ex-SOLDIER](../../cards/C/cl.md#cloud-ex-soldier) (10.8% of its decks), [Ob Nixilis, Captive Kingpin](../../cards/O/ob.md#ob-nixilis-captive-kingpin) (11.5% of its decks), [J. Jonah Jameson](../../cards/J/jj.md#j-jonah-jameson) (54.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fic/53/avalanche-of-sector-7) · oracle_id `4eb1414c-ba12-4bae-b410-79d51925d6fa` · printing: FIC #53 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Avalanche Riders

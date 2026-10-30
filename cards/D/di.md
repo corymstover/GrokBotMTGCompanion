@@ -594,6 +594,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19530 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2013-09-20* — If a turn has multiple combat phases, the ability can only be activated before the beginning of the declare attackers step of the first combat phase in that turn.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 3 combos; most popular [Diaochan, Artful Beauty + Thornbite Staff + Soul of New Phyrexia](https://commanderspellbook.com/combo/2178-2310-3329/) (Destroy any number of creatures opponents control during each of your turns) · EDHREC as commander: 468 decks; highest synergy [Darksteel Plate](../../cards/D/da.md#darksteel-plate) (+56%), [Lightning Greaves](../../cards/L/li.md#lightning-greaves) (+54%), [Humble Defector](../../cards/H/hu.md#humble-defector) (+53%) · EDHREC: in 2,021 decks; most often under [Fire Lord Azula](../../cards/F/fi.md#fire-lord-azula) (0.7% of its decks), [Ozai, the Phoenix King](../../cards/O/oz.md#ozai-the-phoenix-king) (1.1% of its decks), [Avatar Aang](../../cards/A/av.md#avatar-aang--aang-master-of-elements) (0.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/D.md#diaochan-artful-beauty)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ptk/108/diaochan-artful-beauty) · oracle_id `bf20bc37-3205-45af-a3be-05d6835c0d87` · printing: PTK #108 (1999-05-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1797,6 +1799,8 @@ schema: 2
   > *"All the heroes are out there fighting their own battles. Someone has to connect the dots."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11949 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 680 decks; highest synergy [Captain America, Team Leader](../../cards/C/cap.md#captain-america-team-leader) (+86%), [Avengers Tower](../../cards/A/av.md#avengers-tower) (+85%), [Agent Phil Coulson](../../cards/A/ag.md#agent-phil-coulson) (+74%) · EDHREC: in 8,932 decks; most often under [Captain America, Team Leader](../../cards/C/cap.md#captain-america-team-leader) (95.1% of its decks), [Nick Fury, Agent of S.H.I.E.L.D.](../../cards/N/ni.md#nick-fury-agent-of-shield) (40.4% of its decks), [The Fantastic Four](../../cards/T/thef.md#the-fantastic-four) (9.9% of its decks) — *Guidance (Oracle pattern)* — packages: [Ramp: Cost reducers](../../EDH%20Packages.md#ramp-cost-reducers) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/81/director-nick-fury) · oracle_id `04b907bf-c80c-4e92-9fea-26dc3d1aaf2a` · printing: MSC #81 (2026-06-26) · [rulings](https://api.scryfall.com/cards/9a19d4ec-399a-4371-acc3-0956dd4dcb84/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dire Downdraft
@@ -2849,6 +2853,8 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sld/798/discord-lord-of-disharmony) · oracle_id `b57d28e8-09dc-441e-837d-cffd81ad78c9` · printing: SLD #798 (2024-03-01) · [rulings](https://api.scryfall.com/cards/c474c0f1-08c7-4183-b024-297a11594a96/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Discourtesy Clerk

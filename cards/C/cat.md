@@ -790,6 +790,8 @@ schema: 2
 - **Rulings** (2):
   - *2021-07-23* — If Catti-brie of Mithral Hall has no counters, you can still activate the last ability. This won't deal any damage, but it will count as targeting something for abilities like that of Fey Steed.
   - *2021-07-23* — If a blocking creature is destroyed due to damage dealt this way, the creature it was blocking is still considered blocked. Unless the attacking creature has trample, it won't deal any damage to the player or planeswalker it is attacking.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 571 decks; highest synergy [Puresteel Paladin](../../cards/P/pu.md#puresteel-paladin) (+75%), [Basilisk Collar](../../cards/B/bas.md#basilisk-collar) (+66%), [Sram, Senior Edificer](../../cards/S/sr.md#sram-senior-edificer) (+66%) · EDHREC: in 3,892 decks; most often under [Ohabi Caleria](../../cards/O/oh.md#ohabi-caleria) (61.9% of its decks), [Galea, Kindler of Hope](../../cards/G/ga.md#galea-kindler-of-hope) (19.5% of its decks), [Drizzt Do'Urden](../../cards/D/dri.md#drizzt-dourden) (30.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/afc/44/catti-brie-of-mithral-hall) · oracle_id `f44ffa35-bd88-4996-8b20-46329565df9b` · printing: AFC #44 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cat Warriors

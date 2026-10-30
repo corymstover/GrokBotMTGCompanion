@@ -189,6 +189,8 @@ schema: 2
   - *2026-01-27* — Although a creature put onto the battlefield this way is attacking, it was never declared as an attacking creature. Abilities that trigger whenever a creature attacks won't trigger when that creature enters attacking.
   - *2026-01-27* — If a creature spell's sneak cost was paid, the creature it becomes enters tapped and attacking the same player, planeswalker, or battle as the creature that was returned to its owner's hand to pay its sneak cost. This is a rule specific to sneak; in other cases, when a creature is put onto the battlefield attacking, that creature's controller chooses which player, planeswalker, or battle it's attacking.
   - *2026-01-27* — Spells can only be cast for their sneak costs any time you could play an instant during the declare blockers step on your turn (after your opponent has decided whether to block).
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 22 decks; highest synergy [Shredder's Technique](../../cards/S/shr.md#shredders-technique) (+66%), [Shredder's Armor](../../cards/S/shr.md#shredders-armor) (+63%), [Shredder's Revenge](../../cards/S/shr.md#shredders-revenge) (+63%) · EDHREC: in 6,966 decks; most often under [Dark Leo & Shredder](../../cards/D/da.md#dark-leo--shredder) (52.0% of its decks), [Splinter, Radical Rat](../../cards/S/spl.md#splinter-radical-rat) (24.5% of its decks), [Yuriko, the Tiger's Shadow](../../cards/Y/yu.md#yuriko-the-tigers-shadow) (3.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmt/74/shredder-unrelenting) · oracle_id `59d96fc0-6580-43c2-8c6a-dcf983644561` · printing: TMT #74 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shredding Winds
@@ -453,6 +455,8 @@ schema: 2
 - **Keywords:** Sonic Blast
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12978 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 118 decks; highest synergy [Carnage, Crimson Chaos](../../cards/C/car.md#carnage-crimson-chaos) (+41%), [Sandman's Quicksand](../../cards/S/san.md#sandmans-quicksand) (+40%), [Scarlet Spider, Kaine](../../cards/S/sc.md#scarlet-spider-kaine) (+40%) · EDHREC: in 7,662 decks; most often under [Norman Osborn](../../cards/N/no.md#norman-osborn--green-goblin) (21.4% of its decks), [Eddie Brock](../../cards/E/ed.md#eddie-brock--venom-lethal-protector) (5.3% of its decks), [Doctor Doom, King of Latveria](../../cards/D/do.md#doctor-doom-king-of-latveria) (3.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/spm/144/shriek-treblemaker) · oracle_id `5773ae05-44bc-423c-846c-f323dd8a5079` · printing: SPM #144 (2025-09-26) · [rulings](https://api.scryfall.com/cards/01f1900e-b10f-47dd-8b3d-6913fa661186/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shriekwood Devourer

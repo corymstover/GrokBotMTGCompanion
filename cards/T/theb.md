@@ -89,6 +89,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21454 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2023-06-16* — The Balrog, Flame of Udûn will be put on the bottom of its owner's library only if it's still on the battlefield when the ability resolves. If it leaves the battlefield before that point, it will stay in whatever zone it's in, even if it's returned to the battlefield before the ability resolves.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 34 decks; highest synergy [Aspiring Champion](../../cards/A/as.md#aspiring-champion) (+44%), [Reality Scramble](../../cards/R/rea.md#reality-scramble) (+44%), [Too Greedily, Too Deep](../../cards/T/to.md#too-greedily-too-deep) (+41%) · EDHREC: in 1,688 decks; most often under [Sauron, the Dark Lord](../../cards/S/sau.md#sauron-the-dark-lord) (1.1% of its decks), [Be'lakor, the Dark Master](../../cards/B/be.md#belakor-the-dark-master) (0.8% of its decks), [The Balrog, Durin's Bane](../../cards/T/theb.md#the-balrog-durins-bane) (5.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltr/297/the-balrog-flame-of-ud%C3%BBn) · oracle_id `de12ca82-4824-4975-9a31-309a6d9101a7` · printing: LTR #297 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Balrog of Moria
@@ -171,6 +173,8 @@ schema: 2
 - **Keywords:** Goad, Vigilance, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12160 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 2 combos; most popular [The Beamtown Bullies + Bronze Bombshell + Thornbite Staff](https://commanderspellbook.com/combo/2178-4114-4859/) (Infinite damage) · EDHREC as commander: 7,383 decks; highest synergy [Leveler](../../cards/L/le.md#leveler) (+79%), [Eater of Days](../../cards/E/ea.md#eater-of-days) (+76%), [Inverter of Truth](../../cards/I/inv.md#inverter-of-truth) (+76%) · EDHREC: in 1,424 decks; most often under [Henzie "Toolbox" Torre](../../cards/H/he.md#henzie-toolbox-torre) (2.0% of its decks), [Thantis, the Warweaver](../../cards/T/tha.md#thantis-the-warweaver) (1.3% of its decks), [Ziatora, the Incinerator](../../cards/Z/zi.md#ziatora-the-incinerator) (0.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ncc/6/the-beamtown-bullies) · oracle_id `62d394e1-6e7d-4703-8fd8-494f0f043876` · printing: NCC #6 (2022-04-29) · [rulings](https://api.scryfall.com/cards/f0455a79-15f4-4ea6-87ae-263ce943cfac/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Bearded Teakeeper
@@ -184,6 +188,8 @@ schema: 2
 - **Keywords:** Food
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ02g/the-bearded-teakeeper) · oracle_id `89dd4e7b-1e70-4f69-bd19-652047b9f0cd` · printing: UNK #RZ02g (2026-05-01) · [rulings](https://api.scryfall.com/cards/46226221-861f-4224-96bf-82eb06927468/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Bear Force Pilot
@@ -198,6 +204,8 @@ schema: 2
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2024-02-28* — This playtest card recieved errata to clarify that it makes 0/0 tokens https://www.youtube.com/watch?v=L-QhBBzdJpc&t=610
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RG59/the-bear-force-pilot) · oracle_id `00bcada7-9028-4919-8de2-ddb74c1c7ef8` · printing: UNK #RG59 (2024-02-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Bear Force Pilot Runner
@@ -213,6 +221,8 @@ schema: 2
   > *GV 9/23: Don't worry, I'll fix it in the flavor text.*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RG59a/the-bear-force-pilot-runner) · oracle_id `cae2a057-95fe-46de-a479-a40c4b3a4b9d` · printing: UNK #RG59a (2024-10-25) · [rulings](https://api.scryfall.com/cards/a8bf5779-a23f-4e0b-8654-be94a749a54d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Bears of Littjara
@@ -254,6 +264,8 @@ schema: 2
   > Whenever a creature deals combat damage to its owner, untap The Beast and draw a card.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11165 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 696 decks; highest synergy [Furnace Reins](../../cards/F/fu.md#furnace-reins) (+75%), [Mass Mutiny](../../cards/M/mas.md#mass-mutiny) (+73%), [Mob Rule](../../cards/M/mob.md#mob-rule) (+70%) · EDHREC: in 9,743 decks; most often under [Edea, Possessed Sorceress](../../cards/E/ed.md#edea-possessed-sorceress) (45.0% of its decks), [Don Andres, the Renegade](../../cards/D/do.md#don-andres-the-renegade) (22.0% of its decks), [Davros, Dalek Creator](../../cards/D/da.md#davros-dalek-creator) (8.6% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/114/the-beast-deathless-prince) · oracle_id `ca187570-3634-4296-92b2-1fcd99d150e3` · printing: WHO #114 (2023-10-13) · [rulings](https://api.scryfall.com/cards/6218badd-d352-4e6d-9c84-f1e3f2f84695/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Beleaguered Boxer
@@ -268,6 +280,8 @@ schema: 2
   > *FIVE*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ16/the-beleaguered-boxer) · oracle_id `3061c41f-7f58-4f38-afc8-add035cf0c60` · printing: UNK #RZ16 (2024-02-24) · [rulings](https://api.scryfall.com/cards/51c13fe3-57b1-4f12-a2dc-21a8e8d42d4d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Belligerent
@@ -330,6 +344,8 @@ schema: 2
   - *2018-01-19* — If another spell or ability instructs you to roll two dice and use the difference, you can use The Big Idea’s second ability to replace one of those die rolls. First, roll two dice and use their sum. That’s the first result. Then roll one die. That’s the second result. Then figure out the difference between those two results.
   - *2018-01-19* — If you use the second ability to roll two dice instead of one, any ability that triggers “whenever you roll a die” will trigger twice.
   - *2018-01-19* — Some cards, like Chittering Doom, care about the results of individual die rolls and not the total if two dice are rolled together. For example, if you use The Big Idea’s second ability to replace one die roll with two and roll two 3s, Chittering Doom’s ability (which triggers whenever you roll 4 or higher on a die) won’t trigger.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed — *Guidance (Oracle pattern)* — packages: [Aristocrats: Fodder makers (multiple creature tokens)](../../EDH%20Packages.md#aristocrats-fodder-makers-multiple-creature-tokens) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#the-big-idea)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ust/76/the-big-idea) · oracle_id `976fb4c7-f330-4b8b-8f87-e6839d9a2880` · printing: UST #76 (2017-12-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -381,6 +397,8 @@ schema: 2
 - **Keywords:** Flying, Defender
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ06i/the-bird-champion) · oracle_id `d0b15417-9980-4b5f-bc4c-87ad278a878f` · printing: UNK #RZ06i (2026-05-01) · [rulings](https://api.scryfall.com/cards/4bfea33c-0aec-456b-aeef-23878667c2d2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Birth of Meletis
@@ -564,6 +582,8 @@ schema: 2
   > Creature tokens you control get +1/+1 for each differently named token you control.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ05/the-brewing-chef) · oracle_id `46a87237-ff14-4b74-ba7f-ad21ab5ee837` · printing: UNK #RZ05 (2025-06-20) · [rulings](https://api.scryfall.com/cards/c5cbebb7-2adc-470e-ad31-ea0945085b1f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Bringer of the Red Beard
@@ -577,6 +597,8 @@ schema: 2
   > Equipped creatures you control get +1/+0.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed — *Guidance (Oracle pattern)* — packages: [Tokens: Anthems](../../EDH%20Packages.md#tokens-anthems) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RR02a/the-bringer-of-the-red-beard) · oracle_id `c6c156bc-15ae-4a99-a33d-1e7cca6ee298` · printing: UNK #RR02a (2026-05-01) · [rulings](https://api.scryfall.com/cards/e6de972a-c817-45f1-bb4f-34b4a5bcc681/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Brothers' War
@@ -620,4 +642,6 @@ schema: 2
   > Ready to run (You can have two commanders if both have ready to run.)
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ04m/the-bus-runner) · oracle_id `bb880c24-2c75-4f27-b2e0-2b44309f5a17` · printing: UNK #RZ04m (2024-10-25) · [rulings](https://api.scryfall.com/cards/08c5e454-4ba9-4c01-a95a-ef44e3d629d7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

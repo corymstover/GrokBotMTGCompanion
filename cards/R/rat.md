@@ -80,6 +80,8 @@ schema: 2
 - **Keywords:** Role token, Food
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RW03c/ratatwotwo) · oracle_id `0edd7d9a-af37-4d3b-8b4b-913c36dadf82` · printing: UNK #RW03c (2023-09-23) · [rulings](https://api.scryfall.com/cards/d7250e0f-c8ec-49a0-88db-3c6a9470d34a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ratcatcher

@@ -414,6 +414,8 @@ schema: 2
   - *2022-10-07* — You can change the numeral inside of a mana symbol, but you can’t modify the cost of a spell in time to pay less for it. It must already be on the stack to be a valid target for Truss’s ability.
   - *2022-10-07* — You can’t change any instance of X.
   - *2022-10-07* — You can’t use Truss’s last ability to change the 1 in Truss’s last ability to a 0. Nice try though.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 126 decks; highest synergy [Replicating Ring](../../cards/R/rep.md#replicating-ring) (+65%), [Burnished Hart](../../cards/B/bu.md#burnished-hart) (+58%), [Plaguecrafter](../../cards/P/pl.md#plaguecrafter) (+58%) · EDHREC: in 22 decks; most often under [Vorthos, Steward of Myth](../../cards/V/vo.md#vorthos-steward-of-myth) (1.9% of its decks), [Dee Kay, Finder of the Lost](../../cards/D/dee.md#dee-kay-finder-of-the-lost) (0.3% of its decks), [Morophon, the Boundless](../../cards/M/mor.md#morophon-the-boundless) (0.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unf/181/truss-chief-engineer) · oracle_id `e4f218b3-d96d-49c5-8dfa-8fcf993f795f` · printing: UNF #181 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Trusted Advisor

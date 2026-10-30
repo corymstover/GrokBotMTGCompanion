@@ -81,6 +81,8 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20680 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 4 decks; highest synergy [Citizen V, Helmut Zemo](../../cards/C/ci.md#citizen-v-helmut-zemo) (+100%), [Iron Monger, Sadistic Tycoon](../../cards/I/ir.md#iron-monger-sadistic-tycoon) (+100%), [Tombstone, Career Criminal](../../cards/T/to.md#tombstone-career-criminal) (+100%) · EDHREC: in 2,079 decks; most often under [Madame Hydra](../../cards/M/mad.md#madame-hydra) (63.7% of its decks), [Doctor Doom, King of Latveria](../../cards/D/do.md#doctor-doom-king-of-latveria) (2.2% of its decks), [Loki, the Deceiver](../../cards/L/lo.md#loki-the-deceiver) (8.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/123/yellowjacket-heartless-marauder) · oracle_id `0a364879-31bd-4760-833d-165cde1e96c6` · printing: MSH #123 (2026-06-26) · [rulings](https://api.scryfall.com/cards/d8f91212-2ff5-4024-8f14-86bb5c4a9754/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yellow Scarves Cavalry

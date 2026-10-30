@@ -135,6 +135,8 @@ schema: 2
 - **Rulings** (2):
   - *2005-02-01* — Yomiji's ability triggers even if Yomiji is going to the graveyard at the same time as the other legendary permanent.
   - *2005-02-01* — Yomiji's ability triggers whenever any legendary permanent is put into a graveyard from the battlefield, not just legendary creatures.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 98+ combos; most popular [Yomiji, Who Bars the Way + Phyrexian Altar](https://commanderspellbook.com/combo/3184-4050--191/) (Infinite creature ETB, Infinite creature LTB) · EDHREC as commander: 216 decks; highest synergy [Hope of Ghirapur](../../cards/H/ho.md#hope-of-ghirapur) (+68%), [Stone of Erech](../../cards/S/sto.md#stone-of-erech) (+66%), [Search for Glory](../../cards/S/sea.md#search-for-glory) (+57%) · EDHREC: in 2,013 decks; most often under [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.5% of its decks), [Captain Sisay](../../cards/C/cap.md#captain-sisay) (3.2% of its decks), [Peter Parker](../../cards/P/pe.md#peter-parker--amazing-spider-man) (1.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bok/30/yomiji-who-bars-the-way) · oracle_id `438be2fa-5f8d-42ff-894a-671ba4221196` · printing: BOK #30 (2005-02-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yore-Tiller Nephilim
@@ -222,6 +224,8 @@ schema: 2
   - *2017-11-17* — If any of the targets of Yosei's ability are illegal, they won't be tapped.
   - *2017-11-17* — If more than one effect instructs a player to skip their next untap step, such as if Yosei dies more than once in a turn, that player skips that many untap steps. This is different from effects that state that something doesn't untap during an untap step.
   - *2017-11-17* — If the player becomes an illegal target, the target permanents are tapped, but the player doesn't skip their untap step.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 17 combos; most popular [Yosei, the Morning Star + Gift of Immortality + Ashnod's Altar](https://commanderspellbook.com/combo/2014-2034-3055/) (Opponents skip their untap steps, Lock) · EDHREC as commander: 93 decks; highest synergy [Gift of Immortality](../../cards/G/gi.md#gift-of-immortality) (+73%), [Blade of Selves](../../cards/B/bla.md#blade-of-selves) (+65%), [Angelic Renewal](../../cards/A/an.md#angelic-renewal) (+61%) · EDHREC: in 11,983 decks; most often under [Kaalia of the Vast](../../cards/K/ka.md#kaalia-of-the-vast) (2.2% of its decks), [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (1.3% of its decks), [O-Kagachi, Vengeful Kami](../../cards/O/ok.md#o-kagachi-vengeful-kami) (27.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/Y.md#yosei-the-morning-star)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ima/39/yosei-the-morning-star) · oracle_id `5c2d0ead-8bfc-4ca7-9b38-2fc07af1c1d5` · printing: IMA #39 (2017-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -237,6 +241,8 @@ schema: 2
   > *The Emperor spared no comfort for the friend who had so diligently awaited her return.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15958 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Presented with an official backstory on [The Legends of Reality Fracture](https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 54 decks; highest synergy [Generous Pup](../../cards/G/ge.md#generous-pup) (+66%), [Mikaeus, the Lunarch](../../cards/M/mik.md#mikaeus-the-lunarch) (+65%), [Basri's Solidarity](../../cards/B/bas.md#basris-solidarity) (+62%) · EDHREC: in 7,326 decks; most often under [Sophia, Dogged Detective](../../cards/S/so.md#sophia-dogged-detective) (63.8% of its decks), [Rin and Seri, Inseparable](../../cards/R/ri.md#rin-and-seri-inseparable) (14.2% of its decks), [Ardbert, Warrior of Darkness](../../cards/A/ard.md#ardbert-warrior-of-darkness) (34.3% of its decks) — *Guidance (Oracle pattern)* — packages: [+1/+1 counters: Counter doublers](../../EDH%20Packages.md#11-counters-counter-doublers) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/209/yoshimaru-beloved-companion) · oracle_id `c00a0be5-d9a9-4263-a87e-7bf2d128ab3a` · printing: FRA #209 (2026-10-02) · [rulings](https://api.scryfall.com/cards/384f3b7d-8d7f-41bf-bebd-64e8babe7fca/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yoshimaru, Ever Faithful
@@ -270,6 +276,8 @@ schema: 2
 - **Keywords:** Fight
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24325 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Presented with an official backstory on [The Legends of Reality Fracture](https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 11 decks; highest synergy [Ezuri's Predation](../../cards/E/ez.md#ezuris-predation) (+53%), [Prizefight](../../cards/P/pr.md#prizefight) (+43%), [Rhonas the Indomitable](../../cards/R/rh.md#rhonas-the-indomitable) (+42%) · EDHREC: in 1,463 decks; most often under [Sophia, Dogged Detective](../../cards/S/so.md#sophia-dogged-detective) (40.5% of its decks), [Rin and Seri, Inseparable](../../cards/R/ri.md#rin-and-seri-inseparable) (9.0% of its decks), [Reyhan, Last of the Abzan // Yoshimaru, Ever Faithful](../../cards/R/rey.md#reyhan-last-of-the-abzan) (11.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/269/yoshimaru-scrappy-stray) · oracle_id `c87da757-3daa-4874-a1e4-be0aa2adcb28` · printing: FRA #269 (2026-10-02) · [rulings](https://api.scryfall.com/cards/b8dfd087-2434-42c6-ac4c-1decbcdde2db/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yotia Declares War
@@ -537,6 +545,8 @@ schema: 2
   > {W}{U}{B}{R}{G}: Reveal the top eight cards of your library. Put each playtest card among them into your hand. Put the rest on the bottom of your library in a random order.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/MW02a/you-iterative-playtester) · oracle_id `978dd38e-a015-4f1f-9cca-8705f6fd33ce` · printing: UNK #MW02a (2025-02-21) · [rulings](https://api.scryfall.com/cards/88526e64-0b1a-48b4-9f11-8233871f2665/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### You Look Upon the Tarrasque
@@ -564,6 +574,8 @@ schema: 2
   > *Prize Card for the Unknown events at MagicCon Las Vegas, September 23-24, 2023.*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/MW02/you-magic-playtester) · oracle_id `cc924286-3421-442e-b1a9-0b371a75159c` · printing: UNK #MW02 (2023-09-23) · [rulings](https://api.scryfall.com/cards/5e65800a-6dbd-44ec-b630-79fc4ad6ffe1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### You Meet in a Tavern
@@ -805,6 +817,8 @@ schema: 2
   > As the game begins, if Your Favorite Character is your commander, or as Your Favorite Character enters the battlefield if it's not your commander, name a character from the Magic storyline. Choose up to three colors, two creature types, and then two keywords from among vigilance, flying, haste, trample, and menace. Your Favorite Character has the chosen name, types, colors, and keywords.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RC05c/your-favorite-character) · oracle_id `314e0ba3-7245-40d8-b356-93384124c405` · printing: UNK #RC05c (2023-07-29) · [rulings](https://api.scryfall.com/cards/e973ca42-22ff-4e50-a9af-548bfc866484/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Your Favorite Missing Character
@@ -821,6 +835,8 @@ schema: 2
 - **Keywords:** Surveil
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed — *Guidance (Oracle pattern)* — packages: [Spellslinger: Cast-trigger payoffs](../../EDH%20Packages.md#spellslinger-cast-trigger-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/UZ03/your-favorite-missing-character) · oracle_id `d0908840-684a-40fe-a066-88f0f97d010c` · printing: UNK #UZ03 (2025-06-20) · [rulings](https://api.scryfall.com/cards/6e072dfb-c484-43a9-a276-09f210b54e7f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Your Mana Rock

@@ -166,6 +166,8 @@ schema: 2
   > *"My heart beats with the rhythm of the forest."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10473 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 300 decks; highest synergy [Omnath, Locus of Mana](../../cards/O/om.md#omnath-locus-of-mana) (+54%), [Bellowing Tanglewurm](../../cards/B/be.md#bellowing-tanglewurm) (+49%), [Ghalta, Primal Hunger](../../cards/G/gh.md#ghalta-primal-hunger) (+44%) · EDHREC: in 11,313 decks; most often under [Aphelia, Viper Whisperer](../../cards/A/ap.md#aphelia-viper-whisperer) (26.2% of its decks), [Alena, Kessig Trapper // Gilanra, Caller of Wirewood](../../cards/A/al.md#alena-kessig-trapper) (33.6% of its decks), [Seshiro the Anointed](../../cards/S/ses.md#seshiro-the-anointed) (81.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/319/sakiko-mother-of-summer) · oracle_id `e4021e30-16bf-4178-9a3b-565bfdce4384` · printing: CMM #319 (2023-08-04) · [rulings](https://api.scryfall.com/cards/8dbdb5f5-cd6e-47cd-b83d-ff71b00c369e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sakura-Tribe Elder

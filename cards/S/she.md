@@ -171,6 +171,8 @@ schema: 2
 - **Keywords:** Power-up, Vigilance, Double
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24112 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 22 decks; highest synergy [Agent Phil Coulson](../../cards/A/ag.md#agent-phil-coulson) (+54%), [Doc Samson, Super Psychiatrist](../../cards/D/do.md#doc-samson-super-psychiatrist) (+53%), [Matt Murdock, Justice Seeker](../../cards/M/mat.md#matt-murdock-justice-seeker) (+49%) · EDHREC: in 1,031 decks; most often under [Jennifer Walters](../../cards/J/je.md#jennifer-walters--the-sensational-she-hulk) (21.8% of its decks), [Nick Fury, Agent of S.H.I.E.L.D.](../../cards/N/ni.md#nick-fury-agent-of-shield) (2.7% of its decks), [Miles Morales](../../cards/M/mil.md#miles-morales--ultimate-spider-man) (3.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/745/she-hulk-attorney-at-law) · oracle_id `db99d52b-bbe6-4a48-8f2c-bf77912dc0a9` · printing: MSC #745 (2026-06-26) · [rulings](https://api.scryfall.com/cards/93a44ea5-a571-4abb-b8fa-14b8224ecaeb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### She-Hulk, Jade Defender
@@ -186,6 +188,8 @@ schema: 2
 - **Keywords:** Power-up, Reach, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16517 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 2 decks; highest synergy [Kodama's Reach](../../cards/K/ko.md#kodamas-reach) (+63%), [Nature's Lore](../../cards/N/na.md#natures-lore) (+61%), [Afterburner Expert](../../cards/A/af.md#afterburner-expert) (+50%) · EDHREC: in 4,392 decks; most often under [Bruce Banner](../../cards/B/br.md#bruce-banner--the-incredible-hulk) (24.2% of its decks), [Hulk, Gamma Goliath](../../cards/H/hu.md#hulk-gamma-goliath) (90.6% of its decks), [Jennifer Walters](../../cards/J/je.md#jennifer-walters--the-sensational-she-hulk) (27.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/188/she-hulk-jade-defender) · oracle_id `bbd0a2a4-f81b-4a6b-bc4d-d7e53dc51333` · printing: MSH #188 (2026-06-26) · [rulings](https://api.scryfall.com/cards/d22a8d02-023c-4f71-a771-16b5aa2a05d7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### She-Hulk, Jennifer Walters
@@ -201,6 +205,8 @@ schema: 2
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23514 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 8 decks; highest synergy [Koth, Fire of Resistance](../../cards/K/ko.md#koth-fire-of-resistance) (+79%), [Myriad Landscape](../../cards/M/my.md#myriad-landscape) (+77%), [Scaretiller](../../cards/S/sc.md#scaretiller) (+75%) · EDHREC: in 1,171 decks; most often under [Bruce Banner](../../cards/B/br.md#bruce-banner--the-incredible-hulk) (8.9% of its decks), [Hulk, Gamma Goliath](../../cards/H/hu.md#hulk-gamma-goliath) (16.3% of its decks), [Daredevil, Man Without Fear](../../cards/D/da.md#daredevil-man-without-fear) (3.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/554/she-hulk-jennifer-walters) · oracle_id `d62b8609-78a5-43ef-8e6e-dbfe8c7453ca` · printing: MSC #554 (2026-06-26) · [rulings](https://api.scryfall.com/cards/1b5f334a-ff12-493c-b710-0ee3c0ea43bd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### She-Hulk, Wallbreaker
@@ -217,6 +223,8 @@ schema: 2
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11384 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 10 decks; highest synergy [Thor, Asgard's Avenger](../../cards/T/tho.md#thor-asgards-avenger) (+88%), [Firebird, Blazing Ranger](../../cards/F/fi.md#firebird-blazing-ranger) (+80%), [Photon, Mighty Marvel](../../cards/P/ph.md#photon-mighty-marvel) (+80%) · EDHREC: in 10,566 decks; most often under [Captain America, Team Leader](../../cards/C/cap.md#captain-america-team-leader) (86.3% of its decks), [Bruce Banner](../../cards/B/br.md#bruce-banner--the-incredible-hulk) (21.6% of its decks), [Nick Fury, Agent of S.H.I.E.L.D.](../../cards/N/ni.md#nick-fury-agent-of-shield) (22.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/60/she-hulk-wallbreaker) · oracle_id `c8d74a25-78a9-46ad-ab24-97f6221fd8dd` · printing: MSC #60 (2026-06-26) · [rulings](https://api.scryfall.com/cards/8c57fb16-f4a3-437c-be27-d1c00a2be01e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shelinda, Yevon Acolyte
@@ -594,6 +602,8 @@ schema: 2
 - **Keywords:** Flying, Defender
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ04q/shen-wish-granter) · oracle_id `15feddee-9e2a-48a9-842b-3e9e9b5664c2` · printing: UNK #RZ04q (2025-06-20) · [rulings](https://api.scryfall.com/cards/42307332-d5d3-4ebd-8b55-0a6b247d46ec/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sheoldred's Edict
@@ -892,4 +902,6 @@ schema: 2
 - **Rulings** (2):
   - *2021-07-23* — If the creature affected by the Bewitching Whispers ability is tapped or is affected by a spell or ability that says it can't block, then it doesn't block. If there's a cost associated with having that creature block, its controller isn't forced to pay that cost, so it doesn't have to block in that case either.
   - *2021-07-23* — Shessra, Death's Whisper's last ability will trigger only once during your end step, no matter how many creatures died this turn. However, if no creatures have died so far this turn as the end step begins, the ability won't trigger at all. It's not possible to cause a creature to die during the end step in time to have the ability trigger.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 329 decks; highest synergy [Deathreap Ritual](../../cards/D/dea.md#deathreap-ritual) (+46%), [Death-Priest of Myrkul](../../cards/D/dea.md#death-priest-of-myrkul) (+45%), [Reassembling Skeleton](../../cards/R/rea.md#reassembling-skeleton) (+45%) · EDHREC: in 3,290 decks; most often under [Lathril, Blade of the Elves](../../cards/L/la.md#lathril-blade-of-the-elves) (1.2% of its decks), [High Perfect Morcant](../../cards/H/hi.md#high-perfect-morcant) (1.5% of its decks), [Chevill, Bane of Monsters](../../cards/C/che.md#chevill-bane-of-monsters) (13.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/afr/231/shessra-deaths-whisper) · oracle_id `fb29737c-2dfa-4139-988b-29dc8b829c08` · printing: AFR #231 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

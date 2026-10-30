@@ -41,6 +41,8 @@ schema: 2
 - **Keywords:** Reach
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13115 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 69 decks; highest synergy [Psychosis Crawler](../../cards/P/ps.md#psychosis-crawler) (+52%), [Alandra, Sky Dreamer](../../cards/A/al.md#alandra-sky-dreamer) (+46%), [Laboratory Maniac](../../cards/L/la.md#laboratory-maniac) (+46%) · EDHREC: in 8,096 decks; most often under [The Fantastic Four](../../cards/T/thef.md#the-fantastic-four) (33.0% of its decks), [The Astonishing Ant-Man](../../cards/T/thea.md#the-astonishing-ant-man) (11.7% of its decks), [Mister Fantastic](../../cards/M/mis.md#mister-fantastic) (16.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/636/reed-richards-smartest-man) · oracle_id `51f55021-04e0-49bf-8f1f-de2a578c95fc` · printing: MSC #636 (2026-06-26) · [rulings](https://api.scryfall.com/cards/040dfd14-57e1-4f28-a42b-6d8874b44fea/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reef Pirates

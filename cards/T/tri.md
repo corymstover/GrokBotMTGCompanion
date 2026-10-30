@@ -922,6 +922,8 @@ schema: 2
 - **Keywords:** Flying, Unearth, Trample, Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12239 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 7 decks; highest synergy [Panharmonicon](../../cards/P/pa.md#panharmonicon) (+67%), [Arcane Signet](../../cards/A/arc.md#arcane-signet) (+64%), [Vibranium Energy Daggers](../../cards/V/vi.md#vibranium-energy-daggers) (+57%) · EDHREC: in 9,640 decks; most often under [Doctor Doom, King of Latveria](../../cards/D/do.md#doctor-doom-king-of-latveria) (15.6% of its decks), [Dr. Eggman](../../cards/D/dre.md#dr-eggman) (26.1% of its decks), [Loki, the Deceiver](../../cards/L/lo.md#loki-the-deceiver) (21.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/115/tri-sentinel-act-of-vengeance) · oracle_id `d9cc9fc9-522e-4598-9a09-c95824d77acd` · printing: MSC #115 (2026-06-26) · [rulings](https://api.scryfall.com/cards/a4960ab8-fac3-4a11-a3f6-46527cf228ea/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Triskaidekaphile

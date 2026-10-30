@@ -1458,6 +1458,8 @@ schema: 2
   - *2024-11-08* — Slinza's last ability triggers whenever any creature with power 4 or greater enters, not just one you control.
   - *2024-11-08* — Slinza's second ability applies to all Beasts creatures you control as they enter, even if they wouldn't ordinarily enter with any +1/+1 counters on them.
   - *2024-11-08* — You don't choose a target for Slinza's last ability at the time it triggers. Rather, a second "reflexive" ability triggers when you pay {1}{R}{G} this way. You choose a target for that ability as it goes on the stack. Each player may respond to this triggered ability as normal.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 7,765 decks; highest synergy [Krosan Warchief](../../cards/K/kr.md#krosan-warchief) (+87%), [Thunderfoot Baloth](../../cards/T/thu.md#thunderfoot-baloth) (+81%), [Rampaging Baloths](../../cards/R/ram.md#rampaging-baloths) (+76%) · EDHREC: in 1,942 decks; most often under [Illuna, Apex of Wishes](../../cards/I/il.md#illuna-apex-of-wishes) (10.2% of its decks), [Gahiji, Honored One](../../cards/G/ga.md#gahiji-honored-one) (13.3% of its decks), [Neyith of the Dire Hunt](../../cards/N/ne.md#neyith-of-the-dire-hunt) (7.3% of its decks) — *Guidance (Oracle pattern)* — packages: [Ramp: Cost reducers](../../EDH%20Packages.md#ramp-cost-reducers) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/j25/55/slinza-the-spiked-stampede) · oracle_id `8bed095d-1538-4c80-b147-3ec308a8acb1` · printing: J25 #55 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Slip On the Ring
@@ -1834,6 +1836,8 @@ schema: 2
   - *2019-11-12* — If a creature is attacking a planeswalker, the planeswalker’s controller is the defending player.
   - *2019-11-12* — Slivdrazi Monstrosity’s ability affects itself, causing it to become colorless and gain devoid and annihilator 1 while it’s on the battlefield. While not on the battlefield, it’s all colors.
   - *2019-11-12* — {C} can be paid only with one colorless mana.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/102/slivdrazi-monstrosity) · oracle_id `59ed4021-bc4b-42ba-944d-78fb7bd94fa1` · printing: CMB2 #102 (2021-08-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sliver Construct
@@ -2006,6 +2010,8 @@ schema: 2
   > *(^17S)180° = (Z->)90°*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#sliv-mizzet-hivemind)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/99/sliv-mizzet-hivemind) · oracle_id `6168fab8-ca10-4720-80b3-f910a87a1155` · printing: CMB2 #99 (2021-08-20) · [rulings](https://api.scryfall.com/cards/eabd821e-bcfd-4dc1-a724-05e62a8a57d8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2020,6 +2026,8 @@ schema: 2
   > {T}, Remove 3 Rebuilding Counters from Slobad: Create a token that's a copy of Bosh, Iron Golem.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ03a/slobad-actually-just-fine) · oracle_id `a0769ebd-bc71-480a-abc7-e42386e5d336` · printing: UNK #RZ03a (2023-07-29) · [rulings](https://api.scryfall.com/cards/9bc5e9be-b9c4-4949-afe4-7162353b5ae5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Slobad, Goblin Tinkerer
@@ -2050,6 +2058,8 @@ schema: 2
   > *Once he fought to save Mirrodin. Now he fights to remake it.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11841 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Presented with an official backstory on [The Legends of Phyrexia: All Will Be One](https://magic.wizards.com/en/news/feature/the-legends-of-phyrexia-all-will-be-one) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 30 combos; most popular [Slobad, Iron Goblin + Thornbite Staff + Myr Retriever + Junk Diver](https://commanderspellbook.com/combo/1020-1117-2178-4497/) (Infinite death triggers, Infinite creature ETB) · EDHREC as commander: 582 decks; highest synergy [Ichor Wellspring](../../cards/I/ic.md#ichor-wellspring) (+81%), [Spine of Ish Sah](../../cards/S/spi.md#spine-of-ish-sah) (+76%), [Scrap Trawler](../../cards/S/sc.md#scrap-trawler) (+73%) · EDHREC: in 8,660 decks; most often under [Chiss-Goria, Forge Tyrant](../../cards/C/chi.md#chiss-goria-forge-tyrant) (17.4% of its decks), [Imskir Iron-Eater](../../cards/I/im.md#imskir-iron-eater) (14.4% of its decks), [Daretti, Scrap Savant](../../cards/D/da.md#daretti-scrap-savant) (20.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/149/slobad-iron-goblin) · oracle_id `72062fb6-0329-424d-936a-882b638d6d57` · printing: ONE #149 (2023-02-10) · [rulings](https://api.scryfall.com/cards/2b7dadf0-7323-403e-b353-33c121bdb0db/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Slogurk, the Overslime
@@ -2065,6 +2075,8 @@ schema: 2
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11402 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 54 combos; most popular [Slogurk, the Overslime + Azusa, Lost but Seeking + Walk the Aeons](https://commanderspellbook.com/combo/1062-4011-4377/) (Infinite turns, Lock) · EDHREC as commander: 1,888 decks; highest synergy [Zuran Orb](../../cards/Z/zu.md#zuran-orb) (+64%), [Life from the Loam](../../cards/L/li.md#life-from-the-loam) (+60%), [Tranquil Thicket](../../cards/T/tra.md#tranquil-thicket) (+59%) · EDHREC: in 8,050 decks; most often under [Borborygmos and Fblthp](../../cards/B/bo.md#borborygmos-and-fblthp) (58.5% of its decks), [Teval, the Balanced Scale](../../cards/T/te.md#teval-the-balanced-scale) (2.0% of its decks), [The Mimeoplasm](../../cards/T/them.md#the-mimeoplasm) (10.8% of its decks) — *Guidance (Oracle pattern)* — packages: [Graveyard: Recursion to hand](../../EDH%20Packages.md#graveyard-recursion-to-hand) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mid/242/slogurk-the-overslime) · oracle_id `cee836f1-87a4-43db-a6ea-55575a4ce781` · printing: MID #242 (2021-09-24) · [rulings](https://api.scryfall.com/cards/f94e888b-6eeb-4ef3-ab21-5ed2bf0036a3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sloppity Bilepiper
@@ -2342,6 +2354,8 @@ schema: 2
   - *2020-11-10* — Once the game begins, your two commanders are tracked separately. If you cast one, you won't have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 damage from any one of them, not from both of them combined.
   - *2020-11-10* — To have two commanders, both must have the partner ability as the game begins. Losing the ability during the game doesn't cause either to cease to be your commander.
   - *2020-11-10* — You can choose two commanders with partner that are the same color or colors. In Commander Draft, you can even choose two of the same commander with partner if you drafted them. If you do this, make sure you keep the number of times you've cast each from the command zone clear for "commander tax" purposes.
+- **Lore:** ✅ Presented with an official backstory on [The Legendary Characters of Commander Legends, Part 2](https://magic.wizards.com/en/news/card-preview/legendary-characters-commander-legends-part-2-2020-11-06) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 23 combos; most popular [Arwen, Weaver of Hope + Slurrk, All-Ingesting + Basking Broodscale](https://commanderspellbook.com/combo/1453-3112-5641/) (Infinite +1/+1 counters on certain creatures, Infinite creature ETB) · EDHREC as commander: 142 decks; highest synergy [Slime Against Humanity](../../cards/S/sl.md#slime-against-humanity) (+69%), [Biogenic Ooze](../../cards/B/bi.md#biogenic-ooze) (+62%), [Biowaste Blob](../../cards/B/bi.md#biowaste-blob) (+62%) · EDHREC: in 13,080 decks; most often under [Aeve, Progenitor Ooze](../../cards/A/ae.md#aeve-progenitor-ooze) (44.5% of its decks), [The Mimeoplasm](../../cards/T/them.md#the-mimeoplasm) (11.8% of its decks), [Shalai and Hallar](../../cards/S/sha.md#shalai-and-hallar) (6.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/moc/312/slurrk-all-ingesting) · oracle_id `a0892be5-3272-431e-bbed-fc6520b259a7` · printing: MOC #312 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sly Instigator

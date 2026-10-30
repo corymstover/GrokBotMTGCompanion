@@ -86,6 +86,8 @@ schema: 2
 - **Rulings** (2):
   - *2023-11-10* — If there is only one card in your library, you put it into your hand.
   - *2023-11-10* — The ability will trigger no matter what happened to the artifact after it entered. It may have left the battlefield, come under another player's control, or stopped being an artifact.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 286 decks; highest synergy [Shimmer Myr](../../cards/S/shi.md#shimmer-myr) (+71%), [Emry, Lurker of the Loch](../../cards/E/em.md#emry-lurker-of-the-loch) (+60%), [Darksteel Citadel](../../cards/D/da.md#darksteel-citadel) (+58%) · EDHREC: in 8,083 decks; most often under [Tetzin, Gnome Champion](../../cards/T/te.md#tetzin-gnome-champion--the-golden-gear-colossus) (26.9% of its decks), [Emry, Lurker of the Loch](../../cards/E/em.md#emry-lurker-of-the-loch) (4.9% of its decks), [Golbez, Crystal Collector](../../cards/G/gol.md#golbez-crystal-collector) (2.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lci/44/akal-pakal-first-among-equals) · oracle_id `53bfe54e-9b97-4113-97d9-3c5dbc85e7cf` · printing: LCI #44 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Akawalli, the Seething Tower
@@ -101,6 +103,8 @@ schema: 2
 - **Rulings** (2):
   - *2023-11-10* — Cards with the ability word "descend N" have abilities that care if you have at least N permanent cards in your graveyard.
   - *2023-11-10* — Some descend triggered abilities include intervening "if" clauses (i.e. "if you have [four or eight] permanent cards in your graveyard" in the middle of the ability). Each of these abilities checks your graveyard at the moment it would trigger to see if it does. If you don't have the required number of permanent cards in your graveyard at that time, the ability doesn't trigger at all. If it does trigger, it will check again as it tries to resolve. If you don't have the required number of permanent cards in your graveyard at that time, the ability won't resolve and none of its effects will happen.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 610 decks; highest synergy [Deathcap Marionette](../../cards/D/dea.md#deathcap-marionette) (+50%), [Criminal Past](../../cards/C/cr.md#criminal-past) (+36%), [Another Chance](../../cards/A/an.md#another-chance) (+35%) · EDHREC: in 9,863 decks; most often under [The Mycotyrant](../../cards/T/them.md#the-mycotyrant) (41.5% of its decks), [Slimefoot, the Stowaway](../../cards/S/sl.md#slimefoot-the-stowaway) (6.4% of its decks), [Muldrotha, the Gravetide](../../cards/M/mu.md#muldrotha-the-gravetide) (1.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lci/220/akawalli-the-seething-tower) · oracle_id `0679dcef-e1c3-4739-a769-18a4ffdcfde7` · printing: LCI #220 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### A Killer Among Us
@@ -130,6 +134,8 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17335 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 594 decks; highest synergy [Intangible Virtue](../../cards/I/int.md#intangible-virtue) (+53%), [Curiosity Crafter](../../cards/C/cu.md#curiosity-crafter) (+51%), [Emeria Angel](../../cards/E/em.md#emeria-angel) (+50%) · EDHREC: in 3,038 decks; most often under [Zinnia, Valley's Voice](../../cards/Z/zi.md#zinnia-valleys-voice) (4.5% of its decks), [Gavi, Nest Warden](../../cards/G/ga.md#gavi-nest-warden) (15.7% of its decks), [Aragorn, the Uniter](../../cards/A/ara.md#aragorn-the-uniter) (1.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c20/6/akim-the-soaring-wind) · oracle_id `2a20530b-d1d6-4dac-8d08-f583bea55e6e` · printing: C20 #6 (2020-04-17) · [rulings](https://api.scryfall.com/cards/23736c5f-bd1c-4505-8639-5fb92cd74b21/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Akiri, Fearless Voyager
@@ -175,6 +181,8 @@ schema: 2
   - *2020-11-10* — Once the game begins, your two commanders are tracked separately. If you cast one, you won't have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 damage from any one of them, not from both of them combined.
   - *2020-11-10* — To have two commanders, both must have the partner ability as the game begins. Losing the ability during the game doesn't cause either to cease to be your commander.
   - *2020-11-10* — You can choose two commanders with partner that are the same color or colors. In Commander Draft, you can even choose two of the same commander with partner if you drafted them. If you do this, make sure you keep the number of times you've cast each from the command zone clear for "commander tax" purposes.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 4 combos; most popular [Akiri, Line-Slinger + Chthonian Nightmare + Ruthless Technomancer](https://commanderspellbook.com/combo/3719-5300-5626/) (Infinite artifact ETB, Infinite artifact LTB) · EDHREC as commander: 33 decks; highest synergy [Steelshaper's Gift](../../cards/S/ste.md#steelshapers-gift) (+49%), [Bloodforged Battle-Axe](../../cards/B/blo.md#bloodforged-battle-axe) (+47%), [Puresteel Paladin](../../cards/P/pu.md#puresteel-paladin) (+47%) · EDHREC: in 5,326 decks; most often under [General Ferrous Rokiric](../../cards/G/ge.md#general-ferrous-rokiric) (31.0% of its decks), [Odric, Blood-Cursed](../../cards/O/od.md#odric-blood-cursed) (52.6% of its decks), [Breya, Etherium Shaper](../../cards/B/br.md#breya-etherium-shaper) (1.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c16/26/akiri-line-slinger) · oracle_id `3e0a0276-b640-41c7-95bd-ba3067f5c911` · printing: C16 #26 (2016-11-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Akki Avalanchers
@@ -898,6 +906,8 @@ schema: 2
 - **Keywords:** Flying, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11427 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 2 combos; most popular [Ashnod the Uncaring + Akul the Unrepentant + Cloudstone Curio + Abhorrent Overlord](https://commanderspellbook.com/combo/2068-2232-3866-5502/) (Infinite creature tokens, Infinite death triggers) · EDHREC as commander: 2,263 decks; highest synergy [Hordeling Outburst](../../cards/H/ho.md#hordeling-outburst) (+62%), [Grave Titan](../../cards/G/gra.md#grave-titan) (+59%), [Bladewing, Deathless Tyrant](../../cards/B/bla.md#bladewing-deathless-tyrant) (+58%) · EDHREC: in 7,683 decks; most often under [Laughing Jasper Flint](../../cards/L/la.md#laughing-jasper-flint) (8.9% of its decks), [Rohgahh, Kher Keep Overlord](../../cards/R/ro.md#rohgahh-kher-keep-overlord) (39.6% of its decks), [Rivaz of the Claw](../../cards/R/ri.md#rivaz-of-the-claw) (7.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otj/189/akul-the-unrepentant) · oracle_id `d6b56d6d-e2f6-47f5-a9d1-cd0e17f94a0d` · printing: OTJ #189 (2024-04-19) · [rulings](https://api.scryfall.com/cards/68fd8548-50db-4243-9154-377f32408d58/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Akuta, Born of Ash
@@ -913,4 +923,6 @@ schema: 2
 - **Rulings** (2):
   - *2005-06-01* — Akuta must already be in your graveyard as your upkeep begins in order for its ability to trigger.
   - *2005-06-01* — In multiplayer games, it checks for each opponent.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 61 decks; highest synergy [Hero's Blade](../../cards/H/he.md#heros-blade) (+55%), [Syphon Mind](../../cards/S/sy.md#syphon-mind) (+54%), [Lashwrithe](../../cards/L/la.md#lashwrithe) (+52%) · EDHREC: in 843 decks; most often under [Iname, Death Aspect](../../cards/I/ina.md#iname-death-aspect) (34.6% of its decks), [He Who Hungers](../../cards/H/he.md#he-who-hungers) (43.6% of its decks), [Infernal Kirin](../../cards/I/inf.md#infernal-kirin) (15.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sok/61/akuta-born-of-ash) · oracle_id `29169659-309f-4e1c-86ba-1d36420ed41e` · printing: SOK #61 (2005-06-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

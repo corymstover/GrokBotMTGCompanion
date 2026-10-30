@@ -720,6 +720,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13228 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2026-06-29* — Use the number of Dwarves you control as Dáin's last ability resolves to determine how much damage is dealt.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 2,252 decks; highest synergy [Thorin, King of Durin's Folk](../../cards/T/tho.md#thorin-king-of-durins-folk) (+83%), [Fíli the Pathfinder](../../cards/F/fi.md#fíli-the-pathfinder) (+78%), [Dáin's Company](../../cards/D/da.md#dáins-company) (+77%) · EDHREC: in 5,662 decks; most often under [Thorin, King of Durin's Folk](../../cards/T/tho.md#thorin-king-of-durins-folk) (53.3% of its decks), [Thorin Oakenshield](../../cards/T/tho.md#thorin-oakenshield) (25.4% of its decks), [Bifur, Melodic Rider](../../cards/B/bi.md#bifur-melodic-rider) (41.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hoc/104/d%C3%A1in-of-the-ancient-halls) · oracle_id `84702796-389a-4d7b-804b-de6ebd80a883` · printing: HOC #104 (2026-08-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dáin's Company
@@ -1023,6 +1025,8 @@ schema: 2
   - *2011-09-22* — Effects can modify the number of cards you’ll draw. For example, if you have four cards in your hand and control Thought Reflection (“If you would draw a card, draw two cards instead.”), you’ll draw six cards.
   - *2011-09-22* — The number of cards in your hand is checked at the beginning of your upkeep before you have the opportunity to cast spells and activate abilities. If you have seven or more cards in your hand at that time, Damia’s last ability won’t trigger.
   - *2011-09-22* — When Damia’s triggered ability tries to resolve, if you have seven or more cards in your hand, it will have no effect. If you have fewer than seven cards in your hand, you’ll determine the difference and draw that many cards.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 3,528 decks; highest synergy [Azusa, Lost but Seeking](../../cards/A/az.md#azusa-lost-but-seeking) (+28%), [Burgeoning](../../cards/B/bu.md#burgeoning) (+27%), [Exploration](../../cards/E/ex.md#exploration) (+25%) · EDHREC: in 2,367 decks; most often under [The Mimeoplasm](../../cards/T/them.md#the-mimeoplasm) (2.8% of its decks), [Muldrotha, the Gravetide](../../cards/M/mu.md#muldrotha-the-gravetide) (0.6% of its decks), [Omnath, Locus of All](../../cards/O/om.md#omnath-locus-of-all) (1.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cm2/2/damia-sage-of-stone) · oracle_id `eb7ae3e8-0489-4f3a-8343-7e7ec2fe3f01` · printing: CM2 #2 (2018-06-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Damn
@@ -1515,6 +1519,8 @@ schema: 2
 - **Rulings** (2):
   - *2026-08-21* — Danitha's last ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered or otherwise leaves the stack.
   - *2026-08-21* — Danitha's triggered ability triggers only once per spell that targets an opponent or a creature an opponent controls, regardless of how many targets that spell has.
+- **Lore:** ✅ Presented with an official backstory on [The Legends of Reality Fracture](https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 34 decks; highest synergy [Rattleback Apothecary](../../cards/R/rat.md#rattleback-apothecary) (+62%), [Kaervek, the Punisher](../../cards/K/ka.md#kaervek-the-punisher) (+57%), [Eye of Nidhogg](../../cards/E/ey.md#eye-of-nidhogg) (+55%) · EDHREC: in 493 decks; most often under [Shay Cormac](../../cards/S/sha.md#shay-cormac) (9.7% of its decks), [Killian, Decisive Mentor](../../cards/K/ki.md#killian-decisive-mentor) (0.7% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/227/danitha-spear-of-agony) · oracle_id `4b5c7f11-75f2-4bad-86cd-f0232861f569` · printing: FRA #227 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Danitha, Sword of Hope
@@ -1530,6 +1536,8 @@ schema: 2
 - **Keywords:** First strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21257 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Presented with an official backstory on [The Legends of Reality Fracture](https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 34 decks; highest synergy [Shelter](../../cards/S/she.md#shelter) (+56%), [Defiant Strike](../../cards/D/def.md#defiant-strike) (+55%), [Feather of Flight](../../cards/F/fe.md#feather-of-flight) (+52%) · EDHREC: in 3,240 decks; most often under [Syr Gwyn, Hero of Ashvale](../../cards/S/sy.md#syr-gwyn-hero-of-ashvale) (20.8% of its decks), [Feather, the Redeemed](../../cards/F/fe.md#feather-the-redeemed) (13.6% of its decks), [Cloud, Ex-SOLDIER](../../cards/C/cl.md#cloud-ex-soldier) (3.1% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/196/danitha-sword-of-hope) · oracle_id `f7b754d3-9863-420d-895d-00e70b8b078a` · printing: FRA #196 (2026-10-02) · [rulings](https://api.scryfall.com/cards/d5cb9810-3c2d-4ae4-b8b6-0155ca3f47ad/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dan Lewis
@@ -1556,6 +1564,8 @@ schema: 2
   - *2023-10-13* — The Doctor's companion ability allows you to have two commanders if one has the ability and the other is a legendary creature that is a Time Lord Doctor and has no other creature types. Creatures with the changeling ability, for example, can't be a second commander this way.
   - *2023-10-13* — The affected artifacts retain their other types and abilities.
   - *2023-10-13* — While Dan is on the battlefield, an Aura enchantment that somehow becomes an artifact in addition to its other types will also become an Equipment. Any of its abilities that refer to either "enchanted creature" or "equipped creature" refer to the creature it's currently attached to. It can be attached to other creatures using its equip ability. If you try to attach the Aura Equipment to a creature it can't legally be attached to, it remains where it is. If the creature it's attached to becomes an illegal permanent for it to enchant, the Aura Equipment will be put into its owner's graveyard as a state-based action.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 2 combos; most popular [Dan Lewis + Peregrin Took + Chishiro, the Shattered Blade](https://commanderspellbook.com/combo/1765-4321-6213/) (Infinite creature ETB, Infinite creature tokens) · EDHREC as commander: 48 decks; highest synergy [Champion of the Flame](../../cards/C/cha.md#champion-of-the-flame) (+60%), [Reckless Crew](../../cards/R/rec.md#reckless-crew) (+56%), [Valduk, Keeper of the Flame](../../cards/V/va.md#valduk-keeper-of-the-flame) (+54%) · EDHREC: in 2,862 decks; most often under [The Thirteenth Doctor // Yasmin Khan](../../cards/T/thet.md#the-thirteenth-doctor) (8.6% of its decks), [Eivor, Battle-Ready](../../cards/E/ei.md#eivor-battle-ready) (10.6% of its decks), [Captain America, First Avenger](../../cards/C/cap.md#captain-america-first-avenger) (0.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/D.md#dan-lewis)
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/78/dan-lewis) · oracle_id `b84ab039-901e-4635-b57e-3f2dac239f38` · printing: WHO #78 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1608,6 +1618,8 @@ schema: 2
   > *"I love a two-for-one!"*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RB03b/dan-shrewd-trader) · oracle_id `818bf2bb-7fb0-4270-ba6c-b32bce4528d1` · printing: UNK #RB03b (2023-09-23) · [rulings](https://api.scryfall.com/cards/5944b061-6027-4438-b15d-2dba96b1ce7c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dapper Shieldmate
@@ -1698,6 +1710,8 @@ schema: 2
   > Whenever Daredevil attacks, exile the top card of your library. Daredevil deals damage to you equal to that card's mana value. You may play it this turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16278 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1,586 decks; highest synergy [Basilisk Collar](../../cards/B/bas.md#basilisk-collar) (+82%), [Fogwell's Gym](../../cards/F/fo.md#fogwells-gym) (+80%), [Barbarian Ring](../../cards/B/bar.md#barbarian-ring) (+79%) · EDHREC: in 3,017 decks; most often under [Daredevil, Man Without Fear](../../cards/D/da.md#daredevil-man-without-fear) (65.2% of its decks), [Auntie Blyte, Bad Influence](../../cards/A/au.md#auntie-blyte-bad-influence) (49.8% of its decks), [Valgavoth, Harrower of Souls](../../cards/V/va.md#valgavoth-harrower-of-souls) (1.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/685/daredevil-fearless-fighter) · oracle_id `9436a736-9139-4d8a-9eb0-9dbf706da51c` · printing: MSC #685 (2026-06-26) · [rulings](https://api.scryfall.com/cards/a5cf63bd-66db-48b4-87b9-0d0e923e1e42/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Daredevil, Man Without Fear
@@ -1712,6 +1726,8 @@ schema: 2
 - **Keywords:** Radar Sense, Vigilance, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12552 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1,426 decks; highest synergy [Agent Phil Coulson](../../cards/A/ag.md#agent-phil-coulson) (+75%), [Matt Murdock, Justice Seeker](../../cards/M/mat.md#matt-murdock-justice-seeker) (+73%), [Murdock's Crusade](../../cards/M/mu.md#murdocks-crusade) (+73%) · EDHREC: in 7,276 decks; most often under [Captain America, Team Leader](../../cards/C/cap.md#captain-america-team-leader) (46.4% of its decks), [Nick Fury, Agent of S.H.I.E.L.D.](../../cards/N/ni.md#nick-fury-agent-of-shield) (33.1% of its decks), [Gwen Stacy](../../cards/G/gw.md#gwen-stacy--ghost-spider) (21.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/D.md#daredevil-man-without-fear)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/213/daredevil-man-without-fear) · oracle_id `88aadf60-91f9-4932-a2bc-63365a139d36` · printing: MSH #213 (2026-06-26) · [rulings](https://api.scryfall.com/cards/14e821bb-55cc-474e-9b63-0ceecc2666c1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1841,6 +1857,8 @@ schema: 2
 - **Rulings** (2):
   - *2018-04-27* — If Darigaaz is exiled without any egg counters on it, its last ability won't trigger and won't return it to the battlefield.
   - *2018-04-27* — If another effect says to exile Darigaaz if it would die, you may apply Darigaaz's own effect first, giving it three egg counters.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 313 decks; highest synergy [Atarka, World Render](../../cards/A/at.md#atarka-world-render) (+41%), [Crux of Fate](../../cards/C/cr.md#crux-of-fate) (+38%), [Dragonlord's Servant](../../cards/D/dra.md#dragonlords-servant) (+37%) · EDHREC: in 4,157 decks; most often under [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (2.4% of its decks), [Tiamat](../../cards/T/ti.md#tiamat) (2.1% of its decks), [Ziatora, the Incinerator](../../cards/Z/zi.md#ziatora-the-incinerator) (2.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dom/193/darigaaz-reincarnated) · oracle_id `c2f42c67-ff88-4248-bfa5-79a18c6473d5` · printing: DOM #193 (2018-04-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Darigaaz's Attendant
@@ -1895,6 +1913,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22347 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2004-10-04* — You choose the color during resolution. This means your opponent does not get to react after knowing the color you chose.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 344 decks; highest synergy [Howling Mine](../../cards/H/ho.md#howling-mine) (+50%), [Stormfist Crusader](../../cards/S/sto.md#stormfist-crusader) (+47%), [Thunderscape Familiar](../../cards/T/thu.md#thunderscape-familiar) (+47%) · EDHREC: in 1,104 decks; most often under [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (0.5% of its decks), [Scion of the Ur-Dragon](../../cards/S/sc.md#scion-of-the-ur-dragon) (1.1% of its decks), [Morophon, the Boundless](../../cards/M/mor.md#morophon-the-boundless) (0.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dde/47/darigaaz-the-igniter) · oracle_id `6cbafa7b-4448-4ad4-b4f2-0ab6e7c95b0b` · printing: DDE #47 (2010-03-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Daring Apprentice
@@ -3523,6 +3543,8 @@ schema: 2
 - **Keywords:** Evolve
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25635 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 5 decks; highest synergy [Solidarity of Heroes](../../cards/S/so.md#solidarity-of-heroes) (+98%), [Invigorating Surge](../../cards/I/inv.md#invigorating-surge) (+97%), [Renata, Called to the Hunt](../../cards/R/ren.md#renata-called-to-the-hunt) (+96%) · EDHREC: in 768 decks; most often under [Wolverine, Claws Out](../../cards/W/wo.md#wolverine-claws-out) (39.8% of its decks), [X-23, Deadly Weapon](../../cards/X/x2.md#x-23-deadly-weapon) (74.2% of its decks), [Wolverine, Best There Is](../../cards/W/wo.md#wolverine-best-there-is) (1.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/718/darwin-adaptive-mutant) · oracle_id `4061572b-b7ff-4d06-9f71-9e66e064593d` · printing: MSC #718 (2026-06-26) · [rulings](https://api.scryfall.com/cards/95ccd8dd-9759-49d7-9380-3811912ce4d6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dash Hopes
@@ -3583,6 +3605,8 @@ schema: 2
   > *—Gulsen, Abbey Matron*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31023 · Game Changer: no · Can be commander: Yes (legendary creature) · Reserved List
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 69 decks; highest synergy [Pariah](../../cards/P/pa.md#pariah) (+54%), [Druid's Call](../../cards/D/dru.md#druids-call) (+53%), [Rite of Passage](../../cards/R/ri.md#rite-of-passage) (+53%) · EDHREC: in 65 decks; most often under [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.0% of its decks), [Leinore, Autumn Sovereign](../../cards/L/le.md#leinore-autumn-sovereign) (0.3% of its decks), [Captain Sisay](../../cards/C/cap.md#captain-sisay) (0.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hml/85/daughter-of-autumn) · oracle_id `45f3b9f2-3fce-4f91-bcbd-de069e5f9e4c` · printing: HML #85 (1995-10-01) · [rulings](https://api.scryfall.com/cards/972e9c59-f340-414c-b55b-39d46dd97e8e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Daughter of the Deep
@@ -4108,6 +4132,8 @@ schema: 2
   > *"Returned from your hunt? I hope you've brought me something good for my birthday."*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #27308 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 33 combos; most popular [Blood Pet + Decaying Soil + Cauldron of Essence + Davvol, Evincar of Rath](https://commanderspellbook.com/combo/401-3944-7452-8125/) (Infinite creature ETB, Infinite creature LTB) · EDHREC as commander: 296 decks; highest synergy [Essence Warden](../../cards/E/es.md#essence-warden) (+68%), [Virulent Emissary](../../cards/V/vi.md#virulent-emissary) (+61%), [Carnival of Souls](../../cards/C/car.md#carnival-of-souls) (+60%) · EDHREC: in 234 decks; most often under [Lluwen, Exchange Student](../../cards/L/ll.md#lluwen-exchange-student--pest-friend) (6.2% of its decks), [Ghave, Guru of Spores](../../cards/G/gh.md#ghave-guru-of-spores) (0.6% of its decks), [Tom, Bert, and William](../../cards/T/to.md#tom-bert-and-william) (0.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbc/36/davvol-evincar-of-rath) · oracle_id `e4aca279-b144-4517-acef-d925f4f552e2` · printing: MBC #36 (2026-10-19) · [rulings](https://api.scryfall.com/cards/9c8bf856-e7a6-4c58-b001-5ed27c7570ec/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Davvol's Birthdaymobile
@@ -4720,6 +4746,8 @@ schema: 2
 - **Keywords:** Rulebreaker
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ09/daxiver-izzet-electromancer) · oracle_id `1a77d08b-c876-468f-84e4-1669bec2676a` · printing: UNK #RZ09 (2023-07-29) · [rulings](https://api.scryfall.com/cards/6e9226ce-fb7d-45f5-a482-759e6b7227f9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Daxos, Blessed by the Sun
@@ -4759,6 +4787,8 @@ schema: 2
   - *2013-09-15* — If Daxos is blocked by a creature, raising that creature's power to 3 or greater won't change or undo the block.
   - *2013-09-15* — If the exiled card is a land card, you won't gain any life and you won't be able to play the land.
   - *2013-09-15* — You must pay all costs to cast the exiled card. You may pay alternative or additional costs. If the card has any mandatory additional costs, you must pay those.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 834 decks; highest synergy [Aqueous Form](../../cards/A/aq.md#aqueous-form) (+46%), [Staggering Insight](../../cards/S/sta.md#staggering-insight) (+45%), [Steel of the Godhead](../../cards/S/ste.md#steel-of-the-godhead) (+43%) · EDHREC: in 11,012 decks; most often under [Hope Estheim](../../cards/H/ho.md#hope-estheim) (9.1% of its decks), [Sen Triplets](../../cards/S/sen.md#sen-triplets) (21.0% of its decks), [Kamiz, Obscura Oculus](../../cards/K/ka.md#kamiz-obscura-oculus) (29.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ncc/335/daxos-of-meletis) · oracle_id `4cf10cb6-b082-4c0d-89e9-43cd39716201` · printing: NCC #335 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Daxos's Torment
@@ -4792,6 +4822,8 @@ schema: 2
   - *2015-11-04* — Putting an enchantment creature token onto the battlefield won’t cause Daxos’s first ability to trigger. On the other hand, constellation abilities trigger whenever an enchantment enters the battlefield under your control, so those abilities will trigger.
   - *2015-11-04* — The ability that defines the token’s power and toughness is part of the token’s copiable values. Copies of the token will also have that ability.
   - *2015-11-04* — The power and toughness of the tokens will change as the number of experience counters you have does.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 44 combos; most popular [Daxos the Returned + Archon of Sun's Grace + Phyrexian Altar + Anointed Procession](https://commanderspellbook.com/combo/165-1308-3560-4050/) (Infinite colored mana, Infinite creature tokens) · EDHREC as commander: 2,151 decks; highest synergy [Mesa Enchantress](../../cards/M/me.md#mesa-enchantress) (+76%), [Doomwake Giant](../../cards/D/do.md#doomwake-giant) (+69%), [Sigil of the Empty Throne](../../cards/S/si.md#sigil-of-the-empty-throne) (+62%) · EDHREC: in 11,014 decks; most often under [Kelsien, the Plague](../../cards/K/ke.md#kelsien-the-plague) (39.3% of its decks), [Azlask, the Swelling Scourge](../../cards/A/az.md#azlask-the-swelling-scourge) (15.5% of its decks), [Minthara, Merciless Soul](../../cards/M/min.md#minthara-merciless-soul) (25.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/D.md#daxos-the-returned)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c15/43/daxos-the-returned) · oracle_id `8a9e8f60-eb13-4ae8-82df-d4c46da74451` · printing: C15 #43 (2015-11-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

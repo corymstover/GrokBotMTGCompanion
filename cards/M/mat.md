@@ -84,6 +84,8 @@ schema: 2
   - *2017-08-25* — If Mathas's ability resolves two separate times targeting the same creature, that creature will have two instances of the triggered ability. Each triggers separately when that creature dies.
   - *2017-08-25* — The opponents who each draw a card and gain 2 life are the opponents of the player who controlled the creature as it died. This may not be the player who controlled the creature when it received a bounty counter.
   - *2017-08-25* — The target creature that gets a bounty counter still has the triggered ability it gains even if Mathas leaves the battlefield.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 3,189 decks; highest synergy [Bounty Board](../../cards/B/bo.md#bounty-board) (+69%), [Bounty Hunter](../../cards/B/bo.md#bounty-hunter) (+64%), [Termination Facilitator](../../cards/T/te.md#termination-facilitator) (+63%) · EDHREC: in 8,601 decks; most often under [Kelsien, the Plague](../../cards/K/ke.md#kelsien-the-plague) (39.1% of its decks), [Queen Marchesa](../../cards/Q/qu.md#queen-marchesa) (10.5% of its decks), [Edgar Markov](../../cards/E/ed.md#edgar-markov) (3.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/252/mathas-fiend-seeker) · oracle_id `1e8d9d0c-185b-4149-9ec9-74a2f2fe8764` · printing: 2X2 #252 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mathemagics
@@ -111,6 +113,8 @@ schema: 2
   > 20 | Copy that spell. You may choose new targets for the copy.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13075 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 686 decks; highest synergy [Pixie Guide](../../cards/P/pi.md#pixie-guide) (+74%), [Feywild Trickster](../../cards/F/fe.md#feywild-trickster) (+67%), [Contact Other Plane](../../cards/C/con.md#contact-other-plane) (+65%) · EDHREC: in 6,979 decks; most often under [Wyll, Blade of Frontiers // Sword Coast Sailor](../../cards/W/wy.md#wyll-blade-of-frontiers) (59.1% of its decks), [Farideh, Devil's Chosen](../../cards/F/fa.md#farideh-devils-chosen) (57.7% of its decks), [Bohn, Beguiling Balladeer](../../cards/B/bo.md#bohn-beguiling-balladeer) (23.7% of its decks) — *Guidance (Oracle pattern)* — packages: [Spellslinger: Cast-trigger payoffs](../../EDH%20Packages.md#spellslinger-cast-trigger-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#mathise-surge-channeler)
 - **Source flags:** [Scryfall](https://scryfall.com/card/slx/25/mathise-surge-channeler) · oracle_id `61be7df8-cc78-4822-9e70-f226a8a96c9d` · printing: SLX #25 (2025-04-25) · [rulings](https://api.scryfall.com/cards/3c560e53-73d9-4b0e-9b93-c729e00e7bbe/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -135,6 +139,8 @@ schema: 2
   > {R}, {T}, Exile two cards from your graveyard: Matoc deals 2 damage to any other target.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #28381 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 244 decks; highest synergy [Sulfuric Vortex](../../cards/S/sul.md#sulfuric-vortex) (+72%), [Play with Fire](../../cards/P/pl.md#play-with-fire) (+70%), [Memory Worm](../../cards/M/me.md#memory-worm) (+67%) · EDHREC: in 164 decks; most often under [Hansk, Slayer Zealot](../../cards/H/ha.md#hansk-slayer-zealot) (8.1% of its decks), [Kuja, Genome Sorcerer](../../cards/K/ku.md#kuja-genome-sorcerer--trance-kuja-fate-defied) (0.4% of its decks), [Ghyrson Starn, Kelermorph](../../cards/G/gh.md#ghyrson-starn-kelermorph) (0.4% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Impulse / exile-to-play](../../EDH%20Packages.md#card-advantage-impulse--exile-to-play) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbc/25/matoc-lavamancer) · oracle_id `bbe79ca2-8f05-4f1b-b5d3-84724d3eff3a` · printing: MBC #25 (2026-10-19) · [rulings](https://api.scryfall.com/cards/9acfac7e-11c9-4b5b-8cad-03923024d837/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Matopi Golem
@@ -240,6 +246,8 @@ schema: 2
   > Each creature you control with a counter on it has ward {1}. (Whenever it becomes the target of a spell or ability an opponent controls, counter it unless that player pays {1}.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14414 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 28 decks; highest synergy [Foggy Nelson, On Retainer](../../cards/F/fo.md#foggy-nelson-on-retainer) (+68%), [Damning Verdict](../../cards/D/da.md#damning-verdict) (+65%), [Abzan Falconer](../../cards/A/ab.md#abzan-falconer) (+58%) · EDHREC: in 6,409 decks; most often under [Captain America, Team Leader](../../cards/C/cap.md#captain-america-team-leader) (27.4% of its decks), [Daredevil, Man Without Fear](../../cards/D/da.md#daredevil-man-without-fear) (74.3% of its decks), [Miles Morales](../../cards/M/mil.md#miles-morales--ultimate-spider-man) (15.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/602/matt-murdock-justice-seeker) · oracle_id `e64efd0d-3de3-42e2-949e-4a152d08def8` · printing: MSC #602 (2026-06-26) · [rulings](https://api.scryfall.com/cards/ab8e5c5d-e6a0-4666-930a-0a1f475d3c2e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Matzalantli, the Great Door // The Core

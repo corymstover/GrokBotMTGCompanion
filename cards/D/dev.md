@@ -218,6 +218,8 @@ schema: 2
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11781 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 150 decks; highest synergy [Hulking Raptor](../../cards/H/hu.md#hulking-raptor) (+85%), [Regal Imperiosaur](../../cards/R/reg.md#regal-imperiosaur) (+85%), [Curious Altisaur](../../cards/C/cu.md#curious-altisaur) (+81%) · EDHREC: in 10,038 decks; most often under [Pantlaza, Sun-Favored](../../cards/P/pa.md#pantlaza-sun-favored) (30.1% of its decks), [Gishath, Sun's Avatar](../../cards/G/gi.md#gishath-suns-avatar) (29.8% of its decks), [Atla Palani, Nest Tender](../../cards/A/at.md#atla-palani-nest-tender) (9.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/D.md#devil-dinosaur)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/719/devil-dinosaur) · oracle_id `08de884f-1930-43d6-8c23-04353a136b4e` · printing: MSC #719 (2026-06-26) · [rulings](https://api.scryfall.com/cards/fcb4c268-441f-41cf-8c25-538eefc6a710/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -257,6 +259,8 @@ schema: 2
   - *2022-10-07* — The jump is considered attempted if your hand makes contact with Devil K. Nevil and it moves. You can’t use anything other than your hand to flick Devil K. Nevil. If you’re wearing gloves (which are basically card sleeves for hands), those count as part of your hand.
   - *2022-10-07* — You may choose to jump over no creatures—and thus not attempt a jump—if you want. If there are no other creatures on the battlefield as the enters-the-battlefield ability resolves, Devil K. Nevil is a stunt devil without a stunt and there won’t be a jump.
   - *2022-10-07* — You may use any creatures on the battlefield except Devil K. Nevil itself for the jump, including your opponent’s creatures. You are limited to the number of other creatures on the battlefield for the jump attempt.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 19 decks; highest synergy [Quinjet Technician](../../cards/Q/qu.md#quinjet-technician) (+50%), [Stone-Giant of High Pass](../../cards/S/sto.md#stone-giant-of-high-pass) (+50%), [Zurzoth, Chaos Rider](../../cards/Z/zu.md#zurzoth-chaos-rider) (+47%) · EDHREC: in 65 decks; most often under [Zurzoth, Chaos Rider](../../cards/Z/zu.md#zurzoth-chaos-rider) (0.2% of its decks), [Pietra, Crafter of Clowns](../../cards/P/pi.md#pietra-crafter-of-clowns) (6.6% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unf/104/devil-k-nevil) · oracle_id `74858500-8943-4ea7-894f-0cd022510bbe` · printing: UNF #104 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Devil's Play

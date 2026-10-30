@@ -1720,6 +1720,8 @@ schema: 2
   > Whenever Enkira and at least two Zombies attack, Enkira gains indestructible until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21869 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Enkira, Hostile Scavenger + Nim Deathmantle + Ashnod's Altar](https://commanderspellbook.com/combo/2034-5003-5246/) (Infinite colorless mana, Infinite creature tokens) · EDHREC as commander: 744 decks; highest synergy [Death Baron](../../cards/D/dea.md#death-baron) (+75%), [Lord of the Accursed](../../cards/L/lo.md#lord-of-the-accursed) (+73%), [Endless Ranks of the Dead](../../cards/E/en.md#endless-ranks-of-the-dead) (+71%) · EDHREC: in 865 decks; most often under [Ellie, Brick Master // Joel, Resolute Survivor](../../cards/E/el.md#ellie-brick-master) (5.4% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.4% of its decks), [Abby, Merciless Soldier // Joel, Resolute Survivor](../../cards/A/ab.md#abby-merciless-soldier) (9.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (2 card data) → [reverse index](../../references/E.md#enkira-hostile-scavenger)
 - **Source flags:** [Scryfall](https://scryfall.com/card/slx/20/enkira-hostile-scavenger) · oracle_id `558fd7a9-9b39-4c82-b909-5febf55dc010` · printing: SLX #20 (2023-09-08) · [rulings](https://api.scryfall.com/cards/f7cad73d-312c-4ea5-93c7-8a422b16f207/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1848,6 +1850,8 @@ schema: 2
 - **Rulings** (2):
   - *2026-03-20* — Auras attached to the exiled creature will be put into their owners' graveyards. Equipment attached to the exiled creature will become unattached and remain on the battlefield. Any counters on the exiled creature will cease to exist. Once the exiled permanent returns, it's considered a new object with no relation to the object that it was.
   - *2026-03-20* — Since copies of prepare spells aren't cards, they won't count for Ennis's last ability.
+- **Lore:** ✅ Presented with an official backstory on [The Legends of Secrets of Strixhaven](https://magic.wizards.com/en/news/magic-story/the-legends-of-secrets-of-strixhaven) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 61 decks; highest synergy [Cloudshift](../../cards/C/cl.md#cloudshift) (+55%), [Felidar Guardian](../../cards/F/fe.md#felidar-guardian) (+54%), [Charming Prince](../../cards/C/cha.md#charming-prince) (+53%) · EDHREC: in 6,792 decks; most often under [Aang, at the Crossroads](../../cards/A/aa.md#aang-at-the-crossroads--aang-destined-savior) (13.6% of its decks), [Ketramose, the New Dawn](../../cards/K/ke.md#ketramose-the-new-dawn) (7.4% of its decks), [Fire Lord Zuko](../../cards/F/fi.md#fire-lord-zuko) (3.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sos/14/ennis-debate-moderator) · oracle_id `97e1fcdf-04e8-40cf-b04a-8505d9b7cecc` · printing: SOS #14 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Enolc, Perfect Clone
@@ -1862,6 +1866,8 @@ schema: 2
 - **Keywords:** Partner
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature) · Pairing: Partner
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RC01c/enolc-perfect-clone) · oracle_id `d4b9e533-a46a-4d07-acf0-b018153e2d12` · printing: UNK #RC01c (2023-07-29) · [rulings](https://api.scryfall.com/cards/9b699da6-abcb-4658-88ed-1eb4304aeb16/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Enormous Baloth

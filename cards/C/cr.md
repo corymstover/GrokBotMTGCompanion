@@ -2306,6 +2306,8 @@ schema: 2
   > *"My Masters of Evil is a \*for-profit\* organization, not a vendetta."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16341 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Loki, the Deceiver (Grixis)](../../grixis/decks/loki-the-deceiver.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 31 decks; highest synergy [Tombstone, Career Criminal](../../cards/T/to.md#tombstone-career-criminal) (+96%), [Baron Strucker, HYDRA Overlord](../../cards/B/bar.md#baron-strucker-hydra-overlord) (+89%), [Madame Masque](../../cards/M/mad.md#madame-masque) (+86%) · EDHREC: in 4,527 decks; most often under [Doctor Doom, King of Latveria](../../cards/D/do.md#doctor-doom-king-of-latveria) (11.3% of its decks), [Loki, the Deceiver](../../cards/L/lo.md#loki-the-deceiver) (37.9% of its decks), [Norman Osborn](../../cards/N/no.md#norman-osborn--green-goblin) (5.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 decks) → [reverse index](../../references/C.md#crimson-cowl-master-of-evil)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/653/crimson-cowl-master-of-evil) · oracle_id `2962cfc6-6557-4aee-a95a-8ca3bb06eb29` · printing: MSC #653 (2026-06-26) · [rulings](https://api.scryfall.com/cards/58f35061-20d7-464a-a58d-8e07ed23fa27/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2644,6 +2646,8 @@ schema: 2
 - **Keywords:** Regenerate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17265 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 3 combos; most popular [Cromat + Minn, Wily Illusionist + Fool's Demise + Altar of Dementia](https://commanderspellbook.com/combo/1703-3483-3783-5256/) (Infinite death triggers, Infinite creature ETB) · EDHREC as commander: 1,801 decks; highest synergy [Gemrazer](../../cards/G/ge.md#gemrazer) (+33%), [Boneyard Lurker](../../cards/B/bo.md#boneyard-lurker) (+32%), [Snapdax, Apex of the Hunt](../../cards/S/sn.md#snapdax-apex-of-the-hunt) (+32%) · EDHREC: in 1,890 decks; most often under [Jenson Carthalion, Druid Exile](../../cards/J/je.md#jenson-carthalion-druid-exile) (14.6% of its decks), [Jared Carthalion](../../cards/J/ja.md#jared-carthalion) (6.9% of its decks), [Ramos, Dragon Engine](../../cards/R/ram.md#ramos-dragon-engine) (1.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/apc/94/cromat) · oracle_id `376601b6-fe51-4e2d-8ec6-98f965d649a3` · printing: APC #94 (2001-06-04) · [rulings](https://api.scryfall.com/cards/7d9e0a23-d2a8-40a6-9076-ed6fb539141b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Crookclaw Elder
@@ -2811,6 +2815,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14020 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2004-10-04* — You choose the color during resolution. This means your opponent does not get to react after knowing the color you chose.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Crosis, the Purger (Grixis)](../../grixis/decks/crosis-the-purger.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1,147 decks; highest synergy [Megrim](../../cards/M/me.md#megrim) (+58%), [Fell Specter](../../cards/F/fe.md#fell-specter) (+54%), [Geth's Grimoire](../../cards/G/ge.md#geths-grimoire) (+54%) · EDHREC: in 5,329 decks; most often under [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (4.0% of its decks), [Nicol Bolas, the Ravager](../../cards/N/ni.md#nicol-bolas-the-ravager--nicol-bolas-the-arisen) (7.7% of its decks), [Nicol Bolas](../../cards/N/ni.md#nicol-bolas) (21.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 decks) → [reverse index](../../references/C.md#crosis-the-purger)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c17/168/crosis-the-purger) · oracle_id `f1ae1dcd-76cd-4714-9df2-1ab0ebd2ca41` · printing: C17 #168 (2017-08-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2827,6 +2833,8 @@ schema: 2
 - **Keywords:** Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14421 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Loki, the Deceiver (Grixis)](../../grixis/decks/loki-the-deceiver.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 38 decks; highest synergy [Baron Strucker, HYDRA Overlord](../../cards/B/bar.md#baron-strucker-hydra-overlord) (+81%), [Tombstone, Career Criminal](../../cards/T/to.md#tombstone-career-criminal) (+81%), [The Masters of Evil](../../cards/T/them.md#the-masters-of-evil) (+78%) · EDHREC: in 6,384 decks; most often under [Doctor Doom, King of Latveria](../../cards/D/do.md#doctor-doom-king-of-latveria) (11.4% of its decks), [Loki, the Deceiver](../../cards/L/lo.md#loki-the-deceiver) (44.5% of its decks), [Thanos, the Mad Titan](../../cards/T/tha.md#thanos-the-mad-titan) (21.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 decks) → [reverse index](../../references/C.md#crossbones-malicious-mercenary)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/91/crossbones-malicious-mercenary) · oracle_id `ac950d10-e373-42d3-907b-ee56e45a2084` · printing: MSH #91 (2026-06-26) · [rulings](https://api.scryfall.com/cards/1576148a-2371-49ba-8eef-0bc2ec3dcaf3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -3001,6 +3009,8 @@ schema: 2
   - *2021-03-19* — Crovax's last ability can be activated only while it's on the battlefield.
   - *2021-03-19* — If Crovax, Ascendant Hero stops being white, it gives itself -1/-1.
   - *2021-03-19* — If a second Crovax, Ascendant Hero comes under your control, you'll put one into its owner's graveyard due to the "legend rule" at the same time that any creatures getting -2/-2 are put into their owner's graveyard for having 0 or less toughness.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 15 combos; most popular [Maha, Its Feathers Night + Crovax, Ascendant Hero](https://commanderspellbook.com/combo/4727-5779/) (Reduce the toughness of most creatures opponents control, Nonwhite creatures opponents control die upon entering) · EDHREC as commander: 233 decks; highest synergy [Honor of the Pure](../../cards/H/ho.md#honor-of-the-pure) (+58%), [Celestial Crusader](../../cards/C/ce.md#celestial-crusader) (+49%), [Divine Sacrament](../../cards/D/di.md#divine-sacrament) (+49%) · EDHREC: in 4,366 decks; most often under [Elesh Norn, Grand Cenobite](../../cards/E/el.md#elesh-norn-grand-cenobite) (26.1% of its decks), [Greymond, Avacyn's Stalwart](../../cards/G/gre.md#greymond-avacyns-stalwart) (16.2% of its decks), [Keleth, Sunmane Familiar // Yoshimaru, Ever Faithful](../../cards/K/ke.md#keleth-sunmane-familiar) (15.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tsr/15/crovax-ascendant-hero) · oracle_id `0cbf6ad8-9bf1-455d-bd74-9c142e17acb0` · printing: TSR #15 (2021-03-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Crovax the Cursed
@@ -3017,6 +3027,8 @@ schema: 2
   - *2004-10-04* — Crovax can sacrifice itself to its upkeep triggered ability.
   - *2004-10-04* — If you choose not to sacrifice a creature and he has no +1/+1 counters, then nothing bad happens. Note that some other effect must be keeping him alive if he has no counters.
   - *2004-10-04* — You can only sacrifice one creature to it each turn.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 102 decks; highest synergy [Cordial Vampire](../../cards/C/cor.md#cordial-vampire) (+52%), [Sadistic Glee](../../cards/S/sad.md#sadistic-glee) (+52%), [Blade of the Bloodchief](../../cards/B/bla.md#blade-of-the-bloodchief) (+50%) · EDHREC: in 416 decks; most often under [Sisay, Weatherlight Captain](../../cards/S/si.md#sisay-weatherlight-captain) (0.4% of its decks), [Cleopatra, Exiled Pharaoh](../../cards/C/cl.md#cleopatra-exiled-pharaoh) (1.4% of its decks), [Edgar Markov](../../cards/E/ed.md#edgar-markov) (0.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tpr/90/crovax-the-cursed) · oracle_id `e1b74ef7-ab6b-4d40-8087-3f3a448b7e0a` · printing: TPR #90 (2015-05-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Crowd-Control Warden
@@ -5081,6 +5093,8 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11548 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 4,686 decks; highest synergy [Curiosity](../../cards/C/cu.md#curiosity) (+78%), [Keen Sense](../../cards/K/ke.md#keen-sense) (+75%), [Snake Umbra](../../cards/S/sn.md#snake-umbra) (+69%) · EDHREC: in 5,693 decks; most often under [Mister Fantastic](../../cards/M/mis.md#mister-fantastic) (72.5% of its decks), [Aragorn, the Uniter](../../cards/A/ara.md#aragorn-the-uniter) (8.8% of its decks), [Invisible Woman](../../cards/I/inv.md#invisible-woman) (59.2% of its decks) — *Guidance (Oracle pattern)* — packages: [Spellslinger: Cast-trigger payoffs](../../EDH%20Packages.md#spellslinger-cast-trigger-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/80/crystal-inhuman-princess) · oracle_id `32c14d7f-fdaa-4340-af94-1f10bf064f51` · printing: MSC #80 (2026-06-26) · [rulings](https://api.scryfall.com/cards/1e9aec49-08d7-4fc8-87dd-69ab8910688a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Crystalline Armor

@@ -91,6 +91,8 @@ schema: 2
   - *2026-01-27* — Mona Lisa's ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered or otherwise leaves the stack.
   - *2026-01-27* — Mutagen tokens are a kind of predefined token. Each one is a colorless artifact with the artifact subtype Mutagen and the ability "{1}, {T}, Sacrifice this token: Put a +1/+1 counter on target creature. Activate only as a sorcery."
   - *2026-01-27* — Some spells and abilities that create Mutagen tokens require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. The Mutagen token won't be created.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 61 decks; highest synergy [Mutagen Man, Living Ooze](../../cards/M/mu.md#mutagen-man-living-ooze) (+81%), [Jaheira, Friend of the Forest](../../cards/J/ja.md#jaheira-friend-of-the-forest) (+65%), [The Ooze](../../cards/T/theo.md#the-ooze) (+64%) · EDHREC: in 7,293 decks; most often under [Leonardo, the Balance // Michelangelo, the Heart](../../cards/L/le.md#leonardo-the-balance) (17.6% of its decks), [April O'Neil, Live on the Scene // Leonardo, the Balance](../../cards/A/ap.md#april-oneil-live-on-the-scene) (32.0% of its decks), [Donatello, the Brains // Michelangelo, the Heart](../../cards/D/do.md#donatello-the-brains) (42.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmc/126/mona-lisa-ever-adaptable) · oracle_id `9fa38462-57b6-4f2f-a73c-f14a66f56946` · printing: TMC #126 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mona Lisa, Science Geek
@@ -258,6 +260,8 @@ schema: 2
 - **Rulings** (2):
   - *2026-01-27* — Mondo Gecko's first ability causes it to become only the chosen color. It will no longer be the color or colors it was previously. (It will still have hexproof from any other colors chosen that turn.)
   - *2026-01-27* — The five colors are white, blue, black, red, and green. Colorless is not a color.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 270 decks; highest synergy [Aqueous Form](../../cards/A/aq.md#aqueous-form) (+82%), [Scuttlemutt](../../cards/S/sc.md#scuttlemutt) (+79%), [Tidal Visionary](../../cards/T/ti.md#tidal-visionary) (+74%) · EDHREC: in 2,360 decks; most often under [Jin Sakai, Ghost of Tsushima](../../cards/J/ji.md#jin-sakai-ghost-of-tsushima) (2.9% of its decks), [Leonardo, the Balance // Michelangelo, the Heart](../../cards/L/le.md#leonardo-the-balance) (2.9% of its decks), [Heroes in a Half Shell](../../cards/H/he.md#heroes-in-a-half-shell) (6.1% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmt/46/mondo-gecko) · oracle_id `fa3ae120-756d-4c52-91f9-235767539d67` · printing: TMT #46 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mondrak, Glory Dominus
@@ -304,6 +308,8 @@ schema: 2
   > When Monet enters, create four 1/1 green Turtle creature tokens with training. If Monet was ninjutsu'd, those tokens enter tapped and attacking. (Whenever a creature with training attacks with another creature with greater power, put a +1/+1 counter on it. This doesn't work if it enteres tapped and attacking.)
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed — *Guidance (Oracle pattern)* — packages: [Aristocrats: Fodder makers (multiple creature tokens)](../../EDH%20Packages.md#aristocrats-fodder-makers-multiple-creature-tokens) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ06g/monet-sensei-of-the-sewers) · oracle_id `29690252-2136-4990-af75-8393eaff72cb` · printing: UNK #RZ06g (2025-08-02) · [rulings](https://api.scryfall.com/cards/75a0e0c4-1adf-429c-94cc-7794a8a2b247/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mongoose Lizard
@@ -350,6 +356,8 @@ schema: 2
 - **Keywords:** Flying, Prowess, Transform, Hexproof
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12931 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 783 decks; highest synergy [Monastery Mentor](../../cards/M/mon.md#monastery-mentor) (+61%), [Aligned Heart](../../cards/A/al.md#aligned-heart) (+47%), [Young Pyromancer](../../cards/Y/yo.md#young-pyromancer) (+47%) · EDHREC: in 7,377 decks; most often under [Nick Fury, Agent of S.H.I.E.L.D.](../../cards/N/ni.md#nick-fury-agent-of-shield) (33.3% of its decks), [Captain America, Team Leader](../../cards/C/cap.md#captain-america-team-leader) (18.0% of its decks), [Daredevil, Man Without Fear](../../cards/D/da.md#daredevil-man-without-fear) (43.8% of its decks) — *Guidance (Oracle pattern)* — packages: [Spellslinger: Cast-trigger payoffs](../../EDH%20Packages.md#spellslinger-cast-trigger-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/23/monica-rambeau-photon-living-light) · oracle_id `8dd929cb-0fe1-4cb3-bc8d-96ca37f194f3` · printing: MSH #23 (2026-06-26) · [rulings](https://api.scryfall.com/cards/3f995518-b12a-4623-9ab3-b79a5cef3cba/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moniker Mage
@@ -628,6 +636,8 @@ schema: 2
   - *2022-10-07* — Some effects may modify the result of a die roll. This may be part of the instruction to roll a die, or it may come from other cards. Anything that references the "result" of a die roll is looking for the result after these modifications.
   - *2022-10-07* — Something in the game must tell you to roll a die. If you roll a die for any other reason (to simulate a coin flip, to choose pizza toppings, to create alternate timelines), that roll doesn't count.
   - *2022-10-07* — The die roll caused by the activated ability has no inherent effect: you just roll a six-sided die, but any ability that triggers whenever you roll a die will trigger. Abilities that trigger whenever you roll a specific result, such as Monoxa's first ability, may also trigger.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 210 decks; highest synergy [Barbarian Class](../../cards/B/bar.md#barbarian-class) (+89%), [Wyll, Blade of Frontiers](../../cards/W/wy.md#wyll-blade-of-frontiers) (+88%), [Brazen Dwarf](../../cards/B/br.md#brazen-dwarf) (+83%) · EDHREC: in 5,837 decks; most often under [Mr. House, President and CEO](../../cards/M/mr.md#mr-house-president-and-ceo) (22.3% of its decks), [Wyll, Blade of Frontiers // Agent of the Shadow Thieves](../../cards/W/wy.md#wyll-blade-of-frontiers) (56.2% of its decks), [Esika, God of the Tree](../../cards/E/es.md#esika-god-of-the-tree--the-prismatic-bridge) (0.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#monoxa-midway-manager)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unf/173/monoxa-midway-manager) · oracle_id `d8e6cdab-234a-46b9-8b6c-164034cf2bc7` · printing: UNF #173 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

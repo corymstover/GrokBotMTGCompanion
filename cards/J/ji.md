@@ -167,6 +167,8 @@ schema: 2
   > Spells you cast with jump-start aren't exiled.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ02e/jiffy-vehicle-repairer) · oracle_id `e2d3f61d-760c-4ec4-bcf6-76279f7b7b09` · printing: UNK #RZ02e (2025-02-21) · [rulings](https://api.scryfall.com/cards/b33a79a6-26bb-43cd-bb8e-39aca61db9c0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jihad
@@ -429,6 +431,8 @@ schema: 2
 - **Rulings** (2):
   - *2020-04-17* — If Jirina is your commander, the number of times you cast it includes the time you cast Jirina just before it entered the battlefield.
   - *2020-04-17* — Jirina’s last ability gives +2/+0 to all Humans you control other than Jirina, including the Human tokens created by its triggered ability.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 25 combos; most popular [Jirina Kudro + Anointed Procession + Phyrexian Altar + Ashnod's Altar](https://commanderspellbook.com/combo/1049-1308-2034-4050/) (Infinite colored mana, Infinite colorless mana) · EDHREC as commander: 1,304 decks; highest synergy [General's Enforcer](../../cards/G/ge.md#generals-enforcer) (+70%), [General Kudro of Drannith](../../cards/G/ge.md#general-kudro-of-drannith) (+66%), [Thalia's Lieutenant](../../cards/T/tha.md#thalias-lieutenant) (+66%) · EDHREC: in 6,783 decks; most often under [Silvar, Devourer of the Free // Trynn, Champion of Freedom](../../cards/S/si.md#silvar-devourer-of-the-free) (62.3% of its decks), [Saskia the Unyielding](../../cards/S/sas.md#saskia-the-unyielding) (10.6% of its decks), [Caesar, Legion's Emperor](../../cards/C/cae.md#caesar-legions-emperor) (2.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c20/8/jirina-kudro) · oracle_id `b122bf99-b003-452a-a854-b25597ff7ca2` · printing: C20 #8 (2020-04-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jitte and Divining Top
@@ -458,4 +462,6 @@ schema: 2
 - **Keywords:** Channel
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24772 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 28 decks; highest synergy [Earthquake](../../cards/E/ea.md#earthquake) (+64%), [Mogg Maniac](../../cards/M/mog.md#mogg-maniac) (+56%), [Irencrag Feat](../../cards/I/ir.md#irencrag-feat) (+54%) · EDHREC: in 840 decks; most often under [Skyfire Kirin](../../cards/S/sk.md#skyfire-kirin) (53.5% of its decks), [Nikya of the Old Ways](../../cards/N/ni.md#nikya-of-the-old-ways) (1.6% of its decks), [Ben-Ben, Akki Hermit](../../cards/B/be.md#ben-ben-akki-hermit) (11.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sok/107/jiwari-the-earth-aflame) · oracle_id `03199a9e-3a52-42af-8027-50b455a054d4` · printing: SOK #107 (2005-06-03) · [rulings](https://api.scryfall.com/cards/6b46105b-32c2-48fc-b71d-c3e8fcb8a8ea/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

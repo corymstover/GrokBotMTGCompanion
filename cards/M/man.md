@@ -554,6 +554,8 @@ schema: 2
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RR04f/mana-max-afterburner) · oracle_id `10c2584a-17b2-457c-aca6-e7b6f9d7a6e4` · printing: UNK #RR04f (2025-02-21) · [rulings](https://api.scryfall.com/cards/e9a83234-2d85-46fb-9f0f-522779972b5c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mana Maze
@@ -943,6 +945,8 @@ schema: 2
 - **Rulings** (2):
   - *2021-03-19* — If Mangara leaves the battlefield before its ability resolves, the target permanent is still exiled. Mangara won't be exiled from the zone it's in.
   - *2021-03-19* — If the target permanent is an illegal target by the time Mangara's ability tries to resolve, the ability doesn't resolve. You don't exile Mangara.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 150 decks; highest synergy [Ephemerate](../../cards/E/ep.md#ephemerate) (+68%), [Thousand-Year Elixir](../../cards/T/tho.md#thousand-year-elixir) (+67%), [Cloudshift](../../cards/C/cl.md#cloudshift) (+65%) · EDHREC: in 6,815 decks; most often under [Cadric, Soul Kindler](../../cards/C/cad.md#cadric-soul-kindler) (48.2% of its decks), [Athreos, Shroud-Veiled](../../cards/A/at.md#athreos-shroud-veiled) (27.4% of its decks), [Keleth, Sunmane Familiar // Yoshimaru, Ever Faithful](../../cards/K/ke.md#keleth-sunmane-familiar) (22.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tsr/27/mangara-of-corondor) · oracle_id `7a5789b3-68a2-4079-8ec5-3b5e1d2c739b` · printing: TSR #27 (2021-03-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mangara's Blessing
@@ -1217,6 +1221,8 @@ schema: 2
   - *2021-03-19* — Because damage remains marked on a creature until the damage is removed as the turn ends, nonlethal damage dealt to a creature may become lethal if you switch its power and toughness during that turn.
   - *2021-03-19* — Effects that switch a creature's power and toughness apply after all other effects, regardless of when those effects began to apply. For instance, if you target a 1/2 creature then give it +2/+0 later in the turn, it's a 2/3 creature, not a 4/1 creature.
   - *2021-03-19* — Switching a creature's power and toughness twice (or any even number of times) effectively returns the creature to the power and toughness it had before any switches.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 337 decks; highest synergy [Slagwurm Armor](../../cards/S/sl.md#slagwurm-armor) (+85%), [Break Through the Line](../../cards/B/br.md#break-through-the-line) (+80%), [Accorder's Shield](../../cards/A/ac.md#accorders-shield) (+76%) · EDHREC: in 521 decks; most often under [Skyfire Kirin](../../cards/S/sk.md#skyfire-kirin) (46.5% of its decks), [Zalto, Fire Giant Duke](../../cards/Z/za.md#zalto-fire-giant-duke) (9.9% of its decks), [Obeka, Splitter of Seconds](../../cards/O/ob.md#obeka-splitter-of-seconds) (0.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bok/112/mannichi-the-fevered-dream) · oracle_id `3aafbf63-35c0-4f62-9281-a4d460e8d6f3` · printing: BOK #112 (2005-02-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Man of Measure

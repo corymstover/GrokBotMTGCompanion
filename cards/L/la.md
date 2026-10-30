@@ -244,6 +244,8 @@ schema: 2
   > *"Lesson six of security: know when to bend the rules."*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #32315 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 19 decks; most often under [Arni Metalbrow](../../cards/A/arn.md#arni-metalbrow) (3.3% of its decks), [Arni, Renowned Champion](../../cards/A/arn.md#arni-renowned-champion) (3.2% of its decks), Worf, Defiant Commander (2.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/trk/156/laan-noonien-singh-security) · oracle_id `ed3b80eb-8915-4428-89b8-90f4278f2733` · printing: TRK #156 (2026-11-13) · [rulings](https://api.scryfall.com/cards/afe08bef-b184-4b91-8d69-0101e183c3ff/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Laboratory Brute
@@ -584,6 +586,8 @@ schema: 2
   > {T}: Lady Caleria deals 3 damage to target attacking or blocking creature.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29078 · Game Changer: no · Can be commander: Yes (legendary creature) · Reserved List
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 32 decks; highest synergy [Brigid, Hero of Kinsbaile](../../cards/B/br.md#brigid-hero-of-kinsbaile) (+70%), [Greatbow Doyen](../../cards/G/gre.md#greatbow-doyen) (+68%), [Ohabi Caleria](../../cards/O/oh.md#ohabi-caleria) (+65%) · EDHREC: in 272 decks; most often under [Ohabi Caleria](../../cards/O/oh.md#ohabi-caleria) (7.4% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.1% of its decks), [Arcades Sabboth](../../cards/A/arc.md#arcades-sabboth) (3.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me3/157/lady-caleria) · oracle_id `74284bbc-b011-4e16-b8d5-7ddacc77f9d7` · printing: ME3 #157 (2009-09-07) · [rulings](https://api.scryfall.com/cards/84b9a2b7-6ff7-4a81-86ae-64cc77c23030/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lady Evangela
@@ -598,6 +602,8 @@ schema: 2
   > *—Lady Gabriella*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28509 · Game Changer: no · Can be commander: Yes (legendary creature) · Reserved List
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 164 decks; highest synergy [Maze of Ith](../../cards/M/maz.md#maze-of-ith) (+36%), [Mother of Runes](../../cards/M/mot.md#mother-of-runes) (+28%), [Darkness](../../cards/D/da.md#darkness) (+26%) · EDHREC: in 196 decks; most often under [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.1% of its decks), [Merieke Ri Berit](../../cards/M/me.md#merieke-ri-berit) (0.6% of its decks), [Dakkon Blackblade](../../cards/D/da.md#dakkon-blackblade) (0.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me3/158/lady-evangela) · oracle_id `8800d672-424b-4a7b-886f-7eb9d7a56cfe` · printing: ME3 #158 (2009-09-07) · [rulings](https://api.scryfall.com/cards/a01adcbd-0ebd-4f18-9942-4638fa0de358/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lady Loki, Agent of Chaos
@@ -609,6 +615,8 @@ schema: 2
   > Whenever you cast your first instant, sorcery, or Villain spell each turn, exile it, then exile cards from the top of your library until you exile a nonland card. Lady Loki deals damage to each opponent equal to the difference between that spell's mana value and that nonland card's mana value. You may cast that card without paying its mana cost.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16645 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 279 decks; highest synergy [Hit the Mother Lode](../../cards/H/hi.md#hit-the-mother-lode) (+56%), [Expedite](../../cards/E/ex.md#expedite) (+48%), [Call Forth the Tempest](../../cards/C/cal.md#call-forth-the-tempest) (+46%) · EDHREC: in 3,976 decks; most often under [Doctor Doom, King of Latveria](../../cards/D/do.md#doctor-doom-king-of-latveria) (14.1% of its decks), [Loki, the Deceiver](../../cards/L/lo.md#loki-the-deceiver) (35.3% of its decks), [Thanos, the Mad Titan](../../cards/T/tha.md#thanos-the-mad-titan) (5.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/54/lady-loki-agent-of-chaos) · oracle_id `6efae65b-5ae5-4f62-97e7-cd4d1249fa9e` · printing: MSC #54 (2026-06-26) · [rulings](https://api.scryfall.com/cards/44ac85d4-0429-4813-b7fe-eed1f6575b7d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lady Octopus, Inspired Inventor
@@ -658,6 +666,8 @@ schema: 2
   > *—A Wayfarer, on meeting Lady Orca*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28790 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 59 decks; highest synergy [Orca, Siege Demon](../../cards/O/or.md#orca-siege-demon) (+20%), [Goblin Assailant](../../cards/G/gob.md#goblin-assailant) (+15%), [Tyrox, Saurid Tyrant](../../cards/T/ty.md#tyrox-saurid-tyrant) (+15%) · EDHREC: in 275 decks; most often under [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.3% of its decks), [Barktooth Warbeard](../../cards/B/bar.md#barktooth-warbeard) (4.8% of its decks), [Kaalia of the Vast](../../cards/K/ka.md#kaalia-of-the-vast) (0.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me3/159/lady-orca) · oracle_id `fcae9e87-50af-46b4-ab48-42ed92985e10` · printing: ME3 #159 (2009-09-07) · [rulings](https://api.scryfall.com/cards/db766e38-5407-431c-bcf4-f33791a7e5f9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lady Spider, Maybelle Reilly
@@ -673,6 +683,8 @@ schema: 2
 - **Keywords:** Reach
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22831 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 12 decks; highest synergy [Containment Construct](../../cards/C/con.md#containment-construct) (+71%), [Change of Fortune](../../cards/C/cha.md#change-of-fortune) (+65%), [Conspiracy Theorist](../../cards/C/con.md#conspiracy-theorist) (+65%) · EDHREC: in 1,394 decks; most often under [Astonishing Spider-Man](../../cards/A/as.md#astonishing-spider-man) (64.7% of its decks), [Cosmic Spider-Man](../../cards/C/cos.md#cosmic-spider-man) (3.3% of its decks), [Spider-Punk](../../cards/S/spi.md#spider-punk) (39.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/695/lady-spider-maybelle-reilly) · oracle_id `59442ef7-5276-4f38-83c8-9a849388a711` · printing: MSC #695 (2026-06-26) · [rulings](https://api.scryfall.com/cards/0fef29f4-0216-4492-97f1-267c1c162ee2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lady Sun
@@ -687,6 +699,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27175 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2013-09-20* — If a turn has multiple combat phases, the ability can only be activated before the beginning of the declare attackers step of the first combat phase in that turn.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 5 combos; most popular [Lady Sun + Wormfang Manta + Hushwing Gryff](https://commanderspellbook.com/combo/2724-3194-3335/) (Infinite turns, Lock) · EDHREC as commander: 48 decks; highest synergy [Gilded Drake](../../cards/G/gi.md#gilded-drake) (+58%), [Aether Channeler](../../cards/A/ae.md#aether-channeler) (+57%), [Barrin, Tolarian Archmage](../../cards/B/bar.md#barrin-tolarian-archmage) (+54%) · EDHREC: in 456 decks; most often under [Sun Quan, Lord of Wu](../../cards/S/sun.md#sun-quan-lord-of-wu) (4.3% of its decks), [Sliver Queen](../../cards/S/sl.md#sliver-queen) (2.3% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/L.md#lady-sun)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ptk/45/lady-sun) · oracle_id `dcc363a7-652d-4d2b-9081-3e5735120f21` · printing: PTK #45 (1999-05-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -704,6 +718,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26179 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2009-10-01* — Despite the similarities between horsemanship and flying, horsemanship doesn’t interact with flying or reach.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 92 decks; highest synergy [Snake Umbra](../../cards/S/sn.md#snake-umbra) (+60%), [Bear Umbra](../../cards/B/be.md#bear-umbra) (+54%), [Fireshrieker](../../cards/F/fi.md#fireshrieker) (+54%) · EDHREC: in 558 decks; most often under [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.2% of its decks), [Kenrith, the Returned King](../../cards/K/ke.md#kenrith-the-returned-king) (0.2% of its decks), [Sliver Queen](../../cards/S/sl.md#sliver-queen) (1.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/L.md#lady-zhurong-warrior-queen)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ptk/139/lady-zhurong-warrior-queen) · oracle_id `531e6ffb-28e0-4e8e-ad88-2f3a243789cf` · printing: PTK #139 (1999-05-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -786,6 +802,8 @@ schema: 2
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #32130 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 3 decks; highest synergy [Cyberdrive Awakener](../../cards/C/cy.md#cyberdrive-awakener) (+94%), [Etherium Sculptor](../../cards/E/et.md#etherium-sculptor) (+83%), [Arcane Encyclopedia](../../cards/A/arc.md#arcane-encyclopedia) (+67%) · EDHREC: in 66 decks; most often under [Ultros, Obnoxious Octopus](../../cards/U/ul.md#ultros-obnoxious-octopus) (4.7% of its decks), [Infinite Guideline Station](../../cards/I/inf.md#infinite-guideline-station) (0.1% of its decks), [Mendicant Core, Guidelight](../../cards/M/me.md#mendicant-core-guidelight) (0.1% of its decks) — *Guidance (Oracle pattern)* — packages: [Ramp: Mana creatures (MV ≤ 2)](../../EDH%20Packages.md#ramp-mana-creatures-mv--2) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/trc/147/la-forge-perceptive-engineer) · oracle_id `338619f2-bb33-4988-bafe-7460f86acef8` · printing: TRC #147 (2026-11-13) · [rulings](https://api.scryfall.com/cards/c2412446-ddff-40fa-b180-9385c691a9fd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lagac Lizard
@@ -879,6 +897,8 @@ schema: 2
   - *2025-02-07* — You may activate a permanent’s saddle ability even if that permanent is already saddled.
   - *2025-02-07* — “Saddle N” means “Tap any number of other untapped creatures you control with total power N or greater: This permanent becomes saddled until end of turn. Activate only as a sorcery.”
   - *2025-02-07* — “Saddled” isn’t an ability that a creature has. It’s just something true about that creature. It won’t stop being saddled until the turn ends or it leaves the battlefield.
+- **Lore:** ✅ Presented with an official backstory on [The Legends of Aetherdrift](https://magic.wizards.com/en/news/feature/the-legends-of-aetherdrift) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 191 decks; highest synergy [Caradora, Heart of Alacria](../../cards/C/car.md#caradora-heart-of-alacria) (+71%), [Miriam, Herd Whisperer](../../cards/M/mir.md#miriam-herd-whisperer) (+71%), [Bulwark Ox](../../cards/B/bu.md#bulwark-ox) (+68%) · EDHREC: in 6,182 decks; most often under [Caradora, Heart of Alacria](../../cards/C/car.md#caradora-heart-of-alacria) (74.1% of its decks), [Samut, the Driving Force](../../cards/S/sam.md#samut-the-driving-force) (18.7% of its decks), [Miriam, Herd Whisperer](../../cards/M/mir.md#miriam-herd-whisperer) (80.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/211/lagorin-soul-of-alacria) · oracle_id `f7b6f5d4-b122-4ab4-a2c2-449ac781359a` · printing: DFT #211 (2025-02-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lagrella, the Magpie
@@ -892,6 +912,8 @@ schema: 2
 - **Rulings** (2):
   - *2022-04-29* — "This way" refers to cards entering the battlefield as a result of Lagrella leaving the battlefield.
   - *2022-04-29* — The last part of Lagrella's ability is a delayed triggered ability that is set up as its enters-the-battlefield ability resolves. It will trigger when Lagrella leaves the battlefield even if it's somehow lost its abilities or become a copy of something else.
+- **Lore:** ✅ Presented with an official backstory on [The Legends You'll Find in Streets of New Capenna](https://magic.wizards.com/en/news/feature/the-legends-youll-find-in-streets-of-new-capenna) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 36 combos; most popular [Lagrella, the Magpie + Felidar Guardian + Ephemerate](https://commanderspellbook.com/combo/2781-3086-5144/) (Infinite blinking, Infinite creature ETB) · EDHREC as commander: 2,118 decks; highest synergy [Ephemerate](../../cards/E/ep.md#ephemerate) (+62%), [Soulherder](../../cards/S/so.md#soulherder) (+61%), [Coiling Oracle](../../cards/C/coi.md#coiling-oracle) (+57%) · EDHREC: in 3,982 decks; most often under [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (1.6% of its decks), [Sisay, Weatherlight Captain](../../cards/S/si.md#sisay-weatherlight-captain) (2.1% of its decks), [Aragorn, the Uniter](../../cards/A/ara.md#aragorn-the-uniter) (1.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/snc/196/lagrella-the-magpie) · oracle_id `6a98b586-5187-48a1-bde3-f6141f3e9cb1` · printing: SNC #196 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Laid to Rest
@@ -1324,6 +1346,8 @@ schema: 2
   > {2}, {T}, Sacrifice Lander: Search you library for a basic land card, put it onto the battlefield tapped, then shuffle.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RG06c/lander-rizzi) · oracle_id `a8786e37-8985-4406-b39f-af7017f11e10` · printing: UNK #RG06c (2025-08-02) · [rulings](https://api.scryfall.com/cards/a57d1fbe-d276-4a4e-9d6d-f70c5bd8ffa1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Landfill
@@ -1379,6 +1403,8 @@ schema: 2
 - **Rulings** (2):
   - *2023-06-16* — In a multiplayer game, Landroval, Horizon Witness's triggered ability triggers once for each player you attack with at least two creatures.
   - *2023-06-16* — Two or more creatures you control must attack the same player in order for Landroval, Horizon Witness's ability to trigger. Creatures you control that attack planeswalkers that player controls or battles that player is protecting won't count toward Landroval, Horizon Witness's trigger condition.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 23 decks; highest synergy [Tine Shrike](../../cards/T/ti.md#tine-shrike) (+35%), [Core Prowler](../../cards/C/cor.md#core-prowler) (+34%), [Plague Myr](../../cards/P/pl.md#plague-myr) (+34%) · EDHREC: in 6,714 decks; most often under [Frodo, Adventurous Hobbit // Sam, Loyal Attendant](../../cards/F/fr.md#frodo-adventurous-hobbit) (6.7% of its decks), [Choco, Seeker of Paradise](../../cards/C/cho.md#choco-seeker-of-paradise) (3.9% of its decks), [Frodo, Sauron's Bane](../../cards/F/fr.md#frodo-saurons-bane) (9.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hoc/169/landroval-horizon-witness) · oracle_id `467c9fe6-d1d3-4242-bc0c-e522b4f21d56` · printing: HOC #169 (2026-08-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Landscape Painter // Vibrant Idea
@@ -1731,6 +1757,8 @@ schema: 2
 - **Keywords:** Reach, First strike, Treasure, Raid
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15306 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 3,138 decks; highest synergy [Academy Ruins](../../cards/A/ac.md#academy-ruins) (+84%), [Shadowspear](../../cards/S/sha.md#shadowspear) (+83%), [Bow of Nylea](../../cards/B/bo.md#bow-of-nylea) (+82%) · EDHREC: in 2,020 decks; most often under [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (3.0% of its decks), [Sisay, Weatherlight Captain](../../cards/S/si.md#sisay-weatherlight-captain) (1.0% of its decks), [Aragorn, the Uniter](../../cards/A/ara.md#aragorn-the-uniter) (0.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sld/1501/lara-croft-tomb-raider) · oracle_id `ddfd9dca-c886-4e13-b467-990469c31a61` · printing: SLD #1501 (2023-11-20) · [rulings](https://api.scryfall.com/cards/098c976b-6096-4ac7-8d52-2f219ae21d1f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Larceny
@@ -2479,6 +2507,8 @@ schema: 2
   > *—Haddad, Kipamu soldier*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27891 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 99 decks; highest synergy [Braid of Fire](../../cards/B/br.md#braid-of-fire) (+53%), [Illusionist's Bracers](../../cards/I/il.md#illusionists-bracers) (+49%), [Battlemage's Bracers](../../cards/B/bat.md#battlemages-bracers) (+47%) · EDHREC: in 324 decks; most often under [Tazri, Stalwart Survivor](../../cards/T/ta.md#tazri-stalwart-survivor) (1.5% of its decks), [Garth One-Eye](../../cards/G/ga.md#garth-one-eye) (0.2% of its decks), [Rielle, the Everwise](../../cards/R/ri.md#rielle-the-everwise) (0.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/pcy/95/latulla-keldon-overseer) · oracle_id `86b2879b-6c54-4d96-ab81-a3f2c87d42d9` · printing: PCY #95 (2000-06-05) · [rulings](https://api.scryfall.com/cards/fd3c7b0c-98bd-4c63-bbb0-80484a5ab26f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Latulla's Orders
@@ -2619,6 +2649,8 @@ schema: 2
 - **Keywords:** Partner with, Goad, First strike, Partner
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12497 · Game Changer: no · Can be commander: Yes (legendary creature) · Pairing: Partner, Partner with
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 9 decks; highest synergy [Shiny Impetus](../../cards/S/shi.md#shiny-impetus) (+49%), [Bloody Betrayal](../../cards/B/blo.md#bloody-betrayal) (+44%), [Fire Diamond](../../cards/F/fi.md#fire-diamond) (+44%) · EDHREC: in 8,254 decks; most often under [Strefan, Maurer Progenitor](../../cards/S/str.md#strefan-maurer-progenitor) (15.1% of its decks), [Olivia, Opulent Outlaw](../../cards/O/ol.md#olivia-opulent-outlaw) (21.6% of its decks), [The Rani](../../cards/T/ther.md#the-rani) (15.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/L.md#laurine-the-diversion)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otc/172/laurine-the-diversion) · oracle_id `f2f8847d-17a8-4c26-8a7a-1bb6c02f2b39` · printing: OTC #172 (2024-04-19) · [rulings](https://api.scryfall.com/cards/ca2b008e-e144-45b1-9bc7-eb49e03a8a8f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -3076,6 +3108,8 @@ schema: 2
   - *2024-02-02* — Some spells and abilities that investigate may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't create any Clue tokens.
   - *2024-02-02* — Spells that were cast before Lavinia, Foil to Conspiracy count. If Lavinia was the first spell you cast this turn, the next spell you cast this turn is your second spell.
   - *2024-02-02* — You can't sacrifice a Clue to pay multiple costs. For example, you can't sacrifice a Clue token to activate its own ability and also to activate Alquist Proft, Master Sleuth's ability.
+- **Lore:** ✅ Presented with an official backstory on [The Legends (and Characters) of Murders at Karlov Manor](https://magic.wizards.com/en/news/feature/the-legends-and-characters-of-murders-at-karlov-manor) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 649 decks; highest synergy [Erdwal Illuminator](../../cards/E/er.md#erdwal-illuminator) (+70%), [Tangletrove Kelp](../../cards/T/ta.md#tangletrove-kelp) (+63%), [Officious Interrogation](../../cards/O/of.md#officious-interrogation) (+62%) · EDHREC: in 11,430 decks; most often under [Morska, Undersea Sleuth](../../cards/M/mor.md#morska-undersea-sleuth) (26.1% of its decks), [Alisaie Leveilleur // Alphinaud Leveilleur](../../cards/A/al.md#alisaie-leveilleur) (39.5% of its decks), [Inquisitor Greyfax](../../cards/I/inq.md#inquisitor-greyfax) (32.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clu/36/lavinia-foil-to-conspiracy) · oracle_id `b5b26cea-9be3-46f7-9603-a6eee0dd107e` · printing: CLU #36 (2024-02-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lavinia of the Tenth
@@ -3344,6 +3378,8 @@ schema: 2
   - *2024-02-02* — Some abilities trigger "whenever you sacrifice a Clue". Those abilities trigger whenever you sacrifice a Clue for any reason, not just to activate a Clue's activated ability.
   - *2024-02-02* — Some spells and abilities that investigate may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't create any Clue tokens.
   - *2024-02-02* — You can't sacrifice a Clue to pay multiple costs. For example, you can't sacrifice a Clue token to activate its own ability and also to activate Alquist Proft, Master Sleuth's ability.
+- **Lore:** ✅ Presented with an official backstory on [The Legends (and Characters) of Murders at Karlov Manor](https://magic.wizards.com/en/news/feature/the-legends-and-characters-of-murders-at-karlov-manor) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1,379 decks; highest synergy [Erdwal Illuminator](../../cards/E/er.md#erdwal-illuminator) (+65%), [Forensic Gadgeteer](../../cards/F/fo.md#forensic-gadgeteer) (+56%), [Martha Jones](../../cards/M/mar.md#martha-jones) (+50%) · EDHREC: in 5,122 decks; most often under [Inquisitor Greyfax](../../cards/I/inq.md#inquisitor-greyfax) (30.7% of its decks), [Lazav, Dimir Mastermind](../../cards/L/la.md#lazav-dimir-mastermind) (12.1% of its decks), [Eloise, Nephalia Sleuth](../../cards/E/el.md#eloise-nephalia-sleuth) (17.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkm/216/lazav-wearer-of-faces) · oracle_id `4ec0b64d-c793-47a6-9c26-9ad4d9e9c182` · printing: MKM #216 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lazier Goblin

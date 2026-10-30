@@ -50,6 +50,8 @@ schema: 2
 - **Rulings** (2):
   - *2024-03-08* — If a card you discard has {X} in its mana cost, X is considered to be 0.
   - *2024-03-08* — If you somehow can't discard a card (probably because you had no cards in hand and another effect prevented you from drawing cards), you won't put any counters on Cait no matter whether or not the defending player discarded a card or what that card's mana value is.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1,373 decks; highest synergy [Brawn](../../cards/B/br.md#brawn) (+66%), [Anger](../../cards/A/an.md#anger) (+60%), [Genesis](../../cards/G/ge.md#genesis) (+49%) · EDHREC: in 7,070 decks; most often under [Dogmeat, Ever Loyal](../../cards/D/do.md#dogmeat-ever-loyal) (29.0% of its decks), [Maarika, Brutal Gladiator](../../cards/M/maa.md#maarika-brutal-gladiator) (8.7% of its decks), [Preston Garvey, Minuteman](../../cards/P/pr.md#preston-garvey-minuteman) (11.1% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/pip/96/cait-cage-brawler) · oracle_id `f24319a1-0662-44be-9027-11e7bc020e1d` · printing: PIP #96 (2024-03-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cait Sith, Fortune Teller

@@ -118,6 +118,8 @@ schema: 2
 - **Keywords:** Flying, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11527 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 2,904 decks; highest synergy [Weatherlight](../../cards/W/we.md#weatherlight) (+81%), [Shorikai, Genesis Engine](../../cards/S/sho.md#shorikai-genesis-engine) (+78%), [Kotori, Pilot Prodigy](../../cards/K/ko.md#kotori-pilot-prodigy) (+76%) · EDHREC: in 7,071 decks; most often under [Sonic the Hedgehog](../../cards/S/so.md#sonic-the-hedgehog) (31.0% of its decks), [Shorikai, Genesis Engine](../../cards/S/sho.md#shorikai-genesis-engine) (6.4% of its decks), [Kotori, Pilot Prodigy](../../cards/K/ko.md#kotori-pilot-prodigy) (19.7% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sld/2085/miles-tails-prower) · oracle_id `98dd8231-5679-404a-b976-0bbfa6a8493c` · printing: SLD #2085 (2025-07-14) · [rulings](https://api.scryfall.com/cards/7d4bd7e1-9861-4f8a-9ad5-a41aeaee1928/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Militant Angel
@@ -264,6 +266,8 @@ schema: 2
 - **Keywords:** Flying, Affinity
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11123 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Presented with an official backstory on [The Legends of Innistrad: Crimson Vow](https://magic.wizards.com/en/news/feature/legends-innistrad-crimson-vow-2021-11-12) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 2 combos; most popular [Millicent, Restless Revenant + Enduring Renewal + Ugin's Conjurant](https://commanderspellbook.com/combo/656-678-4145/) (Infinite creature tokens, Infinite death triggers) · EDHREC as commander: 7,260 decks; highest synergy [Drogskol Captain](../../cards/D/dro.md#drogskol-captain) (+94%), [Supreme Phantom](../../cards/S/sup.md#supreme-phantom) (+91%), [Rattlechains](../../cards/R/rat.md#rattlechains) (+89%) · EDHREC: in 3,205 decks; most often under [Ranar the Ever-Watchful](../../cards/R/ran.md#ranar-the-ever-watchful) (22.1% of its decks), [Kykar, Wind's Fury](../../cards/K/ky.md#kykar-winds-fury) (2.5% of its decks), [Rhoda, Geist Avenger // Timin, Youthful Geist](../../cards/R/rh.md#rhoda-geist-avenger) (13.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/voc/1/millicent-restless-revenant) · oracle_id `71766a05-62a5-4839-b9bf-f5dcde710251` · printing: VOC #1 (2021-11-19) · [rulings](https://api.scryfall.com/cards/2b86b538-0766-440d-a2cd-f5d5bfcfb010/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Millikin

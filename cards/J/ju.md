@@ -352,6 +352,8 @@ schema: 2
 - **Rulings** (2):
   - *2017-11-17* — If some of the creatures are illegal targets as Jugan's triggered ability tries to resolve, the original distribution of counters still applies and the counters that would have been put on the illegal targets are lost. They won't be put instead on a legal target.
   - *2017-11-17* — You choose how many targets Jugan's triggered ability has and how the counters are distributed as you put the ability onto the stack. Each target must receive at least one counter.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 8 combos; most popular [Jugan, the Rising Star + Nim Deathmantle + Crystalline Crawler + Ashnod's Altar](https://commanderspellbook.com/combo/1712-2034-2060-5003/) (Infinite +1/+1 counters on most creatures you control, Infinite colored mana) · EDHREC as commander: 60 decks; highest synergy [Kami of Whispered Hopes](../../cards/K/ka.md#kami-of-whispered-hopes) (+68%), [Greater Good](../../cards/G/gre.md#greater-good) (+54%), [Hardened Scales](../../cards/H/ha.md#hardened-scales) (+54%) · EDHREC: in 8,535 decks; most often under [Kyodai, Soul of Kamigawa](../../cards/K/ky.md#kyodai-soul-of-kamigawa) (18.1% of its decks), [O-Kagachi, Vengeful Kami](../../cards/O/ok.md#o-kagachi-vengeful-kami) (20.1% of its decks), [Miirym, Sentinel Wyrm](../../cards/M/mii.md#miirym-sentinel-wyrm) (1.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ima/172/jugan-the-rising-star) · oracle_id `6d138115-36bf-4cf8-8033-197cea2d0208` · printing: IMA #172 (2017-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Juggernaut
@@ -636,6 +638,8 @@ schema: 2
   - *2025-10-02* — Creating a Clue token this way isn't the same thing as investigating. Notably, an ability that triggers whenever you investigate won't trigger because of creating a Clue token this way.
   - *2025-10-02* — If a card or ability instructs you to put cards into your hand without specifically using the word "draw," it's not a card drawn.
   - *2025-10-02* — Once June, Bounty Hunter has been blocked, drawing two or more cards will not cause June to become unblocked.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 4 combos; most popular [June, Bounty Hunter + Cauldron Familiar + Academy Manufactor](https://commanderspellbook.com/combo/856-4231-7047/) (Infinite artifact ETB, Infinite artifact LTB) · EDHREC as commander: 398 decks; highest synergy [Obsessive Pursuit](../../cards/O/ob.md#obsessive-pursuit) (+68%), [Academy Manufactor](../../cards/A/ac.md#academy-manufactor) (+55%), [Tamiyo's Journal](../../cards/T/ta.md#tamiyos-journal) (+53%) · EDHREC: in 5,955 decks; most often under [Fire Lord Azula](../../cards/F/fi.md#fire-lord-azula) (1.5% of its decks), [Chatterfang, Squirrel General](../../cards/C/cha.md#chatterfang-squirrel-general) (3.1% of its decks), [Ozai, the Phoenix King](../../cards/O/oz.md#ozai-the-phoenix-king) (5.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/106/june-bounty-hunter) · oracle_id `1779869a-5e54-4ab5-86b8-d4d20e2e1ba4` · printing: TLA #106 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jungle Barrier
@@ -1092,6 +1096,8 @@ schema: 2
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16061 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 81 decks; highest synergy [Archetype of Aggression](../../cards/A/arc.md#archetype-of-aggression) (+68%), [Varchild, Betrayer of Kjeldor](../../cards/V/va.md#varchild-betrayer-of-kjeldor) (+57%), [Goblin Spymaster](../../cards/G/gob.md#goblin-spymaster) (+54%) · EDHREC: in 4,453 decks; most often under [Winota, Joiner of Forces](../../cards/W/wi.md#winota-joiner-of-forces) (3.5% of its decks), [Lovisa Coldeyes](../../cards/L/lo.md#lovisa-coldeyes) (26.6% of its decks), [Éowyn, Shieldmaiden](../../cards/E/eo.md#éowyn-shieldmaiden) (1.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/J.md#jurin-leading-the-charge)
 - **Source flags:** [Scryfall](https://scryfall.com/card/slx/27/jurin-leading-the-charge) · oracle_id `de384867-8bb4-4edf-b542-970538718fdd` · printing: SLX #27 (2025-04-25) · [rulings](https://api.scryfall.com/cards/867b4e3d-e175-4d6b-868a-87b3d6f61b07/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1183,6 +1189,8 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22380 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 24 decks; highest synergy [Run Away Together](../../cards/R/ru.md#run-away-together) (+83%), [Barrin, Tolarian Archmage](../../cards/B/bar.md#barrin-tolarian-archmage) (+69%), [Dour Port-Mage](../../cards/D/do.md#dour-port-mage) (+63%) · EDHREC: in 1,480 decks; most often under [Nick Fury, Agent of S.H.I.E.L.D.](../../cards/N/ni.md#nick-fury-agent-of-shield) (3.4% of its decks), [Captain America, Team Leader](../../cards/C/cap.md#captain-america-team-leader) (1.6% of its decks), [The Mighty Thor, Jane Foster](../../cards/T/them.md#the-mighty-thor-jane-foster) (3.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/J.md#justice-vance-astrovik)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/61/justice-vance-astrovik) · oracle_id `184dba74-63ed-4820-9174-68adf26bfabf` · printing: MSH #61 (2026-06-26) · [rulings](https://api.scryfall.com/cards/f1448731-d50e-4b9c-8eb2-3d85c21516c6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

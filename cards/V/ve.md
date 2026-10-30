@@ -993,6 +993,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10558 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2012-06-01* — If Vela leaves the battlefield at the same time as other creatures you control, its ability will trigger for each of those creatures.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 3 combos; most popular [Mirrorform + Vela the Night-Clad](https://commanderspellbook.com/combo/6316-7181/) (Near-infinite lifeloss) · EDHREC as commander: 897 decks; highest synergy [Forsaken Monument](../../cards/F/fo.md#forsaken-monument) (+36%), [Deepfathom Skulker](../../cards/D/dee.md#deepfathom-skulker) (+35%), [Shrine of the Forsaken Gods](../../cards/S/shr.md#shrine-of-the-forsaken-gods) (+34%) · EDHREC: in 10,618 decks; most often under [Inalla, Archmage Ritualist](../../cards/I/ina.md#inalla-archmage-ritualist) (13.8% of its decks), [Gisa and Geralf](../../cards/G/gi.md#gisa-and-geralf) (20.3% of its decks), [Yuriko, the Tiger's Shadow](../../cards/Y/yu.md#yuriko-the-tigers-shadow) (2.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c17/201/vela-the-night-clad) · oracle_id `185e34f0-60ae-4b07-94ac-96cef11b1604` · printing: C17 #201 (2017-08-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Veldrane of Sengir
@@ -1007,6 +1009,8 @@ schema: 2
   > *—Halina, Dwarven Trader*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30681 · Game Changer: no · Can be commander: Yes (legendary creature) · Reserved List
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 50 decks; highest synergy [Yavimaya, Cradle of Growth](../../cards/Y/ya.md#yavimaya-cradle-of-growth) (+78%), [Vorpal Sword](../../cards/V/vo.md#vorpal-sword) (+62%), [Lashwrithe](../../cards/L/la.md#lashwrithe) (+60%) · EDHREC: in 114 decks; most often under [Baron Sengir](../../cards/B/bar.md#baron-sengir) (10.7% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.0% of its decks), [Grandmother Sengir](../../cards/G/gra.md#grandmother-sengir) (16.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hml/60/veldrane-of-sengir) · oracle_id `39322103-c40e-4d05-8e87-a92d1cbc7b68` · printing: HML #60 (1995-10-01) · [rulings](https://api.scryfall.com/cards/fe0ce7d7-d370-4ef8-b1fa-aa70b2fd5ab1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Veldt
@@ -1790,6 +1794,8 @@ schema: 2
 - **Keywords:** Vigilance, Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12454 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 2,451 decks; highest synergy [Titanoth Rex](../../cards/T/ti.md#titanoth-rex) (+77%), [Agonasaur Rex](../../cards/A/ag.md#agonasaur-rex) (+67%), [Death's Shadow](../../cards/D/dea.md#deaths-shadow) (+65%) · EDHREC: in 6,098 decks; most often under [Eddie Brock](../../cards/E/ed.md#eddie-brock--venom-lethal-protector) (40.0% of its decks), [Cosmic Spider-Man](../../cards/C/cos.md#cosmic-spider-man) (1.5% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/spe/22/venom-deadly-devourer) · oracle_id `f064fc04-28fb-423f-a4f3-bb567c71168f` · printing: SPE #22 (2025-09-26) · [rulings](https://api.scryfall.com/cards/7d2cb243-08a7-47c9-9d71-7748c499ac30/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Venom, Eddie Brock
@@ -1805,6 +1811,8 @@ schema: 2
 - **Keywords:** Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11955 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Loki, the Deceiver (Grixis)](../../grixis/decks/loki-the-deceiver.md) · Commander Spellbook: 18 combos; most popular [Venom, Eddie Brock + Animation Module + Ashnod's Altar](https://commanderspellbook.com/combo/2034-3490-6829/) (Infinite artifact ETB, Infinite artifact LTB) · EDHREC as commander: 318 decks; highest synergy [Tombstone, Career Criminal](../../cards/T/to.md#tombstone-career-criminal) (+76%), [Symbiote Spawn](../../cards/S/sy.md#symbiote-spawn) (+70%), [Lethal Protection](../../cards/L/le.md#lethal-protection) (+64%) · EDHREC: in 8,982 decks; most often under [Eddie Brock](../../cards/E/ed.md#eddie-brock--venom-lethal-protector) (22.5% of its decks), [Loki, the Deceiver](../../cards/L/lo.md#loki-the-deceiver) (41.4% of its decks), [Norman Osborn](../../cards/N/no.md#norman-osborn--green-goblin) (4.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 decks) → [reverse index](../../references/V.md#venom-eddie-brock)
 - **Source flags:** [Scryfall](https://scryfall.com/card/spe/12/venom-eddie-brock) · oracle_id `9132d7e6-7190-45e1-9c57-8fe2e5d0f2f2` · printing: SPE #12 (2025-09-26) · [rulings](https://api.scryfall.com/cards/eab647ce-fe86-450d-b5e8-ebcda631f6a1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1821,6 +1829,8 @@ schema: 2
 - **Keywords:** Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11575 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 31 decks; highest synergy [Venom's Hunger](../../cards/V/ve.md#venoms-hunger) (+35%), [Venomized Cat](../../cards/V/ve.md#venomized-cat) (+30%), [Common Crook](../../cards/C/com.md#common-crook) (+29%) · EDHREC: in 9,850 decks; most often under [Eddie Brock](../../cards/E/ed.md#eddie-brock--venom-lethal-protector) (22.1% of its decks), [Norman Osborn](../../cards/N/no.md#norman-osborn--green-goblin) (6.7% of its decks), [Doctor Octopus, Master Planner](../../cards/D/do.md#doctor-octopus-master-planner) (49.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/800/venom-evil-unleashed) · oracle_id `6731d861-cc52-4a2e-8c33-154681fd50e4` · printing: MSC #800 (2026-06-26) · [rulings](https://api.scryfall.com/cards/78fcfdd0-7744-4fed-83dc-6b9a3235ab6f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Venomized Cat
@@ -2260,6 +2270,8 @@ schema: 2
   > *Built from scraps. Defined by self.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16127 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 173 decks; highest synergy [Bushwhack](../../cards/B/bu.md#bushwhack) (+57%), [Novel Nunchaku](../../cards/N/no.md#novel-nunchaku) (+48%), [Saved by the Shell](../../cards/S/sav.md#saved-by-the-shell) (+44%) · EDHREC: in 4,481 decks; most often under [Leonardo, the Balance // Michelangelo, the Heart](../../cards/L/le.md#leonardo-the-balance) (7.8% of its decks), [Mikey & Don, Party Planners](../../cards/M/mik.md#mikey--don-party-planners) (66.4% of its decks), [Heroes in a Half Shell](../../cards/H/he.md#heroes-in-a-half-shell) (11.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmt/136/venus-torn-between-worlds) · oracle_id `7b3d364d-6581-43de-a80a-d5b07f5d21ed` · printing: TMT #136 (2026-03-06) · [rulings](https://api.scryfall.com/cards/fcb59b16-3d76-478e-9306-969dd2cb1b5a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Verazol, the Split Current
@@ -2285,6 +2297,8 @@ schema: 2
   - *2020-09-25* — Verazol's last ability can copy any kicked spell, not just one with targets.
   - *2020-09-25* — You can't choose to pay any additional costs for the copy. However, effects based on any additional costs that were paid for the original spell are copied as though those same costs were paid for the copy too. Most notably, the copy is also kicked.
   - *2020-09-25* — You can't remove more than two counters as Verazol's last ability resolves to copy the spell more than once. You can't remove just one counter from it if it has only one. If Verazol leaves the battlefield while its last ability is on the stack, you can't remove two +1/+1 counters from it at all.
+- **Lore:** ✅ Presented with an official backstory on [The Legends of Zendikar Rising](https://magic.wizards.com/en/news/feature/legends-zendikar-rising-2020-09-15) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1,212 decks; highest synergy [Roost of Drakes](../../cards/R/ro.md#roost-of-drakes) (+91%), [Grow from the Ashes](../../cards/G/gro.md#grow-from-the-ashes) (+88%), [Inscription of Abundance](../../cards/I/ins.md#inscription-of-abundance) (+88%) · EDHREC: in 1,076 decks; most often under [Kiora, Sovereign of the Deep](../../cards/K/ki.md#kiora-sovereign-of-the-deep) (2.5% of its decks), [Koma, Cosmos Serpent](../../cards/K/ko.md#koma-cosmos-serpent) (1.8% of its decks), [Zaxara, the Exemplary](../../cards/Z/za.md#zaxara-the-exemplary) (0.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/znr/239/verazol-the-split-current) · oracle_id `d85e5398-fa97-4bcd-8b93-008f3f435e22` · printing: ZNR #239 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Verdant Automaton
@@ -2810,6 +2824,8 @@ schema: 2
   - *2022-09-09* — In some cases involving linked abilities, an ability requires information about “the exiled card.” When this happens, the ability gets multiple answers. If these answers are being used to determine the value of a variable, the sum is used. If an ability attempts to create a token that is a copy of “the exiled card,” it creates a token for each card exiled this way that is a copy of that card.
   - *2022-09-09* — The source of the copy is the same as the source of the original ability.
   - *2022-09-09* — Verrak’s triggered ability creates another instance of that activated ability on the stack. It doesn’t cause any object to gain an ability.
+- **Lore:** ✅ Presented with an official backstory on [The Legends You'll Find in Dominaria United](https://magic.wizards.com/en/news/feature/legends-youll-find-dominaria-united-2022-09-01) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1,759 decks; highest synergy [Font of Agonies](../../cards/F/fo.md#font-of-agonies) (+79%), [Greed](../../cards/G/gre.md#greed) (+77%), [Underworld Connections](../../cards/U/un.md#underworld-connections) (+74%) · EDHREC: in 8,133 decks; most often under [Licia, Sanguine Tribune](../../cards/L/li.md#licia-sanguine-tribune) (52.6% of its decks), [Queen Marchesa](../../cards/Q/qu.md#queen-marchesa) (3.9% of its decks), [Dihada, Binder of Wills](../../cards/D/di.md#dihada-binder-of-wills) (7.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmc/16/verrak-warped-sengir) · oracle_id `04853f06-3fd2-445d-9b0d-d68d0f116635` · printing: DMC #16 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vertigo

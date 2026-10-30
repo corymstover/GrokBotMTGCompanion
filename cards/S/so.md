@@ -655,6 +655,8 @@ schema: 2
   > Whenever an Equipment you control enters, create a 1/1 white Ally creature token.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15439 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 100+ combos; most popular [Sokka and Suki + Sword of the Meek + Arcbound Ravager](https://commanderspellbook.com/combo/2558-2829-7082/) (Infinite artifact ETB, Infinite artifact LTB) · EDHREC as commander: 3,656 decks; highest synergy [Colossus Hammer](../../cards/C/col.md#colossus-hammer) (+77%), [Bloodforged Battle-Axe](../../cards/B/blo.md#bloodforged-battle-axe) (+76%), [Puresteel Paladin](../../cards/P/pu.md#puresteel-paladin) (+75%) · EDHREC: in 1,585 decks; most often under [Sokka, Tenacious Tactician](../../cards/S/so.md#sokka-tenacious-tactician) (7.0% of its decks), [Avatar Aang](../../cards/A/av.md#avatar-aang--aang-master-of-elements) (1.9% of its decks), [Captain America, First Avenger](../../cards/C/cap.md#captain-america-first-avenger) (1.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tle/71/sokka-and-suki) · oracle_id `e84becc0-6e15-4a74-aec0-9746b86ab5cc` · printing: TLE #71 (2025-11-21) · [rulings](https://api.scryfall.com/cards/d3b0800f-23c3-4aad-8b62-3ea3d4d5b591/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sokka, Bold Boomeranger
@@ -669,6 +671,8 @@ schema: 2
   > *"I'm just a guy with a boomerang!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9804 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Mai and Zuko (Grixis)](../../grixis/decks/mai-and-zuko.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 370 decks; highest synergy [It'll Quench Ya!](../../cards/I/it.md#itll-quench-ya) (+69%), [Abandon Attachments](../../cards/A/ab.md#abandon-attachments) (+65%), [Boomerang Basics](../../cards/B/bo.md#boomerang-basics) (+65%) · EDHREC: in 12,830 decks; most often under [Iroh, Grand Lotus](../../cards/I/ir.md#iroh-grand-lotus) (42.4% of its decks), [Avatar Aang](../../cards/A/av.md#avatar-aang--aang-master-of-elements) (9.0% of its decks), [Sokka, Tenacious Tactician](../../cards/S/so.md#sokka-tenacious-tactician) (14.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 decks) → [reverse index](../../references/S.md#sokka-bold-boomeranger)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/240/sokka-bold-boomeranger) · oracle_id `bdbec6d5-0f10-4114-b709-4402a44debdf` · printing: TLA #240 (2025-11-21) · [rulings](https://api.scryfall.com/cards/4a1f1472-55b4-450d-8e4d-7297130a0cf3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -748,6 +752,8 @@ schema: 2
   - *2025-10-02* — Once you announce that you're casting a spell, no player may take actions until the spell has been paid for. Notably, opponents can't remove Sokka to change by how much Equipment spell costs are reduced.
   - *2025-10-02* — Sokka will count himself as an Ally for his second ability.
   - *2025-10-02* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 33 combos; most popular [Sokka and Suki + Sokka, Swordmaster + Razor Boomerang + Smellerbee, Rebel Fighter](https://commanderspellbook.com/combo/6738-7011-7060-7082/) (Infinite artifact ETB, Infinite artifact LTB) · EDHREC as commander: 307 decks; highest synergy [Master Piandao](../../cards/M/mas.md#master-piandao) (+70%), [Earth Kingdom Protectors](../../cards/E/ea.md#earth-kingdom-protectors) (+69%), [Invasion Reinforcements](../../cards/I/inv.md#invasion-reinforcements) (+67%) · EDHREC: in 6,332 decks; most often under [Sokka and Suki](../../cards/S/so.md#sokka-and-suki) (74.6% of its decks), [Sokka, Tenacious Tactician](../../cards/S/so.md#sokka-tenacious-tactician) (6.0% of its decks), [Katara, the Fearless](../../cards/K/ka.md#katara-the-fearless) (4.7% of its decks) — *Guidance (Oracle pattern)* — packages: [Ramp: Cost reducers](../../EDH%20Packages.md#ramp-cost-reducers) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tle/83/sokka-swordmaster) · oracle_id `90b4d288-e950-4182-af62-516549a8712c` · printing: TLE #83 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sokka, Tenacious Tactician
@@ -779,6 +785,8 @@ schema: 2
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22334 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 12 decks; highest synergy [Disenchant](../../cards/D/di.md#disenchant) (+43%), [Keep Out](../../cards/K/ke.md#keep-out) (+37%), [Agent 13, Sharon Carter](../../cards/A/ag.md#agent-13-sharon-carter) (+33%) · EDHREC: in 1,449 decks; most often under [Sokka, Tenacious Tactician](../../cards/S/so.md#sokka-tenacious-tactician) (2.4% of its decks), [Avatar Aang](../../cards/A/av.md#avatar-aang--aang-master-of-elements) (0.8% of its decks), [Katara, the Fearless](../../cards/K/ka.md#katara-the-fearless) (1.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#sokka-wolf-coves-protector)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tle/219/sokka-wolf-coves-protector) · oracle_id `7dd518f9-1ddd-4950-add3-fc21f675f4dc` · printing: TLE #219 (2025-11-21) · [rulings](https://api.scryfall.com/cards/039cb105-f8f7-4d04-a137-34b13491ee9a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -814,6 +822,8 @@ schema: 2
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2019-12-07* *(Scryfall note)* — The Commander RC has ruled that if your name is printed on the bottom of a Heroes of the Realm card, that card is legal for you in Commander.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ph18/3/sol-advocate-eternal) · oracle_id `3191ef26-eeeb-419b-acbd-f4b496eea0db` · printing: PH18 #3 (2019-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Solaflora, Intergalactic Icon
@@ -829,6 +839,8 @@ schema: 2
   - *2022-10-07* — Although the Auras and Equipment attached to Solaflora will affect other creatures you control as though they were the enchanted or equipped creatures, those creatures aren’t actually enchanted or equipped. For example, if an effect refers to equipped creatures you control, it wouldn’t count another creature you control that doesn’t have an Equipment attached to it, even if Solaflora is equipped.
   - *2022-10-07* — If a name sticker is on Solaflora, the word it adds to the name is also added to each other creature’s name, and it’s added in the same spot in that name. For example, if it is added after the first and second word in her name, it will be added just after the first word in each other creature’s name.
   - *2022-10-07* — The same is true with respect to counters and stickers. Other creatures will get the benefits (or, occasionally, drawbacks) of those things, but other creatures don’t have counters or stickers on them unless they actually do.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 131 decks; highest synergy [Sram, Senior Edificer](../../cards/S/sr.md#sram-senior-edificer) (+65%), [Puresteel Paladin](../../cards/P/pu.md#puresteel-paladin) (+57%), [Danitha Capashen, Paragon](../../cards/D/da.md#danitha-capashen-paragon) (+56%) · EDHREC: in 99 decks; most often under ["Brims" Barone, Midway Mobster](../../cards/B/br.md#brims-barone-midway-mobster) (2.8% of its decks), [Dogmeat, Ever Loyal](../../cards/D/do.md#dogmeat-ever-loyal) (0.1% of its decks), [Ignacio of Myra's Marvels // Katerina of Myra's Marvels](../../cards/I/ig.md#ignacio-of-myras-marvels) (5.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unf/27/solaflora-intergalactic-icon) · oracle_id `8d222aa1-1205-42bc-b607-1cfbba46cb23` · printing: UNF #27 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Solar Array
@@ -1513,6 +1525,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20007 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2004-10-04* — Will not trigger off itself being cast.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Sol'kanar the Swamp King (Grixis)](../../grixis/decks/solkanar-the-swamp-king.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 837 decks; highest synergy [Blanket of Night](../../cards/B/bla.md#blanket-of-night) (+50%), [Demon's Horn](../../cards/D/dem.md#demons-horn) (+49%), [Marauding Blight-Priest](../../cards/M/mar.md#marauding-blight-priest) (+49%) · EDHREC: in 1,414 decks; most often under [Be'lakor, the Dark Master](../../cards/B/be.md#belakor-the-dark-master) (3.8% of its decks), [Nicol Bolas](../../cards/N/ni.md#nicol-bolas) (5.7% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 decks) → [reverse index](../../references/S.md#solkanar-the-swamp-king)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmr/200/solkanar-the-swamp-king) · oracle_id `b8aac8e8-4588-4cb9-8b95-5c4abab1c48b` · printing: DMR #200 (2023-01-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1531,6 +1545,8 @@ schema: 2
 - **Rulings** (2):
   - *2022-09-09* — In a Two-Headed Giant game, Sol'kanar the Tainted's second mode causes the opposing team to lose 4 life. Its controller will still gain only 2 life.
   - *2022-09-09* — Once Sol'kanar the Tainted is controlled by your opponent, its ability triggers during that player's end step and that player makes all choices for it. That player draws a card for its first mode and gains life for its second mode, that player's opponents lose life for its second mode, and that player chooses one of their opponents for its last mode.
+- **Lore:** ✅ Presented with an official backstory on [The Legends You'll Find in Dominaria United](https://magic.wizards.com/en/news/feature/legends-youll-find-dominaria-united-2022-09-01) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Sol'Kanar the Tainted (Grixis)](../../grixis/decks/solkanar-the-tainted.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 508 decks; highest synergy [Humble Defector](../../cards/H/hu.md#humble-defector) (+49%), [Jon Irenicus, Shattered One](../../cards/J/jo.md#jon-irenicus-shattered-one) (+46%), [Role Reversal](../../cards/R/ro.md#role-reversal) (+46%) · EDHREC: in 1,238 decks; most often under [Be'lakor, the Dark Master](../../cards/B/be.md#belakor-the-dark-master) (2.3% of its decks), [Omnath, Locus of All](../../cards/O/om.md#omnath-locus-of-all) (0.6% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.2% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 decks) → [reverse index](../../references/S.md#solkanar-the-tainted)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmu/219/solkanar-the-tainted) · oracle_id `4efcdefc-e49d-4bce-8581-69037bb48c0a` · printing: DMU #219 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2056,6 +2072,8 @@ schema: 2
 - **Keywords:** Lifelink
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17754 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 21 combos; most popular [Mary Read and Anne Bonny + Gilded Assault Cart + Jolene, the Plunder Queen + Songbird, Sonic Screamer](https://commanderspellbook.com/combo/2097-5742-5743-8242/) (Infinite self-discard triggers) · EDHREC as commander: 598 decks; highest synergy [Persist](../../cards/P/pe.md#persist) (+74%), [Exhume](../../cards/E/ex.md#exhume) (+69%), [Monument to Endurance](../../cards/M/mon.md#monument-to-endurance) (+69%) · EDHREC: in 2,960 decks; most often under [Doctor Doom, King of Latveria](../../cards/D/do.md#doctor-doom-king-of-latveria) (6.7% of its decks), [Norman Osborn](../../cards/N/no.md#norman-osborn--green-goblin) (6.9% of its decks), [Greasefang, Okiba Boss](../../cards/G/gre.md#greasefang-okiba-boss) (12.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/762/songbird-sonic-screamer) · oracle_id `46f78ae1-fa51-4ef9-9ffa-8a3ed71a39e4` · printing: MSC #762 (2026-06-26) · [rulings](https://api.scryfall.com/cards/2b327925-8a50-4fd7-9010-673f9a3e97ce/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Songcrafter Mage
@@ -2559,6 +2577,8 @@ schema: 2
   - *2024-11-08* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
   - *2024-11-08* — Whatever you do, don't eat the delicious cards.
   - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+- **Lore:** ✅ Presented with an official backstory on [The Legends (and Characters) of Murders at Karlov Manor](https://magic.wizards.com/en/news/feature/the-legends-and-characters-of-murders-at-karlov-manor) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 24 combos; most popular [Sophia, Dogged Detective + Lonis, Genetics Expert + Basking Broodscale + Maskwood Nexus](https://commanderspellbook.com/combo/643-5365-5641-6725/) (Infinite creature LTB, Infinite creature ETB) · EDHREC as commander: 5,726 decks; highest synergy [Pack Leader](../../cards/P/pa.md#pack-leader) (+91%), [Mowu, Loyal Companion](../../cards/M/mow.md#mowu-loyal-companion) (+86%), [Selfless Savior](../../cards/S/sel.md#selfless-savior) (+79%) · EDHREC: in 2,295 decks; most often under [Morska, Undersea Sleuth](../../cards/M/mor.md#morska-undersea-sleuth) (13.0% of its decks), [Morophon, the Boundless](../../cards/M/mor.md#morophon-the-boundless) (2.9% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#sophia-dogged-detective)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkc/8/sophia-dogged-detective) · oracle_id `eaf8027a-017a-4471-ae7b-a372fd8e0ff3` · printing: MKC #8 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2587,6 +2607,8 @@ schema: 2
 - **Keywords:** Investigate, Partner, Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15136 · Game Changer: no · Can be commander: Yes (legendary creature) · Pairing: Partner
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 10 combos; most popular [Sophina, Spearsage Deserter + Time Sieve](https://commanderspellbook.com/combo/1558-3049/) (Infinite turns, Lock) · EDHREC as commander: 46 decks; highest synergy [Tamiyo's Journal](../../cards/T/ta.md#tamiyos-journal) (+45%), [Thorough Investigation](../../cards/T/tho.md#thorough-investigation) (+43%), [Fathom Fleet Swordjack](../../cards/F/fa.md#fathom-fleet-swordjack) (+39%) · EDHREC: in 4,562 decks; most often under [Cecily, Haunted Mage // Othelm, Sigardian Outcast](../../cards/C/ce.md#cecily-haunted-mage) (32.3% of its decks), [Isshin, Two Heavens as One](../../cards/I/is.md#isshin-two-heavens-as-one) (1.4% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/S.md#sophina-spearsage-deserter)
 - **Source flags:** [Scryfall](https://scryfall.com/card/slx/7/sophina-spearsage-deserter) · oracle_id `095dabda-4570-4764-8d62-4a29eb19d3e6` · printing: SLX #7 (2022-03-03) · [rulings](https://api.scryfall.com/cards/e0a64924-068e-483f-91a6-d450b67b3c75/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2602,6 +2624,8 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19683 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 71 decks; highest synergy [Body of Knowledge](../../cards/B/bo.md#body-of-knowledge) (+55%), [Sturmgeist](../../cards/S/stu.md#sturmgeist) (+54%), [Wizard Class](../../cards/W/wi.md#wizard-class) (+49%) · EDHREC: in 2,300 decks; most often under [Patron of the Moon](../../cards/P/pa.md#patron-of-the-moon) (19.0% of its decks), [Tishana, Voice of Thunder](../../cards/T/ti.md#tishana-voice-of-thunder) (14.9% of its decks), [Aesi, Tyrant of Gyre Strait](../../cards/A/ae.md#aesi-tyrant-of-gyre-strait) (0.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sok/58/soramaro-first-to-dream) · oracle_id `b11f96a0-5f70-45d6-90cc-2edbead3672e` · printing: SOK #58 (2005-06-03) · [rulings](https://api.scryfall.com/cards/e56de23d-7281-42f9-afce-7a81438dae5d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Soratami Cloud Chariot
@@ -2733,6 +2757,8 @@ schema: 2
   - *2008-10-01* — Creatures in the same band must all attack the same player or planeswalker.
   - *2008-10-01* — If a creature with banding attacks, it can team up with any number of other attacking creatures with banding (and up to one nonbanding creature) and attack as a unit called a "band." The band can be blocked by any creature that could block a single creature in the band. Blocking any creature in a band blocks the entire band. If a creature with banding is blocked, the attacking player chooses how the blockers' damage is assigned.
   - *2009-10-01* — If a creature in combat has banding, its controller assigns damage for creatures blocking or blocked by it.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1,239 decks; highest synergy [Soulcatchers' Aerie](../../cards/S/so.md#soulcatchers-aerie) (+82%), [Murmuration](../../cards/M/mu.md#murmuration) (+75%), [Tempest Hawk](../../cards/T/te.md#tempest-hawk) (+68%) · EDHREC: in 1,185 decks; most often under [Kastral, the Windcrested](../../cards/K/ka.md#kastral-the-windcrested) (2.2% of its decks), [Choco, Seeker of Paradise](../../cards/C/cho.md#choco-seeker-of-paradise) (1.1% of its decks), [Momo, Friendly Flier](../../cards/M/mom.md#momo-friendly-flier) (4.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#soraya-the-falconer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hml/18/soraya-the-falconer) · oracle_id `0f1c14c5-7a28-47b0-a603-33cc592b00ad` · printing: HML #18 (1995-10-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -3217,6 +3243,8 @@ schema: 2
   > Whenever a Warrior you control deals combat damage to a creature, destroy that creature at end of combat.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16963 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 83 decks; highest synergy [Kashi-Tribe Elite](../../cards/K/ka.md#kashi-tribe-elite) (+68%), [Matsu-Tribe Sniper](../../cards/M/mat.md#matsu-tribe-sniper) (+67%), [Matsu-Tribe Decoy](../../cards/M/mat.md#matsu-tribe-decoy) (+66%) · EDHREC: in 3,781 decks; most often under [Seshiro the Anointed](../../cards/S/ses.md#seshiro-the-anointed) (86.9% of its decks), [Xyris, the Writhing Storm](../../cards/X/xy.md#xyris-the-writhing-storm) (2.4% of its decks), [Kaseto, Orochi Archmage](../../cards/K/ka.md#kaseto-orochi-archmage) (46.4% of its decks) — *Guidance (Oracle pattern)* — packages: [Tokens: Anthems](../../EDH%20Packages.md#tokens-anthems) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/chk/244/sosuke-son-of-seshiro) · oracle_id `54856e0f-3264-4f56-a7e0-0160a7b07e3d` · printing: CHK #244 (2004-10-01) · [rulings](https://api.scryfall.com/cards/d1aa2451-e4f0-423b-826e-ae1f93b99e07/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sosuke's Summons
@@ -4965,6 +4993,8 @@ schema: 2
   - *2022-10-14* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a More Than Meets the Eye cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of a spell cast using More Than Meets the Eye is determined by the mana cost on the front face of the card, no matter what the total cost to cast the spell was.
   - *2022-10-14* — When you cast a spell using its More Than Meets the Eye ability, the card is put onto the stack with its back face up. The resulting spell has all characteristics of that face.
   - *2022-10-14* — Zero is even.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 2,229 decks; highest synergy [Thopter Spy Network](../../cards/T/tho.md#thopter-spy-network) (+62%), [Intangible Virtue](../../cards/I/int.md#intangible-virtue) (+49%), [Aven Wind Guide](../../cards/A/av.md#aven-wind-guide) (+47%) · EDHREC: in 3,711 decks; most often under [Infinite Guideline Station](../../cards/I/inf.md#infinite-guideline-station) (6.9% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (1.6% of its decks), [Ramos, Dragon Engine](../../cards/R/ram.md#ramos-dragon-engine) (2.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#soundwave-sonic-spy--soundwave-superior-captain)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bot/14/soundwave-sonic-spy-soundwave-superior-captain) · oracle_id `cc18e782-a965-404f-96f1-348f3ed799fd` · printing: BOT #14 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

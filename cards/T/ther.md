@@ -80,6 +80,8 @@ schema: 2
   - *2023-10-13* — If an effect instructs you to choose a creature type, you may choose Time Lord.
   - *2023-10-13* — Neither "Time" nor "Lord" are creature types. Some older cards were printed with the subtype "Lord," but all of those cards have updated Oracle card text that removed that type.
   - *2023-10-13* — Unlike other creature types in Magic that are each only one word, the two words "Time Lord" represent a single creature subtype. Time Lord is the only two-word creature type.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [The Rani (Grixis)](../../grixis/decks/the-rani.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 2,372 decks; highest synergy [Disrupt Decorum](../../cards/D/di.md#disrupt-decorum) (+66%), [Shiny Impetus](../../cards/S/shi.md#shiny-impetus) (+64%), [Vengeful Ancestor](../../cards/V/ve.md#vengeful-ancestor) (+63%) · EDHREC: in 4,670 decks; most often under [Davros, Dalek Creator](../../cards/D/da.md#davros-dalek-creator) (17.7% of its decks), [Karona, False God](../../cards/K/ka.md#karona-false-god) (17.6% of its decks), [Lynde, Cheerful Tormentor](../../cards/L/ly.md#lynde-cheerful-tormentor) (8.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/T.md#the-rani)
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/149/the-rani) · oracle_id `ac9b0bdf-caf8-4dba-a900-e59de35e77d7` · printing: WHO #149 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -215,6 +217,8 @@ schema: 2
   > *FEWER*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RA31/the-rebellious-intelligence) · oracle_id `2c582cc7-95c3-492d-9832-075e1e64bccb` · printing: UNK #RA31 (2024-02-24) · [rulings](https://api.scryfall.com/cards/8b443705-b482-4e28-94ff-df2cd844a369/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Red Terror
@@ -320,6 +324,8 @@ schema: 2
   > *DISCARDED*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RU72/the-rhystic-storyteller) · oracle_id `c5374ea8-169f-427c-b94d-94d0e98431c6` · printing: UNK #RU72 (2024-02-24) · [rulings](https://api.scryfall.com/cards/7e6fb31b-a0ce-4840-926f-85c04b666efa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Ring Goes South
@@ -372,6 +378,8 @@ schema: 2
   > Whenever The River Warlock attacks, you and defending player each draw a card, then discard a card. If you discarded a card with equal or greater mana value than the card that player discarded, look at their hand. Exile a nonland card from it until The River Warlock leaves the battlefield.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ04/the-river-warlock) · oracle_id `5c15e4dd-6529-43aa-a58c-31ea8dd83ae9` · printing: UNK #RZ04 (2025-06-20) · [rulings](https://api.scryfall.com/cards/bc993271-189c-4ebb-92c3-f9c8593acd00/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thermal Blast
@@ -485,6 +493,8 @@ schema: 2
   > *SIGNED*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RG63/the-roaring-toeclaws) · oracle_id `4adff50b-4e7f-430d-a0b3-068e1387ae27` · printing: UNK #RG63 (2024-02-24) · [rulings](https://api.scryfall.com/cards/beb22fdf-9cf3-42e3-8f49-65f62adccee9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Rollercrusher Ride
@@ -561,4 +571,6 @@ schema: 2
   > • Each player sacrifices a creature of their choice.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20225 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 28 decks; highest synergy [Big Score](../../cards/B/bi.md#big-score) (+31%), [Arnim Zola, Bio-Fanatic](../../cards/A/arn.md#arnim-zola-bio-fanatic) (+30%), [Madame Masque](../../cards/M/mad.md#madame-masque) (+30%) · EDHREC: in 2,233 decks; most often under [Doctor Doom, King of Latveria](../../cards/D/do.md#doctor-doom-king-of-latveria) (4.0% of its decks), [Madame Hydra](../../cards/M/mad.md#madame-hydra) (57.3% of its decks), [Thanos, the Mad Titan](../../cards/T/tha.md#thanos-the-mad-titan) (8.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/224/the-ruinous-wrecking-crew) · oracle_id `0ff9c0cc-4fb3-4117-9a8e-5b51f62306c4` · printing: MSH #224 (2026-06-26) · [rulings](https://api.scryfall.com/cards/4d8c8ceb-84cd-46d2-9230-ab6ca4569334/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

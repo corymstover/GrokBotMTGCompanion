@@ -2021,6 +2021,8 @@ schema: 2
   > Whenever you attack, you may pay {R}{G}{W}{U}. When you do, target creature gets +1/+0 until end of turn for each creature you control and can't be blocked this turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15717 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1,110 decks; highest synergy [Mister Fantastic](../../cards/M/mis.md#mister-fantastic) (+61%), [Clever Concealment](../../cards/C/cl.md#clever-concealment) (+58%), [Mister Fantastic, Reed Richards](../../cards/M/mis.md#mister-fantastic-reed-richards) (+56%) · EDHREC: in 3,965 decks; most often under [Mister Fantastic](../../cards/M/mis.md#mister-fantastic) (69.7% of its decks), [The Fantastic Four](../../cards/T/thef.md#the-fantastic-four) (41.7% of its decks), [Crystal, Inhuman Princess](../../cards/C/cr.md#crystal-inhuman-princess) (7.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/I.md#invisible-woman)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lmar/5/invisible-woman) · oracle_id `085016ee-4429-453f-b7f3-d61065f1214e` · printing: LMAR #5 (2026-11-01) · [rulings](https://api.scryfall.com/cards/8d239a23-9575-4202-804a-cab7c08a546d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2037,6 +2039,8 @@ schema: 2
 - **Keywords:** Lifelink
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12118 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 100+ combos; most popular [Mister Fantastic, Reed Richards + The Thing, Ben Grimm + Invisible Woman, Sue Storm + Human Torch, Johnny Storm](https://commanderspellbook.com/combo/7687-7690-7691-7863/) (Infinite card draw, Infinite draw triggers) · EDHREC as commander: 91 decks; highest synergy [Agent Phil Coulson](../../cards/A/ag.md#agent-phil-coulson) (+78%), [Anti-Venom, Horrifying Healer](../../cards/A/an.md#anti-venom-horrifying-healer) (+64%), [Matt Murdock, Justice Seeker](../../cards/M/mat.md#matt-murdock-justice-seeker) (+62%) · EDHREC: in 9,302 decks; most often under [Nick Fury, Agent of S.H.I.E.L.D.](../../cards/N/ni.md#nick-fury-agent-of-shield) (31.9% of its decks), [Captain America, Team Leader](../../cards/C/cap.md#captain-america-team-leader) (21.6% of its decks), [The Fantastic Four](../../cards/T/thef.md#the-fantastic-four) (55.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/I.md#invisible-woman-sue-storm)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/17/invisible-woman-sue-storm) · oracle_id `e9d20b6d-fa4f-473b-9866-230fd92a1319` · printing: MSH #17 (2026-06-26) · [rulings](https://api.scryfall.com/cards/2f80394b-2f7e-40a7-8203-720bcf39d71b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

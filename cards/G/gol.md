@@ -169,6 +169,8 @@ schema: 2
   - *2022-10-14* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a More Than Meets the Eye cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of a spell cast using More Than Meets the Eye is determined by the mana cost on the front face of the card, no matter what the total cost to cast the spell was.
   - *2022-10-14* — When you cast a spell using its More Than Meets the Eye ability, the card is put onto the stack with its back face up. The resulting spell has all characteristics of that face.
   - *2022-10-14* — While it's a creature, the Vehicle has its printed power and toughness.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 865 decks; highest synergy [Coppercoat Vanguard](../../cards/C/cop.md#coppercoat-vanguard) (+60%), [Horn of Gondor](../../cards/H/ho.md#horn-of-gondor) (+58%), [Mass Appeal](../../cards/M/mas.md#mass-appeal) (+57%) · EDHREC: in 8,566 decks; most often under [Optimus Prime, Hero](../../cards/O/op.md#optimus-prime-hero--optimus-prime-autobot-leader) (31.1% of its decks), [Éowyn, Shieldmaiden](../../cards/E/eo.md#éowyn-shieldmaiden) (8.3% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (2.8% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bot/11/goldbug-humanitys-ally-goldbug-scrappy-scout) · oracle_id `d1960749-c11e-4ac4-97cb-f37d7875d479` · printing: BOT #11 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Golden Argosy
@@ -1204,6 +1206,8 @@ schema: 2
 - **Keywords:** Power-up, Reach
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22822 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 7 decks; highest synergy [Overwhelming Stampede](../../cards/O/ov.md#overwhelming-stampede) (+67%), [Fyndhorn Elves](../../cards/F/fy.md#fyndhorn-elves) (+54%), [Nature's Lore](../../cards/N/na.md#natures-lore) (+47%) · EDHREC: in 1,395 decks; most often under [Hulk, Gamma Goliath](../../cards/H/hu.md#hulk-gamma-goliath) (68.3% of its decks), [Bruce Banner](../../cards/B/br.md#bruce-banner--the-incredible-hulk) (1.2% of its decks), [Nick Fury, Agent of S.H.I.E.L.D.](../../cards/N/ni.md#nick-fury-agent-of-shield) (1.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/766/goliath-mass-manipulator) · oracle_id `d06d7065-27e5-4119-a226-6f6d990d72c7` · printing: MSC #766 (2026-06-26) · [rulings](https://api.scryfall.com/cards/78216454-a0d5-4b4d-bd72-b96c742202b4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goliath Paladin
@@ -1329,6 +1333,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15537 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2026-06-29* — If all three modes have been chosen, Gollum's triggered ability is removed from the stack with no effect, but Gollum remains on the battlefield.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 287 decks; highest synergy [Gollum the Abandoned](../../cards/G/gol.md#gollum-the-abandoned) (+60%), [My Precious](../../cards/M/my.md#my-precious--allure-of-power) (+60%), [Gollum, Patient Plotter](../../cards/G/gol.md#gollum-patient-plotter) (+49%) · EDHREC: in 5,295 decks; most often under [Sauron, the Dark Lord](../../cards/S/sau.md#sauron-the-dark-lord) (3.7% of its decks), [Frodo, Adventurous Hobbit // Sam, Loyal Attendant](../../cards/F/fr.md#frodo-adventurous-hobbit) (3.9% of its decks), [Captain N'ghathrod](../../cards/C/cap.md#captain-nghathrod) (7.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hob/70/gollum-riddle-master) · oracle_id `514b451b-814d-45fb-a2ba-8fe6f0bdad60` · printing: HOB #70 (2026-08-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gollum's Bite
@@ -1395,6 +1401,8 @@ schema: 2
   - *2026-06-29* — If you cast an adventurer card as an Adventure, use only its alternative characteristics to determine whether it's legal to cast that spell. For example, if you control Gandalf, Party Guest ("At the beginning of combat on your turn, you may cast an instant or sorcery spell with mana value X or less from your hand without paying its mana cost, where X is twice the number of legendary Wizards you control."), you could cast Burglar's Plot from your hand without paying its mana cost (provided you control enough legendary Wizards), but not Bilbo, Luckwearer.
   - *2026-06-29* — When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card's normal characteristics. The spell's color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
   - *2026-06-29* — You must still follow any timing restrictions and permissions for the permanent spell you cast from exile. Normally, you'll be able to cast it only during your main phase while the stack is empty.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 10 decks; highest synergy [Bog Imp](../../cards/B/bo.md#bog-imp) (+30%), [Death Charmer](../../cards/D/dea.md#death-charmer) (+30%), [Dry Spell](../../cards/D/dry.md#dry-spell) (+30%) · EDHREC: in 1,687 decks; most often under [The Great Goblin](../../cards/T/theg.md#the-great-goblin) (4.4% of its decks), [Gollum, Riddle Master](../../cards/G/gol.md#gollum-riddle-master) (43.0% of its decks), [Sméagol, Helpful Guide](../../cards/S/sm.md#sméagol-helpful-guide) (4.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/G.md#gollum-silent-slinker--meager-meal)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hob/71/gollum-silent-slinker-meager-meal) · oracle_id `0296d57e-e5b9-456f-bb21-eb584adefb4c` · printing: HOB #71 (2026-08-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1412,6 +1420,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20031 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2026-06-29* — You don't have to choose a target for Gollum's second ability. However, if you do and that target becomes illegal by the time the ability tries to resolve, it will not resolve. Each opponent will not lose 2 life.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 45 decks; highest synergy [Along the Crooked Way](../../cards/A/al.md#along-the-crooked-way) (+55%), [Nasty End](../../cards/N/na.md#nasty-end) (+52%), [Tormod, the Desecrator](../../cards/T/to.md#tormod-the-desecrator) (+51%) · EDHREC: in 2,430 decks; most often under [Sméagol, Helpful Guide](../../cards/S/sm.md#sméagol-helpful-guide) (12.7% of its decks), [Gollum, Riddle Master](../../cards/G/gol.md#gollum-riddle-master) (61.0% of its decks), [The Great Goblin](../../cards/T/theg.md#the-great-goblin) (2.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hob/72/gollum-the-abandoned) · oracle_id `8d88facd-cf7e-498e-ab6b-6bd021316162` · printing: HOB #72 (2026-08-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Golos, Tireless Pilgrim
@@ -1428,5 +1438,7 @@ schema: 2
   - *2019-07-12* — If a spell has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
   - *2019-07-12* — If you cast a card "without paying its mana cost," you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs (such as that of Bone Splinters), you must pay those to cast the card.
   - *2019-07-12* — If you don't play some or all of the cards exiled with Golos's last ability, those cards remain in exile.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed — *Guidance (Oracle pattern)* — packages: [Card advantage: Impulse / exile-to-play](../../EDH%20Packages.md#card-advantage-impulse--exile-to-play) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/G.md#golos-tireless-pilgrim)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m20/226/golos-tireless-pilgrim) · oracle_id `efe9c3e0-7315-408e-9903-9d25a681039b` · printing: M20 #226 (2019-07-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

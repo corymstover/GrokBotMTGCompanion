@@ -1696,6 +1696,8 @@ schema: 2
 - **Keywords:** Flesh Hooks, Haste, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11663 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 853 decks; highest synergy [Samut, Vizier of Naktamun](../../cards/S/sam.md#samut-vizier-of-naktamun) (+78%), [Atalan Jackal](../../cards/A/at.md#atalan-jackal) (+69%), [Primal Forcemage](../../cards/P/pr.md#primal-forcemage) (+59%) · EDHREC: in 8,777 decks; most often under [Ognis, the Dragon's Lash](../../cards/O/og.md#ognis-the-dragons-lash) (35.5% of its decks), [The Swarmlord](../../cards/T/thes.md#the-swarmlord) (41.4% of its decks), [Samut, Vizier of Naktamun](../../cards/S/sam.md#samut-vizier-of-naktamun) (77.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/40k/115/deathleaper-terror-weapon) · oracle_id `8e22495d-a921-4c91-ada3-79098851e5d4` · printing: 40K #115 (2022-10-07) · [rulings](https://api.scryfall.com/cards/9819d50f-aae8-4e92-8dab-01eebace3c1e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deathless Ancient

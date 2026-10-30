@@ -34,6 +34,8 @@ schema: 2
   > Whenever this creature attacks, look at the top six cards of your library. You may put a Cat creature card from among them onto the battlefield tapped and attacking. Put the rest of the cards on the bottom of your library in a random order. If you don't put a card onto the battlefield this way, create a token that's a tapped and attacking copy of Lurrus of the Dream-Den.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ04h/the-joiner-of-cats) · oracle_id `c6b6e42c-dfd4-43c1-a301-78b07918c686` · printing: UNK #RZ04h (2024-06-29) · [rulings](https://api.scryfall.com/cards/e4e62e22-25e0-4efd-9ec4-32edacd13eb3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Jolly Balloon Man
@@ -67,6 +69,8 @@ schema: 2
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ05f/the-judge-of-height) · oracle_id `f868bc09-60dd-4fe5-8de2-a604ea0ace93` · printing: UNK #RZ05f (2024-10-25) · [rulings](https://api.scryfall.com/cards/0ad63f85-7ec7-4921-9984-f0a38f3b2bdb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Juzam Master
@@ -78,4 +82,6 @@ schema: 2
   > Creatures you control get +1/+0 and have "At the beginning of your upkeep, this creature deals 1 damage to you."
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed — *Guidance (Oracle pattern)* — packages: [Tokens: Anthems](../../EDH%20Packages.md#tokens-anthems) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RB03e/the-juzam-master) · oracle_id `06d0cb93-82ea-4868-bfd4-3e2835dcd94e` · printing: UNK #RB03e (2024-06-29) · [rulings](https://api.scryfall.com/cards/40462719-7be6-4d6d-ac59-a0e820ed06d3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

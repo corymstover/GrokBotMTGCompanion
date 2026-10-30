@@ -1206,6 +1206,8 @@ schema: 2
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2019-12-07* *(Scryfall note)* — The Commander RC has ruled that if your name is printed on the bottom of a Heroes of the Realm card, that card is legal for you in Commander.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#champions-of-archery--join-the-group)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ph19/4/champions-of-archery-join-the-group) · oracle_id `4e658c56-ebf7-449c-909c-86053f8eaba6` · printing: PH19 #4 (2020-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1453,6 +1455,8 @@ schema: 2
   > *—Reveka, Wizard Savant*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27010 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 132 decks; highest synergy [Liquimetal Coating](../../cards/L/li.md#liquimetal-coating) (+73%), [Joven](../../cards/J/jo.md#joven) (+61%), [Thran Forge](../../cards/T/thr.md#thran-forge) (+61%) · EDHREC: in 394 decks; most often under [Joven](../../cards/J/jo.md#joven) (65.3% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.1% of its decks), [Eron the Relentless](../../cards/E/er.md#eron-the-relentless) (12.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hml/69/chandler) · oracle_id `520abf49-7631-4e7f-889e-547ccc8c3b95` · printing: HML #69 (1995-10-01) · [rulings](https://api.scryfall.com/cards/4dd3a8e3-9a90-44f4-996c-57242d3c47a5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chandra Ablaze
@@ -3762,6 +3766,8 @@ schema: 2
   > *The Steins lamented their son didn't inherit their genius. Chase was just glad he didn't inherit their evil.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22885 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 10 decks; highest synergy [Inti, Seneschal of the Sun](../../cards/I/int.md#inti-seneschal-of-the-sun) (+65%), [Keeper of Secrets](../../cards/K/ke.md#keeper-of-secrets) (+58%), [Conspiracy Theorist](../../cards/C/con.md#conspiracy-theorist) (+48%) · EDHREC: in 1,377 decks; most often under [Karolina Dean, Runaway](../../cards/K/ka.md#karolina-dean-runaway) (41.9% of its decks), [Nico Minoru, Runaway](../../cards/N/ni.md#nico-minoru-runaway) (28.4% of its decks), [Daredevil, Man Without Fear](../../cards/D/da.md#daredevil-man-without-fear) (4.8% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Impulse / exile-to-play](../../EDH%20Packages.md#card-advantage-impulse--exile-to-play) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#chase-stein-runaway)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/682/chase-stein-runaway) · oracle_id `161ff063-b784-43c7-b608-f78be3daa5b2` · printing: MSC #682 (2026-06-26) · [rulings](https://api.scryfall.com/cards/e4dab13d-98c3-4f78-b9be-cf29826fcd59/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -3919,5 +3925,7 @@ schema: 2
   - *2024-11-08* — If a creature with banding attacks, it can team up with any number of other attacking creatures with banding (and up to one nonbanding creature) and attack as a unit called a “band.” The band can be blocked by any creature that could block a single creature in the band. Blocking any creature in a band blocks the entire band. If a creature with banding is blocked, the attacking player chooses how the blockers’ damage is assigned.
   - *2024-11-08* — Playtest cards aren’t legal for play in any tournament format other than Mystery Booster Limited formats. On the other hand, we expect they will spice up a wide variety of non-tournament games (as long as everyone’s on the same page about using them!).
   - *2024-11-08* — Playtest cards use a modified version of game symbols, such as {T} and {W}. These modified symbols should be treated as the standard symbols during play.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed — *Guidance (Oracle pattern)* — packages: [Ramp: Cost reducers](../../EDH%20Packages.md#ramp-cost-reducers) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 rules · 1 card data) → [reverse index](../../references/C.md#chatzuk-mighty-guitarist)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mb2/590/chatzuk-mighty-guitarist) · oracle_id `593f3e97-9756-4cd8-895e-aff6b6d25072` · printing: MB2 #590 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

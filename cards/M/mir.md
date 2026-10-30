@@ -416,6 +416,8 @@ schema: 2
   > *"Anything willing to bear your weight and save your feet a trip across the hot sands deserves respect. Show some."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12691 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1,061 decks; highest synergy [Lagorin, Soul of Alacria](../../cards/L/la.md#lagorin-soul-of-alacria) (+80%), [Drover Grizzly](../../cards/D/dro.md#drover-grizzly) (+79%), [Ornery Tumblewagg](../../cards/O/or.md#ornery-tumblewagg) (+79%) · EDHREC: in 7,087 decks; most often under [Samut, the Driving Force](../../cards/S/sam.md#samut-the-driving-force) (29.8% of its decks), [Caradora, Heart of Alacria](../../cards/C/car.md#caradora-heart-of-alacria) (69.7% of its decks), [Rip, Spawn Hunter](../../cards/R/ri.md#rip-spawn-hunter) (60.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otj/221/miriam-herd-whisperer) · oracle_id `1d88014b-8189-4a88-bee3-c2310d36f6e8` · printing: OTJ #221 (2024-04-19) · [rulings](https://api.scryfall.com/cards/bfa7750a-7c32-4413-b762-62e24d992c6b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mirko, Obsessive Theorist
@@ -451,6 +453,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10502 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2013-04-15* — If the player has fewer than four land cards in their library, all cards from that library will be revealed and put into that player's graveyard.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1,421 decks; highest synergy [Consuming Aberration](../../cards/C/con.md#consuming-aberration) (+68%), [Mind Grind](../../cards/M/min.md#mind-grind) (+60%), [Mind Funeral](../../cards/M/min.md#mind-funeral) (+54%) · EDHREC: in 10,136 decks; most often under [Phenax, God of Deception](../../cards/P/ph.md#phenax-god-of-deception) (29.3% of its decks), [Lazav, Dimir Mastermind](../../cards/L/la.md#lazav-dimir-mastermind) (37.8% of its decks), [Lord Xander, the Collector](../../cards/L/lo.md#lord-xander-the-collector) (24.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dgm/85/mirko-vosk-mind-drinker) · oracle_id `469da932-8186-4e54-a858-cfc72c4ded96` · printing: DGM #85 (2013-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mirkwood
@@ -731,6 +735,8 @@ schema: 2
 - **Keywords:** Landwalk, Vigilance, First strike, Forestwalk
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14973 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 205 decks; highest synergy [Blanchwood Armor](../../cards/B/bla.md#blanchwood-armor) (+63%), [Snake Umbra](../../cards/S/sn.md#snake-umbra) (+58%), [Yavimaya, Cradle of Growth](../../cards/Y/ya.md#yavimaya-cradle-of-growth) (+53%) · EDHREC: in 5,359 decks; most often under [Arahbo, Roar of the World](../../cards/A/ara.md#arahbo-roar-of-the-world) (18.4% of its decks), [Rin and Seri, Inseparable](../../cards/R/ri.md#rin-and-seri-inseparable) (1.9% of its decks), [Jedit Ojanen, Mercenary](../../cards/J/je.md#jedit-ojanen-mercenary) (26.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tpr/180/mirri-cat-warrior) · oracle_id `f01efb04-ad2b-46fb-852c-dfb7e523e1b7` · printing: TPR #180 (2015-05-06) · [rulings](https://api.scryfall.com/cards/0a1d9876-4588-4591-af53-cb4e83c2b6c6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mirri's Guile
@@ -759,6 +765,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9965 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2021-03-19* — If Mirri the Cursed is blocking or blocked by a creature that doesn't have first strike or double strike, Mirri will deal combat damage to that creature, then get a +1/+1 counter, then (if the other creature survived) Mirri will be dealt combat damage.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 148 decks; highest synergy [Blackblade Reforged](../../cards/B/bla.md#blackblade-reforged) (+55%), [Blade of the Bloodchief](../../cards/B/bla.md#blade-of-the-bloodchief) (+53%), [Basilisk Collar](../../cards/B/bas.md#basilisk-collar) (+52%) · EDHREC: in 12,471 decks; most often under [Indominus Rex, Alpha](../../cards/I/ind.md#indominus-rex-alpha) (68.7% of its decks), [Edgar Markov](../../cards/E/ed.md#edgar-markov) (1.1% of its decks), [Rayami, First of the Fallen](../../cards/R/ray.md#rayami-first-of-the-fallen) (42.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tsr/125/mirri-the-cursed) · oracle_id `19d6a20b-4641-4c79-ae70-ed1ad5085472` · printing: TSR #125 (2021-03-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mirri, Weatherlight Duelist

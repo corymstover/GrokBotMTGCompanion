@@ -76,6 +76,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12543 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2026-01-27* — The value of X is calculated only once, as Sally Pride's first ability resolves.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 2 combos; most popular [Eldrazi Displacer + Ashnod's Altar + Sally Pride, Lioness Leader](https://commanderspellbook.com/combo/2034-4013-7266/) (Infinite creature ETB, Infinite creature LTB) · EDHREC as commander: 111 decks; highest synergy [Conjurer's Closet](../../cards/C/con.md#conjurers-closet) (+49%), [Mighty Mutanimals](../../cards/M/mig.md#mighty-mutanimals) (+46%), [Cloudshift](../../cards/C/cl.md#cloudshift) (+45%) · EDHREC: in 8,518 decks; most often under [Leonardo, the Balance // Michelangelo, the Heart](../../cards/L/le.md#leonardo-the-balance) (7.5% of its decks), [Heroes in a Half Shell](../../cards/H/he.md#heroes-in-a-half-shell) (10.8% of its decks), [Rin and Seri, Inseparable](../../cards/R/ri.md#rin-and-seri-inseparable) (2.3% of its decks) — *Guidance (Oracle pattern)* — packages: [Aristocrats: Fodder makers (multiple creature tokens)](../../EDH%20Packages.md#aristocrats-fodder-makers-multiple-creature-tokens) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#sally-pride-lioness-leader)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmt/24/sally-pride-lioness-leader) · oracle_id `b529f6b0-c6b2-4eb3-bb48-178e1eda75f3` · printing: TMT #24 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -91,6 +93,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14463 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2023-10-13* — If Sally Sparrow leaves the battlefield at the same time as the other creatures, its last ability will trigger.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 38 combos; most popular [Ulalek, Fused Atrocity + Drowner of Truth // Drowned Jungle + Sally Sparrow](https://commanderspellbook.com/combo/5657-5860-6489/) (Infinite creature LTB, Infinite creature ETB) · EDHREC as commander: 260 decks; highest synergy [Wavebreak Hippocamp](../../cards/W/wav.md#wavebreak-hippocamp) (+50%), [Tangletrove Kelp](../../cards/T/ta.md#tangletrove-kelp) (+49%), [Erdwal Illuminator](../../cards/E/er.md#erdwal-illuminator) (+45%) · EDHREC: in 5,751 decks; most often under [The Tenth Doctor // Rose Tyler](../../cards/T/thet.md#the-tenth-doctor) (14.1% of its decks), [Peter Parker](../../cards/P/pe.md#peter-parker--amazing-spider-man) (3.7% of its decks), [Alquist Proft, Master Sleuth](../../cards/A/al.md#alquist-proft-master-sleuth) (28.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/155/sally-sparrow) · oracle_id `5c924f9f-84e2-4051-ae18-0c2cc57cf464` · printing: WHO #155 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Saltblast

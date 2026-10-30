@@ -48,6 +48,8 @@ schema: 2
   > {2}: Mimeoplasm becomes a copy of target creature card exiled with it, except it's 0/0 and has this ability.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14207 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Presented with an official backstory on [The Legends of Aetherdrift](https://magic.wizards.com/en/news/feature/the-legends-of-aetherdrift) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 64 combos; most popular [Mimeoplasm, Revered One + Kami of Whispered Hopes + Horseshoe Crab](https://commanderspellbook.com/combo/81-3995-6287/) (Infinite colored mana) · EDHREC as commander: 3,277 decks; highest synergy [Buried Alive](../../cards/B/bu.md#buried-alive) (+53%), [Invisible Stalker](../../cards/I/inv.md#invisible-stalker) (+49%), [Giggling Skitterspike](../../cards/G/gi.md#giggling-skitterspike) (+44%) · EDHREC: in 3,142 decks; most often under [The Mimeoplasm](../../cards/T/them.md#the-mimeoplasm) (9.9% of its decks), [Zaxara, the Exemplary](../../cards/Z/za.md#zaxara-the-exemplary) (1.5% of its decks), [Indominus Rex, Alpha](../../cards/I/ind.md#indominus-rex-alpha) (2.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#mimeoplasm-revered-one)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/214/mimeoplasm-revered-one) · oracle_id `2b8c2882-dbca-466a-a0af-dd1d65edfe7c` · printing: DFT #214 (2025-02-14) · [rulings](https://api.scryfall.com/cards/34e4c342-dc22-4e9c-81fc-a691ae9e21c1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

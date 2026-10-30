@@ -292,6 +292,8 @@ schema: 2
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2019-12-07* *(Scryfall note)* — The Commander RC has ruled that if your name is printed on the bottom of a Heroes of the Realm card, that card is legal for you in Commander.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ph19/5/myntasha-honored-one) · oracle_id `6fc7ecff-749b-48a5-8ed4-8154d2570738` · printing: PH19 #5 (2020-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Myojin of Blooming Dawn
@@ -304,6 +306,8 @@ schema: 2
   > Remove an indestructible counter from Myojin of Blooming Dawn: Create a 1/1 colorless Spirit creature token for each permanent you control.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10182 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Presented with an official backstory on [The Legends of Kamigawa: Neon Dynasty](https://magic.wizards.com/en/news/feature/legends-kamigawa-neon-dynasty-2022-02-11) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 16 combos; most popular [Mondrak, Glory Dominus + Myojin of Blooming Dawn + Agatha's Soul Cauldron + Phyrexian Altar](https://commanderspellbook.com/combo/3253-4050-4365-4613/) (Infinite colored mana, Infinite creature tokens) · EDHREC as commander: 139 decks; highest synergy [Karn's Bastion](../../cards/K/ka.md#karns-bastion) (+67%), [Grateful Apparition](../../cards/G/gra.md#grateful-apparition) (+61%), [Metastatic Evangel](../../cards/M/me.md#metastatic-evangel) (+61%) · EDHREC: in 12,054 decks; most often under [King of the Oathbreakers](../../cards/K/ki.md#king-of-the-oathbreakers) (43.2% of its decks), [Jodah, Archmage Eternal](../../cards/J/jo.md#jodah-archmage-eternal) (9.6% of its decks), [Peter Parker](../../cards/P/pe.md#peter-parker--amazing-spider-man) (12.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/nec/31/myojin-of-blooming-dawn) · oracle_id `bfb75b28-0e51-4829-b104-f1679e63c126` · printing: NEC #31 (2022-02-18) · [rulings](https://api.scryfall.com/cards/afd718b5-040b-4bb7-9f0c-b72373d786d4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Myojin of Cleansing Fire
@@ -318,6 +322,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15730 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2013-07-01* — In a Commander game where this card is your commander, casting it from the Command zone does not count as casting it from your hand.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 2 combos; most popular [Myojin of Cleansing Fire + Myojin of Grim Betrayal + Huatli's Raptor](https://commanderspellbook.com/combo/2233-4080-5360/) (Destroy all creatures except Myojin of Cleansing Fire during each turn, Infinite death triggers) · EDHREC as commander: 42 decks; highest synergy [That Which Was Taken](../../cards/T/tha.md#that-which-was-taken) (+83%), [Kindred Boon](../../cards/K/ki.md#kindred-boon) (+82%), [Karn's Bastion](../../cards/K/ka.md#karns-bastion) (+69%) · EDHREC: in 4,799 decks; most often under [Jodah, Archmage Eternal](../../cards/J/jo.md#jodah-archmage-eternal) (8.6% of its decks), [Atraxa, Praetors' Voice](../../cards/A/at.md#atraxa-praetors-voice) (0.8% of its decks), [Peter Parker](../../cards/P/pe.md#peter-parker--amazing-spider-man) (4.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/chk/35/myojin-of-cleansing-fire) · oracle_id `c7b088d6-031b-4e50-aa07-69f4fd26df79` · printing: CHK #35 (2004-10-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Myojin of Cryptic Dreams
@@ -345,6 +351,8 @@ schema: 2
   > Remove an indestructible counter from Myojin of Grim Betrayal: Put onto the battlefield under your control all creature cards in all graveyards that were put there from anywhere this turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11929 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Presented with an official backstory on [The Legends of Kamigawa: Neon Dynasty](https://magic.wizards.com/en/news/feature/legends-kamigawa-neon-dynasty-2022-02-11) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 18 combos; most popular [Iname, Death Aspect + Myojin of Grim Betrayal](https://commanderspellbook.com/combo/450-2233/) (Put a selection of permanent cards from your library onto the battlefield) · EDHREC as commander: 44 decks; highest synergy [Netherborn Altar](../../cards/N/ne.md#netherborn-altar) (+87%), [Command Beacon](../../cards/C/com.md#command-beacon) (+81%), [Campfire](../../cards/C/cam.md#campfire) (+74%) · EDHREC: in 9,104 decks; most often under [Marvo, Deep Operative](../../cards/M/mar.md#marvo-deep-operative) (22.4% of its decks), [Jodah, Archmage Eternal](../../cards/J/jo.md#jodah-archmage-eternal) (11.1% of its decks), [Iname, Death Aspect](../../cards/I/ina.md#iname-death-aspect) (63.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/nec/34/myojin-of-grim-betrayal) · oracle_id `896fc91a-1f57-45e2-b135-37bc9c2c80a7` · printing: NEC #34 (2022-02-18) · [rulings](https://api.scryfall.com/cards/3fa18695-e10f-4dd5-b116-8a9891e58c20/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Myojin of Infinite Rage
@@ -359,6 +367,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17849 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2013-07-01* — In a Commander game where this card is your commander, casting it from the Command zone does not count as casting it from your hand.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 55 decks; highest synergy [That Which Was Taken](../../cards/T/tha.md#that-which-was-taken) (+65%), [Command Beacon](../../cards/C/com.md#command-beacon) (+61%), [Campfire](../../cards/C/cam.md#campfire) (+56%) · EDHREC: in 3,281 decks; most often under [Jodah, Archmage Eternal](../../cards/J/jo.md#jodah-archmage-eternal) (6.0% of its decks), [Tannuk, Steadfast Second](../../cards/T/ta.md#tannuk-steadfast-second) (2.9% of its decks), [Omnath, Locus of All](../../cards/O/om.md#omnath-locus-of-all) (0.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/chk/181/myojin-of-infinite-rage) · oracle_id `aba1d01e-c340-47a3-8432-9d8c4a5cdfe0` · printing: CHK #181 (2004-10-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Myojin of Life's Web
@@ -373,6 +383,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11295 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2013-07-01* — In a Commander game where this card is your commander, casting it from the Command zone does not count as casting it from your hand.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 12 combos; most popular [Myojin of Life's Web + Cloudstone Curio + Pollenbright Druid](https://commanderspellbook.com/combo/213-2232-3569/) (Infinite creature ETB, Infinite creature LTB) · EDHREC as commander: 62 decks; highest synergy [Road of Return](../../cards/R/ro.md#road-of-return) (+86%), [Command Beacon](../../cards/C/com.md#command-beacon) (+71%), [That Which Was Taken](../../cards/T/tha.md#that-which-was-taken) (+71%) · EDHREC: in 10,177 decks; most often under [Peter Parker](../../cards/P/pe.md#peter-parker--amazing-spider-man) (31.3% of its decks), [Jodah, Archmage Eternal](../../cards/J/jo.md#jodah-archmage-eternal) (14.5% of its decks), [Atraxa, Praetors' Voice](../../cards/A/at.md#atraxa-praetors-voice) (0.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/chk/229/myojin-of-lifes-web) · oracle_id `8e3eafd7-5823-4cc1-bdb8-c456580e395a` · printing: CHK #229 (2004-10-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Myojin of Night's Reach
@@ -387,6 +399,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11791 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2024-11-08* — In a Commander game where this card is your commander, casting it from the command zone does not count as casting it from your hand.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 20 decks; highest synergy [Burglar Rat](../../cards/B/bu.md#burglar-rat) (+65%), [Shrieking Affliction](../../cards/S/shr.md#shrieking-affliction) (+53%), [Command Beacon](../../cards/C/com.md#command-beacon) (+52%) · EDHREC: in 9,440 decks; most often under [Jodah, Archmage Eternal](../../cards/J/jo.md#jodah-archmage-eternal) (11.1% of its decks), [Marvo, Deep Operative](../../cards/M/mar.md#marvo-deep-operative) (6.0% of its decks), [Tinybones, Bauble Burglar](../../cards/T/ti.md#tinybones-bauble-burglar) (4.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/610/myojin-of-nights-reach) · oracle_id `5ac65688-0a74-4dc4-b6cb-12bdf8aed01e` · printing: FDN #610 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Myojin of Night's Reach and Grim Betrayal
@@ -399,6 +413,8 @@ schema: 2
   > Remove an indestructible counter from Myojin of Night's Reach and Grim Betrayal: Each opponent discards their hand. Put onto the battlefield under your control all creature cards in all graveyards that were put there from anywhere this turn.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RB08/myojin-of-nights-reach-and-grim-betrayal) · oracle_id `46376bc5-a18c-4986-99d7-b3707c516c23` · printing: UNK #RB08 (2023-05-06) · [rulings](https://api.scryfall.com/cards/02da984a-295e-422e-a05a-5d8c1349bc64/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Myojin of Roaring Blades
@@ -427,6 +443,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12739 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2013-07-01* — In a Commander game where this card is your commander, casting it from the Command zone does not count as casting it from your hand.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Agatha's Soul Cauldron + Myojin of Seeing Winds + Kindred Boon + Mind Over Matter](https://commanderspellbook.com/combo/4067-4317-4613-5680/) (Infinite draw triggers, Near-infinite card draw) · EDHREC as commander: 77 decks; highest synergy [Command Beacon](../../cards/C/com.md#command-beacon) (+69%), [Flux Channeler](../../cards/F/fl.md#flux-channeler) (+67%), [Contentious Plan](../../cards/C/con.md#contentious-plan) (+66%) · EDHREC: in 7,990 decks; most often under [Peter Parker](../../cards/P/pe.md#peter-parker--amazing-spider-man) (32.9% of its decks), [Jodah, Archmage Eternal](../../cards/J/jo.md#jodah-archmage-eternal) (16.3% of its decks), [Atraxa, Praetors' Voice](../../cards/A/at.md#atraxa-praetors-voice) (1.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/chk/75/myojin-of-seeing-winds) · oracle_id `87f746a3-ca6b-404e-99cc-290a0b23f9c4` · printing: CHK #75 (2004-10-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Myojin of Towering Might
@@ -440,6 +458,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11769 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2022-02-18* — You choose how to distribute the counters as you activate Myojin of Towering Might's last ability. Each target must get at least one counter. Notably, you cannot choose more than eight targets just to give more creatures trample.
+- **Lore:** ✅ Presented with an official backstory on [The Legends of Kamigawa: Neon Dynasty](https://magic.wizards.com/en/news/feature/legends-kamigawa-neon-dynasty-2022-02-11) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 4 combos; most popular [Atraxa, Praetors' Voice + Myojin of Towering Might + Sage of Hours](https://commanderspellbook.com/combo/1494-3961-4353/) (Infinite turns, Lock) · EDHREC as commander: 33 decks; highest synergy [Road of Return](../../cards/R/ro.md#road-of-return) (+63%), [Command Beacon](../../cards/C/com.md#command-beacon) (+62%), [Karn's Bastion](../../cards/K/ka.md#karns-bastion) (+58%) · EDHREC: in 9,383 decks; most often under [Jodah, Archmage Eternal](../../cards/J/jo.md#jodah-archmage-eternal) (9.8% of its decks), [Atraxa, Praetors' Voice](../../cards/A/at.md#atraxa-praetors-voice) (1.1% of its decks), [Peter Parker](../../cards/P/pe.md#peter-parker--amazing-spider-man) (7.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/nec/38/myojin-of-towering-might) · oracle_id `1cb42cf5-ae69-46c5-b2ff-d2c1cd60099b` · printing: NEC #38 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### My Precious // Allure of Power
@@ -500,6 +520,8 @@ schema: 2
 - **Rulings** (2):
   - *2022-10-07* — Myra’s activated ability creates a delayed triggered ability that will trigger whenever you visit the chosen Attraction. This ability will continue to trigger as long as the Attraction is on the battlefield and the exiled card remains exiled, even if Myra leaves the battlefield, loses her abilities, or changes controllers. It will also continue to trigger if the Attraction somehow loses the midway counter.
   - *2022-10-07* — Myra’s activated ability targets only the instant or sorcery card in your graveyard. It doesn’t target the Attraction. You choose the Attraction as the ability is resolving.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 3,997 decks; highest synergy [Command Performance](../../cards/C/com.md#command-performance) (+87%), [Wyll, Blade of Frontiers](../../cards/W/wy.md#wyll-blade-of-frontiers) (+78%), [Barbarian Class](../../cards/B/bar.md#barbarian-class) (+75%) · EDHREC: in 1,396 decks; most often under [Wyll, Blade of Frontiers // Sword Coast Sailor](../../cards/W/wy.md#wyll-blade-of-frontiers) (9.6% of its decks), [Esika, God of the Tree](../../cards/E/es.md#esika-god-of-the-tree--the-prismatic-bridge) (0.2% of its decks), [Kenrith, the Returned King](../../cards/K/ke.md#kenrith-the-returned-king) (0.2% of its decks) — *Guidance (Oracle pattern)* — packages: [Spellslinger: Cast-trigger payoffs](../../EDH%20Packages.md#spellslinger-cast-trigger-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 3 pages (1 rules · 2 card data) → [reverse index](../../references/M.md#myra-the-magnificent)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unf/175/myra-the-magnificent) · oracle_id `4f0c3154-1917-4bb5-9ba2-446943a88808` · printing: UNF #175 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -677,6 +699,8 @@ schema: 2
 - **Rulings** (2):
   - *2022-06-10* — If Myrkul, Lord of Bones is dealt lethal damage at the same time that its controller's life total is reduced to less than or equal to half their starting life total, Myrkul will have indestructible at the time state-based actions are performed and survive.
   - *2022-06-10* — The last ability creates a copy of the card as it last existed in the graveyard, not of the creature as it last existed on the battlefield.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 20 combos; most popular [Myrkul, Lord of Bones + Devoted Druid](https://commanderspellbook.com/combo/2144-4762/) (Infinite green mana) · EDHREC as commander: 8,041 decks; highest synergy [Eidolon of Blossoms](../../cards/E/ei.md#eidolon-of-blossoms) (+59%), [Devoted Druid](../../cards/D/dev.md#devoted-druid) (+57%), [Sanctum Weaver](../../cards/S/san.md#sanctum-weaver) (+57%) · EDHREC: in 4,009 decks; most often under [Esika, God of the Tree](../../cards/E/es.md#esika-god-of-the-tree--the-prismatic-bridge) (3.0% of its decks), [Anikthea, Hand of Erebos](../../cards/A/an.md#anikthea-hand-of-erebos) (2.8% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (1.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/287/myrkul-lord-of-bones) · oracle_id `11329dd8-b10b-4659-b747-fbdbecf16308` · printing: CLB #287 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Myrkul's Edict
@@ -988,6 +1012,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11015 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2025-09-19* — If Mysterio leaves the battlefield before the tokens are created, the ability that removes them will never trigger.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Loki, the Deceiver (Grixis)](../../grixis/decks/loki-the-deceiver.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 399 decks; highest synergy [Chameleon, Master of Disguise](../../cards/C/cha.md#chameleon-master-of-disguise) (+85%), [Hydro-Man, Fluid Felon](../../cards/H/hy.md#hydro-man-fluid-felon) (+74%), [Flying Octobot](../../cards/F/fl.md#flying-octobot) (+71%) · EDHREC: in 10,533 decks; most often under [Norman Osborn](../../cards/N/no.md#norman-osborn--green-goblin) (15.5% of its decks), [Doctor Doom, King of Latveria](../../cards/D/do.md#doctor-doom-king-of-latveria) (18.7% of its decks), [Loki, the Deceiver](../../cards/L/lo.md#loki-the-deceiver) (63.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/M.md#mysterio-master-of-illusion)
 - **Source flags:** [Scryfall](https://scryfall.com/card/spm/37/mysterio-master-of-illusion) · oracle_id `40f664d8-4c73-44aa-8fb1-d38771a42520` · printing: SPM #37 (2025-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

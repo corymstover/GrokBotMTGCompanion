@@ -178,6 +178,8 @@ schema: 2
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2019-12-07* *(Scryfall note)* — The Commander RC has ruled that if your name is printed on the bottom of a Heroes of the Realm card, that card is legal for you in Commander.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ph18/1/kharis-&-the-beholder) · oracle_id `329f84dd-889c-4d03-a0bb-d96712ebcad8` · printing: PH18 #1 (2019-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Khârn the Betrayer
@@ -408,6 +410,8 @@ schema: 2
   > Other Homarids, Camarids, Cephalids, Nautilids, and Merfolk you control get +1/+1.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/K.md#khod-etlan-shiis-envoy)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/24/khod-etlan-shiis-envoy) · oracle_id `577e85a9-a24c-44f9-99dc-0a0533f5b032` · printing: CMB2 #24 (2021-08-20) · [rulings](https://api.scryfall.com/cards/f17671ec-7ace-4a16-a135-4dfe21995c14/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -432,6 +436,8 @@ schema: 2
   - *2018-06-08* — The triggered ability of the “partner with” keyword still triggers in a Commander game. If your other commander has somehow ended up in your library, you can find it. You can also target another player who might have that card in their library.
   - *2018-06-08* — To have two commanders, both must have the partner ability (featured in the Magic: The Gathering—Commander™ (2016 Edition) set) or corresponding “partner with” abilities as the game begins. A creature with a “partner with” ability can’t partner with any creature other than its designated partner. Losing a partner ability during the game doesn’t cause either to cease to be your commander.
   - *2018-06-08* — “Partner with [name]” represents two abilities. The first is a triggered ability: “When this permanent enters the battlefield, target player may search their library for a card named [name], reveal it, put it into their hand, then shuffle their library.”
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 19 decks; highest synergy [Smaug the Magnificent](../../cards/S/sm.md#smaug-the-magnificent) (+79%), [Goldspan Dragon](../../cards/G/gol.md#goldspan-dragon) (+60%), [Lathliss, Dragon Queen](../../cards/L/la.md#lathliss-dragon-queen) (+60%) · EDHREC: in 2,457 decks; most often under [Syr Gwyn, Hero of Ashvale](../../cards/S/sy.md#syr-gwyn-hero-of-ashvale) (6.2% of its decks), [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (0.5% of its decks), [Arthur, Marigold Knight](../../cards/A/art.md#arthur-marigold-knight) (2.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/K.md#khorvath-brightflame)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bbd/9/khorvath-brightflame) · oracle_id `b96b1341-0c15-4816-be2d-5cc98b2afb63` · printing: BBD #9 (2018-06-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

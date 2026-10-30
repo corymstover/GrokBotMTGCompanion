@@ -157,6 +157,8 @@ schema: 2
 - **Keywords:** Shadow
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #23880 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 974 decks; highest synergy [Dauthi Warlord](../../cards/D/da.md#dauthi-warlord) (+78%), [Soltari Visionary](../../cards/S/so.md#soltari-visionary) (+77%), [Dauthi Voidwalker](../../cards/D/da.md#dauthi-voidwalker) (+76%) · EDHREC: in 196 decks; most often under [Jin Sakai, Ghost of Tsushima](../../cards/J/ji.md#jin-sakai-ghost-of-tsushima) (1.4% of its decks), [The Destined Warrior](../../cards/T/thed.md#the-destined-warrior) (3.5% of its decks), [Kamiz, Obscura Oculus](../../cards/K/ka.md#kamiz-obscura-oculus) (1.9% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbc/43/lyna-veil-of-vengeance) · oracle_id `82321fa9-7a95-4c9d-988e-2140eaf1a083` · printing: MBC #43 (2026-10-19) · [rulings](https://api.scryfall.com/cards/b2b98671-737d-4d83-9287-60c51d145821/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lynde, Cheerful Tormentor
@@ -173,6 +175,8 @@ schema: 2
 - **Rulings** (2):
   - *2021-09-24* — In a multiplayer game, if a player enchanted by one of your Curses leaves the game, perhaps because they have been tormented too much by Lynde, that Curse will be put into your graveyard and cause Lynde's first triggered ability to trigger.
   - *2021-09-24* — Lynde's last ability doesn't target, so you can use it to attach a Curse to a player who has hexproof.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Lynde, Cheerful Tormentor (Grixis)](../../grixis/decks/lynde-cheerful-tormentor.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 7,824 decks; highest synergy [Curse of Misfortunes](../../cards/C/cu.md#curse-of-misfortunes) (+94%), [Curse of Verbosity](../../cards/C/cu.md#curse-of-verbosity) (+92%), [Curse of Opulence](../../cards/C/cu.md#curse-of-opulence) (+90%) · EDHREC: in 779 decks; most often under [Marina Vendrell](../../cards/M/mar.md#marina-vendrell) (1.6% of its decks), [Go-Shintai of Life's Origin](../../cards/G/gos.md#go-shintai-of-lifes-origin) (0.7% of its decks), [Kenrith, the Returned King](../../cards/K/ke.md#kenrith-the-returned-king) (0.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 decks) → [reverse index](../../references/L.md#lynde-cheerful-tormentor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mic/38/lynde-cheerful-tormentor) · oracle_id `dc386f6c-bd4a-462a-8d42-0e7a552a4f17` · printing: MIC #38 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -205,6 +209,8 @@ schema: 2
 - **Rulings** (2):
   - *2026-08-21* — If an Angel you control is dealt lethal damage at the same time that you gain life, it won't receive a counter from Lyra's ability in time to save it.
   - *2026-08-21* — If more than one creature you control with lifelink deals combat damage at the same time, Lyra's last ability will trigger once for each of those creatures.
+- **Lore:** ✅ Presented with an official backstory on [The Legends of Reality Fracture](https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Giada, Font of Hope](../../decks/giada-font-of-hope.md) · Commander Spellbook: 3 combos; most popular [Shalai and Hallar + Lyra, Archangel of Dawn](https://commanderspellbook.com/combo/4490-8173--210/) (Infinite +1/+1 counters on a creature, Infinite +1/+1 counters on certain creatures) · EDHREC as commander: 352 decks; highest synergy [Giada, Font of Hope](../../cards/G/gi.md#giada-font-of-hope) (+89%), [Lyra Dawnbringer](../../cards/L/ly.md#lyra-dawnbringer) (+75%), [Exemplar of Light](../../cards/E/ex.md#exemplar-of-light) (+74%) · EDHREC: in 8,349 decks; most often under [Giada, Font of Hope](../../cards/G/gi.md#giada-font-of-hope) (53.2% of its decks), [Shilgengar, Sire of Famine](../../cards/S/shi.md#shilgengar-sire-of-famine) (22.4% of its decks), [Sigarda, Font of Blessings](../../cards/S/si.md#sigarda-font-of-blessings) (29.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 decks) → [reverse index](../../references/L.md#lyra-archangel-of-dawn)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/201/lyra-archangel-of-dawn) · oracle_id `0fca3328-484f-4050-925e-91840710b5d6` · printing: FRA #201 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -242,6 +248,8 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17973 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Presented with an official backstory on [The Legends of Reality Fracture](https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 987 decks; highest synergy [Thirst for Discovery](../../cards/T/thi.md#thirst-for-discovery) (+64%), [Harmonized Trio](../../cards/H/ha.md#harmonized-trio--brainstorm) (+63%), [Brainsurge](../../cards/B/br.md#brainsurge) (+62%) · EDHREC: in 3,957 decks; most often under [Vnwxt, Verbose Host](../../cards/V/vn.md#vnwxt-verbose-host) (13.1% of its decks), [Bard, King of Dale](../../cards/B/bar.md#bard-king-of-dale) (9.7% of its decks), [Azami, Lady of Scrolls](../../cards/A/az.md#azami-lady-of-scrolls) (21.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/L.md#lyra-tolarian-archangel)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/217/lyra-tolarian-archangel) · oracle_id `d9060fff-0b65-4b3d-930d-6e36315b802c` · printing: FRA #217 (2026-10-02) · [rulings](https://api.scryfall.com/cards/a5183681-447b-4023-91f7-00e9338f4417/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -351,4 +359,6 @@ schema: 2
 - **Rulings** (2):
   - *2006-05-01* — You can sacrifice any creature you control to pay for this ability. If the creature was neither red nor black, the ability has no effect.
   - *2006-05-01* — You must choose a target for the ability, even if the creature you sacrifice isn't red. If the target becomes illegal before the ability resolves, the ability won't resolve; you won't draw a card, even if the creature you sacrificed was black.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 583 decks; highest synergy [Juri, Master of the Revue](../../cards/J/ju.md#juri-master-of-the-revue) (+58%), [Judith, the Scourge Diva](../../cards/J/ju.md#judith-the-scourge-diva) (+54%), [Footlight Fiend](../../cards/F/fo.md#footlight-fiend) (+52%) · EDHREC: in 2,084 decks; most often under [Lucius the Eternal](../../cards/L/lu.md#lucius-the-eternal) (36.0% of its decks), [Rakdos, Lord of Riots](../../cards/R/rak.md#rakdos-lord-of-riots) (1.2% of its decks), [Juri, Master of the Revue](../../cards/J/ju.md#juri-master-of-the-revue) (1.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dis/117/lyzolda-the-blood-witch) · oracle_id `0d80caeb-d2c2-4d0a-b903-dea170fee2cf` · printing: DIS #117 (2006-05-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

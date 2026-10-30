@@ -120,6 +120,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11724 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2004-12-01* — Masako allows tapped creatures to block only if they could otherwise block. It doesn’t allow creatures that “can’t block” to block, nonflying creatures to block fliers, etc.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 603 decks; highest synergy [Adept Watershaper](../../cards/A/ad.md#adept-watershaper) (+79%), [The Wandering Rescuer](../../cards/T/thew.md#the-wandering-rescuer) (+75%), [Throne of the God-Pharaoh](../../cards/T/thr.md#throne-of-the-god-pharaoh) (+75%) · EDHREC: in 8,922 decks; most often under [Anti-Venom, Horrifying Healer](../../cards/A/an.md#anti-venom-horrifying-healer) (5.3% of its decks), [Sonic the Hedgehog](../../cards/S/so.md#sonic-the-hedgehog) (4.0% of its decks), [The Wandering Rescuer](../../cards/T/thew.md#the-wandering-rescuer) (54.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/chk/33/masako-the-humorless) · oracle_id `bb9e77c0-eb94-4bba-9b71-1935be280b75` · printing: CHK #33 (2004-10-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mascot Exhibition
@@ -481,6 +483,8 @@ schema: 2
   > *Ravnica's most feared—and most adored—serial killer.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20188 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Presented with an official backstory on [The Legends of Reality Fracture](https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 9 combos; most popular [Massacre Girl, Most Wanted + Agatha's Soul Cauldron + Walking Ballista](https://commanderspellbook.com/combo/3693-4613-8292/) (Infinite damage) · EDHREC as commander: 106 decks; highest synergy [Massacre Girl](../../cards/M/mas.md#massacre-girl) (+46%), [Reassembling Skeleton](../../cards/R/rea.md#reassembling-skeleton) (+46%), [Ophiomancer](../../cards/O/op.md#ophiomancer) (+45%) · EDHREC: in 3,501 decks; most often under [Sephiroth, Fabled SOLDIER](../../cards/S/sep.md#sephiroth-fabled-soldier--sephiroth-one-winged-angel) (3.0% of its decks), [Massacre Girl, Known Killer](../../cards/M/mas.md#massacre-girl-known-killer) (16.3% of its decks), [Valgavoth, Harrower of Souls](../../cards/V/va.md#valgavoth-harrower-of-souls) (2.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/234/massacre-girl-most-wanted) · oracle_id `81f35914-73bf-429f-ba20-32e23ac30159` · printing: FRA #234 (2026-10-02) · [rulings](https://api.scryfall.com/cards/9028d31f-9c41-47e3-885b-6a869bca8178/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Massacre Totem
@@ -585,6 +589,8 @@ schema: 2
   > Whenever Massimo or another creature you control enters, exile up to one target instant or sorcery card with mana value 1 from your graveyard. If a card is exiled this way, that creature gains "Whenever this creature deals combat damage to a player, copy the exiled card. You may cast the copy without paying its mana cost."
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #18625 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 100+ combos; most popular [Massimo, the Magician + Aurelia, the Warleader + Ephemerate](https://commanderspellbook.com/combo/4364-5144-8330/) (Infinite combat damage, Infinite combat phases) · EDHREC as commander: 3,117 decks; highest synergy [Lightning Bolt](../../cards/L/li.md#lightning-bolt) (+73%), [Consider](../../cards/C/con.md#consider) (+70%), [Boltwave](../../cards/B/bo.md#boltwave) (+69%) · EDHREC: in 81 decks; most often under [Gandalf, Party Guest](../../cards/G/ga.md#gandalf-party-guest) (0.5% of its decks), [Kykar, Wind's Fury](../../cards/K/ky.md#kykar-winds-fury) (0.2% of its decks), [Esika, God of the Tree](../../cards/E/es.md#esika-god-of-the-tree--the-prismatic-bridge) (0.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbc/45/massimo-the-magician) · oracle_id `aa27c281-b909-4274-8216-6fd0be78b3c9` · printing: MBC #45 (2026-10-19) · [rulings](https://api.scryfall.com/cards/bed6b0c6-6e25-4129-9d11-3e80157ddb42/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Massive Might
@@ -1169,6 +1175,8 @@ schema: 2
 - **Keywords:** Prowess, Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11900 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 120 decks; highest synergy [It'll Quench Ya!](../../cards/I/it.md#itll-quench-ya) (+94%), [Waterbending Lesson](../../cards/W/wat.md#waterbending-lesson) (+93%), [Accumulate Wisdom](../../cards/A/ac.md#accumulate-wisdom) (+92%) · EDHREC: in 9,218 decks; most often under [Iroh, Grand Lotus](../../cards/I/ir.md#iroh-grand-lotus) (31.9% of its decks), [Katara, the Fearless](../../cards/K/ka.md#katara-the-fearless) (8.8% of its decks), [Sokka, Tenacious Tactician](../../cards/S/so.md#sokka-tenacious-tactician) (5.8% of its decks) — *Guidance (Oracle pattern)* — packages: [Spellslinger: Cast-trigger payoffs](../../EDH%20Packages.md#spellslinger-cast-trigger-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/63/master-pakku) · oracle_id `b1727c07-c829-4d64-a1c5-8b53c743888a` · printing: TLA #63 (2025-11-21) · [rulings](https://api.scryfall.com/cards/91e30df5-63f7-4281-8d64-8d522d663652/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Master Piandao
@@ -1456,4 +1464,6 @@ schema: 2
   > *—Isao, Enlightened Bushi*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21152 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 190 decks; highest synergy [Maro](../../cards/M/mar.md#maro) (+78%), [Psychosis Crawler](../../cards/P/ps.md#psychosis-crawler) (+78%), [Thought Vessel](../../cards/T/tho.md#thought-vessel) (+78%) · EDHREC: in 1,623 decks; most often under [Multani, Maro-Sorcerer](../../cards/M/mu.md#multani-maro-sorcerer) (34.9% of its decks), [Tishana, Voice of Thunder](../../cards/T/ti.md#tishana-voice-of-thunder) (29.4% of its decks), [Kruphix, God of Horizons](../../cards/K/kr.md#kruphix-god-of-horizons) (1.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sok/136/masumaro-first-to-live) · oracle_id `8af347b8-89fa-499e-8e5a-77463edd6773` · printing: SOK #136 (2005-06-03) · [rulings](https://api.scryfall.com/cards/2c4625b7-c8b1-4fdf-af9f-935313436b35/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

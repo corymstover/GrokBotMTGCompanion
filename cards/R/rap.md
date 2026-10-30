@@ -129,6 +129,8 @@ schema: 2
 - **Rulings** (2):
   - *2026-01-27* — If Raphael, Most Attitude leaves the battlefield, and later another Raphael, Most Attitude enters the battlefield, it is a new object (even if the two were represented by the same card). You can't play cards exiled by the original Raphael, Most Attitude with the permission granted by the last ability of the new Raphael, Most Attitude.
   - *2026-01-27* — To play a card using the permission granted by Raphael's last ability, you must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can play a land from exile this way only during your main phase while the stack is empty and only if you have an available land play remaining for the turn.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 28 decks; highest synergy [Raphael, Tough Turtle](../../cards/R/rap.md#raphael-tough-turtle) (+70%), [Slash, Reptile Rampager](../../cards/S/sl.md#slash-reptile-rampager) (+47%), [Etali, Primal Storm](../../cards/E/et.md#etali-primal-storm) (+45%) · EDHREC: in 3,352 decks; most often under [Heroes in a Half Shell](../../cards/H/he.md#heroes-in-a-half-shell) (10.6% of its decks), [Leonardo, the Balance // Michelangelo, the Heart](../../cards/L/le.md#leonardo-the-balance) (2.8% of its decks), [Fire Lord Zuko](../../cards/F/fi.md#fire-lord-zuko) (2.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmt/101/raphael-most-attitude) · oracle_id `eaf194a7-d95f-4738-9052-92ad00443a76` · printing: TMT #101 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Raphael, Ninja Destroyer
@@ -146,6 +148,8 @@ schema: 2
 - **Rulings** (2):
   - *2026-01-27* — If lethal damage is dealt to Raphael, his enrage ability will still trigger.
   - *2026-01-27* — If multiple sources deal damage to Raphael at the same time, most likely because multiple creatures blocked him, his enrage ability will trigger only once.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 26 combos; most popular [Raphael, Ninja Destroyer + Pyrohemia](https://commanderspellbook.com/combo/4629-7283/) (Near-infinite damage to all players) · EDHREC as commander: 242 decks; highest synergy [Darksteel Plate](../../cards/D/da.md#darksteel-plate) (+81%), [Pain for All](../../cards/P/pa.md#pain-for-all) (+71%), [Mithril Coat](../../cards/M/mit.md#mithril-coat) (+68%) · EDHREC: in 6,065 decks; most often under [Wayta, Trainer Prodigy](../../cards/W/way.md#wayta-trainer-prodigy) (20.1% of its decks), [Heroes in a Half Shell](../../cards/H/he.md#heroes-in-a-half-shell) (14.4% of its decks), [Leonardo, the Balance // Michelangelo, the Heart](../../cards/L/le.md#leonardo-the-balance) (4.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmt/102/raphael-ninja-destroyer) · oracle_id `fdb8e862-c642-4b7b-b061-400de6061ffe` · printing: TMT #102 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Raphael's Technique
@@ -179,6 +183,8 @@ schema: 2
 - **Keywords:** Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10550 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 2 combos; most popular [The Neutrinos + Raphael, Tag Team Tough](https://commanderspellbook.com/combo/7334-7504/) (Infinite creature ETB, Infinite creature LTB) · EDHREC as commander: 32 decks; highest synergy [Raphael, the Nightwatcher](../../cards/R/rap.md#raphael-the-nightwatcher) (+74%), [Raphael, Most Attitude](../../cards/R/rap.md#raphael-most-attitude) (+59%), [Raphael, Tough Turtle](../../cards/R/rap.md#raphael-tough-turtle) (+59%) · EDHREC: in 11,942 decks; most often under [Raph & Mikey, Troublemakers](../../cards/R/rap.md#raph--mikey-troublemakers) (67.1% of its decks), [Heroes in a Half Shell](../../cards/H/he.md#heroes-in-a-half-shell) (29.8% of its decks), [Leonardo, the Balance // Michelangelo, the Heart](../../cards/L/le.md#leonardo-the-balance) (5.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmc/118/raphael-tag-team-tough) · oracle_id `5a7f09d3-e4a8-4987-a731-a68fc748277d` · printing: TMC #118 (2026-03-06) · [rulings](https://api.scryfall.com/cards/b3bae5c7-2c4a-42a6-a108-3f23d70204b4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Raphael, the Muscle
@@ -244,6 +250,8 @@ schema: 2
 - **Keywords:** Alliance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10815 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 11 combos; most popular [Storm Herd + Raphael, Tough Turtle](https://commanderspellbook.com/combo/2067-7307/) (Near-infinite creature ETB, Near-infinite creature tokens) · EDHREC as commander: 115 decks; highest synergy [Molten Gatekeeper](../../cards/M/mol.md#molten-gatekeeper) (+47%), [Dragon Fodder](../../cards/D/dra.md#dragon-fodder) (+40%), [Krenko's Command](../../cards/K/kr.md#krenkos-command) (+40%) · EDHREC: in 11,436 decks; most often under [Norin the Wary](../../cards/N/no.md#norin-the-wary) (30.2% of its decks), [Krenko, Mob Boss](../../cards/K/kr.md#krenko-mob-boss) (3.0% of its decks), [Arabella, Abandoned Doll](../../cards/A/ara.md#arabella-abandoned-doll) (5.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmt/104/raphael-tough-turtle) · oracle_id `2c72e6d2-bbb0-42de-b465-438d584cbddc` · printing: TMT #104 (2026-03-06) · [rulings](https://api.scryfall.com/cards/f24c90c8-ed04-4b4e-8b19-c7d07a90c6b8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Raph & Leo, Sibling Rivals

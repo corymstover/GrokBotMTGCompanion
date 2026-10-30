@@ -599,6 +599,8 @@ schema: 2
 - **Keywords:** Prowess
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16818 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1,412 decks; highest synergy [Raiyuu, Storm's Edge](../../cards/R/rai.md#raiyuu-storms-edge) (+59%), [Angelfire Ignition](../../cards/A/an.md#angelfire-ignition) (+53%), [Chandra's Ignition](../../cards/C/cha.md#chandras-ignition) (+53%) · EDHREC: in 2,549 decks; most often under [Narset, Enlightened Exile](../../cards/N/na.md#narset-enlightened-exile) (4.2% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.6% of its decks), [Feather, the Redeemed](../../cards/F/fe.md#feather-the-redeemed) (0.8% of its decks) — *Guidance (Oracle pattern)* — packages: [Spellslinger: Cast-trigger payoffs](../../EDH%20Packages.md#spellslinger-cast-trigger-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/slx/12/aisha-of-sparks-and-smoke) · oracle_id `eae3e762-dacd-4bd2-923c-3abb5ceb729a` · printing: SLX #12 (2023-02-10) · [rulings](https://api.scryfall.com/cards/093aa76d-2154-4e71-a2bf-461d1afb887b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aisling Leprechaun

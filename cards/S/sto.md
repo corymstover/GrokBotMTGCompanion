@@ -236,6 +236,8 @@ schema: 2
 - **Keywords:** Flying, Islandcycling, Landcycling, Typecycling, Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22838 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 5 decks; highest synergy [Agent of Acquisitions](../../cards/A/ag.md#agent-of-acquisitions) (+60%), [Aladdin's Lamp](../../cards/A/al.md#aladdins-lamp) (+60%), [Animal Sanctuary](../../cards/A/an.md#animal-sanctuary) (+60%) · EDHREC: in 1,350 decks; most often under [Mikey & Don, Party Planners](../../cards/M/mik.md#mikey--don-party-planners) (15.4% of its decks), [Genghis Frog](../../cards/G/ge.md#genghis-frog) (20.6% of its decks), [Heroes in a Half Shell](../../cards/H/he.md#heroes-in-a-half-shell) (1.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmt/54/stockman-mad-fly-entist) · oracle_id `baa4cb1b-6fb5-46df-9cdd-54421ee0fc88` · printing: TMT #54 (2026-03-06) · [rulings](https://api.scryfall.com/cards/01ca65e2-898e-4150-a6bf-e61b183fd98a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stockpiling Celebrant
@@ -656,6 +658,8 @@ schema: 2
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22954 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 423 decks; highest synergy [Proud Wildbonder](../../cards/P/pr.md#proud-wildbonder) (+69%), [Quartzwood Crasher](../../cards/Q/qu.md#quartzwood-crasher) (+68%), [Boartusk Liege](../../cards/B/bo.md#boartusk-liege) (+60%) · EDHREC: in 872 decks; most often under [Xenagos, God of Revels](../../cards/X/xe.md#xenagos-god-of-revels) (1.4% of its decks), [Surrak Dragonclaw](../../cards/S/sur.md#surrak-dragonclaw) (2.6% of its decks), [Nikya of the Old Ways](../../cards/N/ni.md#nikya-of-the-old-ways) (1.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tsp/247/stonebrow-krosan-hero) · oracle_id `5f7f553d-ec94-49e5-ba17-68126a94cdbd` · printing: TSP #247 (2006-10-06) · [rulings](https://api.scryfall.com/cards/95c62102-0562-4b09-a05d-986aa4212f44/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stone by Sunlight
@@ -2326,6 +2330,8 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15085 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 181 decks; highest synergy [Storm, Windrider](../../cards/S/sto.md#storm-windrider) (+50%), [Okoye, Mighty and Adored](../../cards/O/ok.md#okoye-mighty-and-adored) (+46%), [Bast, Panther Goddess](../../cards/B/bas.md#bast-panther-goddess) (+43%) · EDHREC: in 5,521 decks; most often under [T'Challa, the Black Panther](../../cards/T/tc.md#tchalla-the-black-panther) (62.0% of its decks), [Storm, Windrider](../../cards/S/sto.md#storm-windrider) (45.2% of its decks), [Nick Fury, Agent of S.H.I.E.L.D.](../../cards/N/ni.md#nick-fury-agent-of-shield) (5.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/97/storm-queen-of-wakanda) · oracle_id `d8e585c5-1de3-4558-8a2f-0d9fb07edad6` · printing: MSC #97 (2026-06-26) · [rulings](https://api.scryfall.com/cards/0a61d843-2a7c-459c-9018-1ee4488c90a9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stormrider Rig
@@ -2512,6 +2518,8 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25288 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 3 decks; highest synergy [Adventure Awaits](../../cards/A/ad.md#adventure-awaits) (+33%), [Ana Sanctuary](../../cards/A/an.md#ana-sanctuary) (+33%), [Argentum Masticore](../../cards/A/arg.md#argentum-masticore) (+33%) · EDHREC: in 834 decks; most often under [Wolverine, Best There Is](../../cards/W/wo.md#wolverine-best-there-is) (2.4% of its decks), [Wolverine, Claws Out](../../cards/W/wo.md#wolverine-claws-out) (34.3% of its decks), [Storm, Windrider](../../cards/S/sto.md#storm-windrider) (6.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/733/storm-shaker-of-skies) · oracle_id `5d936655-8e46-4e30-8f9c-4fa1a4d34a17` · printing: MSC #733 (2026-06-26) · [rulings](https://api.scryfall.com/cards/9eadf356-105e-4a17-ab06-075ca662e963/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Storm Shaman
@@ -2791,6 +2799,8 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14512 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1,014 decks; highest synergy [Magus of the Moat](../../cards/M/mag.md#magus-of-the-moat) (+47%), [Stirring Hopesinger](../../cards/S/sti.md#stirring-hopesinger) (+44%), [The Sentry, Golden Guardian](../../cards/T/thes.md#the-sentry-golden-guardian) (+43%) · EDHREC: in 5,341 decks; most often under [Nick Fury, Agent of S.H.I.E.L.D.](../../cards/N/ni.md#nick-fury-agent-of-shield) (20.6% of its decks), [Jennifer Walters](../../cards/J/je.md#jennifer-walters--the-sensational-she-hulk) (43.5% of its decks), [T'Challa, the Black Panther](../../cards/T/tc.md#tchalla-the-black-panther) (8.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/230/storm-windrider) · oracle_id `06e9287b-56d4-443e-97ba-b5dcdc4fa989` · printing: MSH #230 (2026-06-26) · [rulings](https://api.scryfall.com/cards/e90196a9-5a76-42f8-9b40-097d02b47f33/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stormwing Dragon
@@ -2858,6 +2868,8 @@ schema: 2
 - **Rulings** (2):
   - *2019-05-03* — If Storrev dies due to combat damage dealt at the same time that it deals combat damage to a player or planeswalker, its ability still triggers.
   - *2019-05-03* — Storrev's triggered ability can't target any card that was put into your graveyard during this combat phase. This includes creatures and planeswalkers that died from combat damage, creatures and planeswalkers that died for any other reason, and cards that were put there from any other zone.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 238 decks; highest synergy [Garruk, Primal Hunter](../../cards/G/ga.md#garruk-primal-hunter) (+26%), [Liliana, Death's Majesty](../../cards/L/li.md#liliana-deaths-majesty) (+24%), [Garruk, Apex Predator](../../cards/G/ga.md#garruk-apex-predator) (+21%) · EDHREC: in 7,031 decks; most often under [Carth the Lion](../../cards/C/car.md#carth-the-lion) (35.4% of its decks), [Lathril, Blade of the Elves](../../cards/L/la.md#lathril-blade-of-the-elves) (2.0% of its decks), [High Perfect Morcant](../../cards/H/hi.md#high-perfect-morcant) (1.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/war/219/storrev-devkarin-lich) · oracle_id `159098f1-172f-408e-a962-86763a29a8e1` · printing: WAR #219 (2019-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Storvald, Frost Giant Jarl
@@ -2878,6 +2890,8 @@ schema: 2
   - *2021-07-23* — If you choose both modes, the effects will happen in the listed order.
   - *2021-07-23* — Storvald's triggered ability will overwrite any previous effects that set the creature's power and toughness to specific numbers. Effects that otherwise modify that creature's power and toughness will still apply no matter when they took effect. The same is true for +1/+1 counters.
   - *2021-07-23* — You can choose the same creature as the target for both modes if you wanted to—I don't know . . . give it a small taste of phenomenal cosmic power before shrinking it so it could live in an itty-bitty living space?
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 21 combos; most popular [Storvald, Frost Giant Jarl + Tree of Redemption + Near-Death Experience + Alchemist's Refuge](https://commanderspellbook.com/combo/1624-3625-3646-4910/) (Win the game at the beginning of your next upkeep) · EDHREC as commander: 1,454 decks; highest synergy [Cold-Eyed Selkie](../../cards/C/col.md#cold-eyed-selkie) (+48%), [Garruk's Uprising](../../cards/G/ga.md#garruks-uprising) (+42%), [Wild Beastmaster](../../cards/W/wi.md#wild-beastmaster) (+41%) · EDHREC: in 8,267 decks; most often under [Mr. Foxglove](../../cards/M/mr.md#mr-foxglove) (42.5% of its decks), [Peter Parker](../../cards/P/pe.md#peter-parker--amazing-spider-man) (18.0% of its decks), [Isu the Abominable](../../cards/I/is.md#isu-the-abominable) (23.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/afc/55/storvald-frost-giant-jarl) · oracle_id `5d7802a7-df6e-47fb-9065-c7461ea24a19` · printing: AFC #55 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Storybook Ride

@@ -68,6 +68,8 @@ schema: 2
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #31348 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Mind Over Matter + Spock, Logical Choice](https://commanderspellbook.com/combo/4067-7801/) (Infinite draw triggers, Infinite looting) · EDHREC as commander: 15 decks; highest synergy [Laboratory Maniac](../../cards/L/la.md#laboratory-maniac) (+59%), [Vizier of Tumbling Sands](../../cards/V/vi.md#vizier-of-tumbling-sands) (+57%), [Freed from the Real](../../cards/F/fr.md#freed-from-the-real) (+56%) · EDHREC: in 143 decks; most often under [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.1% of its decks), [Inspirit, Flagship Vessel](../../cards/I/ins.md#inspirit-flagship-vessel) (0.1% of its decks), Cmdr. Troi, Outgoing Empath (1.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#spock-logical-choice)
 - **Source flags:** [Scryfall](https://scryfall.com/card/trc/194/spock-logical-choice) · oracle_id `a877820f-8999-4dfe-a50d-09f63c885ce3` · printing: TRC #194 (2026-11-13) · [rulings](https://api.scryfall.com/cards/5a741052-e92d-4e9c-8cfa-3b5ed1f432f5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

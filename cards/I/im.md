@@ -213,6 +213,8 @@ schema: 2
   > *The elvish kingdoms of Llanowar are united in their distrust of outsiders.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14610 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 416 decks; highest synergy [Elvish Archdruid](../../cards/E/el.md#elvish-archdruid) (+87%), [Elven Ambush](../../cards/E/el.md#elven-ambush) (+79%), [Immaculate Magistrate](../../cards/I/im.md#immaculate-magistrate) (+79%) · EDHREC: in 5,480 decks; most often under [Lathril, Blade of the Elves](../../cards/L/la.md#lathril-blade-of-the-elves) (3.7% of its decks), [High Perfect Morcant](../../cards/H/hi.md#high-perfect-morcant) (2.3% of its decks), [Marwyn, the Nurturer](../../cards/M/mar.md#marwyn-the-nurturer) (4.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/gn3/5/imaryll-elfhame-elite) · oracle_id `ef6eb92f-93e6-40e4-a7a6-8e826bb6a5e0` · printing: GN3 #5 (2022-10-14) · [rulings](https://api.scryfall.com/cards/c2c3e33c-8893-436e-ab3a-f8c2ae8b2527/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### I'm Going On An Adventure!
@@ -267,6 +269,8 @@ schema: 2
   > • Immard gains lifelink and indestructible until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18597 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1,178 decks; highest synergy [Contentious Plan](../../cards/C/con.md#contentious-plan) (+46%), [Tezzeret's Gambit](../../cards/T/te.md#tezzerets-gambit) (+43%), [Assemble the Legion](../../cards/A/as.md#assemble-the-legion) (+39%) · EDHREC: in 1,727 decks; most often under [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (1.1% of its decks), [Aragorn, the Uniter](../../cards/A/ara.md#aragorn-the-uniter) (0.8% of its decks), [Captain America, First Avenger](../../cards/C/cap.md#captain-america-first-avenger) (0.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/slx/14/immard-the-stormcleaver) · oracle_id `104f65d3-bedb-4dc5-a5dd-8ab9fe796af4` · printing: SLX #14 (2023-02-10) · [rulings](https://api.scryfall.com/cards/d2f60c02-55f7-4584-b68c-f23e466b3b0b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Immediate Action
@@ -584,6 +588,8 @@ schema: 2
 - **Keywords:** Power-up
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18719 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 170 decks; highest synergy [Cerulean Wisps](../../cards/C/ce.md#cerulean-wisps) (+56%), [Mathemagics](../../cards/M/mat.md#mathemagics) (+56%), [Refocus](../../cards/R/ref.md#refocus) (+56%) · EDHREC: in 2,831 decks; most often under [Nekusar, the Mindrazer](../../cards/N/ne.md#nekusar-the-mindrazer) (1.8% of its decks), [Doctor Doom, King of Latveria](../../cards/D/do.md#doctor-doom-king-of-latveria) (1.3% of its decks), [Vnwxt, Verbose Host](../../cards/V/vn.md#vnwxt-verbose-host) (2.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/623/immortus-master-of-eternity) · oracle_id `8952a7e6-4ede-42bb-b90c-00ea4f24f8f8` · printing: MSC #623 (2026-06-26) · [rulings](https://api.scryfall.com/cards/c8bd16f1-f8f2-44d2-a737-40f08a4cff3f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Immovable Rod
@@ -676,6 +682,8 @@ schema: 2
   - *2022-06-10* — Imoen's second ability triggers only if you have the initiative as your end step begins. If the ability does trigger, it will check if you have the initiative again as it tries to resolve. If you don't still have the initiative at that time, the ability won't resolve and none of its effects will happen. Notably, if you don't have the initiative as your end step begins but you have completed a dungeon, the ability won't trigger and you won't draw any cards.
   - *2022-06-10* — Once the game begins, your two commanders are tracked separately. If you cast one, you won't have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 combat damage from any one of them, not from both of them combined (although your Background won't usually be a creature anyway).
   - *2022-06-10* — You can choose two commanders that are the same color or colors.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 9 decks; highest synergy [Wizard's Staff](../../cards/W/wi.md#wizards-staff) (+93%), [Aarakocra Sneak](../../cards/A/aa.md#aarakocra-sneak) (+89%), [Displacer Beast](../../cards/D/di.md#displacer-beast) (+89%) · EDHREC: in 11,465 decks; most often under [Sefris of the Hidden Ways](../../cards/S/sef.md#sefris-of-the-hidden-ways) (21.3% of its decks), [Tazri, Beacon of Unity](../../cards/T/ta.md#tazri-beacon-of-unity) (39.2% of its decks), [Safana, Calimport Cutthroat // Dungeon Delver](../../cards/S/saf.md#safana-calimport-cutthroat) (84.5% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/I.md#imoen-mystic-trickster)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/77/imoen-mystic-trickster) · oracle_id `280e05c5-7ab4-45bf-aa15-e594cec49ef3` · printing: CLB #77 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1452,6 +1460,8 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20802 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 299 decks; highest synergy [Training Grounds](../../cards/T/tra.md#training-grounds) (+80%), [Dark Depths](../../cards/D/da.md#dark-depths) (+78%), [Lotus Field](../../cards/L/lo.md#lotus-field) (+73%) · EDHREC: in 1,781 decks; most often under [Doctor Doom, King of Latveria](../../cards/D/do.md#doctor-doom-king-of-latveria) (0.7% of its decks), [The Fantastic Four](../../cards/T/thef.md#the-fantastic-four) (2.4% of its decks), [Loki, Lord of Misrule](../../cards/L/lo.md#loki-lord-of-misrule) (6.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/625/impossible-man) · oracle_id `9be1d4b1-064d-4051-aafc-ca48def28e3b` · printing: MSC #625 (2026-06-26) · [rulings](https://api.scryfall.com/cards/fa305441-3fb7-4f59-8b39-984e931f9bcc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Imposter Mech

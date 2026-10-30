@@ -241,6 +241,8 @@ schema: 2
 - **Rulings** (2):
   - *2020-06-23* — If a creature on the battlefield has {X} in its mana cost, X is considered to be 0.
   - *2020-06-23* — If the target creature is an illegal target by the time Niambi's triggered ability tries to resolve, the ability won't resolve. You won't return the card from the zone it moved to or gain any life.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 2 combos; most popular [Aluren + Niambi, Esteemed Speaker + Deputy of Acquittals](https://commanderspellbook.com/combo/1265-2549-4191/) (Infinite creature ETB, Infinite lifegain) · EDHREC as commander: 289 decks; highest synergy [Late to Dinner](../../cards/L/la.md#late-to-dinner) (+54%), [Breath of Life](../../cards/B/br.md#breath-of-life) (+53%), [Resurrection](../../cards/R/res.md#resurrection) (+52%) · EDHREC: in 5,722 decks; most often under [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (2.8% of its decks), [Katilda and Lier](../../cards/K/ka.md#katilda-and-lier) (27.3% of its decks), [Ephara, God of the Polis](../../cards/E/ep.md#ephara-god-of-the-polis) (12.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m21/222/niambi-esteemed-speaker) · oracle_id `91c9dbd8-a8d8-4a4e-8408-3ad92e974d11` · printing: M21 #222 (2020-07-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Niambi, Faithful Healer
@@ -393,6 +395,8 @@ schema: 2
 - **Keywords:** Power-up, Transform
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14283 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 6,061 decks; highest synergy [Jennifer Walters](../../cards/J/je.md#jennifer-walters--the-sensational-she-hulk) (+56%), [Avengers Tower](../../cards/A/av.md#avengers-tower) (+53%), [Bruce Banner](../../cards/B/br.md#bruce-banner--the-incredible-hulk) (+50%) · EDHREC: in 492 decks; most often under [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (1.3% of its decks), [Thanos, the Mad Titan](../../cards/T/tha.md#thanos-the-mad-titan) (2.7% of its decks), [Cosmic Spider-Man](../../cards/C/cos.md#cosmic-spider-man) (1.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 rules · 1 card data) → [reverse index](../../references/N.md#nick-fury-agent-of-shield)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/25/nick-fury-agent-of-shield) · oracle_id `62916107-14c0-4516-9fed-a032b1a80e5d` · printing: MSH #25 (2026-06-26) · [rulings](https://api.scryfall.com/cards/3aa6fc02-ef76-426b-accd-6c0ef88b2a5e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -407,6 +411,8 @@ schema: 2
 - **Keywords:** First strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21385 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 37 decks; highest synergy [Peggy Carter, Secret Agent](../../cards/P/pe.md#peggy-carter-secret-agent) (+86%), [Agent 13, Sharon Carter](../../cards/A/ag.md#agent-13-sharon-carter) (+75%), [Strategic Intervention](../../cards/S/str.md#strategic-intervention) (+73%) · EDHREC: in 1,799 decks; most often under [Nick Fury, Agent of S.H.I.E.L.D.](../../cards/N/ni.md#nick-fury-agent-of-shield) (3.2% of its decks), [Black Widow, Double Agent](../../cards/B/bla.md#black-widow-double-agent) (60.2% of its decks), [Squall, SeeD Mercenary](../../cards/S/sq.md#squall-seed-mercenary) (3.6% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/603/nick-fury-spymaster) · oracle_id `b20860da-2e71-414a-a512-1cce7ba64079` · printing: MSC #603 (2026-06-26) · [rulings](https://api.scryfall.com/cards/169b6c86-60f2-462b-877f-481354ef2d20/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nick Valentine, Private Eye
@@ -423,6 +429,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11081 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2024-03-08* — Once Nick Valentine has been blocked, making the blocking creature stop being an artifact won't cause Nick Valentine to become unblocked.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 96 combos; most popular [Nick Valentine, Private Eye + Stridehangar Automaton + Krark-Clan Ironworks](https://commanderspellbook.com/combo/4659-5394-6291/) (Infinite artifact tokens, Infinite creature LTB) · EDHREC as commander: 322 decks; highest synergy [Academy Manufactor](../../cards/A/ac.md#academy-manufactor) (+75%), [Forensic Gadgeteer](../../cards/F/fo.md#forensic-gadgeteer) (+72%), [Piper Wright, Publick Reporter](../../cards/P/pi.md#piper-wright-publick-reporter) (+65%) · EDHREC: in 10,268 decks; most often under [Dr. Madison Li](../../cards/D/drm.md#dr-madison-li) (22.5% of its decks), [Liberty Prime, Recharged](../../cards/L/li.md#liberty-prime-recharged) (20.1% of its decks), [Golbez, Crystal Collector](../../cards/G/gol.md#golbez-crystal-collector) (2.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/pip/35/nick-valentine-private-eye) · oracle_id `5663288a-7300-4e1b-8fb0-43c467709fe5` · printing: PIP #35 (2024-03-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nicol Bolas
@@ -577,6 +585,8 @@ schema: 2
   > {2}{R}, {T}, Discard a card: Exile cards from the top of your library until you exile a nonland card. You may cast that card without paying its mana cost.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11801 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 749 decks; highest synergy [Improvisation Capstone](../../cards/I/im.md#improvisation-capstone) (+65%), [Wild-Magic Sorcerer](../../cards/W/wi.md#wild-magic-sorcerer) (+62%), [Passionate Archaeologist](../../cards/P/pa.md#passionate-archaeologist) (+60%) · EDHREC: in 9,591 decks; most often under [Scarlet Witch, Chaotic Avenger](../../cards/S/sc.md#scarlet-witch-chaotic-avenger) (54.6% of its decks), [Karolina Dean, Runaway](../../cards/K/ka.md#karolina-dean-runaway) (60.1% of its decks), [Prosper, Tome-Bound](../../cards/P/pr.md#prosper-tome-bound) (12.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/700/nico-minoru-runaway) · oracle_id `5303b3f6-970c-47d8-977e-2d6679206ba5` · printing: MSC #700 (2026-06-26) · [rulings](https://api.scryfall.com/cards/89c21b09-8869-4d94-bf29-29c8d1c69d4f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nightbird's Clutches
@@ -760,6 +770,8 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28810 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1 decks; highest synergy [Acclaimed Contender](../../cards/A/ac.md#acclaimed-contender) (+99%), [Cavalier of Dawn](../../cards/C/cav.md#cavalier-of-dawn) (+99%), [Dauntless Bodyguard](../../cards/D/da.md#dauntless-bodyguard) (+99%) · EDHREC: in 345 decks; most often under [Daredevil, Man Without Fear](../../cards/D/da.md#daredevil-man-without-fear) (3.9% of its decks), [Captain America, Wings of Freedom](../../cards/C/cap.md#captain-america-wings-of-freedom) (23.9% of its decks), [Captain America, Team Leader](../../cards/C/cap.md#captain-america-team-leader) (0.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/604/nighthawk-dark-defender) · oracle_id `eb8a373a-ba15-4b3f-959a-b7c708fea616` · printing: MSC #604 (2026-06-26) · [rulings](https://api.scryfall.com/cards/ee250dd3-72fe-4387-be53-97e3ac5e5945/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nighthawk Scavenger
@@ -930,6 +942,8 @@ schema: 2
 - **Keywords:** Flying, Transform
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ptg/1/nightmare-moon-princess-luna) · oracle_id `e724bddb-6195-4943-b9c6-decc96717998` · printing: PTG #1 (2019-10-22) · [rulings](https://api.scryfall.com/cards/5646ea19-0025-4f88-ad22-36968a1d3b89/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nightmares and Daydreams
@@ -1120,6 +1134,8 @@ schema: 2
 - **Keywords:** Lifelink, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15068 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 15 decks; highest synergy [Sevinne's Reclamation](../../cards/S/sev.md#sevinnes-reclamation) (+54%), [Geier Reach Sanitarium](../../cards/G/ge.md#geier-reach-sanitarium) (+44%), [Touch the Spirit Realm](../../cards/T/to.md#touch-the-spirit-realm) (+42%) · EDHREC: in 5,785 decks; most often under [Daredevil, Man Without Fear](../../cards/D/da.md#daredevil-man-without-fear) (52.9% of its decks), [Captain America, Team Leader](../../cards/C/cap.md#captain-america-team-leader) (8.5% of its decks), [Nick Fury, Agent of S.H.I.E.L.D.](../../cards/N/ni.md#nick-fury-agent-of-shield) (5.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/26/night-nurse-healer-of-heroes) · oracle_id `e3559565-0512-4525-addb-bf27903bcd13` · printing: MSH #26 (2026-06-26) · [rulings](https://api.scryfall.com/cards/3199907b-9f24-4554-942a-8ab5a7701717/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Night of Souls' Betrayal
@@ -1696,6 +1712,8 @@ schema: 2
   - *2021-07-23* — If Nihiloor leaves the battlefield before its enters-the-battlefield ability resolves or before its reflexive triggered abilities resolve, then you won't gain control of any creatures.
   - *2021-07-23* — If a creature you tapped for Nihiloor's ability is somehow no longer tapped as the reflexive triggered ability resolves, that ability will still resolve and you will still gain control of the target as long as it has less power than the creature you tapped.
   - *2021-07-23* — If the tapped creature is no longer on the battlefield as the trigger resolves, use its last existence on the battlefield to determine whether the target is still legal as the ability resolves.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 903 decks; highest synergy [Mind Flayer](../../cards/M/min.md#mind-flayer) (+67%), [Extract Brain](../../cards/E/ex.md#extract-brain) (+51%), [Intellect Devourer](../../cards/I/int.md#intellect-devourer) (+51%) · EDHREC: in 2,943 decks; most often under [Sen Triplets](../../cards/S/sen.md#sen-triplets) (15.8% of its decks), [Sefris of the Hidden Ways](../../cards/S/sef.md#sefris-of-the-hidden-ways) (2.8% of its decks), [The Ever-Changing 'Dane](../../cards/T/thee.md#the-ever-changing-dane) (18.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/afc/53/nihiloor) · oracle_id `148271de-3351-41a1-bcf5-3ecaadc51540` · printing: AFC #53 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nihil Spellbomb
@@ -1734,6 +1752,8 @@ schema: 2
   - *2020-04-17* — Once the game begins, your two commanders are tracked separately. If you cast one, you won't have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 damage from one of them, not from both of them combined. Command Beacon's effect puts one into your hand from the command zone, not both.
   - *2020-04-17* — The second ability represented by the "partner with [name]" keyword modifies the rules for deck construction in the Commander variant and has no function outside of that variant. If a legendary creature card with "partner with [name]" is designated as your commander, the named legendary creature card can also be designated as your commander.
   - *2020-04-17* — The triggered ability of the "partner with" keyword still triggers in a Commander game. If your other commander has somehow ended up in your library, you can find it. You can also target another player who might have that card in their library.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 14 decks; highest synergy [Reverent Howl](../../cards/R/rev.md#reverent-howl) (+99%), [Fire Nation Salvagers](../../cards/F/fi.md#fire-nation-salvagers) (+67%), [Feast on the Fallen](../../cards/F/fe.md#feast-on-the-fallen) (+64%) · EDHREC: in 5,700 decks; most often under [Felisa, Fang of Silverquill](../../cards/F/fe.md#felisa-fang-of-silverquill) (20.2% of its decks), [Syr Vondam, Sunstar Exemplar](../../cards/S/sy.md#syr-vondam-sunstar-exemplar) (8.9% of its decks), [Kathril, Aspect Warper](../../cards/K/ka.md#kathril-aspect-warper) (8.6% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/N.md#nikara-lair-scavenger)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c20/3/nikara-lair-scavenger) · oracle_id `2a2376b8-6962-4f9e-ba36-fd7de87dc77d` · printing: C20 #3 (2020-04-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1829,6 +1849,8 @@ schema: 2
   - *2019-01-25* — If you tap a land for more than one mana, you choose one type that was produced and add one mana of that type.
   - *2019-01-25* — Nikya doesn’t care about any restrictions or riders your lands put on the mana they produce, such as those of Unclaimed Territory and Guildmages’ Forum. It just produces one mana of the appropriate type, with no restrictions or riders.
   - *2019-01-25* — The types of mana are white, blue, black, red, green, and colorless.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 44 combos; most popular [Ashaya, Soul of the Wild + Magus of the Candelabra + Nikya of the Old Ways](https://commanderspellbook.com/combo/539-3322-4657/) (Infinite mana lands you control can produce, Infinite green mana) · EDHREC as commander: 3,705 decks; highest synergy [Ruric Thar, the Unbowed](../../cards/R/ru.md#ruric-thar-the-unbowed) (+79%), [Soul of the Harvest](../../cards/S/so.md#soul-of-the-harvest) (+70%), [Beast Whisperer](../../cards/B/be.md#beast-whisperer) (+67%) · EDHREC: in 7,527 decks; most often under [Ruric Thar, the Unbowed](../../cards/R/ru.md#ruric-thar-the-unbowed) (47.9% of its decks), [Alena, Kessig Trapper // Gilanra, Caller of Wirewood](../../cards/A/al.md#alena-kessig-trapper) (32.9% of its decks), [Henzie "Toolbox" Torre](../../cards/H/he.md#henzie-toolbox-torre) (3.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rna/193/nikya-of-the-old-ways) · oracle_id `ebf3fd80-9574-489b-9428-f4251834bdc4` · printing: RNA #193 (2019-01-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nils, Discipline Enforcer
@@ -2616,6 +2638,8 @@ schema: 2
   - *2011-09-22* — If the damage is lethal, the cards are drawn before the creature is destroyed (the next time state-based actions are checked).
   - *2011-09-22* — The effect is not optional. The creature's controller can't choose to draw fewer than X cards.
   - *2011-09-22* — You may choose a value for X that's greater than the creature's toughness. Its controller will draw that many cards.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 2 combos; most popular [Nin, the Pain Artist + Brash Taunter + Mind Over Matter + Nyx Lotus](https://commanderspellbook.com/combo/220-340-4067-4306/) (Infinite mana among colors with which you have devotion, Infinite draw triggers) · EDHREC as commander: 1,203 decks; highest synergy [Brash Taunter](../../cards/B/br.md#brash-taunter) (+75%), [Stuffy Doll](../../cards/S/stu.md#stuffy-doll) (+72%), [Body of Knowledge](../../cards/B/bo.md#body-of-knowledge) (+59%) · EDHREC: in 8,100 decks; most often under [Nekusar, the Mindrazer](../../cards/N/ne.md#nekusar-the-mindrazer) (12.0% of its decks), [Xyris, the Writhing Storm](../../cards/X/xy.md#xyris-the-writhing-storm) (4.2% of its decks), [Inalla, Archmage Ritualist](../../cards/I/ina.md#inalla-archmage-ritualist) (1.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c17/183/nin-the-pain-artist) · oracle_id `ec439630-e18b-45f6-8034-2ecbea27772f` · printing: C17 #183 (2017-08-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nip Gwyllion
@@ -2647,6 +2671,8 @@ schema: 2
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2019-12-07* *(Scryfall note)* — The Commander RC has ruled that if your name is printed on the bottom of a Heroes of the Realm card, that card is legal for you in Commander.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/N.md#nira-hellkite-duelist)
 - **Source flags:** [Scryfall](https://scryfall.com/card/phtr/3/nira-hellkite-duelist) · oracle_id `4fc8d905-8aeb-4a62-a99f-5d888da30f2f` · printing: PHTR #3 (2017-09-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -3183,6 +3209,8 @@ schema: 2
 - **Rulings** (2):
   - *2026-03-20* — Nita's first ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered or otherwise leaves the stack.
   - *2026-03-20* — You pay all costs and follow all timing rules for spells cast this way. For example, if the exiled card is a sorcery, you may cast it only during your main phase while the stack is empty.
+- **Lore:** ✅ Presented with an official backstory on [The Legends of Secrets of Strixhaven](https://magic.wizards.com/en/news/magic-story/the-legends-of-secrets-of-strixhaven) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 421 decks; highest synergy [Gonti, Night Minister](../../cards/G/gon.md#gonti-night-minister) (+66%), [Cunning Rhetoric](../../cards/C/cu.md#cunning-rhetoric) (+55%), [Gonti, Lord of Luxury](../../cards/G/gon.md#gonti-lord-of-luxury) (+55%) · EDHREC: in 2,001 decks; most often under [Silverquill, the Disputant](../../cards/S/si.md#silverquill-the-disputant) (4.3% of its decks), [Sen Triplets](../../cards/S/sen.md#sen-triplets) (8.2% of its decks), [Fire Lord Zuko](../../cards/F/fi.md#fire-lord-zuko) (1.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sos/206/nita-forum-conciliator) · oracle_id `f589e5ee-399c-4613-b7a2-9ab2866cc830` · printing: SOS #206 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nivea, Beloved Battlemage
@@ -3195,6 +3223,8 @@ schema: 2
   > {5}{W}{W}{W}, Sacrifice Nivea: Create an Akroma, Angel of Wrath token. (She's a {5}{W}{W}{W} legendary 6/6 Angel creature with flying, first strike, vigilance, trample, haste, and protection from black and from red.)
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #24181 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 259 decks; highest synergy [Hero of Bladehold](../../cards/H/he.md#hero-of-bladehold) (+73%), [Adeline, Resplendent Cathar](../../cards/A/ad.md#adeline-resplendent-cathar) (+72%), [Kinscaer Sentry](../../cards/K/ki.md#kinscaer-sentry) (+62%) · EDHREC: in 833 decks; most often under [Najeela, the Blade-Blossom](../../cards/N/na.md#najeela-the-blade-blossom) (4.3% of its decks), [Burakos, Party Leader // Folk Hero](../../cards/B/bu.md#burakos-party-leader) (8.6% of its decks), [The Destined Warrior](../../cards/T/thed.md#the-destined-warrior) (3.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbc/3/nivea-beloved-battlemage) · oracle_id `2a5376aa-8996-476e-9ee8-1426b0944091` · printing: MBC #3 (2026-10-19) · [rulings](https://api.scryfall.com/cards/9a845742-a20d-4332-aaa8-d6cd2d5f482b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Niveous Wisps

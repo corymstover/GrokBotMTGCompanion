@@ -85,6 +85,8 @@ schema: 2
   > *He who bears the cap laughs last.*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #21604 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [The Madcap Jester (Grixis)](../../grixis/decks/the-madcap-jester.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1,694 decks; highest synergy [Tasha's Hideous Laughter](../../cards/T/ta.md#tashas-hideous-laughter) (+90%), [Extract](../../cards/E/ex.md#extract) (+79%), [Jester's Cap](../../cards/J/je.md#jesters-cap) (+75%) · EDHREC: in 152 decks; most often under [Nathan Drake, Treasure Hunter](../../cards/N/na.md#nathan-drake-treasure-hunter) (5.4% of its decks), [Jeleva, Nephalia's Scourge](../../cards/J/je.md#jeleva-nephalias-scourge) (4.9% of its decks), [Don Andres, the Renegade](../../cards/D/do.md#don-andres-the-renegade) (1.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 decks) → [reverse index](../../references/T.md#the-madcap-jester)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbc/44/the-madcap-jester) · oracle_id `60f3857d-2dcd-427e-aa0f-e2028bbc5acc` · printing: MBC #44 (2026-10-19) · [rulings](https://api.scryfall.com/cards/fa3a7a06-bec1-47d6-9b62-7a343a2d3d22/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -111,6 +113,8 @@ schema: 2
   > Whenever you cast a spell or play a land you don't own, copy it.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed — *Guidance (Oracle pattern)* — packages: [Card advantage: Impulse / exile-to-play](../../EDH%20Packages.md#card-advantage-impulse--exile-to-play) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RB04f/the-magic-bandit) · oracle_id `db94faef-87d7-435d-8be0-dbe20cee5848` · printing: UNK #RB04f (2024-06-29) · [rulings](https://api.scryfall.com/cards/315e87dd-04f4-4bb0-a939-745a617effb5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Magic Mirror
@@ -144,6 +148,8 @@ schema: 2
   > Whenever this creature deals combat damage to a player, you and that player may each put a permanent card from your hand onto the battlefield. Offer them a high-five.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ04n/the-majestic-duo) · oracle_id `5f736c98-7df3-47fc-9ad2-b4cf9d7654e0` · printing: UNK #RZ04n (2024-10-25) · [rulings](https://api.scryfall.com/cards/8d79f105-357c-4651-bbce-ab03ac6988e5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Mana Rig
@@ -192,6 +198,8 @@ schema: 2
 - **Keywords:** Science, Cosplay
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed — *Guidance (Oracle pattern)* — packages: [Spellslinger: Cast-trigger payoffs](../../EDH%20Packages.md#spellslinger-cast-trigger-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ04j/the-marvelous-scientist) · oracle_id `258e4da4-e7fd-4049-92df-e5433b9f0ce9` · printing: UNK #RZ04j (2024-06-29) · [rulings](https://api.scryfall.com/cards/6a440935-6358-4d83-bc01-ec0af4fad7b7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Mary Janes
@@ -208,6 +216,8 @@ schema: 2
 - **Keywords:** Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22190 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 23 decks; highest synergy [Ghost-Spider, Gwen Stacy](../../cards/G/gh.md#ghost-spider-gwen-stacy) (+43%), [Rampaging Classmate](../../cards/R/ram.md#rampaging-classmate) (+43%), [Spider-Gwen, Free Spirit](../../cards/S/spi.md#spider-gwen-free-spirit) (+43%) · EDHREC: in 1,487 decks; most often under [J. Jonah Jameson](../../cards/J/jj.md#j-jonah-jameson) (38.1% of its decks), [Chong and Lily, Nomads](../../cards/C/cho.md#chong-and-lily-nomads) (64.5% of its decks), [Gwen Stacy](../../cards/G/gw.md#gwen-stacy--ghost-spider) (2.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/spe/15/the-mary-janes) · oracle_id `f2f4e14d-1ce8-41b3-b907-03ff561b42f7` · printing: SPE #15 (2025-09-26) · [rulings](https://api.scryfall.com/cards/88ede451-65c2-4169-b7a1-34edfc4e92ce/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Masamune
@@ -242,6 +252,8 @@ schema: 2
   > Tap three untapped creatures you control: Add {G}{G}{G}.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RG07/the-massive-zatcatl) · oracle_id `7b85a1a9-b52b-4a97-a21c-d82475ac8127` · printing: UNK #RG07 (2024-06-29) · [rulings](https://api.scryfall.com/cards/e758b085-990b-4963-a481-e2bccb35734e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Master, Formed Anew
@@ -258,6 +270,8 @@ schema: 2
   - *2023-10-13* — If an effect instructs you to choose a creature type, you may choose Time Lord.
   - *2023-10-13* — Neither "Time" nor "Lord" are creature types. Some older cards were printed with the subtype "Lord," but all of those cards have updated Oracle card text that removed that type.
   - *2023-10-13* — Unlike other creature types in Magic that are each only one word, the two words "Time Lord" represent a single creature subtype. Time Lord is the only two-word creature type.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 100+ combos; most popular [The Master, Formed Anew + Ashnod's Altar](https://commanderspellbook.com/combo/2034-5326--5--6/) (Infinite creature LTB, Infinite creature ETB) · EDHREC as commander: 849 decks; highest synergy [Cavern Harpy](../../cards/C/cav.md#cavern-harpy) (+57%), [Dour Port-Mage](../../cards/D/do.md#dour-port-mage) (+57%), [Scroll of Fate](../../cards/S/sc.md#scroll-of-fate) (+52%) · EDHREC: in 1,632 decks; most often under [Davros, Dalek Creator](../../cards/D/da.md#davros-dalek-creator) (6.4% of its decks), [Garland, Royal Kidnapper](../../cards/G/ga.md#garland-royal-kidnapper) (7.1% of its decks), [Missy](../../cards/M/mis.md#missy) (6.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/143/the-master-formed-anew) · oracle_id `e7828284-543d-4f8b-9c5e-a8f082010398` · printing: WHO #143 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Master, Gallifrey's End
@@ -278,6 +292,8 @@ schema: 2
   - *2023-10-13* — Neither "Time" nor "Lord" are creature types. Some older cards were printed with the subtype "Lord," but all of those cards have updated Oracle card text that removed that type.
   - *2023-10-13* — Unlike other creature types in Magic that are each only one word, the two words "Time Lord" represent a single creature subtype. Time Lord is the only two-word creature type.
   - *2023-10-13* — When a player faces a villainous choice, they first choose one of the two options, then all actions in the chosen option are performed.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (2): [Missy (Grixis)](../../grixis/decks/missy.md) · [The Valeyard (Grixis)](../../grixis/decks/the-valeyard.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 224 decks; highest synergy [Foundry Inspector](../../cards/F/fo.md#foundry-inspector) (+73%), [Dalek Drone](../../cards/D/da.md#dalek-drone) (+66%), [Psychomancer](../../cards/P/ps.md#psychomancer) (+65%) · EDHREC: in 8,368 decks; most often under [Davros, Dalek Creator](../../cards/D/da.md#davros-dalek-creator) (38.0% of its decks), [Dr. Eggman](../../cards/D/dre.md#dr-eggman) (16.0% of its decks), [The Valeyard](../../cards/T/thev.md#the-valeyard) (71.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/T.md#the-master-gallifreys-end)
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/144/the-master-gallifreys-end) · oracle_id `e5e2e4ef-1d78-41eb-b634-1a90d4cb7125` · printing: WHO #144 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -295,6 +311,8 @@ schema: 2
   - *2023-10-13* — If an effect instructs you to choose a creature type, you may choose Time Lord.
   - *2023-10-13* — Neither "Time" nor "Lord" are creature types. Some older cards were printed with the subtype "Lord," but all of those cards have updated Oracle card text that removed that type.
   - *2023-10-13* — Unlike other creature types in Magic that are each only one word, the two words "Time Lord" represent a single creature subtype. Time Lord is the only two-word creature type.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [The Rani (Grixis)](../../grixis/decks/the-rani.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 456 decks; highest synergy [Fogwalker](../../cards/F/fo.md#fogwalker) (+77%), [Vampire Cutthroat](../../cards/V/va.md#vampire-cutthroat) (+75%), [Rancid Rats](../../cards/R/ran.md#rancid-rats) (+74%) · EDHREC: in 6,998 decks; most often under [Jon Irenicus, Shattered One](../../cards/J/jo.md#jon-irenicus-shattered-one) (16.9% of its decks), [The Rani](../../cards/T/ther.md#the-rani) (45.8% of its decks), [Davros, Dalek Creator](../../cards/D/da.md#davros-dalek-creator) (14.7% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 decks) → [reverse index](../../references/T.md#the-master-mesmerist)
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/145/the-master-mesmerist) · oracle_id `306b6b9b-f488-4ea8-9f5e-9e8e7354df64` · printing: WHO #145 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -344,6 +362,8 @@ schema: 2
 - **Keywords:** Scry, Gelato, Pizza, Food, Pasta
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ05e/the-master-of-cuisine) · oracle_id `af36a560-e573-457c-9f6d-857e8b2c0b51` · printing: UNK #RZ05e (2024-06-29) · [rulings](https://api.scryfall.com/cards/b2fdbf3d-1916-4eaf-a557-f4e364c06e96/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Master of Keys
@@ -405,6 +425,8 @@ schema: 2
   > *—Baron Zemo*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15285 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 11 decks; highest synergy [Baron Strucker, HYDRA Overlord](../../cards/B/bar.md#baron-strucker-hydra-overlord) (+90%), [Crossbones, Malicious Mercenary](../../cards/C/cr.md#crossbones-malicious-mercenary) (+90%), [Yellowjacket, Heartless Marauder](../../cards/Y/ye.md#yellowjacket-heartless-marauder) (+90%) · EDHREC: in 5,427 decks; most often under [Doctor Doom, King of Latveria](../../cards/D/do.md#doctor-doom-king-of-latveria) (10.0% of its decks), [Thanos, the Mad Titan](../../cards/T/tha.md#thanos-the-mad-titan) (22.3% of its decks), [Loki, the Deceiver](../../cards/L/lo.md#loki-the-deceiver) (30.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/105/the-masters-of-evil) · oracle_id `fcb1caea-e1ac-48f0-a67a-d4aadad490d9` · printing: MSH #105 (2026-06-26) · [rulings](https://api.scryfall.com/cards/65ba4439-3282-4179-85b9-67a25e2e5d24/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Master, Transcendent
@@ -444,6 +466,8 @@ schema: 2
 - **Keywords:** Trample, Exert
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12701 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1,982 decks; highest synergy [Koth, Fire of Resistance](../../cards/K/ko.md#koth-fire-of-resistance) (+68%), [Hellkite Courser](../../cards/H/he.md#hellkite-courser) (+66%), [Burnished Hart](../../cards/B/bu.md#burnished-hart) (+64%) · EDHREC: in 6,154 decks; most often under [Lathliss, Dragon Queen](../../cards/L/la.md#lathliss-dragon-queen) (6.0% of its decks), [Zell Dincht](../../cards/Z/ze.md#zell-dincht) (20.5% of its decks), [Solphim, Mayhem Dominus](../../cards/S/so.md#solphim-mayhem-dominus) (4.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#themberchaud)
 - **Source flags:** [Scryfall](https://scryfall.com/card/slx/28/themberchaud) · oracle_id `a422a5b0-1aff-4d07-bcc5-edfbda09dc44` · printing: SLX #28 (2025-04-25) · [rulings](https://api.scryfall.com/cards/1dc40449-0660-4350-900c-ec9b2aaefe1c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -497,6 +521,8 @@ schema: 2
 - **Keywords:** Ward
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19903 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1,177 decks; highest synergy [Shadow of Mortality](../../cards/S/sha.md#shadow-of-mortality) (+81%), [Abhorrent Overlord](../../cards/A/ab.md#abhorrent-overlord) (+73%), [Ancient Stone Idol](../../cards/A/an.md#ancient-stone-idol) (+70%) · EDHREC: in 1,108 decks; most often under [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.2% of its decks), [Xu-Ifit, Osteoharmonist](../../cards/X/xu.md#xu-ifit-osteoharmonist) (0.7% of its decks), [Sephiroth, Fabled SOLDIER](../../cards/S/sep.md#sephiroth-fabled-soldier--sephiroth-one-winged-angel) (0.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sld/1581/the-meep) · oracle_id `ff2448d0-7a45-45be-bf02-19650f490b54` · printing: SLD #1581 (2023-12-11) · [rulings](https://api.scryfall.com/cards/366c4cdb-c6f2-4ee8-b5fb-acb59a9931bf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Meld Hound
@@ -508,6 +534,8 @@ schema: 2
   > Whenever you cast a creature spell, exile cards from the top of your library until you exile a creature card. It melds with that spell. You may give the combined creature spell a new name. (The combined creature spell has the abilities and creature types of both creatures, their combined powers and toughnesses, and so on.)
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ06k/the-meld-hound) · oracle_id `4ebbb36e-a6d9-4f6b-aeb6-6a7d0de9fa4e` · printing: UNK #RZ06k (2026-07-17) · [rulings](https://api.scryfall.com/cards/ab1a1322-1fe1-45e5-9a9d-b30267962cce/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Mending of Dominaria
@@ -571,6 +599,8 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11175 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 54 combos; most popular [Aurelia, the Warleader + The Mighty Thor, Jane Foster](https://commanderspellbook.com/combo/4364-7715/) (Infinite creature ETB, Infinite creature LTB) · EDHREC as commander: 1,628 decks; highest synergy [Puresteel Paladin](../../cards/P/pu.md#puresteel-paladin) (+77%), [Hammer of Nazahn](../../cards/H/ha.md#hammer-of-nazahn) (+60%), [Assassin Gauntlet](../../cards/A/as.md#assassin-gauntlet) (+57%) · EDHREC: in 9,502 decks; most often under [Nick Fury, Agent of S.H.I.E.L.D.](../../cards/N/ni.md#nick-fury-agent-of-shield) (32.3% of its decks), [Captain America, First Avenger](../../cards/C/cap.md#captain-america-first-avenger) (33.6% of its decks), [Captain America, Team Leader](../../cards/C/cap.md#captain-america-team-leader) (11.2% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/222/the-mighty-thor-jane-foster) · oracle_id `57d02dc8-e22e-4874-9f02-490a2528a28f` · printing: MSH #222 (2026-06-26) · [rulings](https://api.scryfall.com/cards/082cc8cc-bbea-4ca7-a0e8-da1f865d6626/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Millennium Calendar
@@ -601,6 +631,8 @@ schema: 2
 - **Keywords:** Landwalk, Swampwalk, Mill, Islandwalk
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ03f/the-milling-runner) · oracle_id `c3a63315-9fa7-4742-b8dd-f7cf91781c94` · printing: UNK #RZ03f (2024-10-25) · [rulings](https://api.scryfall.com/cards/6e808d82-e6c8-47a9-ac44-266e7227e7b7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Mimeoplasm
@@ -665,6 +697,8 @@ schema: 2
   > {4}{W}, Exile a creature card from your graveyard: Create a token that's a copy of the exiled card, except it's an Equipment artifact token instead of a creature. Its equip cost is equal to its mana cost, and it has "Equipped creature gets +X/+X, where X is this card's power."
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RW04d/the-miniaturizer) · oracle_id `68f61e52-a00e-493a-b2b4-fc87bc85b3e7` · printing: UNK #RW04d (2024-06-29) · [rulings](https://api.scryfall.com/cards/2483bde0-6898-4527-bfa5-23b3070594f9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Mirari Conjecture
@@ -719,6 +753,8 @@ schema: 2
   > Spells you cast have split second. (As long as that spell is on the stack, players can't cast spells or activate abilities that aren't mana abilities.)
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RU05c/the-misty-stepper) · oracle_id `e875898b-a6cf-437b-970b-457fc8620c6a` · printing: UNK #RU05c (2025-06-20) · [rulings](https://api.scryfall.com/cards/3fcde30b-7746-4007-80a2-dcc2ac9f9f93/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Modern Age // Vector Glider
@@ -794,6 +830,8 @@ schema: 2
 - **Rulings** (2):
   - *2022-10-07* — Only certain Attractions allow you to claim a prize. These will have the text “Prize —” on them.
   - *2022-10-07* — Though this card is eternal, there is currently only one eternal Attraction which allows you to claim the prize: Pick-a-Beeble. If you want to take advantage of the last ability, it’s best if you’re playing an Un- game, unless you want an appropriate level of challenge for someone calling themselves The Most Dangerous Gamer.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 3,184 decks; highest synergy [Coming Attraction](../../cards/C/com.md#coming-attraction) (+92%), [Discourtesy Clerk](../../cards/D/di.md#discourtesy-clerk) (+91%), ["Lifetime" Pass Holder](../../cards/L/li.md#lifetime-pass-holder) (+89%) · EDHREC: in 1,073 decks; most often under [Yarok, the Desecrated](../../cards/Y/ya.md#yarok-the-desecrated) (0.6% of its decks), [Esika, God of the Tree](../../cards/E/es.md#esika-god-of-the-tree--the-prismatic-bridge) (0.3% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (2 card data) → [reverse index](../../references/T.md#the-most-dangerous-gamer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unf/174/the-most-dangerous-gamer) · oracle_id `dcb9337b-d5fd-4cd2-a41f-900d170a5ded` · printing: UNF #174 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -871,6 +909,8 @@ schema: 2
   > {W}{U}{B}{R}{G}: Untap The Mox Painter.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ03k/the-mox-painter) · oracle_id `bf2f90a3-14c7-4dff-9db1-4c4127ae16c3` · printing: UNK #RZ03k (2025-02-21) · [rulings](https://api.scryfall.com/cards/cb11a4ff-1215-4749-b71b-b0eacf057fc0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Muckslinger Gang
@@ -885,6 +925,8 @@ schema: 2
   > *Niv-Mizzet enthusiastically rejected their bid to become an eleventh guild.*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #19708 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 24 combos; most popular [The Muckslinger Gang + Warbeast of Gorgoroth + Altar of Dementia](https://commanderspellbook.com/combo/5254-5256-8122/) (Infinite creature ETB, Infinite creature LTB) · EDHREC as commander: 2,473 decks; highest synergy [Fanatic of Rhonas](../../cards/F/fa.md#fanatic-of-rhonas) (+71%), [Goreclaw, Terror of Qal Sisma](../../cards/G/gor.md#goreclaw-terror-of-qal-sisma) (+71%), [Garruk's Uprising](../../cards/G/ga.md#garruks-uprising) (+70%) · EDHREC: in 181 decks; most often under [Ziatora, the Incinerator](../../cards/Z/zi.md#ziatora-the-incinerator) (3.6% of its decks), [Coram, the Undertaker](../../cards/C/cor.md#coram-the-undertaker) (1.5% of its decks), [Kresh the Bloodbraided](../../cards/K/kr.md#kresh-the-bloodbraided) (1.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbc/46/the-muckslinger-gang) · oracle_id `56cacdcf-2f11-4969-9629-446068a15369` · printing: MBC #46 (2026-10-19) · [rulings](https://api.scryfall.com/cards/99e4f6ac-c998-4ab3-a554-0503b16e936e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Multifaceted Phyrexian
@@ -899,6 +941,8 @@ schema: 2
 - **Keywords:** Protection
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RB03/the-multifaceted-phyrexian) · oracle_id `2e2b4009-30f5-48d9-8fa3-534c10f7ab7a` · printing: UNK #RB03 (2025-02-21) · [rulings](https://api.scryfall.com/cards/50656635-65aa-4408-868b-33b35e439f51/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Multiplayer Nitpickers
@@ -910,6 +954,8 @@ schema: 2
   > Treat your effects that scale off of "players" or "opponents" as though there were one more. (For example, with myriad you'd make an additional token that's just attacking nobody, and with Braids, Arisen Nightmare, you'd draw an additional card.)
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ02d/the-multiplayer-nitpickers) · oracle_id `f2837c4a-fb31-48bf-90ae-63461ba553ec` · printing: UNK #RZ02d (2024-10-25) · [rulings](https://api.scryfall.com/cards/1fac203c-a015-45b4-a59d-bf6ac55304c4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Mycosynth Gardens

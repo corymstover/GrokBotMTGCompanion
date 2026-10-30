@@ -218,6 +218,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12009 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2007-07-15* — If Ascendant Evincar stops being black, it gives itself -1/-1.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 3 combos; most popular [Godhead of Awe + Ascendant Evincar](https://commanderspellbook.com/combo/2201-3931/) (All nonblack creatures die upon entering, Lock) · EDHREC as commander: 177 decks; highest synergy [Bad Moon](../../cards/B/bad.md#bad-moon) (+51%), [Paragon of Open Graves](../../cards/P/pa.md#paragon-of-open-graves) (+27%), [Terror](../../cards/T/te.md#terror) (+27%) · EDHREC: in 8,819 decks; most often under [Maha, Its Feathers Night](../../cards/M/mah.md#maha-its-feathers-night) (43.5% of its decks), [Massacre Girl, Known Killer](../../cards/M/mas.md#massacre-girl-known-killer) (36.2% of its decks), [Edgar Markov](../../cards/E/ed.md#edgar-markov) (0.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hop/17/ascendant-evincar) · oracle_id `e32c0de7-132d-4a39-85fb-da0ed1132878` · printing: HOP #17 (2009-09-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ascendant Packleader
@@ -401,6 +403,8 @@ schema: 2
   - *2023-10-13* — If you pay the casualty cost of a spell, the copy will resolve before the original spell.
   - *2023-10-13* — The copy of the spell is created on the stack, so it's not "cast." Abilities that trigger when a player casts a spell won't trigger.
   - *2023-10-13* — You may sacrifice only one creature to pay a spell's casualty cost, and you copy the spell only once.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (4): [Ashad, the Lone Cyberman (Grixis)](../../grixis/decks/ashad-the-lone-cyberman.md) · [Cult of Skaro (Grixis)](../../grixis/decks/cult-of-skaro.md) · [Davros, Dalek Creator (Grixis)](../../grixis/decks/davros-dalek-creator.md) · [Missy (Grixis)](../../grixis/decks/missy.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1,785 decks; highest synergy [Thought Monitor](../../cards/T/tho.md#thought-monitor) (+66%), [Enthusiastic Mechanaut](../../cards/E/en.md#enthusiastic-mechanaut) (+65%), [Solemn Simulacrum](../../cards/S/so.md#solemn-simulacrum) (+65%) · EDHREC: in 5,462 decks; most often under [Davros, Dalek Creator](../../cards/D/da.md#davros-dalek-creator) (39.5% of its decks), [Missy](../../cards/M/mis.md#missy) (40.6% of its decks), [Mishra, Eminent One](../../cards/M/mis.md#mishra-eminent-one) (4.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 4 pages (4 decks) → [reverse index](../../references/A.md#ashad-the-lone-cyberman)
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/113/ashad-the-lone-cyberman) · oracle_id `f3902dfd-6d09-425f-8446-a68cae2eea50` · printing: WHO #113 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1010,6 +1014,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13844 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2013-07-01* — The target of the ability is chosen when Ashling's ability is put on the stack. When the ability resolves, the player dealt combat damage by Ashling sacrifices that creature if they still control it. Neither regeneration nor indestructible can save a creature from being sacrificed.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 185 decks; highest synergy [Whispersilk Cloak](../../cards/W/wh.md#whispersilk-cloak) (+62%), [Fireshrieker](../../cards/F/fi.md#fireshrieker) (+60%), [Rogue's Passage](../../cards/R/ro.md#rogues-passage) (+54%) · EDHREC: in 6,561 decks; most often under [Jin Sakai, Ghost of Tsushima](../../cards/J/ji.md#jin-sakai-ghost-of-tsushima) (18.9% of its decks), [Kamiz, Obscura Oculus](../../cards/K/ka.md#kamiz-obscura-oculus) (11.3% of its decks), [Felix Five-Boots](../../cards/F/fe.md#felix-five-boots) (5.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eve/33/ashling-the-extinguisher) · oracle_id `e89e102f-e3bc-4c16-bb27-09db83cec5ec` · printing: EVE #33 (2008-07-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ashling, the Limitless
@@ -1046,6 +1052,8 @@ schema: 2
   - *2023-07-28* — Ashling the Pilgrim's ability counts resolutions, not activations. Any such abilities that are still on the stack won't count toward the total.
   - *2023-07-28* — When the ability resolves, it counts the number of times that same ability from that this creature has already resolved that turn. It doesn't matter who controlled the creature or the previous abilities when they resolved. A copy of this ability (created by Rings of Brighthearth, for example) will count toward the total. Abilities from other creatures with the same name don't count towards the total. Neither does an ability that's been countered.
   - *2023-07-28* — You get the bonus only the third time the ability resolves. You won't get the bonus the fourth, fifth, sixth, or any subsequent times.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Ashling the Pilgrim + Scythe of the Wretched](https://commanderspellbook.com/combo/1331-3916/) (Gain control of most creatures during each of your turns) · EDHREC as commander: 2,535 decks; highest synergy [Basilisk Collar](../../cards/B/bas.md#basilisk-collar) (+60%), [Heartstone](../../cards/H/he.md#heartstone) (+59%), [Ring of Valkas](../../cards/R/ri.md#ring-of-valkas) (+53%) · EDHREC: in 6,402 decks; most often under [Dihada, Binder of Wills](../../cards/D/di.md#dihada-binder-of-wills) (7.5% of its decks), [Auntie Blyte, Bad Influence](../../cards/A/au.md#auntie-blyte-bad-influence) (14.9% of its decks), [Iroh, Dragon of the West](../../cards/I/ir.md#iroh-dragon-of-the-west) (35.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/205/ashling-the-pilgrim) · oracle_id `bc92f0ba-2cf0-453c-a0d3-98a8784fe55b` · printing: CMM #205 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ashmouth Hound
@@ -1077,6 +1085,8 @@ schema: 2
   - *2022-10-14* — Although all the cards in The Brothers' War that create Powerstone tokens create a tapped Powerstone token, entering the battlefield tapped isn't part of the token's definition. Notably, if you create a token that is a copy of a Powerstone token, the token copy won't enter the battlefield tapped.
   - *2022-10-14* — Powerstone tokens are a kind of predefined token. Each one has the artifact subtype "Powerstone" and the ability "{T}: Add {C}. This mana can't be spent to cast a nonartifact spell."
   - *2022-10-14* — You can use the {C} added by a Powerstone token on anything that isn't a nonartifact spell. This includes paying costs to activate abilities of both artifact and nonartifact permanents, paying ward costs, and so on.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 2,723 decks; highest synergy [Haunt of the Dead Marshes](../../cards/H/ha.md#haunt-of-the-dead-marshes) (+61%), [Bloodsoaked Champion](../../cards/B/blo.md#bloodsoaked-champion) (+59%), [Persistent Specimen](../../cards/P/pe.md#persistent-specimen) (+57%) · EDHREC: in 7,436 decks; most often under [Gix, Yawgmoth Praetor](../../cards/G/gi.md#gix-yawgmoth-praetor) (14.1% of its decks), [The Serpent Society](../../cards/T/thes.md#the-serpent-society) (7.0% of its decks), [Ashnod the Uncaring](../../cards/A/as.md#ashnod-the-uncaring) (4.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#ashnod-flesh-mechanist)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/84/ashnod-flesh-mechanist) · oracle_id `7dfae95e-f67e-49e3-b68a-40ea7e5099dd` · printing: BRO #84 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1190,6 +1200,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13659 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2022-10-14* — “Sacrificed to activate it” means that a permanent was sacrificed to pay the ability’s costs. Sacrificing an artifact, such as a Treasure token, to create mana that you used to pay an activation cost doesn’t count.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Ashnod the Uncaring (Grixis)](../../grixis/decks/ashnod-the-uncaring.md) · Commander Spellbook: 49 combos; most popular [Ashnod the Uncaring + Whisper, Blood Liturgist + Lightning Greaves](https://commanderspellbook.com/combo/876-2068-4283/) (Infinite death triggers, Infinite creature ETB) · EDHREC as commander: 3,219 decks; highest synergy [Emry, Lurker of the Loch](../../cards/E/em.md#emry-lurker-of-the-loch) (+65%), [Aether Spellbomb](../../cards/A/ae.md#aether-spellbomb) (+61%), [Sai, Master Thopterist](../../cards/S/sai.md#sai-master-thopterist) (+60%) · EDHREC: in 3,637 decks; most often under [Mishra, Eminent One](../../cards/M/mis.md#mishra-eminent-one) (16.7% of its decks), [Breya, Etherium Shaper](../../cards/B/br.md#breya-etherium-shaper) (3.4% of its decks), [Atogatog](../../cards/A/at.md#atogatog) (33.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 decks) → [reverse index](../../references/A.md#ashnod-the-uncaring)
 - **Source flags:** [Scryfall](https://scryfall.com/card/brc/4/ashnod-the-uncaring) · oracle_id `dcd5ab1b-adc5-486e-a1e0-636af6ee9470` · printing: BRC #4 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1211,6 +1223,8 @@ schema: 2
   - *2023-09-01* — Others are static abilities that give creatures abilities or power and toughness increases as long as two or more nonland permanents entered the battlefield under your control that turn.
   - *2023-09-01* — Some celebration abilities trigger at specific parts of the turn and check whether two or more nonland permanents entered the battlefield under your control already in that turn.
   - *2023-09-01* — The permanents that entered the battlefield don't need to remain on the battlefield or under your control. Celebration abilities are checking for past events, not the current game state.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 229 decks; highest synergy [Bespoke Battlegarb](../../cards/B/be.md#bespoke-battlegarb) (+47%), [Lady of Laughter](../../cards/L/la.md#lady-of-laughter) (+47%), [Raging Battle Mouse](../../cards/R/rag.md#raging-battle-mouse) (+47%) · EDHREC: in 4,212 decks; most often under [General Ferrous Rokiric](../../cards/G/ge.md#general-ferrous-rokiric) (25.6% of its decks), [Sonic the Hedgehog](../../cards/S/so.md#sonic-the-hedgehog) (1.6% of its decks), [Isshin, Two Heavens as One](../../cards/I/is.md#isshin-two-heavens-as-one) (0.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/201/ash-party-crasher) · oracle_id `1bc701e2-913a-45d5-bc3f-16f87e7e2653` · printing: WOE #201 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ashroot Animist
@@ -1298,6 +1312,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24709 · Game Changer: no · Can be commander: Yes (legendary creature) · Reserved List
 - **Rulings** (1):
   - *2004-10-04* — The ability counts creatures that went to the graveyard before this card entered the battlefield.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 605 decks; highest synergy [Fecundity](../../cards/F/fe.md#fecundity) (+66%), [Sakura-Tribe Elder](../../cards/S/sak.md#sakura-tribe-elder) (+50%), [Angelic Renewal](../../cards/A/an.md#angelic-renewal) (+47%) · EDHREC: in 274 decks; most often under [Galadriel, Light of Valinor](../../cards/G/ga.md#galadriel-light-of-valinor) (0.3% of its decks), [Captain Sisay](../../cards/C/cap.md#captain-sisay) (0.4% of its decks), [Saffi Eriksdotter](../../cards/S/saf.md#saffi-eriksdotter) (1.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mir/256/asmira-holy-avenger) · oracle_id `a0397f06-d557-4c9f-af89-238ab38ada3e` · printing: MIR #256 (1996-10-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Asmodeus the Archfiend
@@ -1338,6 +1354,8 @@ schema: 2
   - *2024-11-08* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
   - *2024-11-08* — Whatever you do, don't eat the delicious cards.
   - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 14 combos; most popular [Asmoranomardicadaistinaculdacar + Academy Manufactor + Nuka-Cola Vending Machine](https://commanderspellbook.com/combo/1575-4231-5157/) (Infinite artifact ETB, Infinite artifact tokens) · EDHREC as commander: 5,424 decks; highest synergy [The Underworld Cookbook](../../cards/T/theu.md#the-underworld-cookbook) (+97%), [Witch's Oven](../../cards/W/wi.md#witchs-oven) (+75%), [Academy Manufactor](../../cards/A/ac.md#academy-manufactor) (+73%) · EDHREC: in 2,827 decks; most often under [Norman Osborn](../../cards/N/no.md#norman-osborn--green-goblin) (1.9% of its decks), [Anje Falkenrath](../../cards/A/an.md#anje-falkenrath) (4.4% of its decks), [Korvold, Fae-Cursed King](../../cards/K/ko.md#korvold-fae-cursed-king) (0.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh2/186/asmoranomardicadaistinaculdacar) · oracle_id `1f74e26f-5cf3-4b0e-bcc6-f858599474fc` · printing: MH2 #186 (2021-06-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aspect of Gorgon
@@ -2093,6 +2111,8 @@ schema: 2
 - **Keywords:** Reach
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18233 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 692 decks; highest synergy [Spider-Man, New Champion](../../cards/S/spi.md#spider-man-new-champion) (+84%), [Cool but Rude](../../cards/C/coo.md#cool-but-rude) (+74%), [Magmakin Artillerist](../../cards/M/mag.md#magmakin-artillerist) (+73%) · EDHREC: in 2,589 decks; most often under [Cosmic Spider-Man](../../cards/C/cos.md#cosmic-spider-man) (11.7% of its decks), [Norman Osborn](../../cards/N/no.md#norman-osborn--green-goblin) (6.4% of its decks), [Captain Howler, Sea Scourge](../../cards/C/cap.md#captain-howler-sea-scourge) (13.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/740/astonishing-spider-man) · oracle_id `24059283-edbd-4817-9f35-4be02f07b8f8` · printing: MSC #740 (2026-06-26) · [rulings](https://api.scryfall.com/cards/b5787d4b-ce1e-49d9-9669-307bda264b33/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Astor, Bearer of Blades

@@ -135,6 +135,8 @@ schema: 2
 - **Keywords:** Flying, Surveil
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25881 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 17 decks; highest synergy [Marauding Blight-Priest](../../cards/M/mar.md#marauding-blight-priest) (+52%), [Trespasser's Curse](../../cards/T/tre.md#trespassers-curse) (+41%), [Epicure of Blood](../../cards/E/ep.md#epicure-of-blood) (+40%) · EDHREC: in 698 decks; most often under [Bob, Reluctant HYDRA Agent](../../cards/B/bo.md#bob-reluctant-hydra-agent) (17.2% of its decks), [Madame Hydra](../../cards/M/mad.md#madame-hydra) (6.8% of its decks), [Whiplash, Vengeful Engineer](../../cards/W/wh.md#whiplash-vengeful-engineer) (2.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/662/mach-1-swooping-scoundrel) · oracle_id `75810ce7-328c-4512-8e36-fd3badbd3997` · printing: MSC #662 (2026-06-26) · [rulings](https://api.scryfall.com/cards/f3933900-a6f7-411c-be2a-96fe7c28f972/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ma Chao, Western Warrior
@@ -149,6 +151,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27333 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2009-10-01* — Despite the similarities between horsemanship and flying, horsemanship doesn't interact with flying or reach.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 33 decks; highest synergy [Cathedral of War](../../cards/C/cat.md#cathedral-of-war) (+63%), [Hammer of Nazahn](../../cards/H/ha.md#hammer-of-nazahn) (+57%), [Commander's Plate](../../cards/C/com.md#commanders-plate) (+54%) · EDHREC: in 463 decks; most often under [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.2% of its decks), [Kenrith, the Returned King](../../cards/K/ke.md#kenrith-the-returned-king) (0.2% of its decks), [Esika, God of the Tree](../../cards/E/es.md#esika-god-of-the-tree--the-prismatic-bridge) (0.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#ma-chao-western-warrior)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ptk/116/ma-chao-western-warrior) · oracle_id `023e26d8-b67d-43dd-89b1-8905b1183094` · printing: PTK #116 (1999-05-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -200,6 +204,8 @@ schema: 2
   > *"They made me in their own image, then condemned me to death for being too human."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25559 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 10 decks; highest synergy [Mithril Coat](../../cards/M/mit.md#mithril-coat) (+73%), [Hammer of Nazahn](../../cards/H/ha.md#hammer-of-nazahn) (+68%), [Labyrinth of Skophos](../../cards/L/la.md#labyrinth-of-skophos) (+62%) · EDHREC: in 768 decks; most often under [Ultron, Artificial Malevolence](../../cards/U/ul.md#ultron-artificial-malevolence) (1.6% of its decks), [Tony Stark](../../cards/T/to.md#tony-stark--the-invincible-iron-man) (0.8% of its decks), [The Vision](../../cards/T/thev.md#the-vision) (4.2% of its decks) — *Guidance (Oracle pattern)* — packages: [Spellslinger: Cast-trigger payoffs](../../EDH%20Packages.md#spellslinger-cast-trigger-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/751/machine-man-model-x-51) · oracle_id `853587be-9709-43a4-81c9-5b6dabe523cf` · printing: MSC #751 (2026-06-26) · [rulings](https://api.scryfall.com/cards/b15fcd0a-ad2a-4265-a4f6-c11d361ad686/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Machine Over Matter

@@ -117,6 +117,8 @@ schema: 2
   > Winter — Her Majesty can't attack or block.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed — *Guidance (Oracle pattern)* — packages: [Aristocrats: Death-trigger drain payoffs](../../EDH%20Packages.md#aristocrats-death-trigger-drain-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RB13b/the-underworld-fantasy-queen) · oracle_id `6206e6b7-20b4-4299-8c99-0dbc407badda` · printing: UNK #RB13b (2026-05-01) · [rulings](https://api.scryfall.com/cards/89abcf79-8113-49ea-a8c8-ee2e0ebb1acd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Unknown Wizard
@@ -132,6 +134,8 @@ schema: 2
 - **Keywords:** Eminence
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed — *Guidance (Oracle pattern)* — packages: [Ramp: Cost reducers](../../EDH%20Packages.md#ramp-cost-reducers) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/MZ01/the-unknown-wizard) · oracle_id `29ef75e2-e3c9-4491-8345-b40ff39caadd` · printing: UNK #MZ01 (2024-10-25) · [rulings](https://api.scryfall.com/cards/a0af46f8-5abf-4436-9bb4-906ad44420d6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Unluckiest Planeswalker
@@ -164,6 +168,8 @@ schema: 2
 - **Keywords:** Flying, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20016 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 73 decks; highest synergy [Eerie Procession](../../cards/E/ee.md#eerie-procession) (+89%), [Consuming Vortex](../../cards/C/con.md#consuming-vortex) (+86%), [Peer Through Depths](../../cards/P/pe.md#peer-through-depths) (+86%) · EDHREC: in 2,202 decks; most often under [Kalamax, the Stormsire](../../cards/K/ka.md#kalamax-the-stormsire) (5.0% of its decks), [O-Kagachi, Vengeful Kami](../../cards/O/ok.md#o-kagachi-vengeful-kami) (5.6% of its decks), [Cloudhoof Kirin](../../cards/C/cl.md#cloudhoof-kirin) (80.7% of its decks) — *Guidance (Oracle pattern)* — packages: [Graveyard: Recursion to hand](../../EDH%20Packages.md#graveyard-recursion-to-hand) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#the-unspeakable)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dds/13/the-unspeakable) · oracle_id `64e413c9-96e5-43c3-a182-84d53fef4327` · printing: DDS #13 (2017-03-31) · [rulings](https://api.scryfall.com/cards/e956c695-bf0a-430c-a14e-196ae6ab7c9f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -202,4 +208,6 @@ schema: 2
 - **Rulings** (2):
   - *2026-08-21* — If a Sphinx you control enters attacking, it won't cause the Ur-Sphinx's last ability to trigger.
   - *2026-08-21* — You cast the spells while The Ur-Sphinx's last ability is resolving and still on the stack. You can't wait to cast them later in the turn. Timing restrictions based on the cards' types are ignored. If you cast a spell "without paying its mana cost," you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If a spell has any mandatory additional costs, you must pay those costs to cast that spell. If a spell has {X} in its mana cost, you must choose 0 as the value of X.
+- **Lore:** ✅ Presented with an official backstory on [The Legends of Reality Fracture](https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 6,039 decks; highest synergy [Unesh, Criosphinx Sovereign](../../cards/U/un.md#unesh-criosphinx-sovereign) (+85%), [Yennett, Cryptic Sovereign](../../cards/Y/ye.md#yennett-cryptic-sovereign) (+78%), [Magister Sphinx](../../cards/M/mag.md#magister-sphinx) (+71%) · EDHREC: in 3,982 decks; most often under [Yennett, Cryptic Sovereign](../../cards/Y/ye.md#yennett-cryptic-sovereign) (38.2% of its decks), [Raffine, Scheming Seer](../../cards/R/raf.md#raffine-scheming-seer) (14.3% of its decks), [Y'shtola, Night's Blessed](../../cards/Y/ys.md#yshtola-nights-blessed) (0.6% of its decks) — *Guidance (Oracle pattern)* — packages: [Ramp: Cost reducers](../../EDH%20Packages.md#ramp-cost-reducers) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/frc/12/the-ur-sphinx) · oracle_id `4a3fdb8e-4699-4bd9-84e6-3cc7fea0e1ef` · printing: FRC #12 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

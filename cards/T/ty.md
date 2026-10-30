@@ -67,6 +67,8 @@ schema: 2
 - **Keywords:** Prowess
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11573 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 92 decks; highest synergy [Firebending Student](../../cards/F/fi.md#firebending-student) (+65%), [Brute Force](../../cards/B/br.md#brute-force) (+60%), [Mai, Jaded Edge](../../cards/M/mai.md#mai-jaded-edge) (+60%) · EDHREC: in 9,832 decks; most often under [Fire Lord Azula](../../cards/F/fi.md#fire-lord-azula) (9.9% of its decks), [Ozai, the Phoenix King](../../cards/O/oz.md#ozai-the-phoenix-king) (11.5% of its decks), [Iroh, Grand Lotus](../../cards/I/ir.md#iroh-grand-lotus) (4.3% of its decks) — *Guidance (Oracle pattern)* — packages: [Spellslinger: Cast-trigger payoffs](../../EDH%20Packages.md#spellslinger-cast-trigger-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/158/ty-lee-artful-acrobat) · oracle_id `3726b9a0-67cb-4f45-ab50-62db50f93568` · printing: TLA #158 (2025-11-21) · [rulings](https://api.scryfall.com/cards/dcd9df24-272b-4aa1-b05f-6ee6b3d3dfe7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ty Lee, Chi Blocker
@@ -129,6 +131,8 @@ schema: 2
   - *2020-01-24* — If you put an Aura on an opponent's permanent, you still control the Aura, and mana symbols in its mana cost count towards your devotion.
   - *2020-01-24* — Mana symbols in the text boxes of permanents you control don't count toward your devotion to any color.
   - *2020-01-24* — The ability that defines Tymaret's toughness works in all zones, not just the battlefield.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 224 decks; highest synergy [Altar of the Pantheon](../../cards/A/al.md#altar-of-the-pantheon) (+38%), [Underworld Dreams](../../cards/U/un.md#underworld-dreams) (+34%), [Drag to the Underworld](../../cards/D/dra.md#drag-to-the-underworld) (+33%) · EDHREC: in 11,045 decks; most often under [K'rrik, Son of Yawgmoth](../../cards/K/kr.md#krrik-son-of-yawgmoth) (3.5% of its decks), [Ketramose, the New Dawn](../../cards/K/ke.md#ketramose-the-new-dawn) (3.5% of its decks), [Erebos, God of the Dead](../../cards/E/er.md#erebos-god-of-the-dead) (19.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/thb/119/tymaret-chosen-from-death) · oracle_id `64b4e91f-83a4-4b3f-87d4-8c48907e628d` · printing: THB #119 (2020-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tymaret, the Murder King
@@ -144,6 +148,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19840 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2013-09-15* — Tymaret's last ability can be activated only if Tymaret is in your graveyard. Notably, Tymaret can't be sacrificed to return itself.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 448 decks; highest synergy [Gravecrawler](../../cards/G/gra.md#gravecrawler) (+62%), [Reassembling Skeleton](../../cards/R/rea.md#reassembling-skeleton) (+45%), [Midnight Reaper](../../cards/M/mid.md#midnight-reaper) (+39%) · EDHREC: in 1,870 decks; most often under [Lyzolda, the Blood Witch](../../cards/L/ly.md#lyzolda-the-blood-witch) (25.4% of its decks), [Juri, Master of the Revue](../../cards/J/ju.md#juri-master-of-the-revue) (1.7% of its decks), [Child of Alara](../../cards/C/chi.md#child-of-alara) (1.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ths/207/tymaret-the-murder-king) · oracle_id `0a029c61-b1de-427b-a8e8-36f3a23f001b` · printing: THS #207 (2013-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tymna the Weaver
@@ -200,6 +206,8 @@ schema: 2
 - **Keywords:** Mary, Typhoid Mary, Bloody Mary, Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12401 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 92 decks; highest synergy [Monument to Endurance](../../cards/M/mon.md#monument-to-endurance) (+62%), [Archfiend of Ifnir](../../cards/A/arc.md#archfiend-of-ifnir) (+55%), [Fear of Missing Out](../../cards/F/fe.md#fear-of-missing-out) (+55%) · EDHREC: in 8,822 decks; most often under [Doctor Doom, King of Latveria](../../cards/D/do.md#doctor-doom-king-of-latveria) (54.8% of its decks), [Loki, the Deceiver](../../cards/L/lo.md#loki-the-deceiver) (31.7% of its decks), [Norman Osborn](../../cards/N/no.md#norman-osborn--green-goblin) (9.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/99/typhoid-mary-fractured) · oracle_id `867b3923-692c-4444-a071-518a290e43d8` · printing: MSC #99 (2026-06-26) · [rulings](https://api.scryfall.com/cards/6880df6d-2ec3-459d-aa4f-92f595fab9b8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Typhoid Rats
@@ -473,6 +481,8 @@ schema: 2
   > *The Avishkari delegation considered their treaties with the Saurid Autocracy settled, but that was a crucial misunderstanding. To the Autocracy, diplomacy is a matter of power, not paper; testing the Grand Prix's defenses is merely their way of making a counteroffer.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16812 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Presented with an official backstory on [The Legends of Aetherdrift](https://magic.wizards.com/en/news/feature/the-legends-of-aetherdrift) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 197 decks; highest synergy [Furious Rise](../../cards/F/fu.md#furious-rise) (+36%), [Temur Battle Rage](../../cards/T/te.md#temur-battle-rage) (+36%), [Poetic Ingenuity](../../cards/P/po.md#poetic-ingenuity) (+31%) · EDHREC: in 3,848 decks; most often under [Dragonhawk, Fate's Tempest](../../cards/D/dra.md#dragonhawk-fates-tempest) (28.4% of its decks), [Gornog, the Red Reaper](../../cards/G/gor.md#gornog-the-red-reaper) (8.3% of its decks), [Eshki, Temur's Roar](../../cards/E/es.md#eshki-temurs-roar) (2.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/149/tyrox-saurid-tyrant) · oracle_id `b24d95fa-3cf7-495e-9082-11f8db151906` · printing: DFT #149 (2025-02-14) · [rulings](https://api.scryfall.com/cards/159dc5a8-5cba-4c20-8c07-28a3d86c8411/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tyrranax

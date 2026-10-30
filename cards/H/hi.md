@@ -1524,6 +1524,8 @@ schema: 2
 - **Rulings** (2):
   - *2004-12-01* — If you exile Hikari, it leaves the battlefield before the spell that triggered it resolves its ability, so it will be unaffected by that spell.
   - *2004-12-01* — You may choose not to exile Hikari.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 41 decks; highest synergy [Ethereal Haze](../../cards/E/et.md#ethereal-haze) (+89%), [Blessed Breath](../../cards/B/ble.md#blessed-breath) (+85%), [Nikko-Onna](../../cards/N/ni.md#nikko-onna) (+83%) · EDHREC: in 326 decks; most often under [Celestial Kirin](../../cards/C/ce.md#celestial-kirin) (23.6% of its decks), [King of the Oathbreakers](../../cards/K/ki.md#king-of-the-oathbreakers) (0.4% of its decks), [Oyobi, Who Split the Heavens](../../cards/O/oy.md#oyobi-who-split-the-heavens) (8.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mm2/18/hikari-twilight-guardian) · oracle_id `98a89d5c-871c-4da6-a502-9fdb7bdfccff` · printing: MM2 #18 (2015-05-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hildibrand Manderville // Gentleman's Rise
@@ -1550,6 +1552,8 @@ schema: 2
   - *2025-06-06* — When playing a card as an Adventure, use the alternative characteristics and ignore all of the card's normal characteristics. The resulting spell's color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
   - *2025-06-06* — You must follow the normal timing permissions and restrictions for Gentleman's Rise when casting it with the permission of Hildibrand Manderville's triggered ability. You must pay its mana cost (or, if another effect allows, an alternative cost).
   - *2025-06-06* — You must still follow any timing restrictions and permissions for the card you play from exile. In the case of any of the five lands in this release, you'll be able to play it only during your main phase while the stack is empty and only if you have an available land play remaining.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Hildibrand Manderville // Gentleman's Rise + Ashnod's Altar + Pitiless Plunderer](https://commanderspellbook.com/combo/2034-4871-6564/) (Infinite creature LTB, Infinite creature ETB) · EDHREC as commander: 1,081 decks; highest synergy [On Wings of Gold](../../cards/O/on.md#on-wings-of-gold) (+65%), [Ratadrabik of Urborg](../../cards/R/rat.md#ratadrabik-of-urborg) (+55%), [Nasty End](../../cards/N/na.md#nasty-end) (+51%) · EDHREC: in 11,090 decks; most often under [Y'shtola, Night's Blessed](../../cards/Y/ys.md#yshtola-nights-blessed) (9.3% of its decks), [G'raha Tia, Scion Reborn](../../cards/G/gra.md#graha-tia-scion-reborn) (26.9% of its decks), [Silverquill, the Disputant](../../cards/S/si.md#silverquill-the-disputant) (4.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/H.md#hildibrand-manderville--gentlemans-rise)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fic/83/hildibrand-manderville-gentlemans-rise) · oracle_id `6df03db9-e4b3-4931-94e3-c582d2b04110` · printing: FIC #83 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1624,6 +1628,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9946 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2022-02-18* — Hinata's last two abilities ability count the number of players or objects that are targets of a spell as it is cast, not the number of times the card text uses the word “target.” For example, a spell you cast that says “target creature” twice would cost {1} less to cast if each instance targeted the same creature and {2} less to cast if they each targeted different creatures.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 26 combos; most popular [Hinata, Dawn-Crowned + Soulfire Grand Master + Reality Spasm](https://commanderspellbook.com/combo/2128-4560-4697/) (Infinite untap of permanents you control, Infinite magecraft triggers) · EDHREC as commander: 7,081 decks; highest synergy [Curse of the Swine](../../cards/C/cu.md#curse-of-the-swine) (+77%), [Heliod's Intervention](../../cards/H/he.md#heliods-intervention) (+71%), [March of Swirling Mist](../../cards/M/mar.md#march-of-swirling-mist) (+71%) · EDHREC: in 5,596 decks; most often under [Shiko and Narset, Unified](../../cards/S/shi.md#shiko-and-narset-unified) (26.0% of its decks), [Kykar, Wind's Fury](../../cards/K/ky.md#kykar-winds-fury) (1.7% of its decks), [Vadrok, Apex of Thunder](../../cards/V/va.md#vadrok-apex-of-thunder) (12.7% of its decks) — *Guidance (Oracle pattern)* — packages: [Ramp: Cost reducers](../../EDH%20Packages.md#ramp-cost-reducers) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/222/hinata-dawn-crowned) · oracle_id `aee473c7-c659-421c-96b5-05f57ca2ed97` · printing: NEO #222 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hinder
@@ -1970,6 +1976,8 @@ schema: 2
   - *2024-11-08* — Once a creature with daunt has been blocked, reducing the power of a creature blocking it to 2 or less won’t cause that creature to stop blocking.
   - *2024-11-08* — Playtest cards aren’t legal for play in any tournament format other than Mystery Booster Limited formats. On the other hand, we expect they will spice up a wide variety of non-tournament games (as long as everyone’s on the same page about using them!).
   - *2024-11-08* — Playtest cards use a modified version of game symbols, such as {T} and {W}. These modified symbols should be treated as the standard symbols during play.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/H.md#hish-of-the-snake-cult)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mb2/595/hish-of-the-snake-cult) · oracle_id `0f15dd1b-3d32-4d58-ba46-957f108ae677` · printing: MB2 #595 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1984,6 +1992,8 @@ schema: 2
   > *"By all rights we should have perished in the Kami War. Our perseverence is a tribute to mortal ingenuity. And perhaps a few forgotten secrets found in the nick of time."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27266 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 53 decks; highest synergy [Training Grounds](../../cards/T/tra.md#training-grounds) (+57%), [Baral, Chief of Compliance](../../cards/B/bar.md#baral-chief-of-compliance) (+54%), [Guile](../../cards/G/gu.md#guile) (+53%) · EDHREC: in 443 decks; most often under [Azami, Lady of Scrolls](../../cards/A/az.md#azami-lady-of-scrolls) (1.1% of its decks), [Baral, Chief of Compliance](../../cards/B/bar.md#baral-chief-of-compliance) (0.3% of its decks), [Captain Howler, Sea Scourge](../../cards/C/cap.md#captain-howler-sea-scourge) (0.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/chk/66/hisoka-minamo-sensei) · oracle_id `b69701d6-8e46-4184-991b-9f5e95a5e16d` · printing: CHK #66 (2004-10-01) · [rulings](https://api.scryfall.com/cards/a87aea05-5970-455e-a728-668cf23940a6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hisoka's Defiance
@@ -2170,6 +2180,8 @@ schema: 2
 - **Keywords:** Reach, Vigilance, Hexproof, Haste, Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12180 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 877 decks; highest synergy [Strong Back](../../cards/S/str.md#strong-back) (+70%), [Rancor](../../cards/R/ran.md#rancor) (+65%), [Snake Umbra](../../cards/S/sn.md#snake-umbra) (+61%) · EDHREC: in 8,741 decks; most often under [Kibo, Uktabi Prince](../../cards/K/ki.md#kibo-uktabi-prince) (51.0% of its decks), [Indominus Rex, Alpha](../../cards/I/ind.md#indominus-rex-alpha) (62.9% of its decks), [The Serpent Society](../../cards/T/thes.md#the-serpent-society) (13.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/H.md#hit-monkey)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/723/hit-monkey) · oracle_id `e27d1993-8d83-449d-8a64-8b66086db995` · printing: MSC #723 (2026-06-26) · [rulings](https://api.scryfall.com/cards/7a253dc9-1593-4914-90ca-309aa3aed53d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2328,6 +2340,8 @@ schema: 2
   > {T}: Gain control of target Dragon for as long as you control Hivis and Hivis remains tapped.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30121 · Game Changer: no · Can be commander: Yes (legendary creature) · Reserved List
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 23 decks; highest synergy [Draconic Destiny](../../cards/D/dra.md#draconic-destiny) (+64%), [Blades of Velis Vel](../../cards/B/bla.md#blades-of-velis-vel) (+61%), [Ashnod's Altar](../../cards/A/as.md#ashnods-altar) (+43%) · EDHREC: in 183 decks; most often under [Gev, Scaled Scorch](../../cards/G/ge.md#gev-scaled-scorch) (0.2% of its decks), [Yurlok of Scorch Thrash](../../cards/Y/yu.md#yurlok-of-scorch-thrash) (0.1% of its decks), [Sliver Overlord](../../cards/S/sl.md#sliver-overlord) (0.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mir/182/hivis-of-the-scale) · oracle_id `797adc7e-03a9-4221-bdaf-4c46dcb95701` · printing: MIR #182 (1996-10-08) · [rulings](https://api.scryfall.com/cards/ee84e61e-d99a-489b-a3b1-cb45fc81bce6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hixus, Prison Warden
@@ -2347,4 +2361,6 @@ schema: 2
   - *2015-06-22* — If a creature token is exiled, it ceases to exist. It won't be returned to the battlefield.
   - *2015-06-22* — In a multiplayer game, if Hixus's owner leaves the game, the exiled cards will return to the battlefield. Because the one-shot effect that returns the cards isn't an ability that goes on the stack, it won't cease to exist along with the leaving player's spells and abilities on the stack.
   - *2015-06-22* — The exiled cards return to the battlefield immediately after Hixus leaves the battlefield. Nothing happens between the two events, including state-based actions.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 38 decks; highest synergy [Containment Priest](../../cards/C/con.md#containment-priest) (+47%), [Selfless Squire](../../cards/S/sel.md#selfless-squire) (+40%), [Settle the Wreckage](../../cards/S/set.md#settle-the-wreckage) (+39%) · EDHREC: in 995 decks; most often under [Kytheon, Hero of Akros](../../cards/K/ky.md#kytheon-hero-of-akros--gideon-battle-forged) (5.1% of its decks), [Sonic the Hedgehog](../../cards/S/so.md#sonic-the-hedgehog) (0.3% of its decks), [Myrel, Shield of Argive](../../cards/M/my.md#myrel-shield-of-argive) (0.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ori/19/hixus-prison-warden) · oracle_id `02bff648-fbad-4d61-ab09-93993a5fda58` · printing: ORI #19 (2015-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

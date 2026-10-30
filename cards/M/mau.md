@@ -65,6 +65,8 @@ schema: 2
 - **Keywords:** Rulebreaker, Double
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #19931 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1,766 decks; highest synergy [Mountain](../../cards/M/mou.md#mountain) (+90%), [Island](../../cards/I/is.md#island) (+87%), [Plains](../../cards/P/pl.md#plains) (+86%) · EDHREC: in 779 decks; most often under [Gishath, Sun's Avatar](../../cards/G/gi.md#gishath-suns-avatar) (4.0% of its decks), [Pantlaza, Sun-Favored](../../cards/P/pa.md#pantlaza-sun-favored) (1.0% of its decks), [Atla Palani, Nest Tender](../../cards/A/at.md#atla-palani-nest-tender) (2.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbc/31/maular-the-next-evolution) · oracle_id `214f4e0a-eba7-4a08-86b2-d490d6ae1048` · printing: MBC #31 (2026-10-19) · [rulings](https://api.scryfall.com/cards/ac8d307f-5340-4419-95b4-b0ca09f9fd89/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Maulfist Doorbuster

@@ -69,6 +69,8 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RG03f/the-paradise-bird) · oracle_id `8e9629e2-f131-446b-80bf-12f2f2e9b26a` · printing: UNK #RG03f (2024-10-25) · [rulings](https://api.scryfall.com/cards/15e6523d-e80a-4ae3-9373-7eef3d5ead7a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Parting of the Ways
@@ -172,6 +174,8 @@ schema: 2
   > The Playful Winners gets +2/+2 for each tally mark on it. (No cheating!)
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RU05e/the-playful-winners) · oracle_id `5f0000d2-2d3b-48fb-8845-f6bbaf0d8bd7` · printing: UNK #RU05e (2026-05-01) · [rulings](https://api.scryfall.com/cards/50516169-7eaa-4787-a849-9df6a0c86e35/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Pleasant Taxer
@@ -184,6 +188,8 @@ schema: 2
   > Doing the chosen action costs players {1} more.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/WW02/the-pleasant-taxer) · oracle_id `04a44086-ba0f-48cc-b5d2-12ed7a6c2a53` · printing: UNK #WW02 (2024-06-29) · [rulings](https://api.scryfall.com/cards/b1d48f3c-cdd6-44db-a71d-627a5aee77f4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Policy Maker
@@ -195,6 +201,8 @@ schema: 2
   > Whenever The Policy Maker enters or attacks, ask a player outside the game to propose a new rule. If each player in the game agrees to the rule, apply it for the rest of the game. If an opponent doesn't agree to the rule, put a +1/+1 counter on The Policy Maker.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ03o/the-policy-maker) · oracle_id `2d426c89-6cef-44be-8e56-ccf6d94c2d3d` · printing: UNK #RZ03o (2025-09-26) · [rulings](https://api.scryfall.com/cards/12ff4dec-d19a-4ca6-b066-cf6152c3156e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Powerful Dragon
@@ -209,6 +217,8 @@ schema: 2
 - **Keywords:** Flying, Mentor
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed — *Guidance (Oracle pattern)* — packages: [Card advantage: Impulse / exile-to-play](../../EDH%20Packages.md#card-advantage-impulse--exile-to-play) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RR06b/the-powerful-dragon) · oracle_id `4bfaa867-ed9b-477d-9787-0ff884fb906b` · printing: UNK #RR06b (2024-10-25) · [rulings](https://api.scryfall.com/cards/4a374f23-0f4c-4be2-adec-8e3956efc035/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Pride of Hull Clade
@@ -282,6 +292,8 @@ schema: 2
   - *2020-11-10* — Once the game begins, your two commanders are tracked separately. If you cast one, you won't have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 damage from any one of them, not from both of them combined.
   - *2020-11-10* — To have two commanders, both must have the partner ability as the game begins. Losing the ability during the game doesn't cause either to cease to be your commander.
   - *2020-11-10* — You can choose two commanders with partner that are the same color or colors. In Commander Draft, you can even choose two of the same commander with partner if you drafted them. If you do this, make sure you keep the number of times you've cast each from the command zone clear for "commander tax" purposes.
+- **Lore:** ✅ Presented with an official backstory on [The Legendary Characters of Commander Legends, Part 1](https://magic.wizards.com/en/news/card-preview/legendary-characters-commander-legends-part-1-2020-10-30) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 13 combos; most popular [The Prismatic Piper + Rakdos, Lord of Riots + Warstorm Surge + Ashnod's Altar](https://commanderspellbook.com/combo/2019-2034-2773-2906/) (Infinite colorless mana, Infinite commander casts) · EDHREC as commander: 82 decks; highest synergy [Arcane Signet](../../cards/A/arc.md#arcane-signet) (+23%), [Forest](../../cards/F/fo.md#forest) (+19%), [Mountain](../../cards/M/mou.md#mountain) (+17%) · EDHREC: in 179 decks; most often under [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.0% of its decks), [Omarthis, Ghostfire Initiate](../../cards/O/om.md#omarthis-ghostfire-initiate) (0.3% of its decks), [Aminatou, the Fateshifter](../../cards/A/am.md#aminatou-the-fateshifter) (0.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/1/the-prismatic-piper) · oracle_id `b2aeee90-7b8d-47a6-9167-cc21f7fbfd43` · printing: CMM #1 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Protector

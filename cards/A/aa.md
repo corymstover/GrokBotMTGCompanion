@@ -73,6 +73,8 @@ schema: 2
 - **Keywords:** Flying, Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11828 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 56 decks; highest synergy [Appa, Aang's Companion](../../cards/A/ap.md#appa-aangs-companion) (+41%), [Gather the White Lotus](../../cards/G/ga.md#gather-the-white-lotus) (+41%), [Katara, Heroic Healer](../../cards/K/ka.md#katara-heroic-healer) (+41%) · EDHREC: in 9,491 decks; most often under [Avatar Aang](../../cards/A/av.md#avatar-aang--aang-master-of-elements) (7.1% of its decks), [Sokka, Tenacious Tactician](../../cards/S/so.md#sokka-tenacious-tactician) (8.4% of its decks), [Katara, the Fearless](../../cards/K/ka.md#katara-the-fearless) (9.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tle/210/aang-air-nomad) · oracle_id `e46b2ac6-97d6-48f2-aba3-cd92f8e092c6` · printing: TLE #210 (2025-11-21) · [rulings](https://api.scryfall.com/cards/f369827d-e4cd-4bc7-8c5e-72882eff0908/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aang, A Lot to Learn
@@ -88,6 +90,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21222 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2025-10-02* — Gaining vigilance any time after the moment you choose to attack with Aang, A Lot to Learn won't cause him to become untapped, and losing vigilance after that time won't cause it to become tapped.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 4 combos; most popular [Animation Module + Ashnod's Altar + Aang, A Lot to Learn](https://commanderspellbook.com/combo/2034-3490-7062/) (Infinite artifact tokens, Infinite creature LTB) · EDHREC as commander: 110 decks; highest synergy [Origin of Metalbending](../../cards/O/or.md#origin-of-metalbending) (+56%), [Shared Roots](../../cards/S/sha.md#shared-roots) (+56%), [Airbending Lesson](../../cards/A/ai.md#airbending-lesson) (+55%) · EDHREC: in 1,727 decks; most often under [Katara, the Fearless](../../cards/K/ka.md#katara-the-fearless) (5.6% of its decks), [Avatar Aang](../../cards/A/av.md#avatar-aang--aang-master-of-elements) (2.2% of its decks), [Toph, the First Metalbender](../../cards/T/to.md#toph-the-first-metalbender) (0.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tle/146/aang-a-lot-to-learn) · oracle_id `854278bc-2bcf-45dd-abd5-6aca7a1e5fc9` · printing: TLE #146 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aang and Katara

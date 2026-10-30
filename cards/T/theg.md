@@ -75,6 +75,8 @@ schema: 2
   > {T}: Create a copy of a game changer at random. You may play the copy without paying its mana cost. (There are currently 61. Perhaps look at a list and randomize?)
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ05j/the-game-changing-host) · oracle_id `d021623a-8087-4ec0-825a-adcd8b3b5ace` · printing: UNK #RZ05j (2025-06-20) · [rulings](https://api.scryfall.com/cards/df4742d0-526c-4549-aea1-413093d72bbc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The General
@@ -99,6 +101,8 @@ schema: 2
   > *Prize Card for the Unknown events at GenCon, July 30-August 2, 2026*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed — *Guidance (Oracle pattern)* — packages: [Ramp: Cost reducers](../../EDH%20Packages.md#ramp-cost-reducers) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/MG05/the-generational-historian) · oracle_id `409fc553-a5e2-44fa-87eb-cd88eded5a75` · printing: UNK #MG05 (2026-07-30) · [rulings](https://api.scryfall.com/cards/b2be17ee-af9f-4667-a05b-d4e71c959897/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Ghoul, Gunslinger
@@ -114,6 +118,8 @@ schema: 2
 - **Keywords:** First strike, Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12075 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 14 combos; most popular [The Ghoul, Gunslinger + Gravecrawler + Carrion Feeder](https://commanderspellbook.com/combo/2438-2577-7390/) (Infinite artifact ETB, Infinite artifact LTB) · EDHREC as commander: 2,708 decks; highest synergy [Feral Ghoul](../../cards/F/fe.md#feral-ghoul) (+77%), [Gravecrawler](../../cards/G/gra.md#gravecrawler) (+76%), [Zul Ashur, Lich Lord](../../cards/Z/zu.md#zul-ashur-lich-lord) (+75%) · EDHREC: in 6,663 decks; most often under [The Wise Mothman](../../cards/T/thew.md#the-wise-mothman) (16.3% of its decks), [The Master, Transcendent](../../cards/T/them.md#the-master-transcendent) (26.1% of its decks), [Wilhelt, the Rotcleaver](../../cards/W/wi.md#wilhelt-the-rotcleaver) (3.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sld/2448/the-ghoul-gunslinger) · oracle_id `ddfa5c7d-bc47-43e0-9607-b3baa8e6a17d` · printing: SLD #2448 (2026-01-26) · [rulings](https://api.scryfall.com/cards/e7ed7d2c-c49b-4786-86eb-125863e874a2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Girl in the Fireplace
@@ -187,6 +193,8 @@ schema: 2
   > Whenever The Goblin Mastermind deals combat damage to a player, you create a token that's a copy of one of Skirk Prospector, Goblin Lackey, Goblin Piledriver, Goblin Warchief, Boggart Harbinger, or Goblin Ringleader, chosen at random.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ04w/the-goblin-mastermind) · oracle_id `6662d30d-6ca5-4c32-a1c1-43fe4de2b96b` · printing: UNK #RZ04w (2026-05-01) · [rulings](https://api.scryfall.com/cards/25201096-048a-4a12-980b-f97942e6df65/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Goblin Sparring Grounds
@@ -249,6 +257,8 @@ schema: 2
   > All damage dealt by this creature to an opponent counts as commander damage for your commander (including noncombat damage and even if this isn't your commander).
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ03q/the-good-gamers) · oracle_id `52072751-bceb-40a4-ae37-29ec89faca36` · printing: UNK #RZ03q (2026-05-01) · [rulings](https://api.scryfall.com/cards/73baefef-bf64-4d3b-b792-8800038f820f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Good Time Sleuth
@@ -261,6 +271,8 @@ schema: 2
 - **Keywords:** Manifest
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ05h/the-good-time-sleuth) · oracle_id `3ee92331-5c48-4941-997b-11229298fca7` · printing: UNK #RZ05h (2025-02-21) · [rulings](https://api.scryfall.com/cards/1ebeb002-43f5-4580-85e4-adde8c120f7a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Goose Mother
@@ -379,6 +391,8 @@ schema: 2
   > Whenever The Great Juggernaut attacks, shuffle your library then exile the top card of your library. You may play that card without paying its mana cost this turn.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed — *Guidance (Oracle pattern)* — packages: [Card advantage: Impulse / exile-to-play](../../EDH%20Packages.md#card-advantage-impulse--exile-to-play) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RR04b/the-great-juggernaut) · oracle_id `539c5bb8-d5d0-4901-a45b-594514948be6` · printing: UNK #RR04b (2024-06-29) · [rulings](https://api.scryfall.com/cards/0026d249-079a-4ead-a502-401ec792fb88/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Great Mound
@@ -440,4 +454,6 @@ schema: 2
 - **Keywords:** Ew-minance
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RB04/the-gunky-runner) · oracle_id `7d3b14c9-0a0a-479b-a7fe-a87ec708e74d` · printing: UNK #RB04 (2024-10-25) · [rulings](https://api.scryfall.com/cards/13aee090-abba-4385-bb28-553583779100/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

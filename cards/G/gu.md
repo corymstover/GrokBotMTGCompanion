@@ -213,6 +213,8 @@ schema: 2
   - *2009-10-01* — Despite the similarities between horsemanship and flying, horsemanship doesn't interact with flying or reach.
   - *2009-10-01* — If Guan Yu, Sainted Warrior is removed from the graveyard after the ability triggers but before it resolves, it won't get shuffled into your library.
   - *2009-10-01* — If a replacement effect has Guan Yu move to a different zone instead of being put into the graveyard, the ability won't trigger at all.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 17 combos; most popular [Guan Yu, Sainted Warrior + Remembrance + Deathrender + Ashnod's Altar](https://commanderspellbook.com/combo/1754-2034-4766-5683/) (Infinite colorless mana, Infinite death triggers) · EDHREC as commander: 26 decks; highest synergy [Shu General](../../cards/S/shu.md#shu-general) (+54%), [Liu Bei, Lord of Shu](../../cards/L/li.md#liu-bei-lord-of-shu) (+46%), [Zhang Fei, Fierce Warrior](../../cards/Z/zh.md#zhang-fei-fierce-warrior) (+46%) · EDHREC: in 818 decks; most often under [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.2% of its decks), [Liu Bei, Lord of Shu](../../cards/L/li.md#liu-bei-lord-of-shu) (98.7% of its decks), [Kenrith, the Returned King](../../cards/K/ke.md#kenrith-the-returned-king) (0.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/G.md#guan-yu-sainted-warrior)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me3/12/guan-yu-sainted-warrior) · oracle_id `f7ee3935-4510-485a-a863-ac38dffa1908` · printing: ME3 #12 (2009-09-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1712,6 +1714,8 @@ schema: 2
   > Whenever you cast a Lesson, Saga, or Shrine spell, put a +1/+1 counter on another target creature you control.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9975 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 145 decks; highest synergy [Origin of Metalbending](../../cards/O/or.md#origin-of-metalbending) (+82%), [Accumulate Wisdom](../../cards/A/ac.md#accumulate-wisdom) (+80%), [It'll Quench Ya!](../../cards/I/it.md#itll-quench-ya) (+78%) · EDHREC: in 12,690 decks; most often under [Iroh, Grand Lotus](../../cards/I/ir.md#iroh-grand-lotus) (37.6% of its decks), [Hei Bai, Forest Guardian](../../cards/H/he.md#hei-bai-forest-guardian) (28.4% of its decks), [Go-Shintai of Life's Origin](../../cards/G/gos.md#go-shintai-of-lifes-origin) (16.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/223/guru-pathik) · oracle_id `4dcd7b78-ce5a-43eb-a16d-3b9ea411795d` · printing: TLA #223 (2025-11-21) · [rulings](https://api.scryfall.com/cards/224a2241-0dce-4008-8d9c-86db40ec5f8b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gurzigost
@@ -1855,6 +1859,8 @@ schema: 2
 - **Keywords:** Protection
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #26324 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 131 decks; highest synergy [Ominous Seas](../../cards/O/om.md#ominous-seas) (+57%), [Counterbalance](../../cards/C/cou.md#counterbalance) (+53%), [Minn, Wily Illusionist](../../cards/M/min.md#minn-wily-illusionist) (+52%) · EDHREC: in 557 decks; most often under [Wan Shi Tong, All-Knowing](../../cards/W/wan.md#wan-shi-tong-all-knowing) (3.0% of its decks), [The Watcher in the Water](../../cards/T/thew.md#the-watcher-in-the-water) (2.0% of its decks), [Minn, Wily Illusionist](../../cards/M/min.md#minn-wily-illusionist) (1.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbc/10/gustha-ebbasdotter) · oracle_id `a0a8c04e-3ce7-4945-a6af-7e40a990c82c` · printing: MBC #10 (2026-10-19) · [rulings](https://api.scryfall.com/cards/9ff02aab-9532-445e-915c-3ccf71147c76/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gustha's Scepter

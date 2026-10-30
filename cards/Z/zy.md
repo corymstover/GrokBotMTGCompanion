@@ -51,5 +51,7 @@ schema: 2
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2019-11-12* — While resolving Zyym’s triggered ability, the target opponent can’t rush through revealing their cards. After each is revealed, they must wait for you to choose to continue or stop.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/Z.md#zyym-mesmeric-lord)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/104/zyym-mesmeric-lord) · oracle_id `fbd4ffd6-1ffb-4822-9ee8-ee2133e03b4b` · printing: CMB2 #104 (2021-08-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

@@ -375,6 +375,8 @@ schema: 2
 - **Keywords:** Mountaincycling, Reach, Landcycling, Trample, Typecycling, Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21180 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 3 decks; highest synergy [Mirror Box](../../cards/M/mir.md#mirror-box) (+66%), [Delina, Wild Mage](../../cards/D/del.md#delina-wild-mage) (+64%), [Orthion, Hero of Lavabrink](../../cards/O/or.md#orthion-hero-of-lavabrink) (+64%) · EDHREC: in 1,897 decks; most often under [Raph & Mikey, Troublemakers](../../cards/R/rap.md#raph--mikey-troublemakers) (2.7% of its decks), [Gishath, Sun's Avatar](../../cards/G/gi.md#gishath-suns-avatar) (1.3% of its decks), [Pantlaza, Sun-Favored](../../cards/P/pa.md#pantlaza-sun-favored) (0.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmt/111/zog-triceraton-castaway) · oracle_id `d944d33d-0a95-4d0d-96ce-49d02500227d` · printing: TMT #111 (2026-03-06) · [rulings](https://api.scryfall.com/cards/a83a70ba-448e-45f3-b23b-6f38af54811f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zombie Apocalypse

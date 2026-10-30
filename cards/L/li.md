@@ -680,6 +680,8 @@ schema: 2
   - *2017-08-25* — Licia's first ability checks how much life you've gained during the turn, not what your life total is compared to what it was when the turn began. For example, if you start the turn at 30 life, gain 6 life during the turn, then lose 10 life later that turn, Licia still costs {6} less to cast.
   - *2017-08-25* — Licia's first ability reduces only generic mana in its cost. It can't reduce the cost below {R}{W}{B}.
   - *2017-08-25* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases (such as the "commander tax"), then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 3,281 decks; highest synergy [Verrak, Warped Sengir](../../cards/V/ve.md#verrak-warped-sengir) (+52%), [Font of Agonies](../../cards/F/fo.md#font-of-agonies) (+51%), [Vito, Thorn of the Dusk Rose](../../cards/V/vi.md#vito-thorn-of-the-dusk-rose) (+51%) · EDHREC: in 2,299 decks; most often under [Edgar Markov](../../cards/E/ed.md#edgar-markov) (3.4% of its decks), [Dihada, Binder of Wills](../../cards/D/di.md#dihada-binder-of-wills) (0.9% of its decks), [Bruse Tarl, Boorish Herder // Ikra Shidiqi, the Usurper](../../cards/B/br.md#bruse-tarl-boorish-herder) (2.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c17/40/licia-sanguine-tribune) · oracle_id `57170e91-6ebe-4b14-bf56-96d8cf6a4d03` · printing: C17 #40 (2017-08-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lictor
@@ -862,6 +864,8 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15765 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 49 decks; highest synergy [Helping Hand](../../cards/H/he.md#helping-hand) (+43%), [Brought Back](../../cards/B/br.md#brought-back) (+40%), [Gift of Immortality](../../cards/G/gi.md#gift-of-immortality) (+39%) · EDHREC: in 4,721 decks; most often under [Kastral, the Windcrested](../../cards/K/ka.md#kastral-the-windcrested) (12.1% of its decks), [Choco, Seeker of Paradise](../../cards/C/cho.md#choco-seeker-of-paradise) (2.3% of its decks), [Soraya the Falconer](../../cards/S/so.md#soraya-the-falconer) (26.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmr/12/lieutenant-kirtar) · oracle_id `ad39e859-e4a6-49cc-b738-4578a5250538` · printing: DMR #12 (2023-01-13) · [rulings](https://api.scryfall.com/cards/475ba0c3-237e-4349-85e9-c31b016f609b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lieutenants of the Guard
@@ -2118,6 +2122,8 @@ schema: 2
 - **Rulings** (2):
   - *2025-06-06* — If another player gains control of Lightning, you won't be able to play any of the exiled cards, even if you later regain control of Lightning. Similarly, if Lightning leaves the battlefield and later returns, you won't be able to play the cards that were exiled the first time it was on the battlefield since it's a new object.
   - *2025-06-06* — You pay all costs and follow all timing rules for cards played this way. For example, if the exiled card is a land card, you may play it only during your main phase while the stack is empty and only if you have an available land play remaining.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 114 decks; highest synergy [Laelia, the Blade Reforged](../../cards/L/la.md#laelia-the-blade-reforged) (+56%), [Wild-Magic Sorcerer](../../cards/W/wi.md#wild-magic-sorcerer) (+47%), [Etali, Primal Storm](../../cards/E/et.md#etali-primal-storm) (+46%) · EDHREC: in 12,271 decks; most often under [Lightning, Army of One](../../cards/L/li.md#lightning-army-of-one) (14.4% of its decks), [J. Jonah Jameson](../../cards/J/jj.md#j-jonah-jameson) (68.4% of its decks), [Cloud, Planet's Champion](../../cards/C/cl.md#cloud-planets-champion) (31.1% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Impulse / exile-to-play](../../EDH%20Packages.md#card-advantage-impulse--exile-to-play) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/560/lightning-security-sergeant) · oracle_id `e1626880-0fa3-441a-9978-b293fc87c418` · printing: FIN #560 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lightning Serpent
@@ -2625,6 +2631,8 @@ schema: 2
 - **Rulings** (2):
   - *2022-10-07* — Common cards have black expansion symbols. Cards from before Exodus™ don’t have expansion symbols; their rarities can be found on their Gatherer entries. (Cards with the land rarity, including basic lands, also have black expansion symbols, but Lila doesn’t let you play lands, so this hardly seems worth mentioning. Oh, sorry.)
   - *2022-10-07* — Lila’s middle ability doesn’t change when you may cast those spells. You still pay all costs for those spells as well.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 69 decks; highest synergy [Your Temple Is Under Attack](../../cards/Y/yo.md#your-temple-is-under-attack) (+59%), [Reclaim](../../cards/R/rec.md#reclaim) (+56%), [Elvish Visionary](../../cards/E/el.md#elvish-visionary) (+52%) · EDHREC: in 22 decks; most often under [Vorthos, Steward of Myth](../../cards/V/vo.md#vorthos-steward-of-myth) (2.2% of its decks), [Esika, God of the Tree](../../cards/E/es.md#esika-god-of-the-tree--the-prismatic-bridge) (0.0% of its decks), [Progenitus](../../cards/P/pr.md#progenitus) (0.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unf/170/lila-hospitality-hostess) · oracle_id `a3a68f59-f716-4f5e-80f1-e7a80b77dd77` · printing: UNF #170 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lilah, Undefeated Slickshot
@@ -2646,6 +2654,8 @@ schema: 2
   - *2024-04-12* — The spell will have all its normal effects before being exiled. If the spell's normal effects include exiling itself, Lilah's effect won't apply to it and it won't become plotted.
   - *2024-04-12* — You can't cast a plotted card on the same turn it became plotted. On any future turn, you may cast that card from exile without paying its mana cost during your main phase while the stack is empty.
   - *2024-06-07* — If an instant or a card with flash is plotted this way, you can still cast it only when you have priority during your main phase while the stack is empty.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 2,901 decks; highest synergy [Slick Sequence](../../cards/S/sl.md#slick-sequence) (+88%), [Teach by Example](../../cards/T/te.md#teach-by-example) (+82%), [Arcane Infusion](../../cards/A/arc.md#arcane-infusion) (+81%) · EDHREC: in 8,475 decks; most often under [Niv-Mizzet Reborn](../../cards/N/ni.md#niv-mizzet-reborn) (32.0% of its decks), [Aragorn, the Uniter](../../cards/A/ara.md#aragorn-the-uniter) (5.3% of its decks), [Niv-Mizzet, Supreme](../../cards/N/ni.md#niv-mizzet-supreme) (43.9% of its decks) — *Guidance (Oracle pattern)* — packages: [Spellslinger: Cast-trigger payoffs](../../EDH%20Packages.md#spellslinger-cast-trigger-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otj/217/lilah-undefeated-slickshot) · oracle_id `0757c5a7-e51b-4c39-bb4d-b32657c10cb4` · printing: OTJ #217 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Liliana, Death Mage
@@ -3362,6 +3372,8 @@ schema: 2
 - **Keywords:** Regenerate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19878 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 304 decks; highest synergy [Death Baron](../../cards/D/dea.md#death-baron) (+56%), [Grave Betrayal](../../cards/G/gra.md#grave-betrayal) (+54%), [Endless Ranks of the Dead](../../cards/E/en.md#endless-ranks-of-the-dead) (+48%) · EDHREC: in 2,021 decks; most often under [Hashaton, Scarab's Fist](../../cards/H/ha.md#hashaton-scarabs-fist) (0.4% of its decks), [The Scarab God](../../cards/T/thes.md#the-scarab-god) (0.6% of its decks), [Liliana, Heretical Healer](../../cards/L/li.md#liliana-heretical-healer--liliana-defiant-necromancer) (1.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tsp/114/lim-d%C3%BBl-the-necromancer) · oracle_id `820052b3-d217-4b30-acc4-fa5af7465e9e` · printing: TSP #114 (2006-10-06) · [rulings](https://api.scryfall.com/cards/b8a3cdfe-0289-474b-b9c4-07e8c6588ec5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Limestone Golem
@@ -3538,6 +3550,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27747 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2007-05-01* — Linessa’s grandeur ability targets only a player. That player chooses which permanents to return as the ability resolves. The permanents are returned one at a time, in a specific sequence. The player can’t return an artifact creature and have that count as both the artifact and the creature, for example.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Wormfang Manta + Scroll of Fate + Linessa, Zephyr Mage](https://commanderspellbook.com/combo/721-2724-3154/) (Infinite turns, Lock) · EDHREC as commander: 77 decks; highest synergy [Supplant Form](../../cards/S/sup.md#supplant-form) (+66%), [Riptide Laboratory](../../cards/R/ri.md#riptide-laboratory) (+65%), [Illusionist's Bracers](../../cards/I/il.md#illusionists-bracers) (+64%) · EDHREC: in 363 decks; most often under [Hashaton, Scarab's Fist](../../cards/H/ha.md#hashaton-scarabs-fist) (0.3% of its decks), [The Ever-Changing 'Dane](../../cards/T/thee.md#the-ever-changing-dane) (2.0% of its decks), [Azami, Lady of Scrolls](../../cards/A/az.md#azami-lady-of-scrolls) (0.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fut/51/linessa-zephyr-mage) · oracle_id `64337db7-a66b-42c5-89fd-c9dfc203c0dd` · printing: FUT #51 (2007-05-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lingering Death
@@ -3651,6 +3665,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19754 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2004-10-04* — You do not have to find a Rebel card if you do not want to.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 6 combos; most popular [Lin Sivvi, Defiant Hero + Treasonous Ogre + Children of Korlis + Staff of Domination](https://commanderspellbook.com/combo/843-2645-3392-5313/) (Infinite creature LTB, Infinite creature ETB) · EDHREC as commander: 805 decks; highest synergy [Defiant Falcon](../../cards/D/def.md#defiant-falcon) (+80%), [Children of Korlis](../../cards/C/chi.md#children-of-korlis) (+78%), [Defiant Vanguard](../../cards/D/def.md#defiant-vanguard) (+77%) · EDHREC: in 1,559 decks; most often under [Otharri, Suns' Glory](../../cards/O/ot.md#otharri-suns-glory) (5.4% of its decks), [Rukarumel, Biologist](../../cards/R/ru.md#rukarumel-biologist) (3.5% of its decks), [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (0.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/nem/12/lin-sivvi-defiant-hero) · oracle_id `6c3847b6-9bfb-49b5-8f1a-bdb40e6900f1` · printing: NEM #12 (2000-02-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Linvala, Keeper of Silence
@@ -4191,6 +4207,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25990 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2009-10-01* — Despite the similarities between horsemanship and flying, horsemanship doesn't interact with flying or reach.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 76 decks; highest synergy [Guan Yu, Sainted Warrior](../../cards/G/gu.md#guan-yu-sainted-warrior) (+99%), [Zhang Fei, Fierce Warrior](../../cards/Z/zh.md#zhang-fei-fierce-warrior) (+96%), [Kongming, "Sleeping Dragon"](../../cards/K/ko.md#kongming-sleeping-dragon) (+79%) · EDHREC: in 600 decks; most often under [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.2% of its decks), [Kenrith, the Returned King](../../cards/K/ke.md#kenrith-the-returned-king) (0.2% of its decks), [Esika, God of the Tree](../../cards/E/es.md#esika-god-of-the-tree--the-prismatic-bridge) (0.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me3/19/liu-bei-lord-of-shu) · oracle_id `f46416cc-0c3d-4d90-bdcb-910c5d4a2014` · printing: ME3 #19 (2009-09-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Livaan, Cultist of Tiamat
@@ -4358,6 +4376,8 @@ schema: 2
   > *—Spider-Man, Peter Parker*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16094 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 57 combos; most popular [Voltaic Construct + Thran Dynamo + Living Brain, Mechanical Marvel](https://commanderspellbook.com/combo/1766-1978-7170/) (Infinite colorless mana, Infinite untap of artifact creatures you control) · EDHREC as commander: 74 decks; highest synergy [Chief of the Foundry](../../cards/C/chi.md#chief-of-the-foundry) (+34%), [Access Tunnel](../../cards/A/ac.md#access-tunnel) (+33%), [Darksteel Ingot](../../cards/D/da.md#darksteel-ingot) (+32%) · EDHREC: in 4,524 decks; most often under [Doctor Octopus, Master Planner](../../cards/D/do.md#doctor-octopus-master-planner) (24.6% of its decks), [Dr. Eggman](../../cards/D/dre.md#dr-eggman) (2.2% of its decks), [Norman Osborn](../../cards/N/no.md#norman-osborn--green-goblin) (1.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/spm/167/living-brain-mechanical-marvel) · oracle_id `b255e13d-01b2-4348-80bd-8d9a8f29be91` · printing: SPM #167 (2025-09-26) · [rulings](https://api.scryfall.com/cards/26833b64-2e6d-4977-9a6e-6fe73c54d671/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Living Conundrum
@@ -4496,6 +4516,8 @@ schema: 2
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12007 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 3 combos; most popular [Breath of Fury + Living Laser](https://commanderspellbook.com/combo/3259-7760/) (Infinite mana creatures you control can produce, Infinite creature sacrifice triggers) · EDHREC as commander: 260 decks; highest synergy [Change of Fortune](../../cards/C/cha.md#change-of-fortune) (+78%), [Misty Knight, Hero for Hire](../../cards/M/mis.md#misty-knight-hero-for-hire) (+71%), [Path of the Pyromancer](../../cards/P/pa.md#path-of-the-pyromancer) (+69%) · EDHREC: in 9,249 decks; most often under [Doctor Doom, King of Latveria](../../cards/D/do.md#doctor-doom-king-of-latveria) (51.7% of its decks), [Norman Osborn](../../cards/N/no.md#norman-osborn--green-goblin) (16.3% of its decks), [Astonishing Spider-Man](../../cards/A/as.md#astonishing-spider-man) (56.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/55/living-laser) · oracle_id `fd15e02a-dd1e-42ee-8c69-a3e5bcb5ede6` · printing: MSC #55 (2026-06-26) · [rulings](https://api.scryfall.com/cards/595ee0b4-393f-4bda-bcb4-f0fa43cf7ed2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Living Lectern
@@ -4575,6 +4597,8 @@ schema: 2
 - **Keywords:** Flying, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29299 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 3 decks; highest synergy [Ball Lightning](../../cards/B/bal.md#ball-lightning) (+100%), [Barbed Lightning](../../cards/B/bar.md#barbed-lightning) (+67%), [Feral Lightning](../../cards/F/fe.md#feral-lightning) (+67%) · EDHREC: in 294 decks; most often under [Nick Fury, Agent of S.H.I.E.L.D.](../../cards/N/ni.md#nick-fury-agent-of-shield) (0.8% of its decks), [Daredevil, Man Without Fear](../../cards/D/da.md#daredevil-man-without-fear) (1.5% of its decks), [Lightning, Army of One](../../cards/L/li.md#lightning-army-of-one) (0.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/764/living-lightning-charged-up) · oracle_id `b9397684-f226-4f77-a57a-88f97fbd96a5` · printing: MSC #764 (2026-06-26) · [rulings](https://api.scryfall.com/cards/95b3f213-434a-45e7-bc09-7ada7728c802/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Living Lore
@@ -4754,6 +4778,8 @@ schema: 2
   - *2020-11-10* — Once the game begins, your two commanders are tracked separately. If you cast one, you won't have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 damage from any one of them, not from both of them combined.
   - *2020-11-10* — To have two commanders, both must have the partner ability as the game begins. Losing the ability during the game doesn't cause either to cease to be your commander.
   - *2020-11-10* — You can choose two commanders with partner that are the same color or colors. In Commander Draft, you can even choose two of the same commander with partner if you drafted them. If you do this, make sure you keep the number of times you've cast each from the command zone clear for "commander tax" purposes.
+- **Lore:** ✅ Presented with an official backstory on [The Legendary Characters of Commander Legends, Part 1](https://magic.wizards.com/en/news/card-preview/legendary-characters-commander-legends-part-1-2020-10-30) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 17 combos; most popular [Livio, Oathsworn Sentinel + Village Bell-Ringer](https://commanderspellbook.com/combo/1952-2059/) (Infinite blinking, Infinite colored mana) · EDHREC as commander: 28 decks; highest synergy [Solemn Simulacrum](../../cards/S/so.md#solemn-simulacrum) (+36%), [Charming Prince](../../cards/C/cha.md#charming-prince) (+35%), [Kor Cartographer](../../cards/K/ko.md#kor-cartographer) (+34%) · EDHREC: in 1,418 decks; most often under [Sidar Jabari of Zhalfir](../../cards/S/si.md#sidar-jabari-of-zhalfir) (0.4% of its decks), [Dion, Bahamut's Dominant](../../cards/D/di.md#dion-bahamuts-dominant--bahamut-warden-of-light) (2.0% of its decks), [Katilda, Dawnhart Prime](../../cards/K/ka.md#katilda-dawnhart-prime) (1.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmr/31/livio-oathsworn-sentinel) · oracle_id `53c6f2cf-ed3e-4c0c-ad42-56a6ce1622b6` · printing: CMR #31 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Livonya Silone
@@ -4769,6 +4795,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30178 · Game Changer: no · Can be commander: Yes (legendary creature) · Reserved List
 - **Rulings** (1):
   - *2009-10-01* — “Legendary landwalk” means “This creature is can’t be blocked as long as defending player controls a legendary land.”
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 59 decks; highest synergy [Bazaar Trader](../../cards/B/baz.md#bazaar-trader) (+76%), [Harmless Offering](../../cards/H/ha.md#harmless-offering) (+75%), [Shivan Gorge](../../cards/S/shi.md#shivan-gorge) (+73%) · EDHREC: in 142 decks; most often under [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.1% of its decks), [Hazezon Tamar](../../cards/H/ha.md#hazezon-tamar) (1.9% of its decks), [Palladia-Mors](../../cards/P/pa.md#palladia-mors) (3.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 rules) → [reverse index](../../references/L.md#livonya-silone)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me3/160/livonya-silone) · oracle_id `57f2aa02-f5f3-42a5-939d-5cc94200951e` · printing: ME3 #160 (2009-09-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -4811,6 +4839,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10511 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2025-09-19* — The effect from Lizard's triggered ability doesn't end at the end of the turn.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 280 decks; highest synergy [Conjurer's Closet](../../cards/C/con.md#conjurers-closet) (+80%), [Panharmonicon](../../cards/P/pa.md#panharmonicon) (+73%), [Temur Sabertooth](../../cards/T/te.md#temur-sabertooth) (+67%) · EDHREC: in 11,597 decks; most often under [Henzie "Toolbox" Torre](../../cards/H/he.md#henzie-toolbox-torre) (13.0% of its decks), [Eddie Brock](../../cards/E/ed.md#eddie-brock--venom-lethal-protector) (10.0% of its decks), [Peter Parker](../../cards/P/pe.md#peter-parker--amazing-spider-man) (7.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/spm/106/lizard-connorss-curse) · oracle_id `48d1b217-b068-468c-bc6c-4bef9e44cc6e` · printing: SPM #106 (2025-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lizard Warrior

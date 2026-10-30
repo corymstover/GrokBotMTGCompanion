@@ -804,6 +804,8 @@ schema: 2
 - **Keywords:** Goad, Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10296 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [The Rani (Grixis)](../../grixis/decks/the-rani.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 58 decks; highest synergy [Vengeful Ancestor](../../cards/V/ve.md#vengeful-ancestor) (+85%), [Shiny Impetus](../../cards/S/shi.md#shiny-impetus) (+78%), [Agitator Ant](../../cards/A/ag.md#agitator-ant) (+72%) · EDHREC: in 12,915 decks; most often under [Doctor Doom, King of Latveria](../../cards/D/do.md#doctor-doom-king-of-latveria) (28.5% of its decks), [Loki, the Deceiver](../../cards/L/lo.md#loki-the-deceiver) (32.2% of its decks), [Nelly Borca, Impulsive Accuser](../../cards/N/ne.md#nelly-borca-impulsive-accuser) (38.1% of its decks) — *Guidance (Oracle pattern)* — packages: [Treasure: Repeatable Treasure makers](../../EDH%20Packages.md#treasure-repeatable-treasure-makers) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 decks) → [reverse index](../../references/P.md#puppet-master-string-puller)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/59/puppet-master-string-puller) · oracle_id `376c6257-4a1a-42d4-8931-72068f38727f` · printing: MSC #59 (2026-06-26) · [rulings](https://api.scryfall.com/cards/ab888daa-1161-4917-bca0-efd5c430b2d9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1278,6 +1280,8 @@ schema: 2
   > Whenever a player casts a black spell, you may pay {B}. If you do, put a +1/+1 counter on Purraj.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28916 · Game Changer: no · Can be commander: Yes (legendary creature) · Reserved List
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 115 decks; highest synergy [Falthis, Shadowcat Familiar](../../cards/F/fa.md#falthis-shadowcat-familiar) (+40%), [Unexpected Fangs](../../cards/U/un.md#unexpected-fangs) (+40%), [Eternal Thirst](../../cards/E/et.md#eternal-thirst) (+39%) · EDHREC: in 197 decks; most often under [Sol'kanar the Swamp King](../../cards/S/so.md#solkanar-the-swamp-king) (1.2% of its decks), [Mirri the Cursed](../../cards/M/mir.md#mirri-the-cursed) (6.1% of its decks), [Falthis, Shadowcat Familiar // Yoshimaru, Ever Faithful](../../cards/F/fa.md#falthis-shadowcat-familiar) (1.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mir/135/purraj-of-urborg) · oracle_id `ae86965c-3330-48bf-abf7-3142c61099ea` · printing: MIR #135 (1996-10-08) · [rulings](https://api.scryfall.com/cards/4704bf02-c6be-4983-9bc7-a1d464d21b31/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pursued Whale

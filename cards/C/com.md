@@ -596,6 +596,8 @@ schema: 2
 - **Keywords:** Flying, Protection
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16100 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 241 decks; highest synergy [Entangler](../../cards/E/en.md#entangler) (+54%), [Brave the Sands](../../cards/B/br.md#brave-the-sands) (+42%), [All That Glitters](../../cards/A/al.md#all-that-glitters) (+39%) · EDHREC: in 4,292 decks; most often under [Kastral, the Windcrested](../../cards/K/ka.md#kastral-the-windcrested) (6.3% of its decks), [Soraya the Falconer](../../cards/S/so.md#soraya-the-falconer) (45.7% of its decks), [Choco, Seeker of Paradise](../../cards/C/cho.md#choco-seeker-of-paradise) (1.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/jud/9/commander-eesha) · oracle_id `b9b9edb2-62f5-499c-b2fc-359dc673c4b4` · printing: JUD #9 (2002-05-27) · [rulings](https://api.scryfall.com/cards/3607f6a9-b8d2-4119-9f70-95dcedc0662d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Commander Greven il-Vec
@@ -611,6 +613,8 @@ schema: 2
 - **Keywords:** Fear
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26742 · Game Changer: no · Can be commander: Yes (legendary creature) · Reserved List
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 85 decks; highest synergy [Sadistic Glee](../../cards/S/sad.md#sadistic-glee) (+36%), [Hatred](../../cards/H/ha.md#hatred) (+31%), [Dauthi Embrace](../../cards/D/da.md#dauthi-embrace) (+30%) · EDHREC: in 471 decks; most often under [Volrath the Fallen](../../cards/V/vo.md#volrath-the-fallen) (3.4% of its decks), [Yawgmoth, Thran Physician](../../cards/Y/ya.md#yawgmoth-thran-physician) (0.4% of its decks), [Xu-Ifit, Osteoharmonist](../../cards/X/xu.md#xu-ifit-osteoharmonist) (0.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tpr/88/commander-greven-il-vec) · oracle_id `08fa1bee-cedf-4a29-9b02-cbdcc0926f8f` · printing: TPR #88 (2015-05-06) · [rulings](https://api.scryfall.com/cards/8a8ddd65-c482-426c-b4cd-9ad0206942ae/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Commander Liara Portyr
@@ -645,6 +649,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11799 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2024-02-02* — Activating Commander Mustard's last ability multiple times will cause Soldiers you control to gain multiple instances of the triggered ability. For example, if you activate Commander Mustard's last ability twice and then attack with Commander Mustard, it will have two instances of the triggered ability. Both will trigger, and the defending player will take 2 damage.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 3,760 decks; highest synergy [Valiant Veteran](../../cards/V/va.md#valiant-veteran) (+74%), [Captain of the Watch](../../cards/C/cap.md#captain-of-the-watch) (+70%), [Assemble the Legion](../../cards/A/as.md#assemble-the-legion) (+69%) · EDHREC: in 5,599 decks; most often under [Caesar, Legion's Emperor](../../cards/C/cae.md#caesar-legions-emperor) (5.8% of its decks), [Immard, the Stormcleaver](../../cards/I/im.md#immard-the-stormcleaver) (39.2% of its decks), [Aragorn, the Uniter](../../cards/A/ara.md#aragorn-the-uniter) (1.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clu/6/commander-mustard) · oracle_id `3fdbe867-63cd-42c5-9843-46b0992b9628` · printing: CLU #6 (2024-02-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Commander's Authority
@@ -705,6 +711,8 @@ schema: 2
   - *2024-03-08* — Some spells and abilities that create Junk tokens may require targets. If each target chosen is illegal as that spell or ability tries to resolve, it won't resolve and none of its effects happen. You won't create any Junk tokens.
   - *2024-03-08* — You can't sacrifice a Junk token to pay multiple costs. For example, you can't sacrifice a Junk token to activate its own ability and also to activate the second ability of Junk Jet.
   - *2024-03-08* — You pay all costs and follow all normal timing rules for the card played from exile with a Junk token's ability. For example, if the exiled card is a land card, you may play it only during your main phase while the stack is empty.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 30 decks; highest synergy [Far Traveler](../../cards/F/fa.md#far-traveler) (+71%), [Delney, Streetwise Lookout](../../cards/D/del.md#delney-streetwise-lookout) (+70%), [Flickerwisp](../../cards/F/fl.md#flickerwisp) (+70%) · EDHREC: in 9,929 decks; most often under [Dogmeat, Ever Loyal](../../cards/D/do.md#dogmeat-ever-loyal) (25.1% of its decks), [Lucy MacLean, Positively Armed](../../cards/L/lu.md#lucy-maclean-positively-armed) (19.4% of its decks), [Captain Rex Nebula](../../cards/C/cap.md#captain-rex-nebula) (28.9% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Impulse / exile-to-play](../../EDH%20Packages.md#card-advantage-impulse--exile-to-play) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/pip/15/commander-sofia-daguerre) · oracle_id `a3fdb633-7fe9-4e72-a3a3-aa17b6f17864` · printing: PIP #15 (2024-03-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Commander's Plate

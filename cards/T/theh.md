@@ -77,6 +77,8 @@ schema: 2
 - **Keywords:** Vigilance, Haste, Double strike
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ03/the-herald-of-numot) · oracle_id `92008320-088f-4ea1-a690-c5bb83ad7d3f` · printing: UNK #RZ03 (2025-06-20) · [rulings](https://api.scryfall.com/cards/46ec0135-5e1d-456e-94de-d739f96a31e4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Heron Moon
@@ -114,6 +116,8 @@ schema: 2
   > Ready to run (You can have two commanders if both have ready to run.)
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RW06b/the-highland-runner) · oracle_id `718ee3f1-13d0-4079-9941-8a703dafbc6b` · printing: UNK #RW06b (2024-10-25) · [rulings](https://api.scryfall.com/cards/f935c4c4-daf7-4861-bd95-c6a05afe6fab/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Hive
@@ -143,6 +147,8 @@ schema: 2
 - **Keywords:** Horsemanship
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed — *Guidance (Oracle pattern)* — packages: [Lands / landfall: Landfall payoffs](../../EDH%20Packages.md#lands--landfall-landfall-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/MZ05/the-horizon-seeker) · oracle_id `e6b3188b-3648-4fbb-866a-766e50e79c3b` · printing: UNK #MZ05 (2024-06-29) · [rulings](https://api.scryfall.com/cards/f8c91499-57df-43b3-a250-1573d65cdfa4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Horus Heresy
@@ -170,6 +176,8 @@ schema: 2
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15094 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [The Howling Abomination + Runaway Steam-Kin + Crown of Flames + Birgi, God of Storytelling // Harnfel, Horn of Bounty](https://commanderspellbook.com/combo/392-1645-3101-3797/) (Infinite damage, Infinitely large creature until end of turn) · EDHREC as commander: 3,914 decks; highest synergy [Season of Growth](../../cards/S/sea.md#season-of-growth) (+83%), [Charge Through](../../cards/C/cha.md#charge-through) (+73%), [Keen Sense](../../cards/K/ke.md#keen-sense) (+70%) · EDHREC: in 1,471 decks; most often under [Maarika, Brutal Gladiator](../../cards/M/maa.md#maarika-brutal-gladiator) (1.9% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.4% of its decks), [Slinza, the Spiked Stampede](../../cards/S/sl.md#slinza-the-spiked-stampede) (1.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/slx/13/the-howling-abomination) · oracle_id `4a67946e-8903-4994-9641-d31fbb62082c` · printing: SLX #13 (2023-02-10) · [rulings](https://api.scryfall.com/cards/5aa862c3-69a3-4d6c-abe8-201e1868c204/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Howling Commandos
@@ -184,6 +192,8 @@ schema: 2
   > *—Dum Dum Dugan*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29626 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 4 decks; highest synergy [Ainok Bond-Kin](../../cards/A/ai.md#ainok-bond-kin) (+74%), [+2 Mace](../../cards/0-9/0-9.md#2-mace) (+50%), [Abzan Skycaptain](../../cards/A/ab.md#abzan-skycaptain) (+50%) · EDHREC: in 259 decks; most often under [Captain America, Team Leader](../../cards/C/cap.md#captain-america-team-leader) (0.3% of its decks), [Captain America, Wings of Freedom](../../cards/C/cap.md#captain-america-wings-of-freedom) (8.0% of its decks), [Captain America, First Avenger](../../cards/C/cap.md#captain-america-first-avenger) (0.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/598/the-howling-commandos) · oracle_id `49325445-0825-405e-be86-2a814699ce03` · printing: MSC #598 (2026-06-26) · [rulings](https://api.scryfall.com/cards/e1982da2-4ed5-4fa7-aa88-26362b7b4dc5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Hunger Tide Rises

@@ -211,6 +211,8 @@ schema: 2
 - **Keywords:** Multikicker
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20262 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 38 decks; highest synergy [Horizon Stone](../../cards/H/ho.md#horizon-stone) (+49%), [Palladium Myr](../../cards/P/pa.md#palladium-myr) (+49%), [Soulbright Flamekin](../../cards/S/so.md#soulbright-flamekin) (+48%) · EDHREC: in 2,230 decks; most often under [Doctor Doom, King of Latveria](../../cards/D/do.md#doctor-doom-king-of-latveria) (11.0% of its decks), [Loki, the Deceiver](../../cards/L/lo.md#loki-the-deceiver) (7.7% of its decks), [Hallar, the Firefletcher](../../cards/H/ha.md#hallar-the-firefletcher) (16.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/49/batroc-the-leaper) · oracle_id `ebbea7a7-c990-43fa-8f67-a5da17fbbb10` · printing: MSC #49 (2026-06-26) · [rulings](https://api.scryfall.com/cards/e34e33ea-042e-409c-b304-52644ec5b1f5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Battalion Foot Soldier

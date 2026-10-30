@@ -35,6 +35,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16112 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2022-06-10* — If Bhaal, Lord of Murder is dealt lethal damage at the same time that its controller's life total is reduced to less than or equal to half their starting life total, Bhaal will have indestructible at the time state-based actions are performed and survive.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 47 combos; most popular [Bhaal, Lord of Murder + Viscera Seer](https://commanderspellbook.com/combo/2292-3602--5/) (Infinite creature ETB, Infinite creature sacrifice triggers) · EDHREC as commander: 2,037 decks; highest synergy [Reassembling Skeleton](../../cards/R/rea.md#reassembling-skeleton) (+56%), [Forsaken Miner](../../cards/F/fo.md#forsaken-miner) (+45%), [Kardur, Doomscourge](../../cards/K/ka.md#kardur-doomscourge) (+43%) · EDHREC: in 2,473 decks; most often under [Esika, God of the Tree](../../cards/E/es.md#esika-god-of-the-tree--the-prismatic-bridge) (1.5% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.6% of its decks), [Thantis, the Warweaver](../../cards/T/tha.md#thantis-the-warweaver) (2.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/268/bhaal-lord-of-murder) · oracle_id `0d2dd78c-103c-4286-a3a1-e471dc77ed91` · printing: CLB #268 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bhaal's Invoker

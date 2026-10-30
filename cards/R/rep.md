@@ -485,6 +485,8 @@ schema: 2
 - **Keywords:** Brontosaurus, Tyrannosaurus Rex
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24775 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 31 decks; highest synergy [Regal Imperiosaur](../../cards/R/reg.md#regal-imperiosaur) (+50%), [Earthshaker Dreadmaw](../../cards/E/ea.md#earthshaker-dreadmaw) (+41%), [Key to the Side-Door](../../cards/K/ke.md#key-to-the-side-door) (+40%) · EDHREC: in 882 decks; most often under [Nick Fury, Agent of S.H.I.E.L.D.](../../cards/N/ni.md#nick-fury-agent-of-shield) (1.4% of its decks), [Bruce Banner](../../cards/B/br.md#bruce-banner--the-incredible-hulk) (0.7% of its decks), [Sauron, Dino Devotee](../../cards/S/sau.md#sauron-dino-devotee) (4.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/182/reptil-dinomorpher) · oracle_id `c6284597-1983-4a21-a461-724135220e0d` · printing: MSH #182 (2026-06-26) · [rulings](https://api.scryfall.com/cards/472db3f2-23df-46c1-86c6-f35fbe5ab4e3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reptilian Recruiter

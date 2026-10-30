@@ -181,6 +181,8 @@ schema: 2
   > {2}{B}, Exile a creature card from your graveyard: Target creature gets -2/-2 until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27185 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 60 decks; highest synergy [Scion of Darkness](../../cards/S/sc.md#scion-of-darkness) (+68%), [Dark Supplicant](../../cards/D/da.md#dark-supplicant) (+62%), [Cabal Pit](../../cards/C/cab.md#cabal-pit) (+59%) · EDHREC: in 450 decks; most often under [Oloro, Ageless Ascetic](../../cards/O/ol.md#oloro-ageless-ascetic) (0.1% of its decks), [Massacre Girl, Known Killer](../../cards/M/mas.md#massacre-girl-known-killer) (0.2% of its decks), [Karona, False God](../../cards/K/ka.md#karona-false-god) (0.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/140/cabal-patriarch) · oracle_id `70d1caee-1c35-4fa3-bbc3-a7dcc226be90` · printing: CMM #140 (2023-08-04) · [rulings](https://api.scryfall.com/cards/9e9a1276-5ad5-44ee-83e5-2d1ab728946e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cabal Pit

@@ -142,6 +142,8 @@ schema: 2
   > *Sunastian has roots in both sorcery and swordplay; he has learned never to depend too heavily on the latter.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29137 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 15 combos; most popular [Marvin, Murderous Mimic + Farmstead Gleaner + Sunastian Falconer](https://commanderspellbook.com/combo/2107-4038-5963/) (Infinite +1/+1 counters on a creature) · EDHREC as commander: 93 decks; highest synergy [Fyndhorn Elves](../../cards/F/fy.md#fyndhorn-elves) (+40%), [Llanowar Elves](../../cards/L/ll.md#llanowar-elves) (+35%), [Fireball](../../cards/F/fi.md#fireball) (+32%) · EDHREC: in 203 decks; most often under [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.1% of its decks), [Raggadragga, Goreguts Boss](../../cards/R/rag.md#raggadragga-goreguts-boss) (0.1% of its decks), [Hazezon Tamar](../../cards/H/ha.md#hazezon-tamar) (1.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me3/178/sunastian-falconer) · oracle_id `3d6314b5-3ace-4793-9549-7b17db2a735d` · printing: ME3 #178 (2009-09-07) · [rulings](https://api.scryfall.com/cards/bd0eb8b1-e48d-4e83-86df-d6aa86f95ffd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sunbaked Canyon
@@ -420,6 +422,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25371 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2009-10-01* — Despite the similarities between horsemanship and flying, horsemanship doesn't interact with flying or reach.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Dream Halls + Conspiracy Theorist + Petals of Insight + Sun Ce, Young Conquerer](https://commanderspellbook.com/combo/2430-3415-4515-5218/) (Infinite creature ETB, Infinite creature LTB) · EDHREC as commander: 18 decks; highest synergy [Blackblade Reforged](../../cards/B/bla.md#blackblade-reforged) (+57%), [Lu Xun, Scholar General](../../cards/L/lu.md#lu-xun-scholar-general) (+50%), [Sun Quan, Lord of Wu](../../cards/S/sun.md#sun-quan-lord-of-wu) (+38%) · EDHREC: in 758 decks; most often under [Sun Quan, Lord of Wu](../../cards/S/sun.md#sun-quan-lord-of-wu) (9.3% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.3% of its decks), [Kenrith, the Returned King](../../cards/K/ke.md#kenrith-the-returned-king) (0.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#sun-ce-young-conquerer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me3/52/sun-ce-young-conquerer) · oracle_id `93b0185c-b86f-4137-bc6d-96212eee1708` · printing: ME3 #52 (2009-09-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -769,6 +773,8 @@ schema: 2
   > *—Chakshi, Dawnchaser pilgrim*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13891 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Presented with an official backstory on [The Legends of Aetherdrift](https://magic.wizards.com/en/news/feature/the-legends-of-aetherdrift) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 260 decks; highest synergy [Voyager Quickwelder](../../cards/V/vo.md#voyager-quickwelder) (+41%), [Foundry Inspector](../../cards/F/fo.md#foundry-inspector) (+40%), [Organic Extinction](../../cards/O/or.md#organic-extinction) (+39%) · EDHREC: in 6,453 decks; most often under [Jasmine Boreal of the Seven](../../cards/J/ja.md#jasmine-boreal-of-the-seven) (66.1% of its decks), [Mendicant Core, Guidelight](../../cards/M/me.md#mendicant-core-guidelight) (1.3% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/31/sundial-dawn-tyrant) · oracle_id `9ca808c5-9338-4199-a45b-df1a1a20625e` · printing: DFT #31 (2025-02-14) · [rulings](https://api.scryfall.com/cards/b2e5435c-52f3-42d7-bcee-5aa13afd6626/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sundial of the Infinite
@@ -1647,6 +1653,8 @@ schema: 2
   > *Breaking expectations and enjoying it.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11538 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 320 decks; highest synergy [All That Glitters](../../cards/A/al.md#all-that-glitters) (+28%), [Danitha Capashen, Paragon](../../cards/D/da.md#danitha-capashen-paragon) (+24%), [Sram, Senior Edificer](../../cards/S/sr.md#sram-senior-edificer) (+24%) · EDHREC: in 9,662 decks; most often under [Cosmic Spider-Man](../../cards/C/cos.md#cosmic-spider-man) (25.1% of its decks), [Peter Parker](../../cards/P/pe.md#peter-parker--amazing-spider-man) (11.7% of its decks), [Wraith, Vicious Vigilante](../../cards/W/wr.md#wraith-vicious-vigilante) (33.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/spm/154/sun-spider-nimble-webber) · oracle_id `2d961997-4f5f-4ce2-b062-11411147e2f7` · printing: SPM #154 (2025-09-26) · [rulings](https://api.scryfall.com/cards/2b54d4a5-634f-4ae3-b592-0dc527f60d56/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sunspine Lynx

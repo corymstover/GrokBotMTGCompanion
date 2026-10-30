@@ -211,6 +211,8 @@ schema: 2
 - **Rulings** (2):
   - *2025-06-06* — Although Interceptor's last ability causes it to enter attacking, it was never declared as an attacking creature. Abilities that trigger whenever a creature attacks won't trigger when it enters attacking.
   - *2025-06-06* — As Interceptor returns to the battlefield because of its triggered ability, you choose which player, planeswalker, or battle it's attacking. It doesn't have to attack the same player, planeswalker, or battle as your legendary creatures.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 62 decks; highest synergy [Shadow, Mysterious Assassin](../../cards/S/sha.md#shadow-mysterious-assassin) (+83%), [Desmond Miles](../../cards/D/des.md#desmond-miles) (+68%), [Mari, the Killing Quill](../../cards/M/mar.md#mari-the-killing-quill) (+62%) · EDHREC: in 10,870 decks; most often under [Terra, Herald of Hope](../../cards/T/te.md#terra-herald-of-hope) (14.5% of its decks), [Ezio Auditore da Firenze](../../cards/E/ez.md#ezio-auditore-da-firenze) (10.7% of its decks), [Altaïr Ibn-La'Ahad](../../cards/A/al.md#altaïr-ibn-laahad) (19.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fic/47/interceptor-shadows-hound) · oracle_id `8571bd94-66c0-4cca-b10f-2c34062d008e` · printing: FIC #47 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Intercessor's Arrest
@@ -442,6 +444,8 @@ schema: 2
 - **Rulings** (2):
   - *2007-02-01* — After Intet leaves the battlefield, if a card exiled this way is still exiled, you may still look at it. You won't be able to play it, though.
   - *2007-02-01* — Once you play a card this way, it leaves the Exile zone and goes to the stack. You won't be able to play it again.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1,110 decks; highest synergy [Brainstorm](../../cards/B/br.md#brainstorm) (+46%), [Genesis Ultimatum](../../cards/G/ge.md#genesis-ultimatum) (+36%), [One with the Multiverse](../../cards/O/on.md#one-with-the-multiverse) (+36%) · EDHREC: in 8,416 decks; most often under [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (5.2% of its decks), [Miirym, Sentinel Wyrm](../../cards/M/mii.md#miirym-sentinel-wyrm) (6.8% of its decks), [Ureni of the Unwritten](../../cards/U/ur.md#ureni-of-the-unwritten) (2.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/229/intet-the-dreamer) · oracle_id `9518ffbc-bb3d-4f48-a900-f5bad8302a87` · printing: 2X2 #229 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### In the Darkness Bind Them

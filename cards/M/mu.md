@@ -271,6 +271,8 @@ schema: 2
   - *2026-03-20* — When Muddle becomes a copy of the target creature, it's neither entering nor leaving the battlefield. Any enters abilities or leaves-the-battlefield abilities won't trigger.
   - *2026-03-20* — While Muddle is a copy of something else, it won't have its own triggered ability. However, if Muddle still has abilities on the stack waiting to resolve, they will do so. (It won't get multiple instances of myriad this way.)
   - *2026-03-20* — You choose whether each token is attacking the player or a planeswalker they control as the token is created. If it's attacking a planeswalker, you choose which one. You can't have any of the tokens attack a battle.
+- **Lore:** ✅ Presented with an official backstory on [The Legends of Secrets of Strixhaven](https://magic.wizards.com/en/news/magic-story/the-legends-of-secrets-of-strixhaven) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 4,828 decks; highest synergy [Curiosity Crafter](../../cards/C/cu.md#curiosity-crafter) (+66%), [Enter the Enigma](../../cards/E/en.md#enter-the-enigma) (+59%), [Professional Face-Breaker](../../cards/P/pr.md#professional-face-breaker) (+59%) · EDHREC: in 7,524 decks; most often under [Rootha, Mastering the Moment](../../cards/R/ro.md#rootha-mastering-the-moment) (46.2% of its decks), [Alania, Divergent Storm](../../cards/A/al.md#alania-divergent-storm) (23.4% of its decks), [Bria, Riptide Rogue](../../cards/B/br.md#bria-riptide-rogue) (17.8% of its decks) — *Guidance (Oracle pattern)* — packages: [Spellslinger: Cast-trigger payoffs](../../EDH%20Packages.md#spellslinger-cast-trigger-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/5/muddle-the-ever-changing) · oracle_id `9a8f6e5e-6cde-49df-861c-a26cb09c9b12` · printing: SOC #5 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Muddle the Mixture
@@ -494,6 +496,8 @@ schema: 2
 - **Keywords:** Shroud
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18186 · Game Changer: no · Can be commander: Yes (legendary creature) · Reserved List
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 708 decks; highest synergy [Howling Mine](../../cards/H/ho.md#howling-mine) (+74%), [Heartwood Storyteller](../../cards/H/he.md#heartwood-storyteller) (+65%), [Thought Vessel](../../cards/T/tho.md#thought-vessel) (+63%) · EDHREC: in 2,424 decks; most often under [Coram, the Undertaker](../../cards/C/cor.md#coram-the-undertaker) (1.4% of its decks), [Masumaro, First to Live](../../cards/M/mas.md#masumaro-first-to-live) (66.3% of its decks), [Sisay, Weatherlight Captain](../../cards/S/si.md#sisay-weatherlight-captain) (0.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ulg/107/multani-maro-sorcerer) · oracle_id `bce5b327-7da1-4136-b76f-069e2fef5d2a` · printing: ULG #107 (1999-02-15) · [rulings](https://api.scryfall.com/cards/0d6cc98b-b376-40af-8308-198bab00b2b1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Multani's Acolyte
@@ -1934,6 +1938,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13655 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2014-05-29* — The value of X is determined as the ability resolves. If, at that time, you control no artifacts, you won't look at any cards.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 652 decks; highest synergy [Master Transmuter](../../cards/M/mas.md#master-transmuter) (+67%), [Padeem, Consul of Innovation](../../cards/P/pa.md#padeem-consul-of-innovation) (+60%), [Darksteel Colossus](../../cards/D/da.md#darksteel-colossus) (+59%) · EDHREC: in 6,204 decks; most often under [Mishra, Eminent One](../../cards/M/mis.md#mishra-eminent-one) (27.1% of its decks), [Urza, Lord High Artificer](../../cards/U/ur.md#urza-lord-high-artificer) (1.3% of its decks), [Urza, Chief Artificer](../../cards/U/ur.md#urza-chief-artificer) (1.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/vma/82/muzzio-visionary-architect) · oracle_id `fc2768a5-621b-48de-9160-4dbaeddb3de1` · printing: VMA #82 (2014-06-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Muzzle

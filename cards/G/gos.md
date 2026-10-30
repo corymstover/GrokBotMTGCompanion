@@ -207,4 +207,6 @@ schema: 2
 - **Keywords:** First strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30950 · Game Changer: no · Can be commander: Yes (legendary creature) · Reserved List
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 33 decks; highest synergy [Blackblade Reforged](../../cards/B/bla.md#blackblade-reforged) (+35%), [Opt](../../cards/O/op.md#opt) (+31%), [Ponder](../../cards/P/po.md#ponder) (+30%) · EDHREC: in 111 decks; most often under [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.1% of its decks), [Arcades Sabboth](../../cards/A/arc.md#arcades-sabboth) (2.2% of its decks), [Angus Mackenzie](../../cards/A/an.md#angus-mackenzie) (0.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/leg/227/gosta-dirk) · oracle_id `fb966147-1d60-4150-b4e7-acf301b2d067` · printing: LEG #227 (1994-06-01) · [rulings](https://api.scryfall.com/cards/92ef316b-dd22-40d1-82e8-8890976684c0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

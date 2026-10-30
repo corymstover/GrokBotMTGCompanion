@@ -43,6 +43,8 @@ schema: 2
   - *2005-06-01* — The triggered mana ability counts the number of other lands with that same name and adds that much mana. The type (that is, the color of mana or colorless mana) is the same as the mana the land just produced.
   - *2005-06-01* — You don't need to have seven lands in hand to reveal your hand. You leave your hand revealed until the ability resolves. If you don't have seven or more land cards in your hand at that time, the effect does nothing.
   - *2005-06-01* — You don't need to tap Sasaya to use its ability, so you can activate the ability on the turn Sasaya comes under your control.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 14 combos; most popular [Sasaya, Orochi Ascendant // Sasaya's Essence + Wakeroot Elemental](https://commanderspellbook.com/combo/192-1836/) (Infinite mana lands you control can produce, Infinite untap of lands you control) · EDHREC as commander: 1,699 decks; highest synergy [Journey of Discovery](../../cards/J/jo.md#journey-of-discovery) (+73%), [Yavimaya Elder](../../cards/Y/ya.md#yavimaya-elder) (+72%), [Seek the Horizon](../../cards/S/see.md#seek-the-horizon) (+71%) · EDHREC: in 1,938 decks; most often under [Aesi, Tyrant of Gyre Strait](../../cards/A/ae.md#aesi-tyrant-of-gyre-strait) (4.4% of its decks), [Seshiro the Anointed](../../cards/S/ses.md#seshiro-the-anointed) (10.9% of its decks), [Omnath, Locus of Mana](../../cards/O/om.md#omnath-locus-of-mana) (0.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sok/145/sasaya-orochi-ascendant-sasayas-essence) · oracle_id `f07f3bf0-e1c8-4a24-87c7-1d6d0b5bd242` · printing: SOK #145 (2005-06-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sash and Waistcoat, Unmen
@@ -56,6 +58,8 @@ schema: 2
 - **Keywords:** Manifest
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #23541 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 599 decks; highest synergy [They Came from the Pipes](../../cards/T/they.md#they-came-from-the-pipes) (+87%), [Primordial Mist](../../cards/P/pr.md#primordial-mist) (+84%), [Training Grounds](../../cards/T/tra.md#training-grounds) (+81%) · EDHREC: in 647 decks; most often under [Kadena, Slinking Sorcerer](../../cards/K/ka.md#kadena-slinking-sorcerer) (12.7% of its decks), [Etrata, Deadly Fugitive](../../cards/E/et.md#etrata-deadly-fugitive) (15.7% of its decks), [Zimone, Mystery Unraveler](../../cards/Z/zi.md#zimone-mystery-unraveler) (2.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbc/11/sash-and-waistcoat-unmen) · oracle_id `2ff470ee-4532-4ded-a684-a2c0d1253fb3` · printing: MBC #11 (2026-10-19) · [rulings](https://api.scryfall.com/cards/7ee28c45-01c4-4f15-83d5-ede29f05a256/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Saskia the Unyielding
@@ -74,6 +78,8 @@ schema: 2
   - *2016-11-08* — If a creature you control deals combat damage to the chosen player, it deals that much damage to that player again.
   - *2016-11-08* — Once the chosen player has left the game, Saskia's triggered ability will have no effect.
   - *2016-11-08* — The damage that Saskia's ability causes a creature to deal isn't combat damage.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Saskia the Unyielding](../../decks/saskia-the-unyielding.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 8,288 decks; highest synergy [Gisela, Blade of Goldnight](../../cards/G/gi.md#gisela-blade-of-goldnight) (+17%), [Aurelia, the Warleader](../../cards/A/au.md#aurelia-the-warleader) (+16%), [Rhythm of the Wild](../../cards/R/rh.md#rhythm-of-the-wild) (+16%) · EDHREC: in 2,741 decks; most often under [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (2.2% of its decks), [Sisay, Weatherlight Captain](../../cards/S/si.md#sisay-weatherlight-captain) (1.6% of its decks), [Omnath, Locus of All](../../cards/O/om.md#omnath-locus-of-all) (1.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 3 pages (1 decks · 2 edh guides) → [reverse index](../../references/S.md#saskia-the-unyielding)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c16/41/saskia-the-unyielding) · oracle_id `e54d207c-51b8-458e-86a1-2633ac064c8e` · printing: C16 #41 (2016-11-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

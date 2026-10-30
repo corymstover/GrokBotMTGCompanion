@@ -300,6 +300,8 @@ schema: 2
   - *2024-04-12* — If a creature with toxic deals combat damage to a creature or planeswalker, or if it deals noncombat damage, toxic has no effect and no player gets poison counters.
   - *2024-04-12* — Multiple instances of toxic are cumulative. For example, if a creature has toxic 2 and gains toxic 1 due to another effect, combat damage that creature deals to a player will cause that player to get 3 poison counters.
   - *2024-04-12* — Toxic doesn't change the amount of combat damage a creature deals. For example, if a 2/2 creature with toxic 1 deals combat damage to a player, that creature will deal 2 damage. The results of that damage are the player loses 2 life and gets a poison counter.
+- **Lore:** ✅ Presented with an official backstory on [The Legends of Phyrexia: All Will Be One](https://magic.wizards.com/en/news/feature/the-legends-of-phyrexia-all-will-be-one) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Time Sieve + Ria Ivor, Bane of Bladehold](https://commanderspellbook.com/combo/607-1558/) (Infinite turns, Lock) · EDHREC as commander: 1,710 decks; highest synergy [Skrelv, Defector Mite](../../cards/S/sk.md#skrelv-defector-mite) (+66%), [Skrelv's Hive](../../cards/S/sk.md#skrelvs-hive) (+64%), [White Sun's Twilight](../../cards/W/wh.md#white-suns-twilight) (+59%) · EDHREC: in 10,694 decks; most often under [Brimaz, Blight of Oreskos](../../cards/B/br.md#brimaz-blight-of-oreskos) (34.3% of its decks), [Vishgraz, the Doomhive](../../cards/V/vi.md#vishgraz-the-doomhive) (30.8% of its decks), [Atraxa, Praetors' Voice](../../cards/A/at.md#atraxa-praetors-voice) (1.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 rules) → [reverse index](../../references/R.md#ria-ivor-bane-of-bladehold)
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/214/ria-ivor-bane-of-bladehold) · oracle_id `785f55bb-d47c-470c-94d4-95f69055e35f` · printing: ONE #214 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -411,6 +413,8 @@ schema: 2
   - *2020-02-29* — Playing cards as though they were other cards is optional.
   - *2020-02-29* — Richard Garfield, Ph.D. essentially makes you play a variant of the Magic game called “Mental Magic.” Here’s how the game works. Whenever you cast a spell, you reveal the card to all players and choose any other card (see below for the cards that you can use) that has that card’s mana cost. (Note that color very much does matter.) That spell can then be cast as though it was the chosen card. You aren’t allowed to choose the same card twice.
   - *2020-02-29* — The same is true if Richard Garfield, Ph.D. changes controllers. If you play a Savannah Lions as Swords to Plowshares, then an opponent gains control of Richard Garfield, Ph.D., that player can then do the same.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/und/26/richard-garfield-phd) · oracle_id `f2a71b45-85dd-448c-9dc0-6564b3411adf` · printing: UND #26 (2020-02-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rick Jones, Destined Sidekick
@@ -425,6 +429,8 @@ schema: 2
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26134 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 44 decks; highest synergy [Eidolon of Blossoms](../../cards/E/ei.md#eidolon-of-blossoms) (+48%), [Enchantress's Presence](../../cards/E/en.md#enchantresss-presence) (+42%), [Destiny Spinner](../../cards/D/des.md#destiny-spinner) (+38%) · EDHREC: in 635 decks; most often under [Bruce Banner](../../cards/B/br.md#bruce-banner--the-incredible-hulk) (1.8% of its decks), [Nick Fury, Agent of S.H.I.E.L.D.](../../cards/N/ni.md#nick-fury-agent-of-shield) (1.0% of its decks), [Hulk, Gamma Goliath](../../cards/H/hu.md#hulk-gamma-goliath) (7.4% of its decks) — *Guidance (Oracle pattern)* — packages: [Graveyard: Self-mill](../../EDH%20Packages.md#graveyard-self-mill) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/184/rick-jones-destined-sidekick) · oracle_id `4bccfa67-0c6f-42a1-b8d4-0842a8230d1e` · printing: MSH #184 (2026-06-26) · [rulings](https://api.scryfall.com/cards/29bffd7c-73be-4185-976b-36a42a4512fe/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ricochet
@@ -1263,6 +1269,8 @@ schema: 2
   - *2022-04-29* — If a permanent with a shield counter is dealt unpreventable damage, that damage will be dealt and a shield counter will still be removed.
   - *2022-04-29* — Removing a shield counter in this way isn't the same as regenerating a creature.
   - *2022-04-29* — Shield counters don't prevent players from sacrificing creatures.
+- **Lore:** ✅ Presented with an official backstory on [The Legends You'll Find in Streets of New Capenna](https://magic.wizards.com/en/news/feature/the-legends-youll-find-in-streets-of-new-capenna) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1,639 decks; highest synergy [Tetsuko Umezawa, Fugitive](../../cards/T/te.md#tetsuko-umezawa-fugitive) (+62%), [Dusk // Dawn](../../cards/D/du.md#dusk--dawn) (+53%), [Siren Stormtamer](../../cards/S/si.md#siren-stormtamer) (+47%) · EDHREC: in 4,622 decks; most often under [Arcades, the Strategist](../../cards/A/arc.md#arcades-the-strategist) (14.6% of its decks), [Aragorn, the Uniter](../../cards/A/ara.md#aragorn-the-uniter) (1.9% of its decks), [Falco Spara, Pactweaver](../../cards/F/fa.md#falco-spara-pactweaver) (2.2% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/snc/215/rigo-streetwise-mentor) · oracle_id `1f42a809-bbfc-4225-9c31-f7d0fa8fa17a` · printing: SNC #215 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rikala, Homarid King
@@ -1276,6 +1284,8 @@ schema: 2
   > Whenever you tap an Island for mana, if there are three or more tide counters on Rikala, add an additional {U}.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #21047 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 30 combos; most popular [Kiora's Follower + Freed from the Real + Rikala, Homarid King](https://commanderspellbook.com/combo/116-4222-8328/) (Infinite blue mana, Infinite mana permanents you control can produce) · EDHREC as commander: 293 decks; highest synergy [High Tide](../../cards/H/hi.md#high-tide) (+71%), [Power Conduit](../../cards/P/po.md#power-conduit) (+68%), [O'aka, Traveling Merchant](../../cards/O/oa.md#oaka-traveling-merchant) (+67%) · EDHREC: in 1,720 decks; most often under [Xolatoyac, the Smiling Flood](../../cards/X/xo.md#xolatoyac-the-smiling-flood) (4.2% of its decks), [Kenrith, the Returned King](../../cards/K/ke.md#kenrith-the-returned-king) (0.1% of its decks), [Mimeoplasm, Revered One](../../cards/M/mim.md#mimeoplasm-revered-one) (0.5% of its decks) — *Guidance (Oracle pattern)* — packages: [Tokens: Anthems](../../EDH%20Packages.md#tokens-anthems) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbc/49/rikala-homarid-king) · oracle_id `45284633-8aab-4078-ae5c-7b0d75efe2f5` · printing: MBC #49 (2026-10-19) · [rulings](https://api.scryfall.com/cards/01f1ab6c-446d-4a38-b40d-39ea04f5977d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rikku, Resourceful Guardian
@@ -1310,6 +1320,8 @@ schema: 2
 - **Keywords:** Double strike
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed — *Guidance (Oracle pattern)* — packages: [Spellslinger: Spell copiers](../../EDH%20Packages.md#spellslinger-spell-copiers) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ04f/riku-and-riku) · oracle_id `d5f626b2-162f-4388-8f0c-93aa33ce390c` · printing: UNK #RZ04f (2023-05-06) · [rulings](https://api.scryfall.com/cards/139a3165-73b1-4601-a11c-7588a4838c88/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Riku of Many Paths
@@ -1329,6 +1341,8 @@ schema: 2
   - *2024-04-12* — The X in Riku's ability is the number of times you chose a mode for the modal spell you cast, not the number of distinct modes you chose. For example, if you cast a modal spell that allows you to choose the same mode more than once and you choose the same mode three times, X is three and you may choose up to all modes of Riku's ability.
   - *2024-04-12* — You can't choose the same mode of Riku's triggered ability more than once each time it triggers.
   - *2024-04-12* — You pay all costs and follow all normal timing rules for cards played from exile with Riku's triggered ability. For example, if the exiled card is a land card, you may play it only during your main phase while the stack is empty.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 6,575 decks; highest synergy [Prismari Command](../../cards/P/pr.md#prismari-command) (+77%), [Quandrix Command](../../cards/Q/qu.md#quandrix-command) (+76%), [Flame of Anor](../../cards/F/fl.md#flame-of-anor) (+73%) · EDHREC: in 993 decks; most often under [Omnath, Locus of All](../../cards/O/om.md#omnath-locus-of-all) (2.2% of its decks), [Aragorn, the Uniter](../../cards/A/ara.md#aragorn-the-uniter) (0.8% of its decks), [Ramos, Dragon Engine](../../cards/R/ram.md#ramos-dragon-engine) (1.2% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Impulse / exile-to-play](../../EDH%20Packages.md#card-advantage-impulse--exile-to-play) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#riku-of-many-paths)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otj/227/riku-of-many-paths) · oracle_id `1cfe6e3a-f8c9-4105-ad03-0faf1fcc4626` · printing: OTJ #227 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1352,6 +1366,8 @@ schema: 2
   - *2011-09-22* — Riku's first ability triggers whenever you cast any instant or sorcery spell, regardless of whether that spell has targets.
   - *2011-09-22* — The copiable values of the token's characteristics are the same as the copiable values of the characteristics of the creature it's copying.
   - *2011-09-22* — You can't pay any additional costs for the copy. However, effects based on any additional costs paid for the original spell are copied as though those same costs were paid for the copy. Notably, if the original spell was kicked (or kicked a certain number of times), the copy will also be kicked (or kicked that many times).
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 23 combos; most popular [Riku of Two Reflections + Biovisionary + Double Major](https://commanderspellbook.com/combo/1817-2743-5257/) (Win the game) · EDHREC as commander: 5,399 decks; highest synergy [Rite of Replication](../../cards/R/ri.md#rite-of-replication) (+48%), [Adrix and Nev, Twincasters](../../cards/A/ad.md#adrix-and-nev-twincasters) (+33%), [Progenitor Mimic](../../cards/P/pr.md#progenitor-mimic) (+33%) · EDHREC: in 3,075 decks; most often under [Riku of Many Paths](../../cards/R/ri.md#riku-of-many-paths) (6.1% of its decks), [Kalamax, the Stormsire](../../cards/K/ka.md#kalamax-the-stormsire) (2.2% of its decks), [Animar, Soul of Elements](../../cards/A/an.md#animar-soul-of-elements) (0.7% of its decks) — *Guidance (Oracle pattern)* — packages: [Spellslinger: Cast-trigger payoffs](../../EDH%20Packages.md#spellslinger-cast-trigger-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2xm/214/riku-of-two-reflections) · oracle_id `f697c78d-7e4f-4320-bfc6-2a25e6d7dc94` · printing: 2XM #214 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rile
@@ -1708,6 +1724,8 @@ schema: 2
   - *2024-11-08* — Playtest cards aren’t legal for play in any tournament format other than Mystery Booster Limited formats. On the other hand, we expect they will spice up a wide variety of non-tournament games (as long as everyone’s on the same page about using them!).
   - *2024-11-08* — Playtest cards use a modified version of game symbols, such as {T} and {W}. These modified symbols should be treated as the standard symbols during play.
   - *2024-11-08* — Replacement effects that modify creatures of a certain type as they enter will apply after you apply Rin and Seri, Inseparabler’s first and second abilities, as appropriate. For example, if you control Rin and Seri, Inseparabler as well as a permanent with “Each Dog you control enters with an additional +1/+1 counter on it” and you create a 1/1 Cat token, that Cat token will be a Dog Cat token and will enter with a +1/+1 counter on it, a woof, and a purr.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#rin-and-seri-inseparabler)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mb2/601/rin-and-seri-inseparabler) · oracle_id `db906e6b-b006-4035-b799-721d5921cfee` · printing: MB2 #601 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1994,6 +2012,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14658 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2025-10-02* — If you're attacking with Rinoa and one or more other attacking creatures you control die at the same time, Rinoa's last ability will still trigger and see all of those creatures, including Rinoa.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 260 decks; highest synergy [Sephara, Sky's Blade](../../cards/S/sep.md#sephara-skys-blade) (+45%), [Selfless Spirit](../../cards/S/sel.md#selfless-spirit) (+42%), [Jackdaw Savior](../../cards/J/ja.md#jackdaw-savior) (+41%) · EDHREC: in 5,760 decks; most often under [Squall, Gunblade Duelist](../../cards/S/sq.md#squall-gunblade-duelist) (34.2% of its decks), [Terra, Herald of Hope](../../cards/T/te.md#terra-herald-of-hope) (2.6% of its decks), [Squall, SeeD Mercenary](../../cards/S/sq.md#squall-seed-mercenary) (5.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fic/450/rinoa-angel-wing) · oracle_id `47b29cf9-8ef3-4b6a-a9a3-3ab822c5dea4` · printing: FIC #450 (2025-12-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rinoa Heartilly
@@ -2007,6 +2027,8 @@ schema: 2
 - **Keywords:** Angelo Cannon
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14233 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 429 decks; highest synergy [Moogles' Valor](../../cards/M/moo.md#moogles-valor) (+44%), [Queen Allenal of Ruadach](../../cards/Q/qu.md#queen-allenal-of-ruadach) (+38%), [Champions from Beyond](../../cards/C/cha.md#champions-from-beyond) (+37%) · EDHREC: in 5,928 decks; most often under [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (3.3% of its decks), [Sophia, Dogged Detective](../../cards/S/so.md#sophia-dogged-detective) (17.7% of its decks), [Serah Farron](../../cards/S/ser.md#serah-farron--crystallized-serah) (40.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (2 card data) → [reverse index](../../references/R.md#rinoa-heartilly)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/237/rinoa-heartilly) · oracle_id `8896c74b-d466-4c25-94cf-82b5e2b1fdef` · printing: FIN #237 (2025-06-13) · [rulings](https://api.scryfall.com/cards/ba79d293-bf42-48b6-a868-5249f4beeb76/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2020,6 +2042,8 @@ schema: 2
   > Whenever you cast a playtest card, draw a card.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed — *Guidance (Oracle pattern)* — packages: [Ramp: Cost reducers](../../EDH%20Packages.md#ramp-cost-reducers) · [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RU04/rinta-cousin-of-sitka) · oracle_id `7e2a654e-ac0a-4ab6-9916-b0a7fde379ad` · printing: UNK #RU04 (2025-02-21) · [rulings](https://api.scryfall.com/cards/2963d356-b963-4cdc-aa8e-b1c103d6afa9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rionya, Fire Dancer
@@ -2296,6 +2320,8 @@ schema: 2
   - *2024-09-20* — If a creature's survival ability triggers but the creature leaves the battlefield before the ability resolves, use its tapped or untapped status as it last existed on the battlefield to determine whether or not the ability will do anything.
   - *2024-09-20* — Survival abilities (and other abilities that trigger at the beginning of your second main phase) will trigger at the beginning of the second main phase you take in a turn. They won't trigger during your third, fourth, or other additional main phases in a single turn, if effects somehow cause you to have more than two main phases.
   - *2024-09-20* — The value of X is determined only once, as Rip's ability resolves.
+- **Lore:** ✅ Presented with an official backstory on [The Legends of Duskmourn: House of Horror](https://magic.wizards.com/en/news/feature/the-legends-of-duskmourn-house-of-horror) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1,403 decks; highest synergy [Kona, Rescue Beastie](../../cards/K/ko.md#kona-rescue-beastie) (+81%), [Wylie Duke, Atiin Hero](../../cards/W/wy.md#wylie-duke-atiin-hero) (+72%), [House Cartographer](../../cards/H/ho.md#house-cartographer) (+67%) · EDHREC: in 9,938 decks; most often under [Samut, the Driving Force](../../cards/S/sam.md#samut-the-driving-force) (26.4% of its decks), [Caradora, Heart of Alacria](../../cards/C/car.md#caradora-heart-of-alacria) (55.6% of its decks), [Katilda, Dawnhart Prime](../../cards/K/ka.md#katilda-dawnhart-prime) (30.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsk/228/rip-spawn-hunter) · oracle_id `c027f369-e445-46a8-94ad-93396321295a` · printing: DSK #228 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Riptide
@@ -3532,6 +3558,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15381 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2022-12-08* — You choose whether to pay {2}{G} as Rith's ability resolves. Once you make that choice, no player may take actions until the Saprolings are created (if you paid) and the ability has finished resolving.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 18 combos; most popular [Rith, the Awakener + Aggravated Assault + Utopia Mycon](https://commanderspellbook.com/combo/3750-3973-4214/) (Infinite colored mana, Infinite combat damage) · EDHREC as commander: 1,572 decks; highest synergy [Artifact Mutation](../../cards/A/art.md#artifact-mutation) (+58%), [Aura Mutation](../../cards/A/au.md#aura-mutation) (+55%), [Tendershoot Dryad](../../cards/T/te.md#tendershoot-dryad) (+51%) · EDHREC: in 3,521 decks; most often under [Baylen, the Haymaker](../../cards/B/bay.md#baylen-the-haymaker) (1.8% of its decks), [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (0.8% of its decks), [Aragorn, the Uniter](../../cards/A/ara.md#aragorn-the-uniter) (0.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmr/198/rith-the-awakener) · oracle_id `97e5d788-2dd3-4c8e-9ab6-f4ea9c7a9a3d` · printing: DMR #198 (2023-01-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ritual Guardian
@@ -3752,6 +3780,8 @@ schema: 2
   > *"Political violence is a perfectly legitimate answer to the persecution handed down by dignitaries of the state."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29849 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 47 decks; highest synergy [The Black Arrow](../../cards/T/theb.md#the-black-arrow) (+33%), [Bribery](../../cards/B/br.md#bribery) (+24%), [Diabolic Tutor](../../cards/D/di.md#diabolic-tutor) (+24%) · EDHREC: in 186 decks; most often under [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.1% of its decks), [Dakkon Blackblade](../../cards/D/da.md#dakkon-blackblade) (0.9% of its decks), [Nicol Bolas](../../cards/N/ni.md#nicol-bolas) (0.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me3/171/riven-turnbull) · oracle_id `2742d506-897f-4d30-ba43-ce0374984849` · printing: ME3 #171 (2009-09-07) · [rulings](https://api.scryfall.com/cards/ed665227-02ba-4977-a8e7-ea4e46a626e6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Riven Turnbull and Princess Lucrezia
@@ -3763,6 +3793,8 @@ schema: 2
   > {T}: Add {U}{B}.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ08c/riven-turnbull-and-princess-lucrezia) · oracle_id `c7bcf425-1922-4270-b87e-adaf7c2023d7` · printing: UNK #RZ08c (2023-05-06) · [rulings](https://api.scryfall.com/cards/058d4706-b581-4f9f-a096-8061419893da/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### River Bear
@@ -4108,6 +4140,8 @@ schema: 2
   - *2023-10-13* — Neither "Time" nor "Lord" are creature types. Some older cards were printed with the subtype "Lord," but all of those cards have updated Oracle card text that removed that type.
   - *2023-10-13* — River Song's first ability applies to all cards you draw while it is on the battlefield, not just the card you draw for your turn.
   - *2023-10-13* — Unlike other creature types in Magic that are each only one word, the two words "Time Lord" represent a single creature subtype. Time Lord is the only two-word creature type.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 77 combos; most popular [River Song + Timestream Navigator](https://commanderspellbook.com/combo/1061-2707/) (Infinite turns, Lock) · EDHREC as commander: 4,388 decks; highest synergy [Field of Ruin](../../cards/F/fi.md#field-of-ruin) (+80%), [Cleansing Wildfire](../../cards/C/cl.md#cleansing-wildfire) (+68%), [Tomb Trawler](../../cards/T/to.md#tomb-trawler) (+67%) · EDHREC: in 6,718 decks; most often under [Neera, Wild Mage](../../cards/N/ne.md#neera-wild-mage) (13.0% of its decks), [The Fourteenth Doctor // Clara Oswald](../../cards/T/thef.md#the-fourteenth-doctor) (27.4% of its decks), [The Tenth Doctor // Rose Tyler](../../cards/T/thet.md#the-tenth-doctor) (9.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/152/river-song) · oracle_id `418ecbb7-b809-4639-a531-070b58b5b85e` · printing: WHO #152 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### River Song's Diary

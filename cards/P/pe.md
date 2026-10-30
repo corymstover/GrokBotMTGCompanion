@@ -807,6 +807,8 @@ schema: 2
   > *"A lot of people told me I could never do this work. I've been proving those people wrong my whole life."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19239 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 13 decks; highest synergy [Agent 13, Sharon Carter](../../cards/A/ag.md#agent-13-sharon-carter) (+76%), [S.H.I.E.L.D. Spy Kit](../../cards/S/shi.md#shield-spy-kit) (+69%), [Cathedral of War](../../cards/C/cat.md#cathedral-of-war) (+68%) · EDHREC: in 2,759 decks; most often under [Winter Soldier, Icy Assassin](../../cards/W/wi.md#winter-soldier-icy-assassin) (22.5% of its decks), [Arabella, Abandoned Doll](../../cards/A/ara.md#arabella-abandoned-doll) (4.8% of its decks), [Black Widow, Double Agent](../../cards/B/bla.md#black-widow-double-agent) (67.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/523/peggy-carter-secret-agent) · oracle_id `2f3c6b8e-df89-4f0c-97bb-fbfcda5232b4` · printing: MSC #523 (2026-06-26) · [rulings](https://api.scryfall.com/cards/1f98293e-9d94-4185-8546-8beaf281dfa3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pelakka Predation // Pelakka Caverns
@@ -881,6 +883,8 @@ schema: 2
   > *"Lanthanites live a long time, dear. It lets us learn all sorts of things, but you have to make your own fun."*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #32292 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1 decks; highest synergy [Erratic Portal](../../cards/E/er.md#erratic-portal) (+100%), [Crystal Shard](../../cards/C/cr.md#crystal-shard) (+99%), [Scholar of the Lost Trove](../../cards/S/sc.md#scholar-of-the-lost-trove) (+99%) · EDHREC: in 25 decks; most often under [The Mighty Thor, Jane Foster](../../cards/T/them.md#the-mighty-thor-jane-foster) (0.3% of its decks), Mr. Spock, Science Officer (2.3% of its decks), [Belisarius Cawl](../../cards/B/be.md#belisarius-cawl) (0.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/trc/148/pelia-immortal-innovator) · oracle_id `4c0be0d0-766b-4c50-b1ca-cce527196666` · printing: TRC #148 (2026-11-13) · [rulings](https://api.scryfall.com/cards/4f7ef05c-e9a9-4431-8cd5-4cd41c64de67/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pelt Collector
@@ -1569,6 +1573,8 @@ schema: 2
   - *2024-01-12* — Tapping an untapped creature that's attacking or blocking to convoke a spell won't cause that creature to stop attacking or blocking.
   - *2024-01-12* — When calculating a spell's total cost, include any alternative costs, additional costs, or anything else that increases or reduces the cost to cast the spell. Convoke applies after the total cost is calculated. Convoke doesn't change a spell's mana cost or mana value.
   - *2024-01-12* — You can tap any untapped creature you control to convoke a spell, even one you haven't controlled continuously since the beginning of your most recent turn.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 15 decks; highest synergy [Gold Myr](../../cards/G/gol.md#gold-myr) (+48%), [Liberator, Urza's Battlethopter](../../cards/L/li.md#liberator-urzas-battlethopter) (+39%), [Myr Battlesphere](../../cards/M/my.md#myr-battlesphere) (+39%) · EDHREC: in 6,703 decks; most often under [The Fourteenth Doctor // Rose Noble](../../cards/T/thef.md#the-fourteenth-doctor) (55.1% of its decks), [The Fourth Doctor // Sarah Jane Smith](../../cards/T/thef.md#the-fourth-doctor) (50.7% of its decks), [The Fourteenth Doctor // Clara Oswald](../../cards/T/thef.md#the-fourteenth-doctor) (24.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/P.md#peri-brown)
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/26/peri-brown) · oracle_id `2fadf4aa-1b7e-4e72-ad20-809a59ddccf8` · printing: WHO #26 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1965,6 +1971,8 @@ schema: 2
   - *2022-04-29* — Removing a shield counter in this way isn't the same as regenerating a creature.
   - *2022-04-29* — Shield counters don't prevent players from sacrificing creatures.
   - *2022-04-29* — “Shield” is not an ability that creatures have and shield counters are not keyword counters. If a creature with a shield counter loses its abilities, the shield counter will still protect it as normal.
+- **Lore:** ✅ Presented with an official backstory on [The Legends You'll Find in Streets of New Capenna](https://magic.wizards.com/en/news/feature/the-legends-youll-find-in-streets-of-new-capenna) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1,848 decks; highest synergy [Agent's Toolkit](../../cards/A/ag.md#agents-toolkit) (+83%), [Crystalline Giant](../../cards/C/cr.md#crystalline-giant) (+83%), [Slippery Bogbonder](../../cards/S/sl.md#slippery-bogbonder) (+75%) · EDHREC: in 2,206 decks; most often under [Tidus, Yuna's Guardian](../../cards/T/ti.md#tidus-yunas-guardian) (3.2% of its decks), [Falco Spara, Pactweaver](../../cards/F/fa.md#falco-spara-pactweaver) (9.9% of its decks), [Atraxa, Praetors' Voice](../../cards/A/at.md#atraxa-praetors-voice) (0.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ncc/5/perrie-the-pulverizer) · oracle_id `41d408dc-f6fe-45b2-b225-2ac25db9ad0f` · printing: NCC #5 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Persecute

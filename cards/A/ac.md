@@ -625,6 +625,8 @@ schema: 2
   - *2023-10-13* — If your Commander deck has two commanders, you can include only cards whose own color identities are also found in your commanders' combined color identities.
   - *2023-10-13* — Once the game begins, your two commanders are tracked separately. If you cast one, you won't have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 combat damage from any one of them, not from both of them combined.
   - *2023-10-13* — The Doctor's companion ability allows you to have two commanders if one has the ability and the other is a legendary creature that is a Time Lord Doctor and has no other creature types. Creatures with the changeling ability, for example, can't be a second commander this way.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 24 decks; highest synergy [Ace's Baseball Bat](../../cards/A/ac.md#aces-baseball-bat) (+75%), [Gingerbread Cabin](../../cards/G/gi.md#gingerbread-cabin) (+59%), [Boxing Ring](../../cards/B/bo.md#boxing-ring) (+58%) · EDHREC: in 1,740 decks; most often under [The Fourth Doctor // Sarah Jane Smith](../../cards/T/thef.md#the-fourth-doctor) (26.4% of its decks), [Jenny Flint // Madame Vastra](../../cards/J/je.md#jenny-flint) (6.9% of its decks), [The Fourteenth Doctor // Rose Noble](../../cards/T/thef.md#the-fourteenth-doctor) (7.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/A.md#ace-fearless-rebel)
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/98/ace-fearless-rebel) · oracle_id `50d0d870-fe3d-44a2-ad6e-93307a1fb468` · printing: WHO #98 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -988,6 +990,8 @@ schema: 2
 - **Rulings** (2):
   - *2020-02-29* — If you cast a Squirrel spell that depicts a squirrel (as most do), you'd get two acorn counters: one when you cast the spell, and another when the spell resolves and the Squirrel enters the battlefield.
   - *2020-02-29* — You retain all acorn counters in your stash until you spend them, even if you lose control of Acornelia.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/und/31/acornelia-fashionable-filcher) · oracle_id `c4edcdc0-91de-410c-95dd-219efcef692a` · printing: UND #31 (2020-02-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Acorn Harvest

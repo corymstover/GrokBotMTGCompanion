@@ -2808,6 +2808,8 @@ schema: 2
 - **Keywords:** Indestructible, Hexproof, Trample
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #17887 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 2,043 decks; highest synergy [Basilisk Collar](../../cards/B/bas.md#basilisk-collar) (+68%), [Blanchwood Armor](../../cards/B/bla.md#blanchwood-armor) (+64%), [Strong Back](../../cards/S/str.md#strong-back) (+64%) · EDHREC: in 1,704 decks; most often under [Indominus Rex, Alpha](../../cards/I/ind.md#indominus-rex-alpha) (24.7% of its decks), [Grolnok, the Omnivore](../../cards/G/gro.md#grolnok-the-omnivore) (10.1% of its decks), [Clement, the Worrywort](../../cards/C/cl.md#clement-the-worrywort) (8.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbc/28/blor-the-impervious) · oracle_id `f5f2fa96-8e87-44bc-8c82-e217706d3cab` · printing: MBC #28 (2026-10-19) · [rulings](https://api.scryfall.com/cards/9c2239e5-cdbd-4d3d-81a1-5e18174f1209/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blossombind

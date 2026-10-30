@@ -330,6 +330,8 @@ schema: 2
   - *2024-04-12* — A card, spell, or permanent is an outlaw if it has the Assassin, Mercenary, Pirate, Rogue, or Warlock creature type. It doesn't matter if it has more than one of those creature types; as long as it has at least one, it's an outlaw.
   - *2024-04-12* — If an ability refers to an outlaw or whether a player controls an outlaw, it's referring only to permanents with one or more of the creature types specified above. Notably, it's not referring to any spell or card not on the battlefield. However, other abilities may refer to an "outlaw spell" or "outlaw card" in a zone other than the battlefield. Those abilities refer to spells and cards with one or more of the specified creature types.
   - *2024-04-12* — Outlaw is not a creature type. If an effect asks you to choose a creature type, you can't choose outlaw.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 572 decks; highest synergy [At Knifepoint](../../cards/A/at.md#at-knifepoint) (+78%), [Rakish Crew](../../cards/R/rak.md#rakish-crew) (+74%), [Hellspur Posse Boss](../../cards/H/he.md#hellspur-posse-boss) (+69%) · EDHREC: in 11,087 decks; most often under [Laughing Jasper Flint](../../cards/L/la.md#laughing-jasper-flint) (72.0% of its decks), [Olivia, Opulent Outlaw](../../cards/O/ol.md#olivia-opulent-outlaw) (25.4% of its decks), [Marchesa, Dealer of Death](../../cards/M/mar.md#marchesa-dealer-of-death) (16.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otj/235/vial-smasher-gleeful-grenadier) · oracle_id `a66d8dc6-ced4-4b24-b0c2-3557b2a851be` · printing: OTJ #235 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vial Smasher the Fierce
@@ -1005,6 +1007,8 @@ schema: 2
   - *2022-06-10* — If your commander loses the choose a Background ability or stops being a Background during the game, as appropriate, it is still your commander.
   - *2022-06-10* — Once the game begins, your two commanders are tracked separately. If you cast one, you won’t have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 combat damage from any one of them, not from both of them combined (although your Background won’t usually be a creature anyway).
   - *2022-06-10* — You can choose two commanders that are the same color or colors.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 29 decks; highest synergy [Scion of Halaster](../../cards/S/sc.md#scion-of-halaster) (+34%), [Murder](../../cards/M/mu.md#murder) (+29%), [Soul Enervation](../../cards/S/so.md#soul-enervation) (+27%) · EDHREC: in 12,129 decks; most often under [Lathril, Blade of the Elves](../../cards/L/la.md#lathril-blade-of-the-elves) (2.0% of its decks), [Shadowheart, Dark Justiciar // Haunted One](../../cards/S/sha.md#shadowheart-dark-justiciar) (42.2% of its decks), [High Perfect Morcant](../../cards/H/hi.md#high-perfect-morcant) (2.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/V.md#viconia-drow-apostate)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/156/viconia-drow-apostate) · oracle_id `22e36922-a81a-4a0c-b698-51b48bd91ce6` · printing: CLB #156 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1064,6 +1068,8 @@ schema: 2
   > *—Ultron*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22502 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 6 decks; highest synergy [Grinding Station](../../cards/G/gri.md#grinding-station) (+65%), [Myr Sire](../../cards/M/my.md#myr-sire) (+65%), [Altar of Dementia](../../cards/A/al.md#altar-of-dementia) (+64%) · EDHREC: in 1,462 decks; most often under [Karolina Dean, Runaway](../../cards/K/ka.md#karolina-dean-runaway) (29.7% of its decks), [Tony Stark](../../cards/T/to.md#tony-stark--the-invincible-iron-man) (0.9% of its decks), [Nico Minoru, Runaway](../../cards/N/ni.md#nico-minoru-runaway) (8.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/574/victor-mancha-runaway) · oracle_id `606a83ae-c774-4abc-ba30-c113cbd1c05b` · printing: MSC #574 (2026-06-26) · [rulings](https://api.scryfall.com/cards/4d9bc6d6-fada-41f9-8a85-483e8806bb4b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Victor Timely, Wily Tycoon
@@ -1077,6 +1083,8 @@ schema: 2
   > *"No time like the present. No present like the future."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26843 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 10 decks; highest synergy [The Warring Triad](../../cards/T/thew.md#the-warring-triad) (+80%), [Spaceshift](../../cards/S/spa.md#spaceshift) (+79%), [Siren's Ruse](../../cards/S/si.md#sirens-ruse) (+78%) · EDHREC: in 585 decks; most often under [Kang Prime](../../cards/K/ka.md#kang-prime) (10.3% of its decks), [Loki, the Deceiver](../../cards/L/lo.md#loki-the-deceiver) (2.3% of its decks), [Tony Stark](../../cards/T/to.md#tony-stark--the-invincible-iron-man) (0.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/642/victor-timely-wily-tycoon) · oracle_id `2ad77eb7-9466-432f-87b4-e80e4b66e143` · printing: MSC #642 (2026-06-26) · [rulings](https://api.scryfall.com/cards/60178b2b-a049-4254-b754-b56910cece84/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Victor, Valgavoth's Seneschal
@@ -1476,6 +1484,8 @@ schema: 2
 - **Keywords:** Training
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18450 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 736 decks; highest synergy [Zirda, the Dawnwaker](../../cards/Z/zi.md#zirda-the-dawnwaker) (+69%), [Burning Anger](../../cards/B/bu.md#burning-anger) (+57%), [Battlemage's Bracers](../../cards/B/bat.md#battlemages-bracers) (+55%) · EDHREC: in 2,250 decks; most often under [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (1.7% of its decks), [Aisha of Sparks and Smoke](../../cards/A/ai.md#aisha-of-sparks-and-smoke) (11.3% of its decks), [Immard, the Stormcleaver](../../cards/I/im.md#immard-the-stormcleaver) (7.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/slx/11/vikya-scorching-stalwart) · oracle_id `ad43ccce-3052-4817-8c46-f5c23cb49300` · printing: SLX #11 (2023-02-10) · [rulings](https://api.scryfall.com/cards/f3a9eac0-cc71-48ae-bb60-ae26160f2000/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vildin-Pack Outcast // Dronepack Kindred
@@ -2533,6 +2543,8 @@ schema: 2
   > *"Before unleashing my master plan, I will pay back those few animals who dared defy me in the past."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22050 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 14 decks; highest synergy [Magus of the Coffers](../../cards/M/mag.md#magus-of-the-coffers) (+44%), [Sceptre of Eternal Glory](../../cards/S/sc.md#sceptre-of-eternal-glory) (+43%), [Doctor Doom, Unrivaled](../../cards/D/do.md#doctor-doom-unrivaled) (+41%) · EDHREC: in 1,601 decks; most often under [Whiplash, Vengeful Engineer](../../cards/W/wh.md#whiplash-vengeful-engineer) (14.5% of its decks), [Black Widow, Double Agent](../../cards/B/bla.md#black-widow-double-agent) (42.8% of its decks), [Madame Hydra](../../cards/M/mad.md#madame-hydra) (11.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/673/viper-cruel-conspirator) · oracle_id `6824a6ed-37d0-4db5-b2d4-9c737d0c49f9` · printing: MSC #673 (2026-06-26) · [rulings](https://api.scryfall.com/cards/3a57b64f-2b57-44f3-8d4d-2ff5c5615601/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Viper's Kiss
@@ -3219,6 +3231,8 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13975 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 14 combos; most popular [Visara the Dreadful + Thornbite Staff](https://commanderspellbook.com/combo/2178-4117/) (Destroy each creature that enters the battlefield under an opponent's control, Destroy any number of creatures) · EDHREC as commander: 111 decks; highest synergy [Avatar of Woe](../../cards/A/av.md#avatar-of-woe) (+48%), [Thornbite Staff](../../cards/T/tho.md#thornbite-staff) (+41%), [Royal Assassin](../../cards/R/ro.md#royal-assassin) (+36%) · EDHREC: in 6,435 decks; most often under [Aphelia, Viper Whisperer](../../cards/A/ap.md#aphelia-viper-whisperer) (24.3% of its decks), [The Beamtown Bullies](../../cards/T/theb.md#the-beamtown-bullies) (6.1% of its decks), [Damia, Sage of Stone](../../cards/D/da.md#damia-sage-of-stone) (11.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ema/114/visara-the-dreadful) · oracle_id `79b999bc-2d4b-41e1-b64e-f0c080a9a2c5` · printing: EMA #114 (2016-06-10) · [rulings](https://api.scryfall.com/cards/03f66946-ff52-4ce4-af25-b81196fa451b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Viscera Dragger
@@ -3378,6 +3392,8 @@ schema: 2
 - **Rulings** (2):
   - *2020-08-07* — Use the sacrificed creature's power as it last existed on the battlefield to determine how many +1/+1 counters to put on Vish Kal.
   - *2020-08-07* — Vish Kal's last ability doesn't deal damage. It doesn't cause you to gain any life from its lifelink ability.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 98 combos; most popular [Vish Kal, Blood Arbiter + Mikaeus, the Unhallowed](https://commanderspellbook.com/combo/574-628/) (Destroy any number of creatures, Infinite creature LTB) · EDHREC as commander: 354 decks; highest synergy [Blade of the Bloodchief](../../cards/B/bla.md#blade-of-the-bloodchief) (+38%), [Mikaeus, the Unhallowed](../../cards/M/mik.md#mikaeus-the-unhallowed) (+36%), [Butcher of Malakir](../../cards/B/bu.md#butcher-of-malakir) (+30%) · EDHREC: in 3,994 decks; most often under [Edgar Markov](../../cards/E/ed.md#edgar-markov) (1.0% of its decks), [Ardbert, Warrior of Darkness](../../cards/A/ard.md#ardbert-warrior-of-darkness) (3.8% of its decks), [Clavileño, First of the Blessed](../../cards/C/cl.md#clavileño-first-of-the-blessed) (1.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2xm/226/vish-kal-blood-arbiter) · oracle_id `ba3bfe0c-2bd6-469c-802c-440b7caf7fb5` · printing: 2XM #226 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Visionary Augmenter
@@ -3656,6 +3672,8 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16527 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Dr. Eggman (Grixis)](../../grixis/decks/dr-eggman.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 33 decks; highest synergy [Arc Reactor](../../cards/A/arc.md#arc-reactor) (+68%), [Krang, Utrom Warlord](../../cards/K/kr.md#krang-utrom-warlord) (+61%), [Omniscience](../../cards/O/om.md#omniscience) (+61%) · EDHREC: in 4,699 decks; most often under [Tony Stark](../../cards/T/to.md#tony-stark--the-invincible-iron-man) (14.6% of its decks), [Dr. Eggman](../../cards/D/dre.md#dr-eggman) (22.6% of its decks), [Scarlet Witch, Chaotic Avenger](../../cards/S/sc.md#scarlet-witch-chaotic-avenger) (63.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 decks) → [reverse index](../../references/V.md#vision-spectral-synthezoid)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/644/vision-spectral-synthezoid) · oracle_id `1a44261a-2b6a-45dc-91a4-b2eb219ba6fb` · printing: MSC #644 (2026-06-26) · [rulings](https://api.scryfall.com/cards/c3da7f82-d2f7-4aaa-b62a-238b3e3e4871/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -3672,6 +3690,8 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15678 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 111 decks; highest synergy [Silver Shroud Costume](../../cards/S/si.md#silver-shroud-costume) (+71%), [Shimmer Myr](../../cards/S/shi.md#shimmer-myr) (+62%), [Genji Glove](../../cards/G/ge.md#genji-glove) (+56%) · EDHREC: in 5,093 decks; most often under [Captain America, Team Leader](../../cards/C/cap.md#captain-america-team-leader) (30.0% of its decks), [Scarlet Witch, Chaotic Avenger](../../cards/S/sc.md#scarlet-witch-chaotic-avenger) (19.5% of its decks), [Tony Stark](../../cards/T/to.md#tony-stark--the-invincible-iron-man) (3.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/119/vision-synthezoid-avenger) · oracle_id `2f4360f6-9ac7-499f-b0a5-769550ea15ba` · printing: MSC #119 (2026-06-26) · [rulings](https://api.scryfall.com/cards/f7007b77-84ec-4391-b279-8c188dd569d0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Visitor from Planet Q
@@ -3709,6 +3729,8 @@ schema: 2
   - *2023-10-13* — If your Commander deck has two commanders, you can include only cards whose own color identities are also found in your commanders' combined color identities.
   - *2023-10-13* — Once the game begins, your two commanders are tracked separately. If you cast one, you won't have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 combat damage from any one of them, not from both of them combined.
   - *2023-10-13* — The Doctor's companion ability allows you to have two commanders if one has the ability and the other is a legendary creature that is a Time Lord Doctor and has no other creature types. Creatures with the changeling ability, for example, can't be a second commander this way.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 28 decks; highest synergy [Underworld Dreams](../../cards/U/un.md#underworld-dreams) (+66%), [Price of Knowledge](../../cards/P/pr.md#price-of-knowledge) (+60%), [Fate Unraveler](../../cards/F/fa.md#fate-unraveler) (+58%) · EDHREC: in 8,296 decks; most often under [Blim, Comedic Genius](../../cards/B/bli.md#blim-comedic-genius) (21.6% of its decks), [Jon Irenicus, Shattered One](../../cards/J/jo.md#jon-irenicus-shattered-one) (7.5% of its decks), [Xantcha, Sleeper Agent](../../cards/X/xa.md#xantcha-sleeper-agent) (14.9% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/V.md#vislor-turlough)
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/74/vislor-turlough) · oracle_id `cdf5c31c-c324-471f-b6d7-06a06e91daa3` · printing: WHO #74 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -4392,6 +4414,8 @@ schema: 2
 - **Keywords:** Flying, Power-up, Cybernetic Senses
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15991 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 32 decks; highest synergy [H.E.R.B.I.E. Scout Unit](../../cards/H/he.md#herbie-scout-unit) (+48%), [Hero's Blade](../../cards/H/he.md#heros-blade) (+43%), [Hammer of Nazahn](../../cards/H/ha.md#hammer-of-nazahn) (+41%) · EDHREC: in 4,837 decks; most often under [Tony Stark](../../cards/T/to.md#tony-stark--the-invincible-iron-man) (4.5% of its decks), [Hulk, Gamma Goliath](../../cards/H/hu.md#hulk-gamma-goliath) (62.7% of its decks), [Ultron, Artificial Malevolence](../../cards/U/ul.md#ultron-artificial-malevolence) (4.3% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/256/viv-vision-teen-synthezoid) · oracle_id `f67a599c-200a-4831-9e73-126c7435a396` · printing: MSH #256 (2026-06-26) · [rulings](https://api.scryfall.com/cards/85cc170a-ecd2-4870-b675-7ece88813995/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vizier of Deferment

@@ -578,6 +578,8 @@ schema: 2
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27031 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 4 decks; highest synergy [Accelerated Evolution](../../cards/A/ac.md#accelerated-evolution) (+100%), [Ulvenwald Captive](../../cards/U/ul.md#ulvenwald-captive--ulvenwald-abomination) (+100%), [Giant Growth](../../cards/G/gi.md#giant-growth) (+96%) · EDHREC: in 553 decks; most often under [Wolverine, Claws Out](../../cards/W/wo.md#wolverine-claws-out) (34.3% of its decks), [Tovolar, Dire Overlord](../../cards/T/to.md#tovolar-dire-overlord--tovolar-the-midnight-scourge) (1.4% of its decks), [X-23, Deadly Weapon](../../cards/X/x2.md#x-23-deadly-weapon) (58.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/767/wolfsbane-highland-hero) · oracle_id `23d3ff11-bf19-4315-b53b-3e4f20c6a89b` · printing: MSC #767 (2026-06-26) · [rulings](https://api.scryfall.com/cards/81c604fd-9e3e-4527-9ed8-2fdeaabf0870/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wolf-Skull Shaman
@@ -675,6 +677,8 @@ schema: 2
 - **Keywords:** Double
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16195 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 236 decks; highest synergy [X-23, Deadly Weapon](../../cards/X/x2.md#x-23-deadly-weapon) (+71%), [Colossus, Steel Stalwart](../../cards/C/col.md#colossus-steel-stalwart) (+66%), [Black Tom Cassidy](../../cards/B/bla.md#black-tom-cassidy) (+62%) · EDHREC: in 4,556 decks; most often under [Wolverine, Best There Is](../../cards/W/wo.md#wolverine-best-there-is) (44.6% of its decks), [Jenova, Ancient Calamity](../../cards/J/je.md#jenova-ancient-calamity) (25.6% of its decks), [The Wise Mothman](../../cards/T/thew.md#the-wise-mothman) (2.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/737/wolverine-claws-out) · oracle_id `7100fe0c-1c2a-461a-83b3-684d44279081` · printing: MSC #737 (2026-06-26) · [rulings](https://api.scryfall.com/cards/534a044c-a4a9-478c-ad74-060185b3cb01/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wolverine, Fierce Fighter
@@ -691,6 +695,8 @@ schema: 2
 - **Keywords:** Heal, Haste, Fight
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15122 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 414 decks; highest synergy [Epic Fight](../../cards/E/ep.md#epic-fight) (+60%), [Pain for All](../../cards/P/pa.md#pain-for-all) (+52%), [Strength of Will](../../cards/S/str.md#strength-of-will) (+49%) · EDHREC: in 5,222 decks; most often under [Wolverine, Best There Is](../../cards/W/wo.md#wolverine-best-there-is) (37.3% of its decks), [Bruce Banner](../../cards/B/br.md#bruce-banner--the-incredible-hulk) (15.4% of its decks), [Nick Fury, Agent of S.H.I.E.L.D.](../../cards/N/ni.md#nick-fury-agent-of-shield) (16.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/W.md#wolverine-fierce-fighter)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/240/wolverine-fierce-fighter) · oracle_id `8429ba6a-6c06-4a83-a6ee-023b64b825f8` · printing: MSH #240 (2026-06-26) · [rulings](https://api.scryfall.com/cards/c1c7aa22-51b0-45ee-9a8e-5493a1820d8c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -754,6 +760,8 @@ schema: 2
 - **Keywords:** Flying, Power-up
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18275 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 13 decks; highest synergy [Extremis Elite](../../cards/E/ex.md#extremis-elite) (+85%), [Jack of Hearts, Volatile Hero](../../cards/J/ja.md#jack-of-hearts-volatile-hero) (+85%), [Volcanic Villain](../../cards/V/vo.md#volcanic-villain) (+85%) · EDHREC: in 3,217 decks; most often under [Nick Fury, Agent of S.H.I.E.L.D.](../../cards/N/ni.md#nick-fury-agent-of-shield) (28.3% of its decks), [Hulk, Gamma Goliath](../../cards/H/hu.md#hulk-gamma-goliath) (85.5% of its decks), [Bruce Banner](../../cards/B/br.md#bruce-banner--the-incredible-hulk) (3.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/160/wonder-man-hollywood-hero) · oracle_id `e2c49754-711e-43b3-82f1-5376a4d99701` · printing: MSH #160 (2026-06-26) · [rulings](https://api.scryfall.com/cards/1ee52395-9523-4da1-9108-8ab79229fc7a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wonderscape Sage
@@ -1657,6 +1665,8 @@ schema: 2
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #32298 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1 decks; highest synergy [Hallowed Spiritkeeper](../../cards/H/ha.md#hallowed-spiritkeeper) (+100%), [Hovermyr](../../cards/H/ho.md#hovermyr) (+100%), [Kithkin Rabble](../../cards/K/ki.md#kithkin-rabble) (+100%) · EDHREC: in 105 decks; most often under Jean-Luc Picard, Luminary (2.0% of its decks), [Whtz, the Bibliophile](../../cards/W/wh.md#whtz-the-bibliophile) (0.0% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/W.md#worf-chief-tactical-officer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/trc/141/worf-chief-tactical-officer) · oracle_id `26e86be4-52e1-47cb-b548-c434482bd3ad` · printing: TRC #141 (2026-11-13) · [rulings](https://api.scryfall.com/cards/ced54aa6-c8ee-451f-91cd-967fe766ec13/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2349,6 +2359,8 @@ schema: 2
 - **Keywords:** Fear
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11747 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 3,013 decks; highest synergy [Goblin Warchief](../../cards/G/gob.md#goblin-warchief) (+85%), [Krenko, Mob Boss](../../cards/K/kr.md#krenko-mob-boss) (+85%), [Goblin Matron](../../cards/G/gob.md#goblin-matron) (+83%) · EDHREC: in 6,550 decks; most often under [Grub, Storied Matriarch](../../cards/G/gru.md#grub-storied-matriarch--grub-notorious-auntie) (32.6% of its decks), [The Great Goblin](../../cards/T/theg.md#the-great-goblin) (11.8% of its decks), [Shattergang Brothers](../../cards/S/sha.md#shattergang-brothers) (29.5% of its decks) — *Guidance (Oracle pattern)* — packages: [Graveyard: Recursion to hand](../../EDH%20Packages.md#graveyard-recursion-to-hand) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lrw/252/wort-boggart-auntie) · oracle_id `6f477e2e-220e-48d9-9236-9564478e796a` · printing: LRW #252 (2007-10-12) · [rulings](https://api.scryfall.com/cards/a08a1377-dede-47c8-8447-c9df125f3b14/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Worthy Cause
@@ -2414,6 +2426,8 @@ schema: 2
   - *2017-03-14* — If the spell that's copied is modal (that is, it says "Choose one —" or the like), the copy will have the same mode. A different mode can't be chosen.
   - *2017-03-14* — If you're casting a spell for its flashback cost, you can't pay another alternative cost (such as an overload cost or a Trap's alternative cost) instead. You may pay additional costs, such as conspire.
   - *2017-03-14* — Some spells instruct you to sacrifice a creature as an additional cost to cast that spell. If you sacrifice Wort to pay that cost, that spell won't have conspire at the moment it becomes cast, so conspire won't trigger, even if you tapped two creatures.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 2 combos; most popular [Wort, the Raidmother + Storm-Kiln Artist + Chatterstorm + Bala Ged Recovery // Bala Ged Sanctuary + Regrowth](https://commanderspellbook.com/combo/1065-3884-4514-5088-5195/) (Infinite artifact ETB, Infinite artifact LTB) · EDHREC as commander: 3,423 decks; highest synergy [Dragon Fodder](../../cards/D/dra.md#dragon-fodder) (+59%), [Krenko's Command](../../cards/K/kr.md#krenkos-command) (+57%), [Young Pyromancer](../../cards/Y/yo.md#young-pyromancer) (+54%) · EDHREC: in 3,976 decks; most often under [Kalamax, the Stormsire](../../cards/K/ka.md#kalamax-the-stormsire) (8.6% of its decks), [Svella, Ice Shaper](../../cards/S/sv.md#svella-ice-shaper) (7.6% of its decks), [Rulik Mons, Warren Chief](../../cards/R/ru.md#rulik-mons-warren-chief) (20.6% of its decks) — *Guidance (Oracle pattern)* — packages: [Aristocrats: Fodder makers (multiple creature tokens)](../../EDH%20Packages.md#aristocrats-fodder-makers-multiple-creature-tokens) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/W.md#wort-the-raidmother)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c20/234/wort-the-raidmother) · oracle_id `d6b67c7e-3b24-4f60-8e3a-c6ca45229d7f` · printing: C20 #234 (2020-04-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2489,5 +2503,7 @@ schema: 2
   - *2024-11-08* — If you don’t meet one of the listed conditions when Wowzer attacks, its ability won’t trigger at all. If you don’t meet one of those conditions when the ability tries to resolve, the ability is removed from the stack and does nothing.
   - *2024-11-08* — Playtest cards aren’t legal for play in any tournament format other than Mystery Booster Limited formats. On the other hand, we expect they will spice up a wide variety of non-tournament games (as long as everyone’s on the same page about using them!).
   - *2024-11-08* — Playtest cards use a modified version of game symbols, such as {T} and {W}. These modified symbols should be treated as the standard symbols during play.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/W.md#wowzer-the-aspirational)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mb2/604/wowzer-the-aspirational) · oracle_id `affbbc80-3224-4c4e-bc57-a31f966f929f` · printing: MB2 #604 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

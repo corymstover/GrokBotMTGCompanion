@@ -40,6 +40,8 @@ schema: 2
   > Whenever The Ice Dancer deals combat damage to a player, create a Gold token. Then you draw X cards and gain X life, where X is the number of artifact tokens you control. The Ice Dancer deals X damage to each opponent. (A Gold token is an artifact with "Sacrifice this token: Add one mana of any color.")
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ03t/the-ice-dancer) · oracle_id `f713356f-2b5e-47e7-8488-a79cd7c9e505` · printing: UNK #RZ03t (2026-05-01) · [rulings](https://api.scryfall.com/cards/7667b334-6184-4ec5-b46c-90a38a36ade7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Immortal Sun
@@ -69,6 +71,8 @@ schema: 2
   > Whenever you cast a noncreature spell, target creature gets +2/+0 and gains menace until end of turn. (It can't be blocked except by two or more creatures.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25567 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 30 combos; most popular [Ghostly Flicker + Peregrine Drake + The Immortal Weapons](https://commanderspellbook.com/combo/1987-3821-7874/) (Infinite creature ETB, Infinite creature LTB) · EDHREC as commander: 6 decks; highest synergy [Reckless Impulse](../../cards/R/rec.md#reckless-impulse) (+75%), [Iron Fist, Hero for Hire](../../cards/I/ir.md#iron-fist-hero-for-hire) (+67%), [Iron Fist, Living Weapon](../../cards/I/ir.md#iron-fist-living-weapon) (+66%) · EDHREC: in 786 decks; most often under [Daredevil, Man Without Fear](../../cards/D/da.md#daredevil-man-without-fear) (6.5% of its decks), [Scarlet Witch, Chaotic Avenger](../../cards/S/sc.md#scarlet-witch-chaotic-avenger) (4.3% of its decks), [Iron Fist, Living Weapon](../../cards/I/ir.md#iron-fist-living-weapon) (38.2% of its decks) — *Guidance (Oracle pattern)* — packages: [Spellslinger: Cast-trigger payoffs](../../EDH%20Packages.md#spellslinger-cast-trigger-payoffs) · [Graveyard: Recursion to hand](../../EDH%20Packages.md#graveyard-recursion-to-hand) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/547/the-immortal-weapons) · oracle_id `760d6cb2-5d8a-495c-9853-f96a1efa5775` · printing: MSC #547 (2026-06-26) · [rulings](https://api.scryfall.com/cards/40295a9b-3a5a-402e-8baf-546cdad223b0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Indomitable
@@ -123,6 +127,8 @@ schema: 2
 - **Keywords:** Investigate
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RW03e/the-inspector-inspector) · oracle_id `73d4f654-ecb3-4c8a-abcf-376fc8526cb1` · printing: UNK #RW03e (2024-06-29) · [rulings](https://api.scryfall.com/cards/c073e13f-1ac6-4bab-b0c1-1edd863b53f4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Irencrag

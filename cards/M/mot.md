@@ -122,6 +122,8 @@ schema: 2
   - *2024-11-08* — Playtest cards use a modified version of game symbols, such as {T} and {W}. These modified symbols should be treated as the standard symbols during play.
   - *2024-11-08* — The second and third abilities represented by Mothers Yamazaki’s “partner with itself” keyword modify the rules for deck construction in the Commander variant and have no function outside of that variant. They are “A Commander deck can have two cards named Mothers Yamazaki” and “You can designate two cards named Mothers Yamazaki as your commanders.”
   - *2024-11-08* — The triggered ability of the “partner with itself” keyword still triggers in a Commander game. If your other commander has somehow ended up in your library, you can find it. You can also target another player, whether or not they have that card in their library.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mb2/598/mothers-yamazaki) · oracle_id `23b9a4af-e531-4897-9b3f-b944890c51a0` · printing: MB2 #598 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moth Herb Elixir

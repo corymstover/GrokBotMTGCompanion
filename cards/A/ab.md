@@ -371,6 +371,8 @@ schema: 2
 - **Keywords:** Partner
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15574 · Game Changer: no · Can be commander: Yes (legendary creature) · Pairing: Partner
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 100+ combos; most popular [Abby, Merciless Soldier + Ashnod's Altar + Mirror of Life Trapping + Cryptolith Rite + Kratos, God of War](https://commanderspellbook.com/combo/2034-4289-6968-6970-7850/) (Infinite creature ETB, Infinite creature LTB) · EDHREC as commander: 18 decks; highest synergy [Homeward Path](../../cards/H/ho.md#homeward-path) (+55%), [Craterhoof Behemoth](../../cards/C/cr.md#craterhoof-behemoth) (+42%), [Cryptolith Rite](../../cards/C/cr.md#cryptolith-rite) (+42%) · EDHREC: in 3,010 decks; most often under [Ellie, Brick Master // Joel, Resolute Survivor](../../cards/E/el.md#ellie-brick-master) (50.8% of its decks), [Ellie, Vengeful Hunter // Joel, Resolute Survivor](../../cards/E/el.md#ellie-vengeful-hunter) (52.7% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.2% of its decks) — *Guidance (Oracle pattern)* — packages: [Aristocrats: Fodder makers (multiple creature tokens)](../../EDH%20Packages.md#aristocrats-fodder-makers-multiple-creature-tokens) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/A.md#abby-merciless-soldier)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sld/2202/abby-merciless-soldier) · oracle_id `e05efd01-0202-4bd6-bac6-c6210819d463` · printing: SLD #2202 (2025-10-27) · [rulings](https://api.scryfall.com/cards/28e11b59-c677-4235-a377-18921c5131f0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -773,6 +775,8 @@ schema: 2
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18381 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 37 decks; highest synergy [Hulk, Strongest There Is](../../cards/H/hu.md#hulk-strongest-there-is) (+86%), [Doc Samson, Super Psychiatrist](../../cards/D/do.md#doc-samson-super-psychiatrist) (+85%), [Bushmaster, Coiled Henchman](../../cards/B/bu.md#bushmaster-coiled-henchman) (+83%) · EDHREC: in 3,160 decks; most often under [Bruce Banner](../../cards/B/br.md#bruce-banner--the-incredible-hulk) (27.6% of its decks), [Thanos, the Mad Titan](../../cards/T/tha.md#thanos-the-mad-titan) (9.4% of its decks), [Hulk, Gamma Goliath](../../cards/H/hu.md#hulk-gamma-goliath) (39.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/511/abomination-irradiated-brute) · oracle_id `e7436d37-c331-4524-b5d4-861e9d25bfc5` · printing: MSC #511 (2026-06-26) · [rulings](https://api.scryfall.com/cards/0b82c865-ae3e-43f0-9ac8-fabdd5539b36/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Abomination of Gudul
@@ -831,6 +835,8 @@ schema: 2
 - **Keywords:** Power-up, Trample, Fight
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18998 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 23 decks; highest synergy [Hulk, Gamma Goliath](../../cards/H/hu.md#hulk-gamma-goliath) (+65%), [Red Hulk](../../cards/R/red.md#red-hulk) (+55%), [Hulk, Strongest There Is](../../cards/H/hu.md#hulk-strongest-there-is) (+52%) · EDHREC: in 2,805 decks; most often under [Bruce Banner](../../cards/B/br.md#bruce-banner--the-incredible-hulk) (20.2% of its decks), [Hulk, Gamma Goliath](../../cards/H/hu.md#hulk-gamma-goliath) (90.0% of its decks), [Thanos, the Mad Titan](../../cards/T/tha.md#thanos-the-mad-titan) (6.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/198/abomination-terrifying-titan) · oracle_id `72101185-4336-480a-b4d7-f8ceb0007a51` · printing: MSH #198 (2026-06-26) · [rulings](https://api.scryfall.com/cards/2c6ab9bb-dba2-4b5b-a4d9-54735f65ac21/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Abomination, World Ravager
@@ -846,6 +852,8 @@ schema: 2
 - **Keywords:** Mayhem, Trample, Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13806 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 8 decks; highest synergy [Command Beacon](../../cards/C/com.md#command-beacon) (+63%), [Collector's Vault](../../cards/C/col.md#collectors-vault) (+48%), [Seize the Spoils](../../cards/S/sei.md#seize-the-spoils) (+48%) · EDHREC: in 7,109 decks; most often under [Doctor Doom, King of Latveria](../../cards/D/do.md#doctor-doom-king-of-latveria) (29.0% of its decks), [Norman Osborn](../../cards/N/no.md#norman-osborn--green-goblin) (15.6% of its decks), [Bruce Banner](../../cards/B/br.md#bruce-banner--the-incredible-hulk) (6.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/47/abomination-world-ravager) · oracle_id `e0b12c48-7234-40b5-a84c-6901d2b4e5b0` · printing: MSC #47 (2026-06-26) · [rulings](https://api.scryfall.com/cards/fddd2e68-8e1e-4162-a2c7-49da2c86d471/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aboroth
@@ -875,6 +883,8 @@ schema: 2
   > *"No one can fight the tide forever."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19947 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 368 decks; highest synergy [Cephalid Looter](../../cards/C/ce.md#cephalid-looter) (+77%), [Cephalid Constable](../../cards/C/ce.md#cephalid-constable) (+76%), [Llawan, Cephalid Empress](../../cards/L/ll.md#llawan-cephalid-empress) (+76%) · EDHREC: in 1,924 decks; most often under [Hylda of the Icy Crown](../../cards/H/hy.md#hylda-of-the-icy-crown) (3.2% of its decks), [Kenessos, Priest of Thassa](../../cards/K/ke.md#kenessos-priest-of-thassa) (1.9% of its decks), [Kiora, Sovereign of the Deep](../../cards/K/ki.md#kiora-sovereign-of-the-deep) (1.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ody/58/aboshan-cephalid-emperor) · oracle_id `d4d44264-b276-4bd7-8fbe-6af292b08773` · printing: ODY #58 (2001-10-01) · [rulings](https://api.scryfall.com/cards/82db4a41-03e8-4f0c-946c-a98fc5c9f7c8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aboshan's Desire
@@ -1069,6 +1079,8 @@ schema: 2
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18334 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 361 decks; highest synergy [Dark Depths](../../cards/D/da.md#dark-depths) (+61%), [Sakashima of a Thousand Faces](../../cards/S/sak.md#sakashima-of-a-thousand-faces) (+40%), [Spark Double](../../cards/S/spa.md#spark-double) (+40%) · EDHREC: in 2,875 decks; most often under [Thanos, the Mad Titan](../../cards/T/tha.md#thanos-the-mad-titan) (13.5% of its decks), [Bruce Banner](../../cards/B/br.md#bruce-banner--the-incredible-hulk) (3.6% of its decks), [The Astonishing Ant-Man](../../cards/T/thea.md#the-astonishing-ant-man) (3.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/199/absorbing-man) · oracle_id `ec8e310f-e871-498f-8d80-c3617c5e1433` · printing: MSH #199 (2026-06-26) · [rulings](https://api.scryfall.com/cards/7114ef87-53ff-43e9-864c-9faa455d86ef/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Absorbing Man and Titania
@@ -1081,6 +1093,8 @@ schema: 2
 - **Keywords:** Double
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15112 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 246 decks; highest synergy [Zhur-Taa Druid](../../cards/Z/zh.md#zhur-taa-druid) (+34%), [Fiendish Duo](../../cards/F/fi.md#fiendish-duo) (+33%), [Ruric Thar, the Unbowed](../../cards/R/ru.md#ruric-thar-the-unbowed) (+33%) · EDHREC: in 5,536 decks; most often under [Bruce Banner](../../cards/B/br.md#bruce-banner--the-incredible-hulk) (9.1% of its decks), [Thanos, the Mad Titan](../../cards/T/tha.md#thanos-the-mad-titan) (14.3% of its decks), [Wolverine, Best There Is](../../cards/W/wo.md#wolverine-best-there-is) (13.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/510/absorbing-man-and-titania) · oracle_id `a1afb796-1b0b-4f41-9c8f-5320c9af5989` · printing: MSC #510 (2026-06-26) · [rulings](https://api.scryfall.com/cards/5f363991-91f2-4675-b0ca-cc7fe230c4ff/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Absorb Vis

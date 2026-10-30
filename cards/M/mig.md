@@ -364,6 +364,8 @@ schema: 2
   > {3}, Remove three oil counters from Migloz: Destroy target artifact or enchantment.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16597 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Presented with an official backstory on [The Legends of Phyrexia: All Will Be One](https://magic.wizards.com/en/news/feature/the-legends-of-phyrexia-all-will-be-one) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 913 decks; highest synergy [Churning Reservoir](../../cards/C/chu.md#churning-reservoir) (+87%), [Cankerbloom](../../cards/C/can.md#cankerbloom) (+82%), [Free from Flesh](../../cards/F/fr.md#free-from-flesh) (+82%) · EDHREC: in 3,241 decks; most often under [Slinza, the Spiked Stampede](../../cards/S/sl.md#slinza-the-spiked-stampede) (16.0% of its decks), [Omnath, Locus of All](../../cards/O/om.md#omnath-locus-of-all) (0.9% of its decks), [Eshki, Temur's Roar](../../cards/E/es.md#eshki-temurs-roar) (0.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/210/migloz-maze-crusher) · oracle_id `85eb890e-a5e1-48f8-b813-e8424d18b28a` · printing: ONE #210 (2023-02-10) · [rulings](https://api.scryfall.com/cards/c1171899-07d8-4e60-a79b-f162f59dc3ce/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Migrating Ketradon

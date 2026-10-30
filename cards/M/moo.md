@@ -163,6 +163,8 @@ schema: 2
   > *"To have such a brother is to be filled with pride!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23476 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 23 decks; highest synergy [Earthshaker Dreadmaw](../../cards/E/ea.md#earthshaker-dreadmaw) (+95%), [Regal Imperiosaur](../../cards/R/reg.md#regal-imperiosaur) (+90%), [Curious Altisaur](../../cards/C/cu.md#curious-altisaur) (+82%) · EDHREC: in 1,198 decks; most often under [Gishath, Sun's Avatar](../../cards/G/gi.md#gishath-suns-avatar) (3.8% of its decks), [Pantlaza, Sun-Favored](../../cards/P/pa.md#pantlaza-sun-favored) (1.4% of its decks), [Sauron, Dino Devotee](../../cards/S/sau.md#sauron-dino-devotee) (21.7% of its decks) — *Guidance (Oracle pattern)* — packages: [Ramp: Cost reducers](../../EDH%20Packages.md#ramp-cost-reducers) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/563/moon-boy-dino-rider) · oracle_id `bb7638ce-3802-4198-89d2-6f5b647bd8fb` · printing: MSC #563 (2026-06-26) · [rulings](https://api.scryfall.com/cards/c3ee8468-3780-4887-8586-eaf418a95a21/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moon-Circuit Hacker
@@ -224,6 +226,8 @@ schema: 2
   > Whenever an artifact you control enters, draw a card. This ability triggers only once each turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20038 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 438 decks; highest synergy [Seat of the Synod](../../cards/S/sea.md#seat-of-the-synod) (+67%), [Tree of Tales](../../cards/T/tre.md#tree-of-tales) (+64%), [Thopter Fabricator](../../cards/T/tho.md#thopter-fabricator) (+52%) · EDHREC: in 1,914 decks; most often under [Nick Fury, Agent of S.H.I.E.L.D.](../../cards/N/ni.md#nick-fury-agent-of-shield) (3.7% of its decks), [Morska, Undersea Sleuth](../../cards/M/mor.md#morska-undersea-sleuth) (5.0% of its decks), [The Astonishing Ant-Man](../../cards/T/thea.md#the-astonishing-ant-man) (3.9% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [Artifacts: Artifact payoffs](../../EDH%20Packages.md#artifacts-artifact-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/223/moon-girl-and-devil-dinosaur) · oracle_id `bfe0818b-ae13-4174-85c8-24b895d28df0` · printing: MSH #223 (2026-06-26) · [rulings](https://api.scryfall.com/cards/8c6a6d11-45cb-4def-a04b-51b91e1747db/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moonglove Changeling
@@ -701,6 +705,8 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10954 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Doctor Doom, King of Latveria (Grixis)](../../grixis/decks/doctor-doom-king-of-latveria.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 59 decks; highest synergy [Archfiend of Ifnir](../../cards/A/arc.md#archfiend-of-ifnir) (+72%), [Bog Witch](../../cards/B/bo.md#bog-witch) (+71%), [Bone Miser](../../cards/B/bo.md#bone-miser) (+66%) · EDHREC: in 11,342 decks; most often under [Doctor Doom, King of Latveria](../../cards/D/do.md#doctor-doom-king-of-latveria) (58.5% of its decks), [Norman Osborn](../../cards/N/no.md#norman-osborn--green-goblin) (8.5% of its decks), [Loki, the Deceiver](../../cards/L/lo.md#loki-the-deceiver) (19.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 decks) → [reverse index](../../references/M.md#moonstone-harsh-mistress)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/107/moonstone-harsh-mistress) · oracle_id `aeeb50f2-8e02-4d40-a1dd-28b1c5c85c7e` · printing: MSH #107 (2026-06-26) · [rulings](https://api.scryfall.com/cards/1a1b2bd0-e17d-4b34-a8ee-7c913a6bc945/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

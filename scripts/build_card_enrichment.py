@@ -128,18 +128,28 @@ BATCHES = [(33, "legendary cards and planeswalkers already linked from lore entr
            (36, f"remaining legendary creatures with EDHREC rank ≤ {RANK36:,}" + (", then those with no EDHREC rank" if UNRANKED36 else "") + " (2026-10-15 bulk)",
             lambda c, tiers: "legendary-creature" in tiers and ((c.get("edhrec_rank") or 10**9) <= RANK36 or (UNRANKED36 and not c.get("edhrec_rank")))),
            (37, "twelve exact-name legends verified against Wizards' Reality Fracture backstories",
-            lambda c, tiers: c["name"] in BATCH37_NAMES)]
+            lambda c, tiers: c["name"] in BATCH37_NAMES),
+           (38, "every remaining priority-pool card: legendary creatures at any EDHREC rank or none, and the last "
+                "story-flavor card (2026-10-29 snapshot; admitted only by an explicit --batch 38 run)",
+            lambda c, tiers: bool(tiers & {"legendary-creature", "story-flavor", "planeswalker", "character-card", "entry-linked"}))]
+# Explicit batches are admitted only on request (never by --expand-auto), so a
+# changed EDHREC rank can never re-label a card into an older batch.
+EXPLICIT_BATCHES = {38}
 
 
-def select_batch(card, tiers, previous=None, allow_automatic_new=False):
+def select_batch(card, tiers, previous=None, allow_automatic_new=False, explicit_batch=None):
     """Keep old membership fixed until an explicit batch or rank-expansion decision."""
     if previous:
         return previous["batch"]
     if card["name"] in BATCH37_NAMES:
         return 37
+    if explicit_batch is not None:
+        selector = next(s for n, _, s in BATCHES if n == explicit_batch)
+        return explicit_batch if selector(card, tiers) else None
     if not allow_automatic_new:
         return None
-    return next((number for number, _, selector in BATCHES if selector(card, tiers)), None)
+    return next((number for number, _, selector in BATCHES
+                 if number not in EXPLICIT_BATCHES and selector(card, tiers)), None)
 
 
 # ------------------------------------------------------------------ inputs
@@ -722,7 +732,7 @@ def render(r, card, lore, syn, rows_by_name):
     return [lore_line, syn_line]
 
 
-def build(fetch=False, expand_auto=False):
+def build(fetch=False, expand_auto=False, explicit_batch=None):
     import build_crossrefs as bx
     rows = list(csv.DictReader(ing.INDEX_CSV.open(encoding="utf-8")))
     rows_by_key = {(r["shard"], r["anchor"]): r for r in rows}
@@ -750,7 +760,8 @@ def build(fetch=False, expand_auto=False):
     for r in rows:
         c = by_id.get(r["oracle_id"])
         if c and r["oracle_id"] not in prev and select_batch(
-                c, tiers.get(r["oracle_id"], set()), allow_automatic_new=allow_auto) is not None:
+                c, tiers.get(r["oracle_id"], set()), allow_automatic_new=allow_auto,
+                explicit_batch=explicit_batch) is not None:
             sel.append(c)
     if fetch:
         # only cards without stored synergy (the third-party caches are gitignored and may be gone; Bot cycle 35)
@@ -763,7 +774,7 @@ def build(fetch=False, expand_auto=False):
         # Existing cards keep their approved batch provenance across Scryfall
         # rank changes; new exact-source cards use their explicit review batch.
         batch = select_batch(c, tiers.get(r["oracle_id"], set()), prev.get(r["oracle_id"]),
-                             allow_automatic_new=allow_auto)
+                             allow_automatic_new=allow_auto, explicit_batch=explicit_batch)
         if batch is None:
             continue
         lore = lore_for(r, c, links, cc, keys, prints, S, norm, notes, caps, afs, prev.get(r["oracle_id"], {}).get("lore"))
@@ -1051,7 +1062,13 @@ def main(argv):
         for p in problems[:30]:
             print("  " + p)
         return 1 if problems else 0
-    d = build("--fetch" in argv, expand_auto="--expand-auto" in argv)
+    explicit = None
+    if "--batch" in argv:
+        explicit = int(argv[argv.index("--batch") + 1])
+        if explicit not in EXPLICIT_BATCHES:
+            print(f"--batch must be one of {sorted(EXPLICIT_BATCHES)}")
+            return 2
+    d = build("--fetch" in argv, expand_auto="--expand-auto" in argv, explicit_batch=explicit)
     OUT.write_text(json.dumps(d, ensure_ascii=False, indent=1, sort_keys=True) + "\n", encoding="utf-8")
     ns = patch_shards(d, write=True)
     import front_matter as fm
