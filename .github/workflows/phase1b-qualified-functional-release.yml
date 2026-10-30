@@ -1,0 +1,42 @@
+name: Phase 1B qualified functional Set Atlas release gate
+
+on:
+  pull_request:
+    paths:
+      - 'scripts/audit_phase1b_functional_release.py'
+      - 'data/set_atlas/phase1b_qualified_functional_release_2026-10-29.json'
+      - 'tests/test_phase1b_functional_release.py'
+      - 'MTG_MULTIVERSE_MASTER_WORKFLOW.md'
+      - 'SET_ATLAS.md'
+      - '.github/workflows/phase1b-qualified-functional-release.yml'
+  push:
+    paths:
+      - 'scripts/audit_phase1b_functional_release.py'
+      - 'data/set_atlas/phase1b_qualified_functional_release_2026-10-29.json'
+      - 'tests/test_phase1b_functional_release.py'
+      - 'MTG_MULTIVERSE_MASTER_WORKFLOW.md'
+      - 'SET_ATLAS.md'
+      - '.github/workflows/phase1b-qualified-functional-release.yml'
+  workflow_dispatch:
+
+jobs:
+  release-gate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Verify all Phase 1B saved dated audits
+        run: |
+          python3 scripts/audit_phase1b_fasttrack.py
+          python3 scripts/audit_phase1b_export_acceptance.py
+          python3 scripts/audit_phase1b_release_scope.py
+          python3 scripts/audit_phase1b_functional_release.py
+          python3 scripts/audit_set_product_links.py --check
+      - name: All set-named unit tests
+        run: python3 -m unittest discover -s tests -p 'test_*set*.py' -q
+      - name: All source-evidence named unit tests
+        run: python3 -m unittest discover -s tests -p 'test_*sources.py' -q
+      - name: All fast-track Phase 1B named unit tests
+        run: python3 -m unittest discover -s tests -p 'test_phase1b*.py' -q

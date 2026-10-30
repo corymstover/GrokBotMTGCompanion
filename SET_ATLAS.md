@@ -348,6 +348,23 @@ python3 scripts/audit_phase1b_release_scope.py --code c21
 
 The new focused CI verifies exact reproducibility, all six denominators, all 142 reviewed candidate classifications, provisional border variants, no silent promotion of supplemental products and official-story title/URL integrity. The final release/coverage gate and cross-snapshot printing-ID claim remain separately pending.
 
+### Qualified offline functional release checkpoint (Master Workflow v2.22)
+
+The final [dated Phase 1B functional coverage report](data/set_atlas/phase1b_qualified_functional_release_2026-10-29.json) cross-checks the independent historical-index, fast-track, all-export and release-scope reports. Its deliberately narrow verdict is **`QUALIFIED_OFFLINE_FUNCTIONAL_RELEASE_READY`**, covering usable English-paper **set-to-card and card-to-set lookups, complete 1,062-code card lists, CSV/JSON exports, release-date/digital/language opt-ins, debut/reprint distinctions and evidence-graded category labels**. Twelve directly named first-party Magic Story publication-series links are included as a small curated seed, not a universal lore atlas.
+
+Reproduce that release report and its applicable acceptance tests:
+
+```bash
+python3 scripts/audit_phase1b_functional_release.py
+python3 -m unittest discover -s tests -p 'test_*set*.py' -q
+python3 -m unittest discover -s tests -p 'test_*sources.py' -q
+python3 -m unittest discover -s tests -p 'test_phase1b*.py' -q
+```
+
+All three local Phase 1B test group invocations passed at the v2.22 checkpoint (**35**, **80**, **13** test executions respectively; patterns can overlap). The targeted GitHub release acceptance workflow and separate Grixis CI must also pass at the exact published head before this checkpoint is considered merged.
+
+**What this is not:** It is *not* a reverified original October 28 bulk (the original bulk bytes remain unavailable), proof that individual October 28 and October 29 printing IDs are identical, an authoritative count of every Wizards-designated premier set in all history, proof every promo/boxed component has an individual Wizards citation, or evidence that every printed card is directly associated with a canon story. Those are clearly recorded future evidence upgrades, not claims hidden in a summary percentage. The **555 optional product-family source gaps** remain open without preventing the functional Set Atlas from being used.
+
 ## Read-only lookups
 
 On a checkout of this repository, no Scryfall download is needed for the following commands:
