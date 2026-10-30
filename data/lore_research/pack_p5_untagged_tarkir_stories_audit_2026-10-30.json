@@ -1,0 +1,110 @@
+{
+ "schema": "story-claim-pipeline-audit/v1",
+ "pack": "data/lore_research/pack_p5_untagged_tarkir_stories_2026-10-30.json",
+ "pack_status": "PRELIMINARY_RESEARCH (not owner approved, not certified)",
+ "arc": "",
+ "claims": 11,
+ "entities": 21,
+ "sources": 10,
+ "grades": {
+  "CANON_CONFIRMED": 3,
+  "CANON_IMPLIED": 8
+ },
+ "quotes": 15,
+ "quotes_verbatim": 15,
+ "quote_rows": [
+  {
+   "claim": "TKS001",
+   "source_id": "call",
+   "quote_sha256": "cee22eb3d81c020991f4446c2dd88bf2dc84ab4256a295b9b4999a03b5e8ad2f",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "TKS002",
+   "source_id": "doom",
+   "quote_sha256": "f18008bb551e7631e408568bd1cf475880e06d8f20109079440ea021693add00",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "TKS002",
+   "source_id": "doom",
+   "quote_sha256": "e32b455b98ee7053370f271a1108329a70c594ff3028314f9b439a3eaa33ef42",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "TKS003",
+   "source_id": "grd",
+   "quote_sha256": "238a6e1e64d490d153d9ef45ad6cc9a8f78bd31dcdc1cfd0f8341cd95df659f1",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "TKS004",
+   "source_id": "poi",
+   "quote_sha256": "4dcb76dbd3624f8d9b458785b003bded51461c21ceec78ae2a328788b6bf598a",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "TKS004",
+   "source_id": "poi",
+   "quote_sha256": "d351f0563a82f6fd8ae406580562e91533a29d3e9459e2d6d7f5459dbfbfad79",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "TKS005",
+   "source_id": "man",
+   "quote_sha256": "b1e662d53995101ffcaad9d73f89defd82b7d109fc7c3de2f39b5df31ce7608d",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "TKS006",
+   "source_id": "salt",
+   "quote_sha256": "d24ec1abfc58ed81d4b6a12f1da9962081cd52b7b7d03a21b6c1f18b4d24a7f7",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "TKS006",
+   "source_id": "salt",
+   "quote_sha256": "15faad022cdae7c3242a350004cbe7f15356e2a446718fbfcd7c03bbf73afbbe",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "TKS007",
+   "source_id": "unw",
+   "quote_sha256": "4e84bdb9db19006bf95239ab4f19a809625ba11519e90121f10f9f1edb5b3547",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "TKS007",
+   "source_id": "unw",
+   "quote_sha256": "e94f1ef301aae1ec95b0d353c5a9b619c15b7ef005098537b8174071117b09e9",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "TKS008",
+   "source_id": "spa",
+   "quote_sha256": "8f75da109fd32b91ab83b49a3276577cd39190812e9ddb0061bc538e9d86cbb7",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "TKS009",
+   "source_id": "mad",
+   "quote_sha256": "4cb1307274ad51b29cbe7032c95e62eb5625dd537efb2eea917c1a749576c2cb",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "TKS010",
+   "source_id": "mad",
+   "quote_sha256": "46d816e1973d781d025d6c6ae7bbf338c900dcf16d6fbfe060bb7bf224621f32",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "TKS011",
+   "source_id": "dod",
+   "quote_sha256": "9d77dd82bfc43d0a98879274b66cd94fe9eaf2257318acadc0c8a58d215e4713",
+   "status": "VERBATIM"
+  }
+ ],
+ "problems": [],
+ "note": "Verbatim-quote audit against cached official Wizards story text. Research evidence only: not owner approval, not certification, not an exhaustive reading.",
+ "content_sha256": "131e90ee69e7b2aadba11e87848e459a8932d247b7fa2598ad49c43cfccd74e6"
+}

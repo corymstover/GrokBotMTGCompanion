@@ -1,0 +1,384 @@
+{
+ "schema": "multiverse-claim-pack/v1",
+ "pack_id": "pack_p5_untagged_worldsoul_multiverse",
+ "evidence_cutoff": "2026-10-30",
+ "status": "PRELIMINARY_RESEARCH (not owner approved, not certified)",
+ "arc": "",
+ "scope": "Batch 11 extraction from In Praise of the Worldsoul parts 1-3 (Ravnica), The Known Multiverse (2008 planes primer) and the 2013 Behind the Black Sun Orzhov feature. Claims are as of each page. PRELIMINARY_RESEARCH; targeted, not exhaustive; not owner approved.",
+ "built_by": "scripts/story_claim_pipeline.py from data/lore_research/claim_specs/pack_p5_untagged_worldsoul_multiverse.spec.json",
+ "source_register": {
+  "w1": {
+   "title": "In Praise of the Worldsoul, Part 1",
+   "url": "https://magic.wizards.com/en/news/magic-story/in-praise-of-the-worldsoul-part-1",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2012-09-25"
+  },
+  "w2": {
+   "title": "In Praise of the Worldsoul, Part 2",
+   "url": "https://magic.wizards.com/en/news/magic-story/in-praise-of-the-worldsoul-part-2",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2012-10-03"
+  },
+  "w3": {
+   "title": "In Praise of the Worldsoul, Part 3",
+   "url": "https://magic.wizards.com/en/news/magic-story/in-praise-of-the-worldsoul-part-3",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2012-10-09"
+  },
+  "km": {
+   "title": "The Known Mutliverse",
+   "url": "https://magic.wizards.com/en/news/feature/known-mutliverse-2008-03-19",
+   "kind": "official_story_feature",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2008-03-19"
+  },
+  "bbs": {
+   "title": "Behind the Black Sun",
+   "url": "https://magic.wizards.com/en/news/feature/behind-black-sun-2013-03-25",
+   "kind": "official_story_feature",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2013-03-27"
+  }
+ },
+ "entities": [
+  {
+   "id": "ruzi",
+   "type": "Character",
+   "name": "Ruzi"
+  },
+  {
+   "id": "cecilee",
+   "type": "Character",
+   "name": "Cecilee"
+  },
+  {
+   "id": "kuma",
+   "type": "Character",
+   "name": "Kuma"
+  },
+  {
+   "id": "selesnya_conclave",
+   "type": "Faction",
+   "name": "Selesnya Conclave"
+  },
+  {
+   "id": "nikya",
+   "type": "Character",
+   "name": "Nikya"
+  },
+  {
+   "id": "gruul_clans",
+   "type": "Faction",
+   "name": "Gruul Clans"
+  },
+  {
+   "id": "massacre_girl",
+   "type": "Character",
+   "name": "Massacre Girl"
+  },
+  {
+   "id": "rakdos_cult",
+   "type": "Faction",
+   "name": "Rakdos Cult"
+  },
+  {
+   "id": "karn",
+   "type": "Character",
+   "name": "Karn"
+  },
+  {
+   "id": "mirrodin",
+   "type": "Plane",
+   "name": "Mirrodin"
+  },
+  {
+   "id": "memnarch",
+   "type": "Character",
+   "name": "Memnarch"
+  },
+  {
+   "id": "yawgmoth",
+   "type": "Character",
+   "name": "Yawgmoth"
+  },
+  {
+   "id": "old_phyrexia",
+   "type": "Plane",
+   "name": "Phyrexia"
+  },
+  {
+   "id": "dyfed",
+   "type": "Character",
+   "name": "Dyfed"
+  },
+  {
+   "id": "serra",
+   "type": "Character",
+   "name": "Serra"
+  },
+  {
+   "id": "serras_realm",
+   "type": "Plane",
+   "name": "Serra's Realm"
+  },
+  {
+   "id": "teysa_karlov",
+   "type": "Character",
+   "name": "Teysa Karlov"
+  },
+  {
+   "id": "obzedat",
+   "type": "Faction",
+   "name": "Obzedat"
+  }
+ ],
+ "claims": [
+  {
+   "id": "WSM001",
+   "subject": "ruzi",
+   "predicate": "member_of",
+   "object": "selesnya_conclave",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "worldsoul_ravnica_2019_known_multiverse_2008_orzhov_feature_2013",
+   "source_ids": [
+    "w1"
+   ],
+   "evidence": [
+    {
+     "source_id": "w1",
+     "quote": "As Master Trainer, Ruzi taught the youngest Selesnyans and their wolves to become Wolf Riders."
+    }
+   ],
+   "summary": "Ruzi is the Selesnya Master Trainer of Wolf Riders.",
+   "limitation": ""
+  },
+  {
+   "id": "WSM002",
+   "subject": "ruzi",
+   "predicate": "bonded_with",
+   "object": "kuma",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "worldsoul_ravnica_2019_known_multiverse_2008_orzhov_feature_2013",
+   "source_ids": [
+    "w1"
+   ],
+   "evidence": [
+    {
+     "source_id": "w1",
+     "quote": "the three of them—Cecilee, Ruzi, and his wolf Kuma—had been inseparable"
+    }
+   ],
+   "summary": "Kuma is Ruzi's wolf.",
+   "limitation": ""
+  },
+  {
+   "id": "WSM003",
+   "subject": "cecilee",
+   "predicate": "sibling_of",
+   "object": "ruzi",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "worldsoul_ravnica_2019_known_multiverse_2008_orzhov_feature_2013",
+   "source_ids": [
+    "w2"
+   ],
+   "evidence": [
+    {
+     "source_id": "w2",
+     "quote": "Cecilee named the child after her brother, Ruzi"
+    }
+   ],
+   "summary": "Cecilee is Ruzi's sister.",
+   "limitation": ""
+  },
+  {
+   "id": "WSM004",
+   "subject": "nikya",
+   "predicate": "member_of",
+   "object": "gruul_clans",
+   "grade": "CANON_IMPLIED",
+   "event_stage": "worldsoul_ravnica_2019_known_multiverse_2008_orzhov_feature_2013",
+   "source_ids": [
+    "w2"
+   ],
+   "evidence": [
+    {
+     "source_id": "w2",
+     "quote": "She explained that Nikya claimed the boy as kin and demanded he be raised as Gruul."
+    }
+   ],
+   "summary": "Nikya claims the child as kin and demands he be raised Gruul.",
+   "limitation": "Nikya's Gruul membership is inferred from her demand."
+  },
+  {
+   "id": "WSM005",
+   "subject": "massacre_girl",
+   "predicate": "member_of",
+   "object": "rakdos_cult",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "worldsoul_ravnica_2019_known_multiverse_2008_orzhov_feature_2013",
+   "source_ids": [
+    "w2"
+   ],
+   "evidence": [
+    {
+     "source_id": "w2",
+     "quote": "She didn't know the woman was a for-hire Rakdos killer who called herself Massacre Girl."
+    }
+   ],
+   "summary": "Massacre Girl is a for-hire Rakdos killer (as of this story).",
+   "limitation": ""
+  },
+  {
+   "id": "WSM006",
+   "subject": "massacre_girl",
+   "predicate": "attacked",
+   "object": "selesnya_conclave",
+   "grade": "CANON_IMPLIED",
+   "event_stage": "worldsoul_ravnica_2019_known_multiverse_2008_orzhov_feature_2013",
+   "source_ids": [
+    "w3"
+   ],
+   "evidence": [
+    {
+     "source_id": "w3",
+     "quote": "The two surprised Massacre Girl and her men as they searched the bodies for anything valuable."
+    },
+    {
+     "source_id": "w3",
+     "quote": "Ruzi glimpsed the bodies of his fellows Selesnyans near the desecrated guild-tree."
+    }
+   ],
+   "summary": "Massacre Girl and her men are found among the Selesnyan dead at the desecrated guild-tree.",
+   "limitation": "The page implies, but these lines do not state, that she carried out the killings."
+  },
+  {
+   "id": "WSM007",
+   "subject": "karn",
+   "predicate": "created",
+   "object": "mirrodin",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "worldsoul_ravnica_2019_known_multiverse_2008_orzhov_feature_2013",
+   "source_ids": [
+    "km"
+   ],
+   "evidence": [
+    {
+     "source_id": "km",
+     "quote": "The artificial, metal plane of Mirrodin was created by the planeswalker Karn."
+    }
+   ],
+   "summary": "Karn created Mirrodin (as of 2008).",
+   "limitation": ""
+  },
+  {
+   "id": "WSM008",
+   "subject": "karn",
+   "predicate": "created",
+   "object": "memnarch",
+   "grade": "CANON_IMPLIED",
+   "event_stage": "worldsoul_ravnica_2019_known_multiverse_2008_orzhov_feature_2013",
+   "source_ids": [
+    "km"
+   ],
+   "evidence": [
+    {
+     "source_id": "km",
+     "quote": "Karn also created an artifact warden to watch over the plane while he explored the multiverse."
+    },
+    {
+     "source_id": "km",
+     "quote": "Karn transformed the remains of Memnarch into the metal sphere they had once been: the Mirari."
+    }
+   ],
+   "summary": "Karn created an artifact warden for Mirrodin, which became Memnarch (as of 2008).",
+   "limitation": "The warden-to-Memnarch identity is implied across sentences."
+  },
+  {
+   "id": "WSM009",
+   "subject": "dyfed",
+   "predicate": "brought",
+   "object": "yawgmoth",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "worldsoul_ravnica_2019_known_multiverse_2008_orzhov_feature_2013",
+   "source_ids": [
+    "km"
+   ],
+   "evidence": [
+    {
+     "source_id": "km",
+     "quote": "the planeswalker Dyfed took Yawgmoth to Phyrexia shortly after its creator and master had died"
+    }
+   ],
+   "summary": "Dyfed took Yawgmoth to Phyrexia during the Thran decline.",
+   "limitation": ""
+  },
+  {
+   "id": "WSM010",
+   "subject": "yawgmoth",
+   "predicate": "trapped_on",
+   "object": "old_phyrexia",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "worldsoul_ravnica_2019_known_multiverse_2008_orzhov_feature_2013",
+   "source_ids": [
+    "km"
+   ],
+   "evidence": [
+    {
+     "source_id": "km",
+     "quote": "The Thran were defeated, but not before the portal was closed, trapping Yawgmoth and the Phyrexians in their plane."
+    }
+   ],
+   "summary": "Yawgmoth and the Phyrexians were trapped in Phyrexia when the portal closed.",
+   "limitation": ""
+  },
+  {
+   "id": "WSM011",
+   "subject": "serra",
+   "predicate": "created",
+   "object": "serras_realm",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "worldsoul_ravnica_2019_known_multiverse_2008_orzhov_feature_2013",
+   "source_ids": [
+    "km"
+   ],
+   "evidence": [
+    {
+     "source_id": "km",
+     "quote": "This artificial plane was created by the planeswalker Serra to exemplify her love of peace and law."
+    }
+   ],
+   "summary": "Serra created Serra's Realm.",
+   "limitation": ""
+  },
+  {
+   "id": "WSM012",
+   "subject": "obzedat",
+   "predicate": "commanded",
+   "object": "teysa_karlov",
+   "grade": "CANON_IMPLIED",
+   "event_stage": "worldsoul_ravnica_2019_known_multiverse_2008_orzhov_feature_2013",
+   "source_ids": [
+    "bbs"
+   ],
+   "evidence": [
+    {
+     "source_id": "bbs",
+     "quote": "I have come from the ghost halls of the Obzedat with a message for Teysa Karlov."
+    },
+    {
+     "source_id": "bbs",
+     "quote": "Teysa Karlov must find the correct route and complete the maze at all costs."
+    }
+   ],
+   "summary": "A messenger from the Obzedat tells Teysa Karlov she must complete the maze (2013 feature).",
+   "limitation": "Rendered as a command from the Obzedat; the feature frames it as a message."
+  }
+ ],
+ "pages_registered": 5,
+ "pages_cited": 5,
+ "uncited_registered_pages": [],
+ "remaining": []
+}

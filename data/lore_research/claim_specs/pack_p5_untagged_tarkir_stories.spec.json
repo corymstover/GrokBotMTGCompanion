@@ -1,0 +1,306 @@
+{
+ "pack_id": "pack_p5_untagged_tarkir_stories",
+ "arc": "",
+ "event_stage": "khans_and_dragons_of_tarkir_side_stories_2014_2015_and_dragonstorm_2026",
+ "scope": "Batch 11 extraction from untagged Tarkir side stories (2014-2015 Khans/Fate Reforged/Dragons of Tarkir and a 2026 Dragonstorm story) plus the 2014 Sarkhan and Ob Nixilis primers. Khans-era and Dragons-era claims belong to different timelines; Unwritten is set in Tarkir's past. PRELIMINARY_RESEARCH; targeted, not exhaustive; not owner approved.",
+ "pages": {
+  "call": "call-2015-04-15",
+  "doom": "doom-golden-fang-2015-02-04",
+  "grd": "guardian-2015-04-02",
+  "poi": "poisoned-heart-2015-04-08",
+  "man": "way-of-the-mantis",
+  "salt": "the-salt-road",
+  "unw": "unwritten-2015-01-14",
+  "spa": "spirits-of-the-abzan",
+  "mad": "the-madness-of-sarkhan",
+  "dod": "dreams-of-the-damned"
+ },
+ "entities": [
+  {
+   "id": "surrak",
+   "type": "Character",
+   "name": "Surrak"
+  },
+  {
+   "id": "atarka",
+   "type": "Character",
+   "name": "Atarka"
+  },
+  {
+   "id": "tasigur",
+   "type": "Character",
+   "name": "Tasigur"
+  },
+  {
+   "id": "sultai",
+   "type": "Faction",
+   "name": "Sultai"
+  },
+  {
+   "id": "oret",
+   "type": "Character",
+   "name": "Oret"
+  },
+  {
+   "id": "anafenza",
+   "type": "Character",
+   "name": "Anafenza"
+  },
+  {
+   "id": "sidisi",
+   "type": "Character",
+   "name": "Sidisi"
+  },
+  {
+   "id": "silumgar",
+   "type": "Character",
+   "name": "Silumgar"
+  },
+  {
+   "id": "kuhnde",
+   "type": "Character",
+   "name": "Kuhnde"
+  },
+  {
+   "id": "jeskai",
+   "type": "Faction",
+   "name": "Jeskai"
+  },
+  {
+   "id": "riza",
+   "type": "Character",
+   "name": "Riza"
+  },
+  {
+   "id": "abzan",
+   "type": "Faction",
+   "name": "The Abzan"
+  },
+  {
+   "id": "yasova_dragonclaw",
+   "type": "Character",
+   "name": "Yasova Dragonclaw"
+  },
+  {
+   "id": "temur",
+   "type": "Faction",
+   "name": "Temur"
+  },
+  {
+   "id": "vasi",
+   "type": "Character",
+   "name": "Vasi"
+  },
+  {
+   "id": "dromoka",
+   "type": "Character",
+   "name": "Dromoka"
+  },
+  {
+   "id": "sarkhan_vol",
+   "type": "Character",
+   "name": "Sarkhan Vol"
+  },
+  {
+   "id": "nicol_bolas",
+   "type": "Character",
+   "name": "Nicol Bolas"
+  },
+  {
+   "id": "ob_nixilis",
+   "type": "Character",
+   "name": "Ob Nixilis"
+  },
+  {
+   "id": "zendikar",
+   "type": "Plane",
+   "name": "Zendikar"
+  },
+  {
+   "id": "tarkir",
+   "type": "Plane",
+   "name": "Tarkir"
+  }
+ ],
+ "claims": [
+  {
+   "id": "TKS001",
+   "subject": "surrak",
+   "predicate": "serves",
+   "object": "atarka",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "call",
+     "quote": "Now he is the Hunt Caller of the Atarka clan, who hunt to feed their dragonlord."
+    }
+   ],
+   "summary": "In the Dragons of Tarkir timeline, Surrak is the Hunt Caller of the Atarka clan, which hunts to feed Dragonlord Atarka (rewritten timeline, 2015).",
+   "limitation": "The sentence names the Atarka clan and its dragonlord; Surrak's service to Atarka herself is inferred from his role."
+  },
+  {
+   "id": "TKS002",
+   "subject": "tasigur",
+   "predicate": "leader_of",
+   "object": "sultai",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "doom",
+     "quote": "My khan, one does not summon Khudal."
+    },
+    {
+     "page": "doom",
+     "quote": "more Sultai citizens welcomed the arrival of enemy forces"
+    }
+   ],
+   "summary": "Tasigur is addressed as khan while defending the Sultai (Fate Reforged, Tarkir's past, 2015).",
+   "limitation": "The page addresses Tasigur as khan and shows him defending Sultai lands; it does not state the title in narration. Set in Tarkir's past."
+  },
+  {
+   "id": "TKS003",
+   "subject": "anafenza",
+   "predicate": "commands",
+   "object": "oret",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "grd",
+     "quote": "Although Anafenza was barely visible through the maelstrom of dust, Oret could still hear his captain"
+    }
+   ],
+   "summary": "Oret serves under his captain Anafenza (original timeline, story set as Anafenza falls, 2015)."
+  },
+  {
+   "id": "TKS004",
+   "subject": "sidisi",
+   "predicate": "serves",
+   "object": "silumgar",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "poi",
+     "quote": "She approached Silumgar's throne, loudly making a path through the gold coins"
+    },
+    {
+     "page": "poi",
+     "quote": "Before, when Sidisi was still alive, the dragon's breath burned her skin."
+    }
+   ],
+   "summary": "Undead Sidisi attends Dragonlord Silumgar's court (rewritten timeline, 2015).",
+   "limitation": "The page shows undead Sidisi at Silumgar's court; her formal role is not named in the excerpted lines."
+  },
+  {
+   "id": "TKS005",
+   "subject": "kuhnde",
+   "predicate": "member_of",
+   "object": "jeskai",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "man",
+     "quote": "Atop a red-roofed Jeskai tower, a monk named Kuhnde stood on his mantis and looked over the valley."
+    }
+   ],
+   "summary": "Kuhnde is a Jeskai monk and mantis rider (2014)."
+  },
+  {
+   "id": "TKS006",
+   "subject": "riza",
+   "predicate": "member_of",
+   "object": "abzan",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "salt",
+     "quote": "Riza, the patrol captain, said to his top lieutenants"
+    },
+    {
+     "page": "salt",
+     "quote": "moving ever farther from the safety and civilization of the Abzan territories"
+    }
+   ],
+   "summary": "Riza captains a patrol on the Salt Road away from Abzan territory (2014).",
+   "limitation": "Riza's Abzan allegiance is inferred from the story's framing of Abzan and Mardu patrol leaders."
+  },
+  {
+   "id": "TKS007",
+   "subject": "yasova_dragonclaw",
+   "predicate": "leader_of",
+   "object": "temur",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "unw",
+     "quote": "Yasova Dragonclaw of the Temur pays her respects to you, O khan of khans"
+    },
+    {
+     "page": "unw",
+     "quote": "May I ask you something, Yasova khan?"
+    }
+   ],
+   "summary": "Yasova Dragonclaw is khan of the Temur in Tarkir's past, when Sarkhan meets her (2015).",
+   "limitation": "Set years in Tarkir's past; addressed as khan in dialogue. Not the Khans-era present leader."
+  },
+  {
+   "id": "TKS008",
+   "subject": "vasi",
+   "predicate": "member_of",
+   "object": "dromoka",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "spa",
+     "quote": "Vasi's style is uncommon among Dromoka's brood, relying on her speed and precision."
+    }
+   ],
+   "summary": "Vasi belongs to Dromoka's brood (Tarkir: Dragonstorm era, 2026).",
+   "limitation": "Modelled as membership of Dromoka's brood with Dromoka as the object; no separate brood entity exists."
+  },
+  {
+   "id": "TKS009",
+   "subject": "sarkhan_vol",
+   "predicate": "enemy_of",
+   "object": "nicol_bolas",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "mad",
+     "quote": "He eventually ran afoul of the one of the oldest and most powerful dragons in existence: the ancient and malevolent elder dragon Planeswalker, Nicol Bolas."
+    }
+   ],
+   "summary": "Sarkhan Vol ran afoul of Nicol Bolas (as of 2014).",
+   "limitation": "'Ran afoul of' is rendered as enmity; the primer does not detail the conflict."
+  },
+  {
+   "id": "TKS010",
+   "subject": "sarkhan_vol",
+   "predicate": "born_on",
+   "object": "tarkir",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "mad",
+     "quote": "Born on a windswept, war-torn world where dragons are extinct, he became a Planeswalker as a young man"
+    }
+   ],
+   "summary": "Sarkhan Vol was born on a war-torn world where dragons are extinct (Tarkir, as of 2014).",
+   "limitation": "The primer sentence does not name the world; the page names Tarkir elsewhere."
+  },
+  {
+   "id": "TKS011",
+   "subject": "ob_nixilis",
+   "predicate": "trapped_on",
+   "object": "zendikar",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "dod",
+     "quote": "He was once a Planeswalker, until he was stripped of his spark and trapped on the wild-mana plane of Zendikar thousands of years ago."
+    }
+   ],
+   "summary": "Ob Nixilis was stripped of his spark and trapped on Zendikar thousands of years ago (as of 2014)."
+  }
+ ],
+ "remaining": []
+}

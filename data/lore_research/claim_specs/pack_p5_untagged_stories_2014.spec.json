@@ -1,0 +1,551 @@
+{
+ "pack_id": "pack_p5_untagged_stories_2014",
+ "arc": "",
+ "event_stage": "ravnica_theros_conspiracy_m15_card_stories_2012_2014",
+ "scope": "Batch 11 extraction from untagged 2012-2014 card-story columns: Return to Ravnica (The Shadows of Prahv 1-2, The Gorgon and the Guildpact), Theros (The Nature of Identity, The Path or the Horizon), Conspiracy (Betrayal, The Black Rose, Like Cogwork) and Magic 2015 / Innistrad (Nissa, Worldwaker; The Veil of Deceit; The Bard and the Biologist; The Hunter Cannot Pity; The Lunarch's Journal). Claims are as of each page. PRELIMINARY_RESEARCH; targeted, not exhaustive; not owner approved.",
+ "pages": {
+  "pr1": "the-shadows-of-prahv-part-1",
+  "pr2": "the-shadows-of-prahv-part-2",
+  "gg": "gorgon-and-guildpact-2014-03-12",
+  "ni": "nature-identity-2014-01-15",
+  "ph": "path-or-horizon-2014-05-07",
+  "be": "betrayal-2014-05-14",
+  "br": "black-rose-2014-05-21",
+  "cw": "cogwork-2014-05-28",
+  "nw": "nissa-worldwaker-2014-06-25",
+  "vd": "veil-deceit-2014-07-01",
+  "bb": "bard-and-biologist-2014-07-09",
+  "hp": "hunter-cannot-pity-2014-07-16",
+  "lj": "lunarchs-journal-2014-08-13"
+ },
+ "entities": [
+  {
+   "id": "azorius_senate",
+   "type": "Faction",
+   "name": "Azorius Senate"
+  },
+  {
+   "id": "golgari",
+   "type": "Faction",
+   "name": "Golgari Swarm"
+  },
+  {
+   "id": "javy",
+   "type": "Character",
+   "name": "Javy"
+  },
+  {
+   "id": "boros_legion",
+   "type": "Faction",
+   "name": "Boros Legion"
+  },
+  {
+   "id": "relov",
+   "type": "Character",
+   "name": "Relov"
+  },
+  {
+   "id": "lavinia",
+   "type": "Character",
+   "name": "Lavinia"
+  },
+  {
+   "id": "jace_beleren",
+   "type": "Character",
+   "name": "Jace Beleren"
+  },
+  {
+   "id": "living_guildpact",
+   "type": "Concept",
+   "name": "Living Guildpact"
+  },
+  {
+   "id": "returned",
+   "type": "Faction",
+   "name": "the Returned"
+  },
+  {
+   "id": "theros_underworld",
+   "type": "Place",
+   "name": "Theros Underworld"
+  },
+  {
+   "id": "phenax",
+   "type": "Character",
+   "name": "Phenax"
+  },
+  {
+   "id": "brago",
+   "type": "Character",
+   "name": "Brago"
+  },
+  {
+   "id": "selvala",
+   "type": "Character",
+   "name": "Selvala"
+  },
+  {
+   "id": "paliano",
+   "type": "Place",
+   "name": "Paliano"
+  },
+  {
+   "id": "custodi",
+   "type": "Faction",
+   "name": "Custodi"
+  },
+  {
+   "id": "marchesa",
+   "type": "Character",
+   "name": "Marchesa"
+  },
+  {
+   "id": "ervos_trax",
+   "type": "Character",
+   "name": "Ervos Trax"
+  },
+  {
+   "id": "muzzio",
+   "type": "Character",
+   "name": "Muzzio"
+  },
+  {
+   "id": "irie",
+   "type": "Character",
+   "name": "Irie"
+  },
+  {
+   "id": "academy_high_paliano",
+   "type": "Faction",
+   "name": "Academy at High Paliano"
+  },
+  {
+   "id": "nissa_revane",
+   "type": "Character",
+   "name": "Nissa Revane"
+  },
+  {
+   "id": "joraga",
+   "type": "Faction",
+   "name": "Joraga elves"
+  },
+  {
+   "id": "hamadi",
+   "type": "Character",
+   "name": "Hamadi"
+  },
+  {
+   "id": "liliana_vess",
+   "type": "Character",
+   "name": "Liliana Vess"
+  },
+  {
+   "id": "kothophed",
+   "type": "Character",
+   "name": "Kothophed"
+  },
+  {
+   "id": "chain_veil",
+   "type": "Object",
+   "name": "Chain Veil"
+  },
+  {
+   "id": "onakke",
+   "type": "Faction",
+   "name": "Onakke"
+  },
+  {
+   "id": "shandalar",
+   "type": "Plane",
+   "name": "Shandalar"
+  },
+  {
+   "id": "lesh",
+   "type": "Place",
+   "name": "Lesh"
+  },
+  {
+   "id": "yisan",
+   "type": "Character",
+   "name": "Yisan"
+  },
+  {
+   "id": "jalira",
+   "type": "Character",
+   "name": "Jalira"
+  },
+  {
+   "id": "worry",
+   "type": "Concept",
+   "name": "Worry"
+  },
+  {
+   "id": "vronos",
+   "type": "Character",
+   "name": "Vronos"
+  },
+  {
+   "id": "avacyn",
+   "type": "Character",
+   "name": "Avacyn"
+  },
+  {
+   "id": "garruk_wildspeaker",
+   "type": "Character",
+   "name": "Garruk Wildspeaker"
+  },
+  {
+   "id": "dovid",
+   "type": "Character",
+   "name": "Dovid"
+  },
+  {
+   "id": "keepers_of_the_pale",
+   "type": "Faction",
+   "name": "Keepers of the Pale"
+  },
+  {
+   "id": "angels_of_the_lofts",
+   "type": "Faction",
+   "name": "angels of the Lofts"
+  }
+ ],
+ "claims": [
+  {
+   "id": "S14001",
+   "subject": "azorius_senate",
+   "predicate": "raided",
+   "object": "golgari",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "pr1",
+     "quote": "The Azorius Arresters had raided Golgari territory earlier that night."
+    }
+   ],
+   "summary": "Azorius Arresters raided Golgari territory, filling the Azorius Detention Compound with Golgari prisoners."
+  },
+  {
+   "id": "S14002",
+   "subject": "javy",
+   "predicate": "member_of",
+   "object": "boros_legion",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "pr2",
+     "quote": "Her Boros uniform fitted her as if it had been sewn by the best on Tailor's Row."
+    }
+   ],
+   "summary": "Javy is a Boros officer.",
+   "limitation": "'Her' is Javy from the preceding sentences; the part 1 note calls the investigator 'a Boros officer'."
+  },
+  {
+   "id": "S14003",
+   "subject": "relov",
+   "predicate": "ally_of",
+   "object": "javy",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "pr2",
+     "quote": "Later, Relov sat with Javy on a bench in the Transguild Promenade."
+    }
+   ],
+   "summary": "Relov works with Javy on the Prahv murders.",
+   "limitation": "Partnership is inferred from the shared investigation, not stated as a title."
+  },
+  {
+   "id": "S14004",
+   "subject": "lavinia",
+   "predicate": "serves",
+   "object": "jace_beleren",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "gg",
+     "quote": "Lavinia, formerly the Azorius maze runner and currently Jace's aide and deputy at the Chamber of the Guildpact"
+    }
+   ],
+   "summary": "Lavinia, formerly the Azorius maze runner, is Jace's aide and deputy at the Chamber of the Guildpact (2014)."
+  },
+  {
+   "id": "S14005",
+   "subject": "jace_beleren",
+   "predicate": "became",
+   "object": "living_guildpact",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "gg",
+     "quote": "Read how Jace became the Living Guildpact and his other activities on Ravnica"
+    }
+   ],
+   "summary": "Jace became the Living Guildpact (stated by the page's note pointing to The Secretist)."
+  },
+  {
+   "id": "S14006",
+   "subject": "returned",
+   "predicate": "escaped_from",
+   "object": "theros_underworld",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "ni",
+     "quote": "When a dead person escapes the Underworld, that person loses all identity and becomes one of the faceless Returned."
+    }
+   ],
+   "summary": "The Returned are dead who escaped the Underworld and lost their identity."
+  },
+  {
+   "id": "S14007",
+   "subject": "phenax",
+   "predicate": "created",
+   "object": "worry",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "ph",
+     "quote": "Worry is Phenax's creation, a great paralytic to rival Pharika's most virulent poison"
+    }
+   ],
+   "summary": "A satyr tells Zosimos that worry is Phenax's creation.",
+   "limitation": "Doctrine voiced by a character in dialogue, not narration."
+  },
+  {
+   "id": "S14008",
+   "subject": "selvala",
+   "predicate": "ally_of",
+   "object": "brago",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "be",
+     "quote": "But the king was a living man, once, and a friend to the elf explorer Selvala"
+    }
+   ],
+   "summary": "The elf explorer Selvala was a friend of Brago while he lived."
+  },
+  {
+   "id": "S14009",
+   "subject": "brago",
+   "predicate": "ruled",
+   "object": "paliano",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "be",
+     "quote": "King Brago had been on the throne just three years when the doctors diagnosed his illness."
+    }
+   ],
+   "summary": "King Brago ruled (Paliano) for three years before his fatal illness.",
+   "limitation": "The throne is Paliano's from the Conspiracy setting; this sentence does not name the city."
+  },
+  {
+   "id": "S14010",
+   "subject": "custodi",
+   "predicate": "served",
+   "object": "brago",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "be",
+     "quote": "In the very beginning, I begged you not to let the Custodi begin their treatments."
+    }
+   ],
+   "summary": "The Custodi treated the dying King Brago.",
+   "limitation": "The Custodi role is inferred from Selvala's reproach; 'served' is a summary."
+  },
+  {
+   "id": "S14011",
+   "subject": "marchesa",
+   "predicate": "ally_of",
+   "object": "ervos_trax",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "br",
+     "quote": "Marchesa and Ervos were longstanding business partners."
+    }
+   ],
+   "summary": "Marchesa and Ervos Trax were longstanding business partners before she moved against him."
+  },
+  {
+   "id": "S14012",
+   "subject": "irie",
+   "predicate": "serves",
+   "object": "muzzio",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "cw",
+     "quote": "Irie kept up Muzzio's workshop in exchange for the same lessons others spent family fortunes to obtain"
+    }
+   ],
+   "summary": "Irie keeps up Muzzio's workshop in exchange for lessons."
+  },
+  {
+   "id": "S14013",
+   "subject": "muzzio",
+   "predicate": "member_of",
+   "object": "academy_high_paliano",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "cw",
+     "quote": "Members present: Chancellor Grinaldi Vice Chancellor Alendis Professor Emralla Professor Fimarell Professor Muzzio Professor Tulando"
+    }
+   ],
+   "summary": "Professor Muzzio sits on the Academy at High Paliano's Board of Senior Advisors.",
+   "limitation": "From the meeting minutes heading of the Academy at High Paliano board."
+  },
+  {
+   "id": "S14014",
+   "subject": "hamadi",
+   "predicate": "rescued",
+   "object": "nissa_revane",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "nw",
+     "quote": "Hamadi had pulled her, a Joraga elf, from certain death."
+    }
+   ],
+   "summary": "Hamadi saved Nissa, a Joraga elf, from certain death.",
+   "limitation": "'her' is Nissa from the surrounding narration."
+  },
+  {
+   "id": "S14015",
+   "subject": "nissa_revane",
+   "predicate": "member_of",
+   "object": "joraga",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "nw",
+     "quote": "Hamadi had pulled her, a Joraga elf, from certain death."
+    }
+   ],
+   "summary": "Nissa is a Joraga elf.",
+   "limitation": "'her' is Nissa from the surrounding narration."
+  },
+  {
+   "id": "S14016",
+   "subject": "kothophed",
+   "predicate": "patron_of",
+   "object": "liliana_vess",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "vd",
+     "quote": "Liliana had visited Shandalar only twice before—once when her demon patron Kothophed had sent her to fetch the Chain Veil she wore."
+    }
+   ],
+   "summary": "The demon Kothophed was Liliana's patron and sent her to Shandalar to fetch the Chain Veil."
+  },
+  {
+   "id": "S14017",
+   "subject": "chain_veil",
+   "predicate": "found_in",
+   "object": "shandalar",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "vd",
+     "quote": "Liliana had visited Shandalar only twice before—once when her demon patron Kothophed had sent her to fetch the Chain Veil she wore."
+    }
+   ],
+   "summary": "Liliana fetched the Chain Veil from Shandalar.",
+   "limitation": "Inferred: she was sent to Shandalar to fetch it."
+  },
+  {
+   "id": "S14018",
+   "subject": "onakke",
+   "predicate": "connected_to",
+   "object": "chain_veil",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "vd",
+     "quote": "the Onakke, the ancient civilization of ogres who were connected to the Chain Veil in some way she still didn't understand"
+    }
+   ],
+   "summary": "The Onakke, an ancient ogre civilization, are connected to the Chain Veil in a way Liliana does not yet understand."
+  },
+  {
+   "id": "S14019",
+   "subject": "lesh",
+   "predicate": "located_in",
+   "object": "shandalar",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "bb",
+     "quote": "On the plane of Shandalar, in the city of Lesh, a man walked the streets, rambling about evil horrors."
+    }
+   ],
+   "summary": "Lesh is a city on Shandalar."
+  },
+  {
+   "id": "S14020",
+   "subject": "yisan",
+   "predicate": "ally_of",
+   "object": "jalira",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "bb",
+     "quote": "Jalira and Yisan rolled their eyes at the loss of their mark."
+    }
+   ],
+   "summary": "Yisan the bard and Jalira the biologist work together as swindling partners.",
+   "limitation": "Partnership is inferred from 'their mark' and their joint scenes."
+  },
+  {
+   "id": "S14021",
+   "subject": "avacyn",
+   "predicate": "commanded",
+   "object": "vronos",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "hp",
+     "quote": "You must find this man, Garruk, and bring him to my cathedral."
+    }
+   ],
+   "summary": "Avacyn charges the Elite Inquisitor Vronos to find Garruk and bring him to her cathedral.",
+   "limitation": "Speaker and addressee come from the surrounding scene."
+  },
+  {
+   "id": "S14022",
+   "subject": "dovid",
+   "predicate": "member_of",
+   "object": "keepers_of_the_pale",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "lj",
+     "quote": "I am Dovid, once a cathar of the Pale, grievously wounded at the battle of Child's Wall, now comitant to the angels of the Lofts."
+    }
+   ],
+   "summary": "Dovid was once a cathar of the Pale (former membership)."
+  },
+  {
+   "id": "S14023",
+   "subject": "dovid",
+   "predicate": "serves",
+   "object": "angels_of_the_lofts",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "lj",
+     "quote": "I am Dovid, once a cathar of the Pale, grievously wounded at the battle of Child's Wall, now comitant to the angels of the Lofts."
+    }
+   ],
+   "summary": "Dovid is now a comitant to the angels of the Lofts."
+  }
+ ],
+ "remaining": [
+  "Targeted, not exhaustive. The Cowardice of the Hero is registered as reviewed without a claim. Nature of Identity 2014-01-15-0 and Path or the Horizon 2014-05-07-0 are duplicate URLs of the cited pages."
+ ]
+}

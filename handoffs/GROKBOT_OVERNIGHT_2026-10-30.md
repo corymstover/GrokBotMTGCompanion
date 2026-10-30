@@ -404,7 +404,7 @@ Untagged pages in bulk (210 uncited); IKO's 2 non-narrative pages need a reviewe
 ### Status (keep distinct)
 - Research: PRELIMINARY_RESEARCH. Tests: green locally and in CI on each exact head. Merged: #880–#886. Owner approved / certified: nothing.
 
-## Batch 10 — 2026-10-30, 08:41–09:25 CDT
+## Batch 10 — 2026-10-30, 08:41–09:21 CDT
 
 ### PRs (batch 10)
 | PR | Phase | What | Merge commit (CDT) | CI on the exact head |
@@ -415,7 +415,7 @@ Untagged pages in bulk (210 uncited); IKO's 2 non-narrative pages need a reviewe
 | [#891](https://github.com/corymstover/GrokBotMTGCompanion/pull/891) | 3/5/7 | `pack_p5_untagged_ori_2015` (12), `pack_p5_untagged_grn_rna` (5); in-universe date overlay (`scripts/build_in_universe_dates.py`, `data/lore_research/in_universe_dates_2026-10-30.json`); `mv_ask` continuity explainer (`ask->continuity`, `tests/test_mv_ask_continuity.py`); 2 continuity questions in `batch_recount.py` | `ec097205` 09:05 CDT | 8/8 pass on `eb547c26` |
 | [#892](https://github.com/corymstover/GrokBotMTGCompanion/pull/892) | 5 | `pack_p5_untagged_misc_b10` (8 claims, 6 pages 2015–2019: Alhammarret, Meren/Kael, Lazav, Vraska, Zegana, Rakdos, "Six thousand years ago") | `73bded49` 09:09 CDT | 8/8 pass |
 | [#893](https://github.com/corymstover/GrokBotMTGCompanion/pull/893) | 5/7 | `pack_p5_untagged_guides_2012` (13 claims: RTR 1–3, GTC 1–2, AVR 1 guides) + `pack_p5_untagged_maelstrom_2007` (5 claims: Starke, Volrath, Sisay); faction short names drop Conclave/Combine and a leading House | `9ba608b0` 09:18 CDT | 8/8 pass |
-| this PR | 1/8 | `data/release/batch_recount_2026-10-30_b10.json` (15/15), workflow v2.38, readiness stats refresh (no status change), this handoff | — | — |
+| [#894](https://github.com/corymstover/GrokBotMTGCompanion/pull/894) | 1/8 | `data/release/batch_recount_2026-10-30_b10.json` (15/15), workflow v2.38, readiness stats refresh (no status change), this handoff | `dcc770b9` 09:21 CDT | 19/19 pass |
 
 ### Coverage (main after #893)
 - 516 of 626 pages cited; 40 reviewed with no claim; 1,027 claims (C817 / I197 / D8 / O3 / A2). Untagged: 119 cited + 38 reviewed of 227, 70 still unread (regenerable from the inventory's `unreviewed_urls`). 31 arcs fully cited, 32 cited or reviewed.
@@ -433,4 +433,4 @@ Untagged pages in bulk (210 uncited); IKO's 2 non-narrative pages need a reviewe
 - Dates: more edges via card-era context only where a cited quote supports it.
 
 ### Status (keep distinct)
-- Research: PRELIMINARY_RESEARCH. Tests: 456 + 18 green locally; recount 15/15; CI green on each merged exact head. Merged: #888–#893. Owner approved / certified: nothing. Protected-path diff vs `dfc8891d`: empty.
+- Research: PRELIMINARY_RESEARCH. Tests: 456 + 18 green locally; recount 15/15; CI green on each merged exact head. Merged: #888–#894. Owner approved / certified: nothing. Protected-path diff vs `dfc8891d`: empty.

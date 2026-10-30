@@ -1,0 +1,410 @@
+{
+ "pack_id": "pack_p5_untagged_m13_2012",
+ "arc": "",
+ "event_stage": "magic_2013_card_stories_and_avacyn_restored_guide_2012",
+ "scope": "Batch 11 extraction from the untagged 2012 Magic 2013 card-story columns (Talrand, Odric, Krenko, Xathrid Gorgon, Stonekiller part 2, Chronomaton) and the Planeswalker's Guide to Avacyn Restored part 2. Claims are as of each 2012 page; leadership is not present-day canon. PRELIMINARY_RESEARCH; targeted, not exhaustive; not owner approved.",
+ "pages": {
+  "tal": "talrand-sky-summoner-2012-07-30",
+  "odr": "odric-master-tactician-2012-06-26",
+  "kr": "krenko-mob-boss-2012-07-16",
+  "xg": "xathrid-gorgon-2012-07-03",
+  "sk2": "stonekiller-part-2-2012-08-13",
+  "chr": "chronomaton-2012-07-10",
+  "avr2": "planeswalkers-guide-to-avacyn-restored-part-2"
+ },
+ "entities": [
+  {
+   "id": "talrand",
+   "type": "Character",
+   "name": "Talrand"
+  },
+  {
+   "id": "kalyntri",
+   "type": "Character",
+   "name": "Kalyntri"
+  },
+  {
+   "id": "kapsho",
+   "type": "Place",
+   "name": "Kapsho"
+  },
+  {
+   "id": "kapsho_drakes",
+   "type": "Faction",
+   "name": "Kapsho drakes"
+  },
+  {
+   "id": "odric",
+   "type": "Character",
+   "name": "Odric"
+  },
+  {
+   "id": "grete",
+   "type": "Character",
+   "name": "Grete"
+  },
+  {
+   "id": "gavony_riders",
+   "type": "Faction",
+   "name": "Gavony Riders"
+  },
+  {
+   "id": "feather",
+   "type": "Character",
+   "name": "Feather"
+  },
+  {
+   "id": "boros_legion",
+   "type": "Faction",
+   "name": "Boros Legion"
+  },
+  {
+   "id": "sentos",
+   "type": "Character",
+   "name": "Sentos"
+  },
+  {
+   "id": "an_karras",
+   "type": "Place",
+   "name": "An Karras"
+  },
+  {
+   "id": "thune",
+   "type": "Place",
+   "name": "Thune"
+  },
+  {
+   "id": "shandalar",
+   "type": "Plane",
+   "name": "Shandalar"
+  },
+  {
+   "id": "nira",
+   "type": "Character",
+   "name": "Nira"
+  },
+  {
+   "id": "sunstrikers",
+   "type": "Faction",
+   "name": "Sunstrikers"
+  },
+  {
+   "id": "bazzle",
+   "type": "Character",
+   "name": "Bazzle"
+  },
+  {
+   "id": "chronomaton",
+   "type": "Object",
+   "name": "Chronomaton"
+  },
+  {
+   "id": "einolf_brandt",
+   "type": "Character",
+   "name": "Einolf Brandt"
+  },
+  {
+   "id": "lewenhart",
+   "type": "Character",
+   "name": "Lewenhart"
+  },
+  {
+   "id": "mausoleum_guards",
+   "type": "Faction",
+   "name": "Mausoleum Guards"
+  },
+  {
+   "id": "roricus",
+   "type": "Character",
+   "name": "Roricus"
+  },
+  {
+   "id": "diabolists",
+   "type": "Faction",
+   "name": "Diabolists"
+  },
+  {
+   "id": "kolman",
+   "type": "Character",
+   "name": "Kolman"
+  },
+  {
+   "id": "gatstaf",
+   "type": "Place",
+   "name": "Gatstaf"
+  },
+  {
+   "id": "garruk_wildspeaker",
+   "type": "Character",
+   "name": "Garruk Wildspeaker"
+  },
+  {
+   "id": "liliana_vess",
+   "type": "Character",
+   "name": "Liliana Vess"
+  },
+  {
+   "id": "chain_veil",
+   "type": "Object",
+   "name": "Chain Veil"
+  },
+  {
+   "id": "innistrad",
+   "type": "Plane",
+   "name": "Innistrad"
+  }
+ ],
+ "claims": [
+  {
+   "id": "M13001",
+   "subject": "kalyntri",
+   "predicate": "ruled",
+   "object": "kapsho",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "tal",
+     "quote": "Kalyntri had been the natural ruler of this part of the Kapsho seas for over three hundred years."
+    }
+   ],
+   "summary": "The dragon Kalyntri had ruled this part of the Kapsho seas for over three hundred years before Talrand arrived."
+  },
+  {
+   "id": "M13002",
+   "subject": "talrand",
+   "predicate": "claimed_rule_of",
+   "object": "kapsho",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "tal",
+     "quote": "Talrand's proclamations had been very clear that all of the Kapsho was now Talrand's kingdom and all of its denizens under Talrand's control."
+    }
+   ],
+   "summary": "Talrand proclaimed all of the Kapsho his kingdom (a claim, contested by Kalyntri)."
+  },
+  {
+   "id": "M13003",
+   "subject": "kapsho_drakes",
+   "predicate": "serve",
+   "object": "talrand",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "tal",
+     "quote": "But worst to Kalyntri were those drakes who had given up all pretense of freedom, such as those who now served the upstart Talrand."
+    }
+   ],
+   "summary": "Some Kapsho drakes serve Talrand."
+  },
+  {
+   "id": "M13004",
+   "subject": "talrand",
+   "predicate": "rival_of",
+   "object": "kalyntri",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "tal",
+     "quote": "Talrand was merely gone, and only the problem of him, and his drakes, remained."
+    }
+   ],
+   "summary": "Talrand and his drakes are Kalyntri's problem and rival for rule of the Kapsho.",
+   "limitation": "Rivalry is inferred from Kalyntri's point of view across the story; the quote states the 'problem', not the word rival."
+  },
+  {
+   "id": "M13005",
+   "subject": "odric",
+   "predicate": "leader_of",
+   "object": "gavony_riders",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "odr",
+     "quote": "Sir Odric, Master Tactician, Commander of the Gavony Riders and Recipient of the Moonsilver Accommodation didn't startle easily."
+    }
+   ],
+   "summary": "Sir Odric is Commander of the Gavony Riders (Magic 2013 story, 2012)."
+  },
+  {
+   "id": "M13006",
+   "subject": "grete",
+   "predicate": "serves",
+   "object": "odric",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "odr",
+     "quote": "He glanced across the oak table at Grete, his lieutenant, who looked surprised by his sudden movement."
+    }
+   ],
+   "summary": "Grete is Odric's lieutenant.",
+   "limitation": "The quote's 'he/his' refers to Odric from the surrounding narration."
+  },
+  {
+   "id": "M13007",
+   "subject": "feather",
+   "predicate": "led",
+   "object": "boros_legion",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "kr",
+     "quote": "And no one noticed a snaggletooth goblin enter the chambers of Vinrenn, aka Feather, the guildmaster who apparently lacked control."
+    }
+   ],
+   "summary": "Feather (Vinrenn) was the Boros guildmaster at the time of this 2012 story; the 2013 Gatecrash guide calls her the previous, disgraced guildmaster."
+  },
+  {
+   "id": "M13008",
+   "subject": "sentos",
+   "predicate": "born_in",
+   "object": "an_karras",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "xg",
+     "quote": "An hour to the east is An Karras, the city of my birth."
+    }
+   ],
+   "summary": "The narrator Sentos was born in An Karras.",
+   "limitation": "The narrator is identified as Sentos elsewhere in the story ('East of the border, I am called Sentos the Merciful.')."
+  },
+  {
+   "id": "M13009",
+   "subject": "thune",
+   "predicate": "located_in",
+   "object": "shandalar",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "xg",
+     "quote": "But today, we're putting the scope on the mountains at the border of Thune in Shandalar."
+    }
+   ],
+   "summary": "Thune is a region of Shandalar."
+  },
+  {
+   "id": "M13010",
+   "subject": "nira",
+   "predicate": "member_of",
+   "object": "sunstrikers",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "sk2",
+     "quote": "Except for Nira, the ragged band of Sunstrikers had already disappeared into the trees."
+    }
+   ],
+   "summary": "Nira belongs to the ragged band of Sunstrikers.",
+   "limitation": "Membership is inferred from 'except for Nira, the ... band ... had disappeared' and her 'We're Sunstrikers' line."
+  },
+  {
+   "id": "M13011",
+   "subject": "bazzle",
+   "predicate": "created",
+   "object": "chronomaton",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "chr",
+     "quote": "Yes, this was by far his greatest creation."
+    }
+   ],
+   "summary": "The inventor Bazzle built the Chronomaton, his greatest creation.",
+   "limitation": "'his' refers to Bazzle and 'this' to the Chronomaton named by the adjoining card art caption."
+  },
+  {
+   "id": "M13012",
+   "subject": "einolf_brandt",
+   "predicate": "leader_of",
+   "object": "gavony_riders",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "avr2",
+     "quote": "The compound includes a large manor where Captain Einolf Brandt lives with his wife and family."
+    },
+    {
+     "page": "avr2",
+     "quote": "Brandt is a loyal, competent leader and an excellent equestrian."
+    }
+   ],
+   "summary": "Captain Einolf Brandt leads the Gavony Riders (Avacyn Restored guide, 2012); compare Odric as 'Commander' in the M13 story.",
+   "limitation": "The guide describes Brandt under the Gavony Riders heading at Rider's Lock; 'captain of the Riders' is not one sentence."
+  },
+  {
+   "id": "M13013",
+   "subject": "lewenhart",
+   "predicate": "leader_of",
+   "object": "mausoleum_guards",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "avr2",
+     "quote": "The head of this mastery is a strict, clever man named Lewenhart."
+    }
+   ],
+   "summary": "Lewenhart heads the Mausoleum Guards mastery of the cathars."
+  },
+  {
+   "id": "M13014",
+   "subject": "roricus",
+   "predicate": "leader_of",
+   "object": "diabolists",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "avr2",
+     "quote": "The leader of this group is a former moor chaplain named Roricus"
+    }
+   ],
+   "summary": "Roricus, a former moor chaplain, leads the rogue Diabolists who hunt devils."
+  },
+  {
+   "id": "M13015",
+   "subject": "kolman",
+   "predicate": "leader_of",
+   "object": "gatstaf",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "avr2",
+     "quote": "Kolman, the town elder, successfully uncovered a small group of families giving refuge to some suspected werewolves."
+    }
+   ],
+   "summary": "Kolman is the town elder of Gatstaf, who led werewolf purges."
+  },
+  {
+   "id": "M13016",
+   "subject": "garruk_wildspeaker",
+   "predicate": "hunted",
+   "object": "liliana_vess",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "avr2",
+     "quote": "Garruk had been hunting Liliana across multiple planes in order to force her to remove the curse"
+    }
+   ],
+   "summary": "Garruk hunted Liliana across planes to make her lift the Chain Veil's curse."
+  },
+  {
+   "id": "M13017",
+   "subject": "liliana_vess",
+   "predicate": "cursed",
+   "object": "garruk_wildspeaker",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "avr2",
+     "quote": "In their first encounter, she inflicted him with the Chain Veil's curse"
+    }
+   ],
+   "summary": "Liliana cursed Garruk with the Chain Veil."
+  }
+ ],
+ "remaining": [
+  "Talrand, Odric, Krenko, Xathrid, Stonekiller 2, Chronomaton and AVR guide part 2 are targeted, not exhaustive. Krenko 2012-07-18 is a duplicate of 2012-07-16. Threadbare and A Blessed Life are registered as reviewed without a claim."
+ ]
+}

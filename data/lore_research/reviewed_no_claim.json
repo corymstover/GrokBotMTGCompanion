@@ -408,6 +408,109 @@
    "reason": "INDEX_OR_LANDING_PAGE",
    "note": "Magic Origins series introduction: one-line arcs for five Planeswalkers with links to their origin stories.",
    "cached_text_sha256": "424ba7f401753635efb87fec908815aa3d64812e3997f9afa6fe67d172d41aea"
+  },
+  {
+   "url": "https://magic.wizards.com/en/news/magic-story/krenko-mob-boss-2012-07-18",
+   "page_key": "krenko-mob-boss-2012-07-18",
+   "arc": "",
+   "reviewer": "GrokBot",
+   "reviewed_on": "2026-10-30",
+   "reason": "DUPLICATE_PAGE",
+   "note": "Second URL for the same 'Krenko, Mob Boss' story; the text matches krenko-mob-boss-2012-07-16 word for word apart from the page date and the trailing related-links block.",
+   "cached_text_sha256": "ecdcae8535164236afbb52cb088c82364ed2ef61ff660eac5f2a8b51296bf7cb",
+   "duplicate_of": "https://magic.wizards.com/en/news/magic-story/krenko-mob-boss-2012-07-16"
+  },
+  {
+   "url": "https://magic.wizards.com/en/news/magic-story/threadbare-2012-07-23",
+   "page_key": "threadbare-2012-07-23",
+   "arc": "",
+   "reviewer": "GrokBot",
+   "reviewed_on": "2026-10-30",
+   "reason": "NO_EXTRACTABLE_RELATION",
+   "note": "First-person monologue of the Stuffy Doll card's living doll on an unnamed quest; it names no other character, faction or place it could be linked to, so no relation claim is graded.",
+   "cached_text_sha256": "0f7adfd06942b16ef892bbac8b5dc7e83a963bc72aa4d27af26d417f41d8ffcb"
+  },
+  {
+   "url": "https://magic.wizards.com/en/news/magic-story/blessed-life-2012-07-24",
+   "page_key": "blessed-life-2012-07-24",
+   "arc": "",
+   "reviewer": "GrokBot",
+   "reviewed_on": "2026-10-30",
+   "reason": "NO_EXTRACTABLE_RELATION",
+   "note": "Innistrad soldier story (Brenalt, Mattias, an unnamed inquisitor). The only named groups and places (the Fourth Legion, Greenfield, River's Glen) appear in passing with no stated leader, membership or location relation to a graph entity.",
+   "cached_text_sha256": "f74a8da1e175c7c406710eaf5afe587e2211d6a87ecbffdef290845ca3252549"
+  },
+  {
+   "url": "https://magic.wizards.com/en/news/magic-story/cowardice-hero-2014-01-22",
+   "page_key": "cowardice-hero-2014-01-22",
+   "arc": "",
+   "reviewer": "GrokBot",
+   "reviewed_on": "2026-10-30",
+   "reason": "NO_EXTRACTABLE_RELATION",
+   "note": "Theros story narrated by the unnamed stepson of the 'hero' Vinack; the relations are to unnamed family and farmhands, and the named gods (Athreos, Mogis) and the scholar Zerili appear only in passing, so no graph relation is graded.",
+   "cached_text_sha256": "70f1a615fc1ad6d1698cfdc27ae6bd5a086d8573f446153900336d4144218cbc"
+  },
+  {
+   "url": "https://magic.wizards.com/en/news/magic-story/nature-identity-2014-01-15-0",
+   "page_key": "nature-identity-2014-01-15-0",
+   "arc": "",
+   "reviewer": "GrokBot",
+   "reviewed_on": "2026-10-30",
+   "reason": "DUPLICATE_PAGE",
+   "note": "Second URL for 'The Nature of Identity'; the story text matches nature-identity-2014-01-15.",
+   "cached_text_sha256": "47b03aeb853ca9e12ef17749387b9c6adf5525c6073beebb8610359e471937c8",
+   "duplicate_of": "https://magic.wizards.com/en/news/magic-story/nature-identity-2014-01-15"
+  },
+  {
+   "url": "https://magic.wizards.com/en/news/magic-story/path-or-horizon-2014-05-07-0",
+   "page_key": "path-or-horizon-2014-05-07-0",
+   "arc": "",
+   "reviewer": "GrokBot",
+   "reviewed_on": "2026-10-30",
+   "reason": "DUPLICATE_PAGE",
+   "note": "Second URL for 'The Path or the Horizon'; the story text matches path-or-horizon-2014-05-07.",
+   "cached_text_sha256": "563b430e2506f1431d3eb255ec8668c71319cb50e20a29d891e07465c5953e86",
+   "duplicate_of": "https://magic.wizards.com/en/news/magic-story/path-or-horizon-2014-05-07"
+  },
+  {
+   "url": "https://magic.wizards.com/en/news/magic-story/bound-and-bonded-2018-11-14",
+   "page_key": "bound-and-bonded-2018-11-14",
+   "arc": "",
+   "reviewer": "GrokBot",
+   "reviewed_on": "2026-10-30",
+   "reason": "NO_EXTRACTABLE_RELATION",
+   "note": "Ravnica Allegiance-era vignette told by an unnamed first-person narrator about friends Ambrellin, Savaryn, Kellim and the orphan Bazda; the Orzhov appear only as setting (cathedrals, a destroyed basilica), and the only relations are between story-original characters with no graph entity, faction membership or leadership stated. Not graded in Batch 11.",
+   "cached_text_sha256": "616f42a658fb0c47c7eec4d4fe33f0f21eed7797a62e448facccc0b5d0d20d64"
+  },
+  {
+   "url": "https://magic.wizards.com/en/news/magic-story/ledger-hidden-fortunes-2019-02-20",
+   "page_key": "ledger-hidden-fortunes-2019-02-20",
+   "arc": "",
+   "reviewer": "GrokBot",
+   "reviewed_on": "2026-10-30",
+   "reason": "NO_EXTRACTABLE_RELATION",
+   "note": "Epistolary Orzhov tithe-collection ledger kept by an unnamed collector (tithe percentages, property inventories, a rumoured Vitu-Ghazi vulnerability); it names no character-to-faction or leadership relation for a graph entity. Not graded in Batch 11.",
+   "cached_text_sha256": "c498b025eb501a0a366d2c0ed7fd9213484ce6ac82385ffbc4c279820b40ce23"
+  },
+  {
+   "url": "https://magic.wizards.com/en/news/making-magic/choosing-your-battles-part-3",
+   "page_key": "choosing-your-battles-part-3",
+   "arc": "",
+   "reviewer": "GrokBot",
+   "reviewed_on": "2026-10-30",
+   "reason": "DESIGN_OR_PROCESS_ARTICLE",
+   "note": "Mark Rosewater Making Magic column (2023-04-24) explaining how March of the Machine battle cards were designed; card design commentary, not story canon.",
+   "cached_text_sha256": "bc6f15dc5708c545252aa831380c7f7534b4455c7a7869c913336e13f5ce1820"
+  },
+  {
+   "url": "https://magic.wizards.com/en/news/magic-story/its-time-talk-commander-2016-edition-2016-10-26",
+   "page_key": "its-time-talk-commander-2016-edition-2016-10-26",
+   "arc": "",
+   "reviewer": "GrokBot",
+   "reviewed_on": "2026-10-30",
+   "reason": "PRODUCT_OR_PROMO_NOTE",
+   "note": "Commander 2016 product overview listing the decks and their legendary creatures with deck art; no story narrative.",
+   "cached_text_sha256": "0803dcf1fff729c8ee5629357bcf6a4d280417a1c3d0d89a463f86e4cf343036"
   }
  ]
 }
