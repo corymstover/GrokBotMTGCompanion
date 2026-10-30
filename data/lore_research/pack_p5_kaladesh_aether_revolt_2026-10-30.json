@@ -104,6 +104,27 @@
    "kind": "official_story_episode",
    "perspective": "Wizards of the Coast (official Magic Story)",
    "published": "2017-02-02"
+  },
+  "kld_born_aether": {
+   "title": "Born of Aether",
+   "url": "https://magic.wizards.com/en/news/magic-story/born-aether-2016-09-21",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2016-09-21"
+  },
+  "kld_time_innovation": {
+   "title": "A Time for Innovation",
+   "url": "https://magic.wizards.com/en/news/magic-story/time-innovation-2016-08-31",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2016-08-31"
+  },
+  "aer_quiet_moments": {
+   "title": "Quiet Moments",
+   "url": "https://magic.wizards.com/en/news/magic-story/quiet-moments-2016-12-07",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2016-12-08"
   }
  },
  "entities": [
@@ -246,6 +267,21 @@
    "id": "ghirapur_revolution",
    "type": "Event",
    "name": "Renegade revolution in Ghirapur"
+  },
+  {
+   "id": "yahenni",
+   "type": "Character",
+   "name": "Yahenni"
+  },
+  {
+   "id": "depala",
+   "type": "Character",
+   "name": "Depala"
+  },
+  {
+   "id": "mitul",
+   "type": "Character",
+   "name": "Mitul"
   }
  ],
  "claims": [
@@ -740,13 +776,154 @@
    ],
    "summary": "Liliana tells the Gatewatch that Bolas completely controls Amonkhet.",
    "limitation": "Liliana's in-character report; her 'he created it' is explicitly hedged ('As far as I know') and is not modelled as a claim."
+  },
+  {
+   "id": "KLD011",
+   "subject": "consulate",
+   "predicate": "imprisoned",
+   "object": "pia_nalaar",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "kaladesh_revolt_2016",
+   "source_ids": [
+    "kld_born_aether"
+   ],
+   "evidence": [
+    {
+     "source_id": "kld_born_aether",
+     "quote": "Pia Nalaar was captured, you know."
+    },
+    {
+     "source_id": "kld_born_aether",
+     "quote": "I don't know where the Consulate would take prisoners of Pia's standing."
+    }
+   ],
+   "summary": "Yahenni tells Chandra and Nissa that Pia was captured and taken prisoner by the Consulate.",
+   "limitation": ""
+  },
+  {
+   "id": "KLD012",
+   "subject": "yahenni",
+   "predicate": "friend_of",
+   "object": "depala",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "kaladesh_revolt_2016",
+   "source_ids": [
+    "kld_born_aether"
+   ],
+   "evidence": [
+    {
+     "source_id": "kld_born_aether",
+     "quote": "My dear friend and ace pilot Depala"
+    }
+   ],
+   "summary": "Yahenni calls the pilot Depala a dear friend.",
+   "limitation": ""
+  },
+  {
+   "id": "KLD013",
+   "subject": "yahenni",
+   "predicate": "aided",
+   "object": "chandra_nalaar",
+   "grade": "CANON_IMPLIED",
+   "event_stage": "kaladesh_revolt_2016",
+   "source_ids": [
+    "kld_born_aether"
+   ],
+   "evidence": [
+    {
+     "source_id": "kld_born_aether",
+     "quote": "Pia Nalaar's daughter looks at me with genuine surprise."
+    },
+    {
+     "source_id": "kld_born_aether",
+     "quote": "three unexpected guests arrive seeking dangerous knowledge"
+    }
+   ],
+   "summary": "Chandra (with Nissa) comes to Yahenni's party seeking information about her captured mother.",
+   "limitation": "The recap says the guests seek dangerous knowledge; whether Yahenni's information counts as help is an editorial reading."
+  },
+  {
+   "id": "KLD014",
+   "subject": "mitul",
+   "predicate": "serves",
+   "object": "rashmi",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "kaladesh_revolt_2016",
+   "source_ids": [
+    "kld_time_innovation"
+   ],
+   "evidence": [
+    {
+     "source_id": "kld_time_innovation",
+     "quote": "Her vedalken assistant, Mitul, placed the tool on her palm."
+    }
+   ],
+   "summary": "Mitul is Rashmi's vedalken lab assistant.",
+   "limitation": ""
+  },
+  {
+   "id": "KLD015",
+   "subject": "rashmi",
+   "predicate": "created",
+   "object": "aether_kaladesh",
+   "grade": "CANON_IMPLIED",
+   "event_stage": "kaladesh_revolt_2016",
+   "source_ids": [
+    "kld_time_innovation"
+   ],
+   "evidence": [
+    {
+     "source_id": "kld_time_innovation",
+     "quote": "Her groundbreaking aether condenser"
+    }
+   ],
+   "summary": "Rashmi invented a groundbreaking aether condenser to power her matter-transportation device.",
+   "limitation": "Modelled against the generic aether concept node; the condenser itself is not a separate entity."
+  },
+  {
+   "id": "AER016",
+   "subject": "tezzeret",
+   "predicate": "leader_of",
+   "object": "consulate",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "kaladesh_revolt_2016",
+   "source_ids": [
+    "aer_quiet_moments"
+   ],
+   "evidence": [
+    {
+     "source_id": "aer_quiet_moments",
+     "quote": "With Tezzeret still maintaining control and leadership of the Consulate"
+    }
+   ],
+   "summary": "During the Aether Revolt crackdown, Tezzeret controls and leads the Consulate.",
+   "limitation": ""
+  },
+  {
+   "id": "AER017",
+   "subject": "gatewatch",
+   "predicate": "aided",
+   "object": "renegades_kaladesh",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "kaladesh_revolt_2016",
+   "source_ids": [
+    "aer_quiet_moments"
+   ],
+   "evidence": [
+    {
+     "source_id": "aer_quiet_moments",
+     "quote": "aiding Pia and the renegades where they could, seeking out information on Tezzeret's plans"
+    }
+   ],
+   "summary": "The Gatewatch hides in Ghirapur and aids Pia and the renegades.",
+   "limitation": ""
   }
  ],
- "pages_registered": 14,
- "pages_cited": 14,
+ "pages_registered": 17,
+ "pages_cited": 17,
  "uncited_registered_pages": [],
  "remaining": [
-  "Targeted extraction, not exhaustive: Time for Innovation, Born of Aether, Quiet Moments and the Planeswalker's Guide are only lightly modelled or uncited",
+  "Targeted extraction, not exhaustive: Time for Innovation, Born of Aether and Quiet Moments are only lightly modelled (a few claims each)",
   "Side stories outside the inventory (for example 'Burn', 'In the Dead of Night') are not covered"
  ]
 }
