@@ -1,0 +1,33 @@
+name: Phase 1B named historical promotional series primary sources
+
+on:
+  push:
+    paths:
+      - 'data/set_atlas/historical_promo_series_*'
+      - 'scripts/audit_historical_promo_series_sources.py'
+      - 'scripts/product_family_lookup.py'
+      - 'tests/test_historical_promo_series_sources.py'
+      - '.github/workflows/phase1b-historical-promo-series.yml'
+  pull_request:
+    paths:
+      - 'data/set_atlas/historical_promo_series_*'
+      - 'scripts/audit_historical_promo_series_sources.py'
+      - 'scripts/product_family_lookup.py'
+      - 'tests/test_historical_promo_series_sources.py'
+      - '.github/workflows/phase1b-historical-promo-series.yml'
+  workflow_dispatch:
+
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Reproduce dated source review checkpoint
+        run: python3 scripts/audit_historical_promo_series_sources.py
+      - name: Validate all previous source overlays and frozen corpus
+        run: python3 -m unittest discover -s tests -p 'test_*sources.py' -v
+      - name: Print cumulative product-family research status
+        run: python3 scripts/product_family_lookup.py --summary

@@ -1,0 +1,93 @@
+{
+  "schema": 1,
+  "cutoff": "2026-10-29",
+  "records": [
+    {
+      "code": "pvan",
+      "official_url": "https://magic.wizards.com/en/news/feature/vanguard-2008-08-14",
+      "evidence_grade": "wizards_contemporary_promotion",
+      "official_section": "Wizards' Vanguard reference says the physical Vanguard supplemental oversized cards alter starting hand size, starting life, and player abilities, and were used in Arena seasons beginning in 1997.",
+      "supported_family": "historic_oversized_vanguard_play_variant",
+      "source_caveat": "Vanguard cards are outside ordinary deck construction and are not a separate tournament-legal premier expansion; PVAN is a later catalog code assigned by Scryfall."
+    },
+    {
+      "code": "wc97",
+      "official_url": "https://mtg-jp.com/reading/iwashowdeck/0016981/",
+      "evidence_grade": "wizards_official_named_retrospective",
+      "official_section": "Wizards Japan's 1997 Worlds historical deck retrospective names Jakub Slemr's 5 Color Black list and expressly attributes its printed deck record to 1997 World Championship Decks.",
+      "supported_family": "historic_gold_bordered_1997_world_championship_decks",
+      "source_caveat": "This is a later officially published retrospective of one 1997 deck, not a period box announcement or independently printed WC97 code or full packaged print inventory."
+    },
+    {
+      "code": "wc98",
+      "official_url": "https://mtg-jp.com/reading/iwashowdeck/0019047/",
+      "evidence_grade": "wizards_official_named_retrospective",
+      "official_section": "Wizards Japan's 1998 Worlds historical Standard-deck feature describes Brian Selden's recurring Nightmare/Survival winning list and identifies the 1998 World Championship Decks product.",
+      "supported_family": "historic_gold_bordered_1998_world_championship_decks",
+      "source_caveat": "The official retrospective supports one 1998 deck product name, not a complete 1998 sold-package count or an explicit Wizards WC98 catalog-code declaration."
+    },
+    {
+      "code": "wc99",
+      "official_url": "https://mtg-jp.com/reading/translated/rc/0004310/",
+      "evidence_grade": "wizards_official_named_retrospective",
+      "official_section": "The official Japanese translation of Wizards' From the Vault: Twenty feature recalls a purchased Kai Budde World Championship Decks 1999 product and notes Wizards made gold-bordered Worlds top-deck products.",
+      "supported_family": "historic_gold_bordered_1999_world_championship_decks",
+      "source_caveat": "A product-memory reference is weaker than a contemporary 1999 box description; WC99 is a frozen Scryfall crosswalk rather than an official code visible in this publication."
+    },
+    {
+      "code": "wc00",
+      "official_url": "https://mtg-jp.com/reading/iwashowdeck/0035903/",
+      "evidence_grade": "wizards_official_named_retrospective",
+      "official_section": "Wizards Japan's historical Standard article reproduces Tom van de Logt's Parallax Replenish deck and expressly cites the Wizards World Championship Decks 2000 product page as its reference.",
+      "supported_family": "historic_gold_bordered_2000_world_championship_decks",
+      "source_caveat": "Its linked original product page now redirects to the generic Wizards archive; the still-readable Japanese retrospective supports the named 2000 product but not a WC00 code."
+    },
+    {
+      "code": "wc04",
+      "official_url": "https://mtg-jp.com/reading/iwashowdeck/0019017/",
+      "evidence_grade": "wizards_official_named_retrospective",
+      "official_section": "Wizards Japan's 2004 Worlds historical Eternal Slide Standard article lists champion Julien Nuijten's deck and specifically credits the World Championship Decks 2004 Theme Deck reference.",
+      "supported_family": "historic_gold_bordered_2004_world_championship_decks",
+      "source_caveat": "The original legacy Wizards product page has been redirected; an official retrospective deck attribution does not fully reproduce physical 2004 packaging or printings."
+    },
+    {
+      "code": "plg20",
+      "official_url": "https://wpn.wizards.com/en/news/announcing-love-your-local-game-store-promotion",
+      "evidence_grade": "wizards_contemporary_promotion",
+      "official_section": "Wizards Play Network's June 2020 Love Your Local Game Store launch details Reliquary Tower, Mechagodzilla/Hangarback Walker promos, and reopening-support event kits distributed to WPN stores.",
+      "supported_family": "wizards_play_network_love_your_local_store_2020_promo_campaign",
+      "source_caveat": "A 2020 campaign may contain several promotional printing kinds, not a separate expansion; PLG20 is a frozen Scryfall grouping, not a printed code in this WPN announcement."
+    },
+    {
+      "code": "plg21",
+      "official_url": "https://magic.wizards.com/en/news/announcements/love-your-local-game-store-more-summer-legend-promos-2021-06-23",
+      "evidence_grade": "wizards_contemporary_promotion",
+      "official_section": "Wizards' June 2021 Love Your Local Game Store Summer of Legend announcement details retro-frame Fabled Passage and five more named promos beginning July 23, 2021.",
+      "supported_family": "love_your_local_store_summer_of_legend_2021_promo_campaign",
+      "source_caveat": "This announcement is about the 2021 promotional campaign, not a complete collector-number inventory or any official declaration of the Scryfall PLG21 code."
+    },
+    {
+      "code": "plg22",
+      "official_url": "https://magic.wizards.com/en/news/announcements/love-your-local-game-store-returns-with-double-masters-2022",
+      "evidence_grade": "wizards_contemporary_promotion",
+      "official_section": "Wizards' June 2022 Love Your Local Game Store announcement details a foil retro-frame Sol Ring reward for purchasing qualifying sealed Magic products beginning July 1, 2022.",
+      "supported_family": "love_your_local_store_2022_retro_sol_ring_promotion",
+      "source_caveat": "This is a local-store promotional print, not a premier set; PLG22 is a Scryfall grouping and the announcement alone does not establish every included card."
+    },
+    {
+      "code": "plg24",
+      "official_url": "https://wpn.wizards.com/en/news/love-your-local-game-store-2024-begins-july-5-with-all-new-lylgs-draft-event",
+      "evidence_grade": "wizards_contemporary_promotion",
+      "official_section": "The Wizards Play Network June 2024 Love Your Local Game Store article announces its July 5 Draft promotion and a full-art Sakura-Tribe Elder promo for qualifying Modern Horizons 3 activities.",
+      "supported_family": "love_your_local_store_2024_draft_event_promo_campaign",
+      "source_caveat": "The LYLGS 2024 promo program is not an independently sold set, and the WPN article does not print Scryfall's exact PLG24 code or certify all variants."
+    }
+  ],
+  "caveats": [
+    "Each of these ten source references provides a specifically dated Wizards product-family or event-program account, not an official Scryfall code assertion.",
+    "World Championship Decks year references in the official Japanese retrospectives are historically useful but are not restored originals of the sold product pages.",
+    "Love Your Local Game Store promotional campaigns are organized separately by year for source review, not treated as new tabletop expansion products.",
+    "The 1997 physical Vanguard oversized supplement has different play rules from ordinary collectible Magic deck cards; no mainstream constructed legality is certified.",
+    "Yearly event and product-family sources cannot establish exact archival card printing or collector-number inventories, individual first-printing dates, or present-day legality."
+  ]
+}
