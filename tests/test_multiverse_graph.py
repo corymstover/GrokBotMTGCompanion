@@ -41,7 +41,7 @@ class GraphBuildTests(unittest.TestCase):
             if n["type"] == "Claim":
                 by_status.setdefault(n["grade"], set()).add(n["id"])
         self.assertEqual(by_status.get("CANON_DISPUTED"), {"claim:A003", "claim:A004", "claim:B012", "claim:C012", "claim:RTD006", "claim:RTD021", "claim:RTD033"})
-        self.assertEqual(by_status.get("OPEN_QUESTION"), {"claim:A011", "claim:C010"})
+        self.assertEqual(by_status.get("OPEN_QUESTION"), {"claim:A011", "claim:C010", "claim:ZN010"})
         self.assertEqual(by_status.get("ALTERNATE_CONTINUITY"), {"claim:A012", "claim:XLN016"})
 
     def test_no_broken_or_duplicate_edges(self):
@@ -94,7 +94,7 @@ class QueryTests(unittest.TestCase):
         self.assertIn("e1d45374-a41b-4b3f-a7c8-3eb5ca767cf6", res["card"]["exact_story_art_printings"])
 
     def test_status_query(self):
-        self.assertEqual([r["claim"] for r in self.mg.status("OPEN_QUESTION")], ["claim:A011", "claim:C010"])
+        self.assertEqual([r["claim"] for r in self.mg.status("OPEN_QUESTION")], ["claim:A011", "claim:C010", "claim:ZN010"])
 
 
     # --- Pack B (Thran / Yawgmoth / Brothers' War) ---

@@ -197,6 +197,29 @@
    ]
   },
   {
+   "entity": "akiri",
+   "entity_type": "Character",
+   "entity_name": "Akiri",
+   "aliases": [
+    "Akiri"
+   ],
+   "pack": "pack_p5_untagged_znr_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Akiri, Fearless Voyager",
+     "oracle_id": "c03ae426-2536-4c20-a73a-a24e816f76b0",
+     "type_line": "Legendary Creature — Kor Warrior",
+     "scryfall_uri": "https://scryfall.com/card/cmm/335/akiri-fearless-voyager"
+    },
+    {
+     "name": "Akiri, Line-Slinger",
+     "oracle_id": "3e0a0276-b640-41c7-95bd-ba3067f5c911",
+     "type_line": "Legendary Creature — Kor Soldier Ally",
+     "scryfall_uri": "https://scryfall.com/card/c16/26/akiri-line-slinger"
+    }
+   ]
+  },
+  {
    "entity": "akul",
    "entity_type": "Character",
    "entity_name": "Akul",
@@ -3720,6 +3743,23 @@
    ]
   },
   {
+   "entity": "lorthos",
+   "entity_type": "Character",
+   "entity_name": "Lorthos, the Tidemaker",
+   "aliases": [
+    "Lorthos, the Tidemaker"
+   ],
+   "pack": "pack_p5_untagged_znr_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Lorthos, the Tidemaker",
+     "oracle_id": "d9fd4ff3-5ada-40f4-b949-6fe65624a0c4",
+     "type_line": "Legendary Creature — Octopus",
+     "scryfall_uri": "https://scryfall.com/card/cmm/103/lorthos-the-tidemaker"
+    }
+   ]
+  },
+  {
    "entity": "lukka",
    "entity_type": "Character",
    "entity_name": "Lukka",
@@ -4624,6 +4664,23 @@
    ]
   },
   {
+   "entity": "obuun",
+   "entity_type": "Character",
+   "entity_name": "Obuun",
+   "aliases": [
+    "Obuun"
+   ],
+   "pack": "pack_p5_untagged_znr_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Obuun, Mul Daya Ancestor",
+     "oracle_id": "28fcf855-6372-4d6b-b3fd-76f85247f309",
+     "type_line": "Legendary Creature — Elf Spirit",
+     "scryfall_uri": "https://scryfall.com/card/znc/2/obuun-mul-daya-ancestor"
+    }
+   ]
+  },
+  {
    "entity": "odric",
    "entity_type": "Character",
    "entity_name": "Odric",
@@ -4803,6 +4860,23 @@
      "oracle_id": "6052822d-47a2-4d69-a32d-40cdd600d7a9",
      "type_line": "Legendary Creature — Faerie Wizard",
      "scryfall_uri": "https://scryfall.com/card/znc/98/oona-queen-of-the-fae"
+    }
+   ]
+  },
+  {
+   "entity": "orah",
+   "entity_type": "Character",
+   "entity_name": "Orah",
+   "aliases": [
+    "Orah"
+   ],
+   "pack": "pack_p5_untagged_znr_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Orah, Skyclave Hierophant",
+     "oracle_id": "fe348f31-4530-4c59-9ee2-6839eab973da",
+     "type_line": "Legendary Creature — Kor Cleric",
+     "scryfall_uri": "https://scryfall.com/card/znr/233/orah-skyclave-hierophant"
     }
    ]
   },
@@ -7518,6 +7592,23 @@
    ]
   },
   {
+   "entity": "zareth",
+   "entity_type": "Character",
+   "entity_name": "Zareth San",
+   "aliases": [
+    "Zareth San"
+   ],
+   "pack": "pack_p5_untagged_znr_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Zareth San, the Trickster",
+     "oracle_id": "a316b0ce-1f63-4a8e-9a6e-bfbe03ca4e9e",
+     "type_line": "Legendary Creature — Merfolk Rogue",
+     "scryfall_uri": "https://scryfall.com/card/znr/242/zareth-san-the-trickster"
+    }
+   ]
+  },
+  {
    "entity": "zegana",
    "entity_type": "Character",
    "entity_name": "Zegana",
@@ -7613,6 +7704,7 @@
  "unanchored_entities": [
   "adrix",
   "aesrias",
+  "akoum_skyclave",
   "akros",
   "alajn",
   "amaka",
@@ -7625,6 +7717,7 @@
   "artificial_omenpath",
   "ashaya",
   "auntie_grub",
+  "ayya",
   "baishya",
   "bartolome",
   "beckett_brass",
@@ -7653,6 +7746,7 @@
   "dragonstorm_escape",
   "drana",
   "drannith",
+  "dykaar",
   "eclipsed_realms",
   "eiganjo",
   "eiko",
@@ -7698,6 +7792,7 @@
   "kayla_bin_kroog",
   "kela",
   "kellan_boldt",
+  "kesenya",
   "khal",
   "khalni_heart",
   "khrad",
@@ -7716,12 +7811,14 @@
   "lily_of_the_valley",
   "linden",
   "lisette",
+  "lithoform_core",
   "locthwain",
   "lorwyn_aspect",
   "maag_taranau",
   "magic_mirror",
   "maha",
   "mahitab",
+  "makindi",
   "maree",
   "markov_manor",
   "mehtma",
@@ -7731,6 +7828,7 @@
   "mitul",
   "mohar_varma",
   "mom_invasion",
+  "murasa_skyclave",
   "naiva",
   "nakht",
   "niharet",
@@ -7739,6 +7837,8 @@
   "norika",
   "oba",
   "omenpaths",
+  "ondu",
+  "ondu_skyclave",
   "one_sylex",
   "orazca",
   "original_tarkir_clash",
@@ -7820,9 +7920,9 @@
   "Urza, Academy Headmaster"
  ],
  "counts": {
-  "entities_anchored": 338,
-  "anchor_edges": 646,
-  "unanchored_entities": 199
+  "entities_anchored": 343,
+  "anchor_edges": 652,
+  "unanchored_entities": 208
  },
- "content_sha256": "adbf4df9b4e880080c97f5e79a4587d5ee52e0f559ea949b3304f717274b33d8"
+ "content_sha256": "c28a96f682ab78575cd890712b8dbf65771ed87681a01be390f251aa52c0d0a2"
 }

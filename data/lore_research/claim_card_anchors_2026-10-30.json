@@ -31294,6 +31294,158 @@
    "card": "Yasova Dragonclaw",
    "oracle_id": "75dc0995-f89e-4a2c-b30b-9b5a07c21183",
    "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "ZN001",
+   "pack": "pack_p5_untagged_znr_2026-10-30.json",
+   "participant": "sorin_markov",
+   "card": "Sorin Markov",
+   "oracle_id": "c151e8b7-4b28-4f03-8a81-9bf623f893d7",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "ZN001",
+   "pack": "pack_p5_untagged_znr_2026-10-30.json",
+   "participant": "nahiri",
+   "card": "Nahiri, the Lithomancer",
+   "oracle_id": "a554aa2c-d947-4fc6-929d-d5891f467615",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "ZN002",
+   "pack": "pack_p5_untagged_znr_2026-10-30.json",
+   "participant": "nissa_revane",
+   "card": "Nissa Revane",
+   "oracle_id": "113fc13a-6df9-4eed-b9d4-002a85a036a1",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "ZN003",
+   "pack": "pack_p5_untagged_znr_2026-10-30.json",
+   "participant": "nahiri",
+   "card": "Nahiri, the Lithomancer",
+   "oracle_id": "a554aa2c-d947-4fc6-929d-d5891f467615",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "ZN004",
+   "pack": "pack_p5_untagged_znr_2026-10-30.json",
+   "participant": "ulamog",
+   "card": "Ulamog, the Ceaseless Hunger",
+   "oracle_id": "0bfa4512-e35a-4c93-b324-80ec659f5a97",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "ZN004",
+   "pack": "pack_p5_untagged_znr_2026-10-30.json",
+   "participant": "ulamog",
+   "card": "Ulamog, the Defiler",
+   "oracle_id": "97836c48-8777-4b4e-98fb-e99204f38bdd",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "ZN004",
+   "pack": "pack_p5_untagged_znr_2026-10-30.json",
+   "participant": "ulamog",
+   "card": "Ulamog, the Infinite Gyre",
+   "oracle_id": "b817bc56-9b4d-4c50-bafa-3c652b99578f",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "ZN010",
+   "pack": "pack_p5_untagged_znr_2026-10-30.json",
+   "participant": "lorthos",
+   "card": "Lorthos, the Tidemaker",
+   "oracle_id": "d9fd4ff3-5ada-40f4-b949-6fe65624a0c4",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "ZN011",
+   "pack": "pack_p5_untagged_znr_2026-10-30.json",
+   "participant": "obuun",
+   "card": "Obuun, Mul Daya Ancestor",
+   "oracle_id": "28fcf855-6372-4d6b-b3fd-76f85247f309",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "ZN012",
+   "pack": "pack_p5_untagged_znr_2026-10-30.json",
+   "participant": "obuun",
+   "card": "Obuun, Mul Daya Ancestor",
+   "oracle_id": "28fcf855-6372-4d6b-b3fd-76f85247f309",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "ZN013",
+   "pack": "pack_p5_untagged_znr_2026-10-30.json",
+   "participant": "obuun",
+   "card": "Obuun, Mul Daya Ancestor",
+   "oracle_id": "28fcf855-6372-4d6b-b3fd-76f85247f309",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "ZN014",
+   "pack": "pack_p5_untagged_znr_2026-10-30.json",
+   "participant": "orah",
+   "card": "Orah, Skyclave Hierophant",
+   "oracle_id": "fe348f31-4530-4c59-9ee2-6839eab973da",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "ZN014",
+   "pack": "pack_p5_untagged_znr_2026-10-30.json",
+   "participant": "zareth",
+   "card": "Zareth San, the Trickster",
+   "oracle_id": "a316b0ce-1f63-4a8e-9a6e-bfbe03ca4e9e",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "ZN015",
+   "pack": "pack_p5_untagged_znr_2026-10-30.json",
+   "participant": "akiri",
+   "card": "Akiri, Fearless Voyager",
+   "oracle_id": "c03ae426-2536-4c20-a73a-a24e816f76b0",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "ZN015",
+   "pack": "pack_p5_untagged_znr_2026-10-30.json",
+   "participant": "akiri",
+   "card": "Akiri, Line-Slinger",
+   "oracle_id": "3e0a0276-b640-41c7-95bd-ba3067f5c911",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "ZN015",
+   "pack": "pack_p5_untagged_znr_2026-10-30.json",
+   "participant": "nahiri",
+   "card": "Nahiri, the Lithomancer",
+   "oracle_id": "a554aa2c-d947-4fc6-929d-d5891f467615",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "ZN016",
+   "pack": "pack_p5_untagged_znr_2026-10-30.json",
+   "participant": "nahiri",
+   "card": "Nahiri, the Lithomancer",
+   "oracle_id": "a554aa2c-d947-4fc6-929d-d5891f467615",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "ZN016",
+   "pack": "pack_p5_untagged_znr_2026-10-30.json",
+   "participant": "akiri",
+   "card": "Akiri, Fearless Voyager",
+   "oracle_id": "c03ae426-2536-4c20-a73a-a24e816f76b0",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "ZN016",
+   "pack": "pack_p5_untagged_znr_2026-10-30.json",
+   "participant": "akiri",
+   "card": "Akiri, Line-Slinger",
+   "oracle_id": "3e0a0276-b640-41c7-95bd-ba3067f5c911",
+   "tier": "NAMED_PARTICIPANT"
   }
  ],
  "by_pack": {
@@ -31640,6 +31792,13 @@
    "PRINTED_IN_STORY_SET": 0,
    "NAMED_PARTICIPANT": 110
   },
+  "pack_p5_untagged_znr_2026-10-30.json": {
+   "claims": 16,
+   "claims_anchored": 11,
+   "ART_IN_CITED_SOURCE": 0,
+   "PRINTED_IN_STORY_SET": 0,
+   "NAMED_PARTICIPANT": 19
+  },
   "pack_p5_war_spark_ravnica_2026-10-30.json": {
    "claims": 18,
    "claims_anchored": 16,
@@ -31656,12 +31815,12 @@
   }
  },
  "counts": {
-  "claims": 939,
-  "claims_anchored": 808,
-  "anchors": 3657,
+  "claims": 955,
+  "claims_anchored": 819,
+  "anchors": 3676,
   "ART_IN_CITED_SOURCE": 88,
   "PRINTED_IN_STORY_SET": 546,
-  "NAMED_PARTICIPANT": 3023
+  "NAMED_PARTICIPANT": 3042
  },
- "content_sha256": "b3ad47f39b7f9482b145b386e9f95e5bd8a47edc9ebded40d2b2565e9ffe4b43"
+ "content_sha256": "8743ef350100c6ceeba354541a30101c75877adf72a7a5b2f7c9a95eee895f25"
 }

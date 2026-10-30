@@ -1,0 +1,380 @@
+{
+ "pack_id": "pack_p5_untagged_znr",
+ "arc": "",
+ "event_stage": "zendikar_rising_2020",
+ "scope": "Batch 10 extraction from the untagged 2020 Zendikar Rising Magic Story episodes and side stories, plus the 2020 'Zendikar: Things Have Changed' world feature. PRELIMINARY_RESEARCH; targeted, not exhaustive; not owner approved.",
+ "pages": {
+  "zr_world": "zendikar-things-have-changed-2020-09-01",
+  "zr_ep1": "episode-1-heart-skyclave-2020-09-02",
+  "zr_red": "red-route-2020-09-04",
+  "zr_ep3": "episode-3-dangerous-climb-long-fall-2020-09-16",
+  "zr_root": "beneath-riverroot-tree-2020-09-18",
+  "zr_ep4": "episode-4-haunting-songs-and-whispered-warnings-2020-09-23",
+  "zr_ep5": "episode-5-two-guardians-2020-09-30"
+ },
+ "entities": [
+  {
+   "id": "nahiri",
+   "type": "Character",
+   "name": "Nahiri"
+  },
+  {
+   "id": "sorin_markov",
+   "type": "Character",
+   "name": "Sorin Markov"
+  },
+  {
+   "id": "nissa_revane",
+   "type": "Character",
+   "name": "Nissa Revane"
+  },
+  {
+   "id": "lithoform_core",
+   "type": "Object",
+   "name": "Lithoform Core"
+  },
+  {
+   "id": "eldrazi",
+   "type": "Faction",
+   "name": "Eldrazi"
+  },
+  {
+   "id": "ulamog",
+   "type": "Character",
+   "name": "Ulamog"
+  },
+  {
+   "id": "zendikar_vampires",
+   "type": "Faction",
+   "name": "Zendikar's vampires"
+  },
+  {
+   "id": "kesenya",
+   "type": "Character",
+   "name": "Kesenya"
+  },
+  {
+   "id": "sea_gate_expeditionary_house",
+   "type": "Faction",
+   "name": "Sea Gate Expeditionary House"
+  },
+  {
+   "id": "emeria_skyclave",
+   "type": "Place",
+   "name": "Emeria Skyclave"
+  },
+  {
+   "id": "kargan_tribes",
+   "type": "Faction",
+   "name": "Kargan tribes"
+  },
+  {
+   "id": "akoum_skyclave",
+   "type": "Place",
+   "name": "Akoum Skyclave"
+  },
+  {
+   "id": "ondu_skyclave",
+   "type": "Place",
+   "name": "Ondu Skyclave"
+  },
+  {
+   "id": "makindi",
+   "type": "Place",
+   "name": "Makindi"
+  },
+  {
+   "id": "ondu",
+   "type": "Place",
+   "name": "Ondu"
+  },
+  {
+   "id": "lorthos",
+   "type": "Character",
+   "name": "Lorthos, the Tidemaker"
+  },
+  {
+   "id": "murasa_skyclave",
+   "type": "Place",
+   "name": "Murasa Skyclave"
+  },
+  {
+   "id": "ayya",
+   "type": "Character",
+   "name": "Ayya"
+  },
+  {
+   "id": "obuun",
+   "type": "Character",
+   "name": "Obuun"
+  },
+  {
+   "id": "dykaar",
+   "type": "Character",
+   "name": "Dykaar"
+  },
+  {
+   "id": "riverroot_clan",
+   "type": "Faction",
+   "name": "Riverroot Clan"
+  },
+  {
+   "id": "akiri",
+   "type": "Character",
+   "name": "Akiri"
+  },
+  {
+   "id": "zareth",
+   "type": "Character",
+   "name": "Zareth San"
+  },
+  {
+   "id": "orah",
+   "type": "Character",
+   "name": "Orah"
+  }
+ ],
+ "claims": [
+  {
+   "id": "ZN001",
+   "subject": "sorin_markov",
+   "predicate": "mentored",
+   "object": "nahiri",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "zr_ep5",
+     "quote": "Nahiri turned and was faced with her old mentor. Her sworn enemy."
+    }
+   ],
+   "summary": "Sorin is Nahiri's old mentor and sworn enemy; he confronts her on Zendikar.",
+   "limitation": "The quoted sentences precede the line naming him (\"Sorin.\"), which is shorter than the quote minimum."
+  },
+  {
+   "id": "ZN002",
+   "subject": "nissa_revane",
+   "predicate": "wielded",
+   "object": "lithoform_core",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "zr_ep5",
+     "quote": "And easily, so easily, Nissa's magic merged with the Core's power."
+    }
+   ],
+   "summary": "Nissa channels the Lithoform Core's power with her own magic."
+  },
+  {
+   "id": "ZN003",
+   "subject": "nahiri",
+   "predicate": "imprisoned",
+   "object": "eldrazi",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "zr_ep1",
+     "quote": "She should have found a different plane to trap the Eldrazi in millennia ago."
+    }
+   ],
+   "summary": "Nahiri helped trap the Eldrazi on Zendikar millennia ago.",
+   "limitation": "Point-of-view narration; the pronoun's referent is the viewpoint character named in the summary, not named in the quoted sentence."
+  },
+  {
+   "id": "ZN004",
+   "subject": "ulamog",
+   "predicate": "enslaved",
+   "object": "zendikar_vampires",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "zr_world",
+     "quote": "Zendikar's Vampires were created many centuries ago by a magical infection that originated from the Eldrazi and enslaved them to Ulamog's will."
+    }
+   ],
+   "summary": "Zendikar's vampires were created by an Eldrazi-born infection that enslaved them to Ulamog's will."
+  },
+  {
+   "id": "ZN005",
+   "subject": "kesenya",
+   "predicate": "explored",
+   "object": "emeria_skyclave",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "zr_world",
+     "quote": "a veteran explorer who led the ﬁrst expedition into the Tazeem Skyclave—known as the Sky Ruin of Emeria"
+    }
+   ],
+   "summary": "Kesenya led the first expedition into the Tazeem Skyclave (the Sky Ruin of Emeria)."
+  },
+  {
+   "id": "ZN006",
+   "subject": "kesenya",
+   "predicate": "founded",
+   "object": "sea_gate_expeditionary_house",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "zr_world",
+     "quote": "they formed the nucleus of the new Sea Gate Expeditionary House"
+    },
+    {
+     "page": "zr_world",
+     "quote": "It was founded by a kor woman named Kesenya"
+    }
+   ],
+   "summary": "Kesenya, a kor explorer, founded the new Sea Gate Expeditionary House.",
+   "limitation": "The quoted 'It' refers back to the new Sea Gate Expeditionary House in the surrounding paragraph."
+  },
+  {
+   "id": "ZN007",
+   "subject": "kargan_tribes",
+   "predicate": "destroyed",
+   "object": "akoum_skyclave",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "zr_world",
+     "quote": "the Kargan tribes mastered the dragons of Akoum and rode them to victory against the kor, shattering the Akoum Skyclave"
+    }
+   ],
+   "summary": "The Kargan tribes rode Akoum's dragons against the kor empire and shattered the Akoum Skyclave."
+  },
+  {
+   "id": "ZN008",
+   "subject": "ondu_skyclave",
+   "predicate": "rebelled_against",
+   "object": "makindi",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "zr_world",
+     "quote": "Then civil war tore the empire in half; the Ondu Skyclave turned against the capital at Makindi."
+    }
+   ],
+   "summary": "In the kor empire's civil war, the Ondu Skyclave turned against the capital at Makindi."
+  },
+  {
+   "id": "ZN009",
+   "subject": "makindi",
+   "predicate": "located_in",
+   "object": "ondu",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "zr_world",
+     "quote": "The great capital city of Makindi, which gave its name to this kor empire, was in Ondu"
+    }
+   ],
+   "summary": "Makindi, capital of the ancient kor empire named after it, was in Ondu (now the Makindi Trenches)."
+  },
+  {
+   "id": "ZN010",
+   "subject": "lorthos",
+   "predicate": "dragged_into_sea",
+   "object": "murasa_skyclave",
+   "grade": "OPEN_QUESTION",
+   "quotes": [
+    {
+     "page": "zr_world",
+     "quote": "An enormous sea monster—perhaps an ancestor of Lorthos, the Tidemaker, or maybe Lorthos itself—dragged the Murasa Skyclave into the sea."
+    }
+   ],
+   "summary": "A sea monster, possibly Lorthos or an ancestor of it, dragged the Murasa Skyclave into the sea.",
+   "limitation": "The page itself leaves open whether it was Lorthos or an ancestor."
+  },
+  {
+   "id": "ZN011",
+   "subject": "ayya",
+   "predicate": "mother_of",
+   "object": "obuun",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "zr_root",
+     "quote": "open only to trained brakeguards like Ayya, Obuun's mother"
+    }
+   ],
+   "summary": "Ayya, a trained brakeguard, is Obuun's mother."
+  },
+  {
+   "id": "ZN012",
+   "subject": "dykaar",
+   "predicate": "uncle_of",
+   "object": "obuun",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "zr_root",
+     "quote": "The armor that Uncle Dykaar had bought for Obuun hung from a vine"
+    }
+   ],
+   "summary": "Dykaar is Obuun's uncle."
+  },
+  {
+   "id": "ZN013",
+   "subject": "obuun",
+   "predicate": "member_of",
+   "object": "riverroot_clan",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "zr_root",
+     "quote": "Uncle Dykaar's lessons may not have helped Obuun fit into Riverroot Village"
+    },
+    {
+     "page": "zr_root",
+     "quote": "he could at last sense the spirits of Riverroot Clan"
+    }
+   ],
+   "summary": "Obuun is an elf of Riverroot Village and the Riverroot Clan.",
+   "limitation": "Membership is implied by his home village and ancestral spirits, not stated as a title."
+  },
+  {
+   "id": "ZN014",
+   "subject": "orah",
+   "predicate": "threatened",
+   "object": "zareth",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "zr_red",
+     "quote": "Orah certainly cursed Zareth for his flight and threatened to kill the boy if he returned"
+    }
+   ],
+   "summary": "Orah threatened to kill Zareth if he returned, which Akiri reads as hidden love and fear."
+  },
+  {
+   "id": "ZN015",
+   "subject": "akiri",
+   "predicate": "traveled_with",
+   "object": "nahiri",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "zr_ep3",
+     "quote": "She noticed the labored breathing of Akiri, Zareth, Orah, and Kaza behind her"
+    }
+   ],
+   "summary": "Akiri, Zareth, Orah and Kaza climb with Nahiri's party.",
+   "limitation": "Point-of-view narration; the pronoun's referent is the viewpoint character named in the summary, not named in the quoted sentence."
+  },
+  {
+   "id": "ZN016",
+   "subject": "nahiri",
+   "predicate": "attacked",
+   "object": "akiri",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "zr_ep4",
+     "quote": "Akiri hadn't managed to save or protect anything she loved in those desperate minutes before Nahiri pushed her."
+    }
+   ],
+   "summary": "Nahiri pushed Akiri off the floating ruin."
+  }
+ ],
+ "remaining": [
+  "Targeted, not exhaustive. Not yet graded: episode-2-race-murasa-skyclave, magosi-steps, hunger (Anowon)."
+ ]
+}
