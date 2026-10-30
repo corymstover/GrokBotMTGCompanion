@@ -58,6 +58,9 @@ class EveryClaimEdgeIsAnswerable(unittest.TestCase):
                     self.assertEqual(env["confidence"], "QUALIFIED")
                     for s in statuses & A.QUALIFYING:
                         self.assertIn(s + "_PRESENT", env["flags"])
+                elif "TIMELINE_CONTEXT_REQUIRED" in env["flags"]:
+                    # A confirmed claim may still be confined to an erased/revised timeline.
+                    self.assertEqual(env["confidence"], "QUALIFIED")
                 else:
                     self.assertEqual(env["confidence"], "VERIFIED")
 

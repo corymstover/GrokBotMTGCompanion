@@ -7,7 +7,7 @@
   "HYPOTHETICAL": "Creative or deckbuilding connection; never canon.",
   "OPEN_QUESTION": "Primary sources leave the matter unresolved; do not assert either way."
  },
- "content_sha256": "85c87860f49d0362c5f72511ce4f544af946cdc54c33e72f432b916b761788af",
+ "content_sha256": "48bc3044fa3cddc6a077060457b8042dcc7dfdde8d9a140de1643c17907b24ba",
  "edges": [
   {
    "artists": [
@@ -18919,7 +18919,19 @@
    "claim": "C023",
    "era": "pre_brothers_war",
    "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
-   "from": "literal:urza_mishra",
+   "from": "character:mishra",
+   "grade": "CANON_CONFIRMED",
+   "relation": "discovered",
+   "sources": [
+    "c_dominaria_plane"
+   ],
+   "to": "concept:powerstones"
+  },
+  {
+   "claim": "C023",
+   "era": "pre_brothers_war",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:urza",
    "grade": "CANON_CONFIRMED",
    "relation": "discovered",
    "sources": [
@@ -30770,6 +30782,27 @@
    "to": "character:akiri"
   },
   {
+   "from": "artifact:blackblade",
+   "name_match_basis": "unique_normalized_item_name",
+   "relation": "see_also_curated_entry",
+   "tier": "contextual_pointer",
+   "to": "curated:Items & Artifacts Index.md#blackblade"
+  },
+  {
+   "from": "artifact:chain_veil",
+   "name_match_basis": "unique_normalized_item_name",
+   "relation": "see_also_curated_entry",
+   "tier": "contextual_pointer",
+   "to": "curated:Items & Artifacts Index.md#chain-veil"
+  },
+  {
+   "from": "artifact:endstone",
+   "name_match_basis": "unique_normalized_item_name",
+   "relation": "see_also_curated_entry",
+   "tier": "contextual_pointer",
+   "to": "curated:Items & Artifacts Index.md#endstone"
+  },
+  {
    "from": "artifact:golgothian_sylex",
    "relation": "see_also_curated_entry",
    "tier": "contextual_pointer",
@@ -30780,6 +30813,13 @@
    "relation": "see_also_curated_entry",
    "tier": "contextual_pointer",
    "to": "curated:Items & Artifacts Index.md#halo"
+  },
+  {
+   "from": "artifact:helvault",
+   "name_match_basis": "unique_normalized_item_name",
+   "relation": "see_also_curated_entry",
+   "tier": "contextual_pointer",
+   "to": "curated:Items & Artifacts Index.md#helvault"
   },
   {
    "from": "artifact:immortal_sun",
@@ -30804,6 +30844,13 @@
    "relation": "see_also_curated_entry",
    "tier": "contextual_pointer",
    "to": "curated:Items & Artifacts Index.md#reality-chip"
+  },
+  {
+   "from": "artifact:temporal_anchor",
+   "name_match_basis": "unique_normalized_item_name",
+   "relation": "see_also_curated_entry",
+   "tier": "contextual_pointer",
+   "to": "curated:Items & Artifacts Index.md#temporal-anchor"
   },
   {
    "from": "character:angrath",
@@ -33733,7 +33780,13 @@
    "from": "claim:C023",
    "relation": "asserts",
    "role": "subject",
-   "to": "literal:urza_mishra"
+   "to": "character:mishra"
+  },
+  {
+   "from": "claim:C023",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:urza"
   },
   {
    "from": "claim:C024",
@@ -84599,6 +84652,30 @@
    "type": "Concept"
   },
   {
+   "id": "curated:Items & Artifacts Index.md#blackblade",
+   "name": "Items & Artifacts Index.md#blackblade",
+   "origins": [
+    "lore_graph.json"
+   ],
+   "type": "Concept"
+  },
+  {
+   "id": "curated:Items & Artifacts Index.md#chain-veil",
+   "name": "Items & Artifacts Index.md#chain-veil",
+   "origins": [
+    "lore_graph.json"
+   ],
+   "type": "Concept"
+  },
+  {
+   "id": "curated:Items & Artifacts Index.md#endstone",
+   "name": "Items & Artifacts Index.md#endstone",
+   "origins": [
+    "lore_graph.json"
+   ],
+   "type": "Concept"
+  },
+  {
    "id": "curated:Items & Artifacts Index.md#golgothian-sylex",
    "name": "Items & Artifacts Index.md#golgothian-sylex",
    "origins": [
@@ -84609,6 +84686,14 @@
   {
    "id": "curated:Items & Artifacts Index.md#halo",
    "name": "Items & Artifacts Index.md#halo",
+   "origins": [
+    "lore_graph.json"
+   ],
+   "type": "Concept"
+  },
+  {
+   "id": "curated:Items & Artifacts Index.md#helvault",
+   "name": "Items & Artifacts Index.md#helvault",
    "origins": [
     "lore_graph.json"
    ],
@@ -84641,6 +84726,14 @@
   {
    "id": "curated:Items & Artifacts Index.md#reality-chip",
    "name": "Items & Artifacts Index.md#reality-chip",
+   "origins": [
+    "lore_graph.json"
+   ],
+   "type": "Concept"
+  },
+  {
+   "id": "curated:Items & Artifacts Index.md#temporal-anchor",
+   "name": "Items & Artifacts Index.md#temporal-anchor",
    "origins": [
     "lore_graph.json"
    ],
@@ -86458,14 +86551,6 @@
   {
    "id": "literal:unknown_planeswalker",
    "name": "unknown_planeswalker",
-   "origins": [
-    "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json"
-   ],
-   "type": "Literal"
-  },
-  {
-   "id": "literal:urza_mishra",
-   "name": "urza;mishra",
    "origins": [
     "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json"
    ],
@@ -94203,7 +94288,7 @@
  "problems": [],
  "schema": "multiverse-claim-graph/v1",
  "stats": {
-  "claim_edges_with_era": 1167,
+  "claim_edges_with_era": 1168,
   "claim_edges_with_in_universe_date": 33,
   "claims_by_status": {
    "ALTERNATE_CONTINUITY": 2,
@@ -94212,26 +94297,26 @@
    "CANON_IMPLIED": 241,
    "OPEN_QUESTION": 3
   },
-  "curated_bridges": 121,
-  "edges": 6826,
-  "literal_objects": 15,
+  "curated_bridges": 126,
+  "edges": 6833,
+  "literal_objects": 14,
   "node_types": {
    "AlternateContinuity": 1,
    "Card": 1516,
    "CardTheme": 1,
    "Character": 482,
    "Claim": 1139,
-   "Concept": 145,
+   "Concept": 150,
    "DeckProposal": 3,
    "Event": 22,
    "Faction": 125,
-   "Literal": 15,
+   "Literal": 14,
    "Object": 50,
    "Place": 95,
    "Plane": 33,
    "Source": 600
   },
-  "nodes": 4227,
+  "nodes": 4231,
   "non_wizards_sources": 0,
   "relations": 360,
   "wizards_official_sources": 600

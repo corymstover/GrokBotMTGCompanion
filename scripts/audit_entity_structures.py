@@ -179,11 +179,12 @@ def pack_consistency(packs: list[str]) -> dict:
             decl[e["id"]].add((e.get("type"), e.get("name"), Path(rel).name))
             local[e["id"]] = e
         for c in p.get("claims", []):
-            s = c.get("subject")
-            if s and s not in local:
-                kind = ("COMPOUND_SUBJECT_BECAME_LITERAL" if ";" in s else
-                        "DECLARED_IN_ANOTHER_PACK" if s in all_ids else "UNDECLARED")
-                undeclared.append({"pack": Path(rel).name, "claim": c["id"], "role": "subject", "token": s, "kind": kind})
+            # A semicolon-separated subject is a deliberate group of actors (as in C023),
+            # not a new entity or a free-text literal. Check each member separately.
+            for s in (t.strip() for t in str(c.get("subject") or "").split(";")):
+                if s and s not in local:
+                    kind = "DECLARED_IN_ANOTHER_PACK" if s in all_ids else "UNDECLARED"
+                    undeclared.append({"pack": Path(rel).name, "claim": c["id"], "role": "subject", "token": s, "kind": kind})
     type_conflicts, name_variants = [], []
     for lid, rows in sorted(decl.items()):
         types = {t for t, _, _ in rows}
