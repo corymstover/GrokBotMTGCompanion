@@ -253,7 +253,7 @@
   ],
   "dangling_edges": 0,
   "duplicate_ids": [],
-  "edges": 6833,
+  "edges": 7963,
   "literal_objects": [
    "Karn's planeswalker spark",
    "Knight of Benalia turned vampire",
@@ -270,7 +270,7 @@
    "unknown",
    "unknown_planeswalker"
   ],
-  "nodes": 4231,
+  "nodes": 5040,
   "orphan_nodes": [
    "artifact:great_henge",
    "character:eric_kenrith",
@@ -295,7 +295,8 @@
   {
    "by_type": {
     "AlternateContinuity": 1,
-    "Card": 1516,
+    "Card": 1760,
+    "CardRepresentation": 560,
     "CardTheme": 1,
     "Character": 482,
     "Claim": 1139,
@@ -307,9 +308,9 @@
     "Object": 50,
     "Place": 95,
     "Plane": 33,
-    "Source": 600
+    "Source": 605
    },
-   "count": 4231,
+   "count": 5040,
    "exists": true,
    "generator": "scripts/build_multiverse_graph.py",
    "id_scheme": "<type-prefix>:<pack-local-id or slug>",

@@ -1,0 +1,33 @@
+name: Weekly official MTG source-change signals (read-only)
+
+on:
+  schedule:
+    - cron: '23 15 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  official-update-watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Validate source whitelist, baseline and deterministic parser tests
+        run: |
+          python3 scripts/monitor_multiverse_updates.py --validate
+          python3 -m unittest discover -s tests -p 'test_multiverse_update_monitor.py' -q
+      - name: Read official Wizards story/rules pages and Scryfall metadata
+        run: python3 scripts/monitor_multiverse_updates.py --live --output "$RUNNER_TEMP/mtg-update-signals.json"
+      - name: Publish review-only signal report (no repository mutations)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: mtg-source-change-review-signals
+          path: ${{ runner.temp }}/mtg-update-signals.json
+          if-no-files-found: warn
+          retention-days: 30
