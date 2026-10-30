@@ -45,6 +45,7 @@ jobs:
         run: |
           python3 scripts/mv_ask.py ask "Who is Urza's brother?"
           python3 scripts/mv_ask.py ask "Where did the Golgothian Sylex come from?"
+          python3 scripts/mv_ask.py ask "Who killed Elesh Norn?"
           python3 scripts/mv_ask.py card "Sol Ring"
           set +e; python3 scripts/mv_ask.py ask "Who is Zorblax the Unreal?"; test $? -eq 3
       - name: Companion tests
