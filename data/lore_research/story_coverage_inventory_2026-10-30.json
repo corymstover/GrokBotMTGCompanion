@@ -46,18 +46,21 @@
    "data/lore_research/pack_p5_dsk_side_stories_2026-10-30.json",
    "data/lore_research/pack_p5_mkm_epilogue_2026-10-30.json",
    "data/lore_research/pack_p5_snc_side_stories_2026-10-30.json",
-   "data/lore_research/pack_p5_dmu_side_stories_2026-10-30.json"
+   "data/lore_research/pack_p5_dmu_side_stories_2026-10-30.json",
+   "data/lore_research/pack_p5_dominaria_united_2026-10-30.json",
+   "data/lore_research/pack_p5_neo_side_stories_2026-10-30.json",
+   "data/lore_research/pack_p5_bfz_2015_stories_2026-10-30.json"
   ]
  },
  "meaning": "cited = a claim pack quotes or cites the page at least once; it does not mean the page was read exhaustively",
  "totals": {
   "arcs": 33,
   "pages": 626,
-  "cited_pages": 330,
+  "cited_pages": 350,
   "arcs_not_started": 0,
-  "arcs_partial": 19,
-  "arcs_all_cited": 14,
-  "claims": 689,
+  "arcs_partial": 13,
+  "arcs_all_cited": 20,
+  "claims": 711,
   "pack_urls_outside_inventory": 12
  },
  "claims_per_pack": {
@@ -79,9 +82,9 @@
   "pack_p5_edge_of_eternities_2026-10-30.json": 30,
   "pack_p5_reality_fracture_2026-10-30.json": 21,
   "pack_p5_wilds_of_eldraine_2026-10-30.json": 14,
-  "pack_p5_murders_at_karlov_manor_2026-10-30.json": 14,
+  "pack_p5_murders_at_karlov_manor_2026-10-30.json": 15,
   "pack_p5_bloomburrow_2026-10-30.json": 12,
-  "pack_p5_duskmourn_2026-10-30.json": 11,
+  "pack_p5_duskmourn_2026-10-30.json": 12,
   "pack_p5_outlaws_of_thunder_junction_2026-10-30.json": 12,
   "pack_p5_lost_caverns_of_ixalan_2026-10-30.json": 12,
   "pack_p5_aetherdrift_2026-10-30.json": 12,
@@ -99,12 +102,15 @@
   "pack_p5_lorwyn_eclipsed_2026-10-30.json": 18,
   "pack_p5_brothers_war_2026-10-30.json": 9,
   "pack_p5_one_side_stories_2026-10-30.json": 6,
-  "pack_p5_mom_side_stories_2026-10-30.json": 8,
+  "pack_p5_mom_side_stories_2026-10-30.json": 9,
   "pack_p5_otj_side_stories_2026-10-30.json": 8,
   "pack_p5_dsk_side_stories_2026-10-30.json": 6,
   "pack_p5_mkm_epilogue_2026-10-30.json": 1,
   "pack_p5_snc_side_stories_2026-10-30.json": 5,
-  "pack_p5_dmu_side_stories_2026-10-30.json": 5
+  "pack_p5_dmu_side_stories_2026-10-30.json": 5,
+  "pack_p5_dominaria_united_2026-10-30.json": 7,
+  "pack_p5_neo_side_stories_2026-10-30.json": 4,
+  "pack_p5_bfz_2015_stories_2026-10-30.json": 8
  },
  "arcs": [
   {
@@ -123,25 +129,17 @@
   {
    "arc": "BFZ/OGW",
    "pages": 27,
-   "cited_pages": 19,
+   "cited_pages": 27,
    "kinds": {
     "story": 27
    },
    "citing_packs": [
     "pack_a5_ugin_allies_2026-10-30.json",
-    "pack_p5_battle_for_zendikar_oath_2026-10-30.json"
+    "pack_p5_battle_for_zendikar_oath_2026-10-30.json",
+    "pack_p5_bfz_2015_stories_2026-10-30.json"
    ],
-   "status": "PARTIAL",
-   "uncited_urls": [
-    "https://magic.wizards.com/en/news/magic-story/home-waters-2015-09-30",
-    "https://magic.wizards.com/en/news/magic-story/memories-blood-2015-09-16",
-    "https://magic.wizards.com/en/news/magic-story/nissas-quest-2015-09-23",
-    "https://magic.wizards.com/en/news/magic-story/nissas-resolve-2015-10-07",
-    "https://magic.wizards.com/en/news/magic-story/silent-cry-2015-08-26",
-    "https://magic.wizards.com/en/news/magic-story/slaughter-refuge-2015-08-19",
-    "https://magic.wizards.com/en/news/magic-story/survivors-sky-rock-2015-09-09",
-    "https://magic.wizards.com/en/news/magic-story/zendikar-2015-08-12"
-   ]
+   "status": "ALL_PAGES_CITED",
+   "uncited_urls": []
   },
   {
    "arc": "BLB",
@@ -196,23 +194,18 @@
   {
    "arc": "DMU",
    "pages": 10,
-   "cited_pages": 5,
+   "cited_pages": 10,
    "kinds": {
     "planeswalkers-guide": 1,
     "story": 9
    },
    "citing_packs": [
     "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json",
-    "pack_p5_dmu_side_stories_2026-10-30.json"
+    "pack_p5_dmu_side_stories_2026-10-30.json",
+    "pack_p5_dominaria_united_2026-10-30.json"
    ],
-   "status": "PARTIAL",
-   "uncited_urls": [
-    "https://magic.wizards.com/en/news/magic-story/episode-1-echoes-dark-2022-08-10",
-    "https://magic.wizards.com/en/news/magic-story/episode-2-sand-hourglass-2022-08-11",
-    "https://magic.wizards.com/en/news/magic-story/episode-3-locked-tower-2022-08-12",
-    "https://magic.wizards.com/en/news/magic-story/episode-4-brutal-blow-2022-08-15",
-    "https://magic.wizards.com/en/news/magic-story/episode-5-whisper-wind-2022-08-18"
-   ]
+   "status": "ALL_PAGES_CITED",
+   "uncited_urls": []
   },
   {
    "arc": "DOM/WAR",
@@ -237,7 +230,7 @@
   {
    "arc": "DSK",
    "pages": 13,
-   "cited_pages": 12,
+   "cited_pages": 13,
    "kinds": {
     "planeswalkers-guide": 1,
     "story": 12
@@ -246,10 +239,8 @@
     "pack_p5_dsk_side_stories_2026-10-30.json",
     "pack_p5_duskmourn_2026-10-30.json"
    ],
-   "status": "PARTIAL",
-   "uncited_urls": [
-    "https://magic.wizards.com/en/news/magic-story/episode-two-dont-split-the-party"
-   ]
+   "status": "ALL_PAGES_CITED",
+   "uncited_urls": []
   },
   {
    "arc": "ECL",
@@ -409,7 +400,7 @@
   {
    "arc": "MKM",
    "pages": 12,
-   "cited_pages": 11,
+   "cited_pages": 12,
    "kinds": {
     "planeswalkers-guide": 1,
     "story": 11
@@ -418,15 +409,13 @@
     "pack_p5_mkm_epilogue_2026-10-30.json",
     "pack_p5_murders_at_karlov_manor_2026-10-30.json"
    ],
-   "status": "PARTIAL",
-   "uncited_urls": [
-    "https://magic.wizards.com/en/news/magic-story/episode-2-monsters-we-became"
-   ]
+   "status": "ALL_PAGES_CITED",
+   "uncited_urls": []
   },
   {
    "arc": "MOM",
    "pages": 19,
-   "cited_pages": 18,
+   "cited_pages": 19,
    "kinds": {
     "planeswalkers-guide": 1,
     "story": 18
@@ -435,29 +424,23 @@
     "pack_c4_march_of_the_machine_2026-10-30.json",
     "pack_p5_mom_side_stories_2026-10-30.json"
    ],
-   "status": "PARTIAL",
-   "uncited_urls": [
-    "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-march-of-the-machine"
-   ]
+   "status": "ALL_PAGES_CITED",
+   "uncited_urls": []
   },
   {
    "arc": "NEO",
    "pages": 10,
-   "cited_pages": 6,
+   "cited_pages": 10,
    "kinds": {
     "planeswalkers-guide": 1,
     "story": 9
    },
    "citing_packs": [
-    "pack_p5_kamigawa_neon_dynasty_2026-10-30.json"
+    "pack_p5_kamigawa_neon_dynasty_2026-10-30.json",
+    "pack_p5_neo_side_stories_2026-10-30.json"
    ],
-   "status": "PARTIAL",
-   "uncited_urls": [
-    "https://magic.wizards.com/en/news/magic-story/blade-reflected-and-reborn-2022-02-07",
-    "https://magic.wizards.com/en/news/magic-story/epoch-engine-2022-02-08",
-    "https://magic.wizards.com/en/news/magic-story/foes-who-make-us-2022-02-09",
-    "https://magic.wizards.com/en/news/magic-story/kaito-origin-stories-test-loyalty-path-forward-2021-12-16"
-   ]
+   "status": "ALL_PAGES_CITED",
+   "uncited_urls": []
   },
   {
    "arc": "ONE",
@@ -898,5 +881,5 @@
    ]
   }
  ],
- "sha256": "e308335dbe6d9c7013fb8b533b8f8318509b233aa32c32efa76fbaa0784afe81"
+ "sha256": "2340f2b48d5e4b21ff2325d18725ec02ebc072c8724aac01dcad97ace1ba5266"
 }
