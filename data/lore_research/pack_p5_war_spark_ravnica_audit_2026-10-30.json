@@ -1,0 +1,140 @@
+{
+ "schema": "story-claim-pipeline-audit/v1",
+ "pack": "data/lore_research/pack_p5_war_spark_ravnica_2026-10-30.json",
+ "pack_status": "PRELIMINARY_RESEARCH (not owner approved, not certified)",
+ "arc": "DOM/WAR",
+ "claims": 18,
+ "entities": 23,
+ "sources": 6,
+ "grades": {
+  "CANON_CONFIRMED": 17,
+  "CANON_IMPLIED": 1
+ },
+ "quotes": 20,
+ "quotes_verbatim": 20,
+ "quote_rows": [
+  {
+   "claim": "WR001",
+   "source_id": "wr_old_friends",
+   "quote_sha256": "eff3a3b258112f56e44e9f4391ad7410dd90cca0b99d3b5d8131fc0f91fa4f5d",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "WR002",
+   "source_id": "wr_old_friends",
+   "quote_sha256": "e93ce98bf747048cfc5e835c1a484288983d20af8eb48d5157f20381d3f7b769",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "WR003",
+   "source_id": "wr_rallying",
+   "quote_sha256": "b9807de3169f7f9f1b1999ab1f6e4b514f3bb68c3369f9ddf79abd33aa79b155",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "WR004",
+   "source_id": "wr_path_opulent",
+   "quote_sha256": "8048a818b780bafdd1b8ac149e1c3f98a2e7773c448b36680525b773c5094505",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "WR004",
+   "source_id": "wr_path_opulent",
+   "quote_sha256": "0f1714920f4ba3c2104583a692bce33dc87305de7bc53f5e751a7eb2ea3bd8dd",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "WR005",
+   "source_id": "wr_path_opulent",
+   "quote_sha256": "d58820671e79517e81ce90bbf3564e8b652c7aea38bfb2b611659b0e20698c1f",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "WR006",
+   "source_id": "wr_path_opulent",
+   "quote_sha256": "be63b19e915e1e90787839f6dfd13a392a1153b0bc01f8172a14e18055a37df5",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "WR007",
+   "source_id": "wr_path_opulent",
+   "quote_sha256": "df86710b0d692ce3387293fcebc2c016c9e972c0d80498f8be9b4b77808675dd",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "WR008",
+   "source_id": "wr_rallying",
+   "quote_sha256": "e3dde5625e89b4f33f336536ea1130b9b680378d3c976a63a170ce59b2ce1a6b",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "WR009",
+   "source_id": "wr_rallying",
+   "quote_sha256": "e3dde5625e89b4f33f336536ea1130b9b680378d3c976a63a170ce59b2ce1a6b",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "WR009",
+   "source_id": "wr_rallying",
+   "quote_sha256": "330f6b83649153b6ddd3ab42eb4b5b02bd1f81e1654807eab356aaf3425c51e9",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "WR010",
+   "source_id": "wr_rallying",
+   "quote_sha256": "330f6b83649153b6ddd3ab42eb4b5b02bd1f81e1654807eab356aaf3425c51e9",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "WR011",
+   "source_id": "wr_desperate",
+   "quote_sha256": "01683ec09903175a7463857f967572bd7fa9c46e843dba8b844fe377be29ef21",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "WR012",
+   "source_id": "wr_desperate",
+   "quote_sha256": "01683ec09903175a7463857f967572bd7fa9c46e843dba8b844fe377be29ef21",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "WR013",
+   "source_id": "wr_operation",
+   "quote_sha256": "0d31ae871f13f50d8fae72dac89d93c6809cdfc5d329ddb921b91f9e0399371c",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "WR014",
+   "source_id": "wr_operation",
+   "quote_sha256": "86fa46439501e094dff2156d84225ad3a743f1b1d27fe08b91031a7caab4c057",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "WR015",
+   "source_id": "wr_operation",
+   "quote_sha256": "a5da6a3db68cbcfe0bffdfa90f5790cbd3c5a1c1b1e64aa4aec7b15cbe502e54",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "WR016",
+   "source_id": "wr_operation",
+   "quote_sha256": "edc15c6ed47bd740f27c2d5bf200a42b78dad9da7aae7a3b352dcc8114a87c8c",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "WR017",
+   "source_id": "wr_operation",
+   "quote_sha256": "d96410f03339f976c3b69058c347e2c252c8b902b1ddbae4f258ffc06d5dd82e",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "WR018",
+   "source_id": "wr_ashes",
+   "quote_sha256": "09b9b8e63242ae51b92bd6f9b5e78bd0c806f37aa4c8caaee9598e734f8c766e",
+   "status": "VERBATIM"
+  }
+ ],
+ "problems": [],
+ "note": "Verbatim-quote audit against cached official Wizards story text. Research evidence only: not owner approval, not certification, not an exhaustive reading.",
+ "content_sha256": "52f31535efe048be8fc5dd984f0a60ed2f6edcc10dc77b51f3fddb0f8c8ee991"
+}

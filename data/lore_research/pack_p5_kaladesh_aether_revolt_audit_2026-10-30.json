@@ -3,15 +3,15 @@
  "pack": "data/lore_research/pack_p5_kaladesh_aether_revolt_2026-10-30.json",
  "pack_status": "PRELIMINARY_RESEARCH (not owner approved, not certified)",
  "arc": "KLD/AER",
- "claims": 25,
- "entities": 28,
- "sources": 14,
+ "claims": 32,
+ "entities": 31,
+ "sources": 17,
  "grades": {
-  "CANON_CONFIRMED": 21,
-  "CANON_IMPLIED": 4
+  "CANON_CONFIRMED": 26,
+  "CANON_IMPLIED": 6
  },
- "quotes": 29,
- "quotes_verbatim": 29,
+ "quotes": 38,
+ "quotes_verbatim": 38,
  "quote_rows": [
   {
    "claim": "KLD001",
@@ -186,9 +186,63 @@
    "source_id": "aer_renewal",
    "quote_sha256": "4c7c15d1ce0a4265553c8d2480daef1a0bb767be6394e7cd56a3d2cbc81398f8",
    "status": "VERBATIM"
+  },
+  {
+   "claim": "KLD011",
+   "source_id": "kld_born_aether",
+   "quote_sha256": "148f41c081a31e41eca7fe479bc80c19789fbb29ea6f4b70564c6d36803d8c76",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "KLD011",
+   "source_id": "kld_born_aether",
+   "quote_sha256": "cdcdf2d463c98be30a2d0838f563f5f9926f52259d25d512cf4f805fea30fcd8",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "KLD012",
+   "source_id": "kld_born_aether",
+   "quote_sha256": "8de5906bf7cd8bfa13b5372a171ce959a8a456df56b875b78f97221b220a3ac6",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "KLD013",
+   "source_id": "kld_born_aether",
+   "quote_sha256": "747e33ff50b8624e9d47be7c49178ea0b6b24861744fc131bc94ded2f10d9ace",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "KLD013",
+   "source_id": "kld_born_aether",
+   "quote_sha256": "fd58bcc5599df145a8a4f93a6b4812121f43a019244415a1766127c8efb9af3a",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "KLD014",
+   "source_id": "kld_time_innovation",
+   "quote_sha256": "76ed1b7b2ed199d73556b6e4550e79bbeb4986900b40b17416f15617185fb87b",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "KLD015",
+   "source_id": "kld_time_innovation",
+   "quote_sha256": "9416188ed003623eca4e17d1661f8b2c7eada389709993be05288382856a09fe",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "AER016",
+   "source_id": "aer_quiet_moments",
+   "quote_sha256": "82a0c446a9f20a5d333764dfcf74ef88df9586a29a8f323b052b41b6a39b5b55",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "AER017",
+   "source_id": "aer_quiet_moments",
+   "quote_sha256": "924568a06b52a092c2756ff3f318f0cc770af643634baded09d1ab51e6e191c2",
+   "status": "VERBATIM"
   }
  ],
  "problems": [],
  "note": "Verbatim-quote audit against cached official Wizards story text. Research evidence only: not owner approval, not certification, not an exhaustive reading.",
- "content_sha256": "4409c6bdfd76206381ebc4310b876bbcaa17d1b9299cfc6f3fe017810b819da7"
+ "content_sha256": "bbf51e05b28d364cb37788a738bf27dc54c86dffa9ebaf4af6fc30c60f2193a5"
 }

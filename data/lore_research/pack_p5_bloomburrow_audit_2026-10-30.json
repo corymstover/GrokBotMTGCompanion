@@ -3,15 +3,15 @@
  "pack": "data/lore_research/pack_p5_bloomburrow_2026-10-30.json",
  "pack_status": "PRELIMINARY_RESEARCH (not owner approved, not certified)",
  "arc": "BLB",
- "claims": 12,
- "entities": 16,
- "sources": 6,
+ "claims": 18,
+ "entities": 21,
+ "sources": 8,
  "grades": {
-  "CANON_CONFIRMED": 7,
-  "CANON_IMPLIED": 5
+  "CANON_CONFIRMED": 12,
+  "CANON_IMPLIED": 6
  },
- "quotes": 19,
- "quotes_verbatim": 19,
+ "quotes": 26,
+ "quotes_verbatim": 26,
  "quote_rows": [
   {
    "claim": "BL001",
@@ -126,9 +126,51 @@
    "source_id": "blb_ep5",
    "quote_sha256": "fd10fedc4dfcf133be143c23873e9c6541e35b9c9f07aad9f2b802722187656f",
    "status": "VERBATIM"
+  },
+  {
+   "claim": "BL013",
+   "source_id": "blb_ep4",
+   "quote_sha256": "e6288afc8484b19f2295205dee504d489688cf1209613b9cfbc302d8808abca3",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "BL013",
+   "source_id": "blb_ep4",
+   "quote_sha256": "3afbbb5912cd08536d7941783d50ea5d7605b3ffccc2a49826f80a886f5caaec",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "BL014",
+   "source_id": "blb_ep4",
+   "quote_sha256": "27987cb0504bf7c693572212df4820c9f06f1b197149b70f651699ae191e1af1",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "BL015",
+   "source_id": "blb_ep4",
+   "quote_sha256": "b08808e65242446cc98728f489ca7949592590db5a5a0cb3ccec903f14ec114d",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "BL016",
+   "source_id": "blb_ep4",
+   "quote_sha256": "1eb48d0c7675e248e1e19ab902322dcc63f258574f87bddcc11739b57362da14",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "BL017",
+   "source_id": "blb_guide2",
+   "quote_sha256": "a1fa82a48d18dc5ae24d684d82c075de597a847a9d9b685a73928ee5033e7d8d",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "BL018",
+   "source_id": "blb_ep4",
+   "quote_sha256": "943187c4b07ce01bf49a6d7f76eec3742d52042ceee7c9fcadbb051c6cb43c6c",
+   "status": "VERBATIM"
   }
  ],
  "problems": [],
  "note": "Verbatim-quote audit against cached official Wizards story text. Research evidence only: not owner approval, not certification, not an exhaustive reading.",
- "content_sha256": "b43c52581f01e2f66c31c4f33a36b0396703fb5e548a1145085a4b26402ed367"
+ "content_sha256": "e68800a3172a3015b7b746d19d7449dab3183beb6815b637c44e9a36bc1ad8a2"
 }

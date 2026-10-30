@@ -703,6 +703,23 @@
    ]
   },
   {
+   "entity": "basri_ket",
+   "entity_type": "Character",
+   "entity_name": "Basri Ket",
+   "aliases": [
+    "Basri Ket"
+   ],
+   "pack": "pack_p5_aetherdrift_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Basri Ket",
+     "oracle_id": "497d7ab8-07f1-4c8a-a45a-52b9a4d9400f",
+     "type_line": "Legendary Planeswalker — Basri",
+     "scryfall_uri": "https://scryfall.com/card/m21/7/basri-ket"
+    }
+   ]
+  },
+  {
    "entity": "beledros_witherbloom",
    "entity_type": "Character",
    "entity_name": "Beledros Witherbloom",
@@ -762,6 +779,35 @@
      "oracle_id": "359b8f2c-831e-47d0-9267-dae79cecb63a",
      "type_line": "Legendary Creature — Human Wizard",
      "scryfall_uri": "https://scryfall.com/card/cmm/76/braids-conjurer-adept"
+    }
+   ]
+  },
+  {
+   "entity": "breeches",
+   "entity_type": "Character",
+   "entity_name": "Breeches",
+   "aliases": [
+    "Breeches"
+   ],
+   "pack": "pack_p5_ixalan_rivals_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Breeches, Brazen Plunderer",
+     "oracle_id": "eb77f7dc-e9e4-44ef-8616-9f4e737e8ca5",
+     "type_line": "Legendary Creature — Goblin Pirate",
+     "scryfall_uri": "https://scryfall.com/card/lcc/217/breeches-brazen-plunderer"
+    },
+    {
+     "name": "Breeches, Eager Pillager",
+     "oracle_id": "15361770-c6dc-4db7-b745-aa03e4b866ea",
+     "type_line": "Legendary Creature — Goblin Pirate",
+     "scryfall_uri": "https://scryfall.com/card/lci/137/breeches-eager-pillager"
+    },
+    {
+     "name": "Breeches, the Blastmaker",
+     "oracle_id": "8514f20a-50c7-4319-84cb-2bf263548234",
+     "type_line": "Legendary Creature — Goblin Pirate",
+     "scryfall_uri": "https://scryfall.com/card/otj/197/breeches-the-blastmaker"
     }
    ]
   },
@@ -911,6 +957,23 @@
      "oracle_id": "1bcc8ca6-5fd0-4fc9-8f0c-f81d8abf9249",
      "type_line": "Legendary Enchantment Creature — Human Druid",
      "scryfall_uri": "https://scryfall.com/card/mat/26/calix-guided-by-fate"
+    }
+   ]
+  },
+  {
+   "entity": "caparocti_sunborn",
+   "entity_type": "Character",
+   "entity_name": "Caparocti Sunborn",
+   "aliases": [
+    "Caparocti Sunborn"
+   ],
+   "pack": "pack_p5_ixalan_rivals_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Caparocti Sunborn",
+     "oracle_id": "7f87a770-af47-4345-8dc1-0a1e8bae75c5",
+     "type_line": "Legendary Creature — Human Soldier",
+     "scryfall_uri": "https://scryfall.com/card/lci/226/caparocti-sunborn"
     }
    ]
   },
@@ -1178,6 +1241,23 @@
    ]
   },
   {
+   "entity": "depala",
+   "entity_type": "Character",
+   "entity_name": "Depala",
+   "aliases": [
+    "Depala"
+   ],
+   "pack": "pack_p5_kaladesh_aether_revolt_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Depala, Pilot Exemplar",
+     "oracle_id": "cc913f28-18ef-485e-8d2b-ae0115523020",
+     "type_line": "Legendary Creature — Dwarf Pilot",
+     "scryfall_uri": "https://scryfall.com/card/kld/178/depala-pilot-exemplar"
+    }
+   ]
+  },
+  {
    "entity": "dina",
    "entity_type": "Character",
    "entity_name": "Dina",
@@ -1214,6 +1294,23 @@
      "oracle_id": "5d520dd4-7986-41fa-ab94-9226da751668",
      "type_line": "Legendary Creature — Human Warrior",
      "scryfall_uri": "https://scryfall.com/card/hou/10/djeru-with-eyes-open"
+    }
+   ]
+  },
+  {
+   "entity": "domri_rade",
+   "entity_type": "Character",
+   "entity_name": "Domri Rade",
+   "aliases": [
+    "Domri Rade"
+   ],
+   "pack": "pack_p5_war_spark_ravnica_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Domri Rade",
+     "oracle_id": "0c4a2c42-0874-40b4-8d12-47eeadc3e976",
+     "type_line": "Legendary Planeswalker — Domri",
+     "scryfall_uri": "https://scryfall.com/card/rvr/179/domri-rade"
     }
    ]
   },
@@ -1299,6 +1396,29 @@
      "oracle_id": "4945f03b-ff99-4923-b62d-3cdb60275ef1",
      "type_line": "Enchantment — Saga",
      "scryfall_uri": "https://scryfall.com/card/dmu/121/the-elder-dragon-war"
+    }
+   ]
+  },
+  {
+   "entity": "elenda",
+   "entity_type": "Character",
+   "entity_name": "Elenda",
+   "aliases": [
+    "Elenda"
+   ],
+   "pack": "pack_p5_ixalan_rivals_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Elenda, Saint of Dusk",
+     "oracle_id": "bfd614d5-4c7f-416b-9cb2-bb167c0893a0",
+     "type_line": "Legendary Creature — Vampire Knight",
+     "scryfall_uri": "https://scryfall.com/card/fdn/119/elenda-saint-of-dusk"
+    },
+    {
+     "name": "Elenda, the Dusk Rose",
+     "oracle_id": "ce35f262-b93f-4409-8b33-26a7ed7abac8",
+     "type_line": "Legendary Creature — Vampire Knight",
+     "scryfall_uri": "https://scryfall.com/card/lcc/268/elenda-the-dusk-rose"
     }
    ]
   },
@@ -1625,6 +1745,23 @@
    ]
   },
   {
+   "entity": "gev",
+   "entity_type": "Character",
+   "entity_name": "Gev",
+   "aliases": [
+    "Gev"
+   ],
+   "pack": "pack_p5_bloomburrow_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Gev, Scaled Scorch",
+     "oracle_id": "77b832a8-a3af-44fe-bc67-72510d292667",
+     "type_line": "Legendary Creature — Lizard Mercenary",
+     "scryfall_uri": "https://scryfall.com/card/blb/214/gev-scaled-scorch"
+    }
+   ]
+  },
+  {
    "entity": "geyadrone_dihada",
    "entity_type": "Character",
    "entity_name": "Geyadrone Dihada",
@@ -1787,7 +1924,7 @@
    "aliases": [
     "Godsend"
    ],
-   "pack": "pack_p5_theros_ths_2026-10-30.json",
+   "pack": "pack_p5_theros_beyond_death_2026-10-30.json",
    "cards": [
     {
      "name": "Godsend",
@@ -2091,6 +2228,23 @@
    ]
   },
   {
+   "entity": "hugs",
+   "entity_type": "Character",
+   "entity_name": "Hugs",
+   "aliases": [
+    "Hugs"
+   ],
+   "pack": "pack_p5_bloomburrow_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Hugs, Grisly Guardian",
+     "oracle_id": "3c5c227a-335b-4995-9821-d4269a0a233a",
+     "type_line": "Legendary Creature — Badger Warrior",
+     "scryfall_uri": "https://scryfall.com/card/blb/218/hugs-grisly-guardian"
+    }
+   ]
+  },
+  {
    "entity": "hylda",
    "entity_type": "Character",
    "entity_name": "Hylda",
@@ -2138,6 +2292,29 @@
      "oracle_id": "36041cf2-159f-4809-9377-930ac4db545f",
      "type_line": "Legendary Enchantment Creature — God",
      "scryfall_uri": "https://scryfall.com/card/c16/205/iroas-god-of-victory"
+    }
+   ]
+  },
+  {
+   "entity": "isperia",
+   "entity_type": "Character",
+   "entity_name": "Isperia",
+   "aliases": [
+    "Isperia"
+   ],
+   "pack": "pack_p5_war_spark_ravnica_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Isperia the Inscrutable",
+     "oracle_id": "7aa39b85-6646-4365-99c3-9de31ab0594f",
+     "type_line": "Legendary Creature — Sphinx",
+     "scryfall_uri": "https://scryfall.com/card/dis/114/isperia-the-inscrutable"
+    },
+    {
+     "name": "Isperia, Supreme Judge",
+     "oracle_id": "c46718dc-24dc-4b77-b455-aa4c89570b8d",
+     "type_line": "Legendary Creature — Sphinx",
+     "scryfall_uri": "https://scryfall.com/card/c20/217/isperia-supreme-judge"
     }
    ]
   },
@@ -2706,13 +2883,30 @@
    ]
   },
   {
+   "entity": "ketramose",
+   "entity_type": "Character",
+   "entity_name": "Ketramose",
+   "aliases": [
+    "Ketramose"
+   ],
+   "pack": "pack_p5_aetherdrift_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Ketramose, the New Dawn",
+     "oracle_id": "de41ad94-b9d7-4c2b-bfa6-394d18737228",
+     "type_line": "Legendary Creature — God",
+     "scryfall_uri": "https://scryfall.com/card/dft/209/ketramose-the-new-dawn"
+    }
+   ]
+  },
+  {
    "entity": "kiora",
    "entity_type": "Character",
    "entity_name": "Kiora",
    "aliases": [
     "Kiora"
    ],
-   "pack": "pack_p5_theros_ths_2026-10-30.json",
+   "pack": "pack_p5_theros_beyond_death_2026-10-30.json",
    "cards": [
     {
      "name": "Kiora of Fire and Ashes",
@@ -2839,6 +3033,23 @@
    ]
   },
   {
+   "entity": "kopala",
+   "entity_type": "Character",
+   "entity_name": "Kopala",
+   "aliases": [
+    "Kopala"
+   ],
+   "pack": "pack_p5_ixalan_rivals_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Kopala, Warden of Waves",
+     "oracle_id": "0237cccc-3161-4d91-8e69-e3d315dcb246",
+     "type_line": "Legendary Creature — Merfolk Wizard",
+     "scryfall_uri": "https://scryfall.com/card/lcc/160/kopala-warden-of-waves"
+    }
+   ]
+  },
+  {
    "entity": "koth",
    "entity_type": "Character",
    "entity_name": "Koth",
@@ -2949,7 +3160,7 @@
    "aliases": [
     "Kruphix"
    ],
-   "pack": "pack_p5_theros_ths_2026-10-30.json",
+   "pack": "pack_p5_theros_beyond_death_2026-10-30.json",
    "cards": [
     {
      "name": "Kruphix, God of Horizons",
@@ -2990,6 +3201,35 @@
      "oracle_id": "d89bd776-8489-4c34-94ea-db1b088d9379",
      "type_line": "Legendary Creature — Dragon Spirit",
      "scryfall_uri": "https://scryfall.com/card/neo/23/kyodai-soul-of-kamigawa"
+    }
+   ]
+  },
+  {
+   "entity": "lavinia",
+   "entity_type": "Character",
+   "entity_name": "Lavinia",
+   "aliases": [
+    "Lavinia"
+   ],
+   "pack": "pack_p5_war_spark_ravnica_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Lavinia of the Tenth",
+     "oracle_id": "55df6fa3-3d24-46d5-b325-099336c3f0fd",
+     "type_line": "Legendary Creature — Human Soldier",
+     "scryfall_uri": "https://scryfall.com/card/clu/199/lavinia-of-the-tenth"
+    },
+    {
+     "name": "Lavinia, Azorius Renegade",
+     "oracle_id": "81ba3a33-0e04-4f68-9a42-1dd717733b57",
+     "type_line": "Legendary Creature — Human Soldier",
+     "scryfall_uri": "https://scryfall.com/card/rvr/195/lavinia-azorius-renegade"
+    },
+    {
+     "name": "Lavinia, Foil to Conspiracy",
+     "oracle_id": "b5b26cea-9be3-46f7-9603-a6eee0dd107e",
+     "type_line": "Legendary Creature — Human Detective",
+     "scryfall_uri": "https://scryfall.com/card/clu/36/lavinia-foil-to-conspiracy"
     }
    ]
   },
@@ -3243,6 +3483,40 @@
      "oracle_id": "81f35914-73bf-429f-ba20-32e23ac30159",
      "type_line": "Legendary Creature — Human Assassin",
      "scryfall_uri": "https://scryfall.com/card/fra/234/massacre-girl-most-wanted"
+    }
+   ]
+  },
+  {
+   "entity": "mavren_fein",
+   "entity_type": "Character",
+   "entity_name": "Mavren Fein",
+   "aliases": [
+    "Mavren Fein"
+   ],
+   "pack": "pack_p5_ixalan_rivals_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Mavren Fein, Dusk Apostle",
+     "oracle_id": "1b94a11b-21b0-4465-a520-69608f022fb4",
+     "type_line": "Legendary Creature — Vampire Cleric",
+     "scryfall_uri": "https://scryfall.com/card/lcc/133/mavren-fein-dusk-apostle"
+    }
+   ]
+  },
+  {
+   "entity": "mazirek",
+   "entity_type": "Character",
+   "entity_name": "Mazirek",
+   "aliases": [
+    "Mazirek"
+   ],
+   "pack": "pack_p5_war_spark_ravnica_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Mazirek, Kraul Death Priest",
+     "oracle_id": "e0420f2c-d578-421e-ae75-e7dc5f70661a",
+     "type_line": "Legendary Creature — Insect Shaman",
+     "scryfall_uri": "https://scryfall.com/card/soc/319/mazirek-kraul-death-priest"
     }
    ]
   },
@@ -3719,7 +3993,7 @@
    "aliases": [
     "Niv-Mizzet"
    ],
-   "pack": "pack_p5_secrets_of_strixhaven_2026-10-30.json",
+   "pack": "pack_p5_aetherdrift_2026-10-30.json",
    "cards": [
     {
      "name": "Niv-Mizzet Reborn",
@@ -3795,7 +4069,7 @@
    "aliases": [
     "Nylea"
    ],
-   "pack": "pack_p5_theros_ths_2026-10-30.json",
+   "pack": "pack_p5_theros_beyond_death_2026-10-30.json",
    "cards": [
     {
      "name": "Nylea, God of the Hunt",
@@ -3818,7 +4092,7 @@
    "aliases": [
     "Nyx"
    ],
-   "pack": "pack_p5_theros_ths_2026-10-30.json",
+   "pack": "pack_p5_theros_beyond_death_2026-10-30.json",
    "cards": [
     {
      "name": "Nyx",
@@ -4191,6 +4465,23 @@
    ]
   },
   {
+   "entity": "polukranos",
+   "entity_type": "Character",
+   "entity_name": "Polukranos, World Eater",
+   "aliases": [
+    "Polukranos, World Eater"
+   ],
+   "pack": "pack_p5_theros_beyond_death_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Polukranos, World Eater",
+     "oracle_id": "ecbf5560-853a-43a9-bf70-ac8d403b0ce8",
+     "type_line": "Legendary Creature — Hydra",
+     "scryfall_uri": "https://scryfall.com/card/ths/172/polukranos-world-eater"
+    }
+   ]
+  },
+  {
    "entity": "primo",
    "entity_type": "Character",
    "entity_name": "Primo, the Unbounded",
@@ -4221,6 +4512,29 @@
      "oracle_id": "9df2e909-ed13-456a-9636-7398732009a9",
      "type_line": "Legendary Planeswalker — Liliana",
      "scryfall_uri": "https://scryfall.com/card/dsc/153/professor-onyx"
+    }
+   ]
+  },
+  {
+   "entity": "purphoros",
+   "entity_type": "Character",
+   "entity_name": "Purphoros",
+   "aliases": [
+    "Purphoros"
+   ],
+   "pack": "pack_p5_theros_beyond_death_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Purphoros, Bronze-Blooded",
+     "oracle_id": "6728b9d0-d3ab-4ba3-af13-63cb83e0ed99",
+     "type_line": "Legendary Enchantment Creature — God",
+     "scryfall_uri": "https://scryfall.com/card/thb/150/purphoros-bronze-blooded"
+    },
+    {
+     "name": "Purphoros, God of the Forge",
+     "oracle_id": "4fdbbec2-e921-4b63-958d-f9ba1e417197",
+     "type_line": "Legendary Enchantment Creature — God",
+     "scryfall_uri": "https://scryfall.com/card/cmm/246/purphoros-god-of-the-forge"
     }
    ]
   },
@@ -4582,6 +4896,23 @@
      "oracle_id": "5d1b0eee-3a7a-4f22-a40d-7658a368962a",
      "type_line": "Legendary Creature — Human Scout",
      "scryfall_uri": "https://scryfall.com/card/fdn/245/ruby-daring-tracker"
+    }
+   ]
+  },
+  {
+   "entity": "sab_sunen",
+   "entity_type": "Character",
+   "entity_name": "Sab-Sunen",
+   "aliases": [
+    "Sab-Sunen"
+   ],
+   "pack": "pack_p5_aetherdrift_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Sab-Sunen, Luxa Embodied",
+     "oracle_id": "07e15387-f346-4fa0-b556-d1c52d4acc07",
+     "type_line": "Legendary Creature — God",
+     "scryfall_uri": "https://scryfall.com/card/dft/221/sab-sunen-luxa-embodied"
     }
    ]
   },
@@ -5530,6 +5861,23 @@
    ]
   },
   {
+   "entity": "the_belligerent",
+   "entity_type": "Object",
+   "entity_name": "The Belligerent",
+   "aliases": [
+    "The Belligerent"
+   ],
+   "pack": "pack_p5_ixalan_rivals_2026-10-30.json",
+   "cards": [
+    {
+     "name": "The Belligerent",
+     "oracle_id": "9a0c9023-9431-4f98-b167-ab4c7215319c",
+     "type_line": "Legendary Artifact — Vehicle",
+     "scryfall_uri": "https://scryfall.com/card/lci/225/the-belligerent"
+    }
+   ]
+  },
+  {
    "entity": "the_theorist",
    "entity_type": "Character",
    "entity_name": "The Theorist (fractured aspect of Jace)",
@@ -5600,6 +5948,23 @@
      "oracle_id": "ee9c57c6-41ef-4328-8417-e5a433eadf17",
      "type_line": "Legendary Planeswalker — Tibalt",
      "scryfall_uri": "https://scryfall.com/card/ddk/41/tibalt-the-fiend-blooded"
+    }
+   ]
+  },
+  {
+   "entity": "tishana",
+   "entity_type": "Character",
+   "entity_name": "Tishana",
+   "aliases": [
+    "Tishana"
+   ],
+   "pack": "pack_p5_ixalan_rivals_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Tishana, Voice of Thunder",
+     "oracle_id": "479dd04b-0048-446a-9202-a4dc9472e5c3",
+     "type_line": "Legendary Creature — Merfolk Shaman",
+     "scryfall_uri": "https://scryfall.com/card/lcc/291/tishana-voice-of-thunder"
     }
    ]
   },
@@ -6325,6 +6690,23 @@
    ]
   },
   {
+   "entity": "yahenni",
+   "entity_type": "Character",
+   "entity_name": "Yahenni",
+   "aliases": [
+    "Yahenni"
+   ],
+   "pack": "pack_p5_kaladesh_aether_revolt_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Yahenni, Undying Partisan",
+     "oracle_id": "fdba89eb-1cf5-46e6-9d09-1adb9bc40fcd",
+     "type_line": "Legendary Creature — Aetherborn Vampire",
+     "scryfall_uri": "https://scryfall.com/card/soc/232/yahenni-undying-partisan"
+    }
+   ]
+  },
+  {
    "entity": "yasova_dragonclaw",
    "entity_type": "Character",
    "entity_name": "Yasova Dragonclaw",
@@ -6490,12 +6872,16 @@
   "adrix",
   "akros",
   "amalia",
+  "amarth_tel",
+  "amelia",
+  "apatzec_intli",
   "archmage_ghavos",
   "ardenvale",
   "artificial_omenpath",
   "ashaya",
   "auntie_grub",
   "bartolome",
+  "beckett_brass",
   "belzenlok",
   "belzenlok_death",
   "bertram_graywater",
@@ -6504,7 +6890,9 @@
   "calamity_beast_egg",
   "cauldron_of_eternity",
   "cerys",
+  "chacanto_intli",
   "chopright_colony",
+  "coffey",
   "corondor_chasm",
   "cragflame",
   "cruelclaw",
@@ -6548,11 +6936,14 @@
   "imperial_palace",
   "innistrad_silver_moon",
   "isilu",
+  "jarad_vod_savo",
   "jilesa_clarus",
   "kavaron",
   "kayla_bin_kroog",
   "kellan_boldt",
+  "khal",
   "khalni_heart",
+  "khrad",
   "killian_lu",
   "king_glarb",
   "kiran_nalaar",
@@ -6571,9 +6962,12 @@
   "magic_mirror",
   "maha",
   "mahitab",
+  "maree",
   "markov_manor",
   "mehtma",
   "meletis",
+  "mitul",
+  "mohar_varma",
   "mom_invasion",
   "nakht",
   "niharet",
@@ -6585,11 +6979,13 @@
   "orazca",
   "original_tarkir_clash",
   "paala",
+  "pachatupa",
   "penregon_civils",
   "pondside",
   "professor_fel",
   "ranna_beleren",
   "raphaella",
+  "rat",
   "raugrin",
   "reality_chip",
   "realmbreaker",
@@ -6597,6 +6993,7 @@
   "riders_lock",
   "rill",
   "rtd_sylex",
+  "rudra",
   "saint_traft",
   "savai_settlements",
   "setessa",
@@ -6618,16 +7015,21 @@
   "tarkir_rewrite",
   "teferis_spark_stone",
   "temporal_rifts_mending",
+  "teyo_verada",
   "the_detective",
   "the_house",
+  "the_silence_theros",
   "theros_underworld",
   "thraben",
   "titsui",
   "tomik_vrona",
+  "torrezon",
   "ugins_gem",
   "ugins_tomb_site",
   "ulvenwald",
+  "valley",
   "vantress",
+  "vona",
   "vorik",
   "war_of_the_spark_end",
   "weatherlight_powerstone",
@@ -6644,9 +7046,9 @@
   "Urza, Academy Headmaster"
  ],
  "counts": {
-  "entities_anchored": 280,
-  "anchor_edges": 565,
-  "unanchored_entities": 147
+  "entities_anchored": 300,
+  "anchor_edges": 592,
+  "unanchored_entities": 167
  },
- "content_sha256": "c9f59344799d1dbd3132ffcd672096ca065371043a98ce0e134b25212da9b2c4"
+ "content_sha256": "3ca8c4f5ffa44fc51cad8e590e6336d9f21f5385eda74d52d0c7285040da9b35"
 }

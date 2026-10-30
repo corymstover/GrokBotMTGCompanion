@@ -1,0 +1,529 @@
+{
+ "schema": "multiverse-claim-pack/v1",
+ "pack_id": "pack_p5_war_spark_ravnica",
+ "evidence_cutoff": "2026-10-30",
+ "status": "PRELIMINARY_RESEARCH (not owner approved, not certified)",
+ "arc": "DOM/WAR",
+ "scope": "Targeted Phase 5 extraction from the six official War of the Spark: Ravnica Magic Story chapters by Greg Weisman (2019-05-08 to 2019-06-12), narrated by Rat. Guild-leadership and allegiance statements only; not an exhaustive reading. PRELIMINARY_RESEARCH; not owner approved.",
+ "built_by": "scripts/story_claim_pipeline.py from data/lore_research/claim_specs/pack_p5_war_spark_ravnica.spec.json",
+ "source_register": {
+  "wr_old_friends": {
+   "title": "War of the Spark: Ravnica—Old Friends and New",
+   "url": "https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-old-friends-and-new-2019-05-08",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2019-05-08"
+  },
+  "wr_path_opulent": {
+   "title": "War of the Spark: Ravnica – The Path to Opulent",
+   "url": "https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-path-opulent-2019-05-15",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2019-05-15"
+  },
+  "wr_rallying": {
+   "title": "War of the Spark: Ravnica – Rallying the Reluctant",
+   "url": "https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-rallying-reluctant-2019-05-22",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2019-05-22"
+  },
+  "wr_desperate": {
+   "title": "War of the Spark: Ravnica—Desperate Operatives",
+   "url": "https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-desperate-operatives-2019-05-29",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2019-05-29"
+  },
+  "wr_operation": {
+   "title": "War of the Spark: Ravnica—Operation Desperation",
+   "url": "https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-operation-desperation-2019-06-05",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2019-06-05"
+  },
+  "wr_ashes": {
+   "title": "War of the Spark: Ravnica—Ashes",
+   "url": "https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-ashes-2019-06-12",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2019-06-12"
+  }
+ },
+ "entities": [
+  {
+   "id": "vraska",
+   "type": "Character",
+   "name": "Vraska"
+  },
+  {
+   "id": "golgari",
+   "type": "Faction",
+   "name": "Golgari Swarm"
+  },
+  {
+   "id": "isperia",
+   "type": "Character",
+   "name": "Isperia"
+  },
+  {
+   "id": "azorius_senate",
+   "type": "Faction",
+   "name": "Azorius Senate"
+  },
+  {
+   "id": "domri_rade",
+   "type": "Character",
+   "name": "Domri Rade"
+  },
+  {
+   "id": "gruul_clans",
+   "type": "Faction",
+   "name": "Gruul Clans"
+  },
+  {
+   "id": "ral_zarek",
+   "type": "Character",
+   "name": "Ral Zarek"
+  },
+  {
+   "id": "izzet_league",
+   "type": "Faction",
+   "name": "Izzet League"
+  },
+  {
+   "id": "maree",
+   "type": "Character",
+   "name": "Chamberlain Maree"
+  },
+  {
+   "id": "rat",
+   "type": "Character",
+   "name": "Rat (Araithia Shokta)"
+  },
+  {
+   "id": "teyo_verada",
+   "type": "Character",
+   "name": "Teyo Verada"
+  },
+  {
+   "id": "dovin_baan",
+   "type": "Character",
+   "name": "Dovin Baan"
+  },
+  {
+   "id": "nicol_bolas",
+   "type": "Character",
+   "name": "Nicol Bolas"
+  },
+  {
+   "id": "mazirek",
+   "type": "Character",
+   "name": "Mazirek"
+  },
+  {
+   "id": "kraul",
+   "type": "Faction",
+   "name": "Kraul"
+  },
+  {
+   "id": "lavinia",
+   "type": "Character",
+   "name": "Lavinia"
+  },
+  {
+   "id": "ravnica",
+   "type": "Plane",
+   "name": "Ravnica"
+  },
+  {
+   "id": "aurelia",
+   "type": "Character",
+   "name": "Aurelia"
+  },
+  {
+   "id": "boros_legion",
+   "type": "Faction",
+   "name": "Boros Legion"
+  },
+  {
+   "id": "kaya",
+   "type": "Character",
+   "name": "Kaya"
+  },
+  {
+   "id": "orzhov_syndicate",
+   "type": "Faction",
+   "name": "Orzhov Syndicate"
+  },
+  {
+   "id": "jarad_vod_savo",
+   "type": "Character",
+   "name": "Jarad vod Savo"
+  },
+  {
+   "id": "tezzeret",
+   "type": "Character",
+   "name": "Tezzeret"
+  }
+ ],
+ "claims": [
+  {
+   "id": "WR001",
+   "subject": "vraska",
+   "predicate": "killed",
+   "object": "isperia",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "war_of_the_spark_2019",
+   "source_ids": [
+    "wr_old_friends"
+   ],
+   "evidence": [
+    {
+     "source_id": "wr_old_friends",
+     "quote": "But Mistress Vraska—she's the Golgari guildmaster—assassinated Mistress Isperia, the Azorius guildmaster."
+    }
+   ],
+   "summary": "Vraska, the Golgari guildmaster, assassinated Isperia, the Azorius guildmaster.",
+   "limitation": ""
+  },
+  {
+   "id": "WR002",
+   "subject": "vraska",
+   "predicate": "leader_of",
+   "object": "golgari",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "war_of_the_spark_2019",
+   "source_ids": [
+    "wr_old_friends"
+   ],
+   "evidence": [
+    {
+     "source_id": "wr_old_friends",
+     "quote": "But Mistress Vraska—she's the Golgari guildmaster"
+    }
+   ],
+   "summary": "Vraska is the Golgari guildmaster at the start of the war.",
+   "limitation": ""
+  },
+  {
+   "id": "WR003",
+   "subject": "isperia",
+   "predicate": "leader_of",
+   "object": "azorius_senate",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "war_of_the_spark_2019",
+   "source_ids": [
+    "wr_rallying"
+   ],
+   "evidence": [
+    {
+     "source_id": "wr_rallying",
+     "quote": "the late Mistress Isperia, former guildmaster of the Azorius Senate"
+    }
+   ],
+   "summary": "Isperia was the Azorius guildmaster before her death.",
+   "limitation": ""
+  },
+  {
+   "id": "WR004",
+   "subject": "domri_rade",
+   "predicate": "leader_of",
+   "object": "gruul_clans",
+   "grade": "CANON_IMPLIED",
+   "event_stage": "war_of_the_spark_2019",
+   "source_ids": [
+    "wr_path_opulent"
+   ],
+   "evidence": [
+    {
+     "source_id": "wr_path_opulent",
+     "quote": "I still couldn't believe he had replaced a fine warrior like Borborygmos as Gruul's new guildmaster."
+    },
+    {
+     "source_id": "wr_path_opulent",
+     "quote": "On the other hand, I was glad Domri had led everyone here when he had."
+    }
+   ],
+   "summary": "Domri replaced Borborygmos as the Gruul guildmaster.",
+   "limitation": "'He' is Domri by context of the scene; the guildmaster sentence does not name him."
+  },
+  {
+   "id": "WR005",
+   "subject": "ral_zarek",
+   "predicate": "leader_of",
+   "object": "izzet_league",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "war_of_the_spark_2019",
+   "source_ids": [
+    "wr_path_opulent"
+   ],
+   "evidence": [
+    {
+     "source_id": "wr_path_opulent",
+     "quote": "And those are Izzet League mech-mages—that's Master Zarek's guild—led by his second-in-command, Chamberlain Maree."
+    }
+   ],
+   "summary": "The Izzet League is Ral Zarek's guild.",
+   "limitation": ""
+  },
+  {
+   "id": "WR006",
+   "subject": "maree",
+   "predicate": "serves",
+   "object": "ral_zarek",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "war_of_the_spark_2019",
+   "source_ids": [
+    "wr_path_opulent"
+   ],
+   "evidence": [
+    {
+     "source_id": "wr_path_opulent",
+     "quote": "led by his second-in-command, Chamberlain Maree"
+    }
+   ],
+   "summary": "Chamberlain Maree is Ral Zarek's second-in-command.",
+   "limitation": ""
+  },
+  {
+   "id": "WR007",
+   "subject": "rat",
+   "predicate": "friend_of",
+   "object": "teyo_verada",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "war_of_the_spark_2019",
+   "source_ids": [
+    "wr_path_opulent"
+   ],
+   "evidence": [
+    {
+     "source_id": "wr_path_opulent",
+     "quote": "An Eternal was about to brain my new friend Teyo—my only friend Teyo—with a hammer."
+    }
+   ],
+   "summary": "Rat, the narrator, calls Teyo her new and only friend.",
+   "limitation": "The narrator is Rat throughout the series."
+  },
+  {
+   "id": "WR008",
+   "subject": "dovin_baan",
+   "predicate": "leader_of",
+   "object": "azorius_senate",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "war_of_the_spark_2019",
+   "source_ids": [
+    "wr_rallying"
+   ],
+   "evidence": [
+    {
+     "source_id": "wr_rallying",
+     "quote": "being guarded by the new Azorius guildmaster, Dovin Baan, who we've learned is a pawn of Nicol Bolas"
+    }
+   ],
+   "summary": "Dovin Baan became the new Azorius guildmaster.",
+   "limitation": ""
+  },
+  {
+   "id": "WR009",
+   "subject": "dovin_baan",
+   "predicate": "serves",
+   "object": "nicol_bolas",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "war_of_the_spark_2019",
+   "source_ids": [
+    "wr_rallying"
+   ],
+   "evidence": [
+    {
+     "source_id": "wr_rallying",
+     "quote": "being guarded by the new Azorius guildmaster, Dovin Baan, who we've learned is a pawn of Nicol Bolas"
+    },
+    {
+     "source_id": "wr_rallying",
+     "quote": "The Azorius Senate guildmaster, the already infamous Dovin Baan, had—like Mistress Vraska—been working with Bolas."
+    }
+   ],
+   "summary": "Dovin Baan is revealed as a pawn of Nicol Bolas.",
+   "limitation": ""
+  },
+  {
+   "id": "WR010",
+   "subject": "vraska",
+   "predicate": "allied_with",
+   "object": "nicol_bolas",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "war_of_the_spark_2019",
+   "source_ids": [
+    "wr_rallying"
+   ],
+   "evidence": [
+    {
+     "source_id": "wr_rallying",
+     "quote": "The Azorius Senate guildmaster, the already infamous Dovin Baan, had—like Mistress Vraska—been working with Bolas."
+    }
+   ],
+   "summary": "Vraska, like Dovin Baan, had been working with Bolas.",
+   "limitation": "Vraska later turns against Bolas; this records the earlier allegiance."
+  },
+  {
+   "id": "WR011",
+   "subject": "mazirek",
+   "predicate": "leader_of",
+   "object": "kraul",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "war_of_the_spark_2019",
+   "source_ids": [
+    "wr_desperate"
+   ],
+   "evidence": [
+    {
+     "source_id": "wr_desperate",
+     "quote": "Mister Mazirek, leader of the kraul, had been Mistress Vraska's right-hand bug"
+    }
+   ],
+   "summary": "Mazirek leads the kraul.",
+   "limitation": ""
+  },
+  {
+   "id": "WR012",
+   "subject": "mazirek",
+   "predicate": "serves",
+   "object": "vraska",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "war_of_the_spark_2019",
+   "source_ids": [
+    "wr_desperate"
+   ],
+   "evidence": [
+    {
+     "source_id": "wr_desperate",
+     "quote": "Mister Mazirek, leader of the kraul, had been Mistress Vraska's right-hand bug"
+    }
+   ],
+   "summary": "Mazirek was Vraska's right hand in the Golgari.",
+   "limitation": ""
+  },
+  {
+   "id": "WR013",
+   "subject": "lavinia",
+   "predicate": "leader_of",
+   "object": "azorius_senate",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "war_of_the_spark_2019",
+   "source_ids": [
+    "wr_operation"
+   ],
+   "evidence": [
+    {
+     "source_id": "wr_operation",
+     "quote": "Mistress Lavinia was now acting guildmaster of the Azorius Senate"
+    }
+   ],
+   "summary": "Lavinia becomes acting Azorius guildmaster after Dovin Baan flees.",
+   "limitation": "Acting guildmaster."
+  },
+  {
+   "id": "WR014",
+   "subject": "dovin_baan",
+   "predicate": "left",
+   "object": "ravnica",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "war_of_the_spark_2019",
+   "source_ids": [
+    "wr_operation"
+   ],
+   "evidence": [
+    {
+     "source_id": "wr_operation",
+     "quote": "It seems Master Dovin Baan had fled Ravnica"
+    }
+   ],
+   "summary": "Dovin Baan fled Ravnica.",
+   "limitation": ""
+  },
+  {
+   "id": "WR015",
+   "subject": "aurelia",
+   "predicate": "leader_of",
+   "object": "boros_legion",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "war_of_the_spark_2019",
+   "source_ids": [
+    "wr_operation"
+   ],
+   "evidence": [
+    {
+     "source_id": "wr_operation",
+     "quote": "Then Mistress Aurelia, guildmaster of the Boros Legion, flew in, still hot from battle."
+    }
+   ],
+   "summary": "Aurelia is the Boros guildmaster.",
+   "limitation": ""
+  },
+  {
+   "id": "WR016",
+   "subject": "kaya",
+   "predicate": "leader_of",
+   "object": "orzhov_syndicate",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "war_of_the_spark_2019",
+   "source_ids": [
+    "wr_operation"
+   ],
+   "evidence": [
+    {
+     "source_id": "wr_operation",
+     "quote": "Mistress Kaya approached, and Miss Revane silently indicated where she needed the Orzhov guildmaster to stand."
+    }
+   ],
+   "summary": "Kaya is the Orzhov guildmaster.",
+   "limitation": ""
+  },
+  {
+   "id": "WR017",
+   "subject": "jarad_vod_savo",
+   "predicate": "leader_of",
+   "object": "golgari",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "war_of_the_spark_2019",
+   "source_ids": [
+    "wr_operation"
+   ],
+   "evidence": [
+    {
+     "source_id": "wr_operation",
+     "quote": "Jarad vod Savo, a former Golgari guildmaster, was first killed in Rix Maadi by a Rakdos blood witch"
+    }
+   ],
+   "summary": "Jarad vod Savo was a former Golgari guildmaster.",
+   "limitation": "Former guildmaster; historical."
+  },
+  {
+   "id": "WR018",
+   "subject": "ral_zarek",
+   "predicate": "pursued",
+   "object": "tezzeret",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "war_of_the_spark_2019",
+   "source_ids": [
+    "wr_ashes"
+   ],
+   "evidence": [
+    {
+     "source_id": "wr_ashes",
+     "quote": "Ral Zarek has already agreed to hunt Tezzeret."
+    }
+   ],
+   "summary": "After the war, Ral Zarek agrees to hunt Tezzeret.",
+   "limitation": ""
+  }
+ ],
+ "pages_registered": 6,
+ "pages_cited": 6,
+ "uncited_registered_pages": [],
+ "remaining": [
+  "Targeted extraction, not exhaustive: Hekara's death, Rat's family (Ari Shokta), Teyo's arc and the novel overlap are not modelled",
+  "The chapters overlap with the War of the Spark: Ravnica novel; only the official web chapters are cited"
+ ]
+}

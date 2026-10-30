@@ -9,7 +9,11 @@
   "dft_hour": "aetherdrift-hour-of-restoration",
   "dft_ep2": "aetherdrift-episode-2-pit-stop",
   "dft_ep5": "aetherdrift-episode-5-first-over-the-line",
-  "dft_ep6": "aetherdrift-episode-6-the-bloodless-revolution"
+  "dft_ep6": "aetherdrift-episode-6-the-bloodless-revolution",
+  "dft_guide2": "planeswalkers-guide-to-aetherdrift-part-2",
+  "dft_ep3": "aetherdrift-episode-3-go",
+  "dft_ep4": "aetherdrift-episode-4-little-guy-shortcuts",
+  "dft_beast": "aetherdrift-like-no-other-beast"
  },
  "entities": [
   {
@@ -96,6 +100,86 @@
    "id": "elspeth_tirel",
    "type": "Character",
    "name": "Elspeth Tirel"
+  },
+  {
+   "id": "renegades_kaladesh",
+   "type": "Faction",
+   "name": "Renegades of Kaladesh"
+  },
+  {
+   "id": "kaladesh",
+   "type": "Plane",
+   "name": "Kaladesh"
+  },
+  {
+   "id": "ravnica",
+   "type": "Plane",
+   "name": "Ravnica"
+  },
+  {
+   "id": "niv_mizzet",
+   "type": "Character",
+   "name": "Niv-Mizzet"
+  },
+  {
+   "id": "amonkhet",
+   "type": "Plane",
+   "name": "Amonkhet"
+  },
+  {
+   "id": "hazoret",
+   "type": "Character",
+   "name": "Hazoret"
+  },
+  {
+   "id": "ketramose",
+   "type": "Character",
+   "name": "Ketramose"
+  },
+  {
+   "id": "sab_sunen",
+   "type": "Character",
+   "name": "Sab-Sunen"
+  },
+  {
+   "id": "basri_ket",
+   "type": "Character",
+   "name": "Basri Ket"
+  },
+  {
+   "id": "mohar_varma",
+   "type": "Character",
+   "name": "Mohar Varma"
+  },
+  {
+   "id": "rudra",
+   "type": "Character",
+   "name": "Rudra"
+  },
+  {
+   "id": "khrad",
+   "type": "Character",
+   "name": "Khrad"
+  },
+  {
+   "id": "khal",
+   "type": "Character",
+   "name": "King Khal"
+  },
+  {
+   "id": "telu_set",
+   "type": "Faction",
+   "name": "Telu-Set"
+  },
+  {
+   "id": "amarth_tel",
+   "type": "Character",
+   "name": "Amarth-Tel"
+  },
+  {
+   "id": "muraganda",
+   "type": "Plane",
+   "name": "Muraganda"
   }
  ],
  "claims": [
@@ -293,6 +377,194 @@
     }
    ],
    "summary": "Mahitab freed Niharet after she was entombed."
+  },
+  {
+   "id": "DF013",
+   "subject": "pia_nalaar",
+   "predicate": "leader_of",
+   "object": "renegades_kaladesh",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "dft_guide2",
+     "quote": "Pia Nalaar, the former popular leader of the Renegades"
+    }
+   ],
+   "summary": "Pia Nalaar is the former popular leader of the Renegades, now a reform-minded consul."
+  },
+  {
+   "id": "DF014",
+   "subject": "kaladesh",
+   "predicate": "rival_of",
+   "object": "ravnica",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "dft_guide2",
+     "quote": "In this effort, Avishkar has come to recognize Ravnica as its chief rival."
+    },
+    {
+     "page": "dft_guide1",
+     "quote": "Avishkar is the new name for the plane formerly known as Kaladesh"
+    }
+   ],
+   "summary": "Avishkar (the renamed Kaladesh) sees Ravnica as its chief multiversal rival.",
+   "limitation": "Avishkar is modelled on the existing kaladesh plane node; the guide calls it a rival, 'not as an enemy (yet)'."
+  },
+  {
+   "id": "DF015",
+   "subject": "niv_mizzet",
+   "predicate": "leader_of",
+   "object": "ravnica",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "dft_guide2",
+     "quote": "Ravnica, along with its guilds and their leader, Niv-Mizzet"
+    }
+   ],
+   "summary": "The guide names Niv-Mizzet as leader of Ravnica's guilds."
+  },
+  {
+   "id": "DF016",
+   "subject": "ketramose",
+   "predicate": "located_on",
+   "object": "amonkhet",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "dft_guide2",
+     "quote": "two new, risen deities that walk alongside Hazoret on Amonkhet: Ketramose, the lion of dawn"
+    }
+   ],
+   "summary": "Ketramose is one of two new risen deities on Amonkhet."
+  },
+  {
+   "id": "DF017",
+   "subject": "sab_sunen",
+   "predicate": "located_on",
+   "object": "amonkhet",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "dft_guide2",
+     "quote": "and Sab-Sunen, the new mother of the Luxa"
+    }
+   ],
+   "summary": "Sab-Sunen is the other new risen deity on Amonkhet, alongside Hazoret."
+  },
+  {
+   "id": "DF018",
+   "subject": "basri_ket",
+   "predicate": "member_of",
+   "object": "champions_of_amonkhet",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "dft_ep3",
+     "quote": "Basri watches an older member of the Champions throw himself before a wicked slice meant for Zahur."
+    },
+    {
+     "page": "dft_ep3",
+     "quote": "Without waiting for further banter—they cannot afford the time—Basri clambers atop the chariot."
+    }
+   ],
+   "summary": "Basri rides with Zahur and the Champions of Amonkhet in the race.",
+   "limitation": "Episode 3 shows Basri riding with the Champions; the explicit delegation wording is in Part 1 of the guide."
+  },
+  {
+   "id": "DF019",
+   "subject": "pia_nalaar",
+   "predicate": "allied_with",
+   "object": "champions_of_amonkhet",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "dft_ep3",
+     "quote": "she spots Pia Nalaar sitting with the Amonkheti team"
+    }
+   ],
+   "summary": "Spitfire sees Pia Nalaar sitting with the Amonkheti team.",
+   "limitation": "Sitting with the team is the only evidence on this page; 'allied_with' is an editorial reading."
+  },
+  {
+   "id": "DF020",
+   "subject": "mohar_varma",
+   "predicate": "friend_of",
+   "object": "rudra",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "dft_ep4",
+     "quote": "Mohar says. He takes a seat across from his old friend."
+    }
+   ],
+   "summary": "Consul Mohar Varma visits his old friend Rudra in Ghirapur's underground."
+  },
+  {
+   "id": "DF021",
+   "subject": "khal",
+   "predicate": "parent_of",
+   "object": "khrad",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "dft_beast",
+     "quote": "Ultimately, however, son of Telu as he was, Khrad was first the son of Khal."
+    },
+    {
+     "page": "dft_beast",
+     "quote": "King Khal hesitated; a warrior himself since he could clutch a blade, he knew what threats his only son would face."
+    }
+   ],
+   "summary": "Khrad is the only son of King Khal, who fears for him on his quest."
+  },
+  {
+   "id": "DF022",
+   "subject": "khal",
+   "predicate": "leader_of",
+   "object": "telu_set",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "dft_beast",
+     "quote": "King Khal, ruler of the Telu-Set, listened stony-faced."
+    }
+   ],
+   "summary": "King Khal rules the Telu-Set."
+  },
+  {
+   "id": "DF023",
+   "subject": "amarth_tel",
+   "predicate": "enemy_of",
+   "object": "telu_set",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "dft_beast",
+     "quote": "Ley mage of the Tarry Spire, supreme among Mon'Telu's foes!"
+    }
+   ],
+   "summary": "The ley mage Amarth-Tel is the foremost enemy of Mon'Telu, stronghold of the Telu-Set."
+  },
+  {
+   "id": "DF024",
+   "subject": "telu_set",
+   "predicate": "located_on",
+   "object": "muraganda",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "dft_beast",
+     "quote": "Everywhere in Muraganda, life burst forth unceasing."
+    },
+    {
+     "page": "dft_beast",
+     "quote": "in Mon'Telu, central stronghold of the Telu-Set"
+    }
+   ],
+   "summary": "The Telu-Set's stronghold Mon'Telu lies on Muraganda.",
+   "limitation": "The story is set on Muraganda; Mon'Telu's location is inferred from the setting."
   }
  ],
  "remaining": [

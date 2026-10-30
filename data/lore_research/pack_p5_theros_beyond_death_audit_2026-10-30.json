@@ -3,15 +3,15 @@
  "pack": "data/lore_research/pack_p5_theros_beyond_death_2026-10-30.json",
  "pack_status": "PRELIMINARY_RESEARCH (not owner approved, not certified)",
  "arc": "THB",
- "claims": 14,
- "entities": 14,
- "sources": 1,
+ "claims": 29,
+ "entities": 23,
+ "sources": 4,
  "grades": {
-  "CANON_CONFIRMED": 13,
-  "CANON_IMPLIED": 1
+  "CANON_CONFIRMED": 26,
+  "CANON_IMPLIED": 3
  },
- "quotes": 18,
- "quotes_verbatim": 18,
+ "quotes": 38,
+ "quotes_verbatim": 38,
  "quote_rows": [
   {
    "claim": "TB001",
@@ -120,9 +120,129 @@
    "source_id": "thb_summary",
    "quote_sha256": "e71450cf8eb03fee3cc3c9223ff339c0872774c0bd10abecded47a00edab673c",
    "status": "VERBATIM"
+  },
+  {
+   "claim": "TB015",
+   "source_id": "thb_cards",
+   "quote_sha256": "5e5b7bf27289ef12109aefcb31c2ab1da077305e80206dbb2580f682bd2d87cb",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "TB015",
+   "source_id": "thb_cards",
+   "quote_sha256": "14274b335ca2bc546eb58d7c2a31a706f3621e1811667693d52a4098e7c8f0a0",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "TB016",
+   "source_id": "thb_cards",
+   "quote_sha256": "9a9b0228546e0db61fc12b1d71ab8b726e128ebe0d847ea02daf90dc38a17eb1",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "TB017",
+   "source_id": "thb_cards",
+   "quote_sha256": "9a9b0228546e0db61fc12b1d71ab8b726e128ebe0d847ea02daf90dc38a17eb1",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "TB018",
+   "source_id": "thb_cards",
+   "quote_sha256": "43a528b395664e8ab53d3a3df7c9b7e8eea8f3fe11aa5ebb3bfc7c6f4e03add0",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "TB018",
+   "source_id": "thb_journeys_end",
+   "quote_sha256": "7b3e2d2ee020394f8031c871e716fa3b2f8098fe39bcf8bc2bdaea404b18ae1a",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "TB019",
+   "source_id": "thb_cards",
+   "quote_sha256": "07b7f5a00511db2a6433b7b5751fc55dac3fa55b267aecee500b64d68a4ce79f",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "TB019",
+   "source_id": "thb_journeys_end",
+   "quote_sha256": "5298843796f3fba15c5ccbff0601a527395dac03e8834e9414cabda55ae3a160",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "TB020",
+   "source_id": "thb_cards",
+   "quote_sha256": "8fd342955a28dda5f54053fd045445095d1e1e5db404f5162a4d8ab1f3a98e00",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "TB020",
+   "source_id": "thb_journeys_end",
+   "quote_sha256": "2ed3fa8f3c072b466a84ddbc47b843be984dc6dc2e08076ad23ce3ac6199dba4",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "TB021",
+   "source_id": "thb_journeys_end",
+   "quote_sha256": "e3f3ea1aef662df3c352cbaef93d390401324962dd5879b9408edad30b2b3f53",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "TB022",
+   "source_id": "thb_journeys_end",
+   "quote_sha256": "e3f3ea1aef662df3c352cbaef93d390401324962dd5879b9408edad30b2b3f53",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "TB022",
+   "source_id": "thb_journeys_end",
+   "quote_sha256": "cc7fd519314e8b28b57e276fd0fac1019540e69b51e8256e563bed2dbb3cfaca",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "TB023",
+   "source_id": "thb_journeys_end",
+   "quote_sha256": "127751072a659e2502d9273417e7dca196257584455a1eed4d7626912e38a493",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "TB024",
+   "source_id": "thb_journeys_end",
+   "quote_sha256": "298ecb91fefd9203ba319ac16f9c945a6a910afa74cc1fe1b18cd9548361506d",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "TB025",
+   "source_id": "thb_journeys_end",
+   "quote_sha256": "aca8ac1f4784044bb940246691ad3fbe29e1ec8b1b11463a5f88bd26048df354",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "TB026",
+   "source_id": "thb_journeys_end",
+   "quote_sha256": "291a43fd7ea4369fadac5f5396ca9a0266eb57f4f8e0d57b9956038e97cf119d",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "TB027",
+   "source_id": "thb_cards",
+   "quote_sha256": "70b0e8c6b012aeda760083c3b62d1dc3efa8288ac0a6d47112c1e0622d0d7513",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "TB028",
+   "source_id": "thb_odds",
+   "quote_sha256": "a799e248449246c0358d784e75019c824fd179806103665a888b368043fec514",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "TB029",
+   "source_id": "thb_odds",
+   "quote_sha256": "fb7aa4ddc6da74526a1de78ff0a7d4651d66fcd85b4acfab577cf59ec9520b31",
+   "status": "VERBATIM"
   }
  ],
  "problems": [],
  "note": "Verbatim-quote audit against cached official Wizards story text. Research evidence only: not owner approval, not certification, not an exhaustive reading.",
- "content_sha256": "66f38128d333cf759c29cd90428728737f2c0d7839a73de49ca21450a210d920"
+ "content_sha256": "71922df243dab34112820a1f5535262457e1888f827710c563e2579722988705"
 }
