@@ -36,18 +36,19 @@
    "data/lore_research/pack_p5_throne_of_eldraine_2026-10-30.json",
    "data/lore_research/pack_p5_secrets_of_strixhaven_2026-10-30.json",
    "data/lore_research/pack_p5_shadows_eldritch_moon_2026-10-30.json",
-   "data/lore_research/pack_p5_battle_for_zendikar_oath_2026-10-30.json"
+   "data/lore_research/pack_p5_battle_for_zendikar_oath_2026-10-30.json",
+   "data/lore_research/pack_p5_tarkir_dragonstorm_2026-10-30.json"
   ]
  },
  "meaning": "cited = a claim pack quotes or cites the page at least once; it does not mean the page was read exhaustively",
  "totals": {
   "arcs": 33,
   "pages": 626,
-  "cited_pages": 239,
+  "cited_pages": 260,
   "arcs_not_started": 0,
-  "arcs_partial": 23,
-  "arcs_all_cited": 10,
-  "claims": 567,
+  "arcs_partial": 21,
+  "arcs_all_cited": 12,
+  "claims": 603,
   "pack_urls_outside_inventory": 12
  },
  "claims_per_pack": {
@@ -62,7 +63,7 @@
   "pack_c4_march_of_the_machine_2026-10-30.json": 21,
   "pack_p5_kaladesh_aether_revolt_2026-10-30.json": 25,
   "pack_p5_ixalan_rivals_2026-10-30.json": 16,
-  "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json": 17,
+  "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json": 31,
   "pack_p5_kamigawa_neon_dynasty_2026-10-30.json": 12,
   "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json": 12,
   "pack_p5_streets_of_new_capenna_2026-10-30.json": 16,
@@ -84,31 +85,22 @@
   "pack_p5_throne_of_eldraine_2026-10-30.json": 11,
   "pack_p5_secrets_of_strixhaven_2026-10-30.json": 17,
   "pack_p5_shadows_eldritch_moon_2026-10-30.json": 36,
-  "pack_p5_battle_for_zendikar_oath_2026-10-30.json": 26
+  "pack_p5_battle_for_zendikar_oath_2026-10-30.json": 26,
+  "pack_p5_tarkir_dragonstorm_2026-10-30.json": 22
  },
  "arcs": [
   {
    "arc": "AKH/HOU",
    "pages": 16,
-   "cited_pages": 7,
+   "cited_pages": 16,
    "kinds": {
     "story": 16
    },
    "citing_packs": [
     "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json"
    ],
-   "status": "PARTIAL",
-   "uncited_urls": [
-    "https://magic.wizards.com/en/news/magic-story/brazen-2017-05-03",
-    "https://magic.wizards.com/en/news/magic-story/endure-2017-07-19",
-    "https://magic.wizards.com/en/news/magic-story/hour-glory-2017-06-21",
-    "https://magic.wizards.com/en/news/magic-story/hour-promise-2017-06-28",
-    "https://magic.wizards.com/en/news/magic-story/hour-revelation-2017-06-07",
-    "https://magic.wizards.com/en/news/magic-story/judgment-2017-05-17",
-    "https://magic.wizards.com/en/news/magic-story/trespass-2017-05-10",
-    "https://magic.wizards.com/en/news/magic-story/writing-wall-2017-04-12",
-    "https://magic.wizards.com/en/story/amonkhet-plane"
-   ]
+   "status": "ALL_PAGES_CITED",
+   "uncited_urls": []
   },
   {
    "arc": "BFZ/OGW",
@@ -558,30 +550,18 @@
   {
    "arc": "TDM",
    "pages": 14,
-   "cited_pages": 2,
+   "cited_pages": 14,
    "kinds": {
     "planeswalkers-guide": 2,
     "story": 12
    },
    "citing_packs": [
     "pack_a5_ugin_allies_2026-10-30.json",
-    "pack_a_ugin_bolas_evidence_2026-10-30.json"
+    "pack_a_ugin_bolas_evidence_2026-10-30.json",
+    "pack_p5_tarkir_dragonstorm_2026-10-30.json"
    ],
-   "status": "PARTIAL",
-   "uncited_urls": [
-    "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-tarkir-dragonstorm-part-1",
-    "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-tarkir-dragonstorm-part-2",
-    "https://magic.wizards.com/en/news/magic-story/tarkir-dragonstorm-abzan-siege-blossoms",
-    "https://magic.wizards.com/en/news/magic-story/tarkir-dragonstorm-episode-1-stories-and-their-bones",
-    "https://magic.wizards.com/en/news/magic-story/tarkir-dragonstorm-episode-2-omens",
-    "https://magic.wizards.com/en/news/magic-story/tarkir-dragonstorm-episode-3-what-the-past-devours",
-    "https://magic.wizards.com/en/news/magic-story/tarkir-dragonstorm-episode-4-heart-of-fire",
-    "https://magic.wizards.com/en/news/magic-story/tarkir-dragonstorm-episode-5-recursion",
-    "https://magic.wizards.com/en/news/magic-story/tarkir-dragonstorm-jeskai-the-unknown-way",
-    "https://magic.wizards.com/en/news/magic-story/tarkir-dragonstorm-mardu-where-lightning-tells-our-story",
-    "https://magic.wizards.com/en/news/magic-story/tarkir-dragonstorm-sultai-betrayal",
-    "https://magic.wizards.com/en/news/magic-story/tarkir-dragonstorm-temur-together-survives-the-pack"
-   ]
+   "status": "ALL_PAGES_CITED",
+   "uncited_urls": []
   },
   {
    "arc": "THB",
@@ -962,5 +942,5 @@
    ]
   }
  ],
- "sha256": "3bea992ff31ff5ecfa622f3216be0b79c5be06c72df96ff4873cecfb26dbf977"
+ "sha256": "b6a772da124e57bb4e5e022e8a340f13e548938de12fe9dc759e00e9786ed00e"
 }

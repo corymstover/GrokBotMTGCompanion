@@ -5,6 +5,15 @@
  "scope": "Targeted Phase 5 extraction from the official Amonkhet / Hour of Devastation Magic Story episodes (2017-04-05 to 2017-07-26), mostly from the official episode recap paragraphs plus short narrated passages. Not an exhaustive reading.",
  "pages": {
   "akh_trust": "trust-2017-04-05",
+  "akh_writing": "writing-wall-2017-04-12",
+  "akh_plane": "amonkhet-plane",
+  "akh_brazen": "brazen-2017-05-03",
+  "akh_trespass": "trespass-2017-05-10",
+  "akh_judgment": "judgment-2017-05-17",
+  "hou_revelation": "hour-revelation-2017-06-07",
+  "hou_glory": "hour-glory-2017-06-21",
+  "hou_promise": "hour-promise-2017-06-28",
+  "hou_endure": "endure-2017-07-19",
   "akh_servants": "servants-2017-04-19",
   "akh_hand": "hand-moves-2017-04-26",
   "hou_feast": "feast-2017-06-14",
@@ -97,6 +106,66 @@
    "id": "planar_bridge",
    "type": "Object",
    "name": "Planar Bridge"
+  },
+  {
+   "id": "oketra",
+   "type": "Character",
+   "name": "Oketra"
+  },
+  {
+   "id": "rhonas",
+   "type": "Character",
+   "name": "Rhonas"
+  },
+  {
+   "id": "samut",
+   "type": "Character",
+   "name": "Samut"
+  },
+  {
+   "id": "djeru",
+   "type": "Character",
+   "name": "Djeru"
+  },
+  {
+   "id": "nakht",
+   "type": "Character",
+   "name": "Nakht"
+  },
+  {
+   "id": "hapatra",
+   "type": "Character",
+   "name": "Hapatra"
+  },
+  {
+   "id": "scorpion_god",
+   "type": "Character",
+   "name": "The Scorpion God"
+  },
+  {
+   "id": "locust_god",
+   "type": "Character",
+   "name": "The Locust God"
+  },
+  {
+   "id": "hekma",
+   "type": "Object",
+   "name": "The Hekma"
+  },
+  {
+   "id": "curse_of_wandering",
+   "type": "Concept",
+   "name": "The Curse of Wandering"
+  },
+  {
+   "id": "bolas_godhood",
+   "type": "Concept",
+   "name": "Nicol Bolas's lost godhood"
+  },
+  {
+   "id": "amonkhet_trials",
+   "type": "Concept",
+   "name": "The five Trials of Amonkhet"
   }
  ],
  "claims": [
@@ -367,11 +436,235 @@
    ],
    "summary": "Bolas came to Amonkhet decades before the story and shaped its present order around sixty years earlier.",
    "limitation": "'Several decades' and 'sixty years ago' are Bolas's point-of-view narration relative to the story; kept as relative dates, not absolute years."
+  },
+  {
+   "id": "AKH030",
+   "subject": "nicol_bolas",
+   "predicate": "identified_with",
+   "object": "amonkhet",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "akh_plane",
+     "quote": "The wise and benevolent God-Pharaoh, said to be busy preparing the wondrous afterlife for the worthy, is actually Nicol Bolas, the malevolent dragon Planeswalker whose schemes reach far beyond this plane."
+    }
+   ],
+   "summary": "The official plane page states that Amonkhet's God-Pharaoh is actually Nicol Bolas.",
+   "limitation": "Object is the plane; the precise relation is 'God-Pharaoh of Amonkhet'."
+  },
+  {
+   "id": "AKH031",
+   "subject": "amonkhet_trials",
+   "predicate": "located_on",
+   "object": "amonkhet",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "akh_plane",
+     "quote": "Each god oversees one of the five trials and instructs the initiates who are preparing to face the trial, helping them to cultivate one of the five aspects of mortal perfection: solidarity, knowledge, strength, ambition, and zeal."
+    }
+   ],
+   "summary": "Each of Amonkhet's five gods oversees one of five trials: solidarity, knowledge, strength, ambition and zeal."
+  },
+  {
+   "id": "AKH018",
+   "subject": "nissa_revane",
+   "predicate": "investigated",
+   "object": "nicol_bolas",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "akh_writing",
+     "quote": "Determined to uncover Nicol Bolas's intentions with the plane, Nissa and Chandra explore the city in search of answers."
+    }
+   ],
+   "summary": "Nissa and Chandra explore Naktamun to uncover Bolas's intentions for Amonkhet."
+  },
+  {
+   "id": "AKH019",
+   "subject": "curse_of_wandering",
+   "predicate": "afflicts",
+   "object": "amonkhet",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "akh_writing",
+     "quote": "Those that die will always return. That is the Curse of Wandering."
+    }
+   ],
+   "summary": "On Amonkhet the dead always rise again; this is the Curse of Wandering.",
+   "limitation": "Revealed to Nissa as a vision of the plane's own voice, not narrated as a general rule."
+  },
+  {
+   "id": "AKH020",
+   "subject": "gideon_jura",
+   "predicate": "followed",
+   "object": "oketra",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "akh_brazen",
+     "quote": "I walked quietly along the path, following in the wake of Oketra."
+    },
+    {
+     "page": "akh_brazen",
+     "quote": "While Gideon Jura had many lingering questions about the world, the presence of the divine most captured his attention and curiosity."
+    }
+   ],
+   "summary": "Gideon walks through Naktamun in the wake of the god Oketra.",
+   "limitation": "First-person narration by Gideon."
+  },
+  {
+   "id": "AKH021",
+   "subject": "samut",
+   "predicate": "childhood_friend_of",
+   "object": "nakht",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "akh_trespass",
+     "quote": "Years before the arrival of the Gatewatch on Amonkhet, the fate and future of three children had unforeseen effects on the destiny of the plane."
+    },
+    {
+     "page": "akh_trespass",
+     "quote": "Even though they were the same age, Samut stood nearly a head taller than Nakht."
+    }
+   ],
+   "summary": "Years before the Gatewatch arrived, Samut and the young aven Nakht grew up together.",
+   "limitation": "'Friend' is inferred from the scene; the third child (Djeru) is not modelled in this claim."
+  },
+  {
+   "id": "AKH022",
+   "subject": "samut",
+   "predicate": "friend_of",
+   "object": "djeru",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "akh_judgment",
+     "quote": "After discovering that her city is not the way it was only decades ago, she is determined to convince her oldest and dearest friend, Djeru, to believe her."
+    }
+   ],
+   "summary": "Djeru is Samut's oldest and dearest friend; she tries to convince him the city has been changed."
+  },
+  {
+   "id": "AKH023",
+   "subject": "samut",
+   "predicate": "opposed",
+   "object": "nicol_bolas",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "akh_judgment",
+     "quote": "She has spent the last few days on the run and is desperate to stay alive long enough to face the trespasser who transformed her world."
+    }
+   ],
+   "summary": "Samut, a fugitive, wants to survive long enough to face 'the trespasser' who transformed her world.",
+   "limitation": "The trespasser is Bolas (the God-Pharaoh) by context; this episode's recap does not name him."
+  },
+  {
+   "id": "AKH024",
+   "subject": "nicol_bolas",
+   "predicate": "sought_to_regain",
+   "object": "bolas_godhood",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "hou_revelation",
+     "quote": "There was just enough time left to put into place the possible means to regain his godhood."
+    },
+    {
+     "page": "hou_revelation",
+     "quote": "The gods of Amonkhet saw the dragon hovering outside the protection of the Hekma."
+    }
+   ],
+   "summary": "The dragon arriving at Amonkhet has only days to set up the means to regain his godhood.",
+   "limitation": "The dragon is unnamed in the quoted lines; identification with Bolas comes from the arc."
+  },
+  {
+   "id": "AKH025",
+   "subject": "hazoret",
+   "predicate": "sibling_of",
+   "object": "rhonas",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "hou_glory",
+     "quote": "As he joined his sister Hazoret at the banks of the Luxa, Rhonas felt an uncharacteristic chill permeate his scales."
+    }
+   ],
+   "summary": "Hazoret is Rhonas's sister."
+  },
+  {
+   "id": "AKH026",
+   "subject": "rhonas",
+   "predicate": "fought",
+   "object": "scorpion_god",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "hou_glory",
+     "quote": "Rhonas pulled his staff back, and the scorpion god fell to its knees, still chittering weakly."
+    }
+   ],
+   "summary": "Rhonas battles the scorpion god at the Hour of Glory."
+  },
+  {
+   "id": "AKH027",
+   "subject": "locust_god",
+   "predicate": "destroyed",
+   "object": "hekma",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "hou_promise",
+     "quote": "And so the great locust god fulfilled the great promise, and thus the Hekma was torn asunder, its protections cast aside before the return of the God-Pharaoh."
+    }
+   ],
+   "summary": "The locust god tears the Hekma asunder at the Hour of Promise.",
+   "limitation": "Quoted from the in-world scripture epigraph that opens the episode, not plain narration."
+  },
+  {
+   "id": "AKH028",
+   "subject": "hapatra",
+   "predicate": "serves",
+   "object": "rhonas",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "hou_promise",
+     "quote": "Hapatra stood on the steps of the Temple of Strength, watching the blood of the Luxa seep upriver, transforming the water to crimson as its stain spread."
+    },
+    {
+     "page": "hou_promise",
+     "quote": "She wished she could stand alongside Rhonas to greet the newcomers, but the viziers had agreed in the moment that it was best to stay at their temples."
+    }
+   ],
+   "summary": "Hapatra is a vizier at Rhonas's Temple of Strength.",
+   "limitation": "That the Temple of Strength is Rhonas's is inferred from the episode, not stated in these lines."
+  },
+  {
+   "id": "AKH029",
+   "subject": "hazoret",
+   "predicate": "commanded",
+   "object": "samut",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "hou_endure",
+     "quote": "\"Hazoret asked that Djeru and I protect those we could—to hide among the desert sands."
+    },
+    {
+     "page": "hou_endure",
+     "quote": "She and Djeru had obeyed the god, parting ways with Hazoret and striking out toward the edges of the city."
+    }
+   ],
+   "summary": "Hazoret tells Samut and Djeru to protect the survivors and flee into the desert."
   }
  ],
  "remaining": [
-  "Writing on the Wall, Brazen, Judgment, Hour of Revelation/Glory/Promise and Endure episodes are uncited",
-  "Trespass (Samut/Djeru/Hapatra backstory) is not modelled yet",
-  "Gods' deaths (Oketra, Kefnet, Rhonas) and Samut's spark are not yet modelled"
+  "Every AKH/HOU episode is now cited, mostly with one or two claims; Samut's spark, the deaths of Oketra and Kefnet, and the full Hours sequence are not modelled",
+  "Nakht's and Djeru's later fates, and the Trials' structure, are not graded",
+  "Scripture epigraphs are graded IMPLIED with a limitation; they are in-world texts, not narration"
  ]
 }

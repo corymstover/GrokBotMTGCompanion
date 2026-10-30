@@ -1,0 +1,212 @@
+{
+ "schema": "story-claim-pipeline-audit/v1",
+ "pack": "data/lore_research/pack_p5_tarkir_dragonstorm_2026-10-30.json",
+ "pack_status": "PRELIMINARY_RESEARCH (not owner approved, not certified)",
+ "arc": "TDM",
+ "claims": 22,
+ "entities": 30,
+ "sources": 14,
+ "grades": {
+  "CANON_CONFIRMED": 16,
+  "CANON_IMPLIED": 6
+ },
+ "quotes": 32,
+ "quotes_verbatim": 32,
+ "quote_rows": [
+  {
+   "claim": "TD001",
+   "source_id": "tdm_guide1",
+   "quote_sha256": "e976e83c7de3fda9510859a733882792fb9f85ad21c2d0478e44a4de73f0821d",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "TD001",
+   "source_id": "tdm_guide1",
+   "quote_sha256": "8c76ee5779d1de6d0c1d5084314f6e79e5d6060a7feee23505df1c6d306b2add",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "TD002",
+   "source_id": "tdm_guide1",
+   "quote_sha256": "d033be8484f907114426fada26024c1db12fe2d67fb5e9291b63eb8e5784a5d6",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "TD003",
+   "source_id": "tdm_guide1",
+   "quote_sha256": "ce11eb52797664bddb821438554f5066e7ca38a1466d397f3b9d00e95ed96068",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "TD003",
+   "source_id": "tdm_guide1",
+   "quote_sha256": "61db2e3dc7e82f26617f16465d4d02ac674bc5a77e672c32f8c88c22cf95de9d",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "TD004",
+   "source_id": "tdm_guide1",
+   "quote_sha256": "d7fb81997b1ad9da6972dd2103fc0bf5b5c9605c2575d1689ca87f72b48d908f",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "TD005",
+   "source_id": "tdm_guide1",
+   "quote_sha256": "25e175787a7991c23493412d5f8a21b24ab9c98939a3c0825f68c58f6c2e1194",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "TD006",
+   "source_id": "tdm_guide1",
+   "quote_sha256": "7cc6e998d1870038b9190521a4d5f409807496a310683104570e3afbeb663c81",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "TD006",
+   "source_id": "tdm_guide1",
+   "quote_sha256": "1a4e33f52857efe786a0ba60e40362ec3a0de0051e201114918f2bdebd19e1b7",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "TD007",
+   "source_id": "tdm_guide2",
+   "quote_sha256": "9b936236281a20b8d7204054bc77e6501f66f75052a0445eca41f4a5a4439728",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "TD007",
+   "source_id": "tdm_guide2",
+   "quote_sha256": "336409e6cec9455dddbc5ac6aba80d306c0ec1fb5b7e9874aa9bcd042c1e234a",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "TD008",
+   "source_id": "tdm_guide2",
+   "quote_sha256": "e501468205d5a1b22cccf695305668c09df2e482b2fde58f2748714305207b6f",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "TD009",
+   "source_id": "tdm_abzan",
+   "quote_sha256": "943d14f1ca68a8ad27fc6f0ec6ff728f39f7dde579dd4b04ead79a316ab1de69",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "TD010",
+   "source_id": "tdm_ep1",
+   "quote_sha256": "92d570e8cf3f88da7b61f024a7351d7d2538157f58dca62ac4c181d07e0bb1aa",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "TD011",
+   "source_id": "tdm_ep2",
+   "quote_sha256": "dda439afd0c7dc593ee2d84cbacd5e8f621401b53c2ca90ac77c03a1af620730",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "TD012",
+   "source_id": "tdm_jeskai",
+   "quote_sha256": "e70ee64f79906d06f2b453025f77e7c85fbfb2ff982d2c6034606ed8a6143521",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "TD012",
+   "source_id": "tdm_jeskai",
+   "quote_sha256": "493c23bbd289fd5eba047ebeb7075a910bed3e4ce5deab9bb3d14d9ee26b4fce",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "TD013",
+   "source_id": "tdm_ep3",
+   "quote_sha256": "4b8b647f4e90ade0035fcdf125ae4b30429642ffc6dc31b87afb8b5a3c3389a6",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "TD014",
+   "source_id": "tdm_sultai",
+   "quote_sha256": "f7059af06b5324261c57e4415c1d1fc6fc7aa0e94beaf5ca630e4b40ad1f9564",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "TD015",
+   "source_id": "tdm_ep4",
+   "quote_sha256": "da8d4044f9157b1defe6b2fcc95e2a147ae2164f324ac336071295a9c8335554",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "TD015",
+   "source_id": "tdm_ep4",
+   "quote_sha256": "f220e9f418a9e8459d15a1194c8d16ffdcba1cae260fc158618521514c808049",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "TD016",
+   "source_id": "tdm_mardu",
+   "quote_sha256": "b460fe4f99de296217c9a957f06bc10e8700219e6dce7b4265b80ec7b6f01813",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "TD017",
+   "source_id": "tdm_ep5",
+   "quote_sha256": "7e34cebcba1bb1e74d51a0315b05316a7be5842a51cde9f6986e20ddc5f6c73b",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "TD017",
+   "source_id": "tdm_ep5",
+   "quote_sha256": "f8efe43b187b2e812bd7e0c40166088423442dca3fe01ecb92bea9b9f9eb00ce",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "TD018",
+   "source_id": "tdm_ep5",
+   "quote_sha256": "3f9b5e8ab83075bd639edecf5b5f93a220d3e3b15413de7900841907546f1381",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "TD018",
+   "source_id": "tdm_ep5",
+   "quote_sha256": "9f217bd2990850011cb0b5d385c2b9c915d68c330fc079552b4a2e489a4c1907",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "TD019",
+   "source_id": "tdm_temur",
+   "quote_sha256": "01bc0ab44ae8a0ebd29c41be3c739abf23d53b8eacf41e48f9b27e3eb9c2c7cf",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "TD019",
+   "source_id": "tdm_temur",
+   "quote_sha256": "e489dcba090975bca3819dee61c2ed15edb21f078715cb88ff574a8a8e6de090",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "TD020",
+   "source_id": "tdm_e6",
+   "quote_sha256": "9178d387cbe73af99d366e05a410aa46ab4ee89d7562c62d2292f302be8ea65c",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "TD021",
+   "source_id": "tdm_e6",
+   "quote_sha256": "00a6bf28a83c94082dd0da6dca44a8785d3dd81ab11817d00287ee849cf5260c",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "TD022",
+   "source_id": "tdm_e7",
+   "quote_sha256": "e633b0bb6d8780afc9fb0c7ddcca09745f38ddd529c380656bfe7483639a3c94",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "TD022",
+   "source_id": "tdm_e7",
+   "quote_sha256": "77133a00b7283b98e3eaa2138e6f0557c87e718f93bf73c19d9efc70af84bafb",
+   "status": "VERBATIM"
+  }
+ ],
+ "problems": [],
+ "note": "Verbatim-quote audit against cached official Wizards story text. Research evidence only: not owner approval, not certification, not an exhaustive reading.",
+ "content_sha256": "20154c5b1bbdaecb495e2526ed0069be5dee82af797bb8e2f3e7319a0a3c9e57"
+}

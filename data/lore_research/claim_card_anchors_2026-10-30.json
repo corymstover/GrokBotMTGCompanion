@@ -100,6 +100,9 @@
   "pack_p5_battle_for_zendikar_oath_2026-10-30.json": [
    "bfz",
    "ogw"
+  ],
+  "pack_p5_tarkir_dragonstorm_2026-10-30.json": [
+   "tdm"
   ]
  },
  "rule": "Each claim participant with a card-name anchor contributes its cards. Tier ART_IN_CITED_SOURCE: the card's art is credited by exact name on an official page the claim cites. PRINTED_IN_STORY_SET: a paper printing in the set whose main-story episodes the pack covers. NAMED_PARTICIPANT: otherwise. An anchor never asserts that the card depicts the claimed event and never changes a claim grade.",
@@ -9924,6 +9927,628 @@
    "tier": "NAMED_PARTICIPANT"
   },
   {
+   "claim": "AKH030",
+   "pack": "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json",
+   "participant": "nicol_bolas",
+   "card": "Nicol Bolas",
+   "oracle_id": "e26bf6a9-b31c-4bc0-b55b-c01f2f69be6b",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "AKH030",
+   "pack": "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json",
+   "participant": "nicol_bolas",
+   "card": "Nicol Bolas, Dragon-God",
+   "oracle_id": "581eedc4-efe4-4ae4-baf2-88071e7e6f6d",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "AKH030",
+   "pack": "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json",
+   "participant": "nicol_bolas",
+   "card": "Nicol Bolas, God-Pharaoh",
+   "oracle_id": "cb33e07b-9599-4979-991f-df0c43ddac31",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "hou"
+   ]
+  },
+  {
+   "claim": "AKH030",
+   "pack": "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json",
+   "participant": "nicol_bolas",
+   "card": "Nicol Bolas, Planeswalker",
+   "oracle_id": "05e9b55e-6329-48ec-b7d7-24c6b9692244",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "AKH030",
+   "pack": "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json",
+   "participant": "nicol_bolas",
+   "card": "Nicol Bolas, the Deceiver",
+   "oracle_id": "524b00ea-0372-40f9-a6a1-76a8497a1ea6",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "hou"
+   ]
+  },
+  {
+   "claim": "AKH030",
+   "pack": "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json",
+   "participant": "nicol_bolas",
+   "card": "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+   "oracle_id": "55e4b27e-5447-4fc2-8cae-a03e344600c6",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "AKH018",
+   "pack": "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json",
+   "participant": "nissa_revane",
+   "card": "Nissa Revane",
+   "oracle_id": "113fc13a-6df9-4eed-b9d4-002a85a036a1",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "AKH018",
+   "pack": "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json",
+   "participant": "nicol_bolas",
+   "card": "Nicol Bolas",
+   "oracle_id": "e26bf6a9-b31c-4bc0-b55b-c01f2f69be6b",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "AKH018",
+   "pack": "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json",
+   "participant": "nicol_bolas",
+   "card": "Nicol Bolas, Dragon-God",
+   "oracle_id": "581eedc4-efe4-4ae4-baf2-88071e7e6f6d",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "AKH018",
+   "pack": "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json",
+   "participant": "nicol_bolas",
+   "card": "Nicol Bolas, God-Pharaoh",
+   "oracle_id": "cb33e07b-9599-4979-991f-df0c43ddac31",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "hou"
+   ]
+  },
+  {
+   "claim": "AKH018",
+   "pack": "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json",
+   "participant": "nicol_bolas",
+   "card": "Nicol Bolas, Planeswalker",
+   "oracle_id": "05e9b55e-6329-48ec-b7d7-24c6b9692244",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "AKH018",
+   "pack": "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json",
+   "participant": "nicol_bolas",
+   "card": "Nicol Bolas, the Deceiver",
+   "oracle_id": "524b00ea-0372-40f9-a6a1-76a8497a1ea6",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "hou"
+   ]
+  },
+  {
+   "claim": "AKH018",
+   "pack": "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json",
+   "participant": "nicol_bolas",
+   "card": "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+   "oracle_id": "55e4b27e-5447-4fc2-8cae-a03e344600c6",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "AKH020",
+   "pack": "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json",
+   "participant": "gideon_jura",
+   "card": "Gideon Jura",
+   "oracle_id": "7340dbcb-4b26-4038-be8c-a89e76294221",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "AKH020",
+   "pack": "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json",
+   "participant": "oketra",
+   "card": "Oketra the True",
+   "oracle_id": "646e68c8-cc42-4d6c-8363-a18b10a10eae",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "akh"
+   ]
+  },
+  {
+   "claim": "AKH021",
+   "pack": "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json",
+   "participant": "samut",
+   "card": "Samut, Hazoret's Champion",
+   "oracle_id": "add02a36-8811-438b-a8e1-f5c8a8146b4e",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "AKH021",
+   "pack": "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json",
+   "participant": "samut",
+   "card": "Samut, Tyrant Smasher",
+   "oracle_id": "80405d7a-f533-44bd-ac85-890476cf2b78",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "AKH021",
+   "pack": "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json",
+   "participant": "samut",
+   "card": "Samut, Tyrant of Naktamun",
+   "oracle_id": "a275f7ac-7dae-4422-875a-f34f24b6f28a",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "AKH021",
+   "pack": "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json",
+   "participant": "samut",
+   "card": "Samut, Vizier of Naktamun",
+   "oracle_id": "178b3fdf-dbee-4245-a811-b21ff8a24f66",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "AKH021",
+   "pack": "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json",
+   "participant": "samut",
+   "card": "Samut, Voice of Dissent",
+   "oracle_id": "b1eee275-5106-4c8d-a497-d7945ad81d74",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "akh"
+   ]
+  },
+  {
+   "claim": "AKH021",
+   "pack": "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json",
+   "participant": "samut",
+   "card": "Samut, the Driving Force",
+   "oracle_id": "ee89c719-5ae8-4316-bfd0-cfe3684b5859",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "AKH021",
+   "pack": "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json",
+   "participant": "samut",
+   "card": "Samut, the Tested",
+   "oracle_id": "fffdc2ac-bde4-4e4c-a5bd-0e6c6e49ad91",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "hou"
+   ]
+  },
+  {
+   "claim": "AKH022",
+   "pack": "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json",
+   "participant": "samut",
+   "card": "Samut, Hazoret's Champion",
+   "oracle_id": "add02a36-8811-438b-a8e1-f5c8a8146b4e",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "AKH022",
+   "pack": "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json",
+   "participant": "samut",
+   "card": "Samut, Tyrant Smasher",
+   "oracle_id": "80405d7a-f533-44bd-ac85-890476cf2b78",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "AKH022",
+   "pack": "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json",
+   "participant": "samut",
+   "card": "Samut, Tyrant of Naktamun",
+   "oracle_id": "a275f7ac-7dae-4422-875a-f34f24b6f28a",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "AKH022",
+   "pack": "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json",
+   "participant": "samut",
+   "card": "Samut, Vizier of Naktamun",
+   "oracle_id": "178b3fdf-dbee-4245-a811-b21ff8a24f66",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "AKH022",
+   "pack": "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json",
+   "participant": "samut",
+   "card": "Samut, Voice of Dissent",
+   "oracle_id": "b1eee275-5106-4c8d-a497-d7945ad81d74",
+   "tier": "ART_IN_CITED_SOURCE",
+   "cited_pages_crediting_art": [
+    "https://magic.wizards.com/en/news/magic-story/judgment-2017-05-17"
+   ]
+  },
+  {
+   "claim": "AKH022",
+   "pack": "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json",
+   "participant": "samut",
+   "card": "Samut, the Driving Force",
+   "oracle_id": "ee89c719-5ae8-4316-bfd0-cfe3684b5859",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "AKH022",
+   "pack": "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json",
+   "participant": "samut",
+   "card": "Samut, the Tested",
+   "oracle_id": "fffdc2ac-bde4-4e4c-a5bd-0e6c6e49ad91",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "hou"
+   ]
+  },
+  {
+   "claim": "AKH022",
+   "pack": "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json",
+   "participant": "djeru",
+   "card": "Djeru, With Eyes Open",
+   "oracle_id": "5d520dd4-7986-41fa-ab94-9226da751668",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "hou"
+   ]
+  },
+  {
+   "claim": "AKH023",
+   "pack": "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json",
+   "participant": "samut",
+   "card": "Samut, Hazoret's Champion",
+   "oracle_id": "add02a36-8811-438b-a8e1-f5c8a8146b4e",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "AKH023",
+   "pack": "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json",
+   "participant": "samut",
+   "card": "Samut, Tyrant Smasher",
+   "oracle_id": "80405d7a-f533-44bd-ac85-890476cf2b78",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "AKH023",
+   "pack": "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json",
+   "participant": "samut",
+   "card": "Samut, Tyrant of Naktamun",
+   "oracle_id": "a275f7ac-7dae-4422-875a-f34f24b6f28a",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "AKH023",
+   "pack": "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json",
+   "participant": "samut",
+   "card": "Samut, Vizier of Naktamun",
+   "oracle_id": "178b3fdf-dbee-4245-a811-b21ff8a24f66",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "AKH023",
+   "pack": "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json",
+   "participant": "samut",
+   "card": "Samut, Voice of Dissent",
+   "oracle_id": "b1eee275-5106-4c8d-a497-d7945ad81d74",
+   "tier": "ART_IN_CITED_SOURCE",
+   "cited_pages_crediting_art": [
+    "https://magic.wizards.com/en/news/magic-story/judgment-2017-05-17"
+   ]
+  },
+  {
+   "claim": "AKH023",
+   "pack": "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json",
+   "participant": "samut",
+   "card": "Samut, the Driving Force",
+   "oracle_id": "ee89c719-5ae8-4316-bfd0-cfe3684b5859",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "AKH023",
+   "pack": "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json",
+   "participant": "samut",
+   "card": "Samut, the Tested",
+   "oracle_id": "fffdc2ac-bde4-4e4c-a5bd-0e6c6e49ad91",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "hou"
+   ]
+  },
+  {
+   "claim": "AKH023",
+   "pack": "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json",
+   "participant": "nicol_bolas",
+   "card": "Nicol Bolas",
+   "oracle_id": "e26bf6a9-b31c-4bc0-b55b-c01f2f69be6b",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "AKH023",
+   "pack": "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json",
+   "participant": "nicol_bolas",
+   "card": "Nicol Bolas, Dragon-God",
+   "oracle_id": "581eedc4-efe4-4ae4-baf2-88071e7e6f6d",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "AKH023",
+   "pack": "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json",
+   "participant": "nicol_bolas",
+   "card": "Nicol Bolas, God-Pharaoh",
+   "oracle_id": "cb33e07b-9599-4979-991f-df0c43ddac31",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "hou"
+   ]
+  },
+  {
+   "claim": "AKH023",
+   "pack": "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json",
+   "participant": "nicol_bolas",
+   "card": "Nicol Bolas, Planeswalker",
+   "oracle_id": "05e9b55e-6329-48ec-b7d7-24c6b9692244",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "AKH023",
+   "pack": "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json",
+   "participant": "nicol_bolas",
+   "card": "Nicol Bolas, the Deceiver",
+   "oracle_id": "524b00ea-0372-40f9-a6a1-76a8497a1ea6",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "hou"
+   ]
+  },
+  {
+   "claim": "AKH023",
+   "pack": "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json",
+   "participant": "nicol_bolas",
+   "card": "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+   "oracle_id": "55e4b27e-5447-4fc2-8cae-a03e344600c6",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "AKH024",
+   "pack": "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json",
+   "participant": "nicol_bolas",
+   "card": "Nicol Bolas",
+   "oracle_id": "e26bf6a9-b31c-4bc0-b55b-c01f2f69be6b",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "AKH024",
+   "pack": "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json",
+   "participant": "nicol_bolas",
+   "card": "Nicol Bolas, Dragon-God",
+   "oracle_id": "581eedc4-efe4-4ae4-baf2-88071e7e6f6d",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "AKH024",
+   "pack": "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json",
+   "participant": "nicol_bolas",
+   "card": "Nicol Bolas, God-Pharaoh",
+   "oracle_id": "cb33e07b-9599-4979-991f-df0c43ddac31",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "hou"
+   ]
+  },
+  {
+   "claim": "AKH024",
+   "pack": "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json",
+   "participant": "nicol_bolas",
+   "card": "Nicol Bolas, Planeswalker",
+   "oracle_id": "05e9b55e-6329-48ec-b7d7-24c6b9692244",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "AKH024",
+   "pack": "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json",
+   "participant": "nicol_bolas",
+   "card": "Nicol Bolas, the Deceiver",
+   "oracle_id": "524b00ea-0372-40f9-a6a1-76a8497a1ea6",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "hou"
+   ]
+  },
+  {
+   "claim": "AKH024",
+   "pack": "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json",
+   "participant": "nicol_bolas",
+   "card": "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+   "oracle_id": "55e4b27e-5447-4fc2-8cae-a03e344600c6",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "AKH025",
+   "pack": "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json",
+   "participant": "hazoret",
+   "card": "Hazoret the Fervent",
+   "oracle_id": "2c6934b6-67c4-457a-ae8f-59914fd8f256",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "akh"
+   ]
+  },
+  {
+   "claim": "AKH025",
+   "pack": "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json",
+   "participant": "hazoret",
+   "card": "Hazoret, Godseeker",
+   "oracle_id": "6c5d8599-75ca-4479-a02b-1b257b7aea57",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "AKH025",
+   "pack": "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json",
+   "participant": "rhonas",
+   "card": "Rhonas the Indomitable",
+   "oracle_id": "5d2acd3e-4782-42e3-bcd5-80f8b439cc28",
+   "tier": "ART_IN_CITED_SOURCE",
+   "cited_pages_crediting_art": [
+    "https://magic.wizards.com/en/news/magic-story/hour-glory-2017-06-21"
+   ]
+  },
+  {
+   "claim": "AKH026",
+   "pack": "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json",
+   "participant": "rhonas",
+   "card": "Rhonas the Indomitable",
+   "oracle_id": "5d2acd3e-4782-42e3-bcd5-80f8b439cc28",
+   "tier": "ART_IN_CITED_SOURCE",
+   "cited_pages_crediting_art": [
+    "https://magic.wizards.com/en/news/magic-story/hour-glory-2017-06-21"
+   ]
+  },
+  {
+   "claim": "AKH026",
+   "pack": "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json",
+   "participant": "scorpion_god",
+   "card": "The Scorpion God",
+   "oracle_id": "aff223d4-6338-460d-a4d5-d45f522864dc",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "hou"
+   ]
+  },
+  {
+   "claim": "AKH027",
+   "pack": "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json",
+   "participant": "locust_god",
+   "card": "The Locust God",
+   "oracle_id": "e025a714-02da-4b0c-8021-cf3e8dc9b19e",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "hou"
+   ]
+  },
+  {
+   "claim": "AKH028",
+   "pack": "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json",
+   "participant": "hapatra",
+   "card": "Hapatra, Vizier of Poisons",
+   "oracle_id": "a8ddea1c-8d80-49c1-a5b4-630d5e51d66e",
+   "tier": "ART_IN_CITED_SOURCE",
+   "cited_pages_crediting_art": [
+    "https://magic.wizards.com/en/news/magic-story/hour-promise-2017-06-28"
+   ]
+  },
+  {
+   "claim": "AKH028",
+   "pack": "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json",
+   "participant": "hapatra",
+   "card": "Hapatra, the Desert Fang",
+   "oracle_id": "6894345f-52a6-46e4-b278-0783087daee1",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "AKH028",
+   "pack": "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json",
+   "participant": "hapatra",
+   "card": "Hapatra, the Desert Frost",
+   "oracle_id": "ac0f161a-e5ec-4a95-9f37-305bdf1ac900",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "AKH028",
+   "pack": "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json",
+   "participant": "rhonas",
+   "card": "Rhonas the Indomitable",
+   "oracle_id": "5d2acd3e-4782-42e3-bcd5-80f8b439cc28",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "akh"
+   ]
+  },
+  {
+   "claim": "AKH029",
+   "pack": "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json",
+   "participant": "hazoret",
+   "card": "Hazoret the Fervent",
+   "oracle_id": "2c6934b6-67c4-457a-ae8f-59914fd8f256",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "akh"
+   ]
+  },
+  {
+   "claim": "AKH029",
+   "pack": "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json",
+   "participant": "hazoret",
+   "card": "Hazoret, Godseeker",
+   "oracle_id": "6c5d8599-75ca-4479-a02b-1b257b7aea57",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "AKH029",
+   "pack": "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json",
+   "participant": "samut",
+   "card": "Samut, Hazoret's Champion",
+   "oracle_id": "add02a36-8811-438b-a8e1-f5c8a8146b4e",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "AKH029",
+   "pack": "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json",
+   "participant": "samut",
+   "card": "Samut, Tyrant Smasher",
+   "oracle_id": "80405d7a-f533-44bd-ac85-890476cf2b78",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "AKH029",
+   "pack": "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json",
+   "participant": "samut",
+   "card": "Samut, Tyrant of Naktamun",
+   "oracle_id": "a275f7ac-7dae-4422-875a-f34f24b6f28a",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "AKH029",
+   "pack": "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json",
+   "participant": "samut",
+   "card": "Samut, Vizier of Naktamun",
+   "oracle_id": "178b3fdf-dbee-4245-a811-b21ff8a24f66",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "AKH029",
+   "pack": "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json",
+   "participant": "samut",
+   "card": "Samut, Voice of Dissent",
+   "oracle_id": "b1eee275-5106-4c8d-a497-d7945ad81d74",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "akh"
+   ]
+  },
+  {
+   "claim": "AKH029",
+   "pack": "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json",
+   "participant": "samut",
+   "card": "Samut, the Driving Force",
+   "oracle_id": "ee89c719-5ae8-4316-bfd0-cfe3684b5859",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "AKH029",
+   "pack": "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json",
+   "participant": "samut",
+   "card": "Samut, the Tested",
+   "oracle_id": "fffdc2ac-bde4-4e4c-a5bd-0e6c6e49ad91",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "hou"
+   ]
+  },
+  {
    "claim": "NEO001",
    "pack": "pack_p5_kamigawa_neon_dynasty_2026-10-30.json",
    "participant": "the_wanderer",
@@ -19671,6 +20296,976 @@
    "card": "Gideon Jura",
    "oracle_id": "7340dbcb-4b26-4038-be8c-a89e76294221",
    "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TD001",
+   "pack": "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+   "participant": "sarkhan_vol",
+   "card": "Sarkhan Unbroken",
+   "oracle_id": "1d37b453-f10c-42f2-8390-626a8a8eb27c",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TD001",
+   "pack": "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+   "participant": "sarkhan_vol",
+   "card": "Sarkhan Vol",
+   "oracle_id": "d902074a-2a2b-42b7-a1e5-750862c64fbe",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TD001",
+   "pack": "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+   "participant": "sarkhan_vol",
+   "card": "Sarkhan the Mad",
+   "oracle_id": "e70a93e4-2fe7-46d3-8958-153ab2fcfd99",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TD001",
+   "pack": "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+   "participant": "sarkhan_vol",
+   "card": "Sarkhan the Masterless",
+   "oracle_id": "67dbc5dd-6d05-43e7-83f7-70e10eb54807",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TD001",
+   "pack": "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+   "participant": "sarkhan_vol",
+   "card": "Sarkhan, Dragon Ascendant",
+   "oracle_id": "71cb48e2-2328-471c-a04a-7b6461f378f4",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "tdm"
+   ]
+  },
+  {
+   "claim": "TD001",
+   "pack": "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+   "participant": "sarkhan_vol",
+   "card": "Sarkhan, Dragonsoul",
+   "oracle_id": "c2c1e44c-2a19-466f-a6d5-4cb71a940b86",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TD001",
+   "pack": "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+   "participant": "sarkhan_vol",
+   "card": "Sarkhan, Fireblood",
+   "oracle_id": "074cbe14-a0c8-4772-955a-b4052333d6ce",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TD001",
+   "pack": "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+   "participant": "sarkhan_vol",
+   "card": "Sarkhan, Soul Aflame",
+   "oracle_id": "bbcae463-ba05-4cfe-9c25-13f2e64698c7",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TD001",
+   "pack": "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+   "participant": "sarkhan_vol",
+   "card": "Sarkhan, the Dragonspeaker",
+   "oracle_id": "80c26f58-04b0-4db0-b84e-9b136609abe0",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TD001",
+   "pack": "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+   "participant": "ugin",
+   "card": "Ugin, Eye of the Storms",
+   "oracle_id": "5c58353a-fd60-4528-bf0d-669626cda0b2",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "tdm"
+   ]
+  },
+  {
+   "claim": "TD001",
+   "pack": "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+   "participant": "ugin",
+   "card": "Ugin, the Ineffable",
+   "oracle_id": "18bdc181-9592-4147-81fb-7f83ce137f70",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TD001",
+   "pack": "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+   "participant": "ugin",
+   "card": "Ugin, the Spirit Dragon",
+   "oracle_id": "eecb3047-a563-441a-9175-200421981ac3",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TD002",
+   "pack": "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+   "participant": "ugin",
+   "card": "Ugin, Eye of the Storms",
+   "oracle_id": "5c58353a-fd60-4528-bf0d-669626cda0b2",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "tdm"
+   ]
+  },
+  {
+   "claim": "TD002",
+   "pack": "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+   "participant": "ugin",
+   "card": "Ugin, the Ineffable",
+   "oracle_id": "18bdc181-9592-4147-81fb-7f83ce137f70",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TD002",
+   "pack": "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+   "participant": "ugin",
+   "card": "Ugin, the Spirit Dragon",
+   "oracle_id": "eecb3047-a563-441a-9175-200421981ac3",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TD003",
+   "pack": "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+   "participant": "ugin",
+   "card": "Ugin, Eye of the Storms",
+   "oracle_id": "5c58353a-fd60-4528-bf0d-669626cda0b2",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "tdm"
+   ]
+  },
+  {
+   "claim": "TD003",
+   "pack": "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+   "participant": "ugin",
+   "card": "Ugin, the Ineffable",
+   "oracle_id": "18bdc181-9592-4147-81fb-7f83ce137f70",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TD003",
+   "pack": "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+   "participant": "ugin",
+   "card": "Ugin, the Spirit Dragon",
+   "oracle_id": "eecb3047-a563-441a-9175-200421981ac3",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TD004",
+   "pack": "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+   "participant": "ugin",
+   "card": "Ugin, Eye of the Storms",
+   "oracle_id": "5c58353a-fd60-4528-bf0d-669626cda0b2",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "tdm"
+   ]
+  },
+  {
+   "claim": "TD004",
+   "pack": "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+   "participant": "ugin",
+   "card": "Ugin, the Ineffable",
+   "oracle_id": "18bdc181-9592-4147-81fb-7f83ce137f70",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TD004",
+   "pack": "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+   "participant": "ugin",
+   "card": "Ugin, the Spirit Dragon",
+   "oracle_id": "eecb3047-a563-441a-9175-200421981ac3",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TD006",
+   "pack": "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+   "participant": "narset",
+   "card": "Narset Transcendent",
+   "oracle_id": "e1de0c94-0ecc-425a-9b92-27c2745d07e7",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TD006",
+   "pack": "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+   "participant": "narset",
+   "card": "Narset of the Ancient Way",
+   "oracle_id": "b7ac6e89-941f-4ad9-a437-38ec38ec5263",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TD006",
+   "pack": "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+   "participant": "narset",
+   "card": "Narset, Enlightened Exile",
+   "oracle_id": "d92725de-ead0-4a6c-83db-55ec3acc7184",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TD006",
+   "pack": "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+   "participant": "narset",
+   "card": "Narset, Enlightened Master",
+   "oracle_id": "aeaf7768-ed67-487d-8506-e667babb88ba",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TD006",
+   "pack": "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+   "participant": "narset",
+   "card": "Narset, Jeskai Waymaster",
+   "oracle_id": "1a2a74b8-0689-4959-9348-02cc832194cf",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "tdm"
+   ]
+  },
+  {
+   "claim": "TD006",
+   "pack": "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+   "participant": "narset",
+   "card": "Narset, Parter of Veils",
+   "oracle_id": "ab26fbe2-e808-48b9-8d0d-3fbb6c3d554f",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TD010",
+   "pack": "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+   "participant": "narset",
+   "card": "Narset Transcendent",
+   "oracle_id": "e1de0c94-0ecc-425a-9b92-27c2745d07e7",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TD010",
+   "pack": "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+   "participant": "narset",
+   "card": "Narset of the Ancient Way",
+   "oracle_id": "b7ac6e89-941f-4ad9-a437-38ec38ec5263",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TD010",
+   "pack": "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+   "participant": "narset",
+   "card": "Narset, Enlightened Exile",
+   "oracle_id": "d92725de-ead0-4a6c-83db-55ec3acc7184",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TD010",
+   "pack": "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+   "participant": "narset",
+   "card": "Narset, Enlightened Master",
+   "oracle_id": "aeaf7768-ed67-487d-8506-e667babb88ba",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TD010",
+   "pack": "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+   "participant": "narset",
+   "card": "Narset, Jeskai Waymaster",
+   "oracle_id": "1a2a74b8-0689-4959-9348-02cc832194cf",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "tdm"
+   ]
+  },
+  {
+   "claim": "TD010",
+   "pack": "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+   "participant": "narset",
+   "card": "Narset, Parter of Veils",
+   "oracle_id": "ab26fbe2-e808-48b9-8d0d-3fbb6c3d554f",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TD011",
+   "pack": "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+   "participant": "elspeth_tirel",
+   "card": "Elspeth Tirel",
+   "oracle_id": "5f815e69-fdd6-4186-9317-25f5c7e0b08e",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TD011",
+   "pack": "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+   "participant": "narset",
+   "card": "Narset Transcendent",
+   "oracle_id": "e1de0c94-0ecc-425a-9b92-27c2745d07e7",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TD011",
+   "pack": "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+   "participant": "narset",
+   "card": "Narset of the Ancient Way",
+   "oracle_id": "b7ac6e89-941f-4ad9-a437-38ec38ec5263",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TD011",
+   "pack": "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+   "participant": "narset",
+   "card": "Narset, Enlightened Exile",
+   "oracle_id": "d92725de-ead0-4a6c-83db-55ec3acc7184",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TD011",
+   "pack": "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+   "participant": "narset",
+   "card": "Narset, Enlightened Master",
+   "oracle_id": "aeaf7768-ed67-487d-8506-e667babb88ba",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TD011",
+   "pack": "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+   "participant": "narset",
+   "card": "Narset, Jeskai Waymaster",
+   "oracle_id": "1a2a74b8-0689-4959-9348-02cc832194cf",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "tdm"
+   ]
+  },
+  {
+   "claim": "TD011",
+   "pack": "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+   "participant": "narset",
+   "card": "Narset, Parter of Veils",
+   "oracle_id": "ab26fbe2-e808-48b9-8d0d-3fbb6c3d554f",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TD012",
+   "pack": "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+   "participant": "cori_mountain_monastery",
+   "card": "Cori Mountain Monastery",
+   "oracle_id": "35c60b66-8c85-432e-90fe-99c19d21ed15",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "tdm"
+   ]
+  },
+  {
+   "claim": "TD013",
+   "pack": "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani Goldmane",
+   "oracle_id": "dfb5f660-fd8b-4b7b-934c-6a71cd182f15",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TD013",
+   "pack": "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani Resolute",
+   "oracle_id": "0d60c095-4c6c-4618-8ef3-508f3d454efa",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TD013",
+   "pack": "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani Steadfast",
+   "oracle_id": "90249526-1875-450a-882d-bf6f6bfd37a6",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TD013",
+   "pack": "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani Unrelenting",
+   "oracle_id": "71620e92-45a4-49cb-94d5-348013ecf886",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TD013",
+   "pack": "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani Unyielding",
+   "oracle_id": "8a70ddc5-bb51-45eb-96f2-8ecaecac0cc2",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TD013",
+   "pack": "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani Vengeant",
+   "oracle_id": "f953afdf-96f7-4851-994c-1617e8f5e5c9",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TD013",
+   "pack": "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani, Adversary of Tyrants",
+   "oracle_id": "b25bea73-7444-4ee2-8022-611461506117",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TD013",
+   "pack": "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani, Caller of the Pride",
+   "oracle_id": "1d5ff280-7f4d-4801-aefd-9b6e6b1f2818",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TD013",
+   "pack": "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani, Inspiring Leader",
+   "oracle_id": "15474e82-94b4-47e1-b91c-3deaf4dbffd6",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TD013",
+   "pack": "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani, Mentor of Heroes",
+   "oracle_id": "a612bd38-069f-4bdc-9aa6-c172435e3841",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TD013",
+   "pack": "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani, Nacatl Pariah // Ajani, Nacatl Avenger",
+   "oracle_id": "2588f348-d7a3-46c8-9ace-dca53ed5ef99",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TD013",
+   "pack": "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani, Outland Chaperone",
+   "oracle_id": "3ba809ce-3556-415c-9fcc-291cb10a43cd",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TD013",
+   "pack": "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani, Sleeper Agent",
+   "oracle_id": "37714eb9-a39d-4534-a2d3-27908c418f8a",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TD013",
+   "pack": "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani, Strength of the Pride",
+   "oracle_id": "c3974ec7-7af0-4b65-baf6-4c1c4fe8a5c4",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TD013",
+   "pack": "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani, Valiant Protector",
+   "oracle_id": "542423cb-fbfb-4a2f-9f6d-87b273a95e96",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TD013",
+   "pack": "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani, Wise Counselor",
+   "oracle_id": "341f198b-beb6-4a44-af91-a64a5989c865",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TD013",
+   "pack": "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani, the Greathearted",
+   "oracle_id": "f5d9be71-91d0-4166-ba58-cbbf5d490c40",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TD013",
+   "pack": "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+   "participant": "elesh_norn",
+   "card": "Elesh Norn // The Argent Etchings",
+   "oracle_id": "650ed75c-20b0-45b8-a4d4-813e0369aaf1",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TD013",
+   "pack": "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+   "participant": "elesh_norn",
+   "card": "Elesh Norn, Grand Cenobite",
+   "oracle_id": "958d71ff-c9f7-46f0-96ca-79e7f4d65a16",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TD013",
+   "pack": "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+   "participant": "elesh_norn",
+   "card": "Elesh Norn, Mother of Machines",
+   "oracle_id": "5ade11c0-41dd-4b6a-9f5b-c5903a3a0d7f",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TD015",
+   "pack": "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+   "participant": "taigam",
+   "card": "Taigam, Master Opportunist",
+   "oracle_id": "49f2cbc3-bd03-48e6-b1c4-d7f315b8579d",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "tdm"
+   ]
+  },
+  {
+   "claim": "TD015",
+   "pack": "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+   "participant": "taigam",
+   "card": "Taigam, Ojutai Master",
+   "oracle_id": "e4cf3710-8600-4f95-abb2-faefdc25693d",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TD015",
+   "pack": "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+   "participant": "taigam",
+   "card": "Taigam, Sidisi's Hand",
+   "oracle_id": "677aa518-072b-46d2-b0da-da57c7bc2bba",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TD015",
+   "pack": "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+   "participant": "sarkhan_vol",
+   "card": "Sarkhan Unbroken",
+   "oracle_id": "1d37b453-f10c-42f2-8390-626a8a8eb27c",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TD015",
+   "pack": "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+   "participant": "sarkhan_vol",
+   "card": "Sarkhan Vol",
+   "oracle_id": "d902074a-2a2b-42b7-a1e5-750862c64fbe",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TD015",
+   "pack": "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+   "participant": "sarkhan_vol",
+   "card": "Sarkhan the Mad",
+   "oracle_id": "e70a93e4-2fe7-46d3-8958-153ab2fcfd99",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TD015",
+   "pack": "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+   "participant": "sarkhan_vol",
+   "card": "Sarkhan the Masterless",
+   "oracle_id": "67dbc5dd-6d05-43e7-83f7-70e10eb54807",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TD015",
+   "pack": "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+   "participant": "sarkhan_vol",
+   "card": "Sarkhan, Dragon Ascendant",
+   "oracle_id": "71cb48e2-2328-471c-a04a-7b6461f378f4",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "tdm"
+   ]
+  },
+  {
+   "claim": "TD015",
+   "pack": "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+   "participant": "sarkhan_vol",
+   "card": "Sarkhan, Dragonsoul",
+   "oracle_id": "c2c1e44c-2a19-466f-a6d5-4cb71a940b86",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TD015",
+   "pack": "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+   "participant": "sarkhan_vol",
+   "card": "Sarkhan, Fireblood",
+   "oracle_id": "074cbe14-a0c8-4772-955a-b4052333d6ce",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TD015",
+   "pack": "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+   "participant": "sarkhan_vol",
+   "card": "Sarkhan, Soul Aflame",
+   "oracle_id": "bbcae463-ba05-4cfe-9c25-13f2e64698c7",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TD015",
+   "pack": "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+   "participant": "sarkhan_vol",
+   "card": "Sarkhan, the Dragonspeaker",
+   "oracle_id": "80c26f58-04b0-4db0-b84e-9b136609abe0",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TD017",
+   "pack": "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+   "participant": "felothar",
+   "card": "Felothar the Steadfast",
+   "oracle_id": "2b3f791a-d672-46fb-a03a-96e19f2c3121",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TD017",
+   "pack": "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+   "participant": "felothar",
+   "card": "Felothar, Dawn of the Abzan",
+   "oracle_id": "fd666669-ad23-4e41-b78c-1cd7b82eb8b4",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "tdm"
+   ]
+  },
+  {
+   "claim": "TD018",
+   "pack": "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani Goldmane",
+   "oracle_id": "dfb5f660-fd8b-4b7b-934c-6a71cd182f15",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TD018",
+   "pack": "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani Resolute",
+   "oracle_id": "0d60c095-4c6c-4618-8ef3-508f3d454efa",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TD018",
+   "pack": "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani Steadfast",
+   "oracle_id": "90249526-1875-450a-882d-bf6f6bfd37a6",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TD018",
+   "pack": "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani Unrelenting",
+   "oracle_id": "71620e92-45a4-49cb-94d5-348013ecf886",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TD018",
+   "pack": "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani Unyielding",
+   "oracle_id": "8a70ddc5-bb51-45eb-96f2-8ecaecac0cc2",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TD018",
+   "pack": "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani Vengeant",
+   "oracle_id": "f953afdf-96f7-4851-994c-1617e8f5e5c9",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TD018",
+   "pack": "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani, Adversary of Tyrants",
+   "oracle_id": "b25bea73-7444-4ee2-8022-611461506117",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TD018",
+   "pack": "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani, Caller of the Pride",
+   "oracle_id": "1d5ff280-7f4d-4801-aefd-9b6e6b1f2818",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TD018",
+   "pack": "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani, Inspiring Leader",
+   "oracle_id": "15474e82-94b4-47e1-b91c-3deaf4dbffd6",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TD018",
+   "pack": "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani, Mentor of Heroes",
+   "oracle_id": "a612bd38-069f-4bdc-9aa6-c172435e3841",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TD018",
+   "pack": "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani, Nacatl Pariah // Ajani, Nacatl Avenger",
+   "oracle_id": "2588f348-d7a3-46c8-9ace-dca53ed5ef99",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TD018",
+   "pack": "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani, Outland Chaperone",
+   "oracle_id": "3ba809ce-3556-415c-9fcc-291cb10a43cd",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TD018",
+   "pack": "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani, Sleeper Agent",
+   "oracle_id": "37714eb9-a39d-4534-a2d3-27908c418f8a",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TD018",
+   "pack": "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani, Strength of the Pride",
+   "oracle_id": "c3974ec7-7af0-4b65-baf6-4c1c4fe8a5c4",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TD018",
+   "pack": "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani, Valiant Protector",
+   "oracle_id": "542423cb-fbfb-4a2f-9f6d-87b273a95e96",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TD018",
+   "pack": "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani, Wise Counselor",
+   "oracle_id": "341f198b-beb6-4a44-af91-a64a5989c865",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TD018",
+   "pack": "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani, the Greathearted",
+   "oracle_id": "f5d9be71-91d0-4166-ba58-cbbf5d490c40",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TD018",
+   "pack": "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+   "participant": "elspeth_tirel",
+   "card": "Elspeth Tirel",
+   "oracle_id": "5f815e69-fdd6-4186-9317-25f5c7e0b08e",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TD019",
+   "pack": "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+   "participant": "ureni",
+   "card": "Ureni of the Unwritten",
+   "oracle_id": "99c2d3ef-e5b4-48cd-b3f5-de9b02c7c36a",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TD019",
+   "pack": "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+   "participant": "ureni",
+   "card": "Ureni, the Song Unending",
+   "oracle_id": "1c995c80-3301-409b-822b-9297aa260823",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "tdm"
+   ]
+  },
+  {
+   "claim": "TD020",
+   "pack": "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+   "participant": "vraska",
+   "card": "Vraska the Unseen",
+   "oracle_id": "0d2bbce0-8c27-4b82-ab62-51a0c3cfc9b0",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TD020",
+   "pack": "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+   "participant": "vraska",
+   "card": "Vraska, Betrayal's Sting",
+   "oracle_id": "05d09c55-f551-4cb4-a8d2-4811dccc848d",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TD020",
+   "pack": "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+   "participant": "vraska",
+   "card": "Vraska, Golgari Queen",
+   "oracle_id": "131096a3-2d53-4ec2-96d3-fcb58e698a13",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TD020",
+   "pack": "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+   "participant": "vraska",
+   "card": "Vraska, Regal Gorgon",
+   "oracle_id": "7616e834-4852-40c8-9de6-d89f96119f12",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TD020",
+   "pack": "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+   "participant": "vraska",
+   "card": "Vraska, Relic Seeker",
+   "oracle_id": "3c037103-5af0-40a8-bbbe-7f3f5958b6e9",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TD020",
+   "pack": "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+   "participant": "vraska",
+   "card": "Vraska, Scheming Gorgon",
+   "oracle_id": "83045a9c-57da-411f-80aa-56178d14856b",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TD020",
+   "pack": "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+   "participant": "vraska",
+   "card": "Vraska, Soul of Stone",
+   "oracle_id": "cad63b31-667b-4518-bc49-be4ffb82bc63",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TD020",
+   "pack": "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+   "participant": "vraska",
+   "card": "Vraska, Swarm's Eminence",
+   "oracle_id": "cff8b4e9-c60c-42c1-ad2e-74ae9d7f3afb",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TD020",
+   "pack": "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+   "participant": "vraska",
+   "card": "Vraska, the Cutting Glare",
+   "oracle_id": "580de511-863c-4b7a-9d2e-fcdf6e12d54b",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TD020",
+   "pack": "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+   "participant": "vraska",
+   "card": "Vraska, the Silencer",
+   "oracle_id": "e7c5a568-3855-4a20-9edf-01a8a6a4ba97",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TD020",
+   "pack": "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+   "participant": "jace_beleren",
+   "card": "Jace Beleren",
+   "oracle_id": "cc2b6e58-2d6f-495e-95f3-9496105c4cba",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TD021",
+   "pack": "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+   "participant": "jace_beleren",
+   "card": "Jace Beleren",
+   "oracle_id": "cc2b6e58-2d6f-495e-95f3-9496105c4cba",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TD022",
+   "pack": "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+   "participant": "sarkhan_vol",
+   "card": "Sarkhan Unbroken",
+   "oracle_id": "1d37b453-f10c-42f2-8390-626a8a8eb27c",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TD022",
+   "pack": "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+   "participant": "sarkhan_vol",
+   "card": "Sarkhan Vol",
+   "oracle_id": "d902074a-2a2b-42b7-a1e5-750862c64fbe",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TD022",
+   "pack": "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+   "participant": "sarkhan_vol",
+   "card": "Sarkhan the Mad",
+   "oracle_id": "e70a93e4-2fe7-46d3-8958-153ab2fcfd99",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TD022",
+   "pack": "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+   "participant": "sarkhan_vol",
+   "card": "Sarkhan the Masterless",
+   "oracle_id": "67dbc5dd-6d05-43e7-83f7-70e10eb54807",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TD022",
+   "pack": "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+   "participant": "sarkhan_vol",
+   "card": "Sarkhan, Dragon Ascendant",
+   "oracle_id": "71cb48e2-2328-471c-a04a-7b6461f378f4",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "tdm"
+   ]
+  },
+  {
+   "claim": "TD022",
+   "pack": "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+   "participant": "sarkhan_vol",
+   "card": "Sarkhan, Dragonsoul",
+   "oracle_id": "c2c1e44c-2a19-466f-a6d5-4cb71a940b86",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TD022",
+   "pack": "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+   "participant": "sarkhan_vol",
+   "card": "Sarkhan, Fireblood",
+   "oracle_id": "074cbe14-a0c8-4772-955a-b4052333d6ce",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TD022",
+   "pack": "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+   "participant": "sarkhan_vol",
+   "card": "Sarkhan, Soul Aflame",
+   "oracle_id": "bbcae463-ba05-4cfe-9c25-13f2e64698c7",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TD022",
+   "pack": "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+   "participant": "sarkhan_vol",
+   "card": "Sarkhan, the Dragonspeaker",
+   "oracle_id": "80c26f58-04b0-4db0-b84e-9b136609abe0",
+   "tier": "NAMED_PARTICIPANT"
   }
  ],
  "by_pack": {
@@ -19745,11 +21340,11 @@
    "NAMED_PARTICIPANT": 32
   },
   "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json": {
-   "claims": 17,
-   "claims_anchored": 17,
-   "ART_IN_CITED_SOURCE": 0,
-   "PRINTED_IN_STORY_SET": 26,
-   "NAMED_PARTICIPANT": 64
+   "claims": 31,
+   "claims_anchored": 29,
+   "ART_IN_CITED_SOURCE": 5,
+   "PRINTED_IN_STORY_SET": 47,
+   "NAMED_PARTICIPANT": 106
   },
   "pack_p5_battle_for_zendikar_oath_2026-10-30.json": {
    "claims": 26,
@@ -19884,6 +21479,13 @@
    "PRINTED_IN_STORY_SET": 6,
    "NAMED_PARTICIPANT": 11
   },
+  "pack_p5_tarkir_dragonstorm_2026-10-30.json": {
+   "claims": 22,
+   "claims_anchored": 16,
+   "ART_IN_CITED_SOURCE": 0,
+   "PRINTED_IN_STORY_SET": 14,
+   "NAMED_PARTICIPANT": 102
+  },
   "pack_p5_theros_beyond_death_2026-10-30.json": {
    "claims": 14,
    "claims_anchored": 13,
@@ -19914,12 +21516,12 @@
   }
  },
  "counts": {
-  "claims": 567,
-  "claims_anchored": 507,
-  "anchors": 2287,
-  "ART_IN_CITED_SOURCE": 54,
-  "PRINTED_IN_STORY_SET": 368,
-  "NAMED_PARTICIPANT": 1865
+  "claims": 603,
+  "claims_anchored": 535,
+  "anchors": 2471,
+  "ART_IN_CITED_SOURCE": 59,
+  "PRINTED_IN_STORY_SET": 403,
+  "NAMED_PARTICIPANT": 2009
  },
- "content_sha256": "c442854cf7a834b5c7673242c288fdbc4e7ba71d07211b748c6ad1cc0023d2bf"
+ "content_sha256": "d854ff0e09aa189d93e340ccd334c585903aa1c8b4e894840061c20a8634c20f"
 }

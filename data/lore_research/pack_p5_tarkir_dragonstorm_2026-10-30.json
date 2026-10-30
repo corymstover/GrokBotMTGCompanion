@@ -1,0 +1,729 @@
+{
+ "schema": "multiverse-claim-pack/v1",
+ "pack_id": "pack_p5_tarkir_dragonstorm",
+ "evidence_cutoff": "2026-10-30",
+ "status": "PRELIMINARY_RESEARCH (not owner approved, not certified)",
+ "arc": "TDM",
+ "scope": "Targeted Phase 5 extraction from the official Tarkir: Dragonstorm Magic Story (2025-03-03 to 2025-03-17): the seven main episodes, the five clan side stories and the two-part Planeswalker's Guide. One or two claims per page; not an exhaustive reading. PRELIMINARY_RESEARCH; not owner approved.",
+ "built_by": "scripts/story_claim_pipeline.py from data/lore_research/claim_specs/pack_p5_tarkir_dragonstorm.spec.json",
+ "source_register": {
+  "tdm_guide1": {
+   "title": "Planeswalker's Guide to Tarkir: Dragonstorm, Part 1",
+   "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-tarkir-dragonstorm-part-1",
+   "kind": "official_planeswalkers_guide",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2025-02-21"
+  },
+  "tdm_guide2": {
+   "title": "Planeswalker's Guide to Tarkir: Dragonstorm, Part 2",
+   "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-tarkir-dragonstorm-part-2",
+   "kind": "official_planeswalkers_guide",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2025-02-24"
+  },
+  "tdm_abzan": {
+   "title": "Tarkir: Dragonstorm | Abzan: Siege Blossoms",
+   "url": "https://magic.wizards.com/en/news/magic-story/tarkir-dragonstorm-abzan-siege-blossoms",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2025-03-03"
+  },
+  "tdm_ep1": {
+   "title": "Tarkir: Dragonstorm | Episode 1: Stories and Their Bones",
+   "url": "https://magic.wizards.com/en/news/magic-story/tarkir-dragonstorm-episode-1-stories-and-their-bones",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2025-03-03"
+  },
+  "tdm_ep2": {
+   "title": "Tarkir: Dragonstorm | Episode 2: Omens",
+   "url": "https://magic.wizards.com/en/news/magic-story/tarkir-dragonstorm-episode-2-omens",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2025-03-04"
+  },
+  "tdm_jeskai": {
+   "title": "Tarkir: Dragonstorm | Jeskai: The Unknown Way",
+   "url": "https://magic.wizards.com/en/news/magic-story/tarkir-dragonstorm-jeskai-the-unknown-way",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2025-03-05"
+  },
+  "tdm_ep3": {
+   "title": "Tarkir: Dragonstorm | Episode 3: What the Past Devours",
+   "url": "https://magic.wizards.com/en/news/magic-story/tarkir-dragonstorm-episode-3-what-the-past-devours",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2025-03-06"
+  },
+  "tdm_sultai": {
+   "title": "Tarkir: Dragonstorm | Sultai: Betrayal",
+   "url": "https://magic.wizards.com/en/news/magic-story/tarkir-dragonstorm-sultai-betrayal",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2025-03-07"
+  },
+  "tdm_ep4": {
+   "title": "Tarkir: Dragonstorm | Episode 4: Heart of Fire",
+   "url": "https://magic.wizards.com/en/news/magic-story/tarkir-dragonstorm-episode-4-heart-of-fire",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2025-03-10"
+  },
+  "tdm_mardu": {
+   "title": "Tarkir: Dragonstorm | Mardu: Where Lightning Tells Our Story",
+   "url": "https://magic.wizards.com/en/news/magic-story/tarkir-dragonstorm-mardu-where-lightning-tells-our-story",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2025-03-11"
+  },
+  "tdm_ep5": {
+   "title": "Tarkir: Dragonstorm | Episode 5: Recursion",
+   "url": "https://magic.wizards.com/en/news/magic-story/tarkir-dragonstorm-episode-5-recursion",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2025-03-12"
+  },
+  "tdm_temur": {
+   "title": "Tarkir: Dragonstorm | Temur: Together Survives the Pack",
+   "url": "https://magic.wizards.com/en/news/magic-story/tarkir-dragonstorm-temur-together-survives-the-pack",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2025-03-13"
+  },
+  "tdm_e6": {
+   "title": "Tarkir: Dragonstorm | Episode 6: How Wretched Love",
+   "url": "https://magic.wizards.com/en/news/magic-story/tarkir-dragonstorm-episode-6-how-wretched-love",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2025-03-14"
+  },
+  "tdm_e7": {
+   "title": "Tarkir: Dragonstorm | Episode 7: Return",
+   "url": "https://magic.wizards.com/en/news/magic-story/tarkir-dragonstorm-episode-7-return",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2025-03-17"
+  }
+ },
+ "entities": [
+  {
+   "id": "sarkhan_vol",
+   "type": "Character",
+   "name": "Sarkhan Vol"
+  },
+  {
+   "id": "ugin",
+   "type": "Character",
+   "name": "Ugin"
+  },
+  {
+   "id": "nicol_bolas",
+   "type": "Character",
+   "name": "Nicol Bolas"
+  },
+  {
+   "id": "tarkir",
+   "type": "Plane",
+   "name": "Tarkir"
+  },
+  {
+   "id": "dragonstorms",
+   "type": "Concept",
+   "name": "Tarkir's dragonstorms"
+  },
+  {
+   "id": "narset",
+   "type": "Character",
+   "name": "Narset"
+  },
+  {
+   "id": "tarkir_rebellion",
+   "type": "Faction",
+   "name": "The rebellion against the dragonlords"
+  },
+  {
+   "id": "crucible_spirit_dragon",
+   "type": "Place",
+   "name": "Crucible of the Spirit Dragon"
+  },
+  {
+   "id": "dragonlords",
+   "type": "Faction",
+   "name": "The dragonlords of Tarkir"
+  },
+  {
+   "id": "sultai",
+   "type": "Faction",
+   "name": "The Sultai"
+  },
+  {
+   "id": "mardu",
+   "type": "Faction",
+   "name": "The Mardu"
+  },
+  {
+   "id": "abzan",
+   "type": "Faction",
+   "name": "The Abzan"
+  },
+  {
+   "id": "jeskai",
+   "type": "Faction",
+   "name": "The Jeskai"
+  },
+  {
+   "id": "temur",
+   "type": "Faction",
+   "name": "The Temur"
+  },
+  {
+   "id": "mehtma",
+   "type": "Character",
+   "name": "Mehtma"
+  },
+  {
+   "id": "house_fenzala",
+   "type": "Faction",
+   "name": "House Fenzala (Abzan)"
+  },
+  {
+   "id": "elspeth_tirel",
+   "type": "Character",
+   "name": "Elspeth Tirel"
+  },
+  {
+   "id": "cori_mountain_monastery",
+   "type": "Place",
+   "name": "Cori Mountain Monastery"
+  },
+  {
+   "id": "ajani",
+   "type": "Character",
+   "name": "Ajani"
+  },
+  {
+   "id": "elesh_norn",
+   "type": "Character",
+   "name": "Elesh Norn"
+  },
+  {
+   "id": "nishang",
+   "type": "Character",
+   "name": "Nishang"
+  },
+  {
+   "id": "titsui",
+   "type": "Character",
+   "name": "Titsui"
+  },
+  {
+   "id": "taigam",
+   "type": "Character",
+   "name": "Taigam"
+  },
+  {
+   "id": "paala",
+   "type": "Character",
+   "name": "Paala"
+  },
+  {
+   "id": "felothar",
+   "type": "Character",
+   "name": "Felothar"
+  },
+  {
+   "id": "ureni",
+   "type": "Character",
+   "name": "Ureni"
+  },
+  {
+   "id": "vraska",
+   "type": "Character",
+   "name": "Vraska"
+  },
+  {
+   "id": "jace_beleren",
+   "type": "Character",
+   "name": "Jace Beleren"
+  },
+  {
+   "id": "loot",
+   "type": "Character",
+   "name": "Loot"
+  },
+  {
+   "id": "meditation_realm",
+   "type": "Plane",
+   "name": "The Meditation Realm"
+  }
+ ],
+ "claims": [
+  {
+   "id": "TD001",
+   "subject": "sarkhan_vol",
+   "predicate": "saved",
+   "object": "ugin",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "tarkir_dragonstorm_2025",
+   "source_ids": [
+    "tdm_guide1"
+   ],
+   "evidence": [
+    {
+     "source_id": "tdm_guide1",
+     "quote": "Khanfall The dragons owe their oppressive victory to the Planeswalker Sarkhan Vol."
+    },
+    {
+     "source_id": "tdm_guide1",
+     "quote": "His actions saved the Planeswalker Ugin, the spirit dragon, from death at the hands of Nicol Bolas."
+    }
+   ],
+   "summary": "Sarkhan's time-travel intervention saved Ugin from death at Bolas's hands and led to the dragons' victory (the Khanfall timeline).",
+   "limitation": ""
+  },
+  {
+   "id": "TD002",
+   "subject": "ugin",
+   "predicate": "hibernated_on",
+   "object": "tarkir",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "tarkir_dragonstorm_2025",
+   "source_ids": [
+    "tdm_guide1"
+   ],
+   "evidence": [
+    {
+     "source_id": "tdm_guide1",
+     "quote": "Ugin was instead gravely injured but survived and entered a long hibernation inside a nest of hedrons on Tarkir."
+    }
+   ],
+   "summary": "Gravely injured, Ugin hibernated inside a nest of hedrons on Tarkir.",
+   "limitation": ""
+  },
+  {
+   "id": "TD003",
+   "subject": "ugin",
+   "predicate": "empowered",
+   "object": "dragonstorms",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "tarkir_dragonstorm_2025",
+   "source_ids": [
+    "tdm_guide1"
+   ],
+   "evidence": [
+    {
+     "source_id": "tdm_guide1",
+     "quote": "As Ugin healed, his draconic essence mingled with the soul of the plane, further empowering the dragonstorms."
+    },
+    {
+     "source_id": "tdm_guide1",
+     "quote": "No longer empowered by his essence, the dragonstorms finally lessened."
+    }
+   ],
+   "summary": "Ugin's essence, mingling with the plane as he healed, empowered the dragonstorms; they lessened after he left.",
+   "limitation": ""
+  },
+  {
+   "id": "TD004",
+   "subject": "ugin",
+   "predicate": "left",
+   "object": "tarkir",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "tarkir_dragonstorm_2025",
+   "source_ids": [
+    "tdm_guide1"
+   ],
+   "evidence": [
+    {
+     "source_id": "tdm_guide1",
+     "quote": "Five years ago, Ugin awoke from his hibernation and departed Tarkir."
+    }
+   ],
+   "summary": "Ugin awoke and departed Tarkir five years before the Dragonstorm story.",
+   "limitation": "'Five years ago' is relative to the guide's present (2025 release)."
+  },
+  {
+   "id": "TD005",
+   "subject": "dragonlords",
+   "predicate": "ruled",
+   "object": "tarkir",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "tarkir_dragonstorm_2025",
+   "source_ids": [
+    "tdm_guide1"
+   ],
+   "evidence": [
+    {
+     "source_id": "tdm_guide1",
+     "quote": "Led by the powerful dragonlords, the dragons' forces were ultimately able to hunt down and kill the clan leaders and decimate their numbers."
+    }
+   ],
+   "summary": "In the Khanfall timeline the dragonlords' forces killed the clan leaders and ruled Tarkir.",
+   "limitation": ""
+  },
+  {
+   "id": "TD006",
+   "subject": "narset",
+   "predicate": "leader_of",
+   "object": "tarkir_rebellion",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "tarkir_dragonstorm_2025",
+   "source_ids": [
+    "tdm_guide1"
+   ],
+   "evidence": [
+    {
+     "source_id": "tdm_guide1",
+     "quote": "Narset and the other rebellion leaders gathered at the remains of the Crucible of the Spirit Dragon, hoping to finally put an end to the dragonlords' reign."
+    },
+    {
+     "source_id": "tdm_guide1",
+     "quote": "The former Planeswalker Narset hoped to find a way to end what she saw as a perpetual battle of attrition that would leave Tarkir as little more than ruins."
+    }
+   ],
+   "summary": "The former Planeswalker Narset was one of the rebellion leaders who gathered at the Crucible of the Spirit Dragon to end the dragonlords' reign.",
+   "limitation": ""
+  },
+  {
+   "id": "TD007",
+   "subject": "sultai",
+   "predicate": "located_on",
+   "object": "tarkir",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "tarkir_dragonstorm_2025",
+   "source_ids": [
+    "tdm_guide2"
+   ],
+   "evidence": [
+    {
+     "source_id": "tdm_guide2",
+     "quote": "Living in the jungles of Tarkir, the Sultai are adept at transforming challenge into opportunity."
+    },
+    {
+     "source_id": "tdm_guide2",
+     "quote": "In the Sultai, not even death can stop the most valuable members of the clan, as their powerful necromancers raise their honored dead to continue to lead and serve."
+    }
+   ],
+   "summary": "The Sultai live in Tarkir's jungles; their necromancers raise honored dead to keep leading and serving.",
+   "limitation": ""
+  },
+  {
+   "id": "TD008",
+   "subject": "mardu",
+   "predicate": "located_on",
+   "object": "tarkir",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "tarkir_dragonstorm_2025",
+   "source_ids": [
+    "tdm_guide2"
+   ],
+   "evidence": [
+    {
+     "source_id": "tdm_guide2",
+     "quote": "The Mardu claim the central steppes and grassy plains of Tarkir as their territory, assembling massive mobile cities as they traverse the landscape."
+    }
+   ],
+   "summary": "The nomadic Mardu claim Tarkir's central steppes and plains, moving in massive mobile cities.",
+   "limitation": ""
+  },
+  {
+   "id": "TD009",
+   "subject": "mehtma",
+   "predicate": "member_of",
+   "object": "house_fenzala",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "tarkir_dragonstorm_2025",
+   "source_ids": [
+    "tdm_abzan"
+   ],
+   "evidence": [
+    {
+     "source_id": "tdm_abzan",
+     "quote": "Three were krumar, orphans adopted into House Fenzala as Mehtma herself had been."
+    }
+   ],
+   "summary": "Mehtma, a lieutenant, was a krumar orphan adopted into the Abzan House Fenzala.",
+   "limitation": ""
+  },
+  {
+   "id": "TD010",
+   "subject": "narset",
+   "predicate": "leader_of",
+   "object": "jeskai",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "tarkir_dragonstorm_2025",
+   "source_ids": [
+    "tdm_ep1"
+   ],
+   "evidence": [
+    {
+     "source_id": "tdm_ep1",
+     "quote": "Although Narset was the waymaster—the actual leader of the Jeskai now, really, to her periodic chagrin—so it seemed equally possible they'd see her attention as a boon."
+    }
+   ],
+   "summary": "Narset is the Jeskai waymaster, effectively the clan's leader.",
+   "limitation": ""
+  },
+  {
+   "id": "TD011",
+   "subject": "elspeth_tirel",
+   "predicate": "sought",
+   "object": "narset",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "tarkir_dragonstorm_2025",
+   "source_ids": [
+    "tdm_ep2"
+   ],
+   "evidence": [
+    {
+     "source_id": "tdm_ep2",
+     "quote": "Elspeth took absent note of the fact no one else on the skyship had come to interrogate her about her presence, not after she explained to a flustered dignitary that she was here to see Narset, please, and was cordially told to make herself at home until the waymaster could be retrieved."
+    }
+   ],
+   "summary": "Elspeth, now winged, comes to a Jeskai skyship to see Narset.",
+   "limitation": ""
+  },
+  {
+   "id": "TD012",
+   "subject": "cori_mountain_monastery",
+   "predicate": "affiliated_with",
+   "object": "jeskai",
+   "grade": "CANON_IMPLIED",
+   "event_stage": "tarkir_dragonstorm_2025",
+   "source_ids": [
+    "tdm_jeskai"
+   ],
+   "evidence": [
+    {
+     "source_id": "tdm_jeskai",
+     "quote": "Only one of us is now an esteemed monk of the Cori Mountain Monastery, after all.\""
+    },
+    {
+     "source_id": "tdm_jeskai",
+     "quote": "I'm an embarrassment to my fellow disciples, and I dragged the Jeskai name through the dirt.\""
+    }
+   ],
+   "summary": "The Cori Mountain Monastery trains Jeskai disciples and monks.",
+   "limitation": "Affiliation is inferred from dialogue; the narrator is not named in these lines."
+  },
+  {
+   "id": "TD013",
+   "subject": "ajani",
+   "predicate": "served",
+   "object": "elesh_norn",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "tarkir_dragonstorm_2025",
+   "source_ids": [
+    "tdm_ep3"
+   ],
+   "evidence": [
+    {
+     "source_id": "tdm_ep3",
+     "quote": "On some level, Ajani had hoped that if he did enough good, it would expunge from his soul all the sins he committed while he was Elesh Norn's slavish little pet."
+    }
+   ],
+   "summary": "Ajani, now living alone in Tarkir's wilderness, seeks atonement for the sins he committed while serving Elesh Norn.",
+   "limitation": "Past service while compleated; the phrasing is Ajani's own self-judgment."
+  },
+  {
+   "id": "TD014",
+   "subject": "titsui",
+   "predicate": "second_in_command_of",
+   "object": "nishang",
+   "grade": "CANON_IMPLIED",
+   "event_stage": "tarkir_dragonstorm_2025",
+   "source_ids": [
+    "tdm_sultai"
+   ],
+   "evidence": [
+    {
+     "source_id": "tdm_sultai",
+     "quote": "Me and Titsui, my second-in-command … we would … our army and us … every fortnight or so … every week maybe … we would march into a new territory, a town or a village, and claim it as our own."
+    }
+   ],
+   "summary": "Nishang, a dying Sultai veteran, names Titsui as his former second-in-command.",
+   "limitation": "Told by Nishang in a drunken boast; the story itself undercuts his account."
+  },
+  {
+   "id": "TD015",
+   "subject": "taigam",
+   "predicate": "guided",
+   "object": "sarkhan_vol",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "tarkir_dragonstorm_2025",
+   "source_ids": [
+    "tdm_ep4"
+   ],
+   "evidence": [
+    {
+     "source_id": "tdm_ep4",
+     "quote": "The monk Taigam had named himself as a loyalist, but there was something in his expressions and speech that suggested to Sarkhan zealot might have been a better description."
+    },
+    {
+     "source_id": "tdm_ep4",
+     "quote": "\"This is how you fly with a dragon's wings once more,\" said Taigam, as though he had somehow heard Sarkhan's hesitation."
+    }
+   ],
+   "summary": "The loyalist monk Taigam leads Sarkhan to hunt a dragon and take its heart to regain his dragon form.",
+   "limitation": ""
+  },
+  {
+   "id": "TD016",
+   "subject": "paala",
+   "predicate": "scarred_by",
+   "object": "dragonstorms",
+   "grade": "CANON_IMPLIED",
+   "event_stage": "tarkir_dragonstorm_2025",
+   "source_ids": [
+    "tdm_mardu"
+   ],
+   "evidence": [
+    {
+     "source_id": "tdm_mardu",
+     "quote": "Moreover, her first dragonstorm had heralded such a change that it had scorched her heart, leaving lightning scars where no one could see them."
+    }
+   ],
+   "summary": "Paala, a Mardu girl, was changed and scarred by her first dragonstorm.",
+   "limitation": "The nature of the change is revealed later in the story and is not graded here."
+  },
+  {
+   "id": "TD017",
+   "subject": "felothar",
+   "predicate": "khan_of",
+   "object": "abzan",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "tarkir_dragonstorm_2025",
+   "source_ids": [
+    "tdm_ep5"
+   ],
+   "evidence": [
+    {
+     "source_id": "tdm_ep5",
+     "quote": "The problem with the new khan of the Abzan, Ajani thought, wasn't the fact that she was a soldier at heart, but that she had no illusions about this."
+    },
+    {
+     "source_id": "tdm_ep5",
+     "quote": "As a result, Felothar often spent ages deliberating on matters with the help of her Council of Houses; each of the house representatives' opinions were given equal weight and consideration."
+    }
+   ],
+   "summary": "Felothar is the new khan of the Abzan and governs with a Council of Houses.",
+   "limitation": ""
+  },
+  {
+   "id": "TD018",
+   "subject": "ajani",
+   "predicate": "attacked",
+   "object": "elspeth_tirel",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "tarkir_dragonstorm_2025",
+   "source_ids": [
+    "tdm_ep5"
+   ],
+   "evidence": [
+    {
+     "source_id": "tdm_ep5",
+     "quote": "He could not bear to look at Elspeth, his last words to her still echoing in his memories."
+    },
+    {
+     "source_id": "tdm_ep5",
+     "quote": "Worse, still, he had wanted to kill her."
+    }
+   ],
+   "summary": "Ajani remembers that, while compleated, he tried and wanted to kill Elspeth.",
+   "limitation": "Refers back to their fight during the New Phyrexia arc."
+  },
+  {
+   "id": "TD019",
+   "subject": "ureni",
+   "predicate": "protected",
+   "object": "temur",
+   "grade": "CANON_IMPLIED",
+   "event_stage": "tarkir_dragonstorm_2025",
+   "source_ids": [
+    "tdm_temur"
+   ],
+   "evidence": [
+    {
+     "source_id": "tdm_temur",
+     "quote": "Azure wraps around the people of the Temur as they sleep, leaping from one family to the next, binding wrists and throats and tongues."
+    },
+    {
+     "source_id": "tdm_temur",
+     "quote": "Anyone else would be trembling in fear, but Ureni knows it is anger driving her now, a fiery need to protect."
+    }
+   ],
+   "summary": "The dragon Ureni tries to protect the Temur from blue threads that bind and kill them.",
+   "limitation": "Ureni's species and role are given poetically; 'protected' is IMPLIED. The story uses both 'they' and 'her' for Ureni."
+  },
+  {
+   "id": "TD020",
+   "subject": "vraska",
+   "predicate": "travelled_with",
+   "object": "jace_beleren",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "tarkir_dragonstorm_2025",
+   "source_ids": [
+    "tdm_e6"
+   ],
+   "evidence": [
+    {
+     "source_id": "tdm_e6",
+     "quote": "Without a spark, Vraska and Loot had to travel by Omenpaths, and Jace was forced to traverse the Multiverse without the ease a Planeswalker was accustomed to."
+    }
+   ],
+   "summary": "Sparkless, Vraska travels with Jace and Loot through the Omenpaths.",
+   "limitation": "Set 'Some Time Ago' relative to the main Dragonstorm episodes."
+  },
+  {
+   "id": "TD021",
+   "subject": "jace_beleren",
+   "predicate": "sought",
+   "object": "meditation_realm",
+   "grade": "CANON_IMPLIED",
+   "event_stage": "tarkir_dragonstorm_2025",
+   "source_ids": [
+    "tdm_e6"
+   ],
+   "evidence": [
+    {
+     "source_id": "tdm_e6",
+     "quote": "They knew which Omenpaths would ultimately lead them to Tarkir, and from Tarkir to the Meditation Realm, thanks to Loot."
+    }
+   ],
+   "summary": "Thanks to Loot, Jace and Vraska know the Omenpath route to Tarkir and from there to the Meditation Realm.",
+   "limitation": "That the Meditation Realm is Jace's goal is inferred from this route."
+  },
+  {
+   "id": "TD022",
+   "subject": "sarkhan_vol",
+   "predicate": "controls",
+   "object": "dragonlords",
+   "grade": "CANON_IMPLIED",
+   "event_stage": "tarkir_dragonstorm_2025",
+   "source_ids": [
+    "tdm_e7"
+   ],
+   "evidence": [
+    {
+     "source_id": "tdm_e7",
+     "quote": "The ritual had done something to the dragonstorms, something to him, too: Sarkhan had expected his transformation, but not this control over the dragons themselves."
+    },
+    {
+     "source_id": "tdm_e7",
+     "quote": "More dragons emerged from the clouds, and in their eyes, Sarkhan saw reverence."
+    }
+   ],
+   "summary": "After the ritual, the transformed Sarkhan finds he can control Tarkir's dragons.",
+   "limitation": "The quote says 'the dragons', not the dragonlords specifically; the object is the closest existing faction."
+  }
+ ],
+ "pages_registered": 14,
+ "pages_cited": 14,
+ "uncited_registered_pages": [],
+ "remaining": [
+  "Every TDM page is cited with one to three claims; the ritual at the Crucible, Sarkhan's betrayal and the episode climaxes are only lightly modelled",
+  "The Abzan, Jeskai and Temur guide sections are not graded beyond one claim each",
+  "Ureni's identity (and their link to Ugin) is not graded"
+ ]
+}

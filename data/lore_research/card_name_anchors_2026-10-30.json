@@ -867,6 +867,23 @@
    ]
   },
   {
+   "entity": "cori_mountain_monastery",
+   "entity_type": "Place",
+   "entity_name": "Cori Mountain Monastery",
+   "aliases": [
+    "Cori Mountain Monastery"
+   ],
+   "pack": "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Cori Mountain Monastery",
+     "oracle_id": "35c60b66-8c85-432e-90fe-99c19d21ed15",
+     "type_line": "Land",
+     "scryfall_uri": "https://scryfall.com/card/tdm/252/cori-mountain-monastery"
+    }
+   ]
+  },
+  {
    "entity": "cosmos_elixir",
    "entity_type": "Object",
    "entity_name": "Cosmos Elixir",
@@ -1001,6 +1018,23 @@
      "oracle_id": "9d3c7c96-056f-408e-a834-fa45a430d3d4",
      "type_line": "Legendary Enchantment Creature — Demigod",
      "scryfall_uri": "https://scryfall.com/card/thb/9/daxos-blessed-by-the-sun"
+    }
+   ]
+  },
+  {
+   "entity": "djeru",
+   "entity_type": "Character",
+   "entity_name": "Djeru",
+   "aliases": [
+    "Djeru"
+   ],
+   "pack": "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Djeru, With Eyes Open",
+     "oracle_id": "5d520dd4-7986-41fa-ab94-9226da751668",
+     "type_line": "Legendary Creature — Human Warrior",
+     "scryfall_uri": "https://scryfall.com/card/hou/10/djeru-with-eyes-open"
     }
    ]
   },
@@ -1270,6 +1304,29 @@
      "oracle_id": "10d13ff6-c4d0-4753-8939-a8a90f0e92bb",
      "type_line": "Legendary Land",
      "scryfall_uri": "https://scryfall.com/card/mm2/242/eye-of-ugin"
+    }
+   ]
+  },
+  {
+   "entity": "felothar",
+   "entity_type": "Character",
+   "entity_name": "Felothar",
+   "aliases": [
+    "Felothar"
+   ],
+   "pack": "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Felothar the Steadfast",
+     "oracle_id": "2b3f791a-d672-46fb-a03a-96e19f2c3121",
+     "type_line": "Legendary Creature — Human Warrior",
+     "scryfall_uri": "https://scryfall.com/card/tdc/4/felothar-the-steadfast"
+    },
+    {
+     "name": "Felothar, Dawn of the Abzan",
+     "oracle_id": "fd666669-ad23-4e41-b78c-1cd7b82eb8b4",
+     "type_line": "Legendary Creature — Human Warrior",
+     "scryfall_uri": "https://scryfall.com/card/tdm/184/felothar-dawn-of-the-abzan"
     }
    ]
   },
@@ -1575,6 +1632,35 @@
      "oracle_id": "9b0af3ad-1b4d-4480-af91-fe9baee5d1c5",
      "type_line": "Legendary Creature — Human Soldier",
      "scryfall_uri": "https://scryfall.com/card/eoe/19/haliya-guided-by-light"
+    }
+   ]
+  },
+  {
+   "entity": "hapatra",
+   "entity_type": "Character",
+   "entity_name": "Hapatra",
+   "aliases": [
+    "Hapatra"
+   ],
+   "pack": "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Hapatra, Vizier of Poisons",
+     "oracle_id": "a8ddea1c-8d80-49c1-a5b4-630d5e51d66e",
+     "type_line": "Legendary Creature — Human Cleric",
+     "scryfall_uri": "https://scryfall.com/card/ecc/123/hapatra-vizier-of-poisons"
+    },
+    {
+     "name": "Hapatra, the Desert Fang",
+     "oracle_id": "6894345f-52a6-46e4-b278-0783087daee1",
+     "type_line": "Legendary Creature — Human Cleric",
+     "scryfall_uri": "https://scryfall.com/card/fra/271/hapatra-the-desert-fang"
+    },
+    {
+     "name": "Hapatra, the Desert Frost",
+     "oracle_id": "ac0f161a-e5ec-4a95-9f37-305bdf1ac900",
+     "type_line": "Legendary Creature — Human Wizard",
+     "scryfall_uri": "https://scryfall.com/card/fra/215/hapatra-the-desert-frost"
     }
    ]
   },
@@ -2558,6 +2644,23 @@
    ]
   },
   {
+   "entity": "locust_god",
+   "entity_type": "Character",
+   "entity_name": "The Locust God",
+   "aliases": [
+    "The Locust God"
+   ],
+   "pack": "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json",
+   "cards": [
+    {
+     "name": "The Locust God",
+     "oracle_id": "e025a714-02da-4b0c-8021-cf3e8dc9b19e",
+     "type_line": "Legendary Creature — God",
+     "scryfall_uri": "https://scryfall.com/card/moc/335/the-locust-god"
+    }
+   ]
+  },
+  {
    "entity": "loot",
    "entity_type": "Character",
    "entity_name": "Loot",
@@ -3342,6 +3445,23 @@
    ]
   },
   {
+   "entity": "oketra",
+   "entity_type": "Character",
+   "entity_name": "Oketra",
+   "aliases": [
+    "Oketra"
+   ],
+   "pack": "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Oketra the True",
+     "oracle_id": "646e68c8-cc42-4d6c-8363-a18b10a10eae",
+     "type_line": "Legendary Creature — God",
+     "scryfall_uri": "https://scryfall.com/card/akh/21/oketra-the-true"
+    }
+   ]
+  },
+  {
    "entity": "oko",
    "entity_type": "Character",
    "entity_name": "Oko",
@@ -3726,6 +3846,23 @@
    ]
   },
   {
+   "entity": "rhonas",
+   "entity_type": "Character",
+   "entity_name": "Rhonas",
+   "aliases": [
+    "Rhonas"
+   ],
+   "pack": "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Rhonas the Indomitable",
+     "oracle_id": "5d2acd3e-4782-42e3-bcd5-80f8b439cc28",
+     "type_line": "Legendary Creature — God",
+     "scryfall_uri": "https://scryfall.com/card/akh/182/rhonas-the-indomitable"
+    }
+   ]
+  },
+  {
    "entity": "rith",
    "entity_type": "Character",
    "entity_name": "Rith",
@@ -3865,6 +4002,59 @@
    ]
   },
   {
+   "entity": "samut",
+   "entity_type": "Character",
+   "entity_name": "Samut",
+   "aliases": [
+    "Samut"
+   ],
+   "pack": "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Samut, Hazoret's Champion",
+     "oracle_id": "add02a36-8811-438b-a8e1-f5c8a8146b4e",
+     "type_line": "Legendary Creature — Human Warrior Cleric",
+     "scryfall_uri": "https://scryfall.com/card/fra/251/samut-hazorets-champion"
+    },
+    {
+     "name": "Samut, Tyrant Smasher",
+     "oracle_id": "80405d7a-f533-44bd-ac85-890476cf2b78",
+     "type_line": "Legendary Planeswalker — Samut",
+     "scryfall_uri": "https://scryfall.com/card/war/235/samut-tyrant-smasher"
+    },
+    {
+     "name": "Samut, Tyrant of Naktamun",
+     "oracle_id": "a275f7ac-7dae-4422-875a-f34f24b6f28a",
+     "type_line": "Legendary Creature — Human Wizard",
+     "scryfall_uri": "https://scryfall.com/card/fra/220/samut-tyrant-of-naktamun"
+    },
+    {
+     "name": "Samut, Vizier of Naktamun",
+     "oracle_id": "178b3fdf-dbee-4245-a811-b21ff8a24f66",
+     "type_line": "Legendary Creature — Human Warrior Cleric",
+     "scryfall_uri": "https://scryfall.com/card/mat/45/samut-vizier-of-naktamun"
+    },
+    {
+     "name": "Samut, Voice of Dissent",
+     "oracle_id": "b1eee275-5106-4c8d-a497-d7945ad81d74",
+     "type_line": "Legendary Creature — Human Warrior",
+     "scryfall_uri": "https://scryfall.com/card/akh/205/samut-voice-of-dissent"
+    },
+    {
+     "name": "Samut, the Driving Force",
+     "oracle_id": "ee89c719-5ae8-4316-bfd0-cfe3684b5859",
+     "type_line": "Legendary Creature — Human Warrior Cleric",
+     "scryfall_uri": "https://scryfall.com/card/dft/222/samut-the-driving-force"
+    },
+    {
+     "name": "Samut, the Tested",
+     "oracle_id": "fffdc2ac-bde4-4e4c-a5bd-0e6c6e49ad91",
+     "type_line": "Legendary Planeswalker — Samut",
+     "scryfall_uri": "https://scryfall.com/card/hou/144/samut-the-tested"
+    }
+   ]
+  },
+  {
    "entity": "sarkhan_vol",
    "entity_type": "Character",
    "entity_name": "Sarkhan Vol",
@@ -3927,6 +4117,23 @@
      "oracle_id": "80c26f58-04b0-4db0-b84e-9b136609abe0",
      "type_line": "Legendary Planeswalker — Sarkhan",
      "scryfall_uri": "https://scryfall.com/card/ktk/119/sarkhan-the-dragonspeaker"
+    }
+   ]
+  },
+  {
+   "entity": "scorpion_god",
+   "entity_type": "Character",
+   "entity_name": "The Scorpion God",
+   "aliases": [
+    "The Scorpion God"
+   ],
+   "pack": "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json",
+   "cards": [
+    {
+     "name": "The Scorpion God",
+     "oracle_id": "aff223d4-6338-460d-a4d5-d45f522864dc",
+     "type_line": "Legendary Creature — God",
+     "scryfall_uri": "https://scryfall.com/card/ecc/133/the-scorpion-god"
     }
    ]
   },
@@ -4149,6 +4356,35 @@
      "oracle_id": "022e38c3-fcea-428f-a0d0-a6cca057faa3",
      "type_line": "Plane — Arcavios",
      "scryfall_uri": "https://scryfall.com/card/moc/65/strixhaven"
+    }
+   ]
+  },
+  {
+   "entity": "taigam",
+   "entity_type": "Character",
+   "entity_name": "Taigam",
+   "aliases": [
+    "Taigam"
+   ],
+   "pack": "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Taigam, Master Opportunist",
+     "oracle_id": "49f2cbc3-bd03-48e6-b1c4-d7f315b8579d",
+     "type_line": "Legendary Creature — Human Monk",
+     "scryfall_uri": "https://scryfall.com/card/tdm/60/taigam-master-opportunist"
+    },
+    {
+     "name": "Taigam, Ojutai Master",
+     "oracle_id": "e4cf3710-8600-4f95-abb2-faefdc25693d",
+     "type_line": "Legendary Creature — Human Monk",
+     "scryfall_uri": "https://scryfall.com/card/c17/46/taigam-ojutai-master"
+    },
+    {
+     "name": "Taigam, Sidisi's Hand",
+     "oracle_id": "677aa518-072b-46d2-b0da-da57c7bc2bba",
+     "type_line": "Legendary Creature — Human Wizard",
+     "scryfall_uri": "https://scryfall.com/card/cmm/357/taigam-sidisis-hand"
     }
    ]
   },
@@ -4773,6 +5009,29 @@
      "oracle_id": "b817bc56-9b4d-4c50-bafa-3c652b99578f",
      "type_line": "Legendary Creature — Eldrazi",
      "scryfall_uri": "https://scryfall.com/card/2x2/3/ulamog-the-infinite-gyre"
+    }
+   ]
+  },
+  {
+   "entity": "ureni",
+   "entity_type": "Character",
+   "entity_name": "Ureni",
+   "aliases": [
+    "Ureni"
+   ],
+   "pack": "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Ureni of the Unwritten",
+     "oracle_id": "99c2d3ef-e5b4-48cd-b3f5-de9b02c7c36a",
+     "type_line": "Legendary Creature — Spirit Dragon",
+     "scryfall_uri": "https://scryfall.com/card/tdc/9/ureni-of-the-unwritten"
+    },
+    {
+     "name": "Ureni, the Song Unending",
+     "oracle_id": "1c995c80-3301-409b-822b-9297aa260823",
+     "type_line": "Legendary Creature — Spirit Dragon",
+     "scryfall_uri": "https://scryfall.com/card/tdm/233/ureni-the-song-unending"
     }
    ]
   },
@@ -5443,6 +5702,7 @@
   "halo",
   "hazel_kenrith",
   "hedron_network",
+  "hekma",
   "helvault",
   "hexhaven",
   "high_king_kenrith",
@@ -5471,13 +5731,17 @@
   "maha",
   "mahitab",
   "markov_manor",
+  "mehtma",
   "meletis",
   "mom_invasion",
+  "nakht",
   "niharet",
+  "nishang",
   "oba",
   "one_sylex",
   "orazca",
   "original_tarkir_clash",
+  "paala",
   "pondside",
   "raphaella",
   "raugrin",
@@ -5507,6 +5771,7 @@
   "the_house",
   "theros_underworld",
   "thraben",
+  "titsui",
   "tomik_vrona",
   "ugins_gem",
   "ugins_tomb_site",
@@ -5526,9 +5791,9 @@
   "Urza, Academy Headmaster"
  ],
  "counts": {
-  "entities_anchored": 231,
-  "anchor_edges": 474,
-  "unanchored_entities": 115
+  "entities_anchored": 242,
+  "anchor_edges": 497,
+  "unanchored_entities": 121
  },
- "content_sha256": "8d9e39b86e0db0c1d0f925a53cc08c3724bc34f662447953d47bf96793f74058"
+ "content_sha256": "918717f499252f596753afbce9e508f275d927ff44233c026cf7a4b1e1d975cb"
 }

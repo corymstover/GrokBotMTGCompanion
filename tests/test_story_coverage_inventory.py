@@ -35,7 +35,6 @@ class StoryCoverageInventory(unittest.TestCase):
         # Phase 5 bulk pipeline packs (batch 5): KLD/AER, XLN/RIX and AKH/HOU are started
         self.assertEqual(arcs["KLD/AER"]["cited_pages"], 14)
         self.assertEqual(arcs["XLN/RIX"]["cited_pages"], 10)
-        self.assertEqual(arcs["AKH/HOU"]["cited_pages"], 7)
         # Batch 6: MID/VOW, SNC and EOE packs
         self.assertEqual(arcs["MID/VOW"]["cited_pages"], 8)
         self.assertEqual(arcs["SNC"]["status"], "ALL_PAGES_CITED")
@@ -63,6 +62,8 @@ class StoryCoverageInventory(unittest.TestCase):
         self.assertEqual(arcs["SOI/EMN"]["status"], "ALL_PAGES_CITED")
         self.assertEqual(arcs["BFZ/OGW"]["status"], "ALL_PAGES_CITED")
         self.assertEqual(arcs["EOE"]["status"], "ALL_PAGES_CITED")
+        self.assertEqual(arcs["AKH/HOU"]["status"], "ALL_PAGES_CITED")
+        self.assertEqual(arcs["TDM"]["status"], "ALL_PAGES_CITED")
 
     def test_claim_total_matches_graph_packs(self):
         self.assertEqual(self.d["totals"]["claims"], sum(self.d["claims_per_pack"].values()))
