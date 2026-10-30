@@ -244,6 +244,82 @@ def art_captions():
     return out
 
 
+STORY_ATLAS = ROOT / "data" / "story_atlas" / "story_art_captions_2026-10-30.json"
+
+
+def atlas_captions():
+    """{card name: [(title, url, artist)]} from the Phase 1B story-art caption atlas (batch 4, 2026-10-30).
+
+    Each atlas caption was already matched to a Scryfall card (oracle id) and printing artist; `lore_for` still applies the
+    same artist-equals-printing-artist rule before it shows "Card art shown on". Kept separate from `art_captions()` so the
+    priority-pool tiers (which read only the CSV) and old batch admission do not change."""
+    out = defaultdict(list)
+    if not STORY_ATLAS.exists():
+        return out
+    for pg in json.loads(STORY_ATLAS.read_text(encoding="utf-8")).get("pages", []):
+        u = pg.get("url", "")
+        if not (u.startswith("https://magic.wizards.com/en/news/") or u.startswith("https://magic.wizards.com/en/story")):
+            continue
+        t = (pg.get("title") or "").split(" | ")[0].strip() or "official story page"
+        for cp in pg.get("captions", []):
+            if cp.get("card") and cp.get("artist") and len(cp["card"]) >= 3:
+                out[cp["card"]].append((t, u, cp["artist"]))
+    return out
+
+
+def merged_captions(caps, extra):
+    out = defaultdict(list, {k: list(v) for k, v in caps.items()})
+    for k, v in extra.items():
+        for x in v:
+            if not any(y[1].rstrip("/") == x[1].rstrip("/") and y[2] == x[2] for y in out[k]):
+                out[k].append(x)
+    return out
+
+
+_PROSE = None
+# Story text only: Magic Story episodes, the /en/story archive and Planeswalker's Guides (no announcements or rules articles).
+STORY_URL = re.compile(r"https://magic\.wizards\.com/en/(?:news/magic-story/|story/|news/[\w-]+/[\w-]*planeswalkers?-guide)")
+
+
+def story_prose():
+    """{url: (title, prose)} for the cached official story pages, case kept, art-caption lines removed (batch 4)."""
+    global _PROSE
+    if _PROSE is None:
+        import lore_quotes as Q
+        _PROSE = {}
+        for f in sorted(list(Q.CACHE.glob("*.txt")) + list(Q.ARTICLES.glob("*.txt"))):
+            t = f.read_text(encoding="utf-8")
+            head, _, body = t.partition("\n")
+            url = head[4:].strip().rstrip("/")
+            if not STORY_URL.match(url):
+                continue
+            m = re.search(r"^TITLE:\s*(.+)$", body, re.M)
+            title = (m.group(1).split(" | ")[0].strip() if m else "") or "official story page"
+            body = re.sub(r"[^\n]*\|\s*Art by:[^\n]*", "", body)
+            _PROSE[url] = (title, " ".join(body.replace("\u2019", "'").split()))
+    return _PROSE
+
+
+def named_on(card_name):
+    """Official story pages whose prose (not an art caption) contains the card's full front-face name verbatim,
+    case-sensitive, on word boundaries; names of at least two words only. [[title, url]] (batch 4).
+
+    This is evidence that official story text names the card's subject. It is not a claim that this printing's art
+    depicts the scene."""
+    fr = front(card_name).replace("\u2019", "'")
+    if len(fr.split()) < 2:
+        return []
+    pat = None
+    out = []
+    for u, (t, txt) in sorted(story_prose().items()):
+        if fr not in txt:
+            continue
+        pat = pat or re.compile(r"(?<![\w-])" + re.escape(fr) + r"(?![\w-])")
+        if pat.search(txt):
+            out.append([t, u])
+    return out
+
+
 AF_PAGE = "Art & Flavor Story Links.md"
 
 
@@ -622,9 +698,14 @@ def lore_for(r, c, links, cc, keys, prints, S, norm, notes, caps, afs, prev_lore
         if a in p.get("artists", set()) and u not in [x[1] for x in art]:
             art.append([t, u])
     sec = afs.get(k)
+    named = []
+    if not (rel or p["spotlight"] or flav or art or presented_on(c["name"], norm) or c["name"] in notes):
+        # fallback evidence for cards with nothing else (batch 4): official story prose names the card
+        named = named_on(c["name"])[:3] if S else list((prev_lore or {}).get("named_on", []))
     out = {"relations": rel, "spotlight": sorted(set(p["spotlight"]))[:3], "flavor_on": sorted(flav)[:3],
            "art_on": sorted(art, key=lambda x: x[1])[:3], "art_flavor": list(sec) if sec else None,
            "presented_on": presented_on(c["name"], norm)[:3],
+           **({"named_on": named} if named else {}),
            "flags": (["🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon"] if p["stamps"] and p["stamps"] <= {"triangle"} else []) +
                     (["🚫 Un-/playtest card (every printing in a `funny` set): outside story canon"] if p.get("set_types") and p["set_types"] <= {"funny"} else []) +
                     (["⚠️ digital-only card (no paper printing)"] if not p.get("sets") else [])}
@@ -695,6 +776,9 @@ def render(r, card, lore, syn, rows_by_name):
         parts.append("✅ Card art shown on " + ", ".join(f"[{t}]({u})" for t, u in lore["art_on"]) + " (caption names the card and its artist)")
     for t, u, kind in lore.get("presented_on", []):
         parts.append(f"✅ {'Listed on' if kind == 'spotlight' else 'Presented with an official backstory on'} [{t}]({u})")
+    if lore.get("named_on"):
+        parts.append("✅ Named verbatim in official story text on " + ", ".join(f"[{t}]({u})" for t, u in lore["named_on"]) +
+                     " (the full card name appears in the page prose; a mention, not a claim about this printing's art)")
     if lore["flavor_on"]:
         parts.append("✅ Flavor text verbatim on " + ", ".join(f"[official page {i + 1}]({u})" for i, u in enumerate(lore["flavor_on"])))
     if lore.get("note"):
@@ -703,7 +787,7 @@ def render(r, card, lore, syn, rows_by_name):
     if by_rel["name-match"]:
         parts.append("⚠️ Name match only (not a canon claim): " + " · ".join(by_rel["name-match"]))
     parts += lore["flags"]
-    if not (lore["relations"] or lore["spotlight"] or lore.get("art_on") or lore["flavor_on"] or lore.get("note") or lore.get("presented_on")):
+    if not (lore["relations"] or lore["spotlight"] or lore.get("art_on") or lore["flavor_on"] or lore.get("note") or lore.get("presented_on") or lore.get("named_on")):
         parts.insert(0, NO_LORE)
     lore_line = f"{LORE_P} " + " — ".join(p.strip() for p in parts) + " · [format](../../Card%20Enrichment.md#lore-line)"
     pv, gd = syn["proven"], syn["guidance"]
@@ -744,6 +828,7 @@ def build(fetch=False, expand_auto=False, explicit_batch=None):
     cc, keys = charcard_links()
     prints = load_printings()
     caps = art_captions()
+    lcaps = merged_captions(caps, atlas_captions())  # lore evidence only; tiers keep the CSV captions
     afs = art_flavor_sections()
     prev = json.loads(OUT.read_text(encoding="utf-8")).get("cards", {}) if OUT.exists() else {}
     # Once the stored baseline exists, changing EDHREC ranks or newly fetched
@@ -777,7 +862,7 @@ def build(fetch=False, expand_auto=False, explicit_batch=None):
                              allow_automatic_new=allow_auto, explicit_batch=explicit_batch)
         if batch is None:
             continue
-        lore = lore_for(r, c, links, cc, keys, prints, S, norm, notes, caps, afs, prev.get(r["oracle_id"], {}).get("lore"))
+        lore = lore_for(r, c, links, cc, keys, prints, S, norm, notes, lcaps, afs, prev.get(r["oracle_id"], {}).get("lore"))
         syn = synergy_for(c, decks, pkgmatch, False, prev.get(r["oracle_id"], {}).get("synergy"))
         cards[r["oracle_id"]] = {"name": r["name"], "shard": r["shard"], "anchor": r["anchor"], "batch": batch,
                                  "type": type_group(c), "tiers": sorted(tiers.get(r["oracle_id"], set())),
@@ -834,6 +919,7 @@ def write_page(d):
           "| **Depicts** | the lore entry's own text links this card, and the card is that character or item (its name contains the entry's name) | official URLs on the entry line that links the card; *via entry* = the entry's own citations when that line has none |",
           "| **Featured in** | the entry's text links the card in another context: a plane's notable cards, an arc beat, a retcon | same |",
           "| ✅ **Story Spotlight** | a printing Wizards marked as depicting a story moment (Scryfall `story_spotlight`) | Scryfall default-cards bulk |",
+          "| ✅ **Named verbatim in official story text on** | only for a card with no other lore evidence: its full front-face name (two words or more) appears case-sensitively in the prose of a cached Magic Story episode or Planeswalker's Guide (art captions excluded). A mention, not a claim about the printing's art | `.cache/story/` (Wizards pages) |",
           "| ✅ **Flavor text verbatim on** | a printed flavor text that appears word for word on a cached official page | `.cache/story/` (Wizards pages) |",
           "| ✅ **Presented with an official backstory on** / **Listed on** | the card's (front-face) name is a heading line on an official *Legends of …* article (each legend with its backstory) or a *Story Spotlight Cards* preview article (Bot cycle 36) | `data/story_extra_sources.csv` → `.cache/story/extra/` (Wizards pages) |",
           "| *Depicts / References / Echoes:* note | curated note (`data/card_lore_notes.json`). *Echoes* = the card's mechanics mirror a cited story moment (guidance) | official sources listed in the note |",
@@ -888,7 +974,8 @@ def write_page(d):
                    "featured": any(x["relation"] == "featured" for x in lo["relations"]),
                    "name match only": bool(lo["relations"]) and all(x["relation"] == "name-match" for x in lo["relations"]),
                    "Story Spotlight": bool(lo["spotlight"]), "art on an official page": bool(lo.get("art_on")),
-                   "flavor text on an official page": bool(lo["flavor_on"]), "curated note": bool(lo.get("note")),
+                   "flavor text on an official page": bool(lo["flavor_on"]),
+                   "named in official story text": bool(lo.get("named_on")), "curated note": bool(lo.get("note")),
                    "🚫 Universes Beyond": bool(lo["flags"]),
                    "in a KB deck": bool(v["synergy"]["proven"]["decks"]),
                    "Spellbook combo": bool(v["synergy"]["proven"].get("spellbook", {}).get("count")),
@@ -953,7 +1040,7 @@ def check(d):
     keys = {f"{e['page']}#{e['anchor']}": e for e in L.all_entries()}
     for oid, v in d["cards"].items():
         lo = v["lore"]
-        if not (lo["relations"] or lo.get("note") or lo["spotlight"] or lo["flavor_on"] or lo.get("art_on") or lo.get("presented_on")):
+        if not (lo["relations"] or lo.get("note") or lo["spotlight"] or lo["flavor_on"] or lo.get("art_on") or lo.get("presented_on") or lo.get("named_on")):
             if v["batch"] < 35:
                 bad.append(f"{v['name']}: no lore relation or official evidence")
             elif NO_LORE not in v["lines"][0]:
