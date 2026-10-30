@@ -1,6 +1,6 @@
 # MTG Multiverse Companion — Master Workflow & Progress Checklist
 
-**Version:** 2.27
+**Version:** 2.28
 **Checkpoint date:** 2026-10-30
 **Repository:** [corymstover/GrokBotMTGCompanion](https://github.com/corymstover/GrokBotMTGCompanion)  
 **Purpose:** Durable project roadmap and handoff document. Update this file after verified milestone work; do not treat historical figures as live counters.
@@ -28,6 +28,12 @@ Develop a comprehensive, evidence-backed Magic: The Gathering companion spanning
 | Tarkir story/card Pack A3 | **8 further claims; 7 entities; 6 Wizards sources; 6 graded card-art contexts** | `Crux of Fate` independently anchored by an official illustrated duel scene; five other printed card names graded as time-travel device, tomb location or character art. Six Oracle IDs/English-paper printing joins confirmed; **exact art-variant printing match and current Commander legality not claimed.** |
 | Tarkir exact printing art Pack A4 | **6 visually compared official-story/printing art pairs; 20 same-illustration printing IDs** | Six Wizards image crops independently compared with exact Scryfall printing IDs/artist/illustration UUIDs. `frf/1` Raymond Swanland Ugin—not earlier `ugin/1` Chris Rahn promo—is the actual duel-story picture. All six cards Commander-legal on 2026-10-30 Scryfall API; **not a complete deck or live CI image classifier**. See [Pack A4](research/PACK_A4_Exact_Tarkir_Story_Illustrations_and_Deck_Pilot.md). |
 | Phase 6 Pilot 1 (Ugin & Bolas duality) | **Complete 100-card proposal, UNAPPROVED; CI-verified** | [PR #823](https://github.com/corymstover/GrokBotMTGCompanion/pull/823): Nicol Bolas, the Ravager commander, with three Ugin planeswalkers in the 99. Planner validation passed against the Oct 29 modern snapshot (UBR, 100 cards, 35 lands, 0 hard issues); `evaluate_decklist` hard checks PASS, 1 Game Changer, bracket 3. Tiers: 6 direct / 54 canon reference / 8 lore-inspired / 15 mechanical, plus 17 basics. **Awaiting Cory's approval; not locked or certified.** See [Pilot 1](research/PHASE6_PILOT1_Ugin_Bolas_Elder_Dragon_Duality.md). |
+| Phase 3 claim graph v1 | **305 nodes · 488 edges · 78 graded claims · 37 sources (0 non-Wizards)** | [PR #825](https://github.com/corymstover/GrokBotMTGCompanion/pull/825) built it, and [PR #826](https://github.com/corymstover/GrokBotMTGCompanion/pull/826)/[PR #828](https://github.com/corymstover/GrokBotMTGCompanion/pull/828) added Packs B/C (merges `096486c6`, `8ebe31e9`, `185b5146`). `scripts/build_multiverse_graph.py --check` makes CI fail on a stale graph, broken links, duplicate edges or uncited claims. Edge grades: 69 confirmed · 4 disputed · 2 implied · 2 open · 1 alternate continuity. Every pack is still PRELIMINARY_RESEARCH. |
+| Pack B (Thran → Yawgmoth → Brothers' War) v1 | **18 claims · 23 entities · 8 Wizards sources** | [PR #826](https://github.com/corymstover/GrokBotMTGCompanion/pull/826), merge `8ebe31e9`. PRELIMINARY_RESEARCH; 1 disputed claim. |
+| Pack C (Weatherlight → Invasion → New Phyrexia) v1 | **28 claims · 26 entities · 6 Wizards sources** | [PR #828](https://github.com/corymstover/GrokBotMTGCompanion/pull/828), merge `185b5146`. PRELIMINARY_RESEARCH. Yawgmoth's defeat is graded DISPUTED (C012), and Old Phyrexia's creator is OPEN (C010). |
+| Phase 7 companion `mv_ask` | **Card + lore Q&A with VERIFIED / QUALIFIED / NOT_FOUND confidence** | [PR #827](https://github.com/corymstover/GrokBotMTGCompanion/pull/827) (merge `d9611cd6`), extended in [PR #828](https://github.com/corymstover/GrokBotMTGCompanion/pull/828)/[PR #829](https://github.com/corymstover/GrokBotMTGCompanion/pull/829). An unknown entity exits with code 3 rather than guessing. Card answers are VERIFIED only when the Oracle drift report covers the current snapshot. |
+| Oracle text drift (Oct 28 shards vs Oct 29 snapshot) | **0 changes across 33,894 cards** (Oracle text, name, type, identity, Commander legality, Game Changer) | [PR #829](https://github.com/corymstover/GrokBotMTGCompanion/pull/829), merge `b5ff3a2f`. This independently confirms the existing 5,270-ID classification. 305 new paper IDs are future-dated (`trk`/`trc` release on 2026-11-13). |
+| Phase 8 release-readiness check | **NOT_RELEASE_READY: MET 1 · PARTIAL 3 · NOT_MET 1 · EXTERNAL 2** | [PR #830](https://github.com/corymstover/GrokBotMTGCompanion/pull/830), merge `f6a91349`. A read-only evaluation of the 7 first-release criteria (`data/release/readiness_2026-10-30.json`). It never approves or certifies. |
 | Priority card enrichment | **3,409 / 5,362 (63.6%)** | **1,953 remaining** on the verified October 29 priority-pool definition; twelve reviewed *Reality Fracture* records added without changing any of the earlier 3,397. |
 | Official Wizards story inventory | **660/660 recovered and strictly audited** | Hash/URL provenance committed; full article text was cached outside Git and must be refetched/audited in a new environment. |
 | Uncertain character links | **341 name-only links triaged** | Two official-page leads warrant review; triage is not canon approval. |
@@ -205,11 +211,12 @@ Infrastructure checkpoint: [PR #783](https://github.com/corymstover/GrokBotMTGCo
 ## Phase 3 — Searchable Multiverse relationship graph
 
 - [ ] Audit existing repository entity structures before creating redundant schemas.
-- [ ] Stabilize IDs for Character, Plane, Event, Faction, Artifact, CardRepresentation and Claim records.
-- [ ] Record directional, dated, cited relationships (e.g. allied_with, fought, created, present_at, depicted_by).
-- [ ] Separate `CANON_CONFIRMED`, `CANON_IMPLIED`, `CANON_DISPUTED`, `ALTERNATE_CONTINUITY` and hypothetical connections.
-- [ ] Make relationships searchable in both directions, with canonical source links.
-- [ ] Add duplicate, broken-link and unsupported-claim regression checks.
+- [x] Stabilize IDs for Character, Plane, Event, Faction, Artifact, CardRepresentation and Claim records.
+- [ ] Record directional, dated, cited relationships (e.g. allied_with, fought, created, present_at, depicted_by). (Partial: edges are directional, cited and graded, but most are not yet dated in-universe.)
+- [x] Separate `CANON_CONFIRMED`, `CANON_IMPLIED`, `CANON_DISPUTED`, `ALTERNATE_CONTINUITY` and hypothetical connections.
+- [x] Make relationships searchable in both directions, with canonical source links.
+- [x] Add duplicate, broken-link and unsupported-claim regression checks.
+  - Evidence (2026-10-30): [PR #825](https://github.com/corymstover/GrokBotMTGCompanion/pull/825), [PR #826](https://github.com/corymstover/GrokBotMTGCompanion/pull/826), [PR #828](https://github.com/corymstover/GrokBotMTGCompanion/pull/828). Prefixed IDs: `character:`, `plane:`, `event:`, `faction:`, `artifact:`, `concept:`. Graded, cited edges with inverse relations. Queries in both directions via `scripts/query_multiverse_graph.py` and `scripts/mv_ask.py`. `--check` runs in CI. Still open: dates on edges and CardRepresentation nodes beyond Pack A4's printing joins.
 
 ## Phase 4 — Foundational lore research packs
 
@@ -220,6 +227,8 @@ Infrastructure checkpoint: [PR #783](https://github.com/corymstover/GrokBotMTGCo
 - [ ] Finish Pack A's disputed Elder Dragon War genealogy/participant roster, direct card representations and story-based deck candidates with Oracle/printing verification.
 - [ ] **Pack B: Thran civilization → Yawgmoth → Old Phyrexia → Brothers' War.** People, artifacts, conflicts and consequences.
 - [ ] **Pack C: Dominaria → Weatherlight → the Legacy → Phyrexian invasion.** Historical transitions and connections.
+- [x] **Pack B v1 (2026-10-30, [PR #826](https://github.com/corymstover/GrokBotMTGCompanion/pull/826)):** 18 claims, 23 entities, 8 Wizards sources. PRELIMINARY_RESEARCH. Next: per-claim card anchors and the Brothers' War story episodes.
+- [x] **Pack C v1 (2026-10-30, [PR #828](https://github.com/corymstover/GrokBotMTGCompanion/pull/828)):** 28 claims, 26 entities, 6 Wizards sources. PRELIMINARY_RESEARCH. Next: *Return to Dominaria* episode extraction, March of the Machine, and card anchors.
 - [ ] For each pack, publish a verified chronology, relationship map, source bibliography, explicit uncertainties and lore-deck candidates.
 
 ## Phase 5 — Full-history and plane-by-plane expansion
@@ -255,16 +264,19 @@ Infrastructure checkpoint: [PR #783](https://github.com/corymstover/GrokBotMTGCo
 - [ ] Explain ambiguous/retconned narratives rather than inventing certainty.
 - [ ] Integrate card, lore and strategic search for Commander recommendation and deckbuilding questions.
 - [ ] Test difficult representative queries, cross-references, and interaction explanations.
-- [ ] Flag unavailable, stale or low-confidence information explicitly.
+- [x] Flag unavailable, stale or low-confidence information explicitly. `mv_ask` returns VERIFIED, QUALIFIED or NOT_FOUND with flags and exits 3 for unknown entities ([PR #827](https://github.com/corymstover/GrokBotMTGCompanion/pull/827), [PR #829](https://github.com/corymstover/GrokBotMTGCompanion/pull/829)).
 
 ## Phase 8 — Release quality and continuing upkeep
 
 - [ ] Keep targeted CI checks for card counts, source integrity, relationship claims, and deck legality.
+  - Partial (2026-10-30): claim-graph, companion-ask, oracle-drift and release-readiness workflows were added, alongside the existing focused-validation and pilot audits.
 - [ ] Monitor new official stories, Oracle changes, releases, rules and Commander format updates.
+  - Partial (2026-10-30): `scripts/oracle_drift_report.py` ([PR #829](https://github.com/corymstover/GrokBotMTGCompanion/pull/829)) diffs the Oracle text against each new snapshot.
 - [ ] Rebuild and reconcile the Phase 1B set catalog and bidirectional printing lookups when new sets or printings appear, retaining historical snapshots.
 - [ ] Update snapshot manifests with actual download bytes and stable hashes.
 - [ ] Maintain an honest progress tracker: completed, under review, blocked, and not started.
 - [ ] Define an MTG Multiverse Companion milestone release based on verified features, not an arbitrary percentage of all lore.
+  - Partial (2026-10-30): `scripts/release_readiness.py` ([PR #830](https://github.com/corymstover/GrokBotMTGCompanion/pull/830)) scores each written criterion from committed evidence. Current verdict: NOT_RELEASE_READY.
 - [ ] Treat continual future MTG releases as an ongoing maintenance track rather than a permanently finishable backlog.
 
 ## Immediate execution queue — DO THESE NEXT
@@ -273,7 +285,7 @@ Infrastructure checkpoint: [PR #783](https://github.com/corymstover/GrokBotMTGCo
 2. **Index exclusions — completed for the October 29 snapshot:** retain the verified 5,270-record classification and review the 305 future-dated IDs after release, rather than prematurely importing them.
 3. **Phase 1B qualified functional release — complete for its stated scope:** full **1,062-set printing/unique-card CSV/JSON exports**, **119,509 exact bidirectional historical printing joins**, **106,855** released English-paper printing-count parity, evidence-qualified category labels, and 12 exact-title official story-series links are published and verified post-merge ([PR #818](https://github.com/corymstover/GrokBotMTGCompanion/pull/818), six green CI checks). Stronger original-bulk/cross-snapshot ID parity and a universal Wizards premier count remain **explicitly uncertified**, optional future upgrades. **293 sourced / 555 source-pending** other-family records remain a nonblocking research queue. Keep chronology separate and all 62 approved Grixis lists protected.
 4. **Close meaningful lore gaps:** review the **341** uncertain links and the **~1,220** cards with no identified lore connection while preserving unsupported entries as unknowns.
-5. **Build the relationship layer:** use and extend current schemas for claim provenance, card depictions, people, events and planes.
+5. **Relationship layer v1 is built** (graph plus Packs A, B and C; see the status table). Next: edge dates and CardRepresentation nodes. Original item: **Build the relationship layer:** use and extend current schemas for claim provenance, card depictions, people, events and planes.
 6. **Advance research Pack A:** A1/A2/A3 preserve **32 graded claims**, Elder Dragon War family links, nine general historical card names and six tiered illustrated Tarkir story contexts. **A4 directly compared all six official story images to six specific Scryfall printing art crops**; 20 distinct printing IDs share those illustration UUIDs. The story-art Ugin printing is `frf/1`, **not** the earlier `ugin/1` promo with different art. The six cards were Commander-legal on the 2026-10-30 API check, but a complete 100-card deck has **not** been built or approved. Next assemble/verify the independent lore-first candidate pool and first complete pilot; preserve the existing Deck #9 proposal and all 62 Grixis locks. Pack A's full ancient genealogy remains incomplete.
 7. **Deckbuilder demonstrated (Pilot 1 proposal, UNAPPROVED):** [PR #823](https://github.com/corymstover/GrokBotMTGCompanion/pull/823) is waiting for Cory's review. Next, generalize the pilot builder and audit into a spec-driven tool so Pilots 2–3 (Original Primeval Dragons; Ugin's Allies and Heroes) reuse them. Then close the Pack A genealogy gaps and start Packs B and C.
 8. Expand the timeline, other packs, and everyday MTG question-answering capabilities in subsequent focused milestones.
