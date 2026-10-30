@@ -1,0 +1,76 @@
+{
+  "schema": 1,
+  "cutoff": "2026-10-29",
+  "records": [
+    {
+      "code": "gdy",
+      "official_url": "https://wpn.wizards.com/en/news/whats-coming-dmu-marketing-kit",
+      "official_publication_date": "2022-08-24",
+      "evidence_grade": "wizards_dated_program_family",
+      "official_section": "Wizards Play Network's August 2022 Dominaria United event-kit article explains Game Day participation, Top 8 and first-place promos, specifically Touch the Spirit Realm, Workshop Warchief and Shivan Devastator, with a September 17–25 event window.",
+      "supported_family": "magic_game_day_recurring_promo_program",
+      "source_caveat": "Game Day is an ongoing event/promo series, not one 2022 standalone booster product; this 2022 article is later than GDY's earliest Scryfall card date and does not print GDY or enumerate all seasons."
+    },
+    {
+      "code": "sch",
+      "official_url": "https://wpn.wizards.com/en/news/whats-coming-dmu-marketing-kit",
+      "official_publication_date": "2022-08-24",
+      "evidence_grade": "wizards_dated_program_family",
+      "official_section": "The same August 2022 Wizards retailer article separately describes Store Championship participation, Top 8 and winner promos: Spell Pierce, Gilded Goose and Omnath, Locus of Creation, with an October 15–23 event window.",
+      "supported_family": "magic_store_championship_recurring_promo_program",
+      "source_caveat": "A separately documented Store Championship event family shares the retailer article with Game Day, but is not the same promotion; SCH is a Scryfall grouping, not an officially published code or complete inventory."
+    },
+    {
+      "code": "prcq",
+      "official_url": "https://wpn.wizards.com/en/news/pro-tour-returns-re-ignite-your-stores-competitive-play",
+      "official_publication_date": "2022-03-31",
+      "evidence_grade": "wizards_dated_program_family",
+      "official_section": "The March 2022 WPN announcement details the return of in-store Regional Championship Qualifiers, first local qualifier dates from July 2, and the separate participation/top-finisher promotional cards Lava Spike and Nykthos, Shrine to Nyx.",
+      "supported_family": "regional_championship_qualifier_2022_promos",
+      "source_caveat": "The 2022 RCQ promotion was announced before Scryfall PRCQ's earliest catalog card date, and the article does not itself publish the PRCQ code or prove every printing, schedule or legal status."
+    },
+    {
+      "code": "pr23",
+      "official_url": "https://wpn.wizards.com/en/news/magic-30th-anniversary-kicks-off-with-promos-products-more",
+      "official_publication_date": "2022-10-04",
+      "evidence_grade": "wizards_dated_program_family",
+      "official_section": "The October 2022 Wizards 30th-anniversary WPN announcement previews 2023 Regional Championship Qualifier events beginning in January 2023 and a separate set of Pro Tour 3 qualifying promotional cards for those participants.",
+      "supported_family": "regional_championship_qualifier_2023_promos",
+      "source_caveat": "A 2022 announcement previewing 2023 qualifying events is not a 2022 PR23 printing date; the exact PR23 code and complete 2023 qualifier promo inventory are Scryfall metadata, not official declarations here."
+    },
+    {
+      "code": "pmda",
+      "official_url": "https://mtg-jp.com/reading/kochima/0037149/",
+      "official_publication_date": "2023-08-10",
+      "evidence_grade": "wizards_dated_program_family_regional_language",
+      "official_section": "Wizards Japan's August 2023 article details the Magic × Duel Masters cross-promotional cards distributed through eligible September–December 2023 Friday Night Magic Standard events, including a September 8 Earthquake promotion and September 15 Serra Angel.",
+      "supported_family": "japan_magic_duel_masters_collaboration_2023_promos",
+      "source_caveat": "The Japanese-language first-party event article documents the regional collaboration and dates; this English-paper Scryfall research index does not import non-English variants or claim Wizards printed PMDA as a set code."
+    },
+    {
+      "code": "pcbb",
+      "official_url": "https://magic.wizards.com/en/news/announcements/announcing-cowboy-bebop-collaboration-promo-cards",
+      "official_publication_date": "2024-04-22",
+      "evidence_grade": "wizards_dated_program_family",
+      "official_section": "Wizards' April 2024 Cowboy Bebop collaboration announcement lists five traditional-foil Magic cards starting with Ossification on August 2 through September 19, 2024, distributed via Standard Showdown, with further cards through May 2025.",
+      "supported_family": "cowboy_bebop_standard_showdown_2024_2025_promo_collaboration",
+      "source_caveat": "The named crossover promo campaign spans two years; it is not a separate premier booster expansion, and this announcement does not officially print PCBB or independently certify the Scryfall collector numbering."
+    },
+    {
+      "code": "pspl",
+      "official_url": "https://magic.gg/news/announcing-the-magic-spotlight-series",
+      "official_publication_date": "2024-08-20",
+      "evidence_grade": "wizards_dated_program_family",
+      "official_section": "Wizards' official competitive Magic Spotlight Series launch announces the inaugural January 3–5, 2025 Atlanta Spotlight: Foundations event, a Standard main tournament and a borderless nonfoil Terror of the Peaks participation promo.",
+      "supported_family": "magic_spotlight_series_2025_and_later_event_promos",
+      "source_caveat": "This article previews a recurring 2025-onward live tournament series rather than certifying every later Spotlight promo printing; PSPL is a Scryfall grouping and not an official printed release code."
+    }
+  ],
+  "caveats": [
+    "These seven entries identify named first-party Wizards event/collaboration promo program families with specific contemporaneous articles, not exact Wizards-printed Scryfall codes.",
+    "Game Day and Store Championships are separate recurring event programs described in two different sections of one official 2022 WPN article; the article does not equal a seven-code release inventory.",
+    "The 2022 published 2023 Regional Championship Qualifier preview is not evidence of a 2022 card release; Scryfall earliest-card dates remain unchanged.",
+    "Japanese-language Wizards article text supports a regional Magic × Duel Masters program only; the frozen catalog remains English-paper/default-language in scope.",
+    "No article independently certifies complete collector-number inventories, original card debuts, current format legality, or additional premier sets."
+  ]
+}
