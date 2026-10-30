@@ -1,0 +1,742 @@
+{
+  "schema": 1,
+  "as_of": "2026-10-29",
+  "scope": "All 81 released nondigital Scryfall expansion/core candidates dated 2003–2022",
+  "source_policy": "Year-by-year Wizards randomized booster retrospectives and complete separately released core-edition enumeration. Specific Scryfall IDs and set_type are database crosswalks, not proof of premier taxonomy.",
+  "sources": {
+    "wotc_part1": "https://magic.wizards.com/en/news/making-magic/looking-back-part-1",
+    "wotc_part2": "https://magic.wizards.com/en/news/making-magic/looking-back-part-2",
+    "wotc_core_list": "https://magic.wizards.com/en/news/making-magic/trivial-pursuit-more-or-less"
+  },
+  "records": [
+    {
+      "code": "lgn",
+      "year": 2003,
+      "source": "https://magic.wizards.com/en/news/making-magic/looking-back-part-1",
+      "source_section": "Year 2003 — Randomized Booster Releases of That Year",
+      "claim": "historical_regular_expansion_or_core_release",
+      "evidence_level": "Wizards_primary_release_enumeration",
+      "reason": "Yearly Wizards historical release list names the set; Scryfall identifies exact code and category"
+    },
+    {
+      "code": "scg",
+      "year": 2003,
+      "source": "https://magic.wizards.com/en/news/making-magic/looking-back-part-1",
+      "source_section": "Year 2003 — Randomized Booster Releases of That Year",
+      "claim": "historical_regular_expansion_or_core_release",
+      "evidence_level": "Wizards_primary_release_enumeration",
+      "reason": "Yearly Wizards historical release list names the set; Scryfall identifies exact code and category"
+    },
+    {
+      "code": "8ed",
+      "year": 2003,
+      "source": "https://magic.wizards.com/en/news/making-magic/trivial-pursuit-more-or-less",
+      "source_section": "Question #19 — separately released core editions",
+      "claim": "historical_regular_expansion_or_core_release",
+      "evidence_level": "Wizards_primary_release_enumeration",
+      "reason": "Official Wizards core edition list names this distinct base-set edition"
+    },
+    {
+      "code": "mrd",
+      "year": 2003,
+      "source": "https://magic.wizards.com/en/news/making-magic/looking-back-part-1",
+      "source_section": "Year 2003 — Randomized Booster Releases of That Year",
+      "claim": "historical_regular_expansion_or_core_release",
+      "evidence_level": "Wizards_primary_release_enumeration",
+      "reason": "Yearly Wizards historical release list names the set; Scryfall identifies exact code and category"
+    },
+    {
+      "code": "dst",
+      "year": 2004,
+      "source": "https://magic.wizards.com/en/news/making-magic/looking-back-part-1",
+      "source_section": "Year 2004 — Randomized Booster Releases of That Year",
+      "claim": "historical_regular_expansion_or_core_release",
+      "evidence_level": "Wizards_primary_release_enumeration",
+      "reason": "Yearly Wizards historical release list names the set; Scryfall identifies exact code and category"
+    },
+    {
+      "code": "5dn",
+      "year": 2004,
+      "source": "https://magic.wizards.com/en/news/making-magic/looking-back-part-1",
+      "source_section": "Year 2004 — Randomized Booster Releases of That Year",
+      "claim": "historical_regular_expansion_or_core_release",
+      "evidence_level": "Wizards_primary_release_enumeration",
+      "reason": "Yearly Wizards historical release list names the set; Scryfall identifies exact code and category"
+    },
+    {
+      "code": "chk",
+      "year": 2004,
+      "source": "https://magic.wizards.com/en/news/making-magic/looking-back-part-1",
+      "source_section": "Year 2004 — Randomized Booster Releases of That Year",
+      "claim": "historical_regular_expansion_or_core_release",
+      "evidence_level": "Wizards_primary_release_enumeration",
+      "reason": "Yearly Wizards historical release list names the set; Scryfall identifies exact code and category"
+    },
+    {
+      "code": "bok",
+      "year": 2005,
+      "source": "https://magic.wizards.com/en/news/making-magic/looking-back-part-1",
+      "source_section": "Year 2005 — Randomized Booster Releases of That Year",
+      "claim": "historical_regular_expansion_or_core_release",
+      "evidence_level": "Wizards_primary_release_enumeration",
+      "reason": "Yearly Wizards historical release list names the set; Scryfall identifies exact code and category"
+    },
+    {
+      "code": "sok",
+      "year": 2005,
+      "source": "https://magic.wizards.com/en/news/making-magic/looking-back-part-1",
+      "source_section": "Year 2005 — Randomized Booster Releases of That Year",
+      "claim": "historical_regular_expansion_or_core_release",
+      "evidence_level": "Wizards_primary_release_enumeration",
+      "reason": "Yearly Wizards historical release list names the set; Scryfall identifies exact code and category"
+    },
+    {
+      "code": "9ed",
+      "year": 2005,
+      "source": "https://magic.wizards.com/en/news/making-magic/trivial-pursuit-more-or-less",
+      "source_section": "Question #19 — separately released core editions",
+      "claim": "historical_regular_expansion_or_core_release",
+      "evidence_level": "Wizards_primary_release_enumeration",
+      "reason": "Official Wizards core edition list names this distinct base-set edition"
+    },
+    {
+      "code": "rav",
+      "year": 2005,
+      "source": "https://magic.wizards.com/en/news/making-magic/looking-back-part-1",
+      "source_section": "Year 2005 — Randomized Booster Releases of That Year",
+      "claim": "historical_regular_expansion_or_core_release",
+      "evidence_level": "Wizards_primary_release_enumeration",
+      "reason": "Yearly Wizards historical release list names the set; Scryfall identifies exact code and category"
+    },
+    {
+      "code": "gpt",
+      "year": 2006,
+      "source": "https://magic.wizards.com/en/news/making-magic/looking-back-part-1",
+      "source_section": "Year 2006 — Randomized Booster Releases of That Year",
+      "claim": "historical_regular_expansion_or_core_release",
+      "evidence_level": "Wizards_primary_release_enumeration",
+      "reason": "Yearly Wizards historical release list names the set; Scryfall identifies exact code and category"
+    },
+    {
+      "code": "dis",
+      "year": 2006,
+      "source": "https://magic.wizards.com/en/news/making-magic/looking-back-part-1",
+      "source_section": "Year 2006 — Randomized Booster Releases of That Year",
+      "claim": "historical_regular_expansion_or_core_release",
+      "evidence_level": "Wizards_primary_release_enumeration",
+      "reason": "Yearly Wizards historical release list names the set; Scryfall identifies exact code and category"
+    },
+    {
+      "code": "csp",
+      "year": 2006,
+      "source": "https://magic.wizards.com/en/news/making-magic/looking-back-part-1",
+      "source_section": "Year 2006 — Randomized Booster Releases of That Year",
+      "claim": "historical_regular_expansion_or_core_release",
+      "evidence_level": "Wizards_primary_release_enumeration",
+      "reason": "Yearly Wizards historical release list names the set; Scryfall identifies exact code and category"
+    },
+    {
+      "code": "tsb",
+      "year": 2006,
+      "source": "https://magic.wizards.com/en/news/making-magic/looking-back-part-1",
+      "source_section": "2006 — Runner-Up: Bonus Sheets (Time Spiral timeshifted)",
+      "claim": "integrated_bonus_sheet_not_an_independent_regular_release",
+      "evidence_level": "Wizards_explicit_bonus_sheet_description",
+      "reason": "Time Spiral timeshifted cards occupy an additional 121-card bonus sheet, not a second standalone expansion"
+    },
+    {
+      "code": "tsp",
+      "year": 2006,
+      "source": "https://magic.wizards.com/en/news/making-magic/looking-back-part-1",
+      "source_section": "Year 2006 — Randomized Booster Releases of That Year",
+      "claim": "historical_regular_expansion_or_core_release",
+      "evidence_level": "Wizards_primary_release_enumeration",
+      "reason": "Yearly Wizards historical release list names the set; Scryfall identifies exact code and category"
+    },
+    {
+      "code": "plc",
+      "year": 2007,
+      "source": "https://magic.wizards.com/en/news/making-magic/looking-back-part-1",
+      "source_section": "Year 2007 — Randomized Booster Releases of That Year",
+      "claim": "historical_regular_expansion_or_core_release",
+      "evidence_level": "Wizards_primary_release_enumeration",
+      "reason": "Yearly Wizards historical release list names the set; Scryfall identifies exact code and category"
+    },
+    {
+      "code": "fut",
+      "year": 2007,
+      "source": "https://magic.wizards.com/en/news/making-magic/looking-back-part-1",
+      "source_section": "Year 2007 — Randomized Booster Releases of That Year",
+      "claim": "historical_regular_expansion_or_core_release",
+      "evidence_level": "Wizards_primary_release_enumeration",
+      "reason": "Yearly Wizards historical release list names the set; Scryfall identifies exact code and category"
+    },
+    {
+      "code": "10e",
+      "year": 2007,
+      "source": "https://magic.wizards.com/en/news/making-magic/trivial-pursuit-more-or-less",
+      "source_section": "Question #19 — separately released core editions",
+      "claim": "historical_regular_expansion_or_core_release",
+      "evidence_level": "Wizards_primary_release_enumeration",
+      "reason": "Official Wizards core edition list names this distinct base-set edition"
+    },
+    {
+      "code": "lrw",
+      "year": 2007,
+      "source": "https://magic.wizards.com/en/news/making-magic/looking-back-part-1",
+      "source_section": "Year 2007 — Randomized Booster Releases of That Year",
+      "claim": "historical_regular_expansion_or_core_release",
+      "evidence_level": "Wizards_primary_release_enumeration",
+      "reason": "Yearly Wizards historical release list names the set; Scryfall identifies exact code and category"
+    },
+    {
+      "code": "mor",
+      "year": 2008,
+      "source": "https://magic.wizards.com/en/news/making-magic/looking-back-part-1",
+      "source_section": "Year 2008 — Randomized Booster Releases of That Year",
+      "claim": "historical_regular_expansion_or_core_release",
+      "evidence_level": "Wizards_primary_release_enumeration",
+      "reason": "Yearly Wizards historical release list names the set; Scryfall identifies exact code and category"
+    },
+    {
+      "code": "shm",
+      "year": 2008,
+      "source": "https://magic.wizards.com/en/news/making-magic/looking-back-part-1",
+      "source_section": "Year 2008 — Randomized Booster Releases of That Year",
+      "claim": "historical_regular_expansion_or_core_release",
+      "evidence_level": "Wizards_primary_release_enumeration",
+      "reason": "Yearly Wizards historical release list names the set; Scryfall identifies exact code and category"
+    },
+    {
+      "code": "eve",
+      "year": 2008,
+      "source": "https://magic.wizards.com/en/news/making-magic/looking-back-part-1",
+      "source_section": "Year 2008 — Randomized Booster Releases of That Year",
+      "claim": "historical_regular_expansion_or_core_release",
+      "evidence_level": "Wizards_primary_release_enumeration",
+      "reason": "Yearly Wizards historical release list names the set; Scryfall identifies exact code and category"
+    },
+    {
+      "code": "ala",
+      "year": 2008,
+      "source": "https://magic.wizards.com/en/news/making-magic/looking-back-part-1",
+      "source_section": "Year 2008 — Randomized Booster Releases of That Year",
+      "claim": "historical_regular_expansion_or_core_release",
+      "evidence_level": "Wizards_primary_release_enumeration",
+      "reason": "Yearly Wizards historical release list names the set; Scryfall identifies exact code and category"
+    },
+    {
+      "code": "con",
+      "year": 2009,
+      "source": "https://magic.wizards.com/en/news/making-magic/looking-back-part-2",
+      "source_section": "Year 2009 — Randomized Booster Releases of That Year",
+      "claim": "historical_regular_expansion_or_core_release",
+      "evidence_level": "Wizards_primary_release_enumeration",
+      "reason": "Yearly Wizards historical release list names the set; Scryfall identifies exact code and category"
+    },
+    {
+      "code": "arb",
+      "year": 2009,
+      "source": "https://magic.wizards.com/en/news/making-magic/looking-back-part-2",
+      "source_section": "Year 2009 — Randomized Booster Releases of That Year",
+      "claim": "historical_regular_expansion_or_core_release",
+      "evidence_level": "Wizards_primary_release_enumeration",
+      "reason": "Yearly Wizards historical release list names the set; Scryfall identifies exact code and category"
+    },
+    {
+      "code": "m10",
+      "year": 2009,
+      "source": "https://magic.wizards.com/en/news/making-magic/trivial-pursuit-more-or-less",
+      "source_section": "Question #19 — separately released core editions",
+      "claim": "historical_regular_expansion_or_core_release",
+      "evidence_level": "Wizards_primary_release_enumeration",
+      "reason": "Official Wizards core edition list names this distinct base-set edition"
+    },
+    {
+      "code": "zen",
+      "year": 2009,
+      "source": "https://magic.wizards.com/en/news/making-magic/looking-back-part-2",
+      "source_section": "Year 2009 — Randomized Booster Releases of That Year",
+      "claim": "historical_regular_expansion_or_core_release",
+      "evidence_level": "Wizards_primary_release_enumeration",
+      "reason": "Yearly Wizards historical release list names the set; Scryfall identifies exact code and category"
+    },
+    {
+      "code": "wwk",
+      "year": 2010,
+      "source": "https://magic.wizards.com/en/news/making-magic/looking-back-part-2",
+      "source_section": "Year 2010 — Randomized Booster Releases of That Year",
+      "claim": "historical_regular_expansion_or_core_release",
+      "evidence_level": "Wizards_primary_release_enumeration",
+      "reason": "Yearly Wizards historical release list names the set; Scryfall identifies exact code and category"
+    },
+    {
+      "code": "roe",
+      "year": 2010,
+      "source": "https://magic.wizards.com/en/news/making-magic/looking-back-part-2",
+      "source_section": "Year 2010 — Randomized Booster Releases of That Year",
+      "claim": "historical_regular_expansion_or_core_release",
+      "evidence_level": "Wizards_primary_release_enumeration",
+      "reason": "Yearly Wizards historical release list names the set; Scryfall identifies exact code and category"
+    },
+    {
+      "code": "m11",
+      "year": 2010,
+      "source": "https://magic.wizards.com/en/news/making-magic/trivial-pursuit-more-or-less",
+      "source_section": "Question #19 — separately released core editions",
+      "claim": "historical_regular_expansion_or_core_release",
+      "evidence_level": "Wizards_primary_release_enumeration",
+      "reason": "Official Wizards core edition list names this distinct base-set edition"
+    },
+    {
+      "code": "som",
+      "year": 2010,
+      "source": "https://magic.wizards.com/en/news/making-magic/looking-back-part-2",
+      "source_section": "Year 2010 — Randomized Booster Releases of That Year",
+      "claim": "historical_regular_expansion_or_core_release",
+      "evidence_level": "Wizards_primary_release_enumeration",
+      "reason": "Yearly Wizards historical release list names the set; Scryfall identifies exact code and category"
+    },
+    {
+      "code": "mbs",
+      "year": 2011,
+      "source": "https://magic.wizards.com/en/news/making-magic/looking-back-part-2",
+      "source_section": "Year 2011 — Randomized Booster Releases of That Year",
+      "claim": "historical_regular_expansion_or_core_release",
+      "evidence_level": "Wizards_primary_release_enumeration",
+      "reason": "Yearly Wizards historical release list names the set; Scryfall identifies exact code and category"
+    },
+    {
+      "code": "nph",
+      "year": 2011,
+      "source": "https://magic.wizards.com/en/news/making-magic/looking-back-part-2",
+      "source_section": "Year 2011 — Randomized Booster Releases of That Year",
+      "claim": "historical_regular_expansion_or_core_release",
+      "evidence_level": "Wizards_primary_release_enumeration",
+      "reason": "Yearly Wizards historical release list names the set; Scryfall identifies exact code and category"
+    },
+    {
+      "code": "m12",
+      "year": 2011,
+      "source": "https://magic.wizards.com/en/news/making-magic/trivial-pursuit-more-or-less",
+      "source_section": "Question #19 — separately released core editions",
+      "claim": "historical_regular_expansion_or_core_release",
+      "evidence_level": "Wizards_primary_release_enumeration",
+      "reason": "Official Wizards core edition list names this distinct base-set edition"
+    },
+    {
+      "code": "isd",
+      "year": 2011,
+      "source": "https://magic.wizards.com/en/news/making-magic/looking-back-part-2",
+      "source_section": "Year 2011 — Randomized Booster Releases of That Year",
+      "claim": "historical_regular_expansion_or_core_release",
+      "evidence_level": "Wizards_primary_release_enumeration",
+      "reason": "Yearly Wizards historical release list names the set; Scryfall identifies exact code and category"
+    },
+    {
+      "code": "dka",
+      "year": 2012,
+      "source": "https://magic.wizards.com/en/news/making-magic/looking-back-part-2",
+      "source_section": "Year 2012 — Randomized Booster Releases of That Year",
+      "claim": "historical_regular_expansion_or_core_release",
+      "evidence_level": "Wizards_primary_release_enumeration",
+      "reason": "Yearly Wizards historical release list names the set; Scryfall identifies exact code and category"
+    },
+    {
+      "code": "avr",
+      "year": 2012,
+      "source": "https://magic.wizards.com/en/news/making-magic/looking-back-part-2",
+      "source_section": "Year 2012 — Randomized Booster Releases of That Year",
+      "claim": "historical_regular_expansion_or_core_release",
+      "evidence_level": "Wizards_primary_release_enumeration",
+      "reason": "Yearly Wizards historical release list names the set; Scryfall identifies exact code and category"
+    },
+    {
+      "code": "m13",
+      "year": 2012,
+      "source": "https://magic.wizards.com/en/news/making-magic/trivial-pursuit-more-or-less",
+      "source_section": "Question #19 — separately released core editions",
+      "claim": "historical_regular_expansion_or_core_release",
+      "evidence_level": "Wizards_primary_release_enumeration",
+      "reason": "Official Wizards core edition list names this distinct base-set edition"
+    },
+    {
+      "code": "rtr",
+      "year": 2012,
+      "source": "https://magic.wizards.com/en/news/making-magic/looking-back-part-2",
+      "source_section": "Year 2012 — Randomized Booster Releases of That Year",
+      "claim": "historical_regular_expansion_or_core_release",
+      "evidence_level": "Wizards_primary_release_enumeration",
+      "reason": "Yearly Wizards historical release list names the set; Scryfall identifies exact code and category"
+    },
+    {
+      "code": "gtc",
+      "year": 2013,
+      "source": "https://magic.wizards.com/en/news/making-magic/looking-back-part-2",
+      "source_section": "Year 2013 — Randomized Booster Releases of That Year",
+      "claim": "historical_regular_expansion_or_core_release",
+      "evidence_level": "Wizards_primary_release_enumeration",
+      "reason": "Yearly Wizards historical release list names the set; Scryfall identifies exact code and category"
+    },
+    {
+      "code": "dgm",
+      "year": 2013,
+      "source": "https://magic.wizards.com/en/news/making-magic/looking-back-part-2",
+      "source_section": "Year 2013 — Randomized Booster Releases of That Year",
+      "claim": "historical_regular_expansion_or_core_release",
+      "evidence_level": "Wizards_primary_release_enumeration",
+      "reason": "Yearly Wizards historical release list names the set; Scryfall identifies exact code and category"
+    },
+    {
+      "code": "m14",
+      "year": 2013,
+      "source": "https://magic.wizards.com/en/news/making-magic/trivial-pursuit-more-or-less",
+      "source_section": "Question #19 — separately released core editions",
+      "claim": "historical_regular_expansion_or_core_release",
+      "evidence_level": "Wizards_primary_release_enumeration",
+      "reason": "Official Wizards core edition list names this distinct base-set edition"
+    },
+    {
+      "code": "ths",
+      "year": 2013,
+      "source": "https://magic.wizards.com/en/news/making-magic/looking-back-part-2",
+      "source_section": "Year 2013 — Randomized Booster Releases of That Year",
+      "claim": "historical_regular_expansion_or_core_release",
+      "evidence_level": "Wizards_primary_release_enumeration",
+      "reason": "Yearly Wizards historical release list names the set; Scryfall identifies exact code and category"
+    },
+    {
+      "code": "bng",
+      "year": 2014,
+      "source": "https://magic.wizards.com/en/news/making-magic/looking-back-part-2",
+      "source_section": "Year 2014 — Randomized Booster Releases of That Year",
+      "claim": "historical_regular_expansion_or_core_release",
+      "evidence_level": "Wizards_primary_release_enumeration",
+      "reason": "Yearly Wizards historical release list names the set; Scryfall identifies exact code and category"
+    },
+    {
+      "code": "jou",
+      "year": 2014,
+      "source": "https://magic.wizards.com/en/news/making-magic/looking-back-part-2",
+      "source_section": "Year 2014 — Randomized Booster Releases of That Year",
+      "claim": "historical_regular_expansion_or_core_release",
+      "evidence_level": "Wizards_primary_release_enumeration",
+      "reason": "Yearly Wizards historical release list names the set; Scryfall identifies exact code and category"
+    },
+    {
+      "code": "m15",
+      "year": 2014,
+      "source": "https://magic.wizards.com/en/news/making-magic/trivial-pursuit-more-or-less",
+      "source_section": "Question #19 — separately released core editions",
+      "claim": "historical_regular_expansion_or_core_release",
+      "evidence_level": "Wizards_primary_release_enumeration",
+      "reason": "Official Wizards core edition list names this distinct base-set edition"
+    },
+    {
+      "code": "ktk",
+      "year": 2014,
+      "source": "https://magic.wizards.com/en/news/making-magic/looking-back-part-2",
+      "source_section": "Year 2014 — Randomized Booster Releases of That Year",
+      "claim": "historical_regular_expansion_or_core_release",
+      "evidence_level": "Wizards_primary_release_enumeration",
+      "reason": "Yearly Wizards historical release list names the set; Scryfall identifies exact code and category"
+    },
+    {
+      "code": "frf",
+      "year": 2015,
+      "source": "https://magic.wizards.com/en/news/making-magic/looking-back-part-2",
+      "source_section": "Year 2015 — Randomized Booster Releases of That Year",
+      "claim": "historical_regular_expansion_or_core_release",
+      "evidence_level": "Wizards_primary_release_enumeration",
+      "reason": "Yearly Wizards historical release list names the set; Scryfall identifies exact code and category"
+    },
+    {
+      "code": "dtk",
+      "year": 2015,
+      "source": "https://magic.wizards.com/en/news/making-magic/looking-back-part-2",
+      "source_section": "Year 2015 — Randomized Booster Releases of That Year",
+      "claim": "historical_regular_expansion_or_core_release",
+      "evidence_level": "Wizards_primary_release_enumeration",
+      "reason": "Yearly Wizards historical release list names the set; Scryfall identifies exact code and category"
+    },
+    {
+      "code": "ori",
+      "year": 2015,
+      "source": "https://magic.wizards.com/en/news/making-magic/trivial-pursuit-more-or-less",
+      "source_section": "Question #19 — separately released core editions",
+      "claim": "historical_regular_expansion_or_core_release",
+      "evidence_level": "Wizards_primary_release_enumeration",
+      "reason": "Official Wizards core edition list names this distinct base-set edition"
+    },
+    {
+      "code": "bfz",
+      "year": 2015,
+      "source": "https://magic.wizards.com/en/news/making-magic/looking-back-part-2",
+      "source_section": "Year 2015 — Randomized Booster Releases of That Year",
+      "claim": "historical_regular_expansion_or_core_release",
+      "evidence_level": "Wizards_primary_release_enumeration",
+      "reason": "Yearly Wizards historical release list names the set; Scryfall identifies exact code and category"
+    },
+    {
+      "code": "ogw",
+      "year": 2016,
+      "source": "https://magic.wizards.com/en/news/making-magic/looking-back-part-2",
+      "source_section": "Year 2016 — Randomized Booster Releases of That Year",
+      "claim": "historical_regular_expansion_or_core_release",
+      "evidence_level": "Wizards_primary_release_enumeration",
+      "reason": "Yearly Wizards historical release list names the set; Scryfall identifies exact code and category"
+    },
+    {
+      "code": "soi",
+      "year": 2016,
+      "source": "https://magic.wizards.com/en/news/making-magic/looking-back-part-2",
+      "source_section": "Year 2016 — Randomized Booster Releases of That Year",
+      "claim": "historical_regular_expansion_or_core_release",
+      "evidence_level": "Wizards_primary_release_enumeration",
+      "reason": "Yearly Wizards historical release list names the set; Scryfall identifies exact code and category"
+    },
+    {
+      "code": "emn",
+      "year": 2016,
+      "source": "https://magic.wizards.com/en/news/making-magic/looking-back-part-2",
+      "source_section": "Year 2016 — Randomized Booster Releases of That Year",
+      "claim": "historical_regular_expansion_or_core_release",
+      "evidence_level": "Wizards_primary_release_enumeration",
+      "reason": "Yearly Wizards historical release list names the set; Scryfall identifies exact code and category"
+    },
+    {
+      "code": "kld",
+      "year": 2016,
+      "source": "https://magic.wizards.com/en/news/making-magic/looking-back-part-2",
+      "source_section": "Year 2016 — Randomized Booster Releases of That Year",
+      "claim": "historical_regular_expansion_or_core_release",
+      "evidence_level": "Wizards_primary_release_enumeration",
+      "reason": "Yearly Wizards historical release list names the set; Scryfall identifies exact code and category"
+    },
+    {
+      "code": "aer",
+      "year": 2017,
+      "source": "https://magic.wizards.com/en/news/making-magic/looking-back-part-2",
+      "source_section": "Year 2017 — Randomized Booster Releases of That Year",
+      "claim": "historical_regular_expansion_or_core_release",
+      "evidence_level": "Wizards_primary_release_enumeration",
+      "reason": "Yearly Wizards historical release list names the set; Scryfall identifies exact code and category"
+    },
+    {
+      "code": "akh",
+      "year": 2017,
+      "source": "https://magic.wizards.com/en/news/making-magic/looking-back-part-2",
+      "source_section": "Year 2017 — Randomized Booster Releases of That Year",
+      "claim": "historical_regular_expansion_or_core_release",
+      "evidence_level": "Wizards_primary_release_enumeration",
+      "reason": "Yearly Wizards historical release list names the set; Scryfall identifies exact code and category"
+    },
+    {
+      "code": "hou",
+      "year": 2017,
+      "source": "https://magic.wizards.com/en/news/making-magic/looking-back-part-2",
+      "source_section": "Year 2017 — Randomized Booster Releases of That Year",
+      "claim": "historical_regular_expansion_or_core_release",
+      "evidence_level": "Wizards_primary_release_enumeration",
+      "reason": "Yearly Wizards historical release list names the set; Scryfall identifies exact code and category"
+    },
+    {
+      "code": "xln",
+      "year": 2017,
+      "source": "https://magic.wizards.com/en/news/making-magic/looking-back-part-2",
+      "source_section": "Year 2017 — Randomized Booster Releases of That Year",
+      "claim": "historical_regular_expansion_or_core_release",
+      "evidence_level": "Wizards_primary_release_enumeration",
+      "reason": "Yearly Wizards historical release list names the set; Scryfall identifies exact code and category"
+    },
+    {
+      "code": "rix",
+      "year": 2018,
+      "source": "https://magic.wizards.com/en/news/making-magic/looking-back-part-2",
+      "source_section": "Year 2018 — Randomized Booster Releases of That Year",
+      "claim": "historical_regular_expansion_or_core_release",
+      "evidence_level": "Wizards_primary_release_enumeration",
+      "reason": "Yearly Wizards historical release list names the set; Scryfall identifies exact code and category"
+    },
+    {
+      "code": "dom",
+      "year": 2018,
+      "source": "https://magic.wizards.com/en/news/making-magic/looking-back-part-2",
+      "source_section": "Year 2018 — Randomized Booster Releases of That Year",
+      "claim": "historical_regular_expansion_or_core_release",
+      "evidence_level": "Wizards_primary_release_enumeration",
+      "reason": "Yearly Wizards historical release list names the set; Scryfall identifies exact code and category"
+    },
+    {
+      "code": "m19",
+      "year": 2018,
+      "source": "https://magic.wizards.com/en/news/making-magic/trivial-pursuit-more-or-less",
+      "source_section": "Question #19 — separately released core editions",
+      "claim": "historical_regular_expansion_or_core_release",
+      "evidence_level": "Wizards_primary_release_enumeration",
+      "reason": "Official Wizards core edition list names this distinct base-set edition"
+    },
+    {
+      "code": "grn",
+      "year": 2018,
+      "source": "https://magic.wizards.com/en/news/making-magic/looking-back-part-2",
+      "source_section": "Year 2018 — Randomized Booster Releases of That Year",
+      "claim": "historical_regular_expansion_or_core_release",
+      "evidence_level": "Wizards_primary_release_enumeration",
+      "reason": "Yearly Wizards historical release list names the set; Scryfall identifies exact code and category"
+    },
+    {
+      "code": "rna",
+      "year": 2019,
+      "source": "https://magic.wizards.com/en/news/making-magic/looking-back-part-2",
+      "source_section": "Year 2019 — Randomized Booster Releases of That Year",
+      "claim": "historical_regular_expansion_or_core_release",
+      "evidence_level": "Wizards_primary_release_enumeration",
+      "reason": "Yearly Wizards historical release list names the set; Scryfall identifies exact code and category"
+    },
+    {
+      "code": "war",
+      "year": 2019,
+      "source": "https://magic.wizards.com/en/news/making-magic/looking-back-part-2",
+      "source_section": "Year 2019 — Randomized Booster Releases of That Year",
+      "claim": "historical_regular_expansion_or_core_release",
+      "evidence_level": "Wizards_primary_release_enumeration",
+      "reason": "Yearly Wizards historical release list names the set; Scryfall identifies exact code and category"
+    },
+    {
+      "code": "m20",
+      "year": 2019,
+      "source": "https://magic.wizards.com/en/news/making-magic/trivial-pursuit-more-or-less",
+      "source_section": "Question #19 — separately released core editions",
+      "claim": "historical_regular_expansion_or_core_release",
+      "evidence_level": "Wizards_primary_release_enumeration",
+      "reason": "Official Wizards core edition list names this distinct base-set edition"
+    },
+    {
+      "code": "eld",
+      "year": 2019,
+      "source": "https://magic.wizards.com/en/news/making-magic/looking-back-part-2",
+      "source_section": "Year 2019 — Randomized Booster Releases of That Year",
+      "claim": "historical_regular_expansion_or_core_release",
+      "evidence_level": "Wizards_primary_release_enumeration",
+      "reason": "Yearly Wizards historical release list names the set; Scryfall identifies exact code and category"
+    },
+    {
+      "code": "thb",
+      "year": 2020,
+      "source": "https://magic.wizards.com/en/news/making-magic/looking-back-part-2",
+      "source_section": "Year 2020 — Randomized Booster Releases of That Year",
+      "claim": "historical_regular_expansion_or_core_release",
+      "evidence_level": "Wizards_primary_release_enumeration",
+      "reason": "Yearly Wizards historical release list names the set; Scryfall identifies exact code and category"
+    },
+    {
+      "code": "iko",
+      "year": 2020,
+      "source": "https://magic.wizards.com/en/news/making-magic/looking-back-part-2",
+      "source_section": "Year 2020 — Randomized Booster Releases of That Year",
+      "claim": "historical_regular_expansion_or_core_release",
+      "evidence_level": "Wizards_primary_release_enumeration",
+      "reason": "Yearly Wizards historical release list names the set; Scryfall identifies exact code and category"
+    },
+    {
+      "code": "m21",
+      "year": 2020,
+      "source": "https://magic.wizards.com/en/news/making-magic/trivial-pursuit-more-or-less",
+      "source_section": "Question #19 — separately released core editions",
+      "claim": "historical_regular_expansion_or_core_release",
+      "evidence_level": "Wizards_primary_release_enumeration",
+      "reason": "Official Wizards core edition list names this distinct base-set edition"
+    },
+    {
+      "code": "znr",
+      "year": 2020,
+      "source": "https://magic.wizards.com/en/news/making-magic/looking-back-part-2",
+      "source_section": "Year 2020 — Randomized Booster Releases of That Year",
+      "claim": "historical_regular_expansion_or_core_release",
+      "evidence_level": "Wizards_primary_release_enumeration",
+      "reason": "Yearly Wizards historical release list names the set; Scryfall identifies exact code and category"
+    },
+    {
+      "code": "khm",
+      "year": 2021,
+      "source": "https://magic.wizards.com/en/news/making-magic/looking-back-part-2",
+      "source_section": "Year 2021 — Randomized Booster Releases of That Year",
+      "claim": "historical_regular_expansion_or_core_release",
+      "evidence_level": "Wizards_primary_release_enumeration",
+      "reason": "Yearly Wizards historical release list names the set; Scryfall identifies exact code and category"
+    },
+    {
+      "code": "stx",
+      "year": 2021,
+      "source": "https://magic.wizards.com/en/news/making-magic/looking-back-part-2",
+      "source_section": "Year 2021 — Randomized Booster Releases of That Year",
+      "claim": "historical_regular_expansion_or_core_release",
+      "evidence_level": "Wizards_primary_release_enumeration",
+      "reason": "Yearly Wizards historical release list names the set; Scryfall identifies exact code and category"
+    },
+    {
+      "code": "afr",
+      "year": 2021,
+      "source": "https://magic.wizards.com/en/news/making-magic/looking-back-part-2",
+      "source_section": "Year 2021 — Randomized Booster Releases of That Year",
+      "claim": "historical_regular_expansion_or_core_release",
+      "evidence_level": "Wizards_primary_release_enumeration",
+      "reason": "Yearly Wizards historical release list names the set; Scryfall identifies exact code and category"
+    },
+    {
+      "code": "mid",
+      "year": 2021,
+      "source": "https://magic.wizards.com/en/news/making-magic/looking-back-part-2",
+      "source_section": "Year 2021 — Randomized Booster Releases of That Year",
+      "claim": "historical_regular_expansion_or_core_release",
+      "evidence_level": "Wizards_primary_release_enumeration",
+      "reason": "Yearly Wizards historical release list names the set; Scryfall identifies exact code and category"
+    },
+    {
+      "code": "vow",
+      "year": 2021,
+      "source": "https://magic.wizards.com/en/news/making-magic/looking-back-part-2",
+      "source_section": "Year 2021 — Randomized Booster Releases of That Year",
+      "claim": "historical_regular_expansion_or_core_release",
+      "evidence_level": "Wizards_primary_release_enumeration",
+      "reason": "Yearly Wizards historical release list names the set; Scryfall identifies exact code and category"
+    },
+    {
+      "code": "neo",
+      "year": 2022,
+      "source": "https://magic.wizards.com/en/news/making-magic/looking-back-part-2",
+      "source_section": "Year 2022 — Randomized Booster Releases of That Year",
+      "claim": "historical_regular_expansion_or_core_release",
+      "evidence_level": "Wizards_primary_release_enumeration",
+      "reason": "Yearly Wizards historical release list names the set; Scryfall identifies exact code and category"
+    },
+    {
+      "code": "snc",
+      "year": 2022,
+      "source": "https://magic.wizards.com/en/news/making-magic/looking-back-part-2",
+      "source_section": "Year 2022 — Randomized Booster Releases of That Year",
+      "claim": "historical_regular_expansion_or_core_release",
+      "evidence_level": "Wizards_primary_release_enumeration",
+      "reason": "Yearly Wizards historical release list names the set; Scryfall identifies exact code and category"
+    },
+    {
+      "code": "dmu",
+      "year": 2022,
+      "source": "https://magic.wizards.com/en/news/making-magic/looking-back-part-2",
+      "source_section": "Year 2022 — Randomized Booster Releases of That Year",
+      "claim": "historical_regular_expansion_or_core_release",
+      "evidence_level": "Wizards_primary_release_enumeration",
+      "reason": "Yearly Wizards historical release list names the set; Scryfall identifies exact code and category"
+    },
+    {
+      "code": "bro",
+      "year": 2022,
+      "source": "https://magic.wizards.com/en/news/making-magic/looking-back-part-2",
+      "source_section": "Year 2022 — Randomized Booster Releases of That Year",
+      "claim": "historical_regular_expansion_or_core_release",
+      "evidence_level": "Wizards_primary_release_enumeration",
+      "reason": "Yearly Wizards historical release list names the set; Scryfall identifies exact code and category"
+    }
+  ]
+}

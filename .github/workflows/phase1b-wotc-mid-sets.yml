@@ -1,0 +1,50 @@
+name: Phase 1B Wizards 2003–2022 historical set census
+on:
+  pull_request:
+    paths:
+      - scripts/audit_wotc_mid_sets.py
+      - tests/test_wotc_mid_sets.py
+      - data/set_atlas/wotc_mid_release_evidence_2003_2022.json
+      - data/set_atlas/wotc_mid_release_audit_2003_2022.json
+      - .github/workflows/phase1b-wotc-mid-sets.yml
+  push:
+    branches:
+      - chatgpt-phase1b-premier-2003-2022-20261029
+      - main
+    paths:
+      - scripts/audit_wotc_mid_sets.py
+      - tests/test_wotc_mid_sets.py
+      - data/set_atlas/wotc_mid_release_evidence_2003_2022.json
+      - data/set_atlas/wotc_mid_release_audit_2003_2022.json
+      - .github/workflows/phase1b-wotc-mid-sets.yml
+permissions:
+  contents: write
+jobs:
+  verify-2003-2022:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Test 81-code historical primary sources and whole-census reconciliation
+        run: python3 -m unittest discover -s tests -p 'test_wotc_mid_sets.py' -v
+      - name: Generate historical report on designated source branch
+        if: github.event_name == 'push' && github.ref_name == 'chatgpt-phase1b-premier-2003-2022-20261029'
+        run: python3 scripts/audit_wotc_mid_sets.py --write
+      - name: Replay exact report and check Python syntax
+        run: |
+          python3 scripts/audit_wotc_mid_sets.py
+          python3 -m py_compile scripts/audit_wotc_mid_sets.py
+      - name: Publish reviewed data only
+        if: github.event_name == 'push' && github.ref_name == 'chatgpt-phase1b-premier-2003-2022-20261029'
+        run: |
+          git add data/set_atlas/wotc_mid_release_audit_2003_2022.json
+          if ! git diff --cached --quiet; then
+            git config user.name 'github-actions[bot]'
+            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+            git commit -m "Phase 1B: record 2003–2022 primary-source release audit"
+            git push origin HEAD:chatgpt-phase1b-premier-2003-2022-20261029
+          fi
