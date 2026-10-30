@@ -4,21 +4,21 @@
   "as_of": "2026-10-30",
   "basis": "Only orderings stated verbatim on cached official Wizards pages; printed AR scene headers; transitivity. No invented years; story presents are never merged.",
   "counts": {
-    "nodes": 63,
-    "event_nodes": 42,
-    "story_present_nodes": 14,
+    "nodes": 79,
+    "event_nodes": 56,
+    "story_present_nodes": 16,
     "printed_ar_labels": 7,
-    "stated_edges": 47,
+    "stated_edges": 63,
     "derived_edges": 6,
-    "comparable_pairs": 155,
-    "total_pairs": 1946,
-    "components": 12,
+    "comparable_pairs": 177,
+    "total_pairs": 3074,
+    "components": 13,
     "cycles": 0
   },
   "families": {
     "A": {
-      "event_nodes": 13,
-      "stated_edges": 17,
+      "event_nodes": 16,
+      "stated_edges": 21,
       "claims_placed": [
         "A003",
         "A005",
@@ -39,8 +39,8 @@
       "claims_total": 48
     },
     "B": {
-      "event_nodes": 14,
-      "stated_edges": 16,
+      "event_nodes": 20,
+      "stated_edges": 21,
       "claims_placed": [
         "B007",
         "B008",
@@ -53,8 +53,8 @@
       "claims_total": 18
     },
     "C": {
-      "event_nodes": 15,
-      "stated_edges": 15,
+      "event_nodes": 20,
+      "stated_edges": 22,
       "claims_placed": [
         "C004",
         "C005",
@@ -167,6 +167,13 @@
       ]
     },
     {
+      "id": "A:sarkhan_born",
+      "kind": "EVENT",
+      "family": "A",
+      "label": "Sarkhan Vol is born (original timeline)",
+      "claims": []
+    },
+    {
       "id": "A:sarkhan_change",
       "kind": "EVENT",
       "family": "A",
@@ -190,6 +197,13 @@
       ]
     },
     {
+      "id": "A:sarkhan_first_sees_bolas",
+      "kind": "EVENT",
+      "family": "A",
+      "label": "Sarkhan first lays eyes on Nicol Bolas (his own lifetime)",
+      "claims": []
+    },
+    {
       "id": "A:sarkhan_returns_present",
       "kind": "EVENT",
       "family": "A",
@@ -208,6 +222,13 @@
           "grade": "CANON_CONFIRMED"
         }
       ]
+    },
+    {
+      "id": "A:tarkir_dragons_die_out",
+      "kind": "EVENT",
+      "family": "A",
+      "label": "Tarkir's dragons die out after Ugin's death ends the dragon tempests (original timeline)",
+      "claims": []
     },
     {
       "id": "A:tarkir_duel",
@@ -366,6 +387,20 @@
       "claims": []
     },
     {
+      "id": "B:phyrexia_creator_dies",
+      "kind": "EVENT",
+      "family": "B",
+      "label": "Phyrexia's unnamed creator and master dies",
+      "claims": []
+    },
+    {
+      "id": "B:phyrexia_portal_closed",
+      "kind": "EVENT",
+      "family": "B",
+      "label": "The Dominaria-Phyrexia portal is closed, trapping Yawgmoth",
+      "claims": []
+    },
+    {
       "id": "B:shard_twelve_worlds",
       "kind": "EVENT",
       "family": "B",
@@ -377,6 +412,20 @@
       "kind": "EVENT",
       "family": "B",
       "label": "'And there was silence in Terisiare'",
+      "claims": []
+    },
+    {
+      "id": "B:thran_civil_war",
+      "kind": "EVENT",
+      "family": "B",
+      "label": "Yawgmoth plunges the Thran Empire into civil war",
+      "claims": []
+    },
+    {
+      "id": "B:thran_defeated",
+      "kind": "EVENT",
+      "family": "B",
+      "label": "The Thran are defeated",
       "claims": []
     },
     {
@@ -442,6 +491,20 @@
       "kind": "EVENT",
       "family": "B",
       "label": "The Brothers' War concludes",
+      "claims": []
+    },
+    {
+      "id": "B:yawgmoth_power_grows",
+      "kind": "EVENT",
+      "family": "B",
+      "label": "Yawgmoth's power grows among the Thran",
+      "claims": []
+    },
+    {
+      "id": "B:yawgmoth_to_phyrexia",
+      "kind": "EVENT",
+      "family": "B",
+      "label": "Dyfed takes Yawgmoth to Phyrexia",
       "claims": []
     },
     {
@@ -580,6 +643,13 @@
       ]
     },
     {
+      "id": "C:planeswalker_war_close",
+      "kind": "EVENT",
+      "family": "C",
+      "label": "Close of the Planeswalker War; Dihada leaves Dominaria",
+      "claims": []
+    },
+    {
       "id": "C:primevals_fall",
       "kind": "EVENT",
       "family": "C",
@@ -591,6 +661,13 @@
       "kind": "EVENT",
       "family": "C",
       "label": "Rith and the Primevals awake during the previous Phyrexian invasion",
+      "claims": []
+    },
+    {
+      "id": "C:rath_overlay",
+      "kind": "EVENT",
+      "family": "C",
+      "label": "Rath is laid over Dominaria, beginning the Phyrexian invasion",
       "claims": []
     },
     {
@@ -614,6 +691,27 @@
       ]
     },
     {
+      "id": "C:urza_final_spell",
+      "kind": "EVENT",
+      "family": "C",
+      "label": "Urza's final powerful spell all but ends the Phyrexian invasion",
+      "claims": []
+    },
+    {
+      "id": "C:weatherlight_mercadia",
+      "kind": "EVENT",
+      "family": "C",
+      "label": "The Weatherlight crew ends up on Mercadia",
+      "claims": []
+    },
+    {
+      "id": "C:weatherlight_to_rath",
+      "kind": "EVENT",
+      "family": "C",
+      "label": "The Weatherlight travels to Rath to rescue Sisay",
+      "claims": []
+    },
+    {
       "id": "P:bro_ch1",
       "kind": "STORY_PRESENT",
       "family": null,
@@ -626,6 +724,20 @@
       "family": null,
       "label": "Story present of the-brothers-war-episode-5-as-cruel-as-necessary",
       "url": "https://magic.wizards.com/en/news/magic-story/the-brothers-war-episode-5-as-cruel-as-necessary"
+    },
+    {
+      "id": "P:bro_product_page",
+      "kind": "STORY_PRESENT",
+      "family": null,
+      "label": "Story present of products/the-brothers-war",
+      "url": "https://magic.wizards.com/en/products/the-brothers-war"
+    },
+    {
+      "id": "P:death_and_salvation",
+      "kind": "STORY_PRESENT",
+      "family": null,
+      "label": "Story present of death-and-salvation-2022-08-16",
+      "url": "https://magic.wizards.com/en/news/magic-story/death-and-salvation-2022-08-16"
     },
     {
       "id": "P:dmu_legends",
@@ -1229,6 +1341,182 @@
       "quote": "why Teferi spent hundreds of years trying to restore his home",
       "quote_sha256": "8d9bc086feb6d133c8e91761dcd726865f105065c8d6857012775a288ba4d1f8",
       "note": ""
+    },
+    {
+      "earlier": "A:tarkir_duel",
+      "later": "A:tarkir_dragons_die_out",
+      "relation": "BEFORE",
+      "kind": "STATED_BEFORE",
+      "value": null,
+      "source_url": "https://magic.wizards.com/en/news/feature/reforged-chain-2015-01-21",
+      "quote": "Ugin's death ended Tarkir's dragon tempests, which wiped out dragons on Tarkir long before Sarkhan was born",
+      "quote_sha256": "ca6f93831ef85fcb3a9407e38e69168b52fbf36ed9c1a8fc6ff780a89eb77c86",
+      "note": "Original (pre-alteration) timeline as Sarkhan understands it; Ugin's death is the duel's outcome."
+    },
+    {
+      "earlier": "A:tarkir_dragons_die_out",
+      "later": "A:sarkhan_born",
+      "relation": "BEFORE",
+      "kind": "STATED_BEFORE",
+      "value": null,
+      "source_url": "https://magic.wizards.com/en/news/feature/reforged-chain-2015-01-21",
+      "quote": "which wiped out dragons on Tarkir long before Sarkhan was born",
+      "quote_sha256": "9d9f6b61a63ca7940d8197bf69d19345d196b07d5eeb073d96d70de870660638",
+      "note": "Original timeline; 'long before' is open-ended."
+    },
+    {
+      "earlier": "A:tarkir_duel",
+      "later": "A:sarkhan_first_sees_bolas",
+      "relation": "BEFORE",
+      "kind": "STATED_BEFORE",
+      "value": null,
+      "source_url": "https://magic.wizards.com/en/news/feature/reforged-chain-2015-01-21",
+      "quote": "Now that he saw Bolas again, a thousand years before he had laid eyes on him for the first time",
+      "quote_sha256": "be444ddd7234d8584f4d49d3a9476a0ea28571b205def835a1684e180fcc1419",
+      "note": "Interval stated as 'a thousand years'; the scene is the duel-era Tarkir past."
+    },
+    {
+      "earlier": "A:sarkhan_change",
+      "later": "A:sarkhan_returns_present",
+      "relation": "BEFORE",
+      "kind": "STATED_BEFORE",
+      "value": null,
+      "source_url": "https://magic.wizards.com/en/news/feature/reforged-chain-2015-01-21",
+      "quote": "as his actions had irrevocably changed the conditions that had led to the nexus of a dead dragon Planeswalker in this chasm",
+      "quote_sha256": "5d26b16cd4b44c1d3abad0e1dd53e0f8cf09dd72eb3562418bd102df992ced00",
+      "note": "Pluperfect clause in the sentence that ends 'temporal forces whisked Sarkhan away' on the same page."
+    },
+    {
+      "earlier": "B:last_battle_sylex",
+      "later": "P:bro_product_page",
+      "relation": "BEFORE",
+      "kind": "SPAN_BEFORE_PRESENT",
+      "value": "many centuries ago",
+      "source_url": "https://magic.wizards.com/en/products/the-brothers-war",
+      "quote": "The Sylex was activated once, many centuries ago, but it remained hidden until now.",
+      "quote_sha256": "412d2dd45780853360b03cf5504ccd0ea185d96fc3610445e4473d1477d8f2a4",
+      "note": "Official product page; its 'now' is its own story present, never merged with the BRO episodes."
+    },
+    {
+      "earlier": "B:phyrexia_creator_dies",
+      "later": "B:yawgmoth_to_phyrexia",
+      "relation": "BEFORE",
+      "kind": "STATED_BEFORE",
+      "value": null,
+      "source_url": "https://magic.wizards.com/en/news/feature/known-mutliverse-2008-03-19",
+      "quote": "the planeswalker Dyfed took Yawgmoth to Phyrexia shortly after its creator and master had died",
+      "quote_sha256": "56f988a4b9c0661d7ad06b9ebf721b09a6bfa1a224acf081f83e4a0862dea11c",
+      "note": "The Known Multiverse (2008) summary of the Thran novel."
+    },
+    {
+      "earlier": "B:thran_rule",
+      "later": "B:yawgmoth_to_phyrexia",
+      "relation": "DURING",
+      "kind": "STATED_DURING",
+      "value": null,
+      "source_url": "https://magic.wizards.com/en/news/feature/known-mutliverse-2008-03-19",
+      "quote": "During the decline of the Thran Empire on Dominaria, the planeswalker Dyfed took Yawgmoth to Phyrexia",
+      "quote_sha256": "476b0fa084c40af900eb77d9742e401a33ccaf483b21c7a230a0933f0de18bac",
+      "note": "'During the decline' of Thran rule."
+    },
+    {
+      "earlier": "B:yawgmoth_power_grows",
+      "later": "B:thran_civil_war",
+      "relation": "BEFORE",
+      "kind": "STATED_BEFORE",
+      "value": null,
+      "source_url": "https://magic.wizards.com/en/news/card-preview/legendary-characters-commander-legends-part-1-2020-10-30",
+      "quote": "Unknowingly, she helped Yawgmoth's power grow, and eventually, he plunged the Thran Empire into civil war",
+      "quote_sha256": "ba123366f0eed1afb34e19d2d4e573406f3107097311c7dfad1e6fab9978f516",
+      "note": "Rebbec entry; 'eventually'."
+    },
+    {
+      "earlier": "B:phyrexia_portal_closed",
+      "later": "B:thran_defeated",
+      "relation": "BEFORE",
+      "kind": "STATED_BEFORE",
+      "value": null,
+      "source_url": "https://magic.wizards.com/en/news/feature/known-mutliverse-2008-03-19",
+      "quote": "The Thran were defeated, but not before the portal was closed, trapping Yawgmoth and the Phyrexians in their plane.",
+      "quote_sha256": "75ac05c51d311fe3135e8c1dca91f1344b8dda87b1576353ec1e96565133c60b",
+      "note": "'not before' = the closing precedes the defeat."
+    },
+    {
+      "earlier": "C:weatherlight_to_rath",
+      "later": "C:rath_overlay",
+      "relation": "BEFORE",
+      "kind": "STATED_BEFORE",
+      "value": null,
+      "source_url": "https://magic.wizards.com/en/news/feature/known-mutliverse-2008-03-19",
+      "quote": "The skyship Weatherlight and its crew traveled to Rath to rescue the ship's captain Sisay. Later, when the Phyrexian aggression began in earnest",
+      "quote_sha256": "336d61b054d74079e3741102296ce2ae9f62e51c2240825a5ec26c2132531871",
+      "note": "'Later'."
+    },
+    {
+      "earlier": "C:phyrexian_invasion_1",
+      "later": "C:rath_overlay",
+      "relation": "DURING",
+      "kind": "STATED_DURING",
+      "value": null,
+      "source_url": "https://magic.wizards.com/en/news/feature/known-mutliverse-2008-03-19",
+      "quote": "Rath's purpose was fulfilled as it was laid over Dominaria like a sickly skin",
+      "quote_sha256": "f60c48271932f45faaff5f9ae376c290fa4704111de32434b4d25e279f6c676f",
+      "note": "The page says the overlay began the Phyrexian invasion."
+    },
+    {
+      "earlier": "C:weatherlight_to_rath",
+      "later": "C:weatherlight_mercadia",
+      "relation": "BEFORE",
+      "kind": "STATED_BEFORE",
+      "value": null,
+      "source_url": "https://magic.wizards.com/en/news/feature/known-mutliverse-2008-03-19",
+      "quote": "Gerrard and the crew of the Weatherlight ended up in this plane after blindly flinging themselves from Rath.",
+      "quote_sha256": "fcee6756a5d478a2f09fb704bebc1986dae3747f9b16fb204ee19c58abfba1cf",
+      "note": "'after'."
+    },
+    {
+      "earlier": "C:planeswalker_war_close",
+      "later": "C:phyrexian_invasion_1",
+      "relation": "BEFORE",
+      "kind": "STATED_BEFORE",
+      "value": null,
+      "source_url": "https://magic.wizards.com/en/news/feature/returning-legends-modern-horizons-2-2021-06-10",
+      "quote": "Dihada left Dominaria at the close of the Planeswalker War, a few years prior to the Phyrexian Invasion.",
+      "quote_sha256": "4aa52007ca02b33d5252913b721a8f7aa6714ffaf9adaa9758e02dea80c89564",
+      "note": "'a few years prior'."
+    },
+    {
+      "earlier": "C:phyrexian_invasion_1",
+      "later": "C:urza_final_spell",
+      "relation": "DURING",
+      "kind": "STATED_DURING",
+      "value": null,
+      "source_url": "https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-3-2018-03-28",
+      "quote": "Urza's final powerful spell had all but ended the Phyrexian invasion",
+      "quote_sha256": "5e76e414ccc67fe1895194a28b83fd79263d55826707576748ecc2cdcfaef971",
+      "note": "The spell is at the invasion's end."
+    },
+    {
+      "earlier": "C:urza_final_spell",
+      "later": "P:rtd_ep3",
+      "relation": "BEFORE",
+      "kind": "SPAN_BEFORE_PRESENT",
+      "value": "so long since",
+      "source_url": "https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-3-2018-03-28",
+      "quote": "It had been so long since Urza's final powerful spell had all but ended the Phyrexian invasion",
+      "quote_sha256": "1747595b3b191f3c765128c09e9912bd04cdea1a583ba970cff19ff606988c02",
+      "note": "Open-ended span."
+    },
+    {
+      "earlier": "C:phyrexian_invasion_1",
+      "later": "P:death_and_salvation",
+      "relation": "BEFORE",
+      "kind": "SPAN_BEFORE_PRESENT",
+      "value": "nearly four hundred years ago",
+      "source_url": "https://magic.wizards.com/en/news/magic-story/death-and-salvation-2022-08-16",
+      "quote": "Squee had helped some of Dominaria's greatest heroes repel invading Phyrexian forces nearly four hundred years ago",
+      "quote_sha256": "5397d8b563b545332cc060229f696b260232a78be241290a4c933fd6268204c7",
+      "note": "Squee's backstory; the invading forces are the Invasion-era Phyrexians on Dominaria."
     }
   ],
   "derived_edges": [
@@ -1318,7 +1606,28 @@
       "B:silence_terisiare",
       "B:trench_war",
       "B:war_ended",
-      "P:bro_ep5"
+      "P:bro_ep5",
+      "P:bro_product_page"
+    ],
+    [
+      "A:eldrazi_imprisoned",
+      "A:eldrazi_near_escape",
+      "A:nahiri_slumber",
+      "A:sarkhan_born",
+      "A:sarkhan_change",
+      "A:sarkhan_first_sees_bolas",
+      "A:sarkhan_returns_present",
+      "A:sorin_wakes_ugin",
+      "A:tarkir_dragons_die_out",
+      "A:tarkir_duel",
+      "A:ugin_awakes_tdm",
+      "A:ugin_cocoon",
+      "P:lithomancer",
+      "P:stone_and_blood",
+      "P:tarkir_dragons_guide",
+      "P:tarkir_summary_ktk",
+      "P:tdm_guide1",
+      "P:unbroken"
     ],
     [
       "A:bolas_returns_madara",
@@ -1326,30 +1635,24 @@
       "A:elder_dragon_war",
       "A:primeval_rule",
       "C:phyrexian_invasion_1",
+      "C:planeswalker_war_close",
       "C:primevals_fall",
       "C:primevals_wake",
+      "C:rath_overlay",
       "C:serra_dies",
+      "C:urza_final_spell",
+      "C:weatherlight_mercadia",
+      "C:weatherlight_to_rath",
+      "P:death_and_salvation",
       "P:pwg_dominaria_2022",
       "P:rtd_ep3"
     ],
     [
-      "A:sarkhan_returns_present",
-      "A:sorin_wakes_ugin",
-      "A:tarkir_duel",
-      "A:ugin_awakes_tdm",
-      "A:ugin_cocoon",
-      "P:tarkir_dragons_guide",
-      "P:tarkir_summary_ktk",
-      "P:tdm_guide1",
-      "P:unbroken"
-    ],
-    [
-      "A:eldrazi_imprisoned",
-      "A:eldrazi_near_escape",
-      "A:nahiri_slumber",
-      "A:sarkhan_change",
-      "P:lithomancer",
-      "P:stone_and_blood"
+      "B:phyrexia_creator_dies",
+      "B:thran_rule",
+      "B:urza_yawgmoth_perish",
+      "B:urza_youth",
+      "B:yawgmoth_to_phyrexia"
     ],
     [
       "C:karn_created",
@@ -1358,14 +1661,17 @@
       "P:karn_profile"
     ],
     [
-      "B:thran_rule",
-      "B:urza_yawgmoth_perish",
-      "B:urza_youth"
-    ],
-    [
       "C:jaya_born",
       "C:jodah_born",
       "P:dmu_legends"
+    ],
+    [
+      "B:phyrexia_portal_closed",
+      "B:thran_defeated"
+    ],
+    [
+      "B:thran_civil_war",
+      "B:yawgmoth_power_grows"
     ],
     [
       "B:urza_tower_constructs",
@@ -1402,6 +1708,7 @@
     "A:eldrazi_imprisoned": [
       "A:nahiri_slumber",
       "A:sarkhan_change",
+      "A:sarkhan_returns_present",
       "P:lithomancer",
       "P:stone_and_blood"
     ],
@@ -1414,12 +1721,22 @@
       "C:primevals_wake",
       "P:rtd_ep3"
     ],
-    "A:sarkhan_change": [],
+    "A:sarkhan_born": [],
+    "A:sarkhan_change": [
+      "A:sarkhan_returns_present"
+    ],
+    "A:sarkhan_first_sees_bolas": [],
     "A:sarkhan_returns_present": [],
     "A:sorin_wakes_ugin": [],
+    "A:tarkir_dragons_die_out": [
+      "A:sarkhan_born"
+    ],
     "A:tarkir_duel": [
+      "A:sarkhan_born",
+      "A:sarkhan_first_sees_bolas",
       "A:sarkhan_returns_present",
       "A:sorin_wakes_ugin",
+      "A:tarkir_dragons_die_out",
       "A:ugin_awakes_tdm",
       "A:ugin_cocoon",
       "P:tarkir_dragons_guide",
@@ -1452,7 +1769,8 @@
       "B:shard_twelve_worlds",
       "B:silence_terisiare",
       "B:trench_war",
-      "P:bro_ep5"
+      "P:bro_ep5",
+      "P:bro_product_page"
     ],
     "AR:44": [
       "AR:4562",
@@ -1467,7 +1785,8 @@
       "B:penregon_69",
       "B:shard_twelve_worlds",
       "B:silence_terisiare",
-      "P:bro_ep5"
+      "P:bro_ep5",
+      "P:bro_product_page"
     ],
     "AR:4562": [],
     "AR:63": [
@@ -1481,7 +1800,8 @@
       "B:penregon_69",
       "B:shard_twelve_worlds",
       "B:silence_terisiare",
-      "P:bro_ep5"
+      "P:bro_ep5",
+      "P:bro_product_page"
     ],
     "AR:64": [
       "AR:4562",
@@ -1524,7 +1844,8 @@
       "B:shard_twelve_worlds",
       "B:silence_terisiare",
       "B:trench_war",
-      "P:bro_ep5"
+      "P:bro_ep5",
+      "P:bro_product_page"
     ],
     "B:last_battle_sylex": [
       "AR:4562",
@@ -1537,13 +1858,20 @@
       "B:penregon_69",
       "B:shard_twelve_worlds",
       "B:silence_terisiare",
-      "P:bro_ep5"
+      "P:bro_ep5",
+      "P:bro_product_page"
     ],
     "B:penregon_69": [
       "AR:4562",
       "AR:85",
       "B:kroog_flooded",
       "P:bro_ep5"
+    ],
+    "B:phyrexia_creator_dies": [
+      "B:yawgmoth_to_phyrexia"
+    ],
+    "B:phyrexia_portal_closed": [
+      "B:thran_defeated"
     ],
     "B:shard_twelve_worlds": [],
     "B:silence_terisiare": [
@@ -1554,6 +1882,8 @@
       "B:penregon_69",
       "P:bro_ep5"
     ],
+    "B:thran_civil_war": [],
+    "B:thran_defeated": [],
     "B:thran_rule": [
       "B:urza_yawgmoth_perish",
       "B:urza_youth"
@@ -1571,7 +1901,8 @@
       "B:penregon_69",
       "B:shard_twelve_worlds",
       "B:silence_terisiare",
-      "P:bro_ep5"
+      "P:bro_ep5",
+      "P:bro_product_page"
     ],
     "B:urza_tower_constructs": [
       "P:bro_ch1"
@@ -1588,6 +1919,10 @@
       "B:penregon_69",
       "P:bro_ep5"
     ],
+    "B:yawgmoth_power_grows": [
+      "B:thran_civil_war"
+    ],
+    "B:yawgmoth_to_phyrexia": [],
     "C:green_sun": [
       "C:new_phyrexia"
     ],
@@ -1615,6 +1950,12 @@
     "C:new_phyrexia": [],
     "C:oil_takes_hold": [],
     "C:phyrexian_invasion_1": [
+      "P:death_and_salvation",
+      "P:pwg_dominaria_2022"
+    ],
+    "C:planeswalker_war_close": [
+      "C:phyrexian_invasion_1",
+      "P:death_and_salvation",
       "P:pwg_dominaria_2022"
     ],
     "C:primevals_fall": [
@@ -1622,14 +1963,25 @@
       "P:rtd_ep3"
     ],
     "C:primevals_wake": [],
+    "C:rath_overlay": [],
     "C:serra_dies": [
       "P:pwg_dominaria_2022"
     ],
     "C:teferi_away": [
       "P:mom_ep10"
     ],
+    "C:urza_final_spell": [
+      "P:rtd_ep3"
+    ],
+    "C:weatherlight_mercadia": [],
+    "C:weatherlight_to_rath": [
+      "C:rath_overlay",
+      "C:weatherlight_mercadia"
+    ],
     "P:bro_ch1": [],
     "P:bro_ep5": [],
+    "P:bro_product_page": [],
+    "P:death_and_salvation": [],
     "P:dmu_legends": [],
     "P:karn_profile": [],
     "P:lithomancer": [],
@@ -1651,9 +2003,9 @@
       "Pack A's primordial and early-lives claims (A001, A002, A004, A013) and the Meditation Realm/War of the Spark/Dragonstorm sequence (A007-A012, U010-U016) have no ordering quote in the cached pages beyond publication order.",
       "Many spans are open-ended ('over a thousand', 'centuries', 'many years', 'hundreds of years'), so they cannot order events even against the same present; e.g. the Eldrazi near-escape vs the imprisonment is not orderable from spans alone.",
       "Conflicting spans for the Eldrazi imprisonment: 'five thousand years ago' (Stone and Blood, Sorin's view) vs 'more than 6,000 years ago' (The Lithomancer) vs 'Six thousand years ago'/'over 6,000 years ago' elsewhere; both are recorded, none chosen.",
-      "Pack B: The Thran, Yawgmoth's origin and the Mishra corruption sequence lack stated orderings beyond 'once ruled' and 'millennia-long vendetta'; the three B-pack card-story/product pages are not in the cache.",
-      "Pack C: C2/C3/C4 episodes print no AR dates; the Weatherlight Saga (novels) is not ingested, so Invasion → Yawgmoth's end → Old Phyrexia destroyed has no ordering quote; the cross-reference 'Karn built by Urza' links C to B only by identity, not by a dated edge.",
-      "Seven Pack A/B source pages (reforged_chain, nexus_design, journey_nexus, war_games, m19/dmu notes, bro_card_stories_1/2, bro_product_page) are not in the story cache, so their orderings were not checked."
+      "Pack B: The Thran, Yawgmoth's origin and the Mishra corruption sequence lack stated orderings beyond 'once ruled' and 'millennia-long vendetta'. Batch 14 added The Known Multiverse (2008) and Commander Legends summaries, but they yield only isolated pairs (portal closed before the Thran defeat; Yawgmoth's growing power before the civil war) that are not tied to Urza's lifetime. The cached B-pack card-story pages are real-world design history (no in-universe orderings).",
+      "Pack C: C2/C3/C4 episodes print no AR dates; novel text is deliberately not ingested (copyright). Official summary pages now give Rath → Mercadia, the Rath overlay beginning the invasion, the Planeswalker War's close 'a few years prior', and Urza's final spell ending it, but no official summary found states the order of Yawgmoth's destruction or Old Phyrexia's decimation relative to these (BLOCKER: needs an official recap page); the cross-reference 'Karn built by Urza' links C to B only by identity, not by a dated edge.",
+      "Batch 14 cached the previously uncached pack-cited pages (scripts/fetch_pack_source_pages.py; 10 URLs, metadata in pack_source_cache_provenance_2026-10-30.json). Only The Reforged Chain and the BRO product page contained in-universe ordering statements; the M19/DMU release notes, Nexus/War Games/M19 design articles and BRO card stories did not tie to existing nodes (M19's 'Ages before recorded history' has no anchor node). In CI the cache is absent, so only --check runs there."
     ]
   }
 }

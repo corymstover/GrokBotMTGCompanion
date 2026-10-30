@@ -1,0 +1,127 @@
+{
+ "schema": "pack-source-cache-provenance/v1",
+ "cache_dir": ".cache/story/sources (gitignored)",
+ "meaning": "Metadata only; no page text is committed. Lists official pages cited by claim packs that were missing from the main story cache.",
+ "pages": [
+  {
+   "url": "https://magic.wizards.com/en/news/feature/core-set-2019-release-notes-2018-06-22",
+   "slug": "core-set-2019-release-notes-2018-06-22",
+   "status": "CACHED",
+   "title": "Magic Core Set 2019 Release Notes",
+   "date": "2018-06-22",
+   "words": 14290,
+   "text_sha256": "0f5b2b1d68ff9624591e31b1e3a921387616c4b9ebff597220e366cb46112482",
+   "cited_by": [
+    "pack_a_elder_dragon_war_extension_2026-10-30.json:m19_notes"
+   ]
+  },
+  {
+   "url": "https://magic.wizards.com/en/news/feature/dominaria-united-release-notes-2022-08-26",
+   "slug": "dominaria-united-release-notes-2022-08-26",
+   "status": "CACHED",
+   "title": "Dominaria United Release Notes | Magic: The Gathering",
+   "date": "2022-08-26",
+   "words": 25233,
+   "text_sha256": "33489b50ddcc06e96b91724bae9cb9424879ad9568b778c6f49906acb8250f1a",
+   "cited_by": [
+    "pack_a_elder_dragon_war_extension_2026-10-30.json:dmu_notes"
+   ]
+  },
+  {
+   "url": "https://magic.wizards.com/en/news/feature/journey-nexus-2014-12-10",
+   "slug": "journey-nexus-2014-12-10",
+   "status": "CACHED",
+   "title": "Journey to the Nexus | MAGIC: THE GATHERING",
+   "date": "2014-12-11",
+   "words": 2965,
+   "text_sha256": "74c69b1eebfb39c3c2d61f2d8a8d4b2b9a2baf05c3e1c869dcf004286ca8e510",
+   "cited_by": [
+    "pack_a_tarkir_card_scenes_2026-10-30.json:journey_nexus"
+   ]
+  },
+  {
+   "url": "https://magic.wizards.com/en/news/feature/reforged-chain-2015-01-21",
+   "slug": "reforged-chain-2015-01-21",
+   "status": "CACHED",
+   "title": "The Reforged Chain | MAGIC: THE GATHERING",
+   "date": "2015-01-22",
+   "words": 4251,
+   "text_sha256": "de75f1ebb202b5bb4577bf411ea9515201b14ad3f2186832ab3cc18fd42a8501",
+   "cited_by": [
+    "pack_a_tarkir_card_scenes_2026-10-30.json:reforged_chain"
+   ]
+  },
+  {
+   "url": "https://magic.wizards.com/en/news/making-magic/even-more-war-games-2019-05-06",
+   "slug": "even-more-war-games-2019-05-06",
+   "status": "CACHED",
+   "title": "Even More War Games",
+   "date": "2019-05-06",
+   "words": 3522,
+   "text_sha256": "e0ebcabb70195b3dc074c4e00e4438645982eafddc38488daa2af616255cdcf9",
+   "cited_by": [
+    "pack_a_ugin_bolas_evidence_2026-10-30.json:war_games"
+   ]
+  },
+  {
+   "url": "https://magic.wizards.com/en/news/making-magic/more-odds-ends-core-set-2019-2018-08-06",
+   "slug": "more-odds-ends-core-set-2019-2018-08-06",
+   "status": "CACHED",
+   "title": "More Odds & Ends: Core Set 2019",
+   "date": "2018-08-06",
+   "words": 2504,
+   "text_sha256": "12f04f3eb9520a4e3befae3a33d35f1e61dbc104403bdcc046200db28c417f06",
+   "cited_by": [
+    "pack_a_elder_dragon_war_extension_2026-10-30.json:m19_design"
+   ]
+  },
+  {
+   "url": "https://magic.wizards.com/en/news/making-magic/prose-and-khans-part-2-2014-09-22",
+   "slug": "prose-and-khans-part-2-2014-09-22",
+   "status": "CACHED",
+   "title": "Prose and Khans, Part 2 | MAGIC: THE GATHERING",
+   "date": "2014-09-23",
+   "words": 3183,
+   "text_sha256": "04496431cb8a8564c4d67a6d7dd282166c9bffa8e125c1d7d0d13dd0c995bdcd",
+   "cited_by": [
+    "pack_a_tarkir_card_scenes_2026-10-30.json:nexus_design"
+   ]
+  },
+  {
+   "url": "https://magic.wizards.com/en/news/making-magic/the-brothers-war-card-stories-part-1",
+   "slug": "the-brothers-war-card-stories-part-1",
+   "status": "CACHED",
+   "title": "Making Magic | The Brothers' War Card Stories, Part 1",
+   "date": "2022-11-14",
+   "words": 2936,
+   "text_sha256": "530f5d53a718958b3dcf6758198e63b3a9ddaa90891558d497be126168aefca6",
+   "cited_by": [
+    "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json:bro_card_stories_1"
+   ]
+  },
+  {
+   "url": "https://magic.wizards.com/en/news/making-magic/the-brothers-war-card-stories-part-2",
+   "slug": "the-brothers-war-card-stories-part-2",
+   "status": "CACHED",
+   "title": "The Brothers' War Card Stories, Part 2",
+   "date": "2022-11-28",
+   "words": 2885,
+   "text_sha256": "8d3abff5fbbda45f095b32e3ba4f483cf33a2164cb69b11eba23338471a1dff8",
+   "cited_by": [
+    "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json:bro_card_stories_2"
+   ]
+  },
+  {
+   "url": "https://magic.wizards.com/en/products/the-brothers-war",
+   "slug": "the-brothers-war",
+   "status": "CACHED",
+   "title": "The Brothers' War | Magic: The Gathering",
+   "date": "",
+   "words": 930,
+   "text_sha256": "8a5e579b0e4faf0dfe6b8995ad85cfec983e92ff48d4d82292b764979c8e4a02",
+   "cited_by": [
+    "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json:bro_product_page"
+   ]
+  }
+ ]
+}
