@@ -154,15 +154,47 @@ The caches live under the git-ignored `.cache/` and are not committed. The pipel
 
 Store copies were skipped per the owner. Protected-path check `git diff --stat dfc8891d origin/main -- grixis/ data/grixis/ state/current_deck_overrides.json data/lore_decks/approvals/`: **empty** (run after #848 merged, main `f65fe727`).
 
-## Batch 4 (started 03:57 CDT) — in progress
+## Batch 4 — 2026-10-30 03:57–~04:45 CDT (final)
 
 ### Corrections
 - **Batch-38 lore-link count corrected.** Of the 1,953 batch-38 records, **202** carry official-story links (201 presented-on, 1 spotlight). **462** carry only an outside-canon flag (276 Un-/playtest, 186 Universes Beyond) and no link. **1,289** have neither. All 1,751 without a link show the honest "no lore linked yet" line. The batch-3 report's "664 lore-linked" figure counted flag-only records as linked. The PR #848 body is left as written; this handoff and the workflow doc carry the correction.
 - The repo brief copy now includes the owner's "Batch-3 lesson" section.
 
 ### Diagnosis: the 1,289
-Every one of the 1,289 is tiered only `legendary-creature`. None appears in the story-art caption CSV, in verbatim flavor on a cached official page, or in a lore entry. 66 of the 284 caption-CSV story URLs are not in the current story cache.
+Every one of the 1,289 is tiered only `legendary-creature`. None appears in the story-art caption CSV, in verbatim flavor on a cached official page, or in a lore entry. 66 of the 284 caption-CSV story URLs are not in the current story cache. None of those 66 is in `primary_sources.csv`: they are 2012–2017 archive and Uncharted Realms URLs, and 7 are non-English translations. Fetching them was therefore not attempted.
 
 ### PRs (batch 4)
-| PR | Phase | What | Merge | CI |
+| PR | Phase | What | Merge (CDT) | CI on the exact head |
 |---|---|---|---|---|
+| [#850](https://github.com/corymstover/GrokBotMTGCompanion/pull/850) | — | Brief copy synced with the Batch-3 lesson; interim batch-4 handoff (docs) | `53652c48` (04:12) | 18/18 pass |
+| [#851](https://github.com/corymstover/GrokBotMTGCompanion/pull/851) | 2/8 | Bulk official-story lore links. 123 records gain *Named verbatim in official story text* and 24 gain artist-matched *Card art shown on*. This newly links 136 records (b35 73, b36 22, b38 41); unlinked records fall from 2,971 to 2,835, all changes additive | `5ac4b048` (04:16) | 22/22 pass |
+| [#852](https://github.com/corymstover/GrokBotMTGCompanion/pull/852) | 3/5 | Pack C4 *March of the Machine*: 21 verbatim-quoted claims (41/41 quotes), all 10 main-story episodes cited, stage `mom_invasion_2023`, PRELIMINARY_RESEARCH. Five claims are CANON_IMPLIED, each with a written limitation. Graph now 911 nodes, 1,444 edges; card-name anchors cover 81 entities | `1f1882ca` (04:23) | 25/25 pass |
+| [#853](https://github.com/corymstover/GrokBotMTGCompanion/pull/853) | 3 | Claim-level card anchors for all 9 claim packs: 155/173 claims, 884 pairs. ART_IN_CITED_SOURCE 25, PRINTED_IN_STORY_SET 33 (C2→DOM, C3→ONE, C4→MOM), NAMED_PARTICIPANT 826. By pack: C2 33/39, C3 17/19, C4 19/21. Navigation only; anchors never claim a card depicts the event | `d45dd3ab` (04:26) | 22/22 pass |
+| [#854](https://github.com/corymstover/GrokBotMTGCompanion/pull/854) | 2 | Koth/Wrenn printing-level lead review: 10 verbatim leads, 6 printing-specific, 13 printings. FRA #248/#199 come from image labels, ONE #138 and MID #208 from art credits, and MOM #217/#322 from frame captions. Workflow v2.31 | `43edb99e` (04:31) | 22/22 pass |
+| [#855](https://github.com/corymstover/GrokBotMTGCompanion/pull/855) | 7 | `mv_ask` now answers "who killed X", "who is X's mother" and "who struck down X" from cited claim relations. Before, "Who killed Elesh Norn?" returned NOT_FOUND. Added 4 regression tests | `a89a7901` (04:35) | 20/20 pass |
+| [#856](https://github.com/corymstover/GrokBotMTGCompanion/pull/856) | 5 | Story coverage/gaps inventory: 57/626 inventoried pages are cited by a claim pack. Of 33 arc buckets, 1 is fully cited, 9 partial and 23 not started. CI rebuilds and compares it | `67dc7a75` (04:39) | 22/22 pass |
+
+Local full suite: 383 tests OK on the #856 head. One earlier full-suite run had a single failure in `test_multiverse_snapshots.test_modern_fetch_does_not_evict_previous_files`. The test passed alone and in 3 later full runs, so it is a likely flaky test and is recorded, not fixed.
+
+### Discoveries
+- The MOM episodes were already in the story cache (`text22`), so C4 needed no fetching.
+- The caption atlas has no ONE or MOM art-caption pages, so C3 and C4 have no ART-tier anchors. Only the set-printing and named tiers apply to them.
+- Card-name substrings can be character prose. "Wrenn and Six/Seven" in the Tangles, MOM Ep 5 and BRO Ch 5 prose names the characters, not the cards. The Koth/Wrenn review grades these CHARACTER_PROSE_ONLY.
+- The Legends of Reality Fracture image labels (`0248_MTGFRA_MainPair`) encode exact collector numbers. This is a reusable printing-specific signal for future bulk work.
+- Scryfall's artist credit can be shorter than the official caption ('Heonhwa' vs 'Heonhwa Choe'). The review records this rather than hiding it.
+- The ask router had a relation-name gap: claim packs use `killed`, while the router looked only for `destroyed`. It now falls back through a chain of relation names.
+- Coverage: the official story for 23 arcs (KLD/AER, AKH/HOU, XLN/RIX, EOE, RF, …) is entirely uncited by any claim pack. This is the main Phase 5 gap.
+
+### Blockers
+- Owner review is still needed for Pilots 1–3 and the 4 unapplied Pack A proposals. Every lore deck and pack is still UNAPPROVED or PRELIMINARY_RESEARCH.
+- `trk`/`trc` admission waits until after 2026-11-13.
+- Readiness: NOT_RELEASE_READY. The NOT_MET item is owner review of a graph-built deck.
+
+### Next steps (value order)
+1. Phase 5 not-started arcs, driven by the coverage inventory. Start with KLD/AER (17 pages), XLN/RIX (17) and AKH/HOU (16) as targeted claim packs with verbatim quotes.
+2. Exhaustive passes over the RtD, ONE and MOM episodes and the uncited Planeswalker's Guide to MOM. C2, C3 and C4 are targeted, not exhaustive.
+3. Use the FRA image-label collector numbers to add printing-specific art links for other Reality Fracture legends.
+4. A broader Phase 7 hard-query suite that runs the ask router over every claim-pack predicate.
+5. Investigate the flaky snapshot test.
+
+Store copies were skipped per the owner. Protected-path check `git diff --stat dfc8891d origin/main -- grixis/ data/grixis/ state/current_deck_overrides.json data/lore_decks/approvals/`: **empty** (run after #856 merged, main `67dc7a75`).
