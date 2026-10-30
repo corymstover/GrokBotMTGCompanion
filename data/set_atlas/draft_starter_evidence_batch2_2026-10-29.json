@@ -1,0 +1,77 @@
+{
+  "schema": 1,
+  "cutoff": "2026-10-29",
+  "parent_report": "data/set_atlas/draft_starter_primary_audit_2026-10-29.json",
+  "scope": "Eight exact Scryfall set codes from the remaining 21, with only the product-family claims actually supported by Wizards publications; no unsupported standalone/premier or format-legal claims.",
+  "grades": {
+    "exact_code_and_group_primary": "Wizards explicitly publishes set code and product group",
+    "exact_product_primary": "Wizards directly names the exact product, Scryfall establishes code",
+    "product_family_primary_code_crosswalk_scryfall": "Wizards directly supports the family and product components; dated Scryfall establishes code mapping, not asserted to be verified by Wizards"
+  },
+  "records": [
+    {
+      "code": "h17",
+      "group": "hascon_limited_event_promos",
+      "url": "https://magic.wizards.com/en/news/making-magic/unstable-scraps-part-3-2017-12-11",
+      "section": "Sword of Dungeons & Dragons; HASCON card collaboration",
+      "grade": "product_family_primary_code_crosswalk_scryfall",
+      "detail": "Wizards states that Sword of Dungeons & Dragons was included with other HASCON crossover promotional cards; H17 set code is independently sourced from the dated Scryfall catalog."
+    },
+    {
+      "code": "h1r",
+      "group": "modern_horizons_1_retro_reprint_sheet_in_mh2",
+      "url": "https://magic.wizards.com/en/news/feature/collecting-modern-horizons-2-2021-05-21",
+      "section": "Showcase Retro Frame Cards",
+      "grade": "product_family_primary_code_crosswalk_scryfall",
+      "detail": "The Modern Horizons 2 Collector Boosters contain returning Modern Horizons cards in retro frames; H1R is a record of printings/treatments rather than a second MH1 launch."
+    },
+    {
+      "code": "h2r",
+      "group": "modern_horizons_2_retro_reprint_sheet_in_mh3",
+      "url": "https://magic.wizards.com/en/news/feature/collecting-modern-horizons-3",
+      "section": "Modern Horizons 3 Key Details — Retro Frame Reprints: H2R",
+      "grade": "exact_code_and_group_primary",
+      "detail": "Wizards explicitly assigns H2R to 16 retro-frame reprints of Modern Horizons and Modern Horizons 2 included in MH3 products."
+    },
+    {
+      "code": "hho",
+      "group": "employee_and_business_holiday_gift_promos",
+      "url": "https://magic.wizards.com/en/news/making-magic/seeing-forest-treefolk-2007-12-17-0",
+      "section": "Gifts Given and Fruitcake Elemental — annual holiday gift cards",
+      "grade": "product_family_primary_code_crosswalk_scryfall",
+      "detail": "Wizards describes the 2006 Fruitcake Elemental and 2007 Gifts Given as employee/business relationship holiday gift cards, not normal releases; HHO groups these archived holiday promo printings."
+    },
+    {
+      "code": "ptg",
+      "group": "extra_life_silver_bordered_charity_cards",
+      "url": "https://magic.wizards.com/en/news/announcements/magic-extra-life-2019-10-03",
+      "section": "Ponies: The Galloping",
+      "grade": "exact_product_primary",
+      "detail": "Wizards announced a limited charitable three-card silver-border My Little Pony product sold via Hasbro Pulse; not a main Magic draft booster."
+    },
+    {
+      "code": "ulst",
+      "group": "unfinity_collector_booster_list_insert_reprints",
+      "url": "https://magic.wizards.com/en/news/feature/list-unfinity-un-usual-twist-list-2022-09-20",
+      "section": "The List for Unfinity",
+      "grade": "product_family_primary_code_crosswalk_scryfall",
+      "detail": "Wizards describes 60 The List cards as traditional foil reprints found only in Unfinity Collector Boosters; ULST is not a separately published booster edition."
+    },
+    {
+      "code": "unk",
+      "group": "gavin_verhey_unknown_event_playtest_cards",
+      "url": "https://magic.wizards.com/en/news/feature/whats-inside-mystery-booster-2",
+      "section": "Playtest cards — Gavin Verhey Unknown events",
+      "grade": "product_family_primary_code_crosswalk_scryfall",
+      "detail": "Wizards identifies special Unknown event card designs as playtests, some later receiving actual artwork in Mystery Booster 2; UNK records those event designs and does not imply a sold booster."
+    },
+    {
+      "code": "w17",
+      "group": "free_introductory_welcome_deck_2017",
+      "url": "https://magic.wizards.com/en/news/feature/ixalan-release-notes",
+      "section": "General Notes — W17 Welcome Deck ancillary product code",
+      "grade": "exact_code_and_group_primary",
+      "detail": "Wizards explicitly identifies W17 as the code for Welcome Decks and other ancillary products that shared Ixalan-era constructed legality; these are introductory products, not separate expansions."
+    }
+  ]
+}
