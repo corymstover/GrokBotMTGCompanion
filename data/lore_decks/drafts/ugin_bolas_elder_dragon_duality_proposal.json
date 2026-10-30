@@ -1,0 +1,873 @@
+{
+ "schema": "lore_story_deck_draft/v1",
+ "theme": "Ugin & Nicol Bolas - Elder Dragon Duality (Phase 6 Pilot 1)",
+ "status": "UNAPPROVED PROPOSAL - awaiting Cory's review; not approved, not locked, not certified",
+ "approval": {
+  "approved": false,
+  "locked": false,
+  "certified": false,
+  "owner": "Cory"
+ },
+ "commander": "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+ "narrator_note": "Bolas leads (Grixis); his colourless twin Ugin runs through every act in the 99. The deck walks their shared story from the Dominarian hatching to Ugin's Dragonstorm-era fate.",
+ "story_sources": [
+  "https://magic.wizards.com/en/news/feature/dominaria-united-release-notes-2022-08-26",
+  "https://magic.wizards.com/en/news/feature/journey-nexus-2014-12-10",
+  "https://magic.wizards.com/en/news/feature/reforged-chain-2015-01-21",
+  "https://magic.wizards.com/en/news/feature/returning-legends-modern-horizons-2-2021-06-10",
+  "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-familiar-stranger-2018-08-01",
+  "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-twins-2018-06-13",
+  "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-unwritten-now-2018-08-15",
+  "https://magic.wizards.com/en/news/magic-story/hour-devastation-2017-07-26",
+  "https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-fate-reforged-2015-01-07",
+  "https://magic.wizards.com/en/news/magic-story/tarkir-dragonstorm-episode-7-return",
+  "https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-ashes-2019-06-12",
+  "https://magic.wizards.com/en/news/making-magic/devastation-information-part-3-2017-07-17",
+  "https://magic.wizards.com/en/news/making-magic/even-more-war-games-2019-05-06",
+  "https://magic.wizards.com/en/news/making-magic/more-odds-ends-core-set-2019-2018-08-06",
+  "https://magic.wizards.com/en/news/making-magic/more-war-games-2019-04-29",
+  "https://magic.wizards.com/en/story/amonkhet-plane",
+  "https://magic.wizards.com/en/story/sarkhan-vol-planeswalker",
+  "https://magic.wizards.com/en/story/tarkir-plane"
+ ],
+ "canon_caveats": [
+  "A003/A004 (who struck first; Ugin's perspective) are CANON_DISPUTED and are not asserted by any card here.",
+  "A011 (Ugin's status after Lorwyn Eclipsed episode 2) is an OPEN_QUESTION; Ugin, Eye of the Storms only marks the Dragonstorm era.",
+  "A012 Reality Fracture material is ALTERNATE_CONTINUITY and is excluded.",
+  "Printed flavor proves what Wizards printed on the card, not that the illustration depicts a specific story scene.",
+  "DIRECT_DEPICTION is used only where an official story captions that art at that event (or Pack A4's exact-art match)."
+ ],
+ "unrepresentable_in_identity": [
+  "Yasova Dragonclaw (G/U-R) and Sarkhan, Dragonstorm era green-identity cards cannot enter a Grixis identity deck.",
+  "Sarkhan Unbroken (GUR) is outside UBR identity.",
+  "Piru, the Volatile and The Ur-Dragon are outside UBR identity; the Piru lineage is represented only by Crosis.",
+  "Arcades Sabboth, Chromium and Palladia-Mors (Pack A2 siblings) are outside UBR identity."
+ ],
+ "beats": [
+  {
+   "title": "I. Twin Elder Dragons of Dominaria and the Elder Dragon War",
+   "lore_keys": [
+    "Pack A A001-A002",
+    "Pack A2 A013-A024"
+   ],
+   "cards": [
+    {
+     "name": "Nicol Bolas",
+     "why": "The original Elder Dragon card; printed flavor 'Dominaria's most ancient evil.' Bolas and Ugin hatched as twins on Dominaria.",
+     "evidence": "CANON_REFERENCE",
+     "source": "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-twins-2018-06-13",
+     "printing": {
+      "set": "a25",
+      "collector": "209"
+     }
+    },
+    {
+     "name": "The Elder Dragon War",
+     "why": "Names the war Bolas instigated among the elder dragons. Not certified as a literal battlefield reconstruction.",
+     "evidence": "CANON_REFERENCE",
+     "source": "https://magic.wizards.com/en/news/feature/dominaria-united-release-notes-2022-08-26",
+     "printing": {
+      "set": "dmu",
+      "collector": "121"
+     }
+    },
+    {
+     "name": "Crosis, the Purger",
+     "why": "Grixis-coloured primeval descendant of the elder dragon lineage (Piru line, Pack A2).",
+     "evidence": "CANON_REFERENCE",
+     "source": "https://magic.wizards.com/en/news/feature/returning-legends-modern-horizons-2-2021-06-10",
+     "printing": {
+      "set": "inv",
+      "collector": "242"
+     }
+    },
+    {
+     "name": "Ghostfire",
+     "why": "Printed flavor: only those gifted with the eye of Ugin, the spirit dragon, can see his fiery breath. Colourless red spell.",
+     "evidence": "CANON_REFERENCE",
+     "source": "scryfall-snapshot:printed_flavor_or_name",
+     "printing": {
+      "set": "fut",
+      "collector": "115"
+     }
+    },
+    {
+     "name": "Fraying Omnipotence",
+     "why": "Printed flavor: the Mending unravelled Nicol Bolas's power. Bridges the ancient god-like Bolas to the post-Mending schemer.",
+     "evidence": "CANON_REFERENCE",
+     "source": "scryfall-snapshot:printed_flavor_or_name",
+     "printing": {
+      "set": "m19",
+      "collector": "97"
+     }
+    }
+   ]
+  },
+  {
+   "title": "II. Alara: the Conflux scheme",
+   "lore_keys": [
+    "Pack A source A007 context"
+   ],
+   "cards": [
+    {
+     "name": "Nicol Bolas, Planeswalker",
+     "why": "Pack A4 exact-art match (NAMED_CHARACTER_ART_IN_STORY): the Bolas portrait used in the Ugin/Bolas duel coverage.",
+     "evidence": "CANON_REFERENCE",
+     "source": "https://magic.wizards.com/en/news/feature/reforged-chain-2015-01-21",
+     "printing": {
+      "set": "con",
+      "collector": "120"
+     }
+    },
+    {
+     "name": "Slave of Bolas",
+     "why": "Named after Bolas; flavor: Bolas does not distinguish servants and victims.",
+     "evidence": "CANON_REFERENCE",
+     "source": "scryfall-snapshot:printed_flavor_or_name",
+     "printing": {
+      "set": "arb",
+      "collector": "136"
+     }
+    },
+    {
+     "name": "Soul Manipulation",
+     "why": "Printed Nicol Bolas quote; Grixis counter/recursion of the Conflux era.",
+     "evidence": "CANON_REFERENCE",
+     "source": "scryfall-snapshot:printed_flavor_or_name",
+     "printing": {
+      "set": "arb",
+      "collector": "29"
+     }
+    },
+    {
+     "name": "Countersquall",
+     "why": "Duel Decks: Ajani vs. Nicol Bolas printing; flavor states Bolas's creed of power.",
+     "evidence": "CANON_REFERENCE",
+     "source": "scryfall-snapshot:printed_flavor_or_name",
+     "printing": {
+      "set": "ddh",
+      "collector": "59"
+     }
+    },
+    {
+     "name": "Mana Drain",
+     "why": "Judge printing with a Nicol Bolas quote: 'Power is wasted on the weak.' Not a Game Changer.",
+     "evidence": "CANON_REFERENCE",
+     "source": "scryfall-snapshot:printed_flavor_or_name",
+     "printing": {
+      "set": "j16",
+      "collector": "2"
+     }
+    },
+    {
+     "name": "Magmaquake",
+     "why": "Printed Nicol Bolas threat; the M13 Bolas planeswalker-deck era.",
+     "evidence": "CANON_REFERENCE",
+     "source": "scryfall-snapshot:printed_flavor_or_name",
+     "printing": {
+      "set": "m13",
+      "collector": "140"
+     }
+    },
+    {
+     "name": "Augur of Bolas",
+     "why": "War of the Spark printing: 'There is no future save the one my master wills.'",
+     "evidence": "CANON_REFERENCE",
+     "source": "scryfall-snapshot:printed_flavor_or_name",
+     "printing": {
+      "set": "war",
+      "collector": "41"
+     }
+    },
+    {
+     "name": "Disciple of Bolas",
+     "why": "Printed 'Lord Bolas' quote; sacrifice-for-cards servant.",
+     "evidence": "CANON_REFERENCE",
+     "source": "scryfall-snapshot:printed_flavor_or_name",
+     "printing": {
+      "set": "m13",
+      "collector": "88"
+     }
+    }
+   ]
+  },
+  {
+   "title": "III. Zendikar: Ugin's hedrons and the Eldrazi prison",
+   "lore_keys": [
+    "Pack A A005 context"
+   ],
+   "cards": [
+    {
+     "name": "Hedron Archive",
+     "why": "Printed Ugin dialogue about the hedrons' true purpose.",
+     "evidence": "CANON_REFERENCE",
+     "source": "scryfall-snapshot:printed_flavor_or_name",
+     "printing": {
+      "set": "bfz",
+      "collector": "223"
+     }
+    },
+    {
+     "name": "Perilous Vault",
+     "why": "Printed flavor: Ugin arranged Zendikar's hedrons to direct leylines.",
+     "evidence": "CANON_REFERENCE",
+     "source": "scryfall-snapshot:printed_flavor_or_name",
+     "printing": {
+      "set": "m15",
+      "collector": "224"
+     }
+    },
+    {
+     "name": "Ugin's Insight",
+     "why": "Printed Ugin quote on the three Eldrazi titans.",
+     "evidence": "CANON_REFERENCE",
+     "source": "scryfall-snapshot:printed_flavor_or_name",
+     "printing": {
+      "set": "bfz",
+      "collector": "87"
+     }
+    },
+    {
+     "name": "Dispel",
+     "why": "BFZ printing contrasting Ugin's stasis plan with destruction of the Eldrazi.",
+     "evidence": "CANON_REFERENCE",
+     "source": "scryfall-snapshot:printed_flavor_or_name",
+     "printing": {
+      "set": "bfz",
+      "collector": "76"
+     }
+    },
+    {
+     "name": "Ugin's Binding",
+     "why": "Named Ugin binding magic (devoid, colourless spell for Ugin, Eye of the Storms). Card name only; no scene claimed.",
+     "evidence": "LORE_INSPIRED",
+     "source": "scryfall-snapshot:printed_flavor_or_name",
+     "printing": {
+      "set": "mh3",
+      "collector": "76"
+     }
+    }
+   ]
+  },
+  {
+   "title": "IV. Tarkir: the duel, the fall, and the reforged timeline",
+   "lore_keys": [
+    "Pack A A005-A006",
+    "Pack A3/A4"
+   ],
+   "cards": [
+    {
+     "name": "Crux of Fate",
+     "why": "Pack A4 exact-art match: official story art caption of the Ugin-Bolas battle.",
+     "evidence": "DIRECT_DEPICTION",
+     "source": "https://magic.wizards.com/en/news/feature/reforged-chain-2015-01-21",
+     "printing": {
+      "set": "frf",
+      "collector": "65"
+     }
+    },
+    {
+     "name": "Ugin's Nexus",
+     "why": "Pack A4: official story device (the nexus Sarkhan uses to reach the past).",
+     "evidence": "CANON_REFERENCE",
+     "source": "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-familiar-stranger-2018-08-01",
+     "printing": {
+      "set": "ktk",
+      "collector": "227"
+     }
+    },
+    {
+     "name": "Ugin, the Spirit Dragon",
+     "why": "Pack A4 exact Raymond Swanland art (not the ugin/1 promo art). Ugin survives in the reforged timeline.",
+     "evidence": "CANON_REFERENCE",
+     "source": "https://magic.wizards.com/en/news/feature/reforged-chain-2015-01-21",
+     "printing": {
+      "set": "frf",
+      "collector": "1"
+     }
+    },
+    {
+     "name": "Bitter Revelation",
+     "why": "Printed Sorin quote at Ugin's tomb in the original Khans timeline.",
+     "evidence": "CANON_REFERENCE",
+     "source": "scryfall-snapshot:printed_flavor_or_name",
+     "printing": {
+      "set": "ktk",
+      "collector": "65"
+     }
+    },
+    {
+     "name": "Witness of the Ages",
+     "why": "Printed flavor: it strode through the clash of dragons and the fall of Ugin.",
+     "evidence": "CANON_REFERENCE",
+     "source": "scryfall-snapshot:printed_flavor_or_name",
+     "printing": {
+      "set": "ktk",
+      "collector": "228"
+     }
+    },
+    {
+     "name": "Fearsome Awakening",
+     "why": "Fate Reforged printing tying the dragon tempests to Ugin; reanimates a dragon.",
+     "evidence": "CANON_REFERENCE",
+     "source": "scryfall-snapshot:printed_flavor_or_name",
+     "printing": {
+      "set": "frf",
+      "collector": "69"
+     }
+    },
+    {
+     "name": "Sarkhan the Mad",
+     "why": "Official profile: Sarkhan swore fealty to Bolas and went mad before returning to Tarkir.",
+     "evidence": "CANON_REFERENCE",
+     "source": "https://magic.wizards.com/en/story/sarkhan-vol-planeswalker",
+     "printing": {
+      "set": "roe",
+      "collector": "214"
+     }
+    },
+    {
+     "name": "Sarkhan, the Dragonspeaker",
+     "why": "Official profile: Sarkhan travelled back and saved Ugin from death at Bolas's hands.",
+     "evidence": "CANON_REFERENCE",
+     "source": "https://magic.wizards.com/en/story/sarkhan-vol-planeswalker",
+     "printing": {
+      "set": "ktk",
+      "collector": "119"
+     }
+    },
+    {
+     "name": "Dragonlord Silumgar",
+     "why": "Official Tarkir page: Ugin's survival produced the dragonlord timeline; Silumgar is the Grixis-adjacent UB dragonlord.",
+     "evidence": "CANON_REFERENCE",
+     "source": "https://magic.wizards.com/en/story/tarkir-plane",
+     "printing": {
+      "set": "dtk",
+      "collector": "220"
+     }
+    },
+    {
+     "name": "Dragonlord Kolaghan",
+     "why": "Same consequence; Kolaghan is the BR dragonlord.",
+     "evidence": "CANON_REFERENCE",
+     "source": "https://magic.wizards.com/en/story/tarkir-plane",
+     "printing": {
+      "set": "dtk",
+      "collector": "218"
+     }
+    }
+   ]
+  },
+  {
+   "title": "V. Amonkhet: the God-Pharaoh and the Hour of Devastation",
+   "lore_keys": [
+    "new pilot sources"
+   ],
+   "cards": [
+    {
+     "name": "Nicol Bolas, God-Pharaoh",
+     "why": "Official Amonkhet page: the God-Pharaoh is Nicol Bolas.",
+     "evidence": "CANON_REFERENCE",
+     "source": "https://magic.wizards.com/en/story/amonkhet-plane",
+     "printing": {
+      "set": "hou",
+      "collector": "140"
+     }
+    },
+    {
+     "name": "The Scarab God",
+     "why": "Bolas warped one of Amonkhet's gods to raise the Eternal army (official design article).",
+     "evidence": "CANON_REFERENCE",
+     "source": "https://magic.wizards.com/en/news/making-magic/devastation-information-part-3-2017-07-17",
+     "printing": {
+      "set": "hou",
+      "collector": "145"
+     }
+    },
+    {
+     "name": "The Locust God",
+     "why": "Bolas's god tasked with devouring the Hekma barrier.",
+     "evidence": "CANON_REFERENCE",
+     "source": "https://magic.wizards.com/en/news/making-magic/devastation-information-part-3-2017-07-17",
+     "printing": {
+      "set": "hou",
+      "collector": "139"
+     }
+    },
+    {
+     "name": "The Scorpion God",
+     "why": "Bolas's god tasked with killing the other five gods.",
+     "evidence": "CANON_REFERENCE",
+     "source": "https://magic.wizards.com/en/news/making-magic/devastation-information-part-3-2017-07-17",
+     "printing": {
+      "set": "hou",
+      "collector": "146"
+     }
+    },
+    {
+     "name": "Hour of Devastation",
+     "why": "Art is captioned in the official 'Hour of Devastation' story at Bolas's arrival in the ruined plaza.",
+     "evidence": "DIRECT_DEPICTION",
+     "source": "https://magic.wizards.com/en/news/magic-story/hour-devastation-2017-07-26",
+     "printing": {
+      "set": "hou",
+      "collector": "97"
+     }
+    },
+    {
+     "name": "Jace's Defeat",
+     "why": "Captioned in the official story as Bolas crushes Jace's mind.",
+     "evidence": "DIRECT_DEPICTION",
+     "source": "https://magic.wizards.com/en/news/magic-story/hour-devastation-2017-07-26",
+     "printing": {
+      "set": "hou",
+      "collector": "38"
+     }
+    },
+    {
+     "name": "Liliana's Defeat",
+     "why": "Captioned in the official story as Liliana leaves at Bolas's offer.",
+     "evidence": "DIRECT_DEPICTION",
+     "source": "https://magic.wizards.com/en/news/magic-story/hour-devastation-2017-07-26",
+     "printing": {
+      "set": "hou",
+      "collector": "68"
+     }
+    },
+    {
+     "name": "Chandra's Defeat",
+     "why": "Captioned in the official story as Chandra flees Bolas.",
+     "evidence": "DIRECT_DEPICTION",
+     "source": "https://magic.wizards.com/en/news/magic-story/hour-devastation-2017-07-26",
+     "printing": {
+      "set": "hou",
+      "collector": "86"
+     }
+    },
+    {
+     "name": "Doomfall",
+     "why": "Printed Nicol Bolas quote: 'This place has outlived its usefulness.'",
+     "evidence": "CANON_REFERENCE",
+     "source": "scryfall-snapshot:printed_flavor_or_name",
+     "printing": {
+      "set": "hou",
+      "collector": "62"
+     }
+    },
+    {
+     "name": "Neheb, the Eternal",
+     "why": "Printed Nicol Bolas quote: 'This is what glory looks like.'",
+     "evidence": "CANON_REFERENCE",
+     "source": "scryfall-snapshot:printed_flavor_or_name",
+     "printing": {
+      "set": "hou",
+      "collector": "104"
+     }
+    },
+    {
+     "name": "Wasp of the Bitter End",
+     "why": "Printed flavor: a chorus of wings heralds the return of Nicol Bolas.",
+     "evidence": "CANON_REFERENCE",
+     "source": "scryfall-snapshot:printed_flavor_or_name",
+     "printing": {
+      "set": "hou",
+      "collector": "206"
+     }
+    },
+    {
+     "name": "Visage of Bolas",
+     "why": "Named Bolas monument; Grixis mana. Card name only (no printed flavor).",
+     "evidence": "LORE_INSPIRED",
+     "source": "scryfall-snapshot:printed_flavor_or_name",
+     "printing": {
+      "set": "hou",
+      "collector": "208"
+     }
+    },
+    {
+     "name": "Nicol Bolas, the Deceiver",
+     "why": "Bolas at the moment of the Hours.",
+     "evidence": "CANON_REFERENCE",
+     "source": "https://magic.wizards.com/en/story/amonkhet-plane",
+     "printing": {
+      "set": "hou",
+      "collector": "205"
+     }
+    },
+    {
+     "name": "Tezzeret, Agent of Bolas",
+     "why": "Official HOU story ends with Tezzeret calling Bolas 'master' and running his errands.",
+     "evidence": "CANON_REFERENCE",
+     "source": "https://magic.wizards.com/en/news/magic-story/hour-devastation-2017-07-26",
+     "printing": {
+      "set": "mbs",
+      "collector": "97"
+     }
+    }
+   ]
+  },
+  {
+   "title": "VI. War of the Spark: the Elderspell, the fall, the prison",
+   "lore_keys": [
+    "Pack A A008"
+   ],
+   "cards": [
+    {
+     "name": "Nicol Bolas, Dragon-God",
+     "why": "Bolas empowered by the Elderspell on Ravnica.",
+     "evidence": "CANON_REFERENCE",
+     "source": "https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-ashes-2019-06-12",
+     "printing": {
+      "set": "war",
+      "collector": "207"
+     }
+    },
+    {
+     "name": "Bolas's Citadel",
+     "why": "The Citadel atop which Bolas falls. Game Changer (counted; bracket 3).",
+     "evidence": "CANON_REFERENCE",
+     "source": "https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-ashes-2019-06-12",
+     "printing": {
+      "set": "war",
+      "collector": "79"
+     }
+    },
+    {
+     "name": "Commence the Endgame",
+     "why": "Printed Nicol Bolas quote: 'Even gods shall kneel.'",
+     "evidence": "CANON_REFERENCE",
+     "source": "scryfall-snapshot:printed_flavor_or_name",
+     "printing": {
+      "set": "war",
+      "collector": "45"
+     }
+    },
+    {
+     "name": "Command the Dreadhorde",
+     "why": "Printed flavor: Liliana seized the reins of Bolas's army.",
+     "evidence": "CANON_REFERENCE",
+     "source": "scryfall-snapshot:printed_flavor_or_name",
+     "printing": {
+      "set": "war",
+      "collector": "82"
+     }
+    },
+    {
+     "name": "Spark Harvest",
+     "why": "Printed flavor: Domri's harvested spark fuels Bolas's ascension.",
+     "evidence": "CANON_REFERENCE",
+     "source": "scryfall-snapshot:printed_flavor_or_name",
+     "printing": {
+      "set": "war",
+      "collector": "105"
+     }
+    },
+    {
+     "name": "God-Eternal Kefnet",
+     "why": "Official: Bolas remade the slain Amonkhet gods as God-Eternals.",
+     "evidence": "CANON_REFERENCE",
+     "source": "https://magic.wizards.com/en/news/making-magic/more-war-games-2019-04-29",
+     "printing": {
+      "set": "war",
+      "collector": "53"
+     }
+    },
+    {
+     "name": "God-Eternal Bontu",
+     "why": "Official story: Bontu bites Bolas and harvests the sparks of the Elderspell.",
+     "evidence": "CANON_REFERENCE",
+     "source": "https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-ashes-2019-06-12",
+     "printing": {
+      "set": "war",
+      "collector": "92"
+     }
+    },
+    {
+     "name": "Liliana, Dreadhorde General",
+     "why": "Liliana commands the Dreadhorde, then turns the God-Eternals on Bolas.",
+     "evidence": "CANON_REFERENCE",
+     "source": "https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-ashes-2019-06-12",
+     "printing": {
+      "set": "war",
+      "collector": "97"
+     }
+    },
+    {
+     "name": "Liliana's Triumph",
+     "why": "Art captioned in the official 'Ashes' story at the moment Bontu harvests Bolas's sparks.",
+     "evidence": "DIRECT_DEPICTION",
+     "source": "https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-ashes-2019-06-12",
+     "printing": {
+      "set": "war",
+      "collector": "98"
+     }
+    },
+    {
+     "name": "Finale of Revelation",
+     "why": "Printed flavor: Ugin saw Bolas's gem as the key to his brother's imprisonment.",
+     "evidence": "CANON_REFERENCE",
+     "source": "scryfall-snapshot:printed_flavor_or_name",
+     "printing": {
+      "set": "war",
+      "collector": "51"
+     }
+    },
+    {
+     "name": "Ugin, the Ineffable",
+     "why": "Ugin at the end of the war; he holds Bolas in the Meditation Realm.",
+     "evidence": "CANON_REFERENCE",
+     "source": "https://magic.wizards.com/en/news/making-magic/even-more-war-games-2019-05-06",
+     "printing": {
+      "set": "war",
+      "collector": "2"
+     }
+    },
+    {
+     "name": "Ugin's Conjurant",
+     "why": "Named Ugin construct; colourless spell. Card name only.",
+     "evidence": "LORE_INSPIRED",
+     "source": "scryfall-snapshot:printed_flavor_or_name",
+     "printing": {
+      "set": "war",
+      "collector": "3"
+     }
+    },
+    {
+     "name": "Sarkhan's Catharsis",
+     "why": "Printed Sarkhan quote turning on Bolas.",
+     "evidence": "CANON_REFERENCE",
+     "source": "scryfall-snapshot:printed_flavor_or_name",
+     "printing": {
+      "set": "war",
+      "collector": "144"
+     }
+    },
+    {
+     "name": "No Escape",
+     "why": "Printed flavor: Jace surmised they were walking into Bolas's trap.",
+     "evidence": "CANON_REFERENCE",
+     "source": "scryfall-snapshot:printed_flavor_or_name",
+     "printing": {
+      "set": "war",
+      "collector": "63"
+     }
+    }
+   ]
+  },
+  {
+   "title": "VII. Tarkir Dragonstorm: Ugin's later fate",
+   "lore_keys": [
+    "Pack A A009-A010"
+   ],
+   "cards": [
+    {
+     "name": "Ugin, Eye of the Storms",
+     "why": "Ugin in the Dragonstorm era. A011 (his status afterwards) remains OPEN_QUESTION.",
+     "evidence": "CANON_REFERENCE",
+     "source": "https://magic.wizards.com/en/news/magic-story/tarkir-dragonstorm-episode-7-return",
+     "printing": {
+      "set": "tdm",
+      "collector": "1"
+     }
+    },
+    {
+     "name": "Dracogenesis",
+     "why": "Showcase printing chosen for its Ugin flavor: the dragonstorms weakened with his death and raged with his life.",
+     "evidence": "CANON_REFERENCE",
+     "source": "scryfall-snapshot:printed_flavor_or_name",
+     "printing": {
+      "set": "tdm",
+      "collector": "402"
+     }
+    },
+    {
+     "name": "Watcher of the Wayside",
+     "why": "Printed flavor: the golem survived dragonlords, khans and Ugin himself.",
+     "evidence": "CANON_REFERENCE",
+     "source": "scryfall-snapshot:printed_flavor_or_name",
+     "printing": {
+      "set": "tdm",
+      "collector": "249"
+     }
+    }
+   ]
+  },
+  {
+   "title": "Story lands: tombs, crucibles and the Grixis shard",
+   "lore_keys": [
+    "Pack A4"
+   ],
+   "cards": [
+    {
+     "name": "Tomb of the Spirit Dragon",
+     "why": "Pack A4 STORY_LOCATION_ART_CAPTION: Ugin's tomb in the original timeline.",
+     "evidence": "CANON_REFERENCE",
+     "source": "https://magic.wizards.com/en/news/feature/journey-nexus-2014-12-10",
+     "printing": {
+      "set": "ktk",
+      "collector": "245"
+     }
+    },
+    {
+     "name": "Crucible of the Spirit Dragon",
+     "why": "Pack A4 STORY_LOCATION_ART_CAPTION.",
+     "evidence": "CANON_REFERENCE",
+     "source": "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-familiar-stranger-2018-08-01",
+     "printing": {
+      "set": "frf",
+      "collector": "167"
+     }
+    },
+    {
+     "name": "Haven of the Spirit Dragon",
+     "why": "Named Ugin site in the reforged timeline; recurs Ugin and dragons.",
+     "evidence": "LORE_INSPIRED",
+     "source": "scryfall-snapshot:printed_flavor_or_name",
+     "printing": {
+      "set": "dtk",
+      "collector": "249"
+     }
+    },
+    {
+     "name": "Maelstrom of the Spirit Dragon",
+     "why": "Named Dragonstorm-era Ugin site.",
+     "evidence": "LORE_INSPIRED",
+     "source": "scryfall-snapshot:printed_flavor_or_name",
+     "printing": {
+      "set": "tdm",
+      "collector": "260"
+     }
+    },
+    {
+     "name": "Ugin's Labyrinth",
+     "why": "Named Ugin site; can imprint the seven-mana Ugins.",
+     "evidence": "LORE_INSPIRED",
+     "source": "scryfall-snapshot:printed_flavor_or_name",
+     "printing": {
+      "set": "mh3",
+      "collector": "233"
+     }
+    },
+    {
+     "name": "Cinder Barrens",
+     "why": "HOU printing with a Nicol Bolas quote: 'it is all mine.'",
+     "evidence": "CANON_REFERENCE",
+     "source": "scryfall-snapshot:printed_flavor_or_name",
+     "printing": {
+      "set": "hou",
+      "collector": "209"
+     }
+    },
+    {
+     "name": "Crumbling Necropolis",
+     "why": "Grixis shard of Alara, the world Bolas fed on.",
+     "evidence": "LORE_INSPIRED",
+     "source": "scryfall-snapshot:printed_flavor_or_name",
+     "printing": {
+      "set": "ala",
+      "collector": "222"
+     }
+    },
+    {
+     "name": "Interplanar Beacon",
+     "why": "Bolas's planeswalker lure on Ravnica; theme, not a scene claim.",
+     "evidence": "LORE_INSPIRED",
+     "source": "scryfall-snapshot:printed_flavor_or_name",
+     "printing": {
+      "set": "war",
+      "collector": "247"
+     }
+    }
+   ]
+  }
+ ],
+ "playability": [
+  {
+   "name": "Sol Ring",
+   "why": "Mana/fixing for a UUBBRR commander; no story claim (MECHANICAL_SYMBOL)."
+  },
+  {
+   "name": "Arcane Signet",
+   "why": "Mana/fixing for a UUBBRR commander; no story claim (MECHANICAL_SYMBOL)."
+  },
+  {
+   "name": "Talisman of Dominance",
+   "why": "Mana/fixing for a UUBBRR commander; no story claim (MECHANICAL_SYMBOL)."
+  },
+  {
+   "name": "Talisman of Creativity",
+   "why": "Mana/fixing for a UUBBRR commander; no story claim (MECHANICAL_SYMBOL)."
+  },
+  {
+   "name": "Talisman of Indulgence",
+   "why": "Mana/fixing for a UUBBRR commander; no story claim (MECHANICAL_SYMBOL)."
+  },
+  {
+   "name": "Command Tower",
+   "why": "Mana/fixing for a UUBBRR commander; no story claim (MECHANICAL_SYMBOL)."
+  },
+  {
+   "name": "Watery Grave",
+   "why": "Mana/fixing for a UUBBRR commander; no story claim (MECHANICAL_SYMBOL)."
+  },
+  {
+   "name": "Blood Crypt",
+   "why": "Mana/fixing for a UUBBRR commander; no story claim (MECHANICAL_SYMBOL)."
+  },
+  {
+   "name": "Steam Vents",
+   "why": "Mana/fixing for a UUBBRR commander; no story claim (MECHANICAL_SYMBOL)."
+  },
+  {
+   "name": "Drowned Catacomb",
+   "why": "Mana/fixing for a UUBBRR commander; no story claim (MECHANICAL_SYMBOL)."
+  },
+  {
+   "name": "Dragonskull Summit",
+   "why": "Mana/fixing for a UUBBRR commander; no story claim (MECHANICAL_SYMBOL)."
+  },
+  {
+   "name": "Sulfur Falls",
+   "why": "Mana/fixing for a UUBBRR commander; no story claim (MECHANICAL_SYMBOL)."
+  },
+  {
+   "name": "Underground River",
+   "why": "Mana/fixing for a UUBBRR commander; no story claim (MECHANICAL_SYMBOL)."
+  },
+  {
+   "name": "Sulfurous Springs",
+   "why": "Mana/fixing for a UUBBRR commander; no story claim (MECHANICAL_SYMBOL)."
+  },
+  {
+   "name": "Shivan Reef",
+   "why": "Mana/fixing for a UUBBRR commander; no story claim (MECHANICAL_SYMBOL)."
+  }
+ ],
+ "basics": {
+  "Island": 6,
+  "Swamp": 6,
+  "Mountain": 5
+ },
+ "archidekt_tags": [
+  "Story: Ugin & Bolas Duality",
+  "Grixis Elder Dragon",
+  "Unapproved Lore Pilot"
+ ],
+ "snapshot": {
+  "id": "snap-20261029-40848334824-1",
+  "default_cards_file": "default-cards-20261029090546.jsonl.gz",
+  "default_cards_sha256": "008434d5b89f1f2cb47411178d2ab181600faf9cb7ca1c5673422cdec5939595"
+ },
+ "raw_decklist_sha256": "01d087aa2819b1ed3c7ac1f64843f76f36b551b72fda62d64218d19c40b0ab45",
+ "counts": {
+  "total": 100,
+  "named_cards": 83,
+  "basics": 17,
+  "tiers": {
+   "DIRECT_DEPICTION": 6,
+   "CANON_REFERENCE": 54,
+   "LORE_INSPIRED": 8,
+   "MECHANICAL_SYMBOL": 15
+  }
+ }
+}

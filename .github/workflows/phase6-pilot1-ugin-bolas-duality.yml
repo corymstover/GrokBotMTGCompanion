@@ -1,0 +1,38 @@
+name: Phase 6 Pilot 1 Ugin-Bolas duality proposal (unapproved)
+
+on:
+  pull_request:
+    paths:
+      - 'data/lore_decks/drafts/ugin_bolas_elder_dragon_duality_*'
+      - 'scripts/build_ugin_bolas_duality_pilot.py'
+      - 'scripts/audit_ugin_bolas_duality_pilot.py'
+      - 'tests/test_ugin_bolas_duality_pilot.py'
+      - 'research/PHASE6_PILOT1_Ugin_Bolas_Elder_Dragon_Duality.md'
+      - '.github/workflows/phase6-pilot1-ugin-bolas-duality.yml'
+      - 'MTG_MULTIVERSE_MASTER_WORKFLOW.md'
+  push:
+    paths:
+      - 'data/lore_decks/drafts/ugin_bolas_elder_dragon_duality_*'
+      - 'scripts/audit_ugin_bolas_duality_pilot.py'
+      - 'tests/test_ugin_bolas_duality_pilot.py'
+      - '.github/workflows/phase6-pilot1-ugin-bolas-duality.yml'
+  workflow_dispatch:
+
+jobs:
+  pilot-proposal-audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Preserve Pack A/A2/A3/A4 grading
+        run: |
+          python3 scripts/audit_lore_pack_a.py
+          python3 scripts/audit_lore_pack_a_extension.py
+          python3 scripts/audit_lore_pack_a_scenes.py
+          python3 scripts/audit_lore_pack_a4_printing_art.py
+      - name: Replay pilot proposal (100 cards, UBR, singleton, tiers, SHA, unapproved)
+        run: python3 scripts/audit_ugin_bolas_duality_pilot.py
+      - name: Pilot regression tests
+        run: python3 -m unittest discover -s tests -p 'test_ugin_bolas_duality_pilot.py' -v

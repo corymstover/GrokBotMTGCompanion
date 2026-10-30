@@ -1,0 +1,86 @@
+1x Nicol Bolas, the Ravager // Nicol Bolas, the Arisen (m19) 218 [Commander]
+1x Nicol Bolas (a25) 209
+1x The Elder Dragon War (dmu) 121
+1x Crosis, the Purger (inv) 242
+1x Ghostfire (fut) 115
+1x Fraying Omnipotence (m19) 97
+1x Nicol Bolas, Planeswalker (con) 120
+1x Slave of Bolas (arb) 136
+1x Soul Manipulation (arb) 29
+1x Countersquall (ddh) 59
+1x Mana Drain (j16) 2
+1x Magmaquake (m13) 140
+1x Augur of Bolas (war) 41
+1x Disciple of Bolas (m13) 88
+1x Hedron Archive (bfz) 223
+1x Perilous Vault (m15) 224
+1x Ugin's Insight (bfz) 87
+1x Dispel (bfz) 76
+1x Ugin's Binding (mh3) 76
+1x Crux of Fate (frf) 65
+1x Ugin's Nexus (ktk) 227
+1x Ugin, the Spirit Dragon (frf) 1
+1x Bitter Revelation (ktk) 65
+1x Witness of the Ages (ktk) 228
+1x Fearsome Awakening (frf) 69
+1x Sarkhan the Mad (roe) 214
+1x Sarkhan, the Dragonspeaker (ktk) 119
+1x Dragonlord Silumgar (dtk) 220
+1x Dragonlord Kolaghan (dtk) 218
+1x Nicol Bolas, God-Pharaoh (hou) 140
+1x The Scarab God (hou) 145
+1x The Locust God (hou) 139
+1x The Scorpion God (hou) 146
+1x Hour of Devastation (hou) 97
+1x Jace's Defeat (hou) 38
+1x Liliana's Defeat (hou) 68
+1x Chandra's Defeat (hou) 86
+1x Doomfall (hou) 62
+1x Neheb, the Eternal (hou) 104
+1x Wasp of the Bitter End (hou) 206
+1x Visage of Bolas (hou) 208
+1x Nicol Bolas, the Deceiver (hou) 205
+1x Tezzeret, Agent of Bolas (mbs) 97
+1x Nicol Bolas, Dragon-God (war) 207
+1x Bolas's Citadel (war) 79
+1x Commence the Endgame (war) 45
+1x Command the Dreadhorde (war) 82
+1x Spark Harvest (war) 105
+1x God-Eternal Kefnet (war) 53
+1x God-Eternal Bontu (war) 92
+1x Liliana, Dreadhorde General (war) 97
+1x Liliana's Triumph (war) 98
+1x Finale of Revelation (war) 51
+1x Ugin, the Ineffable (war) 2
+1x Ugin's Conjurant (war) 3
+1x Sarkhan's Catharsis (war) 144
+1x No Escape (war) 63
+1x Ugin, Eye of the Storms (tdm) 1
+1x Dracogenesis (tdm) 402
+1x Watcher of the Wayside (tdm) 249
+1x Tomb of the Spirit Dragon (ktk) 245
+1x Crucible of the Spirit Dragon (frf) 167
+1x Haven of the Spirit Dragon (dtk) 249
+1x Maelstrom of the Spirit Dragon (tdm) 260
+1x Ugin's Labyrinth (mh3) 233
+1x Cinder Barrens (hou) 209
+1x Crumbling Necropolis (ala) 222
+1x Interplanar Beacon (war) 247
+1x Sol Ring (lea) 269
+1x Arcane Signet (eld) 331
+1x Talisman of Dominance (mrd) 253
+1x Talisman of Creativity (c21) 269
+1x Talisman of Indulgence (mrd) 255
+1x Command Tower (cmd) 269
+1x Watery Grave (rav) 286
+1x Blood Crypt (dis) 171
+1x Steam Vents (gpt) 164
+1x Drowned Catacomb (m10) 224
+1x Dragonskull Summit (m10) 223
+1x Sulfur Falls (isd) 248
+1x Underground River (ice) 362
+1x Sulfurous Springs (ice) 360
+1x Shivan Reef (apc) 142
+6x Island
+6x Swamp
+5x Mountain
