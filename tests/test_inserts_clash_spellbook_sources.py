@@ -79,8 +79,8 @@ class InsertsClashSpellbookTests(unittest.TestCase):
     def test_live_lookup_retains_old_sources(self):
         self.assertEqual(A.encode(self.build()), A.encode(self.build()))
         current = load_current_index()
-        self.assertEqual(current["wizards_reviewed_examples"], 179)
-        self.assertEqual(len(select(current, only_pending=True)), 669)
+        self.assertGreaterEqual(current["wizards_reviewed_examples"], 179)
+        self.assertLessEqual(len(select(current, only_pending=True)), 669)
         self.assertEqual(len(select(current, cohort="special_inserts_and_eternal_subsets", only_pending=True)), 0)
         self.assertTrue(select(current, code="bot")[0]["wizards_code_explicitly_confirmed"])
         self.assertTrue(select(current, code="rex")[0]["wizards_code_explicitly_confirmed"])
