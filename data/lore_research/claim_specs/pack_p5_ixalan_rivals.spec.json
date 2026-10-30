@@ -13,7 +13,14 @@
   "rix_sabotage": "sabotage-2018-01-31",
   "rix_who_tells": "who-tells-stories-2018-02-07",
   "rix_wool": "wool-over-eyes-2018-02-14",
-  "rix_alt_endings": "rivals-ixalan-magic-story-alternate-endings-2018-02-21"
+  "rix_alt_endings": "rivals-ixalan-magic-story-alternate-endings-2018-02-21",
+  "xln_guide1": "planeswalkers-guide-ixalan-part-1-2017-11-01",
+  "xln_guide2": "planeswalkers-guide-ixalan-part-2-2017-11-08",
+  "xln_race1": "race-part-1-2017-10-11",
+  "xln_race2": "race-part-2-2017-10-18",
+  "xln_shapers": "shapers-2017-09-27",
+  "xln_something_else": "something-else-entirely-2017-10-04",
+  "xln_plane": "ixalan-plane"
  },
  "entities": [
   {
@@ -100,6 +107,86 @@
    "id": "golgari",
    "type": "Faction",
    "name": "Golgari Swarm"
+  },
+  {
+   "id": "brazen_coalition",
+   "type": "Faction",
+   "name": "Brazen Coalition"
+  },
+  {
+   "id": "beckett_brass",
+   "type": "Character",
+   "name": "Beckett Brass"
+  },
+  {
+   "id": "torrezon",
+   "type": "Place",
+   "name": "Torrezon"
+  },
+  {
+   "id": "elenda",
+   "type": "Character",
+   "name": "Elenda"
+  },
+  {
+   "id": "apatzec_intli",
+   "type": "Character",
+   "name": "Apatzec Intli III"
+  },
+  {
+   "id": "chacanto_intli",
+   "type": "Character",
+   "name": "Chacanto Intli"
+  },
+  {
+   "id": "caparocti_sunborn",
+   "type": "Character",
+   "name": "Caparocti Sunborn"
+  },
+  {
+   "id": "pachatupa",
+   "type": "Place",
+   "name": "Pachatupa"
+  },
+  {
+   "id": "tishana",
+   "type": "Character",
+   "name": "Tishana"
+  },
+  {
+   "id": "kopala",
+   "type": "Character",
+   "name": "Kopala"
+  },
+  {
+   "id": "vona",
+   "type": "Character",
+   "name": "Vona de Iedo"
+  },
+  {
+   "id": "mavren_fein",
+   "type": "Character",
+   "name": "Mavren Fein"
+  },
+  {
+   "id": "rite_of_redemption",
+   "type": "Concept",
+   "name": "Rite of Redemption"
+  },
+  {
+   "id": "the_belligerent",
+   "type": "Object",
+   "name": "The Belligerent"
+  },
+  {
+   "id": "breeches",
+   "type": "Character",
+   "name": "Breeches"
+  },
+  {
+   "id": "amelia",
+   "type": "Character",
+   "name": "Amelia"
   }
  ],
  "claims": [
@@ -361,6 +448,270 @@
    ],
    "summary": "Wizards published non-canon alternate endings in which another faction (for example the River Heralds) holds Orazca.",
    "limitation": "Explicitly non-canon per Wizards; kept only so queries do not mistake the alternate endings for canon."
+  },
+  {
+   "id": "XLN017",
+   "subject": "immortal_sun",
+   "predicate": "located_in",
+   "object": "orazca",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "xln_plane",
+     "quote": "Secure in the ancient golden city of Orazca, the Immortal Sun is an artifact of mythic power"
+    }
+   ],
+   "summary": "The Immortal Sun lies in the golden city of Orazca."
+  },
+  {
+   "id": "XLN018",
+   "subject": "legion_of_dusk",
+   "predicate": "seeks_to_conquer",
+   "object": "ixalan",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "xln_plane",
+     "quote": "And as the Legion of Dusk seeks to conquer Ixalan"
+    }
+   ],
+   "summary": "The Legion of Dusk seeks to conquer Ixalan."
+  },
+  {
+   "id": "XLN019",
+   "subject": "beckett_brass",
+   "predicate": "leader_of",
+   "object": "brazen_coalition",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "xln_guide2",
+     "quote": "they refer to themselves as the Brazen Coalition, in honor of Captain Brass, who now commands the largest fleet of the coalition"
+    }
+   ],
+   "summary": "The Brazen Coalition is named in honor of Captain (now Admiral) Beckett Brass, who commands its largest fleet.",
+   "limitation": "The guide says she commands the largest fleet; 'leader_of' summarises that the coalition is named for her."
+  },
+  {
+   "id": "XLN020",
+   "subject": "legion_of_dusk",
+   "predicate": "controls",
+   "object": "torrezon",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "xln_guide2",
+     "quote": "Torrezon now lies entirely under the Legion's control"
+    }
+   ],
+   "summary": "Torrezon lies entirely under the Legion of Dusk's control."
+  },
+  {
+   "id": "XLN021",
+   "subject": "elenda",
+   "predicate": "guardian_of",
+   "object": "immortal_sun",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "xln_guide2",
+     "quote": "The last custodian of the precious artifact, a woman named Elenda"
+    }
+   ],
+   "summary": "Elenda was the last custodian of the Immortal Sun in Torrezon."
+  },
+  {
+   "id": "XLN022",
+   "subject": "elenda",
+   "predicate": "originated",
+   "object": "rite_of_redemption",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "xln_guide2",
+     "quote": "Soon, many of Torrezon's nobles undertook Elenda's transformative ritual, and it became known as the Rite of Redemption by the church."
+    }
+   ],
+   "summary": "Elenda's vampiric transformation became the church's Rite of Redemption."
+  },
+  {
+   "id": "XLN023",
+   "subject": "apatzec_intli",
+   "predicate": "leader_of",
+   "object": "sun_empire",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "xln_guide1",
+     "quote": "The new ruler of the Sun Empire, responsible for the current mood of expansion and conquest, is a fierce man named Apatzec"
+    }
+   ],
+   "summary": "Apatzec Intli III is the current ruler of the Sun Empire."
+  },
+  {
+   "id": "XLN024",
+   "subject": "chacanto_intli",
+   "predicate": "founded",
+   "object": "sun_empire",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "xln_guide1",
+     "quote": "closely associated with Chacanto Intli, the empire's founder"
+    }
+   ],
+   "summary": "Chacanto Intli founded the Sun Empire."
+  },
+  {
+   "id": "XLN025",
+   "subject": "caparocti_sunborn",
+   "predicate": "guardian_of",
+   "object": "pachatupa",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "xln_guide1",
+     "quote": "Caparocti Sunborn is the holy champion of Pachatupa"
+    }
+   ],
+   "summary": "Caparocti Sunborn is the holy champion of Pachatupa."
+  },
+  {
+   "id": "XLN026",
+   "subject": "tishana",
+   "predicate": "member_of",
+   "object": "river_heralds",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "xln_guide1",
+     "quote": "The shamans are known by the rivers' names: Tishana, Kumena, Pashona, Vuhana, Mitica, Notana, Falani, Tuvasa, and Kopala."
+    }
+   ],
+   "summary": "Tishana is one of the nine River Herald river shamans.",
+   "limitation": "The sentence lists the shamans by river name; River Herald membership comes from the surrounding section."
+  },
+  {
+   "id": "XLN027",
+   "subject": "tishana",
+   "predicate": "mentored",
+   "object": "kopala",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "xln_shapers",
+     "quote": "Tishana, my mentor, is here with me, guiding me"
+    }
+   ],
+   "summary": "Kopala, narrating The Shapers, names Tishana as his mentor.",
+   "limitation": "The narrator is Kopala (the page is headed KOPALA)."
+  },
+  {
+   "id": "XLN028",
+   "subject": "kumena",
+   "predicate": "leader_of",
+   "object": "river_heralds",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "xln_shapers",
+     "quote": "At their head stands Kumena, their Shaper."
+    }
+   ],
+   "summary": "Kumena stands at the head of a group of merfolk as their Shaper.",
+   "limitation": "'Their' refers to a band of merfolk, not the whole River Heralds; read as leadership of a faction within them."
+  },
+  {
+   "id": "XLN029",
+   "subject": "tishana",
+   "predicate": "aided",
+   "object": "huatli",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "xln_race2",
+     "quote": "she sighed in relief when Tishana's summoned river rushed past her and toward her fleeing enemies"
+    }
+   ],
+   "summary": "During the race to Orazca, Tishana's summoned river helps Huatli against their enemies."
+  },
+  {
+   "id": "XLN030",
+   "subject": "jace_beleren",
+   "predicate": "allied_with",
+   "object": "vraska",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "xln_race2",
+     "quote": "Her heart leapt as she ran, Jace at her side and her crew at her back."
+    }
+   ],
+   "summary": "Jace runs at Vraska's side with her crew in the race."
+  },
+  {
+   "id": "XLN031",
+   "subject": "vona",
+   "predicate": "member_of",
+   "object": "legion_of_dusk",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "xln_race1",
+     "quote": "working the spell that would bind her life to serve the crown and church in perpetuity"
+    },
+    {
+     "page": "xln_race1",
+     "quote": "Vona had volunteered to lead the first ship that left port."
+    }
+   ],
+   "summary": "Vona bound her life to the crown and church and led the first Legion ship out of port.",
+   "limitation": "Legion membership is inferred from service to Torrezon's crown and church."
+  },
+  {
+   "id": "XLN032",
+   "subject": "mavren_fein",
+   "predicate": "worships",
+   "object": "elenda",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "xln_race1",
+     "quote": "I have conquered the waves and death itself, praise Saint Elenda!"
+    }
+   ],
+   "summary": "The hierophant (Mavren Fein) arriving at Fort Adanto praises Saint Elenda.",
+   "limitation": "The speaker is introduced as a hierophant and named Mavren Fein later in the episode."
+  },
+  {
+   "id": "XLN033",
+   "subject": "breeches",
+   "predicate": "member_of",
+   "object": "the_belligerent",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "xln_something_else",
+     "quote": "He felt a tap on his shoulder and turned to find Breeches, a goblin as talented at knot-tying as he was at yelling."
+    }
+   ],
+   "summary": "Breeches the goblin is one of the crew of The Belligerent.",
+   "limitation": "Crew membership comes from the scene setting aboard The Belligerent; modelled as membership of the ship."
+  },
+  {
+   "id": "XLN034",
+   "subject": "amelia",
+   "predicate": "member_of",
+   "object": "the_belligerent",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "xln_something_else",
+     "quote": "Amelia, quartermaster and one of the two helmsmages, was more than happy to demonstrate."
+    }
+   ],
+   "summary": "Amelia is the quartermaster and one of the two helmsmages of The Belligerent.",
+   "limitation": "The quote does not name the ship; the scene is aboard The Belligerent."
   }
  ],
  "remaining": [

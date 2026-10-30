@@ -703,6 +703,23 @@
    ]
   },
   {
+   "entity": "basri_ket",
+   "entity_type": "Character",
+   "entity_name": "Basri Ket",
+   "aliases": [
+    "Basri Ket"
+   ],
+   "pack": "pack_p5_aetherdrift_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Basri Ket",
+     "oracle_id": "497d7ab8-07f1-4c8a-a45a-52b9a4d9400f",
+     "type_line": "Legendary Planeswalker — Basri",
+     "scryfall_uri": "https://scryfall.com/card/m21/7/basri-ket"
+    }
+   ]
+  },
+  {
    "entity": "beledros_witherbloom",
    "entity_type": "Character",
    "entity_name": "Beledros Witherbloom",
@@ -1174,6 +1191,23 @@
      "oracle_id": "9d3c7c96-056f-408e-a834-fa45a430d3d4",
      "type_line": "Legendary Enchantment Creature — Demigod",
      "scryfall_uri": "https://scryfall.com/card/thb/9/daxos-blessed-by-the-sun"
+    }
+   ]
+  },
+  {
+   "entity": "depala",
+   "entity_type": "Character",
+   "entity_name": "Depala",
+   "aliases": [
+    "Depala"
+   ],
+   "pack": "pack_p5_kaladesh_aether_revolt_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Depala, Pilot Exemplar",
+     "oracle_id": "cc913f28-18ef-485e-8d2b-ae0115523020",
+     "type_line": "Legendary Creature — Dwarf Pilot",
+     "scryfall_uri": "https://scryfall.com/card/kld/178/depala-pilot-exemplar"
     }
    ]
   },
@@ -2740,6 +2774,23 @@
    ]
   },
   {
+   "entity": "ketramose",
+   "entity_type": "Character",
+   "entity_name": "Ketramose",
+   "aliases": [
+    "Ketramose"
+   ],
+   "pack": "pack_p5_aetherdrift_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Ketramose, the New Dawn",
+     "oracle_id": "de41ad94-b9d7-4c2b-bfa6-394d18737228",
+     "type_line": "Legendary Creature — God",
+     "scryfall_uri": "https://scryfall.com/card/dft/209/ketramose-the-new-dawn"
+    }
+   ]
+  },
+  {
    "entity": "kiora",
    "entity_type": "Character",
    "entity_name": "Kiora",
@@ -3753,7 +3804,7 @@
    "aliases": [
     "Niv-Mizzet"
    ],
-   "pack": "pack_p5_secrets_of_strixhaven_2026-10-30.json",
+   "pack": "pack_p5_aetherdrift_2026-10-30.json",
    "cards": [
     {
      "name": "Niv-Mizzet Reborn",
@@ -4656,6 +4707,23 @@
      "oracle_id": "5d1b0eee-3a7a-4f22-a40d-7658a368962a",
      "type_line": "Legendary Creature — Human Scout",
      "scryfall_uri": "https://scryfall.com/card/fdn/245/ruby-daring-tracker"
+    }
+   ]
+  },
+  {
+   "entity": "sab_sunen",
+   "entity_type": "Character",
+   "entity_name": "Sab-Sunen",
+   "aliases": [
+    "Sab-Sunen"
+   ],
+   "pack": "pack_p5_aetherdrift_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Sab-Sunen, Luxa Embodied",
+     "oracle_id": "07e15387-f346-4fa0-b556-d1c52d4acc07",
+     "type_line": "Legendary Creature — God",
+     "scryfall_uri": "https://scryfall.com/card/dft/221/sab-sunen-luxa-embodied"
     }
    ]
   },
@@ -6399,6 +6467,23 @@
    ]
   },
   {
+   "entity": "yahenni",
+   "entity_type": "Character",
+   "entity_name": "Yahenni",
+   "aliases": [
+    "Yahenni"
+   ],
+   "pack": "pack_p5_kaladesh_aether_revolt_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Yahenni, Undying Partisan",
+     "oracle_id": "fdba89eb-1cf5-46e6-9d09-1adb9bc40fcd",
+     "type_line": "Legendary Creature — Aetherborn Vampire",
+     "scryfall_uri": "https://scryfall.com/card/soc/232/yahenni-undying-partisan"
+    }
+   ]
+  },
+  {
    "entity": "yasova_dragonclaw",
    "entity_type": "Character",
    "entity_name": "Yasova Dragonclaw",
@@ -6564,6 +6649,7 @@
   "adrix",
   "akros",
   "amalia",
+  "amarth_tel",
   "archmage_ghavos",
   "ardenvale",
   "artificial_omenpath",
@@ -6627,7 +6713,9 @@
   "kavaron",
   "kayla_bin_kroog",
   "kellan_boldt",
+  "khal",
   "khalni_heart",
+  "khrad",
   "killian_lu",
   "king_glarb",
   "kiran_nalaar",
@@ -6649,6 +6737,8 @@
   "markov_manor",
   "mehtma",
   "meletis",
+  "mitul",
+  "mohar_varma",
   "mom_invasion",
   "nakht",
   "niharet",
@@ -6672,6 +6762,7 @@
   "riders_lock",
   "rill",
   "rtd_sylex",
+  "rudra",
   "saint_traft",
   "savai_settlements",
   "setessa",
@@ -6721,9 +6812,9 @@
   "Urza, Academy Headmaster"
  ],
  "counts": {
-  "entities_anchored": 284,
-  "anchor_edges": 570,
-  "unanchored_entities": 150
+  "entities_anchored": 289,
+  "anchor_edges": 575,
+  "unanchored_entities": 156
  },
- "content_sha256": "453cd572a90f9caac2707a2c7790c64dab8d9b9ab1315ba337346aab46d1bb4d"
+ "content_sha256": "6be965cb5ede3ea8ee22f88e24eddc32e2468e4fd06df2ad102d47a9d8471f20"
 }

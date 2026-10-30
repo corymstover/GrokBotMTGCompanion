@@ -56,11 +56,11 @@
  "totals": {
   "arcs": 33,
   "pages": 626,
-  "cited_pages": 356,
+  "cited_pages": 363,
   "arcs_not_started": 0,
-  "arcs_partial": 10,
-  "arcs_all_cited": 23,
-  "claims": 735,
+  "arcs_partial": 8,
+  "arcs_all_cited": 25,
+  "claims": 754,
   "pack_urls_outside_inventory": 12
  },
  "claims_per_pack": {
@@ -73,7 +73,7 @@
   "pack_a5_ugin_allies_2026-10-30.json": 16,
   "pack_c3_assault_on_new_phyrexia_2026-10-30.json": 19,
   "pack_c4_march_of_the_machine_2026-10-30.json": 21,
-  "pack_p5_kaladesh_aether_revolt_2026-10-30.json": 25,
+  "pack_p5_kaladesh_aether_revolt_2026-10-30.json": 32,
   "pack_p5_ixalan_rivals_2026-10-30.json": 16,
   "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json": 31,
   "pack_p5_kamigawa_neon_dynasty_2026-10-30.json": 12,
@@ -87,7 +87,7 @@
   "pack_p5_duskmourn_2026-10-30.json": 12,
   "pack_p5_outlaws_of_thunder_junction_2026-10-30.json": 12,
   "pack_p5_lost_caverns_of_ixalan_2026-10-30.json": 15,
-  "pack_p5_aetherdrift_2026-10-30.json": 12,
+  "pack_p5_aetherdrift_2026-10-30.json": 24,
   "pack_p5_kaldheim_2026-10-30.json": 14,
   "pack_p5_strixhaven_2026-10-30.json": 11,
   "pack_p5_ikoria_2026-10-30.json": 5,
@@ -172,7 +172,7 @@
   {
    "arc": "DFT",
    "pages": 10,
-   "cited_pages": 6,
+   "cited_pages": 10,
    "kinds": {
     "planeswalkers-guide": 2,
     "story": 8
@@ -180,13 +180,8 @@
    "citing_packs": [
     "pack_p5_aetherdrift_2026-10-30.json"
    ],
-   "status": "PARTIAL",
-   "uncited_urls": [
-    "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-aetherdrift-part-2",
-    "https://magic.wizards.com/en/news/magic-story/aetherdrift-episode-3-go",
-    "https://magic.wizards.com/en/news/magic-story/aetherdrift-episode-4-little-guy-shortcuts",
-    "https://magic.wizards.com/en/news/magic-story/aetherdrift-like-no-other-beast"
-   ]
+   "status": "ALL_PAGES_CITED",
+   "uncited_urls": []
   },
   {
    "arc": "DMU",
@@ -324,7 +319,7 @@
   {
    "arc": "KLD/AER",
    "pages": 17,
-   "cited_pages": 14,
+   "cited_pages": 17,
    "kinds": {
     "planeswalkers-guide": 1,
     "story": 16
@@ -332,12 +327,8 @@
    "citing_packs": [
     "pack_p5_kaladesh_aether_revolt_2026-10-30.json"
    ],
-   "status": "PARTIAL",
-   "uncited_urls": [
-    "https://magic.wizards.com/en/news/magic-story/born-aether-2016-09-21",
-    "https://magic.wizards.com/en/news/magic-story/quiet-moments-2016-12-07",
-    "https://magic.wizards.com/en/news/magic-story/time-innovation-2016-08-31"
-   ]
+   "status": "ALL_PAGES_CITED",
+   "uncited_urls": []
   },
   {
    "arc": "LCI",
@@ -872,5 +863,5 @@
    ]
   }
  ],
- "sha256": "0821001269a746d002653173ccfdde033391aaadee24bb2db17c0abdac40e1de"
+ "sha256": "a70d0cb6c8ffae808a2f9c6f4fb1fbb69ac08ef0e187fbba218b574a422a352f"
 }
