@@ -130,6 +130,11 @@
    "url": "https://www.coolstuffinc.com/a/jayannelli-02062018-magic-story-elder-dragons-to-the-mending",
    "class": "NON_WIZARDS_LABELLED",
    "use": "context only; never evidence of canon"
+  },
+  "mh2_legends": {
+   "url": "https://magic.wizards.com/en/news/feature/returning-legends-modern-horizons-2-2021-06-10",
+   "class": "WIZARDS_OFFICIAL",
+   "note": "Editorial feature (not story fiction). Re-fetched and string-checked 2026-10-30 ~02:20 CDT; already cited by Pack A2 claim A018."
   }
  },
  "method": "Each Wizards page fetched 2026-10-30 ~02:10-02:20 CDT; article text extracted and every 'Bolas' mention read in context. Mention counts are case-sensitive matches of 'Bolas' in the extracted article text. Quoted phrases were string-matched against the extracted text.",
@@ -140,9 +145,10 @@
    "decision": "RETAIN",
    "grade_after": "CANON_DISPUTED",
    "evidence": [
-    "chronicle_perspectives"
+    "chronicle_perspectives",
+    "mh2_legends"
    ],
-   "finding": "The only Wizards prose list of survivors remains Bolas's first-person narration ('only Chromium Rhuell, Arcades Sabboth, Palladia-Mors, and that vexatious beast Vaevictis Asmadi had survived'). No independent Wizards source located. Labelled non-Wizards secondary sources disagree on the count (mtg.wiki: 'only seven'; CoolStuffInc 2018: five survivors including Bolas), which supports keeping the dispute.",
+   "finding": "Bolas's first-person narration lists only four survivors ('only Chromium Rhuell, Arcades Sabboth, Palladia-Mors, and that vexatious beast Vaevictis Asmadi had survived'). Correction (2026-10-30 ~02:20 CDT): an independent Wizards editorial source does exist and was already recorded in Pack A2 (A018): the Modern Horizons 2 legends feature says 'Piru and Chromium were among the very few Elder Dragons who survived the Elder Dragon War instigated by Nicol Bolas.' Piru is absent from Bolas's list, so Wizards sources themselves disagree on the roster; the earlier statement that no independent Wizards source was located was wrong. Labelled non-Wizards secondary sources also disagree on the count (mtg.wiki: 'only seven'; CoolStuffInc 2018: five survivors including Bolas). The dispute is retained.",
    "context_non_wizards": [
     "mtgwiki_elder_dragon_war",
     "csi_elder_dragons_to_mending"
@@ -233,6 +239,18 @@
    ],
    "summary": "Jace replicates 'what Ugin must have done', shaping a body from the Meditation Realm; the Theorist later says Ugin 'rebuilt himself from it as I did'.",
    "limitation": "Jace's inference from his own experience, not Ugin's account."
+  },
+  {
+   "proposal_id": "A-PROP-04",
+   "subject": "elder_dragons",
+   "predicate": "spawned_by",
+   "object": "the_ur_dragon",
+   "proposed_grade": "CANON_CONFIRMED",
+   "source_ids": [
+    "mh2_legends"
+   ],
+   "summary": "Wizards' Modern Horizons 2 legends feature: 'Piru was one of the Elder Dragons, creatures spawned by the Ur-Dragon when Dominaria was young.'",
+   "limitation": "Editorial feature text, not story fiction. It names an Ur-Dragon progenitor of the Elder Dragons but does not state that the Commander 2017 card The Ur-Dragon depicts that being; Pilot 2 keeps its commander LORE_INSPIRED until Cory decides."
   }
  ],
  "why_not_applied": "scripts/audit_lore_pack_a.py locks Pack A to claims A001-A012 and their grades 'without research review'. Applying proposals needs Cory's review."
