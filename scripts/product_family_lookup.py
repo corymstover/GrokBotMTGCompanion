@@ -22,6 +22,7 @@ BOXED_SOURCE_REVIEW = ROOT / "data/set_atlas/boxed_precon_source_audit_2026-10-2
 DUEL_DECKS_SOURCE_REVIEW = ROOT / "data/set_atlas/duel_decks_source_audit_2026-10-29.json"
 COMMANDER_SERIES_SOURCE_REVIEW = ROOT / "data/set_atlas/commander_series_source_audit_2026-10-29.json"
 COMMANDER_SET_LINKED_SOURCE_REVIEW = ROOT / "data/set_atlas/commander_set_linked_source_audit_2026-10-29.json"
+COMMANDER_MODERN_SOURCE_REVIEW = ROOT / "data/set_atlas/commander_modern_source_audit_2026-10-29.json"
 
 
 def apply_source_overlay(data, verified):
@@ -381,6 +382,60 @@ def apply_commander_set_linked_source_overlay(data, review):
     return result
 
 
+def apply_commander_modern_source_overlay(data, review):
+    """Add the nineteen remaining Commander-family citations, retaining FDC dates."""
+    if review["cutoff"] != data["snapshot_date"] or data["wizards_reviewed_examples"] != 132:
+        raise ValueError("Modern Commander overlay historical checkpoint changed")
+    sources = {r["code"]: r for r in review["reviewed_commander_modern_codes"]}
+    if len(sources) != review["new_source_backed_commander_product_family_codes"] or len(sources) != 19:
+        raise ValueError("Modern Commander citations missing or duplicated")
+    seen = set()
+    rows = []
+    for previous in data["all_848_released_nondigital_other_type_records"]:
+        row = dict(previous)
+        source = sources.get(row["code"])
+        if source is not None:
+            if row["wizards_individual_source_review"]:
+                raise ValueError(f"Modern Commander citation overwrites earlier source: {row['code']}")
+            if (row["scryfall_set_type"] != source["scryfall_type"] or
+                    row["scryfall_release_or_first_card_date"] != source["scryfall_release_or_first_card_date"] or
+                    row["parent_set_code_explicit_only"] != source["scryfall_explicit_parent_code_unchanged"]):
+                raise ValueError(f"Modern Commander source changed frozen Scryfall metadata: {row['code']}")
+            row.update({
+                "wizards_individual_source_review": True,
+                "review_status": "wizards_modern_commander_product_family_source_verified",
+                "wizards_primary_source": source["wizards_primary_url"],
+                "wizards_review_product_group": source["wizards_product_family_supported"],
+                "wizards_source_grade": source["evidence_grade"],
+                "verified_evidence_note": source["wizards_source_note"],
+                "wizards_versus_scryfall_date_relationship": source["wizards_versus_scryfall_date_relationship"],
+                "wizards_code_explicitly_confirmed": False,
+                "wizards_premier_status_certified": False,
+                "exact_deck_printings_certified": False,
+                "new_card_count_certified": False,
+            })
+            seen.add(row["code"])
+        rows.append(row)
+    if seen != set(sources) or len(rows) != 848:
+        raise ValueError("Modern Commander overlay lost catalog entries")
+    result = dict(data)
+    result["all_848_released_nondigital_other_type_records"] = rows
+    result["wizards_reviewed_examples"] = review["cumulative_family_source_backed_codes"]
+    result["metadata_only_pending_wizards_individual_review"] = review["cumulative_source_pending_codes"]
+    result["cohort_review_progress"] = {}
+    for cohort in data["metadata_research_cohorts"]:
+        members = [r for r in rows if r["metadata_cohort_not_official_classification"] == cohort]
+        result["cohort_review_progress"][cohort] = {
+            "codes": len(members),
+            "wizards_reviewed": sum(bool(r["wizards_individual_source_review"]) for r in members),
+            "needs_individual_review": sum(not r["wizards_individual_source_review"] for r in members),
+            "explicit_parent_links": sum(bool(r["parent_set_code_explicit_only"]) for r in members),
+        }
+    if sum(bool(r["wizards_individual_source_review"]) for r in rows) != 151:
+        raise ValueError("Modern Commander current lookup conservation is not 151")
+    return result
+
+
 def load_current_index():
     data = json.loads(INDEX.read_text(encoding="utf-8"))
     if SOURCE_REVIEW.exists():
@@ -404,6 +459,9 @@ def load_current_index():
     if COMMANDER_SET_LINKED_SOURCE_REVIEW.exists():
         report = json.loads(COMMANDER_SET_LINKED_SOURCE_REVIEW.read_text(encoding="utf-8"))
         data = apply_commander_set_linked_source_overlay(data, report)
+    if COMMANDER_MODERN_SOURCE_REVIEW.exists():
+        report = json.loads(COMMANDER_MODERN_SOURCE_REVIEW.read_text(encoding="utf-8"))
+        data = apply_commander_modern_source_overlay(data, report)
     return data
 
 

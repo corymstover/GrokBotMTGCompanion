@@ -1,0 +1,35 @@
+name: Phase 1B modern Commander family primary-source review
+on:
+  push:
+    branches: [main, chatgpt-phase1b-commander-modern-20261029]
+    paths:
+      - scripts/audit_commander_modern_sources.py
+      - scripts/product_family_lookup.py
+      - tests/test_commander_modern_sources.py
+      - data/set_atlas/commander_modern_*
+      - .github/workflows/phase1b-commander-modern.yml
+  pull_request:
+    paths:
+      - scripts/audit_commander_modern_sources.py
+      - scripts/product_family_lookup.py
+      - tests/test_commander_modern_sources.py
+      - data/set_atlas/commander_modern_*
+      - .github/workflows/phase1b-commander-modern.yml
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  modern-commander-source-review:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Reproduce 19-family source audit and exact-date guards
+        run: python3 -m unittest discover -s tests -p test_commander_modern_sources.py -v
+      - name: Verify frozen atlas and current read-only lookup
+        run: |
+          python3 scripts/audit_commander_modern_sources.py
+          python3 scripts/product_family_lookup.py --summary
+          python3 -m py_compile scripts/audit_commander_modern_sources.py scripts/product_family_lookup.py

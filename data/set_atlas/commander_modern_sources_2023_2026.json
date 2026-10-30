@@ -1,0 +1,28 @@
+{
+  "schema": 1,
+  "cutoff": "2026-10-29",
+  "prior_audit": "commander_set_linked_source_audit_2026-10-29.json",
+  "scope": "The nineteen outstanding Scryfall commander-type boxed/preconstructed release-family codes from 2023 through October 2026. Official Wizards decklist articles establish marketed Commander products, not Scryfall set-code issuance, first-printing dates, or complete physical print inventories.",
+  "source_policy": "Preserve the frozen October 29 Scryfall code, earliest card date and explicit parent unmodified. Wizards product dates need not equal a Scryfall set-code earliest printing date. In particular FDC has 2024-11-15 Scryfall metadata but Wizards announces the five Foundations Commander decks for October 2, 2026. Do not present those as 2024 boxed decks or infer card legality.",
+  "records": [
+    {"code": "onc", "official_url": "https://magic.wizards.com/en/news/announcements/phyrexia-all-will-be-one-commander-decklists", "source_section": "Phyrexia: All Will Be One Commander Decklists"},
+    {"code": "moc", "official_url": "https://magic.wizards.com/en/news/announcements/march-of-the-machine-commander-decklists", "source_section": "March of the Machine Commander Decklists"},
+    {"code": "woc", "official_url": "https://magic.wizards.com/en/news/announcements/wilds-of-eldraine-commander-decklists", "source_section": "Wilds of Eldraine Commander Decklists"},
+    {"code": "who", "official_url": "https://magic.wizards.com/en/news/announcements/magic-the-gathering-doctor-who-commander-decklists", "source_section": "Magic: The Gathering Doctor Who Commander Decklists"},
+    {"code": "lcc", "official_url": "https://magic.wizards.com/en/news/announcements/the-lost-caverns-of-ixalan-commander-decklists", "source_section": "The Lost Caverns of Ixalan Commander Decklists"},
+    {"code": "mkc", "official_url": "https://magic.wizards.com/en/news/announcements/murders-at-karlov-manor-commander-decklists", "source_section": "Murders at Karlov Manor Commander Decklists"},
+    {"code": "otc", "official_url": "https://magic.wizards.com/en/news/announcements/outlaws-of-thunder-junction-commander-decklists", "source_section": "Outlaws of Thunder Junction Commander Decklists"},
+    {"code": "m3c", "official_url": "https://magic.wizards.com/en/news/announcements/modern-horizons-3-commander-decklists", "source_section": "Modern Horizons 3 Commander Decklists"},
+    {"code": "blc", "official_url": "https://magic.wizards.com/en/news/announcements/bloomburrow-commander-decklists", "source_section": "Bloomburrow Commander Decklists"},
+    {"code": "dsc", "official_url": "https://magic.wizards.com/en/news/announcements/duskmourn-house-of-horror-commander-decklists", "source_section": "Duskmourn: House of Horror Commander Decklists"},
+    {"code": "fdc", "official_url": "https://magic.wizards.com/en/news/announcements/foundations-commander-decklists", "source_section": "Foundations Commander Decklists — five monocolor decks released with Reality Fracture October 2, 2026", "date_relationship": "Wizards' October 2, 2026 boxed decks are later than the Scryfall FDC set-code earliest-card date of November 15, 2024; neither date replaces the other."},
+    {"code": "drc", "official_url": "https://magic.wizards.com/en/news/announcements/aetherdrift-commander-decklists", "source_section": "Aetherdrift Commander Decklists"},
+    {"code": "tdc", "official_url": "https://magic.wizards.com/en/news/announcements/tarkir-dragonstorm-commander-decklists", "source_section": "Tarkir: Dragonstorm Commander Decklists"},
+    {"code": "fic", "official_url": "https://magic.wizards.com/en/news/announcements/final-fantasy-commander-decklists", "source_section": "Magic: The Gathering Final Fantasy Commander Decklists"},
+    {"code": "eoc", "official_url": "https://magic.wizards.com/en/news/announcements/edge-of-eternities-commander-decklists", "source_section": "Edge of Eternities Commander Decklists"},
+    {"code": "ecc", "official_url": "https://magic.wizards.com/en/news/announcements/lorwyn-eclipsed-commander-decklists", "source_section": "Lorwyn Eclipsed Commander Decklists"},
+    {"code": "soc", "official_url": "https://magic.wizards.com/en/news/announcements/secrets-of-strixhaven-commander-decklists", "source_section": "Secrets of Strixhaven Commander Decklists"},
+    {"code": "msc", "official_url": "https://magic.wizards.com/en/news/announcements/marvel-super-heroes-commander-decklists", "source_section": "Magic: The Gathering Marvel Super Heroes Commander Decklists"},
+    {"code": "frc", "official_url": "https://magic.wizards.com/en/news/announcements/reality-fracture-multiverse-reforged-commander-decklist", "source_section": "Reality Fracture — Multiverse Reforged Commander Decklist"}
+  ]
+}
