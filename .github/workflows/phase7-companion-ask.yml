@@ -14,6 +14,7 @@ on:
       - 'tests/test_commander_rules.py'
       - 'scripts/query_multiverse_graph.py'
       - 'tests/test_mv_ask.py'
+      - 'tests/test_mv_ask_relations.py'
       - 'data/multiverse_graph/**'
       - 'data/card_index.csv'
       - 'data/card_db/**'
@@ -29,6 +30,7 @@ on:
       - 'cards/**'
       - 'data/rules/**'
       - 'tests/test_mv_ask.py'
+      - 'tests/test_mv_ask_relations.py'
       - 'data/multiverse_graph/**'
       - '.github/workflows/phase7-companion-ask.yml'
   workflow_dispatch:
@@ -46,10 +48,11 @@ jobs:
           python3 scripts/mv_ask.py ask "Who is Urza's brother?"
           python3 scripts/mv_ask.py ask "Where did the Golgothian Sylex come from?"
           python3 scripts/mv_ask.py ask "Who killed Elesh Norn?"
+          python3 scripts/mv_ask.py ask "Who defeated Ugin?"
           python3 scripts/mv_ask.py card "Sol Ring"
           set +e; python3 scripts/mv_ask.py ask "Who is Zorblax the Unreal?"; test $? -eq 3
       - name: Companion tests
-        run: python3 -m unittest discover -s tests -p 'test_mv_ask.py' -v
+        run: python3 -m unittest discover -s tests -p 'test_mv_ask*.py' -v
       - name: Commander deck-construction rules (CR 2026-09-25)
         run: |
           python3 scripts/commander_rules.py commander "Pir, Imaginative Rascal" "Toothy, Imaginary Friend"
