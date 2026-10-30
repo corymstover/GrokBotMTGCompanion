@@ -118,7 +118,7 @@ Owner steering at 02:24: commit the brief first; skip store copies (the store mo
 | [#845](https://github.com/corymstover/GrokBotMTGCompanion/pull/845) | 3 | In-universe `era` labels plus an `era_basis` disclaimer on all 149/149 claim edges. An `in_universe_date` is accepted only with a quote and a cited source; there are 0 such dates. 334 tests | `a10a5349` (03:14) | 23/23 pass (the path-filtered `lore-pilots` check is not triggered) |
 | [#846](https://github.com/corymstover/GrokBotMTGCompanion/pull/846) | — | Interim Batch 3 handoff (docs) | `59ebed06` (~03:17) | 1/1 pass |
 | [#847](https://github.com/corymstover/GrokBotMTGCompanion/pull/847) | 3 | Pack C3 *Assault on New Phyrexia* (Episodes 1–5): 19 verbatim-quoted claims, 27/27 quotes, 21 entities, stage `one_strike_2023`, PRELIMINARY_RESEARCH. Graph now 841 nodes, 1,330 edges; anchors cover 75 entities | `b313494f` (03:32) | 25/25 pass |
-| [#848](https://github.com/corymstover/GrokBotMTGCompanion/pull/848) | 8 | Enrichment batch 38: the remaining **1,953** priority-pool cards, so **5,362/5,362**. The 3,409 earlier records are byte-identical. 664 new records carry lore links; 1,289 are honestly marked "no lore linked yet". Readiness: enrichment MET. 346 tests | `f65fe727` (03:53) | 23/23 pass |
+| [#848](https://github.com/corymstover/GrokBotMTGCompanion/pull/848) | 8 | Enrichment batch 38: the remaining **1,953** priority-pool cards, so **5,362/5,362**. The 3,409 earlier records are byte-identical. 202 new records carry official-story links; 462 carry only an outside-canon flag; 1,289 have neither (all 1,751 unlinked are honestly marked "no lore linked yet"; corrected in batch 4 from a "664 linked" miscount). Readiness: enrichment MET. 346 tests | `f65fe727` (03:53) | 23/23 pass |
 
 Graph after #845: 767 nodes, 1,215 edges, with `--check` passing. The rules-interaction audit covers 6 draft decks, 17 links and 0 unresolved items.
 
@@ -153,3 +153,16 @@ The caches live under the git-ignored `.cache/` and are not committed. The pipel
 4. An exhaustive pass over the RtD and ONE episodes.
 
 Store copies were skipped per the owner. Protected-path check `git diff --stat dfc8891d origin/main -- grixis/ data/grixis/ state/current_deck_overrides.json data/lore_decks/approvals/`: **empty** (run after #848 merged, main `f65fe727`).
+
+## Batch 4 (started 03:57 CDT) — in progress
+
+### Corrections
+- **Batch-38 lore-link count corrected.** Of the 1,953 batch-38 records, **202** carry official-story links (201 presented-on, 1 spotlight). **462** carry only an outside-canon flag (276 Un-/playtest, 186 Universes Beyond) and no link. **1,289** have neither. All 1,751 without a link show the honest "no lore linked yet" line. The batch-3 report's "664 lore-linked" figure counted flag-only records as linked. The PR #848 body is left as written; this handoff and the workflow doc carry the correction.
+- The repo brief copy now includes the owner's "Batch-3 lesson" section.
+
+### Diagnosis: the 1,289
+Every one of the 1,289 is tiered only `legendary-creature`. None appears in the story-art caption CSV, in verbatim flavor on a cached official page, or in a lore entry. 66 of the 284 caption-CSV story URLs are not in the current story cache.
+
+### PRs (batch 4)
+| PR | Phase | What | Merge | CI |
+|---|---|---|---|---|
