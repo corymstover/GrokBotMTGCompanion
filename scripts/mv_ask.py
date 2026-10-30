@@ -27,6 +27,8 @@ NO_CITED_LORE, AMBIGUOUS_NAME. This tool never fabricates an answer: no evidence
 
 Plane-history questions route to reproducible Phase 5 cited plane dossiers;
 all responses are QUALIFIED because the registered graph is never exhaustive.
+Two-event before/after questions route to the source-graded, **partial** in-universe
+chronology and retain UNKNOWN for missing links and narrated legends as legends.
 """
 import argparse
 import csv
@@ -53,6 +55,11 @@ _PLANE_HISTORY_PATTERNS = [
                r"summari[sz]e (?:the )?|give me (?:the )?|show (?:the )?)"
                r"(?:history|historical background|lore) (?:of|on|for) (.+?)\??$", re.I),
     re.compile(r"^what happened (?:on|in) (.+?)\??$", re.I),
+]
+_CHRONOLOGY_QUESTION_PATTERNS = [
+    (re.compile(r"^(?:which|what) (?:event |one )?happened (?:first|earlier)\s*[:,]?\s*(.+?)\s+or\s+(.+?)\??$", re.I), "FIRST"),
+    (re.compile(r"^did\s+(.+?)\s+happen\s+(before|after)\s+(.+?)\??$", re.I), "DID"),
+    (re.compile(r"^was\s+(.+?)\s+(before|after)\s+(.+?)\??$", re.I), "DID"),
 ]
 
 _index = None
@@ -482,6 +489,73 @@ def plane_history(name: str) -> dict | None:
                        'known_gaps': plane['known_gaps']}}
 
 
+def chronology_question(text: str) -> dict | None:
+    """Answer only recognizable two-event comparisons; ambiguous names never guess."""
+    intent, left, right = None, None, None
+    for regex, mode in _CHRONOLOGY_QUESTION_PATTERNS:
+        m = regex.search(text)
+        if m:
+            intent = 'first' if mode == 'FIRST' else m.group(2).lower()
+            left = m.group(1).strip().strip('"“”')
+            right = (m.group(2) if mode == 'FIRST' else m.group(3)).strip().strip('"“”')
+            break
+    if intent is None:
+        return None
+
+    # This read-only route uses the existing exact, independently regenerated
+    # chronology files. It never infers global AR years or publication-order links.
+    from query_lore_chronology import DATA, compare_across_datasets
+    from source_event_sequences import OUT
+    old = json.loads(DATA.read_text(encoding='utf-8'))
+    local = json.loads(OUT.read_text(encoding='utf-8'))
+    envelope = {'route':'ask->chronology', 'query':text, 'data_as_of':'2026-10-30',
+                'sources':[], 'flags':['PARTIAL_IN_UNIVERSE_CHRONOLOGY']}
+    try:
+        evidence = compare_across_datasets(old, local, left, right)
+    except ValueError:
+        envelope.update(confidence='NOT_FOUND',
+                        flags=envelope['flags']+['UNKNOWN_OR_AMBIGUOUS_EVENT_LABEL'],
+                        result={'left_input':left, 'right_input':right,
+                                'relation':'UNKNOWN', 'answer':None,
+                                'guidance':'Use a unique event-label phrase or full ID from scripts/query_lore_chronology.py --list.'})
+        return envelope
+
+    labels = {n['id']:n['label'] for n in old['nodes']+local['nodes']}
+    nodes = {n['id']:n for n in local['nodes']}
+    relation = evidence['result']
+    if relation == 'BEFORE':
+        first = evidence['left']
+    elif relation == 'AFTER':
+        first = evidence['right']
+    else:
+        first = None
+    answer = (labels[first] if first else None) if intent == 'first' else (
+        relation == intent.upper() if relation in {'BEFORE','AFTER'} else None)
+    proof = evidence.get('proof', [])
+    corroboration = evidence.get('printed_ar_sources', [])
+    urls = {e['source_url'] for e in proof+corroboration if e.get('source_url')}
+    envelope['sources'] = sorted(urls)
+    if relation == 'UNKNOWN':
+        envelope['flags'].append('NO_CITED_CHRONOLOGY_PATH')
+    if relation == 'DURING_OR_AFTER_START':
+        envelope['flags'].append('OVERLAP_NOT_STRICT_ORDER')
+    if any(nodes.get(evidence[key], {}).get('certainty') == 'NARRATED_TRADITION_ONLY'
+           for key in ('left','right')):
+        envelope['flags'].append('NARRATED_LEGEND_NOT_VERIFIED_HISTORY')
+    if any(nid in nodes for nid in (evidence['left'],evidence['right'])) and not all(
+            nid in nodes for nid in (evidence['left'],evidence['right'])):
+        envelope['flags'].append('CROSS_LEDGER_UNANCHORED')
+    envelope.update(confidence='QUALIFIED', result={
+        'intent':intent, 'left_id':evidence['left'], 'right_id':evidence['right'],
+        'left_event':labels[evidence['left']], 'right_event':labels[evidence['right']],
+        'relation':relation, 'answer':answer, 'proof':proof,
+        'printed_ar_sources':corroboration,
+        'limitation':evidence.get('limitation') or 'Only a bounded source-local account is known.',
+        'verified_total_chronology':False,
+    })
+    return envelope
+
+
 def ask(text: str) -> dict:
     q = text.strip()
     for rx, kind in RULES_PATTERNS:
@@ -497,6 +571,9 @@ def ask(text: str) -> dict:
             if env is not None:
                 env['query'] = q
                 return env
+    chronology = chronology_question(q)
+    if chronology is not None:
+        return chronology
     for rx in CONTINUITY_PATTERNS:
         m = rx.search(q)
         if m:
