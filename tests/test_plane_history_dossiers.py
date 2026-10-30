@@ -1,4 +1,6 @@
 import json
+import contextlib
+import io
 import sys
 import unittest
 from pathlib import Path
@@ -58,6 +60,15 @@ class PlaneHistoryDossierTests(unittest.TestCase):
         missing = Q.query('An undiscovered plane not in this graph')
         self.assertEqual(missing['status'], 'NOT_FOUND')
         self.assertIn('does not establish nonexistence', missing['note'])
+
+    def test_multi_target_claim_prints_once_with_all_relations(self):
+        out = io.StringIO()
+        with contextlib.redirect_stdout(out):
+            self.assertEqual(Q.main(['Alara']), 0)
+        rendered = out.getvalue()
+        self.assertEqual(rendered.count('ALA001:'), 1)
+        for shard in ['Bant', 'Esper', 'Grixis (Alara shard)', 'Jund', 'Naya']:
+            self.assertIn(shard, rendered)
 
 
 if __name__ == '__main__':

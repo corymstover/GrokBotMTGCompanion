@@ -61,9 +61,13 @@
     {
       "id": "plane:alara",
       "name": "Alara",
-      "claim_edges": 1,
-      "distinct_claims": 1,
+      "claim_edges": 9,
+      "distinct_claims": 5,
       "claims": [
+        "ALA001",
+        "ALA002",
+        "ALA003",
+        "ALA004",
         "UP001"
       ],
       "official_source_ids": [
@@ -72,7 +76,7 @@
       "grades_present": [
         "CANON_CONFIRMED"
       ],
-      "research_priority": "THIN_DIRECT_EVIDENCE",
+      "research_priority": "EXPAND_NARRATIVE_DEPTH",
       "limitation": "Direct graph edges only; not the complete plane history or a canon completeness score."
     },
     {

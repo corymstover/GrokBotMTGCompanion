@@ -7,7 +7,7 @@
   "HYPOTHETICAL": "Creative or deckbuilding connection; never canon.",
   "OPEN_QUESTION": "Primary sources leave the matter unresolved; do not assert either way."
  },
- "content_sha256": "6141abc31e9bcbbff129e311f611b1ad18ecede854c3584eecc9c91cb82397e9",
+ "content_sha256": "e74a33e697ff10958eb7f090f1a319978aaaf7187b12a7caac6a2c9cf7412677",
  "edges": [
   {
    "artists": [
@@ -17620,6 +17620,174 @@
     "akh_plane"
    ],
    "to": "plane:amonkhet"
+  },
+  {
+   "claim": "ALA001",
+   "era": "separated_shards",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "plane:alara",
+   "grade": "CANON_CONFIRMED",
+   "relation": "was_divided_into",
+   "sources": [
+    "up_alara"
+   ],
+   "to": "place:bant"
+  },
+  {
+   "claim": "ALA001",
+   "era": "separated_shards",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "plane:alara",
+   "grade": "CANON_CONFIRMED",
+   "relation": "was_divided_into",
+   "sources": [
+    "up_alara"
+   ],
+   "to": "place:esper"
+  },
+  {
+   "claim": "ALA001",
+   "era": "separated_shards",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "plane:alara",
+   "grade": "CANON_CONFIRMED",
+   "relation": "was_divided_into",
+   "sources": [
+    "up_alara"
+   ],
+   "to": "place:grixis_shard"
+  },
+  {
+   "claim": "ALA001",
+   "era": "separated_shards",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "plane:alara",
+   "grade": "CANON_CONFIRMED",
+   "relation": "was_divided_into",
+   "sources": [
+    "up_alara"
+   ],
+   "to": "place:jund"
+  },
+  {
+   "claim": "ALA001",
+   "era": "separated_shards",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "plane:alara",
+   "grade": "CANON_CONFIRMED",
+   "relation": "was_divided_into",
+   "sources": [
+    "up_alara"
+   ],
+   "to": "place:naya"
+  },
+  {
+   "claim": "ALA002",
+   "era": "separated_shards",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "plane:alara",
+   "grade": "CANON_CONFIRMED",
+   "relation": "separated_shards_had",
+   "sources": [
+    "up_alara"
+   ],
+   "to": "concept:three_mana_colors"
+  },
+  {
+   "claim": "ALA003",
+   "era": "shard_convergence",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "plane:alara",
+   "grade": "CANON_CONFIRMED",
+   "relation": "reunited_with",
+   "sources": [
+    "up_alara"
+   ],
+   "to": "concept:five_mana_colors"
+  },
+  {
+   "claim": "ALA004",
+   "era": "shard_convergence_conflicts",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "plane:alara",
+   "grade": "CANON_CONFIRMED",
+   "relation": "reunion_spurred",
+   "sources": [
+    "up_alara"
+   ],
+   "to": "event:shard_wars"
+  },
+  {
+   "claim": "ALA005",
+   "era": "shard_convergence_conflicts",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "faction:esper_forces",
+   "grade": "CANON_CONFIRMED",
+   "relation": "invaded_in_search_of",
+   "sources": [
+    "up_alara"
+   ],
+   "to": "artifact:carmot"
+  },
+  {
+   "claim": "ALA006",
+   "era": "shard_convergence_conflicts",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "faction:grixis_undead",
+   "grade": "CANON_CONFIRMED",
+   "relation": "assaulted",
+   "sources": [
+    "up_alara"
+   ],
+   "to": "concept:neighboring_shards"
+  },
+  {
+   "claim": "ALA007",
+   "era": "shard_convergence_conflicts",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "faction:jund_warriors",
+   "grade": "CANON_CONFIRMED",
+   "relation": "extended_hunts_to",
+   "sources": [
+    "up_alara"
+   ],
+   "to": "concept:neighboring_shards"
+  },
+  {
+   "claim": "ALA008",
+   "era": "shard_convergence_conflicts",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "faction:naya_armies",
+   "grade": "CANON_CONFIRMED",
+   "relation": "marched_seeking_answers_to",
+   "sources": [
+    "up_alara"
+   ],
+   "to": "concept:anima_visions"
+  },
+  {
+   "claim": "ALA009",
+   "era": "shard_convergence_conflicts",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "faction:bant_armies",
+   "grade": "CANON_CONFIRMED",
+   "relation": "defended_in_name_of",
+   "sources": [
+    "up_alara"
+   ],
+   "to": "faction:guardian_angels"
+  },
+  {
+   "claim": "ALA010",
+   "era": "shard_convergence_conflicts",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "artifact:carmot",
+   "grade": "CANON_CONFIRMED",
+   "relation": "required_to_create",
+   "sources": [
+    "up_alara"
+   ],
+   "to": "artifact:etherium"
   },
   {
    "claim": "B001",
@@ -36471,6 +36639,150 @@
    "relation": "asserts",
    "role": "subject",
    "to": "concept:amonkhet_trials"
+  },
+  {
+   "from": "claim:ALA001",
+   "relation": "asserts",
+   "role": "object",
+   "to": "place:bant"
+  },
+  {
+   "from": "claim:ALA001",
+   "relation": "asserts",
+   "role": "object",
+   "to": "place:esper"
+  },
+  {
+   "from": "claim:ALA001",
+   "relation": "asserts",
+   "role": "object",
+   "to": "place:grixis_shard"
+  },
+  {
+   "from": "claim:ALA001",
+   "relation": "asserts",
+   "role": "object",
+   "to": "place:jund"
+  },
+  {
+   "from": "claim:ALA001",
+   "relation": "asserts",
+   "role": "object",
+   "to": "place:naya"
+  },
+  {
+   "from": "claim:ALA001",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "plane:alara"
+  },
+  {
+   "from": "claim:ALA002",
+   "relation": "asserts",
+   "role": "object",
+   "to": "concept:three_mana_colors"
+  },
+  {
+   "from": "claim:ALA002",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "plane:alara"
+  },
+  {
+   "from": "claim:ALA003",
+   "relation": "asserts",
+   "role": "object",
+   "to": "concept:five_mana_colors"
+  },
+  {
+   "from": "claim:ALA003",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "plane:alara"
+  },
+  {
+   "from": "claim:ALA004",
+   "relation": "asserts",
+   "role": "object",
+   "to": "event:shard_wars"
+  },
+  {
+   "from": "claim:ALA004",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "plane:alara"
+  },
+  {
+   "from": "claim:ALA005",
+   "relation": "asserts",
+   "role": "object",
+   "to": "artifact:carmot"
+  },
+  {
+   "from": "claim:ALA005",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "faction:esper_forces"
+  },
+  {
+   "from": "claim:ALA006",
+   "relation": "asserts",
+   "role": "object",
+   "to": "concept:neighboring_shards"
+  },
+  {
+   "from": "claim:ALA006",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "faction:grixis_undead"
+  },
+  {
+   "from": "claim:ALA007",
+   "relation": "asserts",
+   "role": "object",
+   "to": "concept:neighboring_shards"
+  },
+  {
+   "from": "claim:ALA007",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "faction:jund_warriors"
+  },
+  {
+   "from": "claim:ALA008",
+   "relation": "asserts",
+   "role": "object",
+   "to": "concept:anima_visions"
+  },
+  {
+   "from": "claim:ALA008",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "faction:naya_armies"
+  },
+  {
+   "from": "claim:ALA009",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:guardian_angels"
+  },
+  {
+   "from": "claim:ALA009",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "faction:bant_armies"
+  },
+  {
+   "from": "claim:ALA010",
+   "relation": "asserts",
+   "role": "object",
+   "to": "artifact:etherium"
+  },
+  {
+   "from": "claim:ALA010",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "artifact:carmot"
   },
   {
    "from": "claim:B001",
@@ -60680,6 +60992,56 @@
   {
    "from": "source:up_alara",
    "relation": "cited_by",
+   "to": "claim:ALA001"
+  },
+  {
+   "from": "source:up_alara",
+   "relation": "cited_by",
+   "to": "claim:ALA002"
+  },
+  {
+   "from": "source:up_alara",
+   "relation": "cited_by",
+   "to": "claim:ALA003"
+  },
+  {
+   "from": "source:up_alara",
+   "relation": "cited_by",
+   "to": "claim:ALA004"
+  },
+  {
+   "from": "source:up_alara",
+   "relation": "cited_by",
+   "to": "claim:ALA005"
+  },
+  {
+   "from": "source:up_alara",
+   "relation": "cited_by",
+   "to": "claim:ALA006"
+  },
+  {
+   "from": "source:up_alara",
+   "relation": "cited_by",
+   "to": "claim:ALA007"
+  },
+  {
+   "from": "source:up_alara",
+   "relation": "cited_by",
+   "to": "claim:ALA008"
+  },
+  {
+   "from": "source:up_alara",
+   "relation": "cited_by",
+   "to": "claim:ALA009"
+  },
+  {
+   "from": "source:up_alara",
+   "relation": "cited_by",
+   "to": "claim:ALA010"
+  },
+  {
+   "from": "source:up_alara",
+   "relation": "cited_by",
    "to": "claim:UP001"
   },
   {
@@ -61915,6 +62277,13 @@
     "file": "data/lore_research/pack_p5_untagged_worldsoul_multiverse_2026-10-30.json",
     "sha256": "dae81857b882902476b558860ad794d641a9e921f0080ae980239b1bd4a401a3",
     "sources": 5
+   },
+   {
+    "claims": 10,
+    "entities": 19,
+    "file": "data/lore_research/pack_p5_alara_plane_profile_2026-10-30.json",
+    "sha256": "a17703f0ceab413c8c50d14445686887aac302bb38b29a314e93c2fbe15fb5c6",
+    "sources": 1
    }
   ],
   "deck_evidence": [
@@ -62020,6 +62389,14 @@
    "type": "Object"
   },
   {
+   "id": "artifact:carmot",
+   "name": "Carmot",
+   "origins": [
+    "pack_p5_alara_plane_profile_2026-10-30.json"
+   ],
+   "type": "Object"
+  },
+  {
    "id": "artifact:carta_scientia",
    "name": "Carta Scientia",
    "origins": [
@@ -62095,6 +62472,14 @@
    "name": "The Endstone",
    "origins": [
     "pack_p5_edge_of_eternities_2026-10-30.json"
+   ],
+   "type": "Object"
+  },
+  {
+   "id": "artifact:etherium",
+   "name": "Etherium",
+   "origins": [
+    "pack_p5_alara_plane_profile_2026-10-30.json"
    ],
    "type": "Object"
   },
@@ -83945,6 +84330,126 @@
   },
   {
    "grade": "CANON_CONFIRMED",
+   "id": "claim:ALA001",
+   "limitation": "This profile does not supply the calendar date when the original division occurred. These are regions/shards, not five independent present-day planes.",
+   "name": "Alara had five long-separated shards: Bant, Esper, Grixis, Jund, and Naya.",
+   "origins": [
+    "pack_p5_alara_plane_profile_2026-10-30.json"
+   ],
+   "predicate": "was_divided_into",
+   "stage": "separated_shards",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:ALA002",
+   "limitation": "The profile states the three-color condition generally; the separate identity of each shard's three colors requires its own card/color evidence.",
+   "name": "Each of Alara's five separated shards had access to three mana colors during its isolation.",
+   "origins": [
+    "pack_p5_alara_plane_profile_2026-10-30.json"
+   ],
+   "predicate": "separated_shards_had",
+   "stage": "separated_shards",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:ALA003",
+   "limitation": "The profile supplies no Dominarian AR year for the convergence.",
+   "name": "Following the convergence, the rejoined Alara again flowed with all five mana colors.",
+   "origins": [
+    "pack_p5_alara_plane_profile_2026-10-30.json"
+   ],
+   "predicate": "reunited_with",
+   "stage": "shard_convergence",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:ALA004",
+   "limitation": "The wars and convergence overlap in this prose; do not convert their descriptions into a precise BEFORE ordering in the master timeline.",
+   "name": "As shard boundaries dissolved, formerly isolated cultures clashed and wars broke out across reunited Alara.",
+   "origins": [
+    "pack_p5_alara_plane_profile_2026-10-30.json"
+   ],
+   "predicate": "reunion_spurred",
+   "stage": "shard_convergence_conflicts",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:ALA005",
+   "limitation": "The plane primer does not identify commanders or the outcomes of individual Esper invasions.",
+   "name": "Esper's forces attacked other Alaran shards while seeking carmot.",
+   "origins": [
+    "pack_p5_alara_plane_profile_2026-10-30.json"
+   ],
+   "predicate": "invaded_in_search_of",
+   "stage": "shard_convergence_conflicts",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:ALA006",
+   "limitation": "This establishes the general invasion motive, not a named battle or a fate for any named individual.",
+   "name": "Grixis undead attacked other Alaran shards with the aim of maiming, enslaving, and draining their inhabitants' life energy.",
+   "origins": [
+    "pack_p5_alara_plane_profile_2026-10-30.json"
+   ],
+   "predicate": "assaulted",
+   "stage": "shard_convergence_conflicts",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:ALA007",
+   "limitation": "The source does not name the participants of a particular hunt or identify the exact destinations.",
+   "name": "Jund's warriors expanded their life hunts to new prey and territories across reunited Alara.",
+   "origins": [
+    "pack_p5_alara_plane_profile_2026-10-30.json"
+   ],
+   "predicate": "extended_hunts_to",
+   "stage": "shard_convergence_conflicts",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:ALA008",
+   "limitation": "The profile does not explain whether those prophetic visions proved accurate or when their prophecies were fulfilled.",
+   "name": "Naya's armies followed elven decrees and departed the jungle seeking answers to the Anima's visions.",
+   "origins": [
+    "pack_p5_alara_plane_profile_2026-10-30.json"
+   ],
+   "predicate": "marched_seeking_answers_to",
+   "stage": "shard_convergence_conflicts",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:ALA009",
+   "limitation": "This does not establish which specific angels commanded particular fights.",
+   "name": "Bant's armies defended their territory against horrors crossing former shard borders in the name of their guardian angels.",
+   "origins": [
+    "pack_p5_alara_plane_profile_2026-10-30.json"
+   ],
+   "predicate": "defended_in_name_of",
+   "stage": "shard_convergence_conflicts",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:ALA010",
+   "limitation": "The page does not explain the exact material or magical synthesis recipe.",
+   "name": "The Alara plane primer identifies carmot as necessary to make more etherium for Esper.",
+   "origins": [
+    "pack_p5_alara_plane_profile_2026-10-30.json"
+   ],
+   "predicate": "required_to_create",
+   "stage": "shard_convergence_conflicts",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
    "id": "claim:B001",
    "limitation": "Birth order and childhood (Tocasia, Koilos) are not covered by the sources fetched for this pack.",
    "name": "Urza and Mishra are brothers; Tawnos tells Kayla that Urza's brother was turned and fused with a machine.",
@@ -96075,6 +96580,14 @@
    "type": "Concept"
   },
   {
+   "id": "concept:anima_visions",
+   "name": "Anima's prophetic visions",
+   "origins": [
+    "pack_p5_alara_plane_profile_2026-10-30.json"
+   ],
+   "type": "Concept"
+  },
+  {
    "id": "concept:blind_eternities",
    "name": "The Blind Eternities",
    "origins": [
@@ -96134,6 +96647,14 @@
    "type": "Concept"
   },
   {
+   "id": "concept:five_mana_colors",
+   "name": "Five colors of mana across reunited Alara",
+   "origins": [
+    "pack_p5_alara_plane_profile_2026-10-30.json"
+   ],
+   "type": "Concept"
+  },
+  {
    "id": "concept:glistening_oil",
    "name": "Glistening oil",
    "origins": [
@@ -96180,6 +96701,14 @@
    "name": "The Multiverse",
    "origins": [
     "pack_c3_assault_on_new_phyrexia_2026-10-30.json"
+   ],
+   "type": "Concept"
+  },
+  {
+   "id": "concept:neighboring_shards",
+   "name": "Other Alaran shards following their convergence",
+   "origins": [
+    "pack_p5_alara_plane_profile_2026-10-30.json"
    ],
    "type": "Concept"
   },
@@ -96236,6 +96765,14 @@
    "name": "Thran Empire",
    "origins": [
     "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json"
+   ],
+   "type": "Concept"
+  },
+  {
+   "id": "concept:three_mana_colors",
+   "name": "Three colors of mana per separated shard",
+   "origins": [
+    "pack_p5_alara_plane_profile_2026-10-30.json"
    ],
    "type": "Concept"
   },
@@ -97420,6 +97957,14 @@
    "type": "Event"
   },
   {
+   "id": "event:shard_wars",
+   "name": "Conflicts following the Conflux of Alara's shards",
+   "origins": [
+    "pack_p5_alara_plane_profile_2026-10-30.json"
+   ],
+   "type": "Event"
+  },
+  {
    "id": "event:summitfest",
    "name": "Summitfest",
    "origins": [
@@ -97555,6 +98100,14 @@
     "pack_p5_untagged_planes_2026-10-30.json",
     "pack_p5_untagged_stories_2014_2026-10-30.json",
     "pack_p5_war_spark_ravnica_2026-10-30.json"
+   ],
+   "type": "Faction"
+  },
+  {
+   "id": "faction:bant_armies",
+   "name": "Armies of Bant",
+   "origins": [
+    "pack_p5_alara_plane_profile_2026-10-30.json"
    ],
    "type": "Faction"
   },
@@ -97812,6 +98365,14 @@
    "type": "Faction"
   },
   {
+   "id": "faction:esper_forces",
+   "name": "Forces of Esper",
+   "origins": [
+    "pack_p5_alara_plane_profile_2026-10-30.json"
+   ],
+   "type": "Faction"
+  },
+  {
    "id": "faction:eumidians",
    "name": "The Eumidians",
    "origins": [
@@ -97883,12 +98444,28 @@
    "type": "Faction"
   },
   {
+   "id": "faction:grixis_undead",
+   "name": "Hordes of Grixis undead",
+   "origins": [
+    "pack_p5_alara_plane_profile_2026-10-30.json"
+   ],
+   "type": "Faction"
+  },
+  {
    "id": "faction:gruul_clans",
    "name": "Gruul Clans",
    "origins": [
     "pack_p5_untagged_bios_2026-10-30.json",
     "pack_p5_untagged_worldsoul_multiverse_2026-10-30.json",
     "pack_p5_war_spark_ravnica_2026-10-30.json"
+   ],
+   "type": "Faction"
+  },
+  {
+   "id": "faction:guardian_angels",
+   "name": "Guardian angels revered by Bant armies",
+   "origins": [
+    "pack_p5_alara_plane_profile_2026-10-30.json"
    ],
    "type": "Faction"
   },
@@ -97998,6 +98575,14 @@
    "origins": [
     "pack_p5_untagged_stories_2014_2026-10-30.json",
     "pack_p5_untagged_tarkir_zendikar_guides_2026-10-30.json"
+   ],
+   "type": "Faction"
+  },
+  {
+   "id": "faction:jund_warriors",
+   "name": "Warriors of Jund",
+   "origins": [
+    "pack_p5_alara_plane_profile_2026-10-30.json"
    ],
    "type": "Faction"
   },
@@ -98163,6 +98748,14 @@
    "name": "Mul Daya elves",
    "origins": [
     "pack_p5_untagged_tarkir_zendikar_guides_2026-10-30.json"
+   ],
+   "type": "Faction"
+  },
+  {
+   "id": "faction:naya_armies",
+   "name": "Forces of Naya",
+   "origins": [
+    "pack_p5_alara_plane_profile_2026-10-30.json"
    ],
    "type": "Faction"
   },
@@ -98806,6 +99399,14 @@
    "type": "Place"
   },
   {
+   "id": "place:bant",
+   "name": "Bant",
+   "origins": [
+    "pack_p5_alara_plane_profile_2026-10-30.json"
+   ],
+   "type": "Place"
+  },
+  {
    "id": "place:cabal_stronghold",
    "name": "Cabal Stronghold",
    "origins": [
@@ -98920,6 +99521,14 @@
    "type": "Place"
   },
   {
+   "id": "place:esper",
+   "name": "Esper",
+   "origins": [
+    "pack_p5_alara_plane_profile_2026-10-30.json"
+   ],
+   "type": "Place"
+  },
+  {
    "id": "place:evendo",
    "name": "Evendo",
    "origins": [
@@ -99009,6 +99618,14 @@
    "type": "Place"
   },
   {
+   "id": "place:grixis_shard",
+   "name": "Grixis (Alara shard)",
+   "origins": [
+    "pack_p5_alara_plane_profile_2026-10-30.json"
+   ],
+   "type": "Place"
+  },
+  {
    "id": "place:guul_draz",
    "name": "Guul Draz",
    "origins": [
@@ -99062,6 +99679,14 @@
    "name": "Istfell",
    "origins": [
     "pack_p5_kaldheim_2026-10-30.json"
+   ],
+   "type": "Place"
+  },
+  {
+   "id": "place:jund",
+   "name": "Jund",
+   "origins": [
+    "pack_p5_alara_plane_profile_2026-10-30.json"
    ],
    "type": "Place"
   },
@@ -99199,6 +99824,14 @@
    "name": "Murasa Skyclave",
    "origins": [
     "pack_p5_untagged_znr_2026-10-30.json"
+   ],
+   "type": "Place"
+  },
+  {
+   "id": "place:naya",
+   "name": "Naya",
+   "origins": [
+    "pack_p5_alara_plane_profile_2026-10-30.json"
    ],
    "type": "Place"
   },
@@ -99548,6 +100181,7 @@
    "id": "plane:alara",
    "name": "Alara",
    "origins": [
+    "pack_p5_alara_plane_profile_2026-10-30.json",
     "pack_p5_untagged_planes_2026-10-30.json"
    ],
    "type": "Plane"
@@ -114902,6 +115536,7 @@
    "kind": "official_story_episode",
    "name": "Alara",
    "origins": [
+    "pack_p5_alara_plane_profile_2026-10-30.json",
     "pack_p5_untagged_planes_2026-10-30.json"
    ],
    "source_class": "WIZARDS_OFFICIAL",
@@ -115506,17 +116141,17 @@
  "problems": [],
  "schema": "multiverse-claim-graph/v1",
  "stats": {
-  "claim_edges_with_era": 1170,
+  "claim_edges_with_era": 1184,
   "claim_edges_with_in_universe_date": 33,
   "claims_by_status": {
    "ALTERNATE_CONTINUITY": 2,
-   "CANON_CONFIRMED": 887,
+   "CANON_CONFIRMED": 897,
    "CANON_DISPUTED": 8,
    "CANON_IMPLIED": 241,
    "OPEN_QUESTION": 3
   },
   "curated_bridges": 126,
-  "edges": 7971,
+  "edges": 8019,
   "exact_art_printings": 560,
   "literal_objects": 14,
   "node_types": {
@@ -115525,20 +116160,20 @@
    "CardRepresentation": 560,
    "CardTheme": 1,
    "Character": 482,
-   "Claim": 1141,
-   "Concept": 151,
+   "Claim": 1151,
+   "Concept": 155,
    "DeckProposal": 3,
-   "Event": 22,
-   "Faction": 126,
+   "Event": 23,
+   "Faction": 132,
    "Literal": 14,
-   "Object": 50,
-   "Place": 95,
+   "Object": 52,
+   "Place": 100,
    "Plane": 33,
    "Source": 605
   },
-  "nodes": 5044,
+  "nodes": 5072,
   "non_wizards_sources": 0,
-  "relations": 364,
+  "relations": 373,
   "wizards_official_sources": 605
  }
 }

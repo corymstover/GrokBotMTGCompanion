@@ -15,8 +15,10 @@ on:
       - 'scripts/build_plane_history_dossiers.py'
       - 'scripts/query_plane_history.py'
       - 'scripts/audit_lore_pack_c5.py'
+      - 'scripts/audit_lore_pack_alara.py'
       - 'scripts/build_claim_card_anchors.py'
       - 'data/lore_research/pack_c5_phyrexian_invasion_outcome_2026-10-30.json'
+      - 'data/lore_research/pack_p5_alara_plane_profile_2026-10-30.json'
       - 'data/lore_research/claim_card_anchors_2026-10-30.json'
       - 'data/lore_research/story_coverage_inventory_2026-10-30.json'
       - 'data/multiverse_graph/**'
@@ -32,6 +34,7 @@ on:
       - 'tests/test_phase5_chronology_coverage.py'
       - 'tests/test_plane_history_dossiers.py'
       - 'tests/test_lore_pack_c5_invasion_outcome.py'
+      - 'tests/test_lore_pack_alara.py'
       - 'tests/test_claim_card_anchors.py'
       - 'tests/test_multiverse_update_monitor.py'
       - 'data/maintenance/multiverse_update_monitor_baseline_2026-10-30.json'
@@ -53,8 +56,10 @@ on:
       - 'scripts/build_plane_history_dossiers.py'
       - 'scripts/query_plane_history.py'
       - 'scripts/audit_lore_pack_c5.py'
+      - 'scripts/audit_lore_pack_alara.py'
       - 'scripts/build_claim_card_anchors.py'
       - 'data/lore_research/pack_c5_phyrexian_invasion_outcome_2026-10-30.json'
+      - 'data/lore_research/pack_p5_alara_plane_profile_2026-10-30.json'
       - 'data/lore_research/claim_card_anchors_2026-10-30.json'
       - 'data/lore_research/story_coverage_inventory_2026-10-30.json'
       - 'data/multiverse_graph/**'
@@ -70,6 +75,7 @@ on:
       - 'tests/test_phase5_chronology_coverage.py'
       - 'tests/test_plane_history_dossiers.py'
       - 'tests/test_lore_pack_c5_invasion_outcome.py'
+      - 'tests/test_lore_pack_alara.py'
       - 'tests/test_claim_card_anchors.py'
       - 'tests/test_multiverse_update_monitor.py'
       - 'data/maintenance/multiverse_update_monitor_baseline_2026-10-30.json'
@@ -112,8 +118,10 @@ jobs:
           python3 -m unittest discover -s tests -p 'test_plane_history_dossiers.py' -q
           python3 scripts/build_story_coverage_inventory.py --check
           python3 scripts/audit_lore_pack_c5.py --check
+          python3 scripts/audit_lore_pack_alara.py --check
           python3 scripts/build_claim_card_anchors.py --check
           python3 -m unittest discover -s tests -p 'test_lore_pack_c5_invasion_outcome.py' -q
+          python3 -m unittest discover -s tests -p 'test_lore_pack_alara.py' -q
           python3 -m unittest discover -s tests -p 'test_claim_card_anchors.py' -q
           python3 -m unittest discover -s tests -p 'test_phase5_chronology_coverage.py' -q
           python3 scripts/audit_lore_pilot.py
