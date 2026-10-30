@@ -7,7 +7,7 @@
   "HYPOTHETICAL": "Creative or deckbuilding connection; never canon.",
   "OPEN_QUESTION": "Primary sources leave the matter unresolved; do not assert either way."
  },
- "content_sha256": "7b16367fb572f20ff4486dc3f059789a2b47428668a0ee506427e84c47af4682",
+ "content_sha256": "d12a8ffd9966c4e82e97f3df7b79ff275621aff76437a348993dbda127ab99a9",
  "edges": [
   {
    "artists": [
@@ -18833,7 +18833,7 @@
    "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:szadek",
    "grade": "CANON_CONFIRMED",
-   "relation": "leader_of",
+   "relation": "led",
    "sources": [
     "g_gtc1"
    ],
@@ -18881,7 +18881,7 @@
    "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:feather",
    "grade": "CANON_CONFIRMED",
-   "relation": "leader_of",
+   "relation": "led",
    "sources": [
     "g_gtc1"
    ],
@@ -47098,7 +47098,7 @@
     "claims": 13,
     "entities": 21,
     "file": "data/lore_research/pack_p5_untagged_guides_2012_2026-10-30.json",
-    "sha256": "bf385b02625dad19aa9902da7bcc406b7ea38bdf5e89e023360b5296d135d426",
+    "sha256": "4365f2e6067116393755641c4b4ef0c3ffd2d13294e5f81822167a43d7b4eefe",
     "sources": 6
    },
    {
@@ -67875,7 +67875,7 @@
    "origins": [
     "pack_p5_untagged_guides_2012_2026-10-30.json"
    ],
-   "predicate": "leader_of",
+   "predicate": "led",
    "stage": "return_to_ravnica_gatecrash_avacyn_restored_2012_2013",
    "type": "Claim"
   },
@@ -67919,7 +67919,7 @@
    "origins": [
     "pack_p5_untagged_guides_2012_2026-10-30.json"
    ],
-   "predicate": "leader_of",
+   "predicate": "led",
    "stage": "return_to_ravnica_gatecrash_avacyn_restored_2012_2013",
    "type": "Claim"
   },

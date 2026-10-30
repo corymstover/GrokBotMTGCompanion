@@ -217,6 +217,10 @@ def lore(term: str, relation: str | None = None, direction: str | None = None) -
     return env
 
 
+# Batch 11: leader questions query every stored leader relation together. Before this, "led" was asked first and
+# "leader_of" only on an empty result, so one "led" edge (e.g. a former guildmaster) could hide every "leader_of" edge.
+LEADER_UNION = "led|leader_of|leads"
+
 PATTERNS = [  # (regex, relation, direction from the named entity's point of view)
     (re.compile(r"who (?:is|are|was|were) (.+?)'s (?:brother|sister|sibling|twin)s?\??$", re.I), "sibling_of|twin_sibling_of", None),  # Batch 9: both, so a twin is never hidden by other siblings
     (re.compile(r"who (?:is|was) (.+?)'s (?:wife|husband|spouse)\??$", re.I), "spouse_of", None),
@@ -235,12 +239,12 @@ PATTERNS = [  # (regex, relation, direction from the named entity's point of vie
     (re.compile(r"who (?:is|was) (.+?)'s (?:father|parent|dad)\??$", re.I), "parent_of", "in"),
     (re.compile(r"who (?:are|were) (.+?)'s parents\??$", re.I), "parent_of", "in"),
     (re.compile(r"who (?:is|was) (.+?)'s (?:lover|partner|girlfriend|boyfriend|romantic partner)\??$", re.I), "romantically_involved_with", None),
-    (re.compile(r"who (?:leads|led|captains|captained|heads|headed|runs|ran) (?:the )?(.+?)\??$", re.I), "led", "in"),
+    (re.compile(r"who (?:leads|led|captains|captained|heads|headed|runs|ran) (?:the )?(.+?)\??$", re.I), LEADER_UNION, "in"),
     (re.compile(r"who won (?:the )?(.+?)\??$", re.I), "won", "in"),
     (re.compile(r"who (?:are|were|is|was) (.+?)'s (?:allies|ally|friends|friend)\??$", re.I), "allied_with|friend_of|childhood_friend_of", None),
     # Batch 8 Phase 7 rephrasings over the Batch 7/8 relations
-    (re.compile(r"who (?:is|was|are|were) the (?:leaders?|heads?|rulers?|captains?|governors?) of (?:the )?(.+?)\??$", re.I), "led", "in"),
-    (re.compile(r"who (?:governs|governed|rules|ruled) (?:over )?(?:the )?(.+?)\??$", re.I), "ruled", "in"),
+    (re.compile(r"who (?:is|was|are|were) the (?:leaders?|heads?|rulers?|captains?|governors?) of (?:the )?(.+?)\??$", re.I), LEADER_UNION, "in"),
+    (re.compile(r"who (?:governs|governed|rules|ruled) (?:over )?(?:the )?(.+?)\??$", re.I), "ruled|" + LEADER_UNION, "in"),
     (re.compile(r"who (?:mentored|taught|trained) (?:the )?(.+?)\??$", re.I), "mentored", "in"),
     (re.compile(r"who (?:is|was|are|were) (.+?)'s (?:mentors?|teachers?)\??$", re.I), "mentored", "in"),
     (re.compile(r"who (?:founded|established) (?:the )?(.+?)\??$", re.I), "founded", "in"),
@@ -426,7 +430,7 @@ def ask(text: str) -> dict:
                 rel, direction = alt, alt_dir
                 env = lore(m.group(1).strip(), rel, direction)
             env.update(route="ask->lore:" + rel, query=q)
-            if rel in LEADER_RELATIONS and env["confidence"] != "NOT_FOUND":
+            if set(rel.split("|")) & LEADER_RELATIONS and env["confidence"] != "NOT_FOUND":
                 lead = leadership(env)
                 env["result"]["leadership"] = lead
                 if len({x["node"] for x in lead["timeline"]}) > 1:
