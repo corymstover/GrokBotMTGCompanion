@@ -1,0 +1,170 @@
+{
+ "schema": "story-claim-pipeline-audit/v1",
+ "pack": "data/lore_research/pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json",
+ "pack_status": "PRELIMINARY_RESEARCH (not owner approved, not certified)",
+ "arc": "MID/VOW",
+ "claims": 12,
+ "entities": 13,
+ "sources": 8,
+ "grades": {
+  "CANON_CONFIRMED": 11,
+  "CANON_IMPLIED": 1
+ },
+ "quotes": 25,
+ "quotes_verbatim": 25,
+ "quote_rows": [
+  {
+   "claim": "MV001",
+   "source_id": "mid_guide",
+   "quote_sha256": "8484e767538e6e3a327718971961db47c2fe5dc58c92832f17ed520cbc7b3c75",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MV001",
+   "source_id": "mid_ep1",
+   "quote_sha256": "20e143026dbcace3afcb8e94b7fbfcb31a784c4ebac5d83765e7a1e120fbd228",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MV001",
+   "source_id": "mid_guide",
+   "quote_sha256": "eb82414f94b72d396c9ca3f9ff83329ad27af2eb405ecd20aa1889b2b77b93cf",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MV002",
+   "source_id": "mid_guide",
+   "quote_sha256": "d9c535300d1bc2e6707e78915ac9d8e792c51a1c045512b2448acc1a2040c33c",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MV002",
+   "source_id": "mid_guide",
+   "quote_sha256": "bcadeb29d007c722f9b47524dd4b8144fe8928eca730de5f6cbd52cde2695e41",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MV003",
+   "source_id": "mid_guide",
+   "quote_sha256": "705e901acd02f1e84111bf4ed23740f25b7e22541e0d88826450dab8fc9dc1fa",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MV003",
+   "source_id": "mid_guide",
+   "quote_sha256": "af4672185160c29b51cae9d6f587fa553e308cfabcb62fe0c082d7de825b2a8b",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MV004",
+   "source_id": "mid_ep5",
+   "quote_sha256": "de68bba0a332ec433adf10ab362b0c685ac930a7da6ebe72782b4264f8e2eecd",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MV004",
+   "source_id": "mid_ep5",
+   "quote_sha256": "d8bc049c8eb4dccba21a28abc02293954e09356c61bba3ca7053efa9db4ececf",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MV005",
+   "source_id": "vow_ep4",
+   "quote_sha256": "7861f3aeb38961a2c9647d987d71c7f453b9dcd754ef0b92c31d4503984de218",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MV005",
+   "source_id": "vow_ep1",
+   "quote_sha256": "6b37f32210d2334357b389c93f27f4fbc4affa0c200a8266f37282d091329183",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MV006",
+   "source_id": "vow_ep2",
+   "quote_sha256": "cdf9bc2b380e80b6b037dd32b31f2f65738c77320588fdf41f773a28f153c199",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MV006",
+   "source_id": "vow_ep3",
+   "quote_sha256": "80ee9354bb50b6e6bf9b6ee9dc72d80c3fa954bc8da237d3212ee9bec9c507be",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MV007",
+   "source_id": "vow_ep1",
+   "quote_sha256": "44a3c69ab3ad613e202b8a9c02b663e4acd7208acd1db2ead654563d32630453",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MV007",
+   "source_id": "vow_ep5",
+   "quote_sha256": "2147df3de4aab63a4b6bd45caf0aea4fe0a6a55b5c68efdb2ac92f64694d77c2",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MV008",
+   "source_id": "vow_ep5",
+   "quote_sha256": "d856c9faa6bd3724554c011fb6e2d78a9534585ed862015a3b643abb1a222db2",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MV008",
+   "source_id": "vow_ep5",
+   "quote_sha256": "71d878e672d915f36fe65e298ab77fc72c9ff0fe2472ca69ab3e8ee9c6ef8aaa",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MV009",
+   "source_id": "vow_ep5",
+   "quote_sha256": "0b6808cdf6ddd33a6a8fcd6a5341e9446fe66b2d27c306884dc1e27e7e687622",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MV010",
+   "source_id": "vow_ep5",
+   "quote_sha256": "d20d980149febec24c997d301fcb2140334810a5a98f31a3d3edb59ebfea41fe",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MV010",
+   "source_id": "vow_ep5",
+   "quote_sha256": "4463840a7973ab3435925b4b4acf97067bb03e9d77d93faa4f7a1543e6517a69",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MV011",
+   "source_id": "vow_ep5",
+   "quote_sha256": "5c7946bebbcc8d079144105737a93d3791cf7ceeef364646e8a47c17d4fd6120",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MV011",
+   "source_id": "vow_ep5",
+   "quote_sha256": "35791e3d223f6f49c9b32124bd6fd188a26644cbc93c2af262dfdf19a6f8dd11",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MV011",
+   "source_id": "vow_ep5",
+   "quote_sha256": "8db6a84d757058fb330f7bf7e84cf3e4740f895ac5ce1ac1ea1b7bf74bbc87b7",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MV012",
+   "source_id": "vow_ep5",
+   "quote_sha256": "1dbe9bbb4b80190a64d579f0b598f01d5b6a7fb8f4a85e88b0f5cd8f867469ca",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MV012",
+   "source_id": "vow_ep5",
+   "quote_sha256": "a4b921c3998d0ec636902793ef1f961316eb058e5faee6c1a8b2c7f526c6d0aa",
+   "status": "VERBATIM"
+  }
+ ],
+ "problems": [],
+ "note": "Verbatim-quote audit against cached official Wizards story text. Research evidence only: not owner approval, not certification, not an exhaustive reading.",
+ "content_sha256": "d13fb73021003c6875ad85359d1a75f92df1c16f25c2da27465612b2595455e9"
+}

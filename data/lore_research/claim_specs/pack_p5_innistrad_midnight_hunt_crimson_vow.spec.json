@@ -1,0 +1,315 @@
+{
+ "pack_id": "pack_p5_innistrad_midnight_hunt_crimson_vow",
+ "arc": "MID/VOW",
+ "event_stage": "innistrad_mid_vow_2021",
+ "scope": "Targeted Phase 5 extraction from the official Innistrad: Midnight Hunt and Innistrad: Crimson Vow Magic Story episodes (2021-09-02 to 2021-11-24) and the Planeswalker's Guide to Innistrad: Midnight Hunt. Narration and the Planeswalker's Guide are preferred over dialogue. Not an exhaustive reading.",
+ "pages": {
+  "mid_ep1": "episode-1-witch-woods-2021-09-02",
+  "mid_guide": "planeswalkers-guide-to-innistrad-midnight-hunt",
+  "mid_ep5": "episode-5-night-closes-round-2021-09-29",
+  "vow_ep1": "episode-1-tithes-and-invitations-2021-10-28",
+  "vow_ep2": "episode-2-dolorous-weight-pleasantries-2021-11-03",
+  "vow_ep3": "episode-3-forever-hold-your-peace-2021-11-10",
+  "vow_ep4": "episode-4-wedding-crashers-2021-11-17",
+  "vow_ep5": "episode-5-till-death-do-us-part-2021-11-24"
+ },
+ "entities": [
+  {
+   "id": "innistrad",
+   "type": "Plane",
+   "name": "Innistrad"
+  },
+  {
+   "id": "katilda",
+   "type": "Character",
+   "name": "Katilda"
+  },
+  {
+   "id": "dawnhart_coven",
+   "type": "Faction",
+   "name": "Dawnhart Coven"
+  },
+  {
+   "id": "celestus",
+   "type": "Object",
+   "name": "The Celestus"
+  },
+  {
+   "id": "moonsilver_key",
+   "type": "Object",
+   "name": "Moonsilver Key"
+  },
+  {
+   "id": "sungold_lock",
+   "type": "Object",
+   "name": "Sungold Lock"
+  },
+  {
+   "id": "tovolar",
+   "type": "Character",
+   "name": "Tovolar"
+  },
+  {
+   "id": "olivia_voldaren",
+   "type": "Character",
+   "name": "Olivia Voldaren"
+  },
+  {
+   "id": "edgar_markov",
+   "type": "Character",
+   "name": "Edgar Markov"
+  },
+  {
+   "id": "sorin_markov",
+   "type": "Character",
+   "name": "Sorin Markov"
+  },
+  {
+   "id": "teferi",
+   "type": "Character",
+   "name": "Teferi"
+  },
+  {
+   "id": "arlinn_kord",
+   "type": "Character",
+   "name": "Arlinn Kord"
+  },
+  {
+   "id": "innistrad_angels",
+   "type": "Faction",
+   "name": "Innistrad's angels"
+  }
+ ],
+ "claims": [
+  {
+   "id": "MV001",
+   "subject": "dawnhart_coven",
+   "predicate": "sought_to_activate",
+   "object": "celestus",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "mid_guide",
+     "quote": "Katilda and the Dawnhart Coven believe she can use a spell to restore the day-night balance, but it's going to require activating the Celestus."
+    },
+    {
+     "page": "mid_ep1",
+     "quote": "\"Together, we can draw on our collective strength beneath the Celestus and, through it, restore the balance.\""
+    },
+    {
+     "page": "mid_guide",
+     "quote": "The Dawnhart Coven believes the festival is crucial to performing a ritual that would restore the balance of day and night on Innistrad."
+    }
+   ],
+   "summary": "Katilda and the Dawnhart Coven plan a Harvesttide ritual at the Celestus to restore Innistrad's day-night balance."
+  },
+  {
+   "id": "MV002",
+   "subject": "moonsilver_key",
+   "predicate": "required_to_activate",
+   "object": "celestus; sungold_lock",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "mid_guide",
+     "quote": "To do that, a mechanism called the Sungold Lock in the center of the Celestus needs to be joined with an enchanted, blessed-silver item called the Moonsilver Key."
+    },
+    {
+     "page": "mid_guide",
+     "quote": "Unfortunately, the Moonsilver Key has been lost for generations . . ."
+    }
+   ],
+   "summary": "Activating the Celestus requires joining the Moonsilver Key with the Sungold Lock at its center; the key had been lost for generations."
+  },
+  {
+   "id": "MV003",
+   "subject": "tovolar",
+   "predicate": "opposed",
+   "object": "dawnhart_coven",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "mid_guide",
+     "quote": "Driven by a fierce pride in werewolf-kind, he seeks to unify all the howlpacks under his rule."
+    },
+    {
+     "page": "mid_guide",
+     "quote": "Once he has a powerful pack behind him, he'll stop the Dawnhart Coven and anyone else who wants to bring back the sun."
+    }
+   ],
+   "summary": "The werewolf Tovolar seeks to unify the howlpacks and to stop the Dawnhart Coven from bringing back the sun."
+  },
+  {
+   "id": "MV004",
+   "subject": "olivia_voldaren",
+   "predicate": "abducted",
+   "object": "katilda",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "mid_ep5",
+     "quote": "Within that streak: Olivia Voldaren."
+    },
+    {
+     "page": "mid_ep5",
+     "quote": "Katilda's body hangs limp in her arms."
+    }
+   ],
+   "summary": "Olivia Voldaren interrupts the Harvesttide ritual at the Celestus and seizes Katilda.",
+   "event_stage": "mid_harvesttide_2021"
+  },
+  {
+   "id": "MV005",
+   "subject": "olivia_voldaren",
+   "predicate": "seized_control_of",
+   "object": "moonsilver_key",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "vow_ep4",
+     "quote": "There's an answer, of course—because Olivia stole the key—but Arlinn's not inclined to reason with her just now."
+    },
+    {
+     "page": "vow_ep1",
+     "quote": "Besides, it was Olivia Voldaren who stole the Moonsilver Key."
+    }
+   ],
+   "summary": "Olivia Voldaren steals the Moonsilver Key after the interrupted ritual."
+  },
+  {
+   "id": "MV006",
+   "subject": "olivia_voldaren",
+   "predicate": "spouse_of",
+   "object": "edgar_markov",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "vow_ep2",
+     "quote": "Olivia announces, \"I present to you my handsome, perfect betrothed: Lord Edgar Markov.\""
+    },
+    {
+     "page": "vow_ep3",
+     "quote": "The Lady of our most illustrious house, Olivia Voldaren, has pledged her heart to Edgar Markov, and he, his undying affections to her."
+    }
+   ],
+   "summary": "Olivia Voldaren announces Edgar Markov as her betrothed, and the two are wed at Voldaren Estate.",
+   "limitation": "Recorded with the closest existing relation, spouse_of. The quotes show the betrothal and wedding vows; the episodes end with the wedding disrupted, so whether the marriage stands afterwards is not graded."
+  },
+  {
+   "id": "MV007",
+   "subject": "edgar_markov",
+   "predicate": "related_to",
+   "object": "sorin_markov",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "vow_ep1",
+     "quote": "Sorin, young then, approached his grandfather with his discovery."
+    },
+    {
+     "page": "vow_ep5",
+     "quote": "Of all the wounds Sorin bore, Edgar had inflicted the first, and still, Sorin had loved him for thousands of years."
+    }
+   ],
+   "summary": "Edgar Markov is Sorin Markov's grandfather."
+  },
+  {
+   "id": "MV008",
+   "subject": "sorin_markov",
+   "predicate": "defeated",
+   "object": "edgar_markov",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "vow_ep5",
+     "quote": "In the end, it is Edgar who falls from the rumble first, scrambling backward, his sword clattering to the ground like a toy."
+    },
+    {
+     "page": "vow_ep5",
+     "quote": "Sorin scowls. \"Go. Get out of my sight.\""
+    }
+   ],
+   "summary": "At the wedding, Sorin beats Edgar in a sword fight but spares him and lets him flee."
+  },
+  {
+   "id": "MV009",
+   "subject": "olivia_voldaren",
+   "predicate": "sought_control_of",
+   "object": "innistrad_angels",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "vow_ep5",
+     "quote": "But that's nothing compared to what'll happen if Olivia gains control over all of Innistrad's angels."
+    }
+   ],
+   "summary": "Olivia's use of the Moonsilver Key threatened to give her control over Innistrad's angels.",
+   "limitation": "Stated from Arlinn's point of view as the stakes of the chase; Olivia's own plan is not narrated in that sentence."
+  },
+  {
+   "id": "MV010",
+   "subject": "olivia_voldaren",
+   "predicate": "gave_up",
+   "object": "moonsilver_key",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "vow_ep5",
+     "quote": "But she drops the key. It clatters, without much ceremony, against the floor."
+    },
+    {
+     "page": "vow_ep5",
+     "quote": "Olivia's already taken off through one of the windows. Edgar soon follows."
+    }
+   ],
+   "summary": "Cornered by Arlinn and the wolves, Olivia drops the Moonsilver Key and flees with Edgar."
+  },
+  {
+   "id": "MV011",
+   "subject": "dawnhart_coven",
+   "predicate": "restored",
+   "object": "innistrad",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "vow_ep5",
+     "quote": "Raised by the joined magic of the Dawnhart Coven, the Moonsilver Key floats toward the Sungold Lock."
+    },
+    {
+     "page": "vow_ep5",
+     "quote": "A blacksmith's daughter stands beneath an ancient device and watches day return to Innistrad."
+    },
+    {
+     "page": "vow_ep5",
+     "quote": "Together they watch the first sunrise over Innistrad in months."
+    }
+   ],
+   "summary": "The coven completes the Celestus ritual with the recovered key, and day returns to Innistrad: the first sunrise in months.",
+   "event_stage": "vow_aftermath_2021"
+  },
+  {
+   "id": "MV012",
+   "subject": "teferi",
+   "predicate": "received",
+   "object": "moonsilver_key",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "vow_ep5",
+     "quote": "In Teferi's hand is the Moonsilver Key."
+    },
+    {
+     "page": "vow_ep5",
+     "quote": "\"She's been kind enough to lend me the key. Moonsilver has a number of fascinating properties, particularly for temporal magic.\""
+    }
+   ],
+   "summary": "Katilda lends Teferi the Moonsilver Key after the ritual, for its usefulness to temporal magic.",
+   "event_stage": "vow_aftermath_2021"
+  }
+ ],
+ "remaining": [
+  "MID episodes 2-4 (Tovolar's pack, House Betzold, the Harvesttide festival) are only lightly used",
+  "Chandra and Adeline, Kaya's ghost work and Sorin's alchemy backstory in VOW Episode 1 are not modelled",
+  "Tovolar's turn to helping Arlinn in VOW Episode 5 is not graded"
+ ]
+}
