@@ -179,20 +179,26 @@
     {
       "id": "plane:bloomburrow",
       "name": "Bloomburrow",
-      "claim_edges": 2,
-      "distinct_claims": 2,
+      "claim_edges": 6,
+      "distinct_claims": 6,
       "claims": [
         "BL011",
-        "BL018"
+        "BL018",
+        "BLH001",
+        "BLH005",
+        "BLH009",
+        "BLH012"
       ],
       "official_source_ids": [
         "blb_ep4",
-        "blb_ep5"
+        "blb_ep5",
+        "blb_guide1"
       ],
       "grades_present": [
-        "CANON_CONFIRMED"
+        "CANON_CONFIRMED",
+        "CANON_IMPLIED"
       ],
-      "research_priority": "THIN_DIRECT_EVIDENCE",
+      "research_priority": "EXPAND_NARRATIVE_DEPTH",
       "limitation": "Direct graph edges only; not the complete plane history or a canon completeness score."
     },
     {
@@ -228,9 +234,14 @@
     {
       "id": "plane:duskmourn",
       "name": "Duskmourn",
-      "claim_edges": 2,
-      "distinct_claims": 2,
+      "claim_edges": 7,
+      "distinct_claims": 7,
       "claims": [
+        "DH001",
+        "DH002",
+        "DH003",
+        "DH008",
+        "DH012",
         "DS002",
         "DS101"
       ],
@@ -242,7 +253,7 @@
         "CANON_CONFIRMED",
         "CANON_IMPLIED"
       ],
-      "research_priority": "THIN_DIRECT_EVIDENCE",
+      "research_priority": "EXPAND_NARRATIVE_DEPTH",
       "limitation": "Direct graph edges only; not the complete plane history or a canon completeness score."
     },
     {

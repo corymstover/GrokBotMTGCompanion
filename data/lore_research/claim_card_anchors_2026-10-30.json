@@ -34767,6 +34767,86 @@
    "card": "Venser, the Sojourner",
    "oracle_id": "a8bf8ff8-d924-4fd2-b5ed-05b38f55325a",
    "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "DH004",
+   "pack": "pack_p5_duskmourn_origin_2026-10-30.json",
+   "participant": "marina_vendrell",
+   "card": "Marina Vendrell",
+   "oracle_id": "5aafc6c3-14f2-45b1-bd5b-c27760d791dd",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "DH004",
+   "pack": "pack_p5_duskmourn_origin_2026-10-30.json",
+   "participant": "valgavoth",
+   "card": "Valgavoth, Harrower of Souls",
+   "oracle_id": "5401439c-4068-4490-8d53-8ffd0026dd7d",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "DH004",
+   "pack": "pack_p5_duskmourn_origin_2026-10-30.json",
+   "participant": "valgavoth",
+   "card": "Valgavoth, Terror Eater",
+   "oracle_id": "cae3ec72-436d-4086-9dcb-17b3d92ad5c4",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "DH005",
+   "pack": "pack_p5_duskmourn_origin_2026-10-30.json",
+   "participant": "marina_vendrell",
+   "card": "Marina Vendrell",
+   "oracle_id": "5aafc6c3-14f2-45b1-bd5b-c27760d791dd",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "DH007",
+   "pack": "pack_p5_duskmourn_origin_2026-10-30.json",
+   "participant": "valgavoth",
+   "card": "Valgavoth, Harrower of Souls",
+   "oracle_id": "5401439c-4068-4490-8d53-8ffd0026dd7d",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "DH007",
+   "pack": "pack_p5_duskmourn_origin_2026-10-30.json",
+   "participant": "valgavoth",
+   "card": "Valgavoth, Terror Eater",
+   "oracle_id": "cae3ec72-436d-4086-9dcb-17b3d92ad5c4",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "DH009",
+   "pack": "pack_p5_duskmourn_origin_2026-10-30.json",
+   "participant": "valgavoth",
+   "card": "Valgavoth, Harrower of Souls",
+   "oracle_id": "5401439c-4068-4490-8d53-8ffd0026dd7d",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "DH009",
+   "pack": "pack_p5_duskmourn_origin_2026-10-30.json",
+   "participant": "valgavoth",
+   "card": "Valgavoth, Terror Eater",
+   "oracle_id": "cae3ec72-436d-4086-9dcb-17b3d92ad5c4",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "DH010",
+   "pack": "pack_p5_duskmourn_origin_2026-10-30.json",
+   "participant": "valgavoth",
+   "card": "Valgavoth, Harrower of Souls",
+   "oracle_id": "5401439c-4068-4490-8d53-8ffd0026dd7d",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "DH010",
+   "pack": "pack_p5_duskmourn_origin_2026-10-30.json",
+   "participant": "valgavoth",
+   "card": "Valgavoth, Terror Eater",
+   "oracle_id": "cae3ec72-436d-4086-9dcb-17b3d92ad5c4",
+   "tier": "NAMED_PARTICIPANT"
   }
  ],
  "by_pack": {
@@ -34882,6 +34962,13 @@
    "PRINTED_IN_STORY_SET": 8,
    "NAMED_PARTICIPANT": 18
   },
+  "pack_p5_bloomburrow_valley_history_2026-10-30.json": {
+   "claims": 13,
+   "claims_anchored": 0,
+   "ART_IN_CITED_SOURCE": 0,
+   "PRINTED_IN_STORY_SET": 0,
+   "NAMED_PARTICIPANT": 0
+  },
   "pack_p5_brothers_war_2026-10-30.json": {
    "claims": 9,
    "claims_anchored": 9,
@@ -34916,6 +35003,13 @@
    "ART_IN_CITED_SOURCE": 0,
    "PRINTED_IN_STORY_SET": 11,
    "NAMED_PARTICIPANT": 25
+  },
+  "pack_p5_duskmourn_origin_2026-10-30.json": {
+   "claims": 12,
+   "claims_anchored": 5,
+   "ART_IN_CITED_SOURCE": 0,
+   "PRINTED_IN_STORY_SET": 0,
+   "NAMED_PARTICIPANT": 10
   },
   "pack_p5_edge_of_eternities_2026-10-30.json": {
    "claims": 30,
@@ -35269,12 +35363,12 @@
   }
  },
  "counts": {
-  "claims": 1181,
-  "claims_anchored": 961,
-  "anchors": 4078,
+  "claims": 1206,
+  "claims_anchored": 966,
+  "anchors": 4088,
   "ART_IN_CITED_SOURCE": 123,
   "PRINTED_IN_STORY_SET": 546,
-  "NAMED_PARTICIPANT": 3409
+  "NAMED_PARTICIPANT": 3419
  },
- "content_sha256": "e39b6054ea2a5ef879fd7377e527f722c83872bf3ffbe2307210b9c69dbd7329"
+ "content_sha256": "9b713a6796775ebb4ca7472311289422fd0722e20ccc06a100df04fadef262de"
 }

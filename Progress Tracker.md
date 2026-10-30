@@ -14,19 +14,19 @@ schema: 2
 <!-- MULTIVERSE-CURRENT:START -->
 ## MTG Multiverse Companion — current engineering checkpoint (2026-10-30)
 
-**Live authority:** [Master Workflow v2.54](MTG_MULTIVERSE_MASTER_WORKFLOW.md), the current
+**Live authority:** [Master Workflow v2.55](MTG_MULTIVERSE_MASTER_WORKFLOW.md), the current
 graph and dated recount. The older cycle-36/October-15 metrics **below this section are historical**;
 they are not the active Phase 1–8 completion counters.
 
 | Measure | Verified committed state | Important limitation |
 | --- | ---: | --- |
-| Master Workflow checklist | **76/132 checked; 56 open** | Engineering verification, never owner approval. |
+| Master Workflow checklist | **78/134 checked; 56 open** | Engineering verification, never owner approval. |
 | Priority card enrichments | **5362/5,362** | Enrichment does not imply every card has a sourced story. |
 | Source-page inventory | **576 cited + 50 reviewed = 626 accounted for** | Current inventoried pages only, not all fiction ever published. |
-| Cited lore claims | **1181** | Live graph/inventory concordance; claim packs remain preliminary research. |
-| Cited graph | **5128 nodes / 8153 edges** | Unresolved orphan/variant and chronology work remains. |
+| Cited lore claims | **1206** | Live graph/inventory concordance; claim packs remain preliminary research. |
+| Cited graph | **5176 nodes / 8255 edges** | Unresolved orphan/variant and chronology work remains. |
 | Exact printing-specific representations | **560** | Frozen snapshot + official art-file label evidence, **not** canon scene depiction. |
-| In-universe dated claim edges | **35** | Most graph edges lack a verified in-world date. |
+| In-universe dated claim edges | **36** | Most graph edges lack a verified in-world date. |
 | Parked graph-built Commander pilots | **3 unapproved** | Preserved, not a knowledge-foundation release gate. |
 | Foundation-release readiness | **NOT_RELEASE_READY** | Research, owner foundation review, external checks and engineering remain. |
 | Official source watch | **Weekly review-only workflow** | Story index, Scryfall metadata and rules PDF candidates; not automatic lore/rules updates. |

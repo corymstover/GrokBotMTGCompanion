@@ -18,6 +18,7 @@ on:
       - 'scripts/audit_lore_pack_alara.py'
       - 'scripts/audit_lore_pack_theros_profile.py'
       - 'scripts/audit_lore_plane_history_batch.py'
+      - 'scripts/audit_lore_bloomburrow_duskmourn.py'
       - 'scripts/build_in_universe_dates.py'
       - 'scripts/build_claim_card_anchors.py'
       - 'data/lore_research/pack_c5_phyrexian_invasion_outcome_2026-10-30.json'
@@ -25,6 +26,8 @@ on:
       - 'data/lore_research/pack_p5_theros_plane_profile_2026-10-30.json'
       - 'data/lore_research/pack_p5_kamigawa_history_profile_2026-10-30.json'
       - 'data/lore_research/pack_p5_new_phyrexia_historical_profile_2026-10-30.json'
+      - 'data/lore_research/pack_p5_bloomburrow_valley_history_2026-10-30.json'
+      - 'data/lore_research/pack_p5_duskmourn_origin_2026-10-30.json'
       - 'data/lore_research/in_universe_dates_2026-10-30.json'
       - 'data/lore_research/claim_card_anchors_2026-10-30.json'
       - 'data/lore_research/story_coverage_inventory_2026-10-30.json'
@@ -44,6 +47,7 @@ on:
       - 'tests/test_lore_pack_alara.py'
       - 'tests/test_lore_pack_theros_profile.py'
       - 'tests/test_lore_plane_history_batch.py'
+      - 'tests/test_lore_bloomburrow_duskmourn.py'
       - 'tests/test_claim_card_anchors.py'
       - 'tests/test_multiverse_update_monitor.py'
       - 'data/maintenance/multiverse_update_monitor_baseline_2026-10-30.json'
@@ -68,6 +72,7 @@ on:
       - 'scripts/audit_lore_pack_alara.py'
       - 'scripts/audit_lore_pack_theros_profile.py'
       - 'scripts/audit_lore_plane_history_batch.py'
+      - 'scripts/audit_lore_bloomburrow_duskmourn.py'
       - 'scripts/build_in_universe_dates.py'
       - 'scripts/build_claim_card_anchors.py'
       - 'data/lore_research/pack_c5_phyrexian_invasion_outcome_2026-10-30.json'
@@ -75,6 +80,8 @@ on:
       - 'data/lore_research/pack_p5_theros_plane_profile_2026-10-30.json'
       - 'data/lore_research/pack_p5_kamigawa_history_profile_2026-10-30.json'
       - 'data/lore_research/pack_p5_new_phyrexia_historical_profile_2026-10-30.json'
+      - 'data/lore_research/pack_p5_bloomburrow_valley_history_2026-10-30.json'
+      - 'data/lore_research/pack_p5_duskmourn_origin_2026-10-30.json'
       - 'data/lore_research/in_universe_dates_2026-10-30.json'
       - 'data/lore_research/claim_card_anchors_2026-10-30.json'
       - 'data/lore_research/story_coverage_inventory_2026-10-30.json'
@@ -94,6 +101,7 @@ on:
       - 'tests/test_lore_pack_alara.py'
       - 'tests/test_lore_pack_theros_profile.py'
       - 'tests/test_lore_plane_history_batch.py'
+      - 'tests/test_lore_bloomburrow_duskmourn.py'
       - 'tests/test_claim_card_anchors.py'
       - 'tests/test_multiverse_update_monitor.py'
       - 'data/maintenance/multiverse_update_monitor_baseline_2026-10-30.json'
@@ -139,12 +147,14 @@ jobs:
           python3 scripts/audit_lore_pack_alara.py --check
           python3 scripts/audit_lore_pack_theros_profile.py --check
           python3 scripts/audit_lore_plane_history_batch.py --check
+          python3 scripts/audit_lore_bloomburrow_duskmourn.py --check
           python3 scripts/build_in_universe_dates.py --check
           python3 scripts/build_claim_card_anchors.py --check
           python3 -m unittest discover -s tests -p 'test_lore_pack_c5_invasion_outcome.py' -q
           python3 -m unittest discover -s tests -p 'test_lore_pack_alara.py' -q
           python3 -m unittest discover -s tests -p 'test_lore_pack_theros_profile.py' -q
           python3 -m unittest discover -s tests -p 'test_lore_plane_history_batch.py' -q
+          python3 -m unittest discover -s tests -p 'test_lore_bloomburrow_duskmourn.py' -q
           python3 -m unittest discover -s tests -p 'test_claim_card_anchors.py' -q
           python3 -m unittest discover -s tests -p 'test_phase5_chronology_coverage.py' -q
           python3 scripts/audit_lore_pilot.py

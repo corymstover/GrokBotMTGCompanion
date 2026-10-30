@@ -73,7 +73,9 @@
    "data/lore_research/pack_p5_alara_plane_profile_2026-10-30.json",
    "data/lore_research/pack_p5_theros_plane_profile_2026-10-30.json",
    "data/lore_research/pack_p5_kamigawa_history_profile_2026-10-30.json",
-   "data/lore_research/pack_p5_new_phyrexia_historical_profile_2026-10-30.json"
+   "data/lore_research/pack_p5_new_phyrexia_historical_profile_2026-10-30.json",
+   "data/lore_research/pack_p5_bloomburrow_valley_history_2026-10-30.json",
+   "data/lore_research/pack_p5_duskmourn_origin_2026-10-30.json"
   ],
   "reviewed_no_claim": "data/lore_research/reviewed_no_claim.json"
  },
@@ -87,7 +89,7 @@
   "arcs_all_cited": 31,
   "reviewed_no_claim_pages": 50,
   "arcs_all_cited_or_reviewed": 33,
-  "claims": 1181,
+  "claims": 1206,
   "pack_urls_outside_inventory": 12
  },
  "claims_per_pack": {
@@ -161,7 +163,9 @@
   "pack_p5_alara_plane_profile_2026-10-30.json": 10,
   "pack_p5_theros_plane_profile_2026-10-30.json": 10,
   "pack_p5_kamigawa_history_profile_2026-10-30.json": 12,
-  "pack_p5_new_phyrexia_historical_profile_2026-10-30.json": 8
+  "pack_p5_new_phyrexia_historical_profile_2026-10-30.json": 8,
+  "pack_p5_bloomburrow_valley_history_2026-10-30.json": 13,
+  "pack_p5_duskmourn_origin_2026-10-30.json": 12
  },
  "arcs": [
   {
@@ -207,7 +211,8 @@
     "story": 5
    },
    "citing_packs": [
-    "pack_p5_bloomburrow_2026-10-30.json"
+    "pack_p5_bloomburrow_2026-10-30.json",
+    "pack_p5_bloomburrow_valley_history_2026-10-30.json"
    ],
    "status": "ALL_PAGES_CITED",
    "uncited_urls": [],
@@ -295,7 +300,8 @@
    },
    "citing_packs": [
     "pack_p5_dsk_side_stories_2026-10-30.json",
-    "pack_p5_duskmourn_2026-10-30.json"
+    "pack_p5_duskmourn_2026-10-30.json",
+    "pack_p5_duskmourn_origin_2026-10-30.json"
    ],
    "status": "ALL_PAGES_CITED",
    "uncited_urls": [],
@@ -819,5 +825,5 @@
    "unreviewed_urls": []
   }
  ],
- "sha256": "49ad1f6aac2eee069673d0fde0e8b857ac1b5d21f7dbb15b14e95d888c5577f0"
+ "sha256": "351b3db905f8407b470a85a73ab653bc5dcfcf0d575d8a0790b46659046b3ba3"
 }

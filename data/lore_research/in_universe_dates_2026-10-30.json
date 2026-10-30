@@ -2,10 +2,10 @@
  "schema": "in_universe_dates.v1",
  "status": "PRELIMINARY_RESEARCH; verbatim time phrases from cited quotes only; no calendar years inferred; not owner approved",
  "basis": "value is the exact phrase in the quote; RELATIVE_SPAN is relative to the cited story's present, not to any fixed calendar",
- "count": 34,
+ "count": 35,
  "by_kind": {
   "AR_YEAR": 0,
-  "RELATIVE_SPAN": 34
+  "RELATIVE_SPAN": 35
  },
  "dates": [
   {
@@ -313,6 +313,15 @@
    "also_in_quote": [],
    "quote": "1,200 years ago, Konda, Lord of Eiganjo, captured and imprisoned a part of O-Kagachi, the mightiest kami of Kamigawa.",
    "source_id": "neo_guide"
+  },
+  {
+   "claim": "BLH005",
+   "pack": "pack_p5_bloomburrow_valley_history_2026-10-30.json",
+   "value": "two generations",
+   "kind": "RELATIVE_SPAN",
+   "also_in_quote": [],
+   "quote": "For two generations, battles raged throughout Valley.",
+   "source_id": "blb_guide1"
   }
  ]
 }
