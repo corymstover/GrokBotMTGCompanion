@@ -1,15 +1,17 @@
 {
-  "schema": "plane-history-dossiers/v1",
+  "schema": "plane-history-dossiers/v2",
   "as_of": "2026-10-30",
   "status": "PRELIMINARY_RESEARCH_NOT_OWNER_APPROVED",
   "source_graph_sha256": "4dc7a9437d362cf983a49abb360c95d13decc3ae15678232103953cf2cc7b51f",
-  "scope": "Only named planes presently registered as graph Plane nodes and directly incident claim edges.",
+  "scope": "Named graph Plane nodes, direct incident claims, and an independently labeled curated subset of already cited on-plane story claims.",
   "chronology_policy": "Never infer ordering from article date, release date or an era_label; explicit dated quotes are retained verbatim as quoted metadata only.",
   "counts": {
     "registered_planes": 33,
     "planes_with_direct_claims": 33,
     "direct_claim_edges": 183,
     "thin_planes_fewer_than_five_claims": 16,
+    "planes_with_curated_context": 4,
+    "distinct_contextual_claims": 53,
     "claim_edge_grades": {
       "CANON_CONFIRMED": 155,
       "CANON_DISPUTED": 2,
@@ -17,11 +19,20 @@
       "OPEN_QUESTION": 1
     }
   },
+  "curated_context_source": "data/lore_research/plane_context_claims_spec_2026-10-30.json",
+  "official_geographic_bridges": [
+    {
+      "plane_id": "plane:arcavios",
+      "source_url": "https://magic.wizards.com/en/news/making-magic/the-rabiah-scale-part-3",
+      "quote": "Arcavios is the plane where Strixhaven University is located.",
+      "quote_sha256": "732a4387d648b8068f57a8f19d34fc557f86c7f257bbf410730baa7fdc5b4703"
+    }
+  ],
   "planes": [
     {
       "id": "plane:alara",
       "plane": "Alara",
-      "evidence_status": "PARTIAL_DIRECT_GRAPH_CLAIMS_ONLY",
+      "evidence_status": "PARTIAL_DIRECT_AND_SEPARATELY_CURATED_CONTEXT",
       "distinct_claims": 5,
       "facts": [
         {
@@ -241,8 +252,10 @@
           ]
         }
       ],
+      "contextual_claims": [],
       "known_gaps": [
         "Direct claims are not an exhaustive history of this plane.",
+        "Curated same-plane story context is not a direct claim-to-plane edge and does not prove the geography of every participant in an entire arc.",
         "Era labels and publication dates are not a verified sequence or AR calendar year.",
         "Absence of a cited event or person is not evidence it never occurred or appeared."
       ]
@@ -250,7 +263,7 @@
     {
       "id": "plane:amonkhet",
       "plane": "Amonkhet",
-      "evidence_status": "PARTIAL_DIRECT_GRAPH_CLAIMS_ONLY",
+      "evidence_status": "PARTIAL_DIRECT_AND_SEPARATELY_CURATED_CONTEXT",
       "distinct_claims": 16,
       "facts": [
         {
@@ -647,8 +660,10 @@
           ]
         }
       ],
+      "contextual_claims": [],
       "known_gaps": [
         "Direct claims are not an exhaustive history of this plane.",
+        "Curated same-plane story context is not a direct claim-to-plane edge and does not prove the geography of every participant in an entire arc.",
         "Era labels and publication dates are not a verified sequence or AR calendar year.",
         "Absence of a cited event or person is not evidence it never occurred or appeared."
       ]
@@ -656,7 +671,7 @@
     {
       "id": "plane:arcavios",
       "plane": "Arcavios",
-      "evidence_status": "PARTIAL_DIRECT_GRAPH_CLAIMS_ONLY",
+      "evidence_status": "PARTIAL_DIRECT_AND_SEPARATELY_CURATED_CONTEXT",
       "distinct_claims": 2,
       "facts": [
         {
@@ -708,8 +723,490 @@
           ]
         }
       ],
+      "contextual_claims": [
+        {
+          "claim_id": "SX001",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Extus is the leader of the Oriq.",
+          "limitation": "Two adjacent narration sentences: the second calls the man the first names the leader of the Oriq.",
+          "source_pack": "data/lore_research/pack_p5_strixhaven_2026-10-30.json",
+          "basis": "CURATED_ON_PLANE_STORY_CONTEXT_NOT_DIRECT_GRAPH_EDGE",
+          "scope_note": "The official Strixhaven story cycle occurs at its school on Arcavios. These sixteen specific school, Oriq and student claims are listed only as on-plane story context. SX006 (the Kenrith twins' family fact), SX009 (Lukka and Mila's flight) and SX012 (Zimone's friends) are excluded because they do not by themselves establish Arcavios history. The location bridge is a Wizards designer statement, not an AR-date anchor.",
+          "era_label_not_order": "strixhaven_stx_2021",
+          "relations": [
+            {
+              "subject": "Extus",
+              "relation": "led",
+              "object": "The Oriq"
+            }
+          ],
+          "source_evidence": [
+            {
+              "source_id": "stx_ep5",
+              "title": "Episode 5: Final Exam",
+              "url": "https://magic.wizards.com/en/news/magic-story/episode-5-final-exam-2021-04-21",
+              "quote": "A fresh wave of rage and grief flooded her as she turned to Extus.",
+              "quote_sha256": "6dc2402877545f53852392c4a2f71d8fee1cd230b82c99c528c00ad7add68902"
+            },
+            {
+              "source_id": "stx_ep5",
+              "title": "Episode 5: Final Exam",
+              "url": "https://magic.wizards.com/en/news/magic-story/episode-5-final-exam-2021-04-21",
+              "quote": "The leader of the Oriq stood before the twitching Blood Avatar, watching her.",
+              "quote_sha256": "8e16a0122f28291584e2152f920ad2c7949f1af8d838f2d9b771fc06e73c08dd"
+            }
+          ]
+        },
+        {
+          "claim_id": "SX002",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Extus summoned the Blood Avatar from the Snarl under the Biblioplex.",
+          "limitation": "",
+          "source_pack": "data/lore_research/pack_p5_strixhaven_2026-10-30.json",
+          "basis": "CURATED_ON_PLANE_STORY_CONTEXT_NOT_DIRECT_GRAPH_EDGE",
+          "scope_note": "The official Strixhaven story cycle occurs at its school on Arcavios. These sixteen specific school, Oriq and student claims are listed only as on-plane story context. SX006 (the Kenrith twins' family fact), SX009 (Lukka and Mila's flight) and SX012 (Zimone's friends) are excluded because they do not by themselves establish Arcavios history. The location bridge is a Wizards designer statement, not an AR-date anchor.",
+          "era_label_not_order": "stx_final_exam_2021",
+          "relations": [
+            {
+              "subject": "Extus",
+              "relation": "summoned",
+              "object": "Blood Avatar"
+            }
+          ],
+          "source_evidence": [
+            {
+              "source_id": "stx_ep5",
+              "title": "Episode 5: Final Exam",
+              "url": "https://magic.wizards.com/en/news/magic-story/episode-5-final-exam-2021-04-21",
+              "quote": "Dragging herself back against the wall, Rowan's gaze swung between Extus, the creature he'd summoned, and Will, who now lay far too still on the ground.",
+              "quote_sha256": "28d5909eea6482d2ab473c0c663564778a8df813f0fdaf4a182908ec2260c5b4"
+            },
+            {
+              "source_id": "stx_ep4",
+              "title": "Episode 4: Put to the Test",
+              "url": "https://magic.wizards.com/en/news/magic-story/episode-4-put-test-2021-04-14",
+              "quote": "Under the Snarl, Extus spread his arms wide.",
+              "quote_sha256": "e053aacba17c4e2c38158ddd649edabfc2f05bbad600cef17e26cfd429309660"
+            }
+          ]
+        },
+        {
+          "claim_id": "SX003",
+          "grade": "CANON_IMPLIED",
+          "statement": "The Blood Avatar crushed Extus.",
+          "limitation": "The text implies Extus died but does not say so outright.",
+          "source_pack": "data/lore_research/pack_p5_strixhaven_2026-10-30.json",
+          "basis": "CURATED_ON_PLANE_STORY_CONTEXT_NOT_DIRECT_GRAPH_EDGE",
+          "scope_note": "The official Strixhaven story cycle occurs at its school on Arcavios. These sixteen specific school, Oriq and student claims are listed only as on-plane story context. SX006 (the Kenrith twins' family fact), SX009 (Lukka and Mila's flight) and SX012 (Zimone's friends) are excluded because they do not by themselves establish Arcavios history. The location bridge is a Wizards designer statement, not an AR-date anchor.",
+          "era_label_not_order": "stx_final_exam_2021",
+          "relations": [
+            {
+              "subject": "Blood Avatar",
+              "relation": "killed",
+              "object": "Extus"
+            }
+          ],
+          "source_evidence": [
+            {
+              "source_id": "stx_ep5",
+              "title": "Episode 5: Final Exam",
+              "url": "https://magic.wizards.com/en/news/magic-story/episode-5-final-exam-2021-04-21",
+              "quote": "He was cut off as one of the massive hands of the Blood Avatar closed around him with an awful crunching sound.",
+              "quote_sha256": "19ab9006ba31b1e6a0e5367b797f608abdb78e847b84d9baf2f4573c1dcd12b7"
+            },
+            {
+              "source_id": "stx_ep5",
+              "title": "Episode 5: Final Exam",
+              "url": "https://magic.wizards.com/en/news/magic-story/episode-5-final-exam-2021-04-21",
+              "quote": "After that, Extus was silent.",
+              "quote_sha256": "706da6675d91c5fac25e901bda0c0cb0c771601f3e766814dc93bb01a8ecacbf"
+            }
+          ]
+        },
+        {
+          "claim_id": "SX004",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Will and Rowan fought Extus and drove the Blood Avatar back into the Snarl.",
+          "limitation": "Rowan shared the fight; see SX005.",
+          "source_pack": "data/lore_research/pack_p5_strixhaven_2026-10-30.json",
+          "basis": "CURATED_ON_PLANE_STORY_CONTEXT_NOT_DIRECT_GRAPH_EDGE",
+          "scope_note": "The official Strixhaven story cycle occurs at its school on Arcavios. These sixteen specific school, Oriq and student claims are listed only as on-plane story context. SX006 (the Kenrith twins' family fact), SX009 (Lukka and Mila's flight) and SX012 (Zimone's friends) are excluded because they do not by themselves establish Arcavios history. The location bridge is a Wizards designer statement, not an AR-date anchor.",
+          "era_label_not_order": "stx_final_exam_2021",
+          "relations": [
+            {
+              "subject": "Will Kenrith",
+              "relation": "defeated",
+              "object": "Blood Avatar"
+            }
+          ],
+          "source_evidence": [
+            {
+              "source_id": "stx_ep5",
+              "title": "Episode 5: Final Exam",
+              "url": "https://magic.wizards.com/en/news/magic-story/episode-5-final-exam-2021-04-21",
+              "quote": "Word of his and Rowan's fight against Extus and the Blood Avatar had spread throughout the campus, and suddenly, Will was getting a lot more attention.",
+              "quote_sha256": "6f195b4ba5e9c739d9bc5b9974ace5ab8d4172b484142be40aad360c9da0955b"
+            },
+            {
+              "source_id": "stx_ep5",
+              "title": "Episode 5: Final Exam",
+              "url": "https://magic.wizards.com/en/news/magic-story/episode-5-final-exam-2021-04-21",
+              "quote": "With a sound like thunder, the Blood Avatar was wrenched back into the Snarl, the sword dragging back across the stone—and on the other side was her brother, lying limp and stunned.",
+              "quote_sha256": "4662830e4c4248f991f02c0c7fffa2a6a82deed1190499adfefd9acdc073a0e1"
+            }
+          ]
+        },
+        {
+          "claim_id": "SX005",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Rowan fought the Blood Avatar alongside Will.",
+          "limitation": "",
+          "source_pack": "data/lore_research/pack_p5_strixhaven_2026-10-30.json",
+          "basis": "CURATED_ON_PLANE_STORY_CONTEXT_NOT_DIRECT_GRAPH_EDGE",
+          "scope_note": "The official Strixhaven story cycle occurs at its school on Arcavios. These sixteen specific school, Oriq and student claims are listed only as on-plane story context. SX006 (the Kenrith twins' family fact), SX009 (Lukka and Mila's flight) and SX012 (Zimone's friends) are excluded because they do not by themselves establish Arcavios history. The location bridge is a Wizards designer statement, not an AR-date anchor.",
+          "era_label_not_order": "stx_final_exam_2021",
+          "relations": [
+            {
+              "subject": "Rowan Kenrith",
+              "relation": "defeated",
+              "object": "Blood Avatar"
+            }
+          ],
+          "source_evidence": [
+            {
+              "source_id": "stx_ep5",
+              "title": "Episode 5: Final Exam",
+              "url": "https://magic.wizards.com/en/news/magic-story/episode-5-final-exam-2021-04-21",
+              "quote": "Word of his and Rowan's fight against Extus and the Blood Avatar had spread throughout the campus, and suddenly, Will was getting a lot more attention.",
+              "quote_sha256": "6f195b4ba5e9c739d9bc5b9974ace5ab8d4172b484142be40aad360c9da0955b"
+            }
+          ]
+        },
+        {
+          "claim_id": "SX007",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Liliana taught at Strixhaven as Professor Onyx, and at the end she gives her real name.",
+          "limitation": "",
+          "source_pack": "data/lore_research/pack_p5_strixhaven_2026-10-30.json",
+          "basis": "CURATED_ON_PLANE_STORY_CONTEXT_NOT_DIRECT_GRAPH_EDGE",
+          "scope_note": "The official Strixhaven story cycle occurs at its school on Arcavios. These sixteen specific school, Oriq and student claims are listed only as on-plane story context. SX006 (the Kenrith twins' family fact), SX009 (Lukka and Mila's flight) and SX012 (Zimone's friends) are excluded because they do not by themselves establish Arcavios history. The location bridge is a Wizards designer statement, not an AR-date anchor.",
+          "era_label_not_order": "strixhaven_stx_2021",
+          "relations": [
+            {
+              "subject": "Liliana Vess",
+              "relation": "identified_with",
+              "object": "Professor Onyx"
+            }
+          ],
+          "source_evidence": [
+            {
+              "source_id": "stx_ep1",
+              "title": "Episode 1: Class Is in Session",
+              "url": "https://magic.wizards.com/en/news/magic-story/episode-1-class-session-2021-03-25",
+              "quote": "Professor Onyx, as she was known here, took a deep breath as she walked, inhaling the smell of old paper and the familiar ozone that always seemed to accompany magic.",
+              "quote_sha256": "f0ae40e0080ba6171d6d61b048aceece185001ad485943a464155c27fbc5c380"
+            },
+            {
+              "source_id": "stx_ep5",
+              "title": "Episode 5: Final Exam",
+              "url": "https://magic.wizards.com/en/news/magic-story/episode-5-final-exam-2021-04-21",
+              "quote": "\"My name is Professor Liliana Vess.\"",
+              "quote_sha256": "fc9aed6d71f724a41f60eda10d3822d8ba26ce4c2deb5b290bb0618e6fc5ef0f"
+            }
+          ]
+        },
+        {
+          "claim_id": "SX008",
+          "grade": "CANON_IMPLIED",
+          "statement": "Lukka worked for Extus and later wandered with the remaining Oriq.",
+          "limitation": "Inferred from Lukka's point of view and his association with the Oriq; the text never says he was formally a member.",
+          "source_pack": "data/lore_research/pack_p5_strixhaven_2026-10-30.json",
+          "basis": "CURATED_ON_PLANE_STORY_CONTEXT_NOT_DIRECT_GRAPH_EDGE",
+          "scope_note": "The official Strixhaven story cycle occurs at its school on Arcavios. These sixteen specific school, Oriq and student claims are listed only as on-plane story context. SX006 (the Kenrith twins' family fact), SX009 (Lukka and Mila's flight) and SX012 (Zimone's friends) are excluded because they do not by themselves establish Arcavios history. The location bridge is a Wizards designer statement, not an AR-date anchor.",
+          "era_label_not_order": "strixhaven_stx_2021",
+          "relations": [
+            {
+              "subject": "Lukka",
+              "relation": "joined",
+              "object": "The Oriq"
+            }
+          ],
+          "source_evidence": [
+            {
+              "source_id": "stx_ep2",
+              "title": "Episode 2: Lessons",
+              "url": "https://magic.wizards.com/en/news/magic-story/episode-2-lessons-2021-03-31",
+              "quote": "He wasn't excited about facing Extus again—not after failing his mission.",
+              "quote_sha256": "63edb7ed8d28f51c16e11a2df7511157093d624c8d4b801a81693372a889773d"
+            },
+            {
+              "source_id": "stx_ep5",
+              "title": "Episode 5: Final Exam",
+              "url": "https://magic.wizards.com/en/news/magic-story/episode-5-final-exam-2021-04-21",
+              "quote": "The bonder had been wandering the land with Mila and a few of the remaining Oriq, no doubt scheming even as they scrounged for food and shelter.",
+              "quote_sha256": "69000513c662245cccaf5d35f17964e4d45765c8569e356da9fa3ef2689eb08f"
+            }
+          ]
+        },
+        {
+          "claim_id": "SX010",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Five spellcasting dragons founded Strixhaven about 700 years ago.",
+          "limitation": "",
+          "source_pack": "data/lore_research/pack_p5_strixhaven_2026-10-30.json",
+          "basis": "CURATED_ON_PLANE_STORY_CONTEXT_NOT_DIRECT_GRAPH_EDGE",
+          "scope_note": "The official Strixhaven story cycle occurs at its school on Arcavios. These sixteen specific school, Oriq and student claims are listed only as on-plane story context. SX006 (the Kenrith twins' family fact), SX009 (Lukka and Mila's flight) and SX012 (Zimone's friends) are excluded because they do not by themselves establish Arcavios history. The location bridge is a Wizards designer statement, not an AR-date anchor.",
+          "era_label_not_order": "strixhaven_stx_2021",
+          "relations": [
+            {
+              "subject": "Strixhaven's five founding dragons",
+              "relation": "created",
+              "object": "Strixhaven"
+            }
+          ],
+          "source_evidence": [
+            {
+              "source_id": "stx_guide",
+              "title": "Planeswalker's Guide to Strixhaven",
+              "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-strixhaven-2021-04-01",
+              "quote": "Founded some 700 years ago by five spellcasting dragons, Strixhaven University is Arcavios's premier institution of magical learning, drawing promising young mages from all around the plane to study in its halls.",
+              "quote_sha256": "e272e5ce9825768123cea5c0e0fb46bb825a69fe96073202f6040498f6aeeed7"
+            }
+          ]
+        },
+        {
+          "claim_id": "SX011",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Beledros Witherbloom refused to help Liliana.",
+          "limitation": "",
+          "source_pack": "data/lore_research/pack_p5_strixhaven_2026-10-30.json",
+          "basis": "CURATED_ON_PLANE_STORY_CONTEXT_NOT_DIRECT_GRAPH_EDGE",
+          "scope_note": "The official Strixhaven story cycle occurs at its school on Arcavios. These sixteen specific school, Oriq and student claims are listed only as on-plane story context. SX006 (the Kenrith twins' family fact), SX009 (Lukka and Mila's flight) and SX012 (Zimone's friends) are excluded because they do not by themselves establish Arcavios history. The location bridge is a Wizards designer statement, not an AR-date anchor.",
+          "era_label_not_order": "strixhaven_stx_2021",
+          "relations": [
+            {
+              "subject": "Beledros Witherbloom",
+              "relation": "refused",
+              "object": "Liliana Vess"
+            }
+          ],
+          "source_evidence": [
+            {
+              "source_id": "stx_ep2",
+              "title": "Episode 2: Lessons",
+              "url": "https://magic.wizards.com/en/news/magic-story/episode-2-lessons-2021-03-31",
+              "quote": "After Beledros's refusal to help her, she'd followed rumors of an archaic to the ruins of Caerdoon.",
+              "quote_sha256": "8b5cbac11b01ede98d90c7e6742cc78fb0ac2f80cf1410e7af9809bfd53410d4"
+            }
+          ]
+        },
+        {
+          "claim_id": "SX013",
+          "grade": "CANON_IMPLIED",
+          "statement": "Dina learned advanced healing alongside Lisette.",
+          "limitation": "'She' is Dina by point-of-view; 'mentored' is an editorial reading of lessons alongside Lisette.",
+          "source_pack": "data/lore_research/pack_p5_strixhaven_2026-10-30.json",
+          "basis": "CURATED_ON_PLANE_STORY_CONTEXT_NOT_DIRECT_GRAPH_EDGE",
+          "scope_note": "The official Strixhaven story cycle occurs at its school on Arcavios. These sixteen specific school, Oriq and student claims are listed only as on-plane story context. SX006 (the Kenrith twins' family fact), SX009 (Lukka and Mila's flight) and SX012 (Zimone's friends) are excluded because they do not by themselves establish Arcavios history. The location bridge is a Wizards designer statement, not an AR-date anchor.",
+          "era_label_not_order": "strixhaven_stx_2021",
+          "relations": [
+            {
+              "subject": "Lisette",
+              "relation": "mentored",
+              "object": "Dina"
+            }
+          ],
+          "source_evidence": [
+            {
+              "source_id": "stx_chains",
+              "title": "The Chains That Bind",
+              "url": "https://magic.wizards.com/en/news/magic-story/chains-bind-2021-04-09",
+              "quote": "Alongside Lisette, she'd attended to bedridden students as part of her lessons on advanced healing.",
+              "quote_sha256": "a54e3129c356c1a0430ac0a54224bcf04b4f41e507c3ad8616e4bd0fb92fd8a1"
+            }
+          ]
+        },
+        {
+          "claim_id": "SX014",
+          "grade": "CANON_IMPLIED",
+          "statement": "Uvilda is a dean at Prismari College.",
+          "limitation": "Dean is not the sole leader; the page names Uvilda a dean and is set at Prismari, without one sentence joining them.",
+          "source_pack": "data/lore_research/pack_p5_strixhaven_2026-10-30.json",
+          "basis": "CURATED_ON_PLANE_STORY_CONTEXT_NOT_DIRECT_GRAPH_EDGE",
+          "scope_note": "The official Strixhaven story cycle occurs at its school on Arcavios. These sixteen specific school, Oriq and student claims are listed only as on-plane story context. SX006 (the Kenrith twins' family fact), SX009 (Lukka and Mila's flight) and SX012 (Zimone's friends) are excluded because they do not by themselves establish Arcavios history. The location bridge is a Wizards designer statement, not an AR-date anchor.",
+          "era_label_not_order": "strixhaven_stx_2021",
+          "relations": [
+            {
+              "subject": "Uvilda",
+              "relation": "leader_of",
+              "object": "Prismari College"
+            }
+          ],
+          "source_evidence": [
+            {
+              "source_id": "stx_cry",
+              "title": "A Cry of Magic",
+              "url": "https://magic.wizards.com/en/news/magic-story/cry-magic-2021-03-26",
+              "quote": "If I bring something pretty to Dean Uvilda I know exactly what she'll say.",
+              "quote_sha256": "a280e11814ecd2030e1f03ea15c9eeba93440fcc3fa739af9fced97321433377"
+            },
+            {
+              "source_id": "stx_cry",
+              "title": "A Cry of Magic",
+              "url": "https://magic.wizards.com/en/news/magic-story/cry-magic-2021-03-26",
+              "quote": "I want to enable you to do the best work you can here at Prismari College.",
+              "quote_sha256": "e560f1abe08b26dbe934355b3b3b17f3e277870025fff58e9ebdd1fc9959c967"
+            }
+          ]
+        },
+        {
+          "claim_id": "SX015",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Kasmina fights Lukka with wind magic.",
+          "limitation": "",
+          "source_pack": "data/lore_research/pack_p5_strixhaven_2026-10-30.json",
+          "basis": "CURATED_ON_PLANE_STORY_CONTEXT_NOT_DIRECT_GRAPH_EDGE",
+          "scope_note": "The official Strixhaven story cycle occurs at its school on Arcavios. These sixteen specific school, Oriq and student claims are listed only as on-plane story context. SX006 (the Kenrith twins' family fact), SX009 (Lukka and Mila's flight) and SX012 (Zimone's friends) are excluded because they do not by themselves establish Arcavios history. The location bridge is a Wizards designer statement, not an AR-date anchor.",
+          "era_label_not_order": "strixhaven_stx_2021",
+          "relations": [
+            {
+              "subject": "Kasmina",
+              "relation": "fought",
+              "object": "Lukka"
+            }
+          ],
+          "source_evidence": [
+            {
+              "source_id": "stx_ep3",
+              "title": "Episode 3: Extracurriculars",
+              "url": "https://magic.wizards.com/en/news/magic-story/episode-3-extracurriculars-2021-04-07",
+              "quote": "Kasmina sent a scythe of pressurized air straight at Lukka's chest.",
+              "quote_sha256": "84df99f2d8b5fb8a431deeb42d08a282238640b1dd48d51707aef3ed4b8d7f77"
+            }
+          ]
+        },
+        {
+          "claim_id": "SX016",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Quintorius is a Lorehold student.",
+          "limitation": "",
+          "source_pack": "data/lore_research/pack_p5_strixhaven_2026-10-30.json",
+          "basis": "CURATED_ON_PLANE_STORY_CONTEXT_NOT_DIRECT_GRAPH_EDGE",
+          "scope_note": "The official Strixhaven story cycle occurs at its school on Arcavios. These sixteen specific school, Oriq and student claims are listed only as on-plane story context. SX006 (the Kenrith twins' family fact), SX009 (Lukka and Mila's flight) and SX012 (Zimone's friends) are excluded because they do not by themselves establish Arcavios history. The location bridge is a Wizards designer statement, not an AR-date anchor.",
+          "era_label_not_order": "strixhaven_stx_2021",
+          "relations": [
+            {
+              "subject": "Quintorius",
+              "relation": "member_of",
+              "object": "Lorehold College"
+            }
+          ],
+          "source_evidence": [
+            {
+              "source_id": "stx_silent",
+              "title": "A Silent Voice Calls",
+              "url": "https://magic.wizards.com/en/news/magic-story/silent-voice-calls-2021-04-30",
+              "quote": "From the darkness of the archway appeared the lumbering body of Quintorius, a student of Lorehold.",
+              "quote_sha256": "b9b4009efa9454aed719b82453c223bf51fdd2566848ad00684e0c6244dda366"
+            },
+            {
+              "source_id": "stx_mentor",
+              "title": "The Mentor",
+              "url": "https://magic.wizards.com/en/news/magic-story/mentor-2021-04-16",
+              "quote": "he rushed to Effigy Row—arguably the most important section of Lorehold College",
+              "quote_sha256": "aaeedad94d2fe9028c9b38ed1a8b02b571038fd731c17f262d27b4c7afe108c6"
+            }
+          ]
+        },
+        {
+          "claim_id": "SX017",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Killian is the son of Dean Embrose Lu.",
+          "limitation": "",
+          "source_pack": "data/lore_research/pack_p5_strixhaven_2026-10-30.json",
+          "basis": "CURATED_ON_PLANE_STORY_CONTEXT_NOT_DIRECT_GRAPH_EDGE",
+          "scope_note": "The official Strixhaven story cycle occurs at its school on Arcavios. These sixteen specific school, Oriq and student claims are listed only as on-plane story context. SX006 (the Kenrith twins' family fact), SX009 (Lukka and Mila's flight) and SX012 (Zimone's friends) are excluded because they do not by themselves establish Arcavios history. The location bridge is a Wizards designer statement, not an AR-date anchor.",
+          "era_label_not_order": "strixhaven_stx_2021",
+          "relations": [
+            {
+              "subject": "Embrose Lu",
+              "relation": "parent_of",
+              "object": "Killian Lu"
+            }
+          ],
+          "source_evidence": [
+            {
+              "source_id": "stx_silent",
+              "title": "A Silent Voice Calls",
+              "url": "https://magic.wizards.com/en/news/magic-story/silent-voice-calls-2021-04-30",
+              "quote": "the son of the great Dean Embrose Lu",
+              "quote_sha256": "d596bfc84c5407e0e73bf3b8d5a8c6d00b3df0fbbd91a157f60290e282195aec"
+            }
+          ]
+        },
+        {
+          "claim_id": "SX018",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Fannessa is revealed as an Oriq agent under Silverquill robes.",
+          "limitation": "",
+          "source_pack": "data/lore_research/pack_p5_strixhaven_2026-10-30.json",
+          "basis": "CURATED_ON_PLANE_STORY_CONTEXT_NOT_DIRECT_GRAPH_EDGE",
+          "scope_note": "The official Strixhaven story cycle occurs at its school on Arcavios. These sixteen specific school, Oriq and student claims are listed only as on-plane story context. SX006 (the Kenrith twins' family fact), SX009 (Lukka and Mila's flight) and SX012 (Zimone's friends) are excluded because they do not by themselves establish Arcavios history. The location bridge is a Wizards designer statement, not an AR-date anchor.",
+          "era_label_not_order": "strixhaven_stx_2021",
+          "relations": [
+            {
+              "subject": "Fannessa",
+              "relation": "member_of",
+              "object": "The Oriq"
+            }
+          ],
+          "source_evidence": [
+            {
+              "source_id": "stx_silent",
+              "title": "A Silent Voice Calls",
+              "url": "https://magic.wizards.com/en/news/magic-story/silent-voice-calls-2021-04-30",
+              "quote": "Fannessa too became engulfed in purple flames that burned her Silverquill robes away, revealing jagged, gray Oriq armor underneath.",
+              "quote_sha256": "e081d5b98efc396b3374d8dd9db107ac4b9f1d3796f414b94671947325cea35c"
+            }
+          ]
+        },
+        {
+          "claim_id": "SX019",
+          "grade": "CANON_IMPLIED",
+          "statement": "Killian is a Silverquill student.",
+          "limitation": "The first line introduces the young man before he is named.",
+          "source_pack": "data/lore_research/pack_p5_strixhaven_2026-10-30.json",
+          "basis": "CURATED_ON_PLANE_STORY_CONTEXT_NOT_DIRECT_GRAPH_EDGE",
+          "scope_note": "The official Strixhaven story cycle occurs at its school on Arcavios. These sixteen specific school, Oriq and student claims are listed only as on-plane story context. SX006 (the Kenrith twins' family fact), SX009 (Lukka and Mila's flight) and SX012 (Zimone's friends) are excluded because they do not by themselves establish Arcavios history. The location bridge is a Wizards designer statement, not an AR-date anchor.",
+          "era_label_not_order": "strixhaven_stx_2021",
+          "relations": [
+            {
+              "subject": "Killian Lu",
+              "relation": "member_of",
+              "object": "Silverquill College"
+            }
+          ],
+          "source_evidence": [
+            {
+              "source_id": "stx_chains",
+              "title": "The Chains That Bind",
+              "url": "https://magic.wizards.com/en/news/magic-story/chains-bind-2021-04-09",
+              "quote": "A young man dressed in the black and white garb of a Silverquill student stood in front of her",
+              "quote_sha256": "e907e5a384b29bf7389c2106013d493c95a3effdb39c0a8ef9037b66893fa29d"
+            },
+            {
+              "source_id": "stx_chains",
+              "title": "The Chains That Bind",
+              "url": "https://magic.wizards.com/en/news/magic-story/chains-bind-2021-04-09",
+              "quote": "And surely Killian would have been obliged to tell the Silverquill deans",
+              "quote_sha256": "19165e3b3aa44c80242a570bed15c94feaa658f2d80a09e5fc2923da76b820cf"
+            }
+          ]
+        }
+      ],
       "known_gaps": [
         "Direct claims are not an exhaustive history of this plane.",
+        "Curated same-plane story context is not a direct claim-to-plane edge and does not prove the geography of every participant in an entire arc.",
         "Era labels and publication dates are not a verified sequence or AR calendar year.",
         "Absence of a cited event or person is not evidence it never occurred or appeared."
       ]
@@ -717,7 +1214,7 @@
     {
       "id": "plane:argentum",
       "plane": "Argentum",
-      "evidence_status": "PARTIAL_DIRECT_GRAPH_CLAIMS_ONLY",
+      "evidence_status": "PARTIAL_DIRECT_AND_SEPARATELY_CURATED_CONTEXT",
       "distinct_claims": 1,
       "facts": [
         {
@@ -745,8 +1242,10 @@
           ]
         }
       ],
+      "contextual_claims": [],
       "known_gaps": [
         "Direct claims are not an exhaustive history of this plane.",
+        "Curated same-plane story context is not a direct claim-to-plane edge and does not prove the geography of every participant in an entire arc.",
         "Era labels and publication dates are not a verified sequence or AR calendar year.",
         "Absence of a cited event or person is not evidence it never occurred or appeared."
       ]
@@ -754,7 +1253,7 @@
     {
       "id": "plane:bablovia",
       "plane": "Bablovia",
-      "evidence_status": "PARTIAL_DIRECT_GRAPH_CLAIMS_ONLY",
+      "evidence_status": "PARTIAL_DIRECT_AND_SEPARATELY_CURATED_CONTEXT",
       "distinct_claims": 1,
       "facts": [
         {
@@ -782,8 +1281,10 @@
           ]
         }
       ],
+      "contextual_claims": [],
       "known_gaps": [
         "Direct claims are not an exhaustive history of this plane.",
+        "Curated same-plane story context is not a direct claim-to-plane edge and does not prove the geography of every participant in an entire arc.",
         "Era labels and publication dates are not a verified sequence or AR calendar year.",
         "Absence of a cited event or person is not evidence it never occurred or appeared."
       ]
@@ -791,7 +1292,7 @@
     {
       "id": "plane:bloomburrow",
       "plane": "Bloomburrow",
-      "evidence_status": "PARTIAL_DIRECT_GRAPH_CLAIMS_ONLY",
+      "evidence_status": "PARTIAL_DIRECT_AND_SEPARATELY_CURATED_CONTEXT",
       "distinct_claims": 6,
       "facts": [
         {
@@ -943,8 +1444,10 @@
           ]
         }
       ],
+      "contextual_claims": [],
       "known_gaps": [
         "Direct claims are not an exhaustive history of this plane.",
+        "Curated same-plane story context is not a direct claim-to-plane edge and does not prove the geography of every participant in an entire arc.",
         "Era labels and publication dates are not a verified sequence or AR calendar year.",
         "Absence of a cited event or person is not evidence it never occurred or appeared."
       ]
@@ -952,7 +1455,7 @@
     {
       "id": "plane:dominaria",
       "plane": "Dominaria",
-      "evidence_status": "PARTIAL_DIRECT_GRAPH_CLAIMS_ONLY",
+      "evidence_status": "PARTIAL_DIRECT_AND_SEPARATELY_CURATED_CONTEXT",
       "distinct_claims": 7,
       "facts": [
         {
@@ -1128,8 +1631,10 @@
           ]
         }
       ],
+      "contextual_claims": [],
       "known_gaps": [
         "Direct claims are not an exhaustive history of this plane.",
+        "Curated same-plane story context is not a direct claim-to-plane edge and does not prove the geography of every participant in an entire arc.",
         "Era labels and publication dates are not a verified sequence or AR calendar year.",
         "Absence of a cited event or person is not evidence it never occurred or appeared."
       ]
@@ -1137,7 +1642,7 @@
     {
       "id": "plane:duskmourn",
       "plane": "Duskmourn",
-      "evidence_status": "PARTIAL_DIRECT_GRAPH_CLAIMS_ONLY",
+      "evidence_status": "PARTIAL_DIRECT_AND_SEPARATELY_CURATED_CONTEXT",
       "distinct_claims": 7,
       "facts": [
         {
@@ -1309,8 +1814,10 @@
           ]
         }
       ],
+      "contextual_claims": [],
       "known_gaps": [
         "Direct claims are not an exhaustive history of this plane.",
+        "Curated same-plane story context is not a direct claim-to-plane edge and does not prove the geography of every participant in an entire arc.",
         "Era labels and publication dates are not a verified sequence or AR calendar year.",
         "Absence of a cited event or person is not evidence it never occurred or appeared."
       ]
@@ -1318,7 +1825,7 @@
     {
       "id": "plane:eldraine",
       "plane": "Eldraine",
-      "evidence_status": "PARTIAL_DIRECT_GRAPH_CLAIMS_ONLY",
+      "evidence_status": "PARTIAL_DIRECT_AND_SEPARATELY_CURATED_CONTEXT",
       "distinct_claims": 3,
       "facts": [
         {
@@ -1398,8 +1905,271 @@
           ]
         }
       ],
+      "contextual_claims": [
+        {
+          "claim_id": "EL001",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Queen Linden married High King Kenrith after he completed the High Quest.",
+          "limitation": "",
+          "source_pack": "data/lore_research/pack_p5_throne_of_eldraine_2026-10-30.json",
+          "basis": "CURATED_ON_PLANE_STORY_CONTEXT_NOT_DIRECT_GRAPH_EDGE",
+          "scope_note": "These ten stories of the Kenrith family, High Throne, royal courts and leaders are in the official Eldraine plane guide. EL011 already directly touches the Eldraine plane node and is intentionally not duplicated. Some quoted claims contain their author's or an in-world observer's perspective.",
+          "era_label_not_order": "eldraine_eld_2019",
+          "relations": [
+            {
+              "subject": "High King Kenrith",
+              "relation": "spouse_of",
+              "object": "Queen Linden"
+            }
+          ],
+          "source_evidence": [
+            {
+              "source_id": "eld_guide",
+              "title": "Planeswalker's Guide to Eldraine",
+              "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-eldraine-2019-10-31",
+              "quote": "They fell in love, and they were married shortly after High King Kenrith completed the High Quest and ascended to the throne",
+              "quote_sha256": "04eb38c2412184637a8d005a5bac65261409e7407d8873f03ccbb991c941147e"
+            }
+          ]
+        },
+        {
+          "claim_id": "EL002",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Rowan is a child of High King Kenrith and Queen Linden.",
+          "limitation": "",
+          "source_pack": "data/lore_research/pack_p5_throne_of_eldraine_2026-10-30.json",
+          "basis": "CURATED_ON_PLANE_STORY_CONTEXT_NOT_DIRECT_GRAPH_EDGE",
+          "scope_note": "These ten stories of the Kenrith family, High Throne, royal courts and leaders are in the official Eldraine plane guide. EL011 already directly touches the Eldraine plane node and is intentionally not duplicated. Some quoted claims contain their author's or an in-world observer's perspective.",
+          "era_label_not_order": "eldraine_eld_2019",
+          "relations": [
+            {
+              "subject": "High King Kenrith",
+              "relation": "parent_of",
+              "object": "Rowan Kenrith"
+            }
+          ],
+          "source_evidence": [
+            {
+              "source_id": "eld_guide",
+              "title": "Planeswalker's Guide to Eldraine",
+              "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-eldraine-2019-10-31",
+              "quote": "The castle is home to both High King Kenrith and Queen Linden, along with their four children: Rowan, Will, Hazel, and Eric.",
+              "quote_sha256": "730100e9ddf45c705bc2ca56531a6d7fb4eae22ad618637e4fe5eb77a11e21b1"
+            }
+          ]
+        },
+        {
+          "claim_id": "EL003",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Will is a child of High King Kenrith and Queen Linden.",
+          "limitation": "",
+          "source_pack": "data/lore_research/pack_p5_throne_of_eldraine_2026-10-30.json",
+          "basis": "CURATED_ON_PLANE_STORY_CONTEXT_NOT_DIRECT_GRAPH_EDGE",
+          "scope_note": "These ten stories of the Kenrith family, High Throne, royal courts and leaders are in the official Eldraine plane guide. EL011 already directly touches the Eldraine plane node and is intentionally not duplicated. Some quoted claims contain their author's or an in-world observer's perspective.",
+          "era_label_not_order": "eldraine_eld_2019",
+          "relations": [
+            {
+              "subject": "High King Kenrith",
+              "relation": "parent_of",
+              "object": "Will Kenrith"
+            }
+          ],
+          "source_evidence": [
+            {
+              "source_id": "eld_guide",
+              "title": "Planeswalker's Guide to Eldraine",
+              "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-eldraine-2019-10-31",
+              "quote": "The castle is home to both High King Kenrith and Queen Linden, along with their four children: Rowan, Will, Hazel, and Eric.",
+              "quote_sha256": "730100e9ddf45c705bc2ca56531a6d7fb4eae22ad618637e4fe5eb77a11e21b1"
+            }
+          ]
+        },
+        {
+          "claim_id": "EL004",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Rowan and Will are siblings, two of the four Kenrith children.",
+          "limitation": "The guide does not say they are twins.",
+          "source_pack": "data/lore_research/pack_p5_throne_of_eldraine_2026-10-30.json",
+          "basis": "CURATED_ON_PLANE_STORY_CONTEXT_NOT_DIRECT_GRAPH_EDGE",
+          "scope_note": "These ten stories of the Kenrith family, High Throne, royal courts and leaders are in the official Eldraine plane guide. EL011 already directly touches the Eldraine plane node and is intentionally not duplicated. Some quoted claims contain their author's or an in-world observer's perspective.",
+          "era_label_not_order": "eldraine_eld_2019",
+          "relations": [
+            {
+              "subject": "Rowan Kenrith",
+              "relation": "sibling_of",
+              "object": "Will Kenrith"
+            }
+          ],
+          "source_evidence": [
+            {
+              "source_id": "eld_guide",
+              "title": "Planeswalker's Guide to Eldraine",
+              "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-eldraine-2019-10-31",
+              "quote": "The castle is home to both High King Kenrith and Queen Linden, along with their four children: Rowan, Will, Hazel, and Eric.",
+              "quote_sha256": "730100e9ddf45c705bc2ca56531a6d7fb4eae22ad618637e4fe5eb77a11e21b1"
+            }
+          ]
+        },
+        {
+          "claim_id": "EL005",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Kenrith completed the High Quest and ascended to the High Throne.",
+          "limitation": "",
+          "source_pack": "data/lore_research/pack_p5_throne_of_eldraine_2026-10-30.json",
+          "basis": "CURATED_ON_PLANE_STORY_CONTEXT_NOT_DIRECT_GRAPH_EDGE",
+          "scope_note": "These ten stories of the Kenrith family, High Throne, royal courts and leaders are in the official Eldraine plane guide. EL011 already directly touches the Eldraine plane node and is intentionally not duplicated. Some quoted claims contain their author's or an in-world observer's perspective.",
+          "era_label_not_order": "eldraine_eld_2019",
+          "relations": [
+            {
+              "subject": "High King Kenrith",
+              "relation": "leader_of",
+              "object": "High Throne of Eldraine"
+            }
+          ],
+          "source_evidence": [
+            {
+              "source_id": "eld_guide",
+              "title": "Planeswalker's Guide to Eldraine",
+              "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-eldraine-2019-10-31",
+              "quote": "High King Kenrith completed the High Quest and ascended to the throne",
+              "quote_sha256": "c4614f1a28b1ed02cb1bece98f42bde7794ffd0b020cd4d47c083dad144289af"
+            }
+          ]
+        },
+        {
+          "claim_id": "EL006",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Vantress has no official ruler; its people are led by the Magic Mirror.",
+          "limitation": "",
+          "source_pack": "data/lore_research/pack_p5_throne_of_eldraine_2026-10-30.json",
+          "basis": "CURATED_ON_PLANE_STORY_CONTEXT_NOT_DIRECT_GRAPH_EDGE",
+          "scope_note": "These ten stories of the Kenrith family, High Throne, royal courts and leaders are in the official Eldraine plane guide. EL011 already directly touches the Eldraine plane node and is intentionally not duplicated. Some quoted claims contain their author's or an in-world observer's perspective.",
+          "era_label_not_order": "eldraine_eld_2019",
+          "relations": [
+            {
+              "subject": "Magic Mirror of Vantress",
+              "relation": "leader_of",
+              "object": "Vantress"
+            }
+          ],
+          "source_evidence": [
+            {
+              "source_id": "eld_guide",
+              "title": "Planeswalker's Guide to Eldraine",
+              "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-eldraine-2019-10-31",
+              "quote": "Unlike the other courts, Vantress has no official ruler. Instead, the people of Vantress are led by the Magic Mirror itself.",
+              "quote_sha256": "1b28c7501c1f4ac974f6b0ffe0b6838779155fb160a698dceee60148c4afb432"
+            }
+          ]
+        },
+        {
+          "claim_id": "EL007",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Queen Ayara, an elf, rules Locthwain.",
+          "limitation": "",
+          "source_pack": "data/lore_research/pack_p5_throne_of_eldraine_2026-10-30.json",
+          "basis": "CURATED_ON_PLANE_STORY_CONTEXT_NOT_DIRECT_GRAPH_EDGE",
+          "scope_note": "These ten stories of the Kenrith family, High Throne, royal courts and leaders are in the official Eldraine plane guide. EL011 already directly touches the Eldraine plane node and is intentionally not duplicated. Some quoted claims contain their author's or an in-world observer's perspective.",
+          "era_label_not_order": "eldraine_eld_2019",
+          "relations": [
+            {
+              "subject": "Ayara",
+              "relation": "leader_of",
+              "object": "Locthwain"
+            }
+          ],
+          "source_evidence": [
+            {
+              "source_id": "eld_guide",
+              "title": "Planeswalker's Guide to Eldraine",
+              "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-eldraine-2019-10-31",
+              "quote": "The ruler of Locthwain is Queen Ayara. Unique among the rulers of the courts, she is an elf",
+              "quote_sha256": "ab745cdd0133653d514858ec20a272dd4ef09935471efe9d28a9a3a531523233"
+            }
+          ]
+        },
+        {
+          "claim_id": "EL008",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Ayara and her knights seek the lost Cauldron of Eternity, Locthwain's relic.",
+          "limitation": "",
+          "source_pack": "data/lore_research/pack_p5_throne_of_eldraine_2026-10-30.json",
+          "basis": "CURATED_ON_PLANE_STORY_CONTEXT_NOT_DIRECT_GRAPH_EDGE",
+          "scope_note": "These ten stories of the Kenrith family, High Throne, royal courts and leaders are in the official Eldraine plane guide. EL011 already directly touches the Eldraine plane node and is intentionally not duplicated. Some quoted claims contain their author's or an in-world observer's perspective.",
+          "era_label_not_order": "eldraine_eld_2019",
+          "relations": [
+            {
+              "subject": "Ayara",
+              "relation": "sought",
+              "object": "Cauldron of Eternity"
+            }
+          ],
+          "source_evidence": [
+            {
+              "source_id": "eld_guide",
+              "title": "Planeswalker's Guide to Eldraine",
+              "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-eldraine-2019-10-31",
+              "quote": "Thus, Locthwain remains airborne, wandering the realm as Ayara and her knights seek to recover their lost relic age after age.",
+              "quote_sha256": "6de4c56ea272bc16b305fac83d1a444d1eed7a14226fb49a2e90b7568964b60d"
+            }
+          ]
+        },
+        {
+          "claim_id": "EL009",
+          "grade": "CANON_CONFIRMED",
+          "statement": "The giant Yorvo is king of Garenbrig.",
+          "limitation": "",
+          "source_pack": "data/lore_research/pack_p5_throne_of_eldraine_2026-10-30.json",
+          "basis": "CURATED_ON_PLANE_STORY_CONTEXT_NOT_DIRECT_GRAPH_EDGE",
+          "scope_note": "These ten stories of the Kenrith family, High Throne, royal courts and leaders are in the official Eldraine plane guide. EL011 already directly touches the Eldraine plane node and is intentionally not duplicated. Some quoted claims contain their author's or an in-world observer's perspective.",
+          "era_label_not_order": "eldraine_eld_2019",
+          "relations": [
+            {
+              "subject": "Yorvo",
+              "relation": "leader_of",
+              "object": "Garenbrig"
+            }
+          ],
+          "source_evidence": [
+            {
+              "source_id": "eld_guide",
+              "title": "Planeswalker's Guide to Eldraine",
+              "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-eldraine-2019-10-31",
+              "quote": "The current king of Garenbrig is a giant named Yorvo, who towers over even others of his kind.",
+              "quote_sha256": "8d88606534e6f3d8edfc6629e61173a190082bc4fa81366d52760c83875745be"
+            }
+          ]
+        },
+        {
+          "claim_id": "EL010",
+          "grade": "CANON_IMPLIED",
+          "statement": "The Questing Beast chooses the knight who may undertake the quest for the High Throne.",
+          "limitation": "It selects candidates; 'guardian_of' is the pack's closest predicate. The guide is an in-universe traveller's account; it reports what the realm's folk say and believe.",
+          "source_pack": "data/lore_research/pack_p5_throne_of_eldraine_2026-10-30.json",
+          "basis": "CURATED_ON_PLANE_STORY_CONTEXT_NOT_DIRECT_GRAPH_EDGE",
+          "scope_note": "These ten stories of the Kenrith family, High Throne, royal courts and leaders are in the official Eldraine plane guide. EL011 already directly touches the Eldraine plane node and is intentionally not duplicated. Some quoted claims contain their author's or an in-world observer's perspective.",
+          "era_label_not_order": "eldraine_eld_2019",
+          "relations": [
+            {
+              "subject": "Questing Beast",
+              "relation": "guardian_of",
+              "object": "High Throne of Eldraine"
+            }
+          ],
+          "source_evidence": [
+            {
+              "source_id": "eld_guide",
+              "title": "Planeswalker's Guide to Eldraine",
+              "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-eldraine-2019-10-31",
+              "quote": "About once a generation, a mysterious creature called the Questing Beast chooses an extraordinary knight to undertake a grueling challenge, called the Great Quest, to claim the High Throne of the realm.",
+              "quote_sha256": "ba22d713fe5e8e2612762abdd05a730ac28f5cfbdfaf529c555c1bc41eb06f6d"
+            }
+          ]
+        }
+      ],
       "known_gaps": [
         "Direct claims are not an exhaustive history of this plane.",
+        "Curated same-plane story context is not a direct claim-to-plane edge and does not prove the geography of every participant in an entire arc.",
         "Era labels and publication dates are not a verified sequence or AR calendar year.",
         "Absence of a cited event or person is not evidence it never occurred or appeared."
       ]
@@ -1407,7 +2177,7 @@
     {
       "id": "plane:fiora",
       "plane": "Fiora",
-      "evidence_status": "PARTIAL_DIRECT_GRAPH_CLAIMS_ONLY",
+      "evidence_status": "PARTIAL_DIRECT_AND_SEPARATELY_CURATED_CONTEXT",
       "distinct_claims": 4,
       "facts": [
         {
@@ -1507,8 +2277,10 @@
           ]
         }
       ],
+      "contextual_claims": [],
       "known_gaps": [
         "Direct claims are not an exhaustive history of this plane.",
+        "Curated same-plane story context is not a direct claim-to-plane edge and does not prove the geography of every participant in an entire arc.",
         "Era labels and publication dates are not a verified sequence or AR calendar year.",
         "Absence of a cited event or person is not evidence it never occurred or appeared."
       ]
@@ -1516,7 +2288,7 @@
     {
       "id": "plane:ikoria",
       "plane": "Ikoria",
-      "evidence_status": "PARTIAL_DIRECT_GRAPH_CLAIMS_ONLY",
+      "evidence_status": "PARTIAL_DIRECT_AND_SEPARATELY_CURATED_CONTEXT",
       "distinct_claims": 4,
       "facts": [
         {
@@ -1616,8 +2388,10 @@
           ]
         }
       ],
+      "contextual_claims": [],
       "known_gaps": [
         "Direct claims are not an exhaustive history of this plane.",
+        "Curated same-plane story context is not a direct claim-to-plane edge and does not prove the geography of every participant in an entire arc.",
         "Era labels and publication dates are not a verified sequence or AR calendar year.",
         "Absence of a cited event or person is not evidence it never occurred or appeared."
       ]
@@ -1625,7 +2399,7 @@
     {
       "id": "plane:innistrad",
       "plane": "Innistrad",
-      "evidence_status": "PARTIAL_DIRECT_GRAPH_CLAIMS_ONLY",
+      "evidence_status": "PARTIAL_DIRECT_AND_SEPARATELY_CURATED_CONTEXT",
       "distinct_claims": 8,
       "facts": [
         {
@@ -1825,8 +2599,10 @@
           ]
         }
       ],
+      "contextual_claims": [],
       "known_gaps": [
         "Direct claims are not an exhaustive history of this plane.",
+        "Curated same-plane story context is not a direct claim-to-plane edge and does not prove the geography of every participant in an entire arc.",
         "Era labels and publication dates are not a verified sequence or AR calendar year.",
         "Absence of a cited event or person is not evidence it never occurred or appeared."
       ]
@@ -1834,7 +2610,7 @@
     {
       "id": "plane:ixalan",
       "plane": "Ixalan",
-      "evidence_status": "PARTIAL_DIRECT_GRAPH_CLAIMS_ONLY",
+      "evidence_status": "PARTIAL_DIRECT_AND_SEPARATELY_CURATED_CONTEXT",
       "distinct_claims": 8,
       "facts": [
         {
@@ -2040,8 +2816,10 @@
           ]
         }
       ],
+      "contextual_claims": [],
       "known_gaps": [
         "Direct claims are not an exhaustive history of this plane.",
+        "Curated same-plane story context is not a direct claim-to-plane edge and does not prove the geography of every participant in an entire arc.",
         "Era labels and publication dates are not a verified sequence or AR calendar year.",
         "Absence of a cited event or person is not evidence it never occurred or appeared."
       ]
@@ -2049,7 +2827,7 @@
     {
       "id": "plane:kaladesh",
       "plane": "Kaladesh",
-      "evidence_status": "PARTIAL_DIRECT_GRAPH_CLAIMS_ONLY",
+      "evidence_status": "PARTIAL_DIRECT_AND_SEPARATELY_CURATED_CONTEXT",
       "distinct_claims": 5,
       "facts": [
         {
@@ -2178,8 +2956,10 @@
           ]
         }
       ],
+      "contextual_claims": [],
       "known_gaps": [
         "Direct claims are not an exhaustive history of this plane.",
+        "Curated same-plane story context is not a direct claim-to-plane edge and does not prove the geography of every participant in an entire arc.",
         "Era labels and publication dates are not a verified sequence or AR calendar year.",
         "Absence of a cited event or person is not evidence it never occurred or appeared."
       ]
@@ -2187,7 +2967,7 @@
     {
       "id": "plane:kaldheim",
       "plane": "Kaldheim",
-      "evidence_status": "PARTIAL_DIRECT_GRAPH_CLAIMS_ONLY",
+      "evidence_status": "PARTIAL_DIRECT_AND_SEPARATELY_CURATED_CONTEXT",
       "distinct_claims": 4,
       "facts": [
         {
@@ -2292,8 +3072,10 @@
           ]
         }
       ],
+      "contextual_claims": [],
       "known_gaps": [
         "Direct claims are not an exhaustive history of this plane.",
+        "Curated same-plane story context is not a direct claim-to-plane edge and does not prove the geography of every participant in an entire arc.",
         "Era labels and publication dates are not a verified sequence or AR calendar year.",
         "Absence of a cited event or person is not evidence it never occurred or appeared."
       ]
@@ -2301,7 +3083,7 @@
     {
       "id": "plane:kamigawa",
       "plane": "Kamigawa",
-      "evidence_status": "PARTIAL_DIRECT_GRAPH_CLAIMS_ONLY",
+      "evidence_status": "PARTIAL_DIRECT_AND_SEPARATELY_CURATED_CONTEXT",
       "distinct_claims": 8,
       "facts": [
         {
@@ -2530,8 +3312,10 @@
           ]
         }
       ],
+      "contextual_claims": [],
       "known_gaps": [
         "Direct claims are not an exhaustive history of this plane.",
+        "Curated same-plane story context is not a direct claim-to-plane edge and does not prove the geography of every participant in an entire arc.",
         "Era labels and publication dates are not a verified sequence or AR calendar year.",
         "Absence of a cited event or person is not evidence it never occurred or appeared."
       ]
@@ -2539,7 +3323,7 @@
     {
       "id": "plane:lorwyn_shadowmoor",
       "plane": "Lorwyn-Shadowmoor",
-      "evidence_status": "PARTIAL_DIRECT_GRAPH_CLAIMS_ONLY",
+      "evidence_status": "PARTIAL_DIRECT_AND_SEPARATELY_CURATED_CONTEXT",
       "distinct_claims": 3,
       "facts": [
         {
@@ -2615,8 +3399,358 @@
           ]
         }
       ],
+      "contextual_claims": [
+        {
+          "claim_id": "EC001",
+          "grade": "CANON_CONFIRMED",
+          "statement": "After the Great Aurora, Oona was defeated by a coalition of Maralen, Rhys, Brigid, Sygg, Ashling and Colfenor.",
+          "limitation": "",
+          "source_pack": "data/lore_research/pack_p5_lorwyn_eclipsed_2026-10-30.json",
+          "basis": "CURATED_ON_PLANE_STORY_CONTEXT_NOT_DIRECT_GRAPH_EDGE",
+          "scope_note": "These twelve claims from the official Lorwyn Eclipsed guide and story cycle concern local history, residents and the visiting students while there. EC005 and EC016 directly touch the plane and are not duplicated; EC006 and EC008 are set on Arcavios; EC014 only mentions a souvenir later shared elsewhere; EC013 is a storyteller's local folktale rather than verified history. The set and article publication schedule is not an in-universe clock.",
+          "era_label_not_order": "lorwyn_eclipsed_2025",
+          "relations": [
+            {
+              "subject": "Maralen",
+              "relation": "defeated",
+              "object": "Oona"
+            }
+          ],
+          "source_evidence": [
+            {
+              "source_id": "ecl_guide",
+              "title": "Planeswalker's Guide to Lorwyn Eclipsed",
+              "url": "https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-to-lorwyn-eclipsed",
+              "quote": "Once the Great Aurora occurred and transformed the plane into Shadowmoor, Oona was defeated by a coalition consisting of Maralen, an elf named Rhys, a kithkin named Brigid, a merrow named Sygg, a flamekin named Ashling, and a treefolk sapling named Colfenor.",
+              "quote_sha256": "8c9aafd6a39a4b215969605ff616a96e569f06adc9b13fdd72a5043bc3eb67dd"
+            }
+          ]
+        },
+        {
+          "claim_id": "EC002",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Rhys was part of the coalition that defeated Oona.",
+          "limitation": "",
+          "source_pack": "data/lore_research/pack_p5_lorwyn_eclipsed_2026-10-30.json",
+          "basis": "CURATED_ON_PLANE_STORY_CONTEXT_NOT_DIRECT_GRAPH_EDGE",
+          "scope_note": "These twelve claims from the official Lorwyn Eclipsed guide and story cycle concern local history, residents and the visiting students while there. EC005 and EC016 directly touch the plane and are not duplicated; EC006 and EC008 are set on Arcavios; EC014 only mentions a souvenir later shared elsewhere; EC013 is a storyteller's local folktale rather than verified history. The set and article publication schedule is not an in-universe clock.",
+          "era_label_not_order": "lorwyn_eclipsed_2025",
+          "relations": [
+            {
+              "subject": "Rhys",
+              "relation": "defeated",
+              "object": "Oona"
+            }
+          ],
+          "source_evidence": [
+            {
+              "source_id": "ecl_guide",
+              "title": "Planeswalker's Guide to Lorwyn Eclipsed",
+              "url": "https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-to-lorwyn-eclipsed",
+              "quote": "Once the Great Aurora occurred and transformed the plane into Shadowmoor, Oona was defeated by a coalition consisting of Maralen, an elf named Rhys, a kithkin named Brigid, a merrow named Sygg, a flamekin named Ashling, and a treefolk sapling named Colfenor.",
+              "quote_sha256": "8c9aafd6a39a4b215969605ff616a96e569f06adc9b13fdd72a5043bc3eb67dd"
+            }
+          ]
+        },
+        {
+          "claim_id": "EC003",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Eirdu is the living embodiment of Lorwyn and a symbol of the sun.",
+          "limitation": "",
+          "source_pack": "data/lore_research/pack_p5_lorwyn_eclipsed_2026-10-30.json",
+          "basis": "CURATED_ON_PLANE_STORY_CONTEXT_NOT_DIRECT_GRAPH_EDGE",
+          "scope_note": "These twelve claims from the official Lorwyn Eclipsed guide and story cycle concern local history, residents and the visiting students while there. EC005 and EC016 directly touch the plane and are not duplicated; EC006 and EC008 are set on Arcavios; EC014 only mentions a souvenir later shared elsewhere; EC013 is a storyteller's local folktale rather than verified history. The set and article publication schedule is not an in-universe clock.",
+          "era_label_not_order": "lorwyn_eclipsed_2025",
+          "relations": [
+            {
+              "subject": "Eirdu",
+              "relation": "embodies",
+              "object": "Lorwyn (day aspect)"
+            }
+          ],
+          "source_evidence": [
+            {
+              "source_id": "ecl_guide",
+              "title": "Planeswalker's Guide to Lorwyn Eclipsed",
+              "url": "https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-to-lorwyn-eclipsed",
+              "quote": "Eirdu Art by: Lucas Graciano Eirdu is the living embodiment of Lorwyn and a symbol of the sun.",
+              "quote_sha256": "0499a2b9672b5cc6cce1d114454e2504bd1a78a95689a7e83ecf6062def07d91"
+            }
+          ]
+        },
+        {
+          "claim_id": "EC004",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Isilu is the living embodiment of Shadowmoor and a symbol of the moon.",
+          "limitation": "",
+          "source_pack": "data/lore_research/pack_p5_lorwyn_eclipsed_2026-10-30.json",
+          "basis": "CURATED_ON_PLANE_STORY_CONTEXT_NOT_DIRECT_GRAPH_EDGE",
+          "scope_note": "These twelve claims from the official Lorwyn Eclipsed guide and story cycle concern local history, residents and the visiting students while there. EC005 and EC016 directly touch the plane and are not duplicated; EC006 and EC008 are set on Arcavios; EC014 only mentions a souvenir later shared elsewhere; EC013 is a storyteller's local folktale rather than verified history. The set and article publication schedule is not an in-universe clock.",
+          "era_label_not_order": "lorwyn_eclipsed_2025",
+          "relations": [
+            {
+              "subject": "Isilu",
+              "relation": "embodies",
+              "object": "Shadowmoor (night aspect)"
+            }
+          ],
+          "source_evidence": [
+            {
+              "source_id": "ecl_guide",
+              "title": "Planeswalker's Guide to Lorwyn Eclipsed",
+              "url": "https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-to-lorwyn-eclipsed",
+              "quote": "Isilu Art by: Lucas Graciano Isilu is the living embodiment of Shadowmoor and a symbol of the moon.",
+              "quote_sha256": "50130aeab3002c9e12d978886d19d4092d6926a1a7eef45bbf4b61753b5930ec"
+            }
+          ]
+        },
+        {
+          "claim_id": "EC007",
+          "grade": "CANON_IMPLIED",
+          "statement": "The Strixhaven students (Kirol, Abigale, Tam, Sanar) fall through a tunnel into Lorwyn.",
+          "limitation": "The quoted 'we' is one of the students; Kirol's presence is shown elsewhere in the episode.",
+          "source_pack": "data/lore_research/pack_p5_lorwyn_eclipsed_2026-10-30.json",
+          "basis": "CURATED_ON_PLANE_STORY_CONTEXT_NOT_DIRECT_GRAPH_EDGE",
+          "scope_note": "These twelve claims from the official Lorwyn Eclipsed guide and story cycle concern local history, residents and the visiting students while there. EC005 and EC016 directly touch the plane and are not duplicated; EC006 and EC008 are set on Arcavios; EC014 only mentions a souvenir later shared elsewhere; EC013 is a storyteller's local folktale rather than verified history. The set and article publication schedule is not an in-universe clock.",
+          "era_label_not_order": "lorwyn_eclipsed_2025",
+          "relations": [
+            {
+              "subject": "Kirol",
+              "relation": "travelled_to",
+              "object": "Lorwyn (day aspect)"
+            }
+          ],
+          "source_evidence": [
+            {
+              "source_id": "ecl_ep2",
+              "title": "Lorwyn Eclipsed | Episode 2: Shake Off Slumber",
+              "url": "https://magic.wizards.com/en/news/magic-story/lorwyn-eclipsed-episode-2-shake-off-slumber",
+              "quote": "We slipped and fell, and we wound up in your meadow.",
+              "quote_sha256": "4d44186f9c5f6959eb4b7b9e8067e987f55d2dda188a1ba5879d244237af7498"
+            },
+            {
+              "source_id": "ecl_ep2",
+              "title": "Lorwyn Eclipsed | Episode 2: Shake Off Slumber",
+              "url": "https://magic.wizards.com/en/news/magic-story/lorwyn-eclipsed-episode-2-shake-off-slumber",
+              "quote": "People tumble down tunnels and fetch up here in Lorwyn, if they're lucky, or the other side of the division, in Shadowmoor, if they're not.\"",
+              "quote_sha256": "8268ebbea28fe1a8f2b6a4f62878209d2bd562a02e33074987cd399e53acdd9f"
+            }
+          ]
+        },
+        {
+          "claim_id": "EC009",
+          "grade": "CANON_CONFIRMED",
+          "statement": "The elf Lluwen takes Kirol captive, believing they have information for the 'high perfect'.",
+          "limitation": "",
+          "source_pack": "data/lore_research/pack_p5_lorwyn_eclipsed_2026-10-30.json",
+          "basis": "CURATED_ON_PLANE_STORY_CONTEXT_NOT_DIRECT_GRAPH_EDGE",
+          "scope_note": "These twelve claims from the official Lorwyn Eclipsed guide and story cycle concern local history, residents and the visiting students while there. EC005 and EC016 directly touch the plane and are not duplicated; EC006 and EC008 are set on Arcavios; EC014 only mentions a souvenir later shared elsewhere; EC013 is a storyteller's local folktale rather than verified history. The set and article publication schedule is not an in-universe clock.",
+          "era_label_not_order": "lorwyn_eclipsed_2025",
+          "relations": [
+            {
+              "subject": "Lluwen",
+              "relation": "captured",
+              "object": "Kirol"
+            }
+          ],
+          "source_evidence": [
+            {
+              "source_id": "ecl_ep4",
+              "title": "Lorwyn Eclipsed | Episode 4: Fetch Me That Flower",
+              "url": "https://magic.wizards.com/en/news/magic-story/lorwyn-eclipsed-episode-4-fetch-me-that-flower",
+              "quote": "Now, they were alone with a strange, hooved elf who seemed to think they had valuable information that someone called the \"high perfect\" would want to hear.",
+              "quote_sha256": "f0054d7abb55c7ba7d67d27da5741d9a0ff8d295e6bd1a8014388d31947ba3f1"
+            },
+            {
+              "source_id": "ecl_ep4",
+              "title": "Lorwyn Eclipsed | Episode 4: Fetch Me That Flower",
+              "url": "https://magic.wizards.com/en/news/magic-story/lorwyn-eclipsed-episode-4-fetch-me-that-flower",
+              "quote": "Lluwen prodded them with the tip of his spear again.",
+              "quote_sha256": "a882561a5d810a48c340ea4045f2ab012a78b4685e143111bb1a155e5bdc235e"
+            }
+          ]
+        },
+        {
+          "claim_id": "EC010",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Maralen leads Sanar and Tam in an escape while avoiding Rhys's pursuit.",
+          "limitation": "",
+          "source_pack": "data/lore_research/pack_p5_lorwyn_eclipsed_2026-10-30.json",
+          "basis": "CURATED_ON_PLANE_STORY_CONTEXT_NOT_DIRECT_GRAPH_EDGE",
+          "scope_note": "These twelve claims from the official Lorwyn Eclipsed guide and story cycle concern local history, residents and the visiting students while there. EC005 and EC016 directly touch the plane and are not duplicated; EC006 and EC008 are set on Arcavios; EC014 only mentions a souvenir later shared elsewhere; EC013 is a storyteller's local folktale rather than verified history. The set and article publication schedule is not an in-universe clock.",
+          "era_label_not_order": "lorwyn_eclipsed_2025",
+          "relations": [
+            {
+              "subject": "Maralen",
+              "relation": "aided",
+              "object": "Tam (Tamira)"
+            }
+          ],
+          "source_evidence": [
+            {
+              "source_id": "ecl_ep5",
+              "title": "Lorwyn Eclipsed | Episode 5: If We Shadows",
+              "url": "https://magic.wizards.com/en/news/magic-story/lorwyn-eclipsed-episode-5-if-we-shadows",
+              "quote": "Following Maralen, Sanar and Tam ran to the edge of the palace grounds, where a potentially deadly fall to the ground awaited them.",
+              "quote_sha256": "75485a0a6deba24c2a6952237353c35f4ecf6e80dc793c500f01f052075fe5a0"
+            },
+            {
+              "source_id": "ecl_ep5",
+              "title": "Lorwyn Eclipsed | Episode 5: If We Shadows",
+              "url": "https://magic.wizards.com/en/news/magic-story/lorwyn-eclipsed-episode-5-if-we-shadows",
+              "quote": "\"Well, I can't call a faerie swarm to help us, or Rhys will follow them!\" snapped Maralen.",
+              "quote_sha256": "5783e74cf7e794afcaaed202e39c8fa4eb7cdd8d8f17e572379a1e4fcad197e8"
+            }
+          ]
+        },
+        {
+          "claim_id": "EC011",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Ashling places herself between the students and the advancing Isilu.",
+          "limitation": "",
+          "source_pack": "data/lore_research/pack_p5_lorwyn_eclipsed_2026-10-30.json",
+          "basis": "CURATED_ON_PLANE_STORY_CONTEXT_NOT_DIRECT_GRAPH_EDGE",
+          "scope_note": "These twelve claims from the official Lorwyn Eclipsed guide and story cycle concern local history, residents and the visiting students while there. EC005 and EC016 directly touch the plane and are not duplicated; EC006 and EC008 are set on Arcavios; EC014 only mentions a souvenir later shared elsewhere; EC013 is a storyteller's local folktale rather than verified history. The set and article publication schedule is not an in-universe clock.",
+          "era_label_not_order": "lorwyn_eclipsed_2025",
+          "relations": [
+            {
+              "subject": "Ashling",
+              "relation": "confronted",
+              "object": "Isilu"
+            }
+          ],
+          "source_evidence": [
+            {
+              "source_id": "ecl_ep6",
+              "title": "Lorwyn Eclipsed | Episode 6: Full of Hateful Fantasies",
+              "url": "https://magic.wizards.com/en/news/magic-story/lorwyn-eclipsed-episode-6-full-of-hateful-fantasies",
+              "quote": "Ashling stepped in front of the two students, blue fire blazing skyward, and looked gravely up at Isilu.",
+              "quote_sha256": "e01096d95a7e725192a274643f02c377fa6c6b7ee7a91b219f9d9efae8c2b606"
+            }
+          ]
+        },
+        {
+          "claim_id": "EC012",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Rhys kneels beside the dying Maralen after the battle with Isilu.",
+          "limitation": "",
+          "source_pack": "data/lore_research/pack_p5_lorwyn_eclipsed_2026-10-30.json",
+          "basis": "CURATED_ON_PLANE_STORY_CONTEXT_NOT_DIRECT_GRAPH_EDGE",
+          "scope_note": "These twelve claims from the official Lorwyn Eclipsed guide and story cycle concern local history, residents and the visiting students while there. EC005 and EC016 directly touch the plane and are not duplicated; EC006 and EC008 are set on Arcavios; EC014 only mentions a souvenir later shared elsewhere; EC013 is a storyteller's local folktale rather than verified history. The set and article publication schedule is not an in-universe clock.",
+          "era_label_not_order": "lorwyn_eclipsed_2025",
+          "relations": [
+            {
+              "subject": "Rhys",
+              "relation": "tended",
+              "object": "Maralen"
+            }
+          ],
+          "source_evidence": [
+            {
+              "source_id": "ecl_ep7",
+              "title": "Lorwyn Eclipsed | Episode 7: The Charm Dissolves Apace",
+              "url": "https://magic.wizards.com/en/news/magic-story/lorwyn-eclipsed-episode-7-the-charm-dissolves-apace",
+              "quote": "On the other side of Isilu, Rhys looked up from where he knelt beside the unmoving form of Maralen, whose breath had grown ever shallower and weaker as the minutes slipped away from her.",
+              "quote_sha256": "791249f325368b41df20077fdaa1a0086066f1480f4401d50f3e61c0966287bc"
+            }
+          ]
+        },
+        {
+          "claim_id": "EC015",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Cerys inherits the Shadowmoor house and belongings of her late uncle Gethin.",
+          "limitation": "",
+          "source_pack": "data/lore_research/pack_p5_lorwyn_eclipsed_2026-10-30.json",
+          "basis": "CURATED_ON_PLANE_STORY_CONTEXT_NOT_DIRECT_GRAPH_EDGE",
+          "scope_note": "These twelve claims from the official Lorwyn Eclipsed guide and story cycle concern local history, residents and the visiting students while there. EC005 and EC016 directly touch the plane and are not duplicated; EC006 and EC008 are set on Arcavios; EC014 only mentions a souvenir later shared elsewhere; EC013 is a storyteller's local folktale rather than verified history. The set and article publication schedule is not an in-universe clock.",
+          "era_label_not_order": "lorwyn_eclipsed_2025",
+          "relations": [
+            {
+              "subject": "Cerys",
+              "relation": "niece_of",
+              "object": "Gethin"
+            }
+          ],
+          "source_evidence": [
+            {
+              "source_id": "ecl_star",
+              "title": "Lorwyn Eclipsed | Star-Crossed",
+              "url": "https://magic.wizards.com/en/news/magic-story/lorwyn-eclipsed-star-crossed",
+              "quote": "Her Uncle Gethin's collection had once been the envy of his peers, but Cerys doubted that even the boggarts would raid what was left behind.",
+              "quote_sha256": "aa8d021f584971a26b858cfa48f8d6779fbc9390366746becd282bb6daad9210"
+            },
+            {
+              "source_id": "ecl_star",
+              "title": "Lorwyn Eclipsed | Star-Crossed",
+              "url": "https://magic.wizards.com/en/news/magic-story/lorwyn-eclipsed-star-crossed",
+              "quote": "Just a few sentences scrawled with a tired hand, willing the last of his belongings to Cerys—the only blood relative he had left.",
+              "quote_sha256": "aa56ec1fbacaeeb8a3e513953eb3e67c7a21416660e5de247bf7de7cc737e1c5"
+            }
+          ]
+        },
+        {
+          "claim_id": "EC017",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Maralen granted Rhys immortality on condition that he poison her if Oona's power corrupts her.",
+          "limitation": "",
+          "source_pack": "data/lore_research/pack_p5_lorwyn_eclipsed_2026-10-30.json",
+          "basis": "CURATED_ON_PLANE_STORY_CONTEXT_NOT_DIRECT_GRAPH_EDGE",
+          "scope_note": "These twelve claims from the official Lorwyn Eclipsed guide and story cycle concern local history, residents and the visiting students while there. EC005 and EC016 directly touch the plane and are not duplicated; EC006 and EC008 are set on Arcavios; EC014 only mentions a souvenir later shared elsewhere; EC013 is a storyteller's local folktale rather than verified history. The set and article publication schedule is not an in-universe clock.",
+          "era_label_not_order": "lorwyn_eclipsed_2025",
+          "relations": [
+            {
+              "subject": "Rhys",
+              "relation": "bound_by_pact_with",
+              "object": "Maralen"
+            }
+          ],
+          "source_evidence": [
+            {
+              "source_id": "ecl_legends",
+              "title": "The Legends of Lorwyn Eclipsed",
+              "url": "https://magic.wizards.com/en/news/magic-story/the-legends-of-lorwyn-eclipsed",
+              "quote": "A member of the group that defeated Oona nearly forty years ago, Rhys has been kept alive via a magical pact with Maralen.",
+              "quote_sha256": "995a3993918ddc45966b702cbe00ef5f1afa15b67db5ceef81e8c70165039f49"
+            },
+            {
+              "source_id": "ecl_legends",
+              "title": "The Legends of Lorwyn Eclipsed",
+              "url": "https://magic.wizards.com/en/news/magic-story/the-legends-of-lorwyn-eclipsed",
+              "quote": "Fearing what might happen once her power fully blossomed, she granted Rhys immortality on the condition that he must poison her should any hint arise that Oona's power is corrupting her.",
+              "quote_sha256": "e90e32973c3be5081ae1c5425c402feeb968c3cdc71c38aaca1a73d05d9d4599"
+            }
+          ]
+        },
+        {
+          "claim_id": "EC018",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Brigid now trains the city watch in Goldmeadow.",
+          "limitation": "",
+          "source_pack": "data/lore_research/pack_p5_lorwyn_eclipsed_2026-10-30.json",
+          "basis": "CURATED_ON_PLANE_STORY_CONTEXT_NOT_DIRECT_GRAPH_EDGE",
+          "scope_note": "These twelve claims from the official Lorwyn Eclipsed guide and story cycle concern local history, residents and the visiting students while there. EC005 and EC016 directly touch the plane and are not duplicated; EC006 and EC008 are set on Arcavios; EC014 only mentions a souvenir later shared elsewhere; EC013 is a storyteller's local folktale rather than verified history. The set and article publication schedule is not an in-universe clock.",
+          "era_label_not_order": "lorwyn_eclipsed_2025",
+          "relations": [
+            {
+              "subject": "Brigid",
+              "relation": "lives_in",
+              "object": "Goldmeadow"
+            }
+          ],
+          "source_evidence": [
+            {
+              "source_id": "ecl_legends",
+              "title": "The Legends of Lorwyn Eclipsed",
+              "url": "https://magic.wizards.com/en/news/magic-story/the-legends-of-lorwyn-eclipsed",
+              "quote": "A principled member of the group responsible for Oona's downfall, Brigid now lives a simple life in Lorwyn training the city watch in Goldmeadow.",
+              "quote_sha256": "bd087c9805eb706da193d779a4591fa97c62d92b8643722dbb12c04188e2d0e4"
+            }
+          ]
+        }
+      ],
       "known_gaps": [
         "Direct claims are not an exhaustive history of this plane.",
+        "Curated same-plane story context is not a direct claim-to-plane edge and does not prove the geography of every participant in an entire arc.",
         "Era labels and publication dates are not a verified sequence or AR calendar year.",
         "Absence of a cited event or person is not evidence it never occurred or appeared."
       ]
@@ -2624,7 +3758,7 @@
     {
       "id": "plane:meditation_realm",
       "plane": "Meditation Realm",
-      "evidence_status": "PARTIAL_DIRECT_GRAPH_CLAIMS_ONLY",
+      "evidence_status": "PARTIAL_DIRECT_AND_SEPARATELY_CURATED_CONTEXT",
       "distinct_claims": 3,
       "facts": [
         {
@@ -2705,8 +3839,10 @@
           ]
         }
       ],
+      "contextual_claims": [],
       "known_gaps": [
         "Direct claims are not an exhaustive history of this plane.",
+        "Curated same-plane story context is not a direct claim-to-plane edge and does not prove the geography of every participant in an entire arc.",
         "Era labels and publication dates are not a verified sequence or AR calendar year.",
         "Absence of a cited event or person is not evidence it never occurred or appeared."
       ]
@@ -2714,7 +3850,7 @@
     {
       "id": "plane:mirrodin",
       "plane": "Mirrodin / New Phyrexia",
-      "evidence_status": "PARTIAL_DIRECT_GRAPH_CLAIMS_ONLY",
+      "evidence_status": "PARTIAL_DIRECT_AND_SEPARATELY_CURATED_CONTEXT",
       "distinct_claims": 10,
       "facts": [
         {
@@ -2968,8 +4104,10 @@
           ]
         }
       ],
+      "contextual_claims": [],
       "known_gaps": [
         "Direct claims are not an exhaustive history of this plane.",
+        "Curated same-plane story context is not a direct claim-to-plane edge and does not prove the geography of every participant in an entire arc.",
         "Era labels and publication dates are not a verified sequence or AR calendar year.",
         "Absence of a cited event or person is not evidence it never occurred or appeared."
       ]
@@ -2977,7 +4115,7 @@
     {
       "id": "plane:muraganda",
       "plane": "Muraganda",
-      "evidence_status": "PARTIAL_DIRECT_GRAPH_CLAIMS_ONLY",
+      "evidence_status": "PARTIAL_DIRECT_AND_SEPARATELY_CURATED_CONTEXT",
       "distinct_claims": 1,
       "facts": [
         {
@@ -3005,8 +4143,10 @@
           ]
         }
       ],
+      "contextual_claims": [],
       "known_gaps": [
         "Direct claims are not an exhaustive history of this plane.",
+        "Curated same-plane story context is not a direct claim-to-plane edge and does not prove the geography of every participant in an entire arc.",
         "Era labels and publication dates are not a verified sequence or AR calendar year.",
         "Absence of a cited event or person is not evidence it never occurred or appeared."
       ]
@@ -3014,7 +4154,7 @@
     {
       "id": "plane:new_capenna",
       "plane": "New Capenna",
-      "evidence_status": "PARTIAL_DIRECT_GRAPH_CLAIMS_ONLY",
+      "evidence_status": "PARTIAL_DIRECT_AND_SEPARATELY_CURATED_CONTEXT",
       "distinct_claims": 2,
       "facts": [
         {
@@ -3071,8 +4211,499 @@
           ]
         }
       ],
+      "contextual_claims": [
+        {
+          "claim_id": "SN001",
+          "grade": "CANON_CONFIRMED",
+          "statement": "The crime lord known in New Capenna as the Adversary is Ob Nixilis.",
+          "limitation": "",
+          "source_pack": "data/lore_research/pack_p5_streets_of_new_capenna_2026-10-30.json",
+          "basis": "CURATED_ON_PLANE_STORY_CONTEXT_NOT_DIRECT_GRAPH_EDGE",
+          "scope_note": "These fifteen claims concern the documented New Capenna crime families, Halo, Giada, Xander, Elspeth and the city's past Phyrexian invasion. SN015 is excluded because it occurs on Dominaria. The Demon Lords' ancient history is attributed to Xander's archived account, not independently certified as a comprehensive world chronicle.",
+          "era_label_not_order": "new_capenna_snc_2022",
+          "relations": [
+            {
+              "subject": "Ob Nixilis (the Adversary)",
+              "relation": "identified_with",
+              "object": "The Adversary (title)"
+            }
+          ],
+          "source_evidence": [
+            {
+              "source_id": "snc_ep5",
+              "title": "Streets of New Capenna | Episode 5: Hymn of the Angels",
+              "url": "https://magic.wizards.com/en/news/magic-story/episode-5-hymn-angels-2022-04-05",
+              "quote": "Elspeth turned to see a hulking, horned man. Two wings of membrane, the color of old blood, stretched behind him. The Adversary.",
+              "quote_sha256": "ea2e2a186161ecb433a2aa59dae175126decf6df18edcfd7edeef87f3c8eccd6"
+            },
+            {
+              "source_id": "snc_ep5",
+              "title": "Streets of New Capenna | Episode 5: Hymn of the Angels",
+              "url": "https://magic.wizards.com/en/news/magic-story/episode-5-hymn-angels-2022-04-05",
+              "quote": "\"Good of you to show yourself, Ob Nixilis.\"",
+              "quote_sha256": "18bd7a4d1c2a33018c1cc841205e1b6ef79699bab05f6212fe622da6ab4185b9"
+            }
+          ]
+        },
+        {
+          "claim_id": "SN002",
+          "grade": "CANON_CONFIRMED",
+          "statement": "The Cabaretti's secret 'Font' of unlimited Halo is the young woman Giada.",
+          "limitation": "",
+          "source_pack": "data/lore_research/pack_p5_streets_of_new_capenna_2026-10-30.json",
+          "basis": "CURATED_ON_PLANE_STORY_CONTEXT_NOT_DIRECT_GRAPH_EDGE",
+          "scope_note": "These fifteen claims concern the documented New Capenna crime families, Halo, Giada, Xander, Elspeth and the city's past Phyrexian invasion. SN015 is excluded because it occurs on Dominaria. The Demon Lords' ancient history is attributed to Xander's archived account, not independently certified as a comprehensive world chronicle.",
+          "era_label_not_order": "new_capenna_snc_2022",
+          "relations": [
+            {
+              "subject": "Giada",
+              "relation": "identified_with",
+              "object": "The Font"
+            }
+          ],
+          "source_evidence": [
+            {
+              "source_id": "snc_ep4",
+              "title": "Streets of New Capenna | Episode 4: The Font",
+              "url": "https://magic.wizards.com/en/news/magic-story/episode-4-font-2022-04-04",
+              "quote": "Giada was their precious Font.",
+              "quote_sha256": "838e1acba06ac3ce8b8ecdbe806016a33d1121127a0162c8216172ae8c63d94d"
+            },
+            {
+              "source_id": "snc_ep4",
+              "title": "Streets of New Capenna | Episode 4: The Font",
+              "url": "https://magic.wizards.com/en/news/magic-story/episode-4-font-2022-04-04",
+              "quote": "She was giving her life for the Cabaretti and their Halo.",
+              "quote_sha256": "7fa4c208c10c8ec36e75a6bd9c4bf2c6786bd5241ccd54af5b59bd95ed749ae9"
+            }
+          ]
+        },
+        {
+          "claim_id": "SN003",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Ob Nixilis kills Xander, head of the Maestros, during the night of the Crescendo.",
+          "limitation": "",
+          "source_pack": "data/lore_research/pack_p5_streets_of_new_capenna_2026-10-30.json",
+          "basis": "CURATED_ON_PLANE_STORY_CONTEXT_NOT_DIRECT_GRAPH_EDGE",
+          "scope_note": "These fifteen claims concern the documented New Capenna crime families, Halo, Giada, Xander, Elspeth and the city's past Phyrexian invasion. SN015 is excluded because it occurs on Dominaria. The Demon Lords' ancient history is attributed to Xander's archived account, not independently certified as a comprehensive world chronicle.",
+          "era_label_not_order": "snc_crescendo_2022",
+          "relations": [
+            {
+              "subject": "Ob Nixilis (the Adversary)",
+              "relation": "killed",
+              "object": "Lord Xander"
+            }
+          ],
+          "source_evidence": [
+            {
+              "source_id": "snc_ep4",
+              "title": "Streets of New Capenna | Episode 4: The Font",
+              "url": "https://magic.wizards.com/en/news/magic-story/episode-4-font-2022-04-04",
+              "quote": "Ob Nixilis snorted and spit on the mutilated body that lay at his feet.",
+              "quote_sha256": "e14b6691bc1934848e44019f18996b70b41e6bf855c95cdac9c74938daa4a4c2"
+            },
+            {
+              "source_id": "snc_ep4",
+              "title": "Streets of New Capenna | Episode 4: The Font",
+              "url": "https://magic.wizards.com/en/news/magic-story/episode-4-font-2022-04-04",
+              "quote": "The mighty head of the Maestros, the infamous Xander, master assassin. Not the master of anything now.",
+              "quote_sha256": "594bf44e8707f14c521aac83e4bd62d1cef034f8dda802cf10fcda34a80a49b7"
+            }
+          ]
+        },
+        {
+          "claim_id": "SN004",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Lord Xander leads the Maestros.",
+          "limitation": "",
+          "source_pack": "data/lore_research/pack_p5_streets_of_new_capenna_2026-10-30.json",
+          "basis": "CURATED_ON_PLANE_STORY_CONTEXT_NOT_DIRECT_GRAPH_EDGE",
+          "scope_note": "These fifteen claims concern the documented New Capenna crime families, Halo, Giada, Xander, Elspeth and the city's past Phyrexian invasion. SN015 is excluded because it occurs on Dominaria. The Demon Lords' ancient history is attributed to Xander's archived account, not independently certified as a comprehensive world chronicle.",
+          "era_label_not_order": "new_capenna_snc_2022",
+          "relations": [
+            {
+              "subject": "Lord Xander",
+              "relation": "leader_of",
+              "object": "The Maestros"
+            }
+          ],
+          "source_evidence": [
+            {
+              "source_id": "snc_guide",
+              "title": "Planeswalker's Guide to Streets of New Capenna",
+              "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-streets-of-new-capenna",
+              "quote": "Led by the demon-vampire Lord Xander, the Maestros are New Capenna's premier assassins, vampiric professional killers who see a contract not just as business but as a chance to perform.",
+              "quote_sha256": "99a5efbd0364af2753198e944c37c8098460c3633e0d1c4c4e168cd6b00d2aad"
+            }
+          ]
+        },
+        {
+          "claim_id": "SN005",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Xander's farewell letter passes leadership of the Maestros to Anhelo.",
+          "limitation": "",
+          "source_pack": "data/lore_research/pack_p5_streets_of_new_capenna_2026-10-30.json",
+          "basis": "CURATED_ON_PLANE_STORY_CONTEXT_NOT_DIRECT_GRAPH_EDGE",
+          "scope_note": "These fifteen claims concern the documented New Capenna crime families, Halo, Giada, Xander, Elspeth and the city's past Phyrexian invasion. SN015 is excluded because it occurs on Dominaria. The Demon Lords' ancient history is attributed to Xander's archived account, not independently certified as a comprehensive world chronicle.",
+          "era_label_not_order": "snc_aftermath_2022",
+          "relations": [
+            {
+              "subject": "Anhelo",
+              "relation": "leader_of",
+              "object": "The Maestros"
+            }
+          ],
+          "source_evidence": [
+            {
+              "source_id": "snc_ep5",
+              "title": "Streets of New Capenna | Episode 5: Hymn of the Angels",
+              "url": "https://magic.wizards.com/en/news/magic-story/episode-5-hymn-angels-2022-04-05",
+              "quote": "The Maestros are now in your hands, and I trust that after the long night ahead, you will help them usher in a new era.",
+              "quote_sha256": "6998f0023965f3bacad0fcb4b63e04c30c203fa6a2ce01578693b7cf15da36a4"
+            }
+          ]
+        },
+        {
+          "claim_id": "SN006",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Elspeth vows to protect Giada.",
+          "limitation": "",
+          "source_pack": "data/lore_research/pack_p5_streets_of_new_capenna_2026-10-30.json",
+          "basis": "CURATED_ON_PLANE_STORY_CONTEXT_NOT_DIRECT_GRAPH_EDGE",
+          "scope_note": "These fifteen claims concern the documented New Capenna crime families, Halo, Giada, Xander, Elspeth and the city's past Phyrexian invasion. SN015 is excluded because it occurs on Dominaria. The Demon Lords' ancient history is attributed to Xander's archived account, not independently certified as a comprehensive world chronicle.",
+          "era_label_not_order": "new_capenna_snc_2022",
+          "relations": [
+            {
+              "subject": "Elspeth Tirel",
+              "relation": "guardian_of",
+              "object": "Giada"
+            }
+          ],
+          "source_evidence": [
+            {
+              "source_id": "snc_ep5",
+              "title": "Streets of New Capenna | Episode 5: Hymn of the Angels",
+              "url": "https://magic.wizards.com/en/news/magic-story/episode-5-hymn-angels-2022-04-05",
+              "quote": "Elspeth had made a promise that she would keep Giada safe until her last breath.",
+              "quote_sha256": "6a4c4a2098d7ebfa53671c51fb3de562143f73505b172aa6580a751268c4f1d6"
+            }
+          ]
+        },
+        {
+          "claim_id": "SN007",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Giada heals the mortally wounded Elspeth with Halo during the Crescendo battle.",
+          "limitation": "",
+          "source_pack": "data/lore_research/pack_p5_streets_of_new_capenna_2026-10-30.json",
+          "basis": "CURATED_ON_PLANE_STORY_CONTEXT_NOT_DIRECT_GRAPH_EDGE",
+          "scope_note": "These fifteen claims concern the documented New Capenna crime families, Halo, Giada, Xander, Elspeth and the city's past Phyrexian invasion. SN015 is excluded because it occurs on Dominaria. The Demon Lords' ancient history is attributed to Xander's archived account, not independently certified as a comprehensive world chronicle.",
+          "era_label_not_order": "snc_crescendo_2022",
+          "relations": [
+            {
+              "subject": "Giada",
+              "relation": "restored",
+              "object": "Elspeth Tirel"
+            }
+          ],
+          "source_evidence": [
+            {
+              "source_id": "snc_ep5",
+              "title": "Streets of New Capenna | Episode 5: Hymn of the Angels",
+              "url": "https://magic.wizards.com/en/news/magic-story/episode-5-hymn-angels-2022-04-05",
+              "quote": "Giada thrust something to Elspeth's mouth, leaving her no choice but to swallow.",
+              "quote_sha256": "343b530fed26bd40a1277a5e415652579e74a42f5770732211173a73c26269ee"
+            },
+            {
+              "source_id": "snc_ep5",
+              "title": "Streets of New Capenna | Episode 5: Hymn of the Angels",
+              "url": "https://magic.wizards.com/en/news/magic-story/episode-5-hymn-angels-2022-04-05",
+              "quote": "Invisible hands put her broken body back together, slowly restoring consciousness and clarity and shaking Erebos's grasp.",
+              "quote_sha256": "db74142d779034165ffc0ae4f3b55d01b37a432942a184376ae679b4a38599d6"
+            }
+          ]
+        },
+        {
+          "claim_id": "SN008",
+          "grade": "CANON_IMPLIED",
+          "statement": "Giada transforms into Halo and departs with shining figures like her, implied to be New Capenna's angels.",
+          "limitation": "The text does not explicitly name Giada an angel; it shows her looking 'like the rest of the sculpted angels' and leaving with 'others like her'.",
+          "source_pack": "data/lore_research/pack_p5_streets_of_new_capenna_2026-10-30.json",
+          "basis": "CURATED_ON_PLANE_STORY_CONTEXT_NOT_DIRECT_GRAPH_EDGE",
+          "scope_note": "These fifteen claims concern the documented New Capenna crime families, Halo, Giada, Xander, Elspeth and the city's past Phyrexian invasion. SN015 is excluded because it occurs on Dominaria. The Demon Lords' ancient history is attributed to Xander's archived account, not independently certified as a comprehensive world chronicle.",
+          "era_label_not_order": "new_capenna_snc_2022",
+          "relations": [
+            {
+              "subject": "Giada",
+              "relation": "related_to",
+              "object": "Archangels of Old Capenna"
+            }
+          ],
+          "source_evidence": [
+            {
+              "source_id": "snc_ep5",
+              "title": "Streets of New Capenna | Episode 5: Hymn of the Angels",
+              "url": "https://magic.wizards.com/en/news/magic-story/episode-5-hymn-angels-2022-04-05",
+              "quote": "\"Don't fear for me any longer, Elspeth. There is more for me out there—I am going to be with my family now.\"",
+              "quote_sha256": "f8fdba26b7741bc97d05470da01db0e99d483a90c7fafe79f6d97983faf549aa"
+            },
+            {
+              "source_id": "snc_ep5",
+              "title": "Streets of New Capenna | Episode 5: Hymn of the Angels",
+              "url": "https://magic.wizards.com/en/news/magic-story/episode-5-hymn-angels-2022-04-05",
+              "quote": "Giada was framed by the shining outlines of others like her.",
+              "quote_sha256": "f790de73bf75705e2d9cd04c93cab65dca4a1f9b30ddbbfd7b35b496b2afddd0"
+            }
+          ]
+        },
+        {
+          "claim_id": "SN009",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Giada transforms into radiant Halo, repelling Ob Nixilis.",
+          "limitation": "",
+          "source_pack": "data/lore_research/pack_p5_streets_of_new_capenna_2026-10-30.json",
+          "basis": "CURATED_ON_PLANE_STORY_CONTEXT_NOT_DIRECT_GRAPH_EDGE",
+          "scope_note": "These fifteen claims concern the documented New Capenna crime families, Halo, Giada, Xander, Elspeth and the city's past Phyrexian invasion. SN015 is excluded because it occurs on Dominaria. The Demon Lords' ancient history is attributed to Xander's archived account, not independently certified as a comprehensive world chronicle.",
+          "era_label_not_order": "snc_cathedral_2022",
+          "relations": [
+            {
+              "subject": "Giada",
+              "relation": "created",
+              "object": "Halo"
+            }
+          ],
+          "source_evidence": [
+            {
+              "source_id": "snc_ep5",
+              "title": "Streets of New Capenna | Episode 5: Hymn of the Angels",
+              "url": "https://magic.wizards.com/en/news/magic-story/episode-5-hymn-angels-2022-04-05",
+              "quote": "Light filled the room. It shot out in every direction from Giada's body, the force of the blast strong enough to throw Ob Nixilis away.",
+              "quote_sha256": "3fc76667bf3622d9f1083dba390bda8bf72c4e8911b61bc23d0fd3fa5c026ffb"
+            },
+            {
+              "source_id": "snc_ep5",
+              "title": "Streets of New Capenna | Episode 5: Hymn of the Angels",
+              "url": "https://magic.wizards.com/en/news/magic-story/episode-5-hymn-angels-2022-04-05",
+              "quote": "She looked on in awe as Giada was transformed into the radiant magic of Halo.",
+              "quote_sha256": "a3297374a1cea1ab4f4c158a26eac408db04f4c67d97623c1855a09f89d52b95"
+            }
+          ]
+        },
+        {
+          "claim_id": "SN010",
+          "grade": "CANON_CONFIRMED",
+          "statement": "With the Halo-transformed sword, Elspeth wounds Ob Nixilis, who planeswalks away; he escapes rather than dies.",
+          "limitation": "",
+          "source_pack": "data/lore_research/pack_p5_streets_of_new_capenna_2026-10-30.json",
+          "basis": "CURATED_ON_PLANE_STORY_CONTEXT_NOT_DIRECT_GRAPH_EDGE",
+          "scope_note": "These fifteen claims concern the documented New Capenna crime families, Halo, Giada, Xander, Elspeth and the city's past Phyrexian invasion. SN015 is excluded because it occurs on Dominaria. The Demon Lords' ancient history is attributed to Xander's archived account, not independently certified as a comprehensive world chronicle.",
+          "era_label_not_order": "snc_cathedral_2022",
+          "relations": [
+            {
+              "subject": "Elspeth Tirel",
+              "relation": "defeated",
+              "object": "Ob Nixilis (the Adversary)"
+            }
+          ],
+          "source_evidence": [
+            {
+              "source_id": "snc_ep5",
+              "title": "Streets of New Capenna | Episode 5: Hymn of the Angels",
+              "url": "https://magic.wizards.com/en/news/magic-story/episode-5-hymn-angels-2022-04-05",
+              "quote": "Steel met flesh, and she grazed off the side of his neck.",
+              "quote_sha256": "6525d1e567f1839b0b28b4f41139f72a2c91d23d5bc113c20df725b721b11bac"
+            },
+            {
+              "source_id": "snc_ep5",
+              "title": "Streets of New Capenna | Episode 5: Hymn of the Angels",
+              "url": "https://magic.wizards.com/en/news/magic-story/episode-5-hymn-angels-2022-04-05",
+              "quote": "In a blink, he was gone, having planeswalked away.",
+              "quote_sha256": "06c38f8ccaf21c7319ea1d72ad7c954cc86fa373d2538aa3385e17b68766c07f"
+            },
+            {
+              "source_id": "snc_ep5",
+              "title": "Streets of New Capenna | Episode 5: Hymn of the Angels",
+              "url": "https://magic.wizards.com/en/news/magic-story/episode-5-hymn-angels-2022-04-05",
+              "quote": "\"Giada saved us all. But Ob Nixilis got away. This is far from over.\"",
+              "quote_sha256": "45a797c9f22e363071cced67324104e2067071c37dc0c219e179b812bec4c2eb"
+            }
+          ]
+        },
+        {
+          "claim_id": "SN011",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Facing a Phyrexian invasion, Capenna's angels allied with the Demon Lords, who betrayed them and turned their bodies into Halo.",
+          "limitation": "",
+          "source_pack": "data/lore_research/pack_p5_streets_of_new_capenna_2026-10-30.json",
+          "basis": "CURATED_ON_PLANE_STORY_CONTEXT_NOT_DIRECT_GRAPH_EDGE",
+          "scope_note": "These fifteen claims concern the documented New Capenna crime families, Halo, Giada, Xander, Elspeth and the city's past Phyrexian invasion. SN015 is excluded because it occurs on Dominaria. The Demon Lords' ancient history is attributed to Xander's archived account, not independently certified as a comprehensive world chronicle.",
+          "era_label_not_order": "old_capenna_phyrexian_invasion",
+          "relations": [
+            {
+              "subject": "Demon Lords of Old Capenna",
+              "relation": "betrayed",
+              "object": "Archangels of Old Capenna"
+            }
+          ],
+          "source_evidence": [
+            {
+              "source_id": "snc_ep5",
+              "title": "Streets of New Capenna | Episode 5: Hymn of the Angels",
+              "url": "https://magic.wizards.com/en/news/magic-story/episode-5-hymn-angels-2022-04-05",
+              "quote": "In desperation, they formed an alliance with the Demon Lords.",
+              "quote_sha256": "ac657b82cc60bad3ca2f41bdfecaf379f179f43b6807bdeffc9f1876b69476c7"
+            },
+            {
+              "source_id": "snc_guide",
+              "title": "Planeswalker's Guide to Streets of New Capenna",
+              "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-streets-of-new-capenna",
+              "quote": "The vast population of New Capenna had no knowledge of the archdemons' betrayal of the archangels and the five families' power grab.",
+              "quote_sha256": "dfcc305055464a97c7c4f5aca754d6860d6acbe169726a7d8922c989a5fef512"
+            },
+            {
+              "source_id": "snc_ep5",
+              "title": "Streets of New Capenna | Episode 5: Hymn of the Angels",
+              "url": "https://magic.wizards.com/en/news/magic-story/episode-5-hymn-angels-2022-04-05",
+              "quote": "The demons ultimately betrayed the angels, trapping them in a kind of stasis from which they could convert the angels' bodies into Halo, an essence that—as Xander had told her—could be taken to help protect the city.",
+              "quote_sha256": "fb60a67df23ff7089b590de7c88af4e5efd8ae0fa9c35054884b24cba9106d55"
+            }
+          ]
+        },
+        {
+          "claim_id": "SN012",
+          "grade": "CANON_CONFIRMED",
+          "statement": "According to the histories in Xander's archives, the Demon Lords used Halo to defeat a past Phyrexian invasion.",
+          "limitation": "",
+          "source_pack": "data/lore_research/pack_p5_streets_of_new_capenna_2026-10-30.json",
+          "basis": "CURATED_ON_PLANE_STORY_CONTEXT_NOT_DIRECT_GRAPH_EDGE",
+          "scope_note": "These fifteen claims concern the documented New Capenna crime families, Halo, Giada, Xander, Elspeth and the city's past Phyrexian invasion. SN015 is excluded because it occurs on Dominaria. The Demon Lords' ancient history is attributed to Xander's archived account, not independently certified as a comprehensive world chronicle.",
+          "era_label_not_order": "old_capenna_phyrexian_invasion",
+          "relations": [
+            {
+              "subject": "Demon Lords of Old Capenna",
+              "relation": "defeated",
+              "object": "The Phyrexians"
+            }
+          ],
+          "source_evidence": [
+            {
+              "source_id": "snc_ep5",
+              "title": "Streets of New Capenna | Episode 5: Hymn of the Angels",
+              "url": "https://magic.wizards.com/en/news/magic-story/episode-5-hymn-angels-2022-04-05",
+              "quote": "In the distant past, the Phyrexians made an attempt on this plane.",
+              "quote_sha256": "58b4b53ed5a1d6fd9db0d7a0775f5a42f9d3fc7accd6af3a19db884952398cd6"
+            },
+            {
+              "source_id": "snc_ep5",
+              "title": "Streets of New Capenna | Episode 5: Hymn of the Angels",
+              "url": "https://magic.wizards.com/en/news/magic-story/episode-5-hymn-angels-2022-04-05",
+              "quote": "The Demon Lords used Halo to defeat the Phyrexians and then disappeared themselves.",
+              "quote_sha256": "99460df860108fb4d9179041a1c0d5565727a8750fb8f0fe129108c88715879d"
+            }
+          ]
+        },
+        {
+          "claim_id": "SN013",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Elspeth takes Xander's hidden Halo cache and the histories back to Ajani and the Gatewatch as a possible weapon against Phyrexia.",
+          "limitation": "",
+          "source_pack": "data/lore_research/pack_p5_streets_of_new_capenna_2026-10-30.json",
+          "basis": "CURATED_ON_PLANE_STORY_CONTEXT_NOT_DIRECT_GRAPH_EDGE",
+          "scope_note": "These fifteen claims concern the documented New Capenna crime families, Halo, Giada, Xander, Elspeth and the city's past Phyrexian invasion. SN015 is excluded because it occurs on Dominaria. The Demon Lords' ancient history is attributed to Xander's archived account, not independently certified as a comprehensive world chronicle.",
+          "era_label_not_order": "snc_aftermath_2022",
+          "relations": [
+            {
+              "subject": "Elspeth Tirel",
+              "relation": "sought",
+              "object": "Halo"
+            }
+          ],
+          "source_evidence": [
+            {
+              "source_id": "snc_ep5",
+              "title": "Streets of New Capenna | Episode 5: Hymn of the Angels",
+              "url": "https://magic.wizards.com/en/news/magic-story/episode-5-hymn-angels-2022-04-05",
+              "quote": "If it held the Phyrexians at bay here . . . this could be the answer Ajani sought, even if the supply of Halo was dwindling.",
+              "quote_sha256": "c7ac9e2f43d2aca40a214c9583b7b1c5beba2d96a9d7042d82781fbb7152f34e"
+            },
+            {
+              "source_id": "snc_ep5",
+              "title": "Streets of New Capenna | Episode 5: Hymn of the Angels",
+              "url": "https://magic.wizards.com/en/news/magic-story/episode-5-hymn-angels-2022-04-05",
+              "quote": "Elspeth would take it and all the information back to Ajani and the Gatewatch.",
+              "quote_sha256": "75bc411d04f7abce25fbae20446b9b51649ad20d7441fc3175c946182ddb3f16"
+            }
+          ]
+        },
+        {
+          "claim_id": "SN014",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Vivien Reid allies with Elspeth in New Capenna.",
+          "limitation": "",
+          "source_pack": "data/lore_research/pack_p5_streets_of_new_capenna_2026-10-30.json",
+          "basis": "CURATED_ON_PLANE_STORY_CONTEXT_NOT_DIRECT_GRAPH_EDGE",
+          "scope_note": "These fifteen claims concern the documented New Capenna crime families, Halo, Giada, Xander, Elspeth and the city's past Phyrexian invasion. SN015 is excluded because it occurs on Dominaria. The Demon Lords' ancient history is attributed to Xander's archived account, not independently certified as a comprehensive world chronicle.",
+          "era_label_not_order": "new_capenna_snc_2022",
+          "relations": [
+            {
+              "subject": "Vivien Reid",
+              "relation": "allied_with",
+              "object": "Elspeth Tirel"
+            }
+          ],
+          "source_evidence": [
+            {
+              "source_id": "snc_ep3",
+              "title": "Streets of New Capenna | Episode 3: Tests",
+              "url": "https://magic.wizards.com/en/news/magic-story/episode-3-tests-2022-03-30",
+              "quote": "Elspeth always considered herself a decent judge of character, and Vivien seemed trustworthy.",
+              "quote_sha256": "aee79c0f1400ef8bd2e2fae299ed78a851103cdb606e301db00ff71a1e14e500"
+            },
+            {
+              "source_id": "snc_ep5",
+              "title": "Streets of New Capenna | Episode 5: Hymn of the Angels",
+              "url": "https://magic.wizards.com/en/news/magic-story/episode-5-hymn-angels-2022-04-05",
+              "quote": "Elspeth and Vivien stood side by side, staring out the massive window in the same spot Xander had.",
+              "quote_sha256": "096f571e1ca48a7b1e2d9e8efbbc11bc873459bea16313ce5f702c461c9a5a34"
+            }
+          ]
+        },
+        {
+          "claim_id": "SN016",
+          "grade": "CANON_IMPLIED",
+          "statement": "The demons appointed five families to rule New Capenna in their name; by the story's start their alliances are near breaking.",
+          "limitation": "The appointment is told in character dialogue (Episode 3); the Planeswalker's Guide instead frames the families' rise as a 'power grab', so the mechanism is only implied.",
+          "source_pack": "data/lore_research/pack_p5_streets_of_new_capenna_2026-10-30.json",
+          "basis": "CURATED_ON_PLANE_STORY_CONTEXT_NOT_DIRECT_GRAPH_EDGE",
+          "scope_note": "These fifteen claims concern the documented New Capenna crime families, Halo, Giada, Xander, Elspeth and the city's past Phyrexian invasion. SN015 is excluded because it occurs on Dominaria. The Demon Lords' ancient history is attributed to Xander's archived account, not independently certified as a comprehensive world chronicle.",
+          "era_label_not_order": "new_capenna_snc_2022",
+          "relations": [
+            {
+              "subject": "Demon Lords of Old Capenna",
+              "relation": "created",
+              "object": "The five families of New Capenna"
+            }
+          ],
+          "source_evidence": [
+            {
+              "source_id": "snc_ep3",
+              "title": "Streets of New Capenna | Episode 3: Tests",
+              "url": "https://magic.wizards.com/en/news/magic-story/episode-3-tests-2022-03-30",
+              "quote": "When they did, the demons appointed five families to take over the city in their name, drafting a pact with the head of each family.\"",
+              "quote_sha256": "197ca4c725eb55321b448ec490752f1878bd9b02dc806e5dfc46f019285a7c54"
+            },
+            {
+              "source_id": "snc_ep1",
+              "title": "Streets of New Capenna | Episode 1: Homecoming",
+              "url": "https://magic.wizards.com/en/news/magic-story/episode-1-homecoming-2022-03-28",
+              "quote": "The fragile alliances that fostered peace between the five families that ruled the city were being strained to a breaking point from which there would likely be no return.",
+              "quote_sha256": "e73d4c7422061d56d30c9e64b36879dc43d0d968aa9127640476b07d1bd446c9"
+            }
+          ]
+        }
+      ],
       "known_gaps": [
         "Direct claims are not an exhaustive history of this plane.",
+        "Curated same-plane story context is not a direct claim-to-plane edge and does not prove the geography of every participant in an entire arc.",
         "Era labels and publication dates are not a verified sequence or AR calendar year.",
         "Absence of a cited event or person is not evidence it never occurred or appeared."
       ]
@@ -3080,7 +4711,7 @@
     {
       "id": "plane:new_phyrexia",
       "plane": "New Phyrexia",
-      "evidence_status": "PARTIAL_DIRECT_GRAPH_CLAIMS_ONLY",
+      "evidence_status": "PARTIAL_DIRECT_AND_SEPARATELY_CURATED_CONTEXT",
       "distinct_claims": 9,
       "facts": [
         {
@@ -3357,8 +4988,10 @@
           ]
         }
       ],
+      "contextual_claims": [],
       "known_gaps": [
         "Direct claims are not an exhaustive history of this plane.",
+        "Curated same-plane story context is not a direct claim-to-plane edge and does not prove the geography of every participant in an entire arc.",
         "Era labels and publication dates are not a verified sequence or AR calendar year.",
         "Absence of a cited event or person is not evidence it never occurred or appeared."
       ]
@@ -3366,7 +4999,7 @@
     {
       "id": "plane:old_phyrexia",
       "plane": "Phyrexia",
-      "evidence_status": "PARTIAL_DIRECT_GRAPH_CLAIMS_ONLY",
+      "evidence_status": "PARTIAL_DIRECT_AND_SEPARATELY_CURATED_CONTEXT",
       "distinct_claims": 8,
       "facts": [
         {
@@ -3567,8 +5200,10 @@
           ]
         }
       ],
+      "contextual_claims": [],
       "known_gaps": [
         "Direct claims are not an exhaustive history of this plane.",
+        "Curated same-plane story context is not a direct claim-to-plane edge and does not prove the geography of every participant in an entire arc.",
         "Era labels and publication dates are not a verified sequence or AR calendar year.",
         "Absence of a cited event or person is not evidence it never occurred or appeared."
       ]
@@ -3576,7 +5211,7 @@
     {
       "id": "plane:ravnica",
       "plane": "Ravnica",
-      "evidence_status": "PARTIAL_DIRECT_GRAPH_CLAIMS_ONLY",
+      "evidence_status": "PARTIAL_DIRECT_AND_SEPARATELY_CURATED_CONTEXT",
       "distinct_claims": 11,
       "facts": [
         {
@@ -3849,8 +5484,10 @@
           ]
         }
       ],
+      "contextual_claims": [],
       "known_gaps": [
         "Direct claims are not an exhaustive history of this plane.",
+        "Curated same-plane story context is not a direct claim-to-plane edge and does not prove the geography of every participant in an entire arc.",
         "Era labels and publication dates are not a verified sequence or AR calendar year.",
         "Absence of a cited event or person is not evidence it never occurred or appeared."
       ]
@@ -3858,7 +5495,7 @@
     {
       "id": "plane:regatha",
       "plane": "Regatha",
-      "evidence_status": "PARTIAL_DIRECT_GRAPH_CLAIMS_ONLY",
+      "evidence_status": "PARTIAL_DIRECT_AND_SEPARATELY_CURATED_CONTEXT",
       "distinct_claims": 2,
       "facts": [
         {
@@ -3910,8 +5547,10 @@
           ]
         }
       ],
+      "contextual_claims": [],
       "known_gaps": [
         "Direct claims are not an exhaustive history of this plane.",
+        "Curated same-plane story context is not a direct claim-to-plane edge and does not prove the geography of every participant in an entire arc.",
         "Era labels and publication dates are not a verified sequence or AR calendar year.",
         "Absence of a cited event or person is not evidence it never occurred or appeared."
       ]
@@ -3919,7 +5558,7 @@
     {
       "id": "plane:serras_realm",
       "plane": "Serra's Realm",
-      "evidence_status": "PARTIAL_DIRECT_GRAPH_CLAIMS_ONLY",
+      "evidence_status": "PARTIAL_DIRECT_AND_SEPARATELY_CURATED_CONTEXT",
       "distinct_claims": 2,
       "facts": [
         {
@@ -3971,8 +5610,10 @@
           ]
         }
       ],
+      "contextual_claims": [],
       "known_gaps": [
         "Direct claims are not an exhaustive history of this plane.",
+        "Curated same-plane story context is not a direct claim-to-plane edge and does not prove the geography of every participant in an entire arc.",
         "Era labels and publication dates are not a verified sequence or AR calendar year.",
         "Absence of a cited event or person is not evidence it never occurred or appeared."
       ]
@@ -3980,7 +5621,7 @@
     {
       "id": "plane:shandalar",
       "plane": "Shandalar",
-      "evidence_status": "PARTIAL_DIRECT_GRAPH_CLAIMS_ONLY",
+      "evidence_status": "PARTIAL_DIRECT_AND_SEPARATELY_CURATED_CONTEXT",
       "distinct_claims": 5,
       "facts": [
         {
@@ -4104,8 +5745,10 @@
           ]
         }
       ],
+      "contextual_claims": [],
       "known_gaps": [
         "Direct claims are not an exhaustive history of this plane.",
+        "Curated same-plane story context is not a direct claim-to-plane edge and does not prove the geography of every participant in an entire arc.",
         "Era labels and publication dates are not a verified sequence or AR calendar year.",
         "Absence of a cited event or person is not evidence it never occurred or appeared."
       ]
@@ -4113,7 +5756,7 @@
     {
       "id": "plane:skalla",
       "plane": "Skalla",
-      "evidence_status": "PARTIAL_DIRECT_GRAPH_CLAIMS_ONLY",
+      "evidence_status": "PARTIAL_DIRECT_AND_SEPARATELY_CURATED_CONTEXT",
       "distinct_claims": 2,
       "facts": [
         {
@@ -4165,8 +5808,10 @@
           ]
         }
       ],
+      "contextual_claims": [],
       "known_gaps": [
         "Direct claims are not an exhaustive history of this plane.",
+        "Curated same-plane story context is not a direct claim-to-plane edge and does not prove the geography of every participant in an entire arc.",
         "Era labels and publication dates are not a verified sequence or AR calendar year.",
         "Absence of a cited event or person is not evidence it never occurred or appeared."
       ]
@@ -4174,7 +5819,7 @@
     {
       "id": "plane:tarkir",
       "plane": "Tarkir",
-      "evidence_status": "PARTIAL_DIRECT_GRAPH_CLAIMS_ONLY",
+      "evidence_status": "PARTIAL_DIRECT_AND_SEPARATELY_CURATED_CONTEXT",
       "distinct_claims": 10,
       "facts": [
         {
@@ -4427,8 +6072,10 @@
           ]
         }
       ],
+      "contextual_claims": [],
       "known_gaps": [
         "Direct claims are not an exhaustive history of this plane.",
+        "Curated same-plane story context is not a direct claim-to-plane edge and does not prove the geography of every participant in an entire arc.",
         "Era labels and publication dates are not a verified sequence or AR calendar year.",
         "Absence of a cited event or person is not evidence it never occurred or appeared."
       ]
@@ -4436,7 +6083,7 @@
     {
       "id": "plane:theros",
       "plane": "Theros",
-      "evidence_status": "PARTIAL_DIRECT_GRAPH_CLAIMS_ONLY",
+      "evidence_status": "PARTIAL_DIRECT_AND_SEPARATELY_CURATED_CONTEXT",
       "distinct_claims": 6,
       "facts": [
         {
@@ -4632,8 +6279,10 @@
           ]
         }
       ],
+      "contextual_claims": [],
       "known_gaps": [
         "Direct claims are not an exhaustive history of this plane.",
+        "Curated same-plane story context is not a direct claim-to-plane edge and does not prove the geography of every participant in an entire arc.",
         "Era labels and publication dates are not a verified sequence or AR calendar year.",
         "Absence of a cited event or person is not evidence it never occurred or appeared."
       ]
@@ -4641,7 +6290,7 @@
     {
       "id": "plane:thunder_junction",
       "plane": "Thunder Junction",
-      "evidence_status": "PARTIAL_DIRECT_GRAPH_CLAIMS_ONLY",
+      "evidence_status": "PARTIAL_DIRECT_AND_SEPARATELY_CURATED_CONTEXT",
       "distinct_claims": 2,
       "facts": [
         {
@@ -4693,8 +6342,10 @@
           ]
         }
       ],
+      "contextual_claims": [],
       "known_gaps": [
         "Direct claims are not an exhaustive history of this plane.",
+        "Curated same-plane story context is not a direct claim-to-plane edge and does not prove the geography of every participant in an entire arc.",
         "Era labels and publication dates are not a verified sequence or AR calendar year.",
         "Absence of a cited event or person is not evidence it never occurred or appeared."
       ]
@@ -4702,7 +6353,7 @@
     {
       "id": "plane:vryn",
       "plane": "Vryn",
-      "evidence_status": "PARTIAL_DIRECT_GRAPH_CLAIMS_ONLY",
+      "evidence_status": "PARTIAL_DIRECT_AND_SEPARATELY_CURATED_CONTEXT",
       "distinct_claims": 2,
       "facts": [
         {
@@ -4754,8 +6405,10 @@
           ]
         }
       ],
+      "contextual_claims": [],
       "known_gaps": [
         "Direct claims are not an exhaustive history of this plane.",
+        "Curated same-plane story context is not a direct claim-to-plane edge and does not prove the geography of every participant in an entire arc.",
         "Era labels and publication dates are not a verified sequence or AR calendar year.",
         "Absence of a cited event or person is not evidence it never occurred or appeared."
       ]
@@ -4763,7 +6416,7 @@
     {
       "id": "plane:zendikar",
       "plane": "Zendikar",
-      "evidence_status": "PARTIAL_DIRECT_GRAPH_CLAIMS_ONLY",
+      "evidence_status": "PARTIAL_DIRECT_AND_SEPARATELY_CURATED_CONTEXT",
       "distinct_claims": 7,
       "facts": [
         {
@@ -4943,12 +6596,14 @@
           ]
         }
       ],
+      "contextual_claims": [],
       "known_gaps": [
         "Direct claims are not an exhaustive history of this plane.",
+        "Curated same-plane story context is not a direct claim-to-plane edge and does not prove the geography of every participant in an entire arc.",
         "Era labels and publication dates are not a verified sequence or AR calendar year.",
         "Absence of a cited event or person is not evidence it never occurred or appeared."
       ]
     }
   ],
-  "content_sha256": "4f7c2b992892253b37a62972cb06fab034bbd9a5728ecdf8964dbaf5a20125bd"
+  "content_sha256": "f724460c876a96d7d42527c2d78193a47e76b6933dc127039ff68a521f1951b2"
 }

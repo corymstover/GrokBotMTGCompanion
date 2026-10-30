@@ -1,6 +1,6 @@
 # MTG Multiverse Companion — Master Workflow & Progress Checklist
 
-**Version:** 2.57
+**Version:** 2.58
 **Checkpoint date:** 2026-10-30
 **Repository:** [corymstover/GrokBotMTGCompanion](https://github.com/corymstover/GrokBotMTGCompanion)  
 **Purpose:** Durable project roadmap and handoff document. Update this file after verified milestone work; do not treat historical figures as live counters.
@@ -22,6 +22,23 @@ foundation release may document inherently unresolved canon and future
 maintenance; it must never claim exhaustive knowledge of all MTG history.
 The 62 approved Grixis decks, their hashes and all owner gates remain intact.
 Only a new explicit request from Cory can override the Phase 6 hold.
+
+**v2.58 Phase 5 source-graded contextual history retrieval (2026-10-30):**
+Reused **53 existing official-story claims** from four registered claim
+packs as a separately labeled *contextual* layer in plane history queries:
+Eldraine 10, Arcavios 16, New Capenna 15, Lorwyn–Shadowmoor 12.
+These are **not 53 new claims**, not direct plane-node edges, and not
+evidence of a complete plane history. All source grades, quoted evidence,
+URLs, relations and limitations remain attached. Excluded off-plane scenes,
+overlaps with existing direct claims and uncertain geographic cases. An
+official Wizards statement that Strixhaven is on Arcavios passed a live
+source check. Regenerated dossier counts: **33 planes, 183 direct edges,
+16 thin by direct-claim threshold, four planes with 53 contextual claims**.
+Main `mv_ask` plane-history responses and command-line history lookup keep
+the two evidence layers separate, retaining QUALIFIED and unknown timeline
+status. Master Workflow, tracker, regression tests and CI are updated.
+Full historical coverage and foundation certification remain OPEN; Phase 6
+stays parked. See `research/PHASE5_CURATED_ON_PLANE_CONTEXT_2026-10-30.md`.
 
 **v2.57 Phase 7 natural-language chronology route (2026-10-30):**
 `scripts/mv_ask.py ask` now understands bounded two-event questions such as
@@ -470,6 +487,7 @@ Infrastructure checkpoint: [PR #783](https://github.com/corymstover/GrokBotMTGCo
 
 ## Phase 5 — Full-history and plane-by-plane expansion
 
+- [x] **Surface existing official on-plane story evidence in plane-history queries without fabricating direct plane edges.** *(v2.58: 53 carefully selected, original-source-cited claims from Eldraine (10), Strixhaven on Arcavios (16), New Capenna (15) and Lorwyn–Shadowmoor (12), each separately marked CONTEXTUAL rather than counted as a newly researched or direct plane claim. New Arcavios geography bridge checked live from Wizards; off-plane and ambiguous cases excluded; eight tests plus inherited source-pipeline checks. Direct plane metrics stay 183 edges and 16 thin dossiers; comprehensive history remains unchecked.)*
 - [x] **Research Bloomburrow's Valley origins with legendary-status boundaries.** *(v2.55: 13 source-checked claims on the Order of the Holly Leaf, Calamity era, War of Cinders, Lily's Seed Flame, weaving's aftermath, five Valley biomes and settlement governance. Legendary historical narrative remains CANON_IMPLIED, and Valley is not equated with the entire plane.)*
 - [x] **Research Duskmourn's lost original plane and the House's growth.** *(v2.55: 12 source-checked claims on forgotten plane name, pre-Ascension realms, Marina, Valgavoth, the House's expansion, five zones and the Harrowing/Quiescence cycle. Advanced ancient civilization is evidence-inferred; no claim that rumors of an exit are proven.)*
 - [x] **Trace Kamigawa's historical transformation using two Wizards sources.** *(v2.54: 12 quoted primary-source claims distinguish the material/spirit worlds, Kami War, Kyodai and Michiko's victory, merger sites, Imperial administration and Futurists; the relative 1,200-year marker is kept verbatim and unconverted. Direct plane claims now eight, not an exhaustive timeline.)*
@@ -541,7 +559,7 @@ explicitly lifts the hold).
   - Partial (2026-10-30): `scripts/release_readiness.py` ([PR #830](https://github.com/corymstover/GrokBotMTGCompanion/pull/830)) scores each written criterion from committed evidence. Current verdict: NOT_RELEASE_READY.
 - [ ] Treat continual future MTG releases as an ongoing maintenance track rather than a permanently finishable backlog.
 
-## Immediate execution queue — v2.57 FOUNDATION FIRST (2026-10-30)
+## Immediate execution queue — v2.58 FOUNDATION FIRST (2026-10-30)
 
 1. **Phase 4 — Verified in-universe chronology:** expand the source-quoted BEFORE/AFTER/UNKNOWN event order, resolve high-value L244 gaps where primary evidence exists, and retain unknown/disputed ordering instead of inventing total dates. Keep release chronology separate.
 2. **Phases 2/5 — Comprehensive history:** systematically deepen thin plane dossiers, major factions, characters, wars, artifacts and cross-plane consequences; record both coverage and missing primary sources. Currently thin registered planes remain a priority, not a census of all planes; regenerate the exact count from the dossier rather than treating this prose as a live counter.

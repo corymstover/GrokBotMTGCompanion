@@ -472,6 +472,13 @@ def plane_history(name: str) -> dict | None:
                 row['sources'].append(source['url'])
     statuses = {x['grade'] for x in claims.values()}
     flags = ['PARTIAL_REGISTERED_PLANE_HISTORY', 'NO_VERIFIED_TOTAL_CHRONOLOGY']
+    contextual = plane.get('contextual_claims', [])
+    if contextual:
+        flags.append('CURATED_ON_PLANE_CONTEXT_NOT_DIRECT_GRAPH_CLAIMS')
+        for item in contextual:
+            statuses.add(item['grade'])
+            for evidence in item['source_evidence']:
+                urls.add(evidence['url'])
     if 'CANON_DISPUTED' in statuses:
         flags.append('CANON_DISPUTED_PRESENT')
     if 'CANON_IMPLIED' in statuses:
@@ -484,7 +491,10 @@ def plane_history(name: str) -> dict | None:
             'flags': flags, 'data_as_of': '2026-10-30', 'sources': sorted(urls),
             'result': {'plane': plane['plane'], 'plane_id': plane['id'],
                        'direct_claims': plane['distinct_claims'],
-                       'claims': list(claims.values()), 'complete_history': False,
+                       'claims': list(claims.values()),
+                       'contextual_claim_count':len(contextual),
+                       'contextual_claims':contextual,
+                       'complete_history': False,
                        'verified_total_chronology': False,
                        'known_gaps': plane['known_gaps']}}
 

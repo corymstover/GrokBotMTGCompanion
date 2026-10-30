@@ -38,6 +38,7 @@ on:
       - 'data/lore_research/story_image_label_printings_2026-10-30.json'
       - 'data/lore_research/plane_history_priorities_2026-10-30.json'
       - 'data/lore_research/plane_history_dossiers_2026-10-30.json'
+      - 'data/lore_research/plane_context_claims_spec_2026-10-30.json'
       - 'data/multiverse_audits/**'
       - 'tests/test_mv_ask*.py'
       - 'tests/test_graph_integrity_post_grok.py'
@@ -47,6 +48,7 @@ on:
       - 'tests/test_phase5_chronology_coverage.py'
       - 'tests/test_source_event_sequences.py'
       - 'tests/test_plane_history_dossiers.py'
+      - 'tests/test_plane_context_claims.py'
       - 'tests/test_lore_pack_c5_invasion_outcome.py'
       - 'tests/test_lore_pack_alara.py'
       - 'tests/test_lore_pack_theros_profile.py'
@@ -96,6 +98,7 @@ on:
       - 'data/lore_research/story_image_label_printings_2026-10-30.json'
       - 'data/lore_research/plane_history_priorities_2026-10-30.json'
       - 'data/lore_research/plane_history_dossiers_2026-10-30.json'
+      - 'data/lore_research/plane_context_claims_spec_2026-10-30.json'
       - 'data/multiverse_audits/**'
       - 'tests/test_mv_ask*.py'
       - 'tests/test_graph_integrity_post_grok.py'
@@ -105,6 +108,7 @@ on:
       - 'tests/test_phase5_chronology_coverage.py'
       - 'tests/test_source_event_sequences.py'
       - 'tests/test_plane_history_dossiers.py'
+      - 'tests/test_plane_context_claims.py'
       - 'tests/test_lore_pack_c5_invasion_outcome.py'
       - 'tests/test_lore_pack_alara.py'
       - 'tests/test_lore_pack_theros_profile.py'
@@ -152,6 +156,7 @@ jobs:
           python3 scripts/build_plane_history_priorities.py --check
           python3 scripts/build_plane_history_dossiers.py --check
           python3 -m unittest discover -s tests -p 'test_plane_history_dossiers.py' -q
+          python3 -m unittest discover -s tests -p 'test_plane_context_claims.py' -q
           python3 scripts/build_story_coverage_inventory.py --check
           python3 scripts/audit_lore_pack_c5.py --check
           python3 scripts/audit_lore_pack_alara.py --check
