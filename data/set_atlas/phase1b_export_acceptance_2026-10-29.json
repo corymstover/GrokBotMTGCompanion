@@ -1,0 +1,71 @@
+{
+  "all_1062_printing_and_unique_card_exports": "PASS",
+  "all_119509_set_to_card_and_card_to_set_printing_ID_joins": "PASS",
+  "all_set_codes_full_export_checked": 1062,
+  "as_of": "2026-10-29",
+  "filter_policy": "English paper and released by October 29, 2026 by default; foreign, digital, future entries only by explicit flags",
+  "historical_printing_ids_reverse_joined": 119509,
+  "per_set_unique_card_export_rows": 85544,
+  "released_english_paper_printing_rows_exported": 106855,
+  "remaining_known_limitations": [
+    "The exact October 29 Scryfall printing-ID corpus is not present in this GitHub-readable index; per-set count parity is not exact new-vs-old ID parity.",
+    "This audit does not certify complete foreign-language, future-preview or digital-first printing inventory in the default English-paper export.",
+    "Individual product families still needing direct Wizards primary-source review remain a separate nonblocking research queue of 555 records."
+  ],
+  "representative_sets": [
+    {
+      "code": "40k",
+      "printing_rows": 617,
+      "unique_cards": 286
+    },
+    {
+      "code": "c21",
+      "printing_rows": 409,
+      "unique_cards": 329
+    },
+    {
+      "code": "fbb",
+      "printing_rows": 0,
+      "unique_cards": 0
+    },
+    {
+      "code": "lea",
+      "printing_rows": 295,
+      "unique_cards": 290
+    },
+    {
+      "code": "leg",
+      "printing_rows": 310,
+      "unique_cards": 310
+    },
+    {
+      "code": "pznr",
+      "printing_rows": 153,
+      "unique_cards": 84
+    },
+    {
+      "code": "tfin",
+      "printing_rows": 37,
+      "unique_cards": 16
+    },
+    {
+      "code": "trk",
+      "printing_rows": 0,
+      "unique_cards": 0
+    },
+    {
+      "code": "ydmu",
+      "printing_rows": 0,
+      "unique_cards": 0
+    }
+  ],
+  "schema": 1,
+  "set_codes_with_zero_default_released_paper_rows": 105,
+  "source": "2026-10-28 committed historical printing index; October 29 aggregate comparison only",
+  "stable_oracle_ids_reverse_joined": 39099,
+  "zero_default_released_paper_examples": [
+    "trk",
+    "ydmu",
+    "fbb"
+  ]
+}

@@ -8,13 +8,16 @@ import argparse
 import hashlib
 import json
 from datetime import date
+from functools import lru_cache
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / 'data/set_atlas'
 
 
+@lru_cache(maxsize=64)
 def load(bucket, kind, folder=DATA):
+    """Cache immutable published JSON buckets for full-catalog acceptance queries."""
     return json.loads((folder / f'historical_{kind}_{bucket}.json').read_text(encoding='utf-8'))
 
 
