@@ -1,0 +1,239 @@
+{
+ "schema": "pack-open-question-review/v1",
+ "pack_id": "PACK_A_UGIN_BOLAS_ELDER_DRAGONS",
+ "pack_file": "data/lore_research/pack_a_ugin_bolas_evidence_2026-10-30.json",
+ "reviewed_at": "2026-10-30T02:20:00-05:00",
+ "reviewer": "Grok Bot overnight batch 2 (preliminary; not Cory-reviewed)",
+ "status": "PRELIMINARY - grades retained; proposed claims NOT applied to the pack",
+ "sources_checked": {
+  "chronicle_perspectives": {
+   "url": "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-perspectives-2018-08-08",
+   "class": "WIZARDS_OFFICIAL",
+   "bolas_mentions": 7
+  },
+  "chronicle_unwritten": {
+   "url": "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-unwritten-now-2018-08-15",
+   "class": "WIZARDS_OFFICIAL",
+   "bolas_mentions": 36
+  },
+  "tdm7": {
+   "url": "https://magic.wizards.com/en/news/magic-story/tarkir-dragonstorm-episode-7-return",
+   "class": "WIZARDS_OFFICIAL",
+   "bolas_mentions": 8
+  },
+  "le1": {
+   "url": "https://magic.wizards.com/en/news/magic-story/lorwyn-eclipsed-episode-1-out-of-this-wood",
+   "class": "WIZARDS_OFFICIAL",
+   "bolas_mentions": 0
+  },
+  "lorwyn2": {
+   "url": "https://magic.wizards.com/en/news/magic-story/lorwyn-eclipsed-episode-2-shake-off-slumber",
+   "class": "WIZARDS_OFFICIAL",
+   "bolas_mentions": 3
+  },
+  "le3": {
+   "url": "https://magic.wizards.com/en/news/magic-story/lorwyn-eclipsed-episode-3-aweary-of-this-moon",
+   "class": "WIZARDS_OFFICIAL",
+   "bolas_mentions": 0
+  },
+  "le4": {
+   "url": "https://magic.wizards.com/en/news/magic-story/lorwyn-eclipsed-episode-4-fetch-me-that-flower",
+   "class": "WIZARDS_OFFICIAL",
+   "bolas_mentions": 0
+  },
+  "le5": {
+   "url": "https://magic.wizards.com/en/news/magic-story/lorwyn-eclipsed-episode-5-if-we-shadows",
+   "class": "WIZARDS_OFFICIAL",
+   "bolas_mentions": 0
+  },
+  "le6": {
+   "url": "https://magic.wizards.com/en/news/magic-story/lorwyn-eclipsed-episode-6-full-of-hateful-fantasies",
+   "class": "WIZARDS_OFFICIAL",
+   "bolas_mentions": 0
+  },
+  "le7": {
+   "url": "https://magic.wizards.com/en/news/magic-story/lorwyn-eclipsed-episode-7-the-charm-dissolves-apace",
+   "class": "WIZARDS_OFFICIAL",
+   "bolas_mentions": 0
+  },
+  "pg_lorwyn_eclipsed": {
+   "url": "https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-to-lorwyn-eclipsed",
+   "class": "WIZARDS_OFFICIAL",
+   "bolas_mentions": 0
+  },
+  "sos1": {
+   "url": "https://magic.wizards.com/en/news/magic-story/secrets-of-strixhaven-episode-1-penmanship-practice",
+   "class": "WIZARDS_OFFICIAL",
+   "bolas_mentions": 0
+  },
+  "rf1": {
+   "url": "https://magic.wizards.com/en/news/magic-story/reality-fracture-episode-1-tam-alive",
+   "class": "WIZARDS_OFFICIAL",
+   "bolas_mentions": 0
+  },
+  "rf2": {
+   "url": "https://magic.wizards.com/en/news/magic-story/reality-fracture-episode-2-purge-yourself-of-doubt",
+   "class": "WIZARDS_OFFICIAL",
+   "bolas_mentions": 0
+  },
+  "rf3": {
+   "url": "https://magic.wizards.com/en/news/magic-story/reality-fracture-episode-3-i-can-be-both",
+   "class": "WIZARDS_OFFICIAL",
+   "bolas_mentions": 1
+  },
+  "rf4": {
+   "url": "https://magic.wizards.com/en/news/magic-story/reality-fracture-episode-4-oh-sweetie",
+   "class": "WIZARDS_OFFICIAL",
+   "bolas_mentions": 0
+  },
+  "rf5": {
+   "url": "https://magic.wizards.com/en/news/magic-story/reality-fracture-episode-5-i-dont-need-to-convince-you",
+   "class": "WIZARDS_OFFICIAL",
+   "bolas_mentions": 2
+  },
+  "rf6": {
+   "url": "https://magic.wizards.com/en/news/magic-story/reality-fracture-episode-6-the-man-who-kills-his-own-ambition",
+   "class": "WIZARDS_OFFICIAL",
+   "bolas_mentions": 1
+  },
+  "rf7": {
+   "url": "https://magic.wizards.com/en/news/magic-story/reality-fracture-episode-7-pick-up-the-pieces",
+   "class": "WIZARDS_OFFICIAL",
+   "bolas_mentions": 0
+  },
+  "rf8": {
+   "url": "https://magic.wizards.com/en/news/magic-story/reality-fracture-episode-8-keep-your-lids-open",
+   "class": "WIZARDS_OFFICIAL",
+   "bolas_mentions": 0
+  },
+  "rf9": {
+   "url": "https://magic.wizards.com/en/news/magic-story/reality-fracture-episode-9-unafraid",
+   "class": "WIZARDS_OFFICIAL",
+   "bolas_mentions": 0
+  },
+  "rf10": {
+   "url": "https://magic.wizards.com/en/news/magic-story/reality-fracture-episode-10-happy-birthday",
+   "class": "WIZARDS_OFFICIAL",
+   "bolas_mentions": 0
+  },
+  "reality_guide": {
+   "url": "https://www.magic.wizards.com/en/news/magic-story/planeswalkers-guide-to-reality-fracture",
+   "class": "WIZARDS_OFFICIAL",
+   "bolas_mentions": 2
+  },
+  "mtgwiki_elder_dragon_war": {
+   "url": "https://mtg.wiki/page/Elder_Dragon_War",
+   "class": "NON_WIZARDS_LABELLED",
+   "use": "context only; never evidence of canon"
+  },
+  "csi_elder_dragons_to_mending": {
+   "url": "https://www.coolstuffinc.com/a/jayannelli-02062018-magic-story-elder-dragons-to-the-mending",
+   "class": "NON_WIZARDS_LABELLED",
+   "use": "context only; never evidence of canon"
+  }
+ },
+ "method": "Each Wizards page fetched 2026-10-30 ~02:10-02:20 CDT; article text extracted and every 'Bolas' mention read in context. Mention counts are case-sensitive matches of 'Bolas' in the extracted article text. Quoted phrases were string-matched against the extracted text.",
+ "reviews": [
+  {
+   "claim_id": "A003",
+   "grade_before": "CANON_DISPUTED",
+   "decision": "RETAIN",
+   "grade_after": "CANON_DISPUTED",
+   "evidence": [
+    "chronicle_perspectives"
+   ],
+   "finding": "The only Wizards prose list of survivors remains Bolas's first-person narration ('only Chromium Rhuell, Arcades Sabboth, Palladia-Mors, and that vexatious beast Vaevictis Asmadi had survived'). No independent Wizards source located. Labelled non-Wizards secondary sources disagree on the count (mtg.wiki: 'only seven'; CoolStuffInc 2018: five survivors including Bolas), which supports keeping the dispute.",
+   "context_non_wizards": [
+    "mtgwiki_elder_dragon_war",
+    "csi_elder_dragons_to_mending"
+   ]
+  },
+  {
+   "claim_id": "A004",
+   "grade_before": "CANON_DISPUTED",
+   "decision": "RETAIN",
+   "grade_after": "CANON_DISPUTED",
+   "evidence": [
+    "chronicle_perspectives",
+    "chronicle_unwritten"
+   ],
+   "finding": "Bolas's claim to be 'the first among all sapient creatures' to planeswalk is still narrator-only. The Unwritten Now adds a further perspective conflict about sparks: Ugin says his spark 'came to me unbidden' and Bolas replies 'So you claim, but I don't believe you.' No Wizards source independently settles priority."
+  },
+  {
+   "claim_id": "A011",
+   "grade_before": "OPEN_QUESTION",
+   "decision": "RETAIN",
+   "grade_after": "OPEN_QUESTION",
+   "evidence": [
+    "lorwyn2",
+    "tdm7",
+    "rf1",
+    "rf2",
+    "rf3",
+    "rf4",
+    "rf5",
+    "rf6",
+    "rf7",
+    "rf8",
+    "rf9",
+    "rf10",
+    "reality_guide",
+    "le1",
+    "le3",
+    "le4",
+    "le5",
+    "le6",
+    "le7",
+    "pg_lorwyn_eclipsed",
+    "sos1"
+   ],
+   "finding": "Ajani in Lorwyn Eclipsed Episode 2: 'we don't know whether his spark is intact'. The full Reality Fracture main story (10 episodes, Aug 31-Sep 10 2026) mentions Bolas 4 times (Ravnica memory, Meditation Realm craft, Echoverse exclusion) and never addresses his spark or location. Lorwyn Eclipsed Episodes 1 and 3-7, its Planeswalker's Guide and Secrets of Strixhaven Episode 1 contain no Bolas mention. The question remains open as of the 2026-10-30 evidence cutoff.",
+   "not_checked": [
+    "Secrets of Strixhaven Episodes 2-6 and side stories",
+    "Lorwyn Eclipsed side stories",
+    "Reality Fracture side stories",
+    "non-story articles (release notes, Making Magic)"
+   ]
+  }
+ ],
+ "proposed_claims_not_applied": [
+  {
+   "proposal_id": "A-PROP-01",
+   "subject": "nicol_bolas",
+   "predicate": "escaped_via",
+   "object": "omenpath",
+   "proposed_grade": "CANON_CONFIRMED",
+   "source_ids": [
+    "lorwyn2"
+   ],
+   "summary": "Ajani tells Liliana that Bolas used an Omenpath to escape.",
+   "limitation": "In-story report by Ajani; destination unknown."
+  },
+  {
+   "proposal_id": "A-PROP-02",
+   "subject": "echoverse",
+   "predicate": "constructed_without",
+   "object": "nicol_bolas",
+   "proposed_grade": "ALTERNATE_CONTINUITY",
+   "source_ids": [
+    "rf6",
+    "reality_guide"
+   ],
+   "summary": "Corroborates A012: the Theorist says Bolas does not exist in the Echoverse.",
+   "limitation": "Echoverse statement only; never erases Bolas from the prime Multiverse. Would add a second source to A012 rather than a new claim."
+  },
+  {
+   "proposal_id": "A-PROP-03",
+   "subject": "ugin",
+   "predicate": "rebuilt_body_from",
+   "object": "meditation_realm",
+   "proposed_grade": "CANON_IMPLIED",
+   "source_ids": [
+    "rf5"
+   ],
+   "summary": "Jace replicates 'what Ugin must have done', shaping a body from the Meditation Realm; the Theorist later says Ugin 'rebuilt himself from it as I did'.",
+   "limitation": "Jace's inference from his own experience, not Ugin's account."
+  }
+ ],
+ "why_not_applied": "scripts/audit_lore_pack_a.py locks Pack A to claims A001-A012 and their grades 'without research review'. Applying proposals needs Cory's review."
+}
