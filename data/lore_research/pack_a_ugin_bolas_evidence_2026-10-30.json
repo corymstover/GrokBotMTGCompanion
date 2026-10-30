@@ -1,0 +1,175 @@
+{
+  "schema": 1,
+  "pack_id": "PACK_A_UGIN_BOLAS_ELDER_DRAGONS",
+  "evidence_cutoff": "2026-10-30",
+  "scope": "Canon, narrated recollections, original-versus-revised Tarkir timeline, and state after Tarkir: Dragonstorm; no unsourced card-depiction assertions",
+  "source_register": {
+    "chronicle_twins": {
+      "title": "Chronicle of Bolas: The Twins",
+      "url": "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-twins-2018-06-13",
+      "kind": "Wizards official fiction",
+      "perspective": "third-person story narrative"
+    },
+    "chronicle_blood_fire": {
+      "title": "Chronicle of Bolas: Blood and Fire",
+      "url": "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-blood-and-fire-2018-07-18",
+      "kind": "Wizards official fiction",
+      "perspective": "story-within-story elder dragon account"
+    },
+    "chronicle_perspectives": {
+      "title": "Chronicle of Bolas: Perspectives",
+      "url": "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-perspectives-2018-08-08",
+      "kind": "Wizards official fiction",
+      "perspective": "Bolas recounts his own history; not an omniscient timeline"
+    },
+    "chronicle_unwritten": {
+      "title": "Chronicle of Bolas: The Unwritten Now",
+      "url": "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-unwritten-now-2018-08-15",
+      "kind": "Wizards official fiction",
+      "perspective": "Ugin and Bolas story frames"
+    },
+    "fate_reforged_guide": {
+      "title": "Planeswalker's Guide to Fate Reforged",
+      "url": "https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-fate-reforged-2015-01-07",
+      "kind": "Wizards official world guide",
+      "perspective": "editorial historical description"
+    },
+    "tarkir_plane": {
+      "title": "Tarkir plane guide",
+      "url": "https://magic.wizards.com/en/story/tarkir-plane",
+      "kind": "Wizards official plane guide",
+      "perspective": "editorial setting description"
+    },
+    "war_games": {
+      "title": "Even More War Games",
+      "url": "https://magic.wizards.com/en/news/making-magic/even-more-war-games-2019-05-06",
+      "kind": "Wizards official design commentary",
+      "perspective": "editorial summary of War of the Spark ending"
+    },
+    "tdm7": {
+      "title": "Tarkir: Dragonstorm | Episode 7: Return",
+      "url": "https://magic.wizards.com/en/news/magic-story/tarkir-dragonstorm-episode-7-return",
+      "kind": "Wizards official fiction",
+      "perspective": "observed by Narset, Elspeth and Ugin in story"
+    },
+    "lorwyn2": {
+      "title": "Lorwyn Eclipsed | Episode 2: Shake Off Slumber",
+      "url": "https://magic.wizards.com/en/news/magic-story/lorwyn-eclipsed-episode-2-shake-off-slumber",
+      "kind": "Wizards official fiction",
+      "perspective": "Ajani recounts recent events; states present uncertainty"
+    },
+    "reality_guide": {
+      "title": "Planeswalker's Guide to Reality Fracture",
+      "url": "https://www.magic.wizards.com/en/news/magic-story/planeswalkers-guide-to-reality-fracture",
+      "kind": "Wizards official world guide",
+      "perspective": "Jace's distinct Echoverse setting, not the prime Multiverse"
+    }
+  },
+  "entities": [
+    {"id": "ugin", "type": "Character", "name": "Ugin"},
+    {"id": "nicol_bolas", "type": "Character", "name": "Nicol Bolas"},
+    {"id": "sarkhan_vol", "type": "Character", "name": "Sarkhan Vol"},
+    {"id": "narset", "type": "Character", "name": "Narset"},
+    {"id": "elder_dragon_wars", "type": "Event", "name": "Elder Dragon Wars"},
+    {"id": "original_tarkir_clash", "type": "Event", "name": "Original-timeline Tarkir clash"},
+    {"id": "tarkir_rewrite", "type": "Event", "name": "Sarkhan's change to Tarkir history"},
+    {"id": "war_of_the_spark_end", "type": "Event", "name": "War of the Spark aftermath"},
+    {"id": "dragonstorm_escape", "type": "Event", "name": "Meditation Realm escape during Tarkir: Dragonstorm"},
+    {"id": "dominaria", "type": "Plane", "name": "Dominaria"},
+    {"id": "tarkir", "type": "Plane", "name": "Tarkir"},
+    {"id": "meditation_realm", "type": "Plane", "name": "Meditation Realm"},
+    {"id": "echoverse", "type": "AlternateContinuity", "name": "Echoverse"}
+  ],
+  "claims": [
+    {
+      "id": "A001", "subject": "ugin", "predicate": "twin_sibling_of", "object": "nicol_bolas",
+      "grade": "CANON_CONFIRMED", "continuity": "shared origin",
+      "chronology_stage": "primordial_birth", "source_ids": ["chronicle_twins"],
+      "summary": "Ugin and Nicol emerge together as twin dragons in the story's account of the original dragons' hatching.",
+      "limitation": "This does not establish the entire genealogy of all later dragons."
+    },
+    {
+      "id": "A002", "subject": "nicol_bolas", "predicate": "contrasted_with", "object": "ugin",
+      "grade": "CANON_CONFIRMED", "continuity": "shared early history",
+      "chronology_stage": "early_lives", "source_ids": ["chronicle_twins", "chronicle_blood_fire"],
+      "summary": "Their early responses to threats and mortal civilizations show contrasting priorities, which the Chronicle develops into their later conflict.",
+      "limitation": "Interpret the twins' motives from the described actions; a single psychological explanation is not a canon rule."
+    },
+    {
+      "id": "A003", "subject": "elder_dragon_wars", "predicate": "survivors_according_to_bolas", "object": "Chromium Rhuell; Arcades Sabboth; Palladia-Mors; Vaevictis Asmadi",
+      "grade": "CANON_DISPUTED", "continuity": "Bolas narrated recollection",
+      "chronology_stage": "elder_dragon_wars", "source_ids": ["chronicle_perspectives"],
+      "summary": "Bolas describes these four Elder Dragons as surviving when he later returned to Dominaria.",
+      "limitation": "This is Bolas's self-serving narrated list, not an independently certified exhaustive Elder Dragon War casualty roll."
+    },
+    {
+      "id": "A004", "subject": "nicol_bolas", "predicate": "planeswalker_spark_awakening_recounted", "object": "dominaria",
+      "grade": "CANON_DISPUTED", "continuity": "Bolas narrated recollection",
+      "chronology_stage": "early_planeswalking", "source_ids": ["chronicle_perspectives"],
+      "summary": "Bolas reports his first planeswalk and discovery of the connected Multiverse.",
+      "limitation": "His claim to be the first or alone is a narrator claim, not objective proof of priority over every planeswalker."
+    },
+    {
+      "id": "A005", "subject": "nicol_bolas", "predicate": "fought", "object": "ugin",
+      "grade": "CANON_CONFIRMED", "continuity": "original Tarkir timeline",
+      "chronology_stage": "original_tarkir_clash", "source_ids": ["fate_reforged_guide"],
+      "summary": "The rivals fight over ancient Tarkir in the historical confrontation that Sarkhan later alters.",
+      "limitation": "Do not collapse the original timeline into the subsequent changed Tarkir history."
+    },
+    {
+      "id": "A006", "subject": "sarkhan_vol", "predicate": "saved_from_death", "object": "ugin",
+      "grade": "CANON_CONFIRMED", "continuity": "revised Tarkir timeline",
+      "chronology_stage": "tarkir_rewrite", "source_ids": ["tarkir_plane"],
+      "summary": "Sarkhan travels into Tarkir's past and prevents Ugin's death; the dragon tempests and later draconic dominance persist.",
+      "limitation": "This action changes Tarkir's history; it does not simply occur after the original death in one unchanged sequence."
+    },
+    {
+      "id": "A007", "subject": "ugin", "predicate": "opposed", "object": "nicol_bolas",
+      "grade": "CANON_CONFIRMED", "continuity": "ancient Meditation Realm confrontation",
+      "chronology_stage": "ancient_meditation_realm", "source_ids": ["chronicle_unwritten"],
+      "summary": "The Chronicle portrays Bolas seemingly killing Ugin in the Meditation Realm and Ugin persisting as a spirit-like presence.",
+      "limitation": "Distinguish this Meditation Realm confrontation from the separate Sarkhan-modified Tarkir death event."
+    },
+    {
+      "id": "A008", "subject": "ugin", "predicate": "jailed", "object": "nicol_bolas",
+      "grade": "CANON_CONFIRMED", "continuity": "War of the Spark aftermath",
+      "chronology_stage": "war_of_the_spark_end", "source_ids": ["war_games"],
+      "summary": "Following War of the Spark, Bolas loses his spark and is held in the Meditation Realm under Ugin's guard.",
+      "limitation": "This was the situation in 2019, not Bolas's status after later Tarkir: Dragonstorm."
+    },
+    {
+      "id": "A009", "subject": "nicol_bolas", "predicate": "escaped", "object": "meditation_realm",
+      "grade": "CANON_CONFIRMED", "continuity": "current story by 2025",
+      "chronology_stage": "dragonstorm_escape", "source_ids": ["tdm7", "lorwyn2"],
+      "summary": "The Meditation Realm prison fails during Tarkir: Dragonstorm, freeing Bolas; the later Lorwyn story confirms he escaped.",
+      "limitation": "An escape is not evidence that he recovered his planeswalker spark or arrived at a particular destination."
+    },
+    {
+      "id": "A010", "subject": "ugin", "predicate": "returned_to", "object": "tarkir",
+      "grade": "CANON_CONFIRMED", "continuity": "Tarkir: Dragonstorm story",
+      "chronology_stage": "dragonstorm_escape", "source_ids": ["tdm7"],
+      "summary": "Ugin returns visibly to Tarkir and tells others that he failed to keep Bolas imprisoned.",
+      "limitation": "Do not infer all subsequent activities or power changes from this one scene."
+    },
+    {
+      "id": "A011", "subject": "nicol_bolas", "predicate": "current_spark_state", "object": "unknown",
+      "grade": "OPEN_QUESTION", "continuity": "current as of October 2026",
+      "chronology_stage": "post_dragonstorm", "source_ids": ["lorwyn2"],
+      "summary": "The later story explicitly leaves open whether Bolas still has his spark after his escape.",
+      "limitation": "Do not invent restored planeswalking ability or assert a confirmed permanent spark loss after the escape."
+    },
+    {
+      "id": "A012", "subject": "echoverse", "predicate": "constructed_without", "object": "nicol_bolas",
+      "grade": "ALTERNATE_CONTINUITY", "continuity": "Jace Beleren's Echoverse",
+      "chronology_stage": "reality_fracture", "source_ids": ["reality_guide"],
+      "summary": "The Reality Fracture guide describes Jace's Echoverse as a different history without Bolas.",
+      "limitation": "This alternate-reality statement must never erase or override Bolas's presence in the prime Multiverse."
+    }
+  ],
+  "unverified_next": [
+    "Exact older Elder Dragon War chronology, surviving lineages and participant list across competing narrator accounts",
+    "Individual printed cards that depict each event; requires card-by-card Oracle/printing and art-source evidence",
+    "A complete, independent verified lore-first Commander candidate list and format-legal colors",
+    "Bolas's current destination and spark status after the Tarkir: Dragonstorm escape"
+  ]
+}
