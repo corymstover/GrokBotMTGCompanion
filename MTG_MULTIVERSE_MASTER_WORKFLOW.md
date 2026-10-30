@@ -1,9 +1,18 @@
 # MTG Multiverse Companion — Master Workflow & Progress Checklist
 
-**Version:** 2.44
+**Version:** 2.45
 **Checkpoint date:** 2026-10-30
 **Repository:** [corymstover/GrokBotMTGCompanion](https://github.com/corymstover/GrokBotMTGCompanion)  
 **Purpose:** Durable project roadmap and handoff document. Update this file after verified milestone work; do not treat historical figures as live counters.
+
+**v2.45 graph display-name integrity (2026-10-30):** The graph now records all
+source-pack name variants attached to the *same stable entity ID* (36 nodes,
+including the 22 cross-pack examples flagged by the entity audit). Search can
+retrieve those variants and explicitly disambiguate by entity type; no unrelated
+entities are merged by similar spelling. Existing node IDs, canonical first names,
+edge counts, grades, and source links remain stable. Ambiguous names still require
+type or ID selection. The 16 orphan nodes and six candidate *different-ID* aliases
+remain open rather than being silently joined or deleted.
 
 **v2.44 Phase 2–8 research/navigation checkpoint (2026-10-30):**
 `scripts/query_lore_chronology.py` gives user-facing sourced BEFORE/AFTER/UNKNOWN

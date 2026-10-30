@@ -5,6 +5,7 @@ on:
     paths:
       - 'scripts/mv_ask.py'
       - 'scripts/build_multiverse_graph.py'
+      - 'scripts/query_multiverse_graph.py'
       - 'scripts/audit_entity_structures.py'
       - 'scripts/audit_phase1b_snapshot_gates.py'
       - 'scripts/update_multiverse_progress_tracker.py'
@@ -15,6 +16,7 @@ on:
       - 'data/multiverse_audits/**'
       - 'tests/test_mv_ask*.py'
       - 'tests/test_graph_integrity_post_grok.py'
+      - 'tests/test_graph_display_name_variants.py'
       - 'tests/test_multiverse_progress_tracker.py'
       - 'tests/test_phase5_chronology_coverage.py'
       - 'tests/test_phase1b_snapshot_cache_diagnostics.py'
@@ -25,6 +27,7 @@ on:
     paths:
       - 'scripts/mv_ask.py'
       - 'scripts/build_multiverse_graph.py'
+      - 'scripts/query_multiverse_graph.py'
       - 'scripts/audit_entity_structures.py'
       - 'scripts/audit_phase1b_snapshot_gates.py'
       - 'scripts/update_multiverse_progress_tracker.py'
@@ -35,6 +38,7 @@ on:
       - 'data/multiverse_audits/**'
       - 'tests/test_mv_ask*.py'
       - 'tests/test_graph_integrity_post_grok.py'
+      - 'tests/test_graph_display_name_variants.py'
       - 'tests/test_multiverse_progress_tracker.py'
       - 'tests/test_phase5_chronology_coverage.py'
       - 'tests/test_phase1b_snapshot_cache_diagnostics.py'
@@ -59,6 +63,7 @@ jobs:
         run: |
           python3 -m unittest discover -s tests -p 'test_mv_ask*.py' -q
           python3 -m unittest discover -s tests -p 'test_graph_integrity_post_grok.py' -q
+          python3 -m unittest discover -s tests -p 'test_graph_display_name_variants.py' -q
           python3 -m unittest discover -s tests -p 'test_phase1b_snapshot_cache_diagnostics.py' -q
       - name: Current progress checkpoint, read-only release dry run and representative queries
         run: |
