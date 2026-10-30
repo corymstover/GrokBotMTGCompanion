@@ -7,6 +7,13 @@
  "scope": "Targeted Phase 5 extraction from the six official Duskmourn: House of Horror Magic Story episodes (2024-08-19 to 2024-08-30) and the Planeswalker's Guide to Duskmourn. PRELIMINARY_RESEARCH; not owner approved.",
  "built_by": "scripts/story_claim_pipeline.py from data/lore_research/claim_specs/pack_p5_duskmourn.spec.json",
  "source_register": {
+  "dsk_ep2": {
+   "title": "Duskmourn: House of Horror | Episode 2: Don't Split the Party",
+   "url": "https://magic.wizards.com/en/news/magic-story/episode-two-dont-split-the-party",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2024-08-20"
+  },
   "dsk_ep1": {
    "title": "Duskmourn: House of Horror | Episode 1: Don't Go Past the Old Dark House",
    "url": "https://magic.wizards.com/en/news/magic-story/episode-one-dont-go-past-the-old-dark-house",
@@ -361,14 +368,37 @@
    ],
    "summary": "Marina Vendrell, last of the Vendrells, still lives in the House and knows the demon as 'Val'.",
    "limitation": "Quoted from Marina's diary as Zimone reads it aloud; the guide says her awareness of the truth is unclear."
+  },
+  {
+   "id": "DS012",
+   "subject": "kaito",
+   "predicate": "traveled_with",
+   "object": "the_wanderer",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "duskmourn_dsk_2024",
+   "source_ids": [
+    "dsk_ep2"
+   ],
+   "evidence": [
+    {
+     "source_id": "dsk_ep2",
+     "quote": "Kaito led the group, with the Wanderer close behind."
+    },
+    {
+     "source_id": "dsk_ep2",
+     "quote": "Kaito frowned and opened his eyes, finding the Wanderer watching him intently, no more than a few feet away."
+    }
+   ],
+   "summary": "In Episode 2, Kaito leads the group through the House with the Wanderer close behind.",
+   "limitation": ""
   }
  ],
- "pages_registered": 6,
- "pages_cited": 6,
+ "pages_registered": 7,
+ "pages_cited": 7,
  "uncited_registered_pages": [],
  "remaining": [
   "Nashi's farewell to the scroll and Aminatou's role are not graded",
   "Marina Vendrell's bargain with Valgavoth is not fully modelled",
-  "Episode 2 is not cited"
+  "Episode 2 is cited only for Kaito and the Wanderer (DS012)"
  ]
 }

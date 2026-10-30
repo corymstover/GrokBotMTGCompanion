@@ -983,6 +983,23 @@
    ]
   },
   {
+   "entity": "chishiro",
+   "entity_type": "Character",
+   "entity_name": "Chishiro",
+   "aliases": [
+    "Chishiro"
+   ],
+   "pack": "pack_p5_neo_side_stories_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Chishiro, the Shattered Blade",
+     "oracle_id": "c98a4af3-3e58-4927-9a60-d2664cf0b139",
+     "type_line": "Legendary Creature — Snake Samurai",
+     "scryfall_uri": "https://scryfall.com/card/nec/1/chishiro-the-shattered-blade"
+    }
+   ]
+  },
+  {
    "entity": "chromium_rhuell",
    "entity_type": "Character",
    "entity_name": "Chromium Rhuell",
@@ -2544,6 +2561,23 @@
    ]
   },
   {
+   "entity": "katsumasa",
+   "entity_type": "Character",
+   "entity_name": "Katsumasa",
+   "aliases": [
+    "Katsumasa"
+   ],
+   "pack": "pack_p5_neo_side_stories_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Katsumasa, the Animator",
+     "oracle_id": "80ba76a6-cc48-4820-bc0b-c9ec18088a3b",
+     "type_line": "Legendary Creature — Moonfolk Artificer",
+     "scryfall_uri": "https://scryfall.com/card/nec/15/katsumasa-the-animator"
+    }
+   ]
+  },
+  {
    "entity": "kaya",
    "entity_type": "Character",
    "entity_name": "Kaya",
@@ -2857,6 +2891,23 @@
    ]
   },
   {
+   "entity": "kotori",
+   "entity_type": "Character",
+   "entity_name": "Kotori",
+   "aliases": [
+    "Kotori"
+   ],
+   "pack": "pack_p5_neo_side_stories_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Kotori, Pilot Prodigy",
+     "oracle_id": "0659a5b0-9807-4e4c-8af3-b6e233051ad6",
+     "type_line": "Legendary Creature — Moonfolk Pilot",
+     "scryfall_uri": "https://scryfall.com/card/nec/2/kotori-pilot-prodigy"
+    }
+   ]
+  },
+  {
    "entity": "kozilek",
    "entity_type": "Character",
    "entity_name": "Kozilek",
@@ -3106,6 +3157,23 @@
      "oracle_id": "ab56f7cf-9538-45b5-a657-1e2ebef1e92b",
      "type_line": "Legendary Creature — Mouse Soldier",
      "scryfall_uri": "https://scryfall.com/card/fra/274/mabel-valley-hero"
+    }
+   ]
+  },
+  {
+   "entity": "mana_rig",
+   "entity_type": "Place",
+   "entity_name": "The Mana Rig",
+   "aliases": [
+    "The Mana Rig"
+   ],
+   "pack": "pack_p5_dominaria_united_2026-10-30.json",
+   "cards": [
+    {
+     "name": "The Mana Rig",
+     "oracle_id": "58678469-77e5-4c1b-88d6-5e6642b0c8ca",
+     "type_line": "Legendary Artifact",
+     "scryfall_uri": "https://scryfall.com/card/dmc/28/the-mana-rig"
     }
    ]
   },
@@ -3393,6 +3461,23 @@
      "oracle_id": "4b8bf64b-4800-45ff-81c6-2857f34999b5",
      "type_line": "Legendary Creature — Elemental Avatar",
      "scryfall_uri": "https://scryfall.com/card/eoc/100/multani-yavimayas-avatar"
+    }
+   ]
+  },
+  {
+   "entity": "munda",
+   "entity_type": "Character",
+   "entity_name": "Munda",
+   "aliases": [
+    "Munda"
+   ],
+   "pack": "pack_p5_bfz_2015_stories_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Munda, Ambush Leader",
+     "oracle_id": "4d5da73a-f22a-4446-b5f9-504dfabf1d52",
+     "type_line": "Legendary Creature — Kor Ally",
+     "scryfall_uri": "https://scryfall.com/card/bfz/215/munda-ambush-leader"
     }
    ]
   },
@@ -4438,6 +4523,35 @@
    ]
   },
   {
+   "entity": "rona",
+   "entity_type": "Character",
+   "entity_name": "Rona",
+   "aliases": [
+    "Rona"
+   ],
+   "pack": "pack_p5_dominaria_united_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Rona, Disciple of Gix",
+     "oracle_id": "409305b3-5373-4376-8096-c04a73184cef",
+     "type_line": "Legendary Creature — Human Artificer",
+     "scryfall_uri": "https://scryfall.com/card/dom/203/rona-disciple-of-gix"
+    },
+    {
+     "name": "Rona, Herald of Invasion // Rona, Tolarian Obliterator",
+     "oracle_id": "cf5bd3a4-3899-4c25-ad1f-f1778c1d9c60",
+     "type_line": "Legendary Creature — Human Wizard // Legendary Creature — Phyrexian Wizard",
+     "scryfall_uri": "https://scryfall.com/card/mom/75/rona-herald-of-invasion-rona-tolarian-obliterator"
+    },
+    {
+     "name": "Rona, Sheoldred's Faithful",
+     "oracle_id": "52e92296-7af9-4e68-8045-40b6d6b73910",
+     "type_line": "Legendary Creature — Human Wizard",
+     "scryfall_uri": "https://scryfall.com/card/dmu/216/rona-sheoldreds-faithful"
+    }
+   ]
+  },
+  {
    "entity": "rowan_kenrith",
    "entity_type": "Character",
    "entity_name": "Rowan Kenrith",
@@ -4954,6 +5068,23 @@
      "oracle_id": "481fb71a-11b9-462e-a4da-ca35ffd1bd22",
      "type_line": "Legendary Creature — Goblin",
      "scryfall_uri": "https://scryfall.com/card/ncc/275/squee-the-immortal"
+    }
+   ]
+  },
+  {
+   "entity": "stenn",
+   "entity_type": "Character",
+   "entity_name": "Stenn",
+   "aliases": [
+    "Stenn"
+   ],
+   "pack": "pack_p5_dominaria_united_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Stenn, Paranoid Partisan",
+     "oracle_id": "03d2d7dd-54b6-469e-8b1c-c48db8cc0925",
+     "type_line": "Legendary Creature — Human Wizard",
+     "scryfall_uri": "https://scryfall.com/card/dmu/221/stenn-paranoid-partisan"
     }
    ]
   },
@@ -6362,6 +6493,7 @@
   "archmage_ghavos",
   "ardenvale",
   "artificial_omenpath",
+  "ashaya",
   "auntie_grub",
   "bartolome",
   "belzenlok",
@@ -6391,6 +6523,7 @@
   "emeria_skyclave",
   "eric_kenrith",
   "evendo",
+  "far_corner",
   "farakatolar",
   "first_phyrexian_invasion",
   "garenbrig",
@@ -6404,6 +6537,7 @@
   "harriers_wood",
   "hazel_kenrith",
   "hedron_network",
+  "heiko",
   "hekma",
   "helvault",
   "hexhaven",
@@ -6444,6 +6578,7 @@
   "nakht",
   "niharet",
   "nishang",
+  "norika",
   "oba",
   "omenpaths",
   "one_sylex",
@@ -6493,6 +6628,7 @@
   "ugins_tomb_site",
   "ulvenwald",
   "vantress",
+  "vorik",
   "war_of_the_spark_end",
   "weatherlight_powerstone",
   "wicked_slumber",
@@ -6508,9 +6644,9 @@
   "Urza, Academy Headmaster"
  ],
  "counts": {
-  "entities_anchored": 273,
-  "anchor_edges": 556,
-  "unanchored_entities": 142
+  "entities_anchored": 280,
+  "anchor_edges": 565,
+  "unanchored_entities": 147
  },
- "content_sha256": "dcc523d79fb4b0a60b42ff3803a7e9712f5b8f0d592dc2da98fe567dcf4cf6bb"
+ "content_sha256": "c9f59344799d1dbd3132ffcd672096ca065371043a98ce0e134b25212da9b2c4"
 }

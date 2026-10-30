@@ -1,0 +1,194 @@
+{
+ "pack_id": "pack_p5_dominaria_united",
+ "arc": "DMU",
+ "event_stage": "dominaria_united_2022",
+ "scope": "Targeted Phase 5 extraction from the five official Dominaria United main-story episodes (August 2022, by Langley Hyde). One or two claims per episode; not an exhaustive reading. PRELIMINARY_RESEARCH; not owner approved.",
+ "pages": {
+  "dmum_e1": "episode-1-echoes-dark-2022-08-10",
+  "dmum_e2": "episode-2-sand-hourglass-2022-08-11",
+  "dmum_e3": "episode-3-locked-tower-2022-08-12",
+  "dmum_e4": "episode-4-brutal-blow-2022-08-15",
+  "dmum_e5": "episode-5-whisper-wind-2022-08-18"
+ },
+ "entities": [
+  {
+   "id": "rona",
+   "type": "Character",
+   "name": "Rona"
+  },
+  {
+   "id": "sheoldred",
+   "type": "Character",
+   "name": "Sheoldred"
+  },
+  {
+   "id": "karn",
+   "type": "Character",
+   "name": "Karn"
+  },
+  {
+   "id": "ajani",
+   "type": "Character",
+   "name": "Ajani"
+  },
+  {
+   "id": "stenn",
+   "type": "Character",
+   "name": "Stenn"
+  },
+  {
+   "id": "phyrexians",
+   "type": "Faction",
+   "name": "Phyrexians"
+  },
+  {
+   "id": "danitha_capashen",
+   "type": "Character",
+   "name": "Danitha Capashen"
+  },
+  {
+   "id": "jaya_ballard",
+   "type": "Character",
+   "name": "Jaya Ballard"
+  },
+  {
+   "id": "jhoira",
+   "type": "Character",
+   "name": "Jhoira"
+  },
+  {
+   "id": "mana_rig",
+   "type": "Place",
+   "name": "The Mana Rig"
+  }
+ ],
+ "claims": [
+  {
+   "id": "DM001",
+   "subject": "rona",
+   "predicate": "aided",
+   "object": "sheoldred",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "dmum_e1",
+     "quote": "The Tolarian who aided Sheoldred leveled a glaive at him."
+    },
+    {
+     "page": "dmum_e1",
+     "quote": "Rona positioned herself between Karn and Sheoldred, glaive held easy and at an angle in her palms."
+    }
+   ],
+   "summary": "In the caverns under Dominaria, Rona, a Tolarian, attends and guards the sleeping Sheoldred."
+  },
+  {
+   "id": "DM002",
+   "subject": "karn",
+   "predicate": "fought",
+   "object": "rona",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "dmum_e1",
+     "quote": "Karn paused, dazed, and tried to shake off the agony as Rona continued to attack."
+    },
+    {
+     "page": "dmum_e1",
+     "quote": "While he was occupied, Rona unsheathed a dagger and jammed it into one of his abdominal seams."
+    }
+   ],
+   "summary": "Karn fights Rona in Sheoldred's cavern."
+  },
+  {
+   "id": "DM003",
+   "subject": "karn",
+   "predicate": "met",
+   "object": "ajani",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "dmum_e2",
+     "quote": "He'd only met Ajani a few times."
+    },
+    {
+     "page": "dmum_e2",
+     "quote": "Ajani stood in the tunnel, his fur a striking white in the torchlight."
+    }
+   ],
+   "summary": "Karn meets Ajani, whom he had met only a few times before."
+  },
+  {
+   "id": "DM004",
+   "subject": "phyrexians",
+   "predicate": "replaced",
+   "object": "stenn",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "dmum_e3",
+     "quote": "He dismembered Stenn—no, not Stenn, the Phyrexian who had killed Stenn, who had compleated him and taken his place—with efficiency."
+    }
+   ],
+   "summary": "In the locked tower, Karn destroys the Phyrexian that had killed and replaced Stenn."
+  },
+  {
+   "id": "DM005",
+   "subject": "danitha_capashen",
+   "predicate": "met",
+   "object": "jaya_ballard",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "dmum_e4",
+     "quote": "Danitha Capashen strode through the camp toward Jaya and Ajani."
+    },
+    {
+     "page": "dmum_e4",
+     "quote": "\"Danitha Capashen, daughter of Aron Capashen, heir to the House Capashen."
+    }
+   ],
+   "summary": "Danitha Capashen, Aron's heir, meets Jaya and Ajani at her camp."
+  },
+  {
+   "id": "DM006",
+   "subject": "ajani",
+   "predicate": "compleated_by",
+   "object": "phyrexians",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "dmum_e5",
+     "quote": "Art by: Victor Adame Minguez Ajani had been compleated."
+    },
+    {
+     "page": "dmum_e5",
+     "quote": "He was the spy, the traitor."
+    }
+   ],
+   "summary": "Ajani is revealed as compleated and the spy within the coalition.",
+   "limitation": "The first quote includes an art credit run into the text by the page layout."
+  },
+  {
+   "id": "DM007",
+   "subject": "jhoira",
+   "predicate": "defended",
+   "object": "mana_rig",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "dmum_e5",
+     "quote": "Jhoira had occupied herself with setting up the self-destruct mechanism on the Mana Rig's helm, a priority now that Sheoldred's troops had begun to mass."
+    },
+    {
+     "page": "dmum_e5",
+     "quote": "They would not permit Sheoldred to obtain and convert the Mana Rig."
+    }
+   ],
+   "summary": "Jhoira rigs the Mana Rig to self-destruct rather than let Sheoldred take it."
+  }
+ ],
+ "remaining": [
+  "One or two claims per episode; the Battle of Urza's Tower, the sylex and the coalition treaty are not graded here",
+  "The DMU side stories are in pack_p5_dmu_side_stories"
+ ]
+}

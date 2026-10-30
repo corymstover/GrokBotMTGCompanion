@@ -3,15 +3,15 @@
  "pack": "data/lore_research/pack_p5_duskmourn_2026-10-30.json",
  "pack_status": "PRELIMINARY_RESEARCH (not owner approved, not certified)",
  "arc": "DSK",
- "claims": 11,
+ "claims": 12,
  "entities": 15,
- "sources": 6,
+ "sources": 7,
  "grades": {
-  "CANON_CONFIRMED": 8,
+  "CANON_CONFIRMED": 9,
   "CANON_IMPLIED": 3
  },
- "quotes": 17,
- "quotes_verbatim": 17,
+ "quotes": 19,
+ "quotes_verbatim": 19,
  "quote_rows": [
   {
    "claim": "DS001",
@@ -114,9 +114,21 @@
    "source_id": "dsk_guide",
    "quote_sha256": "5b8ab28ddfbdeaa34a2ab158414c810173d8b115d908939bb584c8e8156b76e1",
    "status": "VERBATIM"
+  },
+  {
+   "claim": "DS012",
+   "source_id": "dsk_ep2",
+   "quote_sha256": "f42809db568dc0ac84296e0a6565364f9ca979afdfefabae8e67e3f3a9f181c6",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "DS012",
+   "source_id": "dsk_ep2",
+   "quote_sha256": "d141c1cb017bee1b1809da3eedfe31cd5af790bdd805457fb1541b3e86080996",
+   "status": "VERBATIM"
   }
  ],
  "problems": [],
  "note": "Verbatim-quote audit against cached official Wizards story text. Research evidence only: not owner approval, not certification, not an exhaustive reading.",
- "content_sha256": "ed03a67d3356c5f8c3e3b8bf6d9c72edc59f7e5c59483081b65f5a549d4df6e5"
+ "content_sha256": "b86c57c96ead5d23621cb836b765df3b2420bd3c6dd1f8f7ec703e1bf75801ee"
 }

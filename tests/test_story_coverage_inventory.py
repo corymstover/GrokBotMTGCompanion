@@ -71,6 +71,12 @@ class StoryCoverageInventory(unittest.TestCase):
             self.assertEqual(arcs[arc]["status"], "ALL_PAGES_CITED", arc)
         self.assertEqual(self.d["totals"]["pages"], 626)
         self.assertGreaterEqual(self.d["totals"]["cited_pages"], 330)
+        # Batch 7c fill: BFZ 2015 stories, DMU main episodes, NEO side stories, DSK ep2,
+        # MKM ep2 and the MOM Planeswalker's Guide close six more arcs (20 of 33 all cited).
+        for arc in ("BFZ/OGW", "DMU", "NEO", "DSK", "MKM", "MOM"):
+            self.assertEqual(arcs[arc]["status"], "ALL_PAGES_CITED", arc)
+        self.assertGreaterEqual(self.d["totals"]["cited_pages"], 350)
+        self.assertGreaterEqual(self.d["totals"]["arcs_all_cited"], 20)
 
     def test_claim_total_matches_graph_packs(self):
         self.assertEqual(self.d["totals"]["claims"], sum(self.d["claims_per_pack"].values()))

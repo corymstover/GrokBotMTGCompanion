@@ -14339,6 +14339,73 @@
    "tier": "NAMED_PARTICIPANT"
   },
   {
+   "claim": "MK015",
+   "pack": "pack_p5_murders_at_karlov_manor_2026-10-30.json",
+   "participant": "kaya",
+   "card": "Kaya the Inexorable",
+   "oracle_id": "13a4f88b-6832-43a1-b4fa-c1ee60560bad",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MK015",
+   "pack": "pack_p5_murders_at_karlov_manor_2026-10-30.json",
+   "participant": "kaya",
+   "card": "Kaya, Bane of the Dead",
+   "oracle_id": "29d58aa4-9a7e-4052-9b0d-fc282f1be40e",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MK015",
+   "pack": "pack_p5_murders_at_karlov_manor_2026-10-30.json",
+   "participant": "kaya",
+   "card": "Kaya, Geist Hunter",
+   "oracle_id": "e0edb2fc-2533-407c-85e5-4337f4233f05",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MK015",
+   "pack": "pack_p5_murders_at_karlov_manor_2026-10-30.json",
+   "participant": "kaya",
+   "card": "Kaya, Ghost Assassin",
+   "oracle_id": "5e4c81b9-a31e-45e6-983f-30f11b8a05c0",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MK015",
+   "pack": "pack_p5_murders_at_karlov_manor_2026-10-30.json",
+   "participant": "kaya",
+   "card": "Kaya, Intangible Slayer",
+   "oracle_id": "9260ae3d-59bf-4e46-a13e-930754c3f0d2",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MK015",
+   "pack": "pack_p5_murders_at_karlov_manor_2026-10-30.json",
+   "participant": "kaya",
+   "card": "Kaya, Orzhov Usurper",
+   "oracle_id": "7dd4a1a1-d5f4-4ac7-a9f6-34af411f070b",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MK015",
+   "pack": "pack_p5_murders_at_karlov_manor_2026-10-30.json",
+   "participant": "kaya",
+   "card": "Kaya, Spirits' Justice",
+   "oracle_id": "0a094c5f-cefb-4ba1-90c8-dd78ae8efe95",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "mkm"
+   ]
+  },
+  {
+   "claim": "MK015",
+   "pack": "pack_p5_murders_at_karlov_manor_2026-10-30.json",
+   "participant": "teysa_karlov",
+   "card": "Teysa Karlov",
+   "oracle_id": "644eeefd-e684-4ca8-8aef-a892ca130c07",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
    "claim": "BL001",
    "pack": "pack_p5_bloomburrow_2026-10-30.json",
    "participant": "ral_zarek",
@@ -14825,6 +14892,22 @@
    "story_set_printings": [
     "dsk"
    ]
+  },
+  {
+   "claim": "DS012",
+   "pack": "pack_p5_duskmourn_2026-10-30.json",
+   "participant": "kaito",
+   "card": "Kaito Shizuki",
+   "oracle_id": "ba48e067-f4d9-45b2-ade1-71cf8cda418c",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "DS012",
+   "pack": "pack_p5_duskmourn_2026-10-30.json",
+   "participant": "the_wanderer",
+   "card": "The Wanderer",
+   "oracle_id": "4c2196e5-6ed7-4cd2-b8e7-f01aff236569",
+   "tier": "NAMED_PARTICIPANT"
   },
   {
    "claim": "OT001",
@@ -23468,6 +23551,30 @@
    "tier": "NAMED_PARTICIPANT"
   },
   {
+   "claim": "MS009",
+   "pack": "pack_p5_mom_side_stories_2026-10-30.json",
+   "participant": "elesh_norn",
+   "card": "Elesh Norn // The Argent Etchings",
+   "oracle_id": "650ed75c-20b0-45b8-a4d4-813e0369aaf1",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MS009",
+   "pack": "pack_p5_mom_side_stories_2026-10-30.json",
+   "participant": "elesh_norn",
+   "card": "Elesh Norn, Grand Cenobite",
+   "oracle_id": "958d71ff-c9f7-46f0-96ca-79e7f4d65a16",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MS009",
+   "pack": "pack_p5_mom_side_stories_2026-10-30.json",
+   "participant": "elesh_norn",
+   "card": "Elesh Norn, Mother of Machines",
+   "oracle_id": "5ade11c0-41dd-4b6a-9f5b-c5903a3a0d7f",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
    "claim": "OS001",
    "pack": "pack_p5_otj_side_stories_2026-10-30.json",
    "participant": "yuma",
@@ -24127,6 +24234,711 @@
    "card": "Braids, Conjurer Adept",
    "oracle_id": "359b8f2c-831e-47d0-9267-dae79cecb63a",
    "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "DM001",
+   "pack": "pack_p5_dominaria_united_2026-10-30.json",
+   "participant": "rona",
+   "card": "Rona, Disciple of Gix",
+   "oracle_id": "409305b3-5373-4376-8096-c04a73184cef",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "DM001",
+   "pack": "pack_p5_dominaria_united_2026-10-30.json",
+   "participant": "rona",
+   "card": "Rona, Herald of Invasion // Rona, Tolarian Obliterator",
+   "oracle_id": "cf5bd3a4-3899-4c25-ad1f-f1778c1d9c60",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "DM001",
+   "pack": "pack_p5_dominaria_united_2026-10-30.json",
+   "participant": "rona",
+   "card": "Rona, Sheoldred's Faithful",
+   "oracle_id": "52e92296-7af9-4e68-8045-40b6d6b73910",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "DM001",
+   "pack": "pack_p5_dominaria_united_2026-10-30.json",
+   "participant": "sheoldred",
+   "card": "Sheoldred // The True Scriptures",
+   "oracle_id": "97652492-7906-4d79-983c-fa1dc1239eba",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "DM001",
+   "pack": "pack_p5_dominaria_united_2026-10-30.json",
+   "participant": "sheoldred",
+   "card": "Sheoldred, Whispering One",
+   "oracle_id": "9218b56d-aaec-482f-99e9-d95d227bfe25",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "DM001",
+   "pack": "pack_p5_dominaria_united_2026-10-30.json",
+   "participant": "sheoldred",
+   "card": "Sheoldred, the Apocalypse",
+   "oracle_id": "34f34409-326d-4994-a0ea-1a69aa278f03",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "DM002",
+   "pack": "pack_p5_dominaria_united_2026-10-30.json",
+   "participant": "karn",
+   "card": "Karn Liberated",
+   "oracle_id": "0ca233f4-1b7f-4807-ab6e-2b1f5439b3db",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "DM002",
+   "pack": "pack_p5_dominaria_united_2026-10-30.json",
+   "participant": "karn",
+   "card": "Karn, Argent Defender",
+   "oracle_id": "aecc621f-67da-41a7-9d47-05ded302ae35",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "DM002",
+   "pack": "pack_p5_dominaria_united_2026-10-30.json",
+   "participant": "karn",
+   "card": "Karn, Gilded Guardian",
+   "oracle_id": "20b90a18-ff62-4995-b0d6-fbef44dca357",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "DM002",
+   "pack": "pack_p5_dominaria_united_2026-10-30.json",
+   "participant": "karn",
+   "card": "Karn, Legacy Reforged",
+   "oracle_id": "bc8802db-8c94-4eb4-817f-5f4f5408b7a4",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "DM002",
+   "pack": "pack_p5_dominaria_united_2026-10-30.json",
+   "participant": "karn",
+   "card": "Karn, Living Legacy",
+   "oracle_id": "09ab1278-811f-4b97-bd34-7493d6e081e9",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "DM002",
+   "pack": "pack_p5_dominaria_united_2026-10-30.json",
+   "participant": "karn",
+   "card": "Karn, Scion of Urza",
+   "oracle_id": "060209fa-4b7d-4e08-bf8b-8759bba5641b",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "DM002",
+   "pack": "pack_p5_dominaria_united_2026-10-30.json",
+   "participant": "karn",
+   "card": "Karn, Silver Golem",
+   "oracle_id": "8a7c6391-020a-4d7a-8abb-702631bbee56",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "DM002",
+   "pack": "pack_p5_dominaria_united_2026-10-30.json",
+   "participant": "karn",
+   "card": "Karn, the Great Creator",
+   "oracle_id": "a20dd48d-d344-4db1-b0e9-a2b71c3cc9d1",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "DM002",
+   "pack": "pack_p5_dominaria_united_2026-10-30.json",
+   "participant": "rona",
+   "card": "Rona, Disciple of Gix",
+   "oracle_id": "409305b3-5373-4376-8096-c04a73184cef",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "DM002",
+   "pack": "pack_p5_dominaria_united_2026-10-30.json",
+   "participant": "rona",
+   "card": "Rona, Herald of Invasion // Rona, Tolarian Obliterator",
+   "oracle_id": "cf5bd3a4-3899-4c25-ad1f-f1778c1d9c60",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "DM002",
+   "pack": "pack_p5_dominaria_united_2026-10-30.json",
+   "participant": "rona",
+   "card": "Rona, Sheoldred's Faithful",
+   "oracle_id": "52e92296-7af9-4e68-8045-40b6d6b73910",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "DM003",
+   "pack": "pack_p5_dominaria_united_2026-10-30.json",
+   "participant": "karn",
+   "card": "Karn Liberated",
+   "oracle_id": "0ca233f4-1b7f-4807-ab6e-2b1f5439b3db",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "DM003",
+   "pack": "pack_p5_dominaria_united_2026-10-30.json",
+   "participant": "karn",
+   "card": "Karn, Argent Defender",
+   "oracle_id": "aecc621f-67da-41a7-9d47-05ded302ae35",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "DM003",
+   "pack": "pack_p5_dominaria_united_2026-10-30.json",
+   "participant": "karn",
+   "card": "Karn, Gilded Guardian",
+   "oracle_id": "20b90a18-ff62-4995-b0d6-fbef44dca357",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "DM003",
+   "pack": "pack_p5_dominaria_united_2026-10-30.json",
+   "participant": "karn",
+   "card": "Karn, Legacy Reforged",
+   "oracle_id": "bc8802db-8c94-4eb4-817f-5f4f5408b7a4",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "DM003",
+   "pack": "pack_p5_dominaria_united_2026-10-30.json",
+   "participant": "karn",
+   "card": "Karn, Living Legacy",
+   "oracle_id": "09ab1278-811f-4b97-bd34-7493d6e081e9",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "DM003",
+   "pack": "pack_p5_dominaria_united_2026-10-30.json",
+   "participant": "karn",
+   "card": "Karn, Scion of Urza",
+   "oracle_id": "060209fa-4b7d-4e08-bf8b-8759bba5641b",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "DM003",
+   "pack": "pack_p5_dominaria_united_2026-10-30.json",
+   "participant": "karn",
+   "card": "Karn, Silver Golem",
+   "oracle_id": "8a7c6391-020a-4d7a-8abb-702631bbee56",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "DM003",
+   "pack": "pack_p5_dominaria_united_2026-10-30.json",
+   "participant": "karn",
+   "card": "Karn, the Great Creator",
+   "oracle_id": "a20dd48d-d344-4db1-b0e9-a2b71c3cc9d1",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "DM003",
+   "pack": "pack_p5_dominaria_united_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani Goldmane",
+   "oracle_id": "dfb5f660-fd8b-4b7b-934c-6a71cd182f15",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "DM003",
+   "pack": "pack_p5_dominaria_united_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani Resolute",
+   "oracle_id": "0d60c095-4c6c-4618-8ef3-508f3d454efa",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "DM003",
+   "pack": "pack_p5_dominaria_united_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani Steadfast",
+   "oracle_id": "90249526-1875-450a-882d-bf6f6bfd37a6",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "DM003",
+   "pack": "pack_p5_dominaria_united_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani Unrelenting",
+   "oracle_id": "71620e92-45a4-49cb-94d5-348013ecf886",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "DM003",
+   "pack": "pack_p5_dominaria_united_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani Unyielding",
+   "oracle_id": "8a70ddc5-bb51-45eb-96f2-8ecaecac0cc2",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "DM003",
+   "pack": "pack_p5_dominaria_united_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani Vengeant",
+   "oracle_id": "f953afdf-96f7-4851-994c-1617e8f5e5c9",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "DM003",
+   "pack": "pack_p5_dominaria_united_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani, Adversary of Tyrants",
+   "oracle_id": "b25bea73-7444-4ee2-8022-611461506117",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "DM003",
+   "pack": "pack_p5_dominaria_united_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani, Caller of the Pride",
+   "oracle_id": "1d5ff280-7f4d-4801-aefd-9b6e6b1f2818",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "DM003",
+   "pack": "pack_p5_dominaria_united_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani, Inspiring Leader",
+   "oracle_id": "15474e82-94b4-47e1-b91c-3deaf4dbffd6",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "DM003",
+   "pack": "pack_p5_dominaria_united_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani, Mentor of Heroes",
+   "oracle_id": "a612bd38-069f-4bdc-9aa6-c172435e3841",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "DM003",
+   "pack": "pack_p5_dominaria_united_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani, Nacatl Pariah // Ajani, Nacatl Avenger",
+   "oracle_id": "2588f348-d7a3-46c8-9ace-dca53ed5ef99",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "DM003",
+   "pack": "pack_p5_dominaria_united_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani, Outland Chaperone",
+   "oracle_id": "3ba809ce-3556-415c-9fcc-291cb10a43cd",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "DM003",
+   "pack": "pack_p5_dominaria_united_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani, Sleeper Agent",
+   "oracle_id": "37714eb9-a39d-4534-a2d3-27908c418f8a",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "DM003",
+   "pack": "pack_p5_dominaria_united_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani, Strength of the Pride",
+   "oracle_id": "c3974ec7-7af0-4b65-baf6-4c1c4fe8a5c4",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "DM003",
+   "pack": "pack_p5_dominaria_united_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani, Valiant Protector",
+   "oracle_id": "542423cb-fbfb-4a2f-9f6d-87b273a95e96",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "DM003",
+   "pack": "pack_p5_dominaria_united_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani, Wise Counselor",
+   "oracle_id": "341f198b-beb6-4a44-af91-a64a5989c865",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "DM003",
+   "pack": "pack_p5_dominaria_united_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani, the Greathearted",
+   "oracle_id": "f5d9be71-91d0-4166-ba58-cbbf5d490c40",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "DM004",
+   "pack": "pack_p5_dominaria_united_2026-10-30.json",
+   "participant": "stenn",
+   "card": "Stenn, Paranoid Partisan",
+   "oracle_id": "03d2d7dd-54b6-469e-8b1c-c48db8cc0925",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "DM005",
+   "pack": "pack_p5_dominaria_united_2026-10-30.json",
+   "participant": "danitha_capashen",
+   "card": "Danitha Capashen, Paragon",
+   "oracle_id": "4b6377da-83e7-4519-9582-16a9c16b8faa",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "DM005",
+   "pack": "pack_p5_dominaria_united_2026-10-30.json",
+   "participant": "jaya_ballard",
+   "card": "Jaya Ballard",
+   "oracle_id": "a56c5ca5-70eb-4d5f-8116-2acbe5f5a3cb",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "DM005",
+   "pack": "pack_p5_dominaria_united_2026-10-30.json",
+   "participant": "jaya_ballard",
+   "card": "Jaya Ballard, Task Mage",
+   "oracle_id": "cbbad3da-695e-4527-9678-0942f3751287",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "DM006",
+   "pack": "pack_p5_dominaria_united_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani Goldmane",
+   "oracle_id": "dfb5f660-fd8b-4b7b-934c-6a71cd182f15",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "DM006",
+   "pack": "pack_p5_dominaria_united_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani Resolute",
+   "oracle_id": "0d60c095-4c6c-4618-8ef3-508f3d454efa",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "DM006",
+   "pack": "pack_p5_dominaria_united_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani Steadfast",
+   "oracle_id": "90249526-1875-450a-882d-bf6f6bfd37a6",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "DM006",
+   "pack": "pack_p5_dominaria_united_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani Unrelenting",
+   "oracle_id": "71620e92-45a4-49cb-94d5-348013ecf886",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "DM006",
+   "pack": "pack_p5_dominaria_united_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani Unyielding",
+   "oracle_id": "8a70ddc5-bb51-45eb-96f2-8ecaecac0cc2",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "DM006",
+   "pack": "pack_p5_dominaria_united_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani Vengeant",
+   "oracle_id": "f953afdf-96f7-4851-994c-1617e8f5e5c9",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "DM006",
+   "pack": "pack_p5_dominaria_united_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani, Adversary of Tyrants",
+   "oracle_id": "b25bea73-7444-4ee2-8022-611461506117",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "DM006",
+   "pack": "pack_p5_dominaria_united_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani, Caller of the Pride",
+   "oracle_id": "1d5ff280-7f4d-4801-aefd-9b6e6b1f2818",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "DM006",
+   "pack": "pack_p5_dominaria_united_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani, Inspiring Leader",
+   "oracle_id": "15474e82-94b4-47e1-b91c-3deaf4dbffd6",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "DM006",
+   "pack": "pack_p5_dominaria_united_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani, Mentor of Heroes",
+   "oracle_id": "a612bd38-069f-4bdc-9aa6-c172435e3841",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "DM006",
+   "pack": "pack_p5_dominaria_united_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani, Nacatl Pariah // Ajani, Nacatl Avenger",
+   "oracle_id": "2588f348-d7a3-46c8-9ace-dca53ed5ef99",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "DM006",
+   "pack": "pack_p5_dominaria_united_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani, Outland Chaperone",
+   "oracle_id": "3ba809ce-3556-415c-9fcc-291cb10a43cd",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "DM006",
+   "pack": "pack_p5_dominaria_united_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani, Sleeper Agent",
+   "oracle_id": "37714eb9-a39d-4534-a2d3-27908c418f8a",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "DM006",
+   "pack": "pack_p5_dominaria_united_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani, Strength of the Pride",
+   "oracle_id": "c3974ec7-7af0-4b65-baf6-4c1c4fe8a5c4",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "DM006",
+   "pack": "pack_p5_dominaria_united_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani, Valiant Protector",
+   "oracle_id": "542423cb-fbfb-4a2f-9f6d-87b273a95e96",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "DM006",
+   "pack": "pack_p5_dominaria_united_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani, Wise Counselor",
+   "oracle_id": "341f198b-beb6-4a44-af91-a64a5989c865",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "DM006",
+   "pack": "pack_p5_dominaria_united_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani, the Greathearted",
+   "oracle_id": "f5d9be71-91d0-4166-ba58-cbbf5d490c40",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "DM007",
+   "pack": "pack_p5_dominaria_united_2026-10-30.json",
+   "participant": "jhoira",
+   "card": "Jhoira of the Ghitu",
+   "oracle_id": "ad3f4ec9-9905-421b-98ed-78bb6fc9b450",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "DM007",
+   "pack": "pack_p5_dominaria_united_2026-10-30.json",
+   "participant": "jhoira",
+   "card": "Jhoira, Ageless Innovator",
+   "oracle_id": "83b9a734-ee92-44c8-bf47-ca69b6d6405e",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "DM007",
+   "pack": "pack_p5_dominaria_united_2026-10-30.json",
+   "participant": "jhoira",
+   "card": "Jhoira, Weatherlight Captain",
+   "oracle_id": "c803b788-4213-4fab-b841-7e5bbf66088e",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "DM007",
+   "pack": "pack_p5_dominaria_united_2026-10-30.json",
+   "participant": "jhoira",
+   "card": "Jhoira, Weatherlight Corsair",
+   "oracle_id": "cf9b0bb5-d545-4efd-9255-39b10c2be0ee",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "DM007",
+   "pack": "pack_p5_dominaria_united_2026-10-30.json",
+   "participant": "mana_rig",
+   "card": "The Mana Rig",
+   "oracle_id": "58678469-77e5-4c1b-88d6-5e6642b0c8ca",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "NS001",
+   "pack": "pack_p5_neo_side_stories_2026-10-30.json",
+   "participant": "kaito",
+   "card": "Kaito Shizuki",
+   "oracle_id": "ba48e067-f4d9-45b2-ade1-71cf8cda418c",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "NS002",
+   "pack": "pack_p5_neo_side_stories_2026-10-30.json",
+   "participant": "chishiro",
+   "card": "Chishiro, the Shattered Blade",
+   "oracle_id": "c98a4af3-3e58-4927-9a60-d2664cf0b139",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "NS003",
+   "pack": "pack_p5_neo_side_stories_2026-10-30.json",
+   "participant": "katsumasa",
+   "card": "Katsumasa, the Animator",
+   "oracle_id": "80ba76a6-cc48-4820-bc0b-c9ec18088a3b",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "NS003",
+   "pack": "pack_p5_neo_side_stories_2026-10-30.json",
+   "participant": "kotori",
+   "card": "Kotori, Pilot Prodigy",
+   "oracle_id": "0659a5b0-9807-4e4c-8af3-b6e233051ad6",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "BZ101",
+   "pack": "pack_p5_bfz_2015_stories_2026-10-30.json",
+   "participant": "nissa_revane",
+   "card": "Nissa Revane",
+   "oracle_id": "113fc13a-6df9-4eed-b9d4-002a85a036a1",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "BZ102",
+   "pack": "pack_p5_bfz_2015_stories_2026-10-30.json",
+   "participant": "gideon_jura",
+   "card": "Gideon Jura",
+   "oracle_id": "7340dbcb-4b26-4038-be8c-a89e76294221",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "BZ102",
+   "pack": "pack_p5_bfz_2015_stories_2026-10-30.json",
+   "participant": "jace_beleren",
+   "card": "Jace Beleren",
+   "oracle_id": "cc2b6e58-2d6f-495e-95f3-9496105c4cba",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "BZ103",
+   "pack": "pack_p5_bfz_2015_stories_2026-10-30.json",
+   "participant": "nissa_revane",
+   "card": "Nissa Revane",
+   "oracle_id": "113fc13a-6df9-4eed-b9d4-002a85a036a1",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "BZ104",
+   "pack": "pack_p5_bfz_2015_stories_2026-10-30.json",
+   "participant": "gideon_jura",
+   "card": "Gideon Jura",
+   "oracle_id": "7340dbcb-4b26-4038-be8c-a89e76294221",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "BZ106",
+   "pack": "pack_p5_bfz_2015_stories_2026-10-30.json",
+   "participant": "munda",
+   "card": "Munda, Ambush Leader",
+   "oracle_id": "4d5da73a-f22a-4446-b5f9-504dfabf1d52",
+   "tier": "ART_IN_CITED_SOURCE",
+   "cited_pages_crediting_art": [
+    "https://magic.wizards.com/en/news/magic-story/nissas-quest-2015-09-23"
+   ]
+  },
+  {
+   "claim": "BZ106",
+   "pack": "pack_p5_bfz_2015_stories_2026-10-30.json",
+   "participant": "gideon_jura",
+   "card": "Gideon Jura",
+   "oracle_id": "7340dbcb-4b26-4038-be8c-a89e76294221",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "BZ107",
+   "pack": "pack_p5_bfz_2015_stories_2026-10-30.json",
+   "participant": "kiora",
+   "card": "Kiora of Fire and Ashes",
+   "oracle_id": "02b41d0e-82e7-4307-8cc4-8175ff78ea1f",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "BZ107",
+   "pack": "pack_p5_bfz_2015_stories_2026-10-30.json",
+   "participant": "kiora",
+   "card": "Kiora of Salt and Sand",
+   "oracle_id": "e70bb7f8-8098-49c5-929c-68f63cd821c5",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "BZ107",
+   "pack": "pack_p5_bfz_2015_stories_2026-10-30.json",
+   "participant": "kiora",
+   "card": "Kiora, Behemoth Beckoner",
+   "oracle_id": "1efe485e-6874-4f4c-b981-e10f41670865",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "BZ107",
+   "pack": "pack_p5_bfz_2015_stories_2026-10-30.json",
+   "participant": "kiora",
+   "card": "Kiora, Master of the Depths",
+   "oracle_id": "0b829189-ff9d-4f6c-9a2a-fdb4a9bfeeb6",
+   "tier": "ART_IN_CITED_SOURCE",
+   "cited_pages_crediting_art": [
+    "https://magic.wizards.com/en/news/magic-story/home-waters-2015-09-30"
+   ]
+  },
+  {
+   "claim": "BZ107",
+   "pack": "pack_p5_bfz_2015_stories_2026-10-30.json",
+   "participant": "kiora",
+   "card": "Kiora, Sovereign of the Deep",
+   "oracle_id": "95df54e2-0196-4e54-8144-de5982ce07f5",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "BZ107",
+   "pack": "pack_p5_bfz_2015_stories_2026-10-30.json",
+   "participant": "kiora",
+   "card": "Kiora, the Crashing Wave",
+   "oracle_id": "58cc2097-f4b4-4695-9076-78666050cdb6",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "BZ107",
+   "pack": "pack_p5_bfz_2015_stories_2026-10-30.json",
+   "participant": "kiora",
+   "card": "Kiora, the Rising Tide",
+   "oracle_id": "5d748bce-dff8-46fa-a3d1-633863b7bbff",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "BZ108",
+   "pack": "pack_p5_bfz_2015_stories_2026-10-30.json",
+   "participant": "nissa_revane",
+   "card": "Nissa Revane",
+   "oracle_id": "113fc13a-6df9-4eed-b9d4-002a85a036a1",
+   "tier": "ART_IN_CITED_SOURCE",
+   "cited_pages_crediting_art": [
+    "https://magic.wizards.com/en/news/magic-story/nissas-resolve-2015-10-07"
+   ]
   }
  ],
  "by_pack": {
@@ -24214,6 +25026,13 @@
    "PRINTED_IN_STORY_SET": 5,
    "NAMED_PARTICIPANT": 76
   },
+  "pack_p5_bfz_2015_stories_2026-10-30.json": {
+   "claims": 8,
+   "claims_anchored": 7,
+   "ART_IN_CITED_SOURCE": 3,
+   "PRINTED_IN_STORY_SET": 0,
+   "NAMED_PARTICIPANT": 12
+  },
   "pack_p5_bloomburrow_2026-10-30.json": {
    "claims": 12,
    "claims_anchored": 7,
@@ -24235,6 +25054,13 @@
    "PRINTED_IN_STORY_SET": 4,
    "NAMED_PARTICIPANT": 11
   },
+  "pack_p5_dominaria_united_2026-10-30.json": {
+   "claims": 7,
+   "claims_anchored": 7,
+   "ART_IN_CITED_SOURCE": 0,
+   "PRINTED_IN_STORY_SET": 0,
+   "NAMED_PARTICIPANT": 68
+  },
   "pack_p5_dsk_side_stories_2026-10-30.json": {
    "claims": 6,
    "claims_anchored": 1,
@@ -24243,11 +25069,11 @@
    "NAMED_PARTICIPANT": 8
   },
   "pack_p5_duskmourn_2026-10-30.json": {
-   "claims": 11,
-   "claims_anchored": 11,
+   "claims": 12,
+   "claims_anchored": 12,
    "ART_IN_CITED_SOURCE": 0,
    "PRINTED_IN_STORY_SET": 11,
-   "NAMED_PARTICIPANT": 23
+   "NAMED_PARTICIPANT": 25
   },
   "pack_p5_edge_of_eternities_2026-10-30.json": {
    "claims": 30,
@@ -24327,18 +25153,25 @@
    "NAMED_PARTICIPANT": 96
   },
   "pack_p5_mom_side_stories_2026-10-30.json": {
-   "claims": 8,
-   "claims_anchored": 8,
+   "claims": 9,
+   "claims_anchored": 9,
    "ART_IN_CITED_SOURCE": 0,
    "PRINTED_IN_STORY_SET": 0,
-   "NAMED_PARTICIPANT": 16
+   "NAMED_PARTICIPANT": 19
   },
   "pack_p5_murders_at_karlov_manor_2026-10-30.json": {
-   "claims": 14,
-   "claims_anchored": 13,
+   "claims": 15,
+   "claims_anchored": 14,
    "ART_IN_CITED_SOURCE": 0,
-   "PRINTED_IN_STORY_SET": 12,
-   "NAMED_PARTICIPANT": 39
+   "PRINTED_IN_STORY_SET": 13,
+   "NAMED_PARTICIPANT": 46
+  },
+  "pack_p5_neo_side_stories_2026-10-30.json": {
+   "claims": 4,
+   "claims_anchored": 3,
+   "ART_IN_CITED_SOURCE": 0,
+   "PRINTED_IN_STORY_SET": 0,
+   "NAMED_PARTICIPANT": 4
   },
   "pack_p5_one_side_stories_2026-10-30.json": {
    "claims": 6,
@@ -24440,12 +25273,12 @@
   }
  },
  "counts": {
-  "claims": 689,
-  "claims_anchored": 608,
-  "anchors": 2802,
-  "ART_IN_CITED_SOURCE": 59,
-  "PRINTED_IN_STORY_SET": 467,
-  "NAMED_PARTICIPANT": 2276
+  "claims": 711,
+  "claims_anchored": 628,
+  "anchors": 2902,
+  "ART_IN_CITED_SOURCE": 62,
+  "PRINTED_IN_STORY_SET": 468,
+  "NAMED_PARTICIPANT": 2372
  },
- "content_sha256": "38b078f5c232f00390e907d5e83b84e0459d6d13e4d5fcad8981c7ca3388e0c4"
+ "content_sha256": "a763d08115f75277e059d54225c665a00751e5f679d61ce408eb9cebdb3a6c16"
 }

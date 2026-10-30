@@ -3,15 +3,15 @@
  "pack": "data/lore_research/pack_p5_mom_side_stories_2026-10-30.json",
  "pack_status": "PRELIMINARY_RESEARCH (not owner approved, not certified)",
  "arc": "MOM",
- "claims": 8,
- "entities": 19,
- "sources": 8,
+ "claims": 9,
+ "entities": 22,
+ "sources": 9,
  "grades": {
-  "CANON_CONFIRMED": 6,
+  "CANON_CONFIRMED": 7,
   "CANON_IMPLIED": 2
  },
- "quotes": 16,
- "quotes_verbatim": 16,
+ "quotes": 18,
+ "quotes_verbatim": 18,
  "quote_rows": [
   {
    "claim": "MS001",
@@ -108,9 +108,21 @@
    "source_id": "moms_capenna",
    "quote_sha256": "beebb3125471849ab4708cc87612d6b3e1454feeb476550b1aedc1b2fb1afa74",
    "status": "VERBATIM"
+  },
+  {
+   "claim": "MS009",
+   "source_id": "moms_guide",
+   "quote_sha256": "302cd622ac56f3104bae86247ab197e4f804c288e3fe124e53a50a6694fa76c1",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MS009",
+   "source_id": "moms_guide",
+   "quote_sha256": "4d37f7d930de372ac3d42f2a2d6defcb1360b1d1862517036e7b90d74bf8173b",
+   "status": "VERBATIM"
   }
  ],
  "problems": [],
  "note": "Verbatim-quote audit against cached official Wizards story text. Research evidence only: not owner approval, not certification, not an exhaustive reading.",
- "content_sha256": "f6b51c7991a26199adfaa3c59d6f1fdbf6b4243e3b4a4fa12902fd35f0e26c2a"
+ "content_sha256": "372adfac2d8bce328c992658eabb73b29e4ff66999ca776206d1a71ea3006c7d"
 }

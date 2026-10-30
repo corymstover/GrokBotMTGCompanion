@@ -1,0 +1,28 @@
+from mv import spec
+C,I="CANON_CONFIRMED","CANON_IMPLIED"
+spec("pack_p5_neo_side_stories","NEO","kamigawa_neon_dynasty_2022",
+"Targeted Phase 5 extraction from the official Kaito origin stories (December 2021) and three Kamigawa: Neon Dynasty side stories (February 2022) tagged to the NEO arc in batch 7. One claim per page; not an exhaustive reading. PRELIMINARY_RESEARCH; not owner approved.",
+{"neos_kaito":"kaito-origin-stories-test-loyalty-path-forward-2021-12-16","neos_blade":"blade-reflected-and-reborn-2022-02-07",
+ "neos_epoch":"epoch-engine-2022-02-08","neos_foes":"foes-who-make-us-2022-02-09"},
+[("kaito","Character","Kaito Shizuki"),("hyozan_reckoners","Faction","Hyozan Reckoners"),("chishiro","Character","Chishiro"),
+ ("far_corner","Place","Far Corner"),("katsumasa","Character","Katsumasa"),("kotori","Character","Kotori"),
+ ("heiko","Character","Heiko"),("norika","Character","Norika")],
+[
+("NS001","kaito","member_of","hyozan_reckoners",C,
+ [("neos_kaito","Kaito had been doing jobs for the Hyozan Reckoners for nearly a year."),
+  ("neos_kaito","But Kaito hadn't joined the Hyozan Reckoners for the money.")],
+ "Kaito has worked for the Hyozan Reckoners for nearly a year."),
+("NS002","chishiro","located_at","far_corner",C,
+ [("neos_blade","When he'd arrived in Far Corner, Chishiro had thought the worshippers foolish.")],
+ "Chishiro lives among the people of Far Corner."),
+("NS003","katsumasa","mentored","kotori",I,
+ [("neos_epoch","As Katsumasa led her through a maze of passages, Kotori's skin crackled with exhilaration."),
+  ("neos_epoch","Across Otawara, his name was spoken with hushed reverence: Katsumasa, the Animator, puppeteer of the mechs, engineer of the future.")],
+ "Katsumasa, the Animator, leads Kotori into his workshop.",
+ "A guiding role is shown; a formal mentorship is inferred."),
+("NS004","heiko","related_to","norika",C,
+ [("neos_foes","Norika puts every ounce of authority she can muster into her ten-year-old voice and, as always, it has zero effect on her cousin."),
+  ("neos_foes","And though Norika understands well her responsibilities as the elder cousin, the eldest daughter of the Yamazaki household, the more Heiko pesters her, the more she has to admit—she wants to see the merge, too.")],
+ "Norika and Heiko are cousins; Norika is the elder."),
+],
+["One claim per page; the Imperial/Upriser conflict is not graded"])

@@ -4,9 +4,16 @@
  "evidence_cutoff": "2026-10-30",
  "status": "PRELIMINARY_RESEARCH (not owner approved, not certified)",
  "arc": "MOM",
- "scope": "Targeted Phase 5 extraction from the eight official March of the Machine plane side stories (March 2023) tagged to the MOM arc in batch 7. One claim per page; not an exhaustive reading. PRELIMINARY_RESEARCH; not owner approved.",
+ "scope": "Targeted Phase 5 extraction from the eight official March of the Machine plane side stories (March 2023) and the official Planeswalker's Guide to March of the Machine, tagged to the MOM arc in batch 7. One claim per page; not an exhaustive reading. PRELIMINARY_RESEARCH; not owner approved.",
  "built_by": "scripts/story_claim_pipeline.py from data/lore_research/claim_specs/pack_p5_mom_side_stories.spec.json",
  "source_register": {
+  "moms_guide": {
+   "title": "Planeswalker's Guide to March of the Machine: The Phyrexian Invasion of the Multiverse",
+   "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-march-of-the-machine",
+   "kind": "official_planeswalkers_guide",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2023-04-11"
+  },
   "moms_arcavios": {
    "title": "March of the Machine | Arcavios: A Radiant Heart",
    "url": "https://magic.wizards.com/en/news/magic-story/a-radiant-heart",
@@ -65,6 +72,21 @@
   }
  },
  "entities": [
+  {
+   "id": "vorinclex",
+   "type": "Character",
+   "name": "Vorinclex"
+  },
+  {
+   "id": "realmbreaker",
+   "type": "Object",
+   "name": "Realmbreaker (Elesh Norn's Invasion Tree)"
+  },
+  {
+   "id": "elesh_norn",
+   "type": "Character",
+   "name": "Elesh Norn"
+  },
   {
    "id": "quintorius",
    "type": "Character",
@@ -345,13 +367,36 @@
    ],
    "summary": "Atraxa leads the conversion of New Capenna; Park Heights falls.",
    "limitation": "Stated by characters in dialogue."
+  },
+  {
+   "id": "MS009",
+   "subject": "elesh_norn",
+   "predicate": "created",
+   "object": "realmbreaker",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "march_of_the_machine_2023",
+   "source_ids": [
+    "moms_guide"
+   ],
+   "evidence": [
+    {
+     "source_id": "moms_guide",
+     "quote": "She sent Vorinclex to Kaldheim to steal some of the essence of the World Tree, which she then used to grow her own plane-traversing Invasion Tree."
+    },
+    {
+     "source_id": "moms_guide",
+     "quote": "Elesh Norn's Invasion Tree breaches into countless planes, and armies of Phyrexians pour out across the Multiverse."
+    }
+   ],
+   "summary": "The Planeswalker's Guide says Elesh Norn grew the Invasion Tree from World Tree essence Vorinclex stole from Kaldheim.",
+   "limitation": "Planeswalker's Guide (official feature), not fiction."
   }
  ],
- "pages_registered": 8,
- "pages_cited": 8,
+ "pages_registered": 9,
+ "pages_cited": 9,
  "uncited_registered_pages": [],
  "remaining": [
-  "One claim per side story; the eight invasion fronts are only lightly modelled",
+  "One claim per side story, plus one from the official Planeswalker's Guide (MS009); the eight invasion fronts are only lightly modelled",
   "Dina, Killian, Akiri and the Capenna families are mentioned in quotes but not graded"
  ]
 }

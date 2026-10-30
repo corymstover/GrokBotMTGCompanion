@@ -7,6 +7,13 @@
  "scope": "Targeted Phase 5 extraction from the ten official Murders at Karlov Manor Magic Story episodes (2023-12-05 to 2024-01-18) and the Planeswalker's Guide to Murders at Karlov Manor. PRELIMINARY_RESEARCH; not owner approved.",
  "built_by": "scripts/story_claim_pipeline.py from data/lore_research/claim_specs/pack_p5_murders_at_karlov_manor.spec.json",
  "source_register": {
+  "mkm_ep2": {
+   "title": "Murders at Karlov Manor | Episode 2: Monsters We Became",
+   "url": "https://magic.wizards.com/en/news/magic-story/episode-2-monsters-we-became",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2024-01-08"
+  },
   "mkm_ep1": {
    "title": "Murders at Karlov Manor | Episode 1: Ghosts of Our Past",
    "url": "https://magic.wizards.com/en/news/magic-story/episode-1-ghosts-of-our-past",
@@ -473,13 +480,36 @@
    ],
    "summary": "The guide says the Golgari's previous guildmaster, Vraska, disappeared after the invasion.",
    "limitation": "Object is the guild she left; she disappeared after the Phyrexian invasion."
+  },
+  {
+   "id": "MK015",
+   "subject": "kaya",
+   "predicate": "allied_with",
+   "object": "teysa_karlov",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "ravnica_mkm_2024",
+   "source_ids": [
+    "mkm_ep2"
+   ],
+   "evidence": [
+    {
+     "source_id": "mkm_ep2",
+     "quote": "Teysa still caught up quickly, moving with a speed that Kaya knew would cost her later: for Teysa to be running alongside the much younger, fitter Planeswalker, she had to be drawing deep on her magical reserves."
+    },
+    {
+     "source_id": "mkm_ep2",
+     "quote": "Seeing that Teysa's temper was hanging on by a thread, Kaya set a hand on her arm."
+    }
+   ],
+   "summary": "In Episode 2, Kaya and Teysa run through Karlov Manor together after the murder.",
+   "limitation": ""
   }
  ],
- "pages_registered": 10,
- "pages_cited": 10,
+ "pages_registered": 11,
+ "pages_cited": 11,
  "uncited_registered_pages": [],
  "remaining": [
-  "Episode 2 (Zegana's body) is not separately cited",
+  "Episode 2 is cited only for Kaya and Teysa (MK015); Zegana's body is not graded",
   "Lazav's status remains unresolved and is not graded",
   "Krenko and the other guild leaders at the Vitu-Ghazi meeting are not modelled"
  ]
