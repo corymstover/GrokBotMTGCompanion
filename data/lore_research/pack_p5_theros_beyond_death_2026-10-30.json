@@ -13,6 +13,27 @@
    "kind": "official_story_feature",
    "perspective": "Wizards of the Coast (official Magic Story)",
    "published": "2020-01-10"
+  },
+  "thb_cards": {
+   "title": "The Theros Beyond Death Story on Cards",
+   "url": "https://magic.wizards.com/en/news/feature/theros-beyond-death-story-cards-2019-12-16",
+   "kind": "official_story_feature",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2019-12-16"
+  },
+  "thb_journeys_end": {
+   "title": "Journey's End",
+   "url": "https://magic.wizards.com/en/news/making-magic/journeys-end-2014-05-26",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2014-05-26"
+  },
+  "thb_odds": {
+   "title": "Odds & Ends: Theros Beyond Death",
+   "url": "https://magic.wizards.com/en/news/making-magic/odds-ends-theros-beyond-death-2020-01-27",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2020-01-28"
   }
  },
  "entities": [
@@ -85,6 +106,51 @@
    "id": "shadowspear",
    "type": "Object",
    "name": "Elspeth's shadowspear"
+  },
+  {
+   "id": "purphoros",
+   "type": "Character",
+   "name": "Purphoros"
+  },
+  {
+   "id": "polukranos",
+   "type": "Character",
+   "name": "Polukranos, World Eater"
+  },
+  {
+   "id": "nylea",
+   "type": "Character",
+   "name": "Nylea"
+  },
+  {
+   "id": "godsend",
+   "type": "Object",
+   "name": "Godsend"
+  },
+  {
+   "id": "ajani",
+   "type": "Character",
+   "name": "Ajani"
+  },
+  {
+   "id": "kiora",
+   "type": "Character",
+   "name": "Kiora"
+  },
+  {
+   "id": "kruphix",
+   "type": "Character",
+   "name": "Kruphix"
+  },
+  {
+   "id": "the_silence_theros",
+   "type": "Event",
+   "name": "The Silence (Theros)"
+  },
+  {
+   "id": "nyx",
+   "type": "Place",
+   "name": "Nyx"
   }
  ],
  "claims": [
@@ -369,13 +435,321 @@
    ],
    "summary": "Ashiok left Theros to learn more about the Phyrexians.",
    "limitation": ""
+  },
+  {
+   "id": "TB015",
+   "subject": "purphoros",
+   "predicate": "fought",
+   "object": "heliod",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "theros_thb_2020",
+   "source_ids": [
+    "thb_cards"
+   ],
+   "evidence": [
+    {
+     "source_id": "thb_cards",
+     "quote": "To fight the sun god Heliod, the forge god Purphoros created a sword capable of damaging the divine."
+    },
+    {
+     "source_id": "thb_cards",
+     "quote": "The two gods battled, disrupting the celestial resting place of an ancient and powerful hydra: Polukranos, World Eater."
+    }
+   ],
+   "summary": "Purphoros forged a god-harming sword and battled Heliod.",
+   "limitation": ""
+  },
+  {
+   "id": "TB016",
+   "subject": "heliod",
+   "predicate": "sealed",
+   "object": "polukranos",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "theros_thb_2020",
+   "source_ids": [
+    "thb_cards"
+   ],
+   "evidence": [
+    {
+     "source_id": "thb_cards",
+     "quote": "Enraged, the hydra stormed through the mortal realm of Theros until it was sealed by Heliod and the hunt god Nylea."
+    }
+   ],
+   "summary": "Heliod and Nylea sealed Polukranos after it rampaged.",
+   "limitation": ""
+  },
+  {
+   "id": "TB017",
+   "subject": "nylea",
+   "predicate": "sealed",
+   "object": "polukranos",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "theros_thb_2020",
+   "source_ids": [
+    "thb_cards"
+   ],
+   "evidence": [
+    {
+     "source_id": "thb_cards",
+     "quote": "Enraged, the hydra stormed through the mortal realm of Theros until it was sealed by Heliod and the hunt god Nylea."
+    }
+   ],
+   "summary": "Nylea helped Heliod seal Polukranos.",
+   "limitation": ""
+  },
+  {
+   "id": "TB018",
+   "subject": "heliod",
+   "predicate": "created",
+   "object": "godsend",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "theros_thb_2020",
+   "source_ids": [
+    "thb_cards",
+    "thb_journeys_end"
+   ],
+   "evidence": [
+    {
+     "source_id": "thb_cards",
+     "quote": "so he reforged the sword into the spear Godsend."
+    },
+    {
+     "source_id": "thb_journeys_end",
+     "quote": "He transforms her sword into a spear, which becomes known as Godsend."
+    }
+   ],
+   "summary": "Heliod reforged Purphoros's sword into the spear Godsend.",
+   "limitation": ""
+  },
+  {
+   "id": "TB019",
+   "subject": "elspeth_tirel",
+   "predicate": "killed",
+   "object": "xenagos",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "theros_thb_2020",
+   "source_ids": [
+    "thb_cards",
+    "thb_journeys_end"
+   ],
+   "evidence": [
+    {
+     "source_id": "thb_cards",
+     "quote": "She journeyed to Nyx and stabbed Xenagos with Godsend, destroying him once and for all."
+    },
+    {
+     "source_id": "thb_journeys_end",
+     "quote": "Elspeth struggles to kill Xenagos until she pinpoints the last vestige of the satyr's mortality and strikes him down with her god-forged weapon."
+    }
+   ],
+   "summary": "Elspeth destroyed the god Xenagos in Nyx with Godsend.",
+   "limitation": ""
+  },
+  {
+   "id": "TB020",
+   "subject": "heliod",
+   "predicate": "killed",
+   "object": "elspeth_tirel",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "theros_thb_2020",
+   "source_ids": [
+    "thb_cards",
+    "thb_journeys_end"
+   ],
+   "evidence": [
+    {
+     "source_id": "thb_cards",
+     "quote": "Fearful of her power and knowledge of the multiverse, Heliod stabbed Elspeth with her very own weapon, which shattered afterwards."
+    },
+    {
+     "source_id": "thb_journeys_end",
+     "quote": "leaving a mortally wounded Elspeth to die alone near the Temple of the Gods."
+    }
+   ],
+   "summary": "Heliod struck Elspeth down with her own spear; she died and her soul went to the Underworld.",
+   "limitation": "She later escapes the Underworld (Theros Beyond Death)."
+  },
+  {
+   "id": "TB021",
+   "subject": "xenagos",
+   "predicate": "manipulated",
+   "object": "elspeth_tirel",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "theros_thb_2020",
+   "source_ids": [
+    "thb_journeys_end"
+   ],
+   "evidence": [
+    {
+     "source_id": "thb_journeys_end",
+     "quote": "Using magic, he manipulates her into killing Daxos on the night of the Great Revel."
+    }
+   ],
+   "summary": "Xenagos magically manipulated Elspeth into killing Daxos during the Great Revel.",
+   "limitation": ""
+  },
+  {
+   "id": "TB022",
+   "subject": "elspeth_tirel",
+   "predicate": "killed",
+   "object": "daxos",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "theros_thb_2020",
+   "source_ids": [
+    "thb_journeys_end"
+   ],
+   "evidence": [
+    {
+     "source_id": "thb_journeys_end",
+     "quote": "Using magic, he manipulates her into killing Daxos on the night of the Great Revel."
+    },
+    {
+     "source_id": "thb_journeys_end",
+     "quote": "she vows to stay until she avenges Daxos's death and destroys Xenagos."
+    }
+   ],
+   "summary": "Elspeth killed Daxos during the Great Revel.",
+   "limitation": "She acted under Xenagos's magical manipulation."
+  },
+  {
+   "id": "TB023",
+   "subject": "daxos",
+   "predicate": "mentored",
+   "object": "elspeth_tirel",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "theros_thb_2020",
+   "source_ids": [
+    "thb_journeys_end"
+   ],
+   "evidence": [
+    {
+     "source_id": "thb_journeys_end",
+     "quote": "Daxos, an oracle of Heliod, becomes her friend and mentor."
+    }
+   ],
+   "summary": "Daxos, an oracle of Heliod, became Elspeth's friend and mentor in Meletis.",
+   "limitation": ""
+  },
+  {
+   "id": "TB024",
+   "subject": "kruphix",
+   "predicate": "enacted",
+   "object": "the_silence_theros",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "theros_thb_2020",
+   "source_ids": [
+    "thb_journeys_end"
+   ],
+   "evidence": [
+    {
+     "source_id": "thb_journeys_end",
+     "quote": "Kruphix is forced to enact the Silence, which draws the gods back to Nyx and leaves the mortals to temporarily fend for themselves."
+    }
+   ],
+   "summary": "Kruphix enacted the Silence, drawing the gods back to Nyx.",
+   "limitation": ""
+  },
+  {
+   "id": "TB025",
+   "subject": "ajani",
+   "predicate": "aided",
+   "object": "elspeth_tirel",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "theros_thb_2020",
+   "source_ids": [
+    "thb_journeys_end"
+   ],
+   "evidence": [
+    {
+     "source_id": "thb_journeys_end",
+     "quote": "Her friend, Ajani, finds her in the wilderness and offers to help."
+    }
+   ],
+   "summary": "Ajani found Elspeth in the wilderness and helped her.",
+   "limitation": ""
+  },
+  {
+   "id": "TB026",
+   "subject": "kiora",
+   "predicate": "aided",
+   "object": "elspeth_tirel",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "theros_thb_2020",
+   "source_ids": [
+    "thb_journeys_end"
+   ],
+   "evidence": [
+    {
+     "source_id": "thb_journeys_end",
+     "quote": "With the help of a mysterious merfolk who turns out to be Kiora, Ajani and Elspeth make their way across the sea to Kruphix's temple at the waterfall at the edge of the world."
+    }
+   ],
+   "summary": "Kiora helped Ajani and Elspeth cross the sea to Kruphix's temple.",
+   "limitation": ""
+  },
+  {
+   "id": "TB027",
+   "subject": "xenagos",
+   "predicate": "joined",
+   "object": "theros_gods",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "theros_thb_2020",
+   "source_ids": [
+    "thb_cards"
+   ],
+   "evidence": [
+    {
+     "source_id": "thb_cards",
+     "quote": "he was able to transcend mortality and join the other gods in their home of Nyx."
+    }
+   ],
+   "summary": "Xenagos ascended and joined the gods in Nyx.",
+   "limitation": "He was later destroyed by Elspeth (TB019)."
+  },
+  {
+   "id": "TB028",
+   "subject": "klothys",
+   "predicate": "imprisoned_in",
+   "object": "theros_underworld",
+   "grade": "CANON_IMPLIED",
+   "event_stage": "theros_thb_2020",
+   "source_ids": [
+    "thb_odds"
+   ],
+   "evidence": [
+    {
+     "source_id": "thb_odds",
+     "quote": "The idea of having Klothys trapped in the Underworld thematically fit the set and explained the absence in the previous block."
+    }
+   ],
+   "summary": "Klothys is trapped in the Underworld, which explains her absence from the original Theros block.",
+   "limitation": "Design commentary (Making Magic mailbag), not narrative fiction."
+  },
+  {
+   "id": "TB029",
+   "subject": "theros_titans",
+   "predicate": "imprisoned_in",
+   "object": "theros_underworld",
+   "grade": "CANON_IMPLIED",
+   "event_stage": "theros_thb_2020",
+   "source_ids": [
+    "thb_odds"
+   ],
+   "evidence": [
+    {
+     "source_id": "thb_odds",
+     "quote": "Yes, there are more than two titans trapped in the Underworld. No, we haven't specified exactly how many."
+    }
+   ],
+   "summary": "More than two titans are trapped in the Underworld; the number is unspecified.",
+   "limitation": "Design commentary (Making Magic mailbag), not narrative fiction."
   }
  ],
- "pages_registered": 1,
- "pages_cited": 1,
+ "pages_registered": 4,
+ "pages_cited": 4,
  "uncited_registered_pages": [],
  "remaining": [
-  "Only the summary page is used; Odds & Ends: Theros Beyond Death and the story-on-cards feature are not yet extracted",
+  "The summary page is the main source; the story-on-cards page, 'Journey's End' and 'Odds & Ends' are targeted, not exhaustive",
   "Elspeth's fate after leaving Theros is not graded here"
  ]
 }

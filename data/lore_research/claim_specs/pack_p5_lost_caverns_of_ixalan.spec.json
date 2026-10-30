@@ -10,7 +10,8 @@
   "lci_ep5": "the-lost-caverns-of-ixalan-episode-5",
   "lci_ep6": "the-lost-caverns-of-ixalan-episode-6",
   "lci_pawns": "the-lost-caverns-of-ixalan-pawns",
-  "lci_guide": "planeswalkers-guide-to-the-lost-caverns-of-ixalan"
+  "lci_guide": "planeswalkers-guide-to-the-lost-caverns-of-ixalan",
+  "lci_ep2": "the-lost-caverns-of-ixalan-episode-2"
  },
  "entities": [
   {
@@ -77,6 +78,11 @@
    "id": "ixalan",
    "type": "Plane",
    "name": "Ixalan"
+  },
+  {
+   "id": "eldraine",
+   "type": "Plane",
+   "name": "Eldraine"
   }
  ],
  "claims": [
@@ -279,10 +285,67 @@
     }
    ],
    "summary": "Saheeli was stranded on Ixalan."
+  },
+  {
+   "id": "LC013",
+   "subject": "inti",
+   "predicate": "aided",
+   "object": "huatli",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "lci_ep2",
+     "quote": "She and nineteen of her fellow warriors reported to Inti and Caparocti, Imperial officers sent by the emperor to aid Huatli in her mission."
+    }
+   ],
+   "summary": "Inti is one of the Imperial officers sent by the emperor to aid Huatli's expedition.",
+   "event_stage": "lci_expedition_2023"
+  },
+  {
+   "id": "LC014",
+   "subject": "amalia",
+   "predicate": "aided",
+   "object": "kellan",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "lci_ep2",
+     "quote": "Amalia had misjudged just enough that the man almost fell as well."
+    },
+    {
+     "page": "lci_ep2",
+     "quote": "\"I'm in your debt,\" he said, bowing politely."
+    },
+    {
+     "page": "lci_ep2",
+     "quote": "I'll take responsibility for him. We've lost too many—perhaps he can help."
+    }
+   ],
+   "summary": "Amalia saves Kellan from a fall and vouches for him to Vito.",
+   "event_stage": "lci_expedition_2023"
+  },
+  {
+   "id": "LC015",
+   "subject": "kellan",
+   "predicate": "originated_from",
+   "object": "eldraine",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "lci_ep2",
+     "quote": "\"Where did you come from?\" Bartolomé asked."
+    },
+    {
+     "page": "lci_ep2",
+     "quote": "\"Eldraine,\" Kellan replied."
+    }
+   ],
+   "summary": "Kellan tells the vampire expedition he came from Eldraine.",
+   "limitation": "He says he came from Eldraine; the passage does not state where he was born."
   }
  ],
  "remaining": [
-  "Episode 2 is not cited",
+  "Episode 2 is only lightly modelled (Wayta's point of view is not graded)",
   "Malcolm and Breeches' storyline and the Mycotyrant are not graded",
   "The fate of Aclazotz is not graded"
  ]

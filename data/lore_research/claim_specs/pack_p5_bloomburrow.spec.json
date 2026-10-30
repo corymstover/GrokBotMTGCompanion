@@ -9,7 +9,9 @@
   "blb_ep3": "episode-3-the-lost-and-the-found",
   "blb_ep5": "episode-5-nightfall-in-fountainport",
   "blb_guide1": "planeswalkers-guide-to-bloomburrow-part-1",
-  "blb_guide3": "planeswalkers-guide-to-bloomburrow-part-3"
+  "blb_guide3": "planeswalkers-guide-to-bloomburrow-part-3",
+  "blb_ep4": "episode-4-soothsaying-and-stormcalling",
+  "blb_guide2": "planeswalkers-guide-to-bloomburrow-part-2"
  },
  "entities": [
   {
@@ -91,6 +93,31 @@
    "id": "bloomburrow",
    "type": "Plane",
    "name": "Bloomburrow"
+  },
+  {
+   "id": "coffey",
+   "type": "Character",
+   "name": "Coffey"
+  },
+  {
+   "id": "hugs",
+   "type": "Character",
+   "name": "Hugs"
+  },
+  {
+   "id": "gev",
+   "type": "Character",
+   "name": "Gev"
+  },
+  {
+   "id": "ratfolk_valley",
+   "type": "Faction",
+   "name": "Ratfolk of Valley"
+  },
+  {
+   "id": "valley",
+   "type": "Place",
+   "name": "Valley"
   }
  ],
  "claims": [
@@ -302,11 +329,101 @@
    ],
    "summary": "Helga and Mabel confront King Glarb together in Fountainport.",
    "event_stage": "blb_climax_2024"
+  },
+  {
+   "id": "BL013",
+   "subject": "coffey",
+   "predicate": "aided",
+   "object": "mabel",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "blb_ep4",
+     "quote": "These strangers are not like the others,\" he said, a slight wheeze in his soft voice. \"The River brought them to us. We must offer them hospitality."
+    },
+    {
+     "page": "blb_ep4",
+     "quote": "Perhaps we might even assist in your quest. Yes?"
+    }
+   ],
+   "summary": "The ratfolk elder Coffey takes Mabel's party in and offers help with their quest."
+  },
+  {
+   "id": "BL014",
+   "subject": "cruelclaw",
+   "predicate": "allied_with",
+   "object": "maha",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "blb_ep4",
+     "quote": "He led his band through the swamp, pilfering what supplies he pleased, the Night Owl wreaking havoc in his wake."
+    }
+   ],
+   "summary": "Cruelclaw's band travels with the Night Owl (Maha).",
+   "limitation": "Coffey's account; Maha is identified as 'the Night Owl'."
+  },
+  {
+   "id": "BL015",
+   "subject": "gev",
+   "predicate": "friend_of",
+   "object": "hugs",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "blb_ep4",
+     "quote": "It is as well, because now I have the job to remove the so-many stickers from the fur of my friend Hugs."
+    }
+   ],
+   "summary": "Gev calls Hugs his friend."
+  },
+  {
+   "id": "BL016",
+   "subject": "coffey",
+   "predicate": "member_of",
+   "object": "ratfolk_valley",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "blb_ep4",
+     "quote": "We're lorekeepers,\" Coffey replied, breathing like a leaky bellows. \"We preserve the history of Bloomburrow and Valley within it."
+    }
+   ],
+   "summary": "Coffey speaks for the ratfolk lorekeepers."
+  },
+  {
+   "id": "BL017",
+   "subject": "ratfolk_valley",
+   "predicate": "guardian_of",
+   "object": "valley",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "blb_guide2",
+     "quote": "Ratfolk are the secret-keepers of Valley, collectors of relics and knowledge from as early as the foundation of Valley itself."
+    }
+   ],
+   "summary": "The ratfolk are Valley's secret-keepers.",
+   "limitation": "'Secret-keepers' guard Valley's relics and knowledge, not its territory."
+  },
+  {
+   "id": "BL018",
+   "subject": "valley",
+   "predicate": "located_on",
+   "object": "bloomburrow",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "blb_ep4",
+     "quote": "We preserve the history of Bloomburrow and Valley within it."
+    }
+   ],
+   "summary": "Valley lies within Bloomburrow."
   }
  ],
  "remaining": [
   "The fate of the Calamity Beast egg and the battle at Fountainport are not graded",
-  "Guide Part 2 is not cited",
-  "Hugs, Gev and Finneas are not modelled"
+  "Guide Part 2 is only lightly modelled",
+  "Finneas is not modelled"
  ]
 }

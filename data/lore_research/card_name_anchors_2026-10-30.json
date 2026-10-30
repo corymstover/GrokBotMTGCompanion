@@ -1625,6 +1625,23 @@
    ]
   },
   {
+   "entity": "gev",
+   "entity_type": "Character",
+   "entity_name": "Gev",
+   "aliases": [
+    "Gev"
+   ],
+   "pack": "pack_p5_bloomburrow_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Gev, Scaled Scorch",
+     "oracle_id": "77b832a8-a3af-44fe-bc67-72510d292667",
+     "type_line": "Legendary Creature — Lizard Mercenary",
+     "scryfall_uri": "https://scryfall.com/card/blb/214/gev-scaled-scorch"
+    }
+   ]
+  },
+  {
    "entity": "geyadrone_dihada",
    "entity_type": "Character",
    "entity_name": "Geyadrone Dihada",
@@ -1787,7 +1804,7 @@
    "aliases": [
     "Godsend"
    ],
-   "pack": "pack_p5_theros_ths_2026-10-30.json",
+   "pack": "pack_p5_theros_beyond_death_2026-10-30.json",
    "cards": [
     {
      "name": "Godsend",
@@ -2087,6 +2104,23 @@
      "oracle_id": "e1a13723-a6b1-4160-8eb5-f7a4860898a3",
      "type_line": "Legendary Planeswalker — Huatli",
      "scryfall_uri": "https://scryfall.com/card/war/230/huatli-the-suns-heart"
+    }
+   ]
+  },
+  {
+   "entity": "hugs",
+   "entity_type": "Character",
+   "entity_name": "Hugs",
+   "aliases": [
+    "Hugs"
+   ],
+   "pack": "pack_p5_bloomburrow_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Hugs, Grisly Guardian",
+     "oracle_id": "3c5c227a-335b-4995-9821-d4269a0a233a",
+     "type_line": "Legendary Creature — Badger Warrior",
+     "scryfall_uri": "https://scryfall.com/card/blb/218/hugs-grisly-guardian"
     }
    ]
   },
@@ -2712,7 +2746,7 @@
    "aliases": [
     "Kiora"
    ],
-   "pack": "pack_p5_theros_ths_2026-10-30.json",
+   "pack": "pack_p5_theros_beyond_death_2026-10-30.json",
    "cards": [
     {
      "name": "Kiora of Fire and Ashes",
@@ -2949,7 +2983,7 @@
    "aliases": [
     "Kruphix"
    ],
-   "pack": "pack_p5_theros_ths_2026-10-30.json",
+   "pack": "pack_p5_theros_beyond_death_2026-10-30.json",
    "cards": [
     {
      "name": "Kruphix, God of Horizons",
@@ -3795,7 +3829,7 @@
    "aliases": [
     "Nylea"
    ],
-   "pack": "pack_p5_theros_ths_2026-10-30.json",
+   "pack": "pack_p5_theros_beyond_death_2026-10-30.json",
    "cards": [
     {
      "name": "Nylea, God of the Hunt",
@@ -3818,7 +3852,7 @@
    "aliases": [
     "Nyx"
    ],
-   "pack": "pack_p5_theros_ths_2026-10-30.json",
+   "pack": "pack_p5_theros_beyond_death_2026-10-30.json",
    "cards": [
     {
      "name": "Nyx",
@@ -4191,6 +4225,23 @@
    ]
   },
   {
+   "entity": "polukranos",
+   "entity_type": "Character",
+   "entity_name": "Polukranos, World Eater",
+   "aliases": [
+    "Polukranos, World Eater"
+   ],
+   "pack": "pack_p5_theros_beyond_death_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Polukranos, World Eater",
+     "oracle_id": "ecbf5560-853a-43a9-bf70-ac8d403b0ce8",
+     "type_line": "Legendary Creature — Hydra",
+     "scryfall_uri": "https://scryfall.com/card/ths/172/polukranos-world-eater"
+    }
+   ]
+  },
+  {
    "entity": "primo",
    "entity_type": "Character",
    "entity_name": "Primo, the Unbounded",
@@ -4221,6 +4272,29 @@
      "oracle_id": "9df2e909-ed13-456a-9636-7398732009a9",
      "type_line": "Legendary Planeswalker — Liliana",
      "scryfall_uri": "https://scryfall.com/card/dsc/153/professor-onyx"
+    }
+   ]
+  },
+  {
+   "entity": "purphoros",
+   "entity_type": "Character",
+   "entity_name": "Purphoros",
+   "aliases": [
+    "Purphoros"
+   ],
+   "pack": "pack_p5_theros_beyond_death_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Purphoros, Bronze-Blooded",
+     "oracle_id": "6728b9d0-d3ab-4ba3-af13-63cb83e0ed99",
+     "type_line": "Legendary Enchantment Creature — God",
+     "scryfall_uri": "https://scryfall.com/card/thb/150/purphoros-bronze-blooded"
+    },
+    {
+     "name": "Purphoros, God of the Forge",
+     "oracle_id": "4fdbbec2-e921-4b63-958d-f9ba1e417197",
+     "type_line": "Legendary Enchantment Creature — God",
+     "scryfall_uri": "https://scryfall.com/card/cmm/246/purphoros-god-of-the-forge"
     }
    ]
   },
@@ -6505,6 +6579,7 @@
   "cauldron_of_eternity",
   "cerys",
   "chopright_colony",
+  "coffey",
   "corondor_chasm",
   "cragflame",
   "cruelclaw",
@@ -6620,6 +6695,7 @@
   "temporal_rifts_mending",
   "the_detective",
   "the_house",
+  "the_silence_theros",
   "theros_underworld",
   "thraben",
   "titsui",
@@ -6627,6 +6703,7 @@
   "ugins_gem",
   "ugins_tomb_site",
   "ulvenwald",
+  "valley",
   "vantress",
   "vorik",
   "war_of_the_spark_end",
@@ -6644,9 +6721,9 @@
   "Urza, Academy Headmaster"
  ],
  "counts": {
-  "entities_anchored": 280,
-  "anchor_edges": 565,
-  "unanchored_entities": 147
+  "entities_anchored": 284,
+  "anchor_edges": 570,
+  "unanchored_entities": 150
  },
- "content_sha256": "c9f59344799d1dbd3132ffcd672096ca065371043a98ce0e134b25212da9b2c4"
+ "content_sha256": "453cd572a90f9caac2707a2c7790c64dab8d9b9ab1315ba337346aab46d1bb4d"
 }

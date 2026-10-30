@@ -56,11 +56,11 @@
  "totals": {
   "arcs": 33,
   "pages": 626,
-  "cited_pages": 350,
+  "cited_pages": 356,
   "arcs_not_started": 0,
-  "arcs_partial": 13,
-  "arcs_all_cited": 20,
-  "claims": 711,
+  "arcs_partial": 10,
+  "arcs_all_cited": 23,
+  "claims": 735,
   "pack_urls_outside_inventory": 12
  },
  "claims_per_pack": {
@@ -83,15 +83,15 @@
   "pack_p5_reality_fracture_2026-10-30.json": 21,
   "pack_p5_wilds_of_eldraine_2026-10-30.json": 14,
   "pack_p5_murders_at_karlov_manor_2026-10-30.json": 15,
-  "pack_p5_bloomburrow_2026-10-30.json": 12,
+  "pack_p5_bloomburrow_2026-10-30.json": 18,
   "pack_p5_duskmourn_2026-10-30.json": 12,
   "pack_p5_outlaws_of_thunder_junction_2026-10-30.json": 12,
-  "pack_p5_lost_caverns_of_ixalan_2026-10-30.json": 12,
+  "pack_p5_lost_caverns_of_ixalan_2026-10-30.json": 15,
   "pack_p5_aetherdrift_2026-10-30.json": 12,
   "pack_p5_kaldheim_2026-10-30.json": 14,
   "pack_p5_strixhaven_2026-10-30.json": 11,
   "pack_p5_ikoria_2026-10-30.json": 5,
-  "pack_p5_theros_beyond_death_2026-10-30.json": 14,
+  "pack_p5_theros_beyond_death_2026-10-30.json": 29,
   "pack_p5_theros_ths_2026-10-30.json": 20,
   "pack_p5_mom_aftermath_2026-10-30.json": 12,
   "pack_p5_throne_of_eldraine_2026-10-30.json": 11,
@@ -144,7 +144,7 @@
   {
    "arc": "BLB",
    "pages": 8,
-   "cited_pages": 6,
+   "cited_pages": 8,
    "kinds": {
     "planeswalkers-guide": 3,
     "story": 5
@@ -152,11 +152,8 @@
    "citing_packs": [
     "pack_p5_bloomburrow_2026-10-30.json"
    ],
-   "status": "PARTIAL",
-   "uncited_urls": [
-    "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-bloomburrow-part-2",
-    "https://magic.wizards.com/en/news/magic-story/episode-4-soothsaying-and-stormcalling"
-   ]
+   "status": "ALL_PAGES_CITED",
+   "uncited_urls": []
   },
   {
    "arc": "BRO",
@@ -345,7 +342,7 @@
   {
    "arc": "LCI",
    "pages": 8,
-   "cited_pages": 7,
+   "cited_pages": 8,
    "kinds": {
     "planeswalkers-guide": 1,
     "story": 7
@@ -353,10 +350,8 @@
    "citing_packs": [
     "pack_p5_lost_caverns_of_ixalan_2026-10-30.json"
    ],
-   "status": "PARTIAL",
-   "uncited_urls": [
-    "https://magic.wizards.com/en/news/magic-story/the-lost-caverns-of-ixalan-episode-2"
-   ]
+   "status": "ALL_PAGES_CITED",
+   "uncited_urls": []
   },
   {
    "arc": "MAT",
@@ -570,7 +565,7 @@
   {
    "arc": "THB",
    "pages": 4,
-   "cited_pages": 1,
+   "cited_pages": 4,
    "kinds": {
     "feature": 2,
     "story": 2
@@ -578,12 +573,8 @@
    "citing_packs": [
     "pack_p5_theros_beyond_death_2026-10-30.json"
    ],
-   "status": "PARTIAL",
-   "uncited_urls": [
-    "https://magic.wizards.com/en/news/feature/theros-beyond-death-story-cards-2019-12-16",
-    "https://magic.wizards.com/en/news/making-magic/journeys-end-2014-05-26",
-    "https://magic.wizards.com/en/news/making-magic/odds-ends-theros-beyond-death-2020-01-27"
-   ]
+   "status": "ALL_PAGES_CITED",
+   "uncited_urls": []
   },
   {
    "arc": "THS",
@@ -881,5 +872,5 @@
    ]
   }
  ],
- "sha256": "2340f2b48d5e4b21ff2325d18725ec02ebc072c8724aac01dcad97ace1ba5266"
+ "sha256": "0821001269a746d002653173ccfdde033391aaadee24bb2db17c0abdac40e1de"
 }

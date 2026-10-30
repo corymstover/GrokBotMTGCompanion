@@ -7,7 +7,7 @@
   "HYPOTHETICAL": "Creative or deckbuilding connection; never canon.",
   "OPEN_QUESTION": "Primary sources leave the matter unresolved; do not assert either way."
  },
- "content_sha256": "243c1879d7e383746d059feaae7c65dea7e4412f1ecde9dc688210839869ccaa",
+ "content_sha256": "e06a3bce7f12e8fae550a80493378c35ebcbde3b76f854b0f75686134017baa7",
  "edges": [
   {
    "artists": [
@@ -1272,6 +1272,15 @@
   },
   {
    "artists": [
+    "Daniel Ljunggren"
+   ],
+   "from": "source:thb_journeys_end",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:godsend"
+  },
+  {
+   "artists": [
     "Dave Kendall"
    ],
    "from": "source:bz_home",
@@ -1667,6 +1676,33 @@
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
    "to": "card:nahiri_the_lithomancer"
+  },
+  {
+   "artists": [
+    "Eric Deschamps"
+   ],
+   "from": "source:thb_journeys_end",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:elspeth_sun_s_champion"
+  },
+  {
+   "artists": [
+    "Eric Deschamps"
+   ],
+   "from": "source:thb_journeys_end",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:solidarity_of_heroes"
+  },
+  {
+   "artists": [
+    "Eric Deschamps"
+   ],
+   "from": "source:thb_journeys_end",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:worst_fears"
   },
   {
    "artists": [
@@ -2329,6 +2365,24 @@
    "artists": [
     "Jason Chan"
    ],
+   "from": "source:thb_journeys_end",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:deicide"
+  },
+  {
+   "artists": [
+    "Jason Chan"
+   ],
+   "from": "source:thb_journeys_end",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:xenagos_god_of_revels"
+  },
+  {
+   "artists": [
+    "Jason Chan"
+   ],
    "from": "source:xln_vraska",
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
@@ -2958,6 +3012,15 @@
   },
   {
    "artists": [
+    "Karl Kopinski"
+   ],
+   "from": "source:thb_journeys_end",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:polukranos_world_eater"
+  },
+  {
+   "artists": [
     "Karla Ortiz"
    ],
    "from": "source:aer_puppets",
@@ -2991,6 +3054,15 @@
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
    "to": "card:stitcher_geralf"
+  },
+  {
+   "artists": [
+    "Karla Ortiz"
+   ],
+   "from": "source:thb_journeys_end",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:daxos_of_meletis"
   },
   {
    "artists": [
@@ -3453,6 +3525,15 @@
   },
   {
    "artists": [
+    "Mathias Kollros"
+   ],
+   "from": "source:thb_journeys_end",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:rollick_of_abandon"
+  },
+  {
+   "artists": [
     "Matt Cavotta"
    ],
    "from": "source:soi_stories_endings",
@@ -3648,6 +3729,15 @@
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
    "to": "card:plains"
+  },
+  {
+   "artists": [
+    "Noah Bradley"
+   ],
+   "from": "source:thb_journeys_end",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:temple_of_mystery"
   },
   {
    "artists": [
@@ -8803,6 +8893,13 @@
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:gev",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:gev_scaled_scorch"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
    "from": "character:geyadrone_dihada",
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
@@ -9045,6 +9142,13 @@
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
    "to": "card:huatli_warrior_poet"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:hugs",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:hugs_grisly_guardian"
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
@@ -10301,6 +10405,13 @@
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:polukranos",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:polukranos_world_eater"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
    "from": "character:primo",
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
@@ -10312,6 +10423,20 @@
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
    "to": "card:professor_onyx"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:purphoros",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:purphoros_bronze_blooded"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:purphoros",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:purphoros_god_of_the_forge"
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
@@ -13316,6 +13441,78 @@
    "to": "character:mabel"
   },
   {
+   "claim": "BL013",
+   "era": "bloomburrow_blb_2024",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:coffey",
+   "grade": "CANON_CONFIRMED",
+   "relation": "aided",
+   "sources": [
+    "blb_ep4"
+   ],
+   "to": "character:mabel"
+  },
+  {
+   "claim": "BL014",
+   "era": "bloomburrow_blb_2024",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:cruelclaw",
+   "grade": "CANON_CONFIRMED",
+   "relation": "allied_with",
+   "sources": [
+    "blb_ep4"
+   ],
+   "to": "character:maha"
+  },
+  {
+   "claim": "BL015",
+   "era": "bloomburrow_blb_2024",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:gev",
+   "grade": "CANON_CONFIRMED",
+   "relation": "friend_of",
+   "sources": [
+    "blb_ep4"
+   ],
+   "to": "character:hugs"
+  },
+  {
+   "claim": "BL016",
+   "era": "bloomburrow_blb_2024",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:coffey",
+   "grade": "CANON_CONFIRMED",
+   "relation": "member_of",
+   "sources": [
+    "blb_ep4"
+   ],
+   "to": "faction:ratfolk_valley"
+  },
+  {
+   "claim": "BL017",
+   "era": "bloomburrow_blb_2024",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "faction:ratfolk_valley",
+   "grade": "CANON_IMPLIED",
+   "relation": "guardian_of",
+   "sources": [
+    "blb_guide2"
+   ],
+   "to": "place:valley"
+  },
+  {
+   "claim": "BL018",
+   "era": "bloomburrow_blb_2024",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "place:valley",
+   "grade": "CANON_CONFIRMED",
+   "relation": "located_on",
+   "sources": [
+    "blb_ep4"
+   ],
+   "to": "plane:bloomburrow"
+  },
+  {
    "claim": "BR001",
    "era": "brothers_war_2022",
    "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
@@ -15945,6 +16142,42 @@
     "lci_pawns"
    ],
    "to": "plane:ixalan"
+  },
+  {
+   "claim": "LC013",
+   "era": "lci_expedition_2023",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:inti",
+   "grade": "CANON_CONFIRMED",
+   "relation": "aided",
+   "sources": [
+    "lci_ep2"
+   ],
+   "to": "character:huatli"
+  },
+  {
+   "claim": "LC014",
+   "era": "lci_expedition_2023",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:amalia",
+   "grade": "CANON_CONFIRMED",
+   "relation": "aided",
+   "sources": [
+    "lci_ep2"
+   ],
+   "to": "character:kellan"
+  },
+  {
+   "claim": "LC015",
+   "era": "lost_caverns_of_ixalan_lci_2023",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:kellan",
+   "grade": "CANON_CONFIRMED",
+   "relation": "originated_from",
+   "sources": [
+    "lci_ep2"
+   ],
+   "to": "plane:eldraine"
   },
   {
    "claim": "MA001",
@@ -19643,6 +19876,189 @@
    "to": "faction:phyrexians"
   },
   {
+   "claim": "TB015",
+   "era": "theros_thb_2020",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:purphoros",
+   "grade": "CANON_CONFIRMED",
+   "relation": "fought",
+   "sources": [
+    "thb_cards"
+   ],
+   "to": "character:heliod"
+  },
+  {
+   "claim": "TB016",
+   "era": "theros_thb_2020",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:heliod",
+   "grade": "CANON_CONFIRMED",
+   "relation": "sealed",
+   "sources": [
+    "thb_cards"
+   ],
+   "to": "character:polukranos"
+  },
+  {
+   "claim": "TB017",
+   "era": "theros_thb_2020",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:nylea",
+   "grade": "CANON_CONFIRMED",
+   "relation": "sealed",
+   "sources": [
+    "thb_cards"
+   ],
+   "to": "character:polukranos"
+  },
+  {
+   "claim": "TB018",
+   "era": "theros_thb_2020",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:heliod",
+   "grade": "CANON_CONFIRMED",
+   "relation": "created",
+   "sources": [
+    "thb_cards",
+    "thb_journeys_end"
+   ],
+   "to": "artifact:godsend"
+  },
+  {
+   "claim": "TB019",
+   "era": "theros_thb_2020",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:elspeth_tirel",
+   "grade": "CANON_CONFIRMED",
+   "relation": "killed",
+   "sources": [
+    "thb_cards",
+    "thb_journeys_end"
+   ],
+   "to": "character:xenagos"
+  },
+  {
+   "claim": "TB020",
+   "era": "theros_thb_2020",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:heliod",
+   "grade": "CANON_CONFIRMED",
+   "relation": "killed",
+   "sources": [
+    "thb_cards",
+    "thb_journeys_end"
+   ],
+   "to": "character:elspeth_tirel"
+  },
+  {
+   "claim": "TB021",
+   "era": "theros_thb_2020",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:xenagos",
+   "grade": "CANON_CONFIRMED",
+   "relation": "manipulated",
+   "sources": [
+    "thb_journeys_end"
+   ],
+   "to": "character:elspeth_tirel"
+  },
+  {
+   "claim": "TB022",
+   "era": "theros_thb_2020",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:elspeth_tirel",
+   "grade": "CANON_CONFIRMED",
+   "relation": "killed",
+   "sources": [
+    "thb_journeys_end"
+   ],
+   "to": "character:daxos"
+  },
+  {
+   "claim": "TB023",
+   "era": "theros_thb_2020",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:daxos",
+   "grade": "CANON_CONFIRMED",
+   "relation": "mentored",
+   "sources": [
+    "thb_journeys_end"
+   ],
+   "to": "character:elspeth_tirel"
+  },
+  {
+   "claim": "TB024",
+   "era": "theros_thb_2020",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:kruphix",
+   "grade": "CANON_CONFIRMED",
+   "relation": "enacted",
+   "sources": [
+    "thb_journeys_end"
+   ],
+   "to": "event:the_silence_theros"
+  },
+  {
+   "claim": "TB025",
+   "era": "theros_thb_2020",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:ajani",
+   "grade": "CANON_CONFIRMED",
+   "relation": "aided",
+   "sources": [
+    "thb_journeys_end"
+   ],
+   "to": "character:elspeth_tirel"
+  },
+  {
+   "claim": "TB026",
+   "era": "theros_thb_2020",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:kiora",
+   "grade": "CANON_CONFIRMED",
+   "relation": "aided",
+   "sources": [
+    "thb_journeys_end"
+   ],
+   "to": "character:elspeth_tirel"
+  },
+  {
+   "claim": "TB027",
+   "era": "theros_thb_2020",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:xenagos",
+   "grade": "CANON_CONFIRMED",
+   "relation": "joined",
+   "sources": [
+    "thb_cards"
+   ],
+   "to": "faction:theros_gods"
+  },
+  {
+   "claim": "TB028",
+   "era": "theros_thb_2020",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:klothys",
+   "grade": "CANON_IMPLIED",
+   "relation": "imprisoned_in",
+   "sources": [
+    "thb_odds"
+   ],
+   "to": "place:theros_underworld"
+  },
+  {
+   "claim": "TB029",
+   "era": "theros_thb_2020",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "faction:theros_titans",
+   "grade": "CANON_IMPLIED",
+   "relation": "imprisoned_in",
+   "sources": [
+    "thb_odds"
+   ],
+   "to": "place:theros_underworld"
+  },
+  {
    "claim": "TD001",
    "era": "tarkir_dragonstorm_2025",
    "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
@@ -22763,6 +23179,78 @@
    "to": "character:helga"
   },
   {
+   "from": "claim:BL013",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:mabel"
+  },
+  {
+   "from": "claim:BL013",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:coffey"
+  },
+  {
+   "from": "claim:BL014",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:maha"
+  },
+  {
+   "from": "claim:BL014",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:cruelclaw"
+  },
+  {
+   "from": "claim:BL015",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:hugs"
+  },
+  {
+   "from": "claim:BL015",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:gev"
+  },
+  {
+   "from": "claim:BL016",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:ratfolk_valley"
+  },
+  {
+   "from": "claim:BL016",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:coffey"
+  },
+  {
+   "from": "claim:BL017",
+   "relation": "asserts",
+   "role": "object",
+   "to": "place:valley"
+  },
+  {
+   "from": "claim:BL017",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "faction:ratfolk_valley"
+  },
+  {
+   "from": "claim:BL018",
+   "relation": "asserts",
+   "role": "object",
+   "to": "plane:bloomburrow"
+  },
+  {
+   "from": "claim:BL018",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "place:valley"
+  },
+  {
    "from": "claim:BR001",
    "relation": "asserts",
    "role": "object",
@@ -25341,6 +25829,42 @@
    "relation": "asserts",
    "role": "subject",
    "to": "character:saheeli"
+  },
+  {
+   "from": "claim:LC013",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:huatli"
+  },
+  {
+   "from": "claim:LC013",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:inti"
+  },
+  {
+   "from": "claim:LC014",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:kellan"
+  },
+  {
+   "from": "claim:LC014",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:amalia"
+  },
+  {
+   "from": "claim:LC015",
+   "relation": "asserts",
+   "role": "object",
+   "to": "plane:eldraine"
+  },
+  {
+   "from": "claim:LC015",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:kellan"
   },
   {
    "from": "claim:MA001",
@@ -28985,6 +29509,186 @@
    "to": "character:ashiok"
   },
   {
+   "from": "claim:TB015",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:heliod"
+  },
+  {
+   "from": "claim:TB015",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:purphoros"
+  },
+  {
+   "from": "claim:TB016",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:polukranos"
+  },
+  {
+   "from": "claim:TB016",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:heliod"
+  },
+  {
+   "from": "claim:TB017",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:polukranos"
+  },
+  {
+   "from": "claim:TB017",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:nylea"
+  },
+  {
+   "from": "claim:TB018",
+   "relation": "asserts",
+   "role": "object",
+   "to": "artifact:godsend"
+  },
+  {
+   "from": "claim:TB018",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:heliod"
+  },
+  {
+   "from": "claim:TB019",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:xenagos"
+  },
+  {
+   "from": "claim:TB019",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:elspeth_tirel"
+  },
+  {
+   "from": "claim:TB020",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:elspeth_tirel"
+  },
+  {
+   "from": "claim:TB020",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:heliod"
+  },
+  {
+   "from": "claim:TB021",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:elspeth_tirel"
+  },
+  {
+   "from": "claim:TB021",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:xenagos"
+  },
+  {
+   "from": "claim:TB022",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:daxos"
+  },
+  {
+   "from": "claim:TB022",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:elspeth_tirel"
+  },
+  {
+   "from": "claim:TB023",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:elspeth_tirel"
+  },
+  {
+   "from": "claim:TB023",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:daxos"
+  },
+  {
+   "from": "claim:TB024",
+   "relation": "asserts",
+   "role": "object",
+   "to": "event:the_silence_theros"
+  },
+  {
+   "from": "claim:TB024",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:kruphix"
+  },
+  {
+   "from": "claim:TB025",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:elspeth_tirel"
+  },
+  {
+   "from": "claim:TB025",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:ajani"
+  },
+  {
+   "from": "claim:TB026",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:elspeth_tirel"
+  },
+  {
+   "from": "claim:TB026",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:kiora"
+  },
+  {
+   "from": "claim:TB027",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:theros_gods"
+  },
+  {
+   "from": "claim:TB027",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:xenagos"
+  },
+  {
+   "from": "claim:TB028",
+   "relation": "asserts",
+   "role": "object",
+   "to": "place:theros_underworld"
+  },
+  {
+   "from": "claim:TB028",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:klothys"
+  },
+  {
+   "from": "claim:TB029",
+   "relation": "asserts",
+   "role": "object",
+   "to": "place:theros_underworld"
+  },
+  {
+   "from": "claim:TB029",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "faction:theros_titans"
+  },
+  {
    "from": "claim:TD001",
    "relation": "asserts",
    "role": "object",
@@ -30500,6 +31204,31 @@
    "to": "claim:BL010"
   },
   {
+   "from": "source:blb_ep4",
+   "relation": "cited_by",
+   "to": "claim:BL013"
+  },
+  {
+   "from": "source:blb_ep4",
+   "relation": "cited_by",
+   "to": "claim:BL014"
+  },
+  {
+   "from": "source:blb_ep4",
+   "relation": "cited_by",
+   "to": "claim:BL015"
+  },
+  {
+   "from": "source:blb_ep4",
+   "relation": "cited_by",
+   "to": "claim:BL016"
+  },
+  {
+   "from": "source:blb_ep4",
+   "relation": "cited_by",
+   "to": "claim:BL018"
+  },
+  {
    "from": "source:blb_ep5",
    "relation": "cited_by",
    "to": "claim:BL005"
@@ -30528,6 +31257,11 @@
    "from": "source:blb_guide1",
    "relation": "cited_by",
    "to": "claim:BL009"
+  },
+  {
+   "from": "source:blb_guide2",
+   "relation": "cited_by",
+   "to": "claim:BL017"
   },
   {
    "from": "source:blb_guide3",
@@ -31949,6 +32683,21 @@
    "from": "source:lci_ep1",
    "relation": "cited_by",
    "to": "claim:LC001"
+  },
+  {
+   "from": "source:lci_ep2",
+   "relation": "cited_by",
+   "to": "claim:LC013"
+  },
+  {
+   "from": "source:lci_ep2",
+   "relation": "cited_by",
+   "to": "claim:LC014"
+  },
+  {
+   "from": "source:lci_ep2",
+   "relation": "cited_by",
+   "to": "claim:LC015"
   },
   {
    "from": "source:lci_ep3",
@@ -33952,6 +34701,96 @@
    "to": "claim:TD019"
   },
   {
+   "from": "source:thb_cards",
+   "relation": "cited_by",
+   "to": "claim:TB015"
+  },
+  {
+   "from": "source:thb_cards",
+   "relation": "cited_by",
+   "to": "claim:TB016"
+  },
+  {
+   "from": "source:thb_cards",
+   "relation": "cited_by",
+   "to": "claim:TB017"
+  },
+  {
+   "from": "source:thb_cards",
+   "relation": "cited_by",
+   "to": "claim:TB018"
+  },
+  {
+   "from": "source:thb_cards",
+   "relation": "cited_by",
+   "to": "claim:TB019"
+  },
+  {
+   "from": "source:thb_cards",
+   "relation": "cited_by",
+   "to": "claim:TB020"
+  },
+  {
+   "from": "source:thb_cards",
+   "relation": "cited_by",
+   "to": "claim:TB027"
+  },
+  {
+   "from": "source:thb_journeys_end",
+   "relation": "cited_by",
+   "to": "claim:TB018"
+  },
+  {
+   "from": "source:thb_journeys_end",
+   "relation": "cited_by",
+   "to": "claim:TB019"
+  },
+  {
+   "from": "source:thb_journeys_end",
+   "relation": "cited_by",
+   "to": "claim:TB020"
+  },
+  {
+   "from": "source:thb_journeys_end",
+   "relation": "cited_by",
+   "to": "claim:TB021"
+  },
+  {
+   "from": "source:thb_journeys_end",
+   "relation": "cited_by",
+   "to": "claim:TB022"
+  },
+  {
+   "from": "source:thb_journeys_end",
+   "relation": "cited_by",
+   "to": "claim:TB023"
+  },
+  {
+   "from": "source:thb_journeys_end",
+   "relation": "cited_by",
+   "to": "claim:TB024"
+  },
+  {
+   "from": "source:thb_journeys_end",
+   "relation": "cited_by",
+   "to": "claim:TB025"
+  },
+  {
+   "from": "source:thb_journeys_end",
+   "relation": "cited_by",
+   "to": "claim:TB026"
+  },
+  {
+   "from": "source:thb_odds",
+   "relation": "cited_by",
+   "to": "claim:TB028"
+  },
+  {
+   "from": "source:thb_odds",
+   "relation": "cited_by",
+   "to": "claim:TB029"
+  },
+  {
    "from": "source:thb_summary",
    "relation": "cited_by",
    "to": "claim:TB001"
@@ -34415,11 +35254,11 @@
     "sources": 11
    },
    {
-    "claims": 12,
-    "entities": 16,
+    "claims": 18,
+    "entities": 21,
     "file": "data/lore_research/pack_p5_bloomburrow_2026-10-30.json",
-    "sha256": "80a96049bd933cf05acd1f4a7f92054b98610ed32d119690fa64f7add3e53d4e",
-    "sources": 6
+    "sha256": "a9bbaf61c9416c137d8c7954197b51cd48db7263921cf9f258f4b586b7788440",
+    "sources": 8
    },
    {
     "claims": 12,
@@ -34436,11 +35275,11 @@
     "sources": 8
    },
    {
-    "claims": 12,
-    "entities": 13,
+    "claims": 15,
+    "entities": 14,
     "file": "data/lore_research/pack_p5_lost_caverns_of_ixalan_2026-10-30.json",
-    "sha256": "c023e6e0a0fe9967ce38f45f4e069b5d2b2c5575ed551f54cf1ee9cd82c206be",
-    "sources": 7
+    "sha256": "24d16d7e0c6e58b46781d133c9064df61c159e199eff924b5723597f43ec9cf6",
+    "sources": 8
    },
    {
     "claims": 12,
@@ -34471,11 +35310,11 @@
     "sources": 1
    },
    {
-    "claims": 14,
-    "entities": 14,
+    "claims": 29,
+    "entities": 23,
     "file": "data/lore_research/pack_p5_theros_beyond_death_2026-10-30.json",
-    "sha256": "929f226ee583af2459ab3503601ebf6f48c73c30863c7b03c7f7bdeeed6c7fe6",
-    "sources": 1
+    "sha256": "9d85db62082d9cd50105d56077dfd173efe212e171df0ac23e5cbe977200015a",
+    "sources": 4
    },
    {
     "claims": 20,
@@ -34630,14 +35469,14 @@
   ],
   "name_anchor_packs": [
    {
-    "anchors": 565,
+    "anchors": 570,
     "file": "data/lore_research/card_name_anchors_2026-10-30.json",
-    "sha256": "39e9e816f5185465ff96016797b3545f1e35c2c922fa952d62a054e272c37dc3"
+    "sha256": "1a0cf1c6af655a09afd60f8366eac6fb5c3f7617934060092f17ee9219e2b419"
    }
   ],
   "story_caption_packs": [
    {
-    "caption_edges": 607,
+    "caption_edges": 617,
     "file": "data/story_atlas/story_art_captions_2026-10-30.json",
     "sha256": "cc9afe96ffdc211e06099c799c2c5a93579d86bc0fb7e4ef7c5e9754284c1eb2"
    }
@@ -34746,6 +35585,7 @@
    "id": "artifact:godsend",
    "name": "Godsend",
    "origins": [
+    "pack_p5_theros_beyond_death_2026-10-30.json",
     "pack_p5_theros_ths_2026-10-30.json"
    ],
    "type": "Object"
@@ -36964,7 +37804,8 @@
    "name": "Daxos of Meletis",
    "oracle_id": "4cf10cb6-b082-4c0d-89e9-43cd39716201",
    "origins": [
-    "card_name_anchors_2026-10-30.json"
+    "card_name_anchors_2026-10-30.json",
+    "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -37010,6 +37851,15 @@
    "oracle_id": "debce64a-18bd-42f5-9e85-158c2242e9e9",
    "origins": [
     "ugins_allies_and_heroes_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:deicide",
+   "name": "Deicide",
+   "oracle_id": "e421d2bd-740a-40dd-8a10-205edd4991ee",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -37402,6 +38252,15 @@
    "oracle_id": "f78af825-023a-42e9-8374-5c52303a1417",
    "origins": [
     "ugins_allies_and_heroes_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:elspeth_sun_s_champion",
+   "name": "Elspeth, Sun's Champion",
+   "oracle_id": "05e6b243-48a6-4a42-bc5f-413441de9c33",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -38023,6 +38882,15 @@
    "type": "Card"
   },
   {
+   "id": "card:gev_scaled_scorch",
+   "name": "Gev, Scaled Scorch",
+   "oracle_id": "77b832a8-a3af-44fe-bc67-72510d292667",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:geyadrone_dihada",
    "name": "Geyadrone Dihada",
    "oracle_id": "e1105d84-86b5-44ef-9efc-d994ee1c35cc",
@@ -38300,7 +39168,8 @@
    "name": "Godsend",
    "oracle_id": "dd91f4f2-ea46-48c5-8a80-0dc4ae5b79c4",
    "origins": [
-    "card_name_anchors_2026-10-30.json"
+    "card_name_anchors_2026-10-30.json",
+    "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -38758,6 +39627,15 @@
    "id": "card:huatli_warrior_poet",
    "name": "Huatli, Warrior Poet",
    "oracle_id": "3ec889bc-f4d7-492a-91c3-d3691eb90eac",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:hugs_grisly_guardian",
+   "name": "Hugs, Grisly Guardian",
+   "oracle_id": "3c5c227a-335b-4995-9821-d4269a0a233a",
    "origins": [
     "card_name_anchors_2026-10-30.json"
    ],
@@ -41557,6 +42435,16 @@
    "type": "Card"
   },
   {
+   "id": "card:polukranos_world_eater",
+   "name": "Polukranos, World Eater",
+   "oracle_id": "ecbf5560-853a-43a9-bf70-ac8d403b0ce8",
+   "origins": [
+    "card_name_anchors_2026-10-30.json",
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:ponder",
    "name": "Ponder",
    "oracle_id": "02090581-61aa-4348-ad57-451be8ee91c2",
@@ -41662,6 +42550,24 @@
    "oracle_id": "1128d2ab-0b6e-4912-8735-15521bc314e6",
    "origins": [
     "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:purphoros_bronze_blooded",
+   "name": "Purphoros, Bronze-Blooded",
+   "oracle_id": "6728b9d0-d3ab-4ba3-af13-63cb83e0ed99",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:purphoros_god_of_the_forge",
+   "name": "Purphoros, God of the Forge",
+   "oracle_id": "4fdbbec2-e921-4b63-958d-f9ba1e417197",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -42108,6 +43014,15 @@
    "id": "card:roilmage_s_trick",
    "name": "Roilmage's Trick",
    "oracle_id": "73eaf40a-abc6-486a-958d-374ed6111173",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:rollick_of_abandon",
+   "name": "Rollick of Abandon",
+   "oracle_id": "ecda721d-ec5d-484b-a834-f4de96083b08",
    "origins": [
     "story_art_captions_2026-10-30.json"
    ],
@@ -42854,6 +43769,15 @@
     "original_primeval_dragons_printing_evidence.json",
     "ugin_bolas_elder_dragon_duality_printing_evidence.json",
     "ugins_allies_and_heroes_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:solidarity_of_heroes",
+   "name": "Solidarity of Heroes",
+   "oracle_id": "3319b2df-7354-44b5-afa1-b9bc4a577254",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -43622,6 +44546,15 @@
    "id": "card:temmet_vizier_of_naktamun",
    "name": "Temmet, Vizier of Naktamun",
    "oracle_id": "e245d5c9-ae3a-4246-bd74-c6fed76b9fad",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:temple_of_mystery",
+   "name": "Temple of Mystery",
+   "oracle_id": "7e26f0b7-20e6-46d5-8130-d98c14d6aa29",
    "origins": [
     "story_art_captions_2026-10-30.json"
    ],
@@ -45189,6 +46122,15 @@
    "type": "Card"
   },
   {
+   "id": "card:worst_fears",
+   "name": "Worst Fears",
+   "oracle_id": "face0a43-6604-4508-b511-81ab0bef7b18",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:xander_s_lounge",
    "name": "Xander's Lounge",
    "oracle_id": "8291543f-d086-48aa-b2b7-5481ca8c9198",
@@ -45203,7 +46145,8 @@
    "name": "Xenagos, God of Revels",
    "oracle_id": "cb15a8dd-57fe-466f-847e-66476b690a1f",
    "origins": [
-    "card_name_anchors_2026-10-30.json"
+    "card_name_anchors_2026-10-30.json",
+    "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -45472,6 +46415,7 @@
     "pack_p5_secrets_of_strixhaven_2026-10-30.json",
     "pack_p5_streets_of_new_capenna_2026-10-30.json",
     "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+    "pack_p5_theros_beyond_death_2026-10-30.json",
     "pack_p5_theros_ths_2026-10-30.json"
    ],
    "type": "Character"
@@ -45839,6 +46783,14 @@
    "type": "Character"
   },
   {
+   "id": "character:coffey",
+   "name": "Coffey",
+   "origins": [
+    "pack_p5_bloomburrow_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
    "id": "character:crosis",
    "name": "Crosis, the Purger",
    "origins": [
@@ -46139,6 +47091,14 @@
    "type": "Character"
   },
   {
+   "id": "character:gev",
+   "name": "Gev",
+   "origins": [
+    "pack_p5_bloomburrow_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
    "id": "character:geyadrone_dihada",
    "name": "Geyadrone Dihada",
    "origins": [
@@ -46313,6 +47273,14 @@
     "pack_p5_ixalan_rivals_2026-10-30.json",
     "pack_p5_lost_caverns_of_ixalan_2026-10-30.json",
     "pack_p5_mom_side_stories_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:hugs",
+   "name": "Hugs",
+   "origins": [
+    "pack_p5_bloomburrow_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -46629,6 +47597,7 @@
    "origins": [
     "pack_p5_battle_for_zendikar_oath_2026-10-30.json",
     "pack_p5_bfz_2015_stories_2026-10-30.json",
+    "pack_p5_theros_beyond_death_2026-10-30.json",
     "pack_p5_theros_ths_2026-10-30.json"
    ],
    "type": "Character"
@@ -46720,6 +47689,7 @@
    "id": "character:kruphix",
    "name": "Kruphix",
    "origins": [
+    "pack_p5_theros_beyond_death_2026-10-30.json",
     "pack_p5_theros_ths_2026-10-30.json"
    ],
    "type": "Character"
@@ -47115,6 +48085,7 @@
    "id": "character:nylea",
    "name": "Nylea",
    "origins": [
+    "pack_p5_theros_beyond_death_2026-10-30.json",
     "pack_p5_theros_ths_2026-10-30.json"
    ],
    "type": "Character"
@@ -47263,6 +48234,14 @@
    "type": "Character"
   },
   {
+   "id": "character:polukranos",
+   "name": "Polukranos, World Eater",
+   "origins": [
+    "pack_p5_theros_beyond_death_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
    "id": "character:primo",
    "name": "Primo, the Unbounded",
    "origins": [
@@ -47283,6 +48262,14 @@
    "name": "Professor Onyx",
    "origins": [
     "pack_p5_strixhaven_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:purphoros",
+   "name": "Purphoros",
+   "origins": [
+    "pack_p5_theros_beyond_death_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -49391,6 +50378,74 @@
    ],
    "predicate": "allied_with",
    "stage": "blb_climax_2024",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:BL013",
+   "name": "The ratfolk elder Coffey takes Mabel's party in and offers help with their quest.",
+   "origins": [
+    "pack_p5_bloomburrow_2026-10-30.json"
+   ],
+   "predicate": "aided",
+   "stage": "bloomburrow_blb_2024",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:BL014",
+   "limitation": "Coffey's account; Maha is identified as 'the Night Owl'.",
+   "name": "Cruelclaw's band travels with the Night Owl (Maha).",
+   "origins": [
+    "pack_p5_bloomburrow_2026-10-30.json"
+   ],
+   "predicate": "allied_with",
+   "stage": "bloomburrow_blb_2024",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:BL015",
+   "name": "Gev calls Hugs his friend.",
+   "origins": [
+    "pack_p5_bloomburrow_2026-10-30.json"
+   ],
+   "predicate": "friend_of",
+   "stage": "bloomburrow_blb_2024",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:BL016",
+   "name": "Coffey speaks for the ratfolk lorekeepers.",
+   "origins": [
+    "pack_p5_bloomburrow_2026-10-30.json"
+   ],
+   "predicate": "member_of",
+   "stage": "bloomburrow_blb_2024",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:BL017",
+   "limitation": "'Secret-keepers' guard Valley's relics and knowledge, not its territory.",
+   "name": "The ratfolk are Valley's secret-keepers.",
+   "origins": [
+    "pack_p5_bloomburrow_2026-10-30.json"
+   ],
+   "predicate": "guardian_of",
+   "stage": "bloomburrow_blb_2024",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:BL018",
+   "name": "Valley lies within Bloomburrow.",
+   "origins": [
+    "pack_p5_bloomburrow_2026-10-30.json"
+   ],
+   "predicate": "located_on",
+   "stage": "bloomburrow_blb_2024",
    "type": "Claim"
   },
   {
@@ -51809,6 +52864,40 @@
     "pack_p5_lost_caverns_of_ixalan_2026-10-30.json"
    ],
    "predicate": "stranded_on",
+   "stage": "lost_caverns_of_ixalan_lci_2023",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:LC013",
+   "name": "Inti is one of the Imperial officers sent by the emperor to aid Huatli's expedition.",
+   "origins": [
+    "pack_p5_lost_caverns_of_ixalan_2026-10-30.json"
+   ],
+   "predicate": "aided",
+   "stage": "lci_expedition_2023",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:LC014",
+   "name": "Amalia saves Kellan from a fall and vouches for him to Vito.",
+   "origins": [
+    "pack_p5_lost_caverns_of_ixalan_2026-10-30.json"
+   ],
+   "predicate": "aided",
+   "stage": "lci_expedition_2023",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:LC015",
+   "limitation": "He says he came from Eldraine; the passage does not state where he was born.",
+   "name": "Kellan tells the vampire expedition he came from Eldraine.",
+   "origins": [
+    "pack_p5_lost_caverns_of_ixalan_2026-10-30.json"
+   ],
+   "predicate": "originated_from",
    "stage": "lost_caverns_of_ixalan_lci_2023",
    "type": "Claim"
   },
@@ -55256,6 +56345,176 @@
   },
   {
    "grade": "CANON_CONFIRMED",
+   "id": "claim:TB015",
+   "name": "Purphoros forged a god-harming sword and battled Heliod.",
+   "origins": [
+    "pack_p5_theros_beyond_death_2026-10-30.json"
+   ],
+   "predicate": "fought",
+   "stage": "theros_thb_2020",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:TB016",
+   "name": "Heliod and Nylea sealed Polukranos after it rampaged.",
+   "origins": [
+    "pack_p5_theros_beyond_death_2026-10-30.json"
+   ],
+   "predicate": "sealed",
+   "stage": "theros_thb_2020",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:TB017",
+   "name": "Nylea helped Heliod seal Polukranos.",
+   "origins": [
+    "pack_p5_theros_beyond_death_2026-10-30.json"
+   ],
+   "predicate": "sealed",
+   "stage": "theros_thb_2020",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:TB018",
+   "name": "Heliod reforged Purphoros's sword into the spear Godsend.",
+   "origins": [
+    "pack_p5_theros_beyond_death_2026-10-30.json"
+   ],
+   "predicate": "created",
+   "stage": "theros_thb_2020",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:TB019",
+   "name": "Elspeth destroyed the god Xenagos in Nyx with Godsend.",
+   "origins": [
+    "pack_p5_theros_beyond_death_2026-10-30.json"
+   ],
+   "predicate": "killed",
+   "stage": "theros_thb_2020",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:TB020",
+   "limitation": "She later escapes the Underworld (Theros Beyond Death).",
+   "name": "Heliod struck Elspeth down with her own spear; she died and her soul went to the Underworld.",
+   "origins": [
+    "pack_p5_theros_beyond_death_2026-10-30.json"
+   ],
+   "predicate": "killed",
+   "stage": "theros_thb_2020",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:TB021",
+   "name": "Xenagos magically manipulated Elspeth into killing Daxos during the Great Revel.",
+   "origins": [
+    "pack_p5_theros_beyond_death_2026-10-30.json"
+   ],
+   "predicate": "manipulated",
+   "stage": "theros_thb_2020",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:TB022",
+   "limitation": "She acted under Xenagos's magical manipulation.",
+   "name": "Elspeth killed Daxos during the Great Revel.",
+   "origins": [
+    "pack_p5_theros_beyond_death_2026-10-30.json"
+   ],
+   "predicate": "killed",
+   "stage": "theros_thb_2020",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:TB023",
+   "name": "Daxos, an oracle of Heliod, became Elspeth's friend and mentor in Meletis.",
+   "origins": [
+    "pack_p5_theros_beyond_death_2026-10-30.json"
+   ],
+   "predicate": "mentored",
+   "stage": "theros_thb_2020",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:TB024",
+   "name": "Kruphix enacted the Silence, drawing the gods back to Nyx.",
+   "origins": [
+    "pack_p5_theros_beyond_death_2026-10-30.json"
+   ],
+   "predicate": "enacted",
+   "stage": "theros_thb_2020",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:TB025",
+   "name": "Ajani found Elspeth in the wilderness and helped her.",
+   "origins": [
+    "pack_p5_theros_beyond_death_2026-10-30.json"
+   ],
+   "predicate": "aided",
+   "stage": "theros_thb_2020",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:TB026",
+   "name": "Kiora helped Ajani and Elspeth cross the sea to Kruphix's temple.",
+   "origins": [
+    "pack_p5_theros_beyond_death_2026-10-30.json"
+   ],
+   "predicate": "aided",
+   "stage": "theros_thb_2020",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:TB027",
+   "limitation": "He was later destroyed by Elspeth (TB019).",
+   "name": "Xenagos ascended and joined the gods in Nyx.",
+   "origins": [
+    "pack_p5_theros_beyond_death_2026-10-30.json"
+   ],
+   "predicate": "joined",
+   "stage": "theros_thb_2020",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:TB028",
+   "limitation": "Design commentary (Making Magic mailbag), not narrative fiction.",
+   "name": "Klothys is trapped in the Underworld, which explains her absence from the original Theros block.",
+   "origins": [
+    "pack_p5_theros_beyond_death_2026-10-30.json"
+   ],
+   "predicate": "imprisoned_in",
+   "stage": "theros_thb_2020",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:TB029",
+   "limitation": "Design commentary (Making Magic mailbag), not narrative fiction.",
+   "name": "More than two titans are trapped in the Underworld; the number is unspecified.",
+   "origins": [
+    "pack_p5_theros_beyond_death_2026-10-30.json"
+   ],
+   "predicate": "imprisoned_in",
+   "stage": "theros_thb_2020",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
    "id": "claim:TD001",
    "name": "Sarkhan's time-travel intervention saved Ugin from death at Bolas's hands and led to the dragons' victory (the Khanfall timeline).",
    "origins": [
@@ -57450,6 +58709,14 @@
    "type": "Event"
   },
   {
+   "id": "event:the_silence_theros",
+   "name": "The Silence (Theros)",
+   "origins": [
+    "pack_p5_theros_beyond_death_2026-10-30.json"
+   ],
+   "type": "Event"
+  },
+  {
    "id": "event:war_of_the_spark_end",
    "name": "War of the Spark aftermath",
    "origins": [
@@ -57910,6 +59177,14 @@
    "name": "Quandrix College",
    "origins": [
     "pack_p5_secrets_of_strixhaven_2026-10-30.json"
+   ],
+   "type": "Faction"
+  },
+  {
+   "id": "faction:ratfolk_valley",
+   "name": "Ratfolk of Valley",
+   "origins": [
+    "pack_p5_bloomburrow_2026-10-30.json"
    ],
    "type": "Faction"
   },
@@ -58467,6 +59742,7 @@
    "id": "place:nyx",
    "name": "Nyx",
    "origins": [
+    "pack_p5_theros_beyond_death_2026-10-30.json",
     "pack_p5_theros_ths_2026-10-30.json"
    ],
    "type": "Place"
@@ -58646,6 +59922,14 @@
    "type": "Place"
   },
   {
+   "id": "place:valley",
+   "name": "Valley",
+   "origins": [
+    "pack_p5_bloomburrow_2026-10-30.json"
+   ],
+   "type": "Place"
+  },
+  {
    "id": "place:vantress",
    "name": "Vantress",
    "origins": [
@@ -58713,6 +59997,7 @@
    "id": "plane:eldraine",
    "name": "Eldraine",
    "origins": [
+    "pack_p5_lost_caverns_of_ixalan_2026-10-30.json",
     "pack_p5_throne_of_eldraine_2026-10-30.json",
     "pack_p5_wilds_of_eldraine_2026-10-30.json"
    ],
@@ -59217,6 +60502,17 @@
    "url": "https://magic.wizards.com/en/news/magic-story/episode-3-the-lost-and-the-found"
   },
   {
+   "id": "source:blb_ep4",
+   "kind": "official_story_episode",
+   "name": "Bloomburrow | Episode 4: Soothsaying and Stormcalling",
+   "origins": [
+    "pack_p5_bloomburrow_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/episode-4-soothsaying-and-stormcalling"
+  },
+  {
    "id": "source:blb_ep5",
    "kind": "official_story_episode",
    "name": "Bloomburrow | Episode 5: Nightfall in Fountainport",
@@ -59237,6 +60533,17 @@
    "source_class": "WIZARDS_OFFICIAL",
    "type": "Source",
    "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-bloomburrow-part-1"
+  },
+  {
+   "id": "source:blb_guide2",
+   "kind": "official_planeswalkers_guide",
+   "name": "Planeswalker's Guide to Bloomburrow, Part 2",
+   "origins": [
+    "pack_p5_bloomburrow_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-bloomburrow-part-2"
   },
   {
    "id": "source:blb_guide3",
@@ -60694,6 +62001,17 @@
    "source_class": "WIZARDS_OFFICIAL",
    "type": "Source",
    "url": "https://magic.wizards.com/en/news/magic-story/the-lost-caverns-of-ixalan-episode-1"
+  },
+  {
+   "id": "source:lci_ep2",
+   "kind": "official_story_episode",
+   "name": "The Lost Caverns of Ixalan | Episode 2",
+   "origins": [
+    "pack_p5_lost_caverns_of_ixalan_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/the-lost-caverns-of-ixalan-episode-2"
   },
   {
    "id": "source:lci_ep3",
@@ -62780,6 +64098,39 @@
    "url": "https://magic.wizards.com/en/news/magic-story/tarkir-dragonstorm-temur-together-survives-the-pack"
   },
   {
+   "id": "source:thb_cards",
+   "kind": "official_story_feature",
+   "name": "The Theros Beyond Death Story on Cards",
+   "origins": [
+    "pack_p5_theros_beyond_death_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/feature/theros-beyond-death-story-cards-2019-12-16"
+  },
+  {
+   "id": "source:thb_journeys_end",
+   "kind": "official_story_episode",
+   "name": "Journey's End",
+   "origins": [
+    "pack_p5_theros_beyond_death_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/making-magic/journeys-end-2014-05-26"
+  },
+  {
+   "id": "source:thb_odds",
+   "kind": "official_story_episode",
+   "name": "Odds & Ends: Theros Beyond Death",
+   "origins": [
+    "pack_p5_theros_beyond_death_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/making-magic/odds-ends-theros-beyond-death-2020-01-27"
+  },
+  {
    "id": "source:thb_summary",
    "kind": "official_story_feature",
    "name": "Theros Beyond Death Story Summary",
@@ -63014,37 +64365,37 @@
  "problems": [],
  "schema": "multiverse-claim-graph/v1",
  "stats": {
-  "claim_edges_with_era": 738,
+  "claim_edges_with_era": 762,
   "claim_edges_with_in_universe_date": 0,
   "claims_by_status": {
    "ALTERNATE_CONTINUITY": 2,
-   "CANON_CONFIRMED": 576,
+   "CANON_CONFIRMED": 597,
    "CANON_DISPUTED": 7,
-   "CANON_IMPLIED": 124,
+   "CANON_IMPLIED": 127,
    "OPEN_QUESTION": 2
   },
   "curated_bridges": 104,
-  "edges": 4537,
+  "edges": 4651,
   "literal_objects": 14,
   "node_types": {
    "AlternateContinuity": 1,
-   "Card": 1130,
+   "Card": 1141,
    "CardTheme": 1,
-   "Character": 307,
-   "Claim": 711,
+   "Character": 312,
+   "Claim": 735,
    "Concept": 123,
    "DeckProposal": 3,
-   "Event": 21,
-   "Faction": 77,
+   "Event": 22,
+   "Faction": 78,
    "Literal": 14,
    "Object": 44,
-   "Place": 55,
+   "Place": 56,
    "Plane": 26,
-   "Source": 374
+   "Source": 380
   },
-  "nodes": 2887,
+  "nodes": 2936,
   "non_wizards_sources": 0,
   "relations": 308,
-  "wizards_official_sources": 374
+  "wizards_official_sources": 380
  }
 }
