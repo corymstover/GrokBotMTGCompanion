@@ -7,7 +7,7 @@
   "HYPOTHETICAL": "Creative or deckbuilding connection; never canon.",
   "OPEN_QUESTION": "Primary sources leave the matter unresolved; do not assert either way."
  },
- "content_sha256": "627b934a0eb75958f1310b03b222c7e1fedb346e77b9b234fdfde2717e0202ba",
+ "content_sha256": "5c70a22b67042d6e36f1e8366b8a4086234076490ddb7713fa293eea3b3aabe4",
  "edges": [
   {
    "artists": [
@@ -5820,6 +5820,13 @@
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:kyodai",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:kyodai_soul_of_kamigawa"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
    "from": "character:liliana_vess",
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
@@ -6342,6 +6349,13 @@
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
    "to": "card:sorin_markov"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:tameshi",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:tameshi_reality_architect"
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
@@ -8804,6 +8818,168 @@
    "to": "place:zhalfir"
   },
   {
+   "claim": "NEO001",
+   "era": "kamigawa_neon_dynasty_2022",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:the_wanderer",
+   "grade": "CANON_CONFIRMED",
+   "relation": "identified_with",
+   "sources": [
+    "neo_ep3",
+    "neo_ep4"
+   ],
+   "to": "concept:emperor_of_kamigawa"
+  },
+  {
+   "claim": "NEO002",
+   "era": "kamigawa_neon_dynasty_2022",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:the_wanderer",
+   "grade": "CANON_CONFIRMED",
+   "relation": "spark_ignited",
+   "sources": [
+    "neo_ep3",
+    "neo_ep5"
+   ],
+   "to": "artifact:reality_chip"
+  },
+  {
+   "claim": "NEO002",
+   "era": "kamigawa_neon_dynasty_2022",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:the_wanderer",
+   "grade": "CANON_CONFIRMED",
+   "relation": "spark_ignited",
+   "sources": [
+    "neo_ep3",
+    "neo_ep5"
+   ],
+   "to": "character:tezzeret"
+  },
+  {
+   "claim": "NEO003",
+   "era": "kamigawa_neon_dynasty_2022",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:tezzeret",
+   "grade": "CANON_IMPLIED",
+   "relation": "attempted_to_control",
+   "sources": [
+    "neo_ep3",
+    "neo_ep4"
+   ],
+   "to": "character:kyodai"
+  },
+  {
+   "claim": "NEO004",
+   "era": "kamigawa_neon_dynasty_2022",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:the_wanderer",
+   "grade": "CANON_IMPLIED",
+   "relation": "spark_unstable_because_of",
+   "sources": [
+    "neo_ep3"
+   ],
+   "to": "artifact:reality_chip"
+  },
+  {
+   "claim": "NEO005",
+   "era": "kamigawa_neon_dynasty_2022",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:kaito",
+   "grade": "CANON_CONFIRMED",
+   "relation": "spark_ignited",
+   "sources": [
+    "neo_ep2"
+   ],
+   "to": "concept:tanuki_kami"
+  },
+  {
+   "claim": "NEO006",
+   "era": "kamigawa_neon_dynasty_2022",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:kaito",
+   "grade": "CANON_CONFIRMED",
+   "relation": "sibling_of",
+   "sources": [
+    "neo_ep1"
+   ],
+   "to": "character:eiko"
+  },
+  {
+   "claim": "NEO007",
+   "era": "kamigawa_neon_dynasty_2022",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:kaito",
+   "grade": "CANON_CONFIRMED",
+   "relation": "swore_to",
+   "sources": [
+    "neo_ep4"
+   ],
+   "to": "character:the_wanderer"
+  },
+  {
+   "claim": "NEO008",
+   "era": "kamigawa_neon_dynasty_2022",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:jin_gitaxias",
+   "grade": "CANON_IMPLIED",
+   "relation": "killed",
+   "sources": [
+    "neo_ep3",
+    "neo_ep4"
+   ],
+   "to": "character:tameshi"
+  },
+  {
+   "claim": "NEO009",
+   "era": "kamigawa_neon_dynasty_2022",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:kyodai",
+   "grade": "CANON_CONFIRMED",
+   "relation": "guardian_of",
+   "sources": [
+    "neo_ep1",
+    "neo_guide"
+   ],
+   "to": "plane:kamigawa"
+  },
+  {
+   "claim": "NEO010",
+   "era": "kamigawa_neon_dynasty_2022",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:tezzeret",
+   "grade": "CANON_CONFIRMED",
+   "relation": "abducted",
+   "sources": [
+    "neo_ep5"
+   ],
+   "to": "character:tamiyo"
+  },
+  {
+   "claim": "NEO011",
+   "era": "neo_epilogue_2022",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:jin_gitaxias",
+   "grade": "CANON_CONFIRMED",
+   "relation": "corrupted",
+   "sources": [
+    "neo_ep5"
+   ],
+   "to": "character:tamiyo"
+  },
+  {
+   "claim": "NEO012",
+   "era": "kamigawa_neon_dynasty_2022",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:kaito",
+   "grade": "CANON_CONFIRMED",
+   "relation": "left",
+   "sources": [
+    "neo_ep5"
+   ],
+   "to": "place:imperial_palace"
+  },
+  {
    "claim": "ONE001",
    "era": "one_strike_2023",
    "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
@@ -9971,6 +10147,12 @@
    "relation": "see_also_curated_entry",
    "tier": "contextual_pointer",
    "to": "curated:Items & Artifacts Index.md#planar-bridge"
+  },
+  {
+   "from": "artifact:reality_chip",
+   "relation": "see_also_curated_entry",
+   "tier": "contextual_pointer",
+   "to": "curated:Items & Artifacts Index.md#reality-chip"
   },
   {
    "from": "character:angrath",
@@ -12237,6 +12419,156 @@
    "to": "character:teferi"
   },
   {
+   "from": "claim:NEO001",
+   "relation": "asserts",
+   "role": "object",
+   "to": "concept:emperor_of_kamigawa"
+  },
+  {
+   "from": "claim:NEO001",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:the_wanderer"
+  },
+  {
+   "from": "claim:NEO002",
+   "relation": "asserts",
+   "role": "object",
+   "to": "artifact:reality_chip"
+  },
+  {
+   "from": "claim:NEO002",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:tezzeret"
+  },
+  {
+   "from": "claim:NEO002",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:the_wanderer"
+  },
+  {
+   "from": "claim:NEO003",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:kyodai"
+  },
+  {
+   "from": "claim:NEO003",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:tezzeret"
+  },
+  {
+   "from": "claim:NEO004",
+   "relation": "asserts",
+   "role": "object",
+   "to": "artifact:reality_chip"
+  },
+  {
+   "from": "claim:NEO004",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:the_wanderer"
+  },
+  {
+   "from": "claim:NEO005",
+   "relation": "asserts",
+   "role": "object",
+   "to": "concept:tanuki_kami"
+  },
+  {
+   "from": "claim:NEO005",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:kaito"
+  },
+  {
+   "from": "claim:NEO006",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:eiko"
+  },
+  {
+   "from": "claim:NEO006",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:kaito"
+  },
+  {
+   "from": "claim:NEO007",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:the_wanderer"
+  },
+  {
+   "from": "claim:NEO007",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:kaito"
+  },
+  {
+   "from": "claim:NEO008",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:tameshi"
+  },
+  {
+   "from": "claim:NEO008",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:jin_gitaxias"
+  },
+  {
+   "from": "claim:NEO009",
+   "relation": "asserts",
+   "role": "object",
+   "to": "plane:kamigawa"
+  },
+  {
+   "from": "claim:NEO009",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:kyodai"
+  },
+  {
+   "from": "claim:NEO010",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:tamiyo"
+  },
+  {
+   "from": "claim:NEO010",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:tezzeret"
+  },
+  {
+   "from": "claim:NEO011",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:tamiyo"
+  },
+  {
+   "from": "claim:NEO011",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:jin_gitaxias"
+  },
+  {
+   "from": "claim:NEO012",
+   "relation": "asserts",
+   "role": "object",
+   "to": "place:imperial_palace"
+  },
+  {
+   "from": "claim:NEO012",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:kaito"
+  },
+  {
    "from": "claim:ONE001",
    "relation": "asserts",
    "role": "object",
@@ -14234,6 +14566,91 @@
    "to": "claim:MOM021"
   },
   {
+   "from": "source:neo_ep1",
+   "relation": "cited_by",
+   "to": "claim:NEO006"
+  },
+  {
+   "from": "source:neo_ep1",
+   "relation": "cited_by",
+   "to": "claim:NEO009"
+  },
+  {
+   "from": "source:neo_ep2",
+   "relation": "cited_by",
+   "to": "claim:NEO005"
+  },
+  {
+   "from": "source:neo_ep3",
+   "relation": "cited_by",
+   "to": "claim:NEO001"
+  },
+  {
+   "from": "source:neo_ep3",
+   "relation": "cited_by",
+   "to": "claim:NEO002"
+  },
+  {
+   "from": "source:neo_ep3",
+   "relation": "cited_by",
+   "to": "claim:NEO003"
+  },
+  {
+   "from": "source:neo_ep3",
+   "relation": "cited_by",
+   "to": "claim:NEO004"
+  },
+  {
+   "from": "source:neo_ep3",
+   "relation": "cited_by",
+   "to": "claim:NEO008"
+  },
+  {
+   "from": "source:neo_ep4",
+   "relation": "cited_by",
+   "to": "claim:NEO001"
+  },
+  {
+   "from": "source:neo_ep4",
+   "relation": "cited_by",
+   "to": "claim:NEO003"
+  },
+  {
+   "from": "source:neo_ep4",
+   "relation": "cited_by",
+   "to": "claim:NEO007"
+  },
+  {
+   "from": "source:neo_ep4",
+   "relation": "cited_by",
+   "to": "claim:NEO008"
+  },
+  {
+   "from": "source:neo_ep5",
+   "relation": "cited_by",
+   "to": "claim:NEO002"
+  },
+  {
+   "from": "source:neo_ep5",
+   "relation": "cited_by",
+   "to": "claim:NEO010"
+  },
+  {
+   "from": "source:neo_ep5",
+   "relation": "cited_by",
+   "to": "claim:NEO011"
+  },
+  {
+   "from": "source:neo_ep5",
+   "relation": "cited_by",
+   "to": "claim:NEO012"
+  },
+  {
+   "from": "source:neo_guide",
+   "relation": "cited_by",
+   "to": "claim:NEO009"
+  },
+  {
    "from": "source:nexus_design",
    "relation": "cited_by",
    "to": "claim:A025"
@@ -14937,6 +15354,13 @@
     "file": "data/lore_research/pack_p5_amonkhet_hour_of_devastation_2026-10-30.json",
     "sha256": "0f2eb7cc5e774c2e439cf9ceee720713443ea70e407a3bf52e0745ee86102d32",
     "sources": 7
+   },
+   {
+    "claims": 12,
+    "entities": 13,
+    "file": "data/lore_research/pack_p5_kamigawa_neon_dynasty_2026-10-30.json",
+    "sha256": "31a91ee8b6920344e0d762d59b35b567f957866e78f5f2114c7ac831fcf657ce",
+    "sources": 6
    }
   ],
   "deck_evidence": [
@@ -14958,9 +15382,9 @@
   ],
   "name_anchor_packs": [
    {
-    "anchors": 250,
+    "anchors": 252,
     "file": "data/lore_research/card_name_anchors_2026-10-30.json",
-    "sha256": "878a63eeb702e7226e424bdf2da68ec2a96f70ddf80aca4794592db011e14d42"
+    "sha256": "962eca108e55f3f292eeac57db00a7f8daca1ec7df2c8cc53da5c5c88389d874"
    }
   ],
   "story_caption_packs": [
@@ -15044,6 +15468,14 @@
    "origins": [
     "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json",
     "pack_p5_kaladesh_aether_revolt_2026-10-30.json"
+   ],
+   "type": "Object"
+  },
+  {
+   "id": "artifact:reality_chip",
+   "name": "Reality Chip",
+   "origins": [
+    "pack_p5_kamigawa_neon_dynasty_2026-10-30.json"
    ],
    "type": "Object"
   },
@@ -17768,6 +18200,15 @@
    "type": "Card"
   },
   {
+   "id": "card:kyodai_soul_of_kamigawa",
+   "name": "Kyodai, Soul of Kamigawa",
+   "oracle_id": "d89bd776-8489-4c34-94ea-db1b088d9379",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:learn_from_the_past",
    "name": "Learn from the Past",
    "oracle_id": "f325fd7a-dcae-4892-adf5-de9893a23ac5",
@@ -19616,6 +20057,15 @@
    "type": "Card"
   },
   {
+   "id": "card:tameshi_reality_architect",
+   "name": "Tameshi, Reality Architect",
+   "oracle_id": "b47b3cfe-7005-4b33-9d41-83b60808e12b",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:tamiyo_collector_of_tales",
    "name": "Tamiyo, Collector of Tales",
    "oracle_id": "75d56a0a-2f64-4e80-b83e-85942d3e6dd7",
@@ -21014,6 +21464,14 @@
    "type": "Character"
   },
   {
+   "id": "character:eiko",
+   "name": "Eiko",
+   "origins": [
+    "pack_p5_kamigawa_neon_dynasty_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
    "id": "character:elesh_norn",
    "name": "Elesh Norn",
    "origins": [
@@ -21140,7 +21598,8 @@
    "id": "character:jin_gitaxias",
    "name": "Jin-Gitaxias",
    "origins": [
-    "pack_c4_march_of_the_machine_2026-10-30.json"
+    "pack_c4_march_of_the_machine_2026-10-30.json",
+    "pack_p5_kamigawa_neon_dynasty_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -21164,7 +21623,8 @@
    "id": "character:kaito",
    "name": "Kaito Shizuki",
    "origins": [
-    "pack_c3_assault_on_new_phyrexia_2026-10-30.json"
+    "pack_c3_assault_on_new_phyrexia_2026-10-30.json",
+    "pack_p5_kamigawa_neon_dynasty_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -21250,6 +21710,14 @@
    "name": "Kumena",
    "origins": [
     "pack_p5_ixalan_rivals_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:kyodai",
+   "name": "Kyodai",
+   "origins": [
+    "pack_p5_kamigawa_neon_dynasty_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -21510,10 +21978,19 @@
    "type": "Character"
   },
   {
+   "id": "character:tameshi",
+   "name": "Tameshi",
+   "origins": [
+    "pack_p5_kamigawa_neon_dynasty_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
    "id": "character:tamiyo",
    "name": "Tamiyo",
    "origins": [
-    "pack_c4_march_of_the_machine_2026-10-30.json"
+    "pack_c4_march_of_the_machine_2026-10-30.json",
+    "pack_p5_kamigawa_neon_dynasty_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -21541,7 +22018,8 @@
    "name": "Tezzeret",
    "origins": [
     "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json",
-    "pack_p5_kaladesh_aether_revolt_2026-10-30.json"
+    "pack_p5_kaladesh_aether_revolt_2026-10-30.json",
+    "pack_p5_kamigawa_neon_dynasty_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -21549,7 +22027,8 @@
    "id": "character:the_wanderer",
    "name": "The Wanderer (Emperor of Kamigawa)",
    "origins": [
-    "pack_c4_march_of_the_machine_2026-10-30.json"
+    "pack_c4_march_of_the_machine_2026-10-30.json",
+    "pack_p5_kamigawa_neon_dynasty_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -23295,6 +23774,141 @@
   },
   {
    "grade": "CANON_CONFIRMED",
+   "id": "claim:NEO001",
+   "name": "The planeswalker known as the Wanderer is the missing Emperor of Kamigawa.",
+   "origins": [
+    "pack_p5_kamigawa_neon_dynasty_2026-10-30.json"
+   ],
+   "predicate": "identified_with",
+   "stage": "kamigawa_neon_dynasty_2022",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:NEO002",
+   "name": "Ten years earlier, Tezzeret's use of a prototype Reality Chip on Kyodai accidentally ignited the emperor's spark, and she vanished.",
+   "origins": [
+    "pack_p5_kamigawa_neon_dynasty_2026-10-30.json"
+   ],
+   "predicate": "spark_ignited",
+   "stage": "kamigawa_neon_dynasty_2022",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:NEO003",
+   "limitation": "The intent to control Kyodai is stated in dialogue (Tamiyo relaying the Wanderer; Kaito's 'I think'); the narration confirms only that Tezzeret did something to Kyodai.",
+   "name": "Tezzeret used a prototype Reality Chip on Kyodai, apparently trying to control the kami.",
+   "origins": [
+    "pack_p5_kamigawa_neon_dynasty_2026-10-30.json"
+   ],
+   "predicate": "attempted_to_control",
+   "stage": "kamigawa_neon_dynasty_2022",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:NEO004",
+   "limitation": "Tamiyo's explanation in dialogue; not separately narrated in these episodes.",
+   "name": "The Reality Chip left the Wanderer's spark unstable, so she could not control her planeswalking or come home.",
+   "origins": [
+    "pack_p5_kamigawa_neon_dynasty_2026-10-30.json"
+   ],
+   "predicate": "spark_unstable_because_of",
+   "stage": "kamigawa_neon_dynasty_2022",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:NEO005",
+   "name": "Kaito's spark ignited because of a tanuki-shaped kami, and he became a planeswalker.",
+   "origins": [
+    "pack_p5_kamigawa_neon_dynasty_2026-10-30.json"
+   ],
+   "predicate": "spark_ignited",
+   "stage": "kamigawa_neon_dynasty_2022",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:NEO006",
+   "name": "Eiko is Kaito's sister, and they are the same age.",
+   "origins": [
+    "pack_p5_kamigawa_neon_dynasty_2026-10-30.json"
+   ],
+   "predicate": "sibling_of",
+   "stage": "kamigawa_neon_dynasty_2022",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:NEO007",
+   "name": "Ten years earlier, Kaito swore never to set foot in the palace until the emperor returned.",
+   "origins": [
+    "pack_p5_kamigawa_neon_dynasty_2026-10-30.json"
+   ],
+   "predicate": "swore_to",
+   "stage": "kamigawa_neon_dynasty_2022",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:NEO008",
+   "limitation": "The murder is stated in narration that follows Kaito's own reasoning, and in Jin-Gitaxias's oblique remark; the killing itself is not shown.",
+   "name": "Jin-Gitaxias had Tameshi killed to stop his questions.",
+   "origins": [
+    "pack_p5_kamigawa_neon_dynasty_2026-10-30.json"
+   ],
+   "predicate": "killed",
+   "stage": "kamigawa_neon_dynasty_2022",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:NEO009",
+   "name": "Kyodai is the guardian spirit of Kamigawa, with its main shrine in the Imperial Palace; it speaks through the emperor.",
+   "origins": [
+    "pack_p5_kamigawa_neon_dynasty_2026-10-30.json"
+   ],
+   "predicate": "guardian_of",
+   "stage": "kamigawa_neon_dynasty_2022",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:NEO010",
+   "name": "Using the Reality Chip's hold over Tamiyo, Tezzeret drags her through a portal and away from Kamigawa.",
+   "origins": [
+    "pack_p5_kamigawa_neon_dynasty_2026-10-30.json"
+   ],
+   "predicate": "abducted",
+   "stage": "kamigawa_neon_dynasty_2022",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:NEO011",
+   "name": "In the epilogue, Jin-Gitaxias has compleated Tamiyo, the first Phyrexian planeswalker.",
+   "origins": [
+    "pack_p5_kamigawa_neon_dynasty_2026-10-30.json"
+   ],
+   "predicate": "corrupted",
+   "stage": "neo_epilogue_2022",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:NEO012",
+   "name": "Kaito leaves the palace again, intending to master planeswalking and search the Multiverse for Tamiyo.",
+   "origins": [
+    "pack_p5_kamigawa_neon_dynasty_2026-10-30.json"
+   ],
+   "predicate": "left",
+   "stage": "kamigawa_neon_dynasty_2022",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
    "id": "claim:ONE001",
    "name": "Elesh Norn's World Tree, Realmbreaker, is planted in New Phyrexia's Seedcore.",
    "origins": [
@@ -24349,6 +24963,14 @@
    "type": "Concept"
   },
   {
+   "id": "concept:emperor_of_kamigawa",
+   "name": "Emperor of Kamigawa",
+   "origins": [
+    "pack_p5_kamigawa_neon_dynasty_2026-10-30.json"
+   ],
+   "type": "Concept"
+  },
+  {
    "id": "concept:glistening_oil",
    "name": "Glistening oil",
    "origins": [
@@ -24377,6 +24999,14 @@
    "name": "Powerstones (stones of power)",
    "origins": [
     "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json"
+   ],
+   "type": "Concept"
+  },
+  {
+   "id": "concept:tanuki_kami",
+   "name": "Tanuki-shaped kami (Kaito's spark)",
+   "origins": [
+    "pack_p5_kamigawa_neon_dynasty_2026-10-30.json"
    ],
    "type": "Concept"
   },
@@ -24719,6 +25349,14 @@
   {
    "id": "curated:Items & Artifacts Index.md#planar-bridge",
    "name": "Items & Artifacts Index.md#planar-bridge",
+   "origins": [
+    "lore_graph.json"
+   ],
+   "type": "Concept"
+  },
+  {
+   "id": "curated:Items & Artifacts Index.md#reality-chip",
+   "name": "Items & Artifacts Index.md#reality-chip",
    "origins": [
     "lore_graph.json"
    ],
@@ -25375,6 +26013,14 @@
    "type": "Place"
   },
   {
+   "id": "place:imperial_palace",
+   "name": "Imperial Palace (Eiganjo)",
+   "origins": [
+    "pack_p5_kamigawa_neon_dynasty_2026-10-30.json"
+   ],
+   "type": "Place"
+  },
+  {
    "id": "place:innistrad_silver_moon",
    "name": "Innistrad's silver moon",
    "origins": [
@@ -25488,7 +26134,8 @@
    "id": "plane:kamigawa",
    "name": "Kamigawa",
    "origins": [
-    "pack_c4_march_of_the_machine_2026-10-30.json"
+    "pack_c4_march_of_the_machine_2026-10-30.json",
+    "pack_p5_kamigawa_neon_dynasty_2026-10-30.json"
    ],
    "type": "Plane"
   },
@@ -26241,6 +26888,72 @@
    "url": "https://magic.wizards.com/en/news/magic-story/episode-10-the-rhythms-of-life"
   },
   {
+   "id": "source:neo_ep1",
+   "kind": "official_story_episode",
+   "name": "Episode 1: A Stranger in Eiganjo",
+   "origins": [
+    "pack_p5_kamigawa_neon_dynasty_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/episode-1-stranger-eiganjo-2022-01-24"
+  },
+  {
+   "id": "source:neo_ep2",
+   "kind": "official_story_episode",
+   "name": "Episode 2: Lies, Promises, and Neon Flames",
+   "origins": [
+    "pack_p5_kamigawa_neon_dynasty_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/episode-2-lies-promises-and-neon-flames-2022-01-24"
+  },
+  {
+   "id": "source:neo_ep3",
+   "kind": "official_story_episode",
+   "name": "Episode 3: An Unexpected Alliance",
+   "origins": [
+    "pack_p5_kamigawa_neon_dynasty_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/episode-3-unexpected-alliance-2022-01-24"
+  },
+  {
+   "id": "source:neo_ep4",
+   "kind": "official_story_episode",
+   "name": "Episode 4: The Break-In",
+   "origins": [
+    "pack_p5_kamigawa_neon_dynasty_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/episode-4-break-2022-01-26"
+  },
+  {
+   "id": "source:neo_ep5",
+   "kind": "official_story_episode",
+   "name": "Episode 5: Threads of War",
+   "origins": [
+    "pack_p5_kamigawa_neon_dynasty_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/episode-5-threads-war-2022-01-27"
+  },
+  {
+   "id": "source:neo_guide",
+   "kind": "official_planeswalkers_guide",
+   "name": "Planeswalker's Guide to Kamigawa: Neon Dynasty",
+   "origins": [
+    "pack_p5_kamigawa_neon_dynasty_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-kamigawa-neon-dynasty-2022-02-03"
+  },
+  {
    "id": "source:nexus_design",
    "name": "Prose and Khans, Part 2",
    "origins": [
@@ -26725,37 +27438,37 @@
  "problems": [],
  "schema": "multiverse-claim-graph/v1",
  "stats": {
-  "claim_edges_with_era": 256,
+  "claim_edges_with_era": 269,
   "claim_edges_with_in_universe_date": 0,
   "claims_by_status": {
    "ALTERNATE_CONTINUITY": 2,
-   "CANON_CONFIRMED": 198,
+   "CANON_CONFIRMED": 207,
    "CANON_DISPUTED": 7,
-   "CANON_IMPLIED": 22,
+   "CANON_IMPLIED": 25,
    "OPEN_QUESTION": 2
   },
-  "curated_bridges": 73,
-  "edges": 1908,
+  "curated_bridges": 74,
+  "edges": 1966,
   "literal_objects": 14,
   "node_types": {
    "AlternateContinuity": 1,
-   "Card": 616,
+   "Card": 618,
    "CardTheme": 1,
-   "Character": 89,
-   "Claim": 231,
-   "Concept": 81,
+   "Character": 92,
+   "Claim": 243,
+   "Concept": 84,
    "DeckProposal": 3,
    "Event": 15,
    "Faction": 10,
    "Literal": 14,
-   "Object": 17,
-   "Place": 14,
+   "Object": 18,
+   "Place": 15,
    "Plane": 16,
-   "Source": 105
+   "Source": 111
   },
-  "nodes": 1213,
+  "nodes": 1241,
   "non_wizards_sources": 0,
-  "relations": 198,
-  "wizards_official_sources": 105
+  "relations": 200,
+  "wizards_official_sources": 111
  }
 }

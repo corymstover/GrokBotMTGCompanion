@@ -47,6 +47,7 @@ STORY_SETS = {
     "pack_p5_kaladesh_aether_revolt_2026-10-30.json": ["kld", "aer"],
     "pack_p5_ixalan_rivals_2026-10-30.json": ["xln", "rix"],
     "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json": ["akh", "hou"],
+    "pack_p5_kamigawa_neon_dynasty_2026-10-30.json": ["neo"],
 }
 TIERS = ["ART_IN_CITED_SOURCE", "PRINTED_IN_STORY_SET", "NAMED_PARTICIPANT"]
 

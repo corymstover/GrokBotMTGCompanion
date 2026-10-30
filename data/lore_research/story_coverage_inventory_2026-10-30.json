@@ -14,18 +14,19 @@
    "data/lore_research/pack_c4_march_of_the_machine_2026-10-30.json",
    "data/lore_research/pack_p5_kaladesh_aether_revolt_2026-10-30.json",
    "data/lore_research/pack_p5_ixalan_rivals_2026-10-30.json",
-   "data/lore_research/pack_p5_amonkhet_hour_of_devastation_2026-10-30.json"
+   "data/lore_research/pack_p5_amonkhet_hour_of_devastation_2026-10-30.json",
+   "data/lore_research/pack_p5_kamigawa_neon_dynasty_2026-10-30.json"
   ]
  },
  "meaning": "cited = a claim pack quotes or cites the page at least once; it does not mean the page was read exhaustively",
  "totals": {
   "arcs": 33,
   "pages": 626,
-  "cited_pages": 88,
-  "arcs_not_started": 20,
+  "cited_pages": 94,
+  "arcs_not_started": 19,
   "arcs_partial": 12,
-  "arcs_all_cited": 1,
-  "claims": 231,
+  "arcs_all_cited": 2,
+  "claims": 243,
   "pack_urls_outside_inventory": 12
  },
  "claims_per_pack": {
@@ -40,7 +41,8 @@
   "pack_c4_march_of_the_machine_2026-10-30.json": 21,
   "pack_p5_kaladesh_aether_revolt_2026-10-30.json": 25,
   "pack_p5_ixalan_rivals_2026-10-30.json": 16,
-  "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json": 17
+  "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json": 17,
+  "pack_p5_kamigawa_neon_dynasty_2026-10-30.json": 12
  },
  "arcs": [
   {
@@ -448,21 +450,16 @@
   {
    "arc": "NEO",
    "pages": 6,
-   "cited_pages": 0,
+   "cited_pages": 6,
    "kinds": {
     "planeswalkers-guide": 1,
     "story": 5
    },
-   "citing_packs": [],
-   "status": "NOT_STARTED",
-   "uncited_urls": [
-    "https://magic.wizards.com/en/news/feature/planeswalkers-guide-kamigawa-neon-dynasty-2022-02-03",
-    "https://magic.wizards.com/en/news/magic-story/episode-1-stranger-eiganjo-2022-01-24",
-    "https://magic.wizards.com/en/news/magic-story/episode-2-lies-promises-and-neon-flames-2022-01-24",
-    "https://magic.wizards.com/en/news/magic-story/episode-3-unexpected-alliance-2022-01-24",
-    "https://magic.wizards.com/en/news/magic-story/episode-4-break-2022-01-26",
-    "https://magic.wizards.com/en/news/magic-story/episode-5-threads-war-2022-01-27"
-   ]
+   "citing_packs": [
+    "pack_p5_kamigawa_neon_dynasty_2026-10-30.json"
+   ],
+   "status": "ALL_PAGES_CITED",
+   "uncited_urls": []
   },
   {
    "arc": "ONE",
@@ -1036,5 +1033,5 @@
    ]
   }
  ],
- "sha256": "c3dbfc3f2836cdd011d7c44ea5b53f50f7823c5284beaefb6ca62aae0793e906"
+ "sha256": "3b88f1092b7ee0c4f6f23b9238adf4896c210a5ccac031e91d7bbddaff867f5e"
 }
