@@ -1,0 +1,46 @@
+name: Phase 1B cross-category set source audit
+on:
+  push:
+    branches: [main, chatgpt-phase1b-cross-category-20261029]
+    paths:
+      - scripts/audit_set_cross_category.py
+      - tests/test_set_cross_category.py
+      - data/set_atlas/cross_category_*
+      - .github/workflows/phase1b-cross-category.yml
+  pull_request:
+    paths:
+      - scripts/audit_set_cross_category.py
+      - tests/test_set_cross_category.py
+      - data/set_atlas/cross_category_*
+      - .github/workflows/phase1b-cross-category.yml
+permissions:
+  contents: write
+jobs:
+  cross-category-census:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Check source and no-premier-by-inference rules
+        run: python3 -m unittest discover -s tests -p 'test_set_cross_category.py' -v
+      - name: Generate audit on exact research branch
+        if: github.event_name == 'push' && github.ref_name == 'chatgpt-phase1b-cross-category-20261029'
+        run: python3 scripts/audit_set_cross_category.py --write
+      - name: Deterministic audit check
+        run: |
+          python3 scripts/audit_set_cross_category.py
+          python3 -m py_compile scripts/audit_set_cross_category.py
+      - name: Publish exact reviewed source-branch output
+        if: github.event_name == 'push' && github.ref_name == 'chatgpt-phase1b-cross-category-20261029'
+        run: |
+          git add data/set_atlas/cross_category_audit_2026-10-29.json
+          if ! git diff --cached --quiet; then
+            git config user.name 'github-actions[bot]'
+            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+            git commit -m "Phase 1B: publish audited supplemental-category snapshot"
+            git push origin HEAD:chatgpt-phase1b-cross-category-20261029
+          fi
