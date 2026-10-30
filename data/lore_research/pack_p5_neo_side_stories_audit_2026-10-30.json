@@ -1,0 +1,62 @@
+{
+ "schema": "story-claim-pipeline-audit/v1",
+ "pack": "data/lore_research/pack_p5_neo_side_stories_2026-10-30.json",
+ "pack_status": "PRELIMINARY_RESEARCH (not owner approved, not certified)",
+ "arc": "NEO",
+ "claims": 4,
+ "entities": 8,
+ "sources": 4,
+ "grades": {
+  "CANON_CONFIRMED": 3,
+  "CANON_IMPLIED": 1
+ },
+ "quotes": 7,
+ "quotes_verbatim": 7,
+ "quote_rows": [
+  {
+   "claim": "NS001",
+   "source_id": "neos_kaito",
+   "quote_sha256": "ea41c7923b72fe350ec933553b9b64dfaacd00a7e786dddc4839202050c01bd5",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "NS001",
+   "source_id": "neos_kaito",
+   "quote_sha256": "a825ab16fca8f0c79a1a77619fbe707cea7bb8a71de80e6b3fd3f1a70d01a4a7",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "NS002",
+   "source_id": "neos_blade",
+   "quote_sha256": "cfca784d7d8e8cab5a047e537ec0327c70d113fff4a80374bf8ce7625f578cae",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "NS003",
+   "source_id": "neos_epoch",
+   "quote_sha256": "54be296ff966cc333aa6936365bb00295fa247dbcdbb6062054c852f8f28875d",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "NS003",
+   "source_id": "neos_epoch",
+   "quote_sha256": "af15c180dcb7c27023a7499112187424e8d732bb8e72e3646d663543051ede59",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "NS004",
+   "source_id": "neos_foes",
+   "quote_sha256": "1af090a5b24fcf633e97e52143aec9aec615c14e53a99ec68f6e81e0ea1d16a4",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "NS004",
+   "source_id": "neos_foes",
+   "quote_sha256": "4409ef967f5fd34db3ceada02f76092948fab869ec08977a729e61e24b322812",
+   "status": "VERBATIM"
+  }
+ ],
+ "problems": [],
+ "note": "Verbatim-quote audit against cached official Wizards story text. Research evidence only: not owner approval, not certification, not an exhaustive reading.",
+ "content_sha256": "12c547ae091a3a00308fcea3311d633715bebf816647ee9b0a198c87637fdb97"
+}

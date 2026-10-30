@@ -3,15 +3,15 @@
  "pack": "data/lore_research/pack_p5_murders_at_karlov_manor_2026-10-30.json",
  "pack_status": "PRELIMINARY_RESEARCH (not owner approved, not certified)",
  "arc": "MKM",
- "claims": 14,
+ "claims": 15,
  "entities": 17,
- "sources": 10,
+ "sources": 11,
  "grades": {
-  "CANON_CONFIRMED": 10,
+  "CANON_CONFIRMED": 11,
   "CANON_IMPLIED": 4
  },
- "quotes": 23,
- "quotes_verbatim": 23,
+ "quotes": 25,
+ "quotes_verbatim": 25,
  "quote_rows": [
   {
    "claim": "MK001",
@@ -150,9 +150,21 @@
    "source_id": "mkm_guide",
    "quote_sha256": "a26c287f3f5695e26477bb76bc40592998d9d2e0eda2db49f6fd02cac382525e",
    "status": "VERBATIM"
+  },
+  {
+   "claim": "MK015",
+   "source_id": "mkm_ep2",
+   "quote_sha256": "688b24c6cf669b7610e17960cbd4e0a58d967f838e5101cee4c209dcbc16e7e9",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MK015",
+   "source_id": "mkm_ep2",
+   "quote_sha256": "5e979dab91fdb26d123d5ea8577fa116bc1ce181dcea74e9473ad133a1e4354c",
+   "status": "VERBATIM"
   }
  ],
  "problems": [],
  "note": "Verbatim-quote audit against cached official Wizards story text. Research evidence only: not owner approval, not certification, not an exhaustive reading.",
- "content_sha256": "5ce978358c50dd4e4ef4afef344b617f51167e93b0aa6bcf0de4e1f108c369e2"
+ "content_sha256": "a2b313da9d2d7a59ef43396f2843ed3687a14c007da4925c702216c8949f8c13"
 }

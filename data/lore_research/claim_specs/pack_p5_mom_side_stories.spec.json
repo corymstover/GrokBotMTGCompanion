@@ -2,8 +2,9 @@
  "pack_id": "pack_p5_mom_side_stories",
  "arc": "MOM",
  "event_stage": "march_of_the_machine_2023",
- "scope": "Targeted Phase 5 extraction from the eight official March of the Machine plane side stories (March 2023) tagged to the MOM arc in batch 7. One claim per page; not an exhaustive reading. PRELIMINARY_RESEARCH; not owner approved.",
+ "scope": "Targeted Phase 5 extraction from the eight official March of the Machine plane side stories (March 2023) and the official Planeswalker's Guide to March of the Machine, tagged to the MOM arc in batch 7. One claim per page; not an exhaustive reading. PRELIMINARY_RESEARCH; not owner approved.",
  "pages": {
+  "moms_guide": "planeswalkers-guide-to-march-of-the-machine",
   "moms_arcavios": "a-radiant-heart",
   "moms_ikoria": "survival-of-the-fittest",
   "moms_ixalan": "three-hundred-steps-under-the-sun",
@@ -14,6 +15,21 @@
   "moms_capenna": "the-fall-of-park-heights"
  },
  "entities": [
+  {
+   "id": "vorinclex",
+   "type": "Character",
+   "name": "Vorinclex"
+  },
+  {
+   "id": "realmbreaker",
+   "type": "Object",
+   "name": "Realmbreaker (Elesh Norn's Invasion Tree)"
+  },
+  {
+   "id": "elesh_norn",
+   "type": "Character",
+   "name": "Elesh Norn"
+  },
   {
    "id": "quintorius",
    "type": "Character",
@@ -258,10 +274,29 @@
    ],
    "summary": "Atraxa leads the conversion of New Capenna; Park Heights falls.",
    "limitation": "Stated by characters in dialogue."
+  },
+  {
+   "id": "MS009",
+   "subject": "elesh_norn",
+   "predicate": "created",
+   "object": "realmbreaker",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "moms_guide",
+     "quote": "She sent Vorinclex to Kaldheim to steal some of the essence of the World Tree, which she then used to grow her own plane-traversing Invasion Tree."
+    },
+    {
+     "page": "moms_guide",
+     "quote": "Elesh Norn's Invasion Tree breaches into countless planes, and armies of Phyrexians pour out across the Multiverse."
+    }
+   ],
+   "summary": "The Planeswalker's Guide says Elesh Norn grew the Invasion Tree from World Tree essence Vorinclex stole from Kaldheim.",
+   "limitation": "Planeswalker's Guide (official feature), not fiction."
   }
  ],
  "remaining": [
-  "One claim per side story; the eight invasion fronts are only lightly modelled",
+  "One claim per side story, plus one from the official Planeswalker's Guide (MS009); the eight invasion fronts are only lightly modelled",
   "Dina, Killian, Akiri and the Capenna families are mentioned in quotes but not graded"
  ]
 }

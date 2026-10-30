@@ -4,6 +4,7 @@
  "event_stage": "duskmourn_dsk_2024",
  "scope": "Targeted Phase 5 extraction from the six official Duskmourn: House of Horror Magic Story episodes (2024-08-19 to 2024-08-30) and the Planeswalker's Guide to Duskmourn. PRELIMINARY_RESEARCH; not owner approved.",
  "pages": {
+  "dsk_ep2": "episode-two-dont-split-the-party",
   "dsk_ep1": "episode-one-dont-go-past-the-old-dark-house",
   "dsk_ep3": "episode-three-dont-look-back",
   "dsk_ep4": "episode-four-dont-give-up",
@@ -276,11 +277,29 @@
    ],
    "summary": "Marina Vendrell, last of the Vendrells, still lives in the House and knows the demon as 'Val'.",
    "limitation": "Quoted from Marina's diary as Zimone reads it aloud; the guide says her awareness of the truth is unclear."
+  },
+  {
+   "id": "DS012",
+   "subject": "kaito",
+   "predicate": "traveled_with",
+   "object": "the_wanderer",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "dsk_ep2",
+     "quote": "Kaito led the group, with the Wanderer close behind."
+    },
+    {
+     "page": "dsk_ep2",
+     "quote": "Kaito frowned and opened his eyes, finding the Wanderer watching him intently, no more than a few feet away."
+    }
+   ],
+   "summary": "In Episode 2, Kaito leads the group through the House with the Wanderer close behind."
   }
  ],
  "remaining": [
   "Nashi's farewell to the scroll and Aminatou's role are not graded",
   "Marina Vendrell's bargain with Valgavoth is not fully modelled",
-  "Episode 2 is not cited"
+  "Episode 2 is cited only for Kaito and the Wanderer (DS012)"
  ]
 }

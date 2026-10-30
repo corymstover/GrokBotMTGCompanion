@@ -1,0 +1,264 @@
+{
+ "schema": "multiverse-claim-pack/v1",
+ "pack_id": "pack_p5_dominaria_united",
+ "evidence_cutoff": "2026-10-30",
+ "status": "PRELIMINARY_RESEARCH (not owner approved, not certified)",
+ "arc": "DMU",
+ "scope": "Targeted Phase 5 extraction from the five official Dominaria United main-story episodes (August 2022, by Langley Hyde). One or two claims per episode; not an exhaustive reading. PRELIMINARY_RESEARCH; not owner approved.",
+ "built_by": "scripts/story_claim_pipeline.py from data/lore_research/claim_specs/pack_p5_dominaria_united.spec.json",
+ "source_register": {
+  "dmum_e1": {
+   "title": "Episode 1: Echoes In The Dark",
+   "url": "https://magic.wizards.com/en/news/magic-story/episode-1-echoes-dark-2022-08-10",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2022-08-10"
+  },
+  "dmum_e2": {
+   "title": "Episode 2: Sand in the Hourglass",
+   "url": "https://magic.wizards.com/en/news/magic-story/episode-2-sand-hourglass-2022-08-11",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2022-08-11"
+  },
+  "dmum_e3": {
+   "title": "Episode 3: The Locked Tower",
+   "url": "https://magic.wizards.com/en/news/magic-story/episode-3-locked-tower-2022-08-12",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2022-08-12"
+  },
+  "dmum_e4": {
+   "title": "Episode 4: A Brutal Blow",
+   "url": "https://magic.wizards.com/en/news/magic-story/episode-4-brutal-blow-2022-08-15",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2022-08-15"
+  },
+  "dmum_e5": {
+   "title": "Episode 5: A Whisper in the Wind",
+   "url": "https://magic.wizards.com/en/news/magic-story/episode-5-whisper-wind-2022-08-18",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2022-08-18"
+  }
+ },
+ "entities": [
+  {
+   "id": "rona",
+   "type": "Character",
+   "name": "Rona"
+  },
+  {
+   "id": "sheoldred",
+   "type": "Character",
+   "name": "Sheoldred"
+  },
+  {
+   "id": "karn",
+   "type": "Character",
+   "name": "Karn"
+  },
+  {
+   "id": "ajani",
+   "type": "Character",
+   "name": "Ajani"
+  },
+  {
+   "id": "stenn",
+   "type": "Character",
+   "name": "Stenn"
+  },
+  {
+   "id": "phyrexians",
+   "type": "Faction",
+   "name": "Phyrexians"
+  },
+  {
+   "id": "danitha_capashen",
+   "type": "Character",
+   "name": "Danitha Capashen"
+  },
+  {
+   "id": "jaya_ballard",
+   "type": "Character",
+   "name": "Jaya Ballard"
+  },
+  {
+   "id": "jhoira",
+   "type": "Character",
+   "name": "Jhoira"
+  },
+  {
+   "id": "mana_rig",
+   "type": "Place",
+   "name": "The Mana Rig"
+  }
+ ],
+ "claims": [
+  {
+   "id": "DM001",
+   "subject": "rona",
+   "predicate": "aided",
+   "object": "sheoldred",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "dominaria_united_2022",
+   "source_ids": [
+    "dmum_e1"
+   ],
+   "evidence": [
+    {
+     "source_id": "dmum_e1",
+     "quote": "The Tolarian who aided Sheoldred leveled a glaive at him."
+    },
+    {
+     "source_id": "dmum_e1",
+     "quote": "Rona positioned herself between Karn and Sheoldred, glaive held easy and at an angle in her palms."
+    }
+   ],
+   "summary": "In the caverns under Dominaria, Rona, a Tolarian, attends and guards the sleeping Sheoldred.",
+   "limitation": ""
+  },
+  {
+   "id": "DM002",
+   "subject": "karn",
+   "predicate": "fought",
+   "object": "rona",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "dominaria_united_2022",
+   "source_ids": [
+    "dmum_e1"
+   ],
+   "evidence": [
+    {
+     "source_id": "dmum_e1",
+     "quote": "Karn paused, dazed, and tried to shake off the agony as Rona continued to attack."
+    },
+    {
+     "source_id": "dmum_e1",
+     "quote": "While he was occupied, Rona unsheathed a dagger and jammed it into one of his abdominal seams."
+    }
+   ],
+   "summary": "Karn fights Rona in Sheoldred's cavern.",
+   "limitation": ""
+  },
+  {
+   "id": "DM003",
+   "subject": "karn",
+   "predicate": "met",
+   "object": "ajani",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "dominaria_united_2022",
+   "source_ids": [
+    "dmum_e2"
+   ],
+   "evidence": [
+    {
+     "source_id": "dmum_e2",
+     "quote": "He'd only met Ajani a few times."
+    },
+    {
+     "source_id": "dmum_e2",
+     "quote": "Ajani stood in the tunnel, his fur a striking white in the torchlight."
+    }
+   ],
+   "summary": "Karn meets Ajani, whom he had met only a few times before.",
+   "limitation": ""
+  },
+  {
+   "id": "DM004",
+   "subject": "phyrexians",
+   "predicate": "replaced",
+   "object": "stenn",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "dominaria_united_2022",
+   "source_ids": [
+    "dmum_e3"
+   ],
+   "evidence": [
+    {
+     "source_id": "dmum_e3",
+     "quote": "He dismembered Stenn—no, not Stenn, the Phyrexian who had killed Stenn, who had compleated him and taken his place—with efficiency."
+    }
+   ],
+   "summary": "In the locked tower, Karn destroys the Phyrexian that had killed and replaced Stenn.",
+   "limitation": ""
+  },
+  {
+   "id": "DM005",
+   "subject": "danitha_capashen",
+   "predicate": "met",
+   "object": "jaya_ballard",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "dominaria_united_2022",
+   "source_ids": [
+    "dmum_e4"
+   ],
+   "evidence": [
+    {
+     "source_id": "dmum_e4",
+     "quote": "Danitha Capashen strode through the camp toward Jaya and Ajani."
+    },
+    {
+     "source_id": "dmum_e4",
+     "quote": "\"Danitha Capashen, daughter of Aron Capashen, heir to the House Capashen."
+    }
+   ],
+   "summary": "Danitha Capashen, Aron's heir, meets Jaya and Ajani at her camp.",
+   "limitation": ""
+  },
+  {
+   "id": "DM006",
+   "subject": "ajani",
+   "predicate": "compleated_by",
+   "object": "phyrexians",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "dominaria_united_2022",
+   "source_ids": [
+    "dmum_e5"
+   ],
+   "evidence": [
+    {
+     "source_id": "dmum_e5",
+     "quote": "Art by: Victor Adame Minguez Ajani had been compleated."
+    },
+    {
+     "source_id": "dmum_e5",
+     "quote": "He was the spy, the traitor."
+    }
+   ],
+   "summary": "Ajani is revealed as compleated and the spy within the coalition.",
+   "limitation": "The first quote includes an art credit run into the text by the page layout."
+  },
+  {
+   "id": "DM007",
+   "subject": "jhoira",
+   "predicate": "defended",
+   "object": "mana_rig",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "dominaria_united_2022",
+   "source_ids": [
+    "dmum_e5"
+   ],
+   "evidence": [
+    {
+     "source_id": "dmum_e5",
+     "quote": "Jhoira had occupied herself with setting up the self-destruct mechanism on the Mana Rig's helm, a priority now that Sheoldred's troops had begun to mass."
+    },
+    {
+     "source_id": "dmum_e5",
+     "quote": "They would not permit Sheoldred to obtain and convert the Mana Rig."
+    }
+   ],
+   "summary": "Jhoira rigs the Mana Rig to self-destruct rather than let Sheoldred take it.",
+   "limitation": ""
+  }
+ ],
+ "pages_registered": 5,
+ "pages_cited": 5,
+ "uncited_registered_pages": [],
+ "remaining": [
+  "One or two claims per episode; the Battle of Urza's Tower, the sylex and the coalition treaty are not graded here",
+  "The DMU side stories are in pack_p5_dmu_side_stories"
+ ]
+}

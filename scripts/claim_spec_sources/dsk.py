@@ -2,7 +2,7 @@ from mv import spec
 C,I="CANON_CONFIRMED","CANON_IMPLIED"
 spec("pack_p5_duskmourn","DSK","duskmourn_dsk_2024",
 "Targeted Phase 5 extraction from the six official Duskmourn: House of Horror Magic Story episodes (2024-08-19 to 2024-08-30) and the Planeswalker's Guide to Duskmourn. PRELIMINARY_RESEARCH; not owner approved.",
-{"dsk_ep1":"episode-one-dont-go-past-the-old-dark-house","dsk_ep3":"episode-three-dont-look-back","dsk_ep4":"episode-four-dont-give-up",
+{"dsk_ep2":"episode-two-dont-split-the-party","dsk_ep1":"episode-one-dont-go-past-the-old-dark-house","dsk_ep3":"episode-three-dont-look-back","dsk_ep4":"episode-four-dont-give-up",
  "dsk_ep5":"episode-five-dont-give-in","dsk_ep6":"episode-six-dont-die","dsk_guide":"planeswalkers-guide-to-duskmourn"},
 [("valgavoth","Character","Valgavoth"),("the_house","Place","The House"),("duskmourn","Plane","Duskmourn"),("marina_vendrell","Character","Marina Vendrell"),
  ("winter","Character","Winter"),("nashi","Character","Nashi"),("the_wanderer","Character","The Wanderer"),("kaito","Character","Kaito Shizuki"),
@@ -53,6 +53,10 @@ spec("pack_p5_duskmourn","DSK","duskmourn_dsk_2024",
   ("dsk_guide","Marina Vendrell The last surviving member of the Vendrell family continues to live in the House—sort of.")],
  "Marina Vendrell, last of the Vendrells, still lives in the House and knows the demon as 'Val'.",
  "Quoted from Marina's diary as Zimone reads it aloud; the guide says her awareness of the truth is unclear."),
+("DS012","kaito","traveled_with","the_wanderer",C,
+ [("dsk_ep2","Kaito led the group, with the Wanderer close behind."),
+  ("dsk_ep2","Kaito frowned and opened his eyes, finding the Wanderer watching him intently, no more than a few feet away.")],
+ "In Episode 2, Kaito leads the group through the House with the Wanderer close behind."),
 ],
 ["Nashi's farewell to the scroll and Aminatou's role are not graded",
- "Marina Vendrell's bargain with Valgavoth is not fully modelled","Episode 2 is not cited"])
+ "Marina Vendrell's bargain with Valgavoth is not fully modelled","Episode 2 is cited only for Kaito and the Wanderer (DS012)"])

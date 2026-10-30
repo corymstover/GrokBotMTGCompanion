@@ -1,0 +1,300 @@
+{
+ "schema": "multiverse-claim-pack/v1",
+ "pack_id": "pack_p5_bfz_2015_stories",
+ "evidence_cutoff": "2026-10-30",
+ "status": "PRELIMINARY_RESEARCH (not owner approved, not certified)",
+ "arc": "BFZ/OGW",
+ "scope": "Targeted Phase 5 extraction from eight official Battle for Zendikar Magic Story pages (August to October 2015) that the earlier BFZ/OGW pack did not cite. One claim per page; not an exhaustive reading. PRELIMINARY_RESEARCH; not owner approved.",
+ "built_by": "scripts/story_claim_pipeline.py from data/lore_research/claim_specs/pack_p5_bfz_2015_stories.spec.json",
+ "source_register": {
+  "bz_zen": {
+   "title": "For Zendikar",
+   "url": "https://magic.wizards.com/en/news/magic-story/zendikar-2015-08-12",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2024-05-15"
+  },
+  "bz_slaughter": {
+   "title": "Slaughter at the Refuge",
+   "url": "https://magic.wizards.com/en/news/magic-story/slaughter-refuge-2015-08-19",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2024-05-15"
+  },
+  "bz_silent": {
+   "title": "The Silent Cry",
+   "url": "https://magic.wizards.com/en/news/magic-story/silent-cry-2015-08-26",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2024-05-15"
+  },
+  "bz_sky": {
+   "title": "The Survivors of Sky Rock",
+   "url": "https://magic.wizards.com/en/news/magic-story/survivors-sky-rock-2015-09-09",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2024-05-15"
+  },
+  "bz_blood": {
+   "title": "Memories of Blood",
+   "url": "https://magic.wizards.com/en/news/magic-story/memories-blood-2015-09-16",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2024-05-15"
+  },
+  "bz_quest": {
+   "title": "Nissa's Quest",
+   "url": "https://magic.wizards.com/en/news/magic-story/nissas-quest-2015-09-23",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2024-05-15"
+  },
+  "bz_home": {
+   "title": "Home Waters",
+   "url": "https://magic.wizards.com/en/news/magic-story/home-waters-2015-09-30",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2024-05-15"
+  },
+  "bz_resolve": {
+   "title": "Nissa's Resolve",
+   "url": "https://magic.wizards.com/en/news/magic-story/nissas-resolve-2015-10-07",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2024-05-15"
+  }
+ },
+ "entities": [
+  {
+   "id": "nissa_revane",
+   "type": "Character",
+   "name": "Nissa Revane"
+  },
+  {
+   "id": "ashaya",
+   "type": "Character",
+   "name": "Ashaya, the Awoken World"
+  },
+  {
+   "id": "gideon_jura",
+   "type": "Character",
+   "name": "Gideon Jura"
+  },
+  {
+   "id": "jace_beleren",
+   "type": "Character",
+   "name": "Jace Beleren"
+  },
+  {
+   "id": "vorik",
+   "type": "Character",
+   "name": "Commander Vorik"
+  },
+  {
+   "id": "drana",
+   "type": "Character",
+   "name": "Drana of House Kalastria"
+  },
+  {
+   "id": "eldrazi",
+   "type": "Faction",
+   "name": "The Eldrazi"
+  },
+  {
+   "id": "munda",
+   "type": "Character",
+   "name": "Munda"
+  },
+  {
+   "id": "kiora",
+   "type": "Character",
+   "name": "Kiora"
+  },
+  {
+   "id": "zendikar",
+   "type": "Plane",
+   "name": "Zendikar"
+  },
+  {
+   "id": "khalni_heart",
+   "type": "Object",
+   "name": "Khalni Heart"
+  }
+ ],
+ "claims": [
+  {
+   "id": "BZ101",
+   "subject": "nissa_revane",
+   "predicate": "named",
+   "object": "ashaya",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "battle_for_zendikar_2015",
+   "source_ids": [
+    "bz_zen"
+   ],
+   "evidence": [
+    {
+     "source_id": "bz_zen",
+     "quote": "The first time Nissa had summoned the elemental, Hamadi had called Nissa \"Shaya,\" which he said meant \"Worldwaker.\""
+    },
+    {
+     "source_id": "bz_zen",
+     "quote": "\"So, Ashaya, what do we do now?\""
+    }
+   ],
+   "summary": "Nissa names the land elemental she summons Ashaya, the Awoken World.",
+   "limitation": ""
+  },
+  {
+   "id": "BZ102",
+   "subject": "gideon_jura",
+   "predicate": "recruited",
+   "object": "jace_beleren",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "battle_for_zendikar_2015",
+   "source_ids": [
+    "bz_slaughter"
+   ],
+   "evidence": [
+    {
+     "source_id": "bz_slaughter",
+     "quote": "He went to Ravnica and convinced Jace Beleren to return to Zendikar with him."
+    },
+    {
+     "source_id": "bz_slaughter",
+     "quote": "Gideon leaped between the Eldrazi and Jace."
+    }
+   ],
+   "summary": "Gideon brings Jace from Ravnica to Zendikar to solve the puzzle of the leylines, and protects him from Eldrazi spawn.",
+   "limitation": ""
+  },
+  {
+   "id": "BZ103",
+   "subject": "nissa_revane",
+   "predicate": "allied_with",
+   "object": "ashaya",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "battle_for_zendikar_2015",
+   "source_ids": [
+    "bz_silent"
+   ],
+   "evidence": [
+    {
+     "source_id": "bz_silent",
+     "quote": "Nissa and Ashaya were the world; while they stood together, nothing that belonged to Zendikar would have to stand alone."
+    }
+   ],
+   "summary": "Nissa and Ashaya fight together as one.",
+   "limitation": ""
+  },
+  {
+   "id": "BZ104",
+   "subject": "gideon_jura",
+   "predicate": "rescued",
+   "object": "vorik",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "battle_for_zendikar_2015",
+   "source_ids": [
+    "bz_sky"
+   ],
+   "evidence": [
+    {
+     "source_id": "bz_sky",
+     "quote": "Gideon helped an injured Commander Vorik evacuate, along with a small band of survivors—all that remained of Zendikar's greatest city."
+    }
+   ],
+   "summary": "Gideon helps the injured Commander Vorik evacuate the fall of Sea Gate.",
+   "limitation": ""
+  },
+  {
+   "id": "BZ105",
+   "subject": "drana",
+   "predicate": "opposed",
+   "object": "eldrazi",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "battle_for_zendikar_2015",
+   "source_ids": [
+    "bz_blood"
+   ],
+   "evidence": [
+    {
+     "source_id": "bz_blood",
+     "quote": "But Drana's victory was short-lived, and she and her remaining people were driven from the city by ever-growing hordes of Eldrazi."
+    },
+    {
+     "source_id": "bz_blood",
+     "quote": "Drana had heard of Gideon from a few of the recent stragglers to join their camp."
+    }
+   ],
+   "summary": "Drana and her vampires are driven from Malakir by the Eldrazi.",
+   "limitation": ""
+  },
+  {
+   "id": "BZ106",
+   "subject": "munda",
+   "predicate": "serves",
+   "object": "gideon_jura",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "battle_for_zendikar_2015",
+   "source_ids": [
+    "bz_quest"
+   ],
+   "evidence": [
+    {
+     "source_id": "bz_quest",
+     "quote": "\"I'm Munda, one of Gideon's squad leaders."
+    }
+   ],
+   "summary": "Munda introduces himself as one of Gideon's squad leaders.",
+   "limitation": ""
+  },
+  {
+   "id": "BZ107",
+   "subject": "kiora",
+   "predicate": "returned_to",
+   "object": "zendikar",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "battle_for_zendikar_2015",
+   "source_ids": [
+    "bz_home"
+   ],
+   "evidence": [
+    {
+     "source_id": "bz_home",
+     "quote": "Now she returns to her home plane of Zendikar, ready to fight the monstrous Eldrazi that threaten her world with destruction."
+    },
+    {
+     "source_id": "bz_home",
+     "quote": "Kiora whooped and ran out into the slapping surf, letting the water of Zendikar's sea wash away the mud of Theros."
+    }
+   ],
+   "summary": "Kiora returns from Theros to her home plane, Zendikar.",
+   "limitation": "The first quote is from the official editorial introduction to the story."
+  },
+  {
+   "id": "BZ108",
+   "subject": "nissa_revane",
+   "predicate": "sought",
+   "object": "khalni_heart",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "battle_for_zendikar_2015",
+   "source_ids": [
+    "bz_resolve"
+   ],
+   "evidence": [
+    {
+     "source_id": "bz_resolve",
+     "quote": "In her rush to planeswalk here to Bala Ged, Nissa hadn't thought about what she would find when she arrived—aside from Khalni Heart, where she was convinced the soul of Zendikar would be waiting for her."
+    }
+   ],
+   "summary": "Nissa planeswalks to Bala Ged seeking the soul of Zendikar at Khalni Heart.",
+   "limitation": ""
+  }
+ ],
+ "pages_registered": 8,
+ "pages_cited": 8,
+ "uncited_registered_pages": [],
+ "remaining": [
+  "One claim per page; the leyline solution and the Gatewatch's founding are graded in pack_p5_battle_for_zendikar_oath"
+ ]
+}

@@ -4,6 +4,7 @@
  "event_stage": "ravnica_mkm_2024",
  "scope": "Targeted Phase 5 extraction from the ten official Murders at Karlov Manor Magic Story episodes (2023-12-05 to 2024-01-18) and the Planeswalker's Guide to Murders at Karlov Manor. PRELIMINARY_RESEARCH; not owner approved.",
  "pages": {
+  "mkm_ep2": "episode-2-monsters-we-became",
   "mkm_ep1": "episode-1-ghosts-of-our-past",
   "mkm_ep3": "episode-3-shadows-of-regret",
   "mkm_ep4": "episode-4-justice-before-mercy",
@@ -343,10 +344,28 @@
    ],
    "summary": "The guide says the Golgari's previous guildmaster, Vraska, disappeared after the invasion.",
    "limitation": "Object is the guild she left; she disappeared after the Phyrexian invasion."
+  },
+  {
+   "id": "MK015",
+   "subject": "kaya",
+   "predicate": "allied_with",
+   "object": "teysa_karlov",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "mkm_ep2",
+     "quote": "Teysa still caught up quickly, moving with a speed that Kaya knew would cost her later: for Teysa to be running alongside the much younger, fitter Planeswalker, she had to be drawing deep on her magical reserves."
+    },
+    {
+     "page": "mkm_ep2",
+     "quote": "Seeing that Teysa's temper was hanging on by a thread, Kaya set a hand on her arm."
+    }
+   ],
+   "summary": "In Episode 2, Kaya and Teysa run through Karlov Manor together after the murder."
   }
  ],
  "remaining": [
-  "Episode 2 (Zegana's body) is not separately cited",
+  "Episode 2 is cited only for Kaya and Teysa (MK015); Zegana's body is not graded",
   "Lazav's status remains unresolved and is not graded",
   "Krenko and the other guild leaders at the Vitu-Ghazi meeting are not modelled"
  ]

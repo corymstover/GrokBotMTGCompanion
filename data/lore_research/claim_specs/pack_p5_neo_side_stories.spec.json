@@ -1,0 +1,128 @@
+{
+ "pack_id": "pack_p5_neo_side_stories",
+ "arc": "NEO",
+ "event_stage": "kamigawa_neon_dynasty_2022",
+ "scope": "Targeted Phase 5 extraction from the official Kaito origin stories (December 2021) and three Kamigawa: Neon Dynasty side stories (February 2022) tagged to the NEO arc in batch 7. One claim per page; not an exhaustive reading. PRELIMINARY_RESEARCH; not owner approved.",
+ "pages": {
+  "neos_kaito": "kaito-origin-stories-test-loyalty-path-forward-2021-12-16",
+  "neos_blade": "blade-reflected-and-reborn-2022-02-07",
+  "neos_epoch": "epoch-engine-2022-02-08",
+  "neos_foes": "foes-who-make-us-2022-02-09"
+ },
+ "entities": [
+  {
+   "id": "kaito",
+   "type": "Character",
+   "name": "Kaito Shizuki"
+  },
+  {
+   "id": "hyozan_reckoners",
+   "type": "Faction",
+   "name": "Hyozan Reckoners"
+  },
+  {
+   "id": "chishiro",
+   "type": "Character",
+   "name": "Chishiro"
+  },
+  {
+   "id": "far_corner",
+   "type": "Place",
+   "name": "Far Corner"
+  },
+  {
+   "id": "katsumasa",
+   "type": "Character",
+   "name": "Katsumasa"
+  },
+  {
+   "id": "kotori",
+   "type": "Character",
+   "name": "Kotori"
+  },
+  {
+   "id": "heiko",
+   "type": "Character",
+   "name": "Heiko"
+  },
+  {
+   "id": "norika",
+   "type": "Character",
+   "name": "Norika"
+  }
+ ],
+ "claims": [
+  {
+   "id": "NS001",
+   "subject": "kaito",
+   "predicate": "member_of",
+   "object": "hyozan_reckoners",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "neos_kaito",
+     "quote": "Kaito had been doing jobs for the Hyozan Reckoners for nearly a year."
+    },
+    {
+     "page": "neos_kaito",
+     "quote": "But Kaito hadn't joined the Hyozan Reckoners for the money."
+    }
+   ],
+   "summary": "Kaito has worked for the Hyozan Reckoners for nearly a year."
+  },
+  {
+   "id": "NS002",
+   "subject": "chishiro",
+   "predicate": "located_at",
+   "object": "far_corner",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "neos_blade",
+     "quote": "When he'd arrived in Far Corner, Chishiro had thought the worshippers foolish."
+    }
+   ],
+   "summary": "Chishiro lives among the people of Far Corner."
+  },
+  {
+   "id": "NS003",
+   "subject": "katsumasa",
+   "predicate": "mentored",
+   "object": "kotori",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "neos_epoch",
+     "quote": "As Katsumasa led her through a maze of passages, Kotori's skin crackled with exhilaration."
+    },
+    {
+     "page": "neos_epoch",
+     "quote": "Across Otawara, his name was spoken with hushed reverence: Katsumasa, the Animator, puppeteer of the mechs, engineer of the future."
+    }
+   ],
+   "summary": "Katsumasa, the Animator, leads Kotori into his workshop.",
+   "limitation": "A guiding role is shown; a formal mentorship is inferred."
+  },
+  {
+   "id": "NS004",
+   "subject": "heiko",
+   "predicate": "related_to",
+   "object": "norika",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "neos_foes",
+     "quote": "Norika puts every ounce of authority she can muster into her ten-year-old voice and, as always, it has zero effect on her cousin."
+    },
+    {
+     "page": "neos_foes",
+     "quote": "And though Norika understands well her responsibilities as the elder cousin, the eldest daughter of the Yamazaki household, the more Heiko pesters her, the more she has to admit—she wants to see the merge, too."
+    }
+   ],
+   "summary": "Norika and Heiko are cousins; Norika is the elder."
+  }
+ ],
+ "remaining": [
+  "One claim per page; the Imperial/Upriser conflict is not graded"
+ ]
+}
