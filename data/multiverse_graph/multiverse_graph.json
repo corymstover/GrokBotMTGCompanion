@@ -1,0 +1,4055 @@
+{
+ "canon_statuses": {
+  "ALTERNATE_CONTINUITY": "True only inside a separate continuity (e.g. Echoverse).",
+  "CANON_CONFIRMED": "Stated by a cited Wizards primary source.",
+  "CANON_DISPUTED": "Sources or in-story narrators conflict; both accounts are preserved.",
+  "CANON_IMPLIED": "Strongly implied by a cited primary source but not stated outright.",
+  "HYPOTHETICAL": "Creative or deckbuilding connection; never canon.",
+  "OPEN_QUESTION": "Primary sources leave the matter unresolved; do not assert either way."
+ },
+ "content_sha256": "4ebfbe862a6738d2e67c86aeb5559daaf14962a73d9fc25cbe76a587b12a974e",
+ "edges": [
+  {
+   "beat": "I. Twin Elder Dragons of Dominaria and the Elder Dragon War",
+   "claims": [
+    "A001",
+    "A002"
+   ],
+   "from": "card:nicol_bolas",
+   "printing": "8e92ba96-372c-418d-b271-45e1bf5c7af5",
+   "relation": "proposed_in",
+   "tier": "CANON_REFERENCE",
+   "to": "deck:ugin_bolas_elder_dragon_duality"
+  },
+  {
+   "beat": "I. Twin Elder Dragons of Dominaria and the Elder Dragon War",
+   "claims": [
+    "A017"
+   ],
+   "from": "card:the_elder_dragon_war",
+   "printing": "0c52c7d4-a350-4518-8c9a-72cf7b14603d",
+   "relation": "proposed_in",
+   "tier": "CANON_REFERENCE",
+   "to": "deck:ugin_bolas_elder_dragon_duality"
+  },
+  {
+   "beat": "I. Twin Elder Dragons of Dominaria and the Elder Dragon War",
+   "claims": [
+    "A019"
+   ],
+   "from": "card:crosis_the_purger",
+   "printing": "e5f336d8-12a4-482d-8ffd-c205858c72ba",
+   "relation": "proposed_in",
+   "tier": "CANON_REFERENCE",
+   "to": "deck:ugin_bolas_elder_dragon_duality"
+  },
+  {
+   "beat": "I. Twin Elder Dragons of Dominaria and the Elder Dragon War",
+   "claims": [],
+   "from": "card:fraying_omnipotence",
+   "printing": "f0fa0ad8-854a-4b4e-9f87-e1dfaa11253c",
+   "relation": "proposed_in",
+   "tier": "CANON_REFERENCE",
+   "to": "deck:ugin_bolas_elder_dragon_duality"
+  },
+  {
+   "beat": "I. Twin Elder Dragons of Dominaria and the Elder Dragon War",
+   "claims": [],
+   "from": "card:ghostfire",
+   "printing": "a60475e5-0d37-4af0-b717-da4c8dea45ac",
+   "relation": "proposed_in",
+   "tier": "CANON_REFERENCE",
+   "to": "deck:ugin_bolas_elder_dragon_duality"
+  },
+  {
+   "beat": "II. Alara: the Conflux scheme",
+   "claims": [],
+   "from": "card:augur_of_bolas",
+   "printing": "d19fbfe6-69bb-452a-be3c-b9c625e23193",
+   "relation": "proposed_in",
+   "tier": "CANON_REFERENCE",
+   "to": "deck:ugin_bolas_elder_dragon_duality"
+  },
+  {
+   "beat": "II. Alara: the Conflux scheme",
+   "claims": [],
+   "from": "card:countersquall",
+   "printing": "2b645d74-420e-45e5-aa82-ba3a8dfdd9a0",
+   "relation": "proposed_in",
+   "tier": "CANON_REFERENCE",
+   "to": "deck:ugin_bolas_elder_dragon_duality"
+  },
+  {
+   "beat": "II. Alara: the Conflux scheme",
+   "claims": [],
+   "from": "card:disciple_of_bolas",
+   "printing": "c4dd57f8-27bc-4ad9-a79e-48a68af33b02",
+   "relation": "proposed_in",
+   "tier": "CANON_REFERENCE",
+   "to": "deck:ugin_bolas_elder_dragon_duality"
+  },
+  {
+   "beat": "II. Alara: the Conflux scheme",
+   "claims": [],
+   "from": "card:magmaquake",
+   "printing": "ac85679e-17c7-4525-8eed-979d04feb8f1",
+   "relation": "proposed_in",
+   "tier": "CANON_REFERENCE",
+   "to": "deck:ugin_bolas_elder_dragon_duality"
+  },
+  {
+   "beat": "II. Alara: the Conflux scheme",
+   "claims": [],
+   "from": "card:mana_drain",
+   "printing": "8c6b2642-4d17-4c0b-a3c3-b29d5ffdfbf8",
+   "relation": "proposed_in",
+   "tier": "CANON_REFERENCE",
+   "to": "deck:ugin_bolas_elder_dragon_duality"
+  },
+  {
+   "beat": "II. Alara: the Conflux scheme",
+   "claims": [],
+   "from": "card:nicol_bolas_planeswalker",
+   "printing": "48ee3939-bc12-4275-a446-9de36f0b4672",
+   "relation": "proposed_in",
+   "tier": "CANON_REFERENCE",
+   "to": "deck:ugin_bolas_elder_dragon_duality"
+  },
+  {
+   "beat": "II. Alara: the Conflux scheme",
+   "claims": [],
+   "from": "card:slave_of_bolas",
+   "printing": "6fc177ec-dcd5-409d-a278-d84c3e6d28fa",
+   "relation": "proposed_in",
+   "tier": "CANON_REFERENCE",
+   "to": "deck:ugin_bolas_elder_dragon_duality"
+  },
+  {
+   "beat": "II. Alara: the Conflux scheme",
+   "claims": [],
+   "from": "card:soul_manipulation",
+   "printing": "bcd3cb05-c6f9-435a-a0e7-1f85da4a36eb",
+   "relation": "proposed_in",
+   "tier": "CANON_REFERENCE",
+   "to": "deck:ugin_bolas_elder_dragon_duality"
+  },
+  {
+   "beat": "III. Zendikar: Ugin's hedrons and the Eldrazi prison",
+   "claims": [],
+   "from": "card:dispel",
+   "printing": "bceab6b3-6b64-4964-a501-ce806a6c13ad",
+   "relation": "proposed_in",
+   "tier": "CANON_REFERENCE",
+   "to": "deck:ugin_bolas_elder_dragon_duality"
+  },
+  {
+   "beat": "III. Zendikar: Ugin's hedrons and the Eldrazi prison",
+   "claims": [],
+   "from": "card:hedron_archive",
+   "printing": "2519149c-f8a3-413f-b7b2-cd596970be4c",
+   "relation": "proposed_in",
+   "tier": "CANON_REFERENCE",
+   "to": "deck:ugin_bolas_elder_dragon_duality"
+  },
+  {
+   "beat": "III. Zendikar: Ugin's hedrons and the Eldrazi prison",
+   "claims": [],
+   "from": "card:perilous_vault",
+   "printing": "9a5f1810-a852-454f-b1d6-eb40ea4e0148",
+   "relation": "proposed_in",
+   "tier": "CANON_REFERENCE",
+   "to": "deck:ugin_bolas_elder_dragon_duality"
+  },
+  {
+   "beat": "III. Zendikar: Ugin's hedrons and the Eldrazi prison",
+   "claims": [],
+   "from": "card:ugin_s_binding",
+   "printing": "be13786a-f967-456b-bbc6-f4312467a827",
+   "relation": "proposed_in",
+   "tier": "LORE_INSPIRED",
+   "to": "deck:ugin_bolas_elder_dragon_duality"
+  },
+  {
+   "beat": "III. Zendikar: Ugin's hedrons and the Eldrazi prison",
+   "claims": [],
+   "from": "card:ugin_s_insight",
+   "printing": "f37d5938-9c8f-4203-8f3f-d6e89ced28ef",
+   "relation": "proposed_in",
+   "tier": "CANON_REFERENCE",
+   "to": "deck:ugin_bolas_elder_dragon_duality"
+  },
+  {
+   "beat": "IV. Tarkir: the duel, the fall, and the reforged timeline",
+   "claims": [
+    "A005",
+    "A006"
+   ],
+   "from": "card:ugin_the_spirit_dragon",
+   "printing": "58c1e824-c8a9-4312-8e4c-a29a26d189a4",
+   "relation": "proposed_in",
+   "tier": "CANON_REFERENCE",
+   "to": "deck:ugin_bolas_elder_dragon_duality"
+  },
+  {
+   "beat": "IV. Tarkir: the duel, the fall, and the reforged timeline",
+   "claims": [
+    "A005"
+   ],
+   "from": "card:crux_of_fate",
+   "printing": "e1d45374-a41b-4b3f-a7c8-3eb5ca767cf6",
+   "relation": "proposed_in",
+   "tier": "DIRECT_DEPICTION",
+   "to": "deck:ugin_bolas_elder_dragon_duality"
+  },
+  {
+   "beat": "IV. Tarkir: the duel, the fall, and the reforged timeline",
+   "claims": [
+    "A006"
+   ],
+   "from": "card:dragonlord_kolaghan",
+   "printing": "1cbf8933-32a1-4892-9bdc-89464ed9ce1b",
+   "relation": "proposed_in",
+   "tier": "CANON_REFERENCE",
+   "to": "deck:ugin_bolas_elder_dragon_duality"
+  },
+  {
+   "beat": "IV. Tarkir: the duel, the fall, and the reforged timeline",
+   "claims": [
+    "A006"
+   ],
+   "from": "card:dragonlord_silumgar",
+   "printing": "2eae504d-d4a9-440f-8ceb-df967cc50494",
+   "relation": "proposed_in",
+   "tier": "CANON_REFERENCE",
+   "to": "deck:ugin_bolas_elder_dragon_duality"
+  },
+  {
+   "beat": "IV. Tarkir: the duel, the fall, and the reforged timeline",
+   "claims": [],
+   "from": "card:bitter_revelation",
+   "printing": "e42f5aa9-2a47-47c3-ab87-dc25735b0e54",
+   "relation": "proposed_in",
+   "tier": "CANON_REFERENCE",
+   "to": "deck:ugin_bolas_elder_dragon_duality"
+  },
+  {
+   "beat": "IV. Tarkir: the duel, the fall, and the reforged timeline",
+   "claims": [],
+   "from": "card:fearsome_awakening",
+   "printing": "5a672979-024a-4f69-91ae-a2cf4055e0a8",
+   "relation": "proposed_in",
+   "tier": "CANON_REFERENCE",
+   "to": "deck:ugin_bolas_elder_dragon_duality"
+  },
+  {
+   "beat": "IV. Tarkir: the duel, the fall, and the reforged timeline",
+   "claims": [],
+   "from": "card:sarkhan_the_dragonspeaker",
+   "printing": "c58064fd-4d8b-4f54-812f-0bb1d7e2ddc2",
+   "relation": "proposed_in",
+   "tier": "CANON_REFERENCE",
+   "to": "deck:ugin_bolas_elder_dragon_duality"
+  },
+  {
+   "beat": "IV. Tarkir: the duel, the fall, and the reforged timeline",
+   "claims": [],
+   "from": "card:sarkhan_the_mad",
+   "printing": "26c1ba92-556e-4da9-8e3a-a4a82612cb29",
+   "relation": "proposed_in",
+   "tier": "CANON_REFERENCE",
+   "to": "deck:ugin_bolas_elder_dragon_duality"
+  },
+  {
+   "beat": "IV. Tarkir: the duel, the fall, and the reforged timeline",
+   "claims": [],
+   "from": "card:ugin_s_nexus",
+   "printing": "94002868-a48a-4ea8-bfce-17257078f5db",
+   "relation": "proposed_in",
+   "tier": "CANON_REFERENCE",
+   "to": "deck:ugin_bolas_elder_dragon_duality"
+  },
+  {
+   "beat": "IV. Tarkir: the duel, the fall, and the reforged timeline",
+   "claims": [],
+   "from": "card:witness_of_the_ages",
+   "printing": "763ac4c4-af2d-4b71-9fb3-244c96f93860",
+   "relation": "proposed_in",
+   "tier": "CANON_REFERENCE",
+   "to": "deck:ugin_bolas_elder_dragon_duality"
+  },
+  {
+   "beat": "V. Amonkhet: the God-Pharaoh and the Hour of Devastation",
+   "claims": [],
+   "from": "card:chandra_s_defeat",
+   "printing": "f38c6613-b1f7-4b38-b956-7860d041e593",
+   "relation": "proposed_in",
+   "tier": "DIRECT_DEPICTION",
+   "to": "deck:ugin_bolas_elder_dragon_duality"
+  },
+  {
+   "beat": "V. Amonkhet: the God-Pharaoh and the Hour of Devastation",
+   "claims": [],
+   "from": "card:doomfall",
+   "printing": "17db6ef5-1aa9-4b8c-b0b7-d6668a2347a1",
+   "relation": "proposed_in",
+   "tier": "CANON_REFERENCE",
+   "to": "deck:ugin_bolas_elder_dragon_duality"
+  },
+  {
+   "beat": "V. Amonkhet: the God-Pharaoh and the Hour of Devastation",
+   "claims": [],
+   "from": "card:hour_of_devastation",
+   "printing": "d420cc12-cfd7-4007-a0c2-b16c8f63a754",
+   "relation": "proposed_in",
+   "tier": "DIRECT_DEPICTION",
+   "to": "deck:ugin_bolas_elder_dragon_duality"
+  },
+  {
+   "beat": "V. Amonkhet: the God-Pharaoh and the Hour of Devastation",
+   "claims": [],
+   "from": "card:jace_s_defeat",
+   "printing": "c6b103c1-9b25-4bfe-9081-570977e9fdad",
+   "relation": "proposed_in",
+   "tier": "DIRECT_DEPICTION",
+   "to": "deck:ugin_bolas_elder_dragon_duality"
+  },
+  {
+   "beat": "V. Amonkhet: the God-Pharaoh and the Hour of Devastation",
+   "claims": [],
+   "from": "card:liliana_s_defeat",
+   "printing": "0f72b028-b9df-40c7-822f-4acc6bdcc719",
+   "relation": "proposed_in",
+   "tier": "DIRECT_DEPICTION",
+   "to": "deck:ugin_bolas_elder_dragon_duality"
+  },
+  {
+   "beat": "V. Amonkhet: the God-Pharaoh and the Hour of Devastation",
+   "claims": [],
+   "from": "card:neheb_the_eternal",
+   "printing": "54231832-d492-4812-b658-4ab9a30fefe2",
+   "relation": "proposed_in",
+   "tier": "CANON_REFERENCE",
+   "to": "deck:ugin_bolas_elder_dragon_duality"
+  },
+  {
+   "beat": "V. Amonkhet: the God-Pharaoh and the Hour of Devastation",
+   "claims": [],
+   "from": "card:nicol_bolas_god_pharaoh",
+   "printing": "985e92f4-3904-41df-91f7-42eedbe3ccd2",
+   "relation": "proposed_in",
+   "tier": "CANON_REFERENCE",
+   "to": "deck:ugin_bolas_elder_dragon_duality"
+  },
+  {
+   "beat": "V. Amonkhet: the God-Pharaoh and the Hour of Devastation",
+   "claims": [],
+   "from": "card:nicol_bolas_the_deceiver",
+   "printing": "74239d78-1608-4b27-b2fd-8c7453f6b86b",
+   "relation": "proposed_in",
+   "tier": "CANON_REFERENCE",
+   "to": "deck:ugin_bolas_elder_dragon_duality"
+  },
+  {
+   "beat": "V. Amonkhet: the God-Pharaoh and the Hour of Devastation",
+   "claims": [],
+   "from": "card:tezzeret_agent_of_bolas",
+   "printing": "0f3c8470-1cc8-4383-8782-c022867d46e8",
+   "relation": "proposed_in",
+   "tier": "CANON_REFERENCE",
+   "to": "deck:ugin_bolas_elder_dragon_duality"
+  },
+  {
+   "beat": "V. Amonkhet: the God-Pharaoh and the Hour of Devastation",
+   "claims": [],
+   "from": "card:the_locust_god",
+   "printing": "4e0c1d0a-2651-4961-8b70-ff78093732ce",
+   "relation": "proposed_in",
+   "tier": "CANON_REFERENCE",
+   "to": "deck:ugin_bolas_elder_dragon_duality"
+  },
+  {
+   "beat": "V. Amonkhet: the God-Pharaoh and the Hour of Devastation",
+   "claims": [],
+   "from": "card:the_scarab_god",
+   "printing": "621cfd79-be4e-41e3-95ce-62b0eeff5baf",
+   "relation": "proposed_in",
+   "tier": "CANON_REFERENCE",
+   "to": "deck:ugin_bolas_elder_dragon_duality"
+  },
+  {
+   "beat": "V. Amonkhet: the God-Pharaoh and the Hour of Devastation",
+   "claims": [],
+   "from": "card:the_scorpion_god",
+   "printing": "def0d0ac-6422-486e-b42b-e1813dd0a23e",
+   "relation": "proposed_in",
+   "tier": "CANON_REFERENCE",
+   "to": "deck:ugin_bolas_elder_dragon_duality"
+  },
+  {
+   "beat": "V. Amonkhet: the God-Pharaoh and the Hour of Devastation",
+   "claims": [],
+   "from": "card:visage_of_bolas",
+   "printing": "f29bbfe2-d59f-4361-8ea4-6a8d1b909769",
+   "relation": "proposed_in",
+   "tier": "LORE_INSPIRED",
+   "to": "deck:ugin_bolas_elder_dragon_duality"
+  },
+  {
+   "beat": "V. Amonkhet: the God-Pharaoh and the Hour of Devastation",
+   "claims": [],
+   "from": "card:wasp_of_the_bitter_end",
+   "printing": "46d348eb-7db0-4209-8960-c6adc473417d",
+   "relation": "proposed_in",
+   "tier": "CANON_REFERENCE",
+   "to": "deck:ugin_bolas_elder_dragon_duality"
+  },
+  {
+   "beat": "VI. War of the Spark: the Elderspell, the fall, the prison",
+   "claims": [
+    "A008"
+   ],
+   "from": "card:finale_of_revelation",
+   "printing": "6630c34a-1a97-4e31-9d2c-1150b0aa903e",
+   "relation": "proposed_in",
+   "tier": "CANON_REFERENCE",
+   "to": "deck:ugin_bolas_elder_dragon_duality"
+  },
+  {
+   "beat": "VI. War of the Spark: the Elderspell, the fall, the prison",
+   "claims": [
+    "A008"
+   ],
+   "from": "card:ugin_the_ineffable",
+   "printing": "7b003521-3da3-41bf-9765-36630653f902",
+   "relation": "proposed_in",
+   "tier": "CANON_REFERENCE",
+   "to": "deck:ugin_bolas_elder_dragon_duality"
+  },
+  {
+   "beat": "VI. War of the Spark: the Elderspell, the fall, the prison",
+   "claims": [],
+   "from": "card:bolas_s_citadel",
+   "printing": "d2124603-d20e-40eb-97f0-a66323397ac2",
+   "relation": "proposed_in",
+   "tier": "CANON_REFERENCE",
+   "to": "deck:ugin_bolas_elder_dragon_duality"
+  },
+  {
+   "beat": "VI. War of the Spark: the Elderspell, the fall, the prison",
+   "claims": [],
+   "from": "card:command_the_dreadhorde",
+   "printing": "de7ec307-45e0-4853-85fe-9ce859b188c2",
+   "relation": "proposed_in",
+   "tier": "CANON_REFERENCE",
+   "to": "deck:ugin_bolas_elder_dragon_duality"
+  },
+  {
+   "beat": "VI. War of the Spark: the Elderspell, the fall, the prison",
+   "claims": [],
+   "from": "card:commence_the_endgame",
+   "printing": "209d70a2-c8c1-4072-ab1f-57804b55a09a",
+   "relation": "proposed_in",
+   "tier": "CANON_REFERENCE",
+   "to": "deck:ugin_bolas_elder_dragon_duality"
+  },
+  {
+   "beat": "VI. War of the Spark: the Elderspell, the fall, the prison",
+   "claims": [],
+   "from": "card:god_eternal_bontu",
+   "printing": "3714a135-e2b9-43a7-a2a2-fa5a2e0ac61a",
+   "relation": "proposed_in",
+   "tier": "CANON_REFERENCE",
+   "to": "deck:ugin_bolas_elder_dragon_duality"
+  },
+  {
+   "beat": "VI. War of the Spark: the Elderspell, the fall, the prison",
+   "claims": [],
+   "from": "card:god_eternal_kefnet",
+   "printing": "5e14060f-9167-4e28-a053-77689e066e30",
+   "relation": "proposed_in",
+   "tier": "CANON_REFERENCE",
+   "to": "deck:ugin_bolas_elder_dragon_duality"
+  },
+  {
+   "beat": "VI. War of the Spark: the Elderspell, the fall, the prison",
+   "claims": [],
+   "from": "card:liliana_dreadhorde_general",
+   "printing": "d75ebba8-34ca-47a0-bf13-8318ad73b343",
+   "relation": "proposed_in",
+   "tier": "CANON_REFERENCE",
+   "to": "deck:ugin_bolas_elder_dragon_duality"
+  },
+  {
+   "beat": "VI. War of the Spark: the Elderspell, the fall, the prison",
+   "claims": [],
+   "from": "card:liliana_s_triumph",
+   "printing": "84803db8-fdb0-462b-92f6-33d591593d2d",
+   "relation": "proposed_in",
+   "tier": "DIRECT_DEPICTION",
+   "to": "deck:ugin_bolas_elder_dragon_duality"
+  },
+  {
+   "beat": "VI. War of the Spark: the Elderspell, the fall, the prison",
+   "claims": [],
+   "from": "card:nicol_bolas_dragon_god",
+   "printing": "98b68dea-a7be-4f99-8a50-4c8cf0e0f7a9",
+   "relation": "proposed_in",
+   "tier": "CANON_REFERENCE",
+   "to": "deck:ugin_bolas_elder_dragon_duality"
+  },
+  {
+   "beat": "VI. War of the Spark: the Elderspell, the fall, the prison",
+   "claims": [],
+   "from": "card:no_escape",
+   "printing": "bc9888a1-6f35-4802-b8fb-902017736d4a",
+   "relation": "proposed_in",
+   "tier": "CANON_REFERENCE",
+   "to": "deck:ugin_bolas_elder_dragon_duality"
+  },
+  {
+   "beat": "VI. War of the Spark: the Elderspell, the fall, the prison",
+   "claims": [],
+   "from": "card:sarkhan_s_catharsis",
+   "printing": "2f4b6f26-c66b-4048-9503-af0a886ef14f",
+   "relation": "proposed_in",
+   "tier": "CANON_REFERENCE",
+   "to": "deck:ugin_bolas_elder_dragon_duality"
+  },
+  {
+   "beat": "VI. War of the Spark: the Elderspell, the fall, the prison",
+   "claims": [],
+   "from": "card:spark_harvest",
+   "printing": "2013a138-f8e2-4a67-91e8-759288d985a7",
+   "relation": "proposed_in",
+   "tier": "CANON_REFERENCE",
+   "to": "deck:ugin_bolas_elder_dragon_duality"
+  },
+  {
+   "beat": "VI. War of the Spark: the Elderspell, the fall, the prison",
+   "claims": [],
+   "from": "card:ugin_s_conjurant",
+   "printing": "9957ecca-5ea0-446f-bfd3-46c2aaa42f08",
+   "relation": "proposed_in",
+   "tier": "LORE_INSPIRED",
+   "to": "deck:ugin_bolas_elder_dragon_duality"
+  },
+  {
+   "beat": "VII. Tarkir Dragonstorm: Ugin's later fate",
+   "claims": [
+    "A009",
+    "A010"
+   ],
+   "from": "card:ugin_eye_of_the_storms",
+   "printing": "64a5d494-efa1-446b-bebe-2ad36e154376",
+   "relation": "proposed_in",
+   "tier": "CANON_REFERENCE",
+   "to": "deck:ugin_bolas_elder_dragon_duality"
+  },
+  {
+   "beat": "VII. Tarkir Dragonstorm: Ugin's later fate",
+   "claims": [],
+   "from": "card:dracogenesis",
+   "printing": "737d2ab6-bb45-432c-9ce2-e9ecb513ee4d",
+   "relation": "proposed_in",
+   "tier": "CANON_REFERENCE",
+   "to": "deck:ugin_bolas_elder_dragon_duality"
+  },
+  {
+   "beat": "VII. Tarkir Dragonstorm: Ugin's later fate",
+   "claims": [],
+   "from": "card:watcher_of_the_wayside",
+   "printing": "2dcafdac-a293-4adc-a540-3b3f469cf6f3",
+   "relation": "proposed_in",
+   "tier": "CANON_REFERENCE",
+   "to": "deck:ugin_bolas_elder_dragon_duality"
+  },
+  {
+   "beat": "commander",
+   "claims": [],
+   "from": "card:nicol_bolas_the_ravager_nicol_bolas_the_arisen",
+   "printing": "7b215968-93a6-4278-ac61-4e3e8c3c3943",
+   "relation": "proposed_in",
+   "tier": "CANON_REFERENCE",
+   "to": "deck:ugin_bolas_elder_dragon_duality"
+  },
+  {
+   "beat": "playability",
+   "claims": [],
+   "from": "card:arcane_signet",
+   "printing": "84128e98-87d6-4c2f-909b-9435a7833e63",
+   "relation": "proposed_in",
+   "tier": "MECHANICAL_SYMBOL",
+   "to": "deck:ugin_bolas_elder_dragon_duality"
+  },
+  {
+   "beat": "playability",
+   "claims": [],
+   "from": "card:blood_crypt",
+   "printing": "f281e16f-0fe1-4095-bd63-0a4479f75c11",
+   "relation": "proposed_in",
+   "tier": "MECHANICAL_SYMBOL",
+   "to": "deck:ugin_bolas_elder_dragon_duality"
+  },
+  {
+   "beat": "playability",
+   "claims": [],
+   "from": "card:command_tower",
+   "printing": "46982091-cc78-4171-8b3d-d07592684728",
+   "relation": "proposed_in",
+   "tier": "MECHANICAL_SYMBOL",
+   "to": "deck:ugin_bolas_elder_dragon_duality"
+  },
+  {
+   "beat": "playability",
+   "claims": [],
+   "from": "card:dragonskull_summit",
+   "printing": "2d4998db-13c0-412f-b02c-9f041cc45c7e",
+   "relation": "proposed_in",
+   "tier": "MECHANICAL_SYMBOL",
+   "to": "deck:ugin_bolas_elder_dragon_duality"
+  },
+  {
+   "beat": "playability",
+   "claims": [],
+   "from": "card:drowned_catacomb",
+   "printing": "bdc6e950-38dd-46da-a1c3-58dc7495a9f9",
+   "relation": "proposed_in",
+   "tier": "MECHANICAL_SYMBOL",
+   "to": "deck:ugin_bolas_elder_dragon_duality"
+  },
+  {
+   "beat": "playability",
+   "claims": [],
+   "from": "card:shivan_reef",
+   "printing": "c3403143-2b4e-4408-b138-c856bbc1e9a5",
+   "relation": "proposed_in",
+   "tier": "MECHANICAL_SYMBOL",
+   "to": "deck:ugin_bolas_elder_dragon_duality"
+  },
+  {
+   "beat": "playability",
+   "claims": [],
+   "from": "card:sol_ring",
+   "printing": "c4300d24-1cae-4dd5-be7e-38cc677cf5bd",
+   "relation": "proposed_in",
+   "tier": "MECHANICAL_SYMBOL",
+   "to": "deck:ugin_bolas_elder_dragon_duality"
+  },
+  {
+   "beat": "playability",
+   "claims": [],
+   "from": "card:steam_vents",
+   "printing": "054f2276-2dd5-43da-bb26-c57c560861fe",
+   "relation": "proposed_in",
+   "tier": "MECHANICAL_SYMBOL",
+   "to": "deck:ugin_bolas_elder_dragon_duality"
+  },
+  {
+   "beat": "playability",
+   "claims": [],
+   "from": "card:sulfur_falls",
+   "printing": "4968b65d-50e5-4d7e-b78b-cdada1cbf7a7",
+   "relation": "proposed_in",
+   "tier": "MECHANICAL_SYMBOL",
+   "to": "deck:ugin_bolas_elder_dragon_duality"
+  },
+  {
+   "beat": "playability",
+   "claims": [],
+   "from": "card:sulfurous_springs",
+   "printing": "2fdeab50-b45f-412b-85a3-c6cf009ce567",
+   "relation": "proposed_in",
+   "tier": "MECHANICAL_SYMBOL",
+   "to": "deck:ugin_bolas_elder_dragon_duality"
+  },
+  {
+   "beat": "playability",
+   "claims": [],
+   "from": "card:talisman_of_creativity",
+   "printing": "14a506e4-9a46-4499-a986-eb258e809344",
+   "relation": "proposed_in",
+   "tier": "MECHANICAL_SYMBOL",
+   "to": "deck:ugin_bolas_elder_dragon_duality"
+  },
+  {
+   "beat": "playability",
+   "claims": [],
+   "from": "card:talisman_of_dominance",
+   "printing": "991037a2-fea2-49f5-8ace-ebbf9f678cff",
+   "relation": "proposed_in",
+   "tier": "MECHANICAL_SYMBOL",
+   "to": "deck:ugin_bolas_elder_dragon_duality"
+  },
+  {
+   "beat": "playability",
+   "claims": [],
+   "from": "card:talisman_of_indulgence",
+   "printing": "e14011b3-56ce-4b93-833f-d8403809159c",
+   "relation": "proposed_in",
+   "tier": "MECHANICAL_SYMBOL",
+   "to": "deck:ugin_bolas_elder_dragon_duality"
+  },
+  {
+   "beat": "playability",
+   "claims": [],
+   "from": "card:underground_river",
+   "printing": "92369d7e-5e5a-46f9-bb31-c57d62410283",
+   "relation": "proposed_in",
+   "tier": "MECHANICAL_SYMBOL",
+   "to": "deck:ugin_bolas_elder_dragon_duality"
+  },
+  {
+   "beat": "playability",
+   "claims": [],
+   "from": "card:watery_grave",
+   "printing": "139b90cd-8272-457a-be32-1298145345be",
+   "relation": "proposed_in",
+   "tier": "MECHANICAL_SYMBOL",
+   "to": "deck:ugin_bolas_elder_dragon_duality"
+  },
+  {
+   "beat": "story lands",
+   "claims": [],
+   "from": "card:cinder_barrens",
+   "printing": "caedf353-35f8-4b58-8ed9-183d29302be9",
+   "relation": "proposed_in",
+   "tier": "CANON_REFERENCE",
+   "to": "deck:ugin_bolas_elder_dragon_duality"
+  },
+  {
+   "beat": "story lands",
+   "claims": [],
+   "from": "card:crucible_of_the_spirit_dragon",
+   "printing": "6bf563e0-1f42-4768-a667-3e120bdb6534",
+   "relation": "proposed_in",
+   "tier": "CANON_REFERENCE",
+   "to": "deck:ugin_bolas_elder_dragon_duality"
+  },
+  {
+   "beat": "story lands",
+   "claims": [],
+   "from": "card:crumbling_necropolis",
+   "printing": "94da8e38-77a4-4d25-9e1f-f33c246f60c8",
+   "relation": "proposed_in",
+   "tier": "LORE_INSPIRED",
+   "to": "deck:ugin_bolas_elder_dragon_duality"
+  },
+  {
+   "beat": "story lands",
+   "claims": [],
+   "from": "card:haven_of_the_spirit_dragon",
+   "printing": "9910042e-091f-47da-ad29-8f76c9d3b8c1",
+   "relation": "proposed_in",
+   "tier": "LORE_INSPIRED",
+   "to": "deck:ugin_bolas_elder_dragon_duality"
+  },
+  {
+   "beat": "story lands",
+   "claims": [],
+   "from": "card:interplanar_beacon",
+   "printing": "132d8e2a-e1dd-4867-8e8c-e48b9450b350",
+   "relation": "proposed_in",
+   "tier": "LORE_INSPIRED",
+   "to": "deck:ugin_bolas_elder_dragon_duality"
+  },
+  {
+   "beat": "story lands",
+   "claims": [],
+   "from": "card:maelstrom_of_the_spirit_dragon",
+   "printing": "c4e90bfb-d9a5-48a9-9ff9-b0f50a813eee",
+   "relation": "proposed_in",
+   "tier": "LORE_INSPIRED",
+   "to": "deck:ugin_bolas_elder_dragon_duality"
+  },
+  {
+   "beat": "story lands",
+   "claims": [],
+   "from": "card:tomb_of_the_spirit_dragon",
+   "printing": "eb6be7ab-8fad-4606-b623-f2188219d60b",
+   "relation": "proposed_in",
+   "tier": "CANON_REFERENCE",
+   "to": "deck:ugin_bolas_elder_dragon_duality"
+  },
+  {
+   "beat": "story lands",
+   "claims": [],
+   "from": "card:ugin_s_labyrinth",
+   "printing": "020e1348-1a35-4cc8-bad6-9fbddfa79277",
+   "relation": "proposed_in",
+   "tier": "LORE_INSPIRED",
+   "to": "deck:ugin_bolas_elder_dragon_duality"
+  },
+  {
+   "claim": "A001",
+   "from": "character:ugin",
+   "grade": "CANON_CONFIRMED",
+   "relation": "twin_sibling_of",
+   "sources": [
+    "chronicle_twins"
+   ],
+   "to": "character:nicol_bolas"
+  },
+  {
+   "claim": "A002",
+   "from": "character:nicol_bolas",
+   "grade": "CANON_CONFIRMED",
+   "relation": "contrasted_with",
+   "sources": [
+    "chronicle_blood_fire",
+    "chronicle_twins"
+   ],
+   "to": "character:ugin"
+  },
+  {
+   "claim": "A003",
+   "from": "event:elder_dragon_wars",
+   "grade": "CANON_DISPUTED",
+   "relation": "survivors_according_to_bolas",
+   "sources": [
+    "chronicle_perspectives"
+   ],
+   "to": "character:arcades_sabboth"
+  },
+  {
+   "claim": "A003",
+   "from": "event:elder_dragon_wars",
+   "grade": "CANON_DISPUTED",
+   "relation": "survivors_according_to_bolas",
+   "sources": [
+    "chronicle_perspectives"
+   ],
+   "to": "character:chromium_rhuell"
+  },
+  {
+   "claim": "A003",
+   "from": "event:elder_dragon_wars",
+   "grade": "CANON_DISPUTED",
+   "relation": "survivors_according_to_bolas",
+   "sources": [
+    "chronicle_perspectives"
+   ],
+   "to": "character:palladia_mors"
+  },
+  {
+   "claim": "A003",
+   "from": "event:elder_dragon_wars",
+   "grade": "CANON_DISPUTED",
+   "relation": "survivors_according_to_bolas",
+   "sources": [
+    "chronicle_perspectives"
+   ],
+   "to": "character:vaevictis_asmadi"
+  },
+  {
+   "claim": "A004",
+   "from": "character:nicol_bolas",
+   "grade": "CANON_DISPUTED",
+   "relation": "planeswalker_spark_awakening_recounted",
+   "sources": [
+    "chronicle_perspectives"
+   ],
+   "to": "plane:dominaria"
+  },
+  {
+   "claim": "A005",
+   "from": "character:nicol_bolas",
+   "grade": "CANON_CONFIRMED",
+   "relation": "fought",
+   "sources": [
+    "fate_reforged_guide"
+   ],
+   "to": "character:ugin"
+  },
+  {
+   "claim": "A006",
+   "from": "character:sarkhan_vol",
+   "grade": "CANON_CONFIRMED",
+   "relation": "saved_from_death",
+   "sources": [
+    "tarkir_plane"
+   ],
+   "to": "character:ugin"
+  },
+  {
+   "claim": "A007",
+   "from": "character:ugin",
+   "grade": "CANON_CONFIRMED",
+   "relation": "opposed",
+   "sources": [
+    "chronicle_unwritten"
+   ],
+   "to": "character:nicol_bolas"
+  },
+  {
+   "claim": "A008",
+   "from": "character:ugin",
+   "grade": "CANON_CONFIRMED",
+   "relation": "jailed",
+   "sources": [
+    "war_games"
+   ],
+   "to": "character:nicol_bolas"
+  },
+  {
+   "claim": "A009",
+   "from": "character:nicol_bolas",
+   "grade": "CANON_CONFIRMED",
+   "relation": "escaped",
+   "sources": [
+    "lorwyn2",
+    "tdm7"
+   ],
+   "to": "plane:meditation_realm"
+  },
+  {
+   "claim": "A010",
+   "from": "character:ugin",
+   "grade": "CANON_CONFIRMED",
+   "relation": "returned_to",
+   "sources": [
+    "tdm7"
+   ],
+   "to": "plane:tarkir"
+  },
+  {
+   "claim": "A011",
+   "from": "character:nicol_bolas",
+   "grade": "OPEN_QUESTION",
+   "relation": "current_spark_state",
+   "sources": [
+    "lorwyn2"
+   ],
+   "to": "literal:unknown"
+  },
+  {
+   "claim": "A012",
+   "from": "continuity:echoverse",
+   "grade": "ALTERNATE_CONTINUITY",
+   "relation": "constructed_without",
+   "sources": [
+    "reality_guide"
+   ],
+   "to": "character:nicol_bolas"
+  },
+  {
+   "claim": "A013",
+   "from": "character:ugin",
+   "grade": "CANON_CONFIRMED",
+   "relation": "encountered_elder_siblings",
+   "sources": [
+    "first_lesson"
+   ],
+   "to": "character:arcades_sabboth"
+  },
+  {
+   "claim": "A013",
+   "from": "character:ugin",
+   "grade": "CANON_CONFIRMED",
+   "relation": "encountered_elder_siblings",
+   "sources": [
+    "first_lesson"
+   ],
+   "to": "character:chromium_rhuell"
+  },
+  {
+   "claim": "A013",
+   "from": "character:ugin",
+   "grade": "CANON_CONFIRMED",
+   "relation": "encountered_elder_siblings",
+   "sources": [
+    "first_lesson"
+   ],
+   "to": "character:palladia_mors"
+  },
+  {
+   "claim": "A014",
+   "from": "character:vaevictis_asmadi",
+   "grade": "CANON_CONFIRMED",
+   "relation": "descendants_raided",
+   "sources": [
+    "blood_fire"
+   ],
+   "to": "character:nicol_bolas"
+  },
+  {
+   "claim": "A015",
+   "from": "character:nicol_bolas",
+   "grade": "CANON_CONFIRMED",
+   "relation": "provoked_dragon_clans",
+   "sources": [
+    "blood_fire"
+   ],
+   "to": "character:palladia_mors"
+  },
+  {
+   "claim": "A015",
+   "from": "character:nicol_bolas",
+   "grade": "CANON_CONFIRMED",
+   "relation": "provoked_dragon_clans",
+   "sources": [
+    "blood_fire"
+   ],
+   "to": "character:vaevictis_asmadi"
+  },
+  {
+   "claim": "A016",
+   "from": "character:arcades_sabboth",
+   "grade": "CANON_CONFIRMED",
+   "relation": "entered_war",
+   "sources": [
+    "blood_fire"
+   ],
+   "to": "event:elder_dragon_wars"
+  },
+  {
+   "claim": "A017",
+   "from": "character:nicol_bolas",
+   "grade": "CANON_CONFIRMED",
+   "relation": "instigated",
+   "sources": [
+    "blood_fire",
+    "mh2_legends"
+   ],
+   "to": "event:elder_dragon_wars"
+  },
+  {
+   "claim": "A018",
+   "from": "character:piru",
+   "grade": "CANON_CONFIRMED",
+   "relation": "survived_with",
+   "sources": [
+    "mh2_legends",
+    "perspectives"
+   ],
+   "to": "character:chromium_rhuell"
+  },
+  {
+   "claim": "A019",
+   "from": "character:piru",
+   "grade": "CANON_CONFIRMED",
+   "relation": "mate_and_ancestor_of",
+   "sources": [
+    "mh2_legends"
+   ],
+   "to": "character:chromium_rhuell"
+  },
+  {
+   "claim": "A019",
+   "from": "character:piru",
+   "grade": "CANON_CONFIRMED",
+   "relation": "mate_and_ancestor_of",
+   "sources": [
+    "mh2_legends"
+   ],
+   "to": "character:crosis"
+  },
+  {
+   "claim": "A020",
+   "from": "character:geyadrone_dihada",
+   "grade": "CANON_CONFIRMED",
+   "relation": "bound_to_service",
+   "sources": [
+    "mh2_legends"
+   ],
+   "to": "character:chromium_rhuell"
+  },
+  {
+   "claim": "A020",
+   "from": "character:geyadrone_dihada",
+   "grade": "CANON_CONFIRMED",
+   "relation": "bound_to_service",
+   "sources": [
+    "mh2_legends"
+   ],
+   "to": "character:piru"
+  },
+  {
+   "claim": "A021",
+   "from": "character:dakkon",
+   "grade": "CANON_CONFIRMED",
+   "relation": "slew_and_banished",
+   "sources": [
+    "mh2_legends"
+   ],
+   "to": "character:chromium_rhuell"
+  },
+  {
+   "claim": "A021",
+   "from": "character:dakkon",
+   "grade": "CANON_CONFIRMED",
+   "relation": "slew_and_banished",
+   "sources": [
+    "mh2_legends"
+   ],
+   "to": "character:piru"
+  },
+  {
+   "claim": "A022",
+   "from": "character:piru",
+   "grade": "CANON_CONFIRMED",
+   "relation": "death_created",
+   "sources": [
+    "mh2_legends"
+   ],
+   "to": "place:corondor_chasm"
+  },
+  {
+   "claim": "A023",
+   "from": "character:palladia_mors",
+   "grade": "CANON_CONFIRMED",
+   "relation": "mother_of",
+   "sources": [
+    "dmu_legends"
+   ],
+   "to": "character:rith"
+  },
+  {
+   "claim": "A024",
+   "from": "character:rith",
+   "grade": "CANON_CONFIRMED",
+   "relation": "primeval_dragon_after",
+   "sources": [
+    "dmu_legends"
+   ],
+   "to": "event:elder_dragon_wars"
+  },
+  {
+   "claim": "A025",
+   "from": "character:sarkhan_vol",
+   "grade": "CANON_CONFIRMED",
+   "relation": "traveled_into_past",
+   "sources": [
+    "nexus_design",
+    "tarkir_story_summary"
+   ],
+   "to": "plane:tarkir"
+  },
+  {
+   "claim": "A026",
+   "from": "character:nicol_bolas",
+   "grade": "CANON_CONFIRMED",
+   "relation": "confronted",
+   "sources": [
+    "reforged_chain",
+    "tarkir_story_summary"
+   ],
+   "to": "character:ugin"
+  },
+  {
+   "claim": "A027",
+   "from": "character:yasova_dragonclaw",
+   "grade": "CANON_CONFIRMED",
+   "relation": "redirected_dragons_against",
+   "sources": [
+    "reforged_chain"
+   ],
+   "to": "character:ugin"
+  },
+  {
+   "claim": "A028",
+   "from": "character:sarkhan_vol",
+   "grade": "CANON_CONFIRMED",
+   "relation": "preserved_after_bolas_strike",
+   "sources": [
+    "reforged_chain",
+    "tarkir_plane",
+    "tarkir_story_summary"
+   ],
+   "to": "character:ugin"
+  },
+  {
+   "claim": "A029",
+   "from": "artifact:ugins_nexus",
+   "grade": "CANON_CONFIRMED",
+   "relation": "story_time_travel_device_for",
+   "sources": [
+    "nexus_design",
+    "tarkir_story_summary"
+   ],
+   "to": "character:sarkhan_vol"
+  },
+  {
+   "claim": "A030",
+   "from": "cardtheme:crux_of_fate",
+   "grade": "CANON_CONFIRMED",
+   "relation": "captioned_at_scene",
+   "sources": [
+    "reforged_chain"
+   ],
+   "to": "event:tarkir_duel"
+  },
+  {
+   "claim": "A031",
+   "from": "place:crucible_spirit_dragon",
+   "grade": "CANON_CONFIRMED",
+   "relation": "captioned_at_location",
+   "sources": [
+    "chronicle_familiar"
+   ],
+   "to": "place:ugins_tomb_site"
+  },
+  {
+   "claim": "A032",
+   "from": "place:tomb_spirit_dragon",
+   "grade": "CANON_CONFIRMED",
+   "relation": "captioned_at_location",
+   "sources": [
+    "chronicle_familiar",
+    "journey_nexus"
+   ],
+   "to": "place:ugins_tomb_site"
+  },
+  {
+   "from": "character:arcades_sabboth",
+   "limit": "Defensive card mechanics do not establish an in-lore political alignment.",
+   "relation": "depicted_by",
+   "sources": [
+    "m19_design"
+   ],
+   "tier": "NAMED_CHARACTER_CARD",
+   "to": "card:arcades_the_strategist"
+  },
+  {
+   "from": "character:chromium_rhuell",
+   "limit": "Card design invokes Chromium's shapeshifting; not a historical proof of any depicted war moment.",
+   "relation": "depicted_by",
+   "sources": [
+    "m19_design"
+   ],
+   "tier": "NAMED_CHARACTER_CARD",
+   "to": "card:chromium_the_mutable"
+  },
+  {
+   "from": "character:dakkon",
+   "limit": "Not proof of a particular scene in Dakkon's later battle.",
+   "relation": "depicted_by",
+   "sources": [
+    "mh2_legends"
+   ],
+   "tier": "NAMED_CHARACTER_CARD",
+   "to": "card:dakkon_shadow_slayer"
+  },
+  {
+   "from": "character:dakkon",
+   "relation": "see_also_curated_entry",
+   "tier": "contextual_pointer",
+   "to": "curated:Characters Index.md#dakkon-blackblade"
+  },
+  {
+   "from": "character:geyadrone_dihada",
+   "relation": "see_also_curated_entry",
+   "tier": "contextual_pointer",
+   "to": "curated:Characters Index.md#geyadrone-dihada"
+  },
+  {
+   "from": "character:narset",
+   "relation": "see_also_curated_entry",
+   "tier": "contextual_pointer",
+   "to": "curated:Characters Index.md#narset"
+  },
+  {
+   "from": "character:narset",
+   "relation": "see_also_curated_entry",
+   "tier": "contextual_pointer",
+   "to": "curated:Planeswalker Dossiers.md#narset"
+  },
+  {
+   "from": "character:nicol_bolas",
+   "limit": "Double-faced card names are not a certified chronology of Bolas's spark awakening.",
+   "relation": "depicted_by",
+   "sources": [
+    "m19_design"
+   ],
+   "tier": "NAMED_CHARACTER_CARD",
+   "to": "card:nicol_bolas_the_ravager_nicol_bolas_the_arisen"
+  },
+  {
+   "from": "character:nicol_bolas",
+   "relation": "see_also_curated_entry",
+   "tier": "contextual_pointer",
+   "to": "curated:Characters Index.md#nicol-bolas"
+  },
+  {
+   "from": "character:nicol_bolas",
+   "relation": "see_also_curated_entry",
+   "tier": "contextual_pointer",
+   "to": "curated:Planeswalker Dossiers.md#nicol-bolas"
+  },
+  {
+   "from": "character:palladia_mors",
+   "limit": "Character depiction, not proof of her role in a specific ancient battle.",
+   "relation": "depicted_by",
+   "sources": [
+    "m19_notes"
+   ],
+   "tier": "NAMED_CHARACTER_CARD",
+   "to": "card:palladia_mors_the_ruiner"
+  },
+  {
+   "from": "character:piru",
+   "limit": "Not evidence that this illustration depicts Piru dying.",
+   "relation": "depicted_by",
+   "sources": [
+    "mh2_legends"
+   ],
+   "tier": "NAMED_CHARACTER_CARD",
+   "to": "card:piru_the_volatile"
+  },
+  {
+   "from": "character:rith",
+   "limit": "The post-war Primeval lineage is supported by biography, not artwork alone.",
+   "relation": "depicted_by",
+   "sources": [
+    "dmu_legends"
+   ],
+   "tier": "NAMED_CHARACTER_CARD",
+   "to": "card:rith_liberated_primeval"
+  },
+  {
+   "from": "character:sarkhan_vol",
+   "relation": "see_also_curated_entry",
+   "tier": "contextual_pointer",
+   "to": "curated:Characters Index.md#sarkhan-vol"
+  },
+  {
+   "from": "character:sarkhan_vol",
+   "relation": "see_also_curated_entry",
+   "tier": "contextual_pointer",
+   "to": "curated:Planeswalker Dossiers.md#sarkhan-vol"
+  },
+  {
+   "from": "character:ugin",
+   "relation": "see_also_curated_entry",
+   "tier": "contextual_pointer",
+   "to": "curated:Characters Index.md#ugin"
+  },
+  {
+   "from": "character:ugin",
+   "relation": "see_also_curated_entry",
+   "tier": "contextual_pointer",
+   "to": "curated:Planeswalker Dossiers.md#ugin"
+  },
+  {
+   "from": "character:vaevictis_asmadi",
+   "limit": "Character depiction, not proof of a specific war scene.",
+   "relation": "depicted_by",
+   "sources": [
+    "m19_notes"
+   ],
+   "tier": "NAMED_CHARACTER_CARD",
+   "to": "card:vaevictis_asmadi_the_dire"
+  },
+  {
+   "from": "claim:A001",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:nicol_bolas"
+  },
+  {
+   "from": "claim:A001",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:ugin"
+  },
+  {
+   "from": "claim:A002",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:ugin"
+  },
+  {
+   "from": "claim:A002",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:nicol_bolas"
+  },
+  {
+   "from": "claim:A003",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:arcades_sabboth"
+  },
+  {
+   "from": "claim:A003",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:chromium_rhuell"
+  },
+  {
+   "from": "claim:A003",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:palladia_mors"
+  },
+  {
+   "from": "claim:A003",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:vaevictis_asmadi"
+  },
+  {
+   "from": "claim:A003",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "event:elder_dragon_wars"
+  },
+  {
+   "from": "claim:A004",
+   "relation": "asserts",
+   "role": "object",
+   "to": "plane:dominaria"
+  },
+  {
+   "from": "claim:A004",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:nicol_bolas"
+  },
+  {
+   "from": "claim:A005",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:ugin"
+  },
+  {
+   "from": "claim:A005",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:nicol_bolas"
+  },
+  {
+   "from": "claim:A006",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:ugin"
+  },
+  {
+   "from": "claim:A006",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:sarkhan_vol"
+  },
+  {
+   "from": "claim:A007",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:nicol_bolas"
+  },
+  {
+   "from": "claim:A007",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:ugin"
+  },
+  {
+   "from": "claim:A008",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:nicol_bolas"
+  },
+  {
+   "from": "claim:A008",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:ugin"
+  },
+  {
+   "from": "claim:A009",
+   "relation": "asserts",
+   "role": "object",
+   "to": "plane:meditation_realm"
+  },
+  {
+   "from": "claim:A009",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:nicol_bolas"
+  },
+  {
+   "from": "claim:A010",
+   "relation": "asserts",
+   "role": "object",
+   "to": "plane:tarkir"
+  },
+  {
+   "from": "claim:A010",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:ugin"
+  },
+  {
+   "from": "claim:A011",
+   "relation": "asserts",
+   "role": "object",
+   "to": "literal:unknown"
+  },
+  {
+   "from": "claim:A011",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:nicol_bolas"
+  },
+  {
+   "from": "claim:A012",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:nicol_bolas"
+  },
+  {
+   "from": "claim:A012",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "continuity:echoverse"
+  },
+  {
+   "from": "claim:A013",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:arcades_sabboth"
+  },
+  {
+   "from": "claim:A013",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:chromium_rhuell"
+  },
+  {
+   "from": "claim:A013",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:palladia_mors"
+  },
+  {
+   "from": "claim:A013",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:ugin"
+  },
+  {
+   "from": "claim:A014",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:nicol_bolas"
+  },
+  {
+   "from": "claim:A014",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:vaevictis_asmadi"
+  },
+  {
+   "from": "claim:A015",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:palladia_mors"
+  },
+  {
+   "from": "claim:A015",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:vaevictis_asmadi"
+  },
+  {
+   "from": "claim:A015",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:nicol_bolas"
+  },
+  {
+   "from": "claim:A016",
+   "relation": "asserts",
+   "role": "object",
+   "to": "event:elder_dragon_wars"
+  },
+  {
+   "from": "claim:A016",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:arcades_sabboth"
+  },
+  {
+   "from": "claim:A017",
+   "relation": "asserts",
+   "role": "object",
+   "to": "event:elder_dragon_wars"
+  },
+  {
+   "from": "claim:A017",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:nicol_bolas"
+  },
+  {
+   "from": "claim:A018",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:chromium_rhuell"
+  },
+  {
+   "from": "claim:A018",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:piru"
+  },
+  {
+   "from": "claim:A019",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:chromium_rhuell"
+  },
+  {
+   "from": "claim:A019",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:crosis"
+  },
+  {
+   "from": "claim:A019",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:piru"
+  },
+  {
+   "from": "claim:A020",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:chromium_rhuell"
+  },
+  {
+   "from": "claim:A020",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:piru"
+  },
+  {
+   "from": "claim:A020",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:geyadrone_dihada"
+  },
+  {
+   "from": "claim:A021",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:chromium_rhuell"
+  },
+  {
+   "from": "claim:A021",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:piru"
+  },
+  {
+   "from": "claim:A021",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:dakkon"
+  },
+  {
+   "from": "claim:A022",
+   "relation": "asserts",
+   "role": "object",
+   "to": "place:corondor_chasm"
+  },
+  {
+   "from": "claim:A022",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:piru"
+  },
+  {
+   "from": "claim:A023",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:rith"
+  },
+  {
+   "from": "claim:A023",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:palladia_mors"
+  },
+  {
+   "from": "claim:A024",
+   "relation": "asserts",
+   "role": "object",
+   "to": "event:elder_dragon_wars"
+  },
+  {
+   "from": "claim:A024",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:rith"
+  },
+  {
+   "from": "claim:A025",
+   "relation": "asserts",
+   "role": "object",
+   "to": "plane:tarkir"
+  },
+  {
+   "from": "claim:A025",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:sarkhan_vol"
+  },
+  {
+   "from": "claim:A026",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:ugin"
+  },
+  {
+   "from": "claim:A026",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:nicol_bolas"
+  },
+  {
+   "from": "claim:A027",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:ugin"
+  },
+  {
+   "from": "claim:A027",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:yasova_dragonclaw"
+  },
+  {
+   "from": "claim:A028",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:ugin"
+  },
+  {
+   "from": "claim:A028",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:sarkhan_vol"
+  },
+  {
+   "from": "claim:A029",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:sarkhan_vol"
+  },
+  {
+   "from": "claim:A029",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "artifact:ugins_nexus"
+  },
+  {
+   "from": "claim:A030",
+   "relation": "asserts",
+   "role": "object",
+   "to": "event:tarkir_duel"
+  },
+  {
+   "from": "claim:A030",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "cardtheme:crux_of_fate"
+  },
+  {
+   "from": "claim:A031",
+   "relation": "asserts",
+   "role": "object",
+   "to": "place:ugins_tomb_site"
+  },
+  {
+   "from": "claim:A031",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "place:crucible_spirit_dragon"
+  },
+  {
+   "from": "claim:A032",
+   "relation": "asserts",
+   "role": "object",
+   "to": "place:ugins_tomb_site"
+  },
+  {
+   "from": "claim:A032",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "place:tomb_spirit_dragon"
+  },
+  {
+   "from": "event:elder_dragon_wars",
+   "limit": "The Saga names the event; its individual images/chapters are not certified as a literal battlefield reconstruction.",
+   "relation": "depicted_by",
+   "sources": [
+    "dmu_notes"
+   ],
+   "tier": "NAMED_EVENT_CARD",
+   "to": "card:the_elder_dragon_war"
+  },
+  {
+   "from": "event:tarkir_duel",
+   "limit": "A character portrait accompanying the story, not proof the card image depicts the full fight.",
+   "relation": "depicted_by",
+   "sources": [
+    "reforged_chain"
+   ],
+   "tier": "NAMED_CHARACTER_ART_IN_STORY",
+   "to": "card:nicol_bolas_planeswalker"
+  },
+  {
+   "from": "event:tarkir_duel",
+   "limit": "Character images in official stories, not a unique art-variant-to-printing ID match.",
+   "relation": "depicted_by",
+   "sources": [
+    "chronicle_familiar",
+    "reforged_chain"
+   ],
+   "tier": "NAMED_CHARACTER_ART_IN_STORY",
+   "to": "card:ugin_the_spirit_dragon"
+  },
+  {
+   "from": "event:tarkir_duel",
+   "limit": "Explicitly captioned at a witnessed showdown, but no claim that each printing uses that art or that the illustration depicts all steps.",
+   "relation": "depicted_by",
+   "sources": [
+    "reforged_chain"
+   ],
+   "tier": "DIRECT_EVENT_SCENE_CAPTION",
+   "to": "card:crux_of_fate"
+  },
+  {
+   "from": "literal:pre_duel_time_travel",
+   "limit": "Design calls it the story time-travel machine; no exact scene depiction is asserted.",
+   "relation": "depicted_by",
+   "sources": [
+    "chronicle_familiar",
+    "nexus_design"
+   ],
+   "tier": "OFFICIAL_STORY_DEVICE",
+   "to": "card:ugin_s_nexus"
+  },
+  {
+   "from": "literal:ugin_grave_site",
+   "limit": "Caption appears at described canyon site, not the ancient duel.",
+   "relation": "depicted_by",
+   "sources": [
+    "chronicle_familiar"
+   ],
+   "tier": "STORY_LOCATION_ART_CAPTION",
+   "to": "card:crucible_of_the_spirit_dragon"
+  },
+  {
+   "from": "literal:ugin_grave_site",
+   "limit": "The apparent tomb is a story location; artwork is not an exact timestamp of death.",
+   "relation": "depicted_by",
+   "sources": [
+    "chronicle_familiar",
+    "journey_nexus"
+   ],
+   "tier": "STORY_LOCATION_ART_CAPTION",
+   "to": "card:tomb_of_the_spirit_dragon"
+  },
+  {
+   "from": "plane:tarkir",
+   "relation": "see_also_curated_entry",
+   "tier": "contextual_pointer",
+   "to": "curated:Planes Index.md#tarkir"
+  },
+  {
+   "from": "source:blood_fire",
+   "relation": "cited_by",
+   "to": "claim:A014"
+  },
+  {
+   "from": "source:blood_fire",
+   "relation": "cited_by",
+   "to": "claim:A015"
+  },
+  {
+   "from": "source:blood_fire",
+   "relation": "cited_by",
+   "to": "claim:A016"
+  },
+  {
+   "from": "source:blood_fire",
+   "relation": "cited_by",
+   "to": "claim:A017"
+  },
+  {
+   "from": "source:chronicle_blood_fire",
+   "relation": "cited_by",
+   "to": "claim:A002"
+  },
+  {
+   "from": "source:chronicle_familiar",
+   "printing": "6bf563e0-1f42-4768-a667-3e120bdb6534",
+   "relation": "exact_art_published_in_story",
+   "tier": "STORY_LOCATION_ART_CAPTION",
+   "to": "card:crucible_of_the_spirit_dragon"
+  },
+  {
+   "from": "source:chronicle_familiar",
+   "printing": "94002868-a48a-4ea8-bfce-17257078f5db",
+   "relation": "exact_art_published_in_story",
+   "tier": "OFFICIAL_STORY_DEVICE",
+   "to": "card:ugin_s_nexus"
+  },
+  {
+   "from": "source:chronicle_familiar",
+   "relation": "cited_by",
+   "to": "claim:A031"
+  },
+  {
+   "from": "source:chronicle_familiar",
+   "relation": "cited_by",
+   "to": "claim:A032"
+  },
+  {
+   "from": "source:chronicle_perspectives",
+   "relation": "cited_by",
+   "to": "claim:A003"
+  },
+  {
+   "from": "source:chronicle_perspectives",
+   "relation": "cited_by",
+   "to": "claim:A004"
+  },
+  {
+   "from": "source:chronicle_twins",
+   "relation": "cited_by",
+   "to": "claim:A001"
+  },
+  {
+   "from": "source:chronicle_twins",
+   "relation": "cited_by",
+   "to": "claim:A002"
+  },
+  {
+   "from": "source:chronicle_unwritten",
+   "relation": "cited_by",
+   "to": "claim:A007"
+  },
+  {
+   "from": "source:dmu_legends",
+   "relation": "cited_by",
+   "to": "claim:A023"
+  },
+  {
+   "from": "source:dmu_legends",
+   "relation": "cited_by",
+   "to": "claim:A024"
+  },
+  {
+   "from": "source:fate_reforged_guide",
+   "relation": "cited_by",
+   "to": "claim:A005"
+  },
+  {
+   "from": "source:first_lesson",
+   "relation": "cited_by",
+   "to": "claim:A013"
+  },
+  {
+   "from": "source:journey_nexus",
+   "printing": "eb6be7ab-8fad-4606-b623-f2188219d60b",
+   "relation": "exact_art_published_in_story",
+   "tier": "STORY_LOCATION_ART_CAPTION",
+   "to": "card:tomb_of_the_spirit_dragon"
+  },
+  {
+   "from": "source:journey_nexus",
+   "relation": "cited_by",
+   "to": "claim:A032"
+  },
+  {
+   "from": "source:lorwyn2",
+   "relation": "cited_by",
+   "to": "claim:A009"
+  },
+  {
+   "from": "source:lorwyn2",
+   "relation": "cited_by",
+   "to": "claim:A011"
+  },
+  {
+   "from": "source:mh2_legends",
+   "relation": "cited_by",
+   "to": "claim:A017"
+  },
+  {
+   "from": "source:mh2_legends",
+   "relation": "cited_by",
+   "to": "claim:A018"
+  },
+  {
+   "from": "source:mh2_legends",
+   "relation": "cited_by",
+   "to": "claim:A019"
+  },
+  {
+   "from": "source:mh2_legends",
+   "relation": "cited_by",
+   "to": "claim:A020"
+  },
+  {
+   "from": "source:mh2_legends",
+   "relation": "cited_by",
+   "to": "claim:A021"
+  },
+  {
+   "from": "source:mh2_legends",
+   "relation": "cited_by",
+   "to": "claim:A022"
+  },
+  {
+   "from": "source:nexus_design",
+   "relation": "cited_by",
+   "to": "claim:A025"
+  },
+  {
+   "from": "source:nexus_design",
+   "relation": "cited_by",
+   "to": "claim:A029"
+  },
+  {
+   "from": "source:perspectives",
+   "relation": "cited_by",
+   "to": "claim:A018"
+  },
+  {
+   "from": "source:reality_guide",
+   "relation": "cited_by",
+   "to": "claim:A012"
+  },
+  {
+   "from": "source:reforged_chain",
+   "printing": "48ee3939-bc12-4275-a446-9de36f0b4672",
+   "relation": "exact_art_published_in_story",
+   "tier": "NAMED_CHARACTER_ART_IN_STORY",
+   "to": "card:nicol_bolas_planeswalker"
+  },
+  {
+   "from": "source:reforged_chain",
+   "printing": "58c1e824-c8a9-4312-8e4c-a29a26d189a4",
+   "relation": "exact_art_published_in_story",
+   "tier": "NAMED_CHARACTER_ART_IN_STORY",
+   "to": "card:ugin_the_spirit_dragon"
+  },
+  {
+   "from": "source:reforged_chain",
+   "printing": "e1d45374-a41b-4b3f-a7c8-3eb5ca767cf6",
+   "relation": "exact_art_published_in_story",
+   "tier": "DIRECT_EVENT_SCENE_CAPTION",
+   "to": "card:crux_of_fate"
+  },
+  {
+   "from": "source:reforged_chain",
+   "relation": "cited_by",
+   "to": "claim:A026"
+  },
+  {
+   "from": "source:reforged_chain",
+   "relation": "cited_by",
+   "to": "claim:A027"
+  },
+  {
+   "from": "source:reforged_chain",
+   "relation": "cited_by",
+   "to": "claim:A028"
+  },
+  {
+   "from": "source:reforged_chain",
+   "relation": "cited_by",
+   "to": "claim:A030"
+  },
+  {
+   "from": "source:tarkir_plane",
+   "relation": "cited_by",
+   "to": "claim:A006"
+  },
+  {
+   "from": "source:tarkir_plane",
+   "relation": "cited_by",
+   "to": "claim:A028"
+  },
+  {
+   "from": "source:tarkir_story_summary",
+   "relation": "cited_by",
+   "to": "claim:A025"
+  },
+  {
+   "from": "source:tarkir_story_summary",
+   "relation": "cited_by",
+   "to": "claim:A026"
+  },
+  {
+   "from": "source:tarkir_story_summary",
+   "relation": "cited_by",
+   "to": "claim:A028"
+  },
+  {
+   "from": "source:tarkir_story_summary",
+   "relation": "cited_by",
+   "to": "claim:A029"
+  },
+  {
+   "from": "source:tdm7",
+   "relation": "cited_by",
+   "to": "claim:A009"
+  },
+  {
+   "from": "source:tdm7",
+   "relation": "cited_by",
+   "to": "claim:A010"
+  },
+  {
+   "from": "source:war_games",
+   "relation": "cited_by",
+   "to": "claim:A008"
+  }
+ ],
+ "inputs": {
+  "art_match_packs": [
+   {
+    "cards": 6,
+    "file": "data/lore_research/pack_a4_printing_art_matches_2026-10-30.json",
+    "sha256": "5ffb7c8dbd346f1ade2b7165023d87579dbf978aeee3ba83e5869c9b0123762b"
+   }
+  ],
+  "claim_packs": [
+   {
+    "claims": 12,
+    "entities": 13,
+    "file": "data/lore_research/pack_a_ugin_bolas_evidence_2026-10-30.json",
+    "sha256": "1d43a0d9386189085a79f5ad7b6a8bcbd5a5144ee8f6f988a4840132037a3ff8",
+    "sources": 10
+   },
+   {
+    "claims": 12,
+    "entities": 10,
+    "file": "data/lore_research/pack_a_elder_dragon_war_extension_2026-10-30.json",
+    "sha256": "31624d759d7597bfa1792bbba19fbd53dfa61dbbceed7a0a3b77ea880586a48f",
+    "sources": 8
+   },
+   {
+    "claims": 8,
+    "entities": 7,
+    "file": "data/lore_research/pack_a_tarkir_card_scenes_2026-10-30.json",
+    "sha256": "fb4a6bed888700fd41aa1ee374fd01df82a8e73f0aa267618f2762af77d3dc44",
+    "sources": 6
+   }
+  ],
+  "deck_evidence": [
+   {
+    "cards": 83,
+    "file": "data/lore_decks/drafts/ugin_bolas_elder_dragon_duality_printing_evidence.json",
+    "sha256": "640fbfded8891cdc01f0407d95ae63f0fb03490114832a1c6319a600c92731e0"
+   }
+  ]
+ },
+ "inverse_relations": {
+  "asserts": "asserted_by",
+  "cited_by": "cites",
+  "depicted_by": "depicts",
+  "proposed_in": "proposes",
+  "see_also_curated_entry": "see_also_from_curated_entry"
+ },
+ "meaning": "Directional, cited relationships compiled from committed research packs. A relationship edge inherits its claim's canon status; deck-proposal and curated-bridge edges are navigation, never canon assertions.",
+ "nodes": [
+  {
+   "id": "artifact:ugins_nexus",
+   "name": "Ugin's Nexus",
+   "origins": [
+    "pack_a_tarkir_card_scenes_2026-10-30.json"
+   ],
+   "type": "Object"
+  },
+  {
+   "id": "card:arcades_the_strategist",
+   "name": "Arcades, the Strategist",
+   "origins": [
+    "pack_a_elder_dragon_war_extension_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:arcane_signet",
+   "name": "Arcane Signet",
+   "oracle_id": "0bc7f093-bef0-4f1a-852c-4b75ebf54838",
+   "origins": [
+    "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:augur_of_bolas",
+   "name": "Augur of Bolas",
+   "oracle_id": "be5d6779-ecc9-44b9-8c4d-97a243059d55",
+   "origins": [
+    "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:bitter_revelation",
+   "name": "Bitter Revelation",
+   "oracle_id": "f3e025ce-6114-42d0-842f-73366c853657",
+   "origins": [
+    "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:blood_crypt",
+   "name": "Blood Crypt",
+   "oracle_id": "43985bbc-a0f6-4812-984e-392bc8562633",
+   "origins": [
+    "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:bolas_s_citadel",
+   "name": "Bolas's Citadel",
+   "oracle_id": "2bd111bb-ce02-414c-b5b7-e0e037d8d96b",
+   "origins": [
+    "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:chandra_s_defeat",
+   "name": "Chandra's Defeat",
+   "oracle_id": "a57ad23b-cff3-45e5-98b3-1b20224aaa19",
+   "origins": [
+    "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:chromium_the_mutable",
+   "name": "Chromium, the Mutable",
+   "origins": [
+    "pack_a_elder_dragon_war_extension_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:cinder_barrens",
+   "name": "Cinder Barrens",
+   "oracle_id": "f155a05f-9f5e-4875-a407-103b85ce30ee",
+   "origins": [
+    "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:command_the_dreadhorde",
+   "name": "Command the Dreadhorde",
+   "oracle_id": "198d31e4-1ae1-4bf9-a05a-7fa45c0aeddb",
+   "origins": [
+    "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:command_tower",
+   "name": "Command Tower",
+   "oracle_id": "0895c9b7-ae7d-4bb3-af17-3b75deb50a25",
+   "origins": [
+    "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:commence_the_endgame",
+   "name": "Commence the Endgame",
+   "oracle_id": "fedb1947-9fa5-4655-8d02-b370fa63dd16",
+   "origins": [
+    "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:countersquall",
+   "name": "Countersquall",
+   "oracle_id": "6df620b8-1e54-4f63-8556-12c75e5679af",
+   "origins": [
+    "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:crosis_the_purger",
+   "name": "Crosis, the Purger",
+   "oracle_id": "f1ae1dcd-76cd-4714-9df2-1ab0ebd2ca41",
+   "origins": [
+    "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "exact_story_art_printings": [
+    "257a5ae9-f754-4c45-a47d-5196f1b625b7",
+    "6bf563e0-1f42-4768-a667-3e120bdb6534",
+    "beba6748-1b2c-47db-8e67-b46ba2014295"
+   ],
+   "id": "card:crucible_of_the_spirit_dragon",
+   "name": "Crucible of the Spirit Dragon",
+   "oracle_id": "ecfbebc9-7fc7-474e-8c59-8ede800e082e",
+   "origins": [
+    "pack_a4_printing_art_matches_2026-10-30.json",
+    "pack_a_tarkir_card_scenes_2026-10-30.json",
+    "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "story_art_illustration_id": "12281ea1-2759-4c81-a881-e308c497fcf3",
+   "type": "Card"
+  },
+  {
+   "id": "card:crumbling_necropolis",
+   "name": "Crumbling Necropolis",
+   "oracle_id": "7190debf-708b-4f41-9714-0d0a5bd5a74e",
+   "origins": [
+    "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "exact_story_art_printings": [
+    "11721b88-2654-482c-b9d4-80e54efdbf63",
+    "2fe9df6d-c5e0-4378-a4a5-744773811a5c",
+    "e1d45374-a41b-4b3f-a7c8-3eb5ca767cf6",
+    "e92c13a4-c077-4f9b-ba0f-9fc81b53e58a"
+   ],
+   "id": "card:crux_of_fate",
+   "name": "Crux of Fate",
+   "oracle_id": "52a0dae4-2a95-487e-acd4-eabdb2d031e2",
+   "origins": [
+    "pack_a4_printing_art_matches_2026-10-30.json",
+    "pack_a_tarkir_card_scenes_2026-10-30.json",
+    "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "story_art_illustration_id": "b652686f-ac53-4f72-8f9d-b18039a8ec5c",
+   "type": "Card"
+  },
+  {
+   "id": "card:dakkon_shadow_slayer",
+   "name": "Dakkon, Shadow Slayer",
+   "origins": [
+    "pack_a_elder_dragon_war_extension_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:disciple_of_bolas",
+   "name": "Disciple of Bolas",
+   "oracle_id": "8f2c8498-5b10-4ec7-8678-598c90987556",
+   "origins": [
+    "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:dispel",
+   "name": "Dispel",
+   "oracle_id": "6d7be242-a072-40ce-b540-95880506cccd",
+   "origins": [
+    "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:doomfall",
+   "name": "Doomfall",
+   "oracle_id": "ba2c2a65-256a-46db-bf2b-b02b7d114a42",
+   "origins": [
+    "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:dracogenesis",
+   "name": "Dracogenesis",
+   "oracle_id": "9b06f2bf-146d-4b30-b467-e16f1a942253",
+   "origins": [
+    "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:dragonlord_kolaghan",
+   "name": "Dragonlord Kolaghan",
+   "oracle_id": "5ff89859-ddfd-48e5-8423-57b3956173ac",
+   "origins": [
+    "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:dragonlord_silumgar",
+   "name": "Dragonlord Silumgar",
+   "oracle_id": "44581d4f-746b-43b8-a34d-16dc383ab70e",
+   "origins": [
+    "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:dragonskull_summit",
+   "name": "Dragonskull Summit",
+   "oracle_id": "63398c02-6fb1-481d-9d9f-81063532fbc0",
+   "origins": [
+    "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:drowned_catacomb",
+   "name": "Drowned Catacomb",
+   "oracle_id": "819fc966-434e-470f-91e9-a38df974ad17",
+   "origins": [
+    "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:fearsome_awakening",
+   "name": "Fearsome Awakening",
+   "oracle_id": "b6e87f78-d4dd-44b2-bf70-92436ce583c9",
+   "origins": [
+    "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:finale_of_revelation",
+   "name": "Finale of Revelation",
+   "oracle_id": "755bd5d8-67f1-4f24-a4e8-d98edf2f2e03",
+   "origins": [
+    "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:fraying_omnipotence",
+   "name": "Fraying Omnipotence",
+   "oracle_id": "3b00068d-ad07-417c-bbb3-5f980615fb06",
+   "origins": [
+    "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:ghostfire",
+   "name": "Ghostfire",
+   "oracle_id": "3479a4e6-c67d-4958-8a47-43d3a2f69bb1",
+   "origins": [
+    "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:god_eternal_bontu",
+   "name": "God-Eternal Bontu",
+   "oracle_id": "183891b0-b5ec-47f4-8d09-b9d3cfc4e7f1",
+   "origins": [
+    "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:god_eternal_kefnet",
+   "name": "God-Eternal Kefnet",
+   "oracle_id": "41d11144-32fc-4e45-a8db-3edb9dc0ce80",
+   "origins": [
+    "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:haven_of_the_spirit_dragon",
+   "name": "Haven of the Spirit Dragon",
+   "oracle_id": "acc9c16a-5e72-43bd-87e1-56a16aa892f5",
+   "origins": [
+    "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:hedron_archive",
+   "name": "Hedron Archive",
+   "oracle_id": "32263baa-d3f0-463f-92b3-4e9938476add",
+   "origins": [
+    "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:hour_of_devastation",
+   "name": "Hour of Devastation",
+   "oracle_id": "b9ea0d4c-cd71-4817-8213-96899e1a14bb",
+   "origins": [
+    "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:interplanar_beacon",
+   "name": "Interplanar Beacon",
+   "oracle_id": "073169f2-da3a-4a93-8c01-b3fd8558d225",
+   "origins": [
+    "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:jace_s_defeat",
+   "name": "Jace's Defeat",
+   "oracle_id": "8ed8e27b-2137-4e19-99bb-5e0d6d32e3af",
+   "origins": [
+    "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:liliana_dreadhorde_general",
+   "name": "Liliana, Dreadhorde General",
+   "oracle_id": "5e958212-6a5b-4288-8d31-f1572619d7dc",
+   "origins": [
+    "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:liliana_s_defeat",
+   "name": "Liliana's Defeat",
+   "oracle_id": "7c8b38b3-b808-4ad8-b4e5-39e216063ff6",
+   "origins": [
+    "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:liliana_s_triumph",
+   "name": "Liliana's Triumph",
+   "oracle_id": "c2e68ac5-cfff-4b76-8062-25a82fdf9a5c",
+   "origins": [
+    "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:maelstrom_of_the_spirit_dragon",
+   "name": "Maelstrom of the Spirit Dragon",
+   "oracle_id": "49e9fba7-8465-4bbb-95db-73a7e149f494",
+   "origins": [
+    "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:magmaquake",
+   "name": "Magmaquake",
+   "oracle_id": "a52037df-0be1-4c99-b9eb-b033157af203",
+   "origins": [
+    "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:mana_drain",
+   "name": "Mana Drain",
+   "oracle_id": "74d3277a-38e5-4732-afed-084a56148f20",
+   "origins": [
+    "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:neheb_the_eternal",
+   "name": "Neheb, the Eternal",
+   "oracle_id": "b0d3fd57-1420-4dd1-8410-9d659655287f",
+   "origins": [
+    "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:nicol_bolas",
+   "name": "Nicol Bolas",
+   "oracle_id": "e26bf6a9-b31c-4bc0-b55b-c01f2f69be6b",
+   "origins": [
+    "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:nicol_bolas_dragon_god",
+   "name": "Nicol Bolas, Dragon-God",
+   "oracle_id": "581eedc4-efe4-4ae4-baf2-88071e7e6f6d",
+   "origins": [
+    "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:nicol_bolas_god_pharaoh",
+   "name": "Nicol Bolas, God-Pharaoh",
+   "oracle_id": "cb33e07b-9599-4979-991f-df0c43ddac31",
+   "origins": [
+    "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "exact_story_art_printings": [
+    "0e3b1fea-5c2c-4848-8109-548f56b99d49",
+    "48ee3939-bc12-4275-a446-9de36f0b4672",
+    "bc05da83-c3ec-4a60-a205-3c0f537d55b0"
+   ],
+   "id": "card:nicol_bolas_planeswalker",
+   "name": "Nicol Bolas, Planeswalker",
+   "oracle_id": "05e9b55e-6329-48ec-b7d7-24c6b9692244",
+   "origins": [
+    "pack_a4_printing_art_matches_2026-10-30.json",
+    "pack_a_tarkir_card_scenes_2026-10-30.json",
+    "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "story_art_illustration_id": "aaaa918a-ae2c-4bf9-8926-4d5a7b39613d",
+   "type": "Card"
+  },
+  {
+   "id": "card:nicol_bolas_the_deceiver",
+   "name": "Nicol Bolas, the Deceiver",
+   "oracle_id": "524b00ea-0372-40f9-a6a1-76a8497a1ea6",
+   "origins": [
+    "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:nicol_bolas_the_ravager_nicol_bolas_the_arisen",
+   "name": "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+   "oracle_id": "55e4b27e-5447-4fc2-8cae-a03e344600c6",
+   "origins": [
+    "pack_a_elder_dragon_war_extension_2026-10-30.json",
+    "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:no_escape",
+   "name": "No Escape",
+   "oracle_id": "7c6e0198-edd8-42b8-ba1b-549e1713d188",
+   "origins": [
+    "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:palladia_mors_the_ruiner",
+   "name": "Palladia-Mors, the Ruiner",
+   "origins": [
+    "pack_a_elder_dragon_war_extension_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:perilous_vault",
+   "name": "Perilous Vault",
+   "oracle_id": "7acd7ef5-0e26-436d-962a-1a391f81c2e8",
+   "origins": [
+    "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:piru_the_volatile",
+   "name": "Piru, the Volatile",
+   "origins": [
+    "pack_a_elder_dragon_war_extension_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:rith_liberated_primeval",
+   "name": "Rith, Liberated Primeval",
+   "origins": [
+    "pack_a_elder_dragon_war_extension_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:sarkhan_s_catharsis",
+   "name": "Sarkhan's Catharsis",
+   "oracle_id": "787935ab-26a6-4b4a-9c14-e106160e951d",
+   "origins": [
+    "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:sarkhan_the_dragonspeaker",
+   "name": "Sarkhan, the Dragonspeaker",
+   "oracle_id": "80c26f58-04b0-4db0-b84e-9b136609abe0",
+   "origins": [
+    "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:sarkhan_the_mad",
+   "name": "Sarkhan the Mad",
+   "oracle_id": "e70a93e4-2fe7-46d3-8958-153ab2fcfd99",
+   "origins": [
+    "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:shivan_reef",
+   "name": "Shivan Reef",
+   "oracle_id": "0fe16212-66c3-4e45-a641-7391e9b2e304",
+   "origins": [
+    "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:slave_of_bolas",
+   "name": "Slave of Bolas",
+   "oracle_id": "07190a8b-2a59-45b3-9fbf-505161698a9c",
+   "origins": [
+    "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:sol_ring",
+   "name": "Sol Ring",
+   "oracle_id": "6ad8011d-3471-4369-9d68-b264cc027487",
+   "origins": [
+    "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:soul_manipulation",
+   "name": "Soul Manipulation",
+   "oracle_id": "419c2ae1-fec7-4c27-a7a0-99f777abb4de",
+   "origins": [
+    "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:spark_harvest",
+   "name": "Spark Harvest",
+   "oracle_id": "25756e33-25e5-4976-8cce-a39fa2c4b007",
+   "origins": [
+    "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:steam_vents",
+   "name": "Steam Vents",
+   "oracle_id": "17039058-822d-409f-938c-b727a366ba63",
+   "origins": [
+    "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:sulfur_falls",
+   "name": "Sulfur Falls",
+   "oracle_id": "6a6c5e17-6465-4a1f-9d63-8a3ce2edc522",
+   "origins": [
+    "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:sulfurous_springs",
+   "name": "Sulfurous Springs",
+   "oracle_id": "f5c38c01-4a40-469f-91a0-7479daf4e8e7",
+   "origins": [
+    "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:talisman_of_creativity",
+   "name": "Talisman of Creativity",
+   "oracle_id": "14d2979d-5728-42d7-a027-0eb1f754655d",
+   "origins": [
+    "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:talisman_of_dominance",
+   "name": "Talisman of Dominance",
+   "oracle_id": "4c0a0448-b9d6-43a0-8549-64066dac63f0",
+   "origins": [
+    "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:talisman_of_indulgence",
+   "name": "Talisman of Indulgence",
+   "oracle_id": "1d9aeaaa-66f6-41cb-9bac-162d6fd8662c",
+   "origins": [
+    "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:tezzeret_agent_of_bolas",
+   "name": "Tezzeret, Agent of Bolas",
+   "oracle_id": "8ab7358e-a0f5-4220-8769-25177237bcdf",
+   "origins": [
+    "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:the_elder_dragon_war",
+   "name": "The Elder Dragon War",
+   "oracle_id": "4945f03b-ff99-4923-b62d-3cdb60275ef1",
+   "origins": [
+    "pack_a_elder_dragon_war_extension_2026-10-30.json",
+    "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:the_locust_god",
+   "name": "The Locust God",
+   "oracle_id": "e025a714-02da-4b0c-8021-cf3e8dc9b19e",
+   "origins": [
+    "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:the_scarab_god",
+   "name": "The Scarab God",
+   "oracle_id": "c75e55f2-fd6c-4816-9d96-21eeb8369aff",
+   "origins": [
+    "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:the_scorpion_god",
+   "name": "The Scorpion God",
+   "oracle_id": "aff223d4-6338-460d-a4d5-d45f522864dc",
+   "origins": [
+    "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "exact_story_art_printings": [
+    "824bf3cc-fb35-4bc1-998c-6758b1eed2ca",
+    "c5c2da3e-5e82-4236-b866-93bec88d86b0",
+    "eb6be7ab-8fad-4606-b623-f2188219d60b"
+   ],
+   "id": "card:tomb_of_the_spirit_dragon",
+   "name": "Tomb of the Spirit Dragon",
+   "oracle_id": "22f6391e-2634-440f-af1b-9581d1bff818",
+   "origins": [
+    "pack_a4_printing_art_matches_2026-10-30.json",
+    "pack_a_tarkir_card_scenes_2026-10-30.json",
+    "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "story_art_illustration_id": "48a2cb02-6af1-4bae-a577-2880ca822b9e",
+   "type": "Card"
+  },
+  {
+   "id": "card:ugin_eye_of_the_storms",
+   "name": "Ugin, Eye of the Storms",
+   "oracle_id": "5c58353a-fd60-4528-bf0d-669626cda0b2",
+   "origins": [
+    "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:ugin_s_binding",
+   "name": "Ugin's Binding",
+   "oracle_id": "ed622e71-f348-4e46-8fb9-05aae430983a",
+   "origins": [
+    "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:ugin_s_conjurant",
+   "name": "Ugin's Conjurant",
+   "oracle_id": "787055e6-5d65-458e-a56e-66ef0574d2ca",
+   "origins": [
+    "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:ugin_s_insight",
+   "name": "Ugin's Insight",
+   "oracle_id": "ad7b9db0-e061-4360-9b81-0408d18d971d",
+   "origins": [
+    "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:ugin_s_labyrinth",
+   "name": "Ugin's Labyrinth",
+   "oracle_id": "d565cd3d-68d4-4039-9e45-7e69e31d0ffb",
+   "origins": [
+    "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "exact_story_art_printings": [
+    "94002868-a48a-4ea8-bfce-17257078f5db"
+   ],
+   "id": "card:ugin_s_nexus",
+   "name": "Ugin's Nexus",
+   "oracle_id": "fe2afa18-54d0-4595-af27-256398793a42",
+   "origins": [
+    "pack_a4_printing_art_matches_2026-10-30.json",
+    "pack_a_tarkir_card_scenes_2026-10-30.json",
+    "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "story_art_illustration_id": "ddac4ae4-0f8b-4186-a64e-892cf5afe5c9",
+   "type": "Card"
+  },
+  {
+   "id": "card:ugin_the_ineffable",
+   "name": "Ugin, the Ineffable",
+   "oracle_id": "18bdc181-9592-4147-81fb-7f83ce137f70",
+   "origins": [
+    "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "exact_story_art_printings": [
+    "02c596b7-67d2-40dd-bb57-4a7640d88145",
+    "58c1e824-c8a9-4312-8e4c-a29a26d189a4",
+    "719438b8-7b66-4f13-a568-80202365cc1a",
+    "89677176-80c2-4df0-a108-f0a1fa4febf9",
+    "9c017fa9-7021-417a-9c2e-3df409644fcf",
+    "a11e75a0-17f0-429a-a77a-268fe6257010"
+   ],
+   "id": "card:ugin_the_spirit_dragon",
+   "name": "Ugin, the Spirit Dragon",
+   "oracle_id": "eecb3047-a563-441a-9175-200421981ac3",
+   "origins": [
+    "pack_a4_printing_art_matches_2026-10-30.json",
+    "pack_a_tarkir_card_scenes_2026-10-30.json",
+    "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "story_art_illustration_id": "47715ae0-7456-449e-ad32-0a7bc47a4e7a",
+   "type": "Card"
+  },
+  {
+   "id": "card:underground_river",
+   "name": "Underground River",
+   "oracle_id": "857febd9-cdd7-4f8e-a852-d88084b0cfbc",
+   "origins": [
+    "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:vaevictis_asmadi_the_dire",
+   "name": "Vaevictis Asmadi, the Dire",
+   "origins": [
+    "pack_a_elder_dragon_war_extension_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:visage_of_bolas",
+   "name": "Visage of Bolas",
+   "oracle_id": "21bb3c03-c1c0-40ec-8df4-8d0054c3742b",
+   "origins": [
+    "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:wasp_of_the_bitter_end",
+   "name": "Wasp of the Bitter End",
+   "oracle_id": "9331cfd7-a818-45ed-9e4a-4d3c381052e0",
+   "origins": [
+    "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:watcher_of_the_wayside",
+   "name": "Watcher of the Wayside",
+   "oracle_id": "b30eafed-2755-4423-9592-c8b83c68804b",
+   "origins": [
+    "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:watery_grave",
+   "name": "Watery Grave",
+   "oracle_id": "fc9ec820-4245-4a96-b009-5308a818ca58",
+   "origins": [
+    "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:witness_of_the_ages",
+   "name": "Witness of the Ages",
+   "oracle_id": "afeb9de8-7030-4797-a9c8-5a99de3c410f",
+   "origins": [
+    "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "cardtheme:crux_of_fate",
+   "name": "Crux of Fate",
+   "origins": [
+    "pack_a_tarkir_card_scenes_2026-10-30.json"
+   ],
+   "type": "CardTheme"
+  },
+  {
+   "id": "character:arcades_sabboth",
+   "name": "Arcades Sabboth",
+   "origins": [
+    "pack_a_elder_dragon_war_extension_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:chromium_rhuell",
+   "name": "Chromium Rhuell",
+   "origins": [
+    "pack_a_elder_dragon_war_extension_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:crosis",
+   "name": "Crosis, the Purger",
+   "origins": [
+    "pack_a_elder_dragon_war_extension_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:dakkon",
+   "name": "Dakkon Blackblade",
+   "origins": [
+    "pack_a_elder_dragon_war_extension_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:geyadrone_dihada",
+   "name": "Geyadrone Dihada",
+   "origins": [
+    "pack_a_elder_dragon_war_extension_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:narset",
+   "name": "Narset",
+   "origins": [
+    "pack_a_ugin_bolas_evidence_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:nicol_bolas",
+   "name": "Nicol Bolas",
+   "origins": [
+    "pack_a_ugin_bolas_evidence_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:palladia_mors",
+   "name": "Palladia-Mors",
+   "origins": [
+    "pack_a_elder_dragon_war_extension_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:piru",
+   "name": "Piru",
+   "origins": [
+    "pack_a_elder_dragon_war_extension_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:rith",
+   "name": "Rith",
+   "origins": [
+    "pack_a_elder_dragon_war_extension_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:sarkhan_vol",
+   "name": "Sarkhan Vol",
+   "origins": [
+    "pack_a_ugin_bolas_evidence_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:ugin",
+   "name": "Ugin",
+   "origins": [
+    "pack_a_ugin_bolas_evidence_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:vaevictis_asmadi",
+   "name": "Vaevictis Asmadi",
+   "origins": [
+    "pack_a_elder_dragon_war_extension_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:yasova_dragonclaw",
+   "name": "Yasova Dragonclaw",
+   "origins": [
+    "pack_a_tarkir_card_scenes_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "continuity": "shared origin",
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:A001",
+   "limitation": "This does not establish the entire genealogy of all later dragons.",
+   "name": "Ugin and Nicol emerge together as twin dragons in the story's account of the original dragons' hatching.",
+   "origins": [
+    "pack_a_ugin_bolas_evidence_2026-10-30.json"
+   ],
+   "predicate": "twin_sibling_of",
+   "stage": "primordial_birth",
+   "type": "Claim"
+  },
+  {
+   "continuity": "shared early history",
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:A002",
+   "limitation": "Interpret the twins' motives from the described actions; a single psychological explanation is not a canon rule.",
+   "name": "Their early responses to threats and mortal civilizations show contrasting priorities, which the Chronicle develops into their later conflict.",
+   "origins": [
+    "pack_a_ugin_bolas_evidence_2026-10-30.json"
+   ],
+   "predicate": "contrasted_with",
+   "stage": "early_lives",
+   "type": "Claim"
+  },
+  {
+   "continuity": "Bolas narrated recollection",
+   "grade": "CANON_DISPUTED",
+   "id": "claim:A003",
+   "limitation": "This is Bolas's self-serving narrated list, not an independently certified exhaustive Elder Dragon War casualty roll.",
+   "name": "Bolas describes these four Elder Dragons as surviving when he later returned to Dominaria.",
+   "origins": [
+    "pack_a_ugin_bolas_evidence_2026-10-30.json"
+   ],
+   "predicate": "survivors_according_to_bolas",
+   "stage": "elder_dragon_wars",
+   "type": "Claim"
+  },
+  {
+   "continuity": "Bolas narrated recollection",
+   "grade": "CANON_DISPUTED",
+   "id": "claim:A004",
+   "limitation": "His claim to be the first or alone is a narrator claim, not objective proof of priority over every planeswalker.",
+   "name": "Bolas reports his first planeswalk and discovery of the connected Multiverse.",
+   "origins": [
+    "pack_a_ugin_bolas_evidence_2026-10-30.json"
+   ],
+   "predicate": "planeswalker_spark_awakening_recounted",
+   "stage": "early_planeswalking",
+   "type": "Claim"
+  },
+  {
+   "continuity": "original Tarkir timeline",
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:A005",
+   "limitation": "Do not collapse the original timeline into the subsequent changed Tarkir history.",
+   "name": "The rivals fight over ancient Tarkir in the historical confrontation that Sarkhan later alters.",
+   "origins": [
+    "pack_a_ugin_bolas_evidence_2026-10-30.json"
+   ],
+   "predicate": "fought",
+   "stage": "original_tarkir_clash",
+   "type": "Claim"
+  },
+  {
+   "continuity": "revised Tarkir timeline",
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:A006",
+   "limitation": "This action changes Tarkir's history; it does not simply occur after the original death in one unchanged sequence.",
+   "name": "Sarkhan travels into Tarkir's past and prevents Ugin's death; the dragon tempests and later draconic dominance persist.",
+   "origins": [
+    "pack_a_ugin_bolas_evidence_2026-10-30.json"
+   ],
+   "predicate": "saved_from_death",
+   "stage": "tarkir_rewrite",
+   "type": "Claim"
+  },
+  {
+   "continuity": "ancient Meditation Realm confrontation",
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:A007",
+   "limitation": "Distinguish this Meditation Realm confrontation from the separate Sarkhan-modified Tarkir death event.",
+   "name": "The Chronicle portrays Bolas seemingly killing Ugin in the Meditation Realm and Ugin persisting as a spirit-like presence.",
+   "origins": [
+    "pack_a_ugin_bolas_evidence_2026-10-30.json"
+   ],
+   "predicate": "opposed",
+   "stage": "ancient_meditation_realm",
+   "type": "Claim"
+  },
+  {
+   "continuity": "War of the Spark aftermath",
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:A008",
+   "limitation": "This was the situation in 2019, not Bolas's status after later Tarkir: Dragonstorm.",
+   "name": "Following War of the Spark, Bolas loses his spark and is held in the Meditation Realm under Ugin's guard.",
+   "origins": [
+    "pack_a_ugin_bolas_evidence_2026-10-30.json"
+   ],
+   "predicate": "jailed",
+   "stage": "war_of_the_spark_end",
+   "type": "Claim"
+  },
+  {
+   "continuity": "current story by 2025",
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:A009",
+   "limitation": "An escape is not evidence that he recovered his planeswalker spark or arrived at a particular destination.",
+   "name": "The Meditation Realm prison fails during Tarkir: Dragonstorm, freeing Bolas; the later Lorwyn story confirms he escaped.",
+   "origins": [
+    "pack_a_ugin_bolas_evidence_2026-10-30.json"
+   ],
+   "predicate": "escaped",
+   "stage": "dragonstorm_escape",
+   "type": "Claim"
+  },
+  {
+   "continuity": "Tarkir: Dragonstorm story",
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:A010",
+   "limitation": "Do not infer all subsequent activities or power changes from this one scene.",
+   "name": "Ugin returns visibly to Tarkir and tells others that he failed to keep Bolas imprisoned.",
+   "origins": [
+    "pack_a_ugin_bolas_evidence_2026-10-30.json"
+   ],
+   "predicate": "returned_to",
+   "stage": "dragonstorm_escape",
+   "type": "Claim"
+  },
+  {
+   "continuity": "current as of October 2026",
+   "grade": "OPEN_QUESTION",
+   "id": "claim:A011",
+   "limitation": "Do not invent restored planeswalking ability or assert a confirmed permanent spark loss after the escape.",
+   "name": "The later story explicitly leaves open whether Bolas still has his spark after his escape.",
+   "origins": [
+    "pack_a_ugin_bolas_evidence_2026-10-30.json"
+   ],
+   "predicate": "current_spark_state",
+   "stage": "post_dragonstorm",
+   "type": "Claim"
+  },
+  {
+   "continuity": "Jace Beleren's Echoverse",
+   "grade": "ALTERNATE_CONTINUITY",
+   "id": "claim:A012",
+   "limitation": "This alternate-reality statement must never erase or override Bolas's presence in the prime Multiverse.",
+   "name": "The Reality Fracture guide describes Jace's Echoverse as a different history without Bolas.",
+   "origins": [
+    "pack_a_ugin_bolas_evidence_2026-10-30.json"
+   ],
+   "predicate": "constructed_without",
+   "stage": "reality_fracture",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:A013",
+   "limitation": "The sequence is not an exhaustive census of their elder kin.",
+   "name": "The Chronicle portrays the young twins meeting Arcades, Chromium and Palladia-Mors during their early travels.",
+   "origins": [
+    "pack_a_elder_dragon_war_extension_2026-10-30.json"
+   ],
+   "predicate": "encountered_elder_siblings",
+   "stage": "early_lives",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:A014",
+   "limitation": "The lineage claim is voiced by the raiders within a framed story, not a genealogy of each attacker.",
+   "name": "The embedded tale identifies the raiders of Bolas's kingdom as Vaevictis's descendants, according to the raiders themselves.",
+   "origins": [
+    "pack_a_elder_dragon_war_extension_2026-10-30.json"
+   ],
+   "predicate": "descendants_raided",
+   "stage": "pre_war_escalation",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:A015",
+   "limitation": "Specific provocations in a reconstructed tale do not establish every cause of a long, continent-spanning war.",
+   "name": "The Chronicle shows Nicol exploiting conflict around Vaevictis and deliberately inciting other dragon branches, including Palladia-Mors.",
+   "origins": [
+    "pack_a_elder_dragon_war_extension_2026-10-30.json"
+   ],
+   "predicate": "provoked_dragon_clans",
+   "stage": "elder_dragon_wars_escalation",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:A016",
+   "limitation": "Narrative participation alone does not make Arcades a loyal ally of Ugin or Bolas.",
+   "name": "The Chronicle's war account specifically includes Arcades leading followers into conflict with dragon kin.",
+   "origins": [
+    "pack_a_elder_dragon_war_extension_2026-10-30.json"
+   ],
+   "predicate": "entered_war",
+   "stage": "elder_dragon_wars",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:A017",
+   "limitation": "Bolas did not personally fight every dragon or control every faction in the conflict.",
+   "name": "Wizards' later editorial history explicitly credits Nicol Bolas with instigating the Elder Dragon War.",
+   "origins": [
+    "pack_a_elder_dragon_war_extension_2026-10-30.json"
+   ],
+   "predicate": "instigated",
+   "stage": "elder_dragon_wars",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:A018",
+   "limitation": "Bolas's narrated roster is incomplete; this is not proof of the total number of all survivors or an automatic retcon.",
+   "name": "Wizards' Piru biography names Piru and Chromium among the Elder Dragon War survivors; Piru is absent from Bolas's four-name account.",
+   "origins": [
+    "pack_a_elder_dragon_war_extension_2026-10-30.json"
+   ],
+   "predicate": "survived_with",
+   "stage": "elder_dragon_wars_aftermath",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:A019",
+   "limitation": "The editorial biography does not establish Crosis as their direct first-generation offspring.",
+   "name": "Piru and Chromium were mates and their descendants include Primeval Dragon Crosis, the Purger.",
+   "origins": [
+    "pack_a_elder_dragon_war_extension_2026-10-30.json"
+   ],
+   "predicate": "mate_and_ancestor_of",
+   "stage": "elder_dragon_lineages",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:A020",
+   "limitation": "This later battle is not part of the Elder Dragon War itself.",
+   "name": "Millennia after the war, Geyadrone Dihada bound Piru and Chromium to fight Dakkon Blackblade.",
+   "origins": [
+    "pack_a_elder_dragon_war_extension_2026-10-30.json"
+   ],
+   "predicate": "bound_to_service",
+   "stage": "post_war_corondor",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:A021",
+   "limitation": "Their fates must not be added to the Elder Dragon War casualty list.",
+   "name": "Dakkon slew Piru and banished Chromium in the later conflict engineered by Dihada.",
+   "origins": [
+    "pack_a_elder_dragon_war_extension_2026-10-30.json"
+   ],
+   "predicate": "slew_and_banished",
+   "stage": "post_war_corondor",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:A022",
+   "limitation": "The biography does not give a precise in-universe date.",
+   "name": "Piru's death caused a magical blast that cracked Dominaria's crust at the Dueling Chasm of Corondor.",
+   "origins": [
+    "pack_a_elder_dragon_war_extension_2026-10-30.json"
+   ],
+   "predicate": "death_created",
+   "stage": "post_war_corondor",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:A023",
+   "limitation": "This parentage does not imply Rith participated in the much earlier Elder Dragon War.",
+   "name": "Wizards' Dominaria United biography directly identifies Rith as Palladia-Mors's daughter.",
+   "origins": [
+    "pack_a_elder_dragon_war_extension_2026-10-30.json"
+   ],
+   "predicate": "mother_of",
+   "stage": "primeval_lineages",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:A024",
+   "limitation": "The source does not fix exact reign dates or identify every Primeval's parent.",
+   "name": "Rith was among five ancient Primeval Dragons who ruled Dominaria sometime after the Elder Dragon War.",
+   "origins": [
+    "pack_a_elder_dragon_war_extension_2026-10-30.json"
+   ],
+   "predicate": "primeval_dragon_after",
+   "stage": "post_war_primevals",
+   "type": "Claim"
+  },
+  {
+   "continuity": "time travel to shared Tarkir past",
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:A025",
+   "limitation": "This relative interval is the 2015 story's account, not an absolute Multiverse calendar date.",
+   "name": "Sarkhan crosses into Tarkir's past, approximately 1,280 years before his original present, to change a decisive ancient battle.",
+   "origins": [
+    "pack_a_tarkir_card_scenes_2026-10-30.json"
+   ],
+   "predicate": "traveled_into_past",
+   "stage": "pre_duel_time_travel",
+   "type": "Claim"
+  },
+  {
+   "continuity": "shared confrontation before Sarkhan intervention",
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:A026",
+   "limitation": "Neither the artwork nor the story alone assigns every individual magical strike to a unique printed card.",
+   "name": "Nicol Bolas confronts Ugin in Tarkir's skies while Sarkhan observes the encounter.",
+   "origins": [
+    "pack_a_tarkir_card_scenes_2026-10-30.json"
+   ],
+   "predicate": "confronted",
+   "stage": "tarkir_duel_before_divergence",
+   "type": "Claim"
+  },
+  {
+   "continuity": "shared confrontation before Sarkhan intervention",
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:A027",
+   "limitation": "This describes the scene, not proof that a specific Yasova card illustration depicts the spell.",
+   "name": "Yasova's rune-guided spell enables Bolas's ambush and redirects dragons called by Ugin to attack Ugin instead.",
+   "origins": [
+    "pack_a_tarkir_card_scenes_2026-10-30.json"
+   ],
+   "predicate": "redirected_dragons_against",
+   "stage": "tarkir_duel_yasova_spell",
+   "type": "Claim"
+  },
+  {
+   "continuity": "revised Tarkir timeline created by intervention",
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:A028",
+   "limitation": "The revised history must remain separate from the original branch where dragons later disappeared.",
+   "name": "Sarkhan creates a protective hedron cocoon around the gravely wounded Ugin, changing what would have been Ugin's death.",
+   "origins": [
+    "pack_a_tarkir_card_scenes_2026-10-30.json"
+   ],
+   "predicate": "preserved_after_bolas_strike",
+   "stage": "tarkir_duel_hedrons",
+   "type": "Claim"
+  },
+  {
+   "continuity": "Tarkir branch transition",
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:A029",
+   "limitation": "Design intent does not guarantee the Nexus artwork depicts Sarkhan actually using the gateway.",
+   "name": "Wizards' card-design account explicitly identifies Ugin's Nexus as the time-travel mechanism built for Sarkhan's story.",
+   "origins": [
+    "pack_a_tarkir_card_scenes_2026-10-30.json"
+   ],
+   "predicate": "story_time_travel_device_for",
+   "stage": "pre_duel_time_travel",
+   "type": "Claim"
+  },
+  {
+   "continuity": "published art-context of shared duel",
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:A030",
+   "limitation": "This proves Wizards used that named card art in the scene; it does not match every reprint art variant or every frame of the duel.",
+   "name": "The official illustrated story captions Crux of Fate (art by Michael Komarck) immediately at the scene where Ugin and Nicol face each other.",
+   "origins": [
+    "pack_a_tarkir_card_scenes_2026-10-30.json"
+   ],
+   "predicate": "captioned_at_scene",
+   "stage": "tarkir_duel_before_divergence",
+   "type": "Claim"
+  },
+  {
+   "continuity": "revised dragonlord-era Tarkir visit",
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:A031",
+   "limitation": "A location art caption is not proof that its illustration shows the 1,280-year-earlier combat itself.",
+   "name": "The Chronicle captions Crucible of the Spirit Dragon art beside the characters' description of Ugin's canyon and protective hedron cocoon.",
+   "origins": [
+    "pack_a_tarkir_card_scenes_2026-10-30.json"
+   ],
+   "predicate": "captioned_at_location",
+   "stage": "ugin_grave_site",
+   "type": "Claim"
+  },
+  {
+   "continuity": "Tarkir grave-site accounts",
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:A032",
+   "limitation": "The site was interpreted as a tomb by characters; Ugin's later survival changes the interpretation of the same place.",
+   "name": "Official Tarkir stories use Tomb of the Spirit Dragon card art in accounts of searching for and returning to Ugin's burial site.",
+   "origins": [
+    "pack_a_tarkir_card_scenes_2026-10-30.json"
+   ],
+   "predicate": "captioned_at_location",
+   "stage": "ugin_grave_site",
+   "type": "Claim"
+  },
+  {
+   "id": "continuity:echoverse",
+   "name": "Echoverse",
+   "origins": [
+    "pack_a_ugin_bolas_evidence_2026-10-30.json"
+   ],
+   "type": "AlternateContinuity"
+  },
+  {
+   "id": "curated:Characters Index.md#dakkon-blackblade",
+   "name": "Characters Index.md#dakkon-blackblade",
+   "origins": [
+    "lore_graph.json"
+   ],
+   "type": "Concept"
+  },
+  {
+   "id": "curated:Characters Index.md#geyadrone-dihada",
+   "name": "Characters Index.md#geyadrone-dihada",
+   "origins": [
+    "lore_graph.json"
+   ],
+   "type": "Concept"
+  },
+  {
+   "id": "curated:Characters Index.md#narset",
+   "name": "Characters Index.md#narset",
+   "origins": [
+    "lore_graph.json"
+   ],
+   "type": "Concept"
+  },
+  {
+   "id": "curated:Characters Index.md#nicol-bolas",
+   "name": "Characters Index.md#nicol-bolas",
+   "origins": [
+    "lore_graph.json"
+   ],
+   "type": "Concept"
+  },
+  {
+   "id": "curated:Characters Index.md#sarkhan-vol",
+   "name": "Characters Index.md#sarkhan-vol",
+   "origins": [
+    "lore_graph.json"
+   ],
+   "type": "Concept"
+  },
+  {
+   "id": "curated:Characters Index.md#ugin",
+   "name": "Characters Index.md#ugin",
+   "origins": [
+    "lore_graph.json"
+   ],
+   "type": "Concept"
+  },
+  {
+   "id": "curated:Planes Index.md#tarkir",
+   "name": "Planes Index.md#tarkir",
+   "origins": [
+    "lore_graph.json"
+   ],
+   "type": "Concept"
+  },
+  {
+   "id": "curated:Planeswalker Dossiers.md#narset",
+   "name": "Planeswalker Dossiers.md#narset",
+   "origins": [
+    "lore_graph.json"
+   ],
+   "type": "Concept"
+  },
+  {
+   "id": "curated:Planeswalker Dossiers.md#nicol-bolas",
+   "name": "Planeswalker Dossiers.md#nicol-bolas",
+   "origins": [
+    "lore_graph.json"
+   ],
+   "type": "Concept"
+  },
+  {
+   "id": "curated:Planeswalker Dossiers.md#sarkhan-vol",
+   "name": "Planeswalker Dossiers.md#sarkhan-vol",
+   "origins": [
+    "lore_graph.json"
+   ],
+   "type": "Concept"
+  },
+  {
+   "id": "curated:Planeswalker Dossiers.md#ugin",
+   "name": "Planeswalker Dossiers.md#ugin",
+   "origins": [
+    "lore_graph.json"
+   ],
+   "type": "Concept"
+  },
+  {
+   "id": "deck:ugin_bolas_elder_dragon_duality",
+   "name": "Ugin & Nicol Bolas - Elder Dragon Duality (Phase 6 Pilot 1)",
+   "origins": [
+    "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "raw_sha256": "01d087aa2819b1ed3c7ac1f64843f76f36b551b72fda62d64218d19c40b0ab45",
+   "status": "UNAPPROVED PROPOSAL - awaiting Cory's review; not approved, not locked, not certified",
+   "type": "DeckProposal"
+  },
+  {
+   "id": "event:dragonstorm_escape",
+   "name": "Meditation Realm escape during Tarkir: Dragonstorm",
+   "origins": [
+    "pack_a_ugin_bolas_evidence_2026-10-30.json"
+   ],
+   "type": "Event"
+  },
+  {
+   "id": "event:elder_dragon_wars",
+   "name": "Elder Dragon Wars",
+   "origins": [
+    "pack_a_ugin_bolas_evidence_2026-10-30.json"
+   ],
+   "type": "Event"
+  },
+  {
+   "id": "event:original_tarkir_clash",
+   "name": "Original-timeline Tarkir clash",
+   "origins": [
+    "pack_a_ugin_bolas_evidence_2026-10-30.json"
+   ],
+   "type": "Event"
+  },
+  {
+   "id": "event:tarkir_duel",
+   "name": "Tarkir confrontation of Ugin and Nicol Bolas",
+   "origins": [
+    "pack_a_tarkir_card_scenes_2026-10-30.json"
+   ],
+   "type": "Event"
+  },
+  {
+   "id": "event:tarkir_rewrite",
+   "name": "Sarkhan's change to Tarkir history",
+   "origins": [
+    "pack_a_ugin_bolas_evidence_2026-10-30.json"
+   ],
+   "type": "Event"
+  },
+  {
+   "id": "event:war_of_the_spark_end",
+   "name": "War of the Spark aftermath",
+   "origins": [
+    "pack_a_ugin_bolas_evidence_2026-10-30.json"
+   ],
+   "type": "Event"
+  },
+  {
+   "id": "literal:pre_duel_time_travel",
+   "name": "pre_duel_time_travel",
+   "origins": [
+    "pack_a_tarkir_card_scenes_2026-10-30.json"
+   ],
+   "type": "Literal"
+  },
+  {
+   "id": "literal:ugin_grave_site",
+   "name": "ugin_grave_site",
+   "origins": [
+    "pack_a_tarkir_card_scenes_2026-10-30.json"
+   ],
+   "type": "Literal"
+  },
+  {
+   "id": "literal:unknown",
+   "name": "unknown",
+   "origins": [
+    "pack_a_ugin_bolas_evidence_2026-10-30.json"
+   ],
+   "type": "Literal"
+  },
+  {
+   "id": "place:corondor_chasm",
+   "name": "Dueling Chasm of Corondor",
+   "origins": [
+    "pack_a_elder_dragon_war_extension_2026-10-30.json"
+   ],
+   "type": "Place"
+  },
+  {
+   "id": "place:crucible_spirit_dragon",
+   "name": "Crucible of the Spirit Dragon",
+   "origins": [
+    "pack_a_tarkir_card_scenes_2026-10-30.json"
+   ],
+   "type": "Place"
+  },
+  {
+   "id": "place:tomb_spirit_dragon",
+   "name": "Tomb of the Spirit Dragon",
+   "origins": [
+    "pack_a_tarkir_card_scenes_2026-10-30.json"
+   ],
+   "type": "Place"
+  },
+  {
+   "id": "place:ugins_tomb_site",
+   "name": "Ugin's hedron-protected grave site",
+   "origins": [
+    "pack_a_tarkir_card_scenes_2026-10-30.json"
+   ],
+   "type": "Place"
+  },
+  {
+   "id": "plane:dominaria",
+   "name": "Dominaria",
+   "origins": [
+    "pack_a_ugin_bolas_evidence_2026-10-30.json"
+   ],
+   "type": "Plane"
+  },
+  {
+   "id": "plane:meditation_realm",
+   "name": "Meditation Realm",
+   "origins": [
+    "pack_a_ugin_bolas_evidence_2026-10-30.json"
+   ],
+   "type": "Plane"
+  },
+  {
+   "id": "plane:tarkir",
+   "name": "Tarkir",
+   "origins": [
+    "pack_a_ugin_bolas_evidence_2026-10-30.json"
+   ],
+   "type": "Plane"
+  },
+  {
+   "id": "source:blood_fire",
+   "name": "Chronicle of Bolas: Blood and Fire",
+   "origins": [
+    "pack_a_elder_dragon_war_extension_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-blood-and-fire-2018-07-18"
+  },
+  {
+   "id": "source:chronicle_blood_fire",
+   "kind": "Wizards official fiction",
+   "name": "Chronicle of Bolas: Blood and Fire",
+   "origins": [
+    "pack_a_ugin_bolas_evidence_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-blood-and-fire-2018-07-18"
+  },
+  {
+   "id": "source:chronicle_familiar",
+   "name": "Chronicle of Bolas: A Familiar Stranger",
+   "origins": [
+    "pack_a_tarkir_card_scenes_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-familiar-stranger-2018-08-01"
+  },
+  {
+   "id": "source:chronicle_perspectives",
+   "kind": "Wizards official fiction",
+   "name": "Chronicle of Bolas: Perspectives",
+   "origins": [
+    "pack_a_ugin_bolas_evidence_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-perspectives-2018-08-08"
+  },
+  {
+   "id": "source:chronicle_twins",
+   "kind": "Wizards official fiction",
+   "name": "Chronicle of Bolas: The Twins",
+   "origins": [
+    "pack_a_ugin_bolas_evidence_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-twins-2018-06-13"
+  },
+  {
+   "id": "source:chronicle_unwritten",
+   "kind": "Wizards official fiction",
+   "name": "Chronicle of Bolas: The Unwritten Now",
+   "origins": [
+    "pack_a_ugin_bolas_evidence_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-unwritten-now-2018-08-15"
+  },
+  {
+   "id": "source:dmu_legends",
+   "name": "The Legends You'll Find in Dominaria United",
+   "origins": [
+    "pack_a_elder_dragon_war_extension_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/feature/legends-youll-find-dominaria-united-2022-09-01"
+  },
+  {
+   "id": "source:dmu_notes",
+   "name": "Dominaria United Release Notes",
+   "origins": [
+    "pack_a_elder_dragon_war_extension_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/feature/dominaria-united-release-notes-2022-08-26"
+  },
+  {
+   "id": "source:fate_reforged_guide",
+   "kind": "Wizards official world guide",
+   "name": "Planeswalker's Guide to Fate Reforged",
+   "origins": [
+    "pack_a_ugin_bolas_evidence_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-fate-reforged-2015-01-07"
+  },
+  {
+   "id": "source:first_lesson",
+   "name": "Chronicle of Bolas: The First Lesson",
+   "origins": [
+    "pack_a_elder_dragon_war_extension_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-first-lesson-2018-06-20"
+  },
+  {
+   "id": "source:journey_nexus",
+   "name": "Journey to the Nexus",
+   "origins": [
+    "pack_a_tarkir_card_scenes_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/feature/journey-nexus-2014-12-10"
+  },
+  {
+   "id": "source:lorwyn2",
+   "kind": "Wizards official fiction",
+   "name": "Lorwyn Eclipsed | Episode 2: Shake Off Slumber",
+   "origins": [
+    "pack_a_ugin_bolas_evidence_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/lorwyn-eclipsed-episode-2-shake-off-slumber"
+  },
+  {
+   "id": "source:m19_design",
+   "name": "More Odds & Ends: Core Set 2019",
+   "origins": [
+    "pack_a_elder_dragon_war_extension_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/making-magic/more-odds-ends-core-set-2019-2018-08-06"
+  },
+  {
+   "id": "source:m19_notes",
+   "name": "Core Set 2019 Release Notes",
+   "origins": [
+    "pack_a_elder_dragon_war_extension_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/feature/core-set-2019-release-notes-2018-06-22"
+  },
+  {
+   "id": "source:mh2_legends",
+   "name": "The Returning Legends of Modern Horizons 2",
+   "origins": [
+    "pack_a_elder_dragon_war_extension_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/feature/returning-legends-modern-horizons-2-2021-06-10"
+  },
+  {
+   "id": "source:nexus_design",
+   "name": "Prose and Khans, Part 2",
+   "origins": [
+    "pack_a_tarkir_card_scenes_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/making-magic/prose-and-khans-part-2-2014-09-22"
+  },
+  {
+   "id": "source:perspectives",
+   "name": "Chronicle of Bolas: Perspectives",
+   "origins": [
+    "pack_a_elder_dragon_war_extension_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-perspectives-2018-08-08"
+  },
+  {
+   "id": "source:reality_guide",
+   "kind": "Wizards official world guide",
+   "name": "Planeswalker's Guide to Reality Fracture",
+   "origins": [
+    "pack_a_ugin_bolas_evidence_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://www.magic.wizards.com/en/news/magic-story/planeswalkers-guide-to-reality-fracture"
+  },
+  {
+   "id": "source:reforged_chain",
+   "name": "The Reforged Chain",
+   "origins": [
+    "pack_a_tarkir_card_scenes_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/feature/reforged-chain-2015-01-21"
+  },
+  {
+   "id": "source:tarkir_plane",
+   "kind": "Wizards official plane guide",
+   "name": "Tarkir plane guide",
+   "origins": [
+    "pack_a_tarkir_card_scenes_2026-10-30.json",
+    "pack_a_ugin_bolas_evidence_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/story/tarkir-plane"
+  },
+  {
+   "id": "source:tarkir_story_summary",
+   "name": "The Story of Tarkir Block",
+   "origins": [
+    "pack_a_tarkir_card_scenes_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/story-tarkir-block-2015-04-29"
+  },
+  {
+   "id": "source:tdm7",
+   "kind": "Wizards official fiction",
+   "name": "Tarkir: Dragonstorm | Episode 7: Return",
+   "origins": [
+    "pack_a_ugin_bolas_evidence_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/tarkir-dragonstorm-episode-7-return"
+  },
+  {
+   "id": "source:war_games",
+   "kind": "Wizards official design commentary",
+   "name": "Even More War Games",
+   "origins": [
+    "pack_a_ugin_bolas_evidence_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/making-magic/even-more-war-games-2019-05-06"
+  }
+ ],
+ "problems": [],
+ "schema": "multiverse-claim-graph/v1",
+ "stats": {
+  "claims_by_status": {
+   "ALTERNATE_CONTINUITY": 1,
+   "CANON_CONFIRMED": 28,
+   "CANON_DISPUTED": 2,
+   "OPEN_QUESTION": 1
+  },
+  "curated_bridges": 11,
+  "edges": 271,
+  "literal_objects": 3,
+  "node_types": {
+   "AlternateContinuity": 1,
+   "Card": 90,
+   "CardTheme": 1,
+   "Character": 14,
+   "Claim": 32,
+   "Concept": 11,
+   "DeckProposal": 1,
+   "Event": 6,
+   "Literal": 3,
+   "Object": 1,
+   "Place": 4,
+   "Plane": 3,
+   "Source": 23
+  },
+  "nodes": 190,
+  "non_wizards_sources": 0,
+  "relations": 37,
+  "wizards_official_sources": 23
+ }
+}
