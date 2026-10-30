@@ -12,7 +12,10 @@ Routes:
   lore TERM   cited claim-graph relationships (data/multiverse_graph/multiverse_graph.json),
               grouped by canon status; disputed, open and alternate claims are never flattened
   ask TEXT    free text: tries an exact card name, then a graph entity, then simple patterns
-              ("who is X's brother", "who killed/destroyed X", "what happened to X")
+              ("who is X's brother", "who killed/destroyed X", "what happened to X"), and
+              Commander deck-construction questions ("can X be my commander", "can X and Y be
+              commanders together", "can X go in a Y deck") via scripts/commander_rules.py,
+              which cites the Comprehensive Rules (2026-09-25)
 
 Confidence levels:
   VERIFIED   every fact comes from a cited, CANON_CONFIRMED claim or a verified Scryfall record
@@ -155,7 +158,7 @@ def lore(term: str, relation: str | None = None, direction: str | None = None) -
 
 
 PATTERNS = [  # (regex, relation, direction from the named entity's point of view)
-    (re.compile(r"who (?:is|are|was|were) (.+?)'s (?:brother|sister|sibling)s?\??$", re.I), "sibling_of", None),
+    (re.compile(r"who (?:is|are|was|were) (.+?)'s (?:brother|sister|sibling|twin)s?\??$", re.I), "sibling_of", None),
     (re.compile(r"who (?:is|was) (.+?)'s (?:wife|husband|spouse)\??$", re.I), "spouse_of", None),
     (re.compile(r"who (?:defeated|slew|beat) (?:the )?(.+?)\??$", re.I), "defeated_by", "out"),
     (re.compile(r"who (?:created|made|built) (?:the )?(.+?)\??$", re.I), "created", "in"),
@@ -163,15 +166,38 @@ PATTERNS = [  # (regex, relation, direction from the named entity's point of vie
     (re.compile(r"where did (?:the )?(.+?) come from\??$", re.I), "origin", "out"),
 ]
 
-FALLBACK = {"created": ("created_by", "out")}  # "who created X" may be stored as X created_by Y
+FALLBACK = {"created": ("created_by", "out"),  # "who created X" may be stored as X created_by Y
+            "sibling_of": ("twin_sibling_of", None)}  # Pack A stores Ugin/Bolas as twin_sibling_of
 
 
 def _is_card(name: str) -> bool:
     return name.lower() in card_index()
 
 
+RULES_PATTERNS = [  # Commander deck-construction questions, answered by scripts/commander_rules.py
+    (re.compile(r"^can (.+?) and (.+?) (?:be (?:my )?(?:co-?)?commanders(?: together)?|partner(?: together)?)\??$", re.I), "pair"),
+    (re.compile(r"^can (.+?) be (?:my |a )?commander\??$", re.I), "single"),
+    (re.compile(r"^can (?:i (?:play|run|include) )?(.+?) (?:go )?in (?:a |an |my )?(.+?) deck\??$", re.I), "include"),
+]
+
+
+def _rules(kind: str, m) -> dict:
+    import commander_rules  # local import: commander_rules imports this module
+    if kind == "pair":
+        return commander_rules.commander([m.group(1), m.group(2)])
+    if kind == "single":
+        return commander_rules.commander([m.group(1)])
+    return commander_rules.include(m.group(1), [x.strip() for x in re.split(r" and | \+ ", m.group(2))])
+
+
 def ask(text: str) -> dict:
     q = text.strip()
+    for rx, kind in RULES_PATTERNS:
+        m = rx.search(q)
+        if m:
+            env = _rules(kind, m)
+            env.update(route="ask->rules:" + kind, query=q)
+            return env
     for rx, rel, direction in PATTERNS:
         m = rx.search(q)
         if m:
