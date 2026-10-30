@@ -7,7 +7,7 @@
   "HYPOTHETICAL": "Creative or deckbuilding connection; never canon.",
   "OPEN_QUESTION": "Primary sources leave the matter unresolved; do not assert either way."
  },
- "content_sha256": "6a0505e3df8f2de9c1fbc2d8c8dfd80e3af34fe2b1ebefc7dfa1a4111e1e0873",
+ "content_sha256": "6bd734a8f6c993fa97e3439959547286e2e850d45bee9a2e70cbfed278a0299c",
  "edges": [
   {
    "artists": [
@@ -4843,6 +4843,8 @@
   },
   {
    "claim": "A001",
+   "era": "primordial_birth",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:ugin",
    "grade": "CANON_CONFIRMED",
    "relation": "twin_sibling_of",
@@ -4853,6 +4855,8 @@
   },
   {
    "claim": "A002",
+   "era": "early_lives",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:nicol_bolas",
    "grade": "CANON_CONFIRMED",
    "relation": "contrasted_with",
@@ -4864,6 +4868,8 @@
   },
   {
    "claim": "A003",
+   "era": "elder_dragon_wars",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "event:elder_dragon_wars",
    "grade": "CANON_DISPUTED",
    "relation": "survivors_according_to_bolas",
@@ -4874,6 +4880,8 @@
   },
   {
    "claim": "A003",
+   "era": "elder_dragon_wars",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "event:elder_dragon_wars",
    "grade": "CANON_DISPUTED",
    "relation": "survivors_according_to_bolas",
@@ -4884,6 +4892,8 @@
   },
   {
    "claim": "A003",
+   "era": "elder_dragon_wars",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "event:elder_dragon_wars",
    "grade": "CANON_DISPUTED",
    "relation": "survivors_according_to_bolas",
@@ -4894,6 +4904,8 @@
   },
   {
    "claim": "A003",
+   "era": "elder_dragon_wars",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "event:elder_dragon_wars",
    "grade": "CANON_DISPUTED",
    "relation": "survivors_according_to_bolas",
@@ -4904,6 +4916,8 @@
   },
   {
    "claim": "A004",
+   "era": "early_planeswalking",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:nicol_bolas",
    "grade": "CANON_DISPUTED",
    "relation": "planeswalker_spark_awakening_recounted",
@@ -4914,6 +4928,8 @@
   },
   {
    "claim": "A005",
+   "era": "original_tarkir_clash",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:nicol_bolas",
    "grade": "CANON_CONFIRMED",
    "relation": "fought",
@@ -4924,6 +4940,8 @@
   },
   {
    "claim": "A006",
+   "era": "tarkir_rewrite",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:sarkhan_vol",
    "grade": "CANON_CONFIRMED",
    "relation": "saved_from_death",
@@ -4934,6 +4952,8 @@
   },
   {
    "claim": "A007",
+   "era": "ancient_meditation_realm",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:ugin",
    "grade": "CANON_CONFIRMED",
    "relation": "opposed",
@@ -4944,6 +4964,8 @@
   },
   {
    "claim": "A008",
+   "era": "war_of_the_spark_end",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:ugin",
    "grade": "CANON_CONFIRMED",
    "relation": "jailed",
@@ -4954,6 +4976,8 @@
   },
   {
    "claim": "A009",
+   "era": "dragonstorm_escape",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:nicol_bolas",
    "grade": "CANON_CONFIRMED",
    "relation": "escaped",
@@ -4965,6 +4989,8 @@
   },
   {
    "claim": "A010",
+   "era": "dragonstorm_escape",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:ugin",
    "grade": "CANON_CONFIRMED",
    "relation": "returned_to",
@@ -4975,6 +5001,8 @@
   },
   {
    "claim": "A011",
+   "era": "post_dragonstorm",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:nicol_bolas",
    "grade": "OPEN_QUESTION",
    "relation": "current_spark_state",
@@ -4985,6 +5013,8 @@
   },
   {
    "claim": "A012",
+   "era": "reality_fracture",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "continuity:echoverse",
    "grade": "ALTERNATE_CONTINUITY",
    "relation": "constructed_without",
@@ -4995,6 +5025,8 @@
   },
   {
    "claim": "A013",
+   "era": "early_lives",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:ugin",
    "grade": "CANON_CONFIRMED",
    "relation": "encountered_elder_siblings",
@@ -5005,6 +5037,8 @@
   },
   {
    "claim": "A013",
+   "era": "early_lives",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:ugin",
    "grade": "CANON_CONFIRMED",
    "relation": "encountered_elder_siblings",
@@ -5015,6 +5049,8 @@
   },
   {
    "claim": "A013",
+   "era": "early_lives",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:ugin",
    "grade": "CANON_CONFIRMED",
    "relation": "encountered_elder_siblings",
@@ -5025,6 +5061,8 @@
   },
   {
    "claim": "A014",
+   "era": "pre_war_escalation",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:vaevictis_asmadi",
    "grade": "CANON_CONFIRMED",
    "relation": "descendants_raided",
@@ -5035,6 +5073,8 @@
   },
   {
    "claim": "A015",
+   "era": "elder_dragon_wars_escalation",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:nicol_bolas",
    "grade": "CANON_CONFIRMED",
    "relation": "provoked_dragon_clans",
@@ -5045,6 +5085,8 @@
   },
   {
    "claim": "A015",
+   "era": "elder_dragon_wars_escalation",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:nicol_bolas",
    "grade": "CANON_CONFIRMED",
    "relation": "provoked_dragon_clans",
@@ -5055,6 +5097,8 @@
   },
   {
    "claim": "A016",
+   "era": "elder_dragon_wars",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:arcades_sabboth",
    "grade": "CANON_CONFIRMED",
    "relation": "entered_war",
@@ -5065,6 +5109,8 @@
   },
   {
    "claim": "A017",
+   "era": "elder_dragon_wars",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:nicol_bolas",
    "grade": "CANON_CONFIRMED",
    "relation": "instigated",
@@ -5076,6 +5122,8 @@
   },
   {
    "claim": "A018",
+   "era": "elder_dragon_wars_aftermath",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:piru",
    "grade": "CANON_CONFIRMED",
    "relation": "survived_with",
@@ -5087,6 +5135,8 @@
   },
   {
    "claim": "A019",
+   "era": "elder_dragon_lineages",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:piru",
    "grade": "CANON_CONFIRMED",
    "relation": "mate_and_ancestor_of",
@@ -5097,6 +5147,8 @@
   },
   {
    "claim": "A019",
+   "era": "elder_dragon_lineages",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:piru",
    "grade": "CANON_CONFIRMED",
    "relation": "mate_and_ancestor_of",
@@ -5107,6 +5159,8 @@
   },
   {
    "claim": "A020",
+   "era": "post_war_corondor",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:geyadrone_dihada",
    "grade": "CANON_CONFIRMED",
    "relation": "bound_to_service",
@@ -5117,6 +5171,8 @@
   },
   {
    "claim": "A020",
+   "era": "post_war_corondor",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:geyadrone_dihada",
    "grade": "CANON_CONFIRMED",
    "relation": "bound_to_service",
@@ -5127,6 +5183,8 @@
   },
   {
    "claim": "A021",
+   "era": "post_war_corondor",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:dakkon",
    "grade": "CANON_CONFIRMED",
    "relation": "slew_and_banished",
@@ -5137,6 +5195,8 @@
   },
   {
    "claim": "A021",
+   "era": "post_war_corondor",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:dakkon",
    "grade": "CANON_CONFIRMED",
    "relation": "slew_and_banished",
@@ -5147,6 +5207,8 @@
   },
   {
    "claim": "A022",
+   "era": "post_war_corondor",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:piru",
    "grade": "CANON_CONFIRMED",
    "relation": "death_created",
@@ -5157,6 +5219,8 @@
   },
   {
    "claim": "A023",
+   "era": "primeval_lineages",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:palladia_mors",
    "grade": "CANON_CONFIRMED",
    "relation": "mother_of",
@@ -5167,6 +5231,8 @@
   },
   {
    "claim": "A024",
+   "era": "post_war_primevals",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:rith",
    "grade": "CANON_CONFIRMED",
    "relation": "primeval_dragon_after",
@@ -5177,6 +5243,8 @@
   },
   {
    "claim": "A025",
+   "era": "pre_duel_time_travel",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:sarkhan_vol",
    "grade": "CANON_CONFIRMED",
    "relation": "traveled_into_past",
@@ -5188,6 +5256,8 @@
   },
   {
    "claim": "A026",
+   "era": "tarkir_duel_before_divergence",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:nicol_bolas",
    "grade": "CANON_CONFIRMED",
    "relation": "confronted",
@@ -5199,6 +5269,8 @@
   },
   {
    "claim": "A027",
+   "era": "tarkir_duel_yasova_spell",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:yasova_dragonclaw",
    "grade": "CANON_CONFIRMED",
    "relation": "redirected_dragons_against",
@@ -5209,6 +5281,8 @@
   },
   {
    "claim": "A028",
+   "era": "tarkir_duel_hedrons",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:sarkhan_vol",
    "grade": "CANON_CONFIRMED",
    "relation": "preserved_after_bolas_strike",
@@ -5221,6 +5295,8 @@
   },
   {
    "claim": "A029",
+   "era": "pre_duel_time_travel",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "artifact:ugins_nexus",
    "grade": "CANON_CONFIRMED",
    "relation": "story_time_travel_device_for",
@@ -5232,6 +5308,8 @@
   },
   {
    "claim": "A030",
+   "era": "tarkir_duel_before_divergence",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "cardtheme:crux_of_fate",
    "grade": "CANON_CONFIRMED",
    "relation": "captioned_at_scene",
@@ -5242,6 +5320,8 @@
   },
   {
    "claim": "A031",
+   "era": "ugin_grave_site",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "place:crucible_spirit_dragon",
    "grade": "CANON_CONFIRMED",
    "relation": "captioned_at_location",
@@ -5252,6 +5332,8 @@
   },
   {
    "claim": "A032",
+   "era": "ugin_grave_site",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "place:tomb_spirit_dragon",
    "grade": "CANON_CONFIRMED",
    "relation": "captioned_at_location",
@@ -5263,6 +5345,8 @@
   },
   {
    "claim": "B001",
+   "era": "brothers_war",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:urza",
    "grade": "CANON_CONFIRMED",
    "relation": "sibling_of",
@@ -5274,6 +5358,8 @@
   },
   {
    "claim": "B002",
+   "era": "post_war_69_AR",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:kayla_bin_kroog",
    "grade": "CANON_CONFIRMED",
    "relation": "spouse_of",
@@ -5284,6 +5370,8 @@
   },
   {
    "claim": "B003",
+   "era": "brothers_war",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:harbin",
    "grade": "CANON_CONFIRMED",
    "relation": "child_of",
@@ -5294,6 +5382,8 @@
   },
   {
    "claim": "B003",
+   "era": "brothers_war",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:harbin",
    "grade": "CANON_CONFIRMED",
    "relation": "child_of",
@@ -5304,6 +5394,8 @@
   },
   {
    "claim": "B004",
+   "era": "brothers_war",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:tawnos",
    "grade": "CANON_CONFIRMED",
    "relation": "assistant_of",
@@ -5314,6 +5406,8 @@
   },
   {
    "claim": "B005",
+   "era": "brothers_war",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:ashnod",
    "grade": "CANON_CONFIRMED",
    "relation": "worked_for",
@@ -5324,6 +5418,8 @@
   },
   {
    "claim": "B006",
+   "era": "brothers_war",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:mishra",
    "grade": "CANON_CONFIRMED",
    "relation": "corrupted_by",
@@ -5335,6 +5431,8 @@
   },
   {
    "claim": "B006",
+   "era": "brothers_war",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:mishra",
    "grade": "CANON_CONFIRMED",
    "relation": "corrupted_by",
@@ -5346,6 +5444,8 @@
   },
   {
    "claim": "B007",
+   "era": "sylex_blast",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:urza",
    "grade": "CANON_CONFIRMED",
    "relation": "activated",
@@ -5357,6 +5457,8 @@
   },
   {
    "claim": "B008",
+   "era": "sylex_blast",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "event:sylex_blast",
    "grade": "CANON_CONFIRMED",
    "relation": "destroyed",
@@ -5368,6 +5470,8 @@
   },
   {
    "claim": "B009",
+   "era": "sylex_blast",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:urza",
    "grade": "CANON_CONFIRMED",
    "relation": "became_planeswalker_at",
@@ -5379,6 +5483,8 @@
   },
   {
    "claim": "B010",
+   "era": "sylex_blast",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "artifact:mightstone_and_weakstone",
    "grade": "CANON_CONFIRMED",
    "relation": "became_eyes_of",
@@ -5389,6 +5495,8 @@
   },
   {
    "claim": "B011",
+   "era": "sylex_blast",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "event:sylex_blast",
    "grade": "CANON_CONFIRMED",
    "relation": "preceded",
@@ -5399,6 +5507,8 @@
   },
   {
    "claim": "B012",
+   "era": "pre_war",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "artifact:golgothian_sylex",
    "grade": "CANON_DISPUTED",
    "relation": "origin",
@@ -5409,6 +5519,8 @@
   },
   {
    "claim": "B013",
+   "era": "post_war",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:urza",
    "grade": "CANON_CONFIRMED",
    "relation": "vendetta_against",
@@ -5419,6 +5531,8 @@
   },
   {
    "claim": "B013",
+   "era": "post_war",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:urza",
    "grade": "CANON_CONFIRMED",
    "relation": "vendetta_against",
@@ -5429,6 +5543,8 @@
   },
   {
    "claim": "B014",
+   "era": "pre_war",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:urza",
    "grade": "CANON_CONFIRMED",
    "relation": "obsessed_with",
@@ -5439,6 +5555,8 @@
   },
   {
    "claim": "B015",
+   "era": "phyrexian_invasion_era",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:urza",
    "grade": "CANON_CONFIRMED",
    "relation": "perished_with",
@@ -5449,6 +5567,8 @@
   },
   {
    "claim": "B016",
+   "era": "present_2022_frame",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:teferi",
    "grade": "CANON_CONFIRMED",
    "relation": "witnessed_via_time_travel",
@@ -5460,6 +5580,8 @@
   },
   {
    "claim": "B017",
+   "era": "present_2022_frame",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:ajani",
    "grade": "CANON_CONFIRMED",
    "relation": "destroyed",
@@ -5471,6 +5593,8 @@
   },
   {
    "claim": "B018",
+   "era": "present_2022_frame",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:saheeli",
    "grade": "CANON_CONFIRMED",
    "relation": "created",
@@ -5482,6 +5606,8 @@
   },
   {
    "claim": "C001",
+   "era": "first_invasion",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "artifact:weatherlight",
    "grade": "CANON_CONFIRMED",
    "relation": "instrumental_in_thwarting",
@@ -5492,6 +5618,8 @@
   },
   {
    "claim": "C002",
+   "era": "weatherlight_saga",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:karn",
    "grade": "CANON_CONFIRMED",
    "relation": "part_of",
@@ -5502,6 +5630,8 @@
   },
   {
    "claim": "C003",
+   "era": "weatherlight_saga",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "artifact:weatherlight",
    "grade": "CANON_CONFIRMED",
    "relation": "has_capability",
@@ -5512,6 +5642,8 @@
   },
   {
    "claim": "C004",
+   "era": "post_brothers_war",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:urza",
    "grade": "CANON_CONFIRMED",
    "relation": "created",
@@ -5522,6 +5654,8 @@
   },
   {
    "claim": "C005",
+   "era": "post_invasion",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:karn",
    "grade": "CANON_CONFIRMED",
    "relation": "created",
@@ -5533,6 +5667,8 @@
   },
   {
    "claim": "C006",
+   "era": "post_invasion",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:karn",
    "grade": "CANON_CONFIRMED",
    "relation": "accidentally_carried",
@@ -5544,6 +5680,8 @@
   },
   {
    "claim": "C007",
+   "era": "new_phyrexia",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "concept:glistening_oil",
    "grade": "CANON_CONFIRMED",
    "relation": "corrupted",
@@ -5554,6 +5692,8 @@
   },
   {
    "claim": "C008",
+   "era": "pre_brothers_war",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:yawgmoth",
    "grade": "CANON_CONFIRMED",
    "relation": "native_of",
@@ -5564,6 +5704,8 @@
   },
   {
    "claim": "C009",
+   "era": "pre_brothers_war",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:yawgmoth",
    "grade": "CANON_CONFIRMED",
    "relation": "ruled",
@@ -5574,6 +5716,8 @@
   },
   {
    "claim": "C010",
+   "era": "origin",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "plane:old_phyrexia",
    "grade": "OPEN_QUESTION",
    "relation": "created_by",
@@ -5584,6 +5728,8 @@
   },
   {
    "claim": "C011",
+   "era": "first_invasion",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:yawgmoth",
    "grade": "CANON_CONFIRMED",
    "relation": "invaded",
@@ -5594,6 +5740,8 @@
   },
   {
    "claim": "C012",
+   "era": "first_invasion",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:yawgmoth",
    "grade": "CANON_DISPUTED",
    "relation": "defeated_by",
@@ -5606,6 +5754,8 @@
   },
   {
    "claim": "C012",
+   "era": "first_invasion",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:yawgmoth",
    "grade": "CANON_DISPUTED",
    "relation": "defeated_by",
@@ -5618,6 +5768,8 @@
   },
   {
    "claim": "C012",
+   "era": "first_invasion",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:yawgmoth",
    "grade": "CANON_DISPUTED",
    "relation": "defeated_by",
@@ -5630,6 +5782,8 @@
   },
   {
    "claim": "C013",
+   "era": "first_invasion",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "plane:old_phyrexia",
    "grade": "CANON_IMPLIED",
    "relation": "destroyed_in",
@@ -5640,6 +5794,8 @@
   },
   {
    "claim": "C014",
+   "era": "first_invasion",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "faction:coalition",
    "grade": "CANON_CONFIRMED",
    "relation": "formed_during",
@@ -5650,6 +5806,8 @@
   },
   {
    "claim": "C015",
+   "era": "dominaria_2018",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:jhoira",
    "grade": "CANON_CONFIRMED",
    "relation": "rebuilt",
@@ -5660,6 +5818,8 @@
   },
   {
    "claim": "C016",
+   "era": "dominaria_united",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:shanna",
    "grade": "CANON_CONFIRMED",
    "relation": "captain_of",
@@ -5670,6 +5830,8 @@
   },
   {
    "claim": "C017",
+   "era": "dominaria_united",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:jhoira",
    "grade": "CANON_CONFIRMED",
    "relation": "leader_of",
@@ -5680,6 +5842,8 @@
   },
   {
    "claim": "C018",
+   "era": "dominaria_united",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:jodah",
    "grade": "CANON_CONFIRMED",
    "relation": "rallies_for",
@@ -5690,6 +5854,8 @@
   },
   {
    "claim": "C019",
+   "era": "post_brothers_war",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:jodah",
    "grade": "CANON_IMPLIED",
    "relation": "born_in_aftermath_of",
@@ -5700,6 +5866,8 @@
   },
   {
    "claim": "C020",
+   "era": "dominaria_united",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:sheoldred",
    "grade": "CANON_CONFIRMED",
    "relation": "leads",
@@ -5710,6 +5878,8 @@
   },
   {
    "claim": "C021",
+   "era": "dominaria_united",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:raff_capashen",
    "grade": "CANON_CONFIRMED",
    "relation": "crew_of",
@@ -5720,6 +5890,8 @@
   },
   {
    "claim": "C022",
+   "era": "dominaria_united",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "faction:house_capashen",
    "grade": "CANON_CONFIRMED",
    "relation": "descends_to",
@@ -5730,6 +5902,8 @@
   },
   {
    "claim": "C023",
+   "era": "pre_brothers_war",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "literal:urza_mishra",
    "grade": "CANON_CONFIRMED",
    "relation": "discovered",
@@ -5740,6 +5914,8 @@
   },
   {
    "claim": "C024",
+   "era": "pre_brothers_war",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "concept:powerstones",
    "grade": "CANON_CONFIRMED",
    "relation": "found_at",
@@ -5750,6 +5926,8 @@
   },
   {
    "claim": "C025",
+   "era": "post_brothers_war",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:urza",
    "grade": "CANON_CONFIRMED",
    "relation": "discovered",
@@ -5760,6 +5938,8 @@
   },
   {
    "claim": "C026",
+   "era": "time_spiral",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "plane:dominaria",
    "grade": "CANON_CONFIRMED",
    "relation": "epicenter_of",
@@ -5770,6 +5950,8 @@
   },
   {
    "claim": "C027",
+   "era": "dominaria_2018",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:teferi",
    "grade": "CANON_CONFIRMED",
    "relation": "lost_and_reclaimed",
@@ -5780,6 +5962,8 @@
   },
   {
    "claim": "C028",
+   "era": "new_phyrexia",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:elesh_norn",
    "grade": "CANON_CONFIRMED",
    "relation": "sought_leader_like",
@@ -5790,6 +5974,8 @@
   },
   {
    "claim": "RTD001",
+   "era": "rtd_2018",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:jhoira",
    "grade": "CANON_CONFIRMED",
    "relation": "salvaged",
@@ -5801,6 +5987,8 @@
   },
   {
    "claim": "RTD002",
+   "era": "rtd_2018",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:nissa_revane",
    "grade": "CANON_CONFIRMED",
    "relation": "left",
@@ -5811,6 +5999,8 @@
   },
   {
    "claim": "RTD003",
+   "era": "rtd_2018",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:liliana_vess",
    "grade": "CANON_CONFIRMED",
    "relation": "sought_to_kill",
@@ -5821,6 +6011,8 @@
   },
   {
    "claim": "RTD004",
+   "era": "rtd_2018",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:belzenlok",
    "grade": "CANON_CONFIRMED",
    "relation": "supplanted",
@@ -5831,6 +6023,8 @@
   },
   {
    "claim": "RTD005",
+   "era": "rtd_2018",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:belzenlok",
    "grade": "CANON_CONFIRMED",
    "relation": "leads",
@@ -5841,6 +6035,8 @@
   },
   {
    "claim": "RTD006",
+   "era": "rtd_2018",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:belzenlok",
    "grade": "CANON_DISPUTED",
    "relation": "claimed_forged",
@@ -5852,6 +6048,8 @@
   },
   {
    "claim": "RTD007",
+   "era": "liliana_backstory",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:liliana_vess",
    "grade": "CANON_CONFIRMED",
    "relation": "made_undead",
@@ -5862,6 +6060,8 @@
   },
   {
    "claim": "RTD008",
+   "era": "liliana_backstory",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:liliana_vess",
    "grade": "CANON_CONFIRMED",
    "relation": "spark_ignited_leaving",
@@ -5872,6 +6072,8 @@
   },
   {
    "claim": "RTD009",
+   "era": "liliana_backstory",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:raven_man",
    "grade": "CANON_CONFIRMED",
    "relation": "manipulated",
@@ -5882,6 +6084,8 @@
   },
   {
    "claim": "RTD010",
+   "era": "rtd_2018",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:belzenlok",
    "grade": "CANON_CONFIRMED",
    "relation": "made_lich",
@@ -5892,6 +6096,8 @@
   },
   {
    "claim": "RTD011",
+   "era": "rtd_2018",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:liliana_vess",
    "grade": "CANON_CONFIRMED",
    "relation": "laid_to_rest",
@@ -5902,6 +6108,8 @@
   },
   {
    "claim": "RTD012",
+   "era": "rtd_2018",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:shanna",
    "grade": "CANON_CONFIRMED",
    "relation": "descendant_of",
@@ -5912,6 +6120,8 @@
   },
   {
    "claim": "RTD013",
+   "era": "rtd_2018",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:danitha_capashen",
    "grade": "CANON_CONFIRMED",
    "relation": "related_to",
@@ -5922,6 +6132,8 @@
   },
   {
    "claim": "RTD014",
+   "era": "pre_invasion",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:urza",
    "grade": "CANON_CONFIRMED",
    "relation": "created",
@@ -5932,6 +6144,8 @@
   },
   {
    "claim": "RTD015",
+   "era": "rtd_2018",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:tiana",
    "grade": "CANON_CONFIRMED",
    "relation": "reactivated",
@@ -5942,6 +6156,8 @@
   },
   {
    "claim": "RTD016",
+   "era": "rtd_2018",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:tiana",
    "grade": "CANON_CONFIRMED",
    "relation": "guardian_of",
@@ -5952,6 +6168,8 @@
   },
   {
    "claim": "RTD017",
+   "era": "rtd_2018",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:arvad",
    "grade": "CANON_CONFIRMED",
    "relation": "is",
@@ -5962,6 +6180,8 @@
   },
   {
    "claim": "RTD018",
+   "era": "rtd_2018",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "artifact:weatherlight_powerstone",
    "grade": "CANON_IMPLIED",
    "relation": "drew",
@@ -5972,6 +6192,8 @@
   },
   {
    "claim": "RTD019",
+   "era": "rtd_2018",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:slimefoot",
    "grade": "CANON_CONFIRMED",
    "relation": "grew_aboard",
@@ -5982,6 +6204,8 @@
   },
   {
    "claim": "RTD020",
+   "era": "scars_of_mirrodin",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:venser",
    "grade": "CANON_CONFIRMED",
    "relation": "gave_spark_to",
@@ -5992,6 +6216,8 @@
   },
   {
    "claim": "RTD021",
+   "era": "rtd_2018",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:ajani",
    "grade": "CANON_DISPUTED",
    "relation": "assessed",
@@ -6003,6 +6229,8 @@
   },
   {
    "claim": "RTD022",
+   "era": "elder_dragon_war",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "artifact:blackblade",
    "grade": "CANON_IMPLIED",
    "relation": "killed",
@@ -6013,6 +6241,8 @@
   },
   {
    "claim": "RTD023",
+   "era": "rtd_2018",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "artifact:blackblade",
    "grade": "CANON_CONFIRMED",
    "relation": "is",
@@ -6023,6 +6253,8 @@
   },
   {
    "claim": "RTD024",
+   "era": "first_invasion",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:teferi",
    "grade": "CANON_CONFIRMED",
    "relation": "phased_out",
@@ -6033,6 +6265,8 @@
   },
   {
    "claim": "RTD025",
+   "era": "temporal_rifts_mending",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:teferi",
    "grade": "CANON_CONFIRMED",
    "relation": "spent_spark_on",
@@ -6044,6 +6278,8 @@
   },
   {
    "claim": "RTD026",
+   "era": "rtd_2018",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:niambi",
    "grade": "CANON_CONFIRMED",
    "relation": "daughter_of",
@@ -6054,6 +6290,8 @@
   },
   {
    "claim": "RTD027",
+   "era": "rtd_2018",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:niambi",
    "grade": "CANON_CONFIRMED",
    "relation": "made",
@@ -6064,6 +6302,8 @@
   },
   {
    "claim": "RTD028",
+   "era": "rtd_2018",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:teferi",
    "grade": "CANON_IMPLIED",
    "relation": "regained_spark_from",
@@ -6074,6 +6314,8 @@
   },
   {
    "claim": "RTD029",
+   "era": "rtd_2018",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:jaya_ballard",
    "grade": "CANON_CONFIRMED",
    "relation": "disguised_as",
@@ -6084,6 +6326,8 @@
   },
   {
    "claim": "RTD030",
+   "era": "rtd_2018",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:chandra_nalaar",
    "grade": "CANON_CONFIRMED",
    "relation": "sought",
@@ -6094,6 +6338,8 @@
   },
   {
    "claim": "RTD031",
+   "era": "rtd_2018",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:karn",
    "grade": "CANON_CONFIRMED",
    "relation": "excavated",
@@ -6104,6 +6350,8 @@
   },
   {
    "claim": "RTD032",
+   "era": "rtd_2018",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "artifact:rtd_sylex",
    "grade": "CANON_IMPLIED",
    "relation": "identified_with",
@@ -6114,6 +6362,8 @@
   },
   {
    "claim": "RTD033",
+   "era": "rtd_2018",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "artifact:rtd_sylex",
    "grade": "CANON_DISPUTED",
    "relation": "origin",
@@ -6124,6 +6374,8 @@
   },
   {
    "claim": "RTD034",
+   "era": "rtd_2018",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:multani",
    "grade": "CANON_CONFIRMED",
    "relation": "opposed",
@@ -6134,6 +6386,8 @@
   },
   {
    "claim": "RTD035",
+   "era": "first_invasion",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "place:cabal_stronghold",
    "grade": "CANON_CONFIRMED",
    "relation": "originally",
@@ -6144,6 +6398,8 @@
   },
   {
    "claim": "RTD036",
+   "era": "rtd_2018",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:liliana_vess",
    "grade": "CANON_CONFIRMED",
    "relation": "killed",
@@ -6154,6 +6410,8 @@
   },
   {
    "claim": "RTD037",
+   "era": "rtd_2018",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "event:belzenlok_death",
    "grade": "CANON_CONFIRMED",
    "relation": "involved",
@@ -6164,6 +6422,8 @@
   },
   {
    "claim": "RTD038",
+   "era": "rtd_2018",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:nicol_bolas",
    "grade": "CANON_CONFIRMED",
    "relation": "holds_pact_of",
@@ -6174,6 +6434,8 @@
   },
   {
    "claim": "RTD039",
+   "era": "rtd_2018",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:radha",
    "grade": "CANON_CONFIRMED",
    "relation": "freed_from",
@@ -6184,6 +6446,8 @@
   },
   {
    "claim": "U001",
+   "era": "ancient",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:ugin",
    "grade": "CANON_CONFIRMED",
    "relation": "sealed_eldrazi_with",
@@ -6195,6 +6459,8 @@
   },
   {
    "claim": "U001",
+   "era": "ancient",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:ugin",
    "grade": "CANON_CONFIRMED",
    "relation": "sealed_eldrazi_with",
@@ -6206,6 +6472,8 @@
   },
   {
    "claim": "U002",
+   "era": "ancient",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:nahiri",
    "grade": "CANON_CONFIRMED",
    "relation": "co_named",
@@ -6216,6 +6484,8 @@
   },
   {
    "claim": "U003",
+   "era": "ancient",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:nahiri",
    "grade": "CANON_CONFIRMED",
    "relation": "stood_vigil_over",
@@ -6226,6 +6496,8 @@
   },
   {
    "claim": "U004",
+   "era": "ancient",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:ugin",
    "grade": "CANON_CONFIRMED",
    "relation": "promised_to_return_to",
@@ -6236,6 +6508,8 @@
   },
   {
    "claim": "U005",
+   "era": "pre-Tarkir",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:ugin",
    "grade": "CANON_CONFIRMED",
    "relation": "absent_when_eldrazi_nearly_escaped",
@@ -6246,6 +6520,8 @@
   },
   {
    "claim": "U006",
+   "era": "Khans of Tarkir",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:sorin_markov",
    "grade": "CANON_CONFIRMED",
    "relation": "sought_old_ally",
@@ -6257,6 +6533,8 @@
   },
   {
    "claim": "U007",
+   "era": "Dragons of Tarkir",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:sorin_markov",
    "grade": "CANON_CONFIRMED",
    "relation": "met_awakened",
@@ -6267,6 +6545,8 @@
   },
   {
    "claim": "U008",
+   "era": "Dragons of Tarkir",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:sarkhan_vol",
    "grade": "CANON_CONFIRMED",
    "relation": "left_dormant",
@@ -6277,6 +6557,8 @@
   },
   {
    "claim": "U009",
+   "era": "Dragons of Tarkir",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:narset",
    "grade": "CANON_CONFIRMED",
    "relation": "sought_counsel_of",
@@ -6287,6 +6569,8 @@
   },
   {
    "claim": "U010",
+   "era": "Battle for Zendikar",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:jace_beleren",
    "grade": "CANON_CONFIRMED",
    "relation": "journeyed_to",
@@ -6297,6 +6581,8 @@
   },
   {
    "claim": "U011",
+   "era": "Battle for Zendikar",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:ugin",
    "grade": "CANON_CONFIRMED",
    "relation": "gave_directives_to",
@@ -6307,6 +6593,8 @@
   },
   {
    "claim": "U012",
+   "era": "Oath of the Gatewatch",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:ugin",
    "grade": "CANON_CONFIRMED",
    "relation": "allies_missing_at_titans_fall",
@@ -6317,6 +6605,8 @@
   },
   {
    "claim": "U012",
+   "era": "Oath of the Gatewatch",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:ugin",
    "grade": "CANON_CONFIRMED",
    "relation": "allies_missing_at_titans_fall",
@@ -6327,6 +6617,8 @@
   },
   {
    "claim": "U013",
+   "era": "Tarkir: Dragonstorm",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:jace_beleren",
    "grade": "CANON_CONFIRMED",
    "relation": "took_power_from",
@@ -6337,6 +6629,8 @@
   },
   {
    "claim": "U014",
+   "era": "Tarkir: Dragonstorm",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:ugin",
    "grade": "CANON_CONFIRMED",
    "relation": "tried_to_hold",
@@ -6347,6 +6641,8 @@
   },
   {
    "claim": "U015",
+   "era": "Tarkir: Dragonstorm",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:ugin",
    "grade": "CANON_CONFIRMED",
    "relation": "vanished_with",
@@ -6357,6 +6653,8 @@
   },
   {
    "claim": "U016",
+   "era": "Tarkir: Dragonstorm",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:elspeth_tirel",
    "grade": "CANON_IMPLIED",
    "relation": "carried_to_omenpath",
@@ -16839,6 +17137,8 @@
  "problems": [],
  "schema": "multiverse-claim-graph/v1",
  "stats": {
+  "claim_edges_with_era": 149,
+  "claim_edges_with_in_universe_date": 0,
   "claims_by_status": {
    "ALTERNATE_CONTINUITY": 1,
    "CANON_CONFIRMED": 116,

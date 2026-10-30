@@ -117,6 +117,10 @@ class Graph:
         self.edges.append({"from": src, "relation": rel, "to": dst, **attrs})
 
 
+ERA_BASIS = ("claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); "
+             "no Dominarian (AR) year is asserted")
+
+
 def source_node(g: Graph, sid: str, meta: dict, origin: str) -> str:
     url = meta.get("url", "")
     official = url.startswith(OFFICIAL_HOSTS)
@@ -137,9 +141,10 @@ def ingest_claim_pack(g: Graph, rel: str) -> dict:
         grade = GRADE_ALIASES.get(c["grade"], c["grade"])
         if grade not in CANON_STATUSES:
             g.problems.append(f"{origin} {c['id']}: unknown grade {c['grade']}")
+        stage = c.get("chronology_stage") or c.get("stage") or c.get("event_stage") or ""
         cid = g.add_node(f"claim:{c['id']}", "Claim", c.get("summary", c["id"]), origin,
                          grade=grade, predicate=c["predicate"],
-                         stage=c.get("chronology_stage") or c.get("stage") or c.get("event_stage") or "",
+                         stage=stage,
                          continuity=c.get("continuity", ""), limitation=c.get("limitation", ""))
         if not c.get("source_ids"):
             g.problems.append(f"{origin} {c['id']}: claim has no source_ids")
@@ -153,8 +158,16 @@ def ingest_claim_pack(g: Graph, rel: str) -> dict:
         for tok in objs:
             obj = g.resolve(tok, origin)
             g.edge(cid, "asserts", obj, role="object")
+            extra = {"era": stage, "era_basis": ERA_BASIS} if stage else {}
+            ar = c.get("in_universe_date")
+            if ar:
+                # Only an explicit, quoted in-universe date may be carried; never inferred.
+                if not (isinstance(ar, dict) and ar.get("value") and ar.get("quote") and ar.get("source_id") in c.get("source_ids", [])):
+                    g.problems.append(f"{origin} {c['id']}: in_universe_date needs value, quote and a cited source_id")
+                else:
+                    extra["in_universe_date"] = {k: ar[k] for k in ("value", "quote", "source_id")}
             g.edge(subj, c["predicate"], obj, claim=c["id"], grade=grade,
-                   sources=sorted(c.get("source_ids", [])))
+                   sources=sorted(c.get("source_ids", [])), **extra)
     # Pack A2 card anchors and Pack A3 card-art contexts become Card nodes keyed by name.
     for a in d.get("card_anchors", []):
         card = g.add_node(f"card:{slug(a['name'])}", "Card", a["name"], origin)
@@ -306,6 +319,8 @@ def build(manifest_path: Path = MANIFEST) -> dict:
              "claims_by_status": dict(sorted(Counter(n["grade"] for n in nodes if n["type"] == "Claim").items())),
              "relations": len({e["relation"] for e in edges}),
              "literal_objects": sum(1 for n in nodes if n["type"] == "Literal"),
+             "claim_edges_with_era": sum(1 for e in edges if e.get("claim") and e.get("era")),
+             "claim_edges_with_in_universe_date": sum(1 for e in edges if e.get("in_universe_date")),
              "curated_bridges": bridges,
              "wizards_official_sources": sum(1 for n in nodes if n.get("source_class") == "WIZARDS_OFFICIAL"),
              "non_wizards_sources": sum(1 for n in nodes if n.get("source_class") == "NON_WIZARDS_LABELLED")}
