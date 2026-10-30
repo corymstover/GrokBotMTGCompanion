@@ -340,7 +340,7 @@ Unchanged: owner review of Pilots 1–3 and the Pack A proposals; `trk`/`trc` ad
 
 Protected-path check: `git diff --stat dfc8891d origin/main -- grixis/ data/grixis/ state/current_deck_overrides.json data/lore_decks/approvals/` is empty after #873 (main `676ea40d`).
 
-## Batch 8 — 2026-10-30, from 07:20 CDT (updated early; Phase 7 PR open)
+## Batch 8 — 2026-10-30, from 07:20 CDT (closed 07:55 CDT)
 
 ### PRs (batch 8)
 | PR | Phase | What | Merge commit (CDT) | CI on the exact head |
@@ -348,7 +348,7 @@ Protected-path check: `git diff --stat dfc8891d origin/main -- grixis/ data/grix
 | [#875](https://github.com/corymstover/GrokBotMTGCompanion/pull/875) | 5 | Closes LCI, BLB, THB, KLD/AER, DFT, XLN/RIX and DOM/WAR (new `pack_p5_war_spark_ravnica`); adds `scripts/claim_spec_sources/patch_spec.py` | `35392813` 07:37 CDT | 8/8 pass on `1c2937cb` |
 | [#876](https://github.com/corymstover/GrokBotMTGCompanion/pull/876) | 5 | Closes KHM (+10 claims) and STX (+8) | `1fb8b782` 07:42 CDT | 8/8 pass on `754c875c` |
 | [#877](https://github.com/corymstover/GrokBotMTGCompanion/pull/877) | 5 | Closes MID/VOW (+13) and THS (+17); handoff | `111fd90a` 07:48 CDT | 8/8 pass on `9a9cf337` |
-| this branch (`grokbot-p7-paraphrase-b8-20261030`) | 7/8 | Batch 8 paraphrase suite + router phrasings; refreshed readiness report; workflow v2.36 | open | pending |
+| [#878](https://github.com/corymstover/GrokBotMTGCompanion/pull/878) | 7/8 | Batch 8 paraphrase suite + router phrasings; refreshed readiness report; workflow v2.36 | `11957a9e` 07:55 CDT | 21/21 pass on `8ee555ac` |
 
 ### Coverage (on main after #877)
 - 414 of 626 pages cited (350 after Batch 7). 31 of 33 arcs have every page cited. 838 claims.
@@ -358,13 +358,13 @@ Protected-path check: `git diff --stat dfc8891d origin/main -- grixis/ data/grix
 - **Research:** PRELIMINARY_RESEARCH. **Tests:** green locally and in CI on each exact head. **Merged:** #875, #876, #877. **Owner approved / certified:** nothing.
 
 ### Next steps
-### Phase 7 (this branch)
+### Phase 7 (#878)
 - `tests/test_mv_ask_rephrased_b8.py`: 27 cases, 42 phrasings; 5 CANON_IMPLIED cases must be QUALIFIED with a limitation; 8 nonsense-entity probes must stay NOT_FOUND.
 - `scripts/mv_ask.py`: a relation filter may be `a|b`; new phrasings beheaded, the leader of X, governs/rules, mentored / X's mentor, founded, guards, fought, serves, worships, attacked, who did X meet; "X's friends" also reads friend_of/childhood_friend_of (Zimone's friend now reaches SX012 Amaka as well as SS008).
 - Discovery: faction short names ("Who leads the Izzet?") do not resolve to the faction node; not faked.
 - Tests: 424 OK in `tests/`, 18 OK in `scripts/`.
 
-### Phase 8 re-run (07:5x CDT, on this branch)
+### Phase 8 re-run (07:50 CDT, #878 branch)
 - `release_readiness.py`: **NOT_RELEASE_READY** — MET 2, PARTIAL 2, NOT_MET 1, EXTERNAL 2 (unchanged statuses). NOT_MET: no graph-built lore deck has owner review (3 drafts await review). Committed report refreshed: graph stats now 3305 nodes / 5224 edges; claims 664 CONFIRMED, 163 IMPLIED, 7 DISPUTED, 2 ALTERNATE_CONTINUITY, 2 OPEN_QUESTION.
 - `phase8_status.py --json`: 5362 enrichment records; `rebuild_enrichment.sh --plan`: every bucket 100%, 0 remaining. Phase 8 tests (release_readiness, phase8_batch38, enrichment_story_links_b4) OK.
 
