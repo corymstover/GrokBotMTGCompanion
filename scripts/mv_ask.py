@@ -126,7 +126,17 @@ def _find(term: str):
     try:
         return graph().find(term)
     except KeyError:
+        return _first_name(term)
+
+
+def _first_name(term: str):
+    """Batch 6 Phase 7: 'Chandra' -> Chandra Nalaar, only when exactly one character has that first name."""
+    t = term.strip().lower()
+    if not t or " " in t:
         return None
+    hits = [nid for nid, n in graph().nodes.items()
+            if n.get("type") == "Character" and (n.get("name") or "").lower().split(" ")[0] == t]
+    return hits[0] if len(hits) == 1 else None
 
 
 def lore(term: str, relation: str | None = None, direction: str | None = None) -> dict:
@@ -136,6 +146,8 @@ def lore(term: str, relation: str | None = None, direction: str | None = None) -
     if not nid:
         env.update(confidence="NOT_FOUND", sources=[], result={}, flags=["NO_CITED_LORE"])
         return env
+    if mg.nodes[nid]["name"].lower() != term.strip().lower() and nid == _first_name(term):
+        env["flags"].append("MATCHED_BY_FIRST_NAME")
     rows = [r for r in mg.neighbors(nid) if r.get("claim") and r["relation"] not in STRUCTURAL]
     if relation:
         rows = [r for r in rows if r["relation"] in (relation, "inverse_of:" + relation)]
@@ -166,6 +178,19 @@ PATTERNS = [  # (regex, relation, direction from the named entity's point of vie
     (re.compile(r"where did (?:the )?(.+?) come from\??$", re.I), "origin", "out"),
     (re.compile(r"who (?:is|was) (.+?)'s mother\??$", re.I), "mother_of", "in"),
     (re.compile(r"who struck down (?:the )?(.+?)\??$", re.I), "struck_down", "in"),
+    # Phase 7 rephrasings (Batch 6): synonyms routed to relations already stored by claim packs
+    (re.compile(r"who (?:murdered|assassinated) (?:the )?(.+?)\??$", re.I), "killed", "in"),
+    (re.compile(r"who (?:was|were) (?:the )?(.+?) (?:killed|murdered|slain) by\??$", re.I), "killed", "in"),
+    (re.compile(r"who (?:freed|released|liberated|rescued) (?:the )?(.+?)\??$", re.I), "freed", "in"),
+    (re.compile(r"who (?:captured|kidnapped|abducted|took) (?:the )?(.+?)(?: captive)?\??$", re.I), "captured", "in"),
+    (re.compile(r"who (?:imprisoned|sealed away|sealed|trapped) (?:the )?(.+?)\??$", re.I), "imprisoned", "in"),
+    (re.compile(r"who (?:is|was) (.+?)'s (?:father|parent|dad)\??$", re.I), "parent_of", "in"),
+    (re.compile(r"who (?:are|were) (.+?)'s parents\??$", re.I), "parent_of", "in"),
+    (re.compile(r"who (?:is|was) (.+?)'s (?:lover|partner|girlfriend|boyfriend|romantic partner)\??$", re.I), "romantically_involved_with", None),
+    (re.compile(r"who (?:leads|led|captains|captained|heads|headed|runs|ran) (?:the )?(.+?)\??$", re.I), "led", "in"),
+    (re.compile(r"who won (?:the )?(.+?)\??$", re.I), "won", "in"),
+    (re.compile(r"who (?:are|were|is|was) (.+?)'s (?:allies|ally|friends|friend)\??$", re.I), "allied_with", None),
+    (re.compile(r"who (?:are|were|is|was) (.+?)'s (?:enemies|enemy|rivals|rival|foes|foe)\??$", re.I), "opposed", None),
 ]
 
 FALLBACK = {"created": [("created_by", "out"),  # "who created X" may be stored as X created_by Y
@@ -173,7 +198,16 @@ FALLBACK = {"created": [("created_by", "out"),  # "who created X" may be stored 
             "defeated_by": [("defeated", "in")],  # Batch 5: XLN010 stores Bolas defeated Ugin
             "sibling_of": [("twin_sibling_of", None)],  # Pack A stores Ugin/Bolas as twin_sibling_of
             "destroyed": [("killed", "in")],  # Pack C4 stores Karn killed Elesh Norn (Batch 4)
-            "mother_of": [("child_of", "out")]}  # "X child_of Y" also answers "who is X's mother"
+            "mother_of": [("child_of", "out"), ("parent_of", "in")],
+            # Batch 6 Phase 7 rephrasings
+            "killed": [("destroyed", "in"), ("slew_and_banished", "in")],
+            "freed": [("rescued", "in"), ("restored", "in")],
+            "captured": [("abducted", "in"), ("imprisoned", "in")],
+            "imprisoned": [("captured", "in"), ("bound_to_service", "in")],
+            "parent_of": [("child_of", "out"), ("mother_of", "in")],
+            "romantically_involved_with": [("spouse_of", None)],
+            "led": [("leader_of", "in")],
+            "opposed": [("fought", None)]}  # "X child_of Y" also answers "who is X's mother"
 
 
 def _is_card(name: str) -> bool:
