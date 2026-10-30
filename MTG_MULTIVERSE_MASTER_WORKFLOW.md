@@ -278,7 +278,7 @@ Infrastructure checkpoint: [PR #783](https://github.com/corymstover/GrokBotMTGCo
 - [ ] Answer obscure lore and chronology questions through cited evidence and dated canon status.
 - [ ] Explain ambiguous/retconned narratives rather than inventing certainty.
 - [ ] Integrate card, lore and strategic search for Commander recommendation and deckbuilding questions.
-- [ ] Test difficult representative queries, cross-references, and interaction explanations.
+- [ ] Test difficult representative queries, cross-references, and interaction explanations. *(Partial, 2026-10-30 Batch 4: `mv_ask` now answers "who killed X" using the `killed` relation, plus "who is X's mother" and "who struck down X". All three are covered by Pack C4 regression tests, for example Karn → Elesh Norn (MOM017) and Tamiyo → Nashi (MOM010). Unknown names still return NOT_FOUND. A broad hard-query suite is still open.)*
 - [x] Flag unavailable, stale or low-confidence information explicitly. `mv_ask` returns VERIFIED, QUALIFIED or NOT_FOUND with flags and exits 3 for unknown entities ([PR #827](https://github.com/corymstover/GrokBotMTGCompanion/pull/827), [PR #829](https://github.com/corymstover/GrokBotMTGCompanion/pull/829)).
 
 ## Phase 8 — Release quality and continuing upkeep
