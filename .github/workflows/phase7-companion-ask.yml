@@ -15,6 +15,7 @@ on:
       - 'scripts/query_multiverse_graph.py'
       - 'tests/test_mv_ask.py'
       - 'tests/test_mv_ask_relations.py'
+      - 'tests/test_mv_ask_aliases.py'
       - 'data/multiverse_graph/**'
       - 'data/card_index.csv'
       - 'data/card_db/**'
@@ -31,6 +32,7 @@ on:
       - 'data/rules/**'
       - 'tests/test_mv_ask.py'
       - 'tests/test_mv_ask_relations.py'
+      - 'tests/test_mv_ask_aliases.py'
       - 'data/multiverse_graph/**'
       - '.github/workflows/phase7-companion-ask.yml'
   workflow_dispatch:

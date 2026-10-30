@@ -122,11 +122,51 @@ def graph():
     return _mg
 
 
+# Batch 9: short names for factions and guilds. Generated from the graph's Faction nodes by dropping a
+# leading "The" and a trailing organisation word, kept only when the short name is unique among factions,
+# so "Izzet" -> Izzet League and "Golgari" -> Golgari Swarm. Never points at a node that is not in the graph.
+_ORG_WORDS = {"league", "senate", "legion", "swarm", "syndicate", "clans", "clan", "college"}  # guild/college/clan
+# words only: "Sun Empire" must not become "Sun"
+_EXTRA_ALIASES = {"coppercoats": "faction:coppercoats", "drannith defense force": "faction:coppercoats",
+                  "the consulate": "faction:consulate", "mirran resistance": "faction:mirran_resistance"}
+_aliases = None
+
+
+def faction_aliases() -> dict:
+    global _aliases
+    if _aliases is None:
+        cand = {}
+        for nid, n in graph().nodes.items():
+            if n.get("type") != "Faction":
+                continue
+            name = re.sub(r"\s*\(.*?\)\s*", " ", n.get("name") or "").strip().lower()
+            name = re.sub(r"^the\s+", "", name)
+            words = name.split()
+            forms = {name}
+            if len(words) > 1 and words[-1] in _ORG_WORDS:
+                forms.add(" ".join(words[:-1]))
+            for f in forms:
+                cand.setdefault(f, set()).add(nid)
+        _aliases = {k: next(iter(v)) for k, v in cand.items() if len(v) == 1 and k}
+        _aliases.update({k: v for k, v in _EXTRA_ALIASES.items() if v in graph().nodes})
+    return _aliases
+
+
+def _alias(term: str):
+    t = re.sub(r"^the\s+", "", term.strip().lower())
+    t = re.sub(r"\s+guild$", "", t)  # "the Izzet guild"
+    return faction_aliases().get(t)
+
+
 def _find(term: str):
+    mg = graph()
+    exact = any((n.get("name") or "").lower() == term.strip().lower() for n in mg.nodes.values())
+    if not exact and _alias(term):
+        return _alias(term)
     try:
-        return graph().find(term)
+        return mg.find(term)
     except KeyError:
-        return _first_name(term)
+        return _alias(term) or _first_name(term)
 
 
 def _first_name(term: str):
@@ -148,6 +188,8 @@ def lore(term: str, relation: str | None = None, direction: str | None = None) -
         return env
     if mg.nodes[nid]["name"].lower() != term.strip().lower() and nid == _first_name(term):
         env["flags"].append("MATCHED_BY_FIRST_NAME")
+    elif mg.nodes[nid]["name"].lower() != term.strip().lower() and nid == _alias(term):
+        env["flags"].append("MATCHED_BY_FACTION_ALIAS")
     rows = [r for r in mg.neighbors(nid) if r.get("claim") and r["relation"] not in STRUCTURAL]
     if relation:
         rels = relation.split("|")  # Batch 8 Phase 7: "a|b" accepts any of several stored relations
@@ -228,6 +270,40 @@ FALLBACK = {"created": [("created_by", "out"),  # "who created X" may be stored 
             "worships": [("revered_by", "out")]}  # "X child_of Y" also answers "who is X's mother"
 
 
+LEADER_RELATIONS = {"led", "leader_of", "leads", "ruled"}
+_FORMER = re.compile(r"\b(former|formerly|before (?:her|his|their) death|was the .* before|until)\b", re.I)
+_dates = None
+
+
+def source_dates() -> dict:
+    global _dates
+    if _dates is None:
+        _dates = {r["url"].rstrip("/"): r["date"] for r in csv.DictReader((ROOT / "data/primary_sources.csv").open(encoding="utf-8"))}
+    return _dates
+
+
+def leadership(env: dict) -> dict | None:
+    """Batch 9: order leader answers by the publication date of the citing official page, so a question like
+    "who leads the Orzhov?" names the most recently cited leader and keeps earlier ones as era context."""
+    rows = [r for rs in env.get("result", {}).get("relations_by_status", {}).values() for r in rs]
+    if not rows:
+        return None
+    tl = []
+    for r in rows:
+        ds = [source_dates().get(u.rstrip("/")) for u in r.get("source_urls", [])]
+        ds = [d for d in ds if d]
+        tl.append({"node": r["node"], "claim": r["claim"], "status": r["status"], "summary": r.get("summary"),
+                   "source_date": max(ds) if ds else None,
+                   "described_as_former": bool(_FORMER.search(r.get("summary") or ""))})
+    tl.sort(key=lambda x: (x["source_date"] or "", x["claim"]))
+    live = [x for x in tl if not x["described_as_former"]] or tl
+    latest = live[-1]
+    return {"most_recent_cited": latest, "timeline": tl,
+            "note": ("Ordered by the publication date of the citing official page. The most recent cited leader is the "
+                     "latest one these packs cite, not proof of the leader in present-day canon; claims whose summary "
+                     "calls the leader former are kept as era context.")}
+
+
 def _is_card(name: str) -> bool:
     return name.lower() in card_index()
 
@@ -266,6 +342,11 @@ def ask(text: str) -> dict:
                 rel, direction = alt, alt_dir
                 env = lore(m.group(1).strip(), rel, direction)
             env.update(route="ask->lore:" + rel, query=q)
+            if rel in LEADER_RELATIONS and env["confidence"] != "NOT_FOUND":
+                lead = leadership(env)
+                env["result"]["leadership"] = lead
+                if len({x["node"] for x in lead["timeline"]}) > 1:
+                    env["flags"].append("MULTIPLE_LEADERS_ACROSS_ERAS")
             return env
     term = re.sub(r"^(?:who|what|where)\s+(?:is|was|are|were)\s+|^tell me about\s+", "", q, flags=re.I).rstrip("?").strip()
     term = re.sub(r"^the\s+", "", term, flags=re.I) if not _is_card(term) else term
