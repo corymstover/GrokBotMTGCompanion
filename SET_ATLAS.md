@@ -82,6 +82,36 @@ Official contemporaneous policy: [Wizards' 2022 definition of premier releases](
 
 Regenerate or verify the dated category report with `python3 scripts/audit_set_cross_category.py`. It does not require a Scryfall download and does not mutate the historical Grixis snapshot.
 
+## Reproducible five-cohort product-family research queue
+
+The [complete October 29 family triage](data/set_atlas/product_family_triage_2026-10-29.json) uses **only** the verified frozen Scryfall `set_type` metadata to assign each of the **848 released non-digital outside-expansion/core set codes** to one *research queue*:
+
+| Metadata-based queue | Codes | Individually Wizards-reviewed | Still pending |
+| --- | ---: | ---: | ---: |
+| Promotional records and extras | 645 | 0 | 645 |
+| Preconstructed and boxed | 112 | 2 | 110 |
+| Draft and starter variants | 51 | 7 | 44 |
+| Reprint and curated products | 34 | 3 | 31 |
+| Special inserts and Eternal subsets | 6 | 0 | 6 |
+| **All outside-category released paper codes** | **848** | **12** | **836** |
+
+**These five group names are *research-cohort labels*, not Wizards classifications.** The underlying exact `set_type`, date, direct Scryfall `parent_set_code` (when given), snapshot printing counts, and individual primary-source review status remain separately available for every code. A missing parent association **does not** mean a standalone release. For example, Scryfall puts *The List* (`PLST`), localized *Chronicles Foreign Black Border* (`BCHR`), Renaissance (`REN`), Rinascimento (`RIN`), and *Universes Within* (`SLX`) in the Masters category; we do **not** automatically claim each is a separately sold draft set.
+
+The database includes a priority-sorted list of **836 source-pending codes**. The first research tier contains only the **44 source-pending** draft/starter codes (including Conspiracy, Battlebond and Jumpstart); **31 reprint/curated codes** follow. This is intended to reduce repetitive official-source lookups without converting metadata assumptions into certified facts.
+
+Offline commands (no bulk Scryfall download required):
+
+```bash
+python3 scripts/product_family_lookup.py --summary
+python3 scripts/product_family_lookup.py --cohort draft_and_starter_variants --only-pending --all
+python3 scripts/product_family_lookup.py --type masters --only-pending --all
+python3 scripts/product_family_lookup.py --parent afr --all
+python3 scripts/product_family_lookup.py --code ltr
+python3 scripts/audit_product_family_triage.py
+```
+
+The Atlas draws the original counts from the [dated Scryfall `/sets` API](https://scryfall.com/docs/api/sets). Wizards' [product guide](https://magic.wizards.com/en/product-guide) describes the distinct product purposes for boosters, Commander decks and Jumpstart, but that product guide is not a source certifying each of the 836 individual set codes. The original twelve Wizards-reviewed examples retain their own official primary-source citations in the [cross-category source ledger](data/set_atlas/cross_category_evidence_2026-10-29.json).
+
 ## Read-only lookups
 
 On a checkout of this repository, no Scryfall download is needed for the following commands:
