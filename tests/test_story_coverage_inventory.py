@@ -88,6 +88,9 @@ class StoryCoverageInventory(unittest.TestCase):
         # Batch 8 part 3: MID/VOW and THS now cite every page: 31 of 33 arcs, 414 of 626 pages.
         self.assertGreaterEqual(self.d["totals"]["cited_pages"], 414)
         self.assertGreaterEqual(self.d["totals"]["arcs_all_cited"], 31)
+        # Batch 9: reviewed-no-claim register; IKO's 2 non-narrative pages are reviewed, not cited
+        self.assertEqual(arcs["IKO"]["review_status"], "ALL_PAGES_CITED_OR_REVIEWED")
+        self.assertGreaterEqual(self.d["totals"]["arcs_all_cited_or_reviewed"], 32)
 
     def test_claim_total_matches_graph_packs(self):
         self.assertEqual(self.d["totals"]["claims"], sum(self.d["claims_per_pack"].values()))
