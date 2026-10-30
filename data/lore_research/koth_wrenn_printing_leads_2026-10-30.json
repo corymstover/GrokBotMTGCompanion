@@ -1,0 +1,299 @@
+{
+ "schema": "koth-wrenn-printing-leads/v1",
+ "snapshot": "default-cards-20261029090546.jsonl.gz",
+ "source_text_embedded": "single-line quotes only",
+ "counts": {
+  "COLLECTOR_NUMBER_IN_IMAGE_LABEL": 2,
+  "ART_CREDIT_NAME_AND_ARTIST": 2,
+  "CAPTION_FRAME_TREATMENT": 2,
+  "NAMED_ON_OFFICIAL_PAGE": 1,
+  "CHARACTER_PROSE_ONLY": 3
+ },
+ "printing_specific_leads": 6,
+ "matched_printings": 13,
+ "leads": [
+  {
+   "card": "Koth, the Geomancer",
+   "url": "https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture",
+   "quote": "0248_MTGFRA_MainPair: Koth, the Geomancer",
+   "kind": "COLLECTOR_NUMBER_IN_IMAGE_LABEL",
+   "printing_specific": true,
+   "selector": {
+    "set": "fra",
+    "collector_number": "248"
+   },
+   "matched_printings": [
+    {
+     "set": "fra",
+     "collector_number": "248",
+     "released_at": "2026-10-02",
+     "artist": "Kieran Yanner",
+     "border_color": "black",
+     "scryfall_id": "54f64e95-5a97-4d7c-9939-7f33a3165562"
+    }
+   ],
+   "first_paper_printing": {
+    "set": "fra",
+    "collector_number": "248",
+    "released_at": "2026-10-02"
+   },
+   "note": "The image label names set FRA and collector number 248."
+  },
+  {
+   "card": "Koth of the Homestead",
+   "url": "https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture",
+   "quote": "0199_MTGFRA_MainPair: Koth of the Homestead",
+   "kind": "COLLECTOR_NUMBER_IN_IMAGE_LABEL",
+   "printing_specific": true,
+   "selector": {
+    "set": "fra",
+    "collector_number": "199"
+   },
+   "matched_printings": [
+    {
+     "set": "fra",
+     "collector_number": "199",
+     "released_at": "2026-10-02",
+     "artist": "Kieran Yanner",
+     "border_color": "black",
+     "scryfall_id": "920703fd-2a2f-454b-8829-af8f2afda4f4"
+    }
+   ],
+   "first_paper_printing": {
+    "set": "fra",
+    "collector_number": "199",
+    "released_at": "2026-10-02"
+   },
+   "note": "The image label names set FRA and collector number 199. The page describes a Koth who 'has known nothing but peace his entire life'; its place in the main timeline is not assessed here."
+  },
+  {
+   "card": "Koth, Fire of Resistance",
+   "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-phyrexia-all-will-be-one",
+   "quote": "Koth, Fire of Resistance | Art by: Eric Wilkerson",
+   "kind": "ART_CREDIT_NAME_AND_ARTIST",
+   "printing_specific": true,
+   "selector": {
+    "artist": "Eric Wilkerson"
+   },
+   "matched_printings": [
+    {
+     "set": "one",
+     "collector_number": "138",
+     "released_at": "2023-02-10",
+     "artist": "Eric Wilkerson",
+     "border_color": "black",
+     "scryfall_id": "6528e012-4091-4722-b706-c51772676167"
+    },
+    {
+     "set": "pone",
+     "collector_number": "138p",
+     "released_at": "2023-02-10",
+     "artist": "Eric Wilkerson",
+     "border_color": "black",
+     "scryfall_id": "e38f63c4-1d35-451a-8778-2066ed874ff9"
+    },
+    {
+     "set": "pone",
+     "collector_number": "138s",
+     "released_at": "2023-02-10",
+     "artist": "Eric Wilkerson",
+     "border_color": "black",
+     "scryfall_id": "016cc13b-3b0e-4fc7-b7e1-fa5065eba030"
+    }
+   ],
+   "first_paper_printing": {
+    "set": "pone",
+    "collector_number": "138s",
+    "released_at": "2023-02-10"
+   },
+   "note": "The same art appears on several printings; the caption does not say which one."
+  },
+  {
+   "card": "Wrenn and Seven",
+   "url": "https://magic.wizards.com/en/news/magic-story/tangles-2021-09-03",
+   "quote": "Wrenn and Seven | Art by: Heonhwa Choe",
+   "kind": "ART_CREDIT_NAME_AND_ARTIST",
+   "printing_specific": true,
+   "selector": {
+    "artist": "Heonhwa",
+    "artist_note": "Scryfall credits 'Heonhwa'; the caption says 'Heonhwa Choe'."
+   },
+   "matched_printings": [
+    {
+     "set": "mid",
+     "collector_number": "208",
+     "released_at": "2021-09-24",
+     "artist": "Heonhwa",
+     "border_color": "black",
+     "scryfall_id": "a7757e99-8d51-4b92-b346-6961845def24"
+    },
+    {
+     "set": "pmid",
+     "collector_number": "208p",
+     "released_at": "2021-09-24",
+     "artist": "Heonhwa",
+     "border_color": "black",
+     "scryfall_id": "370a5461-f3b1-45cc-9c1c-357957f49199"
+    },
+    {
+     "set": "pmid",
+     "collector_number": "208s",
+     "released_at": "2021-09-24",
+     "artist": "Heonhwa",
+     "border_color": "black",
+     "scryfall_id": "f5381823-ccc3-4fb3-84c1-52fa36a8a128"
+    },
+    {
+     "set": "dbl",
+     "collector_number": "208",
+     "released_at": "2022-01-28",
+     "artist": "Heonhwa",
+     "border_color": "black",
+     "scryfall_id": "365d2ecc-24ef-41fb-a1ee-055e99e1d94f"
+    },
+    {
+     "set": "dsc",
+     "collector_number": "207",
+     "released_at": "2024-09-27",
+     "artist": "Heonhwa",
+     "border_color": "black",
+     "scryfall_id": "213ac11e-f28f-46ed-b387-d83f59d2a82e"
+    },
+    {
+     "set": "inr",
+     "collector_number": "226",
+     "released_at": "2025-01-24",
+     "artist": "Heonhwa",
+     "border_color": "black",
+     "scryfall_id": "302f0dc1-88ab-4961-b78c-fbe7980dca18"
+    }
+   ],
+   "first_paper_printing": {
+    "set": "mid",
+    "collector_number": "278",
+    "released_at": "2021-09-24"
+   },
+   "note": "The artist match uses Scryfall's shorter credit. The same art is reprinted; the caption does not say which printing."
+  },
+  {
+   "card": "Wrenn and Realmbreaker",
+   "url": "https://magic.wizards.com/en/news/magic-story/episode-8-wrenn-and-eight",
+   "quote": "Wrenn and Realmbreaker",
+   "kind": "CAPTION_FRAME_TREATMENT",
+   "printing_specific": true,
+   "selector": {
+    "set": "mom",
+    "border_color": "black"
+   },
+   "matched_printings": [
+    {
+     "set": "mom",
+     "collector_number": "217",
+     "released_at": "2023-04-21",
+     "artist": "Cristi Balanescu",
+     "border_color": "black",
+     "scryfall_id": "6f807d91-b157-44e8-a431-49782184f876"
+    }
+   ],
+   "first_paper_printing": {
+    "set": "mom",
+    "collector_number": "322",
+    "released_at": "2023-04-21"
+   },
+   "note": "The plain caption, next to a separate Borderless caption, is read as the regular-frame printing; no artist is given."
+  },
+  {
+   "card": "Wrenn and Realmbreaker",
+   "url": "https://magic.wizards.com/en/news/magic-story/episode-8-wrenn-and-eight",
+   "quote": "Borderless Wrenn and Realmbreaker",
+   "kind": "CAPTION_FRAME_TREATMENT",
+   "printing_specific": true,
+   "selector": {
+    "set": "mom",
+    "border_color": "borderless"
+   },
+   "matched_printings": [
+    {
+     "set": "mom",
+     "collector_number": "322",
+     "released_at": "2023-04-21",
+     "artist": "Jehan Choo",
+     "border_color": "borderless",
+     "scryfall_id": "17269aae-10bc-49ef-b6a7-94e0dd6cf677"
+    }
+   ],
+   "first_paper_printing": {
+    "set": "mom",
+    "collector_number": "322",
+    "released_at": "2023-04-21"
+   },
+   "note": "The caption names the borderless treatment; MOM has one borderless printing of the card."
+  },
+  {
+   "card": "Koth of the Hammer",
+   "url": "https://magic.wizards.com/en/story/koth-planeswalker",
+   "quote": "TITLE: Koth of the Hammer | Planeswalker | Magic: The Gathering",
+   "kind": "NAMED_ON_OFFICIAL_PAGE",
+   "printing_specific": false,
+   "selector": null,
+   "matched_printings": [],
+   "first_paper_printing": {
+    "set": "som",
+    "collector_number": "94",
+    "released_at": "2010-10-01"
+   },
+   "note": "The official planeswalker page is titled with the card name. That ties the card to the character, not to one printing."
+  },
+  {
+   "card": "Wrenn and Six",
+   "url": "https://magic.wizards.com/en/news/magic-story/tangles-2021-09-03",
+   "quote": "Wrenn and Six took a step—one of their last together—and put their massive foot down on the soil of Innistrad, deep within the Kessig forest.",
+   "kind": "CHARACTER_PROSE_ONLY",
+   "printing_specific": false,
+   "selector": null,
+   "matched_printings": [],
+   "first_paper_printing": {
+    "set": "mh1",
+    "collector_number": "217",
+    "released_at": "2019-06-14"
+   },
+   "note": "This is story prose about Wrenn and the treefolk Six; it is not a reference to the card or any printing."
+  },
+  {
+   "card": "Wrenn and Seven",
+   "url": "https://magic.wizards.com/en/news/magic-story/episode-5-cathartic-reunion",
+   "quote": "Nissa doesn't react. There is no small smirk, no glint in her eye, no expression at all as she turns back toward Wrenn and Seven.",
+   "kind": "CHARACTER_PROSE_ONLY",
+   "printing_specific": false,
+   "selector": null,
+   "matched_printings": [],
+   "first_paper_printing": {
+    "set": "mid",
+    "collector_number": "278",
+    "released_at": "2021-09-24"
+   },
+   "note": "The MOM Episode 5 prose names Wrenn and the treefolk Seven; this is not a card reference."
+  },
+  {
+   "card": "Wrenn and Seven",
+   "url": "https://magic.wizards.com/en/news/magic-story/the-brothers-war-chapter-5-exodus",
+   "quote": "In the chaos, Nissa spotted Wrenn and Seven striding toward her, sweeping Phyrexians away from their path. When they got close, Seven scooped Nissa up with a bough and held her as they ran back toward the tower's battlements.",
+   "kind": "CHARACTER_PROSE_ONLY",
+   "printing_specific": false,
+   "selector": null,
+   "matched_printings": [],
+   "first_paper_printing": {
+    "set": "mid",
+    "collector_number": "278",
+    "released_at": "2021-09-24"
+   },
+   "note": "The BRO Chapter 5 prose names Wrenn and the treefolk Seven; this is not a card reference."
+  }
+ ],
+ "limitations": [
+  "Only Koth and Wrenn card names that appear verbatim in the cached official pages are reviewed; a page that shows a card without naming it is missed.",
+  "Same-art reprints and promos match an art credit equally; the caption does not choose among them.",
+  "Grades, approvals and deck lists are unchanged."
+ ],
+ "sha256": "c30ee23344b1ac945f8ab791d3cba6ee1ee59945df97b0d9e49d8220dc1c8952"
+}
