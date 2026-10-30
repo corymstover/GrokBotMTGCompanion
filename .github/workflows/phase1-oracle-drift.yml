@@ -1,0 +1,39 @@
+name: Phase 1 Oracle drift report
+
+on:
+  pull_request:
+    paths:
+      - 'scripts/oracle_drift_report.py'
+      - 'tests/test_oracle_drift_report.py'
+      - 'data/card_db/**'
+      - '.github/workflows/phase1-oracle-drift.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  oracle-drift:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Synthetic-fixture tests
+        run: python3 -m unittest discover -s tests -p 'test_oracle_drift_report.py' -v
+      - name: Committed report is internally consistent
+        run: |
+          python3 - <<'PY'
+          import json, glob
+          for f in glob.glob("data/card_db/oracle_drift_*.json"):
+              d = json.load(open(f))
+              assert d["schema"] == "oracle-drift-report/v1", f
+              assert d["status"].startswith("READ_ONLY_EVIDENCE"), f
+              for k, v in d["changed"].items():
+                  assert d["counts"][k] == len(v), (f, k)
+              b = d["new_in_snapshot_breakdown"]
+              assert sum(b.values()) == d["counts"]["new_in_snapshot"], f
+              assert f.endswith(d["snapshot_date"] + ".json"), f
+              print("OK", f, d["counts"])
+          PY

@@ -55,6 +55,25 @@ def _section(shard: Path, name: str) -> str:
     return m.group(1) if m else ""
 
 
+DRIFT_REPORT = ROOT / "data" / "card_db" / f"oracle_drift_{CURRENT_SNAPSHOT_DATE}.json"
+_drift = None
+
+
+def _reconciled(name: str) -> bool:
+    """True only when the committed drift report for the current snapshot found no change for this card."""
+    global _drift
+    if _drift is None:
+        try:
+            d = json.loads(DRIFT_REPORT.read_text(encoding="utf-8"))
+            ok = d.get("snapshot_date") == CURRENT_SNAPSHOT_DATE and "changed" in d
+            names = {re.split(r"(?:: | -> )", x)[0] for v in d.get("changed", {}).values() for x in v}
+            _drift = (ok, names)
+        except (OSError, ValueError):
+            _drift = (False, set())
+    ok, changed = _drift
+    return ok and name not in changed
+
+
 def card(name: str) -> dict:
     row = card_index().get(name.strip().lower())
     env = {"route": "card", "query": name, "flags": [], "sources": []}
@@ -74,7 +93,11 @@ def card(name: str) -> dict:
     rulings = re.search(r"\*\*Rulings\*\* \((\d+)\)", sec)
     env["sources"] = [u for u in [scry and scry.group(1)] if u]
     if as_of and as_of < CURRENT_SNAPSHOT_DATE:
-        env["flags"].append("STALE_ORACLE_VS_CURRENT_SNAPSHOT")
+        if _reconciled(row["name"]):
+            env["flags_info"] = [f"ORACLE_RECONCILED_WITH_SNAPSHOT_{CURRENT_SNAPSHOT_DATE}"]
+            env["reconciliation"] = DRIFT_REPORT.relative_to(ROOT).as_posix()
+        else:
+            env["flags"].append("STALE_ORACLE_VS_CURRENT_SNAPSHOT")
     if not oracle:
         env["flags"].append("ORACLE_TEXT_NOT_PARSED")
     env.update(confidence="QUALIFIED" if env["flags"] else "VERIFIED", data_as_of=as_of, result={

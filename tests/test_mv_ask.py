@@ -15,8 +15,24 @@ class CompanionTests(unittest.TestCase):
         self.assertEqual(r["result"]["commander_legality"], "legal")
         self.assertTrue(r["sources"][0].startswith("https://scryfall.com/card/"))
         if r["data_as_of"] < A.CURRENT_SNAPSHOT_DATE:
+            if A._reconciled("Sol Ring"):  # committed drift report found no change against the current snapshot
+                self.assertEqual(r["confidence"], "VERIFIED")
+                self.assertTrue(r["flags_info"][0].startswith("ORACLE_RECONCILED_WITH_SNAPSHOT_"))
+            else:
+                self.assertIn("STALE_ORACLE_VS_CURRENT_SNAPSHOT", r["flags"])
+                self.assertEqual(r["confidence"], "QUALIFIED")
+
+    def test_card_changed_in_drift_report_stays_stale(self):
+        saved = A._drift
+        try:
+            A._drift = (True, {"Sol Ring"})
+            r = A.card("Sol Ring")
             self.assertIn("STALE_ORACLE_VS_CURRENT_SNAPSHOT", r["flags"])
             self.assertEqual(r["confidence"], "QUALIFIED")
+            A._drift = (False, set())  # report missing or for another snapshot
+            self.assertEqual(A.card("Sol Ring")["confidence"], "QUALIFIED")
+        finally:
+            A._drift = saved
 
     def test_unknown_card_is_not_found_with_suggestions(self):
         r = A.card("Sol Rin")
