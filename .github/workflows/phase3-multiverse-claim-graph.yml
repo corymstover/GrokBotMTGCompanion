@@ -25,6 +25,9 @@ on:
       - 'scripts/build_koth_wrenn_printing_leads.py'
       - 'tests/test_koth_wrenn_printing_leads.py'
       - 'data/lore_research/koth_wrenn_printing_leads_2026-10-30.json'
+      - 'scripts/build_story_coverage_inventory.py'
+      - 'tests/test_story_coverage_inventory.py'
+      - 'data/primary_sources.csv'
       - 'data/story_atlas/**'
       - 'scripts/build_story_art_captions.py'
       - 'tests/test_story_art_captions.py'
@@ -51,6 +54,9 @@ on:
       - 'scripts/build_koth_wrenn_printing_leads.py'
       - 'tests/test_koth_wrenn_printing_leads.py'
       - 'data/lore_research/koth_wrenn_printing_leads_2026-10-30.json'
+      - 'scripts/build_story_coverage_inventory.py'
+      - 'tests/test_story_coverage_inventory.py'
+      - 'data/primary_sources.csv'
       - 'data/story_atlas/**'
       - 'scripts/build_story_art_captions.py'
       - 'tests/test_story_art_captions.py'
@@ -102,6 +108,10 @@ jobs:
         run: |
           python3 scripts/build_koth_wrenn_printing_leads.py --check
           python3 -m unittest discover -s tests -p 'test_koth_wrenn_printing_leads.py' -v
+      - name: Story coverage/gaps inventory (rebuild and compare) and tests
+        run: |
+          python3 scripts/build_story_coverage_inventory.py --check
+          python3 -m unittest discover -s tests -p 'test_story_coverage_inventory.py' -v
       - name: Story-art caption atlas (self-hash; caches absent in CI) and tests
         run: |
           python3 scripts/build_story_art_captions.py --check
