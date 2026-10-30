@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "cutoff": "2026-10-29",
+  "prior_audit": "duel_decks_source_audit_2026-10-29.json",
+  "scope": "Nine historical annual Commander preconstructed product families: Commander (2011) and Commander 2013–2020. Each code covers a release family, potentially with multiple independently packaged decks; it is not a single deck or premier booster set.",
+  "source_policy": "Direct first-party Wizards Japanese product detail pages establish exact annual Commander family names and that the releases include preconstructed Commander decks. Scryfall supplies the code and first-print date independently. No deck counts, card legality or new-design totals are inferred from source-page labels.",
+  "official_commander_product_index": "https://mtg-jp.com/products/other/",
+  "records": [
+    {"code": "cmd", "year": 2011, "official_product_url": "https://mtg-jp.com/products/0000132/"},
+    {"code": "c13", "year": 2013, "official_product_url": "https://mtg-jp.com/products/0000011/"},
+    {"code": "c14", "year": 2014, "official_product_url": "https://mtg-jp.com/products/0000012/"},
+    {"code": "c15", "year": 2015, "official_product_url": "https://mtg-jp.com/products/0000013/"},
+    {"code": "c16", "year": 2016, "official_product_url": "https://mtg-jp.com/products/0000014/"},
+    {"code": "c17", "year": 2017, "official_product_url": "https://mtg-jp.com/products/0000015/"},
+    {"code": "c18", "year": 2018, "official_product_url": "https://mtg-jp.com/products/0000173/"},
+    {"code": "c19", "year": 2019, "official_product_url": "https://mtg-jp.com/products/0000181/"},
+    {"code": "c20", "year": 2020, "official_product_url": "https://mtg-jp.com/products/0000193/"}
+  ]
+}

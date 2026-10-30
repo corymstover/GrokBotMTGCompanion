@@ -97,7 +97,9 @@ class DuelDecksSourcesTests(unittest.TestCase):
         self.assertIsNone(select(current, code="evg")[0]["parent_set_code_explicit_only"])
         self.assertFalse(select(current, code="ddu")[0]["box_component_of_parent_product"])
         self.assertEqual(len(current["all_848_released_nondigital_other_type_records"]), 848)
-        self.assertEqual(load_current_index()["wizards_reviewed_examples"], 111)
+        # Later additive overlays can advance the live lookup beyond this
+        # historical checkpoint; the exact 111 is verified above before them.
+        self.assertGreaterEqual(load_current_index()["wizards_reviewed_examples"], 111)
 
     def test_report_is_reproducible_and_prior_86_762_unchanged(self):
         self.assertEqual(A.encode(self.build()), A.encode(self.build()))
