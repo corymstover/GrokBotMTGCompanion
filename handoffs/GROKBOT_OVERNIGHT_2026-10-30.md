@@ -51,3 +51,36 @@ Scope rules for this overnight run:
 2. Cory reviews the pilot. Only Cory can approve it. Do not edit PR #776 (ChatGPT's Deck #9 Ugin life story); this pilot is independent of it.
 3. Throughput: turn `build_ugin_bolas_duality_pilot.py` and its audit into a spec-driven generic `scripts/build_lore_pilot.py` plus `audit_lore_pilot.py`. Pilots 2 and 3 (Original Primeval Dragons; Ugin's Allies and Heroes) then become JSON specs.
 4. Close the Pack A genealogy gaps (A003/A004 disputed, A011 open), then start Packs B and C.
+
+## Batch 1 follow-up
+- [PR #824](https://github.com/corymstover/GrokBotMTGCompanion/pull/824), *Overnight handoff: batch 1 merge record* (docs only), merged at 2026-10-30 01:34 CDT as `dfc8891de03c11ba91adf81effc5ca08e2fef10f`.
+
+## Batch 2 — 2026-10-30 ~01:35–02:00 CDT
+
+The aim was to spread work across phases (Cory's request). Every PR used a normal merge with `--match-head-commit`, and all checks on the exact head were green. There were no admin bypasses or force-pushes, and no chatgpt-* PR or branch was touched.
+
+| PR | Phase | What | Merge commit (CDT) |
+|---|---|---|---|
+| [#825](https://github.com/corymstover/GrokBotMTGCompanion/pull/825) | 3 | Cited Multiverse claim graph v1: `scripts/build_multiverse_graph.py` (`--check`), `scripts/query_multiverse_graph.py`, CI workflow | `096486c6` (01:40) |
+| [#826](https://github.com/corymstover/GrokBotMTGCompanion/pull/826) | 4 | Pack B v1, Thran → Yawgmoth → Brothers' War: 18 claims, 23 entities, 8 Wizards sources | `8ebe31e9` (01:44) |
+| [#827](https://github.com/corymstover/GrokBotMTGCompanion/pull/827) | 7 | `scripts/mv_ask.py` companion: card + lore answers with VERIFIED / QUALIFIED / NOT_FOUND (exit 3) | `d9611cd6` (01:47) |
+| [#828](https://github.com/corymstover/GrokBotMTGCompanion/pull/828) | 4 | Pack C v1, Weatherlight → Invasion → New Phyrexia: 28 claims, 26 entities, 6 Wizards sources; "who defeated / who created" asks | `185b5146` (01:50) |
+| [#829](https://github.com/corymstover/GrokBotMTGCompanion/pull/829) | 1 / 8 | Oracle text drift, Oct 28 shards vs Oct 29 snapshot: **0 changes across 33,894 cards**; 305 new paper IDs are future-dated (`trk`/`trc`, 2026-11-13) | `b5ff3a2f` (01:52) |
+| [#830](https://github.com/corymstover/GrokBotMTGCompanion/pull/830) | 8 | `scripts/release_readiness.py`: 7 first-release criteria → **NOT_RELEASE_READY** (MET 1 · PARTIAL 3 · NOT_MET 1 · EXTERNAL 2) | `f6a91349` (01:54) |
+| this PR | — | Master workflow v2.28 and this handoff | — |
+
+Graph after this batch: 305 nodes, 488 edges and 78 claims (69 confirmed, 4 disputed, 2 implied, 2 open, 1 alternate). There are 37 sources, none of them non-Wizards. **Packs A, B and C are all PRELIMINARY_RESEARCH**; none is owner approved or certified.
+
+### Blockers
+- 1,953 priority-card enrichments: the guarded rebuild needs the story-text, EDHREC and Commander Spellbook caches, which are not on the box.
+- Release criterion "reviewed deck built from the graph" needs Cory to review Pilot 1 (#823). Approval files are written only by the owner.
+
+### Not started (next steps, in value order)
+1. Generic spec-driven `scripts/build_lore_pilot.py` and `audit_lore_pilot.py`, then Pilots 2 and 3 (Original Primeval Dragons; Ugin's Allies and Heroes) as UNAPPROVED proposals.
+2. Pack A open questions A003/A004 (disputed) and A011 (open): look for further Wizards sources. Keep them disputed if the sources disagree.
+3. Pack C: *Return to Dominaria* episode extraction, March of the Machine, and card anchors for Pack B/C claims (CardRepresentation nodes).
+4. Edge dates (in-universe era) on graph relationships.
+5. Phase 7 rules-interaction checks (this is the remaining PARTIAL in the lookup/rules release criterion).
+6. After 2026-11-13: re-snapshot, rerun `oracle_drift_report.py`, and admit the 305 `trk`/`trc` cards.
+
+Protected-path check (`git diff --stat dfc8891d origin/main -- grixis/ data/grixis/ state/current_deck_overrides.json data/lore_decks/approvals/`): empty.
