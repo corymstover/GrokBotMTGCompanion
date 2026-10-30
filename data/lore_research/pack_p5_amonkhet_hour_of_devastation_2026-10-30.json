@@ -1,0 +1,505 @@
+{
+ "schema": "multiverse-claim-pack/v1",
+ "pack_id": "pack_p5_amonkhet_hour_of_devastation",
+ "evidence_cutoff": "2026-10-30",
+ "status": "PRELIMINARY_RESEARCH (not owner approved, not certified)",
+ "arc": "AKH/HOU",
+ "scope": "Targeted Phase 5 extraction from the official Amonkhet / Hour of Devastation Magic Story episodes (2017-04-05 to 2017-07-26), mostly from the official episode recap paragraphs plus short narrated passages. Not an exhaustive reading.",
+ "built_by": "scripts/story_claim_pipeline.py from data/lore_research/claim_specs/pack_p5_amonkhet_hour_of_devastation.spec.json",
+ "source_register": {
+  "akh_trust": {
+   "title": "Trust",
+   "url": "https://magic.wizards.com/en/news/magic-story/trust-2017-04-05",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2017-04-05"
+  },
+  "akh_servants": {
+   "title": "Servants",
+   "url": "https://magic.wizards.com/en/news/magic-story/servants-2017-04-19",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2017-04-19"
+  },
+  "akh_hand": {
+   "title": "The Hand That Moves",
+   "url": "https://magic.wizards.com/en/news/magic-story/hand-moves-2017-04-26",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2017-04-26"
+  },
+  "hou_feast": {
+   "title": "Feast",
+   "url": "https://magic.wizards.com/en/news/magic-story/feast-2017-06-14",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2017-06-14"
+  },
+  "hou_favor": {
+   "title": "Favor",
+   "url": "https://magic.wizards.com/en/news/magic-story/favor-2017-07-05",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2017-07-05"
+  },
+  "hou_eternity": {
+   "title": "Hour of Eternity",
+   "url": "https://magic.wizards.com/en/news/magic-story/hour-eternity-2017-07-12",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2017-07-12"
+  },
+  "hou_devastation": {
+   "title": "Hour of Devastation",
+   "url": "https://magic.wizards.com/en/news/magic-story/hour-devastation-2017-07-26",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2017-07-26"
+  }
+ },
+ "entities": [
+  {
+   "id": "gatewatch",
+   "type": "Faction",
+   "name": "Gatewatch"
+  },
+  {
+   "id": "nicol_bolas",
+   "type": "Character",
+   "name": "Nicol Bolas"
+  },
+  {
+   "id": "amonkhet",
+   "type": "Plane",
+   "name": "Amonkhet"
+  },
+  {
+   "id": "liliana_vess",
+   "type": "Character",
+   "name": "Liliana Vess"
+  },
+  {
+   "id": "gideon_jura",
+   "type": "Character",
+   "name": "Gideon Jura"
+  },
+  {
+   "id": "jace_beleren",
+   "type": "Character",
+   "name": "Jace Beleren"
+  },
+  {
+   "id": "chandra_nalaar",
+   "type": "Character",
+   "name": "Chandra Nalaar"
+  },
+  {
+   "id": "nissa_revane",
+   "type": "Character",
+   "name": "Nissa Revane"
+  },
+  {
+   "id": "tezzeret",
+   "type": "Character",
+   "name": "Tezzeret"
+  },
+  {
+   "id": "razaketh",
+   "type": "Character",
+   "name": "Razaketh"
+  },
+  {
+   "id": "kothophed",
+   "type": "Character",
+   "name": "Kothophed"
+  },
+  {
+   "id": "griselbrand",
+   "type": "Character",
+   "name": "Griselbrand"
+  },
+  {
+   "id": "kefnet",
+   "type": "Character",
+   "name": "Kefnet"
+  },
+  {
+   "id": "bontu",
+   "type": "Character",
+   "name": "Bontu"
+  },
+  {
+   "id": "hazoret",
+   "type": "Character",
+   "name": "Hazoret"
+  },
+  {
+   "id": "ral_zarek",
+   "type": "Character",
+   "name": "Ral Zarek"
+  },
+  {
+   "id": "planar_bridge",
+   "type": "Object",
+   "name": "Planar Bridge"
+  }
+ ],
+ "claims": [
+  {
+   "id": "AKH001",
+   "subject": "gatewatch",
+   "predicate": "travelled_to",
+   "object": "amonkhet; nicol_bolas",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "amonkhet_hours_2017",
+   "source_ids": [
+    "akh_trust"
+   ],
+   "evidence": [
+    {
+     "source_id": "akh_trust",
+     "quote": "Five Planeswalkers have come to Amonkhet to slay a dragon."
+    },
+    {
+     "source_id": "akh_trust",
+     "quote": "the dragon Planeswalker Nicol Bolas was perhaps the greatest such threat. So they came to Amonkhet"
+    }
+   ],
+   "summary": "The five Gatewatch members come to Amonkhet to slay Nicol Bolas.",
+   "limitation": ""
+  },
+  {
+   "id": "AKH002",
+   "subject": "nicol_bolas",
+   "predicate": "worshipped_as",
+   "object": "amonkhet",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "amonkhet_hours_2017",
+   "source_ids": [
+    "akh_trust",
+    "hou_favor"
+   ],
+   "evidence": [
+    {
+     "source_id": "akh_trust",
+     "quote": "the twin curving horns of Nicol Bolas—the so-called God-Pharaoh—stood as a reminder of Gideon's purpose here"
+    },
+    {
+     "source_id": "hou_favor",
+     "quote": "\"Hail, Nicol Bolas, God-Pharaoh of Amonkhet!\""
+    }
+   ],
+   "summary": "On Amonkhet Nicol Bolas is the God-Pharaoh.",
+   "limitation": ""
+  },
+  {
+   "id": "AKH003",
+   "subject": "nicol_bolas",
+   "predicate": "overwrote_history_of",
+   "object": "amonkhet",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "amonkhet_hours_2017",
+   "source_ids": [
+    "akh_hand"
+   ],
+   "evidence": [
+    {
+     "source_id": "akh_hand",
+     "quote": "Nissa discovered hints of Amonkhet's past, a history Nicol Bolas has overwritten."
+    }
+   ],
+   "summary": "Bolas has overwritten Amonkhet's past (official recap).",
+   "limitation": ""
+  },
+  {
+   "id": "AKH004",
+   "subject": "liliana_vess",
+   "predicate": "hunts_demon_creditor_on",
+   "object": "amonkhet",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "amonkhet_hours_2017",
+   "source_ids": [
+    "akh_servants"
+   ],
+   "evidence": [
+    {
+     "source_id": "akh_servants",
+     "quote": "She came to the plane to find—and kill—another of her demon creditors."
+    }
+   ],
+   "summary": "Liliana came to Amonkhet to kill another of her demon creditors.",
+   "limitation": ""
+  },
+  {
+   "id": "AKH005",
+   "subject": "liliana_vess",
+   "predicate": "killed",
+   "object": "kothophed; griselbrand",
+   "grade": "CANON_IMPLIED",
+   "event_stage": "before_amonkhet",
+   "source_ids": [
+    "hou_feast"
+   ],
+   "evidence": [
+    {
+     "source_id": "hou_feast",
+     "quote": "\"I killed Kothophed and Griselbrand,\" Liliana replied with a ghost of a smile."
+    }
+   ],
+   "summary": "Liliana says she has already killed Kothophed and Griselbrand.",
+   "limitation": "Liliana's own statement to Razaketh; the killings happened in earlier arcs and are not narrated here."
+  },
+  {
+   "id": "AKH006",
+   "subject": "liliana_vess",
+   "predicate": "killed",
+   "object": "razaketh",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "amonkhet_hours_2017",
+   "source_ids": [
+    "hou_feast"
+   ],
+   "evidence": [
+    {
+     "source_id": "hou_feast",
+     "quote": "Without hesitation or humanity, her two dozen selves consumed the last of the demon Razaketh."
+    }
+   ],
+   "summary": "Through two dozen undead crocodiles, Liliana devours the demon Razaketh.",
+   "limitation": ""
+  },
+  {
+   "id": "AKH007",
+   "subject": "kefnet",
+   "predicate": "god_of",
+   "object": "amonkhet",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "amonkhet_hours_2017",
+   "source_ids": [
+    "akh_hand"
+   ],
+   "evidence": [
+    {
+     "source_id": "akh_hand",
+     "quote": "Now she seeks answers from the God of Knowledge, hoping Kefnet can explain the veneer that seems to obscure the plane."
+    }
+   ],
+   "summary": "Kefnet is Amonkhet's God of Knowledge.",
+   "limitation": ""
+  },
+  {
+   "id": "AKH008",
+   "subject": "nicol_bolas",
+   "predicate": "returned_to",
+   "object": "amonkhet",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "amonkhet_hours_2017",
+   "source_ids": [
+    "hou_eternity"
+   ],
+   "evidence": [
+    {
+     "source_id": "hou_eternity",
+     "quote": "The God-Pharaoh has returned, and the five Hours have arrived as foretold."
+    }
+   ],
+   "summary": "The God-Pharaoh returns and the five Hours arrive (official recap).",
+   "limitation": ""
+  },
+  {
+   "id": "AKH009",
+   "subject": "bontu",
+   "predicate": "submitted_to",
+   "object": "nicol_bolas",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "amonkhet_hours_2017",
+   "source_ids": [
+    "hou_favor"
+   ],
+   "evidence": [
+    {
+     "source_id": "hou_favor",
+     "quote": "Bontu strode forward and knelt in supplication to the God-Pharaoh."
+    }
+   ],
+   "summary": "Bontu kneels to Bolas as the God-Pharaoh.",
+   "limitation": ""
+  },
+  {
+   "id": "AKH010",
+   "subject": "hazoret",
+   "predicate": "memories_suppressed_by",
+   "object": "nicol_bolas",
+   "grade": "CANON_IMPLIED",
+   "event_stage": "amonkhet_hours_2017",
+   "source_ids": [
+    "hou_favor"
+   ],
+   "evidence": [
+    {
+     "source_id": "hou_favor",
+     "quote": "The name Bontu had uttered—Nicol Bolas—had sent another searing pain through Hazoret's head, and she was now certain: some magic was suppressing her memories."
+    }
+   ],
+   "summary": "The name Nicol Bolas pains Hazoret, who realises magic is suppressing her memories.",
+   "limitation": "Hazoret concludes that some magic suppresses her memories; the text does not here say Bolas cast it."
+  },
+  {
+   "id": "AKH011",
+   "subject": "nicol_bolas",
+   "predicate": "defeated",
+   "object": "gatewatch",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "amonkhet_hours_2017",
+   "source_ids": [
+    "hou_devastation"
+   ],
+   "evidence": [
+    {
+     "source_id": "hou_devastation",
+     "quote": "\"No, master, I did not doubt. I was . . . delayed. You defeated them as quickly as you predicted.\""
+    },
+    {
+     "source_id": "hou_devastation",
+     "quote": "The planar bridge was his. The army was ready. The Gatewatch was loose in the Multiverse."
+    }
+   ],
+   "summary": "Bolas defeats the Gatewatch on Amonkhet; the survivors scatter into the Multiverse.",
+   "limitation": ""
+  },
+  {
+   "id": "AKH012",
+   "subject": "chandra_nalaar",
+   "predicate": "fled",
+   "object": "amonkhet",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "amonkhet_hours_2017",
+   "source_ids": [
+    "hou_devastation"
+   ],
+   "evidence": [
+    {
+     "source_id": "hou_devastation",
+     "quote": "Chandra couldn't find Gideon. She couldn't save Nissa. She couldn't beat the dragon."
+    },
+    {
+     "source_id": "hou_devastation",
+     "quote": "She planeswalked away in a fiery blaze, the only trace left of her presence the blood that stained the broken rocks as it, too, evaporated under the fiery heat."
+    }
+   ],
+   "summary": "Chandra planeswalks away from the losing fight.",
+   "limitation": ""
+  },
+  {
+   "id": "AKH013",
+   "subject": "gideon_jura",
+   "predicate": "fled",
+   "object": "amonkhet",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "amonkhet_hours_2017",
+   "source_ids": [
+    "hou_devastation"
+   ],
+   "evidence": [
+    {
+     "source_id": "hou_devastation",
+     "quote": "Bolas did not think Gideon's choice mattered. In the end, it was the dragon's indifference that settled his choice."
+    },
+    {
+     "source_id": "hou_devastation",
+     "quote": "He willed his body through the Blind Eternities, the hole the dragon left in his shoulder only the most visible of his wounds."
+    }
+   ],
+   "summary": "Wounded, Gideon leaves Amonkhet through the Blind Eternities.",
+   "limitation": ""
+  },
+  {
+   "id": "AKH014",
+   "subject": "tezzeret",
+   "predicate": "serves",
+   "object": "nicol_bolas",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "amonkhet_hours_2017",
+   "source_ids": [
+    "hou_devastation"
+   ],
+   "evidence": [
+    {
+     "source_id": "hou_devastation",
+     "quote": "Tezzeret had served him long enough to know the right answer."
+    }
+   ],
+   "summary": "Tezzeret arrives on Amonkhet as Bolas's servant.",
+   "limitation": ""
+  },
+  {
+   "id": "AKH015",
+   "subject": "nicol_bolas",
+   "predicate": "controls",
+   "object": "planar_bridge",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "amonkhet_hours_2017",
+   "source_ids": [
+    "hou_devastation"
+   ],
+   "evidence": [
+    {
+     "source_id": "hou_devastation",
+     "quote": "The planar bridge was his. The army was ready."
+    }
+   ],
+   "summary": "Bolas now has the Planar Bridge and an army ready (the Amonkhet Eternals, per later arcs).",
+   "limitation": "The 'army' is not named in this quote; identifying it with the Eternals is left to later packs."
+  },
+  {
+   "id": "AKH016",
+   "subject": "nicol_bolas",
+   "predicate": "summoned",
+   "object": "ral_zarek",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "amonkhet_hours_2017",
+   "source_ids": [
+    "hou_devastation"
+   ],
+   "evidence": [
+    {
+     "source_id": "hou_devastation",
+     "quote": "\"Later. Go and tell Ral Zarek to come to me. His progress is too slow.\""
+    }
+   ],
+   "summary": "Bolas sends Tezzeret to fetch Ral Zarek, whose (unnamed) work is too slow, foreshadowing War of the Spark.",
+   "limitation": ""
+  },
+  {
+   "id": "AKH017",
+   "subject": "nicol_bolas",
+   "predicate": "prepared",
+   "object": "amonkhet",
+   "grade": "CANON_IMPLIED",
+   "event_stage": "bolas_amonkhet_preparation",
+   "source_ids": [
+    "hou_devastation"
+   ],
+   "evidence": [
+    {
+     "source_id": "hou_devastation",
+     "quote": "Several decades ago he had come to the world of Amonkhet, a blighted, superstitious backworld of interest to no one who mattered"
+    },
+    {
+     "source_id": "hou_devastation",
+     "quote": "He had wrought well in his creation sixty years ago."
+    }
+   ],
+   "summary": "Bolas came to Amonkhet decades before the story and shaped its present order around sixty years earlier.",
+   "limitation": "'Several decades' and 'sixty years ago' are Bolas's point-of-view narration relative to the story; kept as relative dates, not absolute years."
+  }
+ ],
+ "pages_registered": 7,
+ "pages_cited": 7,
+ "uncited_registered_pages": [],
+ "remaining": [
+  "Writing on the Wall, Brazen, Judgment, Hour of Revelation/Glory/Promise and Endure episodes are uncited",
+  "Trespass (Samut/Djeru/Hapatra backstory) is not modelled yet",
+  "Gods' deaths (Oketra, Kefnet, Rhonas) and Samut's spark are not yet modelled"
+ ]
+}

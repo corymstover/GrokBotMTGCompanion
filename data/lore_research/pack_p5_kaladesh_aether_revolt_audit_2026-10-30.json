@@ -1,0 +1,194 @@
+{
+ "schema": "story-claim-pipeline-audit/v1",
+ "pack": "data/lore_research/pack_p5_kaladesh_aether_revolt_2026-10-30.json",
+ "pack_status": "PRELIMINARY_RESEARCH (not owner approved, not certified)",
+ "arc": "KLD/AER",
+ "claims": 25,
+ "entities": 28,
+ "sources": 14,
+ "grades": {
+  "CANON_CONFIRMED": 21,
+  "CANON_IMPLIED": 4
+ },
+ "quotes": 29,
+ "quotes_verbatim": 29,
+ "quote_rows": [
+  {
+   "claim": "KLD001",
+   "source_id": "kld_homesick",
+   "quote_sha256": "fde03078d9f426fb892100e0a4b6fc81a794f6e4f59490ebb532001a80c6a577",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "KLD002",
+   "source_id": "kld_torch",
+   "quote_sha256": "7d7d242746a148749f2967d475ec96513aa427ab82b2ad7506fa77ee2c1a9455",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "KLD003",
+   "source_id": "kld_renegade_prime",
+   "quote_sha256": "15d562f3f03c1d44e3b9429c8137f4d9b4e3778e770cf26fa9215a23765f7c1c",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "KLD004",
+   "source_id": "kld_renegade_prime",
+   "quote_sha256": "6421cfb00b44d3cac9e9f381eb1ac0541e8e4a4f691dce37fe639b3db2229e78",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "KLD005",
+   "source_id": "kld_bottled",
+   "quote_sha256": "68170929be1f0632f096a3a6602b104787098a88de2af756a80e945cbce13288",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "KLD005",
+   "source_id": "aer_revolution",
+   "quote_sha256": "82b1827e1d370ea8ed373447f99acc03c249b0ebb823b108280d30240958a7ea",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "KLD006",
+   "source_id": "kld_release",
+   "quote_sha256": "0a577bde748abf4dfdcd3ef6b4892f05a222d4647a59402674ac1f963b2fb8a0",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "KLD007",
+   "source_id": "kld_release",
+   "quote_sha256": "0a577bde748abf4dfdcd3ef6b4892f05a222d4647a59402674ac1f963b2fb8a0",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "KLD008",
+   "source_id": "kld_very_arena",
+   "quote_sha256": "f68489bb2f43740fae9fc1de10baf830d444949d6ec2e2067416eb147f07b702",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "KLD009",
+   "source_id": "kld_grateful",
+   "quote_sha256": "f2100a0bb5cda11fcc96718f72a41d11a30ac752f21572bc4d1853e14561c02c",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "KLD010",
+   "source_id": "kld_guide",
+   "quote_sha256": "c192614130083b8df539b6acbbf2562520f297a4e300624faa6c6b79cf06d486",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "AER001",
+   "source_id": "aer_breakthrough",
+   "quote_sha256": "defceab05621a8ce2fa84f0f2f306278fbbd76cd9441c21f862c4c1ba7bd79b5",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "AER002",
+   "source_id": "aer_revolution",
+   "quote_sha256": "a32370d3eb4af06b764fbab49733dea8aa01c0386990d7c2adcdaafaf531ba6d",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "AER003",
+   "source_id": "aer_revolution",
+   "quote_sha256": "3117130f29246d5f01e09d4ab12e7328176f17026ed737498c35cb1d501b81cf",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "AER004",
+   "source_id": "aer_revolution",
+   "quote_sha256": "7f94ba7504cf7016420560710f0a8011571e11def1be6dfa7b78be7f34b0d5b4",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "AER004",
+   "source_id": "aer_revolution",
+   "quote_sha256": "46ffdb2f27f527da9f9048323ea6c5e63b81b3c54fa428937a3f65523d740b7b",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "AER005",
+   "source_id": "aer_breaking",
+   "quote_sha256": "bda72470f862fe466e11da941648164f59f1d7716d79a330f50a1a4fbbc43e42",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "AER006",
+   "source_id": "aer_skies",
+   "quote_sha256": "a24c3c8ef4c6dcf320a8cf141a3fd251015d3da27ccef7d7c8e42f079b0508cd",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "AER007",
+   "source_id": "aer_breaking",
+   "quote_sha256": "06f7430bfb782262f2e39f58ed39bf359c1dd8fba72e033c8d6a6e847a017219",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "AER008",
+   "source_id": "aer_puppets",
+   "quote_sha256": "eb8df4d10a86882a752840cf736c02930324d1576a5fbeb0bdd6f1a9e51ca3f4",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "AER009",
+   "source_id": "aer_puppets",
+   "quote_sha256": "6544d99d5137f049216f0c1f70ecf32c7a78650ffa7bcfdd0baf86457e031cb8",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "AER010",
+   "source_id": "aer_renewal",
+   "quote_sha256": "1d39a006e4c41340f3a8ff0a248a1cb3d0a8641e8626e02208a9825c0109f4e3",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "AER011",
+   "source_id": "aer_renewal",
+   "quote_sha256": "e69df17e92d879a1aef2ec7e77a5e02b40fb81a8d6a9da6acfad6ec2d7676611",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "AER012",
+   "source_id": "aer_renewal",
+   "quote_sha256": "8cae5102644a84281e643707f2276b6013a78af99c60f04644e62977438c5372",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "AER013",
+   "source_id": "aer_renewal",
+   "quote_sha256": "8710ddc3937d046f9264a244040c99d88e9cf92e443e5cc905c95851719abe4c",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "AER013",
+   "source_id": "aer_renewal",
+   "quote_sha256": "c12b683fb4951e0bdc5a928af6bdaa041dbc8e53542c51de314cde9bae202905",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "AER014",
+   "source_id": "aer_renewal",
+   "quote_sha256": "1959d05ad0d0c95f90e8468ce949d95b21316392fa6c0b576221e378647859a6",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "AER014",
+   "source_id": "aer_renewal",
+   "quote_sha256": "6dd1b6d018baba367487465f1e6a6bf0f87c3a98bccf7aaa2ff8a9f8f81c2592",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "AER015",
+   "source_id": "aer_renewal",
+   "quote_sha256": "4c7c15d1ce0a4265553c8d2480daef1a0bb767be6394e7cd56a3d2cbc81398f8",
+   "status": "VERBATIM"
+  }
+ ],
+ "problems": [],
+ "note": "Verbatim-quote audit against cached official Wizards story text. Research evidence only: not owner approval, not certification, not an exhaustive reading.",
+ "content_sha256": "4409c6bdfd76206381ebc4310b876bbcaa17d1b9299cfc6f3fe017810b819da7"
+}

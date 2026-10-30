@@ -1,0 +1,159 @@
+{
+ "schema": "story-claim-pipeline-audit/v1",
+ "pack": "data/lore_research/pack_p5_ixalan_rivals_2026-10-30.json",
+ "pack_status": "PRELIMINARY_RESEARCH (not owner approved, not certified)",
+ "arc": "XLN/RIX",
+ "claims": 16,
+ "entities": 17,
+ "sources": 10,
+ "grades": {
+  "ALTERNATE_CONTINUITY": 1,
+  "CANON_CONFIRMED": 12,
+  "CANON_IMPLIED": 3
+ },
+ "quotes": 23,
+ "quotes_verbatim": 23,
+ "quote_rows": [
+  {
+   "claim": "XLN001",
+   "source_id": "xln_jace_alone",
+   "quote_sha256": "c92cdd8069630c572418ea5e5deb73119ecf9aea58140bcd861c5eb4df1aa0f5",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "XLN002",
+   "source_id": "xln_question",
+   "quote_sha256": "1aef46b4124d8ace57a132b071c9d4b1d9de6285fc22a6b4d1fb79cd2e16ca94",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "XLN003",
+   "source_id": "xln_vraska",
+   "quote_sha256": "f2e1d98d400d15afbfeb92e1d4c91a296f1105336ce86454d01ee01f2db0d2b0",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "XLN003",
+   "source_id": "xln_vraska",
+   "quote_sha256": "987018b435ce9d72fea0018e388215615b3394b4c7f69c209feb921418bb1e82",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "XLN004",
+   "source_id": "xln_vraska",
+   "quote_sha256": "8803f4b27ff546b3994a05df8ee938def4f8633d199cf3f479efff8fc92af54c",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "XLN005",
+   "source_id": "rix_flood",
+   "quote_sha256": "7f186a9b2e0b171f115e0a33bc4fe59fae527d40b5bf74b60c21be24eb78e3e5",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "XLN005",
+   "source_id": "rix_flood",
+   "quote_sha256": "1def028ea1ca8d611c075e27c8cb3e5684627eeedeb1ea589193af751c22d79b",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "XLN006",
+   "source_id": "rix_glimpse",
+   "quote_sha256": "8a7f23a7c8148a32833fa97bc15472b924d8b96bfa56ddef4a4bb611982586f3",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "XLN007",
+   "source_id": "rix_glimpse",
+   "quote_sha256": "e4e913387acfa93b3c02e0299aa7131dca424476b3be19b947bc2702afcb134d",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "XLN007",
+   "source_id": "rix_arbiter",
+   "quote_sha256": "270cb5f8ffa6f11df37a27dc197493594215e9cec02c608c40f5c4d114d7ae00",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "XLN007",
+   "source_id": "rix_who_tells",
+   "quote_sha256": "67b9825100055dce51cb128c9921f117e98b6012774ada5acfa35ab6d79cb598",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "XLN008",
+   "source_id": "rix_sabotage",
+   "quote_sha256": "4ba911cda52d4076ba58c07204677ac8a89fef9594d7d7f1bb8df4ee7387a60e",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "XLN009",
+   "source_id": "rix_sabotage",
+   "quote_sha256": "6776439683c246842a2f7afb00066ebe5404ac1eba8f2e842072c2e5050d9d1d",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "XLN009",
+   "source_id": "rix_arbiter",
+   "quote_sha256": "9980ddd5c16f9793478ae0349c92373b1afe02bc4e893e8d5a142ef4230041f7",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "XLN009",
+   "source_id": "rix_sabotage",
+   "quote_sha256": "0eab16ba482567b38770661ee964ee39dee04191bdeb0b962daa405e2ec62b07",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "XLN010",
+   "source_id": "rix_sabotage",
+   "quote_sha256": "99f0de6d02280b86d973eb9c78472da93fd7d8de59278e0c476f90de8af74028",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "XLN010",
+   "source_id": "rix_sabotage",
+   "quote_sha256": "74a81061633fccc84523b027750c151b28a6f5108750d955c66bbc84ee318e65",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "XLN011",
+   "source_id": "rix_who_tells",
+   "quote_sha256": "e78e31b8fef9bef07ad2c35f7b1475c2dec5f7212097f3eba86d1fb9a738680a",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "XLN012",
+   "source_id": "rix_who_tells",
+   "quote_sha256": "293b4710e9a0a02aa38bb4dccffc03b1b6c9cd83d2eb1c1a3b321ec5cd6f8e44",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "XLN013",
+   "source_id": "rix_wool",
+   "quote_sha256": "333ee744b41dce2fa9e02aeb2bede90bcefb4c801bae1e373593402a4da0a173",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "XLN014",
+   "source_id": "xln_vraska",
+   "quote_sha256": "5b67d4d9feba63a3f345d3384bec2f1131d8979163b094f2d3877b009974d875",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "XLN015",
+   "source_id": "rix_alt_endings",
+   "quote_sha256": "75c77761bf9cf10095682aaae08585824c078ad5a5debe0d75965d095e52e821",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "XLN016",
+   "source_id": "rix_alt_endings",
+   "quote_sha256": "a17294938604e1fbe29afc812ea3c4a8943b61ba4d7c290bf3d0bd1cf385e789",
+   "status": "VERBATIM"
+  }
+ ],
+ "problems": [],
+ "note": "Verbatim-quote audit against cached official Wizards story text. Research evidence only: not owner approval, not certification, not an exhaustive reading.",
+ "content_sha256": "f963e96108d679b084870ffaad04ffe594f775efa4158e5bc3e374c3cf140615"
+}

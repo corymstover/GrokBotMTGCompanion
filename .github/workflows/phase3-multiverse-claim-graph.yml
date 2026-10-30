@@ -27,6 +27,8 @@ on:
       - 'data/lore_research/koth_wrenn_printing_leads_2026-10-30.json'
       - 'scripts/build_story_coverage_inventory.py'
       - 'tests/test_story_coverage_inventory.py'
+      - 'scripts/story_claim_pipeline.py'
+      - 'tests/test_story_claim_pipeline.py'
       - 'data/primary_sources.csv'
       - 'data/story_atlas/**'
       - 'scripts/build_story_art_captions.py'
@@ -56,6 +58,8 @@ on:
       - 'data/lore_research/koth_wrenn_printing_leads_2026-10-30.json'
       - 'scripts/build_story_coverage_inventory.py'
       - 'tests/test_story_coverage_inventory.py'
+      - 'scripts/story_claim_pipeline.py'
+      - 'tests/test_story_claim_pipeline.py'
       - 'data/primary_sources.csv'
       - 'data/story_atlas/**'
       - 'scripts/build_story_art_captions.py'
@@ -108,6 +112,10 @@ jobs:
         run: |
           python3 scripts/build_koth_wrenn_printing_leads.py --check
           python3 -m unittest discover -s tests -p 'test_koth_wrenn_printing_leads.py' -v
+      - name: Phase 5 bulk story claim packs (spec rebuild, quote hashes; cache absent in CI) and tests
+        run: |
+          python3 scripts/story_claim_pipeline.py check
+          python3 -m unittest discover -s tests -p 'test_story_claim_pipeline.py' -v
       - name: Story coverage/gaps inventory (rebuild and compare) and tests
         run: |
           python3 scripts/build_story_coverage_inventory.py --check

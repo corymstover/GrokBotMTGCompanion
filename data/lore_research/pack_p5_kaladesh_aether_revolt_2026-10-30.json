@@ -1,0 +1,752 @@
+{
+ "schema": "multiverse-claim-pack/v1",
+ "pack_id": "pack_p5_kaladesh_aether_revolt",
+ "evidence_cutoff": "2026-10-30",
+ "status": "PRELIMINARY_RESEARCH (not owner approved, not certified)",
+ "arc": "KLD/AER",
+ "scope": "Targeted Phase 5 extraction from the official Kaladesh / Aether Revolt Magic Story episodes (2016-08-29 to 2017-02-01) and the Planeswalker's Guide to Kaladesh. Quotes come mostly from Wizards' episode recap paragraphs plus short scene passages. Not an exhaustive reading.",
+ "built_by": "scripts/story_claim_pipeline.py from data/lore_research/claim_specs/pack_p5_kaladesh_aether_revolt.spec.json",
+ "source_register": {
+  "kld_homesick": {
+   "title": "Homesick",
+   "url": "https://magic.wizards.com/en/news/magic-story/homesick-2016-08-29",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2016-08-29"
+  },
+  "kld_torch": {
+   "title": "Torch of Defiance",
+   "url": "https://magic.wizards.com/en/news/magic-story/torch-defiance-2016-09-07",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2016-09-05"
+  },
+  "kld_renegade_prime": {
+   "title": "Renegade Prime",
+   "url": "https://magic.wizards.com/en/news/magic-story/renegade-prime-2016-09-14",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2016-09-14"
+  },
+  "kld_bottled": {
+   "title": "Bottled Up",
+   "url": "https://magic.wizards.com/en/news/magic-story/bottled-2016-09-28",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2016-09-28"
+  },
+  "kld_release": {
+   "title": "Release",
+   "url": "https://magic.wizards.com/en/news/magic-story/release-2016-10-05",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2016-10-05"
+  },
+  "kld_very_arena": {
+   "title": "In This Very Arena",
+   "url": "https://magic.wizards.com/en/news/magic-story/very-arena-2016-10-12",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2016-10-12"
+  },
+  "kld_grateful": {
+   "title": "A Grateful Consulate",
+   "url": "https://magic.wizards.com/en/news/magic-story/grateful-consulate-2016-10-19",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2016-10-19"
+  },
+  "kld_guide": {
+   "title": "Planeswalker's Guide to Kaladesh",
+   "url": "https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-kaladesh-2016-11-02",
+   "kind": "official_planeswalkers_guide",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2016-11-02"
+  },
+  "aer_breakthrough": {
+   "title": "Breakthrough",
+   "url": "https://magic.wizards.com/en/news/magic-story/breakthrough-2016-12-14",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2016-12-15"
+  },
+  "aer_revolution": {
+   "title": "Revolution Begins",
+   "url": "https://magic.wizards.com/en/news/magic-story/revolution-begins-2017-01-02",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2017-01-03"
+  },
+  "aer_skies": {
+   "title": "The Skies over Ghirapur",
+   "url": "https://magic.wizards.com/en/news/magic-story/skies-over-ghirapur-2017-01-11",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2017-01-12"
+  },
+  "aer_breaking": {
+   "title": "Breaking Points",
+   "url": "https://magic.wizards.com/en/news/magic-story/breaking-points-2017-01-18",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2017-01-18"
+  },
+  "aer_puppets": {
+   "title": "Puppets",
+   "url": "https://magic.wizards.com/en/news/magic-story/puppets-2017-01-25",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2017-01-26"
+  },
+  "aer_renewal": {
+   "title": "Renewal",
+   "url": "https://magic.wizards.com/en/news/magic-story/renewal-2017-02-01",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2017-02-02"
+  }
+ },
+ "entities": [
+  {
+   "id": "chandra_nalaar",
+   "type": "Character",
+   "name": "Chandra Nalaar"
+  },
+  {
+   "id": "pia_nalaar",
+   "type": "Character",
+   "name": "Pia Nalaar"
+  },
+  {
+   "id": "kiran_nalaar",
+   "type": "Character",
+   "name": "Kiran Nalaar"
+  },
+  {
+   "id": "dhiren_baral",
+   "type": "Character",
+   "name": "Dhiren Baral"
+  },
+  {
+   "id": "tezzeret",
+   "type": "Character",
+   "name": "Tezzeret"
+  },
+  {
+   "id": "dovin_baan",
+   "type": "Character",
+   "name": "Dovin Baan"
+  },
+  {
+   "id": "rashmi",
+   "type": "Character",
+   "name": "Rashmi"
+  },
+  {
+   "id": "saheeli",
+   "type": "Character",
+   "name": "Saheeli Rai"
+  },
+  {
+   "id": "kari_zev",
+   "type": "Character",
+   "name": "Kari Zev"
+  },
+  {
+   "id": "ajani",
+   "type": "Character",
+   "name": "Ajani"
+  },
+  {
+   "id": "nissa_revane",
+   "type": "Character",
+   "name": "Nissa Revane"
+  },
+  {
+   "id": "jace_beleren",
+   "type": "Character",
+   "name": "Jace Beleren"
+  },
+  {
+   "id": "liliana_vess",
+   "type": "Character",
+   "name": "Liliana Vess"
+  },
+  {
+   "id": "nicol_bolas",
+   "type": "Character",
+   "name": "Nicol Bolas"
+  },
+  {
+   "id": "emrakul",
+   "type": "Character",
+   "name": "Emrakul"
+  },
+  {
+   "id": "gatewatch",
+   "type": "Faction",
+   "name": "Gatewatch"
+  },
+  {
+   "id": "consulate",
+   "type": "Faction",
+   "name": "Consulate of Kaladesh"
+  },
+  {
+   "id": "renegades_kaladesh",
+   "type": "Faction",
+   "name": "Renegades of Kaladesh"
+  },
+  {
+   "id": "kaladesh",
+   "type": "Plane",
+   "name": "Kaladesh"
+  },
+  {
+   "id": "amonkhet",
+   "type": "Plane",
+   "name": "Amonkhet"
+  },
+  {
+   "id": "regatha",
+   "type": "Plane",
+   "name": "Regatha"
+  },
+  {
+   "id": "innistrad_silver_moon",
+   "type": "Place",
+   "name": "Innistrad's silver moon"
+  },
+  {
+   "id": "spire_inquirium",
+   "type": "Place",
+   "name": "Spire Inquirium"
+  },
+  {
+   "id": "planar_bridge",
+   "type": "Object",
+   "name": "Planar Bridge"
+  },
+  {
+   "id": "heart_of_kiran",
+   "type": "Object",
+   "name": "Heart of Kiran"
+  },
+  {
+   "id": "skysovereign",
+   "type": "Object",
+   "name": "Skysovereign"
+  },
+  {
+   "id": "aether_kaladesh",
+   "type": "Concept",
+   "name": "Aether (Kaladesh)"
+  },
+  {
+   "id": "ghirapur_revolution",
+   "type": "Event",
+   "name": "Renegade revolution in Ghirapur"
+  }
+ ],
+ "claims": [
+  {
+   "id": "KLD001",
+   "subject": "gatewatch",
+   "predicate": "sealed",
+   "object": "emrakul; innistrad_silver_moon",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "soi_emn_2016",
+   "source_ids": [
+    "kld_homesick"
+   ],
+   "evidence": [
+    {
+     "source_id": "kld_homesick",
+     "quote": "With the aid of Tamiyo, a soratami scholar of Kamigawa, they defeated the eldritch titan Emrakul, sealing the entity within Innistrad's silver moon."
+    }
+   ],
+   "summary": "Recap: with Tamiyo's aid, the five Gatewatch members defeated Emrakul and sealed her in Innistrad's silver moon.",
+   "limitation": ""
+  },
+  {
+   "id": "KLD002",
+   "subject": "chandra_nalaar",
+   "predicate": "returned_to",
+   "object": "kaladesh",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "kaladesh_revolt_2016",
+   "source_ids": [
+    "kld_torch"
+   ],
+   "evidence": [
+    {
+     "source_id": "kld_torch",
+     "quote": "Without consulting the others, she has planeswalked back to Kaladesh, back to her home."
+    }
+   ],
+   "summary": "Chandra returns to her home plane of Kaladesh without consulting the rest of the Gatewatch.",
+   "limitation": ""
+  },
+  {
+   "id": "KLD003",
+   "subject": "chandra_nalaar",
+   "predicate": "first_planeswalked_to",
+   "object": "regatha",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "chandra_origin",
+   "source_ids": [
+    "kld_renegade_prime"
+   ],
+   "evidence": [
+    {
+     "source_id": "kld_renegade_prime",
+     "quote": "Chandra Nalaar first left her home plane of Kaladesh when her Planeswalker spark ignited, vaulting her from imminent doom at the hands of Lieutenant Baral to the fire monasteries of Regatha."
+    }
+   ],
+   "summary": "Chandra's spark ignited as Baral was about to kill her, and she planeswalked to the fire monasteries of Regatha.",
+   "limitation": ""
+  },
+  {
+   "id": "KLD004",
+   "subject": "pia_nalaar",
+   "predicate": "mother_of",
+   "object": "chandra_nalaar",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "kaladesh_revolt_2016",
+   "source_ids": [
+    "kld_renegade_prime"
+   ],
+   "evidence": [
+    {
+     "source_id": "kld_renegade_prime",
+     "quote": "Now she's returned to try to save a mysterious renegade from arrest, only to stumble upon someone she'd thought dead for years—her mother, Pia."
+    }
+   ],
+   "summary": "Pia Nalaar, Chandra's mother, is alive; Chandra had thought her dead for years.",
+   "limitation": ""
+  },
+  {
+   "id": "KLD005",
+   "subject": "dhiren_baral",
+   "predicate": "killed",
+   "object": "kiran_nalaar",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "chandra_origin",
+   "source_ids": [
+    "kld_bottled",
+    "aer_revolution"
+   ],
+   "evidence": [
+    {
+     "source_id": "kld_bottled",
+     "quote": "she is being held in the Dhund, a secret complex run by the vicious mage Baral—the same Baral who hunted a young Chandra down and killed her father."
+    },
+    {
+     "source_id": "aer_revolution",
+     "quote": "Kiran Nalaar. It had to be. Pia's late partner, and the inventor who had designed this ship so long ago."
+    }
+   ],
+   "summary": "Baral, who runs the Dhund, hunted the young Chandra and killed her father, Kiran Nalaar.",
+   "limitation": ""
+  },
+  {
+   "id": "KLD006",
+   "subject": "tezzeret",
+   "predicate": "ordered_arrest_of",
+   "object": "pia_nalaar",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "kaladesh_revolt_2016",
+   "source_ids": [
+    "kld_release"
+   ],
+   "evidence": [
+    {
+     "source_id": "kld_release",
+     "quote": "Pia Nalaar, now a leader of the renegade movement, was arrested by the ruling Consulate at the command of the Planeswalker Tezzeret."
+    }
+   ],
+   "summary": "The Consulate arrests Pia Nalaar on Tezzeret's command.",
+   "limitation": ""
+  },
+  {
+   "id": "KLD007",
+   "subject": "pia_nalaar",
+   "predicate": "leader_of",
+   "object": "renegades_kaladesh",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "kaladesh_revolt_2016",
+   "source_ids": [
+    "kld_release"
+   ],
+   "evidence": [
+    {
+     "source_id": "kld_release",
+     "quote": "Pia Nalaar, now a leader of the renegade movement, was arrested by the ruling Consulate at the command of the Planeswalker Tezzeret."
+    }
+   ],
+   "summary": "Pia Nalaar is a leader of the renegade movement.",
+   "limitation": ""
+  },
+  {
+   "id": "KLD008",
+   "subject": "ajani",
+   "predicate": "rescued",
+   "object": "chandra_nalaar; nissa_revane",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "kaladesh_revolt_2016",
+   "source_ids": [
+    "kld_very_arena"
+   ],
+   "evidence": [
+    {
+     "source_id": "kld_very_arena",
+     "quote": "But instead of finding Pia, they found themselves trapped in an underground Consulate prison facility. Only the timely arrival of the leonin Planeswalker, Ajani, saved them from having to make a deadly choice."
+    }
+   ],
+   "summary": "Ajani's arrival saves Chandra and Nissa from a deadly trap in a Consulate prison.",
+   "limitation": ""
+  },
+  {
+   "id": "KLD009",
+   "subject": "gatewatch",
+   "predicate": "freed",
+   "object": "pia_nalaar",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "kaladesh_revolt_2016",
+   "source_ids": [
+    "kld_grateful"
+   ],
+   "evidence": [
+    {
+     "source_id": "kld_grateful",
+     "quote": "But the Planeswalkers of the Gatewatch, drawn to Kaladesh by Tezzeret's presence here, interrupted the contest and freed Pia Nalaar from Consulate custody."
+    }
+   ],
+   "summary": "The Gatewatch interrupt Tezzeret's public contest and free Pia Nalaar.",
+   "limitation": ""
+  },
+  {
+   "id": "KLD010",
+   "subject": "aether_kaladesh",
+   "predicate": "sustains",
+   "object": "kaladesh",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "setting",
+   "source_ids": [
+    "kld_guide"
+   ],
+   "evidence": [
+    {
+     "source_id": "kld_guide",
+     "quote": "Kaladesh owes its bright existence to the presence of a mystical blue substance known as aether."
+    }
+   ],
+   "summary": "Planeswalker's Guide: Kaladesh's bright existence depends on visible, tangible aether.",
+   "limitation": ""
+  },
+  {
+   "id": "AER001",
+   "subject": "consulate",
+   "predicate": "abducted",
+   "object": "rashmi; spire_inquirium",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "kaladesh_revolt_2016",
+   "source_ids": [
+    "aer_breakthrough"
+   ],
+   "evidence": [
+    {
+     "source_id": "aer_breakthrough",
+     "quote": "Consulate enforcers whisked away the winning inventors and their inventions, taking them to the Spire Inquirium. The winners haven't been heard from since. Among them was the elvish aether-seer Rashmi"
+    }
+   ],
+   "summary": "Consulate enforcers take the Inventors' Fair winners, Rashmi among them, to the Spire Inquirium.",
+   "limitation": ""
+  },
+  {
+   "id": "AER002",
+   "subject": "tezzeret",
+   "predicate": "seized_control_of",
+   "object": "consulate",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "kaladesh_revolt_2016",
+   "source_ids": [
+    "aer_revolution"
+   ],
+   "evidence": [
+    {
+     "source_id": "aer_revolution",
+     "quote": "In a bid for power, Tezzeret installed himself as Grand Consul; now he holds the city of Ghirapur in his clutches."
+    }
+   ],
+   "summary": "Tezzeret installs himself as Grand Consul of the Consulate.",
+   "limitation": ""
+  },
+  {
+   "id": "AER003",
+   "subject": "rashmi",
+   "predicate": "invented",
+   "object": "planar_bridge",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "kaladesh_revolt_2016",
+   "source_ids": [
+    "aer_revolution"
+   ],
+   "evidence": [
+    {
+     "source_id": "aer_revolution",
+     "quote": "The Planar Bridge, that's what they—the Planeswalkers, as Saheeli had introduced them to Rashmi—were calling Rashmi's matter transporter."
+    }
+   ],
+   "summary": "The Planar Bridge is the Planeswalkers' name for Rashmi's matter transporter.",
+   "limitation": ""
+  },
+  {
+   "id": "AER004",
+   "subject": "kiran_nalaar",
+   "predicate": "designed",
+   "object": "heart_of_kiran",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "kaladesh_revolt_2016",
+   "source_ids": [
+    "aer_revolution"
+   ],
+   "evidence": [
+    {
+     "source_id": "aer_revolution",
+     "quote": "think of the man who designed this ship: the great inventor Kiran Nalaar."
+    },
+    {
+     "source_id": "aer_revolution",
+     "quote": "So I dedicate this skyship the Heart of Kiran,\""
+    }
+   ],
+   "summary": "Kiran Nalaar designed the skyship later launched as Heart of Kiran.",
+   "limitation": ""
+  },
+  {
+   "id": "AER005",
+   "subject": "gatewatch",
+   "predicate": "escaped_aboard",
+   "object": "heart_of_kiran",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "kaladesh_revolt_2016",
+   "source_ids": [
+    "aer_breaking"
+   ],
+   "evidence": [
+    {
+     "source_id": "aer_breaking",
+     "quote": "After the disastrous loss of the Aether Hub, the Gatewatch and several of their renegade allies escaped via the newly-launched skyship, Heart of Kiran."
+    }
+   ],
+   "summary": "After the renegades lose the Aether Hub, the Gatewatch and allies escape on Heart of Kiran.",
+   "limitation": ""
+  },
+  {
+   "id": "AER006",
+   "subject": "jace_beleren",
+   "predicate": "allied_with",
+   "object": "kari_zev",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "kaladesh_revolt_2016",
+   "source_ids": [
+    "aer_skies"
+   ],
+   "evidence": [
+    {
+     "source_id": "aer_skies",
+     "quote": "Always one in favor of a contingency plan, Jace accompanied the young captain on her mission."
+    }
+   ],
+   "summary": "Jace accompanies the sky pirate Kari Zev on her raid on Consulate ships.",
+   "limitation": ""
+  },
+  {
+   "id": "AER007",
+   "subject": "jace_beleren",
+   "predicate": "brought_down",
+   "object": "skysovereign",
+   "grade": "CANON_IMPLIED",
+   "event_stage": "kaladesh_revolt_2016",
+   "source_ids": [
+    "aer_breaking"
+   ],
+   "evidence": [
+    {
+     "source_id": "aer_breaking",
+     "quote": "\"It's fallen,\" Gideon said. \"And the blockade's gone with it. Jace and Captain Zev were successful.\""
+    }
+   ],
+   "summary": "Skysovereign falls and the blockade breaks; Gideon credits Jace and Kari Zev.",
+   "limitation": "Gideon's in-scene attribution of Skysovereign's fall to Jace and Kari Zev; the quote does not narrate how the ship was brought down."
+  },
+  {
+   "id": "AER008",
+   "subject": "tezzeret",
+   "predicate": "agent_of",
+   "object": "nicol_bolas",
+   "grade": "CANON_IMPLIED",
+   "event_stage": "kaladesh_revolt_2016",
+   "source_ids": [
+    "aer_puppets"
+   ],
+   "evidence": [
+    {
+     "source_id": "aer_puppets",
+     "quote": "\"Oh,\" Liliana breathed. \"Oh. You're here for Bolas.\" A contemptuous sneer twisted his face. \"Tell me you didn't just figure that out.\""
+    }
+   ],
+   "summary": "Liliana realises Tezzeret is on Kaladesh for Nicol Bolas; he sneers rather than denying it.",
+   "limitation": "Established by Liliana's realisation and Tezzeret's sarcastic non-denial, not by narration of the arrangement."
+  },
+  {
+   "id": "AER009",
+   "subject": "liliana_vess",
+   "predicate": "opposed",
+   "object": "tezzeret",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "kaladesh_revolt_2016",
+   "source_ids": [
+    "aer_puppets"
+   ],
+   "evidence": [
+    {
+     "source_id": "aer_puppets",
+     "quote": "Liliana has taken on the grim task of addressing what she sees as the real problem on Kaladesh: the Planeswalker Tezzeret."
+    }
+   ],
+   "summary": "Liliana goes after Tezzeret directly during the revolution.",
+   "limitation": ""
+  },
+  {
+   "id": "AER010",
+   "subject": "tezzeret",
+   "predicate": "defeated_in",
+   "object": "ghirapur_revolution",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "kaladesh_revolt_2016",
+   "source_ids": [
+    "aer_renewal"
+   ],
+   "evidence": [
+    {
+     "source_id": "aer_renewal",
+     "quote": "Tezzeret is defeated. Dovin Baan has disappeared. Rashmi's Planar Bridge, a threat to life across the Multiverse, lies in pieces"
+    }
+   ],
+   "summary": "Recap: Tezzeret is defeated and the Planar Bridge lies in pieces.",
+   "limitation": ""
+  },
+  {
+   "id": "AER011",
+   "subject": "dovin_baan",
+   "predicate": "disappeared_after",
+   "object": "ghirapur_revolution",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "kaladesh_revolt_2016",
+   "source_ids": [
+    "aer_renewal"
+   ],
+   "evidence": [
+    {
+     "source_id": "aer_renewal",
+     "quote": "Tezzeret is defeated. Dovin Baan has disappeared."
+    }
+   ],
+   "summary": "Dovin Baan disappears after the revolution.",
+   "limitation": ""
+  },
+  {
+   "id": "AER012",
+   "subject": "rashmi",
+   "predicate": "swore_to",
+   "object": "saheeli",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "kaladesh_revolt_2016",
+   "source_ids": [
+    "aer_renewal"
+   ],
+   "evidence": [
+    {
+     "source_id": "aer_renewal",
+     "quote": "the inventor has sworn to her friend Saheeli Rai that the work will not be duplicated."
+    }
+   ],
+   "summary": "Rashmi swears to Saheeli Rai that the Planar Bridge will not be rebuilt.",
+   "limitation": ""
+  },
+  {
+   "id": "AER013",
+   "subject": "ajani",
+   "predicate": "joined",
+   "object": "gatewatch",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "kaladesh_revolt_2016",
+   "source_ids": [
+    "aer_renewal"
+   ],
+   "evidence": [
+    {
+     "source_id": "aer_renewal",
+     "quote": "\"Yes,\" said Ajani. \"It would be...an honor. There is an oath?\""
+    },
+    {
+     "source_id": "aer_renewal",
+     "quote": "\"Never again,\" said Ajani. \"Until all have found their place, I will keep watch.\""
+    }
+   ],
+   "summary": "Ajani accepts the invitation and swears his oath to the Gatewatch.",
+   "limitation": ""
+  },
+  {
+   "id": "AER014",
+   "subject": "chandra_nalaar",
+   "predicate": "refused_to_kill",
+   "object": "dhiren_baral",
+   "grade": "CANON_IMPLIED",
+   "event_stage": "kaladesh_revolt_2016",
+   "source_ids": [
+    "aer_renewal"
+   ],
+   "evidence": [
+    {
+     "source_id": "aer_renewal",
+     "quote": "Chandra's eyes locked on Baral, and her features hardened. \"Screw you,\" she said. \"I don't owe you a damn thing.\""
+    },
+    {
+     "source_id": "aer_renewal",
+     "quote": "\"My daughter and I leave you today,\" Pia said. \"Stay and be forgotten.\" She snapped the cell door's grating shut."
+    }
+   ],
+   "summary": "Baral, imprisoned, goads Chandra to kill him; she refuses and she and Pia leave him in his cell.",
+   "limitation": "The refusal is shown through dialogue and action; 'refused_to_kill' is a modelling label, not a quoted phrase."
+  },
+  {
+   "id": "AER015",
+   "subject": "nicol_bolas",
+   "predicate": "controls",
+   "object": "amonkhet",
+   "grade": "CANON_IMPLIED",
+   "event_stage": "pre_amonkhet_2017",
+   "source_ids": [
+    "aer_renewal"
+   ],
+   "evidence": [
+    {
+     "source_id": "aer_renewal",
+     "quote": "\"Not much,\" said Liliana. \"Bolas controls the place completely. As far as I know, he created it.\""
+    }
+   ],
+   "summary": "Liliana tells the Gatewatch that Bolas completely controls Amonkhet.",
+   "limitation": "Liliana's in-character report; her 'he created it' is explicitly hedged ('As far as I know') and is not modelled as a claim."
+  }
+ ],
+ "pages_registered": 14,
+ "pages_cited": 14,
+ "uncited_registered_pages": [],
+ "remaining": [
+  "Targeted extraction, not exhaustive: Time for Innovation, Born of Aether, Quiet Moments and the Planeswalker's Guide are only lightly modelled or uncited",
+  "Side stories outside the inventory (for example 'Burn', 'In the Dead of Night') are not covered"
+ ]
+}

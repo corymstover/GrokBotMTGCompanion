@@ -54,8 +54,12 @@ class MultiverseSnapshotTests(unittest.TestCase):
                 return new_data
 
             env = {"MTG_SCRYFALL_MODE": "multiverse", "MTG_MULTIVERSE_CACHE": temp,
-                   "SCRYFALL_OFFLINE": ""}
-            with patch.dict(os.environ, env), patch.object(ing, "http_get", fake_get):
+                   "SCRYFALL_OFFLINE": "", "SCRYFALL_BIRTHDAY_SNAPSHOT": ""}
+            # Batch 5 hardening: pin every input get_bulk reads (env, lock file, network) so state
+            # leaked by other in-process tests (e.g. validate_all setting SCRYFALL_OFFLINE) cannot
+            # change the outcome. Root cause of the one observed failure was not reproduced.
+            with patch.dict(os.environ, env), patch.object(ing, "http_get", fake_get), \
+                    patch.object(ing, "LOCK_FILE", cache / "absent_lock.json"):
                 cards, _ = ing.get_bulk(ing.DEFAULT_CACHE, None)
             self.assertEqual(cards[0]["name"], "New")
             self.assertEqual(older.read_bytes(), gz_card("Old"))

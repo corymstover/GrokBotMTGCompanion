@@ -43,6 +43,10 @@ STORY_SETS = {
     "pack_c2_return_to_dominaria_2026-10-30.json": ["dom"],
     "pack_c3_assault_on_new_phyrexia_2026-10-30.json": ["one"],
     "pack_c4_march_of_the_machine_2026-10-30.json": ["mom"],
+    # Phase 5 two-set story blocks (each pack spans exactly the block's two sets)
+    "pack_p5_kaladesh_aether_revolt_2026-10-30.json": ["kld", "aer"],
+    "pack_p5_ixalan_rivals_2026-10-30.json": ["xln", "rix"],
+    "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json": ["akh", "hou"],
 }
 TIERS = ["ART_IN_CITED_SOURCE", "PRINTED_IN_STORY_SET", "NAMED_PARTICIPANT"]
 
