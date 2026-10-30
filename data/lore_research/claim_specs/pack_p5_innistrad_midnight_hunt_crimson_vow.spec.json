@@ -11,7 +11,18 @@
   "vow_ep2": "episode-2-dolorous-weight-pleasantries-2021-11-03",
   "vow_ep3": "episode-3-forever-hold-your-peace-2021-11-10",
   "vow_ep4": "episode-4-wedding-crashers-2021-11-17",
-  "vow_ep5": "episode-5-till-death-do-us-part-2021-11-24"
+  "vow_ep5": "episode-5-till-death-do-us-part-2021-11-24",
+  "mv_blessing": "blessing-blood-2021-11-05",
+  "mv_dance": "dance-undeath-2021-09-24",
+  "mv_dusk": "dusk-reborn-2021-10-01",
+  "mv_edge": "edge-world-2021-10-29",
+  "mv_ep2": "episode-2-motives-wolf-2021-09-08",
+  "mv_ep3": "episode-3-fall-house-betzold-2021-09-15",
+  "mv_ep4": "episode-4-harvesttide-2021-09-22",
+  "mv_eyes": "his-eyes-all-them-2021-09-17",
+  "mv_sisters": "sisters-2021-09-10",
+  "mv_survivors": "survivors-2021-11-12",
+  "mv_tangles": "tangles-2021-09-03"
  },
  "entities": [
   {
@@ -78,6 +89,111 @@
    "id": "innistrad_angels",
    "type": "Faction",
    "name": "Innistrad's angels"
+  },
+  {
+   "id": "odric",
+   "type": "Character",
+   "name": "Odric"
+  },
+  {
+   "id": "henrika",
+   "type": "Character",
+   "name": "Henrika"
+  },
+  {
+   "id": "gisa",
+   "type": "Character",
+   "name": "Gisa"
+  },
+  {
+   "id": "geralf",
+   "type": "Character",
+   "name": "Geralf"
+  },
+  {
+   "id": "wilhelt",
+   "type": "Character",
+   "name": "Wilhelt"
+  },
+  {
+   "id": "thraben",
+   "type": "Place",
+   "name": "Thraben"
+  },
+  {
+   "id": "liesa",
+   "type": "Character",
+   "name": "Liesa"
+  },
+  {
+   "id": "buried_lord",
+   "type": "Character",
+   "name": "The Buried Lord"
+  },
+  {
+   "id": "jacob_hauken",
+   "type": "Character",
+   "name": "Jacob Hauken"
+  },
+  {
+   "id": "eloise_wicker",
+   "type": "Character",
+   "name": "Eloise Wicker"
+  },
+  {
+   "id": "adeline",
+   "type": "Character",
+   "name": "Adeline"
+  },
+  {
+   "id": "cathars",
+   "type": "Faction",
+   "name": "Cathars"
+  },
+  {
+   "id": "chandra_nalaar",
+   "type": "Character",
+   "name": "Chandra Nalaar"
+  },
+  {
+   "id": "vadrik",
+   "type": "Character",
+   "name": "Vadrik"
+  },
+  {
+   "id": "hailin",
+   "type": "Character",
+   "name": "Hailin"
+  },
+  {
+   "id": "leinore",
+   "type": "Character",
+   "name": "Leinore"
+  },
+  {
+   "id": "sinnia",
+   "type": "Character",
+   "name": "Sinnia"
+  },
+  {
+   "id": "torens",
+   "type": "Character",
+   "name": "Torens"
+  },
+  {
+   "id": "elamon",
+   "type": "Character",
+   "name": "Elamon"
+  },
+  {
+   "id": "lunarch_council",
+   "type": "Faction",
+   "name": "Lunarch Council"
+  },
+  {
+   "id": "wrenn",
+   "type": "Character",
+   "name": "Wrenn"
   }
  ],
  "claims": [
@@ -305,6 +421,217 @@
    ],
    "summary": "Katilda lends Teferi the Moonsilver Key after the ritual, for its usefulness to temporal magic.",
    "event_stage": "vow_aftermath_2021"
+  },
+  {
+   "id": "MV013",
+   "subject": "odric",
+   "predicate": "confronted",
+   "object": "henrika",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "mv_blessing",
+     "quote": "Odric kept his eyes fixed on Henrika, knowing that she was not satisfied"
+    },
+    {
+     "page": "mv_blessing",
+     "quote": "Henrika's lips parted as she smiled, revealing the sharpened fangs behind them."
+    }
+   ],
+   "summary": "Odric faces the fanged Henrika in the chapel.",
+   "limitation": "'Confronted' summarises the scene; the page's later outcome is not claimed."
+  },
+  {
+   "id": "MV014",
+   "subject": "wilhelt",
+   "predicate": "attacked",
+   "object": "thraben",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "mv_dance",
+     "quote": "At the head of his column of the dead, Wilhelt marched on Thraben"
+    }
+   ],
+   "summary": "Wilhelt leads a column of the dead against Thraben."
+  },
+  {
+   "id": "MV015",
+   "subject": "geralf",
+   "predicate": "sibling_of",
+   "object": "gisa",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "mv_dance",
+     "quote": "Geralf would never let her hear the end of it if she died before he did!"
+    },
+    {
+     "page": "mv_dance",
+     "quote": "as you are both the only brother I have"
+    }
+   ],
+   "summary": "Gisa calls Geralf her only brother.",
+   "limitation": "The 'only brother' line is a letter whose speaker is inferred from context."
+  },
+  {
+   "id": "MV016",
+   "subject": "liesa",
+   "predicate": "killed",
+   "object": "buried_lord",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "mv_dusk",
+     "quote": "Liesa yanked her spear free with a twist, ripping through the heavy neck to tear the Buried Lord's head from his body entirely."
+    }
+   ],
+   "summary": "Liesa beheads the Buried Lord."
+  },
+  {
+   "id": "MV017",
+   "subject": "jacob_hauken",
+   "predicate": "travelled_with",
+   "object": "eloise_wicker",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "mv_edge",
+     "quote": "Perplexed, Jacob nods briefly at Lord Nellick before following Wicker down the hall."
+    },
+    {
+     "page": "mv_edge",
+     "quote": "Wicker—Eloise—barely rounds out five feet tall"
+    }
+   ],
+   "summary": "Jacob Hauken investigates alongside Detective Eloise Wicker.",
+   "limitation": "The surname Hauken is taken from the page's name list; the page mostly says 'Jacob'."
+  },
+  {
+   "id": "MV018",
+   "subject": "arlinn_kord",
+   "predicate": "followed",
+   "object": "tovolar",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "mv_ep2",
+     "quote": "So, she followed, and when at last Tovolar pointed out the bodies to her, she did her best not to vomit."
+    }
+   ],
+   "summary": "Arlinn once followed Tovolar's pack.",
+   "limitation": "'She' is Arlinn by point-of-view narration in a remembered scene."
+  },
+  {
+   "id": "MV019",
+   "subject": "adeline",
+   "predicate": "leader_of",
+   "object": "cathars",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "mv_ep3",
+     "quote": "Adeline's commands come swift and certain as does the cut of her blade."
+    },
+    {
+     "page": "mv_ep3",
+     "quote": "Adeline and the cathars spread in a circle around Arlinn and Worrin."
+    }
+   ],
+   "summary": "Adeline commands the cathars at House Betzold.",
+   "limitation": "The page shows her commanding this cathar company, not the whole order."
+  },
+  {
+   "id": "MV020",
+   "subject": "adeline",
+   "predicate": "aided",
+   "object": "chandra_nalaar",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "mv_ep4",
+     "quote": "Adeline, already mounted, throws out a hand for Chandra and helps her into the saddle."
+    }
+   ],
+   "summary": "Adeline helps Chandra into the saddle at the Harvesttide fight."
+  },
+  {
+   "id": "MV021",
+   "subject": "vadrik",
+   "predicate": "spouse_of",
+   "object": "hailin",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "mv_eyes",
+     "quote": "Do a simple job, get home to his husband Hailin."
+    },
+    {
+     "page": "mv_eyes",
+     "quote": "Vadrik had never heard his husband sing this particular one."
+    }
+   ],
+   "summary": "Vadrik's husband is Hailin.",
+   "limitation": "The first line's 'his' is Vadrik by point-of-view narration."
+  },
+  {
+   "id": "MV022",
+   "subject": "leinore",
+   "predicate": "sibling_of",
+   "object": "sinnia",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "mv_sisters",
+     "quote": "And from the look on Sinnia's face, she knew her sister would remember what had happened tonight forever."
+    }
+   ],
+   "summary": "Leinore and Sinnia are sisters.",
+   "limitation": "'She' is Leinore by point-of-view narration."
+  },
+  {
+   "id": "MV023",
+   "subject": "elamon",
+   "predicate": "sibling_of",
+   "object": "torens",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "mv_survivors",
+     "quote": "Torens stood up, smiled, and approached his savior: his older brother Elamon"
+    }
+   ],
+   "summary": "Elamon is Torens's older brother."
+  },
+  {
+   "id": "MV024",
+   "subject": "odric",
+   "predicate": "member_of",
+   "object": "lunarch_council",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "mv_survivors",
+     "quote": "But once Odric was ousted from his place on the Lunarch Council"
+    }
+   ],
+   "summary": "Odric held a place on the Lunarch Council before being ousted.",
+   "limitation": "Former membership only: he was ousted."
+  },
+  {
+   "id": "MV025",
+   "subject": "wrenn",
+   "predicate": "aided",
+   "object": "teferi",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "mv_tangles",
+     "quote": "without Wrenn's natural magic feeding his own"
+    }
+   ],
+   "summary": "Wrenn's natural magic feeds Teferi's spellwork.",
+   "limitation": "'Aided' is an editorial reading of the magic-sharing scene."
   }
  ],
  "remaining": [

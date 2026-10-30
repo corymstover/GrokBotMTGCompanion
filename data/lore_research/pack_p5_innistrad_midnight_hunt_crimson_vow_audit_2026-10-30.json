@@ -3,15 +3,15 @@
  "pack": "data/lore_research/pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json",
  "pack_status": "PRELIMINARY_RESEARCH (not owner approved, not certified)",
  "arc": "MID/VOW",
- "claims": 12,
- "entities": 13,
- "sources": 8,
+ "claims": 25,
+ "entities": 34,
+ "sources": 19,
  "grades": {
-  "CANON_CONFIRMED": 11,
-  "CANON_IMPLIED": 1
+  "CANON_CONFIRMED": 15,
+  "CANON_IMPLIED": 10
  },
- "quotes": 25,
- "quotes_verbatim": 25,
+ "quotes": 43,
+ "quotes_verbatim": 43,
  "quote_rows": [
   {
    "claim": "MV001",
@@ -162,9 +162,117 @@
    "source_id": "vow_ep5",
    "quote_sha256": "a4b921c3998d0ec636902793ef1f961316eb058e5faee6c1a8b2c7f526c6d0aa",
    "status": "VERBATIM"
+  },
+  {
+   "claim": "MV013",
+   "source_id": "mv_blessing",
+   "quote_sha256": "f48614b31c4edbcc9ad539575b66e38828c9ef42b50c309b5903cf46963dbe7b",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MV013",
+   "source_id": "mv_blessing",
+   "quote_sha256": "ad5047a70f687e648294ae4ccf0cf7c86a805b64f32e640d095583670ef52bcd",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MV014",
+   "source_id": "mv_dance",
+   "quote_sha256": "e856b468b86b4035d53d0c6c99ef06a322b1861922deb0fbe46e61e08042f0b5",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MV015",
+   "source_id": "mv_dance",
+   "quote_sha256": "96abb1d2a38ffd2e9031b86a34d4dfce1732c62bb48c5fc1adbfdc49afb206bd",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MV015",
+   "source_id": "mv_dance",
+   "quote_sha256": "c96c217d8622e36def18f5820ef052fa174efb3fea775293acd1794ce5c29d05",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MV016",
+   "source_id": "mv_dusk",
+   "quote_sha256": "1b1ce1acffb397ded73ef85fd3b04faf9469bf5ced68c9bdef5197854c37629e",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MV017",
+   "source_id": "mv_edge",
+   "quote_sha256": "4965a6a765f4524938217a6fff1ccbd37131a90de34d0dcb16c6767ce7cb4d5a",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MV017",
+   "source_id": "mv_edge",
+   "quote_sha256": "3c1e3f40b9c827228075f072ec48950c279b0db46496397f9b037b722bc3805d",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MV018",
+   "source_id": "mv_ep2",
+   "quote_sha256": "634fa07b4b1d11dfa68832fa10976aa1e1a8b1006b792976dc652a5119d1d18b",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MV019",
+   "source_id": "mv_ep3",
+   "quote_sha256": "c4f17c85e8fa40363dbc0d69df7be950930c51f27b3b22bd28f640e4fc7c9337",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MV019",
+   "source_id": "mv_ep3",
+   "quote_sha256": "14b4e3bde620c59687b1f1dde37594e76ac19c226baf66053834919f73f52cfa",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MV020",
+   "source_id": "mv_ep4",
+   "quote_sha256": "0d783bcf5d59bd27dbaed88688053e595c5e24d1b5983c5f5b01e52cfae30af0",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MV021",
+   "source_id": "mv_eyes",
+   "quote_sha256": "76345f946156f087af0764034d70ed12bd3c7975db484299b043f361ffa10688",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MV021",
+   "source_id": "mv_eyes",
+   "quote_sha256": "8ce0b2dd62a195e412fac37df6f98263d28e1fedf4e85e2d2193a7af79563182",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MV022",
+   "source_id": "mv_sisters",
+   "quote_sha256": "283c26e90db1e805461164b4cf94143f4829e04f638cc01969289ef807046c0c",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MV023",
+   "source_id": "mv_survivors",
+   "quote_sha256": "44c4ac1c7810537a095b09eff1c277bf916adbb4e88d446405d062319fbc78dd",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MV024",
+   "source_id": "mv_survivors",
+   "quote_sha256": "b98842ff10b86d9cfabcc34541c5a8c0e277c6bbce8c13e9b87f971926bb71c8",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MV025",
+   "source_id": "mv_tangles",
+   "quote_sha256": "d9d760ed206b5fa0aa66b4c78260b8a31edcec91ba3d49afa2336e1cce12cfa1",
+   "status": "VERBATIM"
   }
  ],
  "problems": [],
  "note": "Verbatim-quote audit against cached official Wizards story text. Research evidence only: not owner approval, not certification, not an exhaustive reading.",
- "content_sha256": "d13fb73021003c6875ad85359d1a75f92df1c16f25c2da27465612b2595455e9"
+ "content_sha256": "4961ab851af3b925c8c28e7ac547cec78df0b1a13adc19c5bd764735d77bea22"
 }
