@@ -31,6 +31,7 @@ HISTORICAL_PROMO_SERIES_SOURCE_REVIEW = ROOT / "data/set_atlas/historical_promo_
 APAC_LUNAR_YEAR_PROMOS_SOURCE_REVIEW = ROOT / "data/set_atlas/apac_lunar_year_promos_source_audit_2026-10-29.json"
 EVENT_COLLAB_PROMOS_SOURCE_REVIEW = ROOT / "data/set_atlas/event_collab_promos_source_audit_2026-10-29.json"
 ART_SERIES_SOURCE_REVIEW = ROOT / "data/set_atlas/art_series_primary_source_audit_2026-10-29.json"
+TOKEN_FAMILIES_SOURCE_REVIEW = ROOT / "data/set_atlas/token_families_primary_source_audit_2026-10-29.json"
 
 
 def apply_source_overlay(data, verified):
@@ -881,6 +882,63 @@ def apply_art_series_source_overlay(data, review):
     return result
 
 
+def apply_token_families_source_overlay(data, review):
+    """Grade Wizards token-product evidence without asserting Scryfall t-code certification."""
+    if review["cutoff"] != data["snapshot_date"] or data["wizards_reviewed_examples"] != 259:
+        raise ValueError("Token source overlay requires 259 prior family reviews")
+    updates = {r["code"]: r for r in review["reviewed_token_product_families"]}
+    if len(updates) != review["new_source_backed_codes"] or len(updates) != 34:
+        raise ValueError("Token source overlay missing or duplicate family records")
+    patched, rows = set(), []
+    for original in data["all_848_released_nondigital_other_type_records"]:
+        item = dict(original)
+        source = updates.get(item["code"])
+        if source is not None:
+            if item["wizards_individual_source_review"]:
+                raise ValueError(f"Cannot overwrite prior token source {item['code']}")
+            if (item["scryfall_set_type"] != source["scryfall_type"] or
+                    item["scryfall_release_or_first_card_date"] != source["scryfall_earliest_card_date"] or
+                    item["parent_set_code_explicit_only"] != source["scryfall_parent_set_code_explicit_only_unchanged"] or
+                    source["wizards_prints_exact_scryfall_token_code"] or
+                    source["standalone_premier_expansion_certified"] or
+                    source["individual_token_printing_inventory_certified"] or
+                    source["new_playable_card_debut_count_certified"] or
+                    source["current_format_legality_certified"]):
+                raise ValueError(f"Token source metadata or official-certification drift: {item['code']}")
+            item.update({
+                "wizards_individual_source_review": True,
+                "review_status": "wizards_named_token_product_family_source_reviewed",
+                "wizards_primary_source": source["official_source_url"],
+                "wizards_review_product_group": source["officially_named_token_family"],
+                "wizards_source_grade": source["source_grade"],
+                "wizards_code_explicitly_confirmed": False,
+                "verified_evidence_note": source["source_note"],
+                "wizards_premier_status_certified": False,
+                "complete_printing_inventory_certified": False,
+                "current_format_legality_certified": False,
+            })
+            patched.add(item["code"])
+        rows.append(item)
+    if patched != set(updates) or len(rows) != 848:
+        raise ValueError("Token source overlay cannot conserve exact 848-code catalog")
+    result = dict(data)
+    result["all_848_released_nondigital_other_type_records"] = rows
+    result["wizards_reviewed_examples"] = review["cumulative_family_source_backed_codes"]
+    result["metadata_only_pending_wizards_individual_review"] = review["cumulative_source_pending_codes"]
+    result["cohort_review_progress"] = {}
+    for cohort in data["metadata_research_cohorts"]:
+        members = [item for item in rows if item["metadata_cohort_not_official_classification"] == cohort]
+        result["cohort_review_progress"][cohort] = {
+            "codes": len(members),
+            "wizards_reviewed": sum(bool(item["wizards_individual_source_review"]) for item in members),
+            "needs_individual_review": sum(not item["wizards_individual_source_review"] for item in members),
+            "explicit_parent_links": sum(bool(item["parent_set_code_explicit_only"]) for item in members),
+        }
+    if sum(bool(item["wizards_individual_source_review"]) for item in rows) != 293:
+        raise ValueError("293 cumulative Wizards family-backed records not conserved")
+    return result
+
+
 def load_current_index():
     data = json.loads(INDEX.read_text(encoding="utf-8"))
     if SOURCE_REVIEW.exists():
@@ -931,6 +989,9 @@ def load_current_index():
     if ART_SERIES_SOURCE_REVIEW.exists():
         report = json.loads(ART_SERIES_SOURCE_REVIEW.read_text(encoding="utf-8"))
         data = apply_art_series_source_overlay(data, report)
+    if TOKEN_FAMILIES_SOURCE_REVIEW.exists():
+        report = json.loads(TOKEN_FAMILIES_SOURCE_REVIEW.read_text(encoding="utf-8"))
+        data = apply_token_families_source_overlay(data, report)
     return data
 
 
