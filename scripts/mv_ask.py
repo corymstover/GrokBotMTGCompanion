@@ -168,7 +168,9 @@ PATTERNS = [  # (regex, relation, direction from the named entity's point of vie
     (re.compile(r"who struck down (?:the )?(.+?)\??$", re.I), "struck_down", "in"),
 ]
 
-FALLBACK = {"created": [("created_by", "out")],  # "who created X" may be stored as X created_by Y
+FALLBACK = {"created": [("created_by", "out"),  # "who created X" may be stored as X created_by Y
+                        ("designed", "in"), ("invented", "in")],  # Batch 5: Kiran designed Heart of Kiran
+            "defeated_by": [("defeated", "in")],  # Batch 5: XLN010 stores Bolas defeated Ugin
             "sibling_of": [("twin_sibling_of", None)],  # Pack A stores Ugin/Bolas as twin_sibling_of
             "destroyed": [("killed", "in")],  # Pack C4 stores Karn killed Elesh Norn (Batch 4)
             "mother_of": [("child_of", "out")]}  # "X child_of Y" also answers "who is X's mother"
