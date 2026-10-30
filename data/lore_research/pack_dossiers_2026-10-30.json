@@ -1,0 +1,5090 @@
+{
+ "content_sha256": "22c7ee921857cc3d244ecaffe72366ea53178bfab80bca5351be869dfecba4b2",
+ "families": {
+  "A": {
+   "bibliography": {
+    "blood_fire": {
+     "kind": null,
+     "pack": "pack_a_elder_dragon_war_extension_2026-10-30.json",
+     "published": "2018-07-18",
+     "title": "Chronicle of Bolas: Blood and Fire",
+     "url": "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-blood-and-fire-2018-07-18"
+    },
+    "brink_extinction": {
+     "kind": "official_story",
+     "pack": "pack_a5_ugin_allies_2026-10-30.json",
+     "published": "2016-02-10",
+     "title": "Brink of Extinction",
+     "url": "https://magic.wizards.com/en/news/magic-story/brink-extinction-2016-02-10"
+    },
+    "chronicle_blood_fire": {
+     "kind": "Wizards official fiction",
+     "pack": "pack_a_ugin_bolas_evidence_2026-10-30.json",
+     "published": "2018-07-18",
+     "title": "Chronicle of Bolas: Blood and Fire",
+     "url": "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-blood-and-fire-2018-07-18"
+    },
+    "chronicle_familiar": {
+     "kind": null,
+     "pack": "pack_a_tarkir_card_scenes_2026-10-30.json",
+     "published": "2018-08-01",
+     "title": "Chronicle of Bolas: A Familiar Stranger",
+     "url": "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-familiar-stranger-2018-08-01"
+    },
+    "chronicle_perspectives": {
+     "kind": "Wizards official fiction",
+     "pack": "pack_a_ugin_bolas_evidence_2026-10-30.json",
+     "published": "2018-08-08",
+     "title": "Chronicle of Bolas: Perspectives",
+     "url": "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-perspectives-2018-08-08"
+    },
+    "chronicle_twins": {
+     "kind": "Wizards official fiction",
+     "pack": "pack_a_ugin_bolas_evidence_2026-10-30.json",
+     "published": "2018-06-13",
+     "title": "Chronicle of Bolas: The Twins",
+     "url": "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-twins-2018-06-13"
+    },
+    "chronicle_unwritten": {
+     "kind": "Wizards official fiction",
+     "pack": "pack_a_ugin_bolas_evidence_2026-10-30.json",
+     "published": "2018-08-15",
+     "title": "Chronicle of Bolas: The Unwritten Now",
+     "url": "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-unwritten-now-2018-08-15"
+    },
+    "dmu_legends": {
+     "kind": null,
+     "pack": "pack_a_elder_dragon_war_extension_2026-10-30.json",
+     "published": "2022-09-01",
+     "title": "The Legends You'll Find in Dominaria United",
+     "url": "https://magic.wizards.com/en/news/feature/legends-youll-find-dominaria-united-2022-09-01"
+    },
+    "dmu_notes": {
+     "kind": null,
+     "pack": "pack_a_elder_dragon_war_extension_2026-10-30.json",
+     "published": "2022-08-26",
+     "title": "Dominaria United Release Notes",
+     "url": "https://magic.wizards.com/en/news/feature/dominaria-united-release-notes-2022-08-26"
+    },
+    "fate_reforged_guide": {
+     "kind": "Wizards official world guide",
+     "pack": "pack_a_ugin_bolas_evidence_2026-10-30.json",
+     "published": "2015-01-07",
+     "title": "Planeswalker's Guide to Fate Reforged",
+     "url": "https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-fate-reforged-2015-01-07"
+    },
+    "first_lesson": {
+     "kind": null,
+     "pack": "pack_a_elder_dragon_war_extension_2026-10-30.json",
+     "published": "2018-06-20",
+     "title": "Chronicle of Bolas: The First Lesson",
+     "url": "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-first-lesson-2018-06-20"
+    },
+    "journey_nexus": {
+     "kind": null,
+     "pack": "pack_a_tarkir_card_scenes_2026-10-30.json",
+     "published": "2014-12-10",
+     "title": "Journey to the Nexus",
+     "url": "https://magic.wizards.com/en/news/feature/journey-nexus-2014-12-10"
+    },
+    "lithomancer": {
+     "kind": "official_story",
+     "pack": "pack_a5_ugin_allies_2026-10-30.json",
+     "published": "2024-05-13",
+     "title": "The Lithomancer",
+     "url": "https://magic.wizards.com/en/news/magic-story/the-lithomancer"
+    },
+    "lorwyn2": {
+     "kind": "Wizards official fiction",
+     "pack": "pack_a_ugin_bolas_evidence_2026-10-30.json",
+     "published": null,
+     "title": "Lorwyn Eclipsed | Episode 2: Shake Off Slumber",
+     "url": "https://magic.wizards.com/en/news/magic-story/lorwyn-eclipsed-episode-2-shake-off-slumber"
+    },
+    "m19_design": {
+     "kind": null,
+     "pack": "pack_a_elder_dragon_war_extension_2026-10-30.json",
+     "published": "2018-08-06",
+     "title": "More Odds & Ends: Core Set 2019",
+     "url": "https://magic.wizards.com/en/news/making-magic/more-odds-ends-core-set-2019-2018-08-06"
+    },
+    "m19_notes": {
+     "kind": null,
+     "pack": "pack_a_elder_dragon_war_extension_2026-10-30.json",
+     "published": "2018-06-22",
+     "title": "Core Set 2019 Release Notes",
+     "url": "https://magic.wizards.com/en/news/feature/core-set-2019-release-notes-2018-06-22"
+    },
+    "mh2_legends": {
+     "kind": null,
+     "pack": "pack_a_elder_dragon_war_extension_2026-10-30.json",
+     "published": "2021-06-10",
+     "title": "The Returning Legends of Modern Horizons 2",
+     "url": "https://magic.wizards.com/en/news/feature/returning-legends-modern-horizons-2-2021-06-10"
+    },
+    "nexus_design": {
+     "kind": null,
+     "pack": "pack_a_tarkir_card_scenes_2026-10-30.json",
+     "published": "2014-09-22",
+     "title": "Prose and Khans, Part 2",
+     "url": "https://magic.wizards.com/en/news/making-magic/prose-and-khans-part-2-2014-09-22"
+    },
+    "perspectives": {
+     "kind": null,
+     "pack": "pack_a_elder_dragon_war_extension_2026-10-30.json",
+     "published": "2018-08-08",
+     "title": "Chronicle of Bolas: Perspectives",
+     "url": "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-perspectives-2018-08-08"
+    },
+    "reality_guide": {
+     "kind": "Wizards official world guide",
+     "pack": "pack_a_ugin_bolas_evidence_2026-10-30.json",
+     "published": null,
+     "title": "Planeswalker's Guide to Reality Fracture",
+     "url": "https://www.magic.wizards.com/en/news/magic-story/planeswalkers-guide-to-reality-fracture"
+    },
+    "reforged_chain": {
+     "kind": null,
+     "pack": "pack_a_tarkir_card_scenes_2026-10-30.json",
+     "published": "2015-01-21",
+     "title": "The Reforged Chain",
+     "url": "https://magic.wizards.com/en/news/feature/reforged-chain-2015-01-21"
+    },
+    "revelation_eye": {
+     "kind": "official_story",
+     "pack": "pack_a5_ugin_allies_2026-10-30.json",
+     "published": "2015-10-14",
+     "title": "Revelation at the Eye",
+     "url": "https://magic.wizards.com/en/news/magic-story/revelation-eye-2015-10-14"
+    },
+    "sorins_restoration": {
+     "kind": "official_story",
+     "pack": "pack_a5_ugin_allies_2026-10-30.json",
+     "published": "2015-03-27",
+     "title": "Sorin's Restoration",
+     "url": "https://magic.wizards.com/en/news/magic-story/sorins-restoration-2015-03-27"
+    },
+    "sorins_revelation": {
+     "kind": "official_story",
+     "pack": "pack_a5_ugin_allies_2026-10-30.json",
+     "published": "2014-09-24",
+     "title": "Sorin's Revelation",
+     "url": "https://magic.wizards.com/en/news/magic-story/sorins-revelation"
+    },
+    "stone_and_blood": {
+     "kind": "official_story",
+     "pack": "pack_a5_ugin_allies_2026-10-30.json",
+     "published": "2016-06-15",
+     "title": "Stone and Blood",
+     "url": "https://magic.wizards.com/en/news/magic-story/stone-and-blood-2016-06-15"
+    },
+    "tarkir_plane": {
+     "kind": null,
+     "pack": "pack_a_tarkir_card_scenes_2026-10-30.json",
+     "published": null,
+     "title": "Tarkir plane guide",
+     "url": "https://magic.wizards.com/en/story/tarkir-plane"
+    },
+    "tarkir_story_summary": {
+     "kind": null,
+     "pack": "pack_a_tarkir_card_scenes_2026-10-30.json",
+     "published": "2015-04-29",
+     "title": "The Story of Tarkir Block",
+     "url": "https://magic.wizards.com/en/news/magic-story/story-tarkir-block-2015-04-29"
+    },
+    "tdm7": {
+     "kind": "Wizards official fiction",
+     "pack": "pack_a_ugin_bolas_evidence_2026-10-30.json",
+     "published": null,
+     "title": "Tarkir: Dragonstorm | Episode 7: Return",
+     "url": "https://magic.wizards.com/en/news/magic-story/tarkir-dragonstorm-episode-7-return"
+    },
+    "tdm_ep6": {
+     "kind": "official_story",
+     "pack": "pack_a5_ugin_allies_2026-10-30.json",
+     "published": "2025-03-14",
+     "title": "Tarkir: Dragonstorm | Episode 6: How Wretched Love",
+     "url": "https://magic.wizards.com/en/news/magic-story/tarkir-dragonstorm-episode-6-how-wretched-love"
+    },
+    "tdm_ep7": {
+     "kind": "official_story",
+     "pack": "pack_a5_ugin_allies_2026-10-30.json",
+     "published": "2025-03-17",
+     "title": "Tarkir: Dragonstorm | Episode 7: Return",
+     "url": "https://magic.wizards.com/en/news/magic-story/tarkir-dragonstorm-episode-7-return"
+    },
+    "unbroken_unbowed": {
+     "kind": "official_story",
+     "pack": "pack_a5_ugin_allies_2026-10-30.json",
+     "published": "2015-04-22",
+     "title": "Unbroken and Unbowed",
+     "url": "https://magic.wizards.com/en/news/magic-story/unbroken-and-unbowed-2015-04-22"
+    },
+    "war_games": {
+     "kind": "Wizards official design commentary",
+     "pack": "pack_a_ugin_bolas_evidence_2026-10-30.json",
+     "published": "2019-05-06",
+     "title": "Even More War Games",
+     "url": "https://magic.wizards.com/en/news/making-magic/even-more-war-games-2019-05-06"
+    },
+    "zendikar_resurgent": {
+     "kind": "official_story",
+     "pack": "pack_a5_ugin_allies_2026-10-30.json",
+     "published": "2016-02-24",
+     "title": "Zendikar Resurgent",
+     "url": "https://magic.wizards.com/en/news/magic-story/zendikar-resurgent-2016-02-24"
+    }
+   },
+   "card_representations": {
+    "ART_IN_CITED_SOURCE": [
+     "Narset Transcendent",
+     "Sarkhan Unbroken",
+     "Sarkhan, the Dragonspeaker",
+     "Sorin Markov",
+     "Ugin, the Spirit Dragon"
+    ],
+    "anchor_pairs": 274
+   },
+   "claim_count": 48,
+   "grade_counts": {
+    "ALTERNATE_CONTINUITY": 1,
+    "CANON_CONFIRMED": 43,
+    "CANON_DISPUTED": 2,
+    "CANON_IMPLIED": 1,
+    "OPEN_QUESTION": 1
+   },
+   "in_universe_relative_phrases": [
+    {
+     "also_in_quote": [],
+     "claim": "U005",
+     "kind": "RELATIVE_SPAN",
+     "pack": "pack_a5_ugin_allies_2026-10-30.json",
+     "quote": "But the Eldrazi nearly escaped over a thousand years ago, and neither Sorin nor Ugin came.",
+     "source_id": "stone_and_blood",
+     "value": "over a thousand years ago"
+    }
+   ],
+   "lore_deck_commander_candidates": [
+    {
+     "anchor_tiers": [
+      "NAMED_PARTICIPANT"
+     ],
+     "anchored_claims": [
+      "A001",
+      "A002",
+      "A004",
+      "A005",
+      "A007",
+      "A008",
+      "A009",
+      "A011",
+      "A012",
+      "A014",
+      "A015",
+      "A017",
+      "A026",
+      "U014",
+      "U015"
+     ],
+     "card": "Nicol Bolas",
+     "color_identity": "BRU",
+     "commander_legal_in_snapshot": true,
+     "oracle_id": "e26bf6a9-b31c-4bc0-b55b-c01f2f69be6b",
+     "type_line": "Legendary Creature \u2014 Elder Dragon"
+    },
+    {
+     "anchor_tiers": [
+      "NAMED_PARTICIPANT"
+     ],
+     "anchored_claims": [
+      "A001",
+      "A002",
+      "A004",
+      "A005",
+      "A007",
+      "A008",
+      "A009",
+      "A011",
+      "A012",
+      "A014",
+      "A015",
+      "A017",
+      "A026",
+      "U014",
+      "U015"
+     ],
+     "card": "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+     "color_identity": "BRU",
+     "commander_legal_in_snapshot": true,
+     "oracle_id": "55e4b27e-5447-4fc2-8cae-a03e344600c6",
+     "type_line": "Legendary Creature \u2014 Elder Dragon // Legendary Planeswalker \u2014 Bolas"
+    },
+    {
+     "anchor_tiers": [
+      "NAMED_PARTICIPANT"
+     ],
+     "anchored_claims": [
+      "A013",
+      "A018",
+      "A019",
+      "A020",
+      "A021"
+     ],
+     "card": "Chromium",
+     "color_identity": "BUW",
+     "commander_legal_in_snapshot": true,
+     "oracle_id": "7c91ae5d-0320-46a7-98d2-df0918202478",
+     "type_line": "Legendary Creature \u2014 Elder Dragon"
+    },
+    {
+     "anchor_tiers": [
+      "NAMED_PARTICIPANT"
+     ],
+     "anchored_claims": [
+      "A013",
+      "A018",
+      "A019",
+      "A020",
+      "A021"
+     ],
+     "card": "Chromium, the Mutable",
+     "color_identity": "BUW",
+     "commander_legal_in_snapshot": true,
+     "oracle_id": "58d8ff36-4a4d-40e0-b812-3d23b2c7606a",
+     "type_line": "Legendary Creature \u2014 Elder Dragon"
+    },
+    {
+     "anchor_tiers": [
+      "NAMED_PARTICIPANT"
+     ],
+     "anchored_claims": [
+      "A018",
+      "A019",
+      "A020",
+      "A021",
+      "A022"
+     ],
+     "card": "Piru, the Volatile",
+     "color_identity": "BRW",
+     "commander_legal_in_snapshot": true,
+     "oracle_id": "dcd13eab-7ed7-4e95-bdae-d140c1ff84df",
+     "type_line": "Legendary Creature \u2014 Elder Dragon"
+    },
+    {
+     "anchor_tiers": [
+      "NAMED_PARTICIPANT"
+     ],
+     "anchored_claims": [
+      "A006",
+      "A025",
+      "A028",
+      "A029",
+      "U008"
+     ],
+     "card": "Sarkhan, Dragon Ascendant",
+     "color_identity": "R",
+     "commander_legal_in_snapshot": true,
+     "oracle_id": "71cb48e2-2328-471c-a04a-7b6461f378f4",
+     "type_line": "Legendary Creature \u2014 Human Druid"
+    },
+    {
+     "anchor_tiers": [
+      "NAMED_PARTICIPANT"
+     ],
+     "anchored_claims": [
+      "A006",
+      "A025",
+      "A028",
+      "A029",
+      "U008"
+     ],
+     "card": "Sarkhan, Soul Aflame",
+     "color_identity": "RU",
+     "commander_legal_in_snapshot": true,
+     "oracle_id": "bbcae463-ba05-4cfe-9c25-13f2e64698c7",
+     "type_line": "Legendary Creature \u2014 Human Shaman"
+    },
+    {
+     "anchor_tiers": [
+      "NAMED_PARTICIPANT"
+     ],
+     "anchored_claims": [
+      "A013",
+      "A015",
+      "A023"
+     ],
+     "card": "Palladia-Mors",
+     "color_identity": "GRW",
+     "commander_legal_in_snapshot": true,
+     "oracle_id": "d7121ac7-e425-46cd-b006-1af391d97f87",
+     "type_line": "Legendary Creature \u2014 Elder Dragon"
+    },
+    {
+     "anchor_tiers": [
+      "NAMED_PARTICIPANT"
+     ],
+     "anchored_claims": [
+      "A013",
+      "A015",
+      "A023"
+     ],
+     "card": "Palladia-Mors, the Ruiner",
+     "color_identity": "GRW",
+     "commander_legal_in_snapshot": true,
+     "oracle_id": "4c2b10ba-1930-4da8-9570-c89b2e239e3e",
+     "type_line": "Legendary Creature \u2014 Elder Dragon"
+    },
+    {
+     "anchor_tiers": [
+      "NAMED_PARTICIPANT"
+     ],
+     "anchored_claims": [
+      "A013",
+      "A016"
+     ],
+     "card": "Arcades Sabboth",
+     "color_identity": "GUW",
+     "commander_legal_in_snapshot": true,
+     "oracle_id": "8ead94c5-8447-4f20-87ec-efdccde689fc",
+     "type_line": "Legendary Creature \u2014 Elder Dragon"
+    },
+    {
+     "anchor_tiers": [
+      "NAMED_PARTICIPANT"
+     ],
+     "anchored_claims": [
+      "A013",
+      "A016"
+     ],
+     "card": "Arcades, the Strategist",
+     "color_identity": "GUW",
+     "commander_legal_in_snapshot": true,
+     "oracle_id": "e7fc5ad6-f2f0-4b06-a61b-05022db9d93b",
+     "type_line": "Legendary Creature \u2014 Elder Dragon"
+    },
+    {
+     "anchor_tiers": [
+      "NAMED_PARTICIPANT"
+     ],
+     "anchored_claims": [
+      "U009",
+      "U016"
+     ],
+     "card": "Narset, Enlightened Exile",
+     "color_identity": "RUW",
+     "commander_legal_in_snapshot": true,
+     "oracle_id": "d92725de-ead0-4a6c-83db-55ec3acc7184",
+     "type_line": "Legendary Creature \u2014 Human Monk"
+    },
+    {
+     "anchor_tiers": [
+      "NAMED_PARTICIPANT"
+     ],
+     "anchored_claims": [
+      "U009",
+      "U016"
+     ],
+     "card": "Narset, Enlightened Master",
+     "color_identity": "RUW",
+     "commander_legal_in_snapshot": true,
+     "oracle_id": "aeaf7768-ed67-487d-8506-e667babb88ba",
+     "type_line": "Legendary Creature \u2014 Human Monk"
+    },
+    {
+     "anchor_tiers": [
+      "NAMED_PARTICIPANT"
+     ],
+     "anchored_claims": [
+      "U009",
+      "U016"
+     ],
+     "card": "Narset, Jeskai Waymaster",
+     "color_identity": "RUW",
+     "commander_legal_in_snapshot": true,
+     "oracle_id": "1a2a74b8-0689-4959-9348-02cc832194cf",
+     "type_line": "Legendary Creature \u2014 Human Monk"
+    },
+    {
+     "anchor_tiers": [
+      "NAMED_PARTICIPANT"
+     ],
+     "anchored_claims": [
+      "A023",
+      "A024"
+     ],
+     "card": "Rith, Liberated Primeval",
+     "color_identity": "GRW",
+     "commander_legal_in_snapshot": true,
+     "oracle_id": "f89de40f-52d3-44b1-8faa-6ddaa32880d0",
+     "type_line": "Legendary Creature \u2014 Dragon"
+    },
+    {
+     "anchor_tiers": [
+      "NAMED_PARTICIPANT"
+     ],
+     "anchored_claims": [
+      "A023",
+      "A024"
+     ],
+     "card": "Rith, the Awakener",
+     "color_identity": "GRW",
+     "commander_legal_in_snapshot": true,
+     "oracle_id": "97e5d788-2dd3-4c8e-9ab6-f4ea9c7a9a3d",
+     "type_line": "Legendary Creature \u2014 Dragon"
+    },
+    {
+     "anchor_tiers": [
+      "NAMED_PARTICIPANT"
+     ],
+     "anchored_claims": [
+      "A014",
+      "A015"
+     ],
+     "card": "Vaevictis Asmadi",
+     "color_identity": "BGR",
+     "commander_legal_in_snapshot": true,
+     "oracle_id": "4d2cc2a8-e08a-420a-8922-c63e39129e23",
+     "type_line": "Legendary Creature \u2014 Elder Dragon"
+    },
+    {
+     "anchor_tiers": [
+      "NAMED_PARTICIPANT"
+     ],
+     "anchored_claims": [
+      "A014",
+      "A015"
+     ],
+     "card": "Vaevictis Asmadi, the Dire",
+     "color_identity": "BGR",
+     "commander_legal_in_snapshot": true,
+     "oracle_id": "c42ce2e9-4dfe-468a-8f41-49e187cb91d4",
+     "type_line": "Legendary Creature \u2014 Elder Dragon"
+    },
+    {
+     "anchor_tiers": [
+      "NAMED_PARTICIPANT"
+     ],
+     "anchored_claims": [
+      "A019"
+     ],
+     "card": "Crosis, the Purger",
+     "color_identity": "BRU",
+     "commander_legal_in_snapshot": true,
+     "oracle_id": "f1ae1dcd-76cd-4714-9df2-1ab0ebd2ca41",
+     "type_line": "Legendary Creature \u2014 Dragon"
+    },
+    {
+     "anchor_tiers": [
+      "NAMED_PARTICIPANT"
+     ],
+     "anchored_claims": [
+      "A021"
+     ],
+     "card": "Dakkon Blackblade",
+     "color_identity": "BUW",
+     "commander_legal_in_snapshot": true,
+     "oracle_id": "1aa78e3b-bf7e-4645-9521-4b3537c93f46",
+     "type_line": "Legendary Creature \u2014 Human Warrior"
+    },
+    {
+     "anchor_tiers": [
+      "NAMED_PARTICIPANT"
+     ],
+     "anchored_claims": [
+      "A027"
+     ],
+     "card": "Yasova Dragonclaw",
+     "color_identity": "GRU",
+     "commander_legal_in_snapshot": true,
+     "oracle_id": "75dc0995-f89e-4a2c-b30b-9b5a07c21183",
+     "type_line": "Legendary Creature \u2014 Human Warrior"
+    }
+   ],
+   "packs": [
+    "pack_a_ugin_bolas_evidence_2026-10-30.json",
+    "pack_a_elder_dragon_war_extension_2026-10-30.json",
+    "pack_a_tarkir_card_scenes_2026-10-30.json",
+    "pack_a5_ugin_allies_2026-10-30.json"
+   ],
+   "relationship_map": [
+    {
+     "claim": "A001",
+     "grade": "CANON_CONFIRMED",
+     "object": "nicol_bolas",
+     "predicate": "twin_sibling_of",
+     "source_ids": [
+      "chronicle_twins"
+     ],
+     "stage": "primordial_birth",
+     "subject": "ugin"
+    },
+    {
+     "claim": "A002",
+     "grade": "CANON_CONFIRMED",
+     "object": "ugin",
+     "predicate": "contrasted_with",
+     "source_ids": [
+      "chronicle_twins",
+      "chronicle_blood_fire"
+     ],
+     "stage": "early_lives",
+     "subject": "nicol_bolas"
+    },
+    {
+     "claim": "A003",
+     "grade": "CANON_DISPUTED",
+     "object": "Chromium Rhuell; Arcades Sabboth; Palladia-Mors; Vaevictis Asmadi",
+     "predicate": "survivors_according_to_bolas",
+     "source_ids": [
+      "chronicle_perspectives"
+     ],
+     "stage": "elder_dragon_wars",
+     "subject": "elder_dragon_wars"
+    },
+    {
+     "claim": "A004",
+     "grade": "CANON_DISPUTED",
+     "object": "dominaria",
+     "predicate": "planeswalker_spark_awakening_recounted",
+     "source_ids": [
+      "chronicle_perspectives"
+     ],
+     "stage": "early_planeswalking",
+     "subject": "nicol_bolas"
+    },
+    {
+     "claim": "A005",
+     "grade": "CANON_CONFIRMED",
+     "object": "ugin",
+     "predicate": "fought",
+     "source_ids": [
+      "fate_reforged_guide"
+     ],
+     "stage": "original_tarkir_clash",
+     "subject": "nicol_bolas"
+    },
+    {
+     "claim": "A006",
+     "grade": "CANON_CONFIRMED",
+     "object": "ugin",
+     "predicate": "saved_from_death",
+     "source_ids": [
+      "tarkir_plane"
+     ],
+     "stage": "tarkir_rewrite",
+     "subject": "sarkhan_vol"
+    },
+    {
+     "claim": "A007",
+     "grade": "CANON_CONFIRMED",
+     "object": "nicol_bolas",
+     "predicate": "opposed",
+     "source_ids": [
+      "chronicle_unwritten"
+     ],
+     "stage": "ancient_meditation_realm",
+     "subject": "ugin"
+    },
+    {
+     "claim": "A008",
+     "grade": "CANON_CONFIRMED",
+     "object": "nicol_bolas",
+     "predicate": "jailed",
+     "source_ids": [
+      "war_games"
+     ],
+     "stage": "war_of_the_spark_end",
+     "subject": "ugin"
+    },
+    {
+     "claim": "A009",
+     "grade": "CANON_CONFIRMED",
+     "object": "meditation_realm",
+     "predicate": "escaped",
+     "source_ids": [
+      "tdm7",
+      "lorwyn2"
+     ],
+     "stage": "dragonstorm_escape",
+     "subject": "nicol_bolas"
+    },
+    {
+     "claim": "A010",
+     "grade": "CANON_CONFIRMED",
+     "object": "tarkir",
+     "predicate": "returned_to",
+     "source_ids": [
+      "tdm7"
+     ],
+     "stage": "dragonstorm_escape",
+     "subject": "ugin"
+    },
+    {
+     "claim": "A011",
+     "grade": "OPEN_QUESTION",
+     "object": "unknown",
+     "predicate": "current_spark_state",
+     "source_ids": [
+      "lorwyn2"
+     ],
+     "stage": "post_dragonstorm",
+     "subject": "nicol_bolas"
+    },
+    {
+     "claim": "A012",
+     "grade": "ALTERNATE_CONTINUITY",
+     "object": "nicol_bolas",
+     "predicate": "constructed_without",
+     "source_ids": [
+      "reality_guide"
+     ],
+     "stage": "reality_fracture",
+     "subject": "echoverse"
+    },
+    {
+     "claim": "A013",
+     "grade": "CANON_CONFIRMED",
+     "object": "arcades_sabboth; chromium_rhuell; palladia_mors",
+     "predicate": "encountered_elder_siblings",
+     "source_ids": [
+      "first_lesson"
+     ],
+     "stage": "early_lives",
+     "subject": "ugin"
+    },
+    {
+     "claim": "A014",
+     "grade": "CANON_CONFIRMED",
+     "object": "nicol_bolas",
+     "predicate": "descendants_raided",
+     "source_ids": [
+      "blood_fire"
+     ],
+     "stage": "pre_war_escalation",
+     "subject": "vaevictis_asmadi"
+    },
+    {
+     "claim": "A015",
+     "grade": "CANON_CONFIRMED",
+     "object": "vaevictis_asmadi; palladia_mors",
+     "predicate": "provoked_dragon_clans",
+     "source_ids": [
+      "blood_fire"
+     ],
+     "stage": "elder_dragon_wars_escalation",
+     "subject": "nicol_bolas"
+    },
+    {
+     "claim": "A016",
+     "grade": "CANON_CONFIRMED",
+     "object": "elder_dragon_wars",
+     "predicate": "entered_war",
+     "source_ids": [
+      "blood_fire"
+     ],
+     "stage": "elder_dragon_wars",
+     "subject": "arcades_sabboth"
+    },
+    {
+     "claim": "A017",
+     "grade": "CANON_CONFIRMED",
+     "object": "elder_dragon_wars",
+     "predicate": "instigated",
+     "source_ids": [
+      "mh2_legends",
+      "blood_fire"
+     ],
+     "stage": "elder_dragon_wars",
+     "subject": "nicol_bolas"
+    },
+    {
+     "claim": "A018",
+     "grade": "CANON_CONFIRMED",
+     "object": "chromium_rhuell",
+     "predicate": "survived_with",
+     "source_ids": [
+      "mh2_legends",
+      "perspectives"
+     ],
+     "stage": "elder_dragon_wars_aftermath",
+     "subject": "piru"
+    },
+    {
+     "claim": "A019",
+     "grade": "CANON_CONFIRMED",
+     "object": "chromium_rhuell; crosis",
+     "predicate": "mate_and_ancestor_of",
+     "source_ids": [
+      "mh2_legends"
+     ],
+     "stage": "elder_dragon_lineages",
+     "subject": "piru"
+    },
+    {
+     "claim": "A020",
+     "grade": "CANON_CONFIRMED",
+     "object": "piru; chromium_rhuell",
+     "predicate": "bound_to_service",
+     "source_ids": [
+      "mh2_legends"
+     ],
+     "stage": "post_war_corondor",
+     "subject": "geyadrone_dihada"
+    },
+    {
+     "claim": "A021",
+     "grade": "CANON_CONFIRMED",
+     "object": "piru; chromium_rhuell",
+     "predicate": "slew_and_banished",
+     "source_ids": [
+      "mh2_legends"
+     ],
+     "stage": "post_war_corondor",
+     "subject": "dakkon"
+    },
+    {
+     "claim": "A022",
+     "grade": "CANON_CONFIRMED",
+     "object": "corondor_chasm",
+     "predicate": "death_created",
+     "source_ids": [
+      "mh2_legends"
+     ],
+     "stage": "post_war_corondor",
+     "subject": "piru"
+    },
+    {
+     "claim": "A023",
+     "grade": "CANON_CONFIRMED",
+     "object": "rith",
+     "predicate": "mother_of",
+     "source_ids": [
+      "dmu_legends"
+     ],
+     "stage": "primeval_lineages",
+     "subject": "palladia_mors"
+    },
+    {
+     "claim": "A024",
+     "grade": "CANON_CONFIRMED",
+     "object": "elder_dragon_wars",
+     "predicate": "primeval_dragon_after",
+     "source_ids": [
+      "dmu_legends"
+     ],
+     "stage": "post_war_primevals",
+     "subject": "rith"
+    },
+    {
+     "claim": "A025",
+     "grade": "CANON_CONFIRMED",
+     "object": "tarkir",
+     "predicate": "traveled_into_past",
+     "source_ids": [
+      "tarkir_story_summary",
+      "nexus_design"
+     ],
+     "stage": "pre_duel_time_travel",
+     "subject": "sarkhan_vol"
+    },
+    {
+     "claim": "A026",
+     "grade": "CANON_CONFIRMED",
+     "object": "ugin",
+     "predicate": "confronted",
+     "source_ids": [
+      "reforged_chain",
+      "tarkir_story_summary"
+     ],
+     "stage": "tarkir_duel_before_divergence",
+     "subject": "nicol_bolas"
+    },
+    {
+     "claim": "A027",
+     "grade": "CANON_CONFIRMED",
+     "object": "ugin",
+     "predicate": "redirected_dragons_against",
+     "source_ids": [
+      "reforged_chain"
+     ],
+     "stage": "tarkir_duel_yasova_spell",
+     "subject": "yasova_dragonclaw"
+    },
+    {
+     "claim": "A028",
+     "grade": "CANON_CONFIRMED",
+     "object": "ugin",
+     "predicate": "preserved_after_bolas_strike",
+     "source_ids": [
+      "reforged_chain",
+      "tarkir_story_summary",
+      "tarkir_plane"
+     ],
+     "stage": "tarkir_duel_hedrons",
+     "subject": "sarkhan_vol"
+    },
+    {
+     "claim": "A029",
+     "grade": "CANON_CONFIRMED",
+     "object": "sarkhan_vol",
+     "predicate": "story_time_travel_device_for",
+     "source_ids": [
+      "nexus_design",
+      "tarkir_story_summary"
+     ],
+     "stage": "pre_duel_time_travel",
+     "subject": "ugins_nexus"
+    },
+    {
+     "claim": "A030",
+     "grade": "CANON_CONFIRMED",
+     "object": "tarkir_duel",
+     "predicate": "captioned_at_scene",
+     "source_ids": [
+      "reforged_chain"
+     ],
+     "stage": "tarkir_duel_before_divergence",
+     "subject": "crux_of_fate"
+    },
+    {
+     "claim": "A031",
+     "grade": "CANON_CONFIRMED",
+     "object": "ugins_tomb_site",
+     "predicate": "captioned_at_location",
+     "source_ids": [
+      "chronicle_familiar"
+     ],
+     "stage": "ugin_grave_site",
+     "subject": "crucible_spirit_dragon"
+    },
+    {
+     "claim": "A032",
+     "grade": "CANON_CONFIRMED",
+     "object": "ugins_tomb_site",
+     "predicate": "captioned_at_location",
+     "source_ids": [
+      "journey_nexus",
+      "chronicle_familiar"
+     ],
+     "stage": "ugin_grave_site",
+     "subject": "tomb_spirit_dragon"
+    },
+    {
+     "claim": "U001",
+     "grade": "CANON_CONFIRMED",
+     "object": "sorin_markov; nahiri",
+     "predicate": "sealed_eldrazi_with",
+     "source_ids": [
+      "lithomancer",
+      "stone_and_blood"
+     ],
+     "stage": "ancient",
+     "subject": "ugin"
+    },
+    {
+     "claim": "U002",
+     "grade": "CANON_CONFIRMED",
+     "object": "eye_of_ugin",
+     "predicate": "co_named",
+     "source_ids": [
+      "lithomancer"
+     ],
+     "stage": "ancient",
+     "subject": "nahiri"
+    },
+    {
+     "claim": "U003",
+     "grade": "CANON_CONFIRMED",
+     "object": "eldrazi_titans",
+     "predicate": "stood_vigil_over",
+     "source_ids": [
+      "stone_and_blood"
+     ],
+     "stage": "ancient",
+     "subject": "nahiri"
+    },
+    {
+     "claim": "U004",
+     "grade": "CANON_CONFIRMED",
+     "object": "zendikar",
+     "predicate": "promised_to_return_to",
+     "source_ids": [
+      "stone_and_blood"
+     ],
+     "stage": "ancient",
+     "subject": "ugin"
+    },
+    {
+     "claim": "U005",
+     "grade": "CANON_CONFIRMED",
+     "object": "nahiri",
+     "predicate": "absent_when_eldrazi_nearly_escaped",
+     "source_ids": [
+      "stone_and_blood"
+     ],
+     "stage": "pre-Tarkir",
+     "subject": "ugin"
+    },
+    {
+     "claim": "U006",
+     "grade": "CANON_CONFIRMED",
+     "object": "ugin",
+     "predicate": "sought_old_ally",
+     "source_ids": [
+      "sorins_restoration",
+      "sorins_revelation"
+     ],
+     "stage": "Khans of Tarkir",
+     "subject": "sorin_markov"
+    },
+    {
+     "claim": "U007",
+     "grade": "CANON_CONFIRMED",
+     "object": "ugin",
+     "predicate": "met_awakened",
+     "source_ids": [
+      "sorins_restoration"
+     ],
+     "stage": "Dragons of Tarkir",
+     "subject": "sorin_markov"
+    },
+    {
+     "claim": "U008",
+     "grade": "CANON_CONFIRMED",
+     "object": "ugin",
+     "predicate": "left_dormant",
+     "source_ids": [
+      "unbroken_unbowed"
+     ],
+     "stage": "Dragons of Tarkir",
+     "subject": "sarkhan_vol"
+    },
+    {
+     "claim": "U009",
+     "grade": "CANON_CONFIRMED",
+     "object": "ugin",
+     "predicate": "sought_counsel_of",
+     "source_ids": [
+      "unbroken_unbowed"
+     ],
+     "stage": "Dragons of Tarkir",
+     "subject": "narset"
+    },
+    {
+     "claim": "U010",
+     "grade": "CANON_CONFIRMED",
+     "object": "eye_of_ugin",
+     "predicate": "journeyed_to",
+     "source_ids": [
+      "revelation_eye"
+     ],
+     "stage": "Battle for Zendikar",
+     "subject": "jace_beleren"
+    },
+    {
+     "claim": "U011",
+     "grade": "CANON_CONFIRMED",
+     "object": "jace_beleren",
+     "predicate": "gave_directives_to",
+     "source_ids": [
+      "brink_extinction"
+     ],
+     "stage": "Battle for Zendikar",
+     "subject": "ugin"
+    },
+    {
+     "claim": "U012",
+     "grade": "CANON_CONFIRMED",
+     "object": "sorin_markov; nahiri",
+     "predicate": "allies_missing_at_titans_fall",
+     "source_ids": [
+      "zendikar_resurgent"
+     ],
+     "stage": "Oath of the Gatewatch",
+     "subject": "ugin"
+    },
+    {
+     "claim": "U013",
+     "grade": "CANON_CONFIRMED",
+     "object": "ugins_gem",
+     "predicate": "took_power_from",
+     "source_ids": [
+      "tdm_ep6"
+     ],
+     "stage": "Tarkir: Dragonstorm",
+     "subject": "jace_beleren"
+    },
+    {
+     "claim": "U014",
+     "grade": "CANON_CONFIRMED",
+     "object": "nicol_bolas",
+     "predicate": "tried_to_hold",
+     "source_ids": [
+      "tdm_ep7"
+     ],
+     "stage": "Tarkir: Dragonstorm",
+     "subject": "ugin"
+    },
+    {
+     "claim": "U015",
+     "grade": "CANON_CONFIRMED",
+     "object": "nicol_bolas",
+     "predicate": "vanished_with",
+     "source_ids": [
+      "tdm_ep7"
+     ],
+     "stage": "Tarkir: Dragonstorm",
+     "subject": "ugin"
+    },
+    {
+     "claim": "U016",
+     "grade": "CANON_IMPLIED",
+     "object": "narset",
+     "predicate": "carried_to_omenpath",
+     "source_ids": [
+      "tdm_ep7"
+     ],
+     "stage": "Tarkir: Dragonstorm",
+     "subject": "elspeth_tirel"
+    }
+   ],
+   "stage_sequence": [
+    {
+     "claims": [
+      "A025",
+      "A029"
+     ],
+     "earliest_cited_publication": "2014-09-22",
+     "stage": "pre_duel_time_travel"
+    },
+    {
+     "claims": [
+      "U006"
+     ],
+     "earliest_cited_publication": "2014-09-24",
+     "stage": "Khans of Tarkir"
+    },
+    {
+     "claims": [
+      "A031",
+      "A032"
+     ],
+     "earliest_cited_publication": "2014-12-10",
+     "stage": "ugin_grave_site"
+    },
+    {
+     "claims": [
+      "A005"
+     ],
+     "earliest_cited_publication": "2015-01-07",
+     "stage": "original_tarkir_clash"
+    },
+    {
+     "claims": [
+      "A026",
+      "A030"
+     ],
+     "earliest_cited_publication": "2015-01-21",
+     "stage": "tarkir_duel_before_divergence"
+    },
+    {
+     "claims": [
+      "A028"
+     ],
+     "earliest_cited_publication": "2015-01-21",
+     "stage": "tarkir_duel_hedrons"
+    },
+    {
+     "claims": [
+      "A027"
+     ],
+     "earliest_cited_publication": "2015-01-21",
+     "stage": "tarkir_duel_yasova_spell"
+    },
+    {
+     "claims": [
+      "U007",
+      "U008",
+      "U009"
+     ],
+     "earliest_cited_publication": "2015-03-27",
+     "stage": "Dragons of Tarkir"
+    },
+    {
+     "claims": [
+      "U010",
+      "U011"
+     ],
+     "earliest_cited_publication": "2015-10-14",
+     "stage": "Battle for Zendikar"
+    },
+    {
+     "claims": [
+      "U012"
+     ],
+     "earliest_cited_publication": "2016-02-24",
+     "stage": "Oath of the Gatewatch"
+    },
+    {
+     "claims": [
+      "U001",
+      "U002",
+      "U003",
+      "U004"
+     ],
+     "earliest_cited_publication": "2016-06-15",
+     "stage": "ancient"
+    },
+    {
+     "claims": [
+      "U005"
+     ],
+     "earliest_cited_publication": "2016-06-15",
+     "stage": "pre-Tarkir"
+    },
+    {
+     "claims": [
+      "A002",
+      "A013"
+     ],
+     "earliest_cited_publication": "2018-06-13",
+     "stage": "early_lives"
+    },
+    {
+     "claims": [
+      "A001"
+     ],
+     "earliest_cited_publication": "2018-06-13",
+     "stage": "primordial_birth"
+    },
+    {
+     "claims": [
+      "A003",
+      "A016",
+      "A017"
+     ],
+     "earliest_cited_publication": "2018-07-18",
+     "stage": "elder_dragon_wars"
+    },
+    {
+     "claims": [
+      "A015"
+     ],
+     "earliest_cited_publication": "2018-07-18",
+     "stage": "elder_dragon_wars_escalation"
+    },
+    {
+     "claims": [
+      "A014"
+     ],
+     "earliest_cited_publication": "2018-07-18",
+     "stage": "pre_war_escalation"
+    },
+    {
+     "claims": [
+      "A004"
+     ],
+     "earliest_cited_publication": "2018-08-08",
+     "stage": "early_planeswalking"
+    },
+    {
+     "claims": [
+      "A018"
+     ],
+     "earliest_cited_publication": "2018-08-08",
+     "stage": "elder_dragon_wars_aftermath"
+    },
+    {
+     "claims": [
+      "A007"
+     ],
+     "earliest_cited_publication": "2018-08-15",
+     "stage": "ancient_meditation_realm"
+    },
+    {
+     "claims": [
+      "A008"
+     ],
+     "earliest_cited_publication": "2019-05-06",
+     "stage": "war_of_the_spark_end"
+    },
+    {
+     "claims": [
+      "A019"
+     ],
+     "earliest_cited_publication": "2021-06-10",
+     "stage": "elder_dragon_lineages"
+    },
+    {
+     "claims": [
+      "A020",
+      "A021",
+      "A022"
+     ],
+     "earliest_cited_publication": "2021-06-10",
+     "stage": "post_war_corondor"
+    },
+    {
+     "claims": [
+      "A024"
+     ],
+     "earliest_cited_publication": "2022-09-01",
+     "stage": "post_war_primevals"
+    },
+    {
+     "claims": [
+      "A023"
+     ],
+     "earliest_cited_publication": "2022-09-01",
+     "stage": "primeval_lineages"
+    },
+    {
+     "claims": [
+      "U013",
+      "U014",
+      "U015",
+      "U016"
+     ],
+     "earliest_cited_publication": "2025-03-14",
+     "stage": "Tarkir: Dragonstorm"
+    },
+    {
+     "claims": [
+      "A009",
+      "A010"
+     ],
+     "earliest_cited_publication": null,
+     "stage": "dragonstorm_escape"
+    },
+    {
+     "claims": [
+      "A011"
+     ],
+     "earliest_cited_publication": null,
+     "stage": "post_dragonstorm"
+    },
+    {
+     "claims": [
+      "A012"
+     ],
+     "earliest_cited_publication": null,
+     "stage": "reality_fracture"
+    },
+    {
+     "claims": [
+      "A006"
+     ],
+     "earliest_cited_publication": null,
+     "stage": "tarkir_rewrite"
+    }
+   ],
+   "uncertainties": {
+    "claims_with_limitation": 38,
+    "cross_pack_citations": [],
+    "non_confirmed_claims": [
+     {
+      "claim": "A003",
+      "grade": "CANON_DISPUTED",
+      "limitation": "This is Bolas's self-serving narrated list, not an independently certified exhaustive Elder Dragon War casualty roll."
+     },
+     {
+      "claim": "A004",
+      "grade": "CANON_DISPUTED",
+      "limitation": "His claim to be the first or alone is a narrator claim, not objective proof of priority over every planeswalker."
+     },
+     {
+      "claim": "A011",
+      "grade": "OPEN_QUESTION",
+      "limitation": "Do not invent restored planeswalking ability or assert a confirmed permanent spark loss after the escape."
+     },
+     {
+      "claim": "A012",
+      "grade": "ALTERNATE_CONTINUITY",
+      "limitation": "This alternate-reality statement must never erase or override Bolas's presence in the prime Multiverse."
+     },
+     {
+      "claim": "U016",
+      "grade": "CANON_IMPLIED",
+      "limitation": "The text names Elspeth's voice; that the 'mailed hands' are hers is inferred, not stated."
+     }
+    ],
+    "pack_open_items": [
+     {
+      "field": "unverified_next",
+      "items": [
+       "Exact older Elder Dragon War chronology, surviving lineages and participant list across competing narrator accounts",
+       "Individual printed cards that depict each event; requires card-by-card Oracle/printing and art-source evidence",
+       "A complete, independent verified lore-first Commander candidate list and format-legal colors",
+       "Bolas's current destination and spark status after the Tarkir: Dragonstorm escape"
+      ],
+      "pack": "pack_a_ugin_bolas_evidence_2026-10-30.json"
+     },
+     {
+      "field": "unknowns",
+      "items": [
+       "Whether further Elder Dragons survived beyond the independently named roster, and how all dragons are related",
+       "Exact ancient dates, geographical campaign boundaries and exhaustive dragon-war casualties",
+       "Whether any artwork depicts the specific acts of Bolas provoking Vaevictis and Palladia-Mors",
+       "A Commander-legal single-deck mechanism to represent both twins faithfully across incompatible color identities",
+       "Present-day Commander legality, Oracle text and artwork edition for each proposed card"
+      ],
+      "pack": "pack_a_elder_dragon_war_extension_2026-10-30.json"
+     },
+     {
+      "field": "remaining",
+      "items": [
+       "Exact Scryfall art asset and artist-to-printing-ID comparison for each depicted image, not merely Oracle/card name",
+       "A fully legal, optimized, newly authored 100-card lore-first deck and current ban/Oracle verification",
+       "Original versus altered Tarkir card-art differences beyond this six-card curated research sample"
+      ],
+      "pack": "pack_a_tarkir_card_scenes_2026-10-30.json"
+     },
+     {
+      "field": "remaining",
+      "items": [
+       "Targeted extraction: Chronicle of Bolas and the War of the Spark novel content are not covered here.",
+       "Kaya, Teyo and the Gatewatch's alliance with Ugin during War of the Spark need official web-story evidence; the cached War of the Spark side stories do not focus on Ugin.",
+       "No in-universe AR dates are asserted.",
+       "Card anchors and the Pilot 3 spec for build_lore_pilot.py are not yet written; any deck stays an UNAPPROVED proposal."
+      ],
+      "pack": "pack_a5_ugin_allies_2026-10-30.json"
+     }
+    ]
+   }
+  },
+  "B": {
+   "bibliography": {
+    "bro_card_stories_1": {
+     "kind": "official_design_article",
+     "pack": "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json",
+     "published": null,
+     "title": "Making Magic | The Brothers' War Card Stories, Part 1",
+     "url": "https://magic.wizards.com/en/news/making-magic/the-brothers-war-card-stories-part-1"
+    },
+    "bro_card_stories_2": {
+     "kind": "official_design_article",
+     "pack": "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json",
+     "published": null,
+     "title": "Making Magic | The Brothers' War Card Stories, Part 2",
+     "url": "https://magic.wizards.com/en/news/making-magic/the-brothers-war-card-stories-part-2"
+    },
+    "bro_ch1": {
+     "kind": "official_story",
+     "pack": "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json",
+     "published": null,
+     "title": "The Brothers' War | Chapter 1: Stronghold",
+     "url": "https://magic.wizards.com/en/news/magic-story/the-brothers-war-chapter-1-stronghold"
+    },
+    "bro_ep1": {
+     "kind": "official_story",
+     "pack": "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json",
+     "published": null,
+     "title": "The Brothers' War | Episode 1: The End",
+     "url": "https://magic.wizards.com/en/news/magic-story/the-brothers-war-episode-1-the-end"
+    },
+    "bro_ep4": {
+     "kind": "official_story",
+     "pack": "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json",
+     "published": null,
+     "title": "The Brothers' War | Episode 4: The Ink of Empires",
+     "url": "https://magic.wizards.com/en/news/magic-story/the-brothers-war-episode-4-the-ink-of-empires"
+    },
+    "bro_ep5": {
+     "kind": "official_story",
+     "pack": "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json",
+     "published": null,
+     "title": "The Brothers' War | Episode 5: As Cruel, As Necessary",
+     "url": "https://magic.wizards.com/en/news/magic-story/the-brothers-war-episode-5-as-cruel-as-necessary"
+    },
+    "bro_product_page": {
+     "kind": "official_product_page",
+     "pack": "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json",
+     "published": null,
+     "title": "The Brothers' War | Magic: The Gathering (product page)",
+     "url": "https://magic.wizards.com/en/products/the-brothers-war"
+    },
+    "urza_profile": {
+     "kind": "official_character_profile",
+     "pack": "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json",
+     "published": null,
+     "title": "Urza | Planeswalker",
+     "url": "https://magic.wizards.com/en/story/urza-planeswalker"
+    }
+   },
+   "card_representations": {
+    "ART_IN_CITED_SOURCE": [],
+    "anchor_pairs": 127
+   },
+   "claim_count": 18,
+   "grade_counts": {
+    "CANON_CONFIRMED": 17,
+    "CANON_DISPUTED": 1
+   },
+   "in_universe_relative_phrases": [],
+   "lore_deck_commander_candidates": [
+    {
+     "anchor_tiers": [
+      "NAMED_PARTICIPANT"
+     ],
+     "anchored_claims": [
+      "B001",
+      "B002",
+      "B003",
+      "B004",
+      "B007",
+      "B009",
+      "B010",
+      "B013",
+      "B014",
+      "B015"
+     ],
+     "card": "Urza, Chief Artificer",
+     "color_identity": "BUW",
+     "commander_legal_in_snapshot": true,
+     "oracle_id": "9deced63-80d0-419e-a5ac-71b06ba1459e",
+     "type_line": "Legendary Creature \u2014 Human Artificer"
+    },
+    {
+     "anchor_tiers": [
+      "NAMED_PARTICIPANT"
+     ],
+     "anchored_claims": [
+      "B001",
+      "B002",
+      "B003",
+      "B004",
+      "B007",
+      "B009",
+      "B010",
+      "B013",
+      "B014",
+      "B015"
+     ],
+     "card": "Urza, Lord High Artificer",
+     "color_identity": "U",
+     "commander_legal_in_snapshot": true,
+     "oracle_id": "e87906d2-db1a-4e19-b910-adb4eb339945",
+     "type_line": "Legendary Creature \u2014 Human Artificer"
+    },
+    {
+     "anchor_tiers": [
+      "NAMED_PARTICIPANT"
+     ],
+     "anchored_claims": [
+      "B001",
+      "B002",
+      "B003",
+      "B004",
+      "B007",
+      "B009",
+      "B010",
+      "B013",
+      "B014",
+      "B015"
+     ],
+     "card": "Urza, Lord Protector",
+     "color_identity": "UW",
+     "commander_legal_in_snapshot": true,
+     "oracle_id": "df2af646-3e5b-43a3-8f3e-50565889f456",
+     "type_line": "Legendary Creature \u2014 Human Artificer"
+    },
+    {
+     "anchor_tiers": [
+      "NAMED_PARTICIPANT"
+     ],
+     "anchored_claims": [
+      "B001",
+      "B002",
+      "B003",
+      "B004",
+      "B007",
+      "B009",
+      "B010",
+      "B013",
+      "B014",
+      "B015"
+     ],
+     "card": "Urza, Powerstone Prodigy",
+     "color_identity": "U",
+     "commander_legal_in_snapshot": true,
+     "oracle_id": "8ad7fdd2-bff5-4434-a3f9-1f5ce0ed573b",
+     "type_line": "Legendary Creature \u2014 Human Artificer"
+    },
+    {
+     "anchor_tiers": [
+      "NAMED_PARTICIPANT"
+     ],
+     "anchored_claims": [
+      "B001",
+      "B002",
+      "B003",
+      "B004",
+      "B007",
+      "B009",
+      "B010",
+      "B013",
+      "B014",
+      "B015"
+     ],
+     "card": "Urza, Prince of Kroog",
+     "color_identity": "UW",
+     "commander_legal_in_snapshot": true,
+     "oracle_id": "6a448862-e8d8-4a08-8e3d-5460afa29b4d",
+     "type_line": "Legendary Creature \u2014 Human Artificer"
+    },
+    {
+     "anchor_tiers": [
+      "NAMED_PARTICIPANT"
+     ],
+     "anchored_claims": [
+      "B001",
+      "B005",
+      "B006"
+     ],
+     "card": "Mishra, Artificer Prodigy",
+     "color_identity": "BRU",
+     "commander_legal_in_snapshot": true,
+     "oracle_id": "b38adaac-3714-4348-9fec-cb2e2ad518b1",
+     "type_line": "Legendary Creature \u2014 Human Artificer"
+    },
+    {
+     "anchor_tiers": [
+      "NAMED_PARTICIPANT"
+     ],
+     "anchored_claims": [
+      "B001",
+      "B005",
+      "B006"
+     ],
+     "card": "Mishra, Claimed by Gix",
+     "color_identity": "BR",
+     "commander_legal_in_snapshot": true,
+     "oracle_id": "26a623a1-60c9-47e3-af96-616e29551865",
+     "type_line": "Legendary Creature \u2014 Phyrexian Human Artificer"
+    },
+    {
+     "anchor_tiers": [
+      "NAMED_PARTICIPANT"
+     ],
+     "anchored_claims": [
+      "B001",
+      "B005",
+      "B006"
+     ],
+     "card": "Mishra, Eminent One",
+     "color_identity": "BRU",
+     "commander_legal_in_snapshot": true,
+     "oracle_id": "d3438037-3efd-4ce0-88ec-6d48ab521992",
+     "type_line": "Legendary Creature \u2014 Human Artificer"
+    },
+    {
+     "anchor_tiers": [
+      "NAMED_PARTICIPANT"
+     ],
+     "anchored_claims": [
+      "B001",
+      "B005",
+      "B006"
+     ],
+     "card": "Mishra, Excavation Prodigy",
+     "color_identity": "R",
+     "commander_legal_in_snapshot": true,
+     "oracle_id": "4eba0e29-985b-4763-9a70-0946ba044b43",
+     "type_line": "Legendary Creature \u2014 Human Artificer"
+    },
+    {
+     "anchor_tiers": [
+      "NAMED_PARTICIPANT"
+     ],
+     "anchored_claims": [
+      "B001",
+      "B005",
+      "B006"
+     ],
+     "card": "Mishra, Lost to Phyrexia",
+     "color_identity": "BR",
+     "commander_legal_in_snapshot": true,
+     "oracle_id": "3989308a-4c0f-493a-b38f-cb4f5019dfe7",
+     "type_line": "Legendary Artifact Creature \u2014 Phyrexian Artificer"
+    },
+    {
+     "anchor_tiers": [
+      "NAMED_PARTICIPANT"
+     ],
+     "anchored_claims": [
+      "B001",
+      "B005",
+      "B006"
+     ],
+     "card": "Mishra, Tamer of Mak Fawa",
+     "color_identity": "BR",
+     "commander_legal_in_snapshot": true,
+     "oracle_id": "3be40d81-9be5-4f39-8ce4-920c26cf2748",
+     "type_line": "Legendary Creature \u2014 Human Artificer"
+    },
+    {
+     "anchor_tiers": [
+      "NAMED_PARTICIPANT"
+     ],
+     "anchored_claims": [
+      "B013",
+      "B015"
+     ],
+     "card": "Yawgmoth, Thran Physician",
+     "color_identity": "B",
+     "commander_legal_in_snapshot": true,
+     "oracle_id": "a1e232c0-dc38-47be-a5a0-f68bc1d86a29",
+     "type_line": "Legendary Creature \u2014 Human Cleric"
+    },
+    {
+     "anchor_tiers": [
+      "NAMED_PARTICIPANT"
+     ],
+     "anchored_claims": [
+      "B017"
+     ],
+     "card": "Ajani, Nacatl Pariah // Ajani, Nacatl Avenger",
+     "color_identity": "RW",
+     "commander_legal_in_snapshot": true,
+     "oracle_id": "2588f348-d7a3-46c8-9ace-dca53ed5ef99",
+     "type_line": "Legendary Creature \u2014 Cat Warrior // Legendary Planeswalker \u2014 Ajani"
+    },
+    {
+     "anchor_tiers": [
+      "NAMED_PARTICIPANT"
+     ],
+     "anchored_claims": [
+      "B005"
+     ],
+     "card": "Ashnod the Uncaring",
+     "color_identity": "BRU",
+     "commander_legal_in_snapshot": true,
+     "oracle_id": "dcd5ab1b-adc5-486e-a1e0-636af6ee9470",
+     "type_line": "Legendary Creature \u2014 Human Artificer"
+    },
+    {
+     "anchor_tiers": [
+      "NAMED_PARTICIPANT"
+     ],
+     "anchored_claims": [
+      "B005"
+     ],
+     "card": "Ashnod, Flesh Mechanist",
+     "color_identity": "B",
+     "commander_legal_in_snapshot": true,
+     "oracle_id": "7dfae95e-f67e-49e3-b68a-40ea7e5099dd",
+     "type_line": "Legendary Creature \u2014 Human Artificer"
+    },
+    {
+     "anchor_tiers": [
+      "NAMED_PARTICIPANT"
+     ],
+     "anchored_claims": [
+      "B006"
+     ],
+     "card": "Gix, Yawgmoth Praetor",
+     "color_identity": "B",
+     "commander_legal_in_snapshot": true,
+     "oracle_id": "928d977e-cff0-4e0e-83bb-16d73a754f35",
+     "type_line": "Legendary Creature \u2014 Phyrexian Praetor"
+    },
+    {
+     "anchor_tiers": [
+      "NAMED_PARTICIPANT"
+     ],
+     "anchored_claims": [
+      "B003"
+     ],
+     "card": "Harbin, Vanguard Aviator",
+     "color_identity": "UW",
+     "commander_legal_in_snapshot": true,
+     "oracle_id": "d827575f-e364-4a20-887e-3091e5501a4f",
+     "type_line": "Legendary Creature \u2014 Human Soldier"
+    },
+    {
+     "anchor_tiers": [
+      "NAMED_PARTICIPANT"
+     ],
+     "anchored_claims": [
+      "B018"
+     ],
+     "card": "Saheeli, Consul of Oversight",
+     "color_identity": "W",
+     "commander_legal_in_snapshot": true,
+     "oracle_id": "dfa95c0e-393d-4b22-9de3-45a7efc0ba14",
+     "type_line": "Legendary Creature \u2014 Human Advisor"
+    },
+    {
+     "anchor_tiers": [
+      "NAMED_PARTICIPANT"
+     ],
+     "anchored_claims": [
+      "B018"
+     ],
+     "card": "Saheeli, Jewel of Avishkar",
+     "color_identity": "RU",
+     "commander_legal_in_snapshot": true,
+     "oracle_id": "83705258-1f42-41db-a32e-de99ffd759eb",
+     "type_line": "Legendary Creature \u2014 Human Artificer"
+    },
+    {
+     "anchor_tiers": [
+      "NAMED_PARTICIPANT"
+     ],
+     "anchored_claims": [
+      "B018"
+     ],
+     "card": "Saheeli, Radiant Creator",
+     "color_identity": "GRU",
+     "commander_legal_in_snapshot": true,
+     "oracle_id": "20f602b3-814f-406c-b7eb-2d1fc98f8cf1",
+     "type_line": "Legendary Creature \u2014 Human Artificer"
+    },
+    {
+     "anchor_tiers": [
+      "NAMED_PARTICIPANT"
+     ],
+     "anchored_claims": [
+      "B018"
+     ],
+     "card": "Saheeli, the Sun's Brilliance",
+     "color_identity": "RU",
+     "commander_legal_in_snapshot": true,
+     "oracle_id": "5aa76c5d-8046-42ce-b61d-cc9b4806c11a",
+     "type_line": "Legendary Creature \u2014 Human Artificer"
+    },
+    {
+     "anchor_tiers": [
+      "NAMED_PARTICIPANT"
+     ],
+     "anchored_claims": [
+      "B004"
+     ],
+     "card": "Tawnos, Solemn Survivor",
+     "color_identity": "BUW",
+     "commander_legal_in_snapshot": true,
+     "oracle_id": "871fbbd6-76a0-4f79-b89f-afee6ebe5a59",
+     "type_line": "Legendary Creature \u2014 Human Artificer"
+    },
+    {
+     "anchor_tiers": [
+      "NAMED_PARTICIPANT"
+     ],
+     "anchored_claims": [
+      "B004"
+     ],
+     "card": "Tawnos, Urza's Apprentice",
+     "color_identity": "RU",
+     "commander_legal_in_snapshot": true,
+     "oracle_id": "e835da40-f484-4d8b-98de-595cd23b51bc",
+     "type_line": "Legendary Creature \u2014 Human Artificer"
+    },
+    {
+     "anchor_tiers": [
+      "NAMED_PARTICIPANT"
+     ],
+     "anchored_claims": [
+      "B004"
+     ],
+     "card": "Tawnos, the Toymaker",
+     "color_identity": "GU",
+     "commander_legal_in_snapshot": true,
+     "oracle_id": "48cce741-cfbd-4ed9-a7ac-38880867a286",
+     "type_line": "Legendary Creature \u2014 Human Artificer"
+    },
+    {
+     "anchor_tiers": [
+      "NAMED_PARTICIPANT"
+     ],
+     "anchored_claims": [
+      "B016"
+     ],
+     "card": "Teferi, Druid of Argoth",
+     "color_identity": "G",
+     "commander_legal_in_snapshot": false,
+     "oracle_id": "f2c9957e-d673-4b32-a201-811849c5de31",
+     "type_line": "Legendary Creature \u2014 Human Druid"
+    },
+    {
+     "anchor_tiers": [
+      "NAMED_PARTICIPANT"
+     ],
+     "anchored_claims": [
+      "B016"
+     ],
+     "card": "Teferi, Mage of Zhalfir",
+     "color_identity": "U",
+     "commander_legal_in_snapshot": true,
+     "oracle_id": "2b6cbd55-5adc-4a34-ac45-8531705a7ee1",
+     "type_line": "Legendary Creature \u2014 Human Wizard"
+    }
+   ],
+   "packs": [
+    "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json"
+   ],
+   "relationship_map": [
+    {
+     "claim": "B001",
+     "grade": "CANON_CONFIRMED",
+     "object": "mishra",
+     "predicate": "sibling_of",
+     "source_ids": [
+      "bro_ep1",
+      "bro_card_stories_1"
+     ],
+     "stage": "brothers_war",
+     "subject": "urza"
+    },
+    {
+     "claim": "B002",
+     "grade": "CANON_CONFIRMED",
+     "object": "urza",
+     "predicate": "spouse_of",
+     "source_ids": [
+      "bro_ep1"
+     ],
+     "stage": "post_war_69_AR",
+     "subject": "kayla_bin_kroog"
+    },
+    {
+     "claim": "B003",
+     "grade": "CANON_CONFIRMED",
+     "object": "urza;kayla_bin_kroog",
+     "predicate": "child_of",
+     "source_ids": [
+      "bro_ep1"
+     ],
+     "stage": "brothers_war",
+     "subject": "harbin"
+    },
+    {
+     "claim": "B004",
+     "grade": "CANON_CONFIRMED",
+     "object": "urza",
+     "predicate": "assistant_of",
+     "source_ids": [
+      "bro_ep1"
+     ],
+     "stage": "brothers_war",
+     "subject": "tawnos"
+    },
+    {
+     "claim": "B005",
+     "grade": "CANON_CONFIRMED",
+     "object": "mishra",
+     "predicate": "worked_for",
+     "source_ids": [
+      "bro_ep1"
+     ],
+     "stage": "brothers_war",
+     "subject": "ashnod"
+    },
+    {
+     "claim": "B006",
+     "grade": "CANON_CONFIRMED",
+     "object": "old_phyrexia;gix",
+     "predicate": "corrupted_by",
+     "source_ids": [
+      "bro_card_stories_1",
+      "bro_ep1"
+     ],
+     "stage": "brothers_war",
+     "subject": "mishra"
+    },
+    {
+     "claim": "B007",
+     "grade": "CANON_CONFIRMED",
+     "object": "golgothian_sylex",
+     "predicate": "activated",
+     "source_ids": [
+      "bro_card_stories_2",
+      "bro_ep5"
+     ],
+     "stage": "sylex_blast",
+     "subject": "urza"
+    },
+    {
+     "claim": "B008",
+     "grade": "CANON_CONFIRMED",
+     "object": "argoth",
+     "predicate": "destroyed",
+     "source_ids": [
+      "bro_ep4",
+      "bro_ep1"
+     ],
+     "stage": "sylex_blast",
+     "subject": "sylex_blast"
+    },
+    {
+     "claim": "B009",
+     "grade": "CANON_CONFIRMED",
+     "object": "sylex_blast",
+     "predicate": "became_planeswalker_at",
+     "source_ids": [
+      "bro_ep5",
+      "bro_card_stories_2"
+     ],
+     "stage": "sylex_blast",
+     "subject": "urza"
+    },
+    {
+     "claim": "B010",
+     "grade": "CANON_CONFIRMED",
+     "object": "urza",
+     "predicate": "became_eyes_of",
+     "source_ids": [
+      "bro_card_stories_2"
+     ],
+     "stage": "sylex_blast",
+     "subject": "mightstone_and_weakstone"
+    },
+    {
+     "claim": "B011",
+     "grade": "CANON_CONFIRMED",
+     "object": "ice_age",
+     "predicate": "preceded",
+     "source_ids": [
+      "bro_ep5"
+     ],
+     "stage": "sylex_blast",
+     "subject": "sylex_blast"
+    },
+    {
+     "claim": "B012",
+     "grade": "CANON_DISPUTED",
+     "object": "unknown",
+     "predicate": "origin",
+     "source_ids": [
+      "bro_ep5"
+     ],
+     "stage": "pre_war",
+     "subject": "golgothian_sylex"
+    },
+    {
+     "claim": "B013",
+     "grade": "CANON_CONFIRMED",
+     "object": "yawgmoth;old_phyrexia",
+     "predicate": "vendetta_against",
+     "source_ids": [
+      "urza_profile"
+     ],
+     "stage": "post_war",
+     "subject": "urza"
+    },
+    {
+     "claim": "B014",
+     "grade": "CANON_CONFIRMED",
+     "object": "thran_empire",
+     "predicate": "obsessed_with",
+     "source_ids": [
+      "urza_profile"
+     ],
+     "stage": "pre_war",
+     "subject": "urza"
+    },
+    {
+     "claim": "B015",
+     "grade": "CANON_CONFIRMED",
+     "object": "yawgmoth",
+     "predicate": "perished_with",
+     "source_ids": [
+      "urza_profile"
+     ],
+     "stage": "phyrexian_invasion_era",
+     "subject": "urza"
+    },
+    {
+     "claim": "B016",
+     "grade": "CANON_CONFIRMED",
+     "object": "sylex_blast",
+     "predicate": "witnessed_via_time_travel",
+     "source_ids": [
+      "bro_product_page",
+      "bro_ep5"
+     ],
+     "stage": "present_2022_frame",
+     "subject": "teferi"
+    },
+    {
+     "claim": "B017",
+     "grade": "CANON_CONFIRMED",
+     "object": "golgothian_sylex",
+     "predicate": "destroyed",
+     "source_ids": [
+      "bro_product_page",
+      "bro_ch1"
+     ],
+     "stage": "present_2022_frame",
+     "subject": "ajani"
+    },
+    {
+     "claim": "B018",
+     "grade": "CANON_CONFIRMED",
+     "object": "sylex_replica",
+     "predicate": "created",
+     "source_ids": [
+      "bro_product_page",
+      "bro_ch1"
+     ],
+     "stage": "present_2022_frame",
+     "subject": "saheeli"
+    }
+   ],
+   "stage_sequence": [
+    {
+     "claims": [
+      "B001",
+      "B003",
+      "B004",
+      "B005",
+      "B006"
+     ],
+     "earliest_cited_publication": null,
+     "stage": "brothers_war"
+    },
+    {
+     "claims": [
+      "B015"
+     ],
+     "earliest_cited_publication": null,
+     "stage": "phyrexian_invasion_era"
+    },
+    {
+     "claims": [
+      "B013"
+     ],
+     "earliest_cited_publication": null,
+     "stage": "post_war"
+    },
+    {
+     "claims": [
+      "B002"
+     ],
+     "earliest_cited_publication": null,
+     "stage": "post_war_69_AR"
+    },
+    {
+     "claims": [
+      "B012",
+      "B014"
+     ],
+     "earliest_cited_publication": null,
+     "stage": "pre_war"
+    },
+    {
+     "claims": [
+      "B016",
+      "B017",
+      "B018"
+     ],
+     "earliest_cited_publication": null,
+     "stage": "present_2022_frame"
+    },
+    {
+     "claims": [
+      "B007",
+      "B008",
+      "B009",
+      "B010",
+      "B011"
+     ],
+     "earliest_cited_publication": null,
+     "stage": "sylex_blast"
+    }
+   ],
+   "uncertainties": {
+    "claims_with_limitation": 9,
+    "cross_pack_citations": [],
+    "non_confirmed_claims": [
+     {
+      "claim": "B012",
+      "grade": "CANON_DISPUTED",
+      "limitation": "Official text frames these as competing legends; no single origin is canon in this source."
+     }
+    ],
+    "pack_open_items": [
+     {
+      "field": "remaining",
+      "items": [
+       "Thran civilization and Yawgmoth's Thran-era origin (no official web source fetched yet; novel The Thran NOT read)",
+       "Koilos discovery, Tocasia's death and the powerstone split (novel-era; official card stories only reference the Mightstone and Weakstone)",
+       "Gix's arrival and the Brotherhood of Gix chronology (needs official source beyond passing references)",
+       "Old Phyrexia's spheres and its transition to New Phyrexia (Planeswalker's Guide to ONE/MOM not yet ingested)",
+       "Episodes 2-3 and Chapters 2-5 were fetched but only searched for keywords; full claim extraction pending",
+       "Card anchors (BRO card printings) not yet attached"
+      ],
+      "pack": "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json"
+     }
+    ]
+   }
+  },
+  "C": {
+   "bibliography": {
+    "c_dmu_legends": {
+     "kind": "official_feature",
+     "pack": "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json",
+     "published": "2022-09-01",
+     "title": "The Legends You'll Find in Dominaria United (2022-09-01)",
+     "url": "https://magic.wizards.com/en/news/feature/legends-youll-find-dominaria-united-2022-09-01"
+    },
+    "c_dominaria_plane": {
+     "kind": "official_profile",
+     "pack": "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json",
+     "published": null,
+     "title": "Dominaria (plane profile)",
+     "url": "https://magic.wizards.com/en/story/dominaria-plane"
+    },
+    "c_karn_profile": {
+     "kind": "official_profile",
+     "pack": "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json",
+     "published": null,
+     "title": "Karn (Planeswalker profile)",
+     "url": "https://magic.wizards.com/en/story/karn-planeswalker"
+    },
+    "c_pwg_dominaria_2022": {
+     "kind": "official_planeswalkers_guide",
+     "pack": "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json",
+     "published": "2022-08-31",
+     "title": "Planeswalker's Guide to Dominaria (2022-08-31)",
+     "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-dominaria-2022-08-31"
+    },
+    "c_pwg_one": {
+     "kind": "official_planeswalkers_guide",
+     "pack": "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json",
+     "published": null,
+     "title": "Planeswalker's Guide to Phyrexia: All Will Be One",
+     "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-phyrexia-all-will-be-one"
+    },
+    "c_teferi_profile": {
+     "kind": "official_profile",
+     "pack": "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json",
+     "published": null,
+     "title": "Teferi (Planeswalker profile)",
+     "url": "https://magic.wizards.com/en/story/teferi-planeswalker"
+    },
+    "mom_ep01": {
+     "kind": "official_story_episode",
+     "pack": "pack_c4_march_of_the_machine_2026-10-30.json",
+     "published": "2023-03-16",
+     "title": "March of the Machine | Episode 1: Triumph of the Fleshless",
+     "url": "https://magic.wizards.com/en/news/magic-story/episode-1-triumph-of-the-fleshless"
+    },
+    "mom_ep02": {
+     "kind": "official_story_episode",
+     "pack": "pack_c4_march_of_the_machine_2026-10-30.json",
+     "published": "2023-03-16",
+     "title": "March of the Machine | Episode 2: Holding Your Breath",
+     "url": "https://magic.wizards.com/en/news/magic-story/episode-2-holding-your-breath"
+    },
+    "mom_ep03": {
+     "kind": "official_story_episode",
+     "pack": "pack_c4_march_of_the_machine_2026-10-30.json",
+     "published": "2023-03-17",
+     "title": "March of the Machine | Episode 3: Mother, Son, and Story",
+     "url": "https://magic.wizards.com/en/news/magic-story/episode-3-mother-son-and-story"
+    },
+    "mom_ep04": {
+     "kind": "official_story_episode",
+     "pack": "pack_c4_march_of_the_machine_2026-10-30.json",
+     "published": "2023-03-17",
+     "title": "March of the Machine | Episode 4: Beneath Eyes Unblinking",
+     "url": "https://magic.wizards.com/en/news/magic-story/episode-4-beneath-eyes-unblinking"
+    },
+    "mom_ep05": {
+     "kind": "official_story_episode",
+     "pack": "pack_c4_march_of_the_machine_2026-10-30.json",
+     "published": "2023-03-21",
+     "title": "March of the Machine | Episode 5: Cathartic Reunion",
+     "url": "https://magic.wizards.com/en/news/magic-story/episode-5-cathartic-reunion"
+    },
+    "mom_ep06": {
+     "kind": "official_story_episode",
+     "pack": "pack_c4_march_of_the_machine_2026-10-30.json",
+     "published": "2023-03-23",
+     "title": "March of the Machine | Episode 6: The Last to Leave",
+     "url": "https://magic.wizards.com/en/news/magic-story/episode-6-the-last-to-leave"
+    },
+    "mom_ep07": {
+     "kind": "official_story_episode",
+     "pack": "pack_c4_march_of_the_machine_2026-10-30.json",
+     "published": "2023-03-23",
+     "title": "March of the Machine | Episode 7: Divine Intervention",
+     "url": "https://magic.wizards.com/en/news/magic-story/episode-7-divine-intervention"
+    },
+    "mom_ep08": {
+     "kind": "official_story_episode",
+     "pack": "pack_c4_march_of_the_machine_2026-10-30.json",
+     "published": "2023-03-24",
+     "title": "March of the Machine | Episode 8: Wrenn and Eight",
+     "url": "https://magic.wizards.com/en/news/magic-story/episode-8-wrenn-and-eight"
+    },
+    "mom_ep09": {
+     "kind": "official_story_episode",
+     "pack": "pack_c4_march_of_the_machine_2026-10-30.json",
+     "published": "2023-03-28",
+     "title": "March of the Machine | Episode 9: The Old Sins of New Phyrexia",
+     "url": "https://magic.wizards.com/en/news/magic-story/episode-9-the-old-sins-of-new-phyrexia"
+    },
+    "mom_ep10": {
+     "kind": "official_story_episode",
+     "pack": "pack_c4_march_of_the_machine_2026-10-30.json",
+     "published": "2023-03-28",
+     "title": "March of the Machine | Episode 10: The Rhythms of Life",
+     "url": "https://magic.wizards.com/en/news/magic-story/episode-10-the-rhythms-of-life"
+    },
+    "one_ep1": {
+     "kind": "official_story_episode",
+     "pack": "pack_c3_assault_on_new_phyrexia_2026-10-30.json",
+     "published": "2023-01-13",
+     "title": "Assault on New Phyrexia | Episode 1: Uncontrolled Descent",
+     "url": "https://magic.wizards.com/en/news/magic-story/assault-on-new-phyrexia-or-episode-1-uncontrolled-descent"
+    },
+    "one_ep2": {
+     "kind": "official_story_episode",
+     "pack": "pack_c3_assault_on_new_phyrexia_2026-10-30.json",
+     "published": "2023-01-13",
+     "title": "Assault on New Phyrexia | Episode 2: Unstable Foundations",
+     "url": "https://magic.wizards.com/en/news/magic-story/assault-on-new-phyrexia-or-episode-2-unstable-foundations"
+    },
+    "one_ep3": {
+     "kind": "official_story_episode",
+     "pack": "pack_c3_assault_on_new_phyrexia_2026-10-30.json",
+     "published": "2023-01-14",
+     "title": "Assault on New Phyrexia | Episode 3: Inconceivable Losses",
+     "url": "https://magic.wizards.com/en/news/magic-story/assault-on-new-phyrexia-or-episode-3-inconceivable-losses"
+    },
+    "one_ep4": {
+     "kind": "official_story_episode",
+     "pack": "pack_c3_assault_on_new_phyrexia_2026-10-30.json",
+     "published": "2023-01-16",
+     "title": "Assault on New Phyrexia | Episode 4: Impossible Odds",
+     "url": "https://magic.wizards.com/en/news/magic-story/assault-on-new-phyrexia-or-episode-4-impossible-odds"
+    },
+    "one_ep5": {
+     "kind": "official_story_episode",
+     "pack": "pack_c3_assault_on_new_phyrexia_2026-10-30.json",
+     "published": "2023-01-16",
+     "title": "Assault on New Phyrexia | Episode 5: Inevitable Resolutions",
+     "url": "https://magic.wizards.com/en/news/magic-story/assault-on-new-phyrexia-or-episode-5-inevitable-resolutions"
+    },
+    "rtd_ep1": {
+     "kind": "official_story_episode",
+     "pack": "pack_c2_return_to_dominaria_2026-10-30.json",
+     "published": "2018-03-21",
+     "title": "Return to Dominaria: Episode 1",
+     "url": "https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-1-2018-03-21"
+    },
+    "rtd_ep10": {
+     "kind": "official_story_episode",
+     "pack": "pack_c2_return_to_dominaria_2026-10-30.json",
+     "published": "2018-05-16",
+     "title": "Return to Dominaria: Episode 10",
+     "url": "https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-10-2018-05-16"
+    },
+    "rtd_ep11": {
+     "kind": "official_story_episode",
+     "pack": "pack_c2_return_to_dominaria_2026-10-30.json",
+     "published": "2018-05-23",
+     "title": "Return to Dominaria: Episode 11",
+     "url": "https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-11-2018-05-23"
+    },
+    "rtd_ep12": {
+     "kind": "official_story_episode",
+     "pack": "pack_c2_return_to_dominaria_2026-10-30.json",
+     "published": "2018-05-30",
+     "title": "Return to Dominaria: Episode 12",
+     "url": "https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-12-2018-05-30"
+    },
+    "rtd_ep2": {
+     "kind": "official_story_episode",
+     "pack": "pack_c2_return_to_dominaria_2026-10-30.json",
+     "published": "2018-03-22",
+     "title": "Return to Dominaria: Episode 2",
+     "url": "https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-2-2018-03-22"
+    },
+    "rtd_ep3": {
+     "kind": "official_story_episode",
+     "pack": "pack_c2_return_to_dominaria_2026-10-30.json",
+     "published": "2018-03-28",
+     "title": "Return to Dominaria: Episode 3",
+     "url": "https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-3-2018-03-28"
+    },
+    "rtd_ep4": {
+     "kind": "official_story_episode",
+     "pack": "pack_c2_return_to_dominaria_2026-10-30.json",
+     "published": "2018-04-04",
+     "title": "Return to Dominaria: Episode 4",
+     "url": "https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-4-2018-04-04"
+    },
+    "rtd_ep5": {
+     "kind": "official_story_episode",
+     "pack": "pack_c2_return_to_dominaria_2026-10-30.json",
+     "published": "2018-04-11",
+     "title": "Return to Dominaria: Episode 5",
+     "url": "https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-5-2018-04-11"
+    },
+    "rtd_ep6": {
+     "kind": "official_story_episode",
+     "pack": "pack_c2_return_to_dominaria_2026-10-30.json",
+     "published": "2018-04-18",
+     "title": "Return to Dominaria: Episode 6",
+     "url": "https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-6-2018-04-18"
+    },
+    "rtd_ep7": {
+     "kind": "official_story_episode",
+     "pack": "pack_c2_return_to_dominaria_2026-10-30.json",
+     "published": "2018-04-25",
+     "title": "Return to Dominaria: Episode 7",
+     "url": "https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-7-2018-04-25"
+    },
+    "rtd_ep8": {
+     "kind": "official_story_episode",
+     "pack": "pack_c2_return_to_dominaria_2026-10-30.json",
+     "published": "2018-05-02",
+     "title": "Return to Dominaria: Episode 8",
+     "url": "https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-8-2018-05-02"
+    },
+    "rtd_ep9": {
+     "kind": "official_story_episode",
+     "pack": "pack_c2_return_to_dominaria_2026-10-30.json",
+     "published": "2018-05-09",
+     "title": "Return to Dominaria: Episode 9",
+     "url": "https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-9-2018-05-09"
+    },
+    "urza_profile": {
+     "cross_pack": true,
+     "kind": "official_character_profile",
+     "pack": "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json",
+     "published": null,
+     "title": "Urza | Planeswalker",
+     "url": "https://magic.wizards.com/en/story/urza-planeswalker"
+    }
+   },
+   "card_representations": {
+    "ART_IN_CITED_SOURCE": [
+     "Cabal Stronghold",
+     "Jaya Ballard",
+     "Multani, Yavimaya's Avatar",
+     "Niambi, Faithful Healer",
+     "Slimefoot, the Stowaway",
+     "Teferi, Hero of Dominaria",
+     "Teferi, Mage of Zhalfir",
+     "Teferi, Timebender"
+    ],
+    "anchor_pairs": 483
+   },
+   "claim_count": 107,
+   "grade_counts": {
+    "CANON_CONFIRMED": 91,
+    "CANON_DISPUTED": 4,
+    "CANON_IMPLIED": 11,
+    "OPEN_QUESTION": 1
+   },
+   "in_universe_relative_phrases": [
+    {
+     "also_in_quote": [],
+     "claim": "MOM016",
+     "kind": "RELATIVE_SPAN",
+     "pack": "pack_c4_march_of_the_machine_2026-10-30.json",
+     "quote": "It has been many years since they were called to war\u2014but Zhalfir stands ready.",
+     "source_id": "mom_ep08",
+     "value": "many years"
+    },
+    {
+     "also_in_quote": [],
+     "claim": "MOM018",
+     "kind": "RELATIVE_SPAN",
+     "pack": "pack_c4_march_of_the_machine_2026-10-30.json",
+     "quote": "What Melira died for, why Karn's given up his spark, why Teferi spent hundreds of years trying to restore his home.",
+     "source_id": "mom_ep10",
+     "value": "hundreds of years"
+    },
+    {
+     "also_in_quote": [],
+     "claim": "MOM021",
+     "kind": "RELATIVE_SPAN",
+     "pack": "pack_c4_march_of_the_machine_2026-10-30.json",
+     "quote": "What Melira died for, why Karn's given up his spark, why Teferi spent hundreds of years trying to restore his home.",
+     "source_id": "mom_ep10",
+     "value": "hundreds of years"
+    }
+   ],
+   "lore_deck_commander_candidates": [
+    {
+     "anchor_tiers": [
+      "NAMED_PARTICIPANT"
+     ],
+     "anchored_claims": [
+      "C002",
+      "C004",
+      "C005",
+      "C006",
+      "C012",
+      "MOM017",
+      "MOM018",
+      "ONE003",
+      "RTD020",
+      "RTD031"
+     ],
+     "card": "Karn, Argent Defender",
+     "color_identity": "C",
+     "commander_legal_in_snapshot": true,
+     "oracle_id": "aecc621f-67da-41a7-9d47-05ded302ae35",
+     "type_line": "Legendary Artifact Creature \u2014 Golem"
+    },
+    {
+     "anchor_tiers": [
+      "NAMED_PARTICIPANT"
+     ],
+     "anchored_claims": [
+      "C002",
+      "C004",
+      "C005",
+      "C006",
+      "C012",
+      "MOM017",
+      "MOM018",
+      "ONE003",
+      "RTD020",
+      "RTD031"
+     ],
+     "card": "Karn, Gilded Guardian",
+     "color_identity": "BGRUW",
+     "commander_legal_in_snapshot": true,
+     "oracle_id": "20b90a18-ff62-4995-b0d6-fbef44dca357",
+     "type_line": "Legendary Artifact Creature \u2014 Golem"
+    },
+    {
+     "anchor_tiers": [
+      "NAMED_PARTICIPANT"
+     ],
+     "anchored_claims": [
+      "C002",
+      "C004",
+      "C005",
+      "C006",
+      "C012",
+      "MOM017",
+      "MOM018",
+      "ONE003",
+      "RTD020",
+      "RTD031"
+     ],
+     "card": "Karn, Legacy Reforged",
+     "color_identity": "C",
+     "commander_legal_in_snapshot": true,
+     "oracle_id": "bc8802db-8c94-4eb4-817f-5f4f5408b7a4",
+     "type_line": "Legendary Artifact Creature \u2014 Golem"
+    },
+    {
+     "anchor_tiers": [
+      "NAMED_PARTICIPANT"
+     ],
+     "anchored_claims": [
+      "C002",
+      "C004",
+      "C005",
+      "C006",
+      "C012",
+      "MOM017",
+      "MOM018",
+      "ONE003",
+      "RTD020",
+      "RTD031"
+     ],
+     "card": "Karn, Silver Golem",
+     "color_identity": "C",
+     "commander_legal_in_snapshot": true,
+     "oracle_id": "8a7c6391-020a-4d7a-8abb-702631bbee56",
+     "type_line": "Legendary Artifact Creature \u2014 Golem"
+    },
+    {
+     "anchor_tiers": [
+      "NAMED_PARTICIPANT"
+     ],
+     "anchored_claims": [
+      "MOM002",
+      "MOM006",
+      "MOM019",
+      "ONE005",
+      "ONE010",
+      "ONE011",
+      "RTD021"
+     ],
+     "card": "Ajani, Nacatl Pariah // Ajani, Nacatl Avenger",
+     "color_identity": "RW",
+     "commander_legal_in_snapshot": true,
+     "oracle_id": "2588f348-d7a3-46c8-9ace-dca53ed5ef99",
+     "type_line": "Legendary Creature \u2014 Cat Warrior // Legendary Planeswalker \u2014 Ajani"
+    },
+    {
+     "anchor_tiers": [
+      "NAMED_PARTICIPANT",
+      "PRINTED_IN_STORY_SET"
+     ],
+     "anchored_claims": [
+      "C028",
+      "MOM001",
+      "MOM014",
+      "MOM017",
+      "ONE001",
+      "ONE003"
+     ],
+     "card": "Elesh Norn // The Argent Etchings",
+     "color_identity": "W",
+     "commander_legal_in_snapshot": true,
+     "oracle_id": "650ed75c-20b0-45b8-a4d4-813e0369aaf1",
+     "type_line": "Legendary Creature \u2014 Phyrexian Praetor // Enchantment \u2014 Saga"
+    },
+    {
+     "anchor_tiers": [
+      "NAMED_PARTICIPANT"
+     ],
+     "anchored_claims": [
+      "C028",
+      "MOM001",
+      "MOM014",
+      "MOM017",
+      "ONE001",
+      "ONE003"
+     ],
+     "card": "Elesh Norn, Grand Cenobite",
+     "color_identity": "W",
+     "commander_legal_in_snapshot": true,
+     "oracle_id": "958d71ff-c9f7-46f0-96ca-79e7f4d65a16",
+     "type_line": "Legendary Creature \u2014 Phyrexian Praetor"
+    },
+    {
+     "anchor_tiers": [
+      "NAMED_PARTICIPANT",
+      "PRINTED_IN_STORY_SET"
+     ],
+     "anchored_claims": [
+      "C028",
+      "MOM001",
+      "MOM014",
+      "MOM017",
+      "ONE001",
+      "ONE003"
+     ],
+     "card": "Elesh Norn, Mother of Machines",
+     "color_identity": "W",
+     "commander_legal_in_snapshot": true,
+     "oracle_id": "5ade11c0-41dd-4b6a-9f5b-c5903a3a0d7f",
+     "type_line": "Legendary Creature \u2014 Phyrexian Praetor"
+    },
+    {
+     "anchor_tiers": [
+      "NAMED_PARTICIPANT"
+     ],
+     "anchored_claims": [
+      "C027",
+      "MOM021",
+      "RTD024",
+      "RTD025",
+      "RTD026",
+      "RTD028"
+     ],
+     "card": "Teferi, Druid of Argoth",
+     "color_identity": "G",
+     "commander_legal_in_snapshot": false,
+     "oracle_id": "f2c9957e-d673-4b32-a201-811849c5de31",
+     "type_line": "Legendary Creature \u2014 Human Druid"
+    },
+    {
+     "anchor_tiers": [
+      "ART_IN_CITED_SOURCE",
+      "NAMED_PARTICIPANT"
+     ],
+     "anchored_claims": [
+      "C027",
+      "MOM021",
+      "RTD024",
+      "RTD025",
+      "RTD026",
+      "RTD028"
+     ],
+     "card": "Teferi, Mage of Zhalfir",
+     "color_identity": "U",
+     "commander_legal_in_snapshot": true,
+     "oracle_id": "2b6cbd55-5adc-4a34-ac45-8531705a7ee1",
+     "type_line": "Legendary Creature \u2014 Human Wizard"
+    },
+    {
+     "anchor_tiers": [
+      "NAMED_PARTICIPANT"
+     ],
+     "anchored_claims": [
+      "C008",
+      "C009",
+      "C011",
+      "C012",
+      "C028"
+     ],
+     "card": "Yawgmoth, Thran Physician",
+     "color_identity": "B",
+     "commander_legal_in_snapshot": true,
+     "oracle_id": "a1e232c0-dc38-47be-a5a0-f68bc1d86a29",
+     "type_line": "Legendary Creature \u2014 Human Cleric"
+    },
+    {
+     "anchor_tiers": [
+      "NAMED_PARTICIPANT"
+     ],
+     "anchored_claims": [
+      "C004",
+      "C012",
+      "C025",
+      "RTD014"
+     ],
+     "card": "Urza, Chief Artificer",
+     "color_identity": "BUW",
+     "commander_legal_in_snapshot": true,
+     "oracle_id": "9deced63-80d0-419e-a5ac-71b06ba1459e",
+     "type_line": "Legendary Creature \u2014 Human Artificer"
+    },
+    {
+     "anchor_tiers": [
+      "NAMED_PARTICIPANT"
+     ],
+     "anchored_claims": [
+      "C004",
+      "C012",
+      "C025",
+      "RTD014"
+     ],
+     "card": "Urza, Lord High Artificer",
+     "color_identity": "U",
+     "commander_legal_in_snapshot": true,
+     "oracle_id": "e87906d2-db1a-4e19-b910-adb4eb339945",
+     "type_line": "Legendary Creature \u2014 Human Artificer"
+    },
+    {
+     "anchor_tiers": [
+      "NAMED_PARTICIPANT"
+     ],
+     "anchored_claims": [
+      "C004",
+      "C012",
+      "C025",
+      "RTD014"
+     ],
+     "card": "Urza, Lord Protector",
+     "color_identity": "UW",
+     "commander_legal_in_snapshot": true,
+     "oracle_id": "df2af646-3e5b-43a3-8f3e-50565889f456",
+     "type_line": "Legendary Creature \u2014 Human Artificer"
+    },
+    {
+     "anchor_tiers": [
+      "NAMED_PARTICIPANT"
+     ],
+     "anchored_claims": [
+      "C004",
+      "C012",
+      "C025",
+      "RTD014"
+     ],
+     "card": "Urza, Powerstone Prodigy",
+     "color_identity": "U",
+     "commander_legal_in_snapshot": true,
+     "oracle_id": "8ad7fdd2-bff5-4434-a3f9-1f5ce0ed573b",
+     "type_line": "Legendary Creature \u2014 Human Artificer"
+    },
+    {
+     "anchor_tiers": [
+      "NAMED_PARTICIPANT"
+     ],
+     "anchored_claims": [
+      "C004",
+      "C012",
+      "C025",
+      "RTD014"
+     ],
+     "card": "Urza, Prince of Kroog",
+     "color_identity": "UW",
+     "commander_legal_in_snapshot": true,
+     "oracle_id": "6a448862-e8d8-4a08-8e3d-5460afa29b4d",
+     "type_line": "Legendary Creature \u2014 Human Artificer"
+    },
+    {
+     "anchor_tiers": [
+      "NAMED_PARTICIPANT"
+     ],
+     "anchored_claims": [
+      "C012",
+      "C022",
+      "RTD013"
+     ],
+     "card": "Gerrard Capashen",
+     "color_identity": "W",
+     "commander_legal_in_snapshot": true,
+     "oracle_id": "27521e70-3a1f-4819-a111-c38216ffe7c3",
+     "type_line": "Legendary Creature \u2014 Human Soldier"
+    },
+    {
+     "anchor_tiers": [
+      "NAMED_PARTICIPANT"
+     ],
+     "anchored_claims": [
+      "C012",
+      "C022",
+      "RTD013"
+     ],
+     "card": "Gerrard, Weatherlight Hero",
+     "color_identity": "RW",
+     "commander_legal_in_snapshot": true,
+     "oracle_id": "8a1e8435-16f2-475b-a8a9-7b9f0cf4594a",
+     "type_line": "Legendary Creature \u2014 Human Soldier"
+    },
+    {
+     "anchor_tiers": [
+      "NAMED_PARTICIPANT"
+     ],
+     "anchored_claims": [
+      "C015",
+      "C017",
+      "RTD001"
+     ],
+     "card": "Jhoira of the Ghitu",
+     "color_identity": "RU",
+     "commander_legal_in_snapshot": true,
+     "oracle_id": "ad3f4ec9-9905-421b-98ed-78bb6fc9b450",
+     "type_line": "Legendary Creature \u2014 Human Wizard"
+    },
+    {
+     "anchor_tiers": [
+      "NAMED_PARTICIPANT"
+     ],
+     "anchored_claims": [
+      "C015",
+      "C017",
+      "RTD001"
+     ],
+     "card": "Jhoira, Ageless Innovator",
+     "color_identity": "RU",
+     "commander_legal_in_snapshot": true,
+     "oracle_id": "83b9a734-ee92-44c8-bf47-ca69b6d6405e",
+     "type_line": "Legendary Creature \u2014 Human Artificer"
+    },
+    {
+     "anchor_tiers": [
+      "NAMED_PARTICIPANT",
+      "PRINTED_IN_STORY_SET"
+     ],
+     "anchored_claims": [
+      "C015",
+      "C017",
+      "RTD001"
+     ],
+     "card": "Jhoira, Weatherlight Captain",
+     "color_identity": "RU",
+     "commander_legal_in_snapshot": true,
+     "oracle_id": "c803b788-4213-4fab-b841-7e5bbf66088e",
+     "type_line": "Legendary Creature \u2014 Human Artificer"
+    },
+    {
+     "anchor_tiers": [
+      "NAMED_PARTICIPANT"
+     ],
+     "anchored_claims": [
+      "C015",
+      "C017",
+      "RTD001"
+     ],
+     "card": "Jhoira, Weatherlight Corsair",
+     "color_identity": "B",
+     "commander_legal_in_snapshot": true,
+     "oracle_id": "cf9b0bb5-d545-4efd-9255-39b10c2be0ee",
+     "type_line": "Legendary Creature \u2014 Human Pirate"
+    },
+    {
+     "anchor_tiers": [
+      "PRINTED_IN_STORY_SET"
+     ],
+     "anchored_claims": [
+      "RTD007",
+      "RTD010",
+      "RTD011"
+     ],
+     "card": "Josu Vess, Lich Knight",
+     "color_identity": "B",
+     "commander_legal_in_snapshot": true,
+     "oracle_id": "974a46f9-aa84-4b34-bee5-c635166e5841",
+     "type_line": "Legendary Creature \u2014 Zombie Knight"
+    },
+    {
+     "anchor_tiers": [
+      "NAMED_PARTICIPANT",
+      "PRINTED_IN_STORY_SET"
+     ],
+     "anchored_claims": [
+      "C020",
+      "MOM001",
+      "MOM002"
+     ],
+     "card": "Sheoldred // The True Scriptures",
+     "color_identity": "B",
+     "commander_legal_in_snapshot": true,
+     "oracle_id": "97652492-7906-4d79-983c-fa1dc1239eba",
+     "type_line": "Legendary Creature \u2014 Phyrexian Praetor // Enchantment \u2014 Saga"
+    },
+    {
+     "anchor_tiers": [
+      "NAMED_PARTICIPANT"
+     ],
+     "anchored_claims": [
+      "C020",
+      "MOM001",
+      "MOM002"
+     ],
+     "card": "Sheoldred, Whispering One",
+     "color_identity": "B",
+     "commander_legal_in_snapshot": true,
+     "oracle_id": "9218b56d-aaec-482f-99e9-d95d227bfe25",
+     "type_line": "Legendary Creature \u2014 Phyrexian Praetor"
+    },
+    {
+     "anchor_tiers": [
+      "NAMED_PARTICIPANT"
+     ],
+     "anchored_claims": [
+      "C020",
+      "MOM001",
+      "MOM002"
+     ],
+     "card": "Sheoldred, the Apocalypse",
+     "color_identity": "B",
+     "commander_legal_in_snapshot": true,
+     "oracle_id": "34f34409-326d-4994-a0ea-1a69aa278f03",
+     "type_line": "Legendary Creature \u2014 Phyrexian Praetor"
+    },
+    {
+     "anchor_tiers": [
+      "NAMED_PARTICIPANT"
+     ],
+     "anchored_claims": [
+      "MOM004",
+      "MOM009",
+      "MOM010"
+     ],
+     "card": "Tamiyo, Inquisitive Student // Tamiyo, Seasoned Scholar",
+     "color_identity": "GU",
+     "commander_legal_in_snapshot": true,
+     "oracle_id": "1ed9e351-0000-4b75-8ecb-d15bd88df68a",
+     "type_line": "Legendary Creature \u2014 Moonfolk Wizard // Legendary Planeswalker \u2014 Tamiyo"
+    },
+    {
+     "anchor_tiers": [
+      "NAMED_PARTICIPANT"
+     ],
+     "anchored_claims": [
+      "MOM004",
+      "MOM009",
+      "MOM010"
+     ],
+     "card": "Tamiyo, Upriser Crowned",
+     "color_identity": "RW",
+     "commander_legal_in_snapshot": true,
+     "oracle_id": "8e0f2e26-1e14-422a-aafe-e1da38ab10a3",
+     "type_line": "Legendary Creature \u2014 Moonfolk Warrior"
+    },
+    {
+     "anchor_tiers": [
+      "PRINTED_IN_STORY_SET"
+     ],
+     "anchored_claims": [
+      "RTD017",
+      "RTD018"
+     ],
+     "card": "Arvad the Cursed",
+     "color_identity": "BW",
+     "commander_legal_in_snapshot": true,
+     "oracle_id": "d561dcff-0a19-46ac-9dee-f374c840d532",
+     "type_line": "Legendary Creature \u2014 Vampire Knight"
+    },
+    {
+     "anchor_tiers": [
+      "NAMED_PARTICIPANT"
+     ],
+     "anchored_claims": [
+      "RTD029",
+      "RTD030"
+     ],
+     "card": "Jaya Ballard, Task Mage",
+     "color_identity": "R",
+     "commander_legal_in_snapshot": true,
+     "oracle_id": "cbbad3da-695e-4527-9678-0942f3751287",
+     "type_line": "Legendary Creature \u2014 Human Spellshaper"
+    },
+    {
+     "anchor_tiers": [
+      "NAMED_PARTICIPANT"
+     ],
+     "anchored_claims": [
+      "C018",
+      "C019"
+     ],
+     "card": "Jodah, Archmage Eternal",
+     "color_identity": "BGRUW",
+     "commander_legal_in_snapshot": true,
+     "oracle_id": "8be4745e-36d8-430f-945e-c8a7fde9b4f6",
+     "type_line": "Legendary Creature \u2014 Human Wizard"
+    },
+    {
+     "anchor_tiers": [
+      "NAMED_PARTICIPANT"
+     ],
+     "anchored_claims": [
+      "C018",
+      "C019"
+     ],
+     "card": "Jodah, the Unifier",
+     "color_identity": "BGRUW",
+     "commander_legal_in_snapshot": true,
+     "oracle_id": "490a8045-e160-4ccf-a05e-658ad2b7ac2d",
+     "type_line": "Legendary Creature \u2014 Human Wizard"
+    },
+    {
+     "anchor_tiers": [
+      "NAMED_PARTICIPANT"
+     ],
+     "anchored_claims": [
+      "MOM019",
+      "ONE019"
+     ],
+     "card": "Melira, Sylvok Outcast",
+     "color_identity": "G",
+     "commander_legal_in_snapshot": true,
+     "oracle_id": "a6f72f15-d103-49fb-a808-054b278d00a8",
+     "type_line": "Legendary Creature \u2014 Human Scout"
+    },
+    {
+     "anchor_tiers": [
+      "NAMED_PARTICIPANT",
+      "PRINTED_IN_STORY_SET"
+     ],
+     "anchored_claims": [
+      "MOM019",
+      "ONE019"
+     ],
+     "card": "Melira, the Living Cure",
+     "color_identity": "GW",
+     "commander_legal_in_snapshot": true,
+     "oracle_id": "6bb8c22c-8b01-45f8-8c9e-f683e6b4f022",
+     "type_line": "Legendary Creature \u2014 Human Scout"
+    },
+    {
+     "anchor_tiers": [
+      "NAMED_PARTICIPANT"
+     ],
+     "anchored_claims": [
+      "RTD026",
+      "RTD027"
+     ],
+     "card": "Niambi, Esteemed Speaker",
+     "color_identity": "UW",
+     "commander_legal_in_snapshot": true,
+     "oracle_id": "91c9dbd8-a8d8-4a4e-8408-3ad92e974d11",
+     "type_line": "Legendary Creature \u2014 Human Cleric"
+    },
+    {
+     "anchor_tiers": [
+      "ART_IN_CITED_SOURCE"
+     ],
+     "anchored_claims": [
+      "RTD026",
+      "RTD027"
+     ],
+     "card": "Niambi, Faithful Healer",
+     "color_identity": "UW",
+     "commander_legal_in_snapshot": true,
+     "oracle_id": "0c107664-a9fc-4684-8a1b-fa750401a6dd",
+     "type_line": "Legendary Creature \u2014 Human Cleric"
+    },
+    {
+     "anchor_tiers": [
+      "NAMED_PARTICIPANT"
+     ],
+     "anchored_claims": [
+      "C016",
+      "RTD012"
+     ],
+     "card": "Shanna, Purifying Blade",
+     "color_identity": "GUW",
+     "commander_legal_in_snapshot": true,
+     "oracle_id": "7677c7ce-1db3-41f5-8f86-e68718ea2d11",
+     "type_line": "Legendary Creature \u2014 Human Warrior"
+    },
+    {
+     "anchor_tiers": [
+      "NAMED_PARTICIPANT",
+      "PRINTED_IN_STORY_SET"
+     ],
+     "anchored_claims": [
+      "C016",
+      "RTD012"
+     ],
+     "card": "Shanna, Sisay's Legacy",
+     "color_identity": "GW",
+     "commander_legal_in_snapshot": true,
+     "oracle_id": "546201d0-3fa5-44e4-a526-ab0945711e49",
+     "type_line": "Legendary Creature \u2014 Human Warrior"
+    },
+    {
+     "anchor_tiers": [
+      "PRINTED_IN_STORY_SET"
+     ],
+     "anchored_claims": [
+      "RTD015",
+      "RTD016"
+     ],
+     "card": "Tiana, Ship's Caretaker",
+     "color_identity": "RW",
+     "commander_legal_in_snapshot": true,
+     "oracle_id": "80f8fb4c-cc6d-4b41-abb3-471dc96d4b2a",
+     "type_line": "Legendary Creature \u2014 Angel Artificer"
+    },
+    {
+     "anchor_tiers": [
+      "NAMED_PARTICIPANT"
+     ],
+     "anchored_claims": [
+      "ONE007",
+      "ONE008"
+     ],
+     "card": "Vraska, Soul of Stone",
+     "color_identity": "RUW",
+     "commander_legal_in_snapshot": true,
+     "oracle_id": "cad63b31-667b-4518-bc49-be4ffb82bc63",
+     "type_line": "Legendary Creature \u2014 Gorgon Wizard"
+    },
+    {
+     "anchor_tiers": [
+      "NAMED_PARTICIPANT"
+     ],
+     "anchored_claims": [
+      "ONE007",
+      "ONE008"
+     ],
+     "card": "Vraska, the Cutting Glare",
+     "color_identity": "BG",
+     "commander_legal_in_snapshot": true,
+     "oracle_id": "580de511-863c-4b7a-9d2e-fcdf6e12d54b",
+     "type_line": "Legendary Creature \u2014 Gorgon Assassin"
+    },
+    {
+     "anchor_tiers": [
+      "NAMED_PARTICIPANT"
+     ],
+     "anchored_claims": [
+      "ONE007",
+      "ONE008"
+     ],
+     "card": "Vraska, the Silencer",
+     "color_identity": "BG",
+     "commander_legal_in_snapshot": true,
+     "oracle_id": "e7c5a568-3855-4a20-9edf-01a8a6a4ba97",
+     "type_line": "Legendary Creature \u2014 Gorgon Assassin"
+    },
+    {
+     "anchor_tiers": [
+      "NAMED_PARTICIPANT"
+     ],
+     "anchored_claims": [
+      "MOM007"
+     ],
+     "card": "Atraxa, Grand Unifier",
+     "color_identity": "BGUW",
+     "commander_legal_in_snapshot": true,
+     "oracle_id": "abbcb153-0763-44c6-964f-b4ff0eb64257",
+     "type_line": "Legendary Creature \u2014 Phyrexian Angel"
+    },
+    {
+     "anchor_tiers": [
+      "NAMED_PARTICIPANT"
+     ],
+     "anchored_claims": [
+      "MOM007"
+     ],
+     "card": "Atraxa, Praetors' Voice",
+     "color_identity": "BGUW",
+     "commander_legal_in_snapshot": true,
+     "oracle_id": "7e6b9b59-cd68-4e3c-827b-38833c92d6eb",
+     "type_line": "Legendary Creature \u2014 Phyrexian Angel Horror"
+    },
+    {
+     "anchor_tiers": [
+      "NAMED_PARTICIPANT"
+     ],
+     "anchored_claims": [
+      "RTD012"
+     ],
+     "card": "Captain Sisay",
+     "color_identity": "GW",
+     "commander_legal_in_snapshot": true,
+     "oracle_id": "2e7a9ea9-f76c-4c12-950f-c613fa16cfa8",
+     "type_line": "Legendary Creature \u2014 Human Soldier"
+    },
+    {
+     "anchor_tiers": [
+      "PRINTED_IN_STORY_SET"
+     ],
+     "anchored_claims": [
+      "RTD013"
+     ],
+     "card": "Danitha Capashen, Paragon",
+     "color_identity": "W",
+     "commander_legal_in_snapshot": true,
+     "oracle_id": "4b6377da-83e7-4519-9582-16a9c16b8faa",
+     "type_line": "Legendary Creature \u2014 Human Knight"
+    },
+    {
+     "anchor_tiers": [
+      "PRINTED_IN_STORY_SET"
+     ],
+     "anchored_claims": [
+      "MOM013"
+     ],
+     "card": "Jin-Gitaxias // The Great Synthesis",
+     "color_identity": "U",
+     "commander_legal_in_snapshot": true,
+     "oracle_id": "b70c3adb-64ba-49ea-bcf6-6406a58cb453",
+     "type_line": "Legendary Creature \u2014 Phyrexian Praetor // Enchantment \u2014 Saga"
+    },
+    {
+     "anchor_tiers": [
+      "NAMED_PARTICIPANT"
+     ],
+     "anchored_claims": [
+      "MOM013"
+     ],
+     "card": "Jin-Gitaxias, Core Augur",
+     "color_identity": "U",
+     "commander_legal_in_snapshot": true,
+     "oracle_id": "eb23aed0-c450-4e57-96f2-2866dceca004",
+     "type_line": "Legendary Creature \u2014 Phyrexian Praetor"
+    },
+    {
+     "anchor_tiers": [
+      "NAMED_PARTICIPANT"
+     ],
+     "anchored_claims": [
+      "MOM013"
+     ],
+     "card": "Jin-Gitaxias, Progress Tyrant",
+     "color_identity": "U",
+     "commander_legal_in_snapshot": true,
+     "oracle_id": "f5daadc1-98ff-480a-82bb-fe7bfaa7b60e",
+     "type_line": "Legendary Creature \u2014 Phyrexian Praetor"
+    },
+    {
+     "anchor_tiers": [
+      "NAMED_PARTICIPANT"
+     ],
+     "anchored_claims": [
+      "ONE018"
+     ],
+     "card": "Koth of the Homestead",
+     "color_identity": "W",
+     "commander_legal_in_snapshot": true,
+     "oracle_id": "567aeb60-a441-41b1-98f4-54510d299317",
+     "type_line": "Legendary Creature \u2014 Human Citizen"
+    },
+    {
+     "anchor_tiers": [
+      "NAMED_PARTICIPANT"
+     ],
+     "anchored_claims": [
+      "ONE018"
+     ],
+     "card": "Koth, the Geomancer",
+     "color_identity": "R",
+     "commander_legal_in_snapshot": true,
+     "oracle_id": "3b17da84-ae4d-4fc1-a327-85e54e6156c6",
+     "type_line": "Legendary Creature \u2014 Human Warrior"
+    },
+    {
+     "anchor_tiers": [
+      "NAMED_PARTICIPANT"
+     ],
+     "anchored_claims": [
+      "RTD034"
+     ],
+     "card": "Multani, Maro-Sorcerer",
+     "color_identity": "G",
+     "commander_legal_in_snapshot": true,
+     "oracle_id": "bce5b327-7da1-4136-b76f-069e2fef5d2a",
+     "type_line": "Legendary Creature \u2014 Elemental Sorcerer"
+    },
+    {
+     "anchor_tiers": [
+      "ART_IN_CITED_SOURCE"
+     ],
+     "anchored_claims": [
+      "RTD034"
+     ],
+     "card": "Multani, Yavimaya's Avatar",
+     "color_identity": "G",
+     "commander_legal_in_snapshot": true,
+     "oracle_id": "4b8bf64b-4800-45ff-81c6-2857f34999b5",
+     "type_line": "Legendary Creature \u2014 Elemental Avatar"
+    },
+    {
+     "anchor_tiers": [
+      "NAMED_PARTICIPANT"
+     ],
+     "anchored_claims": [
+      "MOM010"
+     ],
+     "card": "Nashi, Moon Sage's Scion",
+     "color_identity": "B",
+     "commander_legal_in_snapshot": true,
+     "oracle_id": "d04b6c2c-50fc-464d-9991-230efec70d2b",
+     "type_line": "Legendary Creature \u2014 Rat Ninja"
+    },
+    {
+     "anchor_tiers": [
+      "NAMED_PARTICIPANT"
+     ],
+     "anchored_claims": [
+      "MOM010"
+     ],
+     "card": "Nashi, Moon's Legacy",
+     "color_identity": "BGU",
+     "commander_legal_in_snapshot": true,
+     "oracle_id": "ffa6c14e-3d8e-47a2-b102-d37538d60ef6",
+     "type_line": "Legendary Creature \u2014 Rat Shaman"
+    },
+    {
+     "anchor_tiers": [
+      "NAMED_PARTICIPANT"
+     ],
+     "anchored_claims": [
+      "MOM010"
+     ],
+     "card": "Nashi, Searcher in the Dark",
+     "color_identity": "BU",
+     "commander_legal_in_snapshot": true,
+     "oracle_id": "ade8fc6f-efaa-4a24-96d8-99ef5026cd74",
+     "type_line": "Legendary Creature \u2014 Rat Ninja Wizard"
+    },
+    {
+     "anchor_tiers": [
+      "NAMED_PARTICIPANT"
+     ],
+     "anchored_claims": [
+      "RTD038"
+     ],
+     "card": "Nicol Bolas",
+     "color_identity": "BRU",
+     "commander_legal_in_snapshot": true,
+     "oracle_id": "e26bf6a9-b31c-4bc0-b55b-c01f2f69be6b",
+     "type_line": "Legendary Creature \u2014 Elder Dragon"
+    },
+    {
+     "anchor_tiers": [
+      "NAMED_PARTICIPANT"
+     ],
+     "anchored_claims": [
+      "RTD038"
+     ],
+     "card": "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+     "color_identity": "BRU",
+     "commander_legal_in_snapshot": true,
+     "oracle_id": "55e4b27e-5447-4fc2-8cae-a03e344600c6",
+     "type_line": "Legendary Creature \u2014 Elder Dragon // Legendary Planeswalker \u2014 Bolas"
+    },
+    {
+     "anchor_tiers": [
+      "NAMED_PARTICIPANT"
+     ],
+     "anchored_claims": [
+      "RTD022"
+     ],
+     "card": "Piru, the Volatile",
+     "color_identity": "BRW",
+     "commander_legal_in_snapshot": true,
+     "oracle_id": "dcd13eab-7ed7-4e95-bdae-d140c1ff84df",
+     "type_line": "Legendary Creature \u2014 Elder Dragon"
+    },
+    {
+     "anchor_tiers": [
+      "NAMED_PARTICIPANT"
+     ],
+     "anchored_claims": [
+      "RTD039"
+     ],
+     "card": "Radha, Coalition Warlord",
+     "color_identity": "GR",
+     "commander_legal_in_snapshot": true,
+     "oracle_id": "fbf0bde7-cb13-402b-b3ab-81c787ce4827",
+     "type_line": "Legendary Creature \u2014 Elf Warrior"
+    },
+    {
+     "anchor_tiers": [
+      "NAMED_PARTICIPANT"
+     ],
+     "anchored_claims": [
+      "RTD039"
+     ],
+     "card": "Radha, Heart of Keld",
+     "color_identity": "GR",
+     "commander_legal_in_snapshot": true,
+     "oracle_id": "927fb139-0493-48be-8cc4-2c7d854d6a55",
+     "type_line": "Legendary Creature \u2014 Elf Warrior"
+    },
+    {
+     "anchor_tiers": [
+      "NAMED_PARTICIPANT"
+     ],
+     "anchored_claims": [
+      "RTD039"
+     ],
+     "card": "Radha, Heir to Keld",
+     "color_identity": "GR",
+     "commander_legal_in_snapshot": true,
+     "oracle_id": "61d94fe7-b559-4bd4-94a7-f4ed4c853b4b",
+     "type_line": "Legendary Creature \u2014 Elf Warrior"
+    },
+    {
+     "anchor_tiers": [
+      "NAMED_PARTICIPANT"
+     ],
+     "anchored_claims": [
+      "C021"
+     ],
+     "card": "Raff Capashen, Ship's Mage",
+     "color_identity": "UW",
+     "commander_legal_in_snapshot": true,
+     "oracle_id": "13044ca1-76a3-43b2-a8e4-3bbc692c30c5",
+     "type_line": "Legendary Creature \u2014 Human Wizard"
+    },
+    {
+     "anchor_tiers": [
+      "ART_IN_CITED_SOURCE"
+     ],
+     "anchored_claims": [
+      "RTD019"
+     ],
+     "card": "Slimefoot, the Stowaway",
+     "color_identity": "BG",
+     "commander_legal_in_snapshot": true,
+     "oracle_id": "fd541139-de13-4b32-93ba-070ecf711d33",
+     "type_line": "Legendary Creature \u2014 Fungus"
+    },
+    {
+     "anchor_tiers": [
+      "NAMED_PARTICIPANT"
+     ],
+     "anchored_claims": [
+      "RTD009"
+     ],
+     "card": "The Raven Man",
+     "color_identity": "B",
+     "commander_legal_in_snapshot": true,
+     "oracle_id": "19918740-f6e3-40cd-9848-3c7a852a6c2a",
+     "type_line": "Legendary Creature \u2014 Human Wizard"
+    },
+    {
+     "anchor_tiers": [
+      "NAMED_PARTICIPANT"
+     ],
+     "anchored_claims": [
+      "RTD020"
+     ],
+     "card": "Venser, Corpse Puppet",
+     "color_identity": "BU",
+     "commander_legal_in_snapshot": true,
+     "oracle_id": "17c934a7-3480-4309-a217-ca2550538ae7",
+     "type_line": "Legendary Creature \u2014 Phyrexian Zombie Wizard"
+    },
+    {
+     "anchor_tiers": [
+      "NAMED_PARTICIPANT"
+     ],
+     "anchored_claims": [
+      "RTD020"
+     ],
+     "card": "Venser, Fervent Forger",
+     "color_identity": "R",
+     "commander_legal_in_snapshot": true,
+     "oracle_id": "9b1ae6d8-0cf3-4a67-9241-37f4bc5ddbdd",
+     "type_line": "Legendary Creature \u2014 Human Sorcerer"
+    },
+    {
+     "anchor_tiers": [
+      "NAMED_PARTICIPANT"
+     ],
+     "anchored_claims": [
+      "RTD020"
+     ],
+     "card": "Venser, Shaper Savant",
+     "color_identity": "U",
+     "commander_legal_in_snapshot": true,
+     "oracle_id": "0f41cefc-d6ff-4db7-ba35-502b7e081de1",
+     "type_line": "Legendary Creature \u2014 Human Wizard"
+    }
+   ],
+   "packs": [
+    "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json",
+    "pack_c2_return_to_dominaria_2026-10-30.json",
+    "pack_c3_assault_on_new_phyrexia_2026-10-30.json",
+    "pack_c4_march_of_the_machine_2026-10-30.json"
+   ],
+   "relationship_map": [
+    {
+     "claim": "C001",
+     "grade": "CANON_CONFIRMED",
+     "object": "first_phyrexian_invasion",
+     "predicate": "instrumental_in_thwarting",
+     "source_ids": [
+      "c_dominaria_plane"
+     ],
+     "stage": "first_invasion",
+     "subject": "weatherlight"
+    },
+    {
+     "claim": "C002",
+     "grade": "CANON_CONFIRMED",
+     "object": "legacy",
+     "predicate": "part_of",
+     "source_ids": [
+      "c_dominaria_plane"
+     ],
+     "stage": "weatherlight_saga",
+     "subject": "karn"
+    },
+    {
+     "claim": "C003",
+     "grade": "CANON_CONFIRMED",
+     "object": "planeswalking",
+     "predicate": "has_capability",
+     "source_ids": [
+      "c_dominaria_plane"
+     ],
+     "stage": "weatherlight_saga",
+     "subject": "weatherlight"
+    },
+    {
+     "claim": "C004",
+     "grade": "CANON_CONFIRMED",
+     "object": "karn",
+     "predicate": "created",
+     "source_ids": [
+      "c_karn_profile"
+     ],
+     "stage": "post_brothers_war",
+     "subject": "urza"
+    },
+    {
+     "claim": "C005",
+     "grade": "CANON_CONFIRMED",
+     "object": "mirrodin",
+     "predicate": "created",
+     "source_ids": [
+      "c_karn_profile",
+      "c_pwg_one"
+     ],
+     "stage": "post_invasion",
+     "subject": "karn"
+    },
+    {
+     "claim": "C006",
+     "grade": "CANON_CONFIRMED",
+     "object": "glistening_oil",
+     "predicate": "accidentally_carried",
+     "source_ids": [
+      "c_pwg_one",
+      "c_karn_profile"
+     ],
+     "stage": "post_invasion",
+     "subject": "karn"
+    },
+    {
+     "claim": "C007",
+     "grade": "CANON_CONFIRMED",
+     "object": "mirrodin",
+     "predicate": "corrupted",
+     "source_ids": [
+      "c_pwg_one"
+     ],
+     "stage": "new_phyrexia",
+     "subject": "glistening_oil"
+    },
+    {
+     "claim": "C008",
+     "grade": "CANON_CONFIRMED",
+     "object": "dominaria",
+     "predicate": "native_of",
+     "source_ids": [
+      "c_pwg_one"
+     ],
+     "stage": "pre_brothers_war",
+     "subject": "yawgmoth"
+    },
+    {
+     "claim": "C009",
+     "grade": "CANON_CONFIRMED",
+     "object": "old_phyrexia",
+     "predicate": "ruled",
+     "source_ids": [
+      "c_pwg_one"
+     ],
+     "stage": "pre_brothers_war",
+     "subject": "yawgmoth"
+    },
+    {
+     "claim": "C010",
+     "grade": "OPEN_QUESTION",
+     "object": "unknown_planeswalker",
+     "predicate": "created_by",
+     "source_ids": [
+      "c_pwg_one"
+     ],
+     "stage": "origin",
+     "subject": "old_phyrexia"
+    },
+    {
+     "claim": "C011",
+     "grade": "CANON_CONFIRMED",
+     "object": "dominaria",
+     "predicate": "invaded",
+     "source_ids": [
+      "c_pwg_one"
+     ],
+     "stage": "first_invasion",
+     "subject": "yawgmoth"
+    },
+    {
+     "claim": "C012",
+     "grade": "CANON_DISPUTED",
+     "object": "karn;gerrard;urza",
+     "predicate": "defeated_by",
+     "source_ids": [
+      "c_pwg_one",
+      "c_pwg_dominaria_2022",
+      "urza_profile"
+     ],
+     "stage": "first_invasion",
+     "subject": "yawgmoth"
+    },
+    {
+     "claim": "C013",
+     "grade": "CANON_IMPLIED",
+     "object": "first_phyrexian_invasion",
+     "predicate": "destroyed_in",
+     "source_ids": [
+      "c_pwg_one"
+     ],
+     "stage": "first_invasion",
+     "subject": "old_phyrexia"
+    },
+    {
+     "claim": "C014",
+     "grade": "CANON_CONFIRMED",
+     "object": "first_phyrexian_invasion",
+     "predicate": "formed_during",
+     "source_ids": [
+      "c_pwg_dominaria_2022"
+     ],
+     "stage": "first_invasion",
+     "subject": "coalition"
+    },
+    {
+     "claim": "C015",
+     "grade": "CANON_CONFIRMED",
+     "object": "weatherlight",
+     "predicate": "rebuilt",
+     "source_ids": [
+      "c_dmu_legends"
+     ],
+     "stage": "dominaria_2018",
+     "subject": "jhoira"
+    },
+    {
+     "claim": "C016",
+     "grade": "CANON_CONFIRMED",
+     "object": "weatherlight",
+     "predicate": "captain_of",
+     "source_ids": [
+      "c_dmu_legends"
+     ],
+     "stage": "dominaria_united",
+     "subject": "shanna"
+    },
+    {
+     "claim": "C017",
+     "grade": "CANON_CONFIRMED",
+     "object": "coalition",
+     "predicate": "leader_of",
+     "source_ids": [
+      "c_dmu_legends"
+     ],
+     "stage": "dominaria_united",
+     "subject": "jhoira"
+    },
+    {
+     "claim": "C018",
+     "grade": "CANON_CONFIRMED",
+     "object": "coalition",
+     "predicate": "rallies_for",
+     "source_ids": [
+      "c_dmu_legends"
+     ],
+     "stage": "dominaria_united",
+     "subject": "jodah"
+    },
+    {
+     "claim": "C019",
+     "grade": "CANON_IMPLIED",
+     "object": "brothers_war",
+     "predicate": "born_in_aftermath_of",
+     "source_ids": [
+      "c_dmu_legends"
+     ],
+     "stage": "post_brothers_war",
+     "subject": "jodah"
+    },
+    {
+     "claim": "C020",
+     "grade": "CANON_CONFIRMED",
+     "object": "dmu_sheoldred_invasion",
+     "predicate": "leads",
+     "source_ids": [
+      "c_pwg_dominaria_2022"
+     ],
+     "stage": "dominaria_united",
+     "subject": "sheoldred"
+    },
+    {
+     "claim": "C021",
+     "grade": "CANON_CONFIRMED",
+     "object": "weatherlight",
+     "predicate": "crew_of",
+     "source_ids": [
+      "c_pwg_dominaria_2022"
+     ],
+     "stage": "dominaria_united",
+     "subject": "raff_capashen"
+    },
+    {
+     "claim": "C022",
+     "grade": "CANON_CONFIRMED",
+     "object": "gerrard",
+     "predicate": "descends_to",
+     "source_ids": [
+      "c_pwg_dominaria_2022"
+     ],
+     "stage": "dominaria_united",
+     "subject": "house_capashen"
+    },
+    {
+     "claim": "C023",
+     "grade": "CANON_CONFIRMED",
+     "object": "powerstones",
+     "predicate": "discovered",
+     "source_ids": [
+      "c_dominaria_plane"
+     ],
+     "stage": "pre_brothers_war",
+     "subject": "urza;mishra"
+    },
+    {
+     "claim": "C024",
+     "grade": "CANON_CONFIRMED",
+     "object": "caves_of_koilos",
+     "predicate": "found_at",
+     "source_ids": [
+      "c_dominaria_plane"
+     ],
+     "stage": "pre_brothers_war",
+     "subject": "powerstones"
+    },
+    {
+     "claim": "C025",
+     "grade": "CANON_CONFIRMED",
+     "object": "old_phyrexia",
+     "predicate": "discovered",
+     "source_ids": [
+      "c_dominaria_plane"
+     ],
+     "stage": "post_brothers_war",
+     "subject": "urza"
+    },
+    {
+     "claim": "C026",
+     "grade": "CANON_CONFIRMED",
+     "object": "temporal_rifts_mending",
+     "predicate": "epicenter_of",
+     "source_ids": [
+      "c_dominaria_plane"
+     ],
+     "stage": "time_spiral",
+     "subject": "dominaria"
+    },
+    {
+     "claim": "C027",
+     "grade": "CANON_CONFIRMED",
+     "object": "planeswalker_spark",
+     "predicate": "lost_and_reclaimed",
+     "source_ids": [
+      "c_teferi_profile"
+     ],
+     "stage": "dominaria_2018",
+     "subject": "teferi"
+    },
+    {
+     "claim": "C028",
+     "grade": "CANON_CONFIRMED",
+     "object": "yawgmoth",
+     "predicate": "sought_leader_like",
+     "source_ids": [
+      "c_pwg_one"
+     ],
+     "stage": "new_phyrexia",
+     "subject": "elesh_norn"
+    },
+    {
+     "claim": "RTD001",
+     "grade": "CANON_CONFIRMED",
+     "object": "weatherlight",
+     "predicate": "salvaged",
+     "source_ids": [
+      "rtd_ep1",
+      "rtd_ep3"
+     ],
+     "stage": "rtd_2018",
+     "subject": "jhoira"
+    },
+    {
+     "claim": "RTD002",
+     "grade": "CANON_CONFIRMED",
+     "object": "gatewatch",
+     "predicate": "left",
+     "source_ids": [
+      "rtd_ep1"
+     ],
+     "stage": "rtd_2018",
+     "subject": "nissa_revane"
+    },
+    {
+     "claim": "RTD003",
+     "grade": "CANON_CONFIRMED",
+     "object": "belzenlok",
+     "predicate": "sought_to_kill",
+     "source_ids": [
+      "rtd_ep1"
+     ],
+     "stage": "rtd_2018",
+     "subject": "liliana_vess"
+    },
+    {
+     "claim": "RTD004",
+     "grade": "CANON_CONFIRMED",
+     "object": "kuberr",
+     "predicate": "supplanted",
+     "source_ids": [
+      "rtd_ep1"
+     ],
+     "stage": "rtd_2018",
+     "subject": "belzenlok"
+    },
+    {
+     "claim": "RTD005",
+     "grade": "CANON_CONFIRMED",
+     "object": "cabal",
+     "predicate": "leads",
+     "source_ids": [
+      "rtd_ep1"
+     ],
+     "stage": "rtd_2018",
+     "subject": "belzenlok"
+    },
+    {
+     "claim": "RTD006",
+     "grade": "CANON_DISPUTED",
+     "object": "blackblade",
+     "predicate": "claimed_forged",
+     "source_ids": [
+      "rtd_ep1",
+      "rtd_ep5"
+     ],
+     "stage": "rtd_2018",
+     "subject": "belzenlok"
+    },
+    {
+     "claim": "RTD007",
+     "grade": "CANON_CONFIRMED",
+     "object": "josu_vess",
+     "predicate": "made_undead",
+     "source_ids": [
+      "rtd_ep1"
+     ],
+     "stage": "liliana_backstory",
+     "subject": "liliana_vess"
+    },
+    {
+     "claim": "RTD008",
+     "grade": "CANON_CONFIRMED",
+     "object": "dominaria",
+     "predicate": "spark_ignited_leaving",
+     "source_ids": [
+      "rtd_ep1"
+     ],
+     "stage": "liliana_backstory",
+     "subject": "liliana_vess"
+    },
+    {
+     "claim": "RTD009",
+     "grade": "CANON_CONFIRMED",
+     "object": "liliana_vess",
+     "predicate": "manipulated",
+     "source_ids": [
+      "rtd_ep2"
+     ],
+     "stage": "liliana_backstory",
+     "subject": "raven_man"
+    },
+    {
+     "claim": "RTD010",
+     "grade": "CANON_CONFIRMED",
+     "object": "josu_vess",
+     "predicate": "made_lich",
+     "source_ids": [
+      "rtd_ep2"
+     ],
+     "stage": "rtd_2018",
+     "subject": "belzenlok"
+    },
+    {
+     "claim": "RTD011",
+     "grade": "CANON_CONFIRMED",
+     "object": "josu_vess",
+     "predicate": "laid_to_rest",
+     "source_ids": [
+      "rtd_ep2"
+     ],
+     "stage": "rtd_2018",
+     "subject": "liliana_vess"
+    },
+    {
+     "claim": "RTD012",
+     "grade": "CANON_CONFIRMED",
+     "object": "sisay",
+     "predicate": "descendant_of",
+     "source_ids": [
+      "rtd_ep3"
+     ],
+     "stage": "rtd_2018",
+     "subject": "shanna"
+    },
+    {
+     "claim": "RTD013",
+     "grade": "CANON_CONFIRMED",
+     "object": "gerrard",
+     "predicate": "related_to",
+     "source_ids": [
+      "rtd_ep3"
+     ],
+     "stage": "rtd_2018",
+     "subject": "danitha_capashen"
+    },
+    {
+     "claim": "RTD014",
+     "grade": "CANON_CONFIRMED",
+     "object": "weatherlight_powerstone",
+     "predicate": "created",
+     "source_ids": [
+      "rtd_ep3"
+     ],
+     "stage": "pre_invasion",
+     "subject": "urza"
+    },
+    {
+     "claim": "RTD015",
+     "grade": "CANON_CONFIRMED",
+     "object": "weatherlight_powerstone",
+     "predicate": "reactivated",
+     "source_ids": [
+      "rtd_ep3"
+     ],
+     "stage": "rtd_2018",
+     "subject": "tiana"
+    },
+    {
+     "claim": "RTD016",
+     "grade": "CANON_CONFIRMED",
+     "object": "weatherlight",
+     "predicate": "guardian_of",
+     "source_ids": [
+      "rtd_ep4"
+     ],
+     "stage": "rtd_2018",
+     "subject": "tiana"
+    },
+    {
+     "claim": "RTD017",
+     "grade": "CANON_CONFIRMED",
+     "object": "Knight of Benalia turned vampire",
+     "predicate": "is",
+     "source_ids": [
+      "rtd_ep4"
+     ],
+     "stage": "rtd_2018",
+     "subject": "arvad"
+    },
+    {
+     "claim": "RTD018",
+     "grade": "CANON_IMPLIED",
+     "object": "arvad",
+     "predicate": "drew",
+     "source_ids": [
+      "rtd_ep10"
+     ],
+     "stage": "rtd_2018",
+     "subject": "weatherlight_powerstone"
+    },
+    {
+     "claim": "RTD019",
+     "grade": "CANON_CONFIRMED",
+     "object": "weatherlight",
+     "predicate": "grew_aboard",
+     "source_ids": [
+      "rtd_ep10"
+     ],
+     "stage": "rtd_2018",
+     "subject": "slimefoot"
+    },
+    {
+     "claim": "RTD020",
+     "grade": "CANON_CONFIRMED",
+     "object": "karn",
+     "predicate": "gave_spark_to",
+     "source_ids": [
+      "rtd_ep5"
+     ],
+     "stage": "scars_of_mirrodin",
+     "subject": "venser"
+    },
+    {
+     "claim": "RTD021",
+     "grade": "CANON_DISPUTED",
+     "object": "new_phyrexia",
+     "predicate": "assessed",
+     "source_ids": [
+      "rtd_ep5",
+      "rtd_ep9"
+     ],
+     "stage": "rtd_2018",
+     "subject": "ajani"
+    },
+    {
+     "claim": "RTD022",
+     "grade": "CANON_IMPLIED",
+     "object": "piru",
+     "predicate": "killed",
+     "source_ids": [
+      "rtd_ep5"
+     ],
+     "stage": "elder_dragon_war",
+     "subject": "blackblade"
+    },
+    {
+     "claim": "RTD023",
+     "grade": "CANON_CONFIRMED",
+     "object": "soul-drinker",
+     "predicate": "is",
+     "source_ids": [
+      "rtd_ep5"
+     ],
+     "stage": "rtd_2018",
+     "subject": "blackblade"
+    },
+    {
+     "claim": "RTD024",
+     "grade": "CANON_CONFIRMED",
+     "object": "zhalfir",
+     "predicate": "phased_out",
+     "source_ids": [
+      "rtd_ep6"
+     ],
+     "stage": "first_invasion",
+     "subject": "teferi"
+    },
+    {
+     "claim": "RTD025",
+     "grade": "CANON_CONFIRMED",
+     "object": "shiv",
+     "predicate": "spent_spark_on",
+     "source_ids": [
+      "rtd_ep6",
+      "rtd_ep7"
+     ],
+     "stage": "temporal_rifts_mending",
+     "subject": "teferi"
+    },
+    {
+     "claim": "RTD026",
+     "grade": "CANON_CONFIRMED",
+     "object": "teferi",
+     "predicate": "daughter_of",
+     "source_ids": [
+      "rtd_ep6"
+     ],
+     "stage": "rtd_2018",
+     "subject": "niambi"
+    },
+    {
+     "claim": "RTD027",
+     "grade": "CANON_CONFIRMED",
+     "object": "teferis_spark_stone",
+     "predicate": "made",
+     "source_ids": [
+      "rtd_ep6"
+     ],
+     "stage": "rtd_2018",
+     "subject": "niambi"
+    },
+    {
+     "claim": "RTD028",
+     "grade": "CANON_IMPLIED",
+     "object": "teferis_spark_stone",
+     "predicate": "regained_spark_from",
+     "source_ids": [
+      "rtd_ep11"
+     ],
+     "stage": "rtd_2018",
+     "subject": "teferi"
+    },
+    {
+     "claim": "RTD029",
+     "grade": "CANON_CONFIRMED",
+     "object": "Luti",
+     "predicate": "disguised_as",
+     "source_ids": [
+      "rtd_ep9"
+     ],
+     "stage": "rtd_2018",
+     "subject": "jaya_ballard"
+    },
+    {
+     "claim": "RTD030",
+     "grade": "CANON_CONFIRMED",
+     "object": "jaya_ballard",
+     "predicate": "sought",
+     "source_ids": [
+      "rtd_ep8"
+     ],
+     "stage": "rtd_2018",
+     "subject": "chandra_nalaar"
+    },
+    {
+     "claim": "RTD031",
+     "grade": "CANON_CONFIRMED",
+     "object": "rtd_sylex",
+     "predicate": "excavated",
+     "source_ids": [
+      "rtd_ep9"
+     ],
+     "stage": "rtd_2018",
+     "subject": "karn"
+    },
+    {
+     "claim": "RTD032",
+     "grade": "CANON_IMPLIED",
+     "object": "golgothian_sylex",
+     "predicate": "identified_with",
+     "source_ids": [
+      "rtd_ep9"
+     ],
+     "stage": "rtd_2018",
+     "subject": "rtd_sylex"
+    },
+    {
+     "claim": "RTD033",
+     "grade": "CANON_DISPUTED",
+     "object": "Urza (per Karn)",
+     "predicate": "origin",
+     "source_ids": [
+      "rtd_ep9"
+     ],
+     "stage": "rtd_2018",
+     "subject": "rtd_sylex"
+    },
+    {
+     "claim": "RTD034",
+     "grade": "CANON_CONFIRMED",
+     "object": "rtd_sylex",
+     "predicate": "opposed",
+     "source_ids": [
+      "rtd_ep9"
+     ],
+     "stage": "rtd_2018",
+     "subject": "multani"
+    },
+    {
+     "claim": "RTD035",
+     "grade": "CANON_CONFIRMED",
+     "object": "Phyrexian base",
+     "predicate": "originally",
+     "source_ids": [
+      "rtd_ep11"
+     ],
+     "stage": "first_invasion",
+     "subject": "cabal_stronghold"
+    },
+    {
+     "claim": "RTD036",
+     "grade": "CANON_CONFIRMED",
+     "object": "belzenlok",
+     "predicate": "killed",
+     "source_ids": [
+      "rtd_ep12"
+     ],
+     "stage": "rtd_2018",
+     "subject": "liliana_vess"
+    },
+    {
+     "claim": "RTD037",
+     "grade": "CANON_CONFIRMED",
+     "object": "blackblade",
+     "predicate": "involved",
+     "source_ids": [
+      "rtd_ep12"
+     ],
+     "stage": "rtd_2018",
+     "subject": "belzenlok_death"
+    },
+    {
+     "claim": "RTD038",
+     "grade": "CANON_CONFIRMED",
+     "object": "liliana_vess",
+     "predicate": "holds_pact_of",
+     "source_ids": [
+      "rtd_ep12"
+     ],
+     "stage": "rtd_2018",
+     "subject": "nicol_bolas"
+    },
+    {
+     "claim": "RTD039",
+     "grade": "CANON_CONFIRMED",
+     "object": "cabal",
+     "predicate": "freed_from",
+     "source_ids": [
+      "rtd_ep12"
+     ],
+     "stage": "rtd_2018",
+     "subject": "radha"
+    },
+    {
+     "claim": "ONE001",
+     "grade": "CANON_CONFIRMED",
+     "object": "realmbreaker",
+     "predicate": "planted",
+     "source_ids": [
+      "one_ep2",
+      "one_ep4"
+     ],
+     "stage": "one_strike_2023",
+     "subject": "elesh_norn"
+    },
+    {
+     "claim": "ONE002",
+     "grade": "CANON_CONFIRMED",
+     "object": "seedcore",
+     "predicate": "located_in",
+     "source_ids": [
+      "one_ep4"
+     ],
+     "stage": "one_strike_2023",
+     "subject": "realmbreaker"
+    },
+    {
+     "claim": "ONE003",
+     "grade": "CANON_CONFIRMED",
+     "object": "karn",
+     "predicate": "imprisoned",
+     "source_ids": [
+      "one_ep4"
+     ],
+     "stage": "one_strike_2023",
+     "subject": "elesh_norn"
+    },
+    {
+     "claim": "ONE004",
+     "grade": "CANON_CONFIRMED",
+     "object": "realmbreaker",
+     "predicate": "intended_to_destroy",
+     "source_ids": [
+      "one_ep2"
+     ],
+     "stage": "one_strike_2023",
+     "subject": "one_sylex"
+    },
+    {
+     "claim": "ONE005",
+     "grade": "CANON_CONFIRMED",
+     "object": "compleation",
+     "predicate": "underwent",
+     "source_ids": [
+      "one_ep4"
+     ],
+     "stage": "one_strike_2023",
+     "subject": "ajani"
+    },
+    {
+     "claim": "ONE006",
+     "grade": "CANON_CONFIRMED",
+     "object": "compleation",
+     "predicate": "underwent",
+     "source_ids": [
+      "one_ep4"
+     ],
+     "stage": "one_strike_2023",
+     "subject": "tibalt"
+    },
+    {
+     "claim": "ONE007",
+     "grade": "CANON_CONFIRMED",
+     "object": "compleation",
+     "predicate": "underwent",
+     "source_ids": [
+      "one_ep5"
+     ],
+     "stage": "one_strike_2023",
+     "subject": "vraska"
+    },
+    {
+     "claim": "ONE008",
+     "grade": "CANON_CONFIRMED",
+     "object": "vraska",
+     "predicate": "stayed_with",
+     "source_ids": [
+      "one_ep3"
+     ],
+     "stage": "one_strike_2023",
+     "subject": "jace_beleren"
+    },
+    {
+     "claim": "ONE009",
+     "grade": "CANON_CONFIRMED",
+     "object": "compleation",
+     "predicate": "underwent",
+     "source_ids": [
+      "one_ep5"
+     ],
+     "stage": "one_strike_2023",
+     "subject": "jace_beleren"
+    },
+    {
+     "claim": "ONE010",
+     "grade": "CANON_CONFIRMED",
+     "object": "elspeth_tirel",
+     "predicate": "mentor_of",
+     "source_ids": [
+      "one_ep5"
+     ],
+     "stage": "one_strike_2023",
+     "subject": "ajani"
+    },
+    {
+     "claim": "ONE011",
+     "grade": "CANON_CONFIRMED",
+     "object": "ajani",
+     "predicate": "fought",
+     "source_ids": [
+      "one_ep5"
+     ],
+     "stage": "one_strike_2023",
+     "subject": "elspeth_tirel"
+    },
+    {
+     "claim": "ONE012",
+     "grade": "CANON_CONFIRMED",
+     "object": "tibalt",
+     "predicate": "fought",
+     "source_ids": [
+      "one_ep5"
+     ],
+     "stage": "one_strike_2023",
+     "subject": "tyvar"
+    },
+    {
+     "claim": "ONE013",
+     "grade": "CANON_CONFIRMED",
+     "object": "jace_beleren",
+     "predicate": "struck_down",
+     "source_ids": [
+      "one_ep5"
+     ],
+     "stage": "one_strike_2023",
+     "subject": "elspeth_tirel"
+    },
+    {
+     "claim": "ONE014",
+     "grade": "CANON_CONFIRMED",
+     "object": "one_sylex",
+     "predicate": "carried_away",
+     "source_ids": [
+      "one_ep5"
+     ],
+     "stage": "one_strike_2023",
+     "subject": "elspeth_tirel"
+    },
+    {
+     "claim": "ONE015",
+     "grade": "CANON_CONFIRMED",
+     "object": "multiverse",
+     "predicate": "spread_invasion_across",
+     "source_ids": [
+      "one_ep5"
+     ],
+     "stage": "one_strike_2023",
+     "subject": "realmbreaker"
+    },
+    {
+     "claim": "ONE016",
+     "grade": "CANON_CONFIRMED",
+     "object": "compleation",
+     "predicate": "underwent",
+     "source_ids": [
+      "one_ep5"
+     ],
+     "stage": "one_strike_2023",
+     "subject": "nahiri"
+    },
+    {
+     "claim": "ONE017",
+     "grade": "CANON_CONFIRMED",
+     "object": "compleation",
+     "predicate": "underwent",
+     "source_ids": [
+      "one_ep5"
+     ],
+     "stage": "one_strike_2023",
+     "subject": "nissa_revane"
+    },
+    {
+     "claim": "ONE018",
+     "grade": "CANON_CONFIRMED",
+     "object": "mirrodin",
+     "predicate": "native_of",
+     "source_ids": [
+      "one_ep4"
+     ],
+     "stage": "one_strike_2023",
+     "subject": "koth"
+    },
+    {
+     "claim": "ONE019",
+     "grade": "CANON_CONFIRMED",
+     "object": "mirrodin",
+     "predicate": "native_of",
+     "source_ids": [
+      "one_ep4"
+     ],
+     "stage": "one_strike_2023",
+     "subject": "melira"
+    },
+    {
+     "claim": "MOM001",
+     "grade": "CANON_CONFIRMED",
+     "object": "sheoldred",
+     "predicate": "ordered_execution_of",
+     "source_ids": [
+      "mom_ep01"
+     ],
+     "stage": "mom_invasion_2023",
+     "subject": "elesh_norn"
+    },
+    {
+     "claim": "MOM002",
+     "grade": "CANON_IMPLIED",
+     "object": "sheoldred",
+     "predicate": "executed",
+     "source_ids": [
+      "mom_ep01"
+     ],
+     "stage": "mom_invasion_2023",
+     "subject": "ajani"
+    },
+    {
+     "claim": "MOM003",
+     "grade": "CANON_CONFIRMED",
+     "object": "ikoria",
+     "predicate": "sent_to_invade",
+     "source_ids": [
+      "mom_ep01"
+     ],
+     "stage": "mom_invasion_2023",
+     "subject": "lukka"
+    },
+    {
+     "claim": "MOM004",
+     "grade": "CANON_CONFIRMED",
+     "object": "kamigawa",
+     "predicate": "sent_to_invade",
+     "source_ids": [
+      "mom_ep01"
+     ],
+     "stage": "mom_invasion_2023",
+     "subject": "tamiyo"
+    },
+    {
+     "claim": "MOM005",
+     "grade": "CANON_CONFIRMED",
+     "object": "zendikar",
+     "predicate": "born_on",
+     "source_ids": [
+      "mom_ep01"
+     ],
+     "stage": "mom_invasion_2023",
+     "subject": "nahiri"
+    },
+    {
+     "claim": "MOM006",
+     "grade": "CANON_IMPLIED",
+     "object": "theros",
+     "predicate": "sent_to_invade",
+     "source_ids": [
+      "mom_ep01"
+     ],
+     "stage": "mom_invasion_2023",
+     "subject": "ajani"
+    },
+    {
+     "claim": "MOM007",
+     "grade": "CANON_CONFIRMED",
+     "object": "new_capenna",
+     "predicate": "led_invasion_of",
+     "source_ids": [
+      "mom_ep01",
+      "mom_ep04"
+     ],
+     "stage": "mom_invasion_2023",
+     "subject": "atraxa"
+    },
+    {
+     "claim": "MOM008",
+     "grade": "CANON_IMPLIED",
+     "object": "chandra_nalaar",
+     "predicate": "sheltered",
+     "source_ids": [
+      "mom_ep02"
+     ],
+     "stage": "mom_invasion_2023",
+     "subject": "liliana_vess"
+    },
+    {
+     "claim": "MOM009",
+     "grade": "CANON_CONFIRMED",
+     "object": "tamiyo",
+     "predicate": "struck_down",
+     "source_ids": [
+      "mom_ep03"
+     ],
+     "stage": "mom_invasion_2023",
+     "subject": "the_wanderer"
+    },
+    {
+     "claim": "MOM010",
+     "grade": "CANON_CONFIRMED",
+     "object": "nashi",
+     "predicate": "mother_of",
+     "source_ids": [
+      "mom_ep03"
+     ],
+     "stage": "mom_invasion_2023",
+     "subject": "tamiyo"
+    },
+    {
+     "claim": "MOM011",
+     "grade": "CANON_CONFIRMED",
+     "object": "nissa_revane",
+     "predicate": "refused",
+     "source_ids": [
+      "mom_ep05"
+     ],
+     "stage": "mom_invasion_2023",
+     "subject": "chandra_nalaar"
+    },
+    {
+     "claim": "MOM012",
+     "grade": "CANON_CONFIRMED",
+     "object": "Winged angelic form",
+     "predicate": "reborn_as",
+     "source_ids": [
+      "mom_ep06",
+      "mom_ep07"
+     ],
+     "stage": "mom_invasion_2023",
+     "subject": "elspeth_tirel"
+    },
+    {
+     "claim": "MOM013",
+     "grade": "CANON_CONFIRMED",
+     "object": "jin_gitaxias",
+     "predicate": "intervened_against",
+     "source_ids": [
+      "mom_ep07"
+     ],
+     "stage": "mom_invasion_2023",
+     "subject": "elspeth_tirel"
+    },
+    {
+     "claim": "MOM014",
+     "grade": "CANON_CONFIRMED",
+     "object": "elesh_norn",
+     "predicate": "fought",
+     "source_ids": [
+      "mom_ep07"
+     ],
+     "stage": "mom_invasion_2023",
+     "subject": "elspeth_tirel"
+    },
+    {
+     "claim": "MOM015",
+     "grade": "CANON_IMPLIED",
+     "object": "zhalfir",
+     "predicate": "opened_portal_to",
+     "source_ids": [
+      "mom_ep08"
+     ],
+     "stage": "mom_invasion_2023",
+     "subject": "wrenn"
+    },
+    {
+     "claim": "MOM016",
+     "grade": "CANON_CONFIRMED",
+     "object": "new_phyrexia",
+     "predicate": "fought",
+     "source_ids": [
+      "mom_ep08"
+     ],
+     "stage": "mom_invasion_2023",
+     "subject": "zhalfir"
+    },
+    {
+     "claim": "MOM017",
+     "grade": "CANON_CONFIRMED",
+     "object": "elesh_norn",
+     "predicate": "killed",
+     "source_ids": [
+      "mom_ep09"
+     ],
+     "stage": "mom_invasion_2023",
+     "subject": "karn"
+    },
+    {
+     "claim": "MOM018",
+     "grade": "CANON_CONFIRMED",
+     "object": "Karn's planeswalker spark",
+     "predicate": "gave_up",
+     "source_ids": [
+      "mom_ep10"
+     ],
+     "stage": "mom_invasion_2023",
+     "subject": "karn"
+    },
+    {
+     "claim": "MOM019",
+     "grade": "CANON_CONFIRMED",
+     "object": "nissa_revane; ajani",
+     "predicate": "died_restoring",
+     "source_ids": [
+      "mom_ep10"
+     ],
+     "stage": "mom_invasion_2023",
+     "subject": "melira"
+    },
+    {
+     "claim": "MOM020",
+     "grade": "CANON_CONFIRMED",
+     "object": "nissa_revane",
+     "predicate": "reunited_with",
+     "source_ids": [
+      "mom_ep10"
+     ],
+     "stage": "mom_invasion_2023",
+     "subject": "chandra_nalaar"
+    },
+    {
+     "claim": "MOM021",
+     "grade": "CANON_IMPLIED",
+     "object": "zhalfir",
+     "predicate": "restored",
+     "source_ids": [
+      "mom_ep10"
+     ],
+     "stage": "mom_invasion_2023",
+     "subject": "teferi"
+    }
+   ],
+   "stage_sequence": [
+    {
+     "claims": [
+      "RTD007",
+      "RTD008",
+      "RTD009"
+     ],
+     "earliest_cited_publication": "2018-03-21",
+     "stage": "liliana_backstory"
+    },
+    {
+     "claims": [
+      "RTD001",
+      "RTD002",
+      "RTD003",
+      "RTD004",
+      "RTD005",
+      "RTD006",
+      "RTD010",
+      "RTD011",
+      "RTD012",
+      "RTD013",
+      "RTD015",
+      "RTD016",
+      "RTD017",
+      "RTD018",
+      "RTD019",
+      "RTD021",
+      "RTD023",
+      "RTD026",
+      "RTD027",
+      "RTD028",
+      "RTD029",
+      "RTD030",
+      "RTD031",
+      "RTD032",
+      "RTD033",
+      "RTD034",
+      "RTD036",
+      "RTD037",
+      "RTD038",
+      "RTD039"
+     ],
+     "earliest_cited_publication": "2018-03-21",
+     "stage": "rtd_2018"
+    },
+    {
+     "claims": [
+      "RTD014"
+     ],
+     "earliest_cited_publication": "2018-03-28",
+     "stage": "pre_invasion"
+    },
+    {
+     "claims": [
+      "RTD022"
+     ],
+     "earliest_cited_publication": "2018-04-11",
+     "stage": "elder_dragon_war"
+    },
+    {
+     "claims": [
+      "RTD020"
+     ],
+     "earliest_cited_publication": "2018-04-11",
+     "stage": "scars_of_mirrodin"
+    },
+    {
+     "claims": [
+      "C001",
+      "C011",
+      "C012",
+      "C013",
+      "C014",
+      "RTD024",
+      "RTD035"
+     ],
+     "earliest_cited_publication": "2018-04-18",
+     "stage": "first_invasion"
+    },
+    {
+     "claims": [
+      "RTD025"
+     ],
+     "earliest_cited_publication": "2018-04-18",
+     "stage": "temporal_rifts_mending"
+    },
+    {
+     "claims": [
+      "C016",
+      "C017",
+      "C018",
+      "C020",
+      "C021",
+      "C022"
+     ],
+     "earliest_cited_publication": "2022-08-31",
+     "stage": "dominaria_united"
+    },
+    {
+     "claims": [
+      "C015",
+      "C027"
+     ],
+     "earliest_cited_publication": "2022-09-01",
+     "stage": "dominaria_2018"
+    },
+    {
+     "claims": [
+      "C004",
+      "C019",
+      "C025"
+     ],
+     "earliest_cited_publication": "2022-09-01",
+     "stage": "post_brothers_war"
+    },
+    {
+     "claims": [
+      "ONE001",
+      "ONE002",
+      "ONE003",
+      "ONE004",
+      "ONE005",
+      "ONE006",
+      "ONE007",
+      "ONE008",
+      "ONE009",
+      "ONE010",
+      "ONE011",
+      "ONE012",
+      "ONE013",
+      "ONE014",
+      "ONE015",
+      "ONE016",
+      "ONE017",
+      "ONE018",
+      "ONE019"
+     ],
+     "earliest_cited_publication": "2023-01-13",
+     "stage": "one_strike_2023"
+    },
+    {
+     "claims": [
+      "MOM001",
+      "MOM002",
+      "MOM003",
+      "MOM004",
+      "MOM005",
+      "MOM006",
+      "MOM007",
+      "MOM008",
+      "MOM009",
+      "MOM010",
+      "MOM011",
+      "MOM012",
+      "MOM013",
+      "MOM014",
+      "MOM015",
+      "MOM016",
+      "MOM017",
+      "MOM018",
+      "MOM019",
+      "MOM020",
+      "MOM021"
+     ],
+     "earliest_cited_publication": "2023-03-16",
+     "stage": "mom_invasion_2023"
+    },
+    {
+     "claims": [
+      "C007",
+      "C028"
+     ],
+     "earliest_cited_publication": null,
+     "stage": "new_phyrexia"
+    },
+    {
+     "claims": [
+      "C010"
+     ],
+     "earliest_cited_publication": null,
+     "stage": "origin"
+    },
+    {
+     "claims": [
+      "C005",
+      "C006"
+     ],
+     "earliest_cited_publication": null,
+     "stage": "post_invasion"
+    },
+    {
+     "claims": [
+      "C008",
+      "C009",
+      "C023",
+      "C024"
+     ],
+     "earliest_cited_publication": null,
+     "stage": "pre_brothers_war"
+    },
+    {
+     "claims": [
+      "C026"
+     ],
+     "earliest_cited_publication": null,
+     "stage": "time_spiral"
+    },
+    {
+     "claims": [
+      "C002",
+      "C003"
+     ],
+     "earliest_cited_publication": null,
+     "stage": "weatherlight_saga"
+    }
+   ],
+   "uncertainties": {
+    "claims_with_limitation": 41,
+    "cross_pack_citations": [
+     {
+      "claim": "C012",
+      "claim_pack": "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json",
+      "register_pack": "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json",
+      "source_id": "urza_profile"
+     }
+    ],
+    "non_confirmed_claims": [
+     {
+      "claim": "C010",
+      "grade": "OPEN_QUESTION",
+      "limitation": "Do not name a creator from non-Wizards sources."
+     },
+     {
+      "claim": "C012",
+      "grade": "CANON_DISPUTED",
+      "limitation": "Accounts may be complementary rather than contradictory (shared final battle); the Apocalypse novel is not ingested, so the precise sequence is unresolved here."
+     },
+     {
+      "claim": "C013",
+      "grade": "CANON_IMPLIED",
+      "limitation": "The guide states Old Phyrexia was destroyed but does not explicitly tie the destruction to the same battle."
+     },
+     {
+      "claim": "C019",
+      "grade": "CANON_IMPLIED",
+      "limitation": "The source does not name the war or the ancestor."
+     },
+     {
+      "claim": "RTD006",
+      "grade": "CANON_DISPUTED",
+      "limitation": "Belzenlok's claims are in-story propaganda; this pack does not resolve the forger."
+     },
+     {
+      "claim": "RTD018",
+      "grade": "CANON_IMPLIED",
+      "limitation": "'White star' is Slimefoot's perception; identifying it with the Powerstone is an inference."
+     },
+     {
+      "claim": "RTD021",
+      "grade": "CANON_DISPUTED",
+      "limitation": "These are in-story assessments; later official stories show a Phyrexian threat to Dominaria."
+     },
+     {
+      "claim": "RTD022",
+      "grade": "CANON_IMPLIED",
+      "limitation": ""
+     },
+     {
+      "claim": "RTD028",
+      "grade": "CANON_IMPLIED",
+      "limitation": "Ep. 11 states he took it back; that the stone in Ep. 6 is the mechanism is an inference across episodes."
+     },
+     {
+      "claim": "RTD032",
+      "grade": "CANON_IMPLIED",
+      "limitation": "The episode says 'the Sylex'; identity with the Golgothian Sylex is inferred."
+     },
+     {
+      "claim": "RTD033",
+      "grade": "CANON_DISPUTED",
+      "limitation": "In-story statement by Karn; see Pack B B012."
+     },
+     {
+      "claim": "MOM002",
+      "grade": "CANON_IMPLIED",
+      "limitation": "The quoted lines do not name who swings the axe; the attribution to Ajani follows from Norn's order in the preceding paragraph."
+     },
+     {
+      "claim": "MOM006",
+      "grade": "CANON_IMPLIED",
+      "limitation": "Stated within Atraxa's question, not by the narrator; Ajani's activity on Theros is not modelled from Episode 6 here."
+     },
+     {
+      "claim": "MOM008",
+      "grade": "CANON_IMPLIED",
+      "limitation": "'They' in the first quote is the group in the scene; the precise membership is not restated in the quote."
+     },
+     {
+      "claim": "MOM015",
+      "grade": "CANON_IMPLIED",
+      "limitation": "The quotes juxtapose Wrenn's act and the portal; they do not say in one sentence that Wrenn made it. Wrenn's death is not asserted: the text says only that she is dying."
+     },
+     {
+      "claim": "MOM021",
+      "grade": "CANON_IMPLIED",
+      "limitation": "The mechanism of Zhalfir's return is not modelled from these quotes."
+     }
+    ],
+    "pack_open_items": [
+     {
+      "field": "remaining",
+      "items": [
+       "Weatherlight Saga (Tempest through Apocalypse) novels/comics not ingested; Gerrard, Sisay, Hanna, Mirri, Crovax, Volrath arcs absent",
+       "Return to Dominaria 2018 episodes 1-12 fetched list exists in story_index.csv but not claim-extracted",
+       "Dominaria United and Brothers' War-era MOM/March of the Machine story episodes not extracted; Phyrexian invasion of the multiverse (MOM) not covered",
+       "Mirrodin/Scars of Mirrodin chronology (Memnarch, Darksteel, Fifth Dawn, Scars) only summarized via ONE guide",
+       "Old Phyrexia creator: unknown per official source (OPEN_QUESTION C010)",
+       "Who struck down Yawgmoth: competing official summaries preserved (C012)",
+       "No card anchors yet (e.g. Weatherlight, Karn printings, Yawgmoth, Thran Physician); next step is printing matches"
+      ],
+      "pack": "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json"
+     },
+     {
+      "field": "remaining",
+      "items": [
+       "Episodes were read by targeted extraction, not exhaustively; secondary characters (Hadi, Tien, Rael, Thiago, Naban, Subira, Kwende, Urgoros, Luti's monastery) are not modelled",
+       "The Raven Man's identity is not asserted",
+       "No in-universe AR dates appear in these episodes; none are inferred",
+       "Card anchors (e.g., Blackblade Reforged, Settle the Score, In Bolas's Clutches art captions) not yet linked"
+      ],
+      "pack": "pack_c2_return_to_dominaria_2026-10-30.json"
+     },
+     {
+      "field": "remaining",
+      "items": [
+       "Targeted extraction, not exhaustive: Urabrask, Sheoldred, Jin-Gitaxias, Vorinclex, Tamiyo and the Mirran resistance are not modelled",
+       "March of the Machine story episodes are not yet extracted",
+       "No in-universe AR dates appear in these episodes; none are inferred",
+       "Elspeth's fate after the sylex, and Jace's after the stabbing, are not asserted from these episodes",
+       "Card anchors (e.g., compleated planeswalker cards) are not yet linked",
+       "Elspeth's line 'Ajani destroyed the last one' (Episode 2) refers to an unidentified earlier sylex, so it is not modelled as an edge"
+      ],
+      "pack": "pack_c3_assault_on_new_phyrexia_2026-10-30.json"
+     },
+     {
+      "field": "remaining",
+      "items": [
+       "Targeted extraction, not exhaustive: side stories (March of the Machine: The Aftermath, plane side stories) are not covered",
+       "Episodes 2, 4, 5 and 6 are only lightly modelled (one or two claims each)",
+       "No in-universe AR dates appear in these quotes; none are inferred",
+       "Wrenn's death, Ajani's restoration outcome and Nissa's spark status are not asserted",
+       "Card anchors (e.g., March of the Machine legendary cards) are not yet linked to these claims"
+      ],
+      "pack": "pack_c4_march_of_the_machine_2026-10-30.json"
+     }
+    ]
+   }
+  }
+ },
+ "legality_basis": "Commander legality from Scryfall oracle-cards snapshot 2026-10-29 (.cache/multiverse); not current-rules certified",
+ "not": "owner approved; candidates are UNAPPROVED proposals; no deck is built or certified",
+ "schema": "pack-dossiers/v1",
+ "stage_sequence_basis": "ordered by earliest publication date of cited Wizards sources (publication order), NOT an asserted in-universe chronology; in-universe time appears only as verbatim relative phrases",
+ "status": "PRELIMINARY_RESEARCH"
+}
