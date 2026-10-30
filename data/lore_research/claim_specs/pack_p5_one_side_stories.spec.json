@@ -1,0 +1,174 @@
+{
+ "pack_id": "pack_p5_one_side_stories",
+ "arc": "ONE",
+ "event_stage": "phyrexia_all_will_be_one_2023",
+ "scope": "Targeted Phase 5 extraction from the five official Phyrexia: All Will Be One side stories (January 2023) tagged to the ONE arc in batch 7. One or two claims per page; not an exhaustive reading. PRELIMINARY_RESEARCH; not owner approved.",
+ "pages": {
+  "one6_hollow": "a-hollow-body",
+  "one6_cinders": "cinders",
+  "one6_hard": "hard-as-anger-bright-as-joy",
+  "one6_parts": "a-man-of-parts",
+  "one6_alone": "alone"
+ },
+ "entities": [
+  {
+   "id": "atraxa",
+   "type": "Character",
+   "name": "Atraxa"
+  },
+  {
+   "id": "elesh_norn",
+   "type": "Character",
+   "name": "Elesh Norn"
+  },
+  {
+   "id": "neyali",
+   "type": "Character",
+   "name": "Neyali"
+  },
+  {
+   "id": "mirran_resistance",
+   "type": "Faction",
+   "name": "Mirran resistance"
+  },
+  {
+   "id": "jace_beleren",
+   "type": "Character",
+   "name": "Jace Beleren"
+  },
+  {
+   "id": "lukka",
+   "type": "Character",
+   "name": "Lukka"
+  },
+  {
+   "id": "glissa",
+   "type": "Character",
+   "name": "Glissa"
+  },
+  {
+   "id": "tezzeret",
+   "type": "Character",
+   "name": "Tezzeret"
+  },
+  {
+   "id": "teferi",
+   "type": "Character",
+   "name": "Teferi"
+  },
+  {
+   "id": "phyrexians",
+   "type": "Faction",
+   "name": "Phyrexians"
+  }
+ ],
+ "claims": [
+  {
+   "id": "ON001",
+   "subject": "atraxa",
+   "predicate": "serves",
+   "object": "elesh_norn",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "one6_hollow",
+     "quote": "The seat is empty; without the demands of a council meeting, Elesh Norn, Mother of Machines, retires to her contemplation."
+    },
+    {
+     "page": "one6_hollow",
+     "quote": "Instead, you kneel before Atraxa, the Grand Unifier, and the reason for which you draw breath."
+    }
+   ],
+   "summary": "In the Fair Basilica the narrator kneels before Atraxa, the Grand Unifier, while Elesh Norn holds the council seat.",
+   "limitation": "The story shows Atraxa and Elesh Norn in one court; the chain of command between them is inferred, not stated."
+  },
+  {
+   "id": "ON002",
+   "subject": "neyali",
+   "predicate": "leads",
+   "object": "mirran_resistance",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "one6_cinders",
+     "quote": "Neyali looked over her resistance cell and took inventory of what she saw."
+    },
+    {
+     "page": "one6_cinders",
+     "quote": "Elham, the Auriok woman who had led before Neyali, stomped behind them with more bags than she needed to bear, freeing her comrades to move unencumbered."
+    }
+   ],
+   "summary": "Neyali leads a Mirran resistance cell near the Quiet Furnace, succeeding Elham.",
+   "limitation": "This is one resistance cell, not the whole Mirran resistance."
+  },
+  {
+   "id": "ON003",
+   "subject": "jace_beleren",
+   "predicate": "recruited",
+   "object": "lukka",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "one6_hard",
+     "quote": "He'd been surprised when Jace had recruited him, arguing that Lukka's military expertise would be essential to the success of their infiltration mission."
+    }
+   ],
+   "summary": "Jace recruited Lukka for the New Phyrexia infiltration for his military expertise."
+  },
+  {
+   "id": "ON004",
+   "subject": "lukka",
+   "predicate": "fought",
+   "object": "glissa",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "one6_hard",
+     "quote": "Lukka threw himself at Glissa while Nissa fought Vorinclex."
+    }
+   ],
+   "summary": "On New Phyrexia, Lukka fights Glissa while Nissa fights Vorinclex."
+  },
+  {
+   "id": "ON005",
+   "subject": "tezzeret",
+   "predicate": "serves",
+   "object": "elesh_norn",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "one6_parts",
+     "quote": "Tezzeret's journey ended inside a chamber held up by struts of bone-like porcelain flaring out from the walls, a set of ribs meeting in the center to form a dais of high steps leading up to the throne of Elesh Norn."
+    },
+    {
+     "page": "one6_parts",
+     "quote": "In scuttled several tentacled skitterlings tugging a floating platform similar to the one Tezzeret had used to escort Karn's dismembered body to Elesh Norn's garden."
+    }
+   ],
+   "summary": "Tezzeret appears before Elesh Norn's throne; he had earlier delivered Karn's dismembered body to her garden.",
+   "limitation": "His loyalty is ambiguous in the story; 'serves' is inferred from the errand, not stated."
+  },
+  {
+   "id": "ON006",
+   "subject": "teferi",
+   "predicate": "opposes",
+   "object": "phyrexians",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "one6_alone",
+     "quote": "The Phyrexians' probing through the Multiverse had awoken something that their machine minds would learn to fear: Teferi, who would show them that the sun rises in Zhalfir."
+    },
+    {
+     "page": "one6_alone",
+     "quote": "Preparation for the Phyrexian War, the defense of Dominaria against Yawgmoth's hordes."
+    }
+   ],
+   "summary": "Teferi's memories of the Phyrexian War frame him as an enemy the Phyrexians would learn to fear."
+  }
+ ],
+ "remaining": [
+  "One or two claims per side story; character beats beyond these are not modelled",
+  "Nissa vs Vorinclex is mentioned in ON004's quote but not claimed separately"
+ ]
+}

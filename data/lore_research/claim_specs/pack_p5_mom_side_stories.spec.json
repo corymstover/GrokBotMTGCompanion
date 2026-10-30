@@ -1,0 +1,267 @@
+{
+ "pack_id": "pack_p5_mom_side_stories",
+ "arc": "MOM",
+ "event_stage": "march_of_the_machine_2023",
+ "scope": "Targeted Phase 5 extraction from the eight official March of the Machine plane side stories (March 2023) tagged to the MOM arc in batch 7. One claim per page; not an exhaustive reading. PRELIMINARY_RESEARCH; not owner approved.",
+ "pages": {
+  "moms_arcavios": "a-radiant-heart",
+  "moms_ikoria": "survival-of-the-fittest",
+  "moms_ixalan": "three-hundred-steps-under-the-sun",
+  "moms_innistrad": "family-game-night",
+  "moms_eldraine": "the-adventures-of-rankle-master-of-love",
+  "moms_ravnica": "one-and-the-same",
+  "moms_zendikar": "battles-in-the-field-and-in-the-mind",
+  "moms_capenna": "the-fall-of-park-heights"
+ },
+ "entities": [
+  {
+   "id": "quintorius",
+   "type": "Character",
+   "name": "Quintorius"
+  },
+  {
+   "id": "strixhaven",
+   "type": "Place",
+   "name": "Strixhaven"
+  },
+  {
+   "id": "phyrexians",
+   "type": "Faction",
+   "name": "Phyrexians"
+  },
+  {
+   "id": "vivien_reid",
+   "type": "Character",
+   "name": "Vivien Reid"
+  },
+  {
+   "id": "jirina_kudro",
+   "type": "Character",
+   "name": "Jirina Kudro"
+  },
+  {
+   "id": "ikoria",
+   "type": "Plane",
+   "name": "Ikoria"
+  },
+  {
+   "id": "huatli",
+   "type": "Character",
+   "name": "Huatli"
+  },
+  {
+   "id": "ixalan",
+   "type": "Plane",
+   "name": "Ixalan"
+  },
+  {
+   "id": "gisa",
+   "type": "Character",
+   "name": "Gisa"
+  },
+  {
+   "id": "geralf",
+   "type": "Character",
+   "name": "Geralf"
+  },
+  {
+   "id": "innistrad",
+   "type": "Plane",
+   "name": "Innistrad"
+  },
+  {
+   "id": "rankle",
+   "type": "Character",
+   "name": "Rankle"
+  },
+  {
+   "id": "torbran",
+   "type": "Character",
+   "name": "Torbran"
+  },
+  {
+   "id": "ral_zarek",
+   "type": "Character",
+   "name": "Ral Zarek"
+  },
+  {
+   "id": "tomik_vrona",
+   "type": "Character",
+   "name": "Tomik Vrona"
+  },
+  {
+   "id": "nahiri",
+   "type": "Character",
+   "name": "Nahiri"
+  },
+  {
+   "id": "tazri",
+   "type": "Character",
+   "name": "Tazri"
+  },
+  {
+   "id": "atraxa",
+   "type": "Character",
+   "name": "Atraxa"
+  },
+  {
+   "id": "new_capenna",
+   "type": "Plane",
+   "name": "New Capenna"
+  }
+ ],
+ "claims": [
+  {
+   "id": "MS001",
+   "subject": "phyrexians",
+   "predicate": "invaded",
+   "object": "strixhaven",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "moms_arcavios",
+     "quote": "Dean Nassari was flung from the rooftop; the Biblioplex buckled and broke, crashing down as the light held Quint captive in midair; the stones of Strixhaven's outlying buildings came apart like sugar cubes in tea; the portals crumpled; the Invasion Tree's branches thrashed as the sky tried to close in on itself."
+    },
+    {
+     "page": "moms_arcavios",
+     "quote": "He wanted desperately to believe that professors other than Liliana had escaped the Phyrexian stranglehold—that there were others who hadn't been overtaken and forged onto the Phyrexian intelligence—but in the dusty, lantern-lit darkness, with red sinew snaking across the walls and shadows stinking of black oil, hope was"
+    }
+   ],
+   "summary": "During the invasion of Arcavios, Strixhaven's professors are Phyrexianized and the campus is torn apart around Quint."
+  },
+  {
+   "id": "MS002",
+   "subject": "jirina_kudro",
+   "predicate": "leads",
+   "object": "ikoria",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "moms_ikoria",
+     "quote": "But they do survive, thought Jirina Kudro, walking alongside one of the wagons heaped high with relics from their life in Drannith."
+    },
+    {
+     "page": "moms_ikoria",
+     "quote": "She had asked that much of her people, the people of Drannith; if they could cross this blasted hellscape on foot, so would she."
+    }
+   ],
+   "summary": "Jirina Kudro leads the people of Drannith across Ikoria during the Phyrexian invasion.",
+   "limitation": "She leads Drannith's people, not all of Ikoria; the object is the plane for lack of a Drannith node."
+  },
+  {
+   "id": "MS003",
+   "subject": "huatli",
+   "predicate": "defended",
+   "object": "ixalan",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "moms_ixalan",
+     "quote": "To Huatli the invasion of Torrezon had always been a bad idea; under the pressing threat of the Phyrexians ringing the walls of Pachatupa, mourning the interruption of one invasion in the face of another did not inspire confidence."
+    },
+    {
+     "page": "moms_ixalan",
+     "quote": "Huatli, alone, stood atop the Winged Temple of Orazca, her hands pressed to her chest, heaving for breath, waiting."
+    }
+   ],
+   "summary": "Huatli faces the Phyrexian invasion of Ixalan from Pachatupa and Orazca."
+  },
+  {
+   "id": "MS004",
+   "subject": "gisa",
+   "predicate": "defended",
+   "object": "innistrad",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "moms_innistrad",
+     "quote": "A wave of terrible creations swarmed over the walls of Havengul to meet the Phyrexians between the river and the city."
+    },
+    {
+     "page": "moms_innistrad",
+     "quote": "Gisa whistled and Geralf laughed, watching the last of the attacking forces as they fell, screaming, before the tide of the dead."
+    }
+   ],
+   "summary": "Gisa and Geralf turn their creations against the Phyrexians at Havengul.",
+   "limitation": "Havengul's defence, not Innistrad as a whole."
+  },
+  {
+   "id": "MS005",
+   "subject": "rankle",
+   "predicate": "traveled_with",
+   "object": "torbran",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "moms_eldraine",
+     "quote": "Rankle could barely contain his excitement as it crawled off Torbran's finger and inched across the ground toward him."
+    },
+    {
+     "page": "moms_eldraine",
+     "quote": "\"How can you not weep for what Eldraine has become?\""
+    }
+   ],
+   "summary": "Rankle and Torbran share a comic quest on invaded Eldraine.",
+   "limitation": "Light-hearted story; only their companionship is graded."
+  },
+  {
+   "id": "MS006",
+   "subject": "phyrexians",
+   "predicate": "fought",
+   "object": "ral_zarek",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "moms_ravnica",
+     "quote": "I leap for a branch and ride it to the roof, ascending to join our collective and take Ral Zarek head on."
+    },
+    {
+     "page": "moms_ravnica",
+     "quote": "Ral Zarek and Tomik Vrona approach, flying close on the back of a gargoyle."
+    }
+   ],
+   "summary": "A Phyrexian narrator's collective moves to fight Ral Zarek during the invasion of Ravnica."
+  },
+  {
+   "id": "MS007",
+   "subject": "nahiri",
+   "predicate": "compleated_by",
+   "object": "phyrexians",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "moms_zendikar",
+     "quote": "Tazri has witnessed too many horrors to frighten easily, but the sight of Nahiri, compleated and embedded in the Skyclave's heart, makes her blood run cold."
+    },
+    {
+     "page": "moms_zendikar",
+     "quote": "Nahiri, the Planeswalker, has returned to Zendikar and Akiri understands in that moment with unbridled dread, the Phyrexian invasion has gained the upper hand."
+    }
+   ],
+   "summary": "Tazri and Akiri find Nahiri compleated in a Skyclave during the invasion of Zendikar."
+  },
+  {
+   "id": "MS008",
+   "subject": "atraxa",
+   "predicate": "invaded",
+   "object": "new_capenna",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "moms_capenna",
+     "quote": "There will be nothing to squabble over if Atraxa gets what she wants and completely converts New Capenna.\""
+    },
+    {
+     "page": "moms_capenna",
+     "quote": "The gilded halls of Park Heights were now tarnished and dim."
+    }
+   ],
+   "summary": "Atraxa leads the conversion of New Capenna; Park Heights falls.",
+   "limitation": "Stated by characters in dialogue."
+  }
+ ],
+ "remaining": [
+  "One claim per side story; the eight invasion fronts are only lightly modelled",
+  "Dina, Killian, Akiri and the Capenna families are mentioned in quotes but not graded"
+ ]
+}

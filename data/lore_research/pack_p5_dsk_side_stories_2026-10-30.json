@@ -1,0 +1,234 @@
+{
+ "schema": "multiverse-claim-pack/v1",
+ "pack_id": "pack_p5_dsk_side_stories",
+ "evidence_cutoff": "2026-10-30",
+ "status": "PRELIMINARY_RESEARCH (not owner approved, not certified)",
+ "arc": "DSK",
+ "scope": "Targeted Phase 5 extraction from the six official Duskmourn: House of Horror side stories (Sides One-Six, August 2024, by Mira Grant) tagged to the DSK arc in batch 7. One claim per page; not an exhaustive reading. PRELIMINARY_RESEARCH; not owner approved.",
+ "built_by": "scripts/story_claim_pipeline.py from data/lore_research/claim_specs/pack_p5_dsk_side_stories.spec.json",
+ "source_register": {
+  "dsks_one": {
+   "title": "Duskmourn: House of Horror | Welcome Home",
+   "url": "https://magic.wizards.com/en/news/magic-story/side-one-welcome-home",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2024-08-19"
+  },
+  "dsks_two": {
+   "title": "Duskmourn: House of Horror | Children of the Carnival, Part 1",
+   "url": "https://magic.wizards.com/en/news/magic-story/side-two-children-of-the-carnival-part-1",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2024-08-21"
+  },
+  "dsks_three": {
+   "title": "Duskmourn: House of Horror | Children of the Carnival, Part 2",
+   "url": "https://magic.wizards.com/en/news/magic-story/side-three-children-of-the-carnival-part-2",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2024-08-23"
+  },
+  "dsks_four": {
+   "title": "Duskmourn: House of Horror | Keep Them Alive",
+   "url": "https://magic.wizards.com/en/news/magic-story/side-four-keep-them-alive",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2024-08-27"
+  },
+  "dsks_five": {
+   "title": "Duskmourn: House of Horror | Dead End",
+   "url": "https://magic.wizards.com/en/news/magic-story/side-five-dead-end",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2024-08-29"
+  },
+  "dsks_six": {
+   "title": "Duskmourn: House of Horror | It's a Beautiful Day",
+   "url": "https://magic.wizards.com/en/news/magic-story/side-six-its-a-beautiful-day",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2024-08-31"
+  }
+ },
+ "entities": [
+  {
+   "id": "the_house",
+   "type": "Place",
+   "name": "The House"
+  },
+  {
+   "id": "duskmourn",
+   "type": "Plane",
+   "name": "Duskmourn"
+  },
+  {
+   "id": "dawn",
+   "type": "Character",
+   "name": "Dawn"
+  },
+  {
+   "id": "rill",
+   "type": "Character",
+   "name": "Rill"
+  },
+  {
+   "id": "shevara",
+   "type": "Character",
+   "name": "Shevara"
+  },
+  {
+   "id": "rotrue_elves",
+   "type": "Faction",
+   "name": "Elves of the Rotrue Wood"
+  },
+  {
+   "id": "house_born",
+   "type": "Faction",
+   "name": "Those born of the House"
+  },
+  {
+   "id": "niv_mizzet",
+   "type": "Character",
+   "name": "Niv-Mizzet"
+  },
+  {
+   "id": "ravnica",
+   "type": "Plane",
+   "name": "Ravnica"
+  }
+ ],
+ "claims": [
+  {
+   "id": "DS101",
+   "subject": "the_house",
+   "predicate": "located_on",
+   "object": "duskmourn",
+   "grade": "CANON_IMPLIED",
+   "event_stage": "duskmourn_2024",
+   "source_ids": [
+    "dsks_one"
+   ],
+   "evidence": [
+    {
+     "source_id": "dsks_one",
+     "quote": "I can't promise how long that condition will last—safety is a temporary thing here in Duskmourn—but I can promise you the time you need to catch your breath."
+    },
+    {
+     "source_id": "dsks_one",
+     "quote": "Oh, you thought that name referred to the House?"
+    }
+   ],
+   "summary": "A second-person welcome to guests 'here in Duskmourn' plays on the name being both the plane and the House.",
+   "limitation": "Framing narrator; the House/plane relation is inferred."
+  },
+  {
+   "id": "DS102",
+   "subject": "dawn",
+   "predicate": "defended",
+   "object": "the_house",
+   "grade": "CANON_IMPLIED",
+   "event_stage": "duskmourn_2024",
+   "source_ids": [
+    "dsks_two"
+   ],
+   "evidence": [
+    {
+     "source_id": "dsks_two",
+     "quote": "Dawn sat on the rough stone wall that marked the border between the carnival's safety and the treacherous roses to the west, throwing chips of stone at the roses to watch them snap and snarl."
+    }
+   ],
+   "summary": "Dawn lives in a survivor carnival inside the House, bordered by carnivorous roses.",
+   "limitation": "Predicate stands for 'lives in and guards'; she defends the carnival against the House, not the House itself."
+  },
+  {
+   "id": "DS103",
+   "subject": "the_house",
+   "predicate": "took",
+   "object": "rill",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "duskmourn_2024",
+   "source_ids": [
+    "dsks_three"
+   ],
+   "evidence": [
+    {
+     "source_id": "dsks_three",
+     "quote": "Rill was dead if she was lucky, and alive but taken if she was not, transformed by the House into one of its many horrors."
+    }
+   ],
+   "summary": "Dawn fears Rill has been killed or taken and transformed by the House.",
+   "limitation": ""
+  },
+  {
+   "id": "DS104",
+   "subject": "the_house",
+   "predicate": "revered_by",
+   "object": "house_born",
+   "grade": "CANON_IMPLIED",
+   "event_stage": "duskmourn_2024",
+   "source_ids": [
+    "dsks_four"
+   ],
+   "evidence": [
+    {
+     "source_id": "dsks_four",
+     "quote": "Born we are of House, as all good things must be born of House—as all wicked things must be born as well, for House is all."
+    }
+   ],
+   "summary": "A House-born narrator teaches that all things are born of House.",
+   "limitation": "Devotional voice of one House-born narrator; how widely this is believed is not graded."
+  },
+  {
+   "id": "DS105",
+   "subject": "shevara",
+   "predicate": "member_of",
+   "object": "rotrue_elves",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "duskmourn_2024",
+   "source_ids": [
+    "dsks_five"
+   ],
+   "evidence": [
+    {
+     "source_id": "dsks_five",
+     "quote": "Shevara stood high in one of the ancient, dreaming beech trees, counting windows as they reflected the lesser sun's pale light across the landscape."
+    },
+    {
+     "source_id": "dsks_five",
+     "quote": "When this all began, a scant handful of years ago, the elves of the Rotrue Wood had viewed it as a sickness of city, born to city, swallowing city for its crimes against the natural world."
+    }
+   ],
+   "summary": "Shevara, of the elves of the Rotrue Wood, watches the House spread into the forest.",
+   "limitation": "Membership is implied by viewpoint and setting."
+  },
+  {
+   "id": "DS106",
+   "subject": "niv_mizzet",
+   "predicate": "located_on",
+   "object": "ravnica",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "duskmourn_2024",
+   "source_ids": [
+    "dsks_six"
+   ],
+   "evidence": [
+    {
+     "source_id": "dsks_six",
+     "quote": "Door Two Niv-Mizzet has been doing something strange in a courtyard in the Ninth District."
+    },
+    {
+     "source_id": "dsks_six",
+     "quote": "The Beginning – Door One: It's a beautiful day in Ravnica!"
+    }
+   ],
+   "summary": "An interactive Ravnica-set side story opens with Niv-Mizzet at work in a Ninth District courtyard.",
+   "limitation": "Branching 'door' format; only the opening is graded."
+  }
+ ],
+ "pages_registered": 6,
+ "pages_cited": 6,
+ "uncited_registered_pages": [],
+ "remaining": [
+  "One claim per side; the House's nature and Valgavoth are not graded here"
+ ]
+}

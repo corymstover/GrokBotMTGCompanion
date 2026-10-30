@@ -1,0 +1,357 @@
+{
+ "schema": "multiverse-claim-pack/v1",
+ "pack_id": "pack_p5_mom_side_stories",
+ "evidence_cutoff": "2026-10-30",
+ "status": "PRELIMINARY_RESEARCH (not owner approved, not certified)",
+ "arc": "MOM",
+ "scope": "Targeted Phase 5 extraction from the eight official March of the Machine plane side stories (March 2023) tagged to the MOM arc in batch 7. One claim per page; not an exhaustive reading. PRELIMINARY_RESEARCH; not owner approved.",
+ "built_by": "scripts/story_claim_pipeline.py from data/lore_research/claim_specs/pack_p5_mom_side_stories.spec.json",
+ "source_register": {
+  "moms_arcavios": {
+   "title": "March of the Machine | Arcavios: A Radiant Heart",
+   "url": "https://magic.wizards.com/en/news/magic-story/a-radiant-heart",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2023-03-20"
+  },
+  "moms_ikoria": {
+   "title": "March of the Machine | Ikoria: Survival of the Fittest",
+   "url": "https://magic.wizards.com/en/news/magic-story/survival-of-the-fittest",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2023-03-20"
+  },
+  "moms_ixalan": {
+   "title": "March of the Machine | Ixalan: Three Hundred Steps under the Sun",
+   "url": "https://magic.wizards.com/en/news/magic-story/three-hundred-steps-under-the-sun",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2023-03-21"
+  },
+  "moms_innistrad": {
+   "title": "March of the Machine | Innistrad: Family Game Night",
+   "url": "https://magic.wizards.com/en/news/magic-story/family-game-night",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2023-03-22"
+  },
+  "moms_eldraine": {
+   "title": "March of the Machine | Eldraine: The Adventures of Rankle, Master of Love",
+   "url": "https://magic.wizards.com/en/news/magic-story/the-adventures-of-rankle-master-of-love",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2023-03-22"
+  },
+  "moms_ravnica": {
+   "title": "March of the Machine | Ravnica: One and the Same",
+   "url": "https://magic.wizards.com/en/news/magic-story/one-and-the-same",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2023-03-24"
+  },
+  "moms_zendikar": {
+   "title": "March of the Machine | Zendikar: Battles in the Field and in the Mind",
+   "url": "https://magic.wizards.com/en/news/magic-story/battles-in-the-field-and-in-the-mind",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2023-03-27"
+  },
+  "moms_capenna": {
+   "title": "March of the Machine | New Capenna: The Fall of Park Heights",
+   "url": "https://magic.wizards.com/en/news/magic-story/the-fall-of-park-heights",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2023-03-27"
+  }
+ },
+ "entities": [
+  {
+   "id": "quintorius",
+   "type": "Character",
+   "name": "Quintorius"
+  },
+  {
+   "id": "strixhaven",
+   "type": "Place",
+   "name": "Strixhaven"
+  },
+  {
+   "id": "phyrexians",
+   "type": "Faction",
+   "name": "Phyrexians"
+  },
+  {
+   "id": "vivien_reid",
+   "type": "Character",
+   "name": "Vivien Reid"
+  },
+  {
+   "id": "jirina_kudro",
+   "type": "Character",
+   "name": "Jirina Kudro"
+  },
+  {
+   "id": "ikoria",
+   "type": "Plane",
+   "name": "Ikoria"
+  },
+  {
+   "id": "huatli",
+   "type": "Character",
+   "name": "Huatli"
+  },
+  {
+   "id": "ixalan",
+   "type": "Plane",
+   "name": "Ixalan"
+  },
+  {
+   "id": "gisa",
+   "type": "Character",
+   "name": "Gisa"
+  },
+  {
+   "id": "geralf",
+   "type": "Character",
+   "name": "Geralf"
+  },
+  {
+   "id": "innistrad",
+   "type": "Plane",
+   "name": "Innistrad"
+  },
+  {
+   "id": "rankle",
+   "type": "Character",
+   "name": "Rankle"
+  },
+  {
+   "id": "torbran",
+   "type": "Character",
+   "name": "Torbran"
+  },
+  {
+   "id": "ral_zarek",
+   "type": "Character",
+   "name": "Ral Zarek"
+  },
+  {
+   "id": "tomik_vrona",
+   "type": "Character",
+   "name": "Tomik Vrona"
+  },
+  {
+   "id": "nahiri",
+   "type": "Character",
+   "name": "Nahiri"
+  },
+  {
+   "id": "tazri",
+   "type": "Character",
+   "name": "Tazri"
+  },
+  {
+   "id": "atraxa",
+   "type": "Character",
+   "name": "Atraxa"
+  },
+  {
+   "id": "new_capenna",
+   "type": "Plane",
+   "name": "New Capenna"
+  }
+ ],
+ "claims": [
+  {
+   "id": "MS001",
+   "subject": "phyrexians",
+   "predicate": "invaded",
+   "object": "strixhaven",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "march_of_the_machine_2023",
+   "source_ids": [
+    "moms_arcavios"
+   ],
+   "evidence": [
+    {
+     "source_id": "moms_arcavios",
+     "quote": "Dean Nassari was flung from the rooftop; the Biblioplex buckled and broke, crashing down as the light held Quint captive in midair; the stones of Strixhaven's outlying buildings came apart like sugar cubes in tea; the portals crumpled; the Invasion Tree's branches thrashed as the sky tried to close in on itself."
+    },
+    {
+     "source_id": "moms_arcavios",
+     "quote": "He wanted desperately to believe that professors other than Liliana had escaped the Phyrexian stranglehold—that there were others who hadn't been overtaken and forged onto the Phyrexian intelligence—but in the dusty, lantern-lit darkness, with red sinew snaking across the walls and shadows stinking of black oil, hope was"
+    }
+   ],
+   "summary": "During the invasion of Arcavios, Strixhaven's professors are Phyrexianized and the campus is torn apart around Quint.",
+   "limitation": ""
+  },
+  {
+   "id": "MS002",
+   "subject": "jirina_kudro",
+   "predicate": "leads",
+   "object": "ikoria",
+   "grade": "CANON_IMPLIED",
+   "event_stage": "march_of_the_machine_2023",
+   "source_ids": [
+    "moms_ikoria"
+   ],
+   "evidence": [
+    {
+     "source_id": "moms_ikoria",
+     "quote": "But they do survive, thought Jirina Kudro, walking alongside one of the wagons heaped high with relics from their life in Drannith."
+    },
+    {
+     "source_id": "moms_ikoria",
+     "quote": "She had asked that much of her people, the people of Drannith; if they could cross this blasted hellscape on foot, so would she."
+    }
+   ],
+   "summary": "Jirina Kudro leads the people of Drannith across Ikoria during the Phyrexian invasion.",
+   "limitation": "She leads Drannith's people, not all of Ikoria; the object is the plane for lack of a Drannith node."
+  },
+  {
+   "id": "MS003",
+   "subject": "huatli",
+   "predicate": "defended",
+   "object": "ixalan",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "march_of_the_machine_2023",
+   "source_ids": [
+    "moms_ixalan"
+   ],
+   "evidence": [
+    {
+     "source_id": "moms_ixalan",
+     "quote": "To Huatli the invasion of Torrezon had always been a bad idea; under the pressing threat of the Phyrexians ringing the walls of Pachatupa, mourning the interruption of one invasion in the face of another did not inspire confidence."
+    },
+    {
+     "source_id": "moms_ixalan",
+     "quote": "Huatli, alone, stood atop the Winged Temple of Orazca, her hands pressed to her chest, heaving for breath, waiting."
+    }
+   ],
+   "summary": "Huatli faces the Phyrexian invasion of Ixalan from Pachatupa and Orazca.",
+   "limitation": ""
+  },
+  {
+   "id": "MS004",
+   "subject": "gisa",
+   "predicate": "defended",
+   "object": "innistrad",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "march_of_the_machine_2023",
+   "source_ids": [
+    "moms_innistrad"
+   ],
+   "evidence": [
+    {
+     "source_id": "moms_innistrad",
+     "quote": "A wave of terrible creations swarmed over the walls of Havengul to meet the Phyrexians between the river and the city."
+    },
+    {
+     "source_id": "moms_innistrad",
+     "quote": "Gisa whistled and Geralf laughed, watching the last of the attacking forces as they fell, screaming, before the tide of the dead."
+    }
+   ],
+   "summary": "Gisa and Geralf turn their creations against the Phyrexians at Havengul.",
+   "limitation": "Havengul's defence, not Innistrad as a whole."
+  },
+  {
+   "id": "MS005",
+   "subject": "rankle",
+   "predicate": "traveled_with",
+   "object": "torbran",
+   "grade": "CANON_IMPLIED",
+   "event_stage": "march_of_the_machine_2023",
+   "source_ids": [
+    "moms_eldraine"
+   ],
+   "evidence": [
+    {
+     "source_id": "moms_eldraine",
+     "quote": "Rankle could barely contain his excitement as it crawled off Torbran's finger and inched across the ground toward him."
+    },
+    {
+     "source_id": "moms_eldraine",
+     "quote": "\"How can you not weep for what Eldraine has become?\""
+    }
+   ],
+   "summary": "Rankle and Torbran share a comic quest on invaded Eldraine.",
+   "limitation": "Light-hearted story; only their companionship is graded."
+  },
+  {
+   "id": "MS006",
+   "subject": "phyrexians",
+   "predicate": "fought",
+   "object": "ral_zarek",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "march_of_the_machine_2023",
+   "source_ids": [
+    "moms_ravnica"
+   ],
+   "evidence": [
+    {
+     "source_id": "moms_ravnica",
+     "quote": "I leap for a branch and ride it to the roof, ascending to join our collective and take Ral Zarek head on."
+    },
+    {
+     "source_id": "moms_ravnica",
+     "quote": "Ral Zarek and Tomik Vrona approach, flying close on the back of a gargoyle."
+    }
+   ],
+   "summary": "A Phyrexian narrator's collective moves to fight Ral Zarek during the invasion of Ravnica.",
+   "limitation": ""
+  },
+  {
+   "id": "MS007",
+   "subject": "nahiri",
+   "predicate": "compleated_by",
+   "object": "phyrexians",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "march_of_the_machine_2023",
+   "source_ids": [
+    "moms_zendikar"
+   ],
+   "evidence": [
+    {
+     "source_id": "moms_zendikar",
+     "quote": "Tazri has witnessed too many horrors to frighten easily, but the sight of Nahiri, compleated and embedded in the Skyclave's heart, makes her blood run cold."
+    },
+    {
+     "source_id": "moms_zendikar",
+     "quote": "Nahiri, the Planeswalker, has returned to Zendikar and Akiri understands in that moment with unbridled dread, the Phyrexian invasion has gained the upper hand."
+    }
+   ],
+   "summary": "Tazri and Akiri find Nahiri compleated in a Skyclave during the invasion of Zendikar.",
+   "limitation": ""
+  },
+  {
+   "id": "MS008",
+   "subject": "atraxa",
+   "predicate": "invaded",
+   "object": "new_capenna",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "march_of_the_machine_2023",
+   "source_ids": [
+    "moms_capenna"
+   ],
+   "evidence": [
+    {
+     "source_id": "moms_capenna",
+     "quote": "There will be nothing to squabble over if Atraxa gets what she wants and completely converts New Capenna.\""
+    },
+    {
+     "source_id": "moms_capenna",
+     "quote": "The gilded halls of Park Heights were now tarnished and dim."
+    }
+   ],
+   "summary": "Atraxa leads the conversion of New Capenna; Park Heights falls.",
+   "limitation": "Stated by characters in dialogue."
+  }
+ ],
+ "pages_registered": 8,
+ "pages_cited": 8,
+ "uncited_registered_pages": [],
+ "remaining": [
+  "One claim per side story; the eight invasion fronts are only lightly modelled",
+  "Dina, Killian, Akiri and the Capenna families are mentioned in quotes but not graded"
+ ]
+}

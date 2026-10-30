@@ -1,0 +1,150 @@
+{
+ "pack_id": "pack_p5_dmu_side_stories",
+ "arc": "DMU",
+ "event_stage": "dominaria_united_2022",
+ "scope": "Targeted Phase 5 extraction from four official Dominaria United side stories (August 2022) tagged to the DMU arc in batch 7. One claim per page; not an exhaustive reading. PRELIMINARY_RESEARCH; not owner approved.",
+ "pages": {
+  "dmus_home": "homecoming-2022-08-12",
+  "dmus_ulf": "education-ulf-2022-08-15",
+  "dmus_squee": "death-and-salvation-2022-08-16",
+  "dmus_shards": "shards-nightmares-2022-08-17"
+ },
+ "entities": [
+  {
+   "id": "liliana_vess",
+   "type": "Character",
+   "name": "Liliana Vess"
+  },
+  {
+   "id": "strixhaven",
+   "type": "Place",
+   "name": "Strixhaven"
+  },
+  {
+   "id": "elas_il_kor",
+   "type": "Character",
+   "name": "Elas il-Kor"
+  },
+  {
+   "id": "phyrexians",
+   "type": "Faction",
+   "name": "Phyrexians"
+  },
+  {
+   "id": "geyadrone_dihada",
+   "type": "Character",
+   "name": "Geyadrone Dihada"
+  },
+  {
+   "id": "sol_kanar",
+   "type": "Character",
+   "name": "Sol'kanar"
+  },
+  {
+   "id": "squee",
+   "type": "Character",
+   "name": "Squee"
+  },
+  {
+   "id": "weatherlight",
+   "type": "Object",
+   "name": "Weatherlight"
+  },
+  {
+   "id": "braids",
+   "type": "Character",
+   "name": "Braids"
+  },
+  {
+   "id": "shanna",
+   "type": "Character",
+   "name": "Shanna"
+  }
+ ],
+ "claims": [
+  {
+   "id": "DU101",
+   "subject": "liliana_vess",
+   "predicate": "taught_at",
+   "object": "strixhaven",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "dmus_home",
+     "quote": "After the third anxious Witherbloom second-year exploded a pest in an impressive but useless spray of magic, Liliana dismissed her principles of necromancy class, telling them to go work on their essays before they disappointed another teacher as badly as they had disappointed her."
+    },
+    {
+     "page": "dmus_home",
+     "quote": "Liliana Vess, Mistress of Death Itself, could fade away, and Professor Vess could teach forever."
+    }
+   ],
+   "summary": "Liliana teaches necromancy to Witherbloom students as Professor Vess.",
+   "limitation": "Strixhaven is inferred from Witherbloom; the campus is not named in these lines."
+  },
+  {
+   "id": "DU102",
+   "subject": "elas_il_kor",
+   "predicate": "allied_with",
+   "object": "phyrexians",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "dmus_home",
+     "quote": "Elas il-Kor had eight terrors of Phyrexia's own design."
+    }
+   ],
+   "summary": "Elas il-Kor commands creatures of Phyrexian design.",
+   "limitation": "Alliance inferred from her Phyrexian creatures."
+  },
+  {
+   "id": "DU103",
+   "subject": "geyadrone_dihada",
+   "predicate": "cursed",
+   "object": "sol_kanar",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "dmus_ulf",
+     "quote": "Sol'kanar was once a maro-sorcerer, a forest guardian, until he was cursed by the Planeswalker Geyadrone Dihada."
+    },
+    {
+     "page": "dmus_ulf",
+     "quote": "As Dihada's demonic servant, Sol'kanar had wielded the legendary Blackblade against Dakkon himself, as well Carth the Lion, the founder of House Carthalion."
+    }
+   ],
+   "summary": "Dihada cursed Sol'kanar, who then served her and wielded the Blackblade."
+  },
+  {
+   "id": "DU104",
+   "subject": "squee",
+   "predicate": "crewed",
+   "object": "weatherlight",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "dmus_squee",
+     "quote": "Granted immortality during his time as a cabin boy aboard the skyship Weatherlight, Squee had helped some of Dominaria's greatest heroes repel invading Phyrexian forces nearly four hundred years ago."
+    }
+   ],
+   "summary": "Squee was a cabin boy on the Weatherlight and helped repel the Phyrexian invasion about four hundred years earlier."
+  },
+  {
+   "id": "DU105",
+   "subject": "shanna",
+   "predicate": "aided",
+   "object": "braids",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "dmus_shards",
+     "quote": "She didn't pretend to understand how that chaotic magic worked, how Braids could split herself into two separate beings when even something as simple as a worm couldn't, or why a being like Braids needed Shanna's help to swallow a wayward copy of herself."
+    }
+   ],
+   "summary": "Shanna helps Braids recapture a split-off copy of herself."
+  }
+ ],
+ "remaining": [
+  "One claim per side story; the Weatherlight crew, Sedgemoor and the Ulf plot are lightly modelled",
+  "Faith in Birds (2022-08-17) stays untagged pending evidence of its arc"
+ ]
+}

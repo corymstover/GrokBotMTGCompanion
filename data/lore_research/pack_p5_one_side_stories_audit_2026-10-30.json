@@ -1,0 +1,80 @@
+{
+ "schema": "story-claim-pipeline-audit/v1",
+ "pack": "data/lore_research/pack_p5_one_side_stories_2026-10-30.json",
+ "pack_status": "PRELIMINARY_RESEARCH (not owner approved, not certified)",
+ "arc": "ONE",
+ "claims": 6,
+ "entities": 10,
+ "sources": 5,
+ "grades": {
+  "CANON_CONFIRMED": 4,
+  "CANON_IMPLIED": 2
+ },
+ "quotes": 10,
+ "quotes_verbatim": 10,
+ "quote_rows": [
+  {
+   "claim": "ON001",
+   "source_id": "one6_hollow",
+   "quote_sha256": "d8b175f8c7e66471b81d06274657a9774d6bc817df20f017a6eda86cff6f97ef",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "ON001",
+   "source_id": "one6_hollow",
+   "quote_sha256": "dfa8b55269b6bf8be0b9535303110beabf20d23ce0b45eb6b78b3a2079e6320e",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "ON002",
+   "source_id": "one6_cinders",
+   "quote_sha256": "2d2af7cce2b036fb6e3f5f68734f8e6e35a34a9248b673b4438e904ea4e248d6",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "ON002",
+   "source_id": "one6_cinders",
+   "quote_sha256": "55c182d40e3374e09e0a0d9532e6328848112d69ee8f60733cf0af9c0824b118",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "ON003",
+   "source_id": "one6_hard",
+   "quote_sha256": "0c27153d9c3034a47e8db5c6ff1e2d4911425a3127f7d65c0d6f8de6c76f6c9e",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "ON004",
+   "source_id": "one6_hard",
+   "quote_sha256": "da7b437b81d4091511ddd9223e91d11f00153f5a79848d3eb9d84daf9ff6f2cd",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "ON005",
+   "source_id": "one6_parts",
+   "quote_sha256": "55779eecc7c5c0339709604dd34245163eb5dddbe5a85dfe05754fb55b178243",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "ON005",
+   "source_id": "one6_parts",
+   "quote_sha256": "4cc90d83626ca7d4f024ab2d85253eb62d76585affcf6e5b05d06b9b045b9dc9",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "ON006",
+   "source_id": "one6_alone",
+   "quote_sha256": "d1ca59ab08d54a42cf03d6bedc3cf4f0fe3d9a6e70d8039eaf0fe6cb33864c5e",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "ON006",
+   "source_id": "one6_alone",
+   "quote_sha256": "455d4ff669e821883f2938b6fd0cf239bc8343efeafe75a4d902793b705001e6",
+   "status": "VERBATIM"
+  }
+ ],
+ "problems": [],
+ "note": "Verbatim-quote audit against cached official Wizards story text. Research evidence only: not owner approval, not certification, not an exhaustive reading.",
+ "content_sha256": "a51d6ad78c473e15bd316a34cf8cba3e0c51ec7dd5a3550eb9240e990b88df73"
+}

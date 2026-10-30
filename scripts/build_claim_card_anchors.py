@@ -39,6 +39,8 @@ OUT = ROOT / "data/lore_research/claim_card_anchors_2026-10-30.json"
 NAMES = N.OUT
 ATLAS = ROOT / "data/story_atlas/story_art_captions_2026-10-30.json"
 # Episode packs whose official story was published for exactly one card set.
+# Side-story packs whose participants have no printing in the set (MOM, DSK side stories) are
+# deliberately left out: PRINTED_IN_STORY_SET would be 0 and nothing would be gained.
 STORY_SETS = {
     "pack_c2_return_to_dominaria_2026-10-30.json": ["dom"],
     "pack_c3_assault_on_new_phyrexia_2026-10-30.json": ["one"],
@@ -72,6 +74,11 @@ STORY_SETS = {
     "pack_p5_tarkir_dragonstorm_2026-10-30.json": ["tdm"],
     "pack_p5_lorwyn_eclipsed_2026-10-30.json": ["ecl"],
     "pack_p5_brothers_war_2026-10-30.json": ["bro"],
+    "pack_p5_one_side_stories_2026-10-30.json": ["one"],
+    "pack_p5_otj_side_stories_2026-10-30.json": ["otj"],
+    "pack_p5_mkm_epilogue_2026-10-30.json": ["mkm"],
+    "pack_p5_snc_side_stories_2026-10-30.json": ["snc"],
+    "pack_p5_dmu_side_stories_2026-10-30.json": ["dmu"],
 }
 TIERS = ["ART_IN_CITED_SOURCE", "PRINTED_IN_STORY_SET", "NAMED_PARTICIPANT"]
 

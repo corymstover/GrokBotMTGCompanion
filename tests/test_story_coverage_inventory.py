@@ -30,7 +30,7 @@ class StoryCoverageInventory(unittest.TestCase):
 
     def test_known_coverage(self):
         arcs = {a["arc"]: a for a in self.d["arcs"]}
-        self.assertEqual(arcs["MOM"]["cited_pages"], 10)  # Pack C4 cites all 10 main-story episodes
+        self.assertGreaterEqual(arcs["MOM"]["cited_pages"], 10)  # Pack C4 cites all 10 main-story episodes
         self.assertEqual(arcs["ONE"]["status"], "ALL_PAGES_CITED")
         # Phase 5 bulk pipeline packs (batch 5): KLD/AER, XLN/RIX and AKH/HOU are started
         self.assertEqual(arcs["KLD/AER"]["cited_pages"], 14)
@@ -40,10 +40,10 @@ class StoryCoverageInventory(unittest.TestCase):
         self.assertEqual(arcs["SNC"]["status"], "ALL_PAGES_CITED")
         # Batch 6b: RF, WOE and MKM packs
         self.assertEqual(arcs["WOE"]["status"], "ALL_PAGES_CITED")
-        self.assertEqual(arcs["MKM"]["cited_pages"], 10)
+        self.assertGreaterEqual(arcs["MKM"]["cited_pages"], 10)
         # Batch 6c: BLB and DSK packs
         self.assertEqual(arcs["BLB"]["cited_pages"], 6)
-        self.assertEqual(arcs["DSK"]["cited_pages"], 6)
+        self.assertGreaterEqual(arcs["DSK"]["cited_pages"], 6)
         self.assertEqual(arcs["OTJ"]["status"], "ALL_PAGES_CITED")
         self.assertEqual(arcs["LCI"]["cited_pages"], 7)
         self.assertEqual(arcs["DFT"]["cited_pages"], 6)
@@ -58,12 +58,19 @@ class StoryCoverageInventory(unittest.TestCase):
         # Batch 7b: SOS (legends, guide, episode 6), SOI/EMN
         # Batch 7 (overnight run batch 7): bulk fills; SOI/EMN, BFZ/OGW and EOE now cite every page
         self.assertEqual(arcs["SOI/EMN"]["status"], "ALL_PAGES_CITED")
-        self.assertEqual(arcs["BFZ/OGW"]["status"], "ALL_PAGES_CITED")
+        self.assertGreaterEqual(arcs["BFZ/OGW"]["cited_pages"], 19)
         self.assertEqual(arcs["EOE"]["status"], "ALL_PAGES_CITED")
         self.assertEqual(arcs["AKH/HOU"]["status"], "ALL_PAGES_CITED")
         self.assertEqual(arcs["TDM"]["status"], "ALL_PAGES_CITED")
         for arc in ("SOS", "ECL", "RF", "BRO"):
             self.assertEqual(arcs[arc]["status"], "ALL_PAGES_CITED", arc)
+        # Batch 7 triage: 78 untagged pages tagged to arcs (BFZ/OGW gained 8 untagged 2015
+        # Zendikar side stories, so it is honestly PARTIAL again until they are packed);
+        # side-story packs bring ONE, OTJ and SNC back to every page cited.
+        for arc in ("ONE", "OTJ", "SNC"):
+            self.assertEqual(arcs[arc]["status"], "ALL_PAGES_CITED", arc)
+        self.assertEqual(self.d["totals"]["pages"], 626)
+        self.assertGreaterEqual(self.d["totals"]["cited_pages"], 330)
 
     def test_claim_total_matches_graph_packs(self):
         self.assertEqual(self.d["totals"]["claims"], sum(self.d["claims_per_pack"].values()))

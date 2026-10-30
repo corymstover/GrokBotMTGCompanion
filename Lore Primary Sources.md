@@ -24,26 +24,26 @@ schema: 2
 ## Coverage by arc
 | Arc | Status | Pages | Words | Conflicts & Arcs |
 |---|---|---|---|---|
-| KHM | ✅ | 8 | 40,733 | [Kaldheim (2021)](Conflicts%20%26%20Arcs.md#kaldheim-2021) |
-| STX | ✅ | 6 | 28,397 | [Strixhaven (2021)](Conflicts%20%26%20Arcs.md#strixhaven-2021) |
-| MID/VOW | ✅ | 11 | 49,664 | [Innistrad: Midnight Hunt & Crimson Vow (2021)](Conflicts%20%26%20Arcs.md#innistrad-midnight-hunt--crimson-vow-2021) |
-| NEO | ✅ | 6 | 32,988 | [Kamigawa: Neon Dynasty (2022)](Conflicts%20%26%20Arcs.md#kamigawa-neon-dynasty-2022) |
-| SNC | ✅ | 6 | 33,587 | [Streets of New Capenna (2022)](Conflicts%20%26%20Arcs.md#streets-of-new-capenna-2022) |
-| DMU | ✅ | 6 | 34,844 | [Dominaria United (2022)](Conflicts%20%26%20Arcs.md#dominaria-united-2022) |
-| ONE | ✅ | 6 | 30,154 | [Phyrexia: All Will Be One (2023)](Conflicts%20%26%20Arcs.md#phyrexia-all-will-be-one-2023) |
-| MOM | ✅ | 11 | 52,539 | [March of the Machine (2023)](Conflicts%20%26%20Arcs.md#march-of-the-machine-2023) |
+| KHM | ✅ | 13 | 68,234 | [Kaldheim (2021)](Conflicts%20%26%20Arcs.md#kaldheim-2021) |
+| STX | ✅ | 11 | 59,888 | [Strixhaven (2021)](Conflicts%20%26%20Arcs.md#strixhaven-2021) |
+| MID/VOW | ✅ | 19 | 96,597 | [Innistrad: Midnight Hunt & Crimson Vow (2021)](Conflicts%20%26%20Arcs.md#innistrad-midnight-hunt--crimson-vow-2021) |
+| NEO | ✅ | 10 | 63,879 | [Kamigawa: Neon Dynasty (2022)](Conflicts%20%26%20Arcs.md#kamigawa-neon-dynasty-2022) |
+| SNC | ✅ | 11 | 65,535 | [Streets of New Capenna (2022)](Conflicts%20%26%20Arcs.md#streets-of-new-capenna-2022) |
+| DMU | ✅ | 10 | 58,393 | [Dominaria United (2022)](Conflicts%20%26%20Arcs.md#dominaria-united-2022) |
+| ONE | ✅ | 11 | 62,745 | [Phyrexia: All Will Be One (2023)](Conflicts%20%26%20Arcs.md#phyrexia-all-will-be-one-2023) |
+| MOM | ✅ | 19 | 101,258 | [March of the Machine (2023)](Conflicts%20%26%20Arcs.md#march-of-the-machine-2023) |
 | WOE | ✅ | 5 | 28,877 | [Wilds of Eldraine (2023)](Conflicts%20%26%20Arcs.md#wilds-of-eldraine-2023) |
-| MKM | ✅ | 11 | 56,424 | [Murders at Karlov Manor (2024)](Conflicts%20%26%20Arcs.md#murders-at-karlov-manor-2024) |
-| OTJ | ✅ | 8 | 42,237 | [Outlaws of Thunder Junction (2024)](Conflicts%20%26%20Arcs.md#outlaws-of-thunder-junction-2024) |
+| MKM | ✅ | 12 | 57,433 | [Murders at Karlov Manor (2024)](Conflicts%20%26%20Arcs.md#murders-at-karlov-manor-2024) |
+| OTJ | ✅ | 14 | 65,905 | [Outlaws of Thunder Junction (2024)](Conflicts%20%26%20Arcs.md#outlaws-of-thunder-junction-2024) |
 | BLB | ✅ | 8 | 39,057 | [Bloomburrow (2024)](Conflicts%20%26%20Arcs.md#bloomburrow-2024) |
-| DSK | ✅ | 7 | 38,838 | [Duskmourn: House of Horror (2024)](Conflicts%20%26%20Arcs.md#duskmourn-house-of-horror-2024) |
+| DSK | ✅ | 13 | 54,184 | [Duskmourn: House of Horror (2024)](Conflicts%20%26%20Arcs.md#duskmourn-house-of-horror-2024) |
 | DFT | ✅ | 10 | 56,994 | [Aetherdrift (2025)](Conflicts%20%26%20Arcs.md#aetherdrift-2025) |
 | TDM | ✅ | 14 | 74,271 | [Tarkir: Dragonstorm (2025)](Conflicts%20%26%20Arcs.md#tarkir-dragonstorm-2025) |
 | EOE | ✅ | 18 | 121,878 | [Edge of Eternities (2025)](Conflicts%20%26%20Arcs.md#edge-of-eternities-2025) |
 | ECL | ✅ | 12 | 65,794 | [Lorwyn Eclipsed (2025–26)](Conflicts%20%26%20Arcs.md#lorwyn-eclipsed-202526) |
 | SOS | ✅ | 14 | 75,885 | [Secrets of Strixhaven (2026)](Conflicts%20%26%20Arcs.md#secrets-of-strixhaven-2026) |
 | RF | ✅ | 12 | 75,982 | [Jace's Echoverse (Reality Fracture)](Conflicts%20%26%20Arcs.md#jaces-echoverse-reality-fracture) |
-| THS | ✅ | 6 | 14,418 | [Theros: Xenagos's ascension & Elspeth's fall](Conflicts%20%26%20Arcs.md#theros-xenagoss-ascension--elspeths-fall) |
+| THS | ✅ | 19 | 51,290 | [Theros: Xenagos's ascension & Elspeth's fall](Conflicts%20%26%20Arcs.md#theros-xenagoss-ascension--elspeths-fall) |
 | KLD/AER | ✅ | 17 | 110,994 | [Kaladesh revolt](Conflicts%20%26%20Arcs.md#kaladesh-revolt) |
 | AKH/HOU | ✅ | 16 | 78,651 | [Amonkhet & the God-Pharaoh](Conflicts%20%26%20Arcs.md#amonkhet--the-god-pharaoh) |
 | XLN/RIX | ✅ | 17 | 81,346 | [Ixalan & the Immortal Sun](Conflicts%20%26%20Arcs.md#ixalan--the-immortal-sun) |
@@ -53,10 +53,10 @@ schema: 2
 | BRO | ✅ | 10 | 75,416 | [The Brothers' War frame story (2022)](Conflicts%20%26%20Arcs.md#the-brothers-war-frame-story-2022) |
 | MAT | ✅ | 2 | 13,102 | [March of the Machine: The Aftermath (2023)](Conflicts%20%26%20Arcs.md#march-of-the-machine-the-aftermath-2023) |
 | LCI | ✅ | 8 | 68,074 | [The Lost Caverns of Ixalan (2023)](Conflicts%20%26%20Arcs.md#the-lost-caverns-of-ixalan-2023) |
-| BFZ/OGW | ✅ | 19 | 87,311 | [Eldrazi Awaken / Battle for Zendikar / Gatewatch](Conflicts%20%26%20Arcs.md#eldrazi-awaken--battle-for-zendikar--gatewatch) |
+| BFZ/OGW | ✅ | 27 | 134,135 | [Eldrazi Awaken / Battle for Zendikar / Gatewatch](Conflicts%20%26%20Arcs.md#eldrazi-awaken--battle-for-zendikar--gatewatch) |
 | SOI/EMN | ✅ | 21 | 116,748 | [Innistrad & Emrakul](Conflicts%20%26%20Arcs.md#innistrad--emrakul) |
 | DOM/WAR | ✅ | 18 | 109,846 | [Return to Dominaria & War of the Spark](Conflicts%20%26%20Arcs.md#return-to-dominaria--war-of-the-spark) |
-| other (older arcs, profiles, features) | 📚 | 305 | 1,003,791 | — |
+| other (older arcs, profiles, features) | 📚 | 227 | 606,449 | — |
 
 ## Planeswalker's Guides
 | Date | Title | Words |

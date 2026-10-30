@@ -737,6 +737,35 @@
    ]
   },
   {
+   "entity": "braids",
+   "entity_type": "Character",
+   "entity_name": "Braids",
+   "aliases": [
+    "Braids"
+   ],
+   "pack": "pack_p5_dmu_side_stories_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Braids, Arisen Nightmare",
+     "oracle_id": "e0445c80-fa53-4c3e-881e-940e9fce7f57",
+     "type_line": "Legendary Creature — Nightmare",
+     "scryfall_uri": "https://scryfall.com/card/eoc/82/braids-arisen-nightmare"
+    },
+    {
+     "name": "Braids, Cabal Minion",
+     "oracle_id": "d85aa59b-c6aa-4b2f-885c-59d6e5e6e8b9",
+     "type_line": "Legendary Creature — Human Minion",
+     "scryfall_uri": "https://scryfall.com/card/mh2/273/braids-cabal-minion"
+    },
+    {
+     "name": "Braids, Conjurer Adept",
+     "oracle_id": "359b8f2c-831e-47d0-9267-dae79cecb63a",
+     "type_line": "Legendary Creature — Human Wizard",
+     "scryfall_uri": "https://scryfall.com/card/cmm/76/braids-conjurer-adept"
+    }
+   ]
+  },
+  {
    "entity": "brigid",
    "entity_type": "Character",
    "entity_name": "Brigid",
@@ -1223,6 +1252,23 @@
    ]
   },
   {
+   "entity": "elas_il_kor",
+   "entity_type": "Character",
+   "entity_name": "Elas il-Kor",
+   "aliases": [
+    "Elas il-Kor"
+   ],
+   "pack": "pack_p5_dmu_side_stories_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Elas il-Kor, Sadistic Pilgrim",
+     "oracle_id": "a4d33e21-d3fe-4d5b-903c-b75e859d6f7f",
+     "type_line": "Legendary Creature — Phyrexian Kor Cleric",
+     "scryfall_uri": "https://scryfall.com/card/dmu/198/elas-il-kor-sadistic-pilgrim"
+    }
+   ]
+  },
+  {
    "entity": "elder_dragon_wars",
    "entity_type": "Event",
    "entity_name": "Elder Dragon Wars",
@@ -1481,6 +1527,23 @@
    ]
   },
   {
+   "entity": "fortune",
+   "entity_type": "Character",
+   "entity_name": "Fortune",
+   "aliases": [
+    "Fortune"
+   ],
+   "pack": "pack_p5_otj_side_stories_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Fortune, Loyal Steed",
+     "oracle_id": "dc440b62-0bf0-4f23-9210-3550ff0a8d4d",
+     "type_line": "Legendary Creature — Beast Mount",
+     "scryfall_uri": "https://scryfall.com/card/otj/12/fortune-loyal-steed"
+    }
+   ]
+  },
+  {
    "entity": "forum_of_amity",
    "entity_type": "Place",
    "entity_name": "Forum of Amity",
@@ -1662,6 +1725,41 @@
      "oracle_id": "928d977e-cff0-4e0e-83bb-16d73a754f35",
      "type_line": "Legendary Creature — Phyrexian Praetor",
      "scryfall_uri": "https://scryfall.com/card/tdc/181/gix-yawgmoth-praetor"
+    }
+   ]
+  },
+  {
+   "entity": "glissa",
+   "entity_type": "Character",
+   "entity_name": "Glissa",
+   "aliases": [
+    "Glissa"
+   ],
+   "pack": "pack_p5_one_side_stories_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Glissa Sunseeker",
+     "oracle_id": "bf4b9330-72df-426f-820c-77e37f7e9130",
+     "type_line": "Legendary Creature — Elf Warrior",
+     "scryfall_uri": "https://scryfall.com/card/mrd/120/glissa-sunseeker"
+    },
+    {
+     "name": "Glissa Sunslayer",
+     "oracle_id": "8859a692-d107-4de2-9110-4681fc2761c7",
+     "type_line": "Legendary Creature — Phyrexian Zombie Elf",
+     "scryfall_uri": "https://scryfall.com/card/ecc/122/glissa-sunslayer"
+    },
+    {
+     "name": "Glissa, Herald of Predation",
+     "oracle_id": "9b10e0f7-9414-4769-85d7-c1cd1c74a9a6",
+     "type_line": "Legendary Creature — Phyrexian Zombie Elf",
+     "scryfall_uri": "https://scryfall.com/card/mom/226/glissa-herald-of-predation"
+    },
+    {
+     "name": "Glissa, the Traitor",
+     "oracle_id": "cafacba9-195c-44ea-ba80-3e489274759c",
+     "type_line": "Legendary Creature — Phyrexian Zombie Elf",
+     "scryfall_uri": "https://scryfall.com/card/mbs/96/glissa-the-traitor"
     }
    ]
   },
@@ -2107,6 +2205,23 @@
    ]
   },
   {
+   "entity": "jetmir",
+   "entity_type": "Character",
+   "entity_name": "Jetmir",
+   "aliases": [
+    "Jetmir"
+   ],
+   "pack": "pack_p5_snc_side_stories_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Jetmir, Nexus of Revels",
+     "oracle_id": "da72a4bc-ce6f-4b72-bc66-2ee33cfa87df",
+     "type_line": "Legendary Creature — Cat Demon",
+     "scryfall_uri": "https://scryfall.com/card/snc/193/jetmir-nexus-of-revels"
+    }
+   ]
+  },
+  {
    "entity": "jhoira",
    "entity_type": "Character",
    "entity_name": "Jhoira",
@@ -2167,6 +2282,23 @@
      "oracle_id": "f5daadc1-98ff-480a-82bb-fe7bfaa7b60e",
      "type_line": "Legendary Creature — Phyrexian Praetor",
      "scryfall_uri": "https://scryfall.com/card/neo/59/jin-gitaxias-progress-tyrant"
+    }
+   ]
+  },
+  {
+   "entity": "jirina_kudro",
+   "entity_type": "Character",
+   "entity_name": "Jirina Kudro",
+   "aliases": [
+    "Jirina Kudro"
+   ],
+   "pack": "pack_p5_mom_side_stories_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Jirina Kudro",
+     "oracle_id": "b122bf99-b003-452a-a854-b25597ff7ca2",
+     "type_line": "Legendary Creature — Human Soldier",
+     "scryfall_uri": "https://scryfall.com/card/c20/8/jirina-kudro"
     }
    ]
   },
@@ -2241,6 +2373,23 @@
      "oracle_id": "ba48e067-f4d9-45b2-ade1-71cf8cda418c",
      "type_line": "Legendary Planeswalker — Kaito",
      "scryfall_uri": "https://scryfall.com/card/neo/226/kaito-shizuki"
+    }
+   ]
+  },
+  {
+   "entity": "kamiz",
+   "entity_type": "Character",
+   "entity_name": "Kamiz",
+   "aliases": [
+    "Kamiz"
+   ],
+   "pack": "pack_p5_snc_side_stories_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Kamiz, Obscura Oculus",
+     "oracle_id": "49da6a78-f3b2-4691-975c-efbb644311f3",
+     "type_line": "Legendary Creature — Octopus Rogue",
+     "scryfall_uri": "https://scryfall.com/card/ncc/3/kamiz-obscura-oculus"
     }
    ]
   },
@@ -3375,6 +3524,23 @@
    ]
   },
   {
+   "entity": "neyali",
+   "entity_type": "Character",
+   "entity_name": "Neyali",
+   "aliases": [
+    "Neyali"
+   ],
+   "pack": "pack_p5_one_side_stories_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Neyali, Suns' Vanguard",
+     "oracle_id": "4012b400-7dcd-43d6-8806-39a3cb743d8f",
+     "type_line": "Legendary Creature — Human Rebel",
+     "scryfall_uri": "https://scryfall.com/card/onc/2/neyali-suns-vanguard"
+    }
+   ]
+  },
+  {
    "entity": "niambi",
    "entity_type": "Character",
    "entity_name": "Niambi",
@@ -3826,6 +3992,23 @@
    ]
   },
   {
+   "entity": "perrie",
+   "entity_type": "Character",
+   "entity_name": "Perrie",
+   "aliases": [
+    "Perrie"
+   ],
+   "pack": "pack_p5_snc_side_stories_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Perrie, the Pulverizer",
+     "oracle_id": "41d408dc-f6fe-45b2-b225-2ac25db9ad0f",
+     "type_line": "Legendary Creature — Rhino Soldier",
+     "scryfall_uri": "https://scryfall.com/card/ncc/5/perrie-the-pulverizer"
+    }
+   ]
+  },
+  {
    "entity": "peter",
    "entity_type": "Character",
    "entity_name": "Peter",
@@ -4037,6 +4220,23 @@
    ]
   },
   {
+   "entity": "raffine",
+   "entity_type": "Character",
+   "entity_name": "Raffine",
+   "aliases": [
+    "Raffine"
+   ],
+   "pack": "pack_p5_snc_side_stories_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Raffine, Scheming Seer",
+     "oracle_id": "9307f7e9-bcd9-41f9-88f8-0fb9700a6b12",
+     "type_line": "Legendary Creature — Sphinx Demon",
+     "scryfall_uri": "https://scryfall.com/card/snc/213/raffine-scheming-seer"
+    }
+   ]
+  },
+  {
    "entity": "rakdos",
    "entity_type": "Character",
    "entity_name": "Rakdos",
@@ -4097,6 +4297,23 @@
      "oracle_id": "0dc76b7f-6405-44a1-8c55-31fa480ff70b",
      "type_line": "Legendary Planeswalker — Ral",
      "scryfall_uri": "https://scryfall.com/card/sos/97/ral-zarek-guest-lecturer"
+    }
+   ]
+  },
+  {
+   "entity": "rankle",
+   "entity_type": "Character",
+   "entity_name": "Rankle",
+   "aliases": [
+    "Rankle"
+   ],
+   "pack": "pack_p5_mom_side_stories_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Rankle, Master of Pranks",
+     "oracle_id": "b8619990-9dc2-4fcc-bc7e-457b77cd2a8e",
+     "type_line": "Legendary Creature — Faerie Rogue",
+     "scryfall_uri": "https://scryfall.com/card/otc/148/rankle-master-of-pranks"
     }
    ]
   },
@@ -4678,6 +4895,23 @@
    ]
   },
   {
+   "entity": "sol_kanar",
+   "entity_type": "Character",
+   "entity_name": "Sol'kanar",
+   "aliases": [
+    "Sol'kanar"
+   ],
+   "pack": "pack_p5_dmu_side_stories_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Sol'kanar the Swamp King",
+     "oracle_id": "b8aac8e8-4588-4cb9-8b95-5c4abab1c48b",
+     "type_line": "Legendary Creature — Demon",
+     "scryfall_uri": "https://scryfall.com/card/dmr/200/solkanar-the-swamp-king"
+    }
+   ]
+  },
+  {
    "entity": "sorin_markov",
    "entity_type": "Character",
    "entity_name": "Sorin Markov",
@@ -4691,6 +4925,35 @@
      "oracle_id": "c151e8b7-4b28-4f03-8a81-9bf623f893d7",
      "type_line": "Legendary Planeswalker — Sorin",
      "scryfall_uri": "https://scryfall.com/card/m12/109/sorin-markov"
+    }
+   ]
+  },
+  {
+   "entity": "squee",
+   "entity_type": "Character",
+   "entity_name": "Squee",
+   "aliases": [
+    "Squee"
+   ],
+   "pack": "pack_p5_dmu_side_stories_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Squee, Dubious Monarch",
+     "oracle_id": "124a5dd7-c4f8-479c-9eb0-669aca01d045",
+     "type_line": "Legendary Creature — Goblin Noble",
+     "scryfall_uri": "https://scryfall.com/card/dmu/146/squee-dubious-monarch"
+    },
+    {
+     "name": "Squee, Goblin Nabob",
+     "oracle_id": "0ef760f4-bbec-4735-8d60-fc24d973452a",
+     "type_line": "Legendary Creature — Goblin",
+     "scryfall_uri": "https://scryfall.com/card/soc/254/squee-goblin-nabob"
+    },
+    {
+     "name": "Squee, the Immortal",
+     "oracle_id": "481fb71a-11b9-462e-a4da-ca35ffd1bd22",
+     "type_line": "Legendary Creature — Goblin",
+     "scryfall_uri": "https://scryfall.com/card/ncc/275/squee-the-immortal"
     }
    ]
   },
@@ -5244,6 +5507,23 @@
    ]
   },
   {
+   "entity": "torbran",
+   "entity_type": "Character",
+   "entity_name": "Torbran",
+   "aliases": [
+    "Torbran"
+   ],
+   "pack": "pack_p5_mom_side_stories_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Torbran, Thane of Red Fell",
+     "oracle_id": "8c3495bf-02e7-4ad9-949d-92eb3d2b662a",
+     "type_line": "Legendary Creature — Dwarf Noble",
+     "scryfall_uri": "https://scryfall.com/card/eld/147/torbran-thane-of-red-fell"
+    }
+   ]
+  },
+  {
    "entity": "tovolar",
    "entity_type": "Character",
    "entity_name": "Tovolar",
@@ -5378,6 +5658,35 @@
      "oracle_id": "b817bc56-9b4d-4c50-bafa-3c652b99578f",
      "type_line": "Legendary Creature — Eldrazi",
      "scryfall_uri": "https://scryfall.com/card/2x2/3/ulamog-the-infinite-gyre"
+    }
+   ]
+  },
+  {
+   "entity": "urabrask",
+   "entity_type": "Character",
+   "entity_name": "Urabrask",
+   "aliases": [
+    "Urabrask"
+   ],
+   "pack": "pack_p5_snc_side_stories_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Urabrask // The Great Work",
+     "oracle_id": "4b1da9aa-a30c-44b8-a10e-f9dc3fe70b6f",
+     "type_line": "Legendary Creature — Phyrexian Praetor // Enchantment — Saga",
+     "scryfall_uri": "https://scryfall.com/card/mom/169/urabrask-the-great-work"
+    },
+    {
+     "name": "Urabrask the Hidden",
+     "oracle_id": "5b2ffb53-86b7-4665-a5c7-b85b035b6c81",
+     "type_line": "Legendary Creature — Phyrexian Praetor",
+     "scryfall_uri": "https://scryfall.com/card/clb/811/urabrask-the-hidden"
+    },
+    {
+     "name": "Urabrask, Heretic Praetor",
+     "oracle_id": "3fe61a65-b1c0-4d15-b379-e4ce22c96941",
+     "type_line": "Legendary Creature — Phyrexian Praetor",
+     "scryfall_uri": "https://scryfall.com/card/snc/129/urabrask-heretic-praetor"
     }
    ]
   },
@@ -5937,6 +6246,23 @@
    ]
   },
   {
+   "entity": "yuma",
+   "entity_type": "Character",
+   "entity_name": "Yuma",
+   "aliases": [
+    "Yuma"
+   ],
+   "pack": "pack_p5_otj_side_stories_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Yuma, Proud Protector",
+     "oracle_id": "b8a0b967-3b5b-46f5-830b-5c8f1037784a",
+     "type_line": "Legendary Creature — Human Ranger",
+     "scryfall_uri": "https://scryfall.com/card/otc/4/yuma-proud-protector"
+    }
+   ]
+  },
+  {
    "entity": "zahur",
    "entity_type": "Character",
    "entity_name": "Zahur",
@@ -6052,6 +6378,7 @@
   "cruelclaw",
   "cursemute",
   "cymede",
+  "dawn",
   "dawnsire",
   "dhiren_baral",
   "dmu_sheoldred_invasion",
@@ -6060,6 +6387,7 @@
   "drannith",
   "eclipsed_realms",
   "eiko",
+  "elnor",
   "emeria_skyclave",
   "eric_kenrith",
   "evendo",
@@ -6094,6 +6422,7 @@
   "killian_lu",
   "king_glarb",
   "kiran_nalaar",
+  "kitt",
   "kroog_destruction",
   "kuberr",
   "lake_zhava",
@@ -6116,6 +6445,7 @@
   "niharet",
   "nishang",
   "oba",
+  "omenpaths",
   "one_sylex",
   "orazca",
   "original_tarkir_clash",
@@ -6130,12 +6460,14 @@
   "realmbreaker",
   "reen",
   "riders_lock",
+  "rill",
   "rtd_sylex",
   "saint_traft",
   "savai_settlements",
   "setessa",
   "shadowmoor_aspect",
   "shadowspear",
+  "shevara",
   "skysovereign",
   "sothera",
   "sotheran_supervoid",
@@ -6171,13 +6503,14 @@
   "Arvad of the Weatherlight",
   "Ghirapur Grand Prix",
   "Kaya, Ghost Haunter",
+  "Rankle, Master of Pranksters",
   "Tibalt the Chaotic",
   "Urza, Academy Headmaster"
  ],
  "counts": {
-  "entities_anchored": 257,
-  "anchor_edges": 531,
-  "unanchored_entities": 136
+  "entities_anchored": 273,
+  "anchor_edges": 556,
+  "unanchored_entities": 142
  },
- "content_sha256": "ea74dcda3c643b549fabcda63932f9656ce2f40d532beecce81fca240d769c17"
+ "content_sha256": "dcc523d79fb4b0a60b42ff3803a7e9712f5b8f0d592dc2da98fe567dcf4cf6bb"
 }

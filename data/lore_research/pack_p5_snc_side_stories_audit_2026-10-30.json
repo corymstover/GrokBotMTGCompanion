@@ -1,0 +1,68 @@
+{
+ "schema": "story-claim-pipeline-audit/v1",
+ "pack": "data/lore_research/pack_p5_snc_side_stories_2026-10-30.json",
+ "pack_status": "PRELIMINARY_RESEARCH (not owner approved, not certified)",
+ "arc": "SNC",
+ "claims": 5,
+ "entities": 12,
+ "sources": 5,
+ "grades": {
+  "CANON_CONFIRMED": 3,
+  "CANON_IMPLIED": 2
+ },
+ "quotes": 8,
+ "quotes_verbatim": 8,
+ "quote_rows": [
+  {
+   "claim": "SC101",
+   "source_id": "sncs_contract",
+   "quote_sha256": "178ef1de38ee26c6e7de7fec9999effbfe3b243df98b44dd9cdadc2f90b438c0",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "SC102",
+   "source_id": "sncs_expect",
+   "quote_sha256": "bac0eda136d3ff5e2c0b6144c603ef36d2e570dfb3bda56d374465598b390c83",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "SC102",
+   "source_id": "sncs_expect",
+   "quote_sha256": "94aa8ad609b7b6afdd162568e119694394d556317a7a9d34e8c9e669e2685794",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "SC103",
+   "source_id": "sncs_freedom",
+   "quote_sha256": "3416e1120cadd53ef6670cfe571771eec5690f61da817235eef71a80b2ec353e",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "SC103",
+   "source_id": "sncs_freedom",
+   "quote_sha256": "98cd9b1414571e9d2f1a2903cb7c8a565f45e8ea1974a0b139c5ad114007292f",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "SC104",
+   "source_id": "sncs_family",
+   "quote_sha256": "738b2e9acf103dd6225d54a905a12f1d1c1564e3296f3ba9349ab2ed1531c9a1",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "SC104",
+   "source_id": "sncs_family",
+   "quote_sha256": "f18b62be5d0106cfcf329a1459ea723d6baa978d622d847a99a0490ee670b49c",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "SC105",
+   "source_id": "sncs_alley",
+   "quote_sha256": "1022ee1d911d2ce4083d28123a6ca9effd1d8e9104bbcf1aa727a3b90f5781f4",
+   "status": "VERBATIM"
+  }
+ ],
+ "problems": [],
+ "note": "Verbatim-quote audit against cached official Wizards story text. Research evidence only: not owner approval, not certification, not an exhaustive reading.",
+ "content_sha256": "264688fa29d220f9114e24f9d706f2b7fa0756dfe2866f452681cb4e39c553b6"
+}

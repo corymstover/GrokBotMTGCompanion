@@ -1,0 +1,301 @@
+{
+ "schema": "multiverse-claim-pack/v1",
+ "pack_id": "pack_p5_otj_side_stories",
+ "evidence_cutoff": "2026-10-30",
+ "status": "PRELIMINARY_RESEARCH (not owner approved, not certified)",
+ "arc": "OTJ",
+ "scope": "Targeted Phase 5 extraction from the four official Outlaws of Thunder Junction side stories and two official OTJ feature articles tagged to the OTJ arc in batch 7. One or two claims per page; not an exhaustive reading. PRELIMINARY_RESEARCH; not owner approved.",
+ "built_by": "scripts/story_claim_pipeline.py from data/lore_research/claim_specs/pack_p5_otj_side_stories.spec.json",
+ "source_register": {
+  "otjs_notells": {
+   "title": "Outlaws of Thunder Junction | No Tells",
+   "url": "https://magic.wizards.com/en/news/magic-story/no-tells",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2024-03-12"
+  },
+  "otjs_venom": {
+   "title": "Outlaws of Thunder Junction | Blood Is Thicker than Venom",
+   "url": "https://magic.wizards.com/en/news/magic-story/blood-is-thicker-than-venom",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2024-03-14"
+  },
+  "otjs_home": {
+   "title": "Outlaws of Thunder Junction | A Long Way from Home",
+   "url": "https://magic.wizards.com/en/news/magic-story/a-long-way-from-home",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2024-03-19"
+  },
+  "otjs_outing": {
+   "title": "Outlaws of Thunder Junction | A Pleasant Family Outing",
+   "url": "https://magic.wizards.com/en/news/magic-story/a-pleasant-family-outing",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2024-03-21"
+  },
+  "otjs_firstlook": {
+   "title": "A First Look at Outlaws of Thunder Junction",
+   "url": "https://magic.wizards.com/en/news/announcements/a-first-look-at-outlaws-of-thunder-junction",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2024-02-23"
+  },
+  "otjs_crew": {
+   "title": "A Legendary Crew for an Unbelievable Heist: Outlaws of Thunder Junction",
+   "url": "https://magic.wizards.com/en/news/feature/a-legendary-crew-for-an-unbelievable-heist-outlaws-of-thunder-junction",
+   "kind": "official_story_feature",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2024-04-11"
+  }
+ },
+ "entities": [
+  {
+   "id": "yuma",
+   "type": "Character",
+   "name": "Yuma"
+  },
+  {
+   "id": "elnor",
+   "type": "Character",
+   "name": "Elnor"
+  },
+  {
+   "id": "annie_flash",
+   "type": "Character",
+   "name": "Annie Flash"
+  },
+  {
+   "id": "fortune",
+   "type": "Character",
+   "name": "Fortune"
+  },
+  {
+   "id": "nashi",
+   "type": "Character",
+   "name": "Nashi"
+  },
+  {
+   "id": "tamiyo",
+   "type": "Character",
+   "name": "Tamiyo"
+  },
+  {
+   "id": "the_wanderer",
+   "type": "Character",
+   "name": "The Wanderer"
+  },
+  {
+   "id": "gisa",
+   "type": "Character",
+   "name": "Gisa"
+  },
+  {
+   "id": "geralf",
+   "type": "Character",
+   "name": "Geralf"
+  },
+  {
+   "id": "thunder_junction",
+   "type": "Plane",
+   "name": "Thunder Junction"
+  },
+  {
+   "id": "omenpaths",
+   "type": "Object",
+   "name": "The Omenpaths"
+  },
+  {
+   "id": "oko",
+   "type": "Character",
+   "name": "Oko"
+  },
+  {
+   "id": "akul",
+   "type": "Character",
+   "name": "Akul"
+  },
+  {
+   "id": "vraska",
+   "type": "Character",
+   "name": "Vraska"
+  }
+ ],
+ "claims": [
+  {
+   "id": "OS001",
+   "subject": "yuma",
+   "predicate": "former_partner_of",
+   "object": "elnor",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "outlaws_of_thunder_junction_2024",
+   "source_ids": [
+    "otjs_notells"
+   ],
+   "evidence": [
+    {
+     "source_id": "otjs_notells",
+     "quote": "We were friends once, Elnor and me."
+    },
+    {
+     "source_id": "otjs_notells",
+     "quote": "Elnor and I were broke when we met."
+    },
+    {
+     "source_id": "otjs_notells",
+     "quote": "Fortunately, Elnor wanted to talk, although the only sweet memory she wanted to jaw over was, \"Where did the money go, Yuma?\""
+    }
+   ],
+   "summary": "The narrator Yuma and Elnor were friends and partners before a falling-out over money.",
+   "limitation": "The narrator is identified as Yuma from Elnor's dialogue."
+  },
+  {
+   "id": "OS002",
+   "subject": "annie_flash",
+   "predicate": "tamed",
+   "object": "fortune",
+   "grade": "CANON_IMPLIED",
+   "event_stage": "outlaws_of_thunder_junction_2024",
+   "source_ids": [
+    "otjs_venom"
+   ],
+   "evidence": [
+    {
+     "source_id": "otjs_venom",
+     "quote": "All her life, Annie's been around animals, learning how to tame one creature or another, but none of 'em have ever stumped her quite like Fortune."
+    }
+   ],
+   "summary": "Annie works to tame her mount Fortune, the hardest creature she has handled.",
+   "limitation": "The story is about the attempt; full taming is not graded."
+  },
+  {
+   "id": "OS003",
+   "subject": "the_wanderer",
+   "predicate": "killed",
+   "object": "tamiyo",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "outlaws_of_thunder_junction_2024",
+   "source_ids": [
+    "otjs_home"
+   ],
+   "evidence": [
+    {
+     "source_id": "otjs_home",
+     "quote": "The word hit Nashi like a sucker punch, and in an instant, his mind was transported back to the day the Wanderer killed what had been left of Tamiyo."
+    }
+   ],
+   "summary": "Nashi remembers the Wanderer killing what was left of Tamiyo.",
+   "limitation": "Refers to the compleated Tamiyo after March of the Machine."
+  },
+  {
+   "id": "OS004",
+   "subject": "nashi",
+   "predicate": "haunted_by",
+   "object": "tamiyo",
+   "grade": "CANON_IMPLIED",
+   "event_stage": "outlaws_of_thunder_junction_2024",
+   "source_ids": [
+    "otjs_home"
+   ],
+   "evidence": [
+    {
+     "source_id": "otjs_home",
+     "quote": "Tamiyo's ghost-like form flickered between existence and nothingness, and she reached out to lift Nashi's chin."
+    }
+   ],
+   "summary": "On Thunder Junction, Nashi sees a ghost-like form of Tamiyo.",
+   "limitation": "What the apparition is is not graded."
+  },
+  {
+   "id": "OS005",
+   "subject": "gisa",
+   "predicate": "visited",
+   "object": "thunder_junction",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "outlaws_of_thunder_junction_2024",
+   "source_ids": [
+    "otjs_outing"
+   ],
+   "evidence": [
+    {
+     "source_id": "otjs_outing",
+     "quote": "Gisa huffed, glaring at him as she climbed onto her griffin creature, and the two of them were off, riding across the wide-open plains of Thunder Junction toward their distant, unpleasant destination."
+    }
+   ],
+   "summary": "Gisa and Geralf travel across Thunder Junction.",
+   "limitation": ""
+  },
+  {
+   "id": "OS006",
+   "subject": "omenpaths",
+   "predicate": "connect",
+   "object": "thunder_junction",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "outlaws_of_thunder_junction_2024",
+   "source_ids": [
+    "otjs_firstlook"
+   ],
+   "evidence": [
+    {
+     "source_id": "otjs_firstlook",
+     "quote": "Arriving April 19, Outlaws of Thunder Junction is Magic's first Western-themed set where the stakes are high, the repercussions of the Phyrexian invasion are still felt, and the story around the strange Omenpaths continues to build."
+    },
+    {
+     "source_id": "otjs_firstlook",
+     "quote": "The Omenpaths are open, and everyone's blowing into town to seek their fortune as an outlaw."
+    }
+   ],
+   "summary": "Wizards' first-look article frames Thunder Junction as reached through the open Omenpaths after the Phyrexian invasion.",
+   "limitation": "Marketing feature, not fiction."
+  },
+  {
+   "id": "OS007",
+   "subject": "oko",
+   "predicate": "recruited",
+   "object": "annie_flash",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "outlaws_of_thunder_junction_2024",
+   "source_ids": [
+    "otjs_crew"
+   ],
+   "evidence": [
+    {
+     "source_id": "otjs_crew",
+     "quote": "Annie Flash is an Atiin nomad and a former Freestrider."
+    },
+    {
+     "source_id": "otjs_crew",
+     "quote": "She managed a few months of domestic normalcy before Oko came knocking on her door with an offer she couldn't refuse: a chance to take her revenge on Akul once and for all."
+    }
+   ],
+   "summary": "Wizards' crew feature says Oko recruited a crew member with a chance at revenge on Akul.",
+   "limitation": "Feature article, not fiction; the sentence sits under the feature's Annie Flash heading."
+  },
+  {
+   "id": "OS008",
+   "subject": "vraska",
+   "predicate": "lost_spark",
+   "object": "vraska",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "outlaws_of_thunder_junction_2024",
+   "source_ids": [
+    "otjs_crew"
+   ],
+   "evidence": [
+    {
+     "source_id": "otjs_crew",
+     "quote": "Fused with metal and corrupted beyond recognition, somehow Vraska has returned to her former body and former self—only without her Planeswalker's spark."
+    }
+   ],
+   "summary": "Wizards' crew feature says Vraska returned to herself after compleation but without her spark.",
+   "limitation": "Self-referential claim used to record a state change; feature article."
+  }
+ ],
+ "pages_registered": 6,
+ "pages_cited": 6,
+ "uncited_registered_pages": [],
+ "remaining": [
+  "One or two claims per page; the heist crew roster in the feature is not fully modelled"
+ ]
+}
