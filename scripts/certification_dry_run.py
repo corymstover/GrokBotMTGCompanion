@@ -9,7 +9,7 @@ This tool never checks a box, approves, locks or certifies anything. A row with 
 blocker found", which is still not owner sign-off.
 
 Blocker kinds:
-  OWNER_APPROVAL   Cory must review/approve an artifact (decks, packs).
+  OWNER_APPROVAL   Cory must review/approve an in-scope research artifact or evidence pack.
   OWNER_DECISION   Cory must decide a policy or a disputed question; the bot may not.
   EXTERNAL_CI      Must be shown green on GitHub for the exact release commit.
   MISSING_SOURCE   Needs a source the bot does not have (e.g. an unavailable original file, an official recap page).
@@ -69,10 +69,16 @@ RELEASE_BLOCKERS = {
         B("OWNER_DECISION", "Whether the qualified gate (with its stated limitations and 555 optional source-pending records) "
           "is acceptable for the release.", "data/set_atlas/phase1b_qualified_functional_release_2026-10-29.json"),
     ],
-    "reviewed_graph_deck": [
-        B("OWNER_APPROVAL", "Pilots 1-3 (PR #823 Ugin & Bolas, #832 Primeval Dragons, #844 Ugin's Allies) are complete, "
-          "verified 100-card proposals, all UNAPPROVED. One owner review is the whole blocker.",
-          "data/lore_decks/drafts"),
+    "knowledge_foundation": [
+        B("ENGINEERING_OPEN", "Build a bounded, source-graded foundation acceptance packet: verified in-universe "
+          "chronology with unresolved pairs stated; representative plane, character, faction and cross-plane "
+          "histories with documented gaps; difficult natural-language Q&A and rules regression evidence. "
+          "Deck construction and review are expressly deferred.",
+          "data/lore_research/relative_chronology_2026-10-30.json",
+          "data/lore_research/story_coverage_inventory_2026-10-30.json"),
+        B("OWNER_DECISION", "Cory reviews the actual knowledge-foundation scope and limitations after the "
+          "engineering/CI evidence is complete. An owner-reviewed deck is NOT required.",
+          "MTG_MULTIVERSE_MASTER_WORKFLOW.md"),
     ],
     "grixis_no_regression": [
         B("EXTERNAL_CI", "Focused Grixis mechanics validation must be green on the release commit, and the protected-path "
@@ -109,8 +115,9 @@ PHASE8_BLOCKERS = [
           "Progress Tracker.md", "handoffs/GROKBOT_OVERNIGHT_2026-10-30.md"),
     ]),
     ("Define an MTG Multiverse Companion milestone release", [
-        B("OWNER_DECISION", "release_readiness.py scores the written criteria (verdict NOT_RELEASE_READY); the owner must "
-          "accept this definition as the milestone.", "scripts/release_readiness.py"),
+        B("OWNER_DECISION", "release_readiness.py now scores a knowledge-only foundation (verdict NOT_RELEASE_READY); "
+          "the owner must review the documented foundation scope, not any pilot deck.",
+          "scripts/release_readiness.py"),
     ]),
     ("Treat continual future MTG releases", [
         B("OWNER_DECISION", "A policy statement: checking it is the owner's call; the bot does not mark policy accepted.",

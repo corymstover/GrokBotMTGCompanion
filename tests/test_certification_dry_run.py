@@ -36,8 +36,9 @@ class DryRunTests(unittest.TestCase):
 
     def test_owner_gated_items_are_marked(self):
         rows = {r["id"]: r for r in self.d["release_definition"]}
-        self.assertTrue(rows["reviewed_graph_deck"]["blocked_by_owner"])
+        self.assertTrue(rows["knowledge_foundation"]["blocked_by_owner"])
         self.assertTrue(rows["foundation_graph"]["blocked_by_owner"])
+        self.assertNotIn("reviewed_graph_deck", rows)
 
 
 if __name__ == "__main__":

@@ -19,6 +19,9 @@ class ReadinessTests(unittest.TestCase):
     def test_every_written_criterion_is_evaluated(self):
         self.assertEqual(len(self.r["criteria"]), 7)
         self.assertTrue(all(c["status"] in STATUSES and c["note"] for c in self.r["criteria"]))
+        ids = {c["id"] for c in self.r["criteria"]}
+        self.assertIn("knowledge_foundation", ids)
+        self.assertNotIn("reviewed_graph_deck", ids)
 
     def test_never_claims_approval_or_certification(self):
         forbidden = {"APPROVED", "LOCKED", "CERTIFIED", "CANONICAL_LOCKED"}
@@ -59,6 +62,24 @@ class ReadinessTests(unittest.TestCase):
         d = c["evidence"]["protected_path_digests"]
         self.assertIn("state/current_deck_overrides.json", d)
         self.assertTrue(all(v["sha256"] is None or len(v["sha256"]) == 64 for v in d.values()))
+
+    def test_foundation_gate_does_not_require_lore_deck_approval(self):
+        c = next(c for c in self.r["criteria"] if c["id"] == "knowledge_foundation")
+        self.assertIs(c["evidence"]["deck_pilots_required"], False)
+        self.assertNotIn("deck approval", c["note"].lower())
+
+    def test_foundation_acceptance_requires_explicit_scope_and_three_reviews(self):
+        review = {"status": "OWNER_ACCEPTED", "scope": "KNOWLEDGE_FOUNDATION_ONLY",
+                  "chronology_reviewed": True, "history_coverage_reviewed": True,
+                  "qa_regressions_passed": True}
+        real = R._json
+        with mock.patch.object(R, "_json", side_effect=lambda rel: review if rel ==
+                               "data/release/knowledge_foundation_acceptance.json" else real(rel)):
+            self.assertEqual(R.c_knowledge_foundation()[0], "MET")
+        review["qa_regressions_passed"] = False
+        with mock.patch.object(R, "_json", side_effect=lambda rel: review if rel ==
+                               "data/release/knowledge_foundation_acceptance.json" else real(rel)):
+            self.assertEqual(R.c_knowledge_foundation()[0], "PARTIAL")
 
 
 if __name__ == "__main__":

@@ -109,14 +109,38 @@ def c_atlas():
     return "PARTIAL", f"gate {d.get('gate')}", ev
 
 
-def c_deck():
-    appr = sorted(p.name for p in (ROOT / "data/lore_decks/approvals").glob("*.md"))
-    drafts = sorted(p.name for p in (ROOT / "data/lore_decks/drafts").glob("*_proposal.json"))
-    man = _json("data/multiverse_graph/manifest.json") or {}
-    graph_built = [Path(p).name for p in man.get("deck_evidence", [])]  # decks whose evidence feeds the graph
-    ev = {"owner_approval_files": appr, "draft_proposals": len(drafts), "graph_based_drafts": graph_built}
-    return "NOT_MET", (f"{len(appr)} owner-approval files exist for earlier lore decks, but no deck built from the new "
-                       f"graph has owner review yet ({len(graph_built)} graph-linked draft(s) await review)"), ev
+def c_knowledge_foundation():
+    """Foundation-only gate: decks are deliberately deferred until after certification.
+
+    A future explicit owner acceptance record must review chronology, history
+    coverage and Q&A evidence. Merely counting pages or graph edges cannot
+    establish completeness, and this function never approves a deck.
+    """
+    chronology = _json("data/lore_research/relative_chronology_2026-10-30.json") or {}
+    coverage = _json("data/lore_research/story_coverage_inventory_2026-10-30.json") or {}
+    review = _json("data/release/knowledge_foundation_acceptance.json") or {}
+    counts = chronology.get("counts", {})
+    pages = coverage.get("totals", {})
+    ev = {
+        "chronology_events": counts.get("event_nodes", 0),
+        "chronology_comparable_pairs": counts.get("comparable_pairs", 0),
+        "chronology_total_pairs": counts.get("total_pairs", 0),
+        "chronology_components": counts.get("components", 0),
+        "source_pages_accounted_for": pages.get("cited_pages", 0) + pages.get("reviewed_no_claim_pages", 0),
+        "source_pages_in_current_inventory": pages.get("pages", 0),
+        "foundation_owner_review": review.get("status", "NOT_SUBMITTED"),
+        "deck_pilots_required": False,
+    }
+    if not counts or not pages:
+        return "NOT_MET", "chronology or story-coverage evidence missing; no deck review is required", ev
+    accepted = (review.get("status") == "OWNER_ACCEPTED"
+                and review.get("scope") == "KNOWLEDGE_FOUNDATION_ONLY"
+                and all(review.get(k) is True for k in
+                        ("chronology_reviewed", "history_coverage_reviewed", "qa_regressions_passed")))
+    if accepted:
+        return "MET", "owner-reviewed knowledge foundation scope documented; deckbuilding remains deferred", ev
+    return "PARTIAL", ("source-graded chronology, history coverage and difficult Q&A still need a documented "
+                       "foundation review; existing lore-deck pilots are parked, not a release blocker"), ev
 
 
 def c_grixis():
@@ -133,7 +157,7 @@ CRITERIA = [
     ("foundation_graph", "Searchable cited connections across the three foundational lore packs", c_graph),
     ("lookup_and_rules", "Reliable lookup and rules checks backed by current Scryfall and official sources", c_lookup),
     ("set_atlas", "Verified Phase 1B set catalog", c_atlas),
-    ("reviewed_graph_deck", "At least one complete, reviewed lore-first Commander deck built from the new graph", c_deck),
+    ("knowledge_foundation", "Source-graded chronology, broad lore history and difficult Q&A reviewed for the documented foundation scope", c_knowledge_foundation),
     ("grixis_no_regression", "No regression in the 62 archived approved Grixis decks", c_grixis),
     ("ci_and_coverage", "Passing focused CI and an up-to-date, source-backed coverage report", c_ci),
 ]

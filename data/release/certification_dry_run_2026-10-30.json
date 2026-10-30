@@ -4,8 +4,8 @@
  "readiness_verdict": "NOT_RELEASE_READY",
  "readiness_tally": {
   "MET": 2,
-  "PARTIAL": 2,
-  "NOT_MET": 1,
+  "PARTIAL": 3,
+  "NOT_MET": 0,
   "EXTERNAL": 2
  },
  "note": "Lists what blocks each box. Checks nothing, approves nothing, certifies nothing.",
@@ -113,22 +113,30 @@
    "bot_can_still_act": true
   },
   {
-   "id": "reviewed_graph_deck",
-   "criterion": "At least one complete, reviewed lore-first Commander deck built from the new graph.",
+   "id": "knowledge_foundation",
+   "criterion": "Source-graded in-universe chronology, broad plane/character/faction history and difficult Q&A coverage reviewed for the documented knowledge-foundation scope, with explicit unresolved gaps.",
    "workflow_checked": false,
-   "machine_status": "NOT_MET",
-   "machine_note": "3 owner-approval files exist for earlier lore decks, but no deck built from the new graph has owner review yet (3 graph-linked draft(s) await review)",
+   "machine_status": "PARTIAL",
+   "machine_note": "source-graded chronology, history coverage and difficult Q&A still need a documented foundation review; existing lore-deck pilots are parked, not a release blocker",
    "blockers": [
     {
-     "kind": "OWNER_APPROVAL",
-     "what": "Pilots 1-3 (PR #823 Ugin & Bolas, #832 Primeval Dragons, #844 Ugin's Allies) are complete, verified 100-card proposals, all UNAPPROVED. One owner review is the whole blocker.",
+     "kind": "ENGINEERING_OPEN",
+     "what": "Build a bounded, source-graded foundation acceptance packet: verified in-universe chronology with unresolved pairs stated; representative plane, character, faction and cross-plane histories with documented gaps; difficult natural-language Q&A and rules regression evidence. Deck construction and review are expressly deferred.",
      "evidence": [
-      "data/lore_decks/drafts"
+      "data/lore_research/relative_chronology_2026-10-30.json",
+      "data/lore_research/story_coverage_inventory_2026-10-30.json"
+     ]
+    },
+    {
+     "kind": "OWNER_DECISION",
+     "what": "Cory reviews the actual knowledge-foundation scope and limitations after the engineering/CI evidence is complete. An owner-reviewed deck is NOT required.",
+     "evidence": [
+      "MTG_MULTIVERSE_MASTER_WORKFLOW.md"
      ]
     }
    ],
    "blocked_by_owner": true,
-   "bot_can_still_act": false
+   "bot_can_still_act": true
   },
   {
    "id": "grixis_no_regression",
@@ -176,7 +184,7 @@
  ],
  "phase8": [
   {
-   "item": "Keep targeted CI checks for card counts, source integrity, relationship claims, and deck legality.",
+   "item": "Keep targeted CI checks for card counts, source integrity, graph relationships, rules/Q&A and set data; preserve existing deck-legality regression checks without starting new decks.",
    "workflow_checked": false,
    "blockers": [
     {
@@ -265,7 +273,7 @@
    "blockers": [
     {
      "kind": "OWNER_DECISION",
-     "what": "release_readiness.py scores the written criteria (verdict NOT_RELEASE_READY); the owner must accept this definition as the milestone.",
+     "what": "release_readiness.py now scores a knowledge-only foundation (verdict NOT_RELEASE_READY); the owner must review the documented foundation scope, not any pilot deck.",
      "evidence": [
       "scripts/release_readiness.py"
      ]
@@ -298,19 +306,18 @@
   }
  ],
  "blocker_tally": {
-  "ENGINEERING_OPEN": 4,
+  "ENGINEERING_OPEN": 5,
   "EXTERNAL_CI": 3,
   "MISSING_SOURCE": 2,
   "ONGOING": 4,
-  "OWNER_APPROVAL": 3,
-  "OWNER_DECISION": 5
+  "OWNER_APPROVAL": 2,
+  "OWNER_DECISION": 6
  },
  "items_blocked_only_by_owner_or_ci": [
   "priority_enrichment",
-  "reviewed_graph_deck",
   "grixis_no_regression",
   "ci_and_coverage",
-  "Keep targeted CI checks for card counts, source integrity, relationship claims, and deck legality.",
+  "Keep targeted CI checks for card counts, source integrity, graph relationships, rules/Q&A and set data; preserve existing deck-legality regression checks without starting new decks.",
   "Rebuild and reconcile the Phase 1B set catalog and bidirectional printing lookups when new sets or printings appear, retaining historical snapshots.",
   "Define an MTG Multiverse Companion milestone release based on verified features, not an arbitrary percentage of all lore.",
   "Treat continual future MTG releases as an ongoing maintenance track rather than a permanently finishable backlog."

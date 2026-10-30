@@ -14,7 +14,7 @@ schema: 2
 <!-- MULTIVERSE-CURRENT:START -->
 ## MTG Multiverse Companion — current engineering checkpoint (2026-10-30)
 
-**Live authority:** [Master Workflow v2.52](MTG_MULTIVERSE_MASTER_WORKFLOW.md), the current
+**Live authority:** [Master Workflow v2.53](MTG_MULTIVERSE_MASTER_WORKFLOW.md), the current
 graph and dated recount. The older cycle-36/October-15 metrics **below this section are historical**;
 they are not the active Phase 1–8 completion counters.
 
@@ -27,14 +27,16 @@ they are not the active Phase 1–8 completion counters.
 | Cited graph | **5094 nodes / 8063 edges** | Unresolved orphan/variant and chronology work remains. |
 | Exact printing-specific representations | **560** | Frozen snapshot + official art-file label evidence, **not** canon scene depiction. |
 | In-universe dated claim edges | **33** | Most graph edges lack a verified in-world date. |
-| Unapproved graph-built Commander pilots | **3** | Cory has approved none of the three. |
-| First-release readiness | **NOT_RELEASE_READY** | Owner gates, external checks and ongoing engineering remain. |
+| Parked graph-built Commander pilots | **3 unapproved** | Preserved, not a knowledge-foundation release gate. |
+| Foundation-release readiness | **NOT_RELEASE_READY** | Research, owner foundation review, external checks and engineering remain. |
 | Official source watch | **Weekly review-only workflow** | Story index, Scryfall metadata and rules PDF candidates; not automatic lore/rules updates. |
 
 **Priority next steps:** verify current-era Q&A answers; close only evidence-backed graph
-identity and chronology gaps; expand comprehensive history and lore-first deck research;
-restore the exact pinned Scryfall bulk when needed for source-level atlas replay; complete
-owner review and release checks without modifying any of the 62 finalized Grixis decks.
+identity and chronology gaps; expand comprehensive plane, character, faction and cross-plane
+history; harden rules and difficult Q&A; restore the exact pinned Scryfall bulk only when
+required for source-level atlas replay; pursue foundation-only certification. **Phase 6
+deckbuilding and its three unapproved pilots are deferred until the knowledge foundation
+is certified.** Do not modify any of the 62 finalized Grixis decks.
 <!-- MULTIVERSE-CURRENT:END -->
 
 > **Maintenance handoff (2026-10-29):** The Phase 8 numbers below are a recorded Grok Bot cycle-36 baseline, not freshly regenerated coverage. [PHASE8_RESTART.md](PHASE8_RESTART.md) explains the cache-recovery and owner-lock safeguards; [PR #779](https://github.com/corymstover/GrokBotMTGCompanion/pull/779) proposes the guarded rebuild entrypoint. Run `python3 scripts/phase8_status.py` against `data/card_enrichment.json` to obtain current stored-artifact counts.

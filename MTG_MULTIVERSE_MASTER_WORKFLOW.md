@@ -1,9 +1,27 @@
 # MTG Multiverse Companion — Master Workflow & Progress Checklist
 
-**Version:** 2.52
+**Version:** 2.53
 **Checkpoint date:** 2026-10-30
 **Repository:** [corymstover/GrokBotMTGCompanion](https://github.com/corymstover/GrokBotMTGCompanion)  
 **Purpose:** Durable project roadmap and handoff document. Update this file after verified milestone work; do not treat historical figures as live counters.
+
+**v2.53 OWNER DIRECTIVE — FOUNDATION FIRST (2026-10-30):** Cory has explicitly
+deferred **all new lore-first deck construction, pilot refinement, deck approval
+requests and deck-specific optimization** until the rest of the Multiverse
+Companion knowledge foundation has been completed and independently certified
+for its documented release scope. The execution order is **Phases 1/1B–5 →
+Phase 7 → Phase 8 foundation certification → Phase 6 deckbuilding**. Phase 6
+retains its historical name and checklist so previous work is never lost, but
+is **PARKED / POST-FOUNDATION**, not an active gate or next-step priority.
+Existing Pilots 1–3 are preserved as **UNAPPROVED, historical drafts**; their
+approval is not a prerequisite for the knowledge-foundation release. Focus
+now on source-graded chronology, comprehensive plane/character/faction and
+cross-plane histories, graph quality, card/printing/rules lookups, difficult
+Q&A, reproducibility, and an honest coverage/limitation audit. A finite
+foundation release may document inherently unresolved canon and future
+maintenance; it must never claim exhaustive knowledge of all MTG history.
+The 62 approved Grixis decks, their hashes and all owner gates remain intact.
+Only a new explicit request from Cory can override the Phase 6 hold.
 
 **v2.52 Phase 7 plane-history Q&A (2026-10-30):** The main
 `scripts/mv_ask.py ask` route now answers plain-language plane-history
@@ -402,7 +420,15 @@ Infrastructure checkpoint: [PR #783](https://github.com/corymstover/GrokBotMTGCo
 - [ ] Use the Phase 1B Set & Printing Atlas to navigate published sets and storylines while keeping real-world release dates separate from in-universe event order.
 - [ ] Maintain an explicit coverage/gaps inventory as new sets and stories arrive. *(Started 2026-10-30, Batch 4: `scripts/build_story_coverage_inventory.py` generates `data/lore_research/story_coverage_inventory_2026-10-30.json` from the 626-page `primary_sources.csv` and the 9 graph claim packs, and CI rebuilds and compares it. Claim packs cite 57 of the 626 pages. Of the 33 arc buckets, 1 has every page cited (ONE, 6/6), 9 are partial (MOM 10/11, DOM/WAR 12/18, BRO 4/10, BFZ/OGW 3/19, TDM 2/14, SOI/EMN 1/21, DMU 1/6, ECL 1/12, untagged 17/305) and 23 are not started, including KLD/AER, AKH/HOU, XLN/RIX, EOE and RF. "Cited" means the page is used at least once, not that it was read exhaustively. The box stays unchecked because the inventory still has to be refreshed when new stories arrive. **Batch 5 refresh:** 12 claim packs and 231 claims now cite 88 of the 626 pages. 1 arc is fully cited, 12 are partial (now including KLD/AER 14/17, XLN/RIX 10/17 and AKH/HOU 7/16), and 20 are not started. **v2.33 (after NEO):** 13 packs and 243 claims cite 94 of 626 pages. 2 arcs are fully cited, 12 partial and 19 not started. **v2.38, Batch 10 refresh:** 516/626 pages cited, 40 reviewed with no claim, 31 of 33 arcs fully cited; untagged 119 + 38 reviewed of 227.)* *(v2.39, Batch 11: **626/626 pages cited or reviewed** (576 cited, 50 reviewed with no claim, 0 unread); all 33 arcs cited-or-reviewed; 1,139 claims. Stays unchecked: upkeep is ongoing as new stories arrive.)*
 
-## Phase 6 — Lore-first Commander deckbuilding engine
+## Phase 6 — Lore-first Commander deckbuilding engine (DEFERRED UNTIL FOUNDATION CERTIFICATION)
+
+**Execution hold (v2.53):** The engineering infrastructure and three unapproved
+pilot proposals are retained as historical evidence, not active work. Do not
+construct, refine, request approval for, or certify lore decks while Phases
+1/1B–5, 7 and the Phase 8 knowledge-foundation release are unfinished. Do not
+interpret the checked pilot-subtask boxes below as owner approval. This phase
+resumes only after the foundation release is independently certified (or Cory
+explicitly lifts the hold).
 
 - [ ] Retrieve lore-relevant cards with grades: direct depiction, canon reference, lore-inspired, mechanical stand-in.
 - [ ] Compare eligible commander choices with verified color identity and relevant story context.
@@ -425,14 +451,14 @@ Infrastructure checkpoint: [PR #783](https://github.com/corymstover/GrokBotMTGCo
 - [ ] Answer set questions with category-qualified totals, full set card lists, printing/debut/reprint distinctions and cited snapshot dates from Phase 1B.
 - [ ] Answer obscure lore and chronology questions through cited evidence and dated canon status.
 - [x] Explain ambiguous/retconned narratives rather than inventing certainty. *(v2.37, Batch 9: leader answers order cited leaders by the citing page's publication date. Claims whose summary or limitation sets them in a past era or an original or rewritten timeline are now kept as era context and never reported as the most recent leader. The answer carries the flag `ERA_OR_TIMELINE_CONTEXT` and an `era_note` saying that publication order is not in-universe order and that the cited claims do not by themselves establish the present-day leader. For example, Yasova, Tasigur, Alesha and Daghatar are Fate Reforged past-era khans; they are era context behind Surrak, Sidisi, Zurgo and Anafenza. Covered by `tests/test_batch_recount_b9.py`. There is no general retcon explainer beyond leadership yet. **v2.38, Batch 10:** a general continuity explainer (`continuity()` in `mv_ask`, route `ask->continuity`, `tests/test_mv_ask_continuity.py`) returns the conflicting or alternate cited accounts with `QUALIFIED` confidence and a "not resolved" note, or `NO_CITED_CONTINUITY_CONFLICT`. Checked as a capability; its answers are only as complete as the cited packs.)*
-- [ ] Integrate card, lore and strategic search for Commander recommendation and deckbuilding questions.
+- [ ] Integrate card, lore and rules search for difficult research questions; defer deck recommendations and deckbuilding flows until post-foundation Phase 6.
 - [ ] Test difficult representative queries, cross-references, and interaction explanations. *(Partial, 2026-10-30 Batch 4: `mv_ask` now answers "who killed X" using the `killed` relation, plus "who is X's mother" and "who struck down X". All three are covered by Pack C4 regression tests, for example Karn → Elesh Norn (MOM017) and Tamiyo → Nashi (MOM010). Unknown names still return NOT_FOUND. A broad hard-query suite is still open. **v2.33:** `tests/test_mv_ask_relations.py` ([PR #859](https://github.com/corymstover/GrokBotMTGCompanion/pull/859)) is data-driven. Every claim edge in the graph must round-trip through `mv_ask` lore with its grade and source URL, confidence must never overstate the grade, and non-CONFIRMED P5 claims must carry limitations. It also checks natural-language questions (Razaketh, the Immortal Sun, Ugin, Heart of Kiran). The router gained `created ← designed/invented` and `defeated_by ← defeated` fallbacks. A broader free-text paraphrase suite is still open, so this box stays unchecked. **v2.36, Batch 8:** `tests/test_mv_ask_rephrased_b8.py` adds 27 cases / 42 phrasings over the Batch 7/8 relations (22 VERIFIED, 5 QUALIFIED CANON_IMPLIED cases that must carry a limitation), and the router gained honest phrasings for "beheaded", "the leader of X", "governs/rules", "mentored"/"X's mentor", "founded", "guards", "fought", "serves", "worships", "attacked", "who did X meet", and friend_of for "X's friends". Unknown entities still return NOT_FOUND. Known gap: faction short names such as "the Izzet" do not resolve. **v2.37, Batch 9:** faction short names now resolve, for example "the Izzet" and "the Temur" ([#882](https://github.com/corymstover/GrokBotMTGCompanion/pull/882), flag `MATCHED_BY_FACTION_ALIAS`). Sibling questions read `sibling_of|twin_sibling_of` together, so Ugin's cited siblings no longer hide the Bolas twin edge ([#885](https://github.com/corymstover/GrokBotMTGCompanion/pull/885)). A 13-question representative set runs in CI through `scripts/batch_recount.py`. Still not a broad hard-query suite, so the box stays unchecked.)* *(v2.42, Batch 14, [#910](https://github.com/corymstover/GrokBotMTGCompanion/pull/910): a probe over all 54 factions with cited leaders found 'guildmaster of', 'in charge of', "who's the leader of" and 'commands' missed 54/54; now 0 misses over 14 phrasings, except 3 factions (dragonlords, Elves of Eldraine, the Twelve) whose only leader edges point outward, which correctly stay NOT_FOUND. `tests/test_mv_ask_leader_phrasings_b14.py`. Still not a broad hard-query suite.)*
 - [x] Flag unavailable, stale or low-confidence information explicitly. `mv_ask` returns VERIFIED, QUALIFIED or NOT_FOUND with flags and exits 3 for unknown entities ([PR #827](https://github.com/corymstover/GrokBotMTGCompanion/pull/827), [PR #829](https://github.com/corymstover/GrokBotMTGCompanion/pull/829)).
   - v2.43 correction: confidence now also reflects original/rewritten timeline limits (`TIMELINE_CONTEXT_REQUIRED`), a cited death of a nominally most-recent leader (`LATEST_CITED_LEADER_DEATH_RECORDED`), and present-tense leader requests (`CURRENT_LEADER_NOT_ESTABLISHED`). Verified examples: original-timeline Ugin death and Teysa's confirmed murder. `most_recent_cited` stays explicitly historical, never an unsupported current-office assertion. Regression tests cover all three; broader currentness and timeline verification is still open.
 
 ## Phase 8 — Release quality and continuing upkeep
 
-- [ ] Keep targeted CI checks for card counts, source integrity, relationship claims, and deck legality.
+- [ ] Keep targeted CI checks for card counts, source integrity, graph relationships, rules/Q&A and set data; preserve existing deck-legality regression checks without starting new decks.
   - Partial (2026-10-30): claim-graph, companion-ask, oracle-drift and release-readiness workflows were added, alongside the existing focused-validation and pilot audits.
 - [ ] Monitor new official stories, Oracle changes, releases, rules and Commander format updates.
   - Partial (2026-10-30): `scripts/oracle_drift_report.py` ([PR #829](https://github.com/corymstover/GrokBotMTGCompanion/pull/829)) diffs the Oracle text against each new snapshot.
@@ -446,16 +472,16 @@ Infrastructure checkpoint: [PR #783](https://github.com/corymstover/GrokBotMTGCo
   - Partial (2026-10-30): `scripts/release_readiness.py` ([PR #830](https://github.com/corymstover/GrokBotMTGCompanion/pull/830)) scores each written criterion from committed evidence. Current verdict: NOT_RELEASE_READY.
 - [ ] Treat continual future MTG releases as an ongoing maintenance track rather than a permanently finishable backlog.
 
-## Immediate execution queue — v2.43 CURRENT (2026-10-30)
+## Immediate execution queue — v2.53 FOUNDATION FIRST (2026-10-30)
 
-1. **Correctness first:** protect `mv_ask` from present-day leader overclaims and erased-timeline claims. This v2.43 implementation is in place; retain the regression tests and expand difficult queries. Unknown or unsupported relations must remain NOT_FOUND, not inferred.
-2. **Source-safe graph cleanup:** C023's two subjects and the five uniquely normalized artifact crosswalks are now fixed. Next triage 16 orphan nodes, six legitimate cross-pack subject references, 22 display-name variants and six alias candidates individually. Never make up a relationship just to close an audit count. Complete printing-specific `CardRepresentation` IDs before rechecking L221.
-3. **Phase 1B reproducibility:** current pinned-bulk replay now fails clearly when the exact SHA-256 file is absent. Recover it only by verified hash from the documented snapshot source or release; do not substitute the October 28 lost bulk or the 2026-10-29 bulk for the legacy Grixis lock. Continue qualified source/premier attribution research without claiming universal certification.
-4. **Current progress and release gate:** keep the generated `Progress Tracker.md` checkpoint synchronized via `scripts/update_multiverse_progress_tracker.py --check`. Preserve distinct states: preliminary, tested, merged, owner-approved, certified. Current verdict remains NOT_RELEASE_READY.
-5. **Phase 2–5 depth:** investigate unsupported story and flavor links, publish source-graded character and faction relationships, and progressively close L222/L244 chronology gaps only with official in-universe quotations. Expand full-plane coverage; do not use publication date as an in-world year or rely on uncited novel text.
-6. **Phase 6 lore-first decks:** three graph-derived, legal 100-card pilots await Cory's exact review. Expand the official canon evidence around the **Ugin's Allies** and **Primeval Dragons** proposals and document lore/mechanics compromises. Do not approve, lock or replace existing lists without the owner.
-7. **Phase 7 hard-question regression:** probe confusing leader, killing, revived/retconned, source-disputed, set-history and rules interactions; include negative cases, source URLs, qualifiers, and game-state limitations. Improve confidence honestly rather than blindly broadening YES/VERIFIED responses.
-8. **Phase 8 ongoing maintenance:** build a safe update monitor for new official stories, Scryfall releases, rules and Commander format changes; run exact-head CI on any patch; pursue final certification only after owner approvals, fresh release-time snapshot/CI checks and zero protected-path regressions.
+1. **Phase 4 — Verified in-universe chronology:** expand the source-quoted BEFORE/AFTER/UNKNOWN event order, resolve high-value L244 gaps where primary evidence exists, and retain unknown/disputed ordering instead of inventing total dates. Keep release chronology separate.
+2. **Phases 2/5 — Comprehensive history:** systematically deepen thin plane dossiers, major factions, characters, wars, artifacts and cross-plane consequences; record both coverage and missing primary sources. The 20 currently thin registered planes are a priority, not a census of all planes.
+3. **Phase 3 — Evidence-safe knowledge graph:** resolve or explicitly qualify orphan nodes, cross-pack aliases, identity/printing links and undated relations. Never merge identities or promote card art/name matches without evidence.
+4. **Phase 7 — Advanced Q&A and rules:** test difficult natural-language questions (chronology, contradictions, leaders, card/printing/set queries and nuanced rules) with citations, confidence limits, negative cases and currentness safeguards. No new deckbuilding tests are required here.
+5. **Phases 1B/2 — Reproducibility and source integrity:** keep exact snapshot hashes, authoritative story quotations, per-set data and generated indexes testable. Recover original pinned bulk only by hash; do not alter historical Grixis locks. Treat the optional 555-product source queue as nonblocking unless it becomes material to an active knowledge gate.
+6. **Phase 8 — Maintenance and focused CI:** synchronize the generated Progress Tracker, monitor newly released official material, run targeted and exact-head checks, and audit actual gaps without calling a static knowledge snapshot permanently exhaustive.
+7. **Foundation-only release decision:** independently review chronology/history coverage, graph/search integrity, Q&A/rules, snapshots, known limitations, owner research decisions and protection of the 62 Grixis lists. Release readiness remains **NOT_RELEASE_READY** until its actual gates pass; no deck pilot approval may block this release.
+8. **Phase 6 — PARKED:** preserve the existing three **UNAPPROVED** lore-first pilots, tools and notes without working on, approving or refining them. Resume meaningful deck creation **only after** the foundation is certified, unless Cory explicitly changes this direction.
 
 ## Archived execution queue — historical batches (not current instructions)
 
@@ -477,6 +503,7 @@ Infrastructure checkpoint: [PR #783](https://github.com/corymstover/GrokBotMTGCo
 5. Keep official lore citations, confidence and continuity distinctions. Never promote a name match to canon automatically.
 6. Keep Oracle text, card legality, format policy and brackets current; annotate dates and rule-version assumptions.
 7. After every milestone merge, update the completed checkboxes and checkpoint counts in this file, link the exact PR/commit/CI evidence, and state what remains. If the project Source copy is older, **GitHub's latest verified file is the workflow authority**.
+8. Enforce the **v2.53 foundation-first execution hold**: do not shift attention to Phase 6 or ask for approval of existing lore-deck pilots until the knowledge-foundation release gate has been satisfied or Cory explicitly lifts this hold.
 
 ## Definition of the first major Companion release
 
@@ -484,8 +511,15 @@ Infrastructure checkpoint: [PR #783](https://github.com/corymstover/GrokBotMTGCo
 - [ ] Searchable cited connections across the three foundational lore packs.
 - [ ] Reliable lookup and rules checks backed by current Scryfall and official sources.
 - [ ] A verified Phase 1B set catalog with category-specific counts, set → card and card → set lookups, debut/reprint identification and English export support.
-- [ ] At least one complete, reviewed lore-first Commander deck built from the new graph.
+- [ ] Source-graded in-universe chronology, broad plane/character/faction history and difficult Q&A coverage reviewed for the documented knowledge-foundation scope, with explicit unresolved gaps.
 - [ ] No regression in the 62 archived approved Grixis decks.
 - [ ] Passing focused CI and an up-to-date, source-backed coverage report.
+
+**Scope boundary:** This is a **knowledge-foundation release**, not a deck
+release. Graph-built Commander pilots and the Phase 6 deckbuilding workflow
+will be evaluated in their own post-foundation stage. No new lore deck or
+owner deck approval is required for this release. Owner research/canon
+decisions, foundation sign-off, exact-head CI and Grixis protections still
+apply; do not relabel current preliminary research as certified.
 
 *This is a living workflow, not a claim that all of Magic lore can be declared permanently finished. Preserve this file and revise the verified checkpoint after every substantive work batch.*
