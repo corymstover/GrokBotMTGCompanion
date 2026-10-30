@@ -1,0 +1,180 @@
+{
+ "schema": "pack-c3-one-audit/v1",
+ "pack": "data/lore_research/pack_c3_assault_on_new_phyrexia_2026-10-30.json",
+ "pack_status": "PRELIMINARY_RESEARCH (not owner approved, not certified)",
+ "claims": 19,
+ "entities": 21,
+ "sources": 5,
+ "grades": {
+  "CANON_CONFIRMED": 19
+ },
+ "quotes": 27,
+ "quotes_verbatim": 27,
+ "quote_rows": [
+  {
+   "claim": "ONE001",
+   "source_id": "one_ep2",
+   "quote_sha256": "ee864a8618bf8769aa8c5d0fa69165958eb4b863be121c777474cf5d1fdf0d7f",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "ONE001",
+   "source_id": "one_ep4",
+   "quote_sha256": "8ed2c219a31796446c2690e085710efd17f34f38fe7092c8d7b424d1c26f8d15",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "ONE002",
+   "source_id": "one_ep4",
+   "quote_sha256": "2c3e5991a0c05bf27cce918b7ddf971f56292f3a580ca20044612239936c826d",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "ONE003",
+   "source_id": "one_ep4",
+   "quote_sha256": "8ed2c219a31796446c2690e085710efd17f34f38fe7092c8d7b424d1c26f8d15",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "ONE004",
+   "source_id": "one_ep2",
+   "quote_sha256": "646adad4c85109c1dceac6523f2976dcee773da7109a4b78072cafb7ba179a5d",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "ONE004",
+   "source_id": "one_ep2",
+   "quote_sha256": "56d2451204dca4c916af1aac4be50ee7afd752b13b599cd7f8c58b4b2fc1ff7a",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "ONE005",
+   "source_id": "one_ep4",
+   "quote_sha256": "660b54d5da59ee71c3c955cae6714af12088aa24a4fbadb5bdce1f5172b0d608",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "ONE006",
+   "source_id": "one_ep4",
+   "quote_sha256": "82533eb6348b8890be00edbdb6b7615b090eb16c1c647e847c33a68dfc929c11",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "ONE006",
+   "source_id": "one_ep4",
+   "quote_sha256": "d0108c7fc0336b299f742f972db9236c81c2b3b3456570254af12e6682e67701",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "ONE007",
+   "source_id": "one_ep5",
+   "quote_sha256": "b2411fad2c0351f493330b9f4ef8a1a970e8fb232974be5ec66bf85c8c459e35",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "ONE008",
+   "source_id": "one_ep3",
+   "quote_sha256": "1dc5b339e110df100eca2258d5c28721c95556ac14378c46820dd1feb151bb0d",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "ONE009",
+   "source_id": "one_ep5",
+   "quote_sha256": "bf98c91677ec8cd5418600120bd7d4274fb5fb5a7a1ab7e80887df63bcebbd52",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "ONE010",
+   "source_id": "one_ep5",
+   "quote_sha256": "d3326c431633648ce471362b7e47ced338f2a3f1769d1205621bb30ac4992c46",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "ONE011",
+   "source_id": "one_ep5",
+   "quote_sha256": "ea4df845630b5ed83efb7f786a129d8186bf62616abece3d33a7cf3a1ba381bc",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "ONE011",
+   "source_id": "one_ep5",
+   "quote_sha256": "6e70e808277f4bd13b31ab4ba7ee427116748a8494f650e2cc7c2e10d110b986",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "ONE012",
+   "source_id": "one_ep5",
+   "quote_sha256": "b6bb557ad012f3583adb8a9a367245971bd8b96f8a2b82b7bf93f8b4dbed0ac0",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "ONE012",
+   "source_id": "one_ep5",
+   "quote_sha256": "defbc53d82bac1e363b655959d0bf4498075aec9a956eb724193e9e690b87e99",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "ONE013",
+   "source_id": "one_ep5",
+   "quote_sha256": "e9ffc3e9a64661162859e6514d6e8843641a579ff6727656113c978d89ed655a",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "ONE014",
+   "source_id": "one_ep5",
+   "quote_sha256": "4d32a3b30e2eba715ec8838caabd4bd4bdd80a6c235aa3cd71bddb9eec08dce3",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "ONE015",
+   "source_id": "one_ep5",
+   "quote_sha256": "5c0f85962bc4ab2bc35c923357c5612de1a7f2a93acd85f4be56de8d6516725f",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "ONE015",
+   "source_id": "one_ep5",
+   "quote_sha256": "68f9bdea5ed23b1b7501612c36dbefe4641b1d3f6b255dfdb826987e3ae464d0",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "ONE016",
+   "source_id": "one_ep5",
+   "quote_sha256": "338037d22c168140a3164b6b6243bb09f2fbbc3f6dd6661ae75c7c3ccc25049e",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "ONE016",
+   "source_id": "one_ep5",
+   "quote_sha256": "b17d82341e1d44aa22d05e31a208baebc83899d4d5bf41cdd95c1a86dd5fa321",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "ONE017",
+   "source_id": "one_ep5",
+   "quote_sha256": "a2d2ce32e0cb9eb0da99fc9e868f593dbc00f941c73836e30972cba2eb77fff1",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "ONE017",
+   "source_id": "one_ep5",
+   "quote_sha256": "e776a5f6c491967353c7d0e25aee39b0836c67adaf6740799bc4049c0e6b2dd3",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "ONE018",
+   "source_id": "one_ep4",
+   "quote_sha256": "fbdc7e1bb9b9bf15f4ec1fb34963c36b1018afd39fdbc9f35611075bcc63e03b",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "ONE019",
+   "source_id": "one_ep4",
+   "quote_sha256": "fbdc7e1bb9b9bf15f4ec1fb34963c36b1018afd39fdbc9f35611075bcc63e03b",
+   "status": "VERBATIM"
+  }
+ ],
+ "problems": [],
+ "note": "Verbatim-quote audit against the cached official episode text. This is research evidence, not owner approval or certification.",
+ "content_sha256": "450bbba1383f3e0d222eda5d5632c55665ee022ca1344b4b089a5bc7443d1be1"
+}

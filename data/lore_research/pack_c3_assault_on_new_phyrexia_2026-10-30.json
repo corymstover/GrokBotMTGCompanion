@@ -1,0 +1,555 @@
+{
+  "schema": "multiverse-claim-pack/v1",
+  "pack_id": "pack_c3_assault_on_new_phyrexia",
+  "evidence_cutoff": "2026-10-30",
+  "status": "PRELIMINARY_RESEARCH (not owner approved, not certified)",
+  "scope": "Targeted claim extraction from the 5 official 'Assault on New Phyrexia' episodes (Magic Story, Phyrexia: All Will Be One, 2023-01-13 through 2023-01-16). Each claim has verbatim evidence quotes, checked against the local official story cache by scripts/audit_lore_pack_c3.py.",
+  "source_register": {
+    "one_ep1": {
+      "title": "Assault on New Phyrexia | Episode 1: Uncontrolled Descent",
+      "url": "https://magic.wizards.com/en/news/magic-story/assault-on-new-phyrexia-or-episode-1-uncontrolled-descent",
+      "kind": "official_story_episode",
+      "perspective": "Wizards of the Coast (official Magic Story; author Seanan McGuire)",
+      "published": "2023-01-13"
+    },
+    "one_ep2": {
+      "title": "Assault on New Phyrexia | Episode 2: Unstable Foundations",
+      "url": "https://magic.wizards.com/en/news/magic-story/assault-on-new-phyrexia-or-episode-2-unstable-foundations",
+      "kind": "official_story_episode",
+      "perspective": "Wizards of the Coast (official Magic Story; author Seanan McGuire)",
+      "published": "2023-01-13"
+    },
+    "one_ep3": {
+      "title": "Assault on New Phyrexia | Episode 3: Inconceivable Losses",
+      "url": "https://magic.wizards.com/en/news/magic-story/assault-on-new-phyrexia-or-episode-3-inconceivable-losses",
+      "kind": "official_story_episode",
+      "perspective": "Wizards of the Coast (official Magic Story; author Seanan McGuire)",
+      "published": "2023-01-14"
+    },
+    "one_ep4": {
+      "title": "Assault on New Phyrexia | Episode 4: Impossible Odds",
+      "url": "https://magic.wizards.com/en/news/magic-story/assault-on-new-phyrexia-or-episode-4-impossible-odds",
+      "kind": "official_story_episode",
+      "perspective": "Wizards of the Coast (official Magic Story; author Seanan McGuire)",
+      "published": "2023-01-16"
+    },
+    "one_ep5": {
+      "title": "Assault on New Phyrexia | Episode 5: Inevitable Resolutions",
+      "url": "https://magic.wizards.com/en/news/magic-story/assault-on-new-phyrexia-or-episode-5-inevitable-resolutions",
+      "kind": "official_story_episode",
+      "perspective": "Wizards of the Coast (official Magic Story; author Seanan McGuire)",
+      "published": "2023-01-16"
+    }
+  },
+  "entities": [
+    {
+      "id": "jace_beleren",
+      "type": "Character",
+      "name": "Jace Beleren"
+    },
+    {
+      "id": "vraska",
+      "type": "Character",
+      "name": "Vraska"
+    },
+    {
+      "id": "elspeth_tirel",
+      "type": "Character",
+      "name": "Elspeth Tirel"
+    },
+    {
+      "id": "ajani",
+      "type": "Character",
+      "name": "Ajani"
+    },
+    {
+      "id": "tibalt",
+      "type": "Character",
+      "name": "Tibalt"
+    },
+    {
+      "id": "tyvar",
+      "type": "Character",
+      "name": "Tyvar Kell"
+    },
+    {
+      "id": "nahiri",
+      "type": "Character",
+      "name": "Nahiri"
+    },
+    {
+      "id": "nissa_revane",
+      "type": "Character",
+      "name": "Nissa Revane"
+    },
+    {
+      "id": "karn",
+      "type": "Character",
+      "name": "Karn"
+    },
+    {
+      "id": "elesh_norn",
+      "type": "Character",
+      "name": "Elesh Norn"
+    },
+    {
+      "id": "koth",
+      "type": "Character",
+      "name": "Koth"
+    },
+    {
+      "id": "melira",
+      "type": "Character",
+      "name": "Melira"
+    },
+    {
+      "id": "kaya",
+      "type": "Character",
+      "name": "Kaya"
+    },
+    {
+      "id": "kaito",
+      "type": "Character",
+      "name": "Kaito Shizuki"
+    },
+    {
+      "id": "mirrodin",
+      "type": "Plane",
+      "name": "Mirrodin"
+    },
+    {
+      "id": "new_phyrexia",
+      "type": "Plane",
+      "name": "New Phyrexia"
+    },
+    {
+      "id": "realmbreaker",
+      "type": "Object",
+      "name": "Realmbreaker (Elesh Norn's Invasion Tree)"
+    },
+    {
+      "id": "one_sylex",
+      "type": "Object",
+      "name": "The strike team's sylex (ONE story)"
+    },
+    {
+      "id": "seedcore",
+      "type": "Place",
+      "name": "The Seedcore (New Phyrexia)"
+    },
+    {
+      "id": "compleation",
+      "type": "Concept",
+      "name": "Phyrexian compleation"
+    },
+    {
+      "id": "multiverse",
+      "type": "Concept",
+      "name": "The Multiverse"
+    }
+  ],
+  "claims": [
+    {
+      "id": "ONE001",
+      "subject": "elesh_norn",
+      "predicate": "planted",
+      "object": "realmbreaker",
+      "grade": "CANON_CONFIRMED",
+      "event_stage": "one_strike_2023",
+      "source_ids": [
+        "one_ep2",
+        "one_ep4"
+      ],
+      "evidence": [
+        {
+          "source_id": "one_ep2",
+          "quote": "\"Elesh Norn calls it her Realmbreaker.\""
+        },
+        {
+          "source_id": "one_ep4",
+          "quote": "Norn's tree is planted below in the Seedcore, where she imprisoned Karn."
+        }
+      ],
+      "summary": "Elesh Norn's World Tree, Realmbreaker, is planted in New Phyrexia's Seedcore.",
+      "limitation": ""
+    },
+    {
+      "id": "ONE002",
+      "subject": "realmbreaker",
+      "predicate": "located_in",
+      "object": "seedcore",
+      "grade": "CANON_CONFIRMED",
+      "event_stage": "one_strike_2023",
+      "source_ids": [
+        "one_ep4"
+      ],
+      "evidence": [
+        {
+          "source_id": "one_ep4",
+          "quote": "That's where we get access to the Seedcore, and that's where she's planted her Realmbreaker."
+        }
+      ],
+      "summary": "Realmbreaker is rooted in the Seedcore.",
+      "limitation": ""
+    },
+    {
+      "id": "ONE003",
+      "subject": "elesh_norn",
+      "predicate": "imprisoned",
+      "object": "karn",
+      "grade": "CANON_CONFIRMED",
+      "event_stage": "one_strike_2023",
+      "source_ids": [
+        "one_ep4"
+      ],
+      "evidence": [
+        {
+          "source_id": "one_ep4",
+          "quote": "Norn's tree is planted below in the Seedcore, where she imprisoned Karn."
+        }
+      ],
+      "summary": "Elesh Norn imprisoned Karn in the Seedcore.",
+      "limitation": ""
+    },
+    {
+      "id": "ONE004",
+      "subject": "one_sylex",
+      "predicate": "intended_to_destroy",
+      "object": "realmbreaker",
+      "grade": "CANON_CONFIRMED",
+      "event_stage": "one_strike_2023",
+      "source_ids": [
+        "one_ep2"
+      ],
+      "evidence": [
+        {
+          "source_id": "one_ep2",
+          "quote": "\"This 'sylex' is the thing you're going to use to take out Elesh Norn's Realmbreaker, right?\""
+        },
+        {
+          "source_id": "one_ep2",
+          "quote": "It will destroy the tree before it has an opportunity to connect this plane to the rest of the Multiverse."
+        }
+      ],
+      "summary": "The strike team carried a sylex to destroy Realmbreaker before it could connect New Phyrexia to the Multiverse.",
+      "limitation": ""
+    },
+    {
+      "id": "ONE005",
+      "subject": "ajani",
+      "predicate": "underwent",
+      "object": "compleation",
+      "grade": "CANON_CONFIRMED",
+      "event_stage": "one_strike_2023",
+      "source_ids": [
+        "one_ep4"
+      ],
+      "evidence": [
+        {
+          "source_id": "one_ep4",
+          "quote": "Ajani, his mind warped and his body doomed never to die now that he'd been absorbed into Phyrexia."
+        }
+      ],
+      "summary": "Ajani has been compleated (absorbed into Phyrexia).",
+      "limitation": ""
+    },
+    {
+      "id": "ONE006",
+      "subject": "tibalt",
+      "predicate": "underwent",
+      "object": "compleation",
+      "grade": "CANON_CONFIRMED",
+      "event_stage": "one_strike_2023",
+      "source_ids": [
+        "one_ep4"
+      ],
+      "evidence": [
+        {
+          "source_id": "one_ep4",
+          "quote": "There, walking toward them as calmly as if this were a pleasant afternoon meeting in a park, came Ajani and Tibalt, but not as they had known them."
+        },
+        {
+          "source_id": "one_ep4",
+          "quote": "Beside him, Tibalt was a nightmare of bony plates and protrusions connected by raw, braided sinew, recognizable as himself only through the smirk on the remaining fleshy portion of his face."
+        }
+      ],
+      "summary": "Tibalt appears transformed into a Phyrexian.",
+      "limitation": "The episode describes the transformation; the word 'compleated' is not applied to Tibalt in these quotes."
+    },
+    {
+      "id": "ONE007",
+      "subject": "vraska",
+      "predicate": "underwent",
+      "object": "compleation",
+      "grade": "CANON_CONFIRMED",
+      "event_stage": "one_strike_2023",
+      "source_ids": [
+        "one_ep5"
+      ],
+      "evidence": [
+        {
+          "source_id": "one_ep5",
+          "quote": "If she had only fought her way down to the Furnace Layer faster, they would have reached the tree before it could connect, found Vraska before she could be compleated, saved so many others, saved them all."
+        }
+      ],
+      "summary": "Vraska was compleated before the strike team could reach her.",
+      "limitation": ""
+    },
+    {
+      "id": "ONE008",
+      "subject": "jace_beleren",
+      "predicate": "stayed_with",
+      "object": "vraska",
+      "grade": "CANON_CONFIRMED",
+      "event_stage": "one_strike_2023",
+      "source_ids": [
+        "one_ep3"
+      ],
+      "evidence": [
+        {
+          "source_id": "one_ep3",
+          "quote": "The group forced themselves through the tight passage single file, emerging into the blackened, rotting landscape outside the coliseum, leaving Vraska and Jace behind."
+        }
+      ],
+      "summary": "In Sheoldred's Coliseum, Jace stays with Vraska as the others flee.",
+      "limitation": "Jace stays only briefly; he rejoins the group later in Episode 3. Vraska's fate is covered by ONE007."
+    },
+    {
+      "id": "ONE009",
+      "subject": "jace_beleren",
+      "predicate": "underwent",
+      "object": "compleation",
+      "grade": "CANON_CONFIRMED",
+      "event_stage": "one_strike_2023",
+      "source_ids": [
+        "one_ep5"
+      ],
+      "evidence": [
+        {
+          "source_id": "one_ep5",
+          "quote": "The speed of Phyrexian compleation was a nightmare the likes of which Kaya had never considered, and she wanted nothing more than to wake from it."
+        }
+      ],
+      "summary": "By Episode 5, Jace shows rapidly advancing compleation (wires spreading on his arm).",
+      "limitation": "Only partial compleation is shown at this point in the episode."
+    },
+    {
+      "id": "ONE010",
+      "subject": "ajani",
+      "predicate": "mentor_of",
+      "object": "elspeth_tirel",
+      "grade": "CANON_CONFIRMED",
+      "event_stage": "one_strike_2023",
+      "source_ids": [
+        "one_ep5"
+      ],
+      "evidence": [
+        {
+          "source_id": "one_ep5",
+          "quote": "He looked away from Tyvar, the ultimate insult in the middle of a battle, and directed a terrible, thin-lipped smile at Elspeth as she struggled against her former mentor."
+        }
+      ],
+      "summary": "Ajani is Elspeth's former mentor; they fight on the bridge over the void.",
+      "limitation": ""
+    },
+    {
+      "id": "ONE011",
+      "subject": "elspeth_tirel",
+      "predicate": "fought",
+      "object": "ajani",
+      "grade": "CANON_CONFIRMED",
+      "event_stage": "one_strike_2023",
+      "source_ids": [
+        "one_ep5"
+      ],
+      "evidence": [
+        {
+          "source_id": "one_ep5",
+          "quote": "On the bridge over the void, Ajani's axe clashed against the blade of Elspeth's sword, pushing the smaller Planeswalker back even as she dug her heels into the sinewy surface and tried to stand her ground."
+        },
+        {
+          "source_id": "one_ep5",
+          "quote": "The axe tumbled from Ajani's suddenly nerveless fingers as he slipped from consciousness."
+        }
+      ],
+      "summary": "Elspeth fights the compleated Ajani and knocks him unconscious.",
+      "limitation": ""
+    },
+    {
+      "id": "ONE012",
+      "subject": "tyvar",
+      "predicate": "fought",
+      "object": "tibalt",
+      "grade": "CANON_CONFIRMED",
+      "event_stage": "one_strike_2023",
+      "source_ids": [
+        "one_ep5"
+      ],
+      "evidence": [
+        {
+          "source_id": "one_ep5",
+          "quote": "The last thing Elspeth saw before she ran off the bridge, following the trail the others had taken, was Tyvar driving the twin barbs of Tibalt's tail into the space that should have held the Phyrexian's heart."
+        },
+        {
+          "source_id": "one_ep5",
+          "quote": "There was a sickening crunch as Tibalt slammed into the bridge below, followed by silence."
+        }
+      ],
+      "summary": "Tyvar fights the compleated Tibalt, stabs him with his own tail barbs and throws him from the bridge.",
+      "limitation": "The episode does not explicitly state that Tibalt died; no death is asserted."
+    },
+    {
+      "id": "ONE013",
+      "subject": "elspeth_tirel",
+      "predicate": "struck_down",
+      "object": "jace_beleren",
+      "grade": "CANON_CONFIRMED",
+      "event_stage": "one_strike_2023",
+      "source_ids": [
+        "one_ep5"
+      ],
+      "evidence": [
+        {
+          "source_id": "one_ep5",
+          "quote": "In a single convulsive motion, she drove her blade through Jace and shoved him aside, letting his body take the sword with him as he fell and grabbing the sylex in her own hands."
+        }
+      ],
+      "summary": "Elspeth stabs the compleating Jace to stop him detonating the sylex, and takes the sylex.",
+      "limitation": ""
+    },
+    {
+      "id": "ONE014",
+      "subject": "elspeth_tirel",
+      "predicate": "carried_away",
+      "object": "one_sylex",
+      "grade": "CANON_CONFIRMED",
+      "event_stage": "one_strike_2023",
+      "source_ids": [
+        "one_ep5"
+      ],
+      "evidence": [
+        {
+          "source_id": "one_ep5",
+          "quote": "The sylex went with her, bound for some unknown destination, some point beyond the Blind Eternities."
+        }
+      ],
+      "summary": "Elspeth vanishes with the activating sylex beyond the Blind Eternities.",
+      "limitation": "Its destination is unknown in this episode; nothing about her fate is asserted from later stories."
+    },
+    {
+      "id": "ONE015",
+      "subject": "realmbreaker",
+      "predicate": "spread_invasion_across",
+      "object": "multiverse",
+      "grade": "CANON_CONFIRMED",
+      "event_stage": "one_strike_2023",
+      "source_ids": [
+        "one_ep5"
+      ],
+      "evidence": [
+        {
+          "source_id": "one_ep5",
+          "quote": "The tree had been fully activated and was transmitting across the Multiverse."
+        },
+        {
+          "source_id": "one_ep5",
+          "quote": "Each branch, with its heavy burden of Phyrexian invaders, had reached for another plane, and would shed their terrible fruit there, to compleat new, fertile soil."
+        }
+      ],
+      "summary": "Realmbreaker activates and its branches carry Phyrexian invaders to other planes, setting up March of the Machine.",
+      "limitation": ""
+    },
+    {
+      "id": "ONE016",
+      "subject": "nahiri",
+      "predicate": "underwent",
+      "object": "compleation",
+      "grade": "CANON_CONFIRMED",
+      "event_stage": "one_strike_2023",
+      "source_ids": [
+        "one_ep5"
+      ],
+      "evidence": [
+        {
+          "source_id": "one_ep5",
+          "quote": "Her hands were gone, arms replaced from the elbow down with metal blades."
+        },
+        {
+          "source_id": "one_ep5",
+          "quote": "\"Nahiri fought us, but she found peace, and a better way in the One,\""
+        }
+      ],
+      "summary": "Nahiri returns compleated, as Elesh Norn proclaims.",
+      "limitation": "The second quote is Elesh Norn speaking (an in-universe, partisan perspective)."
+    },
+    {
+      "id": "ONE017",
+      "subject": "nissa_revane",
+      "predicate": "underwent",
+      "object": "compleation",
+      "grade": "CANON_CONFIRMED",
+      "event_stage": "one_strike_2023",
+      "source_ids": [
+        "one_ep5"
+      ],
+      "evidence": [
+        {
+          "source_id": "one_ep5",
+          "quote": "The Nissa she knew was gone."
+        },
+        {
+          "source_id": "one_ep5",
+          "quote": "Now they are sisters, united, finally on the same side in every way."
+        }
+      ],
+      "summary": "Nissa appears compleated at Elesh Norn's side, alongside Nahiri.",
+      "limitation": "'Sisters ... same side' is Elesh Norn speaking."
+    },
+    {
+      "id": "ONE018",
+      "subject": "koth",
+      "predicate": "native_of",
+      "object": "mirrodin",
+      "grade": "CANON_CONFIRMED",
+      "event_stage": "one_strike_2023",
+      "source_ids": [
+        "one_ep4"
+      ],
+      "evidence": [
+        {
+          "source_id": "one_ep4",
+          "quote": "Koth, Melira, and the goblin engineers were born Mirrans."
+        }
+      ],
+      "summary": "Koth is a born Mirran.",
+      "limitation": ""
+    },
+    {
+      "id": "ONE019",
+      "subject": "melira",
+      "predicate": "native_of",
+      "object": "mirrodin",
+      "grade": "CANON_CONFIRMED",
+      "event_stage": "one_strike_2023",
+      "source_ids": [
+        "one_ep4"
+      ],
+      "evidence": [
+        {
+          "source_id": "one_ep4",
+          "quote": "Koth, Melira, and the goblin engineers were born Mirrans."
+        }
+      ],
+      "summary": "Melira is a born Mirran.",
+      "limitation": ""
+    }
+  ],
+  "remaining": [
+    "Targeted extraction, not exhaustive: Urabrask, Sheoldred, Jin-Gitaxias, Vorinclex, Tamiyo and the Mirran resistance are not modelled",
+    "March of the Machine story episodes are not yet extracted",
+    "No in-universe AR dates appear in these episodes; none are inferred",
+    "Elspeth's fate after the sylex, and Jace's after the stabbing, are not asserted from these episodes",
+    "Card anchors (e.g., compleated planeswalker cards) are not yet linked",
+    "Elspeth's line 'Ajani destroyed the last one' (Episode 2) refers to an unidentified earlier sylex, so it is not modelled as an edge"
+  ]
+}
