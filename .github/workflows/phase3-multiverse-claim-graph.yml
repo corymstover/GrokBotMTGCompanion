@@ -16,6 +16,9 @@ on:
       - 'tests/test_lore_pack_rtd.py'
       - 'scripts/audit_lore_pack_a5.py'
       - 'tests/test_lore_pack_a5.py'
+      - 'data/story_atlas/**'
+      - 'scripts/build_story_art_captions.py'
+      - 'tests/test_story_art_captions.py'
       - '.github/workflows/phase3-multiverse-claim-graph.yml'
   push:
     paths:
@@ -30,6 +33,9 @@ on:
       - 'tests/test_lore_pack_rtd.py'
       - 'scripts/audit_lore_pack_a5.py'
       - 'tests/test_lore_pack_a5.py'
+      - 'data/story_atlas/**'
+      - 'scripts/build_story_art_captions.py'
+      - 'tests/test_story_art_captions.py'
       - '.github/workflows/phase3-multiverse-claim-graph.yml'
   workflow_dispatch:
 
@@ -62,3 +68,7 @@ jobs:
         run: |
           python3 scripts/audit_lore_pack_a5.py --check
           python3 -m unittest discover -s tests -p 'test_lore_pack_a5.py' -v
+      - name: Story-art caption atlas (self-hash; caches absent in CI) and tests
+        run: |
+          python3 scripts/build_story_art_captions.py --check
+          python3 -m unittest discover -s tests -p 'test_story_art_captions.py' -v

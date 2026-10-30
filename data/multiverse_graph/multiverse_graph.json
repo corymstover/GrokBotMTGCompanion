@@ -7,8 +7,1298 @@
   "HYPOTHETICAL": "Creative or deckbuilding connection; never canon.",
   "OPEN_QUESTION": "Primary sources leave the matter unresolved; do not assert either way."
  },
- "content_sha256": "0cbe4663e70baf25fccc62e44a6a876cb72795cff94796f97e53019dd3ad50e1",
+ "content_sha256": "ef6403bd7a2c34fe6cd32261befb5e808b2c6db2c7c989fb163e9cb5dbd2d46a",
  "edges": [
+  {
+   "artists": [
+    "Adam Paquette"
+   ],
+   "from": "source:rtd_ep8",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:fiery_intervention"
+  },
+  {
+   "artists": [
+    "Adam Paquette"
+   ],
+   "from": "source:stone_and_blood",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:prairie_stream"
+  },
+  {
+   "artists": [
+    "Adam Paquette"
+   ],
+   "from": "source:zendikar_resurgent",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:island"
+  },
+  {
+   "artists": [
+    "Aleksi Briclot"
+   ],
+   "from": "source:lithomancer",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:ulamog_the_infinite_gyre"
+  },
+  {
+   "artists": [
+    "Aleksi Briclot"
+   ],
+   "from": "source:rtd_ep5",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:demonic_pact"
+  },
+  {
+   "artists": [
+    "Aleksi Briclot"
+   ],
+   "from": "source:stone_and_blood",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:nahiri_the_harbinger"
+  },
+  {
+   "artists": [
+    "Aleksi Briclot"
+   ],
+   "from": "source:tarkir_story_summary",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:sarkhan_unbroken"
+  },
+  {
+   "artists": [
+    "Aleksi Briclot"
+   ],
+   "from": "source:tarkir_story_summary",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:zurgo_helmsmasher"
+  },
+  {
+   "artists": [
+    "Aleksi Briclot"
+   ],
+   "from": "source:unbroken_unbowed",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:sarkhan_unbroken"
+  },
+  {
+   "artists": [
+    "Alex Konstad"
+   ],
+   "from": "source:rtd_ep10",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:slimefoot_the_stowaway"
+  },
+  {
+   "artists": [
+    "Alex Konstad"
+   ],
+   "from": "source:rtd_ep12",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:slimefoot_the_stowaway"
+  },
+  {
+   "artists": [
+    "Anastasia Ovchinnikova"
+   ],
+   "from": "source:tarkir_story_summary",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:alesha_who_smiles_at_death"
+  },
+  {
+   "artists": [
+    "Anna Steinbauer"
+   ],
+   "from": "source:rtd_ep12",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:grand_warlord_radha"
+  },
+  {
+   "artists": [
+    "Anna Steinbauer"
+   ],
+   "from": "source:rtd_ep3",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:ajani_valiant_protector"
+  },
+  {
+   "artists": [
+    "Bastien L. Deharme"
+   ],
+   "from": "source:rtd_ep1",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:dark_dabbling"
+  },
+  {
+   "artists": [
+    "Chase Stone"
+   ],
+   "from": "source:revelation_eye",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:dispel"
+  },
+  {
+   "artists": [
+    "Chase Stone"
+   ],
+   "from": "source:rtd_ep10",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:karn_scion_of_urza"
+  },
+  {
+   "artists": [
+    "Chase Stone"
+   ],
+   "from": "source:rtd_ep12",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:exquisite_firecraft"
+  },
+  {
+   "artists": [
+    "Chase Stone"
+   ],
+   "from": "source:rtd_ep6",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:teferi_s_protection"
+  },
+  {
+   "artists": [
+    "Chase Stone"
+   ],
+   "from": "source:rtd_ep7",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:zhalfirin_void"
+  },
+  {
+   "artists": [
+    "Chase Stone"
+   ],
+   "from": "source:unbroken_unbowed",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:learn_from_the_past"
+  },
+  {
+   "artists": [
+    "Chris Rahn"
+   ],
+   "from": "source:brink_extinction",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:general_tazri"
+  },
+  {
+   "artists": [
+    "Chris Rahn"
+   ],
+   "from": "source:revelation_eye",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:ugin_the_spirit_dragon"
+  },
+  {
+   "artists": [
+    "Chris Rahn"
+   ],
+   "from": "source:rtd_ep12",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:blackblade_reforged"
+  },
+  {
+   "artists": [
+    "Chris Rahn"
+   ],
+   "from": "source:rtd_ep9",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:blackblade_reforged"
+  },
+  {
+   "artists": [
+    "Chris Rahn"
+   ],
+   "from": "source:sorins_restoration",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:ugin_the_spirit_dragon"
+  },
+  {
+   "artists": [
+    "Chris Rahn"
+   ],
+   "from": "source:tarkir_story_summary",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:tasigur_the_golden_fang"
+  },
+  {
+   "artists": [
+    "Chris Rallis"
+   ],
+   "from": "source:revelation_eye",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:zada_hedron_grinder"
+  },
+  {
+   "artists": [
+    "Chris Rallis"
+   ],
+   "from": "source:rtd_ep6",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:teferi_hero_of_dominaria"
+  },
+  {
+   "artists": [
+    "Chris Rallis"
+   ],
+   "from": "source:zendikar_resurgent",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:zendikar_resurgent"
+  },
+  {
+   "artists": [
+    "Christine Choi"
+   ],
+   "from": "source:rtd_ep8",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:baird_steward_of_argive"
+  },
+  {
+   "artists": [
+    "Cliff Childs"
+   ],
+   "from": "source:rtd_ep7",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:sulfur_falls"
+  },
+  {
+   "artists": [
+    "Cliff Childs"
+   ],
+   "from": "source:unbroken_unbowed",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:scion_of_ugin"
+  },
+  {
+   "artists": [
+    "Craig J Spearing"
+   ],
+   "from": "source:revelation_eye",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:hedron_archive"
+  },
+  {
+   "artists": [
+    "Cynthia Sheppard"
+   ],
+   "from": "source:sorins_revelation",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:sorin_solemn_visitor"
+  },
+  {
+   "artists": [
+    "Cynthia Sheppard"
+   ],
+   "from": "source:tarkir_story_summary",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:sorin_solemn_visitor"
+  },
+  {
+   "artists": [
+    "D. Alexander Gregory & Jeremy Jarvis"
+   ],
+   "from": "source:rtd_ep7",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:teferi_mage_of_zhalfir"
+  },
+  {
+   "artists": [
+    "Daarken"
+   ],
+   "from": "source:rtd_ep12",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:urgoros_the_empty_one"
+  },
+  {
+   "artists": [
+    "Daarken"
+   ],
+   "from": "source:rtd_ep7",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:kwende_pride_of_femeref"
+  },
+  {
+   "artists": [
+    "Daarken"
+   ],
+   "from": "source:tarkir_story_summary",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:sarkhan_the_dragonspeaker"
+  },
+  {
+   "artists": [
+    "Deruchenko Alexander"
+   ],
+   "from": "source:rtd_ep9",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:abbot_of_keral_keep"
+  },
+  {
+   "artists": [
+    "Dimitar Marinski",
+    "Jonas De Ro",
+    "Titus Lunter"
+   ],
+   "from": "source:rtd_ep11",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:swamp"
+  },
+  {
+   "artists": [
+    "Dimitar Marinski"
+   ],
+   "from": "source:rtd_ep11",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:cabal_stronghold"
+  },
+  {
+   "artists": [
+    "Eric Deschamps"
+   ],
+   "from": "source:rtd_ep9",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:weight_of_memory"
+  },
+  {
+   "artists": [
+    "Eric Deschamps"
+   ],
+   "from": "source:sorins_restoration",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:nahiri_the_lithomancer"
+  },
+  {
+   "artists": [
+    "Eric Deschamps"
+   ],
+   "from": "source:stone_and_blood",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:cliffside_lookout"
+  },
+  {
+   "artists": [
+    "Even Amundsen"
+   ],
+   "from": "source:rtd_ep11",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:fungal_plots"
+  },
+  {
+   "artists": [
+    "Eytan Zana"
+   ],
+   "from": "source:sorins_revelation",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:rugged_highlands"
+  },
+  {
+   "artists": [
+    "Florian de Gesincourt"
+   ],
+   "from": "source:revelation_eye",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:looming_spires"
+  },
+  {
+   "artists": [
+    "Florian de Gesincourt"
+   ],
+   "from": "source:rtd_ep9",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:nature_s_spiral"
+  },
+  {
+   "artists": [
+    "Florian de Gesincourt"
+   ],
+   "from": "source:unbroken_unbowed",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:plains"
+  },
+  {
+   "artists": [
+    "Greg Opalinski"
+   ],
+   "from": "source:rtd_ep6",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:niambi_faithful_healer"
+  },
+  {
+   "artists": [
+    "Henry G. Higginbotham"
+   ],
+   "from": "source:rtd_ep3",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:worn_powerstone"
+  },
+  {
+   "artists": [
+    "Henry G. Higginbotham"
+   ],
+   "from": "source:rtd_ep4",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:worn_powerstone"
+  },
+  {
+   "artists": [
+    "Igor Kieryluk"
+   ],
+   "from": "source:rtd_ep11",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:stronghold_confessor"
+  },
+  {
+   "artists": [
+    "Izzy"
+   ],
+   "from": "source:rtd_ep12",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:gideon_s_reproach"
+  },
+  {
+   "artists": [
+    "Jaime Jones"
+   ],
+   "from": "source:rtd_ep6",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:weatherlight"
+  },
+  {
+   "artists": [
+    "Jaime Jones"
+   ],
+   "from": "source:stone_and_blood",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:helvault"
+  },
+  {
+   "artists": [
+    "James Paick"
+   ],
+   "from": "source:revelation_eye",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:sanctum_of_ugin"
+  },
+  {
+   "artists": [
+    "James Paick"
+   ],
+   "from": "source:rtd_ep12",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:memorial_to_genius"
+  },
+  {
+   "artists": [
+    "James Paick"
+   ],
+   "from": "source:rtd_ep8",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:pyromancer_s_goggles"
+  },
+  {
+   "artists": [
+    "James Ryman"
+   ],
+   "from": "source:tarkir_story_summary",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:frontier_siege"
+  },
+  {
+   "artists": [
+    "Jason Chan"
+   ],
+   "from": "source:brink_extinction",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:kiora_master_of_the_depths"
+  },
+  {
+   "artists": [
+    "Jason Chan"
+   ],
+   "from": "source:stone_and_blood",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:avacyn_angel_of_hope"
+  },
+  {
+   "artists": [
+    "Jason Felix"
+   ],
+   "from": "source:brink_extinction",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:unity_of_purpose"
+  },
+  {
+   "artists": [
+    "Jason Felix"
+   ],
+   "from": "source:lithomancer",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:all_is_dust"
+  },
+  {
+   "artists": [
+    "Jason Felix"
+   ],
+   "from": "source:stone_and_blood",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:wastes"
+  },
+  {
+   "artists": [
+    "Jason Rainville"
+   ],
+   "from": "source:rtd_ep10",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:deadlock_trap"
+  },
+  {
+   "artists": [
+    "Jason Rainville"
+   ],
+   "from": "source:rtd_ep12",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:muldrotha_the_gravetide"
+  },
+  {
+   "artists": [
+    "Jehan Choo"
+   ],
+   "from": "source:rtd_ep11",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:yargle_glutton_of_urborg"
+  },
+  {
+   "artists": [
+    "Jehan Choo"
+   ],
+   "from": "source:rtd_ep12",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:yargle_glutton_of_urborg"
+  },
+  {
+   "artists": [
+    "Johann Bodin"
+   ],
+   "from": "source:sorins_restoration",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:soul_summons"
+  },
+  {
+   "artists": [
+    "Johannes Voss"
+   ],
+   "from": "source:sorins_restoration",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:atarka_beastbreaker"
+  },
+  {
+   "artists": [
+    "John Avon",
+    "Véronique Meignaud"
+   ],
+   "from": "source:lithomancer",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:mountain"
+  },
+  {
+   "artists": [
+    "John Avon"
+   ],
+   "from": "source:lithomancer",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:explore"
+  },
+  {
+   "artists": [
+    "Jonas De Ro"
+   ],
+   "from": "source:rtd_ep8",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:forest"
+  },
+  {
+   "artists": [
+    "Joseph Meehan"
+   ],
+   "from": "source:rtd_ep6",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:mishra_s_self_replicator"
+  },
+  {
+   "artists": [
+    "Jung Park"
+   ],
+   "from": "source:sorins_restoration",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:crucible_of_the_spirit_dragon"
+  },
+  {
+   "artists": [
+    "Jung Park"
+   ],
+   "from": "source:stone_and_blood",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:magma_rift"
+  },
+  {
+   "artists": [
+    "Jung Park"
+   ],
+   "from": "source:tarkir_story_summary",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:crucible_of_the_spirit_dragon"
+  },
+  {
+   "artists": [
+    "Karl Kopinski"
+   ],
+   "from": "source:rtd_ep5",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:distant_memories"
+  },
+  {
+   "artists": [
+    "Karl Kopinski"
+   ],
+   "from": "source:sorins_restoration",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:dragonlord_atarka"
+  },
+  {
+   "artists": [
+    "Kev Walker"
+   ],
+   "from": "source:rtd_ep11",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:jhoira_s_familiar"
+  },
+  {
+   "artists": [
+    "Kieran Yanner"
+   ],
+   "from": "source:rtd_ep11",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:cabal_ritual"
+  },
+  {
+   "artists": [
+    "Kieran Yanner"
+   ],
+   "from": "source:rtd_ep11",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:whisper_blood_liturgist"
+  },
+  {
+   "artists": [
+    "Kieran Yanner"
+   ],
+   "from": "source:rtd_ep9",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:liliana_s_defeat"
+  },
+  {
+   "artists": [
+    "Kieran Yanner"
+   ],
+   "from": "source:stone_and_blood",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:valakut_the_molten_pinnacle"
+  },
+  {
+   "artists": [
+    "Magali Villeneuve"
+   ],
+   "from": "source:rtd_ep8",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:jaya_ballard"
+  },
+  {
+   "artists": [
+    "Magali Villeneuve"
+   ],
+   "from": "source:tarkir_story_summary",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:narset_transcendent"
+  },
+  {
+   "artists": [
+    "Magali Villeneuve"
+   ],
+   "from": "source:unbroken_unbowed",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:narset_transcendent"
+  },
+  {
+   "artists": [
+    "Mark Winters"
+   ],
+   "from": "source:tarkir_story_summary",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:monastery_siege"
+  },
+  {
+   "artists": [
+    "Michael Komarck"
+   ],
+   "from": "source:lithomancer",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:sorin_markov"
+  },
+  {
+   "artists": [
+    "Michael Komarck"
+   ],
+   "from": "source:revelation_eye",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:ulamog_the_ceaseless_hunger"
+  },
+  {
+   "artists": [
+    "Michael Komarck"
+   ],
+   "from": "source:stone_and_blood",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:sorin_markov"
+  },
+  {
+   "artists": [
+    "Michael Komarck"
+   ],
+   "from": "source:stone_and_blood",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:ulamog_the_ceaseless_hunger"
+  },
+  {
+   "artists": [
+    "Noah Bradley"
+   ],
+   "from": "source:sorins_revelation",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:plains"
+  },
+  {
+   "artists": [
+    "Raymond Swanland"
+   ],
+   "from": "source:sorins_restoration",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:haven_of_the_spirit_dragon"
+  },
+  {
+   "artists": [
+    "Raymond Swanland"
+   ],
+   "from": "source:unbroken_unbowed",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:ugin_the_spirit_dragon"
+  },
+  {
+   "artists": [
+    "Raymond Swanland"
+   ],
+   "from": "source:zendikar_resurgent",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:ugin_the_spirit_dragon"
+  },
+  {
+   "artists": [
+    "Ryan Yee"
+   ],
+   "from": "source:rtd_ep9",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:multani_yavimaya_s_avatar"
+  },
+  {
+   "artists": [
+    "Ryan Yee"
+   ],
+   "from": "source:stone_and_blood",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:paraselene"
+  },
+  {
+   "artists": [
+    "Sam Burley"
+   ],
+   "from": "source:lithomancer",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:perilous_vault"
+  },
+  {
+   "artists": [
+    "Sam Burley"
+   ],
+   "from": "source:rtd_ep8",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:mountain"
+  },
+  {
+   "artists": [
+    "Sam Burley"
+   ],
+   "from": "source:sorins_restoration",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:plains"
+  },
+  {
+   "artists": [
+    "Sam Burley"
+   ],
+   "from": "source:tarkir_story_summary",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:tomb_of_the_spirit_dragon"
+  },
+  {
+   "artists": [
+    "Slawomir Maniak"
+   ],
+   "from": "source:revelation_eye",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:salvage_drone"
+  },
+  {
+   "artists": [
+    "Slawomir Maniak"
+   ],
+   "from": "source:sorins_restoration",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:savage_ventmaw"
+  },
+  {
+   "artists": [
+    "Svetlin Velinov"
+   ],
+   "from": "source:rtd_ep12",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:run_amok"
+  },
+  {
+   "artists": [
+    "Titus Lunter"
+   ],
+   "from": "source:rtd_ep12",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:swamp"
+  },
+  {
+   "artists": [
+    "Titus Lunter"
+   ],
+   "from": "source:rtd_ep6",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:mountain"
+  },
+  {
+   "artists": [
+    "Titus Lunter"
+   ],
+   "from": "source:rtd_ep7",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:adventurous_impulse"
+  },
+  {
+   "artists": [
+    "Titus Lunter"
+   ],
+   "from": "source:rtd_ep9",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:ancient_animus"
+  },
+  {
+   "artists": [
+    "Titus Lunter"
+   ],
+   "from": "source:rtd_ep9",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:forest"
+  },
+  {
+   "artists": [
+    "Todd Lockwood"
+   ],
+   "from": "source:rtd_ep8",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:prossh_skyraider_of_kher"
+  },
+  {
+   "artists": [
+    "Todd Lockwood"
+   ],
+   "from": "source:unbroken_unbowed",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:cruel_ultimatum"
+  },
+  {
+   "artists": [
+    "Tommy Arnold"
+   ],
+   "from": "source:rtd_ep7",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:syncopate"
+  },
+  {
+   "artists": [
+    "Tyler Jacobson"
+   ],
+   "from": "source:brink_extinction",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:nissa_s_judgment"
+  },
+  {
+   "artists": [
+    "Tyler Jacobson"
+   ],
+   "from": "source:rtd_ep12",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:demonlord_belzenlok"
+  },
+  {
+   "artists": [
+    "Tyler Jacobson"
+   ],
+   "from": "source:rtd_ep9",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:opt"
+  },
+  {
+   "artists": [
+    "Viktor Titov"
+   ],
+   "from": "source:rtd_ep7",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:excavation_elephant"
+  },
+  {
+   "artists": [
+    "Viktor Titov"
+   ],
+   "from": "source:rtd_ep8",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:verdant_force"
+  },
+  {
+   "artists": [
+    "Viktor Titov"
+   ],
+   "from": "source:sorins_revelation",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:bitter_revelation"
+  },
+  {
+   "artists": [
+    "Vincent Proce"
+   ],
+   "from": "source:revelation_eye",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:island"
+  },
+  {
+   "artists": [
+    "Volkan Baǵa"
+   ],
+   "from": "source:unbroken_unbowed",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:tormenting_voice"
+  },
+  {
+   "artists": [
+    "Wesley Burt"
+   ],
+   "from": "source:brink_extinction",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:oath_of_nissa"
+  },
+  {
+   "artists": [
+    "Wesley Burt"
+   ],
+   "from": "source:rtd_ep12",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:oath_of_teferi"
+  },
+  {
+   "artists": [
+    "Wesley Burt"
+   ],
+   "from": "source:zendikar_resurgent",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:oath_of_chandra"
+  },
+  {
+   "artists": [
+    "Wesley Burt"
+   ],
+   "from": "source:zendikar_resurgent",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:oath_of_gideon"
+  },
+  {
+   "artists": [
+    "Wesley Burt"
+   ],
+   "from": "source:zendikar_resurgent",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:oath_of_jace"
+  },
+  {
+   "artists": [
+    "Wesley Burt"
+   ],
+   "from": "source:zendikar_resurgent",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:oath_of_nissa"
+  },
+  {
+   "artists": [
+    "Willian Murai"
+   ],
+   "from": "source:unbroken_unbowed",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:dragon_tempest"
+  },
+  {
+   "artists": [
+    "Winona Nelson"
+   ],
+   "from": "source:tarkir_story_summary",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:yasova_dragonclaw"
+  },
+  {
+   "artists": [
+    "YW Tang"
+   ],
+   "from": "source:rtd_ep6",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:lingering_phantom"
+  },
+  {
+   "artists": [
+    "Yefim Kligerman"
+   ],
+   "from": "source:brink_extinction",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:call_the_gatewatch"
+  },
+  {
+   "artists": [
+    "Yongjae Choi"
+   ],
+   "from": "source:rtd_ep10",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:fight_with_fire"
+  },
+  {
+   "artists": [
+    "Yongjae Choi"
+   ],
+   "from": "source:rtd_ep12",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:settle_the_score"
+  },
+  {
+   "artists": [
+    "Yongjae Choi"
+   ],
+   "from": "source:rtd_ep9",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:chandra_s_outburst"
+  },
+  {
+   "artists": [
+    "Zack Stella"
+   ],
+   "from": "source:rtd_ep11",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:damnation"
+  },
+  {
+   "artists": [
+    "Zack Stella"
+   ],
+   "from": "source:rtd_ep12",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:in_bolas_s_clutches"
+  },
+  {
+   "artists": [
+    "Zack Stella"
+   ],
+   "from": "source:rtd_ep7",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:teferi_timebender"
+  },
+  {
+   "artists": [
+    "Zack Stella"
+   ],
+   "from": "source:rtd_ep8",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:chandra_bold_pyromancer"
+  },
+  {
+   "artists": [
+    "Zack Stella"
+   ],
+   "from": "source:tarkir_story_summary",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:daghatar_the_adamant"
+  },
+  {
+   "artists": [
+    "Zack Stella"
+   ],
+   "from": "source:zendikar_resurgent",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:sea_gate_wreckage"
+  },
   {
    "beat": "I. The Elder Dragons of Dominaria and the war Bolas started",
    "claims": [
@@ -7263,6 +8553,13 @@
     "file": "data/lore_research/card_name_anchors_2026-10-30.json",
     "sha256": "817de0bb791c4c50020207a9f44d1b85c12c2e77683956c2f0301d813d1ffb6b"
    }
+  ],
+  "story_caption_packs": [
+   {
+    "caption_edges": 143,
+    "file": "data/story_atlas/story_art_captions_2026-10-30.json",
+    "sha256": "cc9afe96ffdc211e06099c799c2c5a93579d86bc0fb7e4ef7c5e9754284c1eb2"
+   }
   ]
  },
  "inverse_relations": {
@@ -7364,6 +8661,24 @@
     "pack_c2_return_to_dominaria_2026-10-30.json"
    ],
    "type": "Object"
+  },
+  {
+   "id": "card:abbot_of_keral_keep",
+   "name": "Abbot of Keral Keep",
+   "oracle_id": "09be0f69-9c7f-491f-964d-bfbbc2d4251f",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:adventurous_impulse",
+   "name": "Adventurous Impulse",
+   "oracle_id": "5bf49f39-b3d5-4148-8dc2-b5b5011769d2",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
   },
   {
    "id": "card:ajani_adversary_of_tyrants",
@@ -7496,7 +8811,8 @@
    "name": "Ajani, Valiant Protector",
    "oracle_id": "542423cb-fbfb-4a2f-9f6d-87b273a95e96",
    "origins": [
-    "card_name_anchors_2026-10-30.json"
+    "card_name_anchors_2026-10-30.json",
+    "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -7515,6 +8831,33 @@
    "oracle_id": "341f198b-beb6-4a44-af91-a64a5989c865",
    "origins": [
     "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:alesha_who_smiles_at_death",
+   "name": "Alesha, Who Smiles at Death",
+   "oracle_id": "6969a7e2-6866-4001-a139-24b3be13deae",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:all_is_dust",
+   "name": "All Is Dust",
+   "oracle_id": "14693689-d087-43b6-9c3f-63ab0648fc20",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:ancient_animus",
+   "name": "Ancient Animus",
+   "oracle_id": "4c9a38f8-8fcb-45f9-8b70-e54298c7b485",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -7595,6 +8938,15 @@
    "type": "Card"
   },
   {
+   "id": "card:atarka_beastbreaker",
+   "name": "Atarka Beastbreaker",
+   "oracle_id": "fdd4ef61-607a-4090-9380-dabbbb448519",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:augur_of_bolas",
    "name": "Augur of Bolas",
    "oracle_id": "be5d6779-ecc9-44b9-8c4d-97a243059d55",
@@ -7604,11 +8956,29 @@
    "type": "Card"
   },
   {
+   "id": "card:avacyn_angel_of_hope",
+   "name": "Avacyn, Angel of Hope",
+   "oracle_id": "216cb26e-8da9-478b-bfbc-8030f7adee72",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:backlash",
    "name": "Backlash",
    "oracle_id": "3db9bf7b-da4e-428f-aa5d-a0cd1afeb16c",
    "origins": [
     "original_primeval_dragons_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:baird_steward_of_argive",
+   "name": "Baird, Steward of Argive",
+   "oracle_id": "69aa6809-5468-413a-94c9-562e6de93957",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -7626,7 +8996,17 @@
    "name": "Bitter Revelation",
    "oracle_id": "f3e025ce-6114-42d0-842f-73366c853657",
    "origins": [
+    "story_art_captions_2026-10-30.json",
     "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:blackblade_reforged",
+   "name": "Blackblade Reforged",
+   "oracle_id": "dca51281-fb21-45b6-beb4-1f13397caee2",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -7658,11 +9038,30 @@
    "type": "Card"
   },
   {
+   "id": "card:cabal_ritual",
+   "name": "Cabal Ritual",
+   "oracle_id": "5b5bf1fa-6502-4790-b66b-f0f8504ebc7c",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:cabal_stronghold",
    "name": "Cabal Stronghold",
    "oracle_id": "066cd584-773c-4623-be53-8f6feda5a26a",
    "origins": [
-    "card_name_anchors_2026-10-30.json"
+    "card_name_anchors_2026-10-30.json",
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:call_the_gatewatch",
+   "name": "Call the Gatewatch",
+   "oracle_id": "652bfa31-b2eb-4cba-850f-1db02a83bb35",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -7694,6 +9093,15 @@
    "type": "Card"
   },
   {
+   "id": "card:chandra_bold_pyromancer",
+   "name": "Chandra, Bold Pyromancer",
+   "oracle_id": "1cdba3c1-19e1-43c3-a0d8-5fb2b88060d8",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:chandra_nalaar",
    "name": "Chandra Nalaar",
    "oracle_id": "f4da7a43-e9d5-47ea-b2f0-3cf55a156f4a",
@@ -7708,6 +9116,15 @@
    "oracle_id": "a57ad23b-cff3-45e5-98b3-1b20224aaa19",
    "origins": [
     "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:chandra_s_outburst",
+   "name": "Chandra's Outburst",
+   "oracle_id": "894a344e-a8a7-4ddc-833d-eea41f1918d7",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -7765,6 +9182,15 @@
    "oracle_id": "f25351e3-539b-4bbc-b92d-6480acf4d722",
    "origins": [
     "original_primeval_dragons_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:cliffside_lookout",
+   "name": "Cliffside Lookout",
+   "oracle_id": "97671aac-7322-44ae-8908-d573734db3af",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -7856,9 +9282,19 @@
     "card_name_anchors_2026-10-30.json",
     "pack_a4_printing_art_matches_2026-10-30.json",
     "pack_a_tarkir_card_scenes_2026-10-30.json",
+    "story_art_captions_2026-10-30.json",
     "ugin_bolas_elder_dragon_duality_printing_evidence.json"
    ],
    "story_art_illustration_id": "12281ea1-2759-4c81-a881-e308c497fcf3",
+   "type": "Card"
+  },
+  {
+   "id": "card:cruel_ultimatum",
+   "name": "Cruel Ultimatum",
+   "oracle_id": "01294ac9-1a06-4ee8-b3b1-db1f07c9d94e",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
    "type": "Card"
   },
   {
@@ -7898,6 +9334,15 @@
    "type": "Card"
   },
   {
+   "id": "card:daghatar_the_adamant",
+   "name": "Daghatar the Adamant",
+   "oracle_id": "7b303881-ac8d-4459-b04e-768a6804763c",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:dakkon_blackblade",
    "name": "Dakkon Blackblade",
    "oracle_id": "1aa78e3b-bf7e-4645-9521-4b3537c93f46",
@@ -7915,6 +9360,15 @@
     "card_name_anchors_2026-10-30.json",
     "original_primeval_dragons_printing_evidence.json",
     "pack_a_elder_dragon_war_extension_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:damnation",
+   "name": "Damnation",
+   "oracle_id": "d57a8f0b-7989-4db5-8756-6f2690097252",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -7973,6 +9427,42 @@
    "type": "Card"
   },
   {
+   "id": "card:dark_dabbling",
+   "name": "Dark Dabbling",
+   "oracle_id": "342daae1-f7f0-4bce-94bc-e9bdce53e48e",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:deadlock_trap",
+   "name": "Deadlock Trap",
+   "oracle_id": "726c911d-6543-4400-a8fa-b8a5c9f0c15d",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:demonic_pact",
+   "name": "Demonic Pact",
+   "oracle_id": "19a2f0a0-9e68-4982-a5f5-b77d805befd7",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:demonlord_belzenlok",
+   "name": "Demonlord Belzenlok",
+   "oracle_id": "667ece0e-a474-4e11-8ac4-6c8fc354457c",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:despark",
    "name": "Despark",
    "oracle_id": "bd16434d-55ea-4c5a-a9ef-752971a4af16",
@@ -8004,7 +9494,17 @@
    "name": "Dispel",
    "oracle_id": "6d7be242-a072-40ce-b540-95880506cccd",
    "origins": [
+    "story_art_captions_2026-10-30.json",
     "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:distant_memories",
+   "name": "Distant Memories",
+   "oracle_id": "12c78cc4-7fbe-4639-bef7-bf959a0d6d68",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -8023,6 +9523,24 @@
    "oracle_id": "9b06f2bf-146d-4b30-b467-e16f1a942253",
    "origins": [
     "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:dragon_tempest",
+   "name": "Dragon Tempest",
+   "oracle_id": "b9bacb46-fd1d-459b-81c2-d7d08fe73848",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:dragonlord_atarka",
+   "name": "Dragonlord Atarka",
+   "oracle_id": "daff70a4-a990-47c9-b6ef-2c379272c8a3",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -8144,11 +9662,38 @@
    "type": "Card"
   },
   {
+   "id": "card:excavation_elephant",
+   "name": "Excavation Elephant",
+   "oracle_id": "45fa04ee-3b5c-45b3-8c09-bda08cca3630",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:exotic_orchard",
    "name": "Exotic Orchard",
    "oracle_id": "27b047e3-0d41-45e2-98e9-9391d7923a1e",
    "origins": [
     "original_primeval_dragons_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:explore",
+   "name": "Explore",
+   "oracle_id": "b8f566ea-8283-4afa-9ac8-737e26419283",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:exquisite_firecraft",
+   "name": "Exquisite Firecraft",
+   "oracle_id": "e83c617f-1e07-40db-9b12-ae01122a3e24",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -8180,6 +9725,24 @@
    "type": "Card"
   },
   {
+   "id": "card:fiery_intervention",
+   "name": "Fiery Intervention",
+   "oracle_id": "a8cd3a52-1056-4664-ae55-eb0ba3a43a15",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:fight_with_fire",
+   "name": "Fight with Fire",
+   "oracle_id": "202b275e-e0c4-482d-abe9-c5e6360208f3",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:finale_of_revelation",
    "name": "Finale of Revelation",
    "oracle_id": "755bd5d8-67f1-4f24-a4e8-d98edf2f2e03",
@@ -8189,11 +9752,47 @@
    "type": "Card"
   },
   {
+   "id": "card:forest",
+   "name": "Forest",
+   "oracle_id": "b34bb2dc-c1af-4d77-b0b3-a0fb342a5fc6",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:fraying_omnipotence",
    "name": "Fraying Omnipotence",
    "oracle_id": "3b00068d-ad07-417c-bbb3-5f980615fb06",
    "origins": [
     "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:frontier_siege",
+   "name": "Frontier Siege",
+   "oracle_id": "4cfaa5cf-cc3d-49a7-9544-38a8bb7e9ec1",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:fungal_plots",
+   "name": "Fungal Plots",
+   "oracle_id": "0a85402a-e3be-4ebb-8001-9d9a20dde7e8",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:general_tazri",
+   "name": "General Tazri",
+   "oracle_id": "b0f19cba-1339-4518-8320-d7b1dcaf2eb0",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -8244,6 +9843,15 @@
    "type": "Card"
   },
   {
+   "id": "card:gideon_s_reproach",
+   "name": "Gideon's Reproach",
+   "oracle_id": "ec43d67c-2254-4782-8bd4-3318b25907e6",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:gix_yawgmoth_praetor",
    "name": "Gix, Yawgmoth Praetor",
    "oracle_id": "928d977e-cff0-4e0e-83bb-16d73a754f35",
@@ -8280,6 +9888,15 @@
    "type": "Card"
   },
   {
+   "id": "card:grand_warlord_radha",
+   "name": "Grand Warlord Radha",
+   "oracle_id": "0fb90df6-a62b-4a9f-ae79-db71d40466ce",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:harbin_vanguard_aviator",
    "name": "Harbin, Vanguard Aviator",
    "oracle_id": "d827575f-e364-4a20-887e-3091e5501a4f",
@@ -8302,6 +9919,7 @@
    "name": "Haven of the Spirit Dragon",
    "oracle_id": "acc9c16a-5e72-43bd-87e1-56a16aa892f5",
    "origins": [
+    "story_art_captions_2026-10-30.json",
     "ugin_bolas_elder_dragon_duality_printing_evidence.json"
    ],
    "type": "Card"
@@ -8311,7 +9929,17 @@
    "name": "Hedron Archive",
    "oracle_id": "32263baa-d3f0-463f-92b3-4e9938476add",
    "origins": [
+    "story_art_captions_2026-10-30.json",
     "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:helvault",
+   "name": "Helvault",
+   "oracle_id": "fa3d8a6f-dc5b-4890-a806-f785a41660c7",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -8330,6 +9958,15 @@
    "oracle_id": "b9ea0d4c-cd71-4817-8213-96899e1a14bb",
    "origins": [
     "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:in_bolas_s_clutches",
+   "name": "In Bolas's Clutches",
+   "oracle_id": "201a4455-1b6b-4e13-a0d5-4cf2116e1673",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -8361,6 +9998,15 @@
    "type": "Card"
   },
   {
+   "id": "card:island",
+   "name": "Island",
+   "oracle_id": "b2c6aa39-2d2a-459c-a555-fb48ba993373",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:jace_beleren",
    "name": "Jace Beleren",
    "oracle_id": "cc2b6e58-2d6f-495e-95f3-9496105c4cba",
@@ -8383,7 +10029,8 @@
    "name": "Jaya Ballard",
    "oracle_id": "a56c5ca5-70eb-4d5f-8116-2acbe5f5a3cb",
    "origins": [
-    "card_name_anchors_2026-10-30.json"
+    "card_name_anchors_2026-10-30.json",
+    "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -8420,6 +10067,15 @@
    "oracle_id": "ad3f4ec9-9905-421b-98ed-78bb6fc9b450",
    "origins": [
     "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:jhoira_s_familiar",
+   "name": "Jhoira's Familiar",
+   "oracle_id": "df4b5f7b-9d83-49b1-bd5e-77d0652eb34c",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -8518,7 +10174,8 @@
    "name": "Karn, Scion of Urza",
    "oracle_id": "060209fa-4b7d-4e08-bf8b-8759bba5641b",
    "origins": [
-    "card_name_anchors_2026-10-30.json"
+    "card_name_anchors_2026-10-30.json",
+    "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -8559,11 +10216,38 @@
    "type": "Card"
   },
   {
+   "id": "card:kiora_master_of_the_depths",
+   "name": "Kiora, Master of the Depths",
+   "oracle_id": "0b829189-ff9d-4f6c-9a2a-fdb4a9bfeeb6",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:kodama_s_reach",
    "name": "Kodama's Reach",
    "oracle_id": "1593ea18-2f2f-4ab4-83fb-6ccc0bec8a90",
    "origins": [
     "original_primeval_dragons_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:kwende_pride_of_femeref",
+   "name": "Kwende, Pride of Femeref",
+   "oracle_id": "3adebbbf-39fe-4b42-b719-2f8edb009693",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:learn_from_the_past",
+   "name": "Learn from the Past",
+   "oracle_id": "f325fd7a-dcae-4892-adf5-de9893a23ac5",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -8581,6 +10265,7 @@
    "name": "Liliana's Defeat",
    "oracle_id": "7c8b38b3-b808-4ad8-b4e5-39e216063ff6",
    "origins": [
+    "story_art_captions_2026-10-30.json",
     "ugin_bolas_elder_dragon_duality_printing_evidence.json"
    ],
    "type": "Card"
@@ -8604,6 +10289,24 @@
    "type": "Card"
   },
   {
+   "id": "card:lingering_phantom",
+   "name": "Lingering Phantom",
+   "oracle_id": "76164af1-275e-4d68-9df5-9801768512ef",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:looming_spires",
+   "name": "Looming Spires",
+   "oracle_id": "7d09b136-525f-49dd-a3a2-dfaca4e8e9a8",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:lyra_dawnbringer",
    "name": "Lyra Dawnbringer",
    "oracle_id": "592c91fc-6430-4c76-9460-65f047350f67",
@@ -8618,6 +10321,15 @@
    "oracle_id": "49e9fba7-8465-4bbb-95db-73a7e149f494",
    "origins": [
     "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:magma_rift",
+   "name": "Magma Rift",
+   "oracle_id": "0996d48a-f92a-4aaf-b8a3-f7ec8ff986ca",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -8654,6 +10366,15 @@
    "oracle_id": "74d3277a-38e5-4732-afed-084a56148f20",
    "origins": [
     "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:memorial_to_genius",
+   "name": "Memorial to Genius",
+   "oracle_id": "81763d7d-3897-4be9-bbf6-f6f5dee366ff",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -8703,11 +10424,47 @@
    "type": "Card"
   },
   {
+   "id": "card:mishra_s_self_replicator",
+   "name": "Mishra's Self-Replicator",
+   "oracle_id": "5546d127-a961-4e33-bbc9-06ee14b0cb04",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:mishra_tamer_of_mak_fawa",
    "name": "Mishra, Tamer of Mak Fawa",
    "oracle_id": "3be40d81-9be5-4f39-8ce4-920c26cf2748",
    "origins": [
     "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:monastery_siege",
+   "name": "Monastery Siege",
+   "oracle_id": "240a33a8-23a0-4cb2-a9fd-1a2a21966bb8",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:mountain",
+   "name": "Mountain",
+   "oracle_id": "a3fb7228-e76b-4e96-a40e-20b5fed75685",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:muldrotha_the_gravetide",
+   "name": "Muldrotha, the Gravetide",
+   "oracle_id": "e4625704-1d52-44e4-804f-2f45644d76ac",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -8725,7 +10482,17 @@
    "name": "Multani, Yavimaya's Avatar",
    "oracle_id": "4b8bf64b-4800-45ff-81c6-2857f34999b5",
    "origins": [
-    "card_name_anchors_2026-10-30.json"
+    "card_name_anchors_2026-10-30.json",
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:nahiri_the_harbinger",
+   "name": "Nahiri, the Harbinger",
+   "oracle_id": "d492eb9a-1f3b-4bf2-9a5d-0f4a4433f33f",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -8734,7 +10501,8 @@
    "name": "Nahiri, the Lithomancer",
    "oracle_id": "a554aa2c-d947-4fc6-929d-d5891f467615",
    "origins": [
-    "card_name_anchors_2026-10-30.json"
+    "card_name_anchors_2026-10-30.json",
+    "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -8788,7 +10556,8 @@
    "name": "Narset Transcendent",
    "oracle_id": "e1de0c94-0ecc-425a-9b92-27c2745d07e7",
    "origins": [
-    "card_name_anchors_2026-10-30.json"
+    "card_name_anchors_2026-10-30.json",
+    "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -8798,6 +10567,15 @@
    "oracle_id": "78826359-fe63-44ad-adc4-a17ffcd710e4",
    "origins": [
     "original_primeval_dragons_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:nature_s_spiral",
+   "name": "Nature's Spiral",
+   "oracle_id": "565922d6-8152-411f-8d4d-dc7c8523a49b",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -8824,7 +10602,8 @@
    "name": "Niambi, Faithful Healer",
    "oracle_id": "0c107664-a9fc-4684-8a1b-fa750401a6dd",
    "origins": [
-    "card_name_anchors_2026-10-30.json"
+    "card_name_anchors_2026-10-30.json",
+    "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -8909,11 +10688,74 @@
    "type": "Card"
   },
   {
+   "id": "card:nissa_s_judgment",
+   "name": "Nissa's Judgment",
+   "oracle_id": "14247820-5ecb-40bd-8dee-0625cc745ec2",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:no_escape",
    "name": "No Escape",
    "oracle_id": "7c6e0198-edd8-42b8-ba1b-549e1713d188",
    "origins": [
     "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:oath_of_chandra",
+   "name": "Oath of Chandra",
+   "oracle_id": "53a0923f-7da8-4e31-a231-9b275916e2a2",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:oath_of_gideon",
+   "name": "Oath of Gideon",
+   "oracle_id": "ea168acc-22a1-4ba5-affd-fb813b93535a",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:oath_of_jace",
+   "name": "Oath of Jace",
+   "oracle_id": "dc92b420-8ac7-4478-a287-3d897357be08",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:oath_of_nissa",
+   "name": "Oath of Nissa",
+   "oracle_id": "c4efdbab-711d-4269-9b24-b05d36f7e5c7",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:oath_of_teferi",
+   "name": "Oath of Teferi",
+   "oracle_id": "ee00a42d-6ee4-4e46-92d6-62e8e5910880",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:opt",
+   "name": "Opt",
+   "oracle_id": "713332c1-5bd8-400f-bfff-c1ca0697a043",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -8939,6 +10781,15 @@
    "type": "Card"
   },
   {
+   "id": "card:paraselene",
+   "name": "Paraselene",
+   "oracle_id": "e14ac0f3-00d5-4a95-990c-b7ea157bb87e",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:path_of_ancestry",
    "name": "Path of Ancestry",
    "oracle_id": "b473e293-59e3-4e04-acf2-622604aeb25f",
@@ -8952,6 +10803,7 @@
    "name": "Perilous Vault",
    "oracle_id": "7acd7ef5-0e26-436d-962a-1a391f81c2e8",
    "origins": [
+    "story_art_captions_2026-10-30.json",
     "ugin_bolas_elder_dragon_duality_printing_evidence.json"
    ],
    "type": "Card"
@@ -8968,11 +10820,47 @@
    "type": "Card"
   },
   {
+   "id": "card:plains",
+   "name": "Plains",
+   "oracle_id": "bc71ebf6-2056-41f7-be35-b2e5c34afa99",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:prairie_stream",
+   "name": "Prairie Stream",
+   "oracle_id": "5330e24a-8568-446e-840a-594cd08bd1bc",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:prossh_skyraider_of_kher",
+   "name": "Prossh, Skyraider of Kher",
+   "oracle_id": "868882d2-ed4e-4171-a17c-478a341080fb",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:pyretic_rebirth",
    "name": "Pyretic Rebirth",
    "oracle_id": "a38ace5b-34f5-4105-b6ee-dedb86037729",
    "origins": [
     "original_primeval_dragons_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:pyromancer_s_goggles",
+   "name": "Pyromancer's Goggles",
+   "oracle_id": "f76bcbfe-483f-4e63-8425-76feca1abf3e",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -9088,6 +10976,24 @@
    "type": "Card"
   },
   {
+   "id": "card:rugged_highlands",
+   "name": "Rugged Highlands",
+   "oracle_id": "6c922206-6e68-4dcd-9559-88da1074f2c4",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:run_amok",
+   "name": "Run Amok",
+   "oracle_id": "d463de75-8d3c-4077-a2cc-c304a63acc69",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:saheeli_consul_of_oversight",
    "name": "Saheeli, Consul of Oversight",
    "oracle_id": "dfa95c0e-393d-4b22-9de3-45a7efc0ba14",
@@ -9160,6 +11066,24 @@
    "type": "Card"
   },
   {
+   "id": "card:salvage_drone",
+   "name": "Salvage Drone",
+   "oracle_id": "9b18bbf3-3b1c-4010-bc6f-e7eacb2ffb70",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:sanctum_of_ugin",
+   "name": "Sanctum of Ugin",
+   "oracle_id": "72cb5dcd-9b24-435c-921a-3766108374c4",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:sarkhan_dragon_ascendant",
    "name": "Sarkhan, Dragon Ascendant",
    "oracle_id": "71cb48e2-2328-471c-a04a-7b6461f378f4",
@@ -9219,6 +11143,7 @@
    "oracle_id": "80c26f58-04b0-4db0-b84e-9b136609abe0",
    "origins": [
     "card_name_anchors_2026-10-30.json",
+    "story_art_captions_2026-10-30.json",
     "ugin_bolas_elder_dragon_duality_printing_evidence.json"
    ],
    "type": "Card"
@@ -9247,7 +11172,8 @@
    "name": "Sarkhan Unbroken",
    "oracle_id": "1d37b453-f10c-42f2-8390-626a8a8eb27c",
    "origins": [
-    "card_name_anchors_2026-10-30.json"
+    "card_name_anchors_2026-10-30.json",
+    "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -9257,6 +11183,15 @@
    "oracle_id": "d902074a-2a2b-42b7-a1e5-750862c64fbe",
    "origins": [
     "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:savage_ventmaw",
+   "name": "Savage Ventmaw",
+   "oracle_id": "f743d85f-754e-4e70-9907-af54acb9e8d4",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -9275,6 +11210,33 @@
    "oracle_id": "b4031540-584b-4c8a-9e4e-d68ae5cdec5b",
    "origins": [
     "original_primeval_dragons_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:scion_of_ugin",
+   "name": "Scion of Ugin",
+   "oracle_id": "7422f43d-0c1e-42cb-864d-1c63f2ec533a",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:sea_gate_wreckage",
+   "name": "Sea Gate Wreckage",
+   "oracle_id": "91f34686-cb96-49c0-b4a7-49dd1fd076e2",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:settle_the_score",
+   "name": "Settle the Score",
+   "oracle_id": "2f18bb2d-249f-4d7a-a0f7-8a285d365777",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -9364,7 +11326,8 @@
    "name": "Slimefoot, the Stowaway",
    "oracle_id": "fd541139-de13-4b32-93ba-070ecf711d33",
    "origins": [
-    "card_name_anchors_2026-10-30.json"
+    "card_name_anchors_2026-10-30.json",
+    "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -9383,7 +11346,17 @@
    "name": "Sorin Markov",
    "oracle_id": "c151e8b7-4b28-4f03-8a81-9bf623f893d7",
    "origins": [
-    "card_name_anchors_2026-10-30.json"
+    "card_name_anchors_2026-10-30.json",
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:sorin_solemn_visitor",
+   "name": "Sorin, Solemn Visitor",
+   "oracle_id": "1f1f1ae7-dd00-4825-832e-3a049cf8ce73",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -9393,6 +11366,15 @@
    "oracle_id": "419c2ae1-fec7-4c27-a7a0-99f777abb4de",
    "origins": [
     "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:soul_summons",
+   "name": "Soul Summons",
+   "oracle_id": "0f5b79ca-9f80-420b-a6c5-bb2a9a95c7e7",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -9424,10 +11406,20 @@
    "type": "Card"
   },
   {
+   "id": "card:stronghold_confessor",
+   "name": "Stronghold Confessor",
+   "oracle_id": "e7c200a9-4793-44c8-ba8d-6298dc83bbac",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:sulfur_falls",
    "name": "Sulfur Falls",
    "oracle_id": "6a6c5e17-6465-4a1f-9d63-8a3ce2edc522",
    "origins": [
+    "story_art_captions_2026-10-30.json",
     "ugin_bolas_elder_dragon_duality_printing_evidence.json"
    ],
    "type": "Card"
@@ -9442,11 +11434,29 @@
    "type": "Card"
   },
   {
+   "id": "card:swamp",
+   "name": "Swamp",
+   "oracle_id": "56719f6a-1a6c-4c0a-8d21-18f7d7350b68",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:swords_to_plowshares",
    "name": "Swords to Plowshares",
    "oracle_id": "b1544f21-7e98-461b-aed5-e748b0168c52",
    "origins": [
     "original_primeval_dragons_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:syncopate",
+   "name": "Syncopate",
+   "oracle_id": "318f7f70-e374-40ef-8afb-3389c10461d8",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -9474,6 +11484,15 @@
    "oracle_id": "1d9aeaaa-66f6-41cb-9bac-162d6fd8662c",
    "origins": [
     "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:tasigur_the_golden_fang",
+   "name": "Tasigur, the Golden Fang",
+   "oracle_id": "837e3fde-241f-4826-ad04-f146fdcf2278",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -9518,7 +11537,8 @@
    "name": "Teferi, Hero of Dominaria",
    "oracle_id": "f2f165b6-ef0a-42ad-9352-ba68be8248b0",
    "origins": [
-    "card_name_anchors_2026-10-30.json"
+    "card_name_anchors_2026-10-30.json",
+    "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -9527,7 +11547,8 @@
    "name": "Teferi, Mage of Zhalfir",
    "oracle_id": "2b6cbd55-5adc-4a34-ac45-8531705a7ee1",
    "origins": [
-    "card_name_anchors_2026-10-30.json"
+    "card_name_anchors_2026-10-30.json",
+    "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -9537,6 +11558,15 @@
    "oracle_id": "e802fb53-7cf5-46bc-8a0b-f99cf5c20f74",
    "origins": [
     "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:teferi_s_protection",
+   "name": "Teferi's Protection",
+   "oracle_id": "0d4ecdb1-ec90-497f-a7a4-1c68092b8757",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -9572,7 +11602,8 @@
    "name": "Teferi, Timebender",
    "oracle_id": "761bb894-d3f9-4248-af76-1559c502e342",
    "origins": [
-    "card_name_anchors_2026-10-30.json"
+    "card_name_anchors_2026-10-30.json",
+    "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -9727,9 +11758,19 @@
     "card_name_anchors_2026-10-30.json",
     "pack_a4_printing_art_matches_2026-10-30.json",
     "pack_a_tarkir_card_scenes_2026-10-30.json",
+    "story_art_captions_2026-10-30.json",
     "ugin_bolas_elder_dragon_duality_printing_evidence.json"
    ],
    "story_art_illustration_id": "48a2cb02-6af1-4bae-a577-2880ca822b9e",
+   "type": "Card"
+  },
+  {
+   "id": "card:tormenting_voice",
+   "name": "Tormenting Voice",
+   "oracle_id": "f307b5b4-e949-4f69-8dc7-856e33a45a16",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
    "type": "Card"
   },
   {
@@ -9857,9 +11898,28 @@
     "original_primeval_dragons_printing_evidence.json",
     "pack_a4_printing_art_matches_2026-10-30.json",
     "pack_a_tarkir_card_scenes_2026-10-30.json",
+    "story_art_captions_2026-10-30.json",
     "ugin_bolas_elder_dragon_duality_printing_evidence.json"
    ],
    "story_art_illustration_id": "47715ae0-7456-449e-ad32-0a7bc47a4e7a",
+   "type": "Card"
+  },
+  {
+   "id": "card:ulamog_the_ceaseless_hunger",
+   "name": "Ulamog, the Ceaseless Hunger",
+   "oracle_id": "0bfa4512-e35a-4c93-b324-80ec659f5a97",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:ulamog_the_infinite_gyre",
+   "name": "Ulamog, the Infinite Gyre",
+   "oracle_id": "b817bc56-9b4d-4c50-bafa-3c652b99578f",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
    "type": "Card"
   },
   {
@@ -9877,6 +11937,24 @@
    "oracle_id": "857febd9-cdd7-4f8e-a852-d88084b0cfbc",
    "origins": [
     "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:unity_of_purpose",
+   "name": "Unity of Purpose",
+   "oracle_id": "9fbcae6e-5523-47a3-b0ff-ab7a8bb72822",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:urgoros_the_empty_one",
+   "name": "Urgoros, the Empty One",
+   "oracle_id": "43e7b834-d3a9-4297-bf79-2dab5507bebe",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -9974,6 +12052,15 @@
    "type": "Card"
   },
   {
+   "id": "card:valakut_the_molten_pinnacle",
+   "name": "Valakut, the Molten Pinnacle",
+   "oracle_id": "1bc44216-4e06-4f66-89b7-5c327004604e",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:venser_corpse_puppet",
    "name": "Venser, Corpse Puppet",
    "oracle_id": "17c934a7-3480-4309-a217-ca2550538ae7",
@@ -10019,6 +12106,15 @@
    "type": "Card"
   },
   {
+   "id": "card:verdant_force",
+   "name": "Verdant Force",
+   "oracle_id": "7a21ea22-3cd7-4c11-8895-5943c0d93a0d",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:visage_of_bolas",
    "name": "Visage of Bolas",
    "oracle_id": "21bb3c03-c1c0-40ec-8df4-8d0054c3742b",
@@ -10033,6 +12129,15 @@
    "oracle_id": "9331cfd7-a818-45ed-9e4a-4d3c381052e0",
    "origins": [
     "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:wastes",
+   "name": "Wastes",
+   "oracle_id": "05d24b0c-904a-46b6-b42a-96a4d91a0dd4",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -10059,7 +12164,26 @@
    "name": "Weatherlight",
    "oracle_id": "73b3682f-396a-4ebe-aaac-6ce3ee36283a",
    "origins": [
-    "card_name_anchors_2026-10-30.json"
+    "card_name_anchors_2026-10-30.json",
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:weight_of_memory",
+   "name": "Weight of Memory",
+   "oracle_id": "826c5feb-9e82-49e0-bc6f-6c29004f8151",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:whisper_blood_liturgist",
+   "name": "Whisper, Blood Liturgist",
+   "oracle_id": "496ab82e-24a9-4a74-ba4b-992c7309b44a",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -10073,6 +12197,15 @@
    "type": "Card"
   },
   {
+   "id": "card:worn_powerstone",
+   "name": "Worn Powerstone",
+   "oracle_id": "b166b670-febc-4821-855e-f8d465644c03",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:xander_s_lounge",
    "name": "Xander's Lounge",
    "oracle_id": "8291543f-d086-48aa-b2b7-5481ca8c9198",
@@ -10082,11 +12215,21 @@
    "type": "Card"
   },
   {
+   "id": "card:yargle_glutton_of_urborg",
+   "name": "Yargle, Glutton of Urborg",
+   "oracle_id": "ed66cd31-958f-4b28-82a3-e04acc819afc",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:yasova_dragonclaw",
    "name": "Yasova Dragonclaw",
    "oracle_id": "75dc0995-f89e-4a2c-b30b-9b5a07c21183",
    "origins": [
-    "card_name_anchors_2026-10-30.json"
+    "card_name_anchors_2026-10-30.json",
+    "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -10100,6 +12243,15 @@
    "type": "Card"
   },
   {
+   "id": "card:zada_hedron_grinder",
+   "name": "Zada, Hedron Grinder",
+   "oracle_id": "9f7d5e1c-bf5b-4ab9-bd6e-2627b4d22b36",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:zagoth_triome",
    "name": "Zagoth Triome",
    "oracle_id": "fdd46004-eaba-4024-8687-39b23dc6a58c",
@@ -10109,11 +12261,38 @@
    "type": "Card"
   },
   {
+   "id": "card:zendikar_resurgent",
+   "name": "Zendikar Resurgent",
+   "oracle_id": "a0af158b-f42a-4022-a438-e0a2e1fd6d9e",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:zhalfirin_void",
+   "name": "Zhalfirin Void",
+   "oracle_id": "13aab4fc-4c89-45e6-8275-b074b00d0ee9",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:ziatora_s_proving_ground",
    "name": "Ziatora's Proving Ground",
    "oracle_id": "f7e7b78c-c769-4720-8585-1874773eb342",
    "origins": [
     "original_primeval_dragons_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:zurgo_helmsmasher",
+   "name": "Zurgo Helmsmasher",
+   "oracle_id": "6c48d888-9f5d-43f4-adbd-61dbdba09260",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -13582,11 +15761,11 @@
    "OPEN_QUESTION": 2
   },
   "curated_bridges": 39,
-  "edges": 985,
+  "edges": 1128,
   "literal_objects": 12,
   "node_types": {
    "AlternateContinuity": 1,
-   "Card": 295,
+   "Card": 390,
    "CardTheme": 1,
    "Character": 56,
    "Claim": 133,
@@ -13600,9 +15779,9 @@
    "Plane": 8,
    "Source": 59
   },
-  "nodes": 650,
+  "nodes": 745,
   "non_wizards_sources": 0,
-  "relations": 129,
+  "relations": 130,
   "wizards_official_sources": 59
  }
 }
