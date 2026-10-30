@@ -1,0 +1,41 @@
+name: Phase 8 release readiness (read-only)
+
+on:
+  pull_request:
+    paths:
+      - 'scripts/release_readiness.py'
+      - 'tests/test_release_readiness.py'
+      - 'data/release/**'
+      - 'data/multiverse_graph/**'
+      - 'data/card_db/**'
+      - 'data/card_enrichment.json'
+      - '.github/workflows/phase8-release-readiness.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  release-readiness:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Readiness report
+        run: python3 scripts/release_readiness.py
+      - name: Committed report statuses match a fresh evaluation
+        run: |
+          python3 - <<'PY'
+          import json, glob, sys
+          sys.path.insert(0, "scripts")
+          import release_readiness as R
+          live = {c["id"]: c["status"] for c in R.readiness()["criteria"]}
+          f = sorted(glob.glob("data/release/readiness_*.json"))[-1]
+          saved = {c["id"]: c["status"] for c in json.load(open(f))["criteria"]}
+          assert live == saved, (f, live, saved)
+          print("OK", f, saved)
+          PY
+      - name: Tests
+        run: python3 -m unittest discover -s tests -p 'test_release_readiness.py' -v
