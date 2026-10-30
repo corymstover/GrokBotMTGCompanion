@@ -17,6 +17,7 @@ ROOT = Path(__file__).resolve().parent.parent
 INDEX = ROOT / "data/set_atlas/product_family_triage_2026-10-29.json"
 SOURCE_REVIEW = ROOT / "data/set_atlas/draft_starter_primary_audit_2026-10-29.json"
 SECOND_SOURCE_REVIEW = ROOT / "data/set_atlas/draft_starter_batch2_audit_2026-10-29.json"
+REPRINT_SOURCE_REVIEW = ROOT / "data/set_atlas/reprint_curated_source_audit_2026-10-29.json"
 
 
 def apply_source_overlay(data, verified):
@@ -113,6 +114,55 @@ def apply_second_source_overlay(data, verified):
     return current
 
 
+def apply_reprint_source_overlay(data, report):
+    """Only update the exact 28 new Wizards-family cited codes; preserve history."""
+    if report["cutoff"] != data["snapshot_date"]:
+        raise ValueError("Incompatible research snapshot")
+    rows = {x["code"]:x for x in report["newly_sourced_family_evidence"]}
+    if len(rows) != report["source_reviewed_this_batch"] or len(rows) != 28:
+        raise ValueError("Unexpected duplicate/missing reprint source rows")
+    result = []
+    changed = set()
+    for record in data["all_848_released_nondigital_other_type_records"]:
+        item = dict(record)
+        src = rows.get(item["code"])
+        if src:
+            if item["wizards_individual_source_review"]:
+                raise ValueError(f"Cannot replace previously verified review: {item['code']}")
+            if item["scryfall_set_type"] != src["scryfall_set_type"]:
+                raise ValueError(f"Scryfall category changed for {item['code']}")
+            item.update({
+                "wizards_individual_source_review": True,
+                "review_status": "wizards_reprint_curated_product_family_reviewed",
+                "wizards_primary_source": src["wizards_source_url"],
+                "wizards_review_product_group": src["wizards_product_family"],
+                "wizards_source_grade": src["evidence_grade"],
+                "wizards_code_explicitly_confirmed": src["wizards_explicit_scryfall_code"],
+                "verified_evidence_note": src["source_note"],
+                "wizards_premier_status_certified": False
+            })
+            changed.add(item["code"])
+        result.append(item)
+    if changed != set(rows) or len(result) != 848:
+        raise ValueError("Review overlay failed total exact-code coverage")
+    out = dict(data)
+    out["all_848_released_nondigital_other_type_records"] = result
+    out["wizards_reviewed_examples"] = report["cumulative_wizards_family_evidence_codes"]
+    out["metadata_only_pending_wizards_individual_review"] = report["cumulative_pending_codes"]
+    out["cohort_review_progress"] = {}
+    for cohort in data["metadata_research_cohorts"]:
+        members = [r for r in result if r["metadata_cohort_not_official_classification"] == cohort]
+        out["cohort_review_progress"][cohort] = {
+            "codes": len(members),
+            "wizards_reviewed": sum(bool(r["wizards_individual_source_review"]) for r in members),
+            "needs_individual_review": sum(not r["wizards_individual_source_review"] for r in members),
+            "explicit_parent_links": sum(bool(r["parent_set_code_explicit_only"]) for r in members)
+        }
+    if sum(bool(r["wizards_individual_source_review"]) for r in result) != 71:
+        raise ValueError("Review overlay conservation not 71")
+    return out
+
+
 def load_current_index():
     data = json.loads(INDEX.read_text(encoding="utf-8"))
     if SOURCE_REVIEW.exists():
@@ -121,6 +171,9 @@ def load_current_index():
     if SECOND_SOURCE_REVIEW.exists():
         second = json.loads(SECOND_SOURCE_REVIEW.read_text(encoding="utf-8"))
         data = apply_second_source_overlay(data, second)
+    if REPRINT_SOURCE_REVIEW.exists():
+        report = json.loads(REPRINT_SOURCE_REVIEW.read_text(encoding="utf-8"))
+        data = apply_reprint_source_overlay(data, report)
     return data
 
 

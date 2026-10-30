@@ -1,0 +1,238 @@
+{
+  "schema": 1,
+  "as_of": "2026-10-29",
+  "prior_batch2_report": "draft_starter_batch2_audit_2026-10-29.json",
+  "scope": "28 of 31 individual source-pending reprint/curated Scryfall set codes, excluding bchr, rin, ss2 pending stronger directly relevant primary evidence",
+  "evidence_policy": "Wizards product name and family can be confirmed even when the exact Scryfall code mapping is from Scryfall; distinguish these from the exact Wizards printed code SLX. Do not infer Standard legality, first printing or independent sale merely from name, set code or Masters type.",
+  "records": [
+    {
+      "code": "2x2",
+      "group": "remastered_or_masters_independent_draft_booster",
+      "source_url": "https://magic.wizards.com/en/news/making-magic/looking-back-part-2",
+      "source_section": "Randomized Booster Releases of 2022",
+      "note": "Wizards lists Double Masters 2022 as a full randomized booster product; reprint oriented, not a Standard-premier expansion.",
+      "evidence_grade": "exact_product_wizards_name_scryfall_code_crosswalk"
+    },
+    {
+      "code": "2xm",
+      "group": "masters_randomized_all_reprint_booster",
+      "source_url": "https://magic.wizards.com/en/news/making-magic/double-deal-2020-07-20",
+      "source_section": "The Elephant in the Room; complete Masters product history (2013–2020)",
+      "note": "Wizards explains the Masters product as an all-reprint draft environment and names this installment in its annual chronology; distinct from Standard-premier expansion.",
+      "evidence_grade": "exact_product_wizards_name_scryfall_code_crosswalk"
+    },
+    {
+      "code": "a25",
+      "group": "masters_randomized_all_reprint_booster",
+      "source_url": "https://magic.wizards.com/en/news/making-magic/double-deal-2020-07-20",
+      "source_section": "The Elephant in the Room; complete Masters product history (2013–2020)",
+      "note": "Wizards explains the Masters product as an all-reprint draft environment and names this installment in its annual chronology; distinct from Standard-premier expansion.",
+      "evidence_grade": "exact_product_wizards_name_scryfall_code_crosswalk"
+    },
+    {
+      "code": "chr",
+      "group": "early_chronicles_reprint_booster",
+      "source_url": "https://magic.wizards.com/en/news/making-magic/looking-back-part-1",
+      "source_section": "1995 Randomized Booster Releases; Chronicles",
+      "note": "Wizards lists Chronicles among 1995 randomized booster releases and separately discusses reprinting early cards; not a new story/core premier.",
+      "evidence_grade": "exact_product_wizards_name_scryfall_code_crosswalk"
+    },
+    {
+      "code": "dmr",
+      "group": "remastered_or_masters_independent_draft_booster",
+      "source_url": "https://magic.wizards.com/en/news/making-magic/looking-back-part-2",
+      "source_section": "Randomized Booster Releases of 2023",
+      "note": "Wizards lists Dominaria Remastered as a full randomized booster product; reprint oriented, not a Standard-premier expansion.",
+      "evidence_grade": "exact_product_wizards_name_scryfall_code_crosswalk"
+    },
+    {
+      "code": "drb",
+      "group": "fixed_from_the_vault_collectible_reprint_box",
+      "source_url": "https://magic.wizards.com/en/news/making-magic/trivial-pursuit-more-or-less",
+      "source_section": "Question #14: all 10 From the Vault products named individually",
+      "evidence_grade": "exact_product_wizards_name_scryfall_code_crosswalk",
+      "note": "Wizards explicitly names the Dragons installment as part of its ten From the Vault releases; Scryfall identifies historical set code. Fixed curated product, not an independently draftable randomized booster. "
+    },
+    {
+      "code": "ema",
+      "group": "masters_randomized_all_reprint_booster",
+      "source_url": "https://magic.wizards.com/en/news/making-magic/double-deal-2020-07-20",
+      "source_section": "The Elephant in the Room; complete Masters product history (2013–2020)",
+      "note": "Wizards explains the Masters product as an all-reprint draft environment and names this installment in its annual chronology; distinct from Standard-premier expansion.",
+      "evidence_grade": "exact_product_wizards_name_scryfall_code_crosswalk"
+    },
+    {
+      "code": "ima",
+      "group": "masters_randomized_all_reprint_booster",
+      "source_url": "https://magic.wizards.com/en/news/making-magic/double-deal-2020-07-20",
+      "source_section": "The Elephant in the Room; complete Masters product history (2013–2020)",
+      "note": "Wizards explains the Masters product as an all-reprint draft environment and names this installment in its annual chronology; distinct from Standard-premier expansion.",
+      "evidence_grade": "exact_product_wizards_name_scryfall_code_crosswalk"
+    },
+    {
+      "code": "mb2",
+      "group": "mystery_booster_event_reprint_draft_booster",
+      "source_url": "https://magic.wizards.com/en/news/feature/whats-inside-mystery-booster-2",
+      "source_section": "What's Inside a Booster?; event and Festival in a Box distribution",
+      "note": "Wizards details a separate Mystery Booster 2 event/Festival in a Box booster with reprints and a playtest-card slot; do not count the playtest subset separately.",
+      "evidence_grade": "exact_product_wizards_name_scryfall_code_crosswalk"
+    },
+    {
+      "code": "mm2",
+      "group": "masters_randomized_all_reprint_booster",
+      "source_url": "https://magic.wizards.com/en/news/making-magic/double-deal-2020-07-20",
+      "source_section": "The Elephant in the Room; complete Masters product history (2013–2020)",
+      "note": "Wizards explains the Masters product as an all-reprint draft environment and names this installment in its annual chronology; distinct from Standard-premier expansion.",
+      "evidence_grade": "exact_product_wizards_name_scryfall_code_crosswalk"
+    },
+    {
+      "code": "mm3",
+      "group": "masters_randomized_all_reprint_booster",
+      "source_url": "https://magic.wizards.com/en/news/making-magic/double-deal-2020-07-20",
+      "source_section": "The Elephant in the Room; complete Masters product history (2013–2020)",
+      "note": "Wizards explains the Masters product as an all-reprint draft environment and names this installment in its annual chronology; distinct from Standard-premier expansion.",
+      "evidence_grade": "exact_product_wizards_name_scryfall_code_crosswalk"
+    },
+    {
+      "code": "mma",
+      "group": "masters_randomized_all_reprint_booster",
+      "source_url": "https://magic.wizards.com/en/news/making-magic/double-deal-2020-07-20",
+      "source_section": "The Elephant in the Room; complete Masters product history (2013–2020)",
+      "note": "Wizards explains the Masters product as an all-reprint draft environment and names this installment in its annual chronology; distinct from Standard-premier expansion.",
+      "evidence_grade": "exact_product_wizards_name_scryfall_code_crosswalk"
+    },
+    {
+      "code": "plst",
+      "group": "embedded_the_list_reprint_distribution",
+      "source_url": "https://magic.wizards.com/en/news/announcements/whats-new-on-the-list-for-wilds-of-eldraine",
+      "source_section": "What's New on The List for Wilds of Eldraine; List Set Booster slot",
+      "note": "Wizards describes The List as reprinted cards appearing in other product's Set Boosters, not an independently sold PLST booster set.",
+      "evidence_grade": "exact_product_wizards_name_scryfall_code_crosswalk"
+    },
+    {
+      "code": "ren",
+      "group": "localized_early_renaissance_reprint_product",
+      "source_url": "https://magic.wizards.com/en/news/making-magic/looking-back-part-1",
+      "source_section": "1995 Randomized Booster Releases; Renaissance",
+      "note": "Wizards lists Renaissance in its 1995 randomized release summary; exact code and local distribution relationships rely on Scryfall and require their own records.",
+      "evidence_grade": "exact_product_wizards_name_scryfall_code_crosswalk"
+    },
+    {
+      "code": "slx",
+      "group": "universes_within_alternate_names_in_list",
+      "source_url": "https://magic.wizards.com/en/news/announcements/whats-new-on-the-list-for-wilds-of-eldraine",
+      "source_section": "Universes Within Secret Lair x The Walking Dead cards in The List",
+      "note": "Wizards explicitly prints the SLX set code and explains mechanically identical Universes Within cards from Secret Lair, reprinted inside other sets' boosters.",
+      "evidence_grade": "exact_code_and_group_primary"
+    },
+    {
+      "code": "ss1",
+      "group": "signature_spellbook_fixed_8_plus_1_card_box",
+      "source_url": "https://magic.wizards.com/en/news/announcements/signature-spellbook-jace-packaging-and-contents-2018-03-20",
+      "source_section": "Packaging and Contents — eight cards plus one random premium foil",
+      "note": "Wizards describes a fixed Jace collection with eight named cards plus one random premium foil, not a randomized draft booster.",
+      "evidence_grade": "exact_product_wizards_name_scryfall_code_crosswalk"
+    },
+    {
+      "code": "ss3",
+      "group": "signature_spellbook_fixed_8_plus_1_card_box",
+      "source_url": "https://magic.wizards.com/en/news/announcements/signature-spellbook-chandra-packaging-and-contents-2020-06-03",
+      "source_section": "Packaging and Contents — eight cards plus one premium foil",
+      "note": "Wizards confirms Chandra's eight-card curated box with one random foil, local game store release, not a draft booster.",
+      "evidence_grade": "exact_product_wizards_name_scryfall_code_crosswalk"
+    },
+    {
+      "code": "tsr",
+      "group": "remastered_or_masters_independent_draft_booster",
+      "source_url": "https://magic.wizards.com/en/news/making-magic/looking-back-part-2",
+      "source_section": "Randomized Booster Releases of 2021",
+      "note": "Wizards lists Time Spiral Remastered as a full randomized booster product; reprint oriented, not a Standard-premier expansion.",
+      "evidence_grade": "exact_product_wizards_name_scryfall_code_crosswalk"
+    },
+    {
+      "code": "uma",
+      "group": "masters_randomized_all_reprint_booster",
+      "source_url": "https://magic.wizards.com/en/news/making-magic/double-deal-2020-07-20",
+      "source_section": "The Elephant in the Room; complete Masters product history (2013–2020)",
+      "note": "Wizards explains the Masters product as an all-reprint draft environment and names this installment in its annual chronology; distinct from Standard-premier expansion.",
+      "evidence_grade": "exact_product_wizards_name_scryfall_code_crosswalk"
+    },
+    {
+      "code": "v09",
+      "group": "fixed_from_the_vault_collectible_reprint_box",
+      "source_url": "https://magic.wizards.com/en/news/making-magic/trivial-pursuit-more-or-less",
+      "source_section": "Question #14: all 10 From the Vault products named individually",
+      "evidence_grade": "exact_product_wizards_name_scryfall_code_crosswalk",
+      "note": "Wizards explicitly names the Exiled installment as part of its ten From the Vault releases; Scryfall identifies historical set code. Fixed curated product, not an independently draftable randomized booster. "
+    },
+    {
+      "code": "v10",
+      "group": "fixed_from_the_vault_collectible_reprint_box",
+      "source_url": "https://magic.wizards.com/en/news/making-magic/trivial-pursuit-more-or-less",
+      "source_section": "Question #14: all 10 From the Vault products named individually",
+      "evidence_grade": "exact_product_wizards_name_scryfall_code_crosswalk",
+      "note": "Wizards explicitly names the Relics installment as part of its ten From the Vault releases; Scryfall identifies historical set code. Fixed curated product, not an independently draftable randomized booster. "
+    },
+    {
+      "code": "v11",
+      "group": "fixed_from_the_vault_collectible_reprint_box",
+      "source_url": "https://magic.wizards.com/en/news/making-magic/trivial-pursuit-more-or-less",
+      "source_section": "Question #14: all 10 From the Vault products named individually",
+      "evidence_grade": "exact_product_wizards_name_scryfall_code_crosswalk",
+      "note": "Wizards explicitly names the Legends installment as part of its ten From the Vault releases; Scryfall identifies historical set code. Fixed curated product, not an independently draftable randomized booster. "
+    },
+    {
+      "code": "v12",
+      "group": "fixed_from_the_vault_collectible_reprint_box",
+      "source_url": "https://magic.wizards.com/en/news/making-magic/trivial-pursuit-more-or-less",
+      "source_section": "Question #14: all 10 From the Vault products named individually",
+      "evidence_grade": "exact_product_wizards_name_scryfall_code_crosswalk",
+      "note": "Wizards explicitly names the Realms installment as part of its ten From the Vault releases; Scryfall identifies historical set code. Fixed curated product, not an independently draftable randomized booster. "
+    },
+    {
+      "code": "v13",
+      "group": "fixed_from_the_vault_collectible_reprint_box",
+      "source_url": "https://magic.wizards.com/en/news/making-magic/trivial-pursuit-more-or-less",
+      "source_section": "Question #14: all 10 From the Vault products named individually",
+      "evidence_grade": "exact_product_wizards_name_scryfall_code_crosswalk",
+      "note": "Wizards explicitly names the Twenty installment as part of its ten From the Vault releases; Scryfall identifies historical set code. Fixed curated product, not an independently draftable randomized booster. "
+    },
+    {
+      "code": "v14",
+      "group": "fixed_from_the_vault_collectible_reprint_box",
+      "source_url": "https://magic.wizards.com/en/news/making-magic/trivial-pursuit-more-or-less",
+      "source_section": "Question #14: all 10 From the Vault products named individually",
+      "evidence_grade": "exact_product_wizards_name_scryfall_code_crosswalk",
+      "note": "Wizards explicitly names the Annihilation installment as part of its ten From the Vault releases; Scryfall identifies historical set code. Fixed curated product, not an independently draftable randomized booster. "
+    },
+    {
+      "code": "v15",
+      "group": "fixed_from_the_vault_collectible_reprint_box",
+      "source_url": "https://magic.wizards.com/en/news/making-magic/trivial-pursuit-more-or-less",
+      "source_section": "Question #14: all 10 From the Vault products named individually",
+      "evidence_grade": "exact_product_wizards_name_scryfall_code_crosswalk",
+      "note": "Wizards explicitly names the Angels installment as part of its ten From the Vault releases; Scryfall identifies historical set code. Fixed curated product, not an independently draftable randomized booster. "
+    },
+    {
+      "code": "v16",
+      "group": "fixed_from_the_vault_collectible_reprint_box",
+      "source_url": "https://magic.wizards.com/en/news/making-magic/trivial-pursuit-more-or-less",
+      "source_section": "Question #14: all 10 From the Vault products named individually",
+      "evidence_grade": "exact_product_wizards_name_scryfall_code_crosswalk",
+      "note": "Wizards explicitly names the Lore installment as part of its ten From the Vault releases; Scryfall identifies historical set code. Fixed curated product, not an independently draftable randomized booster. "
+    },
+    {
+      "code": "v17",
+      "group": "fixed_from_the_vault_collectible_reprint_box",
+      "source_url": "https://magic.wizards.com/en/news/making-magic/trivial-pursuit-more-or-less",
+      "source_section": "Question #14: all 10 From the Vault products named individually",
+      "evidence_grade": "exact_product_wizards_name_scryfall_code_crosswalk",
+      "note": "Wizards explicitly names the Transform installment as part of its ten From the Vault releases; Scryfall identifies historical set code. Fixed curated product, not an independently draftable randomized booster. "
+    }
+  ],
+  "still_pending": [
+    "bchr",
+    "rin",
+    "ss2"
+  ]
+}
