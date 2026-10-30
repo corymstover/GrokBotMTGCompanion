@@ -71,7 +71,9 @@
    "data/lore_research/pack_p5_untagged_side_stories_2015_2026_2026-10-30.json",
    "data/lore_research/pack_p5_untagged_worldsoul_multiverse_2026-10-30.json",
    "data/lore_research/pack_p5_alara_plane_profile_2026-10-30.json",
-   "data/lore_research/pack_p5_theros_plane_profile_2026-10-30.json"
+   "data/lore_research/pack_p5_theros_plane_profile_2026-10-30.json",
+   "data/lore_research/pack_p5_kamigawa_history_profile_2026-10-30.json",
+   "data/lore_research/pack_p5_new_phyrexia_historical_profile_2026-10-30.json"
   ],
   "reviewed_no_claim": "data/lore_research/reviewed_no_claim.json"
  },
@@ -85,7 +87,7 @@
   "arcs_all_cited": 31,
   "reviewed_no_claim_pages": 50,
   "arcs_all_cited_or_reviewed": 33,
-  "claims": 1161,
+  "claims": 1181,
   "pack_urls_outside_inventory": 12
  },
  "claims_per_pack": {
@@ -157,7 +159,9 @@
   "pack_p5_untagged_side_stories_2015_2026_2026-10-30.json": 25,
   "pack_p5_untagged_worldsoul_multiverse_2026-10-30.json": 12,
   "pack_p5_alara_plane_profile_2026-10-30.json": 10,
-  "pack_p5_theros_plane_profile_2026-10-30.json": 10
+  "pack_p5_theros_plane_profile_2026-10-30.json": 10,
+  "pack_p5_kamigawa_history_profile_2026-10-30.json": 12,
+  "pack_p5_new_phyrexia_historical_profile_2026-10-30.json": 8
  },
  "arcs": [
   {
@@ -500,6 +504,7 @@
     "story": 9
    },
    "citing_packs": [
+    "pack_p5_kamigawa_history_profile_2026-10-30.json",
     "pack_p5_kamigawa_neon_dynasty_2026-10-30.json",
     "pack_p5_neo_side_stories_2026-10-30.json"
    ],
@@ -737,6 +742,8 @@
     "pack_c5_phyrexian_invasion_outcome_2026-10-30.json",
     "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json",
     "pack_p5_alara_plane_profile_2026-10-30.json",
+    "pack_p5_kamigawa_history_profile_2026-10-30.json",
+    "pack_p5_new_phyrexia_historical_profile_2026-10-30.json",
     "pack_p5_untagged_bios_2026-10-30.json",
     "pack_p5_untagged_conspiracy_2016_2026-10-30.json",
     "pack_p5_untagged_grn_rna_2026-10-30.json",
@@ -812,5 +819,5 @@
    "unreviewed_urls": []
   }
  ],
- "sha256": "8dd9e0ed5d1d5c45677a5657b0c3ac057c1019560a7d4275fad4ac159b5365ff"
+ "sha256": "49ad1f6aac2eee069673d0fde0e8b857ac1b5d21f7dbb15b14e95d888c5577f0"
 }

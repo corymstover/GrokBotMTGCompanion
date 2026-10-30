@@ -1,0 +1,43 @@
+{
+  "schema": "lore-claim-pack/v1",
+  "pack_id": "P5-KAMIGAWA-HISTORY — Kami War and later realm merging",
+  "status": "PRELIMINARY_RESEARCH_NOT_OWNER_APPROVED",
+  "evidence_cutoff": "2026-10-30",
+  "source_register": {
+    "up_kamigawa": {"title":"Kamigawa","url":"https://magic.wizards.com/en/story/kamigawa-plane","kind":"official_story_episode","perspective":"Wizards of the Coast (official Magic Story)","published":""},
+    "neo_guide": {"title":"Planeswalker's Guide to Kamigawa: Neon Dynasty","url":"https://magic.wizards.com/en/news/feature/planeswalkers-guide-kamigawa-neon-dynasty-2022-02-03","kind":"official_planeswalkers_guide","perspective":"Wizards of the Coast (official Magic Story)","published":"2022-02-03"}
+  },
+  "entities": [
+    {"id":"kamigawa","type":"Plane","name":"Kamigawa"},
+    {"id":"kamigawa_utsushiyo","type":"Place","name":"Utsushiyo (Kamigawa material realm)"},
+    {"id":"kamigawa_kakuriyo","type":"Place","name":"Kakuriyo (Kamigawa spirit realm)"},
+    {"id":"kamigawa_kami_war","type":"Event","name":"Kami War"},
+    {"id":"reito","type":"Place","name":"Reito"},
+    {"id":"kamigawa_warring_kami","type":"Faction","name":"Kami attacking during the Kami War"},
+    {"id":"takeshi_konda","type":"Character","name":"Takeshi Konda"},
+    {"id":"o_kagachi","type":"Character","name":"O-Kagachi"},
+    {"id":"kamigawa_fragment_o_kagachi","type":"Concept","name":"Imprisoned fragment of O-Kagachi"},
+    {"id":"kyodai","type":"Character","name":"Kyodai"},
+    {"id":"michiko_konda","type":"Character","name":"Michiko Konda"},
+    {"id":"kamigawa_merge_sites","type":"Place","name":"Kamigawa merge locations"},
+    {"id":"kamigawa_imperials","type":"Faction","name":"Imperial Court of Kamigawa"},
+    {"id":"emperor_of_kamigawa","type":"Concept","name":"Emperor of Kamigawa"},
+    {"id":"saiba_futurists","type":"Faction","name":"Saiba Futurists"},
+    {"id":"kamigawa_technology_restrictions","type":"Concept","name":"Imperial restrictions on technological innovation"}
+  ],
+  "claims": [
+    {"id":"KMH001","subject":"kamigawa","predicate":"contains_two_symbiotic_realms","object":"kamigawa_utsushiyo;kamigawa_kakuriyo","grade":"CANON_CONFIRMED","event_stage":"plane_profile_undated","source_ids":["up_kamigawa"],"source_excerpt":"two symbiotic worlds: the utsushiyo, or material realm, and the kakuriyo, or kami spirit realm","summary":"Kamigawa is described as two interacting realms: material utsushiyo and spirit kakuriyo.","limitation":"The undated profile is a broad structural description, not a complete cosmology."},
+    {"id":"KMH002","subject":"kamigawa","predicate":"endured","object":"kamigawa_kami_war","grade":"CANON_CONFIRMED","event_stage":"kamigawa_kami_war","source_ids":["up_kamigawa"],"source_excerpt":"The Kami War had begun. Over the next twenty years","evidence":[{"source_id":"up_kamigawa","quote":"The Kami War had begun. Over the next twenty years, spirits of every shape and size would descend on the plains"}],"summary":"The kami attack on Reito marked the beginning of the Kami War, and the profile specifies twenty subsequent years of devastation.","limitation":"Twenty years is a span in the narrated conflict, not an AR year or an independently verified total war duration."},
+    {"id":"KMH003","subject":"reito","predicate":"attacked_by","object":"kamigawa_warring_kami","grade":"CANON_CONFIRMED","event_stage":"kamigawa_kami_war","source_ids":["up_kamigawa"],"source_excerpt":"the kami set upon the town of Reito","summary":"The attack by kami on Reito was a devastating early event in the Kami War.","limitation":"The general plane profile does not enumerate every attacker or survivor."},
+    {"id":"KMH004","subject":"takeshi_konda","predicate":"imprisoned_part_of","object":"o_kagachi","grade":"CANON_CONFIRMED","event_stage":"kamigawa_kami_war","source_ids":["neo_guide"],"source_excerpt":"1,200 years ago, Konda, Lord of Eiganjo, captured and imprisoned a part of O-Kagachi","evidence":[{"source_id":"neo_guide","quote":"1,200 years ago, Konda, Lord of Eiganjo, captured and imprisoned a part of O-Kagachi, the mightiest kami of Kamigawa."}],"summary":"Konda imprisoned part of O-Kagachi about 1,200 years before the Neon Dynasty guide's narrated present.","limitation":"The relative 1,200-year date belongs to the 2022 story's narrative frame; it is not an AR calendar conversion."},
+    {"id":"KMH005","subject":"kamigawa_fragment_o_kagachi","predicate":"became","object":"kyodai","grade":"CANON_CONFIRMED","event_stage":"kamigawa_kami_war","source_ids":["neo_guide"],"source_excerpt":"broke free and became a new kami named Kyodai","summary":"The fragment of O-Kagachi that escaped imprisonment became Kyodai.","limitation":"This does not assert that Kyodai is identical to O-Kagachi in every respect."},
+    {"id":"KMH006","subject":"kyodai","predicate":"defeated_with_michiko","object":"o_kagachi;takeshi_konda","grade":"CANON_CONFIRMED","event_stage":"kamigawa_kami_war_resolution","source_ids":["neo_guide"],"source_excerpt":"Kyodai partnered with Konda's daughter, Michiko, to defeat both O-Kagachi and Konda","summary":"Kyodai and Michiko together defeated O-Kagachi and Konda.","limitation":"The quoted overview does not establish the detailed order or tactics of the two defeats."},
+    {"id":"KMH007","subject":"kamigawa","predicate":"realm_barrier_broke_after_death_of","object":"o_kagachi","grade":"CANON_CONFIRMED","event_stage":"post_kami_war_merging","source_ids":["neo_guide"],"source_excerpt":"The death of O-Kagachi caused the barrier between the two realms to break down","summary":"O-Kagachi's death broke the boundary between Kamigawa's mortal and spirit realms, beginning their merger.","limitation":"The source does not say the two realms were already fully merged at Neon Dynasty's time."},
+    {"id":"KMH008","subject":"kamigawa","predicate":"developed_random","object":"kamigawa_merge_sites","grade":"CANON_CONFIRMED","event_stage":"kamigawa_neon_dynasty_2022","source_ids":["neo_guide"],"source_excerpt":"Merge locations occur at random","summary":"Sites of merging between Kamigawa's two realms appeared unpredictably in the Neon Dynasty guide.","limitation":"A 2022 story-period description; no claims about the state of all sites in later continuity."},
+    {"id":"KMH009","subject":"kamigawa_imperials","predicate":"founded_to_manage","object":"kyodai;kamigawa_merge_sites","grade":"CANON_CONFIRMED","event_stage":"post_kami_war_merging","source_ids":["neo_guide"],"source_excerpt":"founded to help Kyodai manage the merging of the mortal and spirit realms","summary":"The Imperials originated to assist Kyodai with problems arising from the realms' merger.","limitation":"This explains the founding purpose, not the entire institution's later political history."},
+    {"id":"KMH010","subject":"kamigawa","predicate":"governed_in_neon_dynasty_period_by","object":"kamigawa_imperials","grade":"CANON_CONFIRMED","event_stage":"kamigawa_neon_dynasty_2022","source_ids":["neo_guide"],"source_excerpt":"Over time, they expanded into government and rulership","summary":"The Kamigawan Imperial organization developed from merge management into government and rulership.","limitation":"The political description belongs to the Neon Dynasty period; it is not a verified current government as of 2026."},
+    {"id":"KMH011","subject":"emperor_of_kamigawa","predicate":"chosen_by_bond_with","object":"kyodai","grade":"CANON_CONFIRMED","event_stage":"kamigawa_neon_dynasty_2022","source_ids":["neo_guide"],"source_excerpt":"given to whomever Kyodai has chosen to bond with","summary":"In the Neon Dynasty Imperial system, Kyodai's bond determined who bore the title Emperor of Kamigawa.","limitation":"This is a rule of the 2022-described institution, not a list of every emperor."},
+    {"id":"KMH012","subject":"saiba_futurists","predicate":"challenged","object":"kamigawa_technology_restrictions","grade":"CANON_CONFIRMED","event_stage":"kamigawa_neon_dynasty_2022","source_ids":["neo_guide"],"source_excerpt":"they often dabble on the edges of the law","summary":"The Futurists pursued forbidden or borderline technologies despite Imperial rules on development.","limitation":"The guide does not establish that every Futurist broke the law or that later restrictions stayed unchanged."}
+  ],
+  "remaining": ["The two Wizards profiles provide partial history, not a full Kamigawa chronology or exhaustive character index.","The 1,200-year reference is relative to the Neon Dynasty guide's narrative present and never mapped to AR.","Keep this research separate from deck creation, owner approvals and the protected Grixis encyclopedia."]
+}

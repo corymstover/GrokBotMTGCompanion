@@ -1,0 +1,33 @@
+{
+  "schema":"lore-claim-pack/v1",
+  "pack_id":"P5-NEW-PHYREXIA-HISTORY — Mirrodin corruption and early conquest",
+  "status":"PRELIMINARY_RESEARCH_NOT_OWNER_APPROVED",
+  "evidence_cutoff":"2026-10-30",
+  "source_register":{"up_nph":{"title":"New Phyrexia","url":"https://magic.wizards.com/en/story/new-phyrexia-plane","kind":"official_story_episode","perspective":"Wizards of the Coast (official Magic Story)","published":""}},
+  "entities":[
+    {"id":"mirrodin","type":"Plane","name":"Mirrodin"},
+    {"id":"new_phyrexia","type":"Plane","name":"New Phyrexia"},
+    {"id":"memnarch","type":"Character","name":"Memnarch"},
+    {"id":"mirrodin_abductees","type":"Concept","name":"Mortals brought to Mirrodin by Memnarch"},
+    {"id":"karn","type":"Character","name":"Karn"},
+    {"id":"glistening_oil","type":"Concept","name":"Glistening Oil"},
+    {"id":"mirrodin_infected_life","type":"Concept","name":"Lifeforms transformed by oil beneath Mirrodin"},
+    {"id":"mirran_resistance","type":"Faction","name":"Mirran Resistance"},
+    {"id":"koth","type":"Character","name":"Koth of the Hammer"},
+    {"id":"elspeth_tirel","type":"Character","name":"Elspeth Tirel"},
+    {"id":"venser","type":"Character","name":"Venser"},
+    {"id":"new_phyrexian_praetor_factions","type":"Faction","name":"New Phyrexian praetor factions (early era)"},
+    {"id":"mirran_survivors_early_nph","type":"Faction","name":"Mirran survivors during New Phyrexia's conquest"}
+  ],
+  "claims":[
+    {"id":"NPHH001","subject":"memnarch","predicate":"abducted","object":"mirrodin_abductees","grade":"CANON_CONFIRMED","event_stage":"mirrodin_population_early_history","source_ids":["up_nph"],"source_excerpt":"abducting mortals from across the Multiverse to populate the plane","summary":"Memnarch brought abducted mortals to the metal plane Mirrodin.","limitation":"The overview does not list every origin plane or person."},
+    {"id":"NPHH002","subject":"karn","predicate":"introduced_to_mirrodin","object":"glistening_oil","grade":"CANON_CONFIRMED","event_stage":"mirrodin_phyrexian_corruption","source_ids":["up_nph"],"source_excerpt":"Karn was the bringer of the Phyrexian oil to Mirrodin","summary":"Karn unintentionally introduced the Phyrexian oil to Mirrodin.","limitation":"The official overview identifies the vector but does not establish Karn's intent or exact transmission method."},
+    {"id":"NPHH003","subject":"glistening_oil","predicate":"transformed_beneath_mirrodin","object":"mirrodin_infected_life","grade":"CANON_CONFIRMED","event_stage":"mirrodin_phyrexian_corruption","source_ids":["up_nph"],"source_excerpt":"began the slow process of transforming the creatures it touched deep beneath the world's surface","summary":"Phyrexian oil gradually transformed affected beings underground on Mirrodin.","limitation":"A general origin mechanism, not evidence that every Mirran was compleated."},
+    {"id":"NPHH004","subject":"new_phyrexia","predicate":"emerged_from_conquest_of","object":"mirrodin","grade":"CANON_CONFIRMED","event_stage":"new_phyrexia_early_conquest","source_ids":["up_nph"],"source_excerpt":"an active campaign to alter, or compleat, the world of Mirrodin","summary":"The oil's spread escalated into the Phyrexian campaign to compleat Mirrodin, producing New Phyrexia.","limitation":"This is an early historical trajectory; later events in March of the Machine must be tracked separately."},
+    {"id":"NPHH005","subject":"mirran_resistance","predicate":"fought_against","object":"new_phyrexia","grade":"CANON_CONFIRMED","event_stage":"new_phyrexia_early_conquest","source_ids":["up_nph"],"source_excerpt":"The Mirrans fought many battles, but they soon were overwhelmed","summary":"Mirran forces resisted the early Phyrexian conquest but were overwhelmed.","limitation":"No claim that every Mirran died or that every resistance effort failed forever."},
+    {"id":"NPHH006","subject":"new_phyrexia","predicate":"resisted_by_planeswalkers","object":"koth;elspeth_tirel;venser","grade":"CANON_CONFIRMED","event_stage":"new_phyrexia_early_conquest","source_ids":["up_nph"],"source_excerpt":"Even the Planeswalkers Koth, Elspeth, and Venser could not turn the tide","summary":"Koth, Elspeth and Venser were among planeswalkers unable to reverse the early Phyrexian conquest.","limitation":"This evaluates the early campaign; it does not negate their actions in later stories."},
+    {"id":"NPHH007","subject":"new_phyrexia","predicate":"had_competing_praetor_factions","object":"new_phyrexian_praetor_factions","grade":"CANON_CONFIRMED","event_stage":"new_phyrexia_early_praetor_rule","source_ids":["up_nph"],"source_excerpt":"their factions fight for power amongst themselves","summary":"The official early New Phyrexia overview describes rival praetor factions struggling for power.","limitation":"The page's historical present cannot be taken as the current political state after March of the Machine."},
+    {"id":"NPHH008","subject":"mirran_survivors_early_nph","predicate":"struggled_under","object":"new_phyrexia","grade":"CANON_CONFIRMED","event_stage":"new_phyrexia_early_praetor_rule","source_ids":["up_nph"],"source_excerpt":"the natives struggle daily to survive","summary":"Mirran survivors faced daily threats under early New Phyrexian domination.","limitation":"This does not identify present-day survivors or establish New Phyrexia's current accessibility."}
+  ],
+  "remaining":["Trace later praetor and Mirran arcs through official stories; do not apply early-profile present tense to the aftermath of March of the Machine.","No inferred current ruler, AR year, total-war chronology or approval is established.","No deckbuilding while the foundation-first hold is active."]
+}

@@ -430,9 +430,14 @@
     {
       "id": "plane:kamigawa",
       "name": "Kamigawa",
-      "claim_edges": 3,
-      "distinct_claims": 3,
+      "claim_edges": 9,
+      "distinct_claims": 8,
       "claims": [
+        "KMH001",
+        "KMH002",
+        "KMH007",
+        "KMH008",
+        "KMH010",
         "MOM004",
         "NEO009",
         "UB013"
@@ -441,12 +446,13 @@
         "mom_ep01",
         "neo_ep1",
         "neo_guide",
-        "ub_kaito"
+        "ub_kaito",
+        "up_kamigawa"
       ],
       "grades_present": [
         "CANON_CONFIRMED"
       ],
-      "research_priority": "THIN_DIRECT_EVIDENCE",
+      "research_priority": "EXPAND_NARRATIVE_DEPTH",
       "limitation": "Direct graph edges only; not the complete plane history or a canon completeness score."
     },
     {
@@ -496,13 +502,14 @@
     {
       "id": "plane:mirrodin",
       "name": "Mirrodin / New Phyrexia",
-      "claim_edges": 9,
-      "distinct_claims": 9,
+      "claim_edges": 10,
+      "distinct_claims": 10,
       "claims": [
         "C005",
         "C007",
         "NP001",
         "NP002",
+        "NPHH004",
         "ONE018",
         "ONE019",
         "UP016",
@@ -564,12 +571,17 @@
     {
       "id": "plane:new_phyrexia",
       "name": "New Phyrexia",
-      "claim_edges": 4,
-      "distinct_claims": 4,
+      "claim_edges": 11,
+      "distinct_claims": 9,
       "claims": [
         "MOM016",
         "NP002",
         "NP009",
+        "NPHH004",
+        "NPHH005",
+        "NPHH006",
+        "NPHH007",
+        "NPHH008",
         "RTD021"
       ],
       "official_source_ids": [
@@ -577,14 +589,15 @@
         "np_intro",
         "np_ortho",
         "rtd_ep5",
-        "rtd_ep9"
+        "rtd_ep9",
+        "up_nph"
       ],
       "grades_present": [
         "CANON_CONFIRMED",
         "CANON_DISPUTED",
         "CANON_IMPLIED"
       ],
-      "research_priority": "THIN_DIRECT_EVIDENCE",
+      "research_priority": "EXPAND_NARRATIVE_DEPTH",
       "limitation": "Direct graph edges only; not the complete plane history or a canon completeness score."
     },
     {

@@ -34551,6 +34551,222 @@
    "card": "Yawgmoth, Thran Physician",
    "oracle_id": "a1e232c0-dc38-47be-a5a0-f68bc1d86a29",
    "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "KMH004",
+   "pack": "pack_p5_kamigawa_history_profile_2026-10-30.json",
+   "participant": "o_kagachi",
+   "card": "O-Kagachi, Vengeful Kami",
+   "oracle_id": "300715a0-4f95-4212-9e13-558434c9d1a4",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "KMH005",
+   "pack": "pack_p5_kamigawa_history_profile_2026-10-30.json",
+   "participant": "kyodai",
+   "card": "Kyodai, Soul of Kamigawa",
+   "oracle_id": "d89bd776-8489-4c34-94ea-db1b088d9379",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "KMH006",
+   "pack": "pack_p5_kamigawa_history_profile_2026-10-30.json",
+   "participant": "kyodai",
+   "card": "Kyodai, Soul of Kamigawa",
+   "oracle_id": "d89bd776-8489-4c34-94ea-db1b088d9379",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "KMH006",
+   "pack": "pack_p5_kamigawa_history_profile_2026-10-30.json",
+   "participant": "o_kagachi",
+   "card": "O-Kagachi, Vengeful Kami",
+   "oracle_id": "300715a0-4f95-4212-9e13-558434c9d1a4",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "KMH007",
+   "pack": "pack_p5_kamigawa_history_profile_2026-10-30.json",
+   "participant": "o_kagachi",
+   "card": "O-Kagachi, Vengeful Kami",
+   "oracle_id": "300715a0-4f95-4212-9e13-558434c9d1a4",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "KMH009",
+   "pack": "pack_p5_kamigawa_history_profile_2026-10-30.json",
+   "participant": "kyodai",
+   "card": "Kyodai, Soul of Kamigawa",
+   "oracle_id": "d89bd776-8489-4c34-94ea-db1b088d9379",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "KMH011",
+   "pack": "pack_p5_kamigawa_history_profile_2026-10-30.json",
+   "participant": "kyodai",
+   "card": "Kyodai, Soul of Kamigawa",
+   "oracle_id": "d89bd776-8489-4c34-94ea-db1b088d9379",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "NPHH001",
+   "pack": "pack_p5_new_phyrexia_historical_profile_2026-10-30.json",
+   "participant": "memnarch",
+   "card": "Memnarch",
+   "oracle_id": "52d8e70b-7e94-4e17-811f-70afe39ff9bd",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "NPHH001",
+   "pack": "pack_p5_new_phyrexia_historical_profile_2026-10-30.json",
+   "participant": "memnarch",
+   "card": "Memnarch, the Warden",
+   "oracle_id": "f2630b02-fb48-4167-8a47-8284f7d4c484",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "NPHH002",
+   "pack": "pack_p5_new_phyrexia_historical_profile_2026-10-30.json",
+   "participant": "karn",
+   "card": "Karn Liberated",
+   "oracle_id": "0ca233f4-1b7f-4807-ab6e-2b1f5439b3db",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "NPHH002",
+   "pack": "pack_p5_new_phyrexia_historical_profile_2026-10-30.json",
+   "participant": "karn",
+   "card": "Karn, Argent Defender",
+   "oracle_id": "aecc621f-67da-41a7-9d47-05ded302ae35",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "NPHH002",
+   "pack": "pack_p5_new_phyrexia_historical_profile_2026-10-30.json",
+   "participant": "karn",
+   "card": "Karn, Gilded Guardian",
+   "oracle_id": "20b90a18-ff62-4995-b0d6-fbef44dca357",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "NPHH002",
+   "pack": "pack_p5_new_phyrexia_historical_profile_2026-10-30.json",
+   "participant": "karn",
+   "card": "Karn, Legacy Reforged",
+   "oracle_id": "bc8802db-8c94-4eb4-817f-5f4f5408b7a4",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "NPHH002",
+   "pack": "pack_p5_new_phyrexia_historical_profile_2026-10-30.json",
+   "participant": "karn",
+   "card": "Karn, Living Legacy",
+   "oracle_id": "09ab1278-811f-4b97-bd34-7493d6e081e9",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "NPHH002",
+   "pack": "pack_p5_new_phyrexia_historical_profile_2026-10-30.json",
+   "participant": "karn",
+   "card": "Karn, Scion of Urza",
+   "oracle_id": "060209fa-4b7d-4e08-bf8b-8759bba5641b",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "NPHH002",
+   "pack": "pack_p5_new_phyrexia_historical_profile_2026-10-30.json",
+   "participant": "karn",
+   "card": "Karn, Silver Golem",
+   "oracle_id": "8a7c6391-020a-4d7a-8abb-702631bbee56",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "NPHH002",
+   "pack": "pack_p5_new_phyrexia_historical_profile_2026-10-30.json",
+   "participant": "karn",
+   "card": "Karn, the Great Creator",
+   "oracle_id": "a20dd48d-d344-4db1-b0e9-a2b71c3cc9d1",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "NPHH006",
+   "pack": "pack_p5_new_phyrexia_historical_profile_2026-10-30.json",
+   "participant": "koth",
+   "card": "Koth of the Hammer",
+   "oracle_id": "589186e0-3ebe-46a3-a9e7-798b1712fa93",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "NPHH006",
+   "pack": "pack_p5_new_phyrexia_historical_profile_2026-10-30.json",
+   "participant": "koth",
+   "card": "Koth of the Homestead",
+   "oracle_id": "567aeb60-a441-41b1-98f4-54510d299317",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "NPHH006",
+   "pack": "pack_p5_new_phyrexia_historical_profile_2026-10-30.json",
+   "participant": "koth",
+   "card": "Koth, Fire of Resistance",
+   "oracle_id": "2c75b870-263b-41ab-9ece-6e3845bc3d8d",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "NPHH006",
+   "pack": "pack_p5_new_phyrexia_historical_profile_2026-10-30.json",
+   "participant": "koth",
+   "card": "Koth, the Geomancer",
+   "oracle_id": "3b17da84-ae4d-4fc1-a327-85e54e6156c6",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "NPHH006",
+   "pack": "pack_p5_new_phyrexia_historical_profile_2026-10-30.json",
+   "participant": "elspeth_tirel",
+   "card": "Elspeth Tirel",
+   "oracle_id": "5f815e69-fdd6-4186-9317-25f5c7e0b08e",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "NPHH006",
+   "pack": "pack_p5_new_phyrexia_historical_profile_2026-10-30.json",
+   "participant": "venser",
+   "card": "Venser, Corpse Puppet",
+   "oracle_id": "17c934a7-3480-4309-a217-ca2550538ae7",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "NPHH006",
+   "pack": "pack_p5_new_phyrexia_historical_profile_2026-10-30.json",
+   "participant": "venser",
+   "card": "Venser, Fervent Forger",
+   "oracle_id": "9b1ae6d8-0cf3-4a67-9241-37f4bc5ddbdd",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "NPHH006",
+   "pack": "pack_p5_new_phyrexia_historical_profile_2026-10-30.json",
+   "participant": "venser",
+   "card": "Venser, Shaper Savant",
+   "oracle_id": "0f41cefc-d6ff-4db7-ba35-502b7e081de1",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "NPHH006",
+   "pack": "pack_p5_new_phyrexia_historical_profile_2026-10-30.json",
+   "participant": "venser",
+   "card": "Venser, Visionary Traveler",
+   "oracle_id": "f4a64308-5f24-47c0-83f9-ee16a3b4f143",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "NPHH006",
+   "pack": "pack_p5_new_phyrexia_historical_profile_2026-10-30.json",
+   "participant": "venser",
+   "card": "Venser, the Sojourner",
+   "oracle_id": "a8bf8ff8-d924-4fd2-b5ed-05b38f55325a",
+   "tier": "NAMED_PARTICIPANT"
   }
  ],
  "by_pack": {
@@ -34743,6 +34959,13 @@
    "PRINTED_IN_STORY_SET": 25,
    "NAMED_PARTICIPANT": 33
   },
+  "pack_p5_kamigawa_history_profile_2026-10-30.json": {
+   "claims": 12,
+   "claims_anchored": 6,
+   "ART_IN_CITED_SOURCE": 0,
+   "PRINTED_IN_STORY_SET": 0,
+   "NAMED_PARTICIPANT": 7
+  },
   "pack_p5_kamigawa_neon_dynasty_2026-10-30.json": {
    "claims": 12,
    "claims_anchored": 12,
@@ -34798,6 +35021,13 @@
    "ART_IN_CITED_SOURCE": 0,
    "PRINTED_IN_STORY_SET": 0,
    "NAMED_PARTICIPANT": 4
+  },
+  "pack_p5_new_phyrexia_historical_profile_2026-10-30.json": {
+   "claims": 8,
+   "claims_anchored": 3,
+   "ART_IN_CITED_SOURCE": 0,
+   "PRINTED_IN_STORY_SET": 0,
+   "NAMED_PARTICIPANT": 20
   },
   "pack_p5_one_side_stories_2026-10-30.json": {
    "claims": 6,
@@ -35039,12 +35269,12 @@
   }
  },
  "counts": {
-  "claims": 1161,
-  "claims_anchored": 952,
-  "anchors": 4051,
+  "claims": 1181,
+  "claims_anchored": 961,
+  "anchors": 4078,
   "ART_IN_CITED_SOURCE": 123,
   "PRINTED_IN_STORY_SET": 546,
-  "NAMED_PARTICIPANT": 3382
+  "NAMED_PARTICIPANT": 3409
  },
- "content_sha256": "1fb894eeb0bfc78ad8b4dbacc90ef2cd80d95ac77631a9a8b5af9729f10be1a8"
+ "content_sha256": "e39b6054ea2a5ef879fd7377e527f722c83872bf3ffbe2307210b9c69dbd7329"
 }

@@ -7,7 +7,7 @@
   "HYPOTHETICAL": "Creative or deckbuilding connection; never canon.",
   "OPEN_QUESTION": "Primary sources leave the matter unresolved; do not assert either way."
  },
- "content_sha256": "856efb3d25ea0744e3ad6294fc036a6fb048859154e54568d27e9057b52ec0a0",
+ "content_sha256": "90c6fc5e86e160c49a1b161caacc4ac2988a55b61ea30015e3cd5aa90b630fb7",
  "edges": [
   {
    "artists": [
@@ -21582,6 +21582,196 @@
    "to": "concept:aether_kaladesh"
   },
   {
+   "claim": "KMH001",
+   "era": "plane_profile_undated",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "plane:kamigawa",
+   "grade": "CANON_CONFIRMED",
+   "relation": "contains_two_symbiotic_realms",
+   "sources": [
+    "up_kamigawa"
+   ],
+   "to": "place:kamigawa_kakuriyo"
+  },
+  {
+   "claim": "KMH001",
+   "era": "plane_profile_undated",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "plane:kamigawa",
+   "grade": "CANON_CONFIRMED",
+   "relation": "contains_two_symbiotic_realms",
+   "sources": [
+    "up_kamigawa"
+   ],
+   "to": "place:kamigawa_utsushiyo"
+  },
+  {
+   "claim": "KMH002",
+   "era": "kamigawa_kami_war",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "plane:kamigawa",
+   "grade": "CANON_CONFIRMED",
+   "in_universe_date": {
+    "quote": "The Kami War had begun. Over the next twenty years, spirits of every shape and size would descend on the plains",
+    "source_id": "up_kamigawa",
+    "value": "twenty years"
+   },
+   "relation": "endured",
+   "sources": [
+    "up_kamigawa"
+   ],
+   "to": "event:kamigawa_kami_war"
+  },
+  {
+   "claim": "KMH003",
+   "era": "kamigawa_kami_war",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "place:reito",
+   "grade": "CANON_CONFIRMED",
+   "relation": "attacked_by",
+   "sources": [
+    "up_kamigawa"
+   ],
+   "to": "faction:kamigawa_warring_kami"
+  },
+  {
+   "claim": "KMH004",
+   "era": "kamigawa_kami_war",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:takeshi_konda",
+   "grade": "CANON_CONFIRMED",
+   "in_universe_date": {
+    "quote": "1,200 years ago, Konda, Lord of Eiganjo, captured and imprisoned a part of O-Kagachi, the mightiest kami of Kamigawa.",
+    "source_id": "neo_guide",
+    "value": "1,200 years ago"
+   },
+   "relation": "imprisoned_part_of",
+   "sources": [
+    "neo_guide"
+   ],
+   "to": "character:o_kagachi"
+  },
+  {
+   "claim": "KMH005",
+   "era": "kamigawa_kami_war",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "concept:kamigawa_fragment_o_kagachi",
+   "grade": "CANON_CONFIRMED",
+   "relation": "became",
+   "sources": [
+    "neo_guide"
+   ],
+   "to": "character:kyodai"
+  },
+  {
+   "claim": "KMH006",
+   "era": "kamigawa_kami_war_resolution",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:kyodai",
+   "grade": "CANON_CONFIRMED",
+   "relation": "defeated_with_michiko",
+   "sources": [
+    "neo_guide"
+   ],
+   "to": "character:o_kagachi"
+  },
+  {
+   "claim": "KMH006",
+   "era": "kamigawa_kami_war_resolution",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:kyodai",
+   "grade": "CANON_CONFIRMED",
+   "relation": "defeated_with_michiko",
+   "sources": [
+    "neo_guide"
+   ],
+   "to": "character:takeshi_konda"
+  },
+  {
+   "claim": "KMH007",
+   "era": "post_kami_war_merging",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "plane:kamigawa",
+   "grade": "CANON_CONFIRMED",
+   "relation": "realm_barrier_broke_after_death_of",
+   "sources": [
+    "neo_guide"
+   ],
+   "to": "character:o_kagachi"
+  },
+  {
+   "claim": "KMH008",
+   "era": "kamigawa_neon_dynasty_2022",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "plane:kamigawa",
+   "grade": "CANON_CONFIRMED",
+   "relation": "developed_random",
+   "sources": [
+    "neo_guide"
+   ],
+   "to": "place:kamigawa_merge_sites"
+  },
+  {
+   "claim": "KMH009",
+   "era": "post_kami_war_merging",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "faction:kamigawa_imperials",
+   "grade": "CANON_CONFIRMED",
+   "relation": "founded_to_manage",
+   "sources": [
+    "neo_guide"
+   ],
+   "to": "character:kyodai"
+  },
+  {
+   "claim": "KMH009",
+   "era": "post_kami_war_merging",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "faction:kamigawa_imperials",
+   "grade": "CANON_CONFIRMED",
+   "relation": "founded_to_manage",
+   "sources": [
+    "neo_guide"
+   ],
+   "to": "place:kamigawa_merge_sites"
+  },
+  {
+   "claim": "KMH010",
+   "era": "kamigawa_neon_dynasty_2022",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "plane:kamigawa",
+   "grade": "CANON_CONFIRMED",
+   "relation": "governed_in_neon_dynasty_period_by",
+   "sources": [
+    "neo_guide"
+   ],
+   "to": "faction:kamigawa_imperials"
+  },
+  {
+   "claim": "KMH011",
+   "era": "kamigawa_neon_dynasty_2022",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "concept:emperor_of_kamigawa",
+   "grade": "CANON_CONFIRMED",
+   "relation": "chosen_by_bond_with",
+   "sources": [
+    "neo_guide"
+   ],
+   "to": "character:kyodai"
+  },
+  {
+   "claim": "KMH012",
+   "era": "kamigawa_neon_dynasty_2022",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "faction:saiba_futurists",
+   "grade": "CANON_CONFIRMED",
+   "relation": "challenged",
+   "sources": [
+    "neo_guide"
+   ],
+   "to": "concept:kamigawa_technology_restrictions"
+  },
+  {
    "claim": "KT001",
    "era": "tarkir_2014_2015_stories",
    "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
@@ -23853,6 +24043,126 @@
     "np_furnace"
    ],
    "to": "place:furnace_layer"
+  },
+  {
+   "claim": "NPHH001",
+   "era": "mirrodin_population_early_history",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:memnarch",
+   "grade": "CANON_CONFIRMED",
+   "relation": "abducted",
+   "sources": [
+    "up_nph"
+   ],
+   "to": "concept:mirrodin_abductees"
+  },
+  {
+   "claim": "NPHH002",
+   "era": "mirrodin_phyrexian_corruption",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:karn",
+   "grade": "CANON_CONFIRMED",
+   "relation": "introduced_to_mirrodin",
+   "sources": [
+    "up_nph"
+   ],
+   "to": "concept:glistening_oil"
+  },
+  {
+   "claim": "NPHH003",
+   "era": "mirrodin_phyrexian_corruption",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "concept:glistening_oil",
+   "grade": "CANON_CONFIRMED",
+   "relation": "transformed_beneath_mirrodin",
+   "sources": [
+    "up_nph"
+   ],
+   "to": "concept:mirrodin_infected_life"
+  },
+  {
+   "claim": "NPHH004",
+   "era": "new_phyrexia_early_conquest",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "plane:new_phyrexia",
+   "grade": "CANON_CONFIRMED",
+   "relation": "emerged_from_conquest_of",
+   "sources": [
+    "up_nph"
+   ],
+   "to": "plane:mirrodin"
+  },
+  {
+   "claim": "NPHH005",
+   "era": "new_phyrexia_early_conquest",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "faction:mirran_resistance",
+   "grade": "CANON_CONFIRMED",
+   "relation": "fought_against",
+   "sources": [
+    "up_nph"
+   ],
+   "to": "plane:new_phyrexia"
+  },
+  {
+   "claim": "NPHH006",
+   "era": "new_phyrexia_early_conquest",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "plane:new_phyrexia",
+   "grade": "CANON_CONFIRMED",
+   "relation": "resisted_by_planeswalkers",
+   "sources": [
+    "up_nph"
+   ],
+   "to": "character:elspeth_tirel"
+  },
+  {
+   "claim": "NPHH006",
+   "era": "new_phyrexia_early_conquest",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "plane:new_phyrexia",
+   "grade": "CANON_CONFIRMED",
+   "relation": "resisted_by_planeswalkers",
+   "sources": [
+    "up_nph"
+   ],
+   "to": "character:koth"
+  },
+  {
+   "claim": "NPHH006",
+   "era": "new_phyrexia_early_conquest",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "plane:new_phyrexia",
+   "grade": "CANON_CONFIRMED",
+   "relation": "resisted_by_planeswalkers",
+   "sources": [
+    "up_nph"
+   ],
+   "to": "character:venser"
+  },
+  {
+   "claim": "NPHH007",
+   "era": "new_phyrexia_early_praetor_rule",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "plane:new_phyrexia",
+   "grade": "CANON_CONFIRMED",
+   "relation": "had_competing_praetor_factions",
+   "sources": [
+    "up_nph"
+   ],
+   "to": "faction:new_phyrexian_praetor_factions"
+  },
+  {
+   "claim": "NPHH008",
+   "era": "new_phyrexia_early_praetor_rule",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "faction:mirran_survivors_early_nph",
+   "grade": "CANON_CONFIRMED",
+   "relation": "struggled_under",
+   "sources": [
+    "up_nph"
+   ],
+   "to": "plane:new_phyrexia"
   },
   {
    "claim": "NS001",
@@ -40601,6 +40911,168 @@
    "to": "character:rashmi"
   },
   {
+   "from": "claim:KMH001",
+   "relation": "asserts",
+   "role": "object",
+   "to": "place:kamigawa_kakuriyo"
+  },
+  {
+   "from": "claim:KMH001",
+   "relation": "asserts",
+   "role": "object",
+   "to": "place:kamigawa_utsushiyo"
+  },
+  {
+   "from": "claim:KMH001",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "plane:kamigawa"
+  },
+  {
+   "from": "claim:KMH002",
+   "relation": "asserts",
+   "role": "object",
+   "to": "event:kamigawa_kami_war"
+  },
+  {
+   "from": "claim:KMH002",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "plane:kamigawa"
+  },
+  {
+   "from": "claim:KMH003",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:kamigawa_warring_kami"
+  },
+  {
+   "from": "claim:KMH003",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "place:reito"
+  },
+  {
+   "from": "claim:KMH004",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:o_kagachi"
+  },
+  {
+   "from": "claim:KMH004",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:takeshi_konda"
+  },
+  {
+   "from": "claim:KMH005",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:kyodai"
+  },
+  {
+   "from": "claim:KMH005",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "concept:kamigawa_fragment_o_kagachi"
+  },
+  {
+   "from": "claim:KMH006",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:o_kagachi"
+  },
+  {
+   "from": "claim:KMH006",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:takeshi_konda"
+  },
+  {
+   "from": "claim:KMH006",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:kyodai"
+  },
+  {
+   "from": "claim:KMH007",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:o_kagachi"
+  },
+  {
+   "from": "claim:KMH007",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "plane:kamigawa"
+  },
+  {
+   "from": "claim:KMH008",
+   "relation": "asserts",
+   "role": "object",
+   "to": "place:kamigawa_merge_sites"
+  },
+  {
+   "from": "claim:KMH008",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "plane:kamigawa"
+  },
+  {
+   "from": "claim:KMH009",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:kyodai"
+  },
+  {
+   "from": "claim:KMH009",
+   "relation": "asserts",
+   "role": "object",
+   "to": "place:kamigawa_merge_sites"
+  },
+  {
+   "from": "claim:KMH009",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "faction:kamigawa_imperials"
+  },
+  {
+   "from": "claim:KMH010",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:kamigawa_imperials"
+  },
+  {
+   "from": "claim:KMH010",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "plane:kamigawa"
+  },
+  {
+   "from": "claim:KMH011",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:kyodai"
+  },
+  {
+   "from": "claim:KMH011",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "concept:emperor_of_kamigawa"
+  },
+  {
+   "from": "claim:KMH012",
+   "relation": "asserts",
+   "role": "object",
+   "to": "concept:kamigawa_technology_restrictions"
+  },
+  {
+   "from": "claim:KMH012",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "faction:saiba_futurists"
+  },
+  {
    "from": "claim:KT001",
    "relation": "asserts",
    "role": "object",
@@ -42771,6 +43243,114 @@
    "relation": "asserts",
    "role": "subject",
    "to": "character:urabrask"
+  },
+  {
+   "from": "claim:NPHH001",
+   "relation": "asserts",
+   "role": "object",
+   "to": "concept:mirrodin_abductees"
+  },
+  {
+   "from": "claim:NPHH001",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:memnarch"
+  },
+  {
+   "from": "claim:NPHH002",
+   "relation": "asserts",
+   "role": "object",
+   "to": "concept:glistening_oil"
+  },
+  {
+   "from": "claim:NPHH002",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:karn"
+  },
+  {
+   "from": "claim:NPHH003",
+   "relation": "asserts",
+   "role": "object",
+   "to": "concept:mirrodin_infected_life"
+  },
+  {
+   "from": "claim:NPHH003",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "concept:glistening_oil"
+  },
+  {
+   "from": "claim:NPHH004",
+   "relation": "asserts",
+   "role": "object",
+   "to": "plane:mirrodin"
+  },
+  {
+   "from": "claim:NPHH004",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "plane:new_phyrexia"
+  },
+  {
+   "from": "claim:NPHH005",
+   "relation": "asserts",
+   "role": "object",
+   "to": "plane:new_phyrexia"
+  },
+  {
+   "from": "claim:NPHH005",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "faction:mirran_resistance"
+  },
+  {
+   "from": "claim:NPHH006",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:elspeth_tirel"
+  },
+  {
+   "from": "claim:NPHH006",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:koth"
+  },
+  {
+   "from": "claim:NPHH006",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:venser"
+  },
+  {
+   "from": "claim:NPHH006",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "plane:new_phyrexia"
+  },
+  {
+   "from": "claim:NPHH007",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:new_phyrexian_praetor_factions"
+  },
+  {
+   "from": "claim:NPHH007",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "plane:new_phyrexia"
+  },
+  {
+   "from": "claim:NPHH008",
+   "relation": "asserts",
+   "role": "object",
+   "to": "plane:new_phyrexia"
+  },
+  {
+   "from": "claim:NPHH008",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "faction:mirran_survivors_early_nph"
   },
   {
    "from": "claim:NS001",
@@ -54297,6 +54877,51 @@
   {
    "from": "source:neo_guide",
    "relation": "cited_by",
+   "to": "claim:KMH004"
+  },
+  {
+   "from": "source:neo_guide",
+   "relation": "cited_by",
+   "to": "claim:KMH005"
+  },
+  {
+   "from": "source:neo_guide",
+   "relation": "cited_by",
+   "to": "claim:KMH006"
+  },
+  {
+   "from": "source:neo_guide",
+   "relation": "cited_by",
+   "to": "claim:KMH007"
+  },
+  {
+   "from": "source:neo_guide",
+   "relation": "cited_by",
+   "to": "claim:KMH008"
+  },
+  {
+   "from": "source:neo_guide",
+   "relation": "cited_by",
+   "to": "claim:KMH009"
+  },
+  {
+   "from": "source:neo_guide",
+   "relation": "cited_by",
+   "to": "claim:KMH010"
+  },
+  {
+   "from": "source:neo_guide",
+   "relation": "cited_by",
+   "to": "claim:KMH011"
+  },
+  {
+   "from": "source:neo_guide",
+   "relation": "cited_by",
+   "to": "claim:KMH012"
+  },
+  {
+   "from": "source:neo_guide",
+   "relation": "cited_by",
    "to": "claim:NEO009"
   },
   {
@@ -61413,6 +62038,21 @@
   {
    "from": "source:up_kamigawa",
    "relation": "cited_by",
+   "to": "claim:KMH001"
+  },
+  {
+   "from": "source:up_kamigawa",
+   "relation": "cited_by",
+   "to": "claim:KMH002"
+  },
+  {
+   "from": "source:up_kamigawa",
+   "relation": "cited_by",
+   "to": "claim:KMH003"
+  },
+  {
+   "from": "source:up_kamigawa",
+   "relation": "cited_by",
    "to": "claim:UP010"
   },
   {
@@ -61464,6 +62104,46 @@
    "from": "source:up_mirrodin",
    "relation": "cited_by",
    "to": "claim:UP021"
+  },
+  {
+   "from": "source:up_nph",
+   "relation": "cited_by",
+   "to": "claim:NPHH001"
+  },
+  {
+   "from": "source:up_nph",
+   "relation": "cited_by",
+   "to": "claim:NPHH002"
+  },
+  {
+   "from": "source:up_nph",
+   "relation": "cited_by",
+   "to": "claim:NPHH003"
+  },
+  {
+   "from": "source:up_nph",
+   "relation": "cited_by",
+   "to": "claim:NPHH004"
+  },
+  {
+   "from": "source:up_nph",
+   "relation": "cited_by",
+   "to": "claim:NPHH005"
+  },
+  {
+   "from": "source:up_nph",
+   "relation": "cited_by",
+   "to": "claim:NPHH006"
+  },
+  {
+   "from": "source:up_nph",
+   "relation": "cited_by",
+   "to": "claim:NPHH007"
+  },
+  {
+   "from": "source:up_nph",
+   "relation": "cited_by",
+   "to": "claim:NPHH008"
   },
   {
    "from": "source:up_nph",
@@ -62617,6 +63297,20 @@
     "file": "data/lore_research/pack_p5_theros_plane_profile_2026-10-30.json",
     "sha256": "80f42fc8ececb68512579c400abaf3b3adaab1466f0dca9537780f19a0441e5a",
     "sources": 1
+   },
+   {
+    "claims": 12,
+    "entities": 16,
+    "file": "data/lore_research/pack_p5_kamigawa_history_profile_2026-10-30.json",
+    "sha256": "0704ca621f2dc53d7d1e83c44faab29de717938031c6776b3272186951a184ed",
+    "sources": 2
+   },
+   {
+    "claims": 8,
+    "entities": 13,
+    "file": "data/lore_research/pack_p5_new_phyrexia_historical_profile_2026-10-30.json",
+    "sha256": "47b5476e10a25f95737cbf867819cb14b8c6edbe0a9f2537a48ce2381f237e10",
+    "sources": 1
    }
   ],
   "deck_evidence": [
@@ -62638,9 +63332,9 @@
   ],
   "in_universe_dates": [
    {
-    "dates": 32,
+    "dates": 34,
     "file": "data/lore_research/in_universe_dates_2026-10-30.json",
-    "sha256": "81fb0a59afa1e3f15e4e9f5baf0765d22ec6125bec7741d90413bd385717094b"
+    "sha256": "04b3b14769c71e16f3d33f3097462cdc10cde71ff4b4eaa083634098840d479f"
    }
   ],
   "name_anchor_packs": [
@@ -80358,6 +81052,7 @@
     "pack_c4_march_of_the_machine_2026-10-30.json",
     "pack_p5_aetherdrift_2026-10-30.json",
     "pack_p5_brothers_war_2026-10-30.json",
+    "pack_p5_new_phyrexia_historical_profile_2026-10-30.json",
     "pack_p5_snc_side_stories_2026-10-30.json",
     "pack_p5_streets_of_new_capenna_2026-10-30.json",
     "pack_p5_tarkir_dragonstorm_2026-10-30.json",
@@ -81119,6 +81814,7 @@
     "pack_p5_brothers_war_2026-10-30.json",
     "pack_p5_dominaria_united_2026-10-30.json",
     "pack_p5_mom_aftermath_2026-10-30.json",
+    "pack_p5_new_phyrexia_historical_profile_2026-10-30.json",
     "pack_p5_untagged_nph_guides_2026-10-30.json",
     "pack_p5_untagged_planes_2026-10-30.json",
     "pack_p5_untagged_worldsoul_multiverse_2026-10-30.json"
@@ -81361,10 +82057,15 @@
   {
    "id": "character:koth",
    "name": "Koth",
+   "name_variants": [
+    "Koth",
+    "Koth of the Hammer"
+   ],
    "origins": [
     "pack_c3_assault_on_new_phyrexia_2026-10-30.json",
     "pack_c4_march_of_the_machine_2026-10-30.json",
-    "pack_p5_mom_aftermath_2026-10-30.json"
+    "pack_p5_mom_aftermath_2026-10-30.json",
+    "pack_p5_new_phyrexia_historical_profile_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -81464,6 +82165,7 @@
    "id": "character:kyodai",
    "name": "Kyodai",
    "origins": [
+    "pack_p5_kamigawa_history_profile_2026-10-30.json",
     "pack_p5_kamigawa_neon_dynasty_2026-10-30.json",
     "pack_p5_untagged_planes_2026-10-30.json"
    ],
@@ -81784,6 +82486,7 @@
    "id": "character:memnarch",
    "name": "Memnarch",
    "origins": [
+    "pack_p5_new_phyrexia_historical_profile_2026-10-30.json",
     "pack_p5_untagged_planes_2026-10-30.json",
     "pack_p5_untagged_worldsoul_multiverse_2026-10-30.json"
    ],
@@ -81825,6 +82528,7 @@
    "id": "character:michiko_konda",
    "name": "Michiko Konda",
    "origins": [
+    "pack_p5_kamigawa_history_profile_2026-10-30.json",
     "pack_p5_untagged_planes_2026-10-30.json"
    ],
    "type": "Character"
@@ -82131,6 +82835,7 @@
    "id": "character:o_kagachi",
    "name": "O-Kagachi",
    "origins": [
+    "pack_p5_kamigawa_history_profile_2026-10-30.json",
     "pack_p5_untagged_planes_2026-10-30.json"
    ],
    "type": "Character"
@@ -82993,6 +83698,7 @@
    "id": "character:takeshi_konda",
    "name": "Takeshi Konda",
    "origins": [
+    "pack_p5_kamigawa_history_profile_2026-10-30.json",
     "pack_p5_untagged_planes_2026-10-30.json"
    ],
    "type": "Character"
@@ -83434,6 +84140,7 @@
    "name": "Venser",
    "origins": [
     "pack_c2_return_to_dominaria_2026-10-30.json",
+    "pack_p5_new_phyrexia_historical_profile_2026-10-30.json",
     "pack_p5_untagged_bios_2026-10-30.json",
     "pack_p5_untagged_planes_2026-10-30.json"
    ],
@@ -88219,6 +88926,150 @@
   },
   {
    "grade": "CANON_CONFIRMED",
+   "id": "claim:KMH001",
+   "limitation": "The undated profile is a broad structural description, not a complete cosmology.",
+   "name": "Kamigawa is described as two interacting realms: material utsushiyo and spirit kakuriyo.",
+   "origins": [
+    "pack_p5_kamigawa_history_profile_2026-10-30.json"
+   ],
+   "predicate": "contains_two_symbiotic_realms",
+   "stage": "plane_profile_undated",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:KMH002",
+   "limitation": "Twenty years is a span in the narrated conflict, not an AR year or an independently verified total war duration.",
+   "name": "The kami attack on Reito marked the beginning of the Kami War, and the profile specifies twenty subsequent years of devastation.",
+   "origins": [
+    "pack_p5_kamigawa_history_profile_2026-10-30.json"
+   ],
+   "predicate": "endured",
+   "stage": "kamigawa_kami_war",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:KMH003",
+   "limitation": "The general plane profile does not enumerate every attacker or survivor.",
+   "name": "The attack by kami on Reito was a devastating early event in the Kami War.",
+   "origins": [
+    "pack_p5_kamigawa_history_profile_2026-10-30.json"
+   ],
+   "predicate": "attacked_by",
+   "stage": "kamigawa_kami_war",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:KMH004",
+   "limitation": "The relative 1,200-year date belongs to the 2022 story's narrative frame; it is not an AR calendar conversion.",
+   "name": "Konda imprisoned part of O-Kagachi about 1,200 years before the Neon Dynasty guide's narrated present.",
+   "origins": [
+    "pack_p5_kamigawa_history_profile_2026-10-30.json"
+   ],
+   "predicate": "imprisoned_part_of",
+   "stage": "kamigawa_kami_war",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:KMH005",
+   "limitation": "This does not assert that Kyodai is identical to O-Kagachi in every respect.",
+   "name": "The fragment of O-Kagachi that escaped imprisonment became Kyodai.",
+   "origins": [
+    "pack_p5_kamigawa_history_profile_2026-10-30.json"
+   ],
+   "predicate": "became",
+   "stage": "kamigawa_kami_war",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:KMH006",
+   "limitation": "The quoted overview does not establish the detailed order or tactics of the two defeats.",
+   "name": "Kyodai and Michiko together defeated O-Kagachi and Konda.",
+   "origins": [
+    "pack_p5_kamigawa_history_profile_2026-10-30.json"
+   ],
+   "predicate": "defeated_with_michiko",
+   "stage": "kamigawa_kami_war_resolution",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:KMH007",
+   "limitation": "The source does not say the two realms were already fully merged at Neon Dynasty's time.",
+   "name": "O-Kagachi's death broke the boundary between Kamigawa's mortal and spirit realms, beginning their merger.",
+   "origins": [
+    "pack_p5_kamigawa_history_profile_2026-10-30.json"
+   ],
+   "predicate": "realm_barrier_broke_after_death_of",
+   "stage": "post_kami_war_merging",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:KMH008",
+   "limitation": "A 2022 story-period description; no claims about the state of all sites in later continuity.",
+   "name": "Sites of merging between Kamigawa's two realms appeared unpredictably in the Neon Dynasty guide.",
+   "origins": [
+    "pack_p5_kamigawa_history_profile_2026-10-30.json"
+   ],
+   "predicate": "developed_random",
+   "stage": "kamigawa_neon_dynasty_2022",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:KMH009",
+   "limitation": "This explains the founding purpose, not the entire institution's later political history.",
+   "name": "The Imperials originated to assist Kyodai with problems arising from the realms' merger.",
+   "origins": [
+    "pack_p5_kamigawa_history_profile_2026-10-30.json"
+   ],
+   "predicate": "founded_to_manage",
+   "stage": "post_kami_war_merging",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:KMH010",
+   "limitation": "The political description belongs to the Neon Dynasty period; it is not a verified current government as of 2026.",
+   "name": "The Kamigawan Imperial organization developed from merge management into government and rulership.",
+   "origins": [
+    "pack_p5_kamigawa_history_profile_2026-10-30.json"
+   ],
+   "predicate": "governed_in_neon_dynasty_period_by",
+   "stage": "kamigawa_neon_dynasty_2022",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:KMH011",
+   "limitation": "This is a rule of the 2022-described institution, not a list of every emperor.",
+   "name": "In the Neon Dynasty Imperial system, Kyodai's bond determined who bore the title Emperor of Kamigawa.",
+   "origins": [
+    "pack_p5_kamigawa_history_profile_2026-10-30.json"
+   ],
+   "predicate": "chosen_by_bond_with",
+   "stage": "kamigawa_neon_dynasty_2022",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:KMH012",
+   "limitation": "The guide does not establish that every Futurist broke the law or that later restrictions stayed unchanged.",
+   "name": "The Futurists pursued forbidden or borderline technologies despite Imperial rules on development.",
+   "origins": [
+    "pack_p5_kamigawa_history_profile_2026-10-30.json"
+   ],
+   "predicate": "challenged",
+   "stage": "kamigawa_neon_dynasty_2022",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
    "id": "claim:KT001",
    "name": "Surrak Dragonclaw is khan of the Temur (Khans of Tarkir present).",
    "origins": [
@@ -90264,6 +91115,102 @@
    ],
    "predicate": "associated_with",
    "stage": "new_phyrexia_2011",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:NPHH001",
+   "limitation": "The overview does not list every origin plane or person.",
+   "name": "Memnarch brought abducted mortals to the metal plane Mirrodin.",
+   "origins": [
+    "pack_p5_new_phyrexia_historical_profile_2026-10-30.json"
+   ],
+   "predicate": "abducted",
+   "stage": "mirrodin_population_early_history",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:NPHH002",
+   "limitation": "The official overview identifies the vector but does not establish Karn's intent or exact transmission method.",
+   "name": "Karn unintentionally introduced the Phyrexian oil to Mirrodin.",
+   "origins": [
+    "pack_p5_new_phyrexia_historical_profile_2026-10-30.json"
+   ],
+   "predicate": "introduced_to_mirrodin",
+   "stage": "mirrodin_phyrexian_corruption",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:NPHH003",
+   "limitation": "A general origin mechanism, not evidence that every Mirran was compleated.",
+   "name": "Phyrexian oil gradually transformed affected beings underground on Mirrodin.",
+   "origins": [
+    "pack_p5_new_phyrexia_historical_profile_2026-10-30.json"
+   ],
+   "predicate": "transformed_beneath_mirrodin",
+   "stage": "mirrodin_phyrexian_corruption",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:NPHH004",
+   "limitation": "This is an early historical trajectory; later events in March of the Machine must be tracked separately.",
+   "name": "The oil's spread escalated into the Phyrexian campaign to compleat Mirrodin, producing New Phyrexia.",
+   "origins": [
+    "pack_p5_new_phyrexia_historical_profile_2026-10-30.json"
+   ],
+   "predicate": "emerged_from_conquest_of",
+   "stage": "new_phyrexia_early_conquest",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:NPHH005",
+   "limitation": "No claim that every Mirran died or that every resistance effort failed forever.",
+   "name": "Mirran forces resisted the early Phyrexian conquest but were overwhelmed.",
+   "origins": [
+    "pack_p5_new_phyrexia_historical_profile_2026-10-30.json"
+   ],
+   "predicate": "fought_against",
+   "stage": "new_phyrexia_early_conquest",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:NPHH006",
+   "limitation": "This evaluates the early campaign; it does not negate their actions in later stories.",
+   "name": "Koth, Elspeth and Venser were among planeswalkers unable to reverse the early Phyrexian conquest.",
+   "origins": [
+    "pack_p5_new_phyrexia_historical_profile_2026-10-30.json"
+   ],
+   "predicate": "resisted_by_planeswalkers",
+   "stage": "new_phyrexia_early_conquest",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:NPHH007",
+   "limitation": "The page's historical present cannot be taken as the current political state after March of the Machine.",
+   "name": "The official early New Phyrexia overview describes rival praetor factions struggling for power.",
+   "origins": [
+    "pack_p5_new_phyrexia_historical_profile_2026-10-30.json"
+   ],
+   "predicate": "had_competing_praetor_factions",
+   "stage": "new_phyrexia_early_praetor_rule",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:NPHH008",
+   "limitation": "This does not identify present-day survivors or establish New Phyrexia's current accessibility.",
+   "name": "Mirran survivors faced daily threats under early New Phyrexian domination.",
+   "origins": [
+    "pack_p5_new_phyrexia_historical_profile_2026-10-30.json"
+   ],
+   "predicate": "struggled_under",
+   "stage": "new_phyrexia_early_praetor_rule",
    "type": "Claim"
   },
   {
@@ -97103,6 +98050,7 @@
    "id": "concept:emperor_of_kamigawa",
    "name": "Emperor of Kamigawa",
    "origins": [
+    "pack_p5_kamigawa_history_profile_2026-10-30.json",
     "pack_p5_kamigawa_neon_dynasty_2026-10-30.json"
    ],
    "type": "Concept"
@@ -97118,8 +98066,13 @@
   {
    "id": "concept:glistening_oil",
    "name": "Glistening oil",
+   "name_variants": [
+    "Glistening Oil",
+    "Glistening oil"
+   ],
    "origins": [
-    "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json"
+    "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json",
+    "pack_p5_new_phyrexia_historical_profile_2026-10-30.json"
    ],
    "type": "Concept"
   },
@@ -97136,6 +98089,22 @@
    "name": "High Throne of Eldraine",
    "origins": [
     "pack_p5_throne_of_eldraine_2026-10-30.json"
+   ],
+   "type": "Concept"
+  },
+  {
+   "id": "concept:kamigawa_fragment_o_kagachi",
+   "name": "Imprisoned fragment of O-Kagachi",
+   "origins": [
+    "pack_p5_kamigawa_history_profile_2026-10-30.json"
+   ],
+   "type": "Concept"
+  },
+  {
+   "id": "concept:kamigawa_technology_restrictions",
+   "name": "Imperial restrictions on technological innovation",
+   "origins": [
+    "pack_p5_kamigawa_history_profile_2026-10-30.json"
    ],
    "type": "Concept"
   },
@@ -97162,6 +98131,22 @@
    "name": "Learning, progress, magic and religious devotion in Meletis",
    "origins": [
     "pack_p5_theros_plane_profile_2026-10-30.json"
+   ],
+   "type": "Concept"
+  },
+  {
+   "id": "concept:mirrodin_abductees",
+   "name": "Mortals brought to Mirrodin by Memnarch",
+   "origins": [
+    "pack_p5_new_phyrexia_historical_profile_2026-10-30.json"
+   ],
+   "type": "Concept"
+  },
+  {
+   "id": "concept:mirrodin_infected_life",
+   "name": "Lifeforms transformed by oil beneath Mirrodin",
+   "origins": [
+    "pack_p5_new_phyrexia_historical_profile_2026-10-30.json"
    ],
    "type": "Concept"
   },
@@ -98426,6 +99411,14 @@
    "type": "Event"
   },
   {
+   "id": "event:kamigawa_kami_war",
+   "name": "Kami War",
+   "origins": [
+    "pack_p5_kamigawa_history_profile_2026-10-30.json"
+   ],
+   "type": "Event"
+  },
+  {
    "id": "event:kroog_destruction",
    "name": "The destruction of Kroog",
    "origins": [
@@ -99096,6 +100089,22 @@
    "type": "Faction"
   },
   {
+   "id": "faction:kamigawa_imperials",
+   "name": "Imperial Court of Kamigawa",
+   "origins": [
+    "pack_p5_kamigawa_history_profile_2026-10-30.json"
+   ],
+   "type": "Faction"
+  },
+  {
+   "id": "faction:kamigawa_warring_kami",
+   "name": "Kami attacking during the Kami War",
+   "origins": [
+    "pack_p5_kamigawa_history_profile_2026-10-30.json"
+   ],
+   "type": "Faction"
+  },
+  {
    "id": "faction:kapsho_drakes",
    "name": "Kapsho drakes",
    "origins": [
@@ -99255,8 +100264,17 @@
     "Mirran resistance"
    ],
    "origins": [
+    "pack_p5_new_phyrexia_historical_profile_2026-10-30.json",
     "pack_p5_one_side_stories_2026-10-30.json",
     "pack_p5_untagged_side_stories_2015_2026_2026-10-30.json"
+   ],
+   "type": "Faction"
+  },
+  {
+   "id": "faction:mirran_survivors_early_nph",
+   "name": "Mirran survivors during New Phyrexia's conquest",
+   "origins": [
+    "pack_p5_new_phyrexia_historical_profile_2026-10-30.json"
    ],
    "type": "Faction"
   },
@@ -99289,6 +100307,14 @@
    "name": "Clan Nel Toth",
    "origins": [
     "pack_p5_untagged_misc_b10_2026-10-30.json"
+   ],
+   "type": "Faction"
+  },
+  {
+   "id": "faction:new_phyrexian_praetor_factions",
+   "name": "New Phyrexian praetor factions (early era)",
+   "origins": [
+    "pack_p5_new_phyrexia_historical_profile_2026-10-30.json"
    ],
    "type": "Faction"
   },
@@ -99477,6 +100503,14 @@
    "name": "Elves of the Rotrue Wood",
    "origins": [
     "pack_p5_dsk_side_stories_2026-10-30.json"
+   ],
+   "type": "Faction"
+  },
+  {
+   "id": "faction:saiba_futurists",
+   "name": "Saiba Futurists",
+   "origins": [
+    "pack_p5_kamigawa_history_profile_2026-10-30.json"
    ],
    "type": "Faction"
   },
@@ -100234,6 +101268,30 @@
    "type": "Place"
   },
   {
+   "id": "place:kamigawa_kakuriyo",
+   "name": "Kakuriyo (Kamigawa spirit realm)",
+   "origins": [
+    "pack_p5_kamigawa_history_profile_2026-10-30.json"
+   ],
+   "type": "Place"
+  },
+  {
+   "id": "place:kamigawa_merge_sites",
+   "name": "Kamigawa merge locations",
+   "origins": [
+    "pack_p5_kamigawa_history_profile_2026-10-30.json"
+   ],
+   "type": "Place"
+  },
+  {
+   "id": "place:kamigawa_utsushiyo",
+   "name": "Utsushiyo (Kamigawa material realm)",
+   "origins": [
+    "pack_p5_kamigawa_history_profile_2026-10-30.json"
+   ],
+   "type": "Place"
+  },
+  {
    "id": "place:kapsho",
    "name": "Kapsho",
    "origins": [
@@ -100469,6 +101527,14 @@
    "name": "Raugrin",
    "origins": [
     "pack_p5_ikoria_2026-10-30.json"
+   ],
+   "type": "Place"
+  },
+  {
+   "id": "place:reito",
+   "name": "Reito",
+   "origins": [
+    "pack_p5_kamigawa_history_profile_2026-10-30.json"
    ],
    "type": "Place"
   },
@@ -100885,6 +101951,7 @@
    "name": "Kamigawa",
    "origins": [
     "pack_c4_march_of_the_machine_2026-10-30.json",
+    "pack_p5_kamigawa_history_profile_2026-10-30.json",
     "pack_p5_kamigawa_neon_dynasty_2026-10-30.json",
     "pack_p5_untagged_bios_2026-10-30.json",
     "pack_p5_untagged_planes_2026-10-30.json"
@@ -100924,6 +101991,7 @@
    "origins": [
     "pack_c3_assault_on_new_phyrexia_2026-10-30.json",
     "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json",
+    "pack_p5_new_phyrexia_historical_profile_2026-10-30.json",
     "pack_p5_untagged_nph_guides_2026-10-30.json",
     "pack_p5_untagged_planes_2026-10-30.json",
     "pack_p5_untagged_worldsoul_multiverse_2026-10-30.json"
@@ -100956,6 +102024,7 @@
     "pack_c2_return_to_dominaria_2026-10-30.json",
     "pack_c3_assault_on_new_phyrexia_2026-10-30.json",
     "pack_c4_march_of_the_machine_2026-10-30.json",
+    "pack_p5_new_phyrexia_historical_profile_2026-10-30.json",
     "pack_p5_untagged_nph_guides_2026-10-30.json"
    ],
    "type": "Plane"
@@ -113574,6 +114643,7 @@
    "kind": "official_planeswalkers_guide",
    "name": "Planeswalker's Guide to Kamigawa: Neon Dynasty",
    "origins": [
+    "pack_p5_kamigawa_history_profile_2026-10-30.json",
     "pack_p5_kamigawa_neon_dynasty_2026-10-30.json"
    ],
    "source_class": "WIZARDS_OFFICIAL",
@@ -116136,6 +117206,7 @@
    "kind": "official_story_episode",
    "name": "Kamigawa",
    "origins": [
+    "pack_p5_kamigawa_history_profile_2026-10-30.json",
     "pack_p5_untagged_planes_2026-10-30.json"
    ],
    "source_class": "WIZARDS_OFFICIAL",
@@ -116169,6 +117240,7 @@
    "kind": "official_story_episode",
    "name": "New Phyrexia",
    "origins": [
+    "pack_p5_new_phyrexia_historical_profile_2026-10-30.json",
     "pack_p5_untagged_planes_2026-10-30.json"
    ],
    "source_class": "WIZARDS_OFFICIAL",
@@ -116696,17 +117768,17 @@
  "problems": [],
  "schema": "multiverse-claim-graph/v1",
  "stats": {
-  "claim_edges_with_era": 1196,
-  "claim_edges_with_in_universe_date": 33,
+  "claim_edges_with_era": 1221,
+  "claim_edges_with_in_universe_date": 35,
   "claims_by_status": {
    "ALTERNATE_CONTINUITY": 2,
-   "CANON_CONFIRMED": 907,
+   "CANON_CONFIRMED": 927,
    "CANON_DISPUTED": 8,
    "CANON_IMPLIED": 241,
    "OPEN_QUESTION": 3
   },
   "curated_bridges": 126,
-  "edges": 8063,
+  "edges": 8153,
   "exact_art_printings": 560,
   "literal_objects": 14,
   "node_types": {
@@ -116715,20 +117787,20 @@
    "CardRepresentation": 560,
    "CardTheme": 1,
    "Character": 482,
-   "Claim": 1161,
-   "Concept": 161,
+   "Claim": 1181,
+   "Concept": 165,
    "DeckProposal": 3,
-   "Event": 23,
-   "Faction": 136,
+   "Event": 24,
+   "Faction": 141,
    "Literal": 14,
    "Object": 52,
-   "Place": 102,
+   "Place": 106,
    "Plane": 33,
    "Source": 605
   },
-  "nodes": 5094,
+  "nodes": 5128,
   "non_wizards_sources": 0,
-  "relations": 381,
+  "relations": 399,
   "wizards_official_sources": 605
  }
 }
