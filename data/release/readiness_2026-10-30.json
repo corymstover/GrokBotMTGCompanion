@@ -1,0 +1,142 @@
+{
+ "schema": "release-readiness/v1",
+ "generated": "2026-10-30",
+ "commit": null,
+ "verdict": "NOT_RELEASE_READY",
+ "note": "Read-only readiness evidence. Never an approval, lock or certification.",
+ "tally": {
+  "MET": 1,
+  "PARTIAL": 3,
+  "NOT_MET": 1,
+  "EXTERNAL": 2
+ },
+ "criteria": [
+  {
+   "id": "priority_enrichment",
+   "criterion": "Priority-card enrichment backlog fully accounted for",
+   "status": "PARTIAL",
+   "note": "3409/5362 enriched; 1953 remaining. Blocked: the guarded rebuild needs verified story-text, EDHREC and Commander Spellbook caches that are absent offline.",
+   "evidence": {
+    "enriched": 3409,
+    "total": 5362,
+    "remaining": 1953
+   }
+  },
+  {
+   "id": "foundation_graph",
+   "criterion": "Searchable cited connections across the three foundational lore packs",
+   "status": "PARTIAL",
+   "note": "Packs A, B and C are searchable with cited connections, but every pack is PRELIMINARY_RESEARCH (not owner approved)",
+   "evidence": {
+    "packs_by_foundation": {
+     "A": [
+      "data/lore_research/pack_a_ugin_bolas_evidence_2026-10-30.json",
+      "data/lore_research/pack_a_elder_dragon_war_extension_2026-10-30.json",
+      "data/lore_research/pack_a_tarkir_card_scenes_2026-10-30.json"
+     ],
+     "B": [
+      "data/lore_research/pack_b_thran_yawgmoth_brothers_war_2026-10-30.json"
+     ],
+     "C": [
+      "data/lore_research/pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json"
+     ]
+    },
+    "graph_stats": {
+     "nodes": 305,
+     "edges": 488,
+     "claims_by_status": {
+      "ALTERNATE_CONTINUITY": 1,
+      "CANON_CONFIRMED": 69,
+      "CANON_DISPUTED": 4,
+      "CANON_IMPLIED": 2,
+      "OPEN_QUESTION": 2
+     },
+     "non_wizards_sources": 0
+    },
+    "pack_statuses": [
+     "",
+     "PRELIMINARY_RESEARCH (not owner approved, not certified)"
+    ],
+    "graph_matches_inputs": true
+   }
+  },
+  {
+   "id": "lookup_and_rules",
+   "criterion": "Reliable lookup and rules checks backed by current Scryfall and official sources",
+   "status": "PARTIAL",
+   "note": "card lookups reconcile with snapshot 2026-10-29 (0 changes across 33894 cards); rules-interaction checks are not built yet",
+   "evidence": {
+    "report": "data/card_db/oracle_drift_2026-10-29.json",
+    "snapshot_date": "2026-10-29",
+    "changes": 0,
+    "index_rows": 33894,
+    "rules_checks": "not yet implemented in the companion"
+   }
+  },
+  {
+   "id": "set_atlas",
+   "criterion": "Verified Phase 1B set catalog",
+   "status": "MET",
+   "note": "Phase 1B qualified functional release (with stated limitations)",
+   "evidence": {
+    "gate": "QUALIFIED_OFFLINE_FUNCTIONAL_RELEASE_READY",
+    "as_of": "2026-10-29",
+    "limitations": 8
+   }
+  },
+  {
+   "id": "reviewed_graph_deck",
+   "criterion": "At least one complete, reviewed lore-first Commander deck built from the new graph",
+   "status": "NOT_MET",
+   "note": "3 owner-approval files exist for earlier lore decks, but no deck built from the new graph has owner review yet (1 graph-linked draft(s) await review)",
+   "evidence": {
+    "owner_approval_files": [
+     "2026-10-28_cory_approved_lore_deck_8_karn.md",
+     "2026-10-28_cory_approved_lore_decks_1-7.md",
+     "2026-10-29_cory_approved_lore_deck_10_yawgmoth.md"
+    ],
+    "draft_proposals": 9,
+    "graph_based_drafts": [
+     "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+    ]
+   }
+  },
+  {
+   "id": "grixis_no_regression",
+   "criterion": "No regression in the 62 archived approved Grixis decks",
+   "status": "EXTERNAL",
+   "note": "guarded by focused-validation CI (validate_all) and protected-path digests below; this tool does not re-run the 62-deck audit",
+   "evidence": {
+    "protected_path_digests": {
+     "state/current_deck_overrides.json": {
+      "files": 0,
+      "sha256": null
+     },
+     "data/lore_decks/approvals": {
+      "files": 3,
+      "sha256": "b109307718d35bd16f032630bb2604d28aa9270a0c6a05c484a389d1ed0e3f7a"
+     },
+     "data/grixis/approvals.json": {
+      "files": 1,
+      "sha256": "991e9e0cd54bedfc9d4a7f58047df3e8e9ce5c50eef0faac2520053088505a45"
+     },
+     "data/grixis/exceptions.json": {
+      "files": 1,
+      "sha256": "b603c0bdfa2e895dcacd24131806b8d44f01acc1df8be48c0f6c265649937c69"
+     },
+     "data/grixis/dev_snapshot_lock.json": {
+      "files": 1,
+      "sha256": "8b341b4134cc319fab5a93302fbfa935746fad14a0bca540e2bd35307c33e69c"
+     }
+    }
+   }
+  },
+  {
+   "id": "ci_and_coverage",
+   "criterion": "Passing focused CI and an up-to-date, source-backed coverage report",
+   "status": "EXTERNAL",
+   "note": "CI status lives on GitHub; check the required workflows on the release commit",
+   "evidence": {}
+  }
+ ]
+}
