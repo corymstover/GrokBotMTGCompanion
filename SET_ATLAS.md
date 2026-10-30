@@ -190,6 +190,16 @@ The [deterministic report](data/set_atlas/duel_decks_source_audit_2026-10-29.jso
 
 Offline check: `python3 scripts/audit_duel_decks_sources.py`. Lookup: `python3 scripts/product_family_lookup.py --type duel_deck --all`, or `--cohort preconstructed_and_boxed --only-pending --all`. The official Japanese product pages are first-party Wizards sources, not foreign-language card printing ingestion; no other-language card inventory is added. Product-family evidence does not certify card legality, set debuts or premier-set status.
 
+## Annual Commander preconstructed release families, 2011 and 2013–2020
+
+The [nine-code annual Commander evidence ledger](data/set_atlas/commander_series_sources_2011_2020.json) uses individual first-party Wizards Japanese product pages for *Commander (2011)* and each of *Commander 2013* through *Commander 2020*. The [official product index](https://mtg-jp.com/products/other/) preserves these annual editions; the [2020 product page](https://mtg-jp.com/products/0000193/) explicitly documents ready-made decks alongside its contents and distinguishes those Commander-exclusive cards from the Ikoria main set.
+
+These are **nine annual release-family Scryfall codes**, not necessarily nine individual decks or boxes—an annual Commander product can contain multiple separately packaged preconstructed decks. Their exact Scryfall code mappings and release/first-card dates remain separately attributed to the frozen Set API. No card legality or unique-new-design counts are inferred from the existence of a Commander set code, and the absence of a `C12` code is not treated as a missing year.
+
+The [deterministic cumulative audit](data/set_atlas/commander_series_source_audit_2026-10-29.json) adds **nine individually documented Commander family codes** without changing the earlier 111. The October 29 outside-category corpus now has **120 source-backed / 728 source-pending**, including **61** remaining boxed/preconstructed code records. Later set-tied Commander series (beginning with `C21`, `ZNC`, `KHC` and related products) remain research-pending and are the next priority; the 645 promotional/extras are a separate long-term queue.
+
+Replay: `python3 scripts/audit_commander_series_sources.py`; offline lookup: `python3 scripts/product_family_lookup.py --type commander --all`. No other-language card data was ingested; the Japanese pages serve strictly as primary product-family evidence.
+
 ## Read-only lookups
 
 On a checkout of this repository, no Scryfall download is needed for the following commands:

@@ -1,0 +1,35 @@
+name: Phase 1B historical annual Commander product families
+on:
+  push:
+    branches: [main, chatgpt-phase1b-commander-series-20261029]
+    paths:
+      - scripts/audit_commander_series_sources.py
+      - scripts/product_family_lookup.py
+      - tests/test_commander_series_sources.py
+      - data/set_atlas/commander_series_*
+      - .github/workflows/phase1b-commander-series.yml
+  pull_request:
+    paths:
+      - scripts/audit_commander_series_sources.py
+      - scripts/product_family_lookup.py
+      - tests/test_commander_series_sources.py
+      - data/set_atlas/commander_series_*
+      - .github/workflows/phase1b-commander-series.yml
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  commander-annual-families:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate annual Commander product family sources
+        run: python3 -m unittest discover -s tests -p test_commander_series_sources.py -v
+      - name: Check deterministic report and current offline lookup
+        run: |
+          python3 scripts/audit_commander_series_sources.py
+          python3 scripts/product_family_lookup.py --summary
+          python3 -m py_compile scripts/audit_commander_series_sources.py scripts/product_family_lookup.py
