@@ -9,7 +9,19 @@
   "eoe_ep8": "edge-of-eternities-episode-8",
   "eoe_ep9": "edge-of-eternities-episode-9",
   "eoe_ep10": "edge-of-eternities-episode-10",
-  "eoe_ep11": "edge-of-eternities-episode-11"
+  "eoe_ep11": "edge-of-eternities-episode-11",
+  "eoe_ep1": "edge-of-eternities-episode-1",
+  "eoe_ep2": "edge-of-eternities-episode-2",
+  "eoe_ep3": "edge-of-eternities-episode-3",
+  "eoe_ep4": "edge-of-eternities-episode-4",
+  "eoe_ep5": "edge-of-eternities-episode-5",
+  "eoe_ep6": "edge-of-eternities-episode-6",
+  "eoe_ep7": "edge-of-eternities-episode-7",
+  "eoe_grasp": "edge-of-eternities-grasp-in-the-dark",
+  "eoe_doors": "edge-of-eternities-the-doors-of-uthros",
+  "eoe_kadrik": "edge-of-eternities-kadrik-and-the-pod",
+  "eoe_compact": "edge-of-eternities-compact-me-to-zero",
+  "eoe_wefthunter": "edge-of-eternities-the-wefthunter"
  },
  "entities": [
   {
@@ -101,6 +113,86 @@
    "id": "blind_eternities",
    "type": "Concept",
    "name": "The Blind Eternities"
+  },
+  {
+   "id": "kav",
+   "type": "Faction",
+   "name": "The Kav"
+  },
+  {
+   "id": "kavaron",
+   "type": "Place",
+   "name": "Kavaron"
+  },
+  {
+   "id": "kav_memorial_navy",
+   "type": "Faction",
+   "name": "Kav Memorial Navy"
+  },
+  {
+   "id": "farakatolar",
+   "type": "Character",
+   "name": "Harkener Sergeant Farakatolar"
+  },
+  {
+   "id": "raphaella",
+   "type": "Character",
+   "name": "Raphaella"
+  },
+  {
+   "id": "next_eternity",
+   "type": "Concept",
+   "name": "The Next Eternity (Monoist belief)"
+  },
+  {
+   "id": "geldan",
+   "type": "Character",
+   "name": "Geldan"
+  },
+  {
+   "id": "solidbodies_research",
+   "type": "Faction",
+   "name": "Solidbodies Research"
+  },
+  {
+   "id": "eumidians",
+   "type": "Faction",
+   "name": "The Eumidians"
+  },
+  {
+   "id": "evendo",
+   "type": "Place",
+   "name": "Evendo"
+  },
+  {
+   "id": "reen",
+   "type": "Character",
+   "name": "Squad Captain Reen"
+  },
+  {
+   "id": "susur_secundi",
+   "type": "Place",
+   "name": "Susur Secundi"
+  },
+  {
+   "id": "ghan",
+   "type": "Character",
+   "name": "Ghan"
+  },
+  {
+   "id": "drix",
+   "type": "Faction",
+   "name": "The Drix"
+  },
+  {
+   "id": "eldrazi",
+   "type": "Faction",
+   "name": "The Eldrazi"
+  },
+  {
+   "id": "chopright_colony",
+   "type": "Place",
+   "name": "The unoccupied colony built for the Choprights"
   }
  ],
  "claims": [
@@ -408,11 +500,231 @@
    "summary": "Haliya took the Endstone away from Vondam and the Free Company; Vondam says he failed in his duty to kill her for it.",
    "limitation": "Both statements are dialogue in Episode 11; the act itself occurs in earlier episodes not cited here.",
    "event_stage": "eoe_taro_duend_2025"
+  },
+  {
+   "id": "EO018",
+   "subject": "kav",
+   "predicate": "destroyed",
+   "object": "kavaron",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "eoe_ep1",
+     "quote": "They delved so deep into Kavaron, they tore it open—blasted an abscess into their homeworld."
+    },
+    {
+     "page": "eoe_ep1",
+     "quote": "Kavaron was torn in two; today, they call one half Kavaron That Is and the other Kavaron Before."
+    }
+   ],
+   "summary": "The Kav mined so deep into their homeworld Kavaron that they tore it in two (Kavaron That Is / Kavaron Before).",
+   "limitation": "Narrated by the unnamed voice of the Revision frame, not an omniscient narrator."
+  },
+  {
+   "id": "EO019",
+   "subject": "farakatolar",
+   "predicate": "member_of",
+   "object": "kav_memorial_navy",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "eoe_grasp",
+     "quote": "The Kav Memorial Navy tracks and maps every part of the collapsing sections, being charged with the imperative to protect and retrieve the remains of their world."
+    },
+    {
+     "page": "eoe_grasp",
+     "quote": "The piece which Harkener Sergeant Farakatolar and her small squad have been sent to investigate broke off decades ago and was marked as a possible memorial vault, one of the precious preserves of Kav artifacts."
+    }
+   ],
+   "summary": "Harkener Sergeant Farakatolar leads a squad sent to investigate a drifting memorial vault for the Kav Memorial Navy.",
+   "limitation": "Membership is inferred from the mission framing; the quoted lines do not say 'Farakatolar of the KMN' outright."
+  },
+  {
+   "id": "EO020",
+   "subject": "alpharael",
+   "predicate": "sibling_of",
+   "object": "raphaella",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "eoe_ep3",
+     "quote": "Between him and the black hole mystery falls his sister."
+    },
+    {
+     "page": "eoe_ep3",
+     "quote": "So, Raphaella and Alpharael have been called."
+    }
+   ],
+   "summary": "Alpharael's sister Raphaella is called with him to take the Plummet into the black hole.",
+   "limitation": "The sister is identified as Raphaella by context across the episode rather than in one sentence."
+  },
+  {
+   "id": "EO021",
+   "subject": "monoists",
+   "predicate": "believes_in",
+   "object": "next_eternity",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "eoe_ep3",
+     "quote": "Inside each black hole, a new and better universe will be born."
+    },
+    {
+     "page": "eoe_ep4",
+     "quote": "The hardest one of them is Purael, a murderer, who believes that the Next Eternity has been populated with the castoffs of Monoism—undesirables and heretics who've been encouraged to take the Plummet so everyone can be quit of them."
+    }
+   ],
+   "summary": "Monoist doctrine holds that a new and better universe, the Next Eternity, is born inside each black hole; the faithful 'take the Plummet' to reach it.",
+   "limitation": "This is a religious belief reported in the story; Alpharael later doubts it ('There is no Next Eternity'). Not a statement about cosmology."
+  },
+  {
+   "id": "EO022",
+   "subject": "alpharael",
+   "predicate": "attacked",
+   "object": "kav_memorial_navy",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "eoe_ep6",
+     "quote": "When Alpharael's Hopelight came down, it irradiated the entire Kav Memorial team with its fusion engine."
+    }
+   ],
+   "summary": "Alpharael's ship Hopelight irradiated the entire Kav Memorial team when it came down."
+  },
+  {
+   "id": "EO023",
+   "subject": "alpharael",
+   "predicate": "wounded",
+   "object": "vondam",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "eoe_ep7",
+     "quote": "She let the coward Alpharael throw a black hole through her knight's skull."
+    }
+   ],
+   "summary": "Alpharael threw a black hole through Syr Vondam's skull, leaving a burned tunnel through his brain.",
+   "limitation": "Stated from Haliya's point of view ('the coward' is her judgment)."
+  },
+  {
+   "id": "EO024",
+   "subject": "seriema",
+   "predicate": "traveled_to",
+   "object": "kavaron",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "eoe_ep5",
+     "quote": "The Seriema plunges stern first through the Mordraine Ring, toward Kavaron That Is and a stasis cask to hold their prize."
+    }
+   ],
+   "summary": "The Seriema flies to Kavaron That Is to put its prize in a stasis cask."
+  },
+  {
+   "id": "EO025",
+   "subject": "geldan",
+   "predicate": "works_for",
+   "object": "solidbodies_research",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "eoe_doors",
+     "quote": "Complete the mission for Solidbodies, get a little something for herself on the way … and finally win, finally get out from under the eternal pressure of debt and a network of favors, finally have something for herself."
+    }
+   ],
+   "summary": "Geldan undertakes the Doors of Uthros mission for Solidbodies Research, to whom she owes favors.",
+   "limitation": "She is an indebted contractor rather than a formal employee; 'works_for' is approximate."
+  },
+  {
+   "id": "EO026",
+   "subject": "eumidians",
+   "predicate": "terraformed",
+   "object": "evendo",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "eoe_kadrik",
+     "quote": "They screwed up their own planet by mining it into oblivion, watched us usher Evendo out of its ice age, and then tried (and failed!) to scare us off and take the planet for themselves."
+    },
+    {
+     "page": "eoe_kadrik",
+     "quote": "Anyway, I poked my way out of my pod during the second wave, when the planet was well on its way to being a real Eumidian paradise."
+    }
+   ],
+   "summary": "Eumidian vanguards terraformed Evendo out of its ice age into a Eumidian paradise.",
+   "limitation": "Narrated by the young Eumidian Kadrik; the 'they' who tried to take the planet are implied to be the Kav."
+  },
+  {
+   "id": "EO027",
+   "subject": "reen",
+   "predicate": "native_of",
+   "object": "susur_secundi",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "eoe_compact",
+     "quote": "The view reminds her that the Edge is unimaginably vast and that she is far, far from the subterranean warrens of Susur Secundi."
+    }
+   ],
+   "summary": "Squad Captain Reen is far from her home, the subterranean warrens of Susur Secundi.",
+   "limitation": "Home is inferred from the line; the story does not say 'born on'."
+  },
+  {
+   "id": "EO028",
+   "subject": "ghan",
+   "predicate": "member_of",
+   "object": "drix",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "eoe_wefthunter",
+     "quote": "And Ghan had more reason than most Drix to loathe the Eldrazi."
+    }
+   ],
+   "summary": "Ghan is a Drix wefthunter."
+  },
+  {
+   "id": "EO029",
+   "subject": "ghan",
+   "predicate": "opposed",
+   "object": "eldrazi",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "eoe_wefthunter",
+     "quote": "And Ghan had more reason than most Drix to loathe the Eldrazi."
+    },
+    {
+     "page": "eoe_wefthunter",
+     "quote": "A wefthunter was here for a reason, and it wasn't to flee at the first whiff of chaos."
+    }
+   ],
+   "summary": "Ghan, a Drix wefthunter, loathes the Eldrazi and hunts their influence.",
+   "limitation": "'Loathes' is stated; active opposition is the story's premise, graded IMPLIED."
+  },
+  {
+   "id": "EO030",
+   "subject": "sami",
+   "predicate": "explored",
+   "object": "chopright_colony",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "eoe_ep2",
+     "quote": "Sami and Tan stand on the runway apron in their risk armor and stare."
+    },
+    {
+     "page": "eoe_ep2",
+     "quote": "The Choprights filled out their preferences but never showed up.\""
+    }
+   ],
+   "summary": "Sami and Tan explore a fully built colony, still in its wrap, whose intended settlers (the Choprights) never arrived.",
+   "limitation": "The colony is unnamed in the quoted lines; the entity is a descriptive placeholder."
   }
  ],
  "remaining": [
-  "Episodes 2-7 (Uthros, the Seriema's flight, Vondam's head wound) are only lightly used",
-  "Side stories (Grasp in the Dark, The Doors of Uthros, Kadrik and the Pod, Compact Me to Zero, The Wefthunter) are not cited",
+  "Episode 2 (the empty Chopright colony) has one scene-setting claim; its mystery and the armed stranger are not graded",
+  "Side stories are cited with one or two claims each; their characters (Geldan, Rezint, Kadrik, Reen, Ghan) are not tied to card printings",
   "The android's identity and the supervoid's nature are left as open questions; not graded"
  ]
 }

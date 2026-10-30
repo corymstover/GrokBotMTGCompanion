@@ -4,7 +4,7 @@
  "evidence_cutoff": "2026-10-30",
  "status": "PRELIMINARY_RESEARCH (not owner approved, not certified)",
  "arc": "SOI/EMN",
- "scope": "Targeted Phase 5 extraction from official Shadows over Innistrad / Eldritch Moon web fiction: I Am Avacyn, Campaign of Vengeance, Innistrad's Last Hope and The Promised End. PRELIMINARY_RESEARCH; not owner approved.",
+ "scope": "Targeted Phase 5 extraction from official Shadows over Innistrad / Eldritch Moon web fiction: all 21 episodes, mostly from their lead-in recaps. PRELIMINARY_RESEARCH; not owner approved.",
  "built_by": "scripts/story_claim_pipeline.py from data/lore_research/claim_specs/pack_p5_shadows_eldritch_moon.spec.json",
  "source_register": {
   "soi_avacyn": {
@@ -34,6 +34,125 @@
    "kind": "official_story_episode",
    "perspective": "Wizards of the Coast (official Magic Story)",
    "published": "2016-07-27"
+  },
+  "soi_unwelcome": {
+   "title": "Unwelcome",
+   "url": "https://magic.wizards.com/en/news/magic-story/unwelcome-2016-03-16",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2016-03-16"
+  },
+  "soi_sacrifice": {
+   "title": "Sacrifice",
+   "url": "https://magic.wizards.com/en/news/magic-story/sacrifice-2016-03-23",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2016-03-23"
+  },
+  "soi_markov_manor": {
+   "title": "The Mystery of Markov Manor",
+   "url": "https://magic.wizards.com/en/news/magic-story/mystery-markov-manor-2016-03-30",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2016-03-30"
+  },
+  "soi_drownyard": {
+   "title": "The Drownyard Temple",
+   "url": "https://magic.wizards.com/en/news/magic-story/drownyard-temple-2016-04-06",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2016-04-06"
+  },
+  "soi_promises": {
+   "title": "Promises Old and New",
+   "url": "https://magic.wizards.com/en/news/magic-story/promises-old-and-new-2016-04-13",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2016-04-13"
+  },
+  "soi_indignation": {
+   "title": "Liliana's Indignation",
+   "url": "https://magic.wizards.com/en/news/magic-story/lilianas-indignation-2016-04-20",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2016-04-20"
+  },
+  "soi_games": {
+   "title": "Games",
+   "url": "https://magic.wizards.com/en/news/magic-story/games-2016-04-27",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2016-04-27"
+  },
+  "soi_lunarch": {
+   "title": "The Lunarch Inquisition",
+   "url": "https://magic.wizards.com/en/news/magic-story/lunarch-inquisition-2016-05-04",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2016-05-04"
+  },
+  "soi_stories_endings": {
+   "title": "Stories and Endings",
+   "url": "https://magic.wizards.com/en/news/magic-story/stories-and-endings-2016-05-11",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2016-05-11"
+  },
+  "soi_prodigal": {
+   "title": "The Prodigal Sorcerers",
+   "url": "https://magic.wizards.com/en/news/magic-story/prodigal-sorcerers-2016-05-25",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2016-05-25"
+  },
+  "emn_goldnight": {
+   "title": "The Archmage of Goldnight",
+   "url": "https://magic.wizards.com/en/news/magic-story/archmage-goldnight-2016-06-08",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2016-06-08"
+  },
+  "emn_stone_blood": {
+   "title": "Stone and Blood",
+   "url": "https://magic.wizards.com/en/news/magic-story/stone-and-blood-2016-06-15",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2016-06-15"
+  },
+  "emn_emrakul_rises": {
+   "title": "Emrakul Rises",
+   "url": "https://magic.wizards.com/en/news/magic-story/emrakul-rises",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2016-06-22"
+  },
+  "emn_saint_traft": {
+   "title": "Saint Traft and the Flight of Nightmares",
+   "url": "https://magic.wizards.com/en/news/magic-story/saint-traft-and-flight-nightmares-2016-07-13",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2016-07-13"
+  },
+  "emn_battle_thraben": {
+   "title": "Battle of Thraben",
+   "url": "https://magic.wizards.com/en/news/magic-story/battle-thraben-2016-07-20",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2016-07-20"
+  },
+  "soi_under_silver_moon": {
+   "title": "Under the Silver Moon",
+   "url": "https://magic.wizards.com/en/news/magic-story/under-silver-moon-2016-03-02",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2016-12-22"
+  },
+  "soi_gaze": {
+   "title": "A Gaze Blank and Pitiless",
+   "url": "https://magic.wizards.com/en/news/magic-story/gaze-blank-and-pitiless-2016-03-09",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2016-12-29"
   }
  },
  "entities": [
@@ -96,6 +215,141 @@
    "id": "markov_manor",
    "type": "Place",
    "name": "Markov Manor"
+  },
+  {
+   "id": "eldrazi_titans",
+   "type": "Concept",
+   "name": "Eldrazi titans"
+  },
+  {
+   "id": "zendikar",
+   "type": "Plane",
+   "name": "Zendikar"
+  },
+  {
+   "id": "ugin",
+   "type": "Character",
+   "name": "Ugin"
+  },
+  {
+   "id": "chain_veil",
+   "type": "Object",
+   "name": "The Chain Veil"
+  },
+  {
+   "id": "helvault",
+   "type": "Object",
+   "name": "The Helvault"
+  },
+  {
+   "id": "tamiyos_journal",
+   "type": "Object",
+   "name": "Tamiyo's journal"
+  },
+  {
+   "id": "thalia",
+   "type": "Character",
+   "name": "Thalia, Guardian of Thraben"
+  },
+  {
+   "id": "odric",
+   "type": "Character",
+   "name": "Odric"
+  },
+  {
+   "id": "gisa",
+   "type": "Character",
+   "name": "Gisa"
+  },
+  {
+   "id": "geralf",
+   "type": "Character",
+   "name": "Geralf"
+  },
+  {
+   "id": "thraben",
+   "type": "Place",
+   "name": "Thraben"
+  },
+  {
+   "id": "riders_lock",
+   "type": "Place",
+   "name": "Rider's Lock"
+  },
+  {
+   "id": "lunarch_council",
+   "type": "Faction",
+   "name": "Lunarch Council"
+  },
+  {
+   "id": "arlinn_kord",
+   "type": "Character",
+   "name": "Arlinn Kord"
+  },
+  {
+   "id": "order_of_goldnight",
+   "type": "Faction",
+   "name": "Goldnight"
+  },
+  {
+   "id": "ulvenwald",
+   "type": "Place",
+   "name": "Ulvenwald"
+  },
+  {
+   "id": "gisela",
+   "type": "Character",
+   "name": "Gisela"
+  },
+  {
+   "id": "bruna",
+   "type": "Character",
+   "name": "Bruna"
+  },
+  {
+   "id": "brisela",
+   "type": "Character",
+   "name": "Brisela, Voice of Nightmares"
+  },
+  {
+   "id": "saint_traft",
+   "type": "Character",
+   "name": "Saint Traft"
+  },
+  {
+   "id": "halana",
+   "type": "Character",
+   "name": "Halana"
+  },
+  {
+   "id": "alena",
+   "type": "Character",
+   "name": "Alena"
+  },
+  {
+   "id": "lake_zhava",
+   "type": "Place",
+   "name": "Lake Zhava"
+  },
+  {
+   "id": "nephalia",
+   "type": "Place",
+   "name": "Nephalia"
+  },
+  {
+   "id": "kellan_boldt",
+   "type": "Character",
+   "name": "Kellan Boldt"
+  },
+  {
+   "id": "archmage_ghavos",
+   "type": "Character",
+   "name": "Archmage Ghavos"
+  },
+  {
+   "id": "cursemute",
+   "type": "Event",
+   "name": "The Cursemute"
   }
  ],
  "claims": [
@@ -289,13 +543,543 @@
    ],
    "summary": "Liliana swore an oath and joined the Gatewatch after Emrakul was bound.",
    "limitation": "Her oath was partly insincere by her own account."
+  },
+  {
+   "id": "SE010",
+   "subject": "jace_beleren",
+   "predicate": "searched_for",
+   "object": "sorin_markov",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "innistrad_soi_emn_2016",
+   "source_ids": [
+    "soi_unwelcome"
+   ],
+   "evidence": [
+    {
+     "source_id": "soi_unwelcome",
+     "quote": "Jace Beleren has come to Innistrad searching for the vampire lord Sorin Markov, who he hopes can help him unravel a puzzle."
+    }
+   ],
+   "summary": "Jace came to Innistrad looking for Sorin Markov.",
+   "limitation": "From the episode's lead-in recap."
+  },
+  {
+   "id": "SE011",
+   "subject": "sorin_markov",
+   "predicate": "imprisoned",
+   "object": "eldrazi_titans",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "innistrad_soi_emn_2016",
+   "source_ids": [
+    "soi_markov_manor"
+   ],
+   "evidence": [
+    {
+     "source_id": "soi_markov_manor",
+     "quote": "Jace has come to Innistrad in search of Sorin Markov, one of the three Planeswalkers who imprisoned the Eldrazi on Zendikar thousands of years ago."
+    }
+   ],
+   "summary": "Sorin was one of the three Planeswalkers who imprisoned the Eldrazi on Zendikar thousands of years ago.",
+   "limitation": "From the episode's lead-in recap; the other two are not named in this quote."
+  },
+  {
+   "id": "SE012",
+   "subject": "markov_manor",
+   "predicate": "home_of",
+   "object": "sorin_markov",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "innistrad_soi_emn_2016",
+   "source_ids": [
+    "soi_markov_manor"
+   ],
+   "evidence": [
+    {
+     "source_id": "soi_markov_manor",
+     "quote": "Despite the dire warnings of Liliana Vess, he has made his way to Markov Manor, ancestral home of the vampire Planeswalker."
+    }
+   ],
+   "summary": "Markov Manor is Sorin's ancestral home.",
+   "limitation": ""
+  },
+  {
+   "id": "SE013",
+   "subject": "jace_beleren",
+   "predicate": "discovered",
+   "object": "tamiyos_journal",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "innistrad_soi_emn_2016",
+   "source_ids": [
+    "soi_drownyard"
+   ],
+   "evidence": [
+    {
+     "source_id": "soi_drownyard",
+     "quote": "His investigation brought him to the twisted remains of Markov Manor, where he discovered a journal amid the rubble."
+    }
+   ],
+   "summary": "Jace found a research journal in the ruins of Markov Manor.",
+   "limitation": ""
+  },
+  {
+   "id": "SE014",
+   "subject": "tamiyo",
+   "predicate": "authored",
+   "object": "tamiyos_journal",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "innistrad_soi_emn_2016",
+   "source_ids": [
+    "soi_stories_endings"
+   ],
+   "evidence": [
+    {
+     "source_id": "soi_stories_endings",
+     "quote": "As it happens, the journal's author, the moonfolk Planeswalker called Tamiyo, is several steps ahead of him...."
+    }
+   ],
+   "summary": "The journal Jace followed was written by the moonfolk Planeswalker Tamiyo.",
+   "limitation": ""
+  },
+  {
+   "id": "SE015",
+   "subject": "sorin_markov",
+   "predicate": "sought_aid_from",
+   "object": "olivia_voldaren",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "innistrad_soi_emn_2016",
+   "source_ids": [
+    "soi_promises"
+   ],
+   "evidence": [
+    {
+     "source_id": "soi_promises",
+     "quote": "Though shunned by his own kind, he hopes to gather the aid of the vampires to confront the threat that has come to Innistrad."
+    },
+    {
+     "source_id": "soi_promises",
+     "quote": "His search has brought him to the remote estate of the powerful Olivia Voldaren."
+    }
+   ],
+   "summary": "Sorin went to Olivia Voldaren's estate seeking vampire aid against the threat to Innistrad.",
+   "limitation": ""
+  },
+  {
+   "id": "SE016",
+   "subject": "helvault",
+   "predicate": "originated_from",
+   "object": "innistrad_silver_moon",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "innistrad_soi_emn_2016",
+   "source_ids": [
+    "soi_promises"
+   ],
+   "evidence": [
+    {
+     "source_id": "soi_promises",
+     "quote": "The Helvault—it had come from the plane's silver moon, and it had taken great effort for Sorin to bring it here."
+    }
+   ],
+   "summary": "The Helvault came from Innistrad's silver moon; Sorin brought it to Innistrad.",
+   "limitation": ""
+  },
+  {
+   "id": "SE017",
+   "subject": "liliana_vess",
+   "predicate": "wielded",
+   "object": "chain_veil",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "innistrad_soi_emn_2016",
+   "source_ids": [
+    "soi_indignation"
+   ],
+   "evidence": [
+    {
+     "source_id": "soi_indignation",
+     "quote": "With it, she had killed two demons, lords among their kind."
+    }
+   ],
+   "summary": "Liliana used the Chain Veil to kill two of the demon lords who held her contract.",
+   "limitation": "'it' refers to the Chain Veil named in the preceding sentence; the demons are not named in this quote."
+  },
+  {
+   "id": "SE018",
+   "subject": "odric",
+   "predicate": "imprisoned",
+   "object": "gisa",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "innistrad_soi_emn_2016",
+   "source_ids": [
+    "soi_games"
+   ],
+   "evidence": [
+    {
+     "source_id": "soi_games",
+     "quote": "Odric, a champion of the church, captured Gisa and held her imprisoned in Rider's Lock."
+    }
+   ],
+   "summary": "After the siege of Thraben, Odric captured Gisa and held her in Rider's Lock.",
+   "limitation": "From the episode's lead-in recap."
+  },
+  {
+   "id": "SE019",
+   "subject": "gisa",
+   "predicate": "sibling_rival_of",
+   "object": "geralf",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "innistrad_soi_emn_2016",
+   "source_ids": [
+    "soi_games"
+   ],
+   "evidence": [
+    {
+     "source_id": "soi_games",
+     "quote": "Each hoping to outdo the other in their mad sibling rivalry, Gisa and Geralf besieged the city of Thraben with their zombie armies, sending wave after wave of unhallowed creatures at the holy city."
+    }
+   ],
+   "summary": "The necromancer siblings Gisa and Geralf, rivals, besieged Thraben with their zombie armies.",
+   "limitation": ""
+  },
+  {
+   "id": "SE020",
+   "subject": "thalia",
+   "predicate": "defended",
+   "object": "thraben",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "innistrad_soi_emn_2016",
+   "source_ids": [
+    "soi_games"
+   ],
+   "evidence": [
+    {
+     "source_id": "soi_games",
+     "quote": "Scores of civilians and cathars fell in Thraben's defense, and the head of the church of Avacyn—Lunarch Mikaeus—was killed in the assault before Thalia, Guardian of Thraben, drove the monsters back."
+    }
+   ],
+   "summary": "Thalia drove the zombie armies back from Thraben.",
+   "limitation": ""
+  },
+  {
+   "id": "SE021",
+   "subject": "thalia",
+   "predicate": "freed",
+   "object": "avacyn",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "innistrad_soi_emn_2016",
+   "source_ids": [
+    "soi_lunarch"
+   ],
+   "evidence": [
+    {
+     "source_id": "soi_lunarch",
+     "quote": "And while the Planeswalker threatened the life of every soldier under her command, Thalia finally acquiesced to her terrible demand: she sundered the Helvault, releasing all the demons it had contained—as well as the archangel Avacyn."
+    }
+   ],
+   "summary": "Under Liliana's threat, Thalia sundered the Helvault, releasing its demons and Avacyn.",
+   "limitation": "From the lead-in recap of the earlier Innistrad storyline."
+  },
+  {
+   "id": "SE022",
+   "subject": "odric",
+   "predicate": "member_of",
+   "object": "lunarch_council",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "innistrad_soi_emn_2016",
+   "source_ids": [
+    "soi_lunarch"
+   ],
+   "evidence": [
+    {
+     "source_id": "soi_lunarch",
+     "quote": "He earned a seat on the council as a representative of the cathars, without an actual vote on council matters."
+    }
+   ],
+   "summary": "Odric sat on the new Lunarch Council as the cathars' non-voting representative.",
+   "limitation": "'He' is Odric, named in the preceding sentence of the recap."
+  },
+  {
+   "id": "SE023",
+   "subject": "kellan_boldt",
+   "predicate": "student_of",
+   "object": "archmage_ghavos",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "innistrad_soi_emn_2016",
+   "source_ids": [
+    "soi_prodigal"
+   ],
+   "evidence": [
+    {
+     "source_id": "soi_prodigal",
+     "quote": "And Kellan Boldt, master apprentice and aspirant elite, first son and heir to the Duchy of Kelsh, schooled in the art by Archmage Ghavos, now crumbled to his knees in utter defeat."
+    }
+   ],
+   "summary": "Kellan Boldt, heir to the Duchy of Kelsh, was schooled in magic by Archmage Ghavos.",
+   "limitation": "Side story; not the Eldraine character Kellan."
+  },
+  {
+   "id": "SE024",
+   "subject": "arlinn_kord",
+   "predicate": "member_of",
+   "object": "order_of_goldnight",
+   "grade": "CANON_IMPLIED",
+   "event_stage": "innistrad_soi_emn_2016",
+   "source_ids": [
+    "emn_goldnight"
+   ],
+   "evidence": [
+    {
+     "source_id": "emn_goldnight",
+     "quote": "A lycanthrope could not be an archmage of Goldnight, and Arlinn had to become an archmage of Goldnight."
+    },
+    {
+     "source_id": "emn_goldnight",
+     "quote": "Her fingers closed around the mantle of the archmage of Goldnight."
+    }
+   ],
+   "summary": "In a flashback, Arlinn, a secret lycanthrope, sought and took up the mantle of an archmage of Goldnight.",
+   "limitation": "The 'Years Ago' flashback; the quotes show the ceremony and mantle, and her status after it is told elsewhere in the episode."
+  },
+  {
+   "id": "SE025",
+   "subject": "arlinn_kord",
+   "predicate": "protects",
+   "object": "ulvenwald",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "innistrad_soi_emn_2016",
+   "source_ids": [
+    "emn_goldnight"
+   ],
+   "evidence": [
+    {
+     "source_id": "emn_goldnight",
+     "quote": "She was the protector of the Ulvenwald."
+    }
+   ],
+   "summary": "Arlinn sees herself as the protector of the Ulvenwald.",
+   "limitation": "Close third-person narration from Arlinn's point of view."
+  },
+  {
+   "id": "SE026",
+   "subject": "sorin_markov",
+   "predicate": "imprisoned",
+   "object": "nahiri",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "innistrad_soi_emn_2016",
+   "source_ids": [
+    "emn_stone_blood",
+    "emn_vengeance"
+   ],
+   "evidence": [
+    {
+     "source_id": "emn_stone_blood",
+     "quote": "Then the Helvault claimed her, and she vanished into a darkness vast and total."
+    },
+    {
+     "source_id": "emn_vengeance",
+     "quote": "The last time Nahiri had seen Sorin, he had been the last thing she saw in the world before the solitude of the Helvault consumed her."
+    }
+   ],
+   "summary": "A thousand years ago, Sorin sealed Nahiri inside the Helvault.",
+   "limitation": ""
+  },
+  {
+   "id": "SE027",
+   "subject": "sorin_markov",
+   "predicate": "failed_to_aid",
+   "object": "nahiri",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "innistrad_soi_emn_2016",
+   "source_ids": [
+    "emn_stone_blood"
+   ],
+   "evidence": [
+    {
+     "source_id": "emn_stone_blood",
+     "quote": "But the Eldrazi nearly escaped over a thousand years ago, and neither Sorin nor Ugin came."
+    }
+   ],
+   "summary": "When the Eldrazi nearly escaped, neither Sorin nor Ugin came to Nahiri's aid.",
+   "limitation": "From the lead-in recap."
+  },
+  {
+   "id": "SE028",
+   "subject": "emrakul",
+   "predicate": "arrived_on",
+   "object": "innistrad",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "innistrad_soi_emn_2016",
+   "source_ids": [
+    "emn_emrakul_rises"
+   ],
+   "evidence": [
+    {
+     "source_id": "emn_emrakul_rises",
+     "quote": "Now the plane is without a protector, exposed to threats both of the world and from beyond—exactly as Nahiri wants it."
+    },
+    {
+     "source_id": "emn_emrakul_rises",
+     "quote": "From below, there was a rumbling. And then Emrakul rose."
+    }
+   ],
+   "summary": "With Avacyn dead, Emrakul rose on Innistrad, as Nahiri intended.",
+   "limitation": "The quotes give the outcome; Nahiri's method is told across EMN."
+  },
+  {
+   "id": "SE029",
+   "subject": "gisela",
+   "predicate": "merged_into",
+   "object": "brisela",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "innistrad_soi_emn_2016",
+   "source_ids": [
+    "emn_saint_traft"
+   ],
+   "evidence": [
+    {
+     "source_id": "emn_saint_traft",
+     "quote": "That meant the fused angel-thing contained Bruna and Gisela, the archangels of the other two hosts."
+    }
+   ],
+   "summary": "Gisela was fused with Bruna into one angel, Brisela.",
+   "limitation": ""
+  },
+  {
+   "id": "SE030",
+   "subject": "bruna",
+   "predicate": "merged_into",
+   "object": "brisela",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "innistrad_soi_emn_2016",
+   "source_ids": [
+    "emn_saint_traft"
+   ],
+   "evidence": [
+    {
+     "source_id": "emn_saint_traft",
+     "quote": "That meant the fused angel-thing contained Bruna and Gisela, the archangels of the other two hosts."
+    }
+   ],
+   "summary": "Bruna was fused with Gisela into one angel, Brisela.",
+   "limitation": "The name Brisela is shown only in the art caption 'Brisela, Voice of Nightmares'."
+  },
+  {
+   "id": "SE031",
+   "subject": "thalia",
+   "predicate": "vessel_of",
+   "object": "saint_traft",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "innistrad_soi_emn_2016",
+   "source_ids": [
+    "emn_saint_traft"
+   ],
+   "evidence": [
+    {
+     "source_id": "emn_saint_traft",
+     "quote": "Thalia had allowed herself to become a vessel for the saint's geist, and armed with that sacred power, she had led a ragtag band of rebellious soldiers, cathars, and clergy in carrying on the church's mission despite the corruption at its heart."
+    }
+   ],
+   "summary": "Thalia became a vessel for Saint Traft's geist and led the Order of Saint Traft.",
+   "limitation": "From the lead-in recap."
+  },
+  {
+   "id": "SE032",
+   "subject": "jace_beleren",
+   "predicate": "rallied",
+   "object": "gatewatch",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "innistrad_soi_emn_2016",
+   "source_ids": [
+    "emn_battle_thraben"
+   ],
+   "evidence": [
+    {
+     "source_id": "emn_battle_thraben",
+     "quote": "Realizing the enormity of the situation, he planeswalked to Zendikar to rally the Gatewatch; it would take all of them to destroy the eldritch monstrosity."
+    }
+   ],
+   "summary": "After seeing Emrakul, Jace went to Zendikar to bring the Gatewatch to Innistrad.",
+   "limitation": "From the lead-in recap."
+  },
+  {
+   "id": "SE033",
+   "subject": "halana",
+   "predicate": "protects",
+   "object": "ulvenwald",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "innistrad_soi_emn_2016",
+   "source_ids": [
+    "soi_under_silver_moon"
+   ],
+   "evidence": [
+    {
+     "source_id": "soi_under_silver_moon",
+     "quote": "Halana and Alena are trackers, hunters, and protectors who live in the depths of the dark woods that border the edges of Kessig province—the woods known as the Ulvenwald."
+    }
+   ],
+   "summary": "Halana and Alena are trackers and protectors of the Ulvenwald.",
+   "limitation": ""
+  },
+  {
+   "id": "SE034",
+   "subject": "alena",
+   "predicate": "protects",
+   "object": "ulvenwald",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "innistrad_soi_emn_2016",
+   "source_ids": [
+    "soi_under_silver_moon"
+   ],
+   "evidence": [
+    {
+     "source_id": "soi_under_silver_moon",
+     "quote": "Halana and Alena are trackers, hunters, and protectors who live in the depths of the dark woods that border the edges of Kessig province—the woods known as the Ulvenwald."
+    }
+   ],
+   "summary": "Alena is, with Halana, a tracker and protector of the Ulvenwald.",
+   "limitation": ""
+  },
+  {
+   "id": "SE035",
+   "subject": "avacyn",
+   "predicate": "enacted",
+   "object": "cursemute",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "innistrad_soi_emn_2016",
+   "source_ids": [
+    "soi_gaze"
+   ],
+   "evidence": [
+    {
+     "source_id": "soi_gaze",
+     "quote": "The vampires are in retreat, and the werewolf curse has been alleviated by the Cursemute, a magical edict from Avacyn that gave afflicted lycanthropes the choice either to become wolfir, wolven servants of Avacyn, or, in rarer cases, to be fully cured."
+    }
+   ],
+   "summary": "Avacyn's Cursemute let werewolves become wolfir or, rarely, be cured.",
+   "limitation": "The lead-in describes the time before Avacyn's madness."
+  },
+  {
+   "id": "SE036",
+   "subject": "lake_zhava",
+   "predicate": "located_in",
+   "object": "nephalia",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "innistrad_soi_emn_2016",
+   "source_ids": [
+    "soi_sacrifice"
+   ],
+   "evidence": [
+    {
+     "source_id": "soi_sacrifice",
+     "quote": "Dark and deep, Lake Zhava lies in the highlands of Nephalia, near the border with Gavony."
+    }
+   ],
+   "summary": "Lake Zhava lies in Nephalia's highlands, near Gavony.",
+   "limitation": ""
   }
  ],
- "pages_registered": 4,
- "pages_cited": 4,
+ "pages_registered": 21,
+ "pages_cited": 21,
  "uncited_registered_pages": [],
  "remaining": [
-  "The other 17 SOI/EMN episodes (Markov Manor mystery, Thraben, Gisela/Bruna, Tamiyo's journal) are not extracted",
-  "Avacyn's madness and its cause (Nahiri, Emrakul) need the earlier episodes"
+  "Targeted, not exhaustive: one or two claims per episode; most episodes hold more relationships than are extracted here",
+  "Tamiyo's journal entries, the Markov Manor puzzle and the Thraben battle details are only summarized"
  ]
 }

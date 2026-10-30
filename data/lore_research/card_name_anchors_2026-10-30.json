@@ -174,6 +174,23 @@
    ]
   },
   {
+   "entity": "alena",
+   "entity_type": "Character",
+   "entity_name": "Alena",
+   "aliases": [
+    "Alena"
+   ],
+   "pack": "pack_p5_shadows_eldritch_moon_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Alena, Kessig Trapper",
+     "oracle_id": "ca349ba9-b5ea-48e6-a617-c9b7f2708853",
+     "type_line": "Legendary Creature — Human Scout",
+     "scryfall_uri": "https://scryfall.com/card/cmr/160/alena-kessig-trapper"
+    }
+   ]
+  },
+  {
    "entity": "alpharael",
    "entity_type": "Character",
    "entity_name": "Alpharael",
@@ -662,6 +679,23 @@
    ]
   },
   {
+   "entity": "brisela",
+   "entity_type": "Character",
+   "entity_name": "Brisela, Voice of Nightmares",
+   "aliases": [
+    "Brisela, Voice of Nightmares"
+   ],
+   "pack": "pack_p5_shadows_eldritch_moon_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Brisela, Voice of Nightmares",
+     "oracle_id": "b23587e0-9fb7-492e-8bb4-f218e8e4ce6c",
+     "type_line": "Legendary Creature — Eldrazi Angel",
+     "scryfall_uri": "https://scryfall.com/card/inr/14b/brisela-voice-of-nightmares"
+    }
+   ]
+  },
+  {
    "entity": "brothers_war",
    "entity_type": "Event",
    "entity_name": "The Brothers' War",
@@ -675,6 +709,29 @@
      "oracle_id": "43040c34-acad-4d62-893d-fd606fa9d8fe",
      "type_line": "Enchantment — Saga",
      "scryfall_uri": "https://scryfall.com/card/brc/22/the-brothers-war"
+    }
+   ]
+  },
+  {
+   "entity": "bruna",
+   "entity_type": "Character",
+   "entity_name": "Bruna",
+   "aliases": [
+    "Bruna"
+   ],
+   "pack": "pack_p5_shadows_eldritch_moon_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Bruna, Light of Alabaster",
+     "oracle_id": "e8f213eb-58db-4fab-bd0b-2acfd0a86ac3",
+     "type_line": "Legendary Creature — Angel",
+     "scryfall_uri": "https://scryfall.com/card/c18/170/bruna-light-of-alabaster"
+    },
+    {
+     "name": "Bruna, the Fading Light",
+     "oracle_id": "bce7e45d-b2c5-43aa-91a6-3a3c24f30850",
+     "type_line": "Legendary Creature — Angel Horror",
+     "scryfall_uri": "https://scryfall.com/card/inr/14/bruna-the-fading-light"
     }
    ]
   },
@@ -1362,6 +1419,29 @@
    ]
   },
   {
+   "entity": "gisela",
+   "entity_type": "Character",
+   "entity_name": "Gisela",
+   "aliases": [
+    "Gisela"
+   ],
+   "pack": "pack_p5_shadows_eldritch_moon_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Gisela, Blade of Goldnight",
+     "oracle_id": "66f9f325-5e8e-4ebf-b5b3-c6410d80f2c5",
+     "type_line": "Legendary Creature — Angel",
+     "scryfall_uri": "https://scryfall.com/card/mkc/211/gisela-blade-of-goldnight"
+    },
+    {
+     "name": "Gisela, the Broken Blade",
+     "oracle_id": "f3e23d5e-bd88-4e7c-a3fb-db2a8cb05b22",
+     "type_line": "Legendary Creature — Angel Horror",
+     "scryfall_uri": "https://scryfall.com/card/inr/24/gisela-the-broken-blade"
+    }
+   ]
+  },
+  {
    "entity": "gix",
    "entity_type": "Character",
    "entity_name": "Gix",
@@ -1455,6 +1535,23 @@
      "oracle_id": "f759d112-76db-4091-a22b-b9f19ab6fa5f",
      "type_line": "Legendary Creature — Demon",
      "scryfall_uri": "https://scryfall.com/card/inr/115/griselbrand"
+    }
+   ]
+  },
+  {
+   "entity": "halana",
+   "entity_type": "Character",
+   "entity_name": "Halana",
+   "aliases": [
+    "Halana"
+   ],
+   "pack": "pack_p5_shadows_eldritch_moon_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Halana, Kessig Ranger",
+     "oracle_id": "f5aa7385-12ea-4ecb-86eb-e8622ebb6908",
+     "type_line": "Legendary Creature — Human Archer Ranger",
+     "scryfall_uri": "https://scryfall.com/card/cmr/231/halana-kessig-ranger"
     }
    ]
   },
@@ -1844,6 +1941,23 @@
    ]
   },
   {
+   "entity": "jori_en",
+   "entity_type": "Character",
+   "entity_name": "Jori En",
+   "aliases": [
+    "Jori En"
+   ],
+   "pack": "pack_p5_battle_for_zendikar_oath_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Jori En, Ruin Diver",
+     "oracle_id": "4cd9b48e-5774-4a1c-857f-9f4a92db9b41",
+     "type_line": "Legendary Creature — Merfolk Wizard",
+     "scryfall_uri": "https://scryfall.com/card/dds/23/jori-en-ruin-diver"
+    }
+   ]
+  },
+  {
    "entity": "josu_vess",
    "entity_type": "Character",
    "entity_name": "Josu Vess",
@@ -1925,6 +2039,23 @@
      "oracle_id": "786baa29-afd4-40f0-95c8-920a972b9175",
      "type_line": "Legendary Creature — Human Pirate",
      "scryfall_uri": "https://scryfall.com/card/lcc/227/kari-zev-skyship-raider"
+    }
+   ]
+  },
+  {
+   "entity": "karlov",
+   "entity_type": "Character",
+   "entity_name": "Karlov",
+   "aliases": [
+    "Karlov"
+   ],
+   "pack": "pack_p5_battle_for_zendikar_oath_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Karlov of the Ghost Council",
+     "oracle_id": "647d7988-9a5d-4700-9238-938d0d5fae12",
+     "type_line": "Legendary Creature — Spirit Advisor",
+     "scryfall_uri": "https://scryfall.com/card/rvr/193/karlov-of-the-ghost-council"
     }
    ]
   },
@@ -2297,6 +2428,41 @@
      "oracle_id": "85e1791f-f9a0-4e82-baf6-33cff2dcf60b",
      "type_line": "Legendary Creature — Demon",
      "scryfall_uri": "https://scryfall.com/card/dmc/114/kothophed-soul-hoarder"
+    }
+   ]
+  },
+  {
+   "entity": "kozilek",
+   "entity_type": "Character",
+   "entity_name": "Kozilek",
+   "aliases": [
+    "Kozilek"
+   ],
+   "pack": "pack_p5_battle_for_zendikar_oath_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Kozilek, Butcher of Truth",
+     "oracle_id": "7b8528b0-71eb-4c9e-bed9-aa2d2e84038f",
+     "type_line": "Legendary Creature — Eldrazi",
+     "scryfall_uri": "https://scryfall.com/card/2x2/2/kozilek-butcher-of-truth"
+    },
+    {
+     "name": "Kozilek, Compleated",
+     "oracle_id": "fd0592e0-021a-450f-b0fb-e4a242dc16bf",
+     "type_line": "Legendary Creature — Phyrexian Eldrazi",
+     "scryfall_uri": "https://scryfall.com/card/mb2/502/kozilek-compleated"
+    },
+    {
+     "name": "Kozilek, the Broken Reality",
+     "oracle_id": "39f4bf0e-47d5-4ae8-a504-71acda849850",
+     "type_line": "Legendary Creature — Eldrazi",
+     "scryfall_uri": "https://scryfall.com/card/mh3/10/kozilek-the-broken-reality"
+    },
+    {
+     "name": "Kozilek, the Great Distortion",
+     "oracle_id": "4c1c1537-e519-4e2f-9bc2-d34b289d4487",
+     "type_line": "Legendary Creature — Eldrazi",
+     "scryfall_uri": "https://scryfall.com/card/cmm/2/kozilek-the-great-distortion"
     }
    ]
   },
@@ -2859,6 +3025,23 @@
    ]
   },
   {
+   "entity": "nephalia",
+   "entity_type": "Place",
+   "entity_name": "Nephalia",
+   "aliases": [
+    "Nephalia"
+   ],
+   "pack": "pack_p5_shadows_eldritch_moon_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Nephalia",
+     "oracle_id": "72af7529-75bb-488f-801d-7148631b9e9b",
+     "type_line": "Plane — Innistrad",
+     "scryfall_uri": "https://scryfall.com/card/opca/56/nephalia"
+    }
+   ]
+  },
+  {
    "entity": "nev",
    "entity_type": "Character",
    "entity_name": "Nev, the Practical Dean",
@@ -2963,6 +3146,23 @@
    ]
   },
   {
+   "entity": "noyan_dar",
+   "entity_type": "Character",
+   "entity_name": "Noyan Dar",
+   "aliases": [
+    "Noyan Dar"
+   ],
+   "pack": "pack_p5_battle_for_zendikar_oath_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Noyan Dar, Roil Shaper",
+     "oracle_id": "e4190320-5854-479e-be11-a5d5ef3db6a6",
+     "type_line": "Legendary Creature — Merfolk Ally",
+     "scryfall_uri": "https://scryfall.com/card/bfz/216/noyan-dar-roil-shaper"
+    }
+   ]
+  },
+  {
    "entity": "nylea",
    "entity_type": "Character",
    "entity_name": "Nylea",
@@ -3058,6 +3258,35 @@
      "oracle_id": "88cd12e5-ca89-4176-96fd-320fe2ccd087",
      "type_line": "Legendary Planeswalker — Nixilis",
      "scryfall_uri": "https://scryfall.com/card/war/100/ob-nixilis-the-hate-twisted"
+    }
+   ]
+  },
+  {
+   "entity": "odric",
+   "entity_type": "Character",
+   "entity_name": "Odric",
+   "aliases": [
+    "Odric"
+   ],
+   "pack": "pack_p5_shadows_eldritch_moon_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Odric, Blood-Cursed",
+     "oracle_id": "690f79f3-e6a5-4542-8401-61a9bf645d55",
+     "type_line": "Legendary Creature — Vampire Soldier",
+     "scryfall_uri": "https://scryfall.com/card/vow/243/odric-blood-cursed"
+    },
+    {
+     "name": "Odric, Lunarch Marshal",
+     "oracle_id": "bad76170-c773-4be5-9457-20dc9f745cb4",
+     "type_line": "Legendary Creature — Human Soldier",
+     "scryfall_uri": "https://scryfall.com/card/inr/36/odric-lunarch-marshal"
+    },
+    {
+     "name": "Odric, Master Tactician",
+     "oracle_id": "ade898df-14a5-460b-94f6-1f3f74d3ff95",
+     "type_line": "Legendary Creature — Human Soldier",
+     "scryfall_uri": "https://scryfall.com/card/cmm/46/odric-master-tactician"
     }
    ]
   },
@@ -3702,6 +3931,23 @@
    ]
   },
   {
+   "entity": "sea_gate",
+   "entity_type": "Place",
+   "entity_name": "Sea Gate",
+   "aliases": [
+    "Sea Gate"
+   ],
+   "pack": "pack_p5_battle_for_zendikar_oath_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Sea Gate",
+     "oracle_id": "b574c540-9f8a-4fd4-8809-d02c9b099ddc",
+     "type_line": "Land — Gate",
+     "scryfall_uri": "https://scryfall.com/card/clb/359/sea-gate"
+    }
+   ]
+  },
+  {
    "entity": "seedcore",
    "entity_type": "Place",
    "entity_name": "The Seedcore (New Phyrexia)",
@@ -4069,6 +4315,29 @@
    ]
   },
   {
+   "entity": "tazri",
+   "entity_type": "Character",
+   "entity_name": "Tazri",
+   "aliases": [
+    "Tazri"
+   ],
+   "pack": "pack_p5_battle_for_zendikar_oath_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Tazri, Beacon of Unity",
+     "oracle_id": "ce703e1d-b7b2-4b8b-a12c-714fc152d0a5",
+     "type_line": "Legendary Creature — Human Warrior",
+     "scryfall_uri": "https://scryfall.com/card/znr/44/tazri-beacon-of-unity"
+    },
+    {
+     "name": "Tazri, Stalwart Survivor",
+     "oracle_id": "13a3e61d-c9ff-447d-9016-09a183b7af1d",
+     "type_line": "Legendary Creature — Human Warrior",
+     "scryfall_uri": "https://scryfall.com/card/mat/6/tazri-stalwart-survivor"
+    }
+   ]
+  },
+  {
    "entity": "teferi",
    "entity_type": "Character",
    "entity_name": "Teferi",
@@ -4218,6 +4487,23 @@
      "oracle_id": "d097991c-41df-47de-a439-57a0693b9581",
      "type_line": "Legendary Planeswalker — Tezzeret",
      "scryfall_uri": "https://scryfall.com/card/war/275/tezzeret-master-of-the-bridge"
+    }
+   ]
+  },
+  {
+   "entity": "thalia",
+   "entity_type": "Character",
+   "entity_name": "Thalia, Guardian of Thraben",
+   "aliases": [
+    "Thalia, Guardian of Thraben"
+   ],
+   "pack": "pack_p5_shadows_eldritch_moon_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Thalia, Guardian of Thraben",
+     "oracle_id": "9b7f1d05-707c-4ed3-9f0e-8ced1232c2ee",
+     "type_line": "Legendary Creature — Human Soldier",
+     "scryfall_uri": "https://scryfall.com/card/vow/38/thalia-guardian-of-thraben"
     }
    ]
   },
@@ -4458,6 +4744,35 @@
      "oracle_id": "fe2afa18-54d0-4595-af27-256398793a42",
      "type_line": "Legendary Artifact",
      "scryfall_uri": "https://scryfall.com/card/ktk/227/ugins-nexus"
+    }
+   ]
+  },
+  {
+   "entity": "ulamog",
+   "entity_type": "Character",
+   "entity_name": "Ulamog",
+   "aliases": [
+    "Ulamog"
+   ],
+   "pack": "pack_p5_battle_for_zendikar_oath_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Ulamog, the Ceaseless Hunger",
+     "oracle_id": "0bfa4512-e35a-4c93-b324-80ec659f5a97",
+     "type_line": "Legendary Creature — Eldrazi",
+     "scryfall_uri": "https://scryfall.com/card/cmm/5/ulamog-the-ceaseless-hunger"
+    },
+    {
+     "name": "Ulamog, the Defiler",
+     "oracle_id": "97836c48-8777-4b4e-98fb-e99204f38bdd",
+     "type_line": "Legendary Creature — Eldrazi",
+     "scryfall_uri": "https://scryfall.com/card/mh3/15/ulamog-the-defiler"
+    },
+    {
+     "name": "Ulamog, the Infinite Gyre",
+     "oracle_id": "b817bc56-9b4d-4c50-bafa-3c652b99578f",
+     "type_line": "Legendary Creature — Eldrazi",
+     "scryfall_uri": "https://scryfall.com/card/2x2/3/ulamog-the-infinite-gyre"
     }
    ]
   },
@@ -5090,6 +5405,7 @@
   "adrix",
   "akros",
   "amalia",
+  "archmage_ghavos",
   "ardenvale",
   "artificial_omenpath",
   "bartolome",
@@ -5100,25 +5416,34 @@
   "blood_avatar",
   "calamity_beast_egg",
   "cauldron_of_eternity",
+  "chopright_colony",
   "corondor_chasm",
   "cragflame",
   "cruelclaw",
+  "cursemute",
   "cymede",
   "dawnsire",
   "dhiren_baral",
   "dmu_sheoldred_invasion",
   "dragonstorm_escape",
+  "drana",
   "drannith",
   "eiko",
   "emeria_skyclave",
   "eric_kenrith",
+  "evendo",
+  "farakatolar",
   "first_phyrexian_invasion",
   "garenbrig",
+  "geldan",
+  "ghan",
   "ghirapur_grand_prix",
   "ghirapur_revolution",
   "great_henge",
   "halo",
   "hazel_kenrith",
+  "hedron_network",
+  "helvault",
   "hexhaven",
   "high_king_kenrith",
   "hurrik",
@@ -5126,11 +5451,15 @@
   "immortal_sun",
   "imperial_palace",
   "innistrad_silver_moon",
+  "kavaron",
   "kayla_bin_kroog",
+  "kellan_boldt",
+  "khalni_heart",
   "killian_lu",
   "king_glarb",
   "kiran_nalaar",
   "kuberr",
+  "lake_zhava",
   "last_battle_argoth",
   "last_thing_android",
   "liliana_doppelganger",
@@ -5150,10 +5479,14 @@
   "orazca",
   "original_tarkir_clash",
   "pondside",
+  "raphaella",
   "raugrin",
   "reality_chip",
   "realmbreaker",
+  "reen",
+  "riders_lock",
   "rtd_sylex",
+  "saint_traft",
   "savai_settlements",
   "setessa",
   "shadowspear",
@@ -5162,18 +5495,22 @@
   "sotheran_supervoid",
   "spire_inquirium",
   "sungold_lock",
+  "susur_secundi",
   "sword_of_the_realms",
   "sylex_blast",
   "sylex_replica",
+  "tamiyos_journal",
   "tarkir_duel",
   "tarkir_rewrite",
   "teferis_spark_stone",
   "temporal_rifts_mending",
   "the_house",
   "theros_underworld",
+  "thraben",
   "tomik_vrona",
   "ugins_gem",
   "ugins_tomb_site",
+  "ulvenwald",
   "vantress",
   "war_of_the_spark_end",
   "weatherlight_powerstone",
@@ -5189,9 +5526,9 @@
   "Urza, Academy Headmaster"
  ],
  "counts": {
-  "entities_anchored": 216,
-  "anchor_edges": 449,
-  "unanchored_entities": 93
+  "entities_anchored": 231,
+  "anchor_edges": 474,
+  "unanchored_entities": 115
  },
- "content_sha256": "017d2f3b91b9aeb74be57aa63998933931325fea72e30a5491f29c16624f98dc"
+ "content_sha256": "8d9e39b86e0db0c1d0f925a53cc08c3724bc34f662447953d47bf96793f74058"
 }

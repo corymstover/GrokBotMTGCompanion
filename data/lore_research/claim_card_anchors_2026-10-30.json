@@ -96,6 +96,10 @@
   "pack_p5_shadows_eldritch_moon_2026-10-30.json": [
    "soi",
    "emn"
+  ],
+  "pack_p5_battle_for_zendikar_oath_2026-10-30.json": [
+   "bfz",
+   "ogw"
   ]
  },
  "rule": "Each claim participant with a card-name anchor contributes its cards. Tier ART_IN_CITED_SOURCE: the card's art is credited by exact name on an official page the claim cites. PRINTED_IN_STORY_SET: a paper printing in the set whose main-story episodes the pack covers. NAMED_PARTICIPANT: otherwise. An anchor never asserts that the card depicts the claimed event and never changes a claim grade.",
@@ -11844,6 +11848,127 @@
    ]
   },
   {
+   "claim": "EO020",
+   "pack": "pack_p5_edge_of_eternities_2026-10-30.json",
+   "participant": "alpharael",
+   "card": "Alpharael, Dreaming Acolyte",
+   "oracle_id": "e4be4071-7910-460f-90f3-6c4d8cc9db65",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "eoe"
+   ]
+  },
+  {
+   "claim": "EO020",
+   "pack": "pack_p5_edge_of_eternities_2026-10-30.json",
+   "participant": "alpharael",
+   "card": "Alpharael, Stonechosen",
+   "oracle_id": "ed43f1f9-ef96-47bc-8a54-e59154319f9d",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "eoe"
+   ]
+  },
+  {
+   "claim": "EO022",
+   "pack": "pack_p5_edge_of_eternities_2026-10-30.json",
+   "participant": "alpharael",
+   "card": "Alpharael, Dreaming Acolyte",
+   "oracle_id": "e4be4071-7910-460f-90f3-6c4d8cc9db65",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "eoe"
+   ]
+  },
+  {
+   "claim": "EO022",
+   "pack": "pack_p5_edge_of_eternities_2026-10-30.json",
+   "participant": "alpharael",
+   "card": "Alpharael, Stonechosen",
+   "oracle_id": "ed43f1f9-ef96-47bc-8a54-e59154319f9d",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "eoe"
+   ]
+  },
+  {
+   "claim": "EO023",
+   "pack": "pack_p5_edge_of_eternities_2026-10-30.json",
+   "participant": "alpharael",
+   "card": "Alpharael, Dreaming Acolyte",
+   "oracle_id": "e4be4071-7910-460f-90f3-6c4d8cc9db65",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "eoe"
+   ]
+  },
+  {
+   "claim": "EO023",
+   "pack": "pack_p5_edge_of_eternities_2026-10-30.json",
+   "participant": "alpharael",
+   "card": "Alpharael, Stonechosen",
+   "oracle_id": "ed43f1f9-ef96-47bc-8a54-e59154319f9d",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "eoe"
+   ]
+  },
+  {
+   "claim": "EO023",
+   "pack": "pack_p5_edge_of_eternities_2026-10-30.json",
+   "participant": "vondam",
+   "card": "Syr Vondam, Sunstar Exemplar",
+   "oracle_id": "9e597063-c077-4236-a9e4-b0721b24677f",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "eoe"
+   ]
+  },
+  {
+   "claim": "EO023",
+   "pack": "pack_p5_edge_of_eternities_2026-10-30.json",
+   "participant": "vondam",
+   "card": "Syr Vondam, the Lucent",
+   "oracle_id": "28225bae-2d96-4352-b256-0c2ff4ef65e9",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "eoe"
+   ]
+  },
+  {
+   "claim": "EO024",
+   "pack": "pack_p5_edge_of_eternities_2026-10-30.json",
+   "participant": "seriema",
+   "card": "The Seriema",
+   "oracle_id": "a6bcec1f-f515-4e63-9e84-8eb04cc582ff",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "eoe"
+   ]
+  },
+  {
+   "claim": "EO030",
+   "pack": "pack_p5_edge_of_eternities_2026-10-30.json",
+   "participant": "sami",
+   "card": "Sami, Ship's Engineer",
+   "oracle_id": "470c16c5-b078-47f5-89b0-42991e1f7157",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "eoe"
+   ]
+  },
+  {
+   "claim": "EO030",
+   "pack": "pack_p5_edge_of_eternities_2026-10-30.json",
+   "participant": "sami",
+   "card": "Sami, Wildcat Captain",
+   "oracle_id": "c4175a34-70bb-47e5-8406-efdc4d2cd079",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "eoe"
+   ]
+  },
+  {
    "claim": "RF001",
    "pack": "pack_p5_reality_fracture_2026-10-30.json",
    "participant": "jace_beleren",
@@ -18296,6 +18421,1256 @@
    "card": "Liliana Vess",
    "oracle_id": "a6c05941-2cfb-4dac-a7c0-ab808187eb7c",
    "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SE010",
+   "pack": "pack_p5_shadows_eldritch_moon_2026-10-30.json",
+   "participant": "jace_beleren",
+   "card": "Jace Beleren",
+   "oracle_id": "cc2b6e58-2d6f-495e-95f3-9496105c4cba",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SE010",
+   "pack": "pack_p5_shadows_eldritch_moon_2026-10-30.json",
+   "participant": "sorin_markov",
+   "card": "Sorin Markov",
+   "oracle_id": "c151e8b7-4b28-4f03-8a81-9bf623f893d7",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SE011",
+   "pack": "pack_p5_shadows_eldritch_moon_2026-10-30.json",
+   "participant": "sorin_markov",
+   "card": "Sorin Markov",
+   "oracle_id": "c151e8b7-4b28-4f03-8a81-9bf623f893d7",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SE012",
+   "pack": "pack_p5_shadows_eldritch_moon_2026-10-30.json",
+   "participant": "sorin_markov",
+   "card": "Sorin Markov",
+   "oracle_id": "c151e8b7-4b28-4f03-8a81-9bf623f893d7",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SE013",
+   "pack": "pack_p5_shadows_eldritch_moon_2026-10-30.json",
+   "participant": "jace_beleren",
+   "card": "Jace Beleren",
+   "oracle_id": "cc2b6e58-2d6f-495e-95f3-9496105c4cba",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SE014",
+   "pack": "pack_p5_shadows_eldritch_moon_2026-10-30.json",
+   "participant": "tamiyo",
+   "card": "Tamiyo, Collector of Tales",
+   "oracle_id": "75d56a0a-2f64-4e80-b83e-85942d3e6dd7",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SE014",
+   "pack": "pack_p5_shadows_eldritch_moon_2026-10-30.json",
+   "participant": "tamiyo",
+   "card": "Tamiyo, Compleated Sage",
+   "oracle_id": "021b4745-4a15-462c-a6b0-2dee1dc9d196",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SE014",
+   "pack": "pack_p5_shadows_eldritch_moon_2026-10-30.json",
+   "participant": "tamiyo",
+   "card": "Tamiyo, Field Researcher",
+   "oracle_id": "9cf99129-f51a-4418-a8cc-8ca2992b17fa",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "emn"
+   ]
+  },
+  {
+   "claim": "SE014",
+   "pack": "pack_p5_shadows_eldritch_moon_2026-10-30.json",
+   "participant": "tamiyo",
+   "card": "Tamiyo, Inquisitive Student // Tamiyo, Seasoned Scholar",
+   "oracle_id": "1ed9e351-0000-4b75-8ecb-d15bd88df68a",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SE014",
+   "pack": "pack_p5_shadows_eldritch_moon_2026-10-30.json",
+   "participant": "tamiyo",
+   "card": "Tamiyo, Upriser Crowned",
+   "oracle_id": "8e0f2e26-1e14-422a-aafe-e1da38ab10a3",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SE014",
+   "pack": "pack_p5_shadows_eldritch_moon_2026-10-30.json",
+   "participant": "tamiyo",
+   "card": "Tamiyo, the Moon Sage",
+   "oracle_id": "f88be051-36ae-407e-bd5a-2b029c26414e",
+   "tier": "ART_IN_CITED_SOURCE",
+   "cited_pages_crediting_art": [
+    "https://magic.wizards.com/en/news/magic-story/stories-and-endings-2016-05-11"
+   ]
+  },
+  {
+   "claim": "SE015",
+   "pack": "pack_p5_shadows_eldritch_moon_2026-10-30.json",
+   "participant": "sorin_markov",
+   "card": "Sorin Markov",
+   "oracle_id": "c151e8b7-4b28-4f03-8a81-9bf623f893d7",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SE015",
+   "pack": "pack_p5_shadows_eldritch_moon_2026-10-30.json",
+   "participant": "olivia_voldaren",
+   "card": "Olivia Voldaren",
+   "oracle_id": "dd27d0f2-fe1e-4b63-9ba0-6264ca3c70f8",
+   "tier": "ART_IN_CITED_SOURCE",
+   "cited_pages_crediting_art": [
+    "https://magic.wizards.com/en/news/magic-story/promises-old-and-new-2016-04-13"
+   ]
+  },
+  {
+   "claim": "SE017",
+   "pack": "pack_p5_shadows_eldritch_moon_2026-10-30.json",
+   "participant": "liliana_vess",
+   "card": "Liliana Vess",
+   "oracle_id": "a6c05941-2cfb-4dac-a7c0-ab808187eb7c",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SE017",
+   "pack": "pack_p5_shadows_eldritch_moon_2026-10-30.json",
+   "participant": "chain_veil",
+   "card": "The Chain Veil",
+   "oracle_id": "fb88fb3d-6a85-4bb1-b316-7f759b45a0fa",
+   "tier": "ART_IN_CITED_SOURCE",
+   "cited_pages_crediting_art": [
+    "https://magic.wizards.com/en/news/magic-story/lilianas-indignation-2016-04-20"
+   ]
+  },
+  {
+   "claim": "SE018",
+   "pack": "pack_p5_shadows_eldritch_moon_2026-10-30.json",
+   "participant": "odric",
+   "card": "Odric, Blood-Cursed",
+   "oracle_id": "690f79f3-e6a5-4542-8401-61a9bf645d55",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SE018",
+   "pack": "pack_p5_shadows_eldritch_moon_2026-10-30.json",
+   "participant": "odric",
+   "card": "Odric, Lunarch Marshal",
+   "oracle_id": "bad76170-c773-4be5-9457-20dc9f745cb4",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "soi"
+   ]
+  },
+  {
+   "claim": "SE018",
+   "pack": "pack_p5_shadows_eldritch_moon_2026-10-30.json",
+   "participant": "odric",
+   "card": "Odric, Master Tactician",
+   "oracle_id": "ade898df-14a5-460b-94f6-1f3f74d3ff95",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SE018",
+   "pack": "pack_p5_shadows_eldritch_moon_2026-10-30.json",
+   "participant": "gisa",
+   "card": "Gisa, Glorious Resurrector",
+   "oracle_id": "f1354b1b-896c-4492-b0c0-3dd07c6d3917",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SE018",
+   "pack": "pack_p5_shadows_eldritch_moon_2026-10-30.json",
+   "participant": "gisa",
+   "card": "Gisa, the Hellraiser",
+   "oracle_id": "696363c9-e8a7-4c65-b65c-4a94891ec43d",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SE019",
+   "pack": "pack_p5_shadows_eldritch_moon_2026-10-30.json",
+   "participant": "gisa",
+   "card": "Gisa, Glorious Resurrector",
+   "oracle_id": "f1354b1b-896c-4492-b0c0-3dd07c6d3917",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SE019",
+   "pack": "pack_p5_shadows_eldritch_moon_2026-10-30.json",
+   "participant": "gisa",
+   "card": "Gisa, the Hellraiser",
+   "oracle_id": "696363c9-e8a7-4c65-b65c-4a94891ec43d",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SE019",
+   "pack": "pack_p5_shadows_eldritch_moon_2026-10-30.json",
+   "participant": "geralf",
+   "card": "Geralf, Visionary Stitcher",
+   "oracle_id": "0a0743b0-07c2-4e11-8b30-6b1b8156bdd0",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SE019",
+   "pack": "pack_p5_shadows_eldritch_moon_2026-10-30.json",
+   "participant": "geralf",
+   "card": "Geralf, the Fleshwright",
+   "oracle_id": "a62e6cf4-1adb-4c28-b24b-91287bb23e96",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SE020",
+   "pack": "pack_p5_shadows_eldritch_moon_2026-10-30.json",
+   "participant": "thalia",
+   "card": "Thalia, Guardian of Thraben",
+   "oracle_id": "9b7f1d05-707c-4ed3-9f0e-8ced1232c2ee",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SE021",
+   "pack": "pack_p5_shadows_eldritch_moon_2026-10-30.json",
+   "participant": "thalia",
+   "card": "Thalia, Guardian of Thraben",
+   "oracle_id": "9b7f1d05-707c-4ed3-9f0e-8ced1232c2ee",
+   "tier": "ART_IN_CITED_SOURCE",
+   "cited_pages_crediting_art": [
+    "https://magic.wizards.com/en/news/magic-story/lunarch-inquisition-2016-05-04"
+   ]
+  },
+  {
+   "claim": "SE021",
+   "pack": "pack_p5_shadows_eldritch_moon_2026-10-30.json",
+   "participant": "avacyn",
+   "card": "Avacyn, Angel of Hope",
+   "oracle_id": "216cb26e-8da9-478b-bfbc-8030f7adee72",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SE021",
+   "pack": "pack_p5_shadows_eldritch_moon_2026-10-30.json",
+   "participant": "avacyn",
+   "card": "Avacyn, Angel of Horror",
+   "oracle_id": "4af61d45-7114-4eb4-a905-9e03caf87454",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SE021",
+   "pack": "pack_p5_shadows_eldritch_moon_2026-10-30.json",
+   "participant": "avacyn",
+   "card": "Avacyn, Guardian Angel",
+   "oracle_id": "6da0b6d2-3c5e-49ef-9264-076269c04744",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SE022",
+   "pack": "pack_p5_shadows_eldritch_moon_2026-10-30.json",
+   "participant": "odric",
+   "card": "Odric, Blood-Cursed",
+   "oracle_id": "690f79f3-e6a5-4542-8401-61a9bf645d55",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SE022",
+   "pack": "pack_p5_shadows_eldritch_moon_2026-10-30.json",
+   "participant": "odric",
+   "card": "Odric, Lunarch Marshal",
+   "oracle_id": "bad76170-c773-4be5-9457-20dc9f745cb4",
+   "tier": "ART_IN_CITED_SOURCE",
+   "cited_pages_crediting_art": [
+    "https://magic.wizards.com/en/news/magic-story/lunarch-inquisition-2016-05-04"
+   ]
+  },
+  {
+   "claim": "SE022",
+   "pack": "pack_p5_shadows_eldritch_moon_2026-10-30.json",
+   "participant": "odric",
+   "card": "Odric, Master Tactician",
+   "oracle_id": "ade898df-14a5-460b-94f6-1f3f74d3ff95",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SE024",
+   "pack": "pack_p5_shadows_eldritch_moon_2026-10-30.json",
+   "participant": "arlinn_kord",
+   "card": "Arlinn Kord // Arlinn, Embraced by the Moon",
+   "oracle_id": "6bb7d0df-7a9f-4e17-8c31-7628c4b12356",
+   "tier": "ART_IN_CITED_SOURCE",
+   "cited_pages_crediting_art": [
+    "https://magic.wizards.com/en/news/magic-story/archmage-goldnight-2016-06-08"
+   ]
+  },
+  {
+   "claim": "SE025",
+   "pack": "pack_p5_shadows_eldritch_moon_2026-10-30.json",
+   "participant": "arlinn_kord",
+   "card": "Arlinn Kord // Arlinn, Embraced by the Moon",
+   "oracle_id": "6bb7d0df-7a9f-4e17-8c31-7628c4b12356",
+   "tier": "ART_IN_CITED_SOURCE",
+   "cited_pages_crediting_art": [
+    "https://magic.wizards.com/en/news/magic-story/archmage-goldnight-2016-06-08"
+   ]
+  },
+  {
+   "claim": "SE026",
+   "pack": "pack_p5_shadows_eldritch_moon_2026-10-30.json",
+   "participant": "sorin_markov",
+   "card": "Sorin Markov",
+   "oracle_id": "c151e8b7-4b28-4f03-8a81-9bf623f893d7",
+   "tier": "ART_IN_CITED_SOURCE",
+   "cited_pages_crediting_art": [
+    "https://magic.wizards.com/en/news/magic-story/stone-and-blood-2016-06-15"
+   ]
+  },
+  {
+   "claim": "SE026",
+   "pack": "pack_p5_shadows_eldritch_moon_2026-10-30.json",
+   "participant": "nahiri",
+   "card": "Nahiri, the Lithomancer",
+   "oracle_id": "a554aa2c-d947-4fc6-929d-d5891f467615",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SE027",
+   "pack": "pack_p5_shadows_eldritch_moon_2026-10-30.json",
+   "participant": "sorin_markov",
+   "card": "Sorin Markov",
+   "oracle_id": "c151e8b7-4b28-4f03-8a81-9bf623f893d7",
+   "tier": "ART_IN_CITED_SOURCE",
+   "cited_pages_crediting_art": [
+    "https://magic.wizards.com/en/news/magic-story/stone-and-blood-2016-06-15"
+   ]
+  },
+  {
+   "claim": "SE027",
+   "pack": "pack_p5_shadows_eldritch_moon_2026-10-30.json",
+   "participant": "nahiri",
+   "card": "Nahiri, the Lithomancer",
+   "oracle_id": "a554aa2c-d947-4fc6-929d-d5891f467615",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SE028",
+   "pack": "pack_p5_shadows_eldritch_moon_2026-10-30.json",
+   "participant": "emrakul",
+   "card": "Emrakul, the Aeons Torn",
+   "oracle_id": "900ca697-ad38-4b2b-bc74-2ff7eb6ea951",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SE028",
+   "pack": "pack_p5_shadows_eldritch_moon_2026-10-30.json",
+   "participant": "emrakul",
+   "card": "Emrakul, the Exigent Doom",
+   "oracle_id": "4421ab7d-6d9b-4edd-b5a0-53a8ed84da6f",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SE028",
+   "pack": "pack_p5_shadows_eldritch_moon_2026-10-30.json",
+   "participant": "emrakul",
+   "card": "Emrakul, the Promised End",
+   "oracle_id": "4e7a8817-1a66-45c3-ade9-eac79b40b89f",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "emn"
+   ]
+  },
+  {
+   "claim": "SE028",
+   "pack": "pack_p5_shadows_eldritch_moon_2026-10-30.json",
+   "participant": "emrakul",
+   "card": "Emrakul, the World Anew",
+   "oracle_id": "33300e69-29f6-41e4-92ab-82d8b018b217",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SE029",
+   "pack": "pack_p5_shadows_eldritch_moon_2026-10-30.json",
+   "participant": "gisela",
+   "card": "Gisela, Blade of Goldnight",
+   "oracle_id": "66f9f325-5e8e-4ebf-b5b3-c6410d80f2c5",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SE029",
+   "pack": "pack_p5_shadows_eldritch_moon_2026-10-30.json",
+   "participant": "gisela",
+   "card": "Gisela, the Broken Blade",
+   "oracle_id": "f3e23d5e-bd88-4e7c-a3fb-db2a8cb05b22",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "emn"
+   ]
+  },
+  {
+   "claim": "SE029",
+   "pack": "pack_p5_shadows_eldritch_moon_2026-10-30.json",
+   "participant": "brisela",
+   "card": "Brisela, Voice of Nightmares",
+   "oracle_id": "b23587e0-9fb7-492e-8bb4-f218e8e4ce6c",
+   "tier": "ART_IN_CITED_SOURCE",
+   "cited_pages_crediting_art": [
+    "https://magic.wizards.com/en/news/magic-story/saint-traft-and-flight-nightmares-2016-07-13"
+   ]
+  },
+  {
+   "claim": "SE030",
+   "pack": "pack_p5_shadows_eldritch_moon_2026-10-30.json",
+   "participant": "bruna",
+   "card": "Bruna, Light of Alabaster",
+   "oracle_id": "e8f213eb-58db-4fab-bd0b-2acfd0a86ac3",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SE030",
+   "pack": "pack_p5_shadows_eldritch_moon_2026-10-30.json",
+   "participant": "bruna",
+   "card": "Bruna, the Fading Light",
+   "oracle_id": "bce7e45d-b2c5-43aa-91a6-3a3c24f30850",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "emn"
+   ]
+  },
+  {
+   "claim": "SE030",
+   "pack": "pack_p5_shadows_eldritch_moon_2026-10-30.json",
+   "participant": "brisela",
+   "card": "Brisela, Voice of Nightmares",
+   "oracle_id": "b23587e0-9fb7-492e-8bb4-f218e8e4ce6c",
+   "tier": "ART_IN_CITED_SOURCE",
+   "cited_pages_crediting_art": [
+    "https://magic.wizards.com/en/news/magic-story/saint-traft-and-flight-nightmares-2016-07-13"
+   ]
+  },
+  {
+   "claim": "SE031",
+   "pack": "pack_p5_shadows_eldritch_moon_2026-10-30.json",
+   "participant": "thalia",
+   "card": "Thalia, Guardian of Thraben",
+   "oracle_id": "9b7f1d05-707c-4ed3-9f0e-8ced1232c2ee",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SE032",
+   "pack": "pack_p5_shadows_eldritch_moon_2026-10-30.json",
+   "participant": "jace_beleren",
+   "card": "Jace Beleren",
+   "oracle_id": "cc2b6e58-2d6f-495e-95f3-9496105c4cba",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SE033",
+   "pack": "pack_p5_shadows_eldritch_moon_2026-10-30.json",
+   "participant": "halana",
+   "card": "Halana, Kessig Ranger",
+   "oracle_id": "f5aa7385-12ea-4ecb-86eb-e8622ebb6908",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SE034",
+   "pack": "pack_p5_shadows_eldritch_moon_2026-10-30.json",
+   "participant": "alena",
+   "card": "Alena, Kessig Trapper",
+   "oracle_id": "ca349ba9-b5ea-48e6-a617-c9b7f2708853",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SE035",
+   "pack": "pack_p5_shadows_eldritch_moon_2026-10-30.json",
+   "participant": "avacyn",
+   "card": "Avacyn, Angel of Hope",
+   "oracle_id": "216cb26e-8da9-478b-bfbc-8030f7adee72",
+   "tier": "ART_IN_CITED_SOURCE",
+   "cited_pages_crediting_art": [
+    "https://magic.wizards.com/en/news/magic-story/gaze-blank-and-pitiless-2016-03-09"
+   ]
+  },
+  {
+   "claim": "SE035",
+   "pack": "pack_p5_shadows_eldritch_moon_2026-10-30.json",
+   "participant": "avacyn",
+   "card": "Avacyn, Angel of Horror",
+   "oracle_id": "4af61d45-7114-4eb4-a905-9e03caf87454",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SE035",
+   "pack": "pack_p5_shadows_eldritch_moon_2026-10-30.json",
+   "participant": "avacyn",
+   "card": "Avacyn, Guardian Angel",
+   "oracle_id": "6da0b6d2-3c5e-49ef-9264-076269c04744",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SE036",
+   "pack": "pack_p5_shadows_eldritch_moon_2026-10-30.json",
+   "participant": "nephalia",
+   "card": "Nephalia",
+   "oracle_id": "72af7529-75bb-488f-801d-7148631b9e9b",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "BZ001",
+   "pack": "pack_p5_battle_for_zendikar_oath_2026-10-30.json",
+   "participant": "ugin",
+   "card": "Ugin, Eye of the Storms",
+   "oracle_id": "5c58353a-fd60-4528-bf0d-669626cda0b2",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "BZ001",
+   "pack": "pack_p5_battle_for_zendikar_oath_2026-10-30.json",
+   "participant": "ugin",
+   "card": "Ugin, the Ineffable",
+   "oracle_id": "18bdc181-9592-4147-81fb-7f83ce137f70",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "BZ001",
+   "pack": "pack_p5_battle_for_zendikar_oath_2026-10-30.json",
+   "participant": "ugin",
+   "card": "Ugin, the Spirit Dragon",
+   "oracle_id": "eecb3047-a563-441a-9175-200421981ac3",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "BZ002",
+   "pack": "pack_p5_battle_for_zendikar_oath_2026-10-30.json",
+   "participant": "nahiri",
+   "card": "Nahiri, the Lithomancer",
+   "oracle_id": "a554aa2c-d947-4fc6-929d-d5891f467615",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "BZ003",
+   "pack": "pack_p5_battle_for_zendikar_oath_2026-10-30.json",
+   "participant": "nahiri",
+   "card": "Nahiri, the Lithomancer",
+   "oracle_id": "a554aa2c-d947-4fc6-929d-d5891f467615",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "BZ004",
+   "pack": "pack_p5_battle_for_zendikar_oath_2026-10-30.json",
+   "participant": "teysa_karlov",
+   "card": "Teysa Karlov",
+   "oracle_id": "644eeefd-e684-4ca8-8aef-a892ca130c07",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "BZ004",
+   "pack": "pack_p5_battle_for_zendikar_oath_2026-10-30.json",
+   "participant": "karlov",
+   "card": "Karlov of the Ghost Council",
+   "oracle_id": "647d7988-9a5d-4700-9238-938d0d5fae12",
+   "tier": "ART_IN_CITED_SOURCE",
+   "cited_pages_crediting_art": [
+    "https://magic.wizards.com/en/news/magic-story/family-values-2015-11-11"
+   ]
+  },
+  {
+   "claim": "BZ005",
+   "pack": "pack_p5_battle_for_zendikar_oath_2026-10-30.json",
+   "participant": "nicol_bolas",
+   "card": "Nicol Bolas",
+   "oracle_id": "e26bf6a9-b31c-4bc0-b55b-c01f2f69be6b",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "BZ005",
+   "pack": "pack_p5_battle_for_zendikar_oath_2026-10-30.json",
+   "participant": "nicol_bolas",
+   "card": "Nicol Bolas, Dragon-God",
+   "oracle_id": "581eedc4-efe4-4ae4-baf2-88071e7e6f6d",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "BZ005",
+   "pack": "pack_p5_battle_for_zendikar_oath_2026-10-30.json",
+   "participant": "nicol_bolas",
+   "card": "Nicol Bolas, God-Pharaoh",
+   "oracle_id": "cb33e07b-9599-4979-991f-df0c43ddac31",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "BZ005",
+   "pack": "pack_p5_battle_for_zendikar_oath_2026-10-30.json",
+   "participant": "nicol_bolas",
+   "card": "Nicol Bolas, Planeswalker",
+   "oracle_id": "05e9b55e-6329-48ec-b7d7-24c6b9692244",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "BZ005",
+   "pack": "pack_p5_battle_for_zendikar_oath_2026-10-30.json",
+   "participant": "nicol_bolas",
+   "card": "Nicol Bolas, the Deceiver",
+   "oracle_id": "524b00ea-0372-40f9-a6a1-76a8497a1ea6",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "BZ005",
+   "pack": "pack_p5_battle_for_zendikar_oath_2026-10-30.json",
+   "participant": "nicol_bolas",
+   "card": "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+   "oracle_id": "55e4b27e-5447-4fc2-8cae-a03e344600c6",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "BZ005",
+   "pack": "pack_p5_battle_for_zendikar_oath_2026-10-30.json",
+   "participant": "jace_beleren",
+   "card": "Jace Beleren",
+   "oracle_id": "cc2b6e58-2d6f-495e-95f3-9496105c4cba",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "BZ006",
+   "pack": "pack_p5_battle_for_zendikar_oath_2026-10-30.json",
+   "participant": "nissa_revane",
+   "card": "Nissa Revane",
+   "oracle_id": "113fc13a-6df9-4eed-b9d4-002a85a036a1",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "BZ007",
+   "pack": "pack_p5_battle_for_zendikar_oath_2026-10-30.json",
+   "participant": "gideon_jura",
+   "card": "Gideon Jura",
+   "oracle_id": "7340dbcb-4b26-4038-be8c-a89e76294221",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "BZ007",
+   "pack": "pack_p5_battle_for_zendikar_oath_2026-10-30.json",
+   "participant": "chandra_nalaar",
+   "card": "Chandra Nalaar",
+   "oracle_id": "f4da7a43-e9d5-47ea-b2f0-3cf55a156f4a",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "BZ008",
+   "pack": "pack_p5_battle_for_zendikar_oath_2026-10-30.json",
+   "participant": "gideon_jura",
+   "card": "Gideon Jura",
+   "oracle_id": "7340dbcb-4b26-4038-be8c-a89e76294221",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "BZ008",
+   "pack": "pack_p5_battle_for_zendikar_oath_2026-10-30.json",
+   "participant": "jace_beleren",
+   "card": "Jace Beleren",
+   "oracle_id": "cc2b6e58-2d6f-495e-95f3-9496105c4cba",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "BZ009",
+   "pack": "pack_p5_battle_for_zendikar_oath_2026-10-30.json",
+   "participant": "gideon_jura",
+   "card": "Gideon Jura",
+   "oracle_id": "7340dbcb-4b26-4038-be8c-a89e76294221",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "BZ010",
+   "pack": "pack_p5_battle_for_zendikar_oath_2026-10-30.json",
+   "participant": "jace_beleren",
+   "card": "Jace Beleren",
+   "oracle_id": "cc2b6e58-2d6f-495e-95f3-9496105c4cba",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "BZ010",
+   "pack": "pack_p5_battle_for_zendikar_oath_2026-10-30.json",
+   "participant": "eye_of_ugin",
+   "card": "Eye of Ugin",
+   "oracle_id": "10d13ff6-c4d0-4753-8939-a8a90f0e92bb",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "BZ011",
+   "pack": "pack_p5_battle_for_zendikar_oath_2026-10-30.json",
+   "participant": "noyan_dar",
+   "card": "Noyan Dar, Roil Shaper",
+   "oracle_id": "e4190320-5854-479e-be11-a5d5ef3db6a6",
+   "tier": "ART_IN_CITED_SOURCE",
+   "cited_pages_crediting_art": [
+    "https://magic.wizards.com/en/news/magic-story/shaping-army-2015-10-21"
+   ]
+  },
+  {
+   "claim": "BZ011",
+   "pack": "pack_p5_battle_for_zendikar_oath_2026-10-30.json",
+   "participant": "gideon_jura",
+   "card": "Gideon Jura",
+   "oracle_id": "7340dbcb-4b26-4038-be8c-a89e76294221",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "BZ012",
+   "pack": "pack_p5_battle_for_zendikar_oath_2026-10-30.json",
+   "participant": "nissa_revane",
+   "card": "Nissa Revane",
+   "oracle_id": "113fc13a-6df9-4eed-b9d4-002a85a036a1",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "BZ013",
+   "pack": "pack_p5_battle_for_zendikar_oath_2026-10-30.json",
+   "participant": "nissa_revane",
+   "card": "Nissa Revane",
+   "oracle_id": "113fc13a-6df9-4eed-b9d4-002a85a036a1",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "BZ013",
+   "pack": "pack_p5_battle_for_zendikar_oath_2026-10-30.json",
+   "participant": "ob_nixilis",
+   "card": "Ob Nixilis Reignited",
+   "oracle_id": "65481ae1-54b2-44d2-91e1-20cd486386da",
+   "tier": "ART_IN_CITED_SOURCE",
+   "cited_pages_crediting_art": [
+    "https://magic.wizards.com/en/news/magic-story/any-cost-2015-11-25"
+   ]
+  },
+  {
+   "claim": "BZ013",
+   "pack": "pack_p5_battle_for_zendikar_oath_2026-10-30.json",
+   "participant": "ob_nixilis",
+   "card": "Ob Nixilis of the Black Oath",
+   "oracle_id": "cfc9a2f9-92fa-4608-b98d-f9763c89fc40",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "BZ013",
+   "pack": "pack_p5_battle_for_zendikar_oath_2026-10-30.json",
+   "participant": "ob_nixilis",
+   "card": "Ob Nixilis, Captive Kingpin",
+   "oracle_id": "55b6434b-1542-40fd-b12a-697d40976582",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "BZ013",
+   "pack": "pack_p5_battle_for_zendikar_oath_2026-10-30.json",
+   "participant": "ob_nixilis",
+   "card": "Ob Nixilis, Unshackled",
+   "oracle_id": "73021bd2-3b60-4fe4-8858-6eb525be1422",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "BZ013",
+   "pack": "pack_p5_battle_for_zendikar_oath_2026-10-30.json",
+   "participant": "ob_nixilis",
+   "card": "Ob Nixilis, the Adversary",
+   "oracle_id": "a6abb6af-7ea2-43f3-8718-2a077ad0c947",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "BZ013",
+   "pack": "pack_p5_battle_for_zendikar_oath_2026-10-30.json",
+   "participant": "ob_nixilis",
+   "card": "Ob Nixilis, the Ascended",
+   "oracle_id": "3a49b518-61c8-4dea-8008-c5edf8384581",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "BZ013",
+   "pack": "pack_p5_battle_for_zendikar_oath_2026-10-30.json",
+   "participant": "ob_nixilis",
+   "card": "Ob Nixilis, the Fallen",
+   "oracle_id": "154104b7-4125-4276-8bc7-9a6edfe48cb9",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "BZ013",
+   "pack": "pack_p5_battle_for_zendikar_oath_2026-10-30.json",
+   "participant": "ob_nixilis",
+   "card": "Ob Nixilis, the Hate-Twisted",
+   "oracle_id": "88cd12e5-ca89-4176-96fd-320fe2ccd087",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "BZ014",
+   "pack": "pack_p5_battle_for_zendikar_oath_2026-10-30.json",
+   "participant": "gideon_jura",
+   "card": "Gideon Jura",
+   "oracle_id": "7340dbcb-4b26-4038-be8c-a89e76294221",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "BZ014",
+   "pack": "pack_p5_battle_for_zendikar_oath_2026-10-30.json",
+   "participant": "sea_gate",
+   "card": "Sea Gate",
+   "oracle_id": "b574c540-9f8a-4fd4-8809-d02c9b099ddc",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "BZ015",
+   "pack": "pack_p5_battle_for_zendikar_oath_2026-10-30.json",
+   "participant": "kiora",
+   "card": "Kiora of Fire and Ashes",
+   "oracle_id": "02b41d0e-82e7-4307-8cc4-8175ff78ea1f",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "BZ015",
+   "pack": "pack_p5_battle_for_zendikar_oath_2026-10-30.json",
+   "participant": "kiora",
+   "card": "Kiora of Salt and Sand",
+   "oracle_id": "e70bb7f8-8098-49c5-929c-68f63cd821c5",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "BZ015",
+   "pack": "pack_p5_battle_for_zendikar_oath_2026-10-30.json",
+   "participant": "kiora",
+   "card": "Kiora, Behemoth Beckoner",
+   "oracle_id": "1efe485e-6874-4f4c-b981-e10f41670865",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "BZ015",
+   "pack": "pack_p5_battle_for_zendikar_oath_2026-10-30.json",
+   "participant": "kiora",
+   "card": "Kiora, Master of the Depths",
+   "oracle_id": "0b829189-ff9d-4f6c-9a2a-fdb4a9bfeeb6",
+   "tier": "ART_IN_CITED_SOURCE",
+   "cited_pages_crediting_art": [
+    "https://magic.wizards.com/en/news/magic-story/rise-kozilek-2015-12-09"
+   ]
+  },
+  {
+   "claim": "BZ015",
+   "pack": "pack_p5_battle_for_zendikar_oath_2026-10-30.json",
+   "participant": "kiora",
+   "card": "Kiora, Sovereign of the Deep",
+   "oracle_id": "95df54e2-0196-4e54-8144-de5982ce07f5",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "BZ015",
+   "pack": "pack_p5_battle_for_zendikar_oath_2026-10-30.json",
+   "participant": "kiora",
+   "card": "Kiora, the Crashing Wave",
+   "oracle_id": "58cc2097-f4b4-4695-9076-78666050cdb6",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "BZ015",
+   "pack": "pack_p5_battle_for_zendikar_oath_2026-10-30.json",
+   "participant": "kiora",
+   "card": "Kiora, the Rising Tide",
+   "oracle_id": "5d748bce-dff8-46fa-a3d1-633863b7bbff",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "BZ015",
+   "pack": "pack_p5_battle_for_zendikar_oath_2026-10-30.json",
+   "participant": "ulamog",
+   "card": "Ulamog, the Ceaseless Hunger",
+   "oracle_id": "0bfa4512-e35a-4c93-b324-80ec659f5a97",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "bfz"
+   ]
+  },
+  {
+   "claim": "BZ015",
+   "pack": "pack_p5_battle_for_zendikar_oath_2026-10-30.json",
+   "participant": "ulamog",
+   "card": "Ulamog, the Defiler",
+   "oracle_id": "97836c48-8777-4b4e-98fb-e99204f38bdd",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "BZ015",
+   "pack": "pack_p5_battle_for_zendikar_oath_2026-10-30.json",
+   "participant": "ulamog",
+   "card": "Ulamog, the Infinite Gyre",
+   "oracle_id": "b817bc56-9b4d-4c50-bafa-3c652b99578f",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "BZ016",
+   "pack": "pack_p5_battle_for_zendikar_oath_2026-10-30.json",
+   "participant": "ulamog",
+   "card": "Ulamog, the Ceaseless Hunger",
+   "oracle_id": "0bfa4512-e35a-4c93-b324-80ec659f5a97",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "bfz"
+   ]
+  },
+  {
+   "claim": "BZ016",
+   "pack": "pack_p5_battle_for_zendikar_oath_2026-10-30.json",
+   "participant": "ulamog",
+   "card": "Ulamog, the Defiler",
+   "oracle_id": "97836c48-8777-4b4e-98fb-e99204f38bdd",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "BZ016",
+   "pack": "pack_p5_battle_for_zendikar_oath_2026-10-30.json",
+   "participant": "ulamog",
+   "card": "Ulamog, the Infinite Gyre",
+   "oracle_id": "b817bc56-9b4d-4c50-bafa-3c652b99578f",
+   "tier": "ART_IN_CITED_SOURCE",
+   "cited_pages_crediting_art": [
+    "https://magic.wizards.com/en/news/magic-story/retaliation-ob-nixilis-2015-12-30"
+   ]
+  },
+  {
+   "claim": "BZ016",
+   "pack": "pack_p5_battle_for_zendikar_oath_2026-10-30.json",
+   "participant": "nissa_revane",
+   "card": "Nissa Revane",
+   "oracle_id": "113fc13a-6df9-4eed-b9d4-002a85a036a1",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "BZ017",
+   "pack": "pack_p5_battle_for_zendikar_oath_2026-10-30.json",
+   "participant": "ob_nixilis",
+   "card": "Ob Nixilis Reignited",
+   "oracle_id": "65481ae1-54b2-44d2-91e1-20cd486386da",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "bfz"
+   ]
+  },
+  {
+   "claim": "BZ017",
+   "pack": "pack_p5_battle_for_zendikar_oath_2026-10-30.json",
+   "participant": "ob_nixilis",
+   "card": "Ob Nixilis of the Black Oath",
+   "oracle_id": "cfc9a2f9-92fa-4608-b98d-f9763c89fc40",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "BZ017",
+   "pack": "pack_p5_battle_for_zendikar_oath_2026-10-30.json",
+   "participant": "ob_nixilis",
+   "card": "Ob Nixilis, Captive Kingpin",
+   "oracle_id": "55b6434b-1542-40fd-b12a-697d40976582",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "BZ017",
+   "pack": "pack_p5_battle_for_zendikar_oath_2026-10-30.json",
+   "participant": "ob_nixilis",
+   "card": "Ob Nixilis, Unshackled",
+   "oracle_id": "73021bd2-3b60-4fe4-8858-6eb525be1422",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "BZ017",
+   "pack": "pack_p5_battle_for_zendikar_oath_2026-10-30.json",
+   "participant": "ob_nixilis",
+   "card": "Ob Nixilis, the Adversary",
+   "oracle_id": "a6abb6af-7ea2-43f3-8718-2a077ad0c947",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "BZ017",
+   "pack": "pack_p5_battle_for_zendikar_oath_2026-10-30.json",
+   "participant": "ob_nixilis",
+   "card": "Ob Nixilis, the Ascended",
+   "oracle_id": "3a49b518-61c8-4dea-8008-c5edf8384581",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "BZ017",
+   "pack": "pack_p5_battle_for_zendikar_oath_2026-10-30.json",
+   "participant": "ob_nixilis",
+   "card": "Ob Nixilis, the Fallen",
+   "oracle_id": "154104b7-4125-4276-8bc7-9a6edfe48cb9",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "BZ017",
+   "pack": "pack_p5_battle_for_zendikar_oath_2026-10-30.json",
+   "participant": "ob_nixilis",
+   "card": "Ob Nixilis, the Hate-Twisted",
+   "oracle_id": "88cd12e5-ca89-4176-96fd-320fe2ccd087",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "BZ017",
+   "pack": "pack_p5_battle_for_zendikar_oath_2026-10-30.json",
+   "participant": "ulamog",
+   "card": "Ulamog, the Ceaseless Hunger",
+   "oracle_id": "0bfa4512-e35a-4c93-b324-80ec659f5a97",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "bfz"
+   ]
+  },
+  {
+   "claim": "BZ017",
+   "pack": "pack_p5_battle_for_zendikar_oath_2026-10-30.json",
+   "participant": "ulamog",
+   "card": "Ulamog, the Defiler",
+   "oracle_id": "97836c48-8777-4b4e-98fb-e99204f38bdd",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "BZ017",
+   "pack": "pack_p5_battle_for_zendikar_oath_2026-10-30.json",
+   "participant": "ulamog",
+   "card": "Ulamog, the Infinite Gyre",
+   "oracle_id": "b817bc56-9b4d-4c50-bafa-3c652b99578f",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "BZ018",
+   "pack": "pack_p5_battle_for_zendikar_oath_2026-10-30.json",
+   "participant": "ob_nixilis",
+   "card": "Ob Nixilis Reignited",
+   "oracle_id": "65481ae1-54b2-44d2-91e1-20cd486386da",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "bfz"
+   ]
+  },
+  {
+   "claim": "BZ018",
+   "pack": "pack_p5_battle_for_zendikar_oath_2026-10-30.json",
+   "participant": "ob_nixilis",
+   "card": "Ob Nixilis of the Black Oath",
+   "oracle_id": "cfc9a2f9-92fa-4608-b98d-f9763c89fc40",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "BZ018",
+   "pack": "pack_p5_battle_for_zendikar_oath_2026-10-30.json",
+   "participant": "ob_nixilis",
+   "card": "Ob Nixilis, Captive Kingpin",
+   "oracle_id": "55b6434b-1542-40fd-b12a-697d40976582",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "BZ018",
+   "pack": "pack_p5_battle_for_zendikar_oath_2026-10-30.json",
+   "participant": "ob_nixilis",
+   "card": "Ob Nixilis, Unshackled",
+   "oracle_id": "73021bd2-3b60-4fe4-8858-6eb525be1422",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "BZ018",
+   "pack": "pack_p5_battle_for_zendikar_oath_2026-10-30.json",
+   "participant": "ob_nixilis",
+   "card": "Ob Nixilis, the Adversary",
+   "oracle_id": "a6abb6af-7ea2-43f3-8718-2a077ad0c947",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "BZ018",
+   "pack": "pack_p5_battle_for_zendikar_oath_2026-10-30.json",
+   "participant": "ob_nixilis",
+   "card": "Ob Nixilis, the Ascended",
+   "oracle_id": "3a49b518-61c8-4dea-8008-c5edf8384581",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "BZ018",
+   "pack": "pack_p5_battle_for_zendikar_oath_2026-10-30.json",
+   "participant": "ob_nixilis",
+   "card": "Ob Nixilis, the Fallen",
+   "oracle_id": "154104b7-4125-4276-8bc7-9a6edfe48cb9",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "BZ018",
+   "pack": "pack_p5_battle_for_zendikar_oath_2026-10-30.json",
+   "participant": "ob_nixilis",
+   "card": "Ob Nixilis, the Hate-Twisted",
+   "oracle_id": "88cd12e5-ca89-4176-96fd-320fe2ccd087",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "BZ018",
+   "pack": "pack_p5_battle_for_zendikar_oath_2026-10-30.json",
+   "participant": "kozilek",
+   "card": "Kozilek, Butcher of Truth",
+   "oracle_id": "7b8528b0-71eb-4c9e-bed9-aa2d2e84038f",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "BZ018",
+   "pack": "pack_p5_battle_for_zendikar_oath_2026-10-30.json",
+   "participant": "kozilek",
+   "card": "Kozilek, Compleated",
+   "oracle_id": "fd0592e0-021a-450f-b0fb-e4a242dc16bf",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "BZ018",
+   "pack": "pack_p5_battle_for_zendikar_oath_2026-10-30.json",
+   "participant": "kozilek",
+   "card": "Kozilek, the Broken Reality",
+   "oracle_id": "39f4bf0e-47d5-4ae8-a504-71acda849850",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "BZ018",
+   "pack": "pack_p5_battle_for_zendikar_oath_2026-10-30.json",
+   "participant": "kozilek",
+   "card": "Kozilek, the Great Distortion",
+   "oracle_id": "4c1c1537-e519-4e2f-9bc2-d34b289d4487",
+   "tier": "ART_IN_CITED_SOURCE",
+   "cited_pages_crediting_art": [
+    "https://magic.wizards.com/en/news/magic-story/blight-we-were-born-2016-01-13"
+   ]
+  },
+  {
+   "claim": "BZ019",
+   "pack": "pack_p5_battle_for_zendikar_oath_2026-10-30.json",
+   "participant": "tazri",
+   "card": "Tazri, Beacon of Unity",
+   "oracle_id": "ce703e1d-b7b2-4b8b-a12c-714fc152d0a5",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "BZ019",
+   "pack": "pack_p5_battle_for_zendikar_oath_2026-10-30.json",
+   "participant": "tazri",
+   "card": "Tazri, Stalwart Survivor",
+   "oracle_id": "13a3e61d-c9ff-447d-9016-09a183b7af1d",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "BZ020",
+   "pack": "pack_p5_battle_for_zendikar_oath_2026-10-30.json",
+   "participant": "jori_en",
+   "card": "Jori En, Ruin Diver",
+   "oracle_id": "4cd9b48e-5774-4a1c-857f-9f4a92db9b41",
+   "tier": "ART_IN_CITED_SOURCE",
+   "cited_pages_crediting_art": [
+    "https://magic.wizards.com/en/news/magic-story/beneath-surface-2016-01-27"
+   ]
+  },
+  {
+   "claim": "BZ020",
+   "pack": "pack_p5_battle_for_zendikar_oath_2026-10-30.json",
+   "participant": "kozilek",
+   "card": "Kozilek, Butcher of Truth",
+   "oracle_id": "7b8528b0-71eb-4c9e-bed9-aa2d2e84038f",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "BZ020",
+   "pack": "pack_p5_battle_for_zendikar_oath_2026-10-30.json",
+   "participant": "kozilek",
+   "card": "Kozilek, Compleated",
+   "oracle_id": "fd0592e0-021a-450f-b0fb-e4a242dc16bf",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "BZ020",
+   "pack": "pack_p5_battle_for_zendikar_oath_2026-10-30.json",
+   "participant": "kozilek",
+   "card": "Kozilek, the Broken Reality",
+   "oracle_id": "39f4bf0e-47d5-4ae8-a504-71acda849850",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "BZ020",
+   "pack": "pack_p5_battle_for_zendikar_oath_2026-10-30.json",
+   "participant": "kozilek",
+   "card": "Kozilek, the Great Distortion",
+   "oracle_id": "4c1c1537-e519-4e2f-9bc2-d34b289d4487",
+   "tier": "ART_IN_CITED_SOURCE",
+   "cited_pages_crediting_art": [
+    "https://magic.wizards.com/en/news/magic-story/beneath-surface-2016-01-27"
+   ]
+  },
+  {
+   "claim": "BZ021",
+   "pack": "pack_p5_battle_for_zendikar_oath_2026-10-30.json",
+   "participant": "chandra_nalaar",
+   "card": "Chandra Nalaar",
+   "oracle_id": "f4da7a43-e9d5-47ea-b2f0-3cf55a156f4a",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "BZ021",
+   "pack": "pack_p5_battle_for_zendikar_oath_2026-10-30.json",
+   "participant": "gideon_jura",
+   "card": "Gideon Jura",
+   "oracle_id": "7340dbcb-4b26-4038-be8c-a89e76294221",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "BZ022",
+   "pack": "pack_p5_battle_for_zendikar_oath_2026-10-30.json",
+   "participant": "gideon_jura",
+   "card": "Gideon Jura",
+   "oracle_id": "7340dbcb-4b26-4038-be8c-a89e76294221",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "BZ023",
+   "pack": "pack_p5_battle_for_zendikar_oath_2026-10-30.json",
+   "participant": "jace_beleren",
+   "card": "Jace Beleren",
+   "oracle_id": "cc2b6e58-2d6f-495e-95f3-9496105c4cba",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "BZ023",
+   "pack": "pack_p5_battle_for_zendikar_oath_2026-10-30.json",
+   "participant": "ugin",
+   "card": "Ugin, Eye of the Storms",
+   "oracle_id": "5c58353a-fd60-4528-bf0d-669626cda0b2",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "BZ023",
+   "pack": "pack_p5_battle_for_zendikar_oath_2026-10-30.json",
+   "participant": "ugin",
+   "card": "Ugin, the Ineffable",
+   "oracle_id": "18bdc181-9592-4147-81fb-7f83ce137f70",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "BZ023",
+   "pack": "pack_p5_battle_for_zendikar_oath_2026-10-30.json",
+   "participant": "ugin",
+   "card": "Ugin, the Spirit Dragon",
+   "oracle_id": "eecb3047-a563-441a-9175-200421981ac3",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "BZ024",
+   "pack": "pack_p5_battle_for_zendikar_oath_2026-10-30.json",
+   "participant": "chandra_nalaar",
+   "card": "Chandra Nalaar",
+   "oracle_id": "f4da7a43-e9d5-47ea-b2f0-3cf55a156f4a",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "BZ026",
+   "pack": "pack_p5_battle_for_zendikar_oath_2026-10-30.json",
+   "participant": "gideon_jura",
+   "card": "Gideon Jura",
+   "oracle_id": "7340dbcb-4b26-4038-be8c-a89e76294221",
+   "tier": "NAMED_PARTICIPANT"
   }
  ],
  "by_pack": {
@@ -18376,6 +19751,13 @@
    "PRINTED_IN_STORY_SET": 26,
    "NAMED_PARTICIPANT": 64
   },
+  "pack_p5_battle_for_zendikar_oath_2026-10-30.json": {
+   "claims": 26,
+   "claims_anchored": 25,
+   "ART_IN_CITED_SOURCE": 8,
+   "PRINTED_IN_STORY_SET": 5,
+   "NAMED_PARTICIPANT": 76
+  },
   "pack_p5_bloomburrow_2026-10-30.json": {
    "claims": 12,
    "claims_anchored": 7,
@@ -18391,10 +19773,10 @@
    "NAMED_PARTICIPANT": 23
   },
   "pack_p5_edge_of_eternities_2026-10-30.json": {
-   "claims": 17,
-   "claims_anchored": 15,
+   "claims": 30,
+   "claims_anchored": 20,
    "ART_IN_CITED_SOURCE": 0,
-   "PRINTED_IN_STORY_SET": 34,
+   "PRINTED_IN_STORY_SET": 45,
    "NAMED_PARTICIPANT": 40
   },
   "pack_p5_ikoria_2026-10-30.json": {
@@ -18482,11 +19864,11 @@
    "NAMED_PARTICIPANT": 28
   },
   "pack_p5_shadows_eldritch_moon_2026-10-30.json": {
-   "claims": 9,
-   "claims_anchored": 9,
-   "ART_IN_CITED_SOURCE": 3,
-   "PRINTED_IN_STORY_SET": 1,
-   "NAMED_PARTICIPANT": 32
+   "claims": 36,
+   "claims_anchored": 34,
+   "ART_IN_CITED_SOURCE": 15,
+   "PRINTED_IN_STORY_SET": 6,
+   "NAMED_PARTICIPANT": 71
   },
   "pack_p5_streets_of_new_capenna_2026-10-30.json": {
    "claims": 16,
@@ -18532,12 +19914,12 @@
   }
  },
  "counts": {
-  "claims": 501,
-  "claims_anchored": 452,
-  "anchors": 2131,
-  "ART_IN_CITED_SOURCE": 34,
-  "PRINTED_IN_STORY_SET": 347,
-  "NAMED_PARTICIPANT": 1750
+  "claims": 567,
+  "claims_anchored": 507,
+  "anchors": 2287,
+  "ART_IN_CITED_SOURCE": 54,
+  "PRINTED_IN_STORY_SET": 368,
+  "NAMED_PARTICIPANT": 1865
  },
- "content_sha256": "ce767fe9501b66391f45af6bd8ed2a135910af26d3831758ac41d3be45ee4e85"
+ "content_sha256": "c442854cf7a834b5c7673242c288fdbc4e7ba71d07211b748c6ad1cc0023d2bf"
 }

@@ -1,0 +1,826 @@
+{
+ "schema": "multiverse-claim-pack/v1",
+ "pack_id": "pack_p5_battle_for_zendikar_oath",
+ "evidence_cutoff": "2026-10-30",
+ "status": "PRELIMINARY_RESEARCH (not owner approved, not certified)",
+ "arc": "BFZ/OGW",
+ "scope": "Targeted Phase 5 extraction from official Battle for Zendikar / Oath of the Gatewatch web fiction (19 pages, mostly from episode lead-in recaps; several are 2024 reposts of the 2010 and 2015 stories). PRELIMINARY_RESEARCH; not owner approved.",
+ "built_by": "scripts/story_claim_pipeline.py from data/lore_research/claim_specs/pack_p5_battle_for_zendikar_oath.spec.json",
+ "source_register": {
+  "bfz_family_values": {
+   "title": "Family Values",
+   "url": "https://magic.wizards.com/en/news/magic-story/family-values-2015-11-11",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2015-11-12"
+  },
+  "bfz_summary": {
+   "title": "Battle for Zendikar Story Summary",
+   "url": "https://magic.wizards.com/en/news/magic-story/battle-zendikar-story-summary-2015-12-23",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2015-12-24"
+  },
+  "ogw_resurgent": {
+   "title": "Zendikar Resurgent",
+   "url": "https://magic.wizards.com/en/news/magic-story/zendikar-resurgent-2016-02-24",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2016-02-25"
+  },
+  "bfz_fort_keff": {
+   "title": "The Battle of Fort Keff",
+   "url": "https://magic.wizards.com/en/news/magic-story/the-battle-of-fort-keff",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2024-05-13"
+  },
+  "bfz_pilgrimage": {
+   "title": "The Believers' Pilgrimage",
+   "url": "https://magic.wizards.com/en/news/magic-story/believers-pilgrimage-2015-09-02",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2024-05-15"
+  },
+  "bfz_sea_gate": {
+   "title": "The Liberation of Sea Gate",
+   "url": "https://magic.wizards.com/en/news/magic-story/liberation-sea-gate-2015-10-28",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2024-05-15"
+  },
+  "bfz_revelation_eye": {
+   "title": "Revelation at the Eye",
+   "url": "https://magic.wizards.com/en/news/magic-story/revelation-eye-2015-10-14",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2024-05-15"
+  },
+  "bfz_shaping_army": {
+   "title": "Shaping an Army",
+   "url": "https://magic.wizards.com/en/news/magic-story/shaping-army-2015-10-21",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2024-05-15"
+  },
+  "bfz_any_cost": {
+   "title": "At Any Cost",
+   "url": "https://magic.wizards.com/en/news/magic-story/any-cost-2015-11-25",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2024-05-17"
+  },
+  "ogw_beneath_surface": {
+   "title": "Beneath the Surface",
+   "url": "https://magic.wizards.com/en/news/magic-story/beneath-surface-2016-01-27",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2024-05-17"
+  },
+  "ogw_blight": {
+   "title": "The Blight We Were Born For",
+   "url": "https://magic.wizards.com/en/news/magic-story/blight-we-were-born-2016-01-13",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2024-05-17"
+  },
+  "ogw_brink": {
+   "title": "Brink of Extinction",
+   "url": "https://magic.wizards.com/en/news/magic-story/brink-extinction-2016-02-10",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2024-05-17"
+  },
+  "ogw_flames": {
+   "title": "Up in Flames",
+   "url": "https://magic.wizards.com/en/news/magic-story/flames-2016-01-20",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2024-05-17"
+  },
+  "bfz_hedron_alignment": {
+   "title": "Hedron Alignment",
+   "url": "https://magic.wizards.com/en/news/magic-story/hedron-alignment-2015-11-18",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2024-05-17"
+  },
+  "ogw_oath": {
+   "title": "Oath of the Gatewatch",
+   "url": "https://magic.wizards.com/en/news/magic-story/oath-gatewatch-2016-02-03",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2024-05-17"
+  },
+  "bfz_promises_keep": {
+   "title": "Promises to Keep",
+   "url": "https://magic.wizards.com/en/news/magic-story/promises-keep-2015-12-02",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2024-05-17"
+  },
+  "ogw_retaliation": {
+   "title": "Retaliation of Ob Nixilis",
+   "url": "https://magic.wizards.com/en/news/magic-story/retaliation-ob-nixilis-2015-12-30",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2024-05-17"
+  },
+  "bfz_rise_kozilek": {
+   "title": "The Rise of Kozilek",
+   "url": "https://magic.wizards.com/en/news/magic-story/rise-kozilek-2015-12-09",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2024-05-17"
+  },
+  "ogw_last_stand": {
+   "title": "Zendikar's Last Stand",
+   "url": "https://magic.wizards.com/en/news/magic-story/zendikars-last-stand-2016-02-17",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2024-05-17"
+  }
+ },
+ "entities": [
+  {
+   "id": "ugin",
+   "type": "Character",
+   "name": "Ugin"
+  },
+  {
+   "id": "nahiri",
+   "type": "Character",
+   "name": "Nahiri, the Lithomancer"
+  },
+  {
+   "id": "sorin_markov",
+   "type": "Character",
+   "name": "Sorin Markov"
+  },
+  {
+   "id": "eldrazi_titans",
+   "type": "Concept",
+   "name": "Eldrazi titans"
+  },
+  {
+   "id": "zendikar",
+   "type": "Plane",
+   "name": "Zendikar"
+  },
+  {
+   "id": "hedron_network",
+   "type": "Object",
+   "name": "Zendikar's hedron network"
+  },
+  {
+   "id": "teysa_karlov",
+   "type": "Character",
+   "name": "Teysa Karlov"
+  },
+  {
+   "id": "karlov",
+   "type": "Character",
+   "name": "Karlov"
+  },
+  {
+   "id": "nicol_bolas",
+   "type": "Character",
+   "name": "Nicol Bolas"
+  },
+  {
+   "id": "jace_beleren",
+   "type": "Character",
+   "name": "Jace Beleren"
+  },
+  {
+   "id": "chandra_nalaar",
+   "type": "Character",
+   "name": "Chandra Nalaar"
+  },
+  {
+   "id": "gideon_jura",
+   "type": "Character",
+   "name": "Gideon Jura"
+  },
+  {
+   "id": "nissa_revane",
+   "type": "Character",
+   "name": "Nissa Revane"
+  },
+  {
+   "id": "sarkhan_vol",
+   "type": "Character",
+   "name": "Sarkhan Vol"
+  },
+  {
+   "id": "eye_of_ugin",
+   "type": "Place",
+   "name": "Eye of Ugin"
+  },
+  {
+   "id": "drana",
+   "type": "Character",
+   "name": "Drana of House Kalastria"
+  },
+  {
+   "id": "noyan_dar",
+   "type": "Character",
+   "name": "Noyan Dar"
+  },
+  {
+   "id": "sea_gate",
+   "type": "Place",
+   "name": "Sea Gate"
+  },
+  {
+   "id": "ob_nixilis",
+   "type": "Character",
+   "name": "Ob Nixilis (the Adversary)"
+  },
+  {
+   "id": "khalni_heart",
+   "type": "Object",
+   "name": "Khalni Heart"
+  },
+  {
+   "id": "ulamog",
+   "type": "Character",
+   "name": "Ulamog"
+  },
+  {
+   "id": "kozilek",
+   "type": "Character",
+   "name": "Kozilek"
+  },
+  {
+   "id": "tazri",
+   "type": "Character",
+   "name": "Tazri"
+  },
+  {
+   "id": "jori_en",
+   "type": "Character",
+   "name": "Jori En"
+  },
+  {
+   "id": "kiora",
+   "type": "Character",
+   "name": "Kiora"
+  },
+  {
+   "id": "regatha",
+   "type": "Plane",
+   "name": "Regatha"
+  },
+  {
+   "id": "zendikari_army",
+   "type": "Faction",
+   "name": "Zendikari army"
+  },
+  {
+   "id": "gatewatch",
+   "type": "Faction",
+   "name": "The Gatewatch"
+  }
+ ],
+ "claims": [
+  {
+   "id": "BZ001",
+   "subject": "ugin",
+   "predicate": "imprisoned",
+   "object": "eldrazi_titans",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "zendikar_bfz_ogw_2015",
+   "source_ids": [
+    "bfz_summary"
+   ],
+   "evidence": [
+    {
+     "source_id": "bfz_summary",
+     "quote": "Three ancient Planeswalkers—Ugin, the Spirit Dragon; Nahiri, the Lithomancer; and Sorin Markov—took action to stop those first Eldrazi."
+    },
+    {
+     "source_id": "bfz_summary",
+     "quote": "Although they couldn't kill the titans, they made a plan to imprison the astral abominations on Nahiri's home plane of Zendikar."
+    }
+   ],
+   "summary": "Ugin, Nahiri and Sorin together imprisoned the Eldrazi titans on Zendikar.",
+   "limitation": "Official story-summary recap."
+  },
+  {
+   "id": "BZ002",
+   "subject": "nahiri",
+   "predicate": "created",
+   "object": "hedron_network",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "zendikar_bfz_ogw_2015",
+   "source_ids": [
+    "bfz_summary"
+   ],
+   "evidence": [
+    {
+     "source_id": "bfz_summary",
+     "quote": "At Ugin's direction, Nahiri constructed a massive network of stone structures called hedrons, whose power would form the bars of a worldwide prison."
+    }
+   ],
+   "summary": "At Ugin's direction, Nahiri built Zendikar's hedron network as the Eldrazi prison.",
+   "limitation": ""
+  },
+  {
+   "id": "BZ003",
+   "subject": "nahiri",
+   "predicate": "guarded",
+   "object": "eldrazi_titans",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "zendikar_bfz_ogw_2015",
+   "source_ids": [
+    "bfz_summary"
+   ],
+   "evidence": [
+    {
+     "source_id": "bfz_summary",
+     "quote": "Sorin and Ugin left the plane, while Nahiri remained there to keep watch over the prison."
+    },
+    {
+     "source_id": "bfz_summary",
+     "quote": "Nahiri restored the Eldrazi's prison on her own, then departed to check on her absent allies."
+    }
+   ],
+   "summary": "Nahiri stayed as the prison's warden and alone restored it when the Eldrazi nearly escaped.",
+   "limitation": ""
+  },
+  {
+   "id": "BZ004",
+   "subject": "teysa_karlov",
+   "predicate": "descendant_of",
+   "object": "karlov",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "zendikar_bfz_ogw_2015",
+   "source_ids": [
+    "bfz_family_values"
+   ],
+   "evidence": [
+    {
+     "source_id": "bfz_family_values",
+     "quote": "But she still has to contend with her treacherous, domineering ancestor Karlov, who hasn't let being dead slow him down . . ."
+    },
+    {
+     "source_id": "bfz_family_values",
+     "quote": "The fat, opulent folds of her deceased grandfather, Karlov, ghosted through the closed window of her study."
+    }
+   ],
+   "summary": "Teysa Karlov's dead grandfather Karlov, now a ghost, still dominates her.",
+   "limitation": "Ravnica side story published in the BFZ window."
+  },
+  {
+   "id": "BZ005",
+   "subject": "nicol_bolas",
+   "predicate": "manipulated",
+   "object": "jace_beleren",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "zendikar_bfz_ogw_2015",
+   "source_ids": [
+    "bfz_fort_keff"
+   ],
+   "evidence": [
+    {
+     "source_id": "bfz_fort_keff",
+     "quote": "The elder dragon Nicol Bolas, setting the groundwork for future plans, lures the Planeswalkers Jace Beleren and Chandra Nalaar to Zendikar in pursuit of the mysterious chamber known as the Eye of Ugin."
+    }
+   ],
+   "summary": "Bolas lured Jace and Chandra to Zendikar to seek the Eye of Ugin.",
+   "limitation": "Recap of the 2010 Rise of the Eldrazi story, reposted in 2024."
+  },
+  {
+   "id": "BZ006",
+   "subject": "nissa_revane",
+   "predicate": "freed",
+   "object": "eldrazi_titans",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "zendikar_bfz_ogw_2015",
+   "source_ids": [
+    "bfz_fort_keff"
+   ],
+   "evidence": [
+    {
+     "source_id": "bfz_fort_keff",
+     "quote": "Rather than repairing the prison, she breaks it entirely, freeing the Eldrazi Titans from their confinement."
+    }
+   ],
+   "summary": "In Rise of the Eldrazi, Nissa broke the prison at the Eye of Ugin and freed the titans.",
+   "limitation": "'she' is Nissa, named in the preceding recap sentences."
+  },
+  {
+   "id": "BZ007",
+   "subject": "gideon_jura",
+   "predicate": "sought",
+   "object": "chandra_nalaar",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "zendikar_bfz_ogw_2015",
+   "source_ids": [
+    "bfz_fort_keff"
+   ],
+   "evidence": [
+    {
+     "source_id": "bfz_fort_keff",
+     "quote": "It is during this time of crisis that Gideon Jura, who had once captured Chandra Nalaar to bring her to justice, seeks her to make amends."
+    }
+   ],
+   "summary": "Gideon, who once captured Chandra, came to Zendikar seeking her to make amends.",
+   "limitation": ""
+  },
+  {
+   "id": "BZ008",
+   "subject": "gideon_jura",
+   "predicate": "brought_to_zendikar",
+   "object": "jace_beleren",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "zendikar_bfz_ogw_2015",
+   "source_ids": [
+    "bfz_pilgrimage"
+   ],
+   "evidence": [
+    {
+     "source_id": "bfz_pilgrimage",
+     "quote": "Gideon Jura brought Jace Beleren to Zendikar in hopes that the mind mage could crack what the merfolk scholars of Sea Gate called the \"puzzle of leylines,\" the mystery of the network of stone hedrons that float in the skies of Zendikar."
+    }
+   ],
+   "summary": "Gideon brought Jace to Zendikar to solve the hedron puzzle.",
+   "limitation": ""
+  },
+  {
+   "id": "BZ009",
+   "subject": "drana",
+   "predicate": "allied_with",
+   "object": "gideon_jura",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "zendikar_bfz_ogw_2015",
+   "source_ids": [
+    "bfz_sea_gate"
+   ],
+   "evidence": [
+    {
+     "source_id": "bfz_sea_gate",
+     "quote": "Drana of House Kalastria brought vampires from Guul Draz."
+    },
+    {
+     "source_id": "bfz_sea_gate",
+     "quote": "Warriors and refugees from around the world have united under Gideon's banner."
+    }
+   ],
+   "summary": "Drana brought vampires from Guul Draz to Gideon's host for the battle of Sea Gate.",
+   "limitation": ""
+  },
+  {
+   "id": "BZ010",
+   "subject": "jace_beleren",
+   "predicate": "visited",
+   "object": "eye_of_ugin",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "zendikar_bfz_ogw_2015",
+   "source_ids": [
+    "bfz_revelation_eye"
+   ],
+   "evidence": [
+    {
+     "source_id": "bfz_revelation_eye",
+     "quote": "With all the scholarship on the subject destroyed in the fall of Sea Gate, Jace was forced to undertake a dangerous journey to the Eye of Ugin, the center of the hedron network."
+    }
+   ],
+   "summary": "Jace journeyed to the Eye of Ugin, the centre of the hedron network.",
+   "limitation": ""
+  },
+  {
+   "id": "BZ011",
+   "subject": "noyan_dar",
+   "predicate": "allied_with",
+   "object": "gideon_jura",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "zendikar_bfz_ogw_2015",
+   "source_ids": [
+    "bfz_sea_gate",
+    "bfz_shaping_army"
+   ],
+   "evidence": [
+    {
+     "source_id": "bfz_sea_gate",
+     "quote": "The roguish merfolk Noyan Dar brought a contingent of \"roilmages\" whose magic controlled the violence of Zendikar's roil."
+    },
+    {
+     "source_id": "bfz_shaping_army",
+     "quote": "Noyan Dar was once a lullmage, one of a specialized tradition of wizards who learned, through painstaking practice, to calm the fury of Zendikar."
+    }
+   ],
+   "summary": "Former lullmage Noyan Dar brought his roilmages to Gideon's army.",
+   "limitation": ""
+  },
+  {
+   "id": "BZ012",
+   "subject": "nissa_revane",
+   "predicate": "took",
+   "object": "khalni_heart",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "zendikar_bfz_ogw_2015",
+   "source_ids": [
+    "bfz_any_cost"
+   ],
+   "evidence": [
+    {
+     "source_id": "bfz_any_cost",
+     "quote": "Nissa took Khalni Heart from the demon would-be Planeswalker, repaired her own connection with Zendikar, and collapsed tons of rock and soil on him."
+    }
+   ],
+   "summary": "Nissa took the Khalni Heart from Ob Nixilis and buried him under rock.",
+   "limitation": ""
+  },
+  {
+   "id": "BZ013",
+   "subject": "nissa_revane",
+   "predicate": "opposed",
+   "object": "ob_nixilis",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "zendikar_bfz_ogw_2015",
+   "source_ids": [
+    "bfz_any_cost"
+   ],
+   "evidence": [
+    {
+     "source_id": "bfz_any_cost",
+     "quote": "Nissa took Khalni Heart from the demon would-be Planeswalker, repaired her own connection with Zendikar, and collapsed tons of rock and soil on him."
+    }
+   ],
+   "summary": "Nissa defeated Ob Nixilis and stopped him using the Khalni Heart to restore his spark.",
+   "limitation": ""
+  },
+  {
+   "id": "BZ014",
+   "subject": "gideon_jura",
+   "predicate": "led",
+   "object": "sea_gate",
+   "grade": "CANON_IMPLIED",
+   "event_stage": "zendikar_bfz_ogw_2015",
+   "source_ids": [
+    "bfz_hedron_alignment"
+   ],
+   "evidence": [
+    {
+     "source_id": "bfz_hedron_alignment",
+     "quote": "It was a trying battle, but with help and advice from trusted Zendikari advisors, Gideon led his army to a victory at Sea Gate."
+    }
+   ],
+   "summary": "Gideon led the Zendikari army to victory at Sea Gate.",
+   "limitation": "Modelled as led → Sea Gate, the battle's site; the battle itself is not a separate entity."
+  },
+  {
+   "id": "BZ015",
+   "subject": "kiora",
+   "predicate": "opposed",
+   "object": "ulamog",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "zendikar_bfz_ogw_2015",
+   "source_ids": [
+    "bfz_rise_kozilek"
+   ],
+   "evidence": [
+    {
+     "source_id": "bfz_rise_kozilek",
+     "quote": "With Ulamog rampaging across Zendikar, Kiora was inspired by the old stories of Cosi's tricks to face off against what she thinks of as Ula, god of the sea."
+    }
+   ],
+   "summary": "Kiora set out to fight Ulamog, whom she thought of as the sea-god Ula.",
+   "limitation": ""
+  },
+  {
+   "id": "BZ016",
+   "subject": "ulamog",
+   "predicate": "imprisoned_by",
+   "object": "nissa_revane",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "zendikar_bfz_ogw_2015",
+   "source_ids": [
+    "ogw_retaliation"
+   ],
+   "evidence": [
+    {
+     "source_id": "ogw_retaliation",
+     "quote": "And as of just a moment ago, Nissa had heaved the last hedron into place, trapping Ulamog, the monster that had ravaged her world."
+    }
+   ],
+   "summary": "Nissa placed the last hedron, trapping Ulamog in the hedron prison (briefly).",
+   "limitation": ""
+  },
+  {
+   "id": "BZ017",
+   "subject": "ob_nixilis",
+   "predicate": "freed",
+   "object": "ulamog",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "zendikar_bfz_ogw_2015",
+   "source_ids": [
+    "ogw_blight"
+   ],
+   "evidence": [
+    {
+     "source_id": "ogw_blight",
+     "quote": "The machinations of Ob Nixilis, the demon Planeswalker, have freed the Eldrazi titan Ulamog from its prison and summoned its fellow titan Kozilek from Zendikar's depths."
+    }
+   ],
+   "summary": "Ob Nixilis freed Ulamog from the hedron prison and summoned Kozilek.",
+   "limitation": ""
+  },
+  {
+   "id": "BZ018",
+   "subject": "ob_nixilis",
+   "predicate": "summoned",
+   "object": "kozilek",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "zendikar_bfz_ogw_2015",
+   "source_ids": [
+    "ogw_blight",
+    "ogw_flames"
+   ],
+   "evidence": [
+    {
+     "source_id": "ogw_blight",
+     "quote": "The machinations of Ob Nixilis, the demon Planeswalker, have freed the Eldrazi titan Ulamog from its prison and summoned its fellow titan Kozilek from Zendikar's depths."
+    },
+    {
+     "source_id": "ogw_flames",
+     "quote": "The demon Ob Nixilis had regained his Planeswalker spark, awakened a titan, and caused the destruction of Sea Gate."
+    }
+   ],
+   "summary": "Ob Nixilis regained his spark, awakened Kozilek and caused the destruction of Sea Gate.",
+   "limitation": ""
+  },
+  {
+   "id": "BZ019",
+   "subject": "tazri",
+   "predicate": "led",
+   "object": "zendikari_army",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "zendikar_bfz_ogw_2015",
+   "source_ids": [
+    "ogw_blight"
+   ],
+   "evidence": [
+    {
+     "source_id": "ogw_blight",
+     "quote": "The remnants of Gideon's army are now left in the hands of Tazri, a human soldier who served as the right hand of the previous commander-general of the Zendikari army, Vorik, and has been serving Gideon in the same capacity."
+    }
+   ],
+   "summary": "Tazri took command of the remnants of Gideon's army after the Planeswalkers were lost.",
+   "limitation": ""
+  },
+  {
+   "id": "BZ020",
+   "subject": "jori_en",
+   "predicate": "witnessed",
+   "object": "kozilek",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "zendikar_bfz_ogw_2015",
+   "source_ids": [
+    "ogw_beneath_surface"
+   ],
+   "evidence": [
+    {
+     "source_id": "ogw_beneath_surface",
+     "quote": "The merfolk Jori En watched from the Sea Gate's mighty wall as Kozilek rose from beneath the ground to destroy Ulamog's hedron prison."
+    }
+   ],
+   "summary": "Jori En saw Kozilek rise and destroy Ulamog's hedron prison.",
+   "limitation": ""
+  },
+  {
+   "id": "BZ021",
+   "subject": "chandra_nalaar",
+   "predicate": "freed",
+   "object": "gideon_jura",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "zendikar_bfz_ogw_2015",
+   "source_ids": [
+    "ogw_oath"
+   ],
+   "evidence": [
+    {
+     "source_id": "ogw_oath",
+     "quote": "Chandra has joined the other Planeswalkers, rescuing Gideon, Jace, and Nissa from the prison of agony in which Ob Nixilis had bound them."
+    }
+   ],
+   "summary": "Chandra rescued Gideon, Jace and Nissa from Ob Nixilis's prison.",
+   "limitation": ""
+  },
+  {
+   "id": "BZ022",
+   "subject": "gideon_jura",
+   "predicate": "founded",
+   "object": "gatewatch",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "zendikar_bfz_ogw_2015",
+   "source_ids": [
+    "ogw_oath",
+    "ogw_brink"
+   ],
+   "evidence": [
+    {
+     "source_id": "ogw_oath",
+     "quote": "This I swear: For Sea Gate, for Zendikar and all its people, for justice and peace, I will keep watch."
+    },
+    {
+     "source_id": "ogw_brink",
+     "quote": "But four Planeswalkers took an oath: to keep watch over Zendikar and the Multiverse, to run toward danger rather than away, to stand against beings like the Eldrazi that threaten to destroy what people hold dear."
+    }
+   ],
+   "summary": "Gideon, Jace, Nissa and Chandra swore the oaths that formed the Gatewatch.",
+   "limitation": "The four are founders together; the name 'Gatewatch' is used in later pages (Zendikar Resurgent)."
+  },
+  {
+   "id": "BZ023",
+   "subject": "jace_beleren",
+   "predicate": "learned_from",
+   "object": "ugin",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "zendikar_bfz_ogw_2015",
+   "source_ids": [
+    "ogw_brink"
+   ],
+   "evidence": [
+    {
+     "source_id": "ogw_brink",
+     "quote": "And Jace Beleren, with the information he gleaned from the spirit dragon Ugin, is the only person who might be able to come up with one."
+    }
+   ],
+   "summary": "Jace used what he learned from Ugin to plan the titans' defeat.",
+   "limitation": ""
+  },
+  {
+   "id": "BZ024",
+   "subject": "chandra_nalaar",
+   "predicate": "located_at",
+   "object": "regatha",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "zendikar_bfz_ogw_2015",
+   "source_ids": [
+    "bfz_promises_keep"
+   ],
+   "evidence": [
+    {
+     "source_id": "bfz_promises_keep",
+     "quote": "She remains on the plane of Regatha, where she has accepted the position of abbot for a monastery of pyromancer-monks."
+    }
+   ],
+   "summary": "Before returning to Zendikar, Chandra stayed on Regatha as abbot of the pyromancer-monks.",
+   "limitation": ""
+  },
+  {
+   "id": "BZ025",
+   "subject": "gatewatch",
+   "predicate": "destroyed",
+   "object": "eldrazi_titans",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "zendikar_bfz_ogw_2015",
+   "source_ids": [
+    "ogw_resurgent",
+    "ogw_last_stand"
+   ],
+   "evidence": [
+    {
+     "source_id": "ogw_resurgent",
+     "quote": "The Eldrazi titans have been destroyed. The world of Zendikar has been saved."
+    },
+    {
+     "source_id": "ogw_last_stand",
+     "quote": "Chandra slashed the air with arms ablaze, drawing the attention of a hundred-foot-tall, life-consuming titan."
+    }
+   ],
+   "summary": "With Chandra and Kiora's help, the four Planeswalkers destroyed Ulamog and Kozilek, saving Zendikar.",
+   "limitation": "Emrakul was not on Zendikar; 'titans' here means Ulamog and Kozilek."
+  },
+  {
+   "id": "BZ026",
+   "subject": "gideon_jura",
+   "predicate": "member_of",
+   "object": "gatewatch",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "zendikar_bfz_ogw_2015",
+   "source_ids": [
+    "ogw_resurgent"
+   ],
+   "evidence": [
+    {
+     "source_id": "ogw_resurgent",
+     "quote": "But there would be other threats to other worlds, and he had pledged to the Gatewatch to intervene where others couldn't."
+    }
+   ],
+   "summary": "Gideon pledged to the Gatewatch to intervene on other worlds.",
+   "limitation": ""
+  }
+ ],
+ "pages_registered": 19,
+ "pages_cited": 19,
+ "uncited_registered_pages": [],
+ "remaining": [
+  "Targeted: one or two claims per page, mostly from lead-in recaps; scene-level detail of each battle is not extracted",
+  "The 2010 Rise of the Eldrazi repost pages (Fort Keff and others) are covered only by their recap",
+  "Kiora's role in the final battle and Ob Nixilis's fate after OGW are not extracted"
+ ]
+}

@@ -1,0 +1,224 @@
+{
+ "schema": "story-claim-pipeline-audit/v1",
+ "pack": "data/lore_research/pack_p5_battle_for_zendikar_oath_2026-10-30.json",
+ "pack_status": "PRELIMINARY_RESEARCH (not owner approved, not certified)",
+ "arc": "BFZ/OGW",
+ "claims": 26,
+ "entities": 28,
+ "sources": 19,
+ "grades": {
+  "CANON_CONFIRMED": 25,
+  "CANON_IMPLIED": 1
+ },
+ "quotes": 34,
+ "quotes_verbatim": 34,
+ "quote_rows": [
+  {
+   "claim": "BZ001",
+   "source_id": "bfz_summary",
+   "quote_sha256": "e2cd27a6eb71f878fd134ef92acfdd6fd877ddeced69d005ce5f8c47bfed4b35",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "BZ001",
+   "source_id": "bfz_summary",
+   "quote_sha256": "058b9a3eee9db981891822c7559112bc01121242c3521be3f51ebd71fa3d7964",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "BZ002",
+   "source_id": "bfz_summary",
+   "quote_sha256": "bbfd5afdf5274525b2dd5719805863c6c8bdc4d3f3aa6644f4f3fe5434d6affb",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "BZ003",
+   "source_id": "bfz_summary",
+   "quote_sha256": "016e9d94f4f52beef9317c034f4fa5e3a8b8bf2ab68bb32a919286ae140140d1",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "BZ003",
+   "source_id": "bfz_summary",
+   "quote_sha256": "7b57247eeaa878aaeaea6f15f034135cbd1c20a64ca682796daa8ecdc6f4cb95",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "BZ004",
+   "source_id": "bfz_family_values",
+   "quote_sha256": "2769b00c7db1edd019d803df27822d5a82d076fa71e1126decf1c5ae45b0b69b",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "BZ004",
+   "source_id": "bfz_family_values",
+   "quote_sha256": "8aedfcba0f8596e75fc0b45a0491aff89549a67697e0a6942493f3cf1527c902",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "BZ005",
+   "source_id": "bfz_fort_keff",
+   "quote_sha256": "852f55540caffd78b3329dceb5b59b8eec49e9382c671e56fca7a8f01f5b475c",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "BZ006",
+   "source_id": "bfz_fort_keff",
+   "quote_sha256": "b9c1ca7504f2eb89a5126fa107cfd70305957f9a01127f857744c9340c1a9805",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "BZ007",
+   "source_id": "bfz_fort_keff",
+   "quote_sha256": "54bc885e5c2da6539ca666fcbb15d3121189ff383c2cfdff3cff11d8daa17a69",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "BZ008",
+   "source_id": "bfz_pilgrimage",
+   "quote_sha256": "0b7a6827561ab5e2bcc2a832bae807096b2a7d5a3e510f41f53cf75b6bbcf1ca",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "BZ009",
+   "source_id": "bfz_sea_gate",
+   "quote_sha256": "8817354067b715e96b9ab975ecfd74eed22df3e3b7f0f38f936d856cc2690985",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "BZ009",
+   "source_id": "bfz_sea_gate",
+   "quote_sha256": "4773d100d66d5cbf70b357f9aaf81383bb9dda91908ddfe5e48575b43ef6cbda",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "BZ010",
+   "source_id": "bfz_revelation_eye",
+   "quote_sha256": "49fa5df85b95cf0c5864892929d9bbe7425130cde7181ff7f1967335c2bb941b",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "BZ011",
+   "source_id": "bfz_sea_gate",
+   "quote_sha256": "52611145afc8509429abab88a456be928bc25df30fd01e47052b79fb98daee2f",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "BZ011",
+   "source_id": "bfz_shaping_army",
+   "quote_sha256": "b9ca9d366c2a81f47b8b789d595950705d8b7076878dd6fd8ce20c27b750c505",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "BZ012",
+   "source_id": "bfz_any_cost",
+   "quote_sha256": "f9dd4febbf59bf49ef9f52e0fe77308cdfec6bc78a5eaa24c09e764f3f59243b",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "BZ013",
+   "source_id": "bfz_any_cost",
+   "quote_sha256": "f9dd4febbf59bf49ef9f52e0fe77308cdfec6bc78a5eaa24c09e764f3f59243b",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "BZ014",
+   "source_id": "bfz_hedron_alignment",
+   "quote_sha256": "f22fef8486cf8842c2c82e8c233b7b13249c8e54424ebb494e58ef50b179c731",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "BZ015",
+   "source_id": "bfz_rise_kozilek",
+   "quote_sha256": "e2c42c65918498c96c4b9edf7ff10b066ef66ebec2bd3a29661640c16458c077",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "BZ016",
+   "source_id": "ogw_retaliation",
+   "quote_sha256": "4247502dda21aac5b1d026cc122cdc3fb150725b44f0dc220012f907baf9c1d9",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "BZ017",
+   "source_id": "ogw_blight",
+   "quote_sha256": "41d25699e00c21aa287ca1e28352ae227c5d4670385c5b42eb5f539c184f04e6",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "BZ018",
+   "source_id": "ogw_blight",
+   "quote_sha256": "41d25699e00c21aa287ca1e28352ae227c5d4670385c5b42eb5f539c184f04e6",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "BZ018",
+   "source_id": "ogw_flames",
+   "quote_sha256": "18fd4d6610b203bb2c651b1d4e9f39fea877a4a637fceb5a3f00f3a82c9c4135",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "BZ019",
+   "source_id": "ogw_blight",
+   "quote_sha256": "738b1a9ea39ce78734d8d2a99b354d0d3867eef721997628b9325e6d639b5fd3",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "BZ020",
+   "source_id": "ogw_beneath_surface",
+   "quote_sha256": "c640b1c3f5f15633cbf7338bb839bad13d8adc57c7c358b3ece07d5fd0716caf",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "BZ021",
+   "source_id": "ogw_oath",
+   "quote_sha256": "1fe3cfaa9a4d9312e047800d6efcbbc86352766bb6469c998573312c7beae073",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "BZ022",
+   "source_id": "ogw_oath",
+   "quote_sha256": "e68b33396967d12c66a50b0aa49843b46f0496f2386dd3827fcce4bd7265e43d",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "BZ022",
+   "source_id": "ogw_brink",
+   "quote_sha256": "52a97211eaf56fee2e4aee534145547bf1a4068818e17f940674cc2dd40361b0",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "BZ023",
+   "source_id": "ogw_brink",
+   "quote_sha256": "4d1211dac7c2186f654238a5621e95ab00e04e30c14b18939d5380b30fd041a0",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "BZ024",
+   "source_id": "bfz_promises_keep",
+   "quote_sha256": "c8f4101743636ffe1bf905d4f08bc14894346066bf05dc5bcdce0e5dc85231da",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "BZ025",
+   "source_id": "ogw_resurgent",
+   "quote_sha256": "039509044e659c1c8544ef1b7776a19613d98901833565d8fa03fb0ebdac5ac4",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "BZ025",
+   "source_id": "ogw_last_stand",
+   "quote_sha256": "91a2d2c7b750e5eb6dd2bafd5d7d772f902d747f8d7bb6dee553ea68515c4063",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "BZ026",
+   "source_id": "ogw_resurgent",
+   "quote_sha256": "7fefc18b9db63a68491540844a0e03c57295ee9a14bab2dd1a68390a6b858ce9",
+   "status": "VERBATIM"
+  }
+ ],
+ "problems": [],
+ "note": "Verbatim-quote audit against cached official Wizards story text. Research evidence only: not owner approval, not certification, not an exhaustive reading.",
+ "content_sha256": "f63cda06efb0483aa843757cbf9a4043e757bcaf3c02cefffc4dc599baafb117"
+}
