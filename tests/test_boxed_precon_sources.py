@@ -73,7 +73,7 @@ class BoxedTests(unittest.TestCase):
 
     def test_repeatable_and_history_preserved(self):
         self.assertEqual(A.encode(self.build()),A.encode(self.build()))
-        self.assertEqual(self.previous["cumulative_family_source_backed_codes"],71)
+        self.assertEqual(self.previous["cumulative_wizards_family_evidence_codes"],71)
         self.assertEqual(self.previous["cumulative_pending_codes"],777)
 
 if __name__=="__main__":unittest.main()
