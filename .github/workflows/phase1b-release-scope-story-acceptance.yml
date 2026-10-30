@@ -1,0 +1,37 @@
+name: Phase 1B category scope and first-party story bridge acceptance
+
+on:
+  pull_request:
+    paths:
+      - 'scripts/audit_phase1b_release_scope.py'
+      - 'data/set_atlas/phase1b_release_scope_story_bridge_2026-10-29.json'
+      - 'tests/test_phase1b_release_scope.py'
+      - 'MTG_MULTIVERSE_MASTER_WORKFLOW.md'
+      - 'SET_ATLAS.md'
+      - '.github/workflows/phase1b-release-scope-story-acceptance.yml'
+  push:
+    paths:
+      - 'scripts/audit_phase1b_release_scope.py'
+      - 'data/set_atlas/phase1b_release_scope_story_bridge_2026-10-29.json'
+      - 'tests/test_phase1b_release_scope.py'
+      - 'MTG_MULTIVERSE_MASTER_WORKFLOW.md'
+      - 'SET_ATLAS.md'
+      - '.github/workflows/phase1b-release-scope-story-acceptance.yml'
+  workflow_dispatch:
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Recompute category and official story-title link conservation
+        run: python3 scripts/audit_phase1b_release_scope.py
+      - name: Reject misleading premiere or unverified lore upgrades
+        run: python3 -m unittest discover -s tests -p 'test_phase1b_release_scope.py' -v
+      - name: Preserve full 1062-set export acceptance
+        run: python3 scripts/audit_phase1b_export_acceptance.py
+      - name: Preserve metadata category partitions
+        run: python3 scripts/audit_set_product_links.py --check

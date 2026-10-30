@@ -294,7 +294,7 @@ The old metric **293 of 848 first-party source-reviewed other-category product f
 
 An [independent deterministic read-only readiness report](data/set_atlas/phase1b_fasttrack_readiness_2026-10-29.json), from `python3 scripts/audit_phase1b_fasttrack.py`, now checks the **32 published historical lookup shard SHA-256 hashes**, 1,062 linked Scryfall metadata codes and 560 explicit `parent_set_code` references, partition counts and representative set/card lookups. Most importantly, **all 1,062 released English-paper per-set printing counts match exactly** between the historical October 28 published index and October 29 audit: **106,855 released English-paper printings at the October 29 cutoff**. Although the newer snapshot has **192 more default printing records** and **198 more English-paper records**, those 198 net English-paper entries fall entirely into future-dated *counts*. Only `pf26`, `pw26`, `sds`, `trc`, `trk` change their all-printing totals. No dated currently released inventory-count gap appears.
 
-**Unverified boundary:** This is an aggregate/per-set count comparison, **not proof of exact printing-ID equality** or a new cryptographic verification of both original bulk files. The source artifacts' previous verification remains documented; current exact-ID parity needs a separate test if required for stronger certification. Remaining fast-track gates are full 1,062-code query/export acceptance, clearly qualified mainline versus supplemental release counts, cross-references to lore only where sourced, and final CI/release evidence. Do not mark the whole Phase 1B complete before those gates pass.
+**Unverified boundary:** This is an aggregate/per-set count comparison, **not proof of exact printing-ID equality** or a new cryptographic verification of both original bulk files. The source artifacts' previous verification remains documented; current exact-ID parity needs a separate test if required for stronger certification. This v2.19 checkpoint preceded the v2.20 full-export and v2.21 category/story-series evidence below. Final release CI, a dated release report and transparent cross-snapshot ID limits remain separate gates. Do not mark Phase 1B complete merely because this preliminary audit passed.
 
 ### All-1,062-set card-list export acceptance (Master Workflow v2.20)
 
@@ -317,7 +317,36 @@ python3 scripts/export_phase1b_set_cards.py fbb --include-foreign
 
 Defaults: English-language paper printings released **on or before 2026-10-29**; `--as-of YYYY-MM-DD` changes the cutoff, and `--include-future`, `--include-digital`, `--include-foreign` explicitly expand scope. `--mode printings` exports all selected printing IDs, while `--mode unique` deduplicates selected printings by their stable Oracle identity (or an explicitly unresolved identity where applicable). Both formats retain the set code; debut versus reprint classifications use the historical index's chronology, not story chronology. The exporter does **not** claim an exact-ID match against October 29's separately archived, later bulk snapshot: that cross-snapshot boundary remains open even though released per-set printing counts agree.
 
-Reproduce the [1,062-code export acceptance report](data/set_atlas/phase1b_export_acceptance_2026-10-29.json) with `python3 scripts/audit_phase1b_export_acceptance.py`; focused CI and unit tests verify edge cases as well as full enumeration. The **555 outstanding source-pending promo/other-family research entries** remain a separate optional source-depth queue, not a release blocker or verified primary-source product inventory. Phase 1B still needs the category-labeled release interpretation, limited sourced lore references and final release gate.
+Reproduce the [1,062-code export acceptance report](data/set_atlas/phase1b_export_acceptance_2026-10-29.json) with `python3 scripts/audit_phase1b_export_acceptance.py`; focused CI and unit tests verify edge cases as well as full enumeration. The **555 outstanding source-pending promo/other-family research entries** remain a separate optional source-depth queue, not a release blocker or verified primary-source product inventory. Category labels and bounded first-party story-series links follow in v2.21 below; final release and cross-snapshot proof boundaries remain separate gates.
+
+### Every set code has an evidence-qualified release scope (Master Workflow v2.21)
+
+The [dated classification and official story-series crosswalk](data/set_atlas/phase1b_release_scope_story_bridge_2026-10-29.json) labels **every one of the 1,062 recorded set codes** with exactly one of the following scopes, reconstructing and cross-checking the existing Wizards-primary release ledgers and Scryfall Set API category partition.
+
+| Scope among all 1,062 Scryfall codes | Codes | What the label means |
+| --- | ---: | --- |
+| Historical regular/mainline expansion or core release | **136** | Primary-source-supported members of the **142-code, released, nondigital Scryfall expansion/core subset**; not a retroactive official count of every Wizards *premier* set. |
+| Directly documented auxiliary, discarded, or integrated code | **4** | `mat` epilogue, `big` integrated subset, `sum` discarded Summer Magic printing, `tsb` integrated timeshifted sheet; none silently promoted to an additional regular main release. |
+| Provisional localized printing variant | **2** | `fbb` and `4bb` have specialist corroboration but are not independently certified by a Wizards primary source as distinct regular core editions. |
+| Other released paper-category catalog code | **848** | Commander, Masters, supplementary, promotions, bonus sheets, tokens, memorabilia, and other source-specific Scryfall types. **Not 848 independent booster set releases.** |
+| Released digital-only code | **62** | Distinct catalog records without the default English-paper scope. |
+| Announced future code | **10** | Not counted as released on the October 29, 2026 snapshot cutoff. |
+| **All code records** | **1,062** | Six mutually exclusive classifications; no gaps or overlaps. |
+
+This scope audit is **a clearly labeled Scryfall-code census**, not a promise that 1,062 separately boxed products, 1,062 physical expansion sets or an all-time official Wizards "premier" count exist. Individual printing inventories, actual product quantities and story-world chronologies are separate dimensions. The **555 optional first-party source-pending other-category records** retain their historical research statuses. The full per-code JSON identifies name, category, date, Scryfall parent when explicit, graded scope and any applicable Wizards release-evidence URL.
+
+**Official story bridge:** Twelve manually scoped release codes (`bro`, `one`, `mom`, `mat`, `woe`, `lci`, `mkm`, `otj`, `blb`, `dft`, `tdm`, `eoe`) link only to **directly title-matched official Wizards Magic Story series** already present in `data/story_index.csv`. Examples: [*The Brothers' War*, Episode 1](https://magic.wizards.com/en/news/magic-story/the-brothers-war-episode-1-the-end), [*March of the Machine*, Episode 1](https://magic.wizards.com/en/news/magic-story/episode-1-triumph-of-the-fleshless), and [*Tarkir: Dragonstorm*, Episode 1](https://magic.wizards.com/en/news/magic-story/tarkir-dragonstorm-episode-1-stories-and-their-bones). The report includes published story titles, dates, official links and the number of exact-prefix stories in the recovered index. A *publication-series* association is **not** proof that an arbitrary card appears in that story, or proof that its narrative events happened in release-date order. No other set is auto-matched by a loose name similarity.
+
+To reproduce all 1,062 labels and inspect a sample story link offline:
+
+```bash
+python3 scripts/audit_phase1b_release_scope.py
+python3 scripts/audit_phase1b_release_scope.py --code bro
+python3 scripts/audit_phase1b_release_scope.py --code fbb
+python3 scripts/audit_phase1b_release_scope.py --code c21
+```
+
+The new focused CI verifies exact reproducibility, all six denominators, all 142 reviewed candidate classifications, provisional border variants, no silent promotion of supplemental products and official-story title/URL integrity. The final release/coverage gate and cross-snapshot printing-ID claim remain separately pending.
 
 ## Read-only lookups
 
