@@ -32,7 +32,11 @@ class StoryCoverageInventory(unittest.TestCase):
         arcs = {a["arc"]: a for a in self.d["arcs"]}
         self.assertEqual(arcs["MOM"]["cited_pages"], 10)  # Pack C4 cites all 10 main-story episodes
         self.assertEqual(arcs["ONE"]["status"], "ALL_PAGES_CITED")
-        self.assertEqual(arcs["KLD/AER"]["status"], "NOT_STARTED")
+        # Phase 5 bulk pipeline packs (batch 5): KLD/AER, XLN/RIX and AKH/HOU are started
+        self.assertEqual(arcs["KLD/AER"]["cited_pages"], 14)
+        self.assertEqual(arcs["XLN/RIX"]["cited_pages"], 10)
+        self.assertEqual(arcs["AKH/HOU"]["cited_pages"], 7)
+        self.assertEqual(arcs["MID/VOW"]["status"], "NOT_STARTED")
 
     def test_claim_total_matches_graph_packs(self):
         self.assertEqual(self.d["totals"]["claims"], sum(self.d["claims_per_pack"].values()))

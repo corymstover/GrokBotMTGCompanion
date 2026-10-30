@@ -11,18 +11,21 @@
    "data/lore_research/pack_c2_return_to_dominaria_2026-10-30.json",
    "data/lore_research/pack_a5_ugin_allies_2026-10-30.json",
    "data/lore_research/pack_c3_assault_on_new_phyrexia_2026-10-30.json",
-   "data/lore_research/pack_c4_march_of_the_machine_2026-10-30.json"
+   "data/lore_research/pack_c4_march_of_the_machine_2026-10-30.json",
+   "data/lore_research/pack_p5_kaladesh_aether_revolt_2026-10-30.json",
+   "data/lore_research/pack_p5_ixalan_rivals_2026-10-30.json",
+   "data/lore_research/pack_p5_amonkhet_hour_of_devastation_2026-10-30.json"
   ]
  },
  "meaning": "cited = a claim pack quotes or cites the page at least once; it does not mean the page was read exhaustively",
  "totals": {
   "arcs": 33,
   "pages": 626,
-  "cited_pages": 57,
-  "arcs_not_started": 23,
-  "arcs_partial": 9,
+  "cited_pages": 88,
+  "arcs_not_started": 20,
+  "arcs_partial": 12,
   "arcs_all_cited": 1,
-  "claims": 173,
+  "claims": 231,
   "pack_urls_outside_inventory": 12
  },
  "claims_per_pack": {
@@ -34,33 +37,31 @@
   "pack_c2_return_to_dominaria_2026-10-30.json": 39,
   "pack_a5_ugin_allies_2026-10-30.json": 16,
   "pack_c3_assault_on_new_phyrexia_2026-10-30.json": 19,
-  "pack_c4_march_of_the_machine_2026-10-30.json": 21
+  "pack_c4_march_of_the_machine_2026-10-30.json": 21,
+  "pack_p5_kaladesh_aether_revolt_2026-10-30.json": 25,
+  "pack_p5_ixalan_rivals_2026-10-30.json": 16,
+  "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json": 17
  },
  "arcs": [
   {
    "arc": "AKH/HOU",
    "pages": 16,
-   "cited_pages": 0,
+   "cited_pages": 7,
    "kinds": {
     "story": 16
    },
-   "citing_packs": [],
-   "status": "NOT_STARTED",
+   "citing_packs": [
+    "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json"
+   ],
+   "status": "PARTIAL",
    "uncited_urls": [
     "https://magic.wizards.com/en/news/magic-story/brazen-2017-05-03",
     "https://magic.wizards.com/en/news/magic-story/endure-2017-07-19",
-    "https://magic.wizards.com/en/news/magic-story/favor-2017-07-05",
-    "https://magic.wizards.com/en/news/magic-story/feast-2017-06-14",
-    "https://magic.wizards.com/en/news/magic-story/hand-moves-2017-04-26",
-    "https://magic.wizards.com/en/news/magic-story/hour-devastation-2017-07-26",
-    "https://magic.wizards.com/en/news/magic-story/hour-eternity-2017-07-12",
     "https://magic.wizards.com/en/news/magic-story/hour-glory-2017-06-21",
     "https://magic.wizards.com/en/news/magic-story/hour-promise-2017-06-28",
     "https://magic.wizards.com/en/news/magic-story/hour-revelation-2017-06-07",
     "https://magic.wizards.com/en/news/magic-story/judgment-2017-05-17",
-    "https://magic.wizards.com/en/news/magic-story/servants-2017-04-19",
     "https://magic.wizards.com/en/news/magic-story/trespass-2017-05-10",
-    "https://magic.wizards.com/en/news/magic-story/trust-2017-04-05",
     "https://magic.wizards.com/en/news/magic-story/writing-wall-2017-04-12",
     "https://magic.wizards.com/en/story/amonkhet-plane"
    ]
@@ -330,31 +331,19 @@
   {
    "arc": "KLD/AER",
    "pages": 17,
-   "cited_pages": 0,
+   "cited_pages": 14,
    "kinds": {
     "planeswalkers-guide": 1,
     "story": 16
    },
-   "citing_packs": [],
-   "status": "NOT_STARTED",
+   "citing_packs": [
+    "pack_p5_kaladesh_aether_revolt_2026-10-30.json"
+   ],
+   "status": "PARTIAL",
    "uncited_urls": [
     "https://magic.wizards.com/en/news/magic-story/born-aether-2016-09-21",
-    "https://magic.wizards.com/en/news/magic-story/bottled-2016-09-28",
-    "https://magic.wizards.com/en/news/magic-story/breaking-points-2017-01-18",
-    "https://magic.wizards.com/en/news/magic-story/breakthrough-2016-12-14",
-    "https://magic.wizards.com/en/news/magic-story/grateful-consulate-2016-10-19",
-    "https://magic.wizards.com/en/news/magic-story/homesick-2016-08-29",
-    "https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-kaladesh-2016-11-02",
-    "https://magic.wizards.com/en/news/magic-story/puppets-2017-01-25",
     "https://magic.wizards.com/en/news/magic-story/quiet-moments-2016-12-07",
-    "https://magic.wizards.com/en/news/magic-story/release-2016-10-05",
-    "https://magic.wizards.com/en/news/magic-story/renegade-prime-2016-09-14",
-    "https://magic.wizards.com/en/news/magic-story/renewal-2017-02-01",
-    "https://magic.wizards.com/en/news/magic-story/revolution-begins-2017-01-02",
-    "https://magic.wizards.com/en/news/magic-story/skies-over-ghirapur-2017-01-11",
-    "https://magic.wizards.com/en/news/magic-story/time-innovation-2016-08-31",
-    "https://magic.wizards.com/en/news/magic-story/torch-defiance-2016-09-07",
-    "https://magic.wizards.com/en/news/magic-story/very-arena-2016-10-12"
+    "https://magic.wizards.com/en/news/magic-story/time-innovation-2016-08-31"
    ]
   },
   {
@@ -718,30 +707,22 @@
   {
    "arc": "XLN/RIX",
    "pages": 17,
-   "cited_pages": 0,
+   "cited_pages": 10,
    "kinds": {
     "planeswalkers-guide": 2,
     "story": 15
    },
-   "citing_packs": [],
-   "status": "NOT_STARTED",
+   "citing_packs": [
+    "pack_p5_ixalan_rivals_2026-10-30.json"
+   ],
+   "status": "PARTIAL",
    "uncited_urls": [
     "https://magic.wizards.com/en/news/feature/planeswalkers-guide-ixalan-part-1-2017-11-01",
     "https://magic.wizards.com/en/news/feature/planeswalkers-guide-ixalan-part-2-2017-11-08",
-    "https://magic.wizards.com/en/news/magic-story/arbiter-law-left-chaos-his-wake-2018-01-24",
-    "https://magic.wizards.com/en/news/magic-story/flood-2018-01-10",
-    "https://magic.wizards.com/en/news/magic-story/glimpse-far-side-sun-2018-01-17",
-    "https://magic.wizards.com/en/news/magic-story/jace-alone-2017-09-06",
-    "https://magic.wizards.com/en/news/magic-story/question-confidence-2017-09-13",
     "https://magic.wizards.com/en/news/magic-story/race-part-1-2017-10-11",
     "https://magic.wizards.com/en/news/magic-story/race-part-2-2017-10-18",
-    "https://magic.wizards.com/en/news/magic-story/rivals-ixalan-magic-story-alternate-endings-2018-02-21",
-    "https://magic.wizards.com/en/news/magic-story/sabotage-2018-01-31",
     "https://magic.wizards.com/en/news/magic-story/shapers-2017-09-27",
     "https://magic.wizards.com/en/news/magic-story/something-else-entirely-2017-10-04",
-    "https://magic.wizards.com/en/news/magic-story/talented-captain-vraska-2017-09-20",
-    "https://magic.wizards.com/en/news/magic-story/who-tells-stories-2018-02-07",
-    "https://magic.wizards.com/en/news/magic-story/wool-over-eyes-2018-02-14",
     "https://magic.wizards.com/en/story/ixalan-plane"
    ]
   },
@@ -1055,5 +1036,5 @@
    ]
   }
  ],
- "sha256": "bbf1b45d4392c9e6aa9aad87a59dc2dc0de866e96a679e1c39d04f4dba683182"
+ "sha256": "c3dbfc3f2836cdd011d7c44ea5b53f50f7823c5284beaefb6ca62aae0793e906"
 }

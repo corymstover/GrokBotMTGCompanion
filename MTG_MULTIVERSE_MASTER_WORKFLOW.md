@@ -1,6 +1,6 @@
 # MTG Multiverse Companion — Master Workflow & Progress Checklist
 
-**Version:** 2.31
+**Version:** 2.32
 **Checkpoint date:** 2026-10-30
 **Repository:** [corymstover/GrokBotMTGCompanion](https://github.com/corymstover/GrokBotMTGCompanion)  
 **Purpose:** Durable project roadmap and handoff document. Update this file after verified milestone work; do not treat historical figures as live counters.
@@ -246,13 +246,13 @@ Infrastructure checkpoint: [PR #783](https://github.com/corymstover/GrokBotMTGCo
 ## Phase 5 — Full-history and plane-by-plane expansion
 
 - [ ] Expand the Mending, major planeswalkers and the Gatewatch.
-- [ ] Expand Bolas's schemes and the War of the Spark.
+- [ ] Expand Bolas's schemes and the War of the Spark. *(Partial, 2026-10-30 Batch 5: a reusable bulk claim-pack pipeline, `scripts/story_claim_pipeline.py`, builds packs from one spec file each in `data/lore_research/claim_specs/`. It gates every quote verbatim (whitespace-normalized) against the cached official page, enforces the closed grade set and requires a limitation for any non-CONFIRMED claim. It also checks that every page is a Wizards page tagged with the spec's arc, and writes a self-hashed audit. CI runs `story_claim_pipeline.py check`, which rebuilds each pack from its spec and verifies the quote hashes without the cache. Three PRELIMINARY_RESEARCH packs were added: KLD/AER, 25 claims (Pia, Baral, Tezzeret, the Planar Bridge, Ajani joining the Gatewatch); XLN/RIX, 16 claims (Azor's Immortal Sun built to imprison Bolas, Bolas hiring Vraska, Huatli meeting Saheeli); and AKH/HOU, 17 claims (the God-Pharaoh, Liliana killing Razaketh, the Gatewatch's defeat, Bolas taking the Planar Bridge). In total: 58 claims, 75/75 quotes verbatim, 31 official pages. Non-canon Rivals alternate endings are graded ALTERNATE_CONTINUITY. Targeted extraction, not exhaustive, and not owner approved.)*
 - [ ] Expand Mirrodin/New Phyrexia and March of the Machine. *(Partial: targeted Packs C3 and C4 cover the main-story episodes; side stories and an exhaustive pass are still open, so this stays unchecked.)*
 - [ ] Expand Omenpaths and later canonical stories.
 - [ ] Audit major planes, regions, factions, artifacts and overlooked characters.
 - [ ] Connect cross-plane histories and document contradictions/retcons.
 - [ ] Use the Phase 1B Set & Printing Atlas to navigate published sets and storylines while keeping real-world release dates separate from in-universe event order.
-- [ ] Maintain an explicit coverage/gaps inventory as new sets and stories arrive. *(Started 2026-10-30, Batch 4: `scripts/build_story_coverage_inventory.py` generates `data/lore_research/story_coverage_inventory_2026-10-30.json` from the 626-page `primary_sources.csv` and the 9 graph claim packs, and CI rebuilds and compares it. Claim packs cite 57 of the 626 pages. Of the 33 arc buckets, 1 has every page cited (ONE, 6/6), 9 are partial (MOM 10/11, DOM/WAR 12/18, BRO 4/10, BFZ/OGW 3/19, TDM 2/14, SOI/EMN 1/21, DMU 1/6, ECL 1/12, untagged 17/305) and 23 are not started, including KLD/AER, AKH/HOU, XLN/RIX, EOE and RF. "Cited" means the page is used at least once, not that it was read exhaustively. The box stays unchecked because the inventory still has to be refreshed when new stories arrive.)*
+- [ ] Maintain an explicit coverage/gaps inventory as new sets and stories arrive. *(Started 2026-10-30, Batch 4: `scripts/build_story_coverage_inventory.py` generates `data/lore_research/story_coverage_inventory_2026-10-30.json` from the 626-page `primary_sources.csv` and the 9 graph claim packs, and CI rebuilds and compares it. Claim packs cite 57 of the 626 pages. Of the 33 arc buckets, 1 has every page cited (ONE, 6/6), 9 are partial (MOM 10/11, DOM/WAR 12/18, BRO 4/10, BFZ/OGW 3/19, TDM 2/14, SOI/EMN 1/21, DMU 1/6, ECL 1/12, untagged 17/305) and 23 are not started, including KLD/AER, AKH/HOU, XLN/RIX, EOE and RF. "Cited" means the page is used at least once, not that it was read exhaustively. The box stays unchecked because the inventory still has to be refreshed when new stories arrive. **Batch 5 refresh:** 12 claim packs and 231 claims now cite 88 of the 626 pages. 1 arc is fully cited, 12 are partial (now including KLD/AER 14/17, XLN/RIX 10/17 and AKH/HOU 7/16), and 20 are not started.)*
 
 ## Phase 6 — Lore-first Commander deckbuilding engine
 
