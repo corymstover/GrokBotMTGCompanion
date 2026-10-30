@@ -1,0 +1,2622 @@
+{
+ "claim_pack_consistency": {
+  "claims_with_undeclared_subject": [
+   {
+    "claim": "A013",
+    "kind": "DECLARED_IN_ANOTHER_PACK",
+    "pack": "pack_a_elder_dragon_war_extension_2026-10-30.json",
+    "role": "subject",
+    "token": "ugin"
+   },
+   {
+    "claim": "A015",
+    "kind": "DECLARED_IN_ANOTHER_PACK",
+    "pack": "pack_a_elder_dragon_war_extension_2026-10-30.json",
+    "role": "subject",
+    "token": "nicol_bolas"
+   },
+   {
+    "claim": "A017",
+    "kind": "DECLARED_IN_ANOTHER_PACK",
+    "pack": "pack_a_elder_dragon_war_extension_2026-10-30.json",
+    "role": "subject",
+    "token": "nicol_bolas"
+   },
+   {
+    "claim": "A025",
+    "kind": "DECLARED_IN_ANOTHER_PACK",
+    "pack": "pack_a_tarkir_card_scenes_2026-10-30.json",
+    "role": "subject",
+    "token": "sarkhan_vol"
+   },
+   {
+    "claim": "A026",
+    "kind": "DECLARED_IN_ANOTHER_PACK",
+    "pack": "pack_a_tarkir_card_scenes_2026-10-30.json",
+    "role": "subject",
+    "token": "nicol_bolas"
+   },
+   {
+    "claim": "A028",
+    "kind": "DECLARED_IN_ANOTHER_PACK",
+    "pack": "pack_a_tarkir_card_scenes_2026-10-30.json",
+    "role": "subject",
+    "token": "sarkhan_vol"
+   },
+   {
+    "claim": "C023",
+    "kind": "COMPOUND_SUBJECT_BECAME_LITERAL",
+    "pack": "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json",
+    "role": "subject",
+    "token": "urza;mishra"
+   }
+  ],
+  "declared_local_ids": 833,
+  "name_variants_same_id": [
+   {
+    "local_id": "ajani",
+    "names": [
+     "Ajani",
+     "Ajani Goldmane"
+    ]
+   },
+   {
+    "local_id": "consulate",
+    "names": [
+     "Consulate",
+     "Consulate of Kaladesh"
+    ]
+   },
+   {
+    "local_id": "gerrard",
+    "names": [
+     "Gerrard",
+     "Gerrard Capashen"
+    ]
+   },
+   {
+    "local_id": "golgari",
+    "names": [
+     "Golgari",
+     "Golgari Swarm"
+    ]
+   },
+   {
+    "local_id": "marchesa",
+    "names": [
+     "Marchesa",
+     "Queen Marchesa"
+    ]
+   },
+   {
+    "local_id": "maree",
+    "names": [
+     "Chamberlain Maree",
+     "Maree"
+    ]
+   },
+   {
+    "local_id": "mirrodin",
+    "names": [
+     "Mirrodin",
+     "Mirrodin / New Phyrexia"
+    ]
+   },
+   {
+    "local_id": "nahiri",
+    "names": [
+     "Nahiri",
+     "Nahiri, the Lithomancer"
+    ]
+   },
+   {
+    "local_id": "ob_nixilis",
+    "names": [
+     "Ob Nixilis",
+     "Ob Nixilis (the Adversary)"
+    ]
+   },
+   {
+    "local_id": "old_phyrexia",
+    "names": [
+     "Old Phyrexia",
+     "Phyrexia"
+    ]
+   },
+   {
+    "local_id": "quintorius",
+    "names": [
+     "Quintorius",
+     "Quintorius Kand"
+    ]
+   },
+   {
+    "local_id": "rakdos_cult",
+    "names": [
+     "Cult of Rakdos",
+     "Rakdos Cult"
+    ]
+   },
+   {
+    "local_id": "renegades_kaladesh",
+    "names": [
+     "Renegades (Kaladesh)",
+     "Renegades of Kaladesh"
+    ]
+   },
+   {
+    "local_id": "saheeli",
+    "names": [
+     "Saheeli",
+     "Saheeli Rai"
+    ]
+   },
+   {
+    "local_id": "surrak",
+    "names": [
+     "Surrak",
+     "Surrak Dragonclaw"
+    ]
+   },
+   {
+    "local_id": "tam",
+    "names": [
+     "Tam",
+     "Tam (Tamira)"
+    ]
+   },
+   {
+    "local_id": "the_wanderer",
+    "names": [
+     "The Wanderer",
+     "The Wanderer (Emperor of Kamigawa)"
+    ]
+   },
+   {
+    "local_id": "theros_underworld",
+    "names": [
+     "Theros Underworld",
+     "Underworld (Theros)"
+    ]
+   },
+   {
+    "local_id": "ugin",
+    "names": [
+     "Ugin",
+     "Ugin, the Spirit Dragon"
+    ]
+   },
+   {
+    "local_id": "weatherlight",
+    "names": [
+     "Weatherlight",
+     "Weatherlight (skyship)"
+    ]
+   },
+   {
+    "local_id": "zendikar_vampires",
+    "names": [
+     "Zendikar vampires",
+     "Zendikar's vampires"
+    ]
+   },
+   {
+    "local_id": "zurgo",
+    "names": [
+     "Zurgo",
+     "Zurgo Helmsmasher"
+    ]
+   }
+  ],
+  "type_conflicts": []
+ },
+ "duplicate_candidates": {
+  "character_alias_candidates": [
+   {
+    "long": "character:einolf_brandt",
+    "short": "character:brandt",
+    "status": "REVIEW_ONLY_NOT_MERGED"
+   },
+   {
+    "long": "character:noyan_dar",
+    "short": "character:dar",
+    "status": "REVIEW_ONLY_NOT_MERGED"
+   },
+   {
+    "long": "character:iris_oracle",
+    "short": "character:ephara",
+    "status": "REVIEW_ONLY_NOT_MERGED"
+   },
+   {
+    "long": "character:teysa_karlov",
+    "short": "character:karlov",
+    "status": "REVIEW_ONLY_NOT_MERGED"
+   },
+   {
+    "long": "character:kellan_boldt",
+    "short": "character:kellan",
+    "status": "REVIEW_ONLY_NOT_MERGED"
+   },
+   {
+    "long": "character:oba",
+    "short": "character:trostani",
+    "status": "REVIEW_ONLY_NOT_MERGED"
+   }
+  ],
+  "same_name_different_type": [],
+  "same_name_same_family": []
+ },
+ "findings": [
+  "Two lore graphs coexist by design: data/lore_graph.json (legacy curated Markdown navigation, page#anchor IDs, contextual_pointer tier) and data/multiverse_graph (claim-graded, cited). The multiverse graph is the relationship layer; the legacy graph is bridged via curated: Concept nodes. No new entity schema is needed.",
+  "1 Card node(s) lack an oracle_id: card:anointed_procession_anointed_procession",
+  "0 same-name/same-family ID groups and 6 character alias candidates need review; none were merged.",
+  "Legacy crosswalk: {'BRIDGED': 120, 'CANDIDATE_BY_FIRST_WORD': 15, 'LEGACY_ONLY': 34, 'MATCH_VIA_DECLARED_NAME_VARIANT': 10, 'NORMALISED_MATCH_NOT_BRIDGED': 5}. CANDIDATE_BY_FIRST_WORD rows are review-only.",
+  "Claim subjects that did not resolve to an entity: C023 'urza;mishra' (COMPOUND_SUBJECT_BECAME_LITERAL)",
+  "22 pack-local IDs carry differing display names across packs; the graph keeps the first-ingested name, so exact-name bridges can miss the others."
+ ],
+ "graph_integrity": {
+  "builder_problems": [],
+  "cards_without_oracle_id": [
+   "card:anointed_procession_anointed_procession"
+  ],
+  "dangling_edges": 0,
+  "duplicate_ids": [],
+  "edges": 6826,
+  "literal_objects": [
+   "Karn's planeswalker spark",
+   "Knight of Benalia turned vampire",
+   "Luti",
+   "Phyrexian base",
+   "Urza (per Karn)",
+   "Winged angelic form",
+   "merfolk",
+   "planeswalker_spark",
+   "planeswalking",
+   "pre_duel_time_travel",
+   "soul-drinker",
+   "ugin_grave_site",
+   "unknown",
+   "unknown_planeswalker",
+   "urza;mishra"
+  ],
+  "nodes": 4227,
+  "orphan_nodes": [
+   "artifact:great_henge",
+   "character:eric_kenrith",
+   "character:hazel_kenrith",
+   "event:dragonstorm_escape",
+   "event:last_battle_argoth",
+   "event:original_tarkir_clash",
+   "event:tarkir_rewrite",
+   "event:war_of_the_spark_end",
+   "faction:cabaretti",
+   "place:ardenvale",
+   "place:riders_lock",
+   "place:sotheran_supervoid",
+   "source:dmu_notes",
+   "source:m19_design",
+   "source:m19_notes",
+   "source:one_ep1"
+  ],
+  "prefix_type_mismatches": []
+ },
+ "inventory": [
+  {
+   "by_type": {
+    "AlternateContinuity": 1,
+    "Card": 1516,
+    "CardTheme": 1,
+    "Character": 482,
+    "Claim": 1139,
+    "Concept": 145,
+    "DeckProposal": 3,
+    "Event": 22,
+    "Faction": 125,
+    "Literal": 15,
+    "Object": 50,
+    "Place": 95,
+    "Plane": 33,
+    "Source": 600
+   },
+   "count": 4227,
+   "exists": true,
+   "generator": "scripts/build_multiverse_graph.py",
+   "id_scheme": "<type-prefix>:<pack-local-id or slug>",
+   "path": "data/multiverse_graph/multiverse_graph.json",
+   "role": "CANONICAL_RELATIONSHIP_GRAPH",
+   "schema": "multiverse-claim-graph/v1"
+  },
+  {
+   "by_type": {
+    "arc": 40,
+    "card_reference": 128,
+    "character": 78,
+    "dossier": 38,
+    "era": 7,
+    "item": 26,
+    "page_reference": 14,
+    "plane": 42,
+    "retcon": 29,
+    "summary": 20
+   },
+   "count": 422,
+   "exists": true,
+   "generator": "scripts/build_lore_graph.py",
+   "id_scheme": "<Markdown page>#<anchor>",
+   "path": "data/lore_graph.json",
+   "role": "LEGACY_CURATED_NAVIGATION_GRAPH",
+   "schema": "lore-evidence-graph/v1"
+  },
+  {
+   "by_type": {
+    "arc": 40,
+    "character": 78,
+    "dossier": 38,
+    "era": 7,
+    "item": 26,
+    "plane": 42,
+    "retcon": 29,
+    "summary": 20
+   },
+   "count": 280,
+   "exists": true,
+   "generator": "scripts/build_lore_index.py",
+   "id_scheme": "page + anchor",
+   "path": "data/lore_entries.json",
+   "role": "LEGACY_CURATED_LORE_INDEX",
+   "schema": null
+  },
+  {
+   "count": 477,
+   "exists": true,
+   "generator": "scripts/kb_find.py --build",
+   "id_scheme": "page/deck/lore entry",
+   "path": "data/kb_index.json",
+   "role": "KEYWORD_SEARCH_INDEX",
+   "schema": 2
+  },
+  {
+   "count": 8992,
+   "exists": true,
+   "generator": "scripts/build_crossrefs.py",
+   "id_scheme": "card name",
+   "note": "bulk 2026-10-16",
+   "path": "data/card_refs.json",
+   "role": "CARD_NAME_CROSSREFS",
+   "schema": null
+  },
+  {
+   "count": 5362,
+   "exists": true,
+   "generator": "scripts/build_card_enrichment.py",
+   "id_scheme": "card name / oracle",
+   "path": "data/card_enrichment.json",
+   "role": "CARD_ENRICHMENT (read-only here)",
+   "schema": null
+  },
+  {
+   "count": 40,
+   "exists": true,
+   "generator": "curated",
+   "id_scheme": "card name",
+   "path": "data/card_lore_notes.json",
+   "role": "CURATED_CARD_NOTES",
+   "schema": null
+  },
+  {
+   "count": 2,
+   "exists": true,
+   "generator": "lore deck tooling",
+   "id_scheme": "deck number/slug",
+   "path": "data/lore_decks/lore_decks.json",
+   "role": "LORE_DECK_REGISTRY (read-only)",
+   "schema": null
+  },
+  {
+   "count": 1060,
+   "exists": true,
+   "generator": "story caption builder",
+   "id_scheme": "page url + card name",
+   "path": "data/story_atlas/story_art_captions_2026-10-30.json",
+   "role": "STORY_ART_CAPTIONS",
+   "schema": "story-art-captions/v1"
+  },
+  {
+   "count": 1454,
+   "exists": false,
+   "generator": "scripts/story_claim_pipeline.py and per-pack builders",
+   "id_scheme": "pack-local snake_case id, merged globally by the graph builder",
+   "packs": 66,
+   "path": "data/lore_research/pack_*.json (manifest claim_packs)",
+   "role": "CLAIM_PACK_ENTITY_DECLARATIONS",
+   "schema": "claim-pack (various v1)"
+  },
+  {
+   "exists": true,
+   "generator": "overlay builder",
+   "id_scheme": "oracle_id / card name -> graph id",
+   "path": "data/lore_research/card_lore_links_2026-10-30.json",
+   "role": "CARD_TO_LORE_OVERLAY",
+   "schema": "card-lore-links/v1"
+  },
+  {
+   "exists": true,
+   "generator": "overlay builder",
+   "id_scheme": "oracle_id / card name -> graph id",
+   "path": "data/lore_research/flavor_lore_links_2026-10-30.json",
+   "role": "CARD_TO_LORE_OVERLAY",
+   "schema": "flavor-lore-links/v1"
+  },
+  {
+   "exists": true,
+   "generator": "overlay builder",
+   "id_scheme": "oracle_id / card name -> graph id",
+   "path": "data/lore_research/card_name_anchors_2026-10-30.json",
+   "role": "CARD_TO_LORE_OVERLAY",
+   "schema": "card-name-anchors/v1"
+  },
+  {
+   "exists": true,
+   "generator": "overlay builder",
+   "id_scheme": "oracle_id / card name -> graph id",
+   "path": "data/lore_research/claim_card_anchors_2026-10-30.json",
+   "role": "CARD_TO_LORE_OVERLAY",
+   "schema": "claim-card-anchors/v1"
+  }
+ ],
+ "legacy_crosswalk": {
+  "by_status": {
+   "BRIDGED": 120,
+   "CANDIDATE_BY_FIRST_WORD": 15,
+   "LEGACY_ONLY": 34,
+   "MATCH_VIA_DECLARED_NAME_VARIANT": 10,
+   "NORMALISED_MATCH_NOT_BRIDGED": 5
+  },
+  "rows": [
+   {
+    "bridged_in_graph": false,
+    "declared_name_variant_matches": [
+     "character:ajani"
+    ],
+    "first_word_candidates": [],
+    "graph_matches": [],
+    "kind": "character",
+    "legacy_id": "Characters Index.md#ajani-goldmane",
+    "name": "Ajani Goldmane",
+    "status": "MATCH_VIA_DECLARED_NAME_VARIANT"
+   },
+   {
+    "bridged_in_graph": true,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "character:angrath"
+    ],
+    "kind": "character",
+    "legacy_id": "Characters Index.md#angrath",
+    "name": "Angrath",
+    "status": "BRIDGED"
+   },
+   {
+    "bridged_in_graph": true,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "character:arlinn_kord"
+    ],
+    "kind": "character",
+    "legacy_id": "Characters Index.md#arlinn-kord",
+    "name": "Arlinn Kord",
+    "status": "BRIDGED"
+   },
+   {
+    "bridged_in_graph": true,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "character:ashiok"
+    ],
+    "kind": "character",
+    "legacy_id": "Characters Index.md#ashiok",
+    "name": "Ashiok",
+    "status": "BRIDGED"
+   },
+   {
+    "bridged_in_graph": true,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "character:basri_ket"
+    ],
+    "kind": "character",
+    "legacy_id": "Characters Index.md#basri-ket",
+    "name": "Basri Ket",
+    "status": "BRIDGED"
+   },
+   {
+    "bridged_in_graph": true,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "character:calix"
+    ],
+    "kind": "character",
+    "legacy_id": "Characters Index.md#calix",
+    "name": "Calix",
+    "status": "BRIDGED"
+   },
+   {
+    "bridged_in_graph": true,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "character:chandra_nalaar"
+    ],
+    "kind": "character",
+    "legacy_id": "Characters Index.md#chandra-nalaar",
+    "name": "Chandra Nalaar",
+    "status": "BRIDGED"
+   },
+   {
+    "bridged_in_graph": true,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "character:dack_fayden"
+    ],
+    "kind": "character",
+    "legacy_id": "Characters Index.md#dack-fayden",
+    "name": "Dack Fayden",
+    "status": "BRIDGED"
+   },
+   {
+    "bridged_in_graph": true,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "character:dakkon"
+    ],
+    "kind": "character",
+    "legacy_id": "Characters Index.md#dakkon-blackblade",
+    "name": "Dakkon Blackblade",
+    "status": "BRIDGED"
+   },
+   {
+    "bridged_in_graph": true,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "character:daretti"
+    ],
+    "kind": "character",
+    "legacy_id": "Characters Index.md#daretti",
+    "name": "Daretti",
+    "status": "BRIDGED"
+   },
+   {
+    "bridged_in_graph": false,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [],
+    "kind": "character",
+    "legacy_id": "Characters Index.md#davriel-cane",
+    "name": "Davriel Cane",
+    "status": "LEGACY_ONLY"
+   },
+   {
+    "bridged_in_graph": true,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "character:domri_rade"
+    ],
+    "kind": "character",
+    "legacy_id": "Characters Index.md#domri-rade",
+    "name": "Domri Rade",
+    "status": "BRIDGED"
+   },
+   {
+    "bridged_in_graph": true,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "character:dovin_baan"
+    ],
+    "kind": "character",
+    "legacy_id": "Characters Index.md#dovin-baan",
+    "name": "Dovin Baan",
+    "status": "BRIDGED"
+   },
+   {
+    "bridged_in_graph": true,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "character:elesh_norn"
+    ],
+    "kind": "character",
+    "legacy_id": "Characters Index.md#elesh-norn",
+    "name": "Elesh Norn",
+    "status": "BRIDGED"
+   },
+   {
+    "bridged_in_graph": true,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "character:elspeth_tirel"
+    ],
+    "kind": "character",
+    "legacy_id": "Characters Index.md#elspeth-tirel",
+    "name": "Elspeth Tirel",
+    "status": "BRIDGED"
+   },
+   {
+    "bridged_in_graph": false,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [],
+    "kind": "character",
+    "legacy_id": "Characters Index.md#freyalise",
+    "name": "Freyalise",
+    "status": "LEGACY_ONLY"
+   },
+   {
+    "bridged_in_graph": true,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "character:garruk_wildspeaker"
+    ],
+    "kind": "character",
+    "legacy_id": "Characters Index.md#garruk-wildspeaker",
+    "name": "Garruk Wildspeaker",
+    "status": "BRIDGED"
+   },
+   {
+    "bridged_in_graph": true,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "character:geyadrone_dihada"
+    ],
+    "kind": "character",
+    "legacy_id": "Characters Index.md#geyadrone-dihada",
+    "name": "Geyadrone Dihada",
+    "status": "BRIDGED"
+   },
+   {
+    "bridged_in_graph": true,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "character:gideon_jura"
+    ],
+    "kind": "character",
+    "legacy_id": "Characters Index.md#gideon-jura",
+    "name": "Gideon Jura",
+    "status": "BRIDGED"
+   },
+   {
+    "bridged_in_graph": false,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [],
+    "kind": "character",
+    "legacy_id": "Characters Index.md#grist",
+    "name": "Grist",
+    "status": "LEGACY_ONLY"
+   },
+   {
+    "bridged_in_graph": true,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "character:helga"
+    ],
+    "kind": "character",
+    "legacy_id": "Characters Index.md#helga",
+    "name": "Helga",
+    "status": "BRIDGED"
+   },
+   {
+    "bridged_in_graph": true,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "character:huatli"
+    ],
+    "kind": "character",
+    "legacy_id": "Characters Index.md#huatli",
+    "name": "Huatli",
+    "status": "BRIDGED"
+   },
+   {
+    "bridged_in_graph": true,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "character:jace_beleren"
+    ],
+    "kind": "character",
+    "legacy_id": "Characters Index.md#jace-beleren",
+    "name": "Jace Beleren",
+    "status": "BRIDGED"
+   },
+   {
+    "bridged_in_graph": true,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "character:jaya_ballard"
+    ],
+    "kind": "character",
+    "legacy_id": "Characters Index.md#jaya-ballard",
+    "name": "Jaya Ballard",
+    "status": "BRIDGED"
+   },
+   {
+    "bridged_in_graph": false,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [],
+    "kind": "character",
+    "legacy_id": "Characters Index.md#jiang-yanggu",
+    "name": "Jiang Yanggu",
+    "status": "LEGACY_ONLY"
+   },
+   {
+    "bridged_in_graph": true,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "character:jin_gitaxias"
+    ],
+    "kind": "character",
+    "legacy_id": "Characters Index.md#jin-gitaxias",
+    "name": "Jin-Gitaxias",
+    "status": "BRIDGED"
+   },
+   {
+    "bridged_in_graph": true,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "character:kaito"
+    ],
+    "kind": "character",
+    "legacy_id": "Characters Index.md#kaito-shizuki",
+    "name": "Kaito Shizuki",
+    "status": "BRIDGED"
+   },
+   {
+    "bridged_in_graph": true,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "character:karn"
+    ],
+    "kind": "character",
+    "legacy_id": "Characters Index.md#karn",
+    "name": "Karn",
+    "status": "BRIDGED"
+   },
+   {
+    "bridged_in_graph": true,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "character:kasmina"
+    ],
+    "kind": "character",
+    "legacy_id": "Characters Index.md#kasmina",
+    "name": "Kasmina",
+    "status": "BRIDGED"
+   },
+   {
+    "bridged_in_graph": true,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "character:kaya"
+    ],
+    "kind": "character",
+    "legacy_id": "Characters Index.md#kaya",
+    "name": "Kaya",
+    "status": "BRIDGED"
+   },
+   {
+    "bridged_in_graph": true,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "character:kellan"
+    ],
+    "kind": "character",
+    "legacy_id": "Characters Index.md#kellan",
+    "name": "Kellan",
+    "status": "BRIDGED"
+   },
+   {
+    "bridged_in_graph": true,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "character:kiora"
+    ],
+    "kind": "character",
+    "legacy_id": "Characters Index.md#kiora",
+    "name": "Kiora",
+    "status": "BRIDGED"
+   },
+   {
+    "bridged_in_graph": false,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [
+     "character:kirol"
+    ],
+    "graph_matches": [],
+    "kind": "character",
+    "legacy_id": "Characters Index.md#kirol-abigale-lluwen-sanar",
+    "name": "Kirol, Abigale, Lluwen, Sanar",
+    "status": "CANDIDATE_BY_FIRST_WORD"
+   },
+   {
+    "bridged_in_graph": true,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "character:koth"
+    ],
+    "kind": "character",
+    "legacy_id": "Characters Index.md#koth",
+    "name": "Koth",
+    "status": "BRIDGED"
+   },
+   {
+    "bridged_in_graph": true,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "character:liliana_vess"
+    ],
+    "kind": "character",
+    "legacy_id": "Characters Index.md#liliana-vess",
+    "name": "Liliana Vess",
+    "status": "BRIDGED"
+   },
+   {
+    "bridged_in_graph": false,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [],
+    "kind": "character",
+    "legacy_id": "Characters Index.md#lord-windgrace",
+    "name": "Lord Windgrace",
+    "status": "LEGACY_ONLY"
+   },
+   {
+    "bridged_in_graph": true,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "character:lukka"
+    ],
+    "kind": "character",
+    "legacy_id": "Characters Index.md#lukka",
+    "name": "Lukka",
+    "status": "BRIDGED"
+   },
+   {
+    "bridged_in_graph": true,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "character:mishra"
+    ],
+    "kind": "character",
+    "legacy_id": "Characters Index.md#mishra",
+    "name": "Mishra",
+    "status": "BRIDGED"
+   },
+   {
+    "bridged_in_graph": false,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [],
+    "kind": "character",
+    "legacy_id": "Characters Index.md#mu-yanling",
+    "name": "Mu Yanling",
+    "status": "LEGACY_ONLY"
+   },
+   {
+    "bridged_in_graph": false,
+    "declared_name_variant_matches": [
+     "character:nahiri"
+    ],
+    "first_word_candidates": [],
+    "graph_matches": [],
+    "kind": "character",
+    "legacy_id": "Characters Index.md#nahiri",
+    "name": "Nahiri",
+    "status": "MATCH_VIA_DECLARED_NAME_VARIANT"
+   },
+   {
+    "bridged_in_graph": true,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "character:narset"
+    ],
+    "kind": "character",
+    "legacy_id": "Characters Index.md#narset",
+    "name": "Narset",
+    "status": "BRIDGED"
+   },
+   {
+    "bridged_in_graph": true,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "character:nicol_bolas"
+    ],
+    "kind": "character",
+    "legacy_id": "Characters Index.md#nicol-bolas",
+    "name": "Nicol Bolas",
+    "status": "BRIDGED"
+   },
+   {
+    "bridged_in_graph": true,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "character:niko_aris"
+    ],
+    "kind": "character",
+    "legacy_id": "Characters Index.md#niko-aris",
+    "name": "Niko Aris",
+    "status": "BRIDGED"
+   },
+   {
+    "bridged_in_graph": true,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "character:nissa_revane"
+    ],
+    "kind": "character",
+    "legacy_id": "Characters Index.md#nissa-revane",
+    "name": "Nissa Revane",
+    "status": "BRIDGED"
+   },
+   {
+    "bridged_in_graph": false,
+    "declared_name_variant_matches": [
+     "character:ob_nixilis"
+    ],
+    "first_word_candidates": [],
+    "graph_matches": [],
+    "kind": "character",
+    "legacy_id": "Characters Index.md#ob-nixilis",
+    "name": "Ob Nixilis",
+    "status": "MATCH_VIA_DECLARED_NAME_VARIANT"
+   },
+   {
+    "bridged_in_graph": true,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "character:oko"
+    ],
+    "kind": "character",
+    "legacy_id": "Characters Index.md#oko",
+    "name": "Oko",
+    "status": "BRIDGED"
+   },
+   {
+    "bridged_in_graph": false,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [],
+    "kind": "character",
+    "legacy_id": "Characters Index.md#pinnacle--sothera-cast-haliya-sami-mirri-alpharael",
+    "name": "Pinnacle / Sothera cast (Haliya, Sami, Mirri, Alpharael)",
+    "status": "LEGACY_ONLY"
+   },
+   {
+    "bridged_in_graph": false,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [],
+    "kind": "character",
+    "legacy_id": "Characters Index.md#proft-etrata-aminatou-niv-mizzet",
+    "name": "Proft, Etrata, Aminatou, Niv-Mizzet",
+    "status": "LEGACY_ONLY"
+   },
+   {
+    "bridged_in_graph": true,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "character:ral_zarek"
+    ],
+    "kind": "character",
+    "legacy_id": "Characters Index.md#ral-zarek",
+    "name": "Ral Zarek",
+    "status": "BRIDGED"
+   },
+   {
+    "bridged_in_graph": true,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "character:ranna_beleren"
+    ],
+    "kind": "character",
+    "legacy_id": "Characters Index.md#ranna-beleren",
+    "name": "Ranna Beleren",
+    "status": "BRIDGED"
+   },
+   {
+    "bridged_in_graph": true,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "character:rowan_kenrith"
+    ],
+    "kind": "character",
+    "legacy_id": "Characters Index.md#rowan-kenrith",
+    "name": "Rowan Kenrith",
+    "status": "BRIDGED"
+   },
+   {
+    "bridged_in_graph": false,
+    "declared_name_variant_matches": [
+     "character:saheeli"
+    ],
+    "first_word_candidates": [],
+    "graph_matches": [],
+    "kind": "character",
+    "legacy_id": "Characters Index.md#saheeli-rai",
+    "name": "Saheeli Rai",
+    "status": "MATCH_VIA_DECLARED_NAME_VARIANT"
+   },
+   {
+    "bridged_in_graph": true,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "character:samut"
+    ],
+    "kind": "character",
+    "legacy_id": "Characters Index.md#samut",
+    "name": "Samut",
+    "status": "BRIDGED"
+   },
+   {
+    "bridged_in_graph": true,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "character:sarkhan_vol"
+    ],
+    "kind": "character",
+    "legacy_id": "Characters Index.md#sarkhan-vol",
+    "name": "Sarkhan Vol",
+    "status": "BRIDGED"
+   },
+   {
+    "bridged_in_graph": true,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "character:serra"
+    ],
+    "kind": "character",
+    "legacy_id": "Characters Index.md#serra",
+    "name": "Serra",
+    "status": "BRIDGED"
+   },
+   {
+    "bridged_in_graph": true,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "character:sheoldred"
+    ],
+    "kind": "character",
+    "legacy_id": "Characters Index.md#sheoldred",
+    "name": "Sheoldred",
+    "status": "BRIDGED"
+   },
+   {
+    "bridged_in_graph": true,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "character:sorin_markov"
+    ],
+    "kind": "character",
+    "legacy_id": "Characters Index.md#sorin-markov",
+    "name": "Sorin Markov",
+    "status": "BRIDGED"
+   },
+   {
+    "bridged_in_graph": false,
+    "declared_name_variant_matches": [
+     "character:tam"
+    ],
+    "first_word_candidates": [],
+    "graph_matches": [],
+    "kind": "character",
+    "legacy_id": "Characters Index.md#tam",
+    "name": "Tam",
+    "status": "MATCH_VIA_DECLARED_NAME_VARIANT"
+   },
+   {
+    "bridged_in_graph": true,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "character:tamiyo"
+    ],
+    "kind": "character",
+    "legacy_id": "Characters Index.md#tamiyo",
+    "name": "Tamiyo",
+    "status": "BRIDGED"
+   },
+   {
+    "bridged_in_graph": true,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "character:teferi"
+    ],
+    "kind": "character",
+    "legacy_id": "Characters Index.md#teferi",
+    "name": "Teferi",
+    "status": "BRIDGED"
+   },
+   {
+    "bridged_in_graph": false,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [],
+    "kind": "character",
+    "legacy_id": "Characters Index.md#tevesh-szat",
+    "name": "Tevesh Szat",
+    "status": "LEGACY_ONLY"
+   },
+   {
+    "bridged_in_graph": true,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "character:teyo_verada"
+    ],
+    "kind": "character",
+    "legacy_id": "Characters Index.md#teyo-verada",
+    "name": "Teyo Verada",
+    "status": "BRIDGED"
+   },
+   {
+    "bridged_in_graph": true,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "character:tezzeret"
+    ],
+    "kind": "character",
+    "legacy_id": "Characters Index.md#tezzeret",
+    "name": "Tezzeret",
+    "status": "BRIDGED"
+   },
+   {
+    "bridged_in_graph": false,
+    "declared_name_variant_matches": [
+     "character:the_wanderer"
+    ],
+    "first_word_candidates": [],
+    "graph_matches": [],
+    "kind": "character",
+    "legacy_id": "Characters Index.md#the-wanderer",
+    "name": "The Wanderer",
+    "status": "MATCH_VIA_DECLARED_NAME_VARIANT"
+   },
+   {
+    "bridged_in_graph": true,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "character:tibalt"
+    ],
+    "kind": "character",
+    "legacy_id": "Characters Index.md#tibalt",
+    "name": "Tibalt",
+    "status": "BRIDGED"
+   },
+   {
+    "bridged_in_graph": true,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "character:tyvar"
+    ],
+    "kind": "character",
+    "legacy_id": "Characters Index.md#tyvar-kell",
+    "name": "Tyvar Kell",
+    "status": "BRIDGED"
+   },
+   {
+    "bridged_in_graph": true,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "character:ugin"
+    ],
+    "kind": "character",
+    "legacy_id": "Characters Index.md#ugin",
+    "name": "Ugin",
+    "status": "BRIDGED"
+   },
+   {
+    "bridged_in_graph": false,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [],
+    "kind": "character",
+    "legacy_id": "Characters Index.md#uldaros-theorix",
+    "name": "Uldaros Theorix",
+    "status": "LEGACY_ONLY"
+   },
+   {
+    "bridged_in_graph": true,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "character:urabrask"
+    ],
+    "kind": "character",
+    "legacy_id": "Characters Index.md#urabrask",
+    "name": "Urabrask",
+    "status": "BRIDGED"
+   },
+   {
+    "bridged_in_graph": true,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "character:urza"
+    ],
+    "kind": "character",
+    "legacy_id": "Characters Index.md#urza",
+    "name": "Urza",
+    "status": "BRIDGED"
+   },
+   {
+    "bridged_in_graph": true,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "character:venser"
+    ],
+    "kind": "character",
+    "legacy_id": "Characters Index.md#venser",
+    "name": "Venser",
+    "status": "BRIDGED"
+   },
+   {
+    "bridged_in_graph": true,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "character:vivien_reid"
+    ],
+    "kind": "character",
+    "legacy_id": "Characters Index.md#vivien-reid",
+    "name": "Vivien Reid",
+    "status": "BRIDGED"
+   },
+   {
+    "bridged_in_graph": true,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "character:vorinclex"
+    ],
+    "kind": "character",
+    "legacy_id": "Characters Index.md#vorinclex",
+    "name": "Vorinclex",
+    "status": "BRIDGED"
+   },
+   {
+    "bridged_in_graph": true,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "character:vraska"
+    ],
+    "kind": "character",
+    "legacy_id": "Characters Index.md#vraska",
+    "name": "Vraska",
+    "status": "BRIDGED"
+   },
+   {
+    "bridged_in_graph": true,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "character:will_kenrith"
+    ],
+    "kind": "character",
+    "legacy_id": "Characters Index.md#will-kenrith",
+    "name": "Will Kenrith",
+    "status": "BRIDGED"
+   },
+   {
+    "bridged_in_graph": true,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "character:wrenn"
+    ],
+    "kind": "character",
+    "legacy_id": "Characters Index.md#wrenn",
+    "name": "Wrenn",
+    "status": "BRIDGED"
+   },
+   {
+    "bridged_in_graph": true,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "character:xenagos"
+    ],
+    "kind": "character",
+    "legacy_id": "Characters Index.md#xenagos",
+    "name": "Xenagos",
+    "status": "BRIDGED"
+   },
+   {
+    "bridged_in_graph": true,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "character:yawgmoth"
+    ],
+    "kind": "character",
+    "legacy_id": "Characters Index.md#yawgmoth",
+    "name": "Yawgmoth",
+    "status": "BRIDGED"
+   },
+   {
+    "bridged_in_graph": false,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [],
+    "kind": "item",
+    "legacy_id": "Items & Artifacts Index.md#a-piece-of-the-house-duskmourn",
+    "name": "A piece of the House (Duskmourn)",
+    "status": "LEGACY_ONLY"
+   },
+   {
+    "bridged_in_graph": false,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [],
+    "kind": "item",
+    "legacy_id": "Items & Artifacts Index.md#biblioplex--the-blood-avatar-strixhaven",
+    "name": "Biblioplex & the Blood Avatar (Strixhaven)",
+    "status": "LEGACY_ONLY"
+   },
+   {
+    "bridged_in_graph": false,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "artifact:blackblade"
+    ],
+    "kind": "item",
+    "legacy_id": "Items & Artifacts Index.md#blackblade",
+    "name": "Blackblade",
+    "status": "NORMALISED_MATCH_NOT_BRIDGED"
+   },
+   {
+    "bridged_in_graph": false,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [
+     "artifact:celestus"
+    ],
+    "graph_matches": [],
+    "kind": "item",
+    "legacy_id": "Items & Artifacts Index.md#celestus-sungold-lock--moonsilver-key",
+    "name": "Celestus, Sungold Lock & Moonsilver Key",
+    "status": "CANDIDATE_BY_FIRST_WORD"
+   },
+   {
+    "bridged_in_graph": false,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "artifact:chain_veil"
+    ],
+    "kind": "item",
+    "legacy_id": "Items & Artifacts Index.md#chain-veil",
+    "name": "Chain Veil",
+    "status": "NORMALISED_MATCH_NOT_BRIDGED"
+   },
+   {
+    "bridged_in_graph": false,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [],
+    "kind": "item",
+    "legacy_id": "Items & Artifacts Index.md#elderspell",
+    "name": "Elderspell",
+    "status": "LEGACY_ONLY"
+   },
+   {
+    "bridged_in_graph": false,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "artifact:endstone"
+    ],
+    "kind": "item",
+    "legacy_id": "Items & Artifacts Index.md#endstone",
+    "name": "Endstone",
+    "status": "NORMALISED_MATCH_NOT_BRIDGED"
+   },
+   {
+    "bridged_in_graph": false,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [
+     "artifact:godsend"
+    ],
+    "graph_matches": [],
+    "kind": "item",
+    "legacy_id": "Items & Artifacts Index.md#godsend--khrusor",
+    "name": "Godsend & Khrusor",
+    "status": "CANDIDATE_BY_FIRST_WORD"
+   },
+   {
+    "bridged_in_graph": true,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "artifact:golgothian_sylex"
+    ],
+    "kind": "item",
+    "legacy_id": "Items & Artifacts Index.md#golgothian-sylex",
+    "name": "Golgothian Sylex",
+    "status": "BRIDGED"
+   },
+   {
+    "bridged_in_graph": true,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "artifact:halo"
+    ],
+    "kind": "item",
+    "legacy_id": "Items & Artifacts Index.md#halo",
+    "name": "Halo",
+    "status": "BRIDGED"
+   },
+   {
+    "bridged_in_graph": false,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [],
+    "kind": "item",
+    "legacy_id": "Items & Artifacts Index.md#hedrons",
+    "name": "Hedrons",
+    "status": "LEGACY_ONLY"
+   },
+   {
+    "bridged_in_graph": false,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "artifact:helvault"
+    ],
+    "kind": "item",
+    "legacy_id": "Items & Artifacts Index.md#helvault",
+    "name": "Helvault",
+    "status": "NORMALISED_MATCH_NOT_BRIDGED"
+   },
+   {
+    "bridged_in_graph": true,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "artifact:immortal_sun"
+    ],
+    "kind": "item",
+    "legacy_id": "Items & Artifacts Index.md#immortal-sun",
+    "name": "Immortal Sun",
+    "status": "BRIDGED"
+   },
+   {
+    "bridged_in_graph": true,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "artifact:lithoform_core"
+    ],
+    "kind": "item",
+    "legacy_id": "Items & Artifacts Index.md#lithoform-core",
+    "name": "Lithoform Core",
+    "status": "BRIDGED"
+   },
+   {
+    "bridged_in_graph": false,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [],
+    "kind": "item",
+    "legacy_id": "Items & Artifacts Index.md#mana-rig-powerstones--thran-steel-dmu",
+    "name": "Mana Rig, powerstones & Thran steel (DMU)",
+    "status": "LEGACY_ONLY"
+   },
+   {
+    "bridged_in_graph": false,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [],
+    "kind": "item",
+    "legacy_id": "Items & Artifacts Index.md#mightstone--weakstone",
+    "name": "Mightstone & Weakstone",
+    "status": "LEGACY_ONLY"
+   },
+   {
+    "bridged_in_graph": false,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [],
+    "kind": "item",
+    "legacy_id": "Items & Artifacts Index.md#ozolith",
+    "name": "Ozolith",
+    "status": "LEGACY_ONLY"
+   },
+   {
+    "bridged_in_graph": true,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "artifact:planar_bridge"
+    ],
+    "kind": "item",
+    "legacy_id": "Items & Artifacts Index.md#planar-bridge",
+    "name": "Planar Bridge",
+    "status": "BRIDGED"
+   },
+   {
+    "bridged_in_graph": true,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "artifact:reality_chip"
+    ],
+    "kind": "item",
+    "legacy_id": "Items & Artifacts Index.md#reality-chip",
+    "name": "Reality Chip",
+    "status": "BRIDGED"
+   },
+   {
+    "bridged_in_graph": false,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [],
+    "kind": "item",
+    "legacy_id": "Items & Artifacts Index.md#realmbreaker-the-invasion-tree",
+    "name": "Realmbreaker, the Invasion Tree",
+    "status": "LEGACY_ONLY"
+   },
+   {
+    "bridged_in_graph": false,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [],
+    "kind": "item",
+    "legacy_id": "Items & Artifacts Index.md#singularity-beads-eoe",
+    "name": "Singularity beads (EOE)",
+    "status": "LEGACY_ONLY"
+   },
+   {
+    "bridged_in_graph": false,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [],
+    "kind": "item",
+    "legacy_id": "Items & Artifacts Index.md#spear-of-hazoret",
+    "name": "Spear of Hazoret",
+    "status": "LEGACY_ONLY"
+   },
+   {
+    "bridged_in_graph": false,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [],
+    "kind": "item",
+    "legacy_id": "Items & Artifacts Index.md#stormnexus-ritual--the-crucible-of-the-spirit-dragon-tarkir",
+    "name": "Stormnexus Ritual & the Crucible of the Spirit Dragon (Tarkir)",
+    "status": "LEGACY_ONLY"
+   },
+   {
+    "bridged_in_graph": false,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "artifact:temporal_anchor"
+    ],
+    "kind": "item",
+    "legacy_id": "Items & Artifacts Index.md#temporal-anchor",
+    "name": "Temporal Anchor",
+    "status": "NORMALISED_MATCH_NOT_BRIDGED"
+   },
+   {
+    "bridged_in_graph": false,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [],
+    "kind": "item",
+    "legacy_id": "Items & Artifacts Index.md#theros-god-weapons",
+    "name": "Theros god weapons",
+    "status": "LEGACY_ONLY"
+   },
+   {
+    "bridged_in_graph": false,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [],
+    "kind": "item",
+    "legacy_id": "Items & Artifacts Index.md#world-tree--the-sword-of-the-realms-kaldheim",
+    "name": "World Tree & the Sword of the Realms (Kaldheim)",
+    "status": "LEGACY_ONLY"
+   },
+   {
+    "bridged_in_graph": true,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "plane:alara"
+    ],
+    "kind": "plane",
+    "legacy_id": "Planes Index.md#alara",
+    "name": "Alara",
+    "status": "BRIDGED"
+   },
+   {
+    "bridged_in_graph": true,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "plane:amonkhet"
+    ],
+    "kind": "plane",
+    "legacy_id": "Planes Index.md#amonkhet",
+    "name": "Amonkhet",
+    "status": "BRIDGED"
+   },
+   {
+    "bridged_in_graph": false,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [
+     "plane:arcavios"
+    ],
+    "graph_matches": [],
+    "kind": "plane",
+    "legacy_id": "Planes Index.md#arcavios--the-strixhaven-colleges",
+    "name": "Arcavios — the Strixhaven colleges",
+    "status": "CANDIDATE_BY_FIRST_WORD"
+   },
+   {
+    "bridged_in_graph": true,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "plane:bloomburrow"
+    ],
+    "kind": "plane",
+    "legacy_id": "Planes Index.md#bloomburrow",
+    "name": "Bloomburrow",
+    "status": "BRIDGED"
+   },
+   {
+    "bridged_in_graph": false,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [
+     "plane:dominaria"
+    ],
+    "graph_matches": [],
+    "kind": "plane",
+    "legacy_id": "Planes Index.md#dominaria-before-dominaria-united",
+    "name": "Dominaria (before Dominaria United)",
+    "status": "CANDIDATE_BY_FIRST_WORD"
+   },
+   {
+    "bridged_in_graph": false,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [
+     "plane:dominaria"
+    ],
+    "graph_matches": [],
+    "kind": "plane",
+    "legacy_id": "Planes Index.md#dominaria-dominaria-united-era",
+    "name": "Dominaria (Dominaria United era)",
+    "status": "CANDIDATE_BY_FIRST_WORD"
+   },
+   {
+    "bridged_in_graph": true,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "plane:duskmourn"
+    ],
+    "kind": "plane",
+    "legacy_id": "Planes Index.md#duskmourn",
+    "name": "Duskmourn",
+    "status": "BRIDGED"
+   },
+   {
+    "bridged_in_graph": true,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "plane:eldraine"
+    ],
+    "kind": "plane",
+    "legacy_id": "Planes Index.md#eldraine",
+    "name": "Eldraine",
+    "status": "BRIDGED"
+   },
+   {
+    "bridged_in_graph": false,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [],
+    "kind": "plane",
+    "legacy_id": "Planes Index.md#ergamon",
+    "name": "Ergamon",
+    "status": "LEGACY_ONLY"
+   },
+   {
+    "bridged_in_graph": true,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "plane:fiora"
+    ],
+    "kind": "plane",
+    "legacy_id": "Planes Index.md#fiora",
+    "name": "Fiora",
+    "status": "BRIDGED"
+   },
+   {
+    "bridged_in_graph": false,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [],
+    "kind": "plane",
+    "legacy_id": "Planes Index.md#gobakhan",
+    "name": "Gobakhan",
+    "status": "LEGACY_ONLY"
+   },
+   {
+    "bridged_in_graph": true,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "plane:ikoria"
+    ],
+    "kind": "plane",
+    "legacy_id": "Planes Index.md#ikoria",
+    "name": "Ikoria",
+    "status": "BRIDGED"
+   },
+   {
+    "bridged_in_graph": true,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "plane:innistrad"
+    ],
+    "kind": "plane",
+    "legacy_id": "Planes Index.md#innistrad",
+    "name": "Innistrad",
+    "status": "BRIDGED"
+   },
+   {
+    "bridged_in_graph": true,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "plane:ixalan"
+    ],
+    "kind": "plane",
+    "legacy_id": "Planes Index.md#ixalan",
+    "name": "Ixalan",
+    "status": "BRIDGED"
+   },
+   {
+    "bridged_in_graph": false,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [
+     "plane:kaladesh"
+    ],
+    "graph_matches": [],
+    "kind": "plane",
+    "legacy_id": "Planes Index.md#kaladesh--avishkar",
+    "name": "Kaladesh → Avishkar",
+    "status": "CANDIDATE_BY_FIRST_WORD"
+   },
+   {
+    "bridged_in_graph": true,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "plane:kaldheim"
+    ],
+    "kind": "plane",
+    "legacy_id": "Planes Index.md#kaldheim",
+    "name": "Kaldheim",
+    "status": "BRIDGED"
+   },
+   {
+    "bridged_in_graph": false,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [
+     "plane:kamigawa"
+    ],
+    "graph_matches": [],
+    "kind": "plane",
+    "legacy_id": "Planes Index.md#kamigawa-kami-war-era",
+    "name": "Kamigawa (Kami War era)",
+    "status": "CANDIDATE_BY_FIRST_WORD"
+   },
+   {
+    "bridged_in_graph": false,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [
+     "plane:kamigawa"
+    ],
+    "graph_matches": [],
+    "kind": "plane",
+    "legacy_id": "Planes Index.md#kamigawa-neon-dynasty-era",
+    "name": "Kamigawa (Neon Dynasty era)",
+    "status": "CANDIDATE_BY_FIRST_WORD"
+   },
+   {
+    "bridged_in_graph": false,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [],
+    "kind": "plane",
+    "legacy_id": "Planes Index.md#kylem",
+    "name": "Kylem",
+    "status": "LEGACY_ONLY"
+   },
+   {
+    "bridged_in_graph": true,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "plane:lorwyn_shadowmoor"
+    ],
+    "kind": "plane",
+    "legacy_id": "Planes Index.md#lorwyn-shadowmoor",
+    "name": "Lorwyn-Shadowmoor",
+    "status": "BRIDGED"
+   },
+   {
+    "bridged_in_graph": false,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [],
+    "kind": "plane",
+    "legacy_id": "Planes Index.md#mercadia",
+    "name": "Mercadia",
+    "status": "LEGACY_ONLY"
+   },
+   {
+    "bridged_in_graph": false,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [],
+    "kind": "plane",
+    "legacy_id": "Planes Index.md#mirrodin-before-phyrexia",
+    "name": "Mirrodin (before Phyrexia)",
+    "status": "LEGACY_ONLY"
+   },
+   {
+    "bridged_in_graph": true,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "plane:muraganda"
+    ],
+    "kind": "plane",
+    "legacy_id": "Planes Index.md#muraganda",
+    "name": "Muraganda",
+    "status": "BRIDGED"
+   },
+   {
+    "bridged_in_graph": true,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "plane:new_capenna"
+    ],
+    "kind": "plane",
+    "legacy_id": "Planes Index.md#new-capenna",
+    "name": "New Capenna",
+    "status": "BRIDGED"
+   },
+   {
+    "bridged_in_graph": false,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [
+     "plane:old_phyrexia"
+    ],
+    "graph_matches": [],
+    "kind": "plane",
+    "legacy_id": "Planes Index.md#phyrexia-old-phyrexia--new-phyrexias-spheres",
+    "name": "Phyrexia (Old Phyrexia) & New Phyrexia's spheres",
+    "status": "CANDIDATE_BY_FIRST_WORD"
+   },
+   {
+    "bridged_in_graph": false,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [],
+    "kind": "plane",
+    "legacy_id": "Planes Index.md#rath",
+    "name": "Rath",
+    "status": "LEGACY_ONLY"
+   },
+   {
+    "bridged_in_graph": false,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [
+     "plane:ravnica"
+    ],
+    "graph_matches": [],
+    "kind": "plane",
+    "legacy_id": "Planes Index.md#ravnica-after-the-invasion-murders-at-karlov-manor",
+    "name": "Ravnica after the invasion (Murders at Karlov Manor)",
+    "status": "CANDIDATE_BY_FIRST_WORD"
+   },
+   {
+    "bridged_in_graph": false,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [
+     "plane:ravnica"
+    ],
+    "graph_matches": [],
+    "kind": "plane",
+    "legacy_id": "Planes Index.md#ravnica-before-the-invasion",
+    "name": "Ravnica (before the invasion)",
+    "status": "CANDIDATE_BY_FIRST_WORD"
+   },
+   {
+    "bridged_in_graph": true,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "plane:regatha"
+    ],
+    "kind": "plane",
+    "legacy_id": "Planes Index.md#regatha",
+    "name": "Regatha",
+    "status": "BRIDGED"
+   },
+   {
+    "bridged_in_graph": false,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [],
+    "kind": "plane",
+    "legacy_id": "Planes Index.md#segovia",
+    "name": "Segovia",
+    "status": "LEGACY_ONLY"
+   },
+   {
+    "bridged_in_graph": true,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "plane:shandalar"
+    ],
+    "kind": "plane",
+    "legacy_id": "Planes Index.md#shandalar",
+    "name": "Shandalar",
+    "status": "BRIDGED"
+   },
+   {
+    "bridged_in_graph": false,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [],
+    "kind": "plane",
+    "legacy_id": "Planes Index.md#shenmeng",
+    "name": "Shenmeng",
+    "status": "LEGACY_ONLY"
+   },
+   {
+    "bridged_in_graph": true,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "plane:skalla"
+    ],
+    "kind": "plane",
+    "legacy_id": "Planes Index.md#skalla",
+    "name": "Skalla",
+    "status": "BRIDGED"
+   },
+   {
+    "bridged_in_graph": false,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [],
+    "kind": "plane",
+    "legacy_id": "Planes Index.md#sothera-system-the-edge",
+    "name": "Sothera system (the Edge)",
+    "status": "LEGACY_ONLY"
+   },
+   {
+    "bridged_in_graph": true,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "plane:tarkir"
+    ],
+    "kind": "plane",
+    "legacy_id": "Planes Index.md#tarkir",
+    "name": "Tarkir",
+    "status": "BRIDGED"
+   },
+   {
+    "bridged_in_graph": true,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "plane:theros"
+    ],
+    "kind": "plane",
+    "legacy_id": "Planes Index.md#theros",
+    "name": "Theros",
+    "status": "BRIDGED"
+   },
+   {
+    "bridged_in_graph": false,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [
+     "plane:theros"
+    ],
+    "graph_matches": [],
+    "kind": "plane",
+    "legacy_id": "Planes Index.md#theros-the-underworld-theros-beyond-death",
+    "name": "Theros: the Underworld (Theros Beyond Death)",
+    "status": "CANDIDATE_BY_FIRST_WORD"
+   },
+   {
+    "bridged_in_graph": true,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "plane:thunder_junction"
+    ],
+    "kind": "plane",
+    "legacy_id": "Planes Index.md#thunder-junction",
+    "name": "Thunder Junction",
+    "status": "BRIDGED"
+   },
+   {
+    "bridged_in_graph": false,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [],
+    "kind": "plane",
+    "legacy_id": "Planes Index.md#ulgrotha",
+    "name": "Ulgrotha",
+    "status": "LEGACY_ONLY"
+   },
+   {
+    "bridged_in_graph": true,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "plane:vryn"
+    ],
+    "kind": "plane",
+    "legacy_id": "Planes Index.md#vryn",
+    "name": "Vryn",
+    "status": "BRIDGED"
+   },
+   {
+    "bridged_in_graph": false,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [
+     "plane:zendikar"
+    ],
+    "graph_matches": [],
+    "kind": "plane",
+    "legacy_id": "Planes Index.md#zendikar-eldrazi-era",
+    "name": "Zendikar (Eldrazi era)",
+    "status": "CANDIDATE_BY_FIRST_WORD"
+   },
+   {
+    "bridged_in_graph": false,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [
+     "plane:zendikar"
+    ],
+    "graph_matches": [],
+    "kind": "plane",
+    "legacy_id": "Planes Index.md#zendikar-zendikar-rising-era",
+    "name": "Zendikar (Zendikar Rising era)",
+    "status": "CANDIDATE_BY_FIRST_WORD"
+   },
+   {
+    "bridged_in_graph": false,
+    "declared_name_variant_matches": [
+     "character:ajani"
+    ],
+    "first_word_candidates": [],
+    "graph_matches": [],
+    "kind": "dossier",
+    "legacy_id": "Planeswalker Dossiers.md#ajani-goldmane",
+    "name": "Ajani Goldmane",
+    "status": "MATCH_VIA_DECLARED_NAME_VARIANT"
+   },
+   {
+    "bridged_in_graph": true,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "character:angrath"
+    ],
+    "kind": "dossier",
+    "legacy_id": "Planeswalker Dossiers.md#angrath",
+    "name": "Angrath",
+    "status": "BRIDGED"
+   },
+   {
+    "bridged_in_graph": true,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "character:ashiok"
+    ],
+    "kind": "dossier",
+    "legacy_id": "Planeswalker Dossiers.md#ashiok",
+    "name": "Ashiok",
+    "status": "BRIDGED"
+   },
+   {
+    "bridged_in_graph": true,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "character:chandra_nalaar"
+    ],
+    "kind": "dossier",
+    "legacy_id": "Planeswalker Dossiers.md#chandra-nalaar",
+    "name": "Chandra Nalaar",
+    "status": "BRIDGED"
+   },
+   {
+    "bridged_in_graph": true,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "character:dovin_baan"
+    ],
+    "kind": "dossier",
+    "legacy_id": "Planeswalker Dossiers.md#dovin-baan",
+    "name": "Dovin Baan",
+    "status": "BRIDGED"
+   },
+   {
+    "bridged_in_graph": true,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "character:elspeth_tirel"
+    ],
+    "kind": "dossier",
+    "legacy_id": "Planeswalker Dossiers.md#elspeth-tirel",
+    "name": "Elspeth Tirel",
+    "status": "BRIDGED"
+   },
+   {
+    "bridged_in_graph": true,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "character:garruk_wildspeaker"
+    ],
+    "kind": "dossier",
+    "legacy_id": "Planeswalker Dossiers.md#garruk-wildspeaker",
+    "name": "Garruk Wildspeaker",
+    "status": "BRIDGED"
+   },
+   {
+    "bridged_in_graph": true,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "character:gideon_jura"
+    ],
+    "kind": "dossier",
+    "legacy_id": "Planeswalker Dossiers.md#gideon-jura",
+    "name": "Gideon Jura",
+    "status": "BRIDGED"
+   },
+   {
+    "bridged_in_graph": true,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "character:huatli"
+    ],
+    "kind": "dossier",
+    "legacy_id": "Planeswalker Dossiers.md#huatli",
+    "name": "Huatli",
+    "status": "BRIDGED"
+   },
+   {
+    "bridged_in_graph": true,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "character:jace_beleren"
+    ],
+    "kind": "dossier",
+    "legacy_id": "Planeswalker Dossiers.md#jace-beleren",
+    "name": "Jace Beleren",
+    "status": "BRIDGED"
+   },
+   {
+    "bridged_in_graph": true,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "character:kaito"
+    ],
+    "kind": "dossier",
+    "legacy_id": "Planeswalker Dossiers.md#kaito-shizuki",
+    "name": "Kaito Shizuki",
+    "status": "BRIDGED"
+   },
+   {
+    "bridged_in_graph": true,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "character:karn"
+    ],
+    "kind": "dossier",
+    "legacy_id": "Planeswalker Dossiers.md#karn",
+    "name": "Karn",
+    "status": "BRIDGED"
+   },
+   {
+    "bridged_in_graph": true,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "character:kaya"
+    ],
+    "kind": "dossier",
+    "legacy_id": "Planeswalker Dossiers.md#kaya",
+    "name": "Kaya",
+    "status": "BRIDGED"
+   },
+   {
+    "bridged_in_graph": true,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "character:kiora"
+    ],
+    "kind": "dossier",
+    "legacy_id": "Planeswalker Dossiers.md#kiora",
+    "name": "Kiora",
+    "status": "BRIDGED"
+   },
+   {
+    "bridged_in_graph": true,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "character:koth"
+    ],
+    "kind": "dossier",
+    "legacy_id": "Planeswalker Dossiers.md#koth",
+    "name": "Koth",
+    "status": "BRIDGED"
+   },
+   {
+    "bridged_in_graph": true,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "character:liliana_vess"
+    ],
+    "kind": "dossier",
+    "legacy_id": "Planeswalker Dossiers.md#liliana-vess",
+    "name": "Liliana Vess",
+    "status": "BRIDGED"
+   },
+   {
+    "bridged_in_graph": false,
+    "declared_name_variant_matches": [
+     "character:nahiri"
+    ],
+    "first_word_candidates": [],
+    "graph_matches": [],
+    "kind": "dossier",
+    "legacy_id": "Planeswalker Dossiers.md#nahiri",
+    "name": "Nahiri",
+    "status": "MATCH_VIA_DECLARED_NAME_VARIANT"
+   },
+   {
+    "bridged_in_graph": true,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "character:narset"
+    ],
+    "kind": "dossier",
+    "legacy_id": "Planeswalker Dossiers.md#narset",
+    "name": "Narset",
+    "status": "BRIDGED"
+   },
+   {
+    "bridged_in_graph": true,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "character:nicol_bolas"
+    ],
+    "kind": "dossier",
+    "legacy_id": "Planeswalker Dossiers.md#nicol-bolas",
+    "name": "Nicol Bolas",
+    "status": "BRIDGED"
+   },
+   {
+    "bridged_in_graph": true,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "character:nissa_revane"
+    ],
+    "kind": "dossier",
+    "legacy_id": "Planeswalker Dossiers.md#nissa-revane",
+    "name": "Nissa Revane",
+    "status": "BRIDGED"
+   },
+   {
+    "bridged_in_graph": true,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "character:niv_mizzet"
+    ],
+    "kind": "dossier",
+    "legacy_id": "Planeswalker Dossiers.md#niv-mizzet",
+    "name": "Niv-Mizzet",
+    "status": "BRIDGED"
+   },
+   {
+    "bridged_in_graph": true,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "character:oko"
+    ],
+    "kind": "dossier",
+    "legacy_id": "Planeswalker Dossiers.md#oko",
+    "name": "Oko",
+    "status": "BRIDGED"
+   },
+   {
+    "bridged_in_graph": true,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "character:ral_zarek"
+    ],
+    "kind": "dossier",
+    "legacy_id": "Planeswalker Dossiers.md#ral-zarek",
+    "name": "Ral Zarek",
+    "status": "BRIDGED"
+   },
+   {
+    "bridged_in_graph": false,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [],
+    "kind": "dossier",
+    "legacy_id": "Planeswalker Dossiers.md#rowan--will-kenrith",
+    "name": "Rowan & Will Kenrith",
+    "status": "LEGACY_ONLY"
+   },
+   {
+    "bridged_in_graph": false,
+    "declared_name_variant_matches": [
+     "character:saheeli"
+    ],
+    "first_word_candidates": [],
+    "graph_matches": [],
+    "kind": "dossier",
+    "legacy_id": "Planeswalker Dossiers.md#saheeli-rai",
+    "name": "Saheeli Rai",
+    "status": "MATCH_VIA_DECLARED_NAME_VARIANT"
+   },
+   {
+    "bridged_in_graph": true,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "character:samut"
+    ],
+    "kind": "dossier",
+    "legacy_id": "Planeswalker Dossiers.md#samut",
+    "name": "Samut",
+    "status": "BRIDGED"
+   },
+   {
+    "bridged_in_graph": true,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "character:sarkhan_vol"
+    ],
+    "kind": "dossier",
+    "legacy_id": "Planeswalker Dossiers.md#sarkhan-vol",
+    "name": "Sarkhan Vol",
+    "status": "BRIDGED"
+   },
+   {
+    "bridged_in_graph": true,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "character:sorin_markov"
+    ],
+    "kind": "dossier",
+    "legacy_id": "Planeswalker Dossiers.md#sorin-markov",
+    "name": "Sorin Markov",
+    "status": "BRIDGED"
+   },
+   {
+    "bridged_in_graph": false,
+    "declared_name_variant_matches": [
+     "character:tam"
+    ],
+    "first_word_candidates": [],
+    "graph_matches": [],
+    "kind": "dossier",
+    "legacy_id": "Planeswalker Dossiers.md#tam",
+    "name": "Tam",
+    "status": "MATCH_VIA_DECLARED_NAME_VARIANT"
+   },
+   {
+    "bridged_in_graph": true,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "character:tamiyo"
+    ],
+    "kind": "dossier",
+    "legacy_id": "Planeswalker Dossiers.md#tamiyo",
+    "name": "Tamiyo",
+    "status": "BRIDGED"
+   },
+   {
+    "bridged_in_graph": true,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "character:teferi"
+    ],
+    "kind": "dossier",
+    "legacy_id": "Planeswalker Dossiers.md#teferi",
+    "name": "Teferi",
+    "status": "BRIDGED"
+   },
+   {
+    "bridged_in_graph": true,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "character:teyo_verada"
+    ],
+    "kind": "dossier",
+    "legacy_id": "Planeswalker Dossiers.md#teyo-verada",
+    "name": "Teyo Verada",
+    "status": "BRIDGED"
+   },
+   {
+    "bridged_in_graph": true,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "character:tezzeret"
+    ],
+    "kind": "dossier",
+    "legacy_id": "Planeswalker Dossiers.md#tezzeret",
+    "name": "Tezzeret",
+    "status": "BRIDGED"
+   },
+   {
+    "bridged_in_graph": true,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "character:ugin"
+    ],
+    "kind": "dossier",
+    "legacy_id": "Planeswalker Dossiers.md#ugin",
+    "name": "Ugin",
+    "status": "BRIDGED"
+   },
+   {
+    "bridged_in_graph": true,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "character:venser"
+    ],
+    "kind": "dossier",
+    "legacy_id": "Planeswalker Dossiers.md#venser",
+    "name": "Venser",
+    "status": "BRIDGED"
+   },
+   {
+    "bridged_in_graph": true,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "character:vraska"
+    ],
+    "kind": "dossier",
+    "legacy_id": "Planeswalker Dossiers.md#vraska",
+    "name": "Vraska",
+    "status": "BRIDGED"
+   },
+   {
+    "bridged_in_graph": true,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "character:wrenn"
+    ],
+    "kind": "dossier",
+    "legacy_id": "Planeswalker Dossiers.md#wrenn",
+    "name": "Wrenn",
+    "status": "BRIDGED"
+   },
+   {
+    "bridged_in_graph": true,
+    "declared_name_variant_matches": [],
+    "first_word_candidates": [],
+    "graph_matches": [
+     "character:xenagos"
+    ],
+    "kind": "dossier",
+    "legacy_id": "Planeswalker Dossiers.md#xenagos",
+    "name": "Xenagos",
+    "status": "BRIDGED"
+   }
+  ]
+ },
+ "recommendation": "Keep data/multiverse_graph as the single relationship schema; extend packs by reusing existing local IDs (check this audit's alias list first); resolve review candidates with cited evidence, never by name similarity alone.",
+ "schema": "entity-structure-audit/v1",
+ "status": "ENGINEERING_AUDIT (read-only; no merges or schema changes applied)",
+ "workflow_item": "Phase 3 L220"
+}
