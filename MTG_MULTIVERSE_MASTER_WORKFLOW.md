@@ -1,9 +1,24 @@
 # MTG Multiverse Companion — Master Workflow & Progress Checklist
 
-**Version:** 2.51
+**Version:** 2.52
 **Checkpoint date:** 2026-10-30
 **Repository:** [corymstover/GrokBotMTGCompanion](https://github.com/corymstover/GrokBotMTGCompanion)  
 **Purpose:** Durable project roadmap and handoff document. Update this file after verified milestone work; do not treat historical figures as live counters.
+
+**v2.52 Phase 7 plane-history Q&A (2026-10-30):** The main
+`scripts/mv_ask.py ask` route now answers plain-language plane-history
+questions with the generated Phase 5 dossiers. Each response groups multiple
+relations under their original cited claim, preserves claim grades and source
+URLs, and is always **QUALIFIED** with explicit incomplete-history and
+unknown-total-chronology flags. Unknown plane names fall back to regular
+lookup without being presented as nonexistent. Dedicated regression tests
+cover Alara, Theros, Old Phyrexia, unknown names and characters.
+**Audit correction:** v2.51's prose undercounted Theros's directly incident
+claims: the exact generated dossier contains **6, not 5** (prior 3 plus
+`THP001`, `THP002` and `THP010`). The generated counts/graph were correct;
+the historical note and report below are corrected. No source grade or
+chronology claim changed. See
+`research/PHASE7_PLANE_HISTORY_QA_2026-10-30.md`.
 
 **v2.51 Phase 5 Theros history expansion (2026-10-30):** Ten more concise
 claims from the official [Theros plane profile](https://magic.wizards.com/en/story/theros-plane)
@@ -12,7 +27,7 @@ were independently verified verbatim against Wizards' live page. The new
 major poleis, minotaur/giant/kraken/siren threats, civic ideals and defensive
 outposts. It preserves existing Theros claims, including `TS037`, and reuses
 the precise official source identity `ths_plane`. Theros's directly incident
-claims rose **3 → 5**; thin plane dossiers now **20/33** (down from 22 before
+claims rose **3 → 6**; thin plane dossiers now **20/33** (down from 22 before
 Alara and Theros). Current graph: **5,094 nodes / 8,063 edges / 1,161 claims**,
 and 160 direct plane-claim edge incidences. No inferred chronology, mythic
 hierarchy, or complete-polis census was asserted. This remains
@@ -373,7 +388,8 @@ Infrastructure checkpoint: [PR #783](https://github.com/corymstover/GrokBotMTGCo
 
 ## Phase 5 — Full-history and plane-by-plane expansion
 
-- [x] **Deepen Theros's plane history using its official Wizards primer.** *(v2.51: 10 new live-quote-verified claims covering gods, three named poleis, ecological perils, civic ideals and Akros's outpost defenses; existing TS037 and source ID ths_plane preserved. Theros direct claims 3→5. This does not verify all gods, myths, poleis or the in-world timeline; exhaustive history remains OPEN.)*
+- [x] **Ask cited plane-history questions through the main Q&A interface.** *(v2.52: `mv_ask.py ask 'What is the history of Theros?'` returns source URLs, original grades, limitations and distinct claims/relations from the 33 current registered plane dossiers, always QUALIFIED, never a full-history or total-chronology assertion. Regression tests cover no-source names, multi-target claims and old Phyrexia's unresolved accounts.)*
+- [x] **Deepen Theros's plane history using its official Wizards primer.** *(v2.51: 10 new live-quote-verified claims covering gods, three named poleis, ecological perils, civic ideals and Akros's outpost defenses; existing TS037 and source ID ths_plane preserved. Theros direct claims 3→6; v2.52 corrects the earlier prose-only miscount. This does not verify all gods, myths, poleis or the in-world timeline; exhaustive history remains OPEN.)*
 - [x] **Deepen Alara's plane history using the official Wizards primer.** *(v2.50: 10 live-quote-verified, source-graded claims on five shards, convergence, mana environment and the factions' differing conflicts; source register reused, with no duplicate official source node or existing UP001 Bolas claim. Alara now has 5 directly incident distinct claims, but an exhaustive history, specific battle participants and cross-era dates remain OPEN.)*
 - [x] **Publish a source-backed, explicitly partial plane-history query layer.** *(v2.49: 33 graph-registered plane dossiers, 147 direct claim-edge incidences, each fact retaining official URL, grade, limitations and optional quoted date. `scripts/query_plane_history.py` supports text/JSON; `scripts/build_plane_history_dossiers.py --check` and dedicated tests enforce provenance and no inferred chronology. 22 dossiers remain thin, so exhaustive plane history, L244 and contradiction reconciliation are **not** closed.)*
 
