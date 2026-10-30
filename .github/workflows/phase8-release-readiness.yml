@@ -4,6 +4,10 @@ on:
   pull_request:
     paths:
       - 'scripts/release_readiness.py'
+      - 'scripts/certification_dry_run.py'
+      - 'tests/test_certification_dry_run.py'
+      - 'research/CERTIFICATION_DRY_RUN_2026-10-30.md'
+      - 'MTG_MULTIVERSE_MASTER_WORKFLOW.md'
       - 'tests/test_release_readiness.py'
       - 'data/release/**'
       - 'data/multiverse_graph/**'
@@ -40,8 +44,11 @@ jobs:
           assert live == saved, (f, live, saved)
           print("OK", f, saved)
           PY
+      - name: Certification dry run matches (lists blockers; certifies nothing)
+        run: python3 scripts/certification_dry_run.py --check
       - name: Tests
         run: |
           python3 -m unittest discover -s tests -p 'test_release_readiness.py' -v
+          python3 -m unittest discover -s tests -p 'test_certification_dry_run.py' -v
           python3 -m unittest discover -s tests -p 'test_phase8_batch38.py' -v
           python3 -m unittest discover -s tests -p 'test_enrichment_story_links_b4.py' -v
