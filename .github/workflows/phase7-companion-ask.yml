@@ -16,6 +16,9 @@ on:
       - 'tests/test_mv_ask.py'
       - 'tests/test_mv_ask_relations.py'
       - 'tests/test_mv_ask_aliases.py'
+      - 'scripts/batch_recount.py'
+      - 'tests/test_batch_recount_b9.py'
+      - 'data/lore_research/story_coverage_inventory_*.json'
       - 'data/multiverse_graph/**'
       - 'data/card_index.csv'
       - 'data/card_db/**'
@@ -33,6 +36,9 @@ on:
       - 'tests/test_mv_ask.py'
       - 'tests/test_mv_ask_relations.py'
       - 'tests/test_mv_ask_aliases.py'
+      - 'scripts/batch_recount.py'
+      - 'tests/test_batch_recount_b9.py'
+      - 'data/lore_research/story_coverage_inventory_*.json'
       - 'data/multiverse_graph/**'
       - '.github/workflows/phase7-companion-ask.yml'
   workflow_dispatch:
@@ -55,6 +61,10 @@ jobs:
           set +e; python3 scripts/mv_ask.py ask "Who is Zorblax the Unreal?"; test $? -eq 3
       - name: Companion tests
         run: python3 -m unittest discover -s tests -p 'test_mv_ask*.py' -v
+      - name: Per-batch recount and representative queries
+        run: |
+          python3 scripts/batch_recount.py
+          python3 -m unittest tests.test_batch_recount_b9 -v
       - name: Commander deck-construction rules (CR 2026-09-25)
         run: |
           python3 scripts/commander_rules.py commander "Pir, Imaginative Rascal" "Toothy, Imaginary Friend"

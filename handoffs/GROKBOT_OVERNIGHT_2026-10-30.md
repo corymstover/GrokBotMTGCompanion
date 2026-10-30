@@ -380,13 +380,19 @@ Untagged pages in bulk (210 uncited); IKO's 2 non-narrative pages need a reviewe
 | [#881](https://github.com/corymstover/GrokBotMTGCompanion/pull/881) | 5 | `data/lore_research/reviewed_no_claim.json` (schema `reviewed-no-claim/v1`): a reversible GrokBot reading note, NOT an owner approval; coverage builder validates it (rejects cited+listed, wrong arc, bad page_key) and adds `review_status`. IKO's 2 non-narrative pages listed | `866aefa8` 08:02 CDT | 5/5 pass |
 | [#882](https://github.com/corymstover/GrokBotMTGCompanion/pull/882) | 7 | Faction short-name aliases in `mv_ask` ("Izzet", "the Golgari", "Orzhov guild" …, exact names win, unique-only) and leader answers with era context (`leadership.most_recent_cited` by citing-page date, full timeline, `described_as_former`, honest note); `tests/test_mv_ask_aliases.py` (11) | `91ca3d9d` 08:06 CDT | 3/3 pass |
 | [#883](https://github.com/corymstover/GrokBotMTGCompanion/pull/883) | 5 | `pack_p5_untagged_bios` (34 claims, 26 undated Planeswalker profiles) + `pack_p5_untagged_planes` (39 claims, 11 plane pages) + 34 reviewed-no-claim entries (`authoring/b9/add_reviewed_b9.py`) | `9d55f327` 08:19 CDT | 8/8 pass on `d0aa8580` |
+| [#884](https://github.com/corymstover/GrokBotMTGCompanion/pull/884) | 8 | Handoff: Batch 9 progress (docs only) | `3b046942` 08:31 CDT | 1/1 pass |
+| [#885](https://github.com/corymstover/GrokBotMTGCompanion/pull/885) | 5/7 | `pack_p5_untagged_ktk`: 28 claims from 15 untagged Tarkir 2014–2015 pages and Chronicle of Bolas pages, 32/32 verbatim. Past-era khans carry the Fate Reforged limitation. `mv_ask` sibling questions now read `sibling_of\|twin_sibling_of` | `776c9df0` 08:34 CDT | 8/8 pass on `2e58f997` |
+| (this PR) | 1/7/8 | `scripts/batch_recount.py` (recount plus 13 representative queries, run in CI) and era-aware leadership (`ERA_OR_TIMELINE_CONTEXT`, `era_note`). Also `UPDATE_PROCESS.md`, workflow v2.37 and a readiness stats refresh (no status change) | see the next handoff update | — |
 
-### Coverage (main after #883)
-- 451 of 626 pages cited; 36 reviewed-no-claim; 911 claims. Untagged: 54 cited + 34 reviewed of 227 (139 still unread). 31 arcs all cited; 32 all cited-or-reviewed (IKO is reviewed-complete, but its claim status honestly stays PARTIAL).
+### Coverage (main after #885)
+- 466 of 626 pages cited; 36 reviewed with no claim; 939 claims. Untagged: 69 cited + 34 reviewed of 227, with 124 still unread; the list of unread pages is regenerable from the inventory's `unreviewed_urls`. 31 arcs have every page cited; 32 have every page cited or reviewed.
 
 ### Discoveries
 - Leader questions: "current" is not knowable from the graph alone; answers give the most recent *cited* leader by publication date and the full timeline (e.g. Orzhov → Teysa, Kaya earlier). Not proof of present-day canon.
 - UB026 (Ugin/Bolas "twin") must use the existing `twin_sibling_of` predicate, or the "Ugin's brother" route regresses (caught by `test_commander_rules`).
 
+- New `sibling_of` edges to Ugin (Arcades, Rhuell, Merrevia) hid the twin edge, because the router only fell back to `twin_sibling_of` when there was no `sibling_of` result. Sibling questions now query both relations together.
+- Ordering leaders by publication date misread time travel. Fate Reforged pages (2015) set in Tarkir's past were published after the Khans of Tarkir pages, so the past-era khans looked "most recent". Claims whose summary or limitation names a past era or an original timeline are now era context. Note: the Khans of Tarkir "present" is itself the original timeline that Fate Reforged rewrote. The `era_note` says so generically rather than naming a present-day leader the packs do not cite.
+
 ### Status (keep distinct)
-- Research: PRELIMINARY_RESEARCH. Tests: green locally and in CI on each exact head. Merged: #880–#883. Owner approved / certified: nothing.
+- Research: PRELIMINARY_RESEARCH. Tests: green locally and in CI on each exact head. Merged: #880–#885. Owner approved / certified: nothing.

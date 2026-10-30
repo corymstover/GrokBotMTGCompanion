@@ -272,6 +272,10 @@ FALLBACK = {"created": [("created_by", "out"),  # "who created X" may be stored 
 
 LEADER_RELATIONS = {"led", "leader_of", "leads", "ruled"}
 _FORMER = re.compile(r"\b(former|formerly|before (?:her|his|their) death|was the .* before|until)\b", re.I)
+# Batch 9 (Phase 7 retcon/ambiguity): a claim whose summary or limitation places it in an earlier era or an
+# original/rewritten timeline is era context, never the "most recent" leader, whatever its page's publication date.
+_PAST_ERA = re.compile(r"(\bin [\w' -]+'s past\b|\byears in [\w' -]+'s past\b|\boriginal timeline\b|\bprevious timeline\b)", re.I)
+_ERA_LABEL = re.compile(r"\(([^()]*\b(?:present|past|timeline|era)\b[^()]*)\)", re.I)
 _dates = None
 
 
@@ -294,14 +298,22 @@ def leadership(env: dict) -> dict | None:
         ds = [d for d in ds if d]
         tl.append({"node": r["node"], "claim": r["claim"], "status": r["status"], "summary": r.get("summary"),
                    "source_date": max(ds) if ds else None,
-                   "described_as_former": bool(_FORMER.search(r.get("summary") or ""))})
+                   "described_as_former": bool(_FORMER.search(r.get("summary") or "")),
+                   "described_as_past_era": bool(_PAST_ERA.search((r.get("summary") or "") + " " + (r.get("limitation") or ""))),
+                   "era_label": (lambda m: m.group(1) if m else None)(_ERA_LABEL.search(r.get("summary") or ""))})
     tl.sort(key=lambda x: (x["source_date"] or "", x["claim"]))
-    live = [x for x in tl if not x["described_as_former"]] or tl
+    live = [x for x in tl if not x["described_as_former"] and not x["described_as_past_era"]] or tl
     latest = live[-1]
-    return {"most_recent_cited": latest, "timeline": tl,
-            "note": ("Ordered by the publication date of the citing official page. The most recent cited leader is the "
-                     "latest one these packs cite, not proof of the leader in present-day canon; claims whose summary "
-                     "calls the leader former are kept as era context.")}
+    out = {"most_recent_cited": latest, "timeline": tl,
+           "note": ("Ordered by the publication date of the citing official page. The most recent cited leader is the "
+                    "latest one these packs cite, not proof of the leader in present-day canon; claims whose summary "
+                    "calls the leader former are kept as era context.")}
+    if any(x["described_as_past_era"] or x["era_label"] for x in tl):
+        out["era_note"] = ("Some cited claims are labelled with an in-universe era or timeline. Publication order is not "
+                           "in-universe order: claims set in a past era or an original/rewritten timeline are kept as era "
+                           "context and are never reported as the most recent leader. Where a story rewrote history, "
+                           "the cited claims here do not by themselves establish who leads in present-day canon.")
+    return out
 
 
 def _is_card(name: str) -> bool:
@@ -347,6 +359,8 @@ def ask(text: str) -> dict:
                 env["result"]["leadership"] = lead
                 if len({x["node"] for x in lead["timeline"]}) > 1:
                     env["flags"].append("MULTIPLE_LEADERS_ACROSS_ERAS")
+                if "era_note" in lead:
+                    env["flags"].append("ERA_OR_TIMELINE_CONTEXT")
             return env
     term = re.sub(r"^(?:who|what|where)\s+(?:is|was|are|were)\s+|^tell me about\s+", "", q, flags=re.I).rstrip("?").strip()
     term = re.sub(r"^the\s+", "", term, flags=re.I) if not _is_card(term) else term
