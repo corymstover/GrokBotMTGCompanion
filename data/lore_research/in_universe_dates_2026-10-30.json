@@ -2,10 +2,10 @@
  "schema": "in_universe_dates.v1",
  "status": "PRELIMINARY_RESEARCH; verbatim time phrases from cited quotes only; no calendar years inferred; not owner approved",
  "basis": "value is the exact phrase in the quote; RELATIVE_SPAN is relative to the cited story's present, not to any fixed calendar",
- "count": 26,
+ "count": 28,
  "by_kind": {
   "AR_YEAR": 0,
-  "RELATIVE_SPAN": 26
+  "RELATIVE_SPAN": 28
  },
  "dates": [
   {
@@ -241,6 +241,24 @@
    "also_in_quote": [],
    "quote": "Ever since Avacyn went missing last year, the church at Thraben has kept the truth of her disappearance from Innistrad's denizens.",
    "source_id": "ig_kes"
+  },
+  {
+   "claim": "MB001",
+   "pack": "pack_p5_untagged_misc_b10_2026-10-30.json",
+   "value": "two years",
+   "kind": "RELATIVE_SPAN",
+   "also_in_quote": [],
+   "quote": "He’d spent two years as the sphinx’s apprentice, learning the full abilities",
+   "source_id": "mb_jace"
+  },
+  {
+   "claim": "MB002",
+   "pack": "pack_p5_untagged_misc_b10_2026-10-30.json",
+   "value": "Six thousand years ago",
+   "kind": "RELATIVE_SPAN",
+   "also_in_quote": [],
+   "quote": "Six thousand years ago, three Planeswalkers lured the three Eldrazi titans—horrific, world-devouring entities—to Zendikar, and trapped them there.",
+   "source_id": "mb_worlds"
   }
  ]
 }

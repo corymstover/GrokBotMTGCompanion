@@ -1,0 +1,298 @@
+{
+ "schema": "multiverse-claim-pack/v1",
+ "pack_id": "pack_p5_untagged_misc_b10",
+ "evidence_cutoff": "2026-10-30",
+ "status": "PRELIMINARY_RESEARCH (not owner approved, not certified)",
+ "arc": "",
+ "scope": "Batch 10 extraction from remaining untagged Magic Story pages: Jace's Origin, the Magic Origins planes primer, the Jund vignette 'All Cairns Lead to Jund', and three Guilds of Ravnica / Ravnica Allegiance guild vignettes. PRELIMINARY_RESEARCH; targeted, not exhaustive; not owner approved.",
+ "built_by": "scripts/story_claim_pipeline.py from data/lore_research/claim_specs/pack_p5_untagged_misc_b10.spec.json",
+ "source_register": {
+  "mb_jace": {
+   "title": "Jace’s Origin: Absent Minds",
+   "url": "https://magic.wizards.com/en/news/feature/jaces-origin-absent-minds-2015-06-24",
+   "kind": "official_story_feature",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2015-06-24"
+  },
+  "mb_worlds": {
+   "title": "The Worlds of Magic Origins",
+   "url": "https://magic.wizards.com/en/news/feature/worlds-magic-origins-2015-07-09",
+   "kind": "official_story_feature",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2015-07-09"
+  },
+  "mb_jund": {
+   "title": "All the Cairns of Jund",
+   "url": "https://magic.wizards.com/en/news/magic-story/all-cairns-jund-2015-11-04",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2015-11-05"
+  },
+  "mb_fog": {
+   "title": "Under the Cover of Fog",
+   "url": "https://magic.wizards.com/en/news/magic-story/under-cover-fog-2018-10-10",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2018-10-10"
+  },
+  "mb_death": {
+   "title": "Death's Precious Moments",
+   "url": "https://magic.wizards.com/en/news/magic-story/deaths-precious-moments-2018-11-07",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2018-11-08"
+  },
+  "mb_simic": {
+   "title": "The Principles of Unnatural Selection",
+   "url": "https://magic.wizards.com/en/news/magic-story/principles-unnatural-selection-2019-02-06",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2019-02-07"
+  }
+ },
+ "entities": [
+  {
+   "id": "alhammarret",
+   "type": "Character",
+   "name": "Alhammarret"
+  },
+  {
+   "id": "jace_beleren",
+   "type": "Character",
+   "name": "Jace Beleren"
+  },
+  {
+   "id": "eldrazi_titans",
+   "type": "Concept",
+   "name": "Eldrazi titans"
+  },
+  {
+   "id": "zendikar",
+   "type": "Plane",
+   "name": "Zendikar"
+  },
+  {
+   "id": "rakdos",
+   "type": "Character",
+   "name": "Rakdos"
+  },
+  {
+   "id": "rakdos_cult",
+   "type": "Faction",
+   "name": "Cult of Rakdos"
+  },
+  {
+   "id": "meren",
+   "type": "Character",
+   "name": "Meren of Clan Nel Toth"
+  },
+  {
+   "id": "nel_toth",
+   "type": "Faction",
+   "name": "Clan Nel Toth"
+  },
+  {
+   "id": "kael",
+   "type": "Character",
+   "name": "Kael"
+  },
+  {
+   "id": "lazav",
+   "type": "Character",
+   "name": "Lazav"
+  },
+  {
+   "id": "house_dimir",
+   "type": "Faction",
+   "name": "House Dimir"
+  },
+  {
+   "id": "vraska",
+   "type": "Character",
+   "name": "Vraska"
+  },
+  {
+   "id": "golgari",
+   "type": "Faction",
+   "name": "Golgari Swarm"
+  },
+  {
+   "id": "zegana",
+   "type": "Character",
+   "name": "Zegana"
+  },
+  {
+   "id": "simic_combine",
+   "type": "Faction",
+   "name": "Simic Combine"
+  }
+ ],
+ "claims": [
+  {
+   "id": "MB001",
+   "subject": "alhammarret",
+   "predicate": "mentored",
+   "object": "jace_beleren",
+   "grade": "CANON_IMPLIED",
+   "event_stage": "magic_origins_and_ravnica_vignettes_2015_2019",
+   "source_ids": [
+    "mb_jace"
+   ],
+   "evidence": [
+    {
+     "source_id": "mb_jace",
+     "quote": "He’d spent two years as the sphinx’s apprentice, learning the full abilities"
+    },
+    {
+     "source_id": "mb_jace",
+     "quote": "Even purely out of self-interest, Alhammarret had to covet a planeswalker apprentice."
+    }
+   ],
+   "summary": "The sphinx Alhammarret took the young Jace Beleren as his apprentice for two years (Jace's past, on Vryn).",
+   "limitation": "The apprentice sentence names 'the sphinx'; the sphinx is identified as Alhammarret by the neighbouring sentence."
+  },
+  {
+   "id": "MB002",
+   "subject": "eldrazi_titans",
+   "predicate": "trapped_on",
+   "object": "zendikar",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "magic_origins_and_ravnica_vignettes_2015_2019",
+   "source_ids": [
+    "mb_worlds"
+   ],
+   "evidence": [
+    {
+     "source_id": "mb_worlds",
+     "quote": "Six thousand years ago, three Planeswalkers lured the three Eldrazi titans—horrific, world-devouring entities—to Zendikar, and trapped them there."
+    }
+   ],
+   "summary": "In the past, three Planeswalkers lured the three Eldrazi titans to Zendikar and trapped them there.",
+   "limitation": "Primer page; the three Planeswalkers are not named in this sentence."
+  },
+  {
+   "id": "MB003",
+   "subject": "rakdos",
+   "predicate": "leader_of",
+   "object": "rakdos_cult",
+   "grade": "CANON_IMPLIED",
+   "event_stage": "magic_origins_and_ravnica_vignettes_2015_2019",
+   "source_ids": [
+    "mb_worlds"
+   ],
+   "evidence": [
+    {
+     "source_id": "mb_worlds",
+     "quote": "Rakdos, aligned with black and red mana, is an endless carnival of depraved revelry. Their leader is an ancient demon named Rakdos"
+    }
+   ],
+   "summary": "The demon Rakdos leads the Rakdos guild (Magic Origins primer, 2015).",
+   "limitation": "'Rakdos' in the first sentence names the guild; 'Their leader' refers back to it."
+  },
+  {
+   "id": "MB004",
+   "subject": "meren",
+   "predicate": "member_of",
+   "object": "nel_toth",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "magic_origins_and_ravnica_vignettes_2015_2019",
+   "source_ids": [
+    "mb_jund"
+   ],
+   "evidence": [
+    {
+     "source_id": "mb_jund",
+     "quote": "You are Meren, shaman apprentice of the Nel Toth."
+    }
+   ],
+   "summary": "Meren is a shaman apprentice of Clan Nel Toth on Jund.",
+   "limitation": ""
+  },
+  {
+   "id": "MB005",
+   "subject": "kael",
+   "predicate": "mentored",
+   "object": "meren",
+   "grade": "CANON_IMPLIED",
+   "event_stage": "magic_origins_and_ravnica_vignettes_2015_2019",
+   "source_ids": [
+    "mb_jund"
+   ],
+   "evidence": [
+    {
+     "source_id": "mb_jund",
+     "quote": "She scanned the familiar faces of the Circle, finding her master, Kael, sitting tall and proud, watching closely."
+    }
+   ],
+   "summary": "Kael is Meren's master in the Circle of Nel Toth.",
+   "limitation": "Point-of-view narration; 'She' is the viewpoint character Meren."
+  },
+  {
+   "id": "MB006",
+   "subject": "lazav",
+   "predicate": "leader_of",
+   "object": "house_dimir",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "magic_origins_and_ravnica_vignettes_2015_2019",
+   "source_ids": [
+    "mb_fog"
+   ],
+   "evidence": [
+    {
+     "source_id": "mb_fog",
+     "quote": "Lazav the Mastermind, Guildmaster of House Dimir?"
+    }
+   ],
+   "summary": "Lazav is Guildmaster of House Dimir (Guilds of Ravnica, 2018).",
+   "limitation": "Spoken as a question by a character recognising him."
+  },
+  {
+   "id": "MB007",
+   "subject": "vraska",
+   "predicate": "leader_of",
+   "object": "golgari",
+   "grade": "CANON_IMPLIED",
+   "event_stage": "magic_origins_and_ravnica_vignettes_2015_2019",
+   "source_ids": [
+    "mb_death"
+   ],
+   "evidence": [
+    {
+     "source_id": "mb_death",
+     "quote": "Vraska, our guildmaster, is worried the Boros will use this as another excuse to infiltrate the undercity"
+    }
+   ],
+   "summary": "Vraska is guildmaster of the Golgari (Guilds of Ravnica, 2018).",
+   "limitation": "First-person Golgari narrator; the guild is identified by context (the undercity, 'the Golgari guildhall'), not named in the quote."
+  },
+  {
+   "id": "MB008",
+   "subject": "zegana",
+   "predicate": "leader_of",
+   "object": "simic_combine",
+   "grade": "CANON_IMPLIED",
+   "event_stage": "magic_origins_and_ravnica_vignettes_2015_2019",
+   "source_ids": [
+    "mb_simic"
+   ],
+   "evidence": [
+    {
+     "source_id": "mb_simic",
+     "quote": "She looks so much like Utopian Speaker Zegana—a younger, more petulant version of our leader"
+    },
+    {
+     "source_id": "mb_simic",
+     "quote": "Perhaps it is a good thing knowing that our Combine is not fragile enough"
+    }
+   ],
+   "summary": "Utopian Speaker Zegana leads the Simic Combine (Ravnica Allegiance, 2019).",
+   "limitation": "First-person Simic narrator; 'our leader' and 'our Combine' are the narrator's guild."
+  }
+ ],
+ "pages_registered": 6,
+ "pages_cited": 6,
+ "uncited_registered_pages": [],
+ "remaining": [
+  "Targeted. Read for relations but not graded: magosi-steps-2020-09-10, hunger-2020-09-25, unbowed-part-1, testing-dark-waters, clans-legions, bound-and-bonded, ledger-hidden-fortunes (relations mostly among unnamed or one-off characters)."
+ ]
+}

@@ -7,7 +7,7 @@
   "HYPOTHETICAL": "Creative or deckbuilding connection; never canon.",
   "OPEN_QUESTION": "Primary sources leave the matter unresolved; do not assert either way."
  },
- "content_sha256": "23ddaba18d9241bb1edd1b9235ff5874447794e1b6d0ff24e1422184eb9c4dff",
+ "content_sha256": "f11b905c1ab6d932c82cb68bc4f7612a89e714d9a29755962b67799b537b4a23",
  "edges": [
   {
    "artists": [
@@ -1513,6 +1513,15 @@
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
    "to": "card:outpost_siege"
+  },
+  {
+   "artists": [
+    "Daarken"
+   ],
+   "from": "source:mb_jund",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:scarland_thrinax"
   },
   {
    "artists": [
@@ -3769,6 +3778,15 @@
   },
   {
    "artists": [
+    "Joshua Hagler"
+   ],
+   "from": "source:mb_jund",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:rockslide_elemental"
+  },
+  {
+   "artists": [
     "Josu Hernaiz"
    ],
    "from": "source:ogw_blight",
@@ -3955,6 +3973,15 @@
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
    "to": "card:battle_brawler"
+  },
+  {
+   "artists": [
+    "Karl Kopinski"
+   ],
+   "from": "source:mb_jund",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:skeletonize"
   },
   {
    "artists": [
@@ -4597,6 +4624,15 @@
   },
   {
    "artists": [
+    "Mark Hyzer"
+   ],
+   "from": "source:mb_jund",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:corrupted_roots"
+  },
+  {
+   "artists": [
     "Mark Winters"
    ],
    "from": "source:emn_last_hope",
@@ -4621,6 +4657,15 @@
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
    "to": "card:abzan_ascendancy"
+  },
+  {
+   "artists": [
+    "Mark Winters"
+   ],
+   "from": "source:mb_jund",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:meren_of_clan_nel_toth"
   },
   {
    "artists": [
@@ -4900,6 +4945,15 @@
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
    "to": "card:rakshasa_vizier"
+  },
+  {
+   "artists": [
+    "Nils Hamm"
+   ],
+   "from": "source:mb_jund",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:grixis_panorama"
   },
   {
    "artists": [
@@ -6515,6 +6569,15 @@
   },
   {
    "artists": [
+    "Vance Kovacs"
+   ],
+   "from": "source:mb_jund",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:jund_battlemage"
+  },
+  {
+   "artists": [
     "Victor Adame Minguez"
    ],
    "from": "source:aer_breakthrough",
@@ -6882,6 +6945,15 @@
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
    "to": "card:throttle"
+  },
+  {
+   "artists": [
+    "Wayne Reynolds"
+   ],
+   "from": "source:mb_jund",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:terminate"
   },
   {
    "artists": [
@@ -12011,6 +12083,34 @@
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:lazav",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:lazav_dimir_mastermind"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:lazav",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:lazav_familiar_stranger"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:lazav",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:lazav_the_multifarious"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:lazav",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:lazav_wearer_of_faces"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
    "from": "character:leinore",
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
@@ -12246,6 +12346,13 @@
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
    "to": "card:mendicant_core_guidelight"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:meren",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:meren_of_clan_nel_toth"
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
@@ -19963,6 +20070,112 @@
     "mat_breaks"
    ],
    "to": "event:mom_invasion"
+  },
+  {
+   "claim": "MB001",
+   "era": "magic_origins_and_ravnica_vignettes_2015_2019",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:alhammarret",
+   "grade": "CANON_IMPLIED",
+   "in_universe_date": {
+    "quote": "He’d spent two years as the sphinx’s apprentice, learning the full abilities",
+    "source_id": "mb_jace",
+    "value": "two years"
+   },
+   "relation": "mentored",
+   "sources": [
+    "mb_jace"
+   ],
+   "to": "character:jace_beleren"
+  },
+  {
+   "claim": "MB002",
+   "era": "magic_origins_and_ravnica_vignettes_2015_2019",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "concept:eldrazi_titans",
+   "grade": "CANON_CONFIRMED",
+   "in_universe_date": {
+    "quote": "Six thousand years ago, three Planeswalkers lured the three Eldrazi titans—horrific, world-devouring entities—to Zendikar, and trapped them there.",
+    "source_id": "mb_worlds",
+    "value": "Six thousand years ago"
+   },
+   "relation": "trapped_on",
+   "sources": [
+    "mb_worlds"
+   ],
+   "to": "plane:zendikar"
+  },
+  {
+   "claim": "MB003",
+   "era": "magic_origins_and_ravnica_vignettes_2015_2019",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:rakdos",
+   "grade": "CANON_IMPLIED",
+   "relation": "leader_of",
+   "sources": [
+    "mb_worlds"
+   ],
+   "to": "faction:rakdos_cult"
+  },
+  {
+   "claim": "MB004",
+   "era": "magic_origins_and_ravnica_vignettes_2015_2019",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:meren",
+   "grade": "CANON_CONFIRMED",
+   "relation": "member_of",
+   "sources": [
+    "mb_jund"
+   ],
+   "to": "faction:nel_toth"
+  },
+  {
+   "claim": "MB005",
+   "era": "magic_origins_and_ravnica_vignettes_2015_2019",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:kael",
+   "grade": "CANON_IMPLIED",
+   "relation": "mentored",
+   "sources": [
+    "mb_jund"
+   ],
+   "to": "character:meren"
+  },
+  {
+   "claim": "MB006",
+   "era": "magic_origins_and_ravnica_vignettes_2015_2019",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:lazav",
+   "grade": "CANON_CONFIRMED",
+   "relation": "leader_of",
+   "sources": [
+    "mb_fog"
+   ],
+   "to": "faction:house_dimir"
+  },
+  {
+   "claim": "MB007",
+   "era": "magic_origins_and_ravnica_vignettes_2015_2019",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:vraska",
+   "grade": "CANON_IMPLIED",
+   "relation": "leader_of",
+   "sources": [
+    "mb_death"
+   ],
+   "to": "faction:golgari"
+  },
+  {
+   "claim": "MB008",
+   "era": "magic_origins_and_ravnica_vignettes_2015_2019",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:zegana",
+   "grade": "CANON_IMPLIED",
+   "relation": "leader_of",
+   "sources": [
+    "mb_simic"
+   ],
+   "to": "faction:simic_combine"
   },
   {
    "claim": "MK001",
@@ -32992,6 +33205,102 @@
    "to": "character:koth"
   },
   {
+   "from": "claim:MB001",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:jace_beleren"
+  },
+  {
+   "from": "claim:MB001",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:alhammarret"
+  },
+  {
+   "from": "claim:MB002",
+   "relation": "asserts",
+   "role": "object",
+   "to": "plane:zendikar"
+  },
+  {
+   "from": "claim:MB002",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "concept:eldrazi_titans"
+  },
+  {
+   "from": "claim:MB003",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:rakdos_cult"
+  },
+  {
+   "from": "claim:MB003",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:rakdos"
+  },
+  {
+   "from": "claim:MB004",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:nel_toth"
+  },
+  {
+   "from": "claim:MB004",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:meren"
+  },
+  {
+   "from": "claim:MB005",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:meren"
+  },
+  {
+   "from": "claim:MB005",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:kael"
+  },
+  {
+   "from": "claim:MB006",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:house_dimir"
+  },
+  {
+   "from": "claim:MB006",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:lazav"
+  },
+  {
+   "from": "claim:MB007",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:golgari"
+  },
+  {
+   "from": "claim:MB007",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:vraska"
+  },
+  {
+   "from": "claim:MB008",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:simic_combine"
+  },
+  {
+   "from": "claim:MB008",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:zegana"
+  },
+  {
    "from": "claim:MK001",
    "relation": "asserts",
    "role": "object",
@@ -42503,6 +42812,46 @@
    "to": "claim:MA011"
   },
   {
+   "from": "source:mb_death",
+   "relation": "cited_by",
+   "to": "claim:MB007"
+  },
+  {
+   "from": "source:mb_fog",
+   "relation": "cited_by",
+   "to": "claim:MB006"
+  },
+  {
+   "from": "source:mb_jace",
+   "relation": "cited_by",
+   "to": "claim:MB001"
+  },
+  {
+   "from": "source:mb_jund",
+   "relation": "cited_by",
+   "to": "claim:MB004"
+  },
+  {
+   "from": "source:mb_jund",
+   "relation": "cited_by",
+   "to": "claim:MB005"
+  },
+  {
+   "from": "source:mb_simic",
+   "relation": "cited_by",
+   "to": "claim:MB008"
+  },
+  {
+   "from": "source:mb_worlds",
+   "relation": "cited_by",
+   "to": "claim:MB002"
+  },
+  {
+   "from": "source:mb_worlds",
+   "relation": "cited_by",
+   "to": "claim:MB003"
+  },
+  {
    "from": "source:mh2_legends",
    "relation": "cited_by",
    "to": "claim:A017"
@@ -46121,6 +46470,13 @@
     "file": "data/lore_research/pack_p5_untagged_grn_rna_2026-10-30.json",
     "sha256": "23e574fa4d256957a619ef71b0bf5c79ade41d2593316832548c903484d3a154",
     "sources": 5
+   },
+   {
+    "claims": 8,
+    "entities": 15,
+    "file": "data/lore_research/pack_p5_untagged_misc_b10_2026-10-30.json",
+    "sha256": "95ad1f619cc4698c90f8b945bc4635241f75d92dafd03e65fc097d9ea17e79e2",
+    "sources": 6
    }
   ],
   "deck_evidence": [
@@ -46142,21 +46498,21 @@
   ],
   "in_universe_dates": [
    {
-    "dates": 26,
+    "dates": 28,
     "file": "data/lore_research/in_universe_dates_2026-10-30.json",
-    "sha256": "9b2249ad0d07be732d9e653b9a9cea85fffc1fae761c8774d0fd6f8b1116c0f6"
+    "sha256": "69ca94f8358206fbaf7217c22e0809b68ae2c6e64aa5cc89cb4c29835584a0c2"
    }
   ],
   "name_anchor_packs": [
    {
-    "anchors": 666,
+    "anchors": 671,
     "file": "data/lore_research/card_name_anchors_2026-10-30.json",
-    "sha256": "4db9e9608ca85ada454b1b25e23c8b2393db95ebde99f89fbaefc92faf8ff442"
+    "sha256": "929e66a0701fbd27786749d63cb1075acf99dccaf9a5ce28306ad1ee95527d77"
    }
   ],
   "story_caption_packs": [
    {
-    "caption_edges": 834,
+    "caption_edges": 842,
     "file": "data/story_atlas/story_art_captions_2026-10-30.json",
     "sha256": "cc9afe96ffdc211e06099c799c2c5a93579d86bc0fb7e4ef7c5e9754284c1eb2"
    }
@@ -48545,6 +48901,15 @@
    "type": "Card"
   },
   {
+   "id": "card:corrupted_roots",
+   "name": "Corrupted Roots",
+   "oracle_id": "0c6f343a-0088-477a-a6b5-256783ad0c27",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:cosmos_elixir",
    "name": "Cosmos Elixir",
    "oracle_id": "ed7300f4-831a-4ba4-b5e6-ceba8d079eaa",
@@ -50698,6 +51063,15 @@
    "type": "Card"
   },
   {
+   "id": "card:grixis_panorama",
+   "name": "Grixis Panorama",
+   "oracle_id": "743f4488-fef1-4f4d-b745-d2de92423e00",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:groundswell",
    "name": "Groundswell",
    "oracle_id": "ddbacb74-1f98-4607-a92e-d14973b9d0ef",
@@ -51703,6 +52077,15 @@
    "type": "Card"
   },
   {
+   "id": "card:jund_battlemage",
+   "name": "Jund Battlemage",
+   "oracle_id": "d2567448-f8a5-4bf3-9804-f5aac3b645ce",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:kaito_shizuki",
    "name": "Kaito Shizuki",
    "oracle_id": "ba48e067-f4d9-45b2-ade1-71cf8cda418c",
@@ -52473,6 +52856,42 @@
    "type": "Card"
   },
   {
+   "id": "card:lazav_dimir_mastermind",
+   "name": "Lazav, Dimir Mastermind",
+   "oracle_id": "8027a610-613e-4640-9840-c8778694f312",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:lazav_familiar_stranger",
+   "name": "Lazav, Familiar Stranger",
+   "oracle_id": "ca60623a-1a98-4153-a0ee-2f34981de5cb",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:lazav_the_multifarious",
+   "name": "Lazav, the Multifarious",
+   "oracle_id": "c14bcef2-6d49-4430-86d0-e5a87ba442d9",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:lazav_wearer_of_faces",
+   "name": "Lazav, Wearer of Faces",
+   "oracle_id": "4ec0b64d-c793-47a6-9c26-9ad4d9e9c182",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:leaping_master",
    "name": "Leaping Master",
    "oracle_id": "1b5c2ba0-3df7-4394-a3f1-8e8330d7ac81",
@@ -53159,6 +53578,16 @@
    "name": "Merciless Resolve",
    "oracle_id": "e9eecc10-8821-4b61-a042-01fef435d37c",
    "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:meren_of_clan_nel_toth",
+   "name": "Meren of Clan Nel Toth",
+   "oracle_id": "0310dfdb-0498-488d-9f1a-279f8239e024",
+   "origins": [
+    "card_name_anchors_2026-10-30.json",
     "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
@@ -55260,6 +55689,15 @@
    "type": "Card"
   },
   {
+   "id": "card:rockslide_elemental",
+   "name": "Rockslide Elemental",
+   "oracle_id": "c848a9d8-40d5-498d-9da9-e71a9ddeb5ab",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:rogue_s_passage",
    "name": "Rogue's Passage",
    "oracle_id": "f29dc596-2121-4421-8463-15f6c2e8b9b3",
@@ -55792,6 +56230,15 @@
    "type": "Card"
   },
   {
+   "id": "card:scarland_thrinax",
+   "name": "Scarland Thrinax",
+   "oracle_id": "1a185f90-69eb-496b-8e38-8dcf241a84a4",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:scatter_to_the_winds",
    "name": "Scatter to the Winds",
    "oracle_id": "13d600e6-86b4-4813-8f34-75f23717f433",
@@ -56221,6 +56668,15 @@
    "id": "card:siren_reaver",
    "name": "Siren Reaver",
    "oracle_id": "bc1c9ca8-2f00-4761-bd85-1329287ae7ac",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:skeletonize",
+   "name": "Skeletonize",
+   "oracle_id": "2a4cde8f-38e0-439b-9928-95ab23317f70",
    "origins": [
     "story_art_captions_2026-10-30.json"
    ],
@@ -57177,7 +57633,8 @@
    "name": "Terminate",
    "oracle_id": "6257c2fd-005f-41e3-8a72-af76df1eb134",
    "origins": [
-    "original_primeval_dragons_printing_evidence.json"
+    "original_primeval_dragons_printing_evidence.json",
+    "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -59294,7 +59751,8 @@
    "id": "character:alhammarret",
    "name": "Alhammarret",
    "origins": [
-    "pack_p5_reality_fracture_2026-10-30.json"
+    "pack_p5_reality_fracture_2026-10-30.json",
+    "pack_p5_untagged_misc_b10_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -60537,6 +60995,7 @@
     "pack_p5_reality_fracture_2026-10-30.json",
     "pack_p5_shadows_eldritch_moon_2026-10-30.json",
     "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+    "pack_p5_untagged_misc_b10_2026-10-30.json",
     "pack_p5_untagged_ori_2015_2026-10-30.json",
     "pack_p5_untagged_planes_2026-10-30.json"
    ],
@@ -60643,6 +61102,14 @@
    "origins": [
     "pack_c2_return_to_dominaria_2026-10-30.json",
     "pack_p5_untagged_ori_2015_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:kael",
+   "name": "Kael",
+   "origins": [
+    "pack_p5_untagged_misc_b10_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -61057,6 +61524,14 @@
    "type": "Character"
   },
   {
+   "id": "character:lazav",
+   "name": "Lazav",
+   "origins": [
+    "pack_p5_untagged_misc_b10_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
    "id": "character:leinore",
    "name": "Leinore",
    "origins": [
@@ -61307,6 +61782,14 @@
    "name": "Mendicant Core",
    "origins": [
     "pack_p5_aetherdrift_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:meren",
+   "name": "Meren of Clan Nel Toth",
+   "origins": [
+    "pack_p5_untagged_misc_b10_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -61902,7 +62385,8 @@
    "id": "character:rakdos",
    "name": "Rakdos",
    "origins": [
-    "pack_p5_outlaws_of_thunder_junction_2026-10-30.json"
+    "pack_p5_outlaws_of_thunder_junction_2026-10-30.json",
+    "pack_p5_untagged_misc_b10_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -62791,6 +63275,7 @@
     "pack_p5_reality_fracture_2026-10-30.json",
     "pack_p5_tarkir_dragonstorm_2026-10-30.json",
     "pack_p5_untagged_bios_2026-10-30.json",
+    "pack_p5_untagged_misc_b10_2026-10-30.json",
     "pack_p5_war_spark_ravnica_2026-10-30.json"
    ],
    "type": "Character"
@@ -62922,7 +63407,8 @@
    "id": "character:zegana",
    "name": "Zegana",
    "origins": [
-    "pack_p5_murders_at_karlov_manor_2026-10-30.json"
+    "pack_p5_murders_at_karlov_manor_2026-10-30.json",
+    "pack_p5_untagged_misc_b10_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -67798,6 +68284,101 @@
    ],
    "predicate": "lost_spark_after",
    "stage": "mom_aftermath_2023",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:MB001",
+   "limitation": "The apprentice sentence names 'the sphinx'; the sphinx is identified as Alhammarret by the neighbouring sentence.",
+   "name": "The sphinx Alhammarret took the young Jace Beleren as his apprentice for two years (Jace's past, on Vryn).",
+   "origins": [
+    "pack_p5_untagged_misc_b10_2026-10-30.json"
+   ],
+   "predicate": "mentored",
+   "stage": "magic_origins_and_ravnica_vignettes_2015_2019",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:MB002",
+   "limitation": "Primer page; the three Planeswalkers are not named in this sentence.",
+   "name": "In the past, three Planeswalkers lured the three Eldrazi titans to Zendikar and trapped them there.",
+   "origins": [
+    "pack_p5_untagged_misc_b10_2026-10-30.json"
+   ],
+   "predicate": "trapped_on",
+   "stage": "magic_origins_and_ravnica_vignettes_2015_2019",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:MB003",
+   "limitation": "'Rakdos' in the first sentence names the guild; 'Their leader' refers back to it.",
+   "name": "The demon Rakdos leads the Rakdos guild (Magic Origins primer, 2015).",
+   "origins": [
+    "pack_p5_untagged_misc_b10_2026-10-30.json"
+   ],
+   "predicate": "leader_of",
+   "stage": "magic_origins_and_ravnica_vignettes_2015_2019",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:MB004",
+   "name": "Meren is a shaman apprentice of Clan Nel Toth on Jund.",
+   "origins": [
+    "pack_p5_untagged_misc_b10_2026-10-30.json"
+   ],
+   "predicate": "member_of",
+   "stage": "magic_origins_and_ravnica_vignettes_2015_2019",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:MB005",
+   "limitation": "Point-of-view narration; 'She' is the viewpoint character Meren.",
+   "name": "Kael is Meren's master in the Circle of Nel Toth.",
+   "origins": [
+    "pack_p5_untagged_misc_b10_2026-10-30.json"
+   ],
+   "predicate": "mentored",
+   "stage": "magic_origins_and_ravnica_vignettes_2015_2019",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:MB006",
+   "limitation": "Spoken as a question by a character recognising him.",
+   "name": "Lazav is Guildmaster of House Dimir (Guilds of Ravnica, 2018).",
+   "origins": [
+    "pack_p5_untagged_misc_b10_2026-10-30.json"
+   ],
+   "predicate": "leader_of",
+   "stage": "magic_origins_and_ravnica_vignettes_2015_2019",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:MB007",
+   "limitation": "First-person Golgari narrator; the guild is identified by context (the undercity, 'the Golgari guildhall'), not named in the quote.",
+   "name": "Vraska is guildmaster of the Golgari (Guilds of Ravnica, 2018).",
+   "origins": [
+    "pack_p5_untagged_misc_b10_2026-10-30.json"
+   ],
+   "predicate": "leader_of",
+   "stage": "magic_origins_and_ravnica_vignettes_2015_2019",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:MB008",
+   "limitation": "First-person Simic narrator; 'our leader' and 'our Combine' are the narrator's guild.",
+   "name": "Utopian Speaker Zegana leads the Simic Combine (Ravnica Allegiance, 2019).",
+   "origins": [
+    "pack_p5_untagged_misc_b10_2026-10-30.json"
+   ],
+   "predicate": "leader_of",
+   "stage": "magic_origins_and_ravnica_vignettes_2015_2019",
    "type": "Claim"
   },
   {
@@ -74473,7 +75054,8 @@
    "origins": [
     "pack_a5_ugin_allies_2026-10-30.json",
     "pack_p5_battle_for_zendikar_oath_2026-10-30.json",
-    "pack_p5_shadows_eldritch_moon_2026-10-30.json"
+    "pack_p5_shadows_eldritch_moon_2026-10-30.json",
+    "pack_p5_untagged_misc_b10_2026-10-30.json"
    ],
    "type": "Concept"
   },
@@ -76060,6 +76642,7 @@
     "pack_p5_ixalan_rivals_2026-10-30.json",
     "pack_p5_murders_at_karlov_manor_2026-10-30.json",
     "pack_p5_untagged_bios_2026-10-30.json",
+    "pack_p5_untagged_misc_b10_2026-10-30.json",
     "pack_p5_untagged_planes_2026-10-30.json",
     "pack_p5_war_spark_ravnica_2026-10-30.json"
    ],
@@ -76111,6 +76694,14 @@
    "name": "House Capashen",
    "origins": [
     "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json"
+   ],
+   "type": "Faction"
+  },
+  {
+   "id": "faction:house_dimir",
+   "name": "House Dimir",
+   "origins": [
+    "pack_p5_untagged_misc_b10_2026-10-30.json"
    ],
    "type": "Faction"
   },
@@ -76276,6 +76867,14 @@
    "type": "Faction"
   },
   {
+   "id": "faction:nel_toth",
+   "name": "Clan Nel Toth",
+   "origins": [
+    "pack_p5_untagged_misc_b10_2026-10-30.json"
+   ],
+   "type": "Faction"
+  },
+  {
    "id": "faction:omenseekers",
    "name": "Omenseekers",
    "origins": [
@@ -76371,7 +76970,8 @@
    "id": "faction:rakdos_cult",
    "name": "Cult of Rakdos",
    "origins": [
-    "pack_p5_untagged_grn_rna_2026-10-30.json"
+    "pack_p5_untagged_grn_rna_2026-10-30.json",
+    "pack_p5_untagged_misc_b10_2026-10-30.json"
    ],
    "type": "Faction"
   },
@@ -76447,6 +77047,14 @@
    "origins": [
     "pack_p5_secrets_of_strixhaven_2026-10-30.json",
     "pack_p5_strixhaven_2026-10-30.json"
+   ],
+   "type": "Faction"
+  },
+  {
+   "id": "faction:simic_combine",
+   "name": "Simic Combine",
+   "origins": [
+    "pack_p5_untagged_misc_b10_2026-10-30.json"
    ],
    "type": "Faction"
   },
@@ -77704,6 +78312,7 @@
     "pack_p5_mom_aftermath_2026-10-30.json",
     "pack_p5_shadows_eldritch_moon_2026-10-30.json",
     "pack_p5_untagged_bios_2026-10-30.json",
+    "pack_p5_untagged_misc_b10_2026-10-30.json",
     "pack_p5_untagged_planes_2026-10-30.json"
    ],
    "type": "Plane"
@@ -80152,6 +80761,72 @@
    "source_class": "WIZARDS_OFFICIAL",
    "type": "Source",
    "url": "https://magic.wizards.com/en/news/magic-story/beyond-repair"
+  },
+  {
+   "id": "source:mb_death",
+   "kind": "official_story_episode",
+   "name": "Death's Precious Moments",
+   "origins": [
+    "pack_p5_untagged_misc_b10_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/deaths-precious-moments-2018-11-07"
+  },
+  {
+   "id": "source:mb_fog",
+   "kind": "official_story_episode",
+   "name": "Under the Cover of Fog",
+   "origins": [
+    "pack_p5_untagged_misc_b10_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/under-cover-fog-2018-10-10"
+  },
+  {
+   "id": "source:mb_jace",
+   "kind": "official_story_feature",
+   "name": "Jace’s Origin: Absent Minds",
+   "origins": [
+    "pack_p5_untagged_misc_b10_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/feature/jaces-origin-absent-minds-2015-06-24"
+  },
+  {
+   "id": "source:mb_jund",
+   "kind": "official_story_episode",
+   "name": "All the Cairns of Jund",
+   "origins": [
+    "pack_p5_untagged_misc_b10_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/all-cairns-jund-2015-11-04"
+  },
+  {
+   "id": "source:mb_simic",
+   "kind": "official_story_episode",
+   "name": "The Principles of Unnatural Selection",
+   "origins": [
+    "pack_p5_untagged_misc_b10_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/principles-unnatural-selection-2019-02-06"
+  },
+  {
+   "id": "source:mb_worlds",
+   "kind": "official_story_feature",
+   "name": "The Worlds of Magic Origins",
+   "origins": [
+    "pack_p5_untagged_misc_b10_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/feature/worlds-magic-origins-2015-07-09"
   },
   {
    "id": "source:mh2_legends",
@@ -83486,37 +84161,37 @@
  "problems": [],
  "schema": "multiverse-claim-graph/v1",
  "stats": {
-  "claim_edges_with_era": 1028,
-  "claim_edges_with_in_universe_date": 27,
+  "claim_edges_with_era": 1036,
+  "claim_edges_with_in_universe_date": 29,
   "claims_by_status": {
    "ALTERNATE_CONTINUITY": 2,
-   "CANON_CONFIRMED": 798,
+   "CANON_CONFIRMED": 801,
    "CANON_DISPUTED": 8,
-   "CANON_IMPLIED": 190,
+   "CANON_IMPLIED": 195,
    "OPEN_QUESTION": 3
   },
   "curated_bridges": 119,
-  "edges": 6049,
+  "edges": 6094,
   "literal_objects": 14,
   "node_types": {
    "AlternateContinuity": 1,
-   "Card": 1371,
+   "Card": 1382,
    "CardTheme": 1,
-   "Character": 429,
-   "Claim": 1001,
+   "Character": 432,
+   "Claim": 1009,
    "Concept": 141,
    "DeckProposal": 3,
    "Event": 22,
-   "Faction": 105,
+   "Faction": 108,
    "Literal": 14,
    "Object": 47,
    "Place": 76,
    "Plane": 32,
-   "Source": 526
+   "Source": 532
   },
-  "nodes": 3769,
+  "nodes": 3800,
   "non_wizards_sources": 0,
-  "relations": 334,
-  "wizards_official_sources": 526
+  "relations": 335,
+  "wizards_official_sources": 532
  }
 }
