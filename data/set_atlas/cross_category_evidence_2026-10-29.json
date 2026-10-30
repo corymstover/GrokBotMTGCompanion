@@ -1,0 +1,113 @@
+{
+  "schema": 1,
+  "as_of": "2026-10-29",
+  "purpose": "Bounded, official-source audit of significant released paper product families whose Scryfall category is not expansion/core. Not a complete census of every supplemental product.",
+  "premier_reference": {
+    "source": "https://magic.wizards.com/en/news/announcements/magic-the-gathering-pricing-update",
+    "section": "Premier sets described as the four major yearly Standard-format releases in 2022; Masters, Modern Horizons, Secret Lair, UB discussed separately.",
+    "policy_update": "https://magic.wizards.com/en/news/announcements/aligning-the-universes-making-all-our-sets-legal-in-all-our-formats",
+    "policy_note": "2025-and-later Universes Beyond main booster content becomes Standard legal, but the change is forward-only and does not alter 2023 LTR or 2024 ACR."
+  },
+  "records": [
+    {
+      "code": "acr",
+      "group": "modern_legal_nonstandard_universes_beyond",
+      "source": "https://magic.wizards.com/en/news/feature/assassins-creed-release-notes",
+      "section": "General Notes / Card Legality",
+      "evidence_note": "ACR cards are Modern, Commander, Legacy and Vintage legal; new cards do not enter Standard/Pioneer."
+    },
+    {
+      "code": "cmm",
+      "group": "masters_reprint_product",
+      "source": "https://magic.wizards.com/en/news/making-magic/chain-of-commander-masters",
+      "section": "Master the Possibilities",
+      "evidence_note": "Wizards identifies Commander Masters as a Masters reprint set; not a mainline Standard premier release."
+    },
+    {
+      "code": "cmr",
+      "group": "commander_draft_product",
+      "source": "https://magic.wizards.com/en/products/commander-legends",
+      "section": "Commander Legends Draft Experience",
+      "evidence_note": "Commander-draft product with special booster construction, rather than normal Standard release."
+    },
+    {
+      "code": "inr",
+      "group": "remastered_reprint_product",
+      "source": "https://magic.wizards.com/en/products/innistrad-remastered",
+      "section": "Dig up fan-favorite reprints",
+      "evidence_note": "Wizards describes a remastered set of prior Innistrad reprints."
+    },
+    {
+      "code": "j22",
+      "group": "jumpstart_special_product",
+      "source": "https://magic.wizards.com/en/news/feature/jumpstart-2022-release-notes",
+      "section": "General Notes / Card Legality",
+      "evidence_note": "New J22 cards enter Eternal formats, not Standard/Pioneer/Modern."
+    },
+    {
+      "code": "ltc",
+      "group": "universes_beyond_commander_product",
+      "source": "https://magic.wizards.com/en/news/feature/the-lord-of-the-rings-tales-of-middle-earth-release-notes",
+      "section": "General Notes / Card Legality",
+      "evidence_note": "Commander companion to the LTR modern-legal full release; new LTC cards are Eternal legal."
+    },
+    {
+      "code": "ltr",
+      "group": "modern_legal_full_booster_not_2023_standard_premier",
+      "source": "https://magic.wizards.com/en/news/announcements/lord-rings-tales-middle-earthtm-format-legality-2021-08-24",
+      "section": "2023 Universes Beyond full release: Modern but not Standard",
+      "evidence_note": "Wizards describes the 2023 full product as non-Standard-legal; its Scryfall category is draft_innovation."
+    },
+    {
+      "code": "mh1",
+      "group": "modern_horizons_supplemental",
+      "source": "https://magic.wizards.com/en/news/making-magic/state-design-2019-08-26",
+      "section": "Modern Horizons / Highlights",
+      "evidence_note": "Wizards explicitly describes MH1 as supplemental instead of Standard premier."
+    },
+    {
+      "code": "mh2",
+      "group": "modern_horizons_supplemental",
+      "source": "https://magic.wizards.com/en/news/feature/modern-horizons-2-release-notes-2021-06-04",
+      "section": "General Notes / Release Information",
+      "evidence_note": "MH2 releases directly into Modern and Eternal, not Standard."
+    },
+    {
+      "code": "mh3",
+      "group": "modern_horizons_supplemental",
+      "source": "https://magic.wizards.com/en/news/feature/modern-horizons-3-release-notes",
+      "section": "General Notes / Card Legality",
+      "evidence_note": "MH3 enters Modern and Eternal rather than Standard."
+    },
+    {
+      "code": "pip",
+      "group": "universes_beyond_commander_product",
+      "source": "https://magic.wizards.com/en/news/feature/magic-the-gathering-fallout-release-notes",
+      "section": "General Notes / Card Legality",
+      "evidence_note": "Fallout PIP is Commander/Eternal legal, not a mainline Standard premiere."
+    },
+    {
+      "code": "rvr",
+      "group": "remastered_reprint_product",
+      "source": "https://magic.wizards.com/en/news/feature/collecting-ravnica-remastered",
+      "section": "Ravnica Remastered details",
+      "evidence_note": "Wizards describes an edition built of older Ravnica cards/reprints."
+    }
+  ],
+  "localized_printing_leads": [
+    {
+      "code": "fbb",
+      "status": "external_corroboration_only_primary_source_pending",
+      "source": "https://help.cardmarket.com/en/CoreSets",
+      "source_type": "third_party_specialist",
+      "notes": "Cardmarket describes localized black-bordered Revised editions with their base edition card pool, not an independent regular core edition."
+    },
+    {
+      "code": "4bb",
+      "status": "external_corroboration_only_primary_source_pending",
+      "source": "https://help.cardmarket.com/en/CoreSets",
+      "source_type": "third_party_specialist",
+      "notes": "Cardmarket describes localized Fourth Edition black-bordered printings in new languages, not a different base edition."
+    }
+  ]
+}

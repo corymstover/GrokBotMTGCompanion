@@ -60,6 +60,28 @@ Of 81 dated, released, nondigital Scryfall `expansion`/`core` candidates, **80**
 
 Read-only replay: `python3 scripts/audit_wotc_mid_sets.py`; unit tests: `python3 -m unittest discover -s tests -p test_wotc_mid_sets.py -v`.
 
+## Cross-category release and product-family audit
+
+The [complete 1,062-code October 29 Scryfall category audit](data/set_atlas/cross_category_audit_2026-10-29.json) is generated from the dated, normalized [Scryfall product catalog](data/set_atlas/product_catalog_2026-10-29.json) and conserves all codes in **four mutually exclusive buckets**:
+
+| October 29, 2026 category | Codes |
+| --- | ---: |
+| Released paper, Scryfall `expansion` or `core` | 142 |
+| Released paper, **all other Scryfall categories** | 848 |
+| Released digital-only codes | 62 |
+| Announced but future-dated codes | 10 |
+| **All Scryfall set codes** | **1,062** |
+
+The 848 includes promos, tokens, reprints, Masters, Commander, Jumpstart, and other categories. This does **not** mean there are 848 additional premiere sets.
+
+A [12-code, Wizards-source-backed supplemental review](data/set_atlas/cross_category_evidence_2026-10-29.json) demonstrates why category distinctions matter. It recognizes *The Lord of the Rings: Tales of Middle-earth* (`LTR`) as a large **Modern-legal, non-Standard** 2023 booster release, not a 2023 Standard-premier set; *Assassin's Creed* (`ACR`) and the three Modern Horizons sets as non-Standard Modern releases; Commander Masters and remastered sets as reprint products; and Jumpstart, Commander, and Commander Legends as different release families. Their official product or release notes and the exact support for each classification are linked in the evidence ledger.
+
+Official contemporaneous policy: [Wizards' 2022 definition of premier releases](https://magic.wizards.com/en/news/announcements/magic-the-gathering-pricing-update) refers to four major annual Standard releases, while excluding supplemental lines. [Wizards' change announced in 2024 for Universes Beyond releases in 2025 and later](https://magic.wizards.com/en/news/announcements/aligning-the-universes-making-all-our-sets-legal-in-all-our-formats) was explicitly forward-only; it does not retroactively add LTR or ACR to the original Standard releases.
+
+**Remaining research:** 836 outside-category paper set codes still lack this individual Wizards-source review, and the two early foreign-language border sets `FBB` and `4BB` still need direct Wizards verification. [Cardmarket's Core Sets guide](https://help.cardmarket.com/en/CoreSets) independently corroborates their status as localized black-border printings of existing Revised and Fourth Edition, but this **third-party account is not primary evidence** and does not close the official-source gate. The headline **136** remains the scoped historically regular/mainline `expansion`/`core` total—not a universal all-time premier-set count.
+
+Regenerate or verify the dated category report with `python3 scripts/audit_set_cross_category.py`. It does not require a Scryfall download and does not mutate the historical Grixis snapshot.
+
 ## Read-only lookups
 
 On a checkout of this repository, no Scryfall download is needed for the following commands:

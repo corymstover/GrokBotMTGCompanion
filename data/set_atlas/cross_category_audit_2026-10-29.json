@@ -1,0 +1,307 @@
+{
+  "all_code_census": {
+    "category_representative_examples": {
+      "alchemy": {
+        "code": "hbg",
+        "name": "Alchemy Horizons: Baldur's Gate"
+      },
+      "archenemy": {
+        "code": "arc",
+        "name": "Archenemy"
+      },
+      "arsenal": {
+        "code": "cc1",
+        "name": "Commander Collection: Green"
+      },
+      "box": {
+        "code": "aa1",
+        "name": "Arena Anthology 1"
+      },
+      "commander": {
+        "code": "40k",
+        "name": "Warhammer 40,000 Commander"
+      },
+      "core": {
+        "code": "10e",
+        "name": "Tenth Edition"
+      },
+      "draft_innovation": {
+        "code": "acr",
+        "name": "Assassin's Creed"
+      },
+      "duel_deck": {
+        "code": "dd1",
+        "name": "Duel Decks: Elves vs. Goblins"
+      },
+      "eternal": {
+        "code": "bot",
+        "name": "Transformers"
+      },
+      "expansion": {
+        "code": "5dn",
+        "name": "Fifth Dawn"
+      },
+      "from_the_vault": {
+        "code": "drb",
+        "name": "From the Vault: Dragons"
+      },
+      "funny": {
+        "code": "cmb1",
+        "name": "Mystery Booster Playtest Cards 2019"
+      },
+      "masterpiece": {
+        "code": "brr",
+        "name": "The Brothers' War Retro Artifacts"
+      },
+      "masters": {
+        "code": "2x2",
+        "name": "Double Masters 2022"
+      },
+      "memorabilia": {
+        "code": "30a",
+        "name": "30th Anniversary Edition"
+      },
+      "minigame": {
+        "code": "macr",
+        "name": "Assassin's Creed Minigames"
+      },
+      "planechase": {
+        "code": "hop",
+        "name": "Planechase"
+      },
+      "premium_deck": {
+        "code": "h09",
+        "name": "Premium Deck Series: Slivers"
+      },
+      "promo": {
+        "code": "dci",
+        "name": "DCI Promos"
+      },
+      "spellbook": {
+        "code": "ss1",
+        "name": "Signature Spellbook: Jace"
+      },
+      "starter": {
+        "code": "ajmp",
+        "name": "Jumpstart Arena Exclusives"
+      },
+      "token": {
+        "code": "l12",
+        "name": "League Tokens 2012"
+      },
+      "treasure_chest": {
+        "code": "pz1",
+        "name": "Legendary Cube Prize Pack"
+      },
+      "vanguard": {
+        "code": "pmoa",
+        "name": "Magic Online Avatars"
+      }
+    },
+    "scryfall_category_totals_including_digital_and_future": {
+      "alchemy": 19,
+      "archenemy": 4,
+      "arsenal": 3,
+      "box": 44,
+      "commander": 46,
+      "core": 25,
+      "draft_innovation": 19,
+      "duel_deck": 27,
+      "eternal": 6,
+      "expansion": 120,
+      "from_the_vault": 10,
+      "funny": 22,
+      "masterpiece": 19,
+      "masters": 32,
+      "memorabilia": 102,
+      "minigame": 15,
+      "planechase": 6,
+      "premium_deck": 3,
+      "promo": 301,
+      "spellbook": 3,
+      "starter": 15,
+      "token": 217,
+      "treasure_chest": 2,
+      "vanguard": 2
+    },
+    "status_exclusive_partitions": {
+      "digital_only_released": 62,
+      "future_announced": 10,
+      "released_nondigital_expansion_core": 142,
+      "released_nondigital_other_categories": 848
+    },
+    "total_all_scryfall_codes": 1062
+  },
+  "caveats": [
+    "The 848 released paper set codes outside expansion/core include supplemental, tokens, promos and numerous non-premier product families; they are not 848 standalone booster sets.",
+    "The 12 reviewed outside-category records are bounded examples, not a certification of every code in the 848-code discovery pool.",
+    "The 136 reviewed expansion/core regular/mainline codes remain a category-specific count, not a universal 1993–2026 premier census.",
+    "Wizards' 2022 premier/Standard definition and 2025 forward-only Universes Beyond policy must both be applied with dated context.",
+    "Neither Scryfall set_type nor mere Modern legality proves an item to be a premier release.",
+    "Specialist sources corroborate FBB/4BB localized edition relationships but the project still lacks direct Wizards verification; those statuses remain provisional.",
+    "This is a dated October 29, 2026 catalog, not a current live legality or product count."
+  ],
+  "localized_printing_variants": [
+    {
+      "code": "fbb",
+      "notes": "Cardmarket describes localized black-bordered Revised editions with their base edition card pool, not an independent regular core edition.",
+      "source": "https://help.cardmarket.com/en/CoreSets",
+      "source_type": "third_party_specialist",
+      "status": "external_corroboration_only_primary_source_pending"
+    },
+    {
+      "code": "4bb",
+      "notes": "Cardmarket describes localized Fourth Edition black-bordered printings in new languages, not a different base edition.",
+      "source": "https://help.cardmarket.com/en/CoreSets",
+      "source_type": "third_party_specialist",
+      "status": "external_corroboration_only_primary_source_pending"
+    }
+  ],
+  "premier_policy": {
+    "policy_note": "2025-and-later Universes Beyond main booster content becomes Standard legal, but the change is forward-only and does not alter 2023 LTR or 2024 ACR.",
+    "policy_update": "https://magic.wizards.com/en/news/announcements/aligning-the-universes-making-all-our-sets-legal-in-all-our-formats",
+    "section": "Premier sets described as the four major yearly Standard-format releases in 2022; Masters, Modern Horizons, Secret Lair, UB discussed separately.",
+    "source": "https://magic.wizards.com/en/news/announcements/magic-the-gathering-pricing-update"
+  },
+  "primary_evidence": "cross_category_evidence_2026-10-29.json",
+  "purpose": "Audit officially sourced non-premier full products outside the Scryfall expansion/core set type, while keeping a complete categorical census",
+  "reviewed_count": 12,
+  "reviewed_non_expansion_core_products": [
+    {
+      "code": "acr",
+      "name": "Assassin's Creed",
+      "note": "ACR cards are Modern, Commander, Legacy and Vintage legal; new cards do not enter Standard/Pioneer.",
+      "premier_inference": "not_a_2023_2024_standard_main_release",
+      "product_group": "modern_legal_nonstandard_universes_beyond",
+      "release_date": "2024-07-05",
+      "scryfall_set_type": "draft_innovation",
+      "source_section": "General Notes / Card Legality",
+      "source_url": "https://magic.wizards.com/en/news/feature/assassins-creed-release-notes"
+    },
+    {
+      "code": "cmm",
+      "name": "Commander Masters",
+      "note": "Wizards identifies Commander Masters as a Masters reprint set; not a mainline Standard premier release.",
+      "premier_inference": "not_a_2023_2024_standard_main_release",
+      "product_group": "masters_reprint_product",
+      "release_date": "2023-08-04",
+      "scryfall_set_type": "masters",
+      "source_section": "Master the Possibilities",
+      "source_url": "https://magic.wizards.com/en/news/making-magic/chain-of-commander-masters"
+    },
+    {
+      "code": "cmr",
+      "name": "Commander Legends",
+      "note": "Commander-draft product with special booster construction, rather than normal Standard release.",
+      "premier_inference": "not_a_2023_2024_standard_main_release",
+      "product_group": "commander_draft_product",
+      "release_date": "2020-11-20",
+      "scryfall_set_type": "draft_innovation",
+      "source_section": "Commander Legends Draft Experience",
+      "source_url": "https://magic.wizards.com/en/products/commander-legends"
+    },
+    {
+      "code": "inr",
+      "name": "Innistrad Remastered",
+      "note": "Wizards describes a remastered set of prior Innistrad reprints.",
+      "premier_inference": "not_a_2023_2024_standard_main_release",
+      "product_group": "remastered_reprint_product",
+      "release_date": "2025-01-24",
+      "scryfall_set_type": "masters",
+      "source_section": "Dig up fan-favorite reprints",
+      "source_url": "https://magic.wizards.com/en/products/innistrad-remastered"
+    },
+    {
+      "code": "j22",
+      "name": "Jumpstart 2022",
+      "note": "New J22 cards enter Eternal formats, not Standard/Pioneer/Modern.",
+      "premier_inference": "not_a_2023_2024_standard_main_release",
+      "product_group": "jumpstart_special_product",
+      "release_date": "2022-12-02",
+      "scryfall_set_type": "draft_innovation",
+      "source_section": "General Notes / Card Legality",
+      "source_url": "https://magic.wizards.com/en/news/feature/jumpstart-2022-release-notes"
+    },
+    {
+      "code": "ltc",
+      "name": "Tales of Middle-earth Commander",
+      "note": "Commander companion to the LTR modern-legal full release; new LTC cards are Eternal legal.",
+      "premier_inference": "not_a_2023_2024_standard_main_release",
+      "product_group": "universes_beyond_commander_product",
+      "release_date": "2023-06-23",
+      "scryfall_set_type": "commander",
+      "source_section": "General Notes / Card Legality",
+      "source_url": "https://magic.wizards.com/en/news/feature/the-lord-of-the-rings-tales-of-middle-earth-release-notes"
+    },
+    {
+      "code": "ltr",
+      "name": "The Lord of the Rings: Tales of Middle-earth",
+      "note": "Wizards describes the 2023 full product as non-Standard-legal; its Scryfall category is draft_innovation.",
+      "premier_inference": "not_a_2023_2024_standard_main_release",
+      "product_group": "modern_legal_full_booster_not_2023_standard_premier",
+      "release_date": "2023-06-23",
+      "scryfall_set_type": "draft_innovation",
+      "source_section": "2023 Universes Beyond full release: Modern but not Standard",
+      "source_url": "https://magic.wizards.com/en/news/announcements/lord-rings-tales-middle-earthtm-format-legality-2021-08-24"
+    },
+    {
+      "code": "mh1",
+      "name": "Modern Horizons",
+      "note": "Wizards explicitly describes MH1 as supplemental instead of Standard premier.",
+      "premier_inference": "not_a_2023_2024_standard_main_release",
+      "product_group": "modern_horizons_supplemental",
+      "release_date": "2019-06-14",
+      "scryfall_set_type": "draft_innovation",
+      "source_section": "Modern Horizons / Highlights",
+      "source_url": "https://magic.wizards.com/en/news/making-magic/state-design-2019-08-26"
+    },
+    {
+      "code": "mh2",
+      "name": "Modern Horizons 2",
+      "note": "MH2 releases directly into Modern and Eternal, not Standard.",
+      "premier_inference": "not_a_2023_2024_standard_main_release",
+      "product_group": "modern_horizons_supplemental",
+      "release_date": "2021-06-18",
+      "scryfall_set_type": "draft_innovation",
+      "source_section": "General Notes / Release Information",
+      "source_url": "https://magic.wizards.com/en/news/feature/modern-horizons-2-release-notes-2021-06-04"
+    },
+    {
+      "code": "mh3",
+      "name": "Modern Horizons 3",
+      "note": "MH3 enters Modern and Eternal rather than Standard.",
+      "premier_inference": "not_a_2023_2024_standard_main_release",
+      "product_group": "modern_horizons_supplemental",
+      "release_date": "2024-06-14",
+      "scryfall_set_type": "draft_innovation",
+      "source_section": "General Notes / Card Legality",
+      "source_url": "https://magic.wizards.com/en/news/feature/modern-horizons-3-release-notes"
+    },
+    {
+      "code": "pip",
+      "name": "Fallout",
+      "note": "Fallout PIP is Commander/Eternal legal, not a mainline Standard premiere.",
+      "premier_inference": "not_a_2023_2024_standard_main_release",
+      "product_group": "universes_beyond_commander_product",
+      "release_date": "2024-03-08",
+      "scryfall_set_type": "commander",
+      "source_section": "General Notes / Card Legality",
+      "source_url": "https://magic.wizards.com/en/news/feature/magic-the-gathering-fallout-release-notes"
+    },
+    {
+      "code": "rvr",
+      "name": "Ravnica Remastered",
+      "note": "Wizards describes an edition built of older Ravnica cards/reprints.",
+      "premier_inference": "not_a_2023_2024_standard_main_release",
+      "product_group": "remastered_reprint_product",
+      "release_date": "2024-01-12",
+      "scryfall_set_type": "masters",
+      "source_section": "Ravnica Remastered details",
+      "source_url": "https://magic.wizards.com/en/news/feature/collecting-ravnica-remastered"
+    }
+  ],
+  "schema": 1,
+  "snapshot_date": "2026-10-29",
+  "source_catalog": "product_catalog_2026-10-29.json",
+  "unreviewed_released_nondigital_other_category_codes": 836
+}
