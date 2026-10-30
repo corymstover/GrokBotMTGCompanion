@@ -691,6 +691,23 @@
    ]
   },
   {
+   "entity": "atarka",
+   "entity_type": "Character",
+   "entity_name": "Atarka",
+   "aliases": [
+    "Atarka"
+   ],
+   "pack": "pack_p5_untagged_tarkir_zendikar_guides_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Atarka, World Render",
+     "oracle_id": "c0b3bbce-977c-42a9-afcb-dabdfc717c97",
+     "type_line": "Legendary Creature — Dragon",
+     "scryfall_uri": "https://scryfall.com/card/tdc/281/atarka-world-render"
+    }
+   ]
+  },
+  {
    "entity": "atraxa",
    "entity_type": "Character",
    "entity_name": "Atraxa",
@@ -1252,6 +1269,23 @@
    ]
   },
   {
+   "entity": "chronomaton",
+   "entity_type": "Object",
+   "entity_name": "Chronomaton",
+   "aliases": [
+    "Chronomaton"
+   ],
+   "pack": "pack_p5_untagged_m13_2012_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Chronomaton",
+     "oracle_id": "610f25b0-770f-457a-b0eb-6deb832f71d4",
+     "type_line": "Artifact Creature — Golem",
+     "scryfall_uri": "https://scryfall.com/card/ddm/2/chronomaton"
+    }
+   ]
+  },
+  {
    "entity": "cori_mountain_monastery",
    "entity_type": "Place",
    "entity_name": "Cori Mountain Monastery",
@@ -1580,6 +1614,23 @@
      "oracle_id": "73520b5a-3d55-40c9-af60-90fdd811934f",
      "type_line": "Legendary Creature — Dragon",
      "scryfall_uri": "https://scryfall.com/card/c17/170/dromoka-the-eternal"
+    }
+   ]
+  },
+  {
+   "entity": "dyfed",
+   "entity_type": "Character",
+   "entity_name": "Dyfed",
+   "aliases": [
+    "Dyfed"
+   ],
+   "pack": "pack_p5_untagged_worldsoul_multiverse_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Dyfed, the Guiding Hand",
+     "oracle_id": "ab23a9e4-2d62-4b01-9d52-593de40811b0",
+     "type_line": "Legendary Planeswalker — Dyfed",
+     "scryfall_uri": "https://scryfall.com/card/mbc/7/dyfed-the-guiding-hand"
     }
    ]
   },
@@ -2020,6 +2071,23 @@
      "oracle_id": "1799d361-85e7-4c04-aa04-6f83e6499573",
      "type_line": "Plane — New Phyrexia",
      "scryfall_uri": "https://scryfall.com/card/opca/26/furnace-layer"
+    }
+   ]
+  },
+  {
+   "entity": "garruk_wildspeaker",
+   "entity_type": "Character",
+   "entity_name": "Garruk Wildspeaker",
+   "aliases": [
+    "Garruk Wildspeaker"
+   ],
+   "pack": "pack_p5_untagged_m13_2012_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Garruk Wildspeaker",
+     "oracle_id": "186b4def-4fff-4a2b-bcbf-5318b0ac5fa9",
+     "type_line": "Legendary Planeswalker — Garruk",
+     "scryfall_uri": "https://scryfall.com/card/cmd/157/garruk-wildspeaker"
     }
    ]
   },
@@ -2806,6 +2874,23 @@
      "oracle_id": "c63b3511-d597-4c6e-9094-eabdeaa8a394",
      "type_line": "Legendary Creature — Human Wizard // Sorcery",
      "scryfall_uri": "https://scryfall.com/card/sos/55/jadzi-steward-of-fate-oracles-gift"
+    }
+   ]
+  },
+  {
+   "entity": "jalira",
+   "entity_type": "Character",
+   "entity_name": "Jalira",
+   "aliases": [
+    "Jalira"
+   ],
+   "pack": "pack_p5_untagged_stories_2014_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Jalira, Master Polymorphist",
+     "oracle_id": "62ad15f1-ee51-4991-8e52-06a3cbd8f395",
+     "type_line": "Legendary Creature — Human Wizard",
+     "scryfall_uri": "https://scryfall.com/card/a25/63/jalira-master-polymorphist"
     }
    ]
   },
@@ -4493,6 +4578,40 @@
    ]
   },
   {
+   "entity": "murasa",
+   "entity_type": "Place",
+   "entity_name": "Murasa",
+   "aliases": [
+    "Murasa"
+   ],
+   "pack": "pack_p5_untagged_tarkir_zendikar_guides_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Murasa",
+     "oracle_id": "07cc253d-e23c-450c-bfaf-5cb6a3a588ce",
+     "type_line": "Plane — Zendikar",
+     "scryfall_uri": "https://scryfall.com/card/opca/53/murasa"
+    }
+   ]
+  },
+  {
+   "entity": "muzzio",
+   "entity_type": "Character",
+   "entity_name": "Muzzio",
+   "aliases": [
+    "Muzzio"
+   ],
+   "pack": "pack_p5_untagged_stories_2014_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Muzzio, Visionary Architect",
+     "oracle_id": "fc2768a5-621b-48de-9160-4dbaeddb3de1",
+     "type_line": "Legendary Creature — Human Artificer",
+     "scryfall_uri": "https://scryfall.com/card/vma/82/muzzio-visionary-architect"
+    }
+   ]
+  },
+  {
    "entity": "nahiri",
    "entity_type": "Character",
    "entity_name": "Nahiri, the Lithomancer",
@@ -4720,6 +4839,23 @@
      "oracle_id": "781162c4-9c0f-436c-b9a5-214e60e009e4",
      "type_line": "Legendary Planeswalker — Niko",
      "scryfall_uri": "https://scryfall.com/card/khm/225/niko-aris"
+    }
+   ]
+  },
+  {
+   "entity": "nikya",
+   "entity_type": "Character",
+   "entity_name": "Nikya",
+   "aliases": [
+    "Nikya"
+   ],
+   "pack": "pack_p5_untagged_worldsoul_multiverse_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Nikya of the Old Ways",
+     "oracle_id": "ebf3fd80-9574-489b-9428-f4251834bdc4",
+     "type_line": "Legendary Creature — Centaur Druid",
+     "scryfall_uri": "https://scryfall.com/card/rna/193/nikya-of-the-old-ways"
     }
    ]
   },
@@ -6301,6 +6437,23 @@
    ]
   },
   {
+   "entity": "silumgar",
+   "entity_type": "Character",
+   "entity_name": "Silumgar",
+   "aliases": [
+    "Silumgar"
+   ],
+   "pack": "pack_p5_untagged_tarkir_zendikar_guides_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Silumgar, the Drifting Death",
+     "oracle_id": "b26c91d9-87de-45f7-a24c-bbe0cef3a35c",
+     "type_line": "Legendary Creature — Dragon",
+     "scryfall_uri": "https://scryfall.com/card/c17/194/silumgar-the-drifting-death"
+    }
+   ]
+  },
+  {
    "entity": "sisay",
    "entity_type": "Character",
    "entity_name": "Captain Sisay",
@@ -6546,6 +6699,23 @@
    ]
   },
   {
+   "entity": "talrand",
+   "entity_type": "Character",
+   "entity_name": "Talrand",
+   "aliases": [
+    "Talrand"
+   ],
+   "pack": "pack_p5_untagged_m13_2012_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Talrand, Sky Summoner",
+     "oracle_id": "ea1eb902-a23c-44ff-9169-19baf71de238",
+     "type_line": "Legendary Creature — Merfolk Wizard",
+     "scryfall_uri": "https://scryfall.com/card/otc/116/talrand-sky-summoner"
+    }
+   ]
+  },
+  {
    "entity": "tam",
    "entity_type": "Character",
    "entity_name": "Tam (Tamira)",
@@ -6704,6 +6874,23 @@
      "oracle_id": "48cce741-cfbd-4ed9-a7ac-38880867a286",
      "type_line": "Legendary Creature — Human Artificer",
      "scryfall_uri": "https://scryfall.com/card/bro/222/tawnos-the-toymaker"
+    }
+   ]
+  },
+  {
+   "entity": "tazeem",
+   "entity_type": "Place",
+   "entity_name": "Tazeem",
+   "aliases": [
+    "Tazeem"
+   ],
+   "pack": "pack_p5_untagged_tarkir_zendikar_guides_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Tazeem",
+     "oracle_id": "97f708de-9271-4137-a9fe-dda25b922900",
+     "type_line": "Plane — Zendikar",
+     "scryfall_uri": "https://scryfall.com/card/opca/78/tazeem"
     }
    ]
   },
@@ -7729,6 +7916,23 @@
    ]
   },
   {
+   "entity": "vronos",
+   "entity_type": "Character",
+   "entity_name": "Vronos",
+   "aliases": [
+    "Vronos"
+   ],
+   "pack": "pack_p5_untagged_stories_2014_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Vronos, Masked Inquisitor",
+     "oracle_id": "86851bdb-9b2f-4407-97a1-a6a9f2e0ef66",
+     "type_line": "Legendary Planeswalker — Vronos",
+     "scryfall_uri": "https://scryfall.com/card/cmm/729/vronos-masked-inquisitor"
+    }
+   ]
+  },
+  {
    "entity": "weatherlight",
    "entity_type": "Object",
    "entity_name": "Weatherlight (skyship)",
@@ -7913,6 +8117,23 @@
    ]
   },
   {
+   "entity": "yisan",
+   "entity_type": "Character",
+   "entity_name": "Yisan",
+   "aliases": [
+    "Yisan"
+   ],
+   "pack": "pack_p5_untagged_stories_2014_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Yisan, the Wanderer Bard",
+     "oracle_id": "7f4b0233-a2b0-41a2-8448-2df1f845148c",
+     "type_line": "Legendary Creature — Human Rogue Bard",
+     "scryfall_uri": "https://scryfall.com/card/cmm/334/yisan-the-wanderer-bard"
+    }
+   ]
+  },
+  {
    "entity": "yorvo",
    "entity_type": "Character",
    "entity_name": "Yorvo",
@@ -8083,6 +8304,7 @@
   "amalia",
   "amarth_tel",
   "amelia",
+  "an_karras",
   "apatzec_intli",
   "archmage_ghavos",
   "ardenvale",
@@ -8092,20 +8314,26 @@
   "auntie_grub",
   "ayya",
   "baishya",
+  "bala_ged",
   "bartolome",
+  "bazzle",
   "beckett_brass",
   "belzenlok",
   "belzenlok_death",
   "bertram_graywater",
   "blackblade",
   "blood_avatar",
+  "brandt",
   "buried_lord",
   "calamity_beast_egg",
+  "carta_scientia",
   "cauldron_of_eternity",
+  "cecilee",
   "cerys",
   "chacanto_intli",
   "chopright_colony",
   "coffey",
+  "coralhelm",
   "corondor_chasm",
   "cragflame",
   "cruelclaw",
@@ -8118,6 +8346,8 @@
   "dhiren_baral",
   "dmu_sheoldred_invasion",
   "don_revari",
+  "dovid",
+  "dragons_eye_sanctuary",
   "dragonstorm_escape",
   "drana",
   "drannith",
@@ -8126,6 +8356,7 @@
   "eclipsed_realms",
   "eiganjo",
   "eiko",
+  "einolf_brandt",
   "elamon",
   "elgaud_grounds",
   "elnor",
@@ -8133,20 +8364,29 @@
   "embrose_lu",
   "emeria_skyclave",
   "eric_kenrith",
+  "ervos_trax",
+  "eula_blue",
   "evendo",
   "fannessa",
   "far_corner",
   "farakatolar",
   "first_phyrexian_invasion",
+  "first_tree",
+  "frederic",
   "garenbrig",
+  "gatstaf",
   "geldan",
   "gethin",
   "ghan",
   "ghirapur_grand_prix",
   "ghirapur_revolution",
   "great_henge",
+  "grete",
+  "guul_draz",
   "hailin",
+  "halimar",
   "halo",
+  "hamadi",
   "harriers_wood",
   "hazel_kenrith",
   "hedron_network",
@@ -8157,17 +8397,24 @@
   "high_king_kenrith",
   "hurrik",
   "ice_age",
+  "ilagra",
   "immortal_sun",
   "imperial_palace",
   "innistrad_silver_moon",
+  "irie",
   "iris_oracle",
   "isilu",
   "istfell",
   "jarad_vod_savo",
+  "javy",
   "jilesa_clarus",
   "kael",
+  "kalyntri",
+  "kapsho",
   "kavaron",
   "kayla_bin_kroog",
+  "kazandu",
+  "kel_teth",
   "kela",
   "kellan_boldt",
   "keral_keep",
@@ -8179,13 +8426,18 @@
   "king_glarb",
   "kiran_nalaar",
   "kitt",
+  "kolman",
   "kroog_destruction",
   "kuberr",
+  "kuhnde",
+  "kuma",
   "kwaro",
   "kytheon",
   "lake_zhava",
   "last_battle_argoth",
   "last_thing_android",
+  "lesh",
+  "lewenhart",
   "liliana_doppelganger",
   "lily_of_the_valley",
   "linden",
@@ -8200,6 +8452,7 @@
   "maha",
   "mahitab",
   "makindi",
+  "malakir",
   "maree",
   "markov_manor",
   "mehtma",
@@ -8214,6 +8467,8 @@
   "naiva",
   "nakht",
   "niharet",
+  "nimana",
+  "nira",
   "nishang",
   "njala",
   "norika",
@@ -8222,7 +8477,9 @@
   "ondu",
   "ondu_skyclave",
   "one_sylex",
+  "oran_rief",
   "orazca",
+  "oret",
   "original_tarkir_clash",
   "paala",
   "pachatupa",
@@ -8240,24 +8497,32 @@
   "reality_chip",
   "realmbreaker",
   "reen",
+  "relov",
   "reza",
   "riders_lock",
   "rill",
+  "riza",
+  "roricus",
   "rtd_sylex",
   "rudra",
+  "ruzi",
   "saint_traft",
   "savai_settlements",
+  "sentos",
   "serenok",
   "setessa",
   "shadowmoor_aspect",
   "shadowspear",
   "shevara",
   "sinnia",
+  "skormak",
   "skysovereign",
+  "sobeslav",
   "sothera",
   "sotheran_supervoid",
   "spire_inquirium",
   "starkes_daughter",
+  "strefan_maurer",
   "summitfest",
   "sungold_lock",
   "susur_secundi",
@@ -8270,6 +8535,7 @@
   "tangle",
   "tarkir_duel",
   "tarkir_rewrite",
+  "tarsa",
   "teferis_spark_stone",
   "temporal_rifts_mending",
   "teyo_verada",
@@ -8279,10 +8545,13 @@
   "the_silence_theros",
   "theros_underworld",
   "thraben",
+  "thunder_gap",
+  "thune",
   "thura",
   "titsui",
   "tomik_vrona",
   "torrezon",
+  "travelers_noticeboard",
   "trest",
   "tynthal",
   "ugins_gem",
@@ -8290,11 +8559,14 @@
   "ulvenwald",
   "valley",
   "vantress",
+  "vasi",
   "vona",
   "vorik",
   "war_of_the_spark_end",
   "weatherlight_powerstone",
+  "weslyn",
   "wicked_slumber",
+  "wingthrone",
   "wrenn",
   "xenocrates",
   "zhalfir"
@@ -8303,14 +8575,15 @@
   "Arvad of the Weatherlight",
   "Ghirapur Grand Prix",
   "Kaya, Ghost Haunter",
+  "Nira, Hellkite Duelist",
   "Rankle, Master of Pranksters",
   "Tibalt the Chaotic",
   "Urza, Academy Headmaster"
  ],
  "counts": {
-  "entities_anchored": 361,
-  "anchor_edges": 681,
-  "unanchored_entities": 224
+  "entities_anchored": 374,
+  "anchor_edges": 694,
+  "unanchored_entities": 275
  },
- "content_sha256": "c6d4a191f13e3d97467e33e9ed367435da5932533414c0240f7ecf1f9ae1eec2"
+ "content_sha256": "dc1d70a44f6e3d6b50e70e8bf214f50a8ce2d6ede082a44829cdb4fe301d7f95"
 }

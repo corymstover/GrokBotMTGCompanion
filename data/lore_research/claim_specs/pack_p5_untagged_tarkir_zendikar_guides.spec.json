@@ -1,0 +1,563 @@
+{
+ "pack_id": "pack_p5_untagged_tarkir_zendikar_guides",
+ "arc": "",
+ "event_stage": "tarkir_guides_2014_2015_zendikar_guides_2009_znr_2020",
+ "scope": "Batch 11 extraction from the untagged Planeswalker's Guides to Khans of Tarkir (parts 1-2, 2014) and Dragons of Tarkir (parts 1-2, 2015), A Planeswalker's Guide to Zendikar and its Murasa and Sejiri chapter (2009), and three Zendikar Rising 2020 side stories (Race to Murasa Skyclave, Magosi Steps, Hunger). Khans-era claims describe the original timeline; Dragons-era claims describe the rewritten timeline after Fate Reforged. PRELIMINARY_RESEARCH; targeted, not exhaustive; not owner approved.",
+ "pages": {
+  "k1": "planeswalkers-guide-khans-tarkir-part-1-2014-09-03",
+  "k2": "planeswalkers-guide-khans-tarkir-part-2-2014-09-10",
+  "d1": "planeswalkers-guide-dragons-tarkir-part-1-2015-03-11",
+  "d2": "planeswalkers-guide-dragons-tarkir-part-2-2015-03-18",
+  "z": "a-planeswalkers-guide-to-zendikar",
+  "zm": "a-planeswalkers-guide-to-zendikar-murasa-and-sejiri",
+  "e2": "episode-2-race-murasa-skyclave-2020-09-09",
+  "ms": "magosi-steps-2020-09-10",
+  "hu": "hunger-2020-09-25"
+ },
+ "entities": [
+  {
+   "id": "anafenza",
+   "type": "Character",
+   "name": "Anafenza"
+  },
+  {
+   "id": "abzan",
+   "type": "Faction",
+   "name": "Abzan"
+  },
+  {
+   "id": "narset",
+   "type": "Character",
+   "name": "Narset"
+  },
+  {
+   "id": "jeskai",
+   "type": "Faction",
+   "name": "Jeskai"
+  },
+  {
+   "id": "zurgo",
+   "type": "Character",
+   "name": "Zurgo"
+  },
+  {
+   "id": "mardu",
+   "type": "Faction",
+   "name": "Mardu"
+  },
+  {
+   "id": "first_tree",
+   "type": "Place",
+   "name": "First Tree"
+  },
+  {
+   "id": "ilagra",
+   "type": "Character",
+   "name": "Ilagra"
+  },
+  {
+   "id": "wingthrone",
+   "type": "Place",
+   "name": "Wingthrone"
+  },
+  {
+   "id": "surrak",
+   "type": "Character",
+   "name": "Surrak"
+  },
+  {
+   "id": "temur",
+   "type": "Faction",
+   "name": "Temur"
+  },
+  {
+   "id": "ojutai",
+   "type": "Character",
+   "name": "Ojutai"
+  },
+  {
+   "id": "dragons_eye_sanctuary",
+   "type": "Place",
+   "name": "Dragon's Eye Sanctuary"
+  },
+  {
+   "id": "silumgar",
+   "type": "Character",
+   "name": "Silumgar"
+  },
+  {
+   "id": "sultai",
+   "type": "Faction",
+   "name": "Sultai"
+  },
+  {
+   "id": "dromoka",
+   "type": "Character",
+   "name": "Dromoka"
+  },
+  {
+   "id": "atarka",
+   "type": "Character",
+   "name": "Atarka"
+  },
+  {
+   "id": "kolaghan",
+   "type": "Character",
+   "name": "Kolaghan"
+  },
+  {
+   "id": "joraga",
+   "type": "Faction",
+   "name": "Joraga elves"
+  },
+  {
+   "id": "mul_daya",
+   "type": "Faction",
+   "name": "Mul Daya elves"
+  },
+  {
+   "id": "bala_ged",
+   "type": "Place",
+   "name": "Bala Ged"
+  },
+  {
+   "id": "zendikar_vampires",
+   "type": "Faction",
+   "name": "Zendikar vampires"
+  },
+  {
+   "id": "guul_draz",
+   "type": "Place",
+   "name": "Guul Draz"
+  },
+  {
+   "id": "malakir",
+   "type": "Place",
+   "name": "Malakir"
+  },
+  {
+   "id": "tazeem",
+   "type": "Place",
+   "name": "Tazeem"
+  },
+  {
+   "id": "oran_rief",
+   "type": "Place",
+   "name": "Oran-Rief"
+  },
+  {
+   "id": "halimar",
+   "type": "Place",
+   "name": "Halimar"
+  },
+  {
+   "id": "tajuru",
+   "type": "Faction",
+   "name": "Tajuru elves"
+  },
+  {
+   "id": "thunder_gap",
+   "type": "Place",
+   "name": "Thunder Gap"
+  },
+  {
+   "id": "murasa",
+   "type": "Place",
+   "name": "Murasa"
+  },
+  {
+   "id": "kazandu",
+   "type": "Place",
+   "name": "Kazandu"
+  },
+  {
+   "id": "kesenya",
+   "type": "Character",
+   "name": "Kesenya"
+  },
+  {
+   "id": "sea_gate_expeditionary_house",
+   "type": "Faction",
+   "name": "Sea Gate Expeditionary House"
+  },
+  {
+   "id": "akiri",
+   "type": "Character",
+   "name": "Akiri"
+  },
+  {
+   "id": "zareth",
+   "type": "Character",
+   "name": "Zareth San"
+  },
+  {
+   "id": "coralhelm",
+   "type": "Place",
+   "name": "Coralhelm"
+  },
+  {
+   "id": "tarsa",
+   "type": "Character",
+   "name": "Tarsa"
+  },
+  {
+   "id": "nimana",
+   "type": "Place",
+   "name": "Nimana"
+  }
+ ],
+ "claims": [
+  {
+   "id": "TZ001",
+   "subject": "anafenza",
+   "predicate": "leader_of",
+   "object": "abzan",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "k1",
+     "quote": "Anafenza, the khan of the Abzan, rides into battle atop a heavy chariot pulled by her two prized ibex."
+    }
+   ],
+   "summary": "Anafenza is khan of the Abzan (Khans of Tarkir original timeline, 2014)."
+  },
+  {
+   "id": "TZ002",
+   "subject": "narset",
+   "predicate": "leader_of",
+   "object": "jeskai",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "k1",
+     "quote": "Clan Leader Narset is the khan of the Jeskai."
+    }
+   ],
+   "summary": "Narset is khan of the Jeskai (Khans of Tarkir original timeline, 2014)."
+  },
+  {
+   "id": "TZ003",
+   "subject": "zurgo",
+   "predicate": "leader_of",
+   "object": "mardu",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "k1",
+     "quote": "Zurgo, the orc khan of the Mardu"
+    }
+   ],
+   "summary": "The orc Zurgo is khan of the Mardu (Khans of Tarkir original timeline, 2014)."
+  },
+  {
+   "id": "TZ004",
+   "subject": "first_tree",
+   "predicate": "sacred_to",
+   "object": "abzan",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "k1",
+     "quote": "The First Tree is a sacred tree to the Abzan, believed by many to be the tree planted when the clan was founded."
+    }
+   ],
+   "summary": "The First Tree is sacred to the Abzan, believed planted at the clan's founding."
+  },
+  {
+   "id": "TZ005",
+   "subject": "ilagra",
+   "predicate": "founded",
+   "object": "mardu",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "k2",
+     "quote": "every Mardu abides by a warrior's code called the Edicts of Ilagra, named after the first khan of the clan."
+    }
+   ],
+   "summary": "Ilagra was the first khan of the Mardu; the Edicts of Ilagra are named for her.",
+   "limitation": "'First khan' is read as founder-leader; the guide does not use the word founded."
+  },
+  {
+   "id": "TZ006",
+   "subject": "wingthrone",
+   "predicate": "stronghold_of",
+   "object": "mardu",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "k2",
+     "quote": "At the cliffs where an ancient lightning dragon died lies the Mardu stronghold Wingthrone, the heart of the clan's war effort."
+    }
+   ],
+   "summary": "Wingthrone is the Mardu stronghold, built where an ancient lightning dragon died."
+  },
+  {
+   "id": "TZ007",
+   "subject": "surrak",
+   "predicate": "leader_of",
+   "object": "temur",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "k2",
+     "quote": "Sometimes, but not always, this role is also filled by the Dragonclaw, as in the case of the current leader, Surrak."
+    }
+   ],
+   "summary": "Surrak is the current Temur leader (Dragonclaw) in the Khans timeline."
+  },
+  {
+   "id": "TZ008",
+   "subject": "ojutai",
+   "predicate": "resides_at",
+   "object": "dragons_eye_sanctuary",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "d1",
+     "quote": "Known as the Great Teacher, Ojutai spends long afternoons in his roost at Dragon's Eye Sanctuary"
+    }
+   ],
+   "summary": "Dragonlord Ojutai, the Great Teacher, roosts at Dragon's Eye Sanctuary (Dragons of Tarkir timeline)."
+  },
+  {
+   "id": "TZ009",
+   "subject": "silumgar",
+   "predicate": "ruled",
+   "object": "sultai",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "d1",
+     "quote": "The clan of ruthlessness is a top-down hierarchy with Silumgar at the top"
+    }
+   ],
+   "summary": "Dragonlord Silumgar heads his clan (the former Sultai) in the Dragons of Tarkir timeline.",
+   "limitation": "The guide names the clan 'the clan of ruthlessness' under Silumgar; its identity with the Khans-era Sultai comes from the guide's framing of the rewritten timeline."
+  },
+  {
+   "id": "TZ010",
+   "subject": "dromoka",
+   "predicate": "ruled",
+   "object": "abzan",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "d2",
+     "quote": "The dragonlord Dromoka is, in equal measure, a merciful and imperious leader."
+    }
+   ],
+   "summary": "Dragonlord Dromoka leads her clan (the former Abzan) in the Dragons of Tarkir timeline.",
+   "limitation": "The quote calls her a leader; the clan's identity with the Abzan comes from the guide's framing."
+  },
+  {
+   "id": "TZ011",
+   "subject": "surrak",
+   "predicate": "serves",
+   "object": "atarka",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "d2",
+     "quote": "Surrak holds the position of Hunt Caller in this new timeline."
+    },
+    {
+     "page": "d2",
+     "quote": "The Hunt Caller leads the hunts or raids, but only after Atarka has specified the goal"
+    }
+   ],
+   "summary": "In the Dragons timeline Surrak is Atarka's Hunt Caller.",
+   "limitation": "Combines two sentences of the guide."
+  },
+  {
+   "id": "TZ012",
+   "subject": "zurgo",
+   "predicate": "serves",
+   "object": "kolaghan",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "d2",
+     "quote": "Zurgo has been reduced to serving as an attendant to the dragonlord Kolaghan."
+    }
+   ],
+   "summary": "In the Dragons timeline Zurgo is reduced to an attendant of Kolaghan."
+  },
+  {
+   "id": "TZ013",
+   "subject": "joraga",
+   "predicate": "based_in",
+   "object": "bala_ged",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "z",
+     "quote": "Bala Ged is home to two tribes of elves: the warlike Joraga tribe as well as the secretive Mul Daya."
+    }
+   ],
+   "summary": "The Joraga elves live in Bala Ged."
+  },
+  {
+   "id": "TZ014",
+   "subject": "mul_daya",
+   "predicate": "based_in",
+   "object": "bala_ged",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "z",
+     "quote": "Bala Ged is home to two tribes of elves: the warlike Joraga tribe as well as the secretive Mul Daya."
+    }
+   ],
+   "summary": "The Mul Daya elves live in Bala Ged."
+  },
+  {
+   "id": "TZ015",
+   "subject": "zendikar_vampires",
+   "predicate": "based_in",
+   "object": "guul_draz",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "z",
+     "quote": "this is the homeland of the vampires."
+    }
+   ],
+   "summary": "Guul Draz is the homeland of Zendikar's vampires.",
+   "limitation": "'This' is the Guul Draz section heading of the guide."
+  },
+  {
+   "id": "TZ016",
+   "subject": "malakir",
+   "predicate": "city_of",
+   "object": "zendikar_vampires",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "z",
+     "quote": "If you venture to the vampire city of Malakir, you'll have to get by the gatekeepers."
+    }
+   ],
+   "summary": "Malakir is a vampire city."
+  },
+  {
+   "id": "TZ017",
+   "subject": "oran_rief",
+   "predicate": "part_of",
+   "object": "tazeem",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "z",
+     "quote": "Tazeem is a perilous combination of the Oran-Rief, a gigantic, twisted forest; Halimar, a deep inland sea; and the Umara"
+    }
+   ],
+   "summary": "The Oran-Rief forest is part of Tazeem."
+  },
+  {
+   "id": "TZ018",
+   "subject": "halimar",
+   "predicate": "part_of",
+   "object": "tazeem",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "z",
+     "quote": "Tazeem is a perilous combination of the Oran-Rief, a gigantic, twisted forest; Halimar, a deep inland sea; and the Umara"
+    }
+   ],
+   "summary": "Halimar, a deep inland sea, is part of Tazeem."
+  },
+  {
+   "id": "TZ019",
+   "subject": "tajuru",
+   "predicate": "maintained",
+   "object": "thunder_gap",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "zm",
+     "quote": "Thunder Gap was known as the safest means into the interior and had been well-maintained by Tajuru elves and a clan of kor"
+    }
+   ],
+   "summary": "Tajuru elves (with a kor clan) maintained the Thunder Gap route into Murasa's interior."
+  },
+  {
+   "id": "TZ020",
+   "subject": "kazandu",
+   "predicate": "located_in",
+   "object": "murasa",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "zm",
+     "quote": "The most notable exceptions to the interior elevation are the Skyfang Mountains, the Na Plateau, and the canyon lands of Kazandu."
+    }
+   ],
+   "summary": "The canyon lands of Kazandu lie in Murasa's interior.",
+   "limitation": "'The interior' is Murasa's, from the chapter heading."
+  },
+  {
+   "id": "TZ021",
+   "subject": "kesenya",
+   "predicate": "leader_of",
+   "object": "sea_gate_expeditionary_house",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "e2",
+     "quote": "sat Kesenya, the head of the expeditionary house."
+    }
+   ],
+   "summary": "Kesenya heads the Sea Gate Expeditionary House that Nahiri visits (2020)."
+  },
+  {
+   "id": "TZ022",
+   "subject": "akiri",
+   "predicate": "ally_of",
+   "object": "zareth",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "ms",
+     "quote": "Akiri and Zareth pushed forward toward the trapped and fleeing merfolk"
+    }
+   ],
+   "summary": "Akiri and Zareth travel and fight together escorting the merfolk caravan.",
+   "limitation": "Partnership is inferred from the shared escort job."
+  },
+  {
+   "id": "TZ023",
+   "subject": "coralhelm",
+   "predicate": "settlement_of",
+   "object": "merfolk",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "ms",
+     "quote": "what you would expect from a merfolk settlement"
+    }
+   ],
+   "summary": "Coralhelm is a merfolk settlement.",
+   "limitation": "The phrase describes Coralhelm's cuisine in the same sentence."
+  },
+  {
+   "id": "TZ024",
+   "subject": "tarsa",
+   "predicate": "based_in",
+   "object": "nimana",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "hu",
+     "quote": "Grand stories of Tarsa's team were well-told in Nimana, about their unflappable demeanor and keen travel sense."
+    }
+   ],
+   "summary": "Tarsa leads a renowned expeditionary team of the Free City of Nimana.",
+   "limitation": "Base is inferred from reputation in Nimana and 'the best expeditionary crew Nimana has to offer'."
+  }
+ ],
+ "remaining": [
+  "Targeted, not exhaustive; the Tarkir guides hold far more clan detail than graded here. Khans-era and Dragons-era leadership are kept as separate claims."
+ ]
+}
