@@ -1,0 +1,49 @@
+{
+  "schema": 1,
+  "cutoff": "2026-10-29",
+  "prior_audit": "boxed_specialty_source_audit_2026-10-29.json",
+  "scope": "Five named boxed/specialty product-family records supported by original Wizards articles and one official Wizards Japan product-code page. This is bounded product evidence, not a certification of individual printing or legality.",
+  "records": [
+    {
+      "code": "gs1",
+      "official_url": "https://mtg-jp.com/products/0000172/",
+      "source_section": "Global Series: Jiang Yanggu and Mu Yanling — two 60-card preconstructed decks, printed official set code GS1",
+      "evidence_grade": "official_product_code_and_release",
+      "relationship_note": "Two introductory Planeswalker decks in one Global Series release; the Scryfall duel_deck type alone is not proof of a historical Duel Decks-branded matchup. Wizards' 2018 announcement limited Standard legality to China at the time; no current legality inference."
+    },
+    {
+      "code": "sld",
+      "official_url": "https://magic.wizards.com/en/news/announcements/secret-lair-recap-2019-11-25",
+      "source_section": "Secret Lair Drop Series — multiple timeboxed-to-demand artist-focused collectible drops beginning December 2, 2019",
+      "evidence_grade": "named_product_family_crosswalk",
+      "relationship_note": "An ongoing collection of distinct drops, not one physical box despite Scryfall box typing."
+    },
+    {
+      "code": "slu",
+      "official_url": "https://magic.wizards.com/en/news/announcements/making-fetch-happen-secret-lair-ultimate-edition-2020-03-13",
+      "source_section": "Secret Lair: Ultimate Edition — retail display box of five enemy fetch lands beginning May 29, 2020",
+      "evidence_grade": "named_product_family_crosswalk",
+      "relationship_note": "A five-card in-store retail collection, distinct from Secret Lair's timeboxed print-to-demand Drop Series."
+    },
+    {
+      "code": "slc",
+      "official_url": "https://magic.wizards.com/en/news/announcements/kicking-magics-30th-anniversary-celebration-2022-10-04",
+      "source_section": "Secret Lair 30th Anniversary Countdown Kit — collection of 30 year-themed boosters for the holiday season",
+      "evidence_grade": "named_product_family_crosswalk",
+      "relationship_note": "Thirty year-themed card packets inside one anniversary collection; not thirty separate expansion releases."
+    },
+    {
+      "code": "slz",
+      "official_url": "https://magic.wizards.com/en/news/announcements/chaos-vault-the-zeta-set-puts-the-playtest-in-your-hands",
+      "source_section": "Secret Lair x MSCHF: The Zeta Set — Chaos Vault release September 2, 2026, featuring playtest-style cards",
+      "evidence_grade": "named_product_family_crosswalk",
+      "relationship_note": "The Wizards article warns of a later Pauper-rules update; this family review does not certify legalities or treat mock-playtest styling as ordinary premier-set cards."
+    }
+  ],
+  "caveats": [
+    "The original Global Series 2018 Standard legality announcement was region-specific; no current legality determination is made here.",
+    "Secret Lair Drop Series SLD is an ongoing series, not one boxed item. Other Secret Lair codes denote distinct collection formats and release campaigns.",
+    "The Zeta Set Wizards article explicitly records a post-publication Pauper information update, so a set-family source is not a format-legality source.",
+    "Historical 1990s/early 2000s boxed records and Salvat/Hachette products without adequate directly reviewed Wizards evidence remain pending."
+  ]
+}
