@@ -42,13 +42,13 @@
      ]
     },
     "graph_stats": {
-     "nodes": 605,
-     "edges": 904,
+     "nodes": 650,
+     "edges": 985,
      "claims_by_status": {
       "ALTERNATE_CONTINUITY": 1,
-      "CANON_CONFIRMED": 101,
+      "CANON_CONFIRMED": 116,
       "CANON_DISPUTED": 7,
-      "CANON_IMPLIED": 6,
+      "CANON_IMPLIED": 7,
       "OPEN_QUESTION": 2
      },
      "non_wizards_sources": 0

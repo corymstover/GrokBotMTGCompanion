@@ -433,6 +433,40 @@
    ]
   },
   {
+   "entity": "elspeth_tirel",
+   "entity_type": "Character",
+   "entity_name": "Elspeth Tirel",
+   "aliases": [
+    "Elspeth Tirel"
+   ],
+   "pack": "pack_a5_ugin_allies_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Elspeth Tirel",
+     "oracle_id": "5f815e69-fdd6-4186-9317-25f5c7e0b08e",
+     "type_line": "Legendary Planeswalker — Elspeth",
+     "scryfall_uri": "https://scryfall.com/card/som/6/elspeth-tirel"
+    }
+   ]
+  },
+  {
+   "entity": "eye_of_ugin",
+   "entity_type": "Place",
+   "entity_name": "Eye of Ugin",
+   "aliases": [
+    "Eye of Ugin"
+   ],
+   "pack": "pack_a5_ugin_allies_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Eye of Ugin",
+     "oracle_id": "10d13ff6-c4d0-4753-8939-a8a90f0e92bb",
+     "type_line": "Legendary Land",
+     "scryfall_uri": "https://scryfall.com/card/mm2/242/eye-of-ugin"
+    }
+   ]
+  },
+  {
    "entity": "gerrard",
    "entity_type": "Character",
    "entity_name": "Gerrard Capashen",
@@ -545,6 +579,23 @@
      "oracle_id": "d827575f-e364-4a20-887e-3091e5501a4f",
      "type_line": "Legendary Creature — Human Soldier",
      "scryfall_uri": "https://scryfall.com/card/bro/212/harbin-vanguard-aviator"
+    }
+   ]
+  },
+  {
+   "entity": "jace_beleren",
+   "entity_type": "Character",
+   "entity_name": "Jace Beleren",
+   "aliases": [
+    "Jace Beleren"
+   ],
+   "pack": "pack_a5_ugin_allies_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Jace Beleren",
+     "oracle_id": "cc2b6e58-2d6f-495e-95f3-9496105c4cba",
+     "type_line": "Legendary Planeswalker — Jace",
+     "scryfall_uri": "https://scryfall.com/card/cmm/850/jace-beleren"
     }
    ]
   },
@@ -823,6 +874,23 @@
      "oracle_id": "4b8bf64b-4800-45ff-81c6-2857f34999b5",
      "type_line": "Legendary Creature — Elemental Avatar",
      "scryfall_uri": "https://scryfall.com/card/eoc/100/multani-yavimayas-avatar"
+    }
+   ]
+  },
+  {
+   "entity": "nahiri",
+   "entity_type": "Character",
+   "entity_name": "Nahiri, the Lithomancer",
+   "aliases": [
+    "Nahiri, the Lithomancer"
+   ],
+   "pack": "pack_a5_ugin_allies_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Nahiri, the Lithomancer",
+     "oracle_id": "a554aa2c-d947-4fc6-929d-d5891f467615",
+     "type_line": "Legendary Planeswalker — Nahiri",
+     "scryfall_uri": "https://scryfall.com/card/cmm/45/nahiri-the-lithomancer"
     }
    ]
   },
@@ -1315,6 +1383,23 @@
    ]
   },
   {
+   "entity": "sorin_markov",
+   "entity_type": "Character",
+   "entity_name": "Sorin Markov",
+   "aliases": [
+    "Sorin Markov"
+   ],
+   "pack": "pack_a5_ugin_allies_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Sorin Markov",
+     "oracle_id": "c151e8b7-4b28-4f03-8a81-9bf623f893d7",
+     "type_line": "Legendary Planeswalker — Sorin",
+     "scryfall_uri": "https://scryfall.com/card/m12/109/sorin-markov"
+    }
+   ]
+  },
+  {
    "entity": "tawnos",
    "entity_type": "Character",
    "entity_name": "Tawnos",
@@ -1678,6 +1763,7 @@
   "tarkir_rewrite",
   "teferis_spark_stone",
   "temporal_rifts_mending",
+  "ugins_gem",
   "ugins_tomb_site",
   "war_of_the_spark_end",
   "weatherlight_powerstone",
@@ -1688,9 +1774,9 @@
   "Urza, Academy Headmaster"
  ],
  "counts": {
-  "entities_anchored": 62,
-  "anchor_edges": 160,
-  "unanchored_entities": 23
+  "entities_anchored": 67,
+  "anchor_edges": 165,
+  "unanchored_entities": 24
  },
- "content_sha256": "cec72e7044718f2cd4047dfc0d2e16d48847087fb0ce9886c5998499df99c450"
+ "content_sha256": "cbe85371e5daf55cfd85cc5d4d740881e96662308fc85334931019c30ffea365"
 }
