@@ -47,9 +47,11 @@ they are not the active Phase 1–8 completion counters.
 | Source-page inventory | **{recount['cited_pages']} cited + {recount['reviewed_no_claim_pages']} reviewed = {recount['pages']} accounted for** | Current inventoried pages only, not all fiction ever published. |
 | Cited lore claims | **{recount['claims']}** | Claim packs remain preliminary research. |
 | Cited graph | **{graph['nodes']} nodes / {graph['edges']} edges** | Unresolved orphan/variant and chronology work remains. |
+| Exact printing-specific representations | **{graph.get('exact_art_printings', 0)}** | Frozen snapshot + official art-file label evidence, **not** canon scene depiction. |
 | In-universe dated claim edges | **{graph['claim_edges_with_in_universe_date']}** | Most graph edges lack a verified in-world date. |
 | Unapproved graph-built Commander pilots | **3** | Cory has approved none of the three. |
 | First-release readiness | **{readiness}** | Owner gates, external checks and ongoing engineering remain. |
+| Official source watch | **Weekly review-only workflow** | Story index, Scryfall metadata and rules PDF candidates; not automatic lore/rules updates. |
 
 **Priority next steps:** verify current-era Q&A answers; close only evidence-backed graph
 identity and chronology gaps; expand comprehensive history and lore-first deck research;

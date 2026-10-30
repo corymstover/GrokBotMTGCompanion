@@ -33,6 +33,7 @@ FAMILY = {"Plane": "location", "Place": "location"}
 EXPECTED_PREFIX = {"Character": "character", "Event": "event", "Plane": "plane", "Place": "place",
                    "Object": "artifact", "Faction": "faction", "AlternateContinuity": "continuity",
                    "CardTheme": "cardtheme", "Concept": {"concept", "curated"}, "Card": "card",
+                   "CardRepresentation": "printing",
                    "Source": "source", "Claim": "claim", "DeckProposal": "deck", "Literal": "literal"}
 LEGACY_KIND_TO_TYPES = {"character": {"Character"}, "plane": {"Plane", "Place"}, "item": {"Object"},
                         "dossier": {"Character"}}

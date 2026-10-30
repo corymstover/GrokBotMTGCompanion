@@ -1,0 +1,15 @@
+{
+  "schema": "multiverse-update-monitor-baseline/v1",
+  "observed_date": "2026-10-30",
+  "status": "READ_ONLY_RESEARCH_BASELINE_NOT_A_RULES_CERTIFICATION",
+  "story_index_url": "https://magic.wizards.com/en/news/magic-story",
+  "story_inventory_sources": ["data/story_index.csv", "data/story_extra_sources.csv"],
+  "scryfall_bulk_metadata_url": "https://api.scryfall.com/bulk-data",
+  "active_snapshot_manifest": "data/scryfall_snapshots/snap-20261029-40848334824-1.manifest.json",
+  "known_official_rules_documents": ["https://media.wizards.com/2026/downloads/MagicCompRules 20260925.pdf"],
+  "watch_pages": [
+    {"name": "Wizards rules hub", "url": "https://magic.wizards.com/en/rules", "etag": "\"24c65-tFmnmU2nmM8Y995Tgqwf84WxEHg\""},
+    {"name": "Wizards Commander format", "url": "https://magic.wizards.com/en/formats/commander", "etag": "\"42f1e-FYTCdbYjez0Y7swWyU/LnUlAh7w\""}
+  ],
+  "policy": "New official rules-document URLs and newer Scryfall bulk metadata are REVIEW SIGNALS only. Web-page ETags vary with deployments and are informational, not automatic rule/ban-change alerts. Never auto-ingest or update historical locks."
+}

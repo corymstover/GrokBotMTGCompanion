@@ -1,9 +1,39 @@
 # MTG Multiverse Companion — Master Workflow & Progress Checklist
 
-**Version:** 2.45
+**Version:** 2.47
 **Checkpoint date:** 2026-10-30
 **Repository:** [corymstover/GrokBotMTGCompanion](https://github.com/corymstover/GrokBotMTGCompanion)  
 **Purpose:** Durable project roadmap and handoff document. Update this file after verified milestone work; do not treat historical figures as live counters.
+
+**v2.47 Phase 8 source-change monitoring (2026-10-30):** A read-only weekly
+GitHub Actions monitor now checks the official Wizards Magic Story listing,
+advertised Scryfall default/oracle/rulings bulk timestamps, and official Wizards
+rules/Commander pages. It compares against the committed October 30 source
+inventory, a known official Comprehensive Rules PDF link and the SHA-pinned
+active October 29 Scryfall manifest. It emits a review-only artifact; it does
+not auto-download bulk, alter approvals, amend historic snapshots, or pretend
+that a dynamic page ETag represents a real rules/ban update. In the first
+live probe there were **zero new story links on the current listing page** and
+three **newer Scryfall bulk metadata** signals; the official Comprehensive
+Rules PDF link was unchanged. The Commander-page ETag varied even during the
+same observation session and is informational only. Limited page coverage and
+rules-announcement interpretation remain open. See
+`research/PHASE8_OFFICIAL_SOURCE_UPDATE_WATCH_2026-10-30.md`.
+
+**v2.46 Phase 2/3/7 printing-specific card representation checkpoint (2026-10-30):**
+Graph `CardRepresentation` nodes now use *exact Scryfall printing UUIDs*, not
+ambiguous title slugs. The committed Wizards story-page image-label crosswalk
+provides **560 unique printing identities / 570 official image-page associations**;
+each independently resolves to the **same printing UUID, set, number, card name and
+Oracle UUID** in the historical Phase 1B index. Seven unresolved image labels are
+excluded, not forced. New graph: **5,040 nodes / 7,963 edges**, 1,139 unchanged
+claims, zero builder errors or prefix mismatches. The new `printing SET NUMBER`
+query exposes the exact printing and relevant official art-page link, explicitly
+labelled navigation rather than evidence that the card depicts a story event.
+This establishes stable *printing-specific IDs for represented printings*, not a
+claim that all 119,701 printings are lore mapped, that exact cross-snapshot ID
+parity holds for the entire catalog, or that all art depicts canon moments.
+See `research/PHASE3_PRINTING_IDENTITY_BRIDGE_2026-10-30.md`.
 
 **v2.45 graph display-name integrity (2026-10-30):** The graph now records all
 source-pack name variants attached to the *same stable entity ID* (36 nodes,
@@ -256,7 +286,7 @@ Infrastructure checkpoint: [PR #783](https://github.com/corymstover/GrokBotMTGCo
 ## Phase 3 — Searchable Multiverse relationship graph
 
 - [x] Audit existing repository entity structures before creating redundant schemas. *(v2.42, Batch 14, [#908](https://github.com/corymstover/GrokBotMTGCompanion/pull/908): read-only `scripts/audit_entity_structures.py` → `data/multiverse_audits/entity_structure_audit_2026-10-30.json` and `research/ENTITY_STRUCTURE_AUDIT_2026-10-30.md`. Graph: 4,227 nodes, 6,826 edges, 0 duplicate IDs, 0 dangling edges, 0 type mismatches; 16 orphan nodes (1 card without oracle_id, 15 literal objects); 22 cross-pack name variants; 7 undeclared subjects (C023 `urza;mishra` became a literal); 6 alias candidates; legacy crosswalk 120 bridged, 15 first-word candidates, 34 legacy-only, 10 via declared variants, 5 normalised-but-unbridged. Recommendation: keep `multiverse_graph` as the single schema; no redundant schema created. Mechanical audit, not owner approval. Follow-ups (C023 split, 5 unbridged) are listed in the audit.)*
-- [ ] Stabilize IDs for Character, Plane, Event, Faction, Artifact, CardRepresentation and Claim records. *(v2.43 integrity correction: `character:`, `plane:`, `event:`, `faction:`, `artifact:` and `claim:` IDs are stable. `card:<name>` identity nodes and some printing-evidence sidecars exist, but a general printing-specific `CardRepresentation` node/key scheme has **not** been completed. Earlier v2.42 checkbox overstated the full scope; reopening it does not invalidate the existing graph.)*
+- [x] Stabilize IDs for Character, Plane, Event, Faction, Artifact, CardRepresentation and Claim records. *(v2.46: stable `printing:<Scryfall UUID>` CardRepresentation keys now identify 560 proven printed-card versions, independently exact-joined against the historical Phase 1B printing/Oracle index; their associated card-name and Wizards art-page edges have explicit non-canon navigation tiers. Supported examples are queryable by `printing SET NUMBER`; seven unmatched labels stay unresolved. Earlier v2.43 correctly reopened this until the type/key scheme existed. **The scheme is now stable**, but mapping all ~119k historical printings into lore graphs is **not** claimed and Phase 2 card/scene depiction evidence remains open.)*
 - [ ] Record directional, dated, cited relationships (e.g. allied_with, fought, created, present_at, depicted_by). (Partial: edges are directional, cited and graded, but most are not yet dated in-universe.) *(v2.38, Batch 10: `scripts/build_in_universe_dates.py` writes `data/lore_research/in_universe_dates_2026-10-30.json` (schema `in_universe_dates.v1`) and the graph builder overlays it, re-checking that each value is a verbatim phrase in a quote the claim itself cites. 29 claim edges now carry an in-universe time phrase (e.g. "more than 1,200 years", "Five years ago", "Six thousand years ago"), relative to that story's present and never converted to a calendar year. A phrase may scope its sentence rather than the relation exactly. Most edges are still undated, so this stays unchecked.)* *(v2.39, Batch 11: 32 claim edges carry a verbatim in-universe phrase (new: "over 6,000 years ago", Nahiri seals the Eldrazi; "thousands of years ago", Ob Nixilis trapped on Zendikar). Still partial.)*
   - Era labels (2026-10-30, branch `grokbot-edge-eras-20261030`): all **149/149** claim relationship edges now carry `era` (the claim pack's in-universe story-stage label) plus an `era_basis` disclaimer. **No Dominarian AR year is asserted**, because no pack quotes one. An optional `in_universe_date` is accepted only with a verbatim quote and a cited source_id; there are 0 today. This item stays open until quoted dates exist.
 - [x] Separate `CANON_CONFIRMED`, `CANON_IMPLIED`, `CANON_DISPUTED`, `ALTERNATE_CONTINUITY` and hypothetical connections.
@@ -327,6 +357,7 @@ Infrastructure checkpoint: [PR #783](https://github.com/corymstover/GrokBotMTGCo
   - Partial (2026-10-30): claim-graph, companion-ask, oracle-drift and release-readiness workflows were added, alongside the existing focused-validation and pilot audits.
 - [ ] Monitor new official stories, Oracle changes, releases, rules and Commander format updates.
   - Partial (2026-10-30): `scripts/oracle_drift_report.py` ([PR #829](https://github.com/corymstover/GrokBotMTGCompanion/pull/829)) diffs the Oracle text against each new snapshot.
+  - v2.47 read-only monitoring: `.github/workflows/multiverse-update-watch.yml` executes weekly/on demand, validates its source whitelist and saved current baseline, checks new URLs from Wizards' present Magic Story listing, compares Scryfall bulk *metadata* against the exact pinned active snapshot, and checks whether the Wizards rules hub references a new Comprehensive Rules PDF. The Commander page ETag is informational only because it varies with deployments. The output is an ephemeral review artifact, not automatic source ingestion or a verified rules change. This **remains open** until broader sources, release-time verification and curated update decisions are covered.
 - [ ] Rebuild and reconcile the Phase 1B set catalog and bidirectional printing lookups when new sets or printings appear, retaining historical snapshots.
   - v2.43: `scripts/audit_phase1b_snapshot_gates.py` selects exactly the SHA-pinned 2026-10-29 `default-cards` filename from the committed manifest. A missing archive now returns `MTG_PINNED_BULK_MISSING` with its expected SHA and source URL rather than `IndexError` or an accidental newest-bulk substitution. The complete source-level gate is still blocked in a clean clone until those exact bytes are available; the saved dated report stays qualified.
 - [ ] Update snapshot manifests with actual download bytes and stable hashes. *(Partial, v2.41, Batch 13, [#906](https://github.com/corymstover/GrokBotMTGCompanion/pull/906): the active Companion manifest (`snap-20261029-40848334824-1`) is now committed at `data/scryfall_snapshots/`. `scripts/audit_snapshot_manifests.py` checks that all 3 files' compressed bytes and SHA-256 match the GitHub release asset sizes and the local copies. Stays open: the 2026-10-28 `data/printing_lore/manifest.json` baseline has a hash but no bytes, and cannot get them while L151's original file is unavailable.)*

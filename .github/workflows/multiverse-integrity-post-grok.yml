@@ -10,15 +10,20 @@ on:
       - 'scripts/audit_phase1b_snapshot_gates.py'
       - 'scripts/update_multiverse_progress_tracker.py'
       - 'scripts/query_lore_chronology.py'
+      - 'scripts/monitor_multiverse_updates.py'
       - 'scripts/build_plane_history_priorities.py'
       - 'data/multiverse_graph/**'
+      - 'data/lore_research/story_image_label_printings_2026-10-30.json'
       - 'data/lore_research/plane_history_priorities_2026-10-30.json'
       - 'data/multiverse_audits/**'
       - 'tests/test_mv_ask*.py'
       - 'tests/test_graph_integrity_post_grok.py'
       - 'tests/test_graph_display_name_variants.py'
+      - 'tests/test_printing_card_representations.py'
       - 'tests/test_multiverse_progress_tracker.py'
       - 'tests/test_phase5_chronology_coverage.py'
+      - 'tests/test_multiverse_update_monitor.py'
+      - 'data/maintenance/multiverse_update_monitor_baseline_2026-10-30.json'
       - 'tests/test_phase1b_snapshot_cache_diagnostics.py'
       - 'Progress Tracker.md'
       - 'MTG_MULTIVERSE_MASTER_WORKFLOW.md'
@@ -32,15 +37,20 @@ on:
       - 'scripts/audit_phase1b_snapshot_gates.py'
       - 'scripts/update_multiverse_progress_tracker.py'
       - 'scripts/query_lore_chronology.py'
+      - 'scripts/monitor_multiverse_updates.py'
       - 'scripts/build_plane_history_priorities.py'
       - 'data/multiverse_graph/**'
+      - 'data/lore_research/story_image_label_printings_2026-10-30.json'
       - 'data/lore_research/plane_history_priorities_2026-10-30.json'
       - 'data/multiverse_audits/**'
       - 'tests/test_mv_ask*.py'
       - 'tests/test_graph_integrity_post_grok.py'
       - 'tests/test_graph_display_name_variants.py'
+      - 'tests/test_printing_card_representations.py'
       - 'tests/test_multiverse_progress_tracker.py'
       - 'tests/test_phase5_chronology_coverage.py'
+      - 'tests/test_multiverse_update_monitor.py'
+      - 'data/maintenance/multiverse_update_monitor_baseline_2026-10-30.json'
       - 'tests/test_phase1b_snapshot_cache_diagnostics.py'
       - 'Progress Tracker.md'
       - 'MTG_MULTIVERSE_MASTER_WORKFLOW.md'
@@ -64,6 +74,7 @@ jobs:
           python3 -m unittest discover -s tests -p 'test_mv_ask*.py' -q
           python3 -m unittest discover -s tests -p 'test_graph_integrity_post_grok.py' -q
           python3 -m unittest discover -s tests -p 'test_graph_display_name_variants.py' -q
+          python3 -m unittest discover -s tests -p 'test_printing_card_representations.py' -q
           python3 -m unittest discover -s tests -p 'test_phase1b_snapshot_cache_diagnostics.py' -q
       - name: Current progress checkpoint, read-only release dry run and representative queries
         run: |
@@ -77,3 +88,7 @@ jobs:
           python3 scripts/build_plane_history_priorities.py --check
           python3 -m unittest discover -s tests -p 'test_phase5_chronology_coverage.py' -q
           python3 scripts/audit_lore_pilot.py
+      - name: Offline update-monitor parser and baseline integrity
+        run: |
+          python3 scripts/monitor_multiverse_updates.py --validate
+          python3 -m unittest discover -s tests -p 'test_multiverse_update_monitor.py' -q

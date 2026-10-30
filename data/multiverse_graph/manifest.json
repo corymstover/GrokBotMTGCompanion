@@ -82,5 +82,8 @@
  "story_caption_packs": [
   "data/story_atlas/story_art_captions_2026-10-30.json"
  ],
+  "printing_label_packs": [
+    "data/lore_research/story_image_label_printings_2026-10-30.json"
+  ],
  "in_universe_dates": "data/lore_research/in_universe_dates_2026-10-30.json"
 }

@@ -14,6 +14,9 @@ Inputs are listed in data/multiverse_graph/manifest.json:
 - ``story_caption_packs``: scripts/build_story_art_captions.py atlases. For pages that are
   already a registered graph Source, ``art_captioned_in_story`` edges link the Source to each
   captioned Card (navigation only, never canon assertions).
+- ``printing_label_packs``: exact Scryfall printing UUIDs matched to short, official
+  Wizards story-page image labels. These create a *printing-specific* CardRepresentation
+  layer; image usage never proves a printed card depicts a story event.
 - ``curated_lore_graph``: data/lore_graph.json. Exact-name bridges to the curated wiki
   entries are labelled ``contextual_pointer`` (navigation only).
 
@@ -45,16 +48,17 @@ CANON_STATUSES = {
 }
 GRADE_ALIASES = {"DISPUTED": "CANON_DISPUTED"}
 NODE_TYPES = {"Character", "Event", "Plane", "Place", "Object", "Faction", "AlternateContinuity",
-              "CardTheme", "Concept", "Card", "Source", "Claim", "DeckProposal", "Literal"}
+              "CardTheme", "Concept", "Card", "CardRepresentation", "Source", "Claim", "DeckProposal", "Literal"}
 TYPE_PREFIX = {"Character": "character", "Event": "event", "Plane": "plane", "Place": "place",
                "Object": "artifact", "Faction": "faction", "AlternateContinuity": "continuity",
                "CardTheme": "cardtheme", "Concept": "concept", "Card": "card", "Source": "source",
-               "Claim": "claim", "DeckProposal": "deck", "Literal": "literal"}
+               "CardRepresentation": "printing", "Claim": "claim", "DeckProposal": "deck", "Literal": "literal"}
 OFFICIAL_HOSTS = ("https://magic.wizards.com/", "https://www.magic.wizards.com/", "https://media.wizards.com/", "https://www.wizards.com/",
                   "https://company.wizards.com/")
 INVERSE = {"proposed_in": "proposes", "depicted_by": "depicts", "cited_by": "cites",
            "asserts": "asserted_by", "see_also_curated_entry": "see_also_from_curated_entry",
-           "named_on_card": "names_entity"}
+           "named_on_card": "names_entity", "has_printing": "printing_of_card",
+           "art_file_used_on_official_page": "official_page_uses_art_file"}
 
 
 def slug(text: str) -> str:
@@ -284,6 +288,74 @@ def ingest_story_captions(g: Graph, rel: str) -> dict:
     return {"file": rel, "caption_edges": n}
 
 
+def ingest_printing_labels(g: Graph, rel: str) -> dict:
+    """Preserve exact printing identities and their source-page *art-file* references.
+
+    The committed index already checked the printed name/set/collector number
+    against the frozen Scryfall snapshot. Image labels prove art-file usage on a
+    Wizards page, NOT that a card depicts any particular narrative moment.
+    No orphan Source/Printing is created from an unresolved label.
+    """
+    d = load(rel)
+    origin = Path(rel).name
+    # The historical bidirectional Phase 1B card index gives an independent,
+    # committed printing UUID -> Oracle UUID identity join. This is a *bounded*
+    # subset of cross-snapshot exact matches, not full bulk ID parity.
+    print_to_oracle = {}
+    for shard in sorted((ROOT / "data/set_atlas").glob("historical_cards_?.json")):
+        for oracle_id, rows in json.loads(shard.read_text(encoding="utf-8")).items():
+            for rec in rows:
+                print_to_oracle[rec[1]] = (oracle_id, rec[0], rec[3], str(rec[4]))
+    by_url = {n["url"]: n["id"] for n in g.nodes.values() if n["type"] == "Source" and n.get("url")}
+    grouped: dict[tuple[str, str], set[str]] = {}
+    unique_printings: set[str] = set()
+    new_sources = set()
+    for row in d["labels"]:
+        if row["status"] != "MATCHED":
+            continue  # 6 NAME_MISMATCH + 1 NO_PRINTING stay open, never force-matched
+        page = row["url"]
+        if not page.startswith("https://magic.wizards.com/"):
+            g.problems.append("image-label printing on nonofficial page: " + page)
+            continue
+        p = row["printing"]
+        uuid = p["scryfall_id"]
+        if not re.fullmatch(r"[0-9a-f]{8}-(?:[0-9a-f]{4}-){3}[0-9a-f]{12}", uuid):
+            g.problems.append("bad image-label printing UUID: " + str(uuid))
+            continue
+        historical = print_to_oracle.get(uuid)
+        if historical is None or historical[1:] != (p["set"], p["name"], str(p["collector_number"])):
+            g.problems.append("image-label printing lacks matching historical UUID/Oracle join: " + uuid)
+            continue
+        oracle_id = historical[0]
+        card = g.add_node(f"card:{slug(p['name'])}", "Card", p["name"], origin, oracle_id=oracle_id)
+        pid = g.add_node(f"printing:{uuid}", "CardRepresentation",
+                         f"{p['name']} ({p['set']} #{p['collector_number']})", origin,
+                         scryfall_id=uuid, oracle_id=oracle_id, set=p["set"], collector_number=str(p["collector_number"]),
+                         artist=p["artist"], released_at=p["released_at"],
+                         snapshot=d["snapshot"], identity_basis="Scryfall exact printing UUID")
+        if uuid not in unique_printings:
+            g.edge(card, "has_printing", pid, tier="SNAPSHOT_PRINTING_IDENTITY",
+                   limitation="Not a story relationship or proof of lore depiction.")
+            unique_printings.add(uuid)
+        if page not in by_url:
+            # A Wizards art gallery can legitimately be in the caption index
+            # without the page being cited by one of the claim packs.
+            sid = "source:printing_label_page_" + hashlib.sha256(page.encode()).hexdigest()[:20]
+            by_url[page] = g.add_node(sid, "Source", page.rsplit("/", 1)[-1].replace("-", " "),
+                                      origin, url=page, source_class="WIZARDS_OFFICIAL",
+                                      kind="OFFICIAL_IMAGE_LABEL_PAGE")
+            new_sources.add(sid)
+        grouped.setdefault((by_url[page], pid), set()).add(row["quote"])
+    for (source, printing), labels in sorted(grouped.items()):
+        g.edge(source, "art_file_used_on_official_page", printing,
+               tier="OFFICIAL_IMAGE_LABEL_PRINTING_MATCH", image_labels=sorted(labels),
+               limitation="An art-file label is not a statement that the pictured card depicts a canon story event.")
+    return {"file": rel, "distinct_printings": len(unique_printings),
+            "source_printing_edges": len(grouped), "additional_official_pages": len(new_sources),
+            "historical_oracle_joins": len(unique_printings),
+            "unmatched_labels_not_forced": sum(x["status"] != "MATCHED" for x in d["labels"])}
+
+
 def bridge_curated(g: Graph, rel: str) -> int:
     lg = load(rel)
     by_name: dict[str, list[str]] = {}
@@ -341,7 +413,8 @@ def build(manifest_path: Path = MANIFEST) -> dict:
               "art_match_packs": [ingest_art_pack(g, r) for r in m.get("art_match_packs", [])],
               "deck_evidence": [ingest_deck(g, r) for r in m.get("deck_evidence", [])],
               "name_anchor_packs": [ingest_name_anchors(g, r) for r in m.get("name_anchor_packs", [])],
-              "story_caption_packs": [ingest_story_captions(g, r) for r in m.get("story_caption_packs", [])]}
+              "story_caption_packs": [ingest_story_captions(g, r) for r in m.get("story_caption_packs", [])],
+              "printing_label_packs": [ingest_printing_labels(g, r) for r in m.get("printing_label_packs", [])]}
     if m.get("in_universe_dates"):
         inputs["in_universe_dates"] = [{"file": m["in_universe_dates"],
                                         "dates": len(load(m["in_universe_dates"]).get("dates", []))}]
@@ -371,6 +444,7 @@ def build(manifest_path: Path = MANIFEST) -> dict:
              "claims_by_status": dict(sorted(Counter(n["grade"] for n in nodes if n["type"] == "Claim").items())),
              "relations": len({e["relation"] for e in edges}),
              "literal_objects": sum(1 for n in nodes if n["type"] == "Literal"),
+             "exact_art_printings": sum(1 for n in nodes if n["type"] == "CardRepresentation"),
              "claim_edges_with_era": sum(1 for e in edges if e.get("claim") and e.get("era")),
              "claim_edges_with_in_universe_date": sum(1 for e in edges if e.get("in_universe_date")),
              "curated_bridges": bridges,

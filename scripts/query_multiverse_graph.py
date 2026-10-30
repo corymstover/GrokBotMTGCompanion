@@ -5,6 +5,7 @@ Examples:
   python3 scripts/query_multiverse_graph.py node "Nicol Bolas"
   python3 scripts/query_multiverse_graph.py neighbors ugin --status CANON_CONFIRMED
   python3 scripts/query_multiverse_graph.py card "Crux of Fate"
+  python3 scripts/query_multiverse_graph.py printing blc 1
   python3 scripts/query_multiverse_graph.py path piru ugin
   python3 scripts/query_multiverse_graph.py status CANON_DISPUTED
   python3 scripts/query_multiverse_graph.py search tarkir
@@ -72,7 +73,10 @@ class MG:
 
     def _sources(self, e: dict) -> list[str]:
         ids = e.get("sources", [])
-        return [self.nodes[f"source:{s}"].get("url", "") for s in ids if f"source:{s}" in self.nodes]
+        urls = [self.nodes[f"source:{s}"].get("url", "") for s in ids if f"source:{s}" in self.nodes]
+        if e["relation"] == "art_file_used_on_official_page" and self.nodes[e["from"]]["type"] == "Source":
+            urls.append(self.nodes[e["from"]].get("url", ""))
+        return sorted(set(u for u in urls if u))
 
     def neighbors(self, term: str, status: str | None = None, include_structural=False) -> list[dict]:
         nid = self.find(term)
@@ -87,7 +91,7 @@ class MG:
                 rel = e["relation"] if direction == "out" else self.inverse.get(e["relation"], f"inverse_of:{e['relation']}")
                 rows.append({"direction": direction, "relation": rel, "node": other,
                              "name": self.nodes[other]["name"], "type": self.nodes[other]["type"],
-                             "claim": e.get("claim"), "status": e.get("grade") or ("NAVIGATION_ONLY" if e["relation"] in {"proposed_in", "see_also_curated_entry"} else e.get("tier", "")),
+                             "claim": e.get("claim"), "status": e.get("grade") or ("NAVIGATION_ONLY" if e["relation"] in {"proposed_in", "see_also_curated_entry", "has_printing", "art_file_used_on_official_page"} else e.get("tier", "")),
                              "tier": e.get("tier"), "source_urls": self._sources(e)})
         return sorted(rows, key=lambda r: (r["direction"], r["relation"], r["node"]))
 
@@ -121,6 +125,13 @@ class MG:
         n = self.nodes[nid]
         return {"card": n, "relationships": self.neighbors(nid)}
 
+    def printing(self, set_code: str, collector_number: str) -> list[dict]:
+        code = set_code.lower().strip()
+        number = collector_number.lower().strip()
+        found = [n for n in self.g["nodes"] if n["type"] == "CardRepresentation"
+                 and n["set"].lower() == code and n["collector_number"].lower() == number]
+        return [{"printing": n, "relationships": self.neighbors(n["id"])} for n in found]
+
     def status(self, status: str) -> list[dict]:
         return [{"claim": n["id"], "summary": n["name"], "limitation": n.get("limitation", "")}
                 for n in self.g["nodes"] if n["type"] == "Claim" and n.get("grade") == status]
@@ -139,6 +150,7 @@ def main(argv=None) -> int:
         sub.add_parser(name).add_argument("term")
     nb = sub.add_parser("neighbors"); nb.add_argument("term"); nb.add_argument("--status"); nb.add_argument("--structural", action="store_true")
     pa = sub.add_parser("path"); pa.add_argument("a"); pa.add_argument("b")
+    pr = sub.add_parser("printing"); pr.add_argument("set_code"); pr.add_argument("collector_number")
     st = sub.add_parser("status"); st.add_argument("status")
     a = ap.parse_args(argv)
     mg = MG()
@@ -149,6 +161,8 @@ def main(argv=None) -> int:
             res = mg.neighbors(a.term, a.status, a.structural)
         elif a.cmd == "card":
             res = mg.card(a.term)
+        elif a.cmd == "printing":
+            res = mg.printing(a.set_code, a.collector_number)
         elif a.cmd == "path":
             res = mg.path(a.a, a.b)
         elif a.cmd == "status":
