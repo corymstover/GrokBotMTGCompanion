@@ -20,7 +20,13 @@ Evidence tiers, strongest first (a card records every tier that holds):
                             label). Not a claim that the art depicts a story event.
 A card with CLAIM_ANCHORED, OFFICIAL_TEXT_NAMES_CARD or SHORT_NAME_IN_SET_STORY is LINKED; with only
 ART_ON_OFFICIAL_PAGE it is ART_ONLY; otherwise NO_LORE_YET with a reason. Universes Beyond cards
-(triangle security stamp on any printing) are never text-matched: official Magic story pages are not their canon.
+(no NATIVE printing: a printing that is not UB-marked -- triangle security stamp or Scryfall promo_types
+'universesbeyond' -- and is printed under the card's own name; Through the Omenpaths reskins carry a different
+printed_name and so do not count) are never
+text-matched: official Magic story pages are not their canon. A native Magic card with only some UB-marked
+printings (e.g. a Secret Lair crossover reprint) is not UB. Guard: on a UB card, a
+NAMED_PARTICIPANT claim anchor whose pack story sets share no set with the card's printings is set aside
+(rejected_claim_anchors), not counted as a link (b13: Eldraine's 'Peter' vs Marvel's Peter Parker).
 """
 from __future__ import annotations
 
@@ -126,14 +132,22 @@ def build() -> dict:
         c = json.loads(line)
         if c["oracle_id"] in pool:
             orc[c["oracle_id"]] = c
-    sets, ub = collections.defaultdict(set), set()
+    sets, ubn, totn = collections.defaultdict(set), collections.Counter(), collections.Counter()
+    native = set()
     for line in gzip.open(default_file, "rt", encoding="utf-8"):
         p = json.loads(line)
         o = p.get("oracle_id")
         if o in pool:
             sets[o].add(p["set"])
-            if p.get("security_stamp") == "triangle":
-                ub.add(o)
+            totn[o] += 1
+            is_mark = p.get("security_stamp") == "triangle" or "universesbeyond" in (p.get("promo_types") or [])
+            if is_mark:
+                ubn[o] += 1
+            if not is_mark and all(n in (None, p.get("name"), f.get("name")) for f in
+                    [p] + (p.get("card_faces") or []) for n in [f.get("printed_name")]):
+                native.add(o)
+    ub = {o for o in totn if o not in native}
+    ub_any = {o for o in totn if ubn[o]}
     catalog = json.loads(CATALOG.read_text(encoding="utf-8"))["sets"]
     pages = load_pages()
     words = {s: set(WORD.findall(p["text"])) for s, p in pages.items()}
@@ -141,9 +155,17 @@ def build() -> dict:
     page_sets = {s: arc_sets(p["arc"], catalog) for s, p in pages.items()}
 
     cca = collections.defaultdict(list)
+    rejected = collections.defaultdict(list)
     packs = {}
-    for a in json.loads(CCA.read_text(encoding="utf-8"))["anchors"]:
+    cca_doc = json.loads(CCA.read_text(encoding="utf-8"))
+    story_sets = {k: set(v) for k, v in (cca_doc.get("story_sets") or {}).items()}
+    for a in cca_doc["anchors"]:
         if a["oracle_id"] in pool:
+            if (a["oracle_id"] in ub and a["tier"] == "NAMED_PARTICIPANT"
+                    and not (story_sets.get(a["pack"], set()) & sets[a["oracle_id"]])):
+                rejected[a["oracle_id"]].append({"claim": a["claim"], "pack": a["pack"], "participant": a["participant"],
+                                                 "reason": "Universes Beyond card (no native printing) and no printing in the pack's story sets"})
+                continue
             if a["pack"] not in packs:
                 pk = json.loads((ROOT / "data/lore_research" / a["pack"]).read_text(encoding="utf-8"))
                 reg = pk.get("source_register") or {}
@@ -226,7 +248,9 @@ def build() -> dict:
         for t in tiers:
             counts["tier:" + t] += 1
         cards.append({"oracle_id": o, "name": name, "status": status, "no_lore_reason": reason,
-                      "universes_beyond": is_ub, "sets": sorted(sets[o]), "evidence": ev,
+                      "universes_beyond": is_ub, "ub_marked_any": o in ub_any,
+                      **({"rejected_claim_anchors": rejected[o]} if rejected.get(o) else {}),
+                      "sets": sorted(sets[o]), "evidence": ev,
                       "scryfall_uri": (c or {}).get("scryfall_uri", "").split("?")[0]})
     body = {"schema": SCHEMA,
             "status": "PRELIMINARY_RESEARCH (mechanical evidence links; not owner approved; not certified)",
