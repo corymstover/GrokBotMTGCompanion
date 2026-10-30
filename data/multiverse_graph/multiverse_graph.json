@@ -7,7 +7,7 @@
   "HYPOTHETICAL": "Creative or deckbuilding connection; never canon.",
   "OPEN_QUESTION": "Primary sources leave the matter unresolved; do not assert either way."
  },
- "content_sha256": "f11b905c1ab6d932c82cb68bc4f7612a89e714d9a29755962b67799b537b4a23",
+ "content_sha256": "7b16367fb572f20ff4486dc3f059789a2b47428668a0ee506427e84c47af4682",
  "edges": [
   {
    "artists": [
@@ -10620,6 +10620,20 @@
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:borborygmos",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:borborygmos"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:borborygmos",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:borborygmos_enraged"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
    "from": "character:brago",
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
@@ -11079,6 +11093,20 @@
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
    "to": "card:extus_oriq_overlord_awaken_the_blood_avatar"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:feather",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:feather_radiant_arbiter"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:feather",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:feather_the_redeemed"
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
@@ -12265,6 +12293,13 @@
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:maraxus",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:maraxus_of_keld"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
    "from": "character:marchesa",
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
@@ -13119,6 +13154,13 @@
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:razia",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:razia_boros_archangel"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
    "from": "character:rhonas",
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
@@ -13574,6 +13616,13 @@
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:starke",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:starke_of_rath"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
    "from": "character:stenn",
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
@@ -13585,6 +13634,13 @@
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
    "to": "card:surrak_dragonclaw"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:szadek",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:szadek_lord_of_secrets"
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
@@ -14243,6 +14299,20 @@
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
    "to": "card:vivien_reid"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:volrath",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:volrath_the_fallen"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:volrath",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:volrath_the_shapestealer"
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
@@ -18698,6 +18768,162 @@
    "to": "place:chopright_colony"
   },
   {
+   "claim": "GD001",
+   "era": "return_to_ravnica_gatecrash_avacyn_restored_2012_2013",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:niv_mizzet",
+   "grade": "CANON_CONFIRMED",
+   "relation": "founded",
+   "sources": [
+    "g_rtr2"
+   ],
+   "to": "faction:izzet_league"
+  },
+  {
+   "claim": "GD002",
+   "era": "return_to_ravnica_gatecrash_avacyn_restored_2012_2013",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:niv_mizzet",
+   "grade": "CANON_CONFIRMED",
+   "relation": "leader_of",
+   "sources": [
+    "g_rtr1"
+   ],
+   "to": "faction:izzet_league"
+  },
+  {
+   "claim": "GD003",
+   "era": "return_to_ravnica_gatecrash_avacyn_restored_2012_2013",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:trostani",
+   "grade": "CANON_CONFIRMED",
+   "relation": "leader_of",
+   "sources": [
+    "g_rtr1"
+   ],
+   "to": "faction:selesnya_conclave"
+  },
+  {
+   "claim": "GD004",
+   "era": "return_to_ravnica_gatecrash_avacyn_restored_2012_2013",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:jarad_vod_savo",
+   "grade": "CANON_CONFIRMED",
+   "relation": "leader_of",
+   "sources": [
+    "g_rtr2"
+   ],
+   "to": "faction:golgari"
+  },
+  {
+   "claim": "GD005",
+   "era": "return_to_ravnica_gatecrash_avacyn_restored_2012_2013",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:isperia",
+   "grade": "CANON_CONFIRMED",
+   "relation": "leader_of",
+   "sources": [
+    "g_rtr3"
+   ],
+   "to": "faction:azorius_senate"
+  },
+  {
+   "claim": "GD006",
+   "era": "return_to_ravnica_gatecrash_avacyn_restored_2012_2013",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:szadek",
+   "grade": "CANON_CONFIRMED",
+   "relation": "leader_of",
+   "sources": [
+    "g_gtc1"
+   ],
+   "to": "faction:house_dimir"
+  },
+  {
+   "claim": "GD007",
+   "era": "return_to_ravnica_gatecrash_avacyn_restored_2012_2013",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:lazav",
+   "grade": "CANON_CONFIRMED",
+   "relation": "leader_of",
+   "sources": [
+    "g_gtc1"
+   ],
+   "to": "faction:house_dimir"
+  },
+  {
+   "claim": "GD008",
+   "era": "return_to_ravnica_gatecrash_avacyn_restored_2012_2013",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:aurelia",
+   "grade": "CANON_CONFIRMED",
+   "relation": "leader_of",
+   "sources": [
+    "g_gtc1"
+   ],
+   "to": "faction:boros_legion"
+  },
+  {
+   "claim": "GD009",
+   "era": "return_to_ravnica_gatecrash_avacyn_restored_2012_2013",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:razia",
+   "grade": "CANON_CONFIRMED",
+   "relation": "founded",
+   "sources": [
+    "g_gtc1"
+   ],
+   "to": "faction:boros_legion"
+  },
+  {
+   "claim": "GD010",
+   "era": "return_to_ravnica_gatecrash_avacyn_restored_2012_2013",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:feather",
+   "grade": "CANON_CONFIRMED",
+   "relation": "leader_of",
+   "sources": [
+    "g_gtc1"
+   ],
+   "to": "faction:boros_legion"
+  },
+  {
+   "claim": "GD011",
+   "era": "return_to_ravnica_gatecrash_avacyn_restored_2012_2013",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:zegana",
+   "grade": "CANON_CONFIRMED",
+   "relation": "leader_of",
+   "sources": [
+    "g_gtc2"
+   ],
+   "to": "faction:simic_combine"
+  },
+  {
+   "claim": "GD012",
+   "era": "return_to_ravnica_gatecrash_avacyn_restored_2012_2013",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:borborygmos",
+   "grade": "CANON_CONFIRMED",
+   "relation": "leader_of",
+   "sources": [
+    "g_gtc2"
+   ],
+   "to": "faction:burning_tree_clan"
+  },
+  {
+   "claim": "GD013",
+   "era": "return_to_ravnica_gatecrash_avacyn_restored_2012_2013",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:gisela",
+   "grade": "CANON_CONFIRMED",
+   "relation": "leader_of",
+   "sources": [
+    "g_avr1"
+   ],
+   "to": "faction:order_of_goldnight"
+  },
+  {
    "claim": "GR001",
    "era": "guilds_of_ravnica_ravnica_allegiance_2018_2019",
    "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
@@ -20374,6 +20600,79 @@
     "mkms_ep11"
    ],
    "to": "character:niv_mizzet"
+  },
+  {
+   "claim": "ML001",
+   "era": "tempest_rath_2007_retold",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:volrath",
+   "grade": "CANON_CONFIRMED",
+   "relation": "imprisoned",
+   "sources": [
+    "ml_mael"
+   ],
+   "to": "character:starkes_daughter"
+  },
+  {
+   "claim": "ML002",
+   "era": "tempest_rath_2007_retold",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:starke",
+   "grade": "CANON_CONFIRMED",
+   "relation": "serves",
+   "sources": [
+    "ml_torr"
+   ],
+   "to": "character:maraxus"
+  },
+  {
+   "claim": "ML002",
+   "era": "tempest_rath_2007_retold",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:starke",
+   "grade": "CANON_CONFIRMED",
+   "relation": "serves",
+   "sources": [
+    "ml_torr"
+   ],
+   "to": "character:volrath"
+  },
+  {
+   "claim": "ML003",
+   "era": "tempest_rath_2007_retold",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:starke",
+   "grade": "CANON_CONFIRMED",
+   "relation": "betrayed",
+   "sources": [
+    "ml_torr"
+   ],
+   "to": "character:sisay"
+  },
+  {
+   "claim": "ML004",
+   "era": "tempest_rath_2007_retold",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:sisay",
+   "grade": "CANON_IMPLIED",
+   "relation": "captain_of",
+   "sources": [
+    "ml_mael",
+    "ml_torr"
+   ],
+   "to": "artifact:weatherlight"
+  },
+  {
+   "claim": "ML005",
+   "era": "tempest_rath_2007_retold",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:starke",
+   "grade": "CANON_IMPLIED",
+   "relation": "lured",
+   "sources": [
+    "ml_torr"
+   ],
+   "to": "character:gerrard"
   },
   {
    "claim": "MOM001",
@@ -31861,6 +32160,162 @@
    "to": "character:sami"
   },
   {
+   "from": "claim:GD001",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:izzet_league"
+  },
+  {
+   "from": "claim:GD001",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:niv_mizzet"
+  },
+  {
+   "from": "claim:GD002",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:izzet_league"
+  },
+  {
+   "from": "claim:GD002",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:niv_mizzet"
+  },
+  {
+   "from": "claim:GD003",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:selesnya_conclave"
+  },
+  {
+   "from": "claim:GD003",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:trostani"
+  },
+  {
+   "from": "claim:GD004",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:golgari"
+  },
+  {
+   "from": "claim:GD004",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:jarad_vod_savo"
+  },
+  {
+   "from": "claim:GD005",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:azorius_senate"
+  },
+  {
+   "from": "claim:GD005",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:isperia"
+  },
+  {
+   "from": "claim:GD006",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:house_dimir"
+  },
+  {
+   "from": "claim:GD006",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:szadek"
+  },
+  {
+   "from": "claim:GD007",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:house_dimir"
+  },
+  {
+   "from": "claim:GD007",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:lazav"
+  },
+  {
+   "from": "claim:GD008",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:boros_legion"
+  },
+  {
+   "from": "claim:GD008",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:aurelia"
+  },
+  {
+   "from": "claim:GD009",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:boros_legion"
+  },
+  {
+   "from": "claim:GD009",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:razia"
+  },
+  {
+   "from": "claim:GD010",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:boros_legion"
+  },
+  {
+   "from": "claim:GD010",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:feather"
+  },
+  {
+   "from": "claim:GD011",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:simic_combine"
+  },
+  {
+   "from": "claim:GD011",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:zegana"
+  },
+  {
+   "from": "claim:GD012",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:burning_tree_clan"
+  },
+  {
+   "from": "claim:GD012",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:borborygmos"
+  },
+  {
+   "from": "claim:GD013",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:order_of_goldnight"
+  },
+  {
+   "from": "claim:GD013",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:gisela"
+  },
+  {
    "from": "claim:GR001",
    "relation": "asserts",
    "role": "object",
@@ -33491,6 +33946,72 @@
    "relation": "asserts",
    "role": "subject",
    "to": "character:alquist_proft"
+  },
+  {
+   "from": "claim:ML001",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:starkes_daughter"
+  },
+  {
+   "from": "claim:ML001",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:volrath"
+  },
+  {
+   "from": "claim:ML002",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:maraxus"
+  },
+  {
+   "from": "claim:ML002",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:volrath"
+  },
+  {
+   "from": "claim:ML002",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:starke"
+  },
+  {
+   "from": "claim:ML003",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:sisay"
+  },
+  {
+   "from": "claim:ML003",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:starke"
+  },
+  {
+   "from": "claim:ML004",
+   "relation": "asserts",
+   "role": "object",
+   "to": "artifact:weatherlight"
+  },
+  {
+   "from": "claim:ML004",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:sisay"
+  },
+  {
+   "from": "claim:ML005",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:gerrard"
+  },
+  {
+   "from": "claim:ML005",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:starke"
   },
   {
    "from": "claim:MOM001",
@@ -42085,6 +42606,71 @@
    "to": "claim:A013"
   },
   {
+   "from": "source:g_avr1",
+   "relation": "cited_by",
+   "to": "claim:GD013"
+  },
+  {
+   "from": "source:g_gtc1",
+   "relation": "cited_by",
+   "to": "claim:GD006"
+  },
+  {
+   "from": "source:g_gtc1",
+   "relation": "cited_by",
+   "to": "claim:GD007"
+  },
+  {
+   "from": "source:g_gtc1",
+   "relation": "cited_by",
+   "to": "claim:GD008"
+  },
+  {
+   "from": "source:g_gtc1",
+   "relation": "cited_by",
+   "to": "claim:GD009"
+  },
+  {
+   "from": "source:g_gtc1",
+   "relation": "cited_by",
+   "to": "claim:GD010"
+  },
+  {
+   "from": "source:g_gtc2",
+   "relation": "cited_by",
+   "to": "claim:GD011"
+  },
+  {
+   "from": "source:g_gtc2",
+   "relation": "cited_by",
+   "to": "claim:GD012"
+  },
+  {
+   "from": "source:g_rtr1",
+   "relation": "cited_by",
+   "to": "claim:GD002"
+  },
+  {
+   "from": "source:g_rtr1",
+   "relation": "cited_by",
+   "to": "claim:GD003"
+  },
+  {
+   "from": "source:g_rtr2",
+   "relation": "cited_by",
+   "to": "claim:GD001"
+  },
+  {
+   "from": "source:g_rtr2",
+   "relation": "cited_by",
+   "to": "claim:GD004"
+  },
+  {
+   "from": "source:g_rtr3",
+   "relation": "cited_by",
+   "to": "claim:GD005"
+  },
+  {
    "from": "source:gr_ill",
    "relation": "cited_by",
    "to": "claim:GR004"
@@ -43015,6 +43601,36 @@
    "from": "source:mkms_ep11",
    "relation": "cited_by",
    "to": "claim:MK101"
+  },
+  {
+   "from": "source:ml_mael",
+   "relation": "cited_by",
+   "to": "claim:ML001"
+  },
+  {
+   "from": "source:ml_mael",
+   "relation": "cited_by",
+   "to": "claim:ML004"
+  },
+  {
+   "from": "source:ml_torr",
+   "relation": "cited_by",
+   "to": "claim:ML002"
+  },
+  {
+   "from": "source:ml_torr",
+   "relation": "cited_by",
+   "to": "claim:ML003"
+  },
+  {
+   "from": "source:ml_torr",
+   "relation": "cited_by",
+   "to": "claim:ML004"
+  },
+  {
+   "from": "source:ml_torr",
+   "relation": "cited_by",
+   "to": "claim:ML005"
   },
   {
    "from": "source:mom_ep01",
@@ -46477,6 +47093,20 @@
     "file": "data/lore_research/pack_p5_untagged_misc_b10_2026-10-30.json",
     "sha256": "95ad1f619cc4698c90f8b945bc4635241f75d92dafd03e65fc097d9ea17e79e2",
     "sources": 6
+   },
+   {
+    "claims": 13,
+    "entities": 21,
+    "file": "data/lore_research/pack_p5_untagged_guides_2012_2026-10-30.json",
+    "sha256": "bf385b02625dad19aa9902da7bcc406b7ea38bdf5e89e023360b5296d135d426",
+    "sources": 6
+   },
+   {
+    "claims": 5,
+    "entities": 7,
+    "file": "data/lore_research/pack_p5_untagged_maelstrom_2007_2026-10-30.json",
+    "sha256": "2bf0a40ef05edb566c3134432ae96477c752c14ec78ed22d4a61209e8222ffe4",
+    "sources": 2
    }
   ],
   "deck_evidence": [
@@ -46505,9 +47135,9 @@
   ],
   "name_anchor_packs": [
    {
-    "anchors": 671,
+    "anchors": 681,
     "file": "data/lore_research/card_name_anchors_2026-10-30.json",
-    "sha256": "929e66a0701fbd27786749d63cb1075acf99dccaf9a5ce28306ad1ee95527d77"
+    "sha256": "bc7ba71850cde6a995d1579cc7cb2d3b2059adce1e8051d9393edd528223c1c4"
    }
   ],
   "story_caption_packs": [
@@ -46901,7 +47531,8 @@
    "origins": [
     "pack_c2_return_to_dominaria_2026-10-30.json",
     "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json",
-    "pack_p5_dmu_side_stories_2026-10-30.json"
+    "pack_p5_dmu_side_stories_2026-10-30.json",
+    "pack_p5_untagged_maelstrom_2007_2026-10-30.json"
    ],
    "type": "Object"
   },
@@ -48226,6 +48857,24 @@
    "origins": [
     "card_name_anchors_2026-10-30.json",
     "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:borborygmos",
+   "name": "Borborygmos",
+   "oracle_id": "9ab0820b-4f5f-47b3-8fa9-43f802aed275",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:borborygmos_enraged",
+   "name": "Borborygmos Enraged",
+   "oracle_id": "b7505737-1fc8-4ee8-8b1d-5dde73b6a76d",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -50272,6 +50921,24 @@
    "oracle_id": "b6e87f78-d4dd-44b2-bf70-92436ce583c9",
    "origins": [
     "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:feather_radiant_arbiter",
+   "name": "Feather, Radiant Arbiter",
+   "oracle_id": "957413ae-e756-4afe-886a-b57bf59d5f8d",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:feather_the_redeemed",
+   "name": "Feather, the Redeemed",
+   "oracle_id": "aa219936-661b-4ccb-8741-78b70cff2b1a",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -53376,6 +54043,15 @@
    "type": "Card"
   },
   {
+   "id": "card:maraxus_of_keld",
+   "name": "Maraxus of Keld",
+   "oracle_id": "af4b67c5-53dc-4e4d-9ec4-fa51cc3cd49a",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:mardu_ascendancy",
    "name": "Mardu Ascendancy",
    "oracle_id": "aa1de5ce-ddd4-4c1f-8c52-0311f4419e7b",
@@ -55487,6 +56163,15 @@
    "type": "Card"
   },
   {
+   "id": "card:razia_boros_archangel",
+   "name": "Razia, Boros Archangel",
+   "oracle_id": "d830a136-6fb9-42e7-81f1-97e1d713ee82",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:reality_hemorrhage",
    "name": "Reality Hemorrhage",
    "oracle_id": "21465dcd-c93a-4a2c-ae10-e22ebd5cae2f",
@@ -56978,6 +57663,15 @@
    "type": "Card"
   },
   {
+   "id": "card:starke_of_rath",
+   "name": "Starke of Rath",
+   "oracle_id": "07bc407e-7ba1-45aa-a562-0597ebe56044",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:steam_vents",
    "name": "Steam Vents",
    "oracle_id": "17039058-822d-409f-938c-b727a366ba63",
@@ -57201,6 +57895,15 @@
    "id": "card:syr_vondam_the_lucent",
    "name": "Syr Vondam, the Lucent",
    "oracle_id": "28225bae-2d96-4352-b256-0c2ff4ef65e9",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:szadek_lord_of_secrets",
+   "name": "Szadek, Lord of Secrets",
+   "oracle_id": "c40c823c-5954-457a-81a6-02683da57f7f",
    "origins": [
     "card_name_anchors_2026-10-30.json"
    ],
@@ -58919,6 +59622,24 @@
    "type": "Card"
   },
   {
+   "id": "card:volrath_the_fallen",
+   "name": "Volrath the Fallen",
+   "oracle_id": "4e11c838-68a7-4c97-b064-a46833cf1d2f",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:volrath_the_shapestealer",
+   "name": "Volrath, the Shapestealer",
+   "oracle_id": "a70d8e3d-a62d-4c4c-890b-e502e48c4475",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:vona_butcher_of_magan",
    "name": "Vona, Butcher of Magan",
    "oracle_id": "b1c56e23-eae6-47a1-a1cd-3a2d01621768",
@@ -59982,6 +60703,7 @@
    "name": "Aurelia",
    "origins": [
     "pack_p5_murders_at_karlov_manor_2026-10-30.json",
+    "pack_p5_untagged_guides_2012_2026-10-30.json",
     "pack_p5_war_spark_ravnica_2026-10-30.json"
    ],
    "type": "Character"
@@ -60090,6 +60812,14 @@
    "name": "Bontu",
    "origins": [
     "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:borborygmos",
+   "name": "Borborygmos",
+   "origins": [
+    "pack_p5_untagged_guides_2012_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -60627,6 +61357,14 @@
    "type": "Character"
   },
   {
+   "id": "character:feather",
+   "name": "Feather",
+   "origins": [
+    "pack_p5_untagged_guides_2012_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
    "id": "character:felothar",
    "name": "Felothar",
    "origins": [
@@ -60667,7 +61405,8 @@
    "name": "Gerrard Capashen",
    "origins": [
     "pack_c2_return_to_dominaria_2026-10-30.json",
-    "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json"
+    "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json",
+    "pack_p5_untagged_maelstrom_2007_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -60740,7 +61479,8 @@
    "id": "character:gisela",
    "name": "Gisela",
    "origins": [
-    "pack_p5_shadows_eldritch_moon_2026-10-30.json"
+    "pack_p5_shadows_eldritch_moon_2026-10-30.json",
+    "pack_p5_untagged_guides_2012_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -60965,6 +61705,7 @@
    "id": "character:isperia",
    "name": "Isperia",
    "origins": [
+    "pack_p5_untagged_guides_2012_2026-10-30.json",
     "pack_p5_war_spark_ravnica_2026-10-30.json"
    ],
    "type": "Character"
@@ -61021,6 +61762,7 @@
    "id": "character:jarad_vod_savo",
    "name": "Jarad vod Savo",
    "origins": [
+    "pack_p5_untagged_guides_2012_2026-10-30.json",
     "pack_p5_war_spark_ravnica_2026-10-30.json"
    ],
    "type": "Character"
@@ -61527,6 +62269,7 @@
    "id": "character:lazav",
    "name": "Lazav",
    "origins": [
+    "pack_p5_untagged_guides_2012_2026-10-30.json",
     "pack_p5_untagged_misc_b10_2026-10-30.json"
    ],
    "type": "Character"
@@ -61693,6 +62436,14 @@
    "name": "Maralen",
    "origins": [
     "pack_p5_lorwyn_eclipsed_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:maraxus",
+   "name": "Maraxus",
+   "origins": [
+    "pack_p5_untagged_maelstrom_2007_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -62042,7 +62793,8 @@
     "pack_p5_aetherdrift_2026-10-30.json",
     "pack_p5_dsk_side_stories_2026-10-30.json",
     "pack_p5_mkm_epilogue_2026-10-30.json",
-    "pack_p5_secrets_of_strixhaven_2026-10-30.json"
+    "pack_p5_secrets_of_strixhaven_2026-10-30.json",
+    "pack_p5_untagged_guides_2012_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -62461,6 +63213,14 @@
    "type": "Character"
   },
   {
+   "id": "character:razia",
+   "name": "Razia",
+   "origins": [
+    "pack_p5_untagged_guides_2012_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
    "id": "character:reen",
    "name": "Squad Captain Reen",
    "origins": [
@@ -62715,7 +63475,8 @@
    "id": "character:sisay",
    "name": "Captain Sisay",
    "origins": [
-    "pack_c2_return_to_dominaria_2026-10-30.json"
+    "pack_c2_return_to_dominaria_2026-10-30.json",
+    "pack_p5_untagged_maelstrom_2007_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -62767,6 +63528,22 @@
    "type": "Character"
   },
   {
+   "id": "character:starke",
+   "name": "Starke",
+   "origins": [
+    "pack_p5_untagged_maelstrom_2007_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:starkes_daughter",
+   "name": "Starke's daughter (unnamed in these stories)",
+   "origins": [
+    "pack_p5_untagged_maelstrom_2007_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
    "id": "character:stenn",
    "name": "Stenn",
    "origins": [
@@ -62779,6 +63556,14 @@
    "name": "Surrak Dragonclaw",
    "origins": [
     "pack_p5_untagged_ktk_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:szadek",
+   "name": "Szadek",
+   "origins": [
+    "pack_p5_untagged_guides_2012_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -63062,7 +63847,8 @@
    "id": "character:trostani",
    "name": "Trostani",
    "origins": [
-    "pack_p5_murders_at_karlov_manor_2026-10-30.json"
+    "pack_p5_murders_at_karlov_manor_2026-10-30.json",
+    "pack_p5_untagged_guides_2012_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -63226,6 +64012,14 @@
     "pack_p5_streets_of_new_capenna_2026-10-30.json",
     "pack_p5_untagged_bios_2026-10-30.json",
     "pack_p5_untagged_grn_rna_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:volrath",
+   "name": "Volrath",
+   "origins": [
+    "pack_p5_untagged_maelstrom_2007_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -63408,6 +64202,7 @@
    "name": "Zegana",
    "origins": [
     "pack_p5_murders_at_karlov_manor_2026-10-30.json",
+    "pack_p5_untagged_guides_2012_2026-10-30.json",
     "pack_p5_untagged_misc_b10_2026-10-30.json"
    ],
    "type": "Character"
@@ -67020,6 +67815,149 @@
   },
   {
    "grade": "CANON_CONFIRMED",
+   "id": "claim:GD001",
+   "name": "Niv-Mizzet is the original parun (founder) of the Izzet League.",
+   "origins": [
+    "pack_p5_untagged_guides_2012_2026-10-30.json"
+   ],
+   "predicate": "founded",
+   "stage": "return_to_ravnica_gatecrash_avacyn_restored_2012_2013",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:GD002",
+   "name": "Niv-Mizzet is guildmaster of the Izzet League (Return to Ravnica, 2012).",
+   "origins": [
+    "pack_p5_untagged_guides_2012_2026-10-30.json"
+   ],
+   "predicate": "leader_of",
+   "stage": "return_to_ravnica_gatecrash_avacyn_restored_2012_2013",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:GD003",
+   "name": "Trostani is the Selesnya guildmaster (Return to Ravnica, 2012).",
+   "origins": [
+    "pack_p5_untagged_guides_2012_2026-10-30.json"
+   ],
+   "predicate": "leader_of",
+   "stage": "return_to_ravnica_gatecrash_avacyn_restored_2012_2013",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:GD004",
+   "name": "Jarad vod Savo is the Golgari guildmaster (Return to Ravnica, 2012).",
+   "origins": [
+    "pack_p5_untagged_guides_2012_2026-10-30.json"
+   ],
+   "predicate": "leader_of",
+   "stage": "return_to_ravnica_gatecrash_avacyn_restored_2012_2013",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:GD005",
+   "name": "The sphinx Isperia is guildmaster of the Azorius (Return to Ravnica, 2012).",
+   "origins": [
+    "pack_p5_untagged_guides_2012_2026-10-30.json"
+   ],
+   "predicate": "leader_of",
+   "stage": "return_to_ravnica_gatecrash_avacyn_restored_2012_2013",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:GD006",
+   "name": "The vampire Szadek is the former leader of House Dimir; his rule ended at the end of the original Ravnica trilogy.",
+   "origins": [
+    "pack_p5_untagged_guides_2012_2026-10-30.json"
+   ],
+   "predicate": "leader_of",
+   "stage": "return_to_ravnica_gatecrash_avacyn_restored_2012_2013",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:GD007",
+   "name": "Lazav is Dimir's new guildmaster (Gatecrash, 2013).",
+   "origins": [
+    "pack_p5_untagged_guides_2012_2026-10-30.json"
+   ],
+   "predicate": "leader_of",
+   "stage": "return_to_ravnica_gatecrash_avacyn_restored_2012_2013",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:GD008",
+   "name": "Aurelia leads the Boros Legion (Gatecrash, 2013) after Razia's death and Feather's disgrace.",
+   "origins": [
+    "pack_p5_untagged_guides_2012_2026-10-30.json"
+   ],
+   "predicate": "leader_of",
+   "stage": "return_to_ravnica_gatecrash_avacyn_restored_2012_2013",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:GD009",
+   "name": "Razia was the Boros parun (founder), now dead.",
+   "origins": [
+    "pack_p5_untagged_guides_2012_2026-10-30.json"
+   ],
+   "predicate": "founded",
+   "stage": "return_to_ravnica_gatecrash_avacyn_restored_2012_2013",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:GD010",
+   "name": "Feather is a former (previous) Boros guildmaster, disgraced.",
+   "origins": [
+    "pack_p5_untagged_guides_2012_2026-10-30.json"
+   ],
+   "predicate": "leader_of",
+   "stage": "return_to_ravnica_gatecrash_avacyn_restored_2012_2013",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:GD011",
+   "name": "Zegana is guildmaster of the Simic Combine (Gatecrash, 2013).",
+   "origins": [
+    "pack_p5_untagged_guides_2012_2026-10-30.json"
+   ],
+   "predicate": "leader_of",
+   "stage": "return_to_ravnica_gatecrash_avacyn_restored_2012_2013",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:GD012",
+   "name": "The cyclops Borborygmos leads the Burning Tree clan of the Gruul.",
+   "origins": [
+    "pack_p5_untagged_guides_2012_2026-10-30.json"
+   ],
+   "predicate": "leader_of",
+   "stage": "return_to_ravnica_gatecrash_avacyn_restored_2012_2013",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:GD013",
+   "name": "Gisela leads Flight Goldnight (Avacyn Restored, 2012).",
+   "origins": [
+    "pack_p5_untagged_guides_2012_2026-10-30.json"
+   ],
+   "predicate": "leader_of",
+   "stage": "return_to_ravnica_gatecrash_avacyn_restored_2012_2013",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
    "id": "claim:GR001",
    "name": "Nicol Bolas destroyed Skalla, Vivien's home plane, in her past.",
    "origins": [
@@ -68560,6 +69498,63 @@
    ],
    "predicate": "met",
    "stage": "murders_at_karlov_manor_2024",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:ML001",
+   "name": "In the past (Tempest era), Volrath held Starke's daughter prisoner.",
+   "origins": [
+    "pack_p5_untagged_maelstrom_2007_2026-10-30.json"
+   ],
+   "predicate": "imprisoned",
+   "stage": "tempest_rath_2007_retold",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:ML002",
+   "name": "In the past (Tempest era), Starke was held in servitude by Volrath and Maraxus.",
+   "origins": [
+    "pack_p5_untagged_maelstrom_2007_2026-10-30.json"
+   ],
+   "predicate": "serves",
+   "stage": "tempest_rath_2007_retold",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:ML003",
+   "name": "In the past (Tempest era), Starke betrayed Sisay and helped her captors take her.",
+   "origins": [
+    "pack_p5_untagged_maelstrom_2007_2026-10-30.json"
+   ],
+   "predicate": "betrayed",
+   "stage": "tempest_rath_2007_retold",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:ML004",
+   "limitation": "'Captain' and 'of the Weatherlight' come from separate sentences in the two stories.",
+   "name": "In the past (Tempest era), Sisay was captain of the Weatherlight.",
+   "origins": [
+    "pack_p5_untagged_maelstrom_2007_2026-10-30.json"
+   ],
+   "predicate": "captain_of",
+   "stage": "tempest_rath_2007_retold",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:ML005",
+   "limitation": "The sentence's 'he' is Starke from the surrounding narration.",
+   "name": "In the past (Tempest era), Starke secretly signalled in Sisay's kidnapping letter to bring Gerrard to Crovax's estate.",
+   "origins": [
+    "pack_p5_untagged_maelstrom_2007_2026-10-30.json"
+   ],
+   "predicate": "lured",
+   "stage": "tempest_rath_2007_retold",
    "type": "Claim"
   },
   {
@@ -76385,6 +77380,7 @@
    "name": "Azorius Senate",
    "origins": [
     "pack_p5_murders_at_karlov_manor_2026-10-30.json",
+    "pack_p5_untagged_guides_2012_2026-10-30.json",
     "pack_p5_untagged_planes_2026-10-30.json",
     "pack_p5_war_spark_ravnica_2026-10-30.json"
    ],
@@ -76410,6 +77406,7 @@
    "id": "faction:boros_legion",
    "name": "Boros Legion",
    "origins": [
+    "pack_p5_untagged_guides_2012_2026-10-30.json",
     "pack_p5_untagged_planes_2026-10-30.json",
     "pack_p5_war_spark_ravnica_2026-10-30.json"
    ],
@@ -76428,6 +77425,14 @@
    "name": "The Brokers",
    "origins": [
     "pack_p5_snc_side_stories_2026-10-30.json"
+   ],
+   "type": "Faction"
+  },
+  {
+   "id": "faction:burning_tree_clan",
+   "name": "Burning Tree clan",
+   "origins": [
+    "pack_p5_untagged_guides_2012_2026-10-30.json"
    ],
    "type": "Faction"
   },
@@ -76642,6 +77647,7 @@
     "pack_p5_ixalan_rivals_2026-10-30.json",
     "pack_p5_murders_at_karlov_manor_2026-10-30.json",
     "pack_p5_untagged_bios_2026-10-30.json",
+    "pack_p5_untagged_guides_2012_2026-10-30.json",
     "pack_p5_untagged_misc_b10_2026-10-30.json",
     "pack_p5_untagged_planes_2026-10-30.json",
     "pack_p5_war_spark_ravnica_2026-10-30.json"
@@ -76701,6 +77707,7 @@
    "id": "faction:house_dimir",
    "name": "House Dimir",
    "origins": [
+    "pack_p5_untagged_guides_2012_2026-10-30.json",
     "pack_p5_untagged_misc_b10_2026-10-30.json"
    ],
    "type": "Faction"
@@ -76733,6 +77740,7 @@
    "id": "faction:izzet_league",
    "name": "Izzet League",
    "origins": [
+    "pack_p5_untagged_guides_2012_2026-10-30.json",
     "pack_p5_untagged_planes_2026-10-30.json",
     "pack_p5_war_spark_ravnica_2026-10-30.json"
    ],
@@ -76894,7 +77902,8 @@
    "id": "faction:order_of_goldnight",
    "name": "Goldnight",
    "origins": [
-    "pack_p5_shadows_eldritch_moon_2026-10-30.json"
+    "pack_p5_shadows_eldritch_moon_2026-10-30.json",
+    "pack_p5_untagged_guides_2012_2026-10-30.json"
    ],
    "type": "Faction"
   },
@@ -77034,6 +78043,14 @@
    "type": "Faction"
   },
   {
+   "id": "faction:selesnya_conclave",
+   "name": "Selesnya Conclave",
+   "origins": [
+    "pack_p5_untagged_guides_2012_2026-10-30.json"
+   ],
+   "type": "Faction"
+  },
+  {
    "id": "faction:shattergang_brothers",
    "name": "Shattergang Brothers",
    "origins": [
@@ -77054,6 +78071,7 @@
    "id": "faction:simic_combine",
    "name": "Simic Combine",
    "origins": [
+    "pack_p5_untagged_guides_2012_2026-10-30.json",
     "pack_p5_untagged_misc_b10_2026-10-30.json"
    ],
    "type": "Faction"
@@ -79985,6 +81003,72 @@
    "url": "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-first-lesson-2018-06-20"
   },
   {
+   "id": "source:g_avr1",
+   "kind": "official_planeswalkers_guide",
+   "name": "Planeswalker's Guide to Avacyn Restored: Part 1",
+   "origins": [
+    "pack_p5_untagged_guides_2012_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-avacyn-restored-part-1"
+  },
+  {
+   "id": "source:g_gtc1",
+   "kind": "official_planeswalkers_guide",
+   "name": "Planeswalker's Guide to Gatecrash: Part 1",
+   "origins": [
+    "pack_p5_untagged_guides_2012_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-gatecrash-part-1"
+  },
+  {
+   "id": "source:g_gtc2",
+   "kind": "official_planeswalkers_guide",
+   "name": "Planeswalker's Guide to Gatecrash: Part 2",
+   "origins": [
+    "pack_p5_untagged_guides_2012_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-gatecrash-part-2"
+  },
+  {
+   "id": "source:g_rtr1",
+   "kind": "official_planeswalkers_guide",
+   "name": "Planeswalker's Guide to Return to Ravnica: Part 1",
+   "origins": [
+    "pack_p5_untagged_guides_2012_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-return-to-ravnica-part-1"
+  },
+  {
+   "id": "source:g_rtr2",
+   "kind": "official_planeswalkers_guide",
+   "name": "Planeswalker's Guide to Return to Ravnica: Part 2",
+   "origins": [
+    "pack_p5_untagged_guides_2012_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-return-to-ravnica-part-2"
+  },
+  {
+   "id": "source:g_rtr3",
+   "kind": "official_planeswalkers_guide",
+   "name": "Planeswalker's Guide to Return to Ravnica: Part 3",
+   "origins": [
+    "pack_p5_untagged_guides_2012_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-return-to-ravnica-part-3"
+  },
+  {
    "id": "source:gr_ill",
    "kind": "official_story_episode",
    "name": "The Illusions of Child's Play",
@@ -81002,6 +82086,28 @@
    "source_class": "WIZARDS_OFFICIAL",
    "type": "Source",
    "url": "https://magic.wizards.com/en/news/magic-story/episode-11-portents-and-omens"
+  },
+  {
+   "id": "source:ml_mael",
+   "kind": "official_story_episode",
+   "name": "Maelstrom",
+   "origins": [
+    "pack_p5_untagged_maelstrom_2007_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/maelstrom"
+  },
+  {
+   "id": "source:ml_torr",
+   "kind": "official_story_episode",
+   "name": "Torrent",
+   "origins": [
+    "pack_p5_untagged_maelstrom_2007_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/torrent"
   },
   {
    "id": "source:mom_ep01",
@@ -84161,37 +85267,37 @@
  "problems": [],
  "schema": "multiverse-claim-graph/v1",
  "stats": {
-  "claim_edges_with_era": 1036,
+  "claim_edges_with_era": 1055,
   "claim_edges_with_in_universe_date": 29,
   "claims_by_status": {
    "ALTERNATE_CONTINUITY": 2,
-   "CANON_CONFIRMED": 801,
+   "CANON_CONFIRMED": 817,
    "CANON_DISPUTED": 8,
-   "CANON_IMPLIED": 195,
+   "CANON_IMPLIED": 197,
    "OPEN_QUESTION": 3
   },
   "curated_bridges": 119,
-  "edges": 6094,
+  "edges": 6179,
   "literal_objects": 14,
   "node_types": {
    "AlternateContinuity": 1,
-   "Card": 1382,
+   "Card": 1392,
    "CardTheme": 1,
-   "Character": 432,
-   "Claim": 1009,
+   "Character": 440,
+   "Claim": 1027,
    "Concept": 141,
    "DeckProposal": 3,
    "Event": 22,
-   "Faction": 108,
+   "Faction": 110,
    "Literal": 14,
    "Object": 47,
    "Place": 76,
    "Plane": 32,
-   "Source": 532
+   "Source": 540
   },
-  "nodes": 3800,
+  "nodes": 3846,
   "non_wizards_sources": 0,
-  "relations": 335,
-  "wizards_official_sources": 532
+  "relations": 336,
+  "wizards_official_sources": 540
  }
 }

@@ -1,0 +1,174 @@
+{
+ "schema": "multiverse-claim-pack/v1",
+ "pack_id": "pack_p5_untagged_maelstrom_2007",
+ "evidence_cutoff": "2026-10-30",
+ "status": "PRELIMINARY_RESEARCH (not owner approved, not certified)",
+ "arc": "",
+ "scope": "Batch 10 extraction from the untagged 2007 web stories 'Maelstrom' and 'Torrent' (Starke's betrayal of Sisay, Tempest-era Rath). PRELIMINARY_RESEARCH; targeted, not exhaustive; not owner approved.",
+ "built_by": "scripts/story_claim_pipeline.py from data/lore_research/claim_specs/pack_p5_untagged_maelstrom_2007.spec.json",
+ "source_register": {
+  "ml_mael": {
+   "title": "Maelstrom",
+   "url": "https://magic.wizards.com/en/news/magic-story/maelstrom",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2007-02-12"
+  },
+  "ml_torr": {
+   "title": "Torrent",
+   "url": "https://magic.wizards.com/en/news/magic-story/torrent",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2007-02-12"
+  }
+ },
+ "entities": [
+  {
+   "id": "starke",
+   "type": "Character",
+   "name": "Starke"
+  },
+  {
+   "id": "volrath",
+   "type": "Character",
+   "name": "Volrath"
+  },
+  {
+   "id": "maraxus",
+   "type": "Character",
+   "name": "Maraxus"
+  },
+  {
+   "id": "starkes_daughter",
+   "type": "Character",
+   "name": "Starke's daughter (unnamed in these stories)"
+  },
+  {
+   "id": "sisay",
+   "type": "Character",
+   "name": "Captain Sisay"
+  },
+  {
+   "id": "weatherlight",
+   "type": "Object",
+   "name": "Weatherlight (skyship)"
+  },
+  {
+   "id": "gerrard",
+   "type": "Character",
+   "name": "Gerrard Capashen"
+  }
+ ],
+ "claims": [
+  {
+   "id": "ML001",
+   "subject": "volrath",
+   "predicate": "imprisoned",
+   "object": "starkes_daughter",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "tempest_rath_2007_retold",
+   "source_ids": [
+    "ml_mael"
+   ],
+   "evidence": [
+    {
+     "source_id": "ml_mael",
+     "quote": "This servant, Volrath, is holding Starke's daughter prisoner."
+    }
+   ],
+   "summary": "In the past (Tempest era), Volrath held Starke's daughter prisoner.",
+   "limitation": ""
+  },
+  {
+   "id": "ML002",
+   "subject": "starke",
+   "predicate": "serves",
+   "object": "volrath;maraxus",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "tempest_rath_2007_retold",
+   "source_ids": [
+    "ml_torr"
+   ],
+   "evidence": [
+    {
+     "source_id": "ml_torr",
+     "quote": "Volrath and Maraxus still refused to free him from servitude and still refused to free his daughter."
+    }
+   ],
+   "summary": "In the past (Tempest era), Starke was held in servitude by Volrath and Maraxus.",
+   "limitation": ""
+  },
+  {
+   "id": "ML003",
+   "subject": "starke",
+   "predicate": "betrayed",
+   "object": "sisay",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "tempest_rath_2007_retold",
+   "source_ids": [
+    "ml_torr"
+   ],
+   "evidence": [
+    {
+     "source_id": "ml_torr",
+     "quote": "They had taken Sisay—and Starke had helped them."
+    },
+    {
+     "source_id": "ml_torr",
+     "quote": "He had gained nothing by betraying Sisay"
+    }
+   ],
+   "summary": "In the past (Tempest era), Starke betrayed Sisay and helped her captors take her.",
+   "limitation": ""
+  },
+  {
+   "id": "ML004",
+   "subject": "sisay",
+   "predicate": "captain_of",
+   "object": "weatherlight",
+   "grade": "CANON_IMPLIED",
+   "event_stage": "tempest_rath_2007_retold",
+   "source_ids": [
+    "ml_mael",
+    "ml_torr"
+   ],
+   "evidence": [
+    {
+     "source_id": "ml_mael",
+     "quote": "Sisay of the Weatherlight said to the Talruum minotaur"
+    },
+    {
+     "source_id": "ml_torr",
+     "quote": "Captain Sisay, however—who would serve Starke's purposes just as well—was still around."
+    }
+   ],
+   "summary": "In the past (Tempest era), Sisay was captain of the Weatherlight.",
+   "limitation": "'Captain' and 'of the Weatherlight' come from separate sentences in the two stories."
+  },
+  {
+   "id": "ML005",
+   "subject": "starke",
+   "predicate": "lured",
+   "object": "gerrard",
+   "grade": "CANON_IMPLIED",
+   "event_stage": "tempest_rath_2007_retold",
+   "source_ids": [
+    "ml_torr"
+   ],
+   "evidence": [
+    {
+     "source_id": "ml_torr",
+     "quote": "he had deliberately placed a sigil in Sisay's kidnapping letter to bring Gerrard to Crovax's estate"
+    }
+   ],
+   "summary": "In the past (Tempest era), Starke secretly signalled in Sisay's kidnapping letter to bring Gerrard to Crovax's estate.",
+   "limitation": "The sentence's 'he' is Starke from the surrounding narration."
+  }
+ ],
+ "pages_registered": 2,
+ "pages_cited": 2,
+ "uncited_registered_pages": [],
+ "remaining": [
+  "Targeted. Crovax and the Talruum minotaur guard are mentioned but not graded."
+ ]
+}

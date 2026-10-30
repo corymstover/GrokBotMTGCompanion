@@ -62,11 +62,11 @@ class LeaderEraContext(unittest.TestCase):
 
     def test_former_leaders_are_kept_but_not_named_most_recent(self):
         _, l = self.lead("Who is the leader of the Golgari?")
-        jarad = [x for x in l["timeline"] if x["node"] == "character:jarad_vod_savo"][0]
-        self.assertTrue(jarad["described_as_former"])
+        # Batch 10: GD004 (RTR guide 2012) adds an earlier, present-tense Jarad row; the 2019 row still calls him former
+        self.assertTrue(any(x["described_as_former"] for x in l["timeline"] if x["node"] == "character:jarad_vod_savo"))
         self.assertEqual(l["most_recent_cited"]["node"], "character:vraska")
         _, l = self.lead("Who leads the Azorius?")
-        self.assertTrue([x for x in l["timeline"] if x["node"] == "character:isperia"][0]["described_as_former"])
+        self.assertTrue(any(x["described_as_former"] for x in l["timeline"] if x["node"] == "character:isperia"))
         self.assertEqual(l["most_recent_cited"]["node"], "character:lavinia")
 
     def test_timeline_is_date_ordered_and_note_is_honest(self):
@@ -76,9 +76,23 @@ class LeaderEraContext(unittest.TestCase):
         self.assertIn("not proof of the leader in present-day canon", l["note"])
 
     def test_single_leader_has_no_multi_era_flag(self):
+        # Batch 10: Boros now also cites Feather (GD010, "previous" guildmaster), so the single-leader case is Selesnya
+        env, l = self.lead("Who leads the Selesnya?")
+        self.assertEqual(l["most_recent_cited"]["node"], "character:trostani")
+        self.assertNotIn("MULTIPLE_LEADERS_ACROSS_ERAS", env["flags"])
+
+    def test_boros_former_guildmaster_is_era_context_not_most_recent(self):
         env, l = self.lead("Who leads the Boros?")
         self.assertEqual(l["most_recent_cited"]["node"], "character:aurelia")
-        self.assertNotIn("MULTIPLE_LEADERS_ACROSS_ERAS", env["flags"])
+        self.assertTrue(any(x["described_as_former"] for x in l["timeline"] if x["node"] == "character:feather"))
+
+    def test_house_and_conclave_and_combine_short_names(self):
+        for q, n in [("Who leads the Dimir?", "character:lazav"), ("Who leads the Simic?", "character:zegana"),
+                     ("Who is the leader of the Selesnya Conclave?", "character:trostani")]:
+            _, l = self.lead(q)
+            self.assertEqual(l["most_recent_cited"]["node"], n, q)
+        _, l = self.lead("Who leads the Dimir?")
+        self.assertTrue(any(x["described_as_former"] for x in l["timeline"] if x["node"] == "character:szadek"))
 
     def test_implied_leader_stays_qualified(self):
         env, _ = self.lead("Who leads the Gruul?")

@@ -57,7 +57,9 @@
   "data/lore_research/pack_p5_untagged_conspiracy_2016_2026-10-30.json",
   "data/lore_research/pack_p5_untagged_ori_2015_2026-10-30.json",
   "data/lore_research/pack_p5_untagged_grn_rna_2026-10-30.json",
-  "data/lore_research/pack_p5_untagged_misc_b10_2026-10-30.json"
+  "data/lore_research/pack_p5_untagged_misc_b10_2026-10-30.json",
+  "data/lore_research/pack_p5_untagged_guides_2012_2026-10-30.json",
+  "data/lore_research/pack_p5_untagged_maelstrom_2007_2026-10-30.json"
  ],
  "art_match_packs": [
   "data/lore_research/pack_a4_printing_art_matches_2026-10-30.json"

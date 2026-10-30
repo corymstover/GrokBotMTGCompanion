@@ -880,6 +880,29 @@
    ]
   },
   {
+   "entity": "borborygmos",
+   "entity_type": "Character",
+   "entity_name": "Borborygmos",
+   "aliases": [
+    "Borborygmos"
+   ],
+   "pack": "pack_p5_untagged_guides_2012_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Borborygmos",
+     "oracle_id": "9ab0820b-4f5f-47b3-8fa9-43f802aed275",
+     "type_line": "Legendary Creature — Cyclops",
+     "scryfall_uri": "https://scryfall.com/card/gpt/103/borborygmos"
+    },
+    {
+     "name": "Borborygmos Enraged",
+     "oracle_id": "b7505737-1fc8-4ee8-8b1d-5dde73b6a76d",
+     "type_line": "Legendary Creature — Cyclops",
+     "scryfall_uri": "https://scryfall.com/card/rvr/167/borborygmos-enraged"
+    }
+   ]
+  },
+  {
    "entity": "brago",
    "entity_type": "Character",
    "entity_name": "Brago",
@@ -1900,6 +1923,29 @@
      "oracle_id": "10d13ff6-c4d0-4753-8939-a8a90f0e92bb",
      "type_line": "Legendary Land",
      "scryfall_uri": "https://scryfall.com/card/mm2/242/eye-of-ugin"
+    }
+   ]
+  },
+  {
+   "entity": "feather",
+   "entity_type": "Character",
+   "entity_name": "Feather",
+   "aliases": [
+    "Feather"
+   ],
+   "pack": "pack_p5_untagged_guides_2012_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Feather, Radiant Arbiter",
+     "oracle_id": "957413ae-e756-4afe-886a-b57bf59d5f8d",
+     "type_line": "Legendary Creature — Angel",
+     "scryfall_uri": "https://scryfall.com/card/mkc/6/feather-radiant-arbiter"
+    },
+    {
+     "name": "Feather, the Redeemed",
+     "oracle_id": "aa219936-661b-4ccb-8741-78b70cff2b1a",
+     "type_line": "Legendary Creature — Angel",
+     "scryfall_uri": "https://scryfall.com/card/war/197/feather-the-redeemed"
     }
    ]
   },
@@ -4041,6 +4087,23 @@
    ]
   },
   {
+   "entity": "maraxus",
+   "entity_type": "Character",
+   "entity_name": "Maraxus",
+   "aliases": [
+    "Maraxus"
+   ],
+   "pack": "pack_p5_untagged_maelstrom_2007_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Maraxus of Keld",
+     "oracle_id": "af4b67c5-53dc-4e4d-9ec4-fa51cc3cd49a",
+     "type_line": "Legendary Creature — Human Warrior",
+     "scryfall_uri": "https://scryfall.com/card/wth/111/maraxus-of-keld"
+    }
+   ]
+  },
+  {
    "entity": "marchesa",
    "entity_type": "Character",
    "entity_name": "Queen Marchesa",
@@ -5579,6 +5642,23 @@
    ]
   },
   {
+   "entity": "razia",
+   "entity_type": "Character",
+   "entity_name": "Razia",
+   "aliases": [
+    "Razia"
+   ],
+   "pack": "pack_p5_untagged_guides_2012_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Razia, Boros Archangel",
+     "oracle_id": "d830a136-6fb9-42e7-81f1-97e1d713ee82",
+     "type_line": "Legendary Creature — Angel",
+     "scryfall_uri": "https://scryfall.com/card/hop/92/razia-boros-archangel"
+    }
+   ]
+  },
+  {
    "entity": "rhonas",
    "entity_type": "Character",
    "entity_name": "Rhonas",
@@ -6335,6 +6415,23 @@
    ]
   },
   {
+   "entity": "starke",
+   "entity_type": "Character",
+   "entity_name": "Starke",
+   "aliases": [
+    "Starke"
+   ],
+   "pack": "pack_p5_untagged_maelstrom_2007_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Starke of Rath",
+     "oracle_id": "07bc407e-7ba1-45aa-a562-0597ebe56044",
+     "type_line": "Legendary Creature — Human Rogue",
+     "scryfall_uri": "https://scryfall.com/card/tpr/162/starke-of-rath"
+    }
+   ]
+  },
+  {
    "entity": "stenn",
    "entity_type": "Character",
    "entity_name": "Stenn",
@@ -6382,6 +6479,23 @@
      "oracle_id": "7c766365-82c2-46d6-8521-42e73129f4ef",
      "type_line": "Legendary Creature — Human Warrior",
      "scryfall_uri": "https://scryfall.com/card/dmc/169/surrak-dragonclaw"
+    }
+   ]
+  },
+  {
+   "entity": "szadek",
+   "entity_type": "Character",
+   "entity_name": "Szadek",
+   "aliases": [
+    "Szadek"
+   ],
+   "pack": "pack_p5_untagged_guides_2012_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Szadek, Lord of Secrets",
+     "oracle_id": "c40c823c-5954-457a-81a6-02683da57f7f",
+     "type_line": "Legendary Creature — Vampire",
+     "scryfall_uri": "https://scryfall.com/card/cm2/168/szadek-lord-of-secrets"
     }
    ]
   },
@@ -7469,6 +7583,29 @@
    ]
   },
   {
+   "entity": "volrath",
+   "entity_type": "Character",
+   "entity_name": "Volrath",
+   "aliases": [
+    "Volrath"
+   ],
+   "pack": "pack_p5_untagged_maelstrom_2007_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Volrath the Fallen",
+     "oracle_id": "4e11c838-68a7-4c97-b064-a46833cf1d2f",
+     "type_line": "Legendary Creature — Phyrexian Shapeshifter",
+     "scryfall_uri": "https://scryfall.com/card/nem/75/volrath-the-fallen"
+    },
+    {
+     "name": "Volrath, the Shapestealer",
+     "oracle_id": "a70d8e3d-a62d-4c4c-890b-e502e48c4475",
+     "type_line": "Legendary Creature — Phyrexian Shapeshifter",
+     "scryfall_uri": "https://scryfall.com/card/c19/51/volrath-the-shapestealer"
+    }
+   ]
+  },
+  {
    "entity": "vondam",
    "entity_type": "Character",
    "entity_name": "Syr Vondam",
@@ -8120,6 +8257,7 @@
   "sothera",
   "sotheran_supervoid",
   "spire_inquirium",
+  "starkes_daughter",
   "summitfest",
   "sungold_lock",
   "susur_secundi",
@@ -8170,9 +8308,9 @@
   "Urza, Academy Headmaster"
  ],
  "counts": {
-  "entities_anchored": 354,
-  "anchor_edges": 671,
-  "unanchored_entities": 223
+  "entities_anchored": 361,
+  "anchor_edges": 681,
+  "unanchored_entities": 224
  },
- "content_sha256": "5769a5dc5510a26341eab2a32b8ea5305a9325cf60e33eb1f83b3015c56e2ed6"
+ "content_sha256": "c6d4a191f13e3d97467e33e9ed367435da5932533414c0240f7ecf1f9ae1eec2"
 }

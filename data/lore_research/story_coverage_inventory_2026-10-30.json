@@ -60,7 +60,9 @@
    "data/lore_research/pack_p5_untagged_conspiracy_2016_2026-10-30.json",
    "data/lore_research/pack_p5_untagged_ori_2015_2026-10-30.json",
    "data/lore_research/pack_p5_untagged_grn_rna_2026-10-30.json",
-   "data/lore_research/pack_p5_untagged_misc_b10_2026-10-30.json"
+   "data/lore_research/pack_p5_untagged_misc_b10_2026-10-30.json",
+   "data/lore_research/pack_p5_untagged_guides_2012_2026-10-30.json",
+   "data/lore_research/pack_p5_untagged_maelstrom_2007_2026-10-30.json"
   ],
   "reviewed_no_claim": "data/lore_research/reviewed_no_claim.json"
  },
@@ -68,13 +70,13 @@
  "totals": {
   "arcs": 33,
   "pages": 626,
-  "cited_pages": 508,
+  "cited_pages": 516,
   "arcs_not_started": 0,
   "arcs_partial": 2,
   "arcs_all_cited": 31,
   "reviewed_no_claim_pages": 40,
   "arcs_all_cited_or_reviewed": 32,
-  "claims": 1009,
+  "claims": 1027,
   "pack_urls_outside_inventory": 12
  },
  "claims_per_pack": {
@@ -135,7 +137,9 @@
   "pack_p5_untagged_conspiracy_2016_2026-10-30.json": 11,
   "pack_p5_untagged_ori_2015_2026-10-30.json": 12,
   "pack_p5_untagged_grn_rna_2026-10-30.json": 5,
-  "pack_p5_untagged_misc_b10_2026-10-30.json": 8
+  "pack_p5_untagged_misc_b10_2026-10-30.json": 8,
+  "pack_p5_untagged_guides_2012_2026-10-30.json": 13,
+  "pack_p5_untagged_maelstrom_2007_2026-10-30.json": 5
  },
  "arcs": [
   {
@@ -699,7 +703,7 @@
   {
    "arc": "(untagged)",
    "pages": 227,
-   "cited_pages": 111,
+   "cited_pages": 119,
    "kinds": {
     "feature": 9,
     "planeswalkers-guide": 27,
@@ -715,8 +719,10 @@
     "pack_p5_untagged_bios_2026-10-30.json",
     "pack_p5_untagged_conspiracy_2016_2026-10-30.json",
     "pack_p5_untagged_grn_rna_2026-10-30.json",
+    "pack_p5_untagged_guides_2012_2026-10-30.json",
     "pack_p5_untagged_isd_guides_2026-10-30.json",
     "pack_p5_untagged_ktk_2026-10-30.json",
+    "pack_p5_untagged_maelstrom_2007_2026-10-30.json",
     "pack_p5_untagged_misc_b10_2026-10-30.json",
     "pack_p5_untagged_nph_guides_2026-10-30.json",
     "pack_p5_untagged_ori_2015_2026-10-30.json",
@@ -735,13 +741,7 @@
     "https://magic.wizards.com/en/news/feature/planeswalkers-guide-innistrad-2011-11-02",
     "https://magic.wizards.com/en/news/feature/planeswalkers-guide-khans-tarkir-part-1-2014-09-03",
     "https://magic.wizards.com/en/news/feature/planeswalkers-guide-khans-tarkir-part-2-2014-09-10",
-    "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-avacyn-restored-part-1",
     "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-avacyn-restored-part-2",
-    "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-gatecrash-part-1",
-    "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-gatecrash-part-2",
-    "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-return-to-ravnica-part-1",
-    "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-return-to-ravnica-part-2",
-    "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-return-to-ravnica-part-3",
     "https://magic.wizards.com/en/news/feature/rorecas-tale-2008-03-19",
     "https://magic.wizards.com/en/news/magic-story/an-excerpt-from-strixhaven-omens-of-chaos",
     "https://magic.wizards.com/en/news/magic-story/bard-and-biologist-2014-07-09",
@@ -780,7 +780,6 @@
     "https://magic.wizards.com/en/news/magic-story/ledger-hidden-fortunes-2019-02-20",
     "https://magic.wizards.com/en/news/magic-story/lore-core-set-2021-cards-2020-06-16",
     "https://magic.wizards.com/en/news/magic-story/lunarchs-journal-2014-08-13",
-    "https://magic.wizards.com/en/news/magic-story/maelstrom",
     "https://magic.wizards.com/en/news/magic-story/magic-origins-new-era-2015-06-03",
     "https://magic.wizards.com/en/news/magic-story/magic-story-shadows-over-innistrad-e-book-collection-2016-06-01",
     "https://magic.wizards.com/en/news/magic-story/magosi-steps-2020-09-10",
@@ -807,7 +806,6 @@
     "https://magic.wizards.com/en/news/magic-story/the-shadows-of-prahv-part-1",
     "https://magic.wizards.com/en/news/magic-story/the-shadows-of-prahv-part-2",
     "https://magic.wizards.com/en/news/magic-story/threadbare-2012-07-23",
-    "https://magic.wizards.com/en/news/magic-story/torrent",
     "https://magic.wizards.com/en/news/magic-story/unbowed-part-1-2018-08-29",
     "https://magic.wizards.com/en/news/magic-story/unwritten-2015-01-14",
     "https://magic.wizards.com/en/news/magic-story/veil-deceit-2014-07-01",
@@ -852,13 +850,7 @@
     "https://magic.wizards.com/en/news/feature/planeswalkers-guide-dragons-tarkir-part-1-2015-03-11",
     "https://magic.wizards.com/en/news/feature/planeswalkers-guide-khans-tarkir-part-1-2014-09-03",
     "https://magic.wizards.com/en/news/feature/planeswalkers-guide-khans-tarkir-part-2-2014-09-10",
-    "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-avacyn-restored-part-1",
     "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-avacyn-restored-part-2",
-    "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-gatecrash-part-1",
-    "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-gatecrash-part-2",
-    "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-return-to-ravnica-part-1",
-    "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-return-to-ravnica-part-2",
-    "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-return-to-ravnica-part-3",
     "https://magic.wizards.com/en/news/magic-story/an-excerpt-from-strixhaven-omens-of-chaos",
     "https://magic.wizards.com/en/news/magic-story/bard-and-biologist-2014-07-09",
     "https://magic.wizards.com/en/news/magic-story/betrayal-2014-05-14",
@@ -892,7 +884,6 @@
     "https://magic.wizards.com/en/news/magic-story/krenko-mob-boss-2012-07-18",
     "https://magic.wizards.com/en/news/magic-story/ledger-hidden-fortunes-2019-02-20",
     "https://magic.wizards.com/en/news/magic-story/lunarchs-journal-2014-08-13",
-    "https://magic.wizards.com/en/news/magic-story/maelstrom",
     "https://magic.wizards.com/en/news/magic-story/magosi-steps-2020-09-10",
     "https://magic.wizards.com/en/news/magic-story/nature-identity-2014-01-15",
     "https://magic.wizards.com/en/news/magic-story/nature-identity-2014-01-15-0",
@@ -915,7 +906,6 @@
     "https://magic.wizards.com/en/news/magic-story/the-shadows-of-prahv-part-1",
     "https://magic.wizards.com/en/news/magic-story/the-shadows-of-prahv-part-2",
     "https://magic.wizards.com/en/news/magic-story/threadbare-2012-07-23",
-    "https://magic.wizards.com/en/news/magic-story/torrent",
     "https://magic.wizards.com/en/news/magic-story/unbowed-part-1-2018-08-29",
     "https://magic.wizards.com/en/news/magic-story/unwritten-2015-01-14",
     "https://magic.wizards.com/en/news/magic-story/veil-deceit-2014-07-01",
@@ -926,5 +916,5 @@
    ]
   }
  ],
- "sha256": "f46ec4cf2d7ad1a45df824c814a39f61cb44e2ce70daaa42eb7ed356051bb643"
+ "sha256": "b4ce350c4749ac15c40cc34fb1968b8818105fddc407792933a8493324a8552b"
 }

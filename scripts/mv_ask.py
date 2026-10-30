@@ -125,7 +125,8 @@ def graph():
 # Batch 9: short names for factions and guilds. Generated from the graph's Faction nodes by dropping a
 # leading "The" and a trailing organisation word, kept only when the short name is unique among factions,
 # so "Izzet" -> Izzet League and "Golgari" -> Golgari Swarm. Never points at a node that is not in the graph.
-_ORG_WORDS = {"league", "senate", "legion", "swarm", "syndicate", "clans", "clan", "college"}  # guild/college/clan
+_ORG_WORDS = {"league", "senate", "legion", "swarm", "syndicate", "clans", "clan", "college", "conclave", "combine"}
+_LEAD_ORG_WORDS = {"house"}  # Batch 10: "House Dimir" -> "Dimir"  # guild/college/clan
 # words only: "Sun Empire" must not become "Sun"
 _EXTRA_ALIASES = {"coppercoats": "faction:coppercoats", "drannith defense force": "faction:coppercoats",
                   "the consulate": "faction:consulate", "mirran resistance": "faction:mirran_resistance"}
@@ -145,6 +146,8 @@ def faction_aliases() -> dict:
             forms = {name}
             if len(words) > 1 and words[-1] in _ORG_WORDS:
                 forms.add(" ".join(words[:-1]))
+            if len(words) > 1 and words[0] in _LEAD_ORG_WORDS:
+                forms.add(" ".join(words[1:]))
             for f in forms:
                 cand.setdefault(f, set()).add(nid)
         _aliases = {k: next(iter(v)) for k, v in cand.items() if len(v) == 1 and k}
