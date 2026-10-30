@@ -47,16 +47,16 @@ def apply_source_overlay(data, verified):
     revised["all_848_released_nondigital_other_type_records"] = entries
     revised["wizards_reviewed_examples"] = verified["cumulative_wizards_source_reviewed_other_category_codes"]
     revised["metadata_only_pending_wizards_individual_review"] = verified["cumulative_source_pending_other_category_codes"]
-    from collections import Counter
-    revised["cohort_review_progress"] = {
-        cohort: dict(sorted(Counter({
-            "codes": len([x for x in entries if x["metadata_cohort_not_official_classification"] == cohort]),
-            "wizards_reviewed": len([x for x in entries if x["metadata_cohort_not_official_classification"] == cohort and x["wizards_individual_source_review"]]),
-            "needs_individual_review": len([x for x in entries if x["metadata_cohort_not_official_classification"] == cohort and not x["wizards_individual_source_review"]]),
-            "explicit_parent_links": len([x for x in entries if x["metadata_cohort_not_official_classification"] == cohort and x["parent_set_code_explicit_only"]]),
-        })).items()))
-        for cohort in data["metadata_research_cohorts"]
-    }
+    revised["cohort_review_progress"] = {}
+    for cohort in data["metadata_research_cohorts"]:
+        members = [x for x in entries
+                   if x["metadata_cohort_not_official_classification"] == cohort]
+        revised["cohort_review_progress"][cohort] = {
+            "codes": len(members),
+            "wizards_reviewed": sum(bool(x["wizards_individual_source_review"]) for x in members),
+            "needs_individual_review": sum(not x["wizards_individual_source_review"] for x in members),
+            "explicit_parent_links": sum(bool(x["parent_set_code_explicit_only"]) for x in members),
+        }
     if len(entries) != 848 or len([x for x in entries if x["wizards_individual_source_review"]]) != 35:
         raise ValueError("Cumulative reviewed code conservation failed")
     return revised
