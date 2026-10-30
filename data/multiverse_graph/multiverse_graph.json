@@ -7,7 +7,7 @@
   "HYPOTHETICAL": "Creative or deckbuilding connection; never canon.",
   "OPEN_QUESTION": "Primary sources leave the matter unresolved; do not assert either way."
  },
- "content_sha256": "c09485c31685e7a86a57a9ab3082c78b299c3a09b1cc0a7a858dc9c179f01f10",
+ "content_sha256": "af84f01d91684075f92c931af0c7b99534e350fdba9d7c9baea6008bd4fa9b48",
  "edges": [
   {
    "artists": [
@@ -8651,6 +8651,13 @@
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:arni_brokenbrow",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:arni_brokenbrow"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
    "from": "character:arvad",
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
@@ -9096,6 +9103,13 @@
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
    "to": "card:edgar_markov"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:egon",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:egon_god_of_death_throne_of_death"
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
@@ -9554,6 +9568,13 @@
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:inga_rune_eyes",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:inga_rune_eyes"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
    "from": "character:inti",
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
@@ -9810,6 +9831,20 @@
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
    "to": "card:karn_the_great_creator"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:kasmina",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:kasmina_enigma_sage"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:kasmina",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:kasmina_enigmatic_mentor"
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
@@ -10125,6 +10160,13 @@
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
    "to": "card:kyodai_soul_of_kamigawa"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:lathril",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:lathril_blade_of_the_elves"
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
@@ -10569,6 +10611,13 @@
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:niko_aris",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:niko_aris"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
    "from": "character:nissa_revane",
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
@@ -10908,7 +10957,28 @@
    "from": "character:quintorius",
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
+   "to": "card:quintorius_field_historian"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:quintorius",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:quintorius_history_chaser"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:quintorius",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
    "to": "card:quintorius_kand"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:quintorius",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:quintorius_loremaster"
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
@@ -11294,6 +11364,13 @@
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
    "to": "card:sarkhan_vol"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:sarulf",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:sarulf_realm_eater"
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
@@ -11924,6 +12001,13 @@
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
    "to": "card:urza_prince_of_kroog"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:uvilda",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:uvilda_dean_of_perfection_nassari_dean_of_expression"
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
@@ -16501,6 +16585,126 @@
    "to": "character:koma"
   },
   {
+   "claim": "KH015",
+   "era": "kaldheim_khm_2021",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:thura",
+   "grade": "CANON_CONFIRMED",
+   "relation": "member_of",
+   "sources": [
+    "khm_aim"
+   ],
+   "to": "faction:beskir"
+  },
+  {
+   "claim": "KH016",
+   "era": "kaldheim_khm_2021",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:arni_brokenbrow",
+   "grade": "CANON_IMPLIED",
+   "relation": "leader_of",
+   "sources": [
+    "khm_brokenbrow"
+   ],
+   "to": "faction:tuskeri"
+  },
+  {
+   "claim": "KH017",
+   "era": "kaldheim_khm_2021",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:njala",
+   "grade": "CANON_IMPLIED",
+   "relation": "member_of",
+   "sources": [
+    "khm_brokenbrow"
+   ],
+   "to": "faction:valkyries_of_starnheim"
+  },
+  {
+   "claim": "KH018",
+   "era": "kaldheim_khm_2021",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:njala",
+   "grade": "CANON_IMPLIED",
+   "relation": "sibling_of",
+   "sources": [
+    "khm_brokenbrow"
+   ],
+   "to": "character:alajn"
+  },
+  {
+   "claim": "KH019",
+   "era": "kaldheim_khm_2021",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:egon",
+   "grade": "CANON_CONFIRMED",
+   "relation": "leader_of",
+   "sources": [
+    "khm_direction"
+   ],
+   "to": "place:istfell"
+  },
+  {
+   "claim": "KH020",
+   "era": "kaldheim_khm_2021",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:inga_rune_eyes",
+   "grade": "CANON_CONFIRMED",
+   "relation": "leader_of",
+   "sources": [
+    "khm_ep1"
+   ],
+   "to": "faction:omenseekers"
+  },
+  {
+   "claim": "KH021",
+   "era": "kaldheim_khm_2021",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:kaya",
+   "grade": "CANON_CONFIRMED",
+   "relation": "met",
+   "sources": [
+    "khm_ep1"
+   ],
+   "to": "character:inga_rune_eyes"
+  },
+  {
+   "claim": "KH022",
+   "era": "kaldheim_khm_2021",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:alrund",
+   "grade": "CANON_IMPLIED",
+   "relation": "aided",
+   "sources": [
+    "khm_ep2"
+   ],
+   "to": "character:kaya"
+  },
+  {
+   "claim": "KH023",
+   "era": "kaldheim_khm_2021",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:niko_aris",
+   "grade": "CANON_CONFIRMED",
+   "relation": "visited",
+   "sources": [
+    "khm_wind"
+   ],
+   "to": "plane:kaldheim"
+  },
+  {
+   "claim": "KH024",
+   "era": "kaldheim_khm_2021",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:sarulf",
+   "grade": "CANON_IMPLIED",
+   "relation": "chose",
+   "sources": [
+    "khm_lathril"
+   ],
+   "to": "character:lathril"
+  },
+  {
    "claim": "KLD001",
    "era": "soi_emn_2016",
    "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
@@ -20416,6 +20620,103 @@
    "to": "character:liliana_vess"
   },
   {
+   "claim": "SX012",
+   "era": "strixhaven_stx_2021",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:zimone",
+   "grade": "CANON_CONFIRMED",
+   "relation": "friend_of",
+   "sources": [
+    "stx_ribbons"
+   ],
+   "to": "character:amaka"
+  },
+  {
+   "claim": "SX013",
+   "era": "strixhaven_stx_2021",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:lisette",
+   "grade": "CANON_IMPLIED",
+   "relation": "mentored",
+   "sources": [
+    "stx_chains"
+   ],
+   "to": "character:dina"
+  },
+  {
+   "claim": "SX014",
+   "era": "strixhaven_stx_2021",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:uvilda",
+   "grade": "CANON_IMPLIED",
+   "relation": "leader_of",
+   "sources": [
+    "stx_cry"
+   ],
+   "to": "faction:prismari_college"
+  },
+  {
+   "claim": "SX015",
+   "era": "strixhaven_stx_2021",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:kasmina",
+   "grade": "CANON_CONFIRMED",
+   "relation": "fought",
+   "sources": [
+    "stx_ep3"
+   ],
+   "to": "character:lukka"
+  },
+  {
+   "claim": "SX016",
+   "era": "strixhaven_stx_2021",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:quintorius",
+   "grade": "CANON_CONFIRMED",
+   "relation": "member_of",
+   "sources": [
+    "stx_mentor",
+    "stx_silent"
+   ],
+   "to": "faction:lorehold_college"
+  },
+  {
+   "claim": "SX017",
+   "era": "strixhaven_stx_2021",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:embrose_lu",
+   "grade": "CANON_CONFIRMED",
+   "relation": "parent_of",
+   "sources": [
+    "stx_silent"
+   ],
+   "to": "character:killian_lu"
+  },
+  {
+   "claim": "SX018",
+   "era": "strixhaven_stx_2021",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:fannessa",
+   "grade": "CANON_CONFIRMED",
+   "relation": "member_of",
+   "sources": [
+    "stx_silent"
+   ],
+   "to": "faction:oriq"
+  },
+  {
+   "claim": "SX019",
+   "era": "strixhaven_stx_2021",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:killian_lu",
+   "grade": "CANON_IMPLIED",
+   "relation": "member_of",
+   "sources": [
+    "stx_chains"
+   ],
+   "to": "faction:silverquill_college"
+  },
+  {
    "claim": "TB001",
    "era": "theros_thb_2020",
    "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
@@ -22565,6 +22866,12 @@
    "to": "curated:Planeswalker Dossiers.md#karn"
   },
   {
+   "from": "character:kasmina",
+   "relation": "see_also_curated_entry",
+   "tier": "contextual_pointer",
+   "to": "curated:Characters Index.md#kasmina"
+  },
+  {
    "from": "character:kaya",
    "relation": "see_also_curated_entry",
    "tier": "contextual_pointer",
@@ -22663,6 +22970,12 @@
    "relation": "see_also_curated_entry",
    "tier": "contextual_pointer",
    "to": "curated:Planeswalker Dossiers.md#nicol-bolas"
+  },
+  {
+   "from": "character:niko_aris",
+   "relation": "see_also_curated_entry",
+   "tier": "contextual_pointer",
+   "to": "curated:Characters Index.md#niko-aris"
   },
   {
    "from": "character:nissa_revane",
@@ -26887,6 +27200,126 @@
    "to": "faction:skoti"
   },
   {
+   "from": "claim:KH015",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:beskir"
+  },
+  {
+   "from": "claim:KH015",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:thura"
+  },
+  {
+   "from": "claim:KH016",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:tuskeri"
+  },
+  {
+   "from": "claim:KH016",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:arni_brokenbrow"
+  },
+  {
+   "from": "claim:KH017",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:valkyries_of_starnheim"
+  },
+  {
+   "from": "claim:KH017",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:njala"
+  },
+  {
+   "from": "claim:KH018",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:alajn"
+  },
+  {
+   "from": "claim:KH018",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:njala"
+  },
+  {
+   "from": "claim:KH019",
+   "relation": "asserts",
+   "role": "object",
+   "to": "place:istfell"
+  },
+  {
+   "from": "claim:KH019",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:egon"
+  },
+  {
+   "from": "claim:KH020",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:omenseekers"
+  },
+  {
+   "from": "claim:KH020",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:inga_rune_eyes"
+  },
+  {
+   "from": "claim:KH021",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:inga_rune_eyes"
+  },
+  {
+   "from": "claim:KH021",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:kaya"
+  },
+  {
+   "from": "claim:KH022",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:kaya"
+  },
+  {
+   "from": "claim:KH022",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:alrund"
+  },
+  {
+   "from": "claim:KH023",
+   "relation": "asserts",
+   "role": "object",
+   "to": "plane:kaldheim"
+  },
+  {
+   "from": "claim:KH023",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:niko_aris"
+  },
+  {
+   "from": "claim:KH024",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:lathril"
+  },
+  {
+   "from": "claim:KH024",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:sarulf"
+  },
+  {
    "from": "claim:KLD001",
    "relation": "asserts",
    "role": "object",
@@ -30733,6 +31166,102 @@
    "to": "character:beledros_witherbloom"
   },
   {
+   "from": "claim:SX012",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:amaka"
+  },
+  {
+   "from": "claim:SX012",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:zimone"
+  },
+  {
+   "from": "claim:SX013",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:dina"
+  },
+  {
+   "from": "claim:SX013",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:lisette"
+  },
+  {
+   "from": "claim:SX014",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:prismari_college"
+  },
+  {
+   "from": "claim:SX014",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:uvilda"
+  },
+  {
+   "from": "claim:SX015",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:lukka"
+  },
+  {
+   "from": "claim:SX015",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:kasmina"
+  },
+  {
+   "from": "claim:SX016",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:lorehold_college"
+  },
+  {
+   "from": "claim:SX016",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:quintorius"
+  },
+  {
+   "from": "claim:SX017",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:killian_lu"
+  },
+  {
+   "from": "claim:SX017",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:embrose_lu"
+  },
+  {
+   "from": "claim:SX018",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:oriq"
+  },
+  {
+   "from": "claim:SX018",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:fannessa"
+  },
+  {
+   "from": "claim:SX019",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:silverquill_college"
+  },
+  {
+   "from": "claim:SX019",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:killian_lu"
+  },
+  {
    "from": "claim:TB001",
    "relation": "asserts",
    "role": "object",
@@ -34445,6 +34974,46 @@
    "to": "claim:A032"
   },
   {
+   "from": "source:khm_aim",
+   "relation": "cited_by",
+   "to": "claim:KH015"
+  },
+  {
+   "from": "source:khm_brokenbrow",
+   "relation": "cited_by",
+   "to": "claim:KH016"
+  },
+  {
+   "from": "source:khm_brokenbrow",
+   "relation": "cited_by",
+   "to": "claim:KH017"
+  },
+  {
+   "from": "source:khm_brokenbrow",
+   "relation": "cited_by",
+   "to": "claim:KH018"
+  },
+  {
+   "from": "source:khm_direction",
+   "relation": "cited_by",
+   "to": "claim:KH019"
+  },
+  {
+   "from": "source:khm_ep1",
+   "relation": "cited_by",
+   "to": "claim:KH020"
+  },
+  {
+   "from": "source:khm_ep1",
+   "relation": "cited_by",
+   "to": "claim:KH021"
+  },
+  {
+   "from": "source:khm_ep2",
+   "relation": "cited_by",
+   "to": "claim:KH022"
+  },
+  {
    "from": "source:khm_ep3",
    "relation": "cited_by",
    "to": "claim:KH001"
@@ -34505,6 +35074,11 @@
    "to": "claim:KH012"
   },
   {
+   "from": "source:khm_lathril",
+   "relation": "cited_by",
+   "to": "claim:KH024"
+  },
+  {
    "from": "source:khm_legends",
    "relation": "cited_by",
    "to": "claim:KH001"
@@ -34533,6 +35107,11 @@
    "from": "source:khm_legends",
    "relation": "cited_by",
    "to": "claim:KH013"
+  },
+  {
+   "from": "source:khm_wind",
+   "relation": "cited_by",
+   "to": "claim:KH023"
   },
   {
    "from": "source:kld_born_aether",
@@ -36391,6 +36970,21 @@
    "to": "claim:U005"
   },
   {
+   "from": "source:stx_chains",
+   "relation": "cited_by",
+   "to": "claim:SX013"
+  },
+  {
+   "from": "source:stx_chains",
+   "relation": "cited_by",
+   "to": "claim:SX019"
+  },
+  {
+   "from": "source:stx_cry",
+   "relation": "cited_by",
+   "to": "claim:SX014"
+  },
+  {
    "from": "source:stx_ep1",
    "relation": "cited_by",
    "to": "claim:SX006"
@@ -36409,6 +37003,11 @@
    "from": "source:stx_ep2",
    "relation": "cited_by",
    "to": "claim:SX011"
+  },
+  {
+   "from": "source:stx_ep3",
+   "relation": "cited_by",
+   "to": "claim:SX015"
   },
   {
    "from": "source:stx_ep4",
@@ -36459,6 +37058,31 @@
    "from": "source:stx_guide",
    "relation": "cited_by",
    "to": "claim:SX010"
+  },
+  {
+   "from": "source:stx_mentor",
+   "relation": "cited_by",
+   "to": "claim:SX016"
+  },
+  {
+   "from": "source:stx_ribbons",
+   "relation": "cited_by",
+   "to": "claim:SX012"
+  },
+  {
+   "from": "source:stx_silent",
+   "relation": "cited_by",
+   "to": "claim:SX016"
+  },
+  {
+   "from": "source:stx_silent",
+   "relation": "cited_by",
+   "to": "claim:SX017"
+  },
+  {
+   "from": "source:stx_silent",
+   "relation": "cited_by",
+   "to": "claim:SX018"
   },
   {
    "from": "source:tarkir_plane",
@@ -37399,18 +38023,18 @@
     "sources": 10
    },
    {
-    "claims": 14,
-    "entities": 21,
+    "claims": 24,
+    "entities": 34,
     "file": "data/lore_research/pack_p5_kaldheim_2026-10-30.json",
-    "sha256": "c959321ed544934b00f950d0b167ac4b92571f400d2ce68a4f34d2486c444b9f",
-    "sources": 6
+    "sha256": "af87c226d61dd317652c9cd504ff5fbf1782487b35ec921b3257f61a30dfacc9",
+    "sources": 13
    },
    {
-    "claims": 11,
-    "entities": 12,
+    "claims": 19,
+    "entities": 25,
     "file": "data/lore_research/pack_p5_strixhaven_2026-10-30.json",
-    "sha256": "945ca88d6ed2ff62d8cec10f2a7ed30c95d280a822819a86e60dca933799fc71",
-    "sources": 5
+    "sha256": "c30e27b9303c270f7233173661908879e5046dab5fe3668ef5986b1f1809cdb1",
+    "sources": 11
    },
    {
     "claims": 5,
@@ -37586,9 +38210,9 @@
   ],
   "name_anchor_packs": [
    {
-    "anchors": 592,
+    "anchors": 604,
     "file": "data/lore_research/card_name_anchors_2026-10-30.json",
-    "sha256": "1c5f44dec8b4f6768bba8037724f44f7856df9f45d222465bd2766f0b4bc80d9"
+    "sha256": "c174da36ca41d51542a23edde4f3041c8c6d3d625228c68295dccd09500f2ab3"
    }
   ],
   "story_caption_packs": [
@@ -38560,6 +39184,15 @@
    "origins": [
     "card_name_anchors_2026-10-30.json",
     "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:arni_brokenbrow",
+   "name": "Arni Brokenbrow",
+   "oracle_id": "3dce6c6c-599f-4e35-ae15-728c5e78dee1",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -40435,6 +41068,15 @@
    "type": "Card"
   },
   {
+   "id": "card:egon_god_of_death_throne_of_death",
+   "name": "Egon, God of Death // Throne of Death",
+   "oracle_id": "8fa7bd8f-f712-4dd1-9ffb-e30dfe744389",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:eirdu_carrier_of_dawn_isilu_carrier_of_twilight",
    "name": "Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight",
    "oracle_id": "36af3c2c-49d7-46ea-ab02-c254b332448e",
@@ -42003,6 +42645,15 @@
    "type": "Card"
   },
   {
+   "id": "card:inga_rune_eyes",
+   "name": "Inga Rune-Eyes",
+   "oracle_id": "78afa295-c9f4-4a81-9f7b-5746a3cf6b31",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:insolence",
    "name": "Insolence",
    "oracle_id": "33a6d78a-a3c7-44f1-8ce9-d6632123fec1",
@@ -42514,6 +43165,24 @@
    "type": "Card"
   },
   {
+   "id": "card:kasmina_enigma_sage",
+   "name": "Kasmina, Enigma Sage",
+   "oracle_id": "06425cb9-d157-4155-a727-78656df12458",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:kasmina_enigmatic_mentor",
+   "name": "Kasmina, Enigmatic Mentor",
+   "oracle_id": "df561b38-fe2a-4db9-a9d4-ec25b1c7572a",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:katilda_dawnhart_martyr_katilda_s_rising_dawn",
    "name": "Katilda, Dawnhart Martyr // Katilda's Rising Dawn",
    "oracle_id": "493b2820-c250-48bd-9f3c-e1b5639ee101",
@@ -42990,6 +43659,15 @@
    "id": "card:kyodai_soul_of_kamigawa",
    "name": "Kyodai, Soul of Kamigawa",
    "oracle_id": "d89bd776-8489-4c34-94ea-db1b088d9379",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:lathril_blade_of_the_elves",
+   "name": "Lathril, Blade of the Elves",
+   "oracle_id": "9b568c34-ba0a-44a7-a0ee-bee3a37b3396",
    "origins": [
     "card_name_anchors_2026-10-30.json"
    ],
@@ -44057,6 +44735,15 @@
    "type": "Card"
   },
   {
+   "id": "card:niko_aris",
+   "name": "Niko Aris",
+   "oracle_id": "781162c4-9c0f-436c-b9a5-214e60e009e4",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:nimbus_maze",
    "name": "Nimbus Maze",
    "oracle_id": "d7e1d4eb-1d4e-460e-9304-7db9ab50ccb5",
@@ -45006,9 +45693,36 @@
    "type": "Card"
   },
   {
+   "id": "card:quintorius_field_historian",
+   "name": "Quintorius, Field Historian",
+   "oracle_id": "28b64167-b7ea-4b4f-8434-061298050366",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:quintorius_history_chaser",
+   "name": "Quintorius, History Chaser",
+   "oracle_id": "5c40a8d4-6969-4d71-aba5-5c7e4109b7d5",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:quintorius_kand",
    "name": "Quintorius Kand",
    "oracle_id": "91babc5f-ebeb-4894-8c35-b0f60249cb80",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:quintorius_loremaster",
+   "name": "Quintorius, Loremaster",
+   "oracle_id": "c3d38129-b955-4fb5-8486-095f918935b9",
    "origins": [
     "card_name_anchors_2026-10-30.json"
    ],
@@ -45817,6 +46531,15 @@
    "id": "card:sarkhan_vol",
    "name": "Sarkhan Vol",
    "oracle_id": "d902074a-2a2b-42b7-a1e5-750862c64fbe",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:sarulf_realm_eater",
+   "name": "Sarulf, Realm Eater",
+   "oracle_id": "789964f5-79c5-4329-b68f-b15b0d54b0b2",
    "origins": [
     "card_name_anchors_2026-10-30.json"
    ],
@@ -47992,6 +48715,15 @@
    "type": "Card"
   },
   {
+   "id": "card:uvilda_dean_of_perfection_nassari_dean_of_expression",
+   "name": "Uvilda, Dean of Perfection // Nassari, Dean of Expression",
+   "oracle_id": "63c4915f-5ad9-468f-95c5-d44f1b71631e",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:vadrok_apex_of_thunder",
    "name": "Vadrok, Apex of Thunder",
    "oracle_id": "775c41fa-2316-43c9-af34-ac9c9b0db7e2",
@@ -48946,6 +49678,14 @@
    "type": "Character"
   },
   {
+   "id": "character:alajn",
+   "name": "Alajn",
+   "origins": [
+    "pack_p5_kaldheim_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
    "id": "character:alena",
    "name": "Alena",
    "origins": [
@@ -48984,6 +49724,14 @@
    "name": "Alrund",
    "origins": [
     "pack_p5_kaldheim_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:amaka",
+   "name": "Amaka",
+   "origins": [
+    "pack_p5_strixhaven_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -49084,6 +49832,14 @@
    "origins": [
     "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json",
     "pack_p5_shadows_eldritch_moon_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:arni_brokenbrow",
+   "name": "Arni Brokenbrow",
+   "origins": [
+    "pack_p5_kaldheim_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -49458,7 +50214,8 @@
    "name": "Dina",
    "origins": [
     "pack_p5_lorwyn_eclipsed_2026-10-30.json",
-    "pack_p5_secrets_of_strixhaven_2026-10-30.json"
+    "pack_p5_secrets_of_strixhaven_2026-10-30.json",
+    "pack_p5_strixhaven_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -49501,6 +50258,14 @@
    "name": "Edgar Markov",
    "origins": [
     "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:egon",
+   "name": "Egon",
+   "origins": [
+    "pack_p5_kaldheim_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -49577,6 +50342,14 @@
    "type": "Character"
   },
   {
+   "id": "character:embrose_lu",
+   "name": "Embrose Lu",
+   "origins": [
+    "pack_p5_strixhaven_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
    "id": "character:emrakul",
    "name": "Emrakul",
    "origins": [
@@ -49631,6 +50404,14 @@
   {
    "id": "character:extus",
    "name": "Extus",
+   "origins": [
+    "pack_p5_strixhaven_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:fannessa",
+   "name": "Fannessa",
    "origins": [
     "pack_p5_strixhaven_2026-10-30.json"
    ],
@@ -49908,6 +50689,14 @@
    "type": "Character"
   },
   {
+   "id": "character:inga_rune_eyes",
+   "name": "Inga Rune-Eyes",
+   "origins": [
+    "pack_p5_kaldheim_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
    "id": "character:inti",
    "name": "Inti",
    "origins": [
@@ -50128,6 +50917,14 @@
    "type": "Character"
   },
   {
+   "id": "character:kasmina",
+   "name": "Kasmina",
+   "origins": [
+    "pack_p5_strixhaven_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
    "id": "character:katilda",
    "name": "Katilda",
    "origins": [
@@ -50227,7 +51024,8 @@
    "id": "character:killian_lu",
    "name": "Killian Lu",
    "origins": [
-    "pack_p5_secrets_of_strixhaven_2026-10-30.json"
+    "pack_p5_secrets_of_strixhaven_2026-10-30.json",
+    "pack_p5_strixhaven_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -50383,6 +51181,14 @@
    "type": "Character"
   },
   {
+   "id": "character:lathril",
+   "name": "Lathril",
+   "origins": [
+    "pack_p5_kaldheim_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
    "id": "character:lavinia",
    "name": "Lavinia",
    "origins": [
@@ -50427,6 +51233,14 @@
    "name": "Queen Linden",
    "origins": [
     "pack_p5_throne_of_eldraine_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:lisette",
+   "name": "Lisette",
+   "origins": [
+    "pack_p5_strixhaven_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -50736,6 +51550,14 @@
    "type": "Character"
   },
   {
+   "id": "character:niko_aris",
+   "name": "Niko Aris",
+   "origins": [
+    "pack_p5_kaldheim_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
    "id": "character:nishang",
    "name": "Nishang",
    "origins": [
@@ -50768,6 +51590,14 @@
     "pack_p5_dsk_side_stories_2026-10-30.json",
     "pack_p5_mkm_epilogue_2026-10-30.json",
     "pack_p5_secrets_of_strixhaven_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:njala",
+   "name": "Njala",
+   "origins": [
+    "pack_p5_kaldheim_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -50989,10 +51819,11 @@
   },
   {
    "id": "character:quintorius",
-   "name": "Quintorius Kand",
+   "name": "Quintorius",
    "origins": [
     "pack_p5_mom_side_stories_2026-10-30.json",
-    "pack_p5_secrets_of_strixhaven_2026-10-30.json"
+    "pack_p5_secrets_of_strixhaven_2026-10-30.json",
+    "pack_p5_strixhaven_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -51232,6 +52063,14 @@
     "pack_a_ugin_bolas_evidence_2026-10-30.json",
     "pack_p5_battle_for_zendikar_oath_2026-10-30.json",
     "pack_p5_tarkir_dragonstorm_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:sarulf",
+   "name": "Sarulf",
+   "origins": [
+    "pack_p5_kaldheim_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -51500,6 +52339,14 @@
    "type": "Character"
   },
   {
+   "id": "character:thura",
+   "name": "Thura Sail-Rend",
+   "origins": [
+    "pack_p5_kaldheim_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
    "id": "character:tiana",
    "name": "Tiana",
    "origins": [
@@ -51628,6 +52475,14 @@
     "pack_c2_return_to_dominaria_2026-10-30.json",
     "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json",
     "pack_p5_brothers_war_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:uvilda",
+   "name": "Uvilda",
+   "origins": [
+    "pack_p5_strixhaven_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -51862,7 +52717,8 @@
    "name": "Zimone",
    "origins": [
     "pack_p5_duskmourn_2026-10-30.json",
-    "pack_p5_secrets_of_strixhaven_2026-10-30.json"
+    "pack_p5_secrets_of_strixhaven_2026-10-30.json",
+    "pack_p5_strixhaven_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -55547,6 +56403,121 @@
   },
   {
    "grade": "CANON_CONFIRMED",
+   "id": "claim:KH015",
+   "name": "Thura Sail-Rend is of the Beskir clan.",
+   "origins": [
+    "pack_p5_kaldheim_2026-10-30.json"
+   ],
+   "predicate": "member_of",
+   "stage": "kaldheim_khm_2021",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:KH016",
+   "limitation": "The two lines are consecutive dialogue between the Valkyries; the name and the title are not in one sentence.",
+   "name": "Arni Brokenbrow is the Tuskeri clan's new leader.",
+   "origins": [
+    "pack_p5_kaldheim_2026-10-30.json"
+   ],
+   "predicate": "leader_of",
+   "stage": "kaldheim_khm_2021",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:KH017",
+   "limitation": "'Her' is Njala from the point-of-view narration.",
+   "name": "Njala is a Valkyrie who watches and judges the battle.",
+   "origins": [
+    "pack_p5_kaldheim_2026-10-30.json"
+   ],
+   "predicate": "member_of",
+   "stage": "kaldheim_khm_2021",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:KH018",
+   "limitation": "Sisterhood may be in the sense of fellow Valkyries; the text does not say blood relation.",
+   "name": "The Valkyries Njala and Alajn are sisters.",
+   "origins": [
+    "pack_p5_kaldheim_2026-10-30.json"
+   ],
+   "predicate": "sibling_of",
+   "stage": "kaldheim_khm_2021",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:KH019",
+   "name": "Egon, god of the dead, is the lord of Istfell.",
+   "origins": [
+    "pack_p5_kaldheim_2026-10-30.json"
+   ],
+   "predicate": "leader_of",
+   "stage": "kaldheim_khm_2021",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:KH020",
+   "name": "Inga Rune-Eyes leads the Omenseekers.",
+   "origins": [
+    "pack_p5_kaldheim_2026-10-30.json"
+   ],
+   "predicate": "leader_of",
+   "stage": "kaldheim_khm_2021",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:KH021",
+   "name": "Inga is the first person Kaya met on Kaldheim.",
+   "origins": [
+    "pack_p5_kaldheim_2026-10-30.json"
+   ],
+   "predicate": "met",
+   "stage": "kaldheim_khm_2021",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:KH022",
+   "limitation": "'Aided' is an editorial reading of Alrund providing the ship.",
+   "name": "Alrund sends Kaya across the Cosmos on Cosima's longship.",
+   "origins": [
+    "pack_p5_kaldheim_2026-10-30.json"
+   ],
+   "predicate": "aided",
+   "stage": "kaldheim_khm_2021",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:KH023",
+   "name": "Niko Aris is on Kaldheim, in a longhall of warriors.",
+   "origins": [
+    "pack_p5_kaldheim_2026-10-30.json"
+   ],
+   "predicate": "visited",
+   "stage": "kaldheim_khm_2021",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:KH024",
+   "limitation": "The page shows the wolf with Lathril; the 'chosen' link is the narrator's inference.",
+   "name": "Sarulf sends a wolf child to Lathril, marking her as his chosen as she takes on godhood.",
+   "origins": [
+    "pack_p5_kaldheim_2026-10-30.json"
+   ],
+   "predicate": "chose",
+   "stage": "kaldheim_khm_2021",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
    "id": "claim:KLD001",
    "name": "Recap: with Tamiyo's aid, the five Gatewatch members defeated Emrakul and sealed her in Innistrad's silver moon.",
    "origins": [
@@ -59169,6 +60140,97 @@
   },
   {
    "grade": "CANON_CONFIRMED",
+   "id": "claim:SX012",
+   "name": "Amaka (with Nnanyielugo) is Zimone's friend.",
+   "origins": [
+    "pack_p5_strixhaven_2026-10-30.json"
+   ],
+   "predicate": "friend_of",
+   "stage": "strixhaven_stx_2021",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:SX013",
+   "limitation": "'She' is Dina by point-of-view; 'mentored' is an editorial reading of lessons alongside Lisette.",
+   "name": "Dina learned advanced healing alongside Lisette.",
+   "origins": [
+    "pack_p5_strixhaven_2026-10-30.json"
+   ],
+   "predicate": "mentored",
+   "stage": "strixhaven_stx_2021",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:SX014",
+   "limitation": "Dean is not the sole leader; the page names Uvilda a dean and is set at Prismari, without one sentence joining them.",
+   "name": "Uvilda is a dean at Prismari College.",
+   "origins": [
+    "pack_p5_strixhaven_2026-10-30.json"
+   ],
+   "predicate": "leader_of",
+   "stage": "strixhaven_stx_2021",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:SX015",
+   "name": "Kasmina fights Lukka with wind magic.",
+   "origins": [
+    "pack_p5_strixhaven_2026-10-30.json"
+   ],
+   "predicate": "fought",
+   "stage": "strixhaven_stx_2021",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:SX016",
+   "name": "Quintorius is a Lorehold student.",
+   "origins": [
+    "pack_p5_strixhaven_2026-10-30.json"
+   ],
+   "predicate": "member_of",
+   "stage": "strixhaven_stx_2021",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:SX017",
+   "name": "Killian is the son of Dean Embrose Lu.",
+   "origins": [
+    "pack_p5_strixhaven_2026-10-30.json"
+   ],
+   "predicate": "parent_of",
+   "stage": "strixhaven_stx_2021",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:SX018",
+   "name": "Fannessa is revealed as an Oriq agent under Silverquill robes.",
+   "origins": [
+    "pack_p5_strixhaven_2026-10-30.json"
+   ],
+   "predicate": "member_of",
+   "stage": "strixhaven_stx_2021",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:SX019",
+   "limitation": "The first line introduces the young man before he is named.",
+   "name": "Killian is a Silverquill student.",
+   "origins": [
+    "pack_p5_strixhaven_2026-10-30.json"
+   ],
+   "predicate": "member_of",
+   "stage": "strixhaven_stx_2021",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
    "id": "claim:TB001",
    "name": "The gods of Theros sealed the titans away in the Underworld.",
    "origins": [
@@ -61251,6 +62313,14 @@
    "type": "Concept"
   },
   {
+   "id": "curated:Characters Index.md#kasmina",
+   "name": "Characters Index.md#kasmina",
+   "origins": [
+    "lore_graph.json"
+   ],
+   "type": "Concept"
+  },
+  {
    "id": "curated:Characters Index.md#kaya",
    "name": "Characters Index.md#kaya",
    "origins": [
@@ -61317,6 +62387,14 @@
   {
    "id": "curated:Characters Index.md#nicol-bolas",
    "name": "Characters Index.md#nicol-bolas",
+   "origins": [
+    "lore_graph.json"
+   ],
+   "type": "Concept"
+  },
+  {
+   "id": "curated:Characters Index.md#niko-aris",
+   "name": "Characters Index.md#niko-aris",
    "origins": [
     "lore_graph.json"
    ],
@@ -62195,6 +63273,14 @@
    "type": "Faction"
   },
   {
+   "id": "faction:beskir",
+   "name": "Beskir clan",
+   "origins": [
+    "pack_p5_kaldheim_2026-10-30.json"
+   ],
+   "type": "Faction"
+  },
+  {
    "id": "faction:boggarts",
    "name": "Boggarts",
    "origins": [
@@ -62542,7 +63628,8 @@
    "id": "faction:lorehold_college",
    "name": "Lorehold College",
    "origins": [
-    "pack_p5_secrets_of_strixhaven_2026-10-30.json"
+    "pack_p5_secrets_of_strixhaven_2026-10-30.json",
+    "pack_p5_strixhaven_2026-10-30.json"
    ],
    "type": "Faction"
   },
@@ -62584,6 +63671,14 @@
    "name": "The Monoist faith",
    "origins": [
     "pack_p5_edge_of_eternities_2026-10-30.json"
+   ],
+   "type": "Faction"
+  },
+  {
+   "id": "faction:omenseekers",
+   "name": "Omenseekers",
+   "origins": [
+    "pack_p5_kaldheim_2026-10-30.json"
    ],
    "type": "Faction"
   },
@@ -62648,7 +63743,8 @@
    "id": "faction:prismari_college",
    "name": "Prismari College",
    "origins": [
-    "pack_p5_secrets_of_strixhaven_2026-10-30.json"
+    "pack_p5_secrets_of_strixhaven_2026-10-30.json",
+    "pack_p5_strixhaven_2026-10-30.json"
    ],
    "type": "Faction"
   },
@@ -62697,7 +63793,8 @@
    "id": "faction:silverquill_college",
    "name": "Silverquill College",
    "origins": [
-    "pack_p5_secrets_of_strixhaven_2026-10-30.json"
+    "pack_p5_secrets_of_strixhaven_2026-10-30.json",
+    "pack_p5_strixhaven_2026-10-30.json"
    ],
    "type": "Faction"
   },
@@ -62836,6 +63933,14 @@
    "name": "Tritons of Theros",
    "origins": [
     "pack_p5_theros_ths_2026-10-30.json"
+   ],
+   "type": "Faction"
+  },
+  {
+   "id": "faction:tuskeri",
+   "name": "Tuskeri clan",
+   "origins": [
+    "pack_p5_kaldheim_2026-10-30.json"
    ],
    "type": "Faction"
   },
@@ -63152,6 +64257,14 @@
    "origins": [
     "pack_p5_kaladesh_aether_revolt_2026-10-30.json",
     "pack_p5_shadows_eldritch_moon_2026-10-30.json"
+   ],
+   "type": "Place"
+  },
+  {
+   "id": "place:istfell",
+   "name": "Istfell",
+   "origins": [
+    "pack_p5_kaldheim_2026-10-30.json"
    ],
    "type": "Place"
   },
@@ -65410,6 +66523,61 @@
    "url": "https://magic.wizards.com/en/news/feature/journey-nexus-2014-12-10"
   },
   {
+   "id": "source:khm_aim",
+   "kind": "official_story_episode",
+   "name": "Aim Through the Target",
+   "origins": [
+    "pack_p5_kaldheim_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/aim-through-target-2021-01-15"
+  },
+  {
+   "id": "source:khm_brokenbrow",
+   "kind": "official_story_episode",
+   "name": "Brokenbrow",
+   "origins": [
+    "pack_p5_kaldheim_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/brokenbrow-2021-01-22"
+  },
+  {
+   "id": "source:khm_direction",
+   "kind": "official_story_episode",
+   "name": "Direction. Purpose. Honor. Glory.",
+   "origins": [
+    "pack_p5_kaldheim_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/direction-purpose-honor-glory-2021-01-29"
+  },
+  {
+   "id": "source:khm_ep1",
+   "kind": "official_story_episode",
+   "name": "Episode 1: Travelers",
+   "origins": [
+    "pack_p5_kaldheim_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/episode-1-travelers-2021-01-07"
+  },
+  {
+   "id": "source:khm_ep2",
+   "kind": "official_story_episode",
+   "name": "Episode 2: Awaken the Trolls",
+   "origins": [
+    "pack_p5_kaldheim_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/episode-2-awaken-trolls-2021-01-13"
+  },
+  {
    "id": "source:khm_ep3",
    "kind": "official_story_episode",
    "name": "Episode 3: The Saga of Tibalt",
@@ -65465,6 +66633,17 @@
    "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-kaldheim-part-2-2021-01-14"
   },
   {
+   "id": "source:khm_lathril",
+   "kind": "official_story_episode",
+   "name": "The Saga of Lathril",
+   "origins": [
+    "pack_p5_kaldheim_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/saga-lathril-2021-02-05"
+  },
+  {
    "id": "source:khm_legends",
    "kind": "official_story_feature",
    "name": "The Legends of Kaldheim",
@@ -65474,6 +66653,17 @@
    "source_class": "WIZARDS_OFFICIAL",
    "type": "Source",
    "url": "https://magic.wizards.com/en/news/feature/legends-kaldheim-2021-01-21"
+  },
+  {
+   "id": "source:khm_wind",
+   "kind": "official_story_episode",
+   "name": "Know Which Way the Wind Is Blowing",
+   "origins": [
+    "pack_p5_kaldheim_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/know-which-way-wind-blowing-2021-01-08"
   },
   {
    "id": "source:kld_born_aether",
@@ -67428,6 +68618,28 @@
    "url": "https://magic.wizards.com/en/news/magic-story/stone-and-blood-2016-06-15"
   },
   {
+   "id": "source:stx_chains",
+   "kind": "official_story_episode",
+   "name": "The Chains That Bind",
+   "origins": [
+    "pack_p5_strixhaven_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/chains-bind-2021-04-09"
+  },
+  {
+   "id": "source:stx_cry",
+   "kind": "official_story_episode",
+   "name": "A Cry of Magic",
+   "origins": [
+    "pack_p5_strixhaven_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/cry-magic-2021-03-26"
+  },
+  {
    "id": "source:stx_ep1",
    "kind": "official_story_episode",
    "name": "Episode 1: Class Is in Session",
@@ -67448,6 +68660,17 @@
    "source_class": "WIZARDS_OFFICIAL",
    "type": "Source",
    "url": "https://magic.wizards.com/en/news/magic-story/episode-2-lessons-2021-03-31"
+  },
+  {
+   "id": "source:stx_ep3",
+   "kind": "official_story_episode",
+   "name": "Episode 3: Extracurriculars",
+   "origins": [
+    "pack_p5_strixhaven_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/episode-3-extracurriculars-2021-04-07"
   },
   {
    "id": "source:stx_ep4",
@@ -67481,6 +68704,39 @@
    "source_class": "WIZARDS_OFFICIAL",
    "type": "Source",
    "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-strixhaven-2021-04-01"
+  },
+  {
+   "id": "source:stx_mentor",
+   "kind": "official_story_episode",
+   "name": "The Mentor",
+   "origins": [
+    "pack_p5_strixhaven_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/mentor-2021-04-16"
+  },
+  {
+   "id": "source:stx_ribbons",
+   "kind": "official_story_episode",
+   "name": "Blue-Green Ribbons",
+   "origins": [
+    "pack_p5_strixhaven_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/blue-green-ribbons-2021-04-23"
+  },
+  {
+   "id": "source:stx_silent",
+   "kind": "official_story_episode",
+   "name": "A Silent Voice Calls",
+   "origins": [
+    "pack_p5_strixhaven_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/silent-voice-calls-2021-04-30"
   },
   {
    "id": "source:tarkir_plane",
@@ -68102,37 +69358,37 @@
  "problems": [],
  "schema": "multiverse-claim-graph/v1",
  "stats": {
-  "claim_edges_with_era": 817,
+  "claim_edges_with_era": 835,
   "claim_edges_with_in_universe_date": 0,
   "claims_by_status": {
    "ALTERNATE_CONTINUITY": 2,
-   "CANON_CONFIRMED": 640,
+   "CANON_CONFIRMED": 650,
    "CANON_DISPUTED": 7,
-   "CANON_IMPLIED": 139,
+   "CANON_IMPLIED": 147,
    "OPEN_QUESTION": 2
   },
-  "curated_bridges": 109,
-  "edges": 4935,
+  "curated_bridges": 111,
+  "edges": 5022,
   "literal_objects": 14,
   "node_types": {
    "AlternateContinuity": 1,
-   "Card": 1184,
+   "Card": 1196,
    "CardTheme": 1,
-   "Character": 342,
-   "Claim": 790,
-   "Concept": 129,
+   "Character": 357,
+   "Claim": 808,
+   "Concept": 131,
    "DeckProposal": 3,
    "Event": 22,
-   "Faction": 84,
+   "Faction": 87,
    "Literal": 14,
    "Object": 45,
-   "Place": 58,
+   "Place": 59,
    "Plane": 27,
-   "Source": 400
+   "Source": 413
   },
-  "nodes": 3100,
+  "nodes": 3164,
   "non_wizards_sources": 0,
-  "relations": 313,
-  "wizards_official_sources": 400
+  "relations": 314,
+  "wizards_official_sources": 413
  }
 }

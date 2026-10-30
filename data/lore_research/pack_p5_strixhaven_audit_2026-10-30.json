@@ -3,15 +3,15 @@
  "pack": "data/lore_research/pack_p5_strixhaven_2026-10-30.json",
  "pack_status": "PRELIMINARY_RESEARCH (not owner approved, not certified)",
  "arc": "STX",
- "claims": 11,
- "entities": 12,
- "sources": 5,
+ "claims": 19,
+ "entities": 25,
+ "sources": 11,
  "grades": {
-  "CANON_CONFIRMED": 9,
-  "CANON_IMPLIED": 2
+  "CANON_CONFIRMED": 14,
+  "CANON_IMPLIED": 5
  },
- "quotes": 17,
- "quotes_verbatim": 17,
+ "quotes": 28,
+ "quotes_verbatim": 28,
  "quote_rows": [
   {
    "claim": "SX001",
@@ -114,9 +114,75 @@
    "source_id": "stx_ep2",
    "quote_sha256": "71e26fc9c396b896eab122194c105d921b0e623886b5f6ea2c1167ff70949ccb",
    "status": "VERBATIM"
+  },
+  {
+   "claim": "SX012",
+   "source_id": "stx_ribbons",
+   "quote_sha256": "bbb13b79334d90460d79dd96e83fa1011b53f5673d9792c52e77e213355ca800",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "SX013",
+   "source_id": "stx_chains",
+   "quote_sha256": "61dfb00568e919752b74d160e84609ef9379cf73fea85dfd967d92d7b4138ae1",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "SX014",
+   "source_id": "stx_cry",
+   "quote_sha256": "b56550f38b2fbfe41d5636b557de7eb301abf42e840d096c6fc8125cb010a01f",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "SX014",
+   "source_id": "stx_cry",
+   "quote_sha256": "8d626c03ac93c054d564fe5086cdceeefe7350e47c5e726641be692677bae4b7",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "SX015",
+   "source_id": "stx_ep3",
+   "quote_sha256": "327dcf470a85b61bc6bfcb1806115455d4b48254918422f807d1e890865c0f1c",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "SX016",
+   "source_id": "stx_silent",
+   "quote_sha256": "07335f76edf45c61eb2494fe3166da5ee0b1939b6d92f023767197bcea442b6b",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "SX016",
+   "source_id": "stx_mentor",
+   "quote_sha256": "d88b1bec877c73fcb7117f87ffa5f20c848a6c2c2c7e3aae88126686766ea8b8",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "SX017",
+   "source_id": "stx_silent",
+   "quote_sha256": "3581c3610bc47adf29c673010e4179c9a2eb31898dacd059b9d1c88442060be6",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "SX018",
+   "source_id": "stx_silent",
+   "quote_sha256": "b33adbdb7357f552844aee89acc01388c9900c2d658b9b4c38ba38f805c53ca1",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "SX019",
+   "source_id": "stx_chains",
+   "quote_sha256": "47f7f7ba8b653ee9b4044337f5d751d6bb0086312ffb8bb877266f7e1780b372",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "SX019",
+   "source_id": "stx_chains",
+   "quote_sha256": "461a8cddf9a635ce2f37485d59a8373c7db4f516352907ff750b3777e12bf04f",
+   "status": "VERBATIM"
   }
  ],
  "problems": [],
  "note": "Verbatim-quote audit against cached official Wizards story text. Research evidence only: not owner approval, not certification, not an exhaustive reading.",
- "content_sha256": "c2482a6517bff4662851ef4711a101f75f4e0f07588328781809994754b955dd"
+ "content_sha256": "919769d8b5eb44ab3c777045cea929e44a7bea92644af330cbbdaf58253363fe"
 }

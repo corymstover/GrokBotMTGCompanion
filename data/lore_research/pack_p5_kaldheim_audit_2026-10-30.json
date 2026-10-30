@@ -3,15 +3,15 @@
  "pack": "data/lore_research/pack_p5_kaldheim_2026-10-30.json",
  "pack_status": "PRELIMINARY_RESEARCH (not owner approved, not certified)",
  "arc": "KHM",
- "claims": 14,
- "entities": 21,
- "sources": 6,
+ "claims": 24,
+ "entities": 34,
+ "sources": 13,
  "grades": {
-  "CANON_CONFIRMED": 11,
-  "CANON_IMPLIED": 3
+  "CANON_CONFIRMED": 16,
+  "CANON_IMPLIED": 8
  },
- "quotes": 19,
- "quotes_verbatim": 19,
+ "quotes": 33,
+ "quotes_verbatim": 33,
  "quote_rows": [
   {
    "claim": "KH001",
@@ -126,9 +126,93 @@
    "source_id": "khm_guide1",
    "quote_sha256": "d2af71a8a367d685ed37d6dab97c7ee0b02838d2c0709494daf00503a1a508a6",
    "status": "VERBATIM"
+  },
+  {
+   "claim": "KH015",
+   "source_id": "khm_aim",
+   "quote_sha256": "8546846f8bb84f28764f02d8a9df24fb65f427c7e3ae4b84f427444bf737b281",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "KH016",
+   "source_id": "khm_brokenbrow",
+   "quote_sha256": "4adcb25e4dafd3b5a51e78bd64e34d27909b960ba20676a12c792ef5703b67f5",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "KH016",
+   "source_id": "khm_brokenbrow",
+   "quote_sha256": "a08ccd00df54fd2b1858222794a8c65e690dbbbba94850f2f7851da7ae918374",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "KH017",
+   "source_id": "khm_brokenbrow",
+   "quote_sha256": "8f89b9e971432493e9330f2c1b307fd4726b42c1610e2faf8ebdef5dfebb232e",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "KH018",
+   "source_id": "khm_brokenbrow",
+   "quote_sha256": "4069a74c436b85386732d55ce05c9b3e02663e9a4a2716a79bf5d24bb574fbaa",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "KH018",
+   "source_id": "khm_brokenbrow",
+   "quote_sha256": "bcf483e11572ab70bb430f8d852873166f1133740479b545863e6586383d91af",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "KH019",
+   "source_id": "khm_direction",
+   "quote_sha256": "1bd4b5e615e1bbe08e5ef5ea040276d0fddfb6b33536380273df9ef5951ae5cd",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "KH020",
+   "source_id": "khm_ep1",
+   "quote_sha256": "682e4832e0d64f6e458b7f31a38204f5a56beff6ecc79dfffdb819b79e4bb526",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "KH021",
+   "source_id": "khm_ep1",
+   "quote_sha256": "682e4832e0d64f6e458b7f31a38204f5a56beff6ecc79dfffdb819b79e4bb526",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "KH022",
+   "source_id": "khm_ep2",
+   "quote_sha256": "bc709c7c990238a6a932975f493304ba97e329cb2917953f0c0c6c2f4fd907c1",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "KH022",
+   "source_id": "khm_ep2",
+   "quote_sha256": "6a55ed9d26cb6c2f489171a1bbd21aab54e805f286920fe32905cfb3987879e5",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "KH023",
+   "source_id": "khm_wind",
+   "quote_sha256": "e6080c1836f49c30cd8acad6ffbf1b27802894d7093d09055c74cb17d919c6fc",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "KH023",
+   "source_id": "khm_wind",
+   "quote_sha256": "6b3f13d9b3dcfeee1b9428a534517bf0afea8748e6939f89e003d11d55f9371c",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "KH024",
+   "source_id": "khm_lathril",
+   "quote_sha256": "7a6d4995658aaf66be7ef430c3024cfe7a357f7930612c2f1f80bacb952605ba",
+   "status": "VERBATIM"
   }
  ],
  "problems": [],
  "note": "Verbatim-quote audit against cached official Wizards story text. Research evidence only: not owner approval, not certification, not an exhaustive reading.",
- "content_sha256": "4fee2a4be4c45371c618624d4a1cb3485966e9f2eb5b5363f40e9314a60edfe6"
+ "content_sha256": "8ab308ae0899d56159d06680db55b22ea0a8d2a6496cac8d25e6d9b7d3f9390a"
 }

@@ -57,11 +57,11 @@
  "totals": {
   "arcs": 33,
   "pages": 626,
-  "cited_pages": 376,
+  "cited_pages": 389,
   "arcs_not_started": 0,
-  "arcs_partial": 6,
-  "arcs_all_cited": 27,
-  "claims": 790,
+  "arcs_partial": 4,
+  "arcs_all_cited": 29,
+  "claims": 808,
   "pack_urls_outside_inventory": 12
  },
  "claims_per_pack": {
@@ -89,8 +89,8 @@
   "pack_p5_outlaws_of_thunder_junction_2026-10-30.json": 12,
   "pack_p5_lost_caverns_of_ixalan_2026-10-30.json": 15,
   "pack_p5_aetherdrift_2026-10-30.json": 24,
-  "pack_p5_kaldheim_2026-10-30.json": 14,
-  "pack_p5_strixhaven_2026-10-30.json": 11,
+  "pack_p5_kaldheim_2026-10-30.json": 24,
+  "pack_p5_strixhaven_2026-10-30.json": 19,
   "pack_p5_ikoria_2026-10-30.json": 5,
   "pack_p5_theros_beyond_death_2026-10-30.json": 29,
   "pack_p5_theros_ths_2026-10-30.json": 20,
@@ -292,7 +292,7 @@
   {
    "arc": "KHM",
    "pages": 13,
-   "cited_pages": 6,
+   "cited_pages": 13,
    "kinds": {
     "feature": 1,
     "planeswalkers-guide": 2,
@@ -301,16 +301,8 @@
    "citing_packs": [
     "pack_p5_kaldheim_2026-10-30.json"
    ],
-   "status": "PARTIAL",
-   "uncited_urls": [
-    "https://magic.wizards.com/en/news/magic-story/aim-through-target-2021-01-15",
-    "https://magic.wizards.com/en/news/magic-story/brokenbrow-2021-01-22",
-    "https://magic.wizards.com/en/news/magic-story/direction-purpose-honor-glory-2021-01-29",
-    "https://magic.wizards.com/en/news/magic-story/episode-1-travelers-2021-01-07",
-    "https://magic.wizards.com/en/news/magic-story/episode-2-awaken-trolls-2021-01-13",
-    "https://magic.wizards.com/en/news/magic-story/know-which-way-wind-blowing-2021-01-08",
-    "https://magic.wizards.com/en/news/magic-story/saga-lathril-2021-02-05"
-   ]
+   "status": "ALL_PAGES_CITED",
+   "uncited_urls": []
   },
   {
    "arc": "KLD/AER",
@@ -515,7 +507,7 @@
   {
    "arc": "STX",
    "pages": 11,
-   "cited_pages": 5,
+   "cited_pages": 11,
    "kinds": {
     "planeswalkers-guide": 1,
     "story": 10
@@ -523,15 +515,8 @@
    "citing_packs": [
     "pack_p5_strixhaven_2026-10-30.json"
    ],
-   "status": "PARTIAL",
-   "uncited_urls": [
-    "https://magic.wizards.com/en/news/magic-story/blue-green-ribbons-2021-04-23",
-    "https://magic.wizards.com/en/news/magic-story/chains-bind-2021-04-09",
-    "https://magic.wizards.com/en/news/magic-story/cry-magic-2021-03-26",
-    "https://magic.wizards.com/en/news/magic-story/episode-3-extracurriculars-2021-04-07",
-    "https://magic.wizards.com/en/news/magic-story/mentor-2021-04-16",
-    "https://magic.wizards.com/en/news/magic-story/silent-voice-calls-2021-04-30"
-   ]
+   "status": "ALL_PAGES_CITED",
+   "uncited_urls": []
   },
   {
    "arc": "TDM",
@@ -851,5 +836,5 @@
    ]
   }
  ],
- "sha256": "f0a50e6c0f85b4f632dca35496a58871693c377222742277164c20b612122c6f"
+ "sha256": "bb88ce247876abd1459706cc0439953cda3dc9296df1faefd26c0e1170142473"
 }

@@ -41,6 +41,48 @@
    "kind": "official_story_episode",
    "perspective": "Wizards of the Coast (official Magic Story)",
    "published": "2021-04-21"
+  },
+  "stx_ribbons": {
+   "title": "Blue-Green Ribbons",
+   "url": "https://magic.wizards.com/en/news/magic-story/blue-green-ribbons-2021-04-23",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2021-04-23"
+  },
+  "stx_chains": {
+   "title": "The Chains That Bind",
+   "url": "https://magic.wizards.com/en/news/magic-story/chains-bind-2021-04-09",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2021-04-09"
+  },
+  "stx_cry": {
+   "title": "A Cry of Magic",
+   "url": "https://magic.wizards.com/en/news/magic-story/cry-magic-2021-03-26",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2021-03-26"
+  },
+  "stx_ep3": {
+   "title": "Episode 3: Extracurriculars",
+   "url": "https://magic.wizards.com/en/news/magic-story/episode-3-extracurriculars-2021-04-07",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2021-04-07"
+  },
+  "stx_mentor": {
+   "title": "The Mentor",
+   "url": "https://magic.wizards.com/en/news/magic-story/mentor-2021-04-16",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2021-04-16"
+  },
+  "stx_silent": {
+   "title": "A Silent Voice Calls",
+   "url": "https://magic.wizards.com/en/news/magic-story/silent-voice-calls-2021-04-30",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2021-04-30"
   }
  },
  "entities": [
@@ -103,6 +145,71 @@
    "id": "beledros_witherbloom",
    "type": "Character",
    "name": "Beledros Witherbloom"
+  },
+  {
+   "id": "zimone",
+   "type": "Character",
+   "name": "Zimone"
+  },
+  {
+   "id": "amaka",
+   "type": "Character",
+   "name": "Amaka"
+  },
+  {
+   "id": "dina",
+   "type": "Character",
+   "name": "Dina"
+  },
+  {
+   "id": "lisette",
+   "type": "Character",
+   "name": "Lisette"
+  },
+  {
+   "id": "uvilda",
+   "type": "Character",
+   "name": "Uvilda"
+  },
+  {
+   "id": "prismari_college",
+   "type": "Faction",
+   "name": "Prismari College"
+  },
+  {
+   "id": "kasmina",
+   "type": "Character",
+   "name": "Kasmina"
+  },
+  {
+   "id": "quintorius",
+   "type": "Character",
+   "name": "Quintorius"
+  },
+  {
+   "id": "lorehold_college",
+   "type": "Faction",
+   "name": "Lorehold College"
+  },
+  {
+   "id": "killian_lu",
+   "type": "Character",
+   "name": "Killian Lu"
+  },
+  {
+   "id": "embrose_lu",
+   "type": "Character",
+   "name": "Embrose Lu"
+  },
+  {
+   "id": "fannessa",
+   "type": "Character",
+   "name": "Fannessa"
+  },
+  {
+   "id": "silverquill_college",
+   "type": "Faction",
+   "name": "Silverquill College"
   }
  ],
  "claims": [
@@ -341,10 +448,175 @@
    ],
    "summary": "Beledros Witherbloom refused to help Liliana.",
    "limitation": ""
+  },
+  {
+   "id": "SX012",
+   "subject": "zimone",
+   "predicate": "friend_of",
+   "object": "amaka",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "strixhaven_stx_2021",
+   "source_ids": [
+    "stx_ribbons"
+   ],
+   "evidence": [
+    {
+     "source_id": "stx_ribbons",
+     "quote": "On the third call, Zimone looks up to see her friends, Amaka and Nnanyielugo, waving at her"
+    }
+   ],
+   "summary": "Amaka (with Nnanyielugo) is Zimone's friend.",
+   "limitation": ""
+  },
+  {
+   "id": "SX013",
+   "subject": "lisette",
+   "predicate": "mentored",
+   "object": "dina",
+   "grade": "CANON_IMPLIED",
+   "event_stage": "strixhaven_stx_2021",
+   "source_ids": [
+    "stx_chains"
+   ],
+   "evidence": [
+    {
+     "source_id": "stx_chains",
+     "quote": "Alongside Lisette, she'd attended to bedridden students as part of her lessons on advanced healing."
+    }
+   ],
+   "summary": "Dina learned advanced healing alongside Lisette.",
+   "limitation": "'She' is Dina by point-of-view; 'mentored' is an editorial reading of lessons alongside Lisette."
+  },
+  {
+   "id": "SX014",
+   "subject": "uvilda",
+   "predicate": "leader_of",
+   "object": "prismari_college",
+   "grade": "CANON_IMPLIED",
+   "event_stage": "strixhaven_stx_2021",
+   "source_ids": [
+    "stx_cry"
+   ],
+   "evidence": [
+    {
+     "source_id": "stx_cry",
+     "quote": "If I bring something pretty to Dean Uvilda I know exactly what she'll say."
+    },
+    {
+     "source_id": "stx_cry",
+     "quote": "I want to enable you to do the best work you can here at Prismari College."
+    }
+   ],
+   "summary": "Uvilda is a dean at Prismari College.",
+   "limitation": "Dean is not the sole leader; the page names Uvilda a dean and is set at Prismari, without one sentence joining them."
+  },
+  {
+   "id": "SX015",
+   "subject": "kasmina",
+   "predicate": "fought",
+   "object": "lukka",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "strixhaven_stx_2021",
+   "source_ids": [
+    "stx_ep3"
+   ],
+   "evidence": [
+    {
+     "source_id": "stx_ep3",
+     "quote": "Kasmina sent a scythe of pressurized air straight at Lukka's chest."
+    }
+   ],
+   "summary": "Kasmina fights Lukka with wind magic.",
+   "limitation": ""
+  },
+  {
+   "id": "SX016",
+   "subject": "quintorius",
+   "predicate": "member_of",
+   "object": "lorehold_college",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "strixhaven_stx_2021",
+   "source_ids": [
+    "stx_silent",
+    "stx_mentor"
+   ],
+   "evidence": [
+    {
+     "source_id": "stx_silent",
+     "quote": "From the darkness of the archway appeared the lumbering body of Quintorius, a student of Lorehold."
+    },
+    {
+     "source_id": "stx_mentor",
+     "quote": "he rushed to Effigy Row—arguably the most important section of Lorehold College"
+    }
+   ],
+   "summary": "Quintorius is a Lorehold student.",
+   "limitation": ""
+  },
+  {
+   "id": "SX017",
+   "subject": "embrose_lu",
+   "predicate": "parent_of",
+   "object": "killian_lu",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "strixhaven_stx_2021",
+   "source_ids": [
+    "stx_silent"
+   ],
+   "evidence": [
+    {
+     "source_id": "stx_silent",
+     "quote": "the son of the great Dean Embrose Lu"
+    }
+   ],
+   "summary": "Killian is the son of Dean Embrose Lu.",
+   "limitation": ""
+  },
+  {
+   "id": "SX018",
+   "subject": "fannessa",
+   "predicate": "member_of",
+   "object": "oriq",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "strixhaven_stx_2021",
+   "source_ids": [
+    "stx_silent"
+   ],
+   "evidence": [
+    {
+     "source_id": "stx_silent",
+     "quote": "Fannessa too became engulfed in purple flames that burned her Silverquill robes away, revealing jagged, gray Oriq armor underneath."
+    }
+   ],
+   "summary": "Fannessa is revealed as an Oriq agent under Silverquill robes.",
+   "limitation": ""
+  },
+  {
+   "id": "SX019",
+   "subject": "killian_lu",
+   "predicate": "member_of",
+   "object": "silverquill_college",
+   "grade": "CANON_IMPLIED",
+   "event_stage": "strixhaven_stx_2021",
+   "source_ids": [
+    "stx_chains"
+   ],
+   "evidence": [
+    {
+     "source_id": "stx_chains",
+     "quote": "A young man dressed in the black and white garb of a Silverquill student stood in front of her"
+    },
+    {
+     "source_id": "stx_chains",
+     "quote": "And surely Killian would have been obliged to tell the Silverquill deans"
+    }
+   ],
+   "summary": "Killian is a Silverquill student.",
+   "limitation": "The first line introduces the young man before he is named."
   }
  ],
- "pages_registered": 5,
- "pages_cited": 5,
+ "pages_registered": 11,
+ "pages_cited": 11,
  "uncited_registered_pages": [],
  "remaining": [
   "Episode 3 is not cited for claims; the Oriq's recruitment methods are in the guide but not graded",
