@@ -59,6 +59,9 @@ STORY_SETS = {
     "pack_p5_outlaws_of_thunder_junction_2026-10-30.json": ["otj"],
     "pack_p5_lost_caverns_of_ixalan_2026-10-30.json": ["lci"],
     "pack_p5_aetherdrift_2026-10-30.json": ["dft"],
+    "pack_p5_kaldheim_2026-10-30.json": ["khm"],
+    "pack_p5_strixhaven_2026-10-30.json": ["stx"],
+    "pack_p5_ikoria_2026-10-30.json": ["iko"],
 }
 TIERS = ["ART_IN_CITED_SOURCE", "PRINTED_IN_STORY_SET", "NAMED_PARTICIPANT"]
 

@@ -214,6 +214,23 @@
    ]
   },
   {
+   "entity": "alrund",
+   "entity_type": "Character",
+   "entity_name": "Alrund",
+   "aliases": [
+    "Alrund"
+   ],
+   "pack": "pack_p5_kaldheim_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Alrund, God of the Cosmos // Hakka, Whispering Raven",
+     "oracle_id": "0a69c3dd-52a3-4ef6-b53f-b0780e0dc5f8",
+     "type_line": "Legendary Creature — God // Legendary Creature — Bird",
+     "scryfall_uri": "https://scryfall.com/card/khm/40/alrund-god-of-the-cosmos-hakka-whispering-raven"
+    }
+   ]
+  },
+  {
    "entity": "angrath",
    "entity_type": "Character",
    "entity_name": "Angrath",
@@ -485,6 +502,23 @@
    ]
   },
   {
+   "entity": "beledros_witherbloom",
+   "entity_type": "Character",
+   "entity_name": "Beledros Witherbloom",
+   "aliases": [
+    "Beledros Witherbloom"
+   ],
+   "pack": "pack_p5_strixhaven_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Beledros Witherbloom",
+     "oracle_id": "90194ff1-db61-463f-b5a3-15cd85311d0e",
+     "type_line": "Legendary Creature — Elder Dragon",
+     "scryfall_uri": "https://scryfall.com/card/soc/296/beledros-witherbloom"
+    }
+   ]
+  },
+  {
    "entity": "bontu",
    "entity_type": "Character",
    "entity_name": "Bontu",
@@ -623,6 +657,23 @@
      "oracle_id": "58d8ff36-4a4d-40e0-b812-3d23b2c7606a",
      "type_line": "Legendary Creature — Elder Dragon",
      "scryfall_uri": "https://scryfall.com/card/m19/214/chromium-the-mutable"
+    }
+   ]
+  },
+  {
+   "entity": "cosmos_elixir",
+   "entity_type": "Object",
+   "entity_name": "Cosmos Elixir",
+   "aliases": [
+    "Cosmos Elixir"
+   ],
+   "pack": "pack_p5_kaldheim_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Cosmos Elixir",
+     "oracle_id": "ed7300f4-831a-4ba4-b5e6-ceba8d079eaa",
+     "type_line": "Artifact",
+     "scryfall_uri": "https://scryfall.com/card/khm/237/cosmos-elixir"
     }
    ]
   },
@@ -874,6 +925,23 @@
    ]
   },
   {
+   "entity": "esika",
+   "entity_type": "Character",
+   "entity_name": "Esika",
+   "aliases": [
+    "Esika"
+   ],
+   "pack": "pack_p5_kaldheim_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Esika, God of the Tree // The Prismatic Bridge",
+     "oracle_id": "92023a5d-a143-4950-a71b-d736e6b8e959",
+     "type_line": "Legendary Creature — God // Legendary Enchantment",
+     "scryfall_uri": "https://scryfall.com/card/khm/168/esika-god-of-the-tree-the-prismatic-bridge"
+    }
+   ]
+  },
+  {
    "entity": "etrata",
    "entity_type": "Character",
    "entity_name": "Etrata",
@@ -893,6 +961,23 @@
      "oracle_id": "2ee87667-ec9d-4ced-b7e6-df3fd18b0ed6",
      "type_line": "Legendary Creature — Vampire Assassin",
      "scryfall_uri": "https://scryfall.com/card/grn/170/etrata-the-silencer"
+    }
+   ]
+  },
+  {
+   "entity": "extus",
+   "entity_type": "Character",
+   "entity_name": "Extus",
+   "aliases": [
+    "Extus"
+   ],
+   "pack": "pack_p5_strixhaven_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Extus, Oriq Overlord // Awaken the Blood Avatar",
+     "oracle_id": "0b299983-9f0f-404a-acd1-8f142572b1f1",
+     "type_line": "Legendary Creature — Human Warlock // Sorcery",
+     "scryfall_uri": "https://scryfall.com/card/stx/149/extus-oriq-overlord-awaken-the-blood-avatar"
     }
    ]
   },
@@ -1478,6 +1563,23 @@
    ]
   },
   {
+   "entity": "kardur",
+   "entity_type": "Character",
+   "entity_name": "Kardur",
+   "aliases": [
+    "Kardur"
+   ],
+   "pack": "pack_p5_kaldheim_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Kardur, Doomscourge",
+     "oracle_id": "bc14356c-3a1a-47af-9a6e-2b449de0331f",
+     "type_line": "Legendary Creature — Demon Berserker",
+     "scryfall_uri": "https://scryfall.com/card/dsc/223/kardur-doomscourge"
+    }
+   ]
+  },
+  {
    "entity": "kari_zev",
    "entity_type": "Character",
    "entity_name": "Kari Zev",
@@ -1684,6 +1786,46 @@
      "oracle_id": "afacc200-16ff-40f3-9d43-268438131d24",
      "type_line": "Legendary Creature — Human Faerie Rogue",
      "scryfall_uri": "https://scryfall.com/card/otj/213/kellan-the-kid"
+    }
+   ]
+  },
+  {
+   "entity": "koll",
+   "entity_type": "Character",
+   "entity_name": "Koll",
+   "aliases": [
+    "Koll"
+   ],
+   "pack": "pack_p5_kaldheim_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Koll, the Forgemaster",
+     "oracle_id": "344dc8b0-302a-4721-99b6-5a6626a349c1",
+     "type_line": "Legendary Creature — Dwarf Warrior",
+     "scryfall_uri": "https://scryfall.com/card/khm/220/koll-the-forgemaster"
+    }
+   ]
+  },
+  {
+   "entity": "koma",
+   "entity_type": "Character",
+   "entity_name": "Koma",
+   "aliases": [
+    "Koma"
+   ],
+   "pack": "pack_p5_kaldheim_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Koma, Cosmos Serpent",
+     "oracle_id": "6ba0656f-e0d2-4735-9c66-3a00afa9fc23",
+     "type_line": "Legendary Creature — Serpent",
+     "scryfall_uri": "https://scryfall.com/card/mkc/213/koma-cosmos-serpent"
+    },
+    {
+     "name": "Koma, World-Eater",
+     "oracle_id": "1ebf2142-f171-40cd-8143-15f50084b707",
+     "type_line": "Legendary Creature — Serpent",
+     "scryfall_uri": "https://scryfall.com/card/fdn/121/koma-world-eater"
     }
    ]
   },
@@ -2000,6 +2142,23 @@
      "oracle_id": "c396db03-bf11-4e20-b630-4f9aa8fd78da",
      "type_line": "Legendary Artifact — Powerstone",
      "scryfall_uri": "https://scryfall.com/card/bro/238/the-mightstone-and-weakstone"
+    }
+   ]
+  },
+  {
+   "entity": "mila",
+   "entity_type": "Character",
+   "entity_name": "Mila",
+   "aliases": [
+    "Mila"
+   ],
+   "pack": "pack_p5_strixhaven_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Mila, Crafty Companion // Lukka, Wayward Bonder",
+     "oracle_id": "ee524e82-35c4-4cae-b65e-3e147eac2927",
+     "type_line": "Legendary Creature — Fox // Legendary Planeswalker — Lukka",
+     "scryfall_uri": "https://scryfall.com/card/stx/153/mila-crafty-companion-lukka-wayward-bonder"
     }
    ]
   },
@@ -2559,6 +2718,23 @@
    ]
   },
   {
+   "entity": "professor_onyx",
+   "entity_type": "Character",
+   "entity_name": "Professor Onyx",
+   "aliases": [
+    "Professor Onyx"
+   ],
+   "pack": "pack_p5_strixhaven_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Professor Onyx",
+     "oracle_id": "9df2e909-ed13-456a-9636-7398732009a9",
+     "type_line": "Legendary Planeswalker — Liliana",
+     "scryfall_uri": "https://scryfall.com/card/dsc/153/professor-onyx"
+    }
+   ]
+  },
+  {
    "entity": "radha",
    "entity_type": "Character",
    "entity_name": "Radha",
@@ -3062,6 +3238,23 @@
    ]
   },
   {
+   "entity": "snapdax",
+   "entity_type": "Character",
+   "entity_name": "Snapdax",
+   "aliases": [
+    "Snapdax"
+   ],
+   "pack": "pack_p5_ikoria_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Snapdax, Apex of the Hunt",
+     "oracle_id": "b2b78623-5a10-4ef7-b983-3d82478269c3",
+     "type_line": "Legendary Creature — Dinosaur Cat Nightmare",
+     "scryfall_uri": "https://scryfall.com/card/iko/209/snapdax-apex-of-the-hunt"
+    }
+   ]
+  },
+  {
    "entity": "sorin_markov",
    "entity_type": "Character",
    "entity_name": "Sorin Markov",
@@ -3502,6 +3695,23 @@
    ]
   },
   {
+   "entity": "toralf",
+   "entity_type": "Character",
+   "entity_name": "Toralf",
+   "aliases": [
+    "Toralf"
+   ],
+   "pack": "pack_p5_kaldheim_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Toralf, God of Fury // Toralf's Hammer",
+     "oracle_id": "fffcb71f-e802-436e-917d-eaa6607ab74f",
+     "type_line": "Legendary Creature — God // Legendary Artifact — Equipment",
+     "scryfall_uri": "https://scryfall.com/card/khm/154/toralf-god-of-fury-toralfs-hammer"
+    }
+   ]
+  },
+  {
    "entity": "tovolar",
    "entity_type": "Character",
    "entity_name": "Tovolar",
@@ -3658,6 +3868,23 @@
    ]
   },
   {
+   "entity": "vadrok",
+   "entity_type": "Character",
+   "entity_name": "Vadrok",
+   "aliases": [
+    "Vadrok"
+   ],
+   "pack": "pack_p5_ikoria_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Vadrok, Apex of Thunder",
+     "oracle_id": "775c41fa-2316-43c9-af34-ac9c9b0db7e2",
+     "type_line": "Legendary Creature — Elemental Dinosaur Cat",
+     "scryfall_uri": "https://scryfall.com/card/iko/214/vadrok-apex-of-thunder"
+    }
+   ]
+  },
+  {
    "entity": "vaevictis_asmadi",
    "entity_type": "Character",
    "entity_name": "Vaevictis Asmadi",
@@ -3700,6 +3927,40 @@
      "oracle_id": "cae3ec72-436d-4086-9dcb-17b3d92ad5c4",
      "type_line": "Legendary Creature — Elder Demon",
      "scryfall_uri": "https://scryfall.com/card/dsk/120/valgavoth-terror-eater"
+    }
+   ]
+  },
+  {
+   "entity": "valki",
+   "entity_type": "Character",
+   "entity_name": "Valki",
+   "aliases": [
+    "Valki"
+   ],
+   "pack": "pack_p5_kaldheim_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Valki, God of Lies // Tibalt, Cosmic Impostor",
+     "oracle_id": "907ae517-22d5-4ac7-bc3a-3f4d5eaeeb57",
+     "type_line": "Legendary Creature — God // Legendary Planeswalker — Tibalt",
+     "scryfall_uri": "https://scryfall.com/card/khm/114/valki-god-of-lies-tibalt-cosmic-impostor"
+    }
+   ]
+  },
+  {
+   "entity": "varragoth",
+   "entity_type": "Character",
+   "entity_name": "Varragoth",
+   "aliases": [
+    "Varragoth"
+   ],
+   "pack": "pack_p5_kaldheim_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Varragoth, Bloodsky Sire",
+     "oracle_id": "68b41a04-8cb0-4edf-b488-a219494453ae",
+     "type_line": "Legendary Creature — Demon Rogue",
+     "scryfall_uri": "https://scryfall.com/card/khm/115/varragoth-bloodsky-sire"
     }
    ]
   },
@@ -3804,6 +4065,35 @@
      "oracle_id": "28225bae-2d96-4352-b256-0c2ff4ef65e9",
      "type_line": "Legendary Creature — Human Knight",
      "scryfall_uri": "https://scryfall.com/card/eoe/232/syr-vondam-the-lucent"
+    }
+   ]
+  },
+  {
+   "entity": "vorinclex",
+   "entity_type": "Character",
+   "entity_name": "Vorinclex",
+   "aliases": [
+    "Vorinclex"
+   ],
+   "pack": "pack_p5_kaldheim_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Vorinclex // The Grand Evolution",
+     "oracle_id": "166e5680-b8cf-47da-bcae-3591367c5fb4",
+     "type_line": "Legendary Creature — Phyrexian Praetor // Enchantment — Saga",
+     "scryfall_uri": "https://scryfall.com/card/mom/213/vorinclex-the-grand-evolution"
+    },
+    {
+     "name": "Vorinclex, Monstrous Raider",
+     "oracle_id": "5a3fdf5a-bff8-4896-b288-3f43f9a72d9b",
+     "type_line": "Legendary Creature — Phyrexian Praetor",
+     "scryfall_uri": "https://scryfall.com/card/khm/199/vorinclex-monstrous-raider"
+    },
+    {
+     "name": "Vorinclex, Voice of Hunger",
+     "oracle_id": "dbf0ad03-ab31-49d2-89b1-05b45948a61f",
+     "type_line": "Legendary Creature — Phyrexian Praetor",
+     "scryfall_uri": "https://scryfall.com/card/ima/189/vorinclex-voice-of-hunger"
     }
    ]
   },
@@ -4106,6 +4396,7 @@
   "belzenlok_death",
   "bertram_graywater",
   "blackblade",
+  "blood_avatar",
   "calamity_beast_egg",
   "corondor_chasm",
   "cragflame",
@@ -4114,12 +4405,14 @@
   "dhiren_baral",
   "dmu_sheoldred_invasion",
   "dragonstorm_escape",
+  "drannith",
   "eiko",
   "first_phyrexian_invasion",
   "ghirapur_grand_prix",
   "ghirapur_revolution",
   "halo",
   "hexhaven",
+  "hurrik",
   "ice_age",
   "immortal_sun",
   "imperial_palace",
@@ -4141,14 +4434,17 @@
   "orazca",
   "original_tarkir_clash",
   "pondside",
+  "raugrin",
   "reality_chip",
   "realmbreaker",
   "rtd_sylex",
+  "savai_settlements",
   "skysovereign",
   "sothera",
   "sotheran_supervoid",
   "spire_inquirium",
   "sungold_lock",
+  "sword_of_the_realms",
   "sylex_blast",
   "sylex_replica",
   "tarkir_duel",
@@ -4173,9 +4469,9 @@
   "Urza, Academy Headmaster"
  ],
  "counts": {
-  "entities_anchored": 166,
-  "anchor_edges": 376,
-  "unanchored_entities": 65
+  "entities_anchored": 182,
+  "anchor_edges": 395,
+  "unanchored_entities": 71
  },
- "content_sha256": "a48cd2bd0573d6d518cb8948b3e389b27fd9b24b159ccf6eae9a55a6a2da99ac"
+ "content_sha256": "a9031936ec7a6d80b5fd917d4727c03927585985e6eba05e978d1a67f7e6d4a3"
 }

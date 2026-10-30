@@ -1,0 +1,354 @@
+{
+ "pack_id": "pack_p5_kaldheim",
+ "arc": "KHM",
+ "event_stage": "kaldheim_khm_2021",
+ "scope": "Targeted Phase 5 extraction from the official Planeswalker's Guide to Kaldheim (parts 1-2, 2021-01-08/14), The Legends of Kaldheim (2021-01-21) and Kaldheim Magic Story episodes 3-5 (2021-01-21 to 2021-02-04). PRELIMINARY_RESEARCH; not owner approved.",
+ "pages": {
+  "khm_guide1": "planeswalkers-guide-kaldheim-part-1-2021-01-08",
+  "khm_guide2": "planeswalkers-guide-kaldheim-part-2-2021-01-14",
+  "khm_legends": "legends-kaldheim-2021-01-21",
+  "khm_ep3": "episode-3-saga-tibalt-2021-01-20",
+  "khm_ep4": "episode-4-demons-realm-2021-01-27",
+  "khm_ep5": "episode-5-battle-kaldheim-2021-02-03"
+ },
+ "entities": [
+  {
+   "id": "tibalt",
+   "type": "Character",
+   "name": "Tibalt"
+  },
+  {
+   "id": "valki",
+   "type": "Character",
+   "name": "Valki"
+  },
+  {
+   "id": "tyvar",
+   "type": "Character",
+   "name": "Tyvar Kell"
+  },
+  {
+   "id": "kaya",
+   "type": "Character",
+   "name": "Kaya"
+  },
+  {
+   "id": "koma",
+   "type": "Character",
+   "name": "Koma"
+  },
+  {
+   "id": "valkyries_of_starnheim",
+   "type": "Faction",
+   "name": "Valkyries of Starnheim"
+  },
+  {
+   "id": "kardur",
+   "type": "Character",
+   "name": "Kardur"
+  },
+  {
+   "id": "demon_jarls",
+   "type": "Faction",
+   "name": "Demon jarls of Immersturm"
+  },
+  {
+   "id": "alrund",
+   "type": "Character",
+   "name": "Alrund"
+  },
+  {
+   "id": "einir",
+   "type": "Faction",
+   "name": "The Einir"
+  },
+  {
+   "id": "koll",
+   "type": "Character",
+   "name": "Koll"
+  },
+  {
+   "id": "sword_of_the_realms",
+   "type": "Object",
+   "name": "Sword of the Realms"
+  },
+  {
+   "id": "esika",
+   "type": "Character",
+   "name": "Esika"
+  },
+  {
+   "id": "cosmos_elixir",
+   "type": "Object",
+   "name": "Cosmos Elixir"
+  },
+  {
+   "id": "hurrik",
+   "type": "Character",
+   "name": "Hurrik"
+  },
+  {
+   "id": "varragoth",
+   "type": "Character",
+   "name": "Varragoth"
+  },
+  {
+   "id": "skelle_clan",
+   "type": "Faction",
+   "name": "Skelle clan"
+  },
+  {
+   "id": "toralf",
+   "type": "Character",
+   "name": "Toralf"
+  },
+  {
+   "id": "vorinclex",
+   "type": "Character",
+   "name": "Vorinclex"
+  },
+  {
+   "id": "kaldheim",
+   "type": "Plane",
+   "name": "Kaldheim"
+  },
+  {
+   "id": "skoti",
+   "type": "Faction",
+   "name": "The Skoti"
+  }
+ ],
+ "claims": [
+  {
+   "id": "KH001",
+   "subject": "tibalt",
+   "predicate": "imprisoned",
+   "object": "valki",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "khm_legends",
+     "quote": "What the gods don't know is that the real Valki has been imprisoned on Karfell by a cruel planeswalker, Tibalt, who has taken his place."
+    },
+    {
+     "page": "khm_ep3",
+     "quote": "Tibalt wrapped Valki in magical chains and brought him to the coldest, most remote realm he could find: Karfell."
+    }
+   ],
+   "summary": "Tibalt imprisoned the real Valki on Karfell and took his place."
+  },
+  {
+   "id": "KH002",
+   "subject": "tibalt",
+   "predicate": "impersonated",
+   "object": "valki",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "khm_legends",
+     "quote": "Tibalt wants to learn about the World Tree for some nefarious purpose and is trying to use Valki's identity to do so."
+    }
+   ],
+   "summary": "Tibalt uses Valki's identity as a disguise."
+  },
+  {
+   "id": "KH003",
+   "subject": "tibalt",
+   "predicate": "freed",
+   "object": "koma",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "khm_ep3",
+     "quote": "He had used it to unleash Koma on the Valkyries of Starnheim."
+    }
+   ],
+   "summary": "Tibalt used the Sword of the Realms to unleash Koma on the Valkyries.",
+   "limitation": "Episode 3 is narrated by Tibalt himself, who is unreliable; not independently confirmed in narration."
+  },
+  {
+   "id": "KH004",
+   "subject": "tyvar",
+   "predicate": "defeated",
+   "object": "tibalt",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "khm_ep4",
+     "quote": "With a quick and practiced gesture, Tyvar knocked the sword from Tibalt's hands."
+    },
+    {
+     "page": "khm_ep4",
+     "quote": "Tyvar pressed his brass blade to Tibalt's neck."
+    }
+   ],
+   "summary": "Tyvar disarmed and overpowered Tibalt in Immersturm.",
+   "limitation": "Tibalt is beaten in this fight, not killed.",
+   "event_stage": "khm_immersturm_2021"
+  },
+  {
+   "id": "KH005",
+   "subject": "kaya",
+   "predicate": "sought",
+   "object": "tibalt",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "khm_ep4",
+     "quote": "She beat a straight path for Tibalt, phasing through rock and fire and whatever else the devil threw her way; nimble as Tyvar was, she quickly pulled ahead of him."
+    }
+   ],
+   "summary": "Kaya pursued Tibalt in Immersturm.",
+   "event_stage": "khm_immersturm_2021"
+  },
+  {
+   "id": "KH006",
+   "subject": "demon_jarls",
+   "predicate": "imprisoned",
+   "object": "kardur",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "khm_legends",
+     "quote": "Working together, for possibly the first time in history, the other jarls sealed Kardur hundreds of miles deep beneath the earth."
+    }
+   ],
+   "summary": "The other demon jarls sealed Kardur deep underground."
+  },
+  {
+   "id": "KH007",
+   "subject": "alrund",
+   "predicate": "imprisoned",
+   "object": "einir",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "khm_guide2",
+     "quote": "When the Einir were defeated, Alrund took their seven surviving leaders and imprisoned them within seven great trees across their realm, which are now known as the Jaspera trees."
+    }
+   ],
+   "summary": "Alrund imprisoned the seven surviving Einir leaders inside the Jaspera trees.",
+   "limitation": "Strictly, the leaders of the Einir."
+  },
+  {
+   "id": "KH008",
+   "subject": "koll",
+   "predicate": "created",
+   "object": "sword_of_the_realms",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "khm_ep3",
+     "quote": "Koll was making a sword out of the stuff, a blade which could open paths between all the realms of Kaldheim."
+    },
+    {
+     "page": "khm_legends",
+     "quote": "Out of gratitude, Koll swore that he would forge the Tyrite into the finest blade the realms had ever seen as a gift for Halvar."
+    }
+   ],
+   "summary": "Koll forged the realm-opening Tyrite sword.",
+   "limitation": "Legends gives only Koll's oath; the forging is in Tibalt's narration (episode 3) and in dialogue (episode 5)."
+  },
+  {
+   "id": "KH009",
+   "subject": "esika",
+   "predicate": "created",
+   "object": "cosmos_elixir",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "khm_legends",
+     "quote": "Esika makes the Cosmos Elixir that the gods consume to slow their aging and maintain their supernatural power."
+    }
+   ],
+   "summary": "Esika makes the Cosmos Elixir that the gods drink."
+  },
+  {
+   "id": "KH010",
+   "subject": "hurrik",
+   "predicate": "rescued",
+   "object": "alrund",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "khm_guide1",
+     "quote": "Just as the wolf was about to rip out Alrund's throat, Hurrik shot an arrow into its eye."
+    }
+   ],
+   "summary": "Hurrik saved Alrund from a Cosmos wolf.",
+   "limitation": "Told as a clan legend inside the guide."
+  },
+  {
+   "id": "KH011",
+   "subject": "varragoth",
+   "predicate": "led",
+   "object": "skelle_clan",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "khm_guide1",
+     "quote": "Once in Bretagard, he quickly established himself as the leader of the Skelle raiders, who were all too happy to ally themselves with a demon."
+    }
+   ],
+   "summary": "Varragoth became the leader of the Skelle raiders."
+  },
+  {
+   "id": "KH012",
+   "subject": "toralf",
+   "predicate": "sibling_of",
+   "object": "valki",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "khm_guide2",
+     "quote": "When Toralf asked his brother what troubled him, Valki threw down the harness in frustration."
+    }
+   ],
+   "summary": "Toralf and Valki are brothers."
+  },
+  {
+   "id": "KH013",
+   "subject": "vorinclex",
+   "predicate": "arrived_on",
+   "object": "kaldheim",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "khm_legends",
+     "quote": "Why Vorinclex arrived in Kaldheim is currently unknown, but the purposes are certainly nefarious."
+    },
+    {
+     "page": "khm_ep5",
+     "quote": "From the other side of the portal came a sound so unearthly and strange, she almost didn't recognize it as a voice: \"Welcome back, Vorinclex."
+    }
+   ],
+   "summary": "Vorinclex of New Phyrexia came to Kaldheim, and in the epilogue a portal welcomes him back.",
+   "limitation": "Who greets him is not named here.",
+   "event_stage": "khm_epilogue_2021"
+  },
+  {
+   "id": "KH014",
+   "subject": "skoti",
+   "predicate": "imprisoned",
+   "object": "koma",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "khm_ep3",
+     "quote": "Long ago, the Skoti had banished Koma from entering the realms, trapping him in the empty Cosmos."
+    },
+    {
+     "page": "khm_guide1",
+     "quote": "In any case, the elves, who continue to worship Koma, believe that his banishment harms the World Tree."
+    }
+   ],
+   "summary": "The Skoti banished Koma to the Cosmos.",
+   "limitation": "The guide does not name who banished him; the Skoti come from Tibalt's narration in episode 3."
+  }
+ ],
+ "remaining": [
+  "Episodes 1-2 and the Kaya/Tibalt endgame in episode 5 are not graded",
+  "Koll's fate after Tibalt's attack is not graded (Tibalt narrates it, and later dialogue conflicts)",
+  "Elesh Norn's influence over Vorinclex is not graded"
+ ]
+}

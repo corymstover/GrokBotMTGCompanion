@@ -7,7 +7,7 @@
   "HYPOTHETICAL": "Creative or deckbuilding connection; never canon.",
   "OPEN_QUESTION": "Primary sources leave the matter unresolved; do not assert either way."
  },
- "content_sha256": "08d1be8653256da6d380090c421d0467e32490154caa0484eb1c8a6e91e0aeb7",
+ "content_sha256": "a3fda8f7b49aabd04456ba514694248d5c20a924b275e47636124c431b277ee2",
  "edges": [
   {
    "artists": [
@@ -5113,6 +5113,13 @@
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "artifact:cosmos_elixir",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:cosmos_elixir"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
    "from": "artifact:endstone",
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
@@ -5330,6 +5337,13 @@
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:alrund",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:alrund_god_of_the_cosmos_hakka_whispering_raven"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
    "from": "character:angrath",
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
@@ -5484,6 +5498,13 @@
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:beledros_witherbloom",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:beledros_witherbloom"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
    "from": "character:bontu",
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
@@ -5624,6 +5645,13 @@
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:esika",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:esika_god_of_the_tree_the_prismatic_bridge"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
    "from": "character:etrata",
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
@@ -5635,6 +5663,13 @@
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
    "to": "card:etrata_the_silencer"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:extus",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:extus_oriq_overlord_awaken_the_blood_avatar"
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
@@ -5946,6 +5981,13 @@
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:kardur",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:kardur_doomscourge"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
    "from": "character:kari_zev",
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
@@ -6111,6 +6153,27 @@
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
    "to": "card:kellan_the_kid"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:koll",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:koll_the_forgemaster"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:koma",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:koma_cosmos_serpent"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:koma",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:koma_world_eater"
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
@@ -6293,6 +6356,13 @@
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
    "to": "card:mendicant_core_guidelight"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:mila",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:mila_crafty_companion_lukka_wayward_bonder"
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
@@ -6660,6 +6730,13 @@
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:professor_onyx",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:professor_onyx"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
    "from": "character:radha",
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
@@ -6968,6 +7045,13 @@
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:snapdax",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:snapdax_apex_of_the_hunt"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
    "from": "character:sorin_markov",
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
@@ -7262,6 +7346,13 @@
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:toralf",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:toralf_god_of_fury_toralf_s_hammer"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
    "from": "character:tovolar",
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
@@ -7360,6 +7451,13 @@
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:vadrok",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:vadrok_apex_of_thunder"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
    "from": "character:vaevictis_asmadi",
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
@@ -7385,6 +7483,20 @@
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
    "to": "card:valgavoth_terror_eater"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:valki",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:valki_god_of_lies_tibalt_cosmic_impostor"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:varragoth",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:varragoth_bloodsky_sire"
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
@@ -7455,6 +7567,27 @@
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
    "to": "card:syr_vondam_the_lucent"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:vorinclex",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:vorinclex_monstrous_raider"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:vorinclex",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:vorinclex_the_grand_evolution"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:vorinclex",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:vorinclex_voice_of_hunger"
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
@@ -9907,6 +10040,238 @@
    "to": "artifact:endstone"
   },
   {
+   "claim": "IK001",
+   "era": "ikoria_iko_2020",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:vivien_reid",
+   "grade": "CANON_CONFIRMED",
+   "relation": "visited",
+   "sources": [
+    "iko_guide"
+   ],
+   "to": "plane:ikoria"
+  },
+  {
+   "claim": "IK002",
+   "era": "ikoria_iko_2020",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:narset",
+   "grade": "CANON_IMPLIED",
+   "relation": "visited",
+   "sources": [
+    "iko_guide"
+   ],
+   "to": "plane:ikoria"
+  },
+  {
+   "claim": "IK003",
+   "era": "ikoria_iko_2020",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:vadrok",
+   "grade": "CANON_CONFIRMED",
+   "relation": "controls",
+   "sources": [
+    "iko_guide"
+   ],
+   "to": "place:raugrin"
+  },
+  {
+   "claim": "IK004",
+   "era": "ikoria_iko_2020",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:snapdax",
+   "grade": "CANON_IMPLIED",
+   "relation": "destroyed",
+   "sources": [
+    "iko_guide"
+   ],
+   "to": "place:savai_settlements"
+  },
+  {
+   "claim": "IK005",
+   "era": "ikoria_iko_2020",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "faction:coppercoats",
+   "grade": "CANON_CONFIRMED",
+   "relation": "guardian_of",
+   "sources": [
+    "iko_guide"
+   ],
+   "to": "place:drannith"
+  },
+  {
+   "claim": "KH001",
+   "era": "kaldheim_khm_2021",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:tibalt",
+   "grade": "CANON_CONFIRMED",
+   "relation": "imprisoned",
+   "sources": [
+    "khm_ep3",
+    "khm_legends"
+   ],
+   "to": "character:valki"
+  },
+  {
+   "claim": "KH002",
+   "era": "kaldheim_khm_2021",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:tibalt",
+   "grade": "CANON_CONFIRMED",
+   "relation": "impersonated",
+   "sources": [
+    "khm_legends"
+   ],
+   "to": "character:valki"
+  },
+  {
+   "claim": "KH003",
+   "era": "kaldheim_khm_2021",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:tibalt",
+   "grade": "CANON_IMPLIED",
+   "relation": "freed",
+   "sources": [
+    "khm_ep3"
+   ],
+   "to": "character:koma"
+  },
+  {
+   "claim": "KH004",
+   "era": "khm_immersturm_2021",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:tyvar",
+   "grade": "CANON_CONFIRMED",
+   "relation": "defeated",
+   "sources": [
+    "khm_ep4"
+   ],
+   "to": "character:tibalt"
+  },
+  {
+   "claim": "KH005",
+   "era": "khm_immersturm_2021",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:kaya",
+   "grade": "CANON_CONFIRMED",
+   "relation": "sought",
+   "sources": [
+    "khm_ep4"
+   ],
+   "to": "character:tibalt"
+  },
+  {
+   "claim": "KH006",
+   "era": "kaldheim_khm_2021",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "faction:demon_jarls",
+   "grade": "CANON_CONFIRMED",
+   "relation": "imprisoned",
+   "sources": [
+    "khm_legends"
+   ],
+   "to": "character:kardur"
+  },
+  {
+   "claim": "KH007",
+   "era": "kaldheim_khm_2021",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:alrund",
+   "grade": "CANON_CONFIRMED",
+   "relation": "imprisoned",
+   "sources": [
+    "khm_guide2"
+   ],
+   "to": "faction:einir"
+  },
+  {
+   "claim": "KH008",
+   "era": "kaldheim_khm_2021",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:koll",
+   "grade": "CANON_IMPLIED",
+   "relation": "created",
+   "sources": [
+    "khm_ep3",
+    "khm_legends"
+   ],
+   "to": "artifact:sword_of_the_realms"
+  },
+  {
+   "claim": "KH009",
+   "era": "kaldheim_khm_2021",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:esika",
+   "grade": "CANON_CONFIRMED",
+   "relation": "created",
+   "sources": [
+    "khm_legends"
+   ],
+   "to": "artifact:cosmos_elixir"
+  },
+  {
+   "claim": "KH010",
+   "era": "kaldheim_khm_2021",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:hurrik",
+   "grade": "CANON_CONFIRMED",
+   "relation": "rescued",
+   "sources": [
+    "khm_guide1"
+   ],
+   "to": "character:alrund"
+  },
+  {
+   "claim": "KH011",
+   "era": "kaldheim_khm_2021",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:varragoth",
+   "grade": "CANON_CONFIRMED",
+   "relation": "led",
+   "sources": [
+    "khm_guide1"
+   ],
+   "to": "faction:skelle_clan"
+  },
+  {
+   "claim": "KH012",
+   "era": "kaldheim_khm_2021",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:toralf",
+   "grade": "CANON_CONFIRMED",
+   "relation": "sibling_of",
+   "sources": [
+    "khm_guide2"
+   ],
+   "to": "character:valki"
+  },
+  {
+   "claim": "KH013",
+   "era": "khm_epilogue_2021",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:vorinclex",
+   "grade": "CANON_CONFIRMED",
+   "relation": "arrived_on",
+   "sources": [
+    "khm_ep5",
+    "khm_legends"
+   ],
+   "to": "plane:kaldheim"
+  },
+  {
+   "claim": "KH014",
+   "era": "kaldheim_khm_2021",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "faction:skoti",
+   "grade": "CANON_IMPLIED",
+   "relation": "imprisoned",
+   "sources": [
+    "khm_ep3",
+    "khm_guide1"
+   ],
+   "to": "character:koma"
+  },
+  {
    "claim": "KLD001",
    "era": "soi_emn_2016",
    "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
@@ -12159,6 +12524,141 @@
    "to": "faction:five_families"
   },
   {
+   "claim": "SX001",
+   "era": "strixhaven_stx_2021",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:extus",
+   "grade": "CANON_CONFIRMED",
+   "relation": "led",
+   "sources": [
+    "stx_ep5"
+   ],
+   "to": "faction:oriq"
+  },
+  {
+   "claim": "SX002",
+   "era": "stx_final_exam_2021",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:extus",
+   "grade": "CANON_CONFIRMED",
+   "relation": "summoned",
+   "sources": [
+    "stx_ep4",
+    "stx_ep5"
+   ],
+   "to": "character:blood_avatar"
+  },
+  {
+   "claim": "SX003",
+   "era": "stx_final_exam_2021",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:blood_avatar",
+   "grade": "CANON_IMPLIED",
+   "relation": "killed",
+   "sources": [
+    "stx_ep5"
+   ],
+   "to": "character:extus"
+  },
+  {
+   "claim": "SX004",
+   "era": "stx_final_exam_2021",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:will_kenrith",
+   "grade": "CANON_CONFIRMED",
+   "relation": "defeated",
+   "sources": [
+    "stx_ep5"
+   ],
+   "to": "character:blood_avatar"
+  },
+  {
+   "claim": "SX005",
+   "era": "stx_final_exam_2021",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:rowan_kenrith",
+   "grade": "CANON_CONFIRMED",
+   "relation": "defeated",
+   "sources": [
+    "stx_ep5"
+   ],
+   "to": "character:blood_avatar"
+  },
+  {
+   "claim": "SX006",
+   "era": "strixhaven_stx_2021",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:will_kenrith",
+   "grade": "CANON_CONFIRMED",
+   "relation": "sibling_of",
+   "sources": [
+    "stx_ep1"
+   ],
+   "to": "character:rowan_kenrith"
+  },
+  {
+   "claim": "SX007",
+   "era": "strixhaven_stx_2021",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:liliana_vess",
+   "grade": "CANON_CONFIRMED",
+   "relation": "identified_with",
+   "sources": [
+    "stx_ep1",
+    "stx_ep5"
+   ],
+   "to": "character:professor_onyx"
+  },
+  {
+   "claim": "SX008",
+   "era": "strixhaven_stx_2021",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:lukka",
+   "grade": "CANON_IMPLIED",
+   "relation": "joined",
+   "sources": [
+    "stx_ep2",
+    "stx_ep5"
+   ],
+   "to": "faction:oriq"
+  },
+  {
+   "claim": "SX009",
+   "era": "strixhaven_stx_2021",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:lukka",
+   "grade": "CANON_CONFIRMED",
+   "relation": "allied_with",
+   "sources": [
+    "stx_ep5"
+   ],
+   "to": "character:mila"
+  },
+  {
+   "claim": "SX010",
+   "era": "strixhaven_stx_2021",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "faction:strixhaven_founder_dragons",
+   "grade": "CANON_CONFIRMED",
+   "relation": "created",
+   "sources": [
+    "stx_guide"
+   ],
+   "to": "place:strixhaven"
+  },
+  {
+   "claim": "SX011",
+   "era": "strixhaven_stx_2021",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:beledros_witherbloom",
+   "grade": "CANON_CONFIRMED",
+   "relation": "refused",
+   "sources": [
+    "stx_ep2"
+   ],
+   "to": "character:liliana_vess"
+  },
+  {
    "claim": "U001",
    "era": "ancient",
    "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
@@ -13285,6 +13785,12 @@
    "relation": "see_also_curated_entry",
    "tier": "contextual_pointer",
    "to": "curated:Characters Index.md#vivien-reid"
+  },
+  {
+   "from": "character:vorinclex",
+   "relation": "see_also_curated_entry",
+   "tier": "contextual_pointer",
+   "to": "curated:Characters Index.md#vorinclex"
   },
   {
    "from": "character:vraska",
@@ -15367,6 +15873,234 @@
    "relation": "asserts",
    "role": "subject",
    "to": "character:haliya"
+  },
+  {
+   "from": "claim:IK001",
+   "relation": "asserts",
+   "role": "object",
+   "to": "plane:ikoria"
+  },
+  {
+   "from": "claim:IK001",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:vivien_reid"
+  },
+  {
+   "from": "claim:IK002",
+   "relation": "asserts",
+   "role": "object",
+   "to": "plane:ikoria"
+  },
+  {
+   "from": "claim:IK002",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:narset"
+  },
+  {
+   "from": "claim:IK003",
+   "relation": "asserts",
+   "role": "object",
+   "to": "place:raugrin"
+  },
+  {
+   "from": "claim:IK003",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:vadrok"
+  },
+  {
+   "from": "claim:IK004",
+   "relation": "asserts",
+   "role": "object",
+   "to": "place:savai_settlements"
+  },
+  {
+   "from": "claim:IK004",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:snapdax"
+  },
+  {
+   "from": "claim:IK005",
+   "relation": "asserts",
+   "role": "object",
+   "to": "place:drannith"
+  },
+  {
+   "from": "claim:IK005",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "faction:coppercoats"
+  },
+  {
+   "from": "claim:KH001",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:valki"
+  },
+  {
+   "from": "claim:KH001",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:tibalt"
+  },
+  {
+   "from": "claim:KH002",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:valki"
+  },
+  {
+   "from": "claim:KH002",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:tibalt"
+  },
+  {
+   "from": "claim:KH003",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:koma"
+  },
+  {
+   "from": "claim:KH003",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:tibalt"
+  },
+  {
+   "from": "claim:KH004",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:tibalt"
+  },
+  {
+   "from": "claim:KH004",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:tyvar"
+  },
+  {
+   "from": "claim:KH005",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:tibalt"
+  },
+  {
+   "from": "claim:KH005",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:kaya"
+  },
+  {
+   "from": "claim:KH006",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:kardur"
+  },
+  {
+   "from": "claim:KH006",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "faction:demon_jarls"
+  },
+  {
+   "from": "claim:KH007",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:einir"
+  },
+  {
+   "from": "claim:KH007",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:alrund"
+  },
+  {
+   "from": "claim:KH008",
+   "relation": "asserts",
+   "role": "object",
+   "to": "artifact:sword_of_the_realms"
+  },
+  {
+   "from": "claim:KH008",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:koll"
+  },
+  {
+   "from": "claim:KH009",
+   "relation": "asserts",
+   "role": "object",
+   "to": "artifact:cosmos_elixir"
+  },
+  {
+   "from": "claim:KH009",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:esika"
+  },
+  {
+   "from": "claim:KH010",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:alrund"
+  },
+  {
+   "from": "claim:KH010",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:hurrik"
+  },
+  {
+   "from": "claim:KH011",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:skelle_clan"
+  },
+  {
+   "from": "claim:KH011",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:varragoth"
+  },
+  {
+   "from": "claim:KH012",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:valki"
+  },
+  {
+   "from": "claim:KH012",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:toralf"
+  },
+  {
+   "from": "claim:KH013",
+   "relation": "asserts",
+   "role": "object",
+   "to": "plane:kaldheim"
+  },
+  {
+   "from": "claim:KH013",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:vorinclex"
+  },
+  {
+   "from": "claim:KH014",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:koma"
+  },
+  {
+   "from": "claim:KH014",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "faction:skoti"
   },
   {
    "from": "claim:KLD001",
@@ -17559,6 +18293,138 @@
    "to": "faction:capenna_demon_lords"
   },
   {
+   "from": "claim:SX001",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:oriq"
+  },
+  {
+   "from": "claim:SX001",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:extus"
+  },
+  {
+   "from": "claim:SX002",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:blood_avatar"
+  },
+  {
+   "from": "claim:SX002",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:extus"
+  },
+  {
+   "from": "claim:SX003",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:extus"
+  },
+  {
+   "from": "claim:SX003",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:blood_avatar"
+  },
+  {
+   "from": "claim:SX004",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:blood_avatar"
+  },
+  {
+   "from": "claim:SX004",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:will_kenrith"
+  },
+  {
+   "from": "claim:SX005",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:blood_avatar"
+  },
+  {
+   "from": "claim:SX005",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:rowan_kenrith"
+  },
+  {
+   "from": "claim:SX006",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:rowan_kenrith"
+  },
+  {
+   "from": "claim:SX006",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:will_kenrith"
+  },
+  {
+   "from": "claim:SX007",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:professor_onyx"
+  },
+  {
+   "from": "claim:SX007",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:liliana_vess"
+  },
+  {
+   "from": "claim:SX008",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:oriq"
+  },
+  {
+   "from": "claim:SX008",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:lukka"
+  },
+  {
+   "from": "claim:SX009",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:mila"
+  },
+  {
+   "from": "claim:SX009",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:lukka"
+  },
+  {
+   "from": "claim:SX010",
+   "relation": "asserts",
+   "role": "object",
+   "to": "place:strixhaven"
+  },
+  {
+   "from": "claim:SX010",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "faction:strixhaven_founder_dragons"
+  },
+  {
+   "from": "claim:SX011",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:liliana_vess"
+  },
+  {
+   "from": "claim:SX011",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:beledros_witherbloom"
+  },
+  {
    "from": "claim:U001",
    "relation": "asserts",
    "role": "object",
@@ -19137,6 +20003,31 @@
    "to": "claim:AKH006"
   },
   {
+   "from": "source:iko_guide",
+   "relation": "cited_by",
+   "to": "claim:IK001"
+  },
+  {
+   "from": "source:iko_guide",
+   "relation": "cited_by",
+   "to": "claim:IK002"
+  },
+  {
+   "from": "source:iko_guide",
+   "relation": "cited_by",
+   "to": "claim:IK003"
+  },
+  {
+   "from": "source:iko_guide",
+   "relation": "cited_by",
+   "to": "claim:IK004"
+  },
+  {
+   "from": "source:iko_guide",
+   "relation": "cited_by",
+   "to": "claim:IK005"
+  },
+  {
    "from": "source:journey_nexus",
    "printing": "eb6be7ab-8fad-4606-b623-f2188219d60b",
    "relation": "exact_art_published_in_story",
@@ -19147,6 +20038,96 @@
    "from": "source:journey_nexus",
    "relation": "cited_by",
    "to": "claim:A032"
+  },
+  {
+   "from": "source:khm_ep3",
+   "relation": "cited_by",
+   "to": "claim:KH001"
+  },
+  {
+   "from": "source:khm_ep3",
+   "relation": "cited_by",
+   "to": "claim:KH003"
+  },
+  {
+   "from": "source:khm_ep3",
+   "relation": "cited_by",
+   "to": "claim:KH008"
+  },
+  {
+   "from": "source:khm_ep3",
+   "relation": "cited_by",
+   "to": "claim:KH014"
+  },
+  {
+   "from": "source:khm_ep4",
+   "relation": "cited_by",
+   "to": "claim:KH004"
+  },
+  {
+   "from": "source:khm_ep4",
+   "relation": "cited_by",
+   "to": "claim:KH005"
+  },
+  {
+   "from": "source:khm_ep5",
+   "relation": "cited_by",
+   "to": "claim:KH013"
+  },
+  {
+   "from": "source:khm_guide1",
+   "relation": "cited_by",
+   "to": "claim:KH010"
+  },
+  {
+   "from": "source:khm_guide1",
+   "relation": "cited_by",
+   "to": "claim:KH011"
+  },
+  {
+   "from": "source:khm_guide1",
+   "relation": "cited_by",
+   "to": "claim:KH014"
+  },
+  {
+   "from": "source:khm_guide2",
+   "relation": "cited_by",
+   "to": "claim:KH007"
+  },
+  {
+   "from": "source:khm_guide2",
+   "relation": "cited_by",
+   "to": "claim:KH012"
+  },
+  {
+   "from": "source:khm_legends",
+   "relation": "cited_by",
+   "to": "claim:KH001"
+  },
+  {
+   "from": "source:khm_legends",
+   "relation": "cited_by",
+   "to": "claim:KH002"
+  },
+  {
+   "from": "source:khm_legends",
+   "relation": "cited_by",
+   "to": "claim:KH006"
+  },
+  {
+   "from": "source:khm_legends",
+   "relation": "cited_by",
+   "to": "claim:KH008"
+  },
+  {
+   "from": "source:khm_legends",
+   "relation": "cited_by",
+   "to": "claim:KH009"
+  },
+  {
+   "from": "source:khm_legends",
+   "relation": "cited_by",
+   "to": "claim:KH013"
   },
   {
    "from": "source:kld_bottled",
@@ -20365,6 +21346,76 @@
    "to": "claim:U005"
   },
   {
+   "from": "source:stx_ep1",
+   "relation": "cited_by",
+   "to": "claim:SX006"
+  },
+  {
+   "from": "source:stx_ep1",
+   "relation": "cited_by",
+   "to": "claim:SX007"
+  },
+  {
+   "from": "source:stx_ep2",
+   "relation": "cited_by",
+   "to": "claim:SX008"
+  },
+  {
+   "from": "source:stx_ep2",
+   "relation": "cited_by",
+   "to": "claim:SX011"
+  },
+  {
+   "from": "source:stx_ep4",
+   "relation": "cited_by",
+   "to": "claim:SX002"
+  },
+  {
+   "from": "source:stx_ep5",
+   "relation": "cited_by",
+   "to": "claim:SX001"
+  },
+  {
+   "from": "source:stx_ep5",
+   "relation": "cited_by",
+   "to": "claim:SX002"
+  },
+  {
+   "from": "source:stx_ep5",
+   "relation": "cited_by",
+   "to": "claim:SX003"
+  },
+  {
+   "from": "source:stx_ep5",
+   "relation": "cited_by",
+   "to": "claim:SX004"
+  },
+  {
+   "from": "source:stx_ep5",
+   "relation": "cited_by",
+   "to": "claim:SX005"
+  },
+  {
+   "from": "source:stx_ep5",
+   "relation": "cited_by",
+   "to": "claim:SX007"
+  },
+  {
+   "from": "source:stx_ep5",
+   "relation": "cited_by",
+   "to": "claim:SX008"
+  },
+  {
+   "from": "source:stx_ep5",
+   "relation": "cited_by",
+   "to": "claim:SX009"
+  },
+  {
+   "from": "source:stx_guide",
+   "relation": "cited_by",
+   "to": "claim:SX010"
+  },
+  {
    "from": "source:tarkir_plane",
    "relation": "cited_by",
    "to": "claim:A006"
@@ -20811,6 +21862,27 @@
     "file": "data/lore_research/pack_p5_aetherdrift_2026-10-30.json",
     "sha256": "94820864eca754ef0b6c13df44dd2a36465120049fcfd664ebeada86134ce0a1",
     "sources": 6
+   },
+   {
+    "claims": 14,
+    "entities": 21,
+    "file": "data/lore_research/pack_p5_kaldheim_2026-10-30.json",
+    "sha256": "c959321ed544934b00f950d0b167ac4b92571f400d2ce68a4f34d2486c444b9f",
+    "sources": 6
+   },
+   {
+    "claims": 11,
+    "entities": 12,
+    "file": "data/lore_research/pack_p5_strixhaven_2026-10-30.json",
+    "sha256": "945ca88d6ed2ff62d8cec10f2a7ed30c95d280a822819a86e60dca933799fc71",
+    "sources": 5
+   },
+   {
+    "claims": 5,
+    "entities": 9,
+    "file": "data/lore_research/pack_p5_ikoria_2026-10-30.json",
+    "sha256": "c5a9f4de76ee2955361b8e71c4c1b026505cafa64f759c5032fe77e71c257e57",
+    "sources": 1
    }
   ],
   "deck_evidence": [
@@ -20832,9 +21904,9 @@
   ],
   "name_anchor_packs": [
    {
-    "anchors": 376,
+    "anchors": 395,
     "file": "data/lore_research/card_name_anchors_2026-10-30.json",
-    "sha256": "64ad13dff59a8b5e8fcf4a66568c8a4f83734e10e2fea546b0153b59413d797b"
+    "sha256": "21996c1380439d0e056a9e8d4660cde9aafc5320746d03861f3f3bde6f775d32"
    }
   ],
   "story_caption_packs": [
@@ -20900,6 +21972,14 @@
    "name": "The Chain Veil",
    "origins": [
     "pack_c2_return_to_dominaria_2026-10-30.json"
+   ],
+   "type": "Object"
+  },
+  {
+   "id": "artifact:cosmos_elixir",
+   "name": "Cosmos Elixir",
+   "origins": [
+    "pack_p5_kaldheim_2026-10-30.json"
    ],
    "type": "Object"
   },
@@ -21038,6 +22118,14 @@
    "name": "Sungold Lock",
    "origins": [
     "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json"
+   ],
+   "type": "Object"
+  },
+  {
+   "id": "artifact:sword_of_the_realms",
+   "name": "Sword of the Realms",
+   "origins": [
+    "pack_p5_kaldheim_2026-10-30.json"
    ],
    "type": "Object"
   },
@@ -21357,6 +22445,15 @@
    "id": "card:alquist_proft_master_sleuth",
    "name": "Alquist Proft, Master Sleuth",
    "oracle_id": "dd79a994-7dad-49d4-8d8f-62dbedde4a38",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:alrund_god_of_the_cosmos_hakka_whispering_raven",
+   "name": "Alrund, God of the Cosmos // Hakka, Whispering Raven",
+   "oracle_id": "0a69c3dd-52a3-4ef6-b53f-b0780e0dc5f8",
    "origins": [
     "card_name_anchors_2026-10-30.json"
    ],
@@ -21732,6 +22829,15 @@
    "type": "Card"
   },
   {
+   "id": "card:beledros_witherbloom",
+   "name": "Beledros Witherbloom",
+   "oracle_id": "90194ff1-db61-463f-b5a3-15cd85311d0e",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:bitter_revelation",
    "name": "Bitter Revelation",
    "oracle_id": "f3e025ce-6114-42d0-842f-73366c853657",
@@ -22093,6 +23199,15 @@
    "oracle_id": "14d71432-c2e6-4c81-92ef-cf98e1fcf5f8",
    "origins": [
     "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:cosmos_elixir",
+   "name": "Cosmos Elixir",
+   "oracle_id": "ed7300f4-831a-4ba4-b5e6-ceba8d079eaa",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -22723,6 +23838,15 @@
    "type": "Card"
   },
   {
+   "id": "card:esika_god_of_the_tree_the_prismatic_bridge",
+   "name": "Esika, God of the Tree // The Prismatic Bridge",
+   "oracle_id": "92023a5d-a143-4950-a71b-d736e6b8e959",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:essence_scatter",
    "name": "Essence Scatter",
    "oracle_id": "46665089-aa3d-44c3-964d-6638dfbb5782",
@@ -22783,6 +23907,15 @@
    "oracle_id": "e83c617f-1e07-40db-9b12-ae01122a3e24",
    "origins": [
     "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:extus_oriq_overlord_awaken_the_blood_avatar",
+   "name": "Extus, Oriq Overlord // Awaken the Blood Avatar",
+   "oracle_id": "0b299983-9f0f-404a-acd1-8f142572b1f1",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -23789,6 +24922,15 @@
    "type": "Card"
   },
   {
+   "id": "card:kardur_doomscourge",
+   "name": "Kardur, Doomscourge",
+   "oracle_id": "bc14356c-3a1a-47af-9a6e-2b449de0331f",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:kari_zev_s_expertise",
    "name": "Kari Zev's Expertise",
    "oracle_id": "e0de0121-6185-45c5-9d88-a415b07347e0",
@@ -24048,6 +25190,33 @@
    "oracle_id": "1593ea18-2f2f-4ab4-83fb-6ccc0bec8a90",
    "origins": [
     "original_primeval_dragons_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:koll_the_forgemaster",
+   "name": "Koll, the Forgemaster",
+   "oracle_id": "344dc8b0-302a-4721-99b6-5a6626a349c1",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:koma_cosmos_serpent",
+   "name": "Koma, Cosmos Serpent",
+   "oracle_id": "6ba0656f-e0d2-4735-9c66-3a00afa9fc23",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:koma_world_eater",
+   "name": "Koma, World-Eater",
+   "oracle_id": "1ebf2142-f171-40cd-8143-15f50084b707",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -24522,6 +25691,15 @@
    "oracle_id": "c4920e95-a6fc-4373-a0d6-244f51851364",
    "origins": [
     "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:mila_crafty_companion_lukka_wayward_bonder",
+   "name": "Mila, Crafty Companion // Lukka, Wayward Bonder",
+   "oracle_id": "ee524e82-35c4-4cae-b65e-3e147eac2927",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -25386,6 +26564,15 @@
    "type": "Card"
   },
   {
+   "id": "card:professor_onyx",
+   "name": "Professor Onyx",
+   "oracle_id": "9df2e909-ed13-456a-9636-7398732009a9",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:prossh_skyraider_of_kher",
    "name": "Prossh, Skyraider of Kher",
    "oracle_id": "868882d2-ed4e-4171-a17c-478a341080fb",
@@ -26120,6 +27307,15 @@
    "origins": [
     "card_name_anchors_2026-10-30.json",
     "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:snapdax_apex_of_the_hunt",
+   "name": "Snapdax, Apex of the Hunt",
+   "oracle_id": "b2b78623-5a10-4ef7-b983-3d82478269c3",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -27008,6 +28204,15 @@
    "type": "Card"
   },
   {
+   "id": "card:toralf_god_of_fury_toralf_s_hammer",
+   "name": "Toralf, God of Fury // Toralf's Hammer",
+   "oracle_id": "fffcb71f-e802-436e-917d-eaa6607ab74f",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:torment_of_hailfire",
    "name": "Torment of Hailfire",
    "oracle_id": "30a0a6c2-1fbb-4784-ab96-22611d57e62c",
@@ -27352,6 +28557,15 @@
    "type": "Card"
   },
   {
+   "id": "card:vadrok_apex_of_thunder",
+   "name": "Vadrok, Apex of Thunder",
+   "oracle_id": "775c41fa-2316-43c9-af34-ac9c9b0db7e2",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:vaevictis_asmadi",
    "name": "Vaevictis Asmadi",
    "oracle_id": "4d2cc2a8-e08a-420a-8922-c63e39129e23",
@@ -27395,6 +28609,24 @@
    "id": "card:valgavoth_terror_eater",
    "name": "Valgavoth, Terror Eater",
    "oracle_id": "cae3ec72-436d-4086-9dcb-17b3d92ad5c4",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:valki_god_of_lies_tibalt_cosmic_impostor",
+   "name": "Valki, God of Lies // Tibalt, Cosmic Impostor",
+   "oracle_id": "907ae517-22d5-4ac7-bc3a-3f4d5eaeeb57",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:varragoth_bloodsky_sire",
+   "name": "Varragoth, Bloodsky Sire",
+   "oracle_id": "68b41a04-8cb0-4edf-b488-a219494453ae",
    "origins": [
     "card_name_anchors_2026-10-30.json"
    ],
@@ -27514,6 +28746,33 @@
    "oracle_id": "da522912-1bc2-4d70-b426-94d10edb2afe",
    "origins": [
     "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:vorinclex_monstrous_raider",
+   "name": "Vorinclex, Monstrous Raider",
+   "oracle_id": "5a3fdf5a-bff8-4896-b288-3f43f9a72d9b",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:vorinclex_the_grand_evolution",
+   "name": "Vorinclex // The Grand Evolution",
+   "oracle_id": "166e5680-b8cf-47da-bcae-3591367c5fb4",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:vorinclex_voice_of_hunger",
+   "name": "Vorinclex, Voice of Hunger",
+   "oracle_id": "dbf0ad03-ab31-49d2-89b1-05b45948a61f",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -28028,6 +29287,14 @@
    "type": "Character"
   },
   {
+   "id": "character:alrund",
+   "name": "Alrund",
+   "origins": [
+    "pack_p5_kaldheim_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
    "id": "character:amalia",
    "name": "Amalia",
    "origins": [
@@ -28133,6 +29400,14 @@
    "type": "Character"
   },
   {
+   "id": "character:beledros_witherbloom",
+   "name": "Beledros Witherbloom",
+   "origins": [
+    "pack_p5_strixhaven_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
    "id": "character:belzenlok",
    "name": "Belzenlok",
    "origins": [
@@ -28145,6 +29420,14 @@
    "name": "Bertram Graywater",
    "origins": [
     "pack_p5_outlaws_of_thunder_junction_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:blood_avatar",
+   "name": "Blood Avatar",
+   "origins": [
+    "pack_p5_strixhaven_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -28282,10 +29565,26 @@
    "type": "Character"
   },
   {
+   "id": "character:esika",
+   "name": "Esika",
+   "origins": [
+    "pack_p5_kaldheim_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
    "id": "character:etrata",
    "name": "Etrata",
    "origins": [
     "pack_p5_murders_at_karlov_manor_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:extus",
+   "name": "Extus",
+   "origins": [
+    "pack_p5_strixhaven_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -28405,6 +29704,14 @@
    "type": "Character"
   },
   {
+   "id": "character:hurrik",
+   "name": "Hurrik",
+   "origins": [
+    "pack_p5_kaldheim_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
    "id": "character:hylda",
    "name": "Hylda",
    "origins": [
@@ -28497,6 +29804,14 @@
    "type": "Character"
   },
   {
+   "id": "character:kardur",
+   "name": "Kardur",
+   "origins": [
+    "pack_p5_kaldheim_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
    "id": "character:kari_zev",
    "name": "Kari Zev",
    "origins": [
@@ -28529,6 +29844,7 @@
    "name": "Kaya",
    "origins": [
     "pack_c3_assault_on_new_phyrexia_2026-10-30.json",
+    "pack_p5_kaldheim_2026-10-30.json",
     "pack_p5_murders_at_karlov_manor_2026-10-30.json"
    ],
    "type": "Character"
@@ -28573,6 +29889,22 @@
    "name": "Kiran Nalaar",
    "origins": [
     "pack_p5_kaladesh_aether_revolt_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:koll",
+   "name": "Koll",
+   "origins": [
+    "pack_p5_kaldheim_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:koma",
+   "name": "Koma",
+   "origins": [
+    "pack_p5_kaldheim_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -28641,7 +29973,8 @@
     "pack_c4_march_of_the_machine_2026-10-30.json",
     "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json",
     "pack_p5_kaladesh_aether_revolt_2026-10-30.json",
-    "pack_p5_reality_fracture_2026-10-30.json"
+    "pack_p5_reality_fracture_2026-10-30.json",
+    "pack_p5_strixhaven_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -28665,7 +29998,8 @@
    "id": "character:lukka",
    "name": "Lukka",
    "origins": [
-    "pack_c4_march_of_the_machine_2026-10-30.json"
+    "pack_c4_march_of_the_machine_2026-10-30.json",
+    "pack_p5_strixhaven_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -28735,6 +30069,14 @@
    "type": "Character"
   },
   {
+   "id": "character:mila",
+   "name": "Mila",
+   "origins": [
+    "pack_p5_strixhaven_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
    "id": "character:mishra",
    "name": "Mishra",
    "origins": [
@@ -28774,7 +30116,8 @@
    "name": "Narset",
    "origins": [
     "pack_a5_ugin_allies_2026-10-30.json",
-    "pack_a_ugin_bolas_evidence_2026-10-30.json"
+    "pack_a_ugin_bolas_evidence_2026-10-30.json",
+    "pack_p5_ikoria_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -28922,6 +30265,14 @@
    "type": "Character"
   },
   {
+   "id": "character:professor_onyx",
+   "name": "Professor Onyx",
+   "origins": [
+    "pack_p5_strixhaven_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
    "id": "character:radha",
    "name": "Radha",
    "origins": [
@@ -28992,6 +30343,7 @@
    "id": "character:rowan_kenrith",
    "name": "Rowan Kenrith",
    "origins": [
+    "pack_p5_strixhaven_2026-10-30.json",
     "pack_p5_wilds_of_eldraine_2026-10-30.json"
    ],
    "type": "Character"
@@ -29063,6 +30415,14 @@
    "name": "Slimefoot",
    "origins": [
     "pack_c2_return_to_dominaria_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:snapdax",
+   "name": "Snapdax",
+   "origins": [
+    "pack_p5_ikoria_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -29186,7 +30546,8 @@
    "id": "character:tibalt",
    "name": "Tibalt",
    "origins": [
-    "pack_c3_assault_on_new_phyrexia_2026-10-30.json"
+    "pack_c3_assault_on_new_phyrexia_2026-10-30.json",
+    "pack_p5_kaldheim_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -29195,6 +30556,14 @@
    "name": "Tomik Vrona",
    "origins": [
     "pack_p5_bloomburrow_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:toralf",
+   "name": "Toralf",
+   "origins": [
+    "pack_p5_kaldheim_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -29219,7 +30588,8 @@
    "name": "Tyvar Kell",
    "origins": [
     "pack_c3_assault_on_new_phyrexia_2026-10-30.json",
-    "pack_p5_duskmourn_2026-10-30.json"
+    "pack_p5_duskmourn_2026-10-30.json",
+    "pack_p5_kaldheim_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -29244,6 +30614,14 @@
    "type": "Character"
   },
   {
+   "id": "character:vadrok",
+   "name": "Vadrok",
+   "origins": [
+    "pack_p5_ikoria_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
    "id": "character:vaevictis_asmadi",
    "name": "Vaevictis Asmadi",
    "origins": [
@@ -29257,6 +30635,22 @@
    "origins": [
     "pack_p5_aetherdrift_2026-10-30.json",
     "pack_p5_duskmourn_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:valki",
+   "name": "Valki",
+   "origins": [
+    "pack_p5_kaldheim_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:varragoth",
+   "name": "Varragoth",
+   "origins": [
+    "pack_p5_kaldheim_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -29280,6 +30674,7 @@
    "id": "character:vivien_reid",
    "name": "Vivien Reid",
    "origins": [
+    "pack_p5_ikoria_2026-10-30.json",
     "pack_p5_streets_of_new_capenna_2026-10-30.json"
    ],
    "type": "Character"
@@ -29289,6 +30684,14 @@
    "name": "Syr Vondam",
    "origins": [
     "pack_p5_edge_of_eternities_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:vorinclex",
+   "name": "Vorinclex",
+   "origins": [
+    "pack_p5_kaldheim_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -29308,6 +30711,7 @@
    "id": "character:will_kenrith",
    "name": "Will Kenrith",
    "origins": [
+    "pack_p5_strixhaven_2026-10-30.json",
     "pack_p5_wilds_of_eldraine_2026-10-30.json"
    ],
    "type": "Character"
@@ -31268,6 +32672,226 @@
    ],
    "predicate": "seized_control_of",
    "stage": "eoe_taro_duend_2025",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:IK001",
+   "limitation": "Vivien is the author-narrator, so this is her own account.",
+   "name": "Vivien Reid travelled Ikoria and wrote the guide.",
+   "origins": [
+    "pack_p5_ikoria_2026-10-30.json"
+   ],
+   "predicate": "visited",
+   "stage": "ikoria_iko_2020",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:IK002",
+   "limitation": "The guide is Vivien Reid's first-person travel account; legends she reports are attributed to Rielle.",
+   "name": "Vivien says Narset travelled to Ikoria and explained the triomes to her.",
+   "origins": [
+    "pack_p5_ikoria_2026-10-30.json"
+   ],
+   "predicate": "visited",
+   "stage": "ikoria_iko_2020",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:IK003",
+   "limitation": "Strictly, the skies of Raugrin.",
+   "name": "The apex monster Vadrok rules the skies of Raugrin.",
+   "origins": [
+    "pack_p5_ikoria_2026-10-30.json"
+   ],
+   "predicate": "controls",
+   "stage": "ikoria_iko_2020",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:IK004",
+   "limitation": "The guide is Vivien Reid's first-person travel account; legends she reports are attributed to Rielle. This is a legend.",
+   "name": "In an ancient tale, Snapdax destroyed the early human settlements of Savai.",
+   "origins": [
+    "pack_p5_ikoria_2026-10-30.json"
+   ],
+   "predicate": "destroyed",
+   "stage": "ikoria_iko_2020",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:IK005",
+   "name": "The Coppercoats, Drannith's Defense Force, protect the city from monsters.",
+   "origins": [
+    "pack_p5_ikoria_2026-10-30.json"
+   ],
+   "predicate": "guardian_of",
+   "stage": "ikoria_iko_2020",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:KH001",
+   "name": "Tibalt imprisoned the real Valki on Karfell and took his place.",
+   "origins": [
+    "pack_p5_kaldheim_2026-10-30.json"
+   ],
+   "predicate": "imprisoned",
+   "stage": "kaldheim_khm_2021",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:KH002",
+   "name": "Tibalt uses Valki's identity as a disguise.",
+   "origins": [
+    "pack_p5_kaldheim_2026-10-30.json"
+   ],
+   "predicate": "impersonated",
+   "stage": "kaldheim_khm_2021",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:KH003",
+   "limitation": "Episode 3 is narrated by Tibalt himself, who is unreliable; not independently confirmed in narration.",
+   "name": "Tibalt used the Sword of the Realms to unleash Koma on the Valkyries.",
+   "origins": [
+    "pack_p5_kaldheim_2026-10-30.json"
+   ],
+   "predicate": "freed",
+   "stage": "kaldheim_khm_2021",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:KH004",
+   "limitation": "Tibalt is beaten in this fight, not killed.",
+   "name": "Tyvar disarmed and overpowered Tibalt in Immersturm.",
+   "origins": [
+    "pack_p5_kaldheim_2026-10-30.json"
+   ],
+   "predicate": "defeated",
+   "stage": "khm_immersturm_2021",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:KH005",
+   "name": "Kaya pursued Tibalt in Immersturm.",
+   "origins": [
+    "pack_p5_kaldheim_2026-10-30.json"
+   ],
+   "predicate": "sought",
+   "stage": "khm_immersturm_2021",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:KH006",
+   "name": "The other demon jarls sealed Kardur deep underground.",
+   "origins": [
+    "pack_p5_kaldheim_2026-10-30.json"
+   ],
+   "predicate": "imprisoned",
+   "stage": "kaldheim_khm_2021",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:KH007",
+   "limitation": "Strictly, the leaders of the Einir.",
+   "name": "Alrund imprisoned the seven surviving Einir leaders inside the Jaspera trees.",
+   "origins": [
+    "pack_p5_kaldheim_2026-10-30.json"
+   ],
+   "predicate": "imprisoned",
+   "stage": "kaldheim_khm_2021",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:KH008",
+   "limitation": "Legends gives only Koll's oath; the forging is in Tibalt's narration (episode 3) and in dialogue (episode 5).",
+   "name": "Koll forged the realm-opening Tyrite sword.",
+   "origins": [
+    "pack_p5_kaldheim_2026-10-30.json"
+   ],
+   "predicate": "created",
+   "stage": "kaldheim_khm_2021",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:KH009",
+   "name": "Esika makes the Cosmos Elixir that the gods drink.",
+   "origins": [
+    "pack_p5_kaldheim_2026-10-30.json"
+   ],
+   "predicate": "created",
+   "stage": "kaldheim_khm_2021",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:KH010",
+   "limitation": "Told as a clan legend inside the guide.",
+   "name": "Hurrik saved Alrund from a Cosmos wolf.",
+   "origins": [
+    "pack_p5_kaldheim_2026-10-30.json"
+   ],
+   "predicate": "rescued",
+   "stage": "kaldheim_khm_2021",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:KH011",
+   "name": "Varragoth became the leader of the Skelle raiders.",
+   "origins": [
+    "pack_p5_kaldheim_2026-10-30.json"
+   ],
+   "predicate": "led",
+   "stage": "kaldheim_khm_2021",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:KH012",
+   "name": "Toralf and Valki are brothers.",
+   "origins": [
+    "pack_p5_kaldheim_2026-10-30.json"
+   ],
+   "predicate": "sibling_of",
+   "stage": "kaldheim_khm_2021",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:KH013",
+   "limitation": "Who greets him is not named here.",
+   "name": "Vorinclex of New Phyrexia came to Kaldheim, and in the epilogue a portal welcomes him back.",
+   "origins": [
+    "pack_p5_kaldheim_2026-10-30.json"
+   ],
+   "predicate": "arrived_on",
+   "stage": "khm_epilogue_2021",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:KH014",
+   "limitation": "The guide does not name who banished him; the Skoti come from Tibalt's narration in episode 3.",
+   "name": "The Skoti banished Koma to the Cosmos.",
+   "origins": [
+    "pack_p5_kaldheim_2026-10-30.json"
+   ],
+   "predicate": "imprisoned",
+   "stage": "kaldheim_khm_2021",
    "type": "Claim"
   },
   {
@@ -33302,6 +34926,131 @@
    "type": "Claim"
   },
   {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:SX001",
+   "limitation": "Two adjacent narration sentences: the second calls the man the first names the leader of the Oriq.",
+   "name": "Extus is the leader of the Oriq.",
+   "origins": [
+    "pack_p5_strixhaven_2026-10-30.json"
+   ],
+   "predicate": "led",
+   "stage": "strixhaven_stx_2021",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:SX002",
+   "name": "Extus summoned the Blood Avatar from the Snarl under the Biblioplex.",
+   "origins": [
+    "pack_p5_strixhaven_2026-10-30.json"
+   ],
+   "predicate": "summoned",
+   "stage": "stx_final_exam_2021",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:SX003",
+   "limitation": "The text implies Extus died but does not say so outright.",
+   "name": "The Blood Avatar crushed Extus.",
+   "origins": [
+    "pack_p5_strixhaven_2026-10-30.json"
+   ],
+   "predicate": "killed",
+   "stage": "stx_final_exam_2021",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:SX004",
+   "limitation": "Rowan shared the fight; see SX005.",
+   "name": "Will and Rowan fought Extus and drove the Blood Avatar back into the Snarl.",
+   "origins": [
+    "pack_p5_strixhaven_2026-10-30.json"
+   ],
+   "predicate": "defeated",
+   "stage": "stx_final_exam_2021",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:SX005",
+   "name": "Rowan fought the Blood Avatar alongside Will.",
+   "origins": [
+    "pack_p5_strixhaven_2026-10-30.json"
+   ],
+   "predicate": "defeated",
+   "stage": "stx_final_exam_2021",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:SX006",
+   "name": "Will and Rowan Kenrith are siblings (twins).",
+   "origins": [
+    "pack_p5_strixhaven_2026-10-30.json"
+   ],
+   "predicate": "sibling_of",
+   "stage": "strixhaven_stx_2021",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:SX007",
+   "name": "Liliana taught at Strixhaven as Professor Onyx, and at the end she gives her real name.",
+   "origins": [
+    "pack_p5_strixhaven_2026-10-30.json"
+   ],
+   "predicate": "identified_with",
+   "stage": "strixhaven_stx_2021",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:SX008",
+   "limitation": "Inferred from Lukka's point of view and his association with the Oriq; the text never says he was formally a member.",
+   "name": "Lukka worked for Extus and later wandered with the remaining Oriq.",
+   "origins": [
+    "pack_p5_strixhaven_2026-10-30.json"
+   ],
+   "predicate": "joined",
+   "stage": "strixhaven_stx_2021",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:SX009",
+   "name": "Lukka and his bonded companion Mila fled together.",
+   "origins": [
+    "pack_p5_strixhaven_2026-10-30.json"
+   ],
+   "predicate": "allied_with",
+   "stage": "strixhaven_stx_2021",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:SX010",
+   "name": "Five spellcasting dragons founded Strixhaven about 700 years ago.",
+   "origins": [
+    "pack_p5_strixhaven_2026-10-30.json"
+   ],
+   "predicate": "created",
+   "stage": "strixhaven_stx_2021",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:SX011",
+   "name": "Beledros Witherbloom refused to help Liliana.",
+   "origins": [
+    "pack_p5_strixhaven_2026-10-30.json"
+   ],
+   "predicate": "refused",
+   "stage": "strixhaven_stx_2021",
+   "type": "Claim"
+  },
+  {
    "continuity": "main",
    "grade": "CANON_CONFIRMED",
    "id": "claim:U001",
@@ -34281,6 +36030,14 @@
    "type": "Concept"
   },
   {
+   "id": "curated:Characters Index.md#vorinclex",
+   "name": "Characters Index.md#vorinclex",
+   "origins": [
+    "lore_graph.json"
+   ],
+   "type": "Concept"
+  },
+  {
    "id": "curated:Characters Index.md#vraska",
    "name": "Characters Index.md#vraska",
    "origins": [
@@ -34936,10 +36693,34 @@
    "type": "Faction"
   },
   {
+   "id": "faction:coppercoats",
+   "name": "Drannith Defense Force (Coppercoats)",
+   "origins": [
+    "pack_p5_ikoria_2026-10-30.json"
+   ],
+   "type": "Faction"
+  },
+  {
    "id": "faction:dawnhart_coven",
    "name": "Dawnhart Coven",
    "origins": [
     "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json"
+   ],
+   "type": "Faction"
+  },
+  {
+   "id": "faction:demon_jarls",
+   "name": "Demon jarls of Immersturm",
+   "origins": [
+    "pack_p5_kaldheim_2026-10-30.json"
+   ],
+   "type": "Faction"
+  },
+  {
+   "id": "faction:einir",
+   "name": "The Einir",
+   "origins": [
+    "pack_p5_kaldheim_2026-10-30.json"
    ],
    "type": "Faction"
   },
@@ -35043,6 +36824,14 @@
    "type": "Faction"
   },
   {
+   "id": "faction:oriq",
+   "name": "The Oriq",
+   "origins": [
+    "pack_p5_strixhaven_2026-10-30.json"
+   ],
+   "type": "Faction"
+  },
+  {
    "id": "faction:orzhov_syndicate",
    "name": "Orzhov Syndicate",
    "origins": [
@@ -35084,6 +36873,30 @@
    "type": "Faction"
   },
   {
+   "id": "faction:skelle_clan",
+   "name": "Skelle clan",
+   "origins": [
+    "pack_p5_kaldheim_2026-10-30.json"
+   ],
+   "type": "Faction"
+  },
+  {
+   "id": "faction:skoti",
+   "name": "The Skoti",
+   "origins": [
+    "pack_p5_kaldheim_2026-10-30.json"
+   ],
+   "type": "Faction"
+  },
+  {
+   "id": "faction:strixhaven_founder_dragons",
+   "name": "Strixhaven's five founding dragons",
+   "origins": [
+    "pack_p5_strixhaven_2026-10-30.json"
+   ],
+   "type": "Faction"
+  },
+  {
    "id": "faction:sun_empire",
    "name": "Sun Empire",
    "origins": [
@@ -35096,6 +36909,14 @@
    "name": "Sunstar Free Company",
    "origins": [
     "pack_p5_edge_of_eternities_2026-10-30.json"
+   ],
+   "type": "Faction"
+  },
+  {
+   "id": "faction:valkyries_of_starnheim",
+   "name": "Valkyries of Starnheim",
+   "origins": [
+    "pack_p5_kaldheim_2026-10-30.json"
    ],
    "type": "Faction"
   },
@@ -35253,6 +37074,14 @@
    "type": "Place"
   },
   {
+   "id": "place:drannith",
+   "name": "Drannith",
+   "origins": [
+    "pack_p5_ikoria_2026-10-30.json"
+   ],
+   "type": "Place"
+  },
+  {
    "id": "place:eye_of_ugin",
    "name": "Eye of Ugin",
    "origins": [
@@ -35309,6 +37138,22 @@
    "type": "Place"
   },
   {
+   "id": "place:raugrin",
+   "name": "Raugrin",
+   "origins": [
+    "pack_p5_ikoria_2026-10-30.json"
+   ],
+   "type": "Place"
+  },
+  {
+   "id": "place:savai_settlements",
+   "name": "Early human settlements of Savai",
+   "origins": [
+    "pack_p5_ikoria_2026-10-30.json"
+   ],
+   "type": "Place"
+  },
+  {
    "id": "place:seedcore",
    "name": "The Seedcore (New Phyrexia)",
    "origins": [
@@ -35353,7 +37198,8 @@
    "name": "Strixhaven",
    "origins": [
     "pack_p5_duskmourn_2026-10-30.json",
-    "pack_p5_reality_fracture_2026-10-30.json"
+    "pack_p5_reality_fracture_2026-10-30.json",
+    "pack_p5_strixhaven_2026-10-30.json"
    ],
    "type": "Place"
   },
@@ -35438,7 +37284,8 @@
    "id": "plane:ikoria",
    "name": "Ikoria",
    "origins": [
-    "pack_c4_march_of_the_machine_2026-10-30.json"
+    "pack_c4_march_of_the_machine_2026-10-30.json",
+    "pack_p5_ikoria_2026-10-30.json"
    ],
    "type": "Plane"
   },
@@ -35472,7 +37319,8 @@
    "id": "plane:kaldheim",
    "name": "Kaldheim",
    "origins": [
-    "pack_p5_duskmourn_2026-10-30.json"
+    "pack_p5_duskmourn_2026-10-30.json",
+    "pack_p5_kaldheim_2026-10-30.json"
    ],
    "type": "Plane"
   },
@@ -36249,6 +38097,17 @@
    "url": "https://magic.wizards.com/en/news/magic-story/feast-2017-06-14"
   },
   {
+   "id": "source:iko_guide",
+   "kind": "official_planeswalkers_guide",
+   "name": "Planeswalker's Guide to Ikoria",
+   "origins": [
+    "pack_p5_ikoria_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-ikoria-2020-04-02"
+  },
+  {
    "id": "source:journey_nexus",
    "name": "Journey to the Nexus",
    "origins": [
@@ -36257,6 +38116,72 @@
    "source_class": "WIZARDS_OFFICIAL",
    "type": "Source",
    "url": "https://magic.wizards.com/en/news/feature/journey-nexus-2014-12-10"
+  },
+  {
+   "id": "source:khm_ep3",
+   "kind": "official_story_episode",
+   "name": "Episode 3: The Saga of Tibalt",
+   "origins": [
+    "pack_p5_kaldheim_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/episode-3-saga-tibalt-2021-01-20"
+  },
+  {
+   "id": "source:khm_ep4",
+   "kind": "official_story_episode",
+   "name": "Episode 4: Into the Demons' Realm",
+   "origins": [
+    "pack_p5_kaldheim_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/episode-4-demons-realm-2021-01-27"
+  },
+  {
+   "id": "source:khm_ep5",
+   "kind": "official_story_episode",
+   "name": "Episode 5: The Battle for Kaldheim",
+   "origins": [
+    "pack_p5_kaldheim_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/episode-5-battle-kaldheim-2021-02-03"
+  },
+  {
+   "id": "source:khm_guide1",
+   "kind": "official_planeswalkers_guide",
+   "name": "Planeswalker's Guide to Kaldheim, Part 1",
+   "origins": [
+    "pack_p5_kaldheim_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-kaldheim-part-1-2021-01-08"
+  },
+  {
+   "id": "source:khm_guide2",
+   "kind": "official_planeswalkers_guide",
+   "name": "Planeswalker's Guide to Kaldheim, Part 2",
+   "origins": [
+    "pack_p5_kaldheim_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-kaldheim-part-2-2021-01-14"
+  },
+  {
+   "id": "source:khm_legends",
+   "kind": "official_story_feature",
+   "name": "The Legends of Kaldheim",
+   "origins": [
+    "pack_p5_kaldheim_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/feature/legends-kaldheim-2021-01-21"
   },
   {
    "id": "source:kld_bottled",
@@ -37353,6 +39278,61 @@
    "url": "https://magic.wizards.com/en/news/magic-story/stone-and-blood-2016-06-15"
   },
   {
+   "id": "source:stx_ep1",
+   "kind": "official_story_episode",
+   "name": "Episode 1: Class Is in Session",
+   "origins": [
+    "pack_p5_strixhaven_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/episode-1-class-session-2021-03-25"
+  },
+  {
+   "id": "source:stx_ep2",
+   "kind": "official_story_episode",
+   "name": "Episode 2: Lessons",
+   "origins": [
+    "pack_p5_strixhaven_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/episode-2-lessons-2021-03-31"
+  },
+  {
+   "id": "source:stx_ep4",
+   "kind": "official_story_episode",
+   "name": "Episode 4: Put to the Test",
+   "origins": [
+    "pack_p5_strixhaven_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/episode-4-put-test-2021-04-14"
+  },
+  {
+   "id": "source:stx_ep5",
+   "kind": "official_story_episode",
+   "name": "Episode 5: Final Exam",
+   "origins": [
+    "pack_p5_strixhaven_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/episode-5-final-exam-2021-04-21"
+  },
+  {
+   "id": "source:stx_guide",
+   "kind": "official_planeswalkers_guide",
+   "name": "Planeswalker's Guide to Strixhaven",
+   "origins": [
+    "pack_p5_strixhaven_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-strixhaven-2021-04-01"
+  },
+  {
    "id": "source:tarkir_plane",
    "kind": "Wizards official plane guide",
    "name": "Tarkir plane guide",
@@ -37598,37 +39578,37 @@
  "problems": [],
  "schema": "multiverse-claim-graph/v1",
  "stats": {
-  "claim_edges_with_era": 415,
+  "claim_edges_with_era": 445,
   "claim_edges_with_in_universe_date": 0,
   "claims_by_status": {
    "ALTERNATE_CONTINUITY": 2,
-   "CANON_CONFIRMED": 320,
+   "CANON_CONFIRMED": 343,
    "CANON_DISPUTED": 7,
-   "CANON_IMPLIED": 57,
+   "CANON_IMPLIED": 64,
    "OPEN_QUESTION": 2
   },
-  "curated_bridges": 91,
-  "edges": 2719,
+  "curated_bridges": 92,
+  "edges": 2866,
   "literal_objects": 14,
   "node_types": {
    "AlternateContinuity": 1,
-   "Card": 742,
+   "Card": 761,
    "CardTheme": 1,
-   "Character": 163,
-   "Claim": 388,
-   "Concept": 104,
+   "Character": 180,
+   "Claim": 418,
+   "Concept": 105,
    "DeckProposal": 3,
    "Event": 17,
-   "Faction": 31,
+   "Faction": 39,
    "Literal": 14,
-   "Object": 29,
-   "Place": 22,
+   "Object": 31,
+   "Place": 25,
    "Plane": 22,
-   "Source": 184
+   "Source": 196
   },
-  "nodes": 1721,
+  "nodes": 1813,
   "non_wizards_sources": 0,
-  "relations": 219,
-  "wizards_official_sources": 184
+  "relations": 222,
+  "wizards_official_sources": 196
  }
 }

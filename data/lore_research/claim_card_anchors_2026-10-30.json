@@ -66,6 +66,15 @@
   ],
   "pack_p5_aetherdrift_2026-10-30.json": [
    "dft"
+  ],
+  "pack_p5_kaldheim_2026-10-30.json": [
+   "khm"
+  ],
+  "pack_p5_strixhaven_2026-10-30.json": [
+   "stx"
+  ],
+  "pack_p5_ikoria_2026-10-30.json": [
+   "iko"
   ]
  },
  "rule": "Each claim participant with a card-name anchor contributes its cards. Tier ART_IN_CITED_SOURCE: the card's art is credited by exact name on an official page the claim cites. PRINTED_IN_STORY_SET: a paper printing in the set whose main-story episodes the pack covers. NAMED_PARTICIPANT: otherwise. An anchor never asserts that the card depicts the claimed event and never changes a claim grade.",
@@ -15187,6 +15196,577 @@
    "card": "Chandra Nalaar",
    "oracle_id": "f4da7a43-e9d5-47ea-b2f0-3cf55a156f4a",
    "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "KH001",
+   "pack": "pack_p5_kaldheim_2026-10-30.json",
+   "participant": "tibalt",
+   "card": "Tibalt, Rakish Instigator",
+   "oracle_id": "0b768f8f-2213-45b9-bced-8fb1bbb441c3",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "KH001",
+   "pack": "pack_p5_kaldheim_2026-10-30.json",
+   "participant": "tibalt",
+   "card": "Tibalt, the Fiend-Blooded",
+   "oracle_id": "ee9c57c6-41ef-4328-8417-e5a433eadf17",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "KH001",
+   "pack": "pack_p5_kaldheim_2026-10-30.json",
+   "participant": "valki",
+   "card": "Valki, God of Lies // Tibalt, Cosmic Impostor",
+   "oracle_id": "907ae517-22d5-4ac7-bc3a-3f4d5eaeeb57",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "khm"
+   ]
+  },
+  {
+   "claim": "KH002",
+   "pack": "pack_p5_kaldheim_2026-10-30.json",
+   "participant": "tibalt",
+   "card": "Tibalt, Rakish Instigator",
+   "oracle_id": "0b768f8f-2213-45b9-bced-8fb1bbb441c3",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "KH002",
+   "pack": "pack_p5_kaldheim_2026-10-30.json",
+   "participant": "tibalt",
+   "card": "Tibalt, the Fiend-Blooded",
+   "oracle_id": "ee9c57c6-41ef-4328-8417-e5a433eadf17",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "KH002",
+   "pack": "pack_p5_kaldheim_2026-10-30.json",
+   "participant": "valki",
+   "card": "Valki, God of Lies // Tibalt, Cosmic Impostor",
+   "oracle_id": "907ae517-22d5-4ac7-bc3a-3f4d5eaeeb57",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "khm"
+   ]
+  },
+  {
+   "claim": "KH003",
+   "pack": "pack_p5_kaldheim_2026-10-30.json",
+   "participant": "tibalt",
+   "card": "Tibalt, Rakish Instigator",
+   "oracle_id": "0b768f8f-2213-45b9-bced-8fb1bbb441c3",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "KH003",
+   "pack": "pack_p5_kaldheim_2026-10-30.json",
+   "participant": "tibalt",
+   "card": "Tibalt, the Fiend-Blooded",
+   "oracle_id": "ee9c57c6-41ef-4328-8417-e5a433eadf17",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "KH003",
+   "pack": "pack_p5_kaldheim_2026-10-30.json",
+   "participant": "koma",
+   "card": "Koma, Cosmos Serpent",
+   "oracle_id": "6ba0656f-e0d2-4735-9c66-3a00afa9fc23",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "khm"
+   ]
+  },
+  {
+   "claim": "KH003",
+   "pack": "pack_p5_kaldheim_2026-10-30.json",
+   "participant": "koma",
+   "card": "Koma, World-Eater",
+   "oracle_id": "1ebf2142-f171-40cd-8143-15f50084b707",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "KH004",
+   "pack": "pack_p5_kaldheim_2026-10-30.json",
+   "participant": "tyvar",
+   "card": "Tyvar Kell",
+   "oracle_id": "14c8a590-88ec-4982-ad7b-36a219ff6de7",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "khm"
+   ]
+  },
+  {
+   "claim": "KH004",
+   "pack": "pack_p5_kaldheim_2026-10-30.json",
+   "participant": "tibalt",
+   "card": "Tibalt, Rakish Instigator",
+   "oracle_id": "0b768f8f-2213-45b9-bced-8fb1bbb441c3",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "KH004",
+   "pack": "pack_p5_kaldheim_2026-10-30.json",
+   "participant": "tibalt",
+   "card": "Tibalt, the Fiend-Blooded",
+   "oracle_id": "ee9c57c6-41ef-4328-8417-e5a433eadf17",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "KH005",
+   "pack": "pack_p5_kaldheim_2026-10-30.json",
+   "participant": "kaya",
+   "card": "Kaya the Inexorable",
+   "oracle_id": "13a4f88b-6832-43a1-b4fa-c1ee60560bad",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "khm"
+   ]
+  },
+  {
+   "claim": "KH005",
+   "pack": "pack_p5_kaldheim_2026-10-30.json",
+   "participant": "kaya",
+   "card": "Kaya, Bane of the Dead",
+   "oracle_id": "29d58aa4-9a7e-4052-9b0d-fc282f1be40e",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "KH005",
+   "pack": "pack_p5_kaldheim_2026-10-30.json",
+   "participant": "kaya",
+   "card": "Kaya, Geist Hunter",
+   "oracle_id": "e0edb2fc-2533-407c-85e5-4337f4233f05",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "KH005",
+   "pack": "pack_p5_kaldheim_2026-10-30.json",
+   "participant": "kaya",
+   "card": "Kaya, Ghost Assassin",
+   "oracle_id": "5e4c81b9-a31e-45e6-983f-30f11b8a05c0",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "KH005",
+   "pack": "pack_p5_kaldheim_2026-10-30.json",
+   "participant": "kaya",
+   "card": "Kaya, Intangible Slayer",
+   "oracle_id": "9260ae3d-59bf-4e46-a13e-930754c3f0d2",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "KH005",
+   "pack": "pack_p5_kaldheim_2026-10-30.json",
+   "participant": "kaya",
+   "card": "Kaya, Orzhov Usurper",
+   "oracle_id": "7dd4a1a1-d5f4-4ac7-a9f6-34af411f070b",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "KH005",
+   "pack": "pack_p5_kaldheim_2026-10-30.json",
+   "participant": "kaya",
+   "card": "Kaya, Spirits' Justice",
+   "oracle_id": "0a094c5f-cefb-4ba1-90c8-dd78ae8efe95",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "KH005",
+   "pack": "pack_p5_kaldheim_2026-10-30.json",
+   "participant": "tibalt",
+   "card": "Tibalt, Rakish Instigator",
+   "oracle_id": "0b768f8f-2213-45b9-bced-8fb1bbb441c3",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "KH005",
+   "pack": "pack_p5_kaldheim_2026-10-30.json",
+   "participant": "tibalt",
+   "card": "Tibalt, the Fiend-Blooded",
+   "oracle_id": "ee9c57c6-41ef-4328-8417-e5a433eadf17",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "KH006",
+   "pack": "pack_p5_kaldheim_2026-10-30.json",
+   "participant": "kardur",
+   "card": "Kardur, Doomscourge",
+   "oracle_id": "bc14356c-3a1a-47af-9a6e-2b449de0331f",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "khm"
+   ]
+  },
+  {
+   "claim": "KH007",
+   "pack": "pack_p5_kaldheim_2026-10-30.json",
+   "participant": "alrund",
+   "card": "Alrund, God of the Cosmos // Hakka, Whispering Raven",
+   "oracle_id": "0a69c3dd-52a3-4ef6-b53f-b0780e0dc5f8",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "khm"
+   ]
+  },
+  {
+   "claim": "KH008",
+   "pack": "pack_p5_kaldheim_2026-10-30.json",
+   "participant": "koll",
+   "card": "Koll, the Forgemaster",
+   "oracle_id": "344dc8b0-302a-4721-99b6-5a6626a349c1",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "khm"
+   ]
+  },
+  {
+   "claim": "KH009",
+   "pack": "pack_p5_kaldheim_2026-10-30.json",
+   "participant": "esika",
+   "card": "Esika, God of the Tree // The Prismatic Bridge",
+   "oracle_id": "92023a5d-a143-4950-a71b-d736e6b8e959",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "khm"
+   ]
+  },
+  {
+   "claim": "KH009",
+   "pack": "pack_p5_kaldheim_2026-10-30.json",
+   "participant": "cosmos_elixir",
+   "card": "Cosmos Elixir",
+   "oracle_id": "ed7300f4-831a-4ba4-b5e6-ceba8d079eaa",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "khm"
+   ]
+  },
+  {
+   "claim": "KH010",
+   "pack": "pack_p5_kaldheim_2026-10-30.json",
+   "participant": "alrund",
+   "card": "Alrund, God of the Cosmos // Hakka, Whispering Raven",
+   "oracle_id": "0a69c3dd-52a3-4ef6-b53f-b0780e0dc5f8",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "khm"
+   ]
+  },
+  {
+   "claim": "KH011",
+   "pack": "pack_p5_kaldheim_2026-10-30.json",
+   "participant": "varragoth",
+   "card": "Varragoth, Bloodsky Sire",
+   "oracle_id": "68b41a04-8cb0-4edf-b488-a219494453ae",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "khm"
+   ]
+  },
+  {
+   "claim": "KH012",
+   "pack": "pack_p5_kaldheim_2026-10-30.json",
+   "participant": "toralf",
+   "card": "Toralf, God of Fury // Toralf's Hammer",
+   "oracle_id": "fffcb71f-e802-436e-917d-eaa6607ab74f",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "khm"
+   ]
+  },
+  {
+   "claim": "KH012",
+   "pack": "pack_p5_kaldheim_2026-10-30.json",
+   "participant": "valki",
+   "card": "Valki, God of Lies // Tibalt, Cosmic Impostor",
+   "oracle_id": "907ae517-22d5-4ac7-bc3a-3f4d5eaeeb57",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "khm"
+   ]
+  },
+  {
+   "claim": "KH013",
+   "pack": "pack_p5_kaldheim_2026-10-30.json",
+   "participant": "vorinclex",
+   "card": "Vorinclex // The Grand Evolution",
+   "oracle_id": "166e5680-b8cf-47da-bcae-3591367c5fb4",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "KH013",
+   "pack": "pack_p5_kaldheim_2026-10-30.json",
+   "participant": "vorinclex",
+   "card": "Vorinclex, Monstrous Raider",
+   "oracle_id": "5a3fdf5a-bff8-4896-b288-3f43f9a72d9b",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "khm"
+   ]
+  },
+  {
+   "claim": "KH013",
+   "pack": "pack_p5_kaldheim_2026-10-30.json",
+   "participant": "vorinclex",
+   "card": "Vorinclex, Voice of Hunger",
+   "oracle_id": "dbf0ad03-ab31-49d2-89b1-05b45948a61f",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "KH014",
+   "pack": "pack_p5_kaldheim_2026-10-30.json",
+   "participant": "koma",
+   "card": "Koma, Cosmos Serpent",
+   "oracle_id": "6ba0656f-e0d2-4735-9c66-3a00afa9fc23",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "khm"
+   ]
+  },
+  {
+   "claim": "KH014",
+   "pack": "pack_p5_kaldheim_2026-10-30.json",
+   "participant": "koma",
+   "card": "Koma, World-Eater",
+   "oracle_id": "1ebf2142-f171-40cd-8143-15f50084b707",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SX001",
+   "pack": "pack_p5_strixhaven_2026-10-30.json",
+   "participant": "extus",
+   "card": "Extus, Oriq Overlord // Awaken the Blood Avatar",
+   "oracle_id": "0b299983-9f0f-404a-acd1-8f142572b1f1",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "stx"
+   ]
+  },
+  {
+   "claim": "SX002",
+   "pack": "pack_p5_strixhaven_2026-10-30.json",
+   "participant": "extus",
+   "card": "Extus, Oriq Overlord // Awaken the Blood Avatar",
+   "oracle_id": "0b299983-9f0f-404a-acd1-8f142572b1f1",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "stx"
+   ]
+  },
+  {
+   "claim": "SX003",
+   "pack": "pack_p5_strixhaven_2026-10-30.json",
+   "participant": "extus",
+   "card": "Extus, Oriq Overlord // Awaken the Blood Avatar",
+   "oracle_id": "0b299983-9f0f-404a-acd1-8f142572b1f1",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "stx"
+   ]
+  },
+  {
+   "claim": "SX004",
+   "pack": "pack_p5_strixhaven_2026-10-30.json",
+   "participant": "will_kenrith",
+   "card": "Will Kenrith",
+   "oracle_id": "20dbfc9a-172e-4065-bfde-d40de3131787",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SX005",
+   "pack": "pack_p5_strixhaven_2026-10-30.json",
+   "participant": "rowan_kenrith",
+   "card": "Rowan Kenrith",
+   "oracle_id": "e191976c-6ab1-4a23-aeb8-8a88bd4bd203",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SX006",
+   "pack": "pack_p5_strixhaven_2026-10-30.json",
+   "participant": "will_kenrith",
+   "card": "Will Kenrith",
+   "oracle_id": "20dbfc9a-172e-4065-bfde-d40de3131787",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SX006",
+   "pack": "pack_p5_strixhaven_2026-10-30.json",
+   "participant": "rowan_kenrith",
+   "card": "Rowan Kenrith",
+   "oracle_id": "e191976c-6ab1-4a23-aeb8-8a88bd4bd203",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SX007",
+   "pack": "pack_p5_strixhaven_2026-10-30.json",
+   "participant": "liliana_vess",
+   "card": "Liliana Vess",
+   "oracle_id": "a6c05941-2cfb-4dac-a7c0-ab808187eb7c",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SX007",
+   "pack": "pack_p5_strixhaven_2026-10-30.json",
+   "participant": "professor_onyx",
+   "card": "Professor Onyx",
+   "oracle_id": "9df2e909-ed13-456a-9636-7398732009a9",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "stx"
+   ]
+  },
+  {
+   "claim": "SX008",
+   "pack": "pack_p5_strixhaven_2026-10-30.json",
+   "participant": "lukka",
+   "card": "Lukka, Bound to Ruin",
+   "oracle_id": "8e68eba1-65ac-4c03-956f-45e7b5695e2a",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SX008",
+   "pack": "pack_p5_strixhaven_2026-10-30.json",
+   "participant": "lukka",
+   "card": "Lukka, Coppercoat Outcast",
+   "oracle_id": "1ca97394-4e8c-4698-bea1-554f9b10927b",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SX009",
+   "pack": "pack_p5_strixhaven_2026-10-30.json",
+   "participant": "lukka",
+   "card": "Lukka, Bound to Ruin",
+   "oracle_id": "8e68eba1-65ac-4c03-956f-45e7b5695e2a",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SX009",
+   "pack": "pack_p5_strixhaven_2026-10-30.json",
+   "participant": "lukka",
+   "card": "Lukka, Coppercoat Outcast",
+   "oracle_id": "1ca97394-4e8c-4698-bea1-554f9b10927b",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SX009",
+   "pack": "pack_p5_strixhaven_2026-10-30.json",
+   "participant": "mila",
+   "card": "Mila, Crafty Companion // Lukka, Wayward Bonder",
+   "oracle_id": "ee524e82-35c4-4cae-b65e-3e147eac2927",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "stx"
+   ]
+  },
+  {
+   "claim": "SX010",
+   "pack": "pack_p5_strixhaven_2026-10-30.json",
+   "participant": "strixhaven",
+   "card": "Strixhaven",
+   "oracle_id": "022e38c3-fcea-428f-a0d0-a6cca057faa3",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SX011",
+   "pack": "pack_p5_strixhaven_2026-10-30.json",
+   "participant": "beledros_witherbloom",
+   "card": "Beledros Witherbloom",
+   "oracle_id": "90194ff1-db61-463f-b5a3-15cd85311d0e",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "stx"
+   ]
+  },
+  {
+   "claim": "SX011",
+   "pack": "pack_p5_strixhaven_2026-10-30.json",
+   "participant": "liliana_vess",
+   "card": "Liliana Vess",
+   "oracle_id": "a6c05941-2cfb-4dac-a7c0-ab808187eb7c",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "IK001",
+   "pack": "pack_p5_ikoria_2026-10-30.json",
+   "participant": "vivien_reid",
+   "card": "Vivien Reid",
+   "oracle_id": "b5f20a6d-8c3e-452f-9d98-4886f0fa052a",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "IK002",
+   "pack": "pack_p5_ikoria_2026-10-30.json",
+   "participant": "narset",
+   "card": "Narset Transcendent",
+   "oracle_id": "e1de0c94-0ecc-425a-9b92-27c2745d07e7",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "IK002",
+   "pack": "pack_p5_ikoria_2026-10-30.json",
+   "participant": "narset",
+   "card": "Narset of the Ancient Way",
+   "oracle_id": "b7ac6e89-941f-4ad9-a437-38ec38ec5263",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "iko"
+   ]
+  },
+  {
+   "claim": "IK002",
+   "pack": "pack_p5_ikoria_2026-10-30.json",
+   "participant": "narset",
+   "card": "Narset, Enlightened Exile",
+   "oracle_id": "d92725de-ead0-4a6c-83db-55ec3acc7184",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "IK002",
+   "pack": "pack_p5_ikoria_2026-10-30.json",
+   "participant": "narset",
+   "card": "Narset, Enlightened Master",
+   "oracle_id": "aeaf7768-ed67-487d-8506-e667babb88ba",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "IK002",
+   "pack": "pack_p5_ikoria_2026-10-30.json",
+   "participant": "narset",
+   "card": "Narset, Jeskai Waymaster",
+   "oracle_id": "1a2a74b8-0689-4959-9348-02cc832194cf",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "IK002",
+   "pack": "pack_p5_ikoria_2026-10-30.json",
+   "participant": "narset",
+   "card": "Narset, Parter of Veils",
+   "oracle_id": "ab26fbe2-e808-48b9-8d0d-3fbb6c3d554f",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "IK003",
+   "pack": "pack_p5_ikoria_2026-10-30.json",
+   "participant": "vadrok",
+   "card": "Vadrok, Apex of Thunder",
+   "oracle_id": "775c41fa-2316-43c9-af34-ac9c9b0db7e2",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "iko"
+   ]
+  },
+  {
+   "claim": "IK004",
+   "pack": "pack_p5_ikoria_2026-10-30.json",
+   "participant": "snapdax",
+   "card": "Snapdax, Apex of the Hunt",
+   "oracle_id": "b2b78623-5a10-4ef7-b983-3d82478269c3",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "iko"
+   ]
   }
  ],
  "by_pack": {
@@ -15288,6 +15868,13 @@
    "PRINTED_IN_STORY_SET": 34,
    "NAMED_PARTICIPANT": 40
   },
+  "pack_p5_ikoria_2026-10-30.json": {
+   "claims": 5,
+   "claims_anchored": 4,
+   "ART_IN_CITED_SOURCE": 0,
+   "PRINTED_IN_STORY_SET": 3,
+   "NAMED_PARTICIPANT": 6
+  },
   "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json": {
    "claims": 12,
    "claims_anchored": 11,
@@ -15308,6 +15895,13 @@
    "ART_IN_CITED_SOURCE": 3,
    "PRINTED_IN_STORY_SET": 24,
    "NAMED_PARTICIPANT": 105
+  },
+  "pack_p5_kaldheim_2026-10-30.json": {
+   "claims": 14,
+   "claims_anchored": 14,
+   "ART_IN_CITED_SOURCE": 0,
+   "PRINTED_IN_STORY_SET": 16,
+   "NAMED_PARTICIPANT": 20
   },
   "pack_p5_kamigawa_neon_dynasty_2026-10-30.json": {
    "claims": 12,
@@ -15351,6 +15945,13 @@
    "PRINTED_IN_STORY_SET": 10,
    "NAMED_PARTICIPANT": 46
   },
+  "pack_p5_strixhaven_2026-10-30.json": {
+   "claims": 11,
+   "claims_anchored": 11,
+   "ART_IN_CITED_SOURCE": 0,
+   "PRINTED_IN_STORY_SET": 6,
+   "NAMED_PARTICIPANT": 11
+  },
   "pack_p5_wilds_of_eldraine_2026-10-30.json": {
    "claims": 14,
    "claims_anchored": 13,
@@ -15360,12 +15961,12 @@
   }
  },
  "counts": {
-  "claims": 388,
-  "claims_anchored": 348,
-  "anchors": 1778,
+  "claims": 418,
+  "claims_anchored": 377,
+  "anchors": 1840,
   "ART_IN_CITED_SOURCE": 31,
-  "PRINTED_IN_STORY_SET": 265,
-  "NAMED_PARTICIPANT": 1482
+  "PRINTED_IN_STORY_SET": 290,
+  "NAMED_PARTICIPANT": 1519
  },
- "content_sha256": "c267322087b37be8ee41c9ac323898b7d829d16961d5cd1e9b86f0811619834d"
+ "content_sha256": "3cb71e0a497de74fd6a30467e98dc6114d5e72a0b7086dcf4b2b1a8f0589dbef"
 }

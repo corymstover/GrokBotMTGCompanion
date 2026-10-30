@@ -51,6 +51,9 @@ class StoryCoverageInventory(unittest.TestCase):
         self.assertEqual(arcs["LCI"]["cited_pages"], 7)
         self.assertEqual(arcs["DFT"]["cited_pages"], 6)
         self.assertEqual(arcs["THB"]["status"], "NOT_STARTED")
+        self.assertEqual(arcs["KHM"]["cited_pages"], 6)
+        self.assertEqual(arcs["STX"]["cited_pages"], 5)
+        self.assertEqual(arcs["IKO"]["cited_pages"], 1)
 
     def test_claim_total_matches_graph_packs(self):
         self.assertEqual(self.d["totals"]["claims"], sum(self.d["claims_per_pack"].values()))

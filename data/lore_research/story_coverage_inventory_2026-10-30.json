@@ -26,18 +26,21 @@
    "data/lore_research/pack_p5_duskmourn_2026-10-30.json",
    "data/lore_research/pack_p5_outlaws_of_thunder_junction_2026-10-30.json",
    "data/lore_research/pack_p5_lost_caverns_of_ixalan_2026-10-30.json",
-   "data/lore_research/pack_p5_aetherdrift_2026-10-30.json"
+   "data/lore_research/pack_p5_aetherdrift_2026-10-30.json",
+   "data/lore_research/pack_p5_kaldheim_2026-10-30.json",
+   "data/lore_research/pack_p5_strixhaven_2026-10-30.json",
+   "data/lore_research/pack_p5_ikoria_2026-10-30.json"
   ]
  },
  "meaning": "cited = a claim pack quotes or cites the page at least once; it does not mean the page was read exhaustively",
  "totals": {
   "arcs": 33,
   "pages": 626,
-  "cited_pages": 167,
-  "arcs_not_started": 8,
-  "arcs_partial": 20,
+  "cited_pages": 179,
+  "arcs_not_started": 5,
+  "arcs_partial": 23,
   "arcs_all_cited": 5,
-  "claims": 388,
+  "claims": 418,
   "pack_urls_outside_inventory": 12
  },
  "claims_per_pack": {
@@ -64,7 +67,10 @@
   "pack_p5_duskmourn_2026-10-30.json": 11,
   "pack_p5_outlaws_of_thunder_junction_2026-10-30.json": 12,
   "pack_p5_lost_caverns_of_ixalan_2026-10-30.json": 12,
-  "pack_p5_aetherdrift_2026-10-30.json": 12
+  "pack_p5_aetherdrift_2026-10-30.json": 12,
+  "pack_p5_kaldheim_2026-10-30.json": 14,
+  "pack_p5_strixhaven_2026-10-30.json": 11,
+  "pack_p5_ikoria_2026-10-30.json": 5
  },
  "arcs": [
   {
@@ -301,39 +307,36 @@
   {
    "arc": "IKO",
    "pages": 3,
-   "cited_pages": 0,
+   "cited_pages": 1,
    "kinds": {
     "feature": 2,
     "planeswalkers-guide": 1
    },
-   "citing_packs": [],
-   "status": "NOT_STARTED",
+   "citing_packs": [
+    "pack_p5_ikoria_2026-10-30.json"
+   ],
+   "status": "PARTIAL",
    "uncited_urls": [
     "https://magic.wizards.com/en/news/feature/ikoria-lair-behemoths-story-cards-2020-04-10",
-    "https://magic.wizards.com/en/news/feature/planeswalkers-guide-ikoria-2020-04-02",
     "https://magic.wizards.com/en/news/feature/worldbuilding-ikoria-2020-04-07"
    ]
   },
   {
    "arc": "KHM",
    "pages": 8,
-   "cited_pages": 0,
+   "cited_pages": 6,
    "kinds": {
     "feature": 1,
     "planeswalkers-guide": 2,
     "story": 5
    },
-   "citing_packs": [],
-   "status": "NOT_STARTED",
+   "citing_packs": [
+    "pack_p5_kaldheim_2026-10-30.json"
+   ],
+   "status": "PARTIAL",
    "uncited_urls": [
-    "https://magic.wizards.com/en/news/feature/legends-kaldheim-2021-01-21",
-    "https://magic.wizards.com/en/news/feature/planeswalkers-guide-kaldheim-part-1-2021-01-08",
-    "https://magic.wizards.com/en/news/feature/planeswalkers-guide-kaldheim-part-2-2021-01-14",
     "https://magic.wizards.com/en/news/magic-story/episode-1-travelers-2021-01-07",
-    "https://magic.wizards.com/en/news/magic-story/episode-2-awaken-trolls-2021-01-13",
-    "https://magic.wizards.com/en/news/magic-story/episode-3-saga-tibalt-2021-01-20",
-    "https://magic.wizards.com/en/news/magic-story/episode-4-demons-realm-2021-01-27",
-    "https://magic.wizards.com/en/news/magic-story/episode-5-battle-kaldheim-2021-02-03"
+    "https://magic.wizards.com/en/news/magic-story/episode-2-awaken-trolls-2021-01-13"
    ]
   },
   {
@@ -576,20 +579,17 @@
   {
    "arc": "STX",
    "pages": 6,
-   "cited_pages": 0,
+   "cited_pages": 5,
    "kinds": {
     "planeswalkers-guide": 1,
     "story": 5
    },
-   "citing_packs": [],
-   "status": "NOT_STARTED",
+   "citing_packs": [
+    "pack_p5_strixhaven_2026-10-30.json"
+   ],
+   "status": "PARTIAL",
    "uncited_urls": [
-    "https://magic.wizards.com/en/news/feature/planeswalkers-guide-strixhaven-2021-04-01",
-    "https://magic.wizards.com/en/news/magic-story/episode-1-class-session-2021-03-25",
-    "https://magic.wizards.com/en/news/magic-story/episode-2-lessons-2021-03-31",
-    "https://magic.wizards.com/en/news/magic-story/episode-3-extracurriculars-2021-04-07",
-    "https://magic.wizards.com/en/news/magic-story/episode-4-put-test-2021-04-14",
-    "https://magic.wizards.com/en/news/magic-story/episode-5-final-exam-2021-04-21"
+    "https://magic.wizards.com/en/news/magic-story/episode-3-extracurriculars-2021-04-07"
    ]
   },
   {
@@ -1001,5 +1001,5 @@
    ]
   }
  ],
- "sha256": "e7971c1c891c73ae2adfcd6825b07568c71754d9387492feeca6344df6b65d45"
+ "sha256": "8334c445a5c4b6784141ed050a6430084a4cdac015247ed27643388714769253"
 }

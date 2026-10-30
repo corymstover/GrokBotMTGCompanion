@@ -1,0 +1,144 @@
+{
+ "pack_id": "pack_p5_ikoria",
+ "arc": "IKO",
+ "event_stage": "ikoria_iko_2020",
+ "scope": "Targeted Phase 5 extraction from the official Planeswalker's Guide to Ikoria (2020-04-02), written in-universe by Vivien Reid. IKO has no episodic web fiction in the cache. PRELIMINARY_RESEARCH; not owner approved.",
+ "pages": {
+  "iko_guide": "planeswalkers-guide-ikoria-2020-04-02"
+ },
+ "entities": [
+  {
+   "id": "vivien_reid",
+   "type": "Character",
+   "name": "Vivien Reid"
+  },
+  {
+   "id": "narset",
+   "type": "Character",
+   "name": "Narset"
+  },
+  {
+   "id": "ikoria",
+   "type": "Plane",
+   "name": "Ikoria"
+  },
+  {
+   "id": "vadrok",
+   "type": "Character",
+   "name": "Vadrok"
+  },
+  {
+   "id": "raugrin",
+   "type": "Place",
+   "name": "Raugrin"
+  },
+  {
+   "id": "drannith",
+   "type": "Place",
+   "name": "Drannith"
+  },
+  {
+   "id": "snapdax",
+   "type": "Character",
+   "name": "Snapdax"
+  },
+  {
+   "id": "savai_settlements",
+   "type": "Place",
+   "name": "Early human settlements of Savai"
+  },
+  {
+   "id": "coppercoats",
+   "type": "Faction",
+   "name": "Drannith Defense Force (Coppercoats)"
+  }
+ ],
+ "claims": [
+  {
+   "id": "IK001",
+   "subject": "vivien_reid",
+   "predicate": "visited",
+   "object": "ikoria",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "iko_guide",
+     "quote": "I have met many bonders on my travels and learned much from them."
+    },
+    {
+     "page": "iko_guide",
+     "quote": "May it serve you well, and may you pass it along to the next Planeswalker you meet in need of a guide. —Vivien Reid"
+    }
+   ],
+   "summary": "Vivien Reid travelled Ikoria and wrote the guide.",
+   "limitation": "Vivien is the author-narrator, so this is her own account."
+  },
+  {
+   "id": "IK002",
+   "subject": "narset",
+   "predicate": "visited",
+   "object": "ikoria",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "iko_guide",
+     "quote": "Another traveling Planeswalker named Narset told me that these triomes are due to the unique flow of magic through the land of this plane."
+    }
+   ],
+   "summary": "Vivien says Narset travelled to Ikoria and explained the triomes to her.",
+   "limitation": "The guide is Vivien Reid's first-person travel account; legends she reports are attributed to Rielle."
+  },
+  {
+   "id": "IK003",
+   "subject": "vadrok",
+   "predicate": "controls",
+   "object": "raugrin",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "iko_guide",
+     "quote": "Named after the terrible rumbling it produces as it streaks across the sky, the thunderous apex monster Vadrok rules the skies of Raugrin."
+    }
+   ],
+   "summary": "The apex monster Vadrok rules the skies of Raugrin.",
+   "limitation": "Strictly, the skies of Raugrin."
+  },
+  {
+   "id": "IK004",
+   "subject": "snapdax",
+   "predicate": "destroyed",
+   "object": "savai_settlements",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "iko_guide",
+     "quote": "Rielle tells an ancient tale of Snapdax destroying early human settlements all across Savai."
+    }
+   ],
+   "summary": "In an ancient tale, Snapdax destroyed the early human settlements of Savai.",
+   "limitation": "The guide is Vivien Reid's first-person travel account; legends she reports are attributed to Rielle. This is a legend."
+  },
+  {
+   "id": "IK005",
+   "subject": "coppercoats",
+   "predicate": "guardian_of",
+   "object": "drannith",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "iko_guide",
+     "quote": "Drannith's highly trained military is second to none at warding off monster attacks; according to the locals, its walls have never fallen since their creation."
+    },
+    {
+     "page": "iko_guide",
+     "quote": "The Drannith Defense Force, informally called the Coppercoats for their banded uniforms and polished buttons, is the most well-resourced, powerful military force in the world."
+    }
+   ],
+   "summary": "The Coppercoats, Drannith's Defense Force, protect the city from monsters."
+  }
+ ],
+ "remaining": [
+  "Lukka and the Drannith Coppercoat storyline are not covered by the cached IKO pages",
+  "Most apex-monster lore in the guide is not graded"
+ ]
+}
