@@ -2,16 +2,16 @@
   "schema": "plane-history-dossiers/v1",
   "as_of": "2026-10-30",
   "status": "PRELIMINARY_RESEARCH_NOT_OWNER_APPROVED",
-  "source_graph_sha256": "856efb3d25ea0744e3ad6294fc036a6fb048859154e54568d27e9057b52ec0a0",
+  "source_graph_sha256": "90c6fc5e86e160c49a1b161caacc4ac2988a55b61ea30015e3cd5aa90b630fb7",
   "scope": "Only named planes presently registered as graph Plane nodes and directly incident claim edges.",
   "chronology_policy": "Never infer ordering from article date, release date or an era_label; explicit dated quotes are retained verbatim as quoted metadata only.",
   "counts": {
     "registered_planes": 33,
     "planes_with_direct_claims": 33,
-    "direct_claim_edges": 160,
-    "thin_planes_fewer_than_five_claims": 20,
+    "direct_claim_edges": 174,
+    "thin_planes_fewer_than_five_claims": 18,
     "claim_edge_grades": {
-      "CANON_CONFIRMED": 136,
+      "CANON_CONFIRMED": 150,
       "CANON_DISPUTED": 2,
       "CANON_IMPLIED": 21,
       "OPEN_QUESTION": 1
@@ -2082,8 +2082,156 @@
       "id": "plane:kamigawa",
       "plane": "Kamigawa",
       "evidence_status": "PARTIAL_DIRECT_GRAPH_CLAIMS_ONLY",
-      "distinct_claims": 3,
+      "distinct_claims": 8,
       "facts": [
+        {
+          "claim_id": "KMH001",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Kamigawa is described as two interacting realms: material utsushiyo and spirit kakuriyo.",
+          "limitation": "The undated profile is a broad structural description, not a complete cosmology.",
+          "relation": "contains_two_symbiotic_realms",
+          "subject": {
+            "id": "plane:kamigawa",
+            "name": "Kamigawa"
+          },
+          "object": {
+            "id": "place:kamigawa_kakuriyo",
+            "name": "Kakuriyo (Kamigawa spirit realm)"
+          },
+          "era_label": "plane_profile_undated",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "up_kamigawa",
+              "title": "Kamigawa",
+              "url": "https://magic.wizards.com/en/story/kamigawa-plane"
+            }
+          ]
+        },
+        {
+          "claim_id": "KMH001",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Kamigawa is described as two interacting realms: material utsushiyo and spirit kakuriyo.",
+          "limitation": "The undated profile is a broad structural description, not a complete cosmology.",
+          "relation": "contains_two_symbiotic_realms",
+          "subject": {
+            "id": "plane:kamigawa",
+            "name": "Kamigawa"
+          },
+          "object": {
+            "id": "place:kamigawa_utsushiyo",
+            "name": "Utsushiyo (Kamigawa material realm)"
+          },
+          "era_label": "plane_profile_undated",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "up_kamigawa",
+              "title": "Kamigawa",
+              "url": "https://magic.wizards.com/en/story/kamigawa-plane"
+            }
+          ]
+        },
+        {
+          "claim_id": "KMH002",
+          "grade": "CANON_CONFIRMED",
+          "statement": "The kami attack on Reito marked the beginning of the Kami War, and the profile specifies twenty subsequent years of devastation.",
+          "limitation": "Twenty years is a span in the narrated conflict, not an AR year or an independently verified total war duration.",
+          "relation": "endured",
+          "subject": {
+            "id": "plane:kamigawa",
+            "name": "Kamigawa"
+          },
+          "object": {
+            "id": "event:kamigawa_kami_war",
+            "name": "Kami War"
+          },
+          "era_label": "kamigawa_kami_war",
+          "in_universe_date": {
+            "quote": "The Kami War had begun. Over the next twenty years, spirits of every shape and size would descend on the plains",
+            "source_id": "up_kamigawa",
+            "value": "twenty years"
+          },
+          "sources": [
+            {
+              "id": "up_kamigawa",
+              "title": "Kamigawa",
+              "url": "https://magic.wizards.com/en/story/kamigawa-plane"
+            }
+          ]
+        },
+        {
+          "claim_id": "KMH007",
+          "grade": "CANON_CONFIRMED",
+          "statement": "O-Kagachi's death broke the boundary between Kamigawa's mortal and spirit realms, beginning their merger.",
+          "limitation": "The source does not say the two realms were already fully merged at Neon Dynasty's time.",
+          "relation": "realm_barrier_broke_after_death_of",
+          "subject": {
+            "id": "plane:kamigawa",
+            "name": "Kamigawa"
+          },
+          "object": {
+            "id": "character:o_kagachi",
+            "name": "O-Kagachi"
+          },
+          "era_label": "post_kami_war_merging",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "neo_guide",
+              "title": "Planeswalker's Guide to Kamigawa: Neon Dynasty",
+              "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-kamigawa-neon-dynasty-2022-02-03"
+            }
+          ]
+        },
+        {
+          "claim_id": "KMH008",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Sites of merging between Kamigawa's two realms appeared unpredictably in the Neon Dynasty guide.",
+          "limitation": "A 2022 story-period description; no claims about the state of all sites in later continuity.",
+          "relation": "developed_random",
+          "subject": {
+            "id": "plane:kamigawa",
+            "name": "Kamigawa"
+          },
+          "object": {
+            "id": "place:kamigawa_merge_sites",
+            "name": "Kamigawa merge locations"
+          },
+          "era_label": "kamigawa_neon_dynasty_2022",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "neo_guide",
+              "title": "Planeswalker's Guide to Kamigawa: Neon Dynasty",
+              "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-kamigawa-neon-dynasty-2022-02-03"
+            }
+          ]
+        },
+        {
+          "claim_id": "KMH010",
+          "grade": "CANON_CONFIRMED",
+          "statement": "The Kamigawan Imperial organization developed from merge management into government and rulership.",
+          "limitation": "The political description belongs to the Neon Dynasty period; it is not a verified current government as of 2026.",
+          "relation": "governed_in_neon_dynasty_period_by",
+          "subject": {
+            "id": "plane:kamigawa",
+            "name": "Kamigawa"
+          },
+          "object": {
+            "id": "faction:kamigawa_imperials",
+            "name": "Imperial Court of Kamigawa"
+          },
+          "era_label": "kamigawa_neon_dynasty_2022",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "neo_guide",
+              "title": "Planeswalker's Guide to Kamigawa: Neon Dynasty",
+              "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-kamigawa-neon-dynasty-2022-02-03"
+            }
+          ]
+        },
         {
           "claim_id": "MOM004",
           "grade": "CANON_CONFIRMED",
@@ -2347,7 +2495,7 @@
       "id": "plane:mirrodin",
       "plane": "Mirrodin / New Phyrexia",
       "evidence_status": "PARTIAL_DIRECT_GRAPH_CLAIMS_ONLY",
-      "distinct_claims": 9,
+      "distinct_claims": 10,
       "facts": [
         {
           "claim_id": "C005",
@@ -2447,6 +2595,30 @@
               "id": "np_intro",
               "title": "A Planeswalker's Guide to New Phyrexia: Introduction",
               "url": "https://magic.wizards.com/en/news/feature/a-planeswalkers-guide-to-new-phyrexia-introduction"
+            }
+          ]
+        },
+        {
+          "claim_id": "NPHH004",
+          "grade": "CANON_CONFIRMED",
+          "statement": "The oil's spread escalated into the Phyrexian campaign to compleat Mirrodin, producing New Phyrexia.",
+          "limitation": "This is an early historical trajectory; later events in March of the Machine must be tracked separately.",
+          "relation": "emerged_from_conquest_of",
+          "subject": {
+            "id": "plane:new_phyrexia",
+            "name": "New Phyrexia"
+          },
+          "object": {
+            "id": "plane:mirrodin",
+            "name": "Mirrodin / New Phyrexia"
+          },
+          "era_label": "new_phyrexia_early_conquest",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "up_nph",
+              "title": "New Phyrexia",
+              "url": "https://magic.wizards.com/en/story/new-phyrexia-plane"
             }
           ]
         },
@@ -2689,7 +2861,7 @@
       "id": "plane:new_phyrexia",
       "plane": "New Phyrexia",
       "evidence_status": "PARTIAL_DIRECT_GRAPH_CLAIMS_ONLY",
-      "distinct_claims": 4,
+      "distinct_claims": 9,
       "facts": [
         {
           "claim_id": "MOM016",
@@ -2764,6 +2936,174 @@
               "id": "np_ortho",
               "title": "A Planeswalker's Guide to New Phyrexia: The Machine Orthodoxy",
               "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-new-phyrexia-machine-orthodoxy-2011-04-06"
+            }
+          ]
+        },
+        {
+          "claim_id": "NPHH004",
+          "grade": "CANON_CONFIRMED",
+          "statement": "The oil's spread escalated into the Phyrexian campaign to compleat Mirrodin, producing New Phyrexia.",
+          "limitation": "This is an early historical trajectory; later events in March of the Machine must be tracked separately.",
+          "relation": "emerged_from_conquest_of",
+          "subject": {
+            "id": "plane:new_phyrexia",
+            "name": "New Phyrexia"
+          },
+          "object": {
+            "id": "plane:mirrodin",
+            "name": "Mirrodin / New Phyrexia"
+          },
+          "era_label": "new_phyrexia_early_conquest",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "up_nph",
+              "title": "New Phyrexia",
+              "url": "https://magic.wizards.com/en/story/new-phyrexia-plane"
+            }
+          ]
+        },
+        {
+          "claim_id": "NPHH005",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Mirran forces resisted the early Phyrexian conquest but were overwhelmed.",
+          "limitation": "No claim that every Mirran died or that every resistance effort failed forever.",
+          "relation": "fought_against",
+          "subject": {
+            "id": "faction:mirran_resistance",
+            "name": "Mirran resistance"
+          },
+          "object": {
+            "id": "plane:new_phyrexia",
+            "name": "New Phyrexia"
+          },
+          "era_label": "new_phyrexia_early_conquest",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "up_nph",
+              "title": "New Phyrexia",
+              "url": "https://magic.wizards.com/en/story/new-phyrexia-plane"
+            }
+          ]
+        },
+        {
+          "claim_id": "NPHH006",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Koth, Elspeth and Venser were among planeswalkers unable to reverse the early Phyrexian conquest.",
+          "limitation": "This evaluates the early campaign; it does not negate their actions in later stories.",
+          "relation": "resisted_by_planeswalkers",
+          "subject": {
+            "id": "plane:new_phyrexia",
+            "name": "New Phyrexia"
+          },
+          "object": {
+            "id": "character:elspeth_tirel",
+            "name": "Elspeth Tirel"
+          },
+          "era_label": "new_phyrexia_early_conquest",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "up_nph",
+              "title": "New Phyrexia",
+              "url": "https://magic.wizards.com/en/story/new-phyrexia-plane"
+            }
+          ]
+        },
+        {
+          "claim_id": "NPHH006",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Koth, Elspeth and Venser were among planeswalkers unable to reverse the early Phyrexian conquest.",
+          "limitation": "This evaluates the early campaign; it does not negate their actions in later stories.",
+          "relation": "resisted_by_planeswalkers",
+          "subject": {
+            "id": "plane:new_phyrexia",
+            "name": "New Phyrexia"
+          },
+          "object": {
+            "id": "character:koth",
+            "name": "Koth"
+          },
+          "era_label": "new_phyrexia_early_conquest",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "up_nph",
+              "title": "New Phyrexia",
+              "url": "https://magic.wizards.com/en/story/new-phyrexia-plane"
+            }
+          ]
+        },
+        {
+          "claim_id": "NPHH006",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Koth, Elspeth and Venser were among planeswalkers unable to reverse the early Phyrexian conquest.",
+          "limitation": "This evaluates the early campaign; it does not negate their actions in later stories.",
+          "relation": "resisted_by_planeswalkers",
+          "subject": {
+            "id": "plane:new_phyrexia",
+            "name": "New Phyrexia"
+          },
+          "object": {
+            "id": "character:venser",
+            "name": "Venser"
+          },
+          "era_label": "new_phyrexia_early_conquest",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "up_nph",
+              "title": "New Phyrexia",
+              "url": "https://magic.wizards.com/en/story/new-phyrexia-plane"
+            }
+          ]
+        },
+        {
+          "claim_id": "NPHH007",
+          "grade": "CANON_CONFIRMED",
+          "statement": "The official early New Phyrexia overview describes rival praetor factions struggling for power.",
+          "limitation": "The page's historical present cannot be taken as the current political state after March of the Machine.",
+          "relation": "had_competing_praetor_factions",
+          "subject": {
+            "id": "plane:new_phyrexia",
+            "name": "New Phyrexia"
+          },
+          "object": {
+            "id": "faction:new_phyrexian_praetor_factions",
+            "name": "New Phyrexian praetor factions (early era)"
+          },
+          "era_label": "new_phyrexia_early_praetor_rule",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "up_nph",
+              "title": "New Phyrexia",
+              "url": "https://magic.wizards.com/en/story/new-phyrexia-plane"
+            }
+          ]
+        },
+        {
+          "claim_id": "NPHH008",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Mirran survivors faced daily threats under early New Phyrexian domination.",
+          "limitation": "This does not identify present-day survivors or establish New Phyrexia's current accessibility.",
+          "relation": "struggled_under",
+          "subject": {
+            "id": "faction:mirran_survivors_early_nph",
+            "name": "Mirran survivors during New Phyrexia's conquest"
+          },
+          "object": {
+            "id": "plane:new_phyrexia",
+            "name": "New Phyrexia"
+          },
+          "era_label": "new_phyrexia_early_praetor_rule",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "up_nph",
+              "title": "New Phyrexia",
+              "url": "https://magic.wizards.com/en/story/new-phyrexia-plane"
             }
           ]
         },
@@ -4390,5 +4730,5 @@
       ]
     }
   ],
-  "content_sha256": "eb94eacb744797214ead2c93ffc3413dc4001ce8d525c8c136686f928154c47a"
+  "content_sha256": "44b3bc03f1467d03c27685196e0ab609138dccc917ab63b72d14c280892c61c2"
 }

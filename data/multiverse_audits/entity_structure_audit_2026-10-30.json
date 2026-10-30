@@ -44,7 +44,7 @@
     "token": "sarkhan_vol"
    }
   ],
-  "declared_local_ids": 865,
+  "declared_local_ids": 879,
   "name_variants_same_id": [
    {
     "local_id": "ajani",
@@ -72,6 +72,13 @@
     "names": [
      "Golgari",
      "Golgari Swarm"
+    ]
+   },
+   {
+    "local_id": "koth",
+    "names": [
+     "Koth",
+     "Koth of the Hammer"
     ]
    },
    {
@@ -244,7 +251,7 @@
   "1 Card node(s) lack an oracle_id: card:anointed_procession_anointed_procession",
   "0 same-name/same-family ID groups and 6 character alias candidates need review; none were merged.",
   "Legacy crosswalk: {'BRIDGED': 125, 'CANDIDATE_BY_FIRST_WORD': 15, 'LEGACY_ONLY': 34, 'MATCH_VIA_DECLARED_NAME_VARIANT': 10}. CANDIDATE_BY_FIRST_WORD rows are review-only.",
-  "22 pack-local IDs carry differing display names across packs; the graph keeps the first-ingested name, so exact-name bridges can miss the others."
+  "23 pack-local IDs carry differing display names across packs; the graph keeps the first-ingested name, so exact-name bridges can miss the others."
  ],
  "graph_integrity": {
   "builder_problems": [],
@@ -253,7 +260,7 @@
   ],
   "dangling_edges": 0,
   "duplicate_ids": [],
-  "edges": 8063,
+  "edges": 8153,
   "literal_objects": [
    "Karn's planeswalker spark",
    "Knight of Benalia turned vampire",
@@ -270,7 +277,7 @@
    "unknown",
    "unknown_planeswalker"
   ],
-  "nodes": 5094,
+  "nodes": 5128,
   "orphan_nodes": [
    "artifact:great_henge",
    "character:eric_kenrith",
@@ -299,18 +306,18 @@
     "CardRepresentation": 560,
     "CardTheme": 1,
     "Character": 482,
-    "Claim": 1161,
-    "Concept": 161,
+    "Claim": 1181,
+    "Concept": 165,
     "DeckProposal": 3,
-    "Event": 23,
-    "Faction": 136,
+    "Event": 24,
+    "Faction": 141,
     "Literal": 14,
     "Object": 52,
-    "Place": 102,
+    "Place": 106,
     "Plane": 33,
     "Source": 605
    },
-   "count": 5094,
+   "count": 5128,
    "exists": true,
    "generator": "scripts/build_multiverse_graph.py",
    "id_scheme": "<type-prefix>:<pack-local-id or slug>",
@@ -414,11 +421,11 @@
    "schema": "story-art-captions/v1"
   },
   {
-   "count": 1495,
+   "count": 1524,
    "exists": false,
    "generator": "scripts/story_claim_pipeline.py and per-pack builders",
    "id_scheme": "pack-local snake_case id, merged globally by the graph builder",
-   "packs": 69,
+   "packs": 71,
    "path": "data/lore_research/pack_*.json (manifest claim_packs)",
    "role": "CLAIM_PACK_ENTITY_DECLARATIONS",
    "schema": "claim-pack (various v1)"

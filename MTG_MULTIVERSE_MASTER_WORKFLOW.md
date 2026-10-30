@@ -1,6 +1,6 @@
 # MTG Multiverse Companion — Master Workflow & Progress Checklist
 
-**Version:** 2.53
+**Version:** 2.54
 **Checkpoint date:** 2026-10-30
 **Repository:** [corymstover/GrokBotMTGCompanion](https://github.com/corymstover/GrokBotMTGCompanion)  
 **Purpose:** Durable project roadmap and handoff document. Update this file after verified milestone work; do not treat historical figures as live counters.
@@ -22,6 +22,22 @@ foundation release may document inherently unresolved canon and future
 maintenance; it must never claim exhaustive knowledge of all MTG history.
 The 62 approved Grixis decks, their hashes and all owner gates remain intact.
 Only a new explicit request from Cory can override the Phase 6 hold.
+
+**v2.54 Phase 4/5 plane-history expansion (2026-10-30):** Added two
+source-conservative historical packs with **20 new CANON_CONFIRMED claims**:
+12 on Kamigawa's two realms, the Kami War, Konda, Kyodai, the realm merger,
+Imperial origins and Saiba Futurists; eight on Mirrodin's corruption and the
+early New Phyrexian conquest, resistance and rival praetor factions. All
+short excerpts and two quoted relative time phrases were checked **live**
+against three Wizards primary pages; earlier source identities were reused.
+The **1,200 years ago** reference is relative to the Neon Dynasty 2022
+guide's narrative context, never a converted AR date. This early New
+Phyrexia profile does **not** establish its present-day ruler after *March
+of the Machine*. The regenerated graph has **1,181 claims**; 33 official
+plane dossiers remain explicitly partial, with thin dossiers reduced
+**20 → 18**. Verified histories and tests are preliminary research, not
+deck approval or a completed history census. Phase 6 remains DEFERRED.
+See `research/PHASE5_KAMIGAWA_NEW_PHYREXIA_HISTORIES_2026-10-30.md`.
 
 **v2.52 Phase 7 plane-history Q&A (2026-10-30):** The main
 `scripts/mv_ask.py ask` route now answers plain-language plane-history
@@ -406,6 +422,8 @@ Infrastructure checkpoint: [PR #783](https://github.com/corymstover/GrokBotMTGCo
 
 ## Phase 5 — Full-history and plane-by-plane expansion
 
+- [x] **Trace Kamigawa's historical transformation using two Wizards sources.** *(v2.54: 12 quoted primary-source claims distinguish the material/spirit worlds, Kami War, Kyodai and Michiko's victory, merger sites, Imperial administration and Futurists; the relative 1,200-year marker is kept verbatim and unconverted. Direct plane claims now eight, not an exhaustive timeline.)*
+- [x] **Trace Mirrodin's conversion into early New Phyrexia without present-day regime assumptions.** *(v2.54: 8 primary-source claims on abductions, Karn's oil, infection, Mirran resistance and early praetor factions; direct New Phyrexia claims now nine. Present tense in its undated overview is a historical profile, not a post-*March of the Machine* fact.)*
 - [x] **Ask cited plane-history questions through the main Q&A interface.** *(v2.52: `mv_ask.py ask 'What is the history of Theros?'` returns source URLs, original grades, limitations and distinct claims/relations from the 33 current registered plane dossiers, always QUALIFIED, never a full-history or total-chronology assertion. Regression tests cover no-source names, multi-target claims and old Phyrexia's unresolved accounts.)*
 - [x] **Deepen Theros's plane history using its official Wizards primer.** *(v2.51: 10 new live-quote-verified claims covering gods, three named poleis, ecological perils, civic ideals and Akros's outpost defenses; existing TS037 and source ID ths_plane preserved. Theros direct claims 3→6; v2.52 corrects the earlier prose-only miscount. This does not verify all gods, myths, poleis or the in-world timeline; exhaustive history remains OPEN.)*
 - [x] **Deepen Alara's plane history using the official Wizards primer.** *(v2.50: 10 live-quote-verified, source-graded claims on five shards, convergence, mana environment and the factions' differing conflicts; source register reused, with no duplicate official source node or existing UP001 Bolas claim. Alara now has 5 directly incident distinct claims, but an exhaustive history, specific battle participants and cross-era dates remain OPEN.)*
