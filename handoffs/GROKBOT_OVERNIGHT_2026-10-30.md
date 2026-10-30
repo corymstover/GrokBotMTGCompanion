@@ -546,22 +546,66 @@ Untagged pages in bulk (210 uncited); IKO's 2 non-narrative pages need a reviewe
 - Research: PRELIMINARY_RESEARCH. Tests: full suite green locally on each branch (exit code checked) and on merged main `01c315c6` (507 tests, OK, rc=0). CI is green on each merged exact head; recount 15/15.
 - Merged: #903–#906. Owner approved / certified: nothing. Protected-path diff vs `dfc8891d`: empty.
 
-## Consolidated status for ChatGPT / Cory (as of Batch 13 close)
+## Batch 14 — 2026-10-30, 11:18–11:45 CDT
 
-Checklist counts come from `MTG_MULTIVERSE_MASTER_WORKFLOW.md` v2.41 (checked / unchecked). A checked box means engineering verified, never owner approval. Nothing in this repo is owner-certified except the approvals files already in `data/lore_decks/approvals/` (lore decks 1–7, deck 8 Karn, deck 10 Yawgmoth).
+### PRs (batch 14)
+| PR | Phase | What | Merge commit (CDT) | CI on the exact head |
+|---|---|---|---|---|
+| [#908](https://github.com/corymstover/GrokBotMTGCompanion/pull/908) | 3 | L220 read-only entity-structure audit `scripts/audit_entity_structures.py` → `data/multiverse_audits/entity_structure_audit_2026-10-30.json` + `research/ENTITY_STRUCTURE_AUDIT_2026-10-30.md`; 7 tests | `4e7d0f3b` 11:24 CDT | 2/2 pass (path-filtered) |
+| [#909](https://github.com/corymstover/GrokBotMTGCompanion/pull/909) | 4 | Cache the 10 pack-cited official pages missing from the cache (metadata-only provenance), new stated orderings in the L244 chronology; 5 tests | `0bbfb936` 11:34 CDT | 5/5 runs + 5/5 check-runs pass on `6ba78354` |
+| [#910](https://github.com/corymstover/GrokBotMTGCompanion/pull/910) | 7 | Leader-question phrasings (guildmaster/khan/commander titles, who's, in charge/command of, commands, trailing "now"); 4 tests | `31615462` 11:38 CDT | 3/3 runs + 3/3 check-runs pass on `98825014` |
+| [#911](https://github.com/corymstover/GrokBotMTGCompanion/pull/911) | 8 | Certification-checklist dry run `scripts/certification_dry_run.py` → `data/release/certification_dry_run_2026-10-30.json` + `research/CERTIFICATION_DRY_RUN_2026-10-30.md`; 5 tests | `1af79001` 11:38 CDT | 2/2 runs + 2/2 check-runs pass on `5a473b14` |
+| this PR | 1/8 | workflow v2.42 (L220 checked), `data/release/batch_recount_2026-10-30_b14.json` (15/15), this handoff | (this PR) | — |
 
-| Phase | Checked | Open | Open items (workflow line) |
-|---|---|---|---|
-| 1 Card database | 10 | 0 | — |
-| 1B Set & Printing Atlas | 38 | 9 | **Blocked** L151 (original Oct 28 bulk unavailable), L157 (`fbb`/`4bb` need Wizards docs), L180 2 curated + 11 draft/starter codes, L181 11 older boxed codes (all need first-party Wizards evidence); QUALIFIED (not ticked): L193 field drift, L195 premier census, L198 street dates, L199 no AR years, L200 per-card canon |
-| 2 Lore enrichment | 5 | 4 | L211 refetch/strict audit in future envs; L214 depictions/flavor links (partial; L213 done: 208 of 2,835 story-linked, plus 23 printed-flavor links, 1,304 UB excluded); L215 keep unsupported unresolved; L216 expand inventory + integrity re-run |
-| 3 Relationship graph | 4 | 2 | L220 entity-structure audit; L222 dated relationships (partial: 33 claim edges carry verbatim in-universe date phrases per the b13 recount) |
-| 4 Foundational packs | 9 | 5 | L231 Pack A complete; L235 Elder Dragon War genealogy/roster (owner evidence matrix in #905; 6 of 7 disputes open); L236 Pack B; L237 Pack C; L244 dossiers published, plus a quote-gated relative chronology (#904); not closed, gaps listed in `l244_closure.missing` |
-| 5 Full history | 0 | 8 | L248–L255, all partial; coverage inventory now 626/626 cited-or-reviewed (L255) — the boxes stay open because "exhaustive" and "ongoing upkeep" are not finishable claims |
-| 6 Deckbuilder | 4 | 10 | L259–L264 engine features; L265/L267/L269 Pilots 1–3 (proposals built and merged as UNAPPROVED, **owner approval required**); L272 preserve the 62 approved decks |
-| 7 Q&A companion | 2 | 5 | L276 lookups; L277 set questions; L278 lore/chronology; L280 integrated recommendations; L281 hard query tests (partial) |
-| 8 Release & upkeep | 0 | 7 | L286 CI checks; L288 monitor releases; L290 rebuild atlas; L291 snapshot bytes/hashes (partial: the active manifest is verified in #906; the Oct 28 baseline has no bytes); L292 honest tracker; L293 milestone definition; L295 maintenance track |
-| Release definition | 0 | 7 | L320–L326; L324 ("one complete, **reviewed** lore-first deck") is owner-only |
+### Results
+- **(1) L220 audit (#908):** 4,227 nodes / 6,826 edges; 0 duplicate IDs, 0 dangling edges, 0 type mismatches. 16 orphans (1 card without oracle_id, 15 literal objects), 22 cross-pack name variants, 7 undeclared subjects (C023 `urza;mishra` became a literal), 6 alias candidates. Legacy crosswalk: 120 bridged, 15 first-word candidates, 34 legacy-only, 10 via declared variants, 5 normalised-but-unbridged. Recommendation: keep `multiverse_graph` as the single schema. L220 is now checked (mechanical audit, not owner approval).
+- **(2) Uncached pages + chronology (#909):** the brief said 7 uncached pages; the fetch script found **10** pack-cited official URLs missing from the cache and cached all 10 (bodies stay in the untracked cache; only URL, title, date, word count and SHA-256 are committed). Chronology: events 42→56, presents 14→16, stated edges 47→63, ordered pairs 155/1,946→177/3,074, components 12→13. The Eldrazi and Tarkir chains merged into one 18-node component; the Weatherlight chain joined the Elder-Dragon/Invasion component. L244 stays open: story presents on different pages are still unanchored. Design, release-notes and card-stories pages had no in-universe orderings. One conflict was seen and not admitted: DMU legends "Ertai was Phyrexianized and then killed millennia ago" vs *Death and Salvation* "nearly four hundred years ago".
+- **(3) Novels:** no novel text was ingested. Short quotes come only from official Wizards summary pages already cited (*The Known Multiverse* 2008, Commander Legends and MH2 legend bios, RTD ep3, *Death and Salvation*, BRO product page). **BLOCKER recorded** in `l244_closure.missing`: no official summary orders Yawgmoth's destruction or Old Phyrexia's decimation; it needs an official recap page.
+- **(4) Sweep:**
+  - Phase 7 (#910): "Who is the guildmaster of X?", "Who is in charge of X?", "Who's the leader of X?" and "Who commands X?" missed for 54/54 factions with cited leaders (216 misses). Now 0 misses across 14 phrasings × 54 factions, except 3 factions (dragonlords, Elves of Eldraine, the Twelve) whose only leader edges point outward (the faction leads a plane); these correctly stay NOT_FOUND. "Who leads the Izzet?" → Ral Zarek (VERIFIED, MULTIPLE_LEADERS_ACROSS_ERAS).
+  - Phase 8 (#911): dry run. Verdict NOT_RELEASE_READY. Blockers: OWNER_APPROVAL 3, OWNER_DECISION 5, EXTERNAL_CI 3, MISSING_SOURCE 2, ENGINEERING_OPEN 4, ONGOING 4. 8 of the 14 items are blocked only by owner action, release-commit CI or ongoing upkeep. See `research/CERTIFICATION_DRY_RUN_2026-10-30.md`.
+  - Phase 3 L222 (dated edges) and Phase 6: nothing new was possible without inventing dates or owner review. L222 still has 33 edges with verbatim in-universe phrases. Phase 6 boxes are engine-feature or owner-approval items.
+- Not done (optional): C023 compound-subject split and the 5 normalised-but-unbridged crosswalk entries (both listed in the #908 audit).
+
+### Status (keep distinct)
+- Research: PRELIMINARY_RESEARCH. Tests: full suite green locally (523 tests on the #910 branch, rc=0; 5 more dry-run tests on #911). CI green on each merged exact head; recount 15/15.
+- Merged: #908–#911. Owner approved / certified: nothing. Protected-path diff vs `dfc8891d`: empty.
+
+## State of the repo — final summary for ChatGPT / Cory (Batch 14 close, workflow v2.42)
+
+**One line:** the engineering side of the first Companion release is built and green; what remains is mostly **owner review** (decks, packs, disputes, policy) plus a few source-blocked and ongoing items. Nothing is owner-approved or certified by this run.
+
+### What exists on `main`
+- **Cards:** priority enrichment 5,362/5,362 (was 3,409 at the start of the run); 33,894-card index reconciled with snapshot `snap-20261029-40848334824-1` (0 Oracle drift).
+- **Set atlas (Phase 1B):** qualified functional release; snapshot gates measured (#900).
+- **Lore graph:** 4,227 nodes, 6,826 edges, 1,139 cited claims (885 CONFIRMED, 241 IMPLIED, 8 DISPUTED, 2 ALTERNATE, 3 OPEN), 600 Wizards sources, 0 non-Wizards; 626/626 inventory pages cited (576) or reviewed with no claim (50). Single schema confirmed by the L220 audit.
+- **Overlays (never written into card_enrichment.json):** story links 208 LINKED / 2,626 NO_LORE_YET; printed-flavor links 23; story-image label printings 570.
+- **Chronology:** quote-gated relative chronology, 56 events, 177 ordered pairs; no invented years.
+- **Companion Q&A:** `scripts/mv_ask.py` (VERIFIED / QUALIFIED / NOT_FOUND, leader/continuity/relations routes, faction aliases, title-style leader questions); recount 15/15.
+- **Decks:** Pilots 1–3 complete, verified, UNAPPROVED proposals.
+- **Release tooling:** `release_readiness.py` (NOT_RELEASE_READY) and `certification_dry_run.py` (typed blockers per item).
+
+### Checklist (workflow v2.42; checked = engineering verified, never owner approval)
+| Phase | Start of run (v2.26) checked/open | Now (v2.42) checked/open |
+|---|---|---|
+| 1 Card database | 7/3 | 10/0 |
+| 1B Set & Printing Atlas | 33/14 | 38/9 |
+| 2 Lore enrichment | 3/6 | 5/4 |
+| 3 Relationship graph | 0/6 | 5/1 (L222 dated edges open) |
+| 4 Foundational packs | 3/5 | 9/5 |
+| 5 Full history | 0/8 | 0/8 (all partial; "exhaustive"/"ongoing" boxes) |
+| 6 Deckbuilder | 0/10 | 0/10 (Pilots built; owner approval needed) |
+| 7 Q&A companion | 0/7 | 2/5 |
+| 8 Release & upkeep | 0/7 | 0/7 (dry run lists each blocker) |
+| Release definition | 0/7 | 0/7 |
+| **Total** | **46/73** | **69/56** |
+
+### What blocks the first release (from the dry run)
+1. **Owner approval:** review one of Pilots 1–3 (unblocks L324); accept Packs A–C (still PRELIMINARY_RESEARCH); accept the documented enrichment gap list.
+2. **Owner decisions:** Pack A disputes GD2–GD7; whether the qualified Phase 1B gate is acceptable; required status checks on main; the milestone definition; the maintenance-track policy.
+3. **Missing sources:** the L151 original Oct 28 bulk (manifest bytes); an official recap ordering Yawgmoth's end / Old Phyrexia (L244).
+4. **Bot can still act (non-owner):** a scheduled monitor for new stories, CR and Commander format updates; refresh `Progress Tracker.md` into completed / under review / blocked / not started; broader hard-query suite (L281); linking in-universe and release timelines only where sourced; C023 split and 5 unbridged crosswalk entries.
+5. **At release time:** fresh snapshot + Oracle drift re-run; all workflows green on the release commit; empty protected-path diff.
 
 ### Owner-only items (only Cory can close these)
 1. **Pilot 1** Ugin & Nicol Bolas — Elder Dragon Duality ([#823](https://github.com/corymstover/GrokBotMTGCompanion/pull/823), merged as UNAPPROVED proposal; `data/lore_decks/drafts/ugin_bolas_elder_dragon_duality_*`) → approve/reject, then check L265.
