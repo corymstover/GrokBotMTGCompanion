@@ -1,6 +1,6 @@
 # MTG Multiverse Companion — Master Workflow & Progress Checklist
 
-**Version:** 2.30
+**Version:** 2.31
 **Checkpoint date:** 2026-10-30
 **Repository:** [corymstover/GrokBotMTGCompanion](https://github.com/corymstover/GrokBotMTGCompanion)  
 **Purpose:** Durable project roadmap and handoff document. Update this file after verified milestone work; do not treat historical figures as live counters.
@@ -209,7 +209,7 @@ Infrastructure checkpoint: [PR #783](https://github.com/corymstover/GrokBotMTGCo
 - [x] Commit a metadata-only provenance record without republishing copyrighted article bodies.
 - [x] Perform initial bounded triage of **341** uncertain name-matched character links.
 - [ ] Ensure future environments can reliably refetch and strictly audit official story text before using it as evidence.
-- [ ] Review the two additional official-source leads (Koth and Wrenn) for exact printing-specific relationships.
+- [x] Review the two additional official-source leads (Koth and Wrenn) for exact printing-specific relationships. *(Done 2026-10-30, Batch 4: `scripts/build_koth_wrenn_printing_leads.py` → `data/lore_research/koth_wrenn_printing_leads_2026-10-30.json`. The review found 10 verbatim leads on cached official pages, 6 of them printing-specific, matching 13 printings. The Legends of Reality Fracture image labels give exact collector numbers: Koth, the Geomancer is FRA #248 and Koth of the Homestead is FRA #199. Art captions credit the card name and artist: Koth, Fire of Resistance is Eric Wilkerson (ONE #138, plus its promos), and Wrenn and Seven is Heonhwa Choe (MID #208 and its same-art reprints; Scryfall's credit is the shorter 'Heonhwa'). MOM Episode 8 captions separate regular-frame and borderless Wrenn and Realmbreaker (MOM #217 / #322). Koth of the Hammer is named only in the planeswalker page title, which does not identify a printing. Three 'Wrenn and Six/Seven' strings are character prose, not card references. No grades changed.)*
 - [ ] Investigate the approximately **1,220** enriched cards that lack a cited lore entry.
 - [ ] Link direct printed depictions, official story references, artwork, flavor text, characters and important events where evidence supports them.
 - [ ] Keep unsupported matches explicitly unresolved; track sources and reasoning for changes.
