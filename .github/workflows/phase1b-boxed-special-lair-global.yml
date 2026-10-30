@@ -1,0 +1,35 @@
+name: Phase 1B Secret Lair and Global Series boxed product sources
+on:
+  push:
+    branches: [main, chatgpt-phase1b-boxed-special-lair-global-20261029]
+    paths:
+      - scripts/audit_boxed_special_lair_global_sources.py
+      - scripts/product_family_lookup.py
+      - tests/test_boxed_special_lair_global_sources.py
+      - data/set_atlas/boxed_special_lair_global_*
+      - .github/workflows/phase1b-boxed-special-lair-global.yml
+  pull_request:
+    paths:
+      - scripts/audit_boxed_special_lair_global_sources.py
+      - scripts/product_family_lookup.py
+      - tests/test_boxed_special_lair_global_sources.py
+      - data/set_atlas/boxed_special_lair_global_*
+      - .github/workflows/phase1b-boxed-special-lair-global.yml
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  boxed-source-review:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify five first-party product sources and explicit-code grades
+        run: python3 -m unittest discover -s tests -p test_boxed_special_lair_global_sources.py -v
+      - name: Reproduce exact source report and current lookup
+        run: |
+          python3 scripts/audit_boxed_special_lair_global_sources.py
+          python3 scripts/product_family_lookup.py --summary
+          python3 -m py_compile scripts/audit_boxed_special_lair_global_sources.py scripts/product_family_lookup.py
