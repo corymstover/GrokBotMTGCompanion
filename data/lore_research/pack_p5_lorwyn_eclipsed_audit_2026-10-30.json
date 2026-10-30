@@ -1,0 +1,188 @@
+{
+ "schema": "story-claim-pipeline-audit/v1",
+ "pack": "data/lore_research/pack_p5_lorwyn_eclipsed_2026-10-30.json",
+ "pack_status": "PRELIMINARY_RESEARCH (not owner approved, not certified)",
+ "arc": "ECL",
+ "claims": 18,
+ "entities": 26,
+ "sources": 12,
+ "grades": {
+  "CANON_CONFIRMED": 15,
+  "CANON_IMPLIED": 3
+ },
+ "quotes": 28,
+ "quotes_verbatim": 28,
+ "quote_rows": [
+  {
+   "claim": "EC001",
+   "source_id": "ecl_guide",
+   "quote_sha256": "2ffebe21bcaa5378ff031980e3a2ef6823e4525d763cfa93e8c2a4d408fa2b28",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "EC002",
+   "source_id": "ecl_guide",
+   "quote_sha256": "2ffebe21bcaa5378ff031980e3a2ef6823e4525d763cfa93e8c2a4d408fa2b28",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "EC003",
+   "source_id": "ecl_guide",
+   "quote_sha256": "40e45018a460fa039a6588e7baa48b10a8bb3762718acfab500b561e37680012",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "EC004",
+   "source_id": "ecl_guide",
+   "quote_sha256": "389ca110e14c43cfce53db69c7aae9852b488c252c6fb1cc061aadf6f8d0e379",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "EC005",
+   "source_id": "ecl_guide",
+   "quote_sha256": "579ad7f99bee75492555067edfb1f030dad10e048ded3039c0cd0ee5aa48432b",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "EC005",
+   "source_id": "ecl_guide",
+   "quote_sha256": "9f3b574986ec007e87643f2ba277ab5614f0c04540580d0d4a36b6c9e37a787d",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "EC006",
+   "source_id": "ecl_ep1",
+   "quote_sha256": "206276f4ffa6e810c2262e977284ca1f2e30090c4e14e6e82fd0a889f9fc9c14",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "EC006",
+   "source_id": "ecl_ep1",
+   "quote_sha256": "df7f0dfb77c7762dbb8564b171047801758b100f6fec33080d294dd6145bdf33",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "EC007",
+   "source_id": "ecl_ep2",
+   "quote_sha256": "9e5c40f1ce14b6ee910cea27bea41a596d9d1907b141a70304ed9a6a19a6b8fb",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "EC007",
+   "source_id": "ecl_ep2",
+   "quote_sha256": "b9e59bc7395ba1234e2180d02738face1c4bbe9a4bf948c2d5ab087e47175439",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "EC008",
+   "source_id": "ecl_ep3",
+   "quote_sha256": "b6dfbdd56aa999e497977a4568791ed016a6f6f8503da5e598a386aa25f7a520",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "EC008",
+   "source_id": "ecl_ep3",
+   "quote_sha256": "df172400b87aa8a4b7e0eb389539a3b1723bac2649187bd5c12a05f4e4e64f1f",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "EC009",
+   "source_id": "ecl_ep4",
+   "quote_sha256": "feb125df59979fe6aacd2dc470697d410601ea7149ddd6b68045d518e9a473c7",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "EC009",
+   "source_id": "ecl_ep4",
+   "quote_sha256": "03fbc90f506ecf3d62e1afdb24eff6a763f40c0ee89e6ac513d0bfcc74bd0037",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "EC010",
+   "source_id": "ecl_ep5",
+   "quote_sha256": "50d4d7135187b9501c3b8318bb91ec00e54f14467909faf8431985f466a3fbea",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "EC010",
+   "source_id": "ecl_ep5",
+   "quote_sha256": "d909cb6307058d1aa5dcb6428446a60e060818d7f84fbf79bd19796ecaf7035f",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "EC011",
+   "source_id": "ecl_ep6",
+   "quote_sha256": "135d4bfe868264ef5822bc5b9b89f5db6e4f673cb8b1da82929f261fa54666ad",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "EC012",
+   "source_id": "ecl_ep7",
+   "quote_sha256": "2e3ed2bf249f8bb7f7cb667d08bcd420fd76bb7c1f3d5480a6893cf3f35c1620",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "EC013",
+   "source_id": "ecl_thieving",
+   "quote_sha256": "3788f5a6016f6a8b0a21ab5b76b3c877317143e6b0544cb4e9974236894ea770",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "EC013",
+   "source_id": "ecl_thieving",
+   "quote_sha256": "173618cd070bcf044e21e5eb4544d3cf5806b720e949adccb959bc72e4ac3d57",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "EC014",
+   "source_id": "ecl_dreams",
+   "quote_sha256": "6801b007b6682f60ba25609d4bb813c0f79d7feed1d5a91408399b6c5c105278",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "EC014",
+   "source_id": "ecl_dreams",
+   "quote_sha256": "d1ecc18d32fbcc4e1bb7fd4f64304cf93600e109bf59619690c959aadb9abb85",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "EC015",
+   "source_id": "ecl_star",
+   "quote_sha256": "0aaa9566c8a082c7c7cce24c23b2200f983b352f0ae0c02bf293bcf6ab581a1a",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "EC015",
+   "source_id": "ecl_star",
+   "quote_sha256": "104e0bcb2569714d80f921847e06692db6f912d2ee8ff15759f5c778797fb9d8",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "EC016",
+   "source_id": "ecl_legends",
+   "quote_sha256": "31a920c85f9483389c8a14c450fc398c9805ddaf98b8ee8c047ebe87cd60f84d",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "EC017",
+   "source_id": "ecl_legends",
+   "quote_sha256": "eb23e1a6e0ff9a6a242668ecc80c875e8f397cb5e7a48bd39e8b53346dfb140f",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "EC017",
+   "source_id": "ecl_legends",
+   "quote_sha256": "2be429cdbc62452547958c3b181b9f813fbddacafa6a041b399f668c7318df83",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "EC018",
+   "source_id": "ecl_legends",
+   "quote_sha256": "e2738e32dcec9d6a6cb7950772340f09cbd43baf232c434d8dbbc73a9137725a",
+   "status": "VERBATIM"
+  }
+ ],
+ "problems": [],
+ "note": "Verbatim-quote audit against cached official Wizards story text. Research evidence only: not owner approval, not certification, not an exhaustive reading.",
+ "content_sha256": "4871d692898a151602fc3eedf1cefef4bef63bb73d384da10e6969ebf230327d"
+}

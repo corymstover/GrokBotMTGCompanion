@@ -7,7 +7,7 @@
   "HYPOTHETICAL": "Creative or deckbuilding connection; never canon.",
   "OPEN_QUESTION": "Primary sources leave the matter unresolved; do not assert either way."
  },
- "content_sha256": "614ed287adbe4bedabec34a4a0f683aa2a439dd776609bc398d662129751da3b",
+ "content_sha256": "b11eaa11f7d021d0dcb90fc72fd8776714f591c09639d939ef6871644e3f18b2",
  "edges": [
   {
    "artists": [
@@ -7553,6 +7553,13 @@
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "artifact:temporal_anchor",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:the_temporal_anchor"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
    "from": "artifact:ugins_nexus",
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
@@ -7564,6 +7571,20 @@
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
    "to": "card:weatherlight"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:abigale",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:abigale_eloquent_first_year"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:abigale",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:abigale_poet_laureate_heroic_stanza"
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
@@ -7707,6 +7728,13 @@
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:alhammarret",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:alhammarret_high_arbiter"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
    "from": "character:alpharael",
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
@@ -7847,6 +7875,41 @@
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:ashling",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:ashling_flame_dancer"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:ashling",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:ashling_rekindled_ashling_rimebound"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:ashling",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:ashling_the_extinguisher"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:ashling",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:ashling_the_limitless"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:ashling",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:ashling_the_pilgrim"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
    "from": "character:ashnod",
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
@@ -7956,6 +8019,27 @@
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
    "to": "card:bontu_the_glorified"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:brigid",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:brigid_clachan_s_heart_brigid_doun_s_mind"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:brigid",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:brigid_hero_of_kinsbaile"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:brigid",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:brigid_who_s_seen_some_stuff"
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
@@ -8085,6 +8169,20 @@
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:dina",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:dina_essence_brewer"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:dina",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:dina_soul_steeper"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
    "from": "character:djeru",
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
@@ -8103,6 +8201,13 @@
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
    "to": "card:edgar_markov"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:eirdu",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:eirdu_carrier_of_dawn_isilu_carrier_of_twilight"
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
@@ -8869,6 +8974,20 @@
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:kirol",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:kirol_attentive_first_year"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:kirol",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:kirol_history_buff_pack_a_punch"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
    "from": "character:klothys",
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
@@ -9083,6 +9202,20 @@
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
    "to": "card:mabel_valley_hero"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:maralen",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:maralen_fae_ascendant"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:maralen",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:maralen_of_the_mornsong"
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
@@ -9366,6 +9499,62 @@
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:niv_mizzet",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:niv_mizzet_dracogenius"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:niv_mizzet",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:niv_mizzet_ghost_counsel"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:niv_mizzet",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:niv_mizzet_guildpact"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:niv_mizzet",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:niv_mizzet_parun"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:niv_mizzet",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:niv_mizzet_reborn"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:niv_mizzet",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:niv_mizzet_supreme"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:niv_mizzet",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:niv_mizzet_the_firemind"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:niv_mizzet",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:niv_mizzet_visionary"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
    "from": "character:noyan_dar",
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
@@ -9527,6 +9716,13 @@
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:oona",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:oona_queen_of_the_fae"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
    "from": "character:palladia_mors",
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
@@ -9601,6 +9797,13 @@
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
    "to": "card:questing_beast"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:quintorius",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:quintorius_kand"
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
@@ -9706,6 +9909,27 @@
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
    "to": "card:rhonas_the_indomitable"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:rhys",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:rhys_the_evermore"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:rhys",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:rhys_the_exiled"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:rhys",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:rhys_the_redeemed"
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
@@ -9853,6 +10077,13 @@
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
    "to": "card:samut_voice_of_dissent"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:sanwell",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:sanwell_avenger_ace"
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
@@ -10896,6 +11127,13 @@
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
    "to": "card:forum_of_amity"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "place:goldmeadow",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:goldmeadow"
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
@@ -12444,6 +12682,114 @@
    "to": "character:mabel"
   },
   {
+   "claim": "BR001",
+   "era": "brothers_war_2022",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:urza",
+   "grade": "CANON_CONFIRMED",
+   "relation": "taught",
+   "sources": [
+    "bro5_ep2"
+   ],
+   "to": "character:tawnos"
+  },
+  {
+   "claim": "BR002",
+   "era": "brothers_war_2022",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:tawnos",
+   "grade": "CANON_CONFIRMED",
+   "relation": "designed",
+   "sources": [
+    "bro5_ep2"
+   ],
+   "to": "artifact:penregon_civils"
+  },
+  {
+   "claim": "BR003",
+   "era": "brothers_war_2022",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:sanwell",
+   "grade": "CANON_CONFIRMED",
+   "relation": "witnessed",
+   "sources": [
+    "bro5_ep3"
+   ],
+   "to": "event:kroog_destruction"
+  },
+  {
+   "claim": "BR004",
+   "era": "brothers_war_2022",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:saheeli",
+   "grade": "CANON_CONFIRMED",
+   "relation": "built",
+   "sources": [
+    "bro5_ch2"
+   ],
+   "to": "artifact:temporal_anchor"
+  },
+  {
+   "claim": "BR005",
+   "era": "brothers_war_2022",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:kaya",
+   "grade": "CANON_CONFIRMED",
+   "relation": "aided",
+   "sources": [
+    "bro5_ch2"
+   ],
+   "to": "character:teferi"
+  },
+  {
+   "claim": "BR006",
+   "era": "brothers_war_2022",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:sheoldred",
+   "grade": "CANON_CONFIRMED",
+   "relation": "blocked_planeswalking_of",
+   "sources": [
+    "bro5_ch3"
+   ],
+   "to": "character:karn"
+  },
+  {
+   "claim": "BR007",
+   "era": "brothers_war_2022",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "faction:phyrexians",
+   "grade": "CANON_IMPLIED",
+   "relation": "captured",
+   "sources": [
+    "bro5_ch3"
+   ],
+   "to": "character:karn"
+  },
+  {
+   "claim": "BR008",
+   "era": "brothers_war_2022",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:elspeth_tirel",
+   "grade": "CANON_CONFIRMED",
+   "relation": "aided",
+   "sources": [
+    "bro5_ch4"
+   ],
+   "to": "character:teferi"
+  },
+  {
+   "claim": "BR009",
+   "era": "brothers_war_2022",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:nissa_revane",
+   "grade": "CANON_CONFIRMED",
+   "relation": "studied",
+   "sources": [
+    "bro5_ch5"
+   ],
+   "to": "faction:phyrexians"
+  },
+  {
    "claim": "BZ001",
    "era": "zendikar_bfz_ogw_2015",
    "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
@@ -13406,6 +13752,222 @@
     "dsk_guide"
    ],
    "to": "character:valgavoth"
+  },
+  {
+   "claim": "EC001",
+   "era": "lorwyn_eclipsed_2025",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:maralen",
+   "grade": "CANON_CONFIRMED",
+   "relation": "defeated",
+   "sources": [
+    "ecl_guide"
+   ],
+   "to": "character:oona"
+  },
+  {
+   "claim": "EC002",
+   "era": "lorwyn_eclipsed_2025",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:rhys",
+   "grade": "CANON_CONFIRMED",
+   "relation": "defeated",
+   "sources": [
+    "ecl_guide"
+   ],
+   "to": "character:oona"
+  },
+  {
+   "claim": "EC003",
+   "era": "lorwyn_eclipsed_2025",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:eirdu",
+   "grade": "CANON_CONFIRMED",
+   "relation": "embodies",
+   "sources": [
+    "ecl_guide"
+   ],
+   "to": "place:lorwyn_aspect"
+  },
+  {
+   "claim": "EC004",
+   "era": "lorwyn_eclipsed_2025",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:isilu",
+   "grade": "CANON_CONFIRMED",
+   "relation": "embodies",
+   "sources": [
+    "ecl_guide"
+   ],
+   "to": "place:shadowmoor_aspect"
+  },
+  {
+   "claim": "EC005",
+   "era": "lorwyn_eclipsed_2025",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "place:eclipsed_realms",
+   "grade": "CANON_CONFIRMED",
+   "relation": "located_on",
+   "sources": [
+    "ecl_guide"
+   ],
+   "to": "plane:lorwyn_shadowmoor"
+  },
+  {
+   "claim": "EC006",
+   "era": "lorwyn_eclipsed_2025",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "place:harriers_wood",
+   "grade": "CANON_IMPLIED",
+   "relation": "located_on",
+   "sources": [
+    "ecl_ep1"
+   ],
+   "to": "plane:arcavios"
+  },
+  {
+   "claim": "EC007",
+   "era": "lorwyn_eclipsed_2025",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:kirol",
+   "grade": "CANON_IMPLIED",
+   "relation": "travelled_to",
+   "sources": [
+    "ecl_ep2"
+   ],
+   "to": "place:lorwyn_aspect"
+  },
+  {
+   "claim": "EC008",
+   "era": "lorwyn_eclipsed_2025",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:liliana_vess",
+   "grade": "CANON_CONFIRMED",
+   "relation": "searched",
+   "sources": [
+    "ecl_ep3"
+   ],
+   "to": "place:harriers_wood"
+  },
+  {
+   "claim": "EC009",
+   "era": "lorwyn_eclipsed_2025",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:lluwen",
+   "grade": "CANON_CONFIRMED",
+   "relation": "captured",
+   "sources": [
+    "ecl_ep4"
+   ],
+   "to": "character:kirol"
+  },
+  {
+   "claim": "EC010",
+   "era": "lorwyn_eclipsed_2025",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:maralen",
+   "grade": "CANON_CONFIRMED",
+   "relation": "aided",
+   "sources": [
+    "ecl_ep5"
+   ],
+   "to": "character:tam"
+  },
+  {
+   "claim": "EC011",
+   "era": "lorwyn_eclipsed_2025",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:ashling",
+   "grade": "CANON_CONFIRMED",
+   "relation": "confronted",
+   "sources": [
+    "ecl_ep6"
+   ],
+   "to": "character:isilu"
+  },
+  {
+   "claim": "EC012",
+   "era": "lorwyn_eclipsed_2025",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:rhys",
+   "grade": "CANON_CONFIRMED",
+   "relation": "tended",
+   "sources": [
+    "ecl_ep7"
+   ],
+   "to": "character:maralen"
+  },
+  {
+   "claim": "EC013",
+   "era": "lorwyn_eclipsed_2025",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:auntie_grub",
+   "grade": "CANON_CONFIRMED",
+   "relation": "member_of",
+   "sources": [
+    "ecl_thieving"
+   ],
+   "to": "faction:boggarts"
+  },
+  {
+   "claim": "EC014",
+   "era": "lorwyn_eclipsed_2025",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:kellan",
+   "grade": "CANON_IMPLIED",
+   "relation": "partner_of",
+   "sources": [
+    "ecl_dreams"
+   ],
+   "to": "character:amalia"
+  },
+  {
+   "claim": "EC015",
+   "era": "lorwyn_eclipsed_2025",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:cerys",
+   "grade": "CANON_CONFIRMED",
+   "relation": "niece_of",
+   "sources": [
+    "ecl_star"
+   ],
+   "to": "character:gethin"
+  },
+  {
+   "claim": "EC016",
+   "era": "lorwyn_eclipsed_2025",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:maralen",
+   "grade": "CANON_CONFIRMED",
+   "relation": "steward_of",
+   "sources": [
+    "ecl_legends"
+   ],
+   "to": "plane:lorwyn_shadowmoor"
+  },
+  {
+   "claim": "EC017",
+   "era": "lorwyn_eclipsed_2025",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:rhys",
+   "grade": "CANON_CONFIRMED",
+   "relation": "bound_by_pact_with",
+   "sources": [
+    "ecl_legends"
+   ],
+   "to": "character:maralen"
+  },
+  {
+   "claim": "EC018",
+   "era": "lorwyn_eclipsed_2025",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:brigid",
+   "grade": "CANON_CONFIRMED",
+   "relation": "lives_in",
+   "sources": [
+    "ecl_legends"
+   ],
+   "to": "place:goldmeadow"
   },
   {
    "claim": "EL001",
@@ -15866,6 +16428,103 @@
    "to": "plane:meditation_realm"
   },
   {
+   "claim": "RF014",
+   "era": "echoverse_rf_2026",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:the_theorist",
+   "grade": "CANON_CONFIRMED",
+   "relation": "controls",
+   "sources": [
+    "rf_ep2"
+   ],
+   "to": "continuity:echoverse"
+  },
+  {
+   "claim": "RF015",
+   "era": "echoverse_rf_2026",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:vraska",
+   "grade": "CANON_CONFIRMED",
+   "relation": "lived_with",
+   "sources": [
+    "rf_ep3"
+   ],
+   "to": "character:ranna_beleren"
+  },
+  {
+   "claim": "RF016",
+   "era": "echoverse_rf_2026",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:ranna_beleren",
+   "grade": "CANON_IMPLIED",
+   "relation": "mother_of",
+   "sources": [
+    "rf_ep3",
+    "rf_ep7"
+   ],
+   "to": "character:jace_beleren"
+  },
+  {
+   "claim": "RF017",
+   "era": "echoverse_rf_2026",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:tam",
+   "grade": "CANON_CONFIRMED",
+   "relation": "surveyed",
+   "sources": [
+    "rf_ep4"
+   ],
+   "to": "plane:innistrad"
+  },
+  {
+   "claim": "RF018",
+   "era": "echoverse_rf_2026",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:vraska",
+   "grade": "CANON_IMPLIED",
+   "relation": "confronted",
+   "sources": [
+    "rf_ep5"
+   ],
+   "to": "character:the_theorist"
+  },
+  {
+   "claim": "RF019",
+   "era": "echoverse_rf_2026",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:tam",
+   "grade": "CANON_CONFIRMED",
+   "relation": "confronted",
+   "sources": [
+    "rf_ep6"
+   ],
+   "to": "character:the_theorist"
+  },
+  {
+   "claim": "RF020",
+   "era": "echoverse_rf_2026",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:the_detective",
+   "grade": "CANON_CONFIRMED",
+   "relation": "opposed",
+   "sources": [
+    "rf_ep7"
+   ],
+   "to": "character:the_theorist"
+  },
+  {
+   "claim": "RF021",
+   "era": "echoverse_rf_2026",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:jace_beleren",
+   "grade": "CANON_IMPLIED",
+   "relation": "served",
+   "sources": [
+    "rf_ep8"
+   ],
+   "to": "character:alhammarret"
+  },
+  {
    "claim": "RTD001",
    "era": "rtd_2018",
    "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
@@ -17169,6 +17828,150 @@
     "sos_legends"
    ],
    "to": "faction:sos_oracles"
+  },
+  {
+   "claim": "SS018",
+   "era": "strixhaven_sos_2026",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:kirol",
+   "grade": "CANON_IMPLIED",
+   "relation": "allied_with",
+   "sources": [
+    "sos_ep1"
+   ],
+   "to": "character:abigale"
+  },
+  {
+   "claim": "SS019",
+   "era": "strixhaven_sos_2026",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:professor_fel",
+   "grade": "CANON_CONFIRMED",
+   "relation": "taught",
+   "sources": [
+    "sos_ep2"
+   ],
+   "to": "character:lluwen"
+  },
+  {
+   "claim": "SS020",
+   "era": "strixhaven_sos_2026",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:abigale",
+   "grade": "CANON_CONFIRMED",
+   "relation": "searched_for",
+   "sources": [
+    "sos_ep3"
+   ],
+   "to": "character:lluwen"
+  },
+  {
+   "claim": "SS021",
+   "era": "strixhaven_sos_2026",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:tam",
+   "grade": "CANON_IMPLIED",
+   "relation": "allied_with",
+   "sources": [
+    "sos_ep4"
+   ],
+   "to": "character:kirol"
+  },
+  {
+   "claim": "SS022",
+   "era": "strixhaven_sos_2026",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:ajani",
+   "grade": "CANON_IMPLIED",
+   "relation": "mentored",
+   "sources": [
+    "sos_ep5"
+   ],
+   "to": "character:chandra_nalaar"
+  },
+  {
+   "claim": "SS023",
+   "era": "strixhaven_sos_2026",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:chandra_nalaar",
+   "grade": "CANON_CONFIRMED",
+   "relation": "travelled_to",
+   "sources": [
+    "sos_ep5"
+   ],
+   "to": "plane:arcavios"
+  },
+  {
+   "claim": "SS024",
+   "era": "strixhaven_sos_2026",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:jilesa_clarus",
+   "grade": "CANON_CONFIRMED",
+   "relation": "interviewed",
+   "sources": [
+    "sos_otr"
+   ],
+   "to": "character:ral_zarek"
+  },
+  {
+   "claim": "SS025",
+   "era": "strixhaven_sos_2026",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "event:summitfest",
+   "grade": "CANON_IMPLIED",
+   "relation": "hosted_by",
+   "sources": [
+    "sos_flame"
+   ],
+   "to": "faction:prismari_college"
+  },
+  {
+   "claim": "SS026",
+   "era": "strixhaven_sos_2026",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:quintorius",
+   "grade": "CANON_IMPLIED",
+   "relation": "member_of",
+   "sources": [
+    "sos_future"
+   ],
+   "to": "faction:lorehold_college"
+  },
+  {
+   "claim": "SS027",
+   "era": "strixhaven_sos_2026",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:zimone",
+   "grade": "CANON_CONFIRMED",
+   "relation": "studied_with",
+   "sources": [
+    "sos_math"
+   ],
+   "to": "character:niv_mizzet"
+  },
+  {
+   "claim": "SS028",
+   "era": "strixhaven_sos_2026",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:killian_lu",
+   "grade": "CANON_CONFIRMED",
+   "relation": "represented",
+   "sources": [
+    "sos_winnow"
+   ],
+   "to": "faction:doradur"
+  },
+  {
+   "claim": "SS029",
+   "era": "strixhaven_sos_2026",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:dina",
+   "grade": "CANON_IMPLIED",
+   "relation": "member_of",
+   "sources": [
+    "sos_lake"
+   ],
+   "to": "faction:witherbloom_college"
   },
   {
    "claim": "SX001",
@@ -18940,6 +19743,12 @@
    "to": "curated:Planeswalker Dossiers.md#nissa-revane"
   },
   {
+   "from": "character:niv_mizzet",
+   "relation": "see_also_curated_entry",
+   "tier": "contextual_pointer",
+   "to": "curated:Planeswalker Dossiers.md#niv-mizzet"
+  },
+  {
    "from": "character:oko",
    "relation": "see_also_curated_entry",
    "tier": "contextual_pointer",
@@ -18982,6 +19791,12 @@
    "relation": "see_also_curated_entry",
    "tier": "contextual_pointer",
    "to": "curated:Planeswalker Dossiers.md#ral-zarek"
+  },
+  {
+   "from": "character:ranna_beleren",
+   "relation": "see_also_curated_entry",
+   "tier": "contextual_pointer",
+   "to": "curated:Characters Index.md#ranna-beleren"
   },
   {
    "from": "character:rith",
@@ -20576,6 +21391,114 @@
    "to": "character:helga"
   },
   {
+   "from": "claim:BR001",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:tawnos"
+  },
+  {
+   "from": "claim:BR001",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:urza"
+  },
+  {
+   "from": "claim:BR002",
+   "relation": "asserts",
+   "role": "object",
+   "to": "artifact:penregon_civils"
+  },
+  {
+   "from": "claim:BR002",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:tawnos"
+  },
+  {
+   "from": "claim:BR003",
+   "relation": "asserts",
+   "role": "object",
+   "to": "event:kroog_destruction"
+  },
+  {
+   "from": "claim:BR003",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:sanwell"
+  },
+  {
+   "from": "claim:BR004",
+   "relation": "asserts",
+   "role": "object",
+   "to": "artifact:temporal_anchor"
+  },
+  {
+   "from": "claim:BR004",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:saheeli"
+  },
+  {
+   "from": "claim:BR005",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:teferi"
+  },
+  {
+   "from": "claim:BR005",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:kaya"
+  },
+  {
+   "from": "claim:BR006",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:karn"
+  },
+  {
+   "from": "claim:BR006",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:sheoldred"
+  },
+  {
+   "from": "claim:BR007",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:karn"
+  },
+  {
+   "from": "claim:BR007",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "faction:phyrexians"
+  },
+  {
+   "from": "claim:BR008",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:teferi"
+  },
+  {
+   "from": "claim:BR008",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:elspeth_tirel"
+  },
+  {
+   "from": "claim:BR009",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:phyrexians"
+  },
+  {
+   "from": "claim:BR009",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:nissa_revane"
+  },
+  {
    "from": "claim:BZ001",
    "relation": "asserts",
    "role": "object",
@@ -21510,6 +22433,222 @@
    "relation": "asserts",
    "role": "subject",
    "to": "character:marina_vendrell"
+  },
+  {
+   "from": "claim:EC001",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:oona"
+  },
+  {
+   "from": "claim:EC001",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:maralen"
+  },
+  {
+   "from": "claim:EC002",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:oona"
+  },
+  {
+   "from": "claim:EC002",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:rhys"
+  },
+  {
+   "from": "claim:EC003",
+   "relation": "asserts",
+   "role": "object",
+   "to": "place:lorwyn_aspect"
+  },
+  {
+   "from": "claim:EC003",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:eirdu"
+  },
+  {
+   "from": "claim:EC004",
+   "relation": "asserts",
+   "role": "object",
+   "to": "place:shadowmoor_aspect"
+  },
+  {
+   "from": "claim:EC004",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:isilu"
+  },
+  {
+   "from": "claim:EC005",
+   "relation": "asserts",
+   "role": "object",
+   "to": "plane:lorwyn_shadowmoor"
+  },
+  {
+   "from": "claim:EC005",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "place:eclipsed_realms"
+  },
+  {
+   "from": "claim:EC006",
+   "relation": "asserts",
+   "role": "object",
+   "to": "plane:arcavios"
+  },
+  {
+   "from": "claim:EC006",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "place:harriers_wood"
+  },
+  {
+   "from": "claim:EC007",
+   "relation": "asserts",
+   "role": "object",
+   "to": "place:lorwyn_aspect"
+  },
+  {
+   "from": "claim:EC007",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:kirol"
+  },
+  {
+   "from": "claim:EC008",
+   "relation": "asserts",
+   "role": "object",
+   "to": "place:harriers_wood"
+  },
+  {
+   "from": "claim:EC008",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:liliana_vess"
+  },
+  {
+   "from": "claim:EC009",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:kirol"
+  },
+  {
+   "from": "claim:EC009",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:lluwen"
+  },
+  {
+   "from": "claim:EC010",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:tam"
+  },
+  {
+   "from": "claim:EC010",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:maralen"
+  },
+  {
+   "from": "claim:EC011",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:isilu"
+  },
+  {
+   "from": "claim:EC011",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:ashling"
+  },
+  {
+   "from": "claim:EC012",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:maralen"
+  },
+  {
+   "from": "claim:EC012",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:rhys"
+  },
+  {
+   "from": "claim:EC013",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:boggarts"
+  },
+  {
+   "from": "claim:EC013",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:auntie_grub"
+  },
+  {
+   "from": "claim:EC014",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:amalia"
+  },
+  {
+   "from": "claim:EC014",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:kellan"
+  },
+  {
+   "from": "claim:EC015",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:gethin"
+  },
+  {
+   "from": "claim:EC015",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:cerys"
+  },
+  {
+   "from": "claim:EC016",
+   "relation": "asserts",
+   "role": "object",
+   "to": "plane:lorwyn_shadowmoor"
+  },
+  {
+   "from": "claim:EC016",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:maralen"
+  },
+  {
+   "from": "claim:EC017",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:maralen"
+  },
+  {
+   "from": "claim:EC017",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:rhys"
+  },
+  {
+   "from": "claim:EC018",
+   "relation": "asserts",
+   "role": "object",
+   "to": "place:goldmeadow"
+  },
+  {
+   "from": "claim:EC018",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:brigid"
   },
   {
    "from": "claim:EL001",
@@ -23906,6 +25045,102 @@
    "to": "character:jace_beleren"
   },
   {
+   "from": "claim:RF014",
+   "relation": "asserts",
+   "role": "object",
+   "to": "continuity:echoverse"
+  },
+  {
+   "from": "claim:RF014",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:the_theorist"
+  },
+  {
+   "from": "claim:RF015",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:ranna_beleren"
+  },
+  {
+   "from": "claim:RF015",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:vraska"
+  },
+  {
+   "from": "claim:RF016",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:jace_beleren"
+  },
+  {
+   "from": "claim:RF016",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:ranna_beleren"
+  },
+  {
+   "from": "claim:RF017",
+   "relation": "asserts",
+   "role": "object",
+   "to": "plane:innistrad"
+  },
+  {
+   "from": "claim:RF017",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:tam"
+  },
+  {
+   "from": "claim:RF018",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:the_theorist"
+  },
+  {
+   "from": "claim:RF018",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:vraska"
+  },
+  {
+   "from": "claim:RF019",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:the_theorist"
+  },
+  {
+   "from": "claim:RF019",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:tam"
+  },
+  {
+   "from": "claim:RF020",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:the_theorist"
+  },
+  {
+   "from": "claim:RF020",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:the_detective"
+  },
+  {
+   "from": "claim:RF021",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:alhammarret"
+  },
+  {
+   "from": "claim:RF021",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:jace_beleren"
+  },
+  {
    "from": "claim:RTD001",
    "relation": "asserts",
    "role": "object",
@@ -25200,6 +26435,150 @@
    "relation": "asserts",
    "role": "subject",
    "to": "character:dawning_archaic"
+  },
+  {
+   "from": "claim:SS018",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:abigale"
+  },
+  {
+   "from": "claim:SS018",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:kirol"
+  },
+  {
+   "from": "claim:SS019",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:lluwen"
+  },
+  {
+   "from": "claim:SS019",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:professor_fel"
+  },
+  {
+   "from": "claim:SS020",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:lluwen"
+  },
+  {
+   "from": "claim:SS020",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:abigale"
+  },
+  {
+   "from": "claim:SS021",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:kirol"
+  },
+  {
+   "from": "claim:SS021",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:tam"
+  },
+  {
+   "from": "claim:SS022",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:chandra_nalaar"
+  },
+  {
+   "from": "claim:SS022",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:ajani"
+  },
+  {
+   "from": "claim:SS023",
+   "relation": "asserts",
+   "role": "object",
+   "to": "plane:arcavios"
+  },
+  {
+   "from": "claim:SS023",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:chandra_nalaar"
+  },
+  {
+   "from": "claim:SS024",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:ral_zarek"
+  },
+  {
+   "from": "claim:SS024",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:jilesa_clarus"
+  },
+  {
+   "from": "claim:SS025",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:prismari_college"
+  },
+  {
+   "from": "claim:SS025",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "event:summitfest"
+  },
+  {
+   "from": "claim:SS026",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:lorehold_college"
+  },
+  {
+   "from": "claim:SS026",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:quintorius"
+  },
+  {
+   "from": "claim:SS027",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:niv_mizzet"
+  },
+  {
+   "from": "claim:SS027",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:zimone"
+  },
+  {
+   "from": "claim:SS028",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:doradur"
+  },
+  {
+   "from": "claim:SS028",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:killian_lu"
+  },
+  {
+   "from": "claim:SS029",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:witherbloom_college"
+  },
+  {
+   "from": "claim:SS029",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:dina"
   },
   {
    "from": "claim:SX001",
@@ -26715,6 +28094,12 @@
    "to": "curated:Planes Index.md#kaldheim"
   },
   {
+   "from": "plane:lorwyn_shadowmoor",
+   "relation": "see_also_curated_entry",
+   "tier": "contextual_pointer",
+   "to": "curated:Planes Index.md#lorwyn-shadowmoor"
+  },
+  {
    "from": "plane:new_capenna",
    "relation": "see_also_curated_entry",
    "tier": "contextual_pointer",
@@ -27083,6 +28468,51 @@
    "from": "source:brink_extinction",
    "relation": "cited_by",
    "to": "claim:U011"
+  },
+  {
+   "from": "source:bro5_ch2",
+   "relation": "cited_by",
+   "to": "claim:BR004"
+  },
+  {
+   "from": "source:bro5_ch2",
+   "relation": "cited_by",
+   "to": "claim:BR005"
+  },
+  {
+   "from": "source:bro5_ch3",
+   "relation": "cited_by",
+   "to": "claim:BR006"
+  },
+  {
+   "from": "source:bro5_ch3",
+   "relation": "cited_by",
+   "to": "claim:BR007"
+  },
+  {
+   "from": "source:bro5_ch4",
+   "relation": "cited_by",
+   "to": "claim:BR008"
+  },
+  {
+   "from": "source:bro5_ch5",
+   "relation": "cited_by",
+   "to": "claim:BR009"
+  },
+  {
+   "from": "source:bro5_ep2",
+   "relation": "cited_by",
+   "to": "claim:BR001"
+  },
+  {
+   "from": "source:bro5_ep2",
+   "relation": "cited_by",
+   "to": "claim:BR002"
+  },
+  {
+   "from": "source:bro5_ep3",
+   "relation": "cited_by",
+   "to": "claim:BR003"
   },
   {
    "from": "source:bro_card_stories_1",
@@ -27552,6 +28982,96 @@
    "from": "source:dsk_guide",
    "relation": "cited_by",
    "to": "claim:DS011"
+  },
+  {
+   "from": "source:ecl_dreams",
+   "relation": "cited_by",
+   "to": "claim:EC014"
+  },
+  {
+   "from": "source:ecl_ep1",
+   "relation": "cited_by",
+   "to": "claim:EC006"
+  },
+  {
+   "from": "source:ecl_ep2",
+   "relation": "cited_by",
+   "to": "claim:EC007"
+  },
+  {
+   "from": "source:ecl_ep3",
+   "relation": "cited_by",
+   "to": "claim:EC008"
+  },
+  {
+   "from": "source:ecl_ep4",
+   "relation": "cited_by",
+   "to": "claim:EC009"
+  },
+  {
+   "from": "source:ecl_ep5",
+   "relation": "cited_by",
+   "to": "claim:EC010"
+  },
+  {
+   "from": "source:ecl_ep6",
+   "relation": "cited_by",
+   "to": "claim:EC011"
+  },
+  {
+   "from": "source:ecl_ep7",
+   "relation": "cited_by",
+   "to": "claim:EC012"
+  },
+  {
+   "from": "source:ecl_guide",
+   "relation": "cited_by",
+   "to": "claim:EC001"
+  },
+  {
+   "from": "source:ecl_guide",
+   "relation": "cited_by",
+   "to": "claim:EC002"
+  },
+  {
+   "from": "source:ecl_guide",
+   "relation": "cited_by",
+   "to": "claim:EC003"
+  },
+  {
+   "from": "source:ecl_guide",
+   "relation": "cited_by",
+   "to": "claim:EC004"
+  },
+  {
+   "from": "source:ecl_guide",
+   "relation": "cited_by",
+   "to": "claim:EC005"
+  },
+  {
+   "from": "source:ecl_legends",
+   "relation": "cited_by",
+   "to": "claim:EC016"
+  },
+  {
+   "from": "source:ecl_legends",
+   "relation": "cited_by",
+   "to": "claim:EC017"
+  },
+  {
+   "from": "source:ecl_legends",
+   "relation": "cited_by",
+   "to": "claim:EC018"
+  },
+  {
+   "from": "source:ecl_star",
+   "relation": "cited_by",
+   "to": "claim:EC015"
+  },
+  {
+   "from": "source:ecl_thieving",
+   "relation": "cited_by",
+   "to": "claim:EC013"
   },
   {
    "from": "source:eld_guide",
@@ -29022,6 +30542,51 @@
    "to": "claim:RF011"
   },
   {
+   "from": "source:rf_ep2",
+   "relation": "cited_by",
+   "to": "claim:RF014"
+  },
+  {
+   "from": "source:rf_ep3",
+   "relation": "cited_by",
+   "to": "claim:RF015"
+  },
+  {
+   "from": "source:rf_ep3",
+   "relation": "cited_by",
+   "to": "claim:RF016"
+  },
+  {
+   "from": "source:rf_ep4",
+   "relation": "cited_by",
+   "to": "claim:RF017"
+  },
+  {
+   "from": "source:rf_ep5",
+   "relation": "cited_by",
+   "to": "claim:RF018"
+  },
+  {
+   "from": "source:rf_ep6",
+   "relation": "cited_by",
+   "to": "claim:RF019"
+  },
+  {
+   "from": "source:rf_ep7",
+   "relation": "cited_by",
+   "to": "claim:RF016"
+  },
+  {
+   "from": "source:rf_ep7",
+   "relation": "cited_by",
+   "to": "claim:RF020"
+  },
+  {
+   "from": "source:rf_ep8",
+   "relation": "cited_by",
+   "to": "claim:RF021"
+  },
+  {
    "from": "source:rf_ep9",
    "relation": "cited_by",
    "to": "claim:RF004"
@@ -29562,6 +31127,36 @@
    "to": "claim:U006"
   },
   {
+   "from": "source:sos_ep1",
+   "relation": "cited_by",
+   "to": "claim:SS018"
+  },
+  {
+   "from": "source:sos_ep2",
+   "relation": "cited_by",
+   "to": "claim:SS019"
+  },
+  {
+   "from": "source:sos_ep3",
+   "relation": "cited_by",
+   "to": "claim:SS020"
+  },
+  {
+   "from": "source:sos_ep4",
+   "relation": "cited_by",
+   "to": "claim:SS021"
+  },
+  {
+   "from": "source:sos_ep5",
+   "relation": "cited_by",
+   "to": "claim:SS022"
+  },
+  {
+   "from": "source:sos_ep5",
+   "relation": "cited_by",
+   "to": "claim:SS023"
+  },
+  {
    "from": "source:sos_ep6",
    "relation": "cited_by",
    "to": "claim:SS012"
@@ -29577,6 +31172,16 @@
    "to": "claim:SS014"
   },
   {
+   "from": "source:sos_flame",
+   "relation": "cited_by",
+   "to": "claim:SS025"
+  },
+  {
+   "from": "source:sos_future",
+   "relation": "cited_by",
+   "to": "claim:SS026"
+  },
+  {
    "from": "source:sos_guide",
    "relation": "cited_by",
    "to": "claim:SS015"
@@ -29590,6 +31195,11 @@
    "from": "source:sos_guide",
    "relation": "cited_by",
    "to": "claim:SS017"
+  },
+  {
+   "from": "source:sos_lake",
+   "relation": "cited_by",
+   "to": "claim:SS029"
   },
   {
    "from": "source:sos_legends",
@@ -29650,6 +31260,21 @@
    "from": "source:sos_legends",
    "relation": "cited_by",
    "to": "claim:SS017"
+  },
+  {
+   "from": "source:sos_math",
+   "relation": "cited_by",
+   "to": "claim:SS027"
+  },
+  {
+   "from": "source:sos_otr",
+   "relation": "cited_by",
+   "to": "claim:SS024"
+  },
+  {
+   "from": "source:sos_winnow",
+   "relation": "cited_by",
+   "to": "claim:SS028"
   },
   {
    "from": "source:stone_and_blood",
@@ -30354,11 +31979,11 @@
     "sources": 18
    },
    {
-    "claims": 13,
-    "entities": 12,
+    "claims": 21,
+    "entities": 16,
     "file": "data/lore_research/pack_p5_reality_fracture_2026-10-30.json",
-    "sha256": "ecac28e15e92587adc70e0e0ed258b8c1e54368e43c3b9b38b962f7aa0a11a8e",
-    "sources": 5
+    "sha256": "d087e3c5f63b985b14f085e51d8762bbb59b369654b3c45c9a2148f15d46c040",
+    "sources": 12
    },
    {
     "claims": 14,
@@ -30459,11 +32084,11 @@
     "sources": 1
    },
    {
-    "claims": 17,
-    "entities": 24,
+    "claims": 29,
+    "entities": 37,
     "file": "data/lore_research/pack_p5_secrets_of_strixhaven_2026-10-30.json",
-    "sha256": "6e7d7b513f11d5019688c9950695ff5f08a2d90aa2940b4a2e42c43039fc4409",
-    "sources": 3
+    "sha256": "1e037e921c628e5a8603d4b697078c044eacc8535073ae0a4c76154d2b1744e8",
+    "sources": 14
    },
    {
     "claims": 36,
@@ -30485,6 +32110,20 @@
     "file": "data/lore_research/pack_p5_tarkir_dragonstorm_2026-10-30.json",
     "sha256": "a82afcc42d7c4cea5742cfc67ebba25f74934560bc16ae22ff5136f2aff73a2f",
     "sources": 14
+   },
+   {
+    "claims": 18,
+    "entities": 26,
+    "file": "data/lore_research/pack_p5_lorwyn_eclipsed_2026-10-30.json",
+    "sha256": "535834313fa8f87a025faef9b72fd871fb325de68afefb923bd282756b7af52c",
+    "sources": 12
+   },
+   {
+    "claims": 9,
+    "entities": 14,
+    "file": "data/lore_research/pack_p5_brothers_war_2026-10-30.json",
+    "sha256": "f81f7395bac7e45523bf51214e9b4799de4d178216d714069dedc9288b7d8e2f",
+    "sources": 6
    }
   ],
   "deck_evidence": [
@@ -30506,9 +32145,9 @@
   ],
   "name_anchor_packs": [
    {
-    "anchors": 497,
+    "anchors": 531,
     "file": "data/lore_research/card_name_anchors_2026-10-30.json",
-    "sha256": "a1a8f79b9dd77a82372d9ed0a8a6682d0b2b6a3da2d82023ee10b43e4af724c1"
+    "sha256": "49846099e3d0009653604f02f86f08105e8481863781b75758252f59ecf9aaac"
    }
   ],
   "story_caption_packs": [
@@ -30732,6 +32371,14 @@
    "type": "Object"
   },
   {
+   "id": "artifact:penregon_civils",
+   "name": "Penregon's civils",
+   "origins": [
+    "pack_p5_brothers_war_2026-10-30.json"
+   ],
+   "type": "Object"
+  },
+  {
    "id": "artifact:planar_bridge",
    "name": "Planar Bridge",
    "origins": [
@@ -30830,6 +32477,14 @@
    "type": "Object"
   },
   {
+   "id": "artifact:temporal_anchor",
+   "name": "The Temporal Anchor",
+   "origins": [
+    "pack_p5_brothers_war_2026-10-30.json"
+   ],
+   "type": "Object"
+  },
+  {
    "id": "artifact:ugins_gem",
    "name": "Ugin's gem (TDM)",
    "origins": [
@@ -30877,6 +32532,24 @@
    "oracle_id": "09be0f69-9c7f-491f-964d-bfbbc2d4251f",
    "origins": [
     "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:abigale_eloquent_first_year",
+   "name": "Abigale, Eloquent First-Year",
+   "oracle_id": "48a773d0-c433-4463-b50f-b6d4604a042c",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:abigale_poet_laureate_heroic_stanza",
+   "name": "Abigale, Poet Laureate // Heroic Stanza",
+   "oracle_id": "2f5f46ed-b8aa-4864-bd20-17281d4632bf",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -31130,6 +32803,15 @@
    "oracle_id": "6969a7e2-6866-4001-a139-24b3be13deae",
    "origins": [
     "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:alhammarret_high_arbiter",
+   "name": "Alhammarret, High Arbiter",
+   "oracle_id": "c2531360-61f8-4edc-886b-408811a0639d",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -31460,6 +33142,51 @@
    "id": "card:ashiok_wicked_manipulator",
    "name": "Ashiok, Wicked Manipulator",
    "oracle_id": "67d66678-a8e6-4f80-bade-1f1daf4b0610",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:ashling_flame_dancer",
+   "name": "Ashling, Flame Dancer",
+   "oracle_id": "6fe9fd59-9cac-4572-8f94-bc19bea44f94",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:ashling_rekindled_ashling_rimebound",
+   "name": "Ashling, Rekindled // Ashling, Rimebound",
+   "oracle_id": "31fc5d8b-94bc-4688-8a84-f15800e717a8",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:ashling_the_extinguisher",
+   "name": "Ashling, the Extinguisher",
+   "oracle_id": "e89e102f-e3bc-4c16-bb27-09db83cec5ec",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:ashling_the_limitless",
+   "name": "Ashling, the Limitless",
+   "oracle_id": "77a9e7cf-76e9-4323-8504-a5b831de00be",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:ashling_the_pilgrim",
+   "name": "Ashling the Pilgrim",
+   "oracle_id": "bc92f0ba-2cf0-453c-a0d3-98a8784fe55b",
    "origins": [
     "card_name_anchors_2026-10-30.json"
    ],
@@ -31883,6 +33610,33 @@
    "oracle_id": "1954994f-17bf-4ea5-af72-60f9bfcb6569",
    "origins": [
     "original_primeval_dragons_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:brigid_clachan_s_heart_brigid_doun_s_mind",
+   "name": "Brigid, Clachan's Heart // Brigid, Doun's Mind",
+   "oracle_id": "60fc89a1-cc6f-4a32-84c3-09abf7a4a1df",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:brigid_hero_of_kinsbaile",
+   "name": "Brigid, Hero of Kinsbaile",
+   "oracle_id": "929ad5c3-4efe-44c3-93ac-eda432814385",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:brigid_who_s_seen_some_stuff",
+   "name": "Brigid, Who's Seen Some Stuff",
+   "oracle_id": "f4bf3077-b06b-4cb8-8ff4-3adf4f9da8e9",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -32729,6 +34483,24 @@
    "type": "Card"
   },
   {
+   "id": "card:dina_essence_brewer",
+   "name": "Dina, Essence Brewer",
+   "oracle_id": "f61c1dc4-2f09-4b50-957f-ee656c659072",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:dina_soul_steeper",
+   "name": "Dina, Soul Steeper",
+   "oracle_id": "2121bcb4-f5fe-447f-9112-c7e5b5c45baf",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:disciple_of_bolas",
    "name": "Disciple of Bolas",
    "oracle_id": "8f2c8498-5b10-4ec7-8678-598c90987556",
@@ -32961,6 +34733,15 @@
    "id": "card:edgar_markov",
    "name": "Edgar Markov",
    "oracle_id": "41e2790d-49f5-4e98-b8d9-04179f47f13a",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:eirdu_carrier_of_dawn_isilu_carrier_of_twilight",
+   "name": "Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight",
+   "oracle_id": "36af3c2c-49d7-46ea-ab02-c254b332448e",
    "origins": [
     "card_name_anchors_2026-10-30.json"
    ],
@@ -33862,6 +35643,15 @@
    "oracle_id": "e4648fa3-0343-414b-b04d-07fe0d132145",
    "origins": [
     "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:goldmeadow",
+   "name": "Goldmeadow",
+   "oracle_id": "f12400e5-8288-48e1-b3b7-0cc4f8d9ca67",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -35072,6 +36862,24 @@
    "type": "Card"
   },
   {
+   "id": "card:kirol_attentive_first_year",
+   "name": "Kirol, Attentive First-Year",
+   "oracle_id": "3a272fa9-5f28-43a4-95de-10cb511f1b43",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:kirol_history_buff_pack_a_punch",
+   "name": "Kirol, History Buff // Pack a Punch",
+   "oracle_id": "df1c0d06-2109-4297-9271-8a003fc892bc",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:klothys_god_of_destiny",
    "name": "Klothys, God of Destiny",
    "oracle_id": "e8473969-195f-41ee-a84d-463cc8c0ef02",
@@ -35634,6 +37442,24 @@
    "oracle_id": "74d3277a-38e5-4732-afed-084a56148f20",
    "origins": [
     "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:maralen_fae_ascendant",
+   "name": "Maralen, Fae Ascendant",
+   "oracle_id": "114e1d2c-cefc-4e2a-922e-3b2ceed1871d",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:maralen_of_the_mornsong",
+   "name": "Maralen of the Mornsong",
+   "oracle_id": "0b40032b-711d-499f-8bb9-87855f1fce9e",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -36278,6 +38104,78 @@
    "type": "Card"
   },
   {
+   "id": "card:niv_mizzet_dracogenius",
+   "name": "Niv-Mizzet, Dracogenius",
+   "oracle_id": "899d58dc-60b2-4013-9f91-c1888c585d66",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:niv_mizzet_ghost_counsel",
+   "name": "Niv-Mizzet, Ghost Counsel",
+   "oracle_id": "a5350327-e84c-44b6-8359-87882e521048",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:niv_mizzet_guildpact",
+   "name": "Niv-Mizzet, Guildpact",
+   "oracle_id": "46570366-5e58-40b7-b725-833321a3b7b1",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:niv_mizzet_parun",
+   "name": "Niv-Mizzet, Parun",
+   "oracle_id": "33666a98-812f-4892-9f8d-33e0cbecc340",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:niv_mizzet_reborn",
+   "name": "Niv-Mizzet Reborn",
+   "oracle_id": "10764b35-5c6c-4161-8579-1124d5963a0e",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:niv_mizzet_supreme",
+   "name": "Niv-Mizzet, Supreme",
+   "oracle_id": "4c3a865a-88b1-43e0-b326-17c45670da54",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:niv_mizzet_the_firemind",
+   "name": "Niv-Mizzet, the Firemind",
+   "oracle_id": "959acb66-84ca-4535-bca2-ad591895735e",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:niv_mizzet_visionary",
+   "name": "Niv-Mizzet, Visionary",
+   "oracle_id": "d9f1dc61-831e-4244-a2da-aa9da6fd5b50",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:no_escape",
    "name": "No Escape",
    "oracle_id": "7c6e0198-edd8-42b8-ba1b-549e1713d188",
@@ -36615,6 +38513,15 @@
    "oracle_id": "730e39e6-c61d-48b5-8827-bfd952bf1be7",
    "origins": [
     "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:oona_queen_of_the_fae",
+   "name": "Oona, Queen of the Fae",
+   "oracle_id": "6052822d-47a2-4d69-a32d-40cdd600d7a9",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -36999,6 +38906,15 @@
    "type": "Card"
   },
   {
+   "id": "card:quintorius_kand",
+   "name": "Quintorius Kand",
+   "oracle_id": "91babc5f-ebeb-4894-8c35-b0f60249cb80",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:radha_coalition_warlord",
    "name": "Radha, Coalition Warlord",
    "oracle_id": "fbf0bde7-cb13-402b-b3ab-81c787ce4827",
@@ -37242,6 +39158,33 @@
    "origins": [
     "card_name_anchors_2026-10-30.json",
     "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:rhys_the_evermore",
+   "name": "Rhys, the Evermore",
+   "oracle_id": "9f013b5d-fff0-4c50-8621-158b6dc34834",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:rhys_the_exiled",
+   "name": "Rhys the Exiled",
+   "oracle_id": "7613c50b-4568-4340-b64a-ab427aaffd51",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:rhys_the_redeemed",
+   "name": "Rhys the Redeemed",
+   "oracle_id": "f7252190-ad24-4ba3-a644-2790dd1d680d",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -37555,6 +39498,15 @@
    "origins": [
     "story_art_captions_2026-10-30.json",
     "ugins_allies_and_heroes_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:sanwell_avenger_ace",
+   "name": "Sanwell, Avenger Ace",
+   "oracle_id": "4884ad6c-2290-44fc-ab9e-6e6b75b2d69a",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -39006,6 +40958,15 @@
    "type": "Card"
   },
   {
+   "id": "card:the_temporal_anchor",
+   "name": "The Temporal Anchor",
+   "oracle_id": "168f2fbb-8cf7-43e0-8bb6-5e4cc3c1e363",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:the_theorist_jace_beleren",
    "name": "The Theorist, Jace Beleren",
    "oracle_id": "89a6e876-0b00-4671-9652-766fd7ef9bf2",
@@ -40380,6 +42341,14 @@
    "type": "CardTheme"
   },
   {
+   "id": "character:abigale",
+   "name": "Abigale",
+   "origins": [
+    "pack_p5_secrets_of_strixhaven_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
    "id": "character:aclazotz",
    "name": "Aclazotz",
    "origins": [
@@ -40404,7 +42373,9 @@
     "pack_c3_assault_on_new_phyrexia_2026-10-30.json",
     "pack_c4_march_of_the_machine_2026-10-30.json",
     "pack_p5_kaladesh_aether_revolt_2026-10-30.json",
+    "pack_p5_lorwyn_eclipsed_2026-10-30.json",
     "pack_p5_mom_aftermath_2026-10-30.json",
+    "pack_p5_secrets_of_strixhaven_2026-10-30.json",
     "pack_p5_streets_of_new_capenna_2026-10-30.json",
     "pack_p5_tarkir_dragonstorm_2026-10-30.json",
     "pack_p5_theros_ths_2026-10-30.json"
@@ -40424,6 +42395,14 @@
    "name": "Alena",
    "origins": [
     "pack_p5_shadows_eldritch_moon_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:alhammarret",
+   "name": "Alhammarret",
+   "origins": [
+    "pack_p5_reality_fracture_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -40456,6 +42435,7 @@
    "id": "character:amalia",
    "name": "Amalia",
    "origins": [
+    "pack_p5_lorwyn_eclipsed_2026-10-30.json",
     "pack_p5_lost_caverns_of_ixalan_2026-10-30.json"
    ],
    "type": "Character"
@@ -40544,6 +42524,14 @@
    "type": "Character"
   },
   {
+   "id": "character:ashling",
+   "name": "Ashling",
+   "origins": [
+    "pack_p5_lorwyn_eclipsed_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
    "id": "character:ashnod",
    "name": "Ashnod",
    "origins": [
@@ -40564,6 +42552,14 @@
    "name": "Augusta, Order Returned",
    "origins": [
     "pack_p5_secrets_of_strixhaven_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:auntie_grub",
+   "name": "Auntie Grub",
+   "origins": [
+    "pack_p5_lorwyn_eclipsed_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -40648,6 +42644,14 @@
    "type": "Character"
   },
   {
+   "id": "character:brigid",
+   "name": "Brigid",
+   "origins": [
+    "pack_p5_lorwyn_eclipsed_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
    "id": "character:brimaz",
    "name": "Brimaz",
    "origins": [
@@ -40680,6 +42684,14 @@
    "type": "Character"
   },
   {
+   "id": "character:cerys",
+   "name": "Cerys",
+   "origins": [
+    "pack_p5_lorwyn_eclipsed_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
    "id": "character:chandra_nalaar",
    "name": "Chandra Nalaar",
    "origins": [
@@ -40689,7 +42701,8 @@
     "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json",
     "pack_p5_battle_for_zendikar_oath_2026-10-30.json",
     "pack_p5_kaladesh_aether_revolt_2026-10-30.json",
-    "pack_p5_mom_aftermath_2026-10-30.json"
+    "pack_p5_mom_aftermath_2026-10-30.json",
+    "pack_p5_secrets_of_strixhaven_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -40767,6 +42780,15 @@
    "type": "Character"
   },
   {
+   "id": "character:dina",
+   "name": "Dina",
+   "origins": [
+    "pack_p5_lorwyn_eclipsed_2026-10-30.json",
+    "pack_p5_secrets_of_strixhaven_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
    "id": "character:djeru",
    "name": "Djeru",
    "origins": [
@@ -40807,6 +42829,14 @@
    "type": "Character"
   },
   {
+   "id": "character:eirdu",
+   "name": "Eirdu",
+   "origins": [
+    "pack_p5_lorwyn_eclipsed_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
    "id": "character:elesh_norn",
    "name": "Elesh Norn",
    "origins": [
@@ -40827,6 +42857,7 @@
     "pack_c3_assault_on_new_phyrexia_2026-10-30.json",
     "pack_c4_march_of_the_machine_2026-10-30.json",
     "pack_p5_aetherdrift_2026-10-30.json",
+    "pack_p5_brothers_war_2026-10-30.json",
     "pack_p5_streets_of_new_capenna_2026-10-30.json",
     "pack_p5_tarkir_dragonstorm_2026-10-30.json",
     "pack_p5_theros_beyond_death_2026-10-30.json",
@@ -40932,6 +42963,14 @@
    "origins": [
     "pack_c2_return_to_dominaria_2026-10-30.json",
     "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:gethin",
+   "name": "Gethin",
+   "origins": [
+    "pack_p5_lorwyn_eclipsed_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -41125,6 +43164,14 @@
    "type": "Character"
   },
   {
+   "id": "character:isilu",
+   "name": "Isilu",
+   "origins": [
+    "pack_p5_lorwyn_eclipsed_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
    "id": "character:izoni",
    "name": "Izoni",
    "origins": [
@@ -41174,6 +43221,14 @@
    "origins": [
     "pack_c2_return_to_dominaria_2026-10-30.json",
     "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:jilesa_clarus",
+   "name": "Jilesa Clarus",
+   "origins": [
+    "pack_p5_secrets_of_strixhaven_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -41261,6 +43316,7 @@
     "pack_c3_assault_on_new_phyrexia_2026-10-30.json",
     "pack_c4_march_of_the_machine_2026-10-30.json",
     "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json",
+    "pack_p5_brothers_war_2026-10-30.json",
     "pack_p5_mom_aftermath_2026-10-30.json"
    ],
    "type": "Character"
@@ -41278,6 +43334,7 @@
    "name": "Kaya",
    "origins": [
     "pack_c3_assault_on_new_phyrexia_2026-10-30.json",
+    "pack_p5_brothers_war_2026-10-30.json",
     "pack_p5_kaldheim_2026-10-30.json",
     "pack_p5_murders_at_karlov_manor_2026-10-30.json"
    ],
@@ -41303,6 +43360,7 @@
    "id": "character:kellan",
    "name": "Kellan",
    "origins": [
+    "pack_p5_lorwyn_eclipsed_2026-10-30.json",
     "pack_p5_lost_caverns_of_ixalan_2026-10-30.json",
     "pack_p5_murders_at_karlov_manor_2026-10-30.json",
     "pack_p5_outlaws_of_thunder_junction_2026-10-30.json",
@@ -41356,6 +43414,15 @@
    "name": "Kiran Nalaar",
    "origins": [
     "pack_p5_kaladesh_aether_revolt_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:kirol",
+   "name": "Kirol",
+   "origins": [
+    "pack_p5_lorwyn_eclipsed_2026-10-30.json",
+    "pack_p5_secrets_of_strixhaven_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -41465,6 +43532,7 @@
     "pack_c4_march_of_the_machine_2026-10-30.json",
     "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json",
     "pack_p5_kaladesh_aether_revolt_2026-10-30.json",
+    "pack_p5_lorwyn_eclipsed_2026-10-30.json",
     "pack_p5_reality_fracture_2026-10-30.json",
     "pack_p5_shadows_eldritch_moon_2026-10-30.json",
     "pack_p5_strixhaven_2026-10-30.json"
@@ -41491,6 +43559,7 @@
    "id": "character:lluwen",
    "name": "Lluwen",
    "origins": [
+    "pack_p5_lorwyn_eclipsed_2026-10-30.json",
     "pack_p5_secrets_of_strixhaven_2026-10-30.json"
    ],
    "type": "Character"
@@ -41550,6 +43619,14 @@
    "name": "Mahitab",
    "origins": [
     "pack_p5_aetherdrift_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:maralen",
+   "name": "Maralen",
+   "origins": [
+    "pack_p5_lorwyn_eclipsed_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -41741,8 +43818,17 @@
     "pack_p5_aetherdrift_2026-10-30.json",
     "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json",
     "pack_p5_battle_for_zendikar_oath_2026-10-30.json",
+    "pack_p5_brothers_war_2026-10-30.json",
     "pack_p5_kaladesh_aether_revolt_2026-10-30.json",
     "pack_p5_mom_aftermath_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:niv_mizzet",
+   "name": "Niv-Mizzet",
+   "origins": [
+    "pack_p5_secrets_of_strixhaven_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -41839,6 +43925,14 @@
    "type": "Character"
   },
   {
+   "id": "character:oona",
+   "name": "Oona",
+   "origins": [
+    "pack_p5_lorwyn_eclipsed_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
    "id": "character:paala",
    "name": "Paala",
    "origins": [
@@ -41897,6 +43991,14 @@
    "type": "Character"
   },
   {
+   "id": "character:professor_fel",
+   "name": "Professor Fel",
+   "origins": [
+    "pack_p5_secrets_of_strixhaven_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
    "id": "character:professor_onyx",
    "name": "Professor Onyx",
    "origins": [
@@ -41909,6 +44011,14 @@
    "name": "Questing Beast",
    "origins": [
     "pack_p5_throne_of_eldraine_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:quintorius",
+   "name": "Quintorius Kand",
+   "origins": [
+    "pack_p5_secrets_of_strixhaven_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -41945,6 +44055,14 @@
     "pack_p5_bloomburrow_2026-10-30.json",
     "pack_p5_outlaws_of_thunder_junction_2026-10-30.json",
     "pack_p5_secrets_of_strixhaven_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:ranna_beleren",
+   "name": "Ranna Beleren",
+   "origins": [
+    "pack_p5_reality_fracture_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -41997,6 +44115,14 @@
    "type": "Character"
   },
   {
+   "id": "character:rhys",
+   "name": "Rhys",
+   "origins": [
+    "pack_p5_lorwyn_eclipsed_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
    "id": "character:rith",
    "name": "Rith",
    "origins": [
@@ -42027,6 +44153,7 @@
    "name": "Saheeli",
    "origins": [
     "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json",
+    "pack_p5_brothers_war_2026-10-30.json",
     "pack_p5_ixalan_rivals_2026-10-30.json",
     "pack_p5_kaladesh_aether_revolt_2026-10-30.json",
     "pack_p5_lost_caverns_of_ixalan_2026-10-30.json"
@@ -42054,6 +44181,14 @@
    "name": "Samut",
    "origins": [
     "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:sanwell",
+   "name": "Sanwell",
+   "origins": [
+    "pack_p5_brothers_war_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -42098,7 +44233,8 @@
    "name": "Sheoldred",
    "origins": [
     "pack_c4_march_of_the_machine_2026-10-30.json",
-    "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json"
+    "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json",
+    "pack_p5_brothers_war_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -42157,6 +44293,7 @@
    "id": "character:tam",
    "name": "Tam (Tamira)",
    "origins": [
+    "pack_p5_lorwyn_eclipsed_2026-10-30.json",
     "pack_p5_reality_fracture_2026-10-30.json",
     "pack_p5_secrets_of_strixhaven_2026-10-30.json"
    ],
@@ -42192,7 +44329,8 @@
    "id": "character:tawnos",
    "name": "Tawnos",
    "origins": [
-    "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json"
+    "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json",
+    "pack_p5_brothers_war_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -42212,6 +44350,7 @@
     "pack_c2_return_to_dominaria_2026-10-30.json",
     "pack_c4_march_of_the_machine_2026-10-30.json",
     "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json",
+    "pack_p5_brothers_war_2026-10-30.json",
     "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json",
     "pack_p5_mom_aftermath_2026-10-30.json"
    ],
@@ -42250,6 +44389,14 @@
    "name": "Thassa",
    "origins": [
     "pack_p5_theros_ths_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:the_detective",
+   "name": "The Detective (aspect of Jace)",
+   "origins": [
+    "pack_p5_reality_fracture_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -42374,7 +44521,8 @@
    "origins": [
     "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json",
     "pack_c2_return_to_dominaria_2026-10-30.json",
-    "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json"
+    "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json",
+    "pack_p5_brothers_war_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -43857,6 +46005,108 @@
   },
   {
    "grade": "CANON_CONFIRMED",
+   "id": "claim:BR001",
+   "name": "Urza's instruction turned Tawnos from a clever toymaker into a master artificer.",
+   "origins": [
+    "pack_p5_brothers_war_2026-10-30.json"
+   ],
+   "predicate": "taught",
+   "stage": "brothers_war_2022",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:BR002",
+   "limitation": "Episode dated 69 AR.",
+   "name": "Tawnos designed Penregon's civil machines, based on the theory of Urza's war machines.",
+   "origins": [
+    "pack_p5_brothers_war_2026-10-30.json"
+   ],
+   "predicate": "designed",
+   "stage": "brothers_war_2022",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:BR003",
+   "limitation": "Episode dated 28 AR.",
+   "name": "The pilot Sanwell is in Kroog on the morning the city is destroyed.",
+   "origins": [
+    "pack_p5_brothers_war_2026-10-30.json"
+   ],
+   "predicate": "witnessed",
+   "stage": "brothers_war_2022",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:BR004",
+   "name": "Saheeli builds the Temporal Anchor from Jodah's plans, altered to project a spirit back in time rather than matter.",
+   "origins": [
+    "pack_p5_brothers_war_2026-10-30.json"
+   ],
+   "predicate": "built",
+   "stage": "brothers_war_2022",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:BR005",
+   "name": "Kaya uses her ghostform to make Teferi incorporeal so the Temporal Anchor can send his spirit back in time.",
+   "origins": [
+    "pack_p5_brothers_war_2026-10-30.json"
+   ],
+   "predicate": "aided",
+   "stage": "brothers_war_2022",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:BR006",
+   "name": "Sheoldred found a way to interfere with Karn's planeswalking on Dominaria.",
+   "origins": [
+    "pack_p5_brothers_war_2026-10-30.json"
+   ],
+   "predicate": "blocked_planeswalking_of",
+   "stage": "brothers_war_2022",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:BR007",
+   "limitation": "Captivity is shown, not stated; the location (New Phyrexia) is not graded here.",
+   "name": "The captive Karn is examined for dissection by Phyrexian Suture Bishops while Tezzeret watches.",
+   "origins": [
+    "pack_p5_brothers_war_2026-10-30.json"
+   ],
+   "predicate": "captured",
+   "stage": "brothers_war_2022",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:BR008",
+   "name": "On Dominaria, Elspeth commands a mechanical garrison at Teferi's request.",
+   "origins": [
+    "pack_p5_brothers_war_2026-10-30.json"
+   ],
+   "predicate": "aided",
+   "stage": "brothers_war_2022",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:BR009",
+   "name": "Nissa spent days on Ravnica with Chandra learning about the Phyrexians before coming to Dominaria.",
+   "origins": [
+    "pack_p5_brothers_war_2026-10-30.json"
+   ],
+   "predicate": "studied",
+   "stage": "brothers_war_2022",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
    "id": "claim:BZ001",
    "limitation": "Official story-summary recap.",
    "name": "Ugin, Nahiri and Sorin together imprisoned the Eldrazi titans on Zendikar.",
@@ -44730,6 +46980,207 @@
    ],
    "predicate": "related_to",
    "stage": "duskmourn_dsk_2024",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:EC001",
+   "name": "After the Great Aurora, Oona was defeated by a coalition of Maralen, Rhys, Brigid, Sygg, Ashling and Colfenor.",
+   "origins": [
+    "pack_p5_lorwyn_eclipsed_2026-10-30.json"
+   ],
+   "predicate": "defeated",
+   "stage": "lorwyn_eclipsed_2025",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:EC002",
+   "name": "Rhys was part of the coalition that defeated Oona.",
+   "origins": [
+    "pack_p5_lorwyn_eclipsed_2026-10-30.json"
+   ],
+   "predicate": "defeated",
+   "stage": "lorwyn_eclipsed_2025",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:EC003",
+   "name": "Eirdu is the living embodiment of Lorwyn and a symbol of the sun.",
+   "origins": [
+    "pack_p5_lorwyn_eclipsed_2026-10-30.json"
+   ],
+   "predicate": "embodies",
+   "stage": "lorwyn_eclipsed_2025",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:EC004",
+   "name": "Isilu is the living embodiment of Shadowmoor and a symbol of the moon.",
+   "origins": [
+    "pack_p5_lorwyn_eclipsed_2026-10-30.json"
+   ],
+   "predicate": "embodies",
+   "stage": "lorwyn_eclipsed_2025",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:EC005",
+   "name": "Eclipsed realms are pockets of a third state, neither light nor shadow, where Lorwyn and Shadowmoor meet.",
+   "origins": [
+    "pack_p5_lorwyn_eclipsed_2026-10-30.json"
+   ],
+   "predicate": "located_on",
+   "stage": "lorwyn_eclipsed_2025",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:EC006",
+   "limitation": "Location on Arcavios is inferred from the campus and Strixhaven references.",
+   "name": "Dina leads Strixhaven students on a sample-collecting trip to the Harrier's Wood, an hour's walk from campus.",
+   "origins": [
+    "pack_p5_lorwyn_eclipsed_2026-10-30.json"
+   ],
+   "predicate": "located_on",
+   "stage": "lorwyn_eclipsed_2025",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:EC007",
+   "limitation": "The quoted 'we' is one of the students; Kirol's presence is shown elsewhere in the episode.",
+   "name": "The Strixhaven students (Kirol, Abigale, Tam, Sanar) fall through a tunnel into Lorwyn.",
+   "origins": [
+    "pack_p5_lorwyn_eclipsed_2026-10-30.json"
+   ],
+   "predicate": "travelled_to",
+   "stage": "lorwyn_eclipsed_2025",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:EC008",
+   "name": "Strixhaven professors Liliana and Ajani search the Harrier's Wood for the missing students.",
+   "origins": [
+    "pack_p5_lorwyn_eclipsed_2026-10-30.json"
+   ],
+   "predicate": "searched",
+   "stage": "lorwyn_eclipsed_2025",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:EC009",
+   "name": "The elf Lluwen takes Kirol captive, believing they have information for the 'high perfect'.",
+   "origins": [
+    "pack_p5_lorwyn_eclipsed_2026-10-30.json"
+   ],
+   "predicate": "captured",
+   "stage": "lorwyn_eclipsed_2025",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:EC010",
+   "name": "Maralen leads Sanar and Tam in an escape while avoiding Rhys's pursuit.",
+   "origins": [
+    "pack_p5_lorwyn_eclipsed_2026-10-30.json"
+   ],
+   "predicate": "aided",
+   "stage": "lorwyn_eclipsed_2025",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:EC011",
+   "name": "Ashling places herself between the students and the advancing Isilu.",
+   "origins": [
+    "pack_p5_lorwyn_eclipsed_2026-10-30.json"
+   ],
+   "predicate": "confronted",
+   "stage": "lorwyn_eclipsed_2025",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:EC012",
+   "name": "Rhys kneels beside the dying Maralen after the battle with Isilu.",
+   "origins": [
+    "pack_p5_lorwyn_eclipsed_2026-10-30.json"
+   ],
+   "predicate": "tended",
+   "stage": "lorwyn_eclipsed_2025",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:EC013",
+   "name": "Auntie Grub, a boggart, tells young boggarts the tale of four boggarts who raided a giant's lair.",
+   "origins": [
+    "pack_p5_lorwyn_eclipsed_2026-10-30.json"
+   ],
+   "predicate": "member_of",
+   "stage": "lorwyn_eclipsed_2025",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:EC014",
+   "limitation": "The relationship is shown through affectionate scenes, not stated; the story is told in dream-like sections.",
+   "name": "Kellan shares things from Lorwyn with Amalia in his cabin.",
+   "origins": [
+    "pack_p5_lorwyn_eclipsed_2026-10-30.json"
+   ],
+   "predicate": "partner_of",
+   "stage": "lorwyn_eclipsed_2025",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:EC015",
+   "name": "Cerys inherits the Shadowmoor house and belongings of her late uncle Gethin.",
+   "origins": [
+    "pack_p5_lorwyn_eclipsed_2026-10-30.json"
+   ],
+   "predicate": "niece_of",
+   "stage": "lorwyn_eclipsed_2025",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:EC016",
+   "name": "Maralen, originally an avatar of Oona, is steward of Lorwyn-Shadowmoor alongside Eirdu and Isilu.",
+   "origins": [
+    "pack_p5_lorwyn_eclipsed_2026-10-30.json"
+   ],
+   "predicate": "steward_of",
+   "stage": "lorwyn_eclipsed_2025",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:EC017",
+   "name": "Maralen granted Rhys immortality on condition that he poison her if Oona's power corrupts her.",
+   "origins": [
+    "pack_p5_lorwyn_eclipsed_2026-10-30.json"
+   ],
+   "predicate": "bound_by_pact_with",
+   "stage": "lorwyn_eclipsed_2025",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:EC018",
+   "name": "Brigid now trains the city watch in Goldmeadow.",
+   "origins": [
+    "pack_p5_lorwyn_eclipsed_2026-10-30.json"
+   ],
+   "predicate": "lives_in",
+   "stage": "lorwyn_eclipsed_2025",
    "type": "Claim"
   },
   {
@@ -46975,6 +49426,100 @@
   },
   {
    "grade": "CANON_CONFIRMED",
+   "id": "claim:RF014",
+   "limitation": "The second line is reported by another character, not said by the Theorist.",
+   "name": "The Theorist has total control over the Echoverse and believes it must overwrite the existing Multiverse to become permanent.",
+   "origins": [
+    "pack_p5_reality_fracture_2026-10-30.json"
+   ],
+   "predicate": "controls",
+   "stage": "echoverse_rf_2026",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:RF015",
+   "name": "After Jace's death, Vraska lives on Vryn with Jace's mother, Ranna Beleren, in his old flat.",
+   "origins": [
+    "pack_p5_reality_fracture_2026-10-30.json"
+   ],
+   "predicate": "lived_with",
+   "stage": "echoverse_rf_2026",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:RF016",
+   "limitation": "Motherhood is given by 'mother and beloved' and Vraska's line to the Detective, not by a direct statement.",
+   "name": "Ranna Beleren is Jace's mother.",
+   "origins": [
+    "pack_p5_reality_fracture_2026-10-30.json"
+   ],
+   "predicate": "mother_of",
+   "stage": "echoverse_rf_2026",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:RF017",
+   "limitation": "Whether this Innistrad is the original plane or its Echoverse counterpart is not graded.",
+   "name": "Tam measures the dimensions of the (Echoverse) plane of Innistrad.",
+   "origins": [
+    "pack_p5_reality_fracture_2026-10-30.json"
+   ],
+   "predicate": "surveyed",
+   "stage": "echoverse_rf_2026",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:RF018",
+   "limitation": "The episode is told in repeated 'attempts'; the outcome of each is not graded.",
+   "name": "Vraska (with Ajani) arrives at the Theorist's sanctum as he resolves to kill the oracle.",
+   "origins": [
+    "pack_p5_reality_fracture_2026-10-30.json"
+   ],
+   "predicate": "confronted",
+   "stage": "echoverse_rf_2026",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:RF019",
+   "name": "Tam climbs to the Theorist's sanctum and presents her measurements to him.",
+   "origins": [
+    "pack_p5_reality_fracture_2026-10-30.json"
+   ],
+   "predicate": "confronted",
+   "stage": "echoverse_rf_2026",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:RF020",
+   "limitation": "That the Detective is an aspect of Jace is inferred from 'our body'.",
+   "name": "The Detective, another aspect sharing Jace's body, says the Theorist must be stopped and their shared body must die to halt the merging.",
+   "origins": [
+    "pack_p5_reality_fracture_2026-10-30.json"
+   ],
+   "predicate": "opposed",
+   "stage": "echoverse_rf_2026",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:RF021",
+   "limitation": "The scene is a memory inside a mental trap, told from shifting points of view.",
+   "name": "In a memory trap, Vraska relives Jace's youthful work as the sphinx Alhammarret's spy and assassin on Vryn.",
+   "origins": [
+    "pack_p5_reality_fracture_2026-10-30.json"
+   ],
+   "predicate": "served",
+   "stage": "echoverse_rf_2026",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
    "id": "claim:RTD001",
    "name": "Jhoira raises the sunken Weatherlight with merfolk and a human salvage crew and begins rebuilding it.",
    "origins": [
@@ -48197,6 +50742,145 @@
     "pack_p5_secrets_of_strixhaven_2026-10-30.json"
    ],
    "predicate": "originated_from",
+   "stage": "strixhaven_sos_2026",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:SS018",
+   "limitation": "Some letter writers are not named in the quoted lines; the friendship is inferred from the exchange.",
+   "name": "In letters during field study, Abigale, Kirol, Tam and their friends recall the bonds of friendship they formed in Lorwyn.",
+   "origins": [
+    "pack_p5_secrets_of_strixhaven_2026-10-30.json"
+   ],
+   "predicate": "allied_with",
+   "stage": "strixhaven_sos_2026",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:SS019",
+   "name": "Professor Fel leads the field-study class that Lluwen is part of.",
+   "origins": [
+    "pack_p5_secrets_of_strixhaven_2026-10-30.json"
+   ],
+   "predicate": "taught",
+   "stage": "strixhaven_sos_2026",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:SS020",
+   "name": "At the Titan's Grave dig site, Abigale (who signs, with a telepathic hearing aid) searches for the missing Lluwen.",
+   "origins": [
+    "pack_p5_secrets_of_strixhaven_2026-10-30.json"
+   ],
+   "predicate": "searched_for",
+   "stage": "strixhaven_sos_2026",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:SS021",
+   "limitation": "Alliance is inferred from their joint action in the scene.",
+   "name": "Tam and Kirol work together after a collapse traps students.",
+   "origins": [
+    "pack_p5_secrets_of_strixhaven_2026-10-30.json"
+   ],
+   "predicate": "allied_with",
+   "stage": "strixhaven_sos_2026",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:SS022",
+   "limitation": "The text frames this as Ajani's doubt about mentoring her, not a settled relationship.",
+   "name": "Ajani travels with Chandra and struggles with his role as her teacher and mentor.",
+   "origins": [
+    "pack_p5_secrets_of_strixhaven_2026-10-30.json"
+   ],
+   "predicate": "mentored",
+   "stage": "strixhaven_sos_2026",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:SS023",
+   "name": "Chandra is on Arcavios during the Secrets of Strixhaven story.",
+   "origins": [
+    "pack_p5_secrets_of_strixhaven_2026-10-30.json"
+   ],
+   "predicate": "travelled_to",
+   "stage": "strixhaven_sos_2026",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:SS024",
+   "name": "Jilesa Clarus, a Strixhaven Star reporter, interviews Professor Ral Zarek.",
+   "origins": [
+    "pack_p5_secrets_of_strixhaven_2026-10-30.json"
+   ],
+   "predicate": "interviewed",
+   "stage": "strixhaven_sos_2026",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:SS025",
+   "limitation": "'Hosted by' is inferred from the Prismari crest and invitations; the narrator is unnamed in these lines.",
+   "name": "Summitfest is a month-long Prismari festival with a showcase at the end of the month.",
+   "origins": [
+    "pack_p5_secrets_of_strixhaven_2026-10-30.json"
+   ],
+   "predicate": "hosted_by",
+   "stage": "strixhaven_sos_2026",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:SS026",
+   "limitation": "Membership is given through another character's view of him.",
+   "name": "Quintorius Kand, a loxodon geomancer, is a Lorehold scholar returning to the Lorehold campus.",
+   "origins": [
+    "pack_p5_secrets_of_strixhaven_2026-10-30.json"
+   ],
+   "predicate": "member_of",
+   "stage": "strixhaven_sos_2026",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:SS027",
+   "limitation": "The Firemind is identified with Niv-Mizzet by his standard epithet, not by name in this quote.",
+   "name": "After graduating, Zimone, who did her thesis with the Firemind (Niv-Mizzet), lives in a cramped Ravnican apartment.",
+   "origins": [
+    "pack_p5_secrets_of_strixhaven_2026-10-30.json"
+   ],
+   "predicate": "studied_with",
+   "stage": "strixhaven_sos_2026",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:SS028",
+   "name": "Killian Lu fights a Forum duel representing Doradur against a Pinzari opponent.",
+   "origins": [
+    "pack_p5_secrets_of_strixhaven_2026-10-30.json"
+   ],
+   "predicate": "represented",
+   "stage": "strixhaven_sos_2026",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:SS029",
+   "limitation": "Dina's membership is inferred from the group description.",
+   "name": "Dina and her friends are Witherbloom students.",
+   "origins": [
+    "pack_p5_secrets_of_strixhaven_2026-10-30.json"
+   ],
+   "predicate": "member_of",
    "stage": "strixhaven_sos_2026",
    "type": "Claim"
   },
@@ -49902,6 +52586,14 @@
    "type": "Concept"
   },
   {
+   "id": "curated:Characters Index.md#ranna-beleren",
+   "name": "Characters Index.md#ranna-beleren",
+   "origins": [
+    "lore_graph.json"
+   ],
+   "type": "Concept"
+  },
+  {
    "id": "curated:Characters Index.md#rowan-kenrith",
    "name": "Characters Index.md#rowan-kenrith",
    "origins": [
@@ -50174,6 +52866,14 @@
    "type": "Concept"
   },
   {
+   "id": "curated:Planes Index.md#lorwyn-shadowmoor",
+   "name": "Planes Index.md#lorwyn-shadowmoor",
+   "origins": [
+    "lore_graph.json"
+   ],
+   "type": "Concept"
+  },
+  {
    "id": "curated:Planes Index.md#new-capenna",
    "name": "Planes Index.md#new-capenna",
    "origins": [
@@ -50344,6 +53044,14 @@
   {
    "id": "curated:Planeswalker Dossiers.md#nissa-revane",
    "name": "Planeswalker Dossiers.md#nissa-revane",
+   "origins": [
+    "lore_graph.json"
+   ],
+   "type": "Concept"
+  },
+  {
+   "id": "curated:Planeswalker Dossiers.md#niv-mizzet",
+   "name": "Planeswalker Dossiers.md#niv-mizzet",
    "origins": [
     "lore_graph.json"
    ],
@@ -50565,6 +53273,14 @@
    "type": "Event"
   },
   {
+   "id": "event:kroog_destruction",
+   "name": "The destruction of Kroog",
+   "origins": [
+    "pack_p5_brothers_war_2026-10-30.json"
+   ],
+   "type": "Event"
+  },
+  {
    "id": "event:last_battle_argoth",
    "name": "Last Battle on Argoth",
    "origins": [
@@ -50585,6 +53301,14 @@
    "name": "Original-timeline Tarkir clash",
    "origins": [
     "pack_a_ugin_bolas_evidence_2026-10-30.json"
+   ],
+   "type": "Event"
+  },
+  {
+   "id": "event:summitfest",
+   "name": "Summitfest",
+   "origins": [
+    "pack_p5_secrets_of_strixhaven_2026-10-30.json"
    ],
    "type": "Event"
   },
@@ -50657,6 +53381,14 @@
    "name": "Azorius Senate",
    "origins": [
     "pack_p5_murders_at_karlov_manor_2026-10-30.json"
+   ],
+   "type": "Faction"
+  },
+  {
+   "id": "faction:boggarts",
+   "name": "Boggarts",
+   "origins": [
+    "pack_p5_lorwyn_eclipsed_2026-10-30.json"
    ],
    "type": "Faction"
   },
@@ -50753,6 +53485,14 @@
    "name": "Demon jarls of Immersturm",
    "origins": [
     "pack_p5_kaldheim_2026-10-30.json"
+   ],
+   "type": "Faction"
+  },
+  {
+   "id": "faction:doradur",
+   "name": "Doradur",
+   "origins": [
+    "pack_p5_secrets_of_strixhaven_2026-10-30.json"
    ],
    "type": "Faction"
   },
@@ -50989,6 +53729,7 @@
    "id": "faction:phyrexians",
    "name": "The Phyrexians",
    "origins": [
+    "pack_p5_brothers_war_2026-10-30.json",
     "pack_p5_secrets_of_strixhaven_2026-10-30.json",
     "pack_p5_streets_of_new_capenna_2026-10-30.json",
     "pack_p5_theros_beyond_death_2026-10-30.json",
@@ -51009,6 +53750,14 @@
    "name": "Planeswalkers",
    "origins": [
     "pack_p5_mom_aftermath_2026-10-30.json"
+   ],
+   "type": "Faction"
+  },
+  {
+   "id": "faction:prismari_college",
+   "name": "Prismari College",
+   "origins": [
+    "pack_p5_secrets_of_strixhaven_2026-10-30.json"
    ],
    "type": "Faction"
   },
@@ -51393,6 +54142,14 @@
    "type": "Place"
   },
   {
+   "id": "place:eclipsed_realms",
+   "name": "The eclipsed realms",
+   "origins": [
+    "pack_p5_lorwyn_eclipsed_2026-10-30.json"
+   ],
+   "type": "Place"
+  },
+  {
    "id": "place:emeria_skyclave",
    "name": "Emeria Skyclave",
    "origins": [
@@ -51430,6 +54187,22 @@
    "name": "Garenbrig",
    "origins": [
     "pack_p5_throne_of_eldraine_2026-10-30.json"
+   ],
+   "type": "Place"
+  },
+  {
+   "id": "place:goldmeadow",
+   "name": "Goldmeadow",
+   "origins": [
+    "pack_p5_lorwyn_eclipsed_2026-10-30.json"
+   ],
+   "type": "Place"
+  },
+  {
+   "id": "place:harriers_wood",
+   "name": "The Harrier's Wood",
+   "origins": [
+    "pack_p5_lorwyn_eclipsed_2026-10-30.json"
    ],
    "type": "Place"
   },
@@ -51479,6 +54252,14 @@
    "name": "Locthwain",
    "origins": [
     "pack_p5_throne_of_eldraine_2026-10-30.json"
+   ],
+   "type": "Place"
+  },
+  {
+   "id": "place:lorwyn_aspect",
+   "name": "Lorwyn (day aspect)",
+   "origins": [
+    "pack_p5_lorwyn_eclipsed_2026-10-30.json"
    ],
    "type": "Place"
   },
@@ -51583,6 +54364,14 @@
    "name": "Setessa",
    "origins": [
     "pack_p5_theros_ths_2026-10-30.json"
+   ],
+   "type": "Place"
+  },
+  {
+   "id": "place:shadowmoor_aspect",
+   "name": "Shadowmoor (night aspect)",
+   "origins": [
+    "pack_p5_lorwyn_eclipsed_2026-10-30.json"
    ],
    "type": "Place"
   },
@@ -51716,6 +54505,7 @@
    "id": "plane:arcavios",
    "name": "Arcavios",
    "origins": [
+    "pack_p5_lorwyn_eclipsed_2026-10-30.json",
     "pack_p5_secrets_of_strixhaven_2026-10-30.json"
    ],
    "type": "Plane"
@@ -51770,6 +54560,7 @@
    "name": "Innistrad",
    "origins": [
     "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json",
+    "pack_p5_reality_fracture_2026-10-30.json",
     "pack_p5_shadows_eldritch_moon_2026-10-30.json"
    ],
    "type": "Plane"
@@ -51807,6 +54598,14 @@
    "origins": [
     "pack_c4_march_of_the_machine_2026-10-30.json",
     "pack_p5_kamigawa_neon_dynasty_2026-10-30.json"
+   ],
+   "type": "Plane"
+  },
+  {
+   "id": "plane:lorwyn_shadowmoor",
+   "name": "Lorwyn-Shadowmoor",
+   "origins": [
+    "pack_p5_lorwyn_eclipsed_2026-10-30.json"
    ],
    "type": "Plane"
   },
@@ -51854,6 +54653,14 @@
    "origins": [
     "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json",
     "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json"
+   ],
+   "type": "Plane"
+  },
+  {
+   "id": "plane:ravnica",
+   "name": "Ravnica",
+   "origins": [
+    "pack_p5_secrets_of_strixhaven_2026-10-30.json"
    ],
    "type": "Plane"
   },
@@ -52289,6 +55096,72 @@
    "url": "https://magic.wizards.com/en/news/magic-story/brink-extinction-2016-02-10"
   },
   {
+   "id": "source:bro5_ch2",
+   "kind": "official_story_episode",
+   "name": "The Brothers' War | Chapter 2: Antiquities",
+   "origins": [
+    "pack_p5_brothers_war_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/the-brothers-war-chapter-2-antiquities"
+  },
+  {
+   "id": "source:bro5_ch3",
+   "kind": "official_story_episode",
+   "name": "The Brothers' War | Chapter 3: Nemesis",
+   "origins": [
+    "pack_p5_brothers_war_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/the-brothers-war-chapter-3-nemesis"
+  },
+  {
+   "id": "source:bro5_ch4",
+   "kind": "official_story_episode",
+   "name": "The Brothers' War | Chapter 4: The Dark",
+   "origins": [
+    "pack_p5_brothers_war_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/the-brothers-war-chapter-4-the-dark"
+  },
+  {
+   "id": "source:bro5_ch5",
+   "kind": "official_story_episode",
+   "name": "The Brothers' War | Chapter 5: Exodus",
+   "origins": [
+    "pack_p5_brothers_war_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/the-brothers-war-chapter-5-exodus"
+  },
+  {
+   "id": "source:bro5_ep2",
+   "kind": "official_story_episode",
+   "name": "The Brothers' War | Episode 2: The Beginning",
+   "origins": [
+    "pack_p5_brothers_war_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/the-brothers-war-episode-2-the-beginning"
+  },
+  {
+   "id": "source:bro5_ep3",
+   "kind": "official_story_episode",
+   "name": "The Brothers' War | Episode 3: Sword One",
+   "origins": [
+    "pack_p5_brothers_war_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/the-brothers-war-episode-3-sword-one"
+  },
+  {
    "id": "source:bro_card_stories_1",
    "kind": "official_design_article",
    "name": "Making Magic | The Brothers' War Card Stories, Part 1",
@@ -52636,6 +55509,138 @@
    "source_class": "WIZARDS_OFFICIAL",
    "type": "Source",
    "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-duskmourn"
+  },
+  {
+   "id": "source:ecl_dreams",
+   "kind": "official_story_episode",
+   "name": "Lorwyn Eclipsed | Three Dreams, Three Truths",
+   "origins": [
+    "pack_p5_lorwyn_eclipsed_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/lorwyn-eclipsed-three-dreams-three-truths"
+  },
+  {
+   "id": "source:ecl_ep1",
+   "kind": "official_story_episode",
+   "name": "Lorwyn Eclipsed | Episode 1: Out of This Wood",
+   "origins": [
+    "pack_p5_lorwyn_eclipsed_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/lorwyn-eclipsed-episode-1-out-of-this-wood"
+  },
+  {
+   "id": "source:ecl_ep2",
+   "kind": "official_story_episode",
+   "name": "Lorwyn Eclipsed | Episode 2: Shake Off Slumber",
+   "origins": [
+    "pack_p5_lorwyn_eclipsed_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/lorwyn-eclipsed-episode-2-shake-off-slumber"
+  },
+  {
+   "id": "source:ecl_ep3",
+   "kind": "official_story_episode",
+   "name": "Lorwyn Eclipsed | Episode 3: Aweary of This Moon",
+   "origins": [
+    "pack_p5_lorwyn_eclipsed_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/lorwyn-eclipsed-episode-3-aweary-of-this-moon"
+  },
+  {
+   "id": "source:ecl_ep4",
+   "kind": "official_story_episode",
+   "name": "Lorwyn Eclipsed | Episode 4: Fetch Me That Flower",
+   "origins": [
+    "pack_p5_lorwyn_eclipsed_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/lorwyn-eclipsed-episode-4-fetch-me-that-flower"
+  },
+  {
+   "id": "source:ecl_ep5",
+   "kind": "official_story_episode",
+   "name": "Lorwyn Eclipsed | Episode 5: If We Shadows",
+   "origins": [
+    "pack_p5_lorwyn_eclipsed_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/lorwyn-eclipsed-episode-5-if-we-shadows"
+  },
+  {
+   "id": "source:ecl_ep6",
+   "kind": "official_story_episode",
+   "name": "Lorwyn Eclipsed | Episode 6: Full of Hateful Fantasies",
+   "origins": [
+    "pack_p5_lorwyn_eclipsed_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/lorwyn-eclipsed-episode-6-full-of-hateful-fantasies"
+  },
+  {
+   "id": "source:ecl_ep7",
+   "kind": "official_story_episode",
+   "name": "Lorwyn Eclipsed | Episode 7: The Charm Dissolves Apace",
+   "origins": [
+    "pack_p5_lorwyn_eclipsed_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/lorwyn-eclipsed-episode-7-the-charm-dissolves-apace"
+  },
+  {
+   "id": "source:ecl_guide",
+   "kind": "official_planeswalkers_guide",
+   "name": "Planeswalker's Guide to Lorwyn Eclipsed",
+   "origins": [
+    "pack_p5_lorwyn_eclipsed_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-to-lorwyn-eclipsed"
+  },
+  {
+   "id": "source:ecl_legends",
+   "kind": "official_story_episode",
+   "name": "The Legends of Lorwyn Eclipsed",
+   "origins": [
+    "pack_p5_lorwyn_eclipsed_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/the-legends-of-lorwyn-eclipsed"
+  },
+  {
+   "id": "source:ecl_star",
+   "kind": "official_story_episode",
+   "name": "Lorwyn Eclipsed | Star-Crossed",
+   "origins": [
+    "pack_p5_lorwyn_eclipsed_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/lorwyn-eclipsed-star-crossed"
+  },
+  {
+   "id": "source:ecl_thieving",
+   "kind": "official_story_episode",
+   "name": "Lorwyn Eclipsed | Much Ado About Thieving",
+   "origins": [
+    "pack_p5_lorwyn_eclipsed_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/lorwyn-eclipsed-much-ado-about-thieving"
   },
   {
    "id": "source:eld_guide",
@@ -54005,6 +57010,83 @@
    "url": "https://magic.wizards.com/en/news/magic-story/reality-fracture-episode-10-happy-birthday"
   },
   {
+   "id": "source:rf_ep2",
+   "kind": "official_story_episode",
+   "name": "Reality Fracture | Episode 2: Purge Yourself of Doubt",
+   "origins": [
+    "pack_p5_reality_fracture_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/reality-fracture-episode-2-purge-yourself-of-doubt"
+  },
+  {
+   "id": "source:rf_ep3",
+   "kind": "official_story_episode",
+   "name": "Reality Fracture | Episode 3: I Can Be Both",
+   "origins": [
+    "pack_p5_reality_fracture_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/reality-fracture-episode-3-i-can-be-both"
+  },
+  {
+   "id": "source:rf_ep4",
+   "kind": "official_story_episode",
+   "name": "Reality Fracture | Episode 4: Oh, Sweetie",
+   "origins": [
+    "pack_p5_reality_fracture_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/reality-fracture-episode-4-oh-sweetie"
+  },
+  {
+   "id": "source:rf_ep5",
+   "kind": "official_story_episode",
+   "name": "Reality Fracture | Episode 5: I Don't Need to Convince You",
+   "origins": [
+    "pack_p5_reality_fracture_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/reality-fracture-episode-5-i-dont-need-to-convince-you"
+  },
+  {
+   "id": "source:rf_ep6",
+   "kind": "official_story_episode",
+   "name": "Reality Fracture | Episode 6: The Man Who Kills His Own Ambition",
+   "origins": [
+    "pack_p5_reality_fracture_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/reality-fracture-episode-6-the-man-who-kills-his-own-ambition"
+  },
+  {
+   "id": "source:rf_ep7",
+   "kind": "official_story_episode",
+   "name": "Reality Fracture | Episode 7: Pick Up the Pieces",
+   "origins": [
+    "pack_p5_reality_fracture_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/reality-fracture-episode-7-pick-up-the-pieces"
+  },
+  {
+   "id": "source:rf_ep8",
+   "kind": "official_story_episode",
+   "name": "Reality Fracture | Episode 8: Keep Your Lids Open",
+   "origins": [
+    "pack_p5_reality_fracture_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/reality-fracture-episode-8-keep-your-lids-open"
+  },
+  {
    "id": "source:rf_ep9",
    "kind": "official_story_episode",
    "name": "Reality Fracture | Episode 9: Unafraid",
@@ -54478,6 +57560,61 @@
    "url": "https://magic.wizards.com/en/news/magic-story/sorins-revelation"
   },
   {
+   "id": "source:sos_ep1",
+   "kind": "official_story_episode",
+   "name": "Secrets of Strixhaven | Episode 1: Penmanship Practice",
+   "origins": [
+    "pack_p5_secrets_of_strixhaven_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/secrets-of-strixhaven-episode-1-penmanship-practice"
+  },
+  {
+   "id": "source:sos_ep2",
+   "kind": "official_story_episode",
+   "name": "Secrets of Strixhaven | Episode 2: Travels and Travails",
+   "origins": [
+    "pack_p5_secrets_of_strixhaven_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/secrets-of-strixhaven-episode-2-travels-and-travails"
+  },
+  {
+   "id": "source:sos_ep3",
+   "kind": "official_story_episode",
+   "name": "Secrets of Strixhaven | Episode 3: Asunder",
+   "origins": [
+    "pack_p5_secrets_of_strixhaven_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/secrets-of-strixhaven-episode-3-asunder"
+  },
+  {
+   "id": "source:sos_ep4",
+   "kind": "official_story_episode",
+   "name": "Secrets of Strixhaven | Episode 4: Something to Offer",
+   "origins": [
+    "pack_p5_secrets_of_strixhaven_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/secrets-of-strixhaven-episode-4-something-to-offer"
+  },
+  {
+   "id": "source:sos_ep5",
+   "kind": "official_story_episode",
+   "name": "Secrets of Strixhaven | Episode 5: Breaking Point",
+   "origins": [
+    "pack_p5_secrets_of_strixhaven_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/secrets-of-strixhaven-episode-5-breaking-point"
+  },
+  {
    "id": "source:sos_ep6",
    "kind": "official_story_episode",
    "name": "Secrets of Strixhaven | Episode 6: Two, Three, Five, Seven",
@@ -54487,6 +57624,28 @@
    "source_class": "WIZARDS_OFFICIAL",
    "type": "Source",
    "url": "https://magic.wizards.com/en/news/magic-story/secrets-of-strixhaven-episode-6-two-three-five-seven"
+  },
+  {
+   "id": "source:sos_flame",
+   "kind": "official_story_episode",
+   "name": "Secrets of Strixhaven | A Living Flame",
+   "origins": [
+    "pack_p5_secrets_of_strixhaven_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/secrets-of-strixhaven-a-living-flame"
+  },
+  {
+   "id": "source:sos_future",
+   "kind": "official_story_episode",
+   "name": "Secrets of Strixhaven | Field Studies in a Future Tense",
+   "origins": [
+    "pack_p5_secrets_of_strixhaven_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/secrets-of-strixhaven-field-studies-in-a-future-tense"
   },
   {
    "id": "source:sos_guide",
@@ -54500,6 +57659,17 @@
    "url": "https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-to-secrets-of-strixhaven"
   },
   {
+   "id": "source:sos_lake",
+   "kind": "official_story_episode",
+   "name": "Secrets of Strixhaven | Down to the Lake, Alone",
+   "origins": [
+    "pack_p5_secrets_of_strixhaven_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/secrets-of-strixhaven-down-to-the-lake-alone"
+  },
+  {
    "id": "source:sos_legends",
    "kind": "official_story_episode",
    "name": "The Legends of Secrets of Strixhaven",
@@ -54509,6 +57679,39 @@
    "source_class": "WIZARDS_OFFICIAL",
    "type": "Source",
    "url": "https://magic.wizards.com/en/news/magic-story/the-legends-of-secrets-of-strixhaven"
+  },
+  {
+   "id": "source:sos_math",
+   "kind": "official_story_episode",
+   "name": "Secrets of Strixhaven | The Math of More",
+   "origins": [
+    "pack_p5_secrets_of_strixhaven_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/secrets-of-strixhaven-the-math-of-more"
+  },
+  {
+   "id": "source:sos_otr",
+   "kind": "official_story_episode",
+   "name": "Secrets of Strixhaven | Off the Record",
+   "origins": [
+    "pack_p5_secrets_of_strixhaven_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/secrets-of-strixhaven-off-the-record"
+  },
+  {
+   "id": "source:sos_winnow",
+   "kind": "official_story_episode",
+   "name": "Secrets of Strixhaven | Winnowing Season",
+   "origins": [
+    "pack_p5_secrets_of_strixhaven_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/secrets-of-strixhaven-winnowing-season"
   },
   {
    "id": "source:stone_and_blood",
@@ -55020,37 +58223,37 @@
  "problems": [],
  "schema": "multiverse-claim-graph/v1",
  "stats": {
-  "claim_edges_with_era": 630,
+  "claim_edges_with_era": 677,
   "claim_edges_with_in_universe_date": 0,
   "claims_by_status": {
    "ALTERNATE_CONTINUITY": 2,
-   "CANON_CONFIRMED": 494,
+   "CANON_CONFIRMED": 528,
    "CANON_DISPUTED": 7,
-   "CANON_IMPLIED": 98,
+   "CANON_IMPLIED": 111,
    "OPEN_QUESTION": 2
   },
-  "curated_bridges": 99,
-  "edges": 3987,
+  "curated_bridges": 102,
+  "edges": 4213,
   "literal_objects": 14,
   "node_types": {
    "AlternateContinuity": 1,
-   "Card": 1030,
+   "Card": 1064,
    "CardTheme": 1,
-   "Character": 255,
-   "Claim": 603,
-   "Concept": 118,
+   "Character": 276,
+   "Claim": 650,
+   "Concept": 121,
    "DeckProposal": 3,
-   "Event": 19,
-   "Faction": 69,
+   "Event": 21,
+   "Faction": 72,
    "Literal": 14,
-   "Object": 41,
-   "Place": 48,
-   "Plane": 23,
-   "Source": 283
+   "Object": 43,
+   "Place": 53,
+   "Plane": 25,
+   "Source": 319
   },
-  "nodes": 2508,
+  "nodes": 2663,
   "non_wizards_sources": 0,
-  "relations": 273,
-  "wizards_official_sources": 283
+  "relations": 293,
+  "wizards_official_sources": 319
  }
 }

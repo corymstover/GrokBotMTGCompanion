@@ -37,18 +37,20 @@
    "data/lore_research/pack_p5_secrets_of_strixhaven_2026-10-30.json",
    "data/lore_research/pack_p5_shadows_eldritch_moon_2026-10-30.json",
    "data/lore_research/pack_p5_battle_for_zendikar_oath_2026-10-30.json",
-   "data/lore_research/pack_p5_tarkir_dragonstorm_2026-10-30.json"
+   "data/lore_research/pack_p5_tarkir_dragonstorm_2026-10-30.json",
+   "data/lore_research/pack_p5_lorwyn_eclipsed_2026-10-30.json",
+   "data/lore_research/pack_p5_brothers_war_2026-10-30.json"
   ]
  },
  "meaning": "cited = a claim pack quotes or cites the page at least once; it does not mean the page was read exhaustively",
  "totals": {
   "arcs": 33,
   "pages": 626,
-  "cited_pages": 260,
+  "cited_pages": 295,
   "arcs_not_started": 0,
-  "arcs_partial": 21,
-  "arcs_all_cited": 12,
-  "claims": 603,
+  "arcs_partial": 17,
+  "arcs_all_cited": 16,
+  "claims": 650,
   "pack_urls_outside_inventory": 12
  },
  "claims_per_pack": {
@@ -68,7 +70,7 @@
   "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json": 12,
   "pack_p5_streets_of_new_capenna_2026-10-30.json": 16,
   "pack_p5_edge_of_eternities_2026-10-30.json": 30,
-  "pack_p5_reality_fracture_2026-10-30.json": 13,
+  "pack_p5_reality_fracture_2026-10-30.json": 21,
   "pack_p5_wilds_of_eldraine_2026-10-30.json": 14,
   "pack_p5_murders_at_karlov_manor_2026-10-30.json": 14,
   "pack_p5_bloomburrow_2026-10-30.json": 12,
@@ -83,10 +85,12 @@
   "pack_p5_theros_ths_2026-10-30.json": 20,
   "pack_p5_mom_aftermath_2026-10-30.json": 12,
   "pack_p5_throne_of_eldraine_2026-10-30.json": 11,
-  "pack_p5_secrets_of_strixhaven_2026-10-30.json": 17,
+  "pack_p5_secrets_of_strixhaven_2026-10-30.json": 29,
   "pack_p5_shadows_eldritch_moon_2026-10-30.json": 36,
   "pack_p5_battle_for_zendikar_oath_2026-10-30.json": 26,
-  "pack_p5_tarkir_dragonstorm_2026-10-30.json": 22
+  "pack_p5_tarkir_dragonstorm_2026-10-30.json": 22,
+  "pack_p5_lorwyn_eclipsed_2026-10-30.json": 18,
+  "pack_p5_brothers_war_2026-10-30.json": 9
  },
  "arcs": [
   {
@@ -136,22 +140,16 @@
   {
    "arc": "BRO",
    "pages": 10,
-   "cited_pages": 4,
+   "cited_pages": 10,
    "kinds": {
     "story": 10
    },
    "citing_packs": [
-    "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json"
+    "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json",
+    "pack_p5_brothers_war_2026-10-30.json"
    ],
-   "status": "PARTIAL",
-   "uncited_urls": [
-    "https://magic.wizards.com/en/news/magic-story/the-brothers-war-chapter-2-antiquities",
-    "https://magic.wizards.com/en/news/magic-story/the-brothers-war-chapter-3-nemesis",
-    "https://magic.wizards.com/en/news/magic-story/the-brothers-war-chapter-4-the-dark",
-    "https://magic.wizards.com/en/news/magic-story/the-brothers-war-chapter-5-exodus",
-    "https://magic.wizards.com/en/news/magic-story/the-brothers-war-episode-2-the-beginning",
-    "https://magic.wizards.com/en/news/magic-story/the-brothers-war-episode-3-sword-one"
-   ]
+   "status": "ALL_PAGES_CITED",
+   "uncited_urls": []
   },
   {
    "arc": "DFT",
@@ -231,28 +229,17 @@
   {
    "arc": "ECL",
    "pages": 12,
-   "cited_pages": 1,
+   "cited_pages": 12,
    "kinds": {
     "planeswalkers-guide": 1,
     "story": 11
    },
    "citing_packs": [
-    "pack_a_ugin_bolas_evidence_2026-10-30.json"
+    "pack_a_ugin_bolas_evidence_2026-10-30.json",
+    "pack_p5_lorwyn_eclipsed_2026-10-30.json"
    ],
-   "status": "PARTIAL",
-   "uncited_urls": [
-    "https://magic.wizards.com/en/news/magic-story/lorwyn-eclipsed-episode-1-out-of-this-wood",
-    "https://magic.wizards.com/en/news/magic-story/lorwyn-eclipsed-episode-3-aweary-of-this-moon",
-    "https://magic.wizards.com/en/news/magic-story/lorwyn-eclipsed-episode-4-fetch-me-that-flower",
-    "https://magic.wizards.com/en/news/magic-story/lorwyn-eclipsed-episode-5-if-we-shadows",
-    "https://magic.wizards.com/en/news/magic-story/lorwyn-eclipsed-episode-6-full-of-hateful-fantasies",
-    "https://magic.wizards.com/en/news/magic-story/lorwyn-eclipsed-episode-7-the-charm-dissolves-apace",
-    "https://magic.wizards.com/en/news/magic-story/lorwyn-eclipsed-much-ado-about-thieving",
-    "https://magic.wizards.com/en/news/magic-story/lorwyn-eclipsed-star-crossed",
-    "https://magic.wizards.com/en/news/magic-story/lorwyn-eclipsed-three-dreams-three-truths",
-    "https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-to-lorwyn-eclipsed",
-    "https://magic.wizards.com/en/news/magic-story/the-legends-of-lorwyn-eclipsed"
-   ]
+   "status": "ALL_PAGES_CITED",
+   "uncited_urls": []
   },
   {
    "arc": "ELD",
@@ -458,7 +445,7 @@
   {
    "arc": "RF",
    "pages": 12,
-   "cited_pages": 5,
+   "cited_pages": 12,
    "kinds": {
     "planeswalkers-guide": 1,
     "story": 11
@@ -466,16 +453,8 @@
    "citing_packs": [
     "pack_p5_reality_fracture_2026-10-30.json"
    ],
-   "status": "PARTIAL",
-   "uncited_urls": [
-    "https://magic.wizards.com/en/news/magic-story/reality-fracture-episode-2-purge-yourself-of-doubt",
-    "https://magic.wizards.com/en/news/magic-story/reality-fracture-episode-3-i-can-be-both",
-    "https://magic.wizards.com/en/news/magic-story/reality-fracture-episode-4-oh-sweetie",
-    "https://magic.wizards.com/en/news/magic-story/reality-fracture-episode-5-i-dont-need-to-convince-you",
-    "https://magic.wizards.com/en/news/magic-story/reality-fracture-episode-6-the-man-who-kills-his-own-ambition",
-    "https://magic.wizards.com/en/news/magic-story/reality-fracture-episode-7-pick-up-the-pieces",
-    "https://magic.wizards.com/en/news/magic-story/reality-fracture-episode-8-keep-your-lids-open"
-   ]
+   "status": "ALL_PAGES_CITED",
+   "uncited_urls": []
   },
   {
    "arc": "SNC",
@@ -508,7 +487,7 @@
   {
    "arc": "SOS",
    "pages": 14,
-   "cited_pages": 3,
+   "cited_pages": 14,
    "kinds": {
     "planeswalkers-guide": 1,
     "story": 13
@@ -516,20 +495,8 @@
    "citing_packs": [
     "pack_p5_secrets_of_strixhaven_2026-10-30.json"
    ],
-   "status": "PARTIAL",
-   "uncited_urls": [
-    "https://magic.wizards.com/en/news/magic-story/secrets-of-strixhaven-a-living-flame",
-    "https://magic.wizards.com/en/news/magic-story/secrets-of-strixhaven-down-to-the-lake-alone",
-    "https://magic.wizards.com/en/news/magic-story/secrets-of-strixhaven-episode-1-penmanship-practice",
-    "https://magic.wizards.com/en/news/magic-story/secrets-of-strixhaven-episode-2-travels-and-travails",
-    "https://magic.wizards.com/en/news/magic-story/secrets-of-strixhaven-episode-3-asunder",
-    "https://magic.wizards.com/en/news/magic-story/secrets-of-strixhaven-episode-4-something-to-offer",
-    "https://magic.wizards.com/en/news/magic-story/secrets-of-strixhaven-episode-5-breaking-point",
-    "https://magic.wizards.com/en/news/magic-story/secrets-of-strixhaven-field-studies-in-a-future-tense",
-    "https://magic.wizards.com/en/news/magic-story/secrets-of-strixhaven-off-the-record",
-    "https://magic.wizards.com/en/news/magic-story/secrets-of-strixhaven-the-math-of-more",
-    "https://magic.wizards.com/en/news/magic-story/secrets-of-strixhaven-winnowing-season"
-   ]
+   "status": "ALL_PAGES_CITED",
+   "uncited_urls": []
   },
   {
    "arc": "STX",
@@ -942,5 +909,5 @@
    ]
   }
  ],
- "sha256": "b6a772da124e57bb4e5e022e8a340f13e548938de12fe9dc759e00e9786ed00e"
+ "sha256": "2259af6743fcf4013e2a1fb55e0acfb81bcb12123497989321b1e35e06314889"
 }

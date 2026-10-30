@@ -1,0 +1,242 @@
+{
+ "pack_id": "pack_p5_brothers_war",
+ "arc": "BRO",
+ "event_stage": "brothers_war_2022",
+ "scope": "Targeted Phase 5 extraction from the six official The Brothers' War Magic Story pages that pack_b does not cite: Episodes 2-3 (the past timeline) and Chapters 2-5 (the present-day Dominaria timeline). One or two claims per page; not an exhaustive reading. PRELIMINARY_RESEARCH; not owner approved.",
+ "pages": {
+  "bro5_ep2": "the-brothers-war-episode-2-the-beginning",
+  "bro5_ep3": "the-brothers-war-episode-3-sword-one",
+  "bro5_ch2": "the-brothers-war-chapter-2-antiquities",
+  "bro5_ch3": "the-brothers-war-chapter-3-nemesis",
+  "bro5_ch4": "the-brothers-war-chapter-4-the-dark",
+  "bro5_ch5": "the-brothers-war-chapter-5-exodus"
+ },
+ "entities": [
+  {
+   "id": "urza",
+   "type": "Character",
+   "name": "Urza"
+  },
+  {
+   "id": "tawnos",
+   "type": "Character",
+   "name": "Tawnos"
+  },
+  {
+   "id": "penregon_civils",
+   "type": "Object",
+   "name": "Penregon's civils"
+  },
+  {
+   "id": "sanwell",
+   "type": "Character",
+   "name": "Sanwell"
+  },
+  {
+   "id": "kroog_destruction",
+   "type": "Event",
+   "name": "The destruction of Kroog"
+  },
+  {
+   "id": "saheeli",
+   "type": "Character",
+   "name": "Saheeli"
+  },
+  {
+   "id": "temporal_anchor",
+   "type": "Object",
+   "name": "The Temporal Anchor"
+  },
+  {
+   "id": "kaya",
+   "type": "Character",
+   "name": "Kaya"
+  },
+  {
+   "id": "teferi",
+   "type": "Character",
+   "name": "Teferi"
+  },
+  {
+   "id": "sheoldred",
+   "type": "Character",
+   "name": "Sheoldred"
+  },
+  {
+   "id": "karn",
+   "type": "Character",
+   "name": "Karn"
+  },
+  {
+   "id": "phyrexians",
+   "type": "Faction",
+   "name": "Phyrexians"
+  },
+  {
+   "id": "elspeth_tirel",
+   "type": "Character",
+   "name": "Elspeth Tirel"
+  },
+  {
+   "id": "nissa_revane",
+   "type": "Character",
+   "name": "Nissa Revane"
+  }
+ ],
+ "claims": [
+  {
+   "id": "BR001",
+   "subject": "urza",
+   "predicate": "taught",
+   "object": "tawnos",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "bro5_ep2",
+     "quote": "All Tawnos knew he owed to Urza's instruction."
+    },
+    {
+     "page": "bro5_ep2",
+     "quote": "From clever toymaker to master artificer, Urza's steady hand had molded Tawnos as skillfully and distantly as Urza had shaped the face of the world."
+    }
+   ],
+   "summary": "Urza's instruction turned Tawnos from a clever toymaker into a master artificer."
+  },
+  {
+   "id": "BR002",
+   "subject": "tawnos",
+   "predicate": "designed",
+   "object": "penregon_civils",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "bro5_ep2",
+     "quote": "Tawnos had sketched original plans for Penregon's civils, but the very theory of their design was based off machines Urza had devised—machines meant only to burn, wreck, and ruin."
+    }
+   ],
+   "summary": "Tawnos designed Penregon's civil machines, based on the theory of Urza's war machines.",
+   "limitation": "Episode dated 69 AR."
+  },
+  {
+   "id": "BR003",
+   "subject": "sanwell",
+   "predicate": "witnessed",
+   "object": "kroog_destruction",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "bro5_ep3",
+     "quote": "Kroog died on a crimson morning."
+    },
+    {
+     "page": "bro5_ep3",
+     "quote": "To Sanwell, it sounded like a festival day, only the crowds cheered in a minor key, and the booms and reports were not fireworks exploding, and the smoke rising over the city stank of burning industry and steaming bricks."
+    }
+   ],
+   "summary": "The pilot Sanwell is in Kroog on the morning the city is destroyed.",
+   "limitation": "Episode dated 28 AR."
+  },
+  {
+   "id": "BR004",
+   "subject": "saheeli",
+   "predicate": "built",
+   "object": "temporal_anchor",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "bro5_ch2",
+     "quote": "Saheeli stepped back from her latest version of the Temporal Anchor, coil-shaped like the aether whorls that danced high in Kaladesh's skies."
+    },
+    {
+     "page": "bro5_ch2",
+     "quote": "In contrast to the original device detailed in Jodah's plans, Saheeli's Temporal Anchor did not transmit matter through the time stream."
+    }
+   ],
+   "summary": "Saheeli builds the Temporal Anchor from Jodah's plans, altered to project a spirit back in time rather than matter."
+  },
+  {
+   "id": "BR005",
+   "subject": "kaya",
+   "predicate": "aided",
+   "object": "teferi",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "bro5_ch2",
+     "quote": "By extending her ghostform over the coffin with Teferi inside, Kaya could render him entirely incorporeal, perfect for the anchor to do its work."
+    }
+   ],
+   "summary": "Kaya uses her ghostform to make Teferi incorporeal so the Temporal Anchor can send his spirit back in time."
+  },
+  {
+   "id": "BR006",
+   "subject": "sheoldred",
+   "predicate": "blocked_planeswalking_of",
+   "object": "karn",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "bro5_ch3",
+     "quote": "On Dominaria, Sheoldred had discovered a way to interfere with Karn's planeswalking."
+    }
+   ],
+   "summary": "Sheoldred found a way to interfere with Karn's planeswalking on Dominaria."
+  },
+  {
+   "id": "BR007",
+   "subject": "phyrexians",
+   "predicate": "captured",
+   "object": "karn",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "bro5_ch3",
+     "quote": "Karn did not speak, did not complain while hooks and razors—the Suture Bishops' preferred exploratory appendages—prodded his mangled body for seams that would facilitate his dissection."
+    },
+    {
+     "page": "bro5_ch3",
+     "quote": "Tezzeret waited for any kind of movement from Karn."
+    }
+   ],
+   "summary": "The captive Karn is examined for dissection by Phyrexian Suture Bishops while Tezzeret watches.",
+   "limitation": "Captivity is shown, not stated; the location (New Phyrexia) is not graded here."
+  },
+  {
+   "id": "BR008",
+   "subject": "elspeth_tirel",
+   "predicate": "aided",
+   "object": "teferi",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "bro5_ch4",
+     "quote": "Elspeth accepted command of this mechanical garrison at Teferi's request."
+    },
+    {
+     "page": "bro5_ch4",
+     "quote": "Sleep had not come easy to Elspeth since she arrived on Dominaria almost a week ago."
+    }
+   ],
+   "summary": "On Dominaria, Elspeth commands a mechanical garrison at Teferi's request."
+  },
+  {
+   "id": "BR009",
+   "subject": "nissa_revane",
+   "predicate": "studied",
+   "object": "phyrexians",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "bro5_ch5",
+     "quote": "Nissa had spent days on Ravnica with Chandra learning all she could about who and what the Phyrexians were."
+    }
+   ],
+   "summary": "Nissa spent days on Ravnica with Chandra learning about the Phyrexians before coming to Dominaria."
+  }
+ ],
+ "remaining": [
+  "Episodes 2-3 and Chapters 2-5 have one or two claims each; the Penregon and Kroog plots and the present-day preparations are only lightly modelled",
+  "Urabrask and the rebel Phyrexians (mentioned in Chapter 5) are not graded",
+  "Pack_b's existing claims for the other four pages are unchanged"
+ ]
+}

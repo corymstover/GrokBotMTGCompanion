@@ -10,6 +10,29 @@
  "tier": "NAMED_CARD",
  "anchors": [
   {
+   "entity": "abigale",
+   "entity_type": "Character",
+   "entity_name": "Abigale",
+   "aliases": [
+    "Abigale"
+   ],
+   "pack": "pack_p5_secrets_of_strixhaven_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Abigale, Eloquent First-Year",
+     "oracle_id": "48a773d0-c433-4463-b50f-b6d4604a042c",
+     "type_line": "Legendary Creature — Bird Bard",
+     "scryfall_uri": "https://scryfall.com/card/ecl/204/abigale-eloquent-first-year"
+    },
+    {
+     "name": "Abigale, Poet Laureate // Heroic Stanza",
+     "oracle_id": "2f5f46ed-b8aa-4864-bd20-17281d4632bf",
+     "type_line": "Legendary Creature — Bird Bard // Sorcery",
+     "scryfall_uri": "https://scryfall.com/card/sos/170/abigale-poet-laureate-heroic-stanza"
+    }
+   ]
+  },
+  {
    "entity": "aclazotz",
    "entity_type": "Character",
    "entity_name": "Aclazotz",
@@ -187,6 +210,23 @@
      "oracle_id": "ca349ba9-b5ea-48e6-a617-c9b7f2708853",
      "type_line": "Legendary Creature — Human Scout",
      "scryfall_uri": "https://scryfall.com/card/cmr/160/alena-kessig-trapper"
+    }
+   ]
+  },
+  {
+   "entity": "alhammarret",
+   "entity_type": "Character",
+   "entity_name": "Alhammarret",
+   "aliases": [
+    "Alhammarret"
+   ],
+   "pack": "pack_p5_reality_fracture_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Alhammarret, High Arbiter",
+     "oracle_id": "c2531360-61f8-4edc-886b-408811a0639d",
+     "type_line": "Legendary Creature — Sphinx",
+     "scryfall_uri": "https://scryfall.com/card/ori/43/alhammarret-high-arbiter"
     }
    ]
   },
@@ -461,6 +501,47 @@
    ]
   },
   {
+   "entity": "ashling",
+   "entity_type": "Character",
+   "entity_name": "Ashling",
+   "aliases": [
+    "Ashling"
+   ],
+   "pack": "pack_p5_lorwyn_eclipsed_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Ashling the Pilgrim",
+     "oracle_id": "bc92f0ba-2cf0-453c-a0d3-98a8784fe55b",
+     "type_line": "Legendary Creature — Elemental Shaman",
+     "scryfall_uri": "https://scryfall.com/card/cmm/205/ashling-the-pilgrim"
+    },
+    {
+     "name": "Ashling, Flame Dancer",
+     "oracle_id": "6fe9fd59-9cac-4572-8f94-bc19bea44f94",
+     "type_line": "Legendary Creature — Elemental Shaman",
+     "scryfall_uri": "https://scryfall.com/card/mh3/115/ashling-flame-dancer"
+    },
+    {
+     "name": "Ashling, Rekindled // Ashling, Rimebound",
+     "oracle_id": "31fc5d8b-94bc-4688-8a84-f15800e717a8",
+     "type_line": "Legendary Creature — Elemental Sorcerer // Legendary Creature — Elemental Wizard",
+     "scryfall_uri": "https://scryfall.com/card/ecl/124/ashling-rekindled-ashling-rimebound"
+    },
+    {
+     "name": "Ashling, the Extinguisher",
+     "oracle_id": "e89e102f-e3bc-4c16-bb27-09db83cec5ec",
+     "type_line": "Legendary Creature — Elemental Shaman",
+     "scryfall_uri": "https://scryfall.com/card/eve/33/ashling-the-extinguisher"
+    },
+    {
+     "name": "Ashling, the Limitless",
+     "oracle_id": "77a9e7cf-76e9-4323-8504-a5b831de00be",
+     "type_line": "Legendary Creature — Elemental Sorcerer",
+     "scryfall_uri": "https://scryfall.com/card/ecc/1/ashling-the-limitless"
+    }
+   ]
+  },
+  {
    "entity": "ashnod",
    "entity_type": "Character",
    "entity_name": "Ashnod",
@@ -652,6 +733,35 @@
      "oracle_id": "c2679c32-a23d-4953-bb48-b46580439ce2",
      "type_line": "Legendary Creature — God",
      "scryfall_uri": "https://scryfall.com/card/akh/82/bontu-the-glorified"
+    }
+   ]
+  },
+  {
+   "entity": "brigid",
+   "entity_type": "Character",
+   "entity_name": "Brigid",
+   "aliases": [
+    "Brigid"
+   ],
+   "pack": "pack_p5_lorwyn_eclipsed_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Brigid, Clachan's Heart // Brigid, Doun's Mind",
+     "oracle_id": "60fc89a1-cc6f-4a32-84c3-09abf7a4a1df",
+     "type_line": "Legendary Creature — Kithkin Warrior // Legendary Creature — Kithkin Soldier",
+     "scryfall_uri": "https://scryfall.com/card/ecl/7/brigid-clachans-heart-brigid-douns-mind"
+    },
+    {
+     "name": "Brigid, Hero of Kinsbaile",
+     "oracle_id": "929ad5c3-4efe-44c3-93ac-eda432814385",
+     "type_line": "Legendary Creature — Kithkin Archer",
+     "scryfall_uri": "https://scryfall.com/card/lrw/6/brigid-hero-of-kinsbaile"
+    },
+    {
+     "name": "Brigid, Who's Seen Some Stuff",
+     "oracle_id": "f4bf3077-b06b-4cb8-8ff4-3adf4f9da8e9",
+     "type_line": "Legendary Creature — Kithkin Archer",
+     "scryfall_uri": "https://scryfall.com/card/mb2/510/brigid-whos-seen-some-stuff"
     }
    ]
   },
@@ -1022,6 +1132,29 @@
    ]
   },
   {
+   "entity": "dina",
+   "entity_type": "Character",
+   "entity_name": "Dina",
+   "aliases": [
+    "Dina"
+   ],
+   "pack": "pack_p5_secrets_of_strixhaven_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Dina, Essence Brewer",
+     "oracle_id": "f61c1dc4-2f09-4b50-957f-ee656c659072",
+     "type_line": "Legendary Creature — Dryad Druid",
+     "scryfall_uri": "https://scryfall.com/card/soc/1/dina-essence-brewer"
+    },
+    {
+     "name": "Dina, Soul Steeper",
+     "oracle_id": "2121bcb4-f5fe-447f-9112-c7e5b5c45baf",
+     "type_line": "Legendary Creature — Dryad Druid",
+     "scryfall_uri": "https://scryfall.com/card/soc/305/dina-soul-steeper"
+    }
+   ]
+  },
+  {
    "entity": "djeru",
    "entity_type": "Character",
    "entity_name": "Djeru",
@@ -1069,6 +1202,23 @@
      "oracle_id": "41e2790d-49f5-4e98-b8d9-04179f47f13a",
      "type_line": "Legendary Creature — Vampire Knight",
      "scryfall_uri": "https://scryfall.com/card/inr/234/edgar-markov"
+    }
+   ]
+  },
+  {
+   "entity": "eirdu",
+   "entity_type": "Character",
+   "entity_name": "Eirdu",
+   "aliases": [
+    "Eirdu"
+   ],
+   "pack": "pack_p5_lorwyn_eclipsed_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight",
+     "oracle_id": "36af3c2c-49d7-46ea-ab02-c254b332448e",
+     "type_line": "Legendary Creature — Elemental God // Legendary Creature — Elemental God",
+     "scryfall_uri": "https://scryfall.com/card/ecl/13/eirdu-carrier-of-dawn-isilu-carrier-of-twilight"
     }
    ]
   },
@@ -1529,6 +1679,23 @@
      "oracle_id": "dd91f4f2-ea46-48c5-8a80-0dc4ae5b79c4",
      "type_line": "Legendary Artifact — Equipment",
      "scryfall_uri": "https://scryfall.com/card/jou/12/godsend"
+    }
+   ]
+  },
+  {
+   "entity": "goldmeadow",
+   "entity_type": "Place",
+   "entity_name": "Goldmeadow",
+   "aliases": [
+    "Goldmeadow"
+   ],
+   "pack": "pack_p5_lorwyn_eclipsed_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Goldmeadow",
+     "oracle_id": "f12400e5-8288-48e1-b3b7-0cc4f8d9ca67",
+     "type_line": "Plane — Lorwyn",
+     "scryfall_uri": "https://scryfall.com/card/opca/30/goldmeadow"
     }
    ]
   },
@@ -2409,6 +2576,29 @@
    ]
   },
   {
+   "entity": "kirol",
+   "entity_type": "Character",
+   "entity_name": "Kirol",
+   "aliases": [
+    "Kirol"
+   ],
+   "pack": "pack_p5_secrets_of_strixhaven_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Kirol, Attentive First-Year",
+     "oracle_id": "3a272fa9-5f28-43a4-95de-10cb511f1b43",
+     "type_line": "Legendary Creature — Vampire Cleric",
+     "scryfall_uri": "https://scryfall.com/card/ecl/231/kirol-attentive-first-year"
+    },
+    {
+     "name": "Kirol, History Buff // Pack a Punch",
+     "oracle_id": "df1c0d06-2109-4297-9271-8a003fc892bc",
+     "type_line": "Legendary Creature — Vampire Cleric // Sorcery",
+     "scryfall_uri": "https://scryfall.com/card/sos/198/kirol-history-buff-pack-a-punch"
+    }
+   ]
+  },
+  {
    "entity": "klothys",
    "entity_type": "Character",
    "entity_name": "Klothys",
@@ -2767,6 +2957,29 @@
      "oracle_id": "ab56f7cf-9538-45b5-a657-1e2ebef1e92b",
      "type_line": "Legendary Creature — Mouse Soldier",
      "scryfall_uri": "https://scryfall.com/card/fra/274/mabel-valley-hero"
+    }
+   ]
+  },
+  {
+   "entity": "maralen",
+   "entity_type": "Character",
+   "entity_name": "Maralen",
+   "aliases": [
+    "Maralen"
+   ],
+   "pack": "pack_p5_lorwyn_eclipsed_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Maralen of the Mornsong",
+     "oracle_id": "0b40032b-711d-499f-8bb9-87855f1fce9e",
+     "type_line": "Legendary Creature — Elf Wizard",
+     "scryfall_uri": "https://scryfall.com/card/mor/65/maralen-of-the-mornsong"
+    },
+    {
+     "name": "Maralen, Fae Ascendant",
+     "oracle_id": "114e1d2c-cefc-4e2a-922e-3b2ceed1871d",
+     "type_line": "Legendary Creature — Elf Faerie Noble",
+     "scryfall_uri": "https://scryfall.com/card/ecl/233/maralen-fae-ascendant"
     }
    ]
   },
@@ -3249,6 +3462,65 @@
    ]
   },
   {
+   "entity": "niv_mizzet",
+   "entity_type": "Character",
+   "entity_name": "Niv-Mizzet",
+   "aliases": [
+    "Niv-Mizzet"
+   ],
+   "pack": "pack_p5_secrets_of_strixhaven_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Niv-Mizzet Reborn",
+     "oracle_id": "10764b35-5c6c-4161-8579-1124d5963a0e",
+     "type_line": "Legendary Creature — Dragon Avatar",
+     "scryfall_uri": "https://scryfall.com/card/war/208/niv-mizzet-reborn"
+    },
+    {
+     "name": "Niv-Mizzet, Dracogenius",
+     "oracle_id": "899d58dc-60b2-4013-9f91-c1888c585d66",
+     "type_line": "Legendary Creature — Dragon Wizard",
+     "scryfall_uri": "https://scryfall.com/card/c17/184/niv-mizzet-dracogenius"
+    },
+    {
+     "name": "Niv-Mizzet, Ghost Counsel",
+     "oracle_id": "a5350327-e84c-44b6-8359-87882e521048",
+     "type_line": "Legendary Creature — Spirit Dragon",
+     "scryfall_uri": "https://scryfall.com/card/frc/10/niv-mizzet-ghost-counsel"
+    },
+    {
+     "name": "Niv-Mizzet, Guildpact",
+     "oracle_id": "46570366-5e58-40b7-b725-833321a3b7b1",
+     "type_line": "Legendary Creature — Dragon Avatar",
+     "scryfall_uri": "https://scryfall.com/card/mkm/220/niv-mizzet-guildpact"
+    },
+    {
+     "name": "Niv-Mizzet, Parun",
+     "oracle_id": "33666a98-812f-4892-9f8d-33e0cbecc340",
+     "type_line": "Legendary Creature — Dragon Wizard",
+     "scryfall_uri": "https://scryfall.com/card/otc/235/niv-mizzet-parun"
+    },
+    {
+     "name": "Niv-Mizzet, Supreme",
+     "oracle_id": "4c3a865a-88b1-43e0-b326-17c45670da54",
+     "type_line": "Legendary Creature — Dragon Avatar",
+     "scryfall_uri": "https://scryfall.com/card/mat/40/niv-mizzet-supreme"
+    },
+    {
+     "name": "Niv-Mizzet, Visionary",
+     "oracle_id": "d9f1dc61-831e-4244-a2da-aa9da6fd5b50",
+     "type_line": "Legendary Creature — Dragon Wizard",
+     "scryfall_uri": "https://scryfall.com/card/fdn/123/niv-mizzet-visionary"
+    },
+    {
+     "name": "Niv-Mizzet, the Firemind",
+     "oracle_id": "959acb66-84ca-4535-bca2-ad591895735e",
+     "type_line": "Legendary Creature — Dragon Wizard",
+     "scryfall_uri": "https://scryfall.com/card/c20/225/niv-mizzet-the-firemind"
+    }
+   ]
+  },
+  {
    "entity": "noyan_dar",
    "entity_type": "Character",
    "entity_name": "Noyan Dar",
@@ -3514,6 +3786,23 @@
    ]
   },
   {
+   "entity": "oona",
+   "entity_type": "Character",
+   "entity_name": "Oona",
+   "aliases": [
+    "Oona"
+   ],
+   "pack": "pack_p5_lorwyn_eclipsed_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Oona, Queen of the Fae",
+     "oracle_id": "6052822d-47a2-4d69-a32d-40cdd600d7a9",
+     "type_line": "Legendary Creature — Faerie Wizard",
+     "scryfall_uri": "https://scryfall.com/card/znc/98/oona-queen-of-the-fae"
+    }
+   ]
+  },
+  {
    "entity": "palladia_mors",
    "entity_type": "Character",
    "entity_name": "Palladia-Mors",
@@ -3681,6 +3970,23 @@
      "oracle_id": "b685757b-521e-4353-a233-97052359723d",
      "type_line": "Legendary Creature — Beast",
      "scryfall_uri": "https://scryfall.com/card/eld/171/questing-beast"
+    }
+   ]
+  },
+  {
+   "entity": "quintorius",
+   "entity_type": "Character",
+   "entity_name": "Quintorius Kand",
+   "aliases": [
+    "Quintorius Kand"
+   ],
+   "pack": "pack_p5_secrets_of_strixhaven_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Quintorius Kand",
+     "oracle_id": "91babc5f-ebeb-4894-8c35-b0f60249cb80",
+     "type_line": "Legendary Planeswalker — Quintorius",
+     "scryfall_uri": "https://scryfall.com/card/lci/238/quintorius-kand"
     }
    ]
   },
@@ -3859,6 +4165,35 @@
      "oracle_id": "5d2acd3e-4782-42e3-bcd5-80f8b439cc28",
      "type_line": "Legendary Creature — God",
      "scryfall_uri": "https://scryfall.com/card/akh/182/rhonas-the-indomitable"
+    }
+   ]
+  },
+  {
+   "entity": "rhys",
+   "entity_type": "Character",
+   "entity_name": "Rhys",
+   "aliases": [
+    "Rhys"
+   ],
+   "pack": "pack_p5_lorwyn_eclipsed_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Rhys the Exiled",
+     "oracle_id": "7613c50b-4568-4340-b64a-ab427aaffd51",
+     "type_line": "Legendary Creature — Elf Warrior",
+     "scryfall_uri": "https://scryfall.com/card/khc/73/rhys-the-exiled"
+    },
+    {
+     "name": "Rhys the Redeemed",
+     "oracle_id": "f7252190-ad24-4ba3-a644-2790dd1d680d",
+     "type_line": "Legendary Creature — Elf Warrior",
+     "scryfall_uri": "https://scryfall.com/card/2xm/213/rhys-the-redeemed"
+    },
+    {
+     "name": "Rhys, the Evermore",
+     "oracle_id": "9f013b5d-fff0-4c50-8621-158b6dc34834",
+     "type_line": "Legendary Creature — Elf Warrior",
+     "scryfall_uri": "https://scryfall.com/card/ecl/32/rhys-the-evermore"
     }
    ]
   },
@@ -4051,6 +4386,23 @@
      "oracle_id": "fffdc2ac-bde4-4e4c-a5bd-0e6c6e49ad91",
      "type_line": "Legendary Planeswalker — Samut",
      "scryfall_uri": "https://scryfall.com/card/hou/144/samut-the-tested"
+    }
+   ]
+  },
+  {
+   "entity": "sanwell",
+   "entity_type": "Character",
+   "entity_name": "Sanwell",
+   "aliases": [
+    "Sanwell"
+   ],
+   "pack": "pack_p5_brothers_war_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Sanwell, Avenger Ace",
+     "oracle_id": "4884ad6c-2290-44fc-ab9e-6e6b75b2d69a",
+     "type_line": "Legendary Creature — Human Pilot",
+     "scryfall_uri": "https://scryfall.com/card/brc/5/sanwell-avenger-ace"
     }
    ]
   },
@@ -4641,6 +4993,23 @@
      "oracle_id": "98c389ed-b960-42e2-9c76-a062f77c9a78",
      "type_line": "Legendary Planeswalker — Teferi",
      "scryfall_uri": "https://scryfall.com/card/mid/245/teferi-who-slows-the-sunset"
+    }
+   ]
+  },
+  {
+   "entity": "temporal_anchor",
+   "entity_type": "Object",
+   "entity_name": "The Temporal Anchor",
+   "aliases": [
+    "The Temporal Anchor"
+   ],
+   "pack": "pack_p5_brothers_war_2026-10-30.json",
+   "cards": [
+    {
+     "name": "The Temporal Anchor",
+     "oracle_id": "168f2fbb-8cf7-43e0-8bb6-5e4cc3c1e363",
+     "type_line": "Legendary Artifact",
+     "scryfall_uri": "https://scryfall.com/card/bro/82/the-temporal-anchor"
     }
    ]
   },
@@ -5667,6 +6036,7 @@
   "archmage_ghavos",
   "ardenvale",
   "artificial_omenpath",
+  "auntie_grub",
   "bartolome",
   "belzenlok",
   "belzenlok_death",
@@ -5675,6 +6045,7 @@
   "blood_avatar",
   "calamity_beast_egg",
   "cauldron_of_eternity",
+  "cerys",
   "chopright_colony",
   "corondor_chasm",
   "cragflame",
@@ -5687,6 +6058,7 @@
   "dragonstorm_escape",
   "drana",
   "drannith",
+  "eclipsed_realms",
   "eiko",
   "emeria_skyclave",
   "eric_kenrith",
@@ -5695,11 +6067,13 @@
   "first_phyrexian_invasion",
   "garenbrig",
   "geldan",
+  "gethin",
   "ghan",
   "ghirapur_grand_prix",
   "ghirapur_revolution",
   "great_henge",
   "halo",
+  "harriers_wood",
   "hazel_kenrith",
   "hedron_network",
   "hekma",
@@ -5711,6 +6085,8 @@
   "immortal_sun",
   "imperial_palace",
   "innistrad_silver_moon",
+  "isilu",
+  "jilesa_clarus",
   "kavaron",
   "kayla_bin_kroog",
   "kellan_boldt",
@@ -5718,6 +6094,7 @@
   "killian_lu",
   "king_glarb",
   "kiran_nalaar",
+  "kroog_destruction",
   "kuberr",
   "lake_zhava",
   "last_battle_argoth",
@@ -5726,6 +6103,7 @@
   "lily_of_the_valley",
   "linden",
   "locthwain",
+  "lorwyn_aspect",
   "maag_taranau",
   "magic_mirror",
   "maha",
@@ -5742,7 +6120,10 @@
   "orazca",
   "original_tarkir_clash",
   "paala",
+  "penregon_civils",
   "pondside",
+  "professor_fel",
+  "ranna_beleren",
   "raphaella",
   "raugrin",
   "reality_chip",
@@ -5753,11 +6134,13 @@
   "saint_traft",
   "savai_settlements",
   "setessa",
+  "shadowmoor_aspect",
   "shadowspear",
   "skysovereign",
   "sothera",
   "sotheran_supervoid",
   "spire_inquirium",
+  "summitfest",
   "sungold_lock",
   "susur_secundi",
   "sword_of_the_realms",
@@ -5768,6 +6151,7 @@
   "tarkir_rewrite",
   "teferis_spark_stone",
   "temporal_rifts_mending",
+  "the_detective",
   "the_house",
   "theros_underworld",
   "thraben",
@@ -5791,9 +6175,9 @@
   "Urza, Academy Headmaster"
  ],
  "counts": {
-  "entities_anchored": 242,
-  "anchor_edges": 497,
-  "unanchored_entities": 121
+  "entities_anchored": 257,
+  "anchor_edges": 531,
+  "unanchored_entities": 136
  },
- "content_sha256": "918717f499252f596753afbce9e508f275d927ff44233c026cf7a4b1e1d975cb"
+ "content_sha256": "ea74dcda3c643b549fabcda63932f9656ce2f40d532beecce81fca240d769c17"
 }
