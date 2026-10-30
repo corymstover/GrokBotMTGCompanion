@@ -25,6 +25,9 @@ on:
       - 'scripts/build_koth_wrenn_printing_leads.py'
       - 'tests/test_koth_wrenn_printing_leads.py'
       - 'data/lore_research/koth_wrenn_printing_leads_2026-10-30.json'
+      - 'scripts/build_story_image_label_printings.py'
+      - 'tests/test_story_image_label_printings.py'
+      - 'data/lore_research/story_image_label_printings_2026-10-30.json'
       - 'scripts/build_story_coverage_inventory.py'
       - 'tests/test_story_coverage_inventory.py'
       - 'scripts/story_claim_pipeline.py'
@@ -56,6 +59,9 @@ on:
       - 'scripts/build_koth_wrenn_printing_leads.py'
       - 'tests/test_koth_wrenn_printing_leads.py'
       - 'data/lore_research/koth_wrenn_printing_leads_2026-10-30.json'
+      - 'scripts/build_story_image_label_printings.py'
+      - 'tests/test_story_image_label_printings.py'
+      - 'data/lore_research/story_image_label_printings_2026-10-30.json'
       - 'scripts/build_story_coverage_inventory.py'
       - 'tests/test_story_coverage_inventory.py'
       - 'scripts/story_claim_pipeline.py'
@@ -116,6 +122,10 @@ jobs:
         run: |
           python3 scripts/story_claim_pipeline.py check
           python3 -m unittest discover -s tests -p 'test_story_claim_pipeline.py' -v
+      - name: Story image-label art-to-printing links (cache absent in CI; structure + self-hash)
+        run: |
+          python3 scripts/build_story_image_label_printings.py --check
+          python3 -m unittest discover -s tests -p 'test_story_image_label_printings.py' -v
       - name: Story coverage/gaps inventory (rebuild and compare) and tests
         run: |
           python3 scripts/build_story_coverage_inventory.py --check
