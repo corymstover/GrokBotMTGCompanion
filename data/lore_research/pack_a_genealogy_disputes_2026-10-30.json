@@ -1,0 +1,598 @@
+{
+  "schema": "pack-a-genealogy-disputes/v1",
+  "status": "PRELIMINARY_RESEARCH_FOR_OWNER",
+  "generated": "2026-10-30",
+  "rules": [
+    "Quotes are verbatim from cached official Wizards pages and are hash-checked.",
+    "No pack grade is changed. official_resolution is set only where an official source itself states the answer.",
+    "owner_decision is intentionally blank for Cory.",
+    "No two-step genealogical inference is asserted."
+  ],
+  "counts": {
+    "disputes": 7,
+    "evidence_quotes": 23,
+    "officially_resolved": 1,
+    "open": 6,
+    "other_disputed_claims": 4
+  },
+  "disputes": [
+    {
+      "id": "GD1",
+      "topic": "Are Ugin and Nicol Bolas twins?",
+      "claims": [
+        "A001",
+        "A013"
+      ],
+      "question": "Does official text establish Ugin and Bolas as twins, given Bolas's in-story denial?",
+      "evidence": [
+        {
+          "page": "ugin-planeswalker",
+          "quote": "He's as cunning and powerful as his twin, Nicol Bolas, but luckily much less interested in world domination.",
+          "voice": "EDITORIAL",
+          "stance": "SUPPORTS",
+          "note": "",
+          "source_url": "https://magic.wizards.com/en/story/ugin-planeswalker",
+          "quote_sha256": "c91f8e99af9f9ca0a5967744bf1e79810dacf1a8a4e87708f5d2cd00bd449705"
+        },
+        {
+          "page": "chronicle-bolas-twins-2018-06-13",
+          "quote": "Two small egg-stones tumble groundward, like an afterthought.",
+          "voice": "STORY_NARRATION",
+          "stance": "SUPPORTS",
+          "note": "Hatching scene: the last two egg-stones fall together.",
+          "source_url": "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-twins-2018-06-13",
+          "quote_sha256": "06cb1aafff311c1ec6d2bda6461ab4ffb5751597f23cfb8c81b21b1306bd53cd"
+        },
+        {
+          "page": "chronicle-bolas-first-lesson-2018-06-20",
+          "quote": "\"You are the twins, Nicol and Ugin.\"",
+          "voice": "CHARACTER_DIALOGUE",
+          "stance": "SUPPORTS",
+          "note": "Spoken by their older brother Arcades.",
+          "source_url": "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-first-lesson-2018-06-20",
+          "quote_sha256": "e8e68f86a4767b107336b158923e1577082c0b2186e1abd86daadcad70272ec7"
+        },
+        {
+          "page": "chronicle-bolas-whispers-treachery-2018-07-11",
+          "quote": "He wasn't my twin, after all, just a wingbeat sibling who wasn't any too respectful of Nicol and me regardless.",
+          "voice": "NARRATOR_UGIN",
+          "stance": "SUPPORTS",
+          "note": "Ugin contrasts Chromium (sibling) with his twin.",
+          "source_url": "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-whispers-treachery-2018-07-11",
+          "quote_sha256": "ee8b5baac911473609cc89bab785a6040e850d4a6262e669c6a0df37f1eb0588"
+        },
+        {
+          "page": "chronicle-bolas-perspectives-2018-08-08",
+          "quote": "You're a liar when you say you aren't twin to Ugin. You were born together and fell together. Isn't that right?\"",
+          "voice": "CHARACTER_DIALOGUE",
+          "stance": "CONTEXT",
+          "note": "Yasova paraphrases what she was told.",
+          "source_url": "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-perspectives-2018-08-08",
+          "quote_sha256": "bec335ab9bf6525d296591d63a4e30b84ba4852670eb64cbaa3d2f9535df7bc0"
+        },
+        {
+          "page": "chronicle-bolas-perspectives-2018-08-08",
+          "quote": "\"Of course that's not right! Who told you that?\"",
+          "voice": "NARRATOR_BOLAS",
+          "stance": "CONTESTS",
+          "note": "Bolas's reply; it is unclear whether he denies twinship, 'fell together', or both.",
+          "source_url": "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-perspectives-2018-08-08",
+          "quote_sha256": "b7a951368e02f0b3efbe1afed35674ec812eaf03f61784cc172864decc1da47e"
+        },
+        {
+          "page": "tarkir-dragonstorm-episode-6-how-wretched-love",
+          "quote": "As Ugin raised his head, so did his olive-gold twin, the latter as perfect as polished bronze.",
+          "voice": "STORY_NARRATION",
+          "stance": "SUPPORTS",
+          "note": "Third-person narration in 2025 story.",
+          "source_url": "https://magic.wizards.com/en/news/magic-story/tarkir-dragonstorm-episode-6-how-wretched-love",
+          "quote_sha256": "d4dc9da2a588d9018ba81f7902354ef0a39abad751b2022407400531d74b83d1"
+        }
+      ],
+      "official_resolution": {
+        "statement": "Wizards editorial (Ugin planeswalker page) and third-person story narration (Chronicle 'The Twins'; Tarkir: Dragonstorm ep. 6) call them twins. The only contrary voice is Bolas's own in-story reply, whose scope is ambiguous.",
+        "resolves": "SUPPORTS_A001_AS_GRADED",
+        "source_pages": [
+          "ugin-planeswalker",
+          "tarkir-dragonstorm-episode-6-how-wretched-love"
+        ]
+      },
+      "options_for_owner": [
+        "Keep A001 CANON_CONFIRMED and record Bolas's reply as narrator dissent",
+        "Add a CANON_DISPUTED note limited to Bolas's perspective"
+      ],
+      "claim_records": {
+        "A001": {
+          "pack": "pack_a_ugin_bolas_evidence",
+          "subject": "ugin",
+          "predicate": "twin_sibling_of",
+          "object": "nicol_bolas",
+          "grade": "CANON_CONFIRMED",
+          "source_ids": [
+            "chronicle_twins"
+          ],
+          "summary": "Ugin and Nicol emerge together as twin dragons in the story's account of the original dragons' hatching.",
+          "limitation": "This does not establish the entire genealogy of all later dragons."
+        },
+        "A013": {
+          "pack": "pack_a_elder_dragon_war_extension",
+          "subject": "ugin",
+          "predicate": "encountered_elder_siblings",
+          "object": "arcades_sabboth; chromium_rhuell; palladia_mors",
+          "grade": "CANON_CONFIRMED",
+          "source_ids": [
+            "first_lesson"
+          ],
+          "summary": "The Chronicle portrays the young twins meeting Arcades, Chromium and Palladia-Mors during their early travels.",
+          "limitation": "The sequence is not an exhaustive census of their elder kin."
+        }
+      },
+      "owner_decision": ""
+    },
+    {
+      "id": "GD2",
+      "topic": "Are Ugin and Bolas Elder Dragons, and is the Ur-Dragon their progenitor?",
+      "claims": [
+        "A001",
+        "A013"
+      ],
+      "question": "Official text calls Bolas an Elder Dragon and says Elder Dragons were spawned by the Ur-Dragon. Does any source state that the Ur-Dragon is the twins' parent?",
+      "evidence": [
+        {
+          "page": "returning-legends-modern-horizons-2-2021-06-10",
+          "quote": "Piru was one of the Elder Dragons, creatures spawned by the Ur-Dragon when Dominaria was young.",
+          "voice": "EDITORIAL",
+          "stance": "CONTEXT",
+          "note": "Defines Elder Dragons as Ur-Dragon spawn, but names only Piru here.",
+          "source_url": "https://magic.wizards.com/en/news/feature/returning-legends-modern-horizons-2-2021-06-10",
+          "quote_sha256": "b106b31a23783ea2b268663345f9149b8dc5c9bc975777a57727700f2c302b37"
+        },
+        {
+          "page": "war-spark-ravnica-ashes-2019-06-12",
+          "quote": "I'd been told that sword had already killed a major demon, a God-Eternal, and even an Elder Dragon like Nicol Bolas.",
+          "voice": "CHARACTER_DIALOGUE",
+          "stance": "SUPPORTS",
+          "note": "Calls Bolas an Elder Dragon (first-person story voice).",
+          "source_url": "https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-ashes-2019-06-12",
+          "quote_sha256": "6c133a8b4b8d3826a46badfa456b8942960f894e753750cdccf42d84d3339d19"
+        },
+        {
+          "page": "planeswalkers-guide-fate-reforged-2015-01-07",
+          "quote": "The Battle of the Elder Dragons After a rivalry that spanned eons, Nicol Bolas and Ugin—two of the most powerful Planeswalkers the Multiverse has ever known—finally clashed in the sky above Tarkir.",
+          "voice": "EDITORIAL",
+          "stance": "SUPPORTS",
+          "note": "Section header frames the Ugin–Bolas battle as one of Elder Dragons.",
+          "source_url": "https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-fate-reforged-2015-01-07",
+          "quote_sha256": "9b71b97ee7bf309cffaee158013a3c6c5a4455094d25d9aad0ad672c8df157a2"
+        },
+        {
+          "page": "chronicle-bolas-perspectives-2018-08-08",
+          "quote": "Of all the elder dragons and their children, only Chromium Rhuell, Arcades Sabboth, Palladia-Mors, and that vexatious beast Vaevictis Asmadi had survived.",
+          "voice": "NARRATOR_BOLAS",
+          "stance": "QUALIFIES",
+          "note": "Bolas speaks of 'elder dragons and their children' as a group apart from himself; he does not label himself.",
+          "source_url": "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-perspectives-2018-08-08",
+          "quote_sha256": "dd4edfd8c6b60d627504ae9c68c5fdcebb557ef6b70956cafdb6b664be624d5a"
+        },
+        {
+          "page": "chronicle-bolas-things-unseen-2018-06-27",
+          "quote": "The expanding realm of our brother Arcades dwelt far away from the mountain of our birth.",
+          "voice": "NARRATOR_UGIN",
+          "stance": "CONTEXT",
+          "note": "Birth is placed at a mountain; no parent is named in the cached Chronicle.",
+          "source_url": "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-things-unseen-2018-06-27",
+          "quote_sha256": "603673c317f8878f7b915eb66acbfdfabba0b0b10c60e99005fe0294a26937a4"
+        }
+      ],
+      "official_resolution": null,
+      "unresolved_because": "No cached official source names the twins' parent. Deriving 'Ur-Dragon is Ugin/Bolas's parent' would chain two statements (Bolas is an Elder Dragon + Elder Dragons were spawned by the Ur-Dragon), which this project does not do without an explicit source. The Chronicle never mentions the Ur-Dragon (checked: 0 hits across its 8 cached chapters).",
+      "options_for_owner": [
+        "Leave the twins' parentage unknown",
+        "Accept the two-step inference as CANON_IMPLIED with that limitation stated",
+        "Seek the Chronicle of Bolas novel/other official text (not cached)"
+      ],
+      "claim_records": {
+        "A001": {
+          "pack": "pack_a_ugin_bolas_evidence",
+          "subject": "ugin",
+          "predicate": "twin_sibling_of",
+          "object": "nicol_bolas",
+          "grade": "CANON_CONFIRMED",
+          "source_ids": [
+            "chronicle_twins"
+          ],
+          "summary": "Ugin and Nicol emerge together as twin dragons in the story's account of the original dragons' hatching.",
+          "limitation": "This does not establish the entire genealogy of all later dragons."
+        },
+        "A013": {
+          "pack": "pack_a_elder_dragon_war_extension",
+          "subject": "ugin",
+          "predicate": "encountered_elder_siblings",
+          "object": "arcades_sabboth; chromium_rhuell; palladia_mors",
+          "grade": "CANON_CONFIRMED",
+          "source_ids": [
+            "first_lesson"
+          ],
+          "summary": "The Chronicle portrays the young twins meeting Arcades, Chromium and Palladia-Mors during their early travels.",
+          "limitation": "The sequence is not an exhaustive census of their elder kin."
+        }
+      },
+      "owner_decision": ""
+    },
+    {
+      "id": "GD3",
+      "topic": "Elder Dragon War survivor roster",
+      "claims": [
+        "A003",
+        "A018"
+      ],
+      "question": "Bolas names four survivors; Wizards editorial adds Piru. Which roster is authoritative?",
+      "evidence": [
+        {
+          "page": "chronicle-bolas-perspectives-2018-08-08",
+          "quote": "Of all the elder dragons and their children, only Chromium Rhuell, Arcades Sabboth, Palladia-Mors, and that vexatious beast Vaevictis Asmadi had survived.",
+          "voice": "NARRATOR_BOLAS",
+          "stance": "CONTESTS",
+          "note": "Four names, Piru absent, under the word 'only'.",
+          "source_url": "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-perspectives-2018-08-08",
+          "quote_sha256": "dd4edfd8c6b60d627504ae9c68c5fdcebb557ef6b70956cafdb6b664be624d5a"
+        },
+        {
+          "page": "returning-legends-modern-horizons-2-2021-06-10",
+          "quote": "Piru and Chromium were among the very few Elder Dragons who survived the Elder Dragon War instigated by Nicol Bolas.",
+          "voice": "EDITORIAL",
+          "stance": "SUPPORTS",
+          "note": "Adds Piru; 'very few' gives no total.",
+          "source_url": "https://magic.wizards.com/en/news/feature/returning-legends-modern-horizons-2-2021-06-10",
+          "quote_sha256": "045aa79fa37070a403b69eee479d49f692016e94257baeeb9e3332ea12a09ab0"
+        }
+      ],
+      "official_resolution": null,
+      "unresolved_because": "The sources conflict over Piru. Neither gives an exhaustive count. Bolas's narration is graded self-serving by design (A003 CANON_DISPUTED). MH2 is later editorial prose but does not say it corrects the Chronicle. The time frames may also differ: Bolas speaks of the moment he returned to Dominaria.",
+      "options_for_owner": [
+        "Treat roster as open (current state: A003 DISPUTED, A018 CONFIRMED)",
+        "Treat MH2 as superseding and annotate A003",
+        "Record as continuity conflict without preference"
+      ],
+      "claim_records": {
+        "A003": {
+          "pack": "pack_a_ugin_bolas_evidence",
+          "subject": "elder_dragon_wars",
+          "predicate": "survivors_according_to_bolas",
+          "object": "Chromium Rhuell; Arcades Sabboth; Palladia-Mors; Vaevictis Asmadi",
+          "grade": "CANON_DISPUTED",
+          "source_ids": [
+            "chronicle_perspectives"
+          ],
+          "summary": "Bolas describes these four Elder Dragons as surviving when he later returned to Dominaria.",
+          "limitation": "This is Bolas's self-serving narrated list, not an independently certified exhaustive Elder Dragon War casualty roll."
+        },
+        "A018": {
+          "pack": "pack_a_elder_dragon_war_extension",
+          "subject": "piru",
+          "predicate": "survived_with",
+          "object": "chromium_rhuell",
+          "grade": "CANON_CONFIRMED",
+          "source_ids": [
+            "mh2_legends",
+            "perspectives"
+          ],
+          "summary": "Wizards' Piru biography names Piru and Chromium among the Elder Dragon War survivors; Piru is absent from Bolas's four-name account.",
+          "limitation": "Bolas's narrated roster is incomplete; this is not proof of the total number of all survivors or an automatic retcon."
+        }
+      },
+      "owner_decision": ""
+    },
+    {
+      "id": "GD4",
+      "topic": "Vaevictis Asmadi's descendants as raiders",
+      "claims": [
+        "A014"
+      ],
+      "question": "Is the raiders' lineage only their own claim, or does the narrator corroborate it?",
+      "evidence": [
+        {
+          "page": "chronicle-bolas-blood-and-fire-2018-07-18",
+          "quote": "\"We are the descendants of Vaevictis Asmadi and may raid where we wish!\"",
+          "voice": "CHARACTER_DIALOGUE",
+          "stance": "SUPPORTS",
+          "note": "Raiders' self-identification.",
+          "source_url": "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-blood-and-fire-2018-07-18",
+          "quote_sha256": "b3e7fa60d81d6888ea510ae49b6664a494e4309348ed418ef0930dbb3b997899"
+        },
+        {
+          "page": "chronicle-bolas-blood-and-fire-2018-07-18",
+          "quote": "Vaevictis was a bully, and his descendants were bullies who would rip apart the harmonious kingdom for the sport of it.",
+          "voice": "NARRATOR_UGIN",
+          "stance": "SUPPORTS",
+          "note": "Narrator restates the lineage in his own voice.",
+          "source_url": "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-blood-and-fire-2018-07-18",
+          "quote_sha256": "eed3867f03bc33c26c48fdb49caa2f5911eca75d095af5cbcf30d59fb021b736"
+        }
+      ],
+      "official_resolution": null,
+      "unresolved_because": "Both statements sit inside the same framed Chronicle chapter. Neither is independent of that frame, and no source traces each raider's generation.",
+      "options_for_owner": [
+        "Keep A014 limitation as written",
+        "Amend limitation to note Ugin's narratorial corroboration"
+      ],
+      "claim_records": {
+        "A014": {
+          "pack": "pack_a_elder_dragon_war_extension",
+          "subject": "vaevictis_asmadi",
+          "predicate": "descendants_raided",
+          "object": "nicol_bolas",
+          "grade": "CANON_CONFIRMED",
+          "source_ids": [
+            "blood_fire"
+          ],
+          "summary": "The embedded tale identifies the raiders of Bolas's kingdom as Vaevictis's descendants, according to the raiders themselves.",
+          "limitation": "The lineage claim is voiced by the raiders within a framed story, not a genealogy of each attacker."
+        }
+      },
+      "owner_decision": ""
+    },
+    {
+      "id": "GD5",
+      "topic": "Piru, Chromium and Crosis lineage",
+      "claims": [
+        "A019",
+        "A018"
+      ],
+      "question": "Is Crosis a direct child of Piru and Chromium, and how is Piru related to the Chronicle siblings?",
+      "evidence": [
+        {
+          "page": "returning-legends-modern-horizons-2-2021-06-10",
+          "quote": "With her mate, Chromium Rhuell, she birthed whole nations of dragons, including none other than the Primeval Dragon Crosis, the Purger.",
+          "voice": "EDITORIAL",
+          "stance": "QUALIFIES",
+          "note": "'Birthed whole nations … including' does not state generation.",
+          "source_url": "https://magic.wizards.com/en/news/feature/returning-legends-modern-horizons-2-2021-06-10",
+          "quote_sha256": "3e18d8f179cc3895c84b47f3302d24e300e6b16ce6381d5d42a8fb48684038f9"
+        },
+        {
+          "page": "chronicle-bolas-twins-2018-06-13",
+          "quote": "Yet Chromium Rhuell can't help but wonder what has become of the last ones, these younger siblings, especially when no tremor of impact shakes the ground.",
+          "voice": "STORY_NARRATION",
+          "stance": "CONTEXT",
+          "note": "Chromium is a sibling of the twins; Piru does not appear in any cached Chronicle chapter.",
+          "source_url": "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-twins-2018-06-13",
+          "quote_sha256": "95a46398140f864b017240a7d6e61df6520443ab7400a4c28cbf2da9eec4d773"
+        }
+      ],
+      "official_resolution": null,
+      "unresolved_because": "The generation is unstated. Piru's relation to Ugin and Bolas is not stated; it would have to be inferred from 'Elder Dragon', which this project does not do.",
+      "options_for_owner": [
+        "Keep 'ancestor_of' wording (generation unknown)",
+        "Leave Piru–twins relation explicitly unknown"
+      ],
+      "claim_records": {
+        "A019": {
+          "pack": "pack_a_elder_dragon_war_extension",
+          "subject": "piru",
+          "predicate": "mate_and_ancestor_of",
+          "object": "chromium_rhuell; crosis",
+          "grade": "CANON_CONFIRMED",
+          "source_ids": [
+            "mh2_legends"
+          ],
+          "summary": "Piru and Chromium were mates and their descendants include Primeval Dragon Crosis, the Purger.",
+          "limitation": "The editorial biography does not establish Crosis as their direct first-generation offspring."
+        },
+        "A018": {
+          "pack": "pack_a_elder_dragon_war_extension",
+          "subject": "piru",
+          "predicate": "survived_with",
+          "object": "chromium_rhuell",
+          "grade": "CANON_CONFIRMED",
+          "source_ids": [
+            "mh2_legends",
+            "perspectives"
+          ],
+          "summary": "Wizards' Piru biography names Piru and Chromium among the Elder Dragon War survivors; Piru is absent from Bolas's four-name account.",
+          "limitation": "Bolas's narrated roster is incomplete; this is not proof of the total number of all survivors or an automatic retcon."
+        }
+      },
+      "owner_decision": ""
+    },
+    {
+      "id": "GD6",
+      "topic": "Rith's family: Palladia-Mors and Darigaaz",
+      "claims": [
+        "A023",
+        "A024"
+      ],
+      "question": "What official parentage or sibling links exist for the Primeval Dragons?",
+      "evidence": [
+        {
+          "page": "legends-youll-find-dominaria-united-2022-09-01",
+          "quote": "Rith, daughter of Palladia-Mors, was one of the five ancient Primeval Dragons who ruled Dominaria sometime after the Elder Dragon War.",
+          "voice": "EDITORIAL",
+          "stance": "SUPPORTS",
+          "note": "",
+          "source_url": "https://magic.wizards.com/en/news/feature/legends-youll-find-dominaria-united-2022-09-01",
+          "quote_sha256": "3641b12b2e07ee256262fc74bd7cdb0ad319c05dbfc3f841f6ff6e85d06aa36d"
+        },
+        {
+          "page": "legends-youll-find-dominaria-united-2022-09-01",
+          "quote": "Darigaaz recently reincarnated once again, and his psychic connection to his sister caused Rith to stir from her slumber.",
+          "voice": "EDITORIAL",
+          "stance": "SUPPORTS",
+          "note": "Darigaaz–Rith sibling link is stated but is not yet a Pack A claim.",
+          "source_url": "https://magic.wizards.com/en/news/feature/legends-youll-find-dominaria-united-2022-09-01",
+          "quote_sha256": "11d1fef80c9d61679cb47dbb1fe8e7a16f1f33fc131320774425e4acab174cc8"
+        },
+        {
+          "page": "returning-legends-modern-horizons-2-2021-06-10",
+          "quote": "With her mate, Chromium Rhuell, she birthed whole nations of dragons, including none other than the Primeval Dragon Crosis, the Purger.",
+          "voice": "EDITORIAL",
+          "stance": "CONTEXT",
+          "note": "Crosis descends from Piru and Chromium; Rith is Palladia-Mors's daughter. No source links the two lines.",
+          "source_url": "https://magic.wizards.com/en/news/feature/returning-legends-modern-horizons-2-2021-06-10",
+          "quote_sha256": "3e18d8f179cc3895c84b47f3302d24e300e6b16ce6381d5d42a8fb48684038f9"
+        }
+      ],
+      "official_resolution": null,
+      "unresolved_because": "Parentage is stated only for Rith (Palladia-Mors) and Crosis (Piru + Chromium, generation unstated). No cached source names parents for Darigaaz, Dromar or Treva. 'Sister' does not establish whether Darigaaz shares Rith's mother.",
+      "proposed_claim_not_applied": {
+        "subject": "darigaaz",
+        "predicate": "sibling_of",
+        "object": "rith",
+        "proposed_grade": "CANON_CONFIRMED",
+        "source": "legends-youll-find-dominaria-united-2022-09-01"
+      },
+      "options_for_owner": [
+        "Add the Darigaaz–Rith sibling claim to Pack A2",
+        "Leave as research note"
+      ],
+      "claim_records": {
+        "A023": {
+          "pack": "pack_a_elder_dragon_war_extension",
+          "subject": "palladia_mors",
+          "predicate": "mother_of",
+          "object": "rith",
+          "grade": "CANON_CONFIRMED",
+          "source_ids": [
+            "dmu_legends"
+          ],
+          "summary": "Wizards' Dominaria United biography directly identifies Rith as Palladia-Mors's daughter.",
+          "limitation": "This parentage does not imply Rith participated in the much earlier Elder Dragon War."
+        },
+        "A024": {
+          "pack": "pack_a_elder_dragon_war_extension",
+          "subject": "rith",
+          "predicate": "primeval_dragon_after",
+          "object": "elder_dragon_wars",
+          "grade": "CANON_CONFIRMED",
+          "source_ids": [
+            "dmu_legends"
+          ],
+          "summary": "Rith was among five ancient Primeval Dragons who ruled Dominaria sometime after the Elder Dragon War.",
+          "limitation": "The source does not fix exact reign dates or identify every Primeval's parent."
+        }
+      },
+      "owner_decision": ""
+    },
+    {
+      "id": "GD7",
+      "topic": "Chromium Rhuell's fate: banished vs murdered",
+      "claims": [
+        "A020",
+        "A018"
+      ],
+      "question": "Two editorial biographies give different ends for Chromium. Are they sequential or conflicting?",
+      "evidence": [
+        {
+          "page": "returning-legends-modern-horizons-2-2021-06-10",
+          "quote": "Dakkon banished Chromium and slew Piru with his cursed sword.",
+          "voice": "EDITORIAL",
+          "stance": "CONTEXT",
+          "note": "",
+          "source_url": "https://magic.wizards.com/en/news/feature/returning-legends-modern-horizons-2-2021-06-10",
+          "quote_sha256": "49da9d10079533730ad840c39cfb646bbbe8fe8ec92b783eec19068fe9a89d55"
+        },
+        {
+          "page": "legendary-characters-commander-legends-part-1-2020-10-30",
+          "quote": "A recurring evil in Dominarian history, he was instrumental in the fall of the Sarpadian Empires, the destruction of the Glacier Kingdom of Storgard, the murder of the elder dragon Chromium Rhuell, and the cataclysmic rebirth of the Primeval Dragons.",
+          "voice": "EDITORIAL",
+          "stance": "CONTEXT",
+          "note": "'he' = Tevesh Szat.",
+          "source_url": "https://magic.wizards.com/en/news/card-preview/legendary-characters-commander-legends-part-1-2020-10-30",
+          "quote_sha256": "559067536a8f72e92b5fdf8977cc9d0ebb93198d9f6ec432a40bd920c41d1aa2"
+        }
+      ],
+      "official_resolution": null,
+      "unresolved_because": "Neither source orders the banishment and the murder. They may be sequential (banished, then later murdered), but no cached source says so.",
+      "options_for_owner": [
+        "Record both as unordered events",
+        "Seek an official source ordering them"
+      ],
+      "claim_records": {
+        "A020": {
+          "pack": "pack_a_elder_dragon_war_extension",
+          "subject": "geyadrone_dihada",
+          "predicate": "bound_to_service",
+          "object": "piru; chromium_rhuell",
+          "grade": "CANON_CONFIRMED",
+          "source_ids": [
+            "mh2_legends"
+          ],
+          "summary": "Millennia after the war, Geyadrone Dihada bound Piru and Chromium to fight Dakkon Blackblade.",
+          "limitation": "This later battle is not part of the Elder Dragon War itself."
+        },
+        "A018": {
+          "pack": "pack_a_elder_dragon_war_extension",
+          "subject": "piru",
+          "predicate": "survived_with",
+          "object": "chromium_rhuell",
+          "grade": "CANON_CONFIRMED",
+          "source_ids": [
+            "mh2_legends",
+            "perspectives"
+          ],
+          "summary": "Wizards' Piru biography names Piru and Chromium among the Elder Dragon War survivors; Piru is absent from Bolas's four-name account.",
+          "limitation": "Bolas's narrated roster is incomplete; this is not proof of the total number of all survivors or an automatic retcon."
+        }
+      },
+      "owner_decision": ""
+    }
+  ],
+  "other_pack_a_disputed_claims": [
+    {
+      "id": "A004",
+      "pack": "pack_a_ugin_bolas_evidence",
+      "subject": "nicol_bolas",
+      "predicate": "planeswalker_spark_awakening_recounted",
+      "object": "dominaria",
+      "grade": "CANON_DISPUTED",
+      "source_ids": [
+        "chronicle_perspectives"
+      ],
+      "summary": "Bolas reports his first planeswalk and discovery of the connected Multiverse.",
+      "limitation": "His claim to be the first or alone is a narrator claim, not objective proof of priority over every planeswalker.",
+      "owner_decision": ""
+    },
+    {
+      "id": "A011",
+      "pack": "pack_a_ugin_bolas_evidence",
+      "subject": "nicol_bolas",
+      "predicate": "current_spark_state",
+      "object": "unknown",
+      "grade": "OPEN_QUESTION",
+      "source_ids": [
+        "lorwyn2"
+      ],
+      "summary": "The later story explicitly leaves open whether Bolas still has his spark after his escape.",
+      "limitation": "Do not invent restored planeswalking ability or assert a confirmed permanent spark loss after the escape.",
+      "owner_decision": ""
+    },
+    {
+      "id": "A012",
+      "pack": "pack_a_ugin_bolas_evidence",
+      "subject": "echoverse",
+      "predicate": "constructed_without",
+      "object": "nicol_bolas",
+      "grade": "ALTERNATE_CONTINUITY",
+      "source_ids": [
+        "reality_guide"
+      ],
+      "summary": "The Reality Fracture guide describes Jace's Echoverse as a different history without Bolas.",
+      "limitation": "This alternate-reality statement must never erase or override Bolas's presence in the prime Multiverse.",
+      "owner_decision": ""
+    },
+    {
+      "id": "U016",
+      "pack": "pack_a5_ugin_allies",
+      "subject": "elspeth_tirel",
+      "predicate": "carried_to_omenpath",
+      "object": "narset",
+      "grade": "CANON_IMPLIED",
+      "source_ids": [
+        "tdm_ep7"
+      ],
+      "summary": "Elspeth calls to Narset, and armoured hands carry Narset into the Omenpath.",
+      "limitation": "The text names Elspeth's voice; that the 'mailed hands' are hers is inferred, not stated.",
+      "owner_decision": ""
+    }
+  ]
+}
