@@ -39,7 +39,8 @@ class MG:
         if term in self.nodes:
             return term
         t = term.lower().strip()
-        exact = [i for i, n in self.nodes.items() if n["name"].lower() == t or i.split(":", 1)[-1] == t]
+        key = "".join(c if c.isalnum() else "_" for c in t).strip("_")  # "Old Phyrexia" -> old_phyrexia
+        exact = [i for i, n in self.nodes.items() if n["name"].lower() == t or i.split(":", 1)[-1] in (t, key)]
         rank = {"Concept": 3, "Literal": 4, "Card": 2, "Source": 2, "Claim": 2, "DeckProposal": 2}
         pref = sorted(exact, key=lambda i: (0 if self.nodes[i]["type"] == prefer else 1 + rank.get(self.nodes[i]["type"], 0), i))
         if pref:
