@@ -7,42 +7,42 @@
  "scope": "Targeted Phase 5 extraction from the official Streets of New Capenna Magic Story episodes (2022-03-28 to 2022-04-05) and the Planeswalker's Guide to Streets of New Capenna. PRELIMINARY_RESEARCH; not owner approved.",
  "built_by": "scripts/story_claim_pipeline.py from data/lore_research/claim_specs/pack_p5_streets_of_new_capenna.spec.json",
  "source_register": {
-  "ep1": {
+  "snc_ep1": {
    "title": "Streets of New Capenna | Episode 1: Homecoming",
    "url": "https://magic.wizards.com/en/news/magic-story/episode-1-homecoming-2022-03-28",
    "kind": "official_story_episode",
    "perspective": "Wizards of the Coast (official Magic Story)",
    "published": "2022-03-28"
   },
-  "ep2": {
+  "snc_ep2": {
    "title": "Streets of New Capenna | Episode 2: Dirty Laundry",
    "url": "https://magic.wizards.com/en/news/magic-story/episode-2-dirty-laundry-2022-03-29",
    "kind": "official_story_episode",
    "perspective": "Wizards of the Coast (official Magic Story)",
    "published": "2022-03-29"
   },
-  "ep3": {
+  "snc_ep3": {
    "title": "Streets of New Capenna | Episode 3: Tests",
    "url": "https://magic.wizards.com/en/news/magic-story/episode-3-tests-2022-03-30",
    "kind": "official_story_episode",
    "perspective": "Wizards of the Coast (official Magic Story)",
    "published": "2022-03-30"
   },
-  "ep4": {
+  "snc_ep4": {
    "title": "Streets of New Capenna | Episode 4: The Font",
    "url": "https://magic.wizards.com/en/news/magic-story/episode-4-font-2022-04-04",
    "kind": "official_story_episode",
    "perspective": "Wizards of the Coast (official Magic Story)",
    "published": "2022-04-04"
   },
-  "ep5": {
+  "snc_ep5": {
    "title": "Streets of New Capenna | Episode 5: Hymn of the Angels",
    "url": "https://magic.wizards.com/en/news/magic-story/episode-5-hymn-angels-2022-04-05",
    "kind": "official_story_episode",
    "perspective": "Wizards of the Coast (official Magic Story)",
    "published": "2022-04-05"
   },
-  "guide": {
+  "snc_guide": {
    "title": "Planeswalker's Guide to Streets of New Capenna",
    "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-streets-of-new-capenna",
    "kind": "official_planeswalkers_guide",
@@ -146,15 +146,15 @@
    "grade": "CANON_CONFIRMED",
    "event_stage": "new_capenna_snc_2022",
    "source_ids": [
-    "ep5"
+    "snc_ep5"
    ],
    "evidence": [
     {
-     "source_id": "ep5",
+     "source_id": "snc_ep5",
      "quote": "Elspeth turned to see a hulking, horned man. Two wings of membrane, the color of old blood, stretched behind him. The Adversary."
     },
     {
-     "source_id": "ep5",
+     "source_id": "snc_ep5",
      "quote": "\"Good of you to show yourself, Ob Nixilis.\""
     }
    ],
@@ -169,15 +169,15 @@
    "grade": "CANON_CONFIRMED",
    "event_stage": "new_capenna_snc_2022",
    "source_ids": [
-    "ep4"
+    "snc_ep4"
    ],
    "evidence": [
     {
-     "source_id": "ep4",
+     "source_id": "snc_ep4",
      "quote": "Giada was their precious Font."
     },
     {
-     "source_id": "ep4",
+     "source_id": "snc_ep4",
      "quote": "She was giving her life for the Cabaretti and their Halo."
     }
    ],
@@ -192,15 +192,15 @@
    "grade": "CANON_CONFIRMED",
    "event_stage": "snc_crescendo_2022",
    "source_ids": [
-    "ep4"
+    "snc_ep4"
    ],
    "evidence": [
     {
-     "source_id": "ep4",
+     "source_id": "snc_ep4",
      "quote": "Ob Nixilis snorted and spit on the mutilated body that lay at his feet."
     },
     {
-     "source_id": "ep4",
+     "source_id": "snc_ep4",
      "quote": "The mighty head of the Maestros, the infamous Xander, master assassin. Not the master of anything now."
     }
    ],
@@ -215,11 +215,11 @@
    "grade": "CANON_CONFIRMED",
    "event_stage": "new_capenna_snc_2022",
    "source_ids": [
-    "guide"
+    "snc_guide"
    ],
    "evidence": [
     {
-     "source_id": "guide",
+     "source_id": "snc_guide",
      "quote": "Led by the demon-vampire Lord Xander, the Maestros are New Capenna's premier assassins, vampiric professional killers who see a contract not just as business but as a chance to perform."
     }
    ],
@@ -234,11 +234,11 @@
    "grade": "CANON_CONFIRMED",
    "event_stage": "snc_aftermath_2022",
    "source_ids": [
-    "ep5"
+    "snc_ep5"
    ],
    "evidence": [
     {
-     "source_id": "ep5",
+     "source_id": "snc_ep5",
      "quote": "The Maestros are now in your hands, and I trust that after the long night ahead, you will help them usher in a new era."
     }
    ],
@@ -253,11 +253,11 @@
    "grade": "CANON_CONFIRMED",
    "event_stage": "new_capenna_snc_2022",
    "source_ids": [
-    "ep5"
+    "snc_ep5"
    ],
    "evidence": [
     {
-     "source_id": "ep5",
+     "source_id": "snc_ep5",
      "quote": "Elspeth had made a promise that she would keep Giada safe until her last breath."
     }
    ],
@@ -272,15 +272,15 @@
    "grade": "CANON_CONFIRMED",
    "event_stage": "snc_crescendo_2022",
    "source_ids": [
-    "ep5"
+    "snc_ep5"
    ],
    "evidence": [
     {
-     "source_id": "ep5",
+     "source_id": "snc_ep5",
      "quote": "Giada thrust something to Elspeth's mouth, leaving her no choice but to swallow."
     },
     {
-     "source_id": "ep5",
+     "source_id": "snc_ep5",
      "quote": "Invisible hands put her broken body back together, slowly restoring consciousness and clarity and shaking Erebos's grasp."
     }
    ],
@@ -295,15 +295,15 @@
    "grade": "CANON_IMPLIED",
    "event_stage": "new_capenna_snc_2022",
    "source_ids": [
-    "ep5"
+    "snc_ep5"
    ],
    "evidence": [
     {
-     "source_id": "ep5",
+     "source_id": "snc_ep5",
      "quote": "\"Don't fear for me any longer, Elspeth. There is more for me out there—I am going to be with my family now.\""
     },
     {
-     "source_id": "ep5",
+     "source_id": "snc_ep5",
      "quote": "Giada was framed by the shining outlines of others like her."
     }
    ],
@@ -318,15 +318,15 @@
    "grade": "CANON_CONFIRMED",
    "event_stage": "snc_cathedral_2022",
    "source_ids": [
-    "ep5"
+    "snc_ep5"
    ],
    "evidence": [
     {
-     "source_id": "ep5",
+     "source_id": "snc_ep5",
      "quote": "Light filled the room. It shot out in every direction from Giada's body, the force of the blast strong enough to throw Ob Nixilis away."
     },
     {
-     "source_id": "ep5",
+     "source_id": "snc_ep5",
      "quote": "She looked on in awe as Giada was transformed into the radiant magic of Halo."
     }
    ],
@@ -341,19 +341,19 @@
    "grade": "CANON_CONFIRMED",
    "event_stage": "snc_cathedral_2022",
    "source_ids": [
-    "ep5"
+    "snc_ep5"
    ],
    "evidence": [
     {
-     "source_id": "ep5",
+     "source_id": "snc_ep5",
      "quote": "Steel met flesh, and she grazed off the side of his neck."
     },
     {
-     "source_id": "ep5",
+     "source_id": "snc_ep5",
      "quote": "In a blink, he was gone, having planeswalked away."
     },
     {
-     "source_id": "ep5",
+     "source_id": "snc_ep5",
      "quote": "\"Giada saved us all. But Ob Nixilis got away. This is far from over.\""
     }
    ],
@@ -368,20 +368,20 @@
    "grade": "CANON_CONFIRMED",
    "event_stage": "old_capenna_phyrexian_invasion",
    "source_ids": [
-    "ep5",
-    "guide"
+    "snc_ep5",
+    "snc_guide"
    ],
    "evidence": [
     {
-     "source_id": "ep5",
+     "source_id": "snc_ep5",
      "quote": "In desperation, they formed an alliance with the Demon Lords."
     },
     {
-     "source_id": "guide",
+     "source_id": "snc_guide",
      "quote": "The vast population of New Capenna had no knowledge of the archdemons' betrayal of the archangels and the five families' power grab."
     },
     {
-     "source_id": "ep5",
+     "source_id": "snc_ep5",
      "quote": "The demons ultimately betrayed the angels, trapping them in a kind of stasis from which they could convert the angels' bodies into Halo, an essence that—as Xander had told her—could be taken to help protect the city."
     }
    ],
@@ -396,15 +396,15 @@
    "grade": "CANON_CONFIRMED",
    "event_stage": "old_capenna_phyrexian_invasion",
    "source_ids": [
-    "ep5"
+    "snc_ep5"
    ],
    "evidence": [
     {
-     "source_id": "ep5",
+     "source_id": "snc_ep5",
      "quote": "In the distant past, the Phyrexians made an attempt on this plane."
     },
     {
-     "source_id": "ep5",
+     "source_id": "snc_ep5",
      "quote": "The Demon Lords used Halo to defeat the Phyrexians and then disappeared themselves."
     }
    ],
@@ -419,15 +419,15 @@
    "grade": "CANON_CONFIRMED",
    "event_stage": "snc_aftermath_2022",
    "source_ids": [
-    "ep5"
+    "snc_ep5"
    ],
    "evidence": [
     {
-     "source_id": "ep5",
+     "source_id": "snc_ep5",
      "quote": "If it held the Phyrexians at bay here . . . this could be the answer Ajani sought, even if the supply of Halo was dwindling."
     },
     {
-     "source_id": "ep5",
+     "source_id": "snc_ep5",
      "quote": "Elspeth would take it and all the information back to Ajani and the Gatewatch."
     }
    ],
@@ -442,16 +442,16 @@
    "grade": "CANON_CONFIRMED",
    "event_stage": "new_capenna_snc_2022",
    "source_ids": [
-    "ep3",
-    "ep5"
+    "snc_ep3",
+    "snc_ep5"
    ],
    "evidence": [
     {
-     "source_id": "ep3",
+     "source_id": "snc_ep3",
      "quote": "Elspeth always considered herself a decent judge of character, and Vivien seemed trustworthy."
     },
     {
-     "source_id": "ep5",
+     "source_id": "snc_ep5",
      "quote": "Elspeth and Vivien stood side by side, staring out the massive window in the same spot Xander had."
     }
    ],
@@ -466,15 +466,15 @@
    "grade": "CANON_CONFIRMED",
    "event_stage": "snc_prologue_dominaria_2022",
    "source_ids": [
-    "ep2"
+    "snc_ep2"
    ],
    "evidence": [
     {
-     "source_id": "ep2",
+     "source_id": "snc_ep2",
      "quote": "She was relieved it hadn't been so long ago that she couldn't still track down her old friend in this mostly unfamiliar land."
     },
     {
-     "source_id": "ep2",
+     "source_id": "snc_ep2",
      "quote": "\"After defeating Bolas, I came here to meet with Karn and the Gatewatch to discuss the Phyrexian threat."
     }
    ],
@@ -489,16 +489,16 @@
    "grade": "CANON_IMPLIED",
    "event_stage": "new_capenna_snc_2022",
    "source_ids": [
-    "ep3",
-    "ep1"
+    "snc_ep3",
+    "snc_ep1"
    ],
    "evidence": [
     {
-     "source_id": "ep3",
+     "source_id": "snc_ep3",
      "quote": "When they did, the demons appointed five families to take over the city in their name, drafting a pact with the head of each family.\""
     },
     {
-     "source_id": "ep1",
+     "source_id": "snc_ep1",
      "quote": "The fragile alliances that fostered peace between the five families that ruled the city were being strained to a breaking point from which there would likely be no return."
     }
    ],

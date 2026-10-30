@@ -123,6 +123,29 @@
    ]
   },
   {
+   "entity": "alpharael",
+   "entity_type": "Character",
+   "entity_name": "Alpharael",
+   "aliases": [
+    "Alpharael"
+   ],
+   "pack": "pack_p5_edge_of_eternities_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Alpharael, Dreaming Acolyte",
+     "oracle_id": "e4be4071-7910-460f-90f3-6c4d8cc9db65",
+     "type_line": "Legendary Creature — Human Cleric",
+     "scryfall_uri": "https://scryfall.com/card/eoe/212/alpharael-dreaming-acolyte"
+    },
+    {
+     "name": "Alpharael, Stonechosen",
+     "oracle_id": "ed43f1f9-ef96-47bc-8a54-e59154319f9d",
+     "type_line": "Legendary Creature — Human Cleric",
+     "scryfall_uri": "https://scryfall.com/card/eoe/87/alpharael-stonechosen"
+    }
+   ]
+  },
+  {
    "entity": "angrath",
    "entity_type": "Character",
    "entity_name": "Angrath",
@@ -148,6 +171,23 @@
      "oracle_id": "092ceffb-1ee4-452c-b15e-5b79267d42a6",
      "type_line": "Legendary Planeswalker — Angrath",
      "scryfall_uri": "https://scryfall.com/card/rix/152/angrath-the-flame-chained"
+    }
+   ]
+  },
+  {
+   "entity": "anhelo",
+   "entity_type": "Character",
+   "entity_name": "Anhelo",
+   "aliases": [
+    "Anhelo"
+   ],
+   "pack": "pack_p5_streets_of_new_capenna_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Anhelo, the Painter",
+     "oracle_id": "d3c3f293-6790-4dce-900a-8af0464c2572",
+     "type_line": "Legendary Creature — Vampire Assassin",
+     "scryfall_uri": "https://scryfall.com/card/ncc/1/anhelo-the-painter"
     }
    ]
   },
@@ -189,6 +229,23 @@
      "oracle_id": "62648946-1708-48f4-ba40-c057563ab11b",
      "type_line": "Land",
      "scryfall_uri": "https://scryfall.com/card/bro/256/argoth-sanctum-of-nature"
+    }
+   ]
+  },
+  {
+   "entity": "arlinn_kord",
+   "entity_type": "Character",
+   "entity_name": "Arlinn Kord",
+   "aliases": [
+    "Arlinn Kord"
+   ],
+   "pack": "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Arlinn Kord // Arlinn, Embraced by the Moon",
+     "oracle_id": "6bb7d0df-7a9f-4e17-8c31-7628c4b12356",
+     "type_line": "Legendary Planeswalker — Arlinn // Legendary Planeswalker — Arlinn",
+     "scryfall_uri": "https://scryfall.com/card/inr/230/arlinn-kord-arlinn-embraced-by-the-moon"
     }
    ]
   },
@@ -337,6 +394,23 @@
      "oracle_id": "33de01e9-ce5a-42d4-afcb-343cd54a6d80",
      "type_line": "Land",
      "scryfall_uri": "https://scryfall.com/card/frc/66/caves-of-koilos"
+    }
+   ]
+  },
+  {
+   "entity": "celestus",
+   "entity_type": "Object",
+   "entity_name": "The Celestus",
+   "aliases": [
+    "The Celestus"
+   ],
+   "pack": "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json",
+   "cards": [
+    {
+     "name": "The Celestus",
+     "oracle_id": "c0ad2b5f-066b-424b-bddf-d3014731e599",
+     "type_line": "Legendary Artifact",
+     "scryfall_uri": "https://scryfall.com/card/mid/252/the-celestus"
     }
    ]
   },
@@ -490,6 +564,23 @@
    ]
   },
   {
+   "entity": "edgar_markov",
+   "entity_type": "Character",
+   "entity_name": "Edgar Markov",
+   "aliases": [
+    "Edgar Markov"
+   ],
+   "pack": "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Edgar Markov",
+     "oracle_id": "41e2790d-49f5-4e98-b8d9-04179f47f13a",
+     "type_line": "Legendary Creature — Vampire Knight",
+     "scryfall_uri": "https://scryfall.com/card/inr/234/edgar-markov"
+    }
+   ]
+  },
+  {
    "entity": "elder_dragon_wars",
    "entity_type": "Event",
    "entity_name": "Elder Dragon Wars",
@@ -588,6 +679,23 @@
    ]
   },
   {
+   "entity": "endstone",
+   "entity_type": "Object",
+   "entity_name": "The Endstone",
+   "aliases": [
+    "The Endstone"
+   ],
+   "pack": "pack_p5_edge_of_eternities_2026-10-30.json",
+   "cards": [
+    {
+     "name": "The Endstone",
+     "oracle_id": "57ee0730-3ac5-4f17-ac82-bd4a6673c2bb",
+     "type_line": "Legendary Artifact",
+     "scryfall_uri": "https://scryfall.com/card/eoe/240/the-endstone"
+    }
+   ]
+  },
+  {
    "entity": "eye_of_ugin",
    "entity_type": "Place",
    "entity_name": "Eye of Ugin",
@@ -649,6 +757,23 @@
      "oracle_id": "e1105d84-86b5-44ef-9efc-d994ee1c35cc",
      "type_line": "Legendary Planeswalker — Dihada",
      "scryfall_uri": "https://scryfall.com/card/mh2/199/geyadrone-dihada"
+    }
+   ]
+  },
+  {
+   "entity": "giada",
+   "entity_type": "Character",
+   "entity_name": "Giada",
+   "aliases": [
+    "Giada"
+   ],
+   "pack": "pack_p5_streets_of_new_capenna_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Giada, Font of Hope",
+     "oracle_id": "48e6d3d8-2f27-4017-acdd-40bce8cdbc02",
+     "type_line": "Legendary Creature — Angel",
+     "scryfall_uri": "https://scryfall.com/card/fdn/141/giada-font-of-hope"
     }
    ]
   },
@@ -717,6 +842,29 @@
      "oracle_id": "f759d112-76db-4091-a22b-b9f19ab6fa5f",
      "type_line": "Legendary Creature — Demon",
      "scryfall_uri": "https://scryfall.com/card/inr/115/griselbrand"
+    }
+   ]
+  },
+  {
+   "entity": "haliya",
+   "entity_type": "Character",
+   "entity_name": "Haliya",
+   "aliases": [
+    "Haliya"
+   ],
+   "pack": "pack_p5_edge_of_eternities_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Haliya, Ascendant Cadet",
+     "oracle_id": "6846448b-d5a0-4ae0-bb11-ea7fa6ed2558",
+     "type_line": "Legendary Creature — Human Soldier",
+     "scryfall_uri": "https://scryfall.com/card/eoe/218/haliya-ascendant-cadet"
+    },
+    {
+     "name": "Haliya, Guided by Light",
+     "oracle_id": "9b0af3ad-1b4d-4480-af91-fe9baee5d1c5",
+     "type_line": "Legendary Creature — Human Soldier",
+     "scryfall_uri": "https://scryfall.com/card/eoe/19/haliya-guided-by-light"
     }
    ]
   },
@@ -1056,6 +1204,29 @@
    ]
   },
   {
+   "entity": "katilda",
+   "entity_type": "Character",
+   "entity_name": "Katilda",
+   "aliases": [
+    "Katilda"
+   ],
+   "pack": "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Katilda, Dawnhart Martyr // Katilda's Rising Dawn",
+     "oracle_id": "493b2820-c250-48bd-9f3c-e1b5639ee101",
+     "type_line": "Legendary Creature — Spirit Warlock // Legendary Enchantment — Aura",
+     "scryfall_uri": "https://scryfall.com/card/vow/21/katilda-dawnhart-martyr-katildas-rising-dawn"
+    },
+    {
+     "name": "Katilda, Dawnhart Prime",
+     "oracle_id": "6c728edd-ab67-44ce-b19d-aa98dfce68bb",
+     "type_line": "Legendary Creature — Human Warlock",
+     "scryfall_uri": "https://scryfall.com/card/mid/230/katilda-dawnhart-prime"
+    }
+   ]
+  },
+  {
    "entity": "kaya",
    "entity_type": "Character",
    "entity_name": "Kaya",
@@ -1356,6 +1527,46 @@
    ]
   },
   {
+   "entity": "mmmenon",
+   "entity_type": "Character",
+   "entity_name": "Mm'menon",
+   "aliases": [
+    "Mm'menon"
+   ],
+   "pack": "pack_p5_edge_of_eternities_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Mm'menon, Uthros Exile",
+     "oracle_id": "6c05b882-51d9-43d8-93b8-c3317590f76a",
+     "type_line": "Legendary Creature — Jellyfish Advisor",
+     "scryfall_uri": "https://scryfall.com/card/eoe/221/mmmenon-uthros-exile"
+    },
+    {
+     "name": "Mm'menon, the Right Hand",
+     "oracle_id": "de58fa4b-eeeb-4dc8-aab9-6521b15678cc",
+     "type_line": "Legendary Creature — Jellyfish Advisor",
+     "scryfall_uri": "https://scryfall.com/card/eoe/68/mmmenon-the-right-hand"
+    }
+   ]
+  },
+  {
+   "entity": "moonsilver_key",
+   "entity_type": "Object",
+   "entity_name": "Moonsilver Key",
+   "aliases": [
+    "Moonsilver Key"
+   ],
+   "pack": "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Moonsilver Key",
+     "oracle_id": "373395b2-f04b-46c9-b9f4-4f6815b71009",
+     "type_line": "Artifact",
+     "scryfall_uri": "https://scryfall.com/card/mid/255/moonsilver-key"
+    }
+   ]
+  },
+  {
    "entity": "multani",
    "entity_type": "Character",
    "entity_name": "Multani",
@@ -1555,6 +1766,82 @@
      "oracle_id": "113fc13a-6df9-4eed-b9d4-002a85a036a1",
      "type_line": "Legendary Planeswalker — Nissa",
      "scryfall_uri": "https://scryfall.com/card/zen/170/nissa-revane"
+    }
+   ]
+  },
+  {
+   "entity": "ob_nixilis",
+   "entity_type": "Character",
+   "entity_name": "Ob Nixilis (the Adversary)",
+   "aliases": [
+    "Ob Nixilis"
+   ],
+   "pack": "pack_p5_streets_of_new_capenna_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Ob Nixilis Reignited",
+     "oracle_id": "65481ae1-54b2-44d2-91e1-20cd486386da",
+     "type_line": "Legendary Planeswalker — Nixilis",
+     "scryfall_uri": "https://scryfall.com/card/dsc/152/ob-nixilis-reignited"
+    },
+    {
+     "name": "Ob Nixilis of the Black Oath",
+     "oracle_id": "cfc9a2f9-92fa-4608-b98d-f9763c89fc40",
+     "type_line": "Legendary Planeswalker — Nixilis",
+     "scryfall_uri": "https://scryfall.com/card/cmm/176/ob-nixilis-of-the-black-oath"
+    },
+    {
+     "name": "Ob Nixilis, Captive Kingpin",
+     "oracle_id": "55b6434b-1542-40fd-b12a-697d40976582",
+     "type_line": "Legendary Creature — Demon",
+     "scryfall_uri": "https://scryfall.com/card/mat/41/ob-nixilis-captive-kingpin"
+    },
+    {
+     "name": "Ob Nixilis, Unshackled",
+     "oracle_id": "73021bd2-3b60-4fe4-8858-6eb525be1422",
+     "type_line": "Legendary Creature — Demon",
+     "scryfall_uri": "https://scryfall.com/card/2x2/84/ob-nixilis-unshackled"
+    },
+    {
+     "name": "Ob Nixilis, the Adversary",
+     "oracle_id": "a6abb6af-7ea2-43f3-8718-2a077ad0c947",
+     "type_line": "Legendary Planeswalker — Nixilis",
+     "scryfall_uri": "https://scryfall.com/card/snc/206/ob-nixilis-the-adversary"
+    },
+    {
+     "name": "Ob Nixilis, the Ascended",
+     "oracle_id": "3a49b518-61c8-4dea-8008-c5edf8384581",
+     "type_line": "Legendary Creature — Angel",
+     "scryfall_uri": "https://scryfall.com/card/frc/5/ob-nixilis-the-ascended"
+    },
+    {
+     "name": "Ob Nixilis, the Fallen",
+     "oracle_id": "154104b7-4125-4276-8bc7-9a6edfe48cb9",
+     "type_line": "Legendary Creature — Demon",
+     "scryfall_uri": "https://scryfall.com/card/tdc/192/ob-nixilis-the-fallen"
+    },
+    {
+     "name": "Ob Nixilis, the Hate-Twisted",
+     "oracle_id": "88cd12e5-ca89-4176-96fd-320fe2ccd087",
+     "type_line": "Legendary Planeswalker — Nixilis",
+     "scryfall_uri": "https://scryfall.com/card/war/100/ob-nixilis-the-hate-twisted"
+    }
+   ]
+  },
+  {
+   "entity": "olivia_voldaren",
+   "entity_type": "Character",
+   "entity_name": "Olivia Voldaren",
+   "aliases": [
+    "Olivia Voldaren"
+   ],
+   "pack": "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Olivia Voldaren",
+     "oracle_id": "dd27d0f2-fe1e-4b63-9ba0-6264ca3c70f8",
+     "type_line": "Legendary Creature — Vampire",
+     "scryfall_uri": "https://scryfall.com/card/inr/246/olivia-voldaren"
     }
    ]
   },
@@ -1847,6 +2134,29 @@
    ]
   },
   {
+   "entity": "sami",
+   "entity_type": "Character",
+   "entity_name": "Sami",
+   "aliases": [
+    "Sami"
+   ],
+   "pack": "pack_p5_edge_of_eternities_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Sami, Ship's Engineer",
+     "oracle_id": "470c16c5-b078-47f5-89b0-42991e1f7157",
+     "type_line": "Legendary Creature — Human Artificer",
+     "scryfall_uri": "https://scryfall.com/card/eoe/225/sami-ships-engineer"
+    },
+    {
+     "name": "Sami, Wildcat Captain",
+     "oracle_id": "c4175a34-70bb-47e5-8406-efdc4d2cd079",
+     "type_line": "Legendary Creature — Human Artificer Rogue",
+     "scryfall_uri": "https://scryfall.com/card/eoe/226/sami-wildcat-captain"
+    }
+   ]
+  },
+  {
    "entity": "sarkhan_vol",
    "entity_type": "Character",
    "entity_name": "Sarkhan Vol",
@@ -1926,6 +2236,23 @@
      "oracle_id": "249fdd3e-376c-4ec2-a612-4353e0e61ee2",
      "type_line": "Land — Sphere",
      "scryfall_uri": "https://scryfall.com/card/one/259/the-seedcore"
+    }
+   ]
+  },
+  {
+   "entity": "seriema",
+   "entity_type": "Object",
+   "entity_name": "The Seriema (starship)",
+   "aliases": [
+    "The Seriema"
+   ],
+   "pack": "pack_p5_edge_of_eternities_2026-10-30.json",
+   "cards": [
+    {
+     "name": "The Seriema",
+     "oracle_id": "a6bcec1f-f515-4e63-9e84-8eb04cc582ff",
+     "type_line": "Legendary Artifact — Spacecraft",
+     "scryfall_uri": "https://scryfall.com/card/eoe/35/the-seriema"
     }
    ]
   },
@@ -2110,6 +2437,29 @@
      "oracle_id": "f88be051-36ae-407e-bd5a-2b029c26414e",
      "type_line": "Legendary Planeswalker — Tamiyo",
      "scryfall_uri": "https://scryfall.com/card/avr/79/tamiyo-the-moon-sage"
+    }
+   ]
+  },
+  {
+   "entity": "tannuk",
+   "entity_type": "Character",
+   "entity_name": "Tannuk",
+   "aliases": [
+    "Tannuk"
+   ],
+   "pack": "pack_p5_edge_of_eternities_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Tannuk, Memorial Ensign",
+     "oracle_id": "76cb1912-3791-44b8-b594-b92dab21bafc",
+     "type_line": "Legendary Creature — Kavu Pilot",
+     "scryfall_uri": "https://scryfall.com/card/eoe/233/tannuk-memorial-ensign"
+    },
+    {
+     "name": "Tannuk, Steadfast Second",
+     "oracle_id": "b5ae8016-92ed-4ae8-83a8-65068defc616",
+     "type_line": "Legendary Creature — Kavu Pilot",
+     "scryfall_uri": "https://scryfall.com/card/eoe/162/tannuk-steadfast-second"
     }
    ]
   },
@@ -2353,6 +2703,23 @@
    ]
   },
   {
+   "entity": "tovolar",
+   "entity_type": "Character",
+   "entity_name": "Tovolar",
+   "aliases": [
+    "Tovolar"
+   ],
+   "pack": "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Tovolar, Dire Overlord // Tovolar, the Midnight Scourge",
+     "oracle_id": "45d49831-548a-4a0e-9a18-9f7397913895",
+     "type_line": "Legendary Creature — Human Werewolf // Legendary Creature — Werewolf",
+     "scryfall_uri": "https://scryfall.com/card/mid/246/tovolar-dire-overlord-tovolar-the-midnight-scourge"
+    }
+   ]
+  },
+  {
    "entity": "tyvar",
    "entity_type": "Character",
    "entity_name": "Tyvar Kell",
@@ -2527,6 +2894,46 @@
    ]
   },
   {
+   "entity": "vivien_reid",
+   "entity_type": "Character",
+   "entity_name": "Vivien Reid",
+   "aliases": [
+    "Vivien Reid"
+   ],
+   "pack": "pack_p5_streets_of_new_capenna_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Vivien Reid",
+     "oracle_id": "b5f20a6d-8c3e-452f-9d98-4886f0fa052a",
+     "type_line": "Legendary Planeswalker — Vivien",
+     "scryfall_uri": "https://scryfall.com/card/fdn/234/vivien-reid"
+    }
+   ]
+  },
+  {
+   "entity": "vondam",
+   "entity_type": "Character",
+   "entity_name": "Syr Vondam",
+   "aliases": [
+    "Syr Vondam"
+   ],
+   "pack": "pack_p5_edge_of_eternities_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Syr Vondam, Sunstar Exemplar",
+     "oracle_id": "9e597063-c077-4236-a9e4-b0721b24677f",
+     "type_line": "Legendary Creature — Human Knight",
+     "scryfall_uri": "https://scryfall.com/card/eoe/231/syr-vondam-sunstar-exemplar"
+    },
+    {
+     "name": "Syr Vondam, the Lucent",
+     "oracle_id": "28225bae-2d96-4352-b256-0c2ff4ef65e9",
+     "type_line": "Legendary Creature — Human Knight",
+     "scryfall_uri": "https://scryfall.com/card/eoe/232/syr-vondam-the-lucent"
+    }
+   ]
+  },
+  {
    "entity": "vraska",
    "entity_type": "Character",
    "entity_name": "Vraska",
@@ -2615,6 +3022,23 @@
    ]
   },
   {
+   "entity": "xander",
+   "entity_type": "Character",
+   "entity_name": "Lord Xander",
+   "aliases": [
+    "Lord Xander"
+   ],
+   "pack": "pack_p5_streets_of_new_capenna_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Lord Xander, the Collector",
+     "oracle_id": "d17bfa94-5046-46ae-80af-be5d1d35af13",
+     "type_line": "Legendary Creature — Vampire Demon Noble",
+     "scryfall_uri": "https://scryfall.com/card/snc/197/lord-xander-the-collector"
+    }
+   ]
+  },
+  {
    "entity": "yasova_dragonclaw",
    "entity_type": "Character",
    "entity_name": "Yasova Dragonclaw",
@@ -2655,12 +3079,14 @@
   "belzenlok_death",
   "blackblade",
   "corondor_chasm",
+  "dawnsire",
   "dhiren_baral",
   "dmu_sheoldred_invasion",
   "dragonstorm_escape",
   "eiko",
   "first_phyrexian_invasion",
   "ghirapur_revolution",
+  "halo",
   "ice_age",
   "immortal_sun",
   "imperial_palace",
@@ -2669,6 +3095,7 @@
   "kiran_nalaar",
   "kuberr",
   "last_battle_argoth",
+  "last_thing_android",
   "one_sylex",
   "orazca",
   "original_tarkir_clash",
@@ -2676,7 +3103,10 @@
   "realmbreaker",
   "rtd_sylex",
   "skysovereign",
+  "sothera",
+  "sotheran_supervoid",
   "spire_inquirium",
+  "sungold_lock",
   "sylex_blast",
   "sylex_replica",
   "tarkir_duel",
@@ -2697,9 +3127,9 @@
   "Urza, Academy Headmaster"
  ],
  "counts": {
-  "entities_anchored": 102,
-  "anchor_edges": 252,
-  "unanchored_entities": 38
+  "entities_anchored": 122,
+  "anchor_edges": 286,
+  "unanchored_entities": 44
  },
- "content_sha256": "b68dd1883ec7a622a7ab41ac882af3536d8f70c3fa12cc0e15c3233622d2c065"
+ "content_sha256": "53d0bf01e76a613993cbc1e149df5bc747af73312d26751e19bafdb619ab50f2"
 }

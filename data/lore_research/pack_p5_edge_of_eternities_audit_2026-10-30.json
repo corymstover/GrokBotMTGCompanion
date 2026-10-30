@@ -15,192 +15,192 @@
  "quote_rows": [
   {
    "claim": "EO001",
-   "source_id": "legends",
+   "source_id": "eoe_legends",
    "quote_sha256": "0300e1f5dec7ed7993ae8cd87a401af2c930a4e9303c516731feae8481456e83",
    "status": "VERBATIM"
   },
   {
    "claim": "EO001",
-   "source_id": "legends",
+   "source_id": "eoe_legends",
    "quote_sha256": "fc3d102f9c4b26e8de36b9c1e5801dc88f4b1c1337e825d433c4808725bfff39",
    "status": "VERBATIM"
   },
   {
    "claim": "EO002",
-   "source_id": "legends",
+   "source_id": "eoe_legends",
    "quote_sha256": "d606f96525f02ecfc86155197eeac4b6a6f5b3c871732c5457bdc901ce7994ac",
    "status": "VERBATIM"
   },
   {
    "claim": "EO002",
-   "source_id": "legends",
+   "source_id": "eoe_legends",
    "quote_sha256": "5ed20e26fc805135efc7bb890906674232ad9eca1379c300d1c81e63e42435b6",
    "status": "VERBATIM"
   },
   {
    "claim": "EO003",
-   "source_id": "legends",
+   "source_id": "eoe_legends",
    "quote_sha256": "911c6e7f8b9c153962c9af2e4bebcb0b55bad54ec622722dbb3e2876a8303156",
    "status": "VERBATIM"
   },
   {
    "claim": "EO004",
-   "source_id": "legends",
+   "source_id": "eoe_legends",
    "quote_sha256": "0b89cb9cb68c65fce1314025d3a5e68d2d0fed5790bcb3d15813edce995ab07e",
    "status": "VERBATIM"
   },
   {
    "claim": "EO004",
-   "source_id": "legends",
+   "source_id": "eoe_legends",
    "quote_sha256": "c40396783087c5ef6b2786956691d207a0db3d1c0867f527259876f5c369d73a",
    "status": "VERBATIM"
   },
   {
    "claim": "EO005",
-   "source_id": "legends",
+   "source_id": "eoe_legends",
    "quote_sha256": "d65493aed86f139168aaaaade24fc6bffb99aa38b078a71753c697024950240f",
    "status": "VERBATIM"
   },
   {
    "claim": "EO005",
-   "source_id": "legends",
+   "source_id": "eoe_legends",
    "quote_sha256": "2af8fa9632317a52196509f745e6d5b46208dced6b376c8b6bf7b29b6fd0a0fb",
    "status": "VERBATIM"
   },
   {
    "claim": "EO006",
-   "source_id": "legends",
+   "source_id": "eoe_legends",
    "quote_sha256": "e962ba4ebace81097a4a684f38cc4a0397310f9caeb5469c4c89bae492ab412c",
    "status": "VERBATIM"
   },
   {
    "claim": "EO007",
-   "source_id": "legends",
+   "source_id": "eoe_legends",
    "quote_sha256": "21c01497077838c5f8c2a27b899fb955d112fc1f449b03ce0a27a61be457c749",
    "status": "VERBATIM"
   },
   {
    "claim": "EO008",
-   "source_id": "legends",
+   "source_id": "eoe_legends",
    "quote_sha256": "e8a7e7a31100ab55b2f06ad3a9a0cb3693c9bfbd0fe41456030d417e553aff83",
    "status": "VERBATIM"
   },
   {
    "claim": "EO008",
-   "source_id": "legends",
+   "source_id": "eoe_legends",
    "quote_sha256": "ce8ae325fbb17bf514e917d741c021848dcb94066fb2f8bb6a137127b36bbb36",
    "status": "VERBATIM"
   },
   {
    "claim": "EO009",
-   "source_id": "legends",
+   "source_id": "eoe_legends",
    "quote_sha256": "51b411fb41d41bc33cfc78eefc84959af64b1988699ef92997757f59d1f85c11",
    "status": "VERBATIM"
   },
   {
    "claim": "EO010",
-   "source_id": "ep11",
+   "source_id": "eoe_ep11",
    "quote_sha256": "45ff1dc6ee75b41bbabb40f28b853e1150e9a6adf8a46962c428d1ddb466c509",
    "status": "VERBATIM"
   },
   {
    "claim": "EO010",
-   "source_id": "ep11",
+   "source_id": "eoe_ep11",
    "quote_sha256": "d514ca236b48f1d9d49b8d32578cda3b92213baef75f09a93b521e42dc457215",
    "status": "VERBATIM"
   },
   {
    "claim": "EO011",
-   "source_id": "ep8",
+   "source_id": "eoe_ep8",
    "quote_sha256": "a4a351269dfa754d3b096b295d02e0c6a51c9e7f0cde4480c49ed71c049a44c1",
    "status": "VERBATIM"
   },
   {
    "claim": "EO011",
-   "source_id": "ep11",
+   "source_id": "eoe_ep11",
    "quote_sha256": "8ab60405597184d1e7fb15876773d392a37793c2f33a9192afc69369c8d2b042",
    "status": "VERBATIM"
   },
   {
    "claim": "EO011",
-   "source_id": "ep10",
+   "source_id": "eoe_ep10",
    "quote_sha256": "6602aeb9693e1d940cc4be1dafcb90c93889b6393dc6e736122fdf4bc6d99077",
    "status": "VERBATIM"
   },
   {
    "claim": "EO011",
-   "source_id": "ep9",
+   "source_id": "eoe_ep9",
    "quote_sha256": "c637427af128c0124639c05b8bbdeabf29bd43501ca50bc8cb03891b83c64009",
    "status": "VERBATIM"
   },
   {
    "claim": "EO012",
-   "source_id": "ep11",
+   "source_id": "eoe_ep11",
    "quote_sha256": "303201fdb04ca1b3e4d49e9cc9a2acc2d516da405debfad34216cf5bd700ae77",
    "status": "VERBATIM"
   },
   {
    "claim": "EO013",
-   "source_id": "ep11",
+   "source_id": "eoe_ep11",
    "quote_sha256": "dc447c06928d2e46d11fe42921b0797e9ce15e3a98390b0aed79c419202a49a6",
    "status": "VERBATIM"
   },
   {
    "claim": "EO013",
-   "source_id": "ep11",
+   "source_id": "eoe_ep11",
    "quote_sha256": "f27c04830b57f7bbca6317a2dd0a43bd96bb82506f4b389225c84c480fdeb3e5",
    "status": "VERBATIM"
   },
   {
    "claim": "EO013",
-   "source_id": "ep11",
+   "source_id": "eoe_ep11",
    "quote_sha256": "a11f78748d78fe8b3ab47a254953efe8b7f432a8d44e3e5585b61517397a2e20",
    "status": "VERBATIM"
   },
   {
    "claim": "EO014",
-   "source_id": "ep11",
+   "source_id": "eoe_ep11",
    "quote_sha256": "de266c03d1fd492878a8fa373af6c56a425f66102df9996184edeef058c7fd7d",
    "status": "VERBATIM"
   },
   {
    "claim": "EO015",
-   "source_id": "ep11",
+   "source_id": "eoe_ep11",
    "quote_sha256": "342605244eb9bfdd7c762d9ae850eefead66f2fb6d138ec73ce499d1b3a8e6fd",
    "status": "VERBATIM"
   },
   {
    "claim": "EO015",
-   "source_id": "ep11",
+   "source_id": "eoe_ep11",
    "quote_sha256": "23284955b56815da0fa78e7bfff9a9a5a55a175deeb739a624a90f5239747e74",
    "status": "VERBATIM"
   },
   {
    "claim": "EO016",
-   "source_id": "guide",
+   "source_id": "eoe_guide",
    "quote_sha256": "143d2db2797d38fcf50e8aca4201fe376a6a1904873592ce0a5ef8684c4a7f51",
    "status": "VERBATIM"
   },
   {
    "claim": "EO016",
-   "source_id": "guide",
+   "source_id": "eoe_guide",
    "quote_sha256": "f0c51f1aef96c7df55e912742ab15039b67f6c7a090353f3b5dd3891d3201517",
    "status": "VERBATIM"
   },
   {
    "claim": "EO017",
-   "source_id": "ep11",
+   "source_id": "eoe_ep11",
    "quote_sha256": "9063f5d42928da460d027344a33cef092ecc2b9717bc981972e02809d9932e90",
    "status": "VERBATIM"
   },
   {
    "claim": "EO017",
-   "source_id": "ep11",
+   "source_id": "eoe_ep11",
    "quote_sha256": "d9489fa3ec94c7e915d318689fa5c27228bda2b4be6625591cedbc9e699f91eb",
    "status": "VERBATIM"
   }
  ],
  "problems": [],
  "note": "Verbatim-quote audit against cached official Wizards story text. Research evidence only: not owner approval, not certification, not an exhaustive reading.",
- "content_sha256": "32789542b01bcb94469575f8f8fdab16fa7f2a26c36121c50f5936f646999762"
+ "content_sha256": "2a067bc480310d4fffac7fd73d20242fd0f2435e172a27d2eb330ac2731287a9"
 }

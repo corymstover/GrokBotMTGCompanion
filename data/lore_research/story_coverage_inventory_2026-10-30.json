@@ -15,18 +15,21 @@
    "data/lore_research/pack_p5_kaladesh_aether_revolt_2026-10-30.json",
    "data/lore_research/pack_p5_ixalan_rivals_2026-10-30.json",
    "data/lore_research/pack_p5_amonkhet_hour_of_devastation_2026-10-30.json",
-   "data/lore_research/pack_p5_kamigawa_neon_dynasty_2026-10-30.json"
+   "data/lore_research/pack_p5_kamigawa_neon_dynasty_2026-10-30.json",
+   "data/lore_research/pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json",
+   "data/lore_research/pack_p5_streets_of_new_capenna_2026-10-30.json",
+   "data/lore_research/pack_p5_edge_of_eternities_2026-10-30.json"
   ]
  },
  "meaning": "cited = a claim pack quotes or cites the page at least once; it does not mean the page was read exhaustively",
  "totals": {
   "arcs": 33,
   "pages": 626,
-  "cited_pages": 94,
-  "arcs_not_started": 19,
-  "arcs_partial": 12,
-  "arcs_all_cited": 2,
-  "claims": 243,
+  "cited_pages": 114,
+  "arcs_not_started": 16,
+  "arcs_partial": 14,
+  "arcs_all_cited": 3,
+  "claims": 288,
   "pack_urls_outside_inventory": 12
  },
  "claims_per_pack": {
@@ -42,7 +45,10 @@
   "pack_p5_kaladesh_aether_revolt_2026-10-30.json": 25,
   "pack_p5_ixalan_rivals_2026-10-30.json": 16,
   "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json": 17,
-  "pack_p5_kamigawa_neon_dynasty_2026-10-30.json": 12
+  "pack_p5_kamigawa_neon_dynasty_2026-10-30.json": 12,
+  "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json": 12,
+  "pack_p5_streets_of_new_capenna_2026-10-30.json": 16,
+  "pack_p5_edge_of_eternities_2026-10-30.json": 17
  },
  "arcs": [
   {
@@ -264,32 +270,28 @@
   {
    "arc": "EOE",
    "pages": 18,
-   "cited_pages": 0,
+   "cited_pages": 6,
    "kinds": {
     "planeswalkers-guide": 1,
     "story": 17
    },
-   "citing_packs": [],
-   "status": "NOT_STARTED",
+   "citing_packs": [
+    "pack_p5_edge_of_eternities_2026-10-30.json"
+   ],
+   "status": "PARTIAL",
    "uncited_urls": [
     "https://magic.wizards.com/en/news/magic-story/edge-of-eternities-compact-me-to-zero",
     "https://magic.wizards.com/en/news/magic-story/edge-of-eternities-episode-1",
-    "https://magic.wizards.com/en/news/magic-story/edge-of-eternities-episode-10",
-    "https://magic.wizards.com/en/news/magic-story/edge-of-eternities-episode-11",
     "https://magic.wizards.com/en/news/magic-story/edge-of-eternities-episode-2",
     "https://magic.wizards.com/en/news/magic-story/edge-of-eternities-episode-3",
     "https://magic.wizards.com/en/news/magic-story/edge-of-eternities-episode-4",
     "https://magic.wizards.com/en/news/magic-story/edge-of-eternities-episode-5",
     "https://magic.wizards.com/en/news/magic-story/edge-of-eternities-episode-6",
     "https://magic.wizards.com/en/news/magic-story/edge-of-eternities-episode-7",
-    "https://magic.wizards.com/en/news/magic-story/edge-of-eternities-episode-8",
-    "https://magic.wizards.com/en/news/magic-story/edge-of-eternities-episode-9",
     "https://magic.wizards.com/en/news/magic-story/edge-of-eternities-grasp-in-the-dark",
     "https://magic.wizards.com/en/news/magic-story/edge-of-eternities-kadrik-and-the-pod",
     "https://magic.wizards.com/en/news/magic-story/edge-of-eternities-the-doors-of-uthros",
-    "https://magic.wizards.com/en/news/magic-story/edge-of-eternities-the-wefthunter",
-    "https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-to-edge-of-eternities",
-    "https://magic.wizards.com/en/news/magic-story/the-legends-of-edge-of-eternities"
+    "https://magic.wizards.com/en/news/magic-story/edge-of-eternities-the-wefthunter"
    ]
   },
   {
@@ -386,25 +388,19 @@
   {
    "arc": "MID/VOW",
    "pages": 11,
-   "cited_pages": 0,
+   "cited_pages": 8,
    "kinds": {
     "planeswalkers-guide": 1,
     "story": 10
    },
-   "citing_packs": [],
-   "status": "NOT_STARTED",
+   "citing_packs": [
+    "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json"
+   ],
+   "status": "PARTIAL",
    "uncited_urls": [
-    "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-innistrad-midnight-hunt",
-    "https://magic.wizards.com/en/news/magic-story/episode-1-tithes-and-invitations-2021-10-28",
-    "https://magic.wizards.com/en/news/magic-story/episode-1-witch-woods-2021-09-02",
-    "https://magic.wizards.com/en/news/magic-story/episode-2-dolorous-weight-pleasantries-2021-11-03",
     "https://magic.wizards.com/en/news/magic-story/episode-2-motives-wolf-2021-09-08",
     "https://magic.wizards.com/en/news/magic-story/episode-3-fall-house-betzold-2021-09-15",
-    "https://magic.wizards.com/en/news/magic-story/episode-3-forever-hold-your-peace-2021-11-10",
-    "https://magic.wizards.com/en/news/magic-story/episode-4-harvesttide-2021-09-22",
-    "https://magic.wizards.com/en/news/magic-story/episode-4-wedding-crashers-2021-11-17",
-    "https://magic.wizards.com/en/news/magic-story/episode-5-night-closes-round-2021-09-29",
-    "https://magic.wizards.com/en/news/magic-story/episode-5-till-death-do-us-part-2021-11-24"
+    "https://magic.wizards.com/en/news/magic-story/episode-4-harvesttide-2021-09-22"
    ]
   },
   {
@@ -524,21 +520,16 @@
   {
    "arc": "SNC",
    "pages": 6,
-   "cited_pages": 0,
+   "cited_pages": 6,
    "kinds": {
     "planeswalkers-guide": 1,
     "story": 5
    },
-   "citing_packs": [],
-   "status": "NOT_STARTED",
-   "uncited_urls": [
-    "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-streets-of-new-capenna",
-    "https://magic.wizards.com/en/news/magic-story/episode-1-homecoming-2022-03-28",
-    "https://magic.wizards.com/en/news/magic-story/episode-2-dirty-laundry-2022-03-29",
-    "https://magic.wizards.com/en/news/magic-story/episode-3-tests-2022-03-30",
-    "https://magic.wizards.com/en/news/magic-story/episode-4-font-2022-04-04",
-    "https://magic.wizards.com/en/news/magic-story/episode-5-hymn-angels-2022-04-05"
-   ]
+   "citing_packs": [
+    "pack_p5_streets_of_new_capenna_2026-10-30.json"
+   ],
+   "status": "ALL_PAGES_CITED",
+   "uncited_urls": []
   },
   {
    "arc": "SOI/EMN",
@@ -1033,5 +1024,5 @@
    ]
   }
  ],
- "sha256": "3b88f1092b7ee0c4f6f23b9238adf4896c210a5ccac031e91d7bbddaff867f5e"
+ "sha256": "78d515f655c16d044b24ec59b7c33ea93ab8486e7bc574937f1091ae3f46b4cb"
 }

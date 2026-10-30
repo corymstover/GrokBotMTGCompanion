@@ -7,7 +7,7 @@
   "HYPOTHETICAL": "Creative or deckbuilding connection; never canon.",
   "OPEN_QUESTION": "Primary sources leave the matter unresolved; do not assert either way."
  },
- "content_sha256": "5c70a22b67042d6e36f1e8366b8a4086234076490ddb7713fa293eea3b3aabe4",
+ "content_sha256": "a06587c2f32cab96d761d4d774951c082e318e89d0434d5541024fa80fc277c0",
  "edges": [
   {
    "artists": [
@@ -5092,10 +5092,24 @@
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "artifact:celestus",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:the_celestus"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
    "from": "artifact:chain_veil",
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
    "to": "card:the_chain_veil"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "artifact:endstone",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:the_endstone"
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
@@ -5120,10 +5134,24 @@
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "artifact:moonsilver_key",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:moonsilver_key"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
    "from": "artifact:planar_bridge",
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
    "to": "card:planar_bridge"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "artifact:seriema",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:the_seriema"
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
@@ -5260,6 +5288,20 @@
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:alpharael",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:alpharael_dreaming_acolyte"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:alpharael",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:alpharael_stonechosen"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
    "from": "character:angrath",
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
@@ -5281,6 +5323,13 @@
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:anhelo",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:anhelo_the_painter"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
    "from": "character:arcades_sabboth",
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
@@ -5292,6 +5341,13 @@
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
    "to": "card:arcades_the_strategist"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:arlinn_kord",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:arlinn_kord_arlinn_embraced_by_the_moon"
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
@@ -5400,6 +5456,13 @@
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:edgar_markov",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:edgar_markov"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
    "from": "character:elesh_norn",
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
@@ -5484,6 +5547,13 @@
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:giada",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:giada_font_of_hope"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
    "from": "character:gideon_jura",
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
@@ -5502,6 +5572,20 @@
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
    "to": "card:griselbrand"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:haliya",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:haliya_ascendant_cadet"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:haliya",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:haliya_guided_by_light"
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
@@ -5722,6 +5806,20 @@
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:katilda",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:katilda_dawnhart_martyr_katilda_s_rising_dawn"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:katilda",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:katilda_dawnhart_prime"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
    "from": "character:kaya",
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
@@ -5911,6 +6009,20 @@
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:mmmenon",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:mm_menon_the_right_hand"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:mmmenon",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:mm_menon_uthros_exile"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
    "from": "character:multani",
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
@@ -6055,6 +6167,69 @@
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
    "to": "card:nissa_revane"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:ob_nixilis",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:ob_nixilis_captive_kingpin"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:ob_nixilis",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:ob_nixilis_of_the_black_oath"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:ob_nixilis",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:ob_nixilis_reignited"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:ob_nixilis",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:ob_nixilis_the_adversary"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:ob_nixilis",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:ob_nixilis_the_ascended"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:ob_nixilis",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:ob_nixilis_the_fallen"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:ob_nixilis",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:ob_nixilis_the_hate_twisted"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:ob_nixilis",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:ob_nixilis_unshackled"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:olivia_voldaren",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:olivia_voldaren"
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
@@ -6233,6 +6408,20 @@
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:sami",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:sami_ship_s_engineer"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:sami",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:sami_wildcat_captain"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
    "from": "character:sarkhan_vol",
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
@@ -6398,6 +6587,20 @@
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
    "to": "card:tamiyo_upriser_crowned"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:tannuk",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:tannuk_memorial_ensign"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:tannuk",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:tannuk_steadfast_second"
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
@@ -6583,6 +6786,13 @@
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:tovolar",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:tovolar_dire_overlord_tovolar_the_midnight_scourge"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
    "from": "character:tyvar",
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
@@ -6702,6 +6912,27 @@
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:vivien_reid",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:vivien_reid"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:vondam",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:syr_vondam_sunstar_exemplar"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:vondam",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:syr_vondam_the_lucent"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
    "from": "character:vraska",
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
@@ -6769,6 +7000,13 @@
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
    "to": "card:vraska_the_unseen"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:xander",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:lord_xander_the_collector"
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
@@ -8407,6 +8645,213 @@
    "to": "character:yawgmoth"
   },
   {
+   "claim": "EO001",
+   "era": "eoe_prologue_2025",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:tezzeret",
+   "grade": "CANON_CONFIRMED",
+   "relation": "left",
+   "sources": [
+    "eoe_legends"
+   ],
+   "to": "concept:blind_eternities"
+  },
+  {
+   "claim": "EO002",
+   "era": "sothera_eoe_2025",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:tezzeret",
+   "grade": "CANON_CONFIRMED",
+   "relation": "sought",
+   "sources": [
+    "eoe_legends"
+   ],
+   "to": "place:sothera"
+  },
+  {
+   "claim": "EO003",
+   "era": "sothera_eoe_2025",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:sami",
+   "grade": "CANON_CONFIRMED",
+   "relation": "leader_of",
+   "sources": [
+    "eoe_legends"
+   ],
+   "to": "artifact:seriema"
+  },
+  {
+   "claim": "EO004",
+   "era": "sothera_eoe_2025",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:tannuk",
+   "grade": "CANON_CONFIRMED",
+   "relation": "allied_with",
+   "sources": [
+    "eoe_legends"
+   ],
+   "to": "character:sami"
+  },
+  {
+   "claim": "EO005",
+   "era": "sothera_eoe_2025",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:haliya",
+   "grade": "CANON_CONFIRMED",
+   "relation": "swore_to",
+   "sources": [
+    "eoe_legends"
+   ],
+   "to": "character:vondam"
+  },
+  {
+   "claim": "EO006",
+   "era": "sothera_eoe_2025",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:vondam",
+   "grade": "CANON_CONFIRMED",
+   "relation": "guardian_of",
+   "sources": [
+    "eoe_legends"
+   ],
+   "to": "artifact:dawnsire"
+  },
+  {
+   "claim": "EO007",
+   "era": "sothera_eoe_2025",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "faction:monoists",
+   "grade": "CANON_CONFIRMED",
+   "relation": "opposed",
+   "sources": [
+    "eoe_legends"
+   ],
+   "to": "artifact:dawnsire"
+  },
+  {
+   "claim": "EO008",
+   "era": "sothera_eoe_2025",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:alpharael",
+   "grade": "CANON_CONFIRMED",
+   "relation": "opposed",
+   "sources": [
+    "eoe_legends"
+   ],
+   "to": "faction:sunstar_free_company"
+  },
+  {
+   "claim": "EO009",
+   "era": "sothera_eoe_2025",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:mmmenon",
+   "grade": "CANON_CONFIRMED",
+   "relation": "allied_with",
+   "sources": [
+    "eoe_legends"
+   ],
+   "to": "character:tezzeret"
+  },
+  {
+   "claim": "EO010",
+   "era": "sothera_eoe_2025",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:tezzeret",
+   "grade": "CANON_IMPLIED",
+   "relation": "sought",
+   "sources": [
+    "eoe_ep11"
+   ],
+   "to": "artifact:endstone"
+  },
+  {
+   "claim": "EO011",
+   "era": "eoe_taro_duend_2025",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:vondam",
+   "grade": "CANON_IMPLIED",
+   "relation": "killed",
+   "sources": [
+    "eoe_ep10",
+    "eoe_ep11",
+    "eoe_ep8",
+    "eoe_ep9"
+   ],
+   "to": "faction:kav_of_taro_duend"
+  },
+  {
+   "claim": "EO012",
+   "era": "eoe_endgame_2025",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:haliya",
+   "grade": "CANON_CONFIRMED",
+   "relation": "left",
+   "sources": [
+    "eoe_ep11"
+   ],
+   "to": "faction:sunstar_free_company"
+  },
+  {
+   "claim": "EO013",
+   "era": "eoe_endgame_2025",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:last_thing_android",
+   "grade": "CANON_CONFIRMED",
+   "relation": "seized_control_of",
+   "sources": [
+    "eoe_ep11"
+   ],
+   "to": "artifact:endstone"
+  },
+  {
+   "claim": "EO014",
+   "era": "eoe_endgame_2025",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:tezzeret",
+   "grade": "CANON_CONFIRMED",
+   "relation": "gave_up",
+   "sources": [
+    "eoe_ep11"
+   ],
+   "to": "artifact:endstone"
+  },
+  {
+   "claim": "EO015",
+   "era": "eoe_endgame_2025",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:last_thing_android",
+   "grade": "CANON_CONFIRMED",
+   "relation": "opposed",
+   "sources": [
+    "eoe_ep11"
+   ],
+   "to": "character:haliya"
+  },
+  {
+   "claim": "EO016",
+   "era": "sothera_eoe_2025",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "faction:pinnacle",
+   "grade": "CANON_CONFIRMED",
+   "relation": "related_to",
+   "sources": [
+    "eoe_guide"
+   ],
+   "to": "place:sothera"
+  },
+  {
+   "claim": "EO017",
+   "era": "eoe_taro_duend_2025",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:haliya",
+   "grade": "CANON_IMPLIED",
+   "relation": "seized_control_of",
+   "sources": [
+    "eoe_ep11"
+   ],
+   "to": "artifact:endstone"
+  },
+  {
    "claim": "KLD001",
    "era": "soi_emn_2016",
    "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
@@ -8816,6 +9261,166 @@
     "mom_ep10"
    ],
    "to": "place:zhalfir"
+  },
+  {
+   "claim": "MV001",
+   "era": "innistrad_mid_vow_2021",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "faction:dawnhart_coven",
+   "grade": "CANON_CONFIRMED",
+   "relation": "sought_to_activate",
+   "sources": [
+    "mid_ep1",
+    "mid_guide"
+   ],
+   "to": "artifact:celestus"
+  },
+  {
+   "claim": "MV002",
+   "era": "innistrad_mid_vow_2021",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "artifact:moonsilver_key",
+   "grade": "CANON_CONFIRMED",
+   "relation": "required_to_activate",
+   "sources": [
+    "mid_guide"
+   ],
+   "to": "artifact:celestus"
+  },
+  {
+   "claim": "MV002",
+   "era": "innistrad_mid_vow_2021",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "artifact:moonsilver_key",
+   "grade": "CANON_CONFIRMED",
+   "relation": "required_to_activate",
+   "sources": [
+    "mid_guide"
+   ],
+   "to": "artifact:sungold_lock"
+  },
+  {
+   "claim": "MV003",
+   "era": "innistrad_mid_vow_2021",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:tovolar",
+   "grade": "CANON_CONFIRMED",
+   "relation": "opposed",
+   "sources": [
+    "mid_guide"
+   ],
+   "to": "faction:dawnhart_coven"
+  },
+  {
+   "claim": "MV004",
+   "era": "mid_harvesttide_2021",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:olivia_voldaren",
+   "grade": "CANON_CONFIRMED",
+   "relation": "abducted",
+   "sources": [
+    "mid_ep5"
+   ],
+   "to": "character:katilda"
+  },
+  {
+   "claim": "MV005",
+   "era": "innistrad_mid_vow_2021",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:olivia_voldaren",
+   "grade": "CANON_CONFIRMED",
+   "relation": "seized_control_of",
+   "sources": [
+    "vow_ep1",
+    "vow_ep4"
+   ],
+   "to": "artifact:moonsilver_key"
+  },
+  {
+   "claim": "MV006",
+   "era": "innistrad_mid_vow_2021",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:olivia_voldaren",
+   "grade": "CANON_CONFIRMED",
+   "relation": "spouse_of",
+   "sources": [
+    "vow_ep2",
+    "vow_ep3"
+   ],
+   "to": "character:edgar_markov"
+  },
+  {
+   "claim": "MV007",
+   "era": "innistrad_mid_vow_2021",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:edgar_markov",
+   "grade": "CANON_CONFIRMED",
+   "relation": "related_to",
+   "sources": [
+    "vow_ep1",
+    "vow_ep5"
+   ],
+   "to": "character:sorin_markov"
+  },
+  {
+   "claim": "MV008",
+   "era": "innistrad_mid_vow_2021",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:sorin_markov",
+   "grade": "CANON_CONFIRMED",
+   "relation": "defeated",
+   "sources": [
+    "vow_ep5"
+   ],
+   "to": "character:edgar_markov"
+  },
+  {
+   "claim": "MV009",
+   "era": "innistrad_mid_vow_2021",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:olivia_voldaren",
+   "grade": "CANON_IMPLIED",
+   "relation": "sought_control_of",
+   "sources": [
+    "vow_ep5"
+   ],
+   "to": "faction:innistrad_angels"
+  },
+  {
+   "claim": "MV010",
+   "era": "innistrad_mid_vow_2021",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:olivia_voldaren",
+   "grade": "CANON_CONFIRMED",
+   "relation": "gave_up",
+   "sources": [
+    "vow_ep5"
+   ],
+   "to": "artifact:moonsilver_key"
+  },
+  {
+   "claim": "MV011",
+   "era": "vow_aftermath_2021",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "faction:dawnhart_coven",
+   "grade": "CANON_CONFIRMED",
+   "relation": "restored",
+   "sources": [
+    "vow_ep5"
+   ],
+   "to": "plane:innistrad"
+  },
+  {
+   "claim": "MV012",
+   "era": "vow_aftermath_2021",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:teferi",
+   "grade": "CANON_CONFIRMED",
+   "relation": "received",
+   "sources": [
+    "vow_ep5"
+   ],
+   "to": "artifact:moonsilver_key"
   },
   {
    "claim": "NEO001",
@@ -9681,6 +10286,201 @@
    "to": "faction:cabal"
   },
   {
+   "claim": "SN001",
+   "era": "new_capenna_snc_2022",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:ob_nixilis",
+   "grade": "CANON_CONFIRMED",
+   "relation": "identified_with",
+   "sources": [
+    "snc_ep5"
+   ],
+   "to": "concept:the_adversary"
+  },
+  {
+   "claim": "SN002",
+   "era": "new_capenna_snc_2022",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:giada",
+   "grade": "CANON_CONFIRMED",
+   "relation": "identified_with",
+   "sources": [
+    "snc_ep4"
+   ],
+   "to": "concept:the_font"
+  },
+  {
+   "claim": "SN003",
+   "era": "snc_crescendo_2022",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:ob_nixilis",
+   "grade": "CANON_CONFIRMED",
+   "relation": "killed",
+   "sources": [
+    "snc_ep4"
+   ],
+   "to": "character:xander"
+  },
+  {
+   "claim": "SN004",
+   "era": "new_capenna_snc_2022",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:xander",
+   "grade": "CANON_CONFIRMED",
+   "relation": "leader_of",
+   "sources": [
+    "snc_guide"
+   ],
+   "to": "faction:maestros"
+  },
+  {
+   "claim": "SN005",
+   "era": "snc_aftermath_2022",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:anhelo",
+   "grade": "CANON_CONFIRMED",
+   "relation": "leader_of",
+   "sources": [
+    "snc_ep5"
+   ],
+   "to": "faction:maestros"
+  },
+  {
+   "claim": "SN006",
+   "era": "new_capenna_snc_2022",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:elspeth_tirel",
+   "grade": "CANON_CONFIRMED",
+   "relation": "guardian_of",
+   "sources": [
+    "snc_ep5"
+   ],
+   "to": "character:giada"
+  },
+  {
+   "claim": "SN007",
+   "era": "snc_crescendo_2022",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:giada",
+   "grade": "CANON_CONFIRMED",
+   "relation": "restored",
+   "sources": [
+    "snc_ep5"
+   ],
+   "to": "character:elspeth_tirel"
+  },
+  {
+   "claim": "SN008",
+   "era": "new_capenna_snc_2022",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:giada",
+   "grade": "CANON_IMPLIED",
+   "relation": "related_to",
+   "sources": [
+    "snc_ep5"
+   ],
+   "to": "faction:capenna_archangels"
+  },
+  {
+   "claim": "SN009",
+   "era": "snc_cathedral_2022",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:giada",
+   "grade": "CANON_CONFIRMED",
+   "relation": "created",
+   "sources": [
+    "snc_ep5"
+   ],
+   "to": "artifact:halo"
+  },
+  {
+   "claim": "SN010",
+   "era": "snc_cathedral_2022",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:elspeth_tirel",
+   "grade": "CANON_CONFIRMED",
+   "relation": "defeated",
+   "sources": [
+    "snc_ep5"
+   ],
+   "to": "character:ob_nixilis"
+  },
+  {
+   "claim": "SN011",
+   "era": "old_capenna_phyrexian_invasion",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "faction:capenna_demon_lords",
+   "grade": "CANON_CONFIRMED",
+   "relation": "betrayed",
+   "sources": [
+    "snc_ep5",
+    "snc_guide"
+   ],
+   "to": "faction:capenna_archangels"
+  },
+  {
+   "claim": "SN012",
+   "era": "old_capenna_phyrexian_invasion",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "faction:capenna_demon_lords",
+   "grade": "CANON_CONFIRMED",
+   "relation": "defeated",
+   "sources": [
+    "snc_ep5"
+   ],
+   "to": "faction:phyrexians"
+  },
+  {
+   "claim": "SN013",
+   "era": "snc_aftermath_2022",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:elspeth_tirel",
+   "grade": "CANON_CONFIRMED",
+   "relation": "sought",
+   "sources": [
+    "snc_ep5"
+   ],
+   "to": "artifact:halo"
+  },
+  {
+   "claim": "SN014",
+   "era": "new_capenna_snc_2022",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:vivien_reid",
+   "grade": "CANON_CONFIRMED",
+   "relation": "allied_with",
+   "sources": [
+    "snc_ep3",
+    "snc_ep5"
+   ],
+   "to": "character:elspeth_tirel"
+  },
+  {
+   "claim": "SN015",
+   "era": "snc_prologue_dominaria_2022",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:elspeth_tirel",
+   "grade": "CANON_CONFIRMED",
+   "relation": "allied_with",
+   "sources": [
+    "snc_ep2"
+   ],
+   "to": "character:ajani"
+  },
+  {
+   "claim": "SN016",
+   "era": "new_capenna_snc_2022",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "faction:capenna_demon_lords",
+   "grade": "CANON_IMPLIED",
+   "relation": "created",
+   "sources": [
+    "snc_ep1",
+    "snc_ep3"
+   ],
+   "to": "faction:five_families"
+  },
+  {
    "claim": "U001",
    "era": "ancient",
    "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
@@ -10137,6 +10937,12 @@
    "to": "curated:Items & Artifacts Index.md#golgothian-sylex"
   },
   {
+   "from": "artifact:halo",
+   "relation": "see_also_curated_entry",
+   "tier": "contextual_pointer",
+   "to": "curated:Items & Artifacts Index.md#halo"
+  },
+  {
    "from": "artifact:immortal_sun",
    "relation": "see_also_curated_entry",
    "tier": "contextual_pointer",
@@ -10175,6 +10981,12 @@
    ],
    "tier": "NAMED_CHARACTER_CARD",
    "to": "card:arcades_the_strategist"
+  },
+  {
+   "from": "character:arlinn_kord",
+   "relation": "see_also_curated_entry",
+   "tier": "contextual_pointer",
+   "to": "curated:Characters Index.md#arlinn-kord"
   },
   {
    "from": "character:chandra_nalaar",
@@ -10575,6 +11387,12 @@
    "relation": "see_also_curated_entry",
    "tier": "contextual_pointer",
    "to": "curated:Planeswalker Dossiers.md#venser"
+  },
+  {
+   "from": "character:vivien_reid",
+   "relation": "see_also_curated_entry",
+   "tier": "contextual_pointer",
+   "to": "curated:Characters Index.md#vivien-reid"
   },
   {
    "from": "character:vraska",
@@ -12029,6 +12847,210 @@
    "to": "character:elesh_norn"
   },
   {
+   "from": "claim:EO001",
+   "relation": "asserts",
+   "role": "object",
+   "to": "concept:blind_eternities"
+  },
+  {
+   "from": "claim:EO001",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:tezzeret"
+  },
+  {
+   "from": "claim:EO002",
+   "relation": "asserts",
+   "role": "object",
+   "to": "place:sothera"
+  },
+  {
+   "from": "claim:EO002",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:tezzeret"
+  },
+  {
+   "from": "claim:EO003",
+   "relation": "asserts",
+   "role": "object",
+   "to": "artifact:seriema"
+  },
+  {
+   "from": "claim:EO003",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:sami"
+  },
+  {
+   "from": "claim:EO004",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:sami"
+  },
+  {
+   "from": "claim:EO004",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:tannuk"
+  },
+  {
+   "from": "claim:EO005",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:vondam"
+  },
+  {
+   "from": "claim:EO005",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:haliya"
+  },
+  {
+   "from": "claim:EO006",
+   "relation": "asserts",
+   "role": "object",
+   "to": "artifact:dawnsire"
+  },
+  {
+   "from": "claim:EO006",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:vondam"
+  },
+  {
+   "from": "claim:EO007",
+   "relation": "asserts",
+   "role": "object",
+   "to": "artifact:dawnsire"
+  },
+  {
+   "from": "claim:EO007",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "faction:monoists"
+  },
+  {
+   "from": "claim:EO008",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:sunstar_free_company"
+  },
+  {
+   "from": "claim:EO008",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:alpharael"
+  },
+  {
+   "from": "claim:EO009",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:tezzeret"
+  },
+  {
+   "from": "claim:EO009",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:mmmenon"
+  },
+  {
+   "from": "claim:EO010",
+   "relation": "asserts",
+   "role": "object",
+   "to": "artifact:endstone"
+  },
+  {
+   "from": "claim:EO010",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:tezzeret"
+  },
+  {
+   "from": "claim:EO011",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:kav_of_taro_duend"
+  },
+  {
+   "from": "claim:EO011",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:vondam"
+  },
+  {
+   "from": "claim:EO012",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:sunstar_free_company"
+  },
+  {
+   "from": "claim:EO012",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:haliya"
+  },
+  {
+   "from": "claim:EO013",
+   "relation": "asserts",
+   "role": "object",
+   "to": "artifact:endstone"
+  },
+  {
+   "from": "claim:EO013",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:last_thing_android"
+  },
+  {
+   "from": "claim:EO014",
+   "relation": "asserts",
+   "role": "object",
+   "to": "artifact:endstone"
+  },
+  {
+   "from": "claim:EO014",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:tezzeret"
+  },
+  {
+   "from": "claim:EO015",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:haliya"
+  },
+  {
+   "from": "claim:EO015",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:last_thing_android"
+  },
+  {
+   "from": "claim:EO016",
+   "relation": "asserts",
+   "role": "object",
+   "to": "place:sothera"
+  },
+  {
+   "from": "claim:EO016",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "faction:pinnacle"
+  },
+  {
+   "from": "claim:EO017",
+   "relation": "asserts",
+   "role": "object",
+   "to": "artifact:endstone"
+  },
+  {
+   "from": "claim:EO017",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:haliya"
+  },
+  {
    "from": "claim:KLD001",
    "relation": "asserts",
    "role": "object",
@@ -12414,6 +13436,156 @@
   },
   {
    "from": "claim:MOM021",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:teferi"
+  },
+  {
+   "from": "claim:MV001",
+   "relation": "asserts",
+   "role": "object",
+   "to": "artifact:celestus"
+  },
+  {
+   "from": "claim:MV001",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "faction:dawnhart_coven"
+  },
+  {
+   "from": "claim:MV002",
+   "relation": "asserts",
+   "role": "object",
+   "to": "artifact:celestus"
+  },
+  {
+   "from": "claim:MV002",
+   "relation": "asserts",
+   "role": "object",
+   "to": "artifact:sungold_lock"
+  },
+  {
+   "from": "claim:MV002",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "artifact:moonsilver_key"
+  },
+  {
+   "from": "claim:MV003",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:dawnhart_coven"
+  },
+  {
+   "from": "claim:MV003",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:tovolar"
+  },
+  {
+   "from": "claim:MV004",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:katilda"
+  },
+  {
+   "from": "claim:MV004",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:olivia_voldaren"
+  },
+  {
+   "from": "claim:MV005",
+   "relation": "asserts",
+   "role": "object",
+   "to": "artifact:moonsilver_key"
+  },
+  {
+   "from": "claim:MV005",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:olivia_voldaren"
+  },
+  {
+   "from": "claim:MV006",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:edgar_markov"
+  },
+  {
+   "from": "claim:MV006",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:olivia_voldaren"
+  },
+  {
+   "from": "claim:MV007",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:sorin_markov"
+  },
+  {
+   "from": "claim:MV007",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:edgar_markov"
+  },
+  {
+   "from": "claim:MV008",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:edgar_markov"
+  },
+  {
+   "from": "claim:MV008",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:sorin_markov"
+  },
+  {
+   "from": "claim:MV009",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:innistrad_angels"
+  },
+  {
+   "from": "claim:MV009",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:olivia_voldaren"
+  },
+  {
+   "from": "claim:MV010",
+   "relation": "asserts",
+   "role": "object",
+   "to": "artifact:moonsilver_key"
+  },
+  {
+   "from": "claim:MV010",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:olivia_voldaren"
+  },
+  {
+   "from": "claim:MV011",
+   "relation": "asserts",
+   "role": "object",
+   "to": "plane:innistrad"
+  },
+  {
+   "from": "claim:MV011",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "faction:dawnhart_coven"
+  },
+  {
+   "from": "claim:MV012",
+   "relation": "asserts",
+   "role": "object",
+   "to": "artifact:moonsilver_key"
+  },
+  {
+   "from": "claim:MV012",
    "relation": "asserts",
    "role": "subject",
    "to": "character:teferi"
@@ -13265,6 +14437,198 @@
    "to": "character:radha"
   },
   {
+   "from": "claim:SN001",
+   "relation": "asserts",
+   "role": "object",
+   "to": "concept:the_adversary"
+  },
+  {
+   "from": "claim:SN001",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:ob_nixilis"
+  },
+  {
+   "from": "claim:SN002",
+   "relation": "asserts",
+   "role": "object",
+   "to": "concept:the_font"
+  },
+  {
+   "from": "claim:SN002",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:giada"
+  },
+  {
+   "from": "claim:SN003",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:xander"
+  },
+  {
+   "from": "claim:SN003",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:ob_nixilis"
+  },
+  {
+   "from": "claim:SN004",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:maestros"
+  },
+  {
+   "from": "claim:SN004",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:xander"
+  },
+  {
+   "from": "claim:SN005",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:maestros"
+  },
+  {
+   "from": "claim:SN005",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:anhelo"
+  },
+  {
+   "from": "claim:SN006",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:giada"
+  },
+  {
+   "from": "claim:SN006",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:elspeth_tirel"
+  },
+  {
+   "from": "claim:SN007",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:elspeth_tirel"
+  },
+  {
+   "from": "claim:SN007",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:giada"
+  },
+  {
+   "from": "claim:SN008",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:capenna_archangels"
+  },
+  {
+   "from": "claim:SN008",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:giada"
+  },
+  {
+   "from": "claim:SN009",
+   "relation": "asserts",
+   "role": "object",
+   "to": "artifact:halo"
+  },
+  {
+   "from": "claim:SN009",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:giada"
+  },
+  {
+   "from": "claim:SN010",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:ob_nixilis"
+  },
+  {
+   "from": "claim:SN010",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:elspeth_tirel"
+  },
+  {
+   "from": "claim:SN011",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:capenna_archangels"
+  },
+  {
+   "from": "claim:SN011",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "faction:capenna_demon_lords"
+  },
+  {
+   "from": "claim:SN012",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:phyrexians"
+  },
+  {
+   "from": "claim:SN012",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "faction:capenna_demon_lords"
+  },
+  {
+   "from": "claim:SN013",
+   "relation": "asserts",
+   "role": "object",
+   "to": "artifact:halo"
+  },
+  {
+   "from": "claim:SN013",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:elspeth_tirel"
+  },
+  {
+   "from": "claim:SN014",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:elspeth_tirel"
+  },
+  {
+   "from": "claim:SN014",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:vivien_reid"
+  },
+  {
+   "from": "claim:SN015",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:ajani"
+  },
+  {
+   "from": "claim:SN015",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:elspeth_tirel"
+  },
+  {
+   "from": "claim:SN016",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:five_families"
+  },
+  {
+   "from": "claim:SN016",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "faction:capenna_demon_lords"
+  },
+  {
    "from": "claim:U001",
    "relation": "asserts",
    "role": "object",
@@ -13770,6 +15134,12 @@
    "to": "curated:Planes Index.md#ikoria"
   },
   {
+   "from": "plane:innistrad",
+   "relation": "see_also_curated_entry",
+   "tier": "contextual_pointer",
+   "to": "curated:Planes Index.md#innistrad"
+  },
+  {
    "from": "plane:ixalan",
    "relation": "see_also_curated_entry",
    "tier": "contextual_pointer",
@@ -14264,6 +15634,106 @@
    "to": "claim:A024"
   },
   {
+   "from": "source:eoe_ep10",
+   "relation": "cited_by",
+   "to": "claim:EO011"
+  },
+  {
+   "from": "source:eoe_ep11",
+   "relation": "cited_by",
+   "to": "claim:EO010"
+  },
+  {
+   "from": "source:eoe_ep11",
+   "relation": "cited_by",
+   "to": "claim:EO011"
+  },
+  {
+   "from": "source:eoe_ep11",
+   "relation": "cited_by",
+   "to": "claim:EO012"
+  },
+  {
+   "from": "source:eoe_ep11",
+   "relation": "cited_by",
+   "to": "claim:EO013"
+  },
+  {
+   "from": "source:eoe_ep11",
+   "relation": "cited_by",
+   "to": "claim:EO014"
+  },
+  {
+   "from": "source:eoe_ep11",
+   "relation": "cited_by",
+   "to": "claim:EO015"
+  },
+  {
+   "from": "source:eoe_ep11",
+   "relation": "cited_by",
+   "to": "claim:EO017"
+  },
+  {
+   "from": "source:eoe_ep8",
+   "relation": "cited_by",
+   "to": "claim:EO011"
+  },
+  {
+   "from": "source:eoe_ep9",
+   "relation": "cited_by",
+   "to": "claim:EO011"
+  },
+  {
+   "from": "source:eoe_guide",
+   "relation": "cited_by",
+   "to": "claim:EO016"
+  },
+  {
+   "from": "source:eoe_legends",
+   "relation": "cited_by",
+   "to": "claim:EO001"
+  },
+  {
+   "from": "source:eoe_legends",
+   "relation": "cited_by",
+   "to": "claim:EO002"
+  },
+  {
+   "from": "source:eoe_legends",
+   "relation": "cited_by",
+   "to": "claim:EO003"
+  },
+  {
+   "from": "source:eoe_legends",
+   "relation": "cited_by",
+   "to": "claim:EO004"
+  },
+  {
+   "from": "source:eoe_legends",
+   "relation": "cited_by",
+   "to": "claim:EO005"
+  },
+  {
+   "from": "source:eoe_legends",
+   "relation": "cited_by",
+   "to": "claim:EO006"
+  },
+  {
+   "from": "source:eoe_legends",
+   "relation": "cited_by",
+   "to": "claim:EO007"
+  },
+  {
+   "from": "source:eoe_legends",
+   "relation": "cited_by",
+   "to": "claim:EO008"
+  },
+  {
+   "from": "source:eoe_legends",
+   "relation": "cited_by",
+   "to": "claim:EO009"
+  },
+  {
    "from": "source:fate_reforged_guide",
    "relation": "cited_by",
    "to": "claim:A005"
@@ -14449,6 +15919,31 @@
    "from": "source:mh2_legends",
    "relation": "cited_by",
    "to": "claim:A022"
+  },
+  {
+   "from": "source:mid_ep1",
+   "relation": "cited_by",
+   "to": "claim:MV001"
+  },
+  {
+   "from": "source:mid_ep5",
+   "relation": "cited_by",
+   "to": "claim:MV004"
+  },
+  {
+   "from": "source:mid_guide",
+   "relation": "cited_by",
+   "to": "claim:MV001"
+  },
+  {
+   "from": "source:mid_guide",
+   "relation": "cited_by",
+   "to": "claim:MV002"
+  },
+  {
+   "from": "source:mid_guide",
+   "relation": "cited_by",
+   "to": "claim:MV003"
   },
   {
    "from": "source:mom_ep01",
@@ -15102,6 +16597,101 @@
    "to": "claim:RTD034"
   },
   {
+   "from": "source:snc_ep1",
+   "relation": "cited_by",
+   "to": "claim:SN016"
+  },
+  {
+   "from": "source:snc_ep2",
+   "relation": "cited_by",
+   "to": "claim:SN015"
+  },
+  {
+   "from": "source:snc_ep3",
+   "relation": "cited_by",
+   "to": "claim:SN014"
+  },
+  {
+   "from": "source:snc_ep3",
+   "relation": "cited_by",
+   "to": "claim:SN016"
+  },
+  {
+   "from": "source:snc_ep4",
+   "relation": "cited_by",
+   "to": "claim:SN002"
+  },
+  {
+   "from": "source:snc_ep4",
+   "relation": "cited_by",
+   "to": "claim:SN003"
+  },
+  {
+   "from": "source:snc_ep5",
+   "relation": "cited_by",
+   "to": "claim:SN001"
+  },
+  {
+   "from": "source:snc_ep5",
+   "relation": "cited_by",
+   "to": "claim:SN005"
+  },
+  {
+   "from": "source:snc_ep5",
+   "relation": "cited_by",
+   "to": "claim:SN006"
+  },
+  {
+   "from": "source:snc_ep5",
+   "relation": "cited_by",
+   "to": "claim:SN007"
+  },
+  {
+   "from": "source:snc_ep5",
+   "relation": "cited_by",
+   "to": "claim:SN008"
+  },
+  {
+   "from": "source:snc_ep5",
+   "relation": "cited_by",
+   "to": "claim:SN009"
+  },
+  {
+   "from": "source:snc_ep5",
+   "relation": "cited_by",
+   "to": "claim:SN010"
+  },
+  {
+   "from": "source:snc_ep5",
+   "relation": "cited_by",
+   "to": "claim:SN011"
+  },
+  {
+   "from": "source:snc_ep5",
+   "relation": "cited_by",
+   "to": "claim:SN012"
+  },
+  {
+   "from": "source:snc_ep5",
+   "relation": "cited_by",
+   "to": "claim:SN013"
+  },
+  {
+   "from": "source:snc_ep5",
+   "relation": "cited_by",
+   "to": "claim:SN014"
+  },
+  {
+   "from": "source:snc_guide",
+   "relation": "cited_by",
+   "to": "claim:SN004"
+  },
+  {
+   "from": "source:snc_guide",
+   "relation": "cited_by",
+   "to": "claim:SN011"
+  },
+  {
    "from": "source:sorins_restoration",
    "relation": "cited_by",
    "to": "claim:U006"
@@ -15225,6 +16815,61 @@
    "from": "source:urza_profile",
    "relation": "cited_by",
    "to": "claim:C012"
+  },
+  {
+   "from": "source:vow_ep1",
+   "relation": "cited_by",
+   "to": "claim:MV005"
+  },
+  {
+   "from": "source:vow_ep1",
+   "relation": "cited_by",
+   "to": "claim:MV007"
+  },
+  {
+   "from": "source:vow_ep2",
+   "relation": "cited_by",
+   "to": "claim:MV006"
+  },
+  {
+   "from": "source:vow_ep3",
+   "relation": "cited_by",
+   "to": "claim:MV006"
+  },
+  {
+   "from": "source:vow_ep4",
+   "relation": "cited_by",
+   "to": "claim:MV005"
+  },
+  {
+   "from": "source:vow_ep5",
+   "relation": "cited_by",
+   "to": "claim:MV007"
+  },
+  {
+   "from": "source:vow_ep5",
+   "relation": "cited_by",
+   "to": "claim:MV008"
+  },
+  {
+   "from": "source:vow_ep5",
+   "relation": "cited_by",
+   "to": "claim:MV009"
+  },
+  {
+   "from": "source:vow_ep5",
+   "relation": "cited_by",
+   "to": "claim:MV010"
+  },
+  {
+   "from": "source:vow_ep5",
+   "relation": "cited_by",
+   "to": "claim:MV011"
+  },
+  {
+   "from": "source:vow_ep5",
+   "relation": "cited_by",
+   "to": "claim:MV012"
   },
   {
    "from": "source:war_games",
@@ -15361,6 +17006,27 @@
     "file": "data/lore_research/pack_p5_kamigawa_neon_dynasty_2026-10-30.json",
     "sha256": "31a91ee8b6920344e0d762d59b35b567f957866e78f5f2114c7ac831fcf657ce",
     "sources": 6
+   },
+   {
+    "claims": 12,
+    "entities": 13,
+    "file": "data/lore_research/pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json",
+    "sha256": "32a1e0c76458d9cfba0f430be62c3f195cc5f4009d6419607f6721e3bbf47118",
+    "sources": 8
+   },
+   {
+    "claims": 16,
+    "entities": 17,
+    "file": "data/lore_research/pack_p5_streets_of_new_capenna_2026-10-30.json",
+    "sha256": "b23f9c76ccec856342cc84888fffad0228695a9996c3c1f7b31293568ff80c12",
+    "sources": 6
+   },
+   {
+    "claims": 17,
+    "entities": 18,
+    "file": "data/lore_research/pack_p5_edge_of_eternities_2026-10-30.json",
+    "sha256": "37da82ed0e228b1a3b503d6d98363e47deaf6101febbaf9721ed661d316b31c3",
+    "sources": 6
    }
   ],
   "deck_evidence": [
@@ -15382,9 +17048,9 @@
   ],
   "name_anchor_packs": [
    {
-    "anchors": 252,
+    "anchors": 286,
     "file": "data/lore_research/card_name_anchors_2026-10-30.json",
-    "sha256": "962eca108e55f3f292eeac57db00a7f8daca1ec7df2c8cc53da5c5c88389d874"
+    "sha256": "3937f6e7c77c0cfaa7c934e460c7e55587a8e7c66673f26d8d03acec496f9844"
    }
   ],
   "story_caption_packs": [
@@ -15414,10 +17080,34 @@
    "type": "Object"
   },
   {
+   "id": "artifact:celestus",
+   "name": "The Celestus",
+   "origins": [
+    "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json"
+   ],
+   "type": "Object"
+  },
+  {
    "id": "artifact:chain_veil",
    "name": "The Chain Veil",
    "origins": [
     "pack_c2_return_to_dominaria_2026-10-30.json"
+   ],
+   "type": "Object"
+  },
+  {
+   "id": "artifact:dawnsire",
+   "name": "The Dawnsire",
+   "origins": [
+    "pack_p5_edge_of_eternities_2026-10-30.json"
+   ],
+   "type": "Object"
+  },
+  {
+   "id": "artifact:endstone",
+   "name": "The Endstone",
+   "origins": [
+    "pack_p5_edge_of_eternities_2026-10-30.json"
    ],
    "type": "Object"
   },
@@ -15427,6 +17117,14 @@
    "origins": [
     "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json",
     "pack_c2_return_to_dominaria_2026-10-30.json"
+   ],
+   "type": "Object"
+  },
+  {
+   "id": "artifact:halo",
+   "name": "Halo",
+   "origins": [
+    "pack_p5_streets_of_new_capenna_2026-10-30.json"
    ],
    "type": "Object"
   },
@@ -15451,6 +17149,14 @@
    "name": "The Mightstone and Weakstone",
    "origins": [
     "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json"
+   ],
+   "type": "Object"
+  },
+  {
+   "id": "artifact:moonsilver_key",
+   "name": "Moonsilver Key",
+   "origins": [
+    "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json"
    ],
    "type": "Object"
   },
@@ -15496,10 +17202,26 @@
    "type": "Object"
   },
   {
+   "id": "artifact:seriema",
+   "name": "The Seriema (starship)",
+   "origins": [
+    "pack_p5_edge_of_eternities_2026-10-30.json"
+   ],
+   "type": "Object"
+  },
+  {
    "id": "artifact:skysovereign",
    "name": "Skysovereign",
    "origins": [
     "pack_p5_kaladesh_aether_revolt_2026-10-30.json"
+   ],
+   "type": "Object"
+  },
+  {
+   "id": "artifact:sungold_lock",
+   "name": "Sungold Lock",
+   "origins": [
+    "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json"
    ],
    "type": "Object"
   },
@@ -15780,6 +17502,24 @@
    "type": "Card"
   },
   {
+   "id": "card:alpharael_dreaming_acolyte",
+   "name": "Alpharael, Dreaming Acolyte",
+   "oracle_id": "e4be4071-7910-460f-90f3-6c4d8cc9db65",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:alpharael_stonechosen",
+   "name": "Alpharael, Stonechosen",
+   "oracle_id": "ed43f1f9-ef96-47bc-8a54-e59154319f9d",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:ancient_animus",
    "name": "Ancient Animus",
    "oracle_id": "4c9a38f8-8fcb-45f9-8b70-e54298c7b485",
@@ -15823,6 +17563,15 @@
    "origins": [
     "original_primeval_dragons_printing_evidence.json",
     "ugins_allies_and_heroes_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:anhelo_the_painter",
+   "name": "Anhelo, the Painter",
+   "oracle_id": "d3c3f293-6790-4dce-900a-8af0464c2572",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -15882,6 +17631,15 @@
    "oracle_id": "be2a4bc4-8af6-48c5-9421-32d26272e71a",
    "origins": [
     "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:arlinn_kord_arlinn_embraced_by_the_moon",
+   "name": "Arlinn Kord // Arlinn, Embraced by the Moon",
+   "oracle_id": "6bb7d0df-7a9f-4e17-8c31-7628c4b12356",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -16915,6 +18673,15 @@
    "type": "Card"
   },
   {
+   "id": "card:edgar_markov",
+   "name": "Edgar Markov",
+   "oracle_id": "41e2790d-49f5-4e98-b8d9-04179f47f13a",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:elenda_the_dusk_rose",
    "name": "Elenda, the Dusk Rose",
    "oracle_id": "ce35f262-b93f-4409-8b33-26a7ed7abac8",
@@ -17278,6 +19045,15 @@
    "type": "Card"
   },
   {
+   "id": "card:giada_font_of_hope",
+   "name": "Giada, Font of Hope",
+   "oracle_id": "48e6d3d8-2f27-4017-acdd-40bce8cdbc02",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:gideon_jura",
    "name": "Gideon Jura",
    "oracle_id": "7340dbcb-4b26-4038-be8c-a89e76294221",
@@ -17409,6 +19185,24 @@
    "oracle_id": "93b91d18-6acf-42e5-9a31-bc6e01f90c1f",
    "origins": [
     "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:haliya_ascendant_cadet",
+   "name": "Haliya, Ascendant Cadet",
+   "oracle_id": "6846448b-d5a0-4ae0-bb11-ea7fa6ed2558",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:haliya_guided_by_light",
+   "name": "Haliya, Guided by Light",
+   "oracle_id": "9b0af3ad-1b4d-4480-af91-fe9baee5d1c5",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -18019,6 +19813,24 @@
    "type": "Card"
   },
   {
+   "id": "card:katilda_dawnhart_martyr_katilda_s_rising_dawn",
+   "name": "Katilda, Dawnhart Martyr // Katilda's Rising Dawn",
+   "oracle_id": "493b2820-c250-48bd-9f3c-e1b5639ee101",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:katilda_dawnhart_prime",
+   "name": "Katilda, Dawnhart Prime",
+   "oracle_id": "6c728edd-ab67-44ce-b19d-aa98dfce68bb",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:kaya_bane_of_the_dead",
    "name": "Kaya, Bane of the Dead",
    "oracle_id": "29d58aa4-9a7e-4052-9b0d-fc282f1be40e",
@@ -18311,6 +20123,15 @@
    "type": "Card"
   },
   {
+   "id": "card:lord_xander_the_collector",
+   "name": "Lord Xander, the Collector",
+   "oracle_id": "d17bfa94-5046-46ae-80af-be5d1d35af13",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:lost_legacy",
    "name": "Lost Legacy",
    "oracle_id": "532f3f03-37af-46b6-bafb-031e9a3df056",
@@ -18547,11 +20368,38 @@
    "type": "Card"
   },
   {
+   "id": "card:mm_menon_the_right_hand",
+   "name": "Mm'menon, the Right Hand",
+   "oracle_id": "de58fa4b-eeeb-4dc8-aab9-6521b15678cc",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:mm_menon_uthros_exile",
+   "name": "Mm'menon, Uthros Exile",
+   "oracle_id": "6c05b882-51d9-43d8-93b8-c3317590f76a",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:monastery_siege",
    "name": "Monastery Siege",
    "oracle_id": "240a33a8-23a0-4cb2-a9fd-1a2a21966bb8",
    "origins": [
     "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:moonsilver_key",
+   "name": "Moonsilver Key",
+   "oracle_id": "373395b2-f04b-46c9-b9f4-4f6815b71009",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -18937,6 +20785,78 @@
    "type": "Card"
   },
   {
+   "id": "card:ob_nixilis_captive_kingpin",
+   "name": "Ob Nixilis, Captive Kingpin",
+   "oracle_id": "55b6434b-1542-40fd-b12a-697d40976582",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:ob_nixilis_of_the_black_oath",
+   "name": "Ob Nixilis of the Black Oath",
+   "oracle_id": "cfc9a2f9-92fa-4608-b98d-f9763c89fc40",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:ob_nixilis_reignited",
+   "name": "Ob Nixilis Reignited",
+   "oracle_id": "65481ae1-54b2-44d2-91e1-20cd486386da",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:ob_nixilis_the_adversary",
+   "name": "Ob Nixilis, the Adversary",
+   "oracle_id": "a6abb6af-7ea2-43f3-8718-2a077ad0c947",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:ob_nixilis_the_ascended",
+   "name": "Ob Nixilis, the Ascended",
+   "oracle_id": "3a49b518-61c8-4dea-8008-c5edf8384581",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:ob_nixilis_the_fallen",
+   "name": "Ob Nixilis, the Fallen",
+   "oracle_id": "154104b7-4125-4276-8bc7-9a6edfe48cb9",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:ob_nixilis_the_hate_twisted",
+   "name": "Ob Nixilis, the Hate-Twisted",
+   "oracle_id": "88cd12e5-ca89-4176-96fd-320fe2ccd087",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:ob_nixilis_unshackled",
+   "name": "Ob Nixilis, Unshackled",
+   "oracle_id": "73021bd2-3b60-4fe4-8858-6eb525be1422",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:oboro_palace_in_the_clouds",
    "name": "Oboro, Palace in the Clouds",
    "oracle_id": "645fb11b-d684-4bec-8532-8fa97e8f7b28",
@@ -18951,6 +20871,15 @@
    "oracle_id": "8f064160-3afe-408a-85b4-b335eae8571c",
    "origins": [
     "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:olivia_voldaren",
+   "name": "Olivia Voldaren",
+   "oracle_id": "dd27d0f2-fe1e-4b63-9ba0-6264ca3c70f8",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -19496,6 +21425,24 @@
    "type": "Card"
   },
   {
+   "id": "card:sami_ship_s_engineer",
+   "name": "Sami, Ship's Engineer",
+   "oracle_id": "470c16c5-b078-47f5-89b0-42991e1f7157",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:sami_wildcat_captain",
+   "name": "Sami, Wildcat Captain",
+   "oracle_id": "c4175a34-70bb-47e5-8406-efdc4d2cd079",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:sanctum_of_ugin",
    "name": "Sanctum of Ugin",
    "oracle_id": "72cb5dcd-9b24-435c-921a-3766108374c4",
@@ -20010,6 +21957,24 @@
    "type": "Card"
   },
   {
+   "id": "card:syr_vondam_sunstar_exemplar",
+   "name": "Syr Vondam, Sunstar Exemplar",
+   "oracle_id": "9e597063-c077-4236-a9e4-b0721b24677f",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:syr_vondam_the_lucent",
+   "name": "Syr Vondam, the Lucent",
+   "oracle_id": "28225bae-2d96-4352-b256-0c2ff4ef65e9",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:talisman_of_conviction",
    "name": "Talisman of Conviction",
    "oracle_id": "6c326439-5620-4ec6-a56a-fe9c3d5d2a46",
@@ -20114,6 +22079,24 @@
    "id": "card:tamiyo_upriser_crowned",
    "name": "Tamiyo, Upriser Crowned",
    "oracle_id": "8e0f2e26-1e14-422a-aafe-e1da38ab10a3",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:tannuk_memorial_ensign",
+   "name": "Tannuk, Memorial Ensign",
+   "oracle_id": "76cb1912-3791-44b8-b594-b92dab21bafc",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:tannuk_steadfast_second",
+   "name": "Tannuk, Steadfast Second",
+   "oracle_id": "b5ae8016-92ed-4ae8-83a8-65068defc616",
    "origins": [
     "card_name_anchors_2026-10-30.json"
    ],
@@ -20385,6 +22368,15 @@
    "type": "Card"
   },
   {
+   "id": "card:the_celestus",
+   "name": "The Celestus",
+   "oracle_id": "c0ad2b5f-066b-424b-bddf-d3014731e599",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:the_chain_veil",
    "name": "The Chain Veil",
    "oracle_id": "fb88fb3d-6a85-4bb1-b316-7f759b45a0fa",
@@ -20403,6 +22395,15 @@
     "original_primeval_dragons_printing_evidence.json",
     "pack_a_elder_dragon_war_extension_2026-10-30.json",
     "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:the_endstone",
+   "name": "The Endstone",
+   "oracle_id": "57ee0730-3ac5-4f17-ac82-bd4a6673c2bb",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -20464,6 +22465,15 @@
    "id": "card:the_seedcore",
    "name": "The Seedcore",
    "oracle_id": "249fdd3e-376c-4ec2-a612-4353e0e61ee2",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:the_seriema",
+   "name": "The Seriema",
+   "oracle_id": "a6bcec1f-f515-4e63-9e84-8eb04cc582ff",
    "origins": [
     "card_name_anchors_2026-10-30.json"
    ],
@@ -20576,6 +22586,15 @@
    "origins": [
     "story_art_captions_2026-10-30.json",
     "ugins_allies_and_heroes_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:tovolar_dire_overlord_tovolar_the_midnight_scourge",
+   "name": "Tovolar, Dire Overlord // Tovolar, the Midnight Scourge",
+   "oracle_id": "45d49831-548a-4a0e-9a18-9f7397913895",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -20981,6 +23000,15 @@
    "type": "Card"
   },
   {
+   "id": "card:vivien_reid",
+   "name": "Vivien Reid",
+   "oracle_id": "b5f20a6d-8c3e-452f-9d98-4886f0fa052a",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:vona_s_hunger",
    "name": "Vona's Hunger",
    "oracle_id": "da522912-1bc2-4d70-b426-94d10edb2afe",
@@ -21335,7 +23363,16 @@
     "pack_c2_return_to_dominaria_2026-10-30.json",
     "pack_c3_assault_on_new_phyrexia_2026-10-30.json",
     "pack_c4_march_of_the_machine_2026-10-30.json",
-    "pack_p5_kaladesh_aether_revolt_2026-10-30.json"
+    "pack_p5_kaladesh_aether_revolt_2026-10-30.json",
+    "pack_p5_streets_of_new_capenna_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:alpharael",
+   "name": "Alpharael",
+   "origins": [
+    "pack_p5_edge_of_eternities_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -21348,10 +23385,26 @@
    "type": "Character"
   },
   {
+   "id": "character:anhelo",
+   "name": "Anhelo",
+   "origins": [
+    "pack_p5_streets_of_new_capenna_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
    "id": "character:arcades_sabboth",
    "name": "Arcades Sabboth",
    "origins": [
     "pack_a_elder_dragon_war_extension_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:arlinn_kord",
+   "name": "Arlinn Kord",
+   "origins": [
+    "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -21464,6 +23517,14 @@
    "type": "Character"
   },
   {
+   "id": "character:edgar_markov",
+   "name": "Edgar Markov",
+   "origins": [
+    "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
    "id": "character:eiko",
    "name": "Eiko",
    "origins": [
@@ -21487,7 +23548,8 @@
    "origins": [
     "pack_a5_ugin_allies_2026-10-30.json",
     "pack_c3_assault_on_new_phyrexia_2026-10-30.json",
-    "pack_c4_march_of_the_machine_2026-10-30.json"
+    "pack_c4_march_of_the_machine_2026-10-30.json",
+    "pack_p5_streets_of_new_capenna_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -21517,6 +23579,14 @@
    "type": "Character"
   },
   {
+   "id": "character:giada",
+   "name": "Giada",
+   "origins": [
+    "pack_p5_streets_of_new_capenna_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
    "id": "character:gideon_jura",
    "name": "Gideon Jura",
    "origins": [
@@ -21538,6 +23608,14 @@
    "name": "Griselbrand",
    "origins": [
     "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:haliya",
+   "name": "Haliya",
+   "origins": [
+    "pack_p5_edge_of_eternities_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -21649,6 +23727,14 @@
    "type": "Character"
   },
   {
+   "id": "character:katilda",
+   "name": "Katilda",
+   "origins": [
+    "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
    "id": "character:kaya",
    "name": "Kaya",
    "origins": [
@@ -21722,6 +23808,14 @@
    "type": "Character"
   },
   {
+   "id": "character:last_thing_android",
+   "name": "The android calling itself 'the last thing'",
+   "origins": [
+    "pack_p5_edge_of_eternities_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
    "id": "character:liliana_vess",
    "name": "Liliana Vess",
    "origins": [
@@ -21763,6 +23857,14 @@
    "origins": [
     "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json",
     "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:mmmenon",
+   "name": "Mm'menon",
+   "origins": [
+    "pack_p5_edge_of_eternities_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -21831,6 +23933,22 @@
     "pack_c4_march_of_the_machine_2026-10-30.json",
     "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json",
     "pack_p5_kaladesh_aether_revolt_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:ob_nixilis",
+   "name": "Ob Nixilis (the Adversary)",
+   "origins": [
+    "pack_p5_streets_of_new_capenna_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:olivia_voldaren",
+   "name": "Olivia Voldaren",
+   "origins": [
+    "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -21927,6 +24045,14 @@
    "type": "Character"
   },
   {
+   "id": "character:sami",
+   "name": "Sami",
+   "origins": [
+    "pack_p5_edge_of_eternities_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
    "id": "character:sarkhan_vol",
    "name": "Sarkhan Vol",
    "origins": [
@@ -21973,7 +24099,8 @@
    "id": "character:sorin_markov",
    "name": "Sorin Markov",
    "origins": [
-    "pack_a5_ugin_allies_2026-10-30.json"
+    "pack_a5_ugin_allies_2026-10-30.json",
+    "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -21995,6 +24122,14 @@
    "type": "Character"
   },
   {
+   "id": "character:tannuk",
+   "name": "Tannuk",
+   "origins": [
+    "pack_p5_edge_of_eternities_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
    "id": "character:tawnos",
    "name": "Tawnos",
    "origins": [
@@ -22009,7 +24144,8 @@
     "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json",
     "pack_c2_return_to_dominaria_2026-10-30.json",
     "pack_c4_march_of_the_machine_2026-10-30.json",
-    "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json"
+    "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json",
+    "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -22018,6 +24154,7 @@
    "name": "Tezzeret",
    "origins": [
     "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json",
+    "pack_p5_edge_of_eternities_2026-10-30.json",
     "pack_p5_kaladesh_aether_revolt_2026-10-30.json",
     "pack_p5_kamigawa_neon_dynasty_2026-10-30.json"
    ],
@@ -22045,6 +24182,14 @@
    "name": "Tibalt",
    "origins": [
     "pack_c3_assault_on_new_phyrexia_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:tovolar",
+   "name": "Tovolar",
+   "origins": [
+    "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -22093,6 +24238,22 @@
    "type": "Character"
   },
   {
+   "id": "character:vivien_reid",
+   "name": "Vivien Reid",
+   "origins": [
+    "pack_p5_streets_of_new_capenna_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:vondam",
+   "name": "Syr Vondam",
+   "origins": [
+    "pack_p5_edge_of_eternities_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
    "id": "character:vraska",
    "name": "Vraska",
    "origins": [
@@ -22106,6 +24267,14 @@
    "name": "Wrenn",
    "origins": [
     "pack_c4_march_of_the_machine_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:xander",
+   "name": "Lord Xander",
+   "origins": [
+    "pack_p5_streets_of_new_capenna_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -23422,6 +25591,197 @@
   },
   {
    "grade": "CANON_CONFIRMED",
+   "id": "claim:EO001",
+   "name": "After the Phyrexian invasion, Tezzeret was ejected from the Blind Eternities into the Edge by unknown means.",
+   "origins": [
+    "pack_p5_edge_of_eternities_2026-10-30.json"
+   ],
+   "predicate": "left",
+   "stage": "eoe_prologue_2025",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:EO002",
+   "name": "In the Edge, Tezzeret builds a criminal consortium and is no longer sure he wants to go home.",
+   "origins": [
+    "pack_p5_edge_of_eternities_2026-10-30.json"
+   ],
+   "predicate": "sought",
+   "stage": "sothera_eoe_2025",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:EO003",
+   "name": "Sami is the freelancer captain of the Seriema.",
+   "origins": [
+    "pack_p5_edge_of_eternities_2026-10-30.json"
+   ],
+   "predicate": "leader_of",
+   "stage": "sothera_eoe_2025",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:EO004",
+   "name": "Tannuk, a dishonorably discharged Kav navy pilot, is Sami's first mate and last remaining crew member.",
+   "origins": [
+    "pack_p5_edge_of_eternities_2026-10-30.json"
+   ],
+   "predicate": "allied_with",
+   "stage": "sothera_eoe_2025",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:EO005",
+   "name": "Haliya is a Sunstar Free Company squire who pledged her service to her mentor Syr Vondam.",
+   "origins": [
+    "pack_p5_edge_of_eternities_2026-10-30.json"
+   ],
+   "predicate": "swore_to",
+   "stage": "sothera_eoe_2025",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:EO006",
+   "name": "Syr Vondam commands the knightly host defending the Dawnsire.",
+   "origins": [
+    "pack_p5_edge_of_eternities_2026-10-30.json"
+   ],
+   "predicate": "guardian_of",
+   "stage": "sothera_eoe_2025",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:EO007",
+   "name": "The Dawnsire is meant to reignite the Sotheran supervoid; the Monoists will do anything to prevent it.",
+   "origins": [
+    "pack_p5_edge_of_eternities_2026-10-30.json"
+   ],
+   "predicate": "opposed",
+   "stage": "sothera_eoe_2025",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:EO008",
+   "name": "Alpharael, a Monoist acolyte, is tasked with eliminating the Sunstar Free Company's hold on Sothera.",
+   "origins": [
+    "pack_p5_edge_of_eternities_2026-10-30.json"
+   ],
+   "predicate": "opposed",
+   "stage": "sothera_eoe_2025",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:EO009",
+   "name": "The expelled Illvoi researcher Mm'menon serves Tezzeret.",
+   "origins": [
+    "pack_p5_edge_of_eternities_2026-10-30.json"
+   ],
+   "predicate": "allied_with",
+   "stage": "sothera_eoe_2025",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:EO010",
+   "limitation": "Motive is stated by Tezzeret in dialogue; his account is not independently confirmed by narration.",
+   "name": "Tezzeret says he deliberately sent Sami's crew after the Endstone on Sigma and intended to take it wherever it wanted to go.",
+   "origins": [
+    "pack_p5_edge_of_eternities_2026-10-30.json"
+   ],
+   "predicate": "sought",
+   "stage": "sothera_eoe_2025",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:EO011",
+   "limitation": "Narration shows the Sundog attacking Taro-duend; Vondam's personal order is attributed in character dialogue, and the story leaves open whether the Endstone influenced him.",
+   "name": "The Free Company destroys the Kav settlement at Taro-duend; Haliya holds Vondam responsible for the massacre.",
+   "origins": [
+    "pack_p5_edge_of_eternities_2026-10-30.json"
+   ],
+   "predicate": "killed",
+   "stage": "eoe_taro_duend_2025",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:EO012",
+   "name": "After Taro-duend, Haliya is cast out of the Sunstar Free Company and goes on errantry, still a Summist.",
+   "origins": [
+    "pack_p5_edge_of_eternities_2026-10-30.json"
+   ],
+   "predicate": "left",
+   "stage": "eoe_endgame_2025",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:EO013",
+   "name": "An android calling itself 'the last thing' appears aboard the Seriema, takes the Endstone and vanishes with it.",
+   "origins": [
+    "pack_p5_edge_of_eternities_2026-10-30.json"
+   ],
+   "predicate": "seized_control_of",
+   "stage": "eoe_endgame_2025",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:EO014",
+   "name": "Tezzeret considers his mission complete once the Endstone is delivered to the android.",
+   "origins": [
+    "pack_p5_edge_of_eternities_2026-10-30.json"
+   ],
+   "predicate": "gave_up",
+   "stage": "eoe_endgame_2025",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:EO015",
+   "name": "Haliya attacks the android, severing two fingers; it crushes her throat (treatable).",
+   "origins": [
+    "pack_p5_edge_of_eternities_2026-10-30.json"
+   ],
+   "predicate": "opposed",
+   "stage": "eoe_endgame_2025",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:EO016",
+   "limitation": "related_to is a weak placeholder; the guide does not give Pinnacle's exact jurisdiction over Sothera in these sentences.",
+   "name": "Pinnacle is the collective interstellar administration whose founding concerns are ending conflict and encouraging commerce.",
+   "origins": [
+    "pack_p5_edge_of_eternities_2026-10-30.json"
+   ],
+   "predicate": "related_to",
+   "stage": "sothera_eoe_2025",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:EO017",
+   "limitation": "Both statements are dialogue in Episode 11; the act itself occurs in earlier episodes not cited here.",
+   "name": "Haliya took the Endstone away from Vondam and the Free Company; Vondam says he failed in his duty to kill her for it.",
+   "origins": [
+    "pack_p5_edge_of_eternities_2026-10-30.json"
+   ],
+   "predicate": "seized_control_of",
+   "stage": "eoe_taro_duend_2025",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
    "id": "claim:KLD001",
    "name": "Recap: with Tamiyo's aid, the five Gatewatch members defeated Emrakul and sealed her in Innistrad's silver moon.",
    "origins": [
@@ -23770,6 +26130,140 @@
    ],
    "predicate": "restored",
    "stage": "mom_invasion_2023",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:MV001",
+   "name": "Katilda and the Dawnhart Coven plan a Harvesttide ritual at the Celestus to restore Innistrad's day-night balance.",
+   "origins": [
+    "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json"
+   ],
+   "predicate": "sought_to_activate",
+   "stage": "innistrad_mid_vow_2021",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:MV002",
+   "name": "Activating the Celestus requires joining the Moonsilver Key with the Sungold Lock at its center; the key had been lost for generations.",
+   "origins": [
+    "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json"
+   ],
+   "predicate": "required_to_activate",
+   "stage": "innistrad_mid_vow_2021",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:MV003",
+   "name": "The werewolf Tovolar seeks to unify the howlpacks and to stop the Dawnhart Coven from bringing back the sun.",
+   "origins": [
+    "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json"
+   ],
+   "predicate": "opposed",
+   "stage": "innistrad_mid_vow_2021",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:MV004",
+   "name": "Olivia Voldaren interrupts the Harvesttide ritual at the Celestus and seizes Katilda.",
+   "origins": [
+    "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json"
+   ],
+   "predicate": "abducted",
+   "stage": "mid_harvesttide_2021",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:MV005",
+   "name": "Olivia Voldaren steals the Moonsilver Key after the interrupted ritual.",
+   "origins": [
+    "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json"
+   ],
+   "predicate": "seized_control_of",
+   "stage": "innistrad_mid_vow_2021",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:MV006",
+   "limitation": "Recorded with the closest existing relation, spouse_of. The quotes show the betrothal and wedding vows; the episodes end with the wedding disrupted, so whether the marriage stands afterwards is not graded.",
+   "name": "Olivia Voldaren announces Edgar Markov as her betrothed, and the two are wed at Voldaren Estate.",
+   "origins": [
+    "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json"
+   ],
+   "predicate": "spouse_of",
+   "stage": "innistrad_mid_vow_2021",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:MV007",
+   "name": "Edgar Markov is Sorin Markov's grandfather.",
+   "origins": [
+    "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json"
+   ],
+   "predicate": "related_to",
+   "stage": "innistrad_mid_vow_2021",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:MV008",
+   "name": "At the wedding, Sorin beats Edgar in a sword fight but spares him and lets him flee.",
+   "origins": [
+    "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json"
+   ],
+   "predicate": "defeated",
+   "stage": "innistrad_mid_vow_2021",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:MV009",
+   "limitation": "Stated from Arlinn's point of view as the stakes of the chase; Olivia's own plan is not narrated in that sentence.",
+   "name": "Olivia's use of the Moonsilver Key threatened to give her control over Innistrad's angels.",
+   "origins": [
+    "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json"
+   ],
+   "predicate": "sought_control_of",
+   "stage": "innistrad_mid_vow_2021",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:MV010",
+   "name": "Cornered by Arlinn and the wolves, Olivia drops the Moonsilver Key and flees with Edgar.",
+   "origins": [
+    "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json"
+   ],
+   "predicate": "gave_up",
+   "stage": "innistrad_mid_vow_2021",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:MV011",
+   "name": "The coven completes the Celestus ritual with the recovered key, and day returns to Innistrad: the first sunrise in months.",
+   "origins": [
+    "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json"
+   ],
+   "predicate": "restored",
+   "stage": "vow_aftermath_2021",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:MV012",
+   "name": "Katilda lends Teferi the Moonsilver Key after the ritual, for its usefulness to temporal magic.",
+   "origins": [
+    "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json"
+   ],
+   "predicate": "received",
+   "stage": "vow_aftermath_2021",
    "type": "Claim"
   },
   {
@@ -24561,6 +27055,184 @@
    "type": "Claim"
   },
   {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:SN001",
+   "name": "The crime lord known in New Capenna as the Adversary is Ob Nixilis.",
+   "origins": [
+    "pack_p5_streets_of_new_capenna_2026-10-30.json"
+   ],
+   "predicate": "identified_with",
+   "stage": "new_capenna_snc_2022",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:SN002",
+   "name": "The Cabaretti's secret 'Font' of unlimited Halo is the young woman Giada.",
+   "origins": [
+    "pack_p5_streets_of_new_capenna_2026-10-30.json"
+   ],
+   "predicate": "identified_with",
+   "stage": "new_capenna_snc_2022",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:SN003",
+   "name": "Ob Nixilis kills Xander, head of the Maestros, during the night of the Crescendo.",
+   "origins": [
+    "pack_p5_streets_of_new_capenna_2026-10-30.json"
+   ],
+   "predicate": "killed",
+   "stage": "snc_crescendo_2022",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:SN004",
+   "name": "Lord Xander leads the Maestros.",
+   "origins": [
+    "pack_p5_streets_of_new_capenna_2026-10-30.json"
+   ],
+   "predicate": "leader_of",
+   "stage": "new_capenna_snc_2022",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:SN005",
+   "name": "Xander's farewell letter passes leadership of the Maestros to Anhelo.",
+   "origins": [
+    "pack_p5_streets_of_new_capenna_2026-10-30.json"
+   ],
+   "predicate": "leader_of",
+   "stage": "snc_aftermath_2022",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:SN006",
+   "name": "Elspeth vows to protect Giada.",
+   "origins": [
+    "pack_p5_streets_of_new_capenna_2026-10-30.json"
+   ],
+   "predicate": "guardian_of",
+   "stage": "new_capenna_snc_2022",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:SN007",
+   "name": "Giada heals the mortally wounded Elspeth with Halo during the Crescendo battle.",
+   "origins": [
+    "pack_p5_streets_of_new_capenna_2026-10-30.json"
+   ],
+   "predicate": "restored",
+   "stage": "snc_crescendo_2022",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:SN008",
+   "limitation": "The text does not explicitly name Giada an angel; it shows her looking 'like the rest of the sculpted angels' and leaving with 'others like her'.",
+   "name": "Giada transforms into Halo and departs with shining figures like her, implied to be New Capenna's angels.",
+   "origins": [
+    "pack_p5_streets_of_new_capenna_2026-10-30.json"
+   ],
+   "predicate": "related_to",
+   "stage": "new_capenna_snc_2022",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:SN009",
+   "name": "Giada transforms into radiant Halo, repelling Ob Nixilis.",
+   "origins": [
+    "pack_p5_streets_of_new_capenna_2026-10-30.json"
+   ],
+   "predicate": "created",
+   "stage": "snc_cathedral_2022",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:SN010",
+   "name": "With the Halo-transformed sword, Elspeth wounds Ob Nixilis, who planeswalks away; he escapes rather than dies.",
+   "origins": [
+    "pack_p5_streets_of_new_capenna_2026-10-30.json"
+   ],
+   "predicate": "defeated",
+   "stage": "snc_cathedral_2022",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:SN011",
+   "name": "Facing a Phyrexian invasion, Capenna's angels allied with the Demon Lords, who betrayed them and turned their bodies into Halo.",
+   "origins": [
+    "pack_p5_streets_of_new_capenna_2026-10-30.json"
+   ],
+   "predicate": "betrayed",
+   "stage": "old_capenna_phyrexian_invasion",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:SN012",
+   "name": "According to the histories in Xander's archives, the Demon Lords used Halo to defeat a past Phyrexian invasion.",
+   "origins": [
+    "pack_p5_streets_of_new_capenna_2026-10-30.json"
+   ],
+   "predicate": "defeated",
+   "stage": "old_capenna_phyrexian_invasion",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:SN013",
+   "name": "Elspeth takes Xander's hidden Halo cache and the histories back to Ajani and the Gatewatch as a possible weapon against Phyrexia.",
+   "origins": [
+    "pack_p5_streets_of_new_capenna_2026-10-30.json"
+   ],
+   "predicate": "sought",
+   "stage": "snc_aftermath_2022",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:SN014",
+   "name": "Vivien Reid allies with Elspeth in New Capenna.",
+   "origins": [
+    "pack_p5_streets_of_new_capenna_2026-10-30.json"
+   ],
+   "predicate": "allied_with",
+   "stage": "new_capenna_snc_2022",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:SN015",
+   "name": "Returned from the Underworld, Elspeth reunites with Ajani on Dominaria, where he is meeting Karn and the Gatewatch about the Phyrexian threat.",
+   "origins": [
+    "pack_p5_streets_of_new_capenna_2026-10-30.json"
+   ],
+   "predicate": "allied_with",
+   "stage": "snc_prologue_dominaria_2022",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:SN016",
+   "limitation": "The appointment is told in character dialogue (Episode 3); the Planeswalker's Guide instead frames the families' rise as a 'power grab', so the mechanism is only implied.",
+   "name": "The demons appointed five families to rule New Capenna in their name; by the story's start their alliances are near breaking.",
+   "origins": [
+    "pack_p5_streets_of_new_capenna_2026-10-30.json"
+   ],
+   "predicate": "created",
+   "stage": "new_capenna_snc_2022",
+   "type": "Claim"
+  },
+  {
    "continuity": "main",
    "grade": "CANON_CONFIRMED",
    "id": "claim:U001",
@@ -24947,6 +27619,14 @@
    "type": "Concept"
   },
   {
+   "id": "concept:blind_eternities",
+   "name": "The Blind Eternities",
+   "origins": [
+    "pack_p5_edge_of_eternities_2026-10-30.json"
+   ],
+   "type": "Concept"
+  },
+  {
    "id": "concept:compleation",
    "name": "Phyrexian compleation",
    "origins": [
@@ -25011,6 +27691,22 @@
    "type": "Concept"
   },
   {
+   "id": "concept:the_adversary",
+   "name": "The Adversary (title)",
+   "origins": [
+    "pack_p5_streets_of_new_capenna_2026-10-30.json"
+   ],
+   "type": "Concept"
+  },
+  {
+   "id": "concept:the_font",
+   "name": "The Font",
+   "origins": [
+    "pack_p5_streets_of_new_capenna_2026-10-30.json"
+   ],
+   "type": "Concept"
+  },
+  {
    "id": "concept:thran_empire",
    "name": "Thran Empire",
    "origins": [
@@ -25029,6 +27725,14 @@
   {
    "id": "curated:Characters Index.md#angrath",
    "name": "Characters Index.md#angrath",
+   "origins": [
+    "lore_graph.json"
+   ],
+   "type": "Concept"
+  },
+  {
+   "id": "curated:Characters Index.md#arlinn-kord",
+   "name": "Characters Index.md#arlinn-kord",
    "origins": [
     "lore_graph.json"
    ],
@@ -25299,6 +28003,14 @@
    "type": "Concept"
   },
   {
+   "id": "curated:Characters Index.md#vivien-reid",
+   "name": "Characters Index.md#vivien-reid",
+   "origins": [
+    "lore_graph.json"
+   ],
+   "type": "Concept"
+  },
+  {
    "id": "curated:Characters Index.md#vraska",
    "name": "Characters Index.md#vraska",
    "origins": [
@@ -25339,6 +28051,14 @@
    "type": "Concept"
   },
   {
+   "id": "curated:Items & Artifacts Index.md#halo",
+   "name": "Items & Artifacts Index.md#halo",
+   "origins": [
+    "lore_graph.json"
+   ],
+   "type": "Concept"
+  },
+  {
    "id": "curated:Items & Artifacts Index.md#immortal-sun",
    "name": "Items & Artifacts Index.md#immortal-sun",
    "origins": [
@@ -25373,6 +28093,14 @@
   {
    "id": "curated:Planes Index.md#ikoria",
    "name": "Planes Index.md#ikoria",
+   "origins": [
+    "lore_graph.json"
+   ],
+   "type": "Concept"
+  },
+  {
+   "id": "curated:Planes Index.md#innistrad",
+   "name": "Planes Index.md#innistrad",
    "origins": [
     "lore_graph.json"
    ],
@@ -25778,6 +28506,30 @@
    "type": "Faction"
   },
   {
+   "id": "faction:cabaretti",
+   "name": "The Cabaretti",
+   "origins": [
+    "pack_p5_streets_of_new_capenna_2026-10-30.json"
+   ],
+   "type": "Faction"
+  },
+  {
+   "id": "faction:capenna_archangels",
+   "name": "Archangels of Old Capenna",
+   "origins": [
+    "pack_p5_streets_of_new_capenna_2026-10-30.json"
+   ],
+   "type": "Faction"
+  },
+  {
+   "id": "faction:capenna_demon_lords",
+   "name": "Demon Lords of Old Capenna",
+   "origins": [
+    "pack_p5_streets_of_new_capenna_2026-10-30.json"
+   ],
+   "type": "Faction"
+  },
+  {
    "id": "faction:coalition",
    "name": "The Coalition",
    "origins": [
@@ -25790,6 +28542,22 @@
    "name": "Consulate of Kaladesh",
    "origins": [
     "pack_p5_kaladesh_aether_revolt_2026-10-30.json"
+   ],
+   "type": "Faction"
+  },
+  {
+   "id": "faction:dawnhart_coven",
+   "name": "Dawnhart Coven",
+   "origins": [
+    "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json"
+   ],
+   "type": "Faction"
+  },
+  {
+   "id": "faction:five_families",
+   "name": "The five families of New Capenna",
+   "origins": [
+    "pack_p5_streets_of_new_capenna_2026-10-30.json"
    ],
    "type": "Faction"
   },
@@ -25820,10 +28588,58 @@
    "type": "Faction"
   },
   {
+   "id": "faction:innistrad_angels",
+   "name": "Innistrad's angels",
+   "origins": [
+    "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json"
+   ],
+   "type": "Faction"
+  },
+  {
+   "id": "faction:kav_of_taro_duend",
+   "name": "The Kav of Taro-duend",
+   "origins": [
+    "pack_p5_edge_of_eternities_2026-10-30.json"
+   ],
+   "type": "Faction"
+  },
+  {
    "id": "faction:legion_of_dusk",
    "name": "Legion of Dusk",
    "origins": [
     "pack_p5_ixalan_rivals_2026-10-30.json"
+   ],
+   "type": "Faction"
+  },
+  {
+   "id": "faction:maestros",
+   "name": "The Maestros",
+   "origins": [
+    "pack_p5_streets_of_new_capenna_2026-10-30.json"
+   ],
+   "type": "Faction"
+  },
+  {
+   "id": "faction:monoists",
+   "name": "The Monoist faith",
+   "origins": [
+    "pack_p5_edge_of_eternities_2026-10-30.json"
+   ],
+   "type": "Faction"
+  },
+  {
+   "id": "faction:phyrexians",
+   "name": "The Phyrexians",
+   "origins": [
+    "pack_p5_streets_of_new_capenna_2026-10-30.json"
+   ],
+   "type": "Faction"
+  },
+  {
+   "id": "faction:pinnacle",
+   "name": "Pinnacle",
+   "origins": [
+    "pack_p5_edge_of_eternities_2026-10-30.json"
    ],
    "type": "Faction"
   },
@@ -25848,6 +28664,14 @@
    "name": "Sun Empire",
    "origins": [
     "pack_p5_ixalan_rivals_2026-10-30.json"
+   ],
+   "type": "Faction"
+  },
+  {
+   "id": "faction:sunstar_free_company",
+   "name": "Sunstar Free Company",
+   "origins": [
+    "pack_p5_edge_of_eternities_2026-10-30.json"
    ],
    "type": "Faction"
   },
@@ -26053,6 +28877,22 @@
    "type": "Place"
   },
   {
+   "id": "place:sothera",
+   "name": "The Sothera system",
+   "origins": [
+    "pack_p5_edge_of_eternities_2026-10-30.json"
+   ],
+   "type": "Place"
+  },
+  {
+   "id": "place:sotheran_supervoid",
+   "name": "The Sotheran supervoid",
+   "origins": [
+    "pack_p5_edge_of_eternities_2026-10-30.json"
+   ],
+   "type": "Place"
+  },
+  {
    "id": "place:spire_inquirium",
    "name": "Spire Inquirium",
    "origins": [
@@ -26114,6 +28954,14 @@
    "type": "Plane"
   },
   {
+   "id": "plane:innistrad",
+   "name": "Innistrad",
+   "origins": [
+    "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json"
+   ],
+   "type": "Plane"
+  },
+  {
    "id": "plane:ixalan",
    "name": "Ixalan",
    "origins": [
@@ -26160,7 +29008,8 @@
    "id": "plane:new_capenna",
    "name": "New Capenna",
    "origins": [
-    "pack_c4_march_of_the_machine_2026-10-30.json"
+    "pack_c4_march_of_the_machine_2026-10-30.json",
+    "pack_p5_streets_of_new_capenna_2026-10-30.json"
    ],
    "type": "Plane"
   },
@@ -26563,6 +29412,72 @@
    "url": "https://magic.wizards.com/en/news/feature/dominaria-united-release-notes-2022-08-26"
   },
   {
+   "id": "source:eoe_ep10",
+   "kind": "official_story_episode",
+   "name": "Edge of Eternities | Episode 10",
+   "origins": [
+    "pack_p5_edge_of_eternities_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/edge-of-eternities-episode-10"
+  },
+  {
+   "id": "source:eoe_ep11",
+   "kind": "official_story_episode",
+   "name": "Edge of Eternities | Episode 11",
+   "origins": [
+    "pack_p5_edge_of_eternities_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/edge-of-eternities-episode-11"
+  },
+  {
+   "id": "source:eoe_ep8",
+   "kind": "official_story_episode",
+   "name": "Edge of Eternities | Episode 8",
+   "origins": [
+    "pack_p5_edge_of_eternities_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/edge-of-eternities-episode-8"
+  },
+  {
+   "id": "source:eoe_ep9",
+   "kind": "official_story_episode",
+   "name": "Edge of Eternities | Episode 9",
+   "origins": [
+    "pack_p5_edge_of_eternities_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/edge-of-eternities-episode-9"
+  },
+  {
+   "id": "source:eoe_guide",
+   "kind": "official_planeswalkers_guide",
+   "name": "Planeswalker's Guide to Edge of Eternities",
+   "origins": [
+    "pack_p5_edge_of_eternities_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-to-edge-of-eternities"
+  },
+  {
+   "id": "source:eoe_legends",
+   "kind": "official_story_episode",
+   "name": "The Legends of Edge of Eternities",
+   "origins": [
+    "pack_p5_edge_of_eternities_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/the-legends-of-edge-of-eternities"
+  },
+  {
    "id": "source:fate_reforged_guide",
    "kind": "Wizards official world guide",
    "name": "Planeswalker's Guide to Fate Reforged",
@@ -26776,6 +29691,39 @@
    "source_class": "WIZARDS_OFFICIAL",
    "type": "Source",
    "url": "https://magic.wizards.com/en/news/feature/returning-legends-modern-horizons-2-2021-06-10"
+  },
+  {
+   "id": "source:mid_ep1",
+   "kind": "official_story_episode",
+   "name": "Episode 1: The Witch of the Woods",
+   "origins": [
+    "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/episode-1-witch-woods-2021-09-02"
+  },
+  {
+   "id": "source:mid_ep5",
+   "kind": "official_story_episode",
+   "name": "Episode 5: Night Closes 'Round",
+   "origins": [
+    "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/episode-5-night-closes-round-2021-09-29"
+  },
+  {
+   "id": "source:mid_guide",
+   "kind": "official_planeswalkers_guide",
+   "name": "Planeswalker's Guide to Innistrad: Midnight Hunt",
+   "origins": [
+    "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-innistrad-midnight-hunt"
   },
   {
    "id": "source:mom_ep01",
@@ -27270,6 +30218,72 @@
    "url": "https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-9-2018-05-09"
   },
   {
+   "id": "source:snc_ep1",
+   "kind": "official_story_episode",
+   "name": "Streets of New Capenna | Episode 1: Homecoming",
+   "origins": [
+    "pack_p5_streets_of_new_capenna_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/episode-1-homecoming-2022-03-28"
+  },
+  {
+   "id": "source:snc_ep2",
+   "kind": "official_story_episode",
+   "name": "Streets of New Capenna | Episode 2: Dirty Laundry",
+   "origins": [
+    "pack_p5_streets_of_new_capenna_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/episode-2-dirty-laundry-2022-03-29"
+  },
+  {
+   "id": "source:snc_ep3",
+   "kind": "official_story_episode",
+   "name": "Streets of New Capenna | Episode 3: Tests",
+   "origins": [
+    "pack_p5_streets_of_new_capenna_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/episode-3-tests-2022-03-30"
+  },
+  {
+   "id": "source:snc_ep4",
+   "kind": "official_story_episode",
+   "name": "Streets of New Capenna | Episode 4: The Font",
+   "origins": [
+    "pack_p5_streets_of_new_capenna_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/episode-4-font-2022-04-04"
+  },
+  {
+   "id": "source:snc_ep5",
+   "kind": "official_story_episode",
+   "name": "Streets of New Capenna | Episode 5: Hymn of the Angels",
+   "origins": [
+    "pack_p5_streets_of_new_capenna_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/episode-5-hymn-angels-2022-04-05"
+  },
+  {
+   "id": "source:snc_guide",
+   "kind": "official_planeswalkers_guide",
+   "name": "Planeswalker's Guide to Streets of New Capenna",
+   "origins": [
+    "pack_p5_streets_of_new_capenna_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-streets-of-new-capenna"
+  },
+  {
    "id": "source:sorins_restoration",
    "kind": "official_story",
    "name": "Sorin's Restoration",
@@ -27380,6 +30394,61 @@
    "url": "https://magic.wizards.com/en/story/urza-planeswalker"
   },
   {
+   "id": "source:vow_ep1",
+   "kind": "official_story_episode",
+   "name": "Episode 1: Tithes and Invitations",
+   "origins": [
+    "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/episode-1-tithes-and-invitations-2021-10-28"
+  },
+  {
+   "id": "source:vow_ep2",
+   "kind": "official_story_episode",
+   "name": "Episode 2: The Dolorous Weight of Pleasantries",
+   "origins": [
+    "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/episode-2-dolorous-weight-pleasantries-2021-11-03"
+  },
+  {
+   "id": "source:vow_ep3",
+   "kind": "official_story_episode",
+   "name": "Episode 3: Forever Hold Your Peace",
+   "origins": [
+    "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/episode-3-forever-hold-your-peace-2021-11-10"
+  },
+  {
+   "id": "source:vow_ep4",
+   "kind": "official_story_episode",
+   "name": "Episode 4: The Wedding Crashers",
+   "origins": [
+    "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/episode-4-wedding-crashers-2021-11-17"
+  },
+  {
+   "id": "source:vow_ep5",
+   "kind": "official_story_episode",
+   "name": "Episode 5: Till Death Do Us Part",
+   "origins": [
+    "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/episode-5-till-death-do-us-part-2021-11-24"
+  },
+  {
    "id": "source:war_games",
    "kind": "Wizards official design commentary",
    "name": "Even More War Games",
@@ -27438,37 +30507,37 @@
  "problems": [],
  "schema": "multiverse-claim-graph/v1",
  "stats": {
-  "claim_edges_with_era": 269,
+  "claim_edges_with_era": 315,
   "claim_edges_with_in_universe_date": 0,
   "claims_by_status": {
    "ALTERNATE_CONTINUITY": 2,
-   "CANON_CONFIRMED": 207,
+   "CANON_CONFIRMED": 246,
    "CANON_DISPUTED": 7,
-   "CANON_IMPLIED": 25,
+   "CANON_IMPLIED": 31,
    "OPEN_QUESTION": 2
   },
-  "curated_bridges": 74,
-  "edges": 1966,
+  "curated_bridges": 78,
+  "edges": 2196,
   "literal_objects": 14,
   "node_types": {
    "AlternateContinuity": 1,
-   "Card": 618,
+   "Card": 652,
    "CardTheme": 1,
-   "Character": 92,
-   "Claim": 243,
-   "Concept": 84,
+   "Character": 109,
+   "Claim": 288,
+   "Concept": 91,
    "DeckProposal": 3,
    "Event": 15,
-   "Faction": 10,
+   "Faction": 22,
    "Literal": 14,
-   "Object": 18,
-   "Place": 15,
-   "Plane": 16,
-   "Source": 111
+   "Object": 25,
+   "Place": 17,
+   "Plane": 17,
+   "Source": 131
   },
-  "nodes": 1241,
+  "nodes": 1386,
   "non_wizards_sources": 0,
-  "relations": 200,
-  "wizards_official_sources": 111
+  "relations": 205,
+  "wizards_official_sources": 131
  }
 }

@@ -4,12 +4,12 @@
  "event_stage": "sothera_eoe_2025",
  "scope": "Targeted Phase 5 extraction from the official Edge of Eternities Magic Story episodes (2025-06-20 to 2025-07-07), the Planeswalker's Guide to Edge of Eternities and The Legends of Edge of Eternities. PRELIMINARY_RESEARCH; not owner approved.",
  "pages": {
-  "guide": "planeswalkers-guide-to-edge-of-eternities",
-  "legends": "the-legends-of-edge-of-eternities",
-  "ep8": "edge-of-eternities-episode-8",
-  "ep9": "edge-of-eternities-episode-9",
-  "ep10": "edge-of-eternities-episode-10",
-  "ep11": "edge-of-eternities-episode-11"
+  "eoe_guide": "planeswalkers-guide-to-edge-of-eternities",
+  "eoe_legends": "the-legends-of-edge-of-eternities",
+  "eoe_ep8": "edge-of-eternities-episode-8",
+  "eoe_ep9": "edge-of-eternities-episode-9",
+  "eoe_ep10": "edge-of-eternities-episode-10",
+  "eoe_ep11": "edge-of-eternities-episode-11"
  },
  "entities": [
   {
@@ -112,11 +112,11 @@
    "grade": "CANON_CONFIRMED",
    "quotes": [
     {
-     "page": "legends",
+     "page": "eoe_legends",
      "quote": "He was ejected from the Blind Eternities by methods still unknown."
     },
     {
-     "page": "legends",
+     "page": "eoe_legends",
      "quote": "However, Tezzeret's travels have brought him to an unexpected destination."
     }
    ],
@@ -131,11 +131,11 @@
    "grade": "CANON_CONFIRMED",
    "quotes": [
     {
-     "page": "legends",
+     "page": "eoe_legends",
      "quote": "He bides his time fencing stolen goods, filing the numbers off the transponders of stolen spacecraft, and monopolizing the ice water trade—all while aiming to lay the foundations of a criminal consortium."
     },
     {
-     "page": "legends",
+     "page": "eoe_legends",
      "quote": "Though Tezzeret's original goal was to find a way home, now he's not so sure."
     }
    ],
@@ -149,7 +149,7 @@
    "grade": "CANON_CONFIRMED",
    "quotes": [
     {
-     "page": "legends",
+     "page": "eoe_legends",
      "quote": "The plucky young captain of the Seriema, Sami is a wildcat, an unaffiliated freelancer with their own ship who takes jobs from anyone paying—whether with mallowmass or something archaic like currency."
     }
    ],
@@ -163,11 +163,11 @@
    "grade": "CANON_CONFIRMED",
    "quotes": [
     {
-     "page": "legends",
+     "page": "eoe_legends",
      "quote": "Together with their first mate, Tannuk, Sami is looking for the score that will restore their fortunes."
     },
     {
-     "page": "legends",
+     "page": "eoe_legends",
      "quote": "Today, Tannuk is the last remaining member of Sami's crew after the rest split for a more lucrative ship."
     }
    ],
@@ -181,11 +181,11 @@
    "grade": "CANON_CONFIRMED",
    "quotes": [
     {
-     "page": "legends",
+     "page": "eoe_legends",
      "quote": "Having recently arrived in Sothera, Haliya is a bright and eager squire in the Sunstar Free Company."
     },
     {
-     "page": "legends",
+     "page": "eoe_legends",
      "quote": "Haliya has pledged her bladiator to the service of Syr Vondam, her mentor and idol who has trained her since she was a young woman."
     }
    ],
@@ -199,7 +199,7 @@
    "grade": "CANON_CONFIRMED",
    "quotes": [
     {
-     "page": "legends",
+     "page": "eoe_legends",
      "quote": "Syr Vondam is a high-ranking knight of the Sunstar Free Company who commands a knightly host assigned to defend the Dawnsire."
     }
    ],
@@ -213,7 +213,7 @@
    "grade": "CANON_CONFIRMED",
    "quotes": [
     {
-     "page": "legends",
+     "page": "eoe_legends",
      "quote": "She traveled there aboard the Dawnsire, a horizon javelin and kilometers-long vessel that will reignite the Sotheran supervoid—something the system's Monoists will do anything to prevent."
     }
    ],
@@ -227,11 +227,11 @@
    "grade": "CANON_CONFIRMED",
    "quotes": [
     {
-     "page": "legends",
+     "page": "eoe_legends",
      "quote": "Alpharael is a young acolyte who has lived his entire life inside the Monoist monastery in the shadow of the Sotheran supervoid."
     },
     {
-     "page": "legends",
+     "page": "eoe_legends",
      "quote": "Now tasked with eliminating the Sunstar Free Company's hold on Sothera—a mission he is unlikely to survive—he finds his faith wavering."
     }
    ],
@@ -245,7 +245,7 @@
    "grade": "CANON_CONFIRMED",
    "quotes": [
     {
-     "page": "legends",
+     "page": "eoe_legends",
      "quote": "After being expelled from the Combine, Mm'menon lent their services to Tezzeret to stay in-system, hoping to solve the mystery of Uthros and capitalize on it."
     }
    ],
@@ -259,11 +259,11 @@
    "grade": "CANON_IMPLIED",
    "quotes": [
     {
-     "page": "ep11",
+     "page": "eoe_ep11",
      "quote": "\"Yes. I chose the most desperate, disposable pawns in my employ. So that they could not succeed except by the favor of the thing hidden on Sigma."
     },
     {
-     "page": "ep11",
+     "page": "eoe_ep11",
      "quote": "And I made it my genuine intention to bring that thing, once it was in my possession, wherever it wanted to go.\""
     }
    ],
@@ -278,19 +278,19 @@
    "grade": "CANON_IMPLIED",
    "quotes": [
     {
-     "page": "ep8",
+     "page": "eoe_ep8",
      "quote": "The Sundog is killing everything in Taro-duend with its lasers."
     },
     {
-     "page": "ep11",
+     "page": "eoe_ep11",
      "quote": "\"Syr,\" she says, unable to break the habit of respect, \"it wasn't the Endstone. You just shouldn't have murdered all those Kav."
     },
     {
-     "page": "ep10",
+     "page": "eoe_ep10",
      "quote": "All the Kav in Taro-duend rose up to protect Sami and Tannuk and Alpharael from the Free Company. All the Kav in Taro-duend died for it."
     },
     {
-     "page": "ep9",
+     "page": "eoe_ep9",
      "quote": "\"Isn't that what Vondam must've told himself before he gave the order to kill everyone in Taro-duend?"
     }
    ],
@@ -306,7 +306,7 @@
    "grade": "CANON_CONFIRMED",
    "quotes": [
     {
-     "page": "ep11",
+     "page": "eoe_ep11",
      "quote": "I've been cast out of the Free Company, but I am still a Summist. I place myself on errantry."
     }
    ],
@@ -321,15 +321,15 @@
    "grade": "CANON_CONFIRMED",
    "quotes": [
     {
-     "page": "ep11",
+     "page": "eoe_ep11",
      "quote": "The figure translates beside him. The Endstone falls into its hand."
     },
     {
-     "page": "ep11",
+     "page": "eoe_ep11",
      "quote": "But stars and nebulae close before it, and it is gone. Just gone. The Endstone with it."
     },
     {
-     "page": "ep11",
+     "page": "eoe_ep11",
      "quote": "\"I am the last thing,\" the beautiful android says."
     }
    ],
@@ -344,7 +344,7 @@
    "grade": "CANON_CONFIRMED",
    "quotes": [
     {
-     "page": "ep11",
+     "page": "eoe_ep11",
      "quote": "Tezzeret's mission is complete. The Endstone has been delivered. He has his glimpse of higher power."
     }
    ],
@@ -359,11 +359,11 @@
    "grade": "CANON_CONFIRMED",
    "quotes": [
     {
-     "page": "ep11",
+     "page": "eoe_ep11",
      "quote": "The other fingers on its hand fasten around Haliya's throat and crush."
     },
     {
-     "page": "ep11",
+     "page": "eoe_ep11",
      "quote": "Haliya's blade goes through two of its fingers."
     }
    ],
@@ -378,11 +378,11 @@
    "grade": "CANON_CONFIRMED",
    "quotes": [
     {
-     "page": "guide",
+     "page": "eoe_guide",
      "quote": "Pinnacle is a collective administrative entity."
     },
     {
-     "page": "guide",
+     "page": "eoe_guide",
      "quote": "In fact, intrasystem conflict and commerce are founding concerns of Pinnacle; namely, the cessation of the former and the encouragement of the latter."
     }
    ],
@@ -397,11 +397,11 @@
    "grade": "CANON_IMPLIED",
    "quotes": [
     {
-     "page": "ep11",
+     "page": "eoe_ep11",
      "quote": "\"Syr,\" Haliya manages, \"it wasn't your choice. It was mine. I took the Endstone away. It's not on you.\""
     },
     {
-     "page": "ep11",
+     "page": "eoe_ep11",
      "quote": "\"Yes. That was your error. And it was my responsibility to kill you for it. Which I failed to do, because I let love outshine duty."
     }
    ],
