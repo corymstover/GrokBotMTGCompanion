@@ -55,7 +55,7 @@ Scope rules for this overnight run:
 ## Batch 1 follow-up
 - [PR #824](https://github.com/corymstover/GrokBotMTGCompanion/pull/824), *Overnight handoff: batch 1 merge record* (docs only), merged at 2026-10-30 01:34 CDT as `dfc8891de03c11ba91adf81effc5ca08e2fef10f`.
 
-## Batch 2 — 2026-10-30 ~01:35–02:00 CDT
+## Batch 2 — 2026-10-30 ~01:35–02:30 CDT
 
 The aim was to spread work across phases (Cory's request). Every PR used a normal merge with `--match-head-commit`, and all checks on the exact head were green. There were no admin bypasses or force-pushes, and no chatgpt-* PR or branch was touched.
 
@@ -67,20 +67,37 @@ The aim was to spread work across phases (Cory's request). Every PR used a norma
 | [#828](https://github.com/corymstover/GrokBotMTGCompanion/pull/828) | 4 | Pack C v1, Weatherlight → Invasion → New Phyrexia: 28 claims, 26 entities, 6 Wizards sources; "who defeated / who created" asks | `185b5146` (01:50) |
 | [#829](https://github.com/corymstover/GrokBotMTGCompanion/pull/829) | 1 / 8 | Oracle text drift, Oct 28 shards vs Oct 29 snapshot: **0 changes across 33,894 cards**; 305 new paper IDs are future-dated (`trk`/`trc`, 2026-11-13) | `b5ff3a2f` (01:52) |
 | [#830](https://github.com/corymstover/GrokBotMTGCompanion/pull/830) | 8 | `scripts/release_readiness.py`: 7 first-release criteria → **NOT_RELEASE_READY** (MET 1 · PARTIAL 3 · NOT_MET 1 · EXTERNAL 2) | `f6a91349` (01:54) |
-| this PR | — | Master workflow v2.28 and this handoff | — |
+| [#831](https://github.com/corymstover/GrokBotMTGCompanion/pull/831) | — | Master workflow v2.28 and this handoff (docs only) | `ada2501c` (01:57) |
+| [#832](https://github.com/corymstover/GrokBotMTGCompanion/pull/832) | 6 | Spec-driven lore pilot builder and audit, plus **Pilot 2, Original & Primeval Dragons** (commander The Ur-Dragon): 100 cards, of which 85 are named and 15 basics. Tiers: 35 CANON_REFERENCE, 12 LORE_INSPIRED, 38 MECHANICAL_SYMBOL, 0 DIRECT_DEPICTION. **UNAPPROVED** | `95729905` (02:03) |
+| [#833](https://github.com/corymstover/GrokBotMTGCompanion/pull/833) | 4 | Pack A open-question evidence review of A003, A004 and A011. Grades are retained and the review is preliminary | `e68ee68d` (02:08) |
+| [#834](https://github.com/corymstover/GrokBotMTGCompanion/pull/834) | 3 | Pilot 2 (UNAPPROVED) linked into the claim graph as a DeckProposal | `0eb00a06` (02:09) |
+| [#835](https://github.com/corymstover/GrokBotMTGCompanion/pull/835) | 4 | Pack A review correction. A003 now records that Wizards sources disagree: Piru survives per the MH2 "Returning Legends" article but is absent from Bolas's list. Adds A-PROP-04 (Elder Dragons spawned by the Ur-Dragon, editorial source), **unapplied** | `09d010af` (02:16) |
+| [#836](https://github.com/corymstover/GrokBotMTGCompanion/pull/836) | 7 / 8 | Commander deck-construction rules, built on a verbatim excerpt of the official CR dated 2026-09-25 (sha256 `8d860e45…`). Covers 903.3–903.5d and 702.124 partner, partner—[text], partner with, Background and Doctor's companion. `scripts/commander_rules.py` has `commander`, `include` and `audit-eligibility`. The eligibility audit agrees with the index on **all 33,894 cards (0 disagreements)**: 3,884 can be a commander and 29 are Background-only. mv_ask routes rules questions there, and a CI step was added. Release readiness for lookup/rules stays **PARTIAL** because gameplay interaction checks are not built | `84130ca8` (02:21) |
+| this PR | — | Master workflow v2.29 and this handoff (docs only) | — |
 
-Graph after this batch: 305 nodes, 488 edges and 78 claims (69 confirmed, 4 disputed, 2 implied, 2 open, 1 alternate). There are 37 sources, none of them non-Wizards. **Packs A, B and C are all PRELIMINARY_RESEARCH**; none is owner approved or certified.
+Graph after #830: 305 nodes, 488 edges and 78 claims (69 confirmed, 4 disputed, 2 implied, 2 open, 1 alternate). There are 37 sources, none of them non-Wizards. **Packs A, B and C are all PRELIMINARY_RESEARCH**; none is owner approved or certified.
+
+After #834 the graph has **376 nodes and 573 edges**: 78 claims, 37 sources (all Wizards) and 2 DeckProposal nodes. The `--check` passes.
+
+Pack A review status: A003 and A004 **stay CANON_DISPUTED** and A011 **stays OPEN_QUESTION**. There are **4 proposals, none applied**, waiting for Cory. Nothing was approved, locked or certified.
+
+### Discoveries
+- The MH2 "Returning Legends" article (Wizards) calls Piru a surviving Elder Dragon, which contradicts the A003 survivor list. The first review (#833) missed this, and #835 corrected it.
+- The owner-approved Karn and Yawgmoth lore decks contain cards banned per Scryfall: Tolarian Academy, Yawgmoth's Bargain and Sundering Titan. These are documented intentional exceptions in `data/lore_decks/approvals/`, which was read only. The new test honours them, and no deck was changed.
+- Before this batch, "Who is Ugin's brother?" returned NOT_FOUND in mv_ask because the graph relation is `twin_sibling_of`. #836 adds the fallback.
+- A "Partner with" name containing a comma (Pir and Toothy) broke naive parsing. It is now parsed before splitting.
+- The box was replaced at about 02:15 CDT. Lost with it: `/workspace/out/multiverse/` (the overnight brief and PROGRESS.md), the local oracle cache, the CR download and some uncommitted work. The work was recreated, and the CR text was re-verified against the same sha256 from the read-only Grixis cache. The store mount was absent at that point. Everything in GitHub was unaffected.
 
 ### Blockers
 - 1,953 priority-card enrichments: the guarded rebuild needs the story-text, EDHREC and Commander Spellbook caches, which are not on the box.
 - Release criterion "reviewed deck built from the graph" needs Cory to review Pilot 1 (#823). Approval files are written only by the owner.
 
 ### Not started (next steps, in value order)
-1. Generic spec-driven `scripts/build_lore_pilot.py` and `audit_lore_pilot.py`, then Pilots 2 and 3 (Original Primeval Dragons; Ugin's Allies and Heroes) as UNAPPROVED proposals.
-2. Pack A open questions A003/A004 (disputed) and A011 (open): look for further Wizards sources. Keep them disputed if the sources disagree.
+1. Pilot 3, Ugin's Allies and Heroes: Narset, Elspeth and others first need graded Pack A claims, then a spec for `build_lore_pilot.py`. The result stays UNAPPROVED.
+2. Cory's review of Pilot 1 (#823), Pilot 2 (#832) and the 4 unapplied Pack A proposals. If A-PROP-04 is accepted, the Pilot 2 commander may move from LORE_INSPIRED to CANON_REFERENCE.
 3. Pack C: *Return to Dominaria* episode extraction, March of the Machine, and card anchors for Pack B/C claims (CardRepresentation nodes).
 4. Edge dates (in-universe era) on graph relationships.
-5. Phase 7 rules-interaction checks (this is the remaining PARTIAL in the lookup/rules release criterion).
+5. Phase 7 gameplay rules-interaction checks. Deck-construction checks are done (#836); this is the remaining PARTIAL in the lookup/rules criterion.
 6. After 2026-11-13: re-snapshot, rerun `oracle_drift_report.py`, and admit the 305 `trk`/`trc` cards.
 
 Protected-path check (`git diff --stat dfc8891d origin/main -- grixis/ data/grixis/ state/current_deck_overrides.json data/lore_decks/approvals/`): empty.
