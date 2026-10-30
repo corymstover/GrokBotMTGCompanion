@@ -1,0 +1,4082 @@
+{
+  "schema": "plane-history-dossiers/v1",
+  "as_of": "2026-10-30",
+  "status": "PRELIMINARY_RESEARCH_NOT_OWNER_APPROVED",
+  "source_graph_sha256": "6141abc31e9bcbbff129e311f611b1ad18ecede854c3584eecc9c91cb82397e9",
+  "scope": "Only named planes presently registered as graph Plane nodes and directly incident claim edges.",
+  "chronology_policy": "Never infer ordering from article date, release date or an era_label; explicit dated quotes are retained verbatim as quoted metadata only.",
+  "counts": {
+    "registered_planes": 33,
+    "planes_with_direct_claims": 33,
+    "direct_claim_edges": 147,
+    "thin_planes_fewer_than_five_claims": 22,
+    "claim_edge_grades": {
+      "CANON_CONFIRMED": 123,
+      "CANON_DISPUTED": 2,
+      "CANON_IMPLIED": 21,
+      "OPEN_QUESTION": 1
+    }
+  },
+  "planes": [
+    {
+      "id": "plane:alara",
+      "plane": "Alara",
+      "evidence_status": "PARTIAL_DIRECT_GRAPH_CLAIMS_ONLY",
+      "distinct_claims": 1,
+      "facts": [
+        {
+          "claim_id": "UP001",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Nicol Bolas engineered the reunion of Alara's five shards to feed on its mana.",
+          "limitation": "",
+          "relation": "manipulated",
+          "subject": {
+            "id": "character:nicol_bolas",
+            "name": "Nicol Bolas"
+          },
+          "object": {
+            "id": "plane:alara",
+            "name": "Alara"
+          },
+          "era_label": "plane_profiles_undated",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "up_alara",
+              "title": "Alara",
+              "url": "https://magic.wizards.com/en/story/alara-plane"
+            }
+          ]
+        }
+      ],
+      "known_gaps": [
+        "Direct claims are not an exhaustive history of this plane.",
+        "Era labels and publication dates are not a verified sequence or AR calendar year.",
+        "Absence of a cited event or person is not evidence it never occurred or appeared."
+      ]
+    },
+    {
+      "id": "plane:amonkhet",
+      "plane": "Amonkhet",
+      "evidence_status": "PARTIAL_DIRECT_GRAPH_CLAIMS_ONLY",
+      "distinct_claims": 16,
+      "facts": [
+        {
+          "claim_id": "AER015",
+          "grade": "CANON_IMPLIED",
+          "statement": "Liliana tells the Gatewatch that Bolas completely controls Amonkhet.",
+          "limitation": "Liliana's in-character report; her 'he created it' is explicitly hedged ('As far as I know') and is not modelled as a claim.",
+          "relation": "controls",
+          "subject": {
+            "id": "character:nicol_bolas",
+            "name": "Nicol Bolas"
+          },
+          "object": {
+            "id": "plane:amonkhet",
+            "name": "Amonkhet"
+          },
+          "era_label": "pre_amonkhet_2017",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "aer_renewal",
+              "title": "Renewal",
+              "url": "https://magic.wizards.com/en/news/magic-story/renewal-2017-02-01"
+            }
+          ]
+        },
+        {
+          "claim_id": "AKH001",
+          "grade": "CANON_CONFIRMED",
+          "statement": "The five Gatewatch members come to Amonkhet to slay Nicol Bolas.",
+          "limitation": "",
+          "relation": "travelled_to",
+          "subject": {
+            "id": "faction:gatewatch",
+            "name": "The Gatewatch"
+          },
+          "object": {
+            "id": "plane:amonkhet",
+            "name": "Amonkhet"
+          },
+          "era_label": "amonkhet_hours_2017",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "akh_trust",
+              "title": "Trust",
+              "url": "https://magic.wizards.com/en/news/magic-story/trust-2017-04-05"
+            }
+          ]
+        },
+        {
+          "claim_id": "AKH002",
+          "grade": "CANON_CONFIRMED",
+          "statement": "On Amonkhet Nicol Bolas is the God-Pharaoh.",
+          "limitation": "",
+          "relation": "worshipped_as",
+          "subject": {
+            "id": "character:nicol_bolas",
+            "name": "Nicol Bolas"
+          },
+          "object": {
+            "id": "plane:amonkhet",
+            "name": "Amonkhet"
+          },
+          "era_label": "amonkhet_hours_2017",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "akh_trust",
+              "title": "Trust",
+              "url": "https://magic.wizards.com/en/news/magic-story/trust-2017-04-05"
+            },
+            {
+              "id": "hou_favor",
+              "title": "Favor",
+              "url": "https://magic.wizards.com/en/news/magic-story/favor-2017-07-05"
+            }
+          ]
+        },
+        {
+          "claim_id": "AKH003",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Bolas has overwritten Amonkhet's past (official recap).",
+          "limitation": "",
+          "relation": "overwrote_history_of",
+          "subject": {
+            "id": "character:nicol_bolas",
+            "name": "Nicol Bolas"
+          },
+          "object": {
+            "id": "plane:amonkhet",
+            "name": "Amonkhet"
+          },
+          "era_label": "amonkhet_hours_2017",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "akh_hand",
+              "title": "The Hand That Moves",
+              "url": "https://magic.wizards.com/en/news/magic-story/hand-moves-2017-04-26"
+            }
+          ]
+        },
+        {
+          "claim_id": "AKH004",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Liliana came to Amonkhet to kill another of her demon creditors.",
+          "limitation": "",
+          "relation": "hunts_demon_creditor_on",
+          "subject": {
+            "id": "character:liliana_vess",
+            "name": "Liliana Vess"
+          },
+          "object": {
+            "id": "plane:amonkhet",
+            "name": "Amonkhet"
+          },
+          "era_label": "amonkhet_hours_2017",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "akh_servants",
+              "title": "Servants",
+              "url": "https://magic.wizards.com/en/news/magic-story/servants-2017-04-19"
+            }
+          ]
+        },
+        {
+          "claim_id": "AKH007",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Kefnet is Amonkhet's God of Knowledge.",
+          "limitation": "",
+          "relation": "god_of",
+          "subject": {
+            "id": "character:kefnet",
+            "name": "Kefnet"
+          },
+          "object": {
+            "id": "plane:amonkhet",
+            "name": "Amonkhet"
+          },
+          "era_label": "amonkhet_hours_2017",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "akh_hand",
+              "title": "The Hand That Moves",
+              "url": "https://magic.wizards.com/en/news/magic-story/hand-moves-2017-04-26"
+            }
+          ]
+        },
+        {
+          "claim_id": "AKH008",
+          "grade": "CANON_CONFIRMED",
+          "statement": "The God-Pharaoh returns and the five Hours arrive (official recap).",
+          "limitation": "",
+          "relation": "returned_to",
+          "subject": {
+            "id": "character:nicol_bolas",
+            "name": "Nicol Bolas"
+          },
+          "object": {
+            "id": "plane:amonkhet",
+            "name": "Amonkhet"
+          },
+          "era_label": "amonkhet_hours_2017",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "hou_eternity",
+              "title": "Hour of Eternity",
+              "url": "https://magic.wizards.com/en/news/magic-story/hour-eternity-2017-07-12"
+            }
+          ]
+        },
+        {
+          "claim_id": "AKH012",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Chandra planeswalks away from the losing fight.",
+          "limitation": "",
+          "relation": "fled",
+          "subject": {
+            "id": "character:chandra_nalaar",
+            "name": "Chandra Nalaar"
+          },
+          "object": {
+            "id": "plane:amonkhet",
+            "name": "Amonkhet"
+          },
+          "era_label": "amonkhet_hours_2017",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "hou_devastation",
+              "title": "Hour of Devastation",
+              "url": "https://magic.wizards.com/en/news/magic-story/hour-devastation-2017-07-26"
+            }
+          ]
+        },
+        {
+          "claim_id": "AKH013",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Wounded, Gideon leaves Amonkhet through the Blind Eternities.",
+          "limitation": "",
+          "relation": "fled",
+          "subject": {
+            "id": "character:gideon_jura",
+            "name": "Gideon Jura"
+          },
+          "object": {
+            "id": "plane:amonkhet",
+            "name": "Amonkhet"
+          },
+          "era_label": "amonkhet_hours_2017",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "hou_devastation",
+              "title": "Hour of Devastation",
+              "url": "https://magic.wizards.com/en/news/magic-story/hour-devastation-2017-07-26"
+            }
+          ]
+        },
+        {
+          "claim_id": "AKH017",
+          "grade": "CANON_IMPLIED",
+          "statement": "Bolas came to Amonkhet decades before the story and shaped its present order around sixty years earlier.",
+          "limitation": "'Several decades' and 'sixty years ago' are Bolas's point-of-view narration relative to the story; kept as relative dates, not absolute years.",
+          "relation": "prepared",
+          "subject": {
+            "id": "character:nicol_bolas",
+            "name": "Nicol Bolas"
+          },
+          "object": {
+            "id": "plane:amonkhet",
+            "name": "Amonkhet"
+          },
+          "era_label": "bolas_amonkhet_preparation",
+          "in_universe_date": {
+            "quote": "Several decades ago he had come to the world of Amonkhet, a blighted, superstitious backworld of interest to no one who mattered",
+            "source_id": "hou_devastation",
+            "value": "Several decades ago"
+          },
+          "sources": [
+            {
+              "id": "hou_devastation",
+              "title": "Hour of Devastation",
+              "url": "https://magic.wizards.com/en/news/magic-story/hour-devastation-2017-07-26"
+            }
+          ]
+        },
+        {
+          "claim_id": "AKH019",
+          "grade": "CANON_IMPLIED",
+          "statement": "On Amonkhet the dead always rise again; this is the Curse of Wandering.",
+          "limitation": "Revealed to Nissa as a vision of the plane's own voice, not narrated as a general rule.",
+          "relation": "afflicts",
+          "subject": {
+            "id": "concept:curse_of_wandering",
+            "name": "The Curse of Wandering"
+          },
+          "object": {
+            "id": "plane:amonkhet",
+            "name": "Amonkhet"
+          },
+          "era_label": "amonkhet_hours_2017",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "akh_writing",
+              "title": "The Writing on the Wall",
+              "url": "https://magic.wizards.com/en/news/magic-story/writing-wall-2017-04-12"
+            }
+          ]
+        },
+        {
+          "claim_id": "AKH030",
+          "grade": "CANON_CONFIRMED",
+          "statement": "The official plane page states that Amonkhet's God-Pharaoh is actually Nicol Bolas.",
+          "limitation": "Object is the plane; the precise relation is 'God-Pharaoh of Amonkhet'.",
+          "relation": "identified_with",
+          "subject": {
+            "id": "character:nicol_bolas",
+            "name": "Nicol Bolas"
+          },
+          "object": {
+            "id": "plane:amonkhet",
+            "name": "Amonkhet"
+          },
+          "era_label": "amonkhet_hours_2017",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "akh_plane",
+              "title": "Amonkhet",
+              "url": "https://magic.wizards.com/en/story/amonkhet-plane"
+            }
+          ]
+        },
+        {
+          "claim_id": "AKH031",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Each of Amonkhet's five gods oversees one of five trials: solidarity, knowledge, strength, ambition and zeal.",
+          "limitation": "",
+          "relation": "located_on",
+          "subject": {
+            "id": "concept:amonkhet_trials",
+            "name": "The five Trials of Amonkhet"
+          },
+          "object": {
+            "id": "plane:amonkhet",
+            "name": "Amonkhet"
+          },
+          "era_label": "amonkhet_hours_2017",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "akh_plane",
+              "title": "Amonkhet",
+              "url": "https://magic.wizards.com/en/story/amonkhet-plane"
+            }
+          ]
+        },
+        {
+          "claim_id": "DF016",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Ketramose is one of two new risen deities on Amonkhet.",
+          "limitation": "",
+          "relation": "located_on",
+          "subject": {
+            "id": "character:ketramose",
+            "name": "Ketramose"
+          },
+          "object": {
+            "id": "plane:amonkhet",
+            "name": "Amonkhet"
+          },
+          "era_label": "aetherdrift_dft_2024_2025",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "dft_guide2",
+              "title": "Planeswalker's Guide to Aetherdrift, Part 2",
+              "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-aetherdrift-part-2"
+            }
+          ]
+        },
+        {
+          "claim_id": "DF017",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Sab-Sunen is the other new risen deity on Amonkhet, alongside Hazoret.",
+          "limitation": "",
+          "relation": "located_on",
+          "subject": {
+            "id": "character:sab_sunen",
+            "name": "Sab-Sunen"
+          },
+          "object": {
+            "id": "plane:amonkhet",
+            "name": "Amonkhet"
+          },
+          "era_label": "aetherdrift_dft_2024_2025",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "dft_guide2",
+              "title": "Planeswalker's Guide to Aetherdrift, Part 2",
+              "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-aetherdrift-part-2"
+            }
+          ]
+        },
+        {
+          "claim_id": "SSX013",
+          "grade": "CANON_CONFIRMED",
+          "statement": "The Gatewatch travels to Amonkhet (2017).",
+          "limitation": "",
+          "relation": "traveled_to",
+          "subject": {
+            "id": "faction:gatewatch",
+            "name": "The Gatewatch"
+          },
+          "object": {
+            "id": "plane:amonkhet",
+            "name": "Amonkhet"
+          },
+          "era_label": "untagged_side_stories_2015_2026",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "imp",
+              "title": "Impact",
+              "url": "https://magic.wizards.com/en/news/magic-story/impact-2017-03-29"
+            }
+          ]
+        }
+      ],
+      "known_gaps": [
+        "Direct claims are not an exhaustive history of this plane.",
+        "Era labels and publication dates are not a verified sequence or AR calendar year.",
+        "Absence of a cited event or person is not evidence it never occurred or appeared."
+      ]
+    },
+    {
+      "id": "plane:arcavios",
+      "plane": "Arcavios",
+      "evidence_status": "PARTIAL_DIRECT_GRAPH_CLAIMS_ONLY",
+      "distinct_claims": 2,
+      "facts": [
+        {
+          "claim_id": "EC006",
+          "grade": "CANON_IMPLIED",
+          "statement": "Dina leads Strixhaven students on a sample-collecting trip to the Harrier's Wood, an hour's walk from campus.",
+          "limitation": "Location on Arcavios is inferred from the campus and Strixhaven references.",
+          "relation": "located_on",
+          "subject": {
+            "id": "place:harriers_wood",
+            "name": "The Harrier's Wood"
+          },
+          "object": {
+            "id": "plane:arcavios",
+            "name": "Arcavios"
+          },
+          "era_label": "lorwyn_eclipsed_2025",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "ecl_ep1",
+              "title": "Lorwyn Eclipsed | Episode 1: Out of This Wood",
+              "url": "https://magic.wizards.com/en/news/magic-story/lorwyn-eclipsed-episode-1-out-of-this-wood"
+            }
+          ]
+        },
+        {
+          "claim_id": "SS023",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Chandra is on Arcavios during the Secrets of Strixhaven story.",
+          "limitation": "",
+          "relation": "travelled_to",
+          "subject": {
+            "id": "character:chandra_nalaar",
+            "name": "Chandra Nalaar"
+          },
+          "object": {
+            "id": "plane:arcavios",
+            "name": "Arcavios"
+          },
+          "era_label": "strixhaven_sos_2026",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "sos_ep5",
+              "title": "Secrets of Strixhaven | Episode 5: Breaking Point",
+              "url": "https://magic.wizards.com/en/news/magic-story/secrets-of-strixhaven-episode-5-breaking-point"
+            }
+          ]
+        }
+      ],
+      "known_gaps": [
+        "Direct claims are not an exhaustive history of this plane.",
+        "Era labels and publication dates are not a verified sequence or AR calendar year.",
+        "Absence of a cited event or person is not evidence it never occurred or appeared."
+      ]
+    },
+    {
+      "id": "plane:argentum",
+      "plane": "Argentum",
+      "evidence_status": "PARTIAL_DIRECT_GRAPH_CLAIMS_ONLY",
+      "distinct_claims": 1,
+      "facts": [
+        {
+          "claim_id": "NP001",
+          "grade": "CANON_CONFIRMED",
+          "statement": "The plane was once named Argentum, then Mirrodin, and now bears a third name (New Phyrexia).",
+          "limitation": "",
+          "relation": "formerly_named",
+          "subject": {
+            "id": "plane:mirrodin",
+            "name": "Mirrodin / New Phyrexia"
+          },
+          "object": {
+            "id": "plane:argentum",
+            "name": "Argentum"
+          },
+          "era_label": "new_phyrexia_2011",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "np_intro",
+              "title": "A Planeswalker's Guide to New Phyrexia: Introduction",
+              "url": "https://magic.wizards.com/en/news/feature/a-planeswalkers-guide-to-new-phyrexia-introduction"
+            }
+          ]
+        }
+      ],
+      "known_gaps": [
+        "Direct claims are not an exhaustive history of this plane.",
+        "Era labels and publication dates are not a verified sequence or AR calendar year.",
+        "Absence of a cited event or person is not evidence it never occurred or appeared."
+      ]
+    },
+    {
+      "id": "plane:bablovia",
+      "plane": "Bablovia",
+      "evidence_status": "PARTIAL_DIRECT_GRAPH_CLAIMS_ONLY",
+      "distinct_claims": 1,
+      "facts": [
+        {
+          "claim_id": "SSX020",
+          "grade": "CANON_CONFIRMED",
+          "statement": "The Carta Scientia is the oldest document in Bablovia (Unstable, 2017).",
+          "limitation": "",
+          "relation": "located_in",
+          "subject": {
+            "id": "artifact:carta_scientia",
+            "name": "Carta Scientia"
+          },
+          "object": {
+            "id": "plane:bablovia",
+            "name": "Bablovia"
+          },
+          "era_label": "untagged_side_stories_2015_2026",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "wc",
+              "title": "World Class",
+              "url": "https://magic.wizards.com/en/news/magic-story/world-class-2017-11-29"
+            }
+          ]
+        }
+      ],
+      "known_gaps": [
+        "Direct claims are not an exhaustive history of this plane.",
+        "Era labels and publication dates are not a verified sequence or AR calendar year.",
+        "Absence of a cited event or person is not evidence it never occurred or appeared."
+      ]
+    },
+    {
+      "id": "plane:bloomburrow",
+      "plane": "Bloomburrow",
+      "evidence_status": "PARTIAL_DIRECT_GRAPH_CLAIMS_ONLY",
+      "distinct_claims": 2,
+      "facts": [
+        {
+          "claim_id": "BL011",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Ral, who appeared as an otterfolk on Bloomburrow, planeswalks away after the adventure.",
+          "limitation": "",
+          "relation": "left",
+          "subject": {
+            "id": "character:ral_zarek",
+            "name": "Ral Zarek"
+          },
+          "object": {
+            "id": "plane:bloomburrow",
+            "name": "Bloomburrow"
+          },
+          "era_label": "blb_epilogue_2024",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "blb_ep5",
+              "title": "Bloomburrow | Episode 5: Nightfall in Fountainport",
+              "url": "https://magic.wizards.com/en/news/magic-story/episode-5-nightfall-in-fountainport"
+            }
+          ]
+        },
+        {
+          "claim_id": "BL018",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Valley lies within Bloomburrow.",
+          "limitation": "",
+          "relation": "located_on",
+          "subject": {
+            "id": "place:valley",
+            "name": "Valley"
+          },
+          "object": {
+            "id": "plane:bloomburrow",
+            "name": "Bloomburrow"
+          },
+          "era_label": "bloomburrow_blb_2024",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "blb_ep4",
+              "title": "Bloomburrow | Episode 4: Soothsaying and Stormcalling",
+              "url": "https://magic.wizards.com/en/news/magic-story/episode-4-soothsaying-and-stormcalling"
+            }
+          ]
+        }
+      ],
+      "known_gaps": [
+        "Direct claims are not an exhaustive history of this plane.",
+        "Era labels and publication dates are not a verified sequence or AR calendar year.",
+        "Absence of a cited event or person is not evidence it never occurred or appeared."
+      ]
+    },
+    {
+      "id": "plane:dominaria",
+      "plane": "Dominaria",
+      "evidence_status": "PARTIAL_DIRECT_GRAPH_CLAIMS_ONLY",
+      "distinct_claims": 7,
+      "facts": [
+        {
+          "claim_id": "A004",
+          "grade": "CANON_DISPUTED",
+          "statement": "Bolas reports his first planeswalk and discovery of the connected Multiverse.",
+          "limitation": "His claim to be the first or alone is a narrator claim, not objective proof of priority over every planeswalker.",
+          "relation": "planeswalker_spark_awakening_recounted",
+          "subject": {
+            "id": "character:nicol_bolas",
+            "name": "Nicol Bolas"
+          },
+          "object": {
+            "id": "plane:dominaria",
+            "name": "Dominaria"
+          },
+          "era_label": "early_planeswalking",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "chronicle_perspectives",
+              "title": "Chronicle of Bolas: Perspectives",
+              "url": "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-perspectives-2018-08-08"
+            }
+          ]
+        },
+        {
+          "claim_id": "C008",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Yawgmoth was a medical genius from Dominaria.",
+          "limitation": "The Thran-era origin story (novel The Thran) is not ingested; 'medical genius' is the only biographical detail used.",
+          "relation": "native_of",
+          "subject": {
+            "id": "character:yawgmoth",
+            "name": "Yawgmoth"
+          },
+          "object": {
+            "id": "plane:dominaria",
+            "name": "Dominaria"
+          },
+          "era_label": "pre_brothers_war",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "c_pwg_one",
+              "title": "Planeswalker's Guide to Phyrexia: All Will Be One",
+              "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-phyrexia-all-will-be-one"
+            }
+          ]
+        },
+        {
+          "claim_id": "C011",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Yawgmoth used the Phyrexians to launch repeated invasions of his home plane.",
+          "limitation": "",
+          "relation": "invaded",
+          "subject": {
+            "id": "character:yawgmoth",
+            "name": "Yawgmoth"
+          },
+          "object": {
+            "id": "plane:dominaria",
+            "name": "Dominaria"
+          },
+          "era_label": "first_invasion",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "c_pwg_one",
+              "title": "Planeswalker's Guide to Phyrexia: All Will Be One",
+              "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-phyrexia-all-will-be-one"
+            }
+          ]
+        },
+        {
+          "claim_id": "C026",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Dominaria was the epicenter of temporal-planar fractures; a handful of powerful Planeswalkers mended the rifts.",
+          "limitation": "Participants in the Mending are not named in the cited source.",
+          "relation": "epicenter_of",
+          "subject": {
+            "id": "plane:dominaria",
+            "name": "Dominaria"
+          },
+          "object": {
+            "id": "event:temporal_rifts_mending",
+            "name": "Time rifts and the Mending"
+          },
+          "era_label": "time_spiral",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "c_dominaria_plane",
+              "title": "Dominaria (plane profile)",
+              "url": "https://magic.wizards.com/en/story/dominaria-plane"
+            }
+          ]
+        },
+        {
+          "claim_id": "RTD008",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Liliana's spark ignited as she fled Dominaria after Josu's transformation.",
+          "limitation": "",
+          "relation": "spark_ignited_leaving",
+          "subject": {
+            "id": "character:liliana_vess",
+            "name": "Liliana Vess"
+          },
+          "object": {
+            "id": "plane:dominaria",
+            "name": "Dominaria"
+          },
+          "era_label": "liliana_backstory",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "rtd_ep1",
+              "title": "Return to Dominaria: Episode 1",
+              "url": "https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-1-2018-03-21"
+            }
+          ]
+        },
+        {
+          "claim_id": "UB011",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Jaya Ballard was born on Dominaria more than 1,500 years ago.",
+          "limitation": "",
+          "relation": "originated_from",
+          "subject": {
+            "id": "character:jaya_ballard",
+            "name": "Jaya Ballard"
+          },
+          "object": {
+            "id": "plane:dominaria",
+            "name": "Dominaria"
+          },
+          "era_label": "planeswalker_profiles_undated",
+          "in_universe_date": {
+            "quote": "Born on Dominaria more than 1,500 years ago",
+            "source_id": "ub_jaya",
+            "value": "more than 1,500 years ago"
+          },
+          "sources": [
+            {
+              "id": "ub_jaya",
+              "title": "Jaya Ballard | Planeswalker",
+              "url": "https://magic.wizards.com/en/story/jaya-planeswalker"
+            }
+          ]
+        },
+        {
+          "claim_id": "UB027",
+          "grade": "CANON_IMPLIED",
+          "statement": "The profile implies Venser comes from Dominaria.",
+          "limitation": "Implied by his spark giving him access beyond Dominaria; not stated as his birthplace.",
+          "relation": "originated_from",
+          "subject": {
+            "id": "character:venser",
+            "name": "Venser"
+          },
+          "object": {
+            "id": "plane:dominaria",
+            "name": "Dominaria"
+          },
+          "era_label": "planeswalker_profiles_undated",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "ub_venser",
+              "title": "Venser | Planeswalker",
+              "url": "https://magic.wizards.com/en/story/venser-planeswalker"
+            }
+          ]
+        }
+      ],
+      "known_gaps": [
+        "Direct claims are not an exhaustive history of this plane.",
+        "Era labels and publication dates are not a verified sequence or AR calendar year.",
+        "Absence of a cited event or person is not evidence it never occurred or appeared."
+      ]
+    },
+    {
+      "id": "plane:duskmourn",
+      "plane": "Duskmourn",
+      "evidence_status": "PARTIAL_DIRECT_GRAPH_CLAIMS_ONLY",
+      "distinct_claims": 2,
+      "facts": [
+        {
+          "claim_id": "DS002",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Valgavoth expands his prison until the House swallows the whole plane (the Ascension), creating Duskmourn.",
+          "limitation": "",
+          "relation": "seized_control_of",
+          "subject": {
+            "id": "character:valgavoth",
+            "name": "Valgavoth"
+          },
+          "object": {
+            "id": "plane:duskmourn",
+            "name": "Duskmourn"
+          },
+          "era_label": "duskmourn_dsk_2024",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "dsk_guide",
+              "title": "Planeswalker's Guide to Duskmourn",
+              "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-duskmourn"
+            }
+          ]
+        },
+        {
+          "claim_id": "DS101",
+          "grade": "CANON_IMPLIED",
+          "statement": "A second-person welcome to guests 'here in Duskmourn' plays on the name being both the plane and the House.",
+          "limitation": "Framing narrator; the House/plane relation is inferred.",
+          "relation": "located_on",
+          "subject": {
+            "id": "place:the_house",
+            "name": "The House"
+          },
+          "object": {
+            "id": "plane:duskmourn",
+            "name": "Duskmourn"
+          },
+          "era_label": "duskmourn_2024",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "dsks_one",
+              "title": "Duskmourn: House of Horror | Welcome Home",
+              "url": "https://magic.wizards.com/en/news/magic-story/side-one-welcome-home"
+            }
+          ]
+        }
+      ],
+      "known_gaps": [
+        "Direct claims are not an exhaustive history of this plane.",
+        "Era labels and publication dates are not a verified sequence or AR calendar year.",
+        "Absence of a cited event or person is not evidence it never occurred or appeared."
+      ]
+    },
+    {
+      "id": "plane:eldraine",
+      "plane": "Eldraine",
+      "evidence_status": "PARTIAL_DIRECT_GRAPH_CLAIMS_ONLY",
+      "distinct_claims": 3,
+      "facts": [
+        {
+          "claim_id": "EL011",
+          "grade": "CANON_IMPLIED",
+          "statement": "Elves ruled the land before humans drove them out eight or nine generations ago.",
+          "limitation": "Past state only; the object stands for the land that became the realm. The guide is an in-universe traveller's account; it reports what the realm's folk say and believe.",
+          "relation": "leader_of",
+          "subject": {
+            "id": "faction:eldraine_elves",
+            "name": "Elves of Eldraine"
+          },
+          "object": {
+            "id": "plane:eldraine",
+            "name": "Eldraine"
+          },
+          "era_label": "eldraine_eld_2019",
+          "in_universe_date": {
+            "quote": "Eight or nine generations ago, humans rose to power and drove the elves out of what would become the realm.",
+            "source_id": "eld_guide",
+            "value": "nine generations ago"
+          },
+          "sources": [
+            {
+              "id": "eld_guide",
+              "title": "Planeswalker's Guide to Eldraine",
+              "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-eldraine-2019-10-31"
+            }
+          ]
+        },
+        {
+          "claim_id": "LC015",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Kellan tells the vampire expedition he came from Eldraine.",
+          "limitation": "He says he came from Eldraine; the passage does not state where he was born.",
+          "relation": "originated_from",
+          "subject": {
+            "id": "character:kellan",
+            "name": "Kellan"
+          },
+          "object": {
+            "id": "plane:eldraine",
+            "name": "Eldraine"
+          },
+          "era_label": "lost_caverns_of_ixalan_lci_2023",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "lci_ep2",
+              "title": "The Lost Caverns of Ixalan | Episode 2",
+              "url": "https://magic.wizards.com/en/news/magic-story/the-lost-caverns-of-ixalan-episode-2"
+            }
+          ]
+        },
+        {
+          "claim_id": "WE010",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Kellan steps through an unfamiliar portal leading somewhere other than Eldraine, hoping to find his father.",
+          "limitation": "",
+          "relation": "left",
+          "subject": {
+            "id": "character:kellan",
+            "name": "Kellan"
+          },
+          "object": {
+            "id": "plane:eldraine",
+            "name": "Eldraine"
+          },
+          "era_label": "woe_epilogue_2023",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "woe_ep5",
+              "title": "Wilds of Eldraine | Episode 5: Broken Oaths",
+              "url": "https://magic.wizards.com/en/news/magic-story/episode-5-broken-oaths"
+            }
+          ]
+        }
+      ],
+      "known_gaps": [
+        "Direct claims are not an exhaustive history of this plane.",
+        "Era labels and publication dates are not a verified sequence or AR calendar year.",
+        "Absence of a cited event or person is not evidence it never occurred or appeared."
+      ]
+    },
+    {
+      "id": "plane:fiora",
+      "plane": "Fiora",
+      "evidence_status": "PARTIAL_DIRECT_GRAPH_CLAIMS_ONLY",
+      "distinct_claims": 4,
+      "facts": [
+        {
+          "claim_id": "UB006",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Dack Fayden comes from Drakeston on Fiora.",
+          "limitation": "",
+          "relation": "originated_from",
+          "subject": {
+            "id": "character:dack_fayden",
+            "name": "Dack Fayden"
+          },
+          "object": {
+            "id": "plane:fiora",
+            "name": "Fiora"
+          },
+          "era_label": "planeswalker_profiles_undated",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "ub_dack",
+              "title": "Dack Fayden | Planeswalker",
+              "url": "https://magic.wizards.com/en/story/dack-fayden-planeswalker"
+            }
+          ]
+        },
+        {
+          "claim_id": "UB007",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Daretti returned to Fiora to reshape the power structures of Paliano.",
+          "limitation": "",
+          "relation": "returned_to",
+          "subject": {
+            "id": "character:daretti",
+            "name": "Daretti"
+          },
+          "object": {
+            "id": "plane:fiora",
+            "name": "Fiora"
+          },
+          "era_label": "planeswalker_profiles_undated",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "ub_daretti",
+              "title": "Daretti | Planeswalker",
+              "url": "https://magic.wizards.com/en/story/daretti-planeswalker"
+            }
+          ]
+        },
+        {
+          "claim_id": "UP004",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Paliano, the High City, is the capital of Fiora.",
+          "limitation": "",
+          "relation": "located_on",
+          "subject": {
+            "id": "place:paliano",
+            "name": "Paliano"
+          },
+          "object": {
+            "id": "plane:fiora",
+            "name": "Fiora"
+          },
+          "era_label": "plane_profiles_undated",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "up_fiora",
+              "title": "Fiora",
+              "url": "https://magic.wizards.com/en/story/fiora-plane"
+            }
+          ]
+        },
+        {
+          "claim_id": "UP005",
+          "grade": "CANON_IMPLIED",
+          "statement": "Selvala was one of the first explorers of Fiora's wilderness frontier.",
+          "limitation": "The object is the Fioran frontier rather than the plane as a whole.",
+          "relation": "travelled_to",
+          "subject": {
+            "id": "character:selvala",
+            "name": "Selvala"
+          },
+          "object": {
+            "id": "plane:fiora",
+            "name": "Fiora"
+          },
+          "era_label": "plane_profiles_undated",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "up_fiora",
+              "title": "Fiora",
+              "url": "https://magic.wizards.com/en/story/fiora-plane"
+            }
+          ]
+        }
+      ],
+      "known_gaps": [
+        "Direct claims are not an exhaustive history of this plane.",
+        "Era labels and publication dates are not a verified sequence or AR calendar year.",
+        "Absence of a cited event or person is not evidence it never occurred or appeared."
+      ]
+    },
+    {
+      "id": "plane:ikoria",
+      "plane": "Ikoria",
+      "evidence_status": "PARTIAL_DIRECT_GRAPH_CLAIMS_ONLY",
+      "distinct_claims": 4,
+      "facts": [
+        {
+          "claim_id": "IK001",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Vivien Reid travelled Ikoria and wrote the guide.",
+          "limitation": "Vivien is the author-narrator, so this is her own account.",
+          "relation": "visited",
+          "subject": {
+            "id": "character:vivien_reid",
+            "name": "Vivien Reid"
+          },
+          "object": {
+            "id": "plane:ikoria",
+            "name": "Ikoria"
+          },
+          "era_label": "ikoria_iko_2020",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "iko_guide",
+              "title": "Planeswalker's Guide to Ikoria",
+              "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-ikoria-2020-04-02"
+            }
+          ]
+        },
+        {
+          "claim_id": "IK002",
+          "grade": "CANON_IMPLIED",
+          "statement": "Vivien says Narset travelled to Ikoria and explained the triomes to her.",
+          "limitation": "The guide is Vivien Reid's first-person travel account; legends she reports are attributed to Rielle.",
+          "relation": "visited",
+          "subject": {
+            "id": "character:narset",
+            "name": "Narset"
+          },
+          "object": {
+            "id": "plane:ikoria",
+            "name": "Ikoria"
+          },
+          "era_label": "ikoria_iko_2020",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "iko_guide",
+              "title": "Planeswalker's Guide to Ikoria",
+              "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-ikoria-2020-04-02"
+            }
+          ]
+        },
+        {
+          "claim_id": "MOM003",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Elesh Norn sends the compleated Lukka to Ikoria to add its monsters to Phyrexia's ranks.",
+          "limitation": "",
+          "relation": "sent_to_invade",
+          "subject": {
+            "id": "character:lukka",
+            "name": "Lukka"
+          },
+          "object": {
+            "id": "plane:ikoria",
+            "name": "Ikoria"
+          },
+          "era_label": "mom_invasion_2023",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "mom_ep01",
+              "title": "March of the Machine | Episode 1: Triumph of the Fleshless",
+              "url": "https://magic.wizards.com/en/news/magic-story/episode-1-triumph-of-the-fleshless"
+            }
+          ]
+        },
+        {
+          "claim_id": "MS002",
+          "grade": "CANON_IMPLIED",
+          "statement": "Jirina Kudro leads the people of Drannith across Ikoria during the Phyrexian invasion.",
+          "limitation": "She leads Drannith's people, not all of Ikoria; the object is the plane for lack of a Drannith node.",
+          "relation": "leads",
+          "subject": {
+            "id": "character:jirina_kudro",
+            "name": "Jirina Kudro"
+          },
+          "object": {
+            "id": "plane:ikoria",
+            "name": "Ikoria"
+          },
+          "era_label": "march_of_the_machine_2023",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "moms_ikoria",
+              "title": "March of the Machine | Ikoria: Survival of the Fittest",
+              "url": "https://magic.wizards.com/en/news/magic-story/survival-of-the-fittest"
+            }
+          ]
+        }
+      ],
+      "known_gaps": [
+        "Direct claims are not an exhaustive history of this plane.",
+        "Era labels and publication dates are not a verified sequence or AR calendar year.",
+        "Absence of a cited event or person is not evidence it never occurred or appeared."
+      ]
+    },
+    {
+      "id": "plane:innistrad",
+      "plane": "Innistrad",
+      "evidence_status": "PARTIAL_DIRECT_GRAPH_CLAIMS_ONLY",
+      "distinct_claims": 8,
+      "facts": [
+        {
+          "claim_id": "IG003",
+          "grade": "CANON_CONFIRMED",
+          "statement": "The Church of Avacyn is humanity's religion on Innistrad.",
+          "limitation": "",
+          "relation": "religion_of",
+          "subject": {
+            "id": "faction:church_of_avacyn",
+            "name": "Church of Avacyn"
+          },
+          "object": {
+            "id": "plane:innistrad",
+            "name": "Innistrad"
+          },
+          "era_label": "innistrad_2011",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "ig_intro",
+              "title": "A Planeswalker's Guide to Innistrad: Introduction",
+              "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-innistrad-introduction-2011-08-24"
+            }
+          ]
+        },
+        {
+          "claim_id": "IG004",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Avacyn went missing, and the church at Thraben hid her disappearance (Innistrad 2011).",
+          "limitation": "",
+          "relation": "disappeared_from",
+          "subject": {
+            "id": "character:avacyn",
+            "name": "Avacyn"
+          },
+          "object": {
+            "id": "plane:innistrad",
+            "name": "Innistrad"
+          },
+          "era_label": "innistrad_2011",
+          "in_universe_date": {
+            "quote": "Ever since Avacyn went missing last year, the church at Thraben has kept the truth of her disappearance from Innistrad's denizens.",
+            "source_id": "ig_kes",
+            "value": "last year"
+          },
+          "sources": [
+            {
+              "id": "ig_kes",
+              "title": "Planeswalker's Guide to Innistrad: Kessig and Werewolves",
+              "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-innistrad-kessig-and-werewolves-2011-10-05"
+            }
+          ]
+        },
+        {
+          "claim_id": "MS004",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Gisa and Geralf turn their creations against the Phyrexians at Havengul.",
+          "limitation": "Havengul's defence, not Innistrad as a whole.",
+          "relation": "defended",
+          "subject": {
+            "id": "character:gisa",
+            "name": "Gisa"
+          },
+          "object": {
+            "id": "plane:innistrad",
+            "name": "Innistrad"
+          },
+          "era_label": "march_of_the_machine_2023",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "moms_innistrad",
+              "title": "March of the Machine | Innistrad: Family Game Night",
+              "url": "https://magic.wizards.com/en/news/magic-story/family-game-night"
+            }
+          ]
+        },
+        {
+          "claim_id": "MV011",
+          "grade": "CANON_CONFIRMED",
+          "statement": "The coven completes the Celestus ritual with the recovered key, and day returns to Innistrad: the first sunrise in months.",
+          "limitation": "",
+          "relation": "restored",
+          "subject": {
+            "id": "faction:dawnhart_coven",
+            "name": "Dawnhart Coven"
+          },
+          "object": {
+            "id": "plane:innistrad",
+            "name": "Innistrad"
+          },
+          "era_label": "vow_aftermath_2021",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "vow_ep5",
+              "title": "Episode 5: Till Death Do Us Part",
+              "url": "https://magic.wizards.com/en/news/magic-story/episode-5-till-death-do-us-part-2021-11-24"
+            }
+          ]
+        },
+        {
+          "claim_id": "RF017",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Tam measures the dimensions of the (Echoverse) plane of Innistrad.",
+          "limitation": "Whether this Innistrad is the original plane or its Echoverse counterpart is not graded.",
+          "relation": "surveyed",
+          "subject": {
+            "id": "character:tam",
+            "name": "Tam (Tamira)"
+          },
+          "object": {
+            "id": "plane:innistrad",
+            "name": "Innistrad"
+          },
+          "era_label": "echoverse_rf_2026",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "rf_ep4",
+              "title": "Reality Fracture | Episode 4: Oh, Sweetie",
+              "url": "https://magic.wizards.com/en/news/magic-story/reality-fracture-episode-4-oh-sweetie"
+            }
+          ]
+        },
+        {
+          "claim_id": "SE028",
+          "grade": "CANON_CONFIRMED",
+          "statement": "With Avacyn dead, Emrakul rose on Innistrad, as Nahiri intended.",
+          "limitation": "The quotes give the outcome; Nahiri's method is told across EMN.",
+          "relation": "arrived_on",
+          "subject": {
+            "id": "character:emrakul",
+            "name": "Emrakul"
+          },
+          "object": {
+            "id": "plane:innistrad",
+            "name": "Innistrad"
+          },
+          "era_label": "innistrad_soi_emn_2016",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "emn_emrakul_rises",
+              "title": "Emrakul Rises",
+              "url": "https://magic.wizards.com/en/news/magic-story/emrakul-rises"
+            }
+          ]
+        },
+        {
+          "claim_id": "UB023",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Sorin Markov's home plane is Innistrad, where he lorded for millennia.",
+          "limitation": "",
+          "relation": "originated_from",
+          "subject": {
+            "id": "character:sorin_markov",
+            "name": "Sorin Markov"
+          },
+          "object": {
+            "id": "plane:innistrad",
+            "name": "Innistrad"
+          },
+          "era_label": "planeswalker_profiles_undated",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "ub_sorin",
+              "title": "Sorin Markov | Planeswalker",
+              "url": "https://magic.wizards.com/en/story/sorin-markov-planeswalker"
+            }
+          ]
+        },
+        {
+          "claim_id": "UB024",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Tibalt was born human on Innistrad and became a half-devil through fiendish magic.",
+          "limitation": "",
+          "relation": "originated_from",
+          "subject": {
+            "id": "character:tibalt",
+            "name": "Tibalt"
+          },
+          "object": {
+            "id": "plane:innistrad",
+            "name": "Innistrad"
+          },
+          "era_label": "planeswalker_profiles_undated",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "ub_tibalt",
+              "title": "Tibalt | Planeswalker",
+              "url": "https://magic.wizards.com/en/story/tibalt-planeswalker"
+            }
+          ]
+        }
+      ],
+      "known_gaps": [
+        "Direct claims are not an exhaustive history of this plane.",
+        "Era labels and publication dates are not a verified sequence or AR calendar year.",
+        "Absence of a cited event or person is not evidence it never occurred or appeared."
+      ]
+    },
+    {
+      "id": "plane:ixalan",
+      "plane": "Ixalan",
+      "evidence_status": "PARTIAL_DIRECT_GRAPH_CLAIMS_ONLY",
+      "distinct_claims": 8,
+      "facts": [
+        {
+          "claim_id": "LC012",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Saheeli was stranded on Ixalan.",
+          "limitation": "",
+          "relation": "stranded_on",
+          "subject": {
+            "id": "character:saheeli",
+            "name": "Saheeli"
+          },
+          "object": {
+            "id": "plane:ixalan",
+            "name": "Ixalan"
+          },
+          "era_label": "lost_caverns_of_ixalan_lci_2023",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "lci_pawns",
+              "title": "The Lost Caverns of Ixalan | Pawns",
+              "url": "https://magic.wizards.com/en/news/magic-story/the-lost-caverns-of-ixalan-pawns"
+            }
+          ]
+        },
+        {
+          "claim_id": "MS003",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Huatli faces the Phyrexian invasion of Ixalan from Pachatupa and Orazca.",
+          "limitation": "",
+          "relation": "defended",
+          "subject": {
+            "id": "character:huatli",
+            "name": "Huatli"
+          },
+          "object": {
+            "id": "plane:ixalan",
+            "name": "Ixalan"
+          },
+          "era_label": "march_of_the_machine_2023",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "moms_ixalan",
+              "title": "March of the Machine | Ixalan: Three Hundred Steps under the Sun",
+              "url": "https://magic.wizards.com/en/news/magic-story/three-hundred-steps-under-the-sun"
+            }
+          ]
+        },
+        {
+          "claim_id": "UB010",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Huatli is a Warrior Poet from Ixalan.",
+          "limitation": "",
+          "relation": "originated_from",
+          "subject": {
+            "id": "character:huatli",
+            "name": "Huatli"
+          },
+          "object": {
+            "id": "plane:ixalan",
+            "name": "Ixalan"
+          },
+          "era_label": "planeswalker_profiles_undated",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "ub_huatli",
+              "title": "Huatli | Planeswalker",
+              "url": "https://magic.wizards.com/en/story/huatli-planeswalker"
+            }
+          ]
+        },
+        {
+          "claim_id": "XLN001",
+          "grade": "CANON_IMPLIED",
+          "statement": "Jace wakes on Ixalan with no memory of who he is.",
+          "limitation": "The episode calls him only 'the man'; identifying him as Jace rests on the episode title ('Jace, Alone') and later episodes.",
+          "relation": "lost_memory_on",
+          "subject": {
+            "id": "character:jace_beleren",
+            "name": "Jace Beleren"
+          },
+          "object": {
+            "id": "plane:ixalan",
+            "name": "Ixalan"
+          },
+          "era_label": "ixalan_immortal_sun_2017",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "xln_jace_alone",
+              "title": "Jace, Alone",
+              "url": "https://magic.wizards.com/en/news/magic-story/jace-alone-2017-09-06"
+            }
+          ]
+        },
+        {
+          "claim_id": "XLN002",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Huatli's spark ignites in a moment of mortal danger.",
+          "limitation": "",
+          "relation": "spark_ignited",
+          "subject": {
+            "id": "character:huatli",
+            "name": "Huatli"
+          },
+          "object": {
+            "id": "plane:ixalan",
+            "name": "Ixalan"
+          },
+          "era_label": "ixalan_immortal_sun_2017",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "xln_question",
+              "title": "A Question of Confidence",
+              "url": "https://magic.wizards.com/en/news/magic-story/question-confidence-2017-09-13"
+            }
+          ]
+        },
+        {
+          "claim_id": "XLN007",
+          "grade": "CANON_IMPLIED",
+          "statement": "An Azorius symbol blocked planeswalking on Ixalan; the Immortal Sun is described as an artifact that imprisons Planeswalkers, and it and the barrier vanish together.",
+          "limitation": "Each quote is a character's observation or speculation ('Perhaps they were one and the same'); no narration states the mechanism.",
+          "relation": "blocked_planeswalking_on",
+          "subject": {
+            "id": "artifact:immortal_sun",
+            "name": "Immortal Sun"
+          },
+          "object": {
+            "id": "plane:ixalan",
+            "name": "Ixalan"
+          },
+          "era_label": "ixalan_immortal_sun_2017",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "rix_arbiter",
+              "title": "The Arbiter of Law Left Chaos in His Wake",
+              "url": "https://magic.wizards.com/en/news/magic-story/arbiter-law-left-chaos-his-wake-2018-01-24"
+            },
+            {
+              "id": "rix_glimpse",
+              "title": "Glimpse the Far Side of the Sun",
+              "url": "https://magic.wizards.com/en/news/magic-story/glimpse-far-side-sun-2018-01-17"
+            },
+            {
+              "id": "rix_who_tells",
+              "title": "Who Tells the Stories",
+              "url": "https://magic.wizards.com/en/news/magic-story/who-tells-stories-2018-02-07"
+            }
+          ]
+        },
+        {
+          "claim_id": "XLN012",
+          "grade": "CANON_CONFIRMED",
+          "statement": "With the Immortal Sun gone, Angrath planeswalks away from Ixalan.",
+          "limitation": "",
+          "relation": "left",
+          "subject": {
+            "id": "character:angrath",
+            "name": "Angrath"
+          },
+          "object": {
+            "id": "plane:ixalan",
+            "name": "Ixalan"
+          },
+          "era_label": "ixalan_immortal_sun_2017",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "rix_who_tells",
+              "title": "Who Tells the Stories",
+              "url": "https://magic.wizards.com/en/news/magic-story/who-tells-stories-2018-02-07"
+            }
+          ]
+        },
+        {
+          "claim_id": "XLN018",
+          "grade": "CANON_CONFIRMED",
+          "statement": "The Legion of Dusk seeks to conquer Ixalan.",
+          "limitation": "",
+          "relation": "seeks_to_conquer",
+          "subject": {
+            "id": "faction:legion_of_dusk",
+            "name": "Legion of Dusk"
+          },
+          "object": {
+            "id": "plane:ixalan",
+            "name": "Ixalan"
+          },
+          "era_label": "ixalan_immortal_sun_2017",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "xln_plane",
+              "title": "Ixalan",
+              "url": "https://magic.wizards.com/en/story/ixalan-plane"
+            }
+          ]
+        }
+      ],
+      "known_gaps": [
+        "Direct claims are not an exhaustive history of this plane.",
+        "Era labels and publication dates are not a verified sequence or AR calendar year.",
+        "Absence of a cited event or person is not evidence it never occurred or appeared."
+      ]
+    },
+    {
+      "id": "plane:kaladesh",
+      "plane": "Kaladesh",
+      "evidence_status": "PARTIAL_DIRECT_GRAPH_CLAIMS_ONLY",
+      "distinct_claims": 5,
+      "facts": [
+        {
+          "claim_id": "DF014",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Avishkar (the renamed Kaladesh) sees Ravnica as its chief multiversal rival.",
+          "limitation": "Avishkar is modelled on the existing kaladesh plane node; the guide calls it a rival, 'not as an enemy (yet)'.",
+          "relation": "rival_of",
+          "subject": {
+            "id": "plane:kaladesh",
+            "name": "Kaladesh"
+          },
+          "object": {
+            "id": "plane:ravnica",
+            "name": "Ravnica"
+          },
+          "era_label": "aetherdrift_dft_2024_2025",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "dft_guide1",
+              "title": "Planeswalker's Guide to Aetherdrift, Part 1",
+              "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-aetherdrift-part-1"
+            },
+            {
+              "id": "dft_guide2",
+              "title": "Planeswalker's Guide to Aetherdrift, Part 2",
+              "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-aetherdrift-part-2"
+            }
+          ]
+        },
+        {
+          "claim_id": "KLD002",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Chandra returns to her home plane of Kaladesh without consulting the rest of the Gatewatch.",
+          "limitation": "",
+          "relation": "returned_to",
+          "subject": {
+            "id": "character:chandra_nalaar",
+            "name": "Chandra Nalaar"
+          },
+          "object": {
+            "id": "plane:kaladesh",
+            "name": "Kaladesh"
+          },
+          "era_label": "kaladesh_revolt_2016",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "kld_torch",
+              "title": "Torch of Defiance",
+              "url": "https://magic.wizards.com/en/news/magic-story/torch-defiance-2016-09-07"
+            }
+          ]
+        },
+        {
+          "claim_id": "KLD010",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Planeswalker's Guide: Kaladesh's bright existence depends on visible, tangible aether.",
+          "limitation": "",
+          "relation": "sustains",
+          "subject": {
+            "id": "concept:aether_kaladesh",
+            "name": "Aether (Kaladesh)"
+          },
+          "object": {
+            "id": "plane:kaladesh",
+            "name": "Kaladesh"
+          },
+          "era_label": "setting",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "kld_guide",
+              "title": "Planeswalker's Guide to Kaladesh",
+              "url": "https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-kaladesh-2016-11-02"
+            }
+          ]
+        },
+        {
+          "claim_id": "UP002",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Kaladesh has been reborn as Avishkar and is governed by the Avishkar Assembly.",
+          "limitation": "The profile reflects the plane after the Consulate fell; the relation is plane-to-government.",
+          "relation": "identified_with",
+          "subject": {
+            "id": "plane:kaladesh",
+            "name": "Kaladesh"
+          },
+          "object": {
+            "id": "faction:avishkar_assembly",
+            "name": "Avishkar Assembly"
+          },
+          "era_label": "plane_profiles_undated",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "up_avishkar",
+              "title": "Avishkar",
+              "url": "https://magic.wizards.com/en/story/avishkar-plane"
+            }
+          ]
+        },
+        {
+          "claim_id": "XLN013",
+          "grade": "CANON_CONFIRMED",
+          "statement": "On her first planeswalk, Huatli meets Saheeli Rai on Kaladesh.",
+          "limitation": "",
+          "relation": "met",
+          "subject": {
+            "id": "character:huatli",
+            "name": "Huatli"
+          },
+          "object": {
+            "id": "plane:kaladesh",
+            "name": "Kaladesh"
+          },
+          "era_label": "ixalan_immortal_sun_2017",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "rix_wool",
+              "title": "Wool Over the Eyes",
+              "url": "https://magic.wizards.com/en/news/magic-story/wool-over-eyes-2018-02-14"
+            }
+          ]
+        }
+      ],
+      "known_gaps": [
+        "Direct claims are not an exhaustive history of this plane.",
+        "Era labels and publication dates are not a verified sequence or AR calendar year.",
+        "Absence of a cited event or person is not evidence it never occurred or appeared."
+      ]
+    },
+    {
+      "id": "plane:kaldheim",
+      "plane": "Kaldheim",
+      "evidence_status": "PARTIAL_DIRECT_GRAPH_CLAIMS_ONLY",
+      "distinct_claims": 4,
+      "facts": [
+        {
+          "claim_id": "DS008",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Tyvar Kell is an elf prince of Kaldheim.",
+          "limitation": "",
+          "relation": "related_to",
+          "subject": {
+            "id": "character:tyvar",
+            "name": "Tyvar Kell"
+          },
+          "object": {
+            "id": "plane:kaldheim",
+            "name": "Kaldheim"
+          },
+          "era_label": "duskmourn_dsk_2024",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "dsk_ep1",
+              "title": "Duskmourn: House of Horror | Episode 1: Don't Go Past the Old Dark House",
+              "url": "https://magic.wizards.com/en/news/magic-story/episode-one-dont-go-past-the-old-dark-house"
+            }
+          ]
+        },
+        {
+          "claim_id": "KH013",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Vorinclex of New Phyrexia came to Kaldheim, and in the epilogue a portal welcomes him back.",
+          "limitation": "Who greets him is not named here.",
+          "relation": "arrived_on",
+          "subject": {
+            "id": "character:vorinclex",
+            "name": "Vorinclex"
+          },
+          "object": {
+            "id": "plane:kaldheim",
+            "name": "Kaldheim"
+          },
+          "era_label": "khm_epilogue_2021",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "khm_ep5",
+              "title": "Episode 5: The Battle for Kaldheim",
+              "url": "https://magic.wizards.com/en/news/magic-story/episode-5-battle-kaldheim-2021-02-03"
+            },
+            {
+              "id": "khm_legends",
+              "title": "The Legends of Kaldheim",
+              "url": "https://magic.wizards.com/en/news/feature/legends-kaldheim-2021-01-21"
+            }
+          ]
+        },
+        {
+          "claim_id": "KH023",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Niko Aris is on Kaldheim, in a longhall of warriors.",
+          "limitation": "",
+          "relation": "visited",
+          "subject": {
+            "id": "character:niko_aris",
+            "name": "Niko Aris"
+          },
+          "object": {
+            "id": "plane:kaldheim",
+            "name": "Kaldheim"
+          },
+          "era_label": "kaldheim_khm_2021",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "khm_wind",
+              "title": "Know Which Way the Wind Is Blowing",
+              "url": "https://magic.wizards.com/en/news/magic-story/know-which-way-wind-blowing-2021-01-08"
+            }
+          ]
+        },
+        {
+          "claim_id": "UB025",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Tyvar Kell is the younger brother of the elf king of Kaldheim.",
+          "limitation": "The profile does not name the king.",
+          "relation": "originated_from",
+          "subject": {
+            "id": "character:tyvar",
+            "name": "Tyvar Kell"
+          },
+          "object": {
+            "id": "plane:kaldheim",
+            "name": "Kaldheim"
+          },
+          "era_label": "planeswalker_profiles_undated",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "ub_tyvar",
+              "title": "Tyvar Kell | Planeswalker",
+              "url": "https://magic.wizards.com/en/story/tyvar-kell-planeswalker"
+            }
+          ]
+        }
+      ],
+      "known_gaps": [
+        "Direct claims are not an exhaustive history of this plane.",
+        "Era labels and publication dates are not a verified sequence or AR calendar year.",
+        "Absence of a cited event or person is not evidence it never occurred or appeared."
+      ]
+    },
+    {
+      "id": "plane:kamigawa",
+      "plane": "Kamigawa",
+      "evidence_status": "PARTIAL_DIRECT_GRAPH_CLAIMS_ONLY",
+      "distinct_claims": 3,
+      "facts": [
+        {
+          "claim_id": "MOM004",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Elesh Norn commands the compleated Tamiyo to bring Kamigawa under Phyrexian control.",
+          "limitation": "The addressee is identified by the preceding paragraphs ('Tamiyo,' Norn repeats), not inside the quote.",
+          "relation": "sent_to_invade",
+          "subject": {
+            "id": "character:tamiyo",
+            "name": "Tamiyo"
+          },
+          "object": {
+            "id": "plane:kamigawa",
+            "name": "Kamigawa"
+          },
+          "era_label": "mom_invasion_2023",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "mom_ep01",
+              "title": "March of the Machine | Episode 1: Triumph of the Fleshless",
+              "url": "https://magic.wizards.com/en/news/magic-story/episode-1-triumph-of-the-fleshless"
+            }
+          ]
+        },
+        {
+          "claim_id": "NEO009",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Kyodai is the guardian spirit of Kamigawa, with its main shrine in the Imperial Palace; it speaks through the emperor.",
+          "limitation": "",
+          "relation": "guardian_of",
+          "subject": {
+            "id": "character:kyodai",
+            "name": "Kyodai"
+          },
+          "object": {
+            "id": "plane:kamigawa",
+            "name": "Kamigawa"
+          },
+          "era_label": "kamigawa_neon_dynasty_2022",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "neo_ep1",
+              "title": "Episode 1: A Stranger in Eiganjo",
+              "url": "https://magic.wizards.com/en/news/magic-story/episode-1-stranger-eiganjo-2022-01-24"
+            },
+            {
+              "id": "neo_guide",
+              "title": "Planeswalker's Guide to Kamigawa: Neon Dynasty",
+              "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-kamigawa-neon-dynasty-2022-02-03"
+            }
+          ]
+        },
+        {
+          "claim_id": "UB013",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Kaito Shizuki's home plane is Kamigawa.",
+          "limitation": "",
+          "relation": "originated_from",
+          "subject": {
+            "id": "character:kaito",
+            "name": "Kaito Shizuki"
+          },
+          "object": {
+            "id": "plane:kamigawa",
+            "name": "Kamigawa"
+          },
+          "era_label": "planeswalker_profiles_undated",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "ub_kaito",
+              "title": "Kaito Shizuki | Planeswalker",
+              "url": "https://magic.wizards.com/en/story/kaito-shizuki-planeswalker"
+            }
+          ]
+        }
+      ],
+      "known_gaps": [
+        "Direct claims are not an exhaustive history of this plane.",
+        "Era labels and publication dates are not a verified sequence or AR calendar year.",
+        "Absence of a cited event or person is not evidence it never occurred or appeared."
+      ]
+    },
+    {
+      "id": "plane:lorwyn_shadowmoor",
+      "plane": "Lorwyn-Shadowmoor",
+      "evidence_status": "PARTIAL_DIRECT_GRAPH_CLAIMS_ONLY",
+      "distinct_claims": 3,
+      "facts": [
+        {
+          "claim_id": "EC005",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Eclipsed realms are pockets of a third state, neither light nor shadow, where Lorwyn and Shadowmoor meet.",
+          "limitation": "",
+          "relation": "located_on",
+          "subject": {
+            "id": "place:eclipsed_realms",
+            "name": "The eclipsed realms"
+          },
+          "object": {
+            "id": "plane:lorwyn_shadowmoor",
+            "name": "Lorwyn-Shadowmoor"
+          },
+          "era_label": "lorwyn_eclipsed_2025",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "ecl_guide",
+              "title": "Planeswalker's Guide to Lorwyn Eclipsed",
+              "url": "https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-to-lorwyn-eclipsed"
+            }
+          ]
+        },
+        {
+          "claim_id": "EC016",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Maralen, originally an avatar of Oona, is steward of Lorwyn-Shadowmoor alongside Eirdu and Isilu.",
+          "limitation": "",
+          "relation": "steward_of",
+          "subject": {
+            "id": "character:maralen",
+            "name": "Maralen"
+          },
+          "object": {
+            "id": "plane:lorwyn_shadowmoor",
+            "name": "Lorwyn-Shadowmoor"
+          },
+          "era_label": "lorwyn_eclipsed_2025",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "ecl_legends",
+              "title": "The Legends of Lorwyn Eclipsed",
+              "url": "https://magic.wizards.com/en/news/magic-story/the-legends-of-lorwyn-eclipsed"
+            }
+          ]
+        },
+        {
+          "claim_id": "UP014",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Oona, queen of the faeries, caused the transformation of Lorwyn into Shadowmoor.",
+          "limitation": "The page says she caused the transformation; it does not describe how.",
+          "relation": "cursed",
+          "subject": {
+            "id": "character:oona",
+            "name": "Oona"
+          },
+          "object": {
+            "id": "plane:lorwyn_shadowmoor",
+            "name": "Lorwyn-Shadowmoor"
+          },
+          "era_label": "plane_profiles_undated",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "up_lorwyn",
+              "title": "Lorwyn & Shadowmoor",
+              "url": "https://magic.wizards.com/en/story/lorwyn-and-shadowmoor-plane"
+            }
+          ]
+        }
+      ],
+      "known_gaps": [
+        "Direct claims are not an exhaustive history of this plane.",
+        "Era labels and publication dates are not a verified sequence or AR calendar year.",
+        "Absence of a cited event or person is not evidence it never occurred or appeared."
+      ]
+    },
+    {
+      "id": "plane:meditation_realm",
+      "plane": "Meditation Realm",
+      "evidence_status": "PARTIAL_DIRECT_GRAPH_CLAIMS_ONLY",
+      "distinct_claims": 3,
+      "facts": [
+        {
+          "claim_id": "A009",
+          "grade": "CANON_CONFIRMED",
+          "statement": "The Meditation Realm prison fails during Tarkir: Dragonstorm, freeing Bolas; the later Lorwyn story confirms he escaped.",
+          "limitation": "An escape is not evidence that he recovered his planeswalker spark or arrived at a particular destination.",
+          "relation": "escaped",
+          "subject": {
+            "id": "character:nicol_bolas",
+            "name": "Nicol Bolas"
+          },
+          "object": {
+            "id": "plane:meditation_realm",
+            "name": "Meditation Realm"
+          },
+          "era_label": "dragonstorm_escape",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "lorwyn2",
+              "title": "Lorwyn Eclipsed | Episode 2: Shake Off Slumber",
+              "url": "https://magic.wizards.com/en/news/magic-story/lorwyn-eclipsed-episode-2-shake-off-slumber"
+            },
+            {
+              "id": "tdm7",
+              "title": "Tarkir: Dragonstorm | Episode 7: Return",
+              "url": "https://magic.wizards.com/en/news/magic-story/tarkir-dragonstorm-episode-7-return"
+            }
+          ]
+        },
+        {
+          "claim_id": "RF013",
+          "grade": "CANON_IMPLIED",
+          "statement": "The Planeswalker's Guide's in-universe narrator says Jace was unmade in the Meditation Realm and the new reality was built from there.",
+          "limitation": "The guide is written in an in-universe first-person plural voice, so its account is point-of-view.",
+          "relation": "related_to",
+          "subject": {
+            "id": "character:jace_beleren",
+            "name": "Jace Beleren"
+          },
+          "object": {
+            "id": "plane:meditation_realm",
+            "name": "Meditation Realm"
+          },
+          "era_label": "echoverse_rf_2026",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "rf_guide",
+              "title": "Planeswalker's Guide to Reality Fracture",
+              "url": "https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-to-reality-fracture"
+            }
+          ]
+        },
+        {
+          "claim_id": "TD021",
+          "grade": "CANON_IMPLIED",
+          "statement": "Thanks to Loot, Jace and Vraska know the Omenpath route to Tarkir and from there to the Meditation Realm.",
+          "limitation": "That the Meditation Realm is Jace's goal is inferred from this route.",
+          "relation": "sought",
+          "subject": {
+            "id": "character:jace_beleren",
+            "name": "Jace Beleren"
+          },
+          "object": {
+            "id": "plane:meditation_realm",
+            "name": "Meditation Realm"
+          },
+          "era_label": "tarkir_dragonstorm_2025",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "tdm_e6",
+              "title": "Tarkir: Dragonstorm | Episode 6: How Wretched Love",
+              "url": "https://magic.wizards.com/en/news/magic-story/tarkir-dragonstorm-episode-6-how-wretched-love"
+            }
+          ]
+        }
+      ],
+      "known_gaps": [
+        "Direct claims are not an exhaustive history of this plane.",
+        "Era labels and publication dates are not a verified sequence or AR calendar year.",
+        "Absence of a cited event or person is not evidence it never occurred or appeared."
+      ]
+    },
+    {
+      "id": "plane:mirrodin",
+      "plane": "Mirrodin / New Phyrexia",
+      "evidence_status": "PARTIAL_DIRECT_GRAPH_CLAIMS_ONLY",
+      "distinct_claims": 9,
+      "facts": [
+        {
+          "claim_id": "C005",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Karn created Mirrodin, an independent metallic plane with five colored suns.",
+          "limitation": "",
+          "relation": "created",
+          "subject": {
+            "id": "character:karn",
+            "name": "Karn"
+          },
+          "object": {
+            "id": "plane:mirrodin",
+            "name": "Mirrodin / New Phyrexia"
+          },
+          "era_label": "post_invasion",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "c_karn_profile",
+              "title": "Karn (Planeswalker profile)",
+              "url": "https://magic.wizards.com/en/story/karn-planeswalker"
+            },
+            {
+              "id": "c_pwg_one",
+              "title": "Planeswalker's Guide to Phyrexia: All Will Be One",
+              "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-phyrexia-all-will-be-one"
+            }
+          ]
+        },
+        {
+          "claim_id": "C007",
+          "grade": "CANON_CONFIRMED",
+          "statement": "The oil slowly corrupted Mirrodin from the inside out; Mirrans became Phyrexians and the plane became New Phyrexia.",
+          "limitation": "Scars of Mirrodin story chronology is summarized, not ingested episode by episode.",
+          "relation": "corrupted",
+          "subject": {
+            "id": "concept:glistening_oil",
+            "name": "Glistening oil"
+          },
+          "object": {
+            "id": "plane:mirrodin",
+            "name": "Mirrodin / New Phyrexia"
+          },
+          "era_label": "new_phyrexia",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "c_pwg_one",
+              "title": "Planeswalker's Guide to Phyrexia: All Will Be One",
+              "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-phyrexia-all-will-be-one"
+            }
+          ]
+        },
+        {
+          "claim_id": "NP001",
+          "grade": "CANON_CONFIRMED",
+          "statement": "The plane was once named Argentum, then Mirrodin, and now bears a third name (New Phyrexia).",
+          "limitation": "",
+          "relation": "formerly_named",
+          "subject": {
+            "id": "plane:mirrodin",
+            "name": "Mirrodin / New Phyrexia"
+          },
+          "object": {
+            "id": "plane:argentum",
+            "name": "Argentum"
+          },
+          "era_label": "new_phyrexia_2011",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "np_intro",
+              "title": "A Planeswalker's Guide to New Phyrexia: Introduction",
+              "url": "https://magic.wizards.com/en/news/feature/a-planeswalkers-guide-to-new-phyrexia-introduction"
+            }
+          ]
+        },
+        {
+          "claim_id": "NP002",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Mirrodin was remade and renamed New Phyrexia, its third name.",
+          "limitation": "The quote does not spell the name; the guide's title gives it.",
+          "relation": "formerly_named",
+          "subject": {
+            "id": "plane:new_phyrexia",
+            "name": "New Phyrexia"
+          },
+          "object": {
+            "id": "plane:mirrodin",
+            "name": "Mirrodin / New Phyrexia"
+          },
+          "era_label": "new_phyrexia_2011",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "np_intro",
+              "title": "A Planeswalker's Guide to New Phyrexia: Introduction",
+              "url": "https://magic.wizards.com/en/news/feature/a-planeswalkers-guide-to-new-phyrexia-introduction"
+            }
+          ]
+        },
+        {
+          "claim_id": "ONE018",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Koth is a born Mirran.",
+          "limitation": "",
+          "relation": "native_of",
+          "subject": {
+            "id": "character:koth",
+            "name": "Koth"
+          },
+          "object": {
+            "id": "plane:mirrodin",
+            "name": "Mirrodin / New Phyrexia"
+          },
+          "era_label": "one_strike_2023",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "one_ep4",
+              "title": "Assault on New Phyrexia | Episode 4: Impossible Odds",
+              "url": "https://magic.wizards.com/en/news/magic-story/assault-on-new-phyrexia-or-episode-4-impossible-odds"
+            }
+          ]
+        },
+        {
+          "claim_id": "ONE019",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Melira is a born Mirran.",
+          "limitation": "",
+          "relation": "native_of",
+          "subject": {
+            "id": "character:melira",
+            "name": "Melira"
+          },
+          "object": {
+            "id": "plane:mirrodin",
+            "name": "Mirrodin / New Phyrexia"
+          },
+          "era_label": "one_strike_2023",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "one_ep4",
+              "title": "Assault on New Phyrexia | Episode 4: Impossible Odds",
+              "url": "https://magic.wizards.com/en/news/magic-story/assault-on-new-phyrexia-or-episode-4-impossible-odds"
+            }
+          ]
+        },
+        {
+          "claim_id": "UP016",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Karn created Mirrodin, originally called Argentum.",
+          "limitation": "",
+          "relation": "created",
+          "subject": {
+            "id": "character:karn",
+            "name": "Karn"
+          },
+          "object": {
+            "id": "plane:mirrodin",
+            "name": "Mirrodin / New Phyrexia"
+          },
+          "era_label": "plane_profiles_undated",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "up_mirrodin",
+              "title": "Mirrodin",
+              "url": "https://magic.wizards.com/en/story/mirrodin-plane"
+            },
+            {
+              "id": "up_nph",
+              "title": "New Phyrexia",
+              "url": "https://magic.wizards.com/en/story/new-phyrexia-plane"
+            }
+          ]
+        },
+        {
+          "claim_id": "UP024",
+          "grade": "CANON_CONFIRMED",
+          "statement": "The Phyrexians compleated Mirrodin and overwhelmed the Mirrans.",
+          "limitation": "",
+          "relation": "invaded",
+          "subject": {
+            "id": "faction:phyrexians",
+            "name": "The Phyrexians"
+          },
+          "object": {
+            "id": "plane:mirrodin",
+            "name": "Mirrodin / New Phyrexia"
+          },
+          "era_label": "plane_profiles_undated",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "up_nph",
+              "title": "New Phyrexia",
+              "url": "https://magic.wizards.com/en/story/new-phyrexia-plane"
+            }
+          ]
+        },
+        {
+          "claim_id": "WSM007",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Karn created Mirrodin (as of 2008).",
+          "limitation": "",
+          "relation": "created",
+          "subject": {
+            "id": "character:karn",
+            "name": "Karn"
+          },
+          "object": {
+            "id": "plane:mirrodin",
+            "name": "Mirrodin / New Phyrexia"
+          },
+          "era_label": "worldsoul_ravnica_2019_known_multiverse_2008_orzhov_feature_2013",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "km",
+              "title": "The Known Mutliverse",
+              "url": "https://magic.wizards.com/en/news/feature/known-mutliverse-2008-03-19"
+            }
+          ]
+        }
+      ],
+      "known_gaps": [
+        "Direct claims are not an exhaustive history of this plane.",
+        "Era labels and publication dates are not a verified sequence or AR calendar year.",
+        "Absence of a cited event or person is not evidence it never occurred or appeared."
+      ]
+    },
+    {
+      "id": "plane:muraganda",
+      "plane": "Muraganda",
+      "evidence_status": "PARTIAL_DIRECT_GRAPH_CLAIMS_ONLY",
+      "distinct_claims": 1,
+      "facts": [
+        {
+          "claim_id": "DF024",
+          "grade": "CANON_IMPLIED",
+          "statement": "The Telu-Set's stronghold Mon'Telu lies on Muraganda.",
+          "limitation": "The story is set on Muraganda; Mon'Telu's location is inferred from the setting.",
+          "relation": "located_on",
+          "subject": {
+            "id": "faction:telu_set",
+            "name": "Telu-Set"
+          },
+          "object": {
+            "id": "plane:muraganda",
+            "name": "Muraganda"
+          },
+          "era_label": "aetherdrift_dft_2024_2025",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "dft_beast",
+              "title": "Aetherdrift | Like No Other Beast",
+              "url": "https://magic.wizards.com/en/news/magic-story/aetherdrift-like-no-other-beast"
+            }
+          ]
+        }
+      ],
+      "known_gaps": [
+        "Direct claims are not an exhaustive history of this plane.",
+        "Era labels and publication dates are not a verified sequence or AR calendar year.",
+        "Absence of a cited event or person is not evidence it never occurred or appeared."
+      ]
+    },
+    {
+      "id": "plane:new_capenna",
+      "plane": "New Capenna",
+      "evidence_status": "PARTIAL_DIRECT_GRAPH_CLAIMS_ONLY",
+      "distinct_claims": 2,
+      "facts": [
+        {
+          "claim_id": "MOM007",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Norn assigns Atraxa to destroy New Capenna, and Atraxa leads the Phyrexian forces there.",
+          "limitation": "",
+          "relation": "led_invasion_of",
+          "subject": {
+            "id": "character:atraxa",
+            "name": "Atraxa"
+          },
+          "object": {
+            "id": "plane:new_capenna",
+            "name": "New Capenna"
+          },
+          "era_label": "mom_invasion_2023",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "mom_ep01",
+              "title": "March of the Machine | Episode 1: Triumph of the Fleshless",
+              "url": "https://magic.wizards.com/en/news/magic-story/episode-1-triumph-of-the-fleshless"
+            },
+            {
+              "id": "mom_ep04",
+              "title": "March of the Machine | Episode 4: Beneath Eyes Unblinking",
+              "url": "https://magic.wizards.com/en/news/magic-story/episode-4-beneath-eyes-unblinking"
+            }
+          ]
+        },
+        {
+          "claim_id": "MS008",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Atraxa leads the conversion of New Capenna; Park Heights falls.",
+          "limitation": "Stated by characters in dialogue.",
+          "relation": "invaded",
+          "subject": {
+            "id": "character:atraxa",
+            "name": "Atraxa"
+          },
+          "object": {
+            "id": "plane:new_capenna",
+            "name": "New Capenna"
+          },
+          "era_label": "march_of_the_machine_2023",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "moms_capenna",
+              "title": "March of the Machine | New Capenna: The Fall of Park Heights",
+              "url": "https://magic.wizards.com/en/news/magic-story/the-fall-of-park-heights"
+            }
+          ]
+        }
+      ],
+      "known_gaps": [
+        "Direct claims are not an exhaustive history of this plane.",
+        "Era labels and publication dates are not a verified sequence or AR calendar year.",
+        "Absence of a cited event or person is not evidence it never occurred or appeared."
+      ]
+    },
+    {
+      "id": "plane:new_phyrexia",
+      "plane": "New Phyrexia",
+      "evidence_status": "PARTIAL_DIRECT_GRAPH_CLAIMS_ONLY",
+      "distinct_claims": 4,
+      "facts": [
+        {
+          "claim_id": "MOM016",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Zhalfir's armies meet the New Phyrexian forces at the portal.",
+          "limitation": "",
+          "relation": "fought",
+          "subject": {
+            "id": "place:zhalfir",
+            "name": "Zhalfir"
+          },
+          "object": {
+            "id": "plane:new_phyrexia",
+            "name": "New Phyrexia"
+          },
+          "era_label": "mom_invasion_2023",
+          "in_universe_date": {
+            "quote": "It has been many years since they were called to war—but Zhalfir stands ready.",
+            "source_id": "mom_ep08",
+            "value": "many years"
+          },
+          "sources": [
+            {
+              "id": "mom_ep08",
+              "title": "March of the Machine | Episode 8: Wrenn and Eight",
+              "url": "https://magic.wizards.com/en/news/magic-story/episode-8-wrenn-and-eight"
+            }
+          ]
+        },
+        {
+          "claim_id": "NP002",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Mirrodin was remade and renamed New Phyrexia, its third name.",
+          "limitation": "The quote does not spell the name; the guide's title gives it.",
+          "relation": "formerly_named",
+          "subject": {
+            "id": "plane:new_phyrexia",
+            "name": "New Phyrexia"
+          },
+          "object": {
+            "id": "plane:mirrodin",
+            "name": "Mirrodin / New Phyrexia"
+          },
+          "era_label": "new_phyrexia_2011",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "np_intro",
+              "title": "A Planeswalker's Guide to New Phyrexia: Introduction",
+              "url": "https://magic.wizards.com/en/news/feature/a-planeswalkers-guide-to-new-phyrexia-introduction"
+            }
+          ]
+        },
+        {
+          "claim_id": "NP009",
+          "grade": "CANON_IMPLIED",
+          "statement": "Yawgmoth led the earlier Phyrexian civilization, in the past era before New Phyrexia.",
+          "limitation": "The quote contrasts New Phyrexia with the former Phyrexia led by Yawgmoth; object is the civilization, not the plane.",
+          "relation": "led",
+          "subject": {
+            "id": "character:yawgmoth",
+            "name": "Yawgmoth"
+          },
+          "object": {
+            "id": "plane:new_phyrexia",
+            "name": "New Phyrexia"
+          },
+          "era_label": "new_phyrexia_2011",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "np_ortho",
+              "title": "A Planeswalker's Guide to New Phyrexia: The Machine Orthodoxy",
+              "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-new-phyrexia-machine-orthodoxy-2011-04-06"
+            }
+          ]
+        },
+        {
+          "claim_id": "RTD021",
+          "grade": "CANON_DISPUTED",
+          "statement": "Ajani tells Jhoira the Phyrexians are contained on one fallen plane; Jaya doubts the common belief that they are no longer a threat.",
+          "limitation": "These are in-story assessments; later official stories show a Phyrexian threat to Dominaria.",
+          "relation": "assessed",
+          "subject": {
+            "id": "character:ajani",
+            "name": "Ajani"
+          },
+          "object": {
+            "id": "plane:new_phyrexia",
+            "name": "New Phyrexia"
+          },
+          "era_label": "rtd_2018",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "rtd_ep5",
+              "title": "Return to Dominaria: Episode 5",
+              "url": "https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-5-2018-04-11"
+            },
+            {
+              "id": "rtd_ep9",
+              "title": "Return to Dominaria: Episode 9",
+              "url": "https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-9-2018-05-09"
+            }
+          ]
+        }
+      ],
+      "known_gaps": [
+        "Direct claims are not an exhaustive history of this plane.",
+        "Era labels and publication dates are not a verified sequence or AR calendar year.",
+        "Absence of a cited event or person is not evidence it never occurred or appeared."
+      ]
+    },
+    {
+      "id": "plane:old_phyrexia",
+      "plane": "Phyrexia",
+      "evidence_status": "PARTIAL_DIRECT_GRAPH_CLAIMS_ONLY",
+      "distinct_claims": 8,
+      "facts": [
+        {
+          "claim_id": "B006",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Mishra was corrupted by the Phyrexians (cards: Mishra, Claimed by Gix; Mishra, Lost to Phyrexia); Tawnos says he was turned by 'that creature' and fused with a machine.",
+          "limitation": "The design article and dialogue do not narrate the full mechanism of corruption.",
+          "relation": "corrupted_by",
+          "subject": {
+            "id": "character:mishra",
+            "name": "Mishra"
+          },
+          "object": {
+            "id": "plane:old_phyrexia",
+            "name": "Phyrexia"
+          },
+          "era_label": "brothers_war",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "bro_card_stories_1",
+              "title": "Making Magic | The Brothers' War Card Stories, Part 1",
+              "url": "https://magic.wizards.com/en/news/making-magic/the-brothers-war-card-stories-part-1"
+            },
+            {
+              "id": "bro_ep1",
+              "title": "The Brothers' War | Episode 1: The End",
+              "url": "https://magic.wizards.com/en/news/magic-story/the-brothers-war-episode-1-the-end"
+            }
+          ]
+        },
+        {
+          "claim_id": "B013",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Urza's obsession with Dominaria's history led to a millennia-long vendetta against Yawgmoth and Phyrexia.",
+          "limitation": "",
+          "relation": "vendetta_against",
+          "subject": {
+            "id": "character:urza",
+            "name": "Urza"
+          },
+          "object": {
+            "id": "plane:old_phyrexia",
+            "name": "Phyrexia"
+          },
+          "era_label": "post_war",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "urza_profile",
+              "title": "Urza | Planeswalker",
+              "url": "https://magic.wizards.com/en/story/urza-planeswalker"
+            }
+          ]
+        },
+        {
+          "claim_id": "C009",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Yawgmoth planeswalked to Old Phyrexia and installed himself as its new ruler, the Father of Machines.",
+          "limitation": "",
+          "relation": "ruled",
+          "subject": {
+            "id": "character:yawgmoth",
+            "name": "Yawgmoth"
+          },
+          "object": {
+            "id": "plane:old_phyrexia",
+            "name": "Phyrexia"
+          },
+          "era_label": "pre_brothers_war",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "c_pwg_one",
+              "title": "Planeswalker's Guide to Phyrexia: All Will Be One",
+              "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-phyrexia-all-will-be-one"
+            }
+          ]
+        },
+        {
+          "claim_id": "C010",
+          "grade": "OPEN_QUESTION",
+          "statement": "Old Phyrexia was an artificial plane created by an unknown Planeswalker; the creator is not identified.",
+          "limitation": "Do not name a creator from non-Wizards sources.",
+          "relation": "created_by",
+          "subject": {
+            "id": "plane:old_phyrexia",
+            "name": "Phyrexia"
+          },
+          "object": {
+            "id": "literal:unknown_planeswalker",
+            "name": "unknown_planeswalker"
+          },
+          "era_label": "origin",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "c_pwg_one",
+              "title": "Planeswalker's Guide to Phyrexia: All Will Be One",
+              "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-phyrexia-all-will-be-one"
+            }
+          ]
+        },
+        {
+          "claim_id": "C013",
+          "grade": "CANON_IMPLIED",
+          "statement": "Old Phyrexia was destroyed after Yawgmoth's defeat.",
+          "limitation": "The guide states Old Phyrexia was destroyed but does not explicitly tie the destruction to the same battle.",
+          "relation": "destroyed_in",
+          "subject": {
+            "id": "plane:old_phyrexia",
+            "name": "Phyrexia"
+          },
+          "object": {
+            "id": "event:first_phyrexian_invasion",
+            "name": "First Phyrexian Invasion of Dominaria"
+          },
+          "era_label": "first_invasion",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "c_pwg_one",
+              "title": "Planeswalker's Guide to Phyrexia: All Will Be One",
+              "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-phyrexia-all-will-be-one"
+            }
+          ]
+        },
+        {
+          "claim_id": "C025",
+          "grade": "CANON_CONFIRMED",
+          "statement": "At the end of the Brothers' War, Urza discovered the plane of Phyrexia.",
+          "limitation": "",
+          "relation": "discovered",
+          "subject": {
+            "id": "character:urza",
+            "name": "Urza"
+          },
+          "object": {
+            "id": "plane:old_phyrexia",
+            "name": "Phyrexia"
+          },
+          "era_label": "post_brothers_war",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "c_dominaria_plane",
+              "title": "Dominaria (plane profile)",
+              "url": "https://magic.wizards.com/en/story/dominaria-plane"
+            }
+          ]
+        },
+        {
+          "claim_id": "C502",
+          "grade": "CANON_CONFIRMED",
+          "statement": "The same official retrospective says a group of planeswalkers decimated Old Phyrexia using soul bombs during the invasion's defeat.",
+          "limitation": "The retrospective does not name those planeswalkers or state whether Old Phyrexia's decimation came before or after Yawgmoth's destruction. Do not invent that ordering.",
+          "relation": "decimated_by_soul_bombs_from",
+          "subject": {
+            "id": "plane:old_phyrexia",
+            "name": "Phyrexia"
+          },
+          "object": {
+            "id": "concept:unnamed_soul_bomb_planeswalkers",
+            "name": "Unidentified planeswalkers using soul bombs (2008 recap)"
+          },
+          "era_label": "first_invasion_outcome",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "km",
+              "title": "The Known Mutliverse",
+              "url": "https://magic.wizards.com/en/news/feature/known-mutliverse-2008-03-19"
+            }
+          ]
+        },
+        {
+          "claim_id": "WSM010",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Yawgmoth and the Phyrexians were trapped in Phyrexia when the portal closed.",
+          "limitation": "",
+          "relation": "trapped_on",
+          "subject": {
+            "id": "character:yawgmoth",
+            "name": "Yawgmoth"
+          },
+          "object": {
+            "id": "plane:old_phyrexia",
+            "name": "Phyrexia"
+          },
+          "era_label": "worldsoul_ravnica_2019_known_multiverse_2008_orzhov_feature_2013",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "km",
+              "title": "The Known Mutliverse",
+              "url": "https://magic.wizards.com/en/news/feature/known-mutliverse-2008-03-19"
+            }
+          ]
+        }
+      ],
+      "known_gaps": [
+        "Direct claims are not an exhaustive history of this plane.",
+        "Era labels and publication dates are not a verified sequence or AR calendar year.",
+        "Absence of a cited event or person is not evidence it never occurred or appeared."
+      ]
+    },
+    {
+      "id": "plane:ravnica",
+      "plane": "Ravnica",
+      "evidence_status": "PARTIAL_DIRECT_GRAPH_CLAIMS_ONLY",
+      "distinct_claims": 11,
+      "facts": [
+        {
+          "claim_id": "DF014",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Avishkar (the renamed Kaladesh) sees Ravnica as its chief multiversal rival.",
+          "limitation": "Avishkar is modelled on the existing kaladesh plane node; the guide calls it a rival, 'not as an enemy (yet)'.",
+          "relation": "rival_of",
+          "subject": {
+            "id": "plane:kaladesh",
+            "name": "Kaladesh"
+          },
+          "object": {
+            "id": "plane:ravnica",
+            "name": "Ravnica"
+          },
+          "era_label": "aetherdrift_dft_2024_2025",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "dft_guide1",
+              "title": "Planeswalker's Guide to Aetherdrift, Part 1",
+              "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-aetherdrift-part-1"
+            },
+            {
+              "id": "dft_guide2",
+              "title": "Planeswalker's Guide to Aetherdrift, Part 2",
+              "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-aetherdrift-part-2"
+            }
+          ]
+        },
+        {
+          "claim_id": "DF015",
+          "grade": "CANON_CONFIRMED",
+          "statement": "The guide names Niv-Mizzet as leader of Ravnica's guilds.",
+          "limitation": "",
+          "relation": "leader_of",
+          "subject": {
+            "id": "character:niv_mizzet",
+            "name": "Niv-Mizzet"
+          },
+          "object": {
+            "id": "plane:ravnica",
+            "name": "Ravnica"
+          },
+          "era_label": "aetherdrift_dft_2024_2025",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "dft_guide2",
+              "title": "Planeswalker's Guide to Aetherdrift, Part 2",
+              "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-aetherdrift-part-2"
+            }
+          ]
+        },
+        {
+          "claim_id": "DS106",
+          "grade": "CANON_CONFIRMED",
+          "statement": "An interactive Ravnica-set side story opens with Niv-Mizzet at work in a Ninth District courtyard.",
+          "limitation": "Branching 'door' format; only the opening is graded.",
+          "relation": "located_on",
+          "subject": {
+            "id": "character:niv_mizzet",
+            "name": "Niv-Mizzet"
+          },
+          "object": {
+            "id": "plane:ravnica",
+            "name": "Ravnica"
+          },
+          "era_label": "duskmourn_2024",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "dsks_six",
+              "title": "Duskmourn: House of Horror | It's a Beautiful Day",
+              "url": "https://magic.wizards.com/en/news/magic-story/side-six-its-a-beautiful-day"
+            }
+          ]
+        },
+        {
+          "claim_id": "SSX018",
+          "grade": "CANON_CONFIRMED",
+          "statement": "The Traveler's Noticeboard, visible only to planeswalkers, hangs in Precinct Five on Ravnica (2022).",
+          "limitation": "",
+          "relation": "located_in",
+          "subject": {
+            "id": "artifact:travelers_noticeboard",
+            "name": "Traveler's Noticeboard"
+          },
+          "object": {
+            "id": "plane:ravnica",
+            "name": "Ravnica"
+          },
+          "era_label": "untagged_side_stories_2015_2026",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "nts",
+              "title": "Note for a Stranger",
+              "url": "https://magic.wizards.com/en/news/magic-story/note-stranger-2022-05-02"
+            }
+          ]
+        },
+        {
+          "claim_id": "UB029",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Vraska's home plane is Ravnica.",
+          "limitation": "",
+          "relation": "originated_from",
+          "subject": {
+            "id": "character:vraska",
+            "name": "Vraska"
+          },
+          "object": {
+            "id": "plane:ravnica",
+            "name": "Ravnica"
+          },
+          "era_label": "planeswalker_profiles_undated",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "ub_vraska",
+              "title": "Vraska | Planeswalker",
+              "url": "https://magic.wizards.com/en/story/vraska-planeswalker"
+            }
+          ]
+        },
+        {
+          "claim_id": "UP025",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Boros is Ravnica's military guild.",
+          "limitation": "",
+          "relation": "located_on",
+          "subject": {
+            "id": "faction:boros_legion",
+            "name": "Boros Legion"
+          },
+          "object": {
+            "id": "plane:ravnica",
+            "name": "Ravnica"
+          },
+          "era_label": "plane_profiles_undated",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "up_ravnica",
+              "title": "Ravnica",
+              "url": "https://magic.wizards.com/en/story/ravnica-plane"
+            }
+          ]
+        },
+        {
+          "claim_id": "UP026",
+          "grade": "CANON_CONFIRMED",
+          "statement": "The dragon-led Izzet is the Ravnican guild of innovation.",
+          "limitation": "The page does not name the dragon.",
+          "relation": "located_on",
+          "subject": {
+            "id": "faction:izzet_league",
+            "name": "Izzet League"
+          },
+          "object": {
+            "id": "plane:ravnica",
+            "name": "Ravnica"
+          },
+          "era_label": "plane_profiles_undated",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "up_ravnica",
+              "title": "Ravnica",
+              "url": "https://magic.wizards.com/en/story/ravnica-plane"
+            }
+          ]
+        },
+        {
+          "claim_id": "UP027",
+          "grade": "CANON_CONFIRMED",
+          "statement": "The Golgari guild controls an undead army and labor force under the city.",
+          "limitation": "",
+          "relation": "located_on",
+          "subject": {
+            "id": "faction:golgari",
+            "name": "Golgari Swarm"
+          },
+          "object": {
+            "id": "plane:ravnica",
+            "name": "Ravnica"
+          },
+          "era_label": "plane_profiles_undated",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "up_ravnica",
+              "title": "Ravnica",
+              "url": "https://magic.wizards.com/en/story/ravnica-plane"
+            }
+          ]
+        },
+        {
+          "claim_id": "UP028",
+          "grade": "CANON_CONFIRMED",
+          "statement": "The Azorius Senate are Ravnica's primary lawmakers.",
+          "limitation": "",
+          "relation": "located_on",
+          "subject": {
+            "id": "faction:azorius_senate",
+            "name": "Azorius Senate"
+          },
+          "object": {
+            "id": "plane:ravnica",
+            "name": "Ravnica"
+          },
+          "era_label": "plane_profiles_undated",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "up_ravnica",
+              "title": "Ravnica",
+              "url": "https://magic.wizards.com/en/story/ravnica-plane"
+            }
+          ]
+        },
+        {
+          "claim_id": "UP029",
+          "grade": "CANON_CONFIRMED",
+          "statement": "The Guildpact kept the power of each Ravnican guild in check.",
+          "limitation": "Profile written while the Guildpact was dissolving.",
+          "relation": "located_on",
+          "subject": {
+            "id": "concept:guildpact",
+            "name": "The Guildpact"
+          },
+          "object": {
+            "id": "plane:ravnica",
+            "name": "Ravnica"
+          },
+          "era_label": "plane_profiles_undated",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "up_ravnica",
+              "title": "Ravnica",
+              "url": "https://magic.wizards.com/en/story/ravnica-plane"
+            }
+          ]
+        },
+        {
+          "claim_id": "WR014",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Dovin Baan fled Ravnica.",
+          "limitation": "",
+          "relation": "left",
+          "subject": {
+            "id": "character:dovin_baan",
+            "name": "Dovin Baan"
+          },
+          "object": {
+            "id": "plane:ravnica",
+            "name": "Ravnica"
+          },
+          "era_label": "war_of_the_spark_2019",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "wr_operation",
+              "title": "War of the Spark: Ravnica—Operation Desperation",
+              "url": "https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-operation-desperation-2019-06-05"
+            }
+          ]
+        }
+      ],
+      "known_gaps": [
+        "Direct claims are not an exhaustive history of this plane.",
+        "Era labels and publication dates are not a verified sequence or AR calendar year.",
+        "Absence of a cited event or person is not evidence it never occurred or appeared."
+      ]
+    },
+    {
+      "id": "plane:regatha",
+      "plane": "Regatha",
+      "evidence_status": "PARTIAL_DIRECT_GRAPH_CLAIMS_ONLY",
+      "distinct_claims": 2,
+      "facts": [
+        {
+          "claim_id": "BZ024",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Before returning to Zendikar, Chandra stayed on Regatha as abbot of the pyromancer-monks.",
+          "limitation": "",
+          "relation": "located_at",
+          "subject": {
+            "id": "character:chandra_nalaar",
+            "name": "Chandra Nalaar"
+          },
+          "object": {
+            "id": "plane:regatha",
+            "name": "Regatha"
+          },
+          "era_label": "zendikar_bfz_ogw_2015",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "bfz_promises_keep",
+              "title": "Promises to Keep",
+              "url": "https://magic.wizards.com/en/news/magic-story/promises-keep-2015-12-02"
+            }
+          ]
+        },
+        {
+          "claim_id": "KLD003",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Chandra's spark ignited as Baral was about to kill her, and she planeswalked to the fire monasteries of Regatha.",
+          "limitation": "",
+          "relation": "first_planeswalked_to",
+          "subject": {
+            "id": "character:chandra_nalaar",
+            "name": "Chandra Nalaar"
+          },
+          "object": {
+            "id": "plane:regatha",
+            "name": "Regatha"
+          },
+          "era_label": "chandra_origin",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "kld_renegade_prime",
+              "title": "Renegade Prime",
+              "url": "https://magic.wizards.com/en/news/magic-story/renegade-prime-2016-09-14"
+            }
+          ]
+        }
+      ],
+      "known_gaps": [
+        "Direct claims are not an exhaustive history of this plane.",
+        "Era labels and publication dates are not a verified sequence or AR calendar year.",
+        "Absence of a cited event or person is not evidence it never occurred or appeared."
+      ]
+    },
+    {
+      "id": "plane:serras_realm",
+      "plane": "Serra's Realm",
+      "evidence_status": "PARTIAL_DIRECT_GRAPH_CLAIMS_ONLY",
+      "distinct_claims": 2,
+      "facts": [
+        {
+          "claim_id": "UB034",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Serra created the artificial plane known as Serra's Realm.",
+          "limitation": "The profile says Serra and her realm are long gone.",
+          "relation": "created",
+          "subject": {
+            "id": "character:serra",
+            "name": "Serra"
+          },
+          "object": {
+            "id": "plane:serras_realm",
+            "name": "Serra's Realm"
+          },
+          "era_label": "planeswalker_profiles_undated",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "ub_serra",
+              "title": "Serra | Planeswalker",
+              "url": "https://magic.wizards.com/en/story/serra-planeswalker"
+            }
+          ]
+        },
+        {
+          "claim_id": "WSM011",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Serra created Serra's Realm.",
+          "limitation": "",
+          "relation": "created",
+          "subject": {
+            "id": "character:serra",
+            "name": "Serra"
+          },
+          "object": {
+            "id": "plane:serras_realm",
+            "name": "Serra's Realm"
+          },
+          "era_label": "worldsoul_ravnica_2019_known_multiverse_2008_orzhov_feature_2013",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "km",
+              "title": "The Known Mutliverse",
+              "url": "https://magic.wizards.com/en/news/feature/known-mutliverse-2008-03-19"
+            }
+          ]
+        }
+      ],
+      "known_gaps": [
+        "Direct claims are not an exhaustive history of this plane.",
+        "Era labels and publication dates are not a verified sequence or AR calendar year.",
+        "Absence of a cited event or person is not evidence it never occurred or appeared."
+      ]
+    },
+    {
+      "id": "plane:shandalar",
+      "plane": "Shandalar",
+      "evidence_status": "PARTIAL_DIRECT_GRAPH_CLAIMS_ONLY",
+      "distinct_claims": 5,
+      "facts": [
+        {
+          "claim_id": "M13009",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Thune is a region of Shandalar.",
+          "limitation": "",
+          "relation": "located_in",
+          "subject": {
+            "id": "place:thune",
+            "name": "Thune"
+          },
+          "object": {
+            "id": "plane:shandalar",
+            "name": "Shandalar"
+          },
+          "era_label": "magic_2013_card_stories_and_avacyn_restored_guide_2012",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "xg",
+              "title": "Xathrid Gorgon",
+              "url": "https://magic.wizards.com/en/news/magic-story/xathrid-gorgon-2012-07-03"
+            }
+          ]
+        },
+        {
+          "claim_id": "S14017",
+          "grade": "CANON_IMPLIED",
+          "statement": "Liliana fetched the Chain Veil from Shandalar.",
+          "limitation": "Inferred: she was sent to Shandalar to fetch it.",
+          "relation": "found_in",
+          "subject": {
+            "id": "artifact:chain_veil",
+            "name": "The Chain Veil"
+          },
+          "object": {
+            "id": "plane:shandalar",
+            "name": "Shandalar"
+          },
+          "era_label": "ravnica_theros_conspiracy_m15_card_stories_2012_2014",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "vd",
+              "title": "Veil of Deceit",
+              "url": "https://magic.wizards.com/en/news/magic-story/veil-deceit-2014-07-01"
+            }
+          ]
+        },
+        {
+          "claim_id": "S14019",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Lesh is a city on Shandalar.",
+          "limitation": "",
+          "relation": "located_in",
+          "subject": {
+            "id": "place:lesh",
+            "name": "Lesh"
+          },
+          "object": {
+            "id": "plane:shandalar",
+            "name": "Shandalar"
+          },
+          "era_label": "ravnica_theros_conspiracy_m15_card_stories_2012_2014",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "bb",
+              "title": "The Bard and the Biologist",
+              "url": "https://magic.wizards.com/en/news/magic-story/bard-and-biologist-2014-07-09"
+            }
+          ]
+        },
+        {
+          "claim_id": "UP030",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Shandalar was once home to the Onakke ogre civilization.",
+          "limitation": "",
+          "relation": "located_on",
+          "subject": {
+            "id": "faction:onakke",
+            "name": "The Onakke"
+          },
+          "object": {
+            "id": "plane:shandalar",
+            "name": "Shandalar"
+          },
+          "era_label": "plane_profiles_undated",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "up_shandalar",
+              "title": "Shandalar",
+              "url": "https://magic.wizards.com/en/story/shandalar-plane"
+            }
+          ]
+        },
+        {
+          "claim_id": "UP031",
+          "grade": "CANON_CONFIRMED",
+          "statement": "The slivers threaten to consume Shandalar.",
+          "limitation": "",
+          "relation": "attacked",
+          "subject": {
+            "id": "faction:slivers",
+            "name": "Slivers"
+          },
+          "object": {
+            "id": "plane:shandalar",
+            "name": "Shandalar"
+          },
+          "era_label": "plane_profiles_undated",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "up_shandalar",
+              "title": "Shandalar",
+              "url": "https://magic.wizards.com/en/story/shandalar-plane"
+            }
+          ]
+        }
+      ],
+      "known_gaps": [
+        "Direct claims are not an exhaustive history of this plane.",
+        "Era labels and publication dates are not a verified sequence or AR calendar year.",
+        "Absence of a cited event or person is not evidence it never occurred or appeared."
+      ]
+    },
+    {
+      "id": "plane:skalla",
+      "plane": "Skalla",
+      "evidence_status": "PARTIAL_DIRECT_GRAPH_CLAIMS_ONLY",
+      "distinct_claims": 2,
+      "facts": [
+        {
+          "claim_id": "GR001",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Nicol Bolas destroyed Skalla, Vivien's home plane, in her past.",
+          "limitation": "",
+          "relation": "destroyed",
+          "subject": {
+            "id": "character:nicol_bolas",
+            "name": "Nicol Bolas"
+          },
+          "object": {
+            "id": "plane:skalla",
+            "name": "Skalla"
+          },
+          "era_label": "guilds_of_ravnica_ravnica_allegiance_2018_2019",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "gr_unb2",
+              "title": "Unbowed, Part 2",
+              "url": "https://magic.wizards.com/en/news/magic-story/unbowed-part-2-2018-09-05"
+            }
+          ]
+        },
+        {
+          "claim_id": "UB028",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Vivien Reid is the last survivor of her home plane Skalla.",
+          "limitation": "",
+          "relation": "originated_from",
+          "subject": {
+            "id": "character:vivien_reid",
+            "name": "Vivien Reid"
+          },
+          "object": {
+            "id": "plane:skalla",
+            "name": "Skalla"
+          },
+          "era_label": "planeswalker_profiles_undated",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "ub_vivien",
+              "title": "Vivien Reid | Planeswalker",
+              "url": "https://magic.wizards.com/en/story/vivien-reid-planeswalker"
+            }
+          ]
+        }
+      ],
+      "known_gaps": [
+        "Direct claims are not an exhaustive history of this plane.",
+        "Era labels and publication dates are not a verified sequence or AR calendar year.",
+        "Absence of a cited event or person is not evidence it never occurred or appeared."
+      ]
+    },
+    {
+      "id": "plane:tarkir",
+      "plane": "Tarkir",
+      "evidence_status": "PARTIAL_DIRECT_GRAPH_CLAIMS_ONLY",
+      "distinct_claims": 10,
+      "facts": [
+        {
+          "claim_id": "A010",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Ugin returns visibly to Tarkir and tells others that he failed to keep Bolas imprisoned.",
+          "limitation": "Do not infer all subsequent activities or power changes from this one scene.",
+          "relation": "returned_to",
+          "subject": {
+            "id": "character:ugin",
+            "name": "Ugin"
+          },
+          "object": {
+            "id": "plane:tarkir",
+            "name": "Tarkir"
+          },
+          "era_label": "dragonstorm_escape",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "tdm7",
+              "title": "Tarkir: Dragonstorm | Episode 7: Return",
+              "url": "https://magic.wizards.com/en/news/magic-story/tarkir-dragonstorm-episode-7-return"
+            }
+          ]
+        },
+        {
+          "claim_id": "A025",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Sarkhan crosses into Tarkir's past, approximately 1,280 years before his original present, to change a decisive ancient battle.",
+          "limitation": "This relative interval is the 2015 story's account, not an absolute Multiverse calendar date.",
+          "relation": "traveled_into_past",
+          "subject": {
+            "id": "character:sarkhan_vol",
+            "name": "Sarkhan Vol"
+          },
+          "object": {
+            "id": "plane:tarkir",
+            "name": "Tarkir"
+          },
+          "era_label": "pre_duel_time_travel",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "nexus_design",
+              "title": "Prose and Khans, Part 2",
+              "url": "https://magic.wizards.com/en/news/making-magic/prose-and-khans-part-2-2014-09-22"
+            },
+            {
+              "id": "tarkir_story_summary",
+              "title": "The Story of Tarkir Block",
+              "url": "https://magic.wizards.com/en/news/magic-story/story-tarkir-block-2015-04-29"
+            }
+          ]
+        },
+        {
+          "claim_id": "TD002",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Gravely injured, Ugin hibernated inside a nest of hedrons on Tarkir.",
+          "limitation": "",
+          "relation": "hibernated_on",
+          "subject": {
+            "id": "character:ugin",
+            "name": "Ugin"
+          },
+          "object": {
+            "id": "plane:tarkir",
+            "name": "Tarkir"
+          },
+          "era_label": "tarkir_dragonstorm_2025",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "tdm_guide1",
+              "title": "Planeswalker's Guide to Tarkir: Dragonstorm, Part 1",
+              "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-tarkir-dragonstorm-part-1"
+            }
+          ]
+        },
+        {
+          "claim_id": "TD004",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Ugin awoke and departed Tarkir five years before the Dragonstorm story.",
+          "limitation": "'Five years ago' is relative to the guide's present (2025 release).",
+          "relation": "left",
+          "subject": {
+            "id": "character:ugin",
+            "name": "Ugin"
+          },
+          "object": {
+            "id": "plane:tarkir",
+            "name": "Tarkir"
+          },
+          "era_label": "tarkir_dragonstorm_2025",
+          "in_universe_date": {
+            "quote": "Five years ago, Ugin awoke from his hibernation and departed Tarkir.",
+            "source_id": "tdm_guide1",
+            "value": "Five years ago"
+          },
+          "sources": [
+            {
+              "id": "tdm_guide1",
+              "title": "Planeswalker's Guide to Tarkir: Dragonstorm, Part 1",
+              "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-tarkir-dragonstorm-part-1"
+            }
+          ]
+        },
+        {
+          "claim_id": "TD005",
+          "grade": "CANON_CONFIRMED",
+          "statement": "In the Khanfall timeline the dragonlords' forces killed the clan leaders and ruled Tarkir.",
+          "limitation": "",
+          "relation": "ruled",
+          "subject": {
+            "id": "faction:dragonlords",
+            "name": "The dragonlords of Tarkir"
+          },
+          "object": {
+            "id": "plane:tarkir",
+            "name": "Tarkir"
+          },
+          "era_label": "tarkir_dragonstorm_2025",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "tdm_guide1",
+              "title": "Planeswalker's Guide to Tarkir: Dragonstorm, Part 1",
+              "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-tarkir-dragonstorm-part-1"
+            }
+          ]
+        },
+        {
+          "claim_id": "TD007",
+          "grade": "CANON_CONFIRMED",
+          "statement": "The Sultai live in Tarkir's jungles; their necromancers raise honored dead to keep leading and serving.",
+          "limitation": "",
+          "relation": "located_on",
+          "subject": {
+            "id": "faction:sultai",
+            "name": "The Sultai"
+          },
+          "object": {
+            "id": "plane:tarkir",
+            "name": "Tarkir"
+          },
+          "era_label": "tarkir_dragonstorm_2025",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "tdm_guide2",
+              "title": "Planeswalker's Guide to Tarkir: Dragonstorm, Part 2",
+              "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-tarkir-dragonstorm-part-2"
+            }
+          ]
+        },
+        {
+          "claim_id": "TD008",
+          "grade": "CANON_CONFIRMED",
+          "statement": "The nomadic Mardu claim Tarkir's central steppes and plains, moving in massive mobile cities.",
+          "limitation": "",
+          "relation": "located_on",
+          "subject": {
+            "id": "faction:mardu",
+            "name": "The Mardu"
+          },
+          "object": {
+            "id": "plane:tarkir",
+            "name": "Tarkir"
+          },
+          "era_label": "tarkir_dragonstorm_2025",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "tdm_guide2",
+              "title": "Planeswalker's Guide to Tarkir: Dragonstorm, Part 2",
+              "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-tarkir-dragonstorm-part-2"
+            }
+          ]
+        },
+        {
+          "claim_id": "TKS010",
+          "grade": "CANON_IMPLIED",
+          "statement": "Sarkhan Vol was born on a war-torn world where dragons are extinct (Tarkir, as of 2014).",
+          "limitation": "The primer sentence does not name the world; the page names Tarkir elsewhere.",
+          "relation": "born_on",
+          "subject": {
+            "id": "character:sarkhan_vol",
+            "name": "Sarkhan Vol"
+          },
+          "object": {
+            "id": "plane:tarkir",
+            "name": "Tarkir"
+          },
+          "era_label": "khans_and_dragons_of_tarkir_side_stories_2014_2015_and_dragonstorm_2026",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "mad",
+              "title": "The Madness of Sarkhan",
+              "url": "https://magic.wizards.com/en/news/magic-story/the-madness-of-sarkhan"
+            }
+          ]
+        },
+        {
+          "claim_id": "UB015",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Narset's home plane is Tarkir.",
+          "limitation": "",
+          "relation": "originated_from",
+          "subject": {
+            "id": "character:narset",
+            "name": "Narset"
+          },
+          "object": {
+            "id": "plane:tarkir",
+            "name": "Tarkir"
+          },
+          "era_label": "planeswalker_profiles_undated",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "ub_narset",
+              "title": "Narset | Planeswalker",
+              "url": "https://magic.wizards.com/en/story/narset-planeswalker"
+            }
+          ]
+        },
+        {
+          "claim_id": "UB016",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Sarkhan Vol is a native of Tarkir.",
+          "limitation": "The profile adds that after he changed history he is a man who was never born and has no home world.",
+          "relation": "originated_from",
+          "subject": {
+            "id": "character:sarkhan_vol",
+            "name": "Sarkhan Vol"
+          },
+          "object": {
+            "id": "plane:tarkir",
+            "name": "Tarkir"
+          },
+          "era_label": "planeswalker_profiles_undated",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "ub_sarkhan",
+              "title": "Sarkhan Vol | Planeswalker",
+              "url": "https://magic.wizards.com/en/story/sarkhan-vol-planeswalker"
+            }
+          ]
+        }
+      ],
+      "known_gaps": [
+        "Direct claims are not an exhaustive history of this plane.",
+        "Era labels and publication dates are not a verified sequence or AR calendar year.",
+        "Absence of a cited event or person is not evidence it never occurred or appeared."
+      ]
+    },
+    {
+      "id": "plane:theros",
+      "plane": "Theros",
+      "evidence_status": "PARTIAL_DIRECT_GRAPH_CLAIMS_ONLY",
+      "distinct_claims": 3,
+      "facts": [
+        {
+          "claim_id": "MOM006",
+          "grade": "CANON_IMPLIED",
+          "statement": "Atraxa's question to Norn indicates Ajani was sent to Theros.",
+          "limitation": "Stated within Atraxa's question, not by the narrator; Ajani's activity on Theros is not modelled from Episode 6 here.",
+          "relation": "sent_to_invade",
+          "subject": {
+            "id": "character:ajani",
+            "name": "Ajani"
+          },
+          "object": {
+            "id": "plane:theros",
+            "name": "Theros"
+          },
+          "era_label": "mom_invasion_2023",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "mom_ep01",
+              "title": "March of the Machine | Episode 1: Triumph of the Fleshless",
+              "url": "https://magic.wizards.com/en/news/magic-story/episode-1-triumph-of-the-fleshless"
+            }
+          ]
+        },
+        {
+          "claim_id": "UB004",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Calix was created on Theros by the God of Destiny.",
+          "limitation": "",
+          "relation": "originated_from",
+          "subject": {
+            "id": "character:calix",
+            "name": "Calix"
+          },
+          "object": {
+            "id": "plane:theros",
+            "name": "Theros"
+          },
+          "era_label": "planeswalker_profiles_undated",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "ub_calix",
+              "title": "Calix | Planeswalker",
+              "url": "https://magic.wizards.com/en/story/calix-planeswalker"
+            }
+          ]
+        },
+        {
+          "claim_id": "UB032",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Xenagos is a satyr of the Skola Valley on Theros.",
+          "limitation": "",
+          "relation": "originated_from",
+          "subject": {
+            "id": "character:xenagos",
+            "name": "Xenagos"
+          },
+          "object": {
+            "id": "plane:theros",
+            "name": "Theros"
+          },
+          "era_label": "planeswalker_profiles_undated",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "ub_xenagos",
+              "title": "Xenagos | Planeswalker",
+              "url": "https://magic.wizards.com/en/story/xenagos-planeswalker"
+            }
+          ]
+        }
+      ],
+      "known_gaps": [
+        "Direct claims are not an exhaustive history of this plane.",
+        "Era labels and publication dates are not a verified sequence or AR calendar year.",
+        "Absence of a cited event or person is not evidence it never occurred or appeared."
+      ]
+    },
+    {
+      "id": "plane:thunder_junction",
+      "plane": "Thunder Junction",
+      "evidence_status": "PARTIAL_DIRECT_GRAPH_CLAIMS_ONLY",
+      "distinct_claims": 2,
+      "facts": [
+        {
+          "claim_id": "OS005",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Gisa and Geralf travel across Thunder Junction.",
+          "limitation": "",
+          "relation": "visited",
+          "subject": {
+            "id": "character:gisa",
+            "name": "Gisa"
+          },
+          "object": {
+            "id": "plane:thunder_junction",
+            "name": "Thunder Junction"
+          },
+          "era_label": "outlaws_of_thunder_junction_2024",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "otjs_outing",
+              "title": "Outlaws of Thunder Junction | A Pleasant Family Outing",
+              "url": "https://magic.wizards.com/en/news/magic-story/a-pleasant-family-outing"
+            }
+          ]
+        },
+        {
+          "claim_id": "OS006",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Wizards' first-look article frames Thunder Junction as reached through the open Omenpaths after the Phyrexian invasion.",
+          "limitation": "Marketing feature, not fiction.",
+          "relation": "connect",
+          "subject": {
+            "id": "artifact:omenpaths",
+            "name": "The Omenpaths"
+          },
+          "object": {
+            "id": "plane:thunder_junction",
+            "name": "Thunder Junction"
+          },
+          "era_label": "outlaws_of_thunder_junction_2024",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "otjs_firstlook",
+              "title": "A First Look at Outlaws of Thunder Junction",
+              "url": "https://magic.wizards.com/en/news/announcements/a-first-look-at-outlaws-of-thunder-junction"
+            }
+          ]
+        }
+      ],
+      "known_gaps": [
+        "Direct claims are not an exhaustive history of this plane.",
+        "Era labels and publication dates are not a verified sequence or AR calendar year.",
+        "Absence of a cited event or person is not evidence it never occurred or appeared."
+      ]
+    },
+    {
+      "id": "plane:vryn",
+      "plane": "Vryn",
+      "evidence_status": "PARTIAL_DIRECT_GRAPH_CLAIMS_ONLY",
+      "distinct_claims": 2,
+      "facts": [
+        {
+          "claim_id": "OT012",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Jace brings Vraska to his healer mother's home on Vryn.",
+          "limitation": "",
+          "relation": "returned_to",
+          "subject": {
+            "id": "character:jace_beleren",
+            "name": "Jace Beleren"
+          },
+          "object": {
+            "id": "plane:vryn",
+            "name": "Vryn"
+          },
+          "era_label": "otj_epilogue_2024",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "otj_epi2",
+              "title": "Outlaws of Thunder Junction | Epilogue 2: Bring the End, Part 2",
+              "url": "https://magic.wizards.com/en/news/magic-story/epilogue-2-bring-the-end-part-2"
+            }
+          ]
+        },
+        {
+          "claim_id": "RF010",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Jace is laid to rest on Vryn as a son of Vryn.",
+          "limitation": "related_to records burial/origin; no dedicated burial relation exists.",
+          "relation": "related_to",
+          "subject": {
+            "id": "character:jace_beleren",
+            "name": "Jace Beleren"
+          },
+          "object": {
+            "id": "plane:vryn",
+            "name": "Vryn"
+          },
+          "era_label": "rf_aftermath_2026",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "rf_ep10",
+              "title": "Reality Fracture | Episode 10: Happy Birthday",
+              "url": "https://magic.wizards.com/en/news/magic-story/reality-fracture-episode-10-happy-birthday"
+            }
+          ]
+        }
+      ],
+      "known_gaps": [
+        "Direct claims are not an exhaustive history of this plane.",
+        "Era labels and publication dates are not a verified sequence or AR calendar year.",
+        "Absence of a cited event or person is not evidence it never occurred or appeared."
+      ]
+    },
+    {
+      "id": "plane:zendikar",
+      "plane": "Zendikar",
+      "evidence_status": "PARTIAL_DIRECT_GRAPH_CLAIMS_ONLY",
+      "distinct_claims": 7,
+      "facts": [
+        {
+          "claim_id": "BZ107",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Kiora returns from Theros to her home plane, Zendikar.",
+          "limitation": "The first quote is from the official editorial introduction to the story.",
+          "relation": "returned_to",
+          "subject": {
+            "id": "character:kiora",
+            "name": "Kiora"
+          },
+          "object": {
+            "id": "plane:zendikar",
+            "name": "Zendikar"
+          },
+          "era_label": "battle_for_zendikar_2015",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "bz_home",
+              "title": "Home Waters",
+              "url": "https://magic.wizards.com/en/news/magic-story/home-waters-2015-09-30"
+            }
+          ]
+        },
+        {
+          "claim_id": "MB002",
+          "grade": "CANON_CONFIRMED",
+          "statement": "In the past, three Planeswalkers lured the three Eldrazi titans to Zendikar and trapped them there.",
+          "limitation": "Primer page; the three Planeswalkers are not named in this sentence.",
+          "relation": "trapped_on",
+          "subject": {
+            "id": "concept:eldrazi_titans",
+            "name": "Eldrazi titans"
+          },
+          "object": {
+            "id": "plane:zendikar",
+            "name": "Zendikar"
+          },
+          "era_label": "magic_origins_and_ravnica_vignettes_2015_2019",
+          "in_universe_date": {
+            "quote": "Six thousand years ago, three Planeswalkers lured the three Eldrazi titans—horrific, world-devouring entities—to Zendikar, and trapped them there.",
+            "source_id": "mb_worlds",
+            "value": "Six thousand years ago"
+          },
+          "sources": [
+            {
+              "id": "mb_worlds",
+              "title": "The Worlds of Magic Origins",
+              "url": "https://magic.wizards.com/en/news/feature/worlds-magic-origins-2015-07-09"
+            }
+          ]
+        },
+        {
+          "claim_id": "MOM005",
+          "grade": "CANON_CONFIRMED",
+          "statement": "The compleated Nahiri tells Norn she was born on Zendikar, her assigned homeland.",
+          "limitation": "",
+          "relation": "born_on",
+          "subject": {
+            "id": "character:nahiri",
+            "name": "Nahiri, the Lithomancer"
+          },
+          "object": {
+            "id": "plane:zendikar",
+            "name": "Zendikar"
+          },
+          "era_label": "mom_invasion_2023",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "mom_ep01",
+              "title": "March of the Machine | Episode 1: Triumph of the Fleshless",
+              "url": "https://magic.wizards.com/en/news/magic-story/episode-1-triumph-of-the-fleshless"
+            }
+          ]
+        },
+        {
+          "claim_id": "SSX003",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Zendikar is Nahiri's home plane.",
+          "limitation": "",
+          "relation": "born_on",
+          "subject": {
+            "id": "character:nahiri",
+            "name": "Nahiri, the Lithomancer"
+          },
+          "object": {
+            "id": "plane:zendikar",
+            "name": "Zendikar"
+          },
+          "era_label": "untagged_side_stories_2015_2026",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "stir",
+              "title": "Stirring from Slumber",
+              "url": "https://magic.wizards.com/en/news/magic-story/stirring-slumber-2015-05-13"
+            }
+          ]
+        },
+        {
+          "claim_id": "TKS011",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Ob Nixilis was stripped of his spark and trapped on Zendikar thousands of years ago (as of 2014).",
+          "limitation": "",
+          "relation": "trapped_on",
+          "subject": {
+            "id": "character:ob_nixilis",
+            "name": "Ob Nixilis (the Adversary)"
+          },
+          "object": {
+            "id": "plane:zendikar",
+            "name": "Zendikar"
+          },
+          "era_label": "khans_and_dragons_of_tarkir_side_stories_2014_2015_and_dragonstorm_2026",
+          "in_universe_date": {
+            "quote": "He was once a Planeswalker, until he was stripped of his spark and trapped on the wild-mana plane of Zendikar thousands of years ago.",
+            "source_id": "dod",
+            "value": "thousands of years ago"
+          },
+          "sources": [
+            {
+              "id": "dod",
+              "title": "Dreams of the Damned",
+              "url": "https://magic.wizards.com/en/news/magic-story/dreams-of-the-damned"
+            }
+          ]
+        },
+        {
+          "claim_id": "U004",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Ugin and Sorin agreed to come back if the prison needed them.",
+          "limitation": "",
+          "relation": "promised_to_return_to",
+          "subject": {
+            "id": "character:ugin",
+            "name": "Ugin"
+          },
+          "object": {
+            "id": "plane:zendikar",
+            "name": "Zendikar"
+          },
+          "era_label": "ancient",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "stone_and_blood",
+              "title": "Stone and Blood",
+              "url": "https://magic.wizards.com/en/news/magic-story/stone-and-blood-2016-06-15"
+            }
+          ]
+        },
+        {
+          "claim_id": "UB014",
+          "grade": "CANON_IMPLIED",
+          "statement": "The profile implies that Nahiri is a Kor whose homeland is Zendikar.",
+          "limitation": "Implied by the Kor and Zendikar reference; the profile does not state outright that Zendikar is her homeland.",
+          "relation": "originated_from",
+          "subject": {
+            "id": "character:nahiri",
+            "name": "Nahiri, the Lithomancer"
+          },
+          "object": {
+            "id": "plane:zendikar",
+            "name": "Zendikar"
+          },
+          "era_label": "planeswalker_profiles_undated",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "ub_nahiri",
+              "title": "Nahiri | Planeswalker",
+              "url": "https://magic.wizards.com/en/story/nahiri-planeswalker"
+            }
+          ]
+        }
+      ],
+      "known_gaps": [
+        "Direct claims are not an exhaustive history of this plane.",
+        "Era labels and publication dates are not a verified sequence or AR calendar year.",
+        "Absence of a cited event or person is not evidence it never occurred or appeared."
+      ]
+    }
+  ],
+  "content_sha256": "267d7a6b9f5762437ab0a6bdc54b14f02085e3a8792a9a12b693f64eaab4bc86"
+}

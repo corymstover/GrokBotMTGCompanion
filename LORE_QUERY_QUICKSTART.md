@@ -16,6 +16,20 @@ python3 scripts/lore_query.py beats "Ugin vs Nicol Bolas" --limit 12
 
 The default is compact JSON, intended for ChatGPT and other automation; add the **global** `--human` flag before the command for a readable view, e.g. `python3 scripts/lore_query.py --human timeline ar`.
 
+### New Phase 5: verified-but-incomplete plane histories
+
+```bash
+python3 scripts/query_plane_history.py Dominaria
+python3 scripts/query_plane_history.py Phyrexia --json
+python3 scripts/query_plane_history.py 'New Phyrexia'
+python3 scripts/build_plane_history_dossiers.py --check
+```
+
+These 33 registered-plane dossiers give the precise claim, grade, relation,
+limitation and official Wizards source URL for every *direct* plane claim edge.
+They do not claim to cover all planes, all history, or a completed chronology;
+era labels do not create dates or an order across stories.
+
 ### How to read evidence
 
 - `literal_printing_text_match`: the **specific Scryfall printing** contains the searched words in its flavor text or Saga chapter rules text. Not proof of an event's depiction or an in-world relationship.
