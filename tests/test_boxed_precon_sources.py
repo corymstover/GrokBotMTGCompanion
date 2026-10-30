@@ -7,6 +7,7 @@ from pathlib import Path
 ROOT=Path(__file__).resolve().parent.parent
 sys.path.insert(0,str(ROOT/"scripts"))
 import audit_boxed_precon_sources as A
+from product_family_lookup import apply_boxed_source_overlay, apply_reprint_source_overlay, apply_source_overlay, apply_second_source_overlay, select
 
 class BoxedTests(unittest.TestCase):
     @classmethod
@@ -52,6 +53,23 @@ class BoxedTests(unittest.TestCase):
         x=next(x for x in data["records"] if x["code"]=="ohop")
         x["group"]="planechase_2009_preconstructed_release"
         with self.assertRaisesRegex(ValueError,"Component promoted"):self.build(data)
+
+    def test_offline_lookup_now_reports_86_source_records_762_pending(self):
+        triage=self.base
+        prior23=json.loads((A.DATA/"draft_starter_primary_audit_2026-10-29.json").read_text(encoding="utf-8"))
+        prior8=json.loads((A.DATA/"draft_starter_batch2_audit_2026-10-29.json").read_text(encoding="utf-8"))
+        prior28=json.loads(A.PREV.read_text(encoding="utf-8"))
+        indexed=apply_source_overlay(triage,prior23)
+        indexed=apply_second_source_overlay(indexed,prior8)
+        indexed=apply_reprint_source_overlay(indexed,prior28)
+        self.assertEqual(indexed["wizards_reviewed_examples"],71)
+        newest=apply_boxed_source_overlay(indexed,self.build())
+        self.assertEqual(newest["wizards_reviewed_examples"],86)
+        self.assertEqual(newest["metadata_only_pending_wizards_individual_review"],762)
+        self.assertEqual(len(select(newest,cohort="preconstructed_and_boxed",only_pending=True)),95)
+        self.assertEqual(len(select(newest,only_pending=True)),762)
+        self.assertTrue(select(newest,code="oarc")[0]["box_component_of_parent_product"])
+        self.assertFalse(select(newest,code="e01")[0]["box_component_of_parent_product"])
 
     def test_repeatable_and_history_preserved(self):
         self.assertEqual(A.encode(self.build()),A.encode(self.build()))
