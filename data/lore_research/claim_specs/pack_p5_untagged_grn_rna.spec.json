@@ -1,0 +1,150 @@
+{
+ "pack_id": "pack_p5_untagged_grn_rna",
+ "arc": "",
+ "event_stage": "guilds_of_ravnica_ravnica_allegiance_2018_2019",
+ "scope": "Batch 10 extraction from untagged 2018-2019 Magic Story pages: Vivien's 'Unbowed' (M19/GRN era) and the Ravnica Allegiance guild short stories. PRELIMINARY_RESEARCH; targeted, not exhaustive; not owner approved.",
+ "pages": {
+  "gr_unb2": "unbowed-part-2-2018-09-05",
+  "gr_unb3": "unbowed-part-3-2018-09-07",
+  "gr_rage": "rage-unsung-2019-01-30",
+  "gr_ill": "illusions-childs-play-2019-01-23",
+  "gr_reza": "ascension-reza-2019-02-27"
+ },
+ "entities": [
+  {
+   "id": "nicol_bolas",
+   "type": "Character",
+   "name": "Nicol Bolas"
+  },
+  {
+   "id": "skalla",
+   "type": "Plane",
+   "name": "Skalla"
+  },
+  {
+   "id": "vivien_reid",
+   "type": "Character",
+   "name": "Vivien Reid"
+  },
+  {
+   "id": "arkbow",
+   "type": "Object",
+   "name": "Arkbow"
+  },
+  {
+   "id": "ruric_thar",
+   "type": "Character",
+   "name": "Ruric Thar"
+  },
+  {
+   "id": "ghor_clan",
+   "type": "Faction",
+   "name": "Ghor Clan"
+  },
+  {
+   "id": "rakdos_cult",
+   "type": "Faction",
+   "name": "Cult of Rakdos"
+  },
+  {
+   "id": "derisions_peak",
+   "type": "Place",
+   "name": "Derision's Peak"
+  },
+  {
+   "id": "tagan",
+   "type": "Character",
+   "name": "Tagan"
+  },
+  {
+   "id": "reza",
+   "type": "Character",
+   "name": "Reza"
+  }
+ ],
+ "claims": [
+  {
+   "id": "GR001",
+   "subject": "nicol_bolas",
+   "predicate": "destroyed",
+   "object": "skalla",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "gr_unb2",
+     "quote": "the sight of Nicol Bolas rising into that burning sky, laughing as Skalla winked to white"
+    }
+   ],
+   "summary": "Nicol Bolas destroyed Skalla, Vivien's home plane, in her past."
+  },
+  {
+   "id": "GR002",
+   "subject": "vivien_reid",
+   "predicate": "wielded",
+   "object": "arkbow",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "gr_unb3",
+     "quote": "Vivien made a loop of her index finger and thumb, stroking the Arkbow like a lover."
+    }
+   ],
+   "summary": "Vivien carries and wields the Arkbow."
+  },
+  {
+   "id": "GR003",
+   "subject": "ruric_thar",
+   "predicate": "leader_of",
+   "object": "ghor_clan",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "gr_rage",
+     "quote": "I think he's going to challenge Ruric and Thar for clan chieftain"
+    },
+    {
+     "page": "gr_rage",
+     "quote": "His return from prison has stoked the fire within the hearts of the Ghor Clan"
+    }
+   ],
+   "summary": "Ruric and Thar are the Ghor Clan's chieftain (Ravnica Allegiance, 2019).",
+   "limitation": "Chieftainship is implied by a rival's challenge 'for clan chieftain'; the narrator's clan is the Ghor Clan."
+  },
+  {
+   "id": "GR004",
+   "subject": "rakdos_cult",
+   "predicate": "controls",
+   "object": "derisions_peak",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "gr_ill",
+     "quote": "Derision's Peak and the surrounding neighborhoods have fallen under Rakdos domain"
+    }
+   ],
+   "summary": "Derision's Peak and nearby neighborhoods are Rakdos domain."
+  },
+  {
+   "id": "GR005",
+   "subject": "tagan",
+   "predicate": "mentored",
+   "object": "reza",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "gr_reza",
+     "quote": "Finally, I spot my mentor's blue and brown brindle fur"
+    },
+    {
+     "page": "gr_reza",
+     "quote": "peeking over the walls of the study hutches in search of Tagan"
+    }
+   ],
+   "summary": "Tagan is the Azorius lawmage Reza's mentor.",
+   "limitation": "First-person narration; the mentor is identified as Tagan by the following sentences, not in one quote."
+  }
+ ],
+ "remaining": [
+  "Targeted. Read for relations but not graded: unbowed-part-1, under-cover-fog, testing-dark-waters, clans-legions, deaths-precious-moments, bound-and-bonded, principles-unnatural-selection, ledger-hidden-fortunes (first-person guild vignettes with mostly unnamed relations)."
+ ]
+}

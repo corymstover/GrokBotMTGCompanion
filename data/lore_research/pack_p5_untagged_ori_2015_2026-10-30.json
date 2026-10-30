@@ -1,0 +1,393 @@
+{
+ "schema": "multiverse-claim-pack/v1",
+ "pack_id": "pack_p5_untagged_ori_2015",
+ "evidence_cutoff": "2026-10-30",
+ "status": "PRELIMINARY_RESEARCH (not owner approved, not certified)",
+ "arc": "",
+ "scope": "Batch 10 extraction from untagged 2015 Magic Origins-era Magic Story pages (origin stories and the post-Origins episodes). PRELIMINARY_RESEARCH; targeted, not exhaustive; not owner approved.",
+ "built_by": "scripts/story_claim_pipeline.py from data/lore_research/claim_specs/pack_p5_untagged_ori_2015.spec.json",
+ "source_register": {
+  "or_lili": {
+   "title": "Liliana's Origin: The Fourth Pact",
+   "url": "https://magic.wizards.com/en/news/feature/lilianas-origin-fourth-pact-2015-06-17",
+   "kind": "official_story_feature",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2015-06-17"
+  },
+  "or_gid": {
+   "title": "Gideon’s Origin: Kytheon Iora of Akros",
+   "url": "https://magic.wizards.com/en/news/feature/gideons-origin-kytheon-iora-akros-2015-07-01",
+   "kind": "official_story_feature",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2015-07-01"
+  },
+  "or_nissa": {
+   "title": "Nissa's Origin: Home",
+   "url": "https://magic.wizards.com/en/news/magic-story/nissas-origin-home-2015-07-08",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2024-05-13"
+  },
+  "or_limits": {
+   "title": "Limits",
+   "url": "https://magic.wizards.com/en/news/magic-story/limits-2015-07-15",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2024-05-13"
+  },
+  "or_catch": {
+   "title": "Catching Up",
+   "url": "https://magic.wizards.com/en/news/magic-story/catching-2015-07-22",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2024-05-15"
+  },
+  "or_ravens": {
+   "title": "Unkindness of Ravens",
+   "url": "https://magic.wizards.com/en/news/magic-story/unkindness-ravens-2015-07-29",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2015-07-29"
+  },
+  "or_fire": {
+   "title": "Offers to the Fire",
+   "url": "https://magic.wizards.com/en/news/magic-story/offers-fire-2015-08-05",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2015-08-05"
+  }
+ },
+ "entities": [
+  {
+   "id": "liliana_vess",
+   "type": "Character",
+   "name": "Liliana Vess"
+  },
+  {
+   "id": "josu_vess",
+   "type": "Character",
+   "name": "Josu Vess"
+  },
+  {
+   "id": "kothophed",
+   "type": "Character",
+   "name": "Kothophed"
+  },
+  {
+   "id": "griselbrand",
+   "type": "Character",
+   "name": "Griselbrand"
+  },
+  {
+   "id": "nicol_bolas",
+   "type": "Character",
+   "name": "Nicol Bolas"
+  },
+  {
+   "id": "raven_man",
+   "type": "Character",
+   "name": "The Raven Man"
+  },
+  {
+   "id": "chandra_nalaar",
+   "type": "Character",
+   "name": "Chandra Nalaar"
+  },
+  {
+   "id": "serenok",
+   "type": "Character",
+   "name": "Serenok"
+  },
+  {
+   "id": "luti",
+   "type": "Character",
+   "name": "Mother Luti"
+  },
+  {
+   "id": "keral_keep",
+   "type": "Place",
+   "name": "Keral Keep"
+  },
+  {
+   "id": "nissa_revane",
+   "type": "Character",
+   "name": "Nissa Revane"
+  },
+  {
+   "id": "meroe",
+   "type": "Character",
+   "name": "Meroe"
+  },
+  {
+   "id": "krenko",
+   "type": "Character",
+   "name": "Krenko"
+  },
+  {
+   "id": "shattergang_brothers",
+   "type": "Faction",
+   "name": "Shattergang Brothers"
+  },
+  {
+   "id": "jace_beleren",
+   "type": "Character",
+   "name": "Jace Beleren"
+  },
+  {
+   "id": "living_guildpact",
+   "type": "Concept",
+   "name": "Living Guildpact"
+  },
+  {
+   "id": "kytheon",
+   "type": "Character",
+   "name": "Kytheon Iora"
+  },
+  {
+   "id": "drasus",
+   "type": "Character",
+   "name": "Drasus"
+  },
+  {
+   "id": "kytheons_irregulars",
+   "type": "Faction",
+   "name": "Kytheon's Irregulars"
+  }
+ ],
+ "claims": [
+  {
+   "id": "OR001",
+   "subject": "liliana_vess",
+   "predicate": "sibling_of",
+   "object": "josu_vess",
+   "grade": "CANON_IMPLIED",
+   "event_stage": "magic_origins_2015",
+   "source_ids": [
+    "or_lili"
+   ],
+   "evidence": [
+    {
+     "source_id": "or_lili",
+     "quote": "The thought of her brother—delirious with fever as he lay on death's door back at their father's house"
+    }
+   ],
+   "summary": "Liliana's brother (Josu, named nearby) lies gravely ill at their father's house in her past (origin story).",
+   "limitation": "Point-of-view narration; the pronoun's referent is the viewpoint character named in the summary, not named in the quoted sentence."
+  },
+  {
+   "id": "OR002",
+   "subject": "liliana_vess",
+   "predicate": "killed",
+   "object": "kothophed",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "magic_origins_2015",
+   "source_ids": [
+    "or_ravens"
+   ],
+   "evidence": [
+    {
+     "source_id": "or_ravens",
+     "quote": "It had allowed her to kill Kothophed and Griselbrand, two of the demons to whom she owed her soul"
+    }
+   ],
+   "summary": "Using the Chain Veil, Liliana killed Kothophed, one of her demonic creditors.",
+   "limitation": ""
+  },
+  {
+   "id": "OR003",
+   "subject": "liliana_vess",
+   "predicate": "killed",
+   "object": "griselbrand",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "magic_origins_2015",
+   "source_ids": [
+    "or_ravens"
+   ],
+   "evidence": [
+    {
+     "source_id": "or_ravens",
+     "quote": "It had allowed her to kill Kothophed and Griselbrand, two of the demons to whom she owed her soul"
+    }
+   ],
+   "summary": "Using the Chain Veil, Liliana killed Griselbrand, one of her demonic creditors.",
+   "limitation": ""
+  },
+  {
+   "id": "OR004",
+   "subject": "nicol_bolas",
+   "predicate": "brokered_pact_for",
+   "object": "liliana_vess",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "magic_origins_2015",
+   "source_ids": [
+    "or_ravens"
+   ],
+   "evidence": [
+    {
+     "source_id": "or_ravens",
+     "quote": "returning to Nicol Bolas, who she thought was going to help her extricate herself from the demonic pact that he had helped broker"
+    }
+   ],
+   "summary": "Nicol Bolas helped broker Liliana's demonic pact.",
+   "limitation": ""
+  },
+  {
+   "id": "OR005",
+   "subject": "raven_man",
+   "predicate": "manipulated",
+   "object": "liliana_vess",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "magic_origins_2015",
+   "source_ids": [
+    "or_ravens"
+   ],
+   "evidence": [
+    {
+     "source_id": "or_ravens",
+     "quote": "the Raven Man—led to the death of her brother and the ignition of her Planeswalker spark"
+    }
+   ],
+   "summary": "The Raven Man's meddling led to Josu's death and Liliana's spark igniting, in her past.",
+   "limitation": ""
+  },
+  {
+   "id": "OR006",
+   "subject": "serenok",
+   "predicate": "mentored",
+   "object": "chandra_nalaar",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "magic_origins_2015",
+   "source_ids": [
+    "or_fire"
+   ],
+   "evidence": [
+    {
+     "source_id": "or_fire",
+     "quote": "Serenok had pushed Chandra's talents in fire magic"
+    }
+   ],
+   "summary": "Serenok, abbot of Keral Keep, pushed Chandra's fire magic.",
+   "limitation": ""
+  },
+  {
+   "id": "OR007",
+   "subject": "serenok",
+   "predicate": "leader_of",
+   "object": "keral_keep",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "magic_origins_2015",
+   "source_ids": [
+    "or_fire"
+   ],
+   "evidence": [
+    {
+     "source_id": "or_fire",
+     "quote": "As the abbot, the head teacher of Keral Keep, Serenok counseled the acolytes in the ways of fire magic."
+    }
+   ],
+   "summary": "Serenok is abbot and head teacher of Keral Keep on Regatha (2015).",
+   "limitation": ""
+  },
+  {
+   "id": "OR008",
+   "subject": "luti",
+   "predicate": "leader_of",
+   "object": "keral_keep",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "magic_origins_2015",
+   "source_ids": [
+    "or_fire"
+   ],
+   "evidence": [
+    {
+     "source_id": "or_fire",
+     "quote": "Like Mother Luti, the matriarch of the monastery"
+    }
+   ],
+   "summary": "Mother Luti is the matriarch of the Keral Keep monastery (2015).",
+   "limitation": ""
+  },
+  {
+   "id": "OR009",
+   "subject": "meroe",
+   "predicate": "parent_of",
+   "object": "nissa_revane",
+   "grade": "CANON_IMPLIED",
+   "event_stage": "magic_origins_2015",
+   "source_ids": [
+    "or_nissa"
+   ],
+   "evidence": [
+    {
+     "source_id": "or_nissa",
+     "quote": "This was her mother, Meroe."
+    }
+   ],
+   "summary": "Meroe is Nissa's mother.",
+   "limitation": "Point-of-view narration; the pronoun's referent is the viewpoint character named in the summary, not named in the quoted sentence."
+  },
+  {
+   "id": "OR010",
+   "subject": "shattergang_brothers",
+   "predicate": "opposed",
+   "object": "krenko",
+   "grade": "CANON_IMPLIED",
+   "event_stage": "magic_origins_2015",
+   "source_ids": [
+    "or_limits"
+   ],
+   "evidence": [
+    {
+     "source_id": "or_limits",
+     "quote": "Krenko murdered our brother."
+    }
+   ],
+   "summary": "The Shattergang Brothers accuse Krenko of murdering their youngest brother.",
+   "limitation": "In-universe accusation by the Shattergangs, not narrated fact."
+  },
+  {
+   "id": "OR011",
+   "subject": "jace_beleren",
+   "predicate": "holds_title",
+   "object": "living_guildpact",
+   "grade": "CANON_IMPLIED",
+   "event_stage": "magic_origins_2015",
+   "source_ids": [
+    "or_catch"
+   ],
+   "evidence": [
+    {
+     "source_id": "or_catch",
+     "quote": "Chief among his current responsibilities is that of the Living Guildpact"
+    }
+   ],
+   "summary": "Jace serves as the Living Guildpact, arbiter of Ravnica's guild conflicts (2015).",
+   "limitation": "'His' is Jace, the story's subject."
+  },
+  {
+   "id": "OR012",
+   "subject": "drasus",
+   "predicate": "member_of",
+   "object": "kytheons_irregulars",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "magic_origins_2015",
+   "source_ids": [
+    "or_gid"
+   ],
+   "evidence": [
+    {
+     "source_id": "or_gid",
+     "quote": "You’re one of my Irregulars, Drasus."
+    }
+   ],
+   "summary": "Drasus is one of Kytheon's Irregulars, in Gideon's past on Theros (origin story).",
+   "limitation": ""
+  }
+ ],
+ "pages_registered": 7,
+ "pages_cited": 7,
+ "uncited_registered_pages": [],
+ "remaining": [
+  "Targeted. Not yet graded: jaces-origin-absent-minds, worlds-magic-origins, magic-origins side pages."
+ ]
+}
