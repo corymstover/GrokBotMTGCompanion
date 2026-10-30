@@ -46,11 +46,11 @@ class EventCollabPromosSourcesTests(unittest.TestCase):
             self.assertFalse(row["new_card_debut_count_certified"])
             self.assertFalse(row["current_format_legality_certified"])
 
-    def test_live_lookup_has_221_without_changing_prior_records(self):
+    def test_live_lookup_preserves_all_seven_after_later_batches(self):
         report = load_current_index()
-        self.assertEqual(report["wizards_reviewed_examples"], 221)
-        self.assertEqual(len(select(report, only_pending=True)), 627)
-        self.assertEqual(len(select(report, cohort="promotional_and_record_extras", only_pending=True)), 603)
+        self.assertGreaterEqual(report["wizards_reviewed_examples"], 221)
+        self.assertLessEqual(len(select(report, only_pending=True)), 627)
+        self.assertLessEqual(len(select(report, cohort="promotional_and_record_extras", only_pending=True)), 603)
         for code in sorted(A.REQUIRED):
             record = select(report, code=code)[0]
             self.assertTrue(record["wizards_individual_source_review"])
