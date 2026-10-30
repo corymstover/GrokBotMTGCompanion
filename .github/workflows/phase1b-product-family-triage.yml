@@ -1,0 +1,54 @@
+name: Phase 1B product-family triage and source boundaries
+
+on:
+  push:
+    branches:
+      - chatgpt-phase1b-product-family-triage-20261029
+      - main
+    paths:
+      - scripts/audit_product_family_triage.py
+      - scripts/product_family_lookup.py
+      - tests/test_product_family_triage.py
+      - data/set_atlas/product_family_triage_2026-10-29.json
+      - .github/workflows/phase1b-product-family-triage.yml
+  pull_request:
+    paths:
+      - scripts/audit_product_family_triage.py
+      - scripts/product_family_lookup.py
+      - tests/test_product_family_triage.py
+      - data/set_atlas/product_family_triage_2026-10-29.json
+      - .github/workflows/phase1b-product-family-triage.yml
+
+permissions:
+  contents: write
+
+jobs:
+  full-source-type-triage:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Test 1062-code conservation and no invented premier certification
+        run: python3 -m unittest discover -s tests -p 'test_product_family_triage.py' -v
+      - name: Generate verified triage index on exact source branch
+        if: github.event_name == 'push' && github.ref_name == 'chatgpt-phase1b-product-family-triage-20261029'
+        run: python3 scripts/audit_product_family_triage.py --write
+      - name: Verify deterministic report and syntax
+        run: |
+          python3 scripts/audit_product_family_triage.py
+          python3 scripts/product_family_lookup.py --summary
+          python3 -m py_compile scripts/audit_product_family_triage.py scripts/product_family_lookup.py
+      - name: Publish generated index from designated source branch
+        if: github.event_name == 'push' && github.ref_name == 'chatgpt-phase1b-product-family-triage-20261029'
+        run: |
+          git add data/set_atlas/product_family_triage_2026-10-29.json
+          if ! git diff --cached --quiet; then
+            git config user.name 'github-actions[bot]'
+            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+            git commit -m "Phase 1B: publish exhaustive Scryfall category research cohorts"
+            git push origin HEAD:chatgpt-phase1b-product-family-triage-20261029
+          fi
