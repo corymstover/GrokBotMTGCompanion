@@ -49,18 +49,19 @@
    "data/lore_research/pack_p5_dmu_side_stories_2026-10-30.json",
    "data/lore_research/pack_p5_dominaria_united_2026-10-30.json",
    "data/lore_research/pack_p5_neo_side_stories_2026-10-30.json",
-   "data/lore_research/pack_p5_bfz_2015_stories_2026-10-30.json"
+   "data/lore_research/pack_p5_bfz_2015_stories_2026-10-30.json",
+   "data/lore_research/pack_p5_war_spark_ravnica_2026-10-30.json"
   ]
  },
  "meaning": "cited = a claim pack quotes or cites the page at least once; it does not mean the page was read exhaustively",
  "totals": {
   "arcs": 33,
   "pages": 626,
-  "cited_pages": 363,
+  "cited_pages": 376,
   "arcs_not_started": 0,
-  "arcs_partial": 8,
-  "arcs_all_cited": 25,
-  "claims": 754,
+  "arcs_partial": 6,
+  "arcs_all_cited": 27,
+  "claims": 790,
   "pack_urls_outside_inventory": 12
  },
  "claims_per_pack": {
@@ -74,7 +75,7 @@
   "pack_c3_assault_on_new_phyrexia_2026-10-30.json": 19,
   "pack_c4_march_of_the_machine_2026-10-30.json": 21,
   "pack_p5_kaladesh_aether_revolt_2026-10-30.json": 32,
-  "pack_p5_ixalan_rivals_2026-10-30.json": 16,
+  "pack_p5_ixalan_rivals_2026-10-30.json": 34,
   "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json": 31,
   "pack_p5_kamigawa_neon_dynasty_2026-10-30.json": 12,
   "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json": 12,
@@ -110,7 +111,8 @@
   "pack_p5_dmu_side_stories_2026-10-30.json": 5,
   "pack_p5_dominaria_united_2026-10-30.json": 7,
   "pack_p5_neo_side_stories_2026-10-30.json": 4,
-  "pack_p5_bfz_2015_stories_2026-10-30.json": 8
+  "pack_p5_bfz_2015_stories_2026-10-30.json": 8,
+  "pack_p5_war_spark_ravnica_2026-10-30.json": 18
  },
  "arcs": [
   {
@@ -202,22 +204,16 @@
   {
    "arc": "DOM/WAR",
    "pages": 18,
-   "cited_pages": 12,
+   "cited_pages": 18,
    "kinds": {
     "story": 18
    },
    "citing_packs": [
-    "pack_c2_return_to_dominaria_2026-10-30.json"
+    "pack_c2_return_to_dominaria_2026-10-30.json",
+    "pack_p5_war_spark_ravnica_2026-10-30.json"
    ],
-   "status": "PARTIAL",
-   "uncited_urls": [
-    "https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-ashes-2019-06-12",
-    "https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-desperate-operatives-2019-05-29",
-    "https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-old-friends-and-new-2019-05-08",
-    "https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-operation-desperation-2019-06-05",
-    "https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-path-opulent-2019-05-15",
-    "https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-rallying-reluctant-2019-05-22"
-   ]
+   "status": "ALL_PAGES_CITED",
+   "uncited_urls": []
   },
   {
    "arc": "DSK",
@@ -612,7 +608,7 @@
   {
    "arc": "XLN/RIX",
    "pages": 17,
-   "cited_pages": 10,
+   "cited_pages": 17,
    "kinds": {
     "planeswalkers-guide": 2,
     "story": 15
@@ -620,16 +616,8 @@
    "citing_packs": [
     "pack_p5_ixalan_rivals_2026-10-30.json"
    ],
-   "status": "PARTIAL",
-   "uncited_urls": [
-    "https://magic.wizards.com/en/news/feature/planeswalkers-guide-ixalan-part-1-2017-11-01",
-    "https://magic.wizards.com/en/news/feature/planeswalkers-guide-ixalan-part-2-2017-11-08",
-    "https://magic.wizards.com/en/news/magic-story/race-part-1-2017-10-11",
-    "https://magic.wizards.com/en/news/magic-story/race-part-2-2017-10-18",
-    "https://magic.wizards.com/en/news/magic-story/shapers-2017-09-27",
-    "https://magic.wizards.com/en/news/magic-story/something-else-entirely-2017-10-04",
-    "https://magic.wizards.com/en/story/ixalan-plane"
-   ]
+   "status": "ALL_PAGES_CITED",
+   "uncited_urls": []
   },
   {
    "arc": "(untagged)",
@@ -863,5 +851,5 @@
    ]
   }
  ],
- "sha256": "a70d0cb6c8ffae808a2f9c6f4fb1fbb69ac08ef0e187fbba218b574a422a352f"
+ "sha256": "f0a50e6c0f85b4f632dca35496a58871693c377222742277164c20b612122c6f"
 }
