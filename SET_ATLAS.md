@@ -156,6 +156,24 @@ The [28-code Wizards source ledger](data/set_atlas/reprint_curated_sources_2026-
 
 **Provenance:** One new reviewed record (`SLX`) has its exact Scryfall code explicitly named in a Wizards publication. For the other **27**, Wizards' source backs the *product family or name* while the code mapping comes from the frozen Scryfall catalog. The [offline product lookup](scripts/product_family_lookup.py) applies the new source overlay without rewriting the older 12-, 23-, or eight-code evidence snapshots. Run `python3 scripts/audit_reprint_curated_sources.py` for a byte-for-byte reproducibility check. These **71** source-backed product families must not be presented as 71 premier sets or 71 original card designs.
 
+## Boxed products versus scheme/planar card component archives
+
+The [15-code Wizards source ledger](data/set_atlas/boxed_precon_sources_2026-10-29.json) and [reproducible boxed-product audit](data/set_atlas/boxed_precon_source_audit_2026-10-29.json) document **ten packaged products/collections** and **five subordinate Scryfall component codes** in the preconstructed/boxed research cohort.
+
+| Packaged game or collection | Scryfall code | Separate internal card archive |
+| --- | --- | --- |
+| Original Archenemy game packs (2010) | `ARC` | `OARC` — oversized schemes |
+| Archenemy: Nicol Bolas (2017) | `E01` | `OE01` — oversized schemes |
+| Planechase (2009) | `HOP` | `OHOP` — plane cards |
+| Planechase (2012) | `PC2` | `OPC2` — planes and phenomena |
+| Planechase Anthology (2016) | `PCA` | `OPCA` — 86 oversized planar cards |
+
+**These paired codes are not two separately sold expansion releases.** Wizards documents how [Archenemy game packs](https://magic.wizards.com/en/news/feature/archenemy-rules-revealed-2010-05-17) bundle 60-card decks with 20-card scheme decks; [Archenemy: Nicol Bolas](https://magic.wizards.com/en/news/feature/archenemy-nicol-bolas-release-notes-2017-06-16) contains four 60-card decks and 20 oversized schemes. [Planechase Anthology](https://magic.wizards.com/en/news/feature/planechase-anthology-celebration-magics-history-2016-11-14) includes four 2012 Planechase decks and 78 plane plus eight phenomenon cards. The component-to-product set-code links come from Scryfall's **explicit `parent_set_code`**, with no guessed links.
+
+Five additional boxed/collection products were reviewed against direct Wizards articles: [Commander Anthology](https://magic.wizards.com/en/news/announcements/commander-anthology-vol-ii-legends-and-decklists-2018-05-08) and Volume II (four previously released decks in each), [Commander Collection: Green](https://magic.wizards.com/en/news/card-preview/commander-collection-green-packaging-and-contents-2020-08-22) and [Black](https://magic.wizards.com/en/news/announcements/commander-collection-black-packaging-and-contents-2021-08-24) (eight fixed reprints each), and [Commander's Arsenal](https://magic.wizards.com/en/news/making-magic/command-2012-10-25) (18 premium cards, ten oversized legendary cards, and accessories). They are **not** additional independently drafted premier expansion booster releases.
+
+The 15-code review increases the cumulative **848** outside-category paper corpus to **86** product-family codes with Wizards evidence and **762** still awaiting individual source review. Within the boxed/preconstructed cohort, **95** remain (down from 110). Run `python3 scripts/audit_boxed_precon_sources.py` to check byte-for-byte reproduction, or `python3 scripts/product_family_lookup.py --cohort preconstructed_and_boxed --only-pending --all` to see that dated review queue. Neither a fixed box nor a distinct record for scheme/planar components independently certifies Standard legality, format legality, or a premier release count.
+
 ## Read-only lookups
 
 On a checkout of this repository, no Scryfall download is needed for the following commands:
