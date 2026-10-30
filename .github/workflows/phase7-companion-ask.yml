@@ -1,0 +1,35 @@
+name: Phase 7 companion ask (confidence-flagged QA)
+
+on:
+  pull_request:
+    paths:
+      - 'scripts/mv_ask.py'
+      - 'scripts/query_multiverse_graph.py'
+      - 'tests/test_mv_ask.py'
+      - 'data/multiverse_graph/**'
+      - 'data/card_index.csv'
+      - '.github/workflows/phase7-companion-ask.yml'
+  push:
+    paths:
+      - 'scripts/mv_ask.py'
+      - 'tests/test_mv_ask.py'
+      - 'data/multiverse_graph/**'
+      - '.github/workflows/phase7-companion-ask.yml'
+  workflow_dispatch:
+
+jobs:
+  companion-ask:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Representative questions
+        run: |
+          python3 scripts/mv_ask.py ask "Who is Urza's brother?"
+          python3 scripts/mv_ask.py ask "Where did the Golgothian Sylex come from?"
+          python3 scripts/mv_ask.py card "Sol Ring"
+          set +e; python3 scripts/mv_ask.py ask "Who is Zorblax the Unreal?"; test $? -eq 3
+      - name: Companion tests
+        run: python3 -m unittest discover -s tests -p 'test_mv_ask.py' -v
