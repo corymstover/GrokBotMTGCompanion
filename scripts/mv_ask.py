@@ -239,11 +239,14 @@ PATTERNS = [  # (regex, relation, direction from the named entity's point of vie
     (re.compile(r"who (?:is|was) (.+?)'s (?:father|parent|dad)\??$", re.I), "parent_of", "in"),
     (re.compile(r"who (?:are|were) (.+?)'s parents\??$", re.I), "parent_of", "in"),
     (re.compile(r"who (?:is|was) (.+?)'s (?:lover|partner|girlfriend|boyfriend|romantic partner)\??$", re.I), "romantically_involved_with", None),
-    (re.compile(r"who (?:leads|led|captains|captained|heads|headed|runs|ran) (?:the )?(.+?)\??$", re.I), LEADER_UNION, "in"),
+    (re.compile(r"who (?:currently )?(?:leads|led|captains|captained|heads|headed|runs|ran) (?:the )?(.+?)(?: now| today| currently| these days)?\??$", re.I), LEADER_UNION, "in"),
     (re.compile(r"who won (?:the )?(.+?)\??$", re.I), "won", "in"),
     (re.compile(r"who (?:are|were|is|was) (.+?)'s (?:allies|ally|friends|friend)\??$", re.I), "allied_with|friend_of|childhood_friend_of", None),
     # Batch 8 Phase 7 rephrasings over the Batch 7/8 relations
-    (re.compile(r"who (?:is|was|are|were) the (?:leaders?|heads?|rulers?|captains?|governors?) of (?:the )?(.+?)\??$", re.I), LEADER_UNION, "in"),
+    # Batch 14 Phase 7: "who's", "current", guildmaster/khan/chief/commander titles, "in charge of", "commands"
+    (re.compile(r"who(?:'s|’s| is| was| are| were) (?:the )?(?:current |present |new |original |first )?(?:leaders?|heads?|rulers?|captains?|governors?|guildmasters?|guild ?leaders?|chiefs?|commanders?|khans?|masters?|bosses?) of (?:the )?(.+?)\??$", re.I), LEADER_UNION, "in"),
+    (re.compile(r"who(?:'s|’s| is| was| are| were) (?:currently )?in (?:charge|command|control) of (?:the )?(.+?)\??$", re.I), LEADER_UNION, "in"),
+    (re.compile(r"who (?:commands|commanded) (?:the )?(.+?)\??$", re.I), LEADER_UNION, "in"),
     (re.compile(r"who (?:governs|governed|rules|ruled) (?:over )?(?:the )?(.+?)\??$", re.I), "ruled|" + LEADER_UNION, "in"),
     (re.compile(r"who (?:mentored|taught|trained) (?:the )?(.+?)\??$", re.I), "mentored", "in"),
     (re.compile(r"who (?:is|was|are|were) (.+?)'s (?:mentors?|teachers?)\??$", re.I), "mentored", "in"),
