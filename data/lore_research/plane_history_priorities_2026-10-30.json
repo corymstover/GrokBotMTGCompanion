@@ -586,8 +586,8 @@
     {
       "id": "plane:old_phyrexia",
       "name": "Phyrexia",
-      "claim_edges": 7,
-      "distinct_claims": 7,
+      "claim_edges": 8,
+      "distinct_claims": 8,
       "claims": [
         "B006",
         "B013",
@@ -595,6 +595,7 @@
         "C010",
         "C013",
         "C025",
+        "C502",
         "WSM010"
       ],
       "official_source_ids": [

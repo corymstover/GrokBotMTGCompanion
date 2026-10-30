@@ -12,6 +12,11 @@ on:
       - 'scripts/query_lore_chronology.py'
       - 'scripts/monitor_multiverse_updates.py'
       - 'scripts/build_plane_history_priorities.py'
+      - 'scripts/audit_lore_pack_c5.py'
+      - 'scripts/build_claim_card_anchors.py'
+      - 'data/lore_research/pack_c5_phyrexian_invasion_outcome_2026-10-30.json'
+      - 'data/lore_research/claim_card_anchors_2026-10-30.json'
+      - 'data/lore_research/story_coverage_inventory_2026-10-30.json'
       - 'data/multiverse_graph/**'
       - 'data/lore_research/story_image_label_printings_2026-10-30.json'
       - 'data/lore_research/plane_history_priorities_2026-10-30.json'
@@ -22,6 +27,8 @@ on:
       - 'tests/test_printing_card_representations.py'
       - 'tests/test_multiverse_progress_tracker.py'
       - 'tests/test_phase5_chronology_coverage.py'
+      - 'tests/test_lore_pack_c5_invasion_outcome.py'
+      - 'tests/test_claim_card_anchors.py'
       - 'tests/test_multiverse_update_monitor.py'
       - 'data/maintenance/multiverse_update_monitor_baseline_2026-10-30.json'
       - 'tests/test_phase1b_snapshot_cache_diagnostics.py'
@@ -39,6 +46,11 @@ on:
       - 'scripts/query_lore_chronology.py'
       - 'scripts/monitor_multiverse_updates.py'
       - 'scripts/build_plane_history_priorities.py'
+      - 'scripts/audit_lore_pack_c5.py'
+      - 'scripts/build_claim_card_anchors.py'
+      - 'data/lore_research/pack_c5_phyrexian_invasion_outcome_2026-10-30.json'
+      - 'data/lore_research/claim_card_anchors_2026-10-30.json'
+      - 'data/lore_research/story_coverage_inventory_2026-10-30.json'
       - 'data/multiverse_graph/**'
       - 'data/lore_research/story_image_label_printings_2026-10-30.json'
       - 'data/lore_research/plane_history_priorities_2026-10-30.json'
@@ -49,6 +61,8 @@ on:
       - 'tests/test_printing_card_representations.py'
       - 'tests/test_multiverse_progress_tracker.py'
       - 'tests/test_phase5_chronology_coverage.py'
+      - 'tests/test_lore_pack_c5_invasion_outcome.py'
+      - 'tests/test_claim_card_anchors.py'
       - 'tests/test_multiverse_update_monitor.py'
       - 'data/maintenance/multiverse_update_monitor_baseline_2026-10-30.json'
       - 'tests/test_phase1b_snapshot_cache_diagnostics.py'
@@ -86,6 +100,11 @@ jobs:
         run: |
           python3 scripts/query_lore_chronology.py --check
           python3 scripts/build_plane_history_priorities.py --check
+          python3 scripts/build_story_coverage_inventory.py --check
+          python3 scripts/audit_lore_pack_c5.py --check
+          python3 scripts/build_claim_card_anchors.py --check
+          python3 -m unittest discover -s tests -p 'test_lore_pack_c5_invasion_outcome.py' -q
+          python3 -m unittest discover -s tests -p 'test_claim_card_anchors.py' -q
           python3 -m unittest discover -s tests -p 'test_phase5_chronology_coverage.py' -q
           python3 scripts/audit_lore_pilot.py
       - name: Offline update-monitor parser and baseline integrity

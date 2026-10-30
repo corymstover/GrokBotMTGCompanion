@@ -14,17 +14,17 @@ schema: 2
 <!-- MULTIVERSE-CURRENT:START -->
 ## MTG Multiverse Companion — current engineering checkpoint (2026-10-30)
 
-**Live authority:** [Master Workflow v2.47](MTG_MULTIVERSE_MASTER_WORKFLOW.md), the current
+**Live authority:** [Master Workflow v2.48](MTG_MULTIVERSE_MASTER_WORKFLOW.md), the current
 graph and dated recount. The older cycle-36/October-15 metrics **below this section are historical**;
 they are not the active Phase 1–8 completion counters.
 
 | Measure | Verified committed state | Important limitation |
 | --- | ---: | --- |
-| Master Workflow checklist | **69/125 checked; 56 open** | Engineering verification, never owner approval. |
+| Master Workflow checklist | **70/126 checked; 56 open** | Engineering verification, never owner approval. |
 | Priority card enrichments | **5362/5,362** | Enrichment does not imply every card has a sourced story. |
 | Source-page inventory | **576 cited + 50 reviewed = 626 accounted for** | Current inventoried pages only, not all fiction ever published. |
-| Cited lore claims | **1139** | Claim packs remain preliminary research. |
-| Cited graph | **5040 nodes / 7963 edges** | Unresolved orphan/variant and chronology work remains. |
+| Cited lore claims | **1141** | Live graph/inventory concordance; claim packs remain preliminary research. |
+| Cited graph | **5044 nodes / 7971 edges** | Unresolved orphan/variant and chronology work remains. |
 | Exact printing-specific representations | **560** | Frozen snapshot + official art-file label evidence, **not** canon scene depiction. |
 | In-universe dated claim edges | **33** | Most graph edges lack a verified in-world date. |
 | Unapproved graph-built Commander pilots | **3** | Cory has approved none of the three. |

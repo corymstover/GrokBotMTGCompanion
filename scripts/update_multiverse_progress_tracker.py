@@ -28,11 +28,15 @@ def build() -> str:
         raise ValueError("Master Workflow has no version")
     checks = re.findall(r"^- \[(x| )\] ", workflow, re.M)
     graph = load("data/multiverse_graph/multiverse_graph.json")["stats"]
-    recount = load("data/release/batch_recount_2026-10-30_b14.json")["coverage"]
+    # Do not use the archived Batch-14 recount for *current* claimed counts.
+    # New source-graded claim packs may be appended after that dated report.
+    coverage = load("data/lore_research/story_coverage_inventory_2026-10-30.json")["totals"]
     enrichment = load("data/card_enrichment.json")["cards"]
     readiness = load("data/release/readiness_2026-10-30.json")["verdict"]
     done = sum(x == "x" for x in checks)
     assert len(enrichment) == 5362, "unexpected priority-enrichment count; review the tracker generator"
+    current_claims = sum(graph["claims_by_status"].values())
+    assert coverage["claims"] == current_claims, "story inventory and graph claim counts diverged"
     return f"""{START}
 ## MTG Multiverse Companion — current engineering checkpoint (2026-10-30)
 
@@ -44,8 +48,8 @@ they are not the active Phase 1–8 completion counters.
 | --- | ---: | --- |
 | Master Workflow checklist | **{done}/{len(checks)} checked; {len(checks)-done} open** | Engineering verification, never owner approval. |
 | Priority card enrichments | **{len(enrichment)}/5,362** | Enrichment does not imply every card has a sourced story. |
-| Source-page inventory | **{recount['cited_pages']} cited + {recount['reviewed_no_claim_pages']} reviewed = {recount['pages']} accounted for** | Current inventoried pages only, not all fiction ever published. |
-| Cited lore claims | **{recount['claims']}** | Claim packs remain preliminary research. |
+| Source-page inventory | **{coverage['cited_pages']} cited + {coverage['reviewed_no_claim_pages']} reviewed = {coverage['pages']} accounted for** | Current inventoried pages only, not all fiction ever published. |
+| Cited lore claims | **{current_claims}** | Live graph/inventory concordance; claim packs remain preliminary research. |
 | Cited graph | **{graph['nodes']} nodes / {graph['edges']} edges** | Unresolved orphan/variant and chronology work remains. |
 | Exact printing-specific representations | **{graph.get('exact_art_printings', 0)}** | Frozen snapshot + official art-file label evidence, **not** canon scene depiction. |
 | In-universe dated claim edges | **{graph['claim_edges_with_in_universe_date']}** | Most graph edges lack a verified in-world date. |
