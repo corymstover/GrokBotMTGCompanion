@@ -1,0 +1,5941 @@
+{
+  "boxed_source_pending_after_batch": 30,
+  "caveats": [
+    "Nineteen Scryfall commander-type codes are not nineteen individual decks, nineteen premier sets or nineteen certified product print inventories.",
+    "FDC Scryfall earliest-card metadata says 2024-11-15, while Wizards' five Foundations Commander boxed decks went on sale 2026-10-02. This is an intentionally preserved cross-year distinction, not evidence of 2024 boxed deck sales.",
+    "All official product-family links and Scryfall metadata remain independent: Wizards sources do not necessarily print Scryfall's three-letter code.",
+    "Legality, decklist printing versions, debut counts, and precise set-level first printings remain separately uncertified.",
+    "151 source-backed plus 697 source-pending conserves all 848 frozen non-expansion/core released paper codes."
+  ],
+  "cumulative_family_source_backed_codes": 151,
+  "cumulative_source_pending_codes": 697,
+  "cutoff": "2026-10-29",
+  "new_source_backed_commander_product_family_codes": 19,
+  "previous_boxed_source_pending": 49,
+  "prior_audit": "commander_set_linked_source_audit_2026-10-29.json",
+  "remaining_commander_type_source_pending": 0,
+  "remaining_source_pending_queue": [
+    {
+      "code": "phtr",
+      "explicit_parent_set_code": null,
+      "name": "2016 Heroes of the Realm",
+      "release_date": "2017-09-20",
+      "research_priority": 1,
+      "scryfall_type": "funny"
+    },
+    {
+      "code": "ph17",
+      "explicit_parent_set_code": null,
+      "name": "2017 Heroes of the Realm",
+      "release_date": "2018-08-01",
+      "research_priority": 1,
+      "scryfall_type": "funny"
+    },
+    {
+      "code": "ph18",
+      "explicit_parent_set_code": null,
+      "name": "2018 Heroes of the Realm",
+      "release_date": "2019-08-01",
+      "research_priority": 1,
+      "scryfall_type": "funny"
+    },
+    {
+      "code": "ph19",
+      "explicit_parent_set_code": null,
+      "name": "2019 Heroes of the Realm",
+      "release_date": "2020-08-01",
+      "research_priority": 1,
+      "scryfall_type": "funny"
+    },
+    {
+      "code": "ph20",
+      "explicit_parent_set_code": null,
+      "name": "2020 Heroes of the Realm",
+      "release_date": "2021-08-01",
+      "research_priority": 1,
+      "scryfall_type": "funny"
+    },
+    {
+      "code": "ph21",
+      "explicit_parent_set_code": null,
+      "name": "2021 Heroes of the Realm",
+      "release_date": "2022-08-01",
+      "research_priority": 1,
+      "scryfall_type": "funny"
+    },
+    {
+      "code": "ph22",
+      "explicit_parent_set_code": null,
+      "name": "2022 Heroes of the Realm",
+      "release_date": "2023-08-01",
+      "research_priority": 1,
+      "scryfall_type": "funny"
+    },
+    {
+      "code": "punk",
+      "explicit_parent_set_code": "unk",
+      "name": "Black Lotus Unknown Planechase",
+      "release_date": "2024-02-24",
+      "research_priority": 1,
+      "scryfall_type": "funny"
+    },
+    {
+      "code": "ph23",
+      "explicit_parent_set_code": null,
+      "name": "2023 Heroes of the Realm",
+      "release_date": "2025-08-24",
+      "research_priority": 1,
+      "scryfall_type": "funny"
+    },
+    {
+      "code": "itp",
+      "explicit_parent_set_code": null,
+      "name": "Introductory Two-Player Set",
+      "release_date": "1996-12-31",
+      "research_priority": 1,
+      "scryfall_type": "starter"
+    },
+    {
+      "code": "cp1",
+      "explicit_parent_set_code": "m15",
+      "name": "Magic 2015 Clash Pack",
+      "release_date": "2014-07-18",
+      "research_priority": 1,
+      "scryfall_type": "starter"
+    },
+    {
+      "code": "cp2",
+      "explicit_parent_set_code": "frf",
+      "name": "Fate Reforged Clash Pack",
+      "release_date": "2015-01-23",
+      "research_priority": 1,
+      "scryfall_type": "starter"
+    },
+    {
+      "code": "w16",
+      "explicit_parent_set_code": null,
+      "name": "Welcome Deck 2016",
+      "release_date": "2016-04-08",
+      "research_priority": 1,
+      "scryfall_type": "starter"
+    },
+    {
+      "code": "bot",
+      "explicit_parent_set_code": "bro",
+      "name": "Transformers",
+      "release_date": "2022-11-18",
+      "research_priority": 2,
+      "scryfall_type": "eternal"
+    },
+    {
+      "code": "rex",
+      "explicit_parent_set_code": "lci",
+      "name": "Jurassic World Collection",
+      "release_date": "2023-11-17",
+      "research_priority": 2,
+      "scryfall_type": "eternal"
+    },
+    {
+      "code": "spe",
+      "explicit_parent_set_code": "spm",
+      "name": "Marvel's Spider-Man Eternal",
+      "release_date": "2025-09-26",
+      "research_priority": 2,
+      "scryfall_type": "eternal"
+    },
+    {
+      "code": "tle",
+      "explicit_parent_set_code": "tla",
+      "name": "Avatar: The Last Airbender Eternal",
+      "release_date": "2025-11-21",
+      "research_priority": 2,
+      "scryfall_type": "eternal"
+    },
+    {
+      "code": "tmc",
+      "explicit_parent_set_code": "tmt",
+      "name": "Teenage Mutant Ninja Turtles Eternal",
+      "release_date": "2026-03-06",
+      "research_priority": 2,
+      "scryfall_type": "eternal"
+    },
+    {
+      "code": "hoc",
+      "explicit_parent_set_code": "hob",
+      "name": "The Hobbit Eternal",
+      "release_date": "2026-08-14",
+      "research_priority": 2,
+      "scryfall_type": "eternal"
+    },
+    {
+      "code": "bchr",
+      "explicit_parent_set_code": "chr",
+      "name": "Chronicles Foreign Black Border",
+      "release_date": "1995-07-01",
+      "research_priority": 2,
+      "scryfall_type": "masters"
+    },
+    {
+      "code": "rin",
+      "explicit_parent_set_code": null,
+      "name": "Rinascimento",
+      "release_date": "1995-08-01",
+      "research_priority": 2,
+      "scryfall_type": "masters"
+    },
+    {
+      "code": "ss2",
+      "explicit_parent_set_code": null,
+      "name": "Signature Spellbook: Gideon",
+      "release_date": "2019-06-28",
+      "research_priority": 2,
+      "scryfall_type": "spellbook"
+    },
+    {
+      "code": "rqs",
+      "explicit_parent_set_code": null,
+      "name": "Rivals Quick Start Set",
+      "release_date": "1996-07-01",
+      "research_priority": 3,
+      "scryfall_type": "box"
+    },
+    {
+      "code": "mgb",
+      "explicit_parent_set_code": "vis",
+      "name": "Multiverse Gift Box",
+      "release_date": "1996-11-01",
+      "research_priority": 3,
+      "scryfall_type": "box"
+    },
+    {
+      "code": "ath",
+      "explicit_parent_set_code": null,
+      "name": "Anthologies",
+      "release_date": "1998-11-01",
+      "research_priority": 3,
+      "scryfall_type": "box"
+    },
+    {
+      "code": "brb",
+      "explicit_parent_set_code": null,
+      "name": "Battle Royale Box Set",
+      "release_date": "1999-11-12",
+      "research_priority": 3,
+      "scryfall_type": "box"
+    },
+    {
+      "code": "btd",
+      "explicit_parent_set_code": null,
+      "name": "Beatdown Box Set",
+      "release_date": "2000-10-01",
+      "research_priority": 3,
+      "scryfall_type": "box"
+    },
+    {
+      "code": "dkm",
+      "explicit_parent_set_code": null,
+      "name": "Deckmasters",
+      "release_date": "2001-12-01",
+      "research_priority": 3,
+      "scryfall_type": "box"
+    },
+    {
+      "code": "psal",
+      "explicit_parent_set_code": null,
+      "name": "Salvat 2005",
+      "release_date": "2005-08-22",
+      "research_priority": 3,
+      "scryfall_type": "box"
+    },
+    {
+      "code": "phuk",
+      "explicit_parent_set_code": null,
+      "name": "Hachette UK",
+      "release_date": "2006-01-01",
+      "research_priority": 3,
+      "scryfall_type": "box"
+    },
+    {
+      "code": "cst",
+      "explicit_parent_set_code": "csp",
+      "name": "Coldsnap Theme Decks",
+      "release_date": "2006-07-21",
+      "research_priority": 3,
+      "scryfall_type": "box"
+    },
+    {
+      "code": "dpa",
+      "explicit_parent_set_code": null,
+      "name": "Duels of the Planeswalkers",
+      "release_date": "2010-06-04",
+      "research_priority": 3,
+      "scryfall_type": "box"
+    },
+    {
+      "code": "ps11",
+      "explicit_parent_set_code": null,
+      "name": "Salvat 2011",
+      "release_date": "2011-01-01",
+      "research_priority": 3,
+      "scryfall_type": "box"
+    },
+    {
+      "code": "md1",
+      "explicit_parent_set_code": null,
+      "name": "Modern Event Deck 2014",
+      "release_date": "2014-05-30",
+      "research_priority": 3,
+      "scryfall_type": "box"
+    },
+    {
+      "code": "g17",
+      "explicit_parent_set_code": null,
+      "name": "2017 Gift Pack",
+      "release_date": "2017-10-20",
+      "research_priority": 3,
+      "scryfall_type": "box"
+    },
+    {
+      "code": "e02",
+      "explicit_parent_set_code": null,
+      "name": "Explorers of Ixalan",
+      "release_date": "2017-11-24",
+      "research_priority": 3,
+      "scryfall_type": "box"
+    },
+    {
+      "code": "gk1",
+      "explicit_parent_set_code": null,
+      "name": "GRN Guild Kit",
+      "release_date": "2018-11-02",
+      "research_priority": 3,
+      "scryfall_type": "box"
+    },
+    {
+      "code": "g18",
+      "explicit_parent_set_code": "m19",
+      "name": "M19 Gift Pack",
+      "release_date": "2018-11-16",
+      "research_priority": 3,
+      "scryfall_type": "box"
+    },
+    {
+      "code": "gnt",
+      "explicit_parent_set_code": null,
+      "name": "Game Night",
+      "release_date": "2018-11-16",
+      "research_priority": 3,
+      "scryfall_type": "box"
+    },
+    {
+      "code": "gk2",
+      "explicit_parent_set_code": null,
+      "name": "RNA Guild Kit",
+      "release_date": "2019-02-15",
+      "research_priority": 3,
+      "scryfall_type": "box"
+    },
+    {
+      "code": "gn2",
+      "explicit_parent_set_code": null,
+      "name": "Game Night 2019",
+      "release_date": "2019-11-15",
+      "research_priority": 3,
+      "scryfall_type": "box"
+    },
+    {
+      "code": "sld",
+      "explicit_parent_set_code": null,
+      "name": "Secret Lair Drop",
+      "release_date": "2019-12-02",
+      "research_priority": 3,
+      "scryfall_type": "box"
+    },
+    {
+      "code": "slu",
+      "explicit_parent_set_code": "sld",
+      "name": "Secret Lair: Ultimate Edition",
+      "release_date": "2020-05-29",
+      "research_priority": 3,
+      "scryfall_type": "box"
+    },
+    {
+      "code": "q06",
+      "explicit_parent_set_code": null,
+      "name": "Pioneer Challenger Decks 2021",
+      "release_date": "2021-10-15",
+      "research_priority": 3,
+      "scryfall_type": "box"
+    },
+    {
+      "code": "q07",
+      "explicit_parent_set_code": null,
+      "name": "Challenger Decks 2022",
+      "release_date": "2022-04-01",
+      "research_priority": 3,
+      "scryfall_type": "box"
+    },
+    {
+      "code": "gn3",
+      "explicit_parent_set_code": null,
+      "name": "Game Night: Free-for-All",
+      "release_date": "2022-10-14",
+      "research_priority": 3,
+      "scryfall_type": "box"
+    },
+    {
+      "code": "slc",
+      "explicit_parent_set_code": "sld",
+      "name": "Secret Lair Countdown",
+      "release_date": "2022-11-01",
+      "research_priority": 3,
+      "scryfall_type": "box"
+    },
+    {
+      "code": "slz",
+      "explicit_parent_set_code": null,
+      "name": "The Zeta Set",
+      "release_date": "2026-09-02",
+      "research_priority": 3,
+      "scryfall_type": "box"
+    },
+    {
+      "code": "gs1",
+      "explicit_parent_set_code": null,
+      "name": "Global Series Jiang Yanggu & Mu Yanling",
+      "release_date": "2018-06-22",
+      "research_priority": 3,
+      "scryfall_type": "duel_deck"
+    },
+    {
+      "code": "h09",
+      "explicit_parent_set_code": null,
+      "name": "Premium Deck Series: Slivers",
+      "release_date": "2009-11-20",
+      "research_priority": 3,
+      "scryfall_type": "premium_deck"
+    },
+    {
+      "code": "pd2",
+      "explicit_parent_set_code": null,
+      "name": "Premium Deck Series: Fire and Lightning",
+      "release_date": "2010-11-19",
+      "research_priority": 3,
+      "scryfall_type": "premium_deck"
+    },
+    {
+      "code": "pd3",
+      "explicit_parent_set_code": null,
+      "name": "Premium Deck Series: Graveborn",
+      "release_date": "2011-11-18",
+      "research_priority": 3,
+      "scryfall_type": "premium_deck"
+    },
+    {
+      "code": "exp",
+      "explicit_parent_set_code": "bfz",
+      "name": "Zendikar Expeditions",
+      "release_date": "2015-10-02",
+      "research_priority": 4,
+      "scryfall_type": "masterpiece"
+    },
+    {
+      "code": "mps",
+      "explicit_parent_set_code": "kld",
+      "name": "Kaladesh Inventions",
+      "release_date": "2016-09-30",
+      "research_priority": 4,
+      "scryfall_type": "masterpiece"
+    },
+    {
+      "code": "mp2",
+      "explicit_parent_set_code": "akh",
+      "name": "Amonkhet Invocations",
+      "release_date": "2017-04-28",
+      "research_priority": 4,
+      "scryfall_type": "masterpiece"
+    },
+    {
+      "code": "med",
+      "explicit_parent_set_code": null,
+      "name": "Mythic Edition",
+      "release_date": "2018-10-05",
+      "research_priority": 4,
+      "scryfall_type": "masterpiece"
+    },
+    {
+      "code": "puma",
+      "explicit_parent_set_code": "uma",
+      "name": "Ultimate Box Topper",
+      "release_date": "2018-12-07",
+      "research_priority": 4,
+      "scryfall_type": "masterpiece"
+    },
+    {
+      "code": "zne",
+      "explicit_parent_set_code": "znr",
+      "name": "Zendikar Rising Expeditions",
+      "release_date": "2020-09-25",
+      "research_priority": 4,
+      "scryfall_type": "masterpiece"
+    },
+    {
+      "code": "sta",
+      "explicit_parent_set_code": "stx",
+      "name": "Strixhaven Mystical Archive",
+      "release_date": "2021-04-23",
+      "research_priority": 4,
+      "scryfall_type": "masterpiece"
+    },
+    {
+      "code": "brr",
+      "explicit_parent_set_code": "bro",
+      "name": "The Brothers' War Retro Artifacts",
+      "release_date": "2022-11-18",
+      "research_priority": 4,
+      "scryfall_type": "masterpiece"
+    },
+    {
+      "code": "mul",
+      "explicit_parent_set_code": "mom",
+      "name": "Multiverse Legends",
+      "release_date": "2023-04-21",
+      "research_priority": 4,
+      "scryfall_type": "masterpiece"
+    },
+    {
+      "code": "wot",
+      "explicit_parent_set_code": "woe",
+      "name": "Wilds of Eldraine: Enchanting Tales",
+      "release_date": "2023-09-08",
+      "research_priority": 4,
+      "scryfall_type": "masterpiece"
+    },
+    {
+      "code": "spg",
+      "explicit_parent_set_code": null,
+      "name": "Special Guests",
+      "release_date": "2023-11-17",
+      "research_priority": 4,
+      "scryfall_type": "masterpiece"
+    },
+    {
+      "code": "otp",
+      "explicit_parent_set_code": "otj",
+      "name": "Breaking News",
+      "release_date": "2024-04-19",
+      "research_priority": 4,
+      "scryfall_type": "masterpiece"
+    },
+    {
+      "code": "fca",
+      "explicit_parent_set_code": "fin",
+      "name": "Final Fantasy: Through the Ages",
+      "release_date": "2025-06-13",
+      "research_priority": 4,
+      "scryfall_type": "masterpiece"
+    },
+    {
+      "code": "eos",
+      "explicit_parent_set_code": "eoe",
+      "name": "Edge of Eternities: Stellar Sights",
+      "release_date": "2025-08-01",
+      "research_priority": 4,
+      "scryfall_type": "masterpiece"
+    },
+    {
+      "code": "mar",
+      "explicit_parent_set_code": null,
+      "name": "Marvel Universe",
+      "release_date": "2025-09-26",
+      "research_priority": 4,
+      "scryfall_type": "masterpiece"
+    },
+    {
+      "code": "pza",
+      "explicit_parent_set_code": "tmt",
+      "name": "Teenage Mutant Ninja Turtles Source Material",
+      "release_date": "2026-03-06",
+      "research_priority": 4,
+      "scryfall_type": "masterpiece"
+    },
+    {
+      "code": "soa",
+      "explicit_parent_set_code": "sos",
+      "name": "Secrets of Strixhaven Mystical Archive",
+      "release_date": "2026-04-24",
+      "research_priority": 4,
+      "scryfall_type": "masterpiece"
+    },
+    {
+      "code": "ced",
+      "explicit_parent_set_code": null,
+      "name": "Collectors' Edition",
+      "release_date": "1993-12-10",
+      "research_priority": 4,
+      "scryfall_type": "memorabilia"
+    },
+    {
+      "code": "cei",
+      "explicit_parent_set_code": null,
+      "name": "Intl. Collectors' Edition",
+      "release_date": "1993-12-10",
+      "research_priority": 4,
+      "scryfall_type": "memorabilia"
+    },
+    {
+      "code": "o90p",
+      "explicit_parent_set_code": null,
+      "name": "Oversized 90's Promos",
+      "release_date": "1996-04-01",
+      "research_priority": 4,
+      "scryfall_type": "memorabilia"
+    },
+    {
+      "code": "ptc",
+      "explicit_parent_set_code": null,
+      "name": "Pro Tour Collector Set",
+      "release_date": "1996-05-01",
+      "research_priority": 4,
+      "scryfall_type": "memorabilia"
+    },
+    {
+      "code": "pcel",
+      "explicit_parent_set_code": null,
+      "name": "Celebration Cards",
+      "release_date": "1996-08-14",
+      "research_priority": 4,
+      "scryfall_type": "memorabilia"
+    },
+    {
+      "code": "pmic",
+      "explicit_parent_set_code": "past",
+      "name": "MicroProse Promos",
+      "release_date": "1997-04-01",
+      "research_priority": 4,
+      "scryfall_type": "memorabilia"
+    },
+    {
+      "code": "olep",
+      "explicit_parent_set_code": null,
+      "name": "Oversized League Prizes",
+      "release_date": "1997-05-30",
+      "research_priority": 4,
+      "scryfall_type": "memorabilia"
+    },
+    {
+      "code": "wc97",
+      "explicit_parent_set_code": null,
+      "name": "World Championship Decks 1997",
+      "release_date": "1997-08-13",
+      "research_priority": 4,
+      "scryfall_type": "memorabilia"
+    },
+    {
+      "code": "wc98",
+      "explicit_parent_set_code": null,
+      "name": "World Championship Decks 1998",
+      "release_date": "1998-08-12",
+      "research_priority": 4,
+      "scryfall_type": "memorabilia"
+    },
+    {
+      "code": "wc99",
+      "explicit_parent_set_code": null,
+      "name": "World Championship Decks 1999",
+      "release_date": "1999-08-04",
+      "research_priority": 4,
+      "scryfall_type": "memorabilia"
+    },
+    {
+      "code": "wc00",
+      "explicit_parent_set_code": null,
+      "name": "World Championship Decks 2000",
+      "release_date": "2000-08-02",
+      "research_priority": 4,
+      "scryfall_type": "memorabilia"
+    },
+    {
+      "code": "wc01",
+      "explicit_parent_set_code": null,
+      "name": "World Championship Decks 2001",
+      "release_date": "2001-08-08",
+      "research_priority": 4,
+      "scryfall_type": "memorabilia"
+    },
+    {
+      "code": "wc02",
+      "explicit_parent_set_code": null,
+      "name": "World Championship Decks 2002",
+      "release_date": "2002-12-01",
+      "research_priority": 4,
+      "scryfall_type": "memorabilia"
+    },
+    {
+      "code": "ovnt",
+      "explicit_parent_set_code": null,
+      "name": "Vintage Championship",
+      "release_date": "2003-01-01",
+      "research_priority": 4,
+      "scryfall_type": "memorabilia"
+    },
+    {
+      "code": "wc03",
+      "explicit_parent_set_code": null,
+      "name": "World Championship Decks 2003",
+      "release_date": "2003-08-06",
+      "research_priority": 4,
+      "scryfall_type": "memorabilia"
+    },
+    {
+      "code": "wc04",
+      "explicit_parent_set_code": null,
+      "name": "World Championship Decks 2004",
+      "release_date": "2004-09-01",
+      "research_priority": 4,
+      "scryfall_type": "memorabilia"
+    },
+    {
+      "code": "olgc",
+      "explicit_parent_set_code": null,
+      "name": "Legacy Championship",
+      "release_date": "2011-01-01",
+      "research_priority": 4,
+      "scryfall_type": "memorabilia"
+    },
+    {
+      "code": "ocmd",
+      "explicit_parent_set_code": "cmd",
+      "name": "Commander 2011 Oversized",
+      "release_date": "2011-06-17",
+      "research_priority": 4,
+      "scryfall_type": "memorabilia"
+    },
+    {
+      "code": "pcmd",
+      "explicit_parent_set_code": "cmd",
+      "name": "Commander 2011 Launch Party",
+      "release_date": "2011-06-17",
+      "research_priority": 4,
+      "scryfall_type": "memorabilia"
+    },
+    {
+      "code": "phel",
+      "explicit_parent_set_code": "avr",
+      "name": "Open the Helvault",
+      "release_date": "2012-04-28",
+      "research_priority": 4,
+      "scryfall_type": "memorabilia"
+    },
+    {
+      "code": "ocm1",
+      "explicit_parent_set_code": "cm1",
+      "name": "Commander's Arsenal Oversized",
+      "release_date": "2012-11-02",
+      "research_priority": 4,
+      "scryfall_type": "memorabilia"
+    },
+    {
+      "code": "thp1",
+      "explicit_parent_set_code": "ths",
+      "name": "Theros Hero's Path",
+      "release_date": "2013-09-27",
+      "research_priority": 4,
+      "scryfall_type": "memorabilia"
+    },
+    {
+      "code": "tfth",
+      "explicit_parent_set_code": "ths",
+      "name": "Face the Hydra",
+      "release_date": "2013-10-19",
+      "research_priority": 4,
+      "scryfall_type": "memorabilia"
+    },
+    {
+      "code": "oc13",
+      "explicit_parent_set_code": "c13",
+      "name": "Commander 2013 Oversized",
+      "release_date": "2013-11-01",
+      "research_priority": 4,
+      "scryfall_type": "memorabilia"
+    },
+    {
+      "code": "thp2",
+      "explicit_parent_set_code": "bng",
+      "name": "Born of the Gods Hero's Path",
+      "release_date": "2014-02-07",
+      "research_priority": 4,
+      "scryfall_type": "memorabilia"
+    },
+    {
+      "code": "tbth",
+      "explicit_parent_set_code": "bng",
+      "name": "Battle the Horde",
+      "release_date": "2014-03-01",
+      "research_priority": 4,
+      "scryfall_type": "memorabilia"
+    },
+    {
+      "code": "thp3",
+      "explicit_parent_set_code": "jou",
+      "name": "Journey into Nyx Hero's Path",
+      "release_date": "2014-05-02",
+      "research_priority": 4,
+      "scryfall_type": "memorabilia"
+    },
+    {
+      "code": "tdag",
+      "explicit_parent_set_code": "jou",
+      "name": "Defeat a God",
+      "release_date": "2014-05-25",
+      "research_priority": 4,
+      "scryfall_type": "memorabilia"
+    },
+    {
+      "code": "ppc1",
+      "explicit_parent_set_code": "m15",
+      "name": "M15 Prerelease Challenge",
+      "release_date": "2014-07-12",
+      "research_priority": 4,
+      "scryfall_type": "memorabilia"
+    },
+    {
+      "code": "oc14",
+      "explicit_parent_set_code": "c14",
+      "name": "Commander 2014 Oversized",
+      "release_date": "2014-11-07",
+      "research_priority": 4,
+      "scryfall_type": "memorabilia"
+    },
+    {
+      "code": "oc15",
+      "explicit_parent_set_code": "c15",
+      "name": "Commander 2015 Oversized",
+      "release_date": "2015-11-13",
+      "research_priority": 4,
+      "scryfall_type": "memorabilia"
+    },
+    {
+      "code": "oc16",
+      "explicit_parent_set_code": "c16",
+      "name": "Commander 2016 Oversized",
+      "release_date": "2016-11-11",
+      "research_priority": 4,
+      "scryfall_type": "memorabilia"
+    },
+    {
+      "code": "oc17",
+      "explicit_parent_set_code": "c17",
+      "name": "Commander 2017 Oversized",
+      "release_date": "2017-08-25",
+      "research_priority": 4,
+      "scryfall_type": "memorabilia"
+    },
+    {
+      "code": "oc18",
+      "explicit_parent_set_code": "c18",
+      "name": "Commander 2018 Oversized",
+      "release_date": "2018-08-10",
+      "research_priority": 4,
+      "scryfall_type": "memorabilia"
+    },
+    {
+      "code": "amh1",
+      "explicit_parent_set_code": "mh1",
+      "name": "Modern Horizons Art Series",
+      "release_date": "2019-06-14",
+      "research_priority": 4,
+      "scryfall_type": "memorabilia"
+    },
+    {
+      "code": "oc19",
+      "explicit_parent_set_code": "c19",
+      "name": "Commander 2019 Oversized",
+      "release_date": "2019-08-23",
+      "research_priority": 4,
+      "scryfall_type": "memorabilia"
+    },
+    {
+      "code": "oc20",
+      "explicit_parent_set_code": "c20",
+      "name": "Commander 2020 Oversized",
+      "release_date": "2020-04-17",
+      "research_priority": 4,
+      "scryfall_type": "memorabilia"
+    },
+    {
+      "code": "fjmp",
+      "explicit_parent_set_code": "jmp",
+      "name": "Jumpstart Front Cards",
+      "release_date": "2020-06-18",
+      "research_priority": 4,
+      "scryfall_type": "memorabilia"
+    },
+    {
+      "code": "aznr",
+      "explicit_parent_set_code": "znr",
+      "name": "Zendikar Rising Art Series",
+      "release_date": "2020-09-25",
+      "research_priority": 4,
+      "scryfall_type": "memorabilia"
+    },
+    {
+      "code": "akhm",
+      "explicit_parent_set_code": "khm",
+      "name": "Kaldheim Art Series",
+      "release_date": "2021-02-05",
+      "research_priority": 4,
+      "scryfall_type": "memorabilia"
+    },
+    {
+      "code": "astx",
+      "explicit_parent_set_code": "stx",
+      "name": "Strixhaven Art Series",
+      "release_date": "2021-04-23",
+      "research_priority": 4,
+      "scryfall_type": "memorabilia"
+    },
+    {
+      "code": "oc21",
+      "explicit_parent_set_code": "c21",
+      "name": "Commander 2021 Display Commanders",
+      "release_date": "2021-04-23",
+      "research_priority": 4,
+      "scryfall_type": "memorabilia"
+    },
+    {
+      "code": "amh2",
+      "explicit_parent_set_code": "mh2",
+      "name": "Modern Horizons 2 Art Series",
+      "release_date": "2021-06-18",
+      "research_priority": 4,
+      "scryfall_type": "memorabilia"
+    },
+    {
+      "code": "aafr",
+      "explicit_parent_set_code": "afr",
+      "name": "Adventures in the Forgotten Realms Art Series",
+      "release_date": "2021-07-23",
+      "research_priority": 4,
+      "scryfall_type": "memorabilia"
+    },
+    {
+      "code": "oafc",
+      "explicit_parent_set_code": "afc",
+      "name": "Forgotten Realms Commander Display Commanders",
+      "release_date": "2021-07-23",
+      "research_priority": 4,
+      "scryfall_type": "memorabilia"
+    },
+    {
+      "code": "oafr",
+      "explicit_parent_set_code": "afr",
+      "name": "Forgotten Realms Oversized Cards",
+      "release_date": "2021-07-23",
+      "research_priority": 4,
+      "scryfall_type": "memorabilia"
+    },
+    {
+      "code": "amid",
+      "explicit_parent_set_code": "mid",
+      "name": "Midnight Hunt Art Series",
+      "release_date": "2021-09-24",
+      "research_priority": 4,
+      "scryfall_type": "memorabilia"
+    },
+    {
+      "code": "omic",
+      "explicit_parent_set_code": "mic",
+      "name": "Midnight Hunt Commander Display Commanders",
+      "release_date": "2021-09-24",
+      "research_priority": 4,
+      "scryfall_type": "memorabilia"
+    },
+    {
+      "code": "avow",
+      "explicit_parent_set_code": "vow",
+      "name": "Crimson Vow Art Series",
+      "release_date": "2021-11-19",
+      "research_priority": 4,
+      "scryfall_type": "memorabilia"
+    },
+    {
+      "code": "ovoc",
+      "explicit_parent_set_code": "voc",
+      "name": "Crimson Vow Commander Display Commanders",
+      "release_date": "2021-11-19",
+      "research_priority": 4,
+      "scryfall_type": "memorabilia"
+    },
+    {
+      "code": "aneo",
+      "explicit_parent_set_code": "neo",
+      "name": "Neon Dynasty Art Series",
+      "release_date": "2022-02-18",
+      "research_priority": 4,
+      "scryfall_type": "memorabilia"
+    },
+    {
+      "code": "asnc",
+      "explicit_parent_set_code": "snc",
+      "name": "New Capenna Art Series",
+      "release_date": "2022-04-29",
+      "research_priority": 4,
+      "scryfall_type": "memorabilia"
+    },
+    {
+      "code": "aclb",
+      "explicit_parent_set_code": "clb",
+      "name": "Battle for Baldur's Gate Art Series",
+      "release_date": "2022-06-10",
+      "research_priority": 4,
+      "scryfall_type": "memorabilia"
+    },
+    {
+      "code": "oclb",
+      "explicit_parent_set_code": "clb",
+      "name": "Battle for Baldur's Gate Oversized Cards",
+      "release_date": "2022-06-10",
+      "research_priority": 4,
+      "scryfall_type": "memorabilia"
+    },
+    {
+      "code": "admu",
+      "explicit_parent_set_code": "dmu",
+      "name": "Dominaria United Art Series",
+      "release_date": "2022-09-09",
+      "research_priority": 4,
+      "scryfall_type": "memorabilia"
+    },
+    {
+      "code": "fdmu",
+      "explicit_parent_set_code": "dmu",
+      "name": "Dominaria United Jumpstart Front Cards",
+      "release_date": "2022-09-09",
+      "research_priority": 4,
+      "scryfall_type": "memorabilia"
+    },
+    {
+      "code": "abro",
+      "explicit_parent_set_code": "bro",
+      "name": "The Brothers' War Art Series",
+      "release_date": "2022-11-18",
+      "research_priority": 4,
+      "scryfall_type": "memorabilia"
+    },
+    {
+      "code": "fbro",
+      "explicit_parent_set_code": "bro",
+      "name": "The Brothers' War Jumpstart Front Cards",
+      "release_date": "2022-11-18",
+      "research_priority": 4,
+      "scryfall_type": "memorabilia"
+    },
+    {
+      "code": "30a",
+      "explicit_parent_set_code": null,
+      "name": "30th Anniversary Edition",
+      "release_date": "2022-11-28",
+      "research_priority": 4,
+      "scryfall_type": "memorabilia"
+    },
+    {
+      "code": "fj22",
+      "explicit_parent_set_code": "j22",
+      "name": "Jumpstart 2022 Front Cards",
+      "release_date": "2022-12-02",
+      "research_priority": 4,
+      "scryfall_type": "memorabilia"
+    },
+    {
+      "code": "aone",
+      "explicit_parent_set_code": "one",
+      "name": "Phyrexia: All Will Be One Art Series",
+      "release_date": "2023-02-10",
+      "research_priority": 4,
+      "scryfall_type": "memorabilia"
+    },
+    {
+      "code": "fone",
+      "explicit_parent_set_code": "one",
+      "name": "Phyrexia: All Will Be One Jumpstart Front Cards",
+      "release_date": "2023-02-10",
+      "research_priority": 4,
+      "scryfall_type": "memorabilia"
+    },
+    {
+      "code": "amom",
+      "explicit_parent_set_code": "mom",
+      "name": "March of the Machine Art Series",
+      "release_date": "2023-04-21",
+      "research_priority": 4,
+      "scryfall_type": "memorabilia"
+    },
+    {
+      "code": "fmom",
+      "explicit_parent_set_code": "mom",
+      "name": "March of the Machine Jumpstart Front Cards",
+      "release_date": "2023-04-21",
+      "research_priority": 4,
+      "scryfall_type": "memorabilia"
+    },
+    {
+      "code": "altr",
+      "explicit_parent_set_code": "ltr",
+      "name": "Tales of Middle-earth Art Series",
+      "release_date": "2023-06-23",
+      "research_priority": 4,
+      "scryfall_type": "memorabilia"
+    },
+    {
+      "code": "fltr",
+      "explicit_parent_set_code": "ltr",
+      "name": "Tales of Middle-earth Front Cards",
+      "release_date": "2023-06-23",
+      "research_priority": 4,
+      "scryfall_type": "memorabilia"
+    },
+    {
+      "code": "acmm",
+      "explicit_parent_set_code": "cmm",
+      "name": "Commander Masters Art Series",
+      "release_date": "2023-08-04",
+      "research_priority": 4,
+      "scryfall_type": "memorabilia"
+    },
+    {
+      "code": "awoe",
+      "explicit_parent_set_code": "woe",
+      "name": "Wilds of Eldraine Art Series",
+      "release_date": "2023-09-08",
+      "research_priority": 4,
+      "scryfall_type": "memorabilia"
+    },
+    {
+      "code": "altc",
+      "explicit_parent_set_code": "ltc",
+      "name": "Tales of Middle-earth Scene Box",
+      "release_date": "2023-11-04",
+      "research_priority": 4,
+      "scryfall_type": "memorabilia"
+    },
+    {
+      "code": "alci",
+      "explicit_parent_set_code": "lci",
+      "name": "The Lost Caverns of Ixalan Art Series",
+      "release_date": "2023-11-17",
+      "research_priority": 4,
+      "scryfall_type": "memorabilia"
+    },
+    {
+      "code": "amkm",
+      "explicit_parent_set_code": "mkm",
+      "name": "Murders at Karlov Manor Art Series",
+      "release_date": "2024-02-09",
+      "research_priority": 4,
+      "scryfall_type": "memorabilia"
+    },
+    {
+      "code": "fclu",
+      "explicit_parent_set_code": "clu",
+      "name": "Ravnica: Clue Edition Front Cards",
+      "release_date": "2024-02-23",
+      "research_priority": 4,
+      "scryfall_type": "memorabilia"
+    },
+    {
+      "code": "aotj",
+      "explicit_parent_set_code": "otj",
+      "name": "Outlaws of Thunder Junction Art Series",
+      "release_date": "2024-04-19",
+      "research_priority": 4,
+      "scryfall_type": "memorabilia"
+    },
+    {
+      "code": "amh3",
+      "explicit_parent_set_code": "mh3",
+      "name": "Modern Horizons 3 Art Series",
+      "release_date": "2024-06-14",
+      "research_priority": 4,
+      "scryfall_type": "memorabilia"
+    },
+    {
+      "code": "aacr",
+      "explicit_parent_set_code": "acr",
+      "name": "Assassin's Creed Art Series",
+      "release_date": "2024-07-05",
+      "research_priority": 4,
+      "scryfall_type": "memorabilia"
+    },
+    {
+      "code": "ablb",
+      "explicit_parent_set_code": "blb",
+      "name": "Bloomburrow Art Series",
+      "release_date": "2024-08-02",
+      "research_priority": 4,
+      "scryfall_type": "memorabilia"
+    },
+    {
+      "code": "adsk",
+      "explicit_parent_set_code": "dsk",
+      "name": "Duskmourn: House of Horror Art Series",
+      "release_date": "2024-09-27",
+      "research_priority": 4,
+      "scryfall_type": "memorabilia"
+    },
+    {
+      "code": "afdn",
+      "explicit_parent_set_code": "fdn",
+      "name": "Foundations Art Series",
+      "release_date": "2024-11-15",
+      "research_priority": 4,
+      "scryfall_type": "memorabilia"
+    },
+    {
+      "code": "ffdn",
+      "explicit_parent_set_code": "fdn",
+      "name": "Foundations Front Cards",
+      "release_date": "2024-11-15",
+      "research_priority": 4,
+      "scryfall_type": "memorabilia"
+    },
+    {
+      "code": "fj25",
+      "explicit_parent_set_code": "j25",
+      "name": "Foundations Jumpstart Front Cards",
+      "release_date": "2024-11-15",
+      "research_priority": 4,
+      "scryfall_type": "memorabilia"
+    },
+    {
+      "code": "ainr",
+      "explicit_parent_set_code": "inr",
+      "name": "Innistrad Remastered Art Series",
+      "release_date": "2025-01-24",
+      "research_priority": 4,
+      "scryfall_type": "memorabilia"
+    },
+    {
+      "code": "adft",
+      "explicit_parent_set_code": "dft",
+      "name": "Aetherdrift Art Series",
+      "release_date": "2025-02-14",
+      "research_priority": 4,
+      "scryfall_type": "memorabilia"
+    },
+    {
+      "code": "pssc",
+      "explicit_parent_set_code": "sld",
+      "name": "Secret Lair Showcase Planes",
+      "release_date": "2025-02-21",
+      "research_priority": 4,
+      "scryfall_type": "memorabilia"
+    },
+    {
+      "code": "atdm",
+      "explicit_parent_set_code": "tdm",
+      "name": "Tarkir: Dragonstorm Art Series",
+      "release_date": "2025-04-11",
+      "research_priority": 4,
+      "scryfall_type": "memorabilia"
+    },
+    {
+      "code": "afin",
+      "explicit_parent_set_code": "fin",
+      "name": "Final Fantasy Art Series",
+      "release_date": "2025-06-13",
+      "research_priority": 4,
+      "scryfall_type": "memorabilia"
+    },
+    {
+      "code": "aeoe",
+      "explicit_parent_set_code": "eoe",
+      "name": "Edge of Eternities Art Series",
+      "release_date": "2025-08-01",
+      "research_priority": 4,
+      "scryfall_type": "memorabilia"
+    },
+    {
+      "code": "aspm",
+      "explicit_parent_set_code": "spm",
+      "name": "Marvel's Spider-Man Art Series",
+      "release_date": "2025-09-26",
+      "research_priority": 4,
+      "scryfall_type": "memorabilia"
+    },
+    {
+      "code": "atla",
+      "explicit_parent_set_code": "tla",
+      "name": "Avatar: the Last Airbender Art Series",
+      "release_date": "2025-11-21",
+      "research_priority": 4,
+      "scryfall_type": "memorabilia"
+    },
+    {
+      "code": "atle",
+      "explicit_parent_set_code": "tle",
+      "name": "Avatar: the Last Airbender Eternal Art Series",
+      "release_date": "2025-11-21",
+      "research_priority": 4,
+      "scryfall_type": "memorabilia"
+    },
+    {
+      "code": "ftla",
+      "explicit_parent_set_code": "tla",
+      "name": "Avatar: The Last Airbender Beginner Box Front Cards",
+      "release_date": "2025-11-21",
+      "research_priority": 4,
+      "scryfall_type": "memorabilia"
+    },
+    {
+      "code": "jtla",
+      "explicit_parent_set_code": "tla",
+      "name": "Avatar: The Last Airbender Jumpstart Front Cards",
+      "release_date": "2025-11-21",
+      "research_priority": 4,
+      "scryfall_type": "memorabilia"
+    },
+    {
+      "code": "afic",
+      "explicit_parent_set_code": "fic",
+      "name": "Final Fantasy Scene Box",
+      "release_date": "2025-12-05",
+      "research_priority": 4,
+      "scryfall_type": "memorabilia"
+    },
+    {
+      "code": "aecl",
+      "explicit_parent_set_code": "ecl",
+      "name": "Lorwyn Eclipsed Art Series",
+      "release_date": "2026-01-23",
+      "research_priority": 4,
+      "scryfall_type": "memorabilia"
+    },
+    {
+      "code": "atmt",
+      "explicit_parent_set_code": "tmt",
+      "name": "Teenage Mutant Ninja Turtles Art Series",
+      "release_date": "2026-03-06",
+      "research_priority": 4,
+      "scryfall_type": "memorabilia"
+    },
+    {
+      "code": "ftmc",
+      "explicit_parent_set_code": "tmc",
+      "name": "Teenage Mutant Ninja Turtles Eternal Front Cards",
+      "release_date": "2026-03-06",
+      "research_priority": 4,
+      "scryfall_type": "memorabilia"
+    },
+    {
+      "code": "asos",
+      "explicit_parent_set_code": "sos",
+      "name": "Secrets of Strixhaven Art Series",
+      "release_date": "2026-04-24",
+      "research_priority": 4,
+      "scryfall_type": "memorabilia"
+    },
+    {
+      "code": "amsh",
+      "explicit_parent_set_code": "msh",
+      "name": "Marvel Super Heroes Art Series",
+      "release_date": "2026-06-26",
+      "research_priority": 4,
+      "scryfall_type": "memorabilia"
+    },
+    {
+      "code": "fmsc",
+      "explicit_parent_set_code": "msc",
+      "name": "Marvel Super Heroes Jumpstart Front Cards",
+      "release_date": "2026-06-26",
+      "research_priority": 4,
+      "scryfall_type": "memorabilia"
+    },
+    {
+      "code": "ahob",
+      "explicit_parent_set_code": "hob",
+      "name": "The Hobbit Art Series",
+      "release_date": "2026-08-14",
+      "research_priority": 4,
+      "scryfall_type": "memorabilia"
+    },
+    {
+      "code": "ahoc",
+      "explicit_parent_set_code": "hoc",
+      "name": "The Hobbit Eternal Art Series",
+      "release_date": "2026-08-14",
+      "research_priority": 4,
+      "scryfall_type": "memorabilia"
+    },
+    {
+      "code": "afra",
+      "explicit_parent_set_code": "fra",
+      "name": "Reality Fracture Art Series",
+      "release_date": "2026-10-02",
+      "research_priority": 4,
+      "scryfall_type": "memorabilia"
+    },
+    {
+      "code": "mznr",
+      "explicit_parent_set_code": "znr",
+      "name": "Zendikar Rising Minigames",
+      "release_date": "2020-09-25",
+      "research_priority": 4,
+      "scryfall_type": "minigame"
+    },
+    {
+      "code": "mkhm",
+      "explicit_parent_set_code": "khm",
+      "name": "Kaldheim Minigames",
+      "release_date": "2021-02-05",
+      "research_priority": 4,
+      "scryfall_type": "minigame"
+    },
+    {
+      "code": "mstx",
+      "explicit_parent_set_code": "stx",
+      "name": "Strixhaven: School of Mages Minigames",
+      "release_date": "2021-04-23",
+      "research_priority": 4,
+      "scryfall_type": "minigame"
+    },
+    {
+      "code": "mmh2",
+      "explicit_parent_set_code": "mh2",
+      "name": "Modern Horizons 2 Minigames",
+      "release_date": "2021-06-18",
+      "research_priority": 4,
+      "scryfall_type": "minigame"
+    },
+    {
+      "code": "mafr",
+      "explicit_parent_set_code": "afr",
+      "name": "Adventures in the Forgotten Realms Minigames",
+      "release_date": "2021-07-23",
+      "research_priority": 4,
+      "scryfall_type": "minigame"
+    },
+    {
+      "code": "mmid",
+      "explicit_parent_set_code": "mid",
+      "name": "Innistrad: Midnight Hunt Minigames",
+      "release_date": "2021-09-24",
+      "research_priority": 4,
+      "scryfall_type": "minigame"
+    },
+    {
+      "code": "mvow",
+      "explicit_parent_set_code": "vow",
+      "name": "Innistrad: Crimson Vow Minigames",
+      "release_date": "2021-11-19",
+      "research_priority": 4,
+      "scryfall_type": "minigame"
+    },
+    {
+      "code": "mneo",
+      "explicit_parent_set_code": "neo",
+      "name": "Kamigawa: Neon Dynasty Minigames",
+      "release_date": "2022-02-18",
+      "research_priority": 4,
+      "scryfall_type": "minigame"
+    },
+    {
+      "code": "msnc",
+      "explicit_parent_set_code": "snc",
+      "name": "Streets of New Capenna Minigames",
+      "release_date": "2022-04-29",
+      "research_priority": 4,
+      "scryfall_type": "minigame"
+    },
+    {
+      "code": "mclb",
+      "explicit_parent_set_code": "clb",
+      "name": "Commander Legends: Battle for Baldur's Gate Minigames",
+      "release_date": "2022-06-10",
+      "research_priority": 4,
+      "scryfall_type": "minigame"
+    },
+    {
+      "code": "mdmu",
+      "explicit_parent_set_code": "dmu",
+      "name": "Dominaria United Minigames",
+      "release_date": "2022-09-09",
+      "research_priority": 4,
+      "scryfall_type": "minigame"
+    },
+    {
+      "code": "mbro",
+      "explicit_parent_set_code": "bro",
+      "name": "The Brothers' War Minigames",
+      "release_date": "2022-11-18",
+      "research_priority": 4,
+      "scryfall_type": "minigame"
+    },
+    {
+      "code": "mone",
+      "explicit_parent_set_code": "one",
+      "name": "Phyrexia: All Will Be One Minigames",
+      "release_date": "2023-02-10",
+      "research_priority": 4,
+      "scryfall_type": "minigame"
+    },
+    {
+      "code": "mltr",
+      "explicit_parent_set_code": "ltr",
+      "name": "The Lord of the Rings: Tales of Middle-earth Minigames",
+      "release_date": "2023-06-23",
+      "research_priority": 4,
+      "scryfall_type": "minigame"
+    },
+    {
+      "code": "macr",
+      "explicit_parent_set_code": "acr",
+      "name": "Assassin's Creed Minigames",
+      "release_date": "2024-07-05",
+      "research_priority": 4,
+      "scryfall_type": "minigame"
+    },
+    {
+      "code": "pdrc",
+      "explicit_parent_set_code": null,
+      "name": "Dragon Con",
+      "release_date": "1994-07-15",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "phpr",
+      "explicit_parent_set_code": null,
+      "name": "HarperPrism Book Promos",
+      "release_date": "1994-09-01",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pmei",
+      "explicit_parent_set_code": null,
+      "name": "Media and Collaboration Promos",
+      "release_date": "1995-01-01",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "plgm",
+      "explicit_parent_set_code": null,
+      "name": "DCI Legend Membership",
+      "release_date": "1996-07-01",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "parl",
+      "explicit_parent_set_code": null,
+      "name": "Arena League 1996",
+      "release_date": "1996-08-02",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pred",
+      "explicit_parent_set_code": null,
+      "name": "Redemption Program",
+      "release_date": "1996-10-01",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "ptmp",
+      "explicit_parent_set_code": "tmp",
+      "name": "Tempest Promos",
+      "release_date": "1997-10-14",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "jgp",
+      "explicit_parent_set_code": null,
+      "name": "Judge Gift Cards 1998",
+      "release_date": "1998-01-01",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "psth",
+      "explicit_parent_set_code": "sth",
+      "name": "Stronghold Promos",
+      "release_date": "1998-03-02",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pexo",
+      "explicit_parent_set_code": "exo",
+      "name": "Exodus Promos",
+      "release_date": "1998-06-15",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "palp",
+      "explicit_parent_set_code": null,
+      "name": "Asia Pacific Land Program",
+      "release_date": "1998-09-01",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pusg",
+      "explicit_parent_set_code": "usg",
+      "name": "Urza's Saga Promos",
+      "release_date": "1998-10-12",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "g99",
+      "explicit_parent_set_code": null,
+      "name": "Judge Gift Cards 1999",
+      "release_date": "1999-01-01",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pal99",
+      "explicit_parent_set_code": null,
+      "name": "Arena League 1999",
+      "release_date": "1999-01-01",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pulg",
+      "explicit_parent_set_code": "ulg",
+      "name": "Urza's Legacy Promos",
+      "release_date": "1999-02-15",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pptk",
+      "explicit_parent_set_code": "ptk",
+      "name": "Portal Three Kingdoms Promos",
+      "release_date": "1999-05-01",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "puds",
+      "explicit_parent_set_code": "uds",
+      "name": "Urza's Destiny Promos",
+      "release_date": "1999-06-07",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pgru",
+      "explicit_parent_set_code": null,
+      "name": "Guru",
+      "release_date": "1999-07-12",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pwor",
+      "explicit_parent_set_code": null,
+      "name": "World Championship Promos",
+      "release_date": "1999-08-04",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pwos",
+      "explicit_parent_set_code": null,
+      "name": "Wizards of the Coast Online Store",
+      "release_date": "1999-09-04",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pmmq",
+      "explicit_parent_set_code": "mmq",
+      "name": "Mercadian Masques Promos",
+      "release_date": "1999-10-04",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "psus",
+      "explicit_parent_set_code": null,
+      "name": "Junior Super Series",
+      "release_date": "1999-12-01",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "fnm",
+      "explicit_parent_set_code": null,
+      "name": "Friday Night Magic 2000",
+      "release_date": "2000-01-01",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "g00",
+      "explicit_parent_set_code": null,
+      "name": "Judge Gift Cards 2000",
+      "release_date": "2000-01-01",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pal00",
+      "explicit_parent_set_code": null,
+      "name": "Arena League 2000",
+      "release_date": "2000-01-01",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pelp",
+      "explicit_parent_set_code": null,
+      "name": "European Land Program",
+      "release_date": "2000-02-05",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pnem",
+      "explicit_parent_set_code": "nem",
+      "name": "Nemesis Promos",
+      "release_date": "2000-02-14",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "ppcy",
+      "explicit_parent_set_code": "pcy",
+      "name": "Prophecy Promos",
+      "release_date": "2000-06-05",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pinv",
+      "explicit_parent_set_code": "inv",
+      "name": "Invasion Promos",
+      "release_date": "2000-10-02",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "f01",
+      "explicit_parent_set_code": null,
+      "name": "Friday Night Magic 2001",
+      "release_date": "2001-01-01",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "g01",
+      "explicit_parent_set_code": null,
+      "name": "Judge Gift Cards 2001",
+      "release_date": "2001-01-01",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "mpr",
+      "explicit_parent_set_code": null,
+      "name": "Magic Player Rewards 2001",
+      "release_date": "2001-01-01",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pal01",
+      "explicit_parent_set_code": null,
+      "name": "Arena League 2001",
+      "release_date": "2001-01-01",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "ppls",
+      "explicit_parent_set_code": "pls",
+      "name": "Planeshift Promos",
+      "release_date": "2001-02-05",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "papc",
+      "explicit_parent_set_code": "apc",
+      "name": "Apocalypse Promos",
+      "release_date": "2001-06-04",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pody",
+      "explicit_parent_set_code": "ody",
+      "name": "Odyssey Promos",
+      "release_date": "2001-10-01",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "f02",
+      "explicit_parent_set_code": null,
+      "name": "Friday Night Magic 2002",
+      "release_date": "2002-01-01",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "g02",
+      "explicit_parent_set_code": null,
+      "name": "Judge Gift Cards 2002",
+      "release_date": "2002-01-01",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pal02",
+      "explicit_parent_set_code": null,
+      "name": "Arena League 2002",
+      "release_date": "2002-01-01",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pr2",
+      "explicit_parent_set_code": null,
+      "name": "Magic Player Rewards 2002",
+      "release_date": "2002-01-01",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "ptor",
+      "explicit_parent_set_code": "tor",
+      "name": "Torment Promos",
+      "release_date": "2002-02-04",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pjud",
+      "explicit_parent_set_code": "jud",
+      "name": "Judgment Promos",
+      "release_date": "2002-05-27",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "jp1",
+      "explicit_parent_set_code": null,
+      "name": "Hobby Japan Promos",
+      "release_date": "2002-07-01",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pons",
+      "explicit_parent_set_code": "ons",
+      "name": "Onslaught Promos",
+      "release_date": "2002-09-28",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "f03",
+      "explicit_parent_set_code": null,
+      "name": "Friday Night Magic 2003",
+      "release_date": "2003-01-01",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "g03",
+      "explicit_parent_set_code": null,
+      "name": "Judge Gift Cards 2003",
+      "release_date": "2003-01-01",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "p03",
+      "explicit_parent_set_code": null,
+      "name": "Magic Player Rewards 2003",
+      "release_date": "2003-01-01",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pal03",
+      "explicit_parent_set_code": null,
+      "name": "Arena League 2003",
+      "release_date": "2003-01-01",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pjjt",
+      "explicit_parent_set_code": null,
+      "name": "Japan Junior Tournament",
+      "release_date": "2003-01-01",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "plgn",
+      "explicit_parent_set_code": "lgn",
+      "name": "Legions Promos",
+      "release_date": "2003-02-03",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pscg",
+      "explicit_parent_set_code": "scg",
+      "name": "Scourge Promos",
+      "release_date": "2003-05-26",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "p8ed",
+      "explicit_parent_set_code": "8ed",
+      "name": "Eighth Edition Promos",
+      "release_date": "2003-07-28",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "f04",
+      "explicit_parent_set_code": null,
+      "name": "Friday Night Magic 2004",
+      "release_date": "2004-01-01",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "g04",
+      "explicit_parent_set_code": null,
+      "name": "Judge Gift Cards 2004",
+      "release_date": "2004-01-01",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "p04",
+      "explicit_parent_set_code": null,
+      "name": "Magic Player Rewards 2004",
+      "release_date": "2004-01-01",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pal04",
+      "explicit_parent_set_code": null,
+      "name": "Arena League 2004",
+      "release_date": "2004-01-01",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pdst",
+      "explicit_parent_set_code": "dst",
+      "name": "Darksteel Promos",
+      "release_date": "2004-02-06",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "p5dn",
+      "explicit_parent_set_code": "5dn",
+      "name": "Fifth Dawn Promos",
+      "release_date": "2004-06-04",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pmrd",
+      "explicit_parent_set_code": "mrd",
+      "name": "Mirrodin Promos",
+      "release_date": "2004-06-04",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pchk",
+      "explicit_parent_set_code": "chk",
+      "name": "Champions of Kamigawa Promos",
+      "release_date": "2004-10-01",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "punh",
+      "explicit_parent_set_code": "unh",
+      "name": "Unhinged Promos",
+      "release_date": "2004-11-19",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "f05",
+      "explicit_parent_set_code": null,
+      "name": "Friday Night Magic 2005",
+      "release_date": "2005-01-01",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "g05",
+      "explicit_parent_set_code": null,
+      "name": "Judge Gift Cards 2005",
+      "release_date": "2005-01-01",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "p05",
+      "explicit_parent_set_code": null,
+      "name": "Magic Player Rewards 2005",
+      "release_date": "2005-01-01",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pal05",
+      "explicit_parent_set_code": null,
+      "name": "Arena League 2005",
+      "release_date": "2005-01-01",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pjse",
+      "explicit_parent_set_code": null,
+      "name": "Junior Series Europe",
+      "release_date": "2005-01-01",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pbok",
+      "explicit_parent_set_code": "bok",
+      "name": "Betrayers of Kamigawa Promos",
+      "release_date": "2005-02-04",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "psok",
+      "explicit_parent_set_code": "sok",
+      "name": "Saviors of Kamigawa Promos",
+      "release_date": "2005-06-03",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "p9ed",
+      "explicit_parent_set_code": "9ed",
+      "name": "Ninth Edition Promos",
+      "release_date": "2005-07-29",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pmps",
+      "explicit_parent_set_code": null,
+      "name": "Magic Premiere Shop 2005",
+      "release_date": "2005-10-07",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "prav",
+      "explicit_parent_set_code": "rav",
+      "name": "Ravnica: City of Guilds Promos",
+      "release_date": "2005-10-07",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "p2hg",
+      "explicit_parent_set_code": null,
+      "name": "Two-Headed Giant Tournament",
+      "release_date": "2005-12-09",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "dci",
+      "explicit_parent_set_code": null,
+      "name": "DCI Promos",
+      "release_date": "2006-01-01",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "f06",
+      "explicit_parent_set_code": null,
+      "name": "Friday Night Magic 2006",
+      "release_date": "2006-01-01",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "g06",
+      "explicit_parent_set_code": null,
+      "name": "Judge Gift Cards 2006",
+      "release_date": "2006-01-01",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "p06",
+      "explicit_parent_set_code": null,
+      "name": "Magic Player Rewards 2006",
+      "release_date": "2006-01-01",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pal06",
+      "explicit_parent_set_code": null,
+      "name": "Arena League 2006",
+      "release_date": "2006-01-01",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pjas",
+      "explicit_parent_set_code": null,
+      "name": "Junior APAC Series",
+      "release_date": "2006-01-01",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pmps06",
+      "explicit_parent_set_code": null,
+      "name": "Magic Premiere Shop 2006",
+      "release_date": "2006-01-01",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pgpt",
+      "explicit_parent_set_code": "gpt",
+      "name": "Guildpact Promos",
+      "release_date": "2006-02-03",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pcmp",
+      "explicit_parent_set_code": null,
+      "name": "Champs and States",
+      "release_date": "2006-03-18",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pdis",
+      "explicit_parent_set_code": "dis",
+      "name": "Dissension Promos",
+      "release_date": "2006-05-05",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pcsp",
+      "explicit_parent_set_code": "csp",
+      "name": "Coldsnap Promos",
+      "release_date": "2006-07-21",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "ptsp",
+      "explicit_parent_set_code": "tsp",
+      "name": "Time Spiral Promos",
+      "release_date": "2006-10-06",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "f07",
+      "explicit_parent_set_code": null,
+      "name": "Friday Night Magic 2007",
+      "release_date": "2007-01-01",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "g07",
+      "explicit_parent_set_code": null,
+      "name": "Judge Gift Cards 2007",
+      "release_date": "2007-01-01",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "p07",
+      "explicit_parent_set_code": null,
+      "name": "Magic Player Rewards 2007",
+      "release_date": "2007-01-01",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pmps07",
+      "explicit_parent_set_code": null,
+      "name": "Magic Premiere Shop 2007",
+      "release_date": "2007-01-01",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pplc",
+      "explicit_parent_set_code": "plc",
+      "name": "Planar Chaos Promos",
+      "release_date": "2007-02-02",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "ppro",
+      "explicit_parent_set_code": null,
+      "name": "Pro Tour Promos",
+      "release_date": "2007-02-09",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pgpx",
+      "explicit_parent_set_code": null,
+      "name": "Grand Prix Promos",
+      "release_date": "2007-02-24",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pfut",
+      "explicit_parent_set_code": "fut",
+      "name": "Future Sight Promos",
+      "release_date": "2007-05-04",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "p10e",
+      "explicit_parent_set_code": "10e",
+      "name": "Tenth Edition Promos",
+      "release_date": "2007-07-13",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "plrw",
+      "explicit_parent_set_code": "lrw",
+      "name": "Lorwyn Promos",
+      "release_date": "2007-10-12",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "f08",
+      "explicit_parent_set_code": null,
+      "name": "Friday Night Magic 2008",
+      "release_date": "2008-01-01",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "g08",
+      "explicit_parent_set_code": null,
+      "name": "Judge Gift Cards 2008",
+      "release_date": "2008-01-01",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "p08",
+      "explicit_parent_set_code": null,
+      "name": "Magic Player Rewards 2008",
+      "release_date": "2008-01-01",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pmps08",
+      "explicit_parent_set_code": null,
+      "name": "Magic Premiere Shop 2008",
+      "release_date": "2008-01-01",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pmor",
+      "explicit_parent_set_code": "mor",
+      "name": "Morningtide Promos",
+      "release_date": "2008-02-01",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "p15a",
+      "explicit_parent_set_code": null,
+      "name": "15th Anniversary Cards",
+      "release_date": "2008-04-01",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pshm",
+      "explicit_parent_set_code": "shm",
+      "name": "Shadowmoor Promos",
+      "release_date": "2008-05-02",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "peve",
+      "explicit_parent_set_code": "eve",
+      "name": "Eventide Promos",
+      "release_date": "2008-07-25",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pala",
+      "explicit_parent_set_code": "ala",
+      "name": "Shards of Alara Promos",
+      "release_date": "2008-10-03",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "f09",
+      "explicit_parent_set_code": null,
+      "name": "Friday Night Magic 2009",
+      "release_date": "2009-01-01",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "g09",
+      "explicit_parent_set_code": null,
+      "name": "Judge Gift Cards 2009",
+      "release_date": "2009-01-01",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "p09",
+      "explicit_parent_set_code": null,
+      "name": "Magic Player Rewards 2009",
+      "release_date": "2009-01-01",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pdtp",
+      "explicit_parent_set_code": null,
+      "name": "Duels of the Planeswalkers 2009 Promos",
+      "release_date": "2009-01-01",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pmps09",
+      "explicit_parent_set_code": null,
+      "name": "Magic Premiere Shop 2009",
+      "release_date": "2009-01-01",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pcon",
+      "explicit_parent_set_code": "con",
+      "name": "Conflux Promos",
+      "release_date": "2009-02-06",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "purl",
+      "explicit_parent_set_code": null,
+      "name": "URL/Convention Promos",
+      "release_date": "2009-02-08",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "parb",
+      "explicit_parent_set_code": "arb",
+      "name": "Alara Reborn Promos",
+      "release_date": "2009-04-30",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pm10",
+      "explicit_parent_set_code": "m10",
+      "name": "Magic 2010 Promos",
+      "release_date": "2009-07-16",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "phop",
+      "explicit_parent_set_code": "hop",
+      "name": "Planechase Promos",
+      "release_date": "2009-09-04",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pzen",
+      "explicit_parent_set_code": "zen",
+      "name": "Zendikar Promos",
+      "release_date": "2009-10-02",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "f10",
+      "explicit_parent_set_code": null,
+      "name": "Friday Night Magic 2010",
+      "release_date": "2010-01-01",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "g10",
+      "explicit_parent_set_code": null,
+      "name": "Judge Gift Cards 2010",
+      "release_date": "2010-01-01",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "p10",
+      "explicit_parent_set_code": null,
+      "name": "Magic Player Rewards 2010",
+      "release_date": "2010-01-01",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pdp10",
+      "explicit_parent_set_code": null,
+      "name": "Duels of the Planeswalkers 2010 Promos",
+      "release_date": "2010-01-01",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pmps10",
+      "explicit_parent_set_code": null,
+      "name": "Magic Premiere Shop 2010",
+      "release_date": "2010-01-01",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pwwk",
+      "explicit_parent_set_code": "wwk",
+      "name": "Worldwake Promos",
+      "release_date": "2010-02-05",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "proe",
+      "explicit_parent_set_code": "roe",
+      "name": "Rise of the Eldrazi Promos",
+      "release_date": "2010-04-23",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pm11",
+      "explicit_parent_set_code": "m11",
+      "name": "Magic 2011 Promos",
+      "release_date": "2010-07-15",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "psom",
+      "explicit_parent_set_code": "som",
+      "name": "Scars of Mirrodin Promos",
+      "release_date": "2010-09-30",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "f11",
+      "explicit_parent_set_code": null,
+      "name": "Friday Night Magic 2011",
+      "release_date": "2011-01-01",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "g11",
+      "explicit_parent_set_code": null,
+      "name": "Judge Gift Cards 2011",
+      "release_date": "2011-01-01",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "p11",
+      "explicit_parent_set_code": null,
+      "name": "Magic Player Rewards 2011",
+      "release_date": "2011-01-01",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pdp12",
+      "explicit_parent_set_code": null,
+      "name": "Duels of the Planeswalkers 2012 Promos",
+      "release_date": "2011-01-01",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pmps11",
+      "explicit_parent_set_code": null,
+      "name": "Magic Premiere Shop 2011",
+      "release_date": "2011-01-01",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pw11",
+      "explicit_parent_set_code": null,
+      "name": "Wizards Play Network 2011",
+      "release_date": "2011-01-01",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pmbs",
+      "explicit_parent_set_code": "mbs",
+      "name": "Mirrodin Besieged Promos",
+      "release_date": "2011-02-03",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pnph",
+      "explicit_parent_set_code": "nph",
+      "name": "New Phyrexia Promos",
+      "release_date": "2011-05-12",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pm12",
+      "explicit_parent_set_code": "m12",
+      "name": "Magic 2012 Promos",
+      "release_date": "2011-07-14",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pisd",
+      "explicit_parent_set_code": "isd",
+      "name": "Innistrad Promos",
+      "release_date": "2011-09-24",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "f12",
+      "explicit_parent_set_code": null,
+      "name": "Friday Night Magic 2012",
+      "release_date": "2012-01-01",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "j12",
+      "explicit_parent_set_code": null,
+      "name": "Judge Gift Cards 2012",
+      "release_date": "2012-01-01",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pdp13",
+      "explicit_parent_set_code": null,
+      "name": "Duels of the Planeswalkers 2013 Promos",
+      "release_date": "2012-01-01",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pidw",
+      "explicit_parent_set_code": null,
+      "name": "IDW Comics Inserts",
+      "release_date": "2012-01-01",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pw12",
+      "explicit_parent_set_code": null,
+      "name": "Wizards Play Network 2012",
+      "release_date": "2012-01-01",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pdka",
+      "explicit_parent_set_code": "dka",
+      "name": "Dark Ascension Promos",
+      "release_date": "2012-01-28",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pavr",
+      "explicit_parent_set_code": "avr",
+      "name": "Avacyn Restored Promos",
+      "release_date": "2012-04-28",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pm13",
+      "explicit_parent_set_code": "m13",
+      "name": "Magic 2013 Promos",
+      "release_date": "2012-07-12",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "prtr",
+      "explicit_parent_set_code": "rtr",
+      "name": "Return to Ravnica Promos",
+      "release_date": "2012-10-05",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "f13",
+      "explicit_parent_set_code": null,
+      "name": "Friday Night Magic 2013",
+      "release_date": "2013-01-01",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "j13",
+      "explicit_parent_set_code": null,
+      "name": "Judge Gift Cards 2013",
+      "release_date": "2013-01-01",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pdp14",
+      "explicit_parent_set_code": null,
+      "name": "Duels of the Planeswalkers 2014 Promos",
+      "release_date": "2013-01-01",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pgtc",
+      "explicit_parent_set_code": "gtc",
+      "name": "Gatecrash Promos",
+      "release_date": "2013-01-26",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "wmc",
+      "explicit_parent_set_code": null,
+      "name": "World Magic Cup Qualifiers",
+      "release_date": "2013-04-06",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pdgm",
+      "explicit_parent_set_code": "dgm",
+      "name": "Dragon's Maze Promos",
+      "release_date": "2013-04-27",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pm14",
+      "explicit_parent_set_code": "m14",
+      "name": "Magic 2014 Promos",
+      "release_date": "2013-07-18",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "psdc",
+      "explicit_parent_set_code": null,
+      "name": "San Diego Comic-Con 2013",
+      "release_date": "2013-07-18",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pths",
+      "explicit_parent_set_code": "ths",
+      "name": "Theros Promos",
+      "release_date": "2013-09-21",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "f14",
+      "explicit_parent_set_code": null,
+      "name": "Friday Night Magic 2014",
+      "release_date": "2014-01-01",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "j14",
+      "explicit_parent_set_code": null,
+      "name": "Judge Gift Cards 2014",
+      "release_date": "2014-01-01",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pbng",
+      "explicit_parent_set_code": "bng",
+      "name": "Born of the Gods Promos",
+      "release_date": "2014-02-01",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pjou",
+      "explicit_parent_set_code": "jou",
+      "name": "Journey into Nyx Promos",
+      "release_date": "2014-04-26",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pcns",
+      "explicit_parent_set_code": "cns",
+      "name": "Conspiracy Promos",
+      "release_date": "2014-06-06",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "ps14",
+      "explicit_parent_set_code": null,
+      "name": "San Diego Comic-Con 2014",
+      "release_date": "2014-07-08",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pdp15",
+      "explicit_parent_set_code": null,
+      "name": "Duels of the Planeswalkers 2015 Promos",
+      "release_date": "2014-07-09",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pm15",
+      "explicit_parent_set_code": "m15",
+      "name": "Magic 2015 Promos",
+      "release_date": "2014-07-17",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pktk",
+      "explicit_parent_set_code": "ktk",
+      "name": "Khans of Tarkir Promos",
+      "release_date": "2014-09-26",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "f15",
+      "explicit_parent_set_code": null,
+      "name": "Friday Night Magic 2015",
+      "release_date": "2015-01-01",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "j15",
+      "explicit_parent_set_code": null,
+      "name": "Judge Gift Cards 2015",
+      "release_date": "2015-01-01",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "ugin",
+      "explicit_parent_set_code": "frf",
+      "name": "Ugin's Fate",
+      "release_date": "2015-01-17",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pfrf",
+      "explicit_parent_set_code": "frf",
+      "name": "Fate Reforged Promos",
+      "release_date": "2015-01-23",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pdtk",
+      "explicit_parent_set_code": "dtk",
+      "name": "Dragons of Tarkir Promos",
+      "release_date": "2015-03-27",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "ptkdf",
+      "explicit_parent_set_code": "dtk",
+      "name": "Tarkir Dragonfury",
+      "release_date": "2015-04-03",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "ps15",
+      "explicit_parent_set_code": null,
+      "name": "San Diego Comic-Con 2015",
+      "release_date": "2015-07-09",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pori",
+      "explicit_parent_set_code": "ori",
+      "name": "Magic Origins Promos",
+      "release_date": "2015-07-17",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pbfz",
+      "explicit_parent_set_code": "bfz",
+      "name": "Battle for Zendikar Promos",
+      "release_date": "2015-10-02",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pss1",
+      "explicit_parent_set_code": "bfz",
+      "name": "BFZ Standard Series",
+      "release_date": "2015-10-02",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "f16",
+      "explicit_parent_set_code": null,
+      "name": "Friday Night Magic 2016",
+      "release_date": "2016-01-01",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "j16",
+      "explicit_parent_set_code": null,
+      "name": "Judge Gift Cards 2016",
+      "release_date": "2016-01-01",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pogw",
+      "explicit_parent_set_code": "ogw",
+      "name": "Oath of the Gatewatch Promos",
+      "release_date": "2016-01-22",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "psoi",
+      "explicit_parent_set_code": "soi",
+      "name": "Shadows over Innistrad Promos",
+      "release_date": "2016-04-08",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pemn",
+      "explicit_parent_set_code": "emn",
+      "name": "Eldritch Moon Promos",
+      "release_date": "2016-07-22",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pkld",
+      "explicit_parent_set_code": "kld",
+      "name": "Kaladesh Promos",
+      "release_date": "2016-09-30",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "ps16",
+      "explicit_parent_set_code": null,
+      "name": "San Diego Comic-Con 2016",
+      "release_date": "2016-10-01",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "f17",
+      "explicit_parent_set_code": null,
+      "name": "Friday Night Magic 2017",
+      "release_date": "2017-01-01",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "j17",
+      "explicit_parent_set_code": null,
+      "name": "Judge Gift Cards 2017",
+      "release_date": "2017-01-01",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "paer",
+      "explicit_parent_set_code": "aer",
+      "name": "Aether Revolt Promos",
+      "release_date": "2017-01-20",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pakh",
+      "explicit_parent_set_code": "akh",
+      "name": "Amonkhet Promos",
+      "release_date": "2017-04-28",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "phou",
+      "explicit_parent_set_code": "hou",
+      "name": "Hour of Devastation Promos",
+      "release_date": "2017-07-14",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "ps17",
+      "explicit_parent_set_code": null,
+      "name": "San Diego Comic-Con 2017",
+      "release_date": "2017-07-20",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pss2",
+      "explicit_parent_set_code": "xln",
+      "name": "XLN Standard Showdown",
+      "release_date": "2017-09-29",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pxln",
+      "explicit_parent_set_code": "xln",
+      "name": "Ixalan Promos",
+      "release_date": "2017-09-29",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pxtc",
+      "explicit_parent_set_code": "xln",
+      "name": "XLN Treasure Chest",
+      "release_date": "2017-11-24",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pust",
+      "explicit_parent_set_code": "ust",
+      "name": "Unstable Promos",
+      "release_date": "2017-12-08",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "f18",
+      "explicit_parent_set_code": null,
+      "name": "Friday Night Magic 2018",
+      "release_date": "2017-12-27",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "j18",
+      "explicit_parent_set_code": null,
+      "name": "Judge Gift Cards 2018",
+      "release_date": "2018-01-01",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "prix",
+      "explicit_parent_set_code": "rix",
+      "name": "Rivals of Ixalan Promos",
+      "release_date": "2018-01-19",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pnat",
+      "explicit_parent_set_code": null,
+      "name": "Nationals Promos",
+      "release_date": "2018-01-25",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "plny",
+      "explicit_parent_set_code": null,
+      "name": "Lunar New Year 2018",
+      "release_date": "2018-02-16",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pdom",
+      "explicit_parent_set_code": "dom",
+      "name": "Dominaria Promos",
+      "release_date": "2018-04-27",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pbbd",
+      "explicit_parent_set_code": "bbd",
+      "name": "Battlebond Promos",
+      "release_date": "2018-06-08",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pm19",
+      "explicit_parent_set_code": "m19",
+      "name": "Core Set 2019 Promos",
+      "release_date": "2018-07-13",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pss3",
+      "explicit_parent_set_code": "m19",
+      "name": "M19 Standard Showdown",
+      "release_date": "2018-07-13",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "ps18",
+      "explicit_parent_set_code": null,
+      "name": "San Diego Comic-Con 2018",
+      "release_date": "2018-07-19",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pgrn",
+      "explicit_parent_set_code": "grn",
+      "name": "Guilds of Ravnica Promos",
+      "release_date": "2018-10-05",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "prwk",
+      "explicit_parent_set_code": "grn",
+      "name": "GRN Ravnica Weekend",
+      "release_date": "2018-11-09",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pf19",
+      "explicit_parent_set_code": null,
+      "name": "MagicFest 2019",
+      "release_date": "2019-01-01",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "prna",
+      "explicit_parent_set_code": "rna",
+      "name": "Ravnica Allegiance Promos",
+      "release_date": "2019-01-25",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "prw2",
+      "explicit_parent_set_code": "rna",
+      "name": "RNA Ravnica Weekend",
+      "release_date": "2019-02-16",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "j19",
+      "explicit_parent_set_code": null,
+      "name": "Judge Gift Cards 2019",
+      "release_date": "2019-04-10",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pwar",
+      "explicit_parent_set_code": "war",
+      "name": "War of the Spark Promos",
+      "release_date": "2019-05-03",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pmh1",
+      "explicit_parent_set_code": "mh1",
+      "name": "Modern Horizons Promos",
+      "release_date": "2019-06-14",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pm20",
+      "explicit_parent_set_code": "m20",
+      "name": "Core Set 2020 Promos",
+      "release_date": "2019-07-12",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "ppp1",
+      "explicit_parent_set_code": "m20",
+      "name": "M20 Promo Packs",
+      "release_date": "2019-07-12",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "ps19",
+      "explicit_parent_set_code": null,
+      "name": "San Diego Comic-Con 2019",
+      "release_date": "2019-07-18",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pwcs",
+      "explicit_parent_set_code": null,
+      "name": "Planeswalker Championship Promos",
+      "release_date": "2019-10-01",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "peld",
+      "explicit_parent_set_code": "eld",
+      "name": "Throne of Eldraine Promos",
+      "release_date": "2019-10-04",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "j20",
+      "explicit_parent_set_code": null,
+      "name": "Judge Gift Cards 2020",
+      "release_date": "2020-01-01",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pf20",
+      "explicit_parent_set_code": null,
+      "name": "MagicFest 2020",
+      "release_date": "2020-01-01",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pthb",
+      "explicit_parent_set_code": "thb",
+      "name": "Theros Beyond Death Promos",
+      "release_date": "2020-01-24",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "piko",
+      "explicit_parent_set_code": "iko",
+      "name": "Ikoria: Lair of Behemoths Promos",
+      "release_date": "2020-04-24",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "plg20",
+      "explicit_parent_set_code": null,
+      "name": "Love Your LGS 2020",
+      "release_date": "2020-05-18",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pm21",
+      "explicit_parent_set_code": "m21",
+      "name": "Core Set 2021 Promos",
+      "release_date": "2020-07-03",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pznr",
+      "explicit_parent_set_code": "znr",
+      "name": "Zendikar Rising Promos",
+      "release_date": "2020-09-25",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pcmr",
+      "explicit_parent_set_code": "cmr",
+      "name": "Commander Legends Promos",
+      "release_date": "2020-11-20",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pj21",
+      "explicit_parent_set_code": null,
+      "name": "Judge Gift Cards 2021",
+      "release_date": "2021-01-01",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pl21",
+      "explicit_parent_set_code": null,
+      "name": "Year of the Ox 2021",
+      "release_date": "2021-01-25",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pkhm",
+      "explicit_parent_set_code": "khm",
+      "name": "Kaldheim Promos",
+      "release_date": "2021-02-05",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pstx",
+      "explicit_parent_set_code": "stx",
+      "name": "Strixhaven: School of Mages Promos",
+      "release_date": "2021-04-23",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pmh2",
+      "explicit_parent_set_code": "mh2",
+      "name": "Modern Horizons 2 Promos",
+      "release_date": "2021-06-18",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pw21",
+      "explicit_parent_set_code": null,
+      "name": "Wizards Play Network 2021",
+      "release_date": "2021-06-18",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "plg21",
+      "explicit_parent_set_code": null,
+      "name": "Love Your LGS 2021",
+      "release_date": "2021-06-22",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pafr",
+      "explicit_parent_set_code": "afr",
+      "name": "Adventures in the Forgotten Realms Promos",
+      "release_date": "2021-07-23",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pmid",
+      "explicit_parent_set_code": "mid",
+      "name": "Innistrad: Midnight Hunt Promos",
+      "release_date": "2021-09-24",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pvow",
+      "explicit_parent_set_code": "vow",
+      "name": "Innistrad: Crimson Vow Promos",
+      "release_date": "2021-11-19",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "p22",
+      "explicit_parent_set_code": null,
+      "name": "Judge Gift Cards 2022",
+      "release_date": "2022-01-01",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pneo",
+      "explicit_parent_set_code": "neo",
+      "name": "Kamigawa: Neon Dynasty Promos",
+      "release_date": "2022-02-18",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pl22",
+      "explicit_parent_set_code": null,
+      "name": "Year of the Tiger 2022",
+      "release_date": "2022-02-25",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pw22",
+      "explicit_parent_set_code": null,
+      "name": "Wizards Play Network 2022",
+      "release_date": "2022-03-05",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "gdy",
+      "explicit_parent_set_code": null,
+      "name": "Game Day Promos",
+      "release_date": "2022-04-08",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pncc",
+      "explicit_parent_set_code": "ncc",
+      "name": "New Capenna Commander Promos",
+      "release_date": "2022-04-29",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "psnc",
+      "explicit_parent_set_code": "snc",
+      "name": "Streets of New Capenna Promos",
+      "release_date": "2022-04-29",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "ptsnc",
+      "explicit_parent_set_code": "psnc",
+      "name": "Streets of New Capenna Southeast Asia Tokens",
+      "release_date": "2022-04-30",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pclb",
+      "explicit_parent_set_code": "clb",
+      "name": "Battle for Baldur's Gate Promos",
+      "release_date": "2022-06-10",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "plg22",
+      "explicit_parent_set_code": null,
+      "name": "Love Your LGS 2022",
+      "release_date": "2022-07-01",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "sch",
+      "explicit_parent_set_code": null,
+      "name": "Store Championships",
+      "release_date": "2022-07-09",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "psvc",
+      "explicit_parent_set_code": null,
+      "name": "Summer Vacation Promos 2022",
+      "release_date": "2022-08-01",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "p30a",
+      "explicit_parent_set_code": "30a",
+      "name": "30th Anniversary Play Promos",
+      "release_date": "2022-09-02",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "p30m",
+      "explicit_parent_set_code": "30a",
+      "name": "30th Anniversary Misc Promos",
+      "release_date": "2022-09-02",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "p30h",
+      "explicit_parent_set_code": "30a",
+      "name": "30th Anniversary History Promos",
+      "release_date": "2022-09-09",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pdmu",
+      "explicit_parent_set_code": "dmu",
+      "name": "Dominaria United Promos",
+      "release_date": "2022-09-09",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "prcq",
+      "explicit_parent_set_code": null,
+      "name": "Regional Championship Qualifiers 2022",
+      "release_date": "2022-10-01",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pbro",
+      "explicit_parent_set_code": "bro",
+      "name": "The Brothers' War Promos",
+      "release_date": "2022-11-18",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pewk",
+      "explicit_parent_set_code": null,
+      "name": "Eternal Weekend",
+      "release_date": "2022-11-26",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "p23",
+      "explicit_parent_set_code": null,
+      "name": "Judge Gift Cards 2023",
+      "release_date": "2023-01-01",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pw23",
+      "explicit_parent_set_code": null,
+      "name": "Wizards Play Network 2023",
+      "release_date": "2023-01-01",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pr23",
+      "explicit_parent_set_code": null,
+      "name": "Regional Championship Qualifiers 2023",
+      "release_date": "2023-01-07",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pl23",
+      "explicit_parent_set_code": null,
+      "name": "Year of the Rabbit 2023",
+      "release_date": "2023-02-10",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pone",
+      "explicit_parent_set_code": "one",
+      "name": "Phyrexia: All Will Be One Promos",
+      "release_date": "2023-02-10",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "slp",
+      "explicit_parent_set_code": "sld",
+      "name": "Secret Lair Promo",
+      "release_date": "2023-02-17",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pmom",
+      "explicit_parent_set_code": "mom",
+      "name": "March of the Machine Promos",
+      "release_date": "2023-04-21",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pltr",
+      "explicit_parent_set_code": "ltr",
+      "name": "Tales of Middle-earth Promos",
+      "release_date": "2023-06-23",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pf23",
+      "explicit_parent_set_code": null,
+      "name": "MagicFest 2023",
+      "release_date": "2023-07-01",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "p30t",
+      "explicit_parent_set_code": "30a",
+      "name": "30th Anniversary Celebration Tokyo",
+      "release_date": "2023-09-01",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pmda",
+      "explicit_parent_set_code": null,
+      "name": "Magic × Duel Masters Promos",
+      "release_date": "2023-09-08",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "ptsr",
+      "explicit_parent_set_code": "tsr",
+      "name": "Time Spiral Remastered Promos",
+      "release_date": "2023-09-08",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pwoe",
+      "explicit_parent_set_code": "woe",
+      "name": "Wilds of Eldraine Promos",
+      "release_date": "2023-09-08",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "plci",
+      "explicit_parent_set_code": "lci",
+      "name": "The Lost Caverns of Ixalan Promos",
+      "release_date": "2023-11-17",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pmat",
+      "explicit_parent_set_code": "mat",
+      "name": "March of the Machine: The Aftermath Promos",
+      "release_date": "2023-11-17",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pf24",
+      "explicit_parent_set_code": null,
+      "name": "MagicFest 2024",
+      "release_date": "2024-01-01",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pw24",
+      "explicit_parent_set_code": null,
+      "name": "Wizards Play Network 2024",
+      "release_date": "2024-01-01",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pl24",
+      "explicit_parent_set_code": null,
+      "name": "Year of the Dragon 2024",
+      "release_date": "2024-02-08",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pmkm",
+      "explicit_parent_set_code": "mkm",
+      "name": "Murders at Karlov Manor Promos",
+      "release_date": "2024-02-09",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pss4",
+      "explicit_parent_set_code": "mkm",
+      "name": "MKM Standard Showdown",
+      "release_date": "2024-02-10",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "potj",
+      "explicit_parent_set_code": "otj",
+      "name": "Outlaws of Thunder Junction Promos",
+      "release_date": "2024-04-19",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pmh3",
+      "explicit_parent_set_code": "mh3",
+      "name": "Modern Horizons 3 Promos",
+      "release_date": "2024-06-14",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pblb",
+      "explicit_parent_set_code": "blb",
+      "name": "Bloomburrow Promos",
+      "release_date": "2024-08-02",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pcbb",
+      "explicit_parent_set_code": null,
+      "name": "Cowboy Bebop",
+      "release_date": "2024-08-02",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "plg24",
+      "explicit_parent_set_code": null,
+      "name": "Love Your LGS 2024",
+      "release_date": "2024-08-06",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pdsk",
+      "explicit_parent_set_code": "dsk",
+      "name": "Duskmourn: House of Horror Promos",
+      "release_date": "2024-09-27",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pltc",
+      "explicit_parent_set_code": "ltr",
+      "name": "Tales of Middle-earth Deluxe Commander Kit",
+      "release_date": "2024-10-16",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pfdn",
+      "explicit_parent_set_code": "fdn",
+      "name": "Foundations Promos",
+      "release_date": "2024-11-15",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pf25",
+      "explicit_parent_set_code": null,
+      "name": "MagicFest 2025",
+      "release_date": "2025-01-01",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pw25",
+      "explicit_parent_set_code": null,
+      "name": "Wizards Play Network 2025",
+      "release_date": "2025-01-01",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pspl",
+      "explicit_parent_set_code": null,
+      "name": "Spotlight Series",
+      "release_date": "2025-01-03",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pjsc",
+      "explicit_parent_set_code": null,
+      "name": "Japan Standard Cup",
+      "release_date": "2025-02-09",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pdft",
+      "explicit_parent_set_code": "dft",
+      "name": "Aetherdrift Promos",
+      "release_date": "2025-02-14",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pl25",
+      "explicit_parent_set_code": null,
+      "name": "Year of the Snake 2025",
+      "release_date": "2025-02-14",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "plg25",
+      "explicit_parent_set_code": null,
+      "name": "Love Your LGS 2025",
+      "release_date": "2025-03-26",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "ptdm",
+      "explicit_parent_set_code": "tdm",
+      "name": "Tarkir: Dragonstorm Promos",
+      "release_date": "2025-04-11",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pfin",
+      "explicit_parent_set_code": "fin",
+      "name": "Final Fantasy Promos",
+      "release_date": "2025-06-13",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pss5",
+      "explicit_parent_set_code": "fin",
+      "name": "FIN Standard Showdown",
+      "release_date": "2025-06-13",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "rfin",
+      "explicit_parent_set_code": "fin",
+      "name": "Final Fantasy Regional Promos",
+      "release_date": "2025-06-13",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pbig",
+      "explicit_parent_set_code": "big",
+      "name": "The Big Score Promos",
+      "release_date": "2025-08-01",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "peoe",
+      "explicit_parent_set_code": "eoe",
+      "name": "Edge of Eternities Promos",
+      "release_date": "2025-08-01",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pspm",
+      "explicit_parent_set_code": "spm",
+      "name": "Marvel's Spider-Man Promos",
+      "release_date": "2025-09-26",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "lmar",
+      "explicit_parent_set_code": "mar",
+      "name": "Marvel Legends Series Inserts",
+      "release_date": "2025-09-30",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "ptla",
+      "explicit_parent_set_code": "tla",
+      "name": "Avatar: The Last Airbender Promos",
+      "release_date": "2025-11-21",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pf26",
+      "explicit_parent_set_code": null,
+      "name": "MagicFest 2026",
+      "release_date": "2026-01-01",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pw26",
+      "explicit_parent_set_code": null,
+      "name": "Wizards Play Network 2026",
+      "release_date": "2026-01-01",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pecl",
+      "explicit_parent_set_code": "ecl",
+      "name": "Lorwyn Eclipsed Promos",
+      "release_date": "2026-01-23",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pl26",
+      "explicit_parent_set_code": null,
+      "name": "Year of the Horse 2026",
+      "release_date": "2026-02-17",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "psos",
+      "explicit_parent_set_code": "sos",
+      "name": "Secrets of Strixhaven Promos",
+      "release_date": "2026-04-24",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "pfra",
+      "explicit_parent_set_code": "fra",
+      "name": "Reality Fracture Promos",
+      "release_date": "2026-10-02",
+      "research_priority": 4,
+      "scryfall_type": "promo"
+    },
+    {
+      "code": "tugl",
+      "explicit_parent_set_code": "ugl",
+      "name": "Unglued Tokens",
+      "release_date": "1998-08-11",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "t10e",
+      "explicit_parent_set_code": "10e",
+      "name": "Tenth Edition Tokens",
+      "release_date": "2007-07-13",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tlrw",
+      "explicit_parent_set_code": "lrw",
+      "name": "Lorwyn Tokens",
+      "release_date": "2007-10-12",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tdd1",
+      "explicit_parent_set_code": "dd1",
+      "name": "Duel Decks: Elves vs. Goblins Tokens",
+      "release_date": "2007-11-16",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tmor",
+      "explicit_parent_set_code": "mor",
+      "name": "Morningtide Tokens",
+      "release_date": "2008-02-01",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tshm",
+      "explicit_parent_set_code": "shm",
+      "name": "Shadowmoor Tokens",
+      "release_date": "2008-05-02",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "teve",
+      "explicit_parent_set_code": "eve",
+      "name": "Eventide Tokens",
+      "release_date": "2008-07-25",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tala",
+      "explicit_parent_set_code": "ala",
+      "name": "Shards of Alara Tokens",
+      "release_date": "2008-10-03",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tdd2",
+      "explicit_parent_set_code": "dd2",
+      "name": "Duel Decks: Jace vs. Chandra Tokens",
+      "release_date": "2008-11-07",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tcon",
+      "explicit_parent_set_code": "con",
+      "name": "Conflux Tokens",
+      "release_date": "2009-02-06",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tddc",
+      "explicit_parent_set_code": "ddc",
+      "name": "Duel Decks: Divine vs. Demonic Tokens",
+      "release_date": "2009-04-10",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tarb",
+      "explicit_parent_set_code": "arb",
+      "name": "Alara Reborn Tokens",
+      "release_date": "2009-04-30",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tm10",
+      "explicit_parent_set_code": "m10",
+      "name": "Magic 2010 Tokens",
+      "release_date": "2009-07-17",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tzen",
+      "explicit_parent_set_code": "zen",
+      "name": "Zendikar Tokens",
+      "release_date": "2009-10-02",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tddd",
+      "explicit_parent_set_code": "ddd",
+      "name": "Duel Decks: Garruk vs. Liliana Tokens",
+      "release_date": "2009-10-30",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "twwk",
+      "explicit_parent_set_code": "wwk",
+      "name": "Worldwake Tokens",
+      "release_date": "2010-02-05",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tdde",
+      "explicit_parent_set_code": "dde",
+      "name": "Duel Decks: Phyrexia vs. the Coalition Tokens",
+      "release_date": "2010-03-19",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "troe",
+      "explicit_parent_set_code": "roe",
+      "name": "Rise of the Eldrazi Tokens",
+      "release_date": "2010-04-23",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tm11",
+      "explicit_parent_set_code": "m11",
+      "name": "Magic 2011 Tokens",
+      "release_date": "2010-07-16",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tddf",
+      "explicit_parent_set_code": "ddf",
+      "name": "Duel Decks: Elspeth vs. Tezzeret Tokens",
+      "release_date": "2010-09-03",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tsom",
+      "explicit_parent_set_code": "som",
+      "name": "Scars of Mirrodin Tokens",
+      "release_date": "2010-10-01",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tmbs",
+      "explicit_parent_set_code": "mbs",
+      "name": "Mirrodin Besieged Tokens",
+      "release_date": "2011-02-04",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tddg",
+      "explicit_parent_set_code": "ddg",
+      "name": "Duel Decks: Knights vs. Dragons Tokens",
+      "release_date": "2011-04-01",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tnph",
+      "explicit_parent_set_code": "nph",
+      "name": "New Phyrexia Tokens",
+      "release_date": "2011-05-13",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tm12",
+      "explicit_parent_set_code": "m12",
+      "name": "Magic 2012 Tokens",
+      "release_date": "2011-07-15",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tddh",
+      "explicit_parent_set_code": "ddh",
+      "name": "Duel Decks: Ajani vs. Nicol Bolas Tokens",
+      "release_date": "2011-09-02",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tisd",
+      "explicit_parent_set_code": "isd",
+      "name": "Innistrad Tokens",
+      "release_date": "2011-09-30",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "l12",
+      "explicit_parent_set_code": null,
+      "name": "League Tokens 2012",
+      "release_date": "2012-01-01",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tdka",
+      "explicit_parent_set_code": "dka",
+      "name": "Dark Ascension Tokens",
+      "release_date": "2012-02-03",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tddi",
+      "explicit_parent_set_code": "ddi",
+      "name": "Duel Decks: Venser vs. Koth Tokens",
+      "release_date": "2012-03-30",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tavr",
+      "explicit_parent_set_code": "avr",
+      "name": "Avacyn Restored Tokens",
+      "release_date": "2012-05-04",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tm13",
+      "explicit_parent_set_code": "m13",
+      "name": "Magic 2013 Tokens",
+      "release_date": "2012-07-13",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tddj",
+      "explicit_parent_set_code": "ddj",
+      "name": "Duel Decks: Izzet vs. Golgari Tokens",
+      "release_date": "2012-09-07",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "trtr",
+      "explicit_parent_set_code": "rtr",
+      "name": "Return to Ravnica Tokens",
+      "release_date": "2012-10-05",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "l13",
+      "explicit_parent_set_code": null,
+      "name": "League Tokens 2013",
+      "release_date": "2013-01-01",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tgtc",
+      "explicit_parent_set_code": "gtc",
+      "name": "Gatecrash Tokens",
+      "release_date": "2013-02-01",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tddk",
+      "explicit_parent_set_code": "ddk",
+      "name": "Duel Decks: Sorin vs. Tibalt Tokens",
+      "release_date": "2013-03-15",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tdgm",
+      "explicit_parent_set_code": "dgm",
+      "name": "Dragon's Maze Tokens",
+      "release_date": "2013-05-03",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tmma",
+      "explicit_parent_set_code": "mma",
+      "name": "Modern Masters Tokens",
+      "release_date": "2013-06-07",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tm14",
+      "explicit_parent_set_code": "m14",
+      "name": "Magic 2014 Tokens",
+      "release_date": "2013-07-19",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tddl",
+      "explicit_parent_set_code": "ddl",
+      "name": "Duel Decks: Heroes vs. Monsters Tokens",
+      "release_date": "2013-09-06",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tths",
+      "explicit_parent_set_code": "ths",
+      "name": "Theros Tokens",
+      "release_date": "2013-09-27",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "l14",
+      "explicit_parent_set_code": null,
+      "name": "League Tokens 2014",
+      "release_date": "2014-01-01",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tbng",
+      "explicit_parent_set_code": "bng",
+      "name": "Born of the Gods Tokens",
+      "release_date": "2014-02-07",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tddm",
+      "explicit_parent_set_code": "ddm",
+      "name": "Duel Decks: Jace vs. Vraska Tokens",
+      "release_date": "2014-03-14",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tjou",
+      "explicit_parent_set_code": "jou",
+      "name": "Journey into Nyx Tokens",
+      "release_date": "2014-05-02",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tmd1",
+      "explicit_parent_set_code": "md1",
+      "name": "Modern Event Deck 2014 Tokens",
+      "release_date": "2014-05-30",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tcns",
+      "explicit_parent_set_code": "cns",
+      "name": "Conspiracy Tokens",
+      "release_date": "2014-06-06",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tm15",
+      "explicit_parent_set_code": "m15",
+      "name": "Magic 2015 Tokens",
+      "release_date": "2014-07-18",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tktk",
+      "explicit_parent_set_code": "ktk",
+      "name": "Khans of Tarkir Tokens",
+      "release_date": "2014-09-26",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tc14",
+      "explicit_parent_set_code": "c14",
+      "name": "Commander 2014 Tokens",
+      "release_date": "2014-11-07",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tdvd",
+      "explicit_parent_set_code": "dvd",
+      "name": "Duel Decks Anthology: Divine vs. Demonic Tokens",
+      "release_date": "2014-12-05",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tevg",
+      "explicit_parent_set_code": "evg",
+      "name": "Duel Decks Anthology: Elves vs. Goblins Tokens",
+      "release_date": "2014-12-05",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tgvl",
+      "explicit_parent_set_code": "gvl",
+      "name": "Duel Decks Anthology: Garruk vs. Liliana Tokens",
+      "release_date": "2014-12-05",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tjvc",
+      "explicit_parent_set_code": "jvc",
+      "name": "Duel Decks Anthology: Jace vs. Chandra Tokens",
+      "release_date": "2014-12-05",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "l15",
+      "explicit_parent_set_code": null,
+      "name": "League Tokens 2015",
+      "release_date": "2015-01-01",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tfrf",
+      "explicit_parent_set_code": "frf",
+      "name": "Fate Reforged Tokens",
+      "release_date": "2015-01-23",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tdtk",
+      "explicit_parent_set_code": "dtk",
+      "name": "Dragons of Tarkir Tokens",
+      "release_date": "2015-03-27",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tmm2",
+      "explicit_parent_set_code": "mm2",
+      "name": "Modern Masters 2015 Tokens",
+      "release_date": "2015-05-22",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tori",
+      "explicit_parent_set_code": "ori",
+      "name": "Magic Origins Tokens",
+      "release_date": "2015-07-17",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tbfz",
+      "explicit_parent_set_code": "bfz",
+      "name": "Battle for Zendikar Tokens",
+      "release_date": "2015-10-02",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tc15",
+      "explicit_parent_set_code": "c15",
+      "name": "Commander 2015 Tokens",
+      "release_date": "2015-11-13",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "l16",
+      "explicit_parent_set_code": null,
+      "name": "League Tokens 2016",
+      "release_date": "2016-01-01",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "togw",
+      "explicit_parent_set_code": "ogw",
+      "name": "Oath of the Gatewatch Tokens",
+      "release_date": "2016-01-22",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tsoi",
+      "explicit_parent_set_code": "soi",
+      "name": "Shadows over Innistrad Tokens",
+      "release_date": "2016-04-08",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tema",
+      "explicit_parent_set_code": "ema",
+      "name": "Eternal Masters Tokens",
+      "release_date": "2016-06-10",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "temn",
+      "explicit_parent_set_code": "emn",
+      "name": "Eldritch Moon Tokens",
+      "release_date": "2016-07-22",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tcn2",
+      "explicit_parent_set_code": "cn2",
+      "name": "Conspiracy: Take the Crown Tokens",
+      "release_date": "2016-08-26",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tkld",
+      "explicit_parent_set_code": "kld",
+      "name": "Kaladesh Tokens",
+      "release_date": "2016-09-30",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tc16",
+      "explicit_parent_set_code": "c16",
+      "name": "Commander 2016 Tokens",
+      "release_date": "2016-11-11",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tpca",
+      "explicit_parent_set_code": "pca",
+      "name": "Planechase Anthology Tokens",
+      "release_date": "2016-11-25",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "l17",
+      "explicit_parent_set_code": null,
+      "name": "League Tokens 2017",
+      "release_date": "2017-01-01",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "taer",
+      "explicit_parent_set_code": "aer",
+      "name": "Aether Revolt Tokens",
+      "release_date": "2017-01-20",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tmm3",
+      "explicit_parent_set_code": "mm3",
+      "name": "Modern Masters 2017 Tokens",
+      "release_date": "2017-03-17",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tdds",
+      "explicit_parent_set_code": "dds",
+      "name": "Duel Decks: Mind vs. Might Tokens",
+      "release_date": "2017-03-31",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "takh",
+      "explicit_parent_set_code": "akh",
+      "name": "Amonkhet Tokens",
+      "release_date": "2017-04-28",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tcma",
+      "explicit_parent_set_code": "cma",
+      "name": "Commander Anthology Tokens",
+      "release_date": "2017-06-09",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "thou",
+      "explicit_parent_set_code": "hou",
+      "name": "Hour of Devastation Tokens",
+      "release_date": "2017-07-14",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tc17",
+      "explicit_parent_set_code": "c17",
+      "name": "Commander 2017 Tokens",
+      "release_date": "2017-08-25",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "te01",
+      "explicit_parent_set_code": "e01",
+      "name": "Archenemy: Nicol Bolas Tokens",
+      "release_date": "2017-09-08",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "txln",
+      "explicit_parent_set_code": "xln",
+      "name": "Ixalan Tokens",
+      "release_date": "2017-09-29",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tddt",
+      "explicit_parent_set_code": "ddt",
+      "name": "Duel Decks: Merfolk vs. Goblins Tokens",
+      "release_date": "2017-10-24",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tima",
+      "explicit_parent_set_code": "ima",
+      "name": "Iconic Masters Tokens",
+      "release_date": "2017-11-29",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tust",
+      "explicit_parent_set_code": "ust",
+      "name": "Unstable Tokens",
+      "release_date": "2017-12-08",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "trix",
+      "explicit_parent_set_code": "rix",
+      "name": "Rivals of Ixalan Tokens",
+      "release_date": "2018-01-19",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "ta25",
+      "explicit_parent_set_code": "a25",
+      "name": "Masters 25 Tokens",
+      "release_date": "2018-03-16",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tddu",
+      "explicit_parent_set_code": "ddu",
+      "name": "Duel Decks: Elves vs. Inventors Tokens",
+      "release_date": "2018-04-06",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tdom",
+      "explicit_parent_set_code": "dom",
+      "name": "Dominaria Tokens",
+      "release_date": "2018-04-27",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tbbd",
+      "explicit_parent_set_code": "bbd",
+      "name": "Battlebond Tokens",
+      "release_date": "2018-06-08",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tcm2",
+      "explicit_parent_set_code": "cm2",
+      "name": "Commander Anthology Volume II Tokens",
+      "release_date": "2018-06-08",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tm19",
+      "explicit_parent_set_code": "m19",
+      "name": "Core Set 2019 Tokens",
+      "release_date": "2018-07-13",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tc18",
+      "explicit_parent_set_code": "c18",
+      "name": "Commander 2018 Tokens",
+      "release_date": "2018-08-09",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tgrn",
+      "explicit_parent_set_code": "grn",
+      "name": "Guilds of Ravnica Tokens",
+      "release_date": "2018-10-05",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tmed",
+      "explicit_parent_set_code": "med",
+      "name": "Mythic Edition Tokens",
+      "release_date": "2018-10-05",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tgk1",
+      "explicit_parent_set_code": "gk1",
+      "name": "GRN Guild Kit Tokens",
+      "release_date": "2018-11-02",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tuma",
+      "explicit_parent_set_code": "uma",
+      "name": "Ultimate Masters Tokens",
+      "release_date": "2018-12-07",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "trna",
+      "explicit_parent_set_code": "rna",
+      "name": "Ravnica Allegiance Tokens",
+      "release_date": "2019-01-25",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tgk2",
+      "explicit_parent_set_code": "gk2",
+      "name": "RNA Guild Kit Tokens",
+      "release_date": "2019-02-15",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "twar",
+      "explicit_parent_set_code": "war",
+      "name": "War of the Spark Tokens",
+      "release_date": "2019-05-03",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tmh1",
+      "explicit_parent_set_code": "mh1",
+      "name": "Modern Horizons Tokens",
+      "release_date": "2019-05-30",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tm20",
+      "explicit_parent_set_code": "m20",
+      "name": "Core Set 2020 Tokens",
+      "release_date": "2019-07-12",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tc19",
+      "explicit_parent_set_code": "c19",
+      "name": "Commander 2019 Tokens",
+      "release_date": "2019-08-01",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "teld",
+      "explicit_parent_set_code": "eld",
+      "name": "Throne of Eldraine Tokens",
+      "release_date": "2019-10-04",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tgn2",
+      "explicit_parent_set_code": "gn2",
+      "name": "Game Night 2019 Tokens",
+      "release_date": "2019-11-15",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tthb",
+      "explicit_parent_set_code": "thb",
+      "name": "Theros Beyond Death Tokens",
+      "release_date": "2020-01-24",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tund",
+      "explicit_parent_set_code": "und",
+      "name": "Unsanctioned Tokens",
+      "release_date": "2020-02-29",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tc20",
+      "explicit_parent_set_code": "c20",
+      "name": "Commander 2020 Tokens",
+      "release_date": "2020-04-17",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tiko",
+      "explicit_parent_set_code": "iko",
+      "name": "Ikoria: Lair of Behemoths Tokens",
+      "release_date": "2020-04-24",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tm21",
+      "explicit_parent_set_code": "m21",
+      "name": "Core Set 2021 Tokens",
+      "release_date": "2020-07-03",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "t2xm",
+      "explicit_parent_set_code": "2xm",
+      "name": "Double Masters Tokens",
+      "release_date": "2020-08-07",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "sznr",
+      "explicit_parent_set_code": "znr",
+      "name": "Zendikar Rising Substitute Cards",
+      "release_date": "2020-09-25",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tznc",
+      "explicit_parent_set_code": "znc",
+      "name": "Zendikar Rising Commander Tokens",
+      "release_date": "2020-09-25",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tznr",
+      "explicit_parent_set_code": "znr",
+      "name": "Zendikar Rising Tokens",
+      "release_date": "2020-09-25",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tcmr",
+      "explicit_parent_set_code": "cmr",
+      "name": "Commander Legends Tokens",
+      "release_date": "2020-11-20",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "skhm",
+      "explicit_parent_set_code": "khm",
+      "name": "Kaldheim Substitute Cards",
+      "release_date": "2021-02-05",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tkhc",
+      "explicit_parent_set_code": "khc",
+      "name": "Kaldheim Commander Tokens",
+      "release_date": "2021-02-05",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tkhm",
+      "explicit_parent_set_code": "khm",
+      "name": "Kaldheim Tokens",
+      "release_date": "2021-02-05",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "ttsr",
+      "explicit_parent_set_code": "tsr",
+      "name": "Time Spiral Remastered Tokens",
+      "release_date": "2021-03-19",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "sstx",
+      "explicit_parent_set_code": "stx",
+      "name": "Strixhaven: School of Mages Substitute Cards",
+      "release_date": "2021-04-23",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tc21",
+      "explicit_parent_set_code": "c21",
+      "name": "Commander 2021 Tokens",
+      "release_date": "2021-04-23",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tstx",
+      "explicit_parent_set_code": "stx",
+      "name": "Strixhaven: School of Mages Tokens",
+      "release_date": "2021-04-23",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tmh2",
+      "explicit_parent_set_code": "mh2",
+      "name": "Modern Horizons 2 Tokens",
+      "release_date": "2021-06-18",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tafc",
+      "explicit_parent_set_code": "afc",
+      "name": "Forgotten Realms Commander Tokens",
+      "release_date": "2021-07-23",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tafr",
+      "explicit_parent_set_code": "afr",
+      "name": "Adventures in the Forgotten Realms Tokens",
+      "release_date": "2021-07-23",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "smid",
+      "explicit_parent_set_code": "mid",
+      "name": "Innistrad: Midnight Hunt Substitute Cards",
+      "release_date": "2021-09-24",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tmic",
+      "explicit_parent_set_code": "mic",
+      "name": "Midnight Hunt Commander Tokens",
+      "release_date": "2021-09-24",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tmid",
+      "explicit_parent_set_code": "mid",
+      "name": "Innistrad: Midnight Hunt Tokens",
+      "release_date": "2021-09-24",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "svow",
+      "explicit_parent_set_code": "vow",
+      "name": "Innistrad: Crimson Vow Substitute Cards",
+      "release_date": "2021-11-19",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tvoc",
+      "explicit_parent_set_code": "voc",
+      "name": "Crimson Vow Commander Tokens",
+      "release_date": "2021-11-19",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tvow",
+      "explicit_parent_set_code": "vow",
+      "name": "Innistrad: Crimson Vow Tokens",
+      "release_date": "2021-11-19",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "sneo",
+      "explicit_parent_set_code": "neo",
+      "name": "Kamigawa: Neon Dynasty Substitute Cards",
+      "release_date": "2022-02-18",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tnec",
+      "explicit_parent_set_code": "nec",
+      "name": "Neon Dynasty Commander Tokens",
+      "release_date": "2022-02-18",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tneo",
+      "explicit_parent_set_code": "neo",
+      "name": "Kamigawa: Neon Dynasty Tokens",
+      "release_date": "2022-02-18",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tncc",
+      "explicit_parent_set_code": "ncc",
+      "name": "New Capenna Commander Tokens",
+      "release_date": "2022-04-29",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tsnc",
+      "explicit_parent_set_code": "snc",
+      "name": "Streets of New Capenna Tokens",
+      "release_date": "2022-04-29",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tclb",
+      "explicit_parent_set_code": "clb",
+      "name": "Battle for Baldur's Gate Tokens",
+      "release_date": "2022-06-10",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "t2x2",
+      "explicit_parent_set_code": "2x2",
+      "name": "Double Masters 2022 Tokens",
+      "release_date": "2022-07-08",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "ptdmu",
+      "explicit_parent_set_code": "dmu",
+      "name": "Dominaria United Southeast Asia Tokens",
+      "release_date": "2022-09-09",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tdmc",
+      "explicit_parent_set_code": "dmc",
+      "name": "Dominaria United Commander Tokens",
+      "release_date": "2022-09-09",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tdmu",
+      "explicit_parent_set_code": "dmu",
+      "name": "Dominaria United Tokens",
+      "release_date": "2022-09-09",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "wdmu",
+      "explicit_parent_set_code": "dmu",
+      "name": "DMU Japanese Promo Tokens",
+      "release_date": "2022-09-09",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "t40k",
+      "explicit_parent_set_code": "40k",
+      "name": "Warhammer 40,000 Tokens",
+      "release_date": "2022-10-07",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tunf",
+      "explicit_parent_set_code": "unf",
+      "name": "Unfinity Tokens",
+      "release_date": "2022-10-07",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tgn3",
+      "explicit_parent_set_code": "gn3",
+      "name": "Game Night: Free-for-All Tokens",
+      "release_date": "2022-10-14",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "ptbro",
+      "explicit_parent_set_code": "bro",
+      "name": "The Brothers' War Southeast Asia Tokens",
+      "release_date": "2022-11-18",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "sbro",
+      "explicit_parent_set_code": "bro",
+      "name": "The Brothers' War Substitute Cards",
+      "release_date": "2022-11-18",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tbot",
+      "explicit_parent_set_code": "bot",
+      "name": "Transformers Tokens",
+      "release_date": "2022-11-18",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tbrc",
+      "explicit_parent_set_code": "brc",
+      "name": "The Brothers' War Commander Tokens",
+      "release_date": "2022-11-18",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tbro",
+      "explicit_parent_set_code": "bro",
+      "name": "The Brothers' War Tokens",
+      "release_date": "2022-11-18",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "t30a",
+      "explicit_parent_set_code": "30a",
+      "name": "30th Anniversary Tokens",
+      "release_date": "2022-11-28",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tscd",
+      "explicit_parent_set_code": "scd",
+      "name": "Starter Commander Deck Tokens",
+      "release_date": "2022-12-02",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tdmr",
+      "explicit_parent_set_code": "dmr",
+      "name": "Dominaria Remastered Tokens",
+      "release_date": "2023-01-13",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "wone",
+      "explicit_parent_set_code": "one",
+      "name": "ONE Japanese Promo Tokens",
+      "release_date": "2023-01-27",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tonc",
+      "explicit_parent_set_code": "onc",
+      "name": "Phyrexia: All Will Be One Commander Tokens",
+      "release_date": "2023-02-03",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tone",
+      "explicit_parent_set_code": "one",
+      "name": "Phyrexia: All Will Be One Tokens",
+      "release_date": "2023-02-03",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "smom",
+      "explicit_parent_set_code": "mom",
+      "name": "March of the Machine Substitute Cards",
+      "release_date": "2023-04-21",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tmoc",
+      "explicit_parent_set_code": "moc",
+      "name": "March of the Machine Commander Tokens",
+      "release_date": "2023-04-21",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tmom",
+      "explicit_parent_set_code": "mom",
+      "name": "March of the Machine Tokens",
+      "release_date": "2023-04-21",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tmul",
+      "explicit_parent_set_code": "mul",
+      "name": "Multiverse Legends Tokens",
+      "release_date": "2023-04-21",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "wmom",
+      "explicit_parent_set_code": "mom",
+      "name": "MOM Japanese Promo Tokens",
+      "release_date": "2023-04-21",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tltc",
+      "explicit_parent_set_code": "ltc",
+      "name": "Tales of Middle-earth Commander Tokens",
+      "release_date": "2023-06-23",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tltr",
+      "explicit_parent_set_code": "ltr",
+      "name": "Tales of Middle-earth Tokens",
+      "release_date": "2023-06-23",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tcmm",
+      "explicit_parent_set_code": "cmm",
+      "name": "Commander Masters Tokens",
+      "release_date": "2023-08-04",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "twoc",
+      "explicit_parent_set_code": "woc",
+      "name": "Wilds of Eldraine Commander Tokens",
+      "release_date": "2023-09-08",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "twoe",
+      "explicit_parent_set_code": "woe",
+      "name": "Wilds of Eldraine Tokens",
+      "release_date": "2023-09-08",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "wwoe",
+      "explicit_parent_set_code": "woe",
+      "name": "WOE Japanese Promo Tokens",
+      "release_date": "2023-09-08",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "twho",
+      "explicit_parent_set_code": "who",
+      "name": "Doctor Who Tokens",
+      "release_date": "2023-10-13",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "slci",
+      "explicit_parent_set_code": "lci",
+      "name": "The Lost Caverns of Ixalan Substitute Cards",
+      "release_date": "2023-11-17",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tlcc",
+      "explicit_parent_set_code": "lcc",
+      "name": "The Lost Caverns of Ixalan Commander Tokens",
+      "release_date": "2023-11-17",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tlci",
+      "explicit_parent_set_code": "lci",
+      "name": "The Lost Caverns of Ixalan Tokens",
+      "release_date": "2023-11-17",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "trex",
+      "explicit_parent_set_code": "rex",
+      "name": "Jurassic World Collection Tokens",
+      "release_date": "2023-11-17",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "trvr",
+      "explicit_parent_set_code": "rvr",
+      "name": "Ravnica Remastered Tokens",
+      "release_date": "2024-01-12",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tmkc",
+      "explicit_parent_set_code": "mkc",
+      "name": "Murders at Karlov Manor Commander Tokens",
+      "release_date": "2024-02-09",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tmkm",
+      "explicit_parent_set_code": "mkm",
+      "name": "Murders at Karlov Manor Tokens",
+      "release_date": "2024-02-09",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "wmkm",
+      "explicit_parent_set_code": "mkm",
+      "name": "MKM Japanese Promo Tokens",
+      "release_date": "2024-02-09",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tpip",
+      "explicit_parent_set_code": "pip",
+      "name": "Fallout Tokens",
+      "release_date": "2024-03-08",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tbig",
+      "explicit_parent_set_code": "big",
+      "name": "The Big Score Tokens",
+      "release_date": "2024-04-19",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "totc",
+      "explicit_parent_set_code": "otc",
+      "name": "Outlaws of Thunder Junction Commander Tokens",
+      "release_date": "2024-04-19",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "totj",
+      "explicit_parent_set_code": "otj",
+      "name": "Outlaws of Thunder Junction Tokens",
+      "release_date": "2024-04-19",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "totp",
+      "explicit_parent_set_code": "otp",
+      "name": "Breaking News Tokens",
+      "release_date": "2024-04-19",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "smh3",
+      "explicit_parent_set_code": "mh3",
+      "name": "Modern Horizons 3 Substitute Cards",
+      "release_date": "2024-06-14",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tm3c",
+      "explicit_parent_set_code": "m3c",
+      "name": "Modern Horizons 3 Commander Tokens",
+      "release_date": "2024-06-14",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tmh3",
+      "explicit_parent_set_code": "mh3",
+      "name": "Modern Horizons 3 Tokens",
+      "release_date": "2024-06-14",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tacr",
+      "explicit_parent_set_code": "acr",
+      "name": "Assassin's Creed Tokens",
+      "release_date": "2024-07-05",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tblb",
+      "explicit_parent_set_code": "blb",
+      "name": "Bloomburrow Tokens",
+      "release_date": "2024-08-02",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tblc",
+      "explicit_parent_set_code": "blc",
+      "name": "Bloomburrow Commander Tokens",
+      "release_date": "2024-08-02",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tdsc",
+      "explicit_parent_set_code": "dsc",
+      "name": "Duskmourn Commander Tokens",
+      "release_date": "2024-09-27",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tdsk",
+      "explicit_parent_set_code": "dsk",
+      "name": "Duskmourn: House of Horror Tokens",
+      "release_date": "2024-09-27",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tfdn",
+      "explicit_parent_set_code": "fdn",
+      "name": "Foundations Tokens",
+      "release_date": "2024-11-15",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tinr",
+      "explicit_parent_set_code": "inr",
+      "name": "Innistrad Remastered Tokens",
+      "release_date": "2025-01-24",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tdft",
+      "explicit_parent_set_code": "dft",
+      "name": "Aetherdrift Tokens",
+      "release_date": "2025-02-14",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tdrc",
+      "explicit_parent_set_code": "drc",
+      "name": "Aetherdrift Commander Tokens",
+      "release_date": "2025-02-14",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "ttdc",
+      "explicit_parent_set_code": "tdc",
+      "name": "Tarkir: Dragonstorm Commander Tokens",
+      "release_date": "2025-04-11",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "ttdm",
+      "explicit_parent_set_code": "tdm",
+      "name": "Tarkir: Dragonstorm Tokens",
+      "release_date": "2025-04-11",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tfic",
+      "explicit_parent_set_code": "fic",
+      "name": "Final Fantasy Commander Tokens",
+      "release_date": "2025-06-13",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tfin",
+      "explicit_parent_set_code": "fin",
+      "name": "Final Fantasy Tokens",
+      "release_date": "2025-06-13",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "wfin",
+      "explicit_parent_set_code": "fin",
+      "name": "FIN Asia WPN Promo Tokens",
+      "release_date": "2025-06-13",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "teoc",
+      "explicit_parent_set_code": "eoc",
+      "name": "Edge of Eternities Commander Tokens",
+      "release_date": "2025-08-01",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "teoe",
+      "explicit_parent_set_code": "eoe",
+      "name": "Edge of Eternities Tokens",
+      "release_date": "2025-08-01",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tspm",
+      "explicit_parent_set_code": "spm",
+      "name": "Marvel's Spider-Man Tokens",
+      "release_date": "2025-09-26",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "ttla",
+      "explicit_parent_set_code": "tla",
+      "name": "Avatar: The Last Airbender Tokens",
+      "release_date": "2025-11-21",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "ttle",
+      "explicit_parent_set_code": "tle",
+      "name": "Avatar: The Last Airbender Eternal Tokens",
+      "release_date": "2025-11-21",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tecc",
+      "explicit_parent_set_code": "ecc",
+      "name": "Lorwyn Eclipsed Commander Tokens",
+      "release_date": "2026-01-23",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tecl",
+      "explicit_parent_set_code": "ecl",
+      "name": "Lorwyn Eclipsed Tokens",
+      "release_date": "2026-01-23",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "ttmc",
+      "explicit_parent_set_code": "tmc",
+      "name": "Teenage Mutant Ninja Turtles Eternal Tokens",
+      "release_date": "2026-03-06",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "ttmt",
+      "explicit_parent_set_code": "tmt",
+      "name": "Teenage Mutant Ninja Turtles Tokens",
+      "release_date": "2026-03-06",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tsoc",
+      "explicit_parent_set_code": "soc",
+      "name": "Secrets of Strixhaven Commander Tokens",
+      "release_date": "2026-04-24",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tsos",
+      "explicit_parent_set_code": "sos",
+      "name": "Secrets of Strixhaven Tokens",
+      "release_date": "2026-04-24",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tmsc",
+      "explicit_parent_set_code": "msc",
+      "name": "Marvel Super Heroes Commander Tokens",
+      "release_date": "2026-06-26",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tmsh",
+      "explicit_parent_set_code": "msh",
+      "name": "Marvel Super Heroes Tokens",
+      "release_date": "2026-06-26",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "thob",
+      "explicit_parent_set_code": "hob",
+      "name": "The Hobbit Tokens",
+      "release_date": "2026-08-14",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tfdc",
+      "explicit_parent_set_code": "fdc",
+      "name": "Foundations Commander Tokens",
+      "release_date": "2026-10-02",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tfra",
+      "explicit_parent_set_code": "fra",
+      "name": "Reality Fracture Tokens",
+      "release_date": "2026-10-02",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "tfrc",
+      "explicit_parent_set_code": "frc",
+      "name": "Reality Fracture Commander Tokens",
+      "release_date": "2026-10-02",
+      "research_priority": 4,
+      "scryfall_type": "token"
+    },
+    {
+      "code": "pvan",
+      "explicit_parent_set_code": null,
+      "name": "Vanguard Series",
+      "release_date": "1997-05-01",
+      "research_priority": 4,
+      "scryfall_type": "vanguard"
+    }
+  ],
+  "reviewed_commander_modern_codes": [
+    {
+      "card_legality_inferred": false,
+      "code": "blc",
+      "evidence_grade": "wizards_direct_commander_decklist_scryfall_family_crosswalk",
+      "exact_deck_printing_inventory_certified": false,
+      "name": "Bloomburrow Commander",
+      "new_card_count_certified": false,
+      "premier_set_certified": false,
+      "scryfall_explicit_parent_code_unchanged": "blb",
+      "scryfall_release_or_first_card_date": "2024-08-02",
+      "scryfall_type": "commander",
+      "wizards_article_section": "Bloomburrow Commander Decklists",
+      "wizards_exact_scryfall_code_confirmed": false,
+      "wizards_primary_url": "https://magic.wizards.com/en/news/announcements/bloomburrow-commander-decklists",
+      "wizards_product_family_supported": "commander_preconstructed_product_line",
+      "wizards_source_note": "The official page identifies this marketed Commander deck product family. The Scryfall code, first-card date and parent link come independently from the frozen October 29 snapshot. Wizards page evidence is not a card-by-card printing or legality audit.",
+      "wizards_versus_scryfall_date_relationship": null
+    },
+    {
+      "card_legality_inferred": false,
+      "code": "drc",
+      "evidence_grade": "wizards_direct_commander_decklist_scryfall_family_crosswalk",
+      "exact_deck_printing_inventory_certified": false,
+      "name": "Aetherdrift Commander",
+      "new_card_count_certified": false,
+      "premier_set_certified": false,
+      "scryfall_explicit_parent_code_unchanged": "dft",
+      "scryfall_release_or_first_card_date": "2025-02-14",
+      "scryfall_type": "commander",
+      "wizards_article_section": "Aetherdrift Commander Decklists",
+      "wizards_exact_scryfall_code_confirmed": false,
+      "wizards_primary_url": "https://magic.wizards.com/en/news/announcements/aetherdrift-commander-decklists",
+      "wizards_product_family_supported": "commander_preconstructed_product_line",
+      "wizards_source_note": "The official page identifies this marketed Commander deck product family. The Scryfall code, first-card date and parent link come independently from the frozen October 29 snapshot. Wizards page evidence is not a card-by-card printing or legality audit.",
+      "wizards_versus_scryfall_date_relationship": null
+    },
+    {
+      "card_legality_inferred": false,
+      "code": "dsc",
+      "evidence_grade": "wizards_direct_commander_decklist_scryfall_family_crosswalk",
+      "exact_deck_printing_inventory_certified": false,
+      "name": "Duskmourn: House of Horror Commander",
+      "new_card_count_certified": false,
+      "premier_set_certified": false,
+      "scryfall_explicit_parent_code_unchanged": "dsk",
+      "scryfall_release_or_first_card_date": "2024-09-27",
+      "scryfall_type": "commander",
+      "wizards_article_section": "Duskmourn: House of Horror Commander Decklists",
+      "wizards_exact_scryfall_code_confirmed": false,
+      "wizards_primary_url": "https://magic.wizards.com/en/news/announcements/duskmourn-house-of-horror-commander-decklists",
+      "wizards_product_family_supported": "commander_preconstructed_product_line",
+      "wizards_source_note": "The official page identifies this marketed Commander deck product family. The Scryfall code, first-card date and parent link come independently from the frozen October 29 snapshot. Wizards page evidence is not a card-by-card printing or legality audit.",
+      "wizards_versus_scryfall_date_relationship": null
+    },
+    {
+      "card_legality_inferred": false,
+      "code": "ecc",
+      "evidence_grade": "wizards_direct_commander_decklist_scryfall_family_crosswalk",
+      "exact_deck_printing_inventory_certified": false,
+      "name": "Lorwyn Eclipsed Commander",
+      "new_card_count_certified": false,
+      "premier_set_certified": false,
+      "scryfall_explicit_parent_code_unchanged": "ecl",
+      "scryfall_release_or_first_card_date": "2026-01-23",
+      "scryfall_type": "commander",
+      "wizards_article_section": "Lorwyn Eclipsed Commander Decklists",
+      "wizards_exact_scryfall_code_confirmed": false,
+      "wizards_primary_url": "https://magic.wizards.com/en/news/announcements/lorwyn-eclipsed-commander-decklists",
+      "wizards_product_family_supported": "commander_preconstructed_product_line",
+      "wizards_source_note": "The official page identifies this marketed Commander deck product family. The Scryfall code, first-card date and parent link come independently from the frozen October 29 snapshot. Wizards page evidence is not a card-by-card printing or legality audit.",
+      "wizards_versus_scryfall_date_relationship": null
+    },
+    {
+      "card_legality_inferred": false,
+      "code": "eoc",
+      "evidence_grade": "wizards_direct_commander_decklist_scryfall_family_crosswalk",
+      "exact_deck_printing_inventory_certified": false,
+      "name": "Edge of Eternities Commander",
+      "new_card_count_certified": false,
+      "premier_set_certified": false,
+      "scryfall_explicit_parent_code_unchanged": "eoe",
+      "scryfall_release_or_first_card_date": "2025-08-01",
+      "scryfall_type": "commander",
+      "wizards_article_section": "Edge of Eternities Commander Decklists",
+      "wizards_exact_scryfall_code_confirmed": false,
+      "wizards_primary_url": "https://magic.wizards.com/en/news/announcements/edge-of-eternities-commander-decklists",
+      "wizards_product_family_supported": "commander_preconstructed_product_line",
+      "wizards_source_note": "The official page identifies this marketed Commander deck product family. The Scryfall code, first-card date and parent link come independently from the frozen October 29 snapshot. Wizards page evidence is not a card-by-card printing or legality audit.",
+      "wizards_versus_scryfall_date_relationship": null
+    },
+    {
+      "card_legality_inferred": false,
+      "code": "fdc",
+      "evidence_grade": "wizards_direct_commander_decklist_scryfall_family_crosswalk",
+      "exact_deck_printing_inventory_certified": false,
+      "name": "Foundations Commander",
+      "new_card_count_certified": false,
+      "premier_set_certified": false,
+      "scryfall_explicit_parent_code_unchanged": "fdn",
+      "scryfall_release_or_first_card_date": "2024-11-15",
+      "scryfall_type": "commander",
+      "wizards_article_section": "Foundations Commander Decklists — five monocolor decks released with Reality Fracture October 2, 2026",
+      "wizards_exact_scryfall_code_confirmed": false,
+      "wizards_primary_url": "https://magic.wizards.com/en/news/announcements/foundations-commander-decklists",
+      "wizards_product_family_supported": "commander_preconstructed_product_line",
+      "wizards_source_note": "The official page identifies this marketed Commander deck product family. The Scryfall code, first-card date and parent link come independently from the frozen October 29 snapshot. Wizards page evidence is not a card-by-card printing or legality audit.",
+      "wizards_versus_scryfall_date_relationship": "Wizards' October 2, 2026 boxed decks are later than the Scryfall FDC set-code earliest-card date of November 15, 2024; neither date replaces the other."
+    },
+    {
+      "card_legality_inferred": false,
+      "code": "fic",
+      "evidence_grade": "wizards_direct_commander_decklist_scryfall_family_crosswalk",
+      "exact_deck_printing_inventory_certified": false,
+      "name": "Final Fantasy Commander",
+      "new_card_count_certified": false,
+      "premier_set_certified": false,
+      "scryfall_explicit_parent_code_unchanged": "fin",
+      "scryfall_release_or_first_card_date": "2025-06-13",
+      "scryfall_type": "commander",
+      "wizards_article_section": "Magic: The Gathering Final Fantasy Commander Decklists",
+      "wizards_exact_scryfall_code_confirmed": false,
+      "wizards_primary_url": "https://magic.wizards.com/en/news/announcements/final-fantasy-commander-decklists",
+      "wizards_product_family_supported": "commander_preconstructed_product_line",
+      "wizards_source_note": "The official page identifies this marketed Commander deck product family. The Scryfall code, first-card date and parent link come independently from the frozen October 29 snapshot. Wizards page evidence is not a card-by-card printing or legality audit.",
+      "wizards_versus_scryfall_date_relationship": null
+    },
+    {
+      "card_legality_inferred": false,
+      "code": "frc",
+      "evidence_grade": "wizards_direct_commander_decklist_scryfall_family_crosswalk",
+      "exact_deck_printing_inventory_certified": false,
+      "name": "Reality Fracture Commander",
+      "new_card_count_certified": false,
+      "premier_set_certified": false,
+      "scryfall_explicit_parent_code_unchanged": "fra",
+      "scryfall_release_or_first_card_date": "2026-10-02",
+      "scryfall_type": "commander",
+      "wizards_article_section": "Reality Fracture — Multiverse Reforged Commander Decklist",
+      "wizards_exact_scryfall_code_confirmed": false,
+      "wizards_primary_url": "https://magic.wizards.com/en/news/announcements/reality-fracture-multiverse-reforged-commander-decklist",
+      "wizards_product_family_supported": "commander_preconstructed_product_line",
+      "wizards_source_note": "The official page identifies this marketed Commander deck product family. The Scryfall code, first-card date and parent link come independently from the frozen October 29 snapshot. Wizards page evidence is not a card-by-card printing or legality audit.",
+      "wizards_versus_scryfall_date_relationship": null
+    },
+    {
+      "card_legality_inferred": false,
+      "code": "lcc",
+      "evidence_grade": "wizards_direct_commander_decklist_scryfall_family_crosswalk",
+      "exact_deck_printing_inventory_certified": false,
+      "name": "The Lost Caverns of Ixalan Commander",
+      "new_card_count_certified": false,
+      "premier_set_certified": false,
+      "scryfall_explicit_parent_code_unchanged": "lci",
+      "scryfall_release_or_first_card_date": "2023-11-17",
+      "scryfall_type": "commander",
+      "wizards_article_section": "The Lost Caverns of Ixalan Commander Decklists",
+      "wizards_exact_scryfall_code_confirmed": false,
+      "wizards_primary_url": "https://magic.wizards.com/en/news/announcements/the-lost-caverns-of-ixalan-commander-decklists",
+      "wizards_product_family_supported": "commander_preconstructed_product_line",
+      "wizards_source_note": "The official page identifies this marketed Commander deck product family. The Scryfall code, first-card date and parent link come independently from the frozen October 29 snapshot. Wizards page evidence is not a card-by-card printing or legality audit.",
+      "wizards_versus_scryfall_date_relationship": null
+    },
+    {
+      "card_legality_inferred": false,
+      "code": "m3c",
+      "evidence_grade": "wizards_direct_commander_decklist_scryfall_family_crosswalk",
+      "exact_deck_printing_inventory_certified": false,
+      "name": "Modern Horizons 3 Commander",
+      "new_card_count_certified": false,
+      "premier_set_certified": false,
+      "scryfall_explicit_parent_code_unchanged": "mh3",
+      "scryfall_release_or_first_card_date": "2024-06-14",
+      "scryfall_type": "commander",
+      "wizards_article_section": "Modern Horizons 3 Commander Decklists",
+      "wizards_exact_scryfall_code_confirmed": false,
+      "wizards_primary_url": "https://magic.wizards.com/en/news/announcements/modern-horizons-3-commander-decklists",
+      "wizards_product_family_supported": "commander_preconstructed_product_line",
+      "wizards_source_note": "The official page identifies this marketed Commander deck product family. The Scryfall code, first-card date and parent link come independently from the frozen October 29 snapshot. Wizards page evidence is not a card-by-card printing or legality audit.",
+      "wizards_versus_scryfall_date_relationship": null
+    },
+    {
+      "card_legality_inferred": false,
+      "code": "mkc",
+      "evidence_grade": "wizards_direct_commander_decklist_scryfall_family_crosswalk",
+      "exact_deck_printing_inventory_certified": false,
+      "name": "Murders at Karlov Manor Commander",
+      "new_card_count_certified": false,
+      "premier_set_certified": false,
+      "scryfall_explicit_parent_code_unchanged": "mkm",
+      "scryfall_release_or_first_card_date": "2024-02-09",
+      "scryfall_type": "commander",
+      "wizards_article_section": "Murders at Karlov Manor Commander Decklists",
+      "wizards_exact_scryfall_code_confirmed": false,
+      "wizards_primary_url": "https://magic.wizards.com/en/news/announcements/murders-at-karlov-manor-commander-decklists",
+      "wizards_product_family_supported": "commander_preconstructed_product_line",
+      "wizards_source_note": "The official page identifies this marketed Commander deck product family. The Scryfall code, first-card date and parent link come independently from the frozen October 29 snapshot. Wizards page evidence is not a card-by-card printing or legality audit.",
+      "wizards_versus_scryfall_date_relationship": null
+    },
+    {
+      "card_legality_inferred": false,
+      "code": "moc",
+      "evidence_grade": "wizards_direct_commander_decklist_scryfall_family_crosswalk",
+      "exact_deck_printing_inventory_certified": false,
+      "name": "March of the Machine Commander",
+      "new_card_count_certified": false,
+      "premier_set_certified": false,
+      "scryfall_explicit_parent_code_unchanged": "mom",
+      "scryfall_release_or_first_card_date": "2023-04-21",
+      "scryfall_type": "commander",
+      "wizards_article_section": "March of the Machine Commander Decklists",
+      "wizards_exact_scryfall_code_confirmed": false,
+      "wizards_primary_url": "https://magic.wizards.com/en/news/announcements/march-of-the-machine-commander-decklists",
+      "wizards_product_family_supported": "commander_preconstructed_product_line",
+      "wizards_source_note": "The official page identifies this marketed Commander deck product family. The Scryfall code, first-card date and parent link come independently from the frozen October 29 snapshot. Wizards page evidence is not a card-by-card printing or legality audit.",
+      "wizards_versus_scryfall_date_relationship": null
+    },
+    {
+      "card_legality_inferred": false,
+      "code": "msc",
+      "evidence_grade": "wizards_direct_commander_decklist_scryfall_family_crosswalk",
+      "exact_deck_printing_inventory_certified": false,
+      "name": "Marvel Super Heroes Commander",
+      "new_card_count_certified": false,
+      "premier_set_certified": false,
+      "scryfall_explicit_parent_code_unchanged": "msh",
+      "scryfall_release_or_first_card_date": "2026-06-26",
+      "scryfall_type": "commander",
+      "wizards_article_section": "Magic: The Gathering Marvel Super Heroes Commander Decklists",
+      "wizards_exact_scryfall_code_confirmed": false,
+      "wizards_primary_url": "https://magic.wizards.com/en/news/announcements/marvel-super-heroes-commander-decklists",
+      "wizards_product_family_supported": "commander_preconstructed_product_line",
+      "wizards_source_note": "The official page identifies this marketed Commander deck product family. The Scryfall code, first-card date and parent link come independently from the frozen October 29 snapshot. Wizards page evidence is not a card-by-card printing or legality audit.",
+      "wizards_versus_scryfall_date_relationship": null
+    },
+    {
+      "card_legality_inferred": false,
+      "code": "onc",
+      "evidence_grade": "wizards_direct_commander_decklist_scryfall_family_crosswalk",
+      "exact_deck_printing_inventory_certified": false,
+      "name": "Phyrexia: All Will Be One Commander",
+      "new_card_count_certified": false,
+      "premier_set_certified": false,
+      "scryfall_explicit_parent_code_unchanged": "one",
+      "scryfall_release_or_first_card_date": "2023-02-10",
+      "scryfall_type": "commander",
+      "wizards_article_section": "Phyrexia: All Will Be One Commander Decklists",
+      "wizards_exact_scryfall_code_confirmed": false,
+      "wizards_primary_url": "https://magic.wizards.com/en/news/announcements/phyrexia-all-will-be-one-commander-decklists",
+      "wizards_product_family_supported": "commander_preconstructed_product_line",
+      "wizards_source_note": "The official page identifies this marketed Commander deck product family. The Scryfall code, first-card date and parent link come independently from the frozen October 29 snapshot. Wizards page evidence is not a card-by-card printing or legality audit.",
+      "wizards_versus_scryfall_date_relationship": null
+    },
+    {
+      "card_legality_inferred": false,
+      "code": "otc",
+      "evidence_grade": "wizards_direct_commander_decklist_scryfall_family_crosswalk",
+      "exact_deck_printing_inventory_certified": false,
+      "name": "Outlaws of Thunder Junction Commander",
+      "new_card_count_certified": false,
+      "premier_set_certified": false,
+      "scryfall_explicit_parent_code_unchanged": "otj",
+      "scryfall_release_or_first_card_date": "2024-04-19",
+      "scryfall_type": "commander",
+      "wizards_article_section": "Outlaws of Thunder Junction Commander Decklists",
+      "wizards_exact_scryfall_code_confirmed": false,
+      "wizards_primary_url": "https://magic.wizards.com/en/news/announcements/outlaws-of-thunder-junction-commander-decklists",
+      "wizards_product_family_supported": "commander_preconstructed_product_line",
+      "wizards_source_note": "The official page identifies this marketed Commander deck product family. The Scryfall code, first-card date and parent link come independently from the frozen October 29 snapshot. Wizards page evidence is not a card-by-card printing or legality audit.",
+      "wizards_versus_scryfall_date_relationship": null
+    },
+    {
+      "card_legality_inferred": false,
+      "code": "soc",
+      "evidence_grade": "wizards_direct_commander_decklist_scryfall_family_crosswalk",
+      "exact_deck_printing_inventory_certified": false,
+      "name": "Secrets of Strixhaven Commander",
+      "new_card_count_certified": false,
+      "premier_set_certified": false,
+      "scryfall_explicit_parent_code_unchanged": "sos",
+      "scryfall_release_or_first_card_date": "2026-04-24",
+      "scryfall_type": "commander",
+      "wizards_article_section": "Secrets of Strixhaven Commander Decklists",
+      "wizards_exact_scryfall_code_confirmed": false,
+      "wizards_primary_url": "https://magic.wizards.com/en/news/announcements/secrets-of-strixhaven-commander-decklists",
+      "wizards_product_family_supported": "commander_preconstructed_product_line",
+      "wizards_source_note": "The official page identifies this marketed Commander deck product family. The Scryfall code, first-card date and parent link come independently from the frozen October 29 snapshot. Wizards page evidence is not a card-by-card printing or legality audit.",
+      "wizards_versus_scryfall_date_relationship": null
+    },
+    {
+      "card_legality_inferred": false,
+      "code": "tdc",
+      "evidence_grade": "wizards_direct_commander_decklist_scryfall_family_crosswalk",
+      "exact_deck_printing_inventory_certified": false,
+      "name": "Tarkir: Dragonstorm Commander",
+      "new_card_count_certified": false,
+      "premier_set_certified": false,
+      "scryfall_explicit_parent_code_unchanged": "tdm",
+      "scryfall_release_or_first_card_date": "2025-04-11",
+      "scryfall_type": "commander",
+      "wizards_article_section": "Tarkir: Dragonstorm Commander Decklists",
+      "wizards_exact_scryfall_code_confirmed": false,
+      "wizards_primary_url": "https://magic.wizards.com/en/news/announcements/tarkir-dragonstorm-commander-decklists",
+      "wizards_product_family_supported": "commander_preconstructed_product_line",
+      "wizards_source_note": "The official page identifies this marketed Commander deck product family. The Scryfall code, first-card date and parent link come independently from the frozen October 29 snapshot. Wizards page evidence is not a card-by-card printing or legality audit.",
+      "wizards_versus_scryfall_date_relationship": null
+    },
+    {
+      "card_legality_inferred": false,
+      "code": "who",
+      "evidence_grade": "wizards_direct_commander_decklist_scryfall_family_crosswalk",
+      "exact_deck_printing_inventory_certified": false,
+      "name": "Doctor Who",
+      "new_card_count_certified": false,
+      "premier_set_certified": false,
+      "scryfall_explicit_parent_code_unchanged": null,
+      "scryfall_release_or_first_card_date": "2023-10-13",
+      "scryfall_type": "commander",
+      "wizards_article_section": "Magic: The Gathering Doctor Who Commander Decklists",
+      "wizards_exact_scryfall_code_confirmed": false,
+      "wizards_primary_url": "https://magic.wizards.com/en/news/announcements/magic-the-gathering-doctor-who-commander-decklists",
+      "wizards_product_family_supported": "commander_preconstructed_product_line",
+      "wizards_source_note": "The official page identifies this marketed Commander deck product family. The Scryfall code, first-card date and parent link come independently from the frozen October 29 snapshot. Wizards page evidence is not a card-by-card printing or legality audit.",
+      "wizards_versus_scryfall_date_relationship": null
+    },
+    {
+      "card_legality_inferred": false,
+      "code": "woc",
+      "evidence_grade": "wizards_direct_commander_decklist_scryfall_family_crosswalk",
+      "exact_deck_printing_inventory_certified": false,
+      "name": "Wilds of Eldraine Commander",
+      "new_card_count_certified": false,
+      "premier_set_certified": false,
+      "scryfall_explicit_parent_code_unchanged": "woe",
+      "scryfall_release_or_first_card_date": "2023-09-08",
+      "scryfall_type": "commander",
+      "wizards_article_section": "Wilds of Eldraine Commander Decklists",
+      "wizards_exact_scryfall_code_confirmed": false,
+      "wizards_primary_url": "https://magic.wizards.com/en/news/announcements/wilds-of-eldraine-commander-decklists",
+      "wizards_product_family_supported": "commander_preconstructed_product_line",
+      "wizards_source_note": "The official page identifies this marketed Commander deck product family. The Scryfall code, first-card date and parent link come independently from the frozen October 29 snapshot. Wizards page evidence is not a card-by-card printing or legality audit.",
+      "wizards_versus_scryfall_date_relationship": null
+    }
+  ],
+  "schema": 1,
+  "source": "commander_modern_sources_2023_2026.json"
+}
