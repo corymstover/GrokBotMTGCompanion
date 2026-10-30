@@ -1,0 +1,1293 @@
+{
+ "schema": "card-name-anchors/v1",
+ "status": "PRELIMINARY_RESEARCH (mechanical card-data anchors; not owner approved; not lore claims)",
+ "card_data_source": {
+  "provider": "Scryfall",
+  "snapshot": "snap-20261029-40848334824-1",
+  "file": "oracle-cards-20261029090202.jsonl.gz"
+ },
+ "rule": "A printed paper card whose front-face name names the entity: legendary creature or planeswalker for characters (alias exactly, or alias + ', '/' the '/' of '/one further word; never a possessive); exact name for objects, places and events. A name anchor is not evidence about a story event, an illustration or a chronology.",
+ "tier": "NAMED_CARD",
+ "anchors": [
+  {
+   "entity": "ajani",
+   "entity_type": "Character",
+   "entity_name": "Ajani",
+   "aliases": [
+    "Ajani"
+   ],
+   "pack": "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Ajani Goldmane",
+     "oracle_id": "dfb5f660-fd8b-4b7b-934c-6a71cd182f15",
+     "type_line": "Legendary Planeswalker — Ajani",
+     "scryfall_uri": "https://scryfall.com/card/m11/1/ajani-goldmane"
+    },
+    {
+     "name": "Ajani Resolute",
+     "oracle_id": "0d60c095-4c6c-4618-8ef3-508f3d454efa",
+     "type_line": "Legendary Planeswalker — Ajani",
+     "scryfall_uri": "https://scryfall.com/card/fra/195/ajani-resolute"
+    },
+    {
+     "name": "Ajani Steadfast",
+     "oracle_id": "90249526-1875-450a-882d-bf6f6bfd37a6",
+     "type_line": "Legendary Planeswalker — Ajani",
+     "scryfall_uri": "https://scryfall.com/card/cmm/813/ajani-steadfast"
+    },
+    {
+     "name": "Ajani Unrelenting",
+     "oracle_id": "71620e92-45a4-49cb-94d5-348013ecf886",
+     "type_line": "Legendary Planeswalker — Ajani",
+     "scryfall_uri": "https://scryfall.com/card/fra/242/ajani-unrelenting"
+    },
+    {
+     "name": "Ajani Unyielding",
+     "oracle_id": "8a70ddc5-bb51-45eb-96f2-8ecaecac0cc2",
+     "type_line": "Legendary Planeswalker — Ajani",
+     "scryfall_uri": "https://scryfall.com/card/ncc/324/ajani-unyielding"
+    },
+    {
+     "name": "Ajani Vengeant",
+     "oracle_id": "f953afdf-96f7-4851-994c-1617e8f5e5c9",
+     "type_line": "Legendary Planeswalker — Ajani",
+     "scryfall_uri": "https://scryfall.com/card/ddh/1/ajani-vengeant"
+    },
+    {
+     "name": "Ajani, Adversary of Tyrants",
+     "oracle_id": "b25bea73-7444-4ee2-8022-611461506117",
+     "type_line": "Legendary Planeswalker — Ajani",
+     "scryfall_uri": "https://scryfall.com/card/m19/3/ajani-adversary-of-tyrants"
+    },
+    {
+     "name": "Ajani, Caller of the Pride",
+     "oracle_id": "1d5ff280-7f4d-4801-aefd-9b6e6b1f2818",
+     "type_line": "Legendary Planeswalker — Ajani",
+     "scryfall_uri": "https://scryfall.com/card/fdn/134/ajani-caller-of-the-pride"
+    },
+    {
+     "name": "Ajani, Inspiring Leader",
+     "oracle_id": "15474e82-94b4-47e1-b91c-3deaf4dbffd6",
+     "type_line": "Legendary Planeswalker — Ajani",
+     "scryfall_uri": "https://scryfall.com/card/m20/282/ajani-inspiring-leader"
+    },
+    {
+     "name": "Ajani, Mentor of Heroes",
+     "oracle_id": "a612bd38-069f-4bdc-9aa6-c172435e3841",
+     "type_line": "Legendary Planeswalker — Ajani",
+     "scryfall_uri": "https://scryfall.com/card/jou/145/ajani-mentor-of-heroes"
+    },
+    {
+     "name": "Ajani, Nacatl Pariah // Ajani, Nacatl Avenger",
+     "oracle_id": "2588f348-d7a3-46c8-9ace-dca53ed5ef99",
+     "type_line": "Legendary Creature — Cat Warrior // Legendary Planeswalker — Ajani",
+     "scryfall_uri": "https://scryfall.com/card/mh3/237/ajani-nacatl-pariah-ajani-nacatl-avenger"
+    },
+    {
+     "name": "Ajani, Outland Chaperone",
+     "oracle_id": "3ba809ce-3556-415c-9fcc-291cb10a43cd",
+     "type_line": "Legendary Planeswalker — Ajani",
+     "scryfall_uri": "https://scryfall.com/card/ecl/4/ajani-outland-chaperone"
+    },
+    {
+     "name": "Ajani, Sleeper Agent",
+     "oracle_id": "37714eb9-a39d-4534-a2d3-27908c418f8a",
+     "type_line": "Legendary Planeswalker — Ajani",
+     "scryfall_uri": "https://scryfall.com/card/dmu/192/ajani-sleeper-agent"
+    },
+    {
+     "name": "Ajani, Strength of the Pride",
+     "oracle_id": "c3974ec7-7af0-4b65-baf6-4c1c4fe8a5c4",
+     "type_line": "Legendary Planeswalker — Ajani",
+     "scryfall_uri": "https://scryfall.com/card/m20/2/ajani-strength-of-the-pride"
+    },
+    {
+     "name": "Ajani, Valiant Protector",
+     "oracle_id": "542423cb-fbfb-4a2f-9f6d-87b273a95e96",
+     "type_line": "Legendary Planeswalker — Ajani",
+     "scryfall_uri": "https://scryfall.com/card/aer/185/ajani-valiant-protector"
+    },
+    {
+     "name": "Ajani, Wise Counselor",
+     "oracle_id": "341f198b-beb6-4a44-af91-a64a5989c865",
+     "type_line": "Legendary Planeswalker — Ajani",
+     "scryfall_uri": "https://scryfall.com/card/m19/281/ajani-wise-counselor"
+    },
+    {
+     "name": "Ajani, the Greathearted",
+     "oracle_id": "f5d9be71-91d0-4166-ba58-cbbf5d490c40",
+     "type_line": "Legendary Planeswalker — Ajani",
+     "scryfall_uri": "https://scryfall.com/card/war/184/ajani-the-greathearted"
+    }
+   ]
+  },
+  {
+   "entity": "arcades_sabboth",
+   "entity_type": "Character",
+   "entity_name": "Arcades Sabboth",
+   "aliases": [
+    "Arcades Sabboth",
+    "Arcades"
+   ],
+   "pack": "pack_a_elder_dragon_war_extension_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Arcades Sabboth",
+     "oracle_id": "8ead94c5-8447-4f20-87ec-efdccde689fc",
+     "type_line": "Legendary Creature — Elder Dragon",
+     "scryfall_uri": "https://scryfall.com/card/dmr/187/arcades-sabboth"
+    },
+    {
+     "name": "Arcades, the Strategist",
+     "oracle_id": "e7fc5ad6-f2f0-4b06-a61b-05022db9d93b",
+     "type_line": "Legendary Creature — Elder Dragon",
+     "scryfall_uri": "https://scryfall.com/card/m19/212/arcades-the-strategist"
+    }
+   ]
+  },
+  {
+   "entity": "argoth",
+   "entity_type": "Place",
+   "entity_name": "Argoth",
+   "aliases": [
+    "Argoth, Sanctum of Nature"
+   ],
+   "pack": "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Argoth, Sanctum of Nature",
+     "oracle_id": "62648946-1708-48f4-ba40-c057563ab11b",
+     "type_line": "Land",
+     "scryfall_uri": "https://scryfall.com/card/bro/256/argoth-sanctum-of-nature"
+    }
+   ]
+  },
+  {
+   "entity": "ashnod",
+   "entity_type": "Character",
+   "entity_name": "Ashnod",
+   "aliases": [
+    "Ashnod"
+   ],
+   "pack": "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Ashnod the Uncaring",
+     "oracle_id": "dcd5ab1b-adc5-486e-a1e0-636af6ee9470",
+     "type_line": "Legendary Creature — Human Artificer",
+     "scryfall_uri": "https://scryfall.com/card/brc/4/ashnod-the-uncaring"
+    },
+    {
+     "name": "Ashnod, Flesh Mechanist",
+     "oracle_id": "7dfae95e-f67e-49e3-b68a-40ea7e5099dd",
+     "type_line": "Legendary Creature — Human Artificer",
+     "scryfall_uri": "https://scryfall.com/card/bro/84/ashnod-flesh-mechanist"
+    }
+   ]
+  },
+  {
+   "entity": "brothers_war",
+   "entity_type": "Event",
+   "entity_name": "The Brothers' War",
+   "aliases": [
+    "The Brothers' War"
+   ],
+   "pack": "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json",
+   "cards": [
+    {
+     "name": "The Brothers' War",
+     "oracle_id": "43040c34-acad-4d62-893d-fd606fa9d8fe",
+     "type_line": "Enchantment — Saga",
+     "scryfall_uri": "https://scryfall.com/card/brc/22/the-brothers-war"
+    }
+   ]
+  },
+  {
+   "entity": "caves_of_koilos",
+   "entity_type": "Place",
+   "entity_name": "Caves of Koilos",
+   "aliases": [
+    "Caves of Koilos"
+   ],
+   "pack": "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Caves of Koilos",
+     "oracle_id": "33de01e9-ce5a-42d4-afcb-343cd54a6d80",
+     "type_line": "Land",
+     "scryfall_uri": "https://scryfall.com/card/frc/66/caves-of-koilos"
+    }
+   ]
+  },
+  {
+   "entity": "chromium_rhuell",
+   "entity_type": "Character",
+   "entity_name": "Chromium Rhuell",
+   "aliases": [
+    "Chromium"
+   ],
+   "pack": "pack_a_elder_dragon_war_extension_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Chromium",
+     "oracle_id": "7c91ae5d-0320-46a7-98d2-df0918202478",
+     "type_line": "Legendary Creature — Elder Dragon",
+     "scryfall_uri": "https://scryfall.com/card/me3/147/chromium"
+    },
+    {
+     "name": "Chromium, the Mutable",
+     "oracle_id": "58d8ff36-4a4d-40e0-b812-3d23b2c7606a",
+     "type_line": "Legendary Creature — Elder Dragon",
+     "scryfall_uri": "https://scryfall.com/card/m19/214/chromium-the-mutable"
+    }
+   ]
+  },
+  {
+   "entity": "crosis",
+   "entity_type": "Character",
+   "entity_name": "Crosis, the Purger",
+   "aliases": [
+    "Crosis"
+   ],
+   "pack": "pack_a_elder_dragon_war_extension_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Crosis, the Purger",
+     "oracle_id": "f1ae1dcd-76cd-4714-9df2-1ab0ebd2ca41",
+     "type_line": "Legendary Creature — Dragon",
+     "scryfall_uri": "https://scryfall.com/card/c17/168/crosis-the-purger"
+    }
+   ]
+  },
+  {
+   "entity": "crucible_spirit_dragon",
+   "entity_type": "Place",
+   "entity_name": "Crucible of the Spirit Dragon",
+   "aliases": [
+    "Crucible of the Spirit Dragon"
+   ],
+   "pack": "pack_a_tarkir_card_scenes_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Crucible of the Spirit Dragon",
+     "oracle_id": "ecfbebc9-7fc7-474e-8c59-8ede800e082e",
+     "type_line": "Land",
+     "scryfall_uri": "https://scryfall.com/card/afc/231/crucible-of-the-spirit-dragon"
+    }
+   ]
+  },
+  {
+   "entity": "dakkon",
+   "entity_type": "Character",
+   "entity_name": "Dakkon Blackblade",
+   "aliases": [
+    "Dakkon Blackblade",
+    "Dakkon"
+   ],
+   "pack": "pack_a_elder_dragon_war_extension_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Dakkon Blackblade",
+     "oracle_id": "1aa78e3b-bf7e-4645-9521-4b3537c93f46",
+     "type_line": "Legendary Creature — Human Warrior",
+     "scryfall_uri": "https://scryfall.com/card/me1/143/dakkon-blackblade"
+    },
+    {
+     "name": "Dakkon, Shadow Slayer",
+     "oracle_id": "335b5302-2272-405a-b2b8-3943b3df335f",
+     "type_line": "Legendary Planeswalker — Dakkon",
+     "scryfall_uri": "https://scryfall.com/card/mh2/192/dakkon-shadow-slayer"
+    }
+   ]
+  },
+  {
+   "entity": "elder_dragon_wars",
+   "entity_type": "Event",
+   "entity_name": "Elder Dragon Wars",
+   "aliases": [
+    "The Elder Dragon War"
+   ],
+   "pack": "pack_a_ugin_bolas_evidence_2026-10-30.json",
+   "cards": [
+    {
+     "name": "The Elder Dragon War",
+     "oracle_id": "4945f03b-ff99-4923-b62d-3cdb60275ef1",
+     "type_line": "Enchantment — Saga",
+     "scryfall_uri": "https://scryfall.com/card/dmu/121/the-elder-dragon-war"
+    }
+   ]
+  },
+  {
+   "entity": "elesh_norn",
+   "entity_type": "Character",
+   "entity_name": "Elesh Norn",
+   "aliases": [
+    "Elesh Norn"
+   ],
+   "pack": "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Elesh Norn // The Argent Etchings",
+     "oracle_id": "650ed75c-20b0-45b8-a4d4-813e0369aaf1",
+     "type_line": "Legendary Creature — Phyrexian Praetor // Enchantment — Saga",
+     "scryfall_uri": "https://scryfall.com/card/mom/12/elesh-norn-the-argent-etchings"
+    },
+    {
+     "name": "Elesh Norn, Grand Cenobite",
+     "oracle_id": "958d71ff-c9f7-46f0-96ca-79e7f4d65a16",
+     "type_line": "Legendary Creature — Phyrexian Praetor",
+     "scryfall_uri": "https://scryfall.com/card/ima/18/elesh-norn-grand-cenobite"
+    },
+    {
+     "name": "Elesh Norn, Mother of Machines",
+     "oracle_id": "5ade11c0-41dd-4b6a-9f5b-c5903a3a0d7f",
+     "type_line": "Legendary Creature — Phyrexian Praetor",
+     "scryfall_uri": "https://scryfall.com/card/one/10/elesh-norn-mother-of-machines"
+    }
+   ]
+  },
+  {
+   "entity": "gerrard",
+   "entity_type": "Character",
+   "entity_name": "Gerrard Capashen",
+   "aliases": [
+    "Gerrard Capashen",
+    "Gerrard"
+   ],
+   "pack": "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Gerrard Capashen",
+     "oracle_id": "27521e70-3a1f-4819-a111-c38216ffe7c3",
+     "type_line": "Legendary Creature — Human Soldier",
+     "scryfall_uri": "https://scryfall.com/card/dde/46/gerrard-capashen"
+    },
+    {
+     "name": "Gerrard, Weatherlight Hero",
+     "oracle_id": "8a1e8435-16f2-475b-a8a9-7b9f0cf4594a",
+     "type_line": "Legendary Creature — Human Soldier",
+     "scryfall_uri": "https://scryfall.com/card/c19/41/gerrard-weatherlight-hero"
+    }
+   ]
+  },
+  {
+   "entity": "geyadrone_dihada",
+   "entity_type": "Character",
+   "entity_name": "Geyadrone Dihada",
+   "aliases": [
+    "Geyadrone Dihada",
+    "Dihada"
+   ],
+   "pack": "pack_a_elder_dragon_war_extension_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Dihada, Binder of Wills",
+     "oracle_id": "d326de4d-6157-4586-91b8-5668e1381ac3",
+     "type_line": "Legendary Planeswalker — Dihada",
+     "scryfall_uri": "https://scryfall.com/card/dmc/1/dihada-binder-of-wills"
+    },
+    {
+     "name": "Geyadrone Dihada",
+     "oracle_id": "e1105d84-86b5-44ef-9efc-d994ee1c35cc",
+     "type_line": "Legendary Planeswalker — Dihada",
+     "scryfall_uri": "https://scryfall.com/card/mh2/199/geyadrone-dihada"
+    }
+   ]
+  },
+  {
+   "entity": "gix",
+   "entity_type": "Character",
+   "entity_name": "Gix",
+   "aliases": [
+    "Gix"
+   ],
+   "pack": "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Gix, Yawgmoth Praetor",
+     "oracle_id": "928d977e-cff0-4e0e-83bb-16d73a754f35",
+     "type_line": "Legendary Creature — Phyrexian Praetor",
+     "scryfall_uri": "https://scryfall.com/card/tdc/181/gix-yawgmoth-praetor"
+    }
+   ]
+  },
+  {
+   "entity": "golgothian_sylex",
+   "entity_type": "Object",
+   "entity_name": "Golgothian Sylex",
+   "aliases": [
+    "Golgothian Sylex"
+   ],
+   "pack": "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Golgothian Sylex",
+     "oracle_id": "95197f8f-c24e-4d13-a106-7186b3cc59e0",
+     "type_line": "Artifact",
+     "scryfall_uri": "https://scryfall.com/card/atq/51/golgothian-sylex"
+    }
+   ]
+  },
+  {
+   "entity": "harbin",
+   "entity_type": "Character",
+   "entity_name": "Harbin",
+   "aliases": [
+    "Harbin"
+   ],
+   "pack": "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Harbin, Vanguard Aviator",
+     "oracle_id": "d827575f-e364-4a20-887e-3091e5501a4f",
+     "type_line": "Legendary Creature — Human Soldier",
+     "scryfall_uri": "https://scryfall.com/card/bro/212/harbin-vanguard-aviator"
+    }
+   ]
+  },
+  {
+   "entity": "jhoira",
+   "entity_type": "Character",
+   "entity_name": "Jhoira",
+   "aliases": [
+    "Jhoira"
+   ],
+   "pack": "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Jhoira of the Ghitu",
+     "oracle_id": "ad3f4ec9-9905-421b-98ed-78bb6fc9b450",
+     "type_line": "Legendary Creature — Human Wizard",
+     "scryfall_uri": "https://scryfall.com/card/tsr/256/jhoira-of-the-ghitu"
+    },
+    {
+     "name": "Jhoira, Ageless Innovator",
+     "oracle_id": "83b9a734-ee92-44c8-bf47-ca69b6d6405e",
+     "type_line": "Legendary Creature — Human Artificer",
+     "scryfall_uri": "https://scryfall.com/card/dmu/202/jhoira-ageless-innovator"
+    },
+    {
+     "name": "Jhoira, Weatherlight Captain",
+     "oracle_id": "c803b788-4213-4fab-b841-7e5bbf66088e",
+     "type_line": "Legendary Creature — Human Artificer",
+     "scryfall_uri": "https://scryfall.com/card/eoc/118/jhoira-weatherlight-captain"
+    },
+    {
+     "name": "Jhoira, Weatherlight Corsair",
+     "oracle_id": "cf9b0bb5-d545-4efd-9255-39b10c2be0ee",
+     "type_line": "Legendary Creature — Human Pirate",
+     "scryfall_uri": "https://scryfall.com/card/frc/8/jhoira-weatherlight-corsair"
+    }
+   ]
+  },
+  {
+   "entity": "jodah",
+   "entity_type": "Character",
+   "entity_name": "Jodah",
+   "aliases": [
+    "Jodah"
+   ],
+   "pack": "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Jodah, Archmage Eternal",
+     "oracle_id": "8be4745e-36d8-430f-945e-c8a7fde9b4f6",
+     "type_line": "Legendary Creature — Human Wizard",
+     "scryfall_uri": "https://scryfall.com/card/2x2/233/jodah-archmage-eternal"
+    },
+    {
+     "name": "Jodah, the Unifier",
+     "oracle_id": "490a8045-e160-4ccf-a05e-658ad2b7ac2d",
+     "type_line": "Legendary Creature — Human Wizard",
+     "scryfall_uri": "https://scryfall.com/card/dmu/203/jodah-the-unifier"
+    }
+   ]
+  },
+  {
+   "entity": "karn",
+   "entity_type": "Character",
+   "entity_name": "Karn",
+   "aliases": [
+    "Karn"
+   ],
+   "pack": "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Karn Liberated",
+     "oracle_id": "0ca233f4-1b7f-4807-ab6e-2b1f5439b3db",
+     "type_line": "Legendary Planeswalker — Karn",
+     "scryfall_uri": "https://scryfall.com/card/2xm/1/karn-liberated"
+    },
+    {
+     "name": "Karn, Argent Defender",
+     "oracle_id": "aecc621f-67da-41a7-9d47-05ded302ae35",
+     "type_line": "Legendary Artifact Creature — Golem",
+     "scryfall_uri": "https://scryfall.com/card/fra/279/karn-argent-defender"
+    },
+    {
+     "name": "Karn, Gilded Guardian",
+     "oracle_id": "20b90a18-ff62-4995-b0d6-fbef44dca357",
+     "type_line": "Legendary Artifact Creature — Golem",
+     "scryfall_uri": "https://scryfall.com/card/fra/272/karn-gilded-guardian"
+    },
+    {
+     "name": "Karn, Legacy Reforged",
+     "oracle_id": "bc8802db-8c94-4eb4-817f-5f4f5408b7a4",
+     "type_line": "Legendary Artifact Creature — Golem",
+     "scryfall_uri": "https://scryfall.com/card/mat/49/karn-legacy-reforged"
+    },
+    {
+     "name": "Karn, Living Legacy",
+     "oracle_id": "09ab1278-811f-4b97-bd34-7493d6e081e9",
+     "type_line": "Legendary Planeswalker — Karn",
+     "scryfall_uri": "https://scryfall.com/card/dmu/1/karn-living-legacy"
+    },
+    {
+     "name": "Karn, Scion of Urza",
+     "oracle_id": "060209fa-4b7d-4e08-bf8b-8759bba5641b",
+     "type_line": "Legendary Planeswalker — Karn",
+     "scryfall_uri": "https://scryfall.com/card/dom/1/karn-scion-of-urza"
+    },
+    {
+     "name": "Karn, Silver Golem",
+     "oracle_id": "8a7c6391-020a-4d7a-8abb-702631bbee56",
+     "type_line": "Legendary Artifact Creature — Golem",
+     "scryfall_uri": "https://scryfall.com/card/vma/270/karn-silver-golem"
+    },
+    {
+     "name": "Karn, the Great Creator",
+     "oracle_id": "a20dd48d-d344-4db1-b0e9-a2b71c3cc9d1",
+     "type_line": "Legendary Planeswalker — Karn",
+     "scryfall_uri": "https://scryfall.com/card/rvr/1/karn-the-great-creator"
+    }
+   ]
+  },
+  {
+   "entity": "mightstone_and_weakstone",
+   "entity_type": "Object",
+   "entity_name": "The Mightstone and Weakstone",
+   "aliases": [
+    "The Mightstone and Weakstone"
+   ],
+   "pack": "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json",
+   "cards": [
+    {
+     "name": "The Mightstone and Weakstone",
+     "oracle_id": "c396db03-bf11-4e20-b630-4f9aa8fd78da",
+     "type_line": "Legendary Artifact — Powerstone",
+     "scryfall_uri": "https://scryfall.com/card/bro/238/the-mightstone-and-weakstone"
+    }
+   ]
+  },
+  {
+   "entity": "mishra",
+   "entity_type": "Character",
+   "entity_name": "Mishra",
+   "aliases": [
+    "Mishra"
+   ],
+   "pack": "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Mishra, Artificer Prodigy",
+     "oracle_id": "b38adaac-3714-4348-9fec-cb2e2ad518b1",
+     "type_line": "Legendary Creature — Human Artificer",
+     "scryfall_uri": "https://scryfall.com/card/tsp/243/mishra-artificer-prodigy"
+    },
+    {
+     "name": "Mishra, Claimed by Gix",
+     "oracle_id": "26a623a1-60c9-47e3-af96-616e29551865",
+     "type_line": "Legendary Creature — Phyrexian Human Artificer",
+     "scryfall_uri": "https://scryfall.com/card/bro/216/mishra-claimed-by-gix"
+    },
+    {
+     "name": "Mishra, Eminent One",
+     "oracle_id": "d3438037-3efd-4ce0-88ec-6d48ab521992",
+     "type_line": "Legendary Creature — Human Artificer",
+     "scryfall_uri": "https://scryfall.com/card/brc/1/mishra-eminent-one"
+    },
+    {
+     "name": "Mishra, Excavation Prodigy",
+     "oracle_id": "4eba0e29-985b-4763-9a70-0946ba044b43",
+     "type_line": "Legendary Creature — Human Artificer",
+     "scryfall_uri": "https://scryfall.com/card/bro/140/mishra-excavation-prodigy"
+    },
+    {
+     "name": "Mishra, Lost to Phyrexia",
+     "oracle_id": "3989308a-4c0f-493a-b38f-cb4f5019dfe7",
+     "type_line": "Legendary Artifact Creature — Phyrexian Artificer",
+     "scryfall_uri": "https://scryfall.com/card/bro/163b/mishra-lost-to-phyrexia"
+    },
+    {
+     "name": "Mishra, Tamer of Mak Fawa",
+     "oracle_id": "3be40d81-9be5-4f39-8ce4-920c26cf2748",
+     "type_line": "Legendary Creature — Human Artificer",
+     "scryfall_uri": "https://scryfall.com/card/bro/217/mishra-tamer-of-mak-fawa"
+    }
+   ]
+  },
+  {
+   "entity": "narset",
+   "entity_type": "Character",
+   "entity_name": "Narset",
+   "aliases": [
+    "Narset"
+   ],
+   "pack": "pack_a_ugin_bolas_evidence_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Narset Transcendent",
+     "oracle_id": "e1de0c94-0ecc-425a-9b92-27c2745d07e7",
+     "type_line": "Legendary Planeswalker — Narset",
+     "scryfall_uri": "https://scryfall.com/card/dtk/225/narset-transcendent"
+    },
+    {
+     "name": "Narset of the Ancient Way",
+     "oracle_id": "b7ac6e89-941f-4ad9-a437-38ec38ec5263",
+     "type_line": "Legendary Planeswalker — Narset",
+     "scryfall_uri": "https://scryfall.com/card/cmm/930/narset-of-the-ancient-way"
+    },
+    {
+     "name": "Narset, Enlightened Exile",
+     "oracle_id": "d92725de-ead0-4a6c-83db-55ec3acc7184",
+     "type_line": "Legendary Creature — Human Monk",
+     "scryfall_uri": "https://scryfall.com/card/mat/38/narset-enlightened-exile"
+    },
+    {
+     "name": "Narset, Enlightened Master",
+     "oracle_id": "aeaf7768-ed67-487d-8506-e667babb88ba",
+     "type_line": "Legendary Creature — Human Monk",
+     "scryfall_uri": "https://scryfall.com/card/cmm/931/narset-enlightened-master"
+    },
+    {
+     "name": "Narset, Jeskai Waymaster",
+     "oracle_id": "1a2a74b8-0689-4959-9348-02cc832194cf",
+     "type_line": "Legendary Creature — Human Monk",
+     "scryfall_uri": "https://scryfall.com/card/tdm/209/narset-jeskai-waymaster"
+    },
+    {
+     "name": "Narset, Parter of Veils",
+     "oracle_id": "ab26fbe2-e808-48b9-8d0d-3fbb6c3d554f",
+     "type_line": "Legendary Planeswalker — Narset",
+     "scryfall_uri": "https://scryfall.com/card/cmm/853/narset-parter-of-veils"
+    }
+   ]
+  },
+  {
+   "entity": "nicol_bolas",
+   "entity_type": "Character",
+   "entity_name": "Nicol Bolas",
+   "aliases": [
+    "Nicol Bolas"
+   ],
+   "pack": "pack_a_ugin_bolas_evidence_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Nicol Bolas",
+     "oracle_id": "e26bf6a9-b31c-4bc0-b55b-c01f2f69be6b",
+     "type_line": "Legendary Creature — Elder Dragon",
+     "scryfall_uri": "https://scryfall.com/card/a25/209/nicol-bolas"
+    },
+    {
+     "name": "Nicol Bolas, Dragon-God",
+     "oracle_id": "581eedc4-efe4-4ae4-baf2-88071e7e6f6d",
+     "type_line": "Legendary Planeswalker — Bolas",
+     "scryfall_uri": "https://scryfall.com/card/rvr/205/nicol-bolas-dragon-god"
+    },
+    {
+     "name": "Nicol Bolas, God-Pharaoh",
+     "oracle_id": "cb33e07b-9599-4979-991f-df0c43ddac31",
+     "type_line": "Legendary Planeswalker — Bolas",
+     "scryfall_uri": "https://scryfall.com/card/2x2/260/nicol-bolas-god-pharaoh"
+    },
+    {
+     "name": "Nicol Bolas, Planeswalker",
+     "oracle_id": "05e9b55e-6329-48ec-b7d7-24c6b9692244",
+     "type_line": "Legendary Planeswalker — Bolas",
+     "scryfall_uri": "https://scryfall.com/card/e01/85/nicol-bolas-planeswalker"
+    },
+    {
+     "name": "Nicol Bolas, the Deceiver",
+     "oracle_id": "524b00ea-0372-40f9-a6a1-76a8497a1ea6",
+     "type_line": "Legendary Planeswalker — Bolas",
+     "scryfall_uri": "https://scryfall.com/card/hou/205/nicol-bolas-the-deceiver"
+    },
+    {
+     "name": "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+     "oracle_id": "55e4b27e-5447-4fc2-8cae-a03e344600c6",
+     "type_line": "Legendary Creature — Elder Dragon // Legendary Planeswalker — Bolas",
+     "scryfall_uri": "https://scryfall.com/card/m19/218/nicol-bolas-the-ravager-nicol-bolas-the-arisen"
+    }
+   ]
+  },
+  {
+   "entity": "palladia_mors",
+   "entity_type": "Character",
+   "entity_name": "Palladia-Mors",
+   "aliases": [
+    "Palladia-Mors"
+   ],
+   "pack": "pack_a_elder_dragon_war_extension_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Palladia-Mors",
+     "oracle_id": "d7121ac7-e425-46cd-b006-1af391d97f87",
+     "type_line": "Legendary Creature — Elder Dragon",
+     "scryfall_uri": "https://scryfall.com/card/me3/164/palladia-mors"
+    },
+    {
+     "name": "Palladia-Mors, the Ruiner",
+     "oracle_id": "4c2b10ba-1930-4da8-9570-c89b2e239e3e",
+     "type_line": "Legendary Creature — Elder Dragon",
+     "scryfall_uri": "https://scryfall.com/card/m19/219/palladia-mors-the-ruiner"
+    }
+   ]
+  },
+  {
+   "entity": "piru",
+   "entity_type": "Character",
+   "entity_name": "Piru",
+   "aliases": [
+    "Piru"
+   ],
+   "pack": "pack_a_elder_dragon_war_extension_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Piru, the Volatile",
+     "oracle_id": "dcd13eab-7ed7-4e95-bdae-d140c1ff84df",
+     "type_line": "Legendary Creature — Elder Dragon",
+     "scryfall_uri": "https://scryfall.com/card/mh2/207/piru-the-volatile"
+    }
+   ]
+  },
+  {
+   "entity": "raff_capashen",
+   "entity_type": "Character",
+   "entity_name": "Raff Capashen",
+   "aliases": [
+    "Raff Capashen"
+   ],
+   "pack": "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Raff Capashen, Ship's Mage",
+     "oracle_id": "13044ca1-76a3-43b2-a8e4-3bbc692c30c5",
+     "type_line": "Legendary Creature — Human Wizard",
+     "scryfall_uri": "https://scryfall.com/card/cmm/351/raff-capashen-ships-mage"
+    }
+   ]
+  },
+  {
+   "entity": "rith",
+   "entity_type": "Character",
+   "entity_name": "Rith",
+   "aliases": [
+    "Rith"
+   ],
+   "pack": "pack_a_elder_dragon_war_extension_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Rith, Liberated Primeval",
+     "oracle_id": "f89de40f-52d3-44b1-8faa-6ddaa32880d0",
+     "type_line": "Legendary Creature — Dragon",
+     "scryfall_uri": "https://scryfall.com/card/dmu/214/rith-liberated-primeval"
+    },
+    {
+     "name": "Rith, the Awakener",
+     "oracle_id": "97e5d788-2dd3-4c8e-9ab6-f4ea9c7a9a3d",
+     "type_line": "Legendary Creature — Dragon",
+     "scryfall_uri": "https://scryfall.com/card/dmr/198/rith-the-awakener"
+    }
+   ]
+  },
+  {
+   "entity": "saheeli",
+   "entity_type": "Character",
+   "entity_name": "Saheeli",
+   "aliases": [
+    "Saheeli"
+   ],
+   "pack": "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Saheeli Rai",
+     "oracle_id": "5f3fe679-aff1-41b3-8d75-c78c2c0636f0",
+     "type_line": "Legendary Planeswalker — Saheeli",
+     "scryfall_uri": "https://scryfall.com/card/kld/186/saheeli-rai"
+    },
+    {
+     "name": "Saheeli, Consul of Oversight",
+     "oracle_id": "dfa95c0e-393d-4b22-9de3-45a7efc0ba14",
+     "type_line": "Legendary Creature — Human Advisor",
+     "scryfall_uri": "https://scryfall.com/card/fra/203/saheeli-consul-of-oversight"
+    },
+    {
+     "name": "Saheeli, Filigree Master",
+     "oracle_id": "68cf7415-b434-4284-89b4-c7d44a003eb8",
+     "type_line": "Legendary Planeswalker — Saheeli",
+     "scryfall_uri": "https://scryfall.com/card/bro/219/saheeli-filigree-master"
+    },
+    {
+     "name": "Saheeli, Jewel of Avishkar",
+     "oracle_id": "83705258-1f42-41db-a32e-de99ffd759eb",
+     "type_line": "Legendary Creature — Human Artificer",
+     "scryfall_uri": "https://scryfall.com/card/fra/275/saheeli-jewel-of-avishkar"
+    },
+    {
+     "name": "Saheeli, Radiant Creator",
+     "oracle_id": "20f602b3-814f-406c-b7eb-2d1fc98f8cf1",
+     "type_line": "Legendary Creature — Human Artificer",
+     "scryfall_uri": "https://scryfall.com/card/drc/3/saheeli-radiant-creator"
+    },
+    {
+     "name": "Saheeli, Sublime Artificer",
+     "oracle_id": "ab655810-f67e-4576-9174-35b16f5e3235",
+     "type_line": "Legendary Planeswalker — Saheeli",
+     "scryfall_uri": "https://scryfall.com/card/cmm/935/saheeli-sublime-artificer"
+    },
+    {
+     "name": "Saheeli, the Gifted",
+     "oracle_id": "0e084342-31ff-47a5-9fd8-5b385add7a1a",
+     "type_line": "Legendary Planeswalker — Saheeli",
+     "scryfall_uri": "https://scryfall.com/card/c18/44/saheeli-the-gifted"
+    },
+    {
+     "name": "Saheeli, the Sun's Brilliance",
+     "oracle_id": "5aa76c5d-8046-42ce-b61d-cc9b4806c11a",
+     "type_line": "Legendary Creature — Human Artificer",
+     "scryfall_uri": "https://scryfall.com/card/lci/239/saheeli-the-suns-brilliance"
+    }
+   ]
+  },
+  {
+   "entity": "sarkhan_vol",
+   "entity_type": "Character",
+   "entity_name": "Sarkhan Vol",
+   "aliases": [
+    "Sarkhan Vol",
+    "Sarkhan"
+   ],
+   "pack": "pack_a_ugin_bolas_evidence_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Sarkhan Unbroken",
+     "oracle_id": "1d37b453-f10c-42f2-8390-626a8a8eb27c",
+     "type_line": "Legendary Planeswalker — Sarkhan",
+     "scryfall_uri": "https://scryfall.com/card/dtk/230/sarkhan-unbroken"
+    },
+    {
+     "name": "Sarkhan Vol",
+     "oracle_id": "d902074a-2a2b-42b7-a1e5-750862c64fbe",
+     "type_line": "Legendary Planeswalker — Sarkhan",
+     "scryfall_uri": "https://scryfall.com/card/mma/183/sarkhan-vol"
+    },
+    {
+     "name": "Sarkhan the Mad",
+     "oracle_id": "e70a93e4-2fe7-46d3-8958-153ab2fcfd99",
+     "type_line": "Legendary Planeswalker — Sarkhan",
+     "scryfall_uri": "https://scryfall.com/card/roe/214/sarkhan-the-mad"
+    },
+    {
+     "name": "Sarkhan the Masterless",
+     "oracle_id": "67dbc5dd-6d05-43e7-83f7-70e10eb54807",
+     "type_line": "Legendary Planeswalker — Sarkhan",
+     "scryfall_uri": "https://scryfall.com/card/cmm/880/sarkhan-the-masterless"
+    },
+    {
+     "name": "Sarkhan, Dragon Ascendant",
+     "oracle_id": "71cb48e2-2328-471c-a04a-7b6461f378f4",
+     "type_line": "Legendary Creature — Human Druid",
+     "scryfall_uri": "https://scryfall.com/card/tdm/118/sarkhan-dragon-ascendant"
+    },
+    {
+     "name": "Sarkhan, Dragonsoul",
+     "oracle_id": "c2c1e44c-2a19-466f-a6d5-4cb71a940b86",
+     "type_line": "Legendary Planeswalker — Sarkhan",
+     "scryfall_uri": "https://scryfall.com/card/m19/296/sarkhan-dragonsoul"
+    },
+    {
+     "name": "Sarkhan, Fireblood",
+     "oracle_id": "074cbe14-a0c8-4772-955a-b4052333d6ce",
+     "type_line": "Legendary Planeswalker — Sarkhan",
+     "scryfall_uri": "https://scryfall.com/card/m19/154/sarkhan-fireblood"
+    },
+    {
+     "name": "Sarkhan, Soul Aflame",
+     "oracle_id": "bbcae463-ba05-4cfe-9c25-13f2e64698c7",
+     "type_line": "Legendary Creature — Human Shaman",
+     "scryfall_uri": "https://scryfall.com/card/tdc/301/sarkhan-soul-aflame"
+    },
+    {
+     "name": "Sarkhan, the Dragonspeaker",
+     "oracle_id": "80c26f58-04b0-4db0-b84e-9b136609abe0",
+     "type_line": "Legendary Planeswalker — Sarkhan",
+     "scryfall_uri": "https://scryfall.com/card/ktk/119/sarkhan-the-dragonspeaker"
+    }
+   ]
+  },
+  {
+   "entity": "shanna",
+   "entity_type": "Character",
+   "entity_name": "Shanna",
+   "aliases": [
+    "Shanna"
+   ],
+   "pack": "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Shanna, Purifying Blade",
+     "oracle_id": "7677c7ce-1db3-41f5-8f86-e68718ea2d11",
+     "type_line": "Legendary Creature — Human Warrior",
+     "scryfall_uri": "https://scryfall.com/card/dmu/218/shanna-purifying-blade"
+    },
+    {
+     "name": "Shanna, Sisay's Legacy",
+     "oracle_id": "546201d0-3fa5-44e4-a526-ab0945711e49",
+     "type_line": "Legendary Creature — Human Warrior",
+     "scryfall_uri": "https://scryfall.com/card/dom/204/shanna-sisays-legacy"
+    }
+   ]
+  },
+  {
+   "entity": "sheoldred",
+   "entity_type": "Character",
+   "entity_name": "Sheoldred",
+   "aliases": [
+    "Sheoldred"
+   ],
+   "pack": "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Sheoldred // The True Scriptures",
+     "oracle_id": "97652492-7906-4d79-983c-fa1dc1239eba",
+     "type_line": "Legendary Creature — Phyrexian Praetor // Enchantment — Saga",
+     "scryfall_uri": "https://scryfall.com/card/mom/125/sheoldred-the-true-scriptures"
+    },
+    {
+     "name": "Sheoldred, Whispering One",
+     "oracle_id": "9218b56d-aaec-482f-99e9-d95d227bfe25",
+     "type_line": "Legendary Creature — Phyrexian Praetor",
+     "scryfall_uri": "https://scryfall.com/card/jmp/278/sheoldred-whispering-one"
+    },
+    {
+     "name": "Sheoldred, the Apocalypse",
+     "oracle_id": "34f34409-326d-4994-a0ea-1a69aa278f03",
+     "type_line": "Legendary Creature — Phyrexian Praetor",
+     "scryfall_uri": "https://scryfall.com/card/dmu/107/sheoldred-the-apocalypse"
+    }
+   ]
+  },
+  {
+   "entity": "tawnos",
+   "entity_type": "Character",
+   "entity_name": "Tawnos",
+   "aliases": [
+    "Tawnos"
+   ],
+   "pack": "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Tawnos, Solemn Survivor",
+     "oracle_id": "871fbbd6-76a0-4f79-b89f-afee6ebe5a59",
+     "type_line": "Legendary Creature — Human Artificer",
+     "scryfall_uri": "https://scryfall.com/card/brc/3/tawnos-solemn-survivor"
+    },
+    {
+     "name": "Tawnos, Urza's Apprentice",
+     "oracle_id": "e835da40-f484-4d8b-98de-595cd23b51bc",
+     "type_line": "Legendary Creature — Human Artificer",
+     "scryfall_uri": "https://scryfall.com/card/c18/45/tawnos-urzas-apprentice"
+    },
+    {
+     "name": "Tawnos, the Toymaker",
+     "oracle_id": "48cce741-cfbd-4ed9-a7ac-38880867a286",
+     "type_line": "Legendary Creature — Human Artificer",
+     "scryfall_uri": "https://scryfall.com/card/bro/222/tawnos-the-toymaker"
+    }
+   ]
+  },
+  {
+   "entity": "teferi",
+   "entity_type": "Character",
+   "entity_name": "Teferi",
+   "aliases": [
+    "Teferi"
+   ],
+   "pack": "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Teferi, Druid of Argoth",
+     "oracle_id": "f2c9957e-d673-4b32-a201-811849c5de31",
+     "type_line": "Legendary Creature — Human Druid",
+     "scryfall_uri": "https://scryfall.com/card/mb2/586/teferi-druid-of-argoth"
+    },
+    {
+     "name": "Teferi, Hero of Dominaria",
+     "oracle_id": "f2f165b6-ef0a-42ad-9352-ba68be8248b0",
+     "type_line": "Legendary Planeswalker — Teferi",
+     "scryfall_uri": "https://scryfall.com/card/dom/207/teferi-hero-of-dominaria"
+    },
+    {
+     "name": "Teferi, Mage of Zhalfir",
+     "oracle_id": "2b6cbd55-5adc-4a34-ac45-8531705a7ee1",
+     "type_line": "Legendary Creature — Human Wizard",
+     "scryfall_uri": "https://scryfall.com/card/tsr/91/teferi-mage-of-zhalfir"
+    },
+    {
+     "name": "Teferi, Master of Time",
+     "oracle_id": "e802fb53-7cf5-46bc-8a0b-f99cf5c20f74",
+     "type_line": "Legendary Planeswalker — Teferi",
+     "scryfall_uri": "https://scryfall.com/card/m21/75/teferi-master-of-time"
+    },
+    {
+     "name": "Teferi, Temporal Archmage",
+     "oracle_id": "07d0b06b-80cb-4518-92c9-84ea87a7e08a",
+     "type_line": "Legendary Planeswalker — Teferi",
+     "scryfall_uri": "https://scryfall.com/card/cmm/125/teferi-temporal-archmage"
+    },
+    {
+     "name": "Teferi, Temporal Pilgrim",
+     "oracle_id": "5f0fa785-37ab-46a8-9ec0-6f8b29576d93",
+     "type_line": "Legendary Planeswalker — Teferi",
+     "scryfall_uri": "https://scryfall.com/card/bro/66/teferi-temporal-pilgrim"
+    },
+    {
+     "name": "Teferi, Time Raveler",
+     "oracle_id": "ae7604bb-4818-45a3-960c-cf3d83f15964",
+     "type_line": "Legendary Planeswalker — Teferi",
+     "scryfall_uri": "https://scryfall.com/card/rvr/232/teferi-time-raveler"
+    },
+    {
+     "name": "Teferi, Timebender",
+     "oracle_id": "761bb894-d3f9-4248-af76-1559c502e342",
+     "type_line": "Legendary Planeswalker — Teferi",
+     "scryfall_uri": "https://scryfall.com/card/dom/270/teferi-timebender"
+    },
+    {
+     "name": "Teferi, Timeless Voyager",
+     "oracle_id": "7240037f-ddea-425e-9824-866e2bb0dc84",
+     "type_line": "Legendary Planeswalker — Teferi",
+     "scryfall_uri": "https://scryfall.com/card/m21/324/teferi-timeless-voyager"
+    },
+    {
+     "name": "Teferi, Who Slows the Sunset",
+     "oracle_id": "98c389ed-b960-42e2-9c76-a062f77c9a78",
+     "type_line": "Legendary Planeswalker — Teferi",
+     "scryfall_uri": "https://scryfall.com/card/mid/245/teferi-who-slows-the-sunset"
+    }
+   ]
+  },
+  {
+   "entity": "tomb_spirit_dragon",
+   "entity_type": "Place",
+   "entity_name": "Tomb of the Spirit Dragon",
+   "aliases": [
+    "Tomb of the Spirit Dragon"
+   ],
+   "pack": "pack_a_tarkir_card_scenes_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Tomb of the Spirit Dragon",
+     "oracle_id": "22f6391e-2634-440f-af1b-9581d1bff818",
+     "type_line": "Land",
+     "scryfall_uri": "https://scryfall.com/card/cmm/1048/tomb-of-the-spirit-dragon"
+    }
+   ]
+  },
+  {
+   "entity": "ugin",
+   "entity_type": "Character",
+   "entity_name": "Ugin",
+   "aliases": [
+    "Ugin"
+   ],
+   "pack": "pack_a_ugin_bolas_evidence_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Ugin, Eye of the Storms",
+     "oracle_id": "5c58353a-fd60-4528-bf0d-669626cda0b2",
+     "type_line": "Legendary Planeswalker — Ugin",
+     "scryfall_uri": "https://scryfall.com/card/tdm/1/ugin-eye-of-the-storms"
+    },
+    {
+     "name": "Ugin, the Ineffable",
+     "oracle_id": "18bdc181-9592-4147-81fb-7f83ce137f70",
+     "type_line": "Legendary Planeswalker — Ugin",
+     "scryfall_uri": "https://scryfall.com/card/cmm/811/ugin-the-ineffable"
+    },
+    {
+     "name": "Ugin, the Spirit Dragon",
+     "oracle_id": "eecb3047-a563-441a-9175-200421981ac3",
+     "type_line": "Legendary Planeswalker — Ugin",
+     "scryfall_uri": "https://scryfall.com/card/m21/1/ugin-the-spirit-dragon"
+    }
+   ]
+  },
+  {
+   "entity": "ugins_nexus",
+   "entity_type": "Object",
+   "entity_name": "Ugin's Nexus",
+   "aliases": [
+    "Ugin's Nexus"
+   ],
+   "pack": "pack_a_tarkir_card_scenes_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Ugin's Nexus",
+     "oracle_id": "fe2afa18-54d0-4595-af27-256398793a42",
+     "type_line": "Legendary Artifact",
+     "scryfall_uri": "https://scryfall.com/card/ktk/227/ugins-nexus"
+    }
+   ]
+  },
+  {
+   "entity": "urza",
+   "entity_type": "Character",
+   "entity_name": "Urza",
+   "aliases": [
+    "Urza"
+   ],
+   "pack": "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Urza, Chief Artificer",
+     "oracle_id": "9deced63-80d0-419e-a5ac-71b06ba1459e",
+     "type_line": "Legendary Creature — Human Artificer",
+     "scryfall_uri": "https://scryfall.com/card/brc/2/urza-chief-artificer"
+    },
+    {
+     "name": "Urza, Lord High Artificer",
+     "oracle_id": "e87906d2-db1a-4e19-b910-adb4eb339945",
+     "type_line": "Legendary Creature — Human Artificer",
+     "scryfall_uri": "https://scryfall.com/card/cmm/130/urza-lord-high-artificer"
+    },
+    {
+     "name": "Urza, Lord Protector",
+     "oracle_id": "df2af646-3e5b-43a3-8f3e-50565889f456",
+     "type_line": "Legendary Creature — Human Artificer",
+     "scryfall_uri": "https://scryfall.com/card/bro/225/urza-lord-protector"
+    },
+    {
+     "name": "Urza, Planeswalker",
+     "oracle_id": "759406d7-44ae-4260-9ef5-3bb2c92f751a",
+     "type_line": "Legendary Planeswalker — Urza",
+     "scryfall_uri": "https://scryfall.com/card/bro/238b/urza-planeswalker"
+    },
+    {
+     "name": "Urza, Powerstone Prodigy",
+     "oracle_id": "8ad7fdd2-bff5-4434-a3f9-1f5ce0ed573b",
+     "type_line": "Legendary Creature — Human Artificer",
+     "scryfall_uri": "https://scryfall.com/card/bro/69/urza-powerstone-prodigy"
+    },
+    {
+     "name": "Urza, Prince of Kroog",
+     "oracle_id": "6a448862-e8d8-4a08-8e3d-5460afa29b4d",
+     "type_line": "Legendary Creature — Human Artificer",
+     "scryfall_uri": "https://scryfall.com/card/bro/226/urza-prince-of-kroog"
+    }
+   ]
+  },
+  {
+   "entity": "vaevictis_asmadi",
+   "entity_type": "Character",
+   "entity_name": "Vaevictis Asmadi",
+   "aliases": [
+    "Vaevictis Asmadi"
+   ],
+   "pack": "pack_a_elder_dragon_war_extension_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Vaevictis Asmadi",
+     "oracle_id": "4d2cc2a8-e08a-420a-8922-c63e39129e23",
+     "type_line": "Legendary Creature — Elder Dragon",
+     "scryfall_uri": "https://scryfall.com/card/me3/185/vaevictis-asmadi"
+    },
+    {
+     "name": "Vaevictis Asmadi, the Dire",
+     "oracle_id": "c42ce2e9-4dfe-468a-8f41-49e187cb91d4",
+     "type_line": "Legendary Creature — Elder Dragon",
+     "scryfall_uri": "https://scryfall.com/card/m19/225/vaevictis-asmadi-the-dire"
+    }
+   ]
+  },
+  {
+   "entity": "weatherlight",
+   "entity_type": "Object",
+   "entity_name": "Weatherlight (skyship)",
+   "aliases": [
+    "Weatherlight"
+   ],
+   "pack": "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Weatherlight",
+     "oracle_id": "73b3682f-396a-4ebe-aaac-6ce3ee36283a",
+     "type_line": "Legendary Artifact — Vehicle",
+     "scryfall_uri": "https://scryfall.com/card/nec/165/weatherlight"
+    }
+   ]
+  },
+  {
+   "entity": "yasova_dragonclaw",
+   "entity_type": "Character",
+   "entity_name": "Yasova Dragonclaw",
+   "aliases": [
+    "Yasova Dragonclaw",
+    "Yasova"
+   ],
+   "pack": "pack_a_tarkir_card_scenes_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Yasova Dragonclaw",
+     "oracle_id": "75dc0995-f89e-4a2c-b30b-9b5a07c21183",
+     "type_line": "Legendary Creature — Human Warrior",
+     "scryfall_uri": "https://scryfall.com/card/frf/148/yasova-dragonclaw"
+    }
+   ]
+  },
+  {
+   "entity": "yawgmoth",
+   "entity_type": "Character",
+   "entity_name": "Yawgmoth",
+   "aliases": [
+    "Yawgmoth"
+   ],
+   "pack": "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Yawgmoth, Thran Physician",
+     "oracle_id": "a1e232c0-dc38-47be-a5a0-f68bc1d86a29",
+     "type_line": "Legendary Creature — Human Cleric",
+     "scryfall_uri": "https://scryfall.com/card/dmr/110/yawgmoth-thran-physician"
+    }
+   ]
+  }
+ ],
+ "unanchored_entities": [
+  "corondor_chasm",
+  "dmu_sheoldred_invasion",
+  "dragonstorm_escape",
+  "first_phyrexian_invasion",
+  "ice_age",
+  "kayla_bin_kroog",
+  "last_battle_argoth",
+  "original_tarkir_clash",
+  "sylex_blast",
+  "sylex_replica",
+  "tarkir_duel",
+  "tarkir_rewrite",
+  "temporal_rifts_mending",
+  "ugins_tomb_site",
+  "war_of_the_spark_end"
+ ],
+ "excluded_unset_cards": [
+  "Urza, Academy Headmaster"
+ ],
+ "counts": {
+  "entities_anchored": 42,
+  "anchor_edges": 131,
+  "unanchored_entities": 15
+ },
+ "content_sha256": "0cd617ec7af64d7d59e5981df37892a64246b118b3abf7c16dfc21aee05bdee6"
+}

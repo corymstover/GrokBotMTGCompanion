@@ -13,5 +13,8 @@
   "data/lore_decks/drafts/ugin_bolas_elder_dragon_duality_printing_evidence.json",
   "data/lore_decks/drafts/original_primeval_dragons_printing_evidence.json"
  ],
- "curated_lore_graph": "data/lore_graph.json"
+ "curated_lore_graph": "data/lore_graph.json",
+ "name_anchor_packs": [
+  "data/lore_research/card_name_anchors_2026-10-30.json"
+ ]
 }
