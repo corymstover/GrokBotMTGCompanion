@@ -1,0 +1,33 @@
+name: Phase 1B APAC Lunar New Year annual promo family evidence
+
+on:
+  push:
+    paths:
+      - 'data/set_atlas/apac_lunar_year_promos_*'
+      - 'scripts/audit_apac_lunar_year_promos_sources.py'
+      - 'scripts/product_family_lookup.py'
+      - 'tests/test_apac_lunar_year_promos_sources.py'
+      - '.github/workflows/phase1b-apac-lunar-year-promos.yml'
+  pull_request:
+    paths:
+      - 'data/set_atlas/apac_lunar_year_promos_*'
+      - 'scripts/audit_apac_lunar_year_promos_sources.py'
+      - 'scripts/product_family_lookup.py'
+      - 'tests/test_apac_lunar_year_promos_sources.py'
+      - '.github/workflows/phase1b-apac-lunar-year-promos.yml'
+  workflow_dispatch:
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Reproduce dated primary source audit
+        run: python3 scripts/audit_apac_lunar_year_promos_sources.py
+      - name: Confirm all previous bounded source reviews
+        run: python3 -m unittest discover -s tests -p 'test_*sources.py' -v
+      - name: Print cumulative family research status
+        run: python3 scripts/product_family_lookup.py --summary

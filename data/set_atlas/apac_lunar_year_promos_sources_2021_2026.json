@@ -1,0 +1,67 @@
+{
+  "schema": 1,
+  "cutoff": "2026-10-29",
+  "records": [
+    {
+      "code": "pl21",
+      "official_url": "https://magic.wizards.com/en/news/announcements/year-ox-store-challenger-series-2021-promos-2021-05-17",
+      "source_publication_date": "2021-05-17",
+      "evidence_grade": "wizards_contemporary_promotion",
+      "official_section": "Wizards' 2021 Year of the Ox Store Challenger announcement documents Asia-Pacific WPN store play and purchase rewards, Sethron, Hurloon General and a Minotaur token, followed by themed Store Challenger promotional cards.",
+      "supported_family": "apac_year_of_the_ox_2021_event_promos",
+      "source_caveat": "The official promotion is named, but this article is later than Scryfall's earliest PL21 card date and does not print PL21 or certify all card variants, physical printing totals or legality."
+    },
+    {
+      "code": "pl22",
+      "official_url": "https://magic.wizards.com/en/news/announcements/celebrate-year-tiger-apac-league-events-and-promos-2022-02-09",
+      "source_publication_date": "2022-02-10",
+      "evidence_grade": "wizards_contemporary_promotion",
+      "official_section": "Wizards' February 2022 APAC League announcement explicitly names Year of the Tiger promotional cards, with qualifiers from February 25 and prizes including Temur Sabertooth and additional themed rewards across the year.",
+      "supported_family": "apac_year_of_the_tiger_2022_event_promos",
+      "source_caveat": "Wizards documents the 2022 Year of the Tiger event family rather than printing Scryfall code PL22 or independently certifying every printing and release date in that group."
+    },
+    {
+      "code": "pl23",
+      "official_url": "https://magic.wizards.com/en/news/announcements/2023-apac-league-and-the-year-of-the-rabbit",
+      "source_publication_date": "2023-01-19",
+      "evidence_grade": "wizards_contemporary_promotion",
+      "official_section": "Wizards' January 2023 second annual APAC League feature names the Year of the Rabbit promo program, five event seasons beginning February 10, and rewards for participating WPN game stores in Asia-Pacific.",
+      "supported_family": "apac_year_of_the_rabbit_2023_event_promos",
+      "source_caveat": "The first-party APAC League program establishes a named annual family, not an exact Wizards-printed PL23 code, full collector-number inventory, premiere-set status or universal card legality."
+    },
+    {
+      "code": "pl24",
+      "official_url": "https://www.magic.gg/news/play-standard-get-promos-jump-into-the-action-with-these-year-of-the-dragon",
+      "source_publication_date": "2023-12-18",
+      "evidence_grade": "wizards_contemporary_promotion",
+      "official_section": "Wizards' December 2023 competitive play article previews 2024 Year of the Dragon APAC League and other events, explicitly showing Dragonlord's Servant, Sarkhan Unbroken, a Dragon token, and later 2024 seasonal promo rewards.",
+      "supported_family": "apac_and_standard_year_of_the_dragon_2024_event_promos",
+      "source_caveat": "A 2023 preview for the 2024 promo year is not evidence that cards were released in 2023; Scryfall PL24 is a metadata crosswalk, not an official code or extra expansion."
+    },
+    {
+      "code": "pl25",
+      "official_url": "https://magic.wizards.com/en/news/announcements/earn-sweet-year-of-the-snake-promos-at-your-local-game-store",
+      "source_publication_date": "2025-01-31",
+      "evidence_grade": "wizards_contemporary_promotion",
+      "official_section": "Wizards' January 2025 Year of the Snake announcement confirms Lunar New Year store events from February 14 to March 30 across specified Asia-Pacific regions, with Xyris, the Writhing Storm and a Snake token as early rewards.",
+      "supported_family": "apac_year_of_the_snake_2025_event_promos",
+      "source_caveat": "This regional store event announcement previews further promos but does not provide a complete PL25 card print inventory, certify print quantities or explicitly name the Scryfall code."
+    },
+    {
+      "code": "pl26",
+      "official_url": "https://magic.wizards.com/zh-Hant/news/announcements/celebrate-the-year-of-the-horse-at-your-local-game-store-and-more",
+      "source_publication_date": "2026-01-23",
+      "evidence_grade": "wizards_contemporary_promotion_regional_language",
+      "official_section": "Wizards' Traditional Chinese January 2026 Year of the Horse announcement identifies Asia-Pacific store events February 17 to March 15, traditional-foil Caustic Bronco and Treasure token participation promos, and further event prizes during 2026.",
+      "supported_family": "apac_year_of_the_horse_2026_event_promos",
+      "source_caveat": "The first-party Traditional Chinese source is readable while the equivalent English URL currently redirects to the site home; it documents a regional promo program, not exact PL26 code or complete printings."
+    }
+  ],
+  "caveats": [
+    "These six entries are individually reviewed first-party Wizards named annual promotion families, not Wizards confirmation of the corresponding Scryfall PL21–PL26 codes.",
+    "Source publication dates and frozen Scryfall earliest-card dates are intentionally separate; a preview article can precede event distribution, and a later article need not document the earliest printing.",
+    "The 2026 evidence is from an accessible Traditional Chinese Wizards publication, used only to substantiate program existence; this research corpus still indexes English-language paper Scryfall records.",
+    "No individual first printing, card debut count, complete collector inventory, print quantity or current format legality is certified by these annual program articles.",
+    "Lunar New Year 2018 PLNY remains source-pending in the absence of a comparably direct first-party program publication."
+  ]
+}
