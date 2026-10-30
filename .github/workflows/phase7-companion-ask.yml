@@ -8,6 +8,7 @@ on:
       - 'tests/test_mv_ask.py'
       - 'data/multiverse_graph/**'
       - 'data/card_index.csv'
+      - 'data/card_db/**'
       - '.github/workflows/phase7-companion-ask.yml'
   push:
     paths:
