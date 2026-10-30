@@ -174,6 +174,22 @@ Five additional boxed/collection products were reviewed against direct Wizards a
 
 The 15-code review increases the cumulative **848** outside-category paper corpus to **86** product-family codes with Wizards evidence and **762** still awaiting individual source review. Within the boxed/preconstructed cohort, **95** remain (down from 110). Run `python3 scripts/audit_boxed_precon_sources.py` to check byte-for-byte reproduction, or `python3 scripts/product_family_lookup.py --cohort preconstructed_and_boxed --only-pending --all` to see that dated review queue. Neither a fixed box nor a distinct record for scheme/planar components independently certifies Standard legality, format legality, or a premier release count.
 
+## Historical Duel Decks and the 2014 Anthology: 25 more code reviews
+
+The [per-code Duel Decks primary-source ledger](data/set_atlas/duel_decks_sources_2026-10-29.json) links **21** individual 2007–2018 Duel Decks matchups to their own product pages in the [Wizards of the Coast official Japanese product archive](https://mtg-jp.com/products/other/). The [2018 final product listing](https://mtg-jp.com/products/0000161/) and [official retirement announcement](https://mtg-jp.com/reading/publicity/0030099/) establish the end of that paired-preconstructed-deck series. The repository's card names and exact set codes still come independently from the frozen Scryfall snapshot; Wizards' product pages are not presented as printing Scryfall codes.
+
+The **four** extra Scryfall codes `DVD`, `EVG`, `GVL`, and `JVC` are **not four more separately sold boxes**. Wizards' [Duel Decks: Anthology](https://mtg-jp.com/products/0000095/) contains the first four matchups (Divine vs. Demonic; Elves vs. Goblins; Garruk vs. Liliana; Jace vs. Chandra) as eight ready-to-play decks **in one 2014 product**, officially marked `DD3`. These four Scryfall subcatalog codes have **no explicit `parent_set_code`** in this frozen snapshot; the product-level relationship is represented separately as Wizards evidence, never fabricated as a Scryfall parent link.
+
+| Cited Scryfall records | Actual sold products represented | Counting rule |
+| --- | ---: | --- |
+| 21 original paired Duel Decks code records | 21 | One named preconstructed matchup box each |
+| 4 Anthology matchup subcatalog records | 1 | All four segments belong to the one eight-deck `DD3` box |
+| **25 reviewed code records** | **22 sold boxes** | Neither count represents new premier sets |
+
+The [deterministic report](data/set_atlas/duel_decks_source_audit_2026-10-29.json) preserves all prior 86 source records and classifies **111 of 848** outside-category paper codes with Wizards family evidence; **737 remain pending**, including **70** in the original boxed/preconstructed research cohort (down from 95). Of the frozen **26** Scryfall `duel_deck` codes in the pending queue before this batch, only `GS1` (*Global Series: Jiang Yanggu & Mu Yanling*) remains: it is a separate product family and was not silently classified as part of the historical Duel Decks series.
+
+Offline check: `python3 scripts/audit_duel_decks_sources.py`. Lookup: `python3 scripts/product_family_lookup.py --type duel_deck --all`, or `--cohort preconstructed_and_boxed --only-pending --all`. The official Japanese product pages are first-party Wizards sources, not foreign-language card printing ingestion; no other-language card inventory is added. Product-family evidence does not certify card legality, set debuts or premier-set status.
+
 ## Read-only lookups
 
 On a checkout of this repository, no Scryfall download is needed for the following commands:

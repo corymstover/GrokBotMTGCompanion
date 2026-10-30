@@ -19,6 +19,7 @@ SOURCE_REVIEW = ROOT / "data/set_atlas/draft_starter_primary_audit_2026-10-29.js
 SECOND_SOURCE_REVIEW = ROOT / "data/set_atlas/draft_starter_batch2_audit_2026-10-29.json"
 REPRINT_SOURCE_REVIEW = ROOT / "data/set_atlas/reprint_curated_source_audit_2026-10-29.json"
 BOXED_SOURCE_REVIEW = ROOT / "data/set_atlas/boxed_precon_source_audit_2026-10-29.json"
+DUEL_DECKS_SOURCE_REVIEW = ROOT / "data/set_atlas/duel_decks_source_audit_2026-10-29.json"
 
 
 def apply_source_overlay(data, verified):
@@ -215,6 +216,64 @@ def apply_boxed_source_overlay(data, review):
     return current
 
 
+def apply_duel_decks_source_overlay(data, review):
+    """Add 25 historical Duel Decks code reviews, preserving product/box distinctions."""
+    if review["cutoff"] != data["snapshot_date"] or data["wizards_reviewed_examples"] != 86:
+        raise ValueError("Duel Decks overlay previous checkpoint mismatch")
+    updates = {r["code"]: r for r in review["reviewed_duel_decks_codes"]}
+    if len(updates) != review["new_source_backed_product_codes"] or len(updates) != 25:
+        raise ValueError("Duel Decks evidence missing/duplicated")
+    rows = []
+    seen = set()
+    for previous in data["all_848_released_nondigital_other_type_records"]:
+        item = dict(previous)
+        src = updates.get(item["code"])
+        if src is not None:
+            if item["wizards_individual_source_review"]:
+                raise ValueError(f"Duel Decks review would overwrite prior evidence: {item['code']}")
+            if item["scryfall_set_type"] != src["scryfall_set_type"]:
+                raise ValueError(f"Duel Decks Scryfall category drift: {item['code']}")
+            if item["parent_set_code_explicit_only"] != src["scryfall_explicit_parent_code_unchanged"]:
+                raise ValueError(f"Duel Decks Scryfall parent drift: {item['code']}")
+            item.update({
+                "wizards_individual_source_review": True,
+                "review_status": "wizards_historical_duel_decks_source_verified",
+                "wizards_primary_source": src["wizards_primary_url"],
+                "wizards_review_product_group": src["wizards_supported_family"],
+                "verified_evidence_note": src["source_note"],
+                "wizards_source_grade": src["evidence_grade"],
+                "wizards_code_explicitly_confirmed": False,
+                "box_component_of_parent_product": src["anthology_component_of_one_2014_box"],
+                "box_or_component_source_class": (
+                    "anthology_catalog_component" if src["anthology_component_of_one_2014_box"]
+                    else "boxed_or_collection_release"
+                ),
+                "wizards_actual_anthology_box": src["wizards_product_relation_not_scryfall_parent"],
+                "wizards_anthology_official_product_code": src["anthology_official_box_code_when_component"],
+                "wizards_premier_status_certified": False,
+            })
+            seen.add(item["code"])
+        rows.append(item)
+    if seen != set(updates) or len(rows) != 848:
+        raise ValueError("Duel Decks overlay lost/misclassified code")
+    result = dict(data)
+    result["all_848_released_nondigital_other_type_records"] = rows
+    result["wizards_reviewed_examples"] = review["cumulative_family_source_backed_codes"]
+    result["metadata_only_pending_wizards_individual_review"] = review["cumulative_source_pending_codes"]
+    result["cohort_review_progress"] = {}
+    for cohort in data["metadata_research_cohorts"]:
+        members = [row for row in rows if row["metadata_cohort_not_official_classification"] == cohort]
+        result["cohort_review_progress"][cohort] = {
+            "codes": len(members),
+            "wizards_reviewed": sum(bool(row["wizards_individual_source_review"]) for row in members),
+            "needs_individual_review": sum(not row["wizards_individual_source_review"] for row in members),
+            "explicit_parent_links": sum(bool(row["parent_set_code_explicit_only"]) for row in members),
+        }
+    if sum(bool(r["wizards_individual_source_review"]) for r in rows) != 111:
+        raise ValueError("Duel Decks review total not 111")
+    return result
+
+
 def load_current_index():
     data = json.loads(INDEX.read_text(encoding="utf-8"))
     if SOURCE_REVIEW.exists():
@@ -229,6 +288,9 @@ def load_current_index():
     if BOXED_SOURCE_REVIEW.exists():
         report = json.loads(BOXED_SOURCE_REVIEW.read_text(encoding="utf-8"))
         data = apply_boxed_source_overlay(data, report)
+    if DUEL_DECKS_SOURCE_REVIEW.exists():
+        report = json.loads(DUEL_DECKS_SOURCE_REVIEW.read_text(encoding="utf-8"))
+        data = apply_duel_decks_source_overlay(data, report)
     return data
 
 
