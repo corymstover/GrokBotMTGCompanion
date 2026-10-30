@@ -236,3 +236,56 @@ Unchanged: owner review of Pilots 1–3 and the Pack A proposals; `trk`/`trc` ad
 3. A Phase 7 free-text paraphrase suite beyond the relation round-trip.
 
 Store copies were skipped per the owner.
+
+## Batch 6 — 2026-10-30, merges 05:28–06:24 CDT
+
+Owner request: finish #867 (KHM, STX, IKO) and ship THB; write this handoff section and bump the workflow; keep extending Phase 5 (not-started arcs first, then the missing pages of partial arcs, several packs per PR); commit the spec generator scripts so nothing lives only on the box.
+
+### PRs (batch 6)
+| PR | Phase | What | Merge commit (CDT) | CI on the exact head |
+|---|---|---|---|---|
+| [#863](https://github.com/corymstover/GrokBotMTGCompanion/pull/863) | 5 | MID/VOW 12 claims (25 quotes), SNC 16 (31), EOE 17 (31); pipeline sentences helper | `16b51c0c` (05:28) | 8/8 pass on `a77ba4b1` |
+| [#864](https://github.com/corymstover/GrokBotMTGCompanion/pull/864) | 5 | RF 13 (26), WOE 14 (28), MKM 14 (23); page-key collision gate | `6cbf9d99` (05:38) | 8/8 pass on `74e65010` |
+| [#865](https://github.com/corymstover/GrokBotMTGCompanion/pull/865) | 5 | BLB 12 (19), DSK 11 (17), OTJ 12 (20), LCI 12 (18), DFT 12 (17); entity alias gate | `284a43c0` (05:51) | 8/8 pass on `5ee82d41` |
+| [#866](https://github.com/corymstover/GrokBotMTGCompanion/pull/866) | 7 | `tests/test_mv_ask_rephrased.py` rephrased-question suite + `mv_ask` synonym routes | `44446b26` (06:01) | 3/3 pass on `633d0856` |
+| [#867](https://github.com/corymstover/GrokBotMTGCompanion/pull/867) | 5 | KHM 14 (19), STX 11 (17), IKO 5 (7). Branch updated from main by a normal merge after #866; rebuild produced no artifact diff | `e983da31` (06:11) | 7/7 pass on `538df47d` |
+| [#868](https://github.com/corymstover/GrokBotMTGCompanion/pull/868) | 5 | THB 14 (18), THS 20 (22, the three Theros Planeswalker's Guides), MAT 12 (17), ELD 11 (12, Planeswalker's Guide to Eldraine). Adds `scripts/claim_spec_sources/` (generator for every Phase 5 spec plus `rebuild.sh`) | `9c68bfac` (06:19) | 8/8 pass on `95277b76` |
+| [#869](https://github.com/corymstover/GrokBotMTGCompanion/pull/869) | 5 | SOS 17 (22: Legends page, Planeswalker's Guide, Episode 6), SOI/EMN 9 (14: I Am Avacyn, Campaign of Vengeance, Innistrad's Last Hope, The Promised End) | `37c91a45` (06:24) | 8/8 pass on `7d446b9b` |
+
+Every merge was a normal merge with `--match-head-commit`; no force-push and no admin bypass. Local suites on the #869 head: `tests/` 419 OK, `scripts/` 18 OK.
+
+### Checklist
+- [x] #867 green on its exact head and merged
+- [x] THB shipped (#868)
+- [x] Spec generator scripts committed (`scripts/claim_spec_sources/`); re-running the older scripts reproduces the committed specs byte-for-byte. KLD/XLN/AKH/NEO specs predate the scripts and have no generator
+- [x] Every arc in the inventory now has at least one cited page
+- [ ] Partial arcs filled (26 still partial)
+- [ ] Owner review of any Phase 5 pack (none requested or given)
+
+### Coverage (generated, `story_coverage_inventory_2026-10-30.json` on main after #869)
+- 195 of 626 pages cited (94 after Batch 5; 179 after #867). 33 arcs: 0 not started, 26 partial, 7 all pages cited. 501 graph claims.
+- Claim anchors: 452 of 501 claims anchored, 2,131 anchors (ART_IN_CITED_SOURCE 34, PRINTED_IN_STORY_SET 347, NAMED_PARTICIPANT 1,750).
+- Largest gaps: untagged 17/305, SOI/EMN 5/21, BFZ/OGW 3/19, EOE 6/18, AKH/HOU 7/16, TDM 2/14, SOS 3/14, ECL 1/12, RF 5/12, BRO 4/10.
+
+### Status (keep distinct)
+- **Research:** all 24 `pack_p5_*` packs are PRELIMINARY_RESEARCH: targeted, not exhaustive.
+- **Tests:** green locally and in CI on each exact head.
+- **Merged:** #863–#869.
+- **Owner approved / certified:** nothing new. No approval boxes were checked.
+
+### Discoveries
+- Entity types must match across packs: `zhalfir` is `Place` in C2/C4, so a `Plane` typing in MAT failed the graph's consistency check until aligned.
+- Spark loss after March of the Machine is modelled as `lost_spark_after` → `mom_invasion` (Teferi, Koth, Nissa, Nahiri) rather than overloading `spark_ignited`/`gave_up`.
+- ELD has only the Planeswalker's Guide in the cached inventory, and that guide is an in-universe traveller's account. Its claims carry that limitation where they rest on what the realm's folk believe.
+- SOS Episode 6: Tam pushes Jadzi into the not-snarl and says "I was made to do this." Tam's maker and Jadzi's fate are deliberately left unclaimed.
+- The SOS set (April 2026) may have few printings in the offline snapshot, so SOS claims anchor mostly by name.
+
+### Blockers
+Unchanged: owner review of Pilots 1–3 and the Pack A proposals; `trk`/`trc` admission after 2026-11-13; readiness NOT_RELEASE_READY.
+
+### Next steps
+1. Fill the partial arcs through `scripts/claim_spec_sources/` + `rebuild.sh`: SOI/EMN (16 pages left), BFZ/OGW, EOE, TDM, SOS episodes 1–5 and side stories, ECL, then the untagged 288.
+2. Resolve the 6 image-label NAME_MISMATCH entries (owner/editorial), then use the matched labels as printing evidence.
+3. A Phase 7 free-text paraphrase suite over the new Batch 6 relations.
+
+Protected-path check: `git diff --stat dfc8891d origin/main -- grixis/ data/grixis/ state/current_deck_overrides.json data/lore_decks/approvals/` is empty after #869.
