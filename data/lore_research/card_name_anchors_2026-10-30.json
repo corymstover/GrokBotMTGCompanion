@@ -164,6 +164,23 @@
    ]
   },
   {
+   "entity": "arvad",
+   "entity_type": "Character",
+   "entity_name": "Arvad",
+   "aliases": [
+    "Arvad"
+   ],
+   "pack": "pack_c2_return_to_dominaria_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Arvad the Cursed",
+     "oracle_id": "d561dcff-0a19-46ac-9dee-f374c840d532",
+     "type_line": "Legendary Creature — Vampire Knight",
+     "scryfall_uri": "https://scryfall.com/card/moc/317/arvad-the-cursed"
+    }
+   ]
+  },
+  {
    "entity": "ashnod",
    "entity_type": "Character",
    "entity_name": "Ashnod",
@@ -204,6 +221,23 @@
    ]
   },
   {
+   "entity": "cabal_stronghold",
+   "entity_type": "Place",
+   "entity_name": "Cabal Stronghold",
+   "aliases": [
+    "Cabal Stronghold"
+   ],
+   "pack": "pack_c2_return_to_dominaria_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Cabal Stronghold",
+     "oracle_id": "066cd584-773c-4623-be53-8f6feda5a26a",
+     "type_line": "Land",
+     "scryfall_uri": "https://scryfall.com/card/dom/238/cabal-stronghold"
+    }
+   ]
+  },
+  {
    "entity": "caves_of_koilos",
    "entity_type": "Place",
    "entity_name": "Caves of Koilos",
@@ -217,6 +251,40 @@
      "oracle_id": "33de01e9-ce5a-42d4-afcb-343cd54a6d80",
      "type_line": "Land",
      "scryfall_uri": "https://scryfall.com/card/frc/66/caves-of-koilos"
+    }
+   ]
+  },
+  {
+   "entity": "chain_veil",
+   "entity_type": "Object",
+   "entity_name": "The Chain Veil",
+   "aliases": [
+    "The Chain Veil"
+   ],
+   "pack": "pack_c2_return_to_dominaria_2026-10-30.json",
+   "cards": [
+    {
+     "name": "The Chain Veil",
+     "oracle_id": "fb88fb3d-6a85-4bb1-b316-7f759b45a0fa",
+     "type_line": "Legendary Artifact",
+     "scryfall_uri": "https://scryfall.com/card/cmm/943/the-chain-veil"
+    }
+   ]
+  },
+  {
+   "entity": "chandra_nalaar",
+   "entity_type": "Character",
+   "entity_name": "Chandra Nalaar",
+   "aliases": [
+    "Chandra Nalaar"
+   ],
+   "pack": "pack_c2_return_to_dominaria_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Chandra Nalaar",
+     "oracle_id": "f4da7a43-e9d5-47ea-b2f0-3cf55a156f4a",
+     "type_line": "Legendary Planeswalker — Chandra",
+     "scryfall_uri": "https://scryfall.com/card/jvc/34/chandra-nalaar"
     }
    ]
   },
@@ -298,6 +366,23 @@
      "oracle_id": "335b5302-2272-405a-b2b8-3943b3df335f",
      "type_line": "Legendary Planeswalker — Dakkon",
      "scryfall_uri": "https://scryfall.com/card/mh2/192/dakkon-shadow-slayer"
+    }
+   ]
+  },
+  {
+   "entity": "danitha_capashen",
+   "entity_type": "Character",
+   "entity_name": "Danitha Capashen",
+   "aliases": [
+    "Danitha Capashen"
+   ],
+   "pack": "pack_c2_return_to_dominaria_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Danitha Capashen, Paragon",
+     "oracle_id": "4b6377da-83e7-4519-9582-16a9c16b8faa",
+     "type_line": "Legendary Creature — Human Knight",
+     "scryfall_uri": "https://scryfall.com/card/cmm/20/danitha-capashen-paragon"
     }
    ]
   },
@@ -396,6 +481,23 @@
    ]
   },
   {
+   "entity": "gideon_jura",
+   "entity_type": "Character",
+   "entity_name": "Gideon Jura",
+   "aliases": [
+    "Gideon Jura"
+   ],
+   "pack": "pack_c2_return_to_dominaria_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Gideon Jura",
+     "oracle_id": "7340dbcb-4b26-4038-be8c-a89e76294221",
+     "type_line": "Legendary Planeswalker — Gideon",
+     "scryfall_uri": "https://scryfall.com/card/cmm/822/gideon-jura"
+    }
+   ]
+  },
+  {
    "entity": "gix",
    "entity_type": "Character",
    "entity_name": "Gix",
@@ -443,6 +545,29 @@
      "oracle_id": "d827575f-e364-4a20-887e-3091e5501a4f",
      "type_line": "Legendary Creature — Human Soldier",
      "scryfall_uri": "https://scryfall.com/card/bro/212/harbin-vanguard-aviator"
+    }
+   ]
+  },
+  {
+   "entity": "jaya_ballard",
+   "entity_type": "Character",
+   "entity_name": "Jaya Ballard",
+   "aliases": [
+    "Jaya Ballard"
+   ],
+   "pack": "pack_c2_return_to_dominaria_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Jaya Ballard",
+     "oracle_id": "a56c5ca5-70eb-4d5f-8116-2acbe5f5a3cb",
+     "type_line": "Legendary Planeswalker — Jaya",
+     "scryfall_uri": "https://scryfall.com/card/c21/175/jaya-ballard"
+    },
+    {
+     "name": "Jaya Ballard, Task Mage",
+     "oracle_id": "cbbad3da-695e-4527-9678-0942f3751287",
+     "type_line": "Legendary Creature — Human Spellshaper",
+     "scryfall_uri": "https://scryfall.com/card/tsr/172/jaya-ballard-task-mage"
     }
    ]
   },
@@ -505,6 +630,23 @@
    ]
   },
   {
+   "entity": "josu_vess",
+   "entity_type": "Character",
+   "entity_name": "Josu Vess",
+   "aliases": [
+    "Josu Vess"
+   ],
+   "pack": "pack_c2_return_to_dominaria_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Josu Vess, Lich Knight",
+     "oracle_id": "974a46f9-aa84-4b34-bee5-c635166e5841",
+     "type_line": "Legendary Creature — Zombie Knight",
+     "scryfall_uri": "https://scryfall.com/card/moc/253/josu-vess-lich-knight"
+    }
+   ]
+  },
+  {
    "entity": "karn",
    "entity_type": "Character",
    "entity_name": "Karn",
@@ -560,6 +702,40 @@
      "oracle_id": "a20dd48d-d344-4db1-b0e9-a2b71c3cc9d1",
      "type_line": "Legendary Planeswalker — Karn",
      "scryfall_uri": "https://scryfall.com/card/rvr/1/karn-the-great-creator"
+    }
+   ]
+  },
+  {
+   "entity": "liliana_vess",
+   "entity_type": "Character",
+   "entity_name": "Liliana Vess",
+   "aliases": [
+    "Liliana Vess"
+   ],
+   "pack": "pack_c2_return_to_dominaria_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Liliana Vess",
+     "oracle_id": "a6c05941-2cfb-4dac-a7c0-ab808187eb7c",
+     "type_line": "Legendary Planeswalker — Liliana",
+     "scryfall_uri": "https://scryfall.com/card/m15/103/liliana-vess"
+    }
+   ]
+  },
+  {
+   "entity": "lyra_dawnbringer",
+   "entity_type": "Character",
+   "entity_name": "Lyra Dawnbringer",
+   "aliases": [
+    "Lyra Dawnbringer"
+   ],
+   "pack": "pack_c2_return_to_dominaria_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Lyra Dawnbringer",
+     "oracle_id": "592c91fc-6430-4c76-9460-65f047350f67",
+     "type_line": "Legendary Creature — Angel",
+     "scryfall_uri": "https://scryfall.com/card/fdn/738/lyra-dawnbringer"
     }
    ]
   },
@@ -628,6 +804,29 @@
    ]
   },
   {
+   "entity": "multani",
+   "entity_type": "Character",
+   "entity_name": "Multani",
+   "aliases": [
+    "Multani"
+   ],
+   "pack": "pack_c2_return_to_dominaria_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Multani, Maro-Sorcerer",
+     "oracle_id": "bce5b327-7da1-4136-b76f-069e2fef5d2a",
+     "type_line": "Legendary Creature — Elemental Sorcerer",
+     "scryfall_uri": "https://scryfall.com/card/ulg/107/multani-maro-sorcerer"
+    },
+    {
+     "name": "Multani, Yavimaya's Avatar",
+     "oracle_id": "4b8bf64b-4800-45ff-81c6-2857f34999b5",
+     "type_line": "Legendary Creature — Elemental Avatar",
+     "scryfall_uri": "https://scryfall.com/card/eoc/100/multani-yavimayas-avatar"
+    }
+   ]
+  },
+  {
    "entity": "narset",
    "entity_type": "Character",
    "entity_name": "Narset",
@@ -671,6 +870,29 @@
      "oracle_id": "ab26fbe2-e808-48b9-8d0d-3fbb6c3d554f",
      "type_line": "Legendary Planeswalker — Narset",
      "scryfall_uri": "https://scryfall.com/card/cmm/853/narset-parter-of-veils"
+    }
+   ]
+  },
+  {
+   "entity": "niambi",
+   "entity_type": "Character",
+   "entity_name": "Niambi",
+   "aliases": [
+    "Niambi"
+   ],
+   "pack": "pack_c2_return_to_dominaria_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Niambi, Esteemed Speaker",
+     "oracle_id": "91c9dbd8-a8d8-4a4e-8408-3ad92e974d11",
+     "type_line": "Legendary Creature — Human Cleric",
+     "scryfall_uri": "https://scryfall.com/card/m21/222/niambi-esteemed-speaker"
+    },
+    {
+     "name": "Niambi, Faithful Healer",
+     "oracle_id": "0c107664-a9fc-4684-8a1b-fa750401a6dd",
+     "type_line": "Legendary Creature — Human Cleric",
+     "scryfall_uri": "https://scryfall.com/card/dom/272/niambi-faithful-healer"
     }
    ]
   },
@@ -722,6 +944,23 @@
    ]
   },
   {
+   "entity": "nissa_revane",
+   "entity_type": "Character",
+   "entity_name": "Nissa Revane",
+   "aliases": [
+    "Nissa Revane"
+   ],
+   "pack": "pack_c2_return_to_dominaria_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Nissa Revane",
+     "oracle_id": "113fc13a-6df9-4eed-b9d4-002a85a036a1",
+     "type_line": "Legendary Planeswalker — Nissa",
+     "scryfall_uri": "https://scryfall.com/card/zen/170/nissa-revane"
+    }
+   ]
+  },
+  {
    "entity": "palladia_mors",
    "entity_type": "Character",
    "entity_name": "Palladia-Mors",
@@ -762,6 +1001,35 @@
    ]
   },
   {
+   "entity": "radha",
+   "entity_type": "Character",
+   "entity_name": "Radha",
+   "aliases": [
+    "Radha"
+   ],
+   "pack": "pack_c2_return_to_dominaria_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Radha, Coalition Warlord",
+     "oracle_id": "fbf0bde7-cb13-402b-b3ab-81c787ce4827",
+     "type_line": "Legendary Creature — Elf Warrior",
+     "scryfall_uri": "https://scryfall.com/card/dmu/211/radha-coalition-warlord"
+    },
+    {
+     "name": "Radha, Heart of Keld",
+     "oracle_id": "927fb139-0493-48be-8cc4-2c7d854d6a55",
+     "type_line": "Legendary Creature — Elf Warrior",
+     "scryfall_uri": "https://scryfall.com/card/m21/224/radha-heart-of-keld"
+    },
+    {
+     "name": "Radha, Heir to Keld",
+     "oracle_id": "61d94fe7-b559-4bd4-94a7-f4ed4c853b4b",
+     "type_line": "Legendary Creature — Elf Warrior",
+     "scryfall_uri": "https://scryfall.com/card/dmr/196/radha-heir-to-keld"
+    }
+   ]
+  },
+  {
    "entity": "raff_capashen",
    "entity_type": "Character",
    "entity_name": "Raff Capashen",
@@ -775,6 +1043,23 @@
      "oracle_id": "13044ca1-76a3-43b2-a8e4-3bbc692c30c5",
      "type_line": "Legendary Creature — Human Wizard",
      "scryfall_uri": "https://scryfall.com/card/cmm/351/raff-capashen-ships-mage"
+    }
+   ]
+  },
+  {
+   "entity": "raven_man",
+   "entity_type": "Character",
+   "entity_name": "The Raven Man",
+   "aliases": [
+    "The Raven Man"
+   ],
+   "pack": "pack_c2_return_to_dominaria_2026-10-30.json",
+   "cards": [
+    {
+     "name": "The Raven Man",
+     "oracle_id": "19918740-f6e3-40cd-9848-3c7a852a6c2a",
+     "type_line": "Legendary Creature — Human Wizard",
+     "scryfall_uri": "https://scryfall.com/card/dmu/103/the-raven-man"
     }
    ]
   },
@@ -979,6 +1264,57 @@
    ]
   },
   {
+   "entity": "shiv",
+   "entity_type": "Place",
+   "entity_name": "Shiv",
+   "aliases": [
+    "Shiv"
+   ],
+   "pack": "pack_c2_return_to_dominaria_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Shiv",
+     "oracle_id": "70edae19-e278-401d-9772-508bd66320a6",
+     "type_line": "Plane — Dominaria",
+     "scryfall_uri": "https://scryfall.com/card/opca/70/shiv"
+    }
+   ]
+  },
+  {
+   "entity": "sisay",
+   "entity_type": "Character",
+   "entity_name": "Captain Sisay",
+   "aliases": [
+    "Captain Sisay"
+   ],
+   "pack": "pack_c2_return_to_dominaria_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Captain Sisay",
+     "oracle_id": "2e7a9ea9-f76c-4c12-950f-c613fa16cfa8",
+     "type_line": "Legendary Creature — Human Soldier",
+     "scryfall_uri": "https://scryfall.com/card/inv/237/captain-sisay"
+    }
+   ]
+  },
+  {
+   "entity": "slimefoot",
+   "entity_type": "Character",
+   "entity_name": "Slimefoot",
+   "aliases": [
+    "Slimefoot"
+   ],
+   "pack": "pack_c2_return_to_dominaria_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Slimefoot, the Stowaway",
+     "oracle_id": "fd541139-de13-4b32-93ba-070ecf711d33",
+     "type_line": "Legendary Creature — Fungus",
+     "scryfall_uri": "https://scryfall.com/card/cmm/356/slimefoot-the-stowaway"
+    }
+   ]
+  },
+  {
    "entity": "tawnos",
    "entity_type": "Character",
    "entity_name": "Tawnos",
@@ -1075,6 +1411,23 @@
      "oracle_id": "98c389ed-b960-42e2-9c76-a062f77c9a78",
      "type_line": "Legendary Planeswalker — Teferi",
      "scryfall_uri": "https://scryfall.com/card/mid/245/teferi-who-slows-the-sunset"
+    }
+   ]
+  },
+  {
+   "entity": "tiana",
+   "entity_type": "Character",
+   "entity_name": "Tiana",
+   "aliases": [
+    "Tiana"
+   ],
+   "pack": "pack_c2_return_to_dominaria_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Tiana, Ship's Caretaker",
+     "oracle_id": "80f8fb4c-cc6d-4b41-abb3-471dc96d4b2a",
+     "type_line": "Legendary Creature — Angel Artificer",
+     "scryfall_uri": "https://scryfall.com/card/dmr/204/tiana-ships-caretaker"
     }
    ]
   },
@@ -1212,6 +1565,47 @@
    ]
   },
   {
+   "entity": "venser",
+   "entity_type": "Character",
+   "entity_name": "Venser",
+   "aliases": [
+    "Venser"
+   ],
+   "pack": "pack_c2_return_to_dominaria_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Venser, Corpse Puppet",
+     "oracle_id": "17c934a7-3480-4309-a217-ca2550538ae7",
+     "type_line": "Legendary Creature — Phyrexian Zombie Wizard",
+     "scryfall_uri": "https://scryfall.com/card/one/219/venser-corpse-puppet"
+    },
+    {
+     "name": "Venser, Fervent Forger",
+     "oracle_id": "9b1ae6d8-0cf3-4a67-9241-37f4bc5ddbdd",
+     "type_line": "Legendary Creature — Human Sorcerer",
+     "scryfall_uri": "https://scryfall.com/card/frc/9/venser-fervent-forger"
+    },
+    {
+     "name": "Venser, Shaper Savant",
+     "oracle_id": "0f41cefc-d6ff-4db7-ba35-502b7e081de1",
+     "type_line": "Legendary Creature — Human Wizard",
+     "scryfall_uri": "https://scryfall.com/card/2x2/66/venser-shaper-savant"
+    },
+    {
+     "name": "Venser, Visionary Traveler",
+     "oracle_id": "f4a64308-5f24-47c0-83f9-ee16a3b4f143",
+     "type_line": "Legendary Planeswalker — Venser",
+     "scryfall_uri": "https://scryfall.com/card/mbc/55/venser-visionary-traveler"
+    },
+    {
+     "name": "Venser, the Sojourner",
+     "oracle_id": "a8bf8ff8-d924-4fd2-b5ed-05b38f55325a",
+     "type_line": "Legendary Planeswalker — Venser",
+     "scryfall_uri": "https://scryfall.com/card/ddi/1/venser-the-sojourner"
+    }
+   ]
+  },
+  {
    "entity": "weatherlight",
    "entity_type": "Object",
    "entity_name": "Weatherlight (skyship)",
@@ -1265,29 +1659,38 @@
   }
  ],
  "unanchored_entities": [
+  "belzenlok",
+  "belzenlok_death",
+  "blackblade",
   "corondor_chasm",
   "dmu_sheoldred_invasion",
   "dragonstorm_escape",
   "first_phyrexian_invasion",
   "ice_age",
   "kayla_bin_kroog",
+  "kuberr",
   "last_battle_argoth",
   "original_tarkir_clash",
+  "rtd_sylex",
   "sylex_blast",
   "sylex_replica",
   "tarkir_duel",
   "tarkir_rewrite",
+  "teferis_spark_stone",
   "temporal_rifts_mending",
   "ugins_tomb_site",
-  "war_of_the_spark_end"
+  "war_of_the_spark_end",
+  "weatherlight_powerstone",
+  "zhalfir"
  ],
  "excluded_unset_cards": [
+  "Arvad of the Weatherlight",
   "Urza, Academy Headmaster"
  ],
  "counts": {
-  "entities_anchored": 42,
-  "anchor_edges": 131,
-  "unanchored_entities": 15
+  "entities_anchored": 62,
+  "anchor_edges": 160,
+  "unanchored_entities": 23
  },
- "content_sha256": "0cd617ec7af64d7d59e5981df37892a64246b118b3abf7c16dfc21aee05bdee6"
+ "content_sha256": "cec72e7044718f2cd4047dfc0d2e16d48847087fb0ce9886c5998499df99c450"
 }

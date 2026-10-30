@@ -1,0 +1,1122 @@
+{
+ "schema": "multiverse-claim-pack/v1",
+ "pack_id": "pack_c2_return_to_dominaria",
+ "evidence_cutoff": "2026-10-30",
+ "status": "PRELIMINARY_RESEARCH (not owner approved, not certified)",
+ "scope": "Claim extraction from the 12 official 'Return to Dominaria' episodes (Magic Story, 2018-03-21 through 2018-05-30). Each claim has verbatim evidence quotes, checked against the local official story cache by scripts/audit_lore_pack_rtd.py.",
+ "source_register": {
+  "rtd_ep1": {
+   "title": "Return to Dominaria: Episode 1",
+   "url": "https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-1-2018-03-21",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story; author Martha Wells)",
+   "published": "2018-03-21"
+  },
+  "rtd_ep2": {
+   "title": "Return to Dominaria: Episode 2",
+   "url": "https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-2-2018-03-22",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story; author Martha Wells)",
+   "published": "2018-03-22"
+  },
+  "rtd_ep3": {
+   "title": "Return to Dominaria: Episode 3",
+   "url": "https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-3-2018-03-28",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story; author Martha Wells)",
+   "published": "2018-03-28"
+  },
+  "rtd_ep4": {
+   "title": "Return to Dominaria: Episode 4",
+   "url": "https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-4-2018-04-04",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story; author Martha Wells)",
+   "published": "2018-04-04"
+  },
+  "rtd_ep5": {
+   "title": "Return to Dominaria: Episode 5",
+   "url": "https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-5-2018-04-11",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story; author Martha Wells)",
+   "published": "2018-04-11"
+  },
+  "rtd_ep6": {
+   "title": "Return to Dominaria: Episode 6",
+   "url": "https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-6-2018-04-18",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story; author Martha Wells)",
+   "published": "2018-04-18"
+  },
+  "rtd_ep7": {
+   "title": "Return to Dominaria: Episode 7",
+   "url": "https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-7-2018-04-25",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story; author Martha Wells)",
+   "published": "2018-04-25"
+  },
+  "rtd_ep8": {
+   "title": "Return to Dominaria: Episode 8",
+   "url": "https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-8-2018-05-02",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story; author Martha Wells)",
+   "published": "2018-05-02"
+  },
+  "rtd_ep9": {
+   "title": "Return to Dominaria: Episode 9",
+   "url": "https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-9-2018-05-09",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story; author Martha Wells)",
+   "published": "2018-05-09"
+  },
+  "rtd_ep10": {
+   "title": "Return to Dominaria: Episode 10",
+   "url": "https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-10-2018-05-16",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story; author Martha Wells)",
+   "published": "2018-05-16"
+  },
+  "rtd_ep11": {
+   "title": "Return to Dominaria: Episode 11",
+   "url": "https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-11-2018-05-23",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story; author Martha Wells)",
+   "published": "2018-05-23"
+  },
+  "rtd_ep12": {
+   "title": "Return to Dominaria: Episode 12",
+   "url": "https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-12-2018-05-30",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story; author Martha Wells)",
+   "published": "2018-05-30"
+  }
+ },
+ "entities": [
+  {
+   "id": "weatherlight",
+   "type": "Object",
+   "name": "Weatherlight (skyship)"
+  },
+  {
+   "id": "jhoira",
+   "type": "Character",
+   "name": "Jhoira"
+  },
+  {
+   "id": "karn",
+   "type": "Character",
+   "name": "Karn"
+  },
+  {
+   "id": "teferi",
+   "type": "Character",
+   "name": "Teferi"
+  },
+  {
+   "id": "shanna",
+   "type": "Character",
+   "name": "Shanna"
+  },
+  {
+   "id": "raff_capashen",
+   "type": "Character",
+   "name": "Raff Capashen"
+  },
+  {
+   "id": "gerrard",
+   "type": "Character",
+   "name": "Gerrard"
+  },
+  {
+   "id": "urza",
+   "type": "Character",
+   "name": "Urza"
+  },
+  {
+   "id": "nicol_bolas",
+   "type": "Character",
+   "name": "Nicol Bolas"
+  },
+  {
+   "id": "ajani",
+   "type": "Character",
+   "name": "Ajani"
+  },
+  {
+   "id": "piru",
+   "type": "Character",
+   "name": "Piru"
+  },
+  {
+   "id": "dakkon",
+   "type": "Character",
+   "name": "Dakkon Blackblade"
+  },
+  {
+   "id": "golgothian_sylex",
+   "type": "Object",
+   "name": "Golgothian Sylex"
+  },
+  {
+   "id": "dominaria",
+   "type": "Plane",
+   "name": "Dominaria"
+  },
+  {
+   "id": "liliana_vess",
+   "type": "Character",
+   "name": "Liliana Vess"
+  },
+  {
+   "id": "gideon_jura",
+   "type": "Character",
+   "name": "Gideon Jura"
+  },
+  {
+   "id": "chandra_nalaar",
+   "type": "Character",
+   "name": "Chandra Nalaar"
+  },
+  {
+   "id": "nissa_revane",
+   "type": "Character",
+   "name": "Nissa Revane"
+  },
+  {
+   "id": "gatewatch",
+   "type": "Faction",
+   "name": "The Gatewatch"
+  },
+  {
+   "id": "belzenlok",
+   "type": "Character",
+   "name": "Belzenlok"
+  },
+  {
+   "id": "kuberr",
+   "type": "Character",
+   "name": "Kuberr"
+  },
+  {
+   "id": "cabal",
+   "type": "Faction",
+   "name": "The Cabal"
+  },
+  {
+   "id": "josu_vess",
+   "type": "Character",
+   "name": "Josu Vess"
+  },
+  {
+   "id": "raven_man",
+   "type": "Character",
+   "name": "The Raven Man"
+  },
+  {
+   "id": "chain_veil",
+   "type": "Object",
+   "name": "The Chain Veil"
+  },
+  {
+   "id": "sisay",
+   "type": "Character",
+   "name": "Captain Sisay"
+  },
+  {
+   "id": "danitha_capashen",
+   "type": "Character",
+   "name": "Danitha Capashen"
+  },
+  {
+   "id": "tiana",
+   "type": "Character",
+   "name": "Tiana"
+  },
+  {
+   "id": "lyra_dawnbringer",
+   "type": "Character",
+   "name": "Lyra Dawnbringer"
+  },
+  {
+   "id": "weatherlight_powerstone",
+   "type": "Object",
+   "name": "Weatherlight's Powerstone"
+  },
+  {
+   "id": "serras_realm",
+   "type": "Plane",
+   "name": "Serra's Realm"
+  },
+  {
+   "id": "arvad",
+   "type": "Character",
+   "name": "Arvad"
+  },
+  {
+   "id": "slimefoot",
+   "type": "Character",
+   "name": "Slimefoot"
+  },
+  {
+   "id": "venser",
+   "type": "Character",
+   "name": "Venser"
+  },
+  {
+   "id": "blackblade",
+   "type": "Object",
+   "name": "The Blackblade"
+  },
+  {
+   "id": "zhalfir",
+   "type": "Place",
+   "name": "Zhalfir"
+  },
+  {
+   "id": "shiv",
+   "type": "Place",
+   "name": "Shiv"
+  },
+  {
+   "id": "niambi",
+   "type": "Character",
+   "name": "Niambi"
+  },
+  {
+   "id": "teferis_spark_stone",
+   "type": "Object",
+   "name": "Powerstone holding Teferi's spark"
+  },
+  {
+   "id": "jaya_ballard",
+   "type": "Character",
+   "name": "Jaya Ballard"
+  },
+  {
+   "id": "rtd_sylex",
+   "type": "Object",
+   "name": "The Sylex (as named in Return to Dominaria Ep. 9)"
+  },
+  {
+   "id": "new_phyrexia",
+   "type": "Plane",
+   "name": "New Phyrexia"
+  },
+  {
+   "id": "multani",
+   "type": "Character",
+   "name": "Multani"
+  },
+  {
+   "id": "cabal_stronghold",
+   "type": "Place",
+   "name": "Cabal Stronghold"
+  },
+  {
+   "id": "radha",
+   "type": "Character",
+   "name": "Radha"
+  },
+  {
+   "id": "belzenlok_death",
+   "type": "Event",
+   "name": "Death of Belzenlok at the Cabal Stronghold"
+  }
+ ],
+ "claims": [
+  {
+   "id": "RTD001",
+   "subject": "jhoira",
+   "predicate": "salvaged",
+   "object": "weatherlight",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "rtd_2018",
+   "source_ids": [
+    "rtd_ep1",
+    "rtd_ep3"
+   ],
+   "evidence": [
+    {
+     "source_id": "rtd_ep1",
+     "quote": "Now we raise the Weatherlight."
+    },
+    {
+     "source_id": "rtd_ep3",
+     "quote": "Between the merfolk and her human salvage crew, they had wrestled the remnant to the surface."
+    }
+   ],
+   "summary": "Jhoira raises the sunken Weatherlight with merfolk and a human salvage crew and begins rebuilding it.",
+   "limitation": ""
+  },
+  {
+   "id": "RTD002",
+   "subject": "nissa_revane",
+   "predicate": "left",
+   "object": "gatewatch",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "rtd_2018",
+   "source_ids": [
+    "rtd_ep1"
+   ],
+   "evidence": [
+    {
+     "source_id": "rtd_ep1",
+     "quote": "I'm sorry, but my watch is over."
+    }
+   ],
+   "summary": "After Amonkhet, Nissa leaves the Gatewatch and Dominaria.",
+   "limitation": ""
+  },
+  {
+   "id": "RTD003",
+   "subject": "liliana_vess",
+   "predicate": "sought_to_kill",
+   "object": "belzenlok",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "rtd_2018",
+   "source_ids": [
+    "rtd_ep1"
+   ],
+   "evidence": [
+    {
+     "source_id": "rtd_ep1",
+     "quote": "Belzenlok is here."
+    },
+    {
+     "source_id": "rtd_ep1",
+     "quote": "We need Liliana's help to destroy Bolas, and she can't do that until this last demon is dead."
+    }
+   ],
+   "summary": "Belzenlok is the last demon of Liliana's pact; Gideon stays on Dominaria to help her kill him.",
+   "limitation": ""
+  },
+  {
+   "id": "RTD004",
+   "subject": "belzenlok",
+   "predicate": "supplanted",
+   "object": "kuberr",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "rtd_2018",
+   "source_ids": [
+    "rtd_ep1"
+   ],
+   "evidence": [
+    {
+     "source_id": "rtd_ep1",
+     "quote": "Belzenlok had supplanted the god Kuberr to gain control over the Cabal"
+    }
+   ],
+   "summary": "Belzenlok supplanted the god Kuberr to take control of the Cabal.",
+   "limitation": "Narrated from Liliana's point of view."
+  },
+  {
+   "id": "RTD005",
+   "subject": "belzenlok",
+   "predicate": "leads",
+   "object": "cabal",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "rtd_2018",
+   "source_ids": [
+    "rtd_ep1"
+   ],
+   "evidence": [
+    {
+     "source_id": "rtd_ep1",
+     "quote": "Belzenlok is worshipped here by the Cabal, a death cult."
+    }
+   ],
+   "summary": "Belzenlok is worshipped by the Cabal, a death cult, from its Stronghold in Urborg.",
+   "limitation": ""
+  },
+  {
+   "id": "RTD006",
+   "subject": "belzenlok",
+   "predicate": "claimed_forged",
+   "object": "blackblade",
+   "grade": "CANON_DISPUTED",
+   "event_stage": "rtd_2018",
+   "source_ids": [
+    "rtd_ep1",
+    "rtd_ep5"
+   ],
+   "evidence": [
+    {
+     "source_id": "rtd_ep1",
+     "quote": "Belzenlok forged it. Belzenlok slayed the elder dragon."
+    },
+    {
+     "source_id": "rtd_ep1",
+     "quote": "It's said it was the Planeswalker Dakkon Bl"
+    },
+    {
+     "source_id": "rtd_ep5",
+     "quote": "he's been taking credit for every shift in Dominaria's history"
+    }
+   ],
+   "summary": "Cultists credit Belzenlok with forging the Blackblade and slaying an elder dragon; a disciple starts to name Dakkon Blackblade instead, and Jhoira says Belzenlok takes credit for every shift in Dominaria's history.",
+   "limitation": "Belzenlok's claims are in-story propaganda; this pack does not resolve the forger."
+  },
+  {
+   "id": "RTD007",
+   "subject": "liliana_vess",
+   "predicate": "made_undead",
+   "object": "josu_vess",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "liliana_backstory",
+   "source_ids": [
+    "rtd_ep1"
+   ],
+   "evidence": [
+    {
+     "source_id": "rtd_ep1",
+     "quote": "instead turned him into a mindless undead monster"
+    }
+   ],
+   "summary": "Long ago, Liliana's attempt to heal her brother Josu turned him undead.",
+   "limitation": ""
+  },
+  {
+   "id": "RTD008",
+   "subject": "liliana_vess",
+   "predicate": "spark_ignited_leaving",
+   "object": "dominaria",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "liliana_backstory",
+   "source_ids": [
+    "rtd_ep1"
+   ],
+   "evidence": [
+    {
+     "source_id": "rtd_ep1",
+     "quote": "she had fled the plane as her spark ignited"
+    }
+   ],
+   "summary": "Liliana's spark ignited as she fled Dominaria after Josu's transformation.",
+   "limitation": ""
+  },
+  {
+   "id": "RTD009",
+   "subject": "raven_man",
+   "predicate": "manipulated",
+   "object": "liliana_vess",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "liliana_backstory",
+   "source_ids": [
+    "rtd_ep2"
+   ],
+   "evidence": [
+    {
+     "source_id": "rtd_ep2",
+     "quote": "The Raven Man had manipulated her, tricked her into performing the work"
+    }
+   ],
+   "summary": "The Raven Man manipulated Liliana into the healing work that undid Josu.",
+   "limitation": "The Raven Man's identity is not established in this pack."
+  },
+  {
+   "id": "RTD010",
+   "subject": "belzenlok",
+   "predicate": "made_lich",
+   "object": "josu_vess",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "rtd_2018",
+   "source_ids": [
+    "rtd_ep2"
+   ],
+   "evidence": [
+    {
+     "source_id": "rtd_ep2",
+     "quote": "how Belzenlok had managed to turn Josu into his lich"
+    }
+   ],
+   "summary": "Belzenlok made Josu his lich and general in Caligo.",
+   "limitation": ""
+  },
+  {
+   "id": "RTD011",
+   "subject": "liliana_vess",
+   "predicate": "laid_to_rest",
+   "object": "josu_vess",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "rtd_2018",
+   "source_ids": [
+    "rtd_ep2"
+   ],
+   "evidence": [
+    {
+     "source_id": "rtd_ep2",
+     "quote": "She gripped the Chain Veil."
+    },
+    {
+     "source_id": "rtd_ep2",
+     "quote": "The curse of the House of Vess is ended."
+    }
+   ],
+   "summary": "At Vess Manor, Liliana uses the Chain Veil to unmake the lich Josu and end the curse of House Vess.",
+   "limitation": ""
+  },
+  {
+   "id": "RTD012",
+   "subject": "shanna",
+   "predicate": "descendant_of",
+   "object": "sisay",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "rtd_2018",
+   "source_ids": [
+    "rtd_ep3"
+   ],
+   "evidence": [
+    {
+     "source_id": "rtd_ep3",
+     "quote": "I knew your ancestor, Captain Sisay. I see you carry her sword."
+    }
+   ],
+   "summary": "Shanna is a descendant of Captain Sisay and carries her sword; she joins the Weatherlight crew.",
+   "limitation": ""
+  },
+  {
+   "id": "RTD013",
+   "subject": "danitha_capashen",
+   "predicate": "related_to",
+   "object": "gerrard",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "rtd_2018",
+   "source_ids": [
+    "rtd_ep3"
+   ],
+   "evidence": [
+    {
+     "source_id": "rtd_ep3",
+     "quote": "Danitha Capashen, who was distantly related to Captain Gerrard"
+    }
+   ],
+   "summary": "Danitha Capashen is distantly related to Gerrard; she declines Jhoira's invitation.",
+   "limitation": ""
+  },
+  {
+   "id": "RTD014",
+   "subject": "urza",
+   "predicate": "created",
+   "object": "weatherlight_powerstone",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "pre_invasion",
+   "source_ids": [
+    "rtd_ep3"
+   ],
+   "evidence": [
+    {
+     "source_id": "rtd_ep3",
+     "quote": "It had been created by Urza, who had collapsed Serra's Realm into the stone."
+    }
+   ],
+   "summary": "Urza created the Weatherlight's Powerstone by collapsing Serra's Realm into it.",
+   "limitation": ""
+  },
+  {
+   "id": "RTD015",
+   "subject": "tiana",
+   "predicate": "reactivated",
+   "object": "weatherlight_powerstone",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "rtd_2018",
+   "source_ids": [
+    "rtd_ep3"
+   ],
+   "evidence": [
+    {
+     "source_id": "rtd_ep3",
+     "quote": "Jhoira felt the shift in the Powerstone, the moment when it came to life again."
+    }
+   ],
+   "summary": "Tiana's prayer revives the inert Powerstone.",
+   "limitation": ""
+  },
+  {
+   "id": "RTD016",
+   "subject": "tiana",
+   "predicate": "guardian_of",
+   "object": "weatherlight",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "rtd_2018",
+   "source_ids": [
+    "rtd_ep4"
+   ],
+   "evidence": [
+    {
+     "source_id": "rtd_ep4",
+     "quote": "The Weatherlight's guardian angel."
+    }
+   ],
+   "summary": "Tiana, an angel of Serra, realizes she is the Weatherlight's guardian angel.",
+   "limitation": ""
+  },
+  {
+   "id": "RTD017",
+   "subject": "arvad",
+   "predicate": "is",
+   "object": "Knight of Benalia turned vampire",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "rtd_2018",
+   "source_ids": [
+    "rtd_ep4"
+   ],
+   "evidence": [
+    {
+     "source_id": "rtd_ep4",
+     "quote": "I'm Arvad, Knight of Benalia. I was captured and made a vampire."
+    }
+   ],
+   "summary": "Arvad is a Knight of Benalia who was captured and made a vampire.",
+   "limitation": ""
+  },
+  {
+   "id": "RTD018",
+   "subject": "weatherlight_powerstone",
+   "predicate": "drew",
+   "object": "arvad",
+   "grade": "CANON_IMPLIED",
+   "event_stage": "rtd_2018",
+   "source_ids": [
+    "rtd_ep10"
+   ],
+   "evidence": [
+    {
+     "source_id": "rtd_ep10",
+     "quote": "That was Arvad, who the white star had called from across the world to be Tiana's friend and helper."
+    }
+   ],
+   "summary": "Arvad was drawn across the world to the ship by what Slimefoot perceives as the 'white star'.",
+   "limitation": "'White star' is Slimefoot's perception; identifying it with the Powerstone is an inference."
+  },
+  {
+   "id": "RTD019",
+   "subject": "slimefoot",
+   "predicate": "grew_aboard",
+   "object": "weatherlight",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "rtd_2018",
+   "source_ids": [
+    "rtd_ep10"
+   ],
+   "evidence": [
+    {
+     "source_id": "rtd_ep10",
+     "quote": "For a long time Slimefoot knew nothing except the Weatherlight's warm hull and the hot sun of Bogardan."
+    }
+   ],
+   "summary": "The saproling Slimefoot sprouted and grew aboard the Weatherlight.",
+   "limitation": ""
+  },
+  {
+   "id": "RTD020",
+   "subject": "venser",
+   "predicate": "gave_spark_to",
+   "object": "karn",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "scars_of_mirrodin",
+   "source_ids": [
+    "rtd_ep5"
+   ],
+   "evidence": [
+    {
+     "source_id": "rtd_ep5",
+     "quote": "Venser gave up his spark to Karn, to rescue him. Venser did not survive."
+    }
+   ],
+   "summary": "Venser gave his spark to Karn to rescue him and died.",
+   "limitation": ""
+  },
+  {
+   "id": "RTD021",
+   "subject": "ajani",
+   "predicate": "assessed",
+   "object": "new_phyrexia",
+   "grade": "CANON_DISPUTED",
+   "event_stage": "rtd_2018",
+   "source_ids": [
+    "rtd_ep5",
+    "rtd_ep9"
+   ],
+   "evidence": [
+    {
+     "source_id": "rtd_ep5",
+     "quote": "An entire plane has fallen to them, but they've been contained there."
+    },
+    {
+     "source_id": "rtd_ep9",
+     "quote": "Everyone I've talked to thinks the Phyrexians aren't a threat anymore, but"
+    }
+   ],
+   "summary": "Ajani tells Jhoira the Phyrexians are contained on one fallen plane; Jaya doubts the common belief that they are no longer a threat.",
+   "limitation": "These are in-story assessments; later official stories show a Phyrexian threat to Dominaria."
+  },
+  {
+   "id": "RTD022",
+   "subject": "blackblade",
+   "predicate": "killed",
+   "object": "piru",
+   "grade": "CANON_IMPLIED",
+   "event_stage": "elder_dragon_war",
+   "source_ids": [
+    "rtd_ep5"
+   ],
+   "evidence": [
+    {
+     "source_id": "rtd_ep5",
+     "quote": "It killed an elder dragon."
+    },
+    {
+     "source_id": "rtd_ep5",
+     "quote": "Piru, I think,"
+    }
+   ],
+   "summary": "Jhoira says the Blackblade killed an elder dragon; Shanna names Piru, hedged with 'I think'.",
+   "limitation": ""
+  },
+  {
+   "id": "RTD023",
+   "subject": "blackblade",
+   "predicate": "is",
+   "object": "soul-drinker",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "rtd_2018",
+   "source_ids": [
+    "rtd_ep5"
+   ],
+   "evidence": [
+    {
+     "source_id": "rtd_ep5",
+     "quote": "it's a soul-drinker, created with death magic, and steals the life-energy of everyone it kills."
+    }
+   ],
+   "summary": "The Blackblade is a soul-drinker that steals the life-energy of everything it kills.",
+   "limitation": ""
+  },
+  {
+   "id": "RTD024",
+   "subject": "teferi",
+   "predicate": "phased_out",
+   "object": "zhalfir",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "first_invasion",
+   "source_ids": [
+    "rtd_ep6"
+   ],
+   "evidence": [
+    {
+     "source_id": "rtd_ep6",
+     "quote": "So I created a time rift and phased Zhalfir partially out of this plane."
+    }
+   ],
+   "summary": "During the Phyrexian Invasion, Teferi phased Zhalfir partially out of Dominaria to spare it.",
+   "limitation": ""
+  },
+  {
+   "id": "RTD025",
+   "subject": "teferi",
+   "predicate": "spent_spark_on",
+   "object": "shiv",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "temporal_rifts_mending",
+   "source_ids": [
+    "rtd_ep6",
+    "rtd_ep7"
+   ],
+   "evidence": [
+    {
+     "source_id": "rtd_ep7",
+     "quote": "His Planeswalker spark had been needed to repair Shiv's time rift"
+    },
+    {
+     "source_id": "rtd_ep6",
+     "quote": "That's how he lost his Planeswalker spark."
+    }
+   ],
+   "summary": "Teferi spent his spark repairing Shiv's time rift, which left him unable to return Zhalfir.",
+   "limitation": ""
+  },
+  {
+   "id": "RTD026",
+   "subject": "niambi",
+   "predicate": "daughter_of",
+   "object": "teferi",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "rtd_2018",
+   "source_ids": [
+    "rtd_ep6"
+   ],
+   "evidence": [
+    {
+     "source_id": "rtd_ep6",
+     "quote": "his daughter Niambi said"
+    }
+   ],
+   "summary": "Niambi is Teferi's daughter.",
+   "limitation": ""
+  },
+  {
+   "id": "RTD027",
+   "subject": "niambi",
+   "predicate": "made",
+   "object": "teferis_spark_stone",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "rtd_2018",
+   "source_ids": [
+    "rtd_ep6"
+   ],
+   "evidence": [
+    {
+     "source_id": "rtd_ep6",
+     "quote": "She had made this stone herself at the Thran Mana Rig. It held Teferi's Planeswalker spark."
+    }
+   ],
+   "summary": "Niambi made a Powerstone at the Thran Mana Rig that holds Teferi's spark.",
+   "limitation": ""
+  },
+  {
+   "id": "RTD028",
+   "subject": "teferi",
+   "predicate": "regained_spark_from",
+   "object": "teferis_spark_stone",
+   "grade": "CANON_IMPLIED",
+   "event_stage": "rtd_2018",
+   "source_ids": [
+    "rtd_ep11"
+   ],
+   "evidence": [
+    {
+     "source_id": "rtd_ep11",
+     "quote": "One of the reasons I took my spark back was to come with you."
+    }
+   ],
+   "summary": "Teferi takes his spark back to join the fight against Bolas.",
+   "limitation": "Ep. 11 states he took it back; that the stone in Ep. 6 is the mechanism is an inference across episodes."
+  },
+  {
+   "id": "RTD029",
+   "subject": "jaya_ballard",
+   "predicate": "disguised_as",
+   "object": "Luti",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "rtd_2018",
+   "source_ids": [
+    "rtd_ep9"
+   ],
+   "evidence": [
+    {
+     "source_id": "rtd_ep9",
+     "quote": "Furious, she faced Luti. Or Jaya."
+    },
+    {
+     "source_id": "rtd_ep9",
+     "quote": "Where do you think the monastery kept getting those 'long-lost writings of Jaya Ballard' from?"
+    }
+   ],
+   "summary": "Luti, the old woman at the Keral Keep monastery, was Jaya Ballard in disguise.",
+   "limitation": ""
+  },
+  {
+   "id": "RTD030",
+   "subject": "chandra_nalaar",
+   "predicate": "sought",
+   "object": "jaya_ballard",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "rtd_2018",
+   "source_ids": [
+    "rtd_ep8"
+   ],
+   "evidence": [
+    {
+     "source_id": "rtd_ep8",
+     "quote": "But if I can find Jaya, I'm going to give her these"
+    }
+   ],
+   "summary": "Chandra seeks Jaya Ballard on Dominaria to learn from her.",
+   "limitation": ""
+  },
+  {
+   "id": "RTD031",
+   "subject": "karn",
+   "predicate": "excavated",
+   "object": "rtd_sylex",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "rtd_2018",
+   "source_ids": [
+    "rtd_ep9"
+   ],
+   "evidence": [
+    {
+     "source_id": "rtd_ep9",
+     "quote": "He's found the Sylex."
+    },
+    {
+     "source_id": "rtd_ep9",
+     "quote": "I intend to take it to New Phyrexia and detonate it there."
+    }
+   ],
+   "summary": "Karn excavates the Sylex and intends to detonate it on New Phyrexia.",
+   "limitation": ""
+  },
+  {
+   "id": "RTD032",
+   "subject": "rtd_sylex",
+   "predicate": "identified_with",
+   "object": "golgothian_sylex",
+   "grade": "CANON_IMPLIED",
+   "event_stage": "rtd_2018",
+   "source_ids": [
+    "rtd_ep9"
+   ],
+   "evidence": [
+    {
+     "source_id": "rtd_ep9",
+     "quote": "In his semiconscious state, he senses that the Sylex is being uncovered, brought closer to the surface, and he fears it. For good reason; it caused great damage to him."
+    }
+   ],
+   "summary": "The Sylex harmed Multani in the past, which implies the Golgothian Sylex of Argoth.",
+   "limitation": "The episode says 'the Sylex'; identity with the Golgothian Sylex is inferred."
+  },
+  {
+   "id": "RTD033",
+   "subject": "rtd_sylex",
+   "predicate": "origin",
+   "object": "Urza (per Karn)",
+   "grade": "CANON_DISPUTED",
+   "event_stage": "rtd_2018",
+   "source_ids": [
+    "rtd_ep9"
+   ],
+   "evidence": [
+    {
+     "source_id": "rtd_ep9",
+     "quote": "It was created by Urza to help defeat the Phyrexians."
+    }
+   ],
+   "summary": "Karn says Urza created the Sylex; Pack B (B012) preserves competing official origin legends.",
+   "limitation": "In-story statement by Karn; see Pack B B012."
+  },
+  {
+   "id": "RTD034",
+   "subject": "multani",
+   "predicate": "opposed",
+   "object": "rtd_sylex",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "rtd_2018",
+   "source_ids": [
+    "rtd_ep9"
+   ],
+   "evidence": [
+    {
+     "source_id": "rtd_ep9",
+     "quote": "he senses that the Sylex is being uncovered"
+    }
+   ],
+   "summary": "A semiconscious Multani attacks the dig site, fearing the Sylex.",
+   "limitation": ""
+  },
+  {
+   "id": "RTD035",
+   "subject": "cabal_stronghold",
+   "predicate": "originally",
+   "object": "Phyrexian base",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "first_invasion",
+   "source_ids": [
+    "rtd_ep11"
+   ],
+   "evidence": [
+    {
+     "source_id": "rtd_ep11",
+     "quote": "It had been created as a Phyrexian base"
+    }
+   ],
+   "summary": "The Cabal Stronghold was first built as a Phyrexian base.",
+   "limitation": ""
+  },
+  {
+   "id": "RTD036",
+   "subject": "liliana_vess",
+   "predicate": "killed",
+   "object": "belzenlok",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "rtd_2018",
+   "source_ids": [
+    "rtd_ep12"
+   ],
+   "evidence": [
+    {
+     "source_id": "rtd_ep12",
+     "quote": "Liliana leapt forward, under Belzenlok's arm, and seized the Blackblade's hilt."
+    },
+    {
+     "source_id": "rtd_ep12",
+     "quote": "as the Blade drained Belzenlok's life"
+    }
+   ],
+   "summary": "Gideon carries the Blackblade into the fight, and Liliana uses it to drain and kill Belzenlok.",
+   "limitation": ""
+  },
+  {
+   "id": "RTD037",
+   "subject": "belzenlok_death",
+   "predicate": "involved",
+   "object": "blackblade",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "rtd_2018",
+   "source_ids": [
+    "rtd_ep12"
+   ],
+   "evidence": [
+    {
+     "source_id": "rtd_ep12",
+     "quote": "They had found the weapon inside the fourth treasury vault"
+    }
+   ],
+   "summary": "The crew recovers the Blackblade from the Stronghold's fourth treasury vault before the final battle.",
+   "limitation": ""
+  },
+  {
+   "id": "RTD038",
+   "subject": "nicol_bolas",
+   "predicate": "holds_pact_of",
+   "object": "liliana_vess",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "rtd_2018",
+   "source_ids": [
+    "rtd_ep12"
+   ],
+   "evidence": [
+    {
+     "source_id": "rtd_ep12",
+     "quote": "The contract still controlled her, and now she belonged to an entity more vicious than any demon"
+    }
+   ],
+   "summary": "After Belzenlok dies, Bolas reveals that Liliana's pact now binds her to him.",
+   "limitation": ""
+  },
+  {
+   "id": "RTD039",
+   "subject": "radha",
+   "predicate": "freed_from",
+   "object": "cabal",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "rtd_2018",
+   "source_ids": [
+    "rtd_ep12"
+   ],
+   "evidence": [
+    {
+     "source_id": "rtd_ep12",
+     "quote": "Radha had been a prisoner of the Cabal, but at least she was free now."
+    }
+   ],
+   "summary": "Radha is freed from the Cabal's prison after the Stronghold falls.",
+   "limitation": ""
+  }
+ ],
+ "remaining": [
+  "Episodes were read by targeted extraction, not exhaustively; secondary characters (Hadi, Tien, Rael, Thiago, Naban, Subira, Kwende, Urgoros, Luti's monastery) are not modelled",
+  "The Raven Man's identity is not asserted",
+  "No in-universe AR dates appear in these episodes; none are inferred",
+  "Card anchors (e.g., Blackblade Reforged, Settle the Score, In Bolas's Clutches art captions) not yet linked"
+ ]
+}
