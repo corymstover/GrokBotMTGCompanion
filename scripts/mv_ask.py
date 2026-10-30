@@ -24,6 +24,9 @@ Confidence levels:
 
 Flags name the caveats, e.g. STALE_ORACLE_VS_CURRENT_SNAPSHOT, CANON_DISPUTED_PRESENT,
 NO_CITED_LORE, AMBIGUOUS_NAME. This tool never fabricates an answer: no evidence returns NOT_FOUND.
+
+Plane-history questions route to reproducible Phase 5 cited plane dossiers;
+all responses are QUALIFIED because the registered graph is never exhaustive.
 """
 import argparse
 import csv
@@ -45,6 +48,12 @@ _TEMPORAL_CAVEAT = re.compile(
     r"\b(?:original|previous|rewritten|alternate) timeline\b|"
     r"\b(?:prevented|undone|reversed|rewrote|resurrected|revived)\b", re.I)
 _CURRENT_CUE = re.compile(r"\b(?:current|currently|present|now|today|these days)\b", re.I)
+_PLANE_HISTORY_PATTERNS = [
+    re.compile(r"^(?:what(?:'s| is) (?:the )?|tell me (?:about )?(?:the )?|"
+               r"summari[sz]e (?:the )?|give me (?:the )?|show (?:the )?)"
+               r"(?:history|historical background|lore) (?:of|on|for) (.+?)\??$", re.I),
+    re.compile(r"^what happened (?:on|in) (.+?)\??$", re.I),
+]
 
 _index = None
 
@@ -430,6 +439,49 @@ def _rules(kind: str, m) -> dict:
     return commander_rules.include(m.group(1), [x.strip() for x in re.split(r" and | \+ ", m.group(2))])
 
 
+def plane_history(name: str) -> dict | None:
+    """One source-limited answer per cited claim, even when it touches several places."""
+    from query_plane_history import query
+
+    found = query(re.sub(r'^the plane (?:of )?', '', name.strip().rstrip('?'), flags=re.I))
+    if found['status'] == 'NOT_FOUND':
+        return None  # preserve the normal fallback for names not known as planes
+    plane = found['plane']
+    claims = {}
+    urls = set()
+    for fact in plane['facts']:
+        row = claims.setdefault(fact['claim_id'], {
+            'claim_id': fact['claim_id'], 'grade': fact['grade'],
+            'statement': fact['statement'], 'limitation': fact['limitation'],
+            'era_label_not_order': fact['era_label'],
+            'in_universe_date': fact['in_universe_date'],
+            'relations': [], 'sources': [],
+        })
+        row['relations'].append({'subject': fact['subject']['name'],
+                                 'relation': fact['relation'], 'object': fact['object']['name']})
+        for source in fact['sources']:
+            urls.add(source['url'])
+            if source['url'] not in row['sources']:
+                row['sources'].append(source['url'])
+    statuses = {x['grade'] for x in claims.values()}
+    flags = ['PARTIAL_REGISTERED_PLANE_HISTORY', 'NO_VERIFIED_TOTAL_CHRONOLOGY']
+    if 'CANON_DISPUTED' in statuses:
+        flags.append('CANON_DISPUTED_PRESENT')
+    if 'CANON_IMPLIED' in statuses:
+        flags.append('CANON_IMPLIED_PRESENT')
+    if 'OPEN_QUESTION' in statuses:
+        flags.append('OPEN_QUESTION_PRESENT')
+    if 'ALTERNATE_CONTINUITY' in statuses:
+        flags.append('ALTERNATE_CONTINUITY_PRESENT')
+    return {'route': 'ask->plane_history', 'confidence': 'QUALIFIED',
+            'flags': flags, 'data_as_of': '2026-10-30', 'sources': sorted(urls),
+            'result': {'plane': plane['plane'], 'plane_id': plane['id'],
+                       'direct_claims': plane['distinct_claims'],
+                       'claims': list(claims.values()), 'complete_history': False,
+                       'verified_total_chronology': False,
+                       'known_gaps': plane['known_gaps']}}
+
+
 def ask(text: str) -> dict:
     q = text.strip()
     for rx, kind in RULES_PATTERNS:
@@ -438,6 +490,13 @@ def ask(text: str) -> dict:
             env = _rules(kind, m)
             env.update(route="ask->rules:" + kind, query=q)
             return env
+    for rx in _PLANE_HISTORY_PATTERNS:
+        m = rx.search(q)
+        if m:
+            env = plane_history(m.group(1))
+            if env is not None:
+                env['query'] = q
+                return env
     for rx in CONTINUITY_PATTERNS:
         m = rx.search(q)
         if m:

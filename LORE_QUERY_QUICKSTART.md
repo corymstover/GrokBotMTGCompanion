@@ -30,6 +30,20 @@ limitation and official Wizards source URL for every *direct* plane claim edge.
 They do not claim to cover all planes, all history, or a completed chronology;
 era labels do not create dates or an order across stories.
 
+The Phase 7 Q&A entry point also accepts natural-language requests, with an
+explicit **QUALIFIED** confidence level regardless of how many individual
+citations are confirmed:
+
+```bash
+python3 scripts/mv_ask.py ask 'What is the history of Alara?'
+python3 scripts/mv_ask.py ask 'Tell me about the history of Theros'
+python3 scripts/mv_ask.py ask 'What happened on Phyrexia?'
+```
+
+These answers group multi-shard relations under their original claim and
+retain canon disputes, limitations, and the fact that no complete in-world
+chronology has been established. Unknown planes fall through to normal lookup.
+
 ### How to read evidence
 
 - `literal_printing_text_match`: the **specific Scryfall printing** contains the searched words in its flavor text or Saga chapter rules text. Not proof of an event's depiction or an in-world relationship.

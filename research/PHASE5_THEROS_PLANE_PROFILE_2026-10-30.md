@@ -20,8 +20,10 @@ The ten distinct facts add source-backed coverage of:
 replaced or duplicated**. The source-register ID `ths_plane` also remains
 unchanged; the extra pack creates no second official source identity.
 
-The compiled Theros plane-history dossier now has **five distinct directly
-incident claims**, up from three. It remains highly incomplete: this plane
+The compiled Theros plane-history dossier now has **six distinct directly
+incident claims**, up from three (the new direct edges are `THP001`, `THP002`
+and `THP010`). The initial v2.51 narrative erroneously said five; the live
+generated dossier already counted six correctly. It remains highly incomplete: this plane
 primer does not specify an exact calendar year, prove a hierarchy of every
 god, name the monsters in individual encounters, or enumerate every city-state.
 The cited city list is **not an exhaustive census**. No before/after order was
