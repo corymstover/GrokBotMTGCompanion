@@ -8,6 +8,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "scripts"))
 import audit_product_family_triage as P
+from product_family_lookup import select
 
 
 class TriageTests(unittest.TestCase):
@@ -67,6 +68,19 @@ class TriageTests(unittest.TestCase):
         prior["reviewed_non_expansion_core_products"].pop()
         with self.assertRaisesRegex(ValueError, "review ledger has changed"):
             P.build(self.catalog, prior)
+
+    def test_offline_lookup_is_bound_to_frozen_classification(self):
+        data = P.build(self.catalog, self.prior)
+        self.assertEqual([r["code"] for r in select(data, code="LTR")], ["ltr"])
+        assert select(data, code="ltr")[0]["wizards_individual_source_review"]
+        self.assertEqual(len(select(data, only_pending=True)), 836)
+        self.assertEqual(len(select(data, set_type="masters", only_pending=True)) +
+                         len(select(data, set_type="masters", only_pending=False, code="cmm")),
+                         len(select(data, set_type="masters", only_pending=True)) + 1)
+        self.assertTrue(all(r["parent_set_code_explicit_only"] == "afr"
+                            for r in select(data, parent="AFR")))
+        self.assertTrue(all(r["research_priority_1_highest"] == 1
+                            for r in select(data, priority=1)))
 
     def test_deterministic_and_priority_order(self):
         a = P.build(self.catalog, self.prior)
