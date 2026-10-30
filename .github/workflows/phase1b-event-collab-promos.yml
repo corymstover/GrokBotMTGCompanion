@@ -1,0 +1,33 @@
+name: Phase 1B events and collaboration promo family evidence
+
+on:
+  push:
+    paths:
+      - 'data/set_atlas/event_collab_promos_*'
+      - 'scripts/audit_event_collab_promos_sources.py'
+      - 'scripts/product_family_lookup.py'
+      - 'tests/test_event_collab_promos_sources.py'
+      - '.github/workflows/phase1b-event-collab-promos.yml'
+  pull_request:
+    paths:
+      - 'data/set_atlas/event_collab_promos_*'
+      - 'scripts/audit_event_collab_promos_sources.py'
+      - 'scripts/product_family_lookup.py'
+      - 'tests/test_event_collab_promos_sources.py'
+      - '.github/workflows/phase1b-event-collab-promos.yml'
+  workflow_dispatch:
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Reproduce seven first-party family sources
+        run: python3 scripts/audit_event_collab_promos_sources.py
+      - name: Test all older evidence-gated sources and new records
+        run: python3 -m unittest discover -s tests -p 'test_*sources.py' -v
+      - name: Check cumulative offline lookup
+        run: python3 scripts/product_family_lookup.py --summary

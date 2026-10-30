@@ -29,6 +29,7 @@ INSERTS_CLASH_SPELLBOOK_SOURCE_REVIEW = ROOT / "data/set_atlas/inserts_clash_spe
 MASTERPIECE_MEMORABILIA_SOURCE_REVIEW = ROOT / "data/set_atlas/masterpiece_memorabilia_source_audit_2026-10-29.json"
 HISTORICAL_PROMO_SERIES_SOURCE_REVIEW = ROOT / "data/set_atlas/historical_promo_series_source_audit_2026-10-29.json"
 APAC_LUNAR_YEAR_PROMOS_SOURCE_REVIEW = ROOT / "data/set_atlas/apac_lunar_year_promos_source_audit_2026-10-29.json"
+EVENT_COLLAB_PROMOS_SOURCE_REVIEW = ROOT / "data/set_atlas/event_collab_promos_source_audit_2026-10-29.json"
 
 
 def apply_source_overlay(data, verified):
@@ -768,6 +769,60 @@ def apply_apac_lunar_year_promos_overlay(data, review):
     return result
 
 
+def apply_event_collab_promos_overlay(data, review):
+    """Add seven specifically dated event/collaboration sources without code overclaims."""
+    if review["cutoff"] != data["snapshot_date"] or data["wizards_reviewed_examples"] != 214:
+        raise ValueError("Event/collab source overlay requires 214 prior reviews")
+    updates = {r["code"]: r for r in review["reviewed_event_collab_promo_families"]}
+    if len(updates) != review["new_source_backed_codes"] or len(updates) != 7:
+        raise ValueError("Incomplete/duplicate event-collaboration citations")
+    patched = set()
+    rows = []
+    for previous in data["all_848_released_nondigital_other_type_records"]:
+        item = dict(previous)
+        source = updates.get(item["code"])
+        if source is not None:
+            if item["wizards_individual_source_review"]:
+                raise ValueError(f"Cannot overwrite earlier official event source {item['code']}")
+            if (item["scryfall_set_type"] != source["scryfall_type"] or
+                    item["scryfall_release_or_first_card_date"] != source["scryfall_earliest_card_date"] or
+                    item["parent_set_code_explicit_only"] != source["scryfall_parent_set_code_unchanged"] or
+                    source["wizards_prints_exact_scryfall_code"]):
+                raise ValueError(f"Unexpected Scryfall type, date, parent or exact-code claim: {item['code']}")
+            item.update({
+                "wizards_individual_source_review": True,
+                "review_status": "wizards_event_collaboration_promo_family_only_reviewed",
+                "wizards_primary_source": source["official_source_url"],
+                "wizards_review_product_group": source["officially_supported_product_family"],
+                "wizards_source_grade": source["source_grade"],
+                "wizards_code_explicitly_confirmed": False,
+                "verified_evidence_note": source["source_caveat"],
+                "wizards_premier_status_certified": False,
+                "complete_printing_inventory_certified": False,
+                "current_format_legality_certified": False,
+            })
+            patched.add(item["code"])
+        rows.append(item)
+    if patched != set(updates) or len(rows) != 848:
+        raise ValueError("Event/collab source overlay not an exact 848-code crosswalk")
+    result = dict(data)
+    result["all_848_released_nondigital_other_type_records"] = rows
+    result["wizards_reviewed_examples"] = review["cumulative_family_source_backed_codes"]
+    result["metadata_only_pending_wizards_individual_review"] = review["cumulative_source_pending_codes"]
+    result["cohort_review_progress"] = {}
+    for cohort in data["metadata_research_cohorts"]:
+        members = [item for item in rows if item["metadata_cohort_not_official_classification"] == cohort]
+        result["cohort_review_progress"][cohort] = {
+            "codes": len(members),
+            "wizards_reviewed": sum(bool(item["wizards_individual_source_review"]) for item in members),
+            "needs_individual_review": sum(not item["wizards_individual_source_review"] for item in members),
+            "explicit_parent_links": sum(bool(item["parent_set_code_explicit_only"]) for item in members),
+        }
+    if sum(bool(item["wizards_individual_source_review"]) for item in rows) != 221:
+        raise ValueError("221 cumulative independently cited records not conserved")
+    return result
+
+
 def load_current_index():
     data = json.loads(INDEX.read_text(encoding="utf-8"))
     if SOURCE_REVIEW.exists():
@@ -812,6 +867,9 @@ def load_current_index():
     if APAC_LUNAR_YEAR_PROMOS_SOURCE_REVIEW.exists():
         report = json.loads(APAC_LUNAR_YEAR_PROMOS_SOURCE_REVIEW.read_text(encoding="utf-8"))
         data = apply_apac_lunar_year_promos_overlay(data, report)
+    if EVENT_COLLAB_PROMOS_SOURCE_REVIEW.exists():
+        report = json.loads(EVENT_COLLAB_PROMOS_SOURCE_REVIEW.read_text(encoding="utf-8"))
+        data = apply_event_collab_promos_overlay(data, report)
     return data
 
 

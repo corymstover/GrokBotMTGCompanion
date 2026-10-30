@@ -45,9 +45,9 @@ class ApacLunarYearPromosSourcesTests(unittest.TestCase):
 
     def test_offline_lookup_and_older_sources_preserved(self):
         index = load_current_index()
-        self.assertEqual(index["wizards_reviewed_examples"], 214)
-        self.assertEqual(len(select(index, only_pending=True)), 634)
-        self.assertEqual(len(select(index, cohort="promotional_and_record_extras", only_pending=True)), 610)
+        self.assertGreaterEqual(index["wizards_reviewed_examples"], 214)
+        self.assertLessEqual(len(select(index, only_pending=True)), 634)
+        self.assertLessEqual(len(select(index, cohort="promotional_and_record_extras", only_pending=True)), 610)
         for code in sorted(A.REQUIRED):
             item = select(index, code=code)[0]
             self.assertTrue(item["wizards_individual_source_review"])
