@@ -479,7 +479,7 @@ Untagged pages in bulk (210 uncited); IKO's 2 non-narrative pages need a reviewe
   - 77 IMPLIED_SAME_SET_NAME, each with a limitation;
   - 26 of the above also have art on an official page.
 
-  Of the rest, 1 is ART_ONLY and **2,629 are NO_LORE_YET** (600 Universes Beyond, never text-matched). card_enrichment.json is untouched.
+  Of the rest, 1 is ART_ONLY and **2,629 are NO_LORE_YET** (600 Universes Beyond, never text-matched). card_enrichment.json is untouched. *Corrected in Batch 13 ([#903](https://github.com/corymstover/GrokBotMTGCompanion/pull/903)): the UB flag was misread, so the counts are now 208 LINKED / 2,626 NO_LORE_YET / 1,304 UB.*
 - **(2) Phase 1B:** from the SHA-matched pinned bulk:
   - all 119,509 Oct 28 IDs are present in Oct 29 (0 missing); 192 IDs are new; drift is 342 `prm` dates and 6 `trk` paper flags;
   - per-set counts give 0 mismatches; every parent link resolves (`tnau`→`nau`, an announced 2027 set);
@@ -496,21 +496,71 @@ Untagged pages in bulk (210 uncited); IKO's 2 non-narrative pages need a reviewe
 ### Status (keep distinct)
 - Research: PRELIMINARY_RESEARCH. Tests: 481 green locally (exit code checked). CI green on each merged exact head. Merged: #898–#901. Owner approved / certified: nothing. Protected-path diff vs `dfc8891d`: empty.
 
-## Consolidated status for ChatGPT / Cory (as of Batch 12 close)
+## Batch 13 — 2026-10-30, 10:39–11:20 CDT
 
-Checklist counts come from `MTG_MULTIVERSE_MASTER_WORKFLOW.md` v2.40 (checked / unchecked). A checked box means engineering verified, never owner approval. Nothing in this repo is owner-certified except the approvals files already in `data/lore_decks/approvals/` (lore decks 1–7, deck 8 Karn, deck 10 Yawgmoth).
+### PRs (batch 13)
+| PR | Phase | What | Merge commit (CDT) | CI on the exact head |
+|---|---|---|---|---|
+| [#903](https://github.com/corymstover/GrokBotMTGCompanion/pull/903) | 2 | Printed-flavor overlay `data/lore_research/flavor_lore_links_2026-10-30.json` (Scryfall-printed flavor text and attributions, graded PRINTED_FLAVOR, separate from story claims) and a Universes Beyond detection fix for the #899 story overlay | `e6fc27ea` 10:59 CDT | 5/5 pass on `9ec36708` |
+| [#904](https://github.com/corymstover/GrokBotMTGCompanion/pull/904) | 4 | L244 relative chronology `scripts/build_relative_chronology.py` → `data/lore_research/relative_chronology_2026-10-30.json` + `research/RELATIVE_CHRONOLOGY_2026-10-30.md`; 8 tests | `1fa2edc9` 11:09 CDT | 5/5 pass |
+| [#905](https://github.com/corymstover/GrokBotMTGCompanion/pull/905) | 4 | Pack A genealogy dispute matrix `scripts/build_pack_a_dispute_matrix.py` → `data/lore_research/pack_a_genealogy_disputes_2026-10-30.json` + `research/PACK_A_GENEALOGY_DISPUTES_2026-10-30.md`; 7 tests | `74a810a4` 11:11 CDT | 5/5 pass |
+| [#906](https://github.com/corymstover/GrokBotMTGCompanion/pull/906) | 8 | L291 sweep: committed copy of the active snapshot manifest + `scripts/audit_snapshot_manifests.py` → `data/scryfall_snapshots/manifest_audit_2026-10-30.json`; 4 tests | `01c315c6` 11:12 CDT | 2/2 pass (path-filtered workflows) |
+| this PR | 1/8 | workflow v2.41, `data/release/batch_recount_2026-10-30_b13.json` (15/15), this handoff | (this PR) | — |
+
+### Results
+- **(1) Printed flavor (#903):**
+  - **23 FLAVOR_LINKED**, 6 FLAVOR_NAME_ONLY and 11 FLAVOR_SPEAKER_CHARACTER (the speaker is the card's own character). 1,282 non-UB cards stay NO_LORE_YET.
+  - The UB fix corrected the story overlay to **208 LINKED / 1 ART_ONLY / 2,626 NO_LORE_YET**. Of the 2,626, 1,304 are Universes Beyond (never matched) and 1,322 have no official-text match.
+  - card_enrichment.json is untouched.
+- **(2) L244 chronology (#904):**
+  - A partial order built only from verbatim official quotes. Inputs are before/after statements, spans relative to each page's own story present, and the AR scene headers printed in *The Brothers' War* (28/44/63/64/69/85/4562 AR, each regex-verified on the page).
+  - 42 events, 14 story presents (never merged across pages), 47 stated edges, 6 derived only from printed AR labels, 0 cycles.
+  - 155 of 1,946 pairs are ordered, across 12 disconnected chains. Claims placed: A 15/48, B 7/18, C 10/107.
+  - **L244 stays unchecked.** The 7 gaps in `l244_closure.missing`:
+    - story presents on different pages are not anchored to each other;
+    - Pack A primordial, Meditation Realm, WAR and TDM claims lack ordering quotes;
+    - spans are open-ended;
+    - Eldrazi spans conflict (5,000 vs >6,000 years);
+    - Pack B has Thran/Yawgmoth/Mishra gaps;
+    - C2–C4 have no AR dates and the Weatherlight Saga novels are not ingested;
+    - 7 cited A/B pages are uncached.
+- **(3) Pack A disputes (#905):**
+  - 7 disputes and 23 hash-checked quotes, each tagged by voice (EDITORIAL / NARRATOR_UGIN / NARRATOR_BOLAS / STORY_NARRATION / CHARACTER_DIALOGUE) and stance.
+  - Only **GD1 (twins)** has an official answer: Wizards editorial and third-person narration call them twins.
+  - GD2–GD7 are open and each records the reason: Ur-Dragon parentage of the twins is never stated; the Piru survivor conflict; Vaevictis descendants rest on one framed chapter; the Crosis generation is unstated; Darigaaz's parent is unstated; Chromium's banishment and murder are unordered.
+  - A Darigaaz–Rith sibling claim is proposed but not applied. No grades were changed. Owner cells are blank.
+- **Sweep (#906):**
+  - The active manifest is now in-repo. All 3 files match the release asset bytes and the local sha256.
+  - L291 stays open, because the Oct 28 `printing_lore` baseline has a hash but no bytes (L151).
+  - Other non-owner open items need external sources or are ongoing upkeep (see the consolidated table).
+
+### Discoveries
+- The #899 overlay marked at least one Universes Beyond card as LINKED (Peter Parker). The UB flag was being read wrongly; #903 fixed it and the UB count rose from 600 to 1,304.
+- *The Brothers' War* story pages print AR scene headers. They are the only in-universe numeric dates that are safe to compare.
+- Official sources disagree on the Eldrazi imprisonment span ("5,000 years" in *Stone and Blood* vs "over 6,000 years ago"). Recorded, not resolved.
+- Bolas's in-story "Of course that's not right!" is the only voice contesting the twin relationship, and it is ambiguous about which part it denies.
+- Two editorial biographies give Chromium different ends (banished by Dakkon in MH2; murdered with Tevesh Szat's involvement in CMR). No source orders the two.
+- A regex with nested `[^.]*` groups hung on the 626-page cache; sentence splitting is the safe pattern.
+
+### Status (keep distinct)
+- Research: PRELIMINARY_RESEARCH. Tests: full suite green locally on each branch (exit code checked) and on merged main `01c315c6` (507 tests, OK, rc=0). CI is green on each merged exact head; recount 15/15.
+- Merged: #903–#906. Owner approved / certified: nothing. Protected-path diff vs `dfc8891d`: empty.
+
+## Consolidated status for ChatGPT / Cory (as of Batch 13 close)
+
+Checklist counts come from `MTG_MULTIVERSE_MASTER_WORKFLOW.md` v2.41 (checked / unchecked). A checked box means engineering verified, never owner approval. Nothing in this repo is owner-certified except the approvals files already in `data/lore_decks/approvals/` (lore decks 1–7, deck 8 Karn, deck 10 Yawgmoth).
 
 | Phase | Checked | Open | Open items (workflow line) |
 |---|---|---|---|
 | 1 Card database | 10 | 0 | — |
 | 1B Set & Printing Atlas | 38 | 9 | **Blocked** L151 (original Oct 28 bulk unavailable), L157 (`fbb`/`4bb` need Wizards docs), L180 2 curated + 11 draft/starter codes, L181 11 older boxed codes (all need first-party Wizards evidence); QUALIFIED (not ticked): L193 field drift, L195 premier census, L198 street dates, L199 no AR years, L200 per-card canon |
-| 2 Lore enrichment | 5 | 4 | L211 refetch/strict audit in future envs; L214 depictions/flavor links (partial; L213 done: 205 of 2,835 linked); L215 keep unsupported unresolved; L216 expand inventory + integrity re-run |
-| 3 Relationship graph | 4 | 2 | L220 entity-structure audit; L222 dated relationships (partial: 32 edges carry verbatim in-universe phrases) |
-| 4 Foundational packs | 9 | 5 | L231 Pack A complete; L235 Elder Dragon War genealogy/roster; L236 Pack B; L237 Pack C; L244 dossiers published but in publication order, not verified chronology |
+| 2 Lore enrichment | 5 | 4 | L211 refetch/strict audit in future envs; L214 depictions/flavor links (partial; L213 done: 208 of 2,835 story-linked, plus 23 printed-flavor links, 1,304 UB excluded); L215 keep unsupported unresolved; L216 expand inventory + integrity re-run |
+| 3 Relationship graph | 4 | 2 | L220 entity-structure audit; L222 dated relationships (partial: 33 claim edges carry verbatim in-universe date phrases per the b13 recount) |
+| 4 Foundational packs | 9 | 5 | L231 Pack A complete; L235 Elder Dragon War genealogy/roster (owner evidence matrix in #905; 6 of 7 disputes open); L236 Pack B; L237 Pack C; L244 dossiers published, plus a quote-gated relative chronology (#904); not closed, gaps listed in `l244_closure.missing` |
 | 5 Full history | 0 | 8 | L248–L255, all partial; coverage inventory now 626/626 cited-or-reviewed (L255) — the boxes stay open because "exhaustive" and "ongoing upkeep" are not finishable claims |
 | 6 Deckbuilder | 4 | 10 | L259–L264 engine features; L265/L267/L269 Pilots 1–3 (proposals built and merged as UNAPPROVED, **owner approval required**); L272 preserve the 62 approved decks |
 | 7 Q&A companion | 2 | 5 | L276 lookups; L277 set questions; L278 lore/chronology; L280 integrated recommendations; L281 hard query tests (partial) |
-| 8 Release & upkeep | 0 | 7 | L286 CI checks; L288 monitor releases; L290 rebuild atlas; L291 snapshot bytes/hashes; L292 honest tracker; L293 milestone definition; L295 maintenance track |
+| 8 Release & upkeep | 0 | 7 | L286 CI checks; L288 monitor releases; L290 rebuild atlas; L291 snapshot bytes/hashes (partial: the active manifest is verified in #906; the Oct 28 baseline has no bytes); L292 honest tracker; L293 milestone definition; L295 maintenance track |
 | Release definition | 0 | 7 | L320–L326; L324 ("one complete, **reviewed** lore-first deck") is owner-only |
 
 ### Owner-only items (only Cory can close these)
