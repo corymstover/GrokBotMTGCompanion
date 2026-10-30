@@ -1,0 +1,701 @@
+{
+  "schema": "multiverse-claim-pack/v1",
+  "pack_id": "pack_c4_march_of_the_machine",
+  "evidence_cutoff": "2026-10-30",
+  "status": "PRELIMINARY_RESEARCH (not owner approved, not certified)",
+  "scope": "Targeted claim extraction from the 10 official 'March of the Machine' main-story episodes (Magic Story, 2023-03-16 through 2023-03-28). Each claim has verbatim evidence quotes, checked against the local official story cache by scripts/audit_lore_pack_c4.py.",
+  "source_register": {
+    "mom_ep01": {
+      "title": "March of the Machine | Episode 1: Triumph of the Fleshless",
+      "url": "https://magic.wizards.com/en/news/magic-story/episode-1-triumph-of-the-fleshless",
+      "kind": "official_story_episode",
+      "perspective": "Wizards of the Coast (official Magic Story)",
+      "published": "2023-03-16"
+    },
+    "mom_ep02": {
+      "title": "March of the Machine | Episode 2: Holding Your Breath",
+      "url": "https://magic.wizards.com/en/news/magic-story/episode-2-holding-your-breath",
+      "kind": "official_story_episode",
+      "perspective": "Wizards of the Coast (official Magic Story)",
+      "published": "2023-03-16"
+    },
+    "mom_ep03": {
+      "title": "March of the Machine | Episode 3: Mother, Son, and Story",
+      "url": "https://magic.wizards.com/en/news/magic-story/episode-3-mother-son-and-story",
+      "kind": "official_story_episode",
+      "perspective": "Wizards of the Coast (official Magic Story)",
+      "published": "2023-03-17"
+    },
+    "mom_ep04": {
+      "title": "March of the Machine | Episode 4: Beneath Eyes Unblinking",
+      "url": "https://magic.wizards.com/en/news/magic-story/episode-4-beneath-eyes-unblinking",
+      "kind": "official_story_episode",
+      "perspective": "Wizards of the Coast (official Magic Story)",
+      "published": "2023-03-17"
+    },
+    "mom_ep05": {
+      "title": "March of the Machine | Episode 5: Cathartic Reunion",
+      "url": "https://magic.wizards.com/en/news/magic-story/episode-5-cathartic-reunion",
+      "kind": "official_story_episode",
+      "perspective": "Wizards of the Coast (official Magic Story)",
+      "published": "2023-03-21"
+    },
+    "mom_ep06": {
+      "title": "March of the Machine | Episode 6: The Last to Leave",
+      "url": "https://magic.wizards.com/en/news/magic-story/episode-6-the-last-to-leave",
+      "kind": "official_story_episode",
+      "perspective": "Wizards of the Coast (official Magic Story)",
+      "published": "2023-03-23"
+    },
+    "mom_ep07": {
+      "title": "March of the Machine | Episode 7: Divine Intervention",
+      "url": "https://magic.wizards.com/en/news/magic-story/episode-7-divine-intervention",
+      "kind": "official_story_episode",
+      "perspective": "Wizards of the Coast (official Magic Story)",
+      "published": "2023-03-23"
+    },
+    "mom_ep08": {
+      "title": "March of the Machine | Episode 8: Wrenn and Eight",
+      "url": "https://magic.wizards.com/en/news/magic-story/episode-8-wrenn-and-eight",
+      "kind": "official_story_episode",
+      "perspective": "Wizards of the Coast (official Magic Story)",
+      "published": "2023-03-24"
+    },
+    "mom_ep09": {
+      "title": "March of the Machine | Episode 9: The Old Sins of New Phyrexia",
+      "url": "https://magic.wizards.com/en/news/magic-story/episode-9-the-old-sins-of-new-phyrexia",
+      "kind": "official_story_episode",
+      "perspective": "Wizards of the Coast (official Magic Story)",
+      "published": "2023-03-28"
+    },
+    "mom_ep10": {
+      "title": "March of the Machine | Episode 10: The Rhythms of Life",
+      "url": "https://magic.wizards.com/en/news/magic-story/episode-10-the-rhythms-of-life",
+      "kind": "official_story_episode",
+      "perspective": "Wizards of the Coast (official Magic Story)",
+      "published": "2023-03-28"
+    }
+  },
+  "entities": [
+    {
+      "id": "elesh_norn",
+      "type": "Character",
+      "name": "Elesh Norn"
+    },
+    {
+      "id": "sheoldred",
+      "type": "Character",
+      "name": "Sheoldred"
+    },
+    {
+      "id": "ajani",
+      "type": "Character",
+      "name": "Ajani"
+    },
+    {
+      "id": "lukka",
+      "type": "Character",
+      "name": "Lukka"
+    },
+    {
+      "id": "tamiyo",
+      "type": "Character",
+      "name": "Tamiyo"
+    },
+    {
+      "id": "nahiri",
+      "type": "Character",
+      "name": "Nahiri"
+    },
+    {
+      "id": "atraxa",
+      "type": "Character",
+      "name": "Atraxa"
+    },
+    {
+      "id": "nashi",
+      "type": "Character",
+      "name": "Nashi"
+    },
+    {
+      "id": "the_wanderer",
+      "type": "Character",
+      "name": "The Wanderer (Emperor of Kamigawa)"
+    },
+    {
+      "id": "chandra_nalaar",
+      "type": "Character",
+      "name": "Chandra Nalaar"
+    },
+    {
+      "id": "liliana_vess",
+      "type": "Character",
+      "name": "Liliana Vess"
+    },
+    {
+      "id": "nissa_revane",
+      "type": "Character",
+      "name": "Nissa Revane"
+    },
+    {
+      "id": "elspeth_tirel",
+      "type": "Character",
+      "name": "Elspeth Tirel"
+    },
+    {
+      "id": "jin_gitaxias",
+      "type": "Character",
+      "name": "Jin-Gitaxias"
+    },
+    {
+      "id": "koth",
+      "type": "Character",
+      "name": "Koth"
+    },
+    {
+      "id": "wrenn",
+      "type": "Character",
+      "name": "Wrenn"
+    },
+    {
+      "id": "teferi",
+      "type": "Character",
+      "name": "Teferi"
+    },
+    {
+      "id": "karn",
+      "type": "Character",
+      "name": "Karn"
+    },
+    {
+      "id": "melira",
+      "type": "Character",
+      "name": "Melira"
+    },
+    {
+      "id": "ikoria",
+      "type": "Plane",
+      "name": "Ikoria"
+    },
+    {
+      "id": "kamigawa",
+      "type": "Plane",
+      "name": "Kamigawa"
+    },
+    {
+      "id": "zendikar",
+      "type": "Plane",
+      "name": "Zendikar"
+    },
+    {
+      "id": "theros",
+      "type": "Plane",
+      "name": "Theros"
+    },
+    {
+      "id": "new_capenna",
+      "type": "Plane",
+      "name": "New Capenna"
+    },
+    {
+      "id": "new_phyrexia",
+      "type": "Plane",
+      "name": "New Phyrexia"
+    },
+    {
+      "id": "zhalfir",
+      "type": "Place",
+      "name": "Zhalfir"
+    }
+  ],
+  "claims": [
+    {
+      "id": "MOM001",
+      "subject": "elesh_norn",
+      "predicate": "ordered_execution_of",
+      "object": "sheoldred",
+      "grade": "CANON_CONFIRMED",
+      "event_stage": "mom_invasion_2023",
+      "source_ids": [
+        "mom_ep01"
+      ],
+      "evidence": [
+        {
+          "source_id": "mom_ep01",
+          "quote": "Phyrexia no longer has a place for those who crave power over unity. Ajani—execute her."
+        }
+      ],
+      "summary": "Elesh Norn orders Ajani to execute the captured Sheoldred.",
+      "limitation": ""
+    },
+    {
+      "id": "MOM002",
+      "subject": "ajani",
+      "predicate": "executed",
+      "object": "sheoldred",
+      "grade": "CANON_IMPLIED",
+      "event_stage": "mom_invasion_2023",
+      "source_ids": [
+        "mom_ep01"
+      ],
+      "evidence": [
+        {
+          "source_id": "mom_ep01",
+          "quote": "Whatever her screaming protest may be, it's lost in the swift descent of the axe."
+        },
+        {
+          "source_id": "mom_ep01",
+          "quote": "Sheoldred's head bounces to a stop at her feet, smearing black ichor across the porcelain floor."
+        }
+      ],
+      "summary": "Sheoldred is beheaded in Norn's sanctum immediately after Norn orders Ajani to execute her.",
+      "limitation": "The quoted lines do not name who swings the axe; the attribution to Ajani follows from Norn's order in the preceding paragraph."
+    },
+    {
+      "id": "MOM003",
+      "subject": "lukka",
+      "predicate": "sent_to_invade",
+      "object": "ikoria",
+      "grade": "CANON_CONFIRMED",
+      "event_stage": "mom_invasion_2023",
+      "source_ids": [
+        "mom_ep01"
+      ],
+      "evidence": [
+        {
+          "source_id": "mom_ep01",
+          "quote": "\"Very well,\" she says. \"Go to Ikoria. Add these monsters to our ranks. But do understand what the price of failure is, Lukka, and don't forget your true home."
+        }
+      ],
+      "summary": "Elesh Norn sends the compleated Lukka to Ikoria to add its monsters to Phyrexia's ranks.",
+      "limitation": ""
+    },
+    {
+      "id": "MOM004",
+      "subject": "tamiyo",
+      "predicate": "sent_to_invade",
+      "object": "kamigawa",
+      "grade": "CANON_CONFIRMED",
+      "event_stage": "mom_invasion_2023",
+      "source_ids": [
+        "mom_ep01"
+      ],
+      "evidence": [
+        {
+          "source_id": "mom_ep01",
+          "quote": "\"See that whatever it is, you eradicate it,\" Norn says. \"There can be no space for it. Return with Kamigawa under your control or be recycled into something that serves better.\""
+        }
+      ],
+      "summary": "Elesh Norn commands the compleated Tamiyo to bring Kamigawa under Phyrexian control.",
+      "limitation": "The addressee is identified by the preceding paragraphs ('Tamiyo,' Norn repeats), not inside the quote."
+    },
+    {
+      "id": "MOM005",
+      "subject": "nahiri",
+      "predicate": "born_on",
+      "object": "zendikar",
+      "grade": "CANON_CONFIRMED",
+      "event_stage": "mom_invasion_2023",
+      "source_ids": [
+        "mom_ep01"
+      ],
+      "evidence": [
+        {
+          "source_id": "mom_ep01",
+          "quote": "Tell us—Nahiri, where is it you were born?\""
+        },
+        {
+          "source_id": "mom_ep01",
+          "quote": "\"Zendikar,\" she says. \"Many lifetimes ago, I was born on Zendikar.\""
+        }
+      ],
+      "summary": "The compleated Nahiri tells Norn she was born on Zendikar, her assigned homeland.",
+      "limitation": ""
+    },
+    {
+      "id": "MOM006",
+      "subject": "ajani",
+      "predicate": "sent_to_invade",
+      "object": "theros",
+      "grade": "CANON_IMPLIED",
+      "event_stage": "mom_invasion_2023",
+      "source_ids": [
+        "mom_ep01"
+      ],
+      "evidence": [
+        {
+          "source_id": "mom_ep01",
+          "quote": "\"This danger—is that why you sent Ajani to Theros, as well?\""
+        }
+      ],
+      "summary": "Atraxa's question to Norn indicates Ajani was sent to Theros.",
+      "limitation": "Stated within Atraxa's question, not by the narrator; Ajani's activity on Theros is not modelled from Episode 6 here."
+    },
+    {
+      "id": "MOM007",
+      "subject": "atraxa",
+      "predicate": "led_invasion_of",
+      "object": "new_capenna",
+      "grade": "CANON_CONFIRMED",
+      "event_stage": "mom_invasion_2023",
+      "source_ids": [
+        "mom_ep01",
+        "mom_ep04"
+      ],
+      "evidence": [
+        {
+          "source_id": "mom_ep01",
+          "quote": "\"Third: there exists a danger to New Phyrexia. In killing New Capenna, we strike at her heart.\""
+        },
+        {
+          "source_id": "mom_ep04",
+          "quote": "From the second Atraxa arrived, New Capenna drew its nails down her pristine carapace."
+        },
+        {
+          "source_id": "mom_ep04",
+          "quote": "Still, Elesh Norn appointed her to lead these forces, which means she can strike down beauty here, if she pleases."
+        }
+      ],
+      "summary": "Norn assigns Atraxa to destroy New Capenna, and Atraxa leads the Phyrexian forces there.",
+      "limitation": ""
+    },
+    {
+      "id": "MOM008",
+      "subject": "liliana_vess",
+      "predicate": "sheltered",
+      "object": "chandra_nalaar",
+      "grade": "CANON_IMPLIED",
+      "event_stage": "mom_invasion_2023",
+      "source_ids": [
+        "mom_ep02"
+      ],
+      "evidence": [
+        {
+          "source_id": "mom_ep02",
+          "quote": "For two weeks they'll wait here in one of Liliana's cabins on Dominaria."
+        },
+        {
+          "source_id": "mom_ep02",
+          "quote": "Chandra had no idea Liliana even knew so many wards."
+        }
+      ],
+      "summary": "Chandra waits out two weeks in one of Liliana's warded cabins on Dominaria.",
+      "limitation": "'They' in the first quote is the group in the scene; the precise membership is not restated in the quote."
+    },
+    {
+      "id": "MOM009",
+      "subject": "the_wanderer",
+      "predicate": "struck_down",
+      "object": "tamiyo",
+      "grade": "CANON_CONFIRMED",
+      "event_stage": "mom_invasion_2023",
+      "source_ids": [
+        "mom_ep03"
+      ],
+      "evidence": [
+        {
+          "source_id": "mom_ep03",
+          "quote": "\"Were you watching closely? Before I struck, Tamiyo mouthed something.\""
+        },
+        {
+          "source_id": "mom_ep03",
+          "quote": "Tamiyo's voice does not drift up from the pile of metal the emperor struck down, but from right among them."
+        }
+      ],
+      "summary": "The emperor of Kamigawa strikes down the compleated Tamiyo.",
+      "limitation": "That 'the emperor' is the Wanderer is supported by the scene's alternation of the two names; Tamiyo's voice afterwards is described as coming from among them (the story unending), which this claim does not interpret."
+    },
+    {
+      "id": "MOM010",
+      "subject": "tamiyo",
+      "predicate": "mother_of",
+      "object": "nashi",
+      "grade": "CANON_CONFIRMED",
+      "event_stage": "mom_invasion_2023",
+      "source_ids": [
+        "mom_ep03"
+      ],
+      "evidence": [
+        {
+          "source_id": "mom_ep03",
+          "quote": "The emperor bows her head with grief. \"Your mother will live on in your memory, and the stories you tell of her.\""
+        },
+        {
+          "source_id": "mom_ep03",
+          "quote": "Peace lasts until they hear Nashi's mother calling for him."
+        }
+      ],
+      "summary": "Tamiyo is Nashi's mother; the emperor consoles Nashi after Tamiyo falls.",
+      "limitation": ""
+    },
+    {
+      "id": "MOM011",
+      "subject": "chandra_nalaar",
+      "predicate": "refused",
+      "object": "nissa_revane",
+      "grade": "CANON_CONFIRMED",
+      "event_stage": "mom_invasion_2023",
+      "source_ids": [
+        "mom_ep05"
+      ],
+      "evidence": [
+        {
+          "source_id": "mom_ep05",
+          "quote": "Nissa holds out her hand. \"Please, come with us. I miss you.\""
+        },
+        {
+          "source_id": "mom_ep05",
+          "quote": "\"I miss you, too,\" Chandra says. Tears burn at her eyes. \"I miss you so much. But I can't. I'm sorry.\""
+        }
+      ],
+      "summary": "Chandra refuses the compleated Nissa's offer to join Phyrexia, and they fight.",
+      "limitation": ""
+    },
+    {
+      "id": "MOM012",
+      "subject": "elspeth_tirel",
+      "predicate": "reborn_as",
+      "object": "Winged angelic form",
+      "grade": "CANON_CONFIRMED",
+      "event_stage": "mom_invasion_2023",
+      "source_ids": [
+        "mom_ep06",
+        "mom_ep07"
+      ],
+      "evidence": [
+        {
+          "source_id": "mom_ep06",
+          "quote": "What an odd sensation it is to be reborn—to feel yourself being stripped away and changed. The wings on her back are heavy as plate mail, yet she cannot remember a time she was ever without them."
+        },
+        {
+          "source_id": "mom_ep07",
+          "quote": "Yet this is Elspeth as Karn has never seen her: flanked by radiant golden wings."
+        }
+      ],
+      "summary": "Elspeth is reborn with wings in Episode 6 and appears to Karn winged in Episode 7.",
+      "limitation": "Where the rebirth takes place, and the identity of the woman who forges her is not asserted here."
+    },
+    {
+      "id": "MOM013",
+      "subject": "elspeth_tirel",
+      "predicate": "intervened_against",
+      "object": "jin_gitaxias",
+      "grade": "CANON_CONFIRMED",
+      "event_stage": "mom_invasion_2023",
+      "source_ids": [
+        "mom_ep07"
+      ],
+      "evidence": [
+        {
+          "source_id": "mom_ep07",
+          "quote": "Jin-Gitaxias raises an arm to strike."
+        },
+        {
+          "source_id": "mom_ep07",
+          "quote": "An angel in gleaming armor, a golden blade now raised to counter Jin-Gitaxias's strike."
+        },
+        {
+          "source_id": "mom_ep07",
+          "quote": "When the light fades, Elspeth Tirel stands in the center of the crater."
+        }
+      ],
+      "summary": "Elspeth, described as an angel in gleaming armor, arrives to stop Jin-Gitaxias striking Koth.",
+      "limitation": ""
+    },
+    {
+      "id": "MOM014",
+      "subject": "elspeth_tirel",
+      "predicate": "fought",
+      "object": "elesh_norn",
+      "grade": "CANON_CONFIRMED",
+      "event_stage": "mom_invasion_2023",
+      "source_ids": [
+        "mom_ep07"
+      ],
+      "evidence": [
+        {
+          "source_id": "mom_ep07",
+          "quote": "With all her problems concentrated in one place, Elspeth at last unleashes a ray of light."
+        },
+        {
+          "source_id": "mom_ep07",
+          "quote": "She does not hear Jin-Gitaxias get to his feet—but she does hear Norn's scream."
+        }
+      ],
+      "summary": "Elspeth battles Elesh Norn on the way to Realmbreaker.",
+      "limitation": "Norn survives this fight (she is killed in Episode 9, see MOM017)."
+    },
+    {
+      "id": "MOM015",
+      "subject": "wrenn",
+      "predicate": "opened_portal_to",
+      "object": "zhalfir",
+      "grade": "CANON_IMPLIED",
+      "event_stage": "mom_invasion_2023",
+      "source_ids": [
+        "mom_ep08"
+      ],
+      "evidence": [
+        {
+          "source_id": "mom_ep08",
+          "quote": "Wrenn closes her eyes and does what she does best: she grows."
+        },
+        {
+          "source_id": "mom_ep08",
+          "quote": "The portal that springs up before the gathered warriors of Zhalfir would put a mountain to shame."
+        }
+      ],
+      "summary": "Wrenn's growth through Realmbreaker opens a portal between New Phyrexia and Zhalfir.",
+      "limitation": "The quotes juxtapose Wrenn's act and the portal; they do not say in one sentence that Wrenn made it. Wrenn's death is not asserted: the text says only that she is dying."
+    },
+    {
+      "id": "MOM016",
+      "subject": "zhalfir",
+      "predicate": "fought",
+      "object": "new_phyrexia",
+      "grade": "CANON_CONFIRMED",
+      "event_stage": "mom_invasion_2023",
+      "source_ids": [
+        "mom_ep08"
+      ],
+      "evidence": [
+        {
+          "source_id": "mom_ep08",
+          "quote": "The gathered armies of New Phyrexia pour through the gate and freeze, in confusion and horror."
+        },
+        {
+          "source_id": "mom_ep08",
+          "quote": "It has been many years since they were called to war—but Zhalfir stands ready."
+        }
+      ],
+      "summary": "Zhalfir's armies meet the New Phyrexian forces at the portal.",
+      "limitation": ""
+    },
+    {
+      "id": "MOM017",
+      "subject": "karn",
+      "predicate": "killed",
+      "object": "elesh_norn",
+      "grade": "CANON_CONFIRMED",
+      "event_stage": "mom_invasion_2023",
+      "source_ids": [
+        "mom_ep09"
+      ],
+      "evidence": [
+        {
+          "source_id": "mom_ep09",
+          "quote": "As his magic works on Norn's body, tearing porcelain from wire, he is filled with an animal revulsion."
+        },
+        {
+          "source_id": "mom_ep09",
+          "quote": "When it is done—when Elesh Norn is a red smear against the white platform—Karn walks to the gate."
+        }
+      ],
+      "summary": "Karn destroys Elesh Norn's body himself.",
+      "limitation": ""
+    },
+    {
+      "id": "MOM018",
+      "subject": "karn",
+      "predicate": "gave_up",
+      "object": "Karn's planeswalker spark",
+      "grade": "CANON_CONFIRMED",
+      "event_stage": "mom_invasion_2023",
+      "source_ids": [
+        "mom_ep10"
+      ],
+      "evidence": [
+        {
+          "source_id": "mom_ep10",
+          "quote": "\"And Karn's going to burn what he's got left of Venser's spark, too."
+        },
+        {
+          "source_id": "mom_ep10",
+          "quote": "What Melira died for, why Karn's given up his spark, why Teferi spent hundreds of years trying to restore his home."
+        }
+      ],
+      "summary": "Karn gives up his spark (what remains of Venser's spark) in the effort to restore compleated planeswalkers.",
+      "limitation": ""
+    },
+    {
+      "id": "MOM019",
+      "subject": "melira",
+      "predicate": "died_restoring",
+      "object": "nissa_revane; ajani",
+      "grade": "CANON_CONFIRMED",
+      "event_stage": "mom_invasion_2023",
+      "source_ids": [
+        "mom_ep10"
+      ],
+      "evidence": [
+        {
+          "source_id": "mom_ep10",
+          "quote": "\"It's going to kill her, doing that,\" Koth says."
+        },
+        {
+          "source_id": "mom_ep10",
+          "quote": "Koth lays Melira down between Ajani and Nissa."
+        },
+        {
+          "source_id": "mom_ep10",
+          "quote": "She, too, begins to glow—a glow which spreads through the Nissa and Ajani."
+        },
+        {
+          "source_id": "mom_ep10",
+          "quote": "It isn't just Melira's death."
+        }
+      ],
+      "summary": "Melira dies working to cleanse the compleated Nissa and Ajani.",
+      "limitation": "Ajani's outcome is not asserted from these quotes; the episode raises doubt that the restoration fully succeeded."
+    },
+    {
+      "id": "MOM020",
+      "subject": "chandra_nalaar",
+      "predicate": "reunited_with",
+      "object": "nissa_revane",
+      "grade": "CANON_CONFIRMED",
+      "event_stage": "mom_invasion_2023",
+      "source_ids": [
+        "mom_ep10"
+      ],
+      "evidence": [
+        {
+          "source_id": "mom_ep10",
+          "quote": "\"I'm right here,\" Chandra says. She presses her lips to Nissa's. \"I'm right here, and I'm not going anywhere.\""
+        }
+      ],
+      "summary": "Chandra and the restored Nissa are reunited on Zhalfir.",
+      "limitation": "Nissa's spark and later status are not asserted here."
+    },
+    {
+      "id": "MOM021",
+      "subject": "teferi",
+      "predicate": "restored",
+      "object": "zhalfir",
+      "grade": "CANON_IMPLIED",
+      "event_stage": "mom_invasion_2023",
+      "source_ids": [
+        "mom_ep10"
+      ],
+      "evidence": [
+        {
+          "source_id": "mom_ep10",
+          "quote": "What Melira died for, why Karn's given up his spark, why Teferi spent hundreds of years trying to restore his home."
+        },
+        {
+          "source_id": "mom_ep10",
+          "quote": "It's worth it to be alive here on Zhalfir."
+        }
+      ],
+      "summary": "Teferi's centuries-long effort to restore his home, Zhalfir, is presented as fulfilled.",
+      "limitation": "The mechanism of Zhalfir's return is not modelled from these quotes."
+    }
+  ],
+  "remaining": [
+    "Targeted extraction, not exhaustive: side stories (March of the Machine: The Aftermath, plane side stories) are not covered",
+    "Episodes 2, 4, 5 and 6 are only lightly modelled (one or two claims each)",
+    "No in-universe AR dates appear in these quotes; none are inferred",
+    "Wrenn's death, Ajani's restoration outcome and Nissa's spark status are not asserted",
+    "Card anchors (e.g., March of the Machine legendary cards) are not yet linked to these claims"
+  ]
+}
