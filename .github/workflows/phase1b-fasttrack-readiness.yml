@@ -1,0 +1,33 @@
+name: Phase 1B fast-track core release readiness
+
+on:
+  push:
+    paths:
+      - 'data/set_atlas/phase1b_fasttrack_readiness_2026-10-29.json'
+      - 'scripts/audit_phase1b_fasttrack.py'
+      - 'tests/test_phase1b_fasttrack.py'
+      - 'MTG_MULTIVERSE_MASTER_WORKFLOW.md'
+      - '.github/workflows/phase1b-fasttrack-readiness.yml'
+  pull_request:
+    paths:
+      - 'data/set_atlas/phase1b_fasttrack_readiness_2026-10-29.json'
+      - 'scripts/audit_phase1b_fasttrack.py'
+      - 'tests/test_phase1b_fasttrack.py'
+      - 'MTG_MULTIVERSE_MASTER_WORKFLOW.md'
+      - '.github/workflows/phase1b-fasttrack-readiness.yml'
+  workflow_dispatch:
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Audit published historical indexes and current released-printing parity
+        run: python3 scripts/audit_phase1b_fasttrack.py
+      - name: Verify fast-track acceptance and preservation of source backlog
+        run: python3 -m unittest discover -s tests -p 'test_phase1b_fasttrack.py' -v
+      - name: Check set/product category metadata without network calls
+        run: python3 scripts/audit_set_product_links.py --check

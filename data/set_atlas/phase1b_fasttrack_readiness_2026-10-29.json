@@ -1,0 +1,131 @@
+{
+  "all_codes": 1062,
+  "as_of": "2026-10-29",
+  "changed_set_counts": {
+    "pf26": {
+      "all_printing_delta": 2,
+      "current_released_english_paper": 14,
+      "english_paper_delta": 2,
+      "historical_released_english_paper": 14
+    },
+    "pw26": {
+      "all_printing_delta": 1,
+      "current_released_english_paper": 17,
+      "english_paper_delta": 1,
+      "historical_released_english_paper": 17
+    },
+    "sds": {
+      "all_printing_delta": 25,
+      "current_released_english_paper": 0,
+      "english_paper_delta": 25,
+      "historical_released_english_paper": 0
+    },
+    "trc": {
+      "all_printing_delta": 121,
+      "current_released_english_paper": 0,
+      "english_paper_delta": 121,
+      "historical_released_english_paper": 0
+    },
+    "trk": {
+      "all_printing_delta": 43,
+      "current_released_english_paper": 0,
+      "english_paper_delta": 49,
+      "historical_released_english_paper": 0
+    }
+  },
+  "current_future_english_paper": 1043,
+  "current_snapshot_english_paper_printings": 107898,
+  "current_snapshot_printing_records": 119701,
+  "exclusive_status_partitions": {
+    "digital_only_released": 62,
+    "future_announced": 10,
+    "released_nondigital_expansion_core": 142,
+    "released_nondigital_other_categories": 848
+  },
+  "explicit_scryfall_parent_set_links": 560,
+  "fasttrack_gate_status": {
+    "32_git_published_index_hashes": "PASS",
+    "category_partition_and_named_source_queue_preservation": "PASS",
+    "complete_set_metadata_and_parent_link_join": "PASS",
+    "english_export_and_all_1062_set_query_acceptance": "PENDING",
+    "exact_cross_snapshot_printing_ID_parity": "UNVERIFIED_requires_source_bytes_or_identified_delta",
+    "lore_to_publication_cross_reference": "PENDING",
+    "newer_future_only_preview_rows_ingested": "NOT_REQUIRED_for_cutoff; current snapshot aggregates retained",
+    "nine_representative_set_lookups_and_black_lotus": "PASS",
+    "premier_and_supplemental_set_category_count_release_labeling": "PENDING",
+    "released_english_paper_per_set_count_parity": "PASS"
+  },
+  "historical_english_paper_printings": 107700,
+  "historical_future_english_paper": 845,
+  "historical_printing_records": 119509,
+  "interpretation": [
+    "All 1,062 set codes have equal released English-paper printing COUNTS at the dated cutoff; this is not a printing-ID equivalence certificate.",
+    "The net 198 additional English-paper printing records belong wholly to future-dated COUNTS relative to the cutoff; all 1,062 released per-set counts are unchanged.",
+    "The 293/848 first-party named-family source-review count measures optional provenance depth for other-category codes, NOT overall Phase 1B completion.",
+    "Never treat 1,062 Scryfall codes or 293 sourced non-mainline product families as a count of regular historical expansion releases."
+  ],
+  "net_english_paper_delta": 198,
+  "net_printing_delta": 192,
+  "non_blocking_other_category_family_research_pending": 555,
+  "policy": "Accelerated core acceptance: preserve individual Wizards family reviews as an optional separate research queue; never infer unsupported official classification",
+  "published_index_files_hash_verified": 32,
+  "released_english_paper_as_of_cutoff": 106855,
+  "released_english_paper_per_set_count_disagreements": [],
+  "schema": 1,
+  "scryfall_product_metadata_codes_joined": 1062,
+  "smoke_queries": [
+    {
+      "code": "lea",
+      "distinct_identities": 290,
+      "released_english_paper": 295
+    },
+    {
+      "code": "leg",
+      "distinct_identities": 310,
+      "released_english_paper": 310
+    },
+    {
+      "code": "c21",
+      "distinct_identities": 329,
+      "released_english_paper": 409
+    },
+    {
+      "code": "40k",
+      "distinct_identities": 286,
+      "released_english_paper": 617
+    },
+    {
+      "code": "pznr",
+      "distinct_identities": 84,
+      "released_english_paper": 153
+    },
+    {
+      "code": "tfin",
+      "distinct_identities": 16,
+      "released_english_paper": 37
+    },
+    {
+      "code": "ydmu",
+      "distinct_identities": 0,
+      "released_english_paper": 0
+    },
+    {
+      "code": "trk",
+      "distinct_identities": 0,
+      "released_english_paper": 0
+    },
+    {
+      "code": "fbb",
+      "distinct_identities": 0,
+      "released_english_paper": 0
+    }
+  ],
+  "source_backed_other_category_families": 293,
+  "source_provenance": {
+    "current_october29_bulk_reverified_now": false,
+    "current_october29_bulk_sha256_from_prior_verified_audit": "008434d5b89f1f2cb47411178d2ab181600faf9cb7ca1c5673422cdec5939595",
+    "historical_index": "105 October 28 printing shards; published 32 index files verified against committed generation hashes",
+    "historical_original_bulk_sha256_recorded_only": "c7c6d738cae2a9419e2120afedba460c4afeaa026bf74ca60e6451d14486d1e2",
+    "historical_source_bulk_bytes_reverified_now": false
+  }
+}
