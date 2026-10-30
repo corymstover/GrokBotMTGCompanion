@@ -7,7 +7,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "scripts"))
 import audit_draft_starter_batch2 as B
-from product_family_lookup import apply_source_overlay
+from product_family_lookup import apply_source_overlay, apply_second_source_overlay, select
 
 
 class SecondBatchTests(unittest.TestCase):
@@ -65,6 +65,13 @@ class SecondBatchTests(unittest.TestCase):
         self.assertEqual(old["wizards_reviewed_examples"], 35)
         self.assertEqual(len([r for r in old["all_848_released_nondigital_other_type_records"]
                               if r["wizards_individual_source_review"]]), 35)
+        after = apply_second_source_overlay(old, self.audit())
+        self.assertEqual(after["wizards_reviewed_examples"], 43)
+        self.assertEqual(after["metadata_only_pending_wizards_individual_review"], 805)
+        self.assertEqual(len(select(after, only_pending=True)), 805)
+        self.assertEqual(len(select(after, cohort="draft_and_starter_variants", only_pending=True)), 13)
+        self.assertTrue(select(after, code="h2r")[0]["wizards_code_explicitly_confirmed"])
+        self.assertFalse(select(after, code="unk")[0]["wizards_code_explicitly_confirmed"])
         self.assertEqual(B.encode(self.audit()), B.encode(self.audit()))
 
 
