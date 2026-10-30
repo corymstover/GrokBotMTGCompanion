@@ -289,3 +289,53 @@ Unchanged: owner review of Pilots 1–3 and the Pack A proposals; `trk`/`trc` ad
 3. A Phase 7 free-text paraphrase suite over the new Batch 6 relations.
 
 Protected-path check: `git diff --stat dfc8891d origin/main -- grixis/ data/grixis/ state/current_deck_overrides.json data/lore_decks/approvals/` is empty after #869.
+
+## Batch 7 — 2026-10-30, merges 06:53–07:18 CDT
+
+Owner request: bulk-close the partial arcs and triage the untagged pages; commit a generating spec script for every pack (including the older KLD/AER, XLN/RIX, AKH/HOU and NEO specs); keep the handoff current because workers are interrupted every 45–60 minutes.
+
+### PRs (batch 7)
+| PR | Phase | What | Merge commit (CDT) | CI on the exact head |
+|---|---|---|---|---|
+| [#871](https://github.com/corymstover/GrokBotMTGCompanion/pull/871) | 5 | Bulk fills: SOI/EMN 21/21, EOE 18/18, AKH/HOU 16/16, SOS 14/14 (29 claims), RF 12/12 (21 claims). New packs: BFZ/OGW (19/19 pages at the time), TDM 14/14, ECL 12/12 (18 claims), BRO extension (`pack_p5_brothers_war`, 9 claims, BRO 10/10). Generating spec scripts for KLD/AER, XLN/RIX, AKH/HOU and NEO plus `tests/test_claim_spec_sources.py` (every spec regenerates byte-for-byte) | `f1735276` (06:53) | 8/8 pass on `b08d1359` |
+| [#872](https://github.com/corymstover/GrokBotMTGCompanion/pull/872) | 5 | 78 untagged pages tagged to arcs via exact-slug alternatives in `scripts/build_primary_sources.py` (only the `arc` column of `data/primary_sources.csv` changed; title-prefix or ≥2 plane/locale mentions inside the set's release window). Side-story packs: ONE 6, MOM 8, OTJ 8, DSK 6, MKM 1, SNC 5, DMU 5 claims. Weak/ambiguous pages deliberately left untagged | `80c4caf7` (07:15) | 8/8 pass on `feef0181` |
+| [#873](https://github.com/corymstover/GrokBotMTGCompanion/pull/873) | 5 | Closes BFZ/OGW (27/27, new `pack_p5_bfz_2015_stories`), DMU (`pack_p5_dominaria_united`), NEO (`pack_p5_neo_side_stories`), DSK, MKM and MOM (Planeswalker's Guide to MOM). Branch updated from main by a normal merge | `676ea40d` (07:18) | 6/6 pass on `8448a3c9` |
+
+Every merge was a normal merge with `--match-head-commit`; no force-push and no admin bypass. Local suites on the #873 head: `tests/` 420 OK, `scripts/` 18 OK, `rebuild.sh` checks all ok.
+
+### Checklist
+- [x] Generating spec script for every Phase 5 pack, including KLD/AER, XLN/RIX, AKH/HOU and NEO, with a byte-for-byte regeneration test
+- [x] 78 untagged pages triaged into arcs, with an evidence rule; ambiguous pages left untagged
+- [x] #873 green on its exact head and merged
+- [ ] Partial arcs filled (13 still partial)
+- [ ] Untagged pages packed (210 of 227 still uncited)
+- [ ] Phase 7 free-text paraphrase suite over the Batch 6/7 relations (next)
+- [ ] Owner review of any Phase 5 pack (none requested or given)
+
+### Coverage (generated, `story_coverage_inventory_2026-10-30.json` on main after #873)
+- 350 of 626 pages cited (195 after Batch 6). 33 arcs: 0 not started, 13 partial, 20 all pages cited. 711 graph claims, 47 claim packs.
+- Graph: 2,887 nodes, 4,537 edges, 0 problems.
+- Claim anchors: 628 of 711 claims anchored, 2,902 anchors (ART_IN_CITED_SOURCE 62, PRINTED_IN_STORY_SET 468, NAMED_PARTICIPANT 2,372).
+- Still partial: BLB 6/8, DFT 6/10, DOM/WAR 12/18, IKO 1/3, KHM 6/13, KLD/AER 14/17, LCI 7/8, MID/VOW 8/19, STX 5/11, THB 1/4, THS 5/19, XLN/RIX 10/17, untagged 17/227.
+
+### Status (keep distinct)
+- **Research:** every `pack_p5_*` pack is PRELIMINARY_RESEARCH: targeted, not exhaustive.
+- **Tests:** green locally and in CI on each exact head.
+- **Merged:** #871–#873.
+- **Owner approved / certified:** nothing new. No approval boxes were checked.
+
+### Discoveries
+- TDM episodes 6/7 use page keys `tdm_e6`/`tdm_e7` because `pack_a5_ugin_allies` already owns `tdm_ep6`/`tdm_ep7` with a different source kind, so that URL has two source nodes.
+- Word counts in `primary_sources.csv` drift when the cache is rescanned, so the triage changed only the `arc` column.
+- Re-tagging moves pages between buckets: BFZ/OGW fell back to PARTIAL (19/27) after the 2015 side stories were tagged, until #873 packed them.
+- `STORY_SETS` should list a pack only where its participants have printings in the set; otherwise PRINTED_IN_STORY_SET is 0 (MOM and DSK side packs are left out).
+
+### Blockers
+Unchanged: owner review of Pilots 1–3 and the Pack A proposals; `trk`/`trc` admission after 2026-11-13; readiness NOT_RELEASE_READY.
+
+### Next steps
+1. Close the 12 remaining partial arcs (smallest gaps first: LCI, BLB, IKO, THB, KLD/AER, DFT, DOM/WAR, STX, XLN/RIX, KHM, MID/VOW, THS).
+2. Pack untagged pages in bulk, and keep tagging only where the evidence rule holds.
+3. Phase 7 free-text paraphrase suite over the new relations; re-run release readiness and Phase 8 checks.
+
+Protected-path check: `git diff --stat dfc8891d origin/main -- grixis/ data/grixis/ state/current_deck_overrides.json data/lore_decks/approvals/` is empty after #873 (main `676ea40d`).
