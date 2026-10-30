@@ -1,0 +1,39 @@
+{
+  "schema": "curated-plane-context-spec/v1",
+  "status": "PRELIMINARY_RESEARCH_NOT_OWNER_APPROVED",
+  "policy": "Only already-source-graded claims from a bounded official plane guide or on-plane story may appear. These associations are curated CONTEXTUAL evidence, never added as direct claim-to-plane graph edges, geography proof for every character appearance, or in-universe chronology.",
+  "entries": [
+    {
+      "plane_id": "plane:eldraine",
+      "pack": "data/lore_research/pack_p5_throne_of_eldraine_2026-10-30.json",
+      "claim_ids": ["EL001", "EL002", "EL003", "EL004", "EL005", "EL006", "EL007", "EL008", "EL009", "EL010"],
+      "basis": "ON_PLANE_GUIDE_WITH_EXPLICIT_PLANE_ENTITY",
+      "scope_note": "These ten stories of the Kenrith family, High Throne, royal courts and leaders are in the official Eldraine plane guide. EL011 already directly touches the Eldraine plane node and is intentionally not duplicated. Some quoted claims contain their author's or an in-world observer's perspective."
+    },
+    {
+      "plane_id": "plane:arcavios",
+      "pack": "data/lore_research/pack_p5_strixhaven_2026-10-30.json",
+      "claim_ids": ["SX001", "SX002", "SX003", "SX004", "SX005", "SX007", "SX008", "SX010", "SX011", "SX013", "SX014", "SX015", "SX016", "SX017", "SX018", "SX019"],
+      "basis": "EXTERNAL_OFFICIAL_STRIXHAVEN_ARCAVIOS_LOCATION_BRIDGE",
+      "official_bridge": {
+        "url": "https://magic.wizards.com/en/news/making-magic/the-rabiah-scale-part-3",
+        "quote": "Arcavios is the plane where Strixhaven University is located."
+      },
+      "scope_note": "The official Strixhaven story cycle occurs at its school on Arcavios. These sixteen specific school, Oriq and student claims are listed only as on-plane story context. SX006 (the Kenrith twins' family fact), SX009 (Lukka and Mila's flight) and SX012 (Zimone's friends) are excluded because they do not by themselves establish Arcavios history. The location bridge is a Wizards designer statement, not an AR-date anchor."
+    },
+    {
+      "plane_id": "plane:new_capenna",
+      "pack": "data/lore_research/pack_p5_streets_of_new_capenna_2026-10-30.json",
+      "claim_ids": ["SN001", "SN002", "SN003", "SN004", "SN005", "SN006", "SN007", "SN008", "SN009", "SN010", "SN011", "SN012", "SN013", "SN014", "SN016"],
+      "basis": "ON_PLANE_STORY_WITH_EXPLICIT_PLANE_ENTITY",
+      "scope_note": "These fifteen claims concern the documented New Capenna crime families, Halo, Giada, Xander, Elspeth and the city's past Phyrexian invasion. SN015 is excluded because it occurs on Dominaria. The Demon Lords' ancient history is attributed to Xander's archived account, not independently certified as a comprehensive world chronicle."
+    },
+    {
+      "plane_id": "plane:lorwyn_shadowmoor",
+      "pack": "data/lore_research/pack_p5_lorwyn_eclipsed_2026-10-30.json",
+      "claim_ids": ["EC001", "EC002", "EC003", "EC004", "EC007", "EC009", "EC010", "EC011", "EC012", "EC015", "EC017", "EC018"],
+      "basis": "ON_PLANE_STORY_WITH_EXPLICIT_PLANE_ENTITY",
+      "scope_note": "These twelve claims from the official Lorwyn Eclipsed guide and story cycle concern local history, residents and the visiting students while there. EC005 and EC016 directly touch the plane and are not duplicated; EC006 and EC008 are set on Arcavios; EC014 only mentions a souvenir later shared elsewhere; EC013 is a storyteller's local folktale rather than verified history. The set and article publication schedule is not an in-universe clock."
+    }
+  ]
+}

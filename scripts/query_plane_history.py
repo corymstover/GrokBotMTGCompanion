@@ -50,6 +50,17 @@ def main(argv=None) -> int:
             print(f"  Limitation: {fact['limitation']}")
         for source in fact['sources']:
             print(f"  Official source: {source['title']} — {source['url']}")
+    if plane.get('contextual_claims'):
+        print(f"\nSEPARATE CURATED ON-PLANE STORY CONTEXT ({len(plane['contextual_claims'])} inherited claims; NOT new direct plane edges):")
+        for fact in plane['contextual_claims']:
+            print(f"\n[{fact['grade']}; CONTEXTUAL] {fact['claim_id']}: {fact['statement']}")
+            for relation in fact['relations']:
+                print(f"  Original relation: {relation['subject']} → {relation['relation']} → {relation['object']}")
+            for source in fact['source_evidence']:
+                print(f"  Original Wizards citation: {source['title']} — {source['url']}")
+            if fact['limitation']:
+                print(f"  Limitation: {fact['limitation']}")
+        print('These claims share a source-verified plane/story context. They are not independent direct plane claims, exact locations for all participants, or chronology links.')
     print('\nLIMITATION: The graph is incomplete; neither the ordering nor the absence of other history is established.')
     return 0
 
