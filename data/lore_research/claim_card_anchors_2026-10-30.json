@@ -32329,6 +32329,204 @@
    "card": "Ruric Thar, the Unbowed",
    "oracle_id": "6ed13a89-4284-4c01-8099-75e2d68c8c63",
    "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MB001",
+   "pack": "pack_p5_untagged_misc_b10_2026-10-30.json",
+   "participant": "alhammarret",
+   "card": "Alhammarret, High Arbiter",
+   "oracle_id": "c2531360-61f8-4edc-886b-408811a0639d",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MB001",
+   "pack": "pack_p5_untagged_misc_b10_2026-10-30.json",
+   "participant": "jace_beleren",
+   "card": "Jace Beleren",
+   "oracle_id": "cc2b6e58-2d6f-495e-95f3-9496105c4cba",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MB003",
+   "pack": "pack_p5_untagged_misc_b10_2026-10-30.json",
+   "participant": "rakdos",
+   "card": "Rakdos the Defiler",
+   "oracle_id": "789bf406-38f0-4888-b2ff-c4a95ac79283",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MB003",
+   "pack": "pack_p5_untagged_misc_b10_2026-10-30.json",
+   "participant": "rakdos",
+   "card": "Rakdos, Lord of Riots",
+   "oracle_id": "143a269a-b9ee-48ba-bd7b-4aa46eb36778",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MB003",
+   "pack": "pack_p5_untagged_misc_b10_2026-10-30.json",
+   "participant": "rakdos",
+   "card": "Rakdos, Patron of Chaos",
+   "oracle_id": "d08ce18a-0fd9-47ac-ad2f-6934b60070f1",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MB003",
+   "pack": "pack_p5_untagged_misc_b10_2026-10-30.json",
+   "participant": "rakdos",
+   "card": "Rakdos, the Muscle",
+   "oracle_id": "e2c141af-925e-42bd-8d83-e1a71f4c9794",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MB003",
+   "pack": "pack_p5_untagged_misc_b10_2026-10-30.json",
+   "participant": "rakdos",
+   "card": "Rakdos, the Showstopper",
+   "oracle_id": "03a4b997-4738-41a9-933f-e1f765e3a75a",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MB004",
+   "pack": "pack_p5_untagged_misc_b10_2026-10-30.json",
+   "participant": "meren",
+   "card": "Meren of Clan Nel Toth",
+   "oracle_id": "0310dfdb-0498-488d-9f1a-279f8239e024",
+   "tier": "ART_IN_CITED_SOURCE",
+   "cited_pages_crediting_art": [
+    "https://magic.wizards.com/en/news/magic-story/all-cairns-jund-2015-11-04"
+   ]
+  },
+  {
+   "claim": "MB005",
+   "pack": "pack_p5_untagged_misc_b10_2026-10-30.json",
+   "participant": "meren",
+   "card": "Meren of Clan Nel Toth",
+   "oracle_id": "0310dfdb-0498-488d-9f1a-279f8239e024",
+   "tier": "ART_IN_CITED_SOURCE",
+   "cited_pages_crediting_art": [
+    "https://magic.wizards.com/en/news/magic-story/all-cairns-jund-2015-11-04"
+   ]
+  },
+  {
+   "claim": "MB006",
+   "pack": "pack_p5_untagged_misc_b10_2026-10-30.json",
+   "participant": "lazav",
+   "card": "Lazav, Dimir Mastermind",
+   "oracle_id": "8027a610-613e-4640-9840-c8778694f312",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MB006",
+   "pack": "pack_p5_untagged_misc_b10_2026-10-30.json",
+   "participant": "lazav",
+   "card": "Lazav, Familiar Stranger",
+   "oracle_id": "ca60623a-1a98-4153-a0ee-2f34981de5cb",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MB006",
+   "pack": "pack_p5_untagged_misc_b10_2026-10-30.json",
+   "participant": "lazav",
+   "card": "Lazav, Wearer of Faces",
+   "oracle_id": "4ec0b64d-c793-47a6-9c26-9ad4d9e9c182",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MB006",
+   "pack": "pack_p5_untagged_misc_b10_2026-10-30.json",
+   "participant": "lazav",
+   "card": "Lazav, the Multifarious",
+   "oracle_id": "c14bcef2-6d49-4430-86d0-e5a87ba442d9",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MB007",
+   "pack": "pack_p5_untagged_misc_b10_2026-10-30.json",
+   "participant": "vraska",
+   "card": "Vraska the Unseen",
+   "oracle_id": "0d2bbce0-8c27-4b82-ab62-51a0c3cfc9b0",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MB007",
+   "pack": "pack_p5_untagged_misc_b10_2026-10-30.json",
+   "participant": "vraska",
+   "card": "Vraska, Betrayal's Sting",
+   "oracle_id": "05d09c55-f551-4cb4-a8d2-4811dccc848d",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MB007",
+   "pack": "pack_p5_untagged_misc_b10_2026-10-30.json",
+   "participant": "vraska",
+   "card": "Vraska, Golgari Queen",
+   "oracle_id": "131096a3-2d53-4ec2-96d3-fcb58e698a13",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MB007",
+   "pack": "pack_p5_untagged_misc_b10_2026-10-30.json",
+   "participant": "vraska",
+   "card": "Vraska, Regal Gorgon",
+   "oracle_id": "7616e834-4852-40c8-9de6-d89f96119f12",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MB007",
+   "pack": "pack_p5_untagged_misc_b10_2026-10-30.json",
+   "participant": "vraska",
+   "card": "Vraska, Relic Seeker",
+   "oracle_id": "3c037103-5af0-40a8-bbbe-7f3f5958b6e9",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MB007",
+   "pack": "pack_p5_untagged_misc_b10_2026-10-30.json",
+   "participant": "vraska",
+   "card": "Vraska, Scheming Gorgon",
+   "oracle_id": "83045a9c-57da-411f-80aa-56178d14856b",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MB007",
+   "pack": "pack_p5_untagged_misc_b10_2026-10-30.json",
+   "participant": "vraska",
+   "card": "Vraska, Soul of Stone",
+   "oracle_id": "cad63b31-667b-4518-bc49-be4ffb82bc63",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MB007",
+   "pack": "pack_p5_untagged_misc_b10_2026-10-30.json",
+   "participant": "vraska",
+   "card": "Vraska, Swarm's Eminence",
+   "oracle_id": "cff8b4e9-c60c-42c1-ad2e-74ae9d7f3afb",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MB007",
+   "pack": "pack_p5_untagged_misc_b10_2026-10-30.json",
+   "participant": "vraska",
+   "card": "Vraska, the Cutting Glare",
+   "oracle_id": "580de511-863c-4b7a-9d2e-fcdf6e12d54b",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MB007",
+   "pack": "pack_p5_untagged_misc_b10_2026-10-30.json",
+   "participant": "vraska",
+   "card": "Vraska, the Silencer",
+   "oracle_id": "e7c5a568-3855-4a20-9edf-01a8a6a4ba97",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MB008",
+   "pack": "pack_p5_untagged_misc_b10_2026-10-30.json",
+   "participant": "zegana",
+   "card": "Zegana, Utopian Speaker",
+   "oracle_id": "04260930-ff38-4b35-9ec4-e89196a4f2c7",
+   "tier": "NAMED_PARTICIPANT"
   }
  ],
  "by_pack": {
@@ -32689,6 +32887,13 @@
    "PRINTED_IN_STORY_SET": 0,
    "NAMED_PARTICIPANT": 110
   },
+  "pack_p5_untagged_misc_b10_2026-10-30.json": {
+   "claims": 8,
+   "claims_anchored": 7,
+   "ART_IN_CITED_SOURCE": 2,
+   "PRINTED_IN_STORY_SET": 0,
+   "NAMED_PARTICIPANT": 22
+  },
   "pack_p5_untagged_nph_guides_2026-10-30.json": {
    "claims": 11,
    "claims_anchored": 8,
@@ -32733,12 +32938,12 @@
   }
  },
  "counts": {
-  "claims": 1001,
-  "claims_anchored": 855,
-  "anchors": 3786,
-  "ART_IN_CITED_SOURCE": 89,
+  "claims": 1009,
+  "claims_anchored": 862,
+  "anchors": 3810,
+  "ART_IN_CITED_SOURCE": 91,
   "PRINTED_IN_STORY_SET": 546,
-  "NAMED_PARTICIPANT": 3151
+  "NAMED_PARTICIPANT": 3173
  },
- "content_sha256": "ed1cc9e976058601c3c80585785e1b2bb094e1fe99c0dd17656e1a22c3ddf8e8"
+ "content_sha256": "c76090695b3ce5e1dad28a9049c94c38a8377b76363f799a5125d5cae8fea17c"
 }

@@ -59,7 +59,8 @@
    "data/lore_research/pack_p5_untagged_isd_guides_2026-10-30.json",
    "data/lore_research/pack_p5_untagged_conspiracy_2016_2026-10-30.json",
    "data/lore_research/pack_p5_untagged_ori_2015_2026-10-30.json",
-   "data/lore_research/pack_p5_untagged_grn_rna_2026-10-30.json"
+   "data/lore_research/pack_p5_untagged_grn_rna_2026-10-30.json",
+   "data/lore_research/pack_p5_untagged_misc_b10_2026-10-30.json"
   ],
   "reviewed_no_claim": "data/lore_research/reviewed_no_claim.json"
  },
@@ -67,13 +68,13 @@
  "totals": {
   "arcs": 33,
   "pages": 626,
-  "cited_pages": 502,
+  "cited_pages": 508,
   "arcs_not_started": 0,
   "arcs_partial": 2,
   "arcs_all_cited": 31,
   "reviewed_no_claim_pages": 40,
   "arcs_all_cited_or_reviewed": 32,
-  "claims": 1001,
+  "claims": 1009,
   "pack_urls_outside_inventory": 12
  },
  "claims_per_pack": {
@@ -133,7 +134,8 @@
   "pack_p5_untagged_isd_guides_2026-10-30.json": 7,
   "pack_p5_untagged_conspiracy_2016_2026-10-30.json": 11,
   "pack_p5_untagged_ori_2015_2026-10-30.json": 12,
-  "pack_p5_untagged_grn_rna_2026-10-30.json": 5
+  "pack_p5_untagged_grn_rna_2026-10-30.json": 5,
+  "pack_p5_untagged_misc_b10_2026-10-30.json": 8
  },
  "arcs": [
   {
@@ -697,7 +699,7 @@
   {
    "arc": "(untagged)",
    "pages": 227,
-   "cited_pages": 105,
+   "cited_pages": 111,
    "kinds": {
     "feature": 9,
     "planeswalkers-guide": 27,
@@ -715,6 +717,7 @@
     "pack_p5_untagged_grn_rna_2026-10-30.json",
     "pack_p5_untagged_isd_guides_2026-10-30.json",
     "pack_p5_untagged_ktk_2026-10-30.json",
+    "pack_p5_untagged_misc_b10_2026-10-30.json",
     "pack_p5_untagged_nph_guides_2026-10-30.json",
     "pack_p5_untagged_ori_2015_2026-10-30.json",
     "pack_p5_untagged_planes_2026-10-30.json",
@@ -726,7 +729,6 @@
     "https://magic.wizards.com/en/news/feature/a-planeswalkers-guide-to-zendikar",
     "https://magic.wizards.com/en/news/feature/a-planeswalkers-guide-to-zendikar-murasa-and-sejiri",
     "https://magic.wizards.com/en/news/feature/behind-black-sun-2013-03-25",
-    "https://magic.wizards.com/en/news/feature/jaces-origin-absent-minds-2015-06-24",
     "https://magic.wizards.com/en/news/feature/known-mutliverse-2008-03-19",
     "https://magic.wizards.com/en/news/feature/naming-nameless-brandon-sanderson-2018-12-12",
     "https://magic.wizards.com/en/news/feature/planeswalkers-guide-dragons-tarkir-part-1-2015-03-11",
@@ -741,8 +743,6 @@
     "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-return-to-ravnica-part-2",
     "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-return-to-ravnica-part-3",
     "https://magic.wizards.com/en/news/feature/rorecas-tale-2008-03-19",
-    "https://magic.wizards.com/en/news/feature/worlds-magic-origins-2015-07-09",
-    "https://magic.wizards.com/en/news/magic-story/all-cairns-jund-2015-11-04",
     "https://magic.wizards.com/en/news/magic-story/an-excerpt-from-strixhaven-omens-of-chaos",
     "https://magic.wizards.com/en/news/magic-story/bard-and-biologist-2014-07-09",
     "https://magic.wizards.com/en/news/magic-story/betrayal-2014-05-14",
@@ -757,7 +757,6 @@
     "https://magic.wizards.com/en/news/magic-story/cowardice-hero-2014-01-22",
     "https://magic.wizards.com/en/news/magic-story/cyan-depths-2021-07-28",
     "https://magic.wizards.com/en/news/magic-story/dead-night-2016-11-30",
-    "https://magic.wizards.com/en/news/magic-story/deaths-precious-moments-2018-11-07",
     "https://magic.wizards.com/en/news/magic-story/deepest-night-2021-07-21",
     "https://magic.wizards.com/en/news/magic-story/devouring-house-2021-11-19",
     "https://magic.wizards.com/en/news/magic-story/doom-golden-fang-2015-02-04",
@@ -796,7 +795,6 @@
     "https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-dragons-tarkir-part-2-2015-03-18",
     "https://magic.wizards.com/en/news/magic-story/poisoned-heart-2015-04-08",
     "https://magic.wizards.com/en/news/magic-story/pride-kraul-2017-05-31",
-    "https://magic.wizards.com/en/news/magic-story/principles-unnatural-selection-2019-02-06",
     "https://magic.wizards.com/en/news/magic-story/project-lightning-bug-2015-05-27",
     "https://magic.wizards.com/en/news/magic-story/scarlet-flames-2021-06-30",
     "https://magic.wizards.com/en/news/magic-story/spirits-of-the-abzan",
@@ -811,7 +809,6 @@
     "https://magic.wizards.com/en/news/magic-story/threadbare-2012-07-23",
     "https://magic.wizards.com/en/news/magic-story/torrent",
     "https://magic.wizards.com/en/news/magic-story/unbowed-part-1-2018-08-29",
-    "https://magic.wizards.com/en/news/magic-story/under-cover-fog-2018-10-10",
     "https://magic.wizards.com/en/news/magic-story/unwritten-2015-01-14",
     "https://magic.wizards.com/en/news/magic-story/veil-deceit-2014-07-01",
     "https://magic.wizards.com/en/news/magic-story/verdant-tomb-2021-07-14",
@@ -851,7 +848,6 @@
     "https://magic.wizards.com/en/news/feature/a-planeswalkers-guide-to-zendikar",
     "https://magic.wizards.com/en/news/feature/a-planeswalkers-guide-to-zendikar-murasa-and-sejiri",
     "https://magic.wizards.com/en/news/feature/behind-black-sun-2013-03-25",
-    "https://magic.wizards.com/en/news/feature/jaces-origin-absent-minds-2015-06-24",
     "https://magic.wizards.com/en/news/feature/known-mutliverse-2008-03-19",
     "https://magic.wizards.com/en/news/feature/planeswalkers-guide-dragons-tarkir-part-1-2015-03-11",
     "https://magic.wizards.com/en/news/feature/planeswalkers-guide-khans-tarkir-part-1-2014-09-03",
@@ -863,8 +859,6 @@
     "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-return-to-ravnica-part-1",
     "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-return-to-ravnica-part-2",
     "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-return-to-ravnica-part-3",
-    "https://magic.wizards.com/en/news/feature/worlds-magic-origins-2015-07-09",
-    "https://magic.wizards.com/en/news/magic-story/all-cairns-jund-2015-11-04",
     "https://magic.wizards.com/en/news/magic-story/an-excerpt-from-strixhaven-omens-of-chaos",
     "https://magic.wizards.com/en/news/magic-story/bard-and-biologist-2014-07-09",
     "https://magic.wizards.com/en/news/magic-story/betrayal-2014-05-14",
@@ -878,7 +872,6 @@
     "https://magic.wizards.com/en/news/magic-story/cogwork-2014-05-28",
     "https://magic.wizards.com/en/news/magic-story/cowardice-hero-2014-01-22",
     "https://magic.wizards.com/en/news/magic-story/dead-night-2016-11-30",
-    "https://magic.wizards.com/en/news/magic-story/deaths-precious-moments-2018-11-07",
     "https://magic.wizards.com/en/news/magic-story/devouring-house-2021-11-19",
     "https://magic.wizards.com/en/news/magic-story/doom-golden-fang-2015-02-04",
     "https://magic.wizards.com/en/news/magic-story/dreams-of-the-damned",
@@ -911,7 +904,6 @@
     "https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-dragons-tarkir-part-2-2015-03-18",
     "https://magic.wizards.com/en/news/magic-story/poisoned-heart-2015-04-08",
     "https://magic.wizards.com/en/news/magic-story/pride-kraul-2017-05-31",
-    "https://magic.wizards.com/en/news/magic-story/principles-unnatural-selection-2019-02-06",
     "https://magic.wizards.com/en/news/magic-story/project-lightning-bug-2015-05-27",
     "https://magic.wizards.com/en/news/magic-story/spirits-of-the-abzan",
     "https://magic.wizards.com/en/news/magic-story/stirring-slumber-2015-05-13",
@@ -925,7 +917,6 @@
     "https://magic.wizards.com/en/news/magic-story/threadbare-2012-07-23",
     "https://magic.wizards.com/en/news/magic-story/torrent",
     "https://magic.wizards.com/en/news/magic-story/unbowed-part-1-2018-08-29",
-    "https://magic.wizards.com/en/news/magic-story/under-cover-fog-2018-10-10",
     "https://magic.wizards.com/en/news/magic-story/unwritten-2015-01-14",
     "https://magic.wizards.com/en/news/magic-story/veil-deceit-2014-07-01",
     "https://magic.wizards.com/en/news/magic-story/way-of-the-mantis",
@@ -935,5 +926,5 @@
    ]
   }
  ],
- "sha256": "6330803bd536ba206257544f6c02fbd1ac36eb6be101d5d246a9184b83005b42"
+ "sha256": "f46ec4cf2d7ad1a45df824c814a39f61cb44e2ce70daaa42eb7ed356051bb643"
 }

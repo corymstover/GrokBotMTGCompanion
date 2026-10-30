@@ -3725,6 +3725,41 @@
    ]
   },
   {
+   "entity": "lazav",
+   "entity_type": "Character",
+   "entity_name": "Lazav",
+   "aliases": [
+    "Lazav"
+   ],
+   "pack": "pack_p5_untagged_misc_b10_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Lazav, Dimir Mastermind",
+     "oracle_id": "8027a610-613e-4640-9840-c8778694f312",
+     "type_line": "Legendary Creature — Shapeshifter",
+     "scryfall_uri": "https://scryfall.com/card/znc/92/lazav-dimir-mastermind"
+    },
+    {
+     "name": "Lazav, Familiar Stranger",
+     "oracle_id": "ca60623a-1a98-4153-a0ee-2f34981de5cb",
+     "type_line": "Legendary Creature — Shapeshifter",
+     "scryfall_uri": "https://scryfall.com/card/otj/216/lazav-familiar-stranger"
+    },
+    {
+     "name": "Lazav, Wearer of Faces",
+     "oracle_id": "4ec0b64d-c793-47a6-9c26-9ad4d9e9c182",
+     "type_line": "Legendary Creature — Shapeshifter Detective",
+     "scryfall_uri": "https://scryfall.com/card/mkm/216/lazav-wearer-of-faces"
+    },
+    {
+     "name": "Lazav, the Multifarious",
+     "oracle_id": "c14bcef2-6d49-4430-86d0-e5a87ba442d9",
+     "type_line": "Legendary Creature — Shapeshifter",
+     "scryfall_uri": "https://scryfall.com/card/mkc/214/lazav-the-multifarious"
+    }
+   ]
+  },
+  {
    "entity": "leinore",
    "entity_type": "Character",
    "entity_name": "Leinore",
@@ -4162,6 +4197,23 @@
      "oracle_id": "b20d74a4-0e08-4779-972a-499f1a2be15a",
      "type_line": "Legendary Artifact Creature — Robot",
      "scryfall_uri": "https://scryfall.com/card/dft/213/mendicant-core-guidelight"
+    }
+   ]
+  },
+  {
+   "entity": "meren",
+   "entity_type": "Character",
+   "entity_name": "Meren of Clan Nel Toth",
+   "aliases": [
+    "Meren of Clan Nel Toth"
+   ],
+   "pack": "pack_p5_untagged_misc_b10_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Meren of Clan Nel Toth",
+     "oracle_id": "0310dfdb-0498-488d-9f1a-279f8239e024",
+     "type_line": "Legendary Creature — Human Shaman",
+     "scryfall_uri": "https://scryfall.com/card/tdc/297/meren-of-clan-nel-toth"
     }
    ]
   },
@@ -7976,6 +8028,7 @@
   "istfell",
   "jarad_vod_savo",
   "jilesa_clarus",
+  "kael",
   "kavaron",
   "kayla_bin_kroog",
   "kela",
@@ -8117,9 +8170,9 @@
   "Urza, Academy Headmaster"
  ],
  "counts": {
-  "entities_anchored": 352,
-  "anchor_edges": 666,
-  "unanchored_entities": 222
+  "entities_anchored": 354,
+  "anchor_edges": 671,
+  "unanchored_entities": 223
  },
- "content_sha256": "22e5cf241877e8fb288032d1515ba431b6a47f956117039e07c47cf27d5f1532"
+ "content_sha256": "5769a5dc5510a26341eab2a32b8ea5305a9325cf60e33eb1f83b3015c56e2ed6"
 }
