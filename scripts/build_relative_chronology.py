@@ -77,6 +77,21 @@ NODES = {
     "C:jaya_first_visit": ("C", "Jaya's first visit to the people who later worship her", []),
     "C:jaya_religion_found": ("C", "Jaya returns and finds a religion based on her", ["RTD029"]),
     "C:teferi_away": ("C", "Teferi's homeland is away (phased out) for hundreds of years", ["RTD024"]),
+    # batch 14: nodes from the pack-cited pages cached into .cache/story/sources and official summary pages
+    "A:tarkir_dragons_die_out": ("A", "Tarkir's dragons die out after Ugin's death ends the dragon tempests (original timeline)", []),
+    "A:sarkhan_born": ("A", "Sarkhan Vol is born (original timeline)", []),
+    "A:sarkhan_first_sees_bolas": ("A", "Sarkhan first lays eyes on Nicol Bolas (his own lifetime)", []),
+    "B:phyrexia_creator_dies": ("B", "Phyrexia's unnamed creator and master dies", []),
+    "B:yawgmoth_to_phyrexia": ("B", "Dyfed takes Yawgmoth to Phyrexia", []),
+    "B:yawgmoth_power_grows": ("B", "Yawgmoth's power grows among the Thran", []),
+    "B:thran_civil_war": ("B", "Yawgmoth plunges the Thran Empire into civil war", []),
+    "B:phyrexia_portal_closed": ("B", "The Dominaria-Phyrexia portal is closed, trapping Yawgmoth", []),
+    "B:thran_defeated": ("B", "The Thran are defeated", []),
+    "C:weatherlight_to_rath": ("C", "The Weatherlight travels to Rath to rescue Sisay", []),
+    "C:weatherlight_mercadia": ("C", "The Weatherlight crew ends up on Mercadia", []),
+    "C:rath_overlay": ("C", "Rath is laid over Dominaria, beginning the Phyrexian invasion", []),
+    "C:planeswalker_war_close": ("C", "Close of the Planeswalker War; Dihada leaves Dominaria", []),
+    "C:urza_final_spell": ("C", "Urza's final powerful spell all but ends the Phyrexian invasion", []),
 }
 # story-present nodes: one per source page (never merged)
 PRESENTS = {
@@ -94,6 +109,8 @@ PRESENTS = {
     "P:bro_ep5": "the-brothers-war-episode-5-as-cruel-as-necessary",
     "P:bro_ch1": "the-brothers-war-chapter-1-stronghold",
     "P:mom_ep10": "episode-10-the-rhythms-of-life",
+    "P:bro_product_page": "products/the-brothers-war",
+    "P:death_and_salvation": "death-and-salvation-2022-08-16",
 }
 
 # ---- curated stated orderings: (earlier, later, kind, page-key, quote, note) ----
@@ -195,6 +212,55 @@ EDGES = [
      "Two hundred years later, I went back and found they'd started a religion based on me.", "Jaya speaking; interval two hundred years."),
     ("C:teferi_away", "P:mom_ep10", "SPAN_BEFORE_PRESENT:hundreds of years", "episode-10-the-rhythms-of-life",
      "why Teferi spent hundreds of years trying to restore his home", ""),
+    # ---- batch 14: newly cached pack-cited pages (.cache/story/sources) ----
+    ("A:tarkir_duel", "A:tarkir_dragons_die_out", "STATED_BEFORE", "reforged-chain-2015-01-21",
+     "Ugin's death ended Tarkir's dragon tempests, which wiped out dragons on Tarkir long before Sarkhan was born",
+     "Original (pre-alteration) timeline as Sarkhan understands it; Ugin's death is the duel's outcome."),
+    ("A:tarkir_dragons_die_out", "A:sarkhan_born", "STATED_BEFORE", "reforged-chain-2015-01-21",
+     "which wiped out dragons on Tarkir long before Sarkhan was born", "Original timeline; 'long before' is open-ended."),
+    ("A:tarkir_duel", "A:sarkhan_first_sees_bolas", "STATED_BEFORE", "reforged-chain-2015-01-21",
+     "Now that he saw Bolas again, a thousand years before he had laid eyes on him for the first time",
+     "Interval stated as 'a thousand years'; the scene is the duel-era Tarkir past."),
+    ("A:sarkhan_change", "A:sarkhan_returns_present", "STATED_BEFORE", "reforged-chain-2015-01-21",
+     "as his actions had irrevocably changed the conditions that had led to the nexus of a dead dragon Planeswalker in this chasm",
+     "Pluperfect clause in the sentence that ends 'temporal forces whisked Sarkhan away' on the same page."),
+    ("B:last_battle_sylex", "P:bro_product_page", "SPAN_BEFORE_PRESENT:many centuries ago", "products/the-brothers-war",
+     "The Sylex was activated once, many centuries ago, but it remained hidden until now.",
+     "Official product page; its 'now' is its own story present, never merged with the BRO episodes."),
+    # ---- batch 14: official Wizards summary pages of the novel-era story (no novel text) ----
+    ("B:phyrexia_creator_dies", "B:yawgmoth_to_phyrexia", "STATED_BEFORE", "known-mutliverse-2008-03-19",
+     "the planeswalker Dyfed took Yawgmoth to Phyrexia shortly after its creator and master had died",
+     "The Known Multiverse (2008) summary of the Thran novel."),
+    ("B:thran_rule", "B:yawgmoth_to_phyrexia", "STATED_DURING", "known-mutliverse-2008-03-19",
+     "During the decline of the Thran Empire on Dominaria, the planeswalker Dyfed took Yawgmoth to Phyrexia",
+     "'During the decline' of Thran rule."),
+    ("B:yawgmoth_power_grows", "B:thran_civil_war", "STATED_BEFORE", "legendary-characters-commander-legends-part-1-2020-10-30",
+     "Unknowingly, she helped Yawgmoth's power grow, and eventually, he plunged the Thran Empire into civil war",
+     "Rebbec entry; 'eventually'."),
+    ("B:phyrexia_portal_closed", "B:thran_defeated", "STATED_BEFORE", "known-mutliverse-2008-03-19",
+     "The Thran were defeated, but not before the portal was closed, trapping Yawgmoth and the Phyrexians in their plane.",
+     "'not before' = the closing precedes the defeat."),
+    ("C:weatherlight_to_rath", "C:rath_overlay", "STATED_BEFORE", "known-mutliverse-2008-03-19",
+     "The skyship Weatherlight and its crew traveled to Rath to rescue the ship's captain Sisay. Later, when the Phyrexian aggression began in earnest",
+     "'Later'."),
+    ("C:phyrexian_invasion_1", "C:rath_overlay", "STATED_DURING", "known-mutliverse-2008-03-19",
+     "Rath's purpose was fulfilled as it was laid over Dominaria like a sickly skin",
+     "The page says the overlay began the Phyrexian invasion."),
+    ("C:weatherlight_to_rath", "C:weatherlight_mercadia", "STATED_BEFORE", "known-mutliverse-2008-03-19",
+     "Gerrard and the crew of the Weatherlight ended up in this plane after blindly flinging themselves from Rath.",
+     "'after'."),
+    ("C:planeswalker_war_close", "C:phyrexian_invasion_1", "STATED_BEFORE", "returning-legends-modern-horizons-2-2021-06-10",
+     "Dihada left Dominaria at the close of the Planeswalker War, a few years prior to the Phyrexian Invasion.",
+     "'a few years prior'."),
+    ("C:phyrexian_invasion_1", "C:urza_final_spell", "STATED_DURING", "return-dominaria-episode-3-2018-03-28",
+     "Urza's final powerful spell had all but ended the Phyrexian invasion",
+     "The spell is at the invasion's end."),
+    ("C:urza_final_spell", "P:rtd_ep3", "SPAN_BEFORE_PRESENT:so long since", "return-dominaria-episode-3-2018-03-28",
+     "It had been so long since Urza's final powerful spell had all but ended the Phyrexian invasion",
+     "Open-ended span."),
+    ("C:phyrexian_invasion_1", "P:death_and_salvation", "SPAN_BEFORE_PRESENT:nearly four hundred years ago", "death-and-salvation-2022-08-16",
+     "Squee had helped some of Dominaria's greatest heroes repel invading Phyrexian forces nearly four hundred years ago",
+     "Squee's backstory; the invading forces are the Invasion-era Phyrexians on Dominaria."),
 ]
 
 
@@ -206,7 +272,15 @@ def norm(s: str) -> str:
 def load_pages():
     sys.path.insert(0, str(ROOT / "scripts"))
     import build_card_lore_links as b
-    return b.load_pages()
+    pages = b.load_pages()
+    # pack-cited official pages fetched by scripts/fetch_pack_source_pages.py (metadata in
+    # data/lore_research/pack_source_cache_provenance_2026-10-30.json; bodies stay in the untracked cache)
+    for f in sorted((ROOT / ".cache" / "story" / "sources").glob("*.txt")):
+        text = f.read_text(encoding="utf-8")
+        m = re.match(r"URL: (\S+)", text)
+        if m and f.stem not in pages:
+            pages[f.stem] = {"url": m.group(1), "arc": "", "dir": "sources", "text": text}
+    return pages
 
 
 def find_page(pages, key):
@@ -335,9 +409,9 @@ MISSING = [
     "Pack A's primordial and early-lives claims (A001, A002, A004, A013) and the Meditation Realm/War of the Spark/Dragonstorm sequence (A007-A012, U010-U016) have no ordering quote in the cached pages beyond publication order.",
     "Many spans are open-ended ('over a thousand', 'centuries', 'many years', 'hundreds of years'), so they cannot order events even against the same present; e.g. the Eldrazi near-escape vs the imprisonment is not orderable from spans alone.",
     "Conflicting spans for the Eldrazi imprisonment: 'five thousand years ago' (Stone and Blood, Sorin's view) vs 'more than 6,000 years ago' (The Lithomancer) vs 'Six thousand years ago'/'over 6,000 years ago' elsewhere; both are recorded, none chosen.",
-    "Pack B: The Thran, Yawgmoth's origin and the Mishra corruption sequence lack stated orderings beyond 'once ruled' and 'millennia-long vendetta'; the three B-pack card-story/product pages are not in the cache.",
-    "Pack C: C2/C3/C4 episodes print no AR dates; the Weatherlight Saga (novels) is not ingested, so Invasion → Yawgmoth's end → Old Phyrexia destroyed has no ordering quote; the cross-reference 'Karn built by Urza' links C to B only by identity, not by a dated edge.",
-    "Seven Pack A/B source pages (reforged_chain, nexus_design, journey_nexus, war_games, m19/dmu notes, bro_card_stories_1/2, bro_product_page) are not in the story cache, so their orderings were not checked.",
+    "Pack B: The Thran, Yawgmoth's origin and the Mishra corruption sequence lack stated orderings beyond 'once ruled' and 'millennia-long vendetta'. Batch 14 added The Known Multiverse (2008) and Commander Legends summaries, but they yield only isolated pairs (portal closed before the Thran defeat; Yawgmoth's growing power before the civil war) that are not tied to Urza's lifetime. The cached B-pack card-story pages are real-world design history (no in-universe orderings).",
+    "Pack C: C2/C3/C4 episodes print no AR dates; novel text is deliberately not ingested (copyright). Official summary pages now give Rath → Mercadia, the Rath overlay beginning the invasion, the Planeswalker War's close 'a few years prior', and Urza's final spell ending it, but no official summary found states the order of Yawgmoth's destruction or Old Phyrexia's decimation relative to these (BLOCKER: needs an official recap page); the cross-reference 'Karn built by Urza' links C to B only by identity, not by a dated edge.",
+    "Batch 14 cached the previously uncached pack-cited pages (scripts/fetch_pack_source_pages.py; 10 URLs, metadata in pack_source_cache_provenance_2026-10-30.json). Only The Reforged Chain and the BRO product page contained in-universe ordering statements; the M19/DMU release notes, Nexus/War Games/M19 design articles and BRO card stories did not tie to existing nodes (M19's 'Ages before recorded history' has no anchor node). In CI the cache is absent, so only --check runs there.",
 ]
 
 
