@@ -1,0 +1,62 @@
+{
+ "schema": "story-claim-pipeline-audit/v1",
+ "pack": "data/lore_research/pack_p5_untagged_maelstrom_2007_2026-10-30.json",
+ "pack_status": "PRELIMINARY_RESEARCH (not owner approved, not certified)",
+ "arc": "",
+ "claims": 5,
+ "entities": 7,
+ "sources": 2,
+ "grades": {
+  "CANON_CONFIRMED": 3,
+  "CANON_IMPLIED": 2
+ },
+ "quotes": 7,
+ "quotes_verbatim": 7,
+ "quote_rows": [
+  {
+   "claim": "ML001",
+   "source_id": "ml_mael",
+   "quote_sha256": "a7cc36cbf8991953e5a634aa84735a15769245056b867ac67714638e04bd0971",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "ML002",
+   "source_id": "ml_torr",
+   "quote_sha256": "7c845f9d9f42d9d9686d6e934cfdd67580a24d9a866af05c7edfa6ca9eede8ec",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "ML003",
+   "source_id": "ml_torr",
+   "quote_sha256": "33c06babdf2556e4be39c552ce060c62cd202a2695202f08ca156059020a349d",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "ML003",
+   "source_id": "ml_torr",
+   "quote_sha256": "2f7f3e31f97b19fbdf2a630843db258db099f1b97dc51b371588cefb575ab4b1",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "ML004",
+   "source_id": "ml_mael",
+   "quote_sha256": "767403ea4396ba1007841477ad11b8cfd71c206b8d3edea6785b4f861550bccf",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "ML004",
+   "source_id": "ml_torr",
+   "quote_sha256": "9a899112fcd36d14f121f923c7c6dafe69000db37ca87f196dca55b985ca26b6",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "ML005",
+   "source_id": "ml_torr",
+   "quote_sha256": "de15c3202bd3c500e23fb05a2b40596ef452502a9a6c58bb1271747ec2e38b95",
+   "status": "VERBATIM"
+  }
+ ],
+ "problems": [],
+ "note": "Verbatim-quote audit against cached official Wizards story text. Research evidence only: not owner approval, not certification, not an exhaustive reading.",
+ "content_sha256": "7c316c3cfa04142b179a6fdd280870b37bc406699b4879f3dcfb846e89a7f9f8"
+}

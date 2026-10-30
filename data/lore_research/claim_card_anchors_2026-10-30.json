@@ -32527,6 +32527,406 @@
    "card": "Zegana, Utopian Speaker",
    "oracle_id": "04260930-ff38-4b35-9ec4-e89196a4f2c7",
    "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "GD001",
+   "pack": "pack_p5_untagged_guides_2012_2026-10-30.json",
+   "participant": "niv_mizzet",
+   "card": "Niv-Mizzet Reborn",
+   "oracle_id": "10764b35-5c6c-4161-8579-1124d5963a0e",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "GD001",
+   "pack": "pack_p5_untagged_guides_2012_2026-10-30.json",
+   "participant": "niv_mizzet",
+   "card": "Niv-Mizzet, Dracogenius",
+   "oracle_id": "899d58dc-60b2-4013-9f91-c1888c585d66",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "GD001",
+   "pack": "pack_p5_untagged_guides_2012_2026-10-30.json",
+   "participant": "niv_mizzet",
+   "card": "Niv-Mizzet, Ghost Counsel",
+   "oracle_id": "a5350327-e84c-44b6-8359-87882e521048",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "GD001",
+   "pack": "pack_p5_untagged_guides_2012_2026-10-30.json",
+   "participant": "niv_mizzet",
+   "card": "Niv-Mizzet, Guildpact",
+   "oracle_id": "46570366-5e58-40b7-b725-833321a3b7b1",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "GD001",
+   "pack": "pack_p5_untagged_guides_2012_2026-10-30.json",
+   "participant": "niv_mizzet",
+   "card": "Niv-Mizzet, Parun",
+   "oracle_id": "33666a98-812f-4892-9f8d-33e0cbecc340",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "GD001",
+   "pack": "pack_p5_untagged_guides_2012_2026-10-30.json",
+   "participant": "niv_mizzet",
+   "card": "Niv-Mizzet, Supreme",
+   "oracle_id": "4c3a865a-88b1-43e0-b326-17c45670da54",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "GD001",
+   "pack": "pack_p5_untagged_guides_2012_2026-10-30.json",
+   "participant": "niv_mizzet",
+   "card": "Niv-Mizzet, Visionary",
+   "oracle_id": "d9f1dc61-831e-4244-a2da-aa9da6fd5b50",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "GD001",
+   "pack": "pack_p5_untagged_guides_2012_2026-10-30.json",
+   "participant": "niv_mizzet",
+   "card": "Niv-Mizzet, the Firemind",
+   "oracle_id": "959acb66-84ca-4535-bca2-ad591895735e",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "GD002",
+   "pack": "pack_p5_untagged_guides_2012_2026-10-30.json",
+   "participant": "niv_mizzet",
+   "card": "Niv-Mizzet Reborn",
+   "oracle_id": "10764b35-5c6c-4161-8579-1124d5963a0e",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "GD002",
+   "pack": "pack_p5_untagged_guides_2012_2026-10-30.json",
+   "participant": "niv_mizzet",
+   "card": "Niv-Mizzet, Dracogenius",
+   "oracle_id": "899d58dc-60b2-4013-9f91-c1888c585d66",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "GD002",
+   "pack": "pack_p5_untagged_guides_2012_2026-10-30.json",
+   "participant": "niv_mizzet",
+   "card": "Niv-Mizzet, Ghost Counsel",
+   "oracle_id": "a5350327-e84c-44b6-8359-87882e521048",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "GD002",
+   "pack": "pack_p5_untagged_guides_2012_2026-10-30.json",
+   "participant": "niv_mizzet",
+   "card": "Niv-Mizzet, Guildpact",
+   "oracle_id": "46570366-5e58-40b7-b725-833321a3b7b1",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "GD002",
+   "pack": "pack_p5_untagged_guides_2012_2026-10-30.json",
+   "participant": "niv_mizzet",
+   "card": "Niv-Mizzet, Parun",
+   "oracle_id": "33666a98-812f-4892-9f8d-33e0cbecc340",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "GD002",
+   "pack": "pack_p5_untagged_guides_2012_2026-10-30.json",
+   "participant": "niv_mizzet",
+   "card": "Niv-Mizzet, Supreme",
+   "oracle_id": "4c3a865a-88b1-43e0-b326-17c45670da54",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "GD002",
+   "pack": "pack_p5_untagged_guides_2012_2026-10-30.json",
+   "participant": "niv_mizzet",
+   "card": "Niv-Mizzet, Visionary",
+   "oracle_id": "d9f1dc61-831e-4244-a2da-aa9da6fd5b50",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "GD002",
+   "pack": "pack_p5_untagged_guides_2012_2026-10-30.json",
+   "participant": "niv_mizzet",
+   "card": "Niv-Mizzet, the Firemind",
+   "oracle_id": "959acb66-84ca-4535-bca2-ad591895735e",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "GD003",
+   "pack": "pack_p5_untagged_guides_2012_2026-10-30.json",
+   "participant": "trostani",
+   "card": "Trostani Discordant",
+   "oracle_id": "9a2fdc0e-e0de-47fc-95e4-04e725ddf060",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "GD003",
+   "pack": "pack_p5_untagged_guides_2012_2026-10-30.json",
+   "participant": "trostani",
+   "card": "Trostani, Selesnya's Voice",
+   "oracle_id": "e94ef397-f5c5-4b8d-ae27-528352fa1d1e",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "GD003",
+   "pack": "pack_p5_untagged_guides_2012_2026-10-30.json",
+   "participant": "trostani",
+   "card": "Trostani, Three Whispers",
+   "oracle_id": "5c90b951-826e-4595-aacc-958904f3f794",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "GD005",
+   "pack": "pack_p5_untagged_guides_2012_2026-10-30.json",
+   "participant": "isperia",
+   "card": "Isperia the Inscrutable",
+   "oracle_id": "7aa39b85-6646-4365-99c3-9de31ab0594f",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "GD005",
+   "pack": "pack_p5_untagged_guides_2012_2026-10-30.json",
+   "participant": "isperia",
+   "card": "Isperia, Supreme Judge",
+   "oracle_id": "c46718dc-24dc-4b77-b455-aa4c89570b8d",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "GD006",
+   "pack": "pack_p5_untagged_guides_2012_2026-10-30.json",
+   "participant": "szadek",
+   "card": "Szadek, Lord of Secrets",
+   "oracle_id": "c40c823c-5954-457a-81a6-02683da57f7f",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "GD007",
+   "pack": "pack_p5_untagged_guides_2012_2026-10-30.json",
+   "participant": "lazav",
+   "card": "Lazav, Dimir Mastermind",
+   "oracle_id": "8027a610-613e-4640-9840-c8778694f312",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "GD007",
+   "pack": "pack_p5_untagged_guides_2012_2026-10-30.json",
+   "participant": "lazav",
+   "card": "Lazav, Familiar Stranger",
+   "oracle_id": "ca60623a-1a98-4153-a0ee-2f34981de5cb",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "GD007",
+   "pack": "pack_p5_untagged_guides_2012_2026-10-30.json",
+   "participant": "lazav",
+   "card": "Lazav, Wearer of Faces",
+   "oracle_id": "4ec0b64d-c793-47a6-9c26-9ad4d9e9c182",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "GD007",
+   "pack": "pack_p5_untagged_guides_2012_2026-10-30.json",
+   "participant": "lazav",
+   "card": "Lazav, the Multifarious",
+   "oracle_id": "c14bcef2-6d49-4430-86d0-e5a87ba442d9",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "GD008",
+   "pack": "pack_p5_untagged_guides_2012_2026-10-30.json",
+   "participant": "aurelia",
+   "card": "Aurelia, Exemplar of Justice",
+   "oracle_id": "2e1e0385-1537-4cb6-9d24-e4593d9a8f4a",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "GD008",
+   "pack": "pack_p5_untagged_guides_2012_2026-10-30.json",
+   "participant": "aurelia",
+   "card": "Aurelia, the Law Above",
+   "oracle_id": "2a800427-ff8c-4b3c-baee-85211b70656d",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "GD008",
+   "pack": "pack_p5_untagged_guides_2012_2026-10-30.json",
+   "participant": "aurelia",
+   "card": "Aurelia, the Warleader",
+   "oracle_id": "0f5a3a09-2f07-4774-9e0f-e99d9a444166",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "GD009",
+   "pack": "pack_p5_untagged_guides_2012_2026-10-30.json",
+   "participant": "razia",
+   "card": "Razia, Boros Archangel",
+   "oracle_id": "d830a136-6fb9-42e7-81f1-97e1d713ee82",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "GD010",
+   "pack": "pack_p5_untagged_guides_2012_2026-10-30.json",
+   "participant": "feather",
+   "card": "Feather, Radiant Arbiter",
+   "oracle_id": "957413ae-e756-4afe-886a-b57bf59d5f8d",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "GD010",
+   "pack": "pack_p5_untagged_guides_2012_2026-10-30.json",
+   "participant": "feather",
+   "card": "Feather, the Redeemed",
+   "oracle_id": "aa219936-661b-4ccb-8741-78b70cff2b1a",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "GD011",
+   "pack": "pack_p5_untagged_guides_2012_2026-10-30.json",
+   "participant": "zegana",
+   "card": "Zegana, Utopian Speaker",
+   "oracle_id": "04260930-ff38-4b35-9ec4-e89196a4f2c7",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "GD012",
+   "pack": "pack_p5_untagged_guides_2012_2026-10-30.json",
+   "participant": "borborygmos",
+   "card": "Borborygmos",
+   "oracle_id": "9ab0820b-4f5f-47b3-8fa9-43f802aed275",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "GD012",
+   "pack": "pack_p5_untagged_guides_2012_2026-10-30.json",
+   "participant": "borborygmos",
+   "card": "Borborygmos Enraged",
+   "oracle_id": "b7505737-1fc8-4ee8-8b1d-5dde73b6a76d",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "GD013",
+   "pack": "pack_p5_untagged_guides_2012_2026-10-30.json",
+   "participant": "gisela",
+   "card": "Gisela, Blade of Goldnight",
+   "oracle_id": "66f9f325-5e8e-4ebf-b5b3-c6410d80f2c5",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "GD013",
+   "pack": "pack_p5_untagged_guides_2012_2026-10-30.json",
+   "participant": "gisela",
+   "card": "Gisela, the Broken Blade",
+   "oracle_id": "f3e23d5e-bd88-4e7c-a3fb-db2a8cb05b22",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "ML001",
+   "pack": "pack_p5_untagged_maelstrom_2007_2026-10-30.json",
+   "participant": "volrath",
+   "card": "Volrath the Fallen",
+   "oracle_id": "4e11c838-68a7-4c97-b064-a46833cf1d2f",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "ML001",
+   "pack": "pack_p5_untagged_maelstrom_2007_2026-10-30.json",
+   "participant": "volrath",
+   "card": "Volrath, the Shapestealer",
+   "oracle_id": "a70d8e3d-a62d-4c4c-890b-e502e48c4475",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "ML002",
+   "pack": "pack_p5_untagged_maelstrom_2007_2026-10-30.json",
+   "participant": "starke",
+   "card": "Starke of Rath",
+   "oracle_id": "07bc407e-7ba1-45aa-a562-0597ebe56044",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "ML002",
+   "pack": "pack_p5_untagged_maelstrom_2007_2026-10-30.json",
+   "participant": "volrath",
+   "card": "Volrath the Fallen",
+   "oracle_id": "4e11c838-68a7-4c97-b064-a46833cf1d2f",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "ML002",
+   "pack": "pack_p5_untagged_maelstrom_2007_2026-10-30.json",
+   "participant": "volrath",
+   "card": "Volrath, the Shapestealer",
+   "oracle_id": "a70d8e3d-a62d-4c4c-890b-e502e48c4475",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "ML002",
+   "pack": "pack_p5_untagged_maelstrom_2007_2026-10-30.json",
+   "participant": "maraxus",
+   "card": "Maraxus of Keld",
+   "oracle_id": "af4b67c5-53dc-4e4d-9ec4-fa51cc3cd49a",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "ML003",
+   "pack": "pack_p5_untagged_maelstrom_2007_2026-10-30.json",
+   "participant": "starke",
+   "card": "Starke of Rath",
+   "oracle_id": "07bc407e-7ba1-45aa-a562-0597ebe56044",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "ML003",
+   "pack": "pack_p5_untagged_maelstrom_2007_2026-10-30.json",
+   "participant": "sisay",
+   "card": "Captain Sisay",
+   "oracle_id": "2e7a9ea9-f76c-4c12-950f-c613fa16cfa8",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "ML004",
+   "pack": "pack_p5_untagged_maelstrom_2007_2026-10-30.json",
+   "participant": "sisay",
+   "card": "Captain Sisay",
+   "oracle_id": "2e7a9ea9-f76c-4c12-950f-c613fa16cfa8",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "ML004",
+   "pack": "pack_p5_untagged_maelstrom_2007_2026-10-30.json",
+   "participant": "weatherlight",
+   "card": "Weatherlight",
+   "oracle_id": "73b3682f-396a-4ebe-aaac-6ce3ee36283a",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "ML005",
+   "pack": "pack_p5_untagged_maelstrom_2007_2026-10-30.json",
+   "participant": "starke",
+   "card": "Starke of Rath",
+   "oracle_id": "07bc407e-7ba1-45aa-a562-0597ebe56044",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "ML005",
+   "pack": "pack_p5_untagged_maelstrom_2007_2026-10-30.json",
+   "participant": "gerrard",
+   "card": "Gerrard Capashen",
+   "oracle_id": "27521e70-3a1f-4819-a111-c38216ffe7c3",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "ML005",
+   "pack": "pack_p5_untagged_maelstrom_2007_2026-10-30.json",
+   "participant": "gerrard",
+   "card": "Gerrard, Weatherlight Hero",
+   "oracle_id": "8a1e8435-16f2-475b-a8a9-7b9f0cf4594a",
+   "tier": "NAMED_PARTICIPANT"
   }
  ],
  "by_pack": {
@@ -32873,6 +33273,13 @@
    "PRINTED_IN_STORY_SET": 0,
    "NAMED_PARTICIPANT": 10
   },
+  "pack_p5_untagged_guides_2012_2026-10-30.json": {
+   "claims": 13,
+   "claims_anchored": 12,
+   "ART_IN_CITED_SOURCE": 0,
+   "PRINTED_IN_STORY_SET": 0,
+   "NAMED_PARTICIPANT": 37
+  },
   "pack_p5_untagged_isd_guides_2026-10-30.json": {
    "claims": 7,
    "claims_anchored": 5,
@@ -32886,6 +33293,13 @@
    "ART_IN_CITED_SOURCE": 12,
    "PRINTED_IN_STORY_SET": 0,
    "NAMED_PARTICIPANT": 110
+  },
+  "pack_p5_untagged_maelstrom_2007_2026-10-30.json": {
+   "claims": 5,
+   "claims_anchored": 5,
+   "ART_IN_CITED_SOURCE": 0,
+   "PRINTED_IN_STORY_SET": 0,
+   "NAMED_PARTICIPANT": 13
   },
   "pack_p5_untagged_misc_b10_2026-10-30.json": {
    "claims": 8,
@@ -32938,12 +33352,12 @@
   }
  },
  "counts": {
-  "claims": 1009,
-  "claims_anchored": 862,
-  "anchors": 3810,
+  "claims": 1027,
+  "claims_anchored": 879,
+  "anchors": 3860,
   "ART_IN_CITED_SOURCE": 91,
   "PRINTED_IN_STORY_SET": 546,
-  "NAMED_PARTICIPANT": 3173
+  "NAMED_PARTICIPANT": 3223
  },
- "content_sha256": "c76090695b3ce5e1dad28a9049c94c38a8377b76363f799a5125d5cae8fea17c"
+ "content_sha256": "86b5ce59ab43b5fefe6024af97ca48ab73977e7e12ecf67b1043a0d45f040afd"
 }
