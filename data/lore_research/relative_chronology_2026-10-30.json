@@ -1,0 +1,1659 @@
+{
+  "schema": "relative-chronology/v1",
+  "status": "PRELIMINARY_RESEARCH",
+  "as_of": "2026-10-30",
+  "basis": "Only orderings stated verbatim on cached official Wizards pages; printed AR scene headers; transitivity. No invented years; story presents are never merged.",
+  "counts": {
+    "nodes": 63,
+    "event_nodes": 42,
+    "story_present_nodes": 14,
+    "printed_ar_labels": 7,
+    "stated_edges": 47,
+    "derived_edges": 6,
+    "comparable_pairs": 155,
+    "total_pairs": 1946,
+    "components": 12,
+    "cycles": 0
+  },
+  "families": {
+    "A": {
+      "event_nodes": 13,
+      "stated_edges": 17,
+      "claims_placed": [
+        "A003",
+        "A005",
+        "A006",
+        "A016",
+        "A017",
+        "A020",
+        "A021",
+        "A024",
+        "A025",
+        "A026",
+        "A028",
+        "U001",
+        "U005",
+        "U007",
+        "U008"
+      ],
+      "claims_total": 48
+    },
+    "B": {
+      "event_nodes": 14,
+      "stated_edges": 16,
+      "claims_placed": [
+        "B007",
+        "B008",
+        "B009",
+        "B011",
+        "B013",
+        "B014",
+        "B015"
+      ],
+      "claims_total": 18
+    },
+    "C": {
+      "event_nodes": 15,
+      "stated_edges": 15,
+      "claims_placed": [
+        "C004",
+        "C005",
+        "C006",
+        "C007",
+        "C011",
+        "C014",
+        "C019",
+        "RTD007",
+        "RTD024",
+        "RTD029"
+      ],
+      "claims_total": 107
+    }
+  },
+  "nodes": [
+    {
+      "id": "A:bolas_returns_madara",
+      "kind": "EVENT",
+      "family": "A",
+      "label": "Bolas falls back into Dominaria at Madara (Perspectives narration)",
+      "claims": [
+        {
+          "id": "A003",
+          "pack": "pack_a_ugin_bolas_evidence",
+          "grade": "CANON_DISPUTED"
+        }
+      ]
+    },
+    {
+      "id": "A:dihada_binds_piru",
+      "kind": "EVENT",
+      "family": "A",
+      "label": "Geyadrone Dihada binds Piru and Chromium against Dakkon",
+      "claims": [
+        {
+          "id": "A020",
+          "pack": "pack_a_elder_dragon_war_extension",
+          "grade": "CANON_CONFIRMED"
+        },
+        {
+          "id": "A021",
+          "pack": "pack_a_elder_dragon_war_extension",
+          "grade": "CANON_CONFIRMED"
+        }
+      ]
+    },
+    {
+      "id": "A:elder_dragon_war",
+      "kind": "EVENT",
+      "family": "A",
+      "label": "The Elder Dragon War(s)",
+      "claims": [
+        {
+          "id": "A017",
+          "pack": "pack_a_elder_dragon_war_extension",
+          "grade": "CANON_CONFIRMED"
+        },
+        {
+          "id": "A016",
+          "pack": "pack_a_elder_dragon_war_extension",
+          "grade": "CANON_CONFIRMED"
+        }
+      ]
+    },
+    {
+      "id": "A:eldrazi_imprisoned",
+      "kind": "EVENT",
+      "family": "A",
+      "label": "Ugin, Sorin and Nahiri imprison the Eldrazi on Zendikar",
+      "claims": [
+        {
+          "id": "U001",
+          "pack": "pack_a5_ugin_allies",
+          "grade": "CANON_CONFIRMED"
+        }
+      ]
+    },
+    {
+      "id": "A:eldrazi_near_escape",
+      "kind": "EVENT",
+      "family": "A",
+      "label": "The Eldrazi nearly escape; neither Sorin nor Ugin comes",
+      "claims": [
+        {
+          "id": "U005",
+          "pack": "pack_a5_ugin_allies",
+          "grade": "CANON_CONFIRMED"
+        }
+      ]
+    },
+    {
+      "id": "A:nahiri_slumber",
+      "kind": "EVENT",
+      "family": "A",
+      "label": "Nahiri's slumber while warden of Zendikar",
+      "claims": []
+    },
+    {
+      "id": "A:primeval_rule",
+      "kind": "EVENT",
+      "family": "A",
+      "label": "The five Primeval Dragons (incl. Rith) rule Dominaria",
+      "claims": [
+        {
+          "id": "A024",
+          "pack": "pack_a_elder_dragon_war_extension",
+          "grade": "CANON_CONFIRMED"
+        }
+      ]
+    },
+    {
+      "id": "A:sarkhan_change",
+      "kind": "EVENT",
+      "family": "A",
+      "label": "Sarkhan's change to Tarkir's history (saves Ugin in the past)",
+      "claims": [
+        {
+          "id": "A006",
+          "pack": "pack_a_ugin_bolas_evidence",
+          "grade": "CANON_CONFIRMED"
+        },
+        {
+          "id": "A025",
+          "pack": "pack_a_tarkir_card_scenes",
+          "grade": "CANON_CONFIRMED"
+        },
+        {
+          "id": "A028",
+          "pack": "pack_a_tarkir_card_scenes",
+          "grade": "CANON_CONFIRMED"
+        }
+      ]
+    },
+    {
+      "id": "A:sarkhan_returns_present",
+      "kind": "EVENT",
+      "family": "A",
+      "label": "Sarkhan is ripped back to his (altered) present",
+      "claims": []
+    },
+    {
+      "id": "A:sorin_wakes_ugin",
+      "kind": "EVENT",
+      "family": "A",
+      "label": "Sorin wakes Ugin (as Ugin recounts)",
+      "claims": [
+        {
+          "id": "U007",
+          "pack": "pack_a5_ugin_allies",
+          "grade": "CANON_CONFIRMED"
+        }
+      ]
+    },
+    {
+      "id": "A:tarkir_duel",
+      "kind": "EVENT",
+      "family": "A",
+      "label": "Bolas and Ugin's duel in Tarkir's past",
+      "claims": [
+        {
+          "id": "A005",
+          "pack": "pack_a_ugin_bolas_evidence",
+          "grade": "CANON_CONFIRMED"
+        },
+        {
+          "id": "A026",
+          "pack": "pack_a_tarkir_card_scenes",
+          "grade": "CANON_CONFIRMED"
+        }
+      ]
+    },
+    {
+      "id": "A:ugin_awakes_tdm",
+      "kind": "EVENT",
+      "family": "A",
+      "label": "Ugin awakes from hibernation and departs Tarkir",
+      "claims": []
+    },
+    {
+      "id": "A:ugin_cocoon",
+      "kind": "EVENT",
+      "family": "A",
+      "label": "Sarkhan leaves Ugin slumbering in a hedron cocoon",
+      "claims": [
+        {
+          "id": "A028",
+          "pack": "pack_a_tarkir_card_scenes",
+          "grade": "CANON_CONFIRMED"
+        },
+        {
+          "id": "U008",
+          "pack": "pack_a5_ugin_allies",
+          "grade": "CANON_CONFIRMED"
+        }
+      ]
+    },
+    {
+      "id": "AR:28",
+      "kind": "PRINTED_AR_LABEL",
+      "family": "B",
+      "label": "28 AR (printed scene header)",
+      "ar": 28
+    },
+    {
+      "id": "AR:44",
+      "kind": "PRINTED_AR_LABEL",
+      "family": "B",
+      "label": "44 AR (printed scene header)",
+      "ar": 44
+    },
+    {
+      "id": "AR:4562",
+      "kind": "PRINTED_AR_LABEL",
+      "family": "B",
+      "label": "4562 AR (printed scene header)",
+      "ar": 4562
+    },
+    {
+      "id": "AR:63",
+      "kind": "PRINTED_AR_LABEL",
+      "family": "B",
+      "label": "63 AR (printed scene header)",
+      "ar": 63
+    },
+    {
+      "id": "AR:64",
+      "kind": "PRINTED_AR_LABEL",
+      "family": "B",
+      "label": "64 AR (printed scene header)",
+      "ar": 64
+    },
+    {
+      "id": "AR:69",
+      "kind": "PRINTED_AR_LABEL",
+      "family": "B",
+      "label": "69 AR (printed scene header)",
+      "ar": 69
+    },
+    {
+      "id": "AR:85",
+      "kind": "PRINTED_AR_LABEL",
+      "family": "B",
+      "label": "85 AR (printed scene header)",
+      "ar": 85
+    },
+    {
+      "id": "B:flood_age",
+      "kind": "EVENT",
+      "family": "B",
+      "label": "The Flood Age",
+      "claims": []
+    },
+    {
+      "id": "B:ice_age",
+      "kind": "EVENT",
+      "family": "B",
+      "label": "The Ice Age",
+      "claims": [
+        {
+          "id": "B011",
+          "pack": "pack_b_thran_yawgmoth_brothers_war",
+          "grade": "CANON_CONFIRMED"
+        }
+      ]
+    },
+    {
+      "id": "B:kroog_flooded",
+      "kind": "EVENT",
+      "family": "B",
+      "label": "Kroog flooded; Teferi's first spirit visit lands here",
+      "claims": []
+    },
+    {
+      "id": "B:kroog_siege",
+      "kind": "EVENT",
+      "family": "B",
+      "label": "Kroog under siege (Brothers' War)",
+      "claims": []
+    },
+    {
+      "id": "B:last_battle_sylex",
+      "kind": "EVENT",
+      "family": "B",
+      "label": "Last Battle on Argoth; Urza activates the Golgothian Sylex",
+      "claims": [
+        {
+          "id": "B007",
+          "pack": "pack_b_thran_yawgmoth_brothers_war",
+          "grade": "CANON_CONFIRMED"
+        },
+        {
+          "id": "B008",
+          "pack": "pack_b_thran_yawgmoth_brothers_war",
+          "grade": "CANON_CONFIRMED"
+        },
+        {
+          "id": "B009",
+          "pack": "pack_b_thran_yawgmoth_brothers_war",
+          "grade": "CANON_CONFIRMED"
+        }
+      ]
+    },
+    {
+      "id": "B:penregon_69",
+      "kind": "EVENT",
+      "family": "B",
+      "label": "Penregon, five years after the war ended",
+      "claims": []
+    },
+    {
+      "id": "B:shard_twelve_worlds",
+      "kind": "EVENT",
+      "family": "B",
+      "label": "The Shard of Twelve Worlds",
+      "claims": []
+    },
+    {
+      "id": "B:silence_terisiare",
+      "kind": "EVENT",
+      "family": "B",
+      "label": "'And there was silence in Terisiare'",
+      "claims": []
+    },
+    {
+      "id": "B:thran_rule",
+      "kind": "EVENT",
+      "family": "B",
+      "label": "The Thran Empire rules Dominaria",
+      "claims": [
+        {
+          "id": "B014",
+          "pack": "pack_b_thran_yawgmoth_brothers_war",
+          "grade": "CANON_CONFIRMED"
+        }
+      ]
+    },
+    {
+      "id": "B:trench_war",
+      "kind": "EVENT",
+      "family": "B",
+      "label": "Mechanized trench war near Tomakul",
+      "claims": []
+    },
+    {
+      "id": "B:urza_tower_constructs",
+      "kind": "EVENT",
+      "family": "B",
+      "label": "Urza engineers constructs in his tower against Mishra",
+      "claims": []
+    },
+    {
+      "id": "B:urza_yawgmoth_perish",
+      "kind": "EVENT",
+      "family": "B",
+      "label": "Urza and Yawgmoth perish together",
+      "claims": [
+        {
+          "id": "B013",
+          "pack": "pack_b_thran_yawgmoth_brothers_war",
+          "grade": "CANON_CONFIRMED"
+        },
+        {
+          "id": "B015",
+          "pack": "pack_b_thran_yawgmoth_brothers_war",
+          "grade": "CANON_CONFIRMED"
+        }
+      ]
+    },
+    {
+      "id": "B:urza_youth",
+      "kind": "EVENT",
+      "family": "B",
+      "label": "Urza as a young man, obsessed with Thran history",
+      "claims": [
+        {
+          "id": "B014",
+          "pack": "pack_b_thran_yawgmoth_brothers_war",
+          "grade": "CANON_CONFIRMED"
+        }
+      ]
+    },
+    {
+      "id": "B:war_ended",
+      "kind": "EVENT",
+      "family": "B",
+      "label": "The Brothers' War concludes",
+      "claims": []
+    },
+    {
+      "id": "C:green_sun",
+      "kind": "EVENT",
+      "family": "C",
+      "label": "The Green Sun bursts from Mirrodin's core",
+      "claims": []
+    },
+    {
+      "id": "C:jaya_born",
+      "kind": "EVENT",
+      "family": "C",
+      "label": "Jaya Ballard is born on Dominaria",
+      "claims": []
+    },
+    {
+      "id": "C:jaya_first_visit",
+      "kind": "EVENT",
+      "family": "C",
+      "label": "Jaya's first visit to the people who later worship her",
+      "claims": []
+    },
+    {
+      "id": "C:jaya_religion_found",
+      "kind": "EVENT",
+      "family": "C",
+      "label": "Jaya returns and finds a religion based on her",
+      "claims": [
+        {
+          "id": "RTD029",
+          "pack": "pack_c2_return_to_dominaria",
+          "grade": "CANON_CONFIRMED"
+        }
+      ]
+    },
+    {
+      "id": "C:jodah_born",
+      "kind": "EVENT",
+      "family": "C",
+      "label": "Jodah is born",
+      "claims": [
+        {
+          "id": "C019",
+          "pack": "pack_c_weatherlight_invasion_new_phyrexia",
+          "grade": "CANON_IMPLIED"
+        }
+      ]
+    },
+    {
+      "id": "C:josu_undead",
+      "kind": "EVENT",
+      "family": "C",
+      "label": "Liliana makes her brother Josu undead",
+      "claims": [
+        {
+          "id": "RTD007",
+          "pack": "pack_c2_return_to_dominaria",
+          "grade": "CANON_CONFIRMED"
+        }
+      ]
+    },
+    {
+      "id": "C:karn_created",
+      "kind": "EVENT",
+      "family": "C",
+      "label": "Urza creates Karn",
+      "claims": [
+        {
+          "id": "C004",
+          "pack": "pack_c_weatherlight_invasion_new_phyrexia",
+          "grade": "CANON_CONFIRMED"
+        }
+      ]
+    },
+    {
+      "id": "C:mirrodin_created",
+      "kind": "EVENT",
+      "family": "C",
+      "label": "Karn creates Mirrodin",
+      "claims": [
+        {
+          "id": "C005",
+          "pack": "pack_c_weatherlight_invasion_new_phyrexia",
+          "grade": "CANON_CONFIRMED"
+        }
+      ]
+    },
+    {
+      "id": "C:new_phyrexia",
+      "kind": "EVENT",
+      "family": "C",
+      "label": "Mirrodin becomes New Phyrexia",
+      "claims": [
+        {
+          "id": "C007",
+          "pack": "pack_c_weatherlight_invasion_new_phyrexia",
+          "grade": "CANON_CONFIRMED"
+        }
+      ]
+    },
+    {
+      "id": "C:oil_takes_hold",
+      "kind": "EVENT",
+      "family": "C",
+      "label": "Phyrexian oil takes hold on Mirrodin over the centuries",
+      "claims": [
+        {
+          "id": "C006",
+          "pack": "pack_c_weatherlight_invasion_new_phyrexia",
+          "grade": "CANON_CONFIRMED"
+        },
+        {
+          "id": "C007",
+          "pack": "pack_c_weatherlight_invasion_new_phyrexia",
+          "grade": "CANON_CONFIRMED"
+        }
+      ]
+    },
+    {
+      "id": "C:phyrexian_invasion_1",
+      "kind": "EVENT",
+      "family": "C",
+      "label": "The (first) Phyrexian Invasion of Dominaria",
+      "claims": [
+        {
+          "id": "C011",
+          "pack": "pack_c_weatherlight_invasion_new_phyrexia",
+          "grade": "CANON_CONFIRMED"
+        },
+        {
+          "id": "C014",
+          "pack": "pack_c_weatherlight_invasion_new_phyrexia",
+          "grade": "CANON_CONFIRMED"
+        }
+      ]
+    },
+    {
+      "id": "C:primevals_fall",
+      "kind": "EVENT",
+      "family": "C",
+      "label": "The fall of the Primeval Dragons",
+      "claims": []
+    },
+    {
+      "id": "C:primevals_wake",
+      "kind": "EVENT",
+      "family": "C",
+      "label": "Rith and the Primevals awake during the previous Phyrexian invasion",
+      "claims": []
+    },
+    {
+      "id": "C:serra_dies",
+      "kind": "EVENT",
+      "family": "C",
+      "label": "Serra dies, dispersing her essence into Sursi",
+      "claims": []
+    },
+    {
+      "id": "C:teferi_away",
+      "kind": "EVENT",
+      "family": "C",
+      "label": "Teferi's homeland is away (phased out) for hundreds of years",
+      "claims": [
+        {
+          "id": "RTD024",
+          "pack": "pack_c2_return_to_dominaria",
+          "grade": "CANON_CONFIRMED"
+        }
+      ]
+    },
+    {
+      "id": "P:bro_ch1",
+      "kind": "STORY_PRESENT",
+      "family": null,
+      "label": "Story present of the-brothers-war-chapter-1-stronghold",
+      "url": "https://magic.wizards.com/en/news/magic-story/the-brothers-war-chapter-1-stronghold"
+    },
+    {
+      "id": "P:bro_ep5",
+      "kind": "STORY_PRESENT",
+      "family": null,
+      "label": "Story present of the-brothers-war-episode-5-as-cruel-as-necessary",
+      "url": "https://magic.wizards.com/en/news/magic-story/the-brothers-war-episode-5-as-cruel-as-necessary"
+    },
+    {
+      "id": "P:dmu_legends",
+      "kind": "STORY_PRESENT",
+      "family": null,
+      "label": "Story present of legends-youll-find-dominaria-united-2022-09-01",
+      "url": "https://magic.wizards.com/en/news/feature/legends-youll-find-dominaria-united-2022-09-01"
+    },
+    {
+      "id": "P:karn_profile",
+      "kind": "STORY_PRESENT",
+      "family": null,
+      "label": "Story present of karn-planeswalker",
+      "url": "https://magic.wizards.com/en/story/karn-planeswalker"
+    },
+    {
+      "id": "P:lithomancer",
+      "kind": "STORY_PRESENT",
+      "family": null,
+      "label": "Story present of the-lithomancer",
+      "url": "https://magic.wizards.com/en/news/magic-story/the-lithomancer"
+    },
+    {
+      "id": "P:mom_ep10",
+      "kind": "STORY_PRESENT",
+      "family": null,
+      "label": "Story present of episode-10-the-rhythms-of-life",
+      "url": "https://magic.wizards.com/en/news/magic-story/episode-10-the-rhythms-of-life"
+    },
+    {
+      "id": "P:pwg_dominaria_2022",
+      "kind": "STORY_PRESENT",
+      "family": null,
+      "label": "Story present of planeswalkers-guide-dominaria-2022-08-31",
+      "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-dominaria-2022-08-31"
+    },
+    {
+      "id": "P:rtd_ep2",
+      "kind": "STORY_PRESENT",
+      "family": null,
+      "label": "Story present of return-dominaria-episode-2-2018-03-22",
+      "url": "https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-2-2018-03-22"
+    },
+    {
+      "id": "P:rtd_ep3",
+      "kind": "STORY_PRESENT",
+      "family": null,
+      "label": "Story present of return-dominaria-episode-3-2018-03-28",
+      "url": "https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-3-2018-03-28"
+    },
+    {
+      "id": "P:stone_and_blood",
+      "kind": "STORY_PRESENT",
+      "family": null,
+      "label": "Story present of stone-and-blood-2016-06-15",
+      "url": "https://magic.wizards.com/en/news/magic-story/stone-and-blood-2016-06-15"
+    },
+    {
+      "id": "P:tarkir_dragons_guide",
+      "kind": "STORY_PRESENT",
+      "family": null,
+      "label": "Story present of tarkir-dragons-2015-02-25",
+      "url": "https://magic.wizards.com/en/news/magic-story/tarkir-dragons-2015-02-25"
+    },
+    {
+      "id": "P:tarkir_summary_ktk",
+      "kind": "STORY_PRESENT",
+      "family": null,
+      "label": "Story present of story-tarkir-block-2015-04-29",
+      "url": "https://magic.wizards.com/en/news/magic-story/story-tarkir-block-2015-04-29"
+    },
+    {
+      "id": "P:tdm_guide1",
+      "kind": "STORY_PRESENT",
+      "family": null,
+      "label": "Story present of planeswalkers-guide-to-tarkir-dragonstorm-part-1",
+      "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-tarkir-dragonstorm-part-1"
+    },
+    {
+      "id": "P:unbroken",
+      "kind": "STORY_PRESENT",
+      "family": null,
+      "label": "Story present of unbroken-and-unbowed-2015-04-22",
+      "url": "https://magic.wizards.com/en/news/magic-story/unbroken-and-unbowed-2015-04-22"
+    }
+  ],
+  "stated_edges": [
+    {
+      "earlier": "A:eldrazi_imprisoned",
+      "later": "A:nahiri_slumber",
+      "relation": "BEFORE",
+      "kind": "STATED_BEFORE",
+      "value": null,
+      "source_url": "https://magic.wizards.com/en/news/magic-story/stone-and-blood-2016-06-15",
+      "quote": "It was Zendikar as she remembered it—after the Eldrazi, but before her slumber had allowed the world to drift out of control.",
+      "quote_sha256": "05c62cc19fd737a9dc931bb0763dbe856c3e226929d074e1d066ea6be8e298cc",
+      "note": ""
+    },
+    {
+      "earlier": "A:eldrazi_imprisoned",
+      "later": "P:stone_and_blood",
+      "relation": "BEFORE",
+      "kind": "SPAN_BEFORE_PRESENT",
+      "value": "five thousand years ago",
+      "source_url": "https://magic.wizards.com/en/news/magic-story/stone-and-blood-2016-06-15",
+      "quote": "forty years of mild effort, five thousand years ago, in exchange for millennia of peace of mind",
+      "quote_sha256": "79164000f2a3ecc7c3b6025ca70752a27ce0ad453b02596a2aff30671457ccf4",
+      "note": "Sorin's point of view; conflicts with 'more than 6,000 years ago' (Lithomancer)."
+    },
+    {
+      "earlier": "A:eldrazi_near_escape",
+      "later": "P:stone_and_blood",
+      "relation": "BEFORE",
+      "kind": "SPAN_BEFORE_PRESENT",
+      "value": "over a thousand years ago",
+      "source_url": "https://magic.wizards.com/en/news/magic-story/stone-and-blood-2016-06-15",
+      "quote": "But the Eldrazi nearly escaped over a thousand years ago, and neither Sorin nor Ugin came.",
+      "quote_sha256": "67d46640754990cd09bc9c8257f1b71eaebd957f57596c1f9bc52c04489ba6c5",
+      "note": "Open lower bound only; not orderable against the imprisonment by span arithmetic."
+    },
+    {
+      "earlier": "A:eldrazi_imprisoned",
+      "later": "P:lithomancer",
+      "relation": "BEFORE",
+      "kind": "SPAN_BEFORE_PRESENT",
+      "value": "more than 6,000 years ago",
+      "source_url": "https://magic.wizards.com/en/news/magic-story/the-lithomancer",
+      "quote": "Today, we look back in time, more than 6,000 years ago, to a plane whose name is lost to history.",
+      "quote_sha256": "1388ea6d8e74eaf1ddaf93bc1d066e43c4af2b392724a88ac5fea4e573cee636",
+      "note": "Editorial frame; 'today' is the 2014 publication present, not a dated in-universe scene."
+    },
+    {
+      "earlier": "A:eldrazi_imprisoned",
+      "later": "A:sarkhan_change",
+      "relation": "BEFORE",
+      "kind": "STATED_BEFORE",
+      "value": null,
+      "source_url": "https://magic.wizards.com/en/news/magic-story/story-tarkir-block-2015-04-29",
+      "quote": "it was a flashback that takes place long before Sarkhan's change to history",
+      "quote_sha256": "4ce3df10c525ada501a5937e81dc8e59d1ea45943e66ede8029697c7d2b16298",
+      "note": "The Lithomancer flashback (Eldrazi imprisonment) precedes Sarkhan's change."
+    },
+    {
+      "earlier": "A:tarkir_duel",
+      "later": "P:tarkir_summary_ktk",
+      "relation": "BEFORE",
+      "kind": "SPAN_BEFORE_PRESENT",
+      "value": "1,280 years",
+      "source_url": "https://magic.wizards.com/en/news/magic-story/story-tarkir-block-2015-04-29",
+      "quote": "he has traveled into Tarkir's past—1,280 years, though Sarkhan doesn't know the exact span",
+      "quote_sha256": "b8f97dfb5a925a69d29d31d2638127a0c0e39389a55f111431159018136c12c3",
+      "note": "Span is from Sarkhan's Khans of Tarkir present."
+    },
+    {
+      "earlier": "A:tarkir_duel",
+      "later": "A:ugin_cocoon",
+      "relation": "BEFORE",
+      "kind": "STATED_BEFORE",
+      "value": null,
+      "source_url": "https://magic.wizards.com/en/news/magic-story/unbroken-and-unbowed-2015-04-22",
+      "quote": "is you and your hedron shard, after Bolas cast me down. Then I slumbered.",
+      "quote_sha256": "5733ba27880350f6a051a8ccaa17ff16c7d8e955a3074f1f8b5fb6f85ec28b58",
+      "note": "Ugin speaking."
+    },
+    {
+      "earlier": "A:ugin_cocoon",
+      "later": "A:sorin_wakes_ugin",
+      "relation": "BEFORE",
+      "kind": "STATED_BEFORE",
+      "value": null,
+      "source_url": "https://magic.wizards.com/en/news/magic-story/unbroken-and-unbowed-2015-04-22",
+      "quote": "Then I slumbered. Time passed, but how much I could not say. I slept…and I healed. An ally of mine, a vampire and a Planeswalker, woke me up",
+      "quote_sha256": "ed173d6f44dfe17b2c7fc88a30c59a00e5228f3b3588c114990d01affb05ddce",
+      "note": "Ugin speaking; the ally is Sorin (U007)."
+    },
+    {
+      "earlier": "A:ugin_cocoon",
+      "later": "A:sarkhan_returns_present",
+      "relation": "BEFORE",
+      "kind": "STATED_BEFORE",
+      "value": null,
+      "source_url": "https://magic.wizards.com/en/news/magic-story/tarkir-dragons-2015-02-25",
+      "quote": "After he created a magical, protective hedron cocoon around the fallen Ugin, Sarkhan was ripped back through time to his present.",
+      "quote_sha256": "1400ffd44b7b3256274e76b5a79eebe99eaeeb6dee8a85bc317ae3297d04cd2f",
+      "note": ""
+    },
+    {
+      "earlier": "A:tarkir_duel",
+      "later": "P:tarkir_dragons_guide",
+      "relation": "BEFORE",
+      "kind": "SPAN_BEFORE_PRESENT",
+      "value": "more than 1,200 years",
+      "source_url": "https://magic.wizards.com/en/news/magic-story/tarkir-dragons-2015-02-25",
+      "quote": "left his time to travel back more than 1,200 years into Tarkir's past and save Ugin",
+      "quote_sha256": "69b183b7fca0dfafa163635be369cd1bd8499109217e44d747531cab6229cdcb",
+      "note": "Compatible with, but less precise than, '1,280 years' (Tarkir story summary)."
+    },
+    {
+      "earlier": "A:ugin_cocoon",
+      "later": "P:unbroken",
+      "relation": "BEFORE",
+      "kind": "SPAN_BEFORE_PRESENT",
+      "value": "over a thousand years ago",
+      "source_url": "https://magic.wizards.com/en/news/magic-story/unbroken-and-unbowed-2015-04-22",
+      "quote": "Ugin, the Spirit Dragon, whom he left slumbering in a hedron cocoon over a thousand years ago",
+      "quote_sha256": "df7a82c946e1a7b081d445e936659fc6e7d7069f1608b45499128aecc0190198",
+      "note": ""
+    },
+    {
+      "earlier": "A:ugin_cocoon",
+      "later": "A:ugin_awakes_tdm",
+      "relation": "BEFORE",
+      "kind": "STATED_BEFORE",
+      "value": null,
+      "source_url": "https://magic.wizards.com/en/news/magic-story/unbroken-and-unbowed-2015-04-22",
+      "quote": "Ugin, the Spirit Dragon, whom he left slumbering in a hedron cocoon",
+      "quote_sha256": "c2814c3c8523c62360b8dbd7f52ddcfb1c7bcefdd2bc3a8031f0a312c7f8e83b",
+      "note": "Awakening presupposes the slumber; paired with the TDM guide quote below."
+    },
+    {
+      "earlier": "A:ugin_awakes_tdm",
+      "later": "P:tdm_guide1",
+      "relation": "BEFORE",
+      "kind": "SPAN_BEFORE_PRESENT",
+      "value": "Five years ago",
+      "source_url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-tarkir-dragonstorm-part-1",
+      "quote": "Five years ago, Ugin awoke from his hibernation and departed Tarkir.",
+      "quote_sha256": "d7fb81997b1ad9da6972dd2103fc0bf5b5c9605c2575d1689ca87f72b48d908f",
+      "note": ""
+    },
+    {
+      "earlier": "A:elder_dragon_war",
+      "later": "A:primeval_rule",
+      "relation": "BEFORE",
+      "kind": "STATED_BEFORE",
+      "value": null,
+      "source_url": "https://magic.wizards.com/en/news/feature/legends-youll-find-dominaria-united-2022-09-01",
+      "quote": "was one of the five ancient Primeval Dragons who ruled Dominaria sometime after the Elder Dragon War",
+      "quote_sha256": "03962f61b5f011124181b8beb5270046c665970ca8c86d4669378bd164951d9e",
+      "note": ""
+    },
+    {
+      "earlier": "A:elder_dragon_war",
+      "later": "A:dihada_binds_piru",
+      "relation": "BEFORE",
+      "kind": "STATED_BEFORE",
+      "value": null,
+      "source_url": "https://magic.wizards.com/en/news/feature/returning-legends-modern-horizons-2-2021-06-10",
+      "quote": "Millennia later, Piru and Chromium were bound to the service of the planeswalker Geyadrone Dihada",
+      "quote_sha256": "65edf9619fd43fbbfeaec5db530b657922d9619fc4ff46ac4cda023f77a5dc9f",
+      "note": "'Later' relative to the Elder Dragon War in the same biography."
+    },
+    {
+      "earlier": "A:elder_dragon_war",
+      "later": "A:bolas_returns_madara",
+      "relation": "BEFORE",
+      "kind": "STATED_BEFORE",
+      "value": null,
+      "source_url": "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-perspectives-2018-08-08",
+      "quote": "at a time when the memory of the Elder Dragon Wars had faded into legend",
+      "quote_sha256": "3936bc37db0eec103dc2a2b4e476e8fd7ac06cafaa22204e60e0c3bf42c0da8e",
+      "note": "Bolas's own narration (Pack A A003 is CANON_DISPUTED for its roster, not for this ordering)."
+    },
+    {
+      "earlier": "A:primeval_rule",
+      "later": "C:primevals_fall",
+      "relation": "BEFORE",
+      "kind": "STATED_BEFORE",
+      "value": null,
+      "source_url": "https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-3-2018-03-28",
+      "quote": "all the way back to the fall of the Primeval Dragons twenty thousand years ago",
+      "quote_sha256": "f788339d09403ebf70bdda663ac492dbc4e06b63df40fcf443fea6d876ccc102",
+      "note": "A fall presupposes the rule; see span edge."
+    },
+    {
+      "earlier": "C:primevals_fall",
+      "later": "P:rtd_ep3",
+      "relation": "BEFORE",
+      "kind": "SPAN_BEFORE_PRESENT",
+      "value": "twenty thousand years ago",
+      "source_url": "https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-3-2018-03-28",
+      "quote": "all the way back to the fall of the Primeval Dragons twenty thousand years ago",
+      "quote_sha256": "f788339d09403ebf70bdda663ac492dbc4e06b63df40fcf443fea6d876ccc102",
+      "note": "Stated within a description of Belzenlok's rewritten history."
+    },
+    {
+      "earlier": "C:phyrexian_invasion_1",
+      "later": "C:primevals_wake",
+      "relation": "DURING",
+      "kind": "STATED_DURING",
+      "value": null,
+      "source_url": "https://magic.wizards.com/en/news/feature/legends-youll-find-dominaria-united-2022-09-01",
+      "quote": "She and her kin awoke during the previous Phyrexian invasion",
+      "quote_sha256": "622c8a587b5763fa3a14f2f616132cb5d4cfee58831b55679242cb3f7e0f02ce",
+      "note": "'During' is a containment, not a strict ordering; excluded from the partial order."
+    },
+    {
+      "earlier": "C:primevals_fall",
+      "later": "C:primevals_wake",
+      "relation": "BEFORE",
+      "kind": "STATED_BEFORE",
+      "value": null,
+      "source_url": "https://magic.wizards.com/en/news/feature/legends-youll-find-dominaria-united-2022-09-01",
+      "quote": "She and her kin awoke during the previous Phyrexian invasion, but with Darigaaz's death, they were sealed away once more.",
+      "quote_sha256": "e482683071977beba8d5928f6591826424393c577d877f3352d374b97d9e166e",
+      "note": "'Sealed away once more' states a prior sealing (the fall)."
+    },
+    {
+      "earlier": "B:kroog_siege",
+      "later": "AR:28",
+      "relation": "SAME_TIME_AS_LABEL",
+      "kind": "PRINTED_AR",
+      "value": "28",
+      "source_url": "https://magic.wizards.com/en/news/magic-story/the-brothers-war-episode-5-as-cruel-as-necessary",
+      "quote": "He was back in Kroog. He recognized it immediately from the towers: during his first visit they were crumbled ruins. Now, they stood proud above a city under siege.",
+      "quote_sha256": "f948f28f09ac55978421537c81e8f307908871e911ab891494e2c3258e90f5c7",
+      "note": "Scene under the '28 AR' header."
+    },
+    {
+      "earlier": "B:trench_war",
+      "later": "AR:44",
+      "relation": "SAME_TIME_AS_LABEL",
+      "kind": "PRINTED_AR",
+      "value": "44",
+      "source_url": "https://magic.wizards.com/en/news/magic-story/the-brothers-war-episode-5-as-cruel-as-necessary",
+      "quote": "This was the same war as the one he saw days prior, now decades later.",
+      "quote_sha256": "a335446040e9d2b5ceef44b3249aae65f0ef93c72ccc4a0a8b560885ff33a77f",
+      "note": "Scene under the '44 AR' header."
+    },
+    {
+      "earlier": "B:last_battle_sylex",
+      "later": "AR:63",
+      "relation": "SAME_TIME_AS_LABEL",
+      "kind": "PRINTED_AR",
+      "value": "63",
+      "source_url": "https://magic.wizards.com/en/news/magic-story/the-brothers-war-episode-5-as-cruel-as-necessary",
+      "quote": "Urza sat cross-legged with the bowl in his lap.",
+      "quote_sha256": "4e5fe4aadc752e70de8c37bdebbfe55f542f27064351c77ae9e8f463a59e2b28",
+      "note": "Scene under the '63 AR' header."
+    },
+    {
+      "earlier": "B:silence_terisiare",
+      "later": "AR:64",
+      "relation": "SAME_TIME_AS_LABEL",
+      "kind": "PRINTED_AR",
+      "value": "64",
+      "source_url": "https://magic.wizards.com/en/news/magic-story/the-brothers-war-episode-5-as-cruel-as-necessary",
+      "quote": "And there was silence in Terisiare.",
+      "quote_sha256": "874f61989ee12070a4fa3aa7ed77326ee9692831fd477de8fc9d4b3fae27d22d",
+      "note": "Line under the '64 AR' header."
+    },
+    {
+      "earlier": "B:penregon_69",
+      "later": "AR:69",
+      "relation": "SAME_TIME_AS_LABEL",
+      "kind": "PRINTED_AR",
+      "value": "69",
+      "source_url": "https://magic.wizards.com/en/news/magic-story/the-brothers-war-episode-1-the-end",
+      "quote": "It was snowing in Penregon. Five years after the war that ended the world concluded",
+      "quote_sha256": "0cd4c5db9745208d468f9c9e78e196f316c7d374f324a1e07ba063bbc8adc4a5",
+      "note": "Scene under the '69 AR' header."
+    },
+    {
+      "earlier": "B:kroog_flooded",
+      "later": "AR:85",
+      "relation": "SAME_TIME_AS_LABEL",
+      "kind": "PRINTED_AR",
+      "value": "85",
+      "source_url": "https://magic.wizards.com/en/news/magic-story/the-brothers-war-episode-5-as-cruel-as-necessary",
+      "quote": "Teferi arrived in a dark room in a flooded city that he would later learn to be Kroog.",
+      "quote_sha256": "f0a7081d0bb93b2fd6bbd3a9ba64f170018c93336e33d022d74d94d9c8c91d78",
+      "note": "Scene under the '85 AR' header."
+    },
+    {
+      "earlier": "P:bro_ep5",
+      "later": "AR:4562",
+      "relation": "SAME_TIME_AS_LABEL",
+      "kind": "PRINTED_AR",
+      "value": "4562",
+      "source_url": "https://magic.wizards.com/en/news/magic-story/the-brothers-war-episode-5-as-cruel-as-necessary",
+      "quote": "Teferi lay shirtless in a cold metal coffin, counting his breath.",
+      "quote_sha256": "f6d42475af02cffe2e33a5a182ea0caeecfbcc6c8dc591ff902dc72715926bb3",
+      "note": "Teferi's present, under the '4562 AR' header."
+    },
+    {
+      "earlier": "B:war_ended",
+      "later": "B:penregon_69",
+      "relation": "BEFORE",
+      "kind": "STATED_BEFORE",
+      "value": null,
+      "source_url": "https://magic.wizards.com/en/news/magic-story/the-brothers-war-episode-1-the-end",
+      "quote": "Five years after the war that ended the world concluded, the survivors found that nothing truly ended",
+      "quote_sha256": "98d6c1ea7a2eae3cb8599a94075f87ec0c82d458025d69ed2123fc8b2b550d9b",
+      "note": ""
+    },
+    {
+      "earlier": "B:last_battle_sylex",
+      "later": "B:shard_twelve_worlds",
+      "relation": "BEFORE",
+      "kind": "STATED_BEFORE",
+      "value": null,
+      "source_url": "https://magic.wizards.com/en/news/magic-story/the-brothers-war-episode-5-as-cruel-as-necessary",
+      "quote": "the Shard of Twelve Worlds, the Ice Age, every important event over the last four millennia—everything came after this moment",
+      "quote_sha256": "693c02102d67f64f041b39aef9ae40d2040cc0981d2d5305c89e2d1afe1422b2",
+      "note": ""
+    },
+    {
+      "earlier": "B:last_battle_sylex",
+      "later": "B:ice_age",
+      "relation": "BEFORE",
+      "kind": "STATED_BEFORE",
+      "value": null,
+      "source_url": "https://magic.wizards.com/en/news/magic-story/the-brothers-war-episode-5-as-cruel-as-necessary",
+      "quote": "the Shard of Twelve Worlds, the Ice Age, every important event over the last four millennia—everything came after this moment",
+      "quote_sha256": "693c02102d67f64f041b39aef9ae40d2040cc0981d2d5305c89e2d1afe1422b2",
+      "note": ""
+    },
+    {
+      "earlier": "B:last_battle_sylex",
+      "later": "P:bro_ep5",
+      "relation": "BEFORE",
+      "kind": "SPAN_BEFORE_PRESENT",
+      "value": "the last four millennia",
+      "source_url": "https://magic.wizards.com/en/news/magic-story/the-brothers-war-episode-5-as-cruel-as-necessary",
+      "quote": "every important event over the last four millennia—everything came after this moment",
+      "quote_sha256": "e2cf7612b198b89783343e87d42ba210be6d29b5a3dad7aa95cbbfe4f1e12940",
+      "note": "Consistent with the printed 63 AR / 4562 AR labels."
+    },
+    {
+      "earlier": "B:last_battle_sylex",
+      "later": "B:ice_age",
+      "relation": "BEFORE",
+      "kind": "STATED_BEFORE",
+      "value": null,
+      "source_url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-dominaria-2022-08-31",
+      "quote": "Urza's Sylex blast at the end of the Brothers' War shattered it, carved up by glaciers during the Ice Age, and ﬁnally inundated during the Flood Age",
+      "quote_sha256": "ab8a48d35f8b7092aa2f9c979a9826776d7fa8df29a8c9bc18d40541ba945aeb",
+      "note": "Terisiare sequence."
+    },
+    {
+      "earlier": "B:ice_age",
+      "later": "B:flood_age",
+      "relation": "BEFORE",
+      "kind": "STATED_BEFORE",
+      "value": null,
+      "source_url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-dominaria-2022-08-31",
+      "quote": "carved up by glaciers during the Ice Age, and ﬁnally inundated during the Flood Age",
+      "quote_sha256": "775b5f8728771bdca07d20b27c0b18bb2291e3c5fb907fdd2afc89a9d6490f2c",
+      "note": ""
+    },
+    {
+      "earlier": "B:thran_rule",
+      "later": "B:urza_youth",
+      "relation": "BEFORE",
+      "kind": "STATED_BEFORE",
+      "value": null,
+      "source_url": "https://magic.wizards.com/en/story/urza-planeswalker",
+      "quote": "As a young man, Urza was obsessed with the history of Dominaria and the Thran Empire that once ruled the plane.",
+      "quote_sha256": "c8d47aecbf874f217609888dfaab5f41caf67bdaa27c66011dd54786dbb5f264",
+      "note": "'History'/'once ruled' places the Thran before Urza's youth."
+    },
+    {
+      "earlier": "B:urza_youth",
+      "later": "B:urza_yawgmoth_perish",
+      "relation": "BEFORE",
+      "kind": "STATED_BEFORE",
+      "value": null,
+      "source_url": "https://magic.wizards.com/en/story/urza-planeswalker",
+      "quote": "This led to a millennia-long vendetta against Yawgmoth and the plane of Phyrexia. After countless years of conflict, both subtle and overt, Urza and Yawgmoth perished together.",
+      "quote_sha256": "f229082e64d6fa96f219bacdf3facf865754f07f941b14c2cc78f9c7819aefa2",
+      "note": ""
+    },
+    {
+      "earlier": "B:urza_tower_constructs",
+      "later": "P:bro_ch1",
+      "relation": "BEFORE",
+      "kind": "SPAN_BEFORE_PRESENT",
+      "value": "millennia before",
+      "source_url": "https://magic.wizards.com/en/news/magic-story/the-brothers-war-chapter-1-stronghold",
+      "quote": "the tower where, millennia before, Urza engineered mechanical constructs to fight a bitter struggle against his brother, Mishra",
+      "quote_sha256": "5d335d9407c946fd6cfcf6d8ec5aaf5b332cd014380bab383f701b9f37fafb6e",
+      "note": ""
+    },
+    {
+      "earlier": "C:karn_created",
+      "later": "P:karn_profile",
+      "relation": "BEFORE",
+      "kind": "SPAN_BEFORE_PRESENT",
+      "value": "over 1200 years ago",
+      "source_url": "https://magic.wizards.com/en/story/karn-planeswalker",
+      "quote": "Created over 1200 years ago by the Planeswalker Urza",
+      "quote_sha256": "55414874ae69d9a20b90425b967469f022bd216bfdd4acc02327104a9fa871c0",
+      "note": "Profile present (undated)."
+    },
+    {
+      "earlier": "C:karn_created",
+      "later": "C:mirrodin_created",
+      "relation": "BEFORE",
+      "kind": "STATED_BEFORE",
+      "value": null,
+      "source_url": "https://magic.wizards.com/en/story/mirrodin-plane",
+      "quote": "Long ago, this metal plane was created by Karn, the silver golem built by the Planeswalker Urza.",
+      "quote_sha256": "3c8b9633865d928025af3d4b4c2320ea9774ea98fa54573449aadca64393dc1a",
+      "note": "Karn existed (built by Urza) before creating Mirrodin."
+    },
+    {
+      "earlier": "C:mirrodin_created",
+      "later": "C:oil_takes_hold",
+      "relation": "BEFORE",
+      "kind": "STATED_BEFORE",
+      "value": null,
+      "source_url": "https://magic.wizards.com/en/story/mirrodin-plane",
+      "quote": "He unwittingly introduced a dark contagion: Phyrexian oil. Over the centuries, this oil has taken hold",
+      "quote_sha256": "6759173d3c309178a5366b0dfbe4a3dfc25e9269a2917a139c5ec724f2f77960",
+      "note": ""
+    },
+    {
+      "earlier": "C:green_sun",
+      "later": "C:new_phyrexia",
+      "relation": "BEFORE",
+      "kind": "STATED_BEFORE",
+      "value": null,
+      "source_url": "https://magic.wizards.com/en/news/feature/returning-legends-modern-horizons-2-2021-06-10",
+      "quote": "when the Green Sun, a gigantic ball of mana, burst forth from Mirrodin's core. Years later, Mirrodin succumbed to an infectious agent and became New Phyrexia.",
+      "quote_sha256": "532eadb19a9fe8392d8d8110f0dbc26fdf23b59e19f878abb3a5947ddaf9e3ea",
+      "note": ""
+    },
+    {
+      "earlier": "C:jaya_born",
+      "later": "P:dmu_legends",
+      "relation": "BEFORE",
+      "kind": "SPAN_BEFORE_PRESENT",
+      "value": "more than 1,500 years ago",
+      "source_url": "https://magic.wizards.com/en/news/feature/legends-youll-find-dominaria-united-2022-09-01",
+      "quote": "Born on Dominaria more than 1,500 years ago",
+      "quote_sha256": "8970b6c782c35c8f70ec602b4531b8b722f4659ddbeeaec9f40b3901578d7da5",
+      "note": ""
+    },
+    {
+      "earlier": "C:jodah_born",
+      "later": "P:dmu_legends",
+      "relation": "BEFORE",
+      "kind": "SPAN_BEFORE_PRESENT",
+      "value": "over 4,000 years",
+      "source_url": "https://magic.wizards.com/en/news/feature/legends-youll-find-dominaria-united-2022-09-01",
+      "quote": "At over 4,000 years of age, Jodah is an archmage blessed with prodigious talent and eternal youth.",
+      "quote_sha256": "2aa89cbdd5224fcd10b60a436d813f4de3cc39f4152caf96594e196f65f117e4",
+      "note": "Age, i.e. born over 4,000 years before the DMU present."
+    },
+    {
+      "earlier": "C:serra_dies",
+      "later": "P:pwg_dominaria_2022",
+      "relation": "BEFORE",
+      "kind": "SPAN_BEFORE_PRESENT",
+      "value": "almost eight hundred years ago",
+      "source_url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-dominaria-2022-08-31",
+      "quote": "Serra died almost eight hundred years ago when she dispersed her essence into the land of Sursi.",
+      "quote_sha256": "2678cfcf7ff9b0ed70e29a14fbdc94beecc14ce4c791a57919c4185aadbe13f2",
+      "note": ""
+    },
+    {
+      "earlier": "C:phyrexian_invasion_1",
+      "later": "P:pwg_dominaria_2022",
+      "relation": "BEFORE",
+      "kind": "SPAN_BEFORE_PRESENT",
+      "value": "centuries ago",
+      "source_url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-dominaria-2022-08-31",
+      "quote": "They first appeared during the Phyrexian Invasion centuries ago",
+      "quote_sha256": "d7519873df3b52ec382dc3abe36739a99ee9514cc38d68efeaa26c819ee6ad86",
+      "note": ""
+    },
+    {
+      "earlier": "C:josu_undead",
+      "later": "P:rtd_ep2",
+      "relation": "BEFORE",
+      "kind": "SPAN_BEFORE_PRESENT",
+      "value": "many years ago",
+      "source_url": "https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-2-2018-03-22",
+      "quote": "I made Josu undead, many years ago.",
+      "quote_sha256": "ac85c3242fd63c7f1c3afca46dc17a0bcf91e269fcf86b2f508ed0493e9ee141",
+      "note": "Liliana speaking."
+    },
+    {
+      "earlier": "C:jaya_first_visit",
+      "later": "C:jaya_religion_found",
+      "relation": "BEFORE",
+      "kind": "STATED_BEFORE",
+      "value": null,
+      "source_url": "https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-9-2018-05-09",
+      "quote": "Two hundred years later, I went back and found they'd started a religion based on me.",
+      "quote_sha256": "b8991c414e3aad2ea14ab5e6273bce75f9778f4d8c23f70ba976d43247c5fadb",
+      "note": "Jaya speaking; interval two hundred years."
+    },
+    {
+      "earlier": "C:teferi_away",
+      "later": "P:mom_ep10",
+      "relation": "BEFORE",
+      "kind": "SPAN_BEFORE_PRESENT",
+      "value": "hundreds of years",
+      "source_url": "https://magic.wizards.com/en/news/magic-story/episode-10-the-rhythms-of-life",
+      "quote": "why Teferi spent hundreds of years trying to restore his home",
+      "quote_sha256": "8d9bc086feb6d133c8e91761dcd726865f105065c8d6857012775a288ba4d1f8",
+      "note": ""
+    }
+  ],
+  "derived_edges": [
+    {
+      "earlier": "AR:28",
+      "later": "AR:44",
+      "relation": "BEFORE",
+      "kind": "DERIVED_FROM_PRINTED_AR",
+      "value": "16 years",
+      "source_url": null,
+      "quote": null,
+      "quote_sha256": null,
+      "note": "Arithmetic on two AR labels printed in official text."
+    },
+    {
+      "earlier": "AR:44",
+      "later": "AR:63",
+      "relation": "BEFORE",
+      "kind": "DERIVED_FROM_PRINTED_AR",
+      "value": "19 years",
+      "source_url": null,
+      "quote": null,
+      "quote_sha256": null,
+      "note": "Arithmetic on two AR labels printed in official text."
+    },
+    {
+      "earlier": "AR:63",
+      "later": "AR:64",
+      "relation": "BEFORE",
+      "kind": "DERIVED_FROM_PRINTED_AR",
+      "value": "1 years",
+      "source_url": null,
+      "quote": null,
+      "quote_sha256": null,
+      "note": "Arithmetic on two AR labels printed in official text."
+    },
+    {
+      "earlier": "AR:64",
+      "later": "AR:69",
+      "relation": "BEFORE",
+      "kind": "DERIVED_FROM_PRINTED_AR",
+      "value": "5 years",
+      "source_url": null,
+      "quote": null,
+      "quote_sha256": null,
+      "note": "Arithmetic on two AR labels printed in official text."
+    },
+    {
+      "earlier": "AR:69",
+      "later": "AR:85",
+      "relation": "BEFORE",
+      "kind": "DERIVED_FROM_PRINTED_AR",
+      "value": "16 years",
+      "source_url": null,
+      "quote": null,
+      "quote_sha256": null,
+      "note": "Arithmetic on two AR labels printed in official text."
+    },
+    {
+      "earlier": "AR:85",
+      "later": "AR:4562",
+      "relation": "BEFORE",
+      "kind": "DERIVED_FROM_PRINTED_AR",
+      "value": "4477 years",
+      "source_url": null,
+      "quote": null,
+      "quote_sha256": null,
+      "note": "Arithmetic on two AR labels printed in official text."
+    }
+  ],
+  "components": [
+    [
+      "AR:28",
+      "AR:44",
+      "AR:4562",
+      "AR:63",
+      "AR:64",
+      "AR:69",
+      "AR:85",
+      "B:flood_age",
+      "B:ice_age",
+      "B:kroog_flooded",
+      "B:kroog_siege",
+      "B:last_battle_sylex",
+      "B:penregon_69",
+      "B:shard_twelve_worlds",
+      "B:silence_terisiare",
+      "B:trench_war",
+      "B:war_ended",
+      "P:bro_ep5"
+    ],
+    [
+      "A:bolas_returns_madara",
+      "A:dihada_binds_piru",
+      "A:elder_dragon_war",
+      "A:primeval_rule",
+      "C:phyrexian_invasion_1",
+      "C:primevals_fall",
+      "C:primevals_wake",
+      "C:serra_dies",
+      "P:pwg_dominaria_2022",
+      "P:rtd_ep3"
+    ],
+    [
+      "A:sarkhan_returns_present",
+      "A:sorin_wakes_ugin",
+      "A:tarkir_duel",
+      "A:ugin_awakes_tdm",
+      "A:ugin_cocoon",
+      "P:tarkir_dragons_guide",
+      "P:tarkir_summary_ktk",
+      "P:tdm_guide1",
+      "P:unbroken"
+    ],
+    [
+      "A:eldrazi_imprisoned",
+      "A:eldrazi_near_escape",
+      "A:nahiri_slumber",
+      "A:sarkhan_change",
+      "P:lithomancer",
+      "P:stone_and_blood"
+    ],
+    [
+      "C:karn_created",
+      "C:mirrodin_created",
+      "C:oil_takes_hold",
+      "P:karn_profile"
+    ],
+    [
+      "B:thran_rule",
+      "B:urza_yawgmoth_perish",
+      "B:urza_youth"
+    ],
+    [
+      "C:jaya_born",
+      "C:jodah_born",
+      "P:dmu_legends"
+    ],
+    [
+      "B:urza_tower_constructs",
+      "P:bro_ch1"
+    ],
+    [
+      "C:green_sun",
+      "C:new_phyrexia"
+    ],
+    [
+      "C:jaya_first_visit",
+      "C:jaya_religion_found"
+    ],
+    [
+      "C:josu_undead",
+      "P:rtd_ep2"
+    ],
+    [
+      "C:teferi_away",
+      "P:mom_ep10"
+    ]
+  ],
+  "precedes": {
+    "A:bolas_returns_madara": [],
+    "A:dihada_binds_piru": [],
+    "A:elder_dragon_war": [
+      "A:bolas_returns_madara",
+      "A:dihada_binds_piru",
+      "A:primeval_rule",
+      "C:primevals_fall",
+      "C:primevals_wake",
+      "P:rtd_ep3"
+    ],
+    "A:eldrazi_imprisoned": [
+      "A:nahiri_slumber",
+      "A:sarkhan_change",
+      "P:lithomancer",
+      "P:stone_and_blood"
+    ],
+    "A:eldrazi_near_escape": [
+      "P:stone_and_blood"
+    ],
+    "A:nahiri_slumber": [],
+    "A:primeval_rule": [
+      "C:primevals_fall",
+      "C:primevals_wake",
+      "P:rtd_ep3"
+    ],
+    "A:sarkhan_change": [],
+    "A:sarkhan_returns_present": [],
+    "A:sorin_wakes_ugin": [],
+    "A:tarkir_duel": [
+      "A:sarkhan_returns_present",
+      "A:sorin_wakes_ugin",
+      "A:ugin_awakes_tdm",
+      "A:ugin_cocoon",
+      "P:tarkir_dragons_guide",
+      "P:tarkir_summary_ktk",
+      "P:tdm_guide1",
+      "P:unbroken"
+    ],
+    "A:ugin_awakes_tdm": [
+      "P:tdm_guide1"
+    ],
+    "A:ugin_cocoon": [
+      "A:sarkhan_returns_present",
+      "A:sorin_wakes_ugin",
+      "A:ugin_awakes_tdm",
+      "P:tdm_guide1",
+      "P:unbroken"
+    ],
+    "AR:28": [
+      "AR:44",
+      "AR:4562",
+      "AR:63",
+      "AR:64",
+      "AR:69",
+      "AR:85",
+      "B:flood_age",
+      "B:ice_age",
+      "B:kroog_flooded",
+      "B:last_battle_sylex",
+      "B:penregon_69",
+      "B:shard_twelve_worlds",
+      "B:silence_terisiare",
+      "B:trench_war",
+      "P:bro_ep5"
+    ],
+    "AR:44": [
+      "AR:4562",
+      "AR:63",
+      "AR:64",
+      "AR:69",
+      "AR:85",
+      "B:flood_age",
+      "B:ice_age",
+      "B:kroog_flooded",
+      "B:last_battle_sylex",
+      "B:penregon_69",
+      "B:shard_twelve_worlds",
+      "B:silence_terisiare",
+      "P:bro_ep5"
+    ],
+    "AR:4562": [],
+    "AR:63": [
+      "AR:4562",
+      "AR:64",
+      "AR:69",
+      "AR:85",
+      "B:flood_age",
+      "B:ice_age",
+      "B:kroog_flooded",
+      "B:penregon_69",
+      "B:shard_twelve_worlds",
+      "B:silence_terisiare",
+      "P:bro_ep5"
+    ],
+    "AR:64": [
+      "AR:4562",
+      "AR:69",
+      "AR:85",
+      "B:kroog_flooded",
+      "B:penregon_69",
+      "P:bro_ep5"
+    ],
+    "AR:69": [
+      "AR:4562",
+      "AR:85",
+      "B:kroog_flooded",
+      "P:bro_ep5"
+    ],
+    "AR:85": [
+      "AR:4562",
+      "P:bro_ep5"
+    ],
+    "B:flood_age": [],
+    "B:ice_age": [
+      "B:flood_age"
+    ],
+    "B:kroog_flooded": [
+      "AR:4562",
+      "P:bro_ep5"
+    ],
+    "B:kroog_siege": [
+      "AR:44",
+      "AR:4562",
+      "AR:63",
+      "AR:64",
+      "AR:69",
+      "AR:85",
+      "B:flood_age",
+      "B:ice_age",
+      "B:kroog_flooded",
+      "B:last_battle_sylex",
+      "B:penregon_69",
+      "B:shard_twelve_worlds",
+      "B:silence_terisiare",
+      "B:trench_war",
+      "P:bro_ep5"
+    ],
+    "B:last_battle_sylex": [
+      "AR:4562",
+      "AR:64",
+      "AR:69",
+      "AR:85",
+      "B:flood_age",
+      "B:ice_age",
+      "B:kroog_flooded",
+      "B:penregon_69",
+      "B:shard_twelve_worlds",
+      "B:silence_terisiare",
+      "P:bro_ep5"
+    ],
+    "B:penregon_69": [
+      "AR:4562",
+      "AR:85",
+      "B:kroog_flooded",
+      "P:bro_ep5"
+    ],
+    "B:shard_twelve_worlds": [],
+    "B:silence_terisiare": [
+      "AR:4562",
+      "AR:69",
+      "AR:85",
+      "B:kroog_flooded",
+      "B:penregon_69",
+      "P:bro_ep5"
+    ],
+    "B:thran_rule": [
+      "B:urza_yawgmoth_perish",
+      "B:urza_youth"
+    ],
+    "B:trench_war": [
+      "AR:4562",
+      "AR:63",
+      "AR:64",
+      "AR:69",
+      "AR:85",
+      "B:flood_age",
+      "B:ice_age",
+      "B:kroog_flooded",
+      "B:last_battle_sylex",
+      "B:penregon_69",
+      "B:shard_twelve_worlds",
+      "B:silence_terisiare",
+      "P:bro_ep5"
+    ],
+    "B:urza_tower_constructs": [
+      "P:bro_ch1"
+    ],
+    "B:urza_yawgmoth_perish": [],
+    "B:urza_youth": [
+      "B:urza_yawgmoth_perish"
+    ],
+    "B:war_ended": [
+      "AR:4562",
+      "AR:69",
+      "AR:85",
+      "B:kroog_flooded",
+      "B:penregon_69",
+      "P:bro_ep5"
+    ],
+    "C:green_sun": [
+      "C:new_phyrexia"
+    ],
+    "C:jaya_born": [
+      "P:dmu_legends"
+    ],
+    "C:jaya_first_visit": [
+      "C:jaya_religion_found"
+    ],
+    "C:jaya_religion_found": [],
+    "C:jodah_born": [
+      "P:dmu_legends"
+    ],
+    "C:josu_undead": [
+      "P:rtd_ep2"
+    ],
+    "C:karn_created": [
+      "C:mirrodin_created",
+      "C:oil_takes_hold",
+      "P:karn_profile"
+    ],
+    "C:mirrodin_created": [
+      "C:oil_takes_hold"
+    ],
+    "C:new_phyrexia": [],
+    "C:oil_takes_hold": [],
+    "C:phyrexian_invasion_1": [
+      "P:pwg_dominaria_2022"
+    ],
+    "C:primevals_fall": [
+      "C:primevals_wake",
+      "P:rtd_ep3"
+    ],
+    "C:primevals_wake": [],
+    "C:serra_dies": [
+      "P:pwg_dominaria_2022"
+    ],
+    "C:teferi_away": [
+      "P:mom_ep10"
+    ],
+    "P:bro_ch1": [],
+    "P:bro_ep5": [],
+    "P:dmu_legends": [],
+    "P:karn_profile": [],
+    "P:lithomancer": [],
+    "P:mom_ep10": [],
+    "P:pwg_dominaria_2022": [],
+    "P:rtd_ep2": [],
+    "P:rtd_ep3": [],
+    "P:stone_and_blood": [],
+    "P:tarkir_dragons_guide": [],
+    "P:tarkir_summary_ktk": [],
+    "P:tdm_guide1": [],
+    "P:unbroken": []
+  },
+  "cycles": [],
+  "l244_closure": {
+    "closes_l244": false,
+    "missing": [
+      "Story presents are unanchored to each other: no official quote states how the KTK, EMN, DOM, DMU, BRO, ONE or MOM 'present' relate, so spans measured from different pages cannot be compared (e.g. Jaya 'more than 1,500 years ago' vs Karn 'over 1200 years ago').",
+      "Pack A's primordial and early-lives claims (A001, A002, A004, A013) and the Meditation Realm/War of the Spark/Dragonstorm sequence (A007-A012, U010-U016) have no ordering quote in the cached pages beyond publication order.",
+      "Many spans are open-ended ('over a thousand', 'centuries', 'many years', 'hundreds of years'), so they cannot order events even against the same present; e.g. the Eldrazi near-escape vs the imprisonment is not orderable from spans alone.",
+      "Conflicting spans for the Eldrazi imprisonment: 'five thousand years ago' (Stone and Blood, Sorin's view) vs 'more than 6,000 years ago' (The Lithomancer) vs 'Six thousand years ago'/'over 6,000 years ago' elsewhere; both are recorded, none chosen.",
+      "Pack B: The Thran, Yawgmoth's origin and the Mishra corruption sequence lack stated orderings beyond 'once ruled' and 'millennia-long vendetta'; the three B-pack card-story/product pages are not in the cache.",
+      "Pack C: C2/C3/C4 episodes print no AR dates; the Weatherlight Saga (novels) is not ingested, so Invasion → Yawgmoth's end → Old Phyrexia destroyed has no ordering quote; the cross-reference 'Karn built by Urza' links C to B only by identity, not by a dated edge.",
+      "Seven Pack A/B source pages (reforged_chain, nexus_design, journey_nexus, war_games, m19/dmu notes, bro_card_stories_1/2, bro_product_page) are not in the story cache, so their orderings were not checked."
+    ]
+  }
+}
