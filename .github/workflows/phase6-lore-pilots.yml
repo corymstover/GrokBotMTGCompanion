@@ -8,6 +8,8 @@ on:
       - 'scripts/build_lore_pilot.py'
       - 'scripts/audit_lore_pilot.py'
       - 'tests/test_lore_pilot_builder.py'
+      - 'tests/test_pilot3_ugins_allies.py'
+      - 'data/story_atlas/**'
       - 'data/lore_research/**'
       - '.github/workflows/phase6-lore-pilots.yml'
   workflow_dispatch:
@@ -27,3 +29,5 @@ jobs:
         run: python3 scripts/audit_lore_pilot.py
       - name: Builder and audit tests
         run: python3 -m unittest discover -s tests -p 'test_lore_pilot_builder.py' -v
+      - name: Pilot 3 (Ugin's Allies and Heroes) checks
+        run: python3 -m unittest discover -s tests -p 'test_pilot3_ugins_allies.py' -v
