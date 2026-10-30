@@ -64,13 +64,13 @@
    "id": "lookup_and_rules",
    "criterion": "Reliable lookup and rules checks backed by current Scryfall and official sources",
    "status": "PARTIAL",
-   "note": "card lookups reconcile with snapshot 2026-10-29 (0 changes across 33894 cards); rules-interaction checks are not built yet",
+   "note": "card lookups reconcile with snapshot 2026-10-29 (0 changes across 33894 cards); Commander deck-construction checks are built, gameplay rules-interaction checks are not",
    "evidence": {
     "report": "data/card_db/oracle_drift_2026-10-29.json",
     "snapshot_date": "2026-10-29",
     "changes": 0,
     "index_rows": 33894,
-    "rules_checks": "not yet implemented in the companion"
+    "rules_checks": "Commander deck-construction checks built (scripts/commander_rules.py, CR 2026-09-25 excerpt; eligibility audit agrees with every index row); gameplay rules-interaction checks not built"
    }
   },
   {
