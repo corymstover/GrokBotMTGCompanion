@@ -1,0 +1,40 @@
+name: Phase 3 Multiverse cited claim graph
+
+on:
+  pull_request:
+    paths:
+      - 'data/multiverse_graph/**'
+      - 'data/lore_research/**'
+      - 'data/lore_decks/drafts/*_printing_evidence.json'
+      - 'data/lore_graph.json'
+      - 'scripts/build_multiverse_graph.py'
+      - 'scripts/query_multiverse_graph.py'
+      - 'tests/test_multiverse_graph.py'
+      - '.github/workflows/phase3-multiverse-claim-graph.yml'
+  push:
+    paths:
+      - 'data/multiverse_graph/**'
+      - 'data/lore_research/**'
+      - 'scripts/build_multiverse_graph.py'
+      - 'scripts/query_multiverse_graph.py'
+      - 'tests/test_multiverse_graph.py'
+      - '.github/workflows/phase3-multiverse-claim-graph.yml'
+  workflow_dispatch:
+
+jobs:
+  claim-graph:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Rebuild graph and fail if committed copy is stale or invalid
+        run: python3 scripts/build_multiverse_graph.py --check
+      - name: Sample bidirectional queries
+        run: |
+          python3 scripts/query_multiverse_graph.py path piru ugin
+          python3 scripts/query_multiverse_graph.py status CANON_DISPUTED
+          python3 scripts/query_multiverse_graph.py card "Crux of Fate" > /dev/null
+      - name: Graph regression and mutation tests
+        run: python3 -m unittest discover -s tests -p 'test_multiverse_graph.py' -v

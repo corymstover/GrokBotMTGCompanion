@@ -1,0 +1,14 @@
+{
+ "claim_packs": [
+  "data/lore_research/pack_a_ugin_bolas_evidence_2026-10-30.json",
+  "data/lore_research/pack_a_elder_dragon_war_extension_2026-10-30.json",
+  "data/lore_research/pack_a_tarkir_card_scenes_2026-10-30.json"
+ ],
+ "art_match_packs": [
+  "data/lore_research/pack_a4_printing_art_matches_2026-10-30.json"
+ ],
+ "deck_evidence": [
+  "data/lore_decks/drafts/ugin_bolas_elder_dragon_duality_printing_evidence.json"
+ ],
+ "curated_lore_graph": "data/lore_graph.json"
+}
