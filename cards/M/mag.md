@@ -443,7 +443,7 @@ schema: 2
   > *In the jungle of war there is always a Lion.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21477 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
-- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Lore:** ✅ Named verbatim in official story text on [Return to Dominaria: Episode 7](https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-7-2018-04-25) (the full card name appears in the page prose; a mention, not a claim about this printing's art) · [format](../../Card%20Enrichment.md#lore-line)
 - **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 521 decks; highest synergy [Resurrection](../../cards/R/res.md#resurrection) (+37%), [Breath of Life](../../cards/B/br.md#breath-of-life) (+36%), [Selfless Spirit](../../cards/S/sel.md#selfless-spirit) (+33%) · EDHREC: in 1,199 decks; most often under [Rex, Cyber-Hound](../../cards/R/rex.md#rex-cyber-hound) (5.7% of its decks), [Tazri, Stalwart Survivor](../../cards/T/ta.md#tazri-stalwart-survivor) (2.1% of its decks), [Captain Sisay](../../cards/C/cap.md#captain-sisay) (1.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/pcy/13/mageta-the-lion) · oracle_id `cd170b1c-879b-414e-9f0e-5e7fb099e7bb` · printing: PCY #13 (2000-06-05) · [rulings](https://api.scryfall.com/cards/5861dffc-5afa-44a3-a3fa-9fd440093377/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

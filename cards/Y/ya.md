@@ -230,7 +230,7 @@ schema: 2
   > *—Mister Foundforks, culinarian*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28671 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
-- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Lore:** ✅ Named verbatim in official story text on [The Legends of Reality Fracture](https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture) (the full card name appears in the page prose; a mention, not a claim about this printing's art) · [format](../../Card%20Enrichment.md#lore-line)
 - **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 20 decks; highest synergy [Twisted Image](../../cards/T/tw.md#twisted-image) (+57%), [Merfolk Thaumaturgist](../../cards/M/me.md#merfolk-thaumaturgist) (+54%), [Reverse the Polarity](../../cards/R/rev.md#reverse-the-polarity) (+43%) · EDHREC: in 527 decks; most often under [Grolnok, the Omnivore](../../cards/G/gro.md#grolnok-the-omnivore) (8.3% of its decks), [Glarb, Calamity's Augur](../../cards/G/gl.md#glarb-calamitys-augur) (2.1% of its decks), [Clement, the Worrywort](../../cards/C/cl.md#clement-the-worrywort) (3.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/225/yargle-goliath-of-otaria) · oracle_id `014d0bcd-b80f-4c43-8f00-f4c31e8f3370` · printing: FRA #225 (2026-10-02) · [rulings](https://api.scryfall.com/cards/f45ba926-6496-4bd4-96eb-663946d56bbf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

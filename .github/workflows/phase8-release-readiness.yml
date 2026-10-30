@@ -11,6 +11,7 @@ on:
       - 'data/card_enrichment.json'
       - 'scripts/build_card_enrichment.py'
       - 'tests/test_phase8_batch38.py'
+      - 'tests/test_enrichment_story_links_b4.py'
       - '.github/workflows/phase8-release-readiness.yml'
   workflow_dispatch:
 
@@ -43,3 +44,4 @@ jobs:
         run: |
           python3 -m unittest discover -s tests -p 'test_release_readiness.py' -v
           python3 -m unittest discover -s tests -p 'test_phase8_batch38.py' -v
+          python3 -m unittest discover -s tests -p 'test_enrichment_story_links_b4.py' -v

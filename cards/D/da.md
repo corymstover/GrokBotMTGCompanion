@@ -4787,7 +4787,7 @@ schema: 2
   - *2013-09-15* — If Daxos is blocked by a creature, raising that creature's power to 3 or greater won't change or undo the block.
   - *2013-09-15* — If the exiled card is a land card, you won't gain any life and you won't be able to play the land.
   - *2013-09-15* — You must pay all costs to cast the exiled card. You may pay alternative or additional costs. If the card has any mandatory additional costs, you must pay those.
-- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Lore:** ✅ Card art shown on [Journey's End](https://magic.wizards.com/en/news/making-magic/journeys-end-2014-05-26) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
 - **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 834 decks; highest synergy [Aqueous Form](../../cards/A/aq.md#aqueous-form) (+46%), [Staggering Insight](../../cards/S/sta.md#staggering-insight) (+45%), [Steel of the Godhead](../../cards/S/ste.md#steel-of-the-godhead) (+43%) · EDHREC: in 11,012 decks; most often under [Hope Estheim](../../cards/H/ho.md#hope-estheim) (9.1% of its decks), [Sen Triplets](../../cards/S/sen.md#sen-triplets) (21.0% of its decks), [Kamiz, Obscura Oculus](../../cards/K/ka.md#kamiz-obscura-oculus) (29.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ncc/335/daxos-of-meletis) · oracle_id `4cf10cb6-b082-4c0d-89e9-43cd39716201` · printing: NCC #335 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

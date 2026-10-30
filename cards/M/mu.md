@@ -1938,7 +1938,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13655 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2014-05-29* — The value of X is determined as the ability resolves. If, at that time, you control no artifacts, you won't look at any cards.
-- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Lore:** ✅ Card art shown on [Like Cogwork](https://magic.wizards.com/en/news/magic-story/cogwork-2014-05-28) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
 - **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 652 decks; highest synergy [Master Transmuter](../../cards/M/mas.md#master-transmuter) (+67%), [Padeem, Consul of Innovation](../../cards/P/pa.md#padeem-consul-of-innovation) (+60%), [Darksteel Colossus](../../cards/D/da.md#darksteel-colossus) (+59%) · EDHREC: in 6,204 decks; most often under [Mishra, Eminent One](../../cards/M/mis.md#mishra-eminent-one) (27.1% of its decks), [Urza, Lord High Artificer](../../cards/U/ur.md#urza-lord-high-artificer) (1.3% of its decks), [Urza, Chief Artificer](../../cards/U/ur.md#urza-chief-artificer) (1.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/vma/82/muzzio-visionary-architect) · oracle_id `fc2768a5-621b-48de-9160-4dbaeddb3de1` · printing: VMA #82 (2014-06-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
