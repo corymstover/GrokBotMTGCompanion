@@ -1,0 +1,2260 @@
+{
+ "theme": "Original Primeval Dragons - the Elder Dragons and their Primeval heirs (Phase 6 Pilot 2)",
+ "status": "UNAPPROVED PROPOSAL - awaiting Cory's review; not approved, not locked, not certified",
+ "raw_sha256": "6ef1af37c371891b7d3e60a08c2d1bcee1d1205f2c01e5c3093a220fb4414888",
+ "snapshot": {
+  "id": "snap-20261029-40848334824-1",
+  "default_cards_file": "default-cards-20261029090546.jsonl.gz",
+  "default_cards_sha256": "008434d5b89f1f2cb47411178d2ab181600faf9cb7ca1c5673422cdec5939595"
+ },
+ "tier_definitions": {
+  "DIRECT_DEPICTION": "Official Wizards story captions this exact art at the event.",
+  "CANON_REFERENCE": "Card is the named character/event, or its printed text or an official article ties it to the Elder/Primeval Dragon canon.",
+  "LORE_INSPIRED": "Named or thematic link only; no scene or event asserted.",
+  "MECHANICAL_SYMBOL": "Included for function; no story claim."
+ },
+ "cards": [
+  {
+   "name": "The Ur-Dragon",
+   "beat": "commander",
+   "tier": "LORE_INSPIRED",
+   "source_id": "scryfall_card_text",
+   "source": "scryfall-snapshot:printed_flavor_or_name",
+   "claims": [],
+   "why": "The five-colour progenitor dragon. Invasion-era Attendant flavor calls each Primeval a part of 'the ur-dragon'. That this Commander 2017 card is the same being is a thematic link, not an asserted canon identity.",
+   "printing": {
+    "set": "c17",
+    "collector_number": "48",
+    "id": "7e78b70b-0c67-4f14-8ad7-c9f8e3f59743",
+    "oracle_id": "87b22b09-4f6d-4bc5-9cfc-663e4c7c6981",
+    "illustration_id": "2140b832-65cd-4eb7-9502-c98be1b6349e",
+    "artist": "Jaime Jones",
+    "released_at": "2017-08-25",
+    "printed_flavor": "",
+    "commander_legality": "legal",
+    "color_identity": [
+     "B",
+     "G",
+     "R",
+     "U",
+     "W"
+    ],
+    "type_line": "Legendary Creature — Dragon Avatar",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Nicol Bolas",
+   "beat": "I. The Elder Dragons of Dominaria and the war Bolas started",
+   "tier": "CANON_REFERENCE",
+   "source_id": "blood_fire",
+   "source": "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-blood-and-fire-2018-07-18",
+   "claims": [
+    "A015",
+    "A017"
+   ],
+   "why": "The original Elder Dragon card. In the Chronicle he provokes the dragon clans, and Wizards credits him with instigating the Elder Dragon War.",
+   "printing": {
+    "set": "leg",
+    "collector_number": "246",
+    "id": "729feb73-4581-4f9d-ba47-bece72481b86",
+    "oracle_id": "e26bf6a9-b31c-4bc0-b55b-c01f2f69be6b",
+    "illustration_id": "8e6baed3-3534-4c54-8fde-3f8c9bde0027",
+    "artist": "Edward P. Beard, Jr.",
+    "released_at": "1994-06-01",
+    "printed_flavor": "",
+    "commander_legality": "legal",
+    "color_identity": [
+     "B",
+     "R",
+     "U"
+    ],
+    "type_line": "Legendary Creature — Elder Dragon",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+   "beat": "I. The Elder Dragons of Dominaria and the war Bolas started",
+   "tier": "CANON_REFERENCE",
+   "source_id": "m19_design",
+   "source": "https://magic.wizards.com/en/news/making-magic/more-odds-ends-core-set-2019-2018-08-06",
+   "claims": [],
+   "why": "Core Set 2019 Elder Dragon reprint cycle: Bolas as a Grixis Elder Dragon.",
+   "printing": {
+    "set": "m19",
+    "collector_number": "218",
+    "id": "7b215968-93a6-4278-ac61-4e3e8c3c3943",
+    "oracle_id": "55e4b27e-5447-4fc2-8cae-a03e344600c6",
+    "illustration_id": "54fcf679-5332-4614-999d-7e0dbafbd116",
+    "artist": "Svetlin Velinov",
+    "released_at": "2018-07-13",
+    "printed_flavor": "",
+    "commander_legality": "legal",
+    "color_identity": [
+     "B",
+     "R",
+     "U"
+    ],
+    "type_line": "Legendary Creature — Elder Dragon // Legendary Planeswalker — Bolas",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Ugin, the Spirit Dragon",
+   "beat": "I. The Elder Dragons of Dominaria and the war Bolas started",
+   "tier": "CANON_REFERENCE",
+   "source_id": "first_lesson",
+   "source": "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-first-lesson-2018-06-20",
+   "claims": [
+    "A013"
+   ],
+   "why": "Bolas's twin. The Chronicle shows the young twins meeting Arcades, Chromium and Palladia-Mors.",
+   "printing": {
+    "set": "frf",
+    "collector_number": "1",
+    "id": "58c1e824-c8a9-4312-8e4c-a29a26d189a4",
+    "oracle_id": "eecb3047-a563-441a-9175-200421981ac3",
+    "illustration_id": "47715ae0-7456-449e-ad32-0a7bc47a4e7a",
+    "artist": "Raymond Swanland",
+    "released_at": "2015-01-23",
+    "printed_flavor": "",
+    "commander_legality": "legal",
+    "color_identity": [],
+    "type_line": "Legendary Planeswalker — Ugin",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Arcades Sabboth",
+   "beat": "I. The Elder Dragons of Dominaria and the war Bolas started",
+   "tier": "CANON_REFERENCE",
+   "source_id": "blood_fire",
+   "source": "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-blood-and-fire-2018-07-18",
+   "claims": [
+    "A016"
+   ],
+   "why": "Original Legends Elder Dragon. The Chronicle has Arcades leading followers into the war against his kin.",
+   "printing": {
+    "set": "leg",
+    "collector_number": "218",
+    "id": "2c1dbc62-ceb5-4540-ae38-901e5deafc75",
+    "oracle_id": "8ead94c5-8447-4f20-87ec-efdccde689fc",
+    "illustration_id": "11e093b7-fb2a-4bb5-848e-8c3b03420e7c",
+    "artist": "Edward P. Beard, Jr.",
+    "released_at": "1994-06-01",
+    "printed_flavor": "",
+    "commander_legality": "legal",
+    "color_identity": [
+     "G",
+     "U",
+     "W"
+    ],
+    "type_line": "Legendary Creature — Elder Dragon",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Arcades, the Strategist",
+   "beat": "I. The Elder Dragons of Dominaria and the war Bolas started",
+   "tier": "CANON_REFERENCE",
+   "source_id": "m19_design",
+   "source": "https://magic.wizards.com/en/news/making-magic/more-odds-ends-core-set-2019-2018-08-06",
+   "claims": [
+    "A013"
+   ],
+   "why": "Core Set 2019 Arcades. A named character card; its defensive mechanics are not lore evidence.",
+   "printing": {
+    "set": "m19",
+    "collector_number": "212",
+    "id": "1e90c638-d4b2-4243-bbc4-1cc10516c40f",
+    "oracle_id": "e7fc5ad6-f2f0-4b06-a61b-05022db9d93b",
+    "illustration_id": "12bdd526-f045-4779-83cb-ce2146c15cba",
+    "artist": "Even Amundsen",
+    "released_at": "2018-07-13",
+    "printed_flavor": "",
+    "commander_legality": "legal",
+    "color_identity": [
+     "G",
+     "U",
+     "W"
+    ],
+    "type_line": "Legendary Creature — Elder Dragon",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Chromium",
+   "beat": "I. The Elder Dragons of Dominaria and the war Bolas started",
+   "tier": "CANON_REFERENCE",
+   "source_id": "first_lesson",
+   "source": "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-first-lesson-2018-06-20",
+   "claims": [
+    "A013"
+   ],
+   "why": "Original Legends Elder Dragon, met by the twins in the Chronicle.",
+   "printing": {
+    "set": "leg",
+    "collector_number": "224",
+    "id": "8cd7d7e1-f928-4429-9a59-ba0590a78e98",
+    "oracle_id": "7c91ae5d-0320-46a7-98d2-df0918202478",
+    "illustration_id": "bd95ab6a-8bb1-4841-8dd6-a172c92cc9bb",
+    "artist": "Edward P. Beard, Jr.",
+    "released_at": "1994-06-01",
+    "printed_flavor": "",
+    "commander_legality": "legal",
+    "color_identity": [
+     "B",
+     "U",
+     "W"
+    ],
+    "type_line": "Legendary Creature — Elder Dragon",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Chromium, the Mutable",
+   "beat": "I. The Elder Dragons of Dominaria and the war Bolas started",
+   "tier": "CANON_REFERENCE",
+   "source_id": "mh2_legends",
+   "source": "https://magic.wizards.com/en/news/feature/returning-legends-modern-horizons-2-2021-06-10",
+   "claims": [
+    "A018"
+   ],
+   "why": "Chromium survived the war with Piru (Wizards' Piru biography).",
+   "printing": {
+    "set": "m19",
+    "collector_number": "214",
+    "id": "50c1de2c-1acc-47c8-9b5e-a9dae3da8a49",
+    "oracle_id": "58d8ff36-4a4d-40e0-b812-3d23b2c7606a",
+    "illustration_id": "3bc6b56d-0386-4987-9150-0feb7854fde5",
+    "artist": "Chase Stone",
+    "released_at": "2018-07-13",
+    "printed_flavor": "",
+    "commander_legality": "legal",
+    "color_identity": [
+     "B",
+     "U",
+     "W"
+    ],
+    "type_line": "Legendary Creature — Elder Dragon",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Palladia-Mors",
+   "beat": "I. The Elder Dragons of Dominaria and the war Bolas started",
+   "tier": "CANON_REFERENCE",
+   "source_id": "blood_fire",
+   "source": "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-blood-and-fire-2018-07-18",
+   "claims": [
+    "A015"
+   ],
+   "why": "Original Legends Elder Dragon whose branch Bolas deliberately incited.",
+   "printing": {
+    "set": "leg",
+    "collector_number": "247",
+    "id": "ad64874d-ce33-4e0a-bcca-723f129ef415",
+    "oracle_id": "d7121ac7-e425-46cd-b006-1af391d97f87",
+    "illustration_id": "5fdaf3fa-1c2b-4720-b2bd-b5b55ca0cdd1",
+    "artist": "Edward P. Beard, Jr.",
+    "released_at": "1994-06-01",
+    "printed_flavor": "",
+    "commander_legality": "legal",
+    "color_identity": [
+     "G",
+     "R",
+     "W"
+    ],
+    "type_line": "Legendary Creature — Elder Dragon",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Palladia-Mors, the Ruiner",
+   "beat": "I. The Elder Dragons of Dominaria and the war Bolas started",
+   "tier": "CANON_REFERENCE",
+   "source_id": "m19_notes",
+   "source": "https://magic.wizards.com/en/news/feature/core-set-2019-release-notes-2018-06-22",
+   "claims": [],
+   "why": "Printed flavor: sister of Nicol Bolas, survivor of the Elder Dragon War.",
+   "printing": {
+    "set": "m19",
+    "collector_number": "219",
+    "id": "4663bd13-243e-4b8c-9ca8-158576b58803",
+    "oracle_id": "4c2b10ba-1930-4da8-9570-c89b2e239e3e",
+    "illustration_id": "ec0afd26-62d4-4ebb-a34e-b4ed68cc80b7",
+    "artist": "Svetlin Velinov",
+    "released_at": "2018-07-13",
+    "printed_flavor": "Sister of Nicol Bolas. Survivor of the Elder Dragon War. The most vicious of her kin.",
+    "commander_legality": "legal",
+    "color_identity": [
+     "G",
+     "R",
+     "W"
+    ],
+    "type_line": "Legendary Creature — Elder Dragon",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Vaevictis Asmadi",
+   "beat": "I. The Elder Dragons of Dominaria and the war Bolas started",
+   "tier": "CANON_REFERENCE",
+   "source_id": "blood_fire",
+   "source": "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-blood-and-fire-2018-07-18",
+   "claims": [
+    "A014"
+   ],
+   "why": "Original Legends Elder Dragon. His descendants raided Bolas's kingdom, by their own account.",
+   "printing": {
+    "set": "leg",
+    "collector_number": "269",
+    "id": "22ea73ec-1325-4437-a23f-dcda1767c713",
+    "oracle_id": "4d2cc2a8-e08a-420a-8922-c63e39129e23",
+    "illustration_id": "a770a481-3210-4b60-8308-5afcb3f17a22",
+    "artist": "Andi Rusu",
+    "released_at": "1994-06-01",
+    "printed_flavor": "",
+    "commander_legality": "legal",
+    "color_identity": [
+     "B",
+     "G",
+     "R"
+    ],
+    "type_line": "Legendary Creature — Elder Dragon",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Vaevictis Asmadi, the Dire",
+   "beat": "I. The Elder Dragons of Dominaria and the war Bolas started",
+   "tier": "CANON_REFERENCE",
+   "source_id": "m19_notes",
+   "source": "https://magic.wizards.com/en/news/feature/core-set-2019-release-notes-2018-06-22",
+   "claims": [],
+   "why": "Core Set 2019 Vaevictis; a named character card.",
+   "printing": {
+    "set": "m19",
+    "collector_number": "225",
+    "id": "d19fdc00-21eb-48dc-966a-6b634dc5a2c4",
+    "oracle_id": "c42ce2e9-4dfe-468a-8f41-49e187cb91d4",
+    "illustration_id": "db1a85c4-66e5-41d9-b04c-58aab436255e",
+    "artist": "Steven Belledin",
+    "released_at": "2018-07-13",
+    "printed_flavor": "",
+    "commander_legality": "legal",
+    "color_identity": [
+     "B",
+     "G",
+     "R"
+    ],
+    "type_line": "Legendary Creature — Elder Dragon",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "The Elder Dragon War",
+   "beat": "I. The Elder Dragons of Dominaria and the war Bolas started",
+   "tier": "CANON_REFERENCE",
+   "source_id": "dmu_notes",
+   "source": "https://magic.wizards.com/en/news/feature/dominaria-united-release-notes-2022-08-26",
+   "claims": [
+    "A017"
+   ],
+   "why": "Names the war. Its chapters are not certified as a literal battlefield reconstruction.",
+   "printing": {
+    "set": "dmu",
+    "collector_number": "121",
+    "id": "0c52c7d4-a350-4518-8c9a-72cf7b14603d",
+    "oracle_id": "4945f03b-ff99-4923-b62d-3cdb60275ef1",
+    "illustration_id": "24baf1e9-cd75-4f93-abe2-ce0de93b1955",
+    "artist": "Filip Burburan",
+    "released_at": "2022-09-09",
+    "printed_flavor": "",
+    "commander_legality": "legal",
+    "color_identity": [
+     "R"
+    ],
+    "type_line": "Enchantment — Saga",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Piru, the Volatile",
+   "beat": "II. After the war: Piru, Chromium, Dihada and Dakkon",
+   "tier": "CANON_REFERENCE",
+   "source_id": "mh2_legends",
+   "source": "https://magic.wizards.com/en/news/feature/returning-legends-modern-horizons-2-2021-06-10",
+   "claims": [
+    "A018",
+    "A022"
+   ],
+   "why": "War survivor and Chromium's mate. His death cracked Dominaria at the Dueling Chasm of Corondor.",
+   "printing": {
+    "set": "mh2",
+    "collector_number": "207",
+    "id": "6e82d946-1efb-4253-84ab-93c88d2d1d84",
+    "oracle_id": "dcd13eab-7ed7-4e95-bdae-d140c1ff84df",
+    "illustration_id": "269240cd-5ecf-4808-bd6c-ad85d780b671",
+    "artist": "Greg Staples",
+    "released_at": "2021-06-18",
+    "printed_flavor": "Chasms of dueling energies course within her.",
+    "commander_legality": "legal",
+    "color_identity": [
+     "B",
+     "R",
+     "W"
+    ],
+    "type_line": "Legendary Creature — Elder Dragon",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Geyadrone Dihada",
+   "beat": "II. After the war: Piru, Chromium, Dihada and Dakkon",
+   "tier": "CANON_REFERENCE",
+   "source_id": "mh2_legends",
+   "source": "https://magic.wizards.com/en/news/feature/returning-legends-modern-horizons-2-2021-06-10",
+   "claims": [
+    "A020"
+   ],
+   "why": "Millennia later, Dihada bound Piru and Chromium to fight Dakkon.",
+   "printing": {
+    "set": "mh2",
+    "collector_number": "199",
+    "id": "3d228005-91f1-451e-ab6f-1f86316708a7",
+    "oracle_id": "e1105d84-86b5-44ef-9efc-d994ee1c35cc",
+    "illustration_id": "9e008589-96e5-480c-a822-7ac3e48a9126",
+    "artist": "Ekaterina Burmak",
+    "released_at": "2021-06-18",
+    "printed_flavor": "",
+    "commander_legality": "legal",
+    "color_identity": [
+     "B",
+     "R",
+     "U"
+    ],
+    "type_line": "Legendary Planeswalker — Dihada",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Dakkon, Shadow Slayer",
+   "beat": "II. After the war: Piru, Chromium, Dihada and Dakkon",
+   "tier": "CANON_REFERENCE",
+   "source_id": "mh2_legends",
+   "source": "https://magic.wizards.com/en/news/feature/returning-legends-modern-horizons-2-2021-06-10",
+   "claims": [
+    "A021"
+   ],
+   "why": "Dakkon slew Piru and banished Chromium.",
+   "printing": {
+    "set": "mh2",
+    "collector_number": "192",
+    "id": "0013a9c4-77a1-418d-85c2-bd68b65cd3d4",
+    "oracle_id": "335b5302-2272-405a-b2b8-3943b3df335f",
+    "illustration_id": "d4e99204-97a5-4f41-87c9-8bfa11b16a5c",
+    "artist": "Richard Kane Ferguson",
+    "released_at": "2021-06-18",
+    "printed_flavor": "",
+    "commander_legality": "legal",
+    "color_identity": [
+     "B",
+     "U",
+     "W"
+    ],
+    "type_line": "Legendary Planeswalker — Dakkon",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Dakkon Blackblade",
+   "beat": "II. After the war: Piru, Chromium, Dihada and Dakkon",
+   "tier": "CANON_REFERENCE",
+   "source_id": "mh2_legends",
+   "source": "https://magic.wizards.com/en/news/feature/returning-legends-modern-horizons-2-2021-06-10",
+   "claims": [
+    "A021"
+   ],
+   "why": "The original Legends card of the same Dakkon.",
+   "printing": {
+    "set": "leg",
+    "collector_number": "225",
+    "id": "fbfd1278-1486-4516-8846-007ce1985ee9",
+    "oracle_id": "1aa78e3b-bf7e-4645-9521-4b3537c93f46",
+    "illustration_id": "eb9ba711-d94b-462a-a71e-e1ccd5439970",
+    "artist": "Richard Kane Ferguson",
+    "released_at": "1994-06-01",
+    "printed_flavor": "\"My power is as vast as the plains, my strength is that of mountains. Each wave that crashes upon the shore thunders like blood in my veins.\" —*Memoirs*",
+    "commander_legality": "legal",
+    "color_identity": [
+     "B",
+     "U",
+     "W"
+    ],
+    "type_line": "Legendary Creature — Human Warrior",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Crosis, the Purger",
+   "beat": "III. The Primeval Dragons: heirs of the Elder Dragons",
+   "tier": "CANON_REFERENCE",
+   "source_id": "mh2_legends",
+   "source": "https://magic.wizards.com/en/news/feature/returning-legends-modern-horizons-2-2021-06-10",
+   "claims": [
+    "A019"
+   ],
+   "why": "Primeval descendant of Piru and Chromium.",
+   "printing": {
+    "set": "inv",
+    "collector_number": "242",
+    "id": "e5f336d8-12a4-482d-8ffd-c205858c72ba",
+    "oracle_id": "f1ae1dcd-76cd-4714-9df2-1ab0ebd2ca41",
+    "illustration_id": "39b3fd95-06ce-4db4-b91d-436a206d1821",
+    "artist": "Pete Venters",
+    "released_at": "2000-10-02",
+    "printed_flavor": "",
+    "commander_legality": "legal",
+    "color_identity": [
+     "B",
+     "R",
+     "U"
+    ],
+    "type_line": "Legendary Creature — Dragon",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Rith, the Awakener",
+   "beat": "III. The Primeval Dragons: heirs of the Elder Dragons",
+   "tier": "CANON_REFERENCE",
+   "source_id": "dmu_legends",
+   "source": "https://magic.wizards.com/en/news/feature/legends-youll-find-dominaria-united-2022-09-01",
+   "claims": [
+    "A023",
+    "A024"
+   ],
+   "why": "Palladia-Mors's daughter, and one of the five Primevals who ruled Dominaria after the war.",
+   "printing": {
+    "set": "inv",
+    "collector_number": "267",
+    "id": "c30be387-280d-49bd-a3d1-c1636ee931ce",
+    "oracle_id": "97e5d788-2dd3-4c8e-9ab6-f4ea9c7a9a3d",
+    "illustration_id": "e9f2701e-1ab3-4d53-833e-475d3a1d49d6",
+    "artist": "Carl Critchlow",
+    "released_at": "2000-10-02",
+    "printed_flavor": "",
+    "commander_legality": "legal",
+    "color_identity": [
+     "G",
+     "R",
+     "W"
+    ],
+    "type_line": "Legendary Creature — Dragon",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Rith, Liberated Primeval",
+   "beat": "III. The Primeval Dragons: heirs of the Elder Dragons",
+   "tier": "CANON_REFERENCE",
+   "source_id": "dmu_legends",
+   "source": "https://magic.wizards.com/en/news/feature/legends-youll-find-dominaria-united-2022-09-01",
+   "claims": [
+    "A023",
+    "A024"
+   ],
+   "why": "Rith in Dominaria United; the biography is the evidence, not the art.",
+   "printing": {
+    "set": "dmu",
+    "collector_number": "214",
+    "id": "ac148784-b7b6-4aae-bffb-a4cf09f56971",
+    "oracle_id": "f89de40f-52d3-44b1-8faa-6ddaa32880d0",
+    "illustration_id": "89d576f2-26da-4a5f-af1d-a3bed44335bc",
+    "artist": "Victor Adame Minguez",
+    "released_at": "2022-09-09",
+    "printed_flavor": "",
+    "commander_legality": "legal",
+    "color_identity": [
+     "G",
+     "R",
+     "W"
+    ],
+    "type_line": "Legendary Creature — Dragon",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Darigaaz, the Igniter",
+   "beat": "III. The Primeval Dragons: heirs of the Elder Dragons",
+   "tier": "CANON_REFERENCE",
+   "source_id": "scryfall_card_text",
+   "source": "scryfall-snapshot:printed_flavor_or_name",
+   "claims": [],
+   "why": "A named Primeval Dragon character card (Invasion).",
+   "printing": {
+    "set": "inv",
+    "collector_number": "243",
+    "id": "54dcf5e3-4303-41a3-b54c-24a9d462ce07",
+    "oracle_id": "6cbafa7b-4448-4ad4-b4f2-0ab6e7c95b0b",
+    "illustration_id": "93896027-b486-4e12-a48a-c1392ded16a2",
+    "artist": "Mark Zug",
+    "released_at": "2000-10-02",
+    "printed_flavor": "",
+    "commander_legality": "legal",
+    "color_identity": [
+     "B",
+     "G",
+     "R"
+    ],
+    "type_line": "Legendary Creature — Dragon",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Darigaaz Reincarnated",
+   "beat": "III. The Primeval Dragons: heirs of the Elder Dragons",
+   "tier": "CANON_REFERENCE",
+   "source_id": "scryfall_card_text",
+   "source": "scryfall-snapshot:printed_flavor_or_name",
+   "claims": [],
+   "why": "A named Darigaaz character card (Dominaria, 2018).",
+   "printing": {
+    "set": "dom",
+    "collector_number": "193",
+    "id": "9459ffca-5a1f-4641-88d4-8a499b261faa",
+    "oracle_id": "c2f42c67-ff88-4248-bfa5-79a18c6473d5",
+    "illustration_id": "e1f5aeed-564f-473d-bf57-06a76c9f8a57",
+    "artist": "Grzegorz Rutkowski",
+    "released_at": "2018-04-27",
+    "printed_flavor": "",
+    "commander_legality": "legal",
+    "color_identity": [
+     "B",
+     "G",
+     "R"
+    ],
+    "type_line": "Legendary Creature — Dragon",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Dromar, the Banisher",
+   "beat": "III. The Primeval Dragons: heirs of the Elder Dragons",
+   "tier": "CANON_REFERENCE",
+   "source_id": "scryfall_card_text",
+   "source": "scryfall-snapshot:printed_flavor_or_name",
+   "claims": [],
+   "why": "A named Primeval Dragon character card (Invasion).",
+   "printing": {
+    "set": "inv",
+    "collector_number": "244",
+    "id": "cfcc3c72-fff5-454c-814c-eb952fd23ba9",
+    "oracle_id": "35ad7f82-a1b1-4aa7-a8b0-3f99ca2cff52",
+    "illustration_id": "5f08c3e6-17d7-479a-bfdc-74ee1cb8a238",
+    "artist": "Dave Dorman",
+    "released_at": "2000-10-02",
+    "printed_flavor": "",
+    "commander_legality": "legal",
+    "color_identity": [
+     "B",
+     "U",
+     "W"
+    ],
+    "type_line": "Legendary Creature — Dragon",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Treva, the Renewer",
+   "beat": "III. The Primeval Dragons: heirs of the Elder Dragons",
+   "tier": "CANON_REFERENCE",
+   "source_id": "scryfall_card_text",
+   "source": "scryfall-snapshot:printed_flavor_or_name",
+   "claims": [],
+   "why": "A named Primeval Dragon character card (Invasion).",
+   "printing": {
+    "set": "inv",
+    "collector_number": "280",
+    "id": "4ee67039-6cee-4a2d-b973-570f5060f550",
+    "oracle_id": "72524f3c-674b-4ebf-9526-18737b354010",
+    "illustration_id": "fcf48ceb-cd48-4e06-8a58-2253b60d6b20",
+    "artist": "Ciruelo",
+    "released_at": "2000-10-02",
+    "printed_flavor": "",
+    "commander_legality": "legal",
+    "color_identity": [
+     "G",
+     "U",
+     "W"
+    ],
+    "type_line": "Legendary Creature — Dragon",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Crosis's Attendant",
+   "beat": "III. The Primeval Dragons: heirs of the Elder Dragons",
+   "tier": "CANON_REFERENCE",
+   "source_id": "scryfall_card_text",
+   "source": "scryfall-snapshot:printed_flavor_or_name",
+   "claims": [],
+   "why": "Printed flavor: Crosis is the eye of the ur-dragon.",
+   "printing": {
+    "set": "inv",
+    "collector_number": "300",
+    "id": "45edc18c-2046-4d0e-92fe-a6cf4aaf1c6f",
+    "oracle_id": "6223b1c0-bfe0-490c-b2d4-28537b05f571",
+    "illustration_id": "90486050-3cd6-4321-8227-c2b85ed1468b",
+    "artist": "Arnie Swekel",
+    "released_at": "2000-10-02",
+    "printed_flavor": "\"Crosis is the eye of the ur-dragon, piercing illusion and darkness.\"",
+    "commander_legality": "legal",
+    "color_identity": [
+     "B",
+     "R",
+     "U"
+    ],
+    "type_line": "Artifact Creature — Golem",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Darigaaz's Attendant",
+   "beat": "III. The Primeval Dragons: heirs of the Elder Dragons",
+   "tier": "CANON_REFERENCE",
+   "source_id": "scryfall_card_text",
+   "source": "scryfall-snapshot:printed_flavor_or_name",
+   "claims": [],
+   "why": "Printed flavor: Darigaaz is the breath of the ur-dragon.",
+   "printing": {
+    "set": "inv",
+    "collector_number": "301",
+    "id": "6f22b575-443a-4c06-8e75-d4140cbd3660",
+    "oracle_id": "c0ad16d7-2550-47e0-8581-0e22b27cb0d0",
+    "illustration_id": "f7ca9c00-385a-4cf9-b1f6-f1e698c9af1d",
+    "artist": "Brom",
+    "released_at": "2000-10-02",
+    "printed_flavor": "\"Darigaaz is the breath of the ur-dragon, burning away the burdens of mortality.\"",
+    "commander_legality": "legal",
+    "color_identity": [
+     "B",
+     "G",
+     "R"
+    ],
+    "type_line": "Artifact Creature — Golem",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Dromar's Attendant",
+   "beat": "III. The Primeval Dragons: heirs of the Elder Dragons",
+   "tier": "CANON_REFERENCE",
+   "source_id": "scryfall_card_text",
+   "source": "scryfall-snapshot:printed_flavor_or_name",
+   "claims": [],
+   "why": "Printed flavor: Dromar is the wings of the ur-dragon.",
+   "printing": {
+    "set": "inv",
+    "collector_number": "303",
+    "id": "24936fa9-41a3-4da5-91cf-c28fa45f47c9",
+    "oracle_id": "91d36a9d-3a3f-4cb7-837d-b1e8f6730512",
+    "illustration_id": "9dc7f979-a18c-486a-a382-6c4899fa3771",
+    "artist": "Carl Critchlow",
+    "released_at": "2000-10-02",
+    "printed_flavor": "\"Dromar is the wings of the ur-dragon, sweeping away all opposition.\"",
+    "commander_legality": "legal",
+    "color_identity": [
+     "B",
+     "U",
+     "W"
+    ],
+    "type_line": "Artifact Creature — Golem",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Rith's Attendant",
+   "beat": "III. The Primeval Dragons: heirs of the Elder Dragons",
+   "tier": "CANON_REFERENCE",
+   "source_id": "scryfall_card_text",
+   "source": "scryfall-snapshot:printed_flavor_or_name",
+   "claims": [],
+   "why": "Printed flavor: Rith is the claw of the ur-dragon.",
+   "printing": {
+    "set": "inv",
+    "collector_number": "310",
+    "id": "a26e8130-7fe9-4ef4-98af-928814f5b130",
+    "oracle_id": "781542b7-155b-4a66-aa52-eec0ebb29bb2",
+    "illustration_id": "2b348a96-42d9-4f9c-8fc3-b1256c1c0f9a",
+    "artist": "Adam Rex",
+    "released_at": "2000-10-02",
+    "printed_flavor": "\"Rith is the claw of the ur-dragon, scattering seeds of devastation.\"",
+    "commander_legality": "legal",
+    "color_identity": [
+     "G",
+     "R",
+     "W"
+    ],
+    "type_line": "Artifact Creature — Golem",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Treva's Attendant",
+   "beat": "III. The Primeval Dragons: heirs of the Elder Dragons",
+   "tier": "CANON_REFERENCE",
+   "source_id": "scryfall_card_text",
+   "source": "scryfall-snapshot:printed_flavor_or_name",
+   "claims": [],
+   "why": "Printed flavor: Treva is the voice of the ur-dragon.",
+   "printing": {
+    "set": "inv",
+    "collector_number": "315",
+    "id": "9857af81-fb95-4dc4-b048-9ce4e96d1eca",
+    "oracle_id": "ff7d927f-0a01-4243-ad00-c65686ee86bb",
+    "illustration_id": "fc0ea40b-2456-495f-9b0e-edd39cab3966",
+    "artist": "Christopher Moeller",
+    "released_at": "2000-10-02",
+    "printed_flavor": "\"Treva is the voice of the ur-dragon, demanding cries of worship.\"",
+    "commander_legality": "legal",
+    "color_identity": [
+     "G",
+     "U",
+     "W"
+    ],
+    "type_line": "Artifact Creature — Golem",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Scion of the Ur-Dragon",
+   "beat": "III. The Primeval Dragons: heirs of the Elder Dragons",
+   "tier": "LORE_INSPIRED",
+   "source_id": "scryfall_card_text",
+   "source": "scryfall-snapshot:printed_flavor_or_name",
+   "claims": [],
+   "why": "Named after the ur-dragon; a five-colour dragon tutor. Card name only.",
+   "printing": {
+    "set": "tsp",
+    "collector_number": "246",
+    "id": "efb6f85b-60e9-4191-b557-ec952b7f22fc",
+    "oracle_id": "b4031540-584b-4c8a-9e4e-d68ae5cdec5b",
+    "illustration_id": "4a3cf44f-0a96-42fd-a1ed-796401ec88f7",
+    "artist": "Jim Murray",
+    "released_at": "2006-10-06",
+    "printed_flavor": "\"I am the blood of the ur-dragon, coursing through all dragonkind.\"",
+    "commander_legality": "legal",
+    "color_identity": [
+     "B",
+     "G",
+     "R",
+     "U",
+     "W"
+    ],
+    "type_line": "Legendary Creature — Dragon Avatar",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Dromar's Charm",
+   "beat": "IV. Invasion: the Primevals in their own words",
+   "tier": "CANON_REFERENCE",
+   "source_id": "scryfall_card_text",
+   "source": "scryfall-snapshot:printed_flavor_or_name",
+   "claims": [],
+   "why": "Printed Dromar, the Banisher quote.",
+   "printing": {
+    "set": "c13",
+    "collector_number": "187",
+    "id": "69f752d3-3f42-4275-be09-d257c89da70d",
+    "oracle_id": "e9950393-8458-4132-9dc7-01246282a41a",
+    "illustration_id": "ead62bf5-e1f8-43d9-b14a-70e029b3ddc8",
+    "artist": "Marco Nelor",
+    "released_at": "2013-11-01",
+    "printed_flavor": "\"Wisdom can be summed up in two rules: Control what you can. Eliminate what you cannot.\"\n—Dromar, the Banisher",
+    "commander_legality": "legal",
+    "color_identity": [
+     "B",
+     "U",
+     "W"
+    ],
+    "type_line": "Instant",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Insolence",
+   "beat": "IV. Invasion: the Primevals in their own words",
+   "tier": "CANON_REFERENCE",
+   "source_id": "scryfall_card_text",
+   "source": "scryfall-snapshot:printed_flavor_or_name",
+   "claims": [],
+   "why": "Printed Darigaaz quote, addressed to Rith.",
+   "printing": {
+    "set": "pls",
+    "collector_number": "63",
+    "id": "d8009a37-f966-4a71-9a2a-469127758dc6",
+    "oracle_id": "33a6d78a-a3c7-44f1-8ce9-d6632123fec1",
+    "illustration_id": "230a301b-2ee4-42d6-ad64-766713a0d58c",
+    "artist": "Carl Critchlow",
+    "released_at": "2001-02-05",
+    "printed_flavor": "\"Sacrificing mortal dragons to satisfy your immortal hunger ends here.\"\n—Darigaaz, to Rith",
+    "commander_legality": "legal",
+    "color_identity": [
+     "R"
+    ],
+    "type_line": "Enchantment — Aura",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Malicious Advice",
+   "beat": "IV. Invasion: the Primevals in their own words",
+   "tier": "CANON_REFERENCE",
+   "source_id": "scryfall_card_text",
+   "source": "scryfall-snapshot:printed_flavor_or_name",
+   "claims": [],
+   "why": "Printed Tevesh Szat advice to Darigaaz.",
+   "printing": {
+    "set": "pls",
+    "collector_number": "114",
+    "id": "7b1547c2-ae9f-4871-a675-4026bf20e7e1",
+    "oracle_id": "14c1adf8-950b-4f64-9c84-956a623448f4",
+    "illustration_id": "380757e7-5a8e-4319-8176-521fbe0bdd5b",
+    "artist": "Glen Angus",
+    "released_at": "2001-02-05",
+    "printed_flavor": "\"Rule through fear, Darigaaz. Only if the dragons feel terror will they truly be your servants.\"\n—Tevesh Szat",
+    "commander_legality": "legal",
+    "color_identity": [
+     "B",
+     "U"
+    ],
+    "type_line": "Instant",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Backlash",
+   "beat": "IV. Invasion: the Primevals in their own words",
+   "tier": "CANON_REFERENCE",
+   "source_id": "scryfall_card_text",
+   "source": "scryfall-snapshot:printed_flavor_or_name",
+   "claims": [],
+   "why": "Printed flavor about Darigaaz.",
+   "printing": {
+    "set": "inv",
+    "collector_number": "234",
+    "id": "dadf030d-5451-43fc-bf0c-c1629fdf88ec",
+    "oracle_id": "3db9bf7b-da4e-428f-aa5d-a0cd1afeb16c",
+    "illustration_id": "aee067f7-fd6b-44a1-9329-14b9d258fdc9",
+    "artist": "Chippy",
+    "released_at": "2000-10-02",
+    "printed_flavor": "Darigaaz decided his foe would be more useful as a weapon.",
+    "commander_legality": "legal",
+    "color_identity": [
+     "B",
+     "R"
+    ],
+    "type_line": "Instant",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Shriek of Dread",
+   "beat": "IV. Invasion: the Primevals in their own words",
+   "tier": "CANON_REFERENCE",
+   "source_id": "scryfall_card_text",
+   "source": "scryfall-snapshot:printed_flavor_or_name",
+   "claims": [],
+   "why": "Printed flavor: when Crosis roared, the battle ended.",
+   "printing": {
+    "set": "pls",
+    "collector_number": "53",
+    "id": "54a7fb3b-8e81-4763-b2a1-7c2108a00afe",
+    "oracle_id": "ee5a4902-f993-4fe6-92da-38636962c558",
+    "illustration_id": "c9341638-af27-4f1b-a2b4-e2fe281bb94e",
+    "artist": "Nelson DeCastro",
+    "released_at": "2001-02-05",
+    "printed_flavor": "When Crosis roared, the battle ended and the slaughter began.",
+    "commander_legality": "legal",
+    "color_identity": [
+     "B"
+    ],
+    "type_line": "Instant",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Terminate",
+   "beat": "IV. Invasion: the Primevals in their own words",
+   "tier": "CANON_REFERENCE",
+   "source_id": "scryfall_card_text",
+   "source": "scryfall-snapshot:printed_flavor_or_name",
+   "claims": [],
+   "why": "Chosen for the printing whose flavor recalls Darigaaz dying to defend Dominaria, like his mother.",
+   "printing": {
+    "set": "pls",
+    "collector_number": "128",
+    "id": "190ca502-672d-4cc0-b6e0-b9de517058d0",
+    "oracle_id": "6257c2fd-005f-41e3-8a72-af76df1eb134",
+    "illustration_id": "9aa617c0-0471-41e4-a397-200047006af9",
+    "artist": "DiTerlizzi",
+    "released_at": "2001-02-05",
+    "printed_flavor": "Like his mother before him, Darigaaz gave his life defending Dominaria from the tyranny of self-styled \"gods.\"",
+    "commander_legality": "legal",
+    "color_identity": [
+     "B",
+     "R"
+    ],
+    "type_line": "Instant",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Pyretic Rebirth",
+   "beat": "IV. Invasion: the Primevals in their own words",
+   "tier": "CANON_REFERENCE",
+   "source_id": "scryfall_card_text",
+   "source": "scryfall-snapshot:printed_flavor_or_name",
+   "claims": [],
+   "why": "Printed flavor: death has never kept Darigaaz down for long.",
+   "printing": {
+    "set": "mh3",
+    "collector_number": "200",
+    "id": "5968f641-48b5-4b97-8072-ddd8073cd4d7",
+    "oracle_id": "a38ace5b-34f5-4105-b6ee-dedb86037729",
+    "illustration_id": "38b58761-40ff-4233-b5dd-fe6d1f3e5eb7",
+    "artist": "Richard Kane Ferguson",
+    "released_at": "2024-06-14",
+    "printed_flavor": "Death has never kept Darigaaz down for long.",
+    "commander_legality": "legal",
+    "color_identity": [
+     "B",
+     "R"
+    ],
+    "type_line": "Instant",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Breath of Darigaaz",
+   "beat": "IV. Invasion: the Primevals in their own words",
+   "tier": "LORE_INSPIRED",
+   "source_id": "scryfall_card_text",
+   "source": "scryfall-snapshot:printed_flavor_or_name",
+   "claims": [],
+   "why": "Named for Darigaaz. Card name only.",
+   "printing": {
+    "set": "inv",
+    "collector_number": "138",
+    "id": "480bb7e3-df03-454d-ada0-592ef8a4a6f0",
+    "oracle_id": "1954994f-17bf-4ea5-af72-60f9bfcb6569",
+    "illustration_id": "bb2f58ae-11d6-4888-8d0d-7951f0e092a5",
+    "artist": "Greg Hildebrandt & Tim Hildebrandt",
+    "released_at": "2000-10-02",
+    "printed_flavor": "",
+    "commander_legality": "legal",
+    "color_identity": [
+     "R"
+    ],
+    "type_line": "Sorcery",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Crosis's Charm",
+   "beat": "IV. Invasion: the Primevals in their own words",
+   "tier": "LORE_INSPIRED",
+   "source_id": "scryfall_card_text",
+   "source": "scryfall-snapshot:printed_flavor_or_name",
+   "claims": [],
+   "why": "Named Primeval charm. Card name only.",
+   "printing": {
+    "set": "pls",
+    "collector_number": "99",
+    "id": "b59a9e75-9988-4040-a718-b1655fc20d11",
+    "oracle_id": "e59d70a2-40ac-45b0-995d-65b9caa290c8",
+    "illustration_id": "b067924c-d557-4e10-b452-ecd53b4d0582",
+    "artist": "David Martin",
+    "released_at": "2001-02-05",
+    "printed_flavor": "",
+    "commander_legality": "legal",
+    "color_identity": [
+     "B",
+     "R",
+     "U"
+    ],
+    "type_line": "Instant",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Darigaaz's Charm",
+   "beat": "IV. Invasion: the Primevals in their own words",
+   "tier": "LORE_INSPIRED",
+   "source_id": "scryfall_card_text",
+   "source": "scryfall-snapshot:printed_flavor_or_name",
+   "claims": [],
+   "why": "Named Primeval charm. Card name only.",
+   "printing": {
+    "set": "pls",
+    "collector_number": "100",
+    "id": "cf4c9d6a-86eb-45be-9405-473eb263b94c",
+    "oracle_id": "7ee01801-5e42-4916-a359-64e9975090a7",
+    "illustration_id": "931a3cf7-168b-4889-924d-2278283c87f0",
+    "artist": "David Martin",
+    "released_at": "2001-02-05",
+    "printed_flavor": "",
+    "commander_legality": "legal",
+    "color_identity": [
+     "B",
+     "G",
+     "R"
+    ],
+    "type_line": "Instant",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Rith's Charm",
+   "beat": "IV. Invasion: the Primevals in their own words",
+   "tier": "LORE_INSPIRED",
+   "source_id": "scryfall_card_text",
+   "source": "scryfall-snapshot:printed_flavor_or_name",
+   "claims": [],
+   "why": "Named Primeval charm. Card name only.",
+   "printing": {
+    "set": "pls",
+    "collector_number": "122",
+    "id": "dd30f389-bac8-4b82-a8a7-6948d43a9f60",
+    "oracle_id": "9dbccdc5-61f7-4a7d-bbbc-5cab393e24f7",
+    "illustration_id": "cea73c2a-18a5-4b0c-a2a3-a344eabc84d5",
+    "artist": "David Martin",
+    "released_at": "2001-02-05",
+    "printed_flavor": "",
+    "commander_legality": "legal",
+    "color_identity": [
+     "G",
+     "R",
+     "W"
+    ],
+    "type_line": "Instant",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Treva's Charm",
+   "beat": "IV. Invasion: the Primevals in their own words",
+   "tier": "LORE_INSPIRED",
+   "source_id": "scryfall_card_text",
+   "source": "scryfall-snapshot:printed_flavor_or_name",
+   "claims": [],
+   "why": "Named Primeval charm. Card name only.",
+   "printing": {
+    "set": "pls",
+    "collector_number": "129",
+    "id": "72acb67d-01cb-4fde-8b0b-199e8d1e396a",
+    "oracle_id": "e9795590-0918-49f9-b37c-1278c8616ab1",
+    "illustration_id": "93a3c6e3-7fd7-4211-a412-b3b662dc35cd",
+    "artist": "David Martin",
+    "released_at": "2001-02-05",
+    "printed_flavor": "",
+    "commander_legality": "legal",
+    "color_identity": [
+     "G",
+     "U",
+     "W"
+    ],
+    "type_line": "Instant",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Crosis's Catacombs",
+   "beat": "story lands",
+   "tier": "LORE_INSPIRED",
+   "source_id": "scryfall_card_text",
+   "source": "scryfall-snapshot:printed_flavor_or_name",
+   "claims": [],
+   "why": "A named Primeval Dragon lair land (Planeshift). Name only.",
+   "printing": {
+    "set": "pls",
+    "collector_number": "136",
+    "id": "7caad74f-c0d0-4eca-94be-b89a2c9a3980",
+    "oracle_id": "e9a7dede-3968-4b0e-a707-419d46a6fec9",
+    "illustration_id": "e277ac38-6c69-41eb-b4b5-4042eafb1c4e",
+    "artist": "Edward P. Beard, Jr.",
+    "released_at": "2001-02-05",
+    "printed_flavor": "",
+    "commander_legality": "legal",
+    "color_identity": [
+     "B",
+     "R",
+     "U"
+    ],
+    "type_line": "Land — Lair",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Darigaaz's Caldera",
+   "beat": "story lands",
+   "tier": "LORE_INSPIRED",
+   "source_id": "scryfall_card_text",
+   "source": "scryfall-snapshot:printed_flavor_or_name",
+   "claims": [],
+   "why": "A named Primeval Dragon lair land (Planeshift). Name only.",
+   "printing": {
+    "set": "pls",
+    "collector_number": "137",
+    "id": "752f6f0c-af30-4937-b4a7-48f493e007a0",
+    "oracle_id": "19b58ec9-bb88-4193-8ea8-c8f09ceec1ed",
+    "illustration_id": "8bae9b6b-e037-4ca4-a2c5-4e39c8986af1",
+    "artist": "Franz Vohwinkel",
+    "released_at": "2001-02-05",
+    "printed_flavor": "",
+    "commander_legality": "legal",
+    "color_identity": [
+     "B",
+     "G",
+     "R"
+    ],
+    "type_line": "Land — Lair",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Dromar's Cavern",
+   "beat": "story lands",
+   "tier": "LORE_INSPIRED",
+   "source_id": "scryfall_card_text",
+   "source": "scryfall-snapshot:printed_flavor_or_name",
+   "claims": [],
+   "why": "A named Primeval Dragon lair land (Planeshift). Name only.",
+   "printing": {
+    "set": "pls",
+    "collector_number": "138",
+    "id": "85f10cee-6a63-438e-a9df-6b902dd025b8",
+    "oracle_id": "d8b57707-796d-4488-8f91-65bb75bc6281",
+    "illustration_id": "480d8e7d-bf1b-40c9-9a46-ab8b8293fff0",
+    "artist": "Franz Vohwinkel",
+    "released_at": "2001-02-05",
+    "printed_flavor": "",
+    "commander_legality": "legal",
+    "color_identity": [
+     "B",
+     "U",
+     "W"
+    ],
+    "type_line": "Land — Lair",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Rith's Grove",
+   "beat": "story lands",
+   "tier": "LORE_INSPIRED",
+   "source_id": "scryfall_card_text",
+   "source": "scryfall-snapshot:printed_flavor_or_name",
+   "claims": [],
+   "why": "A named Primeval Dragon lair land (Planeshift). Name only.",
+   "printing": {
+    "set": "pls",
+    "collector_number": "141",
+    "id": "740fa25d-9c1f-44eb-9eb4-0dd514cb315a",
+    "oracle_id": "e13289e5-370b-435b-a38e-cf57c3078cec",
+    "illustration_id": "932a8228-41b6-417d-8c7e-3673fa41a9b7",
+    "artist": "Scott Bailey",
+    "released_at": "2001-02-05",
+    "printed_flavor": "",
+    "commander_legality": "legal",
+    "color_identity": [
+     "G",
+     "R",
+     "W"
+    ],
+    "type_line": "Land — Lair",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Treva's Ruins",
+   "beat": "story lands",
+   "tier": "LORE_INSPIRED",
+   "source_id": "scryfall_card_text",
+   "source": "scryfall-snapshot:printed_flavor_or_name",
+   "claims": [],
+   "why": "A named Primeval Dragon lair land (Planeshift). Name only.",
+   "printing": {
+    "set": "pls",
+    "collector_number": "143",
+    "id": "8bae2458-b54f-426a-ad40-13529a73c423",
+    "oracle_id": "7b2c7758-2b89-49ff-8838-8dc9880c7209",
+    "illustration_id": "b2c19c14-1a24-482f-95c9-a0f79de8abdb",
+    "artist": "Jerry Tiritilli",
+    "released_at": "2001-02-05",
+    "printed_flavor": "",
+    "commander_legality": "legal",
+    "color_identity": [
+     "G",
+     "U",
+     "W"
+    ],
+    "type_line": "Land — Lair",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Command Tower",
+   "beat": "playability",
+   "tier": "MECHANICAL_SYMBOL",
+   "source_id": "scryfall_card_text",
+   "source": "scryfall-snapshot:printed_flavor_or_name",
+   "claims": [],
+   "why": "Mana, fixing, removal or dragon support for a five-colour commander; no story claim.",
+   "printing": {
+    "set": "cmd",
+    "collector_number": "269",
+    "id": "46982091-cc78-4171-8b3d-d07592684728",
+    "oracle_id": "0895c9b7-ae7d-4bb3-af17-3b75deb50a25",
+    "illustration_id": "8218c3fe-62e3-4639-a305-68897194c3d3",
+    "artist": "Ryan Yee",
+    "released_at": "2011-06-17",
+    "printed_flavor": "When defeat is near and guidance is scarce, all eyes look in one direction.",
+    "commander_legality": "legal",
+    "color_identity": [],
+    "type_line": "Land",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Exotic Orchard",
+   "beat": "playability",
+   "tier": "MECHANICAL_SYMBOL",
+   "source_id": "scryfall_card_text",
+   "source": "scryfall-snapshot:printed_flavor_or_name",
+   "claims": [],
+   "why": "Mana, fixing, removal or dragon support for a five-colour commander; no story claim.",
+   "printing": {
+    "set": "con",
+    "collector_number": "142",
+    "id": "6aae6480-4e71-4d94-a648-f80d3849d792",
+    "oracle_id": "27b047e3-0d41-45e2-98e9-9391d7923a1e",
+    "illustration_id": "f67845cb-fe3b-4f90-8de2-bdb69daca307",
+    "artist": "Steven Belledin",
+    "released_at": "2009-02-06",
+    "printed_flavor": "\"It was a strange morning. When we awoke, we found our trees transformed. We didn't know whether to water them or polish them.\"\n—Pulan, Bant orchardist",
+    "commander_legality": "legal",
+    "color_identity": [],
+    "type_line": "Land",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Path of Ancestry",
+   "beat": "playability",
+   "tier": "MECHANICAL_SYMBOL",
+   "source_id": "scryfall_card_text",
+   "source": "scryfall-snapshot:printed_flavor_or_name",
+   "claims": [],
+   "why": "Mana, fixing, removal or dragon support for a five-colour commander; no story claim.",
+   "printing": {
+    "set": "c17",
+    "collector_number": "56",
+    "id": "70e70720-f0b9-4ad7-9366-927d6798d31e",
+    "oracle_id": "b473e293-59e3-4e04-acf2-622604aeb25f",
+    "illustration_id": "588f6d6f-e78a-4468-8067-dfbdf29c5a49",
+    "artist": "Alayna Danner",
+    "released_at": "2017-08-25",
+    "printed_flavor": "",
+    "commander_legality": "legal",
+    "color_identity": [],
+    "type_line": "Land",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "City of Brass",
+   "beat": "playability",
+   "tier": "MECHANICAL_SYMBOL",
+   "source_id": "scryfall_card_text",
+   "source": "scryfall-snapshot:printed_flavor_or_name",
+   "claims": [],
+   "why": "Mana, fixing, removal or dragon support for a five-colour commander; no story claim.",
+   "printing": {
+    "set": "arn",
+    "collector_number": "71",
+    "id": "f4e32327-380d-471e-813b-4c27477787ce",
+    "oracle_id": "f25351e3-539b-4bbc-b92d-6480acf4d722",
+    "illustration_id": "a5d6c290-9ca1-44e4-ac8f-5693aa19bbda",
+    "artist": "Mark Tedin",
+    "released_at": "1993-12-17",
+    "printed_flavor": "",
+    "commander_legality": "legal",
+    "color_identity": [],
+    "type_line": "Land",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Mana Confluence",
+   "beat": "playability",
+   "tier": "MECHANICAL_SYMBOL",
+   "source_id": "scryfall_card_text",
+   "source": "scryfall-snapshot:printed_flavor_or_name",
+   "claims": [],
+   "why": "Mana, fixing, removal or dragon support for a five-colour commander; no story claim.",
+   "printing": {
+    "set": "jou",
+    "collector_number": "163",
+    "id": "504a69eb-3c2d-4bb1-b117-252b15acf0c2",
+    "oracle_id": "d0ee5bdc-2b69-4b73-9a20-ffcc18783b29",
+    "illustration_id": "00679d5a-ad7d-45fd-8a97-a317ed292cc1",
+    "artist": "Richard Wright",
+    "released_at": "2014-05-02",
+    "printed_flavor": "Five rivers encircle Theros, flowing with waters more ancient than the world itself.",
+    "commander_legality": "legal",
+    "color_identity": [],
+    "type_line": "Land",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Unclaimed Territory",
+   "beat": "playability",
+   "tier": "MECHANICAL_SYMBOL",
+   "source_id": "scryfall_card_text",
+   "source": "scryfall-snapshot:printed_flavor_or_name",
+   "claims": [],
+   "why": "Mana, fixing, removal or dragon support for a five-colour commander; no story claim.",
+   "printing": {
+    "set": "xln",
+    "collector_number": "258",
+    "id": "ff765732-6fe3-4594-bff5-6ce47a79f45a",
+    "oracle_id": "584b15f2-6ae9-413a-8b8d-9244dbea4878",
+    "illustration_id": "af29d773-c81a-4062-aad1-600bc35b838f",
+    "artist": "Dimitar Marinski",
+    "released_at": "2017-09-29",
+    "printed_flavor": "",
+    "commander_legality": "legal",
+    "color_identity": [],
+    "type_line": "Land",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Raugrin Triome",
+   "beat": "playability",
+   "tier": "MECHANICAL_SYMBOL",
+   "source_id": "scryfall_card_text",
+   "source": "scryfall-snapshot:printed_flavor_or_name",
+   "claims": [],
+   "why": "Mana, fixing, removal or dragon support for a five-colour commander; no story claim.",
+   "printing": {
+    "set": "iko",
+    "collector_number": "251",
+    "id": "02138fbb-3962-4348-8d31-faaefba0b8b2",
+    "oracle_id": "c7fa1dda-9312-4ec8-82cd-a1ba7bc33497",
+    "illustration_id": "601afc7d-b8e5-4f94-ad0d-c0813caa4f77",
+    "artist": "Jonas De Ro",
+    "released_at": "2020-04-24",
+    "printed_flavor": "Raugrin meets the sea with jaws wide, its coast spiked with teeth of crystal and granite.",
+    "commander_legality": "legal",
+    "color_identity": [
+     "R",
+     "U",
+     "W"
+    ],
+    "type_line": "Land — Island Mountain Plains",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Savai Triome",
+   "beat": "playability",
+   "tier": "MECHANICAL_SYMBOL",
+   "source_id": "scryfall_card_text",
+   "source": "scryfall-snapshot:printed_flavor_or_name",
+   "claims": [],
+   "why": "Mana, fixing, removal or dragon support for a five-colour commander; no story claim.",
+   "printing": {
+    "set": "iko",
+    "collector_number": "253",
+    "id": "748e6a61-9c1f-4225-9f04-e54002f63ac3",
+    "oracle_id": "00625242-9348-4ef4-b975-f2ac82fee21d",
+    "illustration_id": "c204476b-2750-40dd-b8e1-3d3f5e97415a",
+    "artist": "Titus Lunter",
+    "released_at": "2020-04-24",
+    "printed_flavor": "Broad prairies feed the human sanctuary of Drannith and conceal a network of caverns where giant cats make their dens.",
+    "commander_legality": "legal",
+    "color_identity": [
+     "B",
+     "R",
+     "W"
+    ],
+    "type_line": "Land — Mountain Plains Swamp",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Zagoth Triome",
+   "beat": "playability",
+   "tier": "MECHANICAL_SYMBOL",
+   "source_id": "scryfall_card_text",
+   "source": "scryfall-snapshot:printed_flavor_or_name",
+   "claims": [],
+   "why": "Mana, fixing, removal or dragon support for a five-colour commander; no story claim.",
+   "printing": {
+    "set": "iko",
+    "collector_number": "259",
+    "id": "cc520518-2063-4b57-a0d4-10cf62a7175e",
+    "oracle_id": "fdd46004-eaba-4024-8687-39b23dc6a58c",
+    "illustration_id": "009d79ab-b736-4453-8875-de892ebe49be",
+    "artist": "Eytan Zana",
+    "released_at": "2020-04-24",
+    "printed_flavor": "Hunters in the primeval wetlands become fluent in reading the ripples to tell when to pursue and when to flee.",
+    "commander_legality": "legal",
+    "color_identity": [
+     "B",
+     "G",
+     "U"
+    ],
+    "type_line": "Land — Swamp Forest Island",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Ketria Triome",
+   "beat": "playability",
+   "tier": "MECHANICAL_SYMBOL",
+   "source_id": "scryfall_card_text",
+   "source": "scryfall-snapshot:printed_flavor_or_name",
+   "claims": [],
+   "why": "Mana, fixing, removal or dragon support for a five-colour commander; no story claim.",
+   "printing": {
+    "set": "iko",
+    "collector_number": "250",
+    "id": "a249b1f4-2b22-4b67-a207-e0c4ae95d2e1",
+    "oracle_id": "6bae00e8-06cf-4ac4-a1cc-757e454109fe",
+    "illustration_id": "79b30853-3e97-4c18-bd8e-e7f5495c11a1",
+    "artist": "Sam Burley",
+    "released_at": "2020-04-24",
+    "printed_flavor": "Nowhere on Ikoria are monsters more integral to the landscape than Ketria, where the river itself will stand up and roar.",
+    "commander_legality": "legal",
+    "color_identity": [
+     "G",
+     "R",
+     "U"
+    ],
+    "type_line": "Land — Forest Island Mountain",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Indatha Triome",
+   "beat": "playability",
+   "tier": "MECHANICAL_SYMBOL",
+   "source_id": "scryfall_card_text",
+   "source": "scryfall-snapshot:printed_flavor_or_name",
+   "claims": [],
+   "why": "Mana, fixing, removal or dragon support for a five-colour commander; no story claim.",
+   "printing": {
+    "set": "iko",
+    "collector_number": "248",
+    "id": "2b74bb81-fb9a-40e5-a941-e517430b52f5",
+    "oracle_id": "ec2b3779-55f7-4169-aa66-6312fb52721f",
+    "illustration_id": "516194c5-07ea-4ee5-8183-01e3e9ec2c9a",
+    "artist": "Noah Bradley",
+    "released_at": "2020-04-24",
+    "printed_flavor": "\"These lowlands were formed thousands of years ago by the behemoth Indath—its final footsteps before vanishing into the sea.\"\n—*Tales of the Ozolith*",
+    "commander_legality": "legal",
+    "color_identity": [
+     "B",
+     "G",
+     "W"
+    ],
+    "type_line": "Land — Plains Swamp Forest",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Spara's Headquarters",
+   "beat": "playability",
+   "tier": "MECHANICAL_SYMBOL",
+   "source_id": "scryfall_card_text",
+   "source": "scryfall-snapshot:printed_flavor_or_name",
+   "claims": [],
+   "why": "Mana, fixing, removal or dragon support for a five-colour commander; no story claim.",
+   "printing": {
+    "set": "snc",
+    "collector_number": "257",
+    "id": "7363f1fb-9af3-4212-921f-d59533faf0e5",
+    "oracle_id": "3123ec89-8e95-4761-ba17-747ec667509f",
+    "illustration_id": "63cca6ae-9310-4bb1-86a2-36900cbd8813",
+    "artist": "Kieran Yanner",
+    "released_at": "2022-04-29",
+    "printed_flavor": "To most, the Nido Sanctuary is an office complex. To the Brokers, it's a vault of secrets.",
+    "commander_legality": "legal",
+    "color_identity": [
+     "G",
+     "U",
+     "W"
+    ],
+    "type_line": "Land — Forest Plains Island",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Raffine's Tower",
+   "beat": "playability",
+   "tier": "MECHANICAL_SYMBOL",
+   "source_id": "scryfall_card_text",
+   "source": "scryfall-snapshot:printed_flavor_or_name",
+   "claims": [],
+   "why": "Mana, fixing, removal or dragon support for a five-colour commander; no story claim.",
+   "printing": {
+    "set": "snc",
+    "collector_number": "254",
+    "id": "a2c56479-4bee-4edb-80d7-4af010b7c793",
+    "oracle_id": "6e9ef5ef-6aed-4d3e-a59b-9e3dc8740b1b",
+    "illustration_id": "166e22e4-10ab-4212-954b-54d9f671a967",
+    "artist": "Sam White",
+    "released_at": "2022-04-29",
+    "printed_flavor": "The Obscura's Cloud Spire dominates the skyline, its eye a beacon of progress that sees all.",
+    "commander_legality": "legal",
+    "color_identity": [
+     "B",
+     "U",
+     "W"
+    ],
+    "type_line": "Land — Plains Island Swamp",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Xander's Lounge",
+   "beat": "playability",
+   "tier": "MECHANICAL_SYMBOL",
+   "source_id": "scryfall_card_text",
+   "source": "scryfall-snapshot:printed_flavor_or_name",
+   "claims": [],
+   "why": "Mana, fixing, removal or dragon support for a five-colour commander; no story claim.",
+   "printing": {
+    "set": "snc",
+    "collector_number": "260",
+    "id": "54f449ff-4025-465e-9ec5-a5cf42c4c9d3",
+    "oracle_id": "8291543f-d086-48aa-b2b7-5481ca8c9198",
+    "illustration_id": "e1605231-1472-42f1-a2b8-cdbcd76198af",
+    "artist": "James Paick",
+    "released_at": "2022-04-29",
+    "printed_flavor": "Maestros agents can lie low in high style at the opulent Shadow Hostel.",
+    "commander_legality": "legal",
+    "color_identity": [
+     "B",
+     "R",
+     "U"
+    ],
+    "type_line": "Land — Island Swamp Mountain",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Ziatora's Proving Ground",
+   "beat": "playability",
+   "tier": "MECHANICAL_SYMBOL",
+   "source_id": "scryfall_card_text",
+   "source": "scryfall-snapshot:printed_flavor_or_name",
+   "claims": [],
+   "why": "Mana, fixing, removal or dragon support for a five-colour commander; no story claim.",
+   "printing": {
+    "set": "snc",
+    "collector_number": "261",
+    "id": "75fdce80-e338-4a50-bdc6-786511feaeef",
+    "oracle_id": "f7e7b78c-c769-4720-8585-1874773eb342",
+    "illustration_id": "421750dc-ed98-47c6-b2de-c7321d15758f",
+    "artist": "Viko Menezes",
+    "released_at": "2022-04-29",
+    "printed_flavor": "Restless Riveteers can always find a sparring partner in the sprawling Treza warehouse.",
+    "commander_legality": "legal",
+    "color_identity": [
+     "B",
+     "G",
+     "R"
+    ],
+    "type_line": "Land — Swamp Mountain Forest",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Jetmir's Garden",
+   "beat": "playability",
+   "tier": "MECHANICAL_SYMBOL",
+   "source_id": "scryfall_card_text",
+   "source": "scryfall-snapshot:printed_flavor_or_name",
+   "claims": [],
+   "why": "Mana, fixing, removal or dragon support for a five-colour commander; no story claim.",
+   "printing": {
+    "set": "snc",
+    "collector_number": "250",
+    "id": "26d40e03-6de4-4373-9fbf-04c1dd79e995",
+    "oracle_id": "f5896356-5744-4f7e-a4e5-1cc36dde5958",
+    "illustration_id": "d8977623-189a-4754-97e0-de4d6dbe44bf",
+    "artist": "Kasia 'Kafis' Zielińska",
+    "released_at": "2022-04-29",
+    "printed_flavor": "The parklike Cabaretti grounds offer rest, food, and the perfect place to shake off a tail.",
+    "commander_legality": "legal",
+    "color_identity": [
+     "G",
+     "R",
+     "W"
+    ],
+    "type_line": "Land — Mountain Forest Plains",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Cavern of Souls",
+   "beat": "playability",
+   "tier": "MECHANICAL_SYMBOL",
+   "source_id": "scryfall_card_text",
+   "source": "scryfall-snapshot:printed_flavor_or_name",
+   "claims": [],
+   "why": "Mana, fixing, removal or dragon support for a five-colour commander; no story claim.",
+   "printing": {
+    "set": "avr",
+    "collector_number": "226",
+    "id": "1381c8f1-a292-4bdf-b20c-a5c2a169ee84",
+    "oracle_id": "89ca686a-7c72-4d8f-9290-e89635624a83",
+    "illustration_id": "cffa9cb0-6cb5-4dfc-918e-142f00c8f6d0",
+    "artist": "Cliff Childs",
+    "released_at": "2012-05-04",
+    "printed_flavor": "",
+    "commander_legality": "legal",
+    "color_identity": [],
+    "type_line": "Land",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Sol Ring",
+   "beat": "playability",
+   "tier": "MECHANICAL_SYMBOL",
+   "source_id": "scryfall_card_text",
+   "source": "scryfall-snapshot:printed_flavor_or_name",
+   "claims": [],
+   "why": "Mana, fixing, removal or dragon support for a five-colour commander; no story claim.",
+   "printing": {
+    "set": "lea",
+    "collector_number": "269",
+    "id": "c4300d24-1cae-4dd5-be7e-38cc677cf5bd",
+    "oracle_id": "6ad8011d-3471-4369-9d68-b264cc027487",
+    "illustration_id": "54462260-8d64-4ec2-bac7-f2d469f187f3",
+    "artist": "Mark Tedin",
+    "released_at": "1993-08-05",
+    "printed_flavor": "",
+    "commander_legality": "legal",
+    "color_identity": [],
+    "type_line": "Artifact",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Arcane Signet",
+   "beat": "playability",
+   "tier": "MECHANICAL_SYMBOL",
+   "source_id": "scryfall_card_text",
+   "source": "scryfall-snapshot:printed_flavor_or_name",
+   "claims": [],
+   "why": "Mana, fixing, removal or dragon support for a five-colour commander; no story claim.",
+   "printing": {
+    "set": "eld",
+    "collector_number": "331",
+    "id": "84128e98-87d6-4c2f-909b-9435a7833e63",
+    "oracle_id": "0bc7f093-bef0-4f1a-852c-4b75ebf54838",
+    "illustration_id": "06d7b990-021a-4b1f-9333-4fc82adf0ea4",
+    "artist": "Dan Murayama Scott",
+    "released_at": "2019-10-04",
+    "printed_flavor": "It started as a mere drop of water. The Magic Mirror crystallized it into much more.",
+    "commander_legality": "legal",
+    "color_identity": [],
+    "type_line": "Artifact",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Chromatic Lantern",
+   "beat": "playability",
+   "tier": "MECHANICAL_SYMBOL",
+   "source_id": "scryfall_card_text",
+   "source": "scryfall-snapshot:printed_flavor_or_name",
+   "claims": [],
+   "why": "Mana, fixing, removal or dragon support for a five-colour commander; no story claim.",
+   "printing": {
+    "set": "rtr",
+    "collector_number": "226",
+    "id": "57f4e0f0-13d1-43ed-8d95-13cff94a26e7",
+    "oracle_id": "539f5396-d99a-417d-a84c-dff7930b5900",
+    "illustration_id": "ffea5e76-3eaf-4fc0-a78f-7018ee24ced1",
+    "artist": "Jung Park",
+    "released_at": "2012-10-05",
+    "printed_flavor": "Dimir mages put the lanterns to good use, creating shapeshifters and sleeper agents from mana foreign to them.",
+    "commander_legality": "legal",
+    "color_identity": [],
+    "type_line": "Artifact",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Cultivate",
+   "beat": "playability",
+   "tier": "MECHANICAL_SYMBOL",
+   "source_id": "scryfall_card_text",
+   "source": "scryfall-snapshot:printed_flavor_or_name",
+   "claims": [],
+   "why": "Mana, fixing, removal or dragon support for a five-colour commander; no story claim.",
+   "printing": {
+    "set": "m11",
+    "collector_number": "168",
+    "id": "2ef3dbe4-5c03-4be4-ab48-45b6689b6712",
+    "oracle_id": "8b755881-a72d-4e21-a369-d2924eb4585a",
+    "illustration_id": "185ef21e-5abe-4825-bd38-8f9a2e61045e",
+    "artist": "Anthony Palumbo",
+    "released_at": "2010-07-16",
+    "printed_flavor": "All seeds share a common bond, calling to each other across infinity.",
+    "commander_legality": "legal",
+    "color_identity": [
+     "G"
+    ],
+    "type_line": "Sorcery",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Kodama's Reach",
+   "beat": "playability",
+   "tier": "MECHANICAL_SYMBOL",
+   "source_id": "scryfall_card_text",
+   "source": "scryfall-snapshot:printed_flavor_or_name",
+   "claims": [],
+   "why": "Mana, fixing, removal or dragon support for a five-colour commander; no story claim.",
+   "printing": {
+    "set": "chk",
+    "collector_number": "225",
+    "id": "85d207ac-0680-47ef-85d9-4323c1321d6f",
+    "oracle_id": "1593ea18-2f2f-4ab4-83fb-6ccc0bec8a90",
+    "illustration_id": "796d5de6-48ea-4c35-b43a-3f6ff0903748",
+    "artist": "Heather Hudson",
+    "released_at": "2004-10-01",
+    "printed_flavor": "\"The land grows only where the kami will it.\"\n—Dosan the Falling Leaf",
+    "commander_legality": "legal",
+    "color_identity": [
+     "G"
+    ],
+    "type_line": "Sorcery — Arcane",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Farseek",
+   "beat": "playability",
+   "tier": "MECHANICAL_SYMBOL",
+   "source_id": "scryfall_card_text",
+   "source": "scryfall-snapshot:printed_flavor_or_name",
+   "claims": [],
+   "why": "Mana, fixing, removal or dragon support for a five-colour commander; no story claim.",
+   "printing": {
+    "set": "rav",
+    "collector_number": "163",
+    "id": "8180abec-9459-4b81-987e-b1794e45d543",
+    "oracle_id": "495e52e6-4c2b-4574-9474-eadbdcc8b4ac",
+    "illustration_id": "07fcdd82-2674-4902-a2d3-eea888141aa3",
+    "artist": "Martina Pilcerova",
+    "released_at": "2005-10-07",
+    "printed_flavor": "\"How truly vast this city must be, that I have traveled so far and seen so much, yet never once found the place where the buildings fail.\"",
+    "commander_legality": "legal",
+    "color_identity": [
+     "G"
+    ],
+    "type_line": "Sorcery",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Nature's Lore",
+   "beat": "playability",
+   "tier": "MECHANICAL_SYMBOL",
+   "source_id": "scryfall_card_text",
+   "source": "scryfall-snapshot:printed_flavor_or_name",
+   "claims": [],
+   "why": "Mana, fixing, removal or dragon support for a five-colour commander; no story claim.",
+   "printing": {
+    "set": "ice",
+    "collector_number": "255",
+    "id": "668d2969-b6b7-4507-bdd4-20bbaa68035a",
+    "oracle_id": "78826359-fe63-44ad-adc4-a17ffcd710e4",
+    "illustration_id": "c1bb14fd-0334-4395-9ed0-16a91bb82a0a",
+    "artist": "Rick Emond",
+    "released_at": "1995-06-03",
+    "printed_flavor": "\"Fyndhorn is our home.\"\n—Kolbjörn, Elder Druid of the Juniper Order",
+    "commander_legality": "legal",
+    "color_identity": [
+     "G"
+    ],
+    "type_line": "Sorcery",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Three Visits",
+   "beat": "playability",
+   "tier": "MECHANICAL_SYMBOL",
+   "source_id": "scryfall_card_text",
+   "source": "scryfall-snapshot:printed_flavor_or_name",
+   "claims": [],
+   "why": "Mana, fixing, removal or dragon support for a five-colour commander; no story claim.",
+   "printing": {
+    "set": "cmm",
+    "collector_number": "913",
+    "id": "7c0b6126-c134-4d7d-aa06-ac0f409a9f74",
+    "oracle_id": "1b882a0e-0ede-4d1a-bd1a-9b7cffbcde8e",
+    "illustration_id": "9626d2d5-feb3-4e26-92e4-687eaadea038",
+    "artist": "Yeong-Hao Han",
+    "released_at": "2023-08-04",
+    "printed_flavor": "Those who love the woods only wish to spread its majesty.",
+    "commander_legality": "legal",
+    "color_identity": [
+     "G"
+    ],
+    "type_line": "Sorcery",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Rampant Growth",
+   "beat": "playability",
+   "tier": "MECHANICAL_SYMBOL",
+   "source_id": "scryfall_card_text",
+   "source": "scryfall-snapshot:printed_flavor_or_name",
+   "claims": [],
+   "why": "Mana, fixing, removal or dragon support for a five-colour commander; no story claim.",
+   "printing": {
+    "set": "mir",
+    "collector_number": "235",
+    "id": "a9dd8043-4099-42bb-9d54-4efc8b38fe18",
+    "oracle_id": "8539f295-5d58-4436-a73a-b9277c4c7795",
+    "illustration_id": "1ecc4a7a-c028-4f07-8e21-bc97a84d5276",
+    "artist": "Pat Lewis",
+    "released_at": "1996-10-08",
+    "printed_flavor": "\"I've never *heard* growth before.\"\n—Gowon, Femeref herder",
+    "commander_legality": "legal",
+    "color_identity": [
+     "G"
+    ],
+    "type_line": "Sorcery",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Dragonlord's Servant",
+   "beat": "playability",
+   "tier": "MECHANICAL_SYMBOL",
+   "source_id": "scryfall_card_text",
+   "source": "scryfall-snapshot:printed_flavor_or_name",
+   "claims": [],
+   "why": "Mana, fixing, removal or dragon support for a five-colour commander; no story claim.",
+   "printing": {
+    "set": "dtk",
+    "collector_number": "138",
+    "id": "0ffcdd54-b6be-4d42-82c0-ae927037e859",
+    "oracle_id": "faf81ae0-0b35-45ef-a50d-6cecf0c0eeeb",
+    "illustration_id": "c8b8e65b-3030-4543-8fc5-2e76ee73b7b9",
+    "artist": "Steve Prescott",
+    "released_at": "2015-03-27",
+    "printed_flavor": "Atarka serving-goblins coat themselves with grease imbued with noxious herbs, hoping to discourage their ravenous masters from adding them to the meal.",
+    "commander_legality": "legal",
+    "color_identity": [
+     "R"
+    ],
+    "type_line": "Creature — Goblin Shaman",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Herald's Horn",
+   "beat": "playability",
+   "tier": "MECHANICAL_SYMBOL",
+   "source_id": "scryfall_card_text",
+   "source": "scryfall-snapshot:printed_flavor_or_name",
+   "claims": [],
+   "why": "Mana, fixing, removal or dragon support for a five-colour commander; no story claim.",
+   "printing": {
+    "set": "c17",
+    "collector_number": "53",
+    "id": "07b06421-778a-4d23-862b-30fc5fa25928",
+    "oracle_id": "c02c5547-b9c9-4b2d-9d12-e87bfba8f2d2",
+    "illustration_id": "839cb1cd-4571-4ccd-9be5-3be2251e4df3",
+    "artist": "Jason Felix",
+    "released_at": "2017-08-25",
+    "printed_flavor": "",
+    "commander_legality": "legal",
+    "color_identity": [],
+    "type_line": "Artifact",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Urza's Incubator",
+   "beat": "playability",
+   "tier": "MECHANICAL_SYMBOL",
+   "source_id": "scryfall_card_text",
+   "source": "scryfall-snapshot:printed_flavor_or_name",
+   "claims": [],
+   "why": "Mana, fixing, removal or dragon support for a five-colour commander; no story claim.",
+   "printing": {
+    "set": "uds",
+    "collector_number": "142",
+    "id": "bdf96c2c-b3d6-4d84-9572-fb115a795bed",
+    "oracle_id": "b380c04b-0bce-4328-8f0a-1425e48bee72",
+    "illustration_id": "abc89ce2-2626-48c0-900b-8215bee4a25c",
+    "artist": "Pete Venters",
+    "released_at": "1999-06-07",
+    "printed_flavor": "\"Stop thinking like an artificer, Urza, and start thinking like a father!\"\n—Rayne, Academy Chancellor",
+    "commander_legality": "legal",
+    "color_identity": [],
+    "type_line": "Artifact",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Sarkhan's Unsealing",
+   "beat": "playability",
+   "tier": "MECHANICAL_SYMBOL",
+   "source_id": "scryfall_card_text",
+   "source": "scryfall-snapshot:printed_flavor_or_name",
+   "claims": [],
+   "why": "Mana, fixing, removal or dragon support for a five-colour commander; no story claim.",
+   "printing": {
+    "set": "m19",
+    "collector_number": "155",
+    "id": "edfa8c8c-8013-46d5-8e80-3d9285fe81c8",
+    "oracle_id": "c27c9514-7b5a-461a-a109-f8abafd83523",
+    "illustration_id": "1fd38cbb-2af8-4f7e-952f-93679c710f96",
+    "artist": "Daarken",
+    "released_at": "2018-07-13",
+    "printed_flavor": "",
+    "commander_legality": "legal",
+    "color_identity": [
+     "R"
+    ],
+    "type_line": "Enchantment",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Swords to Plowshares",
+   "beat": "playability",
+   "tier": "MECHANICAL_SYMBOL",
+   "source_id": "scryfall_card_text",
+   "source": "scryfall-snapshot:printed_flavor_or_name",
+   "claims": [],
+   "why": "Mana, fixing, removal or dragon support for a five-colour commander; no story claim.",
+   "printing": {
+    "set": "lea",
+    "collector_number": "40",
+    "id": "386ea9eb-abc1-4862-aa2d-8fb808d79490",
+    "oracle_id": "b1544f21-7e98-461b-aed5-e748b0168c52",
+    "illustration_id": "2aa59be5-ca4a-4e36-928c-8b72362c9ae5",
+    "artist": "Jeff A. Menges",
+    "released_at": "1993-08-05",
+    "printed_flavor": "",
+    "commander_legality": "legal",
+    "color_identity": [
+     "W"
+    ],
+    "type_line": "Instant",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Beast Within",
+   "beat": "playability",
+   "tier": "MECHANICAL_SYMBOL",
+   "source_id": "scryfall_card_text",
+   "source": "scryfall-snapshot:printed_flavor_or_name",
+   "claims": [],
+   "why": "Mana, fixing, removal or dragon support for a five-colour commander; no story claim.",
+   "printing": {
+    "set": "nph",
+    "collector_number": "103",
+    "id": "ce5b6d19-22e3-4f57-8f4d-a17e982286c7",
+    "oracle_id": "7735eeba-693b-47e2-bd51-414379cf1016",
+    "illustration_id": "be17f80a-6bf5-4e5a-aec0-0a997adcb37e",
+    "artist": "Dave Allsop",
+    "released_at": "2011-05-13",
+    "printed_flavor": "\"Kill the weak so they can't drag the strong down to their level. This is true compassion.\"\n—Benzir, archdruid of Temple Might",
+    "commander_legality": "legal",
+    "color_identity": [
+     "G"
+    ],
+    "type_line": "Instant",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Chaos Warp",
+   "beat": "playability",
+   "tier": "MECHANICAL_SYMBOL",
+   "source_id": "scryfall_card_text",
+   "source": "scryfall-snapshot:printed_flavor_or_name",
+   "claims": [],
+   "why": "Mana, fixing, removal or dragon support for a five-colour commander; no story claim.",
+   "printing": {
+    "set": "cmd",
+    "collector_number": "114",
+    "id": "042431bc-0b21-4920-802f-6dd02e4c8721",
+    "oracle_id": "07a0cba9-8768-4fd9-a3d5-b0f83b4bf8e8",
+    "illustration_id": "c3d94e2b-828b-4bee-b11c-4cd446c1be01",
+    "artist": "Trevor Claxton",
+    "released_at": "2011-06-17",
+    "printed_flavor": "",
+    "commander_legality": "legal",
+    "color_identity": [
+     "R"
+    ],
+    "type_line": "Instant",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Anguished Unmaking",
+   "beat": "playability",
+   "tier": "MECHANICAL_SYMBOL",
+   "source_id": "scryfall_card_text",
+   "source": "scryfall-snapshot:printed_flavor_or_name",
+   "claims": [],
+   "why": "Mana, fixing, removal or dragon support for a five-colour commander; no story claim.",
+   "printing": {
+    "set": "soi",
+    "collector_number": "242",
+    "id": "90ced4fa-6509-4f7a-9da7-efc70de6f90c",
+    "oracle_id": "ad09b3c3-c8e7-481c-8c45-e7f234935117",
+    "illustration_id": "cab25939-b551-4c27-aad5-0cb7a5997038",
+    "artist": "Wesley Burt",
+    "released_at": "2016-04-08",
+    "printed_flavor": "Sorin had created Avacyn, so it was a cruelty beyond imagining, a pain beyond description, that it fell upon him to end her forever.",
+    "commander_legality": "legal",
+    "color_identity": [
+     "B",
+     "W"
+    ],
+    "type_line": "Instant",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Utter End",
+   "beat": "playability",
+   "tier": "MECHANICAL_SYMBOL",
+   "source_id": "scryfall_card_text",
+   "source": "scryfall-snapshot:printed_flavor_or_name",
+   "claims": [],
+   "why": "Mana, fixing, removal or dragon support for a five-colour commander; no story claim.",
+   "printing": {
+    "set": "ktk",
+    "collector_number": "210",
+    "id": "39643107-8873-42f6-9b4d-b546a0a976ba",
+    "oracle_id": "cba94732-1f1f-4ffd-9aba-45db990043fa",
+    "illustration_id": "1a191905-692c-4a46-b705-da91aee430ea",
+    "artist": "Mark Winters",
+    "released_at": "2014-09-26",
+    "printed_flavor": "\"I came seeking a challenge. All I found was you.\"\n—Zurgo, khan of the Mardu",
+    "commander_legality": "legal",
+    "color_identity": [
+     "B",
+     "W"
+    ],
+    "type_line": "Instant",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Despark",
+   "beat": "playability",
+   "tier": "MECHANICAL_SYMBOL",
+   "source_id": "scryfall_card_text",
+   "source": "scryfall-snapshot:printed_flavor_or_name",
+   "claims": [],
+   "why": "Mana, fixing, removal or dragon support for a five-colour commander; no story claim.",
+   "printing": {
+    "set": "war",
+    "collector_number": "190",
+    "id": "32b17dfc-b916-4134-ba77-501cff435e7e",
+    "oracle_id": "bd16434d-55ea-4c5a-a9ef-752971a4af16",
+    "illustration_id": "2855eed8-2e02-4b00-92bc-52613666ef1b",
+    "artist": "Slawomir Maniak",
+    "released_at": "2019-05-03",
+    "printed_flavor": "Liliana whispered to whatever consciousness Oketra and Bontu had left. \"You are the gods. He is the usurper. You know what to do.\"",
+    "commander_legality": "legal",
+    "color_identity": [
+     "B",
+     "W"
+    ],
+    "type_line": "Instant",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Kindred Discovery",
+   "beat": "playability",
+   "tier": "MECHANICAL_SYMBOL",
+   "source_id": "scryfall_card_text",
+   "source": "scryfall-snapshot:printed_flavor_or_name",
+   "claims": [],
+   "why": "Mana, fixing, removal or dragon support for a five-colour commander; no story claim.",
+   "printing": {
+    "set": "c17",
+    "collector_number": "11",
+    "id": "ed07b7be-bd3d-4dbc-bc92-b5478d3604c6",
+    "oracle_id": "005ee549-1bf5-478f-bc3f-3e791bd7eecf",
+    "illustration_id": "1644b5bf-1939-4259-902b-00abfb717ef7",
+    "artist": "Lake Hurwitz",
+    "released_at": "2017-08-25",
+    "printed_flavor": "Few things are truly \"lost\" at sea.",
+    "commander_legality": "legal",
+    "color_identity": [
+     "U"
+    ],
+    "type_line": "Enchantment",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Harmonize",
+   "beat": "playability",
+   "tier": "MECHANICAL_SYMBOL",
+   "source_id": "scryfall_card_text",
+   "source": "scryfall-snapshot:printed_flavor_or_name",
+   "claims": [],
+   "why": "Mana, fixing, removal or dragon support for a five-colour commander; no story claim.",
+   "printing": {
+    "set": "plc",
+    "collector_number": "149",
+    "id": "4b90dbd0-4672-4c0b-92eb-262ddd11cd32",
+    "oracle_id": "7eff84f1-f772-497a-b350-bbc93d0230f7",
+    "illustration_id": "dbfd2065-1138-41a3-a77d-9522636d5bac",
+    "artist": "Rob Alexander",
+    "released_at": "2007-02-02",
+    "printed_flavor": "\"Life's greatest lessons don't come from focus or concentration. They come from breathing and simply noticing.\"\n—Seton, centaur druid",
+    "commander_legality": "legal",
+    "color_identity": [
+     "G"
+    ],
+    "type_line": "Sorcery",
+    "game_changer": false
+   }
+  }
+ ]
+}

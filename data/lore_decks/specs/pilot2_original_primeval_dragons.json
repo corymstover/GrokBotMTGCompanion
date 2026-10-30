@@ -1,0 +1,605 @@
+{
+ "schema": "lore-pilot-spec/v1",
+ "stem": "original_primeval_dragons",
+ "theme": "Original Primeval Dragons - the Elder Dragons and their Primeval heirs (Phase 6 Pilot 2)",
+ "status": "UNAPPROVED PROPOSAL - awaiting Cory's review; not approved, not locked, not certified",
+ "color_identity": [
+  "W",
+  "U",
+  "B",
+  "R",
+  "G"
+ ],
+ "claims_key": "claims",
+ "narrator_note": "A five-colour dragon procession. The five Legends Elder Dragons and their Core Set 2019 cards, Ugin, the Elder Dragon War, the Piru/Chromium aftermath with Dihada and Dakkon, and the Invasion Primeval Dragons speaking through their printed flavor. The Ur-Dragon is the commander only as a thematic progenitor.",
+ "sources": {
+  "first_lesson": "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-first-lesson-2018-06-20",
+  "blood_fire": "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-blood-and-fire-2018-07-18",
+  "perspectives": "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-perspectives-2018-08-08",
+  "mh2_legends": "https://magic.wizards.com/en/news/feature/returning-legends-modern-horizons-2-2021-06-10",
+  "dmu_legends": "https://magic.wizards.com/en/news/feature/legends-youll-find-dominaria-united-2022-09-01",
+  "dmu_notes": "https://magic.wizards.com/en/news/feature/dominaria-united-release-notes-2022-08-26",
+  "m19_notes": "https://magic.wizards.com/en/news/feature/core-set-2019-release-notes-2018-06-22",
+  "m19_design": "https://magic.wizards.com/en/news/making-magic/more-odds-ends-core-set-2019-2018-08-06",
+  "scryfall_card_text": "scryfall-snapshot:printed_flavor_or_name"
+ },
+ "commander": {
+  "name": "The Ur-Dragon",
+  "tier": "LORE_INSPIRED",
+  "source_id": "scryfall_card_text",
+  "claims": [],
+  "why": "The five-colour progenitor dragon. Invasion-era Attendant flavor calls each Primeval a part of 'the ur-dragon'. That this Commander 2017 card is the same being is a thematic link, not an asserted canon identity.",
+  "set": "c17",
+  "collector_number": "48"
+ },
+ "acts": [
+  {
+   "title": "I. The Elder Dragons of Dominaria and the war Bolas started",
+   "lore_keys": [
+    "Pack A2 A013-A017"
+   ],
+   "cards": [
+    {
+     "name": "Nicol Bolas",
+     "tier": "CANON_REFERENCE",
+     "source_id": "blood_fire",
+     "claims": [
+      "A015",
+      "A017"
+     ],
+     "why": "The original Elder Dragon card. In the Chronicle he provokes the dragon clans, and Wizards credits him with instigating the Elder Dragon War.",
+     "set": "leg",
+     "collector_number": "246"
+    },
+    {
+     "name": "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+     "tier": "CANON_REFERENCE",
+     "source_id": "m19_design",
+     "claims": [],
+     "why": "Core Set 2019 Elder Dragon reprint cycle: Bolas as a Grixis Elder Dragon.",
+     "set": "m19",
+     "collector_number": "218"
+    },
+    {
+     "name": "Ugin, the Spirit Dragon",
+     "tier": "CANON_REFERENCE",
+     "source_id": "first_lesson",
+     "claims": [
+      "A013"
+     ],
+     "why": "Bolas's twin. The Chronicle shows the young twins meeting Arcades, Chromium and Palladia-Mors.",
+     "set": "frf",
+     "collector_number": "1"
+    },
+    {
+     "name": "Arcades Sabboth",
+     "tier": "CANON_REFERENCE",
+     "source_id": "blood_fire",
+     "claims": [
+      "A016"
+     ],
+     "why": "Original Legends Elder Dragon. The Chronicle has Arcades leading followers into the war against his kin.",
+     "set": "leg",
+     "collector_number": "218"
+    },
+    {
+     "name": "Arcades, the Strategist",
+     "tier": "CANON_REFERENCE",
+     "source_id": "m19_design",
+     "claims": [
+      "A013"
+     ],
+     "why": "Core Set 2019 Arcades. A named character card; its defensive mechanics are not lore evidence.",
+     "set": "m19",
+     "collector_number": "212"
+    },
+    {
+     "name": "Chromium",
+     "tier": "CANON_REFERENCE",
+     "source_id": "first_lesson",
+     "claims": [
+      "A013"
+     ],
+     "why": "Original Legends Elder Dragon, met by the twins in the Chronicle.",
+     "set": "leg",
+     "collector_number": "224"
+    },
+    {
+     "name": "Chromium, the Mutable",
+     "tier": "CANON_REFERENCE",
+     "source_id": "mh2_legends",
+     "claims": [
+      "A018"
+     ],
+     "why": "Chromium survived the war with Piru (Wizards' Piru biography).",
+     "set": "m19",
+     "collector_number": "214"
+    },
+    {
+     "name": "Palladia-Mors",
+     "tier": "CANON_REFERENCE",
+     "source_id": "blood_fire",
+     "claims": [
+      "A015"
+     ],
+     "why": "Original Legends Elder Dragon whose branch Bolas deliberately incited.",
+     "set": "leg",
+     "collector_number": "247"
+    },
+    {
+     "name": "Palladia-Mors, the Ruiner",
+     "tier": "CANON_REFERENCE",
+     "source_id": "m19_notes",
+     "claims": [],
+     "why": "Printed flavor: sister of Nicol Bolas, survivor of the Elder Dragon War.",
+     "set": "m19",
+     "collector_number": "219"
+    },
+    {
+     "name": "Vaevictis Asmadi",
+     "tier": "CANON_REFERENCE",
+     "source_id": "blood_fire",
+     "claims": [
+      "A014"
+     ],
+     "why": "Original Legends Elder Dragon. His descendants raided Bolas's kingdom, by their own account.",
+     "set": "leg",
+     "collector_number": "269"
+    },
+    {
+     "name": "Vaevictis Asmadi, the Dire",
+     "tier": "CANON_REFERENCE",
+     "source_id": "m19_notes",
+     "claims": [],
+     "why": "Core Set 2019 Vaevictis; a named character card.",
+     "set": "m19",
+     "collector_number": "225"
+    },
+    {
+     "name": "The Elder Dragon War",
+     "tier": "CANON_REFERENCE",
+     "source_id": "dmu_notes",
+     "claims": [
+      "A017"
+     ],
+     "why": "Names the war. Its chapters are not certified as a literal battlefield reconstruction.",
+     "set": "dmu",
+     "collector_number": "121"
+    }
+   ]
+  },
+  {
+   "title": "II. After the war: Piru, Chromium, Dihada and Dakkon",
+   "lore_keys": [
+    "Pack A2 A018-A022"
+   ],
+   "cards": [
+    {
+     "name": "Piru, the Volatile",
+     "tier": "CANON_REFERENCE",
+     "source_id": "mh2_legends",
+     "claims": [
+      "A018",
+      "A022"
+     ],
+     "why": "War survivor and Chromium's mate. His death cracked Dominaria at the Dueling Chasm of Corondor.",
+     "set": "mh2",
+     "collector_number": "207"
+    },
+    {
+     "name": "Geyadrone Dihada",
+     "tier": "CANON_REFERENCE",
+     "source_id": "mh2_legends",
+     "claims": [
+      "A020"
+     ],
+     "why": "Millennia later, Dihada bound Piru and Chromium to fight Dakkon.",
+     "set": "mh2",
+     "collector_number": "199"
+    },
+    {
+     "name": "Dakkon, Shadow Slayer",
+     "tier": "CANON_REFERENCE",
+     "source_id": "mh2_legends",
+     "claims": [
+      "A021"
+     ],
+     "why": "Dakkon slew Piru and banished Chromium.",
+     "set": "mh2",
+     "collector_number": "192"
+    },
+    {
+     "name": "Dakkon Blackblade",
+     "tier": "CANON_REFERENCE",
+     "source_id": "mh2_legends",
+     "claims": [
+      "A021"
+     ],
+     "why": "The original Legends card of the same Dakkon.",
+     "set": "leg",
+     "collector_number": "225"
+    }
+   ]
+  },
+  {
+   "title": "III. The Primeval Dragons: heirs of the Elder Dragons",
+   "lore_keys": [
+    "Pack A2 A019, A023-A024"
+   ],
+   "cards": [
+    {
+     "name": "Crosis, the Purger",
+     "tier": "CANON_REFERENCE",
+     "source_id": "mh2_legends",
+     "claims": [
+      "A019"
+     ],
+     "why": "Primeval descendant of Piru and Chromium.",
+     "set": "inv",
+     "collector_number": "242"
+    },
+    {
+     "name": "Rith, the Awakener",
+     "tier": "CANON_REFERENCE",
+     "source_id": "dmu_legends",
+     "claims": [
+      "A023",
+      "A024"
+     ],
+     "why": "Palladia-Mors's daughter, and one of the five Primevals who ruled Dominaria after the war.",
+     "set": "inv",
+     "collector_number": "267"
+    },
+    {
+     "name": "Rith, Liberated Primeval",
+     "tier": "CANON_REFERENCE",
+     "source_id": "dmu_legends",
+     "claims": [
+      "A023",
+      "A024"
+     ],
+     "why": "Rith in Dominaria United; the biography is the evidence, not the art.",
+     "set": "dmu",
+     "collector_number": "214"
+    },
+    {
+     "name": "Darigaaz, the Igniter",
+     "tier": "CANON_REFERENCE",
+     "source_id": "scryfall_card_text",
+     "claims": [],
+     "why": "A named Primeval Dragon character card (Invasion).",
+     "set": "inv",
+     "collector_number": "243"
+    },
+    {
+     "name": "Darigaaz Reincarnated",
+     "tier": "CANON_REFERENCE",
+     "source_id": "scryfall_card_text",
+     "claims": [],
+     "why": "A named Darigaaz character card (Dominaria, 2018).",
+     "set": "dom",
+     "collector_number": "193"
+    },
+    {
+     "name": "Dromar, the Banisher",
+     "tier": "CANON_REFERENCE",
+     "source_id": "scryfall_card_text",
+     "claims": [],
+     "why": "A named Primeval Dragon character card (Invasion).",
+     "set": "inv",
+     "collector_number": "244"
+    },
+    {
+     "name": "Treva, the Renewer",
+     "tier": "CANON_REFERENCE",
+     "source_id": "scryfall_card_text",
+     "claims": [],
+     "why": "A named Primeval Dragon character card (Invasion).",
+     "set": "inv",
+     "collector_number": "280"
+    },
+    {
+     "name": "Crosis's Attendant",
+     "tier": "CANON_REFERENCE",
+     "source_id": "scryfall_card_text",
+     "claims": [],
+     "why": "Printed flavor: Crosis is the eye of the ur-dragon.",
+     "set": "inv",
+     "collector_number": "300"
+    },
+    {
+     "name": "Darigaaz's Attendant",
+     "tier": "CANON_REFERENCE",
+     "source_id": "scryfall_card_text",
+     "claims": [],
+     "why": "Printed flavor: Darigaaz is the breath of the ur-dragon.",
+     "set": "inv",
+     "collector_number": "301"
+    },
+    {
+     "name": "Dromar's Attendant",
+     "tier": "CANON_REFERENCE",
+     "source_id": "scryfall_card_text",
+     "claims": [],
+     "why": "Printed flavor: Dromar is the wings of the ur-dragon.",
+     "set": "inv",
+     "collector_number": "303"
+    },
+    {
+     "name": "Rith's Attendant",
+     "tier": "CANON_REFERENCE",
+     "source_id": "scryfall_card_text",
+     "claims": [],
+     "why": "Printed flavor: Rith is the claw of the ur-dragon.",
+     "set": "inv",
+     "collector_number": "310"
+    },
+    {
+     "name": "Treva's Attendant",
+     "tier": "CANON_REFERENCE",
+     "source_id": "scryfall_card_text",
+     "claims": [],
+     "why": "Printed flavor: Treva is the voice of the ur-dragon.",
+     "set": "inv",
+     "collector_number": "315"
+    },
+    {
+     "name": "Scion of the Ur-Dragon",
+     "tier": "LORE_INSPIRED",
+     "source_id": "scryfall_card_text",
+     "claims": [],
+     "why": "Named after the ur-dragon; a five-colour dragon tutor. Card name only.",
+     "set": "tsp",
+     "collector_number": "246"
+    }
+   ]
+  },
+  {
+   "title": "IV. Invasion: the Primevals in their own words",
+   "lore_keys": [
+    "printed flavor, snapshot 2026-10-29"
+   ],
+   "cards": [
+    {
+     "name": "Dromar's Charm",
+     "tier": "CANON_REFERENCE",
+     "source_id": "scryfall_card_text",
+     "claims": [],
+     "why": "Printed Dromar, the Banisher quote.",
+     "set": "c13",
+     "collector_number": "187"
+    },
+    {
+     "name": "Insolence",
+     "tier": "CANON_REFERENCE",
+     "source_id": "scryfall_card_text",
+     "claims": [],
+     "why": "Printed Darigaaz quote, addressed to Rith.",
+     "set": "pls",
+     "collector_number": "63"
+    },
+    {
+     "name": "Malicious Advice",
+     "tier": "CANON_REFERENCE",
+     "source_id": "scryfall_card_text",
+     "claims": [],
+     "why": "Printed Tevesh Szat advice to Darigaaz.",
+     "set": "pls",
+     "collector_number": "114"
+    },
+    {
+     "name": "Backlash",
+     "tier": "CANON_REFERENCE",
+     "source_id": "scryfall_card_text",
+     "claims": [],
+     "why": "Printed flavor about Darigaaz.",
+     "set": "inv",
+     "collector_number": "234"
+    },
+    {
+     "name": "Shriek of Dread",
+     "tier": "CANON_REFERENCE",
+     "source_id": "scryfall_card_text",
+     "claims": [],
+     "why": "Printed flavor: when Crosis roared, the battle ended.",
+     "set": "pls",
+     "collector_number": "53"
+    },
+    {
+     "name": "Terminate",
+     "tier": "CANON_REFERENCE",
+     "source_id": "scryfall_card_text",
+     "claims": [],
+     "why": "Chosen for the printing whose flavor recalls Darigaaz dying to defend Dominaria, like his mother.",
+     "set": "pls",
+     "collector_number": "128"
+    },
+    {
+     "name": "Pyretic Rebirth",
+     "tier": "CANON_REFERENCE",
+     "source_id": "scryfall_card_text",
+     "claims": [],
+     "why": "Printed flavor: death has never kept Darigaaz down for long.",
+     "set": "mh3",
+     "collector_number": "200"
+    },
+    {
+     "name": "Breath of Darigaaz",
+     "tier": "LORE_INSPIRED",
+     "source_id": "scryfall_card_text",
+     "claims": [],
+     "why": "Named for Darigaaz. Card name only.",
+     "set": "inv",
+     "collector_number": "138"
+    },
+    {
+     "name": "Crosis's Charm",
+     "tier": "LORE_INSPIRED",
+     "source_id": "scryfall_card_text",
+     "claims": [],
+     "why": "Named Primeval charm. Card name only.",
+     "set": "pls",
+     "collector_number": "99"
+    },
+    {
+     "name": "Darigaaz's Charm",
+     "tier": "LORE_INSPIRED",
+     "source_id": "scryfall_card_text",
+     "claims": [],
+     "why": "Named Primeval charm. Card name only.",
+     "set": "pls",
+     "collector_number": "100"
+    },
+    {
+     "name": "Rith's Charm",
+     "tier": "LORE_INSPIRED",
+     "source_id": "scryfall_card_text",
+     "claims": [],
+     "why": "Named Primeval charm. Card name only.",
+     "set": "pls",
+     "collector_number": "122"
+    },
+    {
+     "name": "Treva's Charm",
+     "tier": "LORE_INSPIRED",
+     "source_id": "scryfall_card_text",
+     "claims": [],
+     "why": "Named Primeval charm. Card name only.",
+     "set": "pls",
+     "collector_number": "129"
+    }
+   ]
+  }
+ ],
+ "story_lands": {
+  "title": "Story lands: the Primeval lairs",
+  "lore_keys": [
+   "printed names"
+  ],
+  "cards": [
+   {
+    "name": "Crosis's Catacombs",
+    "tier": "LORE_INSPIRED",
+    "source_id": "scryfall_card_text",
+    "claims": [],
+    "why": "A named Primeval Dragon lair land (Planeshift). Name only.",
+    "set": "pls",
+    "collector_number": "136"
+   },
+   {
+    "name": "Darigaaz's Caldera",
+    "tier": "LORE_INSPIRED",
+    "source_id": "scryfall_card_text",
+    "claims": [],
+    "why": "A named Primeval Dragon lair land (Planeshift). Name only.",
+    "set": "pls",
+    "collector_number": "137"
+   },
+   {
+    "name": "Dromar's Cavern",
+    "tier": "LORE_INSPIRED",
+    "source_id": "scryfall_card_text",
+    "claims": [],
+    "why": "A named Primeval Dragon lair land (Planeshift). Name only.",
+    "set": "pls",
+    "collector_number": "138"
+   },
+   {
+    "name": "Rith's Grove",
+    "tier": "LORE_INSPIRED",
+    "source_id": "scryfall_card_text",
+    "claims": [],
+    "why": "A named Primeval Dragon lair land (Planeshift). Name only.",
+    "set": "pls",
+    "collector_number": "141"
+   },
+   {
+    "name": "Treva's Ruins",
+    "tier": "LORE_INSPIRED",
+    "source_id": "scryfall_card_text",
+    "claims": [],
+    "why": "A named Primeval Dragon lair land (Planeshift). Name only.",
+    "set": "pls",
+    "collector_number": "143"
+   }
+  ]
+ },
+ "playability": {
+  "names": [
+   "Command Tower",
+   "Exotic Orchard",
+   "Path of Ancestry",
+   "City of Brass",
+   "Mana Confluence",
+   "Unclaimed Territory",
+   "Raugrin Triome",
+   "Savai Triome",
+   "Zagoth Triome",
+   "Ketria Triome",
+   "Indatha Triome",
+   "Spara's Headquarters",
+   "Raffine's Tower",
+   "Xander's Lounge",
+   "Ziatora's Proving Ground",
+   "Jetmir's Garden",
+   "Cavern of Souls",
+   "Sol Ring",
+   "Arcane Signet",
+   "Chromatic Lantern",
+   "Cultivate",
+   "Kodama's Reach",
+   "Farseek",
+   "Nature's Lore",
+   "Three Visits",
+   "Rampant Growth",
+   "Dragonlord's Servant",
+   "Herald's Horn",
+   "Urza's Incubator",
+   "Sarkhan's Unsealing",
+   "Swords to Plowshares",
+   "Beast Within",
+   "Chaos Warp",
+   "Anguished Unmaking",
+   "Utter End",
+   "Despark",
+   "Kindred Discovery",
+   "Harmonize"
+  ],
+  "why": "Mana, fixing, removal or dragon support for a five-colour commander; no story claim."
+ },
+ "basics": {
+  "Plains": 3,
+  "Island": 3,
+  "Swamp": 3,
+  "Mountain": 3,
+  "Forest": 3
+ },
+ "canon_caveats": [
+  "A003/A004 (who struck first; Ugin's perspective) are CANON_DISPUTED; no card here asserts either account.",
+  "The Ur-Dragon (C17) is not asserted to be the 'ur-dragon' of the Invasion Attendant flavor; it is a thematic commander (LORE_INSPIRED).",
+  "Original Legends Elder Dragon cards are named character cards; their art is not certified as any specific war scene.",
+  "Darigaaz, Dromar and Treva are graded CANON_REFERENCE as named character cards only. Pack A2 sources name Crosis and Rith directly, not the other three.",
+  "Printed flavor proves what Wizards printed on the card, not that the illustration depicts a specific story scene."
+ ],
+ "unrepresentable_in_identity": [
+  "None by colour: five-colour identity admits every Elder and Primeval Dragon card.",
+  "Chromium Rhuell's banishment and Piru's death at Corondor have no dedicated card; Piru and Dakkon cards stand in (A021-A022)."
+ ],
+ "archidekt_tags": [
+  "Story: Original Primeval Dragons",
+  "Five-Color Dragons",
+  "Unapproved Lore Pilot"
+ ],
+ "tier_definitions": {
+  "DIRECT_DEPICTION": "Official Wizards story captions this exact art at the event.",
+  "CANON_REFERENCE": "Card is the named character/event, or its printed text or an official article ties it to the Elder/Primeval Dragon canon.",
+  "LORE_INSPIRED": "Named or thematic link only; no scene or event asserted.",
+  "MECHANICAL_SYMBOL": "Included for function; no story claim."
+ },
+ "claim_packs": [
+  "data/lore_research/pack_a_ugin_bolas_evidence_2026-10-30.json",
+  "data/lore_research/pack_a_elder_dragon_war_extension_2026-10-30.json"
+ ],
+ "exact_art_pack": "data/lore_research/pack_a4_printing_art_matches_2026-10-30.json",
+ "game_changer_ceiling": 3
+}

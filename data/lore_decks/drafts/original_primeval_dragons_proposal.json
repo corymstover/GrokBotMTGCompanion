@@ -1,0 +1,719 @@
+{
+ "schema": "lore_story_deck_draft/v1",
+ "theme": "Original Primeval Dragons - the Elder Dragons and their Primeval heirs (Phase 6 Pilot 2)",
+ "status": "UNAPPROVED PROPOSAL - awaiting Cory's review; not approved, not locked, not certified",
+ "approval": {
+  "approved": false,
+  "locked": false,
+  "certified": false,
+  "owner": "Cory"
+ },
+ "commander": "The Ur-Dragon",
+ "narrator_note": "A five-colour dragon procession. The five Legends Elder Dragons and their Core Set 2019 cards, Ugin, the Elder Dragon War, the Piru/Chromium aftermath with Dihada and Dakkon, and the Invasion Primeval Dragons speaking through their printed flavor. The Ur-Dragon is the commander only as a thematic progenitor.",
+ "story_sources": [
+  "https://magic.wizards.com/en/news/feature/core-set-2019-release-notes-2018-06-22",
+  "https://magic.wizards.com/en/news/feature/dominaria-united-release-notes-2022-08-26",
+  "https://magic.wizards.com/en/news/feature/legends-youll-find-dominaria-united-2022-09-01",
+  "https://magic.wizards.com/en/news/feature/returning-legends-modern-horizons-2-2021-06-10",
+  "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-blood-and-fire-2018-07-18",
+  "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-first-lesson-2018-06-20",
+  "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-perspectives-2018-08-08",
+  "https://magic.wizards.com/en/news/making-magic/more-odds-ends-core-set-2019-2018-08-06"
+ ],
+ "canon_caveats": [
+  "A003/A004 (who struck first; Ugin's perspective) are CANON_DISPUTED; no card here asserts either account.",
+  "The Ur-Dragon (C17) is not asserted to be the 'ur-dragon' of the Invasion Attendant flavor; it is a thematic commander (LORE_INSPIRED).",
+  "Original Legends Elder Dragon cards are named character cards; their art is not certified as any specific war scene.",
+  "Darigaaz, Dromar and Treva are graded CANON_REFERENCE as named character cards only. Pack A2 sources name Crosis and Rith directly, not the other three.",
+  "Printed flavor proves what Wizards printed on the card, not that the illustration depicts a specific story scene."
+ ],
+ "unrepresentable_in_identity": [
+  "None by colour: five-colour identity admits every Elder and Primeval Dragon card.",
+  "Chromium Rhuell's banishment and Piru's death at Corondor have no dedicated card; Piru and Dakkon cards stand in (A021-A022)."
+ ],
+ "beats": [
+  {
+   "title": "I. The Elder Dragons of Dominaria and the war Bolas started",
+   "lore_keys": [
+    "Pack A2 A013-A017"
+   ],
+   "cards": [
+    {
+     "name": "Nicol Bolas",
+     "why": "The original Elder Dragon card. In the Chronicle he provokes the dragon clans, and Wizards credits him with instigating the Elder Dragon War.",
+     "evidence": "CANON_REFERENCE",
+     "source": "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-blood-and-fire-2018-07-18",
+     "printing": {
+      "set": "leg",
+      "collector": "246"
+     }
+    },
+    {
+     "name": "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+     "why": "Core Set 2019 Elder Dragon reprint cycle: Bolas as a Grixis Elder Dragon.",
+     "evidence": "CANON_REFERENCE",
+     "source": "https://magic.wizards.com/en/news/making-magic/more-odds-ends-core-set-2019-2018-08-06",
+     "printing": {
+      "set": "m19",
+      "collector": "218"
+     }
+    },
+    {
+     "name": "Ugin, the Spirit Dragon",
+     "why": "Bolas's twin. The Chronicle shows the young twins meeting Arcades, Chromium and Palladia-Mors.",
+     "evidence": "CANON_REFERENCE",
+     "source": "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-first-lesson-2018-06-20",
+     "printing": {
+      "set": "frf",
+      "collector": "1"
+     }
+    },
+    {
+     "name": "Arcades Sabboth",
+     "why": "Original Legends Elder Dragon. The Chronicle has Arcades leading followers into the war against his kin.",
+     "evidence": "CANON_REFERENCE",
+     "source": "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-blood-and-fire-2018-07-18",
+     "printing": {
+      "set": "leg",
+      "collector": "218"
+     }
+    },
+    {
+     "name": "Arcades, the Strategist",
+     "why": "Core Set 2019 Arcades. A named character card; its defensive mechanics are not lore evidence.",
+     "evidence": "CANON_REFERENCE",
+     "source": "https://magic.wizards.com/en/news/making-magic/more-odds-ends-core-set-2019-2018-08-06",
+     "printing": {
+      "set": "m19",
+      "collector": "212"
+     }
+    },
+    {
+     "name": "Chromium",
+     "why": "Original Legends Elder Dragon, met by the twins in the Chronicle.",
+     "evidence": "CANON_REFERENCE",
+     "source": "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-first-lesson-2018-06-20",
+     "printing": {
+      "set": "leg",
+      "collector": "224"
+     }
+    },
+    {
+     "name": "Chromium, the Mutable",
+     "why": "Chromium survived the war with Piru (Wizards' Piru biography).",
+     "evidence": "CANON_REFERENCE",
+     "source": "https://magic.wizards.com/en/news/feature/returning-legends-modern-horizons-2-2021-06-10",
+     "printing": {
+      "set": "m19",
+      "collector": "214"
+     }
+    },
+    {
+     "name": "Palladia-Mors",
+     "why": "Original Legends Elder Dragon whose branch Bolas deliberately incited.",
+     "evidence": "CANON_REFERENCE",
+     "source": "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-blood-and-fire-2018-07-18",
+     "printing": {
+      "set": "leg",
+      "collector": "247"
+     }
+    },
+    {
+     "name": "Palladia-Mors, the Ruiner",
+     "why": "Printed flavor: sister of Nicol Bolas, survivor of the Elder Dragon War.",
+     "evidence": "CANON_REFERENCE",
+     "source": "https://magic.wizards.com/en/news/feature/core-set-2019-release-notes-2018-06-22",
+     "printing": {
+      "set": "m19",
+      "collector": "219"
+     }
+    },
+    {
+     "name": "Vaevictis Asmadi",
+     "why": "Original Legends Elder Dragon. His descendants raided Bolas's kingdom, by their own account.",
+     "evidence": "CANON_REFERENCE",
+     "source": "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-blood-and-fire-2018-07-18",
+     "printing": {
+      "set": "leg",
+      "collector": "269"
+     }
+    },
+    {
+     "name": "Vaevictis Asmadi, the Dire",
+     "why": "Core Set 2019 Vaevictis; a named character card.",
+     "evidence": "CANON_REFERENCE",
+     "source": "https://magic.wizards.com/en/news/feature/core-set-2019-release-notes-2018-06-22",
+     "printing": {
+      "set": "m19",
+      "collector": "225"
+     }
+    },
+    {
+     "name": "The Elder Dragon War",
+     "why": "Names the war. Its chapters are not certified as a literal battlefield reconstruction.",
+     "evidence": "CANON_REFERENCE",
+     "source": "https://magic.wizards.com/en/news/feature/dominaria-united-release-notes-2022-08-26",
+     "printing": {
+      "set": "dmu",
+      "collector": "121"
+     }
+    }
+   ]
+  },
+  {
+   "title": "II. After the war: Piru, Chromium, Dihada and Dakkon",
+   "lore_keys": [
+    "Pack A2 A018-A022"
+   ],
+   "cards": [
+    {
+     "name": "Piru, the Volatile",
+     "why": "War survivor and Chromium's mate. His death cracked Dominaria at the Dueling Chasm of Corondor.",
+     "evidence": "CANON_REFERENCE",
+     "source": "https://magic.wizards.com/en/news/feature/returning-legends-modern-horizons-2-2021-06-10",
+     "printing": {
+      "set": "mh2",
+      "collector": "207"
+     }
+    },
+    {
+     "name": "Geyadrone Dihada",
+     "why": "Millennia later, Dihada bound Piru and Chromium to fight Dakkon.",
+     "evidence": "CANON_REFERENCE",
+     "source": "https://magic.wizards.com/en/news/feature/returning-legends-modern-horizons-2-2021-06-10",
+     "printing": {
+      "set": "mh2",
+      "collector": "199"
+     }
+    },
+    {
+     "name": "Dakkon, Shadow Slayer",
+     "why": "Dakkon slew Piru and banished Chromium.",
+     "evidence": "CANON_REFERENCE",
+     "source": "https://magic.wizards.com/en/news/feature/returning-legends-modern-horizons-2-2021-06-10",
+     "printing": {
+      "set": "mh2",
+      "collector": "192"
+     }
+    },
+    {
+     "name": "Dakkon Blackblade",
+     "why": "The original Legends card of the same Dakkon.",
+     "evidence": "CANON_REFERENCE",
+     "source": "https://magic.wizards.com/en/news/feature/returning-legends-modern-horizons-2-2021-06-10",
+     "printing": {
+      "set": "leg",
+      "collector": "225"
+     }
+    }
+   ]
+  },
+  {
+   "title": "III. The Primeval Dragons: heirs of the Elder Dragons",
+   "lore_keys": [
+    "Pack A2 A019, A023-A024"
+   ],
+   "cards": [
+    {
+     "name": "Crosis, the Purger",
+     "why": "Primeval descendant of Piru and Chromium.",
+     "evidence": "CANON_REFERENCE",
+     "source": "https://magic.wizards.com/en/news/feature/returning-legends-modern-horizons-2-2021-06-10",
+     "printing": {
+      "set": "inv",
+      "collector": "242"
+     }
+    },
+    {
+     "name": "Rith, the Awakener",
+     "why": "Palladia-Mors's daughter, and one of the five Primevals who ruled Dominaria after the war.",
+     "evidence": "CANON_REFERENCE",
+     "source": "https://magic.wizards.com/en/news/feature/legends-youll-find-dominaria-united-2022-09-01",
+     "printing": {
+      "set": "inv",
+      "collector": "267"
+     }
+    },
+    {
+     "name": "Rith, Liberated Primeval",
+     "why": "Rith in Dominaria United; the biography is the evidence, not the art.",
+     "evidence": "CANON_REFERENCE",
+     "source": "https://magic.wizards.com/en/news/feature/legends-youll-find-dominaria-united-2022-09-01",
+     "printing": {
+      "set": "dmu",
+      "collector": "214"
+     }
+    },
+    {
+     "name": "Darigaaz, the Igniter",
+     "why": "A named Primeval Dragon character card (Invasion).",
+     "evidence": "CANON_REFERENCE",
+     "source": "scryfall-snapshot:printed_flavor_or_name",
+     "printing": {
+      "set": "inv",
+      "collector": "243"
+     }
+    },
+    {
+     "name": "Darigaaz Reincarnated",
+     "why": "A named Darigaaz character card (Dominaria, 2018).",
+     "evidence": "CANON_REFERENCE",
+     "source": "scryfall-snapshot:printed_flavor_or_name",
+     "printing": {
+      "set": "dom",
+      "collector": "193"
+     }
+    },
+    {
+     "name": "Dromar, the Banisher",
+     "why": "A named Primeval Dragon character card (Invasion).",
+     "evidence": "CANON_REFERENCE",
+     "source": "scryfall-snapshot:printed_flavor_or_name",
+     "printing": {
+      "set": "inv",
+      "collector": "244"
+     }
+    },
+    {
+     "name": "Treva, the Renewer",
+     "why": "A named Primeval Dragon character card (Invasion).",
+     "evidence": "CANON_REFERENCE",
+     "source": "scryfall-snapshot:printed_flavor_or_name",
+     "printing": {
+      "set": "inv",
+      "collector": "280"
+     }
+    },
+    {
+     "name": "Crosis's Attendant",
+     "why": "Printed flavor: Crosis is the eye of the ur-dragon.",
+     "evidence": "CANON_REFERENCE",
+     "source": "scryfall-snapshot:printed_flavor_or_name",
+     "printing": {
+      "set": "inv",
+      "collector": "300"
+     }
+    },
+    {
+     "name": "Darigaaz's Attendant",
+     "why": "Printed flavor: Darigaaz is the breath of the ur-dragon.",
+     "evidence": "CANON_REFERENCE",
+     "source": "scryfall-snapshot:printed_flavor_or_name",
+     "printing": {
+      "set": "inv",
+      "collector": "301"
+     }
+    },
+    {
+     "name": "Dromar's Attendant",
+     "why": "Printed flavor: Dromar is the wings of the ur-dragon.",
+     "evidence": "CANON_REFERENCE",
+     "source": "scryfall-snapshot:printed_flavor_or_name",
+     "printing": {
+      "set": "inv",
+      "collector": "303"
+     }
+    },
+    {
+     "name": "Rith's Attendant",
+     "why": "Printed flavor: Rith is the claw of the ur-dragon.",
+     "evidence": "CANON_REFERENCE",
+     "source": "scryfall-snapshot:printed_flavor_or_name",
+     "printing": {
+      "set": "inv",
+      "collector": "310"
+     }
+    },
+    {
+     "name": "Treva's Attendant",
+     "why": "Printed flavor: Treva is the voice of the ur-dragon.",
+     "evidence": "CANON_REFERENCE",
+     "source": "scryfall-snapshot:printed_flavor_or_name",
+     "printing": {
+      "set": "inv",
+      "collector": "315"
+     }
+    },
+    {
+     "name": "Scion of the Ur-Dragon",
+     "why": "Named after the ur-dragon; a five-colour dragon tutor. Card name only.",
+     "evidence": "LORE_INSPIRED",
+     "source": "scryfall-snapshot:printed_flavor_or_name",
+     "printing": {
+      "set": "tsp",
+      "collector": "246"
+     }
+    }
+   ]
+  },
+  {
+   "title": "IV. Invasion: the Primevals in their own words",
+   "lore_keys": [
+    "printed flavor, snapshot 2026-10-29"
+   ],
+   "cards": [
+    {
+     "name": "Dromar's Charm",
+     "why": "Printed Dromar, the Banisher quote.",
+     "evidence": "CANON_REFERENCE",
+     "source": "scryfall-snapshot:printed_flavor_or_name",
+     "printing": {
+      "set": "c13",
+      "collector": "187"
+     }
+    },
+    {
+     "name": "Insolence",
+     "why": "Printed Darigaaz quote, addressed to Rith.",
+     "evidence": "CANON_REFERENCE",
+     "source": "scryfall-snapshot:printed_flavor_or_name",
+     "printing": {
+      "set": "pls",
+      "collector": "63"
+     }
+    },
+    {
+     "name": "Malicious Advice",
+     "why": "Printed Tevesh Szat advice to Darigaaz.",
+     "evidence": "CANON_REFERENCE",
+     "source": "scryfall-snapshot:printed_flavor_or_name",
+     "printing": {
+      "set": "pls",
+      "collector": "114"
+     }
+    },
+    {
+     "name": "Backlash",
+     "why": "Printed flavor about Darigaaz.",
+     "evidence": "CANON_REFERENCE",
+     "source": "scryfall-snapshot:printed_flavor_or_name",
+     "printing": {
+      "set": "inv",
+      "collector": "234"
+     }
+    },
+    {
+     "name": "Shriek of Dread",
+     "why": "Printed flavor: when Crosis roared, the battle ended.",
+     "evidence": "CANON_REFERENCE",
+     "source": "scryfall-snapshot:printed_flavor_or_name",
+     "printing": {
+      "set": "pls",
+      "collector": "53"
+     }
+    },
+    {
+     "name": "Terminate",
+     "why": "Chosen for the printing whose flavor recalls Darigaaz dying to defend Dominaria, like his mother.",
+     "evidence": "CANON_REFERENCE",
+     "source": "scryfall-snapshot:printed_flavor_or_name",
+     "printing": {
+      "set": "pls",
+      "collector": "128"
+     }
+    },
+    {
+     "name": "Pyretic Rebirth",
+     "why": "Printed flavor: death has never kept Darigaaz down for long.",
+     "evidence": "CANON_REFERENCE",
+     "source": "scryfall-snapshot:printed_flavor_or_name",
+     "printing": {
+      "set": "mh3",
+      "collector": "200"
+     }
+    },
+    {
+     "name": "Breath of Darigaaz",
+     "why": "Named for Darigaaz. Card name only.",
+     "evidence": "LORE_INSPIRED",
+     "source": "scryfall-snapshot:printed_flavor_or_name",
+     "printing": {
+      "set": "inv",
+      "collector": "138"
+     }
+    },
+    {
+     "name": "Crosis's Charm",
+     "why": "Named Primeval charm. Card name only.",
+     "evidence": "LORE_INSPIRED",
+     "source": "scryfall-snapshot:printed_flavor_or_name",
+     "printing": {
+      "set": "pls",
+      "collector": "99"
+     }
+    },
+    {
+     "name": "Darigaaz's Charm",
+     "why": "Named Primeval charm. Card name only.",
+     "evidence": "LORE_INSPIRED",
+     "source": "scryfall-snapshot:printed_flavor_or_name",
+     "printing": {
+      "set": "pls",
+      "collector": "100"
+     }
+    },
+    {
+     "name": "Rith's Charm",
+     "why": "Named Primeval charm. Card name only.",
+     "evidence": "LORE_INSPIRED",
+     "source": "scryfall-snapshot:printed_flavor_or_name",
+     "printing": {
+      "set": "pls",
+      "collector": "122"
+     }
+    },
+    {
+     "name": "Treva's Charm",
+     "why": "Named Primeval charm. Card name only.",
+     "evidence": "LORE_INSPIRED",
+     "source": "scryfall-snapshot:printed_flavor_or_name",
+     "printing": {
+      "set": "pls",
+      "collector": "129"
+     }
+    }
+   ]
+  },
+  {
+   "title": "Story lands: the Primeval lairs",
+   "lore_keys": [
+    "printed names"
+   ],
+   "cards": [
+    {
+     "name": "Crosis's Catacombs",
+     "why": "A named Primeval Dragon lair land (Planeshift). Name only.",
+     "evidence": "LORE_INSPIRED",
+     "source": "scryfall-snapshot:printed_flavor_or_name",
+     "printing": {
+      "set": "pls",
+      "collector": "136"
+     }
+    },
+    {
+     "name": "Darigaaz's Caldera",
+     "why": "A named Primeval Dragon lair land (Planeshift). Name only.",
+     "evidence": "LORE_INSPIRED",
+     "source": "scryfall-snapshot:printed_flavor_or_name",
+     "printing": {
+      "set": "pls",
+      "collector": "137"
+     }
+    },
+    {
+     "name": "Dromar's Cavern",
+     "why": "A named Primeval Dragon lair land (Planeshift). Name only.",
+     "evidence": "LORE_INSPIRED",
+     "source": "scryfall-snapshot:printed_flavor_or_name",
+     "printing": {
+      "set": "pls",
+      "collector": "138"
+     }
+    },
+    {
+     "name": "Rith's Grove",
+     "why": "A named Primeval Dragon lair land (Planeshift). Name only.",
+     "evidence": "LORE_INSPIRED",
+     "source": "scryfall-snapshot:printed_flavor_or_name",
+     "printing": {
+      "set": "pls",
+      "collector": "141"
+     }
+    },
+    {
+     "name": "Treva's Ruins",
+     "why": "A named Primeval Dragon lair land (Planeshift). Name only.",
+     "evidence": "LORE_INSPIRED",
+     "source": "scryfall-snapshot:printed_flavor_or_name",
+     "printing": {
+      "set": "pls",
+      "collector": "143"
+     }
+    }
+   ]
+  }
+ ],
+ "playability": [
+  {
+   "name": "Command Tower",
+   "why": "Mana, fixing, removal or dragon support for a five-colour commander; no story claim."
+  },
+  {
+   "name": "Exotic Orchard",
+   "why": "Mana, fixing, removal or dragon support for a five-colour commander; no story claim."
+  },
+  {
+   "name": "Path of Ancestry",
+   "why": "Mana, fixing, removal or dragon support for a five-colour commander; no story claim."
+  },
+  {
+   "name": "City of Brass",
+   "why": "Mana, fixing, removal or dragon support for a five-colour commander; no story claim."
+  },
+  {
+   "name": "Mana Confluence",
+   "why": "Mana, fixing, removal or dragon support for a five-colour commander; no story claim."
+  },
+  {
+   "name": "Unclaimed Territory",
+   "why": "Mana, fixing, removal or dragon support for a five-colour commander; no story claim."
+  },
+  {
+   "name": "Raugrin Triome",
+   "why": "Mana, fixing, removal or dragon support for a five-colour commander; no story claim."
+  },
+  {
+   "name": "Savai Triome",
+   "why": "Mana, fixing, removal or dragon support for a five-colour commander; no story claim."
+  },
+  {
+   "name": "Zagoth Triome",
+   "why": "Mana, fixing, removal or dragon support for a five-colour commander; no story claim."
+  },
+  {
+   "name": "Ketria Triome",
+   "why": "Mana, fixing, removal or dragon support for a five-colour commander; no story claim."
+  },
+  {
+   "name": "Indatha Triome",
+   "why": "Mana, fixing, removal or dragon support for a five-colour commander; no story claim."
+  },
+  {
+   "name": "Spara's Headquarters",
+   "why": "Mana, fixing, removal or dragon support for a five-colour commander; no story claim."
+  },
+  {
+   "name": "Raffine's Tower",
+   "why": "Mana, fixing, removal or dragon support for a five-colour commander; no story claim."
+  },
+  {
+   "name": "Xander's Lounge",
+   "why": "Mana, fixing, removal or dragon support for a five-colour commander; no story claim."
+  },
+  {
+   "name": "Ziatora's Proving Ground",
+   "why": "Mana, fixing, removal or dragon support for a five-colour commander; no story claim."
+  },
+  {
+   "name": "Jetmir's Garden",
+   "why": "Mana, fixing, removal or dragon support for a five-colour commander; no story claim."
+  },
+  {
+   "name": "Cavern of Souls",
+   "why": "Mana, fixing, removal or dragon support for a five-colour commander; no story claim."
+  },
+  {
+   "name": "Sol Ring",
+   "why": "Mana, fixing, removal or dragon support for a five-colour commander; no story claim."
+  },
+  {
+   "name": "Arcane Signet",
+   "why": "Mana, fixing, removal or dragon support for a five-colour commander; no story claim."
+  },
+  {
+   "name": "Chromatic Lantern",
+   "why": "Mana, fixing, removal or dragon support for a five-colour commander; no story claim."
+  },
+  {
+   "name": "Cultivate",
+   "why": "Mana, fixing, removal or dragon support for a five-colour commander; no story claim."
+  },
+  {
+   "name": "Kodama's Reach",
+   "why": "Mana, fixing, removal or dragon support for a five-colour commander; no story claim."
+  },
+  {
+   "name": "Farseek",
+   "why": "Mana, fixing, removal or dragon support for a five-colour commander; no story claim."
+  },
+  {
+   "name": "Nature's Lore",
+   "why": "Mana, fixing, removal or dragon support for a five-colour commander; no story claim."
+  },
+  {
+   "name": "Three Visits",
+   "why": "Mana, fixing, removal or dragon support for a five-colour commander; no story claim."
+  },
+  {
+   "name": "Rampant Growth",
+   "why": "Mana, fixing, removal or dragon support for a five-colour commander; no story claim."
+  },
+  {
+   "name": "Dragonlord's Servant",
+   "why": "Mana, fixing, removal or dragon support for a five-colour commander; no story claim."
+  },
+  {
+   "name": "Herald's Horn",
+   "why": "Mana, fixing, removal or dragon support for a five-colour commander; no story claim."
+  },
+  {
+   "name": "Urza's Incubator",
+   "why": "Mana, fixing, removal or dragon support for a five-colour commander; no story claim."
+  },
+  {
+   "name": "Sarkhan's Unsealing",
+   "why": "Mana, fixing, removal or dragon support for a five-colour commander; no story claim."
+  },
+  {
+   "name": "Swords to Plowshares",
+   "why": "Mana, fixing, removal or dragon support for a five-colour commander; no story claim."
+  },
+  {
+   "name": "Beast Within",
+   "why": "Mana, fixing, removal or dragon support for a five-colour commander; no story claim."
+  },
+  {
+   "name": "Chaos Warp",
+   "why": "Mana, fixing, removal or dragon support for a five-colour commander; no story claim."
+  },
+  {
+   "name": "Anguished Unmaking",
+   "why": "Mana, fixing, removal or dragon support for a five-colour commander; no story claim."
+  },
+  {
+   "name": "Utter End",
+   "why": "Mana, fixing, removal or dragon support for a five-colour commander; no story claim."
+  },
+  {
+   "name": "Despark",
+   "why": "Mana, fixing, removal or dragon support for a five-colour commander; no story claim."
+  },
+  {
+   "name": "Kindred Discovery",
+   "why": "Mana, fixing, removal or dragon support for a five-colour commander; no story claim."
+  },
+  {
+   "name": "Harmonize",
+   "why": "Mana, fixing, removal or dragon support for a five-colour commander; no story claim."
+  }
+ ],
+ "basics": {
+  "Plains": 3,
+  "Island": 3,
+  "Swamp": 3,
+  "Mountain": 3,
+  "Forest": 3
+ },
+ "archidekt_tags": [
+  "Story: Original Primeval Dragons",
+  "Five-Color Dragons",
+  "Unapproved Lore Pilot"
+ ],
+ "snapshot": {
+  "id": "snap-20261029-40848334824-1",
+  "default_cards_file": "default-cards-20261029090546.jsonl.gz",
+  "default_cards_sha256": "008434d5b89f1f2cb47411178d2ab181600faf9cb7ca1c5673422cdec5939595"
+ },
+ "raw_decklist_sha256": "6ef1af37c371891b7d3e60a08c2d1bcee1d1205f2c01e5c3093a220fb4414888",
+ "counts": {
+  "total": 100,
+  "named_cards": 85,
+  "basics": 15,
+  "tiers": {
+   "DIRECT_DEPICTION": 0,
+   "CANON_REFERENCE": 35,
+   "LORE_INSPIRED": 12,
+   "MECHANICAL_SYMBOL": 38
+  }
+ }
+}
