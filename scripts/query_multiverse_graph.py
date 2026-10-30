@@ -41,10 +41,30 @@ class MG:
         t = term.lower().strip()
         key = "".join(c if c.isalnum() else "_" for c in t).strip("_")  # "Old Phyrexia" -> old_phyrexia
         exact = [i for i, n in self.nodes.items() if n["name"].lower() == t or i.split(":", 1)[-1] in (t, key)]
+        if prefer is not None:
+            preferred = sorted(i for i in exact if self.nodes[i]["type"] == prefer)
+            if preferred:
+                return preferred[0]
+            recorded = sorted(i for i, n in self.nodes.items() if n["type"] == prefer and
+                              t in {v.lower() for v in n.get("name_variants", [])})
+            if len(recorded) == 1:
+                return recorded[0]
+            if len(recorded) > 1:
+                raise KeyError(f"ambiguous recorded {prefer} name variant {term!r}; candidates: {recorded[:10]}")
         rank = {"Concept": 3, "Literal": 4, "Card": 2, "Source": 2, "Claim": 2, "DeckProposal": 2}
         pref = sorted(exact, key=lambda i: (0 if self.nodes[i]["type"] == prefer else 1 + rank.get(self.nodes[i]["type"], 0), i))
         if pref:
             return pref[0]
+        # Alternate display names are imported only when multiple source packs
+        # use different titles for the exact SAME ID. Ambiguous variants may not
+        # be used to guess identity across distinct entities.
+        variants = sorted(i for i, n in self.nodes.items() if t in
+                          {v.lower() for v in n.get("name_variants", [])}
+                          and (prefer is None or n["type"] == prefer))
+        if len(variants) == 1:
+            return variants[0]
+        if len(variants) > 1:
+            raise KeyError(f"ambiguous recorded name variant {term!r}; candidates: {variants[:10]}")
         part = sorted(i for i, n in self.nodes.items() if t in n["name"].lower() and n["type"] not in {"Claim"})
         if len(part) == 1:
             return part[0]
@@ -108,7 +128,8 @@ class MG:
     def search(self, term: str) -> list[dict]:
         t = term.lower()
         return [{"id": n["id"], "type": n["type"], "name": n["name"]} for n in self.g["nodes"]
-                if t in n["name"].lower() or t in n["id"].lower()]
+                if t in n["name"].lower() or t in n["id"].lower() or
+                any(t in v.lower() for v in n.get("name_variants", []))]
 
 
 def main(argv=None) -> int:

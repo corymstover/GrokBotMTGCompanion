@@ -7,7 +7,7 @@
   "HYPOTHETICAL": "Creative or deckbuilding connection; never canon.",
   "OPEN_QUESTION": "Primary sources leave the matter unresolved; do not assert either way."
  },
- "content_sha256": "48bc3044fa3cddc6a077060457b8042dcc7dfdde8d9a140de1643c17907b24ba",
+ "content_sha256": "c88972c99a4232ccf0d280716117693a926e6e112a1704ac83b00af3856292ce",
  "edges": [
   {
    "artists": [
@@ -52348,6 +52348,10 @@
   {
    "id": "artifact:chain_veil",
    "name": "The Chain Veil",
+   "name_variants": [
+    "Chain Veil",
+    "The Chain Veil"
+   ],
    "origins": [
     "pack_c2_return_to_dominaria_2026-10-30.json",
     "pack_p5_shadows_eldritch_moon_2026-10-30.json",
@@ -52677,6 +52681,10 @@
   {
    "id": "artifact:weatherlight",
    "name": "Weatherlight (skyship)",
+   "name_variants": [
+    "Weatherlight",
+    "Weatherlight (skyship)"
+   ],
    "origins": [
     "pack_c2_return_to_dominaria_2026-10-30.json",
     "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json",
@@ -66700,6 +66708,10 @@
   {
    "id": "character:ajani",
    "name": "Ajani",
+   "name_variants": [
+    "Ajani",
+    "Ajani Goldmane"
+   ],
    "origins": [
     "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json",
     "pack_c2_return_to_dominaria_2026-10-30.json",
@@ -67795,6 +67807,10 @@
   {
    "id": "character:gerrard",
    "name": "Gerrard Capashen",
+   "name_variants": [
+    "Gerrard",
+    "Gerrard Capashen"
+   ],
    "origins": [
     "pack_c2_return_to_dominaria_2026-10-30.json",
     "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json",
@@ -68949,6 +68965,10 @@
   {
    "id": "character:marchesa",
    "name": "Queen Marchesa",
+   "name_variants": [
+    "Marchesa",
+    "Queen Marchesa"
+   ],
    "origins": [
     "pack_p5_untagged_conspiracy_2016_2026-10-30.json",
     "pack_p5_untagged_stories_2014_2026-10-30.json"
@@ -68958,6 +68978,10 @@
   {
    "id": "character:maree",
    "name": "Chamberlain Maree",
+   "name_variants": [
+    "Chamberlain Maree",
+    "Maree"
+   ],
    "origins": [
     "pack_p5_untagged_side_stories_2015_2026_2026-10-30.json",
     "pack_p5_war_spark_ravnica_2026-10-30.json"
@@ -69156,6 +69180,10 @@
   {
    "id": "character:nahiri",
    "name": "Nahiri, the Lithomancer",
+   "name_variants": [
+    "Nahiri",
+    "Nahiri, the Lithomancer"
+   ],
    "origins": [
     "pack_a5_ugin_allies_2026-10-30.json",
     "pack_c3_assault_on_new_phyrexia_2026-10-30.json",
@@ -69377,6 +69405,10 @@
   {
    "id": "character:ob_nixilis",
    "name": "Ob Nixilis (the Adversary)",
+   "name_variants": [
+    "Ob Nixilis",
+    "Ob Nixilis (the Adversary)"
+   ],
    "origins": [
     "pack_p5_battle_for_zendikar_oath_2026-10-30.json",
     "pack_p5_streets_of_new_capenna_2026-10-30.json",
@@ -69641,6 +69673,10 @@
   {
    "id": "character:quintorius",
    "name": "Quintorius",
+   "name_variants": [
+    "Quintorius",
+    "Quintorius Kand"
+   ],
    "origins": [
     "pack_p5_mom_side_stories_2026-10-30.json",
     "pack_p5_secrets_of_strixhaven_2026-10-30.json",
@@ -69903,6 +69939,10 @@
   {
    "id": "character:saheeli",
    "name": "Saheeli",
+   "name_variants": [
+    "Saheeli",
+    "Saheeli Rai"
+   ],
    "origins": [
     "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json",
     "pack_p5_brothers_war_2026-10-30.json",
@@ -70180,6 +70220,10 @@
   {
    "id": "character:surrak",
    "name": "Surrak Dragonclaw",
+   "name_variants": [
+    "Surrak",
+    "Surrak Dragonclaw"
+   ],
    "origins": [
     "pack_p5_untagged_ktk_2026-10-30.json",
     "pack_p5_untagged_tarkir_stories_2026-10-30.json",
@@ -70239,6 +70283,10 @@
   {
    "id": "character:tam",
    "name": "Tam (Tamira)",
+   "name_variants": [
+    "Tam",
+    "Tam (Tamira)"
+   ],
    "origins": [
     "pack_p5_lorwyn_eclipsed_2026-10-30.json",
     "pack_p5_reality_fracture_2026-10-30.json",
@@ -70399,6 +70447,10 @@
   {
    "id": "character:the_wanderer",
    "name": "The Wanderer (Emperor of Kamigawa)",
+   "name_variants": [
+    "The Wanderer",
+    "The Wanderer (Emperor of Kamigawa)"
+   ],
    "origins": [
     "pack_c4_march_of_the_machine_2026-10-30.json",
     "pack_p5_bloomburrow_2026-10-30.json",
@@ -70514,6 +70566,10 @@
   {
    "id": "character:ugin",
    "name": "Ugin",
+   "name_variants": [
+    "Ugin",
+    "Ugin, the Spirit Dragon"
+   ],
    "origins": [
     "pack_a5_ugin_allies_2026-10-30.json",
     "pack_a_ugin_bolas_evidence_2026-10-30.json",
@@ -70913,6 +70969,10 @@
   {
    "id": "character:zurgo",
    "name": "Zurgo Helmsmasher",
+   "name_variants": [
+    "Zurgo",
+    "Zurgo Helmsmasher"
+   ],
    "origins": [
     "pack_p5_untagged_ktk_2026-10-30.json",
     "pack_p5_untagged_tarkir_zendikar_guides_2026-10-30.json"
@@ -84149,6 +84209,10 @@
   {
    "id": "continuity:echoverse",
    "name": "Echoverse",
+   "name_variants": [
+    "Echoverse",
+    "The Echoverse"
+   ],
    "origins": [
     "pack_a_ugin_bolas_evidence_2026-10-30.json",
     "pack_p5_reality_fracture_2026-10-30.json"
@@ -85373,6 +85437,10 @@
   {
    "id": "faction:abzan",
    "name": "The Abzan",
+   "name_variants": [
+    "Abzan",
+    "The Abzan"
+   ],
    "origins": [
     "pack_p5_tarkir_dragonstorm_2026-10-30.json",
     "pack_p5_untagged_ktk_2026-10-30.json",
@@ -85579,6 +85647,10 @@
   {
    "id": "faction:consulate",
    "name": "Consulate of Kaladesh",
+   "name_variants": [
+    "Consulate",
+    "Consulate of Kaladesh"
+   ],
    "origins": [
     "pack_p5_kaladesh_aether_revolt_2026-10-30.json",
     "pack_p5_untagged_planes_2026-10-30.json",
@@ -85677,6 +85749,10 @@
   {
    "id": "faction:eldrazi",
    "name": "The Eldrazi",
+   "name_variants": [
+    "Eldrazi",
+    "The Eldrazi"
+   ],
    "origins": [
     "pack_p5_bfz_2015_stories_2026-10-30.json",
     "pack_p5_edge_of_eternities_2026-10-30.json",
@@ -85705,6 +85781,10 @@
   {
    "id": "faction:gatewatch",
    "name": "The Gatewatch",
+   "name_variants": [
+    "Gatewatch",
+    "The Gatewatch"
+   ],
    "origins": [
     "pack_c2_return_to_dominaria_2026-10-30.json",
     "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json",
@@ -85736,6 +85816,10 @@
   {
    "id": "faction:golgari",
    "name": "Golgari Swarm",
+   "name_variants": [
+    "Golgari",
+    "Golgari Swarm"
+   ],
    "origins": [
     "pack_p5_ixalan_rivals_2026-10-30.json",
     "pack_p5_murders_at_karlov_manor_2026-10-30.json",
@@ -85846,6 +85930,10 @@
   {
    "id": "faction:jeskai",
    "name": "The Jeskai",
+   "name_variants": [
+    "Jeskai",
+    "The Jeskai"
+   ],
    "origins": [
     "pack_p5_tarkir_dragonstorm_2026-10-30.json",
     "pack_p5_untagged_bios_2026-10-30.json",
@@ -85924,6 +86012,10 @@
   {
    "id": "faction:kytheons_irregulars",
    "name": "Kytheon's irregulars",
+   "name_variants": [
+    "Kytheon's Irregulars",
+    "Kytheon's irregulars"
+   ],
    "origins": [
     "pack_p5_theros_ths_2026-10-30.json",
     "pack_p5_untagged_ori_2015_2026-10-30.json"
@@ -85976,6 +86068,10 @@
   {
    "id": "faction:mardu",
    "name": "The Mardu",
+   "name_variants": [
+    "Mardu",
+    "The Mardu"
+   ],
    "origins": [
     "pack_p5_tarkir_dragonstorm_2026-10-30.json",
     "pack_p5_untagged_bios_2026-10-30.json",
@@ -85995,6 +86091,10 @@
   {
    "id": "faction:mirran_resistance",
    "name": "Mirran resistance",
+   "name_variants": [
+    "Mirran Resistance",
+    "Mirran resistance"
+   ],
    "origins": [
     "pack_p5_one_side_stories_2026-10-30.json",
     "pack_p5_untagged_side_stories_2015_2026_2026-10-30.json"
@@ -86044,6 +86144,10 @@
   {
    "id": "faction:onakke",
    "name": "The Onakke",
+   "name_variants": [
+    "Onakke",
+    "The Onakke"
+   ],
    "origins": [
     "pack_p5_untagged_planes_2026-10-30.json",
     "pack_p5_untagged_stories_2014_2026-10-30.json"
@@ -86079,6 +86183,10 @@
   {
    "id": "faction:phyrexians",
    "name": "The Phyrexians",
+   "name_variants": [
+    "Phyrexians",
+    "The Phyrexians"
+   ],
    "origins": [
     "pack_p5_brothers_war_2026-10-30.json",
     "pack_p5_dmu_side_stories_2026-10-30.json",
@@ -86131,6 +86239,10 @@
   {
    "id": "faction:rakdos_cult",
    "name": "Cult of Rakdos",
+   "name_variants": [
+    "Cult of Rakdos",
+    "Rakdos Cult"
+   ],
    "origins": [
     "pack_p5_untagged_grn_rna_2026-10-30.json",
     "pack_p5_untagged_misc_b10_2026-10-30.json",
@@ -86149,6 +86261,10 @@
   {
    "id": "faction:renegades_kaladesh",
    "name": "Renegades of Kaladesh",
+   "name_variants": [
+    "Renegades (Kaladesh)",
+    "Renegades of Kaladesh"
+   ],
    "origins": [
     "pack_p5_aetherdrift_2026-10-30.json",
     "pack_p5_kaladesh_aether_revolt_2026-10-30.json",
@@ -86301,6 +86417,10 @@
   {
    "id": "faction:sultai",
    "name": "The Sultai",
+   "name_variants": [
+    "Sultai",
+    "The Sultai"
+   ],
    "origins": [
     "pack_p5_tarkir_dragonstorm_2026-10-30.json",
     "pack_p5_untagged_ktk_2026-10-30.json",
@@ -86361,6 +86481,10 @@
   {
    "id": "faction:temur",
    "name": "The Temur",
+   "name_variants": [
+    "Temur",
+    "The Temur"
+   ],
    "origins": [
     "pack_p5_tarkir_dragonstorm_2026-10-30.json",
     "pack_p5_untagged_ktk_2026-10-30.json",
@@ -86445,6 +86569,10 @@
   {
    "id": "faction:zendikar_vampires",
    "name": "Zendikar's vampires",
+   "name_variants": [
+    "Zendikar vampires",
+    "Zendikar's vampires"
+   ],
    "origins": [
     "pack_p5_untagged_tarkir_zendikar_guides_2026-10-30.json",
     "pack_p5_untagged_znr_2026-10-30.json"
@@ -87241,6 +87369,10 @@
   {
    "id": "place:theros_underworld",
    "name": "Underworld (Theros)",
+   "name_variants": [
+    "Theros Underworld",
+    "Underworld (Theros)"
+   ],
    "origins": [
     "pack_p5_theros_beyond_death_2026-10-30.json",
     "pack_p5_untagged_stories_2014_2026-10-30.json"
@@ -87527,6 +87659,10 @@
   {
    "id": "plane:meditation_realm",
    "name": "Meditation Realm",
+   "name_variants": [
+    "Meditation Realm",
+    "The Meditation Realm"
+   ],
    "origins": [
     "pack_a_ugin_bolas_evidence_2026-10-30.json",
     "pack_p5_reality_fracture_2026-10-30.json",
@@ -87537,6 +87673,10 @@
   {
    "id": "plane:mirrodin",
    "name": "Mirrodin / New Phyrexia",
+   "name_variants": [
+    "Mirrodin",
+    "Mirrodin / New Phyrexia"
+   ],
    "origins": [
     "pack_c3_assault_on_new_phyrexia_2026-10-30.json",
     "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json",
@@ -87579,6 +87719,10 @@
   {
    "id": "plane:old_phyrexia",
    "name": "Phyrexia",
+   "name_variants": [
+    "Old Phyrexia",
+    "Phyrexia"
+   ],
    "origins": [
     "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json",
     "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json",

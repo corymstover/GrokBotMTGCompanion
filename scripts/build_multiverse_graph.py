@@ -88,6 +88,11 @@ class Graph:
             self.nodes[gid] = node
         elif node["type"] != ntype:
             self.problems.append(f"type conflict for {gid}: {node['type']} vs {ntype} ({origin})")
+        elif node["name"] != name:
+            # These are *pack-local display-name variants for the SAME stable ID*.
+            # Retain the original display name; never infer that two different IDs
+            # sharing a similar name are aliases or refer to the same character.
+            node["name_variants"] = sorted(set(node.get("name_variants", [])) | {node["name"], name})
         if origin not in node["origins"]:
             node["origins"].append(origin)
         for k, v in extra.items():
