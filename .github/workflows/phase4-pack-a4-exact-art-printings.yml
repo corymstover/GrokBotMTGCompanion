@@ -1,0 +1,38 @@
+name: Phase 4 Pack A4 exact Tarkir story illustration printings
+
+on:
+  pull_request:
+    paths:
+      - 'research/PACK_A4_Exact_Tarkir_Story_Illustrations_and_Deck_Pilot.md'
+      - 'data/lore_research/pack_a4_printing_art_matches_2026-10-30.json'
+      - 'scripts/audit_lore_pack_a4_printing_art.py'
+      - 'tests/test_lore_pack_a4_printing_art.py'
+      - '.github/workflows/phase4-pack-a4-exact-art-printings.yml'
+      - 'MTG_MULTIVERSE_MASTER_WORKFLOW.md'
+  push:
+    paths:
+      - 'research/PACK_A4_Exact_Tarkir_Story_Illustrations_and_Deck_Pilot.md'
+      - 'data/lore_research/pack_a4_printing_art_matches_2026-10-30.json'
+      - 'scripts/audit_lore_pack_a4_printing_art.py'
+      - 'tests/test_lore_pack_a4_printing_art.py'
+      - '.github/workflows/phase4-pack-a4-exact-art-printings.yml'
+      - 'MTG_MULTIVERSE_MASTER_WORKFLOW.md'
+  workflow_dispatch:
+
+jobs:
+  exact-art-printing-ledger:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Preserve Pack A/A2/A3 source grading
+        run: |
+          python3 scripts/audit_lore_pack_a.py
+          python3 scripts/audit_lore_pack_a_extension.py
+          python3 scripts/audit_lore_pack_a_scenes.py
+      - name: Replay dated illustration-to-printing metadata ledger
+        run: python3 scripts/audit_lore_pack_a4_printing_art.py
+      - name: Check exact Ugin art and narrative-tier separation
+        run: python3 -m unittest discover -s tests -p 'test_lore_pack_a4_printing_art.py' -v
