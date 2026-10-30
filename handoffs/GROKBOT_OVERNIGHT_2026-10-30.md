@@ -198,3 +198,41 @@ Local full suite: 383 tests OK on the #856 head. One earlier full-suite run had 
 5. Investigate the flaky snapshot test.
 
 Store copies were skipped per the owner. Protected-path check `git diff --stat dfc8891d origin/main -- grixis/ data/grixis/ state/current_deck_overrides.json data/lore_decks/approvals/`: **empty** (run after #856 merged, main `67dc7a75`).
+
+## Batch 5 — 2026-10-30 04:43–~05:15 CDT (final)
+
+Owner request: build a reusable bulk claim-pack pipeline for the uncited Phase 5 arcs (KLD/AER, XLN/RIX, AKH/HOU, then others), check every quote word-for-word, grade conservatively and mark everything PRELIMINARY_RESEARCH. Also do the Reality Fracture collector-number links, the broader Phase 7 relation tests and the flaky-test fix where cheap.
+
+### PRs (batch 5)
+| PR | Phase | What | Merge (CDT) | CI on the exact head |
+|---|---|---|---|---|
+| [#858](https://github.com/corymstover/GrokBotMTGCompanion/pull/858) | 5/3 | `scripts/story_claim_pipeline.py` (spec → pack + self-hashed audit, verbatim/grade/limitation/page gates, cache-free `check` in CI). KLD/AER: 25 claims, 29/29 quotes. XLN/RIX: 16 claims, 23/23 quotes. AKH/HOU: 17 claims, 23/23 quotes. 12 pipeline tests. Snapshot test hardened. Workflow v2.32 | `681bd3b4` (04:58) | 26/26 pass |
+| [#859](https://github.com/corymstover/GrokBotMTGCompanion/pull/859) | 7 | `tests/test_mv_ask_relations.py`: every claim edge (256 at the time) round-trips through `mv_ask` lore with its grade and source, confidence never overstates the grade, and IMPLIED/DISPUTED/OPEN claims carry limitations. Natural-language questions are checked too. Router fallbacks: `created ← designed/invented`, `defeated_by ← defeated` | `0e199c14` (05:03) | 3/3 pass |
+| [#860](https://github.com/corymstover/GrokBotMTGCompanion/pull/860) | 2/1B | Story image-label → printing links: 577 labels on 57 pages. 570 MATCHED (560 printings); FRA 159/160 (146 fra + 13 frc commander companion). 6 NAME_MISMATCH and 1 NO_PRINTING are kept unresolved. Agrees with the Koth leads (#199, #248). 7 tests | `aeb80393` (05:07) | 5/5 pass |
+| [#861](https://github.com/corymstover/GrokBotMTGCompanion/pull/861) | 5 | NEO claim pack: 12 claims, 19/19 quotes verbatim, 6 pages (episodes 1–5 + Planeswalker's Guide). 9 CONFIRMED and 3 IMPLIED, each with a limitation. NEO→`neo` set anchors. Graph 1,241 nodes / 1,966 edges | `67a946d7` (05:11) | 7/7 pass |
+
+Local full suite: 395 tests OK (#858), 402 (#860 branch), 411 OK on the merged NEO branch.
+
+### Status (keep distinct)
+- **Research:** the 4 new packs (KLD/AER, XLN/RIX, AKH/HOU, NEO) are PRELIMINARY_RESEARCH. They are targeted, not exhaustive, not owner approved and not certified.
+- **Tests:** green locally and in CI on each exact head.
+- **Merged:** #858–#861.
+- **Owner approved / certified:** nothing new.
+
+### Discoveries
+- Coverage after NEO: 94 of 626 pages cited, 243 claims, 2 arcs fully cited, 12 partial and 19 not started.
+- Image-label set codes do not always match Scryfall. OTJ-labelled "Loot" art is printed in `big`, and a BLB Dragonhawk label (#135) is #132 in Scryfall. These are recorded as NAME_MISMATCH.
+- Commander precon labels (`Cmdr*`/`Comm*`) resolve to the "<set> Commander" companion set. The snapshot's default-cards has no `parent_set_code`, so the set is derived from `set_name`, and a number+name match is still required.
+- The graph grows with art-caption card nodes as packs cite new pages. The ALT and coverage count tests pin these numbers.
+- Flaky snapshot test: hardened in #858, but the root cause was **not** reproduced, so treat it as mitigated, not proven fixed.
+- Jin-Gitaxias's fate in NEO episode 5 is deliberately not claimed: he is badly wounded but appears alive in the epilogue.
+
+### Blockers
+Unchanged: owner review of Pilots 1–3 and the Pack A proposals; `trk`/`trc` admission after 2026-11-13; readiness NOT_RELEASE_READY.
+
+### Next steps
+1. More Phase 5 arcs via the pipeline: MID/VOW, SNC, then EOE, RF and other not-started arcs. Add the missing pages of the partial arcs (KLD/AER 3, XLN/RIX 7, AKH/HOU 9).
+2. Resolve the 6 image-label NAME_MISMATCH entries by owner/editorial review, and use the 570 matched labels as printing-specific art evidence in enrichment records.
+3. A Phase 7 free-text paraphrase suite beyond the relation round-trip.
+
+Store copies were skipped per the owner.
