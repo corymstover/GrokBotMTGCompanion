@@ -106,7 +106,11 @@ class CommanderRulesTests(unittest.TestCase):
         a = mv_ask.ask("Can Counterspell go in a Krark, the Thumbless deck?")
         assert a["route"] == "ask->rules:include" and not a["result"]["allowed"]
         a = mv_ask.ask("Who is Ugin's brother?")
-        assert a["confidence"] == "VERIFIED" and a["route"] == "ask->lore:twin_sibling_of"
+        # Batch 9: sibling questions read sibling_of and twin_sibling_of together (Ugin also has cited siblings
+        # Arcades, Chromium Rhuell and Merrevia Sal), and the twin Nicol Bolas must always be among them.
+        assert a["confidence"] == "VERIFIED" and a["route"] == "ask->lore:sibling_of|twin_sibling_of"
+        rows = [r for rs in a["result"]["relations_by_status"].values() for r in rs]
+        assert any(r["relation"] == "twin_sibling_of" and r["name"] == "Nicol Bolas" for r in rows)
 
 
 if __name__ == "__main__":

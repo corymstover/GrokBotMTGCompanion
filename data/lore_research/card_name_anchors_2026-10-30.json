@@ -231,6 +231,29 @@
    ]
   },
   {
+   "entity": "alesha",
+   "entity_type": "Character",
+   "entity_name": "Alesha",
+   "aliases": [
+    "Alesha"
+   ],
+   "pack": "pack_p5_untagged_ktk_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Alesha, Who Laughs at Fate",
+     "oracle_id": "17ce2c17-b69b-4ebf-9c3c-c64e771af101",
+     "type_line": "Legendary Creature — Human Warrior",
+     "scryfall_uri": "https://scryfall.com/card/fdn/115/alesha-who-laughs-at-fate"
+    },
+    {
+     "name": "Alesha, Who Smiles at Death",
+     "oracle_id": "6969a7e2-6866-4001-a139-24b3be13deae",
+     "type_line": "Legendary Creature — Human Warrior",
+     "scryfall_uri": "https://scryfall.com/card/dmc/118/alesha-who-smiles-at-death"
+    }
+   ]
+  },
+  {
    "entity": "alhammarret",
    "entity_type": "Character",
    "entity_name": "Alhammarret",
@@ -301,6 +324,35 @@
      "oracle_id": "0a69c3dd-52a3-4ef6-b53f-b0780e0dc5f8",
      "type_line": "Legendary Creature — God // Legendary Creature — Bird",
      "scryfall_uri": "https://scryfall.com/card/khm/40/alrund-god-of-the-cosmos-hakka-whispering-raven"
+    }
+   ]
+  },
+  {
+   "entity": "anafenza",
+   "entity_type": "Character",
+   "entity_name": "Anafenza",
+   "aliases": [
+    "Anafenza"
+   ],
+   "pack": "pack_p5_untagged_ktk_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Anafenza, Kin-Tree Spirit",
+     "oracle_id": "f7fa6ac0-70db-4586-b881-5a19db644dfb",
+     "type_line": "Legendary Creature — Spirit Soldier",
+     "scryfall_uri": "https://scryfall.com/card/cmm/11/anafenza-kin-tree-spirit"
+    },
+    {
+     "name": "Anafenza, Unyielding Lineage",
+     "oracle_id": "659bc01c-fa60-4d00-bdad-5bca1d2a978f",
+     "type_line": "Legendary Creature — Spirit Soldier",
+     "scryfall_uri": "https://scryfall.com/card/tdm/2/anafenza-unyielding-lineage"
+    },
+    {
+     "name": "Anafenza, the Foremost",
+     "oracle_id": "ebfafabc-5255-4024-be59-7403bdb16ee4",
+     "type_line": "Legendary Creature — Human Soldier",
+     "scryfall_uri": "https://scryfall.com/card/ktk/163/anafenza-the-foremost"
     }
    ]
   },
@@ -1211,6 +1263,23 @@
    ]
   },
   {
+   "entity": "daghatar",
+   "entity_type": "Character",
+   "entity_name": "Daghatar",
+   "aliases": [
+    "Daghatar"
+   ],
+   "pack": "pack_p5_untagged_ktk_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Daghatar the Adamant",
+     "oracle_id": "7b303881-ac8d-4459-b04e-768a6804763c",
+     "type_line": "Legendary Creature — Human Warrior",
+     "scryfall_uri": "https://scryfall.com/card/frf/9/daghatar-the-adamant"
+    }
+   ]
+  },
+  {
    "entity": "dakkon",
    "entity_type": "Character",
    "entity_name": "Dakkon Blackblade",
@@ -1414,6 +1483,23 @@
      "oracle_id": "5b33bfbf-e4e1-43de-9c96-ccdc2916510a",
      "type_line": "Legendary Planeswalker — Dovin",
      "scryfall_uri": "https://scryfall.com/card/kld/179/dovin-baan"
+    }
+   ]
+  },
+  {
+   "entity": "dromoka",
+   "entity_type": "Character",
+   "entity_name": "Dromoka",
+   "aliases": [
+    "Dromoka"
+   ],
+   "pack": "pack_p5_untagged_ktk_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Dromoka, the Eternal",
+     "oracle_id": "73520b5a-3d55-40c9-af60-90fdd811934f",
+     "type_line": "Legendary Creature — Dragon",
+     "scryfall_uri": "https://scryfall.com/card/c17/170/dromoka-the-eternal"
     }
    ]
   },
@@ -3204,6 +3290,23 @@
    ]
   },
   {
+   "entity": "kolaghan",
+   "entity_type": "Character",
+   "entity_name": "Kolaghan",
+   "aliases": [
+    "Kolaghan"
+   ],
+   "pack": "pack_p5_untagged_ktk_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Kolaghan, the Storm's Fury",
+     "oracle_id": "f6e160c1-b29f-4f3d-ab55-43ffe3ab4acf",
+     "type_line": "Legendary Creature — Dragon",
+     "scryfall_uri": "https://scryfall.com/card/c17/176/kolaghan-the-storms-fury"
+    }
+   ]
+  },
+  {
    "entity": "koll",
    "entity_type": "Character",
    "entity_name": "Koll",
@@ -4601,6 +4704,23 @@
    ]
   },
   {
+   "entity": "ojutai",
+   "entity_type": "Character",
+   "entity_name": "Ojutai",
+   "aliases": [
+    "Ojutai"
+   ],
+   "pack": "pack_p5_untagged_ktk_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Ojutai, Soul of Winter",
+     "oracle_id": "27d7f737-59a4-4948-9b2e-599ae848e054",
+     "type_line": "Legendary Creature — Dragon",
+     "scryfall_uri": "https://scryfall.com/card/c17/187/ojutai-soul-of-winter"
+    }
+   ]
+  },
+  {
    "entity": "oketra",
    "entity_type": "Character",
    "entity_name": "Oketra",
@@ -5763,6 +5883,35 @@
    ]
   },
   {
+   "entity": "sidisi",
+   "entity_type": "Character",
+   "entity_name": "Sidisi",
+   "aliases": [
+    "Sidisi"
+   ],
+   "pack": "pack_p5_untagged_ktk_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Sidisi, Brood Tyrant",
+     "oracle_id": "3fad7072-21e3-446e-a28f-615038c8bfea",
+     "type_line": "Legendary Creature — Snake Shaman",
+     "scryfall_uri": "https://scryfall.com/card/cmm/355/sidisi-brood-tyrant"
+    },
+    {
+     "name": "Sidisi, Regent of the Mire",
+     "oracle_id": "72074972-418d-4dce-83cf-ce8cf310fc42",
+     "type_line": "Legendary Creature — Zombie Snake Warlock",
+     "scryfall_uri": "https://scryfall.com/card/tdm/92/sidisi-regent-of-the-mire"
+    },
+    {
+     "name": "Sidisi, Undead Vizier",
+     "oracle_id": "3406db41-6b95-48fc-b58e-4476220fd34d",
+     "type_line": "Legendary Creature — Zombie Snake",
+     "scryfall_uri": "https://scryfall.com/card/dtk/120/sidisi-undead-vizier"
+    }
+   ]
+  },
+  {
    "entity": "sisay",
    "entity_type": "Character",
    "entity_name": "Captain Sisay",
@@ -5907,6 +6056,23 @@
      "oracle_id": "022e38c3-fcea-428f-a0d0-a6cca057faa3",
      "type_line": "Plane — Arcavios",
      "scryfall_uri": "https://scryfall.com/card/moc/65/strixhaven"
+    }
+   ]
+  },
+  {
+   "entity": "surrak",
+   "entity_type": "Character",
+   "entity_name": "Surrak Dragonclaw",
+   "aliases": [
+    "Surrak Dragonclaw"
+   ],
+   "pack": "pack_p5_untagged_ktk_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Surrak Dragonclaw",
+     "oracle_id": "7c766365-82c2-46d6-8521-42e73129f4ef",
+     "type_line": "Legendary Creature — Human Warrior",
+     "scryfall_uri": "https://scryfall.com/card/dmc/169/surrak-dragonclaw"
     }
    ]
   },
@@ -6069,6 +6235,23 @@
      "oracle_id": "b5ae8016-92ed-4ae8-83a8-65068defc616",
      "type_line": "Legendary Creature — Kavu Pilot",
      "scryfall_uri": "https://scryfall.com/card/eoe/162/tannuk-steadfast-second"
+    }
+   ]
+  },
+  {
+   "entity": "tasigur",
+   "entity_type": "Character",
+   "entity_name": "Tasigur",
+   "aliases": [
+    "Tasigur"
+   ],
+   "pack": "pack_p5_untagged_ktk_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Tasigur, the Golden Fang",
+     "oracle_id": "837e3fde-241f-4826-ad04-f146fdcf2278",
+     "type_line": "Legendary Creature — Human Shaman",
+     "scryfall_uri": "https://scryfall.com/card/tdc/197/tasigur-the-golden-fang"
     }
    ]
   },
@@ -7408,6 +7591,23 @@
      "scryfall_uri": "https://scryfall.com/card/blb/242/zoraline-cosmos-caller"
     }
    ]
+  },
+  {
+   "entity": "zurgo",
+   "entity_type": "Character",
+   "entity_name": "Zurgo Helmsmasher",
+   "aliases": [
+    "Zurgo Helmsmasher"
+   ],
+   "pack": "pack_p5_untagged_ktk_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Zurgo Helmsmasher",
+     "oracle_id": "6c48d888-9f5d-43f4-adbd-61dbdba09260",
+     "type_line": "Legendary Creature — Orc Warrior",
+     "scryfall_uri": "https://scryfall.com/card/ktk/214/zurgo-helmsmasher"
+    }
+   ]
   }
  ],
  "unanchored_entities": [
@@ -7425,6 +7625,7 @@
   "artificial_omenpath",
   "ashaya",
   "auntie_grub",
+  "baishya",
   "bartolome",
   "beckett_brass",
   "belzenlok",
@@ -7444,6 +7645,7 @@
   "cruelclaw",
   "cursemute",
   "cymede",
+  "dar",
   "dawn",
   "dawnsire",
   "dhiren_baral",
@@ -7494,6 +7696,7 @@
   "jilesa_clarus",
   "kavaron",
   "kayla_bin_kroog",
+  "kela",
   "kellan_boldt",
   "khal",
   "khalni_heart",
@@ -7504,6 +7707,7 @@
   "kitt",
   "kroog_destruction",
   "kuberr",
+  "kwaro",
   "kytheon",
   "lake_zhava",
   "last_battle_argoth",
@@ -7523,9 +7727,11 @@
   "mehtma",
   "melantha",
   "meletis",
+  "merrevia_sal",
   "mitul",
   "mohar_varma",
   "mom_invasion",
+  "naiva",
   "nakht",
   "niharet",
   "nishang",
@@ -7614,9 +7820,9 @@
   "Urza, Academy Headmaster"
  ],
  "counts": {
-  "entities_anchored": 328,
-  "anchor_edges": 631,
-  "unanchored_entities": 193
+  "entities_anchored": 338,
+  "anchor_edges": 646,
+  "unanchored_entities": 199
  },
- "content_sha256": "2b827a7bb6d44610f2399da0d3dc178b344e45e28be8e76eb8f582e79df0ce72"
+ "content_sha256": "adbf4df9b4e880080c97f5e79a4587d5ee52e0f559ea949b3304f717274b33d8"
 }

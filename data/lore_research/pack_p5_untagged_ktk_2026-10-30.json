@@ -1,0 +1,819 @@
+{
+ "schema": "multiverse-claim-pack/v1",
+ "pack_id": "pack_p5_untagged_ktk",
+ "evidence_cutoff": "2026-10-30",
+ "status": "PRELIMINARY_RESEARCH (not owner approved, not certified)",
+ "arc": "",
+ "scope": "Batch 9 extraction from the untagged 2014-2015 Khans of Tarkir / Fate Reforged / Dragons of Tarkir Magic Story pages. Also the 2018 Chronicle of Bolas pages set on Tarkir. Three timelines appear: the Khans present, Tarkir's past (Fate Reforged) and the rewritten dragonlord present (Dragons of Tarkir). Each leader claim says which. PRELIMINARY_RESEARCH; targeted, not exhaustive; not owner approved.",
+ "built_by": "scripts/story_claim_pipeline.py from data/lore_research/claim_specs/pack_p5_untagged_ktk.spec.json",
+ "source_register": {
+  "kt_bear": {
+   "title": "Awakening the Bear",
+   "url": "https://magic.wizards.com/en/news/magic-story/awakening-the-bear",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2014-09-17"
+  },
+  "kt_taigam": {
+   "title": "Taigam's Scheming",
+   "url": "https://magic.wizards.com/en/news/magic-story/taigams-scheming",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2014-10-01"
+  },
+  "kt_enl": {
+   "title": "Enlightened",
+   "url": "https://magic.wizards.com/en/news/magic-story/enlightened",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2014-10-22"
+  },
+  "kt_mercy": {
+   "title": "Mercy",
+   "url": "https://magic.wizards.com/en/news/magic-story/mercy",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2014-11-19"
+  },
+  "kt_victory": {
+   "title": "Victory",
+   "url": "https://magic.wizards.com/en/news/magic-story/victory-2014-11-26",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2014-11-27"
+  },
+  "kt_bond": {
+   "title": "Bond and Blood",
+   "url": "https://magic.wizards.com/en/news/magic-story/bond-and-blood-2014-12-03",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2014-12-04"
+  },
+  "kt_newold": {
+   "title": "A New Tarkir of Old",
+   "url": "https://magic.wizards.com/en/news/magic-story/new-tarkir-old-2014-12-31",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2015-01-01"
+  },
+  "kt_truth": {
+   "title": "The Truth of Names",
+   "url": "https://magic.wizards.com/en/news/magic-story/truth-names-2015-01-28",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2015-01-29"
+  },
+  "kt_noend": {
+   "title": "No End and No Beginning",
+   "url": "https://magic.wizards.com/en/news/magic-story/no-end-and-no-beginning-2015-02-11",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2015-02-12"
+  },
+  "kt_khanfall": {
+   "title": "Khanfall",
+   "url": "https://magic.wizards.com/en/news/magic-story/khanfall-2015-02-18",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2015-02-19"
+  },
+  "kt_dragons": {
+   "title": "A Tarkir of Dragons",
+   "url": "https://magic.wizards.com/en/news/magic-story/tarkir-dragons-2015-02-25",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2015-02-26"
+  },
+  "kt_teacher": {
+   "title": "The Great Teacher's Student",
+   "url": "https://magic.wizards.com/en/news/magic-story/great-teachers-student-2015-03-04",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2015-03-05"
+  },
+  "kt_twins": {
+   "title": "The Chensal Twins",
+   "url": "https://magic.wizards.com/en/news/magic-story/the-chensal-twins",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2014-10-15"
+  },
+  "cb_unseen": {
+   "title": "Chronicle of Bolas: Things Unseen",
+   "url": "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-things-unseen-2018-06-27",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2018-06-27"
+  },
+  "cb_whispers": {
+   "title": "Chronicle of Bolas: Whispers of Treachery",
+   "url": "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-whispers-treachery-2018-07-11",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2018-07-11"
+  }
+ },
+ "entities": [
+  {
+   "id": "surrak",
+   "type": "Character",
+   "name": "Surrak Dragonclaw"
+  },
+  {
+   "id": "temur",
+   "type": "Faction",
+   "name": "The Temur"
+  },
+  {
+   "id": "narset",
+   "type": "Character",
+   "name": "Narset"
+  },
+  {
+   "id": "jeskai",
+   "type": "Faction",
+   "name": "The Jeskai"
+  },
+  {
+   "id": "taigam",
+   "type": "Character",
+   "name": "Taigam"
+  },
+  {
+   "id": "sultai",
+   "type": "Faction",
+   "name": "The Sultai"
+  },
+  {
+   "id": "sidisi",
+   "type": "Character",
+   "name": "Sidisi"
+  },
+  {
+   "id": "zurgo",
+   "type": "Character",
+   "name": "Zurgo Helmsmasher"
+  },
+  {
+   "id": "mardu",
+   "type": "Faction",
+   "name": "The Mardu"
+  },
+  {
+   "id": "anafenza",
+   "type": "Character",
+   "name": "Anafenza"
+  },
+  {
+   "id": "abzan",
+   "type": "Faction",
+   "name": "The Abzan"
+  },
+  {
+   "id": "kwaro",
+   "type": "Character",
+   "name": "Kwaro"
+  },
+  {
+   "id": "sarkhan_vol",
+   "type": "Character",
+   "name": "Sarkhan Vol"
+  },
+  {
+   "id": "ugin",
+   "type": "Character",
+   "name": "Ugin"
+  },
+  {
+   "id": "yasova_dragonclaw",
+   "type": "Character",
+   "name": "Yasova Dragonclaw"
+  },
+  {
+   "id": "alesha",
+   "type": "Character",
+   "name": "Alesha"
+  },
+  {
+   "id": "kolaghan",
+   "type": "Character",
+   "name": "Kolaghan"
+  },
+  {
+   "id": "tasigur",
+   "type": "Character",
+   "name": "Tasigur"
+  },
+  {
+   "id": "daghatar",
+   "type": "Character",
+   "name": "Daghatar"
+  },
+  {
+   "id": "dromoka",
+   "type": "Character",
+   "name": "Dromoka"
+  },
+  {
+   "id": "ojutai",
+   "type": "Character",
+   "name": "Ojutai"
+  },
+  {
+   "id": "dar",
+   "type": "Character",
+   "name": "Dar"
+  },
+  {
+   "id": "kela",
+   "type": "Character",
+   "name": "Kela"
+  },
+  {
+   "id": "nicol_bolas",
+   "type": "Character",
+   "name": "Nicol Bolas"
+  },
+  {
+   "id": "arcades_sabboth",
+   "type": "Character",
+   "name": "Arcades Sabboth"
+  },
+  {
+   "id": "chromium_rhuell",
+   "type": "Character",
+   "name": "Chromium Rhuell"
+  },
+  {
+   "id": "merrevia_sal",
+   "type": "Character",
+   "name": "Merrevia Sal"
+  },
+  {
+   "id": "naiva",
+   "type": "Character",
+   "name": "Naiva"
+  },
+  {
+   "id": "baishya",
+   "type": "Character",
+   "name": "Baishya"
+  }
+ ],
+ "claims": [
+  {
+   "id": "KT001",
+   "subject": "surrak",
+   "predicate": "leader_of",
+   "object": "temur",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "tarkir_2014_2015_stories",
+   "source_ids": [
+    "kt_bear"
+   ],
+   "evidence": [
+    {
+     "source_id": "kt_bear",
+     "quote": "Perhaps you've seen Surrak Dragonclaw, the khan of the Temur clan."
+    }
+   ],
+   "summary": "Surrak Dragonclaw is khan of the Temur (Khans of Tarkir present).",
+   "limitation": ""
+  },
+  {
+   "id": "KT002",
+   "subject": "narset",
+   "predicate": "leader_of",
+   "object": "jeskai",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "tarkir_2014_2015_stories",
+   "source_ids": [
+    "kt_enl"
+   ],
+   "evidence": [
+    {
+     "source_id": "kt_enl",
+     "quote": "Narset is the Khan of the Jeskai."
+    },
+    {
+     "source_id": "kt_enl",
+     "quote": "until the elders saw to appoint me the khan of the Jeskai"
+    }
+   ],
+   "summary": "Narset was appointed khan of the Jeskai by its elders (Khans of Tarkir present).",
+   "limitation": ""
+  },
+  {
+   "id": "KT003",
+   "subject": "narset",
+   "predicate": "mentored",
+   "object": "taigam",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "tarkir_2014_2015_stories",
+   "source_ids": [
+    "kt_taigam"
+   ],
+   "evidence": [
+    {
+     "source_id": "kt_taigam",
+     "quote": "He even had the honor of being trained by the khan of the Jeskai, Narset."
+    }
+   ],
+   "summary": "Narset trained Taigam.",
+   "limitation": ""
+  },
+  {
+   "id": "KT004",
+   "subject": "taigam",
+   "predicate": "betrayed",
+   "object": "jeskai",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "tarkir_2014_2015_stories",
+   "source_ids": [
+    "kt_enl"
+   ],
+   "evidence": [
+    {
+     "source_id": "kt_enl",
+     "quote": "Taigam, my old pupil, who had betrayed the Jeskai to seek riches with the Sultai"
+    }
+   ],
+   "summary": "Taigam, Narset's former pupil, betrayed the Jeskai.",
+   "limitation": ""
+  },
+  {
+   "id": "KT005",
+   "subject": "taigam",
+   "predicate": "joined",
+   "object": "sultai",
+   "grade": "CANON_IMPLIED",
+   "event_stage": "tarkir_2014_2015_stories",
+   "source_ids": [
+    "kt_enl"
+   ],
+   "evidence": [
+    {
+     "source_id": "kt_enl",
+     "quote": "who had betrayed the Jeskai to seek riches with the Sultai"
+    }
+   ],
+   "summary": "Taigam left the Jeskai to seek riches with the Sultai.",
+   "limitation": "Narset says he went to 'seek riches with the Sultai'; formal membership is not stated in this sentence."
+  },
+  {
+   "id": "KT006",
+   "subject": "sidisi",
+   "predicate": "leader_of",
+   "object": "sultai",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "tarkir_2014_2015_stories",
+   "source_ids": [
+    "kt_mercy"
+   ],
+   "evidence": [
+    {
+     "source_id": "kt_mercy",
+     "quote": "The crown had once been taken by Sidisi herself, off of the freshly severed head of the previous khan."
+    },
+    {
+     "source_id": "kt_mercy",
+     "quote": "Like all Sultai khans, she had proven her abilities of trickery and ruthlessness"
+    }
+   ],
+   "summary": "Sidisi took the Sultai crown from the previous khan and rules as khan (Khans of Tarkir present).",
+   "limitation": ""
+  },
+  {
+   "id": "KT007",
+   "subject": "zurgo",
+   "predicate": "leader_of",
+   "object": "mardu",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "tarkir_2014_2015_stories",
+   "source_ids": [
+    "kt_victory"
+   ],
+   "evidence": [
+    {
+     "source_id": "kt_victory",
+     "quote": "Zurgo, khan of the Mardu, knows how to nurse a grudge."
+    }
+   ],
+   "summary": "Zurgo is khan of the Mardu (Khans of Tarkir present).",
+   "limitation": ""
+  },
+  {
+   "id": "KT008",
+   "subject": "anafenza",
+   "predicate": "leader_of",
+   "object": "abzan",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "tarkir_2014_2015_stories",
+   "source_ids": [
+    "kt_bond"
+   ],
+   "evidence": [
+    {
+     "source_id": "kt_bond",
+     "quote": "Anafenza, khan of the Abzan Houses, takes the throne"
+    }
+   ],
+   "summary": "Anafenza takes the throne as khan of the Abzan Houses (Khans of Tarkir present).",
+   "limitation": ""
+  },
+  {
+   "id": "KT009",
+   "subject": "kwaro",
+   "predicate": "serves",
+   "object": "anafenza",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "tarkir_2014_2015_stories",
+   "source_ids": [
+    "kt_bond"
+   ],
+   "evidence": [
+    {
+     "source_id": "kt_bond",
+     "quote": "Kwaro was Anafenza's captain of the guard"
+    }
+   ],
+   "summary": "Kwaro is Anafenza's captain of the guard.",
+   "limitation": ""
+  },
+  {
+   "id": "KT010",
+   "subject": "sarkhan_vol",
+   "predicate": "guided_by",
+   "object": "ugin",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "tarkir_2014_2015_stories",
+   "source_ids": [
+    "kt_newold"
+   ],
+   "evidence": [
+    {
+     "source_id": "kt_newold",
+     "quote": "has been following the voice in his head—the whispers of Ugin, the Spirit Dragon—for years now"
+    }
+   ],
+   "summary": "Sarkhan Vol has followed Ugin's whispers for years, which led him to a flaming gate at Ugin's grave.",
+   "limitation": ""
+  },
+  {
+   "id": "KT011",
+   "subject": "alesha",
+   "predicate": "leader_of",
+   "object": "mardu",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "tarkir_2014_2015_stories",
+   "source_ids": [
+    "kt_truth"
+   ],
+   "evidence": [
+    {
+     "source_id": "kt_truth",
+     "quote": "The young khan of the Mardu sat poised at the front of her horde"
+    },
+    {
+     "source_id": "kt_truth",
+     "quote": "she drew strength from her war name, Alesha"
+    }
+   ],
+   "summary": "Alesha is the young khan of the Mardu in Tarkir's past.",
+   "limitation": "Set in the Fate Reforged story, which (per tarkir-dragons-2015-02-25) is more than 1,200 years in Tarkir's past; publication order here is not in-universe era order."
+  },
+  {
+   "id": "KT012",
+   "subject": "alesha",
+   "predicate": "fought",
+   "object": "kolaghan",
+   "grade": "CANON_IMPLIED",
+   "event_stage": "tarkir_2014_2015_stories",
+   "source_ids": [
+    "kt_truth"
+   ],
+   "evidence": [
+    {
+     "source_id": "kt_truth",
+     "quote": "These were the dragons they sought, the filthy brood of the monstrous Kolaghan."
+    }
+   ],
+   "summary": "Alesha's Mardu horde hunts and fights the brood of Kolaghan.",
+   "limitation": "The Mardu fight Kolaghan's brood, not Kolaghan herself, on this page."
+  },
+  {
+   "id": "KT013",
+   "subject": "tasigur",
+   "predicate": "leader_of",
+   "object": "sultai",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "tarkir_2014_2015_stories",
+   "source_ids": [
+    "kt_khanfall"
+   ],
+   "evidence": [
+    {
+     "source_id": "kt_khanfall",
+     "quote": "Tasigur, the arrogant, treacherous khan of the arrogant, treacherous Sultai"
+    }
+   ],
+   "summary": "Tasigur is khan of the Sultai in Tarkir's past.",
+   "limitation": "Set in the Fate Reforged story, which (per tarkir-dragons-2015-02-25) is more than 1,200 years in Tarkir's past; publication order here is not in-universe era order."
+  },
+  {
+   "id": "KT014",
+   "subject": "daghatar",
+   "predicate": "leader_of",
+   "object": "abzan",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "tarkir_2014_2015_stories",
+   "source_ids": [
+    "kt_noend"
+   ],
+   "evidence": [
+    {
+     "source_id": "kt_noend",
+     "quote": "Daghatar, khan of the Abzan, must choose his course wisely"
+    }
+   ],
+   "summary": "Daghatar is khan of the Abzan in Tarkir's past.",
+   "limitation": "Set in the Fate Reforged story, which (per tarkir-dragons-2015-02-25) is more than 1,200 years in Tarkir's past; publication order here is not in-universe era order."
+  },
+  {
+   "id": "KT015",
+   "subject": "daghatar",
+   "predicate": "abdicated_to",
+   "object": "dromoka",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "tarkir_2014_2015_stories",
+   "source_ids": [
+    "kt_khanfall"
+   ],
+   "evidence": [
+    {
+     "source_id": "kt_khanfall",
+     "quote": "recently abdicated in favor of the dragon Dromoka in a desperate bid to save his people"
+    }
+   ],
+   "summary": "Daghatar abdicated in favor of the dragon Dromoka to save his people.",
+   "limitation": "Set in the Fate Reforged story, which (per tarkir-dragons-2015-02-25) is more than 1,200 years in Tarkir's past; publication order here is not in-universe era order."
+  },
+  {
+   "id": "KT016",
+   "subject": "yasova_dragonclaw",
+   "predicate": "leader_of",
+   "object": "temur",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "tarkir_2014_2015_stories",
+   "source_ids": [
+    "kt_khanfall"
+   ],
+   "evidence": [
+    {
+     "source_id": "kt_khanfall",
+     "quote": "Next to arrive was Yasova, khan of the Temur."
+    }
+   ],
+   "summary": "Yasova is khan of the Temur in Tarkir's past.",
+   "limitation": "Set in the Fate Reforged story, which (per tarkir-dragons-2015-02-25) is more than 1,200 years in Tarkir's past; publication order here is not in-universe era order."
+  },
+  {
+   "id": "KT017",
+   "subject": "yasova_dragonclaw",
+   "predicate": "aided",
+   "object": "nicol_bolas",
+   "grade": "CANON_IMPLIED",
+   "event_stage": "tarkir_2014_2015_stories",
+   "source_ids": [
+    "kt_khanfall"
+   ],
+   "evidence": [
+    {
+     "source_id": "kt_khanfall",
+     "quote": "But I saw that the storms would cease if I helped a malevolent dragon spirit kill the great Ugin."
+    }
+   ],
+   "summary": "Yasova tells the khans she had a vision that the dragon storms would cease if she helped a malevolent dragon spirit kill Ugin.",
+   "limitation": "The page never names the 'malevolent dragon spirit'; identifying it as Nicol Bolas is an inference from the wider Tarkir story."
+  },
+  {
+   "id": "KT018",
+   "subject": "sarkhan_vol",
+   "predicate": "rescued",
+   "object": "ugin",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "tarkir_2014_2015_stories",
+   "source_ids": [
+    "kt_dragons"
+   ],
+   "evidence": [
+    {
+     "source_id": "kt_dragons",
+     "quote": "left his time to travel back more than 1,200 years into Tarkir's past and save Ugin, the Spirit Dragon from death"
+    }
+   ],
+   "summary": "Sarkhan Vol travelled more than 1,200 years into Tarkir's past and saved Ugin from death.",
+   "limitation": ""
+  },
+  {
+   "id": "KT019",
+   "subject": "sarkhan_vol",
+   "predicate": "protected",
+   "object": "ugin",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "tarkir_2014_2015_stories",
+   "source_ids": [
+    "kt_dragons"
+   ],
+   "evidence": [
+    {
+     "source_id": "kt_dragons",
+     "quote": "After he created a magical, protective hedron cocoon around the fallen Ugin"
+    }
+   ],
+   "summary": "Sarkhan created a protective hedron cocoon around the fallen Ugin.",
+   "limitation": ""
+  },
+  {
+   "id": "KT020",
+   "subject": "ojutai",
+   "predicate": "ruled",
+   "object": "jeskai",
+   "grade": "CANON_IMPLIED",
+   "event_stage": "tarkir_2014_2015_stories",
+   "source_ids": [
+    "kt_dragons"
+   ],
+   "evidence": [
+    {
+     "source_id": "kt_dragons",
+     "quote": "he learned that a dragon called Ojutai ruled in her stead"
+    }
+   ],
+   "summary": "In the rewritten present, the dragon Ojutai rules the Jeskai territory instead of Narset.",
+   "limitation": "Dragons of Tarkir present (after Sarkhan's change to history); the page says Ojutai rules 'in her stead' over the river lands where Narset had been khan."
+  },
+  {
+   "id": "KT021",
+   "subject": "zurgo",
+   "predicate": "killed",
+   "object": "narset",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "tarkir_2014_2015_stories",
+   "source_ids": [
+    "kt_teacher"
+   ],
+   "evidence": [
+    {
+     "source_id": "kt_teacher",
+     "quote": "for in that time she fell at the hands of Zurgo Helmsmasher, the khan of the Mardu"
+    }
+   ],
+   "summary": "In the original (Khans) timeline, Narset fell at the hands of Zurgo Helmsmasher, khan of the Mardu.",
+   "limitation": "Only in the original timeline; in the rewritten timeline this page follows a living Narset."
+  },
+  {
+   "id": "KT022",
+   "subject": "dar",
+   "predicate": "twin_sibling_of",
+   "object": "kela",
+   "grade": "CANON_IMPLIED",
+   "event_stage": "tarkir_2014_2015_stories",
+   "source_ids": [
+    "kt_twins"
+   ],
+   "evidence": [
+    {
+     "source_id": "kt_twins",
+     "quote": "But with Dar being born the day before her, with the way he held himself over Kela"
+    }
+   ],
+   "summary": "Dar and Kela are the Chensal twins.",
+   "limitation": "Twinship comes from the page title and Dar calling Kela 'twin'; the quoted sentence names them as siblings born a day apart."
+  },
+  {
+   "id": "KT023",
+   "subject": "arcades_sabboth",
+   "predicate": "sibling_of",
+   "object": "ugin",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "tarkir_2014_2015_stories",
+   "source_ids": [
+    "cb_unseen"
+   ],
+   "evidence": [
+    {
+     "source_id": "cb_unseen",
+     "quote": "The expanding realm of our brother Arcades dwelt far away from the mountain of our birth."
+    }
+   ],
+   "summary": "Ugin calls Arcades his and Nicol's brother.",
+   "limitation": "Ugin narrates this section of the Chronicle of Bolas; 'our' means Ugin and Nicol Bolas."
+  },
+  {
+   "id": "KT024",
+   "subject": "chromium_rhuell",
+   "predicate": "sibling_of",
+   "object": "ugin",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "tarkir_2014_2015_stories",
+   "source_ids": [
+    "cb_whispers"
+   ],
+   "evidence": [
+    {
+     "source_id": "cb_whispers",
+     "quote": "Chromium Rhuell might speak sensibly"
+    },
+    {
+     "source_id": "cb_whispers",
+     "quote": "He wasn't my twin, after all, just a wingbeat sibling"
+    }
+   ],
+   "summary": "Ugin describes Chromium Rhuell as a 'wingbeat sibling', not his twin.",
+   "limitation": "Ugin narrates this section of the Chronicle of Bolas; 'our' means Ugin and Nicol Bolas."
+  },
+  {
+   "id": "KT025",
+   "subject": "merrevia_sal",
+   "predicate": "sibling_of",
+   "object": "ugin",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "tarkir_2014_2015_stories",
+   "source_ids": [
+    "cb_whispers"
+   ],
+   "evidence": [
+    {
+     "source_id": "cb_whispers",
+     "quote": "No wonder four dragon skulls had joined that of our sister, Merrevia Sal"
+    }
+   ],
+   "summary": "Merrevia Sal was Ugin and Nicol's sister; her skull adorns a human settlement's gate.",
+   "limitation": "Ugin narrates this section of the Chronicle of Bolas; 'our' means Ugin and Nicol Bolas."
+  },
+  {
+   "id": "KT026",
+   "subject": "nicol_bolas",
+   "predicate": "killed",
+   "object": "ugin",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "tarkir_2014_2015_stories",
+   "source_ids": [
+    "cb_whispers"
+   ],
+   "evidence": [
+    {
+     "source_id": "cb_whispers",
+     "quote": "That dragon, called Bolas, killed Ugin."
+    }
+   ],
+   "summary": "Yasova (Grandmother) tells the twins that Bolas killed Ugin, and that she saw his body.",
+   "limitation": "Original timeline, as Yasova recounts it; Sarkhan's hedron cocoon later let Ugin survive."
+  },
+  {
+   "id": "KT027",
+   "subject": "nicol_bolas",
+   "predicate": "manipulated",
+   "object": "yasova_dragonclaw",
+   "grade": "CANON_IMPLIED",
+   "event_stage": "tarkir_2014_2015_stories",
+   "source_ids": [
+    "cb_whispers"
+   ],
+   "evidence": [
+    {
+     "source_id": "cb_whispers",
+     "quote": "I was merely a tool used by a power greater than myself. That dragon, called Bolas, killed Ugin."
+    }
+   ],
+   "summary": "Yasova says a voice made her a tool of a greater power, and names Bolas as Ugin's killer.",
+   "limitation": "She does not say in so many words that the voice was Bolas; the link is from adjacent sentences."
+  },
+  {
+   "id": "KT028",
+   "subject": "naiva",
+   "predicate": "twin_sibling_of",
+   "object": "baishya",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "tarkir_2014_2015_stories",
+   "source_ids": [
+    "cb_whispers"
+   ],
+   "evidence": [
+    {
+     "source_id": "cb_whispers",
+     "quote": "Baishya took hold of her elbow as if she thought her twin couldn't take the hint."
+    }
+   ],
+   "summary": "Naiva and Baishya are twins of the Atarka tribe.",
+   "limitation": "That they are Yasova's grandchildren is not established by this quote; they call her 'Grandmother'."
+  }
+ ],
+ "pages_registered": 15,
+ "pages_cited": 15,
+ "uncited_registered_pages": [],
+ "remaining": [
+  "Targeted, not exhaustive. Read but not yet graded: the-salt-road, way-of-the-mantis, the-madness-of-sarkhan and the Tarkir Planeswalker's Guides."
+ ]
+}

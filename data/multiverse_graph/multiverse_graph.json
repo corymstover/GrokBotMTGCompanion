@@ -7,8 +7,17 @@
   "HYPOTHETICAL": "Creative or deckbuilding connection; never canon.",
   "OPEN_QUESTION": "Primary sources leave the matter unresolved; do not assert either way."
  },
- "content_sha256": "83838199cc751823e5eb9d343da9d8aa82304d1bdf3683e3edbbdf3ec6d57afb",
+ "content_sha256": "e2eddafba88f9a667aed46e58d89b076ad5c36d6206e003faaf42af932d1c606",
  "edges": [
+  {
+   "artists": [
+    "Aaron Miller"
+   ],
+   "from": "source:kt_victory",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:bloodsoaked_champion"
+  },
   {
    "artists": [
     "Adam Paquette",
@@ -69,6 +78,15 @@
    "artists": [
     "Adam Paquette"
    ],
+   "from": "source:kt_truth",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:bloodfell_caves"
+  },
+  {
+   "artists": [
+    "Adam Paquette"
+   ],
    "from": "source:ogw_resurgent",
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
@@ -118,6 +136,15 @@
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
    "to": "card:forest"
+  },
+  {
+   "artists": [
+    "Alejandro Mirabal"
+   ],
+   "from": "source:kt_truth",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:shockmaw_dragon"
   },
   {
    "artists": [
@@ -280,6 +307,33 @@
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
    "to": "card:tormented_thoughts"
+  },
+  {
+   "artists": [
+    "Anastasia Ovchinnikova"
+   ],
+   "from": "source:kt_khanfall",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:alesha_who_smiles_at_death"
+  },
+  {
+   "artists": [
+    "Anastasia Ovchinnikova"
+   ],
+   "from": "source:kt_taigam",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:leaping_master"
+  },
+  {
+   "artists": [
+    "Anastasia Ovchinnikova"
+   ],
+   "from": "source:kt_truth",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:alesha_who_smiles_at_death"
   },
   {
    "artists": [
@@ -528,6 +582,24 @@
    "artists": [
     "Chase Stone"
    ],
+   "from": "source:kt_khanfall",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:ojutai_soul_of_winter"
+  },
+  {
+   "artists": [
+    "Chase Stone"
+   ],
+   "from": "source:kt_khanfall",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:pressure_point"
+  },
+  {
+   "artists": [
+    "Chase Stone"
+   ],
    "from": "source:ogw_blight",
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
@@ -739,6 +811,15 @@
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
    "to": "card:neheb_the_eternal"
+  },
+  {
+   "artists": [
+    "Chris Rahn"
+   ],
+   "from": "source:kt_khanfall",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:tasigur_the_golden_fang"
   },
   {
    "artists": [
@@ -1131,6 +1212,15 @@
    "artists": [
     "Clint Cearley"
    ],
+   "from": "source:kt_bond",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:ruthless_ripper"
+  },
+  {
+   "artists": [
+    "Clint Cearley"
+   ],
    "from": "source:ths_dreams",
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
@@ -1183,6 +1273,15 @@
   },
   {
    "artists": [
+    "Craig J Spearing"
+   ],
+   "from": "source:kt_twins",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:jeskai_elder"
+  },
+  {
+   "artists": [
     "Cynthia Sheppard"
    ],
    "from": "source:bfz_any_cost",
@@ -1216,6 +1315,24 @@
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
    "to": "card:dark_salvation"
+  },
+  {
+   "artists": [
+    "Cynthia Sheppard"
+   ],
+   "from": "source:kt_khanfall",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:shamanic_revelation"
+  },
+  {
+   "artists": [
+    "Cynthia Sheppard"
+   ],
+   "from": "source:kt_taigam",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:treasure_cruise"
   },
   {
    "artists": [
@@ -1288,6 +1405,24 @@
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
    "to": "card:life_goes_on"
+  },
+  {
+   "artists": [
+    "Daarken"
+   ],
+   "from": "source:kt_dragons",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:dragon_throne_of_tarkir"
+  },
+  {
+   "artists": [
+    "Daarken"
+   ],
+   "from": "source:kt_truth",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:outpost_siege"
   },
   {
    "artists": [
@@ -1464,6 +1599,24 @@
    "artists": [
     "Daniel Ljunggren"
    ],
+   "from": "source:kt_khanfall",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:mastery_of_the_unseen"
+  },
+  {
+   "artists": [
+    "Daniel Ljunggren"
+   ],
+   "from": "source:kt_twins",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:jeskai_banner"
+  },
+  {
+   "artists": [
+    "Daniel Ljunggren"
+   ],
    "from": "source:soi_avacyn",
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
@@ -1498,6 +1651,15 @@
   },
   {
    "artists": [
+    "Dave Kendall"
+   ],
+   "from": "source:kt_bond",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:brave_the_sands"
+  },
+  {
+   "artists": [
     "David Gaillet"
    ],
    "from": "source:bfz_any_cost",
@@ -1522,6 +1684,33 @@
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
    "to": "card:fiend_binder"
+  },
+  {
+   "artists": [
+    "David Gaillet"
+   ],
+   "from": "source:kt_khanfall",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:aven_surveyor"
+  },
+  {
+   "artists": [
+    "David Gaillet"
+   ],
+   "from": "source:kt_khanfall",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:shu_yun_the_silent_tempest"
+  },
+  {
+   "artists": [
+    "David Gaillet"
+   ],
+   "from": "source:kt_victory",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:war_name_aspirant"
   },
   {
    "artists": [
@@ -1844,6 +2033,15 @@
    "artists": [
     "Eric Deschamps"
    ],
+   "from": "source:kt_noend",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:dromoka_the_eternal"
+  },
+  {
+   "artists": [
+    "Eric Deschamps"
+   ],
    "from": "source:rtd_ep9",
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
@@ -1992,6 +2190,24 @@
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
    "to": "card:looming_spires"
+  },
+  {
+   "artists": [
+    "Florian de Gesincourt"
+   ],
+   "from": "source:kt_enl",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:mystic_monastery"
+  },
+  {
+   "artists": [
+    "Florian de Gesincourt"
+   ],
+   "from": "source:kt_khanfall",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:island"
   },
   {
    "artists": [
@@ -2357,6 +2573,24 @@
    "artists": [
     "Jaime Jones"
    ],
+   "from": "source:kt_bear",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:surrak_dragonclaw"
+  },
+  {
+   "artists": [
+    "Jaime Jones"
+   ],
+   "from": "source:kt_khanfall",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:kolaghan_the_storm_s_fury"
+  },
+  {
+   "artists": [
+    "Jaime Jones"
+   ],
    "from": "source:rix_who_tells",
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
@@ -2469,6 +2703,24 @@
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
    "to": "card:tajic_blade_of_the_legion"
+  },
+  {
+   "artists": [
+    "James Ryman"
+   ],
+   "from": "source:kt_bond",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:anafenza_the_foremost"
+  },
+  {
+   "artists": [
+    "James Ryman"
+   ],
+   "from": "source:kt_bond",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:high_sentinels_of_arashin"
   },
   {
    "artists": [
@@ -2613,6 +2865,15 @@
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
    "to": "card:avacyn_angel_of_hope"
+  },
+  {
+   "artists": [
+    "Jason Chan"
+   ],
+   "from": "source:kt_victory",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:mardu_ascendancy"
   },
   {
    "artists": [
@@ -2829,6 +3090,15 @@
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
    "to": "card:deadlock_trap"
+  },
+  {
+   "artists": [
+    "Jason Rainville"
+   ],
+   "from": "source:kt_twins",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:dragon_s_eye_savants"
   },
   {
    "artists": [
@@ -3150,6 +3420,15 @@
    "artists": [
     "Jonas De Ro"
    ],
+   "from": "source:kt_victory",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:wooded_foothills"
+  },
+  {
+   "artists": [
+    "Jonas De Ro"
+   ],
    "from": "source:ogw_blight",
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
@@ -3303,6 +3582,24 @@
    "artists": [
     "Jung Park"
    ],
+   "from": "source:kt_dragons",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:crucible_of_the_spirit_dragon"
+  },
+  {
+   "artists": [
+    "Jung Park"
+   ],
+   "from": "source:kt_khanfall",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:crucible_of_the_spirit_dragon"
+  },
+  {
+   "artists": [
+    "Jung Park"
+   ],
    "from": "source:ogw_beneath_surface",
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
@@ -3379,6 +3676,42 @@
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
    "to": "card:sorin_s_thirst"
+  },
+  {
+   "artists": [
+    "Karl Kopinski"
+   ],
+   "from": "source:kt_khanfall",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:atarka_world_render"
+  },
+  {
+   "artists": [
+    "Karl Kopinski"
+   ],
+   "from": "source:kt_khanfall",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:battle_brawler"
+  },
+  {
+   "artists": [
+    "Karl Kopinski"
+   ],
+   "from": "source:kt_mercy",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:sidisi_brood_tyrant"
+  },
+  {
+   "artists": [
+    "Karl Kopinski"
+   ],
+   "from": "source:kt_truth",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:battle_brawler"
   },
   {
    "artists": [
@@ -3697,6 +4030,15 @@
   },
   {
    "artists": [
+    "Lake Hurwitz"
+   ],
+   "from": "source:kt_khanfall",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:scroll_of_the_masters"
+  },
+  {
+   "artists": [
     "Lars Grant-West"
    ],
    "from": "source:rix_wool",
@@ -3748,6 +4090,15 @@
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
    "to": "card:kozilek_s_return"
+  },
+  {
+   "artists": [
+    "Lucas Graciano"
+   ],
+   "from": "source:kt_enl",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:mer_ek_nightblade"
   },
   {
    "artists": [
@@ -3861,6 +4212,33 @@
    "artists": [
     "Magali Villeneuve"
    ],
+   "from": "source:kt_enl",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:narset_enlightened_master"
+  },
+  {
+   "artists": [
+    "Magali Villeneuve"
+   ],
+   "from": "source:kt_enl",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:quiet_contemplation"
+  },
+  {
+   "artists": [
+    "Magali Villeneuve"
+   ],
+   "from": "source:kt_teacher",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:narset_transcendent"
+  },
+  {
+   "artists": [
+    "Magali Villeneuve"
+   ],
    "from": "source:ogw_blight",
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
@@ -3951,6 +4329,24 @@
    "artists": [
     "Mark Winters"
    ],
+   "from": "source:kt_khanfall",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:monastery_siege"
+  },
+  {
+   "artists": [
+    "Mark Winters"
+   ],
+   "from": "source:kt_noend",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:abzan_ascendancy"
+  },
+  {
+   "artists": [
+    "Mark Winters"
+   ],
    "from": "source:tarkir_story_summary",
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
@@ -3991,6 +4387,15 @@
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
    "to": "card:merciless_eternal"
+  },
+  {
+   "artists": [
+    "Mathias Kollros"
+   ],
+   "from": "source:kt_enl",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:swift_kick"
   },
   {
    "artists": [
@@ -4131,6 +4536,15 @@
    "artists": [
     "Michael Komarck"
    ],
+   "from": "source:kt_khanfall",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:crux_of_fate"
+  },
+  {
+   "artists": [
+    "Michael Komarck"
+   ],
    "from": "source:lithomancer",
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
@@ -4185,6 +4599,33 @@
    "artists": [
     "Nils Hamm"
    ],
+   "from": "source:kt_bond",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:rotting_mastodon"
+  },
+  {
+   "artists": [
+    "Nils Hamm"
+   ],
+   "from": "source:kt_noend",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:rally_the_ancestors"
+  },
+  {
+   "artists": [
+    "Nils Hamm"
+   ],
+   "from": "source:kt_taigam",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:rakshasa_vizier"
+  },
+  {
+   "artists": [
+    "Nils Hamm"
+   ],
    "from": "source:ths_thank",
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
@@ -4207,6 +4648,24 @@
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
    "to": "card:endless_sands"
+  },
+  {
+   "artists": [
+    "Noah Bradley"
+   ],
+   "from": "source:kt_noend",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:plains"
+  },
+  {
+   "artists": [
+    "Noah Bradley"
+   ],
+   "from": "source:kt_victory",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:nomad_outpost"
   },
   {
    "artists": [
@@ -4636,6 +5095,15 @@
    "artists": [
     "Ryan Alexander Lee"
    ],
+   "from": "source:kt_bond",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:kin_tree_invocation"
+  },
+  {
+   "artists": [
+    "Ryan Alexander Lee"
+   ],
    "from": "source:soi_games",
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
@@ -4852,6 +5320,24 @@
    "artists": [
     "Sam Burley"
    ],
+   "from": "source:kt_bond",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:plains"
+  },
+  {
+   "artists": [
+    "Sam Burley"
+   ],
+   "from": "source:kt_bond",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:sandsteppe_citadel"
+  },
+  {
+   "artists": [
+    "Sam Burley"
+   ],
    "from": "source:lithomancer",
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
@@ -4910,6 +5396,15 @@
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
    "to": "card:baleful_ammit"
+  },
+  {
+   "artists": [
+    "Seb McKinnon"
+   ],
+   "from": "source:kt_mercy",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:dutiful_return"
   },
   {
    "artists": [
@@ -5000,6 +5495,15 @@
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
    "to": "card:homing_lightning"
+  },
+  {
+   "artists": [
+    "Slawomir Maniak"
+   ],
+   "from": "source:kt_khanfall",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:palace_siege"
   },
   {
    "artists": [
@@ -5131,6 +5635,24 @@
    "artists": [
     "Steven Belledin"
    ],
+   "from": "source:kt_khanfall",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:silumgar_the_drifting_death"
+  },
+  {
+   "artists": [
+    "Steven Belledin"
+   ],
+   "from": "source:kt_noend",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:citadel_siege"
+  },
+  {
+   "artists": [
+    "Steven Belledin"
+   ],
    "from": "source:ogw_beneath_surface",
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
@@ -5239,6 +5761,15 @@
    "artists": [
     "Svetlin Velinov"
    ],
+   "from": "source:kt_taigam",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:taigam_s_scheming"
+  },
+  {
+   "artists": [
+    "Svetlin Velinov"
+   ],
    "from": "source:ogw_flames",
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
@@ -5315,6 +5846,15 @@
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
    "to": "card:crow_of_dark_tidings"
+  },
+  {
+   "artists": [
+    "Tim Hildebrandt"
+   ],
+   "from": "source:kt_noend",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:shatter"
   },
   {
    "artists": [
@@ -5779,6 +6319,33 @@
    "artists": [
     "Viktor Titov"
    ],
+   "from": "source:kt_bear",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:roar_of_challenge"
+  },
+  {
+   "artists": [
+    "Viktor Titov"
+   ],
+   "from": "source:kt_bond",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:siegecraft"
+  },
+  {
+   "artists": [
+    "Viktor Titov"
+   ],
+   "from": "source:kt_truth",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:mardu_runemark"
+  },
+  {
+   "artists": [
+    "Viktor Titov"
+   ],
    "from": "source:rtd_ep7",
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
@@ -5905,6 +6472,15 @@
    "artists": [
     "Volkan Baǵa"
    ],
+   "from": "source:kt_khanfall",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:dragonscale_general"
+  },
+  {
+   "artists": [
+    "Volkan Baǵa"
+   ],
    "from": "source:ogw_last_stand",
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
@@ -5968,6 +6544,15 @@
    "artists": [
     "Wayne Reynolds"
    ],
+   "from": "source:kt_mercy",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:throttle"
+  },
+  {
+   "artists": [
+    "Wayne Reynolds"
+   ],
    "from": "source:rix_alt_endings",
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
@@ -6008,6 +6593,24 @@
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
    "to": "card:attune_with_aether"
+  },
+  {
+   "artists": [
+    "Wesley Burt"
+   ],
+   "from": "source:kt_bear",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:savage_punch"
+  },
+  {
+   "artists": [
+    "Wesley Burt"
+   ],
+   "from": "source:kt_twins",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:dragon_style_twins"
   },
   {
    "artists": [
@@ -6130,6 +6733,24 @@
    "artists": [
     "Willian Murai"
    ],
+   "from": "source:kt_khanfall",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:valorous_stance"
+  },
+  {
+   "artists": [
+    "Willian Murai"
+   ],
+   "from": "source:kt_mercy",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:jeering_instigator"
+  },
+  {
+   "artists": [
+    "Willian Murai"
+   ],
    "from": "source:rix_wool",
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
@@ -6161,6 +6782,24 @@
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
    "to": "card:arlinn_kord_arlinn_embraced_by_the_moon"
+  },
+  {
+   "artists": [
+    "Winona Nelson"
+   ],
+   "from": "source:kt_bear",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:heir_of_the_wilds"
+  },
+  {
+   "artists": [
+    "Winona Nelson"
+   ],
+   "from": "source:kt_khanfall",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:yasova_dragonclaw"
   },
   {
    "artists": [
@@ -6242,6 +6881,15 @@
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
    "to": "card:clash_of_wills"
+  },
+  {
+   "artists": [
+    "Yefim Kligerman"
+   ],
+   "from": "source:kt_victory",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:mardu_warshrieker"
   },
   {
    "artists": [
@@ -6395,6 +7043,24 @@
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
    "to": "card:damnation"
+  },
+  {
+   "artists": [
+    "Zack Stella"
+   ],
+   "from": "source:kt_khanfall",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:sibsig_muckdraggers"
+  },
+  {
+   "artists": [
+    "Zack Stella"
+   ],
+   "from": "source:kt_noend",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:daghatar_the_adamant"
   },
   {
    "artists": [
@@ -9175,6 +9841,20 @@
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:alesha",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:alesha_who_laughs_at_fate"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:alesha",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:alesha_who_smiles_at_death"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
    "from": "character:alhammarret",
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
@@ -9207,6 +9887,27 @@
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
    "to": "card:alrund_god_of_the_cosmos_hakka_whispering_raven"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:anafenza",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:anafenza_kin_tree_spirit"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:anafenza",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:anafenza_the_foremost"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:anafenza",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:anafenza_unyielding_lineage"
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
@@ -9651,6 +10352,13 @@
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:daghatar",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:daghatar_the_adamant"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
    "from": "character:dakkon",
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
@@ -9760,6 +10468,13 @@
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
    "to": "card:dovin_baan"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:dromoka",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:dromoka_the_eternal"
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
@@ -10729,6 +11444,13 @@
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:kolaghan",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:kolaghan_the_storm_s_fury"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
    "from": "character:koll",
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
@@ -11541,6 +12263,13 @@
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:ojutai",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:ojutai_soul_of_winter"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
    "from": "character:oketra",
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
@@ -12199,6 +12928,27 @@
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:sidisi",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:sidisi_brood_tyrant"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:sidisi",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:sidisi_regent_of_the_mire"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:sidisi",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:sidisi_undead_vizier"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
    "from": "character:sisay",
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
@@ -12259,6 +13009,13 @@
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
    "to": "card:stenn_paranoid_partisan"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:surrak",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:surrak_dragonclaw"
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
@@ -12371,6 +13128,13 @@
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
    "to": "card:tannuk_steadfast_second"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:tasigur",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:tasigur_the_golden_fang"
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
@@ -13176,6 +13940,13 @@
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
    "to": "card:zoraline_cosmos_caller"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:zurgo",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:zurgo_helmsmasher"
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
@@ -17719,6 +18490,342 @@
     "kld_time_innovation"
    ],
    "to": "concept:aether_kaladesh"
+  },
+  {
+   "claim": "KT001",
+   "era": "tarkir_2014_2015_stories",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:surrak",
+   "grade": "CANON_CONFIRMED",
+   "relation": "leader_of",
+   "sources": [
+    "kt_bear"
+   ],
+   "to": "faction:temur"
+  },
+  {
+   "claim": "KT002",
+   "era": "tarkir_2014_2015_stories",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:narset",
+   "grade": "CANON_CONFIRMED",
+   "relation": "leader_of",
+   "sources": [
+    "kt_enl"
+   ],
+   "to": "faction:jeskai"
+  },
+  {
+   "claim": "KT003",
+   "era": "tarkir_2014_2015_stories",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:narset",
+   "grade": "CANON_CONFIRMED",
+   "relation": "mentored",
+   "sources": [
+    "kt_taigam"
+   ],
+   "to": "character:taigam"
+  },
+  {
+   "claim": "KT004",
+   "era": "tarkir_2014_2015_stories",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:taigam",
+   "grade": "CANON_CONFIRMED",
+   "relation": "betrayed",
+   "sources": [
+    "kt_enl"
+   ],
+   "to": "faction:jeskai"
+  },
+  {
+   "claim": "KT005",
+   "era": "tarkir_2014_2015_stories",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:taigam",
+   "grade": "CANON_IMPLIED",
+   "relation": "joined",
+   "sources": [
+    "kt_enl"
+   ],
+   "to": "faction:sultai"
+  },
+  {
+   "claim": "KT006",
+   "era": "tarkir_2014_2015_stories",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:sidisi",
+   "grade": "CANON_CONFIRMED",
+   "relation": "leader_of",
+   "sources": [
+    "kt_mercy"
+   ],
+   "to": "faction:sultai"
+  },
+  {
+   "claim": "KT007",
+   "era": "tarkir_2014_2015_stories",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:zurgo",
+   "grade": "CANON_CONFIRMED",
+   "relation": "leader_of",
+   "sources": [
+    "kt_victory"
+   ],
+   "to": "faction:mardu"
+  },
+  {
+   "claim": "KT008",
+   "era": "tarkir_2014_2015_stories",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:anafenza",
+   "grade": "CANON_CONFIRMED",
+   "relation": "leader_of",
+   "sources": [
+    "kt_bond"
+   ],
+   "to": "faction:abzan"
+  },
+  {
+   "claim": "KT009",
+   "era": "tarkir_2014_2015_stories",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:kwaro",
+   "grade": "CANON_CONFIRMED",
+   "relation": "serves",
+   "sources": [
+    "kt_bond"
+   ],
+   "to": "character:anafenza"
+  },
+  {
+   "claim": "KT010",
+   "era": "tarkir_2014_2015_stories",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:sarkhan_vol",
+   "grade": "CANON_CONFIRMED",
+   "relation": "guided_by",
+   "sources": [
+    "kt_newold"
+   ],
+   "to": "character:ugin"
+  },
+  {
+   "claim": "KT011",
+   "era": "tarkir_2014_2015_stories",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:alesha",
+   "grade": "CANON_CONFIRMED",
+   "relation": "leader_of",
+   "sources": [
+    "kt_truth"
+   ],
+   "to": "faction:mardu"
+  },
+  {
+   "claim": "KT012",
+   "era": "tarkir_2014_2015_stories",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:alesha",
+   "grade": "CANON_IMPLIED",
+   "relation": "fought",
+   "sources": [
+    "kt_truth"
+   ],
+   "to": "character:kolaghan"
+  },
+  {
+   "claim": "KT013",
+   "era": "tarkir_2014_2015_stories",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:tasigur",
+   "grade": "CANON_CONFIRMED",
+   "relation": "leader_of",
+   "sources": [
+    "kt_khanfall"
+   ],
+   "to": "faction:sultai"
+  },
+  {
+   "claim": "KT014",
+   "era": "tarkir_2014_2015_stories",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:daghatar",
+   "grade": "CANON_CONFIRMED",
+   "relation": "leader_of",
+   "sources": [
+    "kt_noend"
+   ],
+   "to": "faction:abzan"
+  },
+  {
+   "claim": "KT015",
+   "era": "tarkir_2014_2015_stories",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:daghatar",
+   "grade": "CANON_CONFIRMED",
+   "relation": "abdicated_to",
+   "sources": [
+    "kt_khanfall"
+   ],
+   "to": "character:dromoka"
+  },
+  {
+   "claim": "KT016",
+   "era": "tarkir_2014_2015_stories",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:yasova_dragonclaw",
+   "grade": "CANON_CONFIRMED",
+   "relation": "leader_of",
+   "sources": [
+    "kt_khanfall"
+   ],
+   "to": "faction:temur"
+  },
+  {
+   "claim": "KT017",
+   "era": "tarkir_2014_2015_stories",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:yasova_dragonclaw",
+   "grade": "CANON_IMPLIED",
+   "relation": "aided",
+   "sources": [
+    "kt_khanfall"
+   ],
+   "to": "character:nicol_bolas"
+  },
+  {
+   "claim": "KT018",
+   "era": "tarkir_2014_2015_stories",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:sarkhan_vol",
+   "grade": "CANON_CONFIRMED",
+   "relation": "rescued",
+   "sources": [
+    "kt_dragons"
+   ],
+   "to": "character:ugin"
+  },
+  {
+   "claim": "KT019",
+   "era": "tarkir_2014_2015_stories",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:sarkhan_vol",
+   "grade": "CANON_CONFIRMED",
+   "relation": "protected",
+   "sources": [
+    "kt_dragons"
+   ],
+   "to": "character:ugin"
+  },
+  {
+   "claim": "KT020",
+   "era": "tarkir_2014_2015_stories",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:ojutai",
+   "grade": "CANON_IMPLIED",
+   "relation": "ruled",
+   "sources": [
+    "kt_dragons"
+   ],
+   "to": "faction:jeskai"
+  },
+  {
+   "claim": "KT021",
+   "era": "tarkir_2014_2015_stories",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:zurgo",
+   "grade": "CANON_CONFIRMED",
+   "relation": "killed",
+   "sources": [
+    "kt_teacher"
+   ],
+   "to": "character:narset"
+  },
+  {
+   "claim": "KT022",
+   "era": "tarkir_2014_2015_stories",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:dar",
+   "grade": "CANON_IMPLIED",
+   "relation": "twin_sibling_of",
+   "sources": [
+    "kt_twins"
+   ],
+   "to": "character:kela"
+  },
+  {
+   "claim": "KT023",
+   "era": "tarkir_2014_2015_stories",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:arcades_sabboth",
+   "grade": "CANON_CONFIRMED",
+   "relation": "sibling_of",
+   "sources": [
+    "cb_unseen"
+   ],
+   "to": "character:ugin"
+  },
+  {
+   "claim": "KT024",
+   "era": "tarkir_2014_2015_stories",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:chromium_rhuell",
+   "grade": "CANON_CONFIRMED",
+   "relation": "sibling_of",
+   "sources": [
+    "cb_whispers"
+   ],
+   "to": "character:ugin"
+  },
+  {
+   "claim": "KT025",
+   "era": "tarkir_2014_2015_stories",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:merrevia_sal",
+   "grade": "CANON_CONFIRMED",
+   "relation": "sibling_of",
+   "sources": [
+    "cb_whispers"
+   ],
+   "to": "character:ugin"
+  },
+  {
+   "claim": "KT026",
+   "era": "tarkir_2014_2015_stories",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:nicol_bolas",
+   "grade": "CANON_CONFIRMED",
+   "relation": "killed",
+   "sources": [
+    "cb_whispers"
+   ],
+   "to": "character:ugin"
+  },
+  {
+   "claim": "KT027",
+   "era": "tarkir_2014_2015_stories",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:nicol_bolas",
+   "grade": "CANON_IMPLIED",
+   "relation": "manipulated",
+   "sources": [
+    "cb_whispers"
+   ],
+   "to": "character:yasova_dragonclaw"
+  },
+  {
+   "claim": "KT028",
+   "era": "tarkir_2014_2015_stories",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:naiva",
+   "grade": "CANON_CONFIRMED",
+   "relation": "twin_sibling_of",
+   "sources": [
+    "cb_whispers"
+   ],
+   "to": "character:baishya"
   },
   {
    "claim": "LC001",
@@ -29580,6 +30687,342 @@
    "to": "character:rashmi"
   },
   {
+   "from": "claim:KT001",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:temur"
+  },
+  {
+   "from": "claim:KT001",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:surrak"
+  },
+  {
+   "from": "claim:KT002",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:jeskai"
+  },
+  {
+   "from": "claim:KT002",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:narset"
+  },
+  {
+   "from": "claim:KT003",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:taigam"
+  },
+  {
+   "from": "claim:KT003",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:narset"
+  },
+  {
+   "from": "claim:KT004",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:jeskai"
+  },
+  {
+   "from": "claim:KT004",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:taigam"
+  },
+  {
+   "from": "claim:KT005",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:sultai"
+  },
+  {
+   "from": "claim:KT005",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:taigam"
+  },
+  {
+   "from": "claim:KT006",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:sultai"
+  },
+  {
+   "from": "claim:KT006",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:sidisi"
+  },
+  {
+   "from": "claim:KT007",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:mardu"
+  },
+  {
+   "from": "claim:KT007",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:zurgo"
+  },
+  {
+   "from": "claim:KT008",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:abzan"
+  },
+  {
+   "from": "claim:KT008",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:anafenza"
+  },
+  {
+   "from": "claim:KT009",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:anafenza"
+  },
+  {
+   "from": "claim:KT009",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:kwaro"
+  },
+  {
+   "from": "claim:KT010",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:ugin"
+  },
+  {
+   "from": "claim:KT010",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:sarkhan_vol"
+  },
+  {
+   "from": "claim:KT011",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:mardu"
+  },
+  {
+   "from": "claim:KT011",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:alesha"
+  },
+  {
+   "from": "claim:KT012",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:kolaghan"
+  },
+  {
+   "from": "claim:KT012",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:alesha"
+  },
+  {
+   "from": "claim:KT013",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:sultai"
+  },
+  {
+   "from": "claim:KT013",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:tasigur"
+  },
+  {
+   "from": "claim:KT014",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:abzan"
+  },
+  {
+   "from": "claim:KT014",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:daghatar"
+  },
+  {
+   "from": "claim:KT015",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:dromoka"
+  },
+  {
+   "from": "claim:KT015",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:daghatar"
+  },
+  {
+   "from": "claim:KT016",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:temur"
+  },
+  {
+   "from": "claim:KT016",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:yasova_dragonclaw"
+  },
+  {
+   "from": "claim:KT017",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:nicol_bolas"
+  },
+  {
+   "from": "claim:KT017",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:yasova_dragonclaw"
+  },
+  {
+   "from": "claim:KT018",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:ugin"
+  },
+  {
+   "from": "claim:KT018",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:sarkhan_vol"
+  },
+  {
+   "from": "claim:KT019",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:ugin"
+  },
+  {
+   "from": "claim:KT019",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:sarkhan_vol"
+  },
+  {
+   "from": "claim:KT020",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:jeskai"
+  },
+  {
+   "from": "claim:KT020",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:ojutai"
+  },
+  {
+   "from": "claim:KT021",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:narset"
+  },
+  {
+   "from": "claim:KT021",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:zurgo"
+  },
+  {
+   "from": "claim:KT022",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:kela"
+  },
+  {
+   "from": "claim:KT022",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:dar"
+  },
+  {
+   "from": "claim:KT023",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:ugin"
+  },
+  {
+   "from": "claim:KT023",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:arcades_sabboth"
+  },
+  {
+   "from": "claim:KT024",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:ugin"
+  },
+  {
+   "from": "claim:KT024",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:chromium_rhuell"
+  },
+  {
+   "from": "claim:KT025",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:ugin"
+  },
+  {
+   "from": "claim:KT025",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:merrevia_sal"
+  },
+  {
+   "from": "claim:KT026",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:ugin"
+  },
+  {
+   "from": "claim:KT026",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:nicol_bolas"
+  },
+  {
+   "from": "claim:KT027",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:yasova_dragonclaw"
+  },
+  {
+   "from": "claim:KT027",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:nicol_bolas"
+  },
+  {
+   "from": "claim:KT028",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:baishya"
+  },
+  {
+   "from": "claim:KT028",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:naiva"
+  },
+  {
    "from": "claim:LC001",
    "relation": "asserts",
    "role": "object",
@@ -37366,6 +38809,36 @@
    "to": "claim:C027"
   },
   {
+   "from": "source:cb_unseen",
+   "relation": "cited_by",
+   "to": "claim:KT023"
+  },
+  {
+   "from": "source:cb_whispers",
+   "relation": "cited_by",
+   "to": "claim:KT024"
+  },
+  {
+   "from": "source:cb_whispers",
+   "relation": "cited_by",
+   "to": "claim:KT025"
+  },
+  {
+   "from": "source:cb_whispers",
+   "relation": "cited_by",
+   "to": "claim:KT026"
+  },
+  {
+   "from": "source:cb_whispers",
+   "relation": "cited_by",
+   "to": "claim:KT027"
+  },
+  {
+   "from": "source:cb_whispers",
+   "relation": "cited_by",
+   "to": "claim:KT028"
+  },
+  {
    "from": "source:chronicle_blood_fire",
    "relation": "cited_by",
    "to": "claim:A002"
@@ -38515,6 +39988,116 @@
    "from": "source:kld_very_arena",
    "relation": "cited_by",
    "to": "claim:KLD008"
+  },
+  {
+   "from": "source:kt_bear",
+   "relation": "cited_by",
+   "to": "claim:KT001"
+  },
+  {
+   "from": "source:kt_bond",
+   "relation": "cited_by",
+   "to": "claim:KT008"
+  },
+  {
+   "from": "source:kt_bond",
+   "relation": "cited_by",
+   "to": "claim:KT009"
+  },
+  {
+   "from": "source:kt_dragons",
+   "relation": "cited_by",
+   "to": "claim:KT018"
+  },
+  {
+   "from": "source:kt_dragons",
+   "relation": "cited_by",
+   "to": "claim:KT019"
+  },
+  {
+   "from": "source:kt_dragons",
+   "relation": "cited_by",
+   "to": "claim:KT020"
+  },
+  {
+   "from": "source:kt_enl",
+   "relation": "cited_by",
+   "to": "claim:KT002"
+  },
+  {
+   "from": "source:kt_enl",
+   "relation": "cited_by",
+   "to": "claim:KT004"
+  },
+  {
+   "from": "source:kt_enl",
+   "relation": "cited_by",
+   "to": "claim:KT005"
+  },
+  {
+   "from": "source:kt_khanfall",
+   "relation": "cited_by",
+   "to": "claim:KT013"
+  },
+  {
+   "from": "source:kt_khanfall",
+   "relation": "cited_by",
+   "to": "claim:KT015"
+  },
+  {
+   "from": "source:kt_khanfall",
+   "relation": "cited_by",
+   "to": "claim:KT016"
+  },
+  {
+   "from": "source:kt_khanfall",
+   "relation": "cited_by",
+   "to": "claim:KT017"
+  },
+  {
+   "from": "source:kt_mercy",
+   "relation": "cited_by",
+   "to": "claim:KT006"
+  },
+  {
+   "from": "source:kt_newold",
+   "relation": "cited_by",
+   "to": "claim:KT010"
+  },
+  {
+   "from": "source:kt_noend",
+   "relation": "cited_by",
+   "to": "claim:KT014"
+  },
+  {
+   "from": "source:kt_taigam",
+   "relation": "cited_by",
+   "to": "claim:KT003"
+  },
+  {
+   "from": "source:kt_teacher",
+   "relation": "cited_by",
+   "to": "claim:KT021"
+  },
+  {
+   "from": "source:kt_truth",
+   "relation": "cited_by",
+   "to": "claim:KT011"
+  },
+  {
+   "from": "source:kt_truth",
+   "relation": "cited_by",
+   "to": "claim:KT012"
+  },
+  {
+   "from": "source:kt_twins",
+   "relation": "cited_by",
+   "to": "claim:KT022"
+  },
+  {
+   "from": "source:kt_victory",
+   "relation": "cited_by",
+   "to": "claim:KT007"
   },
   {
    "from": "source:lci_ep1",
@@ -42061,6 +43644,13 @@
     "file": "data/lore_research/pack_p5_war_spark_ravnica_2026-10-30.json",
     "sha256": "4800c778cdabc64fb4d204287efd90e4a6f9bd3887e8e013851e52e2c400165c",
     "sources": 6
+   },
+   {
+    "claims": 28,
+    "entities": 29,
+    "file": "data/lore_research/pack_p5_untagged_ktk_2026-10-30.json",
+    "sha256": "0ad7ebe108562e9463807251f77179ec50766f8d57ca44dd69a05b496fe64e6a",
+    "sources": 15
    }
   ],
   "deck_evidence": [
@@ -42082,14 +43672,14 @@
   ],
   "name_anchor_packs": [
    {
-    "anchors": 631,
+    "anchors": 646,
     "file": "data/lore_research/card_name_anchors_2026-10-30.json",
-    "sha256": "fb35c37635338f03da4bd4c01019c7c1d4ce0d3bd673208c508d1f9b93b9ecff"
+    "sha256": "240ca0755d4ed89b3291e8ef78fa5b423660a73f5b2202c993f181c8857a2bef"
    }
   ],
   "story_caption_packs": [
    {
-    "caption_edges": 722,
+    "caption_edges": 796,
     "file": "data/story_atlas/story_art_captions_2026-10-30.json",
     "sha256": "cc9afe96ffdc211e06099c799c2c5a93579d86bc0fb7e4ef7c5e9754284c1eb2"
    }
@@ -42511,6 +44101,15 @@
    "type": "Card"
   },
   {
+   "id": "card:abzan_ascendancy",
+   "name": "Abzan Ascendancy",
+   "oracle_id": "3b7d4206-0d88-407b-ace5-d5d28881bf95",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:academy_at_tolaria_west",
    "name": "Academy at Tolaria West",
    "oracle_id": "15b979de-c8ee-4664-9ca7-6c4eb3346967",
@@ -42791,10 +44390,20 @@
    "type": "Card"
   },
   {
+   "id": "card:alesha_who_laughs_at_fate",
+   "name": "Alesha, Who Laughs at Fate",
+   "oracle_id": "17ce2c17-b69b-4ebf-9c3c-c64e771af101",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:alesha_who_smiles_at_death",
    "name": "Alesha, Who Smiles at Death",
    "oracle_id": "6969a7e2-6866-4001-a139-24b3be13deae",
    "origins": [
+    "card_name_anchors_2026-10-30.json",
     "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
@@ -42878,6 +44487,34 @@
    "oracle_id": "c2153115-bc12-458d-baeb-538ec61e1242",
    "origins": [
     "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:anafenza_kin_tree_spirit",
+   "name": "Anafenza, Kin-Tree Spirit",
+   "oracle_id": "f7fa6ac0-70db-4586-b881-5a19db644dfb",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:anafenza_the_foremost",
+   "name": "Anafenza, the Foremost",
+   "oracle_id": "ebfafabc-5255-4024-be59-7403bdb16ee4",
+   "origins": [
+    "card_name_anchors_2026-10-30.json",
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:anafenza_unyielding_lineage",
+   "name": "Anafenza, Unyielding Lineage",
+   "oracle_id": "659bc01c-fa60-4d00-bdad-5bca1d2a978f",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -43241,6 +44878,15 @@
    "type": "Card"
   },
   {
+   "id": "card:atarka_world_render",
+   "name": "Atarka, World Render",
+   "oracle_id": "c0b3bbce-977c-42a9-afcb-dabdfc717c97",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:atraxa_grand_unifier",
    "name": "Atraxa, Grand Unifier",
    "oracle_id": "abbcb153-0763-44c6-964f-b4ff0eb64257",
@@ -43345,6 +44991,15 @@
    "id": "card:avacyn_s_judgment",
    "name": "Avacyn's Judgment",
    "oracle_id": "f3ae58ed-8ef7-4e0a-945f-1f622157236b",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:aven_surveyor",
+   "name": "Aven Surveyor",
+   "oracle_id": "57831c07-6915-4579-b3e1-de93a3664444",
    "origins": [
     "story_art_captions_2026-10-30.json"
    ],
@@ -43478,6 +45133,15 @@
    "type": "Card"
   },
   {
+   "id": "card:battle_brawler",
+   "name": "Battle Brawler",
+   "oracle_id": "d46d8913-7575-4aef-b511-6c0ca9d4b506",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:beast_within",
    "name": "Beast Within",
    "oracle_id": "7735eeba-693b-47e2-bd51-414379cf1016",
@@ -43580,9 +45244,27 @@
    "type": "Card"
   },
   {
+   "id": "card:bloodfell_caves",
+   "name": "Bloodfell Caves",
+   "oracle_id": "64e29bfc-9313-4e8c-808c-bc27f6b018a6",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:bloodhall_priest",
    "name": "Bloodhall Priest",
    "oracle_id": "2eed5eb1-ab67-4f23-885d-922131364aba",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:bloodsoaked_champion",
+   "name": "Bloodsoaked Champion",
+   "oracle_id": "cad09970-14c8-4d80-82fe-6c855efb0191",
    "origins": [
     "story_art_captions_2026-10-30.json"
    ],
@@ -43703,6 +45385,15 @@
    "oracle_id": "36cd2364-d113-47d1-b2c4-b088d9eb88dd",
    "origins": [
     "ugins_allies_and_heroes_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:brave_the_sands",
+   "name": "Brave the Sands",
+   "oracle_id": "4e89bd75-f59d-4f08-be51-5660fbbba3c2",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -44113,6 +45804,15 @@
    "type": "Card"
   },
   {
+   "id": "card:citadel_siege",
+   "name": "Citadel Siege",
+   "oracle_id": "40f66e21-5b60-4e42-927d-65397e7ad544",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:city_of_brass",
    "name": "City of Brass",
    "oracle_id": "f25351e3-539b-4bbc-b92d-6480acf4d722",
@@ -44449,6 +46149,7 @@
    "origins": [
     "pack_a4_printing_art_matches_2026-10-30.json",
     "pack_a_tarkir_card_scenes_2026-10-30.json",
+    "story_art_captions_2026-10-30.json",
     "ugin_bolas_elder_dragon_duality_printing_evidence.json"
    ],
    "story_art_illustration_id": "b652686f-ac53-4f72-8f9d-b18039a8ec5c",
@@ -44495,6 +46196,7 @@
    "name": "Daghatar the Adamant",
    "oracle_id": "7b303881-ac8d-4459-b04e-768a6804763c",
    "origins": [
+    "card_name_anchors_2026-10-30.json",
     "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
@@ -44932,12 +46634,39 @@
    "type": "Card"
   },
   {
+   "id": "card:dragon_s_eye_savants",
+   "name": "Dragon's Eye Savants",
+   "oracle_id": "ca588f4e-4d2f-4aae-84de-be9862e13f1c",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:dragon_style_twins",
+   "name": "Dragon-Style Twins",
+   "oracle_id": "d150f456-c33a-4b19-ac73-b1d818d5db8f",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:dragon_tempest",
    "name": "Dragon Tempest",
    "oracle_id": "b9bacb46-fd1d-459b-81c2-d7d08fe73848",
    "origins": [
     "story_art_captions_2026-10-30.json",
     "ugins_allies_and_heroes_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:dragon_throne_of_tarkir",
+   "name": "Dragon Throne of Tarkir",
+   "oracle_id": "93e40d56-18fd-42e1-a598-636aab79b836",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -44974,6 +46703,15 @@
    "oracle_id": "44581d4f-746b-43b8-a34d-16dc383ab70e",
    "origins": [
     "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:dragonscale_general",
+   "name": "Dragonscale General",
+   "oracle_id": "9fc6e1db-cf09-4b8c-be4f-bb02ffe7a188",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -45050,6 +46788,16 @@
    "type": "Card"
   },
   {
+   "id": "card:dromoka_the_eternal",
+   "name": "Dromoka, the Eternal",
+   "oracle_id": "73520b5a-3d55-40c9-af60-90fdd811934f",
+   "origins": [
+    "card_name_anchors_2026-10-30.json",
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:drowned_catacomb",
    "name": "Drowned Catacomb",
    "oracle_id": "819fc966-434e-470f-91e9-a38df974ad17",
@@ -45089,6 +46837,15 @@
    "id": "card:duskborne_skymarcher",
    "name": "Duskborne Skymarcher",
    "oracle_id": "f7ff0046-8365-4ea4-9872-583d140f7b3f",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:dutiful_return",
+   "name": "Dutiful Return",
+   "oracle_id": "c8f958da-3a31-4064-9a78-66e9b65b85ab",
    "origins": [
     "story_art_captions_2026-10-30.json"
    ],
@@ -46516,6 +48273,15 @@
    "type": "Card"
   },
   {
+   "id": "card:heir_of_the_wilds",
+   "name": "Heir of the Wilds",
+   "oracle_id": "35cb88aa-6ed9-4a2d-9bbc-5937e1df4f4a",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:helga_skittish_seer",
    "name": "Helga, Skittish Seer",
    "oracle_id": "0a0d25a8-4f28-453b-9270-4d449fe0ca65",
@@ -46586,6 +48352,15 @@
    "origins": [
     "story_art_captions_2026-10-30.json",
     "ugins_allies_and_heroes_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:high_sentinels_of_arashin",
+   "name": "High Sentinels of Arashin",
+   "oracle_id": "f0e7d147-379e-45b7-bfc4-d926637e060d",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -47069,6 +48844,33 @@
    "oracle_id": "cbbad3da-695e-4527-9678-0942f3751287",
    "origins": [
     "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:jeering_instigator",
+   "name": "Jeering Instigator",
+   "oracle_id": "170adfe9-ffbe-40b1-b665-e756e7eb0302",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:jeskai_banner",
+   "name": "Jeskai Banner",
+   "oracle_id": "fda10ef2-f431-4d9b-96a4-4db4c98d2b0c",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:jeskai_elder",
+   "name": "Jeskai Elder",
+   "oracle_id": "dfbd5ad1-0f68-4219-95c4-98f674f321be",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -47564,6 +49366,15 @@
    "type": "Card"
   },
   {
+   "id": "card:kin_tree_invocation",
+   "name": "Kin-Tree Invocation",
+   "oracle_id": "fbb74ff8-7381-4de9-bf62-e5d181a187bc",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:kindred_discovery",
    "name": "Kindred Discovery",
    "oracle_id": "005ee549-1bf5-478f-bc3f-3e791bd7eecf",
@@ -47679,6 +49490,16 @@
    "oracle_id": "1593ea18-2f2f-4ab4-83fb-6ccc0bec8a90",
    "origins": [
     "original_primeval_dragons_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:kolaghan_the_storm_s_fury",
+   "name": "Kolaghan, the Storm's Fury",
+   "oracle_id": "f6e160c1-b29f-4f3d-ab55-43ffe3ab4acf",
+   "origins": [
+    "card_name_anchors_2026-10-30.json",
+    "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -47926,6 +49747,15 @@
    "oracle_id": "55df6fa3-3d24-46d5-b325-099336c3f0fd",
    "origins": [
     "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:leaping_master",
+   "name": "Leaping Master",
+   "oracle_id": "1b5c2ba0-3df7-4394-a3f1-8e8330d7ac81",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -48395,6 +50225,33 @@
    "type": "Card"
   },
   {
+   "id": "card:mardu_ascendancy",
+   "name": "Mardu Ascendancy",
+   "oracle_id": "aa1de5ce-ddd4-4c1f-8c52-0311f4419e7b",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:mardu_runemark",
+   "name": "Mardu Runemark",
+   "oracle_id": "a912834b-e4bc-4ccc-ae13-915ebe5acd00",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:mardu_warshrieker",
+   "name": "Mardu Warshrieker",
+   "oracle_id": "fe9e9e2e-f304-4da3-a257-6886b0b1896b",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:marina_vendrell",
    "name": "Marina Vendrell",
    "oracle_id": "5aafc6c3-14f2-45b1-bd5b-c27760d791dd",
@@ -48452,6 +50309,15 @@
    "id": "card:mastermind_s_acquisition",
    "name": "Mastermind's Acquisition",
    "oracle_id": "6aec5b1f-cea6-4ec3-9759-e4544da8c52b",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:mastery_of_the_unseen",
+   "name": "Mastery of the Unseen",
+   "oracle_id": "ae0701c1-7a99-46fe-bcb1-ea33ad2a0fc9",
    "origins": [
     "story_art_captions_2026-10-30.json"
    ],
@@ -48535,6 +50401,15 @@
    "oracle_id": "b20d74a4-0e08-4779-972a-499f1a2be15a",
    "origins": [
     "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:mer_ek_nightblade",
+   "name": "Mer-Ek Nightblade",
+   "oracle_id": "56a8554c-d427-44ca-a01d-9e12c89acd1e",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -48785,6 +50660,15 @@
    "type": "Card"
   },
   {
+   "id": "card:mystic_monastery",
+   "name": "Mystic Monastery",
+   "oracle_id": "834b8f71-9a45-42ae-9e99-e749fa6fb45e",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:nahiri_the_harbinger",
    "name": "Nahiri, the Harbinger",
    "oracle_id": "d492eb9a-1f3b-4bf2-9a5d-0f4a4433f33f",
@@ -48819,7 +50703,8 @@
    "name": "Narset, Enlightened Master",
    "oracle_id": "aeaf7768-ed67-487d-8506-e667babb88ba",
    "origins": [
-    "card_name_anchors_2026-10-30.json"
+    "card_name_anchors_2026-10-30.json",
+    "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -49218,6 +51103,15 @@
    "type": "Card"
   },
   {
+   "id": "card:nomad_outpost",
+   "name": "Nomad Outpost",
+   "oracle_id": "4619de7e-3d6e-4c6b-8e6e-e24db324839d",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:noyan_dar_roil_shaper",
    "name": "Noyan Dar, Roil Shaper",
    "oracle_id": "e4190320-5854-479e-be11-a5d5ef3db6a6",
@@ -49478,6 +51372,16 @@
    "type": "Card"
   },
   {
+   "id": "card:ojutai_soul_of_winter",
+   "name": "Ojutai, Soul of Winter",
+   "oracle_id": "27d7f737-59a4-4948-9b2e-599ae848e054",
+   "origins": [
+    "card_name_anchors_2026-10-30.json",
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:oketra_s_avenger",
    "name": "Oketra's Avenger",
    "oracle_id": "8f064160-3afe-408a-85b4-b335eae8571c",
@@ -49605,6 +51509,15 @@
    "type": "Card"
   },
   {
+   "id": "card:outpost_siege",
+   "name": "Outpost Siege",
+   "oracle_id": "ebb24fc7-dc71-4712-8c2a-b5920f78e55d",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:overflowing_insight",
    "name": "Overflowing Insight",
    "oracle_id": "ff03a063-9634-4746-a208-9dbcde5c6bdb",
@@ -49626,6 +51539,15 @@
    "id": "card:oviya_pashiri_sage_lifecrafter",
    "name": "Oviya Pashiri, Sage Lifecrafter",
    "oracle_id": "41e03224-bcdd-4127-a19a-fe66196339b9",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:palace_siege",
+   "name": "Palace Siege",
+   "oracle_id": "4d819d35-5cd3-48f1-a77a-b7c3ff82c62e",
    "origins": [
     "story_art_captions_2026-10-30.json"
    ],
@@ -49924,6 +51846,15 @@
    "type": "Card"
   },
   {
+   "id": "card:pressure_point",
+   "name": "Pressure Point",
+   "oracle_id": "d4bbdd0c-e578-49ed-b2f7-b1decb04ee87",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:primal_amulet_primal_wellspring",
    "name": "Primal Amulet // Primal Wellspring",
    "oracle_id": "8e4d0da0-c7d8-4a20-9bfd-02c1331a7a49",
@@ -50062,6 +51993,15 @@
    "id": "card:quicksmith_spy",
    "name": "Quicksmith Spy",
    "oracle_id": "54250029-1bd7-4caf-a839-9497607ce725",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:quiet_contemplation",
+   "name": "Quiet Contemplation",
+   "oracle_id": "f87dfde4-8c57-4543-826c-6b3cf9c11b90",
    "origins": [
     "story_art_captions_2026-10-30.json"
    ],
@@ -50222,6 +52162,15 @@
    "type": "Card"
   },
   {
+   "id": "card:rakshasa_vizier",
+   "name": "Rakshasa Vizier",
+   "oracle_id": "9bdef081-1408-4125-82c3-04296dee05d5",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:ral_zarek",
    "name": "Ral Zarek",
    "oracle_id": "75ed6946-e7b1-4bf8-a05c-62a2ba5a6c79",
@@ -50236,6 +52185,15 @@
    "oracle_id": "0dc76b7f-6405-44a1-8c55-31fa480ff70b",
    "origins": [
     "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:rally_the_ancestors",
+   "name": "Rally the Ancestors",
+   "oracle_id": "9d612686-2d7f-49a3-b9c4-1e99a30134f6",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -50480,6 +52438,15 @@
    "type": "Card"
   },
   {
+   "id": "card:roar_of_challenge",
+   "name": "Roar of Challenge",
+   "oracle_id": "9d83a1d3-ef0f-4134-a38b-c992d396592b",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:rogue_s_passage",
    "name": "Rogue's Passage",
    "oracle_id": "f29dc596-2121-4421-8463-15f6c2e8b9b3",
@@ -50539,6 +52506,15 @@
    "oracle_id": "52e92296-7af9-4e68-8045-40b6d6b73910",
    "origins": [
     "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:rotting_mastodon",
+   "name": "Rotting Mastodon",
+   "oracle_id": "d6e90e75-ef12-49d0-8dd8-0c6cb718ce28",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -50609,6 +52585,15 @@
    "id": "card:rush_of_ice",
    "name": "Rush of Ice",
    "oracle_id": "e9d62416-c4b1-4982-9593-174d46e975c7",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:ruthless_ripper",
+   "name": "Ruthless Ripper",
+   "oracle_id": "cfbcd70b-d3a9-47e9-a8b3-b8134d00dff8",
    "origins": [
     "story_art_captions_2026-10-30.json"
    ],
@@ -50808,6 +52793,15 @@
    "type": "Card"
   },
   {
+   "id": "card:sandsteppe_citadel",
+   "name": "Sandsteppe Citadel",
+   "oracle_id": "544dbabd-cbfc-40da-a5ba-2fea9cddb453",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:sanwell_avenger_ace",
    "name": "Sanwell, Avenger Ace",
    "oracle_id": "4884ad6c-2290-44fc-ab9e-6e6b75b2d69a",
@@ -50930,6 +52924,15 @@
    "type": "Card"
   },
   {
+   "id": "card:savage_punch",
+   "name": "Savage Punch",
+   "oracle_id": "3ca58e01-21c6-4314-ab3d-280ba6f9f509",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:savage_ventmaw",
    "name": "Savage Ventmaw",
    "oracle_id": "f743d85f-754e-4e70-9907-af54acb9e8d4",
@@ -50980,6 +52983,15 @@
    "id": "card:scourge_of_fleets",
    "name": "Scourge of Fleets",
    "oracle_id": "57308fc8-8915-4211-a5fd-9363caea9ab9",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:scroll_of_the_masters",
+   "name": "Scroll of the Masters",
+   "oracle_id": "f2c7adde-492b-4585-8385-42d7e0d6e914",
    "origins": [
     "story_art_captions_2026-10-30.json"
    ],
@@ -51113,6 +53125,15 @@
    "type": "Card"
   },
   {
+   "id": "card:shamanic_revelation",
+   "name": "Shamanic Revelation",
+   "oracle_id": "d1d171de-1c6d-4fb9-817a-9c689c709f3d",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:shanna_purifying_blade",
    "name": "Shanna, Purifying Blade",
    "oracle_id": "7677c7ce-1db3-41f5-8f86-e68718ea2d11",
@@ -51143,6 +53164,15 @@
    "id": "card:sharpened_pitchfork",
    "name": "Sharpened Pitchfork",
    "oracle_id": "409b44fc-fae2-4804-83a7-78cf95038f58",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:shatter",
+   "name": "Shatter",
+   "oracle_id": "84d32e68-72b9-432d-a023-7bc6a26b8ad0",
    "origins": [
     "story_art_captions_2026-10-30.json"
    ],
@@ -51203,6 +53233,15 @@
    "type": "Card"
   },
   {
+   "id": "card:shockmaw_dragon",
+   "name": "Shockmaw Dragon",
+   "oracle_id": "e0754b8e-fd3c-4207-9031-a6323e1b66d5",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:shriek_of_dread",
    "name": "Shriek of Dread",
    "oracle_id": "ee5a4902-f993-4fe6-92da-38636962c558",
@@ -51221,6 +53260,61 @@
    "type": "Card"
   },
   {
+   "id": "card:shu_yun_the_silent_tempest",
+   "name": "Shu Yun, the Silent Tempest",
+   "oracle_id": "7b22f31c-9caa-4afd-8c44-f88346bfa79c",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:sibsig_muckdraggers",
+   "name": "Sibsig Muckdraggers",
+   "oracle_id": "423c1079-bdba-42fc-8732-59cb83ebafc3",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:sidisi_brood_tyrant",
+   "name": "Sidisi, Brood Tyrant",
+   "oracle_id": "3fad7072-21e3-446e-a28f-615038c8bfea",
+   "origins": [
+    "card_name_anchors_2026-10-30.json",
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:sidisi_regent_of_the_mire",
+   "name": "Sidisi, Regent of the Mire",
+   "oracle_id": "72074972-418d-4dce-83cf-ce8cf310fc42",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:sidisi_undead_vizier",
+   "name": "Sidisi, Undead Vizier",
+   "oracle_id": "3406db41-6b95-48fc-b58e-4476220fd34d",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:siegecraft",
+   "name": "Siegecraft",
+   "oracle_id": "a49a9418-72d1-4ab1-89d9-a1f65ae23d35",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:sigarda_heron_s_grace",
    "name": "Sigarda, Heron's Grace",
    "oracle_id": "79b56cf8-d573-40cf-b797-6b4eef2bed23",
@@ -51233,6 +53327,15 @@
    "id": "card:sigiled_starfish",
    "name": "Sigiled Starfish",
    "oracle_id": "94a4f70a-8aac-412a-99f0-933e3ff87fe0",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:silumgar_the_drifting_death",
+   "name": "Silumgar, the Drifting Death",
+   "oracle_id": "b26c91d9-87de-45f7-a24c-bbe0cef3a35c",
    "origins": [
     "story_art_captions_2026-10-30.json"
    ],
@@ -51680,6 +53783,16 @@
    "type": "Card"
   },
   {
+   "id": "card:surrak_dragonclaw",
+   "name": "Surrak Dragonclaw",
+   "oracle_id": "7c766365-82c2-46d6-8521-42e73129f4ef",
+   "origins": [
+    "card_name_anchors_2026-10-30.json",
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:surrakar_marauder",
    "name": "Surrakar Marauder",
    "oracle_id": "23c52252-1e65-4e04-98d3-0ac06a565016",
@@ -51719,6 +53832,15 @@
    "id": "card:sweep_away",
    "name": "Sweep Away",
    "oracle_id": "c6901a89-ac7d-4797-a027-97bb1cf42e60",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:swift_kick",
+   "name": "Swift Kick",
+   "oracle_id": "8c54fd75-e89f-490e-90dd-788f22b6e316",
    "origins": [
     "story_art_captions_2026-10-30.json"
    ],
@@ -51794,6 +53916,15 @@
    "oracle_id": "e4cf3710-8600-4f95-abb2-faefdc25693d",
    "origins": [
     "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:taigam_s_scheming",
+   "name": "Taigam's Scheming",
+   "oracle_id": "d9c57520-9827-4b8b-8f81-43cca4227c60",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -51995,6 +54126,7 @@
    "name": "Tasigur, the Golden Fang",
    "oracle_id": "837e3fde-241f-4826-ad04-f146fdcf2278",
    "origins": [
+    "card_name_anchors_2026-10-30.json",
     "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
@@ -52597,6 +54729,15 @@
    "type": "Card"
   },
   {
+   "id": "card:throttle",
+   "name": "Throttle",
+   "oracle_id": "01823ab7-b9f6-48bc-b45c-9b0fabc6f657",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:tiana_ship_s_caretaker",
    "name": "Tiana, Ship's Caretaker",
    "oracle_id": "80f8fb4c-cc6d-4b41-abb3-471dc96d4b2a",
@@ -52774,6 +54915,15 @@
    "id": "card:tranquil_expanse",
    "name": "Tranquil Expanse",
    "oracle_id": "a5478263-47c9-447f-9c7a-c77ce0752947",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:treasure_cruise",
+   "name": "Treasure Cruise",
+   "oracle_id": "5b6bdf5a-2742-4851-92cd-a857a3852836",
    "origins": [
     "story_art_captions_2026-10-30.json"
    ],
@@ -53283,6 +55433,15 @@
    "type": "Card"
   },
   {
+   "id": "card:valorous_stance",
+   "name": "Valorous Stance",
+   "oracle_id": "1f938353-9081-4dc1-b8e7-d18ece038bd4",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:vampire_noble",
    "name": "Vampire Noble",
    "oracle_id": "e85d957b-35a8-48a9-8d63-90e3c680e0dd",
@@ -53607,6 +55766,15 @@
    "type": "Card"
   },
   {
+   "id": "card:war_name_aspirant",
+   "name": "War-Name Aspirant",
+   "oracle_id": "448c84f9-712b-4970-8719-2ab9c2a59d20",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:warden_of_geometries",
    "name": "Warden of Geometries",
    "oracle_id": "448da389-81db-4931-9cf7-3fde0ce9392f",
@@ -53838,6 +56006,15 @@
    "id": "card:wolfhunter_s_quiver",
    "name": "Wolfhunter's Quiver",
    "oracle_id": "f1ebccc2-d12a-4440-8a73-86c1bc901feb",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:wooded_foothills",
+   "name": "Wooded Foothills",
+   "oracle_id": "6587a463-a108-4854-b6d1-944e89b8c8a4",
    "origins": [
     "story_art_captions_2026-10-30.json"
    ],
@@ -54123,6 +56300,7 @@
    "name": "Zurgo Helmsmasher",
    "oracle_id": "6c48d888-9f5d-43f4-adbd-61dbdba09260",
    "origins": [
+    "card_name_anchors_2026-10-30.json",
     "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
@@ -54222,6 +56400,14 @@
    "type": "Character"
   },
   {
+   "id": "character:alesha",
+   "name": "Alesha",
+   "origins": [
+    "pack_p5_untagged_ktk_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
    "id": "character:alhammarret",
    "name": "Alhammarret",
    "origins": [
@@ -54289,6 +56475,14 @@
    "type": "Character"
   },
   {
+   "id": "character:anafenza",
+   "name": "Anafenza",
+   "origins": [
+    "pack_p5_untagged_ktk_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
    "id": "character:anax",
    "name": "Anax",
    "origins": [
@@ -54343,7 +56537,8 @@
    "id": "character:arcades_sabboth",
    "name": "Arcades Sabboth",
    "origins": [
-    "pack_a_elder_dragon_war_extension_2026-10-30.json"
+    "pack_a_elder_dragon_war_extension_2026-10-30.json",
+    "pack_p5_untagged_ktk_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -54472,6 +56667,14 @@
    "name": "Azor",
    "origins": [
     "pack_p5_ixalan_rivals_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:baishya",
+   "name": "Baishya",
+   "origins": [
+    "pack_p5_untagged_ktk_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -54659,7 +56862,8 @@
    "id": "character:chromium_rhuell",
    "name": "Chromium Rhuell",
    "origins": [
-    "pack_a_elder_dragon_war_extension_2026-10-30.json"
+    "pack_a_elder_dragon_war_extension_2026-10-30.json",
+    "pack_p5_untagged_ktk_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -54704,6 +56908,14 @@
    "type": "Character"
   },
   {
+   "id": "character:daghatar",
+   "name": "Daghatar",
+   "origins": [
+    "pack_p5_untagged_ktk_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
    "id": "character:dakkon",
    "name": "Dakkon Blackblade",
    "origins": [
@@ -54718,6 +56930,14 @@
    "origins": [
     "pack_c2_return_to_dominaria_2026-10-30.json",
     "pack_p5_dominaria_united_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:dar",
+   "name": "Dar",
+   "origins": [
+    "pack_p5_untagged_ktk_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -54812,6 +57032,14 @@
    "origins": [
     "pack_p5_battle_for_zendikar_oath_2026-10-30.json",
     "pack_p5_bfz_2015_stories_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:dromoka",
+   "name": "Dromoka",
+   "origins": [
+    "pack_p5_untagged_ktk_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -55598,6 +57826,14 @@
    "type": "Character"
   },
   {
+   "id": "character:kela",
+   "name": "Kela",
+   "origins": [
+    "pack_p5_untagged_ktk_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
    "id": "character:kellan",
    "name": "Kellan",
    "origins": [
@@ -55711,6 +57947,14 @@
    "type": "Character"
   },
   {
+   "id": "character:kolaghan",
+   "name": "Kolaghan",
+   "origins": [
+    "pack_p5_untagged_ktk_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
    "id": "character:koll",
    "name": "Koll",
    "origins": [
@@ -55791,6 +58035,14 @@
    "name": "Kumena",
    "origins": [
     "pack_p5_ixalan_rivals_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:kwaro",
+   "name": "Kwaro",
+   "origins": [
+    "pack_p5_untagged_ktk_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -56065,6 +58317,14 @@
    "type": "Character"
   },
   {
+   "id": "character:merrevia_sal",
+   "name": "Merrevia Sal",
+   "origins": [
+    "pack_p5_untagged_ktk_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
    "id": "character:michiko_konda",
    "name": "Michiko Konda",
    "origins": [
@@ -56162,6 +58422,14 @@
    "type": "Character"
   },
   {
+   "id": "character:naiva",
+   "name": "Naiva",
+   "origins": [
+    "pack_p5_untagged_ktk_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
    "id": "character:nakht",
    "name": "Nakht",
    "origins": [
@@ -56177,7 +58445,8 @@
     "pack_a_ugin_bolas_evidence_2026-10-30.json",
     "pack_p5_ikoria_2026-10-30.json",
     "pack_p5_tarkir_dragonstorm_2026-10-30.json",
-    "pack_p5_untagged_bios_2026-10-30.json"
+    "pack_p5_untagged_bios_2026-10-30.json",
+    "pack_p5_untagged_ktk_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -56228,6 +58497,7 @@
     "pack_p5_kaladesh_aether_revolt_2026-10-30.json",
     "pack_p5_tarkir_dragonstorm_2026-10-30.json",
     "pack_p5_untagged_bios_2026-10-30.json",
+    "pack_p5_untagged_ktk_2026-10-30.json",
     "pack_p5_untagged_planes_2026-10-30.json",
     "pack_p5_war_spark_ravnica_2026-10-30.json"
    ],
@@ -56374,6 +58644,14 @@
    "name": "Ojer Taq",
    "origins": [
     "pack_p5_lost_caverns_of_ixalan_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:ojutai",
+   "name": "Ojutai",
+   "origins": [
+    "pack_p5_untagged_ktk_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -56809,7 +59087,8 @@
     "pack_a_ugin_bolas_evidence_2026-10-30.json",
     "pack_p5_battle_for_zendikar_oath_2026-10-30.json",
     "pack_p5_tarkir_dragonstorm_2026-10-30.json",
-    "pack_p5_untagged_bios_2026-10-30.json"
+    "pack_p5_untagged_bios_2026-10-30.json",
+    "pack_p5_untagged_ktk_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -56883,6 +59162,14 @@
    "type": "Character"
   },
   {
+   "id": "character:sidisi",
+   "name": "Sidisi",
+   "origins": [
+    "pack_p5_untagged_ktk_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
    "id": "character:sinnia",
    "name": "Sinnia",
    "origins": [
@@ -56952,10 +59239,19 @@
    "type": "Character"
   },
   {
+   "id": "character:surrak",
+   "name": "Surrak Dragonclaw",
+   "origins": [
+    "pack_p5_untagged_ktk_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
    "id": "character:taigam",
    "name": "Taigam",
    "origins": [
-    "pack_p5_tarkir_dragonstorm_2026-10-30.json"
+    "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+    "pack_p5_untagged_ktk_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -57009,6 +59305,14 @@
    "name": "Tannuk",
    "origins": [
     "pack_p5_edge_of_eternities_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:tasigur",
+   "name": "Tasigur",
+   "origins": [
+    "pack_p5_untagged_ktk_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -57240,6 +59544,7 @@
     "pack_p5_shadows_eldritch_moon_2026-10-30.json",
     "pack_p5_tarkir_dragonstorm_2026-10-30.json",
     "pack_p5_untagged_bios_2026-10-30.json",
+    "pack_p5_untagged_ktk_2026-10-30.json",
     "pack_p5_untagged_planes_2026-10-30.json"
    ],
    "type": "Character"
@@ -57502,7 +59807,8 @@
    "id": "character:yasova_dragonclaw",
    "name": "Yasova Dragonclaw",
    "origins": [
-    "pack_a_tarkir_card_scenes_2026-10-30.json"
+    "pack_a_tarkir_card_scenes_2026-10-30.json",
+    "pack_p5_untagged_ktk_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -57562,6 +59868,14 @@
    "name": "Zoraline",
    "origins": [
     "pack_p5_bloomburrow_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:zurgo",
+   "name": "Zurgo Helmsmasher",
+   "origins": [
+    "pack_p5_untagged_ktk_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -61516,6 +63830,331 @@
    ],
    "predicate": "created",
    "stage": "kaladesh_revolt_2016",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:KT001",
+   "name": "Surrak Dragonclaw is khan of the Temur (Khans of Tarkir present).",
+   "origins": [
+    "pack_p5_untagged_ktk_2026-10-30.json"
+   ],
+   "predicate": "leader_of",
+   "stage": "tarkir_2014_2015_stories",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:KT002",
+   "name": "Narset was appointed khan of the Jeskai by its elders (Khans of Tarkir present).",
+   "origins": [
+    "pack_p5_untagged_ktk_2026-10-30.json"
+   ],
+   "predicate": "leader_of",
+   "stage": "tarkir_2014_2015_stories",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:KT003",
+   "name": "Narset trained Taigam.",
+   "origins": [
+    "pack_p5_untagged_ktk_2026-10-30.json"
+   ],
+   "predicate": "mentored",
+   "stage": "tarkir_2014_2015_stories",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:KT004",
+   "name": "Taigam, Narset's former pupil, betrayed the Jeskai.",
+   "origins": [
+    "pack_p5_untagged_ktk_2026-10-30.json"
+   ],
+   "predicate": "betrayed",
+   "stage": "tarkir_2014_2015_stories",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:KT005",
+   "limitation": "Narset says he went to 'seek riches with the Sultai'; formal membership is not stated in this sentence.",
+   "name": "Taigam left the Jeskai to seek riches with the Sultai.",
+   "origins": [
+    "pack_p5_untagged_ktk_2026-10-30.json"
+   ],
+   "predicate": "joined",
+   "stage": "tarkir_2014_2015_stories",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:KT006",
+   "name": "Sidisi took the Sultai crown from the previous khan and rules as khan (Khans of Tarkir present).",
+   "origins": [
+    "pack_p5_untagged_ktk_2026-10-30.json"
+   ],
+   "predicate": "leader_of",
+   "stage": "tarkir_2014_2015_stories",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:KT007",
+   "name": "Zurgo is khan of the Mardu (Khans of Tarkir present).",
+   "origins": [
+    "pack_p5_untagged_ktk_2026-10-30.json"
+   ],
+   "predicate": "leader_of",
+   "stage": "tarkir_2014_2015_stories",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:KT008",
+   "name": "Anafenza takes the throne as khan of the Abzan Houses (Khans of Tarkir present).",
+   "origins": [
+    "pack_p5_untagged_ktk_2026-10-30.json"
+   ],
+   "predicate": "leader_of",
+   "stage": "tarkir_2014_2015_stories",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:KT009",
+   "name": "Kwaro is Anafenza's captain of the guard.",
+   "origins": [
+    "pack_p5_untagged_ktk_2026-10-30.json"
+   ],
+   "predicate": "serves",
+   "stage": "tarkir_2014_2015_stories",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:KT010",
+   "name": "Sarkhan Vol has followed Ugin's whispers for years, which led him to a flaming gate at Ugin's grave.",
+   "origins": [
+    "pack_p5_untagged_ktk_2026-10-30.json"
+   ],
+   "predicate": "guided_by",
+   "stage": "tarkir_2014_2015_stories",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:KT011",
+   "limitation": "Set in the Fate Reforged story, which (per tarkir-dragons-2015-02-25) is more than 1,200 years in Tarkir's past; publication order here is not in-universe era order.",
+   "name": "Alesha is the young khan of the Mardu in Tarkir's past.",
+   "origins": [
+    "pack_p5_untagged_ktk_2026-10-30.json"
+   ],
+   "predicate": "leader_of",
+   "stage": "tarkir_2014_2015_stories",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:KT012",
+   "limitation": "The Mardu fight Kolaghan's brood, not Kolaghan herself, on this page.",
+   "name": "Alesha's Mardu horde hunts and fights the brood of Kolaghan.",
+   "origins": [
+    "pack_p5_untagged_ktk_2026-10-30.json"
+   ],
+   "predicate": "fought",
+   "stage": "tarkir_2014_2015_stories",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:KT013",
+   "limitation": "Set in the Fate Reforged story, which (per tarkir-dragons-2015-02-25) is more than 1,200 years in Tarkir's past; publication order here is not in-universe era order.",
+   "name": "Tasigur is khan of the Sultai in Tarkir's past.",
+   "origins": [
+    "pack_p5_untagged_ktk_2026-10-30.json"
+   ],
+   "predicate": "leader_of",
+   "stage": "tarkir_2014_2015_stories",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:KT014",
+   "limitation": "Set in the Fate Reforged story, which (per tarkir-dragons-2015-02-25) is more than 1,200 years in Tarkir's past; publication order here is not in-universe era order.",
+   "name": "Daghatar is khan of the Abzan in Tarkir's past.",
+   "origins": [
+    "pack_p5_untagged_ktk_2026-10-30.json"
+   ],
+   "predicate": "leader_of",
+   "stage": "tarkir_2014_2015_stories",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:KT015",
+   "limitation": "Set in the Fate Reforged story, which (per tarkir-dragons-2015-02-25) is more than 1,200 years in Tarkir's past; publication order here is not in-universe era order.",
+   "name": "Daghatar abdicated in favor of the dragon Dromoka to save his people.",
+   "origins": [
+    "pack_p5_untagged_ktk_2026-10-30.json"
+   ],
+   "predicate": "abdicated_to",
+   "stage": "tarkir_2014_2015_stories",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:KT016",
+   "limitation": "Set in the Fate Reforged story, which (per tarkir-dragons-2015-02-25) is more than 1,200 years in Tarkir's past; publication order here is not in-universe era order.",
+   "name": "Yasova is khan of the Temur in Tarkir's past.",
+   "origins": [
+    "pack_p5_untagged_ktk_2026-10-30.json"
+   ],
+   "predicate": "leader_of",
+   "stage": "tarkir_2014_2015_stories",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:KT017",
+   "limitation": "The page never names the 'malevolent dragon spirit'; identifying it as Nicol Bolas is an inference from the wider Tarkir story.",
+   "name": "Yasova tells the khans she had a vision that the dragon storms would cease if she helped a malevolent dragon spirit kill Ugin.",
+   "origins": [
+    "pack_p5_untagged_ktk_2026-10-30.json"
+   ],
+   "predicate": "aided",
+   "stage": "tarkir_2014_2015_stories",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:KT018",
+   "name": "Sarkhan Vol travelled more than 1,200 years into Tarkir's past and saved Ugin from death.",
+   "origins": [
+    "pack_p5_untagged_ktk_2026-10-30.json"
+   ],
+   "predicate": "rescued",
+   "stage": "tarkir_2014_2015_stories",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:KT019",
+   "name": "Sarkhan created a protective hedron cocoon around the fallen Ugin.",
+   "origins": [
+    "pack_p5_untagged_ktk_2026-10-30.json"
+   ],
+   "predicate": "protected",
+   "stage": "tarkir_2014_2015_stories",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:KT020",
+   "limitation": "Dragons of Tarkir present (after Sarkhan's change to history); the page says Ojutai rules 'in her stead' over the river lands where Narset had been khan.",
+   "name": "In the rewritten present, the dragon Ojutai rules the Jeskai territory instead of Narset.",
+   "origins": [
+    "pack_p5_untagged_ktk_2026-10-30.json"
+   ],
+   "predicate": "ruled",
+   "stage": "tarkir_2014_2015_stories",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:KT021",
+   "limitation": "Only in the original timeline; in the rewritten timeline this page follows a living Narset.",
+   "name": "In the original (Khans) timeline, Narset fell at the hands of Zurgo Helmsmasher, khan of the Mardu.",
+   "origins": [
+    "pack_p5_untagged_ktk_2026-10-30.json"
+   ],
+   "predicate": "killed",
+   "stage": "tarkir_2014_2015_stories",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:KT022",
+   "limitation": "Twinship comes from the page title and Dar calling Kela 'twin'; the quoted sentence names them as siblings born a day apart.",
+   "name": "Dar and Kela are the Chensal twins.",
+   "origins": [
+    "pack_p5_untagged_ktk_2026-10-30.json"
+   ],
+   "predicate": "twin_sibling_of",
+   "stage": "tarkir_2014_2015_stories",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:KT023",
+   "limitation": "Ugin narrates this section of the Chronicle of Bolas; 'our' means Ugin and Nicol Bolas.",
+   "name": "Ugin calls Arcades his and Nicol's brother.",
+   "origins": [
+    "pack_p5_untagged_ktk_2026-10-30.json"
+   ],
+   "predicate": "sibling_of",
+   "stage": "tarkir_2014_2015_stories",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:KT024",
+   "limitation": "Ugin narrates this section of the Chronicle of Bolas; 'our' means Ugin and Nicol Bolas.",
+   "name": "Ugin describes Chromium Rhuell as a 'wingbeat sibling', not his twin.",
+   "origins": [
+    "pack_p5_untagged_ktk_2026-10-30.json"
+   ],
+   "predicate": "sibling_of",
+   "stage": "tarkir_2014_2015_stories",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:KT025",
+   "limitation": "Ugin narrates this section of the Chronicle of Bolas; 'our' means Ugin and Nicol Bolas.",
+   "name": "Merrevia Sal was Ugin and Nicol's sister; her skull adorns a human settlement's gate.",
+   "origins": [
+    "pack_p5_untagged_ktk_2026-10-30.json"
+   ],
+   "predicate": "sibling_of",
+   "stage": "tarkir_2014_2015_stories",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:KT026",
+   "limitation": "Original timeline, as Yasova recounts it; Sarkhan's hedron cocoon later let Ugin survive.",
+   "name": "Yasova (Grandmother) tells the twins that Bolas killed Ugin, and that she saw his body.",
+   "origins": [
+    "pack_p5_untagged_ktk_2026-10-30.json"
+   ],
+   "predicate": "killed",
+   "stage": "tarkir_2014_2015_stories",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:KT027",
+   "limitation": "She does not say in so many words that the voice was Bolas; the link is from adjacent sentences.",
+   "name": "Yasova says a voice made her a tool of a greater power, and names Bolas as Ugin's killer.",
+   "origins": [
+    "pack_p5_untagged_ktk_2026-10-30.json"
+   ],
+   "predicate": "manipulated",
+   "stage": "tarkir_2014_2015_stories",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:KT028",
+   "limitation": "That they are Yasova's grandchildren is not established by this quote; they call her 'Grandmother'.",
+   "name": "Naiva and Baishya are twins of the Atarka tribe.",
+   "origins": [
+    "pack_p5_untagged_ktk_2026-10-30.json"
+   ],
+   "predicate": "twin_sibling_of",
+   "stage": "tarkir_2014_2015_stories",
    "type": "Claim"
   },
   {
@@ -69327,7 +71966,8 @@
    "id": "faction:abzan",
    "name": "The Abzan",
    "origins": [
-    "pack_p5_tarkir_dragonstorm_2026-10-30.json"
+    "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+    "pack_p5_untagged_ktk_2026-10-30.json"
    ],
    "type": "Faction"
   },
@@ -69699,7 +72339,8 @@
    "name": "The Jeskai",
    "origins": [
     "pack_p5_tarkir_dragonstorm_2026-10-30.json",
-    "pack_p5_untagged_bios_2026-10-30.json"
+    "pack_p5_untagged_bios_2026-10-30.json",
+    "pack_p5_untagged_ktk_2026-10-30.json"
    ],
    "type": "Faction"
   },
@@ -69783,7 +72424,8 @@
    "name": "The Mardu",
    "origins": [
     "pack_p5_tarkir_dragonstorm_2026-10-30.json",
-    "pack_p5_untagged_bios_2026-10-30.json"
+    "pack_p5_untagged_bios_2026-10-30.json",
+    "pack_p5_untagged_ktk_2026-10-30.json"
    ],
    "type": "Faction"
   },
@@ -69999,7 +72641,8 @@
    "id": "faction:sultai",
    "name": "The Sultai",
    "origins": [
-    "pack_p5_tarkir_dragonstorm_2026-10-30.json"
+    "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+    "pack_p5_untagged_ktk_2026-10-30.json"
    ],
    "type": "Faction"
   },
@@ -70040,7 +72683,8 @@
    "id": "faction:temur",
    "name": "The Temur",
    "origins": [
-    "pack_p5_tarkir_dragonstorm_2026-10-30.json"
+    "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+    "pack_p5_untagged_ktk_2026-10-30.json"
    ],
    "type": "Faction"
   },
@@ -71769,6 +74413,28 @@
    "url": "https://magic.wizards.com/en/story/teferi-planeswalker"
   },
   {
+   "id": "source:cb_unseen",
+   "kind": "official_story_episode",
+   "name": "Chronicle of Bolas: Things Unseen",
+   "origins": [
+    "pack_p5_untagged_ktk_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-things-unseen-2018-06-27"
+  },
+  {
+   "id": "source:cb_whispers",
+   "kind": "official_story_episode",
+   "name": "Chronicle of Bolas: Whispers of Treachery",
+   "origins": [
+    "pack_p5_untagged_ktk_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-whispers-treachery-2018-07-11"
+  },
+  {
    "id": "source:chronicle_blood_fire",
    "kind": "Wizards official fiction",
    "name": "Chronicle of Bolas: Blood and Fire",
@@ -73016,6 +75682,149 @@
    "source_class": "WIZARDS_OFFICIAL",
    "type": "Source",
    "url": "https://magic.wizards.com/en/news/magic-story/very-arena-2016-10-12"
+  },
+  {
+   "id": "source:kt_bear",
+   "kind": "official_story_episode",
+   "name": "Awakening the Bear",
+   "origins": [
+    "pack_p5_untagged_ktk_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/awakening-the-bear"
+  },
+  {
+   "id": "source:kt_bond",
+   "kind": "official_story_episode",
+   "name": "Bond and Blood",
+   "origins": [
+    "pack_p5_untagged_ktk_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/bond-and-blood-2014-12-03"
+  },
+  {
+   "id": "source:kt_dragons",
+   "kind": "official_story_episode",
+   "name": "A Tarkir of Dragons",
+   "origins": [
+    "pack_p5_untagged_ktk_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/tarkir-dragons-2015-02-25"
+  },
+  {
+   "id": "source:kt_enl",
+   "kind": "official_story_episode",
+   "name": "Enlightened",
+   "origins": [
+    "pack_p5_untagged_ktk_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/enlightened"
+  },
+  {
+   "id": "source:kt_khanfall",
+   "kind": "official_story_episode",
+   "name": "Khanfall",
+   "origins": [
+    "pack_p5_untagged_ktk_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/khanfall-2015-02-18"
+  },
+  {
+   "id": "source:kt_mercy",
+   "kind": "official_story_episode",
+   "name": "Mercy",
+   "origins": [
+    "pack_p5_untagged_ktk_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/mercy"
+  },
+  {
+   "id": "source:kt_newold",
+   "kind": "official_story_episode",
+   "name": "A New Tarkir of Old",
+   "origins": [
+    "pack_p5_untagged_ktk_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/new-tarkir-old-2014-12-31"
+  },
+  {
+   "id": "source:kt_noend",
+   "kind": "official_story_episode",
+   "name": "No End and No Beginning",
+   "origins": [
+    "pack_p5_untagged_ktk_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/no-end-and-no-beginning-2015-02-11"
+  },
+  {
+   "id": "source:kt_taigam",
+   "kind": "official_story_episode",
+   "name": "Taigam's Scheming",
+   "origins": [
+    "pack_p5_untagged_ktk_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/taigams-scheming"
+  },
+  {
+   "id": "source:kt_teacher",
+   "kind": "official_story_episode",
+   "name": "The Great Teacher's Student",
+   "origins": [
+    "pack_p5_untagged_ktk_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/great-teachers-student-2015-03-04"
+  },
+  {
+   "id": "source:kt_truth",
+   "kind": "official_story_episode",
+   "name": "The Truth of Names",
+   "origins": [
+    "pack_p5_untagged_ktk_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/truth-names-2015-01-28"
+  },
+  {
+   "id": "source:kt_twins",
+   "kind": "official_story_episode",
+   "name": "The Chensal Twins",
+   "origins": [
+    "pack_p5_untagged_ktk_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/the-chensal-twins"
+  },
+  {
+   "id": "source:kt_victory",
+   "kind": "official_story_episode",
+   "name": "Victory",
+   "origins": [
+    "pack_p5_untagged_ktk_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/victory-2014-11-26"
   },
   {
    "id": "source:lci_ep1",
@@ -76282,24 +79091,24 @@
  "problems": [],
  "schema": "multiverse-claim-graph/v1",
  "stats": {
-  "claim_edges_with_era": 938,
+  "claim_edges_with_era": 966,
   "claim_edges_with_in_universe_date": 0,
   "claims_by_status": {
    "ALTERNATE_CONTINUITY": 2,
-   "CANON_CONFIRMED": 731,
+   "CANON_CONFIRMED": 753,
    "CANON_DISPUTED": 7,
-   "CANON_IMPLIED": 169,
+   "CANON_IMPLIED": 175,
    "OPEN_QUESTION": 2
   },
   "curated_bridges": 118,
-  "edges": 5540,
+  "edges": 5741,
   "literal_objects": 14,
   "node_types": {
    "AlternateContinuity": 1,
-   "Card": 1266,
+   "Card": 1330,
    "CardTheme": 1,
-   "Character": 391,
-   "Claim": 911,
+   "Character": 407,
+   "Claim": 939,
    "Concept": 139,
    "DeckProposal": 3,
    "Event": 22,
@@ -76308,11 +79117,11 @@
    "Object": 45,
    "Place": 63,
    "Plane": 31,
-   "Source": 475
+   "Source": 490
   },
-  "nodes": 3457,
+  "nodes": 3580,
   "non_wizards_sources": 0,
-  "relations": 314,
-  "wizards_official_sources": 475
+  "relations": 316,
+  "wizards_official_sources": 490
  }
 }
