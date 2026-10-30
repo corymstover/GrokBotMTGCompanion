@@ -101,3 +101,31 @@ Pack A review status: A003 and A004 **stay CANON_DISPUTED** and A011 **stays OPE
 6. After 2026-11-13: re-snapshot, rerun `oracle_drift_report.py`, and admit the 305 `trk`/`trc` cards.
 
 Protected-path check (`git diff --stat dfc8891d origin/main -- grixis/ data/grixis/ state/current_deck_overrides.json data/lore_decks/approvals/`): empty.
+
+## Batch 3 — 2026-10-30 ~02:24–03:20 CDT (interim; interrupted ~03:14 and resumed)
+
+Owner steering at 02:24: commit the brief first; skip store copies (the store mount is gone, so the repo is the backup); try rebuilding the enrichment caches from free public bulk data; otherwise pick by leverage.
+
+| PR | Phase | What | Merge (CDT) | CI on the exact head |
+|---|---|---|---|---|
+| [#838](https://github.com/corymstover/GrokBotMTGCompanion/pull/838) | — | Overnight brief committed at `handoffs/GROKBOT_OVERNIGHT_BRIEF_2026-10-30.md` (docs) | `f46facdb` (02:26) | 1/1 pass |
+| [#839](https://github.com/corymstover/GrokBotMTGCompanion/pull/839) | 3 | Card-name anchors for Pack A/B/C entities from the Scryfall snapshot (navigation only) | `44f493d4` (02:33) | 8/8 pass |
+| [#840](https://github.com/corymstover/GrokBotMTGCompanion/pull/840) | 7 | Gameplay rules-interaction checks built on published Scryfall rulings and verbatim CR 701/702 | `0920dd67` (02:40) | 21/21 pass |
+| [#841](https://github.com/corymstover/GrokBotMTGCompanion/pull/841) | 3 | Pack C2 *Return to Dominaria* extraction: 39 verbatim-quoted claims, PRELIMINARY_RESEARCH | `943e06e4` (02:48) | 25/25 pass |
+| [#842](https://github.com/corymstover/GrokBotMTGCompanion/pull/842) | 3 | Pack A5 Ugin's allies: 16 verbatim-quoted claims for Pilot 3, PRELIMINARY_RESEARCH | `74a0d7a4` (02:52) | 25/25 pass |
+| [#843](https://github.com/corymstover/GrokBotMTGCompanion/pull/843) | 3 | Story-art caption atlas: 1,060 verified captions, 823 cards, 165 official pages, 70 rejected; 143 `art_captioned_in_story` edges | `6917bc86` (02:58) | 23/23 pass |
+| [#844](https://github.com/corymstover/GrokBotMTGCompanion/pull/844) | 6 | Pilot 3 "Ugin's Allies and Heroes". Commander Jace, Multiverse Architect; 15 CANON_REFERENCE, 32 LORE_INSPIRED, 40 MECHANICAL_SYMBOL, 13 basics, 0 Game Changers. **UNAPPROVED proposal** | `0344cd53` (03:08) | 24/24 pass |
+| [#845](https://github.com/corymstover/GrokBotMTGCompanion/pull/845) | 3 | In-universe `era` labels plus an `era_basis` disclaimer on all 149/149 claim edges. An `in_universe_date` is accepted only with a quote and a cited source; there are 0 such dates. 334 tests | `a10a5349` (03:14) | 23/23 pass (the path-filtered `lore-pilots` check is not triggered) |
+
+Graph after #845: 767 nodes, 1,215 edges, with `--check` passing. The rules-interaction audit covers 6 draft decks, 17 links and 0 unresolved items.
+
+### Discoveries
+- **War of the Spark allies (negative result):** none of the six cached official WAR web stories, nor the Kaya or Teyo bio pages, mentions Ugin. The only hit (beyond-repair) is about Zendikar. Kaya and Teyo were therefore **not** included as Ugin allies, and nothing was fabricated.
+- General Tazri is WUBRG, outside Jace's colour identity. It is recorded as unrepresentable and replaced by Jace, Unraveler of Secrets.
+- No official pack quotes a Dominarian AR year. The era labels are story-stage names, not dates, and none were inferred.
+- Pilot audits enforce the A4 exact-art printing. Ugin now uses the frf/1 Swanland printing.
+
+### Enrichment caches (in progress)
+Rebuilding from free public sources (the Scryfall bulk oracle file, Commander Spellbook's public API and EDHREC's public JSON) with a polite, rate-limited prefetch. At 03:14 EDHREC was at 2,400/3,931 and Spellbook at 1,800/1,980. Next: the batch-38 `build_card_enrichment.py` pipeline, then `--check`, the Grixis guard and the baseline-diff PR.
+
+Store copies were skipped per the owner. Protected-path check: empty (see final section).

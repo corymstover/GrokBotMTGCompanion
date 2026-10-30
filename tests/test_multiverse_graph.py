@@ -40,7 +40,7 @@ class GraphBuildTests(unittest.TestCase):
         for n in self.graph["nodes"]:
             if n["type"] == "Claim":
                 by_status.setdefault(n["grade"], set()).add(n["id"])
-        self.assertEqual(by_status.get("CANON_DISPUTED"), {"claim:A003", "claim:A004", "claim:B012", "claim:C012"})
+        self.assertEqual(by_status.get("CANON_DISPUTED"), {"claim:A003", "claim:A004", "claim:B012", "claim:C012", "claim:RTD006", "claim:RTD021", "claim:RTD033"})
         self.assertEqual(by_status.get("OPEN_QUESTION"), {"claim:A011", "claim:C010"})
         self.assertEqual(by_status.get("ALTERNATE_CONTINUITY"), {"claim:A012"})
 
@@ -142,6 +142,19 @@ class QueryTests(unittest.TestCase):
         self.assertEqual(len(srcs), 6)
         self.assertTrue(all(n.get("url", "").startswith("https://magic.wizards.com/") for n in srcs))
 
+    def test_claim_edges_carry_their_claim_era_and_no_invented_dates(self):
+        stage = {n["id"]: n.get("stage", "") for n in self.mg.g["nodes"] if n["type"] == "Claim"}
+        rel = [e for e in self.mg.g["edges"] if e.get("claim")]
+        self.assertTrue(rel)
+        for e in rel:
+            self.assertEqual(e.get("era", ""), stage["claim:" + e["claim"]], e)
+            if e.get("era"):
+                self.assertIn("no Dominarian (AR) year is asserted", e["era_basis"])
+            self.assertNotIn("in_universe_date", e)
+        self.assertEqual(self.mg.g["stats"]["claim_edges_with_era"], sum(1 for e in rel if e.get("era")))
+        self.assertEqual(self.mg.g["stats"]["claim_edges_with_in_universe_date"], 0)
+
+
 class MutationTests(unittest.TestCase):
     """Corrupt a temporary copy of the inputs and confirm the validator catches it."""
 
@@ -173,6 +186,17 @@ class MutationTests(unittest.TestCase):
     def test_entity_type_conflict_detected(self):
         probs = self._build_with(lambda p: p["entities"].append({"id": "ugin", "type": "Plane", "name": "Ugin"}))
         self.assertTrue(any("inconsistently" in x or "conflict" in x for x in probs))
+
+    def test_unquoted_in_universe_date_rejected(self):
+        probs = self._build_with(lambda p: p["claims"][0].update(in_universe_date={"value": "-25000 AR"}))
+        self.assertTrue(any("in_universe_date needs value, quote" in x for x in probs))
+
+    def test_quoted_in_universe_date_carried(self):
+        def mut(p):
+            c = p["claims"][0]
+            c["in_universe_date"] = {"value": "test", "quote": c.get("evidence", [{}])[0].get("quote", "q"),
+                                     "source_id": c["source_ids"][0]}
+        self.assertEqual([x for x in self._build_with(mut) if "in_universe_date" in x], [])
 
 
 if __name__ == "__main__":

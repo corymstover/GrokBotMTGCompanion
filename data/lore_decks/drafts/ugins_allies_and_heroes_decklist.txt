@@ -1,0 +1,91 @@
+1x Jace, Multiverse Architect (frc) 1 [Commander]
+1x Sorin Markov (zen) 111
+1x Nahiri, the Lithomancer (c14) 10
+1x Ulamog, the Infinite Gyre (roe) 12
+1x Eye of Ugin (wwk) 136
+1x All Is Dust (roe) 1
+1x Perilous Vault (m15) 224
+1x Hedron Archive (bfz) 223
+1x Nahiri, the Harbinger (soi) 247
+1x Ulamog, the Ceaseless Hunger (bfz) 15
+1x Helvault (dka) 151
+1x Avacyn, Angel of Hope (avr) 6
+1x Paraselene (isd) 26
+1x Magma Rift (zen) 136
+1x Cliffside Lookout (bfz) 20
+1x Sorin, Solemn Visitor (ktk) 202
+1x Ugin, the Spirit Dragon (frf) 1
+1x Sarkhan, the Dragonspeaker (ktk) 119
+1x Narset Transcendent (dtk) 225
+1x Bitter Revelation (ktk) 65
+1x Soul Summons (frf) 26
+1x Scion of Ugin (dtk) 1
+1x Cruel Ultimatum (c13) 182
+1x Tormenting Voice (ktk) 123
+1x Dragon Tempest (dtk) 136
+1x Learn from the Past (dtk) 60
+1x Zada, Hedron Grinder (bfz) 162
+1x Salvage Drone (bfz) 65
+1x Dispel (rtr) 36
+1x Jace, Unraveler of Secrets (soi) 69
+1x Call the Gatewatch (ogw) 16
+1x Unity of Purpose (ogw) 66
+1x Oath of Gideon (ogw) 30
+1x Oath of Chandra (ogw) 113
+1x Oath of Jace (ogw) 60
+1x Ugin, Eye of the Storms (tdm) 1
+1x Nicol Bolas, the Ravager // Nicol Bolas, the Arisen (m19) 218
+1x Narset, Jeskai Waymaster (tdm) 209
+1x Elspeth, Storm Slayer (tdm) 11
+1x Valakut, the Molten Pinnacle (zen) 228
+1x Prairie Stream (bfz) 241
+1x Wastes (ogw) 183a
+1x Crucible of the Spirit Dragon (frf) 167
+1x Haven of the Spirit Dragon (dtk) 249
+1x Sanctum of Ugin (bfz) 242
+1x Looming Spires (bfz) 238
+1x Sea Gate Wreckage (ogw) 177
+1x Command Tower (cmd) 269
+1x Exotic Orchard (con) 142
+1x City of Brass (arn) 71
+1x Mana Confluence (jou) 163
+1x Raffine's Tower (snc) 254
+1x Xander's Lounge (snc) 260
+1x Raugrin Triome (iko) 251
+1x Savai Triome (iko) 253
+1x Hallowed Fountain (dis) 174
+1x Watery Grave (rav) 286
+1x Blood Crypt (dis) 171
+1x Sacred Foundry (rav) 280
+1x Godless Shrine (gpt) 157
+1x Steam Vents (gpt) 164
+1x Sol Ring (lea) 269
+1x Arcane Signet (eld) 331
+1x Fellwar Stone (drk) 102
+1x Mind Stone (wth) 153
+1x Talisman of Dominance (mrd) 253
+1x Talisman of Progress (mrd) 256
+1x Talisman of Indulgence (mrd) 255
+1x Talisman of Conviction (onc) 143
+1x Swords to Plowshares (lea) 40
+1x Path to Exile (con) 15
+1x Chaos Warp (cmd) 114
+1x Anguished Unmaking (soi) 242
+1x Despark (war) 190
+1x Vindicate (apc) 126
+1x Hero's Downfall (ths) 90
+1x Counterspell (lea) 54
+1x Arcane Denial (all) 22a
+1x Supreme Verdict (rtr) 201
+1x Damnation (plc) 85
+1x Fact or Fiction (inv) 57
+1x Brainstorm (ice) 61
+1x Ponder (lrw) 79
+1x Oath of Teferi (dom) 200
+1x Deepglow Skate (c16) 7
+1x Flux Channeler (war) 52
+1x The Chain Veil (m15) 215
+4x Plains
+4x Island
+3x Swamp
+2x Mountain

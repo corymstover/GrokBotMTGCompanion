@@ -42,13 +42,13 @@
      ]
     },
     "graph_stats": {
-     "nodes": 376,
-     "edges": 573,
+     "nodes": 767,
+     "edges": 1215,
      "claims_by_status": {
       "ALTERNATE_CONTINUITY": 1,
-      "CANON_CONFIRMED": 69,
-      "CANON_DISPUTED": 4,
-      "CANON_IMPLIED": 2,
+      "CANON_CONFIRMED": 116,
+      "CANON_DISPUTED": 7,
+      "CANON_IMPLIED": 7,
       "OPEN_QUESTION": 2
      },
      "non_wizards_sources": 0
@@ -64,13 +64,13 @@
    "id": "lookup_and_rules",
    "criterion": "Reliable lookup and rules checks backed by current Scryfall and official sources",
    "status": "PARTIAL",
-   "note": "card lookups reconcile with snapshot 2026-10-29 (0 changes across 33894 cards); Commander deck-construction checks are built, gameplay rules-interaction checks are not",
+   "note": "card lookups reconcile with snapshot 2026-10-29 (0 changes across 33894 cards); Commander deck-construction checks and ruling/CR-citation interaction checks are built; interactions with no published ruling are not modelled (no game simulation)",
    "evidence": {
     "report": "data/card_db/oracle_drift_2026-10-29.json",
     "snapshot_date": "2026-10-29",
     "changes": 0,
     "index_rows": 33894,
-    "rules_checks": "Commander deck-construction checks built (scripts/commander_rules.py, CR 2026-09-25 excerpt; eligibility audit agrees with every index row); gameplay rules-interaction checks not built"
+    "rules_checks": "Commander deck-construction checks built (scripts/commander_rules.py, CR 2026-09-25 excerpt; eligibility audit agrees with every index row); gameplay rules-interaction evidence surfacing built (scripts/rules_interactions.py: published rulings that name another card, keyword rulings, verbatim CR 701/702 citations; audit over every draft decklist). It does not simulate the game, and coverage depends on published rulings"
    }
   },
   {
@@ -88,17 +88,18 @@
    "id": "reviewed_graph_deck",
    "criterion": "At least one complete, reviewed lore-first Commander deck built from the new graph",
    "status": "NOT_MET",
-   "note": "3 owner-approval files exist for earlier lore decks, but no deck built from the new graph has owner review yet (2 graph-linked draft(s) await review)",
+   "note": "3 owner-approval files exist for earlier lore decks, but no deck built from the new graph has owner review yet (3 graph-linked draft(s) await review)",
    "evidence": {
     "owner_approval_files": [
      "2026-10-28_cory_approved_lore_deck_8_karn.md",
      "2026-10-28_cory_approved_lore_decks_1-7.md",
      "2026-10-29_cory_approved_lore_deck_10_yawgmoth.md"
     ],
-    "draft_proposals": 10,
+    "draft_proposals": 11,
     "graph_based_drafts": [
      "ugin_bolas_elder_dragon_duality_printing_evidence.json",
-     "original_primeval_dragons_printing_evidence.json"
+     "original_primeval_dragons_printing_evidence.json",
+     "ugins_allies_and_heroes_printing_evidence.json"
     ]
    }
   },

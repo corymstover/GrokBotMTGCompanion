@@ -1,0 +1,2214 @@
+{
+ "theme": "Ugin's Allies and Heroes: the Eldrazi sealers, Tarkir and the Gatewatch (Phase 6 Pilot 3)",
+ "status": "UNAPPROVED PROPOSAL - awaiting Cory's review; not approved, not locked, not certified",
+ "raw_sha256": "05cd56bd3d58b153f35ad86f896d6c383f99bca9722e6124e627daad74641c6c",
+ "snapshot": {
+  "id": "snap-20261029-40848334824-1",
+  "default_cards_file": "default-cards-20261029090546.jsonl.gz",
+  "default_cards_sha256": "008434d5b89f1f2cb47411178d2ab181600faf9cb7ca1c5673422cdec5939595"
+ },
+ "tier_definitions": {
+  "DIRECT_DEPICTION": "Official Wizards story captions this exact art at the event (none in this pilot).",
+  "CANON_REFERENCE": "The card names a character, place or being that a cited CANON_CONFIRMED Pack A5 claim is about.",
+  "LORE_INSPIRED": "Its art is embedded in a cited official story page (caption atlas), or it is a named character with only an implied claim; no scene or event asserted.",
+  "MECHANICAL_SYMBOL": "Included for function; no story claim."
+ },
+ "cards": [
+  {
+   "name": "Jace, Multiverse Architect",
+   "beat": "commander",
+   "tier": "CANON_REFERENCE",
+   "source_id": "revelation_eye",
+   "source": "https://magic.wizards.com/en/news/magic-story/revelation-eye-2015-10-14",
+   "claims": [
+    "U010",
+    "U011",
+    "U013"
+   ],
+   "why": "Jace Beleren as a named character card that can be your commander. He travelled to the Eye of Ugin to learn about the hedron network, and Ugin warned him not to kill the titans and not to let them escape (U010, U011); he later seized Ugin's gem (U013). The card's Reality Fracture setting is not asserted to be any of these events.",
+   "printing": {
+    "set": "frc",
+    "collector_number": "1",
+    "id": "55cd03d9-2535-4cf3-a8b2-1418e1190f4a",
+    "oracle_id": "3321c134-bf5b-4f63-8035-fca0bbdfa86b",
+    "illustration_id": "af828d10-92e5-40e8-90e4-f88b1b87ef96",
+    "artist": "Volkan Baǵa",
+    "released_at": "2026-10-02",
+    "printed_flavor": "",
+    "commander_legality": "legal",
+    "color_identity": [
+     "B",
+     "R",
+     "U",
+     "W"
+    ],
+    "type_line": "Legendary Planeswalker — Jace",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Sorin Markov",
+   "beat": "I. The Lithomancer, the vampire and the spirit dragon seal the Eldrazi",
+   "tier": "CANON_REFERENCE",
+   "source_id": "lithomancer",
+   "source": "https://magic.wizards.com/en/news/magic-story/the-lithomancer",
+   "claims": [
+    "U001"
+   ],
+   "why": "Sorin Markov, one of the three Planeswalkers who sealed the Eldrazi (U001). Its art (by Michael Komarck) is embedded with an 'Art by' caption in the official story \"The Lithomancer\" (caption atlas: navigation only, no scene asserted).",
+   "printing": {
+    "set": "zen",
+    "collector_number": "111",
+    "id": "29606aca-f23f-4dfe-b685-2065193109c8",
+    "oracle_id": "c151e8b7-4b28-4f03-8a81-9bf623f893d7",
+    "illustration_id": "9448fd89-7ebb-4954-ae3f-d0e31b71d2bf",
+    "artist": "Michael Komarck",
+    "released_at": "2009-10-02",
+    "printed_flavor": "",
+    "commander_legality": "legal",
+    "color_identity": [
+     "B"
+    ],
+    "type_line": "Legendary Planeswalker — Sorin",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Nahiri, the Lithomancer",
+   "beat": "I. The Lithomancer, the vampire and the spirit dragon seal the Eldrazi",
+   "tier": "CANON_REFERENCE",
+   "source_id": "lithomancer",
+   "source": "https://magic.wizards.com/en/news/magic-story/the-lithomancer",
+   "claims": [
+    "U001",
+    "U003"
+   ],
+   "why": "Nahiri, the Lithomancer: the third sealer, who stayed on as the prison's warden (U001, U003). Its art (by Eric Deschamps) is embedded with an 'Art by' caption in the official story \"Sorin's Restoration\" (caption atlas: navigation only, no scene asserted).",
+   "printing": {
+    "set": "c14",
+    "collector_number": "10",
+    "id": "9a226eae-1c77-45a9-9115-f846b76681a3",
+    "oracle_id": "a554aa2c-d947-4fc6-929d-d5891f467615",
+    "illustration_id": "5f395b89-48ab-4bd7-ac81-0d1c9607d25c",
+    "artist": "Eric Deschamps",
+    "released_at": "2014-11-07",
+    "printed_flavor": "",
+    "commander_legality": "legal",
+    "color_identity": [
+     "W"
+    ],
+    "type_line": "Legendary Planeswalker — Nahiri",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Ulamog, the Infinite Gyre",
+   "beat": "I. The Lithomancer, the vampire and the spirit dragon seal the Eldrazi",
+   "tier": "CANON_REFERENCE",
+   "source_id": "lithomancer",
+   "source": "https://magic.wizards.com/en/news/magic-story/the-lithomancer",
+   "claims": [
+    "U001"
+   ],
+   "why": "Ulamog, one of the Eldrazi titans the three sealed away (U001). Its art (by Aleksi Briclot) is embedded with an 'Art by' caption in the official story \"The Lithomancer\" (caption atlas: navigation only, no scene asserted).",
+   "printing": {
+    "set": "roe",
+    "collector_number": "12",
+    "id": "225e3cc6-34d0-4f81-9f49-162d97e2ea59",
+    "oracle_id": "b817bc56-9b4d-4c50-bafa-3c652b99578f",
+    "illustration_id": "7738c4ae-497f-49c1-b3d3-4801b0a66ab8",
+    "artist": "Aleksi Briclot",
+    "released_at": "2010-04-23",
+    "printed_flavor": "",
+    "commander_legality": "legal",
+    "color_identity": [],
+    "type_line": "Legendary Creature — Eldrazi",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Eye of Ugin",
+   "beat": "I. The Lithomancer, the vampire and the spirit dragon seal the Eldrazi",
+   "tier": "CANON_REFERENCE",
+   "source_id": "stone_and_blood",
+   "source": "https://magic.wizards.com/en/news/magic-story/stone-and-blood-2016-06-15",
+   "claims": [
+    "U002"
+   ],
+   "why": "The Eye of Ugin, the chamber at the centre of the prison, named by Nahiri and Sorin (U002). Card name only.",
+   "printing": {
+    "set": "wwk",
+    "collector_number": "136",
+    "id": "c3b21941-1b7d-4fde-8b1d-7edbd5e5b796",
+    "oracle_id": "10d13ff6-c4d0-4753-8939-a8a90f0e92bb",
+    "illustration_id": "fd01e149-ff1b-4061-99b9-5cf5c3339df0",
+    "artist": "James Paick",
+    "released_at": "2010-02-05",
+    "printed_flavor": "An eye closes. A race awakens.",
+    "commander_legality": "legal",
+    "color_identity": [],
+    "type_line": "Legendary Land",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "All Is Dust",
+   "beat": "I. The Lithomancer, the vampire and the spirit dragon seal the Eldrazi",
+   "tier": "LORE_INSPIRED",
+   "source_id": "lithomancer",
+   "source": "https://magic.wizards.com/en/news/magic-story/the-lithomancer",
+   "claims": [],
+   "why": "All Is Dust: no claim cited. Its art (by Jason Felix) is embedded with an 'Art by' caption in the official story \"The Lithomancer\" (caption atlas: navigation only, no scene asserted).",
+   "printing": {
+    "set": "roe",
+    "collector_number": "1",
+    "id": "62dba377-7446-4517-a504-ee04568fd6cf",
+    "oracle_id": "14693689-d087-43b6-9c3f-63ab0648fc20",
+    "illustration_id": "eb002acc-80bb-4a3c-bff1-854254aac9c1",
+    "artist": "Jason Felix",
+    "released_at": "2010-04-23",
+    "printed_flavor": "\"The emergence of the Eldrazi isn't necessarily a bad thing, as long as you've already lived a fulfilling and complete life without regrets.\"\n—Javad Nasrin, Ondu relic hunter",
+    "commander_legality": "legal",
+    "color_identity": [],
+    "type_line": "Kindred Sorcery — Eldrazi",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Perilous Vault",
+   "beat": "I. The Lithomancer, the vampire and the spirit dragon seal the Eldrazi",
+   "tier": "LORE_INSPIRED",
+   "source_id": "lithomancer",
+   "source": "https://magic.wizards.com/en/news/magic-story/the-lithomancer",
+   "claims": [],
+   "why": "Perilous Vault: no claim cited. Its art (by Sam Burley) is embedded with an 'Art by' caption in the official story \"The Lithomancer\" (caption atlas: navigation only, no scene asserted).",
+   "printing": {
+    "set": "m15",
+    "collector_number": "224",
+    "id": "9a5f1810-a852-454f-b1d6-eb40ea4e0148",
+    "oracle_id": "7acd7ef5-0e26-436d-962a-1a391f81c2e8",
+    "illustration_id": "18c99e06-a1e3-47dc-9afc-ff1959d940ff",
+    "artist": "Sam Burley",
+    "released_at": "2014-07-18",
+    "printed_flavor": "The spirit dragon Ugin arranged the hedrons of Zendikar to direct leylines of energy. To disrupt one is to unleash devastation and chaos.",
+    "commander_legality": "legal",
+    "color_identity": [],
+    "type_line": "Artifact",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Hedron Archive",
+   "beat": "I. The Lithomancer, the vampire and the spirit dragon seal the Eldrazi",
+   "tier": "LORE_INSPIRED",
+   "source_id": "revelation_eye",
+   "source": "https://magic.wizards.com/en/news/magic-story/revelation-eye-2015-10-14",
+   "claims": [],
+   "why": "Hedron Archive: no claim cited. Its art (by Craig J Spearing) is embedded with an 'Art by' caption in the official story \"Revelation at the Eye\" (caption atlas: navigation only, no scene asserted).",
+   "printing": {
+    "set": "bfz",
+    "collector_number": "223",
+    "id": "2519149c-f8a3-413f-b7b2-cd596970be4c",
+    "oracle_id": "32263baa-d3f0-463f-92b3-4e9938476add",
+    "illustration_id": "0e80bdcb-9fe5-4302-a23e-9a40ac89d40d",
+    "artist": "Craig J Spearing",
+    "released_at": "2015-10-02",
+    "printed_flavor": "\"You've begun to understand the hedrons' true purpose,\" said Ugin. \"The Eldrazi can be imprisoned.\"\"And how did that work out last time?\" asked Jace.",
+    "commander_legality": "legal",
+    "color_identity": [],
+    "type_line": "Artifact",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Nahiri, the Harbinger",
+   "beat": "II. The warden left alone",
+   "tier": "CANON_REFERENCE",
+   "source_id": "stone_and_blood",
+   "source": "https://magic.wizards.com/en/news/magic-story/stone-and-blood-2016-06-15",
+   "claims": [
+    "U005"
+   ],
+   "why": "Nahiri, who contained the Eldrazi alone when neither Ugin nor Sorin answered (U005). Its art (by Aleksi Briclot) is embedded with an 'Art by' caption in the official story \"Stone and Blood\" (caption atlas: navigation only, no scene asserted).",
+   "printing": {
+    "set": "soi",
+    "collector_number": "247",
+    "id": "84d70487-21d1-4897-ac20-2a996e893b5b",
+    "oracle_id": "d492eb9a-1f3b-4bf2-9a5d-0f4a4433f33f",
+    "illustration_id": "823b275d-6dec-4bf0-bdfb-31f41b580f46",
+    "artist": "Aleksi Briclot",
+    "released_at": "2016-04-08",
+    "printed_flavor": "",
+    "commander_legality": "legal",
+    "color_identity": [
+     "R",
+     "W"
+    ],
+    "type_line": "Legendary Planeswalker — Nahiri",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Ulamog, the Ceaseless Hunger",
+   "beat": "II. The warden left alone",
+   "tier": "CANON_REFERENCE",
+   "source_id": "stone_and_blood",
+   "source": "https://magic.wizards.com/en/news/magic-story/stone-and-blood-2016-06-15",
+   "claims": [
+    "U003"
+   ],
+   "why": "Ulamog, one of the titans Nahiri guarded as warden (U003). Its art (by Michael Komarck) is embedded with an 'Art by' caption in the official story \"Stone and Blood\" (caption atlas: navigation only, no scene asserted).",
+   "printing": {
+    "set": "bfz",
+    "collector_number": "15",
+    "id": "1192f7a9-102e-4b3a-b154-18c8eb332217",
+    "oracle_id": "0bfa4512-e35a-4c93-b324-80ec659f5a97",
+    "illustration_id": "74414961-40e4-4df4-8098-ea145af93d91",
+    "artist": "Michael Komarck",
+    "released_at": "2015-10-02",
+    "printed_flavor": "A force as voracious as time itself.",
+    "commander_legality": "legal",
+    "color_identity": [],
+    "type_line": "Legendary Creature — Eldrazi",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Helvault",
+   "beat": "II. The warden left alone",
+   "tier": "LORE_INSPIRED",
+   "source_id": "stone_and_blood",
+   "source": "https://magic.wizards.com/en/news/magic-story/stone-and-blood-2016-06-15",
+   "claims": [],
+   "why": "Helvault: no claim cited. Its art (by Jaime Jones) is embedded with an 'Art by' caption in the official story \"Stone and Blood\" (caption atlas: navigation only, no scene asserted).",
+   "printing": {
+    "set": "dka",
+    "collector_number": "151",
+    "id": "16d2448c-1b2e-466a-a0ab-e20ba1de6bc9",
+    "oracle_id": "fa3d8a6f-dc5b-4890-a806-f785a41660c7",
+    "illustration_id": "71e4065f-b94f-4ad7-aa79-6dd3979b3cb8",
+    "artist": "Jaime Jones",
+    "released_at": "2012-02-03",
+    "printed_flavor": "",
+    "commander_legality": "legal",
+    "color_identity": [],
+    "type_line": "Legendary Artifact",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Avacyn, Angel of Hope",
+   "beat": "II. The warden left alone",
+   "tier": "LORE_INSPIRED",
+   "source_id": "stone_and_blood",
+   "source": "https://magic.wizards.com/en/news/magic-story/stone-and-blood-2016-06-15",
+   "claims": [],
+   "why": "Avacyn, Angel of Hope: no claim cited. Its art (by Jason Chan) is embedded with an 'Art by' caption in the official story \"Stone and Blood\" (caption atlas: navigation only, no scene asserted).",
+   "printing": {
+    "set": "avr",
+    "collector_number": "6",
+    "id": "ba149706-cd17-4da6-8403-ccfe2d6cb437",
+    "oracle_id": "216cb26e-8da9-478b-bfbc-8030f7adee72",
+    "illustration_id": "e4cb9f8d-fdf1-47ef-a393-a5b3f76d9e00",
+    "artist": "Jason Chan",
+    "released_at": "2012-05-04",
+    "printed_flavor": "A golden helix streaked skyward from the Helvault. A thunderous explosion shattered the silver monolith and Avacyn emerged, free from her prison at last.",
+    "commander_legality": "legal",
+    "color_identity": [
+     "W"
+    ],
+    "type_line": "Legendary Creature — Angel",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Paraselene",
+   "beat": "II. The warden left alone",
+   "tier": "LORE_INSPIRED",
+   "source_id": "stone_and_blood",
+   "source": "https://magic.wizards.com/en/news/magic-story/stone-and-blood-2016-06-15",
+   "claims": [],
+   "why": "Paraselene: no claim cited. Its art (by Ryan Yee) is embedded with an 'Art by' caption in the official story \"Stone and Blood\" (caption atlas: navigation only, no scene asserted).",
+   "printing": {
+    "set": "isd",
+    "collector_number": "26",
+    "id": "406380ab-2695-4084-99a5-f5560304f8cb",
+    "oracle_id": "e14ac0f3-00d5-4a95-990c-b7ea157bb87e",
+    "illustration_id": "76fbd322-e7d2-4f4b-b51c-3a16eb496411",
+    "artist": "Ryan Yee",
+    "released_at": "2011-09-30",
+    "printed_flavor": "\"Moonlight has a way of showing all things as they truly are—for better or for worse.\"\n—Zilla of Lambholt",
+    "commander_legality": "legal",
+    "color_identity": [
+     "W"
+    ],
+    "type_line": "Sorcery",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Magma Rift",
+   "beat": "II. The warden left alone",
+   "tier": "LORE_INSPIRED",
+   "source_id": "stone_and_blood",
+   "source": "https://magic.wizards.com/en/news/magic-story/stone-and-blood-2016-06-15",
+   "claims": [],
+   "why": "Magma Rift: no claim cited. Its art (by Jung Park) is embedded with an 'Art by' caption in the official story \"Stone and Blood\" (caption atlas: navigation only, no scene asserted).",
+   "printing": {
+    "set": "zen",
+    "collector_number": "136",
+    "id": "ee526306-6959-421c-9969-3c19b666d6da",
+    "oracle_id": "0996d48a-f92a-4aaf-b8a3-f7ec8ff986ca",
+    "illustration_id": "846c5b99-e0d8-445b-a667-a48aa4c05477",
+    "artist": "Jung Park",
+    "released_at": "2009-10-02",
+    "printed_flavor": "\"Lighting a fire needs kindling and heat. You be the kindling. I'll bring the heat.\"\n—Chandra Nalaar",
+    "commander_legality": "legal",
+    "color_identity": [
+     "R"
+    ],
+    "type_line": "Sorcery",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Cliffside Lookout",
+   "beat": "II. The warden left alone",
+   "tier": "LORE_INSPIRED",
+   "source_id": "stone_and_blood",
+   "source": "https://magic.wizards.com/en/news/magic-story/stone-and-blood-2016-06-15",
+   "claims": [],
+   "why": "Cliffside Lookout: no claim cited. Its art (by Eric Deschamps) is embedded with an 'Art by' caption in the official story \"Stone and Blood\" (caption atlas: navigation only, no scene asserted).",
+   "printing": {
+    "set": "bfz",
+    "collector_number": "20",
+    "id": "8c755ae6-badc-4dc8-bfa6-fdebcb00bfba",
+    "oracle_id": "97671aac-7322-44ae-8908-d573734db3af",
+    "illustration_id": "218c7c35-2478-40d8-9e53-25bc6edc91e2",
+    "artist": "Eric Deschamps",
+    "released_at": "2015-10-02",
+    "printed_flavor": "Though losses run high among the scouts of the Stone Havens, they never flinch from their duty.",
+    "commander_legality": "legal",
+    "color_identity": [
+     "W"
+    ],
+    "type_line": "Creature — Kor Scout Ally",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Sorin, Solemn Visitor",
+   "beat": "III. Tarkir: Sorin seeks Ugin, and Sarkhan rewrites the past",
+   "tier": "CANON_REFERENCE",
+   "source_id": "sorins_revelation",
+   "source": "https://magic.wizards.com/en/news/magic-story/sorins-revelation",
+   "claims": [
+    "U006"
+   ],
+   "why": "Sorin, who came to Tarkir looking for Ugin after the Eldrazi escaped (U006). Its art (by Cynthia Sheppard) is embedded with an 'Art by' caption in the official story \"Sorin's Revelation\" (caption atlas: navigation only, no scene asserted).",
+   "printing": {
+    "set": "ktk",
+    "collector_number": "202",
+    "id": "da1a9643-34d6-4b4b-b896-2d4626eca40a",
+    "oracle_id": "1f1f1ae7-dd00-4825-832e-3a049cf8ce73",
+    "illustration_id": "fc9f1872-bee1-448f-8706-e2987b4a8ca4",
+    "artist": "Cynthia Sheppard",
+    "released_at": "2014-09-26",
+    "printed_flavor": "",
+    "commander_legality": "legal",
+    "color_identity": [
+     "B",
+     "W"
+    ],
+    "type_line": "Legendary Planeswalker — Sorin",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Ugin, the Spirit Dragon",
+   "beat": "III. Tarkir: Sorin seeks Ugin, and Sarkhan rewrites the past",
+   "tier": "CANON_REFERENCE",
+   "source_id": "sorins_restoration",
+   "source": "https://magic.wizards.com/en/news/magic-story/sorins-restoration-2015-03-27",
+   "claims": [
+    "U007"
+   ],
+   "why": "Ugin, whom Sorin finds alive and newly freed in the rewritten timeline (U007). This is the Raymond Swanland printing matched in Pack A4. Its art (by Raymond Swanland) is embedded with an 'Art by' caption in the official story \"Unbroken and Unbowed\" (caption atlas: navigation only, no scene asserted).",
+   "printing": {
+    "set": "frf",
+    "collector_number": "1",
+    "id": "58c1e824-c8a9-4312-8e4c-a29a26d189a4",
+    "oracle_id": "eecb3047-a563-441a-9175-200421981ac3",
+    "illustration_id": "47715ae0-7456-449e-ad32-0a7bc47a4e7a",
+    "artist": "Raymond Swanland",
+    "released_at": "2015-01-23",
+    "printed_flavor": "",
+    "commander_legality": "legal",
+    "color_identity": [],
+    "type_line": "Legendary Planeswalker — Ugin",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Sarkhan, the Dragonspeaker",
+   "beat": "III. Tarkir: Sorin seeks Ugin, and Sarkhan rewrites the past",
+   "tier": "CANON_REFERENCE",
+   "source_id": "unbroken_unbowed",
+   "source": "https://magic.wizards.com/en/news/magic-story/unbroken-and-unbowed-2015-04-22",
+   "claims": [
+    "U008"
+   ],
+   "why": "Sarkhan Vol as a named character card: his intervention in the past left Ugin alive but dormant (U008). This printing is not captioned in the story.",
+   "printing": {
+    "set": "ktk",
+    "collector_number": "119",
+    "id": "c58064fd-4d8b-4f54-812f-0bb1d7e2ddc2",
+    "oracle_id": "80c26f58-04b0-4db0-b84e-9b136609abe0",
+    "illustration_id": "1e83480b-ae49-4a65-a35d-c209cf161d2e",
+    "artist": "Daarken",
+    "released_at": "2014-09-26",
+    "printed_flavor": "",
+    "commander_legality": "legal",
+    "color_identity": [
+     "R"
+    ],
+    "type_line": "Legendary Planeswalker — Sarkhan",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Narset Transcendent",
+   "beat": "III. Tarkir: Sorin seeks Ugin, and Sarkhan rewrites the past",
+   "tier": "CANON_REFERENCE",
+   "source_id": "unbroken_unbowed",
+   "source": "https://magic.wizards.com/en/news/magic-story/unbroken-and-unbowed-2015-04-22",
+   "claims": [
+    "U009"
+   ],
+   "why": "Narset, who in the new timeline sets out to speak with Ugin (U009). Its art (by Magali Villeneuve) is embedded with an 'Art by' caption in the official story \"Unbroken and Unbowed\" (caption atlas: navigation only, no scene asserted).",
+   "printing": {
+    "set": "dtk",
+    "collector_number": "225",
+    "id": "4816d092-e34b-4397-8599-43d8e85a8f39",
+    "oracle_id": "e1de0c94-0ecc-425a-9b92-27c2745d07e7",
+    "illustration_id": "3545cdc5-1b10-411f-b428-97a6cd2714ae",
+    "artist": "Magali Villeneuve",
+    "released_at": "2015-03-27",
+    "printed_flavor": "",
+    "commander_legality": "legal",
+    "color_identity": [
+     "U",
+     "W"
+    ],
+    "type_line": "Legendary Planeswalker — Narset",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Bitter Revelation",
+   "beat": "III. Tarkir: Sorin seeks Ugin, and Sarkhan rewrites the past",
+   "tier": "LORE_INSPIRED",
+   "source_id": "sorins_revelation",
+   "source": "https://magic.wizards.com/en/news/magic-story/sorins-revelation",
+   "claims": [],
+   "why": "Bitter Revelation: no claim cited. Its art (by Viktor Titov) is embedded with an 'Art by' caption in the official story \"Sorin's Revelation\" (caption atlas: navigation only, no scene asserted).",
+   "printing": {
+    "set": "ktk",
+    "collector_number": "65",
+    "id": "e42f5aa9-2a47-47c3-ab87-dc25735b0e54",
+    "oracle_id": "f3e025ce-6114-42d0-842f-73366c853657",
+    "illustration_id": "86c7facc-f42f-404c-bf8c-a81c5232fd7a",
+    "artist": "Viktor Titov",
+    "released_at": "2014-09-26",
+    "printed_flavor": "\"Here you lie then, Ugin. The corpses of worlds will join you in the tomb.\"\n—Sorin Markov",
+    "commander_legality": "legal",
+    "color_identity": [
+     "B"
+    ],
+    "type_line": "Sorcery",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Soul Summons",
+   "beat": "III. Tarkir: Sorin seeks Ugin, and Sarkhan rewrites the past",
+   "tier": "LORE_INSPIRED",
+   "source_id": "sorins_restoration",
+   "source": "https://magic.wizards.com/en/news/magic-story/sorins-restoration-2015-03-27",
+   "claims": [],
+   "why": "Soul Summons: no claim cited. Its art (by Johann Bodin) is embedded with an 'Art by' caption in the official story \"Sorin's Restoration\" (caption atlas: navigation only, no scene asserted).",
+   "printing": {
+    "set": "frf",
+    "collector_number": "26",
+    "id": "fb884ac2-c990-4ab0-8610-e07d93da2f13",
+    "oracle_id": "0f5b79ca-9f80-420b-a6c5-bb2a9a95c7e7",
+    "illustration_id": "b2f57625-bff9-41b4-b809-ce49f6aa5e97",
+    "artist": "Johann Bodin",
+    "released_at": "2015-01-23",
+    "printed_flavor": "Ugin's magic reaches beyond the dragons. The clans have adapted it for war.",
+    "commander_legality": "legal",
+    "color_identity": [
+     "W"
+    ],
+    "type_line": "Sorcery",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Scion of Ugin",
+   "beat": "III. Tarkir: Sorin seeks Ugin, and Sarkhan rewrites the past",
+   "tier": "LORE_INSPIRED",
+   "source_id": "unbroken_unbowed",
+   "source": "https://magic.wizards.com/en/news/magic-story/unbroken-and-unbowed-2015-04-22",
+   "claims": [],
+   "why": "Scion of Ugin: no claim cited. Its art (by Cliff Childs) is embedded with an 'Art by' caption in the official story \"Unbroken and Unbowed\" (caption atlas: navigation only, no scene asserted).",
+   "printing": {
+    "set": "dtk",
+    "collector_number": "1",
+    "id": "302d62d6-8abf-4693-974c-bef6841b394f",
+    "oracle_id": "7422f43d-0c1e-42cb-864d-1c63f2ec533a",
+    "illustration_id": "299934da-0f7e-4b23-9c53-81712bc9c789",
+    "artist": "Cliff Childs",
+    "released_at": "2015-03-27",
+    "printed_flavor": "For hundreds of years Ugin slept, encased in the cocoon of stone and magic Sarkhan had created using a shard of a Zendikari hedron. As Ugin lay dormant, his spectral guardians kept vigil.",
+    "commander_legality": "legal",
+    "color_identity": [],
+    "type_line": "Creature — Dragon Spirit",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Cruel Ultimatum",
+   "beat": "III. Tarkir: Sorin seeks Ugin, and Sarkhan rewrites the past",
+   "tier": "LORE_INSPIRED",
+   "source_id": "unbroken_unbowed",
+   "source": "https://magic.wizards.com/en/news/magic-story/unbroken-and-unbowed-2015-04-22",
+   "claims": [],
+   "why": "Cruel Ultimatum: no claim cited. Its art (by Todd Lockwood) is embedded with an 'Art by' caption in the official story \"Unbroken and Unbowed\" (caption atlas: navigation only, no scene asserted).",
+   "printing": {
+    "set": "c13",
+    "collector_number": "182",
+    "id": "73430a6c-7196-4f6c-91d6-50fcc8b0eedb",
+    "oracle_id": "01294ac9-1a06-4ee8-b3b1-db1f07c9d94e",
+    "illustration_id": "533b9e46-61ee-4bc8-ad17-f61c52057a46",
+    "artist": "Todd Lockwood",
+    "released_at": "2013-11-01",
+    "printed_flavor": "There is always a greater power.",
+    "commander_legality": "legal",
+    "color_identity": [
+     "B",
+     "R",
+     "U"
+    ],
+    "type_line": "Sorcery",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Tormenting Voice",
+   "beat": "III. Tarkir: Sorin seeks Ugin, and Sarkhan rewrites the past",
+   "tier": "LORE_INSPIRED",
+   "source_id": "unbroken_unbowed",
+   "source": "https://magic.wizards.com/en/news/magic-story/unbroken-and-unbowed-2015-04-22",
+   "claims": [],
+   "why": "Tormenting Voice: no claim cited. Its art (by Volkan Baǵa) is embedded with an 'Art by' caption in the official story \"Unbroken and Unbowed\" (caption atlas: navigation only, no scene asserted).",
+   "printing": {
+    "set": "ktk",
+    "collector_number": "123",
+    "id": "25af9ac1-a03b-4be7-b726-fb66427b1caa",
+    "oracle_id": "f307b5b4-e949-4f69-8dc7-856e33a45a16",
+    "illustration_id": "0a970345-fb0b-4903-b505-5f6b8ca4ff9f",
+    "artist": "Volkan Baǵa",
+    "released_at": "2014-09-26",
+    "printed_flavor": "\"Unwelcome thoughts crowd my mind. Are they my own madness, or the whispers of another?\"\n—Sarkhan Vol",
+    "commander_legality": "legal",
+    "color_identity": [
+     "R"
+    ],
+    "type_line": "Sorcery",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Dragon Tempest",
+   "beat": "III. Tarkir: Sorin seeks Ugin, and Sarkhan rewrites the past",
+   "tier": "LORE_INSPIRED",
+   "source_id": "unbroken_unbowed",
+   "source": "https://magic.wizards.com/en/news/magic-story/unbroken-and-unbowed-2015-04-22",
+   "claims": [],
+   "why": "Dragon Tempest: no claim cited. Its art (by Willian Murai) is embedded with an 'Art by' caption in the official story \"Unbroken and Unbowed\" (caption atlas: navigation only, no scene asserted).",
+   "printing": {
+    "set": "dtk",
+    "collector_number": "136",
+    "id": "cefac283-8491-4d11-9a40-0e90cbeac19f",
+    "oracle_id": "b9bacb46-fd1d-459b-81c2-d7d08fe73848",
+    "illustration_id": "72404cbf-3e16-47b8-a421-136e34943e17",
+    "artist": "Willian Murai",
+    "released_at": "2015-03-27",
+    "printed_flavor": "",
+    "commander_legality": "legal",
+    "color_identity": [
+     "R"
+    ],
+    "type_line": "Enchantment",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Learn from the Past",
+   "beat": "III. Tarkir: Sorin seeks Ugin, and Sarkhan rewrites the past",
+   "tier": "LORE_INSPIRED",
+   "source_id": "unbroken_unbowed",
+   "source": "https://magic.wizards.com/en/news/magic-story/unbroken-and-unbowed-2015-04-22",
+   "claims": [],
+   "why": "Learn from the Past: no claim cited. Its art (by Chase Stone) is embedded with an 'Art by' caption in the official story \"Unbroken and Unbowed\" (caption atlas: navigation only, no scene asserted).",
+   "printing": {
+    "set": "dtk",
+    "collector_number": "60",
+    "id": "347c6e76-dba4-4448-a4f4-d9591d4539c7",
+    "oracle_id": "f325fd7a-dcae-4892-adf5-de9893a23ac5",
+    "illustration_id": "f225b253-3738-4744-bfef-88cbf251fb97",
+    "artist": "Chase Stone",
+    "released_at": "2015-03-27",
+    "printed_flavor": "\"I've been told my whole life that the great Ojutai holds all knowledge, but I wonder what our forebears knew.\"\n—Narset",
+    "commander_legality": "legal",
+    "color_identity": [
+     "U"
+    ],
+    "type_line": "Instant",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Zada, Hedron Grinder",
+   "beat": "IV. Zendikar: Jace at the Eye, and the alliance that did not reunite",
+   "tier": "LORE_INSPIRED",
+   "source_id": "revelation_eye",
+   "source": "https://magic.wizards.com/en/news/magic-story/revelation-eye-2015-10-14",
+   "claims": [],
+   "why": "Zada, Hedron Grinder: no claim cited. Its art (by Chris Rallis) is embedded with an 'Art by' caption in the official story \"Revelation at the Eye\" (caption atlas: navigation only, no scene asserted).",
+   "printing": {
+    "set": "bfz",
+    "collector_number": "162",
+    "id": "fc0969f1-92a0-47c3-8eff-d106fbef2f7e",
+    "oracle_id": "9f7d5e1c-bf5b-4ab9-bd6e-2627b4d22b36",
+    "illustration_id": "5fdbbe88-4f43-4723-90f3-51a81e1c2675",
+    "artist": "Chris Rallis",
+    "released_at": "2015-10-02",
+    "printed_flavor": "\"A hedron holds magic for a thousand years—or less, if need be.\"",
+    "commander_legality": "legal",
+    "color_identity": [
+     "R"
+    ],
+    "type_line": "Legendary Creature — Goblin Ally",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Salvage Drone",
+   "beat": "IV. Zendikar: Jace at the Eye, and the alliance that did not reunite",
+   "tier": "LORE_INSPIRED",
+   "source_id": "revelation_eye",
+   "source": "https://magic.wizards.com/en/news/magic-story/revelation-eye-2015-10-14",
+   "claims": [],
+   "why": "Salvage Drone: no claim cited. Its art (by Slawomir Maniak) is embedded with an 'Art by' caption in the official story \"Revelation at the Eye\" (caption atlas: navigation only, no scene asserted).",
+   "printing": {
+    "set": "bfz",
+    "collector_number": "65",
+    "id": "4b8ce2a9-9d8e-442b-bc12-74545ceb65bd",
+    "oracle_id": "9b18bbf3-3b1c-4010-bc6f-e7eacb2ffb70",
+    "illustration_id": "b681864c-dc0f-47cf-8b08-378ce3f69823",
+    "artist": "Slawomir Maniak",
+    "released_at": "2015-10-02",
+    "printed_flavor": "",
+    "commander_legality": "legal",
+    "color_identity": [
+     "U"
+    ],
+    "type_line": "Creature — Eldrazi Drone",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Dispel",
+   "beat": "IV. Zendikar: Jace at the Eye, and the alliance that did not reunite",
+   "tier": "LORE_INSPIRED",
+   "source_id": "revelation_eye",
+   "source": "https://magic.wizards.com/en/news/magic-story/revelation-eye-2015-10-14",
+   "claims": [],
+   "why": "Dispel: no claim cited. Its art (by Chase Stone) is embedded with an 'Art by' caption in the official story \"Revelation at the Eye\" (caption atlas: navigation only, no scene asserted).",
+   "printing": {
+    "set": "rtr",
+    "collector_number": "36",
+    "id": "08d4a8d7-c136-472f-8146-a1100701ca4f",
+    "oracle_id": "6d7be242-a072-40ce-b540-95880506cccd",
+    "illustration_id": "8e852281-c847-4086-a5dc-444865552e9c",
+    "artist": "Chase Stone",
+    "released_at": "2012-10-05",
+    "printed_flavor": "\"Civilization will subsume us unless we overwhelm it instead.\"\n—Speaker Zegana",
+    "commander_legality": "legal",
+    "color_identity": [
+     "U"
+    ],
+    "type_line": "Instant",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Jace, Unraveler of Secrets",
+   "beat": "IV. Zendikar: Jace at the Eye, and the alliance that did not reunite",
+   "tier": "CANON_REFERENCE",
+   "source_id": "revelation_eye",
+   "source": "https://magic.wizards.com/en/news/magic-story/revelation-eye-2015-10-14",
+   "claims": [
+    "U010"
+   ],
+   "why": "Jace Beleren as a named character card: he travelled to the Eye of Ugin to learn about the hedron network (U010). This printing is not captioned in the story.",
+   "printing": {
+    "set": "soi",
+    "collector_number": "69",
+    "id": "20d5521d-e9f1-49e0-aa13-8e6de794cb12",
+    "oracle_id": "ac29873e-28c3-4933-b427-61d34ff0afcd",
+    "illustration_id": "9ecd67db-43b2-4410-8823-c75bae219860",
+    "artist": "Tyler Jacobson",
+    "released_at": "2016-04-08",
+    "printed_flavor": "",
+    "commander_legality": "legal",
+    "color_identity": [
+     "U"
+    ],
+    "type_line": "Legendary Planeswalker — Jace",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Call the Gatewatch",
+   "beat": "IV. Zendikar: Jace at the Eye, and the alliance that did not reunite",
+   "tier": "LORE_INSPIRED",
+   "source_id": "brink_extinction",
+   "source": "https://magic.wizards.com/en/news/magic-story/brink-extinction-2016-02-10",
+   "claims": [],
+   "why": "Call the Gatewatch: no claim cited. Its art (by Yefim Kligerman) is embedded with an 'Art by' caption in the official story \"Brink of Extinction\" (caption atlas: navigation only, no scene asserted).",
+   "printing": {
+    "set": "ogw",
+    "collector_number": "16",
+    "id": "4719ac60-2cff-4abb-b9cc-b677d3ac945c",
+    "oracle_id": "652bfa31-b2eb-4cba-850f-1db02a83bb35",
+    "illustration_id": "a11d83eb-835e-4623-8cce-4dc27a1f89c3",
+    "artist": "Yefim Kligerman",
+    "released_at": "2016-01-22",
+    "printed_flavor": "\"I've heard it said that a Planeswalker is someone who can always run from danger. But Gideon's right: we're also the ones who can choose to stay.\"\n—Jace Beleren",
+    "commander_legality": "legal",
+    "color_identity": [
+     "W"
+    ],
+    "type_line": "Sorcery",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Unity of Purpose",
+   "beat": "IV. Zendikar: Jace at the Eye, and the alliance that did not reunite",
+   "tier": "LORE_INSPIRED",
+   "source_id": "brink_extinction",
+   "source": "https://magic.wizards.com/en/news/magic-story/brink-extinction-2016-02-10",
+   "claims": [],
+   "why": "Unity of Purpose: no claim cited. Its art (by Jason Felix) is embedded with an 'Art by' caption in the official story \"Brink of Extinction\" (caption atlas: navigation only, no scene asserted).",
+   "printing": {
+    "set": "ogw",
+    "collector_number": "66",
+    "id": "6f87292c-0140-44d7-881e-2e8c9ff737a1",
+    "oracle_id": "9fbcae6e-5523-47a3-b0ff-ab7a8bb72822",
+    "illustration_id": "ae587613-d28d-4ea0-874f-b22eddf6af73",
+    "artist": "Jason Felix",
+    "released_at": "2016-01-22",
+    "printed_flavor": "Faced with the novel problem of inspiring an army, Jace asked himself: \"What would Gideon say?\"",
+    "commander_legality": "legal",
+    "color_identity": [
+     "U"
+    ],
+    "type_line": "Instant",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Oath of Gideon",
+   "beat": "IV. Zendikar: Jace at the Eye, and the alliance that did not reunite",
+   "tier": "LORE_INSPIRED",
+   "source_id": "zendikar_resurgent",
+   "source": "https://magic.wizards.com/en/news/magic-story/zendikar-resurgent-2016-02-24",
+   "claims": [],
+   "why": "Oath of Gideon: no claim cited. Its art (by Wesley Burt) is embedded with an 'Art by' caption in the official story \"Zendikar Resurgent\" (caption atlas: navigation only, no scene asserted).",
+   "printing": {
+    "set": "ogw",
+    "collector_number": "30",
+    "id": "97976ade-c6ec-4068-be6b-953255b86a79",
+    "oracle_id": "ea168acc-22a1-4ba5-affd-fb813b93535a",
+    "illustration_id": "e3fde702-b13c-4db9-aa57-d33cd8c354f7",
+    "artist": "Wesley Burt",
+    "released_at": "2016-01-22",
+    "printed_flavor": "\"For justice and peace, I will keep watch.\"",
+    "commander_legality": "legal",
+    "color_identity": [
+     "W"
+    ],
+    "type_line": "Legendary Enchantment",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Oath of Chandra",
+   "beat": "IV. Zendikar: Jace at the Eye, and the alliance that did not reunite",
+   "tier": "LORE_INSPIRED",
+   "source_id": "zendikar_resurgent",
+   "source": "https://magic.wizards.com/en/news/magic-story/zendikar-resurgent-2016-02-24",
+   "claims": [],
+   "why": "Oath of Chandra: no claim cited. Its art (by Wesley Burt) is embedded with an 'Art by' caption in the official story \"Zendikar Resurgent\" (caption atlas: navigation only, no scene asserted).",
+   "printing": {
+    "set": "ogw",
+    "collector_number": "113",
+    "id": "f570b0cb-2f38-422d-89d6-22c85e085328",
+    "oracle_id": "53a0923f-7da8-4e31-a231-9b275916e2a2",
+    "illustration_id": "1224cba5-9406-4357-a489-ee73300d992c",
+    "artist": "Wesley Burt",
+    "released_at": "2016-01-22",
+    "printed_flavor": "\"If it means that people can live in freedom, yeah, I'll keep watch.\"",
+    "commander_legality": "legal",
+    "color_identity": [
+     "R"
+    ],
+    "type_line": "Legendary Enchantment",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Oath of Jace",
+   "beat": "IV. Zendikar: Jace at the Eye, and the alliance that did not reunite",
+   "tier": "LORE_INSPIRED",
+   "source_id": "zendikar_resurgent",
+   "source": "https://magic.wizards.com/en/news/magic-story/zendikar-resurgent-2016-02-24",
+   "claims": [],
+   "why": "Oath of Jace: no claim cited. Its art (by Wesley Burt) is embedded with an 'Art by' caption in the official story \"Zendikar Resurgent\" (caption atlas: navigation only, no scene asserted).",
+   "printing": {
+    "set": "ogw",
+    "collector_number": "60",
+    "id": "e8e7b007-a14b-40b2-9de7-38545c50a073",
+    "oracle_id": "dc92b420-8ac7-4478-a287-3d897357be08",
+    "illustration_id": "d0f31306-58ea-42cb-8e3d-69aa358546dd",
+    "artist": "Wesley Burt",
+    "released_at": "2016-01-22",
+    "printed_flavor": "\"For the sake of the Multiverse, I will keep watch.\"",
+    "commander_legality": "legal",
+    "color_identity": [
+     "U"
+    ],
+    "type_line": "Legendary Enchantment",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Ugin, Eye of the Storms",
+   "beat": "V. Tarkir: Dragonstorm: the gem, the brothers and Narset",
+   "tier": "CANON_REFERENCE",
+   "source_id": "tdm_ep6",
+   "source": "https://magic.wizards.com/en/news/magic-story/tarkir-dragonstorm-episode-6-how-wretched-love",
+   "claims": [
+    "U014"
+   ],
+   "why": "Ugin as a named Tarkir: Dragonstorm character card: he threw himself at his brother as Bolas broke free (U014). The card's art is not asserted to depict that scene.",
+   "printing": {
+    "set": "tdm",
+    "collector_number": "1",
+    "id": "64a5d494-efa1-446b-bebe-2ad36e154376",
+    "oracle_id": "5c58353a-fd60-4528-bf0d-669626cda0b2",
+    "illustration_id": "7edf7fbd-ba6d-4128-837d-3839543ae459",
+    "artist": "Joshua Raphael",
+    "released_at": "2025-04-11",
+    "printed_flavor": "",
+    "commander_legality": "legal",
+    "color_identity": [],
+    "type_line": "Legendary Planeswalker — Ugin",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+   "beat": "V. Tarkir: Dragonstorm: the gem, the brothers and Narset",
+   "tier": "CANON_REFERENCE",
+   "source_id": "tdm_ep7",
+   "source": "https://magic.wizards.com/en/news/magic-story/tarkir-dragonstorm-episode-7-return",
+   "claims": [
+    "U015"
+   ],
+   "why": "Nicol Bolas as a named character card: Narset sees Ugin and Bolas vanish, and both survive (U015). The art is not asserted to depict that scene.",
+   "printing": {
+    "set": "m19",
+    "collector_number": "218",
+    "id": "7b215968-93a6-4278-ac61-4e3e8c3c3943",
+    "oracle_id": "55e4b27e-5447-4fc2-8cae-a03e344600c6",
+    "illustration_id": "54fcf679-5332-4614-999d-7e0dbafbd116",
+    "artist": "Svetlin Velinov",
+    "released_at": "2018-07-13",
+    "printed_flavor": "",
+    "commander_legality": "legal",
+    "color_identity": [
+     "B",
+     "R",
+     "U"
+    ],
+    "type_line": "Legendary Creature — Elder Dragon // Legendary Planeswalker — Bolas",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Narset, Jeskai Waymaster",
+   "beat": "V. Tarkir: Dragonstorm: the gem, the brothers and Narset",
+   "tier": "CANON_REFERENCE",
+   "source_id": "tdm_ep7",
+   "source": "https://magic.wizards.com/en/news/magic-story/tarkir-dragonstorm-episode-7-return",
+   "claims": [
+    "U015"
+   ],
+   "why": "Narset as a named Tarkir: Dragonstorm character card: she witnesses the brothers vanish (U015). No scene asserted.",
+   "printing": {
+    "set": "tdm",
+    "collector_number": "209",
+    "id": "6b77cbc1-dbc8-44d9-aa29-15cbb19afecd",
+    "oracle_id": "1a2a74b8-0689-4959-9348-02cc832194cf",
+    "illustration_id": "c39aac7e-197d-4bcd-9f4c-3e92223e5d17",
+    "artist": "Randy Vargas",
+    "released_at": "2025-04-11",
+    "printed_flavor": "\"Each step we take is a decision that changes the course of our futures. We must be careful where we tread.\"",
+    "commander_legality": "legal",
+    "color_identity": [
+     "R",
+     "U",
+     "W"
+    ],
+    "type_line": "Legendary Creature — Human Monk",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Elspeth, Storm Slayer",
+   "beat": "V. Tarkir: Dragonstorm: the gem, the brothers and Narset",
+   "tier": "LORE_INSPIRED",
+   "source_id": "tdm_ep7",
+   "source": "https://magic.wizards.com/en/news/magic-story/tarkir-dragonstorm-episode-7-return",
+   "claims": [],
+   "why": "Elspeth as a named Tarkir: Dragonstorm character card. Her carrying Narset into the Omenpath (U016) is only CANON_IMPLIED, so no claim is cited.",
+   "printing": {
+    "set": "tdm",
+    "collector_number": "11",
+    "id": "73a065e3-b530-4e62-ab3c-4f6f908184ec",
+    "oracle_id": "f78af825-023a-42e9-8374-5c52303a1417",
+    "illustration_id": "5b1cbecf-5abc-4b31-8221-afb8db4b8d19",
+    "artist": "Ekaterina Burmak",
+    "released_at": "2025-04-11",
+    "printed_flavor": "",
+    "commander_legality": "legal",
+    "color_identity": [
+     "W"
+    ],
+    "type_line": "Legendary Planeswalker — Elspeth",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Valakut, the Molten Pinnacle",
+   "beat": "story lands",
+   "tier": "LORE_INSPIRED",
+   "source_id": "stone_and_blood",
+   "source": "https://magic.wizards.com/en/news/magic-story/stone-and-blood-2016-06-15",
+   "claims": [],
+   "why": "Valakut, the Molten Pinnacle: no claim cited. Its art (by Kieran Yanner) is embedded with an 'Art by' caption in the official story \"Stone and Blood\" (caption atlas: navigation only, no scene asserted).",
+   "printing": {
+    "set": "zen",
+    "collector_number": "228",
+    "id": "37bce60d-2cb0-4772-9f5c-122a7ed426a0",
+    "oracle_id": "1bc44216-4e06-4f66-89b7-5c327004604e",
+    "illustration_id": "a3507ca1-9f13-4991-8148-1b64adc15cbc",
+    "artist": "Kieran Yanner",
+    "released_at": "2009-10-02",
+    "printed_flavor": "",
+    "commander_legality": "legal",
+    "color_identity": [
+     "R"
+    ],
+    "type_line": "Land",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Prairie Stream",
+   "beat": "story lands",
+   "tier": "LORE_INSPIRED",
+   "source_id": "stone_and_blood",
+   "source": "https://magic.wizards.com/en/news/magic-story/stone-and-blood-2016-06-15",
+   "claims": [],
+   "why": "Prairie Stream: no claim cited. Its art (by Adam Paquette) is embedded with an 'Art by' caption in the official story \"Stone and Blood\" (caption atlas: navigation only, no scene asserted).",
+   "printing": {
+    "set": "bfz",
+    "collector_number": "241",
+    "id": "9625911f-1dd3-4044-ac06-3c0c3198b6fd",
+    "oracle_id": "5330e24a-8568-446e-840a-594cd08bd1bc",
+    "illustration_id": "4fbe9e0b-ca23-43d5-aa85-1f043e2943db",
+    "artist": "Adam Paquette",
+    "released_at": "2015-10-02",
+    "printed_flavor": "The continent of Ondu is a vast plateau crisscrossed by deep trenches and meandering rivers.",
+    "commander_legality": "legal",
+    "color_identity": [
+     "U",
+     "W"
+    ],
+    "type_line": "Land — Plains Island",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Wastes",
+   "beat": "story lands",
+   "tier": "LORE_INSPIRED",
+   "source_id": "stone_and_blood",
+   "source": "https://magic.wizards.com/en/news/magic-story/stone-and-blood-2016-06-15",
+   "claims": [],
+   "why": "Wastes: no claim cited. Its art (by Jason Felix) is embedded with an 'Art by' caption in the official story \"Stone and Blood\" (caption atlas: navigation only, no scene asserted).",
+   "printing": {
+    "set": "ogw",
+    "collector_number": "183a",
+    "id": "9cc070d3-4b83-4684-9caf-063e5c473a77",
+    "oracle_id": "05d24b0c-904a-46b6-b42a-96a4d91a0dd4",
+    "illustration_id": "27777a6f-cf59-4515-bcc4-8a6020d0d865",
+    "artist": "Jason Felix",
+    "released_at": "2016-01-22",
+    "printed_flavor": "",
+    "commander_legality": "legal",
+    "color_identity": [],
+    "type_line": "Basic Land",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Crucible of the Spirit Dragon",
+   "beat": "story lands",
+   "tier": "LORE_INSPIRED",
+   "source_id": "sorins_restoration",
+   "source": "https://magic.wizards.com/en/news/magic-story/sorins-restoration-2015-03-27",
+   "claims": [],
+   "why": "Crucible of the Spirit Dragon: no claim cited. Its art (by Jung Park) is embedded with an 'Art by' caption in the official story \"Sorin's Restoration\" (caption atlas: navigation only, no scene asserted).",
+   "printing": {
+    "set": "frf",
+    "collector_number": "167",
+    "id": "6bf563e0-1f42-4768-a667-3e120bdb6534",
+    "oracle_id": "ecfbebc9-7fc7-474e-8c59-8ede800e082e",
+    "illustration_id": "12281ea1-2759-4c81-a881-e308c497fcf3",
+    "artist": "Jung Park",
+    "released_at": "2015-01-23",
+    "printed_flavor": "",
+    "commander_legality": "legal",
+    "color_identity": [],
+    "type_line": "Land",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Haven of the Spirit Dragon",
+   "beat": "story lands",
+   "tier": "LORE_INSPIRED",
+   "source_id": "sorins_restoration",
+   "source": "https://magic.wizards.com/en/news/magic-story/sorins-restoration-2015-03-27",
+   "claims": [],
+   "why": "Haven of the Spirit Dragon: no claim cited. Its art (by Raymond Swanland) is embedded with an 'Art by' caption in the official story \"Sorin's Restoration\" (caption atlas: navigation only, no scene asserted).",
+   "printing": {
+    "set": "dtk",
+    "collector_number": "249",
+    "id": "9910042e-091f-47da-ad29-8f76c9d3b8c1",
+    "oracle_id": "acc9c16a-5e72-43bd-87e1-56a16aa892f5",
+    "illustration_id": "ed82a1bb-a773-4297-a7b1-1e65758798f6",
+    "artist": "Raymond Swanland",
+    "released_at": "2015-03-27",
+    "printed_flavor": "",
+    "commander_legality": "legal",
+    "color_identity": [],
+    "type_line": "Land",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Sanctum of Ugin",
+   "beat": "story lands",
+   "tier": "LORE_INSPIRED",
+   "source_id": "revelation_eye",
+   "source": "https://magic.wizards.com/en/news/magic-story/revelation-eye-2015-10-14",
+   "claims": [],
+   "why": "Sanctum of Ugin: no claim cited. Its art (by James Paick) is embedded with an 'Art by' caption in the official story \"Revelation at the Eye\" (caption atlas: navigation only, no scene asserted).",
+   "printing": {
+    "set": "bfz",
+    "collector_number": "242",
+    "id": "86798d03-9f2d-46bd-a660-13c8dd5535ce",
+    "oracle_id": "72cb5dcd-9b24-435c-921a-3766108374c4",
+    "illustration_id": "b582bca0-c07d-452b-85c4-7f9cdb62e803",
+    "artist": "James Paick",
+    "released_at": "2015-10-02",
+    "printed_flavor": "",
+    "commander_legality": "legal",
+    "color_identity": [],
+    "type_line": "Land",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Looming Spires",
+   "beat": "story lands",
+   "tier": "LORE_INSPIRED",
+   "source_id": "revelation_eye",
+   "source": "https://magic.wizards.com/en/news/magic-story/revelation-eye-2015-10-14",
+   "claims": [],
+   "why": "Looming Spires: no claim cited. Its art (by Florian de Gesincourt) is embedded with an 'Art by' caption in the official story \"Revelation at the Eye\" (caption atlas: navigation only, no scene asserted).",
+   "printing": {
+    "set": "bfz",
+    "collector_number": "238",
+    "id": "b88177a2-de41-417d-a8f1-07edf005b453",
+    "oracle_id": "7d09b136-525f-49dd-a3a2-dfaca4e8e9a8",
+    "illustration_id": "9cfba591-514e-4bb9-88b6-c9ed1a469add",
+    "artist": "Florian de Gesincourt",
+    "released_at": "2015-10-02",
+    "printed_flavor": "",
+    "commander_legality": "legal",
+    "color_identity": [
+     "R"
+    ],
+    "type_line": "Land",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Sea Gate Wreckage",
+   "beat": "story lands",
+   "tier": "LORE_INSPIRED",
+   "source_id": "zendikar_resurgent",
+   "source": "https://magic.wizards.com/en/news/magic-story/zendikar-resurgent-2016-02-24",
+   "claims": [],
+   "why": "Sea Gate Wreckage: no claim cited. Its art (by Zack Stella) is embedded with an 'Art by' caption in the official story \"Zendikar Resurgent\" (caption atlas: navigation only, no scene asserted).",
+   "printing": {
+    "set": "ogw",
+    "collector_number": "177",
+    "id": "cd42576b-9de5-4d77-9d30-1ef5b5a4fd73",
+    "oracle_id": "91f34686-cb96-49c0-b4a7-49dd1fd076e2",
+    "illustration_id": "bd7a866e-9605-42d3-a89b-cac0acd6b5d3",
+    "artist": "Zack Stella",
+    "released_at": "2016-01-22",
+    "printed_flavor": "Once a center for knowledge, Sea Gate now serves as a reminder of what was lost.",
+    "commander_legality": "legal",
+    "color_identity": [],
+    "type_line": "Land",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Command Tower",
+   "beat": "playability",
+   "tier": "MECHANICAL_SYMBOL",
+   "source_id": "scryfall_card_text",
+   "source": "scryfall-snapshot:printed_flavor_or_name",
+   "claims": [],
+   "why": "Mana, fixing, interaction or planeswalker support for a WUBR commander; no story claim.",
+   "printing": {
+    "set": "cmd",
+    "collector_number": "269",
+    "id": "46982091-cc78-4171-8b3d-d07592684728",
+    "oracle_id": "0895c9b7-ae7d-4bb3-af17-3b75deb50a25",
+    "illustration_id": "8218c3fe-62e3-4639-a305-68897194c3d3",
+    "artist": "Ryan Yee",
+    "released_at": "2011-06-17",
+    "printed_flavor": "When defeat is near and guidance is scarce, all eyes look in one direction.",
+    "commander_legality": "legal",
+    "color_identity": [],
+    "type_line": "Land",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Exotic Orchard",
+   "beat": "playability",
+   "tier": "MECHANICAL_SYMBOL",
+   "source_id": "scryfall_card_text",
+   "source": "scryfall-snapshot:printed_flavor_or_name",
+   "claims": [],
+   "why": "Mana, fixing, interaction or planeswalker support for a WUBR commander; no story claim.",
+   "printing": {
+    "set": "con",
+    "collector_number": "142",
+    "id": "6aae6480-4e71-4d94-a648-f80d3849d792",
+    "oracle_id": "27b047e3-0d41-45e2-98e9-9391d7923a1e",
+    "illustration_id": "f67845cb-fe3b-4f90-8de2-bdb69daca307",
+    "artist": "Steven Belledin",
+    "released_at": "2009-02-06",
+    "printed_flavor": "\"It was a strange morning. When we awoke, we found our trees transformed. We didn't know whether to water them or polish them.\"\n—Pulan, Bant orchardist",
+    "commander_legality": "legal",
+    "color_identity": [],
+    "type_line": "Land",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "City of Brass",
+   "beat": "playability",
+   "tier": "MECHANICAL_SYMBOL",
+   "source_id": "scryfall_card_text",
+   "source": "scryfall-snapshot:printed_flavor_or_name",
+   "claims": [],
+   "why": "Mana, fixing, interaction or planeswalker support for a WUBR commander; no story claim.",
+   "printing": {
+    "set": "arn",
+    "collector_number": "71",
+    "id": "f4e32327-380d-471e-813b-4c27477787ce",
+    "oracle_id": "f25351e3-539b-4bbc-b92d-6480acf4d722",
+    "illustration_id": "a5d6c290-9ca1-44e4-ac8f-5693aa19bbda",
+    "artist": "Mark Tedin",
+    "released_at": "1993-12-17",
+    "printed_flavor": "",
+    "commander_legality": "legal",
+    "color_identity": [],
+    "type_line": "Land",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Mana Confluence",
+   "beat": "playability",
+   "tier": "MECHANICAL_SYMBOL",
+   "source_id": "scryfall_card_text",
+   "source": "scryfall-snapshot:printed_flavor_or_name",
+   "claims": [],
+   "why": "Mana, fixing, interaction or planeswalker support for a WUBR commander; no story claim.",
+   "printing": {
+    "set": "jou",
+    "collector_number": "163",
+    "id": "504a69eb-3c2d-4bb1-b117-252b15acf0c2",
+    "oracle_id": "d0ee5bdc-2b69-4b73-9a20-ffcc18783b29",
+    "illustration_id": "00679d5a-ad7d-45fd-8a97-a317ed292cc1",
+    "artist": "Richard Wright",
+    "released_at": "2014-05-02",
+    "printed_flavor": "Five rivers encircle Theros, flowing with waters more ancient than the world itself.",
+    "commander_legality": "legal",
+    "color_identity": [],
+    "type_line": "Land",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Raffine's Tower",
+   "beat": "playability",
+   "tier": "MECHANICAL_SYMBOL",
+   "source_id": "scryfall_card_text",
+   "source": "scryfall-snapshot:printed_flavor_or_name",
+   "claims": [],
+   "why": "Mana, fixing, interaction or planeswalker support for a WUBR commander; no story claim.",
+   "printing": {
+    "set": "snc",
+    "collector_number": "254",
+    "id": "a2c56479-4bee-4edb-80d7-4af010b7c793",
+    "oracle_id": "6e9ef5ef-6aed-4d3e-a59b-9e3dc8740b1b",
+    "illustration_id": "166e22e4-10ab-4212-954b-54d9f671a967",
+    "artist": "Sam White",
+    "released_at": "2022-04-29",
+    "printed_flavor": "The Obscura's Cloud Spire dominates the skyline, its eye a beacon of progress that sees all.",
+    "commander_legality": "legal",
+    "color_identity": [
+     "B",
+     "U",
+     "W"
+    ],
+    "type_line": "Land — Plains Island Swamp",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Xander's Lounge",
+   "beat": "playability",
+   "tier": "MECHANICAL_SYMBOL",
+   "source_id": "scryfall_card_text",
+   "source": "scryfall-snapshot:printed_flavor_or_name",
+   "claims": [],
+   "why": "Mana, fixing, interaction or planeswalker support for a WUBR commander; no story claim.",
+   "printing": {
+    "set": "snc",
+    "collector_number": "260",
+    "id": "54f449ff-4025-465e-9ec5-a5cf42c4c9d3",
+    "oracle_id": "8291543f-d086-48aa-b2b7-5481ca8c9198",
+    "illustration_id": "e1605231-1472-42f1-a2b8-cdbcd76198af",
+    "artist": "James Paick",
+    "released_at": "2022-04-29",
+    "printed_flavor": "Maestros agents can lie low in high style at the opulent Shadow Hostel.",
+    "commander_legality": "legal",
+    "color_identity": [
+     "B",
+     "R",
+     "U"
+    ],
+    "type_line": "Land — Island Swamp Mountain",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Raugrin Triome",
+   "beat": "playability",
+   "tier": "MECHANICAL_SYMBOL",
+   "source_id": "scryfall_card_text",
+   "source": "scryfall-snapshot:printed_flavor_or_name",
+   "claims": [],
+   "why": "Mana, fixing, interaction or planeswalker support for a WUBR commander; no story claim.",
+   "printing": {
+    "set": "iko",
+    "collector_number": "251",
+    "id": "02138fbb-3962-4348-8d31-faaefba0b8b2",
+    "oracle_id": "c7fa1dda-9312-4ec8-82cd-a1ba7bc33497",
+    "illustration_id": "601afc7d-b8e5-4f94-ad0d-c0813caa4f77",
+    "artist": "Jonas De Ro",
+    "released_at": "2020-04-24",
+    "printed_flavor": "Raugrin meets the sea with jaws wide, its coast spiked with teeth of crystal and granite.",
+    "commander_legality": "legal",
+    "color_identity": [
+     "R",
+     "U",
+     "W"
+    ],
+    "type_line": "Land — Island Mountain Plains",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Savai Triome",
+   "beat": "playability",
+   "tier": "MECHANICAL_SYMBOL",
+   "source_id": "scryfall_card_text",
+   "source": "scryfall-snapshot:printed_flavor_or_name",
+   "claims": [],
+   "why": "Mana, fixing, interaction or planeswalker support for a WUBR commander; no story claim.",
+   "printing": {
+    "set": "iko",
+    "collector_number": "253",
+    "id": "748e6a61-9c1f-4225-9f04-e54002f63ac3",
+    "oracle_id": "00625242-9348-4ef4-b975-f2ac82fee21d",
+    "illustration_id": "c204476b-2750-40dd-b8e1-3d3f5e97415a",
+    "artist": "Titus Lunter",
+    "released_at": "2020-04-24",
+    "printed_flavor": "Broad prairies feed the human sanctuary of Drannith and conceal a network of caverns where giant cats make their dens.",
+    "commander_legality": "legal",
+    "color_identity": [
+     "B",
+     "R",
+     "W"
+    ],
+    "type_line": "Land — Mountain Plains Swamp",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Hallowed Fountain",
+   "beat": "playability",
+   "tier": "MECHANICAL_SYMBOL",
+   "source_id": "scryfall_card_text",
+   "source": "scryfall-snapshot:printed_flavor_or_name",
+   "claims": [],
+   "why": "Mana, fixing, interaction or planeswalker support for a WUBR commander; no story claim.",
+   "printing": {
+    "set": "dis",
+    "collector_number": "174",
+    "id": "c28aea19-2a39-4934-afda-909e234fa3ba",
+    "oracle_id": "f1750962-a87c-49f6-b731-02ae971ac6ea",
+    "illustration_id": "efc3758a-ff60-46f8-93b4-868bb5396e50",
+    "artist": "Rob Alexander",
+    "released_at": "2006-05-05",
+    "printed_flavor": "",
+    "commander_legality": "legal",
+    "color_identity": [
+     "U",
+     "W"
+    ],
+    "type_line": "Land — Plains Island",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Watery Grave",
+   "beat": "playability",
+   "tier": "MECHANICAL_SYMBOL",
+   "source_id": "scryfall_card_text",
+   "source": "scryfall-snapshot:printed_flavor_or_name",
+   "claims": [],
+   "why": "Mana, fixing, interaction or planeswalker support for a WUBR commander; no story claim.",
+   "printing": {
+    "set": "rav",
+    "collector_number": "286",
+    "id": "139b90cd-8272-457a-be32-1298145345be",
+    "oracle_id": "fc9ec820-4245-4a96-b009-5308a818ca58",
+    "illustration_id": "abed86c7-3031-4f84-913d-64a80c23aca2",
+    "artist": "Rob Alexander",
+    "released_at": "2005-10-07",
+    "printed_flavor": "",
+    "commander_legality": "legal",
+    "color_identity": [
+     "B",
+     "U"
+    ],
+    "type_line": "Land — Island Swamp",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Blood Crypt",
+   "beat": "playability",
+   "tier": "MECHANICAL_SYMBOL",
+   "source_id": "scryfall_card_text",
+   "source": "scryfall-snapshot:printed_flavor_or_name",
+   "claims": [],
+   "why": "Mana, fixing, interaction or planeswalker support for a WUBR commander; no story claim.",
+   "printing": {
+    "set": "dis",
+    "collector_number": "171",
+    "id": "f281e16f-0fe1-4095-bd63-0a4479f75c11",
+    "oracle_id": "43985bbc-a0f6-4812-984e-392bc8562633",
+    "illustration_id": "a5c0ea4b-602b-4f4b-aada-4f24f519240b",
+    "artist": "Rob Alexander",
+    "released_at": "2006-05-05",
+    "printed_flavor": "",
+    "commander_legality": "legal",
+    "color_identity": [
+     "B",
+     "R"
+    ],
+    "type_line": "Land — Swamp Mountain",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Sacred Foundry",
+   "beat": "playability",
+   "tier": "MECHANICAL_SYMBOL",
+   "source_id": "scryfall_card_text",
+   "source": "scryfall-snapshot:printed_flavor_or_name",
+   "claims": [],
+   "why": "Mana, fixing, interaction or planeswalker support for a WUBR commander; no story claim.",
+   "printing": {
+    "set": "rav",
+    "collector_number": "280",
+    "id": "168ef687-5797-4b45-b75b-393d8117cebd",
+    "oracle_id": "45181cb8-2090-4471-ba90-e5a8f04d525f",
+    "illustration_id": "4d28c2bb-b15f-4939-b122-c8a853b1fcb5",
+    "artist": "Rob Alexander",
+    "released_at": "2005-10-07",
+    "printed_flavor": "",
+    "commander_legality": "legal",
+    "color_identity": [
+     "R",
+     "W"
+    ],
+    "type_line": "Land — Mountain Plains",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Godless Shrine",
+   "beat": "playability",
+   "tier": "MECHANICAL_SYMBOL",
+   "source_id": "scryfall_card_text",
+   "source": "scryfall-snapshot:printed_flavor_or_name",
+   "claims": [],
+   "why": "Mana, fixing, interaction or planeswalker support for a WUBR commander; no story claim.",
+   "printing": {
+    "set": "gpt",
+    "collector_number": "157",
+    "id": "be010c2f-06db-47e3-80bd-df3f2a21ca34",
+    "oracle_id": "73864fcc-1bde-4bc0-831e-2b93e546e417",
+    "illustration_id": "5d5e3d13-cda1-4f19-93c5-6b3af00f959e",
+    "artist": "Rob Alexander",
+    "released_at": "2006-02-03",
+    "printed_flavor": "",
+    "commander_legality": "legal",
+    "color_identity": [
+     "B",
+     "W"
+    ],
+    "type_line": "Land — Plains Swamp",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Steam Vents",
+   "beat": "playability",
+   "tier": "MECHANICAL_SYMBOL",
+   "source_id": "scryfall_card_text",
+   "source": "scryfall-snapshot:printed_flavor_or_name",
+   "claims": [],
+   "why": "Mana, fixing, interaction or planeswalker support for a WUBR commander; no story claim.",
+   "printing": {
+    "set": "gpt",
+    "collector_number": "164",
+    "id": "054f2276-2dd5-43da-bb26-c57c560861fe",
+    "oracle_id": "17039058-822d-409f-938c-b727a366ba63",
+    "illustration_id": "f80a89e8-f8fc-4540-a6a8-77bc17414432",
+    "artist": "Rob Alexander",
+    "released_at": "2006-02-03",
+    "printed_flavor": "",
+    "commander_legality": "legal",
+    "color_identity": [
+     "R",
+     "U"
+    ],
+    "type_line": "Land — Island Mountain",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Sol Ring",
+   "beat": "playability",
+   "tier": "MECHANICAL_SYMBOL",
+   "source_id": "scryfall_card_text",
+   "source": "scryfall-snapshot:printed_flavor_or_name",
+   "claims": [],
+   "why": "Mana, fixing, interaction or planeswalker support for a WUBR commander; no story claim.",
+   "printing": {
+    "set": "lea",
+    "collector_number": "269",
+    "id": "c4300d24-1cae-4dd5-be7e-38cc677cf5bd",
+    "oracle_id": "6ad8011d-3471-4369-9d68-b264cc027487",
+    "illustration_id": "54462260-8d64-4ec2-bac7-f2d469f187f3",
+    "artist": "Mark Tedin",
+    "released_at": "1993-08-05",
+    "printed_flavor": "",
+    "commander_legality": "legal",
+    "color_identity": [],
+    "type_line": "Artifact",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Arcane Signet",
+   "beat": "playability",
+   "tier": "MECHANICAL_SYMBOL",
+   "source_id": "scryfall_card_text",
+   "source": "scryfall-snapshot:printed_flavor_or_name",
+   "claims": [],
+   "why": "Mana, fixing, interaction or planeswalker support for a WUBR commander; no story claim.",
+   "printing": {
+    "set": "eld",
+    "collector_number": "331",
+    "id": "84128e98-87d6-4c2f-909b-9435a7833e63",
+    "oracle_id": "0bc7f093-bef0-4f1a-852c-4b75ebf54838",
+    "illustration_id": "06d7b990-021a-4b1f-9333-4fc82adf0ea4",
+    "artist": "Dan Murayama Scott",
+    "released_at": "2019-10-04",
+    "printed_flavor": "It started as a mere drop of water. The Magic Mirror crystallized it into much more.",
+    "commander_legality": "legal",
+    "color_identity": [],
+    "type_line": "Artifact",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Fellwar Stone",
+   "beat": "playability",
+   "tier": "MECHANICAL_SYMBOL",
+   "source_id": "scryfall_card_text",
+   "source": "scryfall-snapshot:printed_flavor_or_name",
+   "claims": [],
+   "why": "Mana, fixing, interaction or planeswalker support for a WUBR commander; no story claim.",
+   "printing": {
+    "set": "drk",
+    "collector_number": "102",
+    "id": "dc47e322-f8b8-4685-b035-fda0cc433e6b",
+    "oracle_id": "95560508-7ac9-4be9-8a3f-3c7d5b52807b",
+    "illustration_id": "2653a045-2f65-47ce-b526-1d650aedbe21",
+    "artist": "Quinton Hoover",
+    "released_at": "1994-08-01",
+    "printed_flavor": "\"What do you have that I cannot obtain?\" —Mairsil, called the Pretender",
+    "commander_legality": "legal",
+    "color_identity": [],
+    "type_line": "Artifact",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Mind Stone",
+   "beat": "playability",
+   "tier": "MECHANICAL_SYMBOL",
+   "source_id": "scryfall_card_text",
+   "source": "scryfall-snapshot:printed_flavor_or_name",
+   "claims": [],
+   "why": "Mana, fixing, interaction or planeswalker support for a WUBR commander; no story claim.",
+   "printing": {
+    "set": "wth",
+    "collector_number": "153",
+    "id": "162e81d3-6cd4-4cb8-8ed8-cfbd8d34ca71",
+    "oracle_id": "c97361b5-af16-4a7b-af85-a429dbaf4ad2",
+    "illustration_id": "12a6cfae-ed70-4406-97d3-9366fc138254",
+    "artist": "Adam Rex",
+    "released_at": "1997-06-09",
+    "printed_flavor": "",
+    "commander_legality": "legal",
+    "color_identity": [],
+    "type_line": "Artifact",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Talisman of Dominance",
+   "beat": "playability",
+   "tier": "MECHANICAL_SYMBOL",
+   "source_id": "scryfall_card_text",
+   "source": "scryfall-snapshot:printed_flavor_or_name",
+   "claims": [],
+   "why": "Mana, fixing, interaction or planeswalker support for a WUBR commander; no story claim.",
+   "printing": {
+    "set": "mrd",
+    "collector_number": "253",
+    "id": "991037a2-fea2-49f5-8ace-ebbf9f678cff",
+    "oracle_id": "4c0a0448-b9d6-43a0-8549-64066dac63f0",
+    "illustration_id": "b98f8e9b-d282-46ea-a3c7-025ffd69b05f",
+    "artist": "Mike Dringenberg",
+    "released_at": "2003-10-02",
+    "printed_flavor": "",
+    "commander_legality": "legal",
+    "color_identity": [
+     "B",
+     "U"
+    ],
+    "type_line": "Artifact",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Talisman of Progress",
+   "beat": "playability",
+   "tier": "MECHANICAL_SYMBOL",
+   "source_id": "scryfall_card_text",
+   "source": "scryfall-snapshot:printed_flavor_or_name",
+   "claims": [],
+   "why": "Mana, fixing, interaction or planeswalker support for a WUBR commander; no story claim.",
+   "printing": {
+    "set": "mrd",
+    "collector_number": "256",
+    "id": "41ff849e-2439-4690-8aa4-769039b6da4c",
+    "oracle_id": "00e35322-1a9a-41e3-9ce1-359c8eaa3bc7",
+    "illustration_id": "29d35461-a426-40db-9d4d-013f6304bfe8",
+    "artist": "Mike Dringenberg",
+    "released_at": "2003-10-02",
+    "printed_flavor": "",
+    "commander_legality": "legal",
+    "color_identity": [
+     "U",
+     "W"
+    ],
+    "type_line": "Artifact",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Talisman of Indulgence",
+   "beat": "playability",
+   "tier": "MECHANICAL_SYMBOL",
+   "source_id": "scryfall_card_text",
+   "source": "scryfall-snapshot:printed_flavor_or_name",
+   "claims": [],
+   "why": "Mana, fixing, interaction or planeswalker support for a WUBR commander; no story claim.",
+   "printing": {
+    "set": "mrd",
+    "collector_number": "255",
+    "id": "e14011b3-56ce-4b93-833f-d8403809159c",
+    "oracle_id": "1d9aeaaa-66f6-41cb-9bac-162d6fd8662c",
+    "illustration_id": "225e6283-1616-4481-a234-eb9bef4cba11",
+    "artist": "Mike Dringenberg",
+    "released_at": "2003-10-02",
+    "printed_flavor": "",
+    "commander_legality": "legal",
+    "color_identity": [
+     "B",
+     "R"
+    ],
+    "type_line": "Artifact",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Talisman of Conviction",
+   "beat": "playability",
+   "tier": "MECHANICAL_SYMBOL",
+   "source_id": "scryfall_card_text",
+   "source": "scryfall-snapshot:printed_flavor_or_name",
+   "claims": [],
+   "why": "Mana, fixing, interaction or planeswalker support for a WUBR commander; no story claim.",
+   "printing": {
+    "set": "onc",
+    "collector_number": "143",
+    "id": "1dbce82d-1bc0-43c4-b4f7-7d1166d664e0",
+    "oracle_id": "6c326439-5620-4ec6-a56a-fe9c3d5d2a46",
+    "illustration_id": "d8d0773a-7887-44f4-81f5-e71a9db75aa5",
+    "artist": "Lindsey Look",
+    "released_at": "2023-02-10",
+    "printed_flavor": "\"The sun banishes darkness every morning. I too will rise with such assuredness.\"\n—Huatli",
+    "commander_legality": "legal",
+    "color_identity": [
+     "R",
+     "W"
+    ],
+    "type_line": "Artifact",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Swords to Plowshares",
+   "beat": "playability",
+   "tier": "MECHANICAL_SYMBOL",
+   "source_id": "scryfall_card_text",
+   "source": "scryfall-snapshot:printed_flavor_or_name",
+   "claims": [],
+   "why": "Mana, fixing, interaction or planeswalker support for a WUBR commander; no story claim.",
+   "printing": {
+    "set": "lea",
+    "collector_number": "40",
+    "id": "386ea9eb-abc1-4862-aa2d-8fb808d79490",
+    "oracle_id": "b1544f21-7e98-461b-aed5-e748b0168c52",
+    "illustration_id": "2aa59be5-ca4a-4e36-928c-8b72362c9ae5",
+    "artist": "Jeff A. Menges",
+    "released_at": "1993-08-05",
+    "printed_flavor": "",
+    "commander_legality": "legal",
+    "color_identity": [
+     "W"
+    ],
+    "type_line": "Instant",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Path to Exile",
+   "beat": "playability",
+   "tier": "MECHANICAL_SYMBOL",
+   "source_id": "scryfall_card_text",
+   "source": "scryfall-snapshot:printed_flavor_or_name",
+   "claims": [],
+   "why": "Mana, fixing, interaction or planeswalker support for a WUBR commander; no story claim.",
+   "printing": {
+    "set": "con",
+    "collector_number": "15",
+    "id": "29b7a8b1-b98e-483a-87a4-73bd831c03d4",
+    "oracle_id": "d683d985-9888-4d21-8b5f-69e69ce4a03b",
+    "illustration_id": "521e5f89-b059-432f-b515-c207cccf3796",
+    "artist": "Todd Lockwood",
+    "released_at": "2009-02-06",
+    "printed_flavor": "",
+    "commander_legality": "legal",
+    "color_identity": [
+     "W"
+    ],
+    "type_line": "Instant",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Chaos Warp",
+   "beat": "playability",
+   "tier": "MECHANICAL_SYMBOL",
+   "source_id": "scryfall_card_text",
+   "source": "scryfall-snapshot:printed_flavor_or_name",
+   "claims": [],
+   "why": "Mana, fixing, interaction or planeswalker support for a WUBR commander; no story claim.",
+   "printing": {
+    "set": "cmd",
+    "collector_number": "114",
+    "id": "042431bc-0b21-4920-802f-6dd02e4c8721",
+    "oracle_id": "07a0cba9-8768-4fd9-a3d5-b0f83b4bf8e8",
+    "illustration_id": "c3d94e2b-828b-4bee-b11c-4cd446c1be01",
+    "artist": "Trevor Claxton",
+    "released_at": "2011-06-17",
+    "printed_flavor": "",
+    "commander_legality": "legal",
+    "color_identity": [
+     "R"
+    ],
+    "type_line": "Instant",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Anguished Unmaking",
+   "beat": "playability",
+   "tier": "MECHANICAL_SYMBOL",
+   "source_id": "scryfall_card_text",
+   "source": "scryfall-snapshot:printed_flavor_or_name",
+   "claims": [],
+   "why": "Mana, fixing, interaction or planeswalker support for a WUBR commander; no story claim.",
+   "printing": {
+    "set": "soi",
+    "collector_number": "242",
+    "id": "90ced4fa-6509-4f7a-9da7-efc70de6f90c",
+    "oracle_id": "ad09b3c3-c8e7-481c-8c45-e7f234935117",
+    "illustration_id": "cab25939-b551-4c27-aad5-0cb7a5997038",
+    "artist": "Wesley Burt",
+    "released_at": "2016-04-08",
+    "printed_flavor": "Sorin had created Avacyn, so it was a cruelty beyond imagining, a pain beyond description, that it fell upon him to end her forever.",
+    "commander_legality": "legal",
+    "color_identity": [
+     "B",
+     "W"
+    ],
+    "type_line": "Instant",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Despark",
+   "beat": "playability",
+   "tier": "MECHANICAL_SYMBOL",
+   "source_id": "scryfall_card_text",
+   "source": "scryfall-snapshot:printed_flavor_or_name",
+   "claims": [],
+   "why": "Mana, fixing, interaction or planeswalker support for a WUBR commander; no story claim.",
+   "printing": {
+    "set": "war",
+    "collector_number": "190",
+    "id": "32b17dfc-b916-4134-ba77-501cff435e7e",
+    "oracle_id": "bd16434d-55ea-4c5a-a9ef-752971a4af16",
+    "illustration_id": "2855eed8-2e02-4b00-92bc-52613666ef1b",
+    "artist": "Slawomir Maniak",
+    "released_at": "2019-05-03",
+    "printed_flavor": "Liliana whispered to whatever consciousness Oketra and Bontu had left. \"You are the gods. He is the usurper. You know what to do.\"",
+    "commander_legality": "legal",
+    "color_identity": [
+     "B",
+     "W"
+    ],
+    "type_line": "Instant",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Vindicate",
+   "beat": "playability",
+   "tier": "MECHANICAL_SYMBOL",
+   "source_id": "scryfall_card_text",
+   "source": "scryfall-snapshot:printed_flavor_or_name",
+   "claims": [],
+   "why": "Mana, fixing, interaction or planeswalker support for a WUBR commander; no story claim.",
+   "printing": {
+    "set": "apc",
+    "collector_number": "126",
+    "id": "2a1bfefd-dae8-49e9-9d56-cc852e3dc93b",
+    "oracle_id": "63c1ac21-e3d8-40c2-8c09-3f31c52992ef",
+    "illustration_id": "23f2852f-f10e-45ae-baa2-262c1a511e64",
+    "artist": "Brian Snõddy",
+    "released_at": "2001-06-04",
+    "printed_flavor": "\"Don't mourn for me. This is my destiny.\"\n—Gerrard",
+    "commander_legality": "legal",
+    "color_identity": [
+     "B",
+     "W"
+    ],
+    "type_line": "Sorcery",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Hero's Downfall",
+   "beat": "playability",
+   "tier": "MECHANICAL_SYMBOL",
+   "source_id": "scryfall_card_text",
+   "source": "scryfall-snapshot:printed_flavor_or_name",
+   "claims": [],
+   "why": "Mana, fixing, interaction or planeswalker support for a WUBR commander; no story claim.",
+   "printing": {
+    "set": "ths",
+    "collector_number": "90",
+    "id": "596822f6-dbd4-4cc8-aa50-9331ff42544e",
+    "oracle_id": "03df6a57-37c9-46d3-83b3-4a6240100714",
+    "illustration_id": "794d79d0-8766-4e5b-b6f6-f1ba607d7a39",
+    "artist": "Ryan Pancoast",
+    "released_at": "2013-09-27",
+    "printed_flavor": "Destiny exalts a chosen few, but even heroes break.",
+    "commander_legality": "legal",
+    "color_identity": [
+     "B"
+    ],
+    "type_line": "Instant",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Counterspell",
+   "beat": "playability",
+   "tier": "MECHANICAL_SYMBOL",
+   "source_id": "scryfall_card_text",
+   "source": "scryfall-snapshot:printed_flavor_or_name",
+   "claims": [],
+   "why": "Mana, fixing, interaction or planeswalker support for a WUBR commander; no story claim.",
+   "printing": {
+    "set": "lea",
+    "collector_number": "54",
+    "id": "0df55e3f-14de-46ef-b6b1-616618724d9e",
+    "oracle_id": "cc187110-1148-4090-bbb8-e205694a39f5",
+    "illustration_id": "911ff9e4-cc26-4d32-a3ab-887d55af04c6",
+    "artist": "Mark Poole",
+    "released_at": "1993-08-05",
+    "printed_flavor": "",
+    "commander_legality": "legal",
+    "color_identity": [
+     "U"
+    ],
+    "type_line": "Instant",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Arcane Denial",
+   "beat": "playability",
+   "tier": "MECHANICAL_SYMBOL",
+   "source_id": "scryfall_card_text",
+   "source": "scryfall-snapshot:printed_flavor_or_name",
+   "claims": [],
+   "why": "Mana, fixing, interaction or planeswalker support for a WUBR commander; no story claim.",
+   "printing": {
+    "set": "all",
+    "collector_number": "22a",
+    "id": "b0c5728e-43e7-417a-ba18-5038345cec67",
+    "oracle_id": "ab1cc360-b9de-48d9-9983-4dfe4a7d2a37",
+    "illustration_id": "0f081704-f595-4e3d-aafd-2f54dd630795",
+    "artist": "Richard Kane Ferguson",
+    "released_at": "1996-06-10",
+    "printed_flavor": "",
+    "commander_legality": "legal",
+    "color_identity": [
+     "U"
+    ],
+    "type_line": "Instant",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Supreme Verdict",
+   "beat": "playability",
+   "tier": "MECHANICAL_SYMBOL",
+   "source_id": "scryfall_card_text",
+   "source": "scryfall-snapshot:printed_flavor_or_name",
+   "claims": [],
+   "why": "Mana, fixing, interaction or planeswalker support for a WUBR commander; no story claim.",
+   "printing": {
+    "set": "rtr",
+    "collector_number": "201",
+    "id": "4e9648f9-7a67-4717-bca1-861d1f7fed43",
+    "oracle_id": "0230de18-8d15-4cfa-9d42-7ccddd9f9570",
+    "illustration_id": "aebd8eba-21c7-481f-aad7-38a2101952eb",
+    "artist": "Sam Burley",
+    "released_at": "2012-10-05",
+    "printed_flavor": "Leonos had no second thoughts about the abolishment edict. He'd left skyrunes warning of the eviction, even though it was cloudy.",
+    "commander_legality": "legal",
+    "color_identity": [
+     "U",
+     "W"
+    ],
+    "type_line": "Sorcery",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Damnation",
+   "beat": "playability",
+   "tier": "MECHANICAL_SYMBOL",
+   "source_id": "scryfall_card_text",
+   "source": "scryfall-snapshot:printed_flavor_or_name",
+   "claims": [],
+   "why": "Mana, fixing, interaction or planeswalker support for a WUBR commander; no story claim.",
+   "printing": {
+    "set": "plc",
+    "collector_number": "85",
+    "id": "26c68473-70ca-40ba-b5c6-71ec30f88a2c",
+    "oracle_id": "d57a8f0b-7989-4db5-8756-6f2690097252",
+    "illustration_id": "fd1da4f8-fd8e-460d-926b-78d03208ba48",
+    "artist": "Kev Walker",
+    "released_at": "2007-02-02",
+    "printed_flavor": "",
+    "commander_legality": "legal",
+    "color_identity": [
+     "B"
+    ],
+    "type_line": "Sorcery",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Fact or Fiction",
+   "beat": "playability",
+   "tier": "MECHANICAL_SYMBOL",
+   "source_id": "scryfall_card_text",
+   "source": "scryfall-snapshot:printed_flavor_or_name",
+   "claims": [],
+   "why": "Mana, fixing, interaction or planeswalker support for a WUBR commander; no story claim.",
+   "printing": {
+    "set": "inv",
+    "collector_number": "57",
+    "id": "7fd4d018-dcf3-4439-8445-02d66e44f7d3",
+    "oracle_id": "437b2dab-15e0-4b9a-a204-58622d37a3b3",
+    "illustration_id": "d86a56a5-ceca-4bf8-b446-3b8f3eba1439",
+    "artist": "Terese Nielsen",
+    "released_at": "2000-10-02",
+    "printed_flavor": "",
+    "commander_legality": "legal",
+    "color_identity": [
+     "U"
+    ],
+    "type_line": "Instant",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Brainstorm",
+   "beat": "playability",
+   "tier": "MECHANICAL_SYMBOL",
+   "source_id": "scryfall_card_text",
+   "source": "scryfall-snapshot:printed_flavor_or_name",
+   "claims": [],
+   "why": "Mana, fixing, interaction or planeswalker support for a WUBR commander; no story claim.",
+   "printing": {
+    "set": "ice",
+    "collector_number": "61",
+    "id": "8d42d7aa-7f53-4cfc-842a-086aab2448d1",
+    "oracle_id": "36cd2364-d113-47d1-b2c4-b088d9eb88dd",
+    "illustration_id": "d5304786-b113-49b6-ac15-4558931be7d3",
+    "artist": "Christopher Rush",
+    "released_at": "1995-06-03",
+    "printed_flavor": "\"I reeled from the blow, and then suddenly, I knew exactly what to do. Within moments, victory was mine.\"\n—Gustha Ebbasdotter,\nKjeldoran Royal Mage",
+    "commander_legality": "legal",
+    "color_identity": [
+     "U"
+    ],
+    "type_line": "Instant",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Ponder",
+   "beat": "playability",
+   "tier": "MECHANICAL_SYMBOL",
+   "source_id": "scryfall_card_text",
+   "source": "scryfall-snapshot:printed_flavor_or_name",
+   "claims": [],
+   "why": "Mana, fixing, interaction or planeswalker support for a WUBR commander; no story claim.",
+   "printing": {
+    "set": "lrw",
+    "collector_number": "79",
+    "id": "ba6b6fc5-5077-4812-b8e9-906783dbaf67",
+    "oracle_id": "02090581-61aa-4348-ad57-451be8ee91c2",
+    "illustration_id": "eff290d9-e99e-4ddc-b23a-92aed0a64a6b",
+    "artist": "Mark Tedin",
+    "released_at": "2007-10-12",
+    "printed_flavor": "\"We see the same sky as you, just through a different lens.\"",
+    "commander_legality": "legal",
+    "color_identity": [
+     "U"
+    ],
+    "type_line": "Sorcery",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Oath of Teferi",
+   "beat": "playability",
+   "tier": "MECHANICAL_SYMBOL",
+   "source_id": "scryfall_card_text",
+   "source": "scryfall-snapshot:printed_flavor_or_name",
+   "claims": [],
+   "why": "Mana, fixing, interaction or planeswalker support for a WUBR commander; no story claim.",
+   "printing": {
+    "set": "dom",
+    "collector_number": "200",
+    "id": "5a7fadca-0a94-4624-ab95-2c2410829824",
+    "oracle_id": "ee00a42d-6ee4-4e46-92d6-62e8e5910880",
+    "illustration_id": "538c3134-648f-4d8d-87b1-f2cc3cf32016",
+    "artist": "Wesley Burt",
+    "released_at": "2018-04-27",
+    "printed_flavor": "\"For the lost and forgotten, I will keep watch.\"",
+    "commander_legality": "legal",
+    "color_identity": [
+     "U",
+     "W"
+    ],
+    "type_line": "Legendary Enchantment",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Deepglow Skate",
+   "beat": "playability",
+   "tier": "MECHANICAL_SYMBOL",
+   "source_id": "scryfall_card_text",
+   "source": "scryfall-snapshot:printed_flavor_or_name",
+   "claims": [],
+   "why": "Mana, fixing, interaction or planeswalker support for a WUBR commander; no story claim.",
+   "printing": {
+    "set": "c16",
+    "collector_number": "7",
+    "id": "0f7c787f-2134-4cfd-901f-d5e45e62de1e",
+    "oracle_id": "debce64a-18bd-42f5-9e85-158c2242e9e9",
+    "illustration_id": "a38200f3-dd3e-4aa6-954f-991e7a3c9715",
+    "artist": "Jason Kang",
+    "released_at": "2016-11-11",
+    "printed_flavor": "Its graceful glide paints the ocean floor with strokes of luminescence.",
+    "commander_legality": "legal",
+    "color_identity": [
+     "U"
+    ],
+    "type_line": "Creature — Fish",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "Flux Channeler",
+   "beat": "playability",
+   "tier": "MECHANICAL_SYMBOL",
+   "source_id": "scryfall_card_text",
+   "source": "scryfall-snapshot:printed_flavor_or_name",
+   "claims": [],
+   "why": "Mana, fixing, interaction or planeswalker support for a WUBR commander; no story claim.",
+   "printing": {
+    "set": "war",
+    "collector_number": "52",
+    "id": "c6202e82-e159-482f-9224-292cb533171c",
+    "oracle_id": "83874e60-291b-47a7-ba9f-69437fa7e3c7",
+    "illustration_id": "df103fac-6d87-4a15-9f70-d9d5d035fb2b",
+    "artist": "Heonhwa",
+    "released_at": "2019-05-03",
+    "printed_flavor": "\"Inform our allies in the Tenth and throw the circuit. It's about to get weird.\"",
+    "commander_legality": "legal",
+    "color_identity": [
+     "U"
+    ],
+    "type_line": "Creature — Human Wizard",
+    "game_changer": false
+   }
+  },
+  {
+   "name": "The Chain Veil",
+   "beat": "playability",
+   "tier": "MECHANICAL_SYMBOL",
+   "source_id": "scryfall_card_text",
+   "source": "scryfall-snapshot:printed_flavor_or_name",
+   "claims": [],
+   "why": "Mana, fixing, interaction or planeswalker support for a WUBR commander; no story claim.",
+   "printing": {
+    "set": "m15",
+    "collector_number": "215",
+    "id": "0415cc0e-979e-42cc-a56d-88d13153a7de",
+    "oracle_id": "fb88fb3d-6a85-4bb1-b316-7f759b45a0fa",
+    "illustration_id": "9a13a0e8-5afa-4e0c-b2df-700c0a40aec4",
+    "artist": "Volkan Baǵa",
+    "released_at": "2014-07-18",
+    "printed_flavor": "",
+    "commander_legality": "legal",
+    "color_identity": [],
+    "type_line": "Legendary Artifact",
+    "game_changer": false
+   }
+  }
+ ]
+}

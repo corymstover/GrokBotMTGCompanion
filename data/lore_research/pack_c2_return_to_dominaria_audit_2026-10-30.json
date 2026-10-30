@@ -1,0 +1,320 @@
+{
+ "schema": "pack-c2-rtd-audit/v1",
+ "pack": "data/lore_research/pack_c2_return_to_dominaria_2026-10-30.json",
+ "pack_status": "PRELIMINARY_RESEARCH (not owner approved, not certified)",
+ "claims": 39,
+ "entities": 46,
+ "sources": 12,
+ "grades": {
+  "CANON_CONFIRMED": 32,
+  "CANON_DISPUTED": 3,
+  "CANON_IMPLIED": 4
+ },
+ "quotes": 50,
+ "quotes_verbatim": 50,
+ "quote_rows": [
+  {
+   "claim": "RTD001",
+   "source_id": "rtd_ep1",
+   "quote_sha256": "f009ecedbc788b305b0842a34d17c69b547662270f617228429a410773b46b84",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "RTD001",
+   "source_id": "rtd_ep3",
+   "quote_sha256": "84f3cb03bd93da00a82c484e2bad28e96c1fb8af32d680261518518794dafa5b",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "RTD002",
+   "source_id": "rtd_ep1",
+   "quote_sha256": "d3195317ab8962a18140e1cfba87285895ccbae57abf0f0bb7ae157148c9a763",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "RTD003",
+   "source_id": "rtd_ep1",
+   "quote_sha256": "292f5316e140b55790c2481624d6e0d710a9da26df12b2aa1b0c966c58d7ce62",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "RTD003",
+   "source_id": "rtd_ep1",
+   "quote_sha256": "02ef1d2c9c6fb10f53d21181a1fe0e7d5cbe571360fb7a24851d99a2aba43525",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "RTD004",
+   "source_id": "rtd_ep1",
+   "quote_sha256": "cb53f50d9313360ccab05d33d8710341967e74805c1410d17e3f199c04a7cf92",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "RTD005",
+   "source_id": "rtd_ep1",
+   "quote_sha256": "3df917c70ffe13baced2d088ac23c7f5bd5ea68e021a98f813ed3134b653f730",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "RTD006",
+   "source_id": "rtd_ep1",
+   "quote_sha256": "eb177942ec2f97f2f5af16da51ed9f17dcbe3aac07f671b1efd9dcd340e023e9",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "RTD006",
+   "source_id": "rtd_ep1",
+   "quote_sha256": "995927c7accce7b09f23cf13d269102ffe887e4347bc337db7a78f588fa90462",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "RTD006",
+   "source_id": "rtd_ep5",
+   "quote_sha256": "16b589beebb2a7d60ad99731e3a1ebe344836d2825873c9d7bdf1eaa56cac4d1",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "RTD007",
+   "source_id": "rtd_ep1",
+   "quote_sha256": "b77d7e5b3cd33ea1713818f5d1532d19635a00c8ae3d9b9f5b46e05f96886b8d",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "RTD008",
+   "source_id": "rtd_ep1",
+   "quote_sha256": "81d42759ee505d37c6badaa0c6c096e156d5721f47ed81a0c3076c89f9771e1a",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "RTD009",
+   "source_id": "rtd_ep2",
+   "quote_sha256": "ab1c67201f45ea29e68c94341d19f78b565d04dda6dc681e70bea291b2c06b82",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "RTD010",
+   "source_id": "rtd_ep2",
+   "quote_sha256": "4d153af93cb0344d03cce6b0bfd63e39de0796fa2bf0b774754d082aed5bbcc5",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "RTD011",
+   "source_id": "rtd_ep2",
+   "quote_sha256": "b9c94e9af1d9e029fb486cfb9cd239eef57f84972e3cce9ebe8efc57d67b0cd7",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "RTD011",
+   "source_id": "rtd_ep2",
+   "quote_sha256": "b7e799a120d770b232d3d846de02048f58bc526e19178a960e320b5fb7df1c4e",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "RTD012",
+   "source_id": "rtd_ep3",
+   "quote_sha256": "ec9a5d3f0950230e2caaeec6001ac95e4bcbf8af2af528ac273dbb169bc29914",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "RTD013",
+   "source_id": "rtd_ep3",
+   "quote_sha256": "7d5d033bbc2f5fd160dfb43070f561986d55091972bf3b759a407670dda06482",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "RTD014",
+   "source_id": "rtd_ep3",
+   "quote_sha256": "e4ac4e509684892673077e77218b804fdc2f83111b8d78e5732c2092d3834698",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "RTD015",
+   "source_id": "rtd_ep3",
+   "quote_sha256": "958a5e7e4934ed876ecb2ae47209a35c27439961947eef9acfe0413e7e3f1626",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "RTD016",
+   "source_id": "rtd_ep4",
+   "quote_sha256": "b2c7425ed0d71eec0e329de910d9c5a77f630f2059e90cf21e27e892577b2cab",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "RTD017",
+   "source_id": "rtd_ep4",
+   "quote_sha256": "ed3eb2d08fd24c013d9d3c25bdba78b7b7dad24a4ec7b30fd936021160cb0670",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "RTD018",
+   "source_id": "rtd_ep10",
+   "quote_sha256": "21ac216b1207d98489a310660f4dce28995220d915b61bc3301190e1d501b870",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "RTD019",
+   "source_id": "rtd_ep10",
+   "quote_sha256": "711409c06bc4930eb7a62a3d0d6d021d94b54db8105b4116fea2a89c21cd0322",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "RTD020",
+   "source_id": "rtd_ep5",
+   "quote_sha256": "a6457cf269daf7e4a1cbc9a042f5c5f1ec04640252a859fb790b9091b38ffd24",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "RTD021",
+   "source_id": "rtd_ep5",
+   "quote_sha256": "1734136612a8c8cd06ad680740ae2a9b3cb72632024c778f8ffeee82f49e0043",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "RTD021",
+   "source_id": "rtd_ep9",
+   "quote_sha256": "3cbc1032584d43a9fa75439758dae314bbe16ef6c99d48380de39d3cc2e587ad",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "RTD022",
+   "source_id": "rtd_ep5",
+   "quote_sha256": "a07bcccd2e59470e9debe3e53541b7eaf8c7df8358eeb33f9b6a7416f3fc95a9",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "RTD022",
+   "source_id": "rtd_ep5",
+   "quote_sha256": "8f96a53b46c5b7fd70e902f98f0fe973918300d588eff19b45d958a6e00c3afc",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "RTD023",
+   "source_id": "rtd_ep5",
+   "quote_sha256": "b82d406e346604e40b58372115d7ed5a220e8ddf2ec21f628b7fed0745c1e6a5",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "RTD024",
+   "source_id": "rtd_ep6",
+   "quote_sha256": "ac2934c0e1c630df9f6e03e751888db342f0a49fafdc3f96c4238db2e5b6a41b",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "RTD025",
+   "source_id": "rtd_ep7",
+   "quote_sha256": "84a04d3a79df7de9869e6b16242f407323498245d97e5a645b4d3f766e7e7801",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "RTD025",
+   "source_id": "rtd_ep6",
+   "quote_sha256": "7eb70765b70cb06f605cdd32e6e5135950332166b18e735e7b7ae6f89bd459d4",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "RTD026",
+   "source_id": "rtd_ep6",
+   "quote_sha256": "1d98a2cee6d733acca35d0f8381411a4b2eef61daf558feda39c14a27f80254e",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "RTD027",
+   "source_id": "rtd_ep6",
+   "quote_sha256": "e6639f8eb11b8da2720552eece8c7ecb9cbe608b0a950bd0f02b6f9f63d8a126",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "RTD028",
+   "source_id": "rtd_ep11",
+   "quote_sha256": "3e6dcbdace4a63b8b5aba213286c2ee38f9d91f1128f12434556d5ed66c285f7",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "RTD029",
+   "source_id": "rtd_ep9",
+   "quote_sha256": "eea7da9d6118d4432c7a0a955aa199060c68d5b77821d391d613459e3f6a78a2",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "RTD029",
+   "source_id": "rtd_ep9",
+   "quote_sha256": "3fe3d80901586782c5d1042e8dba4dc13e679d369b5118658152f82893034e82",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "RTD030",
+   "source_id": "rtd_ep8",
+   "quote_sha256": "3993e290d9bef2ae1d290b0e7e71ca64ae255dba2756c7b85eb62f07f3dae84b",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "RTD031",
+   "source_id": "rtd_ep9",
+   "quote_sha256": "accb8139e4a5e93e4a0a1f5becf3e1789485d8ec57a718533f5dc514aaf96e77",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "RTD031",
+   "source_id": "rtd_ep9",
+   "quote_sha256": "e5e5b3eaeccf61d15c9612845665c15402c383152a63995f88d199e4a308bc5e",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "RTD032",
+   "source_id": "rtd_ep9",
+   "quote_sha256": "d5e33f708d0f0d61630939ffb60aeafbc715791bd994769c84758393fdc655a1",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "RTD033",
+   "source_id": "rtd_ep9",
+   "quote_sha256": "8c7b8453b7e94c1ebe26cc319dec57b3bd8ff46b47f9d33fbdf6fdf2779291ec",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "RTD034",
+   "source_id": "rtd_ep9",
+   "quote_sha256": "68a53c23d96db7e6a962cc479cf9c5e038d0a142eda9a4cfbca5415567c61a2e",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "RTD035",
+   "source_id": "rtd_ep11",
+   "quote_sha256": "ec25871efd655d27f8ce65f75d6159275f8974bb617068a08d20c3f3a593d471",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "RTD036",
+   "source_id": "rtd_ep12",
+   "quote_sha256": "2c009adb74a985b36ae0cda17b05b6ef548c2ce578578750c2bfd5cc3450f5d2",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "RTD036",
+   "source_id": "rtd_ep12",
+   "quote_sha256": "a0d435efbbfbe6d673b9af6da88a0d4011d772aa12ff72665c9f016a7d1dd2e1",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "RTD037",
+   "source_id": "rtd_ep12",
+   "quote_sha256": "0cedad268190c741765a959dfec22db76c56691924555374feccdd779e3ff424",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "RTD038",
+   "source_id": "rtd_ep12",
+   "quote_sha256": "4734a561f18107f632745be7a62d98783081fdd427f331d936a05a8675359e32",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "RTD039",
+   "source_id": "rtd_ep12",
+   "quote_sha256": "510de4110a2802937645b9a5fbc288d7a8aa7e03793ee15fae9981723746ccff",
+   "status": "VERBATIM"
+  }
+ ],
+ "problems": [],
+ "note": "Verbatim-quote audit against the cached official episode text. This is research evidence, not owner approval or certification.",
+ "content_sha256": "46c8c354362451c2ef64e2119d11855c8f10ed8c64ed5ff5c13178e9ac09c443"
+}

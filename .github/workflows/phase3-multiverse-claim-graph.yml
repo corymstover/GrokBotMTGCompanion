@@ -10,6 +10,15 @@ on:
       - 'scripts/build_multiverse_graph.py'
       - 'scripts/query_multiverse_graph.py'
       - 'tests/test_multiverse_graph.py'
+      - 'scripts/build_card_name_anchors.py'
+      - 'tests/test_card_name_anchors.py'
+      - 'scripts/audit_lore_pack_rtd.py'
+      - 'tests/test_lore_pack_rtd.py'
+      - 'scripts/audit_lore_pack_a5.py'
+      - 'tests/test_lore_pack_a5.py'
+      - 'data/story_atlas/**'
+      - 'scripts/build_story_art_captions.py'
+      - 'tests/test_story_art_captions.py'
       - '.github/workflows/phase3-multiverse-claim-graph.yml'
   push:
     paths:
@@ -18,6 +27,15 @@ on:
       - 'scripts/build_multiverse_graph.py'
       - 'scripts/query_multiverse_graph.py'
       - 'tests/test_multiverse_graph.py'
+      - 'scripts/build_card_name_anchors.py'
+      - 'tests/test_card_name_anchors.py'
+      - 'scripts/audit_lore_pack_rtd.py'
+      - 'tests/test_lore_pack_rtd.py'
+      - 'scripts/audit_lore_pack_a5.py'
+      - 'tests/test_lore_pack_a5.py'
+      - 'data/story_atlas/**'
+      - 'scripts/build_story_art_captions.py'
+      - 'tests/test_story_art_captions.py'
       - '.github/workflows/phase3-multiverse-claim-graph.yml'
   workflow_dispatch:
 
@@ -38,3 +56,19 @@ jobs:
           python3 scripts/query_multiverse_graph.py card "Crux of Fate" > /dev/null
       - name: Graph regression and mutation tests
         run: python3 -m unittest discover -s tests -p 'test_multiverse_graph.py' -v
+      - name: Card name anchors (self-hash; snapshot absent in CI) and tests
+        run: |
+          python3 scripts/build_card_name_anchors.py --check
+          python3 -m unittest discover -s tests -p 'test_card_name_anchors.py' -v
+      - name: Pack C2 Return to Dominaria quote audit (hashes; cache absent in CI) and tests
+        run: |
+          python3 scripts/audit_lore_pack_rtd.py --check
+          python3 -m unittest discover -s tests -p 'test_lore_pack_rtd.py' -v
+      - name: Pack A5 Ugin's allies quote audit (Pilot 3 research; hashes, cache absent in CI) and tests
+        run: |
+          python3 scripts/audit_lore_pack_a5.py --check
+          python3 -m unittest discover -s tests -p 'test_lore_pack_a5.py' -v
+      - name: Story-art caption atlas (self-hash; caches absent in CI) and tests
+        run: |
+          python3 scripts/build_story_art_captions.py --check
+          python3 -m unittest discover -s tests -p 'test_story_art_captions.py' -v

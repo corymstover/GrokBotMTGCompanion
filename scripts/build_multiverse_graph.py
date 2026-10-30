@@ -11,6 +11,9 @@ Inputs are listed in data/multiverse_graph/manifest.json:
 - ``art_match_packs``: Pack A4-style exact art/printing matches.
 - ``deck_evidence``: printing-evidence files for lore-deck proposals (unapproved). These
   produce ``proposed_in`` edges only and never canon assertions.
+- ``story_caption_packs``: scripts/build_story_art_captions.py atlases. For pages that are
+  already a registered graph Source, ``art_captioned_in_story`` edges link the Source to each
+  captioned Card (navigation only, never canon assertions).
 - ``curated_lore_graph``: data/lore_graph.json. Exact-name bridges to the curated wiki
   entries are labelled ``contextual_pointer`` (navigation only).
 
@@ -50,7 +53,8 @@ TYPE_PREFIX = {"Character": "character", "Event": "event", "Plane": "plane", "Pl
 OFFICIAL_HOSTS = ("https://magic.wizards.com/", "https://www.magic.wizards.com/", "https://media.wizards.com/", "https://www.wizards.com/",
                   "https://company.wizards.com/")
 INVERSE = {"proposed_in": "proposes", "depicted_by": "depicts", "cited_by": "cites",
-           "asserts": "asserted_by", "see_also_curated_entry": "see_also_from_curated_entry"}
+           "asserts": "asserted_by", "see_also_curated_entry": "see_also_from_curated_entry",
+           "named_on_card": "names_entity"}
 
 
 def slug(text: str) -> str:
@@ -113,6 +117,10 @@ class Graph:
         self.edges.append({"from": src, "relation": rel, "to": dst, **attrs})
 
 
+ERA_BASIS = ("claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); "
+             "no Dominarian (AR) year is asserted")
+
+
 def source_node(g: Graph, sid: str, meta: dict, origin: str) -> str:
     url = meta.get("url", "")
     official = url.startswith(OFFICIAL_HOSTS)
@@ -133,9 +141,10 @@ def ingest_claim_pack(g: Graph, rel: str) -> dict:
         grade = GRADE_ALIASES.get(c["grade"], c["grade"])
         if grade not in CANON_STATUSES:
             g.problems.append(f"{origin} {c['id']}: unknown grade {c['grade']}")
+        stage = c.get("chronology_stage") or c.get("stage") or c.get("event_stage") or ""
         cid = g.add_node(f"claim:{c['id']}", "Claim", c.get("summary", c["id"]), origin,
                          grade=grade, predicate=c["predicate"],
-                         stage=c.get("chronology_stage") or c.get("stage") or c.get("event_stage") or "",
+                         stage=stage,
                          continuity=c.get("continuity", ""), limitation=c.get("limitation", ""))
         if not c.get("source_ids"):
             g.problems.append(f"{origin} {c['id']}: claim has no source_ids")
@@ -149,8 +158,16 @@ def ingest_claim_pack(g: Graph, rel: str) -> dict:
         for tok in objs:
             obj = g.resolve(tok, origin)
             g.edge(cid, "asserts", obj, role="object")
+            extra = {"era": stage, "era_basis": ERA_BASIS} if stage else {}
+            ar = c.get("in_universe_date")
+            if ar:
+                # Only an explicit, quoted in-universe date may be carried; never inferred.
+                if not (isinstance(ar, dict) and ar.get("value") and ar.get("quote") and ar.get("source_id") in c.get("source_ids", [])):
+                    g.problems.append(f"{origin} {c['id']}: in_universe_date needs value, quote and a cited source_id")
+                else:
+                    extra["in_universe_date"] = {k: ar[k] for k in ("value", "quote", "source_id")}
             g.edge(subj, c["predicate"], obj, claim=c["id"], grade=grade,
-                   sources=sorted(c.get("source_ids", [])))
+                   sources=sorted(c.get("source_ids", [])), **extra)
     # Pack A2 card anchors and Pack A3 card-art contexts become Card nodes keyed by name.
     for a in d.get("card_anchors", []):
         card = g.add_node(f"card:{slug(a['name'])}", "Card", a["name"], origin)
@@ -207,6 +224,44 @@ def ingest_deck(g: Graph, rel: str) -> dict:
     return {"file": rel, "cards": count}
 
 
+def ingest_name_anchors(g: Graph, rel: str) -> dict:
+    """Card-name anchors (scripts/build_card_name_anchors.py): ``named_on_card`` edges from an
+    entity to each printed card named for it. These are card-data navigation, never canon claims."""
+    d = load(rel)
+    origin = Path(rel).name
+    src = d.get("card_data_source", {})
+    n = 0
+    for a in d.get("anchors", []):
+        if a["entity"] not in g.local:
+            g.problems.append(f"{origin}: anchor for unknown entity {a['entity']}")
+            continue
+        for c in a["cards"]:
+            card = g.add_node(f"card:{slug(c['name'])}", "Card", c["name"], origin, oracle_id=c.get("oracle_id"))
+            g.edge(g.local[a["entity"]], "named_on_card", card, tier=d.get("tier", "NAMED_CARD"),
+                   card_data_source=f"{src.get('provider', '')} {src.get('snapshot', '')}".strip())
+            n += 1
+    return {"file": rel, "anchors": n}
+
+
+def ingest_story_captions(g: Graph, rel: str) -> dict:
+    d = load(rel)
+    origin = Path(rel).name
+    by_url = {n["url"]: n["id"] for n in g.nodes.values() if n["type"] == "Source" and n.get("url")}
+    n = 0
+    for page in d.get("pages", []):
+        src = by_url.get(page["url"])
+        if not src:
+            continue
+        artists: dict[str, set] = {}
+        for c in page["captions"]:
+            card = g.add_node(f"card:{slug(c['card'])}", "Card", c["card"], origin, oracle_id=c.get("oracle_id"))
+            artists.setdefault(card, set()).add(c["artist"])
+        for card in sorted(artists):
+            g.edge(src, "art_captioned_in_story", card, tier=d.get("tier", ""), artists=sorted(artists[card]))
+            n += 1
+    return {"file": rel, "caption_edges": n}
+
+
 def bridge_curated(g: Graph, rel: str) -> int:
     lg = load(rel)
     by_name: dict[str, list[str]] = {}
@@ -235,7 +290,9 @@ def build(manifest_path: Path = MANIFEST) -> dict:
             g.entity(ent["id"], ent["type"], ent["name"], Path(rel).name)
     inputs = {"claim_packs": [ingest_claim_pack(g, r) for r in m["claim_packs"]],
               "art_match_packs": [ingest_art_pack(g, r) for r in m.get("art_match_packs", [])],
-              "deck_evidence": [ingest_deck(g, r) for r in m.get("deck_evidence", [])]}
+              "deck_evidence": [ingest_deck(g, r) for r in m.get("deck_evidence", [])],
+              "name_anchor_packs": [ingest_name_anchors(g, r) for r in m.get("name_anchor_packs", [])],
+              "story_caption_packs": [ingest_story_captions(g, r) for r in m.get("story_caption_packs", [])]}
     bridges = bridge_curated(g, m["curated_lore_graph"]) if m.get("curated_lore_graph") else 0
     for rel in inputs:
         for item in inputs[rel]:
@@ -262,6 +319,8 @@ def build(manifest_path: Path = MANIFEST) -> dict:
              "claims_by_status": dict(sorted(Counter(n["grade"] for n in nodes if n["type"] == "Claim").items())),
              "relations": len({e["relation"] for e in edges}),
              "literal_objects": sum(1 for n in nodes if n["type"] == "Literal"),
+             "claim_edges_with_era": sum(1 for e in edges if e.get("claim") and e.get("era")),
+             "claim_edges_with_in_universe_date": sum(1 for e in edges if e.get("in_universe_date")),
              "curated_bridges": bridges,
              "wizards_official_sources": sum(1 for n in nodes if n.get("source_class") == "WIZARDS_OFFICIAL"),
              "non_wizards_sources": sum(1 for n in nodes if n.get("source_class") == "NON_WIZARDS_LABELLED")}

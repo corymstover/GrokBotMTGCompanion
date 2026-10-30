@@ -1,0 +1,163 @@
+{
+ "schema": "pack-a5-ugin-allies-audit/v1",
+ "pack": "data/lore_research/pack_a5_ugin_allies_2026-10-30.json",
+ "pack_status": "PRELIMINARY_RESEARCH (not owner approved, not certified)",
+ "claims": 16,
+ "entities": 13,
+ "sources": 10,
+ "grades": {
+  "CANON_CONFIRMED": 15,
+  "CANON_IMPLIED": 1
+ },
+ "quotes": 24,
+ "quotes_verbatim": 24,
+ "quote_rows": [
+  {
+   "claim": "U001",
+   "source_id": "lithomancer",
+   "quote_sha256": "7bc86e9361765ec41e9cc616ff3b377f0f2fd455fc3090b1f4437f0610e9db25",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "U001",
+   "source_id": "stone_and_blood",
+   "quote_sha256": "5eb6906f7e9231962979aa220c677e5242e65698e7c45f745405cbcb5ec719fb",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "U002",
+   "source_id": "lithomancer",
+   "quote_sha256": "1845449092dfab359e534487db741494884faf01d6881f6b3f7daa42d0458fbb",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "U003",
+   "source_id": "stone_and_blood",
+   "quote_sha256": "868b0dba40e39dc676ce6a946bb28d5e7e2cfd604a30dd4b8e9e4f24f1687774",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "U004",
+   "source_id": "stone_and_blood",
+   "quote_sha256": "ba4d2d6de78f5825876fe2cb2afaebb2ff4cba1e134d88363e9c534e7ad6fdcd",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "U005",
+   "source_id": "stone_and_blood",
+   "quote_sha256": "67d46640754990cd09bc9c8257f1b71eaebd957f57596c1f9bc52c04489ba6c5",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "U006",
+   "source_id": "sorins_revelation",
+   "quote_sha256": "cc40b3dbf2187f8fd61b31649e2e99132fdbe9b6d9237bac3b4abc2c260666dd",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "U006",
+   "source_id": "sorins_restoration",
+   "quote_sha256": "cc40b3dbf2187f8fd61b31649e2e99132fdbe9b6d9237bac3b4abc2c260666dd",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "U007",
+   "source_id": "sorins_restoration",
+   "quote_sha256": "3e15d7bd4fdd633c2d111ea416b14b035267ec8ed7a2619c52c96c4b9939e59a",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "U007",
+   "source_id": "sorins_restoration",
+   "quote_sha256": "2bb39af13d111073fb212370464b6edc99a4f4f036961f2c1235595ba7a92cb8",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "U008",
+   "source_id": "unbroken_unbowed",
+   "quote_sha256": "55f2e3f5a78e1201b7f2ebf6d5bda0b6b9a745b6958c8c2bd563bbc6bdc117ad",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "U009",
+   "source_id": "unbroken_unbowed",
+   "quote_sha256": "2d6fafbbc0aa13f3e0b10b89883564a38acb102224a6e85a6bfe16af7e46eda6",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "U009",
+   "source_id": "unbroken_unbowed",
+   "quote_sha256": "36662fef5618c82cc127c1ce6377a10f2794bad5f2d1801f1c363beda8f063fa",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "U010",
+   "source_id": "revelation_eye",
+   "quote_sha256": "1a93af172521d7d4e49b2c923cf6d92605f2e2d7c8c280fd83f45d0009b5b215",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "U011",
+   "source_id": "brink_extinction",
+   "quote_sha256": "a2c9e31ca9f453b1dd50f8e2480fbd9940bb8ff9a8f3213ecbb5088cbf638e12",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "U011",
+   "source_id": "brink_extinction",
+   "quote_sha256": "1dca83e62e606618e3244e81046d7dbbeae4750ab2b72686acb1a31e596f0d11",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "U012",
+   "source_id": "zendikar_resurgent",
+   "quote_sha256": "13ecf7f32296234f7d75edbdf640821af8feb72f6ac2d47d67c5aeef935b1fa1",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "U013",
+   "source_id": "tdm_ep6",
+   "quote_sha256": "7f4bd0694908697305881639e88dff325a18e4a9502bddeb28d4a815629b8875",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "U013",
+   "source_id": "tdm_ep6",
+   "quote_sha256": "92d97e0d9b8ce4b8a3e9d69ca0353dc6aba2a4f2fb4f2cd83664319d79b63f82",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "U014",
+   "source_id": "tdm_ep7",
+   "quote_sha256": "6f7677a5ceb514b2aed5c8194e8de2178bbb039e0df3cd2336520cb94cec31e9",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "U015",
+   "source_id": "tdm_ep7",
+   "quote_sha256": "fd41758dd2e1e44719a401fc846823486087fa48d6f07158a9a3c04acd889539",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "U015",
+   "source_id": "tdm_ep7",
+   "quote_sha256": "08d7ec96554259f0033a0496ac71100c68f8cbb4bcf6f172aa15e41c60a7af7d",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "U016",
+   "source_id": "tdm_ep7",
+   "quote_sha256": "e8e18755522b3cca072542ea2b72d29ed5795b44ca3713fdf7cc4ab11fc6368f",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "U016",
+   "source_id": "tdm_ep7",
+   "quote_sha256": "d96266c63a831df2a967c37f7429fb4da734a732dd6f23f42e5f2e5119097c80",
+   "status": "VERBATIM"
+  }
+ ],
+ "problems": [],
+ "note": "Verbatim-quote audit against the cached official episode text. This is research evidence, not owner approval or certification.",
+ "content_sha256": "31c66701d1b8f91ac5101654d1dcba6170e7db89e01958ca562984873d17a13a"
+}

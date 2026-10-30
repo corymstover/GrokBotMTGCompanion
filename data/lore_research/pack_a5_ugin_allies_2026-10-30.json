@@ -1,0 +1,498 @@
+{
+ "schema": "multiverse-claim-pack/v1",
+ "pack_id": "pack_a5_ugin_allies",
+ "evidence_cutoff": "2026-10-30",
+ "status": "PRELIMINARY_RESEARCH (not owner approved, not certified)",
+ "scope": "Research for Pilot 3 (Ugin's Allies and Heroes): Ugin's documented alliances and encounters in official Wizards story pages. Targeted, not exhaustive. No decklist is proposed here.",
+ "source_register": {
+  "lithomancer": {
+   "title": "The Lithomancer",
+   "url": "https://magic.wizards.com/en/news/magic-story/the-lithomancer",
+   "kind": "official_story",
+   "published": "2024-05-13"
+  },
+  "stone_and_blood": {
+   "title": "Stone and Blood",
+   "url": "https://magic.wizards.com/en/news/magic-story/stone-and-blood-2016-06-15",
+   "kind": "official_story",
+   "published": "2016-06-15"
+  },
+  "sorins_revelation": {
+   "title": "Sorin's Revelation",
+   "url": "https://magic.wizards.com/en/news/magic-story/sorins-revelation",
+   "kind": "official_story",
+   "published": "2014-09-24"
+  },
+  "sorins_restoration": {
+   "title": "Sorin's Restoration",
+   "url": "https://magic.wizards.com/en/news/magic-story/sorins-restoration-2015-03-27",
+   "kind": "official_story",
+   "published": "2015-03-27"
+  },
+  "unbroken_unbowed": {
+   "title": "Unbroken and Unbowed",
+   "url": "https://magic.wizards.com/en/news/magic-story/unbroken-and-unbowed-2015-04-22",
+   "kind": "official_story",
+   "published": "2015-04-22"
+  },
+  "revelation_eye": {
+   "title": "Revelation at the Eye",
+   "url": "https://magic.wizards.com/en/news/magic-story/revelation-eye-2015-10-14",
+   "kind": "official_story",
+   "published": "2015-10-14"
+  },
+  "brink_extinction": {
+   "title": "Brink of Extinction",
+   "url": "https://magic.wizards.com/en/news/magic-story/brink-extinction-2016-02-10",
+   "kind": "official_story",
+   "published": "2016-02-10"
+  },
+  "zendikar_resurgent": {
+   "title": "Zendikar Resurgent",
+   "url": "https://magic.wizards.com/en/news/magic-story/zendikar-resurgent-2016-02-24",
+   "kind": "official_story",
+   "published": "2016-02-24"
+  },
+  "tdm_ep6": {
+   "title": "Tarkir: Dragonstorm | Episode 6: How Wretched Love",
+   "url": "https://magic.wizards.com/en/news/magic-story/tarkir-dragonstorm-episode-6-how-wretched-love",
+   "kind": "official_story",
+   "published": "2025-03-14"
+  },
+  "tdm_ep7": {
+   "title": "Tarkir: Dragonstorm | Episode 7: Return",
+   "url": "https://magic.wizards.com/en/news/magic-story/tarkir-dragonstorm-episode-7-return",
+   "kind": "official_story",
+   "published": "2025-03-17"
+  }
+ },
+ "entities": [
+  {
+   "id": "ugin",
+   "type": "Character",
+   "name": "Ugin, the Spirit Dragon"
+  },
+  {
+   "id": "nicol_bolas",
+   "type": "Character",
+   "name": "Nicol Bolas"
+  },
+  {
+   "id": "sarkhan_vol",
+   "type": "Character",
+   "name": "Sarkhan Vol"
+  },
+  {
+   "id": "narset",
+   "type": "Character",
+   "name": "Narset"
+  },
+  {
+   "id": "sorin_markov",
+   "type": "Character",
+   "name": "Sorin Markov"
+  },
+  {
+   "id": "nahiri",
+   "type": "Character",
+   "name": "Nahiri, the Lithomancer"
+  },
+  {
+   "id": "jace_beleren",
+   "type": "Character",
+   "name": "Jace Beleren"
+  },
+  {
+   "id": "elspeth_tirel",
+   "type": "Character",
+   "name": "Elspeth Tirel"
+  },
+  {
+   "id": "eldrazi_titans",
+   "type": "Concept",
+   "name": "Eldrazi titans"
+  },
+  {
+   "id": "zendikar",
+   "type": "Plane",
+   "name": "Zendikar"
+  },
+  {
+   "id": "tarkir",
+   "type": "Plane",
+   "name": "Tarkir"
+  },
+  {
+   "id": "eye_of_ugin",
+   "type": "Place",
+   "name": "Eye of Ugin"
+  },
+  {
+   "id": "ugins_gem",
+   "type": "Object",
+   "name": "Ugin's gem (TDM)"
+  }
+ ],
+ "claims": [
+  {
+   "id": "U001",
+   "subject": "ugin",
+   "predicate": "sealed_eldrazi_with",
+   "object": "sorin_markov; nahiri",
+   "grade": "CANON_CONFIRMED",
+   "continuity": "main",
+   "chronology_stage": "ancient",
+   "source_ids": [
+    "lithomancer",
+    "stone_and_blood"
+   ],
+   "evidence": [
+    {
+     "source_id": "lithomancer",
+     "quote": "Long ago, the world-devouring Eldrazi were sealed away on Zendikar by three Planeswalkers: the spirit dragon Ugin; the vampire Sorin Markov; and a third Planeswalker called the Lithomancer"
+    },
+    {
+     "source_id": "stone_and_blood",
+     "quote": "three Planeswalkers collaborated to trap the monstrous Eldrazi on the world of Zendikar"
+    }
+   ],
+   "summary": "Ugin, Sorin and Nahiri together imprisoned the Eldrazi titans on Zendikar.",
+   "limitation": "Stone and Blood dates this to six thousand years before Eldritch Moon; this pack records no AR year."
+  },
+  {
+   "id": "U002",
+   "subject": "nahiri",
+   "predicate": "co_named",
+   "object": "eye_of_ugin",
+   "grade": "CANON_CONFIRMED",
+   "continuity": "main",
+   "chronology_stage": "ancient",
+   "source_ids": [
+    "lithomancer"
+   ],
+   "evidence": [
+    {
+     "source_id": "lithomancer",
+     "quote": "the underground chamber that she and Sorin had named the Eye of Ugin"
+    }
+   ],
+   "summary": "Nahiri and Sorin named the chamber at the centre of the prison the Eye of Ugin.",
+   "limitation": ""
+  },
+  {
+   "id": "U003",
+   "subject": "nahiri",
+   "predicate": "stood_vigil_over",
+   "object": "eldrazi_titans",
+   "grade": "CANON_CONFIRMED",
+   "continuity": "main",
+   "chronology_stage": "ancient",
+   "source_ids": [
+    "stone_and_blood"
+   ],
+   "evidence": [
+    {
+     "source_id": "stone_and_blood",
+     "quote": "Nahiri, a kor of Zendikar, stood vigil over the prisoners."
+    }
+   ],
+   "summary": "Nahiri stayed on Zendikar as the Eldrazi prison's warden.",
+   "limitation": ""
+  },
+  {
+   "id": "U004",
+   "subject": "ugin",
+   "predicate": "promised_to_return_to",
+   "object": "zendikar",
+   "grade": "CANON_CONFIRMED",
+   "continuity": "main",
+   "chronology_stage": "ancient",
+   "source_ids": [
+    "stone_and_blood"
+   ],
+   "evidence": [
+    {
+     "source_id": "stone_and_blood",
+     "quote": "Ugin, called the Spirit Dragon, and the vampire Sorin Markov agreed to return if their aid was needed."
+    }
+   ],
+   "summary": "Ugin and Sorin agreed to come back if the prison needed them.",
+   "limitation": ""
+  },
+  {
+   "id": "U005",
+   "subject": "ugin",
+   "predicate": "absent_when_eldrazi_nearly_escaped",
+   "object": "nahiri",
+   "grade": "CANON_CONFIRMED",
+   "continuity": "main",
+   "chronology_stage": "pre-Tarkir",
+   "source_ids": [
+    "stone_and_blood"
+   ],
+   "evidence": [
+    {
+     "source_id": "stone_and_blood",
+     "quote": "But the Eldrazi nearly escaped over a thousand years ago, and neither Sorin nor Ugin came."
+    }
+   ],
+   "summary": "When the Eldrazi nearly escaped, neither Ugin nor Sorin answered, leaving Nahiri to contain them alone.",
+   "limitation": "The reasons for Ugin's absence are not stated in this source."
+  },
+  {
+   "id": "U006",
+   "subject": "sorin_markov",
+   "predicate": "sought_old_ally",
+   "object": "ugin",
+   "grade": "CANON_CONFIRMED",
+   "continuity": "main",
+   "chronology_stage": "Khans of Tarkir",
+   "source_ids": [
+    "sorins_restoration",
+    "sorins_revelation"
+   ],
+   "evidence": [
+    {
+     "source_id": "sorins_revelation",
+     "quote": "Sorin has found his way here, to Ugin's home world, in search of his old ally."
+    },
+    {
+     "source_id": "sorins_restoration",
+     "quote": "Sorin has found his way here, to Ugin's home world, in search of his old ally."
+    }
+   ],
+   "summary": "After the Eldrazi escaped, Sorin came to Tarkir looking for Ugin.",
+   "limitation": ""
+  },
+  {
+   "id": "U007",
+   "subject": "sorin_markov",
+   "predicate": "met_awakened",
+   "object": "ugin",
+   "grade": "CANON_CONFIRMED",
+   "continuity": "main",
+   "chronology_stage": "Dragons of Tarkir",
+   "source_ids": [
+    "sorins_restoration"
+   ],
+   "evidence": [
+    {
+     "source_id": "sorins_restoration",
+     "quote": "In another timeline, Sorin found Ugin long dead, leaving his quest on Tarkir a failure"
+    },
+    {
+     "source_id": "sorins_restoration",
+     "quote": "Ugin finally seemed to realize that a force had set him free, and became aware of Sorin back at the lip of the chasm."
+    }
+   ],
+   "summary": "In the rewritten timeline, Sorin finds Ugin alive and newly freed; in the original timeline he had found Ugin long dead.",
+   "limitation": "The quote does not say who or what freed Ugin, so this claim does not credit Sorin."
+  },
+  {
+   "id": "U008",
+   "subject": "sarkhan_vol",
+   "predicate": "left_dormant",
+   "object": "ugin",
+   "grade": "CANON_CONFIRMED",
+   "continuity": "main",
+   "chronology_stage": "Dragons of Tarkir",
+   "source_ids": [
+    "unbroken_unbowed"
+   ],
+   "evidence": [
+    {
+     "source_id": "unbroken_unbowed",
+     "quote": "Ugin was alive, but dormant, locked away by Sarkhan's own actions."
+    }
+   ],
+   "summary": "Sarkhan's intervention in the past left Ugin alive but dormant (see A006/A028).",
+   "limitation": ""
+  },
+  {
+   "id": "U009",
+   "subject": "narset",
+   "predicate": "sought_counsel_of",
+   "object": "ugin",
+   "grade": "CANON_CONFIRMED",
+   "continuity": "main",
+   "chronology_stage": "Dragons of Tarkir",
+   "source_ids": [
+    "unbroken_unbowed"
+   ],
+   "evidence": [
+    {
+     "source_id": "unbroken_unbowed",
+     "quote": "\"Ugin,\" said Narset. \"I need to speak to him.\""
+    },
+    {
+     "source_id": "unbroken_unbowed",
+     "quote": "But between you, me, and Ugin, there are three in this valley right now."
+    }
+   ],
+   "summary": "In the new timeline, the planeswalker Narset sets out to speak with Ugin, and Sarkhan counts all three as planeswalkers.",
+   "limitation": "The conversation itself is not shown in this source."
+  },
+  {
+   "id": "U010",
+   "subject": "jace_beleren",
+   "predicate": "journeyed_to",
+   "object": "eye_of_ugin",
+   "grade": "CANON_CONFIRMED",
+   "continuity": "main",
+   "chronology_stage": "Battle for Zendikar",
+   "source_ids": [
+    "revelation_eye"
+   ],
+   "evidence": [
+    {
+     "source_id": "revelation_eye",
+     "quote": "Jace was forced to undertake a dangerous journey to the Eye of Ugin, the center of the hedron network."
+    }
+   ],
+   "summary": "Jace travels to the Eye of Ugin to learn about the hedron network.",
+   "limitation": ""
+  },
+  {
+   "id": "U011",
+   "subject": "ugin",
+   "predicate": "gave_directives_to",
+   "object": "jace_beleren",
+   "grade": "CANON_CONFIRMED",
+   "continuity": "main",
+   "chronology_stage": "Battle for Zendikar",
+   "source_ids": [
+    "brink_extinction"
+   ],
+   "evidence": [
+    {
+     "source_id": "brink_extinction",
+     "quote": "Ugin, who was much older and much smarter than any of them, had given Jace two very clear directives: Don't try to kill the Eldrazi titans."
+    },
+    {
+     "source_id": "brink_extinction",
+     "quote": "And don't let the titans escape to threaten other worlds."
+    }
+   ],
+   "summary": "Ugin told Jace not to kill the titans and not to let them escape.",
+   "limitation": ""
+  },
+  {
+   "id": "U012",
+   "subject": "ugin",
+   "predicate": "allies_missing_at_titans_fall",
+   "object": "sorin_markov; nahiri",
+   "grade": "CANON_CONFIRMED",
+   "continuity": "main",
+   "chronology_stage": "Oath of the Gatewatch",
+   "source_ids": [
+    "zendikar_resurgent"
+   ],
+   "evidence": [
+    {
+     "source_id": "zendikar_resurgent",
+     "quote": "Ugin's missing allies, Sorin Markov and Nahiri the Lithomancer, still hadn't shown up"
+    }
+   ],
+   "summary": "Sorin and Nahiri were absent when the titans fell, so Ugin's alliance did not reunite.",
+   "limitation": ""
+  },
+  {
+   "id": "U013",
+   "subject": "jace_beleren",
+   "predicate": "took_power_from",
+   "object": "ugins_gem",
+   "grade": "CANON_CONFIRMED",
+   "continuity": "main",
+   "chronology_stage": "Tarkir: Dragonstorm",
+   "source_ids": [
+    "tdm_ep6"
+   ],
+   "evidence": [
+    {
+     "source_id": "tdm_ep6",
+     "quote": "Jace closed his hands over the gleaming jewel suspended between Ugin's horns"
+    },
+    {
+     "source_id": "tdm_ep6",
+     "quote": "for all the power he'd thieved from Ugin's gem"
+    }
+   ],
+   "summary": "In Tarkir: Dragonstorm, Jace seizes the gem between Ugin's horns and draws on its power to command the Meditation Realm.",
+   "limitation": ""
+  },
+  {
+   "id": "U014",
+   "subject": "ugin",
+   "predicate": "tried_to_hold",
+   "object": "nicol_bolas",
+   "grade": "CANON_CONFIRMED",
+   "continuity": "main",
+   "chronology_stage": "Tarkir: Dragonstorm",
+   "source_ids": [
+    "tdm_ep7"
+   ],
+   "evidence": [
+    {
+     "source_id": "tdm_ep7",
+     "quote": "as Ugin flung himself at his brother, trying to hold him in place, trying and failing"
+    }
+   ],
+   "summary": "As Bolas broke free, Ugin threw himself at his brother and failed to hold him (see A009).",
+   "limitation": ""
+  },
+  {
+   "id": "U015",
+   "subject": "ugin",
+   "predicate": "vanished_with",
+   "object": "nicol_bolas",
+   "grade": "CANON_CONFIRMED",
+   "continuity": "main",
+   "chronology_stage": "Tarkir: Dragonstorm",
+   "source_ids": [
+    "tdm_ep7"
+   ],
+   "evidence": [
+    {
+     "source_id": "tdm_ep7",
+     "quote": "Bolas and Ugin winking out of existence, eaten by the nothing, dead now, perhaps."
+    },
+    {
+     "source_id": "tdm_ep7",
+     "quote": "Narset had thought Bolas was dead and Ugin gone, but neither of these things proved true."
+    }
+   ],
+   "summary": "Narset sees Ugin and Bolas vanish; the same episode states both survived (consistent with A009/A010).",
+   "limitation": "This is Narset's point of view; 'dead now, perhaps' is her uncertainty, which the text itself then resolves."
+  },
+  {
+   "id": "U016",
+   "subject": "elspeth_tirel",
+   "predicate": "carried_to_omenpath",
+   "object": "narset",
+   "grade": "CANON_IMPLIED",
+   "continuity": "main",
+   "chronology_stage": "Tarkir: Dragonstorm",
+   "source_ids": [
+    "tdm_ep7"
+   ],
+   "evidence": [
+    {
+     "source_id": "tdm_ep7",
+     "quote": "\"Narset, hurry—\" Elspeth's voice, cutting through her horror of the future."
+    },
+    {
+     "source_id": "tdm_ep7",
+     "quote": "She felt mailed hands curl around her robes, lift her, carry her forward into the mouth of the Omenpath."
+    }
+   ],
+   "summary": "Elspeth calls to Narset, and armoured hands carry Narset into the Omenpath.",
+   "limitation": "The text names Elspeth's voice; that the 'mailed hands' are hers is inferred, not stated."
+  }
+ ],
+ "remaining": [
+  "Targeted extraction: Chronicle of Bolas and the War of the Spark novel content are not covered here.",
+  "Kaya, Teyo and the Gatewatch's alliance with Ugin during War of the Spark need official web-story evidence; the cached War of the Spark side stories do not focus on Ugin.",
+  "No in-universe AR dates are asserted.",
+  "Card anchors and the Pilot 3 spec for build_lore_pilot.py are not yet written; any deck stays an UNAPPROVED proposal."
+ ]
+}
