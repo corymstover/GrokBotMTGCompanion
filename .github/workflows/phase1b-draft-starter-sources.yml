@@ -6,12 +6,14 @@ on:
       - main
     paths:
       - scripts/audit_draft_starter_sources.py
+      - scripts/product_family_lookup.py
       - tests/test_draft_starter_sources.py
       - data/set_atlas/draft_starter_primary_*
       - .github/workflows/phase1b-draft-starter-sources.yml
   pull_request:
     paths:
       - scripts/audit_draft_starter_sources.py
+      - scripts/product_family_lookup.py
       - tests/test_draft_starter_sources.py
       - data/set_atlas/draft_starter_primary_*
       - .github/workflows/phase1b-draft-starter-sources.yml
@@ -35,7 +37,8 @@ jobs:
       - name: Enforce deterministic checked output and syntax
         run: |
           python3 scripts/audit_draft_starter_sources.py
-          python3 -m py_compile scripts/audit_draft_starter_sources.py
+          python3 scripts/product_family_lookup.py --summary
+          python3 -m py_compile scripts/audit_draft_starter_sources.py scripts/product_family_lookup.py
       - name: Publish generated review report to exact source branch
         if: github.event_name == 'push' && github.ref_name == 'chatgpt-phase1b-draft-starter-source-batch-20261029'
         run: |
