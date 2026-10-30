@@ -7,7 +7,7 @@
   "HYPOTHETICAL": "Creative or deckbuilding connection; never canon.",
   "OPEN_QUESTION": "Primary sources leave the matter unresolved; do not assert either way."
  },
- "content_sha256": "6bd734a8f6c993fa97e3439959547286e2e850d45bee9a2e70cbfed278a0299c",
+ "content_sha256": "7df32d3c549ac5dc803397c1073edf00fc609f15e1aecba8d2d8de00d5a5616d",
  "edges": [
   {
    "artists": [
@@ -4073,6 +4073,13 @@
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:kaito",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:kaito_shizuki"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
    "from": "character:karn",
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
@@ -4129,6 +4136,83 @@
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:kaya",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:kaya_bane_of_the_dead"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:kaya",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:kaya_geist_hunter"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:kaya",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:kaya_ghost_assassin"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:kaya",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:kaya_intangible_slayer"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:kaya",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:kaya_orzhov_usurper"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:kaya",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:kaya_spirits_justice"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:kaya",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:kaya_the_inexorable"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:koth",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:koth_fire_of_resistance"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:koth",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:koth_of_the_hammer"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:koth",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:koth_of_the_homestead"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:koth",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:koth_the_geomancer"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
    "from": "character:liliana_vess",
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
@@ -4140,6 +4224,20 @@
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
    "to": "card:lyra_dawnbringer"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:melira",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:melira_sylvok_outcast"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:melira",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:melira_the_living_cure"
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
@@ -4654,6 +4752,27 @@
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:tibalt",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:tibalt_rakish_instigator"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:tibalt",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:tibalt_the_fiend_blooded"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:tyvar",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:tyvar_kell"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
    "from": "character:ugin",
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
@@ -4766,6 +4885,76 @@
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:vraska",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:vraska_betrayal_s_sting"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:vraska",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:vraska_golgari_queen"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:vraska",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:vraska_regal_gorgon"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:vraska",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:vraska_relic_seeker"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:vraska",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:vraska_scheming_gorgon"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:vraska",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:vraska_soul_of_stone"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:vraska",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:vraska_swarm_s_eminence"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:vraska",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:vraska_the_cutting_glare"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:vraska",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:vraska_the_silencer"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:vraska",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:vraska_the_unseen"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
    "from": "character:yasova_dragonclaw",
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
@@ -4826,6 +5015,13 @@
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
    "to": "card:eye_of_ugin"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "place:seedcore",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:the_seedcore"
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
@@ -5973,6 +6169,235 @@
    "to": "character:yawgmoth"
   },
   {
+   "claim": "ONE001",
+   "era": "one_strike_2023",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:elesh_norn",
+   "grade": "CANON_CONFIRMED",
+   "relation": "planted",
+   "sources": [
+    "one_ep2",
+    "one_ep4"
+   ],
+   "to": "artifact:realmbreaker"
+  },
+  {
+   "claim": "ONE002",
+   "era": "one_strike_2023",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "artifact:realmbreaker",
+   "grade": "CANON_CONFIRMED",
+   "relation": "located_in",
+   "sources": [
+    "one_ep4"
+   ],
+   "to": "place:seedcore"
+  },
+  {
+   "claim": "ONE003",
+   "era": "one_strike_2023",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:elesh_norn",
+   "grade": "CANON_CONFIRMED",
+   "relation": "imprisoned",
+   "sources": [
+    "one_ep4"
+   ],
+   "to": "character:karn"
+  },
+  {
+   "claim": "ONE004",
+   "era": "one_strike_2023",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "artifact:one_sylex",
+   "grade": "CANON_CONFIRMED",
+   "relation": "intended_to_destroy",
+   "sources": [
+    "one_ep2"
+   ],
+   "to": "artifact:realmbreaker"
+  },
+  {
+   "claim": "ONE005",
+   "era": "one_strike_2023",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:ajani",
+   "grade": "CANON_CONFIRMED",
+   "relation": "underwent",
+   "sources": [
+    "one_ep4"
+   ],
+   "to": "concept:compleation"
+  },
+  {
+   "claim": "ONE006",
+   "era": "one_strike_2023",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:tibalt",
+   "grade": "CANON_CONFIRMED",
+   "relation": "underwent",
+   "sources": [
+    "one_ep4"
+   ],
+   "to": "concept:compleation"
+  },
+  {
+   "claim": "ONE007",
+   "era": "one_strike_2023",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:vraska",
+   "grade": "CANON_CONFIRMED",
+   "relation": "underwent",
+   "sources": [
+    "one_ep5"
+   ],
+   "to": "concept:compleation"
+  },
+  {
+   "claim": "ONE008",
+   "era": "one_strike_2023",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:jace_beleren",
+   "grade": "CANON_CONFIRMED",
+   "relation": "stayed_with",
+   "sources": [
+    "one_ep3"
+   ],
+   "to": "character:vraska"
+  },
+  {
+   "claim": "ONE009",
+   "era": "one_strike_2023",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:jace_beleren",
+   "grade": "CANON_CONFIRMED",
+   "relation": "underwent",
+   "sources": [
+    "one_ep5"
+   ],
+   "to": "concept:compleation"
+  },
+  {
+   "claim": "ONE010",
+   "era": "one_strike_2023",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:ajani",
+   "grade": "CANON_CONFIRMED",
+   "relation": "mentor_of",
+   "sources": [
+    "one_ep5"
+   ],
+   "to": "character:elspeth_tirel"
+  },
+  {
+   "claim": "ONE011",
+   "era": "one_strike_2023",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:elspeth_tirel",
+   "grade": "CANON_CONFIRMED",
+   "relation": "fought",
+   "sources": [
+    "one_ep5"
+   ],
+   "to": "character:ajani"
+  },
+  {
+   "claim": "ONE012",
+   "era": "one_strike_2023",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:tyvar",
+   "grade": "CANON_CONFIRMED",
+   "relation": "fought",
+   "sources": [
+    "one_ep5"
+   ],
+   "to": "character:tibalt"
+  },
+  {
+   "claim": "ONE013",
+   "era": "one_strike_2023",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:elspeth_tirel",
+   "grade": "CANON_CONFIRMED",
+   "relation": "struck_down",
+   "sources": [
+    "one_ep5"
+   ],
+   "to": "character:jace_beleren"
+  },
+  {
+   "claim": "ONE014",
+   "era": "one_strike_2023",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:elspeth_tirel",
+   "grade": "CANON_CONFIRMED",
+   "relation": "carried_away",
+   "sources": [
+    "one_ep5"
+   ],
+   "to": "artifact:one_sylex"
+  },
+  {
+   "claim": "ONE015",
+   "era": "one_strike_2023",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "artifact:realmbreaker",
+   "grade": "CANON_CONFIRMED",
+   "relation": "spread_invasion_across",
+   "sources": [
+    "one_ep5"
+   ],
+   "to": "concept:multiverse"
+  },
+  {
+   "claim": "ONE016",
+   "era": "one_strike_2023",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:nahiri",
+   "grade": "CANON_CONFIRMED",
+   "relation": "underwent",
+   "sources": [
+    "one_ep5"
+   ],
+   "to": "concept:compleation"
+  },
+  {
+   "claim": "ONE017",
+   "era": "one_strike_2023",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:nissa_revane",
+   "grade": "CANON_CONFIRMED",
+   "relation": "underwent",
+   "sources": [
+    "one_ep5"
+   ],
+   "to": "concept:compleation"
+  },
+  {
+   "claim": "ONE018",
+   "era": "one_strike_2023",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:koth",
+   "grade": "CANON_CONFIRMED",
+   "relation": "native_of",
+   "sources": [
+    "one_ep4"
+   ],
+   "to": "plane:mirrodin"
+  },
+  {
+   "claim": "ONE019",
+   "era": "one_strike_2023",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:melira",
+   "grade": "CANON_CONFIRMED",
+   "relation": "native_of",
+   "sources": [
+    "one_ep4"
+   ],
+   "to": "plane:mirrodin"
+  },
+  {
    "claim": "RTD001",
    "era": "rtd_2018",
    "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
@@ -6772,6 +7197,18 @@
    "to": "curated:Characters Index.md#jaya-ballard"
   },
   {
+   "from": "character:kaito",
+   "relation": "see_also_curated_entry",
+   "tier": "contextual_pointer",
+   "to": "curated:Characters Index.md#kaito-shizuki"
+  },
+  {
+   "from": "character:kaito",
+   "relation": "see_also_curated_entry",
+   "tier": "contextual_pointer",
+   "to": "curated:Planeswalker Dossiers.md#kaito-shizuki"
+  },
+  {
    "from": "character:karn",
    "relation": "see_also_curated_entry",
    "tier": "contextual_pointer",
@@ -6782,6 +7219,30 @@
    "relation": "see_also_curated_entry",
    "tier": "contextual_pointer",
    "to": "curated:Planeswalker Dossiers.md#karn"
+  },
+  {
+   "from": "character:kaya",
+   "relation": "see_also_curated_entry",
+   "tier": "contextual_pointer",
+   "to": "curated:Characters Index.md#kaya"
+  },
+  {
+   "from": "character:kaya",
+   "relation": "see_also_curated_entry",
+   "tier": "contextual_pointer",
+   "to": "curated:Planeswalker Dossiers.md#kaya"
+  },
+  {
+   "from": "character:koth",
+   "relation": "see_also_curated_entry",
+   "tier": "contextual_pointer",
+   "to": "curated:Characters Index.md#koth"
+  },
+  {
+   "from": "character:koth",
+   "relation": "see_also_curated_entry",
+   "tier": "contextual_pointer",
+   "to": "curated:Planeswalker Dossiers.md#koth"
   },
   {
    "from": "character:liliana_vess",
@@ -6920,6 +7381,18 @@
    "to": "curated:Planeswalker Dossiers.md#teferi"
   },
   {
+   "from": "character:tibalt",
+   "relation": "see_also_curated_entry",
+   "tier": "contextual_pointer",
+   "to": "curated:Characters Index.md#tibalt"
+  },
+  {
+   "from": "character:tyvar",
+   "relation": "see_also_curated_entry",
+   "tier": "contextual_pointer",
+   "to": "curated:Characters Index.md#tyvar-kell"
+  },
+  {
    "from": "character:ugin",
    "relation": "see_also_curated_entry",
    "tier": "contextual_pointer",
@@ -6958,6 +7431,18 @@
    "relation": "see_also_curated_entry",
    "tier": "contextual_pointer",
    "to": "curated:Planeswalker Dossiers.md#venser"
+  },
+  {
+   "from": "character:vraska",
+   "relation": "see_also_curated_entry",
+   "tier": "contextual_pointer",
+   "to": "curated:Characters Index.md#vraska"
+  },
+  {
+   "from": "character:vraska",
+   "relation": "see_also_curated_entry",
+   "tier": "contextual_pointer",
+   "to": "curated:Planeswalker Dossiers.md#vraska"
   },
   {
    "from": "character:yawgmoth",
@@ -7984,6 +8469,234 @@
    "relation": "asserts",
    "role": "subject",
    "to": "character:elesh_norn"
+  },
+  {
+   "from": "claim:ONE001",
+   "relation": "asserts",
+   "role": "object",
+   "to": "artifact:realmbreaker"
+  },
+  {
+   "from": "claim:ONE001",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:elesh_norn"
+  },
+  {
+   "from": "claim:ONE002",
+   "relation": "asserts",
+   "role": "object",
+   "to": "place:seedcore"
+  },
+  {
+   "from": "claim:ONE002",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "artifact:realmbreaker"
+  },
+  {
+   "from": "claim:ONE003",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:karn"
+  },
+  {
+   "from": "claim:ONE003",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:elesh_norn"
+  },
+  {
+   "from": "claim:ONE004",
+   "relation": "asserts",
+   "role": "object",
+   "to": "artifact:realmbreaker"
+  },
+  {
+   "from": "claim:ONE004",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "artifact:one_sylex"
+  },
+  {
+   "from": "claim:ONE005",
+   "relation": "asserts",
+   "role": "object",
+   "to": "concept:compleation"
+  },
+  {
+   "from": "claim:ONE005",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:ajani"
+  },
+  {
+   "from": "claim:ONE006",
+   "relation": "asserts",
+   "role": "object",
+   "to": "concept:compleation"
+  },
+  {
+   "from": "claim:ONE006",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:tibalt"
+  },
+  {
+   "from": "claim:ONE007",
+   "relation": "asserts",
+   "role": "object",
+   "to": "concept:compleation"
+  },
+  {
+   "from": "claim:ONE007",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:vraska"
+  },
+  {
+   "from": "claim:ONE008",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:vraska"
+  },
+  {
+   "from": "claim:ONE008",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:jace_beleren"
+  },
+  {
+   "from": "claim:ONE009",
+   "relation": "asserts",
+   "role": "object",
+   "to": "concept:compleation"
+  },
+  {
+   "from": "claim:ONE009",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:jace_beleren"
+  },
+  {
+   "from": "claim:ONE010",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:elspeth_tirel"
+  },
+  {
+   "from": "claim:ONE010",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:ajani"
+  },
+  {
+   "from": "claim:ONE011",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:ajani"
+  },
+  {
+   "from": "claim:ONE011",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:elspeth_tirel"
+  },
+  {
+   "from": "claim:ONE012",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:tibalt"
+  },
+  {
+   "from": "claim:ONE012",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:tyvar"
+  },
+  {
+   "from": "claim:ONE013",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:jace_beleren"
+  },
+  {
+   "from": "claim:ONE013",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:elspeth_tirel"
+  },
+  {
+   "from": "claim:ONE014",
+   "relation": "asserts",
+   "role": "object",
+   "to": "artifact:one_sylex"
+  },
+  {
+   "from": "claim:ONE014",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:elspeth_tirel"
+  },
+  {
+   "from": "claim:ONE015",
+   "relation": "asserts",
+   "role": "object",
+   "to": "concept:multiverse"
+  },
+  {
+   "from": "claim:ONE015",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "artifact:realmbreaker"
+  },
+  {
+   "from": "claim:ONE016",
+   "relation": "asserts",
+   "role": "object",
+   "to": "concept:compleation"
+  },
+  {
+   "from": "claim:ONE016",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:nahiri"
+  },
+  {
+   "from": "claim:ONE017",
+   "relation": "asserts",
+   "role": "object",
+   "to": "concept:compleation"
+  },
+  {
+   "from": "claim:ONE017",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:nissa_revane"
+  },
+  {
+   "from": "claim:ONE018",
+   "relation": "asserts",
+   "role": "object",
+   "to": "plane:mirrodin"
+  },
+  {
+   "from": "claim:ONE018",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:koth"
+  },
+  {
+   "from": "claim:ONE019",
+   "relation": "asserts",
+   "role": "object",
+   "to": "plane:mirrodin"
+  },
+  {
+   "from": "claim:ONE019",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:melira"
   },
   {
    "from": "claim:RTD001",
@@ -9184,6 +9897,106 @@
    "to": "claim:A029"
   },
   {
+   "from": "source:one_ep2",
+   "relation": "cited_by",
+   "to": "claim:ONE001"
+  },
+  {
+   "from": "source:one_ep2",
+   "relation": "cited_by",
+   "to": "claim:ONE004"
+  },
+  {
+   "from": "source:one_ep3",
+   "relation": "cited_by",
+   "to": "claim:ONE008"
+  },
+  {
+   "from": "source:one_ep4",
+   "relation": "cited_by",
+   "to": "claim:ONE001"
+  },
+  {
+   "from": "source:one_ep4",
+   "relation": "cited_by",
+   "to": "claim:ONE002"
+  },
+  {
+   "from": "source:one_ep4",
+   "relation": "cited_by",
+   "to": "claim:ONE003"
+  },
+  {
+   "from": "source:one_ep4",
+   "relation": "cited_by",
+   "to": "claim:ONE005"
+  },
+  {
+   "from": "source:one_ep4",
+   "relation": "cited_by",
+   "to": "claim:ONE006"
+  },
+  {
+   "from": "source:one_ep4",
+   "relation": "cited_by",
+   "to": "claim:ONE018"
+  },
+  {
+   "from": "source:one_ep4",
+   "relation": "cited_by",
+   "to": "claim:ONE019"
+  },
+  {
+   "from": "source:one_ep5",
+   "relation": "cited_by",
+   "to": "claim:ONE007"
+  },
+  {
+   "from": "source:one_ep5",
+   "relation": "cited_by",
+   "to": "claim:ONE009"
+  },
+  {
+   "from": "source:one_ep5",
+   "relation": "cited_by",
+   "to": "claim:ONE010"
+  },
+  {
+   "from": "source:one_ep5",
+   "relation": "cited_by",
+   "to": "claim:ONE011"
+  },
+  {
+   "from": "source:one_ep5",
+   "relation": "cited_by",
+   "to": "claim:ONE012"
+  },
+  {
+   "from": "source:one_ep5",
+   "relation": "cited_by",
+   "to": "claim:ONE013"
+  },
+  {
+   "from": "source:one_ep5",
+   "relation": "cited_by",
+   "to": "claim:ONE014"
+  },
+  {
+   "from": "source:one_ep5",
+   "relation": "cited_by",
+   "to": "claim:ONE015"
+  },
+  {
+   "from": "source:one_ep5",
+   "relation": "cited_by",
+   "to": "claim:ONE016"
+  },
+  {
+   "from": "source:one_ep5",
+   "relation": "cited_by",
+   "to": "claim:ONE017"
+  },
+  {
    "from": "source:perspectives",
    "relation": "cited_by",
    "to": "claim:A018"
@@ -9647,6 +10460,13 @@
     "file": "data/lore_research/pack_a5_ugin_allies_2026-10-30.json",
     "sha256": "8cbbcf0be397598bb2c270de8a5376ca05e699c6c21c5ae61dc7a2a7ce0acaea",
     "sources": 10
+   },
+   {
+    "claims": 19,
+    "entities": 21,
+    "file": "data/lore_research/pack_c3_assault_on_new_phyrexia_2026-10-30.json",
+    "sha256": "e9ab43ba607b363453604f04b3e0c746f328b5b636bb4f2bedcc704d31e0669c",
+    "sources": 5
    }
   ],
   "deck_evidence": [
@@ -9668,9 +10488,9 @@
   ],
   "name_anchor_packs": [
    {
-    "anchors": 165,
+    "anchors": 193,
     "file": "data/lore_research/card_name_anchors_2026-10-30.json",
-    "sha256": "817de0bb791c4c50020207a9f44d1b85c12c2e77683956c2f0301d813d1ffb6b"
+    "sha256": "804162a1e479a4f6d59cfc14b7337da39c8adadbb3a3b7088143fc7104f91e0d"
    }
   ],
   "story_caption_packs": [
@@ -9721,6 +10541,22 @@
    "name": "The Mightstone and Weakstone",
    "origins": [
     "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json"
+   ],
+   "type": "Object"
+  },
+  {
+   "id": "artifact:one_sylex",
+   "name": "The strike team's sylex (ONE story)",
+   "origins": [
+    "pack_c3_assault_on_new_phyrexia_2026-10-30.json"
+   ],
+   "type": "Object"
+  },
+  {
+   "id": "artifact:realmbreaker",
+   "name": "Realmbreaker (Elesh Norn's Invasion Tree)",
+   "origins": [
+    "pack_c3_assault_on_new_phyrexia_2026-10-30.json"
    ],
    "type": "Object"
   },
@@ -11383,6 +12219,15 @@
    "type": "Card"
   },
   {
+   "id": "card:kaito_shizuki",
+   "name": "Kaito Shizuki",
+   "oracle_id": "ba48e067-f4d9-45b2-ade1-71cf8cda418c",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:karn_argent_defender",
    "name": "Karn, Argent Defender",
    "oracle_id": "aecc621f-67da-41a7-9d47-05ded302ae35",
@@ -11456,6 +12301,69 @@
    "type": "Card"
   },
   {
+   "id": "card:kaya_bane_of_the_dead",
+   "name": "Kaya, Bane of the Dead",
+   "oracle_id": "29d58aa4-9a7e-4052-9b0d-fc282f1be40e",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:kaya_geist_hunter",
+   "name": "Kaya, Geist Hunter",
+   "oracle_id": "e0edb2fc-2533-407c-85e5-4337f4233f05",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:kaya_ghost_assassin",
+   "name": "Kaya, Ghost Assassin",
+   "oracle_id": "5e4c81b9-a31e-45e6-983f-30f11b8a05c0",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:kaya_intangible_slayer",
+   "name": "Kaya, Intangible Slayer",
+   "oracle_id": "9260ae3d-59bf-4e46-a13e-930754c3f0d2",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:kaya_orzhov_usurper",
+   "name": "Kaya, Orzhov Usurper",
+   "oracle_id": "7dd4a1a1-d5f4-4ac7-a9f6-34af411f070b",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:kaya_spirits_justice",
+   "name": "Kaya, Spirits' Justice",
+   "oracle_id": "0a094c5f-cefb-4ba1-90c8-dd78ae8efe95",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:kaya_the_inexorable",
+   "name": "Kaya the Inexorable",
+   "oracle_id": "13a4f88b-6832-43a1-b4fa-c1ee60560bad",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:ketria_triome",
    "name": "Ketria Triome",
    "oracle_id": "6bae00e8-06cf-4ac4-a1cc-757e454109fe",
@@ -11488,6 +12396,42 @@
    "oracle_id": "1593ea18-2f2f-4ab4-83fb-6ccc0bec8a90",
    "origins": [
     "original_primeval_dragons_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:koth_fire_of_resistance",
+   "name": "Koth, Fire of Resistance",
+   "oracle_id": "2c75b870-263b-41ab-9ece-6e3845bc3d8d",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:koth_of_the_hammer",
+   "name": "Koth of the Hammer",
+   "oracle_id": "589186e0-3ebe-46a3-a9e7-798b1712fa93",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:koth_of_the_homestead",
+   "name": "Koth of the Homestead",
+   "oracle_id": "567aeb60-a441-41b1-98f4-54510d299317",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:koth_the_geomancer",
+   "name": "Koth, the Geomancer",
+   "oracle_id": "3b17da84-ae4d-4fc1-a327-85e54e6156c6",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -11628,6 +12572,24 @@
    "oracle_id": "74d3277a-38e5-4732-afed-084a56148f20",
    "origins": [
     "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:melira_sylvok_outcast",
+   "name": "Melira, Sylvok Outcast",
+   "oracle_id": "a6f72f15-d103-49fb-a808-054b278d00a8",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:melira_the_living_cure",
+   "name": "Melira, the Living Cure",
+   "oracle_id": "6bb8c22c-8b01-45f8-8c9e-f683e6b4f022",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -13073,6 +14035,15 @@
    "type": "Card"
   },
   {
+   "id": "card:the_seedcore",
+   "name": "The Seedcore",
+   "oracle_id": "249fdd3e-376c-4ec2-a612-4353e0e61ee2",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:the_ur_dragon",
    "name": "The Ur-Dragon",
    "oracle_id": "87b22b09-4f6d-4bc5-9cfc-663e4c7c6981",
@@ -13094,6 +14065,24 @@
    "id": "card:tiana_ship_s_caretaker",
    "name": "Tiana, Ship's Caretaker",
    "oracle_id": "80f8fb4c-cc6d-4b41-abb3-471dc96d4b2a",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:tibalt_rakish_instigator",
+   "name": "Tibalt, Rakish Instigator",
+   "oracle_id": "0b768f8f-2213-45b9-bced-8fb1bbb441c3",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:tibalt_the_fiend_blooded",
+   "name": "Tibalt, the Fiend-Blooded",
+   "oracle_id": "ee9c57c6-41ef-4328-8417-e5a433eadf17",
    "origins": [
     "card_name_anchors_2026-10-30.json"
    ],
@@ -13161,6 +14150,15 @@
    "oracle_id": "72524f3c-674b-4ebf-9526-18737b354010",
    "origins": [
     "original_primeval_dragons_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:tyvar_kell",
+   "name": "Tyvar Kell",
+   "oracle_id": "14c8a590-88ec-4982-ad7b-36a219ff6de7",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -13494,6 +14492,96 @@
    "type": "Card"
   },
   {
+   "id": "card:vraska_betrayal_s_sting",
+   "name": "Vraska, Betrayal's Sting",
+   "oracle_id": "05d09c55-f551-4cb4-a8d2-4811dccc848d",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:vraska_golgari_queen",
+   "name": "Vraska, Golgari Queen",
+   "oracle_id": "131096a3-2d53-4ec2-96d3-fcb58e698a13",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:vraska_regal_gorgon",
+   "name": "Vraska, Regal Gorgon",
+   "oracle_id": "7616e834-4852-40c8-9de6-d89f96119f12",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:vraska_relic_seeker",
+   "name": "Vraska, Relic Seeker",
+   "oracle_id": "3c037103-5af0-40a8-bbbe-7f3f5958b6e9",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:vraska_scheming_gorgon",
+   "name": "Vraska, Scheming Gorgon",
+   "oracle_id": "83045a9c-57da-411f-80aa-56178d14856b",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:vraska_soul_of_stone",
+   "name": "Vraska, Soul of Stone",
+   "oracle_id": "cad63b31-667b-4518-bc49-be4ffb82bc63",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:vraska_swarm_s_eminence",
+   "name": "Vraska, Swarm's Eminence",
+   "oracle_id": "cff8b4e9-c60c-42c1-ad2e-74ae9d7f3afb",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:vraska_the_cutting_glare",
+   "name": "Vraska, the Cutting Glare",
+   "oracle_id": "580de511-863c-4b7a-9d2e-fcdf6e12d54b",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:vraska_the_silencer",
+   "name": "Vraska, the Silencer",
+   "oracle_id": "e7c5a568-3855-4a20-9edf-01a8a6a4ba97",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:vraska_the_unseen",
+   "name": "Vraska the Unseen",
+   "oracle_id": "0d2bbce0-8c27-4b82-ab62-51a0c3cfc9b0",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:wasp_of_the_bitter_end",
    "name": "Wasp of the Bitter End",
    "oracle_id": "9331cfd7-a818-45ed-9e4a-4d3c381052e0",
@@ -13683,7 +14771,8 @@
    "name": "Ajani",
    "origins": [
     "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json",
-    "pack_c2_return_to_dominaria_2026-10-30.json"
+    "pack_c2_return_to_dominaria_2026-10-30.json",
+    "pack_c3_assault_on_new_phyrexia_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -13764,6 +14853,7 @@
    "id": "character:elesh_norn",
    "name": "Elesh Norn",
    "origins": [
+    "pack_c3_assault_on_new_phyrexia_2026-10-30.json",
     "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json"
    ],
    "type": "Character"
@@ -13772,7 +14862,8 @@
    "id": "character:elspeth_tirel",
    "name": "Elspeth Tirel",
    "origins": [
-    "pack_a5_ugin_allies_2026-10-30.json"
+    "pack_a5_ugin_allies_2026-10-30.json",
+    "pack_c3_assault_on_new_phyrexia_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -13821,7 +14912,8 @@
    "id": "character:jace_beleren",
    "name": "Jace Beleren",
    "origins": [
-    "pack_a5_ugin_allies_2026-10-30.json"
+    "pack_a5_ugin_allies_2026-10-30.json",
+    "pack_c3_assault_on_new_phyrexia_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -13859,12 +14951,29 @@
    "type": "Character"
   },
   {
+   "id": "character:kaito",
+   "name": "Kaito Shizuki",
+   "origins": [
+    "pack_c3_assault_on_new_phyrexia_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
    "id": "character:karn",
    "name": "Karn",
    "origins": [
     "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json",
     "pack_c2_return_to_dominaria_2026-10-30.json",
+    "pack_c3_assault_on_new_phyrexia_2026-10-30.json",
     "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:kaya",
+   "name": "Kaya",
+   "origins": [
+    "pack_c3_assault_on_new_phyrexia_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -13873,6 +14982,14 @@
    "name": "Kayla bin-Kroog",
    "origins": [
     "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:koth",
+   "name": "Koth",
+   "origins": [
+    "pack_c3_assault_on_new_phyrexia_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -13901,6 +15018,14 @@
    "type": "Character"
   },
   {
+   "id": "character:melira",
+   "name": "Melira",
+   "origins": [
+    "pack_c3_assault_on_new_phyrexia_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
    "id": "character:mishra",
    "name": "Mishra",
    "origins": [
@@ -13921,7 +15046,8 @@
    "id": "character:nahiri",
    "name": "Nahiri, the Lithomancer",
    "origins": [
-    "pack_a5_ugin_allies_2026-10-30.json"
+    "pack_a5_ugin_allies_2026-10-30.json",
+    "pack_c3_assault_on_new_phyrexia_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -13956,7 +15082,8 @@
    "id": "character:nissa_revane",
    "name": "Nissa Revane",
    "origins": [
-    "pack_c2_return_to_dominaria_2026-10-30.json"
+    "pack_c2_return_to_dominaria_2026-10-30.json",
+    "pack_c3_assault_on_new_phyrexia_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -14095,6 +15222,22 @@
    "type": "Character"
   },
   {
+   "id": "character:tibalt",
+   "name": "Tibalt",
+   "origins": [
+    "pack_c3_assault_on_new_phyrexia_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:tyvar",
+   "name": "Tyvar Kell",
+   "origins": [
+    "pack_c3_assault_on_new_phyrexia_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
    "id": "character:ugin",
    "name": "Ugin",
    "origins": [
@@ -14126,6 +15269,14 @@
    "name": "Venser",
    "origins": [
     "pack_c2_return_to_dominaria_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:vraska",
+   "name": "Vraska",
+   "origins": [
+    "pack_c3_assault_on_new_phyrexia_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -15082,6 +16233,222 @@
   },
   {
    "grade": "CANON_CONFIRMED",
+   "id": "claim:ONE001",
+   "name": "Elesh Norn's World Tree, Realmbreaker, is planted in New Phyrexia's Seedcore.",
+   "origins": [
+    "pack_c3_assault_on_new_phyrexia_2026-10-30.json"
+   ],
+   "predicate": "planted",
+   "stage": "one_strike_2023",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:ONE002",
+   "name": "Realmbreaker is rooted in the Seedcore.",
+   "origins": [
+    "pack_c3_assault_on_new_phyrexia_2026-10-30.json"
+   ],
+   "predicate": "located_in",
+   "stage": "one_strike_2023",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:ONE003",
+   "name": "Elesh Norn imprisoned Karn in the Seedcore.",
+   "origins": [
+    "pack_c3_assault_on_new_phyrexia_2026-10-30.json"
+   ],
+   "predicate": "imprisoned",
+   "stage": "one_strike_2023",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:ONE004",
+   "name": "The strike team carried a sylex to destroy Realmbreaker before it could connect New Phyrexia to the Multiverse.",
+   "origins": [
+    "pack_c3_assault_on_new_phyrexia_2026-10-30.json"
+   ],
+   "predicate": "intended_to_destroy",
+   "stage": "one_strike_2023",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:ONE005",
+   "name": "Ajani has been compleated (absorbed into Phyrexia).",
+   "origins": [
+    "pack_c3_assault_on_new_phyrexia_2026-10-30.json"
+   ],
+   "predicate": "underwent",
+   "stage": "one_strike_2023",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:ONE006",
+   "limitation": "The episode describes the transformation; the word 'compleated' is not applied to Tibalt in these quotes.",
+   "name": "Tibalt appears transformed into a Phyrexian.",
+   "origins": [
+    "pack_c3_assault_on_new_phyrexia_2026-10-30.json"
+   ],
+   "predicate": "underwent",
+   "stage": "one_strike_2023",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:ONE007",
+   "name": "Vraska was compleated before the strike team could reach her.",
+   "origins": [
+    "pack_c3_assault_on_new_phyrexia_2026-10-30.json"
+   ],
+   "predicate": "underwent",
+   "stage": "one_strike_2023",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:ONE008",
+   "limitation": "Jace stays only briefly; he rejoins the group later in Episode 3. Vraska's fate is covered by ONE007.",
+   "name": "In Sheoldred's Coliseum, Jace stays with Vraska as the others flee.",
+   "origins": [
+    "pack_c3_assault_on_new_phyrexia_2026-10-30.json"
+   ],
+   "predicate": "stayed_with",
+   "stage": "one_strike_2023",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:ONE009",
+   "limitation": "Only partial compleation is shown at this point in the episode.",
+   "name": "By Episode 5, Jace shows rapidly advancing compleation (wires spreading on his arm).",
+   "origins": [
+    "pack_c3_assault_on_new_phyrexia_2026-10-30.json"
+   ],
+   "predicate": "underwent",
+   "stage": "one_strike_2023",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:ONE010",
+   "name": "Ajani is Elspeth's former mentor; they fight on the bridge over the void.",
+   "origins": [
+    "pack_c3_assault_on_new_phyrexia_2026-10-30.json"
+   ],
+   "predicate": "mentor_of",
+   "stage": "one_strike_2023",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:ONE011",
+   "name": "Elspeth fights the compleated Ajani and knocks him unconscious.",
+   "origins": [
+    "pack_c3_assault_on_new_phyrexia_2026-10-30.json"
+   ],
+   "predicate": "fought",
+   "stage": "one_strike_2023",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:ONE012",
+   "limitation": "The episode does not explicitly state that Tibalt died; no death is asserted.",
+   "name": "Tyvar fights the compleated Tibalt, stabs him with his own tail barbs and throws him from the bridge.",
+   "origins": [
+    "pack_c3_assault_on_new_phyrexia_2026-10-30.json"
+   ],
+   "predicate": "fought",
+   "stage": "one_strike_2023",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:ONE013",
+   "name": "Elspeth stabs the compleating Jace to stop him detonating the sylex, and takes the sylex.",
+   "origins": [
+    "pack_c3_assault_on_new_phyrexia_2026-10-30.json"
+   ],
+   "predicate": "struck_down",
+   "stage": "one_strike_2023",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:ONE014",
+   "limitation": "Its destination is unknown in this episode; nothing about her fate is asserted from later stories.",
+   "name": "Elspeth vanishes with the activating sylex beyond the Blind Eternities.",
+   "origins": [
+    "pack_c3_assault_on_new_phyrexia_2026-10-30.json"
+   ],
+   "predicate": "carried_away",
+   "stage": "one_strike_2023",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:ONE015",
+   "name": "Realmbreaker activates and its branches carry Phyrexian invaders to other planes, setting up March of the Machine.",
+   "origins": [
+    "pack_c3_assault_on_new_phyrexia_2026-10-30.json"
+   ],
+   "predicate": "spread_invasion_across",
+   "stage": "one_strike_2023",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:ONE016",
+   "limitation": "The second quote is Elesh Norn speaking (an in-universe, partisan perspective).",
+   "name": "Nahiri returns compleated, as Elesh Norn proclaims.",
+   "origins": [
+    "pack_c3_assault_on_new_phyrexia_2026-10-30.json"
+   ],
+   "predicate": "underwent",
+   "stage": "one_strike_2023",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:ONE017",
+   "limitation": "'Sisters ... same side' is Elesh Norn speaking.",
+   "name": "Nissa appears compleated at Elesh Norn's side, alongside Nahiri.",
+   "origins": [
+    "pack_c3_assault_on_new_phyrexia_2026-10-30.json"
+   ],
+   "predicate": "underwent",
+   "stage": "one_strike_2023",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:ONE018",
+   "name": "Koth is a born Mirran.",
+   "origins": [
+    "pack_c3_assault_on_new_phyrexia_2026-10-30.json"
+   ],
+   "predicate": "native_of",
+   "stage": "one_strike_2023",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:ONE019",
+   "name": "Melira is a born Mirran.",
+   "origins": [
+    "pack_c3_assault_on_new_phyrexia_2026-10-30.json"
+   ],
+   "predicate": "native_of",
+   "stage": "one_strike_2023",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
    "id": "claim:RTD001",
    "name": "Jhoira raises the sunken Weatherlight with merfolk and a human salvage crew and begins rebuilding it.",
    "origins": [
@@ -15716,6 +17083,14 @@
    "type": "Claim"
   },
   {
+   "id": "concept:compleation",
+   "name": "Phyrexian compleation",
+   "origins": [
+    "pack_c3_assault_on_new_phyrexia_2026-10-30.json"
+   ],
+   "type": "Concept"
+  },
+  {
    "id": "concept:eldrazi_titans",
    "name": "Eldrazi titans",
    "origins": [
@@ -15736,6 +17111,14 @@
    "name": "The Legacy (artifact collection)",
    "origins": [
     "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json"
+   ],
+   "type": "Concept"
+  },
+  {
+   "id": "concept:multiverse",
+   "name": "The Multiverse",
+   "origins": [
+    "pack_c3_assault_on_new_phyrexia_2026-10-30.json"
    ],
    "type": "Concept"
   },
@@ -15828,8 +17211,32 @@
    "type": "Concept"
   },
   {
+   "id": "curated:Characters Index.md#kaito-shizuki",
+   "name": "Characters Index.md#kaito-shizuki",
+   "origins": [
+    "lore_graph.json"
+   ],
+   "type": "Concept"
+  },
+  {
    "id": "curated:Characters Index.md#karn",
    "name": "Characters Index.md#karn",
+   "origins": [
+    "lore_graph.json"
+   ],
+   "type": "Concept"
+  },
+  {
+   "id": "curated:Characters Index.md#kaya",
+   "name": "Characters Index.md#kaya",
+   "origins": [
+    "lore_graph.json"
+   ],
+   "type": "Concept"
+  },
+  {
+   "id": "curated:Characters Index.md#koth",
+   "name": "Characters Index.md#koth",
    "origins": [
     "lore_graph.json"
    ],
@@ -15908,6 +17315,22 @@
    "type": "Concept"
   },
   {
+   "id": "curated:Characters Index.md#tibalt",
+   "name": "Characters Index.md#tibalt",
+   "origins": [
+    "lore_graph.json"
+   ],
+   "type": "Concept"
+  },
+  {
+   "id": "curated:Characters Index.md#tyvar-kell",
+   "name": "Characters Index.md#tyvar-kell",
+   "origins": [
+    "lore_graph.json"
+   ],
+   "type": "Concept"
+  },
+  {
    "id": "curated:Characters Index.md#ugin",
    "name": "Characters Index.md#ugin",
    "origins": [
@@ -15926,6 +17349,14 @@
   {
    "id": "curated:Characters Index.md#venser",
    "name": "Characters Index.md#venser",
+   "origins": [
+    "lore_graph.json"
+   ],
+   "type": "Concept"
+  },
+  {
+   "id": "curated:Characters Index.md#vraska",
+   "name": "Characters Index.md#vraska",
    "origins": [
     "lore_graph.json"
    ],
@@ -15996,8 +17427,32 @@
    "type": "Concept"
   },
   {
+   "id": "curated:Planeswalker Dossiers.md#kaito-shizuki",
+   "name": "Planeswalker Dossiers.md#kaito-shizuki",
+   "origins": [
+    "lore_graph.json"
+   ],
+   "type": "Concept"
+  },
+  {
    "id": "curated:Planeswalker Dossiers.md#karn",
    "name": "Planeswalker Dossiers.md#karn",
+   "origins": [
+    "lore_graph.json"
+   ],
+   "type": "Concept"
+  },
+  {
+   "id": "curated:Planeswalker Dossiers.md#kaya",
+   "name": "Planeswalker Dossiers.md#kaya",
+   "origins": [
+    "lore_graph.json"
+   ],
+   "type": "Concept"
+  },
+  {
+   "id": "curated:Planeswalker Dossiers.md#koth",
+   "name": "Planeswalker Dossiers.md#koth",
    "origins": [
     "lore_graph.json"
    ],
@@ -16070,6 +17525,14 @@
   {
    "id": "curated:Planeswalker Dossiers.md#venser",
    "name": "Planeswalker Dossiers.md#venser",
+   "origins": [
+    "lore_graph.json"
+   ],
+   "type": "Concept"
+  },
+  {
+   "id": "curated:Planeswalker Dossiers.md#vraska",
+   "name": "Planeswalker Dossiers.md#vraska",
    "origins": [
     "lore_graph.json"
    ],
@@ -16396,6 +17859,14 @@
    "type": "Place"
   },
   {
+   "id": "place:seedcore",
+   "name": "The Seedcore (New Phyrexia)",
+   "origins": [
+    "pack_c3_assault_on_new_phyrexia_2026-10-30.json"
+   ],
+   "type": "Place"
+  },
+  {
    "id": "place:shiv",
    "name": "Shiv",
    "origins": [
@@ -16450,6 +17921,7 @@
    "id": "plane:mirrodin",
    "name": "Mirrodin / New Phyrexia",
    "origins": [
+    "pack_c3_assault_on_new_phyrexia_2026-10-30.json",
     "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json"
    ],
    "type": "Plane"
@@ -16458,7 +17930,8 @@
    "id": "plane:new_phyrexia",
    "name": "New Phyrexia",
    "origins": [
-    "pack_c2_return_to_dominaria_2026-10-30.json"
+    "pack_c2_return_to_dominaria_2026-10-30.json",
+    "pack_c3_assault_on_new_phyrexia_2026-10-30.json"
    ],
    "type": "Plane"
   },
@@ -16828,6 +18301,61 @@
    "url": "https://magic.wizards.com/en/news/making-magic/prose-and-khans-part-2-2014-09-22"
   },
   {
+   "id": "source:one_ep1",
+   "kind": "official_story_episode",
+   "name": "Assault on New Phyrexia | Episode 1: Uncontrolled Descent",
+   "origins": [
+    "pack_c3_assault_on_new_phyrexia_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/assault-on-new-phyrexia-or-episode-1-uncontrolled-descent"
+  },
+  {
+   "id": "source:one_ep2",
+   "kind": "official_story_episode",
+   "name": "Assault on New Phyrexia | Episode 2: Unstable Foundations",
+   "origins": [
+    "pack_c3_assault_on_new_phyrexia_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/assault-on-new-phyrexia-or-episode-2-unstable-foundations"
+  },
+  {
+   "id": "source:one_ep3",
+   "kind": "official_story_episode",
+   "name": "Assault on New Phyrexia | Episode 3: Inconceivable Losses",
+   "origins": [
+    "pack_c3_assault_on_new_phyrexia_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/assault-on-new-phyrexia-or-episode-3-inconceivable-losses"
+  },
+  {
+   "id": "source:one_ep4",
+   "kind": "official_story_episode",
+   "name": "Assault on New Phyrexia | Episode 4: Impossible Odds",
+   "origins": [
+    "pack_c3_assault_on_new_phyrexia_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/assault-on-new-phyrexia-or-episode-4-impossible-odds"
+  },
+  {
+   "id": "source:one_ep5",
+   "kind": "official_story_episode",
+   "name": "Assault on New Phyrexia | Episode 5: Inevitable Resolutions",
+   "origins": [
+    "pack_c3_assault_on_new_phyrexia_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/assault-on-new-phyrexia-or-episode-5-inevitable-resolutions"
+  },
+  {
    "id": "source:perspectives",
    "name": "Chronicle of Bolas: Perspectives",
    "origins": [
@@ -17137,37 +18665,37 @@
  "problems": [],
  "schema": "multiverse-claim-graph/v1",
  "stats": {
-  "claim_edges_with_era": 149,
+  "claim_edges_with_era": 168,
   "claim_edges_with_in_universe_date": 0,
   "claims_by_status": {
    "ALTERNATE_CONTINUITY": 1,
-   "CANON_CONFIRMED": 116,
+   "CANON_CONFIRMED": 135,
    "CANON_DISPUTED": 7,
    "CANON_IMPLIED": 7,
    "OPEN_QUESTION": 2
   },
-  "curated_bridges": 39,
-  "edges": 1215,
+  "curated_bridges": 49,
+  "edges": 1330,
   "literal_objects": 12,
   "node_types": {
    "AlternateContinuity": 1,
-   "Card": 411,
+   "Card": 439,
    "CardTheme": 1,
-   "Character": 56,
-   "Claim": 133,
-   "Concept": 44,
+   "Character": 63,
+   "Claim": 152,
+   "Concept": 56,
    "DeckProposal": 3,
    "Event": 14,
    "Faction": 4,
    "Literal": 12,
-   "Object": 11,
-   "Place": 10,
+   "Object": 13,
+   "Place": 11,
    "Plane": 8,
-   "Source": 59
+   "Source": 64
   },
-  "nodes": 767,
+  "nodes": 841,
   "non_wizards_sources": 0,
-  "relations": 130,
-  "wizards_official_sources": 59
+  "relations": 140,
+  "wizards_official_sources": 64
  }
 }

@@ -698,6 +698,23 @@
    ]
   },
   {
+   "entity": "kaito",
+   "entity_type": "Character",
+   "entity_name": "Kaito Shizuki",
+   "aliases": [
+    "Kaito Shizuki"
+   ],
+   "pack": "pack_c3_assault_on_new_phyrexia_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Kaito Shizuki",
+     "oracle_id": "ba48e067-f4d9-45b2-ade1-71cf8cda418c",
+     "type_line": "Legendary Planeswalker — Kaito",
+     "scryfall_uri": "https://scryfall.com/card/neo/226/kaito-shizuki"
+    }
+   ]
+  },
+  {
    "entity": "karn",
    "entity_type": "Character",
    "entity_name": "Karn",
@@ -757,6 +774,94 @@
    ]
   },
   {
+   "entity": "kaya",
+   "entity_type": "Character",
+   "entity_name": "Kaya",
+   "aliases": [
+    "Kaya"
+   ],
+   "pack": "pack_c3_assault_on_new_phyrexia_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Kaya the Inexorable",
+     "oracle_id": "13a4f88b-6832-43a1-b4fa-c1ee60560bad",
+     "type_line": "Legendary Planeswalker — Kaya",
+     "scryfall_uri": "https://scryfall.com/card/khm/218/kaya-the-inexorable"
+    },
+    {
+     "name": "Kaya, Bane of the Dead",
+     "oracle_id": "29d58aa4-9a7e-4052-9b0d-fc282f1be40e",
+     "type_line": "Legendary Planeswalker — Kaya",
+     "scryfall_uri": "https://scryfall.com/card/war/231/kaya-bane-of-the-dead"
+    },
+    {
+     "name": "Kaya, Geist Hunter",
+     "oracle_id": "e0edb2fc-2533-407c-85e5-4337f4233f05",
+     "type_line": "Legendary Planeswalker — Kaya",
+     "scryfall_uri": "https://scryfall.com/card/tdc/294/kaya-geist-hunter"
+    },
+    {
+     "name": "Kaya, Ghost Assassin",
+     "oracle_id": "5e4c81b9-a31e-45e6-983f-30f11b8a05c0",
+     "type_line": "Legendary Planeswalker — Kaya",
+     "scryfall_uri": "https://scryfall.com/card/cn2/75/kaya-ghost-assassin"
+    },
+    {
+     "name": "Kaya, Intangible Slayer",
+     "oracle_id": "9260ae3d-59bf-4e46-a13e-930754c3f0d2",
+     "type_line": "Legendary Planeswalker — Kaya",
+     "scryfall_uri": "https://scryfall.com/card/one/205/kaya-intangible-slayer"
+    },
+    {
+     "name": "Kaya, Orzhov Usurper",
+     "oracle_id": "7dd4a1a1-d5f4-4ac7-a9f6-34af411f070b",
+     "type_line": "Legendary Planeswalker — Kaya",
+     "scryfall_uri": "https://scryfall.com/card/rvr/194/kaya-orzhov-usurper"
+    },
+    {
+     "name": "Kaya, Spirits' Justice",
+     "oracle_id": "0a094c5f-cefb-4ba1-90c8-dd78ae8efe95",
+     "type_line": "Legendary Planeswalker — Kaya",
+     "scryfall_uri": "https://scryfall.com/card/mkm/211/kaya-spirits-justice"
+    }
+   ]
+  },
+  {
+   "entity": "koth",
+   "entity_type": "Character",
+   "entity_name": "Koth",
+   "aliases": [
+    "Koth"
+   ],
+   "pack": "pack_c3_assault_on_new_phyrexia_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Koth of the Hammer",
+     "oracle_id": "589186e0-3ebe-46a3-a9e7-798b1712fa93",
+     "type_line": "Legendary Planeswalker — Koth",
+     "scryfall_uri": "https://scryfall.com/card/ddi/44/koth-of-the-hammer"
+    },
+    {
+     "name": "Koth of the Homestead",
+     "oracle_id": "567aeb60-a441-41b1-98f4-54510d299317",
+     "type_line": "Legendary Creature — Human Citizen",
+     "scryfall_uri": "https://scryfall.com/card/fra/199/koth-of-the-homestead"
+    },
+    {
+     "name": "Koth, Fire of Resistance",
+     "oracle_id": "2c75b870-263b-41ab-9ece-6e3845bc3d8d",
+     "type_line": "Legendary Planeswalker — Koth",
+     "scryfall_uri": "https://scryfall.com/card/one/138/koth-fire-of-resistance"
+    },
+    {
+     "name": "Koth, the Geomancer",
+     "oracle_id": "3b17da84-ae4d-4fc1-a327-85e54e6156c6",
+     "type_line": "Legendary Creature — Human Warrior",
+     "scryfall_uri": "https://scryfall.com/card/fra/248/koth-the-geomancer"
+    }
+   ]
+  },
+  {
    "entity": "liliana_vess",
    "entity_type": "Character",
    "entity_name": "Liliana Vess",
@@ -787,6 +892,29 @@
      "oracle_id": "592c91fc-6430-4c76-9460-65f047350f67",
      "type_line": "Legendary Creature — Angel",
      "scryfall_uri": "https://scryfall.com/card/fdn/738/lyra-dawnbringer"
+    }
+   ]
+  },
+  {
+   "entity": "melira",
+   "entity_type": "Character",
+   "entity_name": "Melira",
+   "aliases": [
+    "Melira"
+   ],
+   "pack": "pack_c3_assault_on_new_phyrexia_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Melira, Sylvok Outcast",
+     "oracle_id": "a6f72f15-d103-49fb-a808-054b278d00a8",
+     "type_line": "Legendary Creature — Human Scout",
+     "scryfall_uri": "https://scryfall.com/card/nph/115/melira-sylvok-outcast"
+    },
+    {
+     "name": "Melira, the Living Cure",
+     "oracle_id": "6bb8c22c-8b01-45f8-8c9e-f683e6b4f022",
+     "type_line": "Legendary Creature — Human Scout",
+     "scryfall_uri": "https://scryfall.com/card/one/209/melira-the-living-cure"
     }
    ]
   },
@@ -1280,6 +1408,23 @@
    ]
   },
   {
+   "entity": "seedcore",
+   "entity_type": "Place",
+   "entity_name": "The Seedcore (New Phyrexia)",
+   "aliases": [
+    "The Seedcore"
+   ],
+   "pack": "pack_c3_assault_on_new_phyrexia_2026-10-30.json",
+   "cards": [
+    {
+     "name": "The Seedcore",
+     "oracle_id": "249fdd3e-376c-4ec2-a612-4353e0e61ee2",
+     "type_line": "Land — Sphere",
+     "scryfall_uri": "https://scryfall.com/card/one/259/the-seedcore"
+    }
+   ]
+  },
+  {
    "entity": "shanna",
    "entity_type": "Character",
    "entity_name": "Shanna",
@@ -1517,6 +1662,29 @@
    ]
   },
   {
+   "entity": "tibalt",
+   "entity_type": "Character",
+   "entity_name": "Tibalt",
+   "aliases": [
+    "Tibalt"
+   ],
+   "pack": "pack_c3_assault_on_new_phyrexia_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Tibalt, Rakish Instigator",
+     "oracle_id": "0b768f8f-2213-45b9-bced-8fb1bbb441c3",
+     "type_line": "Legendary Planeswalker — Tibalt",
+     "scryfall_uri": "https://scryfall.com/card/war/146/tibalt-rakish-instigator"
+    },
+    {
+     "name": "Tibalt, the Fiend-Blooded",
+     "oracle_id": "ee9c57c6-41ef-4328-8417-e5a433eadf17",
+     "type_line": "Legendary Planeswalker — Tibalt",
+     "scryfall_uri": "https://scryfall.com/card/ddk/41/tibalt-the-fiend-blooded"
+    }
+   ]
+  },
+  {
    "entity": "tomb_spirit_dragon",
    "entity_type": "Place",
    "entity_name": "Tomb of the Spirit Dragon",
@@ -1530,6 +1698,23 @@
      "oracle_id": "22f6391e-2634-440f-af1b-9581d1bff818",
      "type_line": "Land",
      "scryfall_uri": "https://scryfall.com/card/cmm/1048/tomb-of-the-spirit-dragon"
+    }
+   ]
+  },
+  {
+   "entity": "tyvar",
+   "entity_type": "Character",
+   "entity_name": "Tyvar Kell",
+   "aliases": [
+    "Tyvar Kell"
+   ],
+   "pack": "pack_c3_assault_on_new_phyrexia_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Tyvar Kell",
+     "oracle_id": "14c8a590-88ec-4982-ad7b-36a219ff6de7",
+     "type_line": "Legendary Planeswalker — Tyvar",
+     "scryfall_uri": "https://scryfall.com/card/khm/198/tyvar-kell"
     }
    ]
   },
@@ -1691,6 +1876,77 @@
    ]
   },
   {
+   "entity": "vraska",
+   "entity_type": "Character",
+   "entity_name": "Vraska",
+   "aliases": [
+    "Vraska"
+   ],
+   "pack": "pack_c3_assault_on_new_phyrexia_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Vraska the Unseen",
+     "oracle_id": "0d2bbce0-8c27-4b82-ab62-51a0c3cfc9b0",
+     "type_line": "Legendary Planeswalker — Vraska",
+     "scryfall_uri": "https://scryfall.com/card/c19/207/vraska-the-unseen"
+    },
+    {
+     "name": "Vraska, Betrayal's Sting",
+     "oracle_id": "05d09c55-f551-4cb4-a8d2-4811dccc848d",
+     "type_line": "Legendary Planeswalker — Vraska",
+     "scryfall_uri": "https://scryfall.com/card/ecc/88/vraska-betrayals-sting"
+    },
+    {
+     "name": "Vraska, Golgari Queen",
+     "oracle_id": "131096a3-2d53-4ec2-96d3-fcb58e698a13",
+     "type_line": "Legendary Planeswalker — Vraska",
+     "scryfall_uri": "https://scryfall.com/card/grn/213/vraska-golgari-queen"
+    },
+    {
+     "name": "Vraska, Regal Gorgon",
+     "oracle_id": "7616e834-4852-40c8-9de6-d89f96119f12",
+     "type_line": "Legendary Planeswalker — Vraska",
+     "scryfall_uri": "https://scryfall.com/card/grn/269/vraska-regal-gorgon"
+    },
+    {
+     "name": "Vraska, Relic Seeker",
+     "oracle_id": "3c037103-5af0-40a8-bbbe-7f3f5958b6e9",
+     "type_line": "Legendary Planeswalker — Vraska",
+     "scryfall_uri": "https://scryfall.com/card/xln/232/vraska-relic-seeker"
+    },
+    {
+     "name": "Vraska, Scheming Gorgon",
+     "oracle_id": "83045a9c-57da-411f-80aa-56178d14856b",
+     "type_line": "Legendary Planeswalker — Vraska",
+     "scryfall_uri": "https://scryfall.com/card/rix/197/vraska-scheming-gorgon"
+    },
+    {
+     "name": "Vraska, Soul of Stone",
+     "oracle_id": "cad63b31-667b-4518-bc49-be4ffb82bc63",
+     "type_line": "Legendary Creature — Gorgon Wizard",
+     "scryfall_uri": "https://scryfall.com/card/fra/277/vraska-soul-of-stone"
+    },
+    {
+     "name": "Vraska, Swarm's Eminence",
+     "oracle_id": "cff8b4e9-c60c-42c1-ad2e-74ae9d7f3afb",
+     "type_line": "Legendary Planeswalker — Vraska",
+     "scryfall_uri": "https://scryfall.com/card/war/236/vraska-swarms-eminence"
+    },
+    {
+     "name": "Vraska, the Cutting Glare",
+     "oracle_id": "580de511-863c-4b7a-9d2e-fcdf6e12d54b",
+     "type_line": "Legendary Creature — Gorgon Assassin",
+     "scryfall_uri": "https://scryfall.com/card/fra/278/vraska-the-cutting-glare"
+    },
+    {
+     "name": "Vraska, the Silencer",
+     "oracle_id": "e7c5a568-3855-4a20-9edf-01a8a6a4ba97",
+     "type_line": "Legendary Creature — Gorgon Assassin",
+     "scryfall_uri": "https://scryfall.com/card/otj/237/vraska-the-silencer"
+    }
+   ]
+  },
+  {
    "entity": "weatherlight",
    "entity_type": "Object",
    "entity_name": "Weatherlight (skyship)",
@@ -1755,7 +2011,9 @@
   "kayla_bin_kroog",
   "kuberr",
   "last_battle_argoth",
+  "one_sylex",
   "original_tarkir_clash",
+  "realmbreaker",
   "rtd_sylex",
   "sylex_blast",
   "sylex_replica",
@@ -1771,12 +2029,14 @@
  ],
  "excluded_unset_cards": [
   "Arvad of the Weatherlight",
+  "Kaya, Ghost Haunter",
+  "Tibalt the Chaotic",
   "Urza, Academy Headmaster"
  ],
  "counts": {
-  "entities_anchored": 67,
-  "anchor_edges": 165,
-  "unanchored_entities": 24
+  "entities_anchored": 75,
+  "anchor_edges": 193,
+  "unanchored_entities": 26
  },
- "content_sha256": "cbe85371e5daf55cfd85cc5d4d740881e96662308fc85334931019c30ffea365"
+ "content_sha256": "af1dedeaf7e11bc78238e7fe2f2beb361efd3a5d9f18fc90b37d03ad350b1284"
 }
