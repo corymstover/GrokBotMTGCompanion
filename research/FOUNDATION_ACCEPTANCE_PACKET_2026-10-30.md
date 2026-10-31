@@ -14,7 +14,7 @@ This source-graded packet is reproducible from the repository, with exact input 
 ## In-universe chronology (not a complete timeline)
 
 - Legacy ledger: 56 events, 177/3074 ordered event pairs; 2897 unresolved, 13 components, 0 cycles.
-- Source-local ledger: 31 events, 52/465 pairs. These counts are separate, not additive.
+- Source-local ledger: 51 events, 101/1275 pairs. These counts are separate, not additive.
 - L244 cross-source historical ordering remains open. UNKNOWN is the correct answer when no cited bridge exists.
 
 ## Representative end-to-end questions
@@ -59,6 +59,10 @@ This source-graded packet is reproducible from the repository, with exact input 
 | What is the history of Meditation Realm? | `ask->plane_history` | `QUALIFIED` | 6 |
 | What is the history of Muraganda? | `ask->plane_history` | `QUALIFIED` | 2 |
 | What is the history of Skalla? | `ask->plane_history` | `QUALIFIED` | 4 |
+| Did M:ancient_magic_discovered happen before M:ancient_collapse? | `ask->chronology` | `QUALIFIED` | 1 |
+| Did M:ancient_collapse happen before M:moons_shatter? | `ask->chronology` | `QUALIFIED` | 0 |
+| Did B:bolas_attacks happen before B:realm_cataclysm? | `ask->chronology` | `QUALIFIED` | 1 |
+| Did B:bolas_displaced happen before B:ugin_reforms? | `ask->chronology` | `QUALIFIED` | 0 |
 
 The underlying JSON retains response digests, exact source URLs and caveat flags. The two graph-navigation examples are **not** evidence of chronological or causal paths.
 
@@ -81,6 +85,6 @@ python3 scripts/certification_dry_run.py --check
 python3 scripts/update_multiverse_progress_tracker.py --check
 ```
 
-Packet SHA-256 (canonical JSON): `4ea615c9e857e256069bc8ed983ef21a09a37acfd904a3c5f0e57943c62911e8`
+Packet SHA-256 (canonical JSON): `135f88e89b2687a05216883975901c8fd753cd9bd46b216c911f638d55579f38`
 
 **No decks were built, modified, reviewed or approved.**
