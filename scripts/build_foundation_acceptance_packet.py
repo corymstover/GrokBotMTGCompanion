@@ -56,6 +56,12 @@ QA_CASES = [
      'ask->set_atlas:card_printings', 'QUALIFIED'),
     ('rules_published_interaction', "How does Urza's Saga interact with Urza's Tower?",
      'ask->rules_evidence:interaction', 'QUALIFIED'),
+    ('new_phyrexia_source_order',
+     'Did Karn introduces Phyrexian oil to Mirrodin happen before Mirran forces are overwhelmed in the early conquest?',
+     'ask->chronology', 'QUALIFIED'),
+    ('new_phyrexia_order_unknown',
+     'Did P:mirrans_overwhelmed happen before P:venser_restores_karn?',
+     'ask->chronology', 'QUALIFIED'),
 ]
 
 
@@ -77,6 +83,12 @@ def qa_cases() -> list[dict]:
             raise ValueError('Unanchored chronology was falsely answered or sourced')
         if key == 'source_order' and r['result']['relation'] != 'BEFORE':
             raise ValueError('Source-grounded chronology no longer supported')
+        if key == 'new_phyrexia_source_order' and (r['result']['relation'] != 'BEFORE' or
+                                                  len(r['result']['proof']) != 4):
+            raise ValueError('New Phyrexia source-local order lost its cited path')
+        if key == 'new_phyrexia_order_unknown' and (
+                r['result']['relation'] != 'UNKNOWN' or r['sources']):
+            raise ValueError('New Phyrexia unordered events falsely linked')
         if key == 'present_leader_unknown' and 'CURRENT_LEADER_NOT_ESTABLISHED' not in r['flags']:
             raise ValueError('Present-day leadership is overstated')
         if key == 'commander_identity' and not r['result']['allowed']:

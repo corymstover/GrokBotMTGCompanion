@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Reproducible source-local event orders for Kamigawa, Valley's legend, Duskmourn.
+"""Reproducible source-local event orders for Kamigawa, Valley, New Phyrexia and Duskmourn.
 
 This supplements, NEVER silently rewrites, the legacy Packs A–C partial order.
 Cross-strand comparisons return UNKNOWN. A narrated legend can be ordered only
@@ -145,6 +145,7 @@ def build() -> dict:
         'known_gaps': [
             'No primary-source edge joins distinct strand IDs, so cross-plane comparisons remain UNKNOWN.',
             'Valley events order an explicitly legendary in-world account, not objectively certified ancient history.',
+            'New Phyrexia events describe early Mirrodin conquest; the source does not order the complete war, the Mirrans being overwhelmed against Venser\'s sacrifice, or the political present after March of the Machine.',
             'A DURING_OR_AFTER_START relation is not a strict BEFORE edge and never participates in transitive ordering.',
             'Unknown original plane names, absolute AR years and missing historical events are not supplied.',
             'This source-local supplement does not replace the original Packs A–C chronology or certify L244.',

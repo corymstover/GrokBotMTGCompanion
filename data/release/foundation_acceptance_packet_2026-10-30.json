@@ -21,7 +21,7 @@
     },
     "source_local_chronology": {
       "path": "data/lore_research/source_event_sequences_2026-10-30.json",
-      "sha256": "0159769bf69db3b775585c13afc22321692c50ee5fa05e5d86786972954fee6b"
+      "sha256": "ef31178b2bcad43b91941c5ac40677480564ba817588a95639b87f8faa6cf5bd"
     },
     "story_coverage": {
       "path": "data/lore_research/story_coverage_inventory_2026-10-30.json",
@@ -55,9 +55,9 @@
     "legacy_unresolved_pairs": 2897,
     "legacy_disconnected_components": 13,
     "legacy_cycles": 0,
-    "source_local_events": 24,
-    "source_local_ordered_pairs": 37,
-    "source_local_total_pairs": 276,
+    "source_local_events": 31,
+    "source_local_ordered_pairs": 52,
+    "source_local_total_pairs": 465,
     "not_additive": "Legacy and source-local data are separately scoped; their pairs may not be summed as one chronology.",
     "l244_complete": false
   },
@@ -441,6 +441,37 @@
       "direct_claims": null,
       "chronology_relation": null,
       "known_limitations": []
+    },
+    {
+      "id": "new_phyrexia_source_order",
+      "question": "Did Karn introduces Phyrexian oil to Mirrodin happen before Mirran forces are overwhelmed in the early conquest?",
+      "route": "ask->chronology",
+      "confidence": "QUALIFIED",
+      "flags": [
+        "PARTIAL_IN_UNIVERSE_CHRONOLOGY"
+      ],
+      "sources": [
+        "https://magic.wizards.com/en/story/new-phyrexia-plane"
+      ],
+      "response_sha256": "30c09522baca6d54cff6479e2cf140afe7be0d1e35efe51766e6f32c8d5b1fcb",
+      "direct_claims": null,
+      "chronology_relation": "BEFORE",
+      "known_limitations": []
+    },
+    {
+      "id": "new_phyrexia_order_unknown",
+      "question": "Did P:mirrans_overwhelmed happen before P:venser_restores_karn?",
+      "route": "ask->chronology",
+      "confidence": "QUALIFIED",
+      "flags": [
+        "PARTIAL_IN_UNIVERSE_CHRONOLOGY",
+        "NO_CITED_CHRONOLOGY_PATH"
+      ],
+      "sources": [],
+      "response_sha256": "61d3364489f01cdeaf0ba20603c8510fe98da54f0d9c34fae4aac0395b4e1112",
+      "direct_claims": null,
+      "chronology_relation": "UNKNOWN",
+      "known_limitations": []
     }
   ],
   "cross_plane_graph_navigation": [
@@ -518,5 +549,5 @@
     "python3 scripts/update_multiverse_progress_tracker.py --check"
   ],
   "owner_review_status": "PENDING_NOT_REQUESTED_UNTIL_ENGINEERING_EVIDENCE_AND_CI_COMPLETE",
-  "content_sha256": "67f883e18b5f98e8b93021d17eefe9aa08fee999fffee010d3a3acc25823b618"
+  "content_sha256": "77f258a419a14489aaed405642f4a8d700dc36e21db92e2091f4ce98965f17ea"
 }

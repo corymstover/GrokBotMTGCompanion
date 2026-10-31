@@ -1,7 +1,7 @@
 # MTG Multiverse Companion — Master Workflow & Progress Checklist
 
-**Version:** 2.62
-**Checkpoint date:** 2026-10-30
+**Version:** 2.63
+**Checkpoint date:** 2026-10-31
 **Repository:** [corymstover/GrokBotMTGCompanion](https://github.com/corymstover/GrokBotMTGCompanion)  
 **Purpose:** Durable project roadmap and handoff document. Update this file after verified milestone work; do not treat historical figures as live counters.
 
@@ -22,6 +22,25 @@ foundation release may document inherently unresolved canon and future
 maintenance; it must never claim exhaustive knowledge of all MTG history.
 The 62 approved Grixis decks, their hashes and all owner gates remain intact.
 Only a new explicit request from Cory can override the Phase 6 hold.
+
+**v2.63 Phase 4 New Phyrexia source-local chronology (2026-10-31):**
+Extended the separately qualified Phase 4 source-local event ledger with
+**seven** existing claim-backed early-Mirrodin/New Phyrexia event labels and
+**six** source-quoted strict BEFORE edges from Wizards' official
+[New Phyrexia plane history](https://magic.wizards.com/en/story/new-phyrexia-plane).
+The evidence tracks Karn bringing the oil, underground corruption, the
+active conquest, Mirran resistance and the later restoration of Karn;
+its two branching paths **do not** invent whether the Mirran forces were
+overwhelmed before or after Venser's sacrifice. The ledger now contains
+**4 separate strands, 31 events, 23 strict edges, one non-ordering overlap,
+and 52/465 ordered pairs**; the 56-event legacy ledger remains separate.
+The normal `mv_ask.py ask` route can retrieve four-step cited proof and
+returns `UNKNOWN` for unsupported comparisons. The deterministic
+knowledge-only acceptance packet now checks **17 representative Q&A cases**,
+including a new positive and negative chronology example. This is a bounded
+source-evidence improvement, **not** complete L244 chronology, post-March of
+the Machine current politics, owner acceptance or foundation certification.
+The **83/137** checked engineering items are unchanged. No deckbuilding.
 
 **v2.62 Phase 7 published-rulings and keyword-rules Q&A (2026-10-30):**
 `scripts/ask_rules_evidence.py` connects the standard `mv_ask.py ask`
@@ -544,7 +563,7 @@ Infrastructure checkpoint: [PR #783](https://github.com/corymstover/GrokBotMTGCo
 
 ## Phase 4 — Foundational lore research packs
 
-- [x] **Add bounded source-local event order without conflating legend, history or real-world publication dates.** *(v2.56: 24 events across Kamigawa, narrated Valley tradition and Duskmourn; 17 strict BEFORE edges and one explicitly non-transitive DURING_OR_AFTER_START relation; 37/276 source-local pairs ordered. All 18 quoted relations live-checked against three official Wizards guides, with deterministic hashes, tests and a query path shared with the intact 56-event Packs A–C chronology. L244's total/cross-plane history is still unresolved; no deck-building gate is reopened. See `research/PHASE4_SOURCE_LOCAL_EVENT_SEQUENCES_2026-10-30.md`.)*
+- [x] **Add bounded source-local event order without conflating legend, history or real-world publication dates.** *(v2.56: 24 events across Kamigawa, narrated Valley tradition and Duskmourn; 17 strict BEFORE edges and one explicitly non-transitive DURING_OR_AFTER_START relation; 37/276 source-local pairs ordered. The initial 18 quoted relations were live-checked against three official Wizards guides. **v2.63:** seven further early New Phyrexia events and six official-overview source-quoted edges raise this separate ledger to **31 events, 23 strict edges, 52/465 ordered pairs in four strands**. The 56-event Packs A–C chronology is intact. Comparisons of Mirran overwhelm vs. Venser's sacrifice and all unbridged eras remain `UNKNOWN`. L244's total/cross-plane history is unresolved; no deckbuilding gate is reopened. See `research/PHASE4_SOURCE_LOCAL_EVENT_SEQUENCES_2026-10-30.md`.)*
 
 - [ ] **Pack A: Ugin, Nicol Bolas, Elder Dragon origins and the Elder Dragon War.** Chronology, rivalries, allies, factions, planes, cards and primary sources.
 - [x] **Pack A first primary-source claim foundation (2026-10-30):** 12 explicit claim records, 13 stable entity nodes and 10 Wizards sources with narrator-perspective, original/revised Tarkir, prison/escape and Echoverse boundaries. See `research/PACK_A_Ugin_Bolas_Elder_Dragon_Duality.md` and `data/lore_research/pack_a_ugin_bolas_evidence_2026-10-30.json`. This is **partial research progress**, not the completed genealogy, card-to-canon evidence or deck.
@@ -636,10 +655,10 @@ explicitly lifts the hold).
   - v2.60: the current tracker adds a generated four-state **14-gate foundation-release** triage from the dry-run's typed blockers. This does not pretend to classify all 137 engineering tasks or accept continuing maintenance; the broader all-item dashboard remains an open improvement.
 - [ ] Define an MTG Multiverse Companion milestone release based on verified features, not an arbitrary percentage of all lore. *(v2.42, Batch 14, [#911](https://github.com/corymstover/GrokBotMTGCompanion/pull/911): certification-checklist dry run `scripts/certification_dry_run.py` → `data/release/certification_dry_run_2026-10-30.json` / `research/CERTIFICATION_DRY_RUN_2026-10-30.md` lists the typed blockers for each release criterion and Phase 8 item (OWNER_APPROVAL 3, OWNER_DECISION 5, EXTERNAL_CI 3, MISSING_SOURCE 2, ENGINEERING_OPEN 4, ONGOING 4). It certifies nothing; accepting the definition is the owner's call.)*
   - Partial (2026-10-30): `scripts/release_readiness.py` ([PR #830](https://github.com/corymstover/GrokBotMTGCompanion/pull/830)) scores each written criterion from committed evidence. Current verdict: NOT_RELEASE_READY.
-  - v2.60: a source-graded, 12-case knowledge-only review packet was generated and CI-gated; v2.62 extends it to **15 cases** with dated set/printing/ruling queries. The dry-run distinguishes this **completed engineering packet** from pending exact-head release CI and Cory's foundation-scope decision. No release checklist acceptance is inferred.
+  - v2.60: a source-graded, 12-case knowledge-only review packet was generated and CI-gated; v2.62 extended it to 15 dated set/printing/ruling cases, and **v2.63 to 17** with a supported and unsupported New Phyrexia chronology comparison. The dry-run distinguishes this **completed engineering packet** from pending exact-head release CI and Cory's foundation-scope decision. No release checklist acceptance is inferred.
 - [ ] Treat continual future MTG releases as an ongoing maintenance track rather than a permanently finishable backlog.
 
-## Immediate execution queue — v2.62 FOUNDATION FIRST (2026-10-30)
+## Immediate execution queue — v2.63 FOUNDATION FIRST (2026-10-31)
 
 1. **Phase 4 — Verified in-universe chronology:** expand the source-quoted BEFORE/AFTER/UNKNOWN event order, resolve high-value L244 gaps where primary evidence exists, and retain unknown/disputed ordering instead of inventing total dates. Keep release chronology separate.
 2. **Phases 2/5 — Comprehensive history:** systematically deepen thin plane dossiers, major factions, characters, wars, artifacts and cross-plane consequences; record both coverage and missing primary sources. Currently thin registered planes remain a priority, not a census of all planes; regenerate the exact count from the dossier rather than treating this prose as a live counter.
