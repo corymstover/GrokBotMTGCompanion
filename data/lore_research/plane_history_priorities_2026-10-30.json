@@ -187,8 +187,7 @@
         "wc"
       ],
       "grades_present": [
-        "ALTERNATE_CONTINUITY",
-        "CANON_CONFIRMED"
+        "ALTERNATE_CONTINUITY"
       ],
       "research_priority": "EXPAND_NARRATIVE_DEPTH",
       "limitation": "Direct graph edges only; not the complete plane history or a canon completeness score."

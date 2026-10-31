@@ -1,6 +1,6 @@
 # MTG Multiverse Companion — Master Workflow & Progress Checklist
 
-**Version:** 2.75
+**Version:** 2.76
 **Checkpoint date:** 2026-10-31
 **Repository:** [corymstover/GrokBotMTGCompanion](https://github.com/corymstover/GrokBotMTGCompanion)  
 **Purpose:** Durable project roadmap and handoff document. Update this file after verified milestone work; do not treat historical figures as live counters.
@@ -22,6 +22,21 @@ foundation release may document inherently unresolved canon and future
 maintenance; it must never claim exhaustive knowledge of all MTG history.
 The 62 approved Grixis decks, their hashes and all owner gates remain intact.
 Only a new explicit request from Cory can override the Phase 6 hold.
+
+**v2.76 Bablovia Un-set continuity classification repair (2026-10-31):**
+Fixed legacy claim **SSX020** (Carta Scientia in Bablovia), which had been
+incorrectly graded `CANON_CONFIRMED` even though its verbatim 2017 Wizards
+*World Class* quotation comes from the separate *Unstable* silver-border
+setting. Verified Wizards' explicit 2022 continuity boundary and regenerated
+the claim source spec, audited claim pack, graph, plane dossiers and 49-case
+foundation Q&A packet. **All five Bablovia history facts now carry
+`ALTERNATE_CONTINUITY`**; graph-wide alternate count rises from six to seven,
+with one fewer ordinary-canon claim. Rebuilt using byte-verified pinned
+October 29 Scryfall Oracle/Default bulk, preserving the historic source
+baseline; new regression tests forbid a future canon promotion. **89/137
+checked, 48 open, NOT_RELEASE_READY**. The conditional owner acceptance,
+genealogy decisions, 62 approved decks and Phase 6 hold are unchanged.
+See `research/BABLOVIA_UNSET_CONTINUITY_CORRECTION_2026-10-31.md`.
 
 **v2.75 printing-backed unresolved lore reference audit (2026-10-31):**
 Independently replayed the current **October 30 Default Cards bulk** against

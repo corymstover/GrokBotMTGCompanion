@@ -2,7 +2,7 @@
   "schema": "plane-history-dossiers/v2",
   "as_of": "2026-10-30",
   "status": "PRELIMINARY_RESEARCH_NOT_OWNER_APPROVED",
-  "source_graph_sha256": "887bd1275047a15900a0c21a9c10c0f34204a12e7ee77da6f832e74dc9253ace",
+  "source_graph_sha256": "0aa114646b133d5bfff76df48a91a7d53c0bea9db9ade1b24402e42b902f0db0",
   "scope": "Named graph Plane nodes, direct incident claims, and an independently labeled curated subset of already cited on-plane story claims.",
   "chronology_policy": "Never infer ordering from article date, release date or an era_label; explicit dated quotes are retained verbatim as quoted metadata only.",
   "counts": {
@@ -13,8 +13,8 @@
     "planes_with_curated_context": 4,
     "distinct_contextual_claims": 53,
     "claim_edge_grades": {
-      "ALTERNATE_CONTINUITY": 4,
-      "CANON_CONFIRMED": 200,
+      "ALTERNATE_CONTINUITY": 5,
+      "CANON_CONFIRMED": 199,
       "CANON_DISPUTED": 2,
       "CANON_IMPLIED": 25,
       "OPEN_QUESTION": 1
@@ -1567,10 +1567,10 @@
         },
         {
           "claim_id": "SSX020",
-          "grade": "CANON_CONFIRMED",
+          "grade": "ALTERNATE_CONTINUITY",
           "continuity": "",
-          "statement": "The Carta Scientia is the oldest document in Bablovia (Unstable, 2017).",
-          "limitation": "",
+          "statement": "A Bablovian classroom narrator identifies the Carta Scientia as the oldest document in the Unstable setting (2017).",
+          "limitation": "ALTERNATE_CONTINUITY only: this is the silver-border Unstable world and a student narrator's account, not ordinary black-border Magic canon or a verified cross-plane historical fact.",
           "relation": "located_in",
           "subject": {
             "id": "artifact:carta_scientia",
@@ -8024,5 +8024,5 @@
       ]
     }
   ],
-  "content_sha256": "2410420ab1a99ef52dd0e590fa378a80fe609507af6c652d4069663bfc5ba5c2"
+  "content_sha256": "b95a20203a4d2ba82046c371a9c80a2ea5191be471738c664feca4d3cee79bba"
 }

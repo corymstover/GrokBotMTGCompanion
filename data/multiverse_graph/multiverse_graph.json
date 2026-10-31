@@ -7,7 +7,7 @@
   "HYPOTHETICAL": "Creative or deckbuilding connection; never canon.",
   "OPEN_QUESTION": "Primary sources leave the matter unresolved; do not assert either way."
  },
- "content_sha256": "887bd1275047a15900a0c21a9c10c0f34204a12e7ee77da6f832e74dc9253ace",
+ "content_sha256": "0aa114646b133d5bfff76df48a91a7d53c0bea9db9ade1b24402e42b902f0db0",
  "edges": [
   {
    "artists": [
@@ -28091,7 +28091,7 @@
    "era": "untagged_side_stories_2015_2026",
    "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "artifact:carta_scientia",
-   "grade": "CANON_CONFIRMED",
+   "grade": "ALTERNATE_CONTINUITY",
    "relation": "located_in",
    "sources": [
     "wc"
@@ -65656,7 +65656,7 @@
     "claims": 25,
     "entities": 46,
     "file": "data/lore_research/pack_p5_untagged_side_stories_2015_2026_2026-10-30.json",
-    "sha256": "31d9428355ad2030bfede7e102416735b8fc4561c809f5f9c006720f5538bc4f",
+    "sha256": "d99542f2197a32a6922aa5fa6eade4de1ea0257a71e1d62e551f7bb1f664858a",
     "sources": 16
    },
    {
@@ -65740,7 +65740,7 @@
     "claims": 13,
     "entities": 17,
     "file": "data/lore_research/pack_p5_last_four_thin_planes_2026-10-31.json",
-    "sha256": "9cf87c29bba12830ef39df654326a50831fcb04f947ebccb8a203f86a9287857",
+    "sha256": "a410f23bc97849e21d893116493a4696b725a853cbeb5faf3a39383fe18f30e9",
     "sources": 8
    }
   ],
@@ -97413,9 +97413,10 @@
    "type": "Claim"
   },
   {
-   "grade": "CANON_CONFIRMED",
+   "grade": "ALTERNATE_CONTINUITY",
    "id": "claim:SSX020",
-   "name": "The Carta Scientia is the oldest document in Bablovia (Unstable, 2017).",
+   "limitation": "ALTERNATE_CONTINUITY only: this is the silver-border Unstable world and a student narrator's account, not ordinary black-border Magic canon or a verified cross-plane historical fact.",
+   "name": "A Bablovian classroom narrator identifies the Carta Scientia as the oldest document in the Unstable setting (2017).",
    "origins": [
     "pack_p5_untagged_side_stories_2015_2026_2026-10-30.json"
    ],
@@ -122025,8 +122026,8 @@
   "claim_edges_with_era": 1302,
   "claim_edges_with_in_universe_date": 36,
   "claims_by_status": {
-   "ALTERNATE_CONTINUITY": 6,
-   "CANON_CONFIRMED": 989,
+   "ALTERNATE_CONTINUITY": 7,
+   "CANON_CONFIRMED": 988,
    "CANON_DISPUTED": 8,
    "CANON_IMPLIED": 253,
    "OPEN_QUESTION": 3

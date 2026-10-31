@@ -2,7 +2,7 @@
  "pack_id": "pack_p5_untagged_side_stories_2015_2026",
  "arc": "",
  "event_stage": "untagged_side_stories_2015_2026",
- "scope": "Batch 11 extraction from untagged 2015-2026 side stories and excerpts (Theros, Zendikar, Ravnica, Kaladesh, Amonkhet, Innistrad, Ixalan, Bablovia, Dominaria, New Phyrexia, Strixhaven). Claims are as of each page's publication. PRELIMINARY_RESEARCH; targeted, not exhaustive; not owner approved.",
+ "scope": "Batch 11 extraction from untagged 2015-2026 side stories and excerpts (Theros, Zendikar, Ravnica, Kaladesh, Amonkhet, Innistrad, Ixalan, Bablovia, Dominaria, New Phyrexia, Strixhaven). Claims are as of each page's publication. PRELIMINARY_RESEARCH; targeted, not exhaustive; not owner approved. The Bablovia item belongs to Unstable's separate silver-border world, not ordinary black-border MTG canon (Wizards, Get It? Unstable Edition, 2022).",
  "pages": {
   "drop": "drop-drop-2015-05-20",
   "stir": "stirring-slumber-2015-05-13",
@@ -530,14 +530,15 @@
    "subject": "carta_scientia",
    "predicate": "located_in",
    "object": "bablovia",
-   "grade": "CANON_CONFIRMED",
+   "grade": "ALTERNATE_CONTINUITY",
    "quotes": [
     {
      "page": "wc",
      "quote": "the Carta Scientia. It's the oldest document in all of Bablovia."
     }
    ],
-   "summary": "The Carta Scientia is the oldest document in Bablovia (Unstable, 2017)."
+   "summary": "A Bablovian classroom narrator identifies the Carta Scientia as the oldest document in the Unstable setting (2017).",
+   "limitation": "ALTERNATE_CONTINUITY only: this is the silver-border Unstable world and a student narrator's account, not ordinary black-border Magic canon or a verified cross-plane historical fact."
   },
   {
    "id": "SSX021",

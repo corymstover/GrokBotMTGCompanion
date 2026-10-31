@@ -1,9 +1,10 @@
 from mv import spec
-C,I="CANON_CONFIRMED","CANON_IMPLIED"
+C,I,A="CANON_CONFIRMED","CANON_IMPLIED","ALTERNATE_CONTINUITY"
 spec("pack_p5_untagged_side_stories_2015_2026","","untagged_side_stories_2015_2026",
 "Batch 11 extraction from untagged 2015-2026 side stories and excerpts (Theros, Zendikar, Ravnica, Kaladesh, Amonkhet, Innistrad, "
 "Ixalan, Bablovia, Dominaria, New Phyrexia, Strixhaven). Claims are as of each page's publication. PRELIMINARY_RESEARCH; targeted, "
-"not exhaustive; not owner approved.",
+"not exhaustive; not owner approved. The Bablovia item belongs to Unstable's separate silver-border world, "
+"not ordinary black-border MTG canon (Wizards, Get It? Unstable Edition, 2022).",
 {"drop":"drop-drop-2015-05-20","stir":"stirring-slumber-2015-05-13","plb":"project-lightning-bug-2015-05-27","prk":"pride-kraul-2017-05-31",
  "fob":"faith-birds-2022-08-17","gof":"garden-flesh-2022-05-03","dn":"dead-night-2016-11-30","imp":"impact-2017-03-29",
  "cl":"clans-legions-2018-10-24","tdw":"testing-dark-waters-2018-10-17","dev":"devouring-house-2021-11-19","nts":"note-stranger-2022-05-02",
@@ -47,7 +48,9 @@ spec("pack_p5_untagged_side_stories_2015_2026","","untagged_side_stories_2015_20
  "The Traveler's Noticeboard, visible only to planeswalkers, hangs in Precinct Five on Ravnica (2022)."),
 ("SSX019","frederic","escorted","vivien_reid",I,[("unb","Frederic, the vampire huntsman who'd elected himself her escort")],"The vampire huntsman Frederic appointed himself Vivien's escort (2018).",
  "'Her' refers to Vivien in context; the full name Vivien Reid is not in the quoted line."),
-("SSX020","carta_scientia","located_in","bablovia",C,[("wc","the Carta Scientia. It's the oldest document in all of Bablovia.")],"The Carta Scientia is the oldest document in Bablovia (Unstable, 2017)."),
+("SSX020","carta_scientia","located_in","bablovia",A,[("wc","the Carta Scientia. It's the oldest document in all of Bablovia.")],
+ "A Bablovian classroom narrator identifies the Carta Scientia as the oldest document in the Unstable setting (2017).",
+ "ALTERNATE_CONTINUITY only: this is the silver-border Unstable world and a student narrator's account, not ordinary black-border Magic canon or a verified cross-plane historical fact."),
 ("SSX021","eula_blue","traveled_to","strixhaven",C,[("omn","follows the story of Eula Blue, who comes to Strixhaven following the devastation of New Capenna")],
  "Eula Blue comes to Strixhaven after the devastation of New Capenna (novel excerpt, 2026)."),
 ("SSX022","renegades_kaladesh","opposed","consulate",C,[("burn","The renegades of Kaladesh rose against Tezzeret's corrupted Consulate.")],"The renegades of Kaladesh rose against the Consulate under Tezzeret (Aether Revolt, 2017)."),

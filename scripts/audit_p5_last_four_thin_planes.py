@@ -54,7 +54,8 @@ def audit(html_by_source=None):
     by_name = {p["plane"]: p for p in dossiers["planes"]}
     counts = {name: by_name[name]["distinct_claims"] for name in EXPECTED}
     assert counts == EXPECTED, f"Direct plane counts drifted: {counts}"
-    assert sum(c["grade"] == "ALTERNATE_CONTINUITY" for c in by_name["Bablovia"]["facts"]) == 4
+    assert sum(c["grade"] == "ALTERNATE_CONTINUITY" for c in by_name["Bablovia"]["facts"]) == 5
+    assert all(c["grade"] == "ALTERNATE_CONTINUITY" for c in by_name["Bablovia"]["facts"])
     assert dossiers["counts"]["thin_planes_fewer_than_five_claims"] == 0
     assert all(not p.get("complete_history") for p in by_name.values())
     return {"status": "PASS", "claims": 13, "official_pages": 8,
