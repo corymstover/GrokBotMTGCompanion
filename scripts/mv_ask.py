@@ -499,6 +499,75 @@ def plane_history(name: str) -> dict | None:
                        'known_gaps': plane['known_gaps']}}
 
 
+def entity_history(name: str) -> dict | None:
+    """Expose direct cited Character/Faction claims without pretending to tell a full biography.
+
+    This is intentionally not an inferred chronology or a traversal through a
+    character's friends, cards, places or entire faction. One claim may have
+    several direct relations; it is counted once with all its cited edges.
+    """
+    term = re.sub(r'^the (?:character|faction|organization|organisation) (?:of )?',
+                  '', name.strip().rstrip('?'), flags=re.I)
+    nid = _find(term)
+    mg = graph()
+    if not nid or mg.nodes[nid]['type'] not in {'Character', 'Faction'}:
+        return None
+    baseline = lore(term)
+    claims: dict[str, dict] = {}
+    sources = set()
+    for grade, rows in baseline['result']['relations_by_status'].items():
+        for relation in rows:
+            claim_id = relation['claim']
+            claim_node = mg.nodes.get('claim:' + claim_id)
+            if not claim_node or claim_node.get('grade') != grade:
+                raise ValueError(f'Inconsistent cited entity-history claim {claim_id}')
+            row = claims.setdefault(claim_id, {
+                'claim_id': claim_id, 'grade': grade,
+                'statement': claim_node['name'],
+                'limitation': claim_node.get('limitation') or None,
+                'era_label_not_order': claim_node.get('stage'),
+                'in_universe_date': edge_dates().get(claim_id),
+                'relations': [], 'sources': [],
+            })
+            if row['grade'] != grade:
+                raise ValueError(f'Conflicting grades for entity-history claim {claim_id}')
+            edge = {'direction': relation['direction'], 'relation': relation['relation'],
+                    'other_id': relation['node'], 'other_name': relation['name'],
+                    'other_type': relation['type']}
+            if edge not in row['relations']:
+                row['relations'].append(edge)
+            for url in relation['source_urls']:
+                sources.add(url)
+                if url not in row['sources']:
+                    row['sources'].append(url)
+    for row in claims.values():
+        row['relations'].sort(key=lambda r: (r['direction'], r['relation'], r['other_id']))
+        row['sources'].sort()
+    grades = {c['grade'] for c in claims.values()}
+    flags = ['PARTIAL_CITED_ENTITY_HISTORY', 'DIRECT_GRAPH_CLAIMS_ONLY',
+             'NO_VERIFIED_TOTAL_CHRONOLOGY']
+    flags += [g + '_PRESENT' for g in sorted(grades & QUALIFYING)]
+    flags += [f for f in baseline['flags'] if f.startswith('MATCHED_BY_')]
+    if not claims:
+        flags.append('NO_CITED_ENTITY_HISTORY')
+    return {'route': 'ask->entity_history',
+            'confidence': 'QUALIFIED' if claims else 'NOT_FOUND',
+            'flags': flags, 'data_as_of': baseline['data_as_of'],
+            'sources': sorted(sources),
+            'result': {'entity': nid, 'name': mg.nodes[nid]['name'],
+                       'type': mg.nodes[nid]['type'],
+                       'direct_claims': len(claims),
+                       'claims': [claims[k] for k in sorted(claims)],
+                       'complete_history': False,
+                       'verified_total_chronology': False,
+                       'known_gaps': [
+                           'Only cited graph edges directly incident on this entity are included.',
+                           'Other stories, relationships, eras and unregistered entities may be missing.',
+                           'Publication dates and era labels cannot establish event order or present-day status.',
+                           'The absence of a claim does not prove an event or relationship never occurred.',
+                       ]}}
+
+
 def chronology_question(text: str) -> dict | None:
     """Answer only recognizable two-event comparisons; ambiguous names never guess."""
     intent, left, right = None, None, None
@@ -578,6 +647,10 @@ def ask(text: str) -> dict:
         m = rx.search(q)
         if m:
             env = plane_history(m.group(1))
+            if env is not None:
+                env['query'] = q
+                return env
+            env = entity_history(m.group(1))
             if env is not None:
                 env['query'] = q
                 return env
