@@ -129,6 +129,7 @@ def c_knowledge_foundation():
         "source_pages_accounted_for": pages.get("cited_pages", 0) + pages.get("reviewed_no_claim_pages", 0),
         "source_pages_in_current_inventory": pages.get("pages", 0),
         "foundation_owner_review": review.get("status", "NOT_SUBMITTED"),
+        "conditional_owner_authorization": (_json("data/release/owner_conditional_foundation_acceptance_2026-10-31.json") or {}).get("status", "NONE"),
         "deck_pilots_required": False,
     }
     if not counts or not pages:

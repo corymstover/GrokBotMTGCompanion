@@ -7,7 +7,7 @@
   "HYPOTHETICAL": "Creative or deckbuilding connection; never canon.",
   "OPEN_QUESTION": "Primary sources leave the matter unresolved; do not assert either way."
  },
- "content_sha256": "a09decfc25f0e0c812c1c742f64b6fe456a9b545f049982dcd65720753d1788a",
+ "content_sha256": "887bd1275047a15900a0c21a9c10c0f34204a12e7ee77da6f832e74dc9253ace",
  "edges": [
   {
    "artists": [
@@ -14769,6 +14769,20 @@
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:radiant",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:radiant_archangel"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:radiant",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:radiant_serra_archangel"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
    "from": "character:raff_capashen",
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
@@ -16351,6 +16365,13 @@
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "place:bant",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:bant"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
    "from": "place:cabal_stronghold",
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
@@ -16376,6 +16397,13 @@
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
    "to": "card:crucible_of_the_spirit_dragon"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "place:esper",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:esper"
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
@@ -16421,6 +16449,20 @@
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "place:grixis_shard",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:grixis"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "place:jund",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:jund"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
    "from": "place:mana_rig",
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
@@ -16432,6 +16474,13 @@
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
    "to": "card:murasa"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "place:naya",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:naya"
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
@@ -65721,9 +65770,9 @@
   ],
   "name_anchor_packs": [
    {
-    "anchors": 694,
+    "anchors": 701,
     "file": "data/lore_research/card_name_anchors_2026-10-30.json",
-    "sha256": "da9fd5e1c17546c25324c95eae5cca73754f186f9f9ecb12bf43353f10907e1f"
+    "sha256": "8e97626fcd40db4446b6b26567ede02d58edcfdc82af1f0141ebbf2a77945602"
    }
   ],
   "printing_label_packs": [
@@ -67467,6 +67516,15 @@
    "oracle_id": "b60d83ea-18bf-4c64-b4ee-981d54629362",
    "origins": [
     "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:bant",
+   "name": "Bant",
+   "oracle_id": "82e67c57-6d7a-44cc-ba63-77ce887ab075",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -70284,6 +70342,15 @@
    "type": "Card"
   },
   {
+   "id": "card:esper",
+   "name": "Esper",
+   "oracle_id": "4eebfaf3-18da-4661-b6a5-d874585e170a",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:essence_depleter",
    "name": "Essence Depleter",
    "oracle_id": "19ea37cc-e715-4a3c-87f3-5ed9d44f42d9",
@@ -71633,6 +71700,15 @@
    "type": "Card"
   },
   {
+   "id": "card:grixis",
+   "name": "Grixis",
+   "oracle_id": "1aaa60e4-47a8-4255-8a09-5f00922ccf6d",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:grixis_panorama",
    "name": "Grixis Panorama",
    "oracle_id": "743f4488-fef1-4f4d-b745-d2de92423e00",
@@ -72897,6 +72973,15 @@
    "id": "card:josu_vess_lich_knight",
    "name": "Josu Vess, Lich Knight",
    "oracle_id": "974a46f9-aa84-4b34-bee5-c635166e5841",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:jund",
+   "name": "Jund",
+   "oracle_id": "9aa94de8-b114-4479-a771-c7bc0297be58",
    "origins": [
     "card_name_anchors_2026-10-30.json"
    ],
@@ -75272,6 +75357,15 @@
    "type": "Card"
   },
   {
+   "id": "card:naya",
+   "name": "Naya",
+   "oracle_id": "5ed6be01-af06-4f3d-8b43-ef8993c52c97",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:needle_spires",
    "name": "Needle Spires",
    "oracle_id": "e7bb8160-0a4b-4e46-b196-7a19fb388d8e",
@@ -76911,6 +77005,15 @@
    "type": "Card"
   },
   {
+   "id": "card:radiant_archangel",
+   "name": "Radiant, Archangel",
+   "oracle_id": "859cbe11-e1e6-4309-94da-8725db1b3fc2",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:radiant_destiny",
    "name": "Radiant Destiny",
    "oracle_id": "068cbbe3-43c3-425e-80ec-d1ce5c02ea9b",
@@ -76925,6 +77028,15 @@
    "oracle_id": "b61718ad-7102-4ed2-b884-733bc46df715",
    "origins": [
     "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:radiant_serra_archangel",
+   "name": "Radiant, Serra Archangel",
+   "oracle_id": "4a8227ff-0ae4-4405-8e44-1f5187a7f9f5",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -121920,12 +122032,12 @@
    "OPEN_QUESTION": 3
   },
   "curated_bridges": 126,
-  "edges": 8473,
+  "edges": 8480,
   "exact_art_printings": 560,
   "literal_objects": 14,
   "node_types": {
    "AlternateContinuity": 1,
-   "Card": 1760,
+   "Card": 1767,
    "CardRepresentation": 560,
    "CardTheme": 1,
    "Character": 484,
@@ -121940,7 +122052,7 @@
    "Plane": 33,
    "Source": 635
   },
-  "nodes": 5290,
+  "nodes": 5297,
   "non_wizards_sources": 0,
   "relations": 471,
   "wizards_official_sources": 635

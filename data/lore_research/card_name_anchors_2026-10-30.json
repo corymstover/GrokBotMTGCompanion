@@ -846,6 +846,23 @@
    ]
   },
   {
+   "entity": "bant",
+   "entity_type": "Place",
+   "entity_name": "Bant",
+   "aliases": [
+    "Bant"
+   ],
+   "pack": "pack_p5_alara_plane_profile_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Bant",
+     "oracle_id": "82e67c57-6d7a-44cc-ba63-77ce887ab075",
+     "type_line": "Plane — Alara",
+     "scryfall_uri": "https://scryfall.com/card/opca/15/bant"
+    }
+   ]
+  },
+  {
    "entity": "basri_ket",
    "entity_type": "Character",
    "entity_name": "Basri Ket",
@@ -1921,6 +1938,23 @@
    ]
   },
   {
+   "entity": "esper",
+   "entity_type": "Place",
+   "entity_name": "Esper",
+   "aliases": [
+    "Esper"
+   ],
+   "pack": "pack_p5_alara_plane_profile_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Esper",
+     "oracle_id": "4eebfaf3-18da-4661-b6a5-d874585e170a",
+     "type_line": "Plane — Alara",
+     "scryfall_uri": "https://scryfall.com/card/moc/49/esper"
+    }
+   ]
+  },
+  {
    "entity": "etrata",
    "entity_type": "Character",
    "entity_name": "Etrata",
@@ -2462,6 +2496,23 @@
      "oracle_id": "f759d112-76db-4091-a22b-b9f19ab6fa5f",
      "type_line": "Legendary Creature — Demon",
      "scryfall_uri": "https://scryfall.com/card/inr/115/griselbrand"
+    }
+   ]
+  },
+  {
+   "entity": "grixis_shard",
+   "entity_type": "Place",
+   "entity_name": "Grixis (Alara shard)",
+   "aliases": [
+    "Grixis"
+   ],
+   "pack": "pack_p5_alara_plane_profile_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Grixis",
+     "oracle_id": "1aaa60e4-47a8-4255-8a09-5f00922ccf6d",
+     "type_line": "Plane — Alara",
+     "scryfall_uri": "https://scryfall.com/card/opca/33/grixis"
     }
    ]
   },
@@ -3069,6 +3120,23 @@
      "oracle_id": "974a46f9-aa84-4b34-bee5-c635166e5841",
      "type_line": "Legendary Creature — Zombie Knight",
      "scryfall_uri": "https://scryfall.com/card/moc/253/josu-vess-lich-knight"
+    }
+   ]
+  },
+  {
+   "entity": "jund",
+   "entity_type": "Place",
+   "entity_name": "Jund",
+   "aliases": [
+    "Jund"
+   ],
+   "pack": "pack_p5_alara_plane_profile_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Jund",
+     "oracle_id": "9aa94de8-b114-4479-a771-c7bc0297be58",
+     "type_line": "Plane — Alara",
+     "scryfall_uri": "https://scryfall.com/card/moc/148/jund"
     }
    ]
   },
@@ -4705,6 +4773,23 @@
    ]
   },
   {
+   "entity": "naya",
+   "entity_type": "Place",
+   "entity_name": "Naya",
+   "aliases": [
+    "Naya"
+   ],
+   "pack": "pack_p5_alara_plane_profile_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Naya",
+     "oracle_id": "5ed6be01-af06-4f3d-8b43-ef8993c52c97",
+     "type_line": "Plane — Alara",
+     "scryfall_uri": "https://scryfall.com/card/opca/55/naya"
+    }
+   ]
+  },
+  {
    "entity": "nephalia",
    "entity_type": "Place",
    "entity_name": "Nephalia",
@@ -5608,6 +5693,29 @@
      "oracle_id": "61d94fe7-b559-4bd4-94a7-f4ed4c853b4b",
      "type_line": "Legendary Creature — Elf Warrior",
      "scryfall_uri": "https://scryfall.com/card/dmr/196/radha-heir-to-keld"
+    }
+   ]
+  },
+  {
+   "entity": "radiant",
+   "entity_type": "Character",
+   "entity_name": "Radiant",
+   "aliases": [
+    "Radiant"
+   ],
+   "pack": "pack_p5_four_plane_histories_2026-10-31.json",
+   "cards": [
+    {
+     "name": "Radiant, Archangel",
+     "oracle_id": "859cbe11-e1e6-4309-94da-8725db1b3fc2",
+     "type_line": "Legendary Creature — Angel",
+     "scryfall_uri": "https://scryfall.com/card/vma/40/radiant-archangel"
+    },
+    {
+     "name": "Radiant, Serra Archangel",
+     "oracle_id": "4a8227ff-0ae4-4405-8e44-1f5187a7f9f5",
+     "type_line": "Legendary Creature — Angel",
+     "scryfall_uri": "https://scryfall.com/card/cmr/40/radiant-serra-archangel"
     }
    ]
   },
@@ -8299,6 +8407,7 @@
   "aesrias",
   "akoum_skyclave",
   "akros",
+  "akros_outposts",
   "alajn",
   "amaka",
   "amalia",
@@ -8306,6 +8415,7 @@
   "amelia",
   "an_karras",
   "apatzec_intli",
+  "arcavios_mana_overlap",
   "archmage_ghavos",
   "ardenvale",
   "arkbow",
@@ -8322,10 +8432,15 @@
   "belzenlok_death",
   "bertram_graywater",
   "blackblade",
+  "blb_five_biomes",
+  "blb_post_lily_peace",
+  "blb_war_cinders",
+  "blb_wildsear",
   "blood_avatar",
   "brandt",
   "buried_lord",
   "calamity_beast_egg",
+  "carmot",
   "carta_scientia",
   "cauldron_of_eternity",
   "cecilee",
@@ -8349,15 +8464,21 @@
   "dovid",
   "dragons_eye_sanctuary",
   "dragonstorm_escape",
+  "drakestown_massacre",
   "drana",
   "drannith",
   "drasus",
+  "dsk_below",
+  "dsk_harrowings",
+  "dsk_old_neighborhood",
+  "dsk_quiescences",
   "dykaar",
   "eclipsed_realms",
   "eiganjo",
   "eiko",
   "einolf_brandt",
   "elamon",
+  "eldraine_human_ascendance",
   "elgaud_grounds",
   "elnor",
   "eloise_wicker",
@@ -8365,6 +8486,7 @@
   "emeria_skyclave",
   "eric_kenrith",
   "ervos_trax",
+  "etherium",
   "eula_blue",
   "evendo",
   "fannessa",
@@ -8380,6 +8502,7 @@
   "ghan",
   "ghirapur_grand_prix",
   "ghirapur_revolution",
+  "great_aurora",
   "great_henge",
   "grete",
   "guul_draz",
@@ -8409,7 +8532,13 @@
   "javy",
   "jilesa_clarus",
   "kael",
+  "kaldheim_doomskar",
+  "kaldheim_world_tree",
   "kalyntri",
+  "kamigawa_kakuriyo",
+  "kamigawa_kami_war",
+  "kamigawa_merge_sites",
+  "kamigawa_utsushiyo",
   "kapsho",
   "kavaron",
   "kayla_bin_kroog",
@@ -8463,9 +8592,11 @@
   "mitul",
   "mohar_varma",
   "mom_invasion",
+  "muraganda_moonfall",
   "murasa_skyclave",
   "naiva",
   "nakht",
+  "new_capenna_city",
   "niharet",
   "nimana",
   "nira",
@@ -8497,6 +8628,7 @@
   "reality_chip",
   "realmbreaker",
   "reen",
+  "reito",
   "relov",
   "reza",
   "riders_lock",
@@ -8513,9 +8645,12 @@
   "setessa",
   "shadowmoor_aspect",
   "shadowspear",
+  "shard_wars",
   "shevara",
   "sinnia",
+  "skalla_nature_progress_conflict",
   "skormak",
+  "skysail",
   "skysovereign",
   "sobeslav",
   "sothera",
@@ -8535,6 +8670,7 @@
   "tangle",
   "tarkir_duel",
   "tarkir_rewrite",
+  "tarnation",
   "tarsa",
   "teferis_spark_stone",
   "temporal_rifts_mending",
@@ -8543,6 +8679,7 @@
   "the_detective",
   "the_house",
   "the_silence_theros",
+  "theros_seas",
   "theros_underworld",
   "thraben",
   "thunder_gap",
@@ -8562,6 +8699,7 @@
   "vasi",
   "vona",
   "vorik",
+  "vryn_mage_ring_network",
   "war_of_the_spark_end",
   "weatherlight_powerstone",
   "weslyn",
@@ -8577,13 +8715,14 @@
   "Kaya, Ghost Haunter",
   "Nira, Hellkite Duelist",
   "Rankle, Master of Pranksters",
+  "Tarnation",
   "Tibalt the Chaotic",
   "Urza, Academy Headmaster"
  ],
  "counts": {
-  "entities_anchored": 374,
-  "anchor_edges": 694,
-  "unanchored_entities": 275
+  "entities_anchored": 380,
+  "anchor_edges": 701,
+  "unanchored_entities": 305
  },
- "content_sha256": "dc1d70a44f6e3d6b50e70e8bf214f50a8ce2d6ede082a44829cdb4fe301d7f95"
+ "content_sha256": "00ec7d0568103725c7f9133231b156afd7e179cf6257370c7f6911336f75800d"
 }

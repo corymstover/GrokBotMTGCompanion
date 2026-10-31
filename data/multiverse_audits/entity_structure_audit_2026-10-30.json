@@ -260,7 +260,7 @@
   ],
   "dangling_edges": 0,
   "duplicate_ids": [],
-  "edges": 8473,
+  "edges": 8480,
   "literal_objects": [
    "Karn's planeswalker spark",
    "Knight of Benalia turned vampire",
@@ -277,7 +277,7 @@
    "unknown",
    "unknown_planeswalker"
   ],
-  "nodes": 5290,
+  "nodes": 5297,
   "orphan_nodes": [
    "artifact:great_henge",
    "event:dragonstorm_escape",
@@ -300,7 +300,7 @@
   {
    "by_type": {
     "AlternateContinuity": 1,
-    "Card": 1760,
+    "Card": 1767,
     "CardRepresentation": 560,
     "CardTheme": 1,
     "Character": 484,
@@ -315,7 +315,7 @@
     "Plane": 33,
     "Source": 635
    },
-   "count": 5290,
+   "count": 5297,
    "exists": true,
    "generator": "scripts/build_multiverse_graph.py",
    "id_scheme": "<type-prefix>:<pack-local-id or slug>",

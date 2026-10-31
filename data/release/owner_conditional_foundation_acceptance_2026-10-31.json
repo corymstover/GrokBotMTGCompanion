@@ -1,0 +1,18 @@
+{
+  "schema": "owner-conditional-foundation-acceptance/v1",
+  "owner": "Cory Stover",
+  "statement_date": "2026-10-31",
+  "statement": "You have my explicit acceptance automatically once the foundation is release-ready.",
+  "scope": "KNOWLEDGE_FOUNDATION_ONLY",
+  "status": "CONDITIONAL_AUTHORIZATION_RECORDED_NOT_EFFECTIVE",
+  "condition": "The source-backed foundation release criteria, relevant reproducible checks, protected-deck no-regression checks, and exact-release-commit CI must all pass, with remaining evidence limits honestly documented.",
+  "requires_another_acceptance_prompt": false,
+  "effective_owner_acceptance": false,
+  "does_not_approve": [
+    "unsupported or disputed individual lore claims",
+    "the seven outstanding Elder Dragon genealogy decisions",
+    "the three parked lore-deck pilots or any new deckbuilding",
+    "a release with failing, missing, or incomplete foundation gates"
+  ],
+  "note": "This authorization is conditional and must never be represented as completed certification or a waiver of evidence checks."
+}
