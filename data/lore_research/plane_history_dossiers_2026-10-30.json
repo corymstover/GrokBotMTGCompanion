@@ -2,18 +2,18 @@
   "schema": "plane-history-dossiers/v2",
   "as_of": "2026-10-30",
   "status": "PRELIMINARY_RESEARCH_NOT_OWNER_APPROVED",
-  "source_graph_sha256": "4fa1da6601a6cbac08d4a1f56bfdc8c8b92f4db1b28434d6ef39ef2619692a50",
+  "source_graph_sha256": "c2dd3c26fa079d33c79f073694dc0a187569acd823c093712ad604f65187fba6",
   "scope": "Named graph Plane nodes, direct incident claims, and an independently labeled curated subset of already cited on-plane story claims.",
   "chronology_policy": "Never infer ordering from article date, release date or an era_label; explicit dated quotes are retained verbatim as quoted metadata only.",
   "counts": {
     "registered_planes": 33,
     "planes_with_direct_claims": 33,
-    "direct_claim_edges": 207,
-    "thin_planes_fewer_than_five_claims": 8,
+    "direct_claim_edges": 219,
+    "thin_planes_fewer_than_five_claims": 4,
     "planes_with_curated_context": 4,
     "distinct_contextual_claims": 53,
     "claim_edge_grades": {
-      "CANON_CONFIRMED": 179,
+      "CANON_CONFIRMED": 191,
       "CANON_DISPUTED": 2,
       "CANON_IMPLIED": 25,
       "OPEN_QUESTION": 1
@@ -2399,8 +2399,80 @@
       "id": "plane:fiora",
       "plane": "Fiora",
       "evidence_status": "PARTIAL_DIRECT_AND_SEPARATELY_CURATED_CONTEXT",
-      "distinct_claims": 4,
+      "distinct_claims": 7,
       "facts": [
+        {
+          "claim_id": "FMP001",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Wizards' Fiora profile records a past massacre in the outlying settlement of Drakestown.",
+          "limitation": "The official profile says the victims died in an unknown scheme; neither the killers nor exact timing are established here.",
+          "relation": "was_site_of",
+          "subject": {
+            "id": "plane:fiora",
+            "name": "Fiora"
+          },
+          "object": {
+            "id": "event:drakestown_massacre",
+            "name": "Massacre of Drakestown"
+          },
+          "era_label": "fiora_drakestown_historical_massacre",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "fmp_fiora_profile",
+              "title": "Fiora",
+              "url": "https://magic.wizards.com/en/story/fiora-plane"
+            }
+          ]
+        },
+        {
+          "claim_id": "FMP002",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Paliano's governing laws exert magical binding force over Fiora's population.",
+          "limitation": "This is the source profile's political account, not proof that every later regime, region or visitor remains permanently subject to unchanged laws.",
+          "relation": "enforces_laws_through",
+          "subject": {
+            "id": "plane:fiora",
+            "name": "Fiora"
+          },
+          "object": {
+            "id": "concept:paliano_binding_laws",
+            "name": "Paliano's magically binding laws"
+          },
+          "era_label": "fiora_paliano_civic_structure",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "fmp_fiora_profile",
+              "title": "Fiora",
+              "url": "https://magic.wizards.com/en/story/fiora-plane"
+            }
+          ]
+        },
+        {
+          "claim_id": "FMP003",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Queen Marchesa publicly claimed sovereign authority over Paliano following Brago's reported final passing.",
+          "limitation": "This certifies Marchesa's 2016 in-world proclamation, not the truth of every claim she made about succession, lawful legitimacy or the former guard.",
+          "relation": "witnessed_royal_proclamation_by",
+          "subject": {
+            "id": "plane:fiora",
+            "name": "Fiora"
+          },
+          "object": {
+            "id": "character:marchesa",
+            "name": "Queen Marchesa"
+          },
+          "era_label": "fiora_marchesa_claims_throne_2016",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "fmp_marchesa_2016",
+              "title": "Proclamation by Queen Marchesa",
+              "url": "https://magic.wizards.com/en/news/magic-story/proclamation-queen-marchesa-2016-08-15"
+            }
+          ]
+        },
         {
           "claim_id": "UB006",
           "grade": "CANON_CONFIRMED",
@@ -3237,7 +3309,7 @@
       "id": "plane:kaldheim",
       "plane": "Kaldheim",
       "evidence_status": "PARTIAL_DIRECT_AND_SEPARATELY_CURATED_CONTEXT",
-      "distinct_claims": 4,
+      "distinct_claims": 7,
       "facts": [
         {
           "claim_id": "DS008",
@@ -3260,6 +3332,78 @@
               "id": "dsk_ep1",
               "title": "Duskmourn: House of Horror | Episode 1: Don't Go Past the Old Dark House",
               "url": "https://magic.wizards.com/en/news/magic-story/episode-one-dont-go-past-the-old-dark-house"
+            }
+          ]
+        },
+        {
+          "claim_id": "FMP004",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Kaldheim's mini-plane realms connect through the World Tree, which the guide describes as birthing the realms.",
+          "limitation": "The 2021 guide calls ten realms well known but explicitly allows others; it gives no exhaustive count or post-invasion health report for the tree.",
+          "relation": "binds_realms_with",
+          "subject": {
+            "id": "plane:kaldheim",
+            "name": "Kaldheim"
+          },
+          "object": {
+            "id": "artifact:kaldheim_world_tree",
+            "name": "Kaldheim's World Tree"
+          },
+          "era_label": "kaldheim_world_tree_cosmology_2021",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "fmp_kaldheim_2021",
+              "title": "Planeswalker's Guide to Kaldheim, Part 1",
+              "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-kaldheim-part-1-2021-01-08"
+            }
+          ]
+        },
+        {
+          "claim_id": "FMP005",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Kaldheim's moving realms sometimes collide in a destructive event called a Doomskar.",
+          "limitation": "This is a general mechanism, not a dated claim that a specific Doomskar caused a particular later conflict.",
+          "relation": "experiences",
+          "subject": {
+            "id": "plane:kaldheim",
+            "name": "Kaldheim"
+          },
+          "object": {
+            "id": "event:kaldheim_doomskar",
+            "name": "Doomskar realm-collision event"
+          },
+          "era_label": "kaldheim_doomskar_process_2021",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "fmp_kaldheim_2021",
+              "title": "Planeswalker's Guide to Kaldheim, Part 1",
+              "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-kaldheim-part-1-2021-01-08"
+            }
+          ]
+        },
+        {
+          "claim_id": "FMP006",
+          "grade": "CANON_CONFIRMED",
+          "statement": "The Skoti gods displaced the Einir as Kaldheim's ruling divine family before the guide's era.",
+          "limitation": "The 'few centuries' dating and word 'current' are relative to the 2021 guide; this does not independently certify today's leadership.",
+          "relation": "was_taken_over_by_gods",
+          "subject": {
+            "id": "plane:kaldheim",
+            "name": "Kaldheim"
+          },
+          "object": {
+            "id": "faction:skoti",
+            "name": "The Skoti"
+          },
+          "era_label": "kaldheim_skoti_replace_einir",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "fmp_kaldheim_2021",
+              "title": "Planeswalker's Guide to Kaldheim, Part 1",
+              "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-kaldheim-part-1-2021-01-08"
             }
           ]
         },
@@ -3593,7 +3737,7 @@
       "id": "plane:lorwyn_shadowmoor",
       "plane": "Lorwyn-Shadowmoor",
       "evidence_status": "PARTIAL_DIRECT_AND_SEPARATELY_CURATED_CONTEXT",
-      "distinct_claims": 3,
+      "distinct_claims": 6,
       "facts": [
         {
           "claim_id": "EC005",
@@ -3640,6 +3784,78 @@
               "id": "ecl_legends",
               "title": "The Legends of Lorwyn Eclipsed",
               "url": "https://magic.wizards.com/en/news/magic-story/the-legends-of-lorwyn-eclipsed"
+            }
+          ]
+        },
+        {
+          "claim_id": "FMP007",
+          "grade": "CANON_CONFIRMED",
+          "statement": "During the earlier Great Aurora cycle, Lorwyn-Shadowmoor switched its whole-plane aspects roughly every 300 years.",
+          "limitation": "The quoted interval belongs to the former Age of Oona; it must not be treated as the current cycle or a verified conversion to AR dates.",
+          "relation": "historically_shifted_during",
+          "subject": {
+            "id": "plane:lorwyn_shadowmoor",
+            "name": "Lorwyn-Shadowmoor"
+          },
+          "object": {
+            "id": "event:great_aurora",
+            "name": "Great Aurora of the Age of Oona"
+          },
+          "era_label": "lorwyn_age_of_oona_great_aurora",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "fmp_lorwyn_2026",
+              "title": "Planeswalker's Guide to Lorwyn Eclipsed",
+              "url": "https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-to-lorwyn-eclipsed"
+            }
+          ]
+        },
+        {
+          "claim_id": "FMP008",
+          "grade": "CANON_CONFIRMED",
+          "statement": "In the guide's newer era, Lorwyn and Shadowmoor form adjacent day and night regions with shifting boundaries.",
+          "limitation": "The guide contrasts this with Oona's historical plane-wide shift; borders are dynamic, not a fixed map or permanent division for all future stories.",
+          "relation": "has_aspect_borders",
+          "subject": {
+            "id": "plane:lorwyn_shadowmoor",
+            "name": "Lorwyn-Shadowmoor"
+          },
+          "object": {
+            "id": "concept:lorwyn_current_aurora_borders",
+            "name": "Modern Lorwyn/Shadowmoor aurora boundaries"
+          },
+          "era_label": "lorwyn_2026_aurora_frontiers",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "fmp_lorwyn_2026",
+              "title": "Planeswalker's Guide to Lorwyn Eclipsed",
+              "url": "https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-to-lorwyn-eclipsed"
+            }
+          ]
+        },
+        {
+          "claim_id": "FMP009",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Lorwyn-Shadowmoor's crossing aurora boundaries transform land and living residents between aspects.",
+          "limitation": "The same guide recognizes rare suppression and immunity; this should not be read as no exceptions or as a universal effect outside the plane.",
+          "relation": "undergoes",
+          "subject": {
+            "id": "plane:lorwyn_shadowmoor",
+            "name": "Lorwyn-Shadowmoor"
+          },
+          "object": {
+            "id": "concept:lorwyn_aspect_transformations",
+            "name": "Aurora-induced transformations"
+          },
+          "era_label": "lorwyn_2026_aspect_transformations",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "fmp_lorwyn_2026",
+              "title": "Planeswalker's Guide to Lorwyn Eclipsed",
+              "url": "https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-to-lorwyn-eclipsed"
             }
           ]
         },
@@ -6800,8 +7016,85 @@
       "id": "plane:thunder_junction",
       "plane": "Thunder Junction",
       "evidence_status": "PARTIAL_DIRECT_AND_SEPARATELY_CURATED_CONTEXT",
-      "distinct_claims": 2,
+      "distinct_claims": 5,
       "facts": [
+        {
+          "claim_id": "FMP010",
+          "grade": "CANON_CONFIRMED",
+          "statement": "The 2024 Wizards preview records a discovered ancient vault on Thunder Junction; the story names it Maag Taranau.",
+          "limitation": "A vault described as ancient is not evidence of a precise construction date or of the truth of characters' speculation about its builders.",
+          "relation": "contains_ancient_vault",
+          "subject": {
+            "id": "plane:thunder_junction",
+            "name": "Thunder Junction"
+          },
+          "object": {
+            "id": "place:maag_taranau",
+            "name": "Maag Taranau (the vault)"
+          },
+          "era_label": "thunder_junction_discovered_vault_2024",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "fmp_outlaws_episode2_2024",
+              "title": "Outlaws of Thunder Junction | Episode 2: The Jailbreak",
+              "url": "https://magic.wizards.com/en/news/magic-story/episode-2-the-jailbreak"
+            },
+            {
+              "id": "fmp_outlaws_look_2024",
+              "title": "A First Look at Outlaws of Thunder Junction",
+              "url": "https://magic.wizards.com/en/news/announcements/a-first-look-at-outlaws-of-thunder-junction"
+            }
+          ]
+        },
+        {
+          "claim_id": "FMP011",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Oko assembled an interplanar outlaw crew for a high-profile heist on Thunder Junction.",
+          "limitation": "The preview describes the heist's setup, not its outcome, every participant's ultimate role, or a permanent political order on the plane.",
+          "relation": "hosted_heist_plot_by",
+          "subject": {
+            "id": "plane:thunder_junction",
+            "name": "Thunder Junction"
+          },
+          "object": {
+            "id": "character:oko",
+            "name": "Oko"
+          },
+          "era_label": "thunder_junction_oko_heist_setup_2024",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "fmp_outlaws_look_2024",
+              "title": "A First Look at Outlaws of Thunder Junction",
+              "url": "https://magic.wizards.com/en/news/announcements/a-first-look-at-outlaws-of-thunder-junction"
+            }
+          ]
+        },
+        {
+          "claim_id": "FMP012",
+          "grade": "CANON_CONFIRMED",
+          "statement": "The Wizards character guide places the vault above Tarnation, a Hellspur city on Thunder Junction.",
+          "limitation": "This is a 2024 setting description; it does not independently identify who built the vault or establish the current city's later control.",
+          "relation": "has_frontier_city",
+          "subject": {
+            "id": "plane:thunder_junction",
+            "name": "Thunder Junction"
+          },
+          "object": {
+            "id": "place:tarnation",
+            "name": "Tarnation"
+          },
+          "era_label": "thunder_junction_tarnation_2024",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "fmp_outlaws_crew_2024",
+              "title": "A Legendary Crew for an Unbelievable Heist",
+              "url": "https://magic.wizards.com/en/news/feature/a-legendary-crew-for-an-unbelievable-heist-outlaws-of-thunder-junction"
+            }
+          ]
+        },
         {
           "claim_id": "OS005",
           "grade": "CANON_CONFIRMED",
@@ -7186,5 +7479,5 @@
       ]
     }
   ],
-  "content_sha256": "c212c12f9f1cb3aacdeb6b2880f52dc8a48933e8eb5500c8b59376cf6ece1040"
+  "content_sha256": "9ab116488e39d15a00bb393b63b6701fa32c614dee985a3ef448633b0ec03382"
 }

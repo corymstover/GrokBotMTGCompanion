@@ -1,6 +1,6 @@
 # MTG Multiverse Companion — Master Workflow & Progress Checklist
 
-**Version:** 2.66
+**Version:** 2.67
 **Checkpoint date:** 2026-10-31
 **Repository:** [corymstover/GrokBotMTGCompanion](https://github.com/corymstover/GrokBotMTGCompanion)  
 **Purpose:** Durable project roadmap and handoff document. Update this file after verified milestone work; do not treat historical figures as live counters.
@@ -22,6 +22,26 @@ foundation release may document inherently unresolved canon and future
 maintenance; it must never claim exhaustive knowledge of all MTG history.
 The 62 approved Grixis decks, their hashes and all owner gates remain intact.
 Only a new explicit request from Cory can override the Phase 6 hold.
+
+**v2.67 Phase 5 four further plane histories (2026-10-31):**
+Twelve additional direct, source-quoted `CANON_CONFIRMED` incidents and
+geography facts from seven Wizards pages enrich **Fiora** (4→7),
+**Kaldheim** (4→7), **Lorwyn-Shadowmoor** (3→6) and **Thunder Junction**
+(2→5). The record distinguishes Marchesa's partisan proclamation from
+proof of legitimacy; the earlier, roughly 300-year Great Aurora cycle
+from modern adjacent aurora boundaries; and the 2024 Thunder Junction
+heist setup from its outcome. Drakestown's attackers, the vault's makers
+and later world-state claims remain unresolved. All seven pages passed
+the live quotation audit. The thin-plane count is **4/33**, not four
+complete histories. Graph: **1,246 claims, 5,259 nodes, 8,421 edges**;
+**633/633** registered people/factions have at least one directly
+cited relation. The packet has **34 distinct qualified Q&A examples**;
+the master checklist remains **83/137**, release is **NOT_RELEASE_READY**,
+and owner certification, Phase 6 hold, three unapproved pilots and all
+62 approved Grixis decks are unchanged. The snapshot-free append-only
+anchor pass accounts for 1,246 claims and 4,109 card-name anchors without
+replaying unavailable frozen Scryfall bulk. See
+`research/PHASE5_FOUR_MORE_PLANE_HISTORIES_2026-10-31.md`.
 
 **v2.66 Phase 5 history and Q&A follow-through (2026-10-31):**
 Added **12** direct `CANON_CONFIRMED` claims from five official Wizards pages

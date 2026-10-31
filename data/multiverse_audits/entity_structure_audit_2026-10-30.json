@@ -44,7 +44,7 @@
     "token": "sarkhan_vol"
    }
   ],
-  "declared_local_ids": 915,
+  "declared_local_ids": 923,
   "name_variants_same_id": [
    {
     "local_id": "ajani",
@@ -260,7 +260,7 @@
   ],
   "dangling_edges": 0,
   "duplicate_ids": [],
-  "edges": 8372,
+  "edges": 8421,
   "literal_objects": [
    "Karn's planeswalker spark",
    "Knight of Benalia turned vampire",
@@ -277,7 +277,7 @@
    "unknown",
    "unknown_planeswalker"
   ],
-  "nodes": 5232,
+  "nodes": 5259,
   "orphan_nodes": [
    "artifact:great_henge",
    "event:dragonstorm_escape",
@@ -303,18 +303,18 @@
     "CardRepresentation": 560,
     "CardTheme": 1,
     "Character": 484,
-    "Claim": 1234,
-    "Concept": 179,
+    "Claim": 1246,
+    "Concept": 182,
     "DeckProposal": 3,
-    "Event": 30,
+    "Event": 33,
     "Faction": 149,
     "Literal": 14,
-    "Object": 53,
-    "Place": 111,
+    "Object": 54,
+    "Place": 112,
     "Plane": 33,
-    "Source": 620
+    "Source": 627
    },
-   "count": 5232,
+   "count": 5259,
    "exists": true,
    "generator": "scripts/build_multiverse_graph.py",
    "id_scheme": "<type-prefix>:<pack-local-id or slug>",
@@ -418,11 +418,11 @@
    "schema": "story-art-captions/v1"
   },
   {
-   "count": 1596,
+   "count": 1612,
    "exists": false,
    "generator": "scripts/story_claim_pipeline.py and per-pack builders",
    "id_scheme": "pack-local snake_case id, merged globally by the graph builder",
-   "packs": 76,
+   "packs": 77,
    "path": "data/lore_research/pack_*.json (manifest claim_packs)",
    "role": "CLAIM_PACK_ENTITY_DECLARATIONS",
    "schema": "claim-pack (various v1)"

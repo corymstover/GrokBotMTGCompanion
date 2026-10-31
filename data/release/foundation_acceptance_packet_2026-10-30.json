@@ -9,11 +9,11 @@
   "input_sha256": {
     "graph": {
       "path": "data/multiverse_graph/multiverse_graph.json",
-      "sha256": "be601052351166343a9c915cca9cce1314d016212549b308f460a2cbc679c34b"
+      "sha256": "36030ee12f9b6ffa997899d1c0ee189c91de91f779662ec3f9a43d21d8b83d30"
     },
     "plane_histories": {
       "path": "data/lore_research/plane_history_dossiers_2026-10-30.json",
-      "sha256": "fec9987f238567e4dbae424145fb9a7703aaea7b682496df23c7ee60799b696d"
+      "sha256": "9845696b7303b94cc03a73f7f076b5369a29c13ac5db367bb51e498dd22377c2"
     },
     "chronology": {
       "path": "data/lore_research/relative_chronology_2026-10-30.json",
@@ -25,7 +25,7 @@
     },
     "story_coverage": {
       "path": "data/lore_research/story_coverage_inventory_2026-10-30.json",
-      "sha256": "8116cc376cb14398f8b27721c79648d6e9dff04112bf49c802d8cc5d0d6767f2"
+      "sha256": "91d65a33647e9f9894cefd4ae490c412992b66c7242a90807a35725c2a251c57"
     },
     "genealogy_disputes": {
       "path": "data/lore_research/pack_a_genealogy_disputes_2026-10-30.json",
@@ -36,11 +36,11 @@
     "source_pages_in_inventoried_scope": 626,
     "source_pages_cited": 576,
     "source_pages_reviewed_without_claim": 50,
-    "graph_nodes": 5232,
-    "graph_edges": 8372,
-    "graph_claims": 1234,
+    "graph_nodes": 5259,
+    "graph_edges": 8421,
+    "graph_claims": 1246,
     "registered_plane_nodes": 33,
-    "thin_plane_dossiers": 8,
+    "thin_plane_dossiers": 4,
     "curated_context_plane_count": 4,
     "distinct_existing_context_claims": 53,
     "registered_character_nodes": 484,
@@ -802,6 +802,116 @@
         "Era labels and publication dates are not a verified sequence or AR calendar year.",
         "Absence of a cited event or person is not evidence it never occurred or appeared."
       ]
+    },
+    {
+      "id": "plane_fiora",
+      "question": "What is the history of Fiora?",
+      "route": "ask->plane_history",
+      "confidence": "QUALIFIED",
+      "flags": [
+        "PARTIAL_REGISTERED_PLANE_HISTORY",
+        "NO_VERIFIED_TOTAL_CHRONOLOGY",
+        "CANON_IMPLIED_PRESENT"
+      ],
+      "sources": [
+        "https://magic.wizards.com/en/news/magic-story/proclamation-queen-marchesa-2016-08-15",
+        "https://magic.wizards.com/en/story/dack-fayden-planeswalker",
+        "https://magic.wizards.com/en/story/daretti-planeswalker",
+        "https://magic.wizards.com/en/story/fiora-plane"
+      ],
+      "response_sha256": "4ce6db64fe7e033049e6d3360e9538efbe2748a31ecd21a5eadfc7b9d218501e",
+      "direct_claims": 7,
+      "chronology_relation": null,
+      "known_limitations": [
+        "Direct claims are not an exhaustive history of this plane.",
+        "Curated same-plane story context is not a direct claim-to-plane edge and does not prove the geography of every participant in an entire arc.",
+        "Era labels and publication dates are not a verified sequence or AR calendar year.",
+        "Absence of a cited event or person is not evidence it never occurred or appeared."
+      ]
+    },
+    {
+      "id": "plane_kaldheim",
+      "question": "What is the history of Kaldheim?",
+      "route": "ask->plane_history",
+      "confidence": "QUALIFIED",
+      "flags": [
+        "PARTIAL_REGISTERED_PLANE_HISTORY",
+        "NO_VERIFIED_TOTAL_CHRONOLOGY"
+      ],
+      "sources": [
+        "https://magic.wizards.com/en/news/feature/legends-kaldheim-2021-01-21",
+        "https://magic.wizards.com/en/news/feature/planeswalkers-guide-kaldheim-part-1-2021-01-08",
+        "https://magic.wizards.com/en/news/magic-story/episode-5-battle-kaldheim-2021-02-03",
+        "https://magic.wizards.com/en/news/magic-story/episode-one-dont-go-past-the-old-dark-house",
+        "https://magic.wizards.com/en/news/magic-story/know-which-way-wind-blowing-2021-01-08",
+        "https://magic.wizards.com/en/story/tyvar-kell-planeswalker"
+      ],
+      "response_sha256": "25140ec8c5f9b94c0b55040d7e9cee2d62d7f8cb8ebd8fb56b3b18510eec199f",
+      "direct_claims": 7,
+      "chronology_relation": null,
+      "known_limitations": [
+        "Direct claims are not an exhaustive history of this plane.",
+        "Curated same-plane story context is not a direct claim-to-plane edge and does not prove the geography of every participant in an entire arc.",
+        "Era labels and publication dates are not a verified sequence or AR calendar year.",
+        "Absence of a cited event or person is not evidence it never occurred or appeared."
+      ]
+    },
+    {
+      "id": "plane_lorwyn_shadowmoor",
+      "question": "What is the history of Lorwyn-Shadowmoor?",
+      "route": "ask->plane_history",
+      "confidence": "QUALIFIED",
+      "flags": [
+        "PARTIAL_REGISTERED_PLANE_HISTORY",
+        "NO_VERIFIED_TOTAL_CHRONOLOGY",
+        "CURATED_ON_PLANE_CONTEXT_NOT_DIRECT_GRAPH_CLAIMS",
+        "CANON_IMPLIED_PRESENT"
+      ],
+      "sources": [
+        "https://magic.wizards.com/en/news/magic-story/lorwyn-eclipsed-episode-2-shake-off-slumber",
+        "https://magic.wizards.com/en/news/magic-story/lorwyn-eclipsed-episode-4-fetch-me-that-flower",
+        "https://magic.wizards.com/en/news/magic-story/lorwyn-eclipsed-episode-5-if-we-shadows",
+        "https://magic.wizards.com/en/news/magic-story/lorwyn-eclipsed-episode-6-full-of-hateful-fantasies",
+        "https://magic.wizards.com/en/news/magic-story/lorwyn-eclipsed-episode-7-the-charm-dissolves-apace",
+        "https://magic.wizards.com/en/news/magic-story/lorwyn-eclipsed-star-crossed",
+        "https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-to-lorwyn-eclipsed",
+        "https://magic.wizards.com/en/news/magic-story/the-legends-of-lorwyn-eclipsed",
+        "https://magic.wizards.com/en/story/lorwyn-and-shadowmoor-plane"
+      ],
+      "response_sha256": "c7a93ebd2e61b5b766519901a2f3cf61c76862876bf2578321b18431c56db1f5",
+      "direct_claims": 6,
+      "chronology_relation": null,
+      "known_limitations": [
+        "Direct claims are not an exhaustive history of this plane.",
+        "Curated same-plane story context is not a direct claim-to-plane edge and does not prove the geography of every participant in an entire arc.",
+        "Era labels and publication dates are not a verified sequence or AR calendar year.",
+        "Absence of a cited event or person is not evidence it never occurred or appeared."
+      ]
+    },
+    {
+      "id": "plane_thunder_junction",
+      "question": "What is the history of Thunder Junction?",
+      "route": "ask->plane_history",
+      "confidence": "QUALIFIED",
+      "flags": [
+        "PARTIAL_REGISTERED_PLANE_HISTORY",
+        "NO_VERIFIED_TOTAL_CHRONOLOGY"
+      ],
+      "sources": [
+        "https://magic.wizards.com/en/news/announcements/a-first-look-at-outlaws-of-thunder-junction",
+        "https://magic.wizards.com/en/news/feature/a-legendary-crew-for-an-unbelievable-heist-outlaws-of-thunder-junction",
+        "https://magic.wizards.com/en/news/magic-story/a-pleasant-family-outing",
+        "https://magic.wizards.com/en/news/magic-story/episode-2-the-jailbreak"
+      ],
+      "response_sha256": "015ff98d376203955a3db521507d6a8493c549ecaf093468a3969b9c65e14134",
+      "direct_claims": 5,
+      "chronology_relation": null,
+      "known_limitations": [
+        "Direct claims are not an exhaustive history of this plane.",
+        "Curated same-plane story context is not a direct claim-to-plane edge and does not prove the geography of every participant in an entire arc.",
+        "Era labels and publication dates are not a verified sequence or AR calendar year.",
+        "Absence of a cited event or person is not evidence it never occurred or appeared."
+      ]
     }
   ],
   "cross_plane_graph_navigation": [
@@ -879,5 +989,5 @@
     "python3 scripts/update_multiverse_progress_tracker.py --check"
   ],
   "owner_review_status": "PENDING_NOT_REQUESTED_UNTIL_ENGINEERING_EVIDENCE_AND_CI_COMPLETE",
-  "content_sha256": "9cb53841440c3b275a8baf0fc374d15b1210d31a047f867ef1bd75970cfe6ef2"
+  "content_sha256": "2b900bfc705928e254f07c94c7b5adbbf7eb113162763e377bd9b87cc854aba3"
 }

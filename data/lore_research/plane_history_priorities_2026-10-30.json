@@ -295,15 +295,20 @@
     {
       "id": "plane:fiora",
       "name": "Fiora",
-      "claim_edges": 4,
-      "distinct_claims": 4,
+      "claim_edges": 7,
+      "distinct_claims": 7,
       "claims": [
+        "FMP001",
+        "FMP002",
+        "FMP003",
         "UB006",
         "UB007",
         "UP004",
         "UP005"
       ],
       "official_source_ids": [
+        "fmp_fiora_profile",
+        "fmp_marchesa_2016",
         "ub_dack",
         "ub_daretti",
         "up_fiora"
@@ -312,7 +317,7 @@
         "CANON_CONFIRMED",
         "CANON_IMPLIED"
       ],
-      "research_priority": "THIN_DIRECT_EVIDENCE",
+      "research_priority": "EXPAND_NARRATIVE_DEPTH",
       "limitation": "Direct graph edges only; not the complete plane history or a canon completeness score."
     },
     {
@@ -434,16 +439,20 @@
     {
       "id": "plane:kaldheim",
       "name": "Kaldheim",
-      "claim_edges": 4,
-      "distinct_claims": 4,
+      "claim_edges": 7,
+      "distinct_claims": 7,
       "claims": [
         "DS008",
+        "FMP004",
+        "FMP005",
+        "FMP006",
         "KH013",
         "KH023",
         "UB025"
       ],
       "official_source_ids": [
         "dsk_ep1",
+        "fmp_kaldheim_2021",
         "khm_ep5",
         "khm_legends",
         "khm_wind",
@@ -452,7 +461,7 @@
       "grades_present": [
         "CANON_CONFIRMED"
       ],
-      "research_priority": "THIN_DIRECT_EVIDENCE",
+      "research_priority": "EXPAND_NARRATIVE_DEPTH",
       "limitation": "Direct graph edges only; not the complete plane history or a canon completeness score."
     },
     {
@@ -486,22 +495,26 @@
     {
       "id": "plane:lorwyn_shadowmoor",
       "name": "Lorwyn-Shadowmoor",
-      "claim_edges": 3,
-      "distinct_claims": 3,
+      "claim_edges": 6,
+      "distinct_claims": 6,
       "claims": [
         "EC005",
         "EC016",
+        "FMP007",
+        "FMP008",
+        "FMP009",
         "UP014"
       ],
       "official_source_ids": [
         "ecl_guide",
         "ecl_legends",
+        "fmp_lorwyn_2026",
         "up_lorwyn"
       ],
       "grades_present": [
         "CANON_CONFIRMED"
       ],
-      "research_priority": "THIN_DIRECT_EVIDENCE",
+      "research_priority": "EXPAND_NARRATIVE_DEPTH",
       "limitation": "Direct graph edges only; not the complete plane history or a canon completeness score."
     },
     {
@@ -852,20 +865,26 @@
     {
       "id": "plane:thunder_junction",
       "name": "Thunder Junction",
-      "claim_edges": 2,
-      "distinct_claims": 2,
+      "claim_edges": 5,
+      "distinct_claims": 5,
       "claims": [
+        "FMP010",
+        "FMP011",
+        "FMP012",
         "OS005",
         "OS006"
       ],
       "official_source_ids": [
+        "fmp_outlaws_crew_2024",
+        "fmp_outlaws_episode2_2024",
+        "fmp_outlaws_look_2024",
         "otjs_firstlook",
         "otjs_outing"
       ],
       "grades_present": [
         "CANON_CONFIRMED"
       ],
-      "research_priority": "THIN_DIRECT_EVIDENCE",
+      "research_priority": "EXPAND_NARRATIVE_DEPTH",
       "limitation": "Direct graph edges only; not the complete plane history or a canon completeness score."
     },
     {

@@ -7,7 +7,7 @@
   "HYPOTHETICAL": "Creative or deckbuilding connection; never canon.",
   "OPEN_QUESTION": "Primary sources leave the matter unresolved; do not assert either way."
  },
- "content_sha256": "4fa1da6601a6cbac08d4a1f56bfdc8c8b92f4db1b28434d6ef39ef2619692a50",
+ "content_sha256": "c2dd3c26fa079d33c79f073694dc0a187569acd823c093712ad604f65187fba6",
  "edges": [
   {
    "artists": [
@@ -21037,6 +21037,151 @@
    "to": "place:chopright_colony"
   },
   {
+   "claim": "FMP001",
+   "era": "fiora_drakestown_historical_massacre",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "plane:fiora",
+   "grade": "CANON_CONFIRMED",
+   "relation": "was_site_of",
+   "sources": [
+    "fmp_fiora_profile"
+   ],
+   "to": "event:drakestown_massacre"
+  },
+  {
+   "claim": "FMP002",
+   "era": "fiora_paliano_civic_structure",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "plane:fiora",
+   "grade": "CANON_CONFIRMED",
+   "relation": "enforces_laws_through",
+   "sources": [
+    "fmp_fiora_profile"
+   ],
+   "to": "concept:paliano_binding_laws"
+  },
+  {
+   "claim": "FMP003",
+   "era": "fiora_marchesa_claims_throne_2016",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "plane:fiora",
+   "grade": "CANON_CONFIRMED",
+   "relation": "witnessed_royal_proclamation_by",
+   "sources": [
+    "fmp_marchesa_2016"
+   ],
+   "to": "character:marchesa"
+  },
+  {
+   "claim": "FMP004",
+   "era": "kaldheim_world_tree_cosmology_2021",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "plane:kaldheim",
+   "grade": "CANON_CONFIRMED",
+   "relation": "binds_realms_with",
+   "sources": [
+    "fmp_kaldheim_2021"
+   ],
+   "to": "artifact:kaldheim_world_tree"
+  },
+  {
+   "claim": "FMP005",
+   "era": "kaldheim_doomskar_process_2021",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "plane:kaldheim",
+   "grade": "CANON_CONFIRMED",
+   "relation": "experiences",
+   "sources": [
+    "fmp_kaldheim_2021"
+   ],
+   "to": "event:kaldheim_doomskar"
+  },
+  {
+   "claim": "FMP006",
+   "era": "kaldheim_skoti_replace_einir",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "plane:kaldheim",
+   "grade": "CANON_CONFIRMED",
+   "relation": "was_taken_over_by_gods",
+   "sources": [
+    "fmp_kaldheim_2021"
+   ],
+   "to": "faction:skoti"
+  },
+  {
+   "claim": "FMP007",
+   "era": "lorwyn_age_of_oona_great_aurora",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "plane:lorwyn_shadowmoor",
+   "grade": "CANON_CONFIRMED",
+   "relation": "historically_shifted_during",
+   "sources": [
+    "fmp_lorwyn_2026"
+   ],
+   "to": "event:great_aurora"
+  },
+  {
+   "claim": "FMP008",
+   "era": "lorwyn_2026_aurora_frontiers",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "plane:lorwyn_shadowmoor",
+   "grade": "CANON_CONFIRMED",
+   "relation": "has_aspect_borders",
+   "sources": [
+    "fmp_lorwyn_2026"
+   ],
+   "to": "concept:lorwyn_current_aurora_borders"
+  },
+  {
+   "claim": "FMP009",
+   "era": "lorwyn_2026_aspect_transformations",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "plane:lorwyn_shadowmoor",
+   "grade": "CANON_CONFIRMED",
+   "relation": "undergoes",
+   "sources": [
+    "fmp_lorwyn_2026"
+   ],
+   "to": "concept:lorwyn_aspect_transformations"
+  },
+  {
+   "claim": "FMP010",
+   "era": "thunder_junction_discovered_vault_2024",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "plane:thunder_junction",
+   "grade": "CANON_CONFIRMED",
+   "relation": "contains_ancient_vault",
+   "sources": [
+    "fmp_outlaws_episode2_2024",
+    "fmp_outlaws_look_2024"
+   ],
+   "to": "place:maag_taranau"
+  },
+  {
+   "claim": "FMP011",
+   "era": "thunder_junction_oko_heist_setup_2024",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "plane:thunder_junction",
+   "grade": "CANON_CONFIRMED",
+   "relation": "hosted_heist_plot_by",
+   "sources": [
+    "fmp_outlaws_look_2024"
+   ],
+   "to": "character:oko"
+  },
+  {
+   "claim": "FMP012",
+   "era": "thunder_junction_tarnation_2024",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "plane:thunder_junction",
+   "grade": "CANON_CONFIRMED",
+   "relation": "has_frontier_city",
+   "sources": [
+    "fmp_outlaws_crew_2024"
+   ],
+   "to": "place:tarnation"
+  },
+  {
    "claim": "FPH001",
    "era": "arcavios_plane_formation",
    "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
@@ -41055,6 +41200,150 @@
    "to": "character:sami"
   },
   {
+   "from": "claim:FMP001",
+   "relation": "asserts",
+   "role": "object",
+   "to": "event:drakestown_massacre"
+  },
+  {
+   "from": "claim:FMP001",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "plane:fiora"
+  },
+  {
+   "from": "claim:FMP002",
+   "relation": "asserts",
+   "role": "object",
+   "to": "concept:paliano_binding_laws"
+  },
+  {
+   "from": "claim:FMP002",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "plane:fiora"
+  },
+  {
+   "from": "claim:FMP003",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:marchesa"
+  },
+  {
+   "from": "claim:FMP003",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "plane:fiora"
+  },
+  {
+   "from": "claim:FMP004",
+   "relation": "asserts",
+   "role": "object",
+   "to": "artifact:kaldheim_world_tree"
+  },
+  {
+   "from": "claim:FMP004",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "plane:kaldheim"
+  },
+  {
+   "from": "claim:FMP005",
+   "relation": "asserts",
+   "role": "object",
+   "to": "event:kaldheim_doomskar"
+  },
+  {
+   "from": "claim:FMP005",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "plane:kaldheim"
+  },
+  {
+   "from": "claim:FMP006",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:skoti"
+  },
+  {
+   "from": "claim:FMP006",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "plane:kaldheim"
+  },
+  {
+   "from": "claim:FMP007",
+   "relation": "asserts",
+   "role": "object",
+   "to": "event:great_aurora"
+  },
+  {
+   "from": "claim:FMP007",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "plane:lorwyn_shadowmoor"
+  },
+  {
+   "from": "claim:FMP008",
+   "relation": "asserts",
+   "role": "object",
+   "to": "concept:lorwyn_current_aurora_borders"
+  },
+  {
+   "from": "claim:FMP008",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "plane:lorwyn_shadowmoor"
+  },
+  {
+   "from": "claim:FMP009",
+   "relation": "asserts",
+   "role": "object",
+   "to": "concept:lorwyn_aspect_transformations"
+  },
+  {
+   "from": "claim:FMP009",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "plane:lorwyn_shadowmoor"
+  },
+  {
+   "from": "claim:FMP010",
+   "relation": "asserts",
+   "role": "object",
+   "to": "place:maag_taranau"
+  },
+  {
+   "from": "claim:FMP010",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "plane:thunder_junction"
+  },
+  {
+   "from": "claim:FMP011",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:oko"
+  },
+  {
+   "from": "claim:FMP011",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "plane:thunder_junction"
+  },
+  {
+   "from": "claim:FMP012",
+   "relation": "asserts",
+   "role": "object",
+   "to": "place:tarnation"
+  },
+  {
+   "from": "claim:FMP012",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "plane:thunder_junction"
+  },
+  {
    "from": "claim:FPH001",
    "relation": "asserts",
    "role": "object",
@@ -54830,6 +55119,381 @@
    "to": "claim:A013"
   },
   {
+   "from": "source:fmp_fiora_profile",
+   "relation": "cited_by",
+   "to": "claim:FMP001"
+  },
+  {
+   "from": "source:fmp_fiora_profile",
+   "relation": "cited_by",
+   "to": "claim:FMP002"
+  },
+  {
+   "from": "source:fmp_kaldheim_2021",
+   "relation": "cited_by",
+   "to": "claim:FMP004"
+  },
+  {
+   "from": "source:fmp_kaldheim_2021",
+   "relation": "cited_by",
+   "to": "claim:FMP005"
+  },
+  {
+   "from": "source:fmp_kaldheim_2021",
+   "relation": "cited_by",
+   "to": "claim:FMP006"
+  },
+  {
+   "from": "source:fmp_lorwyn_2026",
+   "relation": "cited_by",
+   "to": "claim:FMP007"
+  },
+  {
+   "from": "source:fmp_lorwyn_2026",
+   "relation": "cited_by",
+   "to": "claim:FMP008"
+  },
+  {
+   "from": "source:fmp_lorwyn_2026",
+   "relation": "cited_by",
+   "to": "claim:FMP009"
+  },
+  {
+   "from": "source:fmp_marchesa_2016",
+   "relation": "cited_by",
+   "to": "claim:FMP003"
+  },
+  {
+   "from": "source:fmp_outlaws_crew_2024",
+   "image_labels": [
+    "0001_MTGOTJ_CommFace: Gonti, Canny Acquisitor"
+   ],
+   "limitation": "An art-file label is not a statement that the pictured card depicts a canon story event.",
+   "relation": "art_file_used_on_official_page",
+   "tier": "OFFICIAL_IMAGE_LABEL_PRINTING_MATCH",
+   "to": "printing:03a7e79f-625a-49ac-9cb1-e1fe5f51f5a0"
+  },
+  {
+   "from": "source:fmp_outlaws_crew_2024",
+   "image_labels": [
+    "0002_MTGOTJ_CommFace: Olivia, Opulent Outlaw"
+   ],
+   "limitation": "An art-file label is not a statement that the pictured card depicts a canon story event.",
+   "relation": "art_file_used_on_official_page",
+   "tier": "OFFICIAL_IMAGE_LABEL_PRINTING_MATCH",
+   "to": "printing:55e6c31b-f9e9-4e42-a875-985d99300d9d"
+  },
+  {
+   "from": "source:fmp_outlaws_crew_2024",
+   "image_labels": [
+    "0003_MTGOTJ_CommFace: Stella Lee, Wild Card"
+   ],
+   "limitation": "An art-file label is not a statement that the pictured card depicts a canon story event.",
+   "relation": "art_file_used_on_official_page",
+   "tier": "OFFICIAL_IMAGE_LABEL_PRINTING_MATCH",
+   "to": "printing:2a8a7696-b5d9-4378-9d5c-2c9007e4df63"
+  },
+  {
+   "from": "source:fmp_outlaws_crew_2024",
+   "image_labels": [
+    "0004_MTGOTJ_CommFace: Yuma, Proud Protector"
+   ],
+   "limitation": "An art-file label is not a statement that the pictured card depicts a canon story event.",
+   "relation": "art_file_used_on_official_page",
+   "tier": "OFFICIAL_IMAGE_LABEL_PRINTING_MATCH",
+   "to": "printing:18df72be-07d2-4412-b36d-a45119763db3"
+  },
+  {
+   "from": "source:fmp_outlaws_crew_2024",
+   "image_labels": [
+    "0050_MTGOTJ_Main: Geralf, the Fleshwright"
+   ],
+   "limitation": "An art-file label is not a statement that the pictured card depicts a canon story event.",
+   "relation": "art_file_used_on_official_page",
+   "tier": "OFFICIAL_IMAGE_LABEL_PRINTING_MATCH",
+   "to": "printing:afe3b678-b340-4c53-bbf6-19252a809d73"
+  },
+  {
+   "from": "source:fmp_outlaws_crew_2024",
+   "image_labels": [
+    "0089_MTGOTJ_Main: Gisa, the Hellraiser"
+   ],
+   "limitation": "An art-file label is not a statement that the pictured card depicts a canon story event.",
+   "relation": "art_file_used_on_official_page",
+   "tier": "OFFICIAL_IMAGE_LABEL_PRINTING_MATCH",
+   "to": "printing:db7c07b2-02b2-4e62-bf1b-4848e06eec28"
+  },
+  {
+   "from": "source:fmp_outlaws_crew_2024",
+   "image_labels": [
+    "0092_MTGOTJ_Main: Kaervek, the Punisher"
+   ],
+   "limitation": "An art-file label is not a statement that the pictured card depicts a canon story event.",
+   "relation": "art_file_used_on_official_page",
+   "tier": "OFFICIAL_IMAGE_LABEL_PRINTING_MATCH",
+   "to": "printing:7f3affc1-be42-48c7-89ff-b59550ff278c"
+  },
+  {
+   "from": "source:fmp_outlaws_crew_2024",
+   "image_labels": [
+    "0109_MTGOTJ_Main: Tinybones, the Pickpocket"
+   ],
+   "limitation": "An art-file label is not a statement that the pictured card depicts a canon story event.",
+   "relation": "art_file_used_on_official_page",
+   "tier": "OFFICIAL_IMAGE_LABEL_PRINTING_MATCH",
+   "to": "printing:3d3025a2-4a17-4137-ba0b-bd676c6f5f88"
+  },
+  {
+   "from": "source:fmp_outlaws_crew_2024",
+   "image_labels": [
+    "0190_MTGOTJ_Main: Annie Flash, the Veteran"
+   ],
+   "limitation": "An art-file label is not a statement that the pictured card depicts a canon story event.",
+   "relation": "art_file_used_on_official_page",
+   "tier": "OFFICIAL_IMAGE_LABEL_PRINTING_MATCH",
+   "to": "printing:8d4af7c3-a70d-4f71-b27d-b268c4a0f81e"
+  },
+  {
+   "from": "source:fmp_outlaws_crew_2024",
+   "image_labels": [
+    "0197_MTGOTJ_Main: Breeches, the Blastmaker"
+   ],
+   "limitation": "An art-file label is not a statement that the pictured card depicts a canon story event.",
+   "relation": "art_file_used_on_official_page",
+   "tier": "OFFICIAL_IMAGE_LABEL_PRINTING_MATCH",
+   "to": "printing:cf3bda9e-42af-4f99-a504-c96c25c2794b"
+  },
+  {
+   "from": "source:fmp_outlaws_crew_2024",
+   "image_labels": [
+    "0202_MTGOTJ_Main: Eriette, the Beguiler"
+   ],
+   "limitation": "An art-file label is not a statement that the pictured card depicts a canon story event.",
+   "relation": "art_file_used_on_official_page",
+   "tier": "OFFICIAL_IMAGE_LABEL_PRINTING_MATCH",
+   "to": "printing:f46c133a-7ae4-431b-88f2-ec606a7baf69"
+  },
+  {
+   "from": "source:fmp_outlaws_crew_2024",
+   "image_labels": [
+    "0213_MTGOTJ_Main: Kellan, the Kid"
+   ],
+   "limitation": "An art-file label is not a statement that the pictured card depicts a canon story event.",
+   "relation": "art_file_used_on_official_page",
+   "tier": "OFFICIAL_IMAGE_LABEL_PRINTING_MATCH",
+   "to": "printing:04dfbc4c-ab21-45db-bbd9-b9d245d60015"
+  },
+  {
+   "from": "source:fmp_outlaws_crew_2024",
+   "image_labels": [
+    "0219_MTGOTJ_Main: Malcolm, the Eyes"
+   ],
+   "limitation": "An art-file label is not a statement that the pictured card depicts a canon story event.",
+   "relation": "art_file_used_on_official_page",
+   "tier": "OFFICIAL_IMAGE_LABEL_PRINTING_MATCH",
+   "to": "printing:521dffaa-813b-41e4-b7c2-a8c407167875"
+  },
+  {
+   "from": "source:fmp_outlaws_crew_2024",
+   "image_labels": [
+    "0223_MTGOTJ_Main: Oko, the Ringleader"
+   ],
+   "limitation": "An art-file label is not a statement that the pictured card depicts a canon story event.",
+   "relation": "art_file_used_on_official_page",
+   "tier": "OFFICIAL_IMAGE_LABEL_PRINTING_MATCH",
+   "to": "printing:396df8d6-e85d-4486-8116-68841b7e1e2e"
+  },
+  {
+   "from": "source:fmp_outlaws_crew_2024",
+   "image_labels": [
+    "0226_MTGOTJ_Main: Rakdos, the Muscle"
+   ],
+   "limitation": "An art-file label is not a statement that the pictured card depicts a canon story event.",
+   "relation": "art_file_used_on_official_page",
+   "tier": "OFFICIAL_IMAGE_LABEL_PRINTING_MATCH",
+   "to": "printing:bb34babd-1b85-4a7d-a066-a8337805056e"
+  },
+  {
+   "from": "source:fmp_outlaws_crew_2024",
+   "image_labels": [
+    "0230_MTGOTJ_Main: Satoru, the Infiltrator"
+   ],
+   "limitation": "An art-file label is not a statement that the pictured card depicts a canon story event.",
+   "relation": "art_file_used_on_official_page",
+   "tier": "OFFICIAL_IMAGE_LABEL_PRINTING_MATCH",
+   "to": "printing:acc9a5cc-2b3c-4c2f-8176-4a2d86265cc5"
+  },
+  {
+   "from": "source:fmp_outlaws_crew_2024",
+   "image_labels": [
+    "0237_MTGOTJ_Main: Vraska, the Silencer"
+   ],
+   "limitation": "An art-file label is not a statement that the pictured card depicts a canon story event.",
+   "relation": "art_file_used_on_official_page",
+   "tier": "OFFICIAL_IMAGE_LABEL_PRINTING_MATCH",
+   "to": "printing:b042abf2-c40b-4235-a4fa-2e4901c375c3"
+  },
+  {
+   "from": "source:fmp_outlaws_crew_2024",
+   "image_labels": [
+    "0287_MTGOTJ_Wanted: Geralf, the Fleshwright"
+   ],
+   "limitation": "An art-file label is not a statement that the pictured card depicts a canon story event.",
+   "relation": "art_file_used_on_official_page",
+   "tier": "OFFICIAL_IMAGE_LABEL_PRINTING_MATCH",
+   "to": "printing:6ef3f55e-b8e6-4ef1-85e4-2aef5afc15ab"
+  },
+  {
+   "from": "source:fmp_outlaws_crew_2024",
+   "image_labels": [
+    "0288_MTGOTJ_Wanted: Gisa, the Hellraiser"
+   ],
+   "limitation": "An art-file label is not a statement that the pictured card depicts a canon story event.",
+   "relation": "art_file_used_on_official_page",
+   "tier": "OFFICIAL_IMAGE_LABEL_PRINTING_MATCH",
+   "to": "printing:37c1ad56-cf6e-4717-a56e-feeb7339b8c3"
+  },
+  {
+   "from": "source:fmp_outlaws_crew_2024",
+   "image_labels": [
+    "0289_MTGOTJ_Wanted: Kaervek, the Punisher"
+   ],
+   "limitation": "An art-file label is not a statement that the pictured card depicts a canon story event.",
+   "relation": "art_file_used_on_official_page",
+   "tier": "OFFICIAL_IMAGE_LABEL_PRINTING_MATCH",
+   "to": "printing:95e759e4-bda5-4d01-a9a8-3986df1d4428"
+  },
+  {
+   "from": "source:fmp_outlaws_crew_2024",
+   "image_labels": [
+    "0290_MTGOTJ_Wanted: Tinybones, the Pickpocket"
+   ],
+   "limitation": "An art-file label is not a statement that the pictured card depicts a canon story event.",
+   "relation": "art_file_used_on_official_page",
+   "tier": "OFFICIAL_IMAGE_LABEL_PRINTING_MATCH",
+   "to": "printing:1b2a3962-315d-48df-9af5-7cb4dd2040de"
+  },
+  {
+   "from": "source:fmp_outlaws_crew_2024",
+   "image_labels": [
+    "0291_MTGOTJ_Wanted: Annie Flash, the Veteran"
+   ],
+   "limitation": "An art-file label is not a statement that the pictured card depicts a canon story event.",
+   "relation": "art_file_used_on_official_page",
+   "tier": "OFFICIAL_IMAGE_LABEL_PRINTING_MATCH",
+   "to": "printing:0ea8d21f-a003-4711-ad5c-0bde87e1edc6"
+  },
+  {
+   "from": "source:fmp_outlaws_crew_2024",
+   "image_labels": [
+    "0292_MTGOTJ_Wanted: Breeches, the Blastmaker"
+   ],
+   "limitation": "An art-file label is not a statement that the pictured card depicts a canon story event.",
+   "relation": "art_file_used_on_official_page",
+   "tier": "OFFICIAL_IMAGE_LABEL_PRINTING_MATCH",
+   "to": "printing:fcde5cd5-4ce6-4b94-8d97-534a647dbfc1"
+  },
+  {
+   "from": "source:fmp_outlaws_crew_2024",
+   "image_labels": [
+    "0293_MTGOTJ_Wanted: Eriette, the Beguiler"
+   ],
+   "limitation": "An art-file label is not a statement that the pictured card depicts a canon story event.",
+   "relation": "art_file_used_on_official_page",
+   "tier": "OFFICIAL_IMAGE_LABEL_PRINTING_MATCH",
+   "to": "printing:f69b5791-a405-4578-acba-959cc181e9ad"
+  },
+  {
+   "from": "source:fmp_outlaws_crew_2024",
+   "image_labels": [
+    "0294_MTGOTJ_Wanted: Kellan, the Kid"
+   ],
+   "limitation": "An art-file label is not a statement that the pictured card depicts a canon story event.",
+   "relation": "art_file_used_on_official_page",
+   "tier": "OFFICIAL_IMAGE_LABEL_PRINTING_MATCH",
+   "to": "printing:789659f6-af39-4357-985f-a006f192893c"
+  },
+  {
+   "from": "source:fmp_outlaws_crew_2024",
+   "image_labels": [
+    "0295_MTGOTJ_Wanted: Malcolm, the Eyes"
+   ],
+   "limitation": "An art-file label is not a statement that the pictured card depicts a canon story event.",
+   "relation": "art_file_used_on_official_page",
+   "tier": "OFFICIAL_IMAGE_LABEL_PRINTING_MATCH",
+   "to": "printing:480de469-3fac-4a2b-8dec-7899ce00551e"
+  },
+  {
+   "from": "source:fmp_outlaws_crew_2024",
+   "image_labels": [
+    "0296_MTGOTJ_Wanted: Oko, the Ringleader"
+   ],
+   "limitation": "An art-file label is not a statement that the pictured card depicts a canon story event.",
+   "relation": "art_file_used_on_official_page",
+   "tier": "OFFICIAL_IMAGE_LABEL_PRINTING_MATCH",
+   "to": "printing:9c025072-0d0a-4ca7-a386-f1ed7c97638b"
+  },
+  {
+   "from": "source:fmp_outlaws_crew_2024",
+   "image_labels": [
+    "0297_MTGOTJ_Wanted: Rakdos, the Muscle"
+   ],
+   "limitation": "An art-file label is not a statement that the pictured card depicts a canon story event.",
+   "relation": "art_file_used_on_official_page",
+   "tier": "OFFICIAL_IMAGE_LABEL_PRINTING_MATCH",
+   "to": "printing:b85635e0-fb5b-42ea-8a30-d67922cbca95"
+  },
+  {
+   "from": "source:fmp_outlaws_crew_2024",
+   "image_labels": [
+    "0298_MTGOTJ_Wanted: Satoru, the Infiltrator"
+   ],
+   "limitation": "An art-file label is not a statement that the pictured card depicts a canon story event.",
+   "relation": "art_file_used_on_official_page",
+   "tier": "OFFICIAL_IMAGE_LABEL_PRINTING_MATCH",
+   "to": "printing:4b9a76f0-b697-4c1d-9b60-c66f7fc4316e"
+  },
+  {
+   "from": "source:fmp_outlaws_crew_2024",
+   "image_labels": [
+    "0299_MTGOTJ_Wanted: Vraska, the Silencer"
+   ],
+   "limitation": "An art-file label is not a statement that the pictured card depicts a canon story event.",
+   "relation": "art_file_used_on_official_page",
+   "tier": "OFFICIAL_IMAGE_LABEL_PRINTING_MATCH",
+   "to": "printing:2a6cc9ab-a1d8-47de-8ac5-112e5fee00f9"
+  },
+  {
+   "from": "source:fmp_outlaws_crew_2024",
+   "image_labels": [
+    "0305_MTGOTJ_BrdlsPW: Oko, the Ringleader"
+   ],
+   "limitation": "An art-file label is not a statement that the pictured card depicts a canon story event.",
+   "relation": "art_file_used_on_official_page",
+   "tier": "OFFICIAL_IMAGE_LABEL_PRINTING_MATCH",
+   "to": "printing:0bfbb249-f2cc-4295-b6e3-4fd7e1eac183"
+  },
+  {
+   "from": "source:fmp_outlaws_crew_2024",
+   "relation": "cited_by",
+   "to": "claim:FMP012"
+  },
+  {
+   "from": "source:fmp_outlaws_episode2_2024",
+   "relation": "cited_by",
+   "to": "claim:FMP010"
+  },
+  {
+   "from": "source:fmp_outlaws_look_2024",
+   "relation": "cited_by",
+   "to": "claim:FMP010"
+  },
+  {
+   "from": "source:fmp_outlaws_look_2024",
+   "relation": "cited_by",
+   "to": "claim:FMP011"
+  },
+  {
    "from": "source:fob",
    "relation": "cited_by",
    "to": "claim:SSX008"
@@ -56945,316 +57609,6 @@
    "from": "source:otj_epi2",
    "relation": "cited_by",
    "to": "claim:OT012"
-  },
-  {
-   "from": "source:otjs_crew",
-   "image_labels": [
-    "0001_MTGOTJ_CommFace: Gonti, Canny Acquisitor"
-   ],
-   "limitation": "An art-file label is not a statement that the pictured card depicts a canon story event.",
-   "relation": "art_file_used_on_official_page",
-   "tier": "OFFICIAL_IMAGE_LABEL_PRINTING_MATCH",
-   "to": "printing:03a7e79f-625a-49ac-9cb1-e1fe5f51f5a0"
-  },
-  {
-   "from": "source:otjs_crew",
-   "image_labels": [
-    "0002_MTGOTJ_CommFace: Olivia, Opulent Outlaw"
-   ],
-   "limitation": "An art-file label is not a statement that the pictured card depicts a canon story event.",
-   "relation": "art_file_used_on_official_page",
-   "tier": "OFFICIAL_IMAGE_LABEL_PRINTING_MATCH",
-   "to": "printing:55e6c31b-f9e9-4e42-a875-985d99300d9d"
-  },
-  {
-   "from": "source:otjs_crew",
-   "image_labels": [
-    "0003_MTGOTJ_CommFace: Stella Lee, Wild Card"
-   ],
-   "limitation": "An art-file label is not a statement that the pictured card depicts a canon story event.",
-   "relation": "art_file_used_on_official_page",
-   "tier": "OFFICIAL_IMAGE_LABEL_PRINTING_MATCH",
-   "to": "printing:2a8a7696-b5d9-4378-9d5c-2c9007e4df63"
-  },
-  {
-   "from": "source:otjs_crew",
-   "image_labels": [
-    "0004_MTGOTJ_CommFace: Yuma, Proud Protector"
-   ],
-   "limitation": "An art-file label is not a statement that the pictured card depicts a canon story event.",
-   "relation": "art_file_used_on_official_page",
-   "tier": "OFFICIAL_IMAGE_LABEL_PRINTING_MATCH",
-   "to": "printing:18df72be-07d2-4412-b36d-a45119763db3"
-  },
-  {
-   "from": "source:otjs_crew",
-   "image_labels": [
-    "0050_MTGOTJ_Main: Geralf, the Fleshwright"
-   ],
-   "limitation": "An art-file label is not a statement that the pictured card depicts a canon story event.",
-   "relation": "art_file_used_on_official_page",
-   "tier": "OFFICIAL_IMAGE_LABEL_PRINTING_MATCH",
-   "to": "printing:afe3b678-b340-4c53-bbf6-19252a809d73"
-  },
-  {
-   "from": "source:otjs_crew",
-   "image_labels": [
-    "0089_MTGOTJ_Main: Gisa, the Hellraiser"
-   ],
-   "limitation": "An art-file label is not a statement that the pictured card depicts a canon story event.",
-   "relation": "art_file_used_on_official_page",
-   "tier": "OFFICIAL_IMAGE_LABEL_PRINTING_MATCH",
-   "to": "printing:db7c07b2-02b2-4e62-bf1b-4848e06eec28"
-  },
-  {
-   "from": "source:otjs_crew",
-   "image_labels": [
-    "0092_MTGOTJ_Main: Kaervek, the Punisher"
-   ],
-   "limitation": "An art-file label is not a statement that the pictured card depicts a canon story event.",
-   "relation": "art_file_used_on_official_page",
-   "tier": "OFFICIAL_IMAGE_LABEL_PRINTING_MATCH",
-   "to": "printing:7f3affc1-be42-48c7-89ff-b59550ff278c"
-  },
-  {
-   "from": "source:otjs_crew",
-   "image_labels": [
-    "0109_MTGOTJ_Main: Tinybones, the Pickpocket"
-   ],
-   "limitation": "An art-file label is not a statement that the pictured card depicts a canon story event.",
-   "relation": "art_file_used_on_official_page",
-   "tier": "OFFICIAL_IMAGE_LABEL_PRINTING_MATCH",
-   "to": "printing:3d3025a2-4a17-4137-ba0b-bd676c6f5f88"
-  },
-  {
-   "from": "source:otjs_crew",
-   "image_labels": [
-    "0190_MTGOTJ_Main: Annie Flash, the Veteran"
-   ],
-   "limitation": "An art-file label is not a statement that the pictured card depicts a canon story event.",
-   "relation": "art_file_used_on_official_page",
-   "tier": "OFFICIAL_IMAGE_LABEL_PRINTING_MATCH",
-   "to": "printing:8d4af7c3-a70d-4f71-b27d-b268c4a0f81e"
-  },
-  {
-   "from": "source:otjs_crew",
-   "image_labels": [
-    "0197_MTGOTJ_Main: Breeches, the Blastmaker"
-   ],
-   "limitation": "An art-file label is not a statement that the pictured card depicts a canon story event.",
-   "relation": "art_file_used_on_official_page",
-   "tier": "OFFICIAL_IMAGE_LABEL_PRINTING_MATCH",
-   "to": "printing:cf3bda9e-42af-4f99-a504-c96c25c2794b"
-  },
-  {
-   "from": "source:otjs_crew",
-   "image_labels": [
-    "0202_MTGOTJ_Main: Eriette, the Beguiler"
-   ],
-   "limitation": "An art-file label is not a statement that the pictured card depicts a canon story event.",
-   "relation": "art_file_used_on_official_page",
-   "tier": "OFFICIAL_IMAGE_LABEL_PRINTING_MATCH",
-   "to": "printing:f46c133a-7ae4-431b-88f2-ec606a7baf69"
-  },
-  {
-   "from": "source:otjs_crew",
-   "image_labels": [
-    "0213_MTGOTJ_Main: Kellan, the Kid"
-   ],
-   "limitation": "An art-file label is not a statement that the pictured card depicts a canon story event.",
-   "relation": "art_file_used_on_official_page",
-   "tier": "OFFICIAL_IMAGE_LABEL_PRINTING_MATCH",
-   "to": "printing:04dfbc4c-ab21-45db-bbd9-b9d245d60015"
-  },
-  {
-   "from": "source:otjs_crew",
-   "image_labels": [
-    "0219_MTGOTJ_Main: Malcolm, the Eyes"
-   ],
-   "limitation": "An art-file label is not a statement that the pictured card depicts a canon story event.",
-   "relation": "art_file_used_on_official_page",
-   "tier": "OFFICIAL_IMAGE_LABEL_PRINTING_MATCH",
-   "to": "printing:521dffaa-813b-41e4-b7c2-a8c407167875"
-  },
-  {
-   "from": "source:otjs_crew",
-   "image_labels": [
-    "0223_MTGOTJ_Main: Oko, the Ringleader"
-   ],
-   "limitation": "An art-file label is not a statement that the pictured card depicts a canon story event.",
-   "relation": "art_file_used_on_official_page",
-   "tier": "OFFICIAL_IMAGE_LABEL_PRINTING_MATCH",
-   "to": "printing:396df8d6-e85d-4486-8116-68841b7e1e2e"
-  },
-  {
-   "from": "source:otjs_crew",
-   "image_labels": [
-    "0226_MTGOTJ_Main: Rakdos, the Muscle"
-   ],
-   "limitation": "An art-file label is not a statement that the pictured card depicts a canon story event.",
-   "relation": "art_file_used_on_official_page",
-   "tier": "OFFICIAL_IMAGE_LABEL_PRINTING_MATCH",
-   "to": "printing:bb34babd-1b85-4a7d-a066-a8337805056e"
-  },
-  {
-   "from": "source:otjs_crew",
-   "image_labels": [
-    "0230_MTGOTJ_Main: Satoru, the Infiltrator"
-   ],
-   "limitation": "An art-file label is not a statement that the pictured card depicts a canon story event.",
-   "relation": "art_file_used_on_official_page",
-   "tier": "OFFICIAL_IMAGE_LABEL_PRINTING_MATCH",
-   "to": "printing:acc9a5cc-2b3c-4c2f-8176-4a2d86265cc5"
-  },
-  {
-   "from": "source:otjs_crew",
-   "image_labels": [
-    "0237_MTGOTJ_Main: Vraska, the Silencer"
-   ],
-   "limitation": "An art-file label is not a statement that the pictured card depicts a canon story event.",
-   "relation": "art_file_used_on_official_page",
-   "tier": "OFFICIAL_IMAGE_LABEL_PRINTING_MATCH",
-   "to": "printing:b042abf2-c40b-4235-a4fa-2e4901c375c3"
-  },
-  {
-   "from": "source:otjs_crew",
-   "image_labels": [
-    "0287_MTGOTJ_Wanted: Geralf, the Fleshwright"
-   ],
-   "limitation": "An art-file label is not a statement that the pictured card depicts a canon story event.",
-   "relation": "art_file_used_on_official_page",
-   "tier": "OFFICIAL_IMAGE_LABEL_PRINTING_MATCH",
-   "to": "printing:6ef3f55e-b8e6-4ef1-85e4-2aef5afc15ab"
-  },
-  {
-   "from": "source:otjs_crew",
-   "image_labels": [
-    "0288_MTGOTJ_Wanted: Gisa, the Hellraiser"
-   ],
-   "limitation": "An art-file label is not a statement that the pictured card depicts a canon story event.",
-   "relation": "art_file_used_on_official_page",
-   "tier": "OFFICIAL_IMAGE_LABEL_PRINTING_MATCH",
-   "to": "printing:37c1ad56-cf6e-4717-a56e-feeb7339b8c3"
-  },
-  {
-   "from": "source:otjs_crew",
-   "image_labels": [
-    "0289_MTGOTJ_Wanted: Kaervek, the Punisher"
-   ],
-   "limitation": "An art-file label is not a statement that the pictured card depicts a canon story event.",
-   "relation": "art_file_used_on_official_page",
-   "tier": "OFFICIAL_IMAGE_LABEL_PRINTING_MATCH",
-   "to": "printing:95e759e4-bda5-4d01-a9a8-3986df1d4428"
-  },
-  {
-   "from": "source:otjs_crew",
-   "image_labels": [
-    "0290_MTGOTJ_Wanted: Tinybones, the Pickpocket"
-   ],
-   "limitation": "An art-file label is not a statement that the pictured card depicts a canon story event.",
-   "relation": "art_file_used_on_official_page",
-   "tier": "OFFICIAL_IMAGE_LABEL_PRINTING_MATCH",
-   "to": "printing:1b2a3962-315d-48df-9af5-7cb4dd2040de"
-  },
-  {
-   "from": "source:otjs_crew",
-   "image_labels": [
-    "0291_MTGOTJ_Wanted: Annie Flash, the Veteran"
-   ],
-   "limitation": "An art-file label is not a statement that the pictured card depicts a canon story event.",
-   "relation": "art_file_used_on_official_page",
-   "tier": "OFFICIAL_IMAGE_LABEL_PRINTING_MATCH",
-   "to": "printing:0ea8d21f-a003-4711-ad5c-0bde87e1edc6"
-  },
-  {
-   "from": "source:otjs_crew",
-   "image_labels": [
-    "0292_MTGOTJ_Wanted: Breeches, the Blastmaker"
-   ],
-   "limitation": "An art-file label is not a statement that the pictured card depicts a canon story event.",
-   "relation": "art_file_used_on_official_page",
-   "tier": "OFFICIAL_IMAGE_LABEL_PRINTING_MATCH",
-   "to": "printing:fcde5cd5-4ce6-4b94-8d97-534a647dbfc1"
-  },
-  {
-   "from": "source:otjs_crew",
-   "image_labels": [
-    "0293_MTGOTJ_Wanted: Eriette, the Beguiler"
-   ],
-   "limitation": "An art-file label is not a statement that the pictured card depicts a canon story event.",
-   "relation": "art_file_used_on_official_page",
-   "tier": "OFFICIAL_IMAGE_LABEL_PRINTING_MATCH",
-   "to": "printing:f69b5791-a405-4578-acba-959cc181e9ad"
-  },
-  {
-   "from": "source:otjs_crew",
-   "image_labels": [
-    "0294_MTGOTJ_Wanted: Kellan, the Kid"
-   ],
-   "limitation": "An art-file label is not a statement that the pictured card depicts a canon story event.",
-   "relation": "art_file_used_on_official_page",
-   "tier": "OFFICIAL_IMAGE_LABEL_PRINTING_MATCH",
-   "to": "printing:789659f6-af39-4357-985f-a006f192893c"
-  },
-  {
-   "from": "source:otjs_crew",
-   "image_labels": [
-    "0295_MTGOTJ_Wanted: Malcolm, the Eyes"
-   ],
-   "limitation": "An art-file label is not a statement that the pictured card depicts a canon story event.",
-   "relation": "art_file_used_on_official_page",
-   "tier": "OFFICIAL_IMAGE_LABEL_PRINTING_MATCH",
-   "to": "printing:480de469-3fac-4a2b-8dec-7899ce00551e"
-  },
-  {
-   "from": "source:otjs_crew",
-   "image_labels": [
-    "0296_MTGOTJ_Wanted: Oko, the Ringleader"
-   ],
-   "limitation": "An art-file label is not a statement that the pictured card depicts a canon story event.",
-   "relation": "art_file_used_on_official_page",
-   "tier": "OFFICIAL_IMAGE_LABEL_PRINTING_MATCH",
-   "to": "printing:9c025072-0d0a-4ca7-a386-f1ed7c97638b"
-  },
-  {
-   "from": "source:otjs_crew",
-   "image_labels": [
-    "0297_MTGOTJ_Wanted: Rakdos, the Muscle"
-   ],
-   "limitation": "An art-file label is not a statement that the pictured card depicts a canon story event.",
-   "relation": "art_file_used_on_official_page",
-   "tier": "OFFICIAL_IMAGE_LABEL_PRINTING_MATCH",
-   "to": "printing:b85635e0-fb5b-42ea-8a30-d67922cbca95"
-  },
-  {
-   "from": "source:otjs_crew",
-   "image_labels": [
-    "0298_MTGOTJ_Wanted: Satoru, the Infiltrator"
-   ],
-   "limitation": "An art-file label is not a statement that the pictured card depicts a canon story event.",
-   "relation": "art_file_used_on_official_page",
-   "tier": "OFFICIAL_IMAGE_LABEL_PRINTING_MATCH",
-   "to": "printing:4b9a76f0-b697-4c1d-9b60-c66f7fc4316e"
-  },
-  {
-   "from": "source:otjs_crew",
-   "image_labels": [
-    "0299_MTGOTJ_Wanted: Vraska, the Silencer"
-   ],
-   "limitation": "An art-file label is not a statement that the pictured card depicts a canon story event.",
-   "relation": "art_file_used_on_official_page",
-   "tier": "OFFICIAL_IMAGE_LABEL_PRINTING_MATCH",
-   "to": "printing:2a6cc9ab-a1d8-47de-8ac5-112e5fee00f9"
-  },
-  {
-   "from": "source:otjs_crew",
-   "image_labels": [
-    "0305_MTGOTJ_BrdlsPW: Oko, the Ringleader"
-   ],
-   "limitation": "An art-file label is not a statement that the pictured card depicts a canon story event.",
-   "relation": "art_file_used_on_official_page",
-   "tier": "OFFICIAL_IMAGE_LABEL_PRINTING_MATCH",
-   "to": "printing:0bfbb249-f2cc-4295-b6e3-4fd7e1eac183"
   },
   {
    "from": "source:otjs_crew",
@@ -64948,6 +65302,13 @@
     "file": "data/lore_research/pack_p5_four_plane_histories_2026-10-31.json",
     "sha256": "353cf4b82f12acb90e081f0fab742308ba94a12c504f10593fee56995ff52e03",
     "sources": 5
+   },
+   {
+    "claims": 12,
+    "entities": 16,
+    "file": "data/lore_research/pack_p5_four_more_plane_histories_2026-10-31.json",
+    "sha256": "e33b65458ad25f55b7f2f7d417efcbeaae7106a958b8328c2abbdc13b87e3853",
+    "sources": 7
    }
   ],
   "deck_evidence": [
@@ -65218,6 +65579,14 @@
    "name": "Immortal Sun",
    "origins": [
     "pack_p5_ixalan_rivals_2026-10-30.json"
+   ],
+   "type": "Object"
+  },
+  {
+   "id": "artifact:kaldheim_world_tree",
+   "name": "Kaldheim's World Tree",
+   "origins": [
+    "pack_p5_four_more_plane_histories_2026-10-31.json"
    ],
    "type": "Object"
   },
@@ -84068,6 +84437,7 @@
     "Queen Marchesa"
    ],
    "origins": [
+    "pack_p5_four_more_plane_histories_2026-10-31.json",
     "pack_p5_untagged_conspiracy_2016_2026-10-30.json",
     "pack_p5_untagged_stories_2014_2026-10-30.json"
    ],
@@ -84591,6 +84961,7 @@
    "id": "character:oko",
    "name": "Oko",
    "origins": [
+    "pack_p5_four_more_plane_histories_2026-10-31.json",
     "pack_p5_lost_caverns_of_ixalan_2026-10-30.json",
     "pack_p5_otj_side_stories_2026-10-30.json",
     "pack_p5_outlaws_of_thunder_junction_2026-10-30.json",
@@ -90117,6 +90488,150 @@
    ],
    "predicate": "explored",
    "stage": "sothera_eoe_2025",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:FMP001",
+   "limitation": "The official profile says the victims died in an unknown scheme; neither the killers nor exact timing are established here.",
+   "name": "Wizards' Fiora profile records a past massacre in the outlying settlement of Drakestown.",
+   "origins": [
+    "pack_p5_four_more_plane_histories_2026-10-31.json"
+   ],
+   "predicate": "was_site_of",
+   "stage": "fiora_drakestown_historical_massacre",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:FMP002",
+   "limitation": "This is the source profile's political account, not proof that every later regime, region or visitor remains permanently subject to unchanged laws.",
+   "name": "Paliano's governing laws exert magical binding force over Fiora's population.",
+   "origins": [
+    "pack_p5_four_more_plane_histories_2026-10-31.json"
+   ],
+   "predicate": "enforces_laws_through",
+   "stage": "fiora_paliano_civic_structure",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:FMP003",
+   "limitation": "This certifies Marchesa's 2016 in-world proclamation, not the truth of every claim she made about succession, lawful legitimacy or the former guard.",
+   "name": "Queen Marchesa publicly claimed sovereign authority over Paliano following Brago's reported final passing.",
+   "origins": [
+    "pack_p5_four_more_plane_histories_2026-10-31.json"
+   ],
+   "predicate": "witnessed_royal_proclamation_by",
+   "stage": "fiora_marchesa_claims_throne_2016",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:FMP004",
+   "limitation": "The 2021 guide calls ten realms well known but explicitly allows others; it gives no exhaustive count or post-invasion health report for the tree.",
+   "name": "Kaldheim's mini-plane realms connect through the World Tree, which the guide describes as birthing the realms.",
+   "origins": [
+    "pack_p5_four_more_plane_histories_2026-10-31.json"
+   ],
+   "predicate": "binds_realms_with",
+   "stage": "kaldheim_world_tree_cosmology_2021",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:FMP005",
+   "limitation": "This is a general mechanism, not a dated claim that a specific Doomskar caused a particular later conflict.",
+   "name": "Kaldheim's moving realms sometimes collide in a destructive event called a Doomskar.",
+   "origins": [
+    "pack_p5_four_more_plane_histories_2026-10-31.json"
+   ],
+   "predicate": "experiences",
+   "stage": "kaldheim_doomskar_process_2021",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:FMP006",
+   "limitation": "The 'few centuries' dating and word 'current' are relative to the 2021 guide; this does not independently certify today's leadership.",
+   "name": "The Skoti gods displaced the Einir as Kaldheim's ruling divine family before the guide's era.",
+   "origins": [
+    "pack_p5_four_more_plane_histories_2026-10-31.json"
+   ],
+   "predicate": "was_taken_over_by_gods",
+   "stage": "kaldheim_skoti_replace_einir",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:FMP007",
+   "limitation": "The quoted interval belongs to the former Age of Oona; it must not be treated as the current cycle or a verified conversion to AR dates.",
+   "name": "During the earlier Great Aurora cycle, Lorwyn-Shadowmoor switched its whole-plane aspects roughly every 300 years.",
+   "origins": [
+    "pack_p5_four_more_plane_histories_2026-10-31.json"
+   ],
+   "predicate": "historically_shifted_during",
+   "stage": "lorwyn_age_of_oona_great_aurora",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:FMP008",
+   "limitation": "The guide contrasts this with Oona's historical plane-wide shift; borders are dynamic, not a fixed map or permanent division for all future stories.",
+   "name": "In the guide's newer era, Lorwyn and Shadowmoor form adjacent day and night regions with shifting boundaries.",
+   "origins": [
+    "pack_p5_four_more_plane_histories_2026-10-31.json"
+   ],
+   "predicate": "has_aspect_borders",
+   "stage": "lorwyn_2026_aurora_frontiers",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:FMP009",
+   "limitation": "The same guide recognizes rare suppression and immunity; this should not be read as no exceptions or as a universal effect outside the plane.",
+   "name": "Lorwyn-Shadowmoor's crossing aurora boundaries transform land and living residents between aspects.",
+   "origins": [
+    "pack_p5_four_more_plane_histories_2026-10-31.json"
+   ],
+   "predicate": "undergoes",
+   "stage": "lorwyn_2026_aspect_transformations",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:FMP010",
+   "limitation": "A vault described as ancient is not evidence of a precise construction date or of the truth of characters' speculation about its builders.",
+   "name": "The 2024 Wizards preview records a discovered ancient vault on Thunder Junction; the story names it Maag Taranau.",
+   "origins": [
+    "pack_p5_four_more_plane_histories_2026-10-31.json"
+   ],
+   "predicate": "contains_ancient_vault",
+   "stage": "thunder_junction_discovered_vault_2024",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:FMP011",
+   "limitation": "The preview describes the heist's setup, not its outcome, every participant's ultimate role, or a permanent political order on the plane.",
+   "name": "Oko assembled an interplanar outlaw crew for a high-profile heist on Thunder Junction.",
+   "origins": [
+    "pack_p5_four_more_plane_histories_2026-10-31.json"
+   ],
+   "predicate": "hosted_heist_plot_by",
+   "stage": "thunder_junction_oko_heist_setup_2024",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:FMP012",
+   "limitation": "This is a 2024 setting description; it does not independently identify who built the vault or establish the current city's later control.",
+   "name": "The Wizards character guide places the vault above Tarnation, a Hellspur city on Thunder Junction.",
+   "origins": [
+    "pack_p5_four_more_plane_histories_2026-10-31.json"
+   ],
+   "predicate": "has_frontier_city",
+   "stage": "thunder_junction_tarnation_2024",
    "type": "Claim"
   },
   {
@@ -100542,6 +101057,22 @@
    "type": "Concept"
   },
   {
+   "id": "concept:lorwyn_aspect_transformations",
+   "name": "Aurora-induced transformations",
+   "origins": [
+    "pack_p5_four_more_plane_histories_2026-10-31.json"
+   ],
+   "type": "Concept"
+  },
+  {
+   "id": "concept:lorwyn_current_aurora_borders",
+   "name": "Modern Lorwyn/Shadowmoor aurora boundaries",
+   "origins": [
+    "pack_p5_four_more_plane_histories_2026-10-31.json"
+   ],
+   "type": "Concept"
+  },
+  {
    "id": "concept:meletis_learning",
    "name": "Learning, progress, magic and religious devotion in Meletis",
    "origins": [
@@ -100586,6 +101117,14 @@
    "name": "The Next Eternity (Monoist belief)",
    "origins": [
     "pack_p5_edge_of_eternities_2026-10-30.json"
+   ],
+   "type": "Concept"
+  },
+  {
+   "id": "concept:paliano_binding_laws",
+   "name": "Paliano's magically binding laws",
+   "origins": [
+    "pack_p5_four_more_plane_histories_2026-10-31.json"
    ],
    "type": "Concept"
   },
@@ -101818,6 +102357,14 @@
    "type": "Event"
   },
   {
+   "id": "event:drakestown_massacre",
+   "name": "Massacre of Drakestown",
+   "origins": [
+    "pack_p5_four_more_plane_histories_2026-10-31.json"
+   ],
+   "type": "Event"
+  },
+  {
    "id": "event:dsk_harrowings",
    "name": "Harrowings after Valgavoth molts",
    "origins": [
@@ -101874,10 +102421,26 @@
    "type": "Event"
   },
   {
+   "id": "event:great_aurora",
+   "name": "Great Aurora of the Age of Oona",
+   "origins": [
+    "pack_p5_four_more_plane_histories_2026-10-31.json"
+   ],
+   "type": "Event"
+  },
+  {
    "id": "event:ice_age",
    "name": "Dominarian Ice Age",
    "origins": [
     "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json"
+   ],
+   "type": "Event"
+  },
+  {
+   "id": "event:kaldheim_doomskar",
+   "name": "Doomskar realm-collision event",
+   "origins": [
+    "pack_p5_four_more_plane_histories_2026-10-31.json"
    ],
    "type": "Event"
   },
@@ -103109,6 +103672,7 @@
    "id": "faction:skoti",
    "name": "The Skoti",
    "origins": [
+    "pack_p5_four_more_plane_histories_2026-10-31.json",
     "pack_p5_kaldheim_2026-10-30.json"
    ],
    "type": "Faction"
@@ -103934,6 +104498,7 @@
    "id": "place:maag_taranau",
    "name": "Maag Taranau (the vault)",
    "origins": [
+    "pack_p5_four_more_plane_histories_2026-10-31.json",
     "pack_p5_outlaws_of_thunder_junction_2026-10-30.json"
    ],
    "type": "Place"
@@ -104235,6 +104800,14 @@
    "type": "Place"
   },
   {
+   "id": "place:tarnation",
+   "name": "Tarnation",
+   "origins": [
+    "pack_p5_four_more_plane_histories_2026-10-31.json"
+   ],
+   "type": "Place"
+  },
+  {
    "id": "place:tazeem",
    "name": "Tazeem",
    "origins": [
@@ -104475,6 +105048,7 @@
    "id": "plane:fiora",
    "name": "Fiora",
    "origins": [
+    "pack_p5_four_more_plane_histories_2026-10-31.json",
     "pack_p5_untagged_bios_2026-10-30.json",
     "pack_p5_untagged_planes_2026-10-30.json"
    ],
@@ -104533,6 +105107,7 @@
    "name": "Kaldheim",
    "origins": [
     "pack_p5_duskmourn_2026-10-30.json",
+    "pack_p5_four_more_plane_histories_2026-10-31.json",
     "pack_p5_kaldheim_2026-10-30.json",
     "pack_p5_untagged_bios_2026-10-30.json"
    ],
@@ -104554,6 +105129,7 @@
    "id": "plane:lorwyn_shadowmoor",
    "name": "Lorwyn-Shadowmoor",
    "origins": [
+    "pack_p5_four_more_plane_histories_2026-10-31.json",
     "pack_p5_lorwyn_eclipsed_2026-10-30.json",
     "pack_p5_untagged_planes_2026-10-30.json"
    ],
@@ -104720,6 +105296,7 @@
    "id": "plane:thunder_junction",
    "name": "Thunder Junction",
    "origins": [
+    "pack_p5_four_more_plane_histories_2026-10-31.json",
     "pack_p5_otj_side_stories_2026-10-30.json"
    ],
    "type": "Plane"
@@ -115581,6 +116158,83 @@
    "url": "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-first-lesson-2018-06-20"
   },
   {
+   "id": "source:fmp_fiora_profile",
+   "kind": "official_plane_profile",
+   "name": "Fiora",
+   "origins": [
+    "pack_p5_four_more_plane_histories_2026-10-31.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/story/fiora-plane"
+  },
+  {
+   "id": "source:fmp_kaldheim_2021",
+   "kind": "official_planeswalkers_guide",
+   "name": "Planeswalker's Guide to Kaldheim, Part 1",
+   "origins": [
+    "pack_p5_four_more_plane_histories_2026-10-31.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-kaldheim-part-1-2021-01-08"
+  },
+  {
+   "id": "source:fmp_lorwyn_2026",
+   "kind": "official_planeswalkers_guide",
+   "name": "Planeswalker's Guide to Lorwyn Eclipsed",
+   "origins": [
+    "pack_p5_four_more_plane_histories_2026-10-31.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-to-lorwyn-eclipsed"
+  },
+  {
+   "id": "source:fmp_marchesa_2016",
+   "kind": "official_magic_story",
+   "name": "Proclamation by Queen Marchesa",
+   "origins": [
+    "pack_p5_four_more_plane_histories_2026-10-31.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/proclamation-queen-marchesa-2016-08-15"
+  },
+  {
+   "id": "source:fmp_outlaws_crew_2024",
+   "kind": "official_lore_feature",
+   "name": "A Legendary Crew for an Unbelievable Heist",
+   "origins": [
+    "pack_p5_four_more_plane_histories_2026-10-31.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/feature/a-legendary-crew-for-an-unbelievable-heist-outlaws-of-thunder-junction"
+  },
+  {
+   "id": "source:fmp_outlaws_episode2_2024",
+   "kind": "official_magic_story",
+   "name": "Outlaws of Thunder Junction | Episode 2: The Jailbreak",
+   "origins": [
+    "pack_p5_four_more_plane_histories_2026-10-31.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/episode-2-the-jailbreak"
+  },
+  {
+   "id": "source:fmp_outlaws_look_2024",
+   "kind": "official_set_story_preview",
+   "name": "A First Look at Outlaws of Thunder Junction",
+   "origins": [
+    "pack_p5_four_more_plane_histories_2026-10-31.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/announcements/a-first-look-at-outlaws-of-thunder-junction"
+  },
+  {
    "id": "source:fob",
    "kind": "official_story_episode",
    "name": "Faith in Birds",
@@ -120533,17 +121187,17 @@
  "problems": [],
  "schema": "multiverse-claim-graph/v1",
  "stats": {
-  "claim_edges_with_era": 1277,
+  "claim_edges_with_era": 1289,
   "claim_edges_with_in_universe_date": 36,
   "claims_by_status": {
    "ALTERNATE_CONTINUITY": 2,
-   "CANON_CONFIRMED": 968,
+   "CANON_CONFIRMED": 980,
    "CANON_DISPUTED": 8,
    "CANON_IMPLIED": 253,
    "OPEN_QUESTION": 3
   },
   "curated_bridges": 126,
-  "edges": 8372,
+  "edges": 8421,
   "exact_art_printings": 560,
   "literal_objects": 14,
   "node_types": {
@@ -120552,20 +121206,20 @@
    "CardRepresentation": 560,
    "CardTheme": 1,
    "Character": 484,
-   "Claim": 1234,
-   "Concept": 179,
+   "Claim": 1246,
+   "Concept": 182,
    "DeckProposal": 3,
-   "Event": 30,
+   "Event": 33,
    "Faction": 149,
    "Literal": 14,
-   "Object": 53,
-   "Place": 111,
+   "Object": 54,
+   "Place": 112,
    "Plane": 33,
-   "Source": 620
+   "Source": 627
   },
-  "nodes": 5232,
+  "nodes": 5259,
   "non_wizards_sources": 0,
-  "relations": 446,
-  "wizards_official_sources": 620
+  "relations": 458,
+  "wizards_official_sources": 627
  }
 }

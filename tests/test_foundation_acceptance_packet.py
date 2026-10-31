@@ -48,7 +48,7 @@ class FoundationPacketTests(unittest.TestCase):
         self.assertEqual(c['characters_and_factions_without_direct_claims'], 0)
         self.assertEqual(c['registered_character_faction_direct_claim_gaps'], [])
         self.assertEqual(c['characters_and_factions_with_direct_claims'], 633)
-        self.assertEqual(c['thin_plane_dossiers'], 8)
+        self.assertEqual(c['thin_plane_dossiers'], 4)
 
     def test_qa_sources_and_unknown_are_preserved(self):
         cases = {r['id']: r for r in self.current['representative_questions']}
@@ -64,7 +64,9 @@ class FoundationPacketTests(unittest.TestCase):
         self.assertEqual({key for key in cases if key.startswith('plane_')},
                          {'plane_alara', 'plane_argentum', 'plane_eldraine',
                           'plane_ikoria', 'plane_new_capenna', 'plane_new_capenna_background',
-                          'plane_arcavios', 'plane_vryn', 'plane_serras_realm', 'plane_regatha'})
+                          'plane_arcavios', 'plane_vryn', 'plane_serras_realm', 'plane_regatha',
+                          'plane_fiora', 'plane_kaldheim', 'plane_lorwyn_shadowmoor',
+                          'plane_thunder_junction'})
         self.assertTrue(any('media.wizards.com' in url for url in cases['commander_identity']['sources']))
         for r in cases.values():
             self.assertEqual(len(r['response_sha256']), 64)
