@@ -6,8 +6,13 @@ on:
       - 'scripts/release_readiness.py'
       - 'scripts/certification_dry_run.py'
       - 'scripts/audit_full_checklist.py'
+      - 'scripts/audit_release_snapshot_delta.py'
       - 'tests/test_full_checklist_triage.py'
+      - 'tests/test_release_snapshot_freshness.py'
       - 'research/FULL_CHECKLIST_TRIAGE_2026-10-31.md'
+      - 'research/RELEASE_TIME_SCRYFALL_2026-10-31.md'
+      - 'data/scryfall_snapshots/**'
+      - 'data/card_db/oracle_drift_2026-10-30.json'
       - 'scripts/build_foundation_acceptance_packet.py'
       - 'tests/test_foundation_acceptance_packet.py'
       - 'research/FOUNDATION_ACCEPTANCE_PACKET_2026-10-30.md'
@@ -56,6 +61,10 @@ jobs:
         run: |
           python3 scripts/audit_full_checklist.py --check
           python3 -m unittest discover -s tests -p 'test_full_checklist_triage.py' -v
+      - name: Latest source manifest and cross-bulk release-freshness proof
+        run: |
+          python3 scripts/audit_release_snapshot_delta.py --check
+          python3 -m unittest discover -s tests -p 'test_release_snapshot_freshness.py' -v
       - name: Knowledge-only foundation acceptance evidence (not owner certification)
         run: |
           python3 scripts/build_foundation_acceptance_packet.py --check

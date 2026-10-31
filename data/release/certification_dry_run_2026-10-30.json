@@ -66,7 +66,7 @@
    "criterion": "Reliable lookup and rules checks backed by current Scryfall and official sources.",
    "workflow_checked": false,
    "machine_status": "PARTIAL",
-   "machine_note": "card lookups reconcile with snapshot 2026-10-29 (0 changes across 33894 cards); Commander deck-construction checks and ruling/CR-citation interaction checks are built; interactions with no published ruling are not modelled (no game simulation)",
+   "machine_note": "card lookups reconcile with snapshot 2026-10-30 (0 changes across 33894 cards); Commander deck-construction checks and ruling/CR-citation interaction checks are built; interactions with no published ruling are not modelled (no game simulation)",
    "blockers": [
     {
      "kind": "ENGINEERING_OPEN",
@@ -79,9 +79,10 @@
     },
     {
      "kind": "EXTERNAL_CI",
-     "what": "'Current' Scryfall means a fresh snapshot at release time; the active snapshot is snap-20261029-40848334824-1 and the Oracle drift report must be re-run against the release snapshot.",
+     "what": "The October 30 latest-published Scryfall Oracle, Default Cards and Rulings bulk was independently downloaded and SHA-verified on October 31. Indexed Oracle and ruling fields have zero mismatches; the one global Oracle type-line change and 104 printing metadata changes are review-only. The final foundation release must repeat the freshness check if Scryfall publishes another bulk or the release candidate changes.",
      "evidence": [
-      "data/scryfall_snapshots"
+      "data/scryfall_snapshots/oct29_to_oct30_release_delta_2026-10-31.json",
+      "data/card_db/oracle_drift_2026-10-30.json"
      ]
     }
    ],

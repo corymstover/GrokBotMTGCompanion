@@ -14,7 +14,7 @@ schema: 2
 <!-- MULTIVERSE-CURRENT:START -->
 ## MTG Multiverse Companion — current engineering checkpoint (2026-10-31)
 
-**Live authority:** [Master Workflow v2.73](MTG_MULTIVERSE_MASTER_WORKFLOW.md), the current
+**Live authority:** [Master Workflow v2.74](MTG_MULTIVERSE_MASTER_WORKFLOW.md), the current
 graph and dated recount. The older cycle-36/October-15 metrics **below this section are historical**;
 they are not the active Phase 1–8 completion counters.
 
@@ -68,8 +68,8 @@ foundation certification tasks.
 
 **Priority next steps:** verify current-era Q&A answers; close only evidence-backed graph
 identity and chronology gaps; expand comprehensive plane, character, faction and cross-plane
-history; harden rules and difficult Q&A; preserve the newly recovered hash-verified October
-historical Scryfall replay and retest release-time data freshness; pursue foundation-only certification. **Phase 6
+history; harden rules and difficult Q&A; preserve the original hash-verified October
+historical Scryfall replay and its October 30 live-source freshness check (repeat on any later release bulk); pursue foundation-only certification. **Phase 6
 deckbuilding and its three unapproved pilots are deferred until the knowledge foundation
 is certified.** Do not modify any of the 62 finalized Grixis decks.
 <!-- MULTIVERSE-CURRENT:END -->

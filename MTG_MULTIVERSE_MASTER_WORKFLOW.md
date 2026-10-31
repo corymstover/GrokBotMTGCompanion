@@ -1,6 +1,6 @@
 # MTG Multiverse Companion — Master Workflow & Progress Checklist
 
-**Version:** 2.73
+**Version:** 2.74
 **Checkpoint date:** 2026-10-31
 **Repository:** [corymstover/GrokBotMTGCompanion](https://github.com/corymstover/GrokBotMTGCompanion)  
 **Purpose:** Durable project roadmap and handoff document. Update this file after verified milestone work; do not treat historical figures as live counters.
@@ -22,6 +22,29 @@ foundation release may document inherently unresolved canon and future
 maintenance; it must never claim exhaustive knowledge of all MTG history.
 The 62 approved Grixis decks, their hashes and all owner gates remain intact.
 Only a new explicit request from Cory can override the Phase 6 hold.
+
+**v2.74 live October 30 Scryfall release-freshness replay (2026-10-31):**
+The newer official Scryfall Oracle, Default Cards and Rulings bulk was captured
+into immutable local inputs and all **three** compressed archive hashes, sizes
+and parsed record totals were verified. Compared with the prior October 29
+snapshot, **123 Oracle identities and 318 printings were added**, with none
+removed; one existing Oracle type line changed (outside the Companion's
+indexed pool), while 100 existing printing release-date values and four image
+availability statuses changed. **No prior printing illustration IDs or
+artist credits changed; the 79,706 published ruling records are unchanged.**
+Independent current-source reconciliation against the Companion's existing
+card index found **zero** Oracle text, name, type, color identity, Commander
+legality, game-changer or per-card ruling-count mismatches, and no missing
+indexed identities. The 5,393 Oracle IDs not in its historical index are a
+documented inventory scope difference, **not 5,393 new October 30 cards**.
+The exact manifests, read-only comparison, testing and qualified limitations
+are in `research/RELEASE_TIME_SCRYFALL_2026-10-31.md`; no historical source,
+card shard, approved deck, genealogy decision or pilot was rewritten.
+Release-time Scryfall evidence is now current as of October 31, but the
+**foundation remains NOT_RELEASE_READY** due to unrelated research,
+interactions, source scope and final-commit conditions. **88/137 checked; 49
+open.** The conditional owner acceptance stays inoperative until all gates
+genuinely pass, and Phase 6 stays deferred.
 
 **v2.73 official source-cache provenance replay and complete checklist triage (2026-10-31):**
 The complete **660-URL** official Wizards story/feature/format source inventory
