@@ -44,7 +44,7 @@ class GraphBuildTests(unittest.TestCase):
         self.assertEqual(by_status.get("OPEN_QUESTION"), {"claim:A011", "claim:C010", "claim:ZN010"})
         self.assertEqual(by_status.get("ALTERNATE_CONTINUITY"),
                          {"claim:A012", "claim:XLN016", "claim:LFP001", "claim:LFP002",
-                          "claim:LFP003", "claim:LFP004"})
+                          "claim:LFP003", "claim:LFP004", "claim:SSX020"})
 
     def test_no_broken_or_duplicate_edges(self):
         ids = {n["id"] for n in self.graph["nodes"]}
