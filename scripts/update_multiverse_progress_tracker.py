@@ -76,7 +76,7 @@ def build() -> str:
         gate_lines.append(f'| {title} | {row["status"]} | {", ".join(row["blocker_kinds"]) or "none"} |')
     gate_report = '\n'.join(gate_lines)
     return f"""{START}
-## MTG Multiverse Companion — current engineering checkpoint (2026-10-30)
+## MTG Multiverse Companion — current engineering checkpoint (2026-10-31)
 
 **Live authority:** [Master Workflow v{version.group(1)}](MTG_MULTIVERSE_MASTER_WORKFLOW.md), the current
 graph and dated recount. The older cycle-36/October-15 metrics **below this section are historical**;

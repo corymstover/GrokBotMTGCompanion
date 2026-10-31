@@ -2,7 +2,7 @@
   "schema": "source-event-sequences/v1",
   "status": "PRELIMINARY_RESEARCH_NOT_OWNER_APPROVED",
   "date": "2026-10-30",
-  "scope": "Three bounded, individually sourced chronology strands. No cross-plane alignment, no absolute AR date conversion and no assertions that a narrated legend is historical fact.",
+  "scope": "Four bounded, individually sourced chronology strands. No cross-plane alignment, no absolute AR date conversion and no assertions that a narrated legend is historical fact. The New Phyrexia strand describes the early Mirrodin conquest as presented in Wizards' historical plane overview, not the post-March of the Machine political present.",
   "sources": {
     "blb_guide1": {
       "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-bloomburrow-part-1",
@@ -18,15 +18,20 @@
       "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-kamigawa-neon-dynasty-2022-02-03",
       "title": "Planeswalker's Guide to Kamigawa: Neon Dynasty",
       "published": "2022-02-03"
+    },
+    "up_nph": {
+      "url": "https://magic.wizards.com/en/story/new-phyrexia-plane",
+      "title": "New Phyrexia",
+      "published": ""
     }
   },
   "counts": {
-    "strands": 3,
-    "events": 24,
-    "strict_edges": 17,
+    "strands": 4,
+    "events": 31,
+    "strict_edges": 23,
     "non_ordering_relations": 1,
-    "ordered_pairs": 37,
-    "total_pairs": 276
+    "ordered_pairs": 52,
+    "total_pairs": 465
   },
   "strands": [
     {
@@ -46,6 +51,15 @@
       "events": 9,
       "strict_edges": 6,
       "non_ordering_relations": 1
+    },
+    {
+      "id": "P",
+      "title": "Mirrodin to early New Phyrexia — corruption, conquest and Karn's restoration",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "limitation": "Only the official New Phyrexia plane overview's retrospective early-Mirrodin account. Its historical-present praetor politics are not a statement about present-day New Phyrexia after March of the Machine. This does not establish a complete war timeline, cross-plane synchrony or the precise order of Mirran defeat versus Venser's sacrifice.",
+      "events": 7,
+      "strict_edges": 6,
+      "non_ordering_relations": 0
     },
     {
       "id": "D",
@@ -224,6 +238,98 @@
       "claims": [
         {
           "id": "KMH007",
+          "grade": "CANON_CONFIRMED"
+        }
+      ]
+    },
+    {
+      "id": "P:karn_brings_oil",
+      "strand": "P",
+      "label": "Karn introduces Phyrexian oil to Mirrodin",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": [
+        {
+          "id": "NPHH002",
+          "grade": "CANON_CONFIRMED"
+        }
+      ]
+    },
+    {
+      "id": "P:karn_father_machines",
+      "strand": "P",
+      "label": "Karn becomes the Father of Machines",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": [
+        {
+          "id": "UP022",
+          "grade": "CANON_CONFIRMED"
+        }
+      ]
+    },
+    {
+      "id": "P:mirrans_overwhelmed",
+      "strand": "P",
+      "label": "Mirran forces are overwhelmed in the early conquest",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": [
+        {
+          "id": "NPHH005",
+          "grade": "CANON_CONFIRMED"
+        },
+        {
+          "id": "UP024",
+          "grade": "CANON_CONFIRMED"
+        }
+      ]
+    },
+    {
+      "id": "P:mirrans_resist",
+      "strand": "P",
+      "label": "Mirrans fight against the invading Phyrexians",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": [
+        {
+          "id": "NPHH005",
+          "grade": "CANON_CONFIRMED"
+        }
+      ]
+    },
+    {
+      "id": "P:oil_transforms_life",
+      "strand": "P",
+      "label": "Phyrexian oil transforms life beneath Mirrodin",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": [
+        {
+          "id": "NPHH003",
+          "grade": "CANON_CONFIRMED"
+        }
+      ]
+    },
+    {
+      "id": "P:phyrexian_campaign",
+      "strand": "P",
+      "label": "Phyrexians begin the campaign to compleat Mirrodin",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": [
+        {
+          "id": "NPHH004",
+          "grade": "CANON_CONFIRMED"
+        },
+        {
+          "id": "UP024",
+          "grade": "CANON_CONFIRMED"
+        }
+      ]
+    },
+    {
+      "id": "P:venser_restores_karn",
+      "strand": "P",
+      "label": "Venser sacrifices his life to restore Karn's sanity",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": [
+        {
+          "id": "UP023",
           "grade": "CANON_CONFIRMED"
         }
       ]
@@ -487,6 +593,78 @@
       "note": "The sealing follows and responds to the dangerous backlashes."
     },
     {
+      "earlier": "P:karn_brings_oil",
+      "later": "P:oil_transforms_life",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "up_nph",
+      "source_url": "https://magic.wizards.com/en/story/new-phyrexia-plane",
+      "source_title": "New Phyrexia",
+      "quote": "which began the slow process of transforming the creatures it touched deep beneath the world's surface",
+      "quote_sha256": "f6a36885fa6fc82ba0dc2ddfecc4640dffa29dc9cacc62af68f30dccac5c5929",
+      "note": "The overview directly links the brought oil to the ensuing transformation; no exact transmission date is supplied."
+    },
+    {
+      "earlier": "P:oil_transforms_life",
+      "later": "P:phyrexian_campaign",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "up_nph",
+      "source_url": "https://magic.wizards.com/en/story/new-phyrexia-plane",
+      "source_title": "New Phyrexia",
+      "quote": "The slow spread soon became an active campaign to alter, or compleat, the world of Mirrodin.",
+      "quote_sha256": "b9a1fdacc0f651aa77ddc09a9e722f1d84dc25c0940cc9165680058897376145",
+      "note": "The gradual oil spread precedes the described active campaign; this does not order every individual infection."
+    },
+    {
+      "earlier": "P:phyrexian_campaign",
+      "later": "P:mirrans_resist",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "up_nph",
+      "source_url": "https://magic.wizards.com/en/story/new-phyrexia-plane",
+      "source_title": "New Phyrexia",
+      "quote": "The Mirrans fought many battles, but they soon were overwhelmed by the Phyrexian forces.",
+      "quote_sha256": "7c4722344e0308e9324eecfacaf5f6abc5d8c89d3c4e4f0e1de23ed392a764d7",
+      "note": "The Mirrans' response is to the active Phyrexian campaign named immediately before this sentence; not a start date for every Mirran battle."
+    },
+    {
+      "earlier": "P:mirrans_resist",
+      "later": "P:mirrans_overwhelmed",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "up_nph",
+      "source_url": "https://magic.wizards.com/en/story/new-phyrexia-plane",
+      "source_title": "New Phyrexia",
+      "quote": "The Mirrans fought many battles, but they soon were overwhelmed by the Phyrexian forces.",
+      "quote_sha256": "7c4722344e0308e9324eecfacaf5f6abc5d8c89d3c4e4f0e1de23ed392a764d7",
+      "note": "The overview distinguishes sustained resistance from its early defeat; this does not mean all Mirrans died or resistance permanently ended."
+    },
+    {
+      "earlier": "P:mirrans_resist",
+      "later": "P:venser_restores_karn",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "up_nph",
+      "source_url": "https://magic.wizards.com/en/story/new-phyrexia-plane",
+      "source_title": "New Phyrexia",
+      "quote": "Even the Planeswalkers Koth, Elspeth, and Venser could not turn the tide, and Venser sacrificed his life to restore Karn to sanity.",
+      "quote_sha256": "81cdc23bb6d7a8f163e3df52762dc4c162e0b89393e525da5212d14f8ffaf298",
+      "note": "Planeswalker efforts to turn the tide precede the described sacrifice; no claim is made that all Mirran resistance ended before it."
+    },
+    {
+      "earlier": "P:karn_father_machines",
+      "later": "P:venser_restores_karn",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "up_nph",
+      "source_url": "https://magic.wizards.com/en/story/new-phyrexia-plane",
+      "source_title": "New Phyrexia",
+      "quote": "Venser sacrificed his life to restore Karn to sanity",
+      "quote_sha256": "2efb64bbe5b05b6df0c9fb0857a1b83ce56954718a632990177688d9b6023b5c",
+      "note": "Karn's prior corrupted leadership is the state restored from; the overview does not synchronize his ascent with each phase of Mirrodin's conquest."
+    },
+    {
       "earlier": "D:valgavoth_bound",
       "later": "D:marina_meets",
       "relation": "BEFORE",
@@ -609,6 +787,33 @@
       "K:realm_barrier_breaks"
     ],
     "K:realm_barrier_breaks": [],
+    "P:karn_brings_oil": [
+      "P:mirrans_overwhelmed",
+      "P:mirrans_resist",
+      "P:oil_transforms_life",
+      "P:phyrexian_campaign",
+      "P:venser_restores_karn"
+    ],
+    "P:karn_father_machines": [
+      "P:venser_restores_karn"
+    ],
+    "P:mirrans_overwhelmed": [],
+    "P:mirrans_resist": [
+      "P:mirrans_overwhelmed",
+      "P:venser_restores_karn"
+    ],
+    "P:oil_transforms_life": [
+      "P:mirrans_overwhelmed",
+      "P:mirrans_resist",
+      "P:phyrexian_campaign",
+      "P:venser_restores_karn"
+    ],
+    "P:phyrexian_campaign": [
+      "P:mirrans_overwhelmed",
+      "P:mirrans_resist",
+      "P:venser_restores_karn"
+    ],
+    "P:venser_restores_karn": [],
     "V:animalfolk_shelter": [
       "V:holly_pact",
       "V:war_of_cinders",
@@ -641,9 +846,10 @@
   "known_gaps": [
     "No primary-source edge joins distinct strand IDs, so cross-plane comparisons remain UNKNOWN.",
     "Valley events order an explicitly legendary in-world account, not objectively certified ancient history.",
+    "New Phyrexia events describe early Mirrodin conquest; the source does not order the complete war, the Mirrans being overwhelmed against Venser's sacrifice, or the political present after March of the Machine.",
     "A DURING_OR_AFTER_START relation is not a strict BEFORE edge and never participates in transitive ordering.",
     "Unknown original plane names, absolute AR years and missing historical events are not supplied.",
     "This source-local supplement does not replace the original Packs A–C chronology or certify L244."
   ],
-  "content_sha256": "734c422c29a546f82a8862dd9276ac29e435a6389b3244252c571562a1e57da8"
+  "content_sha256": "d5973cdde6f28a97933647d021e71771de1f4a6a19fef0fcb084377283706dd7"
 }

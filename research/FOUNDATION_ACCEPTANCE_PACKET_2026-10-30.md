@@ -14,7 +14,7 @@ This source-graded packet is reproducible from the repository, with exact input 
 ## In-universe chronology (not a complete timeline)
 
 - Legacy ledger: 56 events, 177/3074 ordered event pairs; 2897 unresolved, 13 components, 0 cycles.
-- Source-local ledger: 24 events, 37/276 pairs. These counts are separate, not additive.
+- Source-local ledger: 31 events, 52/465 pairs. These counts are separate, not additive.
 - L244 cross-source historical ordering remains open. UNKNOWN is the correct answer when no cited bridge exists.
 
 ## Representative end-to-end questions
@@ -36,6 +36,8 @@ This source-graded packet is reproducible from the repository, with exact input 
 | How many cards are in Alpha? | `ask->set_atlas:set` | `QUALIFIED` | 3 |
 | Which sets was Black Lotus printed in? | `ask->set_atlas:card_printings` | `QUALIFIED` | 1 |
 | How does Urza's Saga interact with Urza's Tower? | `ask->rules_evidence:interaction` | `QUALIFIED` | 3 |
+| Did Karn introduces Phyrexian oil to Mirrodin happen before Mirran forces are overwhelmed in the early conquest? | `ask->chronology` | `QUALIFIED` | 1 |
+| Did P:mirrans_overwhelmed happen before P:venser_restores_karn? | `ask->chronology` | `QUALIFIED` | 0 |
 
 The underlying JSON retains response digests, exact source URLs and caveat flags. The two graph-navigation examples are **not** evidence of chronological or causal paths.
 
@@ -58,6 +60,6 @@ python3 scripts/certification_dry_run.py --check
 python3 scripts/update_multiverse_progress_tracker.py --check
 ```
 
-Packet SHA-256 (canonical JSON): `67f883e18b5f98e8b93021d17eefe9aa08fee999fffee010d3a3acc25823b618`
+Packet SHA-256 (canonical JSON): `77f258a419a14489aaed405642f4a8d700dc36e21db92e2091f4ce98965f17ea`
 
 **No decks were built, modified, reviewed or approved.**

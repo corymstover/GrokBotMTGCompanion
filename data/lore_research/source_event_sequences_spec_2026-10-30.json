@@ -1,11 +1,12 @@
 {
   "schema": "source-local-event-order-spec/v1",
   "status": "PRELIMINARY_RESEARCH_NOT_OWNER_APPROVED",
-  "scope": "Three bounded, individually sourced chronology strands. No cross-plane alignment, no absolute AR date conversion and no assertions that a narrated legend is historical fact.",
+  "scope": "Four bounded, individually sourced chronology strands. No cross-plane alignment, no absolute AR date conversion and no assertions that a narrated legend is historical fact. The New Phyrexia strand describes the early Mirrodin conquest as presented in Wizards' historical plane overview, not the post-March of the Machine political present.",
   "sources": {
     "neo_guide": "data/lore_research/pack_p5_kamigawa_history_profile_2026-10-30.json",
     "blb_guide1": "data/lore_research/pack_p5_bloomburrow_valley_history_2026-10-30.json",
-    "dsk_guide": "data/lore_research/pack_p5_duskmourn_origin_2026-10-30.json"
+    "dsk_guide": "data/lore_research/pack_p5_duskmourn_origin_2026-10-30.json",
+    "up_nph": "data/lore_research/pack_p5_new_phyrexia_historical_profile_2026-10-30.json"
   },
   "strands": [
     {
@@ -54,6 +55,29 @@
         {"earlier":"V:war_of_cinders","later":"V:wildsear_appears","source_id":"blb_guide1","quote":"It was then that the greatest among the Calamities appeared: Wildsear","note":"The storyteller situates Wildsear's appearance during the war; 'then' does not prove the whole war ended first.","relation":"DURING_OR_AFTER_START"},
         {"earlier":"V:lily_saves_valley","later":"V:weaving_backlash","source_id":"blb_guide1","quote":"The animalfolk grew indulgent in the seasons after Lily has saved them. Weaving grew too powerful","note":"The excess weaving is explicitly after Lily's rescue in the traditional account."},
         {"earlier":"V:weaving_backlash","later":"V:sealed_great_magic","source_id":"blb_guide1","quote":"In response to the chaos that weaving had wrought, the lineage of heroes chose to seal their most powerful knowledge away.","note":"The sealing follows and responds to the dangerous backlashes."}
+      ]
+    },
+    {
+      "id": "P",
+      "title": "Mirrodin to early New Phyrexia — corruption, conquest and Karn's restoration",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "limitation": "Only the official New Phyrexia plane overview's retrospective early-Mirrodin account. Its historical-present praetor politics are not a statement about present-day New Phyrexia after March of the Machine. This does not establish a complete war timeline, cross-plane synchrony or the precise order of Mirran defeat versus Venser's sacrifice.",
+      "nodes": [
+        {"id":"P:karn_brings_oil","label":"Karn introduces Phyrexian oil to Mirrodin","claim_ids":["NPHH002"]},
+        {"id":"P:oil_transforms_life","label":"Phyrexian oil transforms life beneath Mirrodin","claim_ids":["NPHH003"]},
+        {"id":"P:karn_father_machines","label":"Karn becomes the Father of Machines","claim_ids":["UP022"]},
+        {"id":"P:phyrexian_campaign","label":"Phyrexians begin the campaign to compleat Mirrodin","claim_ids":["NPHH004","UP024"]},
+        {"id":"P:mirrans_resist","label":"Mirrans fight against the invading Phyrexians","claim_ids":["NPHH005"]},
+        {"id":"P:mirrans_overwhelmed","label":"Mirran forces are overwhelmed in the early conquest","claim_ids":["NPHH005","UP024"]},
+        {"id":"P:venser_restores_karn","label":"Venser sacrifices his life to restore Karn's sanity","claim_ids":["UP023"]}
+      ],
+      "edges": [
+        {"earlier":"P:karn_brings_oil","later":"P:oil_transforms_life","source_id":"up_nph","quote":"which began the slow process of transforming the creatures it touched deep beneath the world's surface","note":"The overview directly links the brought oil to the ensuing transformation; no exact transmission date is supplied."},
+        {"earlier":"P:oil_transforms_life","later":"P:phyrexian_campaign","source_id":"up_nph","quote":"The slow spread soon became an active campaign to alter, or compleat, the world of Mirrodin.","note":"The gradual oil spread precedes the described active campaign; this does not order every individual infection."},
+        {"earlier":"P:phyrexian_campaign","later":"P:mirrans_resist","source_id":"up_nph","quote":"The Mirrans fought many battles, but they soon were overwhelmed by the Phyrexian forces.","note":"The Mirrans' response is to the active Phyrexian campaign named immediately before this sentence; not a start date for every Mirran battle."},
+        {"earlier":"P:mirrans_resist","later":"P:mirrans_overwhelmed","source_id":"up_nph","quote":"The Mirrans fought many battles, but they soon were overwhelmed by the Phyrexian forces.","note":"The overview distinguishes sustained resistance from its early defeat; this does not mean all Mirrans died or resistance permanently ended."},
+        {"earlier":"P:mirrans_resist","later":"P:venser_restores_karn","source_id":"up_nph","quote":"Even the Planeswalkers Koth, Elspeth, and Venser could not turn the tide, and Venser sacrificed his life to restore Karn to sanity.","note":"Planeswalker efforts to turn the tide precede the described sacrifice; no claim is made that all Mirran resistance ended before it."},
+        {"earlier":"P:karn_father_machines","later":"P:venser_restores_karn","source_id":"up_nph","quote":"Venser sacrificed his life to restore Karn to sanity","note":"Karn's prior corrupted leadership is the state restored from; the overview does not synchronize his ascent with each phase of Mirrodin's conquest."}
       ]
     },
     {

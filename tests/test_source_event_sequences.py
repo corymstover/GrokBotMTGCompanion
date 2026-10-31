@@ -8,6 +8,7 @@ ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT/'scripts'))
 import source_event_sequences as S
 import query_lore_chronology as Q
+import mv_ask as A
 
 
 class SourceEventSequencesTests(unittest.TestCase):
@@ -21,8 +22,8 @@ class SourceEventSequencesTests(unittest.TestCase):
         d=dict(self.current)
         sig=d.pop('content_sha256')
         self.assertEqual(sig,S.digest(d))
-        self.assertEqual(self.current['counts']['strands'],3)
-        self.assertEqual(self.current['counts']['events'],24)
+        self.assertEqual(self.current['counts']['strands'],4)
+        self.assertEqual(self.current['counts']['events'],31)
 
     def test_source_proofs_have_original_claim_ids_and_digest(self):
         for node in self.current['nodes']:
@@ -57,6 +58,32 @@ class SourceEventSequencesTests(unittest.TestCase):
         self.assertEqual(S.proof(self.current,'D:marina_lures','D:ascension')['result'],'BEFORE')
         self.assertEqual(S.proof(self.current,'V:holly_pact','D:ascension')['result'],'UNKNOWN')
         self.assertEqual(Q.compare_across_datasets(self.old,self.current,'A:elder_dragon_war','D:ascension')['result'],'UNKNOWN')
+
+    def test_mirrodin_oil_to_conquest_is_source_local_not_a_total_war_order(self):
+        chain=S.proof(self.current,'P:karn_brings_oil','P:mirrans_overwhelmed')
+        self.assertEqual(chain['result'],'BEFORE')
+        self.assertEqual(len(chain['proof']),4)
+        self.assertEqual(chain['confidence'],'QUALIFIED_OFFICIAL_SOURCE_SEQUENCE')
+        self.assertTrue(all(e['source_id']=='up_nph' for e in chain['proof']))
+        self.assertEqual(S.proof(self.current,'P:karn_father_machines','P:venser_restores_karn')['result'],'BEFORE')
+        self.assertEqual(S.proof(self.current,'P:mirrans_overwhelmed','P:venser_restores_karn')['result'],'UNKNOWN')
+        self.assertEqual(S.proof(self.current,'P:karn_father_machines','P:phyrexian_campaign')['result'],'UNKNOWN')
+        self.assertEqual(S.proof(self.current,'P:karn_brings_oil','K:kami_war')['result'],'UNKNOWN')
+        self.assertIn('not a statement about present-day New Phyrexia',
+                      next(s for s in self.current['strands'] if s['id']=='P')['limitation'])
+
+    def test_normal_companion_routes_new_phyrexia_order_and_still_says_unknown(self):
+        quoted='Did Karn introduces Phyrexian oil to Mirrodin happen before Mirran forces are overwhelmed in the early conquest?'
+        answer=A.ask(quoted)
+        self.assertEqual(answer['route'],'ask->chronology')
+        self.assertEqual(answer['result']['relation'],'BEFORE')
+        self.assertEqual(answer['result']['answer'],True)
+        self.assertEqual(len(answer['result']['proof']),4)
+        self.assertEqual(answer['sources'],['https://magic.wizards.com/en/story/new-phyrexia-plane'])
+        undecided=A.ask('Did P:mirrans_overwhelmed happen before P:venser_restores_karn?')
+        self.assertEqual(undecided['result']['relation'],'UNKNOWN')
+        self.assertIsNone(undecided['result']['answer'])
+        self.assertIn('NO_CITED_CHRONOLOGY_PATH',undecided['flags'])
 
     def test_existing_legacy_chronology_is_not_replaced(self):
         self.assertEqual(self.old['counts']['event_nodes'],56)
