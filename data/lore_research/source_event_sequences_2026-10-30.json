@@ -41,12 +41,12 @@
     }
   },
   "counts": {
-    "strands": 8,
-    "events": 74,
-    "strict_edges": 57,
+    "strands": 9,
+    "events": 88,
+    "strict_edges": 71,
     "non_ordering_relations": 3,
-    "ordered_pairs": 180,
-    "total_pairs": 2701,
+    "ordered_pairs": 314,
+    "total_pairs": 3828,
     "verified_legacy_bridges": 7
   },
   "strands": [
@@ -109,17 +109,26 @@
       "title": "Thran decline to Yawgmoth's first Phyrexian invasion — 2008 Wizards retrospective",
       "certainty": "HISTORICAL_SOURCE_ACCOUNT",
       "limitation": "This is the 2008 official retrospective, not a complete novel-era chronology or a current-status claim. The text independently describes Old Phyrexia's soul-bomb devastation and the Weatherlight's defeat of Yawgmoth, but supplies no strict BEFORE path between those two outcomes. Rath's overlay and the invasion's start are near-simultaneous, not two strictly separated events.",
-      "events": 16,
-      "strict_edges": 14,
+      "events": 22,
+      "strict_edges": 21,
       "non_ordering_relations": 1
+    },
+    {
+      "id": "H",
+      "title": "Mirrodin/Argentum — Karn, Memnarch and Glissa in the 2008 retrospective",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "limitation": "This is a dated Wizards historical account of original Mirrodin, not a proof that its unnamed contagion matches every later Phyrexian-oil retelling. No SAME_EVENT link to the New Phyrexia P strand, absolute year, or order against the first Dominarian invasion is inferred.",
+      "events": 7,
+      "strict_edges": 6,
+      "non_ordering_relations": 0
     },
     {
       "id": "S",
       "title": "Serra's Realm — Urza's refuge, the Phyrexian incursion and collapse",
       "certainty": "HISTORICAL_SOURCE_ACCOUNT",
       "limitation": "The 2008 official summary recounts one historical sequence; it does not prove a complete angel/faction chronology, the timing of Radiant's administration against the final powerstone collapse, or any exact AR date.",
-      "events": 7,
-      "strict_edges": 6,
+      "events": 8,
+      "strict_edges": 7,
       "non_ordering_relations": 0
     }
   ],
@@ -289,6 +298,55 @@
           "grade": "CANON_CONFIRMED"
         }
       ]
+    },
+    {
+      "id": "H:glissa_defeats_memnarch",
+      "strand": "H",
+      "label": "Glissa and her allies defeat Memnarch",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": []
+    },
+    {
+      "id": "H:karn_creates_argentum",
+      "strand": "H",
+      "label": "Karn creates the artificial plane originally named Argentum",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": []
+    },
+    {
+      "id": "H:karn_creates_warden",
+      "strand": "H",
+      "label": "Karn creates an artifact warden for Argentum",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": []
+    },
+    {
+      "id": "H:karn_jeska_contagion",
+      "strand": "H",
+      "label": "Karn and Jeska inadvertently bring a mysterious contagion to Argentum",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": []
+    },
+    {
+      "id": "H:karn_restores_order",
+      "strand": "H",
+      "label": "Karn returns to Mirrodin and restores order",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": []
+    },
+    {
+      "id": "H:memnarch_ensnares_beings",
+      "strand": "H",
+      "label": "Memnarch arranges to ensnare beings from nearby planes",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": []
+    },
+    {
+      "id": "H:warden_becomes_memnarch",
+      "strand": "H",
+      "label": "The contagion infects the warden who becomes Memnarch",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": []
     },
     {
       "id": "K:imperials_founded",
@@ -581,6 +639,13 @@
       "claims": []
     },
     {
+      "id": "S:radiant_paranoid",
+      "strand": "S",
+      "label": "Radiant becomes increasingly paranoid while ruling Serra's Realm",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": []
+    },
+    {
       "id": "S:realm_powerstone_collapse",
       "strand": "S",
       "label": "Urza collapses the dying realm into a powerstone for the Weatherlight",
@@ -626,6 +691,27 @@
       "id": "T:invasion_begins",
       "strand": "T",
       "label": "Phyrexia's first large invasion of Dominaria begins",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": []
+    },
+    {
+      "id": "T:mercadia_crash",
+      "strand": "T",
+      "label": "The Weatherlight crash-lands on Mercadia",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": []
+    },
+    {
+      "id": "T:mercadia_fleet_discovered",
+      "strand": "T",
+      "label": "The Weatherlight heroes discover the secret Phyrexian fleet on Mercadia",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": []
+    },
+    {
+      "id": "T:mercadia_strike",
+      "strand": "T",
+      "label": "The Weatherlight heroes launch a preemptive strike on the Mercadian staging ground",
       "certainty": "HISTORICAL_SOURCE_ACCOUNT",
       "claims": []
     },
@@ -691,9 +777,30 @@
       "claims": []
     },
     {
+      "id": "T:weatherlight_leaves_mercadia",
+      "strand": "T",
+      "label": "The Weatherlight leaves Mercadia to defend Dominaria",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": []
+    },
+    {
       "id": "T:weatherlight_mercadia",
       "strand": "T",
       "label": "The Weatherlight crew escapes from Rath to Mercadia",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": []
+    },
+    {
+      "id": "T:weatherlight_recovered",
+      "strand": "T",
+      "label": "Gerrard and allies arrange the Weatherlight's return and repairs",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": []
+    },
+    {
+      "id": "T:weatherlight_seized",
+      "strand": "T",
+      "label": "The Cho-Arrim seize the Weatherlight",
       "certainty": "HISTORICAL_SOURCE_ACCOUNT",
       "claims": []
     },
@@ -1429,6 +1536,18 @@
     },
     {
       "earlier": "T:rath_constructed",
+      "later": "T:weatherlight_to_rath",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "km",
+      "source_url": "https://magic.wizards.com/en/news/feature/known-mutliverse-2008-03-19",
+      "source_title": "The Known Mutliverse",
+      "quote": "Rath was an artificial plane created as an invasion device by Phyrexia.",
+      "quote_sha256": "8c35ec06c50a64fe2496c381ea7502ee3f4352ac30db9113fac3ee69f004581e",
+      "note": "The already-created artificial plane must precede the Weatherlight's visit to it; this does not date either event."
+    },
+    {
+      "earlier": "T:rath_constructed",
       "later": "T:rath_overlay",
       "relation": "BEFORE",
       "certainty": "HISTORICAL_SOURCE_ACCOUNT",
@@ -1462,6 +1581,78 @@
       "quote": "Gerrard and the crew of the Weatherlight ended up in this plane after blindly flinging themselves from Rath.",
       "quote_sha256": "2d76e6b462f5eada9bf4335bbe5d19461a3f340cb5ca9953c800310baf1533fc",
       "note": "The escape from Rath to Mercadia follows the crew's visit; its exact position versus the later overlay is not asserted."
+    },
+    {
+      "earlier": "T:weatherlight_mercadia",
+      "later": "T:mercadia_crash",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "km",
+      "source_url": "https://magic.wizards.com/en/news/feature/known-mutliverse-2008-03-19",
+      "source_title": "The Known Mutliverse",
+      "quote": "after blindly flinging themselves from Rath. They crash-landed on Mercadia",
+      "quote_sha256": "849a398fc175e9852d350e8fa84bbeea56353dccd942f5d696ae4107e1964f37",
+      "note": "The flight away from Rath precedes the crash on Mercadia; an absolute date is not claimed."
+    },
+    {
+      "earlier": "T:mercadia_crash",
+      "later": "T:weatherlight_seized",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "km",
+      "source_url": "https://magic.wizards.com/en/news/feature/known-mutliverse-2008-03-19",
+      "source_title": "The Known Mutliverse",
+      "quote": "They crash-landed on Mercadia, and the Weatherlight was seized by a group of pious human rebels called the Cho-Arrim.",
+      "quote_sha256": "6df6711d89095bb8f0b45e308a8eda0f74d7ca62d40fb3d8848fe2545f886999",
+      "note": "The same sentence puts the seizure after landing; no duration is inferred."
+    },
+    {
+      "earlier": "T:weatherlight_seized",
+      "later": "T:weatherlight_recovered",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "km",
+      "source_url": "https://magic.wizards.com/en/news/feature/known-mutliverse-2008-03-19",
+      "source_title": "The Known Mutliverse",
+      "quote": "Gerrard and his allies had to make delicate deals with multiple Mercadian factions to get the ship back, secure parts for its repair, and secure safe passage out of the plane.",
+      "quote_sha256": "eb85c2d5cd2ade503437865854d08d1dd657332688151ce2177a0704929ccbc0",
+      "note": "The effort to recover and repair the seized ship follows its seizure; this is a bounded historical summary."
+    },
+    {
+      "earlier": "T:weatherlight_recovered",
+      "later": "T:mercadia_fleet_discovered",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "km",
+      "source_url": "https://magic.wizards.com/en/news/feature/known-mutliverse-2008-03-19",
+      "source_title": "The Known Mutliverse",
+      "quote": "The heroes then discovered that the inverted mountain on which Mercadia City sits was in fact hollow",
+      "quote_sha256": "7d5948a8326b13275993369dfcf22a0f07febe0b572d62ff1e33729921c6ba7a",
+      "note": "The summary narrates the recovery arrangements before the subsequent fleet discovery; the exact repair completion is not dated."
+    },
+    {
+      "earlier": "T:mercadia_fleet_discovered",
+      "later": "T:mercadia_strike",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "km",
+      "source_url": "https://magic.wizards.com/en/news/feature/known-mutliverse-2008-03-19",
+      "source_title": "The Known Mutliverse",
+      "quote": "it housed a huge fleet of Phyrexian warships that were being built to invade Dominaria. The Kyren goblins that controlled Mercadia were in the employ of Phyrexia. After a preemptive strike against the staging ground",
+      "quote_sha256": "6a2f34cb4fe896ff7baed72ee7a20d5ff816d60a7f5b1105ddabc3e5bd932812",
+      "note": "The strike follows discovery of the Phyrexian warship staging ground; neither fleet size nor campaign date is inferred."
+    },
+    {
+      "earlier": "T:mercadia_strike",
+      "later": "T:weatherlight_leaves_mercadia",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "km",
+      "source_url": "https://magic.wizards.com/en/news/feature/known-mutliverse-2008-03-19",
+      "source_title": "The Known Mutliverse",
+      "quote": "After a preemptive strike against the staging ground, the Weatherlight left the plane to defend Dominaria.",
+      "quote_sha256": "6f733566a86774a3b2973d5c8244503d4efa2a5f5fcfdddd8fc48d17092757ad",
+      "note": "The official sentence explicitly places departure after the strike; it does not date the later Rath overlay."
     },
     {
       "earlier": "T:rath_overlay",
@@ -1498,6 +1689,78 @@
       "quote": "on Dominaria, the crew of the Weatherlight used the artifacts of the Legacy to destroy Yawgmoth himself.",
       "quote_sha256": "1002368b691273cbdb507960d18c542c71d50a3175c11e6ba22038d2bd10c832",
       "note": "The Weatherlight's defeat of Yawgmoth is described as an outcome of the invasion; not ordered relative to the soul-bomb assault."
+    },
+    {
+      "earlier": "H:karn_creates_argentum",
+      "later": "H:karn_creates_warden",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "km",
+      "source_url": "https://magic.wizards.com/en/news/feature/known-mutliverse-2008-03-19",
+      "source_title": "The Known Mutliverse",
+      "quote": "The artificial, metal plane of Mirrodin was created by the planeswalker Karn. It was originally called Argentum. Karn also created an artifact warden to watch over the plane",
+      "quote_sha256": "aa4900604686b280f215bcef09626fab5827789a0a9596ffa11372c8e6aa7d1b",
+      "note": "The warden was created to watch over a plane already made by Karn."
+    },
+    {
+      "earlier": "H:karn_creates_warden",
+      "later": "H:karn_jeska_contagion",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "km",
+      "source_url": "https://magic.wizards.com/en/news/feature/known-mutliverse-2008-03-19",
+      "source_title": "The Known Mutliverse",
+      "quote": "Karn also created an artifact warden to watch over the plane while he explored the multiverse. Karn brought the planeswalker Jeska",
+      "quote_sha256": "9c2eb548af32c33108733103b10181cfd7bd38fa7ba1583c817e4fc8735aa70e",
+      "note": "The account introduces the existing warden before Karn and Jeska's later visit; no real-world publication order is used."
+    },
+    {
+      "earlier": "H:karn_jeska_contagion",
+      "later": "H:warden_becomes_memnarch",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "km",
+      "source_url": "https://magic.wizards.com/en/news/feature/known-mutliverse-2008-03-19",
+      "source_title": "The Known Mutliverse",
+      "quote": "unwittingly introduced a mysterious contagion to the plane—a contagion that in time could transmute metal to flesh and flesh to metal. The contagion infected the warden, who in time began to call himself Memnarch",
+      "quote_sha256": "38f32f37bdc376d6259b1f8d1238abc45d363608b48c2b691689610f901d8539",
+      "note": "The introduced contagion subsequently infects the warden, per the 2008 account; its later identity is not inferred."
+    },
+    {
+      "earlier": "H:warden_becomes_memnarch",
+      "later": "H:memnarch_ensnares_beings",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "km",
+      "source_url": "https://magic.wizards.com/en/news/feature/known-mutliverse-2008-03-19",
+      "source_title": "The Known Mutliverse",
+      "quote": "The deluded Memnarch devised complex artifacts that would ensnare beings from nearby planes and transport them to Mirrodin.",
+      "quote_sha256": "08923e75aab1bd22a7b69e99d0d60e927fbfb1de48f9433637de55dc88857e35",
+      "note": "The account narrates Memnarch's transformation before his interplanar capture scheme."
+    },
+    {
+      "earlier": "H:memnarch_ensnares_beings",
+      "later": "H:glissa_defeats_memnarch",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "km",
+      "source_url": "https://magic.wizards.com/en/news/feature/known-mutliverse-2008-03-19",
+      "source_title": "The Known Mutliverse",
+      "quote": "His hope was to find a being with the planeswalker spark and seize it for himself somehow. Only then could he leave the plane and seek out Karn.",
+      "quote_sha256": "02c687da93d127f7f8e6c0784b83f98065eb946790156ef7923180cf0544b876",
+      "note": "The capture plan is established before Glissa, its spark-bearing target, defeats Memnarch."
+    },
+    {
+      "earlier": "H:glissa_defeats_memnarch",
+      "later": "H:karn_restores_order",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "km",
+      "source_url": "https://magic.wizards.com/en/news/feature/known-mutliverse-2008-03-19",
+      "source_title": "The Known Mutliverse",
+      "quote": "Karn could then reenter his plane and restore order.",
+      "quote_sha256": "019e0a425cc557c895f74c5c4570b07c8cb1c4611570cde41a982b9f09cc97a7",
+      "note": "Immediately after Glissa defeats Memnarch, the source explicitly says Karn 'could then' return and restore order."
     },
     {
       "earlier": "S:serra_creates_realm",
@@ -1558,6 +1821,18 @@
       "quote": "One of her archangels, Radiant, assumed control of the plane in Serra's absence.",
       "quote_sha256": "49731939f223b206d9385d2b088254fe87cb669e4a15c17c56f04d5ce9cce464",
       "note": "Assumption of rule follows Serra's absence."
+    },
+    {
+      "earlier": "S:radiant_assumes_rule",
+      "later": "S:radiant_paranoid",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "km",
+      "source_url": "https://magic.wizards.com/en/news/feature/known-mutliverse-2008-03-19",
+      "source_title": "The Known Mutliverse",
+      "quote": "One of her archangels, Radiant, assumed control of the plane in Serra's absence. But in her zeal to rid the plane of Phyrexian taint, Radiant became draconian and paranoid.",
+      "quote_sha256": "5bd2b95cfc5ba5b2a2f2f180d4f36357b8515f24074a5fef9f1d37d33460ce52",
+      "note": "The 2008 account describes Radiant's increasingly harsh rule after she assumes control, but does not position this development against Urza's final extraction."
     },
     {
       "earlier": "S:serra_abandons",
@@ -1744,6 +2019,40 @@
     "D:valgavoth_bound": [
       "D:marina_meets"
     ],
+    "H:glissa_defeats_memnarch": [
+      "H:karn_restores_order"
+    ],
+    "H:karn_creates_argentum": [
+      "H:glissa_defeats_memnarch",
+      "H:karn_creates_warden",
+      "H:karn_jeska_contagion",
+      "H:karn_restores_order",
+      "H:memnarch_ensnares_beings",
+      "H:warden_becomes_memnarch"
+    ],
+    "H:karn_creates_warden": [
+      "H:glissa_defeats_memnarch",
+      "H:karn_jeska_contagion",
+      "H:karn_restores_order",
+      "H:memnarch_ensnares_beings",
+      "H:warden_becomes_memnarch"
+    ],
+    "H:karn_jeska_contagion": [
+      "H:glissa_defeats_memnarch",
+      "H:karn_restores_order",
+      "H:memnarch_ensnares_beings",
+      "H:warden_becomes_memnarch"
+    ],
+    "H:karn_restores_order": [],
+    "H:memnarch_ensnares_beings": [
+      "H:glissa_defeats_memnarch",
+      "H:karn_restores_order"
+    ],
+    "H:warden_becomes_memnarch": [
+      "H:glissa_defeats_memnarch",
+      "H:karn_restores_order",
+      "H:memnarch_ensnares_beings"
+    ],
     "K:imperials_founded": [
       "K:imperials_govern"
     ],
@@ -1811,18 +2120,24 @@
     "P:venser_restores_karn": [],
     "S:phyrexians_attack": [
       "S:radiant_assumes_rule",
+      "S:radiant_paranoid",
       "S:realm_powerstone_collapse",
       "S:serra_abandons"
     ],
-    "S:radiant_assumes_rule": [],
+    "S:radiant_assumes_rule": [
+      "S:radiant_paranoid"
+    ],
+    "S:radiant_paranoid": [],
     "S:realm_powerstone_collapse": [],
     "S:serra_abandons": [
       "S:radiant_assumes_rule",
+      "S:radiant_paranoid",
       "S:realm_powerstone_collapse"
     ],
     "S:serra_creates_realm": [
       "S:phyrexians_attack",
       "S:radiant_assumes_rule",
+      "S:radiant_paranoid",
       "S:realm_powerstone_collapse",
       "S:serra_abandons",
       "S:serra_heals_urza",
@@ -1831,23 +2146,33 @@
     "S:serra_heals_urza": [
       "S:phyrexians_attack",
       "S:radiant_assumes_rule",
+      "S:radiant_paranoid",
       "S:realm_powerstone_collapse",
       "S:serra_abandons"
     ],
     "S:urza_flees": [
       "S:phyrexians_attack",
       "S:radiant_assumes_rule",
+      "S:radiant_paranoid",
       "S:realm_powerstone_collapse",
       "S:serra_abandons",
       "S:serra_heals_urza"
     ],
     "T:dyfed_brings_yawgmoth": [
+      "T:mercadia_crash",
+      "T:mercadia_fleet_discovered",
+      "T:mercadia_strike",
       "T:portal_closed",
       "T:rath_constructed",
       "T:rath_overlay",
       "T:thran_defeated",
       "T:thran_horrified",
       "T:thran_war",
+      "T:weatherlight_leaves_mercadia",
+      "T:weatherlight_mercadia",
+      "T:weatherlight_recovered",
+      "T:weatherlight_seized",
+      "T:weatherlight_to_rath",
       "T:yawgmoth_plots",
       "T:yawgmoth_power_grows",
       "T:yawgmoth_rules"
@@ -1856,75 +2181,186 @@
       "T:old_phyrexia_decimated",
       "T:yawgmoth_destroyed"
     ],
+    "T:mercadia_crash": [
+      "T:mercadia_fleet_discovered",
+      "T:mercadia_strike",
+      "T:weatherlight_leaves_mercadia",
+      "T:weatherlight_recovered",
+      "T:weatherlight_seized"
+    ],
+    "T:mercadia_fleet_discovered": [
+      "T:mercadia_strike",
+      "T:weatherlight_leaves_mercadia"
+    ],
+    "T:mercadia_strike": [
+      "T:weatherlight_leaves_mercadia"
+    ],
     "T:old_phyrexia_decimated": [],
     "T:phyrexian_creator_dies": [
       "T:dyfed_brings_yawgmoth",
+      "T:mercadia_crash",
+      "T:mercadia_fleet_discovered",
+      "T:mercadia_strike",
       "T:portal_closed",
       "T:rath_constructed",
       "T:rath_overlay",
       "T:thran_defeated",
       "T:thran_horrified",
       "T:thran_war",
+      "T:weatherlight_leaves_mercadia",
+      "T:weatherlight_mercadia",
+      "T:weatherlight_recovered",
+      "T:weatherlight_seized",
+      "T:weatherlight_to_rath",
       "T:yawgmoth_plots",
       "T:yawgmoth_power_grows",
       "T:yawgmoth_rules"
     ],
     "T:portal_closed": [
+      "T:mercadia_crash",
+      "T:mercadia_fleet_discovered",
+      "T:mercadia_strike",
       "T:rath_constructed",
       "T:rath_overlay",
       "T:thran_defeated",
+      "T:weatherlight_leaves_mercadia",
+      "T:weatherlight_mercadia",
+      "T:weatherlight_recovered",
+      "T:weatherlight_seized",
+      "T:weatherlight_to_rath",
       "T:yawgmoth_plots"
     ],
     "T:rath_constructed": [
-      "T:rath_overlay"
+      "T:mercadia_crash",
+      "T:mercadia_fleet_discovered",
+      "T:mercadia_strike",
+      "T:rath_overlay",
+      "T:weatherlight_leaves_mercadia",
+      "T:weatherlight_mercadia",
+      "T:weatherlight_recovered",
+      "T:weatherlight_seized",
+      "T:weatherlight_to_rath"
     ],
     "T:rath_overlay": [],
     "T:thran_defeated": [
+      "T:mercadia_crash",
+      "T:mercadia_fleet_discovered",
+      "T:mercadia_strike",
       "T:rath_constructed",
       "T:rath_overlay",
+      "T:weatherlight_leaves_mercadia",
+      "T:weatherlight_mercadia",
+      "T:weatherlight_recovered",
+      "T:weatherlight_seized",
+      "T:weatherlight_to_rath",
       "T:yawgmoth_plots"
     ],
     "T:thran_horrified": [
+      "T:mercadia_crash",
+      "T:mercadia_fleet_discovered",
+      "T:mercadia_strike",
       "T:portal_closed",
       "T:rath_constructed",
       "T:rath_overlay",
       "T:thran_defeated",
       "T:thran_war",
+      "T:weatherlight_leaves_mercadia",
+      "T:weatherlight_mercadia",
+      "T:weatherlight_recovered",
+      "T:weatherlight_seized",
+      "T:weatherlight_to_rath",
       "T:yawgmoth_plots"
     ],
     "T:thran_war": [
+      "T:mercadia_crash",
+      "T:mercadia_fleet_discovered",
+      "T:mercadia_strike",
       "T:portal_closed",
       "T:rath_constructed",
       "T:rath_overlay",
       "T:thran_defeated",
+      "T:weatherlight_leaves_mercadia",
+      "T:weatherlight_mercadia",
+      "T:weatherlight_recovered",
+      "T:weatherlight_seized",
+      "T:weatherlight_to_rath",
       "T:yawgmoth_plots"
     ],
-    "T:weatherlight_mercadia": [],
+    "T:weatherlight_leaves_mercadia": [],
+    "T:weatherlight_mercadia": [
+      "T:mercadia_crash",
+      "T:mercadia_fleet_discovered",
+      "T:mercadia_strike",
+      "T:weatherlight_leaves_mercadia",
+      "T:weatherlight_recovered",
+      "T:weatherlight_seized"
+    ],
+    "T:weatherlight_recovered": [
+      "T:mercadia_fleet_discovered",
+      "T:mercadia_strike",
+      "T:weatherlight_leaves_mercadia"
+    ],
+    "T:weatherlight_seized": [
+      "T:mercadia_fleet_discovered",
+      "T:mercadia_strike",
+      "T:weatherlight_leaves_mercadia",
+      "T:weatherlight_recovered"
+    ],
     "T:weatherlight_to_rath": [
+      "T:mercadia_crash",
+      "T:mercadia_fleet_discovered",
+      "T:mercadia_strike",
       "T:rath_overlay",
-      "T:weatherlight_mercadia"
+      "T:weatherlight_leaves_mercadia",
+      "T:weatherlight_mercadia",
+      "T:weatherlight_recovered",
+      "T:weatherlight_seized"
     ],
     "T:yawgmoth_destroyed": [],
     "T:yawgmoth_plots": [
+      "T:mercadia_crash",
+      "T:mercadia_fleet_discovered",
+      "T:mercadia_strike",
       "T:rath_constructed",
-      "T:rath_overlay"
+      "T:rath_overlay",
+      "T:weatherlight_leaves_mercadia",
+      "T:weatherlight_mercadia",
+      "T:weatherlight_recovered",
+      "T:weatherlight_seized",
+      "T:weatherlight_to_rath"
     ],
     "T:yawgmoth_power_grows": [
+      "T:mercadia_crash",
+      "T:mercadia_fleet_discovered",
+      "T:mercadia_strike",
       "T:portal_closed",
       "T:rath_constructed",
       "T:rath_overlay",
       "T:thran_defeated",
       "T:thran_horrified",
       "T:thran_war",
+      "T:weatherlight_leaves_mercadia",
+      "T:weatherlight_mercadia",
+      "T:weatherlight_recovered",
+      "T:weatherlight_seized",
+      "T:weatherlight_to_rath",
       "T:yawgmoth_plots"
     ],
     "T:yawgmoth_rules": [
+      "T:mercadia_crash",
+      "T:mercadia_fleet_discovered",
+      "T:mercadia_strike",
       "T:portal_closed",
       "T:rath_constructed",
       "T:rath_overlay",
       "T:thran_defeated",
       "T:thran_horrified",
       "T:thran_war",
+      "T:weatherlight_leaves_mercadia",
+      "T:weatherlight_mercadia",
+      "T:weatherlight_recovered",
+      "T:weatherlight_seized",
+      "T:weatherlight_to_rath",
       "T:yawgmoth_plots",
       "T:yawgmoth_power_grows"
     ],
@@ -1969,5 +2405,5 @@
     "Unknown original plane names, absolute AR years and missing historical events are not supplied.",
     "This source-local supplement does not replace the original Packs A–C chronology or certify L244."
   ],
-  "content_sha256": "86c4ac522bda5cf180e0db66edb5b414a0f935e3c857ea6419d3528af3d76e4c"
+  "content_sha256": "49e9ac8182d2821e0ec9691d0123c767867fc84a52a110d3b7beb7c075e4dee1"
 }

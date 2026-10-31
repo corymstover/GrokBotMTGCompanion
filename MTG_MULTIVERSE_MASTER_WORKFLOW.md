@@ -1,6 +1,6 @@
 # MTG Multiverse Companion — Master Workflow & Progress Checklist
 
-**Version:** 2.78
+**Version:** 2.79
 **Checkpoint date:** 2026-10-31
 **Repository:** [corymstover/GrokBotMTGCompanion](https://github.com/corymstover/GrokBotMTGCompanion)  
 **Purpose:** Durable project roadmap and handoff document. Update this file after verified milestone work; do not treat historical figures as live counters.
@@ -22,6 +22,26 @@ foundation release may document inherently unresolved canon and future
 maintenance; it must never claim exhaustive knowledge of all MTG history.
 The 62 approved Grixis decks, their hashes and all owner gates remain intact.
 Only a new explicit request from Cory can override the Phase 6 hold.
+
+**v2.79 Phase 4 source-cited Mercadia and original Mirrodin histories (2026-10-31):**
+Expanded the source-local historical chronology with **14 qualified events and
+14 strict BEFORE relations** from the directly verified 2008 Wizards
+*The Known Mutliverse* retrospective. The Weatherlight's escape from Rath now
+continues through its Mercadian crash, Cho-Arrim seizure, ship recovery,
+Phyrexian fleet discovery, preemptive strike and departure to defend Dominaria.
+An **independent** original-Mirrodin strand follows Karn's Argentum and warden,
+the Karn/Jeska contagion account, Memnarch's scheme, Glissa's victory and Karn's
+return; Radiant's growing paranoia now follows her accession in Serra's Realm.
+The source-local ledger has **nine strands, 88 events, 71 strict edges and
+314/3,828 ordered pairs** (previously eight / 74 / 57 / 180 of 2,701). Seven
+legacy `SAME_EVENT` bridges remain explicit, and no extra AR date, contagion/oil
+identity, first-invasion-vs-Mirrodin relation, or order between Mercadian
+departure and Rath's overlay has been fabricated. **81 quoted excerpts across
+seven official pages passed live-source replay**, and focused chronology/Q&A
+tests pass locally. The broader L244 and historical-coverage tasks remain
+OPEN: **89/137 checked, 48 open, NOT_RELEASE_READY**. The 62 approved decks,
+three parked unapproved pilots, snapshots and owner gates are untouched. See
+`research/PHASE4_MERCADIA_MIRRODIN_SOURCE_SEQUENCES_2026-10-31.md`.
 
 **v2.78 Phase 4 cross-ledger chronology query closure (2026-10-31):**
 The source-verified legacy/source-local event ledgers already held seven
@@ -986,7 +1006,7 @@ explicitly lifts the hold).
   - v2.60: a source-graded, 12-case knowledge-only review packet was generated and CI-gated; v2.62 extended it to 15 dated set/printing/ruling cases, v2.63 to 17 with bounded New Phyrexia chronology, v2.64 to 22 with five character/faction histories, **v2.65 to 26** with four newly deepened plane histories, and **v2.66 to 30 unique questions** for four more plane histories and a duplicate-ID correction. The dry-run distinguishes this **completed engineering packet** from pending exact-head release CI and Cory's foundation-scope decision. No release checklist acceptance is inferred.
 - [ ] Treat continual future MTG releases as an ongoing maintenance track rather than a permanently finishable backlog.
 
-## Immediate execution queue — v2.78 FOUNDATION FIRST (2026-10-31)
+## Immediate execution queue — v2.79 FOUNDATION FIRST (2026-10-31)
 
 1. **Phase 4 — Verified in-universe chronology:** expand the source-quoted BEFORE/AFTER/UNKNOWN event order, resolve high-value L244 gaps where primary evidence exists, and retain unknown/disputed ordering instead of inventing total dates. Keep release chronology separate.
 2. **Phases 2/5 — Comprehensive history:** systematically deepen thin plane dossiers, major factions, characters, wars, artifacts and cross-plane consequences; record both coverage and missing primary sources. Currently thin registered planes remain a priority, not a census of all planes; regenerate the exact count from the dossier rather than treating this prose as a live counter.

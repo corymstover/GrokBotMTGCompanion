@@ -58,6 +58,7 @@ on:
       - 'tests/test_phase5_chronology_coverage.py'
       - 'tests/test_source_event_sequences.py'
       - 'tests/test_chronology_same_ledger_bridges.py'
+      - 'tests/test_phase4_mercadia_mirrodin_sequences.py'
       - 'tests/test_plane_history_dossiers.py'
       - 'tests/test_p5_isolated_entity_history.py'
       - 'tests/test_p5_thin_plane_history.py'
@@ -135,6 +136,7 @@ on:
       - 'tests/test_phase5_chronology_coverage.py'
       - 'tests/test_source_event_sequences.py'
       - 'tests/test_chronology_same_ledger_bridges.py'
+      - 'tests/test_phase4_mercadia_mirrodin_sequences.py'
       - 'tests/test_plane_history_dossiers.py'
       - 'tests/test_p5_isolated_entity_history.py'
       - 'tests/test_p5_thin_plane_history.py'
@@ -199,6 +201,7 @@ jobs:
           python3 scripts/source_event_sequences.py --check
           python3 -m unittest discover -s tests -p 'test_source_event_sequences.py' -q
           python3 -m unittest discover -s tests -p 'test_chronology_same_ledger_bridges.py' -q
+          python3 -m unittest discover -s tests -p 'test_phase4_mercadia_mirrodin_sequences.py' -q
           python3 scripts/build_plane_history_priorities.py --check
           python3 scripts/build_plane_history_dossiers.py --check
           python3 -m unittest discover -s tests -p 'test_plane_history_dossiers.py' -q
