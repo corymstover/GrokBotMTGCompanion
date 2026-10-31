@@ -1,7 +1,7 @@
 {
   "schema": "source-local-event-order-spec/v1",
   "status": "PRELIMINARY_RESEARCH_NOT_OWNER_APPROVED",
-  "scope": "Eleven bounded, individually sourced chronology strands. No automatic cross-strand alignment, no absolute AR date conversion and no assertions that a narrated legend is historical fact. The Thran-to-invasion strand uses the 2008 Wizards historical retrospective and does not decide the order between Old Phyrexia's decimation and Yawgmoth's destruction. The Dominaria-to-Kamigawa fracture sequence quotes explicit cross-plane cause, but does not globally align all plane eras. The New Phyrexia strand describes early Mirrodin conquest, not post-March of the Machine politics. The Meditation Realm strand is Ugin's remembered early conflict, not a statement about the Realm's later state after Tarkir: Dragonstorm.",
+  "scope": "Twelve bounded, individually sourced chronology strands. No automatic cross-strand alignment, no absolute AR date conversion and no assertions that a narrated legend is historical fact. The Thran-to-invasion strand uses the 2008 Wizards historical retrospective and does not decide the order between Old Phyrexia's decimation and Yawgmoth's destruction. The Dominaria-to-Kamigawa fracture sequence quotes explicit cross-plane cause, but does not globally align all plane eras. The New Phyrexia strand describes early Mirrodin conquest, not post-March of the Machine politics. The early Meditation Realm strand is Ugin's remembered conflict; the distinct War of the Spark-to-Dragonstorm strand tracks later imprisonment and escape without claiming either dragon's death, present location or current spark state.",
   "sources": {
     "neo_guide": "data/lore_research/pack_p5_kamigawa_history_profile_2026-10-30.json",
     "blb_guide1": "data/lore_research/pack_p5_bloomburrow_valley_history_2026-10-30.json",
@@ -11,7 +11,9 @@
     "lf_meditation_chronicle": "data/lore_research/pack_p5_last_four_thin_planes_2026-10-31.json",
     "km": "data/lore_research/pack_c5_phyrexian_invasion_outcome_2026-10-30.json",
     "c_dominaria_plane": "data/lore_research/pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json",
-    "c_karn_profile": "data/lore_research/pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json"
+    "c_karn_profile": "data/lore_research/pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json",
+    "tdm7": "data/lore_research/pack_a_ugin_bolas_evidence_2026-10-30.json",
+    "lorwyn2": "data/lore_research/pack_a_ugin_bolas_evidence_2026-10-30.json"
   },
   "legacy_bridges": [
     {"legacy":"B:phyrexia_creator_dies","local":"T:phyrexian_creator_dies","source_id":"km","quote":"the planeswalker Dyfed took Yawgmoth to Phyrexia shortly after its creator and master had died","note":"The two ledger labels denote the same unnamed original Phyrexian master's death, without asserting that he was Yawgmoth."},
@@ -304,6 +306,29 @@
         {"earlier":"U:karn_seeks_own_legacy","later":"U:karn_creates_world","source_id":"c_karn_profile","quote":"He created his own world, becoming the “father” to an entire plane.","note":"The world realizes Karn's stated intent to create his own legacy, without assigning a creation year."},
         {"earlier":"U:karn_creates_world","later":"U:world_phyrexian_corruption","source_id":"c_karn_profile","quote":"Tragically, and through his own accidental actions, that world became twisted by the influence of Phyrexia.","note":"The profile identifies corruption of an already-existing world; no exact mechanism is invented."},
         {"earlier":"U:world_phyrexian_corruption","later":"U:karn_resolves_against_phyrexians","source_id":"c_karn_profile","quote":"Determined to prevent the Phyrexians from usurping his legacy, Karn will stop at nothing until they are destroyed.","note":"This is Karn's stated resolve, NOT a claim that the Phyrexians have already been destroyed."}
+      ]
+    },
+    {
+      "id": "W",
+      "title": "Bolas's 2019 imprisonment, the Tarkir: Dragonstorm escape, and Ajani's later report",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "limitation": "The 2019 editorial ending and later official fiction establish imprisonment and escape, not that the old prison still holds. Narset sees both dragons vanish into an unknown void and explicitly questions whether they died; Ajani later reports the escape but says Bolas's spark state is unknown. Neither a confirmed death, restored spark, destination, nor an absolute in-universe date follows. This W strand is NOT merged with Ugin's ancient B-strand recollections.",
+      "nodes": [
+        {"id":"W:bolas_imprisoned","label":"Bolas loses his spark and is imprisoned under Ugin after War of the Spark","claim_ids":["A008"]},
+        {"id":"W:meditation_unravels","label":"The Meditation Realm unravels during Tarkir: Dragonstorm","claim_ids":["A009"]},
+        {"id":"W:bolas_freed","label":"Bolas's restraints come undone as the Meditation Realm burns","claim_ids":["A009"]},
+        {"id":"W:ugin_grapples","label":"Ugin tries and fails to restrain Bolas as he rises","claim_ids":["A010"]},
+        {"id":"W:brothers_vanish","label":"Bolas and Ugin vanish from Narset's view, with their fate uncertain","claim_ids":["A009"]},
+        {"id":"W:narset_escapes","label":"Narset crosses an Omenpath out of the collapsing Realm","claim_ids":["A009"]},
+        {"id":"W:ajani_reports","label":"Ajani later tells Liliana of Bolas's escape and uncertain spark","claim_ids":["A011"]}
+      ],
+      "edges": [
+        {"earlier":"W:bolas_imprisoned","later":"W:bolas_freed","source_id":"tdm7","quote":"there was Bolas, laughing ecstatically, as his fetters came undone","note":"The same Bolas previously imprisoned under Ugin in the 2019 official account is released from restraints; this does not prove regained planeswalking ability."},
+        {"earlier":"W:meditation_unravels","later":"W:narset_escapes","source_id":"tdm7","quote":"The Omenpath gleamed like a star as the rest of the Meditation Realm burned away to that terrible nothing.","note":"The described unraveling is already in progress before Narset subsequently passes through the Omenpath; not an asserted order against the exact instant Bolas's fetters break."},
+        {"earlier":"W:bolas_freed","later":"W:ugin_grapples","source_id":"tdm7","quote":"as his fetters came undone; Bolas rising into that emptiness as Ugin flung himself at his brother","note":"Ugin attempts to seize Bolas as the just-freed dragon rises; the scene gives no outcome beyond the failed immediate attempt."},
+        {"earlier":"W:ugin_grapples","later":"W:brothers_vanish","source_id":"tdm7","quote":"trying to hold him in place, trying and failing; Bolas and Ugin winking out of existence","note":"Narset observes their disappearance after Ugin's failed restraint; her following 'dead now, perhaps' explicitly does NOT establish confirmed death."},
+        {"earlier":"W:brothers_vanish","later":"W:narset_escapes","source_id":"tdm7","quote":"Crossing the threshold felt like she was stepping through a pool of silver","note":"The story describes Narset crossing the escape threshold after witnessing both brothers vanish; it does not establish the brothers' destinations."},
+        {"earlier":"W:narset_escapes","later":"W:ajani_reports","source_id":"lorwyn2","quote":"I was on Tarkir. I helped Elspeth and Narset stop them. We wound up following the signs back to the Meditation Realm","note":"Ajani recounts the Realm expedition in the past tense in a later conversation with Liliana; his uncertainty about Bolas's spark remains in force."}
       ]
     },
     {

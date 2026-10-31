@@ -2,7 +2,7 @@
   "schema": "source-event-sequences/v1",
   "status": "PRELIMINARY_RESEARCH_NOT_OWNER_APPROVED",
   "date": "2026-10-30",
-  "scope": "Eleven bounded, individually sourced chronology strands. No automatic cross-strand alignment, no absolute AR date conversion and no assertions that a narrated legend is historical fact. The Thran-to-invasion strand uses the 2008 Wizards historical retrospective and does not decide the order between Old Phyrexia's decimation and Yawgmoth's destruction. The Dominaria-to-Kamigawa fracture sequence quotes explicit cross-plane cause, but does not globally align all plane eras. The New Phyrexia strand describes early Mirrodin conquest, not post-March of the Machine politics. The Meditation Realm strand is Ugin's remembered early conflict, not a statement about the Realm's later state after Tarkir: Dragonstorm.",
+  "scope": "Twelve bounded, individually sourced chronology strands. No automatic cross-strand alignment, no absolute AR date conversion and no assertions that a narrated legend is historical fact. The Thran-to-invasion strand uses the 2008 Wizards historical retrospective and does not decide the order between Old Phyrexia's decimation and Yawgmoth's destruction. The Dominaria-to-Kamigawa fracture sequence quotes explicit cross-plane cause, but does not globally align all plane eras. The New Phyrexia strand describes early Mirrodin conquest, not post-March of the Machine politics. The early Meditation Realm strand is Ugin's remembered conflict; the distinct War of the Spark-to-Dragonstorm strand tracks later imprisonment and escape without claiming either dragon's death, present location or current spark state.",
   "sources": {
     "blb_guide1": {
       "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-bloomburrow-part-1",
@@ -39,10 +39,20 @@
       "title": "Planeswalker's Guide to Aetherdrift, Part 2",
       "published": ""
     },
+    "lorwyn2": {
+      "url": "https://magic.wizards.com/en/news/magic-story/lorwyn-eclipsed-episode-2-shake-off-slumber",
+      "title": "Lorwyn Eclipsed | Episode 2: Shake Off Slumber",
+      "published": null
+    },
     "neo_guide": {
       "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-kamigawa-neon-dynasty-2022-02-03",
       "title": "Planeswalker's Guide to Kamigawa: Neon Dynasty",
       "published": "2022-02-03"
+    },
+    "tdm7": {
+      "url": "https://magic.wizards.com/en/news/magic-story/tarkir-dragonstorm-episode-7-return",
+      "title": "Tarkir: Dragonstorm | Episode 7: Return",
+      "published": null
     },
     "up_nph": {
       "url": "https://magic.wizards.com/en/story/new-phyrexia-plane",
@@ -51,12 +61,12 @@
     }
   },
   "counts": {
-    "strands": 11,
-    "events": 107,
-    "strict_edges": 87,
+    "strands": 12,
+    "events": 114,
+    "strict_edges": 93,
     "non_ordering_relations": 3,
-    "ordered_pairs": 354,
-    "total_pairs": 5671,
+    "ordered_pairs": 371,
+    "total_pairs": 6441,
     "verified_legacy_bridges": 8
   },
   "strands": [
@@ -148,6 +158,15 @@
       "limitation": "Karn's official profile is an abbreviated, profile-era historical account. The created plane's corruption is later than its creation, but the text does not prove when a specific Mirrodin/Phyrexian infection occurred or resolve the 2008 unnamed-contagion retelling. Only Karn's initial creation has an independent source-corroborated SAME_EVENT bridge to the legacy ledger.",
       "events": 5,
       "strict_edges": 4,
+      "non_ordering_relations": 0
+    },
+    {
+      "id": "W",
+      "title": "Bolas's 2019 imprisonment, the Tarkir: Dragonstorm escape, and Ajani's later report",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "limitation": "The 2019 editorial ending and later official fiction establish imprisonment and escape, not that the old prison still holds. Narset sees both dragons vanish into an unknown void and explicitly questions whether they died; Ajani later reports the escape but says Bolas's spark state is unknown. Neither a confirmed death, restored spark, destination, nor an absolute in-universe date follows. This W strand is NOT merged with Ugin's ancient B-strand recollections.",
+      "events": 7,
+      "strict_edges": 6,
       "non_ordering_relations": 0
     },
     {
@@ -1114,6 +1133,90 @@
         {
           "id": "BLH007",
           "grade": "CANON_IMPLIED"
+        }
+      ]
+    },
+    {
+      "id": "W:ajani_reports",
+      "strand": "W",
+      "label": "Ajani later tells Liliana of Bolas's escape and uncertain spark",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": [
+        {
+          "id": "A011",
+          "grade": "OPEN_QUESTION"
+        }
+      ]
+    },
+    {
+      "id": "W:bolas_freed",
+      "strand": "W",
+      "label": "Bolas's restraints come undone as the Meditation Realm burns",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": [
+        {
+          "id": "A009",
+          "grade": "CANON_CONFIRMED"
+        }
+      ]
+    },
+    {
+      "id": "W:bolas_imprisoned",
+      "strand": "W",
+      "label": "Bolas loses his spark and is imprisoned under Ugin after War of the Spark",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": [
+        {
+          "id": "A008",
+          "grade": "CANON_CONFIRMED"
+        }
+      ]
+    },
+    {
+      "id": "W:brothers_vanish",
+      "strand": "W",
+      "label": "Bolas and Ugin vanish from Narset's view, with their fate uncertain",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": [
+        {
+          "id": "A009",
+          "grade": "CANON_CONFIRMED"
+        }
+      ]
+    },
+    {
+      "id": "W:meditation_unravels",
+      "strand": "W",
+      "label": "The Meditation Realm unravels during Tarkir: Dragonstorm",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": [
+        {
+          "id": "A009",
+          "grade": "CANON_CONFIRMED"
+        }
+      ]
+    },
+    {
+      "id": "W:narset_escapes",
+      "strand": "W",
+      "label": "Narset crosses an Omenpath out of the collapsing Realm",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": [
+        {
+          "id": "A009",
+          "grade": "CANON_CONFIRMED"
+        }
+      ]
+    },
+    {
+      "id": "W:ugin_grapples",
+      "strand": "W",
+      "label": "Ugin tries and fails to restrain Bolas as he rises",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": [
+        {
+          "id": "A010",
+          "grade": "CANON_CONFIRMED"
         }
       ]
     }
@@ -2116,6 +2219,78 @@
       "note": "This is Karn's stated resolve, NOT a claim that the Phyrexians have already been destroyed."
     },
     {
+      "earlier": "W:bolas_imprisoned",
+      "later": "W:bolas_freed",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "tdm7",
+      "source_url": "https://magic.wizards.com/en/news/magic-story/tarkir-dragonstorm-episode-7-return",
+      "source_title": "Tarkir: Dragonstorm | Episode 7: Return",
+      "quote": "there was Bolas, laughing ecstatically, as his fetters came undone",
+      "quote_sha256": "cbb71e93af9cd4c26679651ca1776d272a4a952362e338b351dda0e8751e314f",
+      "note": "The same Bolas previously imprisoned under Ugin in the 2019 official account is released from restraints; this does not prove regained planeswalking ability."
+    },
+    {
+      "earlier": "W:meditation_unravels",
+      "later": "W:narset_escapes",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "tdm7",
+      "source_url": "https://magic.wizards.com/en/news/magic-story/tarkir-dragonstorm-episode-7-return",
+      "source_title": "Tarkir: Dragonstorm | Episode 7: Return",
+      "quote": "The Omenpath gleamed like a star as the rest of the Meditation Realm burned away to that terrible nothing.",
+      "quote_sha256": "8a71b9f0e9f55c597d513b3b6386021756d62e198b20822c5298e55a9b54504d",
+      "note": "The described unraveling is already in progress before Narset subsequently passes through the Omenpath; not an asserted order against the exact instant Bolas's fetters break."
+    },
+    {
+      "earlier": "W:bolas_freed",
+      "later": "W:ugin_grapples",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "tdm7",
+      "source_url": "https://magic.wizards.com/en/news/magic-story/tarkir-dragonstorm-episode-7-return",
+      "source_title": "Tarkir: Dragonstorm | Episode 7: Return",
+      "quote": "as his fetters came undone; Bolas rising into that emptiness as Ugin flung himself at his brother",
+      "quote_sha256": "d7db3b24ef389fcd14142937fb2730f9d1b42990d37fc30dffef76d887b04d6e",
+      "note": "Ugin attempts to seize Bolas as the just-freed dragon rises; the scene gives no outcome beyond the failed immediate attempt."
+    },
+    {
+      "earlier": "W:ugin_grapples",
+      "later": "W:brothers_vanish",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "tdm7",
+      "source_url": "https://magic.wizards.com/en/news/magic-story/tarkir-dragonstorm-episode-7-return",
+      "source_title": "Tarkir: Dragonstorm | Episode 7: Return",
+      "quote": "trying to hold him in place, trying and failing; Bolas and Ugin winking out of existence",
+      "quote_sha256": "5e9e40740bf30005f2ef6d88e7e7518f283a4b37d9f14f28805a504045b1e42a",
+      "note": "Narset observes their disappearance after Ugin's failed restraint; her following 'dead now, perhaps' explicitly does NOT establish confirmed death."
+    },
+    {
+      "earlier": "W:brothers_vanish",
+      "later": "W:narset_escapes",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "tdm7",
+      "source_url": "https://magic.wizards.com/en/news/magic-story/tarkir-dragonstorm-episode-7-return",
+      "source_title": "Tarkir: Dragonstorm | Episode 7: Return",
+      "quote": "Crossing the threshold felt like she was stepping through a pool of silver",
+      "quote_sha256": "d911466297efe4a3a39eeaebacc33bca41e4a09f9346e3e4c72701f812ba7a31",
+      "note": "The story describes Narset crossing the escape threshold after witnessing both brothers vanish; it does not establish the brothers' destinations."
+    },
+    {
+      "earlier": "W:narset_escapes",
+      "later": "W:ajani_reports",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "lorwyn2",
+      "source_url": "https://magic.wizards.com/en/news/magic-story/lorwyn-eclipsed-episode-2-shake-off-slumber",
+      "source_title": "Lorwyn Eclipsed | Episode 2: Shake Off Slumber",
+      "quote": "I was on Tarkir. I helped Elspeth and Narset stop them. We wound up following the signs back to the Meditation Realm",
+      "quote_sha256": "07c199a0b978acd472b252151f86a3df23980cbed7b134ceca594f353fc90fcd",
+      "note": "Ajani recounts the Realm expedition in the past tense in a later conversation with Liliana; his uncertainty about Bolas's spark remains in force."
+    },
+    {
       "earlier": "S:serra_creates_realm",
       "later": "S:urza_flees",
       "relation": "BEFORE",
@@ -2828,7 +3003,37 @@
     "V:weaving_backlash": [
       "V:sealed_great_magic"
     ],
-    "V:wildsear_appears": []
+    "V:wildsear_appears": [],
+    "W:ajani_reports": [],
+    "W:bolas_freed": [
+      "W:ajani_reports",
+      "W:brothers_vanish",
+      "W:narset_escapes",
+      "W:ugin_grapples"
+    ],
+    "W:bolas_imprisoned": [
+      "W:ajani_reports",
+      "W:bolas_freed",
+      "W:brothers_vanish",
+      "W:narset_escapes",
+      "W:ugin_grapples"
+    ],
+    "W:brothers_vanish": [
+      "W:ajani_reports",
+      "W:narset_escapes"
+    ],
+    "W:meditation_unravels": [
+      "W:ajani_reports",
+      "W:narset_escapes"
+    ],
+    "W:narset_escapes": [
+      "W:ajani_reports"
+    ],
+    "W:ugin_grapples": [
+      "W:ajani_reports",
+      "W:brothers_vanish",
+      "W:narset_escapes"
+    ]
   },
   "known_gaps": [
     "No primary-source edge joins distinct source-local strand IDs. Only explicitly source-corroborated SAME_EVENT links join the legacy and source-local ledgers; all other cross-ledger comparisons remain UNKNOWN.",
@@ -2836,6 +3041,7 @@
     "New Phyrexia events describe early Mirrodin conquest; the source does not order the complete war, the Mirrans being overwhelmed against Venser's sacrifice, or the political present after March of the Machine.",
     "Muraganda: the ancient collapse versus moon-shattering sequence, the exact overlap of moon-strikes and survivor cultures, and the origin of the modern Autocracy remain unbridged.",
     "Meditation Realm: Ugin's remembered early conflict does not date or establish the Realm's condition after Tarkir: Dragonstorm; the fall of Ugin is not a claim of permanent death.",
+    "Post-War of the Spark: Bolas escapes during Tarkir: Dragonstorm, but Narset's view of the brothers vanishing does not establish either dragon's death or location. Ajani expressly does not know whether Bolas's spark is intact; early Ugin/Bolas B-strand events remain unaligned with the later W-strand.",
     "Thran to first invasion: the 2008 historical retrospective does not establish a strict order between the soul-bomb decimation of Old Phyrexia and the Weatherlight Legacy destroying Yawgmoth.",
     "The Weatherlight leaves Mercadia to defend Dominaria after its strike, but the 2008 account does not strictly date that departure against the later Rath overlay.",
     "Original Mirrodin history in the 2008 account is an independent H strand: its mysterious contagion is not automatically identified with later oil accounts or assigned a relative order against the New Phyrexia P strand.",
@@ -2846,5 +3052,5 @@
     "Unknown original plane names, absolute AR years and missing historical events are not supplied.",
     "This source-local supplement does not replace the original Packs A–C chronology or certify L244."
   ],
-  "content_sha256": "06ae06218473edbd7357a9a753a6367484fbbe199314169498d997b2e1648877"
+  "content_sha256": "1aed42054ab96fdfc76615d4ee05ef1563a2c1b724f0301731e1a8ac1b8f547e"
 }

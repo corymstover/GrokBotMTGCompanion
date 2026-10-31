@@ -14,7 +14,7 @@ This source-graded packet is reproducible from the repository, with exact input 
 ## In-universe chronology (not a complete timeline)
 
 - Legacy ledger: 56 events, 177/3074 ordered event pairs; 2897 unresolved, 13 components, 0 cycles.
-- Source-local ledger: 107 events, 354/5671 pairs. These counts are separate, not additive.
+- Source-local ledger: 114 events, 371/6441 pairs. These counts are separate, not additive.
 - L244 cross-source historical ordering remains open. UNKNOWN is the correct answer when no cited bridge exists.
 
 ## Representative end-to-end questions
@@ -48,6 +48,11 @@ This source-graded packet is reproducible from the repository, with exact input 
 | Did R:dominarian_ice_age happen before R:urza_discovers_phyrexia? | `ask->chronology` | `QUALIFIED` | 0 |
 | Did R:kami_war_begins happen before R:planeswalkers_mend_rifts? | `ask->chronology` | `QUALIFIED` | 0 |
 | Did H:karn_creates_argentum happen before U:karn_creates_world? | `ask->chronology` | `QUALIFIED` | 0 |
+| Did W:bolas_imprisoned happen before W:bolas_freed? | `ask->chronology` | `QUALIFIED` | 1 |
+| Did W:bolas_freed happen before W:ugin_grapples? | `ask->chronology` | `QUALIFIED` | 1 |
+| Did W:brothers_vanish happen before W:ajani_reports? | `ask->chronology` | `QUALIFIED` | 2 |
+| Did W:meditation_unravels happen before W:bolas_freed? | `ask->chronology` | `QUALIFIED` | 0 |
+| Did B:ugin_reforms happen before W:bolas_imprisoned? | `ask->chronology` | `QUALIFIED` | 0 |
 | What is the history of Eric Kenrith? | `ask->entity_history` | `QUALIFIED` | 1 |
 | What is the history of Hazel Kenrith? | `ask->entity_history` | `QUALIFIED` | 1 |
 | What is the history of Lyra Dawnbringer? | `ask->entity_history` | `QUALIFIED` | 1 |
@@ -102,6 +107,6 @@ python3 scripts/certification_dry_run.py --check
 python3 scripts/update_multiverse_progress_tracker.py --check
 ```
 
-Packet SHA-256 (canonical JSON): `821f22b9db195157ead6cd7cd776f8c3d4de6961aef7b37806bc111ab42c7a2a`
+Packet SHA-256 (canonical JSON): `b999ca0c75eb950ffe6f70f91c45164e6defe883cc725c77b53887c54c7c3e27`
 
 **No decks were built, modified, reviewed or approved.**

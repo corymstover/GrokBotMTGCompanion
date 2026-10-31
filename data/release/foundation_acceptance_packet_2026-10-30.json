@@ -21,7 +21,7 @@
     },
     "source_local_chronology": {
       "path": "data/lore_research/source_event_sequences_2026-10-30.json",
-      "sha256": "182f9ee41f65e8b61472bc3e541a4204e003977b95aa57e88d6dfb034d78013f"
+      "sha256": "6016f01a7fdc8f9884f2a3b531d248cddfeef30ad5211ef4c3c7a2e236bb477b"
     },
     "story_coverage": {
       "path": "data/lore_research/story_coverage_inventory_2026-10-30.json",
@@ -56,9 +56,9 @@
     "legacy_unresolved_pairs": 2897,
     "legacy_disconnected_components": 13,
     "legacy_cycles": 0,
-    "source_local_events": 107,
-    "source_local_ordered_pairs": 354,
-    "source_local_total_pairs": 5671,
+    "source_local_events": 114,
+    "source_local_ordered_pairs": 371,
+    "source_local_total_pairs": 6441,
     "not_additive": "Legacy and source-local data are separately scoped; their pairs may not be summed as one chronology.",
     "l244_complete": false
   },
@@ -627,6 +627,85 @@
       ],
       "sources": [],
       "response_sha256": "fd275bb4c1e01e87b57dec51fdb1e4218fcd9e50b30f621bf22f46eb30dbcaad",
+      "direct_claims": null,
+      "chronology_relation": "UNKNOWN",
+      "known_limitations": []
+    },
+    {
+      "id": "bolas_war_spark_imprisonment_before_escape",
+      "question": "Did W:bolas_imprisoned happen before W:bolas_freed?",
+      "route": "ask->chronology",
+      "confidence": "QUALIFIED",
+      "flags": [
+        "PARTIAL_IN_UNIVERSE_CHRONOLOGY"
+      ],
+      "sources": [
+        "https://magic.wizards.com/en/news/magic-story/tarkir-dragonstorm-episode-7-return"
+      ],
+      "response_sha256": "1456189de4b8b0f10c533c34de1254de7350ff9ca3e5577fd4ddc8247b346412",
+      "direct_claims": null,
+      "chronology_relation": "BEFORE",
+      "known_limitations": []
+    },
+    {
+      "id": "bolas_escape_before_ugin_intervention",
+      "question": "Did W:bolas_freed happen before W:ugin_grapples?",
+      "route": "ask->chronology",
+      "confidence": "QUALIFIED",
+      "flags": [
+        "PARTIAL_IN_UNIVERSE_CHRONOLOGY"
+      ],
+      "sources": [
+        "https://magic.wizards.com/en/news/magic-story/tarkir-dragonstorm-episode-7-return"
+      ],
+      "response_sha256": "2d3af33c9de10c93b8bfdc2e5e3d695cad073578e7aad9bfbe417f3345f47172",
+      "direct_claims": null,
+      "chronology_relation": "BEFORE",
+      "known_limitations": []
+    },
+    {
+      "id": "brothers_disappearance_before_ajani_report",
+      "question": "Did W:brothers_vanish happen before W:ajani_reports?",
+      "route": "ask->chronology",
+      "confidence": "QUALIFIED",
+      "flags": [
+        "PARTIAL_IN_UNIVERSE_CHRONOLOGY"
+      ],
+      "sources": [
+        "https://magic.wizards.com/en/news/magic-story/lorwyn-eclipsed-episode-2-shake-off-slumber",
+        "https://magic.wizards.com/en/news/magic-story/tarkir-dragonstorm-episode-7-return"
+      ],
+      "response_sha256": "fb557c0a0836d34c5b2a26c26ac9718b5f70d1e1a90619ef290a2e4f5001458c",
+      "direct_claims": null,
+      "chronology_relation": "BEFORE",
+      "known_limitations": []
+    },
+    {
+      "id": "meditation_realm_collapse_vs_escaping_bolas_unknown",
+      "question": "Did W:meditation_unravels happen before W:bolas_freed?",
+      "route": "ask->chronology",
+      "confidence": "QUALIFIED",
+      "flags": [
+        "PARTIAL_IN_UNIVERSE_CHRONOLOGY",
+        "NO_CITED_CHRONOLOGY_PATH"
+      ],
+      "sources": [],
+      "response_sha256": "67bacaea0775b4e733af3e9d43f558cef610d47d885f59582a0acfd4554b2bba",
+      "direct_claims": null,
+      "chronology_relation": "UNKNOWN",
+      "known_limitations": []
+    },
+    {
+      "id": "ancient_realm_to_post_war_status_unbridged",
+      "question": "Did B:ugin_reforms happen before W:bolas_imprisoned?",
+      "route": "ask->chronology",
+      "confidence": "QUALIFIED",
+      "flags": [
+        "PARTIAL_IN_UNIVERSE_CHRONOLOGY",
+        "NO_CITED_CHRONOLOGY_PATH"
+      ],
+      "sources": [],
+      "response_sha256": "1810af70b007a98059095f0070dc87ebf69c9c27d04d830199a42a5b502d7f03",
       "direct_claims": null,
       "chronology_relation": "UNKNOWN",
       "known_limitations": []
@@ -1420,5 +1499,5 @@
     "python3 scripts/update_multiverse_progress_tracker.py --check"
   ],
   "owner_review_status": "PENDING_NOT_REQUESTED_UNTIL_ENGINEERING_EVIDENCE_AND_CI_COMPLETE",
-  "content_sha256": "821f22b9db195157ead6cd7cd776f8c3d4de6961aef7b37806bc111ab42c7a2a"
+  "content_sha256": "b999ca0c75eb950ffe6f70f91c45164e6defe883cc725c77b53887c54c7c3e27"
 }

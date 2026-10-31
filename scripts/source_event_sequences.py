@@ -183,6 +183,7 @@ def build() -> dict:
             'New Phyrexia events describe early Mirrodin conquest; the source does not order the complete war, the Mirrans being overwhelmed against Venser\'s sacrifice, or the political present after March of the Machine.',
             'Muraganda: the ancient collapse versus moon-shattering sequence, the exact overlap of moon-strikes and survivor cultures, and the origin of the modern Autocracy remain unbridged.',
             'Meditation Realm: Ugin\'s remembered early conflict does not date or establish the Realm\'s condition after Tarkir: Dragonstorm; the fall of Ugin is not a claim of permanent death.',
+            'Post-War of the Spark: Bolas escapes during Tarkir: Dragonstorm, but Narset\'s view of the brothers vanishing does not establish either dragon\'s death or location. Ajani expressly does not know whether Bolas\'s spark is intact; early Ugin/Bolas B-strand events remain unaligned with the later W-strand.',
             'Thran to first invasion: the 2008 historical retrospective does not establish a strict order between the soul-bomb decimation of Old Phyrexia and the Weatherlight Legacy destroying Yawgmoth.',
             'The Weatherlight leaves Mercadia to defend Dominaria after its strike, but the 2008 account does not strictly date that departure against the later Rath overlay.',
             'Original Mirrodin history in the 2008 account is an independent H strand: its mysterious contagion is not automatically identified with later oil accounts or assigned a relative order against the New Phyrexia P strand.',
