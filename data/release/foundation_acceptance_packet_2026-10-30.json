@@ -21,7 +21,7 @@
     },
     "source_local_chronology": {
       "path": "data/lore_research/source_event_sequences_2026-10-30.json",
-      "sha256": "c3cb20601f87a31bb0ac7ce5c0fbfaa4ca6b36807b89bd4332377e49af10288f"
+      "sha256": "94d0e873507c6c49679b88ad0373dc65498cd64c8b7974adda879c0755431abd"
     },
     "story_coverage": {
       "path": "data/lore_research/story_coverage_inventory_2026-10-30.json",
@@ -56,9 +56,9 @@
     "legacy_unresolved_pairs": 2897,
     "legacy_disconnected_components": 13,
     "legacy_cycles": 0,
-    "source_local_events": 134,
-    "source_local_ordered_pairs": 459,
-    "source_local_total_pairs": 8911,
+    "source_local_events": 139,
+    "source_local_ordered_pairs": 462,
+    "source_local_total_pairs": 9591,
     "not_additive": "Legacy and source-local data are separately scoped; their pairs may not be summed as one chronology.",
     "l244_complete": false
   },
@@ -1625,6 +1625,53 @@
       "direct_claims": null,
       "chronology_relation": "UNKNOWN",
       "known_limitations": []
+    },
+    {
+      "id": "amonkhet_devastation_before_ravnica_warning",
+      "question": "Did E:amonkhet_devastated happen before E:samut_warns_ravnica?",
+      "route": "ask->chronology",
+      "confidence": "QUALIFIED",
+      "flags": [
+        "PARTIAL_IN_UNIVERSE_CHRONOLOGY"
+      ],
+      "sources": [
+        "https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-rallying-reluctant-2019-05-22"
+      ],
+      "response_sha256": "e3627a0d20716ff2afd9d9b0850d38f96f81017013dbd17b94394fdbc2b31683",
+      "direct_claims": null,
+      "chronology_relation": "BEFORE",
+      "known_limitations": []
+    },
+    {
+      "id": "amonkhet_eternals_before_bridge_shutoff",
+      "question": "Did E:eternals_begin_arriving happen before E:eternal_flow_stopped?",
+      "route": "ask->chronology",
+      "confidence": "QUALIFIED",
+      "flags": [
+        "PARTIAL_IN_UNIVERSE_CHRONOLOGY"
+      ],
+      "sources": [
+        "https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-ashes-2019-06-12"
+      ],
+      "response_sha256": "71eced0e9c6e507c9bae92667a00244cd49e7f6dcd70ac39d660ab3340b794d7",
+      "direct_claims": null,
+      "chronology_relation": "BEFORE",
+      "known_limitations": []
+    },
+    {
+      "id": "amonkhet_warning_vs_shutoff_unknown",
+      "question": "Did E:samut_warns_ravnica happen before E:eternal_flow_stopped?",
+      "route": "ask->chronology",
+      "confidence": "QUALIFIED",
+      "flags": [
+        "PARTIAL_IN_UNIVERSE_CHRONOLOGY",
+        "NO_CITED_CHRONOLOGY_PATH"
+      ],
+      "sources": [],
+      "response_sha256": "2febe148d473e89ea4a0948612f8481d74e338b1fcac1a742445335d3074e4e6",
+      "direct_claims": null,
+      "chronology_relation": "UNKNOWN",
+      "known_limitations": []
     }
   ],
   "cross_plane_graph_navigation": [
@@ -1714,5 +1761,5 @@
     "python3 scripts/update_multiverse_progress_tracker.py --check"
   ],
   "owner_review_status": "PENDING_NOT_REQUESTED_UNTIL_ENGINEERING_EVIDENCE_AND_CI_COMPLETE",
-  "content_sha256": "38c4a7fc5f87e4abc1af16e3897c5946f9533bd8e9f82a57999445b7c06d6b6c"
+  "content_sha256": "b93e8b55a364f8f64e1e902725142aa7a92de49b1b307f666b656a094eaaec48"
 }

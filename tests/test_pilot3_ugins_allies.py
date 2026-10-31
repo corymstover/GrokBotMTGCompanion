@@ -30,7 +30,9 @@ class Pilot3Tests(unittest.TestCase):
 
     def test_commander_is_eligible_by_rules(self):
         out = CR.commander(["Jace, Multiverse Architect"])
-        self.assertEqual(out["confidence"], "VERIFIED")
+        # v2.85: dated legality and CR evidence cannot warrant live VERIFIED.
+        self.assertEqual(out["confidence"], "QUALIFIED")
+        self.assertIn("DATED_SCRYFALL_LEGALITY_NOT_LIVE", out["flags"])
         self.assertTrue(out["result"]["allowed"])
         self.assertIn("903.3a", [x["rule"] for x in out["rules"]])
 

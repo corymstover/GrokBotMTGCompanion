@@ -65,6 +65,7 @@ on:
       - 'tests/test_phase4_dominaria_karn_chronology.py'
       - 'tests/test_phase4_bolas_post_war_chronology.py'
       - 'tests/test_phase4_alara_sundering_history.py'
+      - 'tests/test_phase4_amonkhet_ravnica_chronology.py'
       - 'tests/test_plane_history_dossiers.py'
       - 'tests/test_p5_isolated_entity_history.py'
       - 'tests/test_p5_thin_plane_history.py'
@@ -149,6 +150,7 @@ on:
       - 'tests/test_phase4_dominaria_karn_chronology.py'
       - 'tests/test_phase4_bolas_post_war_chronology.py'
       - 'tests/test_phase4_alara_sundering_history.py'
+      - 'tests/test_phase4_amonkhet_ravnica_chronology.py'
       - 'tests/test_plane_history_dossiers.py'
       - 'tests/test_p5_isolated_entity_history.py'
       - 'tests/test_p5_thin_plane_history.py'
@@ -219,6 +221,7 @@ jobs:
           python3 -m unittest discover -s tests -p 'test_phase4_dominaria_karn_chronology.py' -q
           python3 -m unittest discover -s tests -p 'test_phase4_bolas_post_war_chronology.py' -q
           python3 -m unittest discover -s tests -p 'test_phase4_alara_sundering_history.py' -q
+          python3 -m unittest discover -s tests -p 'test_phase4_amonkhet_ravnica_chronology.py' -q
           python3 scripts/build_plane_history_priorities.py --check
           python3 scripts/build_plane_history_dossiers.py --check
           python3 -m unittest discover -s tests -p 'test_plane_history_dossiers.py' -q
