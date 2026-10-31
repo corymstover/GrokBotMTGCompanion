@@ -764,6 +764,12 @@ def ask(text: str) -> dict:
     connection = graph_connection_question(q)
     if connection is not None:
         return connection
+    # The bounded, cited event ledger is independent of the much larger
+    # card-printing and rules snapshots. An event-order question should use
+    # that ledger directly, including in research-only sparse checkouts.
+    chronology = chronology_question(q)
+    if chronology is not None:
+        return chronology
     from ask_set_atlas import try_answer as set_atlas_answer
     set_answer = set_atlas_answer(q)
     if set_answer is not None:
@@ -783,9 +789,6 @@ def ask(text: str) -> dict:
             if env is not None:
                 env['query'] = q
                 return env
-    chronology = chronology_question(q)
-    if chronology is not None:
-        return chronology
     for rx in CONTINUITY_PATTERNS:
         m = rx.search(q)
         if m:

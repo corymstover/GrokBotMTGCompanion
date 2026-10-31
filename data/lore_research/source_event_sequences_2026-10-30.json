@@ -2,7 +2,7 @@
   "schema": "source-event-sequences/v1",
   "status": "PRELIMINARY_RESEARCH_NOT_OWNER_APPROVED",
   "date": "2026-10-30",
-  "scope": "Fourteen bounded, individually sourced chronology strands. No automatic cross-strand alignment, no absolute AR date conversion and no assertions that a narrated legend is historical fact. The Gatewatch founding strand uses the official Battle for Zendikar retrospective and contemporaneous Oath/Last Stand episodes, not real-world set release order; it establishes only the founding episode on Zendikar, not the complete Gatewatch biography. The Thran-to-invasion strand uses the 2008 Wizards historical retrospective and does not decide the order between Old Phyrexia's decimation and Yawgmoth's destruction. The Dominaria-to-Kamigawa fracture sequence quotes explicit cross-plane cause, but does not globally align all plane eras. The Alara strand places Gideon's isolated-Bant arrival before the Conflux without assigning a cause to Alara's unknown original Sundering; wars concurrent with border dissolution are not forced into a BEFORE relation. The New Phyrexia strand describes early Mirrodin conquest, not post-March of the Machine politics. The early Meditation Realm strand is Ugin's remembered conflict; the distinct War of the Spark-to-Dragonstorm strand tracks later imprisonment and escape without claiming either dragon's death, present location or current spark state.",
+  "scope": "Fifteen bounded, individually sourced chronology strands. No automatic cross-strand alignment, no absolute AR date conversion and no assertions that a narrated legend is historical fact. The Gatewatch founding strand uses the official Battle for Zendikar retrospective and contemporaneous Oath/Last Stand episodes, not real-world set release order; it establishes only the founding episode on Zendikar, not the complete Gatewatch biography. The Thran-to-invasion strand uses the 2008 Wizards historical retrospective and does not decide the order between Old Phyrexia's decimation and Yawgmoth's destruction. The Dominaria-to-Kamigawa fracture sequence quotes explicit cross-plane cause, but does not globally align all plane eras. The Alara strand places Gideon's isolated-Bant arrival before the Conflux without assigning a cause to Alara's unknown original Sundering; wars concurrent with border dissolution are not forced into a BEFORE relation. The New Phyrexia strand describes early Mirrodin conquest, not post-March of the Machine politics. The early Meditation Realm strand is Ugin's remembered conflict; the distinct War of the Spark-to-Dragonstorm strand tracks later imprisonment and escape without claiming either dragon's death, present location or current spark state. The Amonkhet-to-Ravnica strand preserves Samut's firsthand warning and the Eternal flow's later shutdown as bounded, separate sequences; it does not invent a total interplane event order.",
   "sources": {
     "bfz_summary": {
       "url": "https://magic.wizards.com/en/news/magic-story/battle-zendikar-story-summary-2015-12-23",
@@ -88,15 +88,25 @@
       "url": "https://magic.wizards.com/en/story/new-phyrexia-plane",
       "title": "New Phyrexia",
       "published": ""
+    },
+    "wr_ashes": {
+      "url": "https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-ashes-2019-06-12",
+      "title": "War of the Spark: Ravnica—Ashes",
+      "published": "2019-06-12"
+    },
+    "wr_rallying": {
+      "url": "https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-rallying-reluctant-2019-05-22",
+      "title": "War of the Spark: Ravnica – Rallying the Reluctant",
+      "published": "2019-05-22"
     }
   },
   "counts": {
-    "strands": 14,
-    "events": 134,
-    "strict_edges": 109,
+    "strands": 15,
+    "events": 139,
+    "strict_edges": 112,
     "non_ordering_relations": 5,
-    "ordered_pairs": 459,
-    "total_pairs": 8911,
+    "ordered_pairs": 462,
+    "total_pairs": 9591,
     "verified_legacy_bridges": 8
   },
   "strands": [
@@ -215,6 +225,15 @@
       "limitation": "This is the bounded Battle for Zendikar / Oath of the Gatewatch founding story, not the complete Gatewatch history. The initial Eye activation releases broods while the titans remain confined; Nissa breaks their remaining bonds later. The later temporary Ulamog-only hedron trap is a distinct event, then Ob Nixilis disrupts it. The founding four are Gideon, Jace, Nissa and Chandra, not the membership of the Gatewatch in any later era. The apparent deaths of Ulamog and Kozilek are explicitly attested in the next official story; Ugin raises the uncertainty of the Multiverse-wide consequences, not a claim that the titans survived. None of these events is dated to an absolute AR year or merged with another strand.",
       "events": 13,
       "strict_edges": 12,
+      "non_ordering_relations": 0
+    },
+    {
+      "id": "E",
+      "title": "Amonkhet to Ravnica — Samut's warning, Eternal transport and Planar Bridge shutdown",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "limitation": "Samut's firsthand statement on Ravnica places the devastation of her Amonkhet home before her warning. Jace's concurrent account identifies the ongoing Planar Bridge flow from Amonkhet and its planned shutdown, while Rat later reports that flow stopped. These are partial source-local comparisons, not one continuous global sequence: the exact timing of the Amonkhet Hours against the Bridge's first activation and the order of every War of the Spark mission are not independently established. Neither story publication dates nor mechanical card-set release order creates an event-order edge.",
+      "events": 5,
+      "strict_edges": 3,
       "non_ordering_relations": 0
     },
     {
@@ -393,6 +412,46 @@
           "grade": "CANON_CONFIRMED"
         }
       ]
+    },
+    {
+      "id": "E:amonkhet_devastated",
+      "strand": "E",
+      "label": "Bolas devastates Amonkhet; a few survivors remain",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": [
+        {
+          "id": "AKH029",
+          "grade": "CANON_CONFIRMED"
+        }
+      ]
+    },
+    {
+      "id": "E:bridge_mission_planned",
+      "strand": "E",
+      "label": "The Ravnica council plans to shut down the Planar Bridge from its Amonkhet side",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": []
+    },
+    {
+      "id": "E:eternal_flow_stopped",
+      "strand": "E",
+      "label": "The Planar Bridge and flow of Eternals from Amonkhet have been shut down",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": []
+    },
+    {
+      "id": "E:eternals_begin_arriving",
+      "strand": "E",
+      "label": "Eternals begin entering Ravnica from Amonkhet through the Planar Bridge",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": []
+    },
+    {
+      "id": "E:samut_warns_ravnica",
+      "strand": "E",
+      "label": "Samut warns the Ravnica war council about Amonkhet's fate",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": []
     },
     {
       "id": "G:borders_dissolve",
@@ -2801,6 +2860,42 @@
       "note": "The subsequent official account explicitly identifies the titans' destruction as past and the surviving team's next plans as present."
     },
     {
+      "earlier": "E:amonkhet_devastated",
+      "later": "E:samut_warns_ravnica",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "wr_rallying",
+      "source_url": "https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-rallying-reluctant-2019-05-22",
+      "source_title": "War of the Spark: Ravnica – Rallying the Reluctant",
+      "quote": "Bolas left my world completely desolated. Even now, a mere handful of survivors struggle to defeat the monsters that Nicol Bolas left behind to slaughter us.",
+      "quote_sha256": "c707b224c9f9fe3c772eceef3344b1a17fc794014b9e63e45531e072bd992270",
+      "note": "Samut speaks on Ravnica about her already devastated home, Amonkhet. Her firsthand report is dated only relative to this war council, not to an AR year."
+    },
+    {
+      "earlier": "E:eternals_begin_arriving",
+      "later": "E:bridge_mission_planned",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "wr_rallying",
+      "source_url": "https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-rallying-reluctant-2019-05-22",
+      "source_title": "War of the Spark: Ravnica – Rallying the Reluctant",
+      "quote": "The Planar Bridge from Amonkhet allows a seemingly endless army of Eternals to enter Ravnica and slay the Planeswalkers lured by the Beacon and held by the Sun. We have to shut it down",
+      "quote_sha256": "394b09477ccf7415a69b3a90c848c03cf557f4e7cb3998131edb3feee0116c77",
+      "note": "Jace describes Eternals already entering Ravnica before stating the plan to stop the existing flow; arrival continues during the discussion."
+    },
+    {
+      "earlier": "E:eternals_begin_arriving",
+      "later": "E:eternal_flow_stopped",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "wr_ashes",
+      "source_url": "https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-ashes-2019-06-12",
+      "source_title": "War of the Spark: Ravnica—Ashes",
+      "quote": "The Izzet's Beacon, the Immortal Sun, the Planar Bridge, and the flow of Eternals from Amonkhet had all been shut down.",
+      "quote_sha256": "9b7a6256d1bce2a478e28f92b8b2bb751389393646d98695e62b7a856b692da6",
+      "note": "The past-perfect shutdown presupposes the earlier flow. It does not date the exact moment the portal first opened or establish a strict order with Samut's warning."
+    },
+    {
       "earlier": "S:serra_creates_realm",
       "later": "S:urza_flees",
       "relation": "BEFORE",
@@ -3068,6 +3163,16 @@
     "D:valgavoth_bound": [
       "D:marina_meets"
     ],
+    "E:amonkhet_devastated": [
+      "E:samut_warns_ravnica"
+    ],
+    "E:bridge_mission_planned": [],
+    "E:eternal_flow_stopped": [],
+    "E:eternals_begin_arriving": [
+      "E:bridge_mission_planned",
+      "E:eternal_flow_stopped"
+    ],
+    "E:samut_warns_ravnica": [],
     "G:borders_dissolve": [],
     "G:conflux_reunion": [
       "G:five_colors_return"
@@ -3681,12 +3786,13 @@
     "Original Mirrodin history in the 2008 account is an independent H strand: its mysterious contagion is not automatically identified with later oil accounts or assigned a relative order against the New Phyrexia P strand.",
     "The official Dominaria synopsis and 2008 Kamigawa explanation establish a Dominarian-rift effect on Kamigawa, but not the strict order of the Kami War, the Mending and the Phyrexian invasion.",
     "Alara: the cause of the original Sundering remains unknown; Gideon arrived during Bant's isolation before the Conflux, but the border collapse and inter-shard wars are overlapping, not independently ordered events. No cross-plane synchrony with the Mending or an invented Sundering/Bolas identity is supplied.",
-    "Gatewatch: the founding-four oath on Zendikar and the subsequent destruction of Ulamog and Kozilek are proven within the official BFZ/OGW account. This does not establish later Gatewatch membership, the absolute date of any episode, a bridge to the Amonkhet/War of the Spark account, or the ultimate cosmic consequences of killing two titans.",
+    "Gatewatch: the founding-four oath on Zendikar and the subsequent destruction of Ulamog and Kozilek are proven within the official BFZ/OGW account. This does not establish later Gatewatch membership, the absolute date of any episode, a sourced chronology edge to the separate Amonkhet-to-Ravnica account, or the ultimate cosmic consequences of killing two titans.",
+    "Amonkhet to Ravnica: Samut recalls Bolas's devastation of Amonkhet before her Ravnica war-council warning; the Eternals already flow through the Planar Bridge when the council plans to close it, and the flow later stops. No cited edge joins the warning and bridge-flow timelines or establishes the exact first activation, every mission's order, or a link to the earlier Gatewatch oath on Zendikar.",
     "Karn's creation is independently source-bridged to the legacy ledger; his later profile-era motives and world corruption do not automatically establish a SAME_EVENT link to the separate 2008 Mirrodin contagion account.",
     "Serra's Realm: the retrospective does not order the end of Radiant's administration relative to Urza's final powerstone extraction, even though both follow Serra's departure.",
     "A DURING_OR_AFTER_START relation is not a strict BEFORE edge and never participates in transitive ordering.",
     "Unknown original plane names, absolute AR years and missing historical events are not supplied.",
     "This source-local supplement does not replace the original Packs A–C chronology or certify L244."
   ],
-  "content_sha256": "460d6ca3c3fbbe96a7d171af42c924e3d12bbee04b141d5cfaf09856f89e4125"
+  "content_sha256": "bf60fe269d9c1f49d7cca16d050352c2c395e7eb74ff5ffc3246424f12c0a737"
 }

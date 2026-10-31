@@ -23,8 +23,8 @@ class SourceEventSequencesTests(unittest.TestCase):
         sig=d.pop('content_sha256')
         self.assertEqual(sig,S.digest(d))
         self.assertEqual(self.current['counts'],{
-            'strands':14,'events':134,'strict_edges':109,'non_ordering_relations':5,
-            'ordered_pairs':459,'total_pairs':8911,'verified_legacy_bridges':8,
+            'strands':15,'events':139,'strict_edges':112,'non_ordering_relations':5,
+            'ordered_pairs':462,'total_pairs':9591,'verified_legacy_bridges':8,
         })
 
     def test_zendikar_gatewatch_oath_is_after_two_distinct_eldrazi_prisons(self):

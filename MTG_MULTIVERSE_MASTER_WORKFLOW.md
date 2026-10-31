@@ -1,6 +1,6 @@
 # MTG Multiverse Companion — Master Workflow & Progress Checklist
 
-**Version:** 2.86
+**Version:** 2.87
 **Checkpoint date:** 2026-10-31
 **Repository:** [corymstover/GrokBotMTGCompanion](https://github.com/corymstover/GrokBotMTGCompanion)  
 **Purpose:** Durable project roadmap and handoff document. Update this file after verified milestone work; do not treat historical figures as live counters.
@@ -1219,3 +1219,30 @@ certification. The checklist remains **89/137 checked, 48 open,
 NOT_RELEASE_READY**. No Grixis decklists, Scryfall snapshots, owner decisions
 or parked lore pilots are changed. See
 `research/PHASE7_GRAPH_CONNECTION_QA_2026-10-31.md`.
+
+## v2.87 engineering addendum — Amonkhet → Ravnica source-local chronology (2026-10-31)
+
+The source-local ledger now has a separate **five-event Amonkhet/Ravnica
+strand** based on two already registered official Wizards War of the Spark
+stories. It records **three strict, quote-backed orderings**: Bolas's
+devastation of Amonkhet precedes Samut's warning to the Ravnica war council;
+the Eternal army is already arriving through the Planar Bridge when the
+council plans to stop it; and the beginning of the flow precedes its recorded
+shutdown. Samut's testimony is identified as her in-story perspective. No
+unverified bridge links the warning to the exact shutdown time, or the
+Zendikar/Gatewatch and later Bolas/Dragonstorm history strands.
+
+The regenerated ledger now has **15 strands, 139 events, 112 strict edges,
+five non-ordering overlap relations and 462/9,591 ordered event pairs**,
+with **eight unchanged same-event bridges** and the unchanged 56-event
+legacy chronology. Four adversarial regression methods guard the source
+links and `UNKNOWN` cross-thread answers. The natural-language Q&A router
+can reach the event ledger without first importing Set Atlas/rules data,
+and the deterministic foundation-review packet has **79 representative Q&A
+cases**; it is **NOT CERTIFIED**. The broad cross-plane chronology, remaining
+source/owner questions and Phase 7 difficult-query coverage are still open.
+
+The original 137 checklist task lines are untouched: **89 checked, 48 open,
+NOT_RELEASE_READY**. Phase 6 stays parked and all 62 approved Grixis decks
+remain unchanged. See
+`research/PHASE4_AMONKHET_RAVNICA_BRIDGE_CHRONOLOGY_2026-10-31.md`.

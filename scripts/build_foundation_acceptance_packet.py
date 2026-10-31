@@ -194,6 +194,15 @@ QA_CASES = [
     ('gatewatch_cross_arc_war_spark_unknown',
      'Did Z:gatewatch_oath happen before W:bolas_imprisoned?',
      'ask->chronology', 'QUALIFIED'),
+    ('amonkhet_devastation_before_ravnica_warning',
+     'Did E:amonkhet_devastated happen before E:samut_warns_ravnica?',
+     'ask->chronology', 'QUALIFIED'),
+    ('amonkhet_eternals_before_bridge_shutoff',
+     'Did E:eternals_begin_arriving happen before E:eternal_flow_stopped?',
+     'ask->chronology', 'QUALIFIED'),
+    ('amonkhet_warning_vs_shutoff_unknown',
+     'Did E:samut_warns_ravnica happen before E:eternal_flow_stopped?',
+     'ask->chronology', 'QUALIFIED'),
 ]
 
 
@@ -278,6 +287,19 @@ def qa_cases() -> list[dict]:
                 r['result']['relation'] != 'UNKNOWN' or r['sources'] or
                 'NO_CITED_CHRONOLOGY_PATH' not in r['flags']):
             raise ValueError('Gatewatch and War of the Spark falsely joined by publication order')
+        if key in {'amonkhet_devastation_before_ravnica_warning',
+                   'amonkhet_eternals_before_bridge_shutoff'} and (
+                r['result']['relation'] != 'BEFORE' or not r['result']['proof'] or
+                r['sources'] != [
+                    'https://magic.wizards.com/en/news/magic-story/' +
+                    ('war-spark-ravnica-rallying-reluctant-2019-05-22' if key.endswith('warning')
+                     else 'war-spark-ravnica-ashes-2019-06-12')
+                ]):
+            raise ValueError(f'Amonkhet/Ravnica claimed order lost its official proof: {key}')
+        if key == 'amonkhet_warning_vs_shutoff_unknown' and (
+                r['result']['relation'] != 'UNKNOWN' or r['sources'] or
+                'NO_CITED_CHRONOLOGY_PATH' not in r['flags']):
+            raise ValueError('Amonkhet/Ravnica parallel events falsely ordered')
         if key == 'present_leader_unknown' and 'CURRENT_LEADER_NOT_ESTABLISHED' not in r['flags']:
             raise ValueError('Present-day leadership is overstated')
         if key == 'commander_identity' and not r['result']['allowed']:
