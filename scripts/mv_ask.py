@@ -266,8 +266,10 @@ PATTERNS = [  # (regex, relation, direction from the named entity's point of vie
     (re.compile(r"who (?:freed|released|liberated|rescued) (?:the )?(.+?)\??$", re.I), "freed", "in"),
     (re.compile(r"who (?:captured|kidnapped|abducted|took) (?:the )?(.+?)(?: captive)?\??$", re.I), "captured", "in"),
     (re.compile(r"who (?:imprisoned|sealed away|sealed|trapped) (?:the )?(.+?)\??$", re.I), "imprisoned", "in"),
-    (re.compile(r"who (?:is|was) (.+?)'s (?:father|parent|dad)\??$", re.I), "parent_of", "in"),
-    (re.compile(r"who (?:are|were) (.+?)'s parents\??$", re.I), "parent_of", "in"),
+    # A generic parent_of edge does NOT prove whether the person is a mother or father.
+    (re.compile(r"who (?:is|was) (.+?)'s (?:father|dad)\??$", re.I), "father_of", "in"),
+    (re.compile(r"who (?:is|was) (.+?)'s parent\??$", re.I), "parent_of|mother_of|father_of", "in"),
+    (re.compile(r"who (?:are|were) (.+?)'s parents\??$", re.I), "parent_of|mother_of|father_of", "in"),
     (re.compile(r"who (?:is|was) (.+?)'s (?:lover|partner|girlfriend|boyfriend|romantic partner)\??$", re.I), "romantically_involved_with", None),
     (re.compile(r"who (?:currently )?(?:leads|led|captains|captained|heads|headed|runs|ran) (?:the )?(.+?)(?: now| today| currently| these days)?\??$", re.I), LEADER_UNION, "in"),
     (re.compile(r"who won (?:the )?(.+?)\??$", re.I), "won", "in"),
@@ -296,13 +298,13 @@ FALLBACK = {"created": [("created_by", "out"),  # "who created X" may be stored 
             "defeated_by": [("defeated", "in")],  # Batch 5: XLN010 stores Bolas defeated Ugin
             "sibling_of": [("twin_sibling_of", None)],  # Pack A stores Ugin/Bolas as twin_sibling_of
             "destroyed": [("killed", "in")],  # Pack C4 stores Karn killed Elesh Norn (Batch 4)
-            "mother_of": [("child_of", "out"), ("parent_of", "in")],
+            # Never fall back from gendered mother/father questions to an untyped parent.
             # Batch 6 Phase 7 rephrasings
             "killed": [("destroyed", "in"), ("slew_and_banished", "in")],
             "freed": [("rescued", "in"), ("restored", "in")],
             "captured": [("abducted", "in"), ("imprisoned", "in")],
             "imprisoned": [("captured", "in"), ("bound_to_service", "in")],
-            "parent_of": [("child_of", "out"), ("mother_of", "in")],
+            "parent_of|mother_of|father_of": [("child_of", "out")],
             "romantically_involved_with": [("spouse_of", None)],
             "led": [("leader_of", "in"), ("leads", "in")],
             "opposed": [("fought", None)],
@@ -572,6 +574,51 @@ def entity_history(name: str) -> dict | None:
                        ]}}
 
 
+def parent_role(term: str, relation: str) -> dict:
+    """Never identify an untyped parent (or the other parent) as a father/mother.
+
+    Accept a role-specific edge or a directly worded, cited parent_of claim;
+    keep any other family relationships as context, not a gendered answer.
+    """
+    answer = lore(term, relation, 'in')
+    if answer['confidence'] != 'NOT_FOUND':
+        return answer
+    # A few older packs stored explicitly worded father claims as generic
+    # parent_of edges. Only accept the actual parent's name next to the role,
+    # not the child's gender, a title such as King, or a bare 'son of' phrase.
+    role = relation.removesuffix('_of')
+    typed = lore(term, 'parent_of', 'in')
+    quoted = {}
+    for grade, rows in typed.get('result', {}).get('relations_by_status', {}).items():
+        for row in rows:
+            wording = row.get('summary') or ''
+            parent_name = re.escape(row['name'])
+            if (re.search(r'\b' + role + r'\s+(?:is|was)\s+' + parent_name + r'\b', wording, re.I) or
+                re.search(r'\b' + parent_name + r'\b.{0,70}\b(?:his|her|their|the)\s+' + role + r'\b', wording, re.I)):
+                quoted.setdefault(grade, []).append(row)
+    if quoted:
+        typed['result']['relations_by_status'] = quoted
+        typed['sources'] = sorted({url for rows in quoted.values() for row in rows
+                                   for url in row.get('source_urls', [])})
+        typed['flags'].append('PARENT_ROLE_EXPLICIT_IN_CITED_CLAIM')
+        typed['confidence'] = ('QUALIFIED' if set(quoted) & QUALIFYING else 'VERIFIED')
+        return typed
+    family = lore(term, 'parent_of|mother_of|father_of|child_of')
+    contextual = []
+    for rows in family.get('result', {}).get('relations_by_status', {}).values():
+        for row in rows:
+            if ((row['relation'] in {'inverse_of:parent_of', 'inverse_of:mother_of', 'inverse_of:father_of'}
+                 and row['direction'] == 'in') or
+                (row['relation'] == 'child_of' and row['direction'] == 'out')):
+                contextual.append(row)
+    answer['sources'] = sorted({url for row in contextual for url in row.get('source_urls', [])})
+    answer['flags'] = ['NO_ROLE_SPECIFIC_PARENT_EVIDENCE']
+    answer['result']['known_parental_relations_not_answer'] = contextual
+    answer['result']['note'] = (f'The cited graph does not establish a {relation.removesuffix("_of")}. '
+                                'Other parent or family edges are context only; they do not answer this question.')
+    return answer
+
+
 def chronology_question(text: str) -> dict | None:
     """Answer only recognizable two-event comparisons; ambiguous names never guess."""
     intent, left, right = None, None, None
@@ -679,13 +726,20 @@ def ask(text: str) -> dict:
     for rx, rel, direction in PATTERNS:
         m = rx.search(q)
         if m:
-            env = lore(m.group(1).strip(), rel, direction)
+            env = (parent_role(m.group(1).strip(), rel) if rel in {'mother_of', 'father_of'}
+                   else lore(m.group(1).strip(), rel, direction))
             for alt, alt_dir in FALLBACK.get(rel, []):
                 if env["confidence"] != "NOT_FOUND":
                     break
                 rel, direction = alt, alt_dir
                 env = lore(m.group(1).strip(), rel, direction)
             env.update(route="ask->lore:" + rel, query=q)
+            if "'s parents" in q.lower() and env['confidence'] != 'NOT_FOUND':
+                # The graph may cite one parent but has never verified an exhaustive family roster.
+                env['flags'].append('PARENT_ROSTER_NOT_EXHAUSTIVELY_VERIFIED')
+                env['confidence'] = 'QUALIFIED'
+                env['result']['note'] = ('These are the cited parent relations, not a verified complete list '
+                                         'of biological, adoptive, or other parents.')
             if set(rel.split("|")) & LEADER_RELATIONS and env["confidence"] != "NOT_FOUND":
                 lead = leadership(env)
                 env["result"]["leadership"] = lead
@@ -701,6 +755,14 @@ def ask(text: str) -> dict:
                     env["confidence"] = "QUALIFIED"
                     # The latest *cited* leader is never a proof of who holds office today.
                     lead["verified_current_leader"] = None
+                requested_rank = re.search(r'\b(first|original|new)\b', q, re.I)
+                if requested_rank:
+                    env['flags'].append('REQUESTED_LEADER_CHRONOLOGY_NOT_ESTABLISHED')
+                    env['confidence'] = 'QUALIFIED'
+                    lead['requested_rank'] = requested_rank.group(1).lower()
+                    lead['verified_requested_leader'] = None
+                    lead['note'] += (' The latest publication-date citation cannot establish who was first, '
+                                     'original, or newly appointed in in-universe history.')
             return env
     term = re.sub(r"^(?:who|what|where)\s+(?:is|was|are|were)\s+|^tell me about\s+", "", q, flags=re.I).rstrip("?").strip()
     term = re.sub(r"^the\s+", "", term, flags=re.I) if not _is_card(term) else term
