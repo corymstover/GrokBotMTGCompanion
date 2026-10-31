@@ -1,0 +1,154 @@
+{
+  "schema": "lore-claim-pack/v1",
+  "pack_id": "P5-THIN-PLANE-HISTORY — four primary-source regional histories",
+  "status": "PRELIMINARY_RESEARCH_NOT_OWNER_APPROVED",
+  "evidence_cutoff": "2026-10-31",
+  "scope": "Eleven narrowly sourced direct plane relations for Eldraine, Ikoria, New Capenna and Argentum. Historical geographic and naming evidence is not a complete plane history, a fully synchronized chronology or current political status.",
+  "source_register": {
+    "tph_eldraine_2019": {
+      "title": "Planeswalker's Guide to Eldraine",
+      "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-eldraine-2019-10-31",
+      "kind": "official_planeswalkers_guide",
+      "perspective": "Wizards of the Coast 2019 guide to the Realm of Eldraine",
+      "published": "2019-10-31"
+    },
+    "tph_ikoria_2020": {
+      "title": "Planeswalker's Guide to Ikoria",
+      "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-ikoria-2020-04-02",
+      "kind": "official_planeswalkers_guide",
+      "perspective": "Vivien Reid's in-world travel narrative, published by Wizards",
+      "published": "2020-04-02"
+    },
+    "tph_capenna_2022": {
+      "title": "Planeswalker's Guide to Streets of New Capenna",
+      "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-streets-of-new-capenna",
+      "kind": "official_planeswalkers_guide",
+      "perspective": "Wizards historical overview, including what residents forgot or were told",
+      "published": "2022-04-28"
+    },
+    "tph_phyrexia_overview": {
+      "title": "New Phyrexia",
+      "url": "https://magic.wizards.com/en/story/new-phyrexia-plane",
+      "kind": "official_plane_profile",
+      "perspective": "Wizards retrospective plane overview; political present may be outdated",
+      "published": ""
+    },
+    "tph_memnarch_2016": {
+      "title": "From the Vault: Lore",
+      "url": "https://magic.wizards.com/en/news/feature/vault-lore-2016-08-01",
+      "kind": "official_lore_feature",
+      "perspective": "Wizards retrospective Memnarch description",
+      "published": "2016-08-01"
+    },
+    "tph_multiverse_2008": {
+      "title": "The Known Multiverse",
+      "url": "https://magic.wizards.com/en/news/feature/known-mutliverse-2008-03-19",
+      "kind": "official_lore_feature",
+      "perspective": "Wizards historical summary, not a current-world-state statement",
+      "published": "2008-03-19"
+    }
+  },
+  "entities": [
+    {"id": "eldraine", "type": "Plane", "name": "Eldraine"},
+    {"id": "eldraine_royal_courts", "type": "Concept", "name": "Five royal courts of the Realm"},
+    {"id": "eldraine_human_ascendance", "type": "Event", "name": "Human ascendance in Eldraine's Realm"},
+    {"id": "ikoria", "type": "Plane", "name": "Ikoria"},
+    {"id": "drannith", "type": "Place", "name": "Drannith"},
+    {"id": "skysail", "type": "Place", "name": "Skysail"},
+    {"id": "new_capenna", "type": "Plane", "name": "New Capenna"},
+    {"id": "new_capenna_city", "type": "Place", "name": "City of New Capenna"},
+    {"id": "capenna_archangels", "type": "Faction", "name": "Archangels of Old Capenna"},
+    {"id": "old_capenna_unnamed_invaders", "type": "Faction", "name": "Unidentified invaders of Old Capenna"},
+    {"id": "argentum", "type": "Plane", "name": "Argentum"},
+    {"id": "mirrodin", "type": "Plane", "name": "Mirrodin"},
+    {"id": "karn", "type": "Character", "name": "Karn"},
+    {"id": "memnarch", "type": "Character", "name": "Memnarch"},
+    {"id": "phyrexian_oil", "type": "Concept", "name": "Phyrexian oil"}
+  ],
+  "claims": [
+    {
+      "id": "TPH001", "subject": "eldraine", "predicate": "has_royal_courts", "object": "eldraine_royal_courts",
+      "grade": "CANON_CONFIRMED", "event_stage": "eldraine_2019_realm_structure", "source_ids": ["tph_eldraine_2019"],
+      "source_excerpt": "it is ruled over by five royal courts: Ardenvale, Vantress, Locthwain, Embereth, and Garenbrig.",
+      "summary": "Eldraine's Realm is organized around five named royal courts, distinct from a claim about every region of the plane.",
+      "limitation": "The guide describes the human Realm within Eldraine; it does not claim those courts governed the Wilds or later held unchanged power."
+    },
+    {
+      "id": "TPH002", "subject": "eldraine", "predicate": "historically_underwent", "object": "eldraine_human_ascendance",
+      "grade": "CANON_CONFIRMED", "event_stage": "eldraine_ancient_realm_historical_account", "source_ids": ["tph_eldraine_2019"],
+      "source_excerpt": "Eight or nine generations ago, humans rose to power and drove the elves out of what would become the realm.",
+      "summary": "The 2019 guide says humans rose to rule the Realm and displaced elves after an earlier elven era.",
+      "limitation": "The eight-or-nine-generation span is relative to the 2019 guide's in-world narration, not an established AR calendar date or a claim that all elves left Eldraine."
+    },
+    {
+      "id": "TPH003", "subject": "ikoria", "predicate": "has_sanctuary", "object": "drannith",
+      "grade": "CANON_CONFIRMED", "event_stage": "ikoria_2020_sanctuary_profile", "source_ids": ["tph_ikoria_2020"],
+      "source_excerpt": "Drannith is the largest human sanctuary on the plane",
+      "summary": "Vivien's 2020 Ikoria guide describes Drannith as its largest human sanctuary.",
+      "limitation": "The guide records a 2020 travel-era description; it is not proof of Drannith's survival or size after later invasions."
+    },
+    {
+      "id": "TPH004", "subject": "ikoria", "predicate": "has_sanctuary", "object": "skysail",
+      "grade": "CANON_CONFIRMED", "event_stage": "ikoria_2020_sanctuary_profile", "source_ids": ["tph_ikoria_2020"],
+      "source_excerpt": "Skysail is a \"city\" in the sky made of dozens of balloon-driven airships.",
+      "summary": "Skysail is an airborne Ikorian human sanctuary formed from connected balloon-driven airships.",
+      "limitation": "A dated description of a mobile sanctuary, not a fixed-coordinate location or proof of its later condition."
+    },
+    {
+      "id": "TPH005", "subject": "new_capenna", "predicate": "sheltered_people_in", "object": "new_capenna_city",
+      "grade": "CANON_CONFIRMED", "event_stage": "old_capenna_refuge_city_foundation", "source_ids": ["tph_capenna_2022"],
+      "source_excerpt": "This place would hold the plane: this fortress became a city, a city the people called New Capenna.",
+      "summary": "The towering city of New Capenna was created as refuge during a devastating war against Old Capenna.",
+      "limitation": "This is the city's founding story within the plane's history, not proof that the city geographically encompasses every part of the plane."
+    },
+    {
+      "id": "TPH006", "subject": "new_capenna", "predicate": "historically_defended_by", "object": "capenna_archangels",
+      "grade": "CANON_CONFIRMED", "event_stage": "old_capenna_archangel_defense", "source_ids": ["tph_capenna_2022"],
+      "source_excerpt": "It was only through the intervention of Old Capenna's archangels and their hosts that the plane's mortal defenders stood a chance.",
+      "summary": "Old Capenna's archangels helped mortal defenders resist the invasion before the city was founded.",
+      "limitation": "A pre-city historical role; the angels' later fate and political status are not inferred from this earlier defense."
+    },
+    {
+      "id": "TPH007", "subject": "new_capenna", "predicate": "historically_attacked_by", "object": "old_capenna_unnamed_invaders",
+      "grade": "CANON_CONFIRMED", "event_stage": "old_capenna_cataclysm", "source_ids": ["tph_capenna_2022"],
+      "source_excerpt": "Old Capenna, is gone, lost in a cataclysmic war against a forgotten enemy",
+      "summary": "Old Capenna endured a destructive invasion by an enemy the 2022 overview deliberately leaves unnamed.",
+      "limitation": "The source calls the enemy forgotten; this claim does NOT identify it as Phyrexia or settle later historical interpretations."
+    },
+    {
+      "id": "TPH008", "subject": "argentum", "predicate": "created_by", "object": "karn",
+      "grade": "CANON_CONFIRMED", "event_stage": "argentum_creation", "source_ids": ["tph_phyrexia_overview"],
+      "source_excerpt": "Mirrodin, originally known as Argentum, was created by the Planeswalker Karn.",
+      "summary": "Karn created the metallic world originally called Argentum, later called Mirrodin.",
+      "limitation": "This is the historical plane creation, not a statement about Karn's control or the plane's current name after later events."
+    },
+    {
+      "id": "TPH009", "subject": "argentum", "predicate": "was_guarded_by", "object": "memnarch",
+      "grade": "CANON_CONFIRMED", "event_stage": "argentum_memnarch_warden", "source_ids": ["tph_memnarch_2016"],
+      "source_excerpt": "Karn left him to watch over the metallic plane of Argentum",
+      "summary": "Karn's creation Memnarch was assigned to watch over the plane when it was called Argentum.",
+      "limitation": "The claim concerns his original caretaker role, not his later corruption or continuing guardianship."
+    },
+    {
+      "id": "TPH010", "subject": "argentum", "predicate": "was_infected_by", "object": "phyrexian_oil",
+      "grade": "CANON_CONFIRMED", "event_stage": "argentum_corruption", "source_ids": ["tph_multiverse_2008", "tph_phyrexia_overview"],
+      "source_excerpt": "The contagion also infected the plane, destabilizing its interior core of pure mana",
+      "summary": "A contagion introduced to Argentum spread into the plane itself, changing its inner core.",
+      "limitation": "The 2008 overview describes the early metal-world era; later Phyrexian transformation and the source's historical naming are separate questions."
+    },
+    {
+      "id": "TPH011", "subject": "argentum", "predicate": "was_renamed_to", "object": "mirrodin",
+      "grade": "CANON_CONFIRMED", "event_stage": "argentum_memnarch_renaming", "source_ids": ["tph_memnarch_2016"],
+      "source_excerpt": "He renamed the plane Mirrodin",
+      "summary": "Memnarch renamed Argentum to Mirrodin; this is an earlier naming transition, not its complete later name history.",
+      "limitation": "The source describes a past renaming by Memnarch. The plane later bore the name New Phyrexia, so this is not its current canonical name."
+    }
+  ],
+  "remaining": [
+    "Other thin planes still need independent official histories, not synthetic filler claims.",
+    "Do not combine Realm-only social structure with all of Eldraine or treat in-world narrator dates as AR chronology.",
+    "Do not name the forgotten Old Capenna invaders from outside this official historical account.",
+    "Do not infer current Ikoria settlement status, present-day Capenna politics or post-March of the Machine Phyrexian control.",
+    "No lore decks, owner approval or full foundation certification follows."
+  ]
+}

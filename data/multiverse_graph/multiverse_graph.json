@@ -7,7 +7,7 @@
   "HYPOTHETICAL": "Creative or deckbuilding connection; never canon.",
   "OPEN_QUESTION": "Primary sources leave the matter unresolved; do not assert either way."
  },
- "content_sha256": "34c44cf3dc0e92846d24c342aea438184928abf35e689ec31b7fbd5cbbbcb556",
+ "content_sha256": "f985c720c024558d1e19e1f699509ff725203cae58d1a7543ca7b407ce13b6be",
  "edges": [
   {
    "artists": [
@@ -28803,6 +28803,139 @@
    "to": "plane:zendikar"
   },
   {
+   "claim": "TPH001",
+   "era": "eldraine_2019_realm_structure",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "plane:eldraine",
+   "grade": "CANON_CONFIRMED",
+   "relation": "has_royal_courts",
+   "sources": [
+    "tph_eldraine_2019"
+   ],
+   "to": "concept:eldraine_royal_courts"
+  },
+  {
+   "claim": "TPH002",
+   "era": "eldraine_ancient_realm_historical_account",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "plane:eldraine",
+   "grade": "CANON_CONFIRMED",
+   "relation": "historically_underwent",
+   "sources": [
+    "tph_eldraine_2019"
+   ],
+   "to": "event:eldraine_human_ascendance"
+  },
+  {
+   "claim": "TPH003",
+   "era": "ikoria_2020_sanctuary_profile",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "plane:ikoria",
+   "grade": "CANON_CONFIRMED",
+   "relation": "has_sanctuary",
+   "sources": [
+    "tph_ikoria_2020"
+   ],
+   "to": "place:drannith"
+  },
+  {
+   "claim": "TPH004",
+   "era": "ikoria_2020_sanctuary_profile",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "plane:ikoria",
+   "grade": "CANON_CONFIRMED",
+   "relation": "has_sanctuary",
+   "sources": [
+    "tph_ikoria_2020"
+   ],
+   "to": "place:skysail"
+  },
+  {
+   "claim": "TPH005",
+   "era": "old_capenna_refuge_city_foundation",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "plane:new_capenna",
+   "grade": "CANON_CONFIRMED",
+   "relation": "sheltered_people_in",
+   "sources": [
+    "tph_capenna_2022"
+   ],
+   "to": "place:new_capenna_city"
+  },
+  {
+   "claim": "TPH006",
+   "era": "old_capenna_archangel_defense",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "plane:new_capenna",
+   "grade": "CANON_CONFIRMED",
+   "relation": "historically_defended_by",
+   "sources": [
+    "tph_capenna_2022"
+   ],
+   "to": "faction:capenna_archangels"
+  },
+  {
+   "claim": "TPH007",
+   "era": "old_capenna_cataclysm",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "plane:new_capenna",
+   "grade": "CANON_CONFIRMED",
+   "relation": "historically_attacked_by",
+   "sources": [
+    "tph_capenna_2022"
+   ],
+   "to": "faction:old_capenna_unnamed_invaders"
+  },
+  {
+   "claim": "TPH008",
+   "era": "argentum_creation",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "plane:argentum",
+   "grade": "CANON_CONFIRMED",
+   "relation": "created_by",
+   "sources": [
+    "tph_phyrexia_overview"
+   ],
+   "to": "character:karn"
+  },
+  {
+   "claim": "TPH009",
+   "era": "argentum_memnarch_warden",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "plane:argentum",
+   "grade": "CANON_CONFIRMED",
+   "relation": "was_guarded_by",
+   "sources": [
+    "tph_memnarch_2016"
+   ],
+   "to": "character:memnarch"
+  },
+  {
+   "claim": "TPH010",
+   "era": "argentum_corruption",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "plane:argentum",
+   "grade": "CANON_CONFIRMED",
+   "relation": "was_infected_by",
+   "sources": [
+    "tph_multiverse_2008",
+    "tph_phyrexia_overview"
+   ],
+   "to": "concept:phyrexian_oil"
+  },
+  {
+   "claim": "TPH011",
+   "era": "argentum_memnarch_renaming",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "plane:argentum",
+   "grade": "CANON_CONFIRMED",
+   "relation": "was_renamed_to",
+   "sources": [
+    "tph_memnarch_2016"
+   ],
+   "to": "plane:mirrodin"
+  },
+  {
    "claim": "TS001",
    "era": "theros_ths_2013",
    "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
@@ -48296,6 +48429,138 @@
    "to": "character:ob_nixilis"
   },
   {
+   "from": "claim:TPH001",
+   "relation": "asserts",
+   "role": "object",
+   "to": "concept:eldraine_royal_courts"
+  },
+  {
+   "from": "claim:TPH001",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "plane:eldraine"
+  },
+  {
+   "from": "claim:TPH002",
+   "relation": "asserts",
+   "role": "object",
+   "to": "event:eldraine_human_ascendance"
+  },
+  {
+   "from": "claim:TPH002",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "plane:eldraine"
+  },
+  {
+   "from": "claim:TPH003",
+   "relation": "asserts",
+   "role": "object",
+   "to": "place:drannith"
+  },
+  {
+   "from": "claim:TPH003",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "plane:ikoria"
+  },
+  {
+   "from": "claim:TPH004",
+   "relation": "asserts",
+   "role": "object",
+   "to": "place:skysail"
+  },
+  {
+   "from": "claim:TPH004",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "plane:ikoria"
+  },
+  {
+   "from": "claim:TPH005",
+   "relation": "asserts",
+   "role": "object",
+   "to": "place:new_capenna_city"
+  },
+  {
+   "from": "claim:TPH005",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "plane:new_capenna"
+  },
+  {
+   "from": "claim:TPH006",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:capenna_archangels"
+  },
+  {
+   "from": "claim:TPH006",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "plane:new_capenna"
+  },
+  {
+   "from": "claim:TPH007",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:old_capenna_unnamed_invaders"
+  },
+  {
+   "from": "claim:TPH007",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "plane:new_capenna"
+  },
+  {
+   "from": "claim:TPH008",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:karn"
+  },
+  {
+   "from": "claim:TPH008",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "plane:argentum"
+  },
+  {
+   "from": "claim:TPH009",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:memnarch"
+  },
+  {
+   "from": "claim:TPH009",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "plane:argentum"
+  },
+  {
+   "from": "claim:TPH010",
+   "relation": "asserts",
+   "role": "object",
+   "to": "concept:phyrexian_oil"
+  },
+  {
+   "from": "claim:TPH010",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "plane:argentum"
+  },
+  {
+   "from": "claim:TPH011",
+   "relation": "asserts",
+   "role": "object",
+   "to": "plane:mirrodin"
+  },
+  {
+   "from": "claim:TPH011",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "plane:argentum"
+  },
+  {
    "from": "claim:TS001",
    "relation": "asserts",
    "role": "object",
@@ -62675,6 +62940,66 @@
    "to": "claim:TS036"
   },
   {
+   "from": "source:tph_capenna_2022",
+   "relation": "cited_by",
+   "to": "claim:TPH005"
+  },
+  {
+   "from": "source:tph_capenna_2022",
+   "relation": "cited_by",
+   "to": "claim:TPH006"
+  },
+  {
+   "from": "source:tph_capenna_2022",
+   "relation": "cited_by",
+   "to": "claim:TPH007"
+  },
+  {
+   "from": "source:tph_eldraine_2019",
+   "relation": "cited_by",
+   "to": "claim:TPH001"
+  },
+  {
+   "from": "source:tph_eldraine_2019",
+   "relation": "cited_by",
+   "to": "claim:TPH002"
+  },
+  {
+   "from": "source:tph_ikoria_2020",
+   "relation": "cited_by",
+   "to": "claim:TPH003"
+  },
+  {
+   "from": "source:tph_ikoria_2020",
+   "relation": "cited_by",
+   "to": "claim:TPH004"
+  },
+  {
+   "from": "source:tph_memnarch_2016",
+   "relation": "cited_by",
+   "to": "claim:TPH009"
+  },
+  {
+   "from": "source:tph_memnarch_2016",
+   "relation": "cited_by",
+   "to": "claim:TPH011"
+  },
+  {
+   "from": "source:tph_multiverse_2008",
+   "relation": "cited_by",
+   "to": "claim:TPH010"
+  },
+  {
+   "from": "source:tph_phyrexia_overview",
+   "relation": "cited_by",
+   "to": "claim:TPH008"
+  },
+  {
+   "from": "source:tph_phyrexia_overview",
+   "relation": "cited_by",
+   "to": "claim:TPH010"
+  },
+  {
    "from": "source:ub_ajani",
    "relation": "cited_by",
    "to": "claim:UB001"
@@ -64261,6 +64586,13 @@
     "file": "data/lore_research/pack_p5_isolated_entity_history_2026-10-31.json",
     "sha256": "ce3e068a61ed0f5a6c4b9a503324847f90e1fce7bb0aa6ef77f0f49417c48f1d",
     "sources": 4
+   },
+   {
+    "claims": 11,
+    "entities": 15,
+    "file": "data/lore_research/pack_p5_thin_plane_history_2026-10-31.json",
+    "sha256": "5bf85c8bba84cf470891440bf5e3ff6eed5b9271878e00e7175b5d5b7f01ced1",
+    "sources": 6
    }
   ],
   "deck_evidence": [
@@ -82777,6 +83109,7 @@
     "pack_p5_dominaria_united_2026-10-30.json",
     "pack_p5_mom_aftermath_2026-10-30.json",
     "pack_p5_new_phyrexia_historical_profile_2026-10-30.json",
+    "pack_p5_thin_plane_history_2026-10-31.json",
     "pack_p5_untagged_nph_guides_2026-10-30.json",
     "pack_p5_untagged_planes_2026-10-30.json",
     "pack_p5_untagged_worldsoul_multiverse_2026-10-30.json"
@@ -83453,6 +83786,7 @@
    "name": "Memnarch",
    "origins": [
     "pack_p5_new_phyrexia_historical_profile_2026-10-30.json",
+    "pack_p5_thin_plane_history_2026-10-31.json",
     "pack_p5_untagged_planes_2026-10-30.json",
     "pack_p5_untagged_worldsoul_multiverse_2026-10-30.json"
    ],
@@ -96494,6 +96828,138 @@
    "type": "Claim"
   },
   {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:TPH001",
+   "limitation": "The guide describes the human Realm within Eldraine; it does not claim those courts governed the Wilds or later held unchanged power.",
+   "name": "Eldraine's Realm is organized around five named royal courts, distinct from a claim about every region of the plane.",
+   "origins": [
+    "pack_p5_thin_plane_history_2026-10-31.json"
+   ],
+   "predicate": "has_royal_courts",
+   "stage": "eldraine_2019_realm_structure",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:TPH002",
+   "limitation": "The eight-or-nine-generation span is relative to the 2019 guide's in-world narration, not an established AR calendar date or a claim that all elves left Eldraine.",
+   "name": "The 2019 guide says humans rose to rule the Realm and displaced elves after an earlier elven era.",
+   "origins": [
+    "pack_p5_thin_plane_history_2026-10-31.json"
+   ],
+   "predicate": "historically_underwent",
+   "stage": "eldraine_ancient_realm_historical_account",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:TPH003",
+   "limitation": "The guide records a 2020 travel-era description; it is not proof of Drannith's survival or size after later invasions.",
+   "name": "Vivien's 2020 Ikoria guide describes Drannith as its largest human sanctuary.",
+   "origins": [
+    "pack_p5_thin_plane_history_2026-10-31.json"
+   ],
+   "predicate": "has_sanctuary",
+   "stage": "ikoria_2020_sanctuary_profile",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:TPH004",
+   "limitation": "A dated description of a mobile sanctuary, not a fixed-coordinate location or proof of its later condition.",
+   "name": "Skysail is an airborne Ikorian human sanctuary formed from connected balloon-driven airships.",
+   "origins": [
+    "pack_p5_thin_plane_history_2026-10-31.json"
+   ],
+   "predicate": "has_sanctuary",
+   "stage": "ikoria_2020_sanctuary_profile",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:TPH005",
+   "limitation": "This is the city's founding story within the plane's history, not proof that the city geographically encompasses every part of the plane.",
+   "name": "The towering city of New Capenna was created as refuge during a devastating war against Old Capenna.",
+   "origins": [
+    "pack_p5_thin_plane_history_2026-10-31.json"
+   ],
+   "predicate": "sheltered_people_in",
+   "stage": "old_capenna_refuge_city_foundation",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:TPH006",
+   "limitation": "A pre-city historical role; the angels' later fate and political status are not inferred from this earlier defense.",
+   "name": "Old Capenna's archangels helped mortal defenders resist the invasion before the city was founded.",
+   "origins": [
+    "pack_p5_thin_plane_history_2026-10-31.json"
+   ],
+   "predicate": "historically_defended_by",
+   "stage": "old_capenna_archangel_defense",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:TPH007",
+   "limitation": "The source calls the enemy forgotten; this claim does NOT identify it as Phyrexia or settle later historical interpretations.",
+   "name": "Old Capenna endured a destructive invasion by an enemy the 2022 overview deliberately leaves unnamed.",
+   "origins": [
+    "pack_p5_thin_plane_history_2026-10-31.json"
+   ],
+   "predicate": "historically_attacked_by",
+   "stage": "old_capenna_cataclysm",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:TPH008",
+   "limitation": "This is the historical plane creation, not a statement about Karn's control or the plane's current name after later events.",
+   "name": "Karn created the metallic world originally called Argentum, later called Mirrodin.",
+   "origins": [
+    "pack_p5_thin_plane_history_2026-10-31.json"
+   ],
+   "predicate": "created_by",
+   "stage": "argentum_creation",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:TPH009",
+   "limitation": "The claim concerns his original caretaker role, not his later corruption or continuing guardianship.",
+   "name": "Karn's creation Memnarch was assigned to watch over the plane when it was called Argentum.",
+   "origins": [
+    "pack_p5_thin_plane_history_2026-10-31.json"
+   ],
+   "predicate": "was_guarded_by",
+   "stage": "argentum_memnarch_warden",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:TPH010",
+   "limitation": "The 2008 overview describes the early metal-world era; later Phyrexian transformation and the source's historical naming are separate questions.",
+   "name": "A contagion introduced to Argentum spread into the plane itself, changing its inner core.",
+   "origins": [
+    "pack_p5_thin_plane_history_2026-10-31.json"
+   ],
+   "predicate": "was_infected_by",
+   "stage": "argentum_corruption",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:TPH011",
+   "limitation": "The source describes a past renaming by Memnarch. The plane later bore the name New Phyrexia, so this is not its current canonical name.",
+   "name": "Memnarch renamed Argentum to Mirrodin; this is an earlier naming transition, not its complete later name history.",
+   "origins": [
+    "pack_p5_thin_plane_history_2026-10-31.json"
+   ],
+   "predicate": "was_renamed_to",
+   "stage": "argentum_memnarch_renaming",
+   "type": "Claim"
+  },
+  {
    "grade": "CANON_IMPLIED",
    "id": "claim:TS001",
    "limitation": "The guide presents this as the origin myth of Erebos; 'created' is a simplification of 'the first shadow was cast'.",
@@ -99452,6 +99918,14 @@
    "type": "Concept"
   },
   {
+   "id": "concept:eldraine_royal_courts",
+   "name": "Five royal courts of the Realm",
+   "origins": [
+    "pack_p5_thin_plane_history_2026-10-31.json"
+   ],
+   "type": "Concept"
+  },
+  {
    "id": "concept:eldrazi_titans",
    "name": "Eldrazi titans",
    "origins": [
@@ -99587,6 +100061,14 @@
    "name": "The Next Eternity (Monoist belief)",
    "origins": [
     "pack_p5_edge_of_eternities_2026-10-30.json"
+   ],
+   "type": "Concept"
+  },
+  {
+   "id": "concept:phyrexian_oil",
+   "name": "Phyrexian oil",
+   "origins": [
+    "pack_p5_thin_plane_history_2026-10-31.json"
    ],
    "type": "Concept"
   },
@@ -100827,6 +101309,14 @@
    "type": "Event"
   },
   {
+   "id": "event:eldraine_human_ascendance",
+   "name": "Human ascendance in Eldraine's Realm",
+   "origins": [
+    "pack_p5_thin_plane_history_2026-10-31.json"
+   ],
+   "type": "Event"
+  },
+  {
    "id": "event:first_phyrexian_invasion",
    "name": "First Phyrexian Invasion of Dominaria",
    "origins": [
@@ -101169,7 +101659,8 @@
    "id": "faction:capenna_archangels",
    "name": "Archangels of Old Capenna",
    "origins": [
-    "pack_p5_streets_of_new_capenna_2026-10-30.json"
+    "pack_p5_streets_of_new_capenna_2026-10-30.json",
+    "pack_p5_thin_plane_history_2026-10-31.json"
    ],
    "type": "Faction"
   },
@@ -101813,6 +102304,14 @@
    "name": "Obzedat",
    "origins": [
     "pack_p5_untagged_worldsoul_multiverse_2026-10-30.json"
+   ],
+   "type": "Faction"
+  },
+  {
+   "id": "faction:old_capenna_unnamed_invaders",
+   "name": "Unidentified invaders of Old Capenna",
+   "origins": [
+    "pack_p5_thin_plane_history_2026-10-31.json"
    ],
    "type": "Faction"
   },
@@ -102559,7 +103058,8 @@
    "id": "place:drannith",
    "name": "Drannith",
    "origins": [
-    "pack_p5_ikoria_2026-10-30.json"
+    "pack_p5_ikoria_2026-10-30.json",
+    "pack_p5_thin_plane_history_2026-10-31.json"
    ],
    "type": "Place"
   },
@@ -102962,6 +103462,14 @@
    "type": "Place"
   },
   {
+   "id": "place:new_capenna_city",
+   "name": "City of New Capenna",
+   "origins": [
+    "pack_p5_thin_plane_history_2026-10-31.json"
+   ],
+   "type": "Place"
+  },
+  {
    "id": "place:nimana",
    "name": "Nimana",
    "origins": [
@@ -103108,6 +103616,14 @@
    "name": "Shiv",
    "origins": [
     "pack_c2_return_to_dominaria_2026-10-30.json"
+   ],
+   "type": "Place"
+  },
+  {
+   "id": "place:skysail",
+   "name": "Skysail",
+   "origins": [
+    "pack_p5_thin_plane_history_2026-10-31.json"
    ],
    "type": "Place"
   },
@@ -103346,6 +103862,7 @@
    "id": "plane:argentum",
    "name": "Argentum",
    "origins": [
+    "pack_p5_thin_plane_history_2026-10-31.json",
     "pack_p5_untagged_nph_guides_2026-10-30.json"
    ],
    "type": "Plane"
@@ -103394,6 +103911,7 @@
    "name": "Eldraine",
    "origins": [
     "pack_p5_lost_caverns_of_ixalan_2026-10-30.json",
+    "pack_p5_thin_plane_history_2026-10-31.json",
     "pack_p5_throne_of_eldraine_2026-10-30.json",
     "pack_p5_wilds_of_eldraine_2026-10-30.json"
    ],
@@ -103414,7 +103932,8 @@
    "origins": [
     "pack_c4_march_of_the_machine_2026-10-30.json",
     "pack_p5_ikoria_2026-10-30.json",
-    "pack_p5_mom_side_stories_2026-10-30.json"
+    "pack_p5_mom_side_stories_2026-10-30.json",
+    "pack_p5_thin_plane_history_2026-10-31.json"
    ],
    "type": "Plane"
   },
@@ -103511,6 +104030,7 @@
     "pack_c3_assault_on_new_phyrexia_2026-10-30.json",
     "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json",
     "pack_p5_new_phyrexia_historical_profile_2026-10-30.json",
+    "pack_p5_thin_plane_history_2026-10-31.json",
     "pack_p5_untagged_nph_guides_2026-10-30.json",
     "pack_p5_untagged_planes_2026-10-30.json",
     "pack_p5_untagged_worldsoul_multiverse_2026-10-30.json"
@@ -103532,6 +104052,7 @@
     "pack_c4_march_of_the_machine_2026-10-30.json",
     "pack_p5_mom_side_stories_2026-10-30.json",
     "pack_p5_streets_of_new_capenna_2026-10-30.json",
+    "pack_p5_thin_plane_history_2026-10-31.json",
     "pack_p5_untagged_side_stories_2015_2026_2026-10-30.json"
    ],
    "type": "Plane"
@@ -118404,6 +118925,72 @@
    "url": "https://magic.wizards.com/en/news/magic-story/walls-akros-2014-02-26"
   },
   {
+   "id": "source:tph_capenna_2022",
+   "kind": "official_planeswalkers_guide",
+   "name": "Planeswalker's Guide to Streets of New Capenna",
+   "origins": [
+    "pack_p5_thin_plane_history_2026-10-31.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-streets-of-new-capenna"
+  },
+  {
+   "id": "source:tph_eldraine_2019",
+   "kind": "official_planeswalkers_guide",
+   "name": "Planeswalker's Guide to Eldraine",
+   "origins": [
+    "pack_p5_thin_plane_history_2026-10-31.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-eldraine-2019-10-31"
+  },
+  {
+   "id": "source:tph_ikoria_2020",
+   "kind": "official_planeswalkers_guide",
+   "name": "Planeswalker's Guide to Ikoria",
+   "origins": [
+    "pack_p5_thin_plane_history_2026-10-31.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-ikoria-2020-04-02"
+  },
+  {
+   "id": "source:tph_memnarch_2016",
+   "kind": "official_lore_feature",
+   "name": "From the Vault: Lore",
+   "origins": [
+    "pack_p5_thin_plane_history_2026-10-31.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/feature/vault-lore-2016-08-01"
+  },
+  {
+   "id": "source:tph_multiverse_2008",
+   "kind": "official_lore_feature",
+   "name": "The Known Multiverse",
+   "origins": [
+    "pack_p5_thin_plane_history_2026-10-31.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/feature/known-mutliverse-2008-03-19"
+  },
+  {
+   "id": "source:tph_phyrexia_overview",
+   "kind": "official_plane_profile",
+   "name": "New Phyrexia",
+   "origins": [
+    "pack_p5_thin_plane_history_2026-10-31.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/story/new-phyrexia-plane"
+  },
+  {
    "id": "source:ub_ajani",
    "kind": "official_story_episode",
    "name": "Ajani Goldmane | Planeswalker",
@@ -119334,17 +119921,17 @@
  "problems": [],
  "schema": "multiverse-claim-graph/v1",
  "stats": {
-  "claim_edges_with_era": 1254,
+  "claim_edges_with_era": 1265,
   "claim_edges_with_in_universe_date": 36,
   "claims_by_status": {
    "ALTERNATE_CONTINUITY": 2,
-   "CANON_CONFIRMED": 945,
+   "CANON_CONFIRMED": 956,
    "CANON_DISPUTED": 8,
    "CANON_IMPLIED": 253,
    "OPEN_QUESTION": 3
   },
   "curated_bridges": 126,
-  "edges": 8279,
+  "edges": 8324,
   "exact_art_printings": 560,
   "literal_objects": 14,
   "node_types": {
@@ -119353,20 +119940,20 @@
    "CardRepresentation": 560,
    "CardTheme": 1,
    "Character": 483,
-   "Claim": 1211,
-   "Concept": 176,
+   "Claim": 1222,
+   "Concept": 178,
    "DeckProposal": 3,
-   "Event": 28,
-   "Faction": 146,
+   "Event": 29,
+   "Faction": 147,
    "Literal": 14,
    "Object": 52,
-   "Place": 109,
+   "Place": 111,
    "Plane": 33,
-   "Source": 609
+   "Source": 615
   },
-  "nodes": 5186,
+  "nodes": 5209,
   "non_wizards_sources": 0,
-  "relations": 425,
-  "wizards_official_sources": 609
+  "relations": 434,
+  "wizards_official_sources": 615
  }
 }

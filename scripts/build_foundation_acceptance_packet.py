@@ -36,7 +36,7 @@ INPUTS = {
 # representative *sample*, not a claim of open-domain Q&A completeness.
 QA_CASES = [
     ('plane_alara', 'What is the history of Alara?', 'ask->plane_history', 'QUALIFIED'),
-    ('plane_new_capenna', 'What is the history of New Capenna?', 'ask->plane_history', 'QUALIFIED'),
+    ('plane_new_capenna', 'What is the historical background of New Capenna?', 'ask->plane_history', 'QUALIFIED'),
     ('character_bolas', 'What is the lore of Nicol Bolas?', 'ask->entity_history', 'QUALIFIED'),
     ('faction_gatewatch', 'What is the history of the Gatewatch?', 'ask->entity_history', 'QUALIFIED'),
     ('faction_izzet_alias', 'What is the history of the Izzet?', 'ask->entity_history', 'QUALIFIED'),
@@ -67,6 +67,10 @@ QA_CASES = [
     ('history_lyra', 'What is the history of Lyra Dawnbringer?', 'ask->entity_history', 'QUALIFIED'),
     ('history_valentin', 'What is the history of Valentin?', 'ask->entity_history', 'QUALIFIED'),
     ('history_cabaretti', 'What is the history of the Cabaretti?', 'ask->entity_history', 'QUALIFIED'),
+    ('plane_argentum', 'What is the history of Argentum?', 'ask->plane_history', 'QUALIFIED'),
+    ('plane_eldraine', 'What is the history of Eldraine?', 'ask->plane_history', 'QUALIFIED'),
+    ('plane_ikoria', 'What is the history of Ikoria?', 'ask->plane_history', 'QUALIFIED'),
+    ('plane_new_capenna', 'What is the history of New Capenna?', 'ask->plane_history', 'QUALIFIED'),
 ]
 
 
@@ -111,6 +115,8 @@ def qa_cases() -> list[dict]:
         if route.endswith('history') and (r['result']['complete_history'] or
                                          r['result']['verified_total_chronology']):
             raise ValueError('History route claims unsupported completeness')
+        if key.startswith('plane_') and r['result']['direct_claims'] < 5:
+            raise ValueError(f'Thin-plane history evidence regressed for {key}')
         result = r.get('result', {})
         urls = set(r.get('sources', []))
         # The rules answer uses a separate cited-rule envelope, not `sources`.

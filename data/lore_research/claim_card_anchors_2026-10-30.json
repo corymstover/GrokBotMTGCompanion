@@ -34871,6 +34871,86 @@
    "card": "Jetmir, Nexus of Revels",
    "oracle_id": "da72a4bc-ce6f-4b72-bc66-2ee33cfa87df",
    "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TPH008",
+   "pack": "pack_p5_thin_plane_history_2026-10-31.json",
+   "participant": "karn",
+   "card": "Karn Liberated",
+   "oracle_id": "0ca233f4-1b7f-4807-ab6e-2b1f5439b3db",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TPH008",
+   "pack": "pack_p5_thin_plane_history_2026-10-31.json",
+   "participant": "karn",
+   "card": "Karn, Argent Defender",
+   "oracle_id": "aecc621f-67da-41a7-9d47-05ded302ae35",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TPH008",
+   "pack": "pack_p5_thin_plane_history_2026-10-31.json",
+   "participant": "karn",
+   "card": "Karn, Gilded Guardian",
+   "oracle_id": "20b90a18-ff62-4995-b0d6-fbef44dca357",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TPH008",
+   "pack": "pack_p5_thin_plane_history_2026-10-31.json",
+   "participant": "karn",
+   "card": "Karn, Legacy Reforged",
+   "oracle_id": "bc8802db-8c94-4eb4-817f-5f4f5408b7a4",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TPH008",
+   "pack": "pack_p5_thin_plane_history_2026-10-31.json",
+   "participant": "karn",
+   "card": "Karn, Living Legacy",
+   "oracle_id": "09ab1278-811f-4b97-bd34-7493d6e081e9",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TPH008",
+   "pack": "pack_p5_thin_plane_history_2026-10-31.json",
+   "participant": "karn",
+   "card": "Karn, Scion of Urza",
+   "oracle_id": "060209fa-4b7d-4e08-bf8b-8759bba5641b",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TPH008",
+   "pack": "pack_p5_thin_plane_history_2026-10-31.json",
+   "participant": "karn",
+   "card": "Karn, Silver Golem",
+   "oracle_id": "8a7c6391-020a-4d7a-8abb-702631bbee56",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TPH008",
+   "pack": "pack_p5_thin_plane_history_2026-10-31.json",
+   "participant": "karn",
+   "card": "Karn, the Great Creator",
+   "oracle_id": "a20dd48d-d344-4db1-b0e9-a2b71c3cc9d1",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TPH009",
+   "pack": "pack_p5_thin_plane_history_2026-10-31.json",
+   "participant": "memnarch",
+   "card": "Memnarch",
+   "oracle_id": "52d8e70b-7e94-4e17-811f-70afe39ff9bd",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TPH009",
+   "pack": "pack_p5_thin_plane_history_2026-10-31.json",
+   "participant": "memnarch",
+   "card": "Memnarch, the Warden",
+   "oracle_id": "f2630b02-fb48-4167-8a47-8284f7d4c484",
+   "tier": "NAMED_PARTICIPANT"
   }
  ],
  "by_pack": {
@@ -35245,6 +35325,13 @@
    "PRINTED_IN_STORY_SET": 28,
    "NAMED_PARTICIPANT": 52
   },
+  "pack_p5_thin_plane_history_2026-10-31.json": {
+   "claims": 11,
+   "claims_anchored": 2,
+   "ART_IN_CITED_SOURCE": 0,
+   "PRINTED_IN_STORY_SET": 0,
+   "NAMED_PARTICIPANT": 10
+  },
   "pack_p5_throne_of_eldraine_2026-10-30.json": {
    "claims": 11,
    "claims_anchored": 7,
@@ -35394,12 +35481,12 @@
   }
  },
  "counts": {
-  "claims": 1211,
-  "claims_anchored": 969,
-  "anchors": 4091,
+  "claims": 1222,
+  "claims_anchored": 971,
+  "anchors": 4101,
   "ART_IN_CITED_SOURCE": 123,
   "PRINTED_IN_STORY_SET": 546,
-  "NAMED_PARTICIPANT": 3422
+  "NAMED_PARTICIPANT": 3432
  },
- "content_sha256": "e211dc999a07d96113470dd6db03a328fa79cae9648ef7aaba2bbab11ca24cc7"
+ "content_sha256": "353c807890525bfb35ac7733f07bd6539f957311c18f2bd5bfb4c722b4aad03a"
 }

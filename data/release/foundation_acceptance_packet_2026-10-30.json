@@ -9,11 +9,11 @@
   "input_sha256": {
     "graph": {
       "path": "data/multiverse_graph/multiverse_graph.json",
-      "sha256": "c3fe110a82d242e70a846e46f6afb52d651aeb3e336bbab5bf75602091403a09"
+      "sha256": "5e282ddae4635994e66e722e3f44700b1c770013651f1a141e0ce1993fa1bbc4"
     },
     "plane_histories": {
       "path": "data/lore_research/plane_history_dossiers_2026-10-30.json",
-      "sha256": "22810413cc4dfd40e2a94d501df35d8d256d932faa3fbb1316d07ef6e7defc76"
+      "sha256": "684dfbdd74cfb89ad3cb6117a3d8e0895347566cbe69bb9a1bcd05a1bb91f888"
     },
     "chronology": {
       "path": "data/lore_research/relative_chronology_2026-10-30.json",
@@ -25,7 +25,7 @@
     },
     "story_coverage": {
       "path": "data/lore_research/story_coverage_inventory_2026-10-30.json",
-      "sha256": "336defd73386fff9778149a062aa850fa687ec831e67947dc53f29e49f3befcf"
+      "sha256": "c9ced2cad53c9052f11094e5f4e11a6c9e0c3ca89efd2cf1f4955fc88eeebb1b"
     },
     "genealogy_disputes": {
       "path": "data/lore_research/pack_a_genealogy_disputes_2026-10-30.json",
@@ -36,16 +36,16 @@
     "source_pages_in_inventoried_scope": 626,
     "source_pages_cited": 576,
     "source_pages_reviewed_without_claim": 50,
-    "graph_nodes": 5186,
-    "graph_edges": 8279,
-    "graph_claims": 1211,
+    "graph_nodes": 5209,
+    "graph_edges": 8324,
+    "graph_claims": 1222,
     "registered_plane_nodes": 33,
-    "thin_plane_dossiers": 16,
+    "thin_plane_dossiers": 12,
     "curated_context_plane_count": 4,
     "distinct_existing_context_claims": 53,
     "registered_character_nodes": 483,
-    "registered_faction_nodes": 146,
-    "characters_and_factions_with_direct_claims": 629,
+    "registered_faction_nodes": 147,
+    "characters_and_factions_with_direct_claims": 630,
     "characters_and_factions_without_direct_claims": 0,
     "registered_character_faction_direct_claim_gaps": []
   },
@@ -87,7 +87,7 @@
     },
     {
       "id": "plane_new_capenna",
-      "question": "What is the history of New Capenna?",
+      "question": "What is the historical background of New Capenna?",
       "route": "ask->plane_history",
       "confidence": "QUALIFIED",
       "flags": [
@@ -106,8 +106,8 @@
         "https://magic.wizards.com/en/news/magic-story/episode-5-hymn-angels-2022-04-05",
         "https://magic.wizards.com/en/news/magic-story/the-fall-of-park-heights"
       ],
-      "response_sha256": "62f5c5a42980efc223d8faf1a701f3c1ab31285fb5fa1cd3f4419c25a2cc841a",
-      "direct_claims": 2,
+      "response_sha256": "b8761c0e1b4272fd793112b7bf5661df3759f29b12614e6a7935e0b68a258494",
+      "direct_claims": 5,
       "chronology_relation": null,
       "known_limitations": [
         "Direct claims are not an exhaustive history of this plane.",
@@ -588,6 +588,113 @@
         "Publication dates and era labels cannot establish event order or present-day status.",
         "The absence of a claim does not prove an event or relationship never occurred."
       ]
+    },
+    {
+      "id": "plane_argentum",
+      "question": "What is the history of Argentum?",
+      "route": "ask->plane_history",
+      "confidence": "QUALIFIED",
+      "flags": [
+        "PARTIAL_REGISTERED_PLANE_HISTORY",
+        "NO_VERIFIED_TOTAL_CHRONOLOGY"
+      ],
+      "sources": [
+        "https://magic.wizards.com/en/news/feature/a-planeswalkers-guide-to-new-phyrexia-introduction",
+        "https://magic.wizards.com/en/news/feature/known-mutliverse-2008-03-19",
+        "https://magic.wizards.com/en/news/feature/vault-lore-2016-08-01",
+        "https://magic.wizards.com/en/story/new-phyrexia-plane"
+      ],
+      "response_sha256": "04a65423a5f947b0a25c7a4edbe7a85aeb6e59951a9298ce518b14afd3c578af",
+      "direct_claims": 5,
+      "chronology_relation": null,
+      "known_limitations": [
+        "Direct claims are not an exhaustive history of this plane.",
+        "Curated same-plane story context is not a direct claim-to-plane edge and does not prove the geography of every participant in an entire arc.",
+        "Era labels and publication dates are not a verified sequence or AR calendar year.",
+        "Absence of a cited event or person is not evidence it never occurred or appeared."
+      ]
+    },
+    {
+      "id": "plane_eldraine",
+      "question": "What is the history of Eldraine?",
+      "route": "ask->plane_history",
+      "confidence": "QUALIFIED",
+      "flags": [
+        "PARTIAL_REGISTERED_PLANE_HISTORY",
+        "NO_VERIFIED_TOTAL_CHRONOLOGY",
+        "CURATED_ON_PLANE_CONTEXT_NOT_DIRECT_GRAPH_CLAIMS",
+        "CANON_IMPLIED_PRESENT"
+      ],
+      "sources": [
+        "https://magic.wizards.com/en/news/feature/planeswalkers-guide-eldraine-2019-10-31",
+        "https://magic.wizards.com/en/news/magic-story/episode-5-broken-oaths",
+        "https://magic.wizards.com/en/news/magic-story/the-lost-caverns-of-ixalan-episode-2"
+      ],
+      "response_sha256": "7b8de867cb26372e9479aaf785d03c2c4f1727d0ae6020fed1885cb0c1f39039",
+      "direct_claims": 5,
+      "chronology_relation": null,
+      "known_limitations": [
+        "Direct claims are not an exhaustive history of this plane.",
+        "Curated same-plane story context is not a direct claim-to-plane edge and does not prove the geography of every participant in an entire arc.",
+        "Era labels and publication dates are not a verified sequence or AR calendar year.",
+        "Absence of a cited event or person is not evidence it never occurred or appeared."
+      ]
+    },
+    {
+      "id": "plane_ikoria",
+      "question": "What is the history of Ikoria?",
+      "route": "ask->plane_history",
+      "confidence": "QUALIFIED",
+      "flags": [
+        "PARTIAL_REGISTERED_PLANE_HISTORY",
+        "NO_VERIFIED_TOTAL_CHRONOLOGY",
+        "CANON_IMPLIED_PRESENT"
+      ],
+      "sources": [
+        "https://magic.wizards.com/en/news/feature/planeswalkers-guide-ikoria-2020-04-02",
+        "https://magic.wizards.com/en/news/magic-story/episode-1-triumph-of-the-fleshless",
+        "https://magic.wizards.com/en/news/magic-story/survival-of-the-fittest"
+      ],
+      "response_sha256": "be7d29f68eeb5bfaacbbc96d1dfb5c5bbcfc5b7ee4e7ae1634024c59e630365f",
+      "direct_claims": 6,
+      "chronology_relation": null,
+      "known_limitations": [
+        "Direct claims are not an exhaustive history of this plane.",
+        "Curated same-plane story context is not a direct claim-to-plane edge and does not prove the geography of every participant in an entire arc.",
+        "Era labels and publication dates are not a verified sequence or AR calendar year.",
+        "Absence of a cited event or person is not evidence it never occurred or appeared."
+      ]
+    },
+    {
+      "id": "plane_new_capenna",
+      "question": "What is the history of New Capenna?",
+      "route": "ask->plane_history",
+      "confidence": "QUALIFIED",
+      "flags": [
+        "PARTIAL_REGISTERED_PLANE_HISTORY",
+        "NO_VERIFIED_TOTAL_CHRONOLOGY",
+        "CURATED_ON_PLANE_CONTEXT_NOT_DIRECT_GRAPH_CLAIMS",
+        "CANON_IMPLIED_PRESENT"
+      ],
+      "sources": [
+        "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-streets-of-new-capenna",
+        "https://magic.wizards.com/en/news/magic-story/episode-1-homecoming-2022-03-28",
+        "https://magic.wizards.com/en/news/magic-story/episode-1-triumph-of-the-fleshless",
+        "https://magic.wizards.com/en/news/magic-story/episode-3-tests-2022-03-30",
+        "https://magic.wizards.com/en/news/magic-story/episode-4-beneath-eyes-unblinking",
+        "https://magic.wizards.com/en/news/magic-story/episode-4-font-2022-04-04",
+        "https://magic.wizards.com/en/news/magic-story/episode-5-hymn-angels-2022-04-05",
+        "https://magic.wizards.com/en/news/magic-story/the-fall-of-park-heights"
+      ],
+      "response_sha256": "fac54eb558546f489f9d65ef23e266943dac0cd25daff075524ce2e7f1a8f606",
+      "direct_claims": 5,
+      "chronology_relation": null,
+      "known_limitations": [
+        "Direct claims are not an exhaustive history of this plane.",
+        "Curated same-plane story context is not a direct claim-to-plane edge and does not prove the geography of every participant in an entire arc.",
+        "Era labels and publication dates are not a verified sequence or AR calendar year.",
+        "Absence of a cited event or person is not evidence it never occurred or appeared."
+      ]
     }
   ],
   "cross_plane_graph_navigation": [
@@ -665,5 +772,5 @@
     "python3 scripts/update_multiverse_progress_tracker.py --check"
   ],
   "owner_review_status": "PENDING_NOT_REQUESTED_UNTIL_ENGINEERING_EVIDENCE_AND_CI_COMPLETE",
-  "content_sha256": "648a179ed061759e0be0ecc971b6e5c5c7b3b2fd1f7915c3493a642b51fb89e3"
+  "content_sha256": "1c85f5d2b7fe45a37e2d5b0682bde9d3b8218d3e668696bff49926772172e2d3"
 }

@@ -1,6 +1,6 @@
 # MTG Multiverse Companion — Master Workflow & Progress Checklist
 
-**Version:** 2.64
+**Version:** 2.65
 **Checkpoint date:** 2026-10-31
 **Repository:** [corymstover/GrokBotMTGCompanion](https://github.com/corymstover/GrokBotMTGCompanion)  
 **Purpose:** Durable project roadmap and handoff document. Update this file after verified milestone work; do not treat historical figures as live counters.
@@ -22,6 +22,26 @@ foundation release may document inherently unresolved canon and future
 maintenance; it must never claim exhaustive knowledge of all MTG history.
 The 62 approved Grixis decks, their hashes and all owner gates remain intact.
 Only a new explicit request from Cory can override the Phase 6 hold.
+
+**v2.65 Phase 5 thin-plane history depth (2026-10-31):**
+Added **11** direct, source-quoted and `CANON_CONFIRMED` geographic/historical
+claims across four previously thin registered planes: **Argentum** (1→5),
+**Eldraine** (3→5), **Ikoria** (4→6), and **New Capenna** (2→5). The six
+official Wizards overview/guide sources explicitly distinguish the human
+Realm from all of Eldraine, Old Capenna's **unidentified** invaders from
+later attribution, mobile Ikorian sanctuaries from permanent fixed cities,
+and Argentum/Mirrodin's historical names from current world politics.
+There are now **12** registered plane dossiers with fewer than five direct
+claims (down from 16), but **no complete plane history is asserted**.
+Graph: **1,222 claims, 5,209 nodes, 8,324 edges**; all **630/630**
+registered people/factions have some directly cited relation, including
+one newly named historical group in Old Capenna and the already registered
+Old Capenna archangels. The foundation review
+packet now exercises **26 qualified Q&A examples**. This is bounded,
+preliminary history enrichment, not complete lore research, owner approval,
+foundation certification or permission to restart deckbuilding. The
+engineering checklist remains **83/137**. See
+`research/PHASE5_THIN_PLANE_SOURCE_PASS_2026-10-31.md`.
 
 **v2.64 Phase 5/7 registered character and faction evidence gaps (2026-10-31):**
 Five already registered nodes with no directly incident cited relation now
@@ -676,10 +696,10 @@ explicitly lifts the hold).
   - v2.60: the current tracker adds a generated four-state **14-gate foundation-release** triage from the dry-run's typed blockers. This does not pretend to classify all 137 engineering tasks or accept continuing maintenance; the broader all-item dashboard remains an open improvement.
 - [ ] Define an MTG Multiverse Companion milestone release based on verified features, not an arbitrary percentage of all lore. *(v2.42, Batch 14, [#911](https://github.com/corymstover/GrokBotMTGCompanion/pull/911): certification-checklist dry run `scripts/certification_dry_run.py` → `data/release/certification_dry_run_2026-10-30.json` / `research/CERTIFICATION_DRY_RUN_2026-10-30.md` lists the typed blockers for each release criterion and Phase 8 item (OWNER_APPROVAL 3, OWNER_DECISION 5, EXTERNAL_CI 3, MISSING_SOURCE 2, ENGINEERING_OPEN 4, ONGOING 4). It certifies nothing; accepting the definition is the owner's call.)*
   - Partial (2026-10-30): `scripts/release_readiness.py` ([PR #830](https://github.com/corymstover/GrokBotMTGCompanion/pull/830)) scores each written criterion from committed evidence. Current verdict: NOT_RELEASE_READY.
-  - v2.60: a source-graded, 12-case knowledge-only review packet was generated and CI-gated; v2.62 extended it to 15 dated set/printing/ruling cases, v2.63 to 17 with bounded New Phyrexia chronology, and **v2.64 to 22** with the five newly supported character/faction histories. The dry-run distinguishes this **completed engineering packet** from pending exact-head release CI and Cory's foundation-scope decision. No release checklist acceptance is inferred.
+  - v2.60: a source-graded, 12-case knowledge-only review packet was generated and CI-gated; v2.62 extended it to 15 dated set/printing/ruling cases, v2.63 to 17 with bounded New Phyrexia chronology, v2.64 to 22 with five character/faction histories, and **v2.65 to 26** with four newly deepened plane histories. The dry-run distinguishes this **completed engineering packet** from pending exact-head release CI and Cory's foundation-scope decision. No release checklist acceptance is inferred.
 - [ ] Treat continual future MTG releases as an ongoing maintenance track rather than a permanently finishable backlog.
 
-## Immediate execution queue — v2.64 FOUNDATION FIRST (2026-10-31)
+## Immediate execution queue — v2.65 FOUNDATION FIRST (2026-10-31)
 
 1. **Phase 4 — Verified in-universe chronology:** expand the source-quoted BEFORE/AFTER/UNKNOWN event order, resolve high-value L244 gaps where primary evidence exists, and retain unknown/disputed ordering instead of inventing total dates. Keep release chronology separate.
 2. **Phases 2/5 — Comprehensive history:** systematically deepen thin plane dossiers, major factions, characters, wars, artifacts and cross-plane consequences; record both coverage and missing primary sources. Currently thin registered planes remain a priority, not a census of all planes; regenerate the exact count from the dossier rather than treating this prose as a live counter.

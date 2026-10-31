@@ -76,7 +76,8 @@
    "data/lore_research/pack_p5_new_phyrexia_historical_profile_2026-10-30.json",
    "data/lore_research/pack_p5_bloomburrow_valley_history_2026-10-30.json",
    "data/lore_research/pack_p5_duskmourn_origin_2026-10-30.json",
-   "data/lore_research/pack_p5_isolated_entity_history_2026-10-31.json"
+   "data/lore_research/pack_p5_isolated_entity_history_2026-10-31.json",
+   "data/lore_research/pack_p5_thin_plane_history_2026-10-31.json"
   ],
   "reviewed_no_claim": "data/lore_research/reviewed_no_claim.json"
  },
@@ -90,8 +91,8 @@
   "arcs_all_cited": 31,
   "reviewed_no_claim_pages": 50,
   "arcs_all_cited_or_reviewed": 33,
-  "claims": 1211,
-  "pack_urls_outside_inventory": 13
+  "claims": 1222,
+  "pack_urls_outside_inventory": 14
  },
  "claims_per_pack": {
   "pack_a_ugin_bolas_evidence_2026-10-30.json": 12,
@@ -167,7 +168,8 @@
   "pack_p5_new_phyrexia_historical_profile_2026-10-30.json": 8,
   "pack_p5_bloomburrow_valley_history_2026-10-30.json": 13,
   "pack_p5_duskmourn_origin_2026-10-30.json": 12,
-  "pack_p5_isolated_entity_history_2026-10-31.json": 5
+  "pack_p5_isolated_entity_history_2026-10-31.json": 5,
+  "pack_p5_thin_plane_history_2026-10-31.json": 11
  },
  "arcs": [
   {
@@ -339,6 +341,7 @@
    },
    "citing_packs": [
     "pack_p5_isolated_entity_history_2026-10-31.json",
+    "pack_p5_thin_plane_history_2026-10-31.json",
     "pack_p5_throne_of_eldraine_2026-10-30.json"
    ],
    "status": "ALL_PAGES_CITED",
@@ -373,7 +376,8 @@
     "planeswalkers-guide": 1
    },
    "citing_packs": [
-    "pack_p5_ikoria_2026-10-30.json"
+    "pack_p5_ikoria_2026-10-30.json",
+    "pack_p5_thin_plane_history_2026-10-31.json"
    ],
    "status": "PARTIAL",
    "uncited_urls": [
@@ -589,7 +593,8 @@
    "citing_packs": [
     "pack_p5_isolated_entity_history_2026-10-31.json",
     "pack_p5_snc_side_stories_2026-10-30.json",
-    "pack_p5_streets_of_new_capenna_2026-10-30.json"
+    "pack_p5_streets_of_new_capenna_2026-10-30.json",
+    "pack_p5_thin_plane_history_2026-10-31.json"
    ],
    "status": "ALL_PAGES_CITED",
    "uncited_urls": [],
@@ -755,6 +760,7 @@
     "pack_p5_alara_plane_profile_2026-10-30.json",
     "pack_p5_kamigawa_history_profile_2026-10-30.json",
     "pack_p5_new_phyrexia_historical_profile_2026-10-30.json",
+    "pack_p5_thin_plane_history_2026-10-31.json",
     "pack_p5_untagged_bios_2026-10-30.json",
     "pack_p5_untagged_conspiracy_2016_2026-10-30.json",
     "pack_p5_untagged_grn_rna_2026-10-30.json",
@@ -830,5 +836,5 @@
    "unreviewed_urls": []
   }
  ],
- "sha256": "339267db387e9c792ba8f04b08f144468727ad39c9c89b87a6d3a0c220d8e64b"
+ "sha256": "bab0b2e7b7a1f8944d3bb3fac7c3ed0eb313a4dc31a74a8be7ca508d0a088889"
 }
