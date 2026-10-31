@@ -7,7 +7,7 @@ This source-graded packet is reproducible from the repository, with exact input 
 ## Inventory and supported lookups
 
 - 576 official source pages cited and 50 reviewed without a claim within the inventoried 626-page scope. Citation does not mean exhaustive reading.
-- 1259 source-graded graph claims across 5290 nodes; 33 registered planes, 0 still thin.
+- 1259 source-graded graph claims across 5297 nodes; 33 registered planes, 0 still thin.
 - 484 registered characters and 156 factions; 640 with direct cited claims, 0 without.
 - 53 previously researched on-plane contextual claims in 4 dossiers, strictly distinct from new/direct graph claims.
 
@@ -92,6 +92,6 @@ python3 scripts/certification_dry_run.py --check
 python3 scripts/update_multiverse_progress_tracker.py --check
 ```
 
-Packet SHA-256 (canonical JSON): `6c59a8b7e545333bcefb3b29141de3428e62526c094121cd8f63943e7e2e148a`
+Packet SHA-256 (canonical JSON): `ef0c62e5e6a13ab4da58afacb454a678e13013e03e4682f18a32de1014fcbc96`
 
 **No decks were built, modified, reviewed or approved.**

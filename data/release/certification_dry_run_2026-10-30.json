@@ -129,10 +129,10 @@
      ]
     },
     {
-     "kind": "OWNER_DECISION",
-     "what": "Cory reviews the actual knowledge-foundation scope and limitations after the engineering/CI evidence is complete. An owner-reviewed deck is NOT required.",
+     "kind": "OWNER_CONDITIONAL",
+     "what": "Cory has explicitly authorized automatic foundation-only acceptance once the documented engineering and exact-head CI gates genuinely pass. The authorization is recorded but not effective while those conditions are unmet; no second approval request is needed. An owner-reviewed deck is NOT required.",
      "evidence": [
-      "MTG_MULTIVERSE_MASTER_WORKFLOW.md"
+      "data/release/owner_conditional_foundation_acceptance_2026-10-31.json"
      ]
     }
    ],
@@ -233,17 +233,8 @@
   },
   {
    "item": "Update snapshot manifests with actual download bytes and stable hashes.",
-   "workflow_checked": false,
-   "blockers": [
-    {
-     "kind": "MISSING_SOURCE",
-     "what": "The 2026-10-28 data/printing_lore/manifest.json baseline has a hash but no byte count; L151's original file is unavailable.",
-     "evidence": [
-      "data/printing_lore/manifest.json",
-      "scripts/audit_snapshot_manifests.py"
-     ]
-    }
-   ],
+   "workflow_checked": true,
+   "blockers": [],
    "blocked_by_owner": false,
    "bot_can_still_act": false
   },
@@ -304,10 +295,11 @@
  "blocker_tally": {
   "ENGINEERING_OPEN": 2,
   "EXTERNAL_CI": 4,
-  "MISSING_SOURCE": 2,
+  "MISSING_SOURCE": 1,
   "ONGOING": 5,
   "OWNER_APPROVAL": 2,
-  "OWNER_DECISION": 6
+  "OWNER_CONDITIONAL": 1,
+  "OWNER_DECISION": 5
  },
  "items_blocked_only_by_owner_or_ci": [
   "priority_enrichment",

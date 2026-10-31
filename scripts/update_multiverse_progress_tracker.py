@@ -100,7 +100,7 @@ they are not the active Phase 1–8 completion counters.
 | Exact printing-specific representations | **{graph.get('exact_art_printings', 0)}** | Frozen snapshot + official art-file label evidence, **not** canon scene depiction. |
 | In-universe dated claim edges | **{graph['claim_edges_with_in_universe_date']}** | Most graph edges lack a verified in-world date. |
 | Parked graph-built Commander pilots | **3 unapproved** | Preserved, not a knowledge-foundation release gate. |
-| Foundation-release readiness | **{readiness}** | Research, owner foundation review, external checks and engineering remain. |
+| Foundation-release readiness | **{readiness}** | Research, exact-release CI and engineering remain; Cory's conditional acceptance is recorded but not yet effective. |
 | Official source watch | **Weekly review-only workflow** | Story index, Scryfall metadata and rules PDF candidates; not automatic lore/rules updates. |
 
 **First-release and Phase 8 gate triage (14 gates, separate from the 137-item engineering checklist):**
@@ -115,8 +115,8 @@ source or remaining engineering work. The complete typed evidence is in
 
 **Priority next steps:** verify current-era Q&A answers; close only evidence-backed graph
 identity and chronology gaps; expand comprehensive plane, character, faction and cross-plane
-history; harden rules and difficult Q&A; restore the exact pinned Scryfall bulk only when
-required for source-level atlas replay; pursue foundation-only certification. **Phase 6
+history; harden rules and difficult Q&A; preserve the newly recovered hash-verified October
+historical Scryfall replay and retest release-time data freshness; pursue foundation-only certification. **Phase 6
 deckbuilding and its three unapproved pilots are deferred until the knowledge foundation
 is certified.** Do not modify any of the 62 finalized Grixis decks.
 {END}"""

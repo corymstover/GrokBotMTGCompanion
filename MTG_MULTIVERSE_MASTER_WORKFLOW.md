@@ -1,6 +1,6 @@
 # MTG Multiverse Companion — Master Workflow & Progress Checklist
 
-**Version:** 2.71
+**Version:** 2.72
 **Checkpoint date:** 2026-10-31
 **Repository:** [corymstover/GrokBotMTGCompanion](https://github.com/corymstover/GrokBotMTGCompanion)  
 **Purpose:** Durable project roadmap and handoff document. Update this file after verified milestone work; do not treat historical figures as live counters.
@@ -22,6 +22,36 @@ foundation release may document inherently unresolved canon and future
 maintenance; it must never claim exhaustive knowledge of all MTG history.
 The 62 approved Grixis decks, their hashes and all owner gates remain intact.
 Only a new explicit request from Cory can override the Phase 6 hold.
+
+**v2.72 pinned historical Scryfall recovery and printing/art replay (2026-10-31):**
+The **exact** previously unavailable `default-cards-20261028090549.jsonl.gz`
+source was recovered from its dated Scryfall URL and independently matched its
+recorded SHA-256 `c7c6d738…1e2` (**80,216,061 compressed bytes**). Rebuilding
+`printing_lore.sqlite3`, all **105 printing shards** and the full export manifest
+from that original source produced **byte-for-byte identical** committed files:
+**119,509 printing IDs, 1,062 set codes and 107,700 English-paper printings**.
+The original Grixis October 15–16 Oracle, Default Cards and Rulings files were
+also recovered and each matched the existing `snap-20261016` lock; the lock and
+all 62 approved decks are unchanged. The separate October 29 Companion Oracle,
+Default Cards and Rulings archive passed its full three-file size, SHA-256 and
+JSONL record-count verification. Replay against its exact Default Cards bulk
+independently matched metadata for **570 officially labeled story-art printings,
+six previously visually reviewed art pairs and 20 recorded same-illustration
+printings**; seven unresolved story image labels remain unresolved. It did not
+repeat any human visual comparisons or infer new event scenes. A missing-source
+fallback previously concealed stale derived evidence: rebuilding added seven
+claim-card pairs and updated Alara shard/plane card-name anchors, then rebuilt
+the cited graph. `scripts/replay_pinned_scryfall.py` generates the reproducible
+evidence at `data/scryfall_snapshots/historical_bulk_replay_2026-10-31.json`,
+and its portable check preserves immutable sources without committing bulk
+files. The source-recovery, historical index audit and snapshot-byte metadata
+boxes are now mechanically complete: **86/137 checked**, with **51 still open**
+across all phases (including deliberately deferred Phase 6). The foundation is
+**NOT_RELEASE_READY** because cited historical coverage, qualified release
+gates, rule freshness, independent release CI and remaining research all still
+require work. Cory's October 31 automatic foundation-only acceptance is
+recorded as **conditional, not yet effective**; no second approval prompt is
+needed once the actual gates pass. Phase 6 remains parked.
 
 **v2.71 Phase 4 source-corroborated cross-ledger chronology bridges (2026-10-31):**
 Seven explicit `SAME_EVENT` identity links now join the formerly isolated
@@ -656,7 +686,7 @@ Infrastructure checkpoint: [PR #783](https://github.com/corymstover/GrokBotMTGCo
 - [x] Reproducible `set_type` category totals, all-code dated catalog, and explicit treatment of future-dated printing records.
 - [x] First source-backed, bidirectional set/card lookup CLI; Alpha and Black Lotus spot checks, date-gated Star Trek example, and six portable unit tests.
 - [x] Verify all 105 **committed** historical shard file hashes, sizes, row counts, printing-ID uniqueness and set joins; reconstruct stable card/set lookup indexes.
-- [ ] Independently reconcile individual printing IDs against the **unavailable original October 28 bulk**; do not call that source verified until recovered.
+- [x] Independently reconcile individual printing IDs against the **original October 28 bulk**. *(v2.72: exact SHA-matched file recovered; SQLite and all 105 committed historical printings shards plus export manifest rebuilt byte-identically. See `data/scryfall_snapshots/historical_bulk_replay_2026-10-31.json`.)*
 - [x] Import and freeze Scryfall Set API `released_at`, `digital`, `set_type` and **560 explicit `parent_set_code` links** for all 1,062 printing-atlas codes; validate against the independent October 29 printing catalog.
 - [x] Review a bounded 2023–October 2026 official-main-release sample (21 verified), plus nine reviewed exceptions/upcoming/special products, with direct Wizards citations and tests.
 - [x] Review all 38 early 1993–2002 Scryfall non-digital expansion/core codes against Wizards' historical booster/core enumerations; certify 35 regular releases, directly document Summer Magic's rejected print run, and flag 2 localized editions as provisional.
@@ -698,7 +728,7 @@ Infrastructure checkpoint: [PR #783](https://github.com/corymstover/GrokBotMTGCo
 
 **Deliverables and verification gates:**
 
-- [ ] Audit the existing printing index and per-set shards against the archived Default Cards snapshot; document missing categories, duplicates, and stable joins. *(v2.40, Batch 12, [#900](https://github.com/corymstover/GrokBotMTGCompanion/pull/900), `data/set_atlas/phase1b_snapshot_gates_2026-10-30.json`: QUALIFIED (exact field parity does not hold, so the box stays unchecked): all **119,509** Oct 28 historical IDs are present in the SHA-matched Oct 29 bulk (0 missing, 0 duplicates); 192 IDs are new (trc 121, trk 43, sds 25, pf26 2, pw26 1); shared-ID drift is 342 `prm` release dates and 6 `trk` paper flags, all listed. This replaces the "exact ID equality unproven" limitation with a measured result. Mechanical verification, not owner approval.)*
+- [x] Audit the existing printing index and per-set shards against the archived Default Cards snapshot; document missing categories, duplicates, and stable joins. *(v2.72: the exact original Oct 28 source now reproduces all 105 archived shards byte-for-byte, with 119,509 distinct printing IDs and no missing/mismatched source records. The independent Oct 29-to-Oct 28 comparison still documents 192 new IDs, 342 `prm` release-date changes and six `trk` paper-flag changes as **real cross-snapshot differences**, not errors or fabricated field equality. See the historical replay and `data/set_atlas/phase1b_snapshot_gates_2026-10-30.json`. Atlas product and release-date qualifications remain.)*
 - [x] Establish a normalized set catalog: canonical name/code, `set_type`, release date, paper/digital status, parent set/product associations and authoritative source provenance. *(v2.40, Batch 12, [#900](https://github.com/corymstover/GrokBotMTGCompanion/pull/900), `data/set_atlas/phase1b_snapshot_gates_2026-10-30.json`: PASS: every parent link resolves (`tnau`→`nau` resolves to the Set API record of the announced 2027-02-05 set, which has no printings yet). Mechanical verification, not owner approval.)*
 - [ ] Publish reproducible totals for **all Scryfall set codes** and separately for **premier expansion/core sets**, plus other clearly defined product categories; never report an unqualified "total sets" figure. *(v2.40, Batch 12, [#900](https://github.com/corymstover/GrokBotMTGCompanion/pull/900), `data/set_atlas/phase1b_snapshot_gates_2026-10-30.json`: QUALIFIED: per-set totals reproduce for all 1,062 codes; 136 stays a sourced regular/mainline classification, not an all-time premier census. Mechanical verification, not owner approval.)*
 - [x] Publish for **each set** all English/default-language printing records and a deduplicated card inventory, with counts for printings, unique identities, first appearances and reprints. *(v2.40, Batch 12, [#900](https://github.com/corymstover/GrokBotMTGCompanion/pull/900), `data/set_atlas/phase1b_snapshot_gates_2026-10-30.json`: PASS: per-set printing and released English-paper oracle counts match the catalog for every code (0 mismatches). Mechanical verification, not owner approval.)*
@@ -823,7 +853,7 @@ explicitly lifts the hold).
   - v2.60 dry-run correction: a weekly monitor **already exists**; it is not an unscheduled engineering gap. The ongoing coverage limits and mandatory human review remain explicit.
 - [ ] Rebuild and reconcile the Phase 1B set catalog and bidirectional printing lookups when new sets or printings appear, retaining historical snapshots.
   - v2.43: `scripts/audit_phase1b_snapshot_gates.py` selects exactly the SHA-pinned 2026-10-29 `default-cards` filename from the committed manifest. A missing archive now returns `MTG_PINNED_BULK_MISSING` with its expected SHA and source URL rather than `IndexError` or an accidental newest-bulk substitution. The complete source-level gate is still blocked in a clean clone until those exact bytes are available; the saved dated report stays qualified.
-- [ ] Update snapshot manifests with actual download bytes and stable hashes. *(Partial, v2.41, Batch 13, [#906](https://github.com/corymstover/GrokBotMTGCompanion/pull/906): the active Companion manifest (`snap-20261029-40848334824-1`) is now committed at `data/scryfall_snapshots/`. `scripts/audit_snapshot_manifests.py` checks that all 3 files' compressed bytes and SHA-256 match the GitHub release asset sizes and the local copies. Stays open: the 2026-10-28 `data/printing_lore/manifest.json` baseline has a hash but no bytes, and cannot get them while L151's original file is unavailable.)*
+- [x] Update snapshot manifests with actual download bytes and stable hashes. *(v2.72: the original Oct 28 source is now hash-recovered and measured at **80,216,061 compressed bytes**, matching its pre-existing SHA-256. The three original Oct 15–16 locked files and all three active Oct 29 Companion archives also have independently matched bytes and SHA-256, preserved in `data/scryfall_snapshots/historical_bulk_replay_2026-10-31.json` alongside the existing October 29 release manifest. The historical export manifest's deterministic schema stays unchanged.)*
 - [ ] Maintain an honest progress tracker: completed, under review, blocked, and not started.
   - v2.43 partial: `scripts/update_multiverse_progress_tracker.py` now generates/checks a *current* 2026-10-30 status block at the top of `Progress Tracker.md` from the live Master Workflow, graph, enrichment and recount. Old cycle-36 data remains explicitly historical. The full task-state dashboard (under review/blocked/not started for every item) is still to be built, so this high-level box stays unchecked.
   - v2.60: the current tracker adds a generated four-state **14-gate foundation-release** triage from the dry-run's typed blockers. This does not pretend to classify all 137 engineering tasks or accept continuing maintenance; the broader all-item dashboard remains an open improvement.

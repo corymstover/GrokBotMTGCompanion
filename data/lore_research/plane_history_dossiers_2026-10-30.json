@@ -2,7 +2,7 @@
   "schema": "plane-history-dossiers/v2",
   "as_of": "2026-10-30",
   "status": "PRELIMINARY_RESEARCH_NOT_OWNER_APPROVED",
-  "source_graph_sha256": "a09decfc25f0e0c812c1c742f64b6fe456a9b545f049982dcd65720753d1788a",
+  "source_graph_sha256": "887bd1275047a15900a0c21a9c10c0f34204a12e7ee77da6f832e74dc9253ace",
   "scope": "Named graph Plane nodes, direct incident claims, and an independently labeled curated subset of already cited on-plane story claims.",
   "chronology_policy": "Never infer ordering from article date, release date or an era_label; explicit dated quotes are retained verbatim as quoted metadata only.",
   "counts": {
@@ -8024,5 +8024,5 @@
       ]
     }
   ],
-  "content_sha256": "3849aec4e1cd63d7d7510d3e154ad52288e6ec35b76095e16f5daddf37d95527"
+  "content_sha256": "2410420ab1a99ef52dd0e590fa378a80fe609507af6c652d4069663bfc5ba5c2"
 }

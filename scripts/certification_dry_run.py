@@ -11,6 +11,7 @@ blocker found", which is still not owner sign-off.
 Blocker kinds:
   OWNER_APPROVAL   Cory must review/approve an in-scope research artifact or evidence pack.
   OWNER_DECISION   Cory must decide a policy or a disputed question; the bot may not.
+  OWNER_CONDITIONAL Cory's release-scope acceptance is already authorized, but not effective until every gate passes.
   EXTERNAL_CI      Must be shown green on GitHub for the exact release commit.
   MISSING_SOURCE   Needs a source the bot does not have (e.g. an unavailable original file, an official recap page).
   ENGINEERING_OPEN Non-owner work the bot can still do.
@@ -30,7 +31,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 WORKFLOW = ROOT / "MTG_MULTIVERSE_MASTER_WORKFLOW.md"
 OUT = ROOT / "data/release/certification_dry_run_2026-10-30.json"
-KINDS = {"OWNER_APPROVAL", "OWNER_DECISION", "EXTERNAL_CI", "MISSING_SOURCE", "ENGINEERING_OPEN", "ONGOING"}
+KINDS = {"OWNER_APPROVAL", "OWNER_DECISION", "OWNER_CONDITIONAL", "EXTERNAL_CI", "MISSING_SOURCE", "ENGINEERING_OPEN", "ONGOING"}
 
 
 def B(kind, what, *evidence):
@@ -78,9 +79,11 @@ RELEASE_BLOCKERS = {
           "pass on the exact candidate foundation-release commit; it does not establish exhaustive knowledge.",
           "data/release/foundation_acceptance_packet_2026-10-30.json",
           "research/FOUNDATION_ACCEPTANCE_PACKET_2026-10-30.md"),
-        B("OWNER_DECISION", "Cory reviews the actual knowledge-foundation scope and limitations after the "
-          "engineering/CI evidence is complete. An owner-reviewed deck is NOT required.",
-          "MTG_MULTIVERSE_MASTER_WORKFLOW.md"),
+        B("OWNER_CONDITIONAL", "Cory has explicitly authorized automatic foundation-only acceptance once "
+          "the documented engineering and exact-head CI gates genuinely pass. The authorization is recorded "
+          "but not effective while those conditions are unmet; no second approval request is needed. "
+          "An owner-reviewed deck is NOT required.",
+          "data/release/owner_conditional_foundation_acceptance_2026-10-31.json"),
     ],
     "grixis_no_regression": [
         B("EXTERNAL_CI", "Focused Grixis mechanics validation must be green on the release commit, and the protected-path "
@@ -109,10 +112,7 @@ PHASE8_BLOCKERS = [
         B("ONGOING", "Triggered by new sets: the next is nau (Set API release 2027-02-05, no printings yet).",
           "data/set_atlas/phase1b_snapshot_gates_2026-10-30.json"),
     ]),
-    ("Update snapshot manifests", [
-        B("MISSING_SOURCE", "The 2026-10-28 data/printing_lore/manifest.json baseline has a hash but no byte count; L151's "
-          "original file is unavailable.", "data/printing_lore/manifest.json", "scripts/audit_snapshot_manifests.py"),
-    ]),
+    ("Update snapshot manifests", []),  # Exact Oct 28/Oct 15–16 bytes recovered, hashed, independently replayed.
     ("Maintain an honest progress tracker", [
         B("ONGOING", "The current progress checkpoint now includes a generated completed / under review / blocked / "
           "not started triage for all 14 first-release and Phase 8 gates, with blocker types and an explicit "
@@ -191,7 +191,7 @@ def dry_run() -> dict:
             "note": "Lists what blocks each box. Checks nothing, approves nothing, certifies nothing.",
             "release_definition": release, "phase8": phase8, "blocker_tally": dict(sorted(tally.items())),
             "items_blocked_only_by_owner_or_ci": [r.get("id") or r["item"] for r in release + phase8
-                                                  if r["blockers"] and all(b["kind"] in {"OWNER_APPROVAL", "OWNER_DECISION", "EXTERNAL_CI", "ONGOING"} for b in r["blockers"])],
+                                                  if r["blockers"] and all(b["kind"] in {"OWNER_APPROVAL", "OWNER_DECISION", "OWNER_CONDITIONAL", "EXTERNAL_CI", "ONGOING"} for b in r["blockers"])],
             "problems": problems}
 
 

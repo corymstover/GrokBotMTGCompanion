@@ -7384,6 +7384,14 @@
    "tier": "NAMED_PARTICIPANT"
   },
   {
+   "claim": "C501",
+   "pack": "pack_c5_phyrexian_invasion_outcome_2026-10-30.json",
+   "participant": "yawgmoth",
+   "card": "Yawgmoth, Thran Physician",
+   "oracle_id": "a1e232c0-dc38-47be-a5a0-f68bc1d86a29",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
    "claim": "KLD001",
    "pack": "pack_p5_kaladesh_aether_revolt_2026-10-30.json",
    "participant": "emrakul",
@@ -34545,11 +34553,43 @@
    "tier": "NAMED_PARTICIPANT"
   },
   {
-   "claim": "C501",
-   "pack": "pack_c5_phyrexian_invasion_outcome_2026-10-30.json",
-   "participant": "yawgmoth",
-   "card": "Yawgmoth, Thran Physician",
-   "oracle_id": "a1e232c0-dc38-47be-a5a0-f68bc1d86a29",
+   "claim": "ALA001",
+   "pack": "pack_p5_alara_plane_profile_2026-10-30.json",
+   "participant": "bant",
+   "card": "Bant",
+   "oracle_id": "82e67c57-6d7a-44cc-ba63-77ce887ab075",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "ALA001",
+   "pack": "pack_p5_alara_plane_profile_2026-10-30.json",
+   "participant": "esper",
+   "card": "Esper",
+   "oracle_id": "4eebfaf3-18da-4661-b6a5-d874585e170a",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "ALA001",
+   "pack": "pack_p5_alara_plane_profile_2026-10-30.json",
+   "participant": "grixis_shard",
+   "card": "Grixis",
+   "oracle_id": "1aaa60e4-47a8-4255-8a09-5f00922ccf6d",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "ALA001",
+   "pack": "pack_p5_alara_plane_profile_2026-10-30.json",
+   "participant": "jund",
+   "card": "Jund",
+   "oracle_id": "9aa94de8-b114-4479-a771-c7bc0297be58",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "ALA001",
+   "pack": "pack_p5_alara_plane_profile_2026-10-30.json",
+   "participant": "naya",
+   "card": "Naya",
+   "oracle_id": "5ed6be01-af06-4f3d-8b43-ef8993c52c97",
    "tier": "NAMED_PARTICIPANT"
   },
   {
@@ -34961,6 +35001,22 @@
    "tier": "NAMED_PARTICIPANT"
   },
   {
+   "claim": "FPH008",
+   "pack": "pack_p5_four_plane_histories_2026-10-31.json",
+   "participant": "radiant",
+   "card": "Radiant, Archangel",
+   "oracle_id": "859cbe11-e1e6-4309-94da-8725db1b3fc2",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "FPH008",
+   "pack": "pack_p5_four_plane_histories_2026-10-31.json",
+   "participant": "radiant",
+   "card": "Radiant, Serra Archangel",
+   "oracle_id": "4a8227ff-0ae4-4405-8e44-1f5187a7f9f5",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
    "claim": "FPH010",
    "pack": "pack_p5_four_plane_histories_2026-10-31.json",
    "participant": "jaya_ballard",
@@ -35169,10 +35225,10 @@
   },
   "pack_p5_alara_plane_profile_2026-10-30.json": {
    "claims": 10,
-   "claims_anchored": 0,
+   "claims_anchored": 1,
    "ART_IN_CITED_SOURCE": 0,
    "PRINTED_IN_STORY_SET": 0,
-   "NAMED_PARTICIPANT": 0
+   "NAMED_PARTICIPANT": 5
   },
   "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json": {
    "claims": 31,
@@ -35267,10 +35323,10 @@
   },
   "pack_p5_four_plane_histories_2026-10-31.json": {
    "claims": 12,
-   "claims_anchored": 2,
+   "claims_anchored": 3,
    "ART_IN_CITED_SOURCE": 0,
    "PRINTED_IN_STORY_SET": 0,
-   "NAMED_PARTICIPANT": 3
+   "NAMED_PARTICIPANT": 5
   },
   "pack_p5_ikoria_2026-10-30.json": {
    "claims": 5,
@@ -35639,11 +35695,11 @@
  },
  "counts": {
   "claims": 1259,
-  "claims_anchored": 977,
-  "anchors": 4118,
+  "claims_anchored": 979,
+  "anchors": 4125,
   "ART_IN_CITED_SOURCE": 123,
   "PRINTED_IN_STORY_SET": 546,
-  "NAMED_PARTICIPANT": 3449
+  "NAMED_PARTICIPANT": 3456
  },
- "content_sha256": "a3e7e6aacdbbe22d5ca69b1a164a3e83181641161f548d8318e710ea09f3ddab"
+ "content_sha256": "e8be66a95f6d56eae1bef4325e09b8b219d89f4fd89179a7b7222d2f61022906"
 }

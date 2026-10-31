@@ -1,0 +1,68 @@
+{
+  "active_companion": {
+    "art_metadata": {
+      "listed_same_art_printings_metadata_matched": 20,
+      "note": "Scryfall printing metadata only; no new visual comparison or event-depiction assertion.",
+      "official_story_labels_metadata_matched": 570,
+      "unresolved_image_labels_unchanged": 7,
+      "visually_reviewed_pairs_metadata_matched": 6
+    },
+    "files": {
+      "default-cards": {
+        "compressed_bytes": 80336848,
+        "file": "default-cards-20261029090546.jsonl.gz",
+        "sha256": "008434d5b89f1f2cb47411178d2ab181600faf9cb7ca1c5673422cdec5939595"
+      },
+      "oracle-cards": {
+        "compressed_bytes": 25212609,
+        "file": "oracle-cards-20261029090202.jsonl.gz",
+        "sha256": "0358af62f92ac10f685d5ee6ad9ab23dfbff6f41bc32dfe81b5ab18cf3088adb"
+      },
+      "rulings": {
+        "compressed_bytes": 5422271,
+        "file": "rulings-20261029090032.jsonl.gz",
+        "sha256": "b760c8c3e74b62d27294833708ef98f6942251d0c56021dc3f7c1eeb08d4c990"
+      }
+    },
+    "snapshot_id": "snap-20261029-40848334824-1"
+  },
+  "legacy_grixis": {
+    "files": {
+      "default-cards": {
+        "compressed_bytes": 79720599,
+        "file": "default-cards-20261015090541.jsonl.gz",
+        "sha256": "f902a9a655c9854f535a8f02b1374540c564e31ef405ec8325acb2adbb6672f8"
+      },
+      "oracle-cards": {
+        "compressed_bytes": 24948905,
+        "file": "oracle-cards-20261016090200.jsonl.gz",
+        "sha256": "ea7abac9906633415553b585b32c4071c79d42ba23d7e3163a0c4e9c265a7483"
+      },
+      "rulings": {
+        "compressed_bytes": 5422271,
+        "file": "rulings-20261015090033.jsonl.gz",
+        "sha256": "3d2dfbd501d1f1b35146e9c57b91121cb6f01f8aa5f88b19c3f28ad31492c85a"
+      }
+    },
+    "lock_file_unchanged": true,
+    "snapshot_id": "snap-20261016"
+  },
+  "oct28": {
+    "altered_shards": 0,
+    "compressed_bytes": 80216061,
+    "english_paper_printings": 107700,
+    "export_manifest_byte_identical": true,
+    "file": "default-cards-20261028090549.jsonl.gz",
+    "missing_shards": 0,
+    "printing_records": 119509,
+    "set_codes": 1062,
+    "sha256": "c7c6d738cae2a9419e2120afedba460c4afeaa026bf74ca60e6451d14486d1e2",
+    "shards_rebuilt_byte_identical": 105,
+    "source_url": "https://data.scryfall.io/default-cards/default-cards-20261028090549.jsonl.gz"
+  },
+  "protected_decks_modified": false,
+  "recovered_on": "2026-10-31",
+  "schema": "historical-bulk-replay/v1",
+  "scope": "Source-level printing and illustration metadata replay, not complete lore or foundation certification.",
+  "source_policy": "Exact recorded SHA-256 bytes only; original historical snapshots are never replaced by newer data."
+}
