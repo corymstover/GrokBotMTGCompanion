@@ -21,6 +21,11 @@ configurations. It introduces no new canon claims, dates or Grixis changes.
 - Four adversarial synthetic-fixture tests passed locally and were wired to
   `.github/workflows/phase7-companion-ask.yml`. The full real-card suite is
   a **GitHub CI gate**, not claimed to have been run in the local sparse clone.
+- The first PR CI run detected a stale foundation Q&A-packet expectation
+  (`VERIFIED` → `QUALIFIED`) and shifted task-line metadata in the 137-item
+  triage. The packet/generator were updated, and the workflow addendum was
+  moved after the checklist so its recorded task lines remain unchanged.
+  The corrected exact-head run must verify both generated artifacts.
 - See `research/PHASE7_COMMANDER_QA_CURRENTNESS_2026-10-31.md` for the exact
   failure mode, test coverage and limitations.
 

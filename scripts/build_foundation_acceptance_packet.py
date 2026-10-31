@@ -56,7 +56,7 @@ QA_CASES = [
     ('unanchored_order', 'Did Konda imprisons a part happen before Marina lures her bullies?',
      'ask->chronology', 'QUALIFIED'),
     ('commander_identity', 'Can Sol Ring go in a Urza, Lord High Artificer deck?',
-     'ask->rules:include', 'VERIFIED'),
+     'ask->rules:include', 'QUALIFIED'),
     ('set_alpha', 'How many cards are in Alpha?', 'ask->set_atlas:set', 'QUALIFIED'),
     ('card_lotus_printings', 'Which sets was Black Lotus printed in?',
      'ask->set_atlas:card_printings', 'QUALIFIED'),
@@ -282,6 +282,10 @@ def qa_cases() -> list[dict]:
             raise ValueError('Present-day leadership is overstated')
         if key == 'commander_identity' and not r['result']['allowed']:
             raise ValueError('Known Commander identity regression')
+        if key == 'commander_identity' and (
+                'DATED_SCRYFALL_LEGALITY_NOT_LIVE' not in r['flags'] or
+                not r['result']['commander_configuration']['allowed']):
+            raise ValueError('Commander inclusion answer lost archived-legality or valid-leader guard')
         if key == 'set_alpha' and (r['result']['distinct_identities_or_unresolved'] != 290 or
                                    r['result']['printing_records'] != 295):
             raise ValueError('Set Atlas identity/printing distinction drift')

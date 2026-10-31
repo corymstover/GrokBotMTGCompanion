@@ -44,6 +44,16 @@ python3 -m unittest tests.test_commander_deck_config_safety -q
 The older `test_commander_rules.py` contract is updated to expect qualified
 historical answers. It requires the full card shards for its end-to-end run;
 full-checkout GitHub CI must validate that suite and the rest of Phase 7.
+The existing 76-question foundation packet also held a stale `VERIFIED`
+expectation for the positive Sol Ring/Urza inclusion example. Its generator
+now asserts the dated-legality flag and valid leader, and the exact
+`commander_identity` response digest was recalculated from the committed
+Sol Ring/Urza card shards and rules excerpt. The packet remains a historical,
+noncertifying review sample; its content SHA-256 is
+`38c4a7fc5f87e4abc1af16e3897c5946f9533bd8e9f82a57999445b7c06d6b6c`.
+The 137-task triage retains exactly the previous task IDs and line numbers:
+the v2.85 prose addendum follows the checklist rather than renumbering its
+evidence references. Exact-head CI still must replay both generated audits.
 No broader historical or rules data was changed, no official current bans are
 asserted, and no foundation-release gate is being signed off.
 
