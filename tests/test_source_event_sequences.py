@@ -24,7 +24,7 @@ class SourceEventSequencesTests(unittest.TestCase):
         self.assertEqual(sig,S.digest(d))
         self.assertEqual(self.current['counts'],{
             'strands':8,'events':74,'strict_edges':57,'non_ordering_relations':3,
-            'ordered_pairs':180,'total_pairs':2701,
+            'ordered_pairs':180,'total_pairs':2701,'verified_legacy_bridges':7,
         })
 
     def test_source_proofs_have_original_claim_ids_and_digest(self):
@@ -34,6 +34,11 @@ class SourceEventSequencesTests(unittest.TestCase):
             self.assertTrue(e['source_url'].startswith('https://magic.wizards.com/'))
             self.assertEqual(e['quote_sha256'],hashlib.sha256(S.canon(e['quote']).encode()).hexdigest())
             self.assertNotIn('ar_year',e)
+        self.assertEqual(len(self.current['legacy_bridges']),7)
+        for e in self.current['legacy_bridges']:
+            self.assertEqual(e['relation'],'SAME_EVENT')
+            self.assertEqual(e['source_url'],'https://magic.wizards.com/en/news/feature/known-mutliverse-2008-03-19')
+            self.assertEqual(e['quote_sha256'],hashlib.sha256(S.canon(e['quote']).encode()).hexdigest())
 
     def test_historical_kamigawa_order_is_qualified(self):
         r=S.proof(self.current,'K:konda_imprisons','K:realm_barrier_breaks')
@@ -135,6 +140,28 @@ class SourceEventSequencesTests(unittest.TestCase):
         unresolved=A.ask('Did T:old_phyrexia_decimated happen before T:yawgmoth_destroyed?')
         self.assertEqual(unresolved['result']['relation'],'UNKNOWN')
         self.assertEqual(unresolved['sources'],[])
+
+    def test_explicit_source_corroborated_cross_ledger_bridges_only(self):
+        bridged=Q.compare_across_datasets(self.old,self.current,'B:phyrexia_creator_dies','T:rath_constructed')
+        self.assertEqual(bridged['result'],'BEFORE')
+        self.assertTrue(any(e['relation']=='SAME_EVENT' for e in bridged['proof']))
+        self.assertTrue(all(e.get('source_url','').startswith('https://magic.wizards.com/')
+                            for e in bridged['proof']))
+        same=Q.compare_across_datasets(self.old,self.current,'B:phyrexia_portal_closed','T:portal_closed')
+        self.assertEqual(same['result'],'SAME_EVENT')
+        self.assertEqual(len(same['proof']),1)
+        unproven=Q.compare_across_datasets(self.old,self.current,'B:phyrexia_creator_dies','T:yawgmoth_destroyed')
+        self.assertEqual(unproven['result'],'UNKNOWN')
+        self.assertEqual(unproven['proof'],[])
+        self.assertEqual(Q.check_composite(self.old,self.current)['strict_cycles'],0)
+
+    def test_cross_ledger_cycle_is_rejected_even_if_individual_ledgers_acyclic(self):
+        altered=dict(self.current)
+        altered['legacy_bridges']=[dict(e) for e in self.current['legacy_bridges']]
+        link=next(e for e in altered['legacy_bridges'] if e['legacy']=='B:thran_defeated')
+        link['local']='T:portal_closed'  # equates an outcome with its strict predecessor
+        with self.assertRaisesRegex(ValueError,'cross-ledger chronology cycle'):
+            Q.check_composite(self.old,altered)
 
     def test_normal_companion_routes_new_phyrexia_order_and_still_says_unknown(self):
         quoted='Did Karn introduces Phyrexian oil to Mirrodin happen before Mirran forces are overwhelmed in the early conquest?'

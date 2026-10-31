@@ -67,6 +67,9 @@ This source-graded packet is reproducible from the repository, with exact input 
 | Did T:old_phyrexia_decimated happen before T:yawgmoth_destroyed? | `ask->chronology` | `QUALIFIED` | 0 |
 | Did S:urza_flees happen before S:realm_powerstone_collapse? | `ask->chronology` | `QUALIFIED` | 1 |
 | Did S:radiant_assumes_rule happen before S:realm_powerstone_collapse? | `ask->chronology` | `QUALIFIED` | 0 |
+| Did B:phyrexia_creator_dies happen before T:rath_constructed? | `ask->chronology` | `QUALIFIED` | 1 |
+| Did B:phyrexia_portal_closed happen before T:portal_closed? | `ask->chronology` | `QUALIFIED` | 1 |
+| Did B:phyrexia_creator_dies happen before T:yawgmoth_destroyed? | `ask->chronology` | `QUALIFIED` | 0 |
 
 The underlying JSON retains response digests, exact source URLs and caveat flags. The two graph-navigation examples are **not** evidence of chronological or causal paths.
 
@@ -89,6 +92,6 @@ python3 scripts/certification_dry_run.py --check
 python3 scripts/update_multiverse_progress_tracker.py --check
 ```
 
-Packet SHA-256 (canonical JSON): `f0724b476db8f719a44c1612a13f906d434d22bdceb4d34de2f40558f4028fac`
+Packet SHA-256 (canonical JSON): `6c59a8b7e545333bcefb3b29141de3428e62526c094121cd8f63943e7e2e148a`
 
 **No decks were built, modified, reviewed or approved.**

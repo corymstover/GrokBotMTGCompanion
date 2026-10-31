@@ -11,6 +11,15 @@
     "lf_meditation_chronicle": "data/lore_research/pack_p5_last_four_thin_planes_2026-10-31.json",
     "km": "data/lore_research/pack_c5_phyrexian_invasion_outcome_2026-10-30.json"
   },
+  "legacy_bridges": [
+    {"legacy":"B:phyrexia_creator_dies","local":"T:phyrexian_creator_dies","source_id":"km","quote":"the planeswalker Dyfed took Yawgmoth to Phyrexia shortly after its creator and master had died","note":"The two ledger labels denote the same unnamed original Phyrexian master's death, without asserting that he was Yawgmoth."},
+    {"legacy":"B:yawgmoth_to_phyrexia","local":"T:dyfed_brings_yawgmoth","source_id":"km","quote":"During the decline of the Thran Empire on Dominaria, the planeswalker Dyfed took Yawgmoth to Phyrexia","note":"Both nodes describe Dyfed bringing Yawgmoth to Old Phyrexia in the same retrospective, not a separate later trip."},
+    {"legacy":"B:phyrexia_portal_closed","local":"T:portal_closed","source_id":"km","quote":"The Thran were defeated, but not before the portal was closed, trapping Yawgmoth and the Phyrexians in their plane.","note":"Both labels refer to the same closing of the Dominaria–Old Phyrexia portal during Thran defeat."},
+    {"legacy":"B:thran_defeated","local":"T:thran_defeated","source_id":"km","quote":"The Thran were defeated, but not before the portal was closed","note":"The same Thran defeat is described in both ledgers; its order relative to the portal is independently cited."},
+    {"legacy":"C:weatherlight_to_rath","local":"T:weatherlight_to_rath","source_id":"km","quote":"The skyship Weatherlight and its crew traveled to Rath to rescue the ship's captain Sisay.","note":"This is the same Sisay-rescue expedition, not every separate Weatherlight visit to Rath."},
+    {"legacy":"C:weatherlight_mercadia","local":"T:weatherlight_mercadia","source_id":"km","quote":"Gerrard and the crew of the Weatherlight ended up in this plane after blindly flinging themselves from Rath.","note":"Both refer to the crew's specific arrival on Mercadia after leaving Rath."},
+    {"legacy":"C:rath_overlay","local":"T:rath_overlay","source_id":"km","quote":"Rath's purpose was fulfilled as it was laid over Dominaria like a sickly skin","note":"This is the same Rathi overlay; the onset of invasion is a related, near-simultaneous but distinct event and is not bridged."}
+  ],
   "strands": [
     {
       "id": "K",

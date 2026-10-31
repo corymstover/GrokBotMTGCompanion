@@ -46,7 +46,8 @@
     "strict_edges": 57,
     "non_ordering_relations": 3,
     "ordered_pairs": 180,
-    "total_pairs": 2701
+    "total_pairs": 2701,
+    "verified_legacy_bridges": 7
   },
   "strands": [
     {
@@ -1571,6 +1572,85 @@
       "note": "The fatal powerstone extraction follows Serra's absence; the guide does not order it against the exact span of Radiant's rule."
     }
   ],
+  "legacy_bridges": [
+    {
+      "legacy": "B:phyrexia_creator_dies",
+      "local": "T:phyrexian_creator_dies",
+      "relation": "SAME_EVENT",
+      "source_id": "km",
+      "source_url": "https://magic.wizards.com/en/news/feature/known-mutliverse-2008-03-19",
+      "source_title": "The Known Mutliverse",
+      "quote": "the planeswalker Dyfed took Yawgmoth to Phyrexia shortly after its creator and master had died",
+      "quote_sha256": "fb773a833c9e02dcc7460bcc0913edb40bd54ccee6e97f0df7532365f7ec5cdf",
+      "note": "The two ledger labels denote the same unnamed original Phyrexian master's death, without asserting that he was Yawgmoth."
+    },
+    {
+      "legacy": "B:yawgmoth_to_phyrexia",
+      "local": "T:dyfed_brings_yawgmoth",
+      "relation": "SAME_EVENT",
+      "source_id": "km",
+      "source_url": "https://magic.wizards.com/en/news/feature/known-mutliverse-2008-03-19",
+      "source_title": "The Known Mutliverse",
+      "quote": "During the decline of the Thran Empire on Dominaria, the planeswalker Dyfed took Yawgmoth to Phyrexia",
+      "quote_sha256": "97a0b73596765b5dabd644db34978e672ef2542270e7804e9e41f5aef98f10bb",
+      "note": "Both nodes describe Dyfed bringing Yawgmoth to Old Phyrexia in the same retrospective, not a separate later trip."
+    },
+    {
+      "legacy": "B:phyrexia_portal_closed",
+      "local": "T:portal_closed",
+      "relation": "SAME_EVENT",
+      "source_id": "km",
+      "source_url": "https://magic.wizards.com/en/news/feature/known-mutliverse-2008-03-19",
+      "source_title": "The Known Mutliverse",
+      "quote": "The Thran were defeated, but not before the portal was closed, trapping Yawgmoth and the Phyrexians in their plane.",
+      "quote_sha256": "26dbf74aa0c73610910bd4b4ba3614cc88ce73099a45b35df26fe448078ff5c5",
+      "note": "Both labels refer to the same closing of the Dominaria–Old Phyrexia portal during Thran defeat."
+    },
+    {
+      "legacy": "B:thran_defeated",
+      "local": "T:thran_defeated",
+      "relation": "SAME_EVENT",
+      "source_id": "km",
+      "source_url": "https://magic.wizards.com/en/news/feature/known-mutliverse-2008-03-19",
+      "source_title": "The Known Mutliverse",
+      "quote": "The Thran were defeated, but not before the portal was closed",
+      "quote_sha256": "528b879efb87a586d6933636877d51e02fc748ae2c60beb1bc50ce51e29d6960",
+      "note": "The same Thran defeat is described in both ledgers; its order relative to the portal is independently cited."
+    },
+    {
+      "legacy": "C:weatherlight_to_rath",
+      "local": "T:weatherlight_to_rath",
+      "relation": "SAME_EVENT",
+      "source_id": "km",
+      "source_url": "https://magic.wizards.com/en/news/feature/known-mutliverse-2008-03-19",
+      "source_title": "The Known Mutliverse",
+      "quote": "The skyship Weatherlight and its crew traveled to Rath to rescue the ship's captain Sisay.",
+      "quote_sha256": "d841f60bf3a651e12a2082f9e3c2016170e0fc63d389238e48c25575a082002c",
+      "note": "This is the same Sisay-rescue expedition, not every separate Weatherlight visit to Rath."
+    },
+    {
+      "legacy": "C:weatherlight_mercadia",
+      "local": "T:weatherlight_mercadia",
+      "relation": "SAME_EVENT",
+      "source_id": "km",
+      "source_url": "https://magic.wizards.com/en/news/feature/known-mutliverse-2008-03-19",
+      "source_title": "The Known Mutliverse",
+      "quote": "Gerrard and the crew of the Weatherlight ended up in this plane after blindly flinging themselves from Rath.",
+      "quote_sha256": "2d76e6b462f5eada9bf4335bbe5d19461a3f340cb5ca9953c800310baf1533fc",
+      "note": "Both refer to the crew's specific arrival on Mercadia after leaving Rath."
+    },
+    {
+      "legacy": "C:rath_overlay",
+      "local": "T:rath_overlay",
+      "relation": "SAME_EVENT",
+      "source_id": "km",
+      "source_url": "https://magic.wizards.com/en/news/feature/known-mutliverse-2008-03-19",
+      "source_title": "The Known Mutliverse",
+      "quote": "Rath's purpose was fulfilled as it was laid over Dominaria like a sickly skin",
+      "quote_sha256": "2e93b0842aa8dca6062489e34013bd6c4aaa2387897785b444e0c8407f92f6ae",
+      "note": "This is the same Rathi overlay; the onset of invasion is a related, near-simultaneous but distinct event and is not bridged."
+    }
+  ],
   "precedes": {
     "B:bolas_arrives": [
       "B:bolas_attacks",
@@ -1878,7 +1958,7 @@
     "V:wildsear_appears": []
   },
   "known_gaps": [
-    "No primary-source edge joins distinct strand IDs, so cross-plane comparisons remain UNKNOWN.",
+    "No primary-source edge joins distinct source-local strand IDs. Only explicitly source-corroborated SAME_EVENT links join the legacy and source-local ledgers; all other cross-ledger comparisons remain UNKNOWN.",
     "Valley events order an explicitly legendary in-world account, not objectively certified ancient history.",
     "New Phyrexia events describe early Mirrodin conquest; the source does not order the complete war, the Mirrans being overwhelmed against Venser's sacrifice, or the political present after March of the Machine.",
     "Muraganda: the ancient collapse versus moon-shattering sequence, the exact overlap of moon-strikes and survivor cultures, and the origin of the modern Autocracy remain unbridged.",
@@ -1889,5 +1969,5 @@
     "Unknown original plane names, absolute AR years and missing historical events are not supplied.",
     "This source-local supplement does not replace the original Packs A–C chronology or certify L244."
   ],
-  "content_sha256": "74d34570043c3bad72628f1009c9759d82897644ae96016d73fc4e821462f8e9"
+  "content_sha256": "86c4ac522bda5cf180e0db66edb5b414a0f935e3c857ea6419d3528af3d76e4c"
 }

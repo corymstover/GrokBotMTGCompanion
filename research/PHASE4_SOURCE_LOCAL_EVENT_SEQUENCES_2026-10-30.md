@@ -25,6 +25,13 @@ verification** on 2026-10-31. Each relationship retains the official URL, quoted
 SHA-256 quote digest, source ID, certainty and evidence limitation. The
 archive remains a partial, non-owner-approved timeline.
 
+**v2.71:** Seven deliberately curated `SAME_EVENT` links now identify
+historical events shared with the separate legacy Packs A–C chronology
+without merging their unverified eras or event counts. Each identity is
+source-corroborated in both ledger entries against the same Wizards page.
+The 60 before/overlap quotes plus seven identity quotes passed live audit
+on 2026-10-31 (**67/67 total, seven official pages**).
+
 | Bounded account | Nodes | Strict source-supported BEFORE edges | Qualified non-ordering relations | Interpretation |
 | --- | ---: | ---: | ---: | --- |
 | Kamigawa / Kami War | 7 | 5 | 0 | Official historical summary; Imperial founding is not assumed to be strictly after the barrier's rupture. |
@@ -65,6 +72,37 @@ relation between the two. The independent Serra's Realm sequence likewise
 does not date Radiant's tenure relative to Urza's final extraction. Both
 UNKNOWN cases are exercised by the normal Q&A route.
 
+## Explicit cross-ledger identity proof (v2.71)
+
+These are *equivalences*, not temporal edges. The merged proof search can
+step across an equivalence, follow strict source-cited BEFORE edges, and
+return BEFORE/AFTER only if an actual strict edge participates. Equivalence
+alone yields `SAME_EVENT`; a path that requires an unsupported "during" or
+across-era assumption still returns `UNKNOWN`. All seven source-quoted
+bridges use the Wizards 2008 *Known Multiverse* account:
+
+| Legacy event | Source-local same event |
+| --- | --- |
+| `B:phyrexia_creator_dies` | `T:phyrexian_creator_dies` |
+| `B:yawgmoth_to_phyrexia` | `T:dyfed_brings_yawgmoth` |
+| `B:phyrexia_portal_closed` | `T:portal_closed` |
+| `B:thran_defeated` | `T:thran_defeated` |
+| `C:weatherlight_to_rath` | `T:weatherlight_to_rath` |
+| `C:weatherlight_mercadia` | `T:weatherlight_mercadia` |
+| `C:rath_overlay` | `T:rath_overlay` |
+
+The old and source-local event totals are **not additive**: seven events
+are now explicitly recognized as the same historical occurrences. This
+does not imply global chronological alignment or completeness. The
+composite graph has **zero strict cycles**; a deliberate false-equivalence
+regression must trigger cycle rejection. Example answers:
+
+- `B:phyrexia_creator_dies` BEFORE `T:rath_constructed`: cited proof.
+- `B:phyrexia_portal_closed` vs `T:portal_closed`: `SAME_EVENT`, not BEFORE.
+- `B:phyrexia_creator_dies` vs `T:yawgmoth_destroyed`: `UNKNOWN`, because
+  the connection would require treating Rath's overlay/invasion onset as a
+  strictly ordered pair, which the source does not do.
+
 The legacy Packs A–C graph remains separately preserved: **56 event nodes,
 63 stated edges, and 177 of 3,074 comparable pairs**. These two fractions
 have **different universes of event pairs** and must never be summed into a
@@ -91,6 +129,9 @@ python3 scripts/query_lore_chronology.py --compare T:phyrexian_creator_dies T:th
 python3 scripts/query_lore_chronology.py --compare T:old_phyrexia_decimated T:yawgmoth_destroyed
 python3 scripts/query_lore_chronology.py --compare S:urza_flees S:realm_powerstone_collapse
 python3 scripts/query_lore_chronology.py --compare S:radiant_assumes_rule S:realm_powerstone_collapse
+python3 scripts/query_lore_chronology.py --compare B:phyrexia_creator_dies T:rath_constructed
+python3 scripts/query_lore_chronology.py --compare B:phyrexia_portal_closed T:portal_closed
+python3 scripts/query_lore_chronology.py --compare B:phyrexia_creator_dies T:yawgmoth_destroyed
 python3 -m unittest discover -s tests -p 'test_source_event_sequences.py' -q
 ```
 

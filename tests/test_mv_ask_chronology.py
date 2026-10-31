@@ -57,6 +57,25 @@ class ChronologyQuestionTests(unittest.TestCase):
         self.assertEqual(r['result']['relation'], 'UNKNOWN')
         self.assertIn('CROSS_LEDGER_UNANCHORED', r['flags'])
 
+    def test_explicit_cross_ledger_same_event_and_before_proof(self):
+        before=ask('Did B:phyrexia_creator_dies happen before T:rath_constructed?')
+        self.assertEqual(before['result']['relation'],'BEFORE')
+        self.assertIs(before['result']['answer'],True)
+        self.assertIn('CROSS_LEDGER_SOURCE_BRIDGED',before['flags'])
+        self.assertNotIn('CROSS_LEDGER_UNANCHORED',before['flags'])
+        self.assertTrue(any(e['relation']=='SAME_EVENT' for e in before['result']['proof']))
+        self.assertEqual(before['sources'],['https://magic.wizards.com/en/news/feature/known-mutliverse-2008-03-19'])
+        same=ask('Did B:phyrexia_portal_closed happen before T:portal_closed?')
+        self.assertEqual(same['result']['relation'],'SAME_EVENT')
+        self.assertIsNone(same['result']['answer'])
+        self.assertIn('CROSS_LEDGER_SOURCE_BRIDGED',same['flags'])
+
+    def test_missing_temporal_bridge_still_unknown(self):
+        r=ask('Did B:phyrexia_creator_dies happen before T:yawgmoth_destroyed?')
+        self.assertEqual(r['result']['relation'],'UNKNOWN')
+        self.assertIsNone(r['result']['answer'])
+        self.assertIn('CROSS_LEDGER_UNANCHORED',r['flags'])
+
     def test_ambiguous_label_returns_not_found_without_guessing(self):
         r = ask('Did Valgavoth happen before War of Cinders?')
         self.assertEqual(r['confidence'], 'NOT_FOUND')
