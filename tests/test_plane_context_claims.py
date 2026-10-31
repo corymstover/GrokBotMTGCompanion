@@ -23,8 +23,8 @@ class PlaneContextTests(unittest.TestCase):
         self.assertEqual(self.saved, H.build())
         self.assertEqual(self.saved['schema'], 'plane-history-dossiers/v2')
         self.assertEqual(self.saved['counts']['registered_planes'], 33)
-        self.assertEqual(self.saved['counts']['direct_claim_edges'], 195)
-        self.assertEqual(self.saved['counts']['thin_planes_fewer_than_five_claims'], 12)
+        self.assertEqual(self.saved['counts']['direct_claim_edges'], 207)
+        self.assertEqual(self.saved['counts']['thin_planes_fewer_than_five_claims'], 8)
         self.assertEqual(self.saved['counts']['planes_with_curated_context'], 4)
         self.assertEqual(self.saved['counts']['distinct_contextual_claims'], 53)
 

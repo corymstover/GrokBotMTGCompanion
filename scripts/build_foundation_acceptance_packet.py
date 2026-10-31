@@ -36,7 +36,7 @@ INPUTS = {
 # representative *sample*, not a claim of open-domain Q&A completeness.
 QA_CASES = [
     ('plane_alara', 'What is the history of Alara?', 'ask->plane_history', 'QUALIFIED'),
-    ('plane_new_capenna', 'What is the historical background of New Capenna?', 'ask->plane_history', 'QUALIFIED'),
+    ('plane_new_capenna_background', 'What is the historical background of New Capenna?', 'ask->plane_history', 'QUALIFIED'),
     ('character_bolas', 'What is the lore of Nicol Bolas?', 'ask->entity_history', 'QUALIFIED'),
     ('faction_gatewatch', 'What is the history of the Gatewatch?', 'ask->entity_history', 'QUALIFIED'),
     ('faction_izzet_alias', 'What is the history of the Izzet?', 'ask->entity_history', 'QUALIFIED'),
@@ -71,6 +71,10 @@ QA_CASES = [
     ('plane_eldraine', 'What is the history of Eldraine?', 'ask->plane_history', 'QUALIFIED'),
     ('plane_ikoria', 'What is the history of Ikoria?', 'ask->plane_history', 'QUALIFIED'),
     ('plane_new_capenna', 'What is the history of New Capenna?', 'ask->plane_history', 'QUALIFIED'),
+    ('plane_arcavios', 'What is the history of Arcavios?', 'ask->plane_history', 'QUALIFIED'),
+    ('plane_vryn', 'What is the history of Vryn?', 'ask->plane_history', 'QUALIFIED'),
+    ('plane_serras_realm', "What is the history of Serra's Realm?", 'ask->plane_history', 'QUALIFIED'),
+    ('plane_regatha', 'What is the history of Regatha?', 'ask->plane_history', 'QUALIFIED'),
 ]
 
 
@@ -83,6 +87,8 @@ def sha(body: dict) -> str:
 
 
 def qa_cases() -> list[dict]:
+    if len({case[0] for case in QA_CASES}) != len(QA_CASES):
+        raise ValueError('Duplicate foundation Q&A identifiers would silently overwrite review evidence')
     rows = []
     for key, question, route, confidence in QA_CASES:
         r = mv_ask.ask(question)

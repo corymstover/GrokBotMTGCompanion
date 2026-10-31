@@ -9,11 +9,11 @@
   "input_sha256": {
     "graph": {
       "path": "data/multiverse_graph/multiverse_graph.json",
-      "sha256": "5e282ddae4635994e66e722e3f44700b1c770013651f1a141e0ce1993fa1bbc4"
+      "sha256": "be601052351166343a9c915cca9cce1314d016212549b308f460a2cbc679c34b"
     },
     "plane_histories": {
       "path": "data/lore_research/plane_history_dossiers_2026-10-30.json",
-      "sha256": "684dfbdd74cfb89ad3cb6117a3d8e0895347566cbe69bb9a1bcd05a1bb91f888"
+      "sha256": "fec9987f238567e4dbae424145fb9a7703aaea7b682496df23c7ee60799b696d"
     },
     "chronology": {
       "path": "data/lore_research/relative_chronology_2026-10-30.json",
@@ -25,7 +25,7 @@
     },
     "story_coverage": {
       "path": "data/lore_research/story_coverage_inventory_2026-10-30.json",
-      "sha256": "c9ced2cad53c9052f11094e5f4e11a6c9e0c3ca89efd2cf1f4955fc88eeebb1b"
+      "sha256": "8116cc376cb14398f8b27721c79648d6e9dff04112bf49c802d8cc5d0d6767f2"
     },
     "genealogy_disputes": {
       "path": "data/lore_research/pack_a_genealogy_disputes_2026-10-30.json",
@@ -36,16 +36,16 @@
     "source_pages_in_inventoried_scope": 626,
     "source_pages_cited": 576,
     "source_pages_reviewed_without_claim": 50,
-    "graph_nodes": 5209,
-    "graph_edges": 8324,
-    "graph_claims": 1222,
+    "graph_nodes": 5232,
+    "graph_edges": 8372,
+    "graph_claims": 1234,
     "registered_plane_nodes": 33,
-    "thin_plane_dossiers": 12,
+    "thin_plane_dossiers": 8,
     "curated_context_plane_count": 4,
     "distinct_existing_context_claims": 53,
-    "registered_character_nodes": 483,
-    "registered_faction_nodes": 147,
-    "characters_and_factions_with_direct_claims": 630,
+    "registered_character_nodes": 484,
+    "registered_faction_nodes": 149,
+    "characters_and_factions_with_direct_claims": 633,
     "characters_and_factions_without_direct_claims": 0,
     "registered_character_faction_direct_claim_gaps": []
   },
@@ -86,7 +86,7 @@
       ]
     },
     {
-      "id": "plane_new_capenna",
+      "id": "plane_new_capenna_background",
       "question": "What is the historical background of New Capenna?",
       "route": "ask->plane_history",
       "confidence": "QUALIFIED",
@@ -695,6 +695,113 @@
         "Era labels and publication dates are not a verified sequence or AR calendar year.",
         "Absence of a cited event or person is not evidence it never occurred or appeared."
       ]
+    },
+    {
+      "id": "plane_arcavios",
+      "question": "What is the history of Arcavios?",
+      "route": "ask->plane_history",
+      "confidence": "QUALIFIED",
+      "flags": [
+        "PARTIAL_REGISTERED_PLANE_HISTORY",
+        "NO_VERIFIED_TOTAL_CHRONOLOGY",
+        "CURATED_ON_PLANE_CONTEXT_NOT_DIRECT_GRAPH_CLAIMS",
+        "CANON_IMPLIED_PRESENT"
+      ],
+      "sources": [
+        "https://magic.wizards.com/en/news/feature/planeswalkers-guide-strixhaven-2021-04-01",
+        "https://magic.wizards.com/en/news/magic-story/chains-bind-2021-04-09",
+        "https://magic.wizards.com/en/news/magic-story/cry-magic-2021-03-26",
+        "https://magic.wizards.com/en/news/magic-story/episode-1-class-session-2021-03-25",
+        "https://magic.wizards.com/en/news/magic-story/episode-2-lessons-2021-03-31",
+        "https://magic.wizards.com/en/news/magic-story/episode-3-extracurriculars-2021-04-07",
+        "https://magic.wizards.com/en/news/magic-story/episode-4-put-test-2021-04-14",
+        "https://magic.wizards.com/en/news/magic-story/episode-5-final-exam-2021-04-21",
+        "https://magic.wizards.com/en/news/magic-story/lorwyn-eclipsed-episode-1-out-of-this-wood",
+        "https://magic.wizards.com/en/news/magic-story/mentor-2021-04-16",
+        "https://magic.wizards.com/en/news/magic-story/secrets-of-strixhaven-episode-5-breaking-point",
+        "https://magic.wizards.com/en/news/magic-story/silent-voice-calls-2021-04-30"
+      ],
+      "response_sha256": "45c7b1b79c87be97c2bcb0597f075e51d8bb23ca8b983b718526b39cabcec440",
+      "direct_claims": 5,
+      "chronology_relation": null,
+      "known_limitations": [
+        "Direct claims are not an exhaustive history of this plane.",
+        "Curated same-plane story context is not a direct claim-to-plane edge and does not prove the geography of every participant in an entire arc.",
+        "Era labels and publication dates are not a verified sequence or AR calendar year.",
+        "Absence of a cited event or person is not evidence it never occurred or appeared."
+      ]
+    },
+    {
+      "id": "plane_vryn",
+      "question": "What is the history of Vryn?",
+      "route": "ask->plane_history",
+      "confidence": "QUALIFIED",
+      "flags": [
+        "PARTIAL_REGISTERED_PLANE_HISTORY",
+        "NO_VERIFIED_TOTAL_CHRONOLOGY"
+      ],
+      "sources": [
+        "https://magic.wizards.com/en/news/feature/worlds-magic-origins-2015-07-09",
+        "https://magic.wizards.com/en/news/magic-story/epilogue-2-bring-the-end-part-2",
+        "https://magic.wizards.com/en/news/magic-story/reality-fracture-episode-10-happy-birthday"
+      ],
+      "response_sha256": "2f9bdbfbd0346b9e8e9fca5f7154bd080bf09b7947f045a93bb23dfeb61c80e4",
+      "direct_claims": 5,
+      "chronology_relation": null,
+      "known_limitations": [
+        "Direct claims are not an exhaustive history of this plane.",
+        "Curated same-plane story context is not a direct claim-to-plane edge and does not prove the geography of every participant in an entire arc.",
+        "Era labels and publication dates are not a verified sequence or AR calendar year.",
+        "Absence of a cited event or person is not evidence it never occurred or appeared."
+      ]
+    },
+    {
+      "id": "plane_serras_realm",
+      "question": "What is the history of Serra's Realm?",
+      "route": "ask->plane_history",
+      "confidence": "QUALIFIED",
+      "flags": [
+        "PARTIAL_REGISTERED_PLANE_HISTORY",
+        "NO_VERIFIED_TOTAL_CHRONOLOGY"
+      ],
+      "sources": [
+        "https://magic.wizards.com/en/news/feature/known-mutliverse-2008-03-19",
+        "https://magic.wizards.com/en/story/serra-planeswalker"
+      ],
+      "response_sha256": "5f61d259d64a1ad1ccb1d6208b63663a9812e97dff7b0cbfa9a4a9dff4deb202",
+      "direct_claims": 5,
+      "chronology_relation": null,
+      "known_limitations": [
+        "Direct claims are not an exhaustive history of this plane.",
+        "Curated same-plane story context is not a direct claim-to-plane edge and does not prove the geography of every participant in an entire arc.",
+        "Era labels and publication dates are not a verified sequence or AR calendar year.",
+        "Absence of a cited event or person is not evidence it never occurred or appeared."
+      ]
+    },
+    {
+      "id": "plane_regatha",
+      "question": "What is the history of Regatha?",
+      "route": "ask->plane_history",
+      "confidence": "QUALIFIED",
+      "flags": [
+        "PARTIAL_REGISTERED_PLANE_HISTORY",
+        "NO_VERIFIED_TOTAL_CHRONOLOGY"
+      ],
+      "sources": [
+        "https://magic.wizards.com/en/news/magic-story/offers-fire-2015-08-05",
+        "https://magic.wizards.com/en/news/magic-story/promises-keep-2015-12-02",
+        "https://magic.wizards.com/en/news/magic-story/renegade-prime-2016-09-14",
+        "https://magic.wizards.com/en/news/making-magic/original-spin-2015-08-17"
+      ],
+      "response_sha256": "f42cb8a5abcb4e95d3cc8160546ebc9afef4b62bbfb85b91baaf4130ee331bc6",
+      "direct_claims": 5,
+      "chronology_relation": null,
+      "known_limitations": [
+        "Direct claims are not an exhaustive history of this plane.",
+        "Curated same-plane story context is not a direct claim-to-plane edge and does not prove the geography of every participant in an entire arc.",
+        "Era labels and publication dates are not a verified sequence or AR calendar year.",
+        "Absence of a cited event or person is not evidence it never occurred or appeared."
+      ]
     }
   ],
   "cross_plane_graph_navigation": [
@@ -772,5 +879,5 @@
     "python3 scripts/update_multiverse_progress_tracker.py --check"
   ],
   "owner_review_status": "PENDING_NOT_REQUESTED_UNTIL_ENGINEERING_EVIDENCE_AND_CI_COMPLETE",
-  "content_sha256": "1c85f5d2b7fe45a37e2d5b0682bde9d3b8218d3e668696bff49926772172e2d3"
+  "content_sha256": "9cb53841440c3b275a8baf0fc374d15b1210d31a047f867ef1bd75970cfe6ef2"
 }

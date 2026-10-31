@@ -77,7 +77,8 @@
    "data/lore_research/pack_p5_bloomburrow_valley_history_2026-10-30.json",
    "data/lore_research/pack_p5_duskmourn_origin_2026-10-30.json",
    "data/lore_research/pack_p5_isolated_entity_history_2026-10-31.json",
-   "data/lore_research/pack_p5_thin_plane_history_2026-10-31.json"
+   "data/lore_research/pack_p5_thin_plane_history_2026-10-31.json",
+   "data/lore_research/pack_p5_four_plane_histories_2026-10-31.json"
   ],
   "reviewed_no_claim": "data/lore_research/reviewed_no_claim.json"
  },
@@ -91,8 +92,8 @@
   "arcs_all_cited": 31,
   "reviewed_no_claim_pages": 50,
   "arcs_all_cited_or_reviewed": 33,
-  "claims": 1222,
-  "pack_urls_outside_inventory": 14
+  "claims": 1234,
+  "pack_urls_outside_inventory": 15
  },
  "claims_per_pack": {
   "pack_a_ugin_bolas_evidence_2026-10-30.json": 12,
@@ -169,7 +170,8 @@
   "pack_p5_bloomburrow_valley_history_2026-10-30.json": 13,
   "pack_p5_duskmourn_origin_2026-10-30.json": 12,
   "pack_p5_isolated_entity_history_2026-10-31.json": 5,
-  "pack_p5_thin_plane_history_2026-10-31.json": 11
+  "pack_p5_thin_plane_history_2026-10-31.json": 11,
+  "pack_p5_four_plane_histories_2026-10-31.json": 12
  },
  "arcs": [
   {
@@ -645,6 +647,7 @@
     "story": 10
    },
    "citing_packs": [
+    "pack_p5_four_plane_histories_2026-10-31.json",
     "pack_p5_strixhaven_2026-10-30.json"
    ],
    "status": "ALL_PAGES_CITED",
@@ -758,6 +761,7 @@
     "pack_c5_phyrexian_invasion_outcome_2026-10-30.json",
     "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json",
     "pack_p5_alara_plane_profile_2026-10-30.json",
+    "pack_p5_four_plane_histories_2026-10-31.json",
     "pack_p5_kamigawa_history_profile_2026-10-30.json",
     "pack_p5_new_phyrexia_historical_profile_2026-10-30.json",
     "pack_p5_thin_plane_history_2026-10-31.json",
@@ -836,5 +840,5 @@
    "unreviewed_urls": []
   }
  ],
- "sha256": "bab0b2e7b7a1f8944d3bb3fac7c3ed0eb313a4dc31a74a8be7ca508d0a088889"
+ "sha256": "d370d6bdc84b7bbf8f41f2c3a105aa4c2a66f562f2aca486fb14a2eda8b6c4a7"
 }
