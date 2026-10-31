@@ -1,0 +1,169 @@
+{
+  "schema": "lore-claim-pack/v1",
+  "pack_id": "P5-FOUR-MORE-PLANE-HISTORIES — Fiora, Kaldheim, Lorwyn-Shadowmoor, Thunder Junction",
+  "status": "PRELIMINARY_RESEARCH_NOT_OWNER_APPROVED",
+  "evidence_cutoff": "2026-10-31",
+  "scope": "Twelve source-quoted plane-incident history/geography claims. Alleged legitimacy, unknown perpetrators, undated or narrator-relative events, and contemporary 2024/2026 conditions are never promoted to eternal or exhaustive canon.",
+  "source_register": {
+    "fmp_fiora_profile": {
+      "title": "Fiora",
+      "url": "https://magic.wizards.com/en/story/fiora-plane",
+      "kind": "official_plane_profile",
+      "perspective": "Wizards Fiora overview with historical and civic claims",
+      "published": ""
+    },
+    "fmp_marchesa_2016": {
+      "title": "Proclamation by Queen Marchesa",
+      "url": "https://magic.wizards.com/en/news/magic-story/proclamation-queen-marchesa-2016-08-15",
+      "kind": "official_magic_story",
+      "perspective": "In-world royal proclamation; politically interested speaker",
+      "published": "2016-08-15"
+    },
+    "fmp_kaldheim_2021": {
+      "title": "Planeswalker's Guide to Kaldheim, Part 1",
+      "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-kaldheim-part-1-2021-01-08",
+      "kind": "official_planeswalkers_guide",
+      "perspective": "Wizards' 2021 cosmology, geography and divine dynastic history",
+      "published": "2021-01-08"
+    },
+    "fmp_lorwyn_2026": {
+      "title": "Planeswalker's Guide to Lorwyn Eclipsed",
+      "url": "https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-to-lorwyn-eclipsed",
+      "kind": "official_planeswalkers_guide",
+      "perspective": "Wizards' 2026 contrast of the Age of Oona with current aurora boundaries",
+      "published": ""
+    },
+    "fmp_outlaws_look_2024": {
+      "title": "A First Look at Outlaws of Thunder Junction",
+      "url": "https://magic.wizards.com/en/news/announcements/a-first-look-at-outlaws-of-thunder-junction",
+      "kind": "official_set_story_preview",
+      "perspective": "Wizards promotional setting outline before the 2024 story's resolution",
+      "published": "2024-02-23"
+    },
+    "fmp_outlaws_episode2_2024": {
+      "title": "Outlaws of Thunder Junction | Episode 2: The Jailbreak",
+      "url": "https://magic.wizards.com/en/news/magic-story/episode-2-the-jailbreak",
+      "kind": "official_magic_story",
+      "perspective": "In-world report of Maag Taranau and frontier settlement",
+      "published": ""
+    },
+    "fmp_outlaws_crew_2024": {
+      "title": "A Legendary Crew for an Unbelievable Heist",
+      "url": "https://magic.wizards.com/en/news/feature/a-legendary-crew-for-an-unbelievable-heist-outlaws-of-thunder-junction",
+      "kind": "official_lore_feature",
+      "perspective": "Wizards 2024 character and location background",
+      "published": "2024-04-11"
+    }
+  },
+  "entities": [
+    {"id": "fiora", "type": "Plane", "name": "Fiora"},
+    {"id": "drakestown_massacre", "type": "Event", "name": "Massacre of Drakestown"},
+    {"id": "paliano_binding_laws", "type": "Concept", "name": "Paliano's magically binding laws"},
+    {"id": "marchesa", "type": "Character", "name": "Queen Marchesa"},
+    {"id": "kaldheim", "type": "Plane", "name": "Kaldheim"},
+    {"id": "kaldheim_world_tree", "type": "Object", "name": "Kaldheim's World Tree"},
+    {"id": "kaldheim_doomskar", "type": "Event", "name": "Doomskar realm-collision event"},
+    {"id": "skoti", "type": "Faction", "name": "The Skoti"},
+    {"id": "lorwyn_shadowmoor", "type": "Plane", "name": "Lorwyn-Shadowmoor"},
+    {"id": "great_aurora", "type": "Event", "name": "Great Aurora of the Age of Oona"},
+    {"id": "lorwyn_current_aurora_borders", "type": "Concept", "name": "Modern Lorwyn/Shadowmoor aurora boundaries"},
+    {"id": "lorwyn_aspect_transformations", "type": "Concept", "name": "Aurora-induced transformations"},
+    {"id": "thunder_junction", "type": "Plane", "name": "Thunder Junction"},
+    {"id": "maag_taranau", "type": "Place", "name": "Maag Taranau (the vault)"},
+    {"id": "oko", "type": "Character", "name": "Oko"},
+    {"id": "tarnation", "type": "Place", "name": "Tarnation"}
+  ],
+  "claims": [
+    {
+      "id": "FMP001", "subject": "fiora", "predicate": "was_site_of", "object": "drakestown_massacre",
+      "grade": "CANON_CONFIRMED", "event_stage": "fiora_drakestown_historical_massacre", "source_ids": ["fmp_fiora_profile"],
+      "source_excerpt": "The massacre of Drakestown is a grim reminder of this truth.",
+      "summary": "Wizards' Fiora profile records a past massacre in the outlying settlement of Drakestown.",
+      "limitation": "The official profile says the victims died in an unknown scheme; neither the killers nor exact timing are established here."
+    },
+    {
+      "id": "FMP002", "subject": "fiora", "predicate": "enforces_laws_through", "object": "paliano_binding_laws",
+      "grade": "CANON_CONFIRMED", "event_stage": "fiora_paliano_civic_structure", "source_ids": ["fmp_fiora_profile"],
+      "source_excerpt": "the laws issued from Paliano mystically bind the populace.",
+      "summary": "Paliano's governing laws exert magical binding force over Fiora's population.",
+      "limitation": "This is the source profile's political account, not proof that every later regime, region or visitor remains permanently subject to unchanged laws."
+    },
+    {
+      "id": "FMP003", "subject": "fiora", "predicate": "witnessed_royal_proclamation_by", "object": "marchesa",
+      "grade": "CANON_CONFIRMED", "event_stage": "fiora_marchesa_claims_throne_2016", "source_ids": ["fmp_marchesa_2016"],
+      "source_excerpt": "As proclaimed by her Majesty Queen Marchesa, the Black Rose, first of her name",
+      "summary": "Queen Marchesa publicly claimed sovereign authority over Paliano following Brago's reported final passing.",
+      "limitation": "This certifies Marchesa's 2016 in-world proclamation, not the truth of every claim she made about succession, lawful legitimacy or the former guard."
+    },
+    {
+      "id": "FMP004", "subject": "kaldheim", "predicate": "binds_realms_with", "object": "kaldheim_world_tree",
+      "grade": "CANON_CONFIRMED", "event_stage": "kaldheim_world_tree_cosmology_2021", "source_ids": ["fmp_kaldheim_2021"],
+      "source_excerpt": "The realms of Kaldheim are mini-planes that are all connected to a cosmic structure that births them",
+      "summary": "Kaldheim's mini-plane realms connect through the World Tree, which the guide describes as birthing the realms.",
+      "limitation": "The 2021 guide calls ten realms well known but explicitly allows others; it gives no exhaustive count or post-invasion health report for the tree."
+    },
+    {
+      "id": "FMP005", "subject": "kaldheim", "predicate": "experiences", "object": "kaldheim_doomskar",
+      "grade": "CANON_CONFIRMED", "event_stage": "kaldheim_doomskar_process_2021", "source_ids": ["fmp_kaldheim_2021"],
+      "source_excerpt": "Such an overlap is called a Doomskar, and it's a violent, explosive event marked by world-altering earthquakes and geological destabilization.",
+      "summary": "Kaldheim's moving realms sometimes collide in a destructive event called a Doomskar.",
+      "limitation": "This is a general mechanism, not a dated claim that a specific Doomskar caused a particular later conflict."
+    },
+    {
+      "id": "FMP006", "subject": "kaldheim", "predicate": "was_taken_over_by_gods", "object": "skoti",
+      "grade": "CANON_CONFIRMED", "event_stage": "kaldheim_skoti_replace_einir", "source_ids": ["fmp_kaldheim_2021"],
+      "source_excerpt": "The current ruling family of gods, the Skoti, supplanted the ancient Einir a few centuries ago.",
+      "summary": "The Skoti gods displaced the Einir as Kaldheim's ruling divine family before the guide's era.",
+      "limitation": "The 'few centuries' dating and word 'current' are relative to the 2021 guide; this does not independently certify today's leadership."
+    },
+    {
+      "id": "FMP007", "subject": "lorwyn_shadowmoor", "predicate": "historically_shifted_during", "object": "great_aurora",
+      "grade": "CANON_CONFIRMED", "event_stage": "lorwyn_age_of_oona_great_aurora", "source_ids": ["fmp_lorwyn_2026"],
+      "source_excerpt": "Lorwyn-Shadowmoor was once a plane that would shift between its two aspects in intervals of approximately three hundred years.",
+      "summary": "During the earlier Great Aurora cycle, Lorwyn-Shadowmoor switched its whole-plane aspects roughly every 300 years.",
+      "limitation": "The quoted interval belongs to the former Age of Oona; it must not be treated as the current cycle or a verified conversion to AR dates."
+    },
+    {
+      "id": "FMP008", "subject": "lorwyn_shadowmoor", "predicate": "has_aspect_borders", "object": "lorwyn_current_aurora_borders",
+      "grade": "CANON_CONFIRMED", "event_stage": "lorwyn_2026_aurora_frontiers", "source_ids": ["fmp_lorwyn_2026"],
+      "source_excerpt": "With auroras, the two aspects directly border one another.",
+      "summary": "In the guide's newer era, Lorwyn and Shadowmoor form adjacent day and night regions with shifting boundaries.",
+      "limitation": "The guide contrasts this with Oona's historical plane-wide shift; borders are dynamic, not a fixed map or permanent division for all future stories."
+    },
+    {
+      "id": "FMP009", "subject": "lorwyn_shadowmoor", "predicate": "undergoes", "object": "lorwyn_aspect_transformations",
+      "grade": "CANON_CONFIRMED", "event_stage": "lorwyn_2026_aspect_transformations", "source_ids": ["fmp_lorwyn_2026"],
+      "source_excerpt": "When these boundaries shift, everything within them transforms. This includes creatures and all other living entities.",
+      "summary": "Lorwyn-Shadowmoor's crossing aurora boundaries transform land and living residents between aspects.",
+      "limitation": "The same guide recognizes rare suppression and immunity; this should not be read as no exceptions or as a universal effect outside the plane."
+    },
+    {
+      "id": "FMP010", "subject": "thunder_junction", "predicate": "contains_ancient_vault", "object": "maag_taranau",
+      "grade": "CANON_CONFIRMED", "event_stage": "thunder_junction_discovered_vault_2024", "source_ids": ["fmp_outlaws_look_2024", "fmp_outlaws_episode2_2024"],
+      "source_excerpt": "An ancient vault has been discovered in Thunder Junction",
+      "summary": "The 2024 Wizards preview records a discovered ancient vault on Thunder Junction; the story names it Maag Taranau.",
+      "limitation": "A vault described as ancient is not evidence of a precise construction date or of the truth of characters' speculation about its builders."
+    },
+    {
+      "id": "FMP011", "subject": "thunder_junction", "predicate": "hosted_heist_plot_by", "object": "oko",
+      "grade": "CANON_CONFIRMED", "event_stage": "thunder_junction_oko_heist_setup_2024", "source_ids": ["fmp_outlaws_look_2024"],
+      "source_excerpt": "Oko, the baddest outlaw of them all, is getting together a posse of the Multiverse's most wanted to pull off a heist of epic scale.",
+      "summary": "Oko assembled an interplanar outlaw crew for a high-profile heist on Thunder Junction.",
+      "limitation": "The preview describes the heist's setup, not its outcome, every participant's ultimate role, or a permanent political order on the plane."
+    },
+    {
+      "id": "FMP012", "subject": "thunder_junction", "predicate": "has_frontier_city", "object": "tarnation",
+      "grade": "CANON_CONFIRMED", "event_stage": "thunder_junction_tarnation_2024", "source_ids": ["fmp_outlaws_crew_2024"],
+      "source_excerpt": "the unbreakable vault that floats above the Hellspur city of Tarnation",
+      "summary": "The Wizards character guide places the vault above Tarnation, a Hellspur city on Thunder Junction.",
+      "limitation": "This is a 2024 setting description; it does not independently identify who built the vault or establish the current city's later control."
+    }
+  ],
+  "remaining": [
+    "Fiora's Drakestown perpetrators and Marchesa's contested claims of legitimacy are unresolved.",
+    "Kaldheim's more-than-ten possible realms, timing of divine transitions and current tree condition remain open.",
+    "Lorwyn's former three-century Great Aurora cycle must not be applied to its newer locally shifting boundaries.",
+    "Thunder Junction's vault builder, age and heist outcome are not inferred from the preview.",
+    "Four other registered thin planes remain, and all incomplete history and owner foundation gates stay open. No decks are changed."
+  ]
+}

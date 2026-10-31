@@ -19,7 +19,7 @@ class ThinPlaneHistoryTests(unittest.TestCase):
         result = A.audit()
         self.assertEqual(result["status"], "PASS")
         self.assertEqual(result["claims"], 11)
-        self.assertEqual(result["remaining_thin_planes"], 8)
+        self.assertEqual(result["remaining_thin_planes"], 4)
         self.assertFalse(result["owner_approved"])
 
     def test_quotes_are_required_for_each_primary_page(self):

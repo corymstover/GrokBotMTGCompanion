@@ -34975,6 +34975,46 @@
    "card": "Jaya Ballard, Task Mage",
    "oracle_id": "cbbad3da-695e-4527-9678-0942f3751287",
    "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "FMP003",
+   "pack": "pack_p5_four_more_plane_histories_2026-10-31.json",
+   "participant": "marchesa",
+   "card": "Queen Marchesa",
+   "oracle_id": "d7ac4be1-dcca-49b6-8ddb-d1b0e6cf2dcf",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "FMP011",
+   "pack": "pack_p5_four_more_plane_histories_2026-10-31.json",
+   "participant": "oko",
+   "card": "Oko, Lorwyn Liege // Oko, Shadowmoor Scion",
+   "oracle_id": "a0c956dc-d7de-4f11-b76f-7537fbee1731",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "FMP011",
+   "pack": "pack_p5_four_more_plane_histories_2026-10-31.json",
+   "participant": "oko",
+   "card": "Oko, Thief of Crowns",
+   "oracle_id": "60c60923-ff1b-43f7-8768-731499fcffc9",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "FMP011",
+   "pack": "pack_p5_four_more_plane_histories_2026-10-31.json",
+   "participant": "oko",
+   "card": "Oko, the Ringleader",
+   "oracle_id": "4372b729-dc3d-4469-8fc5-811cc787d653",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "FMP011",
+   "pack": "pack_p5_four_more_plane_histories_2026-10-31.json",
+   "participant": "oko",
+   "card": "Oko, the Trickster",
+   "oracle_id": "f4bf8bd1-71b0-4eb1-976c-54677238b2a6",
+   "tier": "NAMED_PARTICIPANT"
   }
  ],
  "by_pack": {
@@ -35145,6 +35185,13 @@
    "ART_IN_CITED_SOURCE": 0,
    "PRINTED_IN_STORY_SET": 45,
    "NAMED_PARTICIPANT": 40
+  },
+  "pack_p5_four_more_plane_histories_2026-10-31.json": {
+   "claims": 12,
+   "claims_anchored": 2,
+   "ART_IN_CITED_SOURCE": 0,
+   "PRINTED_IN_STORY_SET": 0,
+   "NAMED_PARTICIPANT": 5
   },
   "pack_p5_four_plane_histories_2026-10-31.json": {
    "claims": 12,
@@ -35512,12 +35559,12 @@
   }
  },
  "counts": {
-  "claims": 1234,
-  "claims_anchored": 973,
-  "anchors": 4104,
+  "claims": 1246,
+  "claims_anchored": 975,
+  "anchors": 4109,
   "ART_IN_CITED_SOURCE": 123,
   "PRINTED_IN_STORY_SET": 546,
-  "NAMED_PARTICIPANT": 3435
+  "NAMED_PARTICIPANT": 3440
  },
- "content_sha256": "bf89710a91843af58054b89f4d1a42cddffc57b95a7d9fcf93245556038daa3f"
+ "content_sha256": "37c9b474ef467929ec60aadbd54c54561db60bd0556399f41f11d5f0acec92b4"
 }

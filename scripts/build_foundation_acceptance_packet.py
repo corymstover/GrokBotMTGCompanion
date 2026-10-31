@@ -75,6 +75,10 @@ QA_CASES = [
     ('plane_vryn', 'What is the history of Vryn?', 'ask->plane_history', 'QUALIFIED'),
     ('plane_serras_realm', "What is the history of Serra's Realm?", 'ask->plane_history', 'QUALIFIED'),
     ('plane_regatha', 'What is the history of Regatha?', 'ask->plane_history', 'QUALIFIED'),
+    ('plane_fiora', 'What is the history of Fiora?', 'ask->plane_history', 'QUALIFIED'),
+    ('plane_kaldheim', 'What is the history of Kaldheim?', 'ask->plane_history', 'QUALIFIED'),
+    ('plane_lorwyn_shadowmoor', 'What is the history of Lorwyn-Shadowmoor?', 'ask->plane_history', 'QUALIFIED'),
+    ('plane_thunder_junction', 'What is the history of Thunder Junction?', 'ask->plane_history', 'QUALIFIED'),
 ]
 
 

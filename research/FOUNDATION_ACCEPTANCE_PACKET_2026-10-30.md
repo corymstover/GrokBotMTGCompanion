@@ -7,7 +7,7 @@ This source-graded packet is reproducible from the repository, with exact input 
 ## Inventory and supported lookups
 
 - 576 official source pages cited and 50 reviewed without a claim within the inventoried 626-page scope. Citation does not mean exhaustive reading.
-- 1234 source-graded graph claims across 5232 nodes; 33 registered planes, 8 still thin.
+- 1246 source-graded graph claims across 5259 nodes; 33 registered planes, 4 still thin.
 - 484 registered characters and 149 factions; 633 with direct cited claims, 0 without.
 - 53 previously researched on-plane contextual claims in 4 dossiers, strictly distinct from new/direct graph claims.
 
@@ -51,6 +51,10 @@ This source-graded packet is reproducible from the repository, with exact input 
 | What is the history of Vryn? | `ask->plane_history` | `QUALIFIED` | 3 |
 | What is the history of Serra's Realm? | `ask->plane_history` | `QUALIFIED` | 2 |
 | What is the history of Regatha? | `ask->plane_history` | `QUALIFIED` | 4 |
+| What is the history of Fiora? | `ask->plane_history` | `QUALIFIED` | 4 |
+| What is the history of Kaldheim? | `ask->plane_history` | `QUALIFIED` | 6 |
+| What is the history of Lorwyn-Shadowmoor? | `ask->plane_history` | `QUALIFIED` | 9 |
+| What is the history of Thunder Junction? | `ask->plane_history` | `QUALIFIED` | 4 |
 
 The underlying JSON retains response digests, exact source URLs and caveat flags. The two graph-navigation examples are **not** evidence of chronological or causal paths.
 
@@ -73,6 +77,6 @@ python3 scripts/certification_dry_run.py --check
 python3 scripts/update_multiverse_progress_tracker.py --check
 ```
 
-Packet SHA-256 (canonical JSON): `9cb53841440c3b275a8baf0fc374d15b1210d31a047f867ef1bd75970cfe6ef2`
+Packet SHA-256 (canonical JSON): `2b900bfc705928e254f07c94c7b5adbbf7eb113162763e377bd9b87cc854aba3`
 
 **No decks were built, modified, reviewed or approved.**
