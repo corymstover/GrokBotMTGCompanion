@@ -21,7 +21,7 @@
     },
     "source_local_chronology": {
       "path": "data/lore_research/source_event_sequences_2026-10-30.json",
-      "sha256": "c894fb8b140f3411e67c86fdb690658b274132fd11aaf16dc55f86efaa4d8c30"
+      "sha256": "55234a7b2ceb6daf445bb7730f49ad6924b9f8992338de0bfc562d0feba10874"
     },
     "story_coverage": {
       "path": "data/lore_research/story_coverage_inventory_2026-10-30.json",
@@ -1137,6 +1137,56 @@
       "direct_claims": null,
       "chronology_relation": "UNKNOWN",
       "known_limitations": []
+    },
+    {
+      "id": "cross_ledger_cited_before",
+      "question": "Did B:phyrexia_creator_dies happen before T:rath_constructed?",
+      "route": "ask->chronology",
+      "confidence": "QUALIFIED",
+      "flags": [
+        "PARTIAL_IN_UNIVERSE_CHRONOLOGY",
+        "CROSS_LEDGER_SOURCE_BRIDGED"
+      ],
+      "sources": [
+        "https://magic.wizards.com/en/news/feature/known-mutliverse-2008-03-19"
+      ],
+      "response_sha256": "386e6a8d9a4ad012625550e486907098176abf42a125789ed34f08a68cf55bac",
+      "direct_claims": null,
+      "chronology_relation": "BEFORE",
+      "known_limitations": []
+    },
+    {
+      "id": "cross_ledger_same_event",
+      "question": "Did B:phyrexia_portal_closed happen before T:portal_closed?",
+      "route": "ask->chronology",
+      "confidence": "QUALIFIED",
+      "flags": [
+        "PARTIAL_IN_UNIVERSE_CHRONOLOGY",
+        "CROSS_LEDGER_SOURCE_BRIDGED"
+      ],
+      "sources": [
+        "https://magic.wizards.com/en/news/feature/known-mutliverse-2008-03-19"
+      ],
+      "response_sha256": "cae1c075dbdc6115ea5d96bb9aa1194b5f1f2f59430c56d23f428489ffa5de3d",
+      "direct_claims": null,
+      "chronology_relation": "SAME_EVENT",
+      "known_limitations": []
+    },
+    {
+      "id": "cross_ledger_beyond_bridge_unknown",
+      "question": "Did B:phyrexia_creator_dies happen before T:yawgmoth_destroyed?",
+      "route": "ask->chronology",
+      "confidence": "QUALIFIED",
+      "flags": [
+        "PARTIAL_IN_UNIVERSE_CHRONOLOGY",
+        "NO_CITED_CHRONOLOGY_PATH",
+        "CROSS_LEDGER_UNANCHORED"
+      ],
+      "sources": [],
+      "response_sha256": "035bc9cb2e1574bbd52b223fc5e9c45a5bf606f28579eeef802af00785124559",
+      "direct_claims": null,
+      "chronology_relation": "UNKNOWN",
+      "known_limitations": []
     }
   ],
   "cross_plane_graph_navigation": [
@@ -1214,5 +1264,5 @@
     "python3 scripts/update_multiverse_progress_tracker.py --check"
   ],
   "owner_review_status": "PENDING_NOT_REQUESTED_UNTIL_ENGINEERING_EVIDENCE_AND_CI_COMPLETE",
-  "content_sha256": "f0724b476db8f719a44c1612a13f906d434d22bdceb4d34de2f40558f4028fac"
+  "content_sha256": "6c59a8b7e545333bcefb3b29141de3428e62526c094121cd8f63943e7e2e148a"
 }

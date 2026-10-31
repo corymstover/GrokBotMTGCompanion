@@ -107,6 +107,15 @@ QA_CASES = [
     ('serras_realm_radiant_order_unknown',
      'Did S:radiant_assumes_rule happen before S:realm_powerstone_collapse?',
      'ask->chronology', 'QUALIFIED'),
+    ('cross_ledger_cited_before',
+     'Did B:phyrexia_creator_dies happen before T:rath_constructed?',
+     'ask->chronology', 'QUALIFIED'),
+    ('cross_ledger_same_event',
+     'Did B:phyrexia_portal_closed happen before T:portal_closed?',
+     'ask->chronology', 'QUALIFIED'),
+    ('cross_ledger_beyond_bridge_unknown',
+     'Did B:phyrexia_creator_dies happen before T:yawgmoth_destroyed?',
+     'ask->chronology', 'QUALIFIED'),
 ]
 
 
@@ -148,6 +157,18 @@ def qa_cases() -> list[dict]:
         if key in {'phyrexia_vs_yawgmoth_outcome_unknown','serras_realm_radiant_order_unknown'} and (
                 r['result']['relation'] != 'UNKNOWN' or r['sources']):
             raise ValueError(f'Unsupported first-invasion/Serra order falsely inferred for {key}')
+        if key == 'cross_ledger_cited_before' and (
+                r['result']['relation'] != 'BEFORE' or
+                'CROSS_LEDGER_SOURCE_BRIDGED' not in r['flags'] or not r['sources']):
+            raise ValueError('Proven cross-ledger ordering lost its source bridge')
+        if key == 'cross_ledger_same_event' and (
+                r['result']['relation'] != 'SAME_EVENT' or
+                'CROSS_LEDGER_SOURCE_BRIDGED' not in r['flags'] or r['result']['answer'] is not None):
+            raise ValueError('Source-equivalent events falsely ordered')
+        if key == 'cross_ledger_beyond_bridge_unknown' and (
+                r['result']['relation'] != 'UNKNOWN' or r['sources'] or
+                'CROSS_LEDGER_UNANCHORED' not in r['flags']):
+            raise ValueError('Unproven cross-ledger sequence falsely answered')
         if key == 'present_leader_unknown' and 'CURRENT_LEADER_NOT_ESTABLISHED' not in r['flags']:
             raise ValueError('Present-day leadership is overstated')
         if key == 'commander_identity' and not r['result']['allowed']:

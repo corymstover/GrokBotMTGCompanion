@@ -26,6 +26,7 @@ ROOT = Path(__file__).resolve().parents[1]
 SPEC = ROOT / 'data/lore_research/source_event_sequences_spec_2026-10-30.json'
 OUT = ROOT / 'data/lore_research/source_event_sequences_2026-10-30.json'
 MANIFEST = ROOT / 'data/multiverse_graph/manifest.json'
+LEGACY = ROOT / 'data/lore_research/relative_chronology_2026-10-30.json'
 CERTAINTIES = {'HISTORICAL_SOURCE_ACCOUNT', 'NARRATED_TRADITION_ONLY'}
 RELATIONS = {'BEFORE', 'DURING_OR_AFTER_START'}
 
@@ -128,6 +129,35 @@ def build() -> dict:
                         'strict_edges': sum(e['relation'] == 'BEFORE' for e in strand_edges),
                         'non_ordering_relations': sum(e['relation'] != 'BEFORE' for e in strand_edges)})
 
+    # A same-event bridge is not a chronology edge. Admit it only when both
+    # ledgers cite the same official page for the particular event, so the
+    # separate historical accounts remain independent except for explicit IDs.
+    legacy = json.loads(LEGACY.read_text(encoding='utf-8'))
+    old_events = {n['id']: n for n in legacy['nodes'] if n['kind'] == 'EVENT'}
+    bridges, touched, used_old, used_local = [], set(), set(), set()
+    for link in spec.get('legacy_bridges', []):
+        a, b, sid, quote = link['legacy'], link['local'], link['source_id'], link['quote']
+        if a not in old_events or b not in ids or (a, b) in touched or a in used_old or b in used_local:
+            raise ValueError(f'invalid or duplicate legacy bridge {a} <-> {b}')
+        touched.add((a, b))
+        used_old.add(a)
+        used_local.add(b)
+        if sid not in source_regs or not link.get('note') or not quote:
+            raise ValueError(f'unsourced legacy bridge {a} <-> {b}')
+        source = source_regs[sid]
+        if not source['url'].startswith('https://magic.wizards.com/'):
+            raise ValueError('cross-ledger bridge source is not official Wizards')
+        corroborating = [e for e in legacy['stated_edges']
+                         if a in (e['earlier'], e['later']) and e['source_url'] == source['url']
+                         and canon(quote) in canon(e['quote'])]
+        if not corroborating or not any(b in (e['earlier'], e['later']) and e['source_id'] == sid
+                                      for e in edges):
+            raise ValueError(f'bridge lacks matching original/local source evidence: {a} <-> {b}')
+        bridges.append({'legacy':a,'local':b,'relation':'SAME_EVENT',
+                        'source_id':sid,'source_url':source['url'],'source_title':source['title'],
+                        'quote':quote,'quote_sha256':hashlib.sha256(canon(quote).encode()).hexdigest(),
+                        'note':link['note']})
+
     paths = closure(ids, edges)
     out = {
         'schema': 'source-event-sequences/v1',
@@ -139,11 +169,12 @@ def build() -> dict:
         'counts': {'strands':len(strands), 'events':len(nodes), 'strict_edges':sum(e['relation'] == 'BEFORE' for e in edges),
                    'non_ordering_relations':sum(e['relation'] != 'BEFORE' for e in edges),
                    'ordered_pairs':sum(len(reach) for reach in paths.values()),
-                   'total_pairs':len(nodes)*(len(nodes)-1)//2},
+                   'total_pairs':len(nodes)*(len(nodes)-1)//2,
+                   'verified_legacy_bridges':len(bridges)},
         'strands': strands, 'nodes': sorted(nodes, key=lambda n: n['id']),
-        'edges': edges, 'precedes': paths,
+        'edges': edges, 'legacy_bridges': bridges, 'precedes': paths,
         'known_gaps': [
-            'No primary-source edge joins distinct strand IDs, so cross-plane comparisons remain UNKNOWN.',
+            'No primary-source edge joins distinct source-local strand IDs. Only explicitly source-corroborated SAME_EVENT links join the legacy and source-local ledgers; all other cross-ledger comparisons remain UNKNOWN.',
             'Valley events order an explicitly legendary in-world account, not objectively certified ancient history.',
             'New Phyrexia events describe early Mirrodin conquest; the source does not order the complete war, the Mirrans being overwhelmed against Venser\'s sacrifice, or the political present after March of the Machine.',
             'Muraganda: the ancient collapse versus moon-shattering sequence, the exact overlap of moon-strikes and survivor cultures, and the origin of the modern Autocracy remain unbridged.',
@@ -167,10 +198,10 @@ def live_check() -> dict:
             reader = TextOnly()
             reader.feed(response.read().decode('utf-8', errors='replace'))
         pages[sid] = canon(' '.join(reader.parts))
-    for edge in data['edges']:
+    for edge in data['edges'] + data['legacy_bridges']:
         if canon(edge['quote']) not in pages[edge['source_id']]:
-            raise ValueError(f"source quote missing live: {edge['earlier']} -> {edge['later']}")
-    return {'result': 'PASS', 'live_checked_quotes':len(data['edges']), 'pages':len(pages)}
+            raise ValueError(f"source quote missing live: {edge.get('earlier', edge.get('legacy'))} -> {edge.get('later', edge.get('local'))}")
+    return {'result': 'PASS', 'live_checked_quotes':len(data['edges'])+len(data['legacy_bridges']), 'pages':len(pages)}
 
 
 def proof(data: dict, left: str, right: str) -> dict:

@@ -128,8 +128,58 @@ def check(data):
             "unresolved_pairs": data["counts"]["total_pairs"] - data["counts"]["comparable_pairs"]}
 
 
+def composite_arcs(legacy, local):
+    """Strict chronology arcs plus *explicit* bidirectional same-event bridges.
+
+    The bridges preserve their source quotation in the returned proof. An
+    equality alone never becomes a BEFORE edge and never moves an AR date.
+    """
+    _, aliases, old_arcs = graph(legacy)
+    arcs = defaultdict(list)
+    for earlier, successors in old_arcs.items():
+        arcs[earlier].extend(successors)
+    for e in local['edges']:
+        if e['relation'] == 'BEFORE':
+            arcs[e['earlier']].append((e['later'],e))
+    for bridge in local.get('legacy_bridges', []):
+        a, b = bridge['legacy'], bridge['local']
+        for before, after in ((a,b),(b,a)):
+            evidence = dict(bridge, earlier=before, later=after)
+            arcs[before].append((after,evidence))
+    return arcs, aliases
+
+
+def composite_proof(arcs, start, target, require_strict):
+    todo = deque([(start, [], False)])
+    seen = {(start,False)}
+    while todo:
+        current, steps, strict = todo.popleft()
+        if current == target and (not require_strict or strict):
+            return steps
+        for later, evidence in arcs[current]:
+            is_strict = evidence['relation'] == 'BEFORE'
+            if require_strict or not is_strict:
+                new_strict = strict or is_strict
+                state = (later,new_strict)
+                if state not in seen:
+                    seen.add(state)
+                    todo.append((later, steps+[evidence], new_strict))
+    return None
+
+
+def check_composite(legacy, local):
+    """Reject a chronology cycle introduced by otherwise plausible bridges."""
+    arcs, _ = composite_arcs(legacy,local)
+    ids = {n['id'] for n in legacy['nodes']+local['nodes']}
+    for eid in ids:
+        if composite_proof(arcs,eid,eid,require_strict=True) is not None:
+            raise ValueError('cross-ledger chronology cycle involving '+eid)
+    return {'result':'PASS','verified_bridges':len(local.get('legacy_bridges', [])),
+            'strict_cycles':0}
+
+
 def compare_across_datasets(legacy, local, left, right):
-    """Query both independent chronology ledgers without inventing links between them."""
+    """Only explicit same-event evidence may join independently scoped ledgers."""
     old_ids = {n['id'] for n in legacy['nodes']}
     new_ids = {n['id'] for n in local['nodes']}
     lookup = {n['id']:n['label'] for n in legacy['nodes'] + local['nodes']}
@@ -146,9 +196,24 @@ def compare_across_datasets(legacy, local, left, right):
     if left in new_ids and right in new_ids:
         return SEQ.proof(local, left, right)
     if (left in old_ids | new_ids) and (right in old_ids | new_ids):
-        return {'result': 'UNKNOWN', 'left': left, 'right': right, 'proof': [],
-                'confidence': 'UNRESOLVED',
-                'limitation': 'The original Packs A–C chronology and new source-local strands have no cited cross-ledger bridge. No relative order can be inferred.'}
+        arcs, aliases = composite_arcs(legacy,local)
+        a, b = aliases.get(left,left),aliases.get(right,right)
+        same = composite_proof(arcs,a,b,require_strict=False)
+        if same is not None:
+            result, path = 'SAME_EVENT',same
+        else:
+            forward = composite_proof(arcs,a,b,require_strict=True)
+            backward = composite_proof(arcs,b,a,require_strict=True)
+            if forward is not None and backward is not None:
+                raise ValueError('contradictory cross-ledger chronology paths')
+            result,path = ('BEFORE',forward) if forward is not None else (
+                ('AFTER',backward) if backward is not None else ('UNKNOWN',[]))
+        return {'result':result,'left':left,'right':right,'proof':path,
+                'confidence':'QUALIFIED_CITED_CROSS_LEDGER_SEQUENCE' if path else 'UNRESOLVED',
+                'limitation':('Only the seven explicitly source-corroborated event identities bridge the ledgers; '
+                              'these do not establish a global chronology, an AR date or any unstated comparisons.')
+                if path else ('No cited cross-ledger SAME_EVENT bridge plus strict BEFORE chain connects '
+                              'these events. UNKNOWN does not mean simultaneous or unrelated.')}
     raise ValueError('unknown chronology event ID; use --list')
 
 
@@ -172,6 +237,7 @@ def main():
         if source_data != SEQ.build():
             raise ValueError('source-event sequences stale; regenerate from quoted specification')
         result['source_local_sequences'] = source_data['counts']
+        result['cross_ledger'] = check_composite(data,source_data)
     print(json.dumps(result, ensure_ascii=False, indent=2))
 
 

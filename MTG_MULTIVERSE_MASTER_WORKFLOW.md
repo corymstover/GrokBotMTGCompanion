@@ -1,6 +1,6 @@
 # MTG Multiverse Companion — Master Workflow & Progress Checklist
 
-**Version:** 2.70
+**Version:** 2.71
 **Checkpoint date:** 2026-10-31
 **Repository:** [corymstover/GrokBotMTGCompanion](https://github.com/corymstover/GrokBotMTGCompanion)  
 **Purpose:** Durable project roadmap and handoff document. Update this file after verified milestone work; do not treat historical figures as live counters.
@@ -22,6 +22,30 @@ foundation release may document inherently unresolved canon and future
 maintenance; it must never claim exhaustive knowledge of all MTG history.
 The 62 approved Grixis decks, their hashes and all owner gates remain intact.
 Only a new explicit request from Cory can override the Phase 6 hold.
+
+**v2.71 Phase 4 source-corroborated cross-ledger chronology bridges (2026-10-31):**
+Seven explicit `SAME_EVENT` identity links now join the formerly isolated
+Packs A–C legacy timeline and the separate Thran/Rath source-local strand
+**only where both ledgers cite the same official Wizards historical passage**:
+the original Phyrexian creator's death, Dyfed bringing Yawgmoth, closure
+of the Thran-Phyrexia portal, Thran defeat, the Sisay rescue on Rath,
+the Weatherlight crew's arrival on Mercadia, and the Rathi overlay.
+The bridge links are **not** BEFORE edges and are one-to-one; a combined
+proof must also traverse an independently cited strict BEFORE edge before
+answering a mixed-ledger order. The composite audit rejects cycles, an
+equivalent event is answered `SAME_EVENT` rather than as earlier/later,
+and unrelated or unbridged accounts remain `UNKNOWN`. All **67 excerpts,
+including seven new bridge quotations, passed live validation** against
+seven official Wizards pages. Three added positive/identity/unknown Q&A
+cases bring the preliminary foundation packet to **49 questions**. The two
+chronology universes retain **56 legacy events** and **74 source-local
+events** with **seven explicit shared event identities**—no false
+global-completion fraction is reported. Other lore totals stay **1,259
+claims, 5,290 nodes, 8,473 edges**; checklist **83/137** and readiness
+**NOT_RELEASE_READY**. The missing historical Scryfall source, complete
+history and owner decisions remain blockers. All 62 protected decks and
+Phase 6 pilots remain unchanged. See
+`research/PHASE4_SOURCE_LOCAL_EVENT_SEQUENCES_2026-10-30.md`.
 
 **v2.70 Phase 4 Thran, Old Phyrexia and Serra's Realm chronology (2026-10-31):**
 Added **23 source-local historical events, 20 strict BEFORE relations and one
