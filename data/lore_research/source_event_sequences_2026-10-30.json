@@ -2,7 +2,7 @@
   "schema": "source-event-sequences/v1",
   "status": "PRELIMINARY_RESEARCH_NOT_OWNER_APPROVED",
   "date": "2026-10-30",
-  "scope": "Six bounded, individually sourced chronology strands. No cross-plane alignment, no absolute AR date conversion and no assertions that a narrated legend is historical fact. The New Phyrexia strand describes the early Mirrodin conquest as presented in Wizards' historical plane overview, not the post-March of the Machine political present. The Meditation Realm strand is Ugin's remembered early conflict, not an assertion about the Realm's later state after Tarkir: Dragonstorm.",
+  "scope": "Eight bounded, individually sourced chronology strands. No automatic cross-strand alignment, no absolute AR date conversion and no assertions that a narrated legend is historical fact. The Thran-to-invasion strand uses the 2008 Wizards historical retrospective and does not decide the order between Old Phyrexia's decimation and Yawgmoth's destruction. The New Phyrexia strand describes early Mirrodin conquest, not post-March of the Machine politics. The Meditation Realm strand is Ugin's remembered early conflict, not a statement about the Realm's later state after Tarkir: Dragonstorm.",
   "sources": {
     "blb_guide1": {
       "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-bloomburrow-part-1",
@@ -13,6 +13,11 @@
       "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-duskmourn",
       "title": "Planeswalker's Guide to Duskmourn",
       "published": "2024-08-31"
+    },
+    "km": {
+      "url": "https://magic.wizards.com/en/news/feature/known-mutliverse-2008-03-19",
+      "title": "The Known Mutliverse",
+      "published": null
     },
     "lf_meditation_chronicle": {
       "url": "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-unwritten-now-2018-08-15",
@@ -36,12 +41,12 @@
     }
   },
   "counts": {
-    "strands": 6,
-    "events": 51,
-    "strict_edges": 37,
-    "non_ordering_relations": 2,
-    "ordered_pairs": 101,
-    "total_pairs": 1275
+    "strands": 8,
+    "events": 74,
+    "strict_edges": 57,
+    "non_ordering_relations": 3,
+    "ordered_pairs": 180,
+    "total_pairs": 2701
   },
   "strands": [
     {
@@ -96,6 +101,24 @@
       "limitation": "These are the historical events represented by Ugin's memory in the 2018 Chronicle of Bolas story, not independent absolute dates, a claim that Ugin permanently died, or a statement that the Realm remains intact or Bolas confined after later stories.",
       "events": 10,
       "strict_edges": 9,
+      "non_ordering_relations": 0
+    },
+    {
+      "id": "T",
+      "title": "Thran decline to Yawgmoth's first Phyrexian invasion — 2008 Wizards retrospective",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "limitation": "This is the 2008 official retrospective, not a complete novel-era chronology or a current-status claim. The text independently describes Old Phyrexia's soul-bomb devastation and the Weatherlight's defeat of Yawgmoth, but supplies no strict BEFORE path between those two outcomes. Rath's overlay and the invasion's start are near-simultaneous, not two strictly separated events.",
+      "events": 16,
+      "strict_edges": 14,
+      "non_ordering_relations": 1
+    },
+    {
+      "id": "S",
+      "title": "Serra's Realm — Urza's refuge, the Phyrexian incursion and collapse",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "limitation": "The 2008 official summary recounts one historical sequence; it does not prove a complete angel/faction chronology, the timing of Radiant's administration against the final powerstone collapse, or any exact AR date.",
+      "events": 7,
+      "strict_edges": 6,
       "non_ordering_relations": 0
     }
   ],
@@ -541,6 +564,177 @@
           "grade": "CANON_CONFIRMED"
         }
       ]
+    },
+    {
+      "id": "S:phyrexians_attack",
+      "strand": "S",
+      "label": "Phyrexians find and attack Serra's Realm",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": []
+    },
+    {
+      "id": "S:radiant_assumes_rule",
+      "strand": "S",
+      "label": "Radiant assumes control after Serra's departure",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": []
+    },
+    {
+      "id": "S:realm_powerstone_collapse",
+      "strand": "S",
+      "label": "Urza collapses the dying realm into a powerstone for the Weatherlight",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": []
+    },
+    {
+      "id": "S:serra_abandons",
+      "strand": "S",
+      "label": "Serra abandons the corrupted realm",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": []
+    },
+    {
+      "id": "S:serra_creates_realm",
+      "strand": "S",
+      "label": "Serra creates her artificial realm",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": []
+    },
+    {
+      "id": "S:serra_heals_urza",
+      "strand": "S",
+      "label": "Serra and her angels heal Urza",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": []
+    },
+    {
+      "id": "S:urza_flees",
+      "strand": "S",
+      "label": "Urza flees to Serra's Realm to escape Phyrexian pursuers",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": []
+    },
+    {
+      "id": "T:dyfed_brings_yawgmoth",
+      "strand": "T",
+      "label": "Dyfed takes Yawgmoth to Old Phyrexia during Thran decline",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": []
+    },
+    {
+      "id": "T:invasion_begins",
+      "strand": "T",
+      "label": "Phyrexia's first large invasion of Dominaria begins",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": []
+    },
+    {
+      "id": "T:old_phyrexia_decimated",
+      "strand": "T",
+      "label": "Planeswalkers decimate Old Phyrexia using soul bombs",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": [
+        {
+          "id": "C502",
+          "grade": "CANON_CONFIRMED"
+        }
+      ]
+    },
+    {
+      "id": "T:phyrexian_creator_dies",
+      "strand": "T",
+      "label": "The unnamed creator and master of Old Phyrexia dies",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": []
+    },
+    {
+      "id": "T:portal_closed",
+      "strand": "T",
+      "label": "The portal between Dominaria and Phyrexia is closed",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": []
+    },
+    {
+      "id": "T:rath_constructed",
+      "strand": "T",
+      "label": "Rath is designed as Phyrexia's invasion device",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": []
+    },
+    {
+      "id": "T:rath_overlay",
+      "strand": "T",
+      "label": "Rath is laid over Dominaria",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": []
+    },
+    {
+      "id": "T:thran_defeated",
+      "strand": "T",
+      "label": "The Thran Empire is defeated",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": []
+    },
+    {
+      "id": "T:thran_horrified",
+      "strand": "T",
+      "label": "The Thran grow horrified at Yawgmoth's actions",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": []
+    },
+    {
+      "id": "T:thran_war",
+      "strand": "T",
+      "label": "War erupts between the Thran and Phyrexian legions",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": []
+    },
+    {
+      "id": "T:weatherlight_mercadia",
+      "strand": "T",
+      "label": "The Weatherlight crew escapes from Rath to Mercadia",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": []
+    },
+    {
+      "id": "T:weatherlight_to_rath",
+      "strand": "T",
+      "label": "The Weatherlight crew travels to Rath to rescue Sisay",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": []
+    },
+    {
+      "id": "T:yawgmoth_destroyed",
+      "strand": "T",
+      "label": "The Weatherlight crew uses the Legacy to destroy Yawgmoth",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": [
+        {
+          "id": "C501",
+          "grade": "CANON_CONFIRMED"
+        }
+      ]
+    },
+    {
+      "id": "T:yawgmoth_plots",
+      "strand": "T",
+      "label": "Yawgmoth seeks to conquer Dominaria over millennia",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": []
+    },
+    {
+      "id": "T:yawgmoth_power_grows",
+      "strand": "T",
+      "label": "Yawgmoth's power grows in Old Phyrexia",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": []
+    },
+    {
+      "id": "T:yawgmoth_rules",
+      "strand": "T",
+      "label": "Yawgmoth becomes master of Old Phyrexia",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": []
     },
     {
       "id": "V:animalfolk_shelter",
@@ -1123,6 +1317,258 @@
       "quote": "A pale sheet of liquid trickles up as out of nowhere, returning from the unseen and untouchable web of darkness.",
       "quote_sha256": "2176ffaf88ab6ebbe7914805b4843586882a220d76f2617b0e7e263767656db8",
       "note": "The following account shows the Realm refill and Ugin reform; the ontology and elapsed time remain uncertain."
+    },
+    {
+      "earlier": "T:phyrexian_creator_dies",
+      "later": "T:dyfed_brings_yawgmoth",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "km",
+      "source_url": "https://magic.wizards.com/en/news/feature/known-mutliverse-2008-03-19",
+      "source_title": "The Known Mutliverse",
+      "quote": "the planeswalker Dyfed took Yawgmoth to Phyrexia shortly after its creator and master had died",
+      "quote_sha256": "fb773a833c9e02dcc7460bcc0913edb40bd54ccee6e97f0df7532365f7ec5cdf",
+      "note": "The guide explicitly states 'shortly after'; neither creator identity nor an AR year is asserted."
+    },
+    {
+      "earlier": "T:dyfed_brings_yawgmoth",
+      "later": "T:yawgmoth_rules",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "km",
+      "source_url": "https://magic.wizards.com/en/news/feature/known-mutliverse-2008-03-19",
+      "source_title": "The Known Mutliverse",
+      "quote": "Dyfed also created a planar portal between Dominaria and Phyrexia. Yawgmoth saw Phyrexia as a means of saving the Thran",
+      "quote_sha256": "e3ba7d2b1016b9797402564e6f4e9f3aef500373f32790ec37dc30cd64abe69e",
+      "note": "The account introduces Yawgmoth's arrival and purposes before saying he became the new master."
+    },
+    {
+      "earlier": "T:yawgmoth_rules",
+      "later": "T:yawgmoth_power_grows",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "km",
+      "source_url": "https://magic.wizards.com/en/news/feature/known-mutliverse-2008-03-19",
+      "source_title": "The Known Mutliverse",
+      "quote": "He became Phyrexia's new master. Fueled by Phyrexia's twisted ecology, Yawgmoth's megalomania and power grew.",
+      "quote_sha256": "bf5d12d374d56ee76586567b49b506b49112d91e7f5d712fd4ca23847f26a7db",
+      "note": "The official retrospective narrates the ascent before the subsequent growth of power."
+    },
+    {
+      "earlier": "T:yawgmoth_power_grows",
+      "later": "T:thran_horrified",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "km",
+      "source_url": "https://magic.wizards.com/en/news/feature/known-mutliverse-2008-03-19",
+      "source_title": "The Known Mutliverse",
+      "quote": "Yawgmoth's megalomania and power grew. He came to believe that Phyrexia was the pinnacle of evolved life—that it was superior to life. The Thran became increasingly horrified by Yawgmoth's actions and their effects.",
+      "quote_sha256": "0f0227472edd8966344de37dfc06238c501e416048473a432f43bcecdad5d118",
+      "note": "The horror is described as a response to actions following his growing power; not a precise start date."
+    },
+    {
+      "earlier": "T:thran_horrified",
+      "later": "T:thran_war",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "km",
+      "source_url": "https://magic.wizards.com/en/news/feature/known-mutliverse-2008-03-19",
+      "source_title": "The Known Mutliverse",
+      "quote": "The Thran became increasingly horrified by Yawgmoth's actions and their effects. War erupted between the weakened Thran and Yawgmoth's Phyrexian legions.",
+      "quote_sha256": "21f9667d70f998798da0bc931d64888c91336a615b33152f78a803529ea20650",
+      "note": "The retrospective introduces mounting horror before the outbreak of war."
+    },
+    {
+      "earlier": "T:thran_war",
+      "later": "T:portal_closed",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "km",
+      "source_url": "https://magic.wizards.com/en/news/feature/known-mutliverse-2008-03-19",
+      "source_title": "The Known Mutliverse",
+      "quote": "War erupted between the weakened Thran and Yawgmoth's Phyrexian legions. The Thran were defeated, but not before the portal was closed",
+      "quote_sha256": "1c84b9d581874112b09df66749a8eeda4650aca7a4aa7efa29b8f9166c8b6067",
+      "note": "The portal is closed during the conflict, before defeat; the exact battle is not specified."
+    },
+    {
+      "earlier": "T:portal_closed",
+      "later": "T:thran_defeated",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "km",
+      "source_url": "https://magic.wizards.com/en/news/feature/known-mutliverse-2008-03-19",
+      "source_title": "The Known Mutliverse",
+      "quote": "The Thran were defeated, but not before the portal was closed, trapping Yawgmoth and the Phyrexians in their plane.",
+      "quote_sha256": "26dbf74aa0c73610910bd4b4ba3614cc88ce73099a45b35df26fe448078ff5c5",
+      "note": "The account explicitly puts closure before Thran defeat."
+    },
+    {
+      "earlier": "T:thran_defeated",
+      "later": "T:yawgmoth_plots",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "km",
+      "source_url": "https://magic.wizards.com/en/news/feature/known-mutliverse-2008-03-19",
+      "source_title": "The Known Mutliverse",
+      "quote": "The Thran were defeated, but not before the portal was closed, trapping Yawgmoth and the Phyrexians in their plane. For millennia Yawgmoth sought a way to conquer Dominaria.",
+      "quote_sha256": "f79e313c220ca344d4165513c61ca2ca66eebd2aea94bc8967f3d00e2b9c16d0",
+      "note": "The millennia-long search follows the historical trapping and Thran war."
+    },
+    {
+      "earlier": "T:yawgmoth_plots",
+      "later": "T:rath_constructed",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "km",
+      "source_url": "https://magic.wizards.com/en/news/feature/known-mutliverse-2008-03-19",
+      "source_title": "The Known Mutliverse",
+      "quote": "For millennia Yawgmoth sought a way to conquer Dominaria. The eventual instrument of his invasion was the artificial plane of Rath",
+      "quote_sha256": "61bc13c7f48248ef5c1ff6569e38c272777cecb1910903aaa715d3fab847c1dd",
+      "note": "The design emerges as the eventual means during a search begun earlier; no separate start/end of the search is inferred."
+    },
+    {
+      "earlier": "T:rath_constructed",
+      "later": "T:rath_overlay",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "km",
+      "source_url": "https://magic.wizards.com/en/news/feature/known-mutliverse-2008-03-19",
+      "source_title": "The Known Mutliverse",
+      "quote": "The eventual instrument of his invasion was the artificial plane of Rath, which was designed to lay over Dominaria",
+      "quote_sha256": "b99f6eebbaa9be510b8e6e0d4ef6a7b3a2bb02622ade42981ac345caab774d0b",
+      "note": "Rath was designed for overlay before its purpose was realized; no invented construction date."
+    },
+    {
+      "earlier": "T:weatherlight_to_rath",
+      "later": "T:rath_overlay",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "km",
+      "source_url": "https://magic.wizards.com/en/news/feature/known-mutliverse-2008-03-19",
+      "source_title": "The Known Mutliverse",
+      "quote": "The skyship Weatherlight and its crew traveled to Rath to rescue the ship's captain Sisay. Later, when the Phyrexian aggression began in earnest, Rath's purpose was fulfilled as it was laid over Dominaria",
+      "quote_sha256": "474745498f69673d9a18b8d8b086a09373a4fa978267f3a5c51b2e1b5e950178",
+      "note": "'Later' explicitly places the Sisay-rescue journey before the overlay."
+    },
+    {
+      "earlier": "T:weatherlight_to_rath",
+      "later": "T:weatherlight_mercadia",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "km",
+      "source_url": "https://magic.wizards.com/en/news/feature/known-mutliverse-2008-03-19",
+      "source_title": "The Known Mutliverse",
+      "quote": "Gerrard and the crew of the Weatherlight ended up in this plane after blindly flinging themselves from Rath.",
+      "quote_sha256": "2d76e6b462f5eada9bf4335bbe5d19461a3f340cb5ca9953c800310baf1533fc",
+      "note": "The escape from Rath to Mercadia follows the crew's visit; its exact position versus the later overlay is not asserted."
+    },
+    {
+      "earlier": "T:rath_overlay",
+      "later": "T:invasion_begins",
+      "relation": "DURING_OR_AFTER_START",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "km",
+      "source_url": "https://magic.wizards.com/en/news/feature/known-mutliverse-2008-03-19",
+      "source_title": "The Known Mutliverse",
+      "quote": "The planar juxtaposition allowed a huge number of Phyrexians to enter Dominaria nearly instantaneously, beginning the Phyrexian invasion.",
+      "quote_sha256": "a60c45af68bea25fa2feb0a79ca8fc802b6e6cac5a52de811f88590e031f1b4b",
+      "note": "The overlay enables an effectively simultaneous invasion onset; no strictly earlier-vs-later edge is added."
+    },
+    {
+      "earlier": "T:invasion_begins",
+      "later": "T:old_phyrexia_decimated",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "km",
+      "source_url": "https://magic.wizards.com/en/news/feature/known-mutliverse-2008-03-19",
+      "source_title": "The Known Mutliverse",
+      "quote": "The invasion was narrowly thwarted by a coalition of planeswalkers and other heroes. A group of planeswalkers decimated Phyrexia itself using eldritch 'soul bombs,'",
+      "quote_sha256": "7a18164d590baef70a4cda2636929592359562e396c910c0143ab0e99250c192",
+      "note": "The soul-bomb devastation is an outcome of resistance to the already commenced invasion; no ordering against Yawgmoth's defeat."
+    },
+    {
+      "earlier": "T:invasion_begins",
+      "later": "T:yawgmoth_destroyed",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "km",
+      "source_url": "https://magic.wizards.com/en/news/feature/known-mutliverse-2008-03-19",
+      "source_title": "The Known Mutliverse",
+      "quote": "on Dominaria, the crew of the Weatherlight used the artifacts of the Legacy to destroy Yawgmoth himself.",
+      "quote_sha256": "1002368b691273cbdb507960d18c542c71d50a3175c11e6ba22038d2bd10c832",
+      "note": "The Weatherlight's defeat of Yawgmoth is described as an outcome of the invasion; not ordered relative to the soul-bomb assault."
+    },
+    {
+      "earlier": "S:serra_creates_realm",
+      "later": "S:urza_flees",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "km",
+      "source_url": "https://magic.wizards.com/en/news/feature/known-mutliverse-2008-03-19",
+      "source_title": "The Known Mutliverse",
+      "quote": "This artificial plane was created by the planeswalker Serra to exemplify her love of peace and law.",
+      "quote_sha256": "40ecf82879015ca98d1fdbe64842cd12a573e14f9252cf2e69c4f7327a90826f",
+      "note": "Creation necessarily precedes Urza entering the already existing realm; source gives no calendar year."
+    },
+    {
+      "earlier": "S:urza_flees",
+      "later": "S:serra_heals_urza",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "km",
+      "source_url": "https://magic.wizards.com/en/news/feature/known-mutliverse-2008-03-19",
+      "source_title": "The Known Mutliverse",
+      "quote": "When Urza fled here to escape Phyrexian pursuers, Serra and her angels nursed him back to health.",
+      "quote_sha256": "7af0c05e0cb2d948e1f87c872564e303e3c47ccf9f9ce183a344faff5756656a",
+      "note": "The nursing follows Urza's arrival."
+    },
+    {
+      "earlier": "S:serra_heals_urza",
+      "later": "S:phyrexians_attack",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "km",
+      "source_url": "https://magic.wizards.com/en/news/feature/known-mutliverse-2008-03-19",
+      "source_title": "The Known Mutliverse",
+      "quote": "Serra and her angels nursed him back to health. But the Phyrexians found the realm and attacked",
+      "quote_sha256": "23063d2a18a2c10102a0bec9bb61c8d3de4f4dabcde5b261f95a2b5068fe7078",
+      "note": "The summary places Phyrexian intrusion after Urza's convalescence; no precision beyond this sequence."
+    },
+    {
+      "earlier": "S:phyrexians_attack",
+      "later": "S:serra_abandons",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "km",
+      "source_url": "https://magic.wizards.com/en/news/feature/known-mutliverse-2008-03-19",
+      "source_title": "The Known Mutliverse",
+      "quote": "But the Phyrexians found the realm and attacked, tainting it with black mana. Serra abandoned the plane, heartbroken by its corruption.",
+      "quote_sha256": "5935c006645fa8f923aa383f564b2fdc104e72c47f75dda18f1d264ff811c115",
+      "note": "Serra's departure follows corruption caused by the attack."
+    },
+    {
+      "earlier": "S:serra_abandons",
+      "later": "S:radiant_assumes_rule",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "km",
+      "source_url": "https://magic.wizards.com/en/news/feature/known-mutliverse-2008-03-19",
+      "source_title": "The Known Mutliverse",
+      "quote": "One of her archangels, Radiant, assumed control of the plane in Serra's absence.",
+      "quote_sha256": "49731939f223b206d9385d2b088254fe87cb669e4a15c17c56f04d5ce9cce464",
+      "note": "Assumption of rule follows Serra's absence."
+    },
+    {
+      "earlier": "S:serra_abandons",
+      "later": "S:realm_powerstone_collapse",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "km",
+      "source_url": "https://magic.wizards.com/en/news/feature/known-mutliverse-2008-03-19",
+      "source_title": "The Known Mutliverse",
+      "quote": "Without its creator, Serra's Realm was slowly collapsing. Urza, seeking a mana source intense enough to power the skyship Weatherlight, hastened its demise by forcibly collapsing the plane's energies into a powerstone",
+      "quote_sha256": "5f0d51c377177fd816ecdd0da299dc6040de8d3028af513de7473cf2f3243ddb",
+      "note": "The fatal powerstone extraction follows Serra's absence; the guide does not order it against the exact span of Radiant's rule."
     }
   ],
   "precedes": {
@@ -1283,6 +1729,125 @@
       "P:venser_restores_karn"
     ],
     "P:venser_restores_karn": [],
+    "S:phyrexians_attack": [
+      "S:radiant_assumes_rule",
+      "S:realm_powerstone_collapse",
+      "S:serra_abandons"
+    ],
+    "S:radiant_assumes_rule": [],
+    "S:realm_powerstone_collapse": [],
+    "S:serra_abandons": [
+      "S:radiant_assumes_rule",
+      "S:realm_powerstone_collapse"
+    ],
+    "S:serra_creates_realm": [
+      "S:phyrexians_attack",
+      "S:radiant_assumes_rule",
+      "S:realm_powerstone_collapse",
+      "S:serra_abandons",
+      "S:serra_heals_urza",
+      "S:urza_flees"
+    ],
+    "S:serra_heals_urza": [
+      "S:phyrexians_attack",
+      "S:radiant_assumes_rule",
+      "S:realm_powerstone_collapse",
+      "S:serra_abandons"
+    ],
+    "S:urza_flees": [
+      "S:phyrexians_attack",
+      "S:radiant_assumes_rule",
+      "S:realm_powerstone_collapse",
+      "S:serra_abandons",
+      "S:serra_heals_urza"
+    ],
+    "T:dyfed_brings_yawgmoth": [
+      "T:portal_closed",
+      "T:rath_constructed",
+      "T:rath_overlay",
+      "T:thran_defeated",
+      "T:thran_horrified",
+      "T:thran_war",
+      "T:yawgmoth_plots",
+      "T:yawgmoth_power_grows",
+      "T:yawgmoth_rules"
+    ],
+    "T:invasion_begins": [
+      "T:old_phyrexia_decimated",
+      "T:yawgmoth_destroyed"
+    ],
+    "T:old_phyrexia_decimated": [],
+    "T:phyrexian_creator_dies": [
+      "T:dyfed_brings_yawgmoth",
+      "T:portal_closed",
+      "T:rath_constructed",
+      "T:rath_overlay",
+      "T:thran_defeated",
+      "T:thran_horrified",
+      "T:thran_war",
+      "T:yawgmoth_plots",
+      "T:yawgmoth_power_grows",
+      "T:yawgmoth_rules"
+    ],
+    "T:portal_closed": [
+      "T:rath_constructed",
+      "T:rath_overlay",
+      "T:thran_defeated",
+      "T:yawgmoth_plots"
+    ],
+    "T:rath_constructed": [
+      "T:rath_overlay"
+    ],
+    "T:rath_overlay": [],
+    "T:thran_defeated": [
+      "T:rath_constructed",
+      "T:rath_overlay",
+      "T:yawgmoth_plots"
+    ],
+    "T:thran_horrified": [
+      "T:portal_closed",
+      "T:rath_constructed",
+      "T:rath_overlay",
+      "T:thran_defeated",
+      "T:thran_war",
+      "T:yawgmoth_plots"
+    ],
+    "T:thran_war": [
+      "T:portal_closed",
+      "T:rath_constructed",
+      "T:rath_overlay",
+      "T:thran_defeated",
+      "T:yawgmoth_plots"
+    ],
+    "T:weatherlight_mercadia": [],
+    "T:weatherlight_to_rath": [
+      "T:rath_overlay",
+      "T:weatherlight_mercadia"
+    ],
+    "T:yawgmoth_destroyed": [],
+    "T:yawgmoth_plots": [
+      "T:rath_constructed",
+      "T:rath_overlay"
+    ],
+    "T:yawgmoth_power_grows": [
+      "T:portal_closed",
+      "T:rath_constructed",
+      "T:rath_overlay",
+      "T:thran_defeated",
+      "T:thran_horrified",
+      "T:thran_war",
+      "T:yawgmoth_plots"
+    ],
+    "T:yawgmoth_rules": [
+      "T:portal_closed",
+      "T:rath_constructed",
+      "T:rath_overlay",
+      "T:thran_defeated",
+      "T:thran_horrified",
+      "T:thran_war",
+      "T:yawgmoth_plots",
+      "T:yawgmoth_power_grows"
+    ],
     "V:animalfolk_shelter": [
       "V:holly_pact",
       "V:war_of_cinders",
@@ -1318,9 +1883,11 @@
     "New Phyrexia events describe early Mirrodin conquest; the source does not order the complete war, the Mirrans being overwhelmed against Venser's sacrifice, or the political present after March of the Machine.",
     "Muraganda: the ancient collapse versus moon-shattering sequence, the exact overlap of moon-strikes and survivor cultures, and the origin of the modern Autocracy remain unbridged.",
     "Meditation Realm: Ugin's remembered early conflict does not date or establish the Realm's condition after Tarkir: Dragonstorm; the fall of Ugin is not a claim of permanent death.",
+    "Thran to first invasion: the 2008 historical retrospective does not establish a strict order between the soul-bomb decimation of Old Phyrexia and the Weatherlight Legacy destroying Yawgmoth.",
+    "Serra's Realm: the retrospective does not order the end of Radiant's administration relative to Urza's final powerstone extraction, even though both follow Serra's departure.",
     "A DURING_OR_AFTER_START relation is not a strict BEFORE edge and never participates in transitive ordering.",
     "Unknown original plane names, absolute AR years and missing historical events are not supplied.",
     "This source-local supplement does not replace the original Packs A–C chronology or certify L244."
   ],
-  "content_sha256": "2810b0d98c6602eba2302c0bdbd717d0433fcd37d8dfa419309004ee228596ca"
+  "content_sha256": "74d34570043c3bad72628f1009c9759d82897644ae96016d73fc4e821462f8e9"
 }

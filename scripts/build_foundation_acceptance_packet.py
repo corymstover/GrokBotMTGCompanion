@@ -95,6 +95,18 @@ QA_CASES = [
     ('meditation_displacement_order_unknown',
      'Did B:bolas_displaced happen before B:ugin_reforms?',
      'ask->chronology', 'QUALIFIED'),
+    ('thran_creator_before_war',
+     'Did T:phyrexian_creator_dies happen before T:thran_defeated?',
+     'ask->chronology', 'QUALIFIED'),
+    ('phyrexia_vs_yawgmoth_outcome_unknown',
+     'Did T:old_phyrexia_decimated happen before T:yawgmoth_destroyed?',
+     'ask->chronology', 'QUALIFIED'),
+    ('serras_realm_historical_order',
+     'Did S:urza_flees happen before S:realm_powerstone_collapse?',
+     'ask->chronology', 'QUALIFIED'),
+    ('serras_realm_radiant_order_unknown',
+     'Did S:radiant_assumes_rule happen before S:realm_powerstone_collapse?',
+     'ask->chronology', 'QUALIFIED'),
 ]
 
 
@@ -130,6 +142,12 @@ def qa_cases() -> list[dict]:
         if key in {'muraganda_moonfall_order_unknown','meditation_displacement_order_unknown'} and (
                 r['result']['relation'] != 'UNKNOWN' or r['sources']):
             raise ValueError(f'Unsupported source-local order falsely linked for {key}')
+        if key in {'thran_creator_before_war','serras_realm_historical_order'} and (
+                r['result']['relation'] != 'BEFORE' or not r['result']['proof'] or not r['sources']):
+            raise ValueError(f'Legacy historical source-local path regressed for {key}')
+        if key in {'phyrexia_vs_yawgmoth_outcome_unknown','serras_realm_radiant_order_unknown'} and (
+                r['result']['relation'] != 'UNKNOWN' or r['sources']):
+            raise ValueError(f'Unsupported first-invasion/Serra order falsely inferred for {key}')
         if key == 'present_leader_unknown' and 'CURRENT_LEADER_NOT_ESTABLISHED' not in r['flags']:
             raise ValueError('Present-day leadership is overstated')
         if key == 'commander_identity' and not r['result']['allowed']:

@@ -21,7 +21,7 @@
     },
     "source_local_chronology": {
       "path": "data/lore_research/source_event_sequences_2026-10-30.json",
-      "sha256": "a13a194984a98f29127b23068fe82158e322498a76cad4ede6c18e9c85c0b9d3"
+      "sha256": "c894fb8b140f3411e67c86fdb690658b274132fd11aaf16dc55f86efaa4d8c30"
     },
     "story_coverage": {
       "path": "data/lore_research/story_coverage_inventory_2026-10-30.json",
@@ -56,9 +56,9 @@
     "legacy_unresolved_pairs": 2897,
     "legacy_disconnected_components": 13,
     "legacy_cycles": 0,
-    "source_local_events": 51,
-    "source_local_ordered_pairs": 101,
-    "source_local_total_pairs": 1275,
+    "source_local_events": 74,
+    "source_local_ordered_pairs": 180,
+    "source_local_total_pairs": 2701,
     "not_additive": "Legacy and source-local data are separately scoped; their pairs may not be summed as one chronology.",
     "l244_complete": false
   },
@@ -1075,6 +1075,68 @@
       "direct_claims": null,
       "chronology_relation": "UNKNOWN",
       "known_limitations": []
+    },
+    {
+      "id": "thran_creator_before_war",
+      "question": "Did T:phyrexian_creator_dies happen before T:thran_defeated?",
+      "route": "ask->chronology",
+      "confidence": "QUALIFIED",
+      "flags": [
+        "PARTIAL_IN_UNIVERSE_CHRONOLOGY"
+      ],
+      "sources": [
+        "https://magic.wizards.com/en/news/feature/known-mutliverse-2008-03-19"
+      ],
+      "response_sha256": "deba97ae5a9de5670cedbf55fd7a9f60347fc1cd69eedfba13207af9ce26fbbc",
+      "direct_claims": null,
+      "chronology_relation": "BEFORE",
+      "known_limitations": []
+    },
+    {
+      "id": "phyrexia_vs_yawgmoth_outcome_unknown",
+      "question": "Did T:old_phyrexia_decimated happen before T:yawgmoth_destroyed?",
+      "route": "ask->chronology",
+      "confidence": "QUALIFIED",
+      "flags": [
+        "PARTIAL_IN_UNIVERSE_CHRONOLOGY",
+        "NO_CITED_CHRONOLOGY_PATH"
+      ],
+      "sources": [],
+      "response_sha256": "91e17de2b5191b81f0b2b083c335c4ae4934cfe572f6b44e48cde236e283bf58",
+      "direct_claims": null,
+      "chronology_relation": "UNKNOWN",
+      "known_limitations": []
+    },
+    {
+      "id": "serras_realm_historical_order",
+      "question": "Did S:urza_flees happen before S:realm_powerstone_collapse?",
+      "route": "ask->chronology",
+      "confidence": "QUALIFIED",
+      "flags": [
+        "PARTIAL_IN_UNIVERSE_CHRONOLOGY"
+      ],
+      "sources": [
+        "https://magic.wizards.com/en/news/feature/known-mutliverse-2008-03-19"
+      ],
+      "response_sha256": "18fd1e332abc400e49f4c23778c1487d94a2a98481812e8422e316e54ade7aeb",
+      "direct_claims": null,
+      "chronology_relation": "BEFORE",
+      "known_limitations": []
+    },
+    {
+      "id": "serras_realm_radiant_order_unknown",
+      "question": "Did S:radiant_assumes_rule happen before S:realm_powerstone_collapse?",
+      "route": "ask->chronology",
+      "confidence": "QUALIFIED",
+      "flags": [
+        "PARTIAL_IN_UNIVERSE_CHRONOLOGY",
+        "NO_CITED_CHRONOLOGY_PATH"
+      ],
+      "sources": [],
+      "response_sha256": "4cd5a109deb53ead18fc79c8459c6f319fd6b69c5a4b2320fe76a7e8c140a22d",
+      "direct_claims": null,
+      "chronology_relation": "UNKNOWN",
+      "known_limitations": []
     }
   ],
   "cross_plane_graph_navigation": [
@@ -1152,5 +1214,5 @@
     "python3 scripts/update_multiverse_progress_tracker.py --check"
   ],
   "owner_review_status": "PENDING_NOT_REQUESTED_UNTIL_ENGINEERING_EVIDENCE_AND_CI_COMPLETE",
-  "content_sha256": "135f88e89b2687a05216883975901c8fd753cd9bd46b216c911f638d55579f38"
+  "content_sha256": "f0724b476db8f719a44c1612a13f906d434d22bdceb4d34de2f40558f4028fac"
 }

@@ -23,8 +23,8 @@ class SourceEventSequencesTests(unittest.TestCase):
         sig=d.pop('content_sha256')
         self.assertEqual(sig,S.digest(d))
         self.assertEqual(self.current['counts'],{
-            'strands':6,'events':51,'strict_edges':37,'non_ordering_relations':2,
-            'ordered_pairs':101,'total_pairs':1275,
+            'strands':8,'events':74,'strict_edges':57,'non_ordering_relations':3,
+            'ordered_pairs':180,'total_pairs':2701,
         })
 
     def test_source_proofs_have_original_claim_ids_and_digest(self):
@@ -106,6 +106,35 @@ class SourceEventSequencesTests(unittest.TestCase):
         gap=A.ask('Did M:ancient_collapse happen before M:moons_shatter?')
         self.assertEqual(gap['result']['relation'],'UNKNOWN')
         self.assertEqual(gap['sources'],[])
+
+    def test_thran_to_yawgmoth_outcome_is_historical_not_overordered(self):
+        r=S.proof(self.current,'T:phyrexian_creator_dies','T:thran_defeated')
+        self.assertEqual(r['result'],'BEFORE')
+        self.assertEqual(len(r['proof']),7)
+        self.assertEqual({p['source_id'] for p in r['proof']},{'km'})
+        later=S.proof(self.current,'T:portal_closed','T:rath_constructed')
+        self.assertEqual(later['result'],'BEFORE')
+        overlap=S.proof(self.current,'T:rath_overlay','T:invasion_begins')
+        self.assertEqual(overlap['result'],'DURING_OR_AFTER_START')
+        self.assertNotIn('T:invasion_begins',self.current['precedes']['T:rath_overlay'])
+        self.assertEqual(S.proof(self.current,'T:old_phyrexia_decimated','T:yawgmoth_destroyed')['result'],'UNKNOWN')
+        self.assertEqual(S.proof(self.current,'T:weatherlight_to_rath','T:weatherlight_mercadia')['result'],'BEFORE')
+
+    def test_serra_realm_sequence_has_source_bound_ending(self):
+        r=S.proof(self.current,'S:urza_flees','S:realm_powerstone_collapse')
+        self.assertEqual(r['result'],'BEFORE')
+        self.assertEqual({p['source_id'] for p in r['proof']},{'km'})
+        self.assertEqual(S.proof(self.current,'S:radiant_assumes_rule','S:realm_powerstone_collapse')['result'],'UNKNOWN')
+        self.assertEqual(S.proof(self.current,'S:realm_powerstone_collapse','T:invasion_begins')['result'],'UNKNOWN')
+
+    def test_new_legacy_outcome_questions_in_ordinary_qa(self):
+        r=A.ask('Did T:phyrexian_creator_dies happen before T:thran_defeated?')
+        self.assertEqual(r['route'],'ask->chronology')
+        self.assertEqual(r['result']['relation'],'BEFORE')
+        self.assertEqual(r['sources'],['https://magic.wizards.com/en/news/feature/known-mutliverse-2008-03-19'])
+        unresolved=A.ask('Did T:old_phyrexia_decimated happen before T:yawgmoth_destroyed?')
+        self.assertEqual(unresolved['result']['relation'],'UNKNOWN')
+        self.assertEqual(unresolved['sources'],[])
 
     def test_normal_companion_routes_new_phyrexia_order_and_still_says_unknown(self):
         quoted='Did Karn introduces Phyrexian oil to Mirrodin happen before Mirran forces are overwhelmed in the early conquest?'

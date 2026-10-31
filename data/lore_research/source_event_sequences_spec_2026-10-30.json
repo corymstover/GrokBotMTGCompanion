@@ -1,14 +1,15 @@
 {
   "schema": "source-local-event-order-spec/v1",
   "status": "PRELIMINARY_RESEARCH_NOT_OWNER_APPROVED",
-  "scope": "Six bounded, individually sourced chronology strands. No cross-plane alignment, no absolute AR date conversion and no assertions that a narrated legend is historical fact. The New Phyrexia strand describes the early Mirrodin conquest as presented in Wizards' historical plane overview, not the post-March of the Machine political present. The Meditation Realm strand is Ugin's remembered early conflict, not an assertion about the Realm's later state after Tarkir: Dragonstorm.",
+  "scope": "Eight bounded, individually sourced chronology strands. No automatic cross-strand alignment, no absolute AR date conversion and no assertions that a narrated legend is historical fact. The Thran-to-invasion strand uses the 2008 Wizards historical retrospective and does not decide the order between Old Phyrexia's decimation and Yawgmoth's destruction. The New Phyrexia strand describes early Mirrodin conquest, not post-March of the Machine politics. The Meditation Realm strand is Ugin's remembered early conflict, not a statement about the Realm's later state after Tarkir: Dragonstorm.",
   "sources": {
     "neo_guide": "data/lore_research/pack_p5_kamigawa_history_profile_2026-10-30.json",
     "blb_guide1": "data/lore_research/pack_p5_bloomburrow_valley_history_2026-10-30.json",
     "dsk_guide": "data/lore_research/pack_p5_duskmourn_origin_2026-10-30.json",
     "up_nph": "data/lore_research/pack_p5_new_phyrexia_historical_profile_2026-10-30.json",
     "lf_muraganda_guide": "data/lore_research/pack_p5_last_four_thin_planes_2026-10-31.json",
-    "lf_meditation_chronicle": "data/lore_research/pack_p5_last_four_thin_planes_2026-10-31.json"
+    "lf_meditation_chronicle": "data/lore_research/pack_p5_last_four_thin_planes_2026-10-31.json",
+    "km": "data/lore_research/pack_c5_phyrexian_invasion_outcome_2026-10-30.json"
   },
   "strands": [
     {
@@ -159,6 +160,70 @@
         {"earlier":"B:bolas_strikes_ugin","later":"B:realm_cataclysm","source_id":"lf_meditation_chronicle","quote":"With a mighty splash, Ugin falls into the still waters. The impact resounds like thunder. Monstrous waves rise from the displacement","note":"The fall after the strike provokes the cataclysm; this does not certify permanent death."},
         {"earlier":"B:realm_cataclysm","later":"B:bolas_displaced","source_id":"lf_meditation_chronicle","quote":"Dragged by the sheer shocking force of the cataclysm, Bolas flares like a sun and vanishes, torn away to the plane of his birth","note":"The cataclysm displaces Bolas; his later status is outside this memory strand."},
         {"earlier":"B:realm_cataclysm","later":"B:ugin_reforms","source_id":"lf_meditation_chronicle","quote":"A pale sheet of liquid trickles up as out of nowhere, returning from the unseen and untouchable web of darkness.","note":"The following account shows the Realm refill and Ugin reform; the ontology and elapsed time remain uncertain."}
+      ]
+    },
+    {
+      "id": "T",
+      "title": "Thran decline to Yawgmoth's first Phyrexian invasion — 2008 Wizards retrospective",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "limitation": "This is the 2008 official retrospective, not a complete novel-era chronology or a current-status claim. The text independently describes Old Phyrexia's soul-bomb devastation and the Weatherlight's defeat of Yawgmoth, but supplies no strict BEFORE path between those two outcomes. Rath's overlay and the invasion's start are near-simultaneous, not two strictly separated events.",
+      "nodes": [
+        {"id":"T:phyrexian_creator_dies","label":"The unnamed creator and master of Old Phyrexia dies","claim_ids":[]},
+        {"id":"T:dyfed_brings_yawgmoth","label":"Dyfed takes Yawgmoth to Old Phyrexia during Thran decline","claim_ids":[]},
+        {"id":"T:yawgmoth_rules","label":"Yawgmoth becomes master of Old Phyrexia","claim_ids":[]},
+        {"id":"T:yawgmoth_power_grows","label":"Yawgmoth's power grows in Old Phyrexia","claim_ids":[]},
+        {"id":"T:thran_horrified","label":"The Thran grow horrified at Yawgmoth's actions","claim_ids":[]},
+        {"id":"T:thran_war","label":"War erupts between the Thran and Phyrexian legions","claim_ids":[]},
+        {"id":"T:portal_closed","label":"The portal between Dominaria and Phyrexia is closed","claim_ids":[]},
+        {"id":"T:thran_defeated","label":"The Thran Empire is defeated","claim_ids":[]},
+        {"id":"T:yawgmoth_plots","label":"Yawgmoth seeks to conquer Dominaria over millennia","claim_ids":[]},
+        {"id":"T:rath_constructed","label":"Rath is designed as Phyrexia's invasion device","claim_ids":[]},
+        {"id":"T:weatherlight_to_rath","label":"The Weatherlight crew travels to Rath to rescue Sisay","claim_ids":[]},
+        {"id":"T:weatherlight_mercadia","label":"The Weatherlight crew escapes from Rath to Mercadia","claim_ids":[]},
+        {"id":"T:rath_overlay","label":"Rath is laid over Dominaria","claim_ids":[]},
+        {"id":"T:invasion_begins","label":"Phyrexia's first large invasion of Dominaria begins","claim_ids":[]},
+        {"id":"T:old_phyrexia_decimated","label":"Planeswalkers decimate Old Phyrexia using soul bombs","claim_ids":["C502"]},
+        {"id":"T:yawgmoth_destroyed","label":"The Weatherlight crew uses the Legacy to destroy Yawgmoth","claim_ids":["C501"]}
+      ],
+      "edges": [
+        {"earlier":"T:phyrexian_creator_dies","later":"T:dyfed_brings_yawgmoth","source_id":"km","quote":"the planeswalker Dyfed took Yawgmoth to Phyrexia shortly after its creator and master had died","note":"The guide explicitly states 'shortly after'; neither creator identity nor an AR year is asserted."},
+        {"earlier":"T:dyfed_brings_yawgmoth","later":"T:yawgmoth_rules","source_id":"km","quote":"Dyfed also created a planar portal between Dominaria and Phyrexia. Yawgmoth saw Phyrexia as a means of saving the Thran","note":"The account introduces Yawgmoth's arrival and purposes before saying he became the new master."},
+        {"earlier":"T:yawgmoth_rules","later":"T:yawgmoth_power_grows","source_id":"km","quote":"He became Phyrexia's new master. Fueled by Phyrexia's twisted ecology, Yawgmoth's megalomania and power grew.","note":"The official retrospective narrates the ascent before the subsequent growth of power."},
+        {"earlier":"T:yawgmoth_power_grows","later":"T:thran_horrified","source_id":"km","quote":"Yawgmoth's megalomania and power grew. He came to believe that Phyrexia was the pinnacle of evolved life—that it was superior to life. The Thran became increasingly horrified by Yawgmoth's actions and their effects.","note":"The horror is described as a response to actions following his growing power; not a precise start date."},
+        {"earlier":"T:thran_horrified","later":"T:thran_war","source_id":"km","quote":"The Thran became increasingly horrified by Yawgmoth's actions and their effects. War erupted between the weakened Thran and Yawgmoth's Phyrexian legions.","note":"The retrospective introduces mounting horror before the outbreak of war."},
+        {"earlier":"T:thran_war","later":"T:portal_closed","source_id":"km","quote":"War erupted between the weakened Thran and Yawgmoth's Phyrexian legions. The Thran were defeated, but not before the portal was closed","note":"The portal is closed during the conflict, before defeat; the exact battle is not specified."},
+        {"earlier":"T:portal_closed","later":"T:thran_defeated","source_id":"km","quote":"The Thran were defeated, but not before the portal was closed, trapping Yawgmoth and the Phyrexians in their plane.","note":"The account explicitly puts closure before Thran defeat."},
+        {"earlier":"T:thran_defeated","later":"T:yawgmoth_plots","source_id":"km","quote":"The Thran were defeated, but not before the portal was closed, trapping Yawgmoth and the Phyrexians in their plane. For millennia Yawgmoth sought a way to conquer Dominaria.","note":"The millennia-long search follows the historical trapping and Thran war."},
+        {"earlier":"T:yawgmoth_plots","later":"T:rath_constructed","source_id":"km","quote":"For millennia Yawgmoth sought a way to conquer Dominaria. The eventual instrument of his invasion was the artificial plane of Rath","note":"The design emerges as the eventual means during a search begun earlier; no separate start/end of the search is inferred."},
+        {"earlier":"T:rath_constructed","later":"T:rath_overlay","source_id":"km","quote":"The eventual instrument of his invasion was the artificial plane of Rath, which was designed to lay over Dominaria","note":"Rath was designed for overlay before its purpose was realized; no invented construction date."},
+        {"earlier":"T:weatherlight_to_rath","later":"T:rath_overlay","source_id":"km","quote":"The skyship Weatherlight and its crew traveled to Rath to rescue the ship's captain Sisay. Later, when the Phyrexian aggression began in earnest, Rath's purpose was fulfilled as it was laid over Dominaria","note":"'Later' explicitly places the Sisay-rescue journey before the overlay."},
+        {"earlier":"T:weatherlight_to_rath","later":"T:weatherlight_mercadia","source_id":"km","quote":"Gerrard and the crew of the Weatherlight ended up in this plane after blindly flinging themselves from Rath.","note":"The escape from Rath to Mercadia follows the crew's visit; its exact position versus the later overlay is not asserted."},
+        {"earlier":"T:rath_overlay","later":"T:invasion_begins","relation":"DURING_OR_AFTER_START","source_id":"km","quote":"The planar juxtaposition allowed a huge number of Phyrexians to enter Dominaria nearly instantaneously, beginning the Phyrexian invasion.","note":"The overlay enables an effectively simultaneous invasion onset; no strictly earlier-vs-later edge is added."},
+        {"earlier":"T:invasion_begins","later":"T:old_phyrexia_decimated","source_id":"km","quote":"The invasion was narrowly thwarted by a coalition of planeswalkers and other heroes. A group of planeswalkers decimated Phyrexia itself using eldritch 'soul bombs,'","note":"The soul-bomb devastation is an outcome of resistance to the already commenced invasion; no ordering against Yawgmoth's defeat."},
+        {"earlier":"T:invasion_begins","later":"T:yawgmoth_destroyed","source_id":"km","quote":"on Dominaria, the crew of the Weatherlight used the artifacts of the Legacy to destroy Yawgmoth himself.","note":"The Weatherlight's defeat of Yawgmoth is described as an outcome of the invasion; not ordered relative to the soul-bomb assault."}
+      ]
+    },
+    {
+      "id": "S",
+      "title": "Serra's Realm — Urza's refuge, the Phyrexian incursion and collapse",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "limitation": "The 2008 official summary recounts one historical sequence; it does not prove a complete angel/faction chronology, the timing of Radiant's administration against the final powerstone collapse, or any exact AR date.",
+      "nodes": [
+        {"id":"S:serra_creates_realm","label":"Serra creates her artificial realm","claim_ids":[]},
+        {"id":"S:urza_flees","label":"Urza flees to Serra's Realm to escape Phyrexian pursuers","claim_ids":[]},
+        {"id":"S:serra_heals_urza","label":"Serra and her angels heal Urza","claim_ids":[]},
+        {"id":"S:phyrexians_attack","label":"Phyrexians find and attack Serra's Realm","claim_ids":[]},
+        {"id":"S:serra_abandons","label":"Serra abandons the corrupted realm","claim_ids":[]},
+        {"id":"S:radiant_assumes_rule","label":"Radiant assumes control after Serra's departure","claim_ids":[]},
+        {"id":"S:realm_powerstone_collapse","label":"Urza collapses the dying realm into a powerstone for the Weatherlight","claim_ids":[]}
+      ],
+      "edges": [
+        {"earlier":"S:serra_creates_realm","later":"S:urza_flees","source_id":"km","quote":"This artificial plane was created by the planeswalker Serra to exemplify her love of peace and law.","note":"Creation necessarily precedes Urza entering the already existing realm; source gives no calendar year."},
+        {"earlier":"S:urza_flees","later":"S:serra_heals_urza","source_id":"km","quote":"When Urza fled here to escape Phyrexian pursuers, Serra and her angels nursed him back to health.","note":"The nursing follows Urza's arrival."},
+        {"earlier":"S:serra_heals_urza","later":"S:phyrexians_attack","source_id":"km","quote":"Serra and her angels nursed him back to health. But the Phyrexians found the realm and attacked","note":"The summary places Phyrexian intrusion after Urza's convalescence; no precision beyond this sequence."},
+        {"earlier":"S:phyrexians_attack","later":"S:serra_abandons","source_id":"km","quote":"But the Phyrexians found the realm and attacked, tainting it with black mana. Serra abandoned the plane, heartbroken by its corruption.","note":"Serra's departure follows corruption caused by the attack."},
+        {"earlier":"S:serra_abandons","later":"S:radiant_assumes_rule","source_id":"km","quote":"One of her archangels, Radiant, assumed control of the plane in Serra's absence.","note":"Assumption of rule follows Serra's absence."},
+        {"earlier":"S:serra_abandons","later":"S:realm_powerstone_collapse","source_id":"km","quote":"Without its creator, Serra's Realm was slowly collapsing. Urza, seeking a mana source intense enough to power the skyship Weatherlight, hastened its demise by forcibly collapsing the plane's energies into a powerstone","note":"The fatal powerstone extraction follows Serra's absence; the guide does not order it against the exact span of Radiant's rule."}
       ]
     }
   ]
