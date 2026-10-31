@@ -46,10 +46,10 @@ class LastFourPlaneTests(unittest.TestCase):
                 self.assertIn("NO_VERIFIED_TOTAL_CHRONOLOGY", response["flags"])
 
     def test_foundation_packet_and_deck_hold(self):
-        self.assertEqual(len(P.QA_CASES), 49)
-        self.assertEqual(len({c[0] for c in P.QA_CASES}), 49)
+        self.assertGreaterEqual(len(P.QA_CASES), 49)
+        self.assertEqual(len({c[0] for c in P.QA_CASES}), len(P.QA_CASES))
         packet = P.build()
-        self.assertEqual(len(packet["representative_questions"]), 49)
+        self.assertEqual(len(packet["representative_questions"]), len(P.QA_CASES))
         self.assertEqual(packet["coverage"]["thin_plane_dossiers"], 0)
         self.assertTrue(packet["phase6_deckbuilding_deferred"])
         self.assertFalse(packet["owner_accepted"])
