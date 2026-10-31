@@ -1,6 +1,6 @@
 # MTG Multiverse Companion — Master Workflow & Progress Checklist
 
-**Version:** 2.74
+**Version:** 2.75
 **Checkpoint date:** 2026-10-31
 **Repository:** [corymstover/GrokBotMTGCompanion](https://github.com/corymstover/GrokBotMTGCompanion)  
 **Purpose:** Durable project roadmap and handoff document. Update this file after verified milestone work; do not treat historical figures as live counters.
@@ -22,6 +22,27 @@ foundation release may document inherently unresolved canon and future
 maintenance; it must never claim exhaustive knowledge of all MTG history.
 The 62 approved Grixis decks, their hashes and all owner gates remain intact.
 Only a new explicit request from Cory can override the Phase 6 hold.
+
+**v2.75 printing-backed unresolved lore reference audit (2026-10-31):**
+Independently replayed the current **October 30 Default Cards bulk** against
+all **341** still tentative card-to-character name matches spanning **209**
+Oracle identities, with the complete **660-page** Wizards text cache and exact
+story-art caption/artist data. The full audit found **339 name-only matches
+without direct confirming evidence** and **two official-page co-occurrence
+leads** (Wrenn and Six, Koth of the Hammer) for future review, but **zero
+new printing/flavor/Story Spotlight-supported confirmations**. All **341
+remain unapproved**; no name co-occurrence was promoted into canon. It also
+reconciled the **570 officially matched story-art labels** and the **seven
+unresolved** caption/printing collisions (six name mismatches, one missing
+printing), retaining exact reason codes and source identifiers. The immutable
+bulk hash, story provenance, input hashes, per-link reasoning and portable CI
+checks are published without republishing article/card text. This closes the
+engineering requirement to **keep unsupported matches explicitly unresolved
+and auditable**, not the separate incomplete-depiction or broad-history
+tasks: **89/137 checked, 48 open**. The knowledge foundation is still
+**NOT_RELEASE_READY**; neither the owner's conditional foundation acceptance
+nor the Phase 6 deckbuilding hold is changed. See
+`research/UNRESOLVED_LORE_REFERENCE_AUDIT_2026-10-31.md`.
 
 **v2.74 live October 30 Scryfall release-freshness replay (2026-10-31):**
 The newer official Scryfall Oracle, Default Cards and Rulings bulk was captured
@@ -803,7 +824,7 @@ Infrastructure checkpoint: [PR #783](https://github.com/corymstover/GrokBotMTGCo
 - [x] Review the two additional official-source leads (Koth and Wrenn) for exact printing-specific relationships. *(Done 2026-10-30, Batch 4: `scripts/build_koth_wrenn_printing_leads.py` → `data/lore_research/koth_wrenn_printing_leads_2026-10-30.json`. The review found 10 verbatim leads on cached official pages, 6 of them printing-specific, matching 13 printings. The Legends of Reality Fracture image labels give exact collector numbers: Koth, the Geomancer is FRA #248 and Koth of the Homestead is FRA #199. Art captions credit the card name and artist: Koth, Fire of Resistance is Eric Wilkerson (ONE #138, plus its promos), and Wrenn and Seven is Heonhwa Choe (MID #208 and its same-art reprints; Scryfall's credit is the shorter 'Heonhwa'). MOM Episode 8 captions separate regular-frame and borderless Wrenn and Realmbreaker (MOM #217 / #322). Koth of the Hammer is named only in the planeswalker page title, which does not identify a printing. Three 'Wrenn and Six/Seven' strings are character prose, not card references. No grades changed.)*
 - [x] Investigate the enriched cards that lack a cited lore entry. *(v2.40, Batch 12, [#899](https://github.com/corymstover/GrokBotMTGCompanion/pull/899): the real pool is **2,835** cards whose Lore line reads "❓ No lore entry", not ~1,220. `scripts/build_card_lore_links.py` writes the separate overlay `data/lore_research/card_lore_links_2026-10-30.json` (card_enrichment.json untouched). Every card was examined: **205 LINKED**, conservatively graded (133 CLAIM_ANCHORED via cited claims; 47 NAMED_IN_OFFICIAL_TEXT with a verbatim ≥25-char snippet; 77 IMPLIED_SAME_SET_NAME with a limitation; 26 of these also have art credited on an official page), 1 ART_ONLY, and **2,629 NO_LORE_YET** (600 Universes Beyond, never text-matched; 2,029 with no official-text match). PRELIMINARY_RESEARCH, not owner approved.)* *(v2.41, Batch 13, [#903](https://github.com/corymstover/GrokBotMTGCompanion/pull/903): fixed a Universes Beyond detection error from #899 that had produced at least one false LINKED card (Peter Parker). The overlay now reads **208 LINKED / 1 ART_ONLY / 2,626 NO_LORE_YET** (1,304 UB; 1,322 no official-text match). A separate printed-flavor overlay, `data/lore_research/flavor_lore_links_2026-10-30.json`, grades Scryfall-printed flavor text and attributions as PRINTED_FLAVOR evidence, distinct from story claims: 23 FLAVOR_LINKED, 6 FLAVOR_NAME_ONLY, 11 FLAVOR_SPEAKER_CHARACTER, 1,282 still NO_LORE_YET.)*
 - [ ] Link direct printed depictions, official story references, artwork, flavor text, characters and important events where evidence supports them. *(Partial, v2.33: `scripts/build_story_image_label_printings.py` ([PR #860](https://github.com/corymstover/GrokBotMTGCompanion/pull/860)) links 577 official story-page image labels of the form `NNNN_MTGSET_Kind: Card Name` on 57 pages to exact snapshot printings. 570 match (560 distinct printings), including 159/160 Reality Fracture labels (146 `fra`, 13 `frc`). 6 NAME_MISMATCH and 1 NO_PRINTING are recorded unresolved, not forced. A label shows which printing's art file the page used. It is not a claim about the story event the art depicts.)*
-- [ ] Keep unsupported matches explicitly unresolved; track sources and reasoning for changes.
+- [x] Keep unsupported matches explicitly unresolved; track sources and reasoning for changes. *(v2.75: all 341 tentative character-name links and seven unresolved story-art label collisions have independent printing/source-backed review-only evidence, exact reason/status fields, input hashes and a fail-closed portable CI check. The 339 unsupported matches and two co-occurrence leads remain **not canon approved**. See `data/lore_research/unresolved_printing_name_match_audit_2026-10-31.json`.)*
 - [ ] Expand the primary-source inventory and rerun targeted reference-integrity checks.
 
 ## Phase 3 — Searchable Multiverse relationship graph

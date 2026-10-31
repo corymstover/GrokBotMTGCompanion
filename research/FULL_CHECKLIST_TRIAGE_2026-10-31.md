@@ -1,6 +1,6 @@
 # Complete Master Workflow checklist triage — 2026-10-31
 
-**88/137 checked; 49 open.** Completed: 88; Under review: 32; Blocked: 17; Not started: 0.
+**89/137 checked; 48 open.** Completed: 89; Under review: 31; Blocked: 17; Not started: 0.
 
 This inventory is **not foundation certification**. Deferred Phase 6 tasks remain deliberately blocked, not silently completed; ongoing maintenance and source gaps are included.
 
@@ -32,12 +32,10 @@ The machine-readable JSON records every task, its original workflow line, triage
 
 ## Phase 2 — Lore enrichment and primary-source integrity
 
-6/9 checked; 3 open.
+7/9 checked; 2 open.
 
 - **K064 · Under review · SOURCE_GRADING** — Link direct printed depictions, official story references, artwork, flavor text, characters and important events where evidence supports them.
   - Proof tiers and 570 printing labels exist, but direct depiction evidence remains incomplete.
-- **K065 · Under review · ONGOING_SOURCE_TRIAGE** — Keep unsupported matches explicitly unresolved; track sources and reasoning for changes.
-  - Seven unmatched art labels and other name-only hypotheses remain review-only.
 - **K066 · Under review · ONGOING_SOURCE_RESEARCH** — Expand the primary-source inventory and rerun targeted reference-integrity checks.
   - The source roster and quotation audits require continued expansion/review.
 

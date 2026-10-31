@@ -13,6 +13,9 @@ on:
       - 'scripts/test_story_cache_audit.py'
       - 'scripts/fetch_story_pages.py'
       - 'scripts/replay_story_cache_provenance.py'
+      - 'scripts/audit_unresolved_lore_links.py'
+      - 'tests/test_unresolved_lore_links.py'
+      - 'data/lore_research/unresolved_printing_name_match_audit_2026-10-31.json'
       - 'tests/test_story_cache_replay.py'
       - 'data/story_cache_recovery_2026-10-31.json'
       - 'scripts/phase8_name_match_triage.py'
@@ -45,10 +48,13 @@ jobs:
           python3 -m unittest discover -s scripts -p 'test_phase8_safety.py' -v
           python3 -m unittest discover -s scripts -p 'test_story_cache_audit.py' -v
           python3 -m unittest discover -s tests -p 'test_story_cache_replay.py' -v
+          python3 -m unittest discover -s tests -p 'test_unresolved_lore_links.py' -v
           python3 -m unittest discover -s scripts -p 'test_phase8_name_match_triage.py' -v
           python3 -m unittest discover -s tests -p 'test_phase8_reality_fracture_notes.py' -v
       - name: Independently reconcile recovered historical Wizards story inventory
         run: python3 scripts/replay_story_cache_provenance.py --check
+      - name: Every unsupported character and art link remains quarantined
+        run: python3 scripts/audit_unresolved_lore_links.py --check
       - name: Report current Phase 8 coverage without changing files
         run: python3 scripts/phase8_status.py --json
       - name: Confirm default Phase 8 entrypoint is read-only

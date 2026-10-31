@@ -5,11 +5,11 @@
  "disclaimer": "All 137 tasks, not the seven foundation-release criteria; completed means a checked engineering task, not certified lore or deck approval.",
  "totals": {
   "items": 137,
-  "checked": 88,
-  "open": 49,
+  "checked": 89,
+  "open": 48,
   "by_status": {
-   "Completed": 88,
-   "Under review": 32,
+   "Completed": 89,
+   "Under review": 31,
    "Blocked": 17,
    "Not started": 0
   }
@@ -27,8 +27,8 @@
   },
   "Phase 2 — Lore enrichment and primary-source integrity": {
    "total": 9,
-   "checked": 6,
-   "open": 3
+   "checked": 7,
+   "open": 2
   },
   "Phase 3 — Searchable Multiverse relationship graph": {
    "total": 6,
@@ -69,7 +69,7 @@
  "items": [
   {
    "id": "K001",
-   "line": 647,
+   "line": 668,
    "section": "Phase 1 — Card database and research inputs",
    "checked": true,
    "task": "Preserve the original 62 Grixis approved decks separately.",
@@ -79,7 +79,7 @@
   },
   {
    "id": "K002",
-   "line": 648,
+   "line": 669,
    "section": "Phase 1 — Card database and research inputs",
    "checked": true,
    "task": "Archive a current Scryfall Oracle Cards, Default Cards and Rulings snapshot with hashes.",
@@ -89,7 +89,7 @@
   },
   {
    "id": "K003",
-   "line": 649,
+   "line": 670,
    "section": "Phase 1 — Card database and research inputs",
    "checked": true,
    "task": "Independently download the release assets again and verify them.",
@@ -99,7 +99,7 @@
   },
   {
    "id": "K004",
-   "line": 650,
+   "line": 671,
    "section": "Phase 1 — Card database and research inputs",
    "checked": true,
    "task": "Separate historical and modern Scryfall caches and validation modes.",
@@ -109,7 +109,7 @@
   },
   {
    "id": "K005",
-   "line": 651,
+   "line": 672,
    "section": "Phase 1 — Card database and research inputs",
    "checked": true,
    "task": "Compare the new snapshot against the committed card index and enrichment inventory without mutating either.",
@@ -119,7 +119,7 @@
   },
   {
    "id": "K006",
-   "line": 652,
+   "line": 673,
    "section": "Phase 1 — Card database and research inputs",
    "checked": true,
    "task": "Classify the **5,270 currently unindexed Oracle records** against the independently verified October 29 snapshot and existing ingest policy; see `data/multiverse_audits/oracle_index_2026-10-29.json` and `scripts/audit_oracle_index.py`.",
@@ -129,7 +129,7 @@
   },
   {
    "id": "K007",
-   "line": 653,
+   "line": 674,
    "section": "Phase 1 — Card database and research inputs",
    "checked": true,
    "task": "Audit eligible released missing records: **0** under the documented October 29 index predicate. Re-audit future-dated cards after release; do not force-add intentionally excluded objects.",
@@ -139,7 +139,7 @@
   },
   {
    "id": "K008",
-   "line": 654,
+   "line": 675,
    "section": "Phase 1 — Card database and research inputs",
    "checked": true,
    "task": "Finish the **1,953 remaining priority-card lore/synergy enrichments** without flattening existing curated data (batch 38, 2026-10-30: synergy-complete; lore links for 202, outside-canon flag only for 462, and an honest \"not linked yet\" on all 1,751 unlinked records, 1,289 of which have neither link nor flag; corrected from an earlier \"664 linked\" miscount).",
@@ -149,7 +149,7 @@
   },
   {
    "id": "K009",
-   "line": 655,
+   "line": 676,
    "section": "Phase 1 — Card database and research inputs",
    "checked": true,
    "task": "Document a repeatable update process for future Scryfall changes, current legality, and official rules. *(v2.37, Batch 9: [UPDATE_PROCESS.md](UPDATE_PROCESS.md) walks through Scryfall snapshot capture and reconciliation, Oracle drift, legality and printing rebuilds, CR excerpt refresh, official story crawl, cache audit, claim extraction, rebuild, recount and publishing, using only scripts already in `scripts/`. This box covers the written process; each refresh still has to be run and verified when new data arrives.)*",
@@ -159,7 +159,7 @@
   },
   {
    "id": "K010",
-   "line": 656,
+   "line": 677,
    "section": "Phase 1 — Card database and research inputs",
    "checked": true,
    "task": "Recount coverage and verify representative lookup queries after each published batch. *(v2.37, Batch 9: `scripts/batch_recount.py` recounts pages cited and reviewed, claims and arcs from the committed inventory and graph. It also re-asks 13 representative questions through `mv_ask`: siblings, killers, creators, mentors, faction leaders with era context, and one unknown entity that must stay NOT_FOUND. It exits 1 on any failure. CI runs it, together with `tests/test_batch_recount_b9.py`, in `phase7-companion-ask.yml`. It runs per PR touching the graph, not yet as a recorded per-batch report, so the box stays unchecked. **v2.38, Batch 10:** the recount is now also recorded per batch: `data/release/batch_recount_2026-10-30_b9.json` ([#888](https://github.com/corymstover/GrokBotMTGCompanion/pull/888)) and `data/release/batch_recount_2026-10-30_b10.json`, written with `python3 scripts/batch_recount.py --json --out …`; 15 representative questions (continuity questions added). Checked as an established practice; it must be repeated each batch.)*",
@@ -169,7 +169,7 @@
   },
   {
    "id": "K011",
-   "line": 737,
+   "line": 758,
    "section": "Phase 1B — MTG Set & Printing Atlas (official milestone)",
    "checked": true,
    "task": "SHA-256 verification of the October 29 Scryfall Default Cards source and its reported record count; no duplicate printing IDs or conflicting set name/`set_type` values.",
@@ -179,7 +179,7 @@
   },
   {
    "id": "K012",
-   "line": 738,
+   "line": 759,
    "section": "Phase 1B — MTG Set & Printing Atlas (official milestone)",
    "checked": true,
    "task": "Internal arithmetic and shard-reference audit of the October 28 baseline manifest, with missing historical shard-byte verification explicitly recorded.",
@@ -189,7 +189,7 @@
   },
   {
    "id": "K013",
-   "line": 739,
+   "line": 760,
    "section": "Phase 1B — MTG Set & Printing Atlas (official milestone)",
    "checked": true,
    "task": "Reproducible `set_type` category totals, all-code dated catalog, and explicit treatment of future-dated printing records.",
@@ -199,7 +199,7 @@
   },
   {
    "id": "K014",
-   "line": 740,
+   "line": 761,
    "section": "Phase 1B — MTG Set & Printing Atlas (official milestone)",
    "checked": true,
    "task": "First source-backed, bidirectional set/card lookup CLI; Alpha and Black Lotus spot checks, date-gated Star Trek example, and six portable unit tests.",
@@ -209,7 +209,7 @@
   },
   {
    "id": "K015",
-   "line": 741,
+   "line": 762,
    "section": "Phase 1B — MTG Set & Printing Atlas (official milestone)",
    "checked": true,
    "task": "Verify all 105 **committed** historical shard file hashes, sizes, row counts, printing-ID uniqueness and set joins; reconstruct stable card/set lookup indexes.",
@@ -219,7 +219,7 @@
   },
   {
    "id": "K016",
-   "line": 742,
+   "line": 763,
    "section": "Phase 1B — MTG Set & Printing Atlas (official milestone)",
    "checked": true,
    "task": "Independently reconcile individual printing IDs against the **original October 28 bulk**. *(v2.72: exact SHA-matched file recovered; SQLite and all 105 committed historical printings shards plus export manifest rebuilt byte-identically. See `data/scryfall_snapshots/historical_bulk_replay_2026-10-31.json`.)*",
@@ -229,7 +229,7 @@
   },
   {
    "id": "K017",
-   "line": 743,
+   "line": 764,
    "section": "Phase 1B — MTG Set & Printing Atlas (official milestone)",
    "checked": true,
    "task": "Import and freeze Scryfall Set API `released_at`, `digital`, `set_type` and **560 explicit `parent_set_code` links** for all 1,062 printing-atlas codes; validate against the independent October 29 printing catalog.",
@@ -239,7 +239,7 @@
   },
   {
    "id": "K018",
-   "line": 744,
+   "line": 765,
    "section": "Phase 1B — MTG Set & Printing Atlas (official milestone)",
    "checked": true,
    "task": "Review a bounded 2023–October 2026 official-main-release sample (21 verified), plus nine reviewed exceptions/upcoming/special products, with direct Wizards citations and tests.",
@@ -249,7 +249,7 @@
   },
   {
    "id": "K019",
-   "line": 745,
+   "line": 766,
    "section": "Phase 1B — MTG Set & Printing Atlas (official milestone)",
    "checked": true,
    "task": "Review all 38 early 1993–2002 Scryfall non-digital expansion/core codes against Wizards' historical booster/core enumerations; certify 35 regular releases, directly document Summer Magic's rejected print run, and flag 2 localized editions as provisional.",
@@ -259,7 +259,7 @@
   },
   {
    "id": "K020",
-   "line": 746,
+   "line": 767,
    "section": "Phase 1B — MTG Set & Printing Atlas (official milestone)",
    "checked": true,
    "task": "Review all 81 2003–2022 Scryfall non-digital expansion/core codes against Wizards historical annual release retrospectives and core enumerations; classify 80 as regular sets and `tsb` as an integrated bonus sheet.",
@@ -269,7 +269,7 @@
   },
   {
    "id": "K021",
-   "line": 747,
+   "line": 768,
    "section": "Phase 1B — MTG Set & Printing Atlas (official milestone)",
    "checked": true,
    "task": "Partition the **entire** October 29 1,062-code Scryfall Set API catalog by release status, paper/digital, and expansion/core versus other categories without overlap; review 12 major non-expansion/core products against exact official Wizards articles and release notes.",
@@ -279,7 +279,7 @@
   },
   {
    "id": "K022",
-   "line": 748,
+   "line": 769,
    "section": "Phase 1B — MTG Set & Printing Atlas (official milestone)",
    "checked": false,
    "task": "Independently corroborate `fbb` and `4bb` foreign-border variants with Wizards primary documentation; third-party Cardmarket corroboration is recorded but does not close this gate.",
@@ -289,7 +289,7 @@
   },
   {
    "id": "K023",
-   "line": 749,
+   "line": 770,
    "section": "Phase 1B — MTG Set & Printing Atlas (official milestone)",
    "checked": true,
    "task": "Exhaustively triage all **848** released non-digital other-category codes into five transparent Scryfall-metadata research cohorts and a sortable, source-linked queue covering the **836** items still awaiting individual Wizards review; preserve the 12 earlier primary-source examples without reclassification.",
@@ -299,7 +299,7 @@
   },
   {
    "id": "K024",
-   "line": 750,
+   "line": 771,
    "section": "Phase 1B — MTG Set & Printing Atlas (official milestone)",
    "checked": true,
    "task": "Primary-source-review **23** individual draft/starter codes, preserve 12 prior reviewed codes, publish deterministic updated **35 reviewed / 813 pending** research status and read-only lookup overlay; explicitly record Mystery Booster Commander Edition's delayed Commander legality.",
@@ -309,7 +309,7 @@
   },
   {
    "id": "K025",
-   "line": 751,
+   "line": 772,
    "section": "Phase 1B — MTG Set & Printing Atlas (official milestone)",
    "checked": true,
    "task": "Publish eight additional source-graded Wizards product-family records (two explicitly coded by Wizards, six Scryfall crosswalks) with a guarded lookup overlay; reconcile 43 reviewed / 805 pending.",
@@ -319,7 +319,7 @@
   },
   {
    "id": "K026",
-   "line": 752,
+   "line": 773,
    "section": "Phase 1B — MTG Set & Printing Atlas (official milestone)",
    "checked": true,
    "task": "Review and source **28/31** reprint/curated products with two evidence grades; preserve prior 43 evidence records, add 28 and publish the cumulative 71/777 offline source overlay.",
@@ -329,7 +329,7 @@
   },
   {
    "id": "K027",
-   "line": 753,
+   "line": 774,
    "section": "Phase 1B — MTG Set & Printing Atlas (official milestone)",
    "checked": true,
    "task": "Source-review ten packaged Commander/Archenemy/Planechase collections and **five** associated scheme/planar Scryfall component codes with explicit parent-set assertions and deterministic CI; bring outside-category review to **86/848**.",
@@ -339,7 +339,7 @@
   },
   {
    "id": "K028",
-   "line": 754,
+   "line": 775,
    "section": "Phase 1B — MTG Set & Printing Atlas (official milestone)",
    "checked": true,
    "task": "Source-review all **21** original Duel Decks products and the **four** catalog components of the one official 2014 Anthology; distinguish 25 Scryfall codes from 22 actual boxes, and advance cumulative evidence to **111/848**.",
@@ -349,7 +349,7 @@
   },
   {
    "id": "K029",
-   "line": 755,
+   "line": 776,
    "section": "Phase 1B — MTG Set & Printing Atlas (official milestone)",
    "checked": true,
    "task": "Independently source the **nine** original annual Commander preconstructed release-family codes from 2011 and 2013–2020, preserving family-vs-deck-count and source-code boundaries; advance to **120/848**.",
@@ -359,7 +359,7 @@
   },
   {
    "id": "K030",
-   "line": 756,
+   "line": 777,
    "section": "Phase 1B — MTG Set & Printing Atlas (official milestone)",
    "checked": true,
    "task": "Source-review **12** 2020–2022 set-linked/starter Commander release-family codes against individual official Wizards decklist/announcement pages; advance to **132/848**, preserving the distinction between source-backed product families and exact printing inventories.",
@@ -369,7 +369,7 @@
   },
   {
    "id": "K031",
-   "line": 757,
+   "line": 778,
    "section": "Phase 1B — MTG Set & Printing Atlas (official milestone)",
    "checked": true,
    "task": "Source-review all **19** remaining 2023–2026 `commander`-type release-family codes against official Wizards decklist pages; advance to **151/848** and **zero** pending `commander`-type records. Preserve the `fdc` 2024 earliest-card versus October 2026 boxed-deck release distinction.",
@@ -379,7 +379,7 @@
   },
   {
    "id": "K032",
-   "line": 758,
+   "line": 779,
    "section": "Phase 1B — MTG Set & Printing Atlas (official milestone)",
    "checked": true,
    "task": "Review **14** non-Commander boxed/preconstructed or premium-deck releases from 2006–2022 with direct Wizards evidence, including four explicitly printed Japanese Wizards official set codes; advance to **165/848**.",
@@ -389,7 +389,7 @@
   },
   {
    "id": "K033",
-   "line": 759,
+   "line": 780,
    "section": "Phase 1B — MTG Set & Printing Atlas (official milestone)",
    "checked": true,
    "task": "Verify **5** separately documented Secret Lair/Global Series family codes, distinguishing ongoing series from individual boxes and recording explicit **GS1** code support; advance to **170/848**.",
@@ -399,7 +399,7 @@
   },
   {
    "id": "K034",
-   "line": 760,
+   "line": 781,
    "section": "Phase 1B — MTG Set & Printing Atlas (official milestone)",
    "checked": true,
    "task": "Verify **9** direct Wizards-sourced Eternal/insert, Clash Pack and Gideon Spellbook records: six exact `eternal`-type code declarations, two family-only Clash Pack citations, and one exact **SS2** Wizards card gallery printing citation; advance to **179/848**.",
@@ -409,7 +409,7 @@
   },
   {
    "id": "K035",
-   "line": 761,
+   "line": 782,
    "section": "Phase 1B — MTG Set & Printing Atlas (official milestone)",
    "checked": true,
    "task": "Source-review **all 17 Masterpiece-typed code records** and two historical collectible printings with 12 explicit Wizards code statements and seven graded named-family citations; preserve the 848-code census and advance to **198/848** without counting bonus sheets as expansions.",
@@ -419,7 +419,7 @@
   },
   {
    "id": "K036",
-   "line": 762,
+   "line": 783,
    "section": "Phase 1B — MTG Set & Printing Atlas (official milestone)",
    "checked": true,
    "task": "Review ten named Vanguard, World Championship Deck and Love Your Local Game Store promo-family/year references with individually reviewed Wizards primary publications, explicitly grading all ten as **family-only**, without converting later retrospectives into period product evidence; advance to **208/848**.",
@@ -429,7 +429,7 @@
   },
   {
    "id": "K037",
-   "line": 763,
+   "line": 784,
    "section": "Phase 1B — MTG Set & Printing Atlas (official milestone)",
    "checked": true,
    "task": "Source-review all six Scryfall-coded 2021–2026 Lunar New Year APAC annual promo families against separately linked contemporary Wizards event announcements, noting the accessible 2026 Traditional Chinese article, the 2024 program's 2023 preview, and **zero** officially printed Scryfall codes; advance to **214/848**, preserving 2018 `plny` as pending.",
@@ -439,7 +439,7 @@
   },
   {
    "id": "K038",
-   "line": 764,
+   "line": 785,
    "section": "Phase 1B — MTG Set & Printing Atlas (official milestone)",
    "checked": true,
    "task": "Source-review seven distinct 2022–2025 event/collaboration records—Game Day, Store Championships, two RCQ program years, Magic × Duel Masters, Cowboy Bebop and Spotlight Series—from corresponding first-party event-promo articles; advance to **221/848**, preserving program-only evidence grades, separate announcement/event dates and all older certifications.",
@@ -449,7 +449,7 @@
   },
   {
    "id": "K039",
-   "line": 765,
+   "line": 786,
    "section": "Phase 1B — MTG Set & Printing Atlas (official milestone)",
    "checked": true,
    "task": "Source-review **38** individually matched Wizards Art Series product/gallery entries from 2019–2026 as **collectible, non-playable component families**, retain their pre-existing Scryfall parent/date mappings, and explicitly leave three unverified subgroup codes pending; advance cumulative family-backed review to **259/848** without inflating the expansion count.",
@@ -459,7 +459,7 @@
   },
   {
    "id": "K040",
-   "line": 766,
+   "line": 787,
    "section": "Phase 1B — MTG Set & Printing Atlas (official milestone)",
    "checked": true,
    "task": "Individually source **34** booster, Commander and named supplemental token groupings against **18** official Wizards token guides; classify OTJ/OTC/BIG/OTP correctly, retain 848-code conservation, and advance cumulative source review to **293/848** without treating emblems and helpers as new cards or sets.",
@@ -469,7 +469,7 @@
   },
   {
    "id": "K041",
-   "line": 767,
+   "line": 788,
    "section": "Phase 1B — MTG Set & Printing Atlas (official milestone)",
    "checked": true,
    "task": "Adopt the v2.19 **accelerated Phase 1B release gates**: no more per-item promo-source marathon as a release dependency; preserve 555 optional source-research gaps. Establish all-1,062 published set-code and released-English-paper **count parity**, retaining an explicit unverified exact-printing-ID boundary.",
@@ -479,7 +479,7 @@
   },
   {
    "id": "K042",
-   "line": 768,
+   "line": 789,
    "section": "Phase 1B — MTG Set & Printing Atlas (official milestone)",
    "checked": true,
    "task": "Pass v2.20 complete export acceptance: all **1,062/1,062** sets yield CSV/JSON printing and unique-card exports; **119,509/119,509** committed historical printing IDs reverse-link to the per-card chronology, **39,099** Oracle identities are accounted for, and exactly **106,855** released English paper printing rows export under the October 29 cutoff. Keep cross-snapshot exact-ID claims explicitly unresolved.",
@@ -489,7 +489,7 @@
   },
   {
    "id": "K043",
-   "line": 769,
+   "line": 790,
    "section": "Phase 1B — MTG Set & Printing Atlas (official milestone)",
    "checked": true,
    "task": "Pass v2.21 complete Scryfall set-code **scope classification** into 136/4/2/848/62/10 documented categories with 142 candidate exception evidence checks; curate **12** direct first-party titled Magic Story release-series links. Keep 136 separate from an uncertified all-time premier count; do not infer lore relationships from cards or genre.",
@@ -499,7 +499,7 @@
   },
   {
    "id": "K044",
-   "line": 770,
+   "line": 791,
    "section": "Phase 1B — MTG Set & Printing Atlas (official milestone)",
    "checked": true,
    "task": "Generate v2.22 deterministic **qualified functional Phase 1B release report** combining all four acceptance layers, full 1,062-code coverage, 119,509 reverse-linked historical IDs, 12 source-limited story bridges, 555 unchanged optional source gaps and explicit snapshot-ID/source-byte limitations. Its separate targeted GitHub CI runs complete Phase 1B unit-test groups and Grixis regression before merge.",
@@ -509,7 +509,7 @@
   },
   {
    "id": "K045",
-   "line": 771,
+   "line": 792,
    "section": "Phase 1B — MTG Set & Printing Atlas (official milestone)",
    "checked": false,
    "task": "Resolve the remaining **2** curated/reprint records (`bchr`, `rin`) and **11** draft/starter codes (`itp`, `ph17`–`ph23`, `phtr`, `punk`, `w16`). Their incomplete original evidence remains explicit; no automatic premier-set or legality inference. *(v2.40, Batch 12: still blocked. The pinned Scryfall snapshot gives only set_type and dates for these codes; classifying them needs first-party Wizards product evidence that is not in any cached source. Real blocker, recorded in SET_ATLAS.md.)*",
@@ -519,7 +519,7 @@
   },
   {
    "id": "K046",
-   "line": 772,
+   "line": 793,
    "section": "Phase 1B — MTG Set & Printing Atlas (official milestone)",
    "checked": false,
    "task": "Research the remaining **11** older boxed/preconstructed set codes (`rqs`, `mgb`, `ath`, `brb`, `btd`, `dkm`, `psal`, `phuk`, `dpa`, `ps11`, `g17`). Seek official Wizards primary evidence for physical 1990s/2000s products and regional magazine collections; do not promote third-party descriptions to first-party certification or confuse the 2010 DPA physical decks with digital Duels game. *(v2.40, Batch 12: still blocked for the same reason: 1990s/2000s physical-product evidence is not in the snapshot or cached Wizards pages.)*",
@@ -529,7 +529,7 @@
   },
   {
    "id": "K047",
-   "line": 773,
+   "line": 794,
    "section": "Phase 1B — MTG Set & Printing Atlas (official milestone)",
    "checked": true,
    "task": "Publish complete, GitHub-readable historical set-to-card and card-to-set indexes without a local bulk snapshot (32 deterministic JSON buckets and read-only CLI); the October 29 current-snapshot lookup remains separately dated.",
@@ -539,7 +539,7 @@
   },
   {
    "id": "K048",
-   "line": 784,
+   "line": 805,
    "section": "Phase 1B — MTG Set & Printing Atlas (official milestone)",
    "checked": true,
    "task": "Audit the existing printing index and per-set shards against the archived Default Cards snapshot; document missing categories, duplicates, and stable joins. *(v2.72: the exact original Oct 28 source now reproduces all 105 archived shards byte-for-byte, with 119,509 distinct printing IDs and no missing/mismatched source records. The independent Oct 29-to-Oct 28 comparison still documents 192 new IDs, 342 `prm` release-date changes and six `trk` paper-flag changes as **real cross-snapshot differences**, not errors or fabricated field equality. See the historical replay and `data/set_atlas/phase1b_snapshot_gates_2026-10-30.json`. Atlas product and release-date qualifications remain.)*",
@@ -549,7 +549,7 @@
   },
   {
    "id": "K049",
-   "line": 785,
+   "line": 806,
    "section": "Phase 1B — MTG Set & Printing Atlas (official milestone)",
    "checked": true,
    "task": "Establish a normalized set catalog: canonical name/code, `set_type`, release date, paper/digital status, parent set/product associations and authoritative source provenance. *(v2.40, Batch 12, [#900](https://github.com/corymstover/GrokBotMTGCompanion/pull/900), `data/set_atlas/phase1b_snapshot_gates_2026-10-30.json`: PASS: every parent link resolves (`tnau`→`nau` resolves to the Set API record of the announced 2027-02-05 set, which has no printings yet). Mechanical verification, not owner approval.)*",
@@ -559,7 +559,7 @@
   },
   {
    "id": "K050",
-   "line": 786,
+   "line": 807,
    "section": "Phase 1B — MTG Set & Printing Atlas (official milestone)",
    "checked": false,
    "task": "Publish reproducible totals for **all Scryfall set codes** and separately for **premier expansion/core sets**, plus other clearly defined product categories; never report an unqualified \"total sets\" figure. *(v2.40, Batch 12, [#900](https://github.com/corymstover/GrokBotMTGCompanion/pull/900), `data/set_atlas/phase1b_snapshot_gates_2026-10-30.json`: QUALIFIED: per-set totals reproduce for all 1,062 codes; 136 stays a sourced regular/mainline classification, not an all-time premier census. Mechanical verification, not owner approval.)*",
@@ -569,7 +569,7 @@
   },
   {
    "id": "K051",
-   "line": 787,
+   "line": 808,
    "section": "Phase 1B — MTG Set & Printing Atlas (official milestone)",
    "checked": true,
    "task": "Publish for **each set** all English/default-language printing records and a deduplicated card inventory, with counts for printings, unique identities, first appearances and reprints. *(v2.40, Batch 12, [#900](https://github.com/corymstover/GrokBotMTGCompanion/pull/900), `data/set_atlas/phase1b_snapshot_gates_2026-10-30.json`: PASS: per-set printing and released English-paper oracle counts match the catalog for every code (0 mismatches). Mechanical verification, not owner approval.)*",
@@ -579,7 +579,7 @@
   },
   {
    "id": "K052",
-   "line": 788,
+   "line": 809,
    "section": "Phase 1B — MTG Set & Printing Atlas (official milestone)",
    "checked": true,
    "task": "Build bidirectional searches: **set → card list/counts** and **card → first printing, all sets, chronological printing history**. Support set code, name, year, product type and date-range filters. *(v2.40, Batch 12, [#900](https://github.com/corymstover/GrokBotMTGCompanion/pull/900), `data/set_atlas/phase1b_snapshot_gates_2026-10-30.json`: PASS: sample queries replay for lea, leg, c21, pznr and ydmu. Mechanical verification, not owner approval.)*",
@@ -589,7 +589,7 @@
   },
   {
    "id": "K053",
-   "line": 789,
+   "line": 810,
    "section": "Phase 1B — MTG Set & Printing Atlas (official milestone)",
    "checked": false,
    "task": "Verify debut/reprint attribution using dated, stable card identities; document edge cases such as promos, same-day releases, digital-first objects, variants, tokens and double-faced cards. *(v2.40, Batch 12, [#900](https://github.com/corymstover/GrokBotMTGCompanion/pull/900), `data/set_atlas/phase1b_snapshot_gates_2026-10-30.json`: QUALIFIED: 37,853 English-paper identities; 0 per-set debut mismatches; edge cases counted (4,087 same-day ties, 364 promo-only debuts, 431 earliest English-paper printings flagged reprint by Scryfall, 1,311 with no English-paper printing). Scryfall dates are not sourced street dates. Mechanical verification, not owner approval.)*",
@@ -599,7 +599,7 @@
   },
   {
    "id": "K054",
-   "line": 790,
+   "line": 811,
    "section": "Phase 1B — MTG Set & Printing Atlas (official milestone)",
    "checked": false,
    "task": "Maintain two separately labeled timelines: **real-world set/product release chronology** and **in-universe lore chronology**; link them only with sourced claims, not assumed chronological equivalence. *(v2.40, Batch 12, [#900](https://github.com/corymstover/GrokBotMTGCompanion/pull/900), `data/set_atlas/phase1b_snapshot_gates_2026-10-30.json`: QUALIFIED: real-world chronology exists; the in-universe side is relative spans only (32 verbatim phrases, 0 AR years). Mechanical verification, not owner approval.)* *(v2.41, Batch 13, [#904](https://github.com/corymstover/GrokBotMTGCompanion/pull/904): a separate in-universe relative chronology for Packs A–C now exists, `data/lore_research/relative_chronology_2026-10-30.json`, quote-gated and with no invented years. It is still not linked to the release timeline.)*",
@@ -609,7 +609,7 @@
   },
   {
    "id": "K055",
-   "line": 791,
+   "line": 812,
    "section": "Phase 1B — MTG Set & Printing Atlas (official milestone)",
    "checked": false,
    "task": "Connect sets to supported planes, story arcs, factions, characters, mechanics and Commander-relevant releases without inventing lore connections. *(v2.40, Batch 12, [#900](https://github.com/corymstover/GrokBotMTGCompanion/pull/900), `data/set_atlas/phase1b_snapshot_gates_2026-10-30.json`: QUALIFIED: publication-series bridge per arc; per-card canon lives in claim packs. Mechanical verification, not owner approval.)*",
@@ -619,7 +619,7 @@
   },
   {
    "id": "K056",
-   "line": 792,
+   "line": 813,
    "section": "Phase 1B — MTG Set & Printing Atlas (official milestone)",
    "checked": true,
    "task": "Add automated checks for per-set counts, uniqueness, category totals, date order, broken references, and sample queries (including Alpha, Legends, a Commander product, a promo set and a digital release). *(v2.40, Batch 12, [#900](https://github.com/corymstover/GrokBotMTGCompanion/pull/900), `data/set_atlas/phase1b_snapshot_gates_2026-10-30.json`: PASS: counts, uniqueness, totals, date order (55 codes with an earlier-dated printing, listed), references and the five sample queries, all in `--check`. Mechanical verification, not owner approval.)*",
@@ -629,7 +629,7 @@
   },
   {
    "id": "K057",
-   "line": 793,
+   "line": 814,
    "section": "Phase 1B — MTG Set & Printing Atlas (official milestone)",
    "checked": true,
    "task": "Publish a user-facing set index with an explicit snapshot date, coverage/exception report, source links and exportable English card lists; keep it maintainable as new releases arrive. *(v2.40, Batch 12, [#900](https://github.com/corymstover/GrokBotMTGCompanion/pull/900), `data/set_atlas/phase1b_snapshot_gates_2026-10-30.json`: PASS: SET_ATLAS.md carries the snapshot date, exceptions, sources and exports, plus the new Batch 12 gate section. Mechanical verification, not owner approval.)*",
@@ -639,7 +639,7 @@
   },
   {
    "id": "K058",
-   "line": 799,
+   "line": 820,
    "section": "Phase 2 — Lore enrichment and primary-source integrity",
    "checked": true,
    "task": "Recover and strictly audit all **660** official Wizards source URLs in the original inventory.",
@@ -649,7 +649,7 @@
   },
   {
    "id": "K059",
-   "line": 800,
+   "line": 821,
    "section": "Phase 2 — Lore enrichment and primary-source integrity",
    "checked": true,
    "task": "Commit a metadata-only provenance record without republishing copyrighted article bodies.",
@@ -659,7 +659,7 @@
   },
   {
    "id": "K060",
-   "line": 801,
+   "line": 822,
    "section": "Phase 2 — Lore enrichment and primary-source integrity",
    "checked": true,
    "task": "Perform initial bounded triage of **341** uncertain name-matched character links.",
@@ -669,7 +669,7 @@
   },
   {
    "id": "K061",
-   "line": 802,
+   "line": 823,
    "section": "Phase 2 — Lore enrichment and primary-source integrity",
    "checked": true,
    "task": "Ensure future environments can reliably refetch and strictly audit official story text before using it as evidence. *(v2.73: all 660 inventoried Wizards URLs independently refetched and strictly audited; 652 exact historical extraction hashes and eight explicitly quarantined drifts, with a portable 660-page provenance regression and pinned parser dependencies. The rule is to review changed extracts before applying them as claims, never to trust them automatically. See `data/story_cache_recovery_2026-10-31.json`.)*",
@@ -679,7 +679,7 @@
   },
   {
    "id": "K062",
-   "line": 803,
+   "line": 824,
    "section": "Phase 2 — Lore enrichment and primary-source integrity",
    "checked": true,
    "task": "Review the two additional official-source leads (Koth and Wrenn) for exact printing-specific relationships. *(Done 2026-10-30, Batch 4: `scripts/build_koth_wrenn_printing_leads.py` → `data/lore_research/koth_wrenn_printing_leads_2026-10-30.json`. The review found 10 verbatim leads on cached official pages, 6 of them printing-specific, matching 13 printings. The Legends of Reality Fracture image labels give exact collector numbers: Koth, the Geomancer is FRA #248 and Koth of the Homestead is FRA #199. Art captions credit the card name and artist: Koth, Fire of Resistance is Eric Wilkerson (ONE #138, plus its promos), and Wrenn and Seven is Heonhwa Choe (MID #208 and its same-art reprints; Scryfall's credit is the shorter 'Heonhwa'). MOM Episode 8 captions separate regular-frame and borderless Wrenn and Realmbreaker (MOM #217 / #322). Koth of the Hammer is named only in the planeswalker page title, which does not identify a printing. Three 'Wrenn and Six/Seven' strings are character prose, not card references. No grades changed.)*",
@@ -689,7 +689,7 @@
   },
   {
    "id": "K063",
-   "line": 804,
+   "line": 825,
    "section": "Phase 2 — Lore enrichment and primary-source integrity",
    "checked": true,
    "task": "Investigate the enriched cards that lack a cited lore entry. *(v2.40, Batch 12, [#899](https://github.com/corymstover/GrokBotMTGCompanion/pull/899): the real pool is **2,835** cards whose Lore line reads \"❓ No lore entry\", not ~1,220. `scripts/build_card_lore_links.py` writes the separate overlay `data/lore_research/card_lore_links_2026-10-30.json` (card_enrichment.json untouched). Every card was examined: **205 LINKED**, conservatively graded (133 CLAIM_ANCHORED via cited claims; 47 NAMED_IN_OFFICIAL_TEXT with a verbatim ≥25-char snippet; 77 IMPLIED_SAME_SET_NAME with a limitation; 26 of these also have art credited on an official page), 1 ART_ONLY, and **2,629 NO_LORE_YET** (600 Universes Beyond, never text-matched; 2,029 with no official-text match). PRELIMINARY_RESEARCH, not owner approved.)* *(v2.41, Batch 13, [#903](https://github.com/corymstover/GrokBotMTGCompanion/pull/903): fixed a Universes Beyond detection error from #899 that had produced at least one false LINKED card (Peter Parker). The overlay now reads **208 LINKED / 1 ART_ONLY / 2,626 NO_LORE_YET** (1,304 UB; 1,322 no official-text match). A separate printed-flavor overlay, `data/lore_research/flavor_lore_links_2026-10-30.json`, grades Scryfall-printed flavor text and attributions as PRINTED_FLAVOR evidence, distinct from story claims: 23 FLAVOR_LINKED, 6 FLAVOR_NAME_ONLY, 11 FLAVOR_SPEAKER_CHARACTER, 1,282 still NO_LORE_YET.)*",
@@ -699,7 +699,7 @@
   },
   {
    "id": "K064",
-   "line": 805,
+   "line": 826,
    "section": "Phase 2 — Lore enrichment and primary-source integrity",
    "checked": false,
    "task": "Link direct printed depictions, official story references, artwork, flavor text, characters and important events where evidence supports them. *(Partial, v2.33: `scripts/build_story_image_label_printings.py` ([PR #860](https://github.com/corymstover/GrokBotMTGCompanion/pull/860)) links 577 official story-page image labels of the form `NNNN_MTGSET_Kind: Card Name` on 57 pages to exact snapshot printings. 570 match (560 distinct printings), including 159/160 Reality Fracture labels (146 `fra`, 13 `frc`). 6 NAME_MISMATCH and 1 NO_PRINTING are recorded unresolved, not forced. A label shows which printing's art file the page used. It is not a claim about the story event the art depicts.)*",
@@ -709,17 +709,17 @@
   },
   {
    "id": "K065",
-   "line": 806,
+   "line": 827,
    "section": "Phase 2 — Lore enrichment and primary-source integrity",
-   "checked": false,
-   "task": "Keep unsupported matches explicitly unresolved; track sources and reasoning for changes.",
-   "status": "Under review",
-   "blocker_kind": "ONGOING_SOURCE_TRIAGE",
-   "reason": "Seven unmatched art labels and other name-only hypotheses remain review-only."
+   "checked": true,
+   "task": "Keep unsupported matches explicitly unresolved; track sources and reasoning for changes. *(v2.75: all 341 tentative character-name links and seven unresolved story-art label collisions have independent printing/source-backed review-only evidence, exact reason/status fields, input hashes and a fail-closed portable CI check. The 339 unsupported matches and two co-occurrence leads remain **not canon approved**. See `data/lore_research/unresolved_printing_name_match_audit_2026-10-31.json`.)*",
+   "status": "Completed",
+   "blocker_kind": null,
+   "reason": "Checklist-verified engineering task; this is not owner approval."
   },
   {
    "id": "K066",
-   "line": 807,
+   "line": 828,
    "section": "Phase 2 — Lore enrichment and primary-source integrity",
    "checked": false,
    "task": "Expand the primary-source inventory and rerun targeted reference-integrity checks.",
@@ -729,7 +729,7 @@
   },
   {
    "id": "K067",
-   "line": 811,
+   "line": 832,
    "section": "Phase 3 — Searchable Multiverse relationship graph",
    "checked": true,
    "task": "Audit existing repository entity structures before creating redundant schemas. *(v2.42, Batch 14, [#908](https://github.com/corymstover/GrokBotMTGCompanion/pull/908): read-only `scripts/audit_entity_structures.py` → `data/multiverse_audits/entity_structure_audit_2026-10-30.json` and `research/ENTITY_STRUCTURE_AUDIT_2026-10-30.md`. Graph: 4,227 nodes, 6,826 edges, 0 duplicate IDs, 0 dangling edges, 0 type mismatches; 16 orphan nodes (1 card without oracle_id, 15 literal objects); 22 cross-pack name variants; 7 undeclared subjects (C023 `urza;mishra` became a literal); 6 alias candidates; legacy crosswalk 120 bridged, 15 first-word candidates, 34 legacy-only, 10 via declared variants, 5 normalised-but-unbridged. Recommendation: keep `multiverse_graph` as the single schema; no redundant schema created. Mechanical audit, not owner approval. Follow-ups (C023 split, 5 unbridged) are listed in the audit.)*",
@@ -739,7 +739,7 @@
   },
   {
    "id": "K068",
-   "line": 812,
+   "line": 833,
    "section": "Phase 3 — Searchable Multiverse relationship graph",
    "checked": true,
    "task": "Stabilize IDs for Character, Plane, Event, Faction, Artifact, CardRepresentation and Claim records. *(v2.46: stable `printing:<Scryfall UUID>` CardRepresentation keys now identify 560 proven printed-card versions, independently exact-joined against the historical Phase 1B printing/Oracle index; their associated card-name and Wizards art-page edges have explicit non-canon navigation tiers. Supported examples are queryable by `printing SET NUMBER`; seven unmatched labels stay unresolved. Earlier v2.43 correctly reopened this until the type/key scheme existed. **The scheme is now stable**, but mapping all ~119k historical printings into lore graphs is **not** claimed and Phase 2 card/scene depiction evidence remains open.)*",
@@ -749,7 +749,7 @@
   },
   {
    "id": "K069",
-   "line": 813,
+   "line": 834,
    "section": "Phase 3 — Searchable Multiverse relationship graph",
    "checked": false,
    "task": "Record directional, dated, cited relationships (e.g. allied_with, fought, created, present_at, depicted_by). (Partial: edges are directional, cited and graded, but most are not yet dated in-universe.) *(v2.38, Batch 10: `scripts/build_in_universe_dates.py` writes `data/lore_research/in_universe_dates_2026-10-30.json` (schema `in_universe_dates.v1`) and the graph builder overlays it, re-checking that each value is a verbatim phrase in a quote the claim itself cites. 29 claim edges now carry an in-universe time phrase (e.g. \"more than 1,200 years\", \"Five years ago\", \"Six thousand years ago\"), relative to that story's present and never converted to a calendar year. A phrase may scope its sentence rather than the relation exactly. Most edges are still undated, so this stays unchecked.)* *(v2.39, Batch 11: 32 claim edges carry a verbatim in-universe phrase (new: \"over 6,000 years ago\", Nahiri seals the Eldrazi; \"thousands of years ago\", Ob Nixilis trapped on Zendikar). Still partial.)*",
@@ -759,7 +759,7 @@
   },
   {
    "id": "K070",
-   "line": 815,
+   "line": 836,
    "section": "Phase 3 — Searchable Multiverse relationship graph",
    "checked": true,
    "task": "Separate `CANON_CONFIRMED`, `CANON_IMPLIED`, `CANON_DISPUTED`, `ALTERNATE_CONTINUITY` and hypothetical connections.",
@@ -769,7 +769,7 @@
   },
   {
    "id": "K071",
-   "line": 816,
+   "line": 837,
    "section": "Phase 3 — Searchable Multiverse relationship graph",
    "checked": true,
    "task": "Make relationships searchable in both directions, with canonical source links.",
@@ -779,7 +779,7 @@
   },
   {
    "id": "K072",
-   "line": 817,
+   "line": 838,
    "section": "Phase 3 — Searchable Multiverse relationship graph",
    "checked": true,
    "task": "Add duplicate, broken-link and unsupported-claim regression checks.",
@@ -789,7 +789,7 @@
   },
   {
    "id": "K073",
-   "line": 823,
+   "line": 844,
    "section": "Phase 4 — Foundational lore research packs",
    "checked": true,
    "task": "**Add bounded source-local event order without conflating legend, history or real-world publication dates.** *(v2.56: 24 events across Kamigawa, narrated Valley tradition and Duskmourn; 17 strict BEFORE edges and one explicitly non-transitive DURING_OR_AFTER_START relation; 37/276 source-local pairs ordered. The initial 18 quoted relations were live-checked against three official Wizards guides. **v2.63:** seven further early New Phyrexia events and six official-overview source-quoted edges raise this separate ledger to **31 events, 23 strict edges, 52/465 ordered pairs in four strands**. The 56-event Packs A–C chronology is intact. Comparisons of Mirran overwhelm vs. Venser's sacrifice and all unbridged eras remain `UNKNOWN`. L244's total/cross-plane history is unresolved; no deckbuilding gate is reopened. See `research/PHASE4_SOURCE_LOCAL_EVENT_SEQUENCES_2026-10-30.md`.)*",
@@ -799,7 +799,7 @@
   },
   {
    "id": "K074",
-   "line": 825,
+   "line": 846,
    "section": "Phase 4 — Foundational lore research packs",
    "checked": false,
    "task": "**Pack A: Ugin, Nicol Bolas, Elder Dragon origins and the Elder Dragon War.** Chronology, rivalries, allies, factions, planes, cards and primary sources.",
@@ -809,7 +809,7 @@
   },
   {
    "id": "K075",
-   "line": 826,
+   "line": 847,
    "section": "Phase 4 — Foundational lore research packs",
    "checked": true,
    "task": "**Pack A first primary-source claim foundation (2026-10-30):** 12 explicit claim records, 13 stable entity nodes and 10 Wizards sources with narrator-perspective, original/revised Tarkir, prison/escape and Echoverse boundaries. See `research/PACK_A_Ugin_Bolas_Elder_Dragon_Duality.md` and `data/lore_research/pack_a_ugin_bolas_evidence_2026-10-30.json`. This is **partial research progress**, not the completed genealogy, card-to-canon evidence or deck.",
@@ -819,7 +819,7 @@
   },
   {
    "id": "K076",
-   "line": 827,
+   "line": 848,
    "section": "Phase 4 — Foundational lore research packs",
    "checked": true,
    "task": "**Pack A2 Elder Dragon War / Primeval lineage extension (2026-10-30):** 12 further graded claims, 10 entities and 8 directly checked Wizards URLs. Source comparisons correct the incomplete four-name Bolas survivor account with the separately attested Piru/Chromium pair; distinguish the *later* Dihada/Dakkon encounter and Piru's death from the ancient war; trace Crosis and Rith; and join 9 exact printed card names to the historical English-paper printing index. Source and audit: `research/PACK_A2_Elder_Dragon_War_and_Primeval_Lineages.md`, `scripts/audit_lore_pack_a_extension.py`, and `data/lore_research/pack_a_elder_dragon_war_audit_2026-10-30.json`. **No card art scenes or current Commander legality are thereby certified.**",
@@ -829,7 +829,7 @@
   },
   {
    "id": "K077",
-   "line": 828,
+   "line": 849,
    "section": "Phase 4 — Foundational lore research packs",
    "checked": true,
    "task": "**Pack A3 source-graded Tarkir card-art context (2026-10-30):** eight further claims, seven entities and six primary Wizards sources. [*The Reforged Chain*](https://magic.wizards.com/en/news/feature/reforged-chain-2015-01-21) explicitly captions `Crux of Fate` art at Ugin and Bolas's duel. Five more names are independently graded as time-travel mechanism, character art or tomb-site imagery, never all promoted into direct battle-scene depictions. Six exact Oracle/English-paper printing joins replay from Phase 1B, all historically within Grixis identity, but artist-to-specific-printing correspondence and current Commander rules remain unverified. See `research/PACK_A3_Tarkir_Ugin_Bolas_Story_Card_Connections.md`, `scripts/audit_lore_pack_a_scenes.py`, and its dated audit.",
@@ -839,7 +839,7 @@
   },
   {
    "id": "K078",
-   "line": 829,
+   "line": 850,
    "section": "Phase 4 — Foundational lore research packs",
    "checked": false,
    "task": "Finish Pack A's disputed Elder Dragon War genealogy/participant roster, direct card representations and story-based deck candidates with Oracle/printing verification. *(v2.40, Batch 12: `research/PACK_ABC_DOSSIERS.md` lists 5 non-CONFIRMED Pack A claims, the 5 cards whose art is credited on a cited source, and 21 UNAPPROVED commander candidates with snapshot legality. The genealogy and roster disputes stay open; resolving them needs owner judgement or new sources.)* *(v2.41, Batch 13, [#905](https://github.com/corymstover/GrokBotMTGCompanion/pull/905): owner evidence matrix `research/PACK_A_GENEALOGY_DISPUTES_2026-10-30.md` / `data/lore_research/pack_a_genealogy_disputes_2026-10-30.json` covers 7 disputes with 23 verbatim, hash-checked quotes tagged by voice and stance: GD1 twin status, GD2 Elder Dragon/Ur-Dragon parentage, GD3 survivor roster A003 vs A018, GD4 Vaevictis descendants, GD5 Piru/Chromium/Crosis, GD6 Rith/Palladia-Mors/Darigaaz, GD7 Chromium banished vs murdered. Only GD1 has an official statement that answers it (Wizards editorial plus third-person narration call them twins; Bolas's denial is in-story and ambiguous). No grade was changed. Owner-decision cells are blank.)*",
@@ -849,7 +849,7 @@
   },
   {
    "id": "K079",
-   "line": 830,
+   "line": 851,
    "section": "Phase 4 — Foundational lore research packs",
    "checked": false,
    "task": "**Pack B: Thran civilization → Yawgmoth → Old Phyrexia → Brothers' War.** People, artifacts, conflicts and consequences.",
@@ -859,7 +859,7 @@
   },
   {
    "id": "K080",
-   "line": 831,
+   "line": 852,
    "section": "Phase 4 — Foundational lore research packs",
    "checked": false,
    "task": "**Pack C: Dominaria → Weatherlight → the Legacy → Phyrexian invasion.** Historical transitions and connections.",
@@ -869,7 +869,7 @@
   },
   {
    "id": "K081",
-   "line": 832,
+   "line": 853,
    "section": "Phase 4 — Foundational lore research packs",
    "checked": true,
    "task": "**Pack C5 targeted editorial outcome audit (2026-10-30):** Two source-graded claims were independently checked against [Wizards' *The Known Mutliverse* recap](https://magic.wizards.com/en/news/feature/known-mutliverse-2008-03-19). It credits the Weatherlight crew/Legacy with Yawgmoth's destruction and unnamed planeswalkers' soul bombs with Old Phyrexia's decimation. The two outcomes remain **unordered** by that article and other killer-attribution sources remain independently graded; this does not complete the full Pack C chronology. `scripts/audit_lore_pack_c5.py --check` (offline), `--live` (Wizards direct), `research/PACK_C5_PHYREXIAN_INVASION_OUTCOME_2026-10-30.md`. Research PRELIMINARY, not owner approved.",
@@ -879,7 +879,7 @@
   },
   {
    "id": "K082",
-   "line": 833,
+   "line": 854,
    "section": "Phase 4 — Foundational lore research packs",
    "checked": true,
    "task": "**Pack B v1 (2026-10-30, [PR #826](https://github.com/corymstover/GrokBotMTGCompanion/pull/826)):** 18 claims, 23 entities, 8 Wizards sources. PRELIMINARY_RESEARCH. Next: per-claim card anchors and the Brothers' War story episodes.",
@@ -889,7 +889,7 @@
   },
   {
    "id": "K083",
-   "line": 834,
+   "line": 855,
    "section": "Phase 4 — Foundational lore research packs",
    "checked": true,
    "task": "**Pack C v1 (2026-10-30, [PR #828](https://github.com/corymstover/GrokBotMTGCompanion/pull/828)):** 28 claims, 26 entities, 6 Wizards sources. PRELIMINARY_RESEARCH. Next: *Return to Dominaria* episode extraction, March of the Machine, and card anchors.",
@@ -899,7 +899,7 @@
   },
   {
    "id": "K084",
-   "line": 835,
+   "line": 856,
    "section": "Phase 4 — Foundational lore research packs",
    "checked": true,
    "task": "**Pack C2 *Return to Dominaria* extraction (2026-10-30, targeted, not exhaustive):** 39 claims with verbatim quotes from the 12 official episodes. The graph now has 605 nodes and 904 edges, and card-name anchors cover 62 entities. No in-universe AR dates appear in these episodes, so none were inferred. Still open: an exhaustive pass, March of the Machine, and claim-level card anchors.",
@@ -909,7 +909,7 @@
   },
   {
    "id": "K085",
-   "line": 836,
+   "line": 857,
    "section": "Phase 4 — Foundational lore research packs",
    "checked": true,
    "task": "**Pack C3 *Assault on New Phyrexia* extraction (2026-10-30, targeted, not exhaustive):** 19 claims quoted verbatim from the 5 official episodes (stage `one_strike_2023`). The graph now has 841 nodes and 1,330 edges. Card-name anchors cover 75 entities. No AR dates are quoted, so none were inferred. Still open: March of the Machine, an exhaustive pass, and claim-level card anchors.",
@@ -919,7 +919,7 @@
   },
   {
    "id": "K086",
-   "line": 837,
+   "line": 858,
    "section": "Phase 4 — Foundational lore research packs",
    "checked": true,
    "task": "**Pack C4 *March of the Machine* extraction (2026-10-30, targeted, not exhaustive):** 21 claims quoted verbatim from the 10 official main-story episodes (stage `mom_invasion_2023`); every episode is cited. The graph now has 911 nodes and 1,444 edges, and card-name anchors cover 81 entities. No AR dates are quoted, so none were inferred. Still open: side stories, an exhaustive pass, and claim-level card anchors.",
@@ -929,7 +929,7 @@
   },
   {
    "id": "K087",
-   "line": 838,
+   "line": 859,
    "section": "Phase 4 — Foundational lore research packs",
    "checked": true,
    "task": "**Claim-level card anchors (2026-10-30, mechanical, Batch 4):** `scripts/build_claim_card_anchors.py` writes `data/lore_research/claim_card_anchors_2026-10-30.json`, which ties 155 of 173 claims to 884 claim-card pairs across all 9 claim packs. Each pair gets one tier. **ART_IN_CITED_SOURCE** (25 pairs): the card's art is credited by exact name on an official page the claim cites. **PRINTED_IN_STORY_SET** (33 pairs): the card has a paper printing in the story's set; this tier applies only to C2→DOM, C3→ONE and C4→MOM. **NAMED_PARTICIPANT** (826 pairs): everything else. An anchor never says a card depicts the claimed event. C3 and C4 have no art-tier pairs yet, because the caption atlas has no card-credited art captions for those episodes.",
@@ -939,7 +939,7 @@
   },
   {
    "id": "K088",
-   "line": 839,
+   "line": 860,
    "section": "Phase 4 — Foundational lore research packs",
    "checked": false,
    "task": "For each pack, publish a verified chronology, relationship map, source bibliography, explicit uncertainties and lore-deck candidates. *(v2.40, Batch 12, [#901](https://github.com/corymstover/GrokBotMTGCompanion/pull/901): `scripts/build_pack_dossiers.py` publishes, for each of Packs A (48 claims), B (18) and C (107): a relationship map, a bibliography, uncertainties, card representations and UNAPPROVED commander candidates (A 21, B 26, C 68). It also flags the one cross-pack citation (C012→Pack B `urza_profile`). Stays unchecked: stages are in **publication order**, not a verified in-universe chronology, and no candidate is an approved deck.)* *(v2.41, Batch 13, [#904](https://github.com/corymstover/GrokBotMTGCompanion/pull/904): `scripts/build_relative_chronology.py` writes `data/lore_research/relative_chronology_2026-10-30.json` and `research/RELATIVE_CHRONOLOGY_2026-10-30.md`, a partial order built **only** from orderings stated verbatim on cached official Wizards pages. Inputs are before/after statements, spans relative to each page's own story present, and the AR scene headers printed in *The Brothers' War* (e.g. 63 AR, 4562 AR). It has 42 events, 14 story presents (never merged), 47 stated edges, 6 edges derived only from printed AR labels, 0 cycles, and 155 of 1,946 pairs ordered across 12 disconnected chains. Claims placed: A 15/48, B 7/18, C 10/107. **Not enough to close L244.** `l244_closure.missing` records the gaps: story presents on different pages are not anchored to each other; Pack A primordial, Meditation Realm, WAR and TDM claims lack ordering quotes; spans are open-ended; Eldrazi spans conflict (5,000 vs >6,000 years); Pack B has Thran/Yawgmoth/Mishra gaps; C2–C4 have no AR dates and the Weatherlight Saga novels are not ingested; 7 source pages are uncached.)* *(v2.42, Batch 14, [#909](https://github.com/corymstover/GrokBotMTGCompanion/pull/909): the 10 official pages cited by packs but missing from the cache were fetched (metadata-only provenance in `data/lore_research/pack_source_cache_provenance_2026-10-30.json`; bodies stay in the untracked cache). New stated orderings from *The Reforged Chain*, the BRO product page and official summary pages (*The Known Multiverse* 2008, Commander Legends and MH2 legend bios, RTD ep3, *Death and Salvation*). No novel text was ingested. Chronology now: 56 events, 16 presents, 63 stated edges, 177/3,074 pairs ordered, 13 components; the Eldrazi and Tarkir chains merged (18 nodes) and the Weatherlight chain joined the Elder-Dragon/Invasion component. **Still not closed:** presents remain unanchored across pages; the Weatherlight-novel ordering of Yawgmoth's end and Old Phyrexia's decimation is a BLOCKER until an official recap states it.)*",
@@ -949,7 +949,7 @@
   },
   {
    "id": "K089",
-   "line": 843,
+   "line": 864,
    "section": "Phase 5 — Full-history and plane-by-plane expansion",
    "checked": true,
    "task": "**Surface existing official on-plane story evidence in plane-history queries without fabricating direct plane edges.** *(v2.58: 53 carefully selected, original-source-cited claims from Eldraine (10), Strixhaven on Arcavios (16), New Capenna (15) and Lorwyn–Shadowmoor (12), each separately marked CONTEXTUAL rather than counted as a newly researched or direct plane claim. New Arcavios geography bridge checked live from Wizards; off-plane and ambiguous cases excluded; eight tests plus inherited source-pipeline checks. Direct plane metrics stay 183 edges and 16 thin dossiers; comprehensive history remains unchecked.)*",
@@ -959,7 +959,7 @@
   },
   {
    "id": "K090",
-   "line": 844,
+   "line": 865,
    "section": "Phase 5 — Full-history and plane-by-plane expansion",
    "checked": true,
    "task": "**Research Bloomburrow's Valley origins with legendary-status boundaries.** *(v2.55: 13 source-checked claims on the Order of the Holly Leaf, Calamity era, War of Cinders, Lily's Seed Flame, weaving's aftermath, five Valley biomes and settlement governance. Legendary historical narrative remains CANON_IMPLIED, and Valley is not equated with the entire plane.)*",
@@ -969,7 +969,7 @@
   },
   {
    "id": "K091",
-   "line": 845,
+   "line": 866,
    "section": "Phase 5 — Full-history and plane-by-plane expansion",
    "checked": true,
    "task": "**Research Duskmourn's lost original plane and the House's growth.** *(v2.55: 12 source-checked claims on forgotten plane name, pre-Ascension realms, Marina, Valgavoth, the House's expansion, five zones and the Harrowing/Quiescence cycle. Advanced ancient civilization is evidence-inferred; no claim that rumors of an exit are proven.)*",
@@ -979,7 +979,7 @@
   },
   {
    "id": "K092",
-   "line": 846,
+   "line": 867,
    "section": "Phase 5 — Full-history and plane-by-plane expansion",
    "checked": true,
    "task": "**Trace Kamigawa's historical transformation using two Wizards sources.** *(v2.54: 12 quoted primary-source claims distinguish the material/spirit worlds, Kami War, Kyodai and Michiko's victory, merger sites, Imperial administration and Futurists; the relative 1,200-year marker is kept verbatim and unconverted. Direct plane claims now eight, not an exhaustive timeline.)*",
@@ -989,7 +989,7 @@
   },
   {
    "id": "K093",
-   "line": 847,
+   "line": 868,
    "section": "Phase 5 — Full-history and plane-by-plane expansion",
    "checked": true,
    "task": "**Trace Mirrodin's conversion into early New Phyrexia without present-day regime assumptions.** *(v2.54: 8 primary-source claims on abductions, Karn's oil, infection, Mirran resistance and early praetor factions; direct New Phyrexia claims now nine. Present tense in its undated overview is a historical profile, not a post-*March of the Machine* fact.)*",
@@ -999,7 +999,7 @@
   },
   {
    "id": "K094",
-   "line": 848,
+   "line": 869,
    "section": "Phase 5 — Full-history and plane-by-plane expansion",
    "checked": true,
    "task": "**Ask cited plane-history questions through the main Q&A interface.** *(v2.52: `mv_ask.py ask 'What is the history of Theros?'` returns source URLs, original grades, limitations and distinct claims/relations from the 33 current registered plane dossiers, always QUALIFIED, never a full-history or total-chronology assertion. Regression tests cover no-source names, multi-target claims and old Phyrexia's unresolved accounts.)*",
@@ -1009,7 +1009,7 @@
   },
   {
    "id": "K095",
-   "line": 849,
+   "line": 870,
    "section": "Phase 5 — Full-history and plane-by-plane expansion",
    "checked": true,
    "task": "**Deepen Theros's plane history using its official Wizards primer.** *(v2.51: 10 new live-quote-verified claims covering gods, three named poleis, ecological perils, civic ideals and Akros's outpost defenses; existing TS037 and source ID ths_plane preserved. Theros direct claims 3→6; v2.52 corrects the earlier prose-only miscount. This does not verify all gods, myths, poleis or the in-world timeline; exhaustive history remains OPEN.)*",
@@ -1019,7 +1019,7 @@
   },
   {
    "id": "K096",
-   "line": 850,
+   "line": 871,
    "section": "Phase 5 — Full-history and plane-by-plane expansion",
    "checked": true,
    "task": "**Deepen Alara's plane history using the official Wizards primer.** *(v2.50: 10 live-quote-verified, source-graded claims on five shards, convergence, mana environment and the factions' differing conflicts; source register reused, with no duplicate official source node or existing UP001 Bolas claim. Alara now has 5 directly incident distinct claims, but an exhaustive history, specific battle participants and cross-era dates remain OPEN.)*",
@@ -1029,7 +1029,7 @@
   },
   {
    "id": "K097",
-   "line": 851,
+   "line": 872,
    "section": "Phase 5 — Full-history and plane-by-plane expansion",
    "checked": true,
    "task": "**Publish a source-backed, explicitly partial plane-history query layer.** *(v2.49: 33 graph-registered plane dossiers, 147 direct claim-edge incidences, each fact retaining official URL, grade, limitations and optional quoted date. `scripts/query_plane_history.py` supports text/JSON; `scripts/build_plane_history_dossiers.py --check` and dedicated tests enforce provenance and no inferred chronology. 22 dossiers remain thin, so exhaustive plane history, L244 and contradiction reconciliation are **not** closed.)*",
@@ -1039,7 +1039,7 @@
   },
   {
    "id": "K098",
-   "line": 853,
+   "line": 874,
    "section": "Phase 5 — Full-history and plane-by-plane expansion",
    "checked": false,
    "task": "Expand the Mending, major planeswalkers and the Gatewatch.",
@@ -1049,7 +1049,7 @@
   },
   {
    "id": "K099",
-   "line": 854,
+   "line": 875,
    "section": "Phase 5 — Full-history and plane-by-plane expansion",
    "checked": false,
    "task": "Expand Bolas's schemes and the War of the Spark. *(Partial, 2026-10-30 Batch 5: a reusable bulk claim-pack pipeline, `scripts/story_claim_pipeline.py`, builds packs from one spec file each in `data/lore_research/claim_specs/`. It gates every quote verbatim (whitespace-normalized) against the cached official page, enforces the closed grade set and requires a limitation for any non-CONFIRMED claim. It also checks that every page is a Wizards page tagged with the spec's arc, and writes a self-hashed audit. CI runs `story_claim_pipeline.py check`, which rebuilds each pack from its spec and verifies the quote hashes without the cache. Three PRELIMINARY_RESEARCH packs were added: KLD/AER, 25 claims (Pia, Baral, Tezzeret, the Planar Bridge, Ajani joining the Gatewatch); XLN/RIX, 16 claims (Azor's Immortal Sun built to imprison Bolas, Bolas hiring Vraska, Huatli meeting Saheeli); and AKH/HOU, 17 claims (the God-Pharaoh, Liliana killing Razaketh, the Gatewatch's defeat, Bolas taking the Planar Bridge). In total: 58 claims, 75/75 quotes verbatim, 31 official pages. Non-canon Rivals alternate endings are graded ALTERNATE_CONTINUITY. Targeted extraction, not exhaustive, and not owner approved. **v2.33:** a fourth pack, NEO (Kamigawa: Neon Dynasty), adds 12 claims with 19/19 quotes verbatim from 6 official pages ([PR #861](https://github.com/corymstover/GrokBotMTGCompanion/pull/861)). It covers the Wanderer being the Emperor, Tezzeret's Reality Chip igniting her spark, Kaito and his sister Eiko, Tezzeret abducting Tamiyo, and Jin-Gitaxias compleating her. 9 claims are CONFIRMED and 3 IMPLIED, each IMPLIED claim with a limitation. Status: PRELIMINARY_RESEARCH.)*",
@@ -1059,7 +1059,7 @@
   },
   {
    "id": "K100",
-   "line": 855,
+   "line": 876,
    "section": "Phase 5 — Full-history and plane-by-plane expansion",
    "checked": false,
    "task": "Expand Mirrodin/New Phyrexia and March of the Machine. *(Partial: targeted Packs C3 and C4 cover the main-story episodes; side stories and an exhaustive pass are still open, so this stays unchecked.)*",
@@ -1069,7 +1069,7 @@
   },
   {
    "id": "K101",
-   "line": 856,
+   "line": 877,
    "section": "Phase 5 — Full-history and plane-by-plane expansion",
    "checked": false,
    "task": "Expand Omenpaths and later canonical stories. *(Partial, v2.34, 2026-10-30 Batch 6: PRELIMINARY_RESEARCH claim packs through `scripts/story_claim_pipeline.py` now cover all 33 inventory arcs at least in part — MID/VOW, SNC, EOE ([#863](https://github.com/corymstover/GrokBotMTGCompanion/pull/863)); RF, WOE, MKM ([#864](https://github.com/corymstover/GrokBotMTGCompanion/pull/864)); BLB, DSK, OTJ, LCI, DFT ([#865](https://github.com/corymstover/GrokBotMTGCompanion/pull/865)); KHM, STX, IKO ([#867](https://github.com/corymstover/GrokBotMTGCompanion/pull/867)); THB, THS, MAT, ELD ([#868](https://github.com/corymstover/GrokBotMTGCompanion/pull/868)); SOS, SOI/EMN ([#869](https://github.com/corymstover/GrokBotMTGCompanion/pull/869)). Generator scripts live in `scripts/claim_spec_sources/` with `rebuild.sh`. Coverage: 195/626 pages cited, 0 arcs not started, 26 partial, 7 complete; 501 graph claims.  v2.35, Batch 7: bulk fills and new packs ([#871](https://github.com/corymstover/GrokBotMTGCompanion/pull/871)), 78 untagged pages triaged into arcs plus side-story packs ([#872](https://github.com/corymstover/GrokBotMTGCompanion/pull/872)), and BFZ/OGW, DMU, NEO, DSK, MKM, MOM closed ([#873](https://github.com/corymstover/GrokBotMTGCompanion/pull/873)); every pack now has a generating spec script with a byte-for-byte regeneration test. Coverage: 350/626 pages cited, 0 arcs not started, 13 partial, 20 all pages cited; 711 graph claims; 628/711 claims card-anchored. **v2.36, Batch 8:** LCI, BLB, THB, KLD/AER, DFT, XLN/RIX, DOM/WAR (new `pack_p5_war_spark_ravnica`) closed ([#875](https://github.com/corymstover/GrokBotMTGCompanion/pull/875)); KHM, STX ([#876](https://github.com/corymstover/GrokBotMTGCompanion/pull/876)); MID/VOW, THS ([#877](https://github.com/corymstover/GrokBotMTGCompanion/pull/877)). Coverage: 414/626 pages cited, 31 of 33 arcs with every page cited (still partial: IKO 1/3, whose 2 uncited pages have no lore content, and untagged 17/227); 838 graph claims. **v2.37, Batch 9:** untagged packs: bios and planes ([#883](https://github.com/corymstover/GrokBotMTGCompanion/pull/883)) and Tarkir 2014–2015 plus the Chronicle of Bolas ([#885](https://github.com/corymstover/GrokBotMTGCompanion/pull/885)). The reviewed_no_claim register now holds 36 pages (IKO's 2 pages, [#881](https://github.com/corymstover/GrokBotMTGCompanion/pull/881); 34 untagged pages, [#883](https://github.com/corymstover/GrokBotMTGCompanion/pull/883)). Coverage: 466/626 pages cited, 36 reviewed with no claim, 31 of 33 arcs with every page cited, 32 of 33 cited or reviewed; untagged 69 cited + 34 reviewed of 227; 939 graph claims. Targeted, not exhaustive, not owner approved, so this stays unchecked. **v2.38, Batch 10:** untagged packs ZNR 2020, NPH guides, ISD guides, Conspiracy 2016 ([#889](https://github.com/corymstover/GrokBotMTGCompanion/pull/889), [#890](https://github.com/corymstover/GrokBotMTGCompanion/pull/890)), ORI 2015 and GRN/RNA ([#891](https://github.com/corymstover/GrokBotMTGCompanion/pull/891)), misc 2015–2019 ([#892](https://github.com/corymstover/GrokBotMTGCompanion/pull/892)), 2012–2013 Planeswalker's Guides and 2007 Maelstrom/Torrent ([#893](https://github.com/corymstover/GrokBotMTGCompanion/pull/893)). Coverage: 516/626 pages cited, 40 reviewed with no claim; untagged 119 cited + 38 reviewed of 227 (70 unread); 1,027 graph claims.)*",
@@ -1079,7 +1079,7 @@
   },
   {
    "id": "K102",
-   "line": 857,
+   "line": 878,
    "section": "Phase 5 — Full-history and plane-by-plane expansion",
    "checked": false,
    "task": "Audit major planes, regions, factions, artifacts and overlooked characters. *(Partial v2.59: character and faction history questions can now retrieve the existing **direct** claim edges for 623 of 628 registered Character/Faction nodes, with citations, grades and no inferred chronology. This is not an exhaustive source-by-source audit or a complete biography; see `research/PHASE5_CHARACTER_FACTION_HISTORY_LOOKUP_2026-10-30.md`.)*",
@@ -1089,7 +1089,7 @@
   },
   {
    "id": "K103",
-   "line": 858,
+   "line": 879,
    "section": "Phase 5 — Full-history and plane-by-plane expansion",
    "checked": false,
    "task": "Connect cross-plane histories and document contradictions/retcons. *(Partial, v2.38, Batch 10: `mv_ask` continuity route (\"explain the continuity of X\", \"is X canon / a retcon\", \"conflicting accounts of X\") lists every cited CANON_DISPUTED, ALTERNATE_CONTINUITY and OPEN_QUESTION claim and any claim whose limitation names a retcon, timeline rewrite or conflicting account, each with its sources and why it is listed; it never resolves them. Limited to what the packs cite, so this stays unchecked.)* *(v2.39, Batch 11: leader questions union `led`/`leader_of` ([#895](https://github.com/corymstover/GrokBotMTGCompanion/pull/895)); past-era Tarkir leaders tagged \"Tarkir's past\". Still partial.)*",
@@ -1099,7 +1099,7 @@
   },
   {
    "id": "K104",
-   "line": 859,
+   "line": 880,
    "section": "Phase 5 — Full-history and plane-by-plane expansion",
    "checked": false,
    "task": "Use the Phase 1B Set & Printing Atlas to navigate published sets and storylines while keeping real-world release dates separate from in-universe event order.",
@@ -1109,7 +1109,7 @@
   },
   {
    "id": "K105",
-   "line": 860,
+   "line": 881,
    "section": "Phase 5 — Full-history and plane-by-plane expansion",
    "checked": false,
    "task": "Maintain an explicit coverage/gaps inventory as new sets and stories arrive. *(Started 2026-10-30, Batch 4: `scripts/build_story_coverage_inventory.py` generates `data/lore_research/story_coverage_inventory_2026-10-30.json` from the 626-page `primary_sources.csv` and the 9 graph claim packs, and CI rebuilds and compares it. Claim packs cite 57 of the 626 pages. Of the 33 arc buckets, 1 has every page cited (ONE, 6/6), 9 are partial (MOM 10/11, DOM/WAR 12/18, BRO 4/10, BFZ/OGW 3/19, TDM 2/14, SOI/EMN 1/21, DMU 1/6, ECL 1/12, untagged 17/305) and 23 are not started, including KLD/AER, AKH/HOU, XLN/RIX, EOE and RF. \"Cited\" means the page is used at least once, not that it was read exhaustively. The box stays unchecked because the inventory still has to be refreshed when new stories arrive. **Batch 5 refresh:** 12 claim packs and 231 claims now cite 88 of the 626 pages. 1 arc is fully cited, 12 are partial (now including KLD/AER 14/17, XLN/RIX 10/17 and AKH/HOU 7/16), and 20 are not started. **v2.33 (after NEO):** 13 packs and 243 claims cite 94 of 626 pages. 2 arcs are fully cited, 12 partial and 19 not started. **v2.38, Batch 10 refresh:** 516/626 pages cited, 40 reviewed with no claim, 31 of 33 arcs fully cited; untagged 119 + 38 reviewed of 227.)* *(v2.39, Batch 11: **626/626 pages cited or reviewed** (576 cited, 50 reviewed with no claim, 0 unread); all 33 arcs cited-or-reviewed; 1,139 claims. Stays unchecked: upkeep is ongoing as new stories arrive.)*",
@@ -1119,7 +1119,7 @@
   },
   {
    "id": "K106",
-   "line": 872,
+   "line": 893,
    "section": "Phase 6 — Lore-first Commander deckbuilding engine (DEFERRED UNTIL FOUNDATION CERTIFICATION)",
    "checked": false,
    "task": "Retrieve lore-relevant cards with grades: direct depiction, canon reference, lore-inspired, mechanical stand-in.",
@@ -1129,7 +1129,7 @@
   },
   {
    "id": "K107",
-   "line": 873,
+   "line": 894,
    "section": "Phase 6 — Lore-first Commander deckbuilding engine (DEFERRED UNTIL FOUNDATION CERTIFICATION)",
    "checked": false,
    "task": "Compare eligible commander choices with verified color identity and relevant story context.",
@@ -1139,7 +1139,7 @@
   },
   {
    "id": "K108",
-   "line": 874,
+   "line": 895,
    "section": "Phase 6 — Lore-first Commander deckbuilding engine (DEFERRED UNTIL FOUNDATION CERTIFICATION)",
    "checked": false,
    "task": "Build mechanically coherent, realistic-power Commander strategies around the narrative.",
@@ -1149,7 +1149,7 @@
   },
   {
    "id": "K109",
-   "line": 875,
+   "line": 896,
    "section": "Phase 6 — Lore-first Commander deckbuilding engine (DEFERRED UNTIL FOUNDATION CERTIFICATION)",
    "checked": false,
    "task": "Support optional set/era/first-printed-in restrictions using verified Phase 1B data without confusing reprints with original debuts.",
@@ -1159,7 +1159,7 @@
   },
   {
    "id": "K110",
-   "line": 876,
+   "line": 897,
    "section": "Phase 6 — Lore-first Commander deckbuilding engine (DEFERRED UNTIL FOUNDATION CERTIFICATION)",
    "checked": false,
    "task": "Verify each final 100-card list, singleton restrictions, relevant rules/combinations, legality and current bracket.",
@@ -1169,7 +1169,7 @@
   },
   {
    "id": "K111",
-   "line": 877,
+   "line": 898,
    "section": "Phase 6 — Lore-first Commander deckbuilding engine (DEFERRED UNTIL FOUNDATION CERTIFICATION)",
    "checked": false,
    "task": "Provide three Archidekt tags and one clean commander-first `1x Name` import list.",
@@ -1179,7 +1179,7 @@
   },
   {
    "id": "K112",
-   "line": 878,
+   "line": 899,
    "section": "Phase 6 — Lore-first Commander deckbuilding engine (DEFERRED UNTIL FOUNDATION CERTIFICATION)",
    "checked": false,
    "task": "Pilot 1: **Ugin & Nicol Bolas — Elder Dragon Duality**. Owner approval is pending, so the box stays unchecked until Cory approves.",
@@ -1189,7 +1189,7 @@
   },
   {
    "id": "K113",
-   "line": 880,
+   "line": 901,
    "section": "Phase 6 — Lore-first Commander deckbuilding engine (DEFERRED UNTIL FOUNDATION CERTIFICATION)",
    "checked": false,
    "task": "Pilot 2: **Original Primeval Dragons**.",
@@ -1199,7 +1199,7 @@
   },
   {
    "id": "K114",
-   "line": 882,
+   "line": 903,
    "section": "Phase 6 — Lore-first Commander deckbuilding engine (DEFERRED UNTIL FOUNDATION CERTIFICATION)",
    "checked": false,
    "task": "Pilot 3: **Ugin's Allies and Heroes**.",
@@ -1209,7 +1209,7 @@
   },
   {
    "id": "K115",
-   "line": 885,
+   "line": 906,
    "section": "Phase 6 — Lore-first Commander deckbuilding engine (DEFERRED UNTIL FOUNDATION CERTIFICATION)",
    "checked": false,
    "task": "Preserve the original approved 62 decks; a new pilot never overwrites them.",
@@ -1219,7 +1219,7 @@
   },
   {
    "id": "K116",
-   "line": 889,
+   "line": 910,
    "section": "Phase 7 — Ultimate MTG question-answering companion",
    "checked": true,
    "task": "**Answer bounded two-event chronology questions through the main natural-language Q&A interface.** *(v2.57: `mv_ask.py ask` compares recognized event label fragments through v2.56's cited source-local and Packs A–C event orders, returns yes/no/first-event only when justified by strict BEFORE/AFTER evidence, and reports UNKNOWN or unresolved ambiguity without guessing. Explicit flags preserve narrated legends, overlapping war events, and unrelated/unaligned eras. Nine dedicated regressions; not a total chronology or comprehensive open-domain Q&A solution.)*",
@@ -1229,7 +1229,7 @@
   },
   {
    "id": "K117",
-   "line": 890,
+   "line": 911,
    "section": "Phase 7 — Ultimate MTG question-answering companion",
    "checked": true,
    "task": "**Support bounded, evidence-qualified lookups for card names, Oracle text, types, identities, keyword mechanics, printings and published rulings.** *(v2.62: `mv_ask.py` combines the existing card lookup with v2.61's complete historical printing route and the dated 2026-10-15 published-ruling/official 2026-09-25 keyword-rule excerpt. It answers card rulings, 701/702 keyword definitions, and evidence-backed two-card interaction questions with direct source URLs and negative-case qualifiers. It is **not** a comprehensive mechanics interpreter, current live ruling sync, or game simulator. The lookup capability is verified; more advanced interaction research remains open.)*",
@@ -1239,7 +1239,7 @@
   },
   {
    "id": "K118",
-   "line": 891,
+   "line": 912,
    "section": "Phase 7 — Ultimate MTG question-answering companion",
    "checked": true,
    "task": "**Answer bounded set and printing questions with category-qualified totals, full set card lists, printing/debut/reprint distinctions and cited snapshot dates from Phase 1B.** *(v2.61: the normal `mv_ask.py ask` entry point serves the frozen 2026-10-29 historical shard index with the exact 1,062-code category breakdown, full per-set English-paper card lists and debut/reprint classes, and printing-ID-level histories. It explicitly marks 136 regular/mainline codes as a scoped research classification, not an official all-time premier count; qualifying flags preserve source-bulk absence and release-date versus lore-date separation. Nine focused regressions. Broader questions and source-level replay remain open.)*",
@@ -1249,7 +1249,7 @@
   },
   {
    "id": "K119",
-   "line": 892,
+   "line": 913,
    "section": "Phase 7 — Ultimate MTG question-answering companion",
    "checked": false,
    "task": "Answer obscure lore and chronology questions through cited evidence and dated canon status.",
@@ -1259,7 +1259,7 @@
   },
   {
    "id": "K120",
-   "line": 893,
+   "line": 914,
    "section": "Phase 7 — Ultimate MTG question-answering companion",
    "checked": true,
    "task": "Explain ambiguous/retconned narratives rather than inventing certainty. *(v2.37, Batch 9: leader answers order cited leaders by the citing page's publication date. Claims whose summary or limitation sets them in a past era or an original or rewritten timeline are now kept as era context and never reported as the most recent leader. The answer carries the flag `ERA_OR_TIMELINE_CONTEXT` and an `era_note` saying that publication order is not in-universe order and that the cited claims do not by themselves establish the present-day leader. For example, Yasova, Tasigur, Alesha and Daghatar are Fate Reforged past-era khans; they are era context behind Surrak, Sidisi, Zurgo and Anafenza. Covered by `tests/test_batch_recount_b9.py`. There is no general retcon explainer beyond leadership yet. **v2.38, Batch 10:** a general continuity explainer (`continuity()` in `mv_ask`, route `ask->continuity`, `tests/test_mv_ask_continuity.py`) returns the conflicting or alternate cited accounts with `QUALIFIED` confidence and a \"not resolved\" note, or `NO_CITED_CONTINUITY_CONFLICT`. Checked as a capability; its answers are only as complete as the cited packs.)*",
@@ -1269,7 +1269,7 @@
   },
   {
    "id": "K121",
-   "line": 894,
+   "line": 915,
    "section": "Phase 7 — Ultimate MTG question-answering companion",
    "checked": false,
    "task": "Integrate card, lore and rules search for difficult research questions; defer deck recommendations and deckbuilding flows until post-foundation Phase 6.",
@@ -1279,7 +1279,7 @@
   },
   {
    "id": "K122",
-   "line": 895,
+   "line": 916,
    "section": "Phase 7 — Ultimate MTG question-answering companion",
    "checked": false,
    "task": "Test difficult representative queries, cross-references, and interaction explanations. *(Partial, 2026-10-30 Batch 4: `mv_ask` now answers \"who killed X\" using the `killed` relation, plus \"who is X's mother\" and \"who struck down X\". All three are covered by Pack C4 regression tests, for example Karn → Elesh Norn (MOM017) and Tamiyo → Nashi (MOM010). Unknown names still return NOT_FOUND. A broad hard-query suite is still open. **v2.33:** `tests/test_mv_ask_relations.py` ([PR #859](https://github.com/corymstover/GrokBotMTGCompanion/pull/859)) is data-driven. Every claim edge in the graph must round-trip through `mv_ask` lore with its grade and source URL, confidence must never overstate the grade, and non-CONFIRMED P5 claims must carry limitations. It also checks natural-language questions (Razaketh, the Immortal Sun, Ugin, Heart of Kiran). The router gained `created ← designed/invented` and `defeated_by ← defeated` fallbacks. A broader free-text paraphrase suite is still open, so this box stays unchecked. **v2.36, Batch 8:** `tests/test_mv_ask_rephrased_b8.py` adds 27 cases / 42 phrasings over the Batch 7/8 relations (22 VERIFIED, 5 QUALIFIED CANON_IMPLIED cases that must carry a limitation), and the router gained honest phrasings for \"beheaded\", \"the leader of X\", \"governs/rules\", \"mentored\"/\"X's mentor\", \"founded\", \"guards\", \"fought\", \"serves\", \"worships\", \"attacked\", \"who did X meet\", and friend_of for \"X's friends\". Unknown entities still return NOT_FOUND. Known gap: faction short names such as \"the Izzet\" do not resolve. **v2.37, Batch 9:** faction short names now resolve, for example \"the Izzet\" and \"the Temur\" ([#882](https://github.com/corymstover/GrokBotMTGCompanion/pull/882), flag `MATCHED_BY_FACTION_ALIAS`). Sibling questions read `sibling_of|twin_sibling_of` together, so Ugin's cited siblings no longer hide the Bolas twin edge ([#885](https://github.com/corymstover/GrokBotMTGCompanion/pull/885)). A 13-question representative set runs in CI through `scripts/batch_recount.py`. Still not a broad hard-query suite, so the box stays unchecked.)* *(v2.42, Batch 14, [#910](https://github.com/corymstover/GrokBotMTGCompanion/pull/910): a probe over all 54 factions with cited leaders found 'guildmaster of', 'in charge of', \"who's the leader of\" and 'commands' missed 54/54; now 0 misses over 14 phrasings, except 3 factions (dragonlords, Elves of Eldraine, the Twelve) whose only leader edges point outward, which correctly stay NOT_FOUND. `tests/test_mv_ask_leader_phrasings_b14.py`. Still not a broad hard-query suite.)*",
@@ -1289,7 +1289,7 @@
   },
   {
    "id": "K123",
-   "line": 896,
+   "line": 917,
    "section": "Phase 7 — Ultimate MTG question-answering companion",
    "checked": true,
    "task": "Flag unavailable, stale or low-confidence information explicitly. `mv_ask` returns VERIFIED, QUALIFIED or NOT_FOUND with flags and exits 3 for unknown entities ([PR #827](https://github.com/corymstover/GrokBotMTGCompanion/pull/827), [PR #829](https://github.com/corymstover/GrokBotMTGCompanion/pull/829)).",
@@ -1299,7 +1299,7 @@
   },
   {
    "id": "K124",
-   "line": 901,
+   "line": 922,
    "section": "Phase 8 — Release quality and continuing upkeep",
    "checked": false,
    "task": "Keep targeted CI checks for card counts, source integrity, graph relationships, rules/Q&A and set data; preserve existing deck-legality regression checks without starting new decks.",
@@ -1309,7 +1309,7 @@
   },
   {
    "id": "K125",
-   "line": 903,
+   "line": 924,
    "section": "Phase 8 — Release quality and continuing upkeep",
    "checked": false,
    "task": "Monitor new official stories, Oracle changes, releases, rules and Commander format updates.",
@@ -1319,7 +1319,7 @@
   },
   {
    "id": "K126",
-   "line": 907,
+   "line": 928,
    "section": "Phase 8 — Release quality and continuing upkeep",
    "checked": false,
    "task": "Rebuild and reconcile the Phase 1B set catalog and bidirectional printing lookups when new sets or printings appear, retaining historical snapshots.",
@@ -1329,7 +1329,7 @@
   },
   {
    "id": "K127",
-   "line": 909,
+   "line": 930,
    "section": "Phase 8 — Release quality and continuing upkeep",
    "checked": true,
    "task": "Update snapshot manifests with actual download bytes and stable hashes. *(v2.72: the original Oct 28 source is now hash-recovered and measured at **80,216,061 compressed bytes**, matching its pre-existing SHA-256. The three original Oct 15–16 locked files and all three active Oct 29 Companion archives also have independently matched bytes and SHA-256, preserved in `data/scryfall_snapshots/historical_bulk_replay_2026-10-31.json` alongside the existing October 29 release manifest. The historical export manifest's deterministic schema stays unchanged.)*",
@@ -1339,7 +1339,7 @@
   },
   {
    "id": "K128",
-   "line": 910,
+   "line": 931,
    "section": "Phase 8 — Release quality and continuing upkeep",
    "checked": true,
    "task": "Maintain an honest progress tracker: completed, under review, blocked, and not started. *(v2.73: a deterministic all-137 task triage documents each open item's source/owner/engineering/ongoing blocker; the checkpoint separately lists 14 foundation release/Phase 8 gates, keeps Phase 6 deferred, and fails CI when either report is stale.)*",
@@ -1349,7 +1349,7 @@
   },
   {
    "id": "K129",
-   "line": 913,
+   "line": 934,
    "section": "Phase 8 — Release quality and continuing upkeep",
    "checked": false,
    "task": "Define an MTG Multiverse Companion milestone release based on verified features, not an arbitrary percentage of all lore. *(v2.42, Batch 14, [#911](https://github.com/corymstover/GrokBotMTGCompanion/pull/911): certification-checklist dry run `scripts/certification_dry_run.py` → `data/release/certification_dry_run_2026-10-30.json` / `research/CERTIFICATION_DRY_RUN_2026-10-30.md` lists the typed blockers for each release criterion and Phase 8 item (OWNER_APPROVAL 3, OWNER_DECISION 5, EXTERNAL_CI 3, MISSING_SOURCE 2, ENGINEERING_OPEN 4, ONGOING 4). It certifies nothing; accepting the definition is the owner's call.)*",
@@ -1359,7 +1359,7 @@
   },
   {
    "id": "K130",
-   "line": 916,
+   "line": 937,
    "section": "Phase 8 — Release quality and continuing upkeep",
    "checked": false,
    "task": "Treat continual future MTG releases as an ongoing maintenance track rather than a permanently finishable backlog.",
@@ -1369,7 +1369,7 @@
   },
   {
    "id": "K131",
-   "line": 953,
+   "line": 974,
    "section": "Definition of the first major Companion release",
    "checked": false,
    "task": "Priority-card enrichment backlog fully accounted for (completed or explicitly documented exceptions/gaps).",
@@ -1379,7 +1379,7 @@
   },
   {
    "id": "K132",
-   "line": 954,
+   "line": 975,
    "section": "Definition of the first major Companion release",
    "checked": false,
    "task": "Searchable cited connections across the three foundational lore packs.",
@@ -1389,7 +1389,7 @@
   },
   {
    "id": "K133",
-   "line": 955,
+   "line": 976,
    "section": "Definition of the first major Companion release",
    "checked": false,
    "task": "Reliable lookup and rules checks backed by current Scryfall and official sources.",
@@ -1399,7 +1399,7 @@
   },
   {
    "id": "K134",
-   "line": 956,
+   "line": 977,
    "section": "Definition of the first major Companion release",
    "checked": false,
    "task": "A verified Phase 1B set catalog with category-specific counts, set → card and card → set lookups, debut/reprint identification and English export support.",
@@ -1409,7 +1409,7 @@
   },
   {
    "id": "K135",
-   "line": 957,
+   "line": 978,
    "section": "Definition of the first major Companion release",
    "checked": false,
    "task": "Source-graded in-universe chronology, broad plane/character/faction history and difficult Q&A coverage reviewed for the documented knowledge-foundation scope, with explicit unresolved gaps.",
@@ -1419,7 +1419,7 @@
   },
   {
    "id": "K136",
-   "line": 958,
+   "line": 979,
    "section": "Definition of the first major Companion release",
    "checked": false,
    "task": "No regression in the 62 archived approved Grixis decks.",
@@ -1429,7 +1429,7 @@
   },
   {
    "id": "K137",
-   "line": 959,
+   "line": 980,
    "section": "Definition of the first major Companion release",
    "checked": false,
    "task": "Passing focused CI and an up-to-date, source-backed coverage report.",
