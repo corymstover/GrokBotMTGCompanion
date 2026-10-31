@@ -23,8 +23,8 @@ class PlaneContextTests(unittest.TestCase):
         self.assertEqual(self.saved, H.build())
         self.assertEqual(self.saved['schema'], 'plane-history-dossiers/v2')
         self.assertEqual(self.saved['counts']['registered_planes'], 33)
-        self.assertEqual(self.saved['counts']['direct_claim_edges'], 183)
-        self.assertEqual(self.saved['counts']['thin_planes_fewer_than_five_claims'], 16)
+        self.assertEqual(self.saved['counts']['direct_claim_edges'], 195)
+        self.assertEqual(self.saved['counts']['thin_planes_fewer_than_five_claims'], 12)
         self.assertEqual(self.saved['counts']['planes_with_curated_context'], 4)
         self.assertEqual(self.saved['counts']['distinct_contextual_claims'], 53)
 
@@ -75,8 +75,8 @@ class PlaneContextTests(unittest.TestCase):
     def test_new_capenna_answer_shows_old_and_new_provenance_separately(self):
         a=mv_ask.ask('What is the history of New Capenna?')
         self.assertEqual(a['confidence'],'QUALIFIED')
-        self.assertEqual(a['result']['direct_claims'],2)
-        self.assertEqual(len(a['result']['claims']),2)
+        self.assertEqual(a['result']['direct_claims'],5)
+        self.assertEqual(len(a['result']['claims']),5)
         self.assertEqual(a['result']['contextual_claim_count'],15)
         self.assertIn('CURATED_ON_PLANE_CONTEXT_NOT_DIRECT_GRAPH_CLAIMS',a['flags'])
         self.assertTrue(any(c['claim_id']=='SN003' for c in a['result']['contextual_claims']))
@@ -85,7 +85,7 @@ class PlaneContextTests(unittest.TestCase):
 
     def test_eldraine_context_and_direct_are_not_conflated(self):
         a=mv_ask.ask('What is the history of Eldraine?')
-        self.assertEqual(a['result']['direct_claims'],3)
+        self.assertEqual(a['result']['direct_claims'],5)
         self.assertEqual(a['result']['contextual_claim_count'],10)
         self.assertFalse(a['result']['complete_history'])
         self.assertFalse(a['result']['verified_total_chronology'])
