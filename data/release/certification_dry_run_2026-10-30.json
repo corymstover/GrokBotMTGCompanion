@@ -122,7 +122,7 @@
    "blockers": [
     {
      "kind": "EXTERNAL_CI",
-     "what": "The source-graded knowledge-foundation acceptance packet now exists with separate chronology ledgers, representative cited plane/character/faction/cross-plane evidence, explicit gaps and twenty-six difficult Q&A cases. Its deterministic rebuild and representative rules/Q&A tests must still pass on the exact candidate foundation-release commit; it does not establish exhaustive knowledge.",
+     "what": "The source-graded knowledge-foundation acceptance packet now exists with separate chronology ledgers, representative cited plane/character/faction/cross-plane evidence, explicit gaps and thirty distinct difficult Q&A cases. Its deterministic rebuild and representative rules/Q&A tests must still pass on the exact candidate foundation-release commit; it does not establish exhaustive knowledge.",
      "evidence": [
       "data/release/foundation_acceptance_packet_2026-10-30.json",
       "research/FOUNDATION_ACCEPTANCE_PACKET_2026-10-30.md"

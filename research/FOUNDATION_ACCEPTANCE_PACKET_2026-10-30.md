@@ -7,8 +7,8 @@ This source-graded packet is reproducible from the repository, with exact input 
 ## Inventory and supported lookups
 
 - 576 official source pages cited and 50 reviewed without a claim within the inventoried 626-page scope. Citation does not mean exhaustive reading.
-- 1222 source-graded graph claims across 5209 nodes; 33 registered planes, 12 still thin.
-- 483 registered characters and 147 factions; 630 with direct cited claims, 0 without.
+- 1234 source-graded graph claims across 5232 nodes; 33 registered planes, 8 still thin.
+- 484 registered characters and 149 factions; 633 with direct cited claims, 0 without.
 - 53 previously researched on-plane contextual claims in 4 dossiers, strictly distinct from new/direct graph claims.
 
 ## In-universe chronology (not a complete timeline)
@@ -47,6 +47,10 @@ This source-graded packet is reproducible from the repository, with exact input 
 | What is the history of Eldraine? | `ask->plane_history` | `QUALIFIED` | 3 |
 | What is the history of Ikoria? | `ask->plane_history` | `QUALIFIED` | 3 |
 | What is the history of New Capenna? | `ask->plane_history` | `QUALIFIED` | 8 |
+| What is the history of Arcavios? | `ask->plane_history` | `QUALIFIED` | 12 |
+| What is the history of Vryn? | `ask->plane_history` | `QUALIFIED` | 3 |
+| What is the history of Serra's Realm? | `ask->plane_history` | `QUALIFIED` | 2 |
+| What is the history of Regatha? | `ask->plane_history` | `QUALIFIED` | 4 |
 
 The underlying JSON retains response digests, exact source URLs and caveat flags. The two graph-navigation examples are **not** evidence of chronological or causal paths.
 
@@ -69,6 +73,6 @@ python3 scripts/certification_dry_run.py --check
 python3 scripts/update_multiverse_progress_tracker.py --check
 ```
 
-Packet SHA-256 (canonical JSON): `1c85f5d2b7fe45a37e2d5b0682bde9d3b8218d3e668696bff49926772172e2d3`
+Packet SHA-256 (canonical JSON): `9cb53841440c3b275a8baf0fc374d15b1210d31a047f867ef1bd75970cfe6ef2`
 
 **No decks were built, modified, reviewed or approved.**

@@ -125,21 +125,25 @@
     {
       "id": "plane:arcavios",
       "name": "Arcavios",
-      "claim_edges": 2,
-      "distinct_claims": 2,
+      "claim_edges": 5,
+      "distinct_claims": 5,
       "claims": [
         "EC006",
+        "FPH001",
+        "FPH002",
+        "FPH003",
         "SS023"
       ],
       "official_source_ids": [
         "ecl_ep1",
+        "fph_strixhaven_2021",
         "sos_ep5"
       ],
       "grades_present": [
         "CANON_CONFIRMED",
         "CANON_IMPLIED"
       ],
-      "research_priority": "THIN_DIRECT_EVIDENCE",
+      "research_priority": "EXPAND_NARRATIVE_DEPTH",
       "limitation": "Direct graph edges only; not the complete plane history or a canon completeness score."
     },
     {
@@ -697,39 +701,48 @@
     {
       "id": "plane:regatha",
       "name": "Regatha",
-      "claim_edges": 2,
-      "distinct_claims": 2,
+      "claim_edges": 5,
+      "distinct_claims": 5,
       "claims": [
         "BZ024",
+        "FPH010",
+        "FPH011",
+        "FPH012",
         "KLD003"
       ],
       "official_source_ids": [
         "bfz_promises_keep",
+        "fph_offers_fire_2015",
+        "fph_original_spin_2015",
         "kld_renegade_prime"
       ],
       "grades_present": [
         "CANON_CONFIRMED"
       ],
-      "research_priority": "THIN_DIRECT_EVIDENCE",
+      "research_priority": "EXPAND_NARRATIVE_DEPTH",
       "limitation": "Direct graph edges only; not the complete plane history or a canon completeness score."
     },
     {
       "id": "plane:serras_realm",
       "name": "Serra's Realm",
-      "claim_edges": 2,
-      "distinct_claims": 2,
+      "claim_edges": 5,
+      "distinct_claims": 5,
       "claims": [
+        "FPH007",
+        "FPH008",
+        "FPH009",
         "UB034",
         "WSM011"
       ],
       "official_source_ids": [
+        "fph_multiverse_2008",
         "km",
         "ub_serra"
       ],
       "grades_present": [
         "CANON_CONFIRMED"
       ],
-      "research_priority": "THIN_DIRECT_EVIDENCE",
+      "research_priority": "EXPAND_NARRATIVE_DEPTH",
       "limitation": "Direct graph edges only; not the complete plane history or a canon completeness score."
     },
     {
@@ -858,20 +871,24 @@
     {
       "id": "plane:vryn",
       "name": "Vryn",
-      "claim_edges": 2,
-      "distinct_claims": 2,
+      "claim_edges": 5,
+      "distinct_claims": 5,
       "claims": [
+        "FPH004",
+        "FPH005",
+        "FPH006",
         "OT012",
         "RF010"
       ],
       "official_source_ids": [
+        "fph_origins_2015",
         "otj_epi2",
         "rf_ep10"
       ],
       "grades_present": [
         "CANON_CONFIRMED"
       ],
-      "research_priority": "THIN_DIRECT_EVIDENCE",
+      "research_priority": "EXPAND_NARRATIVE_DEPTH",
       "limitation": "Direct graph edges only; not the complete plane history or a canon completeness score."
     },
     {

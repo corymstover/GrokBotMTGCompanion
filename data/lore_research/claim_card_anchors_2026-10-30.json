@@ -34951,6 +34951,30 @@
    "card": "Memnarch, the Warden",
    "oracle_id": "f2630b02-fb48-4167-8a47-8284f7d4c484",
    "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "FPH003",
+   "pack": "pack_p5_four_plane_histories_2026-10-31.json",
+   "participant": "strixhaven",
+   "card": "Strixhaven",
+   "oracle_id": "022e38c3-fcea-428f-a0d0-a6cca057faa3",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "FPH010",
+   "pack": "pack_p5_four_plane_histories_2026-10-31.json",
+   "participant": "jaya_ballard",
+   "card": "Jaya Ballard",
+   "oracle_id": "a56c5ca5-70eb-4d5f-8116-2acbe5f5a3cb",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "FPH010",
+   "pack": "pack_p5_four_plane_histories_2026-10-31.json",
+   "participant": "jaya_ballard",
+   "card": "Jaya Ballard, Task Mage",
+   "oracle_id": "cbbad3da-695e-4527-9678-0942f3751287",
+   "tier": "NAMED_PARTICIPANT"
   }
  ],
  "by_pack": {
@@ -35121,6 +35145,13 @@
    "ART_IN_CITED_SOURCE": 0,
    "PRINTED_IN_STORY_SET": 45,
    "NAMED_PARTICIPANT": 40
+  },
+  "pack_p5_four_plane_histories_2026-10-31.json": {
+   "claims": 12,
+   "claims_anchored": 2,
+   "ART_IN_CITED_SOURCE": 0,
+   "PRINTED_IN_STORY_SET": 0,
+   "NAMED_PARTICIPANT": 3
   },
   "pack_p5_ikoria_2026-10-30.json": {
    "claims": 5,
@@ -35481,12 +35512,12 @@
   }
  },
  "counts": {
-  "claims": 1222,
-  "claims_anchored": 971,
-  "anchors": 4101,
+  "claims": 1234,
+  "claims_anchored": 973,
+  "anchors": 4104,
   "ART_IN_CITED_SOURCE": 123,
   "PRINTED_IN_STORY_SET": 546,
-  "NAMED_PARTICIPANT": 3432
+  "NAMED_PARTICIPANT": 3435
  },
- "content_sha256": "353c807890525bfb35ac7733f07bd6539f957311c18f2bd5bfb4c722b4aad03a"
+ "content_sha256": "bf89710a91843af58054b89f4d1a42cddffc57b95a7d9fcf93245556038daa3f"
 }

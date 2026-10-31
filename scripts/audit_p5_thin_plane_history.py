@@ -69,13 +69,13 @@ def audit(html_by_source=None):
     by_name = {plane["plane"]: plane for plane in dossiers["planes"]}
     counts = {name: by_name[name]["distinct_claims"] for name in EXPECTED}
     assert counts == EXPECTED, f"Four plane dossier counts changed: {counts}"
-    assert dossiers["counts"]["thin_planes_fewer_than_five_claims"] == 12
+    assert dossiers["counts"]["thin_planes_fewer_than_five_claims"] == 8
     assert all(not by_name[name]["complete_history"] for name in EXPECTED if
                "complete_history" in by_name[name])
     assert "forgotten" in claims[6]["source_excerpt"]
     assert "NOT identify it as Phyrexia" in claims[6]["limitation"]
     return {"status": "PASS", "claims": len(claims), "source_pages": 6,
-            "expanded_planes": counts, "remaining_thin_planes": 12,
+            "expanded_planes": counts, "remaining_thin_planes": 8,
             "source_hashes": source_hashes,
             "live_quote_checked": html_by_source is not None,
             "complete_histories": False, "owner_approved": False}

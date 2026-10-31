@@ -1,0 +1,155 @@
+{
+  "schema": "lore-claim-pack/v1",
+  "pack_id": "P5-FOUR-PLANE-HISTORIES — Arcavios, Vryn, Serra's Realm, Regatha",
+  "status": "PRELIMINARY_RESEARCH_NOT_OWNER_APPROVED",
+  "evidence_cutoff": "2026-10-31",
+  "scope": "Twelve directly cited plane claims from five Wizards pages. The source-era geography, founding accounts, faction disputes and past fates are not a complete chronology or proof of current political status.",
+  "source_register": {
+    "fph_strixhaven_2021": {
+      "title": "Planeswalker's Guide to Strixhaven",
+      "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-strixhaven-2021-04-01",
+      "kind": "official_planeswalkers_guide",
+      "perspective": "Wizards 2021 geographic and founding account",
+      "published": "2021-04-01"
+    },
+    "fph_origins_2015": {
+      "title": "The Worlds of Magic Origins",
+      "url": "https://magic.wizards.com/en/news/feature/worlds-magic-origins-2015-07-09",
+      "kind": "official_plane_profile",
+      "perspective": "Wizards 2015 description of Vryn's Core States conflict",
+      "published": "2015-07-09"
+    },
+    "fph_multiverse_2008": {
+      "title": "The Known Multiverse",
+      "url": "https://magic.wizards.com/en/news/feature/known-mutliverse-2008-03-19",
+      "kind": "official_lore_feature",
+      "perspective": "Wizards 2008 retrospective of Serra's Realm; historically situated",
+      "published": "2008-03-19"
+    },
+    "fph_original_spin_2015": {
+      "title": "Original Spin",
+      "url": "https://magic.wizards.com/en/news/making-magic/original-spin-2015-08-17",
+      "kind": "official_developer_lore_commentary",
+      "perspective": "Wizards design article identifying Jaya as founder of the Regathan monastery",
+      "published": "2015-08-17"
+    },
+    "fph_offers_fire_2015": {
+      "title": "Offers to the Fire",
+      "url": "https://magic.wizards.com/en/news/magic-story/offers-fire-2015-08-05",
+      "kind": "official_magic_story",
+      "perspective": "2015 Keral Keep scene on Regatha, not a contemporary geographic survey",
+      "published": "2015-08-05"
+    }
+  },
+  "entities": [
+    {"id": "arcavios", "type": "Plane", "name": "Arcavios"},
+    {"id": "arcavios_mana_overlap", "type": "Event", "name": "Arcavios's overlapping-mana formation"},
+    {"id": "strixhaven_founder_dragons", "type": "Faction", "name": "Strixhaven's five founding dragons"},
+    {"id": "strixhaven", "type": "Place", "name": "Strixhaven"},
+    {"id": "vryn", "type": "Plane", "name": "Vryn"},
+    {"id": "vryn_mage_ring_network", "type": "Object", "name": "Vryn's mage-ring network"},
+    {"id": "ampryn_league", "type": "Faction", "name": "Ampryn League"},
+    {"id": "trovian_separatists", "type": "Faction", "name": "Trovian Separatists"},
+    {"id": "serras_realm", "type": "Plane", "name": "Serra's Realm"},
+    {"id": "phyrexians", "type": "Faction", "name": "The Phyrexians"},
+    {"id": "radiant", "type": "Character", "name": "Radiant"},
+    {"id": "weatherlight_powerstone", "type": "Object", "name": "Weatherlight's Powerstone"},
+    {"id": "regatha", "type": "Plane", "name": "Regatha"},
+    {"id": "jaya_ballard", "type": "Character", "name": "Jaya Ballard"},
+    {"id": "keral_keep", "type": "Place", "name": "Keral Keep"},
+    {"id": "keral_keep_fire_traditions", "type": "Concept", "name": "Keral Keep's Jaya-derived fire rituals"}
+  ],
+  "claims": [
+    {
+      "id": "FPH001", "subject": "arcavios", "predicate": "formed_amid", "object": "arcavios_mana_overlap",
+      "grade": "CANON_CONFIRMED", "event_stage": "arcavios_plane_formation", "source_ids": ["fph_strixhaven_2021"],
+      "source_excerpt": "At the birth of the plane, as the mana of two planes overlapped in conflicting ways",
+      "summary": "The 2021 guide describes Arcavios's birth amid the overlapping mana of two planes.",
+      "limitation": "A source's origin account, not an identified pair of parent planes, a mechanism of planar fusion, or a dated universal chronology."
+    },
+    {
+      "id": "FPH002", "subject": "arcavios", "predicate": "birthed", "object": "strixhaven_founder_dragons",
+      "grade": "CANON_CONFIRMED", "event_stage": "arcavios_founder_dragons_origin", "source_ids": ["fph_strixhaven_2021"],
+      "source_excerpt": "Five particularly powerful vortices of overlapping mana became luminous spheres, from which were hatched five dragons.",
+      "summary": "Five founder dragons hatched from luminous mana vortices during Arcavios's early history.",
+      "limitation": "The guide presents the dragons' origin on Arcavios, not their current locations, a complete dragon genealogy or their exact age in AR years."
+    },
+    {
+      "id": "FPH003", "subject": "arcavios", "predicate": "historically_founded_in", "object": "strixhaven",
+      "grade": "CANON_CONFIRMED", "event_stage": "arcavios_university_foundation", "source_ids": ["fph_strixhaven_2021"],
+      "source_excerpt": "Founded some 700 years ago by five spellcasting dragons, Strixhaven University is Arcavios's premier institution of magical learning",
+      "summary": "The five dragons founded Strixhaven University on Arcavios roughly seven centuries before the guide's era.",
+      "limitation": "Seven centuries is relative to the guide's narrative viewpoint; it is not converted into a fixed in-universe calendar date or a claim about the university today."
+    },
+    {
+      "id": "FPH004", "subject": "vryn", "predicate": "channels_mana_through", "object": "vryn_mage_ring_network",
+      "grade": "CANON_CONFIRMED", "event_stage": "vryn_mage_ring_society_2015", "source_ids": ["fph_origins_2015"],
+      "source_excerpt": "Vryn's most salient feature is its network of mage-rings, enormous structures that channel mana from the outlying areas to the politically powerful Core States.",
+      "summary": "Vryn's mage-ring network routes mana from outlying regions toward its Core States.",
+      "limitation": "Wizards explicitly says the rings' age and origin are unknown; this 2015 account does not settle their builders or current operating condition."
+    },
+    {
+      "id": "FPH005", "subject": "vryn", "predicate": "was_politically_dominated_by", "object": "ampryn_league",
+      "grade": "CANON_CONFIRMED", "event_stage": "vryn_core_states_conflict_2015", "source_ids": ["fph_origins_2015"],
+      "source_excerpt": "The Ampryn League, also called the Ampryn Core or the Core States, is the ascendant faction on Vryn.",
+      "summary": "In the Origins-era profile, the Ampryn League holds ascendant political power on Vryn.",
+      "limitation": "Ascendance describes the profile's depicted period, not a verified everlasting government or the result of the Vryn factional conflict."
+    },
+    {
+      "id": "FPH006", "subject": "vryn", "predicate": "was_contested_by", "object": "trovian_separatists",
+      "grade": "CANON_CONFIRMED", "event_stage": "vryn_core_states_conflict_2015", "source_ids": ["fph_origins_2015"],
+      "source_excerpt": "The Trovian Separatists are the rebel faction on Vryn.",
+      "summary": "The Trovian Separatists opposed Ampryn control, contesting strings of Vryn's mage-rings.",
+      "limitation": "This is the 2015 profile's political conflict; it neither identifies a final victor nor proves the separatists' present status."
+    },
+    {
+      "id": "FPH007", "subject": "serras_realm", "predicate": "was_corrupted_by", "object": "phyrexians",
+      "grade": "CANON_CONFIRMED", "event_stage": "serras_realm_phyrexian_invasion", "source_ids": ["fph_multiverse_2008"],
+      "source_excerpt": "But the Phyrexians found the realm and attacked, tainting it with black mana.",
+      "summary": "Phyrexian pursuers invaded and corrupted Serra's Realm after Urza took refuge there.",
+      "limitation": "The article is a retrospective of the original realm; it does not imply the realm survived as a functioning modern plane."
+    },
+    {
+      "id": "FPH008", "subject": "serras_realm", "predicate": "was_ruled_by", "object": "radiant",
+      "grade": "CANON_CONFIRMED", "event_stage": "serras_realm_radiant_regency", "source_ids": ["fph_multiverse_2008"],
+      "source_excerpt": "One of her archangels, Radiant, assumed control of the plane in Serra's absence.",
+      "summary": "The archangel Radiant assumed authority over Serra's Realm after Serra departed.",
+      "limitation": "A historical succession amid corruption and collapse, not a claim that Radiant remained ruler after the realm's destruction."
+    },
+    {
+      "id": "FPH009", "subject": "serras_realm", "predicate": "was_collapsed_into", "object": "weatherlight_powerstone",
+      "grade": "CANON_CONFIRMED", "event_stage": "serras_realm_final_collapse", "source_ids": ["fph_multiverse_2008"],
+      "source_excerpt": "hastened its demise by forcibly collapsing the plane's energies into a powerstone",
+      "summary": "Urza collapsed Serra's Realm into the powerstone used by the Weatherlight's planeswalking engine.",
+      "limitation": "The realm was already collapsing; the source does not claim Urza alone caused its initial corruption or give a precise date for the finale."
+    },
+    {
+      "id": "FPH010", "subject": "regatha", "predicate": "saw_monastery_founded_by", "object": "jaya_ballard",
+      "grade": "CANON_CONFIRMED", "event_stage": "regatha_keral_keep_foundation", "source_ids": ["fph_original_spin_2015"],
+      "source_excerpt": "the monastery on Regatha that Chandra ends up at was founded by none other than Jaya Ballard",
+      "summary": "Wizards identifies Jaya Ballard as the founder of the Regathan monastery later attended by Chandra.",
+      "limitation": "The developer commentary identifies the founder but does not provide an absolute founding date or establish Jaya's current identity or whereabouts."
+    },
+    {
+      "id": "FPH011", "subject": "regatha", "predicate": "hosts_volcanic_monastery", "object": "keral_keep",
+      "grade": "CANON_CONFIRMED", "event_stage": "regatha_keral_keep_environment_2015", "source_ids": ["fph_offers_fire_2015"],
+      "source_excerpt": "Chandra and the monastery's fire monks balanced on floes of solid rock in the lava field, miles from the Keral Keep monastery on Regatha.",
+      "summary": "Keral Keep is a monastery on Regatha, with fire-monk training in nearby lava fields.",
+      "limitation": "A location and training scene from the 2015 story, not a complete geographic survey or proof of its safety and occupancy at later dates."
+    },
+    {
+      "id": "FPH012", "subject": "regatha", "predicate": "preserves_tradition", "object": "keral_keep_fire_traditions",
+      "grade": "CANON_CONFIRMED", "event_stage": "regatha_keral_keep_legacy_2015", "source_ids": ["fph_offers_fire_2015"],
+      "source_excerpt": "Some of Jaya's spells had become ritualized exercises that the fire acolytes practiced",
+      "summary": "Keral Keep's fire acolytes ritualized some of Jaya's spells as part of their teachings.",
+      "limitation": "This reports a practiced monastic tradition at Keral Keep, not the full origin of Regathan pyromancy or a current curriculum guarantee."
+    }
+  ],
+  "remaining": [
+    "Do not infer which two planes supplied Arcavios's overlapping mana or convert '700 years' into AR chronology.",
+    "Vryn's mage-ring builders, ages and outcome of the Core States conflict remain unresolved.",
+    "Serra's Realm's Phyrexian corruption, Radiant period and final powerstone collapse are past, not current rulership.",
+    "Regatha's monastic tradition and Keral Keep scene do not establish a plane-wide religion or its current condition.",
+    "No deckbuilding, owner approval or foundation release follows from this research."
+  ]
+}
