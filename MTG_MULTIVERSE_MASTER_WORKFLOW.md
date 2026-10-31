@@ -1,6 +1,6 @@
 # MTG Multiverse Companion — Master Workflow & Progress Checklist
 
-**Version:** 2.69
+**Version:** 2.70
 **Checkpoint date:** 2026-10-31
 **Repository:** [corymstover/GrokBotMTGCompanion](https://github.com/corymstover/GrokBotMTGCompanion)  
 **Purpose:** Durable project roadmap and handoff document. Update this file after verified milestone work; do not treat historical figures as live counters.
@@ -22,6 +22,28 @@ foundation release may document inherently unresolved canon and future
 maintenance; it must never claim exhaustive knowledge of all MTG history.
 The 62 approved Grixis decks, their hashes and all owner gates remain intact.
 Only a new explicit request from Cory can override the Phase 6 hold.
+
+**v2.70 Phase 4 Thran, Old Phyrexia and Serra's Realm chronology (2026-10-31):**
+Added **23 source-local historical events, 20 strict BEFORE relations and one
+non-ordering overlap** from the official Wizards 2008 *Known Multiverse*
+retrospective. This ties the Thran decline, Yawgmoth's rise, the closing of the
+Phyrexian portal, his long-term invasion plan, Rath, and the Weatherlight's
+first-Invasion-era actions into one bounded proof chain. A second qualified
+strand follows Urza's refuge and the eventual powerstone collapse of Serra's
+Realm. The shared source **does not state whether Old Phyrexia's soul-bomb
+devastation preceded Yawgmoth's destruction**, or whether Radiant's
+administration ended before the realm's powerstone extraction; both stay
+`UNKNOWN`. The two outcomes are not silently sorted by paragraph position.
+All **60 source-relationship excerpts from seven Wizards pages passed live
+verification**. The independent source-local ledger now contains **eight
+strands, 74 events, 57 strict edges, three non-ordering relations and
+180/2,701 ordered pairs** (separate from the unchanged 56-event Packs A–C
+legacy ledger). Four additional positive/negative chronology questions expand
+the Phase 8 foundation packet to **46 cases**. Engineering remains **83/137**,
+the foundation is **NOT_RELEASE_READY**, and no owner decision or missing
+pinned Scryfall source is magically resolved. The 62 approved decks remain
+untouched; Phase 6 stays deferred. Details in
+`research/PHASE4_SOURCE_LOCAL_EVENT_SEQUENCES_2026-10-30.md`.
 
 **v2.69 Phase 4 Muraganda and Meditation Realm source-local chronology (2026-10-31):**
 Expanded the qualified source-local event ledger with **20 events and 15

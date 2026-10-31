@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Reproducible source-local event orders across six bounded plane/history accounts.
+"""Reproducible source-local event orders across eight bounded plane/history accounts.
 
 This supplements, NEVER silently rewrites, the legacy Packs A–C partial order.
 Cross-strand comparisons return UNKNOWN. A narrated legend can be ordered only
@@ -134,7 +134,7 @@ def build() -> dict:
         'status': 'PRELIMINARY_RESEARCH_NOT_OWNER_APPROVED',
         'date': '2026-10-30',
         'scope': spec['scope'],
-        'sources': {sid: {'url': src['url'], 'title': src['title'], 'published': src['published']}
+        'sources': {sid: {'url': src['url'], 'title': src['title'], 'published': src.get('published')}
                     for sid, src in sorted(source_regs.items())},
         'counts': {'strands':len(strands), 'events':len(nodes), 'strict_edges':sum(e['relation'] == 'BEFORE' for e in edges),
                    'non_ordering_relations':sum(e['relation'] != 'BEFORE' for e in edges),
@@ -148,6 +148,8 @@ def build() -> dict:
             'New Phyrexia events describe early Mirrodin conquest; the source does not order the complete war, the Mirrans being overwhelmed against Venser\'s sacrifice, or the political present after March of the Machine.',
             'Muraganda: the ancient collapse versus moon-shattering sequence, the exact overlap of moon-strikes and survivor cultures, and the origin of the modern Autocracy remain unbridged.',
             'Meditation Realm: Ugin\'s remembered early conflict does not date or establish the Realm\'s condition after Tarkir: Dragonstorm; the fall of Ugin is not a claim of permanent death.',
+            'Thran to first invasion: the 2008 historical retrospective does not establish a strict order between the soul-bomb decimation of Old Phyrexia and the Weatherlight Legacy destroying Yawgmoth.',
+            'Serra\'s Realm: the retrospective does not order the end of Radiant\'s administration relative to Urza\'s final powerstone extraction, even though both follow Serra\'s departure.',
             'A DURING_OR_AFTER_START relation is not a strict BEFORE edge and never participates in transitive ordering.',
             'Unknown original plane names, absolute AR years and missing historical events are not supplied.',
             'This source-local supplement does not replace the original Packs A–C chronology or certify L244.',

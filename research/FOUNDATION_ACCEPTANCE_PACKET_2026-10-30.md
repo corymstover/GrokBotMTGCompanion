@@ -14,7 +14,7 @@ This source-graded packet is reproducible from the repository, with exact input 
 ## In-universe chronology (not a complete timeline)
 
 - Legacy ledger: 56 events, 177/3074 ordered event pairs; 2897 unresolved, 13 components, 0 cycles.
-- Source-local ledger: 51 events, 101/1275 pairs. These counts are separate, not additive.
+- Source-local ledger: 74 events, 180/2701 pairs. These counts are separate, not additive.
 - L244 cross-source historical ordering remains open. UNKNOWN is the correct answer when no cited bridge exists.
 
 ## Representative end-to-end questions
@@ -63,6 +63,10 @@ This source-graded packet is reproducible from the repository, with exact input 
 | Did M:ancient_collapse happen before M:moons_shatter? | `ask->chronology` | `QUALIFIED` | 0 |
 | Did B:bolas_attacks happen before B:realm_cataclysm? | `ask->chronology` | `QUALIFIED` | 1 |
 | Did B:bolas_displaced happen before B:ugin_reforms? | `ask->chronology` | `QUALIFIED` | 0 |
+| Did T:phyrexian_creator_dies happen before T:thran_defeated? | `ask->chronology` | `QUALIFIED` | 1 |
+| Did T:old_phyrexia_decimated happen before T:yawgmoth_destroyed? | `ask->chronology` | `QUALIFIED` | 0 |
+| Did S:urza_flees happen before S:realm_powerstone_collapse? | `ask->chronology` | `QUALIFIED` | 1 |
+| Did S:radiant_assumes_rule happen before S:realm_powerstone_collapse? | `ask->chronology` | `QUALIFIED` | 0 |
 
 The underlying JSON retains response digests, exact source URLs and caveat flags. The two graph-navigation examples are **not** evidence of chronological or causal paths.
 
@@ -85,6 +89,6 @@ python3 scripts/certification_dry_run.py --check
 python3 scripts/update_multiverse_progress_tracker.py --check
 ```
 
-Packet SHA-256 (canonical JSON): `135f88e89b2687a05216883975901c8fd753cd9bd46b216c911f638d55579f38`
+Packet SHA-256 (canonical JSON): `f0724b476db8f719a44c1612a13f906d434d22bdceb4d34de2f40558f4028fac`
 
 **No decks were built, modified, reviewed or approved.**
