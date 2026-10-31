@@ -341,6 +341,63 @@
       "known_limitations": []
     },
     {
+      "id": "plain_present_izzet_leader_not_current_proof",
+      "question": "Who leads the Izzet?",
+      "route": "ask->lore:led|leader_of|leads",
+      "confidence": "QUALIFIED",
+      "flags": [
+        "MATCHED_BY_FACTION_ALIAS",
+        "MULTIPLE_LEADERS_ACROSS_ERAS",
+        "CURRENT_LEADER_NOT_ESTABLISHED"
+      ],
+      "sources": [
+        "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-return-to-ravnica-part-1",
+        "https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-path-opulent-2019-05-15"
+      ],
+      "response_sha256": "88632e5ffcd75c8b8d363db99ad852a0d0fff4f1c64eee3d8f0805d8c8513e5e",
+      "direct_claims": null,
+      "chronology_relation": null,
+      "known_limitations": []
+    },
+    {
+      "id": "plain_present_azorius_ruler_not_current_proof",
+      "question": "Who rules the Azorius?",
+      "route": "ask->lore:ruled|led|leader_of|leads",
+      "confidence": "QUALIFIED",
+      "flags": [
+        "MATCHED_BY_FACTION_ALIAS",
+        "MULTIPLE_LEADERS_ACROSS_ERAS",
+        "CURRENT_LEADER_NOT_ESTABLISHED"
+      ],
+      "sources": [
+        "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-return-to-ravnica-part-3",
+        "https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-operation-desperation-2019-06-05",
+        "https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-rallying-reluctant-2019-05-22"
+      ],
+      "response_sha256": "cc1a55e04b105d16f2584d373195c48219b4420cc483fe9709d1c0296a47692d",
+      "direct_claims": null,
+      "chronology_relation": null,
+      "known_limitations": []
+    },
+    {
+      "id": "historical_izzet_leader_still_cited",
+      "question": "Who led the Izzet?",
+      "route": "ask->lore:led|leader_of|leads",
+      "confidence": "VERIFIED",
+      "flags": [
+        "MATCHED_BY_FACTION_ALIAS",
+        "MULTIPLE_LEADERS_ACROSS_ERAS"
+      ],
+      "sources": [
+        "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-return-to-ravnica-part-1",
+        "https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-path-opulent-2019-05-15"
+      ],
+      "response_sha256": "85512176769e3bffe9770ca2d4298356d4f853e01f3aea8c71e72434041d0846",
+      "direct_claims": null,
+      "chronology_relation": null,
+      "known_limitations": []
+    },
+    {
       "id": "source_order",
       "question": "Did Konda imprisons a part happen before Kyodai and Michiko defeat Konda?",
       "route": "ask->chronology",
@@ -1439,7 +1496,10 @@
           "status": "CANON_CONFIRMED",
           "source_urls": [
             "https://magic.wizards.com/en/news/magic-story/release-2016-10-05"
-          ]
+          ],
+          "traversal_from": "character:tezzeret",
+          "traversal_to": "character:pia_nalaar",
+          "traversal_direction": "forward"
         },
         {
           "from": "character:pia_nalaar",
@@ -1450,7 +1510,10 @@
           "source_urls": [
             "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-aetherdrift-part-1",
             "https://magic.wizards.com/en/news/magic-story/aetherdrift-episode-2-pit-stop"
-          ]
+          ],
+          "traversal_from": "character:pia_nalaar",
+          "traversal_to": "character:chandra_nalaar",
+          "traversal_direction": "forward"
         },
         {
           "from": "character:chandra_nalaar",
@@ -1460,7 +1523,10 @@
           "status": "CANON_CONFIRMED",
           "source_urls": [
             "https://magic.wizards.com/en/news/magic-story/torch-defiance-2016-09-07"
-          ]
+          ],
+          "traversal_from": "character:chandra_nalaar",
+          "traversal_to": "plane:kaladesh",
+          "traversal_direction": "forward"
         }
       ]
     },
@@ -1478,7 +1544,10 @@
           "status": "CANON_CONFIRMED",
           "source_urls": [
             "https://magic.wizards.com/en/story/new-phyrexia-plane"
-          ]
+          ],
+          "traversal_from": "character:elspeth_tirel",
+          "traversal_to": "plane:new_phyrexia",
+          "traversal_direction": "reverse"
         }
       ]
     }
@@ -1499,5 +1568,5 @@
     "python3 scripts/update_multiverse_progress_tracker.py --check"
   ],
   "owner_review_status": "PENDING_NOT_REQUESTED_UNTIL_ENGINEERING_EVIDENCE_AND_CI_COMPLETE",
-  "content_sha256": "b999ca0c75eb950ffe6f70f91c45164e6defe883cc725c77b53887c54c7c3e27"
+  "content_sha256": "cc05e4807e0fbdb21ca9b2564cdd3198e781de62606cedb12eb7ffb13b1bca47"
 }

@@ -54,6 +54,10 @@ _TEMPORAL_CAVEAT = re.compile(
     r"\b(?:original|previous|rewritten|alternate) timeline\b|"
     r"\b(?:prevented|undone|reversed|rewrote|resurrected|revived)\b", re.I)
 _CURRENT_CUE = re.compile(r"\b(?:current|currently|present|now|today|these days)\b", re.I)
+# A bare present-tense leader question already asks who holds office *now*.
+# A cited historical title is evidence of having led, not of still leading.
+_PRESENT_LEADER_QUESTION = re.compile(
+    r"^who(?:'s|’s| is| are| leads| heads| runs| captains| governs| rules| commands)\b", re.I)
 _PLANE_HISTORY_PATTERNS = [
     re.compile(r"^(?:what(?:'s| is) (?:the )?|tell me (?:about )?(?:the )?|"
                r"summari[sz]e (?:the )?|give me (?:the )?|show (?:the )?)"
@@ -753,10 +757,11 @@ def ask(text: str) -> dict:
                 if "latest_leader_death_evidence" in lead:
                     env["flags"].append("LATEST_CITED_LEADER_DEATH_RECORDED")
                     env["confidence"] = "QUALIFIED"
-                if _CURRENT_CUE.search(q):
+                if _CURRENT_CUE.search(q) or _PRESENT_LEADER_QUESTION.search(q):
                     env["flags"].append("CURRENT_LEADER_NOT_ESTABLISHED")
                     env["confidence"] = "QUALIFIED"
-                    # The latest *cited* leader is never a proof of who holds office today.
+                    # Neither the most recently published nor an undated cited leader
+                    # proves who presently holds office, even without the word "current".
                     lead["verified_current_leader"] = None
                 requested_rank = re.search(r'\b(first|original|new)\b', q, re.I)
                 if requested_rank:

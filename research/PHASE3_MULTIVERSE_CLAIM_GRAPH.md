@@ -22,7 +22,9 @@
 python3 scripts/build_multiverse_graph.py          # rebuild data/multiverse_graph/multiverse_graph.json
 python3 scripts/build_multiverse_graph.py --check  # CI: stale copy or validation problem fails
 python3 scripts/query_multiverse_graph.py neighbors ugin --status CANON_CONFIRMED
-python3 scripts/query_multiverse_graph.py path piru ugin      # shortest path through cited claims only
+python3 scripts/query_multiverse_graph.py path piru ugin      # shortest CANON_CONFIRMED cited navigation path
+python3 scripts/query_multiverse_graph.py path piru ugin --max-depth 1    # null: no complete path in one hop
+python3 scripts/query_multiverse_graph.py path echoverse "Nicol Bolas" --include-qualified  # labelled alternate-continuity claim
 python3 scripts/query_multiverse_graph.py card "Crux of Fate"
 python3 scripts/query_multiverse_graph.py status CANON_DISPUTED
 ```
@@ -42,3 +44,12 @@ The build fails on any of these:
 - deck evidence whose status is not unapproved
 
 Mutation tests confirm that each of these failures is detected.
+
+**v2.82 graph-path correctness:** Path results are graph *navigation*, never
+chronological or causal proofs. Every hop now exposes `traversal_from`,
+`traversal_to` and `traversal_direction` without reversing the original asserted
+edge. `max_depth` limits the entire path and never returns a misleading prefix.
+Only cited `CANON_CONFIRMED` edges are traversed by default; expressly request
+`--include-qualified` to see disputed or alternate-continuity path evidence,
+with each hop retaining its own status. The synthetic adversarial path tests
+cover weaker one-hop shortcuts, unsourced edges and reverse traversal.

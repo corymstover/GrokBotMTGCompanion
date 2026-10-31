@@ -32,8 +32,14 @@ class TemporalConfidence(unittest.TestCase):
         self.assertEqual(leader["most_recent_cited"]["node"], "character:teysa_karlov")
         self.assertIn("MK001", [r["claim"] for r in leader["latest_leader_death_evidence"]])
 
-    def test_nonpresent_leader_without_contradiction_stays_supported(self):
+    def test_bare_present_leader_question_does_not_certify_current_office(self):
         env = A.ask("Who leads the Izzet?")
+        self.assertEqual(env["confidence"], "QUALIFIED")
+        self.assertIn("CURRENT_LEADER_NOT_ESTABLISHED", env["flags"])
+        self.assertIsNone(env["result"]["leadership"]["verified_current_leader"])
+
+    def test_past_tense_leader_citation_still_supported(self):
+        env = A.ask("Who led the Izzet?")
         self.assertEqual(env["confidence"], "VERIFIED")
         self.assertNotIn("CURRENT_LEADER_NOT_ESTABLISHED", env["flags"])
 

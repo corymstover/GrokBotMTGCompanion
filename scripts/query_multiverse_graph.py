@@ -7,11 +7,16 @@ Examples:
   python3 scripts/query_multiverse_graph.py card "Crux of Fate"
   python3 scripts/query_multiverse_graph.py printing blc 1
   python3 scripts/query_multiverse_graph.py path piru ugin
+  python3 scripts/query_multiverse_graph.py path piru ugin --max-depth 1  # null; no truncated non-path
+  python3 scripts/query_multiverse_graph.py path echoverse "Nicol Bolas" --include-qualified
   python3 scripts/query_multiverse_graph.py status CANON_DISPUTED
   python3 scripts/query_multiverse_graph.py search tarkir
 
 Every relationship row includes its claim ID, canon status and source URLs. Rows for
-proposals and curated bridges are labelled as navigation, not canon.
+proposals and curated bridges are labelled as navigation, not canon. Graph paths
+default to CANON_CONFIRMED edges; disputed, implied, open and alternate-continuity
+edges require explicit --include-qualified. Paths are undirected *navigation*,
+not evidence of an ordered, causal or continuous historical journey.
 """
 from __future__ import annotations
 
@@ -95,20 +100,33 @@ class MG:
                              "tier": e.get("tier"), "source_urls": self._sources(e)})
         return sorted(rows, key=lambda r: (r["direction"], r["relation"], r["node"]))
 
-    def path(self, a: str, b: str, max_depth: int = 6) -> list[dict] | None:
+    def path(self, a: str, b: str, max_depth: int = 6, *, include_qualified: bool = False) -> list[dict] | None:
+        """Find a fully connected, depth-bounded, sourced *navigation* path.
+
+        The path traverses citation-bearing claim edges in either direction.
+        It must never return a truncated prefix that fails to reach b, and
+        must not silently use disputed or alternate-world claims as prime
+        canon. Callers that explicitly inspect uncertainties can opt in.
+        """
+        if isinstance(max_depth, bool) or not isinstance(max_depth, int) or max_depth < 0:
+            raise ValueError('max_depth must be a nonnegative integer')
         src, dst = self.find(a), self.find(b)
         prev: dict[str, tuple] = {src: None}
+        depth: dict[str, int] = {src: 0}
         q = deque([src])
         while q:
             cur = q.popleft()
             if cur == dst:
                 break
+            if depth[cur] >= max_depth:
+                continue
             steps = [(e, e["to"]) for e in self.out.get(cur, [])] + [(e, e["from"]) for e in self.inc.get(cur, [])]
             for e, nxt in steps:
-                # Paths only travel through cited canon relationships between entities.
-                if "claim" not in e or nxt in prev:
+                if (not e.get("claim") or nxt in prev or not self._sources(e)
+                        or (not include_qualified and e.get("grade") != "CANON_CONFIRMED")):
                     continue
                 prev[nxt] = (cur, e)
+                depth[nxt] = depth[cur] + 1
                 q.append(nxt)
         if dst not in prev:
             return None
@@ -116,9 +134,11 @@ class MG:
         while prev[cur]:
             p, e = prev[cur]
             hops.append({"from": e["from"], "relation": e["relation"], "to": e["to"], "claim": e["claim"],
-                         "status": e["grade"], "source_urls": self._sources(e)})
+                         "status": e["grade"], "source_urls": self._sources(e),
+                         "traversal_from": p, "traversal_to": cur,
+                         "traversal_direction": "forward" if p == e["from"] else "reverse"})
             cur = p
-        return list(reversed(hops))[:max_depth]
+        return list(reversed(hops))
 
     def card(self, term: str) -> dict:
         nid = self.find(term, prefer="Card")
@@ -150,6 +170,8 @@ def main(argv=None) -> int:
         sub.add_parser(name).add_argument("term")
     nb = sub.add_parser("neighbors"); nb.add_argument("term"); nb.add_argument("--status"); nb.add_argument("--structural", action="store_true")
     pa = sub.add_parser("path"); pa.add_argument("a"); pa.add_argument("b")
+    pa.add_argument("--max-depth", type=int, default=6)
+    pa.add_argument("--include-qualified", action="store_true", help="also traverse disputed, open, implied and alternate-continuity claims")
     pr = sub.add_parser("printing"); pr.add_argument("set_code"); pr.add_argument("collector_number")
     st = sub.add_parser("status"); st.add_argument("status")
     a = ap.parse_args(argv)
@@ -164,7 +186,7 @@ def main(argv=None) -> int:
         elif a.cmd == "printing":
             res = mg.printing(a.set_code, a.collector_number)
         elif a.cmd == "path":
-            res = mg.path(a.a, a.b)
+            res = mg.path(a.a, a.b, max_depth=a.max_depth, include_qualified=a.include_qualified)
         elif a.cmd == "status":
             res = mg.status(a.status)
         else:
