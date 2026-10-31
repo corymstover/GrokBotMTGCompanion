@@ -44,7 +44,7 @@
     "token": "sarkhan_vol"
    }
   ],
-  "declared_local_ids": 902,
+  "declared_local_ids": 903,
   "name_variants_same_id": [
    {
     "local_id": "ajani",
@@ -260,7 +260,7 @@
   ],
   "dangling_edges": 0,
   "duplicate_ids": [],
-  "edges": 8255,
+  "edges": 8279,
   "literal_objects": [
    "Karn's planeswalker spark",
    "Knight of Benalia turned vampire",
@@ -277,17 +277,14 @@
    "unknown",
    "unknown_planeswalker"
   ],
-  "nodes": 5176,
+  "nodes": 5186,
   "orphan_nodes": [
    "artifact:great_henge",
-   "character:eric_kenrith",
-   "character:hazel_kenrith",
    "event:dragonstorm_escape",
    "event:last_battle_argoth",
    "event:original_tarkir_clash",
    "event:tarkir_rewrite",
    "event:war_of_the_spark_end",
-   "faction:cabaretti",
    "place:ardenvale",
    "place:riders_lock",
    "place:sotheran_supervoid",
@@ -306,18 +303,18 @@
     "CardRepresentation": 560,
     "CardTheme": 1,
     "Character": 483,
-    "Claim": 1206,
+    "Claim": 1211,
     "Concept": 176,
     "DeckProposal": 3,
     "Event": 28,
-    "Faction": 145,
+    "Faction": 146,
     "Literal": 14,
     "Object": 52,
     "Place": 109,
     "Plane": 33,
-    "Source": 605
+    "Source": 609
    },
-   "count": 5176,
+   "count": 5186,
    "exists": true,
    "generator": "scripts/build_multiverse_graph.py",
    "id_scheme": "<type-prefix>:<pack-local-id or slug>",
@@ -421,11 +418,11 @@
    "schema": "story-art-captions/v1"
   },
   {
-   "count": 1555,
+   "count": 1565,
    "exists": false,
    "generator": "scripts/story_claim_pipeline.py and per-pack builders",
    "id_scheme": "pack-local snake_case id, merged globally by the graph builder",
-   "packs": 73,
+   "packs": 74,
    "path": "data/lore_research/pack_*.json (manifest claim_packs)",
    "role": "CLAIM_PACK_ENTITY_DECLARATIONS",
    "schema": "claim-pack (various v1)"

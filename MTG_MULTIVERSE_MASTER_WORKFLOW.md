@@ -1,6 +1,6 @@
 # MTG Multiverse Companion — Master Workflow & Progress Checklist
 
-**Version:** 2.63
+**Version:** 2.64
 **Checkpoint date:** 2026-10-31
 **Repository:** [corymstover/GrokBotMTGCompanion](https://github.com/corymstover/GrokBotMTGCompanion)  
 **Purpose:** Durable project roadmap and handoff document. Update this file after verified milestone work; do not treat historical figures as live counters.
@@ -22,6 +22,27 @@ foundation release may document inherently unresolved canon and future
 maintenance; it must never claim exhaustive knowledge of all MTG history.
 The 62 approved Grixis decks, their hashes and all owner gates remain intact.
 Only a new explicit request from Cory can override the Phase 6 hold.
+
+**v2.64 Phase 5/7 registered character and faction evidence gaps (2026-10-31):**
+Five already registered nodes with no directly incident cited relation now
+have source-graded historical relationships in the new preliminary
+`pack_p5_isolated_entity_history_2026-10-31.json`: **Eric and Hazel
+Kenrith**, **Lyra Dawnbringer**, **Valentin**, and **the Cabaretti**.
+The supporting sources are original Wizards Eldraine, Dominaria,
+Strixhaven and New Capenna guides/stories, and all claims have explicit
+date/currentness boundaries. The 2019 official spelling **Eric** is
+preserved; a later **Erec** spelling is **not** silently reconciled. The
+derived graph has **1,211 claims, 5,186 nodes, 8,279 edges**. Exactly
+**629/629 registered characters and factions** now have at least one
+direct cited graph relation (483 characters, 146 factions including the
+Angels of Serra). This **is not** a census of all Magic characters or
+proof of complete histories; five short claims do not resolve narrative
+gaps, chronology, contested identities or current leadership. The
+foundation acceptance packet now exercises **22** representative questions,
+including all five repaired histories. The original historical snapshot
+and qualified gates stay intact; this does **not** certify the foundation
+or resume Phase 6. The checklist remains **83/137**. See
+`research/PHASE5_CHARACTER_FACTION_HISTORY_LOOKUP_2026-10-30.md`.
 
 **v2.63 Phase 4 New Phyrexia source-local chronology (2026-10-31):**
 Extended the separately qualified Phase 4 source-local event ledger with
@@ -655,10 +676,10 @@ explicitly lifts the hold).
   - v2.60: the current tracker adds a generated four-state **14-gate foundation-release** triage from the dry-run's typed blockers. This does not pretend to classify all 137 engineering tasks or accept continuing maintenance; the broader all-item dashboard remains an open improvement.
 - [ ] Define an MTG Multiverse Companion milestone release based on verified features, not an arbitrary percentage of all lore. *(v2.42, Batch 14, [#911](https://github.com/corymstover/GrokBotMTGCompanion/pull/911): certification-checklist dry run `scripts/certification_dry_run.py` → `data/release/certification_dry_run_2026-10-30.json` / `research/CERTIFICATION_DRY_RUN_2026-10-30.md` lists the typed blockers for each release criterion and Phase 8 item (OWNER_APPROVAL 3, OWNER_DECISION 5, EXTERNAL_CI 3, MISSING_SOURCE 2, ENGINEERING_OPEN 4, ONGOING 4). It certifies nothing; accepting the definition is the owner's call.)*
   - Partial (2026-10-30): `scripts/release_readiness.py` ([PR #830](https://github.com/corymstover/GrokBotMTGCompanion/pull/830)) scores each written criterion from committed evidence. Current verdict: NOT_RELEASE_READY.
-  - v2.60: a source-graded, 12-case knowledge-only review packet was generated and CI-gated; v2.62 extended it to 15 dated set/printing/ruling cases, and **v2.63 to 17** with a supported and unsupported New Phyrexia chronology comparison. The dry-run distinguishes this **completed engineering packet** from pending exact-head release CI and Cory's foundation-scope decision. No release checklist acceptance is inferred.
+  - v2.60: a source-graded, 12-case knowledge-only review packet was generated and CI-gated; v2.62 extended it to 15 dated set/printing/ruling cases, v2.63 to 17 with bounded New Phyrexia chronology, and **v2.64 to 22** with the five newly supported character/faction histories. The dry-run distinguishes this **completed engineering packet** from pending exact-head release CI and Cory's foundation-scope decision. No release checklist acceptance is inferred.
 - [ ] Treat continual future MTG releases as an ongoing maintenance track rather than a permanently finishable backlog.
 
-## Immediate execution queue — v2.63 FOUNDATION FIRST (2026-10-31)
+## Immediate execution queue — v2.64 FOUNDATION FIRST (2026-10-31)
 
 1. **Phase 4 — Verified in-universe chronology:** expand the source-quoted BEFORE/AFTER/UNKNOWN event order, resolve high-value L244 gaps where primary evidence exists, and retain unknown/disputed ordering instead of inventing total dates. Keep release chronology separate.
 2. **Phases 2/5 — Comprehensive history:** systematically deepen thin plane dossiers, major factions, characters, wars, artifacts and cross-plane consequences; record both coverage and missing primary sources. Currently thin registered planes remain a priority, not a census of all planes; regenerate the exact count from the dossier rather than treating this prose as a live counter.

@@ -1,0 +1,117 @@
+{
+  "schema": "lore-claim-pack/v1",
+  "pack_id": "P5-ISOLATED-ENTITY-HISTORY — five missing direct claim endpoints",
+  "status": "PRELIMINARY_RESEARCH_NOT_OWNER_APPROVED",
+  "evidence_cutoff": "2026-10-31",
+  "scope": "Five bounded historical character/faction links for existing registered nodes without direct graph claims. Official Wizards narrative and guides only; not a complete character biography, current leadership census or resolution of later naming/continuity changes.",
+  "source_register": {
+    "ieh_eldraine_2019": {
+      "title": "Planeswalker's Guide to Eldraine",
+      "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-eldraine-2019-10-31",
+      "kind": "official_planeswalkers_guide",
+      "perspective": "Wizards of the Coast (official 2019 historical guide)",
+      "published": "2019-10-31"
+    },
+    "ieh_dominaria_2018": {
+      "title": "Return to Dominaria: Episode 5",
+      "url": "https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-5-2018-04-11",
+      "kind": "official_story_episode",
+      "perspective": "Wizards of the Coast (official 2018 Magic Story)",
+      "published": "2018-04-11"
+    },
+    "ieh_strixhaven_2021": {
+      "title": "The Legends of Strixhaven",
+      "url": "https://magic.wizards.com/en/news/feature/legends-strixhaven-2021-04-13",
+      "kind": "official_story_feature",
+      "perspective": "Wizards of the Coast (official 2021 legends guide)",
+      "published": "2021-04-13"
+    },
+    "ieh_capenna_2022": {
+      "title": "Planeswalker's Guide to Streets of New Capenna",
+      "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-streets-of-new-capenna",
+      "kind": "official_planeswalkers_guide",
+      "perspective": "Wizards of the Coast (official New Capenna historical guide)",
+      "published": ""
+    }
+  },
+  "entities": [
+    {"id": "high_king_kenrith", "type": "Character", "name": "High King Kenrith"},
+    {"id": "linden", "type": "Character", "name": "Queen Linden"},
+    {"id": "hazel_kenrith", "type": "Character", "name": "Hazel Kenrith"},
+    {"id": "eric_kenrith", "type": "Character", "name": "Eric Kenrith"},
+    {"id": "lyra_dawnbringer", "type": "Character", "name": "Lyra Dawnbringer"},
+    {"id": "angels_of_serra", "type": "Faction", "name": "Angels of Serra"},
+    {"id": "valentin", "type": "Character", "name": "Valentin"},
+    {"id": "witherbloom_college", "type": "Faction", "name": "Witherbloom College"},
+    {"id": "jetmir", "type": "Character", "name": "Jetmir"},
+    {"id": "cabaretti", "type": "Faction", "name": "The Cabaretti"}
+  ],
+  "claims": [
+    {
+      "id": "IEH001",
+      "subject": "high_king_kenrith;linden",
+      "predicate": "parent_of",
+      "object": "hazel_kenrith",
+      "grade": "CANON_CONFIRMED",
+      "event_stage": "eldraine_2019_family_profile",
+      "source_ids": ["ieh_eldraine_2019"],
+      "source_excerpt": "The castle is home to both High King Kenrith and Queen Linden, along with their four children: Rowan, Will, Hazel, and Eric.",
+      "summary": "The 2019 Ardenvale guide identifies Hazel among High King Kenrith and Queen Linden's four children.",
+      "limitation": "A historical family relationship, not proof of current residence, office or later life events."
+    },
+    {
+      "id": "IEH002",
+      "subject": "high_king_kenrith;linden",
+      "predicate": "parent_of",
+      "object": "eric_kenrith",
+      "grade": "CANON_CONFIRMED",
+      "event_stage": "eldraine_2019_family_profile",
+      "source_ids": ["ieh_eldraine_2019"],
+      "source_excerpt": "The castle is home to both High King Kenrith and Queen Linden, along with their four children: Rowan, Will, Hazel, and Eric.",
+      "summary": "The 2019 Ardenvale guide calls Eric one of High King Kenrith and Queen Linden's four children.",
+      "limitation": "This is the source's 2019 spelling 'Eric'. Later use of 'Erec' is not silently identity-merged without verified primary evidence."
+    },
+    {
+      "id": "IEH003",
+      "subject": "lyra_dawnbringer",
+      "predicate": "leader_of",
+      "object": "angels_of_serra",
+      "grade": "CANON_CONFIRMED",
+      "event_stage": "dominaria_2018_benalia",
+      "source_ids": ["ieh_dominaria_2018"],
+      "source_excerpt": "I am Lyra Dawnbringer, commander of the angels of Serra.",
+      "summary": "Lyra Dawnbringer identifies herself as commander of the angels of Serra while guarding Benalia City.",
+      "limitation": "A reported role in the 2018 Dominaria story, not a claim about the present leadership of the angels."
+    },
+    {
+      "id": "IEH004",
+      "subject": "valentin",
+      "predicate": "dean_of",
+      "object": "witherbloom_college",
+      "grade": "CANON_CONFIRMED",
+      "event_stage": "strixhaven_2021_dean_profile",
+      "source_ids": ["ieh_strixhaven_2021"],
+      "source_excerpt": "Dean Valentin of Witherbloom is an ancient and sensitive vampire",
+      "summary": "The 2021 legends guide identifies Valentin as a Witherbloom dean and describes his sangromancy.",
+      "limitation": "The source is historical; later Strixhaven stories must determine his subsequent fate or who holds the post now."
+    },
+    {
+      "id": "IEH005",
+      "subject": "jetmir",
+      "predicate": "leader_of",
+      "object": "cabaretti",
+      "grade": "CANON_CONFIRMED",
+      "event_stage": "new_capenna_2022_family_profile",
+      "source_ids": ["ieh_capenna_2022"],
+      "source_excerpt": "The Cabaretti are managed by the demon-cat Jetmir",
+      "summary": "The New Capenna guide identifies Jetmir as manager of the Cabaretti family.",
+      "limitation": "A leadership account from the original New Capenna guide; it does not independently establish the family head after later story events."
+    }
+  ],
+  "remaining": [
+    "Expand each person's full history from dated official stories, retaining unknown eras and deaths.",
+    "Resolve the later Eric/Erec spelling only with primary-source evidence; never silently merge apparent identities.",
+    "Do not infer who currently holds leadership of the Cabaretti, Witherbloom or the angels of Serra.",
+    "No decks, approvals or foundation certification follow from this narrow graph repair."
+  ]
+}

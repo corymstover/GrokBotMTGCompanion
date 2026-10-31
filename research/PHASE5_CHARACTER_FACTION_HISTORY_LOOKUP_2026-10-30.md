@@ -2,6 +2,34 @@
 
 **Status: PRELIMINARY RESEARCH / ENGINEERING TESTED, NOT OWNER APPROVED OR CERTIFIED.**
 
+## v2.64 source-backed direct-claim gap closure (2026-10-31)
+
+The five previously unconnected registered endpoints now each have a directly
+incident official, historical claim, based on four Wizards primary pages:
+
+| Previously uncovered node | Direct relationship | Original source and limitation |
+| --- | --- | --- |
+| Hazel Kenrith | King Kenrith and Queen Linden's child | [2019 Eldraine guide](https://magic.wizards.com/en/news/feature/planeswalkers-guide-eldraine-2019-10-31); does not supply a present-day biography. |
+| Eric Kenrith | King Kenrith and Queen Linden's child | Same 2019 guide; **Eric** is the original spelling; later **Erec** usages are not silently identity-merged. |
+| Lyra Dawnbringer | Commander of the angels of Serra | [2018 Return to Dominaria, Episode 5](https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-5-2018-04-11); not a current leadership claim. |
+| Valentin | Historic Witherbloom dean | [2021 Strixhaven legends guide](https://magic.wizards.com/en/news/feature/legends-strixhaven-2021-04-13); later status requires separate dated sources. |
+| The Cabaretti | Led by Jetmir in the early New Capenna account | [Official New Capenna guide](https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-streets-of-new-capenna); does not establish the present head. |
+
+Five `CANON_CONFIRMED` source-grounded claims (`IEH001`–`IEH005`) bring the
+new, **registered-only** count to **629/629** direct character/faction claim
+incidences: 483 characters and 146 factions, including the newly named
+Angels of Serra faction. The cited graph now holds **1,211 claims / 5,186
+nodes / 8,279 edges**. These figures **do not** mean complete biographies,
+coverage of all Magic characters or final owner approval. The original
+v2.59 snapshot below remains preserved as historical evidence.
+
+`scripts/audit_p5_isolated_entity_history.py --check` validates graph
+identity, source links, quote digests and the lack of unsupported current
+leadership. `--live` optionally verifies each short source excerpt against
+the four Wizards pages. The 22-case foundation acceptance packet includes
+the five new partial histories. No deck file, approval or lore-deck pilot
+was changed.
+
 The Phase 3 graph already records hundreds of characters and factions, but
 natural-language questions such as "What is the lore of Nicol Bolas?" were
 not routed to the stored claims. The `mv_ask.py ask` entry point now exposes

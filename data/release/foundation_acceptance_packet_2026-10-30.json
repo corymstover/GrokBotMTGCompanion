@@ -9,11 +9,11 @@
   "input_sha256": {
     "graph": {
       "path": "data/multiverse_graph/multiverse_graph.json",
-      "sha256": "7f549db1c1adf4872a456b9522b388279ca6e7d94c62e19260ba7c44c2467a43"
+      "sha256": "c3fe110a82d242e70a846e46f6afb52d651aeb3e336bbab5bf75602091403a09"
     },
     "plane_histories": {
       "path": "data/lore_research/plane_history_dossiers_2026-10-30.json",
-      "sha256": "13a1fe484ce7e0055b60522a16f06a89a129da1d71614e44464567af0cfea017"
+      "sha256": "22810413cc4dfd40e2a94d501df35d8d256d932faa3fbb1316d07ef6e7defc76"
     },
     "chronology": {
       "path": "data/lore_research/relative_chronology_2026-10-30.json",
@@ -25,7 +25,7 @@
     },
     "story_coverage": {
       "path": "data/lore_research/story_coverage_inventory_2026-10-30.json",
-      "sha256": "f88c815d67eb5f3be403e1a9eef1054fd22013ca409974a7a8a5c1fb5f12fc61"
+      "sha256": "336defd73386fff9778149a062aa850fa687ec831e67947dc53f29e49f3befcf"
     },
     "genealogy_disputes": {
       "path": "data/lore_research/pack_a_genealogy_disputes_2026-10-30.json",
@@ -36,17 +36,18 @@
     "source_pages_in_inventoried_scope": 626,
     "source_pages_cited": 576,
     "source_pages_reviewed_without_claim": 50,
-    "graph_nodes": 5176,
-    "graph_edges": 8255,
-    "graph_claims": 1206,
+    "graph_nodes": 5186,
+    "graph_edges": 8279,
+    "graph_claims": 1211,
     "registered_plane_nodes": 33,
     "thin_plane_dossiers": 16,
     "curated_context_plane_count": 4,
     "distinct_existing_context_claims": 53,
     "registered_character_nodes": 483,
-    "registered_faction_nodes": 145,
-    "characters_and_factions_with_direct_claims": 623,
-    "characters_and_factions_without_direct_claims": 5
+    "registered_faction_nodes": 146,
+    "characters_and_factions_with_direct_claims": 629,
+    "characters_and_factions_without_direct_claims": 0,
+    "registered_character_faction_direct_claim_gaps": []
   },
   "chronology": {
     "legacy_events": 56,
@@ -472,6 +473,121 @@
       "direct_claims": null,
       "chronology_relation": "UNKNOWN",
       "known_limitations": []
+    },
+    {
+      "id": "history_eric",
+      "question": "What is the history of Eric Kenrith?",
+      "route": "ask->entity_history",
+      "confidence": "QUALIFIED",
+      "flags": [
+        "PARTIAL_CITED_ENTITY_HISTORY",
+        "DIRECT_GRAPH_CLAIMS_ONLY",
+        "NO_VERIFIED_TOTAL_CHRONOLOGY"
+      ],
+      "sources": [
+        "https://magic.wizards.com/en/news/feature/planeswalkers-guide-eldraine-2019-10-31"
+      ],
+      "response_sha256": "8569d68c275ece0c55b48c22679b342a773ae5104d97c78060e358d4fb207e36",
+      "direct_claims": 1,
+      "chronology_relation": null,
+      "known_limitations": [
+        "Only cited graph edges directly incident on this entity are included.",
+        "Other stories, relationships, eras and unregistered entities may be missing.",
+        "Publication dates and era labels cannot establish event order or present-day status.",
+        "The absence of a claim does not prove an event or relationship never occurred."
+      ]
+    },
+    {
+      "id": "history_hazel",
+      "question": "What is the history of Hazel Kenrith?",
+      "route": "ask->entity_history",
+      "confidence": "QUALIFIED",
+      "flags": [
+        "PARTIAL_CITED_ENTITY_HISTORY",
+        "DIRECT_GRAPH_CLAIMS_ONLY",
+        "NO_VERIFIED_TOTAL_CHRONOLOGY"
+      ],
+      "sources": [
+        "https://magic.wizards.com/en/news/feature/planeswalkers-guide-eldraine-2019-10-31"
+      ],
+      "response_sha256": "26fdbd493502b1724c3ee3b413bb4c49a3e5baf20c3268c29b96ce338d9a7e6f",
+      "direct_claims": 1,
+      "chronology_relation": null,
+      "known_limitations": [
+        "Only cited graph edges directly incident on this entity are included.",
+        "Other stories, relationships, eras and unregistered entities may be missing.",
+        "Publication dates and era labels cannot establish event order or present-day status.",
+        "The absence of a claim does not prove an event or relationship never occurred."
+      ]
+    },
+    {
+      "id": "history_lyra",
+      "question": "What is the history of Lyra Dawnbringer?",
+      "route": "ask->entity_history",
+      "confidence": "QUALIFIED",
+      "flags": [
+        "PARTIAL_CITED_ENTITY_HISTORY",
+        "DIRECT_GRAPH_CLAIMS_ONLY",
+        "NO_VERIFIED_TOTAL_CHRONOLOGY"
+      ],
+      "sources": [
+        "https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-5-2018-04-11"
+      ],
+      "response_sha256": "b77cf142c0916bcd7d54b338498adb71da105497259e32960d20b50405e9add0",
+      "direct_claims": 1,
+      "chronology_relation": null,
+      "known_limitations": [
+        "Only cited graph edges directly incident on this entity are included.",
+        "Other stories, relationships, eras and unregistered entities may be missing.",
+        "Publication dates and era labels cannot establish event order or present-day status.",
+        "The absence of a claim does not prove an event or relationship never occurred."
+      ]
+    },
+    {
+      "id": "history_valentin",
+      "question": "What is the history of Valentin?",
+      "route": "ask->entity_history",
+      "confidence": "QUALIFIED",
+      "flags": [
+        "PARTIAL_CITED_ENTITY_HISTORY",
+        "DIRECT_GRAPH_CLAIMS_ONLY",
+        "NO_VERIFIED_TOTAL_CHRONOLOGY"
+      ],
+      "sources": [
+        "https://magic.wizards.com/en/news/feature/legends-strixhaven-2021-04-13"
+      ],
+      "response_sha256": "9dcab4da2c4a5b29a5377a18c690558ed7f3a47877c1d539adac520372595a8d",
+      "direct_claims": 1,
+      "chronology_relation": null,
+      "known_limitations": [
+        "Only cited graph edges directly incident on this entity are included.",
+        "Other stories, relationships, eras and unregistered entities may be missing.",
+        "Publication dates and era labels cannot establish event order or present-day status.",
+        "The absence of a claim does not prove an event or relationship never occurred."
+      ]
+    },
+    {
+      "id": "history_cabaretti",
+      "question": "What is the history of the Cabaretti?",
+      "route": "ask->entity_history",
+      "confidence": "QUALIFIED",
+      "flags": [
+        "PARTIAL_CITED_ENTITY_HISTORY",
+        "DIRECT_GRAPH_CLAIMS_ONLY",
+        "NO_VERIFIED_TOTAL_CHRONOLOGY"
+      ],
+      "sources": [
+        "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-streets-of-new-capenna"
+      ],
+      "response_sha256": "4c5ab775af96be68924f3631eab996c9cf3dafe59ba94b74af8d855285f4358b",
+      "direct_claims": 1,
+      "chronology_relation": null,
+      "known_limitations": [
+        "Only cited graph edges directly incident on this entity are included.",
+        "Other stories, relationships, eras and unregistered entities may be missing.",
+        "Publication dates and era labels cannot establish event order or present-day status.",
+        "The absence of a claim does not prove an event or relationship never occurred."
+      ]
     }
   ],
   "cross_plane_graph_navigation": [
@@ -549,5 +665,5 @@
     "python3 scripts/update_multiverse_progress_tracker.py --check"
   ],
   "owner_review_status": "PENDING_NOT_REQUESTED_UNTIL_ENGINEERING_EVIDENCE_AND_CI_COMPLETE",
-  "content_sha256": "77f258a419a14489aaed405642f4a8d700dc36e21db92e2091f4ce98965f17ea"
+  "content_sha256": "648a179ed061759e0be0ecc971b6e5c5c7b3b2fd1f7915c3493a642b51fb89e3"
 }

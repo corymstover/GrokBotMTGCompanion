@@ -34847,6 +34847,30 @@
    "card": "Valgavoth, Terror Eater",
    "oracle_id": "cae3ec72-436d-4086-9dcb-17b3d92ad5c4",
    "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "IEH003",
+   "pack": "pack_p5_isolated_entity_history_2026-10-31.json",
+   "participant": "lyra_dawnbringer",
+   "card": "Lyra Dawnbringer",
+   "oracle_id": "592c91fc-6430-4c76-9460-65f047350f67",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "IEH004",
+   "pack": "pack_p5_isolated_entity_history_2026-10-31.json",
+   "participant": "valentin",
+   "card": "Valentin, Dean of the Vein // Lisette, Dean of the Root",
+   "oracle_id": "6e1aa07a-5d9b-4daf-8dc4-c1717360855f",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "IEH005",
+   "pack": "pack_p5_isolated_entity_history_2026-10-31.json",
+   "participant": "jetmir",
+   "card": "Jetmir, Nexus of Revels",
+   "oracle_id": "da72a4bc-ce6f-4b72-bc66-2ee33cfa87df",
+   "tier": "NAMED_PARTICIPANT"
   }
  ],
  "by_pack": {
@@ -35031,6 +35055,13 @@
    "ART_IN_CITED_SOURCE": 0,
    "PRINTED_IN_STORY_SET": 23,
    "NAMED_PARTICIPANT": 39
+  },
+  "pack_p5_isolated_entity_history_2026-10-31.json": {
+   "claims": 5,
+   "claims_anchored": 3,
+   "ART_IN_CITED_SOURCE": 0,
+   "PRINTED_IN_STORY_SET": 0,
+   "NAMED_PARTICIPANT": 3
   },
   "pack_p5_ixalan_rivals_2026-10-30.json": {
    "claims": 34,
@@ -35363,12 +35394,12 @@
   }
  },
  "counts": {
-  "claims": 1206,
-  "claims_anchored": 966,
-  "anchors": 4088,
+  "claims": 1211,
+  "claims_anchored": 969,
+  "anchors": 4091,
   "ART_IN_CITED_SOURCE": 123,
   "PRINTED_IN_STORY_SET": 546,
-  "NAMED_PARTICIPANT": 3419
+  "NAMED_PARTICIPANT": 3422
  },
- "content_sha256": "9b713a6796775ebb4ca7472311289422fd0722e20ccc06a100df04fadef262de"
+ "content_sha256": "e211dc999a07d96113470dd6db03a328fa79cae9648ef7aaba2bbab11ca24cc7"
 }
