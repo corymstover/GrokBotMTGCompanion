@@ -74,7 +74,7 @@ RELEASE_BLOCKERS = {
     "knowledge_foundation": [
         B("EXTERNAL_CI", "The source-graded knowledge-foundation acceptance packet now exists with separate "
           "chronology ledgers, representative cited plane/character/faction/cross-plane evidence, explicit gaps and "
-          "seventeen difficult Q&A cases. Its deterministic rebuild and representative rules/Q&A tests must still "
+          "twenty-two difficult Q&A cases. Its deterministic rebuild and representative rules/Q&A tests must still "
           "pass on the exact candidate foundation-release commit; it does not establish exhaustive knowledge.",
           "data/release/foundation_acceptance_packet_2026-10-30.json",
           "research/FOUNDATION_ACCEPTANCE_PACKET_2026-10-30.md"),

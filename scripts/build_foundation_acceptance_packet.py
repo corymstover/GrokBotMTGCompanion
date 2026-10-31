@@ -62,6 +62,11 @@ QA_CASES = [
     ('new_phyrexia_order_unknown',
      'Did P:mirrans_overwhelmed happen before P:venser_restores_karn?',
      'ask->chronology', 'QUALIFIED'),
+    ('history_eric', 'What is the history of Eric Kenrith?', 'ask->entity_history', 'QUALIFIED'),
+    ('history_hazel', 'What is the history of Hazel Kenrith?', 'ask->entity_history', 'QUALIFIED'),
+    ('history_lyra', 'What is the history of Lyra Dawnbringer?', 'ask->entity_history', 'QUALIFIED'),
+    ('history_valentin', 'What is the history of Valentin?', 'ask->entity_history', 'QUALIFIED'),
+    ('history_cabaretti', 'What is the history of the Cabaretti?', 'ask->entity_history', 'QUALIFIED'),
 ]
 
 
@@ -183,6 +188,8 @@ def build() -> dict:
             'registered_faction_nodes': entity_types['Faction'],
             'characters_and_factions_with_direct_claims': sum(bool(x) for x in direct.values()),
             'characters_and_factions_without_direct_claims': sum(not x for x in direct.values()),
+            'registered_character_faction_direct_claim_gaps': sorted(nid for nid, claims in direct.items()
+                                                                    if not claims),
         },
         'chronology': {
             'legacy_events': cc['event_nodes'], 'legacy_ordered_pairs': cc['comparable_pairs'],

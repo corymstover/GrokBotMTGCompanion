@@ -54,7 +54,14 @@ def build() -> str:
     if not version:
         raise ValueError("Master Workflow has no version")
     checks = re.findall(r"^- \[(x| )\] ", workflow, re.M)
-    graph = load("data/multiverse_graph/multiverse_graph.json")["stats"]
+    graph_data = load("data/multiverse_graph/multiverse_graph.json")
+    graph = graph_data["stats"]
+    named_people_factions = {n['id'] for n in graph_data['nodes']
+                            if n['type'] in {'Character', 'Faction'}}
+    nonstructural = {'cited_by', 'asserts', 'see_also_curated_entry', 'proposed_in'}
+    directly_cited = {endpoint for e in graph_data['edges']
+                      if e.get('claim') and e['relation'] not in nonstructural
+                      for endpoint in (e['from'], e['to']) if endpoint in named_people_factions}
     # Do not use the archived Batch-14 recount for *current* claimed counts.
     # New source-graded claim packs may be appended after that dated report.
     coverage = load("data/lore_research/story_coverage_inventory_2026-10-30.json")["totals"]
@@ -89,6 +96,7 @@ they are not the active Phase 1–8 completion counters.
 | Source-page inventory | **{coverage['cited_pages']} cited + {coverage['reviewed_no_claim_pages']} reviewed = {coverage['pages']} accounted for** | Current inventoried pages only, not all fiction ever published. |
 | Cited lore claims | **{current_claims}** | Live graph/inventory concordance; claim packs remain preliminary research. |
 | Cited graph | **{graph['nodes']} nodes / {graph['edges']} edges** | Unresolved orphan/variant and chronology work remains. |
+| Registered people/factions with direct claims | **{len(directly_cited)}/{len(named_people_factions)}** | At least one cited relation per registered node, **not** a complete biography or census of all canon. |
 | Exact printing-specific representations | **{graph.get('exact_art_printings', 0)}** | Frozen snapshot + official art-file label evidence, **not** canon scene depiction. |
 | In-universe dated claim edges | **{graph['claim_edges_with_in_universe_date']}** | Most graph edges lack a verified in-world date. |
 | Parked graph-built Commander pilots | **3 unapproved** | Preserved, not a knowledge-foundation release gate. |

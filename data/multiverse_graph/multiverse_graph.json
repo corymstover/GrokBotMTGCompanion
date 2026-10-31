@@ -7,7 +7,7 @@
   "HYPOTHETICAL": "Creative or deckbuilding connection; never canon.",
   "OPEN_QUESTION": "Primary sources leave the matter unresolved; do not assert either way."
  },
- "content_sha256": "4dc7a9437d362cf983a49abb360c95d13decc3ae15678232103953cf2cc7b51f",
+ "content_sha256": "34c44cf3dc0e92846d24c342aea438184928abf35e689ec31b7fbd5cbbbcb556",
  "edges": [
   {
    "artists": [
@@ -222,6 +222,15 @@
    "artists": [
     "Aleksi Briclot"
    ],
+   "from": "source:ieh_dominaria_2018",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:demonic_pact"
+  },
+  {
+   "artists": [
+    "Aleksi Briclot"
+   ],
    "from": "source:lithomancer",
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
@@ -298,15 +307,6 @@
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
    "to": "card:vraska_the_unseen"
-  },
-  {
-   "artists": [
-    "Aleksi Briclot"
-   ],
-   "from": "source:rtd_ep5",
-   "relation": "art_captioned_in_story",
-   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
-   "to": "card:demonic_pact"
   },
   {
    "artists": [
@@ -4707,6 +4707,15 @@
    "artists": [
     "Karl Kopinski"
    ],
+   "from": "source:ieh_dominaria_2018",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:distant_memories"
+  },
+  {
+   "artists": [
+    "Karl Kopinski"
+   ],
    "from": "source:kr",
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
@@ -4774,15 +4783,6 @@
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
    "to": "card:five_alarm_fire"
-  },
-  {
-   "artists": [
-    "Karl Kopinski"
-   ],
-   "from": "source:rtd_ep5",
-   "relation": "art_captioned_in_story",
-   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
-   "to": "card:distant_memories"
   },
   {
    "artists": [
@@ -21251,6 +21251,90 @@
     "gr_reza"
    ],
    "to": "character:reza"
+  },
+  {
+   "claim": "IEH001",
+   "era": "eldraine_2019_family_profile",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:high_king_kenrith",
+   "grade": "CANON_CONFIRMED",
+   "relation": "parent_of",
+   "sources": [
+    "ieh_eldraine_2019"
+   ],
+   "to": "character:hazel_kenrith"
+  },
+  {
+   "claim": "IEH001",
+   "era": "eldraine_2019_family_profile",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:linden",
+   "grade": "CANON_CONFIRMED",
+   "relation": "parent_of",
+   "sources": [
+    "ieh_eldraine_2019"
+   ],
+   "to": "character:hazel_kenrith"
+  },
+  {
+   "claim": "IEH002",
+   "era": "eldraine_2019_family_profile",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:high_king_kenrith",
+   "grade": "CANON_CONFIRMED",
+   "relation": "parent_of",
+   "sources": [
+    "ieh_eldraine_2019"
+   ],
+   "to": "character:eric_kenrith"
+  },
+  {
+   "claim": "IEH002",
+   "era": "eldraine_2019_family_profile",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:linden",
+   "grade": "CANON_CONFIRMED",
+   "relation": "parent_of",
+   "sources": [
+    "ieh_eldraine_2019"
+   ],
+   "to": "character:eric_kenrith"
+  },
+  {
+   "claim": "IEH003",
+   "era": "dominaria_2018_benalia",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:lyra_dawnbringer",
+   "grade": "CANON_CONFIRMED",
+   "relation": "leader_of",
+   "sources": [
+    "ieh_dominaria_2018"
+   ],
+   "to": "faction:angels_of_serra"
+  },
+  {
+   "claim": "IEH004",
+   "era": "strixhaven_2021_dean_profile",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:valentin",
+   "grade": "CANON_CONFIRMED",
+   "relation": "dean_of",
+   "sources": [
+    "ieh_strixhaven_2021"
+   ],
+   "to": "faction:witherbloom_college"
+  },
+  {
+   "claim": "IEH005",
+   "era": "new_capenna_2022_family_profile",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:jetmir",
+   "grade": "CANON_CONFIRMED",
+   "relation": "leader_of",
+   "sources": [
+    "ieh_capenna_2022"
+   ],
+   "to": "faction:cabaretti"
   },
   {
    "claim": "IG001",
@@ -40910,6 +40994,78 @@
    "to": "character:tagan"
   },
   {
+   "from": "claim:IEH001",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:hazel_kenrith"
+  },
+  {
+   "from": "claim:IEH001",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:high_king_kenrith"
+  },
+  {
+   "from": "claim:IEH001",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:linden"
+  },
+  {
+   "from": "claim:IEH002",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:eric_kenrith"
+  },
+  {
+   "from": "claim:IEH002",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:high_king_kenrith"
+  },
+  {
+   "from": "claim:IEH002",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:linden"
+  },
+  {
+   "from": "claim:IEH003",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:angels_of_serra"
+  },
+  {
+   "from": "claim:IEH003",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:lyra_dawnbringer"
+  },
+  {
+   "from": "claim:IEH004",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:witherbloom_college"
+  },
+  {
+   "from": "claim:IEH004",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:valentin"
+  },
+  {
+   "from": "claim:IEH005",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:cabaretti"
+  },
+  {
+   "from": "claim:IEH005",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:jetmir"
+  },
+  {
    "from": "claim:IG001",
    "relation": "asserts",
    "role": "object",
@@ -54346,6 +54502,31 @@
    "to": "claim:TZ024"
   },
   {
+   "from": "source:ieh_capenna_2022",
+   "relation": "cited_by",
+   "to": "claim:IEH005"
+  },
+  {
+   "from": "source:ieh_dominaria_2018",
+   "relation": "cited_by",
+   "to": "claim:IEH003"
+  },
+  {
+   "from": "source:ieh_eldraine_2019",
+   "relation": "cited_by",
+   "to": "claim:IEH001"
+  },
+  {
+   "from": "source:ieh_eldraine_2019",
+   "relation": "cited_by",
+   "to": "claim:IEH002"
+  },
+  {
+   "from": "source:ieh_strixhaven_2021",
+   "relation": "cited_by",
+   "to": "claim:IEH004"
+  },
+  {
    "from": "source:ig_gav",
    "relation": "cited_by",
    "to": "claim:IG001"
@@ -64073,6 +64254,13 @@
     "file": "data/lore_research/pack_p5_duskmourn_origin_2026-10-30.json",
     "sha256": "2a1cf0da8186ceb76b8612d99a133200dc052629094d69be367efe57d2f94b5b",
     "sources": 1
+   },
+   {
+    "claims": 5,
+    "entities": 10,
+    "file": "data/lore_research/pack_p5_isolated_entity_history_2026-10-31.json",
+    "sha256": "ce3e068a61ed0f5a6c4b9a503324847f90e1fce7bb0aa6ef77f0f49417c48f1d",
+    "sources": 4
    }
   ],
   "deck_evidence": [
@@ -81871,6 +82059,7 @@
    "id": "character:eric_kenrith",
    "name": "Eric Kenrith",
    "origins": [
+    "pack_p5_isolated_entity_history_2026-10-31.json",
     "pack_p5_throne_of_eldraine_2026-10-30.json"
    ],
    "type": "Character"
@@ -82195,6 +82384,7 @@
    "id": "character:hazel_kenrith",
    "name": "Hazel Kenrith",
    "origins": [
+    "pack_p5_isolated_entity_history_2026-10-31.json",
     "pack_p5_throne_of_eldraine_2026-10-30.json"
    ],
    "type": "Character"
@@ -82245,6 +82435,7 @@
    "id": "character:high_king_kenrith",
    "name": "High King Kenrith",
    "origins": [
+    "pack_p5_isolated_entity_history_2026-10-31.json",
     "pack_p5_throne_of_eldraine_2026-10-30.json"
    ],
    "type": "Character"
@@ -82439,6 +82630,7 @@
    "id": "character:jetmir",
    "name": "Jetmir",
    "origins": [
+    "pack_p5_isolated_entity_history_2026-10-31.json",
     "pack_p5_snc_side_stories_2026-10-30.json"
    ],
    "type": "Character"
@@ -83056,6 +83248,7 @@
    "id": "character:linden",
    "name": "Queen Linden",
    "origins": [
+    "pack_p5_isolated_entity_history_2026-10-31.json",
     "pack_p5_throne_of_eldraine_2026-10-30.json"
    ],
    "type": "Character"
@@ -83124,7 +83317,8 @@
    "id": "character:lyra_dawnbringer",
    "name": "Lyra Dawnbringer",
    "origins": [
-    "pack_c2_return_to_dominaria_2026-10-30.json"
+    "pack_c2_return_to_dominaria_2026-10-30.json",
+    "pack_p5_isolated_entity_history_2026-10-31.json"
    ],
    "type": "Character"
   },
@@ -84870,6 +85064,7 @@
    "id": "character:valentin",
    "name": "Valentin",
    "origins": [
+    "pack_p5_isolated_entity_history_2026-10-31.json",
     "pack_p5_secrets_of_strixhaven_2026-10-30.json"
    ],
    "type": "Character"
@@ -89415,6 +89610,66 @@
    ],
    "predicate": "mentored",
    "stage": "guilds_of_ravnica_ravnica_allegiance_2018_2019",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:IEH001",
+   "limitation": "A historical family relationship, not proof of current residence, office or later life events.",
+   "name": "The 2019 Ardenvale guide identifies Hazel among High King Kenrith and Queen Linden's four children.",
+   "origins": [
+    "pack_p5_isolated_entity_history_2026-10-31.json"
+   ],
+   "predicate": "parent_of",
+   "stage": "eldraine_2019_family_profile",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:IEH002",
+   "limitation": "This is the source's 2019 spelling 'Eric'. Later use of 'Erec' is not silently identity-merged without verified primary evidence.",
+   "name": "The 2019 Ardenvale guide calls Eric one of High King Kenrith and Queen Linden's four children.",
+   "origins": [
+    "pack_p5_isolated_entity_history_2026-10-31.json"
+   ],
+   "predicate": "parent_of",
+   "stage": "eldraine_2019_family_profile",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:IEH003",
+   "limitation": "A reported role in the 2018 Dominaria story, not a claim about the present leadership of the angels.",
+   "name": "Lyra Dawnbringer identifies herself as commander of the angels of Serra while guarding Benalia City.",
+   "origins": [
+    "pack_p5_isolated_entity_history_2026-10-31.json"
+   ],
+   "predicate": "leader_of",
+   "stage": "dominaria_2018_benalia",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:IEH004",
+   "limitation": "The source is historical; later Strixhaven stories must determine his subsequent fate or who holds the post now.",
+   "name": "The 2021 legends guide identifies Valentin as a Witherbloom dean and describes his sangromancy.",
+   "origins": [
+    "pack_p5_isolated_entity_history_2026-10-31.json"
+   ],
+   "predicate": "dean_of",
+   "stage": "strixhaven_2021_dean_profile",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:IEH005",
+   "limitation": "A leadership account from the original New Capenna guide; it does not independently establish the family head after later story events.",
+   "name": "The New Capenna guide identifies Jetmir as manager of the Cabaretti family.",
+   "origins": [
+    "pack_p5_isolated_entity_history_2026-10-31.json"
+   ],
+   "predicate": "leader_of",
+   "stage": "new_capenna_2022_family_profile",
    "type": "Claim"
   },
   {
@@ -100755,6 +101010,14 @@
    "type": "Faction"
   },
   {
+   "id": "faction:angels_of_serra",
+   "name": "Angels of Serra",
+   "origins": [
+    "pack_p5_isolated_entity_history_2026-10-31.json"
+   ],
+   "type": "Faction"
+  },
+  {
    "id": "faction:angels_of_the_lofts",
    "name": "angels of the Lofts",
    "origins": [
@@ -100887,6 +101150,7 @@
    "id": "faction:cabaretti",
    "name": "The Cabaretti",
    "origins": [
+    "pack_p5_isolated_entity_history_2026-10-31.json",
     "pack_p5_snc_side_stories_2026-10-30.json",
     "pack_p5_streets_of_new_capenna_2026-10-30.json"
    ],
@@ -102006,6 +102270,7 @@
    "id": "faction:witherbloom_college",
    "name": "Witherbloom College",
    "origins": [
+    "pack_p5_isolated_entity_history_2026-10-31.json",
     "pack_p5_secrets_of_strixhaven_2026-10-30.json"
    ],
    "type": "Faction"
@@ -114513,6 +114778,50 @@
    "url": "https://magic.wizards.com/en/news/magic-story/hunger-2020-09-25"
   },
   {
+   "id": "source:ieh_capenna_2022",
+   "kind": "official_planeswalkers_guide",
+   "name": "Planeswalker's Guide to Streets of New Capenna",
+   "origins": [
+    "pack_p5_isolated_entity_history_2026-10-31.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-streets-of-new-capenna"
+  },
+  {
+   "id": "source:ieh_dominaria_2018",
+   "kind": "official_story_episode",
+   "name": "Return to Dominaria: Episode 5",
+   "origins": [
+    "pack_p5_isolated_entity_history_2026-10-31.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-5-2018-04-11"
+  },
+  {
+   "id": "source:ieh_eldraine_2019",
+   "kind": "official_planeswalkers_guide",
+   "name": "Planeswalker's Guide to Eldraine",
+   "origins": [
+    "pack_p5_isolated_entity_history_2026-10-31.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-eldraine-2019-10-31"
+  },
+  {
+   "id": "source:ieh_strixhaven_2021",
+   "kind": "official_story_feature",
+   "name": "The Legends of Strixhaven",
+   "origins": [
+    "pack_p5_isolated_entity_history_2026-10-31.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/feature/legends-strixhaven-2021-04-13"
+  },
+  {
    "id": "source:ig_gav",
    "kind": "official_planeswalkers_guide",
    "name": "A Planeswalker's Guide to Innistrad: Gavony and Humans",
@@ -119025,17 +119334,17 @@
  "problems": [],
  "schema": "multiverse-claim-graph/v1",
  "stats": {
-  "claim_edges_with_era": 1247,
+  "claim_edges_with_era": 1254,
   "claim_edges_with_in_universe_date": 36,
   "claims_by_status": {
    "ALTERNATE_CONTINUITY": 2,
-   "CANON_CONFIRMED": 940,
+   "CANON_CONFIRMED": 945,
    "CANON_DISPUTED": 8,
    "CANON_IMPLIED": 253,
    "OPEN_QUESTION": 3
   },
   "curated_bridges": 126,
-  "edges": 8255,
+  "edges": 8279,
   "exact_art_printings": 560,
   "literal_objects": 14,
   "node_types": {
@@ -119044,20 +119353,20 @@
    "CardRepresentation": 560,
    "CardTheme": 1,
    "Character": 483,
-   "Claim": 1206,
+   "Claim": 1211,
    "Concept": 176,
    "DeckProposal": 3,
    "Event": 28,
-   "Faction": 145,
+   "Faction": 146,
    "Literal": 14,
    "Object": 52,
    "Place": 109,
    "Plane": 33,
-   "Source": 605
+   "Source": 609
   },
-  "nodes": 5176,
+  "nodes": 5186,
   "non_wizards_sources": 0,
-  "relations": 424,
-  "wizards_official_sources": 605
+  "relations": 425,
+  "wizards_official_sources": 609
  }
 }

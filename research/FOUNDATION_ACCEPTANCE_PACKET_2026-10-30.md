@@ -7,8 +7,8 @@ This source-graded packet is reproducible from the repository, with exact input 
 ## Inventory and supported lookups
 
 - 576 official source pages cited and 50 reviewed without a claim within the inventoried 626-page scope. Citation does not mean exhaustive reading.
-- 1206 source-graded graph claims across 5176 nodes; 33 registered planes, 16 still thin.
-- 483 registered characters and 145 factions; 623 with direct cited claims, 5 without.
+- 1211 source-graded graph claims across 5186 nodes; 33 registered planes, 16 still thin.
+- 483 registered characters and 146 factions; 629 with direct cited claims, 0 without.
 - 53 previously researched on-plane contextual claims in 4 dossiers, strictly distinct from new/direct graph claims.
 
 ## In-universe chronology (not a complete timeline)
@@ -38,6 +38,11 @@ This source-graded packet is reproducible from the repository, with exact input 
 | How does Urza's Saga interact with Urza's Tower? | `ask->rules_evidence:interaction` | `QUALIFIED` | 3 |
 | Did Karn introduces Phyrexian oil to Mirrodin happen before Mirran forces are overwhelmed in the early conquest? | `ask->chronology` | `QUALIFIED` | 1 |
 | Did P:mirrans_overwhelmed happen before P:venser_restores_karn? | `ask->chronology` | `QUALIFIED` | 0 |
+| What is the history of Eric Kenrith? | `ask->entity_history` | `QUALIFIED` | 1 |
+| What is the history of Hazel Kenrith? | `ask->entity_history` | `QUALIFIED` | 1 |
+| What is the history of Lyra Dawnbringer? | `ask->entity_history` | `QUALIFIED` | 1 |
+| What is the history of Valentin? | `ask->entity_history` | `QUALIFIED` | 1 |
+| What is the history of the Cabaretti? | `ask->entity_history` | `QUALIFIED` | 1 |
 
 The underlying JSON retains response digests, exact source URLs and caveat flags. The two graph-navigation examples are **not** evidence of chronological or causal paths.
 
@@ -60,6 +65,6 @@ python3 scripts/certification_dry_run.py --check
 python3 scripts/update_multiverse_progress_tracker.py --check
 ```
 
-Packet SHA-256 (canonical JSON): `77f258a419a14489aaed405642f4a8d700dc36e21db92e2091f4ce98965f17ea`
+Packet SHA-256 (canonical JSON): `648a179ed061759e0be0ecc971b6e5c5c7b3b2fd1f7915c3493a642b51fb89e3`
 
 **No decks were built, modified, reviewed or approved.**

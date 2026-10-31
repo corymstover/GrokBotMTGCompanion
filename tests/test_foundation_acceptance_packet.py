@@ -45,6 +45,9 @@ class FoundationPacketTests(unittest.TestCase):
         self.assertGreater(ch['legacy_disconnected_components'], 1)
         self.assertFalse(ch['l244_complete'])
         self.assertIn('may not be summed', ch['not_additive'].lower())
+        self.assertEqual(c['characters_and_factions_without_direct_claims'], 0)
+        self.assertEqual(c['registered_character_faction_direct_claim_gaps'], [])
+        self.assertEqual(c['characters_and_factions_with_direct_claims'], 629)
 
     def test_qa_sources_and_unknown_are_preserved(self):
         cases = {r['id']: r for r in self.current['representative_questions']}
@@ -54,6 +57,9 @@ class FoundationPacketTests(unittest.TestCase):
         self.assertIn('NO_CITED_CHRONOLOGY_PATH', cases['unanchored_order']['flags'])
         self.assertIn('CURRENT_LEADER_NOT_ESTABLISHED', cases['present_leader_unknown']['flags'])
         self.assertIn('magic.wizards.com', cases['character_bolas']['sources'][0])
+        self.assertEqual({key for key in cases if key.startswith('history_')},
+                         {'history_eric', 'history_hazel', 'history_lyra',
+                          'history_valentin', 'history_cabaretti'})
         self.assertTrue(any('media.wizards.com' in url for url in cases['commander_identity']['sources']))
         for r in cases.values():
             self.assertEqual(len(r['response_sha256']), 64)
