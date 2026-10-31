@@ -1,6 +1,6 @@
 # MTG Multiverse Companion — Master Workflow & Progress Checklist
 
-**Version:** 2.84
+**Version:** 2.85
 **Checkpoint date:** 2026-10-31
 **Repository:** [corymstover/GrokBotMTGCompanion](https://github.com/corymstover/GrokBotMTGCompanion)  
 **Purpose:** Durable project roadmap and handoff document. Update this file after verified milestone work; do not treat historical figures as live counters.
@@ -22,6 +22,25 @@ foundation release may document inherently unresolved canon and future
 maintenance; it must never claim exhaustive knowledge of all MTG history.
 The 62 approved Grixis decks, their hashes and all owner gates remain intact.
 Only a new explicit request from Cory can override the Phase 6 hold.
+
+**v2.85 Phase 7 Commander Q&A legality-currentness safety (2026-10-31):**
+The natural-language Commander deck-inclusion route now verifies the *proposed
+commander configuration* as well as the candidate card's identity and
+historical legality. It no longer says that a color-fitting card is allowed in
+an otherwise invalid deck with a banned/non-commander leader or an invalid
+partner pair. Both commander-eligibility and card-inclusion answers are now
+**QUALIFIED**, with a machine-readable historical-legality flag, the card-shard
+date and the official CR excerpt's effective date; a historical Scryfall
+legality field cannot certify today's ban list, releases or Oracle text.
+Four self-contained adversarial regression methods cover invalid and valid
+single/pair leaders, natural-language routing, the dated confidence envelope,
+and missing/excessive commanders; the Phase 7 GitHub Action is wired to run
+them. The scoped local suite passed; exact-head full-checkout CI is required
+before treating this as a merged engineering milestone. This is **partial**
+Phase 7 Q&A hardening, **not** a live legality-sync service, the completion of
+hard interaction research, or release certification. **89/137 checked, 48 open,
+NOT_RELEASE_READY**; protected decks and the three parked pilots are unchanged.
+See `research/PHASE7_COMMANDER_QA_CURRENTNESS_2026-10-31.md`.
 
 **v2.84 Gatewatch founding chronology and Phase 3 identity integrity
 (2026-10-31):** A new separately source-bounded Zendikar/Gatewatch strand
@@ -1099,6 +1118,7 @@ explicitly lifts the hold).
 - [ ] Answer obscure lore and chronology questions through cited evidence and dated canon status.
 - [x] Explain ambiguous/retconned narratives rather than inventing certainty. *(v2.37, Batch 9: leader answers order cited leaders by the citing page's publication date. Claims whose summary or limitation sets them in a past era or an original or rewritten timeline are now kept as era context and never reported as the most recent leader. The answer carries the flag `ERA_OR_TIMELINE_CONTEXT` and an `era_note` saying that publication order is not in-universe order and that the cited claims do not by themselves establish the present-day leader. For example, Yasova, Tasigur, Alesha and Daghatar are Fate Reforged past-era khans; they are era context behind Surrak, Sidisi, Zurgo and Anafenza. Covered by `tests/test_batch_recount_b9.py`. There is no general retcon explainer beyond leadership yet. **v2.38, Batch 10:** a general continuity explainer (`continuity()` in `mv_ask`, route `ask->continuity`, `tests/test_mv_ask_continuity.py`) returns the conflicting or alternate cited accounts with `QUALIFIED` confidence and a "not resolved" note, or `NO_CITED_CONTINUITY_CONFLICT`. Checked as a capability; its answers are only as complete as the cited packs.)*
 - [ ] Integrate card, lore and rules search for difficult research questions; defer deck recommendations and deckbuilding flows until post-foundation Phase 6.
+  - v2.85 partial: Commander inclusion checks now validate the named leader(s) and partner compatibility before returning `allowed`, and dated Scryfall/CR answers are `QUALIFIED` with explicit currentness limits. This closes a false-positive Q&A path, not the larger multi-hop card/lore/rules integration requirement.
 - [ ] Test difficult representative queries, cross-references, and interaction explanations. *(Partial, 2026-10-30 Batch 4: `mv_ask` now answers "who killed X" using the `killed` relation, plus "who is X's mother" and "who struck down X". All three are covered by Pack C4 regression tests, for example Karn → Elesh Norn (MOM017) and Tamiyo → Nashi (MOM010). Unknown names still return NOT_FOUND. A broad hard-query suite is still open. **v2.33:** `tests/test_mv_ask_relations.py` ([PR #859](https://github.com/corymstover/GrokBotMTGCompanion/pull/859)) is data-driven. Every claim edge in the graph must round-trip through `mv_ask` lore with its grade and source URL, confidence must never overstate the grade, and non-CONFIRMED P5 claims must carry limitations. It also checks natural-language questions (Razaketh, the Immortal Sun, Ugin, Heart of Kiran). The router gained `created ← designed/invented` and `defeated_by ← defeated` fallbacks. A broader free-text paraphrase suite is still open, so this box stays unchecked. **v2.36, Batch 8:** `tests/test_mv_ask_rephrased_b8.py` adds 27 cases / 42 phrasings over the Batch 7/8 relations (22 VERIFIED, 5 QUALIFIED CANON_IMPLIED cases that must carry a limitation), and the router gained honest phrasings for "beheaded", "the leader of X", "governs/rules", "mentored"/"X's mentor", "founded", "guards", "fought", "serves", "worships", "attacked", "who did X meet", and friend_of for "X's friends". Unknown entities still return NOT_FOUND. Known gap: faction short names such as "the Izzet" do not resolve. **v2.37, Batch 9:** faction short names now resolve, for example "the Izzet" and "the Temur" ([#882](https://github.com/corymstover/GrokBotMTGCompanion/pull/882), flag `MATCHED_BY_FACTION_ALIAS`). Sibling questions read `sibling_of|twin_sibling_of` together, so Ugin's cited siblings no longer hide the Bolas twin edge ([#885](https://github.com/corymstover/GrokBotMTGCompanion/pull/885)). A 13-question representative set runs in CI through `scripts/batch_recount.py`. Still not a broad hard-query suite, so the box stays unchecked.)* *(v2.42, Batch 14, [#910](https://github.com/corymstover/GrokBotMTGCompanion/pull/910): a probe over all 54 factions with cited leaders found 'guildmaster of', 'in charge of', "who's the leader of" and 'commands' missed 54/54; now 0 misses over 14 phrasings, except 3 factions (dragonlords, Elves of Eldraine, the Twelve) whose only leader edges point outward, which correctly stay NOT_FOUND. `tests/test_mv_ask_leader_phrasings_b14.py`. Still not a broad hard-query suite.)*
   - v2.77 partial hard-query safety: negative and positive regression cases distinguish a cited mother from an unknown father, generic parents from role-specific identities, and publication chronology from a requested first/original/new leader. The larger difficult-query and rules-interaction suite remains OPEN.
 - [x] Flag unavailable, stale or low-confidence information explicitly. `mv_ask` returns VERIFIED, QUALIFIED or NOT_FOUND with flags and exits 3 for unknown entities ([PR #827](https://github.com/corymstover/GrokBotMTGCompanion/pull/827), [PR #829](https://github.com/corymstover/GrokBotMTGCompanion/pull/829)).
@@ -1123,7 +1143,7 @@ explicitly lifts the hold).
   - v2.60: a source-graded, 12-case knowledge-only review packet was generated and CI-gated; v2.62 extended it to 15 dated set/printing/ruling cases, v2.63 to 17 with bounded New Phyrexia chronology, v2.64 to 22 with five character/faction histories, **v2.65 to 26** with four newly deepened plane histories, and **v2.66 to 30 unique questions** for four more plane histories and a duplicate-ID correction. The dry-run distinguishes this **completed engineering packet** from pending exact-head release CI and Cory's foundation-scope decision. No release checklist acceptance is inferred.
 - [ ] Treat continual future MTG releases as an ongoing maintenance track rather than a permanently finishable backlog.
 
-## Immediate execution queue — v2.83 FOUNDATION FIRST (2026-10-31)
+## Immediate execution queue — v2.85 FOUNDATION FIRST (2026-10-31)
 
 1. **Phase 4 — Verified in-universe chronology:** expand the source-quoted BEFORE/AFTER/UNKNOWN event order, resolve high-value L244 gaps where primary evidence exists, and retain unknown/disputed ordering instead of inventing total dates. Keep release chronology separate.
 2. **Phases 2/5 — Comprehensive history:** systematically deepen thin plane dossiers, major factions, characters, wars, artifacts and cross-plane consequences; record both coverage and missing primary sources. Currently thin registered planes remain a priority, not a census of all planes; regenerate the exact count from the dossier rather than treating this prose as a live counter.

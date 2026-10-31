@@ -17,8 +17,11 @@ data/rules/cr_20260925_commander_excerpt.json.
 
 Scope and limits:
 - These are deck-construction checks only, not gameplay rules-interaction checks.
-- Format legality is Scryfall's `commander` legality field, not a reading of the official
-  banned list.
+- Format legality is the dated Scryfall `commander` legality field, not a live
+  check of today's banned list. Even a mechanically valid result is QUALIFIED
+  until current Oracle text and legality are independently checked.
+- Inclusion checks reject an invalid proposed commander configuration; passing
+  color identity alone does not make a deck legal.
 - Card text that changes the commander rules in a way not modelled here (for example
   un-set text) yields QUALIFIED with the flag UNMODELLED_COMMANDER_TEXT.
 - Confidence uses the mv_ask levels: VERIFIED, QUALIFIED and NOT_FOUND (exit code 3).
@@ -37,6 +40,8 @@ CR = json.loads((ROOT / "data/rules/cr_20260925_commander_excerpt.json").read_te
 COLORS = "WUBRG"
 BASIC_TYPES = {"Plains": "W", "Island": "U", "Swamp": "B", "Mountain": "R", "Forest": "G"}
 DASH = "\u2014"
+CARD_SHARDS_AS_OF = "2026-10-15"
+HISTORICAL_LEGALITY_FLAG = "DATED_SCRYFALL_LEGALITY_NOT_LIVE"
 
 
 def cite(*ids):
@@ -113,10 +118,16 @@ def single_eligibility(f: dict):
 
 
 def _env(route, query, result, flags, rules):
-    return {"route": route, "query": query, "confidence": "QUALIFIED" if flags else "VERIFIED", "flags": flags,
+    # Repository snapshots are reproducible evidence, not a real-time check of
+    # the current Commander ban list, card release status or Oracle changes.
+    flags = sorted(set(flags) | {HISTORICAL_LEGALITY_FLAG})
+    return {"route": route, "query": query, "confidence": "QUALIFIED", "flags": flags,
             "rules_source": {"document": CR["title"], "effective": CR["effective"], "url": CR["source_url"],
                              "sha256": CR["source_sha256"]},
             "card_source": "Scryfall-derived records: data/card_index.csv and cards/ shards",
+            "card_data_as_of": CARD_SHARDS_AS_OF,
+            "limitation": ("The result uses dated card/legality data and a dated Comprehensive Rules excerpt. "
+                           "Confirm current Oracle text, release status, Commander bans and rules before finalizing a deck."),
             "rules": cite(*dict.fromkeys(rules)), "result": result}
 
 
@@ -189,15 +200,25 @@ def commander(names: list) -> dict:
 
 
 def include(card_name: str, commanders: list) -> dict:
+    if not 1 <= len(commanders) <= 2:
+        return {"route": "include", "query": [card_name] + commanders,
+                "confidence": "NOT_FOUND", "flags": ["INVALID_COMMANDER_COUNT"],
+                "result": {"reason": "A Commander deck must designate one or two valid commanders."}}
     names = [card_name] + commanders
     rows = [resolve(n) for n in names]
     missing = [n for n, r in zip(names, rows) if r is None]
     if missing:
         return _notfound("include", names, missing)
     c, cmd = facts(rows[0]), [facts(r) for r in rows[1:]]
+    proposed = commander(commanders)
     ident = {x for f in cmd for x in f["identity"]}
     rules = ["903.4", "903.5c"] + (["702.124c"] if len(cmd) == 2 else [])
     reasons = []
+    flags = []
+    if not proposed["result"]["allowed"]:
+        reasons.append("proposed commander configuration is not legal: "
+                       + proposed["result"].get("reason", "commander eligibility or pairing requirement failed"))
+        flags.append("INVALID_COMMANDER_CONFIGURATION")
     outside = "".join(x for x in COLORS if x in c["identity"] and x not in ident)
     if outside:
         reasons.append(f"color identity {c['identity']} has {outside}, outside the commander identity")
@@ -212,8 +233,11 @@ def include(card_name: str, commanders: list) -> dict:
         reasons.append(f"Scryfall commander legality is '{c['legality']}'")
     result = {"allowed": not reasons, "card": c["name"], "card_identity": c["identity"] or "C",
               "commander_identity": "".join(x for x in COLORS if x in ident) or "C",
+              "commander_configuration": {"allowed": proposed["result"]["allowed"],
+                                          "commanders": [f["name"] for f in cmd],
+                                          "pairing_ability": proposed["result"].get("pairing_ability")},
               "scryfall_commander_legality": c["legality"], "reasons": reasons, "shard": c["shard"]}
-    return _env("include", names, result, [], rules)
+    return _env("include", names, result, flags, rules)
 
 
 def iter_sections():

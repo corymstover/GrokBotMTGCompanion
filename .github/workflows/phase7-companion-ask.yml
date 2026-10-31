@@ -18,6 +18,7 @@ on:
       - 'cards/**'
       - 'data/rules/**'
       - 'tests/test_commander_rules.py'
+      - 'tests/test_commander_deck_config_safety.py'
       - 'scripts/query_multiverse_graph.py'
       - 'tests/test_mv_ask.py'
       - 'tests/test_mv_ask_relations.py'
@@ -48,6 +49,8 @@ on:
       - 'data/lore_decks/drafts/*_decklist.txt'
       - 'cards/**'
       - 'data/rules/**'
+      - 'tests/test_commander_rules.py'
+      - 'tests/test_commander_deck_config_safety.py'
       - 'tests/test_mv_ask.py'
       - 'tests/test_mv_ask_relations.py'
       - 'tests/test_mv_ask_aliases.py'
@@ -92,6 +95,7 @@ jobs:
           python3 scripts/commander_rules.py include "Sol Ring" --commander "Urza, Lord High Artificer"
           python3 scripts/commander_rules.py audit-eligibility --check
           python3 -m unittest discover -s tests -p 'test_commander_rules.py' -v
+          python3 -m unittest tests.test_commander_deck_config_safety -v
       - name: Gameplay rules-interaction checks (rulings + CR 701/702 excerpt)
         run: |
           python3 scripts/build_cr_keyword_excerpt.py --check
