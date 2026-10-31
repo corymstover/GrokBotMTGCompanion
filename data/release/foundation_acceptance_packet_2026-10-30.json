@@ -21,7 +21,7 @@
     },
     "source_local_chronology": {
       "path": "data/lore_research/source_event_sequences_2026-10-30.json",
-      "sha256": "55234a7b2ceb6daf445bb7730f49ad6924b9f8992338de0bfc562d0feba10874"
+      "sha256": "9ff717a8a5e5767bc3872a145cacdbf10259e89b3e87e6b506db9c7d5cfae473"
     },
     "story_coverage": {
       "path": "data/lore_research/story_coverage_inventory_2026-10-30.json",
@@ -56,9 +56,9 @@
     "legacy_unresolved_pairs": 2897,
     "legacy_disconnected_components": 13,
     "legacy_cycles": 0,
-    "source_local_events": 74,
-    "source_local_ordered_pairs": 180,
-    "source_local_total_pairs": 2701,
+    "source_local_events": 88,
+    "source_local_ordered_pairs": 314,
+    "source_local_total_pairs": 3828,
     "not_additive": "Legacy and source-local data are separately scoped; their pairs may not be summed as one chronology.",
     "l244_complete": false
   },
@@ -471,6 +471,68 @@
       ],
       "sources": [],
       "response_sha256": "61d3364489f01cdeaf0ba20603c8510fe98da54f0d9c34fae4aac0395b4e1112",
+      "direct_claims": null,
+      "chronology_relation": "UNKNOWN",
+      "known_limitations": []
+    },
+    {
+      "id": "mercadia_weatherlight_source_order",
+      "question": "Did T:weatherlight_seized happen before T:mercadia_strike?",
+      "route": "ask->chronology",
+      "confidence": "QUALIFIED",
+      "flags": [
+        "PARTIAL_IN_UNIVERSE_CHRONOLOGY"
+      ],
+      "sources": [
+        "https://magic.wizards.com/en/news/feature/known-mutliverse-2008-03-19"
+      ],
+      "response_sha256": "ea232f8bf322e496b732a2d96aeff4cb7c0e7d9312ff0ef19c31856f1d76ca40",
+      "direct_claims": null,
+      "chronology_relation": "BEFORE",
+      "known_limitations": []
+    },
+    {
+      "id": "original_mirrodin_source_order",
+      "question": "Did H:karn_creates_argentum happen before H:karn_restores_order?",
+      "route": "ask->chronology",
+      "confidence": "QUALIFIED",
+      "flags": [
+        "PARTIAL_IN_UNIVERSE_CHRONOLOGY"
+      ],
+      "sources": [
+        "https://magic.wizards.com/en/news/feature/known-mutliverse-2008-03-19"
+      ],
+      "response_sha256": "3bf6d8223efdaecc72308488a804706ebffac4e9b9ed2be83a759c424f11fe3a",
+      "direct_claims": null,
+      "chronology_relation": "BEFORE",
+      "known_limitations": []
+    },
+    {
+      "id": "mercadia_overlay_order_unknown",
+      "question": "Did T:weatherlight_leaves_mercadia happen before T:rath_overlay?",
+      "route": "ask->chronology",
+      "confidence": "QUALIFIED",
+      "flags": [
+        "PARTIAL_IN_UNIVERSE_CHRONOLOGY",
+        "NO_CITED_CHRONOLOGY_PATH"
+      ],
+      "sources": [],
+      "response_sha256": "c54e75eb011ca876653cd5ca57816e9fa80817ca0d0281b625697daf67d9aeff",
+      "direct_claims": null,
+      "chronology_relation": "UNKNOWN",
+      "known_limitations": []
+    },
+    {
+      "id": "mirrodin_cross_account_unknown",
+      "question": "Did H:karn_restores_order happen before P:mirrans_overwhelmed?",
+      "route": "ask->chronology",
+      "confidence": "QUALIFIED",
+      "flags": [
+        "PARTIAL_IN_UNIVERSE_CHRONOLOGY",
+        "NO_CITED_CHRONOLOGY_PATH"
+      ],
+      "sources": [],
+      "response_sha256": "d26006766596cbdcd78a2063afda1e58a9b3e9f65182ba25c33152116a1419e7",
       "direct_claims": null,
       "chronology_relation": "UNKNOWN",
       "known_limitations": []
@@ -1264,5 +1326,5 @@
     "python3 scripts/update_multiverse_progress_tracker.py --check"
   ],
   "owner_review_status": "PENDING_NOT_REQUESTED_UNTIL_ENGINEERING_EVIDENCE_AND_CI_COMPLETE",
-  "content_sha256": "d6e92d5ad892b14735f21b8af408cb62f2f64201cc4b936ed30e698650a59b0d"
+  "content_sha256": "0b1943b0adc36ef1b017f8a090aaa18c56aa7349f2bb51fbffef6c53344f4507"
 }

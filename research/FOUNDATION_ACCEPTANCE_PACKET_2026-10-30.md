@@ -14,7 +14,7 @@ This source-graded packet is reproducible from the repository, with exact input 
 ## In-universe chronology (not a complete timeline)
 
 - Legacy ledger: 56 events, 177/3074 ordered event pairs; 2897 unresolved, 13 components, 0 cycles.
-- Source-local ledger: 74 events, 180/2701 pairs. These counts are separate, not additive.
+- Source-local ledger: 88 events, 314/3828 pairs. These counts are separate, not additive.
 - L244 cross-source historical ordering remains open. UNKNOWN is the correct answer when no cited bridge exists.
 
 ## Representative end-to-end questions
@@ -38,6 +38,10 @@ This source-graded packet is reproducible from the repository, with exact input 
 | How does Urza's Saga interact with Urza's Tower? | `ask->rules_evidence:interaction` | `QUALIFIED` | 3 |
 | Did Karn introduces Phyrexian oil to Mirrodin happen before Mirran forces are overwhelmed in the early conquest? | `ask->chronology` | `QUALIFIED` | 1 |
 | Did P:mirrans_overwhelmed happen before P:venser_restores_karn? | `ask->chronology` | `QUALIFIED` | 0 |
+| Did T:weatherlight_seized happen before T:mercadia_strike? | `ask->chronology` | `QUALIFIED` | 1 |
+| Did H:karn_creates_argentum happen before H:karn_restores_order? | `ask->chronology` | `QUALIFIED` | 1 |
+| Did T:weatherlight_leaves_mercadia happen before T:rath_overlay? | `ask->chronology` | `QUALIFIED` | 0 |
+| Did H:karn_restores_order happen before P:mirrans_overwhelmed? | `ask->chronology` | `QUALIFIED` | 0 |
 | What is the history of Eric Kenrith? | `ask->entity_history` | `QUALIFIED` | 1 |
 | What is the history of Hazel Kenrith? | `ask->entity_history` | `QUALIFIED` | 1 |
 | What is the history of Lyra Dawnbringer? | `ask->entity_history` | `QUALIFIED` | 1 |
@@ -92,6 +96,6 @@ python3 scripts/certification_dry_run.py --check
 python3 scripts/update_multiverse_progress_tracker.py --check
 ```
 
-Packet SHA-256 (canonical JSON): `d6e92d5ad892b14735f21b8af408cb62f2f64201cc4b936ed30e698650a59b0d`
+Packet SHA-256 (canonical JSON): `0b1943b0adc36ef1b017f8a090aaa18c56aa7349f2bb51fbffef6c53344f4507`
 
 **No decks were built, modified, reviewed or approved.**
