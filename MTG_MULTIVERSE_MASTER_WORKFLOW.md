@@ -1,6 +1,6 @@
 # MTG Multiverse Companion — Master Workflow & Progress Checklist
 
-**Version:** 2.85
+**Version:** 2.86
 **Checkpoint date:** 2026-10-31
 **Repository:** [corymstover/GrokBotMTGCompanion](https://github.com/corymstover/GrokBotMTGCompanion)  
 **Purpose:** Durable project roadmap and handoff document. Update this file after verified milestone work; do not treat historical figures as live counters.
@@ -1196,3 +1196,26 @@ the deterministic triage's recorded task lines remain stable. The release is
 **89/137 checked, 48 open, NOT_RELEASE_READY**, with all 62 approved Grixis
 decks and three unapproved pilots untouched. See
 `research/PHASE7_COMMANDER_QA_CURRENTNESS_2026-10-31.md`.
+
+## v2.86 engineering addendum — safe source-backed graph connection Q&A (2026-10-31)
+
+The natural-language `mv_ask.py ask` interface now answers bounded
+"How is X connected to Y?" / "What is the relationship between X and Y?"
+questions by finding a **complete, up-to-four-hop, source-cited,
+CANON_CONFIRMED graph-navigation path**. Every hop retains the original claim,
+source URLs and traversal direction; the answer remains `QUALIFIED` and
+explicitly refuses to promote a multi-hop navigation chain into a direct,
+causal or chronological story. Disputed/alternate sources, ambiguous endpoints,
+missing paths and self-relationships are fail-closed. The route is intentionally
+independent of the larger Set Atlas and historical rules-shard imports, so it
+works in a sparse read-only knowledge environment.
+
+Four adversarial test methods cover confirmed reverse-traversal, disputed
+shortcuts, four-hop bounds, missing names and a live 3-hop Tezzeret–Kaladesh
+source path. This is a new **bounded capability** toward the still-open Phase 7
+cross-domain/difficult-Q&A tasks, **not** total graph reachability, an
+independent historical verification of all inferred paths, or foundation
+certification. The checklist remains **89/137 checked, 48 open,
+NOT_RELEASE_READY**. No Grixis decklists, Scryfall snapshots, owner decisions
+or parked lore pilots are changed. See
+`research/PHASE7_GRAPH_CONNECTION_QA_2026-10-31.md`.
