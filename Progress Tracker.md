@@ -62,7 +62,7 @@ foundation certification tasks.
 | Monitor new official stories, Oracle changes, releases, rules… | Under review | ONGOING |
 | Rebuild and reconcile the Phase 1B set catalog and bidirection… | Under review | ONGOING |
 | Update snapshot manifests with actual download bytes and stabl… | Completed | none |
-| Maintain an honest progress tracker: completed, under review,… | Completed | none |
+| Maintain an honest progress tracker: completed, under review,… | Completed | ONGOING |
 | Define an MTG Multiverse Companion milestone release based on… | Under review | OWNER_DECISION |
 | Treat continual future MTG releases as an ongoing maintenance… | Under review | ONGOING, OWNER_DECISION |
 
