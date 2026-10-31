@@ -1,6 +1,6 @@
 # MTG Multiverse Companion — Master Workflow & Progress Checklist
 
-**Version:** 2.77
+**Version:** 2.78
 **Checkpoint date:** 2026-10-31
 **Repository:** [corymstover/GrokBotMTGCompanion](https://github.com/corymstover/GrokBotMTGCompanion)  
 **Purpose:** Durable project roadmap and handoff document. Update this file after verified milestone work; do not treat historical figures as live counters.
@@ -22,6 +22,22 @@ foundation release may document inherently unresolved canon and future
 maintenance; it must never claim exhaustive knowledge of all MTG history.
 The 62 approved Grixis decks, their hashes and all owner gates remain intact.
 Only a new explicit request from Cory can override the Phase 6 hold.
+
+**v2.78 Phase 4 cross-ledger chronology query closure (2026-10-31):**
+The source-verified legacy/source-local event ledgers already held seven
+explicit `SAME_EVENT` bridges, but same-ledger queries returned early on
+`UNKNOWN` without checking whether a proven bridge into the other ledger
+supplied a strict sequence. Fixed this read-only retrieval gap: **eight
+previously UNKNOWN legacy event-pair comparisons** now expose a traced,
+Wizards-cited BEFORE/AFTER answer from the existing 2008 historical
+retrospective. Require a real `SAME_EVENT` bridge in every cross-ledger
+fallback proof; preserve all directly supported answers and unsupported
+UNKNOWN cases. The original 56-event legacy and 74-event source-local
+ledgers, all citations, chronology claims, snapshot locks, owner decisions
+and decklists are unchanged. Focused tests and source checks pass locally;
+exact-head CI still required. **89/137 checked, 48 open,
+NOT_RELEASE_READY**. See
+`research/PHASE4_CROSS_LEDGER_QUERY_CLOSURE_2026-10-31.md`.
 
 **v2.77 Phase 7 kinship and leadership answer safety (2026-10-31):**
 Reproduced two unsupported VERIFIED answers in the normal Q&A route:
@@ -890,6 +906,8 @@ Infrastructure checkpoint: [PR #783](https://github.com/corymstover/GrokBotMTGCo
 - [x] **Claim-level card anchors (2026-10-30, mechanical, Batch 4):** `scripts/build_claim_card_anchors.py` writes `data/lore_research/claim_card_anchors_2026-10-30.json`, which ties 155 of 173 claims to 884 claim-card pairs across all 9 claim packs. Each pair gets one tier. **ART_IN_CITED_SOURCE** (25 pairs): the card's art is credited by exact name on an official page the claim cites. **PRINTED_IN_STORY_SET** (33 pairs): the card has a paper printing in the story's set; this tier applies only to C2→DOM, C3→ONE and C4→MOM. **NAMED_PARTICIPANT** (826 pairs): everything else. An anchor never says a card depicts the claimed event. C3 and C4 have no art-tier pairs yet, because the caption atlas has no card-credited art captions for those episodes.
 - [ ] For each pack, publish a verified chronology, relationship map, source bibliography, explicit uncertainties and lore-deck candidates. *(v2.40, Batch 12, [#901](https://github.com/corymstover/GrokBotMTGCompanion/pull/901): `scripts/build_pack_dossiers.py` publishes, for each of Packs A (48 claims), B (18) and C (107): a relationship map, a bibliography, uncertainties, card representations and UNAPPROVED commander candidates (A 21, B 26, C 68). It also flags the one cross-pack citation (C012→Pack B `urza_profile`). Stays unchecked: stages are in **publication order**, not a verified in-universe chronology, and no candidate is an approved deck.)* *(v2.41, Batch 13, [#904](https://github.com/corymstover/GrokBotMTGCompanion/pull/904): `scripts/build_relative_chronology.py` writes `data/lore_research/relative_chronology_2026-10-30.json` and `research/RELATIVE_CHRONOLOGY_2026-10-30.md`, a partial order built **only** from orderings stated verbatim on cached official Wizards pages. Inputs are before/after statements, spans relative to each page's own story present, and the AR scene headers printed in *The Brothers' War* (e.g. 63 AR, 4562 AR). It has 42 events, 14 story presents (never merged), 47 stated edges, 6 edges derived only from printed AR labels, 0 cycles, and 155 of 1,946 pairs ordered across 12 disconnected chains. Claims placed: A 15/48, B 7/18, C 10/107. **Not enough to close L244.** `l244_closure.missing` records the gaps: story presents on different pages are not anchored to each other; Pack A primordial, Meditation Realm, WAR and TDM claims lack ordering quotes; spans are open-ended; Eldrazi spans conflict (5,000 vs >6,000 years); Pack B has Thran/Yawgmoth/Mishra gaps; C2–C4 have no AR dates and the Weatherlight Saga novels are not ingested; 7 source pages are uncached.)* *(v2.42, Batch 14, [#909](https://github.com/corymstover/GrokBotMTGCompanion/pull/909): the 10 official pages cited by packs but missing from the cache were fetched (metadata-only provenance in `data/lore_research/pack_source_cache_provenance_2026-10-30.json`; bodies stay in the untracked cache). New stated orderings from *The Reforged Chain*, the BRO product page and official summary pages (*The Known Multiverse* 2008, Commander Legends and MH2 legend bios, RTD ep3, *Death and Salvation*). No novel text was ingested. Chronology now: 56 events, 16 presents, 63 stated edges, 177/3,074 pairs ordered, 13 components; the Eldrazi and Tarkir chains merged (18 nodes) and the Weatherlight chain joined the Elder-Dragon/Invasion component. **Still not closed:** presents remain unanchored across pages; the Weatherlight-novel ordering of Yawgmoth's end and Old Phyrexia's decimation is a BLOCKER until an official recap states it.)*
 
+  - v2.78 partial chronology retrieval: seven independently cited SAME_EVENT bridges now resolve eight additional legacy/legacy queries via strict source-local BEFORE chains; no new in-universe date or unstated ordering is invented. The larger Pack A/B/C synthesis and L244 remain OPEN.
+
 ## Phase 5 — Full-history and plane-by-plane expansion
 
 - [x] **Surface existing official on-plane story evidence in plane-history queries without fabricating direct plane edges.** *(v2.58: 53 carefully selected, original-source-cited claims from Eldraine (10), Strixhaven on Arcavios (16), New Capenna (15) and Lorwyn–Shadowmoor (12), each separately marked CONTEXTUAL rather than counted as a newly researched or direct plane claim. New Arcavios geography bridge checked live from Wizards; off-plane and ambiguous cases excluded; eight tests plus inherited source-pipeline checks. Direct plane metrics stay 183 edges and 16 thin dossiers; comprehensive history remains unchecked.)*
@@ -968,7 +986,7 @@ explicitly lifts the hold).
   - v2.60: a source-graded, 12-case knowledge-only review packet was generated and CI-gated; v2.62 extended it to 15 dated set/printing/ruling cases, v2.63 to 17 with bounded New Phyrexia chronology, v2.64 to 22 with five character/faction histories, **v2.65 to 26** with four newly deepened plane histories, and **v2.66 to 30 unique questions** for four more plane histories and a duplicate-ID correction. The dry-run distinguishes this **completed engineering packet** from pending exact-head release CI and Cory's foundation-scope decision. No release checklist acceptance is inferred.
 - [ ] Treat continual future MTG releases as an ongoing maintenance track rather than a permanently finishable backlog.
 
-## Immediate execution queue — v2.77 FOUNDATION FIRST (2026-10-31)
+## Immediate execution queue — v2.78 FOUNDATION FIRST (2026-10-31)
 
 1. **Phase 4 — Verified in-universe chronology:** expand the source-quoted BEFORE/AFTER/UNKNOWN event order, resolve high-value L244 gaps where primary evidence exists, and retain unknown/disputed ordering instead of inventing total dates. Keep release chronology separate.
 2. **Phases 2/5 — Comprehensive history:** systematically deepen thin plane dossiers, major factions, characters, wars, artifacts and cross-plane consequences; record both coverage and missing primary sources. Currently thin registered planes remain a priority, not a census of all planes; regenerate the exact count from the dossier rather than treating this prose as a live counter.

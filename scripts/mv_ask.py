@@ -672,10 +672,13 @@ def chronology_question(text: str) -> dict | None:
     if any(nodes.get(evidence[key], {}).get('certainty') == 'NARRATED_TRADITION_ONLY'
            for key in ('left','right')):
         envelope['flags'].append('NARRATED_LEGEND_NOT_VERIFIED_HISTORY')
-    if any(nid in nodes for nid in (evidence['left'],evidence['right'])) and not all(
+    if any(e.get('relation') == 'SAME_EVENT' for e in proof):
+        # A supported legacy→local→legacy detour also deserves this flag;
+        # endpoint ledger membership alone cannot identify the proof route.
+        envelope['flags'].append('CROSS_LEDGER_SOURCE_BRIDGED')
+    elif any(nid in nodes for nid in (evidence['left'],evidence['right'])) and not all(
             nid in nodes for nid in (evidence['left'],evidence['right'])):
-        envelope['flags'].append('CROSS_LEDGER_SOURCE_BRIDGED' if any(
-            e.get('relation') == 'SAME_EVENT' for e in proof) else 'CROSS_LEDGER_UNANCHORED')
+        envelope['flags'].append('CROSS_LEDGER_UNANCHORED')
     envelope.update(confidence='QUALIFIED', result={
         'intent':intent, 'left_id':evidence['left'], 'right_id':evidence['right'],
         'left_event':labels[evidence['left']], 'right_event':labels[evidence['right']],
