@@ -1,6 +1,6 @@
 # MTG Multiverse Companion — Master Workflow & Progress Checklist
 
-**Version:** 2.82
+**Version:** 2.83
 **Checkpoint date:** 2026-10-31
 **Repository:** [corymstover/GrokBotMTGCompanion](https://github.com/corymstover/GrokBotMTGCompanion)  
 **Purpose:** Durable project roadmap and handoff document. Update this file after verified milestone work; do not treat historical figures as live counters.
@@ -22,6 +22,28 @@ foundation release may document inherently unresolved canon and future
 maintenance; it must never claim exhaustive knowledge of all MTG history.
 The 62 approved Grixis decks, their hashes and all owner gates remain intact.
 Only a new explicit request from Cory can override the Phase 6 hold.
+
+**v2.83 Phase 4 Alara Sundering, Gideon's Bant visit and Conflux order
+(2026-10-31):** Added **seven bounded Alara history events, four strict BEFORE
+relations and two explicitly non-ordering overlap relations** using the live
+verified Wizards *The Worlds of Magic Origins* retrospective and official
+Alara plane profile. The chain proves an **unknown** original cataclysm
+sundered the plane before centuries of shard isolation; Gideon visited Bant
+while it was isolated, before the five shards reunited and five-color mana
+returned. The dissolving boundaries and outbreak of inter-shard wars are
+treated as **overlapping events**, not fake BEFORE links. No invented cause of
+the original Sundering, claim that Bolas performed it, or absolute AR date is
+introduced. The independent chronology now has **13 strands, 121 events,
+97 strict edges, 5 non-ordering overlaps, 381/7,260 ordered event pairs, and
+eight unchanged same-event bridges**, plus the unchanged 56-event legacy
+ledger. All **110 quoted excerpts across 13 official pages passed live
+verification**. The independent all-pair oracle expands to **7,260** event
+pairs and five positive/negative Q&A examples bring the Phase 8 review packet
+to **72 representative cases, NOT CERTIFIED**. The full Alara/Bolas history,
+cross-plane Mending synchrony and L244 closure remain open: **89/137 checked,
+48 open, NOT_RELEASE_READY**. All approved Grixis decks, parked pilots and
+owner/snapshot gates are untouched. See
+`research/PHASE4_ALARA_GIDEON_CONFLUX_2026-10-31.md`.
 
 **v2.82 Phase 3/4/7 adversarial path, chronology and current-leader checks
 (2026-10-31):** Independently reproduced and corrected two trust-boundary
@@ -1075,7 +1097,7 @@ explicitly lifts the hold).
   - v2.60: a source-graded, 12-case knowledge-only review packet was generated and CI-gated; v2.62 extended it to 15 dated set/printing/ruling cases, v2.63 to 17 with bounded New Phyrexia chronology, v2.64 to 22 with five character/faction histories, **v2.65 to 26** with four newly deepened plane histories, and **v2.66 to 30 unique questions** for four more plane histories and a duplicate-ID correction. The dry-run distinguishes this **completed engineering packet** from pending exact-head release CI and Cory's foundation-scope decision. No release checklist acceptance is inferred.
 - [ ] Treat continual future MTG releases as an ongoing maintenance track rather than a permanently finishable backlog.
 
-## Immediate execution queue — v2.82 FOUNDATION FIRST (2026-10-31)
+## Immediate execution queue — v2.83 FOUNDATION FIRST (2026-10-31)
 
 1. **Phase 4 — Verified in-universe chronology:** expand the source-quoted BEFORE/AFTER/UNKNOWN event order, resolve high-value L244 gaps where primary evidence exists, and retain unknown/disputed ordering instead of inventing total dates. Keep release chronology separate.
 2. **Phases 2/5 — Comprehensive history:** systematically deepen thin plane dossiers, major factions, characters, wars, artifacts and cross-plane consequences; record both coverage and missing primary sources. Currently thin registered planes remain a priority, not a census of all planes; regenerate the exact count from the dossier rather than treating this prose as a live counter.

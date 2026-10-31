@@ -21,7 +21,7 @@
     },
     "source_local_chronology": {
       "path": "data/lore_research/source_event_sequences_2026-10-30.json",
-      "sha256": "6016f01a7fdc8f9884f2a3b531d248cddfeef30ad5211ef4c3c7a2e236bb477b"
+      "sha256": "dcfd981fd00fc23ef420e35fb40bb91ca7ca275bf92002a2c5708e6f52a4d491"
     },
     "story_coverage": {
       "path": "data/lore_research/story_coverage_inventory_2026-10-30.json",
@@ -56,9 +56,9 @@
     "legacy_unresolved_pairs": 2897,
     "legacy_disconnected_components": 13,
     "legacy_cycles": 0,
-    "source_local_events": 114,
-    "source_local_ordered_pairs": 371,
-    "source_local_total_pairs": 6441,
+    "source_local_events": 121,
+    "source_local_ordered_pairs": 381,
+    "source_local_total_pairs": 7260,
     "not_additive": "Legacy and source-local data are separately scoped; their pairs may not be summed as one chronology.",
     "l244_complete": false
   },
@@ -763,6 +763,87 @@
       ],
       "sources": [],
       "response_sha256": "1810af70b007a98059095f0070dc87ebf69c9c27d04d830199a42a5b502d7f03",
+      "direct_claims": null,
+      "chronology_relation": "UNKNOWN",
+      "known_limitations": []
+    },
+    {
+      "id": "alara_sundering_before_gideon_bant",
+      "question": "Did G:unknown_sundering happen before G:gideon_bant_arrival?",
+      "route": "ask->chronology",
+      "confidence": "QUALIFIED",
+      "flags": [
+        "PARTIAL_IN_UNIVERSE_CHRONOLOGY"
+      ],
+      "sources": [
+        "https://magic.wizards.com/en/news/feature/worlds-magic-origins-2015-07-09"
+      ],
+      "response_sha256": "0f40f615a2dcab07a543ff59146f4b9b71462bb04de19184967d0c7357400efb",
+      "direct_claims": null,
+      "chronology_relation": "BEFORE",
+      "known_limitations": []
+    },
+    {
+      "id": "alara_gideon_bant_before_conflux",
+      "question": "Did G:gideon_bant_arrival happen before G:conflux_reunion?",
+      "route": "ask->chronology",
+      "confidence": "QUALIFIED",
+      "flags": [
+        "PARTIAL_IN_UNIVERSE_CHRONOLOGY"
+      ],
+      "sources": [
+        "https://magic.wizards.com/en/news/feature/worlds-magic-origins-2015-07-09"
+      ],
+      "response_sha256": "d0296d391efda81774bb1bb8076eadc9cd8304452c2ec7b7828f2ce817fd00cd",
+      "direct_claims": null,
+      "chronology_relation": "BEFORE",
+      "known_limitations": []
+    },
+    {
+      "id": "alara_isolation_before_five_colors",
+      "question": "Did G:shards_isolated happen before G:five_colors_return?",
+      "route": "ask->chronology",
+      "confidence": "QUALIFIED",
+      "flags": [
+        "PARTIAL_IN_UNIVERSE_CHRONOLOGY"
+      ],
+      "sources": [
+        "https://magic.wizards.com/en/news/feature/worlds-magic-origins-2015-07-09",
+        "https://magic.wizards.com/en/story/alara-plane"
+      ],
+      "response_sha256": "3cad118ca81825a1f03926f65858b693965d6785519760062c7b2be9f51af518",
+      "direct_claims": null,
+      "chronology_relation": "BEFORE",
+      "known_limitations": []
+    },
+    {
+      "id": "alara_border_wars_overlap_not_before",
+      "question": "Did G:borders_dissolve happen before G:shard_wars?",
+      "route": "ask->chronology",
+      "confidence": "QUALIFIED",
+      "flags": [
+        "PARTIAL_IN_UNIVERSE_CHRONOLOGY",
+        "OVERLAP_NOT_STRICT_ORDER"
+      ],
+      "sources": [
+        "https://magic.wizards.com/en/story/alara-plane"
+      ],
+      "response_sha256": "32ba944a8f54c9afd1a945e931c7757164774a48bd0a0df7d95dd6ed7e45d20a",
+      "direct_claims": null,
+      "chronology_relation": "DURING_OR_AFTER_START",
+      "known_limitations": []
+    },
+    {
+      "id": "alara_mending_cross_strand_unknown",
+      "question": "Did R:planeswalkers_mend_rifts happen before G:conflux_reunion?",
+      "route": "ask->chronology",
+      "confidence": "QUALIFIED",
+      "flags": [
+        "PARTIAL_IN_UNIVERSE_CHRONOLOGY",
+        "NO_CITED_CHRONOLOGY_PATH"
+      ],
+      "sources": [],
+      "response_sha256": "c9c58970a5bf36f83129f1f48239cf745372f30171383f221e925c12da051fb8",
       "direct_claims": null,
       "chronology_relation": "UNKNOWN",
       "known_limitations": []
@@ -1568,5 +1649,5 @@
     "python3 scripts/update_multiverse_progress_tracker.py --check"
   ],
   "owner_review_status": "PENDING_NOT_REQUESTED_UNTIL_ENGINEERING_EVIDENCE_AND_CI_COMPLETE",
-  "content_sha256": "cc05e4807e0fbdb21ca9b2564cdd3198e781de62606cedb12eb7ffb13b1bca47"
+  "content_sha256": "3bc25cc8a7ddc375e5be7c22312be8f774f27c6b5b063f654098db4c2aee9d51"
 }

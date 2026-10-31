@@ -1,7 +1,7 @@
 {
   "schema": "source-local-event-order-spec/v1",
   "status": "PRELIMINARY_RESEARCH_NOT_OWNER_APPROVED",
-  "scope": "Twelve bounded, individually sourced chronology strands. No automatic cross-strand alignment, no absolute AR date conversion and no assertions that a narrated legend is historical fact. The Thran-to-invasion strand uses the 2008 Wizards historical retrospective and does not decide the order between Old Phyrexia's decimation and Yawgmoth's destruction. The Dominaria-to-Kamigawa fracture sequence quotes explicit cross-plane cause, but does not globally align all plane eras. The New Phyrexia strand describes early Mirrodin conquest, not post-March of the Machine politics. The early Meditation Realm strand is Ugin's remembered conflict; the distinct War of the Spark-to-Dragonstorm strand tracks later imprisonment and escape without claiming either dragon's death, present location or current spark state.",
+  "scope": "Thirteen bounded, individually sourced chronology strands. No automatic cross-strand alignment, no absolute AR date conversion and no assertions that a narrated legend is historical fact. The Thran-to-invasion strand uses the 2008 Wizards historical retrospective and does not decide the order between Old Phyrexia's decimation and Yawgmoth's destruction. The Dominaria-to-Kamigawa fracture sequence quotes explicit cross-plane cause, but does not globally align all plane eras. The Alara strand places Gideon's isolated-Bant arrival before the Conflux without assigning a cause to Alara's unknown original Sundering; wars concurrent with border dissolution are not forced into a BEFORE relation. The New Phyrexia strand describes early Mirrodin conquest, not post-March of the Machine politics. The early Meditation Realm strand is Ugin's remembered conflict; the distinct War of the Spark-to-Dragonstorm strand tracks later imprisonment and escape without claiming either dragon's death, present location or current spark state.",
   "sources": {
     "neo_guide": "data/lore_research/pack_p5_kamigawa_history_profile_2026-10-30.json",
     "blb_guide1": "data/lore_research/pack_p5_bloomburrow_valley_history_2026-10-30.json",
@@ -13,7 +13,9 @@
     "c_dominaria_plane": "data/lore_research/pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json",
     "c_karn_profile": "data/lore_research/pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json",
     "tdm7": "data/lore_research/pack_a_ugin_bolas_evidence_2026-10-30.json",
-    "lorwyn2": "data/lore_research/pack_a_ugin_bolas_evidence_2026-10-30.json"
+    "lorwyn2": "data/lore_research/pack_a_ugin_bolas_evidence_2026-10-30.json",
+    "up_alara": "data/lore_research/pack_p5_alara_plane_profile_2026-10-30.json",
+    "fph_origins_2015": "data/lore_research/pack_p5_four_plane_histories_2026-10-31.json"
   },
   "legacy_bridges": [
     {"legacy":"B:phyrexia_creator_dies","local":"T:phyrexian_creator_dies","source_id":"km","quote":"the planeswalker Dyfed took Yawgmoth to Phyrexia shortly after its creator and master had died","note":"The two ledger labels denote the same unnamed original Phyrexian master's death, without asserting that he was Yawgmoth."},
@@ -329,6 +331,29 @@
         {"earlier":"W:ugin_grapples","later":"W:brothers_vanish","source_id":"tdm7","quote":"trying to hold him in place, trying and failing; Bolas and Ugin winking out of existence","note":"Narset observes their disappearance after Ugin's failed restraint; her following 'dead now, perhaps' explicitly does NOT establish confirmed death."},
         {"earlier":"W:brothers_vanish","later":"W:narset_escapes","source_id":"tdm7","quote":"Crossing the threshold felt like she was stepping through a pool of silver","note":"The story describes Narset crossing the escape threshold after witnessing both brothers vanish; it does not establish the brothers' destinations."},
         {"earlier":"W:narset_escapes","later":"W:ajani_reports","source_id":"lorwyn2","quote":"I was on Tarkir. I helped Elspeth and Narset stop them. We wound up following the signs back to the Meditation Realm","note":"Ajani recounts the Realm expedition in the past tense in a later conversation with Liliana; his uncertainty about Bolas's spark remains in force."}
+      ]
+    },
+    {
+      "id": "G",
+      "title": "Alara — unknown Sundering, Gideon's isolated Bant arrival, Conflux and simultaneous shard wars",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "limitation": "The 2015 Worlds of Magic Origins feature explicitly locates Gideon's arrival during Bant's isolation and before the subsequent reunion; it calls Alara's original sundering cataclysm UNKNOWN. The Alara plane overview describes post-reunion five-color mana and wars as former shard boundaries dissolve. Conflux, boundary dissolution and the outbreak of fighting overlap in the prose: a DURING_OR_AFTER_START relation is NOT a strict before/after date. No Dominarian AR date, cause of the original cataclysm, or causal identity with Nicol Bolas's later conspiracy is inferred.",
+      "nodes": [
+        {"id":"G:unknown_sundering","label":"An unidentified cataclysm sunders Alara into five shards","claim_ids":[]},
+        {"id":"G:shards_isolated","label":"Alara's five shards evolve separately over centuries","claim_ids":["ALA001","ALA002"]},
+        {"id":"G:gideon_bant_arrival","label":"Gideon arrives on Bant while it remains isolated","claim_ids":[]},
+        {"id":"G:conflux_reunion","label":"Alara's five shards converge into a single plane","claim_ids":["ALA003"]},
+        {"id":"G:five_colors_return","label":"The reunited Alara again has all five mana colors","claim_ids":["ALA003"]},
+        {"id":"G:borders_dissolve","label":"Boundaries between reunited Alaran shards dissolve","claim_ids":["ALA004"]},
+        {"id":"G:shard_wars","label":"Formerly isolated shard cultures clash as their borders dissolve","claim_ids":["ALA004"]}
+      ],
+      "edges": [
+        {"earlier":"G:unknown_sundering","later":"G:shards_isolated","source_id":"fph_origins_2015","quote":"Sundered by some unknown cataclysm, their environments and cultures evolved independently","note":"An unidentified Sundering precedes the separate evolution of the shard civilizations; the cataclysm's cause is not identified."},
+        {"earlier":"G:shards_isolated","later":"G:gideon_bant_arrival","source_id":"fph_origins_2015","quote":"at the time of Gideon's arrival, Bant was entirely isolated","note":"The period of separation already existed when Gideon arrived; this is NOT a claim that isolation had ended by his arrival."},
+        {"earlier":"G:gideon_bant_arrival","later":"G:conflux_reunion","source_id":"fph_origins_2015","quote":"Alara has since been reunited, and Bant is now one region on a larger plane. But at the time of Gideon's arrival, Bant was entirely isolated","note":"The retrospective explicitly distinguishes Gideon's isolated-Bant visit from the later reunion."},
+        {"earlier":"G:conflux_reunion","later":"G:five_colors_return","source_id":"up_alara","quote":"they have converged into one, and the rejoined plane flows with all five colors of mana once more","note":"Five-color mana describes Alara after the shards have rejoined, without any AR calendar conversion."},
+        {"earlier":"G:conflux_reunion","later":"G:borders_dissolve","relation":"DURING_OR_AFTER_START","source_id":"up_alara","quote":"As the boundaries between the shards dissolve, cultures clash and wars ensue.","note":"The plane overview describes reunification and dissolving former borders as the same transition, not strictly ordered completed events."},
+        {"earlier":"G:borders_dissolve","later":"G:shard_wars","relation":"DURING_OR_AFTER_START","source_id":"up_alara","quote":"As the boundaries between the shards dissolve, cultures clash and wars ensue.","note":"The wars begin AS borders dissolve, not after every border has finished dissolving; deliberately not a BEFORE edge."}
       ]
     },
     {

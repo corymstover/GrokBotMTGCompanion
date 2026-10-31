@@ -188,6 +188,7 @@ def build() -> dict:
             'The Weatherlight leaves Mercadia to defend Dominaria after its strike, but the 2008 account does not strictly date that departure against the later Rath overlay.',
             'Original Mirrodin history in the 2008 account is an independent H strand: its mysterious contagion is not automatically identified with later oil accounts or assigned a relative order against the New Phyrexia P strand.',
             'The official Dominaria synopsis and 2008 Kamigawa explanation establish a Dominarian-rift effect on Kamigawa, but not the strict order of the Kami War, the Mending and the Phyrexian invasion.',
+            'Alara: the cause of the original Sundering remains unknown; Gideon arrived during Bant\'s isolation before the Conflux, but the border collapse and inter-shard wars are overlapping, not independently ordered events. No cross-plane synchrony with the Mending or an invented Sundering/Bolas identity is supplied.',
             'Karn\'s creation is independently source-bridged to the legacy ledger; his later profile-era motives and world corruption do not automatically establish a SAME_EVENT link to the separate 2008 Mirrodin contagion account.',
             'Serra\'s Realm: the retrospective does not order the end of Radiant\'s administration relative to Urza\'s final powerstone extraction, even though both follow Serra\'s departure.',
             'A DURING_OR_AFTER_START relation is not a strict BEFORE edge and never participates in transitive ordering.',
