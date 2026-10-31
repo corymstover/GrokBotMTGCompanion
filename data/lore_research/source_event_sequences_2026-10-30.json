@@ -2400,10 +2400,12 @@
     "Muraganda: the ancient collapse versus moon-shattering sequence, the exact overlap of moon-strikes and survivor cultures, and the origin of the modern Autocracy remain unbridged.",
     "Meditation Realm: Ugin's remembered early conflict does not date or establish the Realm's condition after Tarkir: Dragonstorm; the fall of Ugin is not a claim of permanent death.",
     "Thran to first invasion: the 2008 historical retrospective does not establish a strict order between the soul-bomb decimation of Old Phyrexia and the Weatherlight Legacy destroying Yawgmoth.",
+    "The Weatherlight leaves Mercadia to defend Dominaria after its strike, but the 2008 account does not strictly date that departure against the later Rath overlay.",
+    "Original Mirrodin history in the 2008 account is an independent H strand: its mysterious contagion is not automatically identified with later oil accounts or assigned a relative order against the New Phyrexia P strand.",
     "Serra's Realm: the retrospective does not order the end of Radiant's administration relative to Urza's final powerstone extraction, even though both follow Serra's departure.",
     "A DURING_OR_AFTER_START relation is not a strict BEFORE edge and never participates in transitive ordering.",
     "Unknown original plane names, absolute AR years and missing historical events are not supplied.",
     "This source-local supplement does not replace the original Packs A–C chronology or certify L244."
   ],
-  "content_sha256": "49e9ac8182d2821e0ec9691d0123c767867fc84a52a110d3b7beb7c075e4dee1"
+  "content_sha256": "d71fbffbf5faa02dd694d981e09768ed0f81ab9fa52a5bd63bcb177e55a22cc6"
 }

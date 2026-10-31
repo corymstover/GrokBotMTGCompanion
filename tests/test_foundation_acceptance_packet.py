@@ -69,6 +69,14 @@ class FoundationPacketTests(unittest.TestCase):
                           'plane_thunder_junction', 'plane_bablovia_unset',
                           'plane_meditation_realm', 'plane_muraganda', 'plane_skalla'})
         self.assertIn('ALTERNATE_CONTINUITY_PRESENT', cases['plane_bablovia_unset']['flags'])
+        for key in ('mercadia_weatherlight_source_order', 'original_mirrodin_source_order'):
+            self.assertEqual(cases[key]['chronology_relation'], 'BEFORE')
+            self.assertIn('https://magic.wizards.com/en/news/feature/known-mutliverse-2008-03-19',
+                          cases[key]['sources'])
+        for key in ('mercadia_overlay_order_unknown', 'mirrodin_cross_account_unknown'):
+            self.assertEqual(cases[key]['chronology_relation'], 'UNKNOWN')
+            self.assertEqual(cases[key]['sources'], [])
+            self.assertIn('NO_CITED_CHRONOLOGY_PATH', cases[key]['flags'])
         self.assertTrue(any('media.wizards.com' in url for url in cases['commander_identity']['sources']))
         for r in cases.values():
             self.assertEqual(len(r['response_sha256']), 64)

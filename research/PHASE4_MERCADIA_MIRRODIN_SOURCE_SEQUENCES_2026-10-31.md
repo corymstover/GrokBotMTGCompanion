@@ -62,3 +62,8 @@ the new test suite asserts direct and transitive proofs, citations, normal
 Companion Q&A behavior, and negative UNKNOWN controls. No approval file,
 decklist, snapshot lock, protected Grixis path or previously graded claim
 was changed. Checklist stays **89/137 checked, 48 open**.
+
+The deterministic Phase 8 knowledge-only acceptance packet was also regenerated
+with **53 representative Q&A cases**, including four new positive/negative
+Mercadia and historical-Mirrodin questions. The packet remains explicitly
+**NOT CERTIFIED** and owner acceptance remains conditional and inoperative.

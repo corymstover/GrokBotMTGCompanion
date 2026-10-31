@@ -62,6 +62,18 @@ QA_CASES = [
     ('new_phyrexia_order_unknown',
      'Did P:mirrans_overwhelmed happen before P:venser_restores_karn?',
      'ask->chronology', 'QUALIFIED'),
+    ('mercadia_weatherlight_source_order',
+     'Did T:weatherlight_seized happen before T:mercadia_strike?',
+     'ask->chronology', 'QUALIFIED'),
+    ('original_mirrodin_source_order',
+     'Did H:karn_creates_argentum happen before H:karn_restores_order?',
+     'ask->chronology', 'QUALIFIED'),
+    ('mercadia_overlay_order_unknown',
+     'Did T:weatherlight_leaves_mercadia happen before T:rath_overlay?',
+     'ask->chronology', 'QUALIFIED'),
+    ('mirrodin_cross_account_unknown',
+     'Did H:karn_restores_order happen before P:mirrans_overwhelmed?',
+     'ask->chronology', 'QUALIFIED'),
     ('history_eric', 'What is the history of Eric Kenrith?', 'ask->entity_history', 'QUALIFIED'),
     ('history_hazel', 'What is the history of Hazel Kenrith?', 'ask->entity_history', 'QUALIFIED'),
     ('history_lyra', 'What is the history of Lyra Dawnbringer?', 'ask->entity_history', 'QUALIFIED'),
@@ -145,6 +157,14 @@ def qa_cases() -> list[dict]:
         if key == 'new_phyrexia_order_unknown' and (
                 r['result']['relation'] != 'UNKNOWN' or r['sources']):
             raise ValueError('New Phyrexia unordered events falsely linked')
+        if key in {'mercadia_weatherlight_source_order','original_mirrodin_source_order'} and (
+                r['result']['relation'] != 'BEFORE' or not r['result']['proof'] or
+                'https://magic.wizards.com/en/news/feature/known-mutliverse-2008-03-19' not in r['sources']):
+            raise ValueError(f'Mercadia/Mirrodin chronology lost cited source path for {key}')
+        if key in {'mercadia_overlay_order_unknown','mirrodin_cross_account_unknown'} and (
+                r['result']['relation'] != 'UNKNOWN' or r['sources'] or
+                'NO_CITED_CHRONOLOGY_PATH' not in r['flags']):
+            raise ValueError(f'Unproven historic sequence falsely answered for {key}')
         if key in {'muraganda_magic_before_collapse','meditation_early_conflict_order'} and (
                 r['result']['relation'] != 'BEFORE' or not r['result']['proof'] or not r['sources']):
             raise ValueError(f'New source-local order lacks cited path for {key}')
