@@ -51,6 +51,11 @@ QA_CASES = [
      'ask->chronology', 'QUALIFIED'),
     ('commander_identity', 'Can Sol Ring go in a Urza, Lord High Artificer deck?',
      'ask->rules:include', 'VERIFIED'),
+    ('set_alpha', 'How many cards are in Alpha?', 'ask->set_atlas:set', 'QUALIFIED'),
+    ('card_lotus_printings', 'Which sets was Black Lotus printed in?',
+     'ask->set_atlas:card_printings', 'QUALIFIED'),
+    ('rules_published_interaction', "How does Urza's Saga interact with Urza's Tower?",
+     'ask->rules_evidence:interaction', 'QUALIFIED'),
 ]
 
 
@@ -76,6 +81,16 @@ def qa_cases() -> list[dict]:
             raise ValueError('Present-day leadership is overstated')
         if key == 'commander_identity' and not r['result']['allowed']:
             raise ValueError('Known Commander identity regression')
+        if key == 'set_alpha' and (r['result']['distinct_identities_or_unresolved'] != 290 or
+                                   r['result']['printing_records'] != 295):
+            raise ValueError('Set Atlas identity/printing distinction drift')
+        if key == 'card_lotus_printings' and (
+                r['result']['cards'][0]['first_recorded_printing_date'] != '1993-08-05' or
+                r['result']['cards'][0]['printing_record_count'] != 13):
+            raise ValueError('Historical card-printing evidence drift')
+        if key == 'rules_published_interaction' and not any(
+                "doesn't interact" in x['text'] for x in r['result']['direct_rulings']):
+            raise ValueError('Published ruling interaction evidence drift')
         if route.endswith('history') and (r['result']['complete_history'] or
                                          r['result']['verified_total_chronology']):
             raise ValueError('History route claims unsupported completeness')

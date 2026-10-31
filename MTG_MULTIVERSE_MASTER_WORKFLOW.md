@@ -1,6 +1,6 @@
 # MTG Multiverse Companion — Master Workflow & Progress Checklist
 
-**Version:** 2.61
+**Version:** 2.62
 **Checkpoint date:** 2026-10-30
 **Repository:** [corymstover/GrokBotMTGCompanion](https://github.com/corymstover/GrokBotMTGCompanion)  
 **Purpose:** Durable project roadmap and handoff document. Update this file after verified milestone work; do not treat historical figures as live counters.
@@ -22,6 +22,26 @@ foundation release may document inherently unresolved canon and future
 maintenance; it must never claim exhaustive knowledge of all MTG history.
 The 62 approved Grixis decks, their hashes and all owner gates remain intact.
 Only a new explicit request from Cory can override the Phase 6 hold.
+
+**v2.62 Phase 7 published-rulings and keyword-rules Q&A (2026-10-30):**
+`scripts/ask_rules_evidence.py` connects the standard `mv_ask.py ask`
+interface to existing dated Scryfall-published card rulings and the
+source-hashed official **2026-09-25** Comprehensive Rules 701/702 keyword
+excerpt. It answers direct card rulings, card keyword mechanics, named
+keyword definitions, and **two-card published-ruling interactions**, with
+exact rule numbers and source URLs. For example, the committed **2021-06-18**
+Urza's Saga ruling explicitly says it does not interact with Urza's Tower;
+Serra Angel's Flying/Vigilance keywords cite **702.9/702.20**. All answers
+remain **QUALIFIED** because the card ruling shard dates to **2026-10-15**,
+not the current Oracle snapshot, and this is **not game simulation** or
+proof that uncited interactions do not exist. Seven focused regressions
+cover positive/negative routes and preserve lore, set and Commander routing.
+The reproducible knowledge-only foundation acceptance packet now exercises
+**15** cited Q&A cases, including Alpha counts, Black Lotus printing history
+and Urza's Saga/Tower. The Phase 8 dry-run preserves its two engineering
+blockers (unmodelled interactions and qualified historical atlas provenance),
+so neither rules completeness nor foundation certification is asserted.
+**83/137** checklist items are now verified; deckbuilding stays parked.
 
 **v2.61 Phase 7 bounded set and printing questions (2026-10-30):**
 `scripts/mv_ask.py ask` now routes explicit natural-language set/printing
@@ -591,7 +611,7 @@ explicitly lifts the hold).
 ## Phase 7 — Ultimate MTG question-answering companion
 
 - [x] **Answer bounded two-event chronology questions through the main natural-language Q&A interface.** *(v2.57: `mv_ask.py ask` compares recognized event label fragments through v2.56's cited source-local and Packs A–C event orders, returns yes/no/first-event only when justified by strict BEFORE/AFTER evidence, and reports UNKNOWN or unresolved ambiguity without guessing. Explicit flags preserve narrated legends, overlapping war events, and unrelated/unaligned eras. Nine dedicated regressions; not a total chronology or comprehensive open-domain Q&A solution.)*
-- [ ] Support precise lookups for card names, Oracle text, types, identities, mechanics, printings and relevant rulings.
+- [x] **Support bounded, evidence-qualified lookups for card names, Oracle text, types, identities, keyword mechanics, printings and published rulings.** *(v2.62: `mv_ask.py` combines the existing card lookup with v2.61's complete historical printing route and the dated 2026-10-15 published-ruling/official 2026-09-25 keyword-rule excerpt. It answers card rulings, 701/702 keyword definitions, and evidence-backed two-card interaction questions with direct source URLs and negative-case qualifiers. It is **not** a comprehensive mechanics interpreter, current live ruling sync, or game simulator. The lookup capability is verified; more advanced interaction research remains open.)*
 - [x] **Answer bounded set and printing questions with category-qualified totals, full set card lists, printing/debut/reprint distinctions and cited snapshot dates from Phase 1B.** *(v2.61: the normal `mv_ask.py ask` entry point serves the frozen 2026-10-29 historical shard index with the exact 1,062-code category breakdown, full per-set English-paper card lists and debut/reprint classes, and printing-ID-level histories. It explicitly marks 136 regular/mainline codes as a scoped research classification, not an official all-time premier count; qualifying flags preserve source-bulk absence and release-date versus lore-date separation. Nine focused regressions. Broader questions and source-level replay remain open.)*
 - [ ] Answer obscure lore and chronology questions through cited evidence and dated canon status.
 - [x] Explain ambiguous/retconned narratives rather than inventing certainty. *(v2.37, Batch 9: leader answers order cited leaders by the citing page's publication date. Claims whose summary or limitation sets them in a past era or an original or rewritten timeline are now kept as era context and never reported as the most recent leader. The answer carries the flag `ERA_OR_TIMELINE_CONTEXT` and an `era_note` saying that publication order is not in-universe order and that the cited claims do not by themselves establish the present-day leader. For example, Yasova, Tasigur, Alesha and Daghatar are Fate Reforged past-era khans; they are era context behind Surrak, Sidisi, Zurgo and Anafenza. Covered by `tests/test_batch_recount_b9.py`. There is no general retcon explainer beyond leadership yet. **v2.38, Batch 10:** a general continuity explainer (`continuity()` in `mv_ask`, route `ask->continuity`, `tests/test_mv_ask_continuity.py`) returns the conflicting or alternate cited accounts with `QUALIFIED` confidence and a "not resolved" note, or `NO_CITED_CONTINUITY_CONFLICT`. Checked as a capability; its answers are only as complete as the cited packs.)*
@@ -616,10 +636,10 @@ explicitly lifts the hold).
   - v2.60: the current tracker adds a generated four-state **14-gate foundation-release** triage from the dry-run's typed blockers. This does not pretend to classify all 137 engineering tasks or accept continuing maintenance; the broader all-item dashboard remains an open improvement.
 - [ ] Define an MTG Multiverse Companion milestone release based on verified features, not an arbitrary percentage of all lore. *(v2.42, Batch 14, [#911](https://github.com/corymstover/GrokBotMTGCompanion/pull/911): certification-checklist dry run `scripts/certification_dry_run.py` → `data/release/certification_dry_run_2026-10-30.json` / `research/CERTIFICATION_DRY_RUN_2026-10-30.md` lists the typed blockers for each release criterion and Phase 8 item (OWNER_APPROVAL 3, OWNER_DECISION 5, EXTERNAL_CI 3, MISSING_SOURCE 2, ENGINEERING_OPEN 4, ONGOING 4). It certifies nothing; accepting the definition is the owner's call.)*
   - Partial (2026-10-30): `scripts/release_readiness.py` ([PR #830](https://github.com/corymstover/GrokBotMTGCompanion/pull/830)) scores each written criterion from committed evidence. Current verdict: NOT_RELEASE_READY.
-  - v2.60: a source-graded, 12-case knowledge-only review packet is now generated and CI-gated; the dry-run distinguishes this **completed engineering packet** from pending exact-head CI and Cory's foundation-scope decision. No release checklist acceptance is inferred.
+  - v2.60: a source-graded, 12-case knowledge-only review packet was generated and CI-gated; v2.62 extends it to **15 cases** with dated set/printing/ruling queries. The dry-run distinguishes this **completed engineering packet** from pending exact-head release CI and Cory's foundation-scope decision. No release checklist acceptance is inferred.
 - [ ] Treat continual future MTG releases as an ongoing maintenance track rather than a permanently finishable backlog.
 
-## Immediate execution queue — v2.61 FOUNDATION FIRST (2026-10-30)
+## Immediate execution queue — v2.62 FOUNDATION FIRST (2026-10-30)
 
 1. **Phase 4 — Verified in-universe chronology:** expand the source-quoted BEFORE/AFTER/UNKNOWN event order, resolve high-value L244 gaps where primary evidence exists, and retain unknown/disputed ordering instead of inventing total dates. Keep release chronology separate.
 2. **Phases 2/5 — Comprehensive history:** systematically deepen thin plane dossiers, major factions, characters, wars, artifacts and cross-plane consequences; record both coverage and missing primary sources. Currently thin registered planes remain a priority, not a census of all planes; regenerate the exact count from the dossier rather than treating this prose as a live counter.

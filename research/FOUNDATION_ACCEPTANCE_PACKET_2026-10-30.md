@@ -33,6 +33,9 @@ This source-graded packet is reproducible from the repository, with exact input 
 | Did Konda imprisons a part happen before Kyodai and Michiko defeat Konda? | `ask->chronology` | `QUALIFIED` | 1 |
 | Did Konda imprisons a part happen before Marina lures her bullies? | `ask->chronology` | `QUALIFIED` | 0 |
 | Can Sol Ring go in a Urza, Lord High Artificer deck? | `ask->rules:include` | `VERIFIED` | 1 |
+| How many cards are in Alpha? | `ask->set_atlas:set` | `QUALIFIED` | 3 |
+| Which sets was Black Lotus printed in? | `ask->set_atlas:card_printings` | `QUALIFIED` | 1 |
+| How does Urza's Saga interact with Urza's Tower? | `ask->rules_evidence:interaction` | `QUALIFIED` | 3 |
 
 The underlying JSON retains response digests, exact source URLs and caveat flags. The two graph-navigation examples are **not** evidence of chronological or causal paths.
 
@@ -55,6 +58,6 @@ python3 scripts/certification_dry_run.py --check
 python3 scripts/update_multiverse_progress_tracker.py --check
 ```
 
-Packet SHA-256 (canonical JSON): `4469d0d55799da5b5f06654ba28a0ac18b0704563a6535f20a0cbde7104cc821`
+Packet SHA-256 (canonical JSON): `67f883e18b5f98e8b93021d17eefe9aa08fee999fffee010d3a3acc25823b618`
 
 **No decks were built, modified, reviewed or approved.**
