@@ -2,8 +2,13 @@
   "schema": "source-event-sequences/v1",
   "status": "PRELIMINARY_RESEARCH_NOT_OWNER_APPROVED",
   "date": "2026-10-30",
-  "scope": "Thirteen bounded, individually sourced chronology strands. No automatic cross-strand alignment, no absolute AR date conversion and no assertions that a narrated legend is historical fact. The Thran-to-invasion strand uses the 2008 Wizards historical retrospective and does not decide the order between Old Phyrexia's decimation and Yawgmoth's destruction. The Dominaria-to-Kamigawa fracture sequence quotes explicit cross-plane cause, but does not globally align all plane eras. The Alara strand places Gideon's isolated-Bant arrival before the Conflux without assigning a cause to Alara's unknown original Sundering; wars concurrent with border dissolution are not forced into a BEFORE relation. The New Phyrexia strand describes early Mirrodin conquest, not post-March of the Machine politics. The early Meditation Realm strand is Ugin's remembered conflict; the distinct War of the Spark-to-Dragonstorm strand tracks later imprisonment and escape without claiming either dragon's death, present location or current spark state.",
+  "scope": "Fourteen bounded, individually sourced chronology strands. No automatic cross-strand alignment, no absolute AR date conversion and no assertions that a narrated legend is historical fact. The Gatewatch founding strand uses the official Battle for Zendikar retrospective and contemporaneous Oath/Last Stand episodes, not real-world set release order; it establishes only the founding episode on Zendikar, not the complete Gatewatch biography. The Thran-to-invasion strand uses the 2008 Wizards historical retrospective and does not decide the order between Old Phyrexia's decimation and Yawgmoth's destruction. The Dominaria-to-Kamigawa fracture sequence quotes explicit cross-plane cause, but does not globally align all plane eras. The Alara strand places Gideon's isolated-Bant arrival before the Conflux without assigning a cause to Alara's unknown original Sundering; wars concurrent with border dissolution are not forced into a BEFORE relation. The New Phyrexia strand describes early Mirrodin conquest, not post-March of the Machine politics. The early Meditation Realm strand is Ugin's remembered conflict; the distinct War of the Spark-to-Dragonstorm strand tracks later imprisonment and escape without claiming either dragon's death, present location or current spark state.",
   "sources": {
+    "bfz_summary": {
+      "url": "https://magic.wizards.com/en/news/magic-story/battle-zendikar-story-summary-2015-12-23",
+      "title": "Battle for Zendikar Story Summary",
+      "published": "2015-12-24"
+    },
     "blb_guide1": {
       "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-bloomburrow-part-1",
       "title": "Planeswalker's Guide to Bloomburrow, Part 1",
@@ -54,6 +59,21 @@
       "title": "Planeswalker's Guide to Kamigawa: Neon Dynasty",
       "published": "2022-02-03"
     },
+    "ogw_last_stand": {
+      "url": "https://magic.wizards.com/en/news/magic-story/zendikars-last-stand-2016-02-17",
+      "title": "Zendikar's Last Stand",
+      "published": "2024-05-17"
+    },
+    "ogw_oath": {
+      "url": "https://magic.wizards.com/en/news/magic-story/oath-gatewatch-2016-02-03",
+      "title": "Oath of the Gatewatch",
+      "published": "2024-05-17"
+    },
+    "ogw_resurgent": {
+      "url": "https://magic.wizards.com/en/news/magic-story/zendikar-resurgent-2016-02-24",
+      "title": "Zendikar Resurgent",
+      "published": "2016-02-25"
+    },
     "tdm7": {
       "url": "https://magic.wizards.com/en/news/magic-story/tarkir-dragonstorm-episode-7-return",
       "title": "Tarkir: Dragonstorm | Episode 7: Return",
@@ -71,12 +91,12 @@
     }
   },
   "counts": {
-    "strands": 13,
-    "events": 121,
-    "strict_edges": 97,
+    "strands": 14,
+    "events": 134,
+    "strict_edges": 109,
     "non_ordering_relations": 5,
-    "ordered_pairs": 381,
-    "total_pairs": 7260,
+    "ordered_pairs": 459,
+    "total_pairs": 8911,
     "verified_legacy_bridges": 8
   },
   "strands": [
@@ -187,6 +207,15 @@
       "events": 7,
       "strict_edges": 4,
       "non_ordering_relations": 2
+    },
+    {
+      "id": "Z",
+      "title": "Zendikar — Eldrazi prison, Gideon's return, Sea Gate, Gatewatch oaths and the titans' defeat",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "limitation": "This is the bounded Battle for Zendikar / Oath of the Gatewatch founding story, not the complete Gatewatch history. The initial Eye activation releases broods while the titans remain confined; Nissa breaks their remaining bonds later. The later temporary Ulamog-only hedron trap is a distinct event, then Ob Nixilis disrupts it. The founding four are Gideon, Jace, Nissa and Chandra, not the membership of the Gatewatch in any later era. The apparent deaths of Ulamog and Kozilek are explicitly attested in the next official story; Ugin raises the uncertainty of the Multiverse-wide consequences, not a claim that the titans survived. None of these events is dated to an absolute AR year or merged with another strand.",
+      "events": 13,
+      "strict_edges": 12,
+      "non_ordering_relations": 0
     },
     {
       "id": "S",
@@ -1313,6 +1342,174 @@
       "claims": [
         {
           "id": "A010",
+          "grade": "CANON_CONFIRMED"
+        }
+      ]
+    },
+    {
+      "id": "Z:ancient_prison",
+      "strand": "Z",
+      "label": "Ugin, Nahiri and Sorin imprison the three Eldrazi titans",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": [
+        {
+          "id": "BZ001",
+          "grade": "CANON_CONFIRMED"
+        },
+        {
+          "id": "BZ002",
+          "grade": "CANON_CONFIRMED"
+        }
+      ]
+    },
+    {
+      "id": "Z:bolas_eye_activation",
+      "strand": "Z",
+      "label": "Bolas arranges Jace, Chandra and Sarkhan's reactivation of the Eye",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": [
+        {
+          "id": "BZ005",
+          "grade": "CANON_CONFIRMED"
+        }
+      ]
+    },
+    {
+      "id": "Z:gatewatch_oath",
+      "strand": "Z",
+      "label": "Gideon, Jace, Nissa and Chandra form the Gatewatch by oath",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": [
+        {
+          "id": "BZ022",
+          "grade": "CANON_CONFIRMED"
+        }
+      ]
+    },
+    {
+      "id": "Z:gideon_arrives",
+      "strand": "Z",
+      "label": "Gideon arrives on Zendikar while searching for Chandra",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": [
+        {
+          "id": "BZ007",
+          "grade": "CANON_CONFIRMED"
+        }
+      ]
+    },
+    {
+      "id": "Z:gideon_recruits_jace",
+      "strand": "Z",
+      "label": "Gideon recruits Jace on Ravnica and returns to Zendikar",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": [
+        {
+          "id": "BZ008",
+          "grade": "CANON_CONFIRMED"
+        }
+      ]
+    },
+    {
+      "id": "Z:kozilek_emerges",
+      "strand": "Z",
+      "label": "Kozilek emerges as the defenders face two titans",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": [
+        {
+          "id": "BZ018",
+          "grade": "CANON_CONFIRMED"
+        },
+        {
+          "id": "BZ020",
+          "grade": "CANON_CONFIRMED"
+        }
+      ]
+    },
+    {
+      "id": "Z:nahiri_repairs",
+      "strand": "Z",
+      "label": "Nahiri repairs the ancient Eldrazi prison after a near escape",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": [
+        {
+          "id": "BZ003",
+          "grade": "CANON_CONFIRMED"
+        }
+      ]
+    },
+    {
+      "id": "Z:nissa_breaks_bonds",
+      "strand": "Z",
+      "label": "Nissa releases the remaining bonds and the titans emerge",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": [
+        {
+          "id": "BZ006",
+          "grade": "CANON_CONFIRMED"
+        }
+      ]
+    },
+    {
+      "id": "Z:ob_nixilis_breaks_trap",
+      "strand": "Z",
+      "label": "Ob Nixilis disrupts the hedrons and regains his spark",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": [
+        {
+          "id": "BZ017",
+          "grade": "CANON_CONFIRMED"
+        },
+        {
+          "id": "BZ018",
+          "grade": "CANON_CONFIRMED"
+        }
+      ]
+    },
+    {
+      "id": "Z:sea_gate_liberated",
+      "strand": "Z",
+      "label": "Gideon's allied Zendikari retake Sea Gate",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": [
+        {
+          "id": "BZ014",
+          "grade": "CANON_IMPLIED"
+        }
+      ]
+    },
+    {
+      "id": "Z:two_titans_destroyed",
+      "strand": "Z",
+      "label": "The founding Gatewatch destroys Ulamog and Kozilek",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": [
+        {
+          "id": "BZ025",
+          "grade": "CANON_CONFIRMED"
+        }
+      ]
+    },
+    {
+      "id": "Z:ulamog_hedron_trap",
+      "strand": "Z",
+      "label": "Gideon, Jace and Nissa briefly entrap Ulamog with hedrons",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": [
+        {
+          "id": "BZ016",
+          "grade": "CANON_CONFIRMED"
+        }
+      ]
+    },
+    {
+      "id": "Z:zendikar_aftermath",
+      "strand": "Z",
+      "label": "The surviving Zendikari begin the post-titan recovery",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": [
+        {
+          "id": "BZ026",
           "grade": "CANON_CONFIRMED"
         }
       ]
@@ -2460,6 +2657,150 @@
       "note": "The wars begin AS borders dissolve, not after every border has finished dissolving; deliberately not a BEFORE edge."
     },
     {
+      "earlier": "Z:ancient_prison",
+      "later": "Z:nahiri_repairs",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "bfz_summary",
+      "source_url": "https://magic.wizards.com/en/news/magic-story/battle-zendikar-story-summary-2015-12-23",
+      "source_title": "Battle for Zendikar Story Summary",
+      "quote": "A little more than a thousand years ago, the Eldrazi nearly escaped—and neither Sorin nor Ugin returned to help.",
+      "quote_sha256": "97177cc14e6ece46ddc902efc7c4b329f42c5f1dbf794bb1e0e350de1633c5fc",
+      "note": "The ancient imprisonment predated the near escape and Nahiri's independent repair; the time phrase is relative, not an AR date."
+    },
+    {
+      "earlier": "Z:nahiri_repairs",
+      "later": "Z:bolas_eye_activation",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "bfz_summary",
+      "source_url": "https://magic.wizards.com/en/news/magic-story/battle-zendikar-story-summary-2015-12-23",
+      "source_title": "Battle for Zendikar Story Summary",
+      "quote": "Then, for reasons of his own, the elder dragon Planeswalker Nicol Bolas arranged for three Planeswalkers to converge on the Eye and unknowingly reactivate it.",
+      "quote_sha256": "3f7b308a622f99ca2c71e93339d22a10b0d42e6f1e2416338ca83be93547e4eb",
+      "note": "The retrospective introduces this later Bolas arrangement after Nahiri's repair and departure; it does not identify Bolas as the original prison's creator or destroyer."
+    },
+    {
+      "earlier": "Z:bolas_eye_activation",
+      "later": "Z:nissa_breaks_bonds",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "bfz_summary",
+      "source_url": "https://magic.wizards.com/en/news/magic-story/battle-zendikar-story-summary-2015-12-23",
+      "source_title": "Battle for Zendikar Story Summary",
+      "quote": "The activation of the Eye loosed teeming broods of Eldrazi upon the plane, but the titans themselves were not yet free.",
+      "quote_sha256": "4929abbd5e6db54e484d3aa6ebc61c7f3d63be9162b0c58aed7096b22b1e8f18",
+      "note": "The Eye activation does NOT release the titans: that happens when Nissa breaks the remaining bonds in the next passage."
+    },
+    {
+      "earlier": "Z:nissa_breaks_bonds",
+      "later": "Z:gideon_arrives",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "bfz_summary",
+      "source_url": "https://magic.wizards.com/en/news/magic-story/battle-zendikar-story-summary-2015-12-23",
+      "source_title": "Battle for Zendikar Story Summary",
+      "quote": "It was then that Gideon Jura first arrived on Zendikar, after following Chandra's trail to the plane",
+      "quote_sha256": "1e118605bebaf57be12b6d6a4f8504f99d8f16a95fce2b874b3728309b051c3f",
+      "note": "The narrated arrival follows Nissa's liberation of the titans and their initial feeding; it is not dated by set release order."
+    },
+    {
+      "earlier": "Z:gideon_arrives",
+      "later": "Z:gideon_recruits_jace",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "bfz_summary",
+      "source_url": "https://magic.wizards.com/en/news/magic-story/battle-zendikar-story-summary-2015-12-23",
+      "source_title": "Battle for Zendikar Story Summary",
+      "quote": "Vowing to return, he left in search of aid at the center of Planeswalker activity: the city-world of Ravnica.",
+      "quote_sha256": "701e4e595a62fc035c5434075dc375439bbd295e778c1b9f5feea66af958893b",
+      "note": "Gideon's decision to seek Ravnica allies follows his arrival and initial failed resistance on Zendikar."
+    },
+    {
+      "earlier": "Z:gideon_recruits_jace",
+      "later": "Z:sea_gate_liberated",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "bfz_summary",
+      "source_url": "https://magic.wizards.com/en/news/magic-story/battle-zendikar-story-summary-2015-12-23",
+      "source_title": "Battle for Zendikar Story Summary",
+      "quote": "Together, Gideon and Jace returned to Zendikar to face the threat of the Eldrazi.",
+      "quote_sha256": "cda9d907f749992f842c72330cd76f400780e711f87ce25488bb1790c81fb137",
+      "note": "The subsequent Sea Gate campaign follows Gideon returning with the recruited Jace; recruitment is not the same as the founding oath."
+    },
+    {
+      "earlier": "Z:sea_gate_liberated",
+      "later": "Z:ulamog_hedron_trap",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "bfz_summary",
+      "source_url": "https://magic.wizards.com/en/news/magic-story/battle-zendikar-story-summary-2015-12-23",
+      "source_title": "Battle for Zendikar Story Summary",
+      "quote": "As they savored their first moments of victory, the merfolk Jori En returned with dire news—the Eldrazi titan Ulamog himself was headed towards Sea Gate.",
+      "quote_sha256": "2102667a5aeb6f906d021124a2536fd01661a588cb102d94e75a8c3507679ba6",
+      "note": "The defenders first retake Sea Gate, then face and temporarily trap Ulamog; the later destruction of Sea Gate is distinct."
+    },
+    {
+      "earlier": "Z:ulamog_hedron_trap",
+      "later": "Z:ob_nixilis_breaks_trap",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "bfz_summary",
+      "source_url": "https://magic.wizards.com/en/news/magic-story/battle-zendikar-story-summary-2015-12-23",
+      "source_title": "Battle for Zendikar Story Summary",
+      "quote": "knocked the hedrons out of alignment to siphon their energy and reignite his Planeswalker spark.",
+      "quote_sha256": "c24b60fd008a9216bdee6119de8ddf3275a67c2c3666c0b72fe9b6abffa3d76a",
+      "note": "Ob Nixilis sabotages an already aligned prison, releasing its captive titan."
+    },
+    {
+      "earlier": "Z:ob_nixilis_breaks_trap",
+      "later": "Z:kozilek_emerges",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "bfz_summary",
+      "source_url": "https://magic.wizards.com/en/news/magic-story/battle-zendikar-story-summary-2015-12-23",
+      "source_title": "Battle for Zendikar Story Summary",
+      "quote": "but Ob Nixilis had called Kozilek, one of the other Eldrazi titans, from beneath Zendikar's surface.",
+      "quote_sha256": "4ac63be8e16902867ea79b3229ee1d28aeea84461036ea9fc8b889d22a04ad8c",
+      "note": "The account associates Kozilek's renewed appearance with Ob Nixilis's intervention; no absolute elapsed time is inferred."
+    },
+    {
+      "earlier": "Z:kozilek_emerges",
+      "later": "Z:gatewatch_oath",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "ogw_oath",
+      "source_url": "https://magic.wizards.com/en/news/magic-story/oath-gatewatch-2016-02-03",
+      "source_title": "Oath of the Gatewatch",
+      "quote": "When the Eldrazi destroyed Sea Gate, they threatened all I believe.",
+      "quote_sha256": "0e39d23fb84e2cf9b49c522f7dfd87073cc43ee84bcb14040eb5a841a6b5a4ca",
+      "note": "Gideon's oath explicitly refers back to the destructive two-titan crisis; the sworn team is the original four only."
+    },
+    {
+      "earlier": "Z:gatewatch_oath",
+      "later": "Z:two_titans_destroyed",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "ogw_last_stand",
+      "source_url": "https://magic.wizards.com/en/news/magic-story/zendikars-last-stand-2016-02-17",
+      "source_title": "Zendikar's Last Stand",
+      "quote": "Chandra knew this was what she and her friends had come to put to an end. This was their mission. It was their oath.",
+      "quote_sha256": "db2ce694ec54607408ae8722ea67e00d9ab4f4bb5bc59552eee7c8943b1f0137",
+      "note": "Chandra recalls their oath during the subsequent climactic spell. The official aftermath independently confirms both titans died; it does not settle Ugin's longer-range cautions."
+    },
+    {
+      "earlier": "Z:two_titans_destroyed",
+      "later": "Z:zendikar_aftermath",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "ogw_resurgent",
+      "source_url": "https://magic.wizards.com/en/news/magic-story/zendikar-resurgent-2016-02-24",
+      "source_title": "Zendikar Resurgent",
+      "quote": "The Eldrazi titans have been destroyed. The world of Zendikar has been saved. Now the four Planeswalkers who acted to make this so must decide what is to come next.",
+      "quote_sha256": "e0cad87e362eccc291e6fdf2bbb34454423e677ca4ee83ad0087d34643539305",
+      "note": "The subsequent official account explicitly identifies the titans' destruction as past and the surviving team's next plans as present."
+    },
+    {
       "earlier": "S:serra_creates_realm",
       "later": "S:urza_flees",
       "relation": "BEFORE",
@@ -3223,7 +3564,110 @@
       "W:ajani_reports",
       "W:brothers_vanish",
       "W:narset_escapes"
-    ]
+    ],
+    "Z:ancient_prison": [
+      "Z:bolas_eye_activation",
+      "Z:gatewatch_oath",
+      "Z:gideon_arrives",
+      "Z:gideon_recruits_jace",
+      "Z:kozilek_emerges",
+      "Z:nahiri_repairs",
+      "Z:nissa_breaks_bonds",
+      "Z:ob_nixilis_breaks_trap",
+      "Z:sea_gate_liberated",
+      "Z:two_titans_destroyed",
+      "Z:ulamog_hedron_trap",
+      "Z:zendikar_aftermath"
+    ],
+    "Z:bolas_eye_activation": [
+      "Z:gatewatch_oath",
+      "Z:gideon_arrives",
+      "Z:gideon_recruits_jace",
+      "Z:kozilek_emerges",
+      "Z:nissa_breaks_bonds",
+      "Z:ob_nixilis_breaks_trap",
+      "Z:sea_gate_liberated",
+      "Z:two_titans_destroyed",
+      "Z:ulamog_hedron_trap",
+      "Z:zendikar_aftermath"
+    ],
+    "Z:gatewatch_oath": [
+      "Z:two_titans_destroyed",
+      "Z:zendikar_aftermath"
+    ],
+    "Z:gideon_arrives": [
+      "Z:gatewatch_oath",
+      "Z:gideon_recruits_jace",
+      "Z:kozilek_emerges",
+      "Z:ob_nixilis_breaks_trap",
+      "Z:sea_gate_liberated",
+      "Z:two_titans_destroyed",
+      "Z:ulamog_hedron_trap",
+      "Z:zendikar_aftermath"
+    ],
+    "Z:gideon_recruits_jace": [
+      "Z:gatewatch_oath",
+      "Z:kozilek_emerges",
+      "Z:ob_nixilis_breaks_trap",
+      "Z:sea_gate_liberated",
+      "Z:two_titans_destroyed",
+      "Z:ulamog_hedron_trap",
+      "Z:zendikar_aftermath"
+    ],
+    "Z:kozilek_emerges": [
+      "Z:gatewatch_oath",
+      "Z:two_titans_destroyed",
+      "Z:zendikar_aftermath"
+    ],
+    "Z:nahiri_repairs": [
+      "Z:bolas_eye_activation",
+      "Z:gatewatch_oath",
+      "Z:gideon_arrives",
+      "Z:gideon_recruits_jace",
+      "Z:kozilek_emerges",
+      "Z:nissa_breaks_bonds",
+      "Z:ob_nixilis_breaks_trap",
+      "Z:sea_gate_liberated",
+      "Z:two_titans_destroyed",
+      "Z:ulamog_hedron_trap",
+      "Z:zendikar_aftermath"
+    ],
+    "Z:nissa_breaks_bonds": [
+      "Z:gatewatch_oath",
+      "Z:gideon_arrives",
+      "Z:gideon_recruits_jace",
+      "Z:kozilek_emerges",
+      "Z:ob_nixilis_breaks_trap",
+      "Z:sea_gate_liberated",
+      "Z:two_titans_destroyed",
+      "Z:ulamog_hedron_trap",
+      "Z:zendikar_aftermath"
+    ],
+    "Z:ob_nixilis_breaks_trap": [
+      "Z:gatewatch_oath",
+      "Z:kozilek_emerges",
+      "Z:two_titans_destroyed",
+      "Z:zendikar_aftermath"
+    ],
+    "Z:sea_gate_liberated": [
+      "Z:gatewatch_oath",
+      "Z:kozilek_emerges",
+      "Z:ob_nixilis_breaks_trap",
+      "Z:two_titans_destroyed",
+      "Z:ulamog_hedron_trap",
+      "Z:zendikar_aftermath"
+    ],
+    "Z:two_titans_destroyed": [
+      "Z:zendikar_aftermath"
+    ],
+    "Z:ulamog_hedron_trap": [
+      "Z:gatewatch_oath",
+      "Z:kozilek_emerges",
+      "Z:ob_nixilis_breaks_trap",
+      "Z:two_titans_destroyed",
+      "Z:zendikar_aftermath"
+    ],
+    "Z:zendikar_aftermath": []
   },
   "known_gaps": [
     "No primary-source edge joins distinct source-local strand IDs. Only explicitly source-corroborated SAME_EVENT links join the legacy and source-local ledgers; all other cross-ledger comparisons remain UNKNOWN.",
@@ -3237,11 +3681,12 @@
     "Original Mirrodin history in the 2008 account is an independent H strand: its mysterious contagion is not automatically identified with later oil accounts or assigned a relative order against the New Phyrexia P strand.",
     "The official Dominaria synopsis and 2008 Kamigawa explanation establish a Dominarian-rift effect on Kamigawa, but not the strict order of the Kami War, the Mending and the Phyrexian invasion.",
     "Alara: the cause of the original Sundering remains unknown; Gideon arrived during Bant's isolation before the Conflux, but the border collapse and inter-shard wars are overlapping, not independently ordered events. No cross-plane synchrony with the Mending or an invented Sundering/Bolas identity is supplied.",
+    "Gatewatch: the founding-four oath on Zendikar and the subsequent destruction of Ulamog and Kozilek are proven within the official BFZ/OGW account. This does not establish later Gatewatch membership, the absolute date of any episode, a bridge to the Amonkhet/War of the Spark account, or the ultimate cosmic consequences of killing two titans.",
     "Karn's creation is independently source-bridged to the legacy ledger; his later profile-era motives and world corruption do not automatically establish a SAME_EVENT link to the separate 2008 Mirrodin contagion account.",
     "Serra's Realm: the retrospective does not order the end of Radiant's administration relative to Urza's final powerstone extraction, even though both follow Serra's departure.",
     "A DURING_OR_AFTER_START relation is not a strict BEFORE edge and never participates in transitive ordering.",
     "Unknown original plane names, absolute AR years and missing historical events are not supplied.",
     "This source-local supplement does not replace the original Packs A–C chronology or certify L244."
   ],
-  "content_sha256": "f5b3570159b0d54d9fb1678aa413a0fac010a2fc92b329d6bbdddfe7acbd160c"
+  "content_sha256": "460d6ca3c3fbbe96a7d171af42c924e3d12bbee04b141d5cfaf09856f89e4125"
 }

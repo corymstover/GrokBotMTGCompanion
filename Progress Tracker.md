@@ -14,7 +14,7 @@ schema: 2
 <!-- MULTIVERSE-CURRENT:START -->
 ## MTG Multiverse Companion — current engineering checkpoint (2026-10-31)
 
-**Live authority:** [Master Workflow v2.83](MTG_MULTIVERSE_MASTER_WORKFLOW.md), the current
+**Live authority:** [Master Workflow v2.84](MTG_MULTIVERSE_MASTER_WORKFLOW.md), the current
 graph and dated recount. The older cycle-36/October-15 metrics **below this section are historical**;
 they are not the active Phase 1–8 completion counters.
 
@@ -24,7 +24,7 @@ they are not the active Phase 1–8 completion counters.
 | Priority card enrichments | **5362/5,362** | Enrichment does not imply every card has a sourced story. |
 | Source-page inventory | **576 cited + 50 reviewed = 626 accounted for** | Current inventoried pages only, not all fiction ever published. |
 | Cited lore claims | **1259** | Live graph/inventory concordance; claim packs remain preliminary research. |
-| Cited graph | **5297 nodes / 8480 edges** | Unresolved orphan/variant and chronology work remains. |
+| Cited graph | **5306 nodes / 8489 edges** | All graph Cards now have verified Oracle IDs; 14 orphan nodes and unbridged histories remain. |
 | Registered people/factions with direct claims | **640/640** | At least one cited relation per registered node, **not** a complete biography or census of all canon. |
 | Exact printing-specific representations | **560** | Frozen snapshot + official art-file label evidence, **not** canon scene depiction. |
 | In-universe dated claim edges | **36** | Most graph edges lack a verified in-world date. |
@@ -72,6 +72,15 @@ history; harden rules and difficult Q&A; preserve the original hash-verified Oct
 historical Scryfall replay and its October 30 live-source freshness check (repeat on any later release bulk); pursue foundation-only certification. **Phase 6
 deckbuilding and its three unapproved pilots are deferred until the knowledge foundation
 is certified.** Do not modify any of the 62 finalized Grixis decks.
+
+**v2.84 evidence delta:** The 14th source-local history strand covers 13
+Gatewatch/Zendikar events and adds 12 official-source-quoted strict edges;
+**459/8,911** source-local pairs are now proven, and all **122 excerpts on
+17 official pages** passed live quote checks. Ten pack-declared full-name
+variants gained safe curated navigation links; the sole graph Card lacking an
+Oracle UUID was quarantined without deleting its art-caption provenance.
+Representative foundation Q&A: **76**, not a completeness certificate. See
+`research/PHASE4_GATEWATCH_AND_GRAPH_IDENTITY_2026-10-31.md`.
 <!-- MULTIVERSE-CURRENT:END -->
 
 > **Maintenance handoff (2026-10-29):** The Phase 8 numbers below are a recorded Grok Bot cycle-36 baseline, not freshly regenerated coverage. [PHASE8_RESTART.md](PHASE8_RESTART.md) explains the cache-recovery and owner-lock safeguards; [PR #779](https://github.com/corymstover/GrokBotMTGCompanion/pull/779) proposes the guarded rebuild entrypoint. Run `python3 scripts/phase8_status.py` against `data/card_enrichment.json` to obtain current stored-artifact counts.

@@ -9,11 +9,11 @@
   "input_sha256": {
     "graph": {
       "path": "data/multiverse_graph/multiverse_graph.json",
-      "sha256": "16018efb043d93e7781af42224edffe081744d0daa506c29ebc27715516c9c24"
+      "sha256": "f8e21887e911b07ddf4dd01161a73f470cde3d931d87d70dac1628964b6978c2"
     },
     "plane_histories": {
       "path": "data/lore_research/plane_history_dossiers_2026-10-30.json",
-      "sha256": "89c9aa829336385be0376b7477dc8a7c43cc59f00503450f2aeeb49f2c30e001"
+      "sha256": "1fceeba2a0263d1fd4318886948790b300259d004969033afce703cffb2a1b7a"
     },
     "chronology": {
       "path": "data/lore_research/relative_chronology_2026-10-30.json",
@@ -21,7 +21,7 @@
     },
     "source_local_chronology": {
       "path": "data/lore_research/source_event_sequences_2026-10-30.json",
-      "sha256": "dcfd981fd00fc23ef420e35fb40bb91ca7ca275bf92002a2c5708e6f52a4d491"
+      "sha256": "c3cb20601f87a31bb0ac7ce5c0fbfaa4ca6b36807b89bd4332377e49af10288f"
     },
     "story_coverage": {
       "path": "data/lore_research/story_coverage_inventory_2026-10-30.json",
@@ -36,8 +36,8 @@
     "source_pages_in_inventoried_scope": 626,
     "source_pages_cited": 576,
     "source_pages_reviewed_without_claim": 50,
-    "graph_nodes": 5297,
-    "graph_edges": 8480,
+    "graph_nodes": 5306,
+    "graph_edges": 8489,
     "graph_claims": 1259,
     "registered_plane_nodes": 33,
     "thin_plane_dossiers": 0,
@@ -56,9 +56,9 @@
     "legacy_unresolved_pairs": 2897,
     "legacy_disconnected_components": 13,
     "legacy_cycles": 0,
-    "source_local_events": 121,
-    "source_local_ordered_pairs": 381,
-    "source_local_total_pairs": 7260,
+    "source_local_events": 134,
+    "source_local_ordered_pairs": 459,
+    "source_local_total_pairs": 8911,
     "not_additive": "Legacy and source-local data are separately scoped; their pairs may not be summed as one chronology.",
     "l244_complete": false
   },
@@ -1560,6 +1560,69 @@
       "direct_claims": null,
       "chronology_relation": "UNKNOWN",
       "known_limitations": []
+    },
+    {
+      "id": "gatewatch_eye_activation_not_titan_freedom",
+      "question": "Did Z:bolas_eye_activation happen before Z:nissa_breaks_bonds?",
+      "route": "ask->chronology",
+      "confidence": "QUALIFIED",
+      "flags": [
+        "PARTIAL_IN_UNIVERSE_CHRONOLOGY"
+      ],
+      "sources": [
+        "https://magic.wizards.com/en/news/magic-story/battle-zendikar-story-summary-2015-12-23"
+      ],
+      "response_sha256": "6906587be25d0ee7ba93318093f6003f239dc546074eb4cc9a519caf9820eff4",
+      "direct_claims": null,
+      "chronology_relation": "BEFORE",
+      "known_limitations": []
+    },
+    {
+      "id": "gatewatch_oath_before_titans_defeated",
+      "question": "Did Z:gatewatch_oath happen before Z:two_titans_destroyed?",
+      "route": "ask->chronology",
+      "confidence": "QUALIFIED",
+      "flags": [
+        "PARTIAL_IN_UNIVERSE_CHRONOLOGY"
+      ],
+      "sources": [
+        "https://magic.wizards.com/en/news/magic-story/zendikars-last-stand-2016-02-17"
+      ],
+      "response_sha256": "7962b6735b30814fd9071760d2f6773cd65ad3b8d0eabc42959af90dd0ae017d",
+      "direct_claims": null,
+      "chronology_relation": "BEFORE",
+      "known_limitations": []
+    },
+    {
+      "id": "gatewatch_defeat_before_zendikar_aftermath",
+      "question": "Did Z:two_titans_destroyed happen before Z:zendikar_aftermath?",
+      "route": "ask->chronology",
+      "confidence": "QUALIFIED",
+      "flags": [
+        "PARTIAL_IN_UNIVERSE_CHRONOLOGY"
+      ],
+      "sources": [
+        "https://magic.wizards.com/en/news/magic-story/zendikar-resurgent-2016-02-24"
+      ],
+      "response_sha256": "5f0d998b21e1ebeb0395885335a89d4faf8573544f11996a76a5c49b5603fbf8",
+      "direct_claims": null,
+      "chronology_relation": "BEFORE",
+      "known_limitations": []
+    },
+    {
+      "id": "gatewatch_cross_arc_war_spark_unknown",
+      "question": "Did Z:gatewatch_oath happen before W:bolas_imprisoned?",
+      "route": "ask->chronology",
+      "confidence": "QUALIFIED",
+      "flags": [
+        "PARTIAL_IN_UNIVERSE_CHRONOLOGY",
+        "NO_CITED_CHRONOLOGY_PATH"
+      ],
+      "sources": [],
+      "response_sha256": "5860441ac4f4bb01877e6101c6e57ee43a0d265176395bb22061eed3e336c2e7",
+      "direct_claims": null,
+      "chronology_relation": "UNKNOWN",
+      "known_limitations": []
     }
   ],
   "cross_plane_graph_navigation": [
@@ -1649,5 +1712,5 @@
     "python3 scripts/update_multiverse_progress_tracker.py --check"
   ],
   "owner_review_status": "PENDING_NOT_REQUESTED_UNTIL_ENGINEERING_EVIDENCE_AND_CI_COMPLETE",
-  "content_sha256": "3bc25cc8a7ddc375e5be7c22312be8f774f27c6b5b063f654098db4c2aee9d51"
+  "content_sha256": "8c864bdea723a04857bfd751bb7d32c72a8b6ef3e0bba9419afbbe74a147ea6b"
 }

@@ -258,7 +258,9 @@ def build() -> dict:
                         + ", ".join(f"{r['claim']} {r['token']!r} ({r['kind']})" for r in comp))
     if pc["name_variants_same_id"]:
         findings.append(f"{len(pc['name_variants_same_id'])} pack-local IDs carry differing display names across packs; "
-                        "the graph keeps the first-ingested name, so exact-name bridges can miss the others.")
+                        "the graph keeps the first-ingested name, while a unique, type-compatible "
+                        "pack-declared variant may supply a navigation-only curated bridge. "
+                        "Ambiguous variants and first-word candidates are never inferred as identities.")
     return {
         "schema": "entity-structure-audit/v1",
         "status": "ENGINEERING_AUDIT (read-only; no merges or schema changes applied)",

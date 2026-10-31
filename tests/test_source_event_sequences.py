@@ -23,9 +23,32 @@ class SourceEventSequencesTests(unittest.TestCase):
         sig=d.pop('content_sha256')
         self.assertEqual(sig,S.digest(d))
         self.assertEqual(self.current['counts'],{
-            'strands':13,'events':121,'strict_edges':97,'non_ordering_relations':5,
-            'ordered_pairs':381,'total_pairs':7260,'verified_legacy_bridges':8,
+            'strands':14,'events':134,'strict_edges':109,'non_ordering_relations':5,
+            'ordered_pairs':459,'total_pairs':8911,'verified_legacy_bridges':8,
         })
+
+    def test_zendikar_gatewatch_oath_is_after_two_distinct_eldrazi_prisons(self):
+        source = self.current
+        origin = S.proof(source, 'Z:bolas_eye_activation', 'Z:nissa_breaks_bonds')
+        self.assertEqual(origin['result'], 'BEFORE')
+        self.assertEqual(origin['proof'][0]['source_id'], 'bfz_summary')
+        self.assertIn('titans themselves were not yet free', origin['proof'][0]['quote'])
+        self.assertEqual(S.proof(source, 'Z:sea_gate_liberated', 'Z:ulamog_hedron_trap')['result'], 'BEFORE')
+        self.assertEqual(S.proof(source, 'Z:ulamog_hedron_trap', 'Z:ob_nixilis_breaks_trap')['result'], 'BEFORE')
+        oath = S.proof(source, 'Z:gatewatch_oath', 'Z:zendikar_aftermath')
+        self.assertEqual(oath['result'], 'BEFORE')
+        self.assertEqual([e['source_id'] for e in oath['proof']], ['ogw_last_stand', 'ogw_resurgent'])
+        self.assertEqual(S.proof(source, 'Z:gatewatch_oath', 'W:bolas_imprisoned')['result'], 'UNKNOWN')
+        self.assertEqual(S.proof(source, 'G:conflux_reunion', 'Z:gideon_arrives')['result'], 'UNKNOWN')
+        self.assertEqual({n['certainty'] for n in source['nodes'] if n['strand'] == 'Z'},
+                         {'HISTORICAL_SOURCE_ACCOUNT'})
+        q = A.ask('Did Z:gatewatch_oath happen before Z:two_titans_destroyed?')
+        self.assertEqual((q['route'], q['result']['relation'], q['confidence']),
+                         ('ask->chronology', 'BEFORE', 'QUALIFIED'))
+        self.assertIn('https://magic.wizards.com/en/news/magic-story/zendikars-last-stand-2016-02-17', q['sources'])
+        gap = A.ask('Did Z:gatewatch_oath happen before W:bolas_imprisoned?')
+        self.assertEqual(gap['result']['relation'], 'UNKNOWN')
+        self.assertEqual(gap['sources'], [])
 
     def test_source_proofs_have_original_claim_ids_and_digest(self):
         for node in self.current['nodes']:

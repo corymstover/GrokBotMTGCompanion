@@ -1,6 +1,6 @@
 # MTG Multiverse Companion — Master Workflow & Progress Checklist
 
-**Version:** 2.83
+**Version:** 2.84
 **Checkpoint date:** 2026-10-31
 **Repository:** [corymstover/GrokBotMTGCompanion](https://github.com/corymstover/GrokBotMTGCompanion)  
 **Purpose:** Durable project roadmap and handoff document. Update this file after verified milestone work; do not treat historical figures as live counters.
@@ -22,6 +22,30 @@ foundation release may document inherently unresolved canon and future
 maintenance; it must never claim exhaustive knowledge of all MTG history.
 The 62 approved Grixis decks, their hashes and all owner gates remain intact.
 Only a new explicit request from Cory can override the Phase 6 hold.
+
+**v2.84 Gatewatch founding chronology and Phase 3 identity integrity
+(2026-10-31):** A new separately source-bounded Zendikar/Gatewatch strand
+orders **13 events and 12 strict edges** from the ancient Eldrazi prison to
+Nissa's later release of the titans, Gideon's return with Jace, Sea Gate,
+Ulamog's temporary hedron trap, Ob Nixilis's interference, the original four
+oaths and the destruction of Ulamog/Kozilek. The Gatewatch founding four are
+not treated as current membership. The source-local chronology now has
+**14 strands, 134 events, 109 strict edges, 5 non-ordering overlaps and
+459/8,911 supported pairs**, with **8 unchanged cross-ledger identity bridges**
+and the separate unchanged 56-event legacy ledger. All **122 source/bridge
+quotes across 17 live Wizards pages** passed verbatim verification; the
+independent pair oracle covers all **8,911** event pairs. The Phase 8 hard
+question packet reaches **76** cases, with explicit UNKNOWN across unbridged
+history strands. Separately, ten formerly missed legacy page IDs now join
+their type-compatible, unique **pack-declared** full-name variants as
+**navigation only**, and one unresolved official caption lacking a snapshot
+Oracle UUID no longer creates an unverified Card node. The graph has **5,306
+nodes, 8,489 edges, 1,259 unchanged cited claims, 0 card nodes missing an
+Oracle UUID, 0 broken endpoints and 0 duplicate IDs**; 14 orphan nodes,
+15 first-name-only candidate bridges and 34 legacy-only entries remain
+visible and unresolved. **No owner approvals, all-set/source certification or
+Phase 6 work is inferred. 89/137 checked, 48 open, NOT_RELEASE_READY.**
+See `research/PHASE4_GATEWATCH_AND_GRAPH_IDENTITY_2026-10-31.md`.
 
 **v2.83 Phase 4 Alara Sundering, Gideon's Bant visit and Conflux order
 (2026-10-31):** Added **seven bounded Alara history events, four strict BEFORE
@@ -996,10 +1020,12 @@ Infrastructure checkpoint: [PR #783](https://github.com/corymstover/GrokBotMTGCo
 - [x] Add duplicate, broken-link and unsupported-claim regression checks.
   - Evidence (2026-10-30): [PR #825](https://github.com/corymstover/GrokBotMTGCompanion/pull/825), [PR #826](https://github.com/corymstover/GrokBotMTGCompanion/pull/826), [PR #828](https://github.com/corymstover/GrokBotMTGCompanion/pull/828). Prefixed IDs: `character:`, `plane:`, `event:`, `faction:`, `artifact:`, `concept:`. Graded, cited edges with inverse relations. Queries in both directions via `scripts/query_multiverse_graph.py` and `scripts/mv_ask.py`. `--check` runs in CI. Still open: dates on edges and CardRepresentation nodes beyond Pack A4's printing joins.
   - v2.43 integrity follow-up: C023 `urza;mishra` is now **two** cited `discovered` relationships, with no invented composite literal. Five uniquely normalized *item* titles (Blackblade, Chain Veil, Endstone, Helvault, Temporal Anchor) now bridge to their existing artifact IDs. Updated graph/audit checks pass with zero broken endpoints or duplicate edges. The 16 orphans, six cross-pack subject declarations, 22 same-ID display-name variants and broader chronology are still tracked; do not fabricate links merely to zero those counters.
+  - **v2.84 identity/printing safeguard:** ten pack-declared, full-name/type-compatible legacy variants are now navigation-only links (135/184 eligible legacy entries bridged; fifteen first-word-only candidates stay unbridged); the one caption with no frozen Oracle UUID stays in the original art atlas but no longer creates an unverified Card node. Graph integrity: 5,306 nodes / 8,489 edges, 0 dangling endpoints, 0 duplicate IDs, 0 graph Cards without Oracle IDs and 14 declared-or-unused orphans still explicitly recorded. All 1,259 lore claims remain unchanged.
 
 ## Phase 4 — Foundational lore research packs
 
 - [x] **Add bounded source-local event order without conflating legend, history or real-world publication dates.** *(v2.56: 24 events across Kamigawa, narrated Valley tradition and Duskmourn; 17 strict BEFORE edges and one explicitly non-transitive DURING_OR_AFTER_START relation; 37/276 source-local pairs ordered. The initial 18 quoted relations were live-checked against three official Wizards guides. **v2.63:** seven further early New Phyrexia events and six official-overview source-quoted edges raise this separate ledger to **31 events, 23 strict edges, 52/465 ordered pairs in four strands**. The 56-event Packs A–C chronology is intact. Comparisons of Mirran overwhelm vs. Venser's sacrifice and all unbridged eras remain `UNKNOWN`. L244's total/cross-plane history is unresolved; no deckbuilding gate is reopened. See `research/PHASE4_SOURCE_LOCAL_EVENT_SEQUENCES_2026-10-30.md`.)*
+  - **v2.84 scope extension:** the exact chronology now includes a Gatewatch/Zendikar strand sourced from 2015–2016 Wizards story, distinctly separating Eye brood release, Nissa's later titan release, Ulamog's temporary recapture, the Gatewatch oaths and Ulamog/Kozilek's defeat. 134 events / 109 strict edges / 459 of 8,911 supported pairs across 14 disconnected source strands. The entire 8,911-pair independent matrix and 122 live official quotes on 17 pages pass. This is useful bounded history, **not** completion of the overall Pack A/B/C chronology or current-era Gatewatch history.
 
 - [ ] **Pack A: Ugin, Nicol Bolas, Elder Dragon origins and the Elder Dragon War.** Chronology, rivalries, allies, factions, planes, cards and primary sources.
 - [x] **Pack A first primary-source claim foundation (2026-10-30):** 12 explicit claim records, 13 stable entity nodes and 10 Wizards sources with narrator-perspective, original/revised Tarkir, prison/escape and Echoverse boundaries. See `research/PACK_A_Ugin_Bolas_Elder_Dragon_Duality.md` and `data/lore_research/pack_a_ugin_bolas_evidence_2026-10-30.json`. This is **partial research progress**, not the completed genealogy, card-to-canon evidence or deck.

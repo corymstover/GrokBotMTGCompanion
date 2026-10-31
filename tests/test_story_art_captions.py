@@ -63,6 +63,22 @@ class StoryArtCaptionTests(unittest.TestCase):
         self.assertTrue(cap)
         self.assertTrue(all(e["from"] in srcs for e in cap))
 
+    def test_unresolved_snapshot_card_identity_is_not_promoted_by_art_caption(self):
+        # The official page genuinely credits this art, but the historical
+        # caption matching snapshot did not provide an Oracle UUID. The atlas
+        # is retained and the graph must not silently invent a card identity.
+        unknown = [(p["url"], c) for p in self.atlas["pages"]
+                   for c in p["captions"] if not c.get("oracle_id")]
+        self.assertEqual(len(unknown), 1)
+        self.assertEqual(unknown[0][1]["caption_name"], "Anointed Procession")
+        built = G.build()
+        info = built["inputs"]["story_caption_packs"][0]
+        self.assertEqual(info["unresolved_card_identities"], [{
+            "url": unknown[0][0], "card": unknown[0][1]["card"],
+            "caption_name": "Anointed Procession", "reason": "NO_SNAPSHOT_ORACLE_ID"}])
+        self.assertFalse(any(n["type"] == "Card" and not n.get("oracle_id") for n in built["nodes"]))
+        self.assertNotIn("card:anointed_procession_anointed_procession", {n["id"] for n in built["nodes"]})
+
 
 if __name__ == "__main__":
     unittest.main()

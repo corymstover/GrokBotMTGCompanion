@@ -248,19 +248,16 @@
  },
  "findings": [
   "Two lore graphs coexist by design: data/lore_graph.json (legacy curated Markdown navigation, page#anchor IDs, contextual_pointer tier) and data/multiverse_graph (claim-graded, cited). The multiverse graph is the relationship layer; the legacy graph is bridged via curated: Concept nodes. No new entity schema is needed.",
-  "1 Card node(s) lack an oracle_id: card:anointed_procession_anointed_procession",
   "0 same-name/same-family ID groups and 6 character alias candidates need review; none were merged.",
-  "Legacy crosswalk: {'BRIDGED': 125, 'CANDIDATE_BY_FIRST_WORD': 15, 'LEGACY_ONLY': 34, 'MATCH_VIA_DECLARED_NAME_VARIANT': 10}. CANDIDATE_BY_FIRST_WORD rows are review-only.",
-  "23 pack-local IDs carry differing display names across packs; the graph keeps the first-ingested name, so exact-name bridges can miss the others."
+  "Legacy crosswalk: {'BRIDGED': 135, 'CANDIDATE_BY_FIRST_WORD': 15, 'LEGACY_ONLY': 34}. CANDIDATE_BY_FIRST_WORD rows are review-only.",
+  "23 pack-local IDs carry differing display names across packs; the graph keeps the first-ingested name, while a unique, type-compatible pack-declared variant may supply a navigation-only curated bridge. Ambiguous variants and first-word candidates are never inferred as identities."
  ],
  "graph_integrity": {
   "builder_problems": [],
-  "cards_without_oracle_id": [
-   "card:anointed_procession_anointed_procession"
-  ],
+  "cards_without_oracle_id": [],
   "dangling_edges": 0,
   "duplicate_ids": [],
-  "edges": 8480,
+  "edges": 8489,
   "literal_objects": [
    "Karn's planeswalker spark",
    "Knight of Benalia turned vampire",
@@ -277,7 +274,7 @@
    "unknown",
    "unknown_planeswalker"
   ],
-  "nodes": 5297,
+  "nodes": 5306,
   "orphan_nodes": [
    "artifact:great_henge",
    "event:dragonstorm_escape",
@@ -300,12 +297,12 @@
   {
    "by_type": {
     "AlternateContinuity": 1,
-    "Card": 1767,
+    "Card": 1766,
     "CardRepresentation": 560,
     "CardTheme": 1,
     "Character": 484,
     "Claim": 1259,
-    "Concept": 183,
+    "Concept": 193,
     "DeckProposal": 3,
     "Event": 35,
     "Faction": 156,
@@ -315,7 +312,7 @@
     "Plane": 33,
     "Source": 635
    },
-   "count": 5297,
+   "count": 5306,
    "exists": true,
    "generator": "scripts/build_multiverse_graph.py",
    "id_scheme": "<type-prefix>:<pack-local-id or slug>",
@@ -463,14 +460,13 @@
  ],
  "legacy_crosswalk": {
   "by_status": {
-   "BRIDGED": 125,
+   "BRIDGED": 135,
    "CANDIDATE_BY_FIRST_WORD": 15,
-   "LEGACY_ONLY": 34,
-   "MATCH_VIA_DECLARED_NAME_VARIANT": 10
+   "LEGACY_ONLY": 34
   },
   "rows": [
    {
-    "bridged_in_graph": false,
+    "bridged_in_graph": true,
     "declared_name_variant_matches": [
      "character:ajani"
     ],
@@ -479,7 +475,7 @@
     "kind": "character",
     "legacy_id": "Characters Index.md#ajani-goldmane",
     "name": "Ajani Goldmane",
-    "status": "MATCH_VIA_DECLARED_NAME_VARIANT"
+    "status": "BRIDGED"
    },
    {
     "bridged_in_graph": true,
@@ -926,7 +922,7 @@
     "status": "LEGACY_ONLY"
    },
    {
-    "bridged_in_graph": false,
+    "bridged_in_graph": true,
     "declared_name_variant_matches": [
      "character:nahiri"
     ],
@@ -935,7 +931,7 @@
     "kind": "character",
     "legacy_id": "Characters Index.md#nahiri",
     "name": "Nahiri",
-    "status": "MATCH_VIA_DECLARED_NAME_VARIANT"
+    "status": "BRIDGED"
    },
    {
     "bridged_in_graph": true,
@@ -986,7 +982,7 @@
     "status": "BRIDGED"
    },
    {
-    "bridged_in_graph": false,
+    "bridged_in_graph": true,
     "declared_name_variant_matches": [
      "character:ob_nixilis"
     ],
@@ -995,7 +991,7 @@
     "kind": "character",
     "legacy_id": "Characters Index.md#ob-nixilis",
     "name": "Ob Nixilis",
-    "status": "MATCH_VIA_DECLARED_NAME_VARIANT"
+    "status": "BRIDGED"
    },
    {
     "bridged_in_graph": true,
@@ -1066,7 +1062,7 @@
     "status": "BRIDGED"
    },
    {
-    "bridged_in_graph": false,
+    "bridged_in_graph": true,
     "declared_name_variant_matches": [
      "character:saheeli"
     ],
@@ -1075,7 +1071,7 @@
     "kind": "character",
     "legacy_id": "Characters Index.md#saheeli-rai",
     "name": "Saheeli Rai",
-    "status": "MATCH_VIA_DECLARED_NAME_VARIANT"
+    "status": "BRIDGED"
    },
    {
     "bridged_in_graph": true,
@@ -1138,7 +1134,7 @@
     "status": "BRIDGED"
    },
    {
-    "bridged_in_graph": false,
+    "bridged_in_graph": true,
     "declared_name_variant_matches": [
      "character:tam"
     ],
@@ -1147,7 +1143,7 @@
     "kind": "character",
     "legacy_id": "Characters Index.md#tam",
     "name": "Tam",
-    "status": "MATCH_VIA_DECLARED_NAME_VARIANT"
+    "status": "BRIDGED"
    },
    {
     "bridged_in_graph": true,
@@ -1208,7 +1204,7 @@
     "status": "BRIDGED"
    },
    {
-    "bridged_in_graph": false,
+    "bridged_in_graph": true,
     "declared_name_variant_matches": [
      "character:the_wanderer"
     ],
@@ -1217,7 +1213,7 @@
     "kind": "character",
     "legacy_id": "Characters Index.md#the-wanderer",
     "name": "The Wanderer",
-    "status": "MATCH_VIA_DECLARED_NAME_VARIANT"
+    "status": "BRIDGED"
    },
    {
     "bridged_in_graph": true,
@@ -2156,7 +2152,7 @@
     "status": "CANDIDATE_BY_FIRST_WORD"
    },
    {
-    "bridged_in_graph": false,
+    "bridged_in_graph": true,
     "declared_name_variant_matches": [
      "character:ajani"
     ],
@@ -2165,7 +2161,7 @@
     "kind": "dossier",
     "legacy_id": "Planeswalker Dossiers.md#ajani-goldmane",
     "name": "Ajani Goldmane",
-    "status": "MATCH_VIA_DECLARED_NAME_VARIANT"
+    "status": "BRIDGED"
    },
    {
     "bridged_in_graph": true,
@@ -2348,7 +2344,7 @@
     "status": "BRIDGED"
    },
    {
-    "bridged_in_graph": false,
+    "bridged_in_graph": true,
     "declared_name_variant_matches": [
      "character:nahiri"
     ],
@@ -2357,7 +2353,7 @@
     "kind": "dossier",
     "legacy_id": "Planeswalker Dossiers.md#nahiri",
     "name": "Nahiri",
-    "status": "MATCH_VIA_DECLARED_NAME_VARIANT"
+    "status": "BRIDGED"
    },
    {
     "bridged_in_graph": true,
@@ -2442,7 +2438,7 @@
     "status": "LEGACY_ONLY"
    },
    {
-    "bridged_in_graph": false,
+    "bridged_in_graph": true,
     "declared_name_variant_matches": [
      "character:saheeli"
     ],
@@ -2451,7 +2447,7 @@
     "kind": "dossier",
     "legacy_id": "Planeswalker Dossiers.md#saheeli-rai",
     "name": "Saheeli Rai",
-    "status": "MATCH_VIA_DECLARED_NAME_VARIANT"
+    "status": "BRIDGED"
    },
    {
     "bridged_in_graph": true,
@@ -2490,7 +2486,7 @@
     "status": "BRIDGED"
    },
    {
-    "bridged_in_graph": false,
+    "bridged_in_graph": true,
     "declared_name_variant_matches": [
      "character:tam"
     ],
@@ -2499,7 +2495,7 @@
     "kind": "dossier",
     "legacy_id": "Planeswalker Dossiers.md#tam",
     "name": "Tam",
-    "status": "MATCH_VIA_DECLARED_NAME_VARIANT"
+    "status": "BRIDGED"
    },
    {
     "bridged_in_graph": true,

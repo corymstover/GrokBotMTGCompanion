@@ -26,6 +26,7 @@ class EntityStructureAudit(unittest.TestCase):
         self.assertEqual(i["dangling_edges"], 0)
         self.assertEqual(i["prefix_type_mismatches"], [])
         self.assertEqual(i["builder_problems"], [])
+        self.assertEqual(i["cards_without_oracle_id"], [])
 
     def test_no_pack_type_conflicts(self):
         self.assertEqual(self.d["claim_pack_consistency"]["type_conflicts"], [])
@@ -40,6 +41,30 @@ class EntityStructureAudit(unittest.TestCase):
         n = sum(1 for x in lg["nodes"] if x["kind"] in aes.LEGACY_KIND_TO_TYPES)
         self.assertEqual(len(self.d["legacy_crosswalk"]["rows"]), n)
         self.assertEqual(sum(self.d["legacy_crosswalk"]["by_status"].values()), n)
+
+    def test_pack_declared_variants_are_bridged_without_guessing_first_names(self):
+        from build_multiverse_graph import Graph, bridge_curated
+        graph = json.loads((ROOT / "data/multiverse_graph/multiverse_graph.json").read_text(encoding="utf-8"))
+        edges = [e for e in graph["edges"] if e["relation"] == "see_also_curated_entry"
+                 and e.get("name_match_basis") == "unique_pack_declared_name_variant"]
+        self.assertEqual(len(edges), 10)
+        pairs = {(e["from"], e["to"]) for e in edges}
+        self.assertIn(("character:ajani", "curated:Characters Index.md#ajani-goldmane"), pairs)
+        self.assertIn(("character:the_wanderer", "curated:Characters Index.md#the-wanderer"), pairs)
+        self.assertEqual(self.d["legacy_crosswalk"]["by_status"].get("CANDIDATE_BY_FIRST_WORD"), 15)
+        for row in self.d["legacy_crosswalk"]["rows"]:
+            if row["status"] == "CANDIDATE_BY_FIRST_WORD":
+                self.assertFalse(row["bridged_in_graph"])
+
+        # A second typed entity with the same full name makes the proposed
+        # pack-declared variant ambiguous; no navigation bridge may be made.
+        g = Graph()
+        g.add_node("character:ajani", "Character", "Ajani", "fixture")
+        g.add_node("character:ajani", "Character", "Ajani Goldmane", "fixture")
+        g.add_node("character:other", "Character", "Ajani Goldmane", "fixture")
+        bridge_curated(g, "data/lore_graph.json")
+        self.assertFalse(any(e["from"] == "character:ajani" and
+                             e["to"] == "curated:Characters Index.md#ajani-goldmane" for e in g.edges))
 
     def test_norm(self):
         self.assertEqual(aes.norm("The Chain Veil"), "chain veil")
