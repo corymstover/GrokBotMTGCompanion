@@ -66,7 +66,10 @@ def build() -> str:
     # New source-graded claim packs may be appended after that dated report.
     coverage = load("data/lore_research/story_coverage_inventory_2026-10-30.json")["totals"]
     enrichment = load("data/card_enrichment.json")["cards"]
-    readiness = load("data/release/readiness_2026-10-30.json")["verdict"]
+    readiness_files = sorted((ROOT / "data/release").glob("readiness_*.json"))
+    if not readiness_files:
+        raise ValueError("no current foundation readiness report")
+    readiness = json.loads(readiness_files[-1].read_text(encoding="utf-8"))["verdict"]
     full_triage = load("data/release/full_checklist_triage_2026-10-31.json")["totals"]
     done = sum(x == "x" for x in checks)
     assert (full_triage["checked"], full_triage["open"], full_triage["items"]) == (
@@ -127,8 +130,8 @@ foundation certification tasks.
 
 **Priority next steps:** verify current-era Q&A answers; close only evidence-backed graph
 identity and chronology gaps; expand comprehensive plane, character, faction and cross-plane
-history; harden rules and difficult Q&A; preserve the newly recovered hash-verified October
-historical Scryfall replay and retest release-time data freshness; pursue foundation-only certification. **Phase 6
+history; harden rules and difficult Q&A; preserve the original hash-verified October
+historical Scryfall replay and its October 30 live-source freshness check (repeat on any later release bulk); pursue foundation-only certification. **Phase 6
 deckbuilding and its three unapproved pilots are deferred until the knowledge foundation
 is certified.** Do not modify any of the 62 finalized Grixis decks.
 {END}"""

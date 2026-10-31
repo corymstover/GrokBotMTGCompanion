@@ -61,9 +61,13 @@ RELEASE_BLOCKERS = {
           "undocumented interactions remain unmodelled (no game simulation) and later rules/ruling changes "
           "are not automatically reconciled.", "scripts/rules_interactions.py", "scripts/ask_rules_evidence.py",
           "scripts/ask_set_atlas.py"),
-        B("EXTERNAL_CI", "'Current' Scryfall means a fresh snapshot at release time; the active snapshot is "
-          "snap-20261029-40848334824-1 and the Oracle drift report must be re-run against the release snapshot.",
-          "data/scryfall_snapshots"),
+        B("EXTERNAL_CI", "The October 30 latest-published Scryfall Oracle, Default Cards and Rulings bulk was "
+          "independently downloaded and SHA-verified on October 31. Indexed Oracle and ruling fields have zero "
+          "mismatches; the one global Oracle type-line change and 104 printing metadata changes are review-only. "
+          "The final foundation release must repeat the freshness check if Scryfall publishes another bulk or "
+          "the release candidate changes.",
+          "data/scryfall_snapshots/oct29_to_oct30_release_delta_2026-10-31.json",
+          "data/card_db/oracle_drift_2026-10-31.json"),
     ],
     "set_atlas": [
         B("ENGINEERING_OPEN", "Phase 1B QUALIFIED items: exact field parity between snapshots does not hold (342 prm release "

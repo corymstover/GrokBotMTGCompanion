@@ -1,0 +1,98 @@
+{
+  "compared_to": {
+    "card_enrichment_json": "data/card_enrichment.json",
+    "card_enrichment_prior_bulk": "2026-10-29",
+    "card_index_csv": "data/card_index.csv",
+    "printing_lore_prior_sha256": "c7c6d738cae2a9419e2120afedba460c4afeaa026bf74ca60e6451d14486d1e2",
+    "printing_lore_prior_source": "default-cards-20261028090549.jsonl.gz"
+  },
+  "counts": {
+    "all_default_records": 120019,
+    "current_oracle_ids": 39287,
+    "current_rulings": 79706,
+    "edhrec_rank_differences": 31949,
+    "english_paper_records": 108216,
+    "paper_records": 110851,
+    "paper_story_spotlight": 452,
+    "paper_with_flavor_text": 55433,
+    "prior_enriched_oracle_ids": 5362,
+    "prior_index_oracle_ids": 33894,
+    "prior_printing_archive_english_paper": 107700
+  },
+  "decision_authority": false,
+  "evidence_class": "read_only_reconciliation",
+  "generated_at": "2026-10-31T07:21:40.558741+00:00",
+  "limits": [
+    "Legacy Oracle text was not stored in a directly comparable complete input archive; no Oracle-text delta claim is made.",
+    "Printing archive aggregate and new Scryfall paper counts may differ by coverage, filtering and publication date.",
+    "New IDs not in the committed index are discovery leads, not proof that all belong in a lore/Commander pool.",
+    "No suggested deck swap, canon status, identity change, or legality conclusion is approved by this report."
+  ],
+  "review_categories": {
+    "color_identity_differences": {
+      "count": 0,
+      "first_30_names": []
+    },
+    "commander_legality_differences": {
+      "count": 0,
+      "first_30_names": []
+    },
+    "game_changer_differences": {
+      "count": 0,
+      "first_30_names": []
+    },
+    "indexed_ruling_count_differences": {
+      "count": 0,
+      "first_30_names": []
+    },
+    "new_oracle_ids_not_in_committed_index": {
+      "count": 5393,
+      "first_30_names": [
+        "1997 World Championships Ad",
+        "1998 World Championships Ad",
+        "1999 World Championships Ad",
+        "2000 World Championships Ad",
+        "2001 World Championships Ad",
+        "2002 World Championships Ad",
+        "2003 World Championships Ad",
+        "2004 World Championships Ad",
+        "A Display of My Dark Power",
+        "A Golden Opportunity",
+        "A Little Chat // A Little Chat",
+        "A Mysterious Creature",
+        "A Premonition of Your Demise",
+        "A Reckoning Approaches",
+        "Aang",
+        "Aang and Katara // Aang and Katara",
+        "Aang Tutorial",
+        "Aang's Iceberg // Aang's Iceberg",
+        "Aang, at the Crossroads // Aang, at the Crossroads",
+        "Aang, Swift Savior // Aang, Swift Savior",
+        "Aang, the Last Airbender // Aang, the Last Airbender",
+        "Aatchik, Emerald Radian // Aatchik, Emerald Radian",
+        "Abhorrent Oculus // Abhorrent Oculus",
+        "Abomination, Irradiated Brute // Abomination, Irradiated Brute",
+        "Above the Clouds",
+        "Abrade // Abrade",
+        "Absorb Energy",
+        "Absorbing Man and Titania // Absorbing Man and Titania",
+        "Abstruse Appropriation // Abstruse Appropriation",
+        "Abundant Growth // Abundant Growth"
+      ]
+    },
+    "previously_enriched_oracle_ids_missing_now": {
+      "count": 0,
+      "first_30_names": []
+    },
+    "previously_indexed_oracle_ids_missing_now": {
+      "count": 0,
+      "first_30_names": []
+    },
+    "type_line_differences": {
+      "count": 0,
+      "first_30_names": []
+    }
+  },
+  "schema_version": 1,
+  "snapshot_id": "snap-20261030-live-20261031"
+}

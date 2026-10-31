@@ -1,0 +1,348 @@
+{
+  "schema": "scryfall-release-snapshot-delta/v1",
+  "as_of": "2026-10-31",
+  "baseline_snapshot": "snap-20261029-40848334824-1",
+  "current_snapshot": "snap-20261030-live-20261031",
+  "source_manifests": {
+    "baseline_sha256": "7f1b10d4c144265bd86523027496d5d7e0ff6578aaef51ec4948e9669e056959",
+    "current_sha256": "72f179f064b40b9de4a3a5a5fde02ed7955211864e230f0e8ad4f8097604ba68"
+  },
+  "archives_strictly_verified": true,
+  "delta": {
+    "oracle-cards": {
+      "baseline_records": 39164,
+      "current_records": 39287,
+      "added_ids": 123,
+      "removed_ids": 0,
+      "existing_ids_changed": 1,
+      "changed_fields": {
+        "name": 0,
+        "oracle_text_digest": 0,
+        "type_line": 1,
+        "color_identity": 0,
+        "commander_legality": 0,
+        "game_changer": 0
+      },
+      "new_id_samples": [
+        "02583549-b618-4d41-9f46-209a99e30cd7",
+        "074d5472-3916-4661-9bee-0dcd1da509dd",
+        "07f9c121-8a12-4f28-ae89-ec71f073b9ba",
+        "099fe5be-ae48-4835-b14f-e42d9b6a2a3e",
+        "0b035f3c-ba21-4a73-b4df-11a7e8c19056",
+        "0b74d7de-8b9e-4a75-870e-230536fa8d79",
+        "0df7ffc4-6656-47b5-8ab9-476c652f4838",
+        "0e1da299-2e75-4e5b-95b0-941bdb0d1d6a",
+        "0eac1cb6-4313-40d4-9736-c750245540af",
+        "0fc9afbf-c2a9-486a-b41c-ad6e7c318b66",
+        "122adba5-d2b4-479d-afbf-0bc527c2cb4b",
+        "12e4e6b6-e684-49df-9373-d1e057664272",
+        "1372abe6-8759-4cd0-ad99-6d4cce946f78",
+        "13d4a70f-c48c-4739-8f3e-5f0302c5484c",
+        "1948074e-29dc-49a9-b53c-5b287f193dc9",
+        "1c1caf0f-9ee8-4eaa-b8e7-309ba9be9282",
+        "1d4163d9-ca02-4f25-9f53-01f6d7cc4b70",
+        "1fb736bf-c9bd-45ab-86ce-7f138f1724b2",
+        "1fdcdb1c-a140-40ee-b711-5ea539eb1084",
+        "2130193c-3518-4a7d-9cb3-ea65aec845b4",
+        "2939aecb-0a40-4088-a367-ae197349bf4d",
+        "29775eb6-f658-4839-a434-2fa063069f1c",
+        "2af0284c-ed8f-4e04-93c6-9052ebfef9c9",
+        "2ca270f1-a8a2-438f-9321-2c653165f3e4",
+        "2cf79dd0-c9db-403e-969d-6c09e7aaa575",
+        "2edc5b43-18ac-42b6-a47d-70e36a7fd65c",
+        "30597aff-ebb6-4927-b350-fe559fb92c8f",
+        "32489824-28f0-445c-81e4-ea10fa9d3ae2",
+        "33e8904a-9285-4031-900c-0a5c8f0bf6c0",
+        "3434b811-4beb-47b5-968c-8d2eb502297a"
+      ],
+      "removed_id_samples": [],
+      "changed_existing_samples": [
+        {
+          "id": "5b8e8ef2-2f04-4485-ae12-08f52dac81a2",
+          "name": "Culber and Stamets, Star-Crossed",
+          "fields": [
+            "type_line"
+          ]
+        }
+      ]
+    },
+    "default-cards": {
+      "baseline_records": 119701,
+      "current_records": 120019,
+      "added_ids": 318,
+      "removed_ids": 0,
+      "existing_ids_changed": 104,
+      "changed_fields": {
+        "oracle_id": 0,
+        "set": 0,
+        "collector_number": 0,
+        "lang": 0,
+        "digital": 0,
+        "released_at": 100,
+        "illustration_id": 0,
+        "image_status": 4,
+        "artist": 0,
+        "layout": 0
+      },
+      "new_id_samples": [
+        "012b04de-d9a5-4b12-afc8-cdf54bc42fc9",
+        "01679825-5138-472c-86f6-c2c2041fe73a",
+        "02184d71-c839-4f50-ba69-bb002f48f667",
+        "05735357-3cca-42be-a3ae-5b4fc1fd5f47",
+        "060f77cd-2779-4f28-83b3-a7e11f64140b",
+        "064a2fe8-0867-420f-b35c-71c3231a73ed",
+        "0680ebe0-5878-4d54-b1e0-de5a5f4c23a8",
+        "099c081d-06ae-4ca5-ab3b-f70d01509258",
+        "09c0daa9-9eca-4817-a427-868d1efcfa20",
+        "09fbeced-90d7-4cfc-80ae-7b6226d95de5",
+        "0a046a34-0149-41d6-ae6b-e59eb4232643",
+        "0b0104f1-0073-40c9-b8b7-f869c6b7bf7e",
+        "0b45cf00-f72f-4b21-8d80-124893ed3c7f",
+        "0bb3c5ef-257f-4505-8781-c6db8e12d59a",
+        "0cb673af-dae0-478c-a5d3-b697338f6c0e",
+        "0cc84d05-d2d8-418e-8815-537f2dda868f",
+        "0ce11ebd-2359-4fa9-b9ce-70ba092e9ae3",
+        "0d8718a2-89c5-4cf0-8e6c-9d621db5b8d6",
+        "0ddbd09d-37ff-4987-a7db-555962bad774",
+        "0df80d6b-fbd7-4d5b-b991-c2b6f8da2511",
+        "0e9c7fbf-fe01-43b1-834f-3c6ba2bbd217",
+        "0f9b10d3-ba76-45ec-a85c-fb7b26da5561",
+        "0fc67df2-8bd9-427d-94c5-14c733d9dcd2",
+        "1012e618-327e-48a8-9b0b-8a8681bf4442",
+        "10133c76-755c-413d-a515-f1c31c053eae",
+        "1335371c-d886-48ed-962c-3bc46f1f9076",
+        "1376ab5b-e9ad-42c8-a420-e33666bc6138",
+        "15283639-4b04-4392-9a30-a1bf97b01658",
+        "155a3f1d-0897-4acd-b83a-82c48356dd66",
+        "16787d1c-3a1c-4c72-a986-9cea0371fd75"
+      ],
+      "removed_id_samples": [],
+      "changed_existing_samples": [
+        {
+          "id": "003b8c93-54d2-4f23-961e-a52d63d0a54b",
+          "name": "",
+          "fields": [
+            "released_at"
+          ]
+        },
+        {
+          "id": "01a6d9c9-f911-47e1-8a0e-5caf36c62e77",
+          "name": "",
+          "fields": [
+            "released_at"
+          ]
+        },
+        {
+          "id": "01b28cef-7a94-4f55-a309-f131d44f9561",
+          "name": "",
+          "fields": [
+            "released_at"
+          ]
+        },
+        {
+          "id": "06abe9a1-f573-4870-bc17-0f650e9ebb2a",
+          "name": "",
+          "fields": [
+            "released_at"
+          ]
+        },
+        {
+          "id": "06fd308b-9621-4b9e-81be-c3ebb4228d93",
+          "name": "",
+          "fields": [
+            "released_at"
+          ]
+        },
+        {
+          "id": "07fb83d8-2f82-4831-b9f5-a9bc6088f6bb",
+          "name": "",
+          "fields": [
+            "released_at"
+          ]
+        },
+        {
+          "id": "14b13f8f-003d-4b06-a1ed-505b68311e93",
+          "name": "",
+          "fields": [
+            "released_at"
+          ]
+        },
+        {
+          "id": "1588ae9d-f8b4-4dd7-9f51-db4ea02d9abb",
+          "name": "",
+          "fields": [
+            "released_at"
+          ]
+        },
+        {
+          "id": "168603ca-6d87-41cc-92f9-9d38e1f10ffc",
+          "name": "",
+          "fields": [
+            "released_at"
+          ]
+        },
+        {
+          "id": "18cdb7b8-bd52-407c-8752-6d6883449a3e",
+          "name": "",
+          "fields": [
+            "released_at"
+          ]
+        },
+        {
+          "id": "1a3c3a87-f2c7-42d9-8ec5-40f75fedd410",
+          "name": "",
+          "fields": [
+            "released_at"
+          ]
+        },
+        {
+          "id": "1a485510-6a19-4c16-bd41-551204818624",
+          "name": "",
+          "fields": [
+            "released_at"
+          ]
+        },
+        {
+          "id": "1d296f76-cf8f-4673-9bd6-04994c0ff186",
+          "name": "",
+          "fields": [
+            "released_at"
+          ]
+        },
+        {
+          "id": "1de24837-f335-4509-a9fb-1a4e31dcce31",
+          "name": "",
+          "fields": [
+            "released_at"
+          ]
+        },
+        {
+          "id": "20914b6a-0dd5-4f1a-80a4-271691baa5d7",
+          "name": "",
+          "fields": [
+            "released_at"
+          ]
+        },
+        {
+          "id": "213b12c2-5066-4718-b342-9ff58a8e5c0d",
+          "name": "",
+          "fields": [
+            "released_at"
+          ]
+        },
+        {
+          "id": "21848067-02e7-4c50-8aae-05f84d81cbb0",
+          "name": "",
+          "fields": [
+            "released_at"
+          ]
+        },
+        {
+          "id": "24a453d9-93d4-463f-9ce8-e93c625fdb35",
+          "name": "",
+          "fields": [
+            "released_at"
+          ]
+        },
+        {
+          "id": "28cf0138-0aad-4089-a99e-f512e29cb7a3",
+          "name": "",
+          "fields": [
+            "released_at"
+          ]
+        },
+        {
+          "id": "2bca64a3-26f9-4aca-bfb3-6e20416f44a3",
+          "name": "",
+          "fields": [
+            "released_at"
+          ]
+        },
+        {
+          "id": "2c860c5d-18eb-4007-be97-eb8a55d4e119",
+          "name": "",
+          "fields": [
+            "released_at"
+          ]
+        },
+        {
+          "id": "2d8f5855-3294-48c4-b85d-9461ee904731",
+          "name": "",
+          "fields": [
+            "released_at"
+          ]
+        },
+        {
+          "id": "2f3fe863-ba96-4c6e-a584-5960d2b12f49",
+          "name": "",
+          "fields": [
+            "released_at"
+          ]
+        },
+        {
+          "id": "30442b97-a382-496d-b93c-8547557aff12",
+          "name": "",
+          "fields": [
+            "released_at"
+          ]
+        },
+        {
+          "id": "306efda0-2aa6-48e8-98a4-bd2c573dd573",
+          "name": "",
+          "fields": [
+            "released_at"
+          ]
+        },
+        {
+          "id": "33ade614-3593-4055-8ecc-2d9e4858ba19",
+          "name": "",
+          "fields": [
+            "image_status"
+          ]
+        },
+        {
+          "id": "34371a46-5c75-4286-aa06-7246273be481",
+          "name": "",
+          "fields": [
+            "released_at"
+          ]
+        },
+        {
+          "id": "35d73022-46ed-402b-90a1-e3e4a281ce1e",
+          "name": "",
+          "fields": [
+            "released_at"
+          ]
+        },
+        {
+          "id": "3691051e-6acc-4810-b216-e23a322f9a9d",
+          "name": "",
+          "fields": [
+            "released_at"
+          ]
+        },
+        {
+          "id": "36ae5be8-eec6-4706-92c7-323bcfbfba19",
+          "name": "",
+          "fields": [
+            "released_at"
+          ]
+        }
+      ]
+    },
+    "rulings": {
+      "baseline_records": 79706,
+      "current_records": 79706,
+      "added": 0,
+      "removed": 0,
+      "copyrighted_comments_embedded": false
+    }
+  },
+  "source_text_embedded": false,
+  "limits": [
+    "Source metadata are release-date snapshot comparisons, not official card street-release dates.",
+    "New Oracle IDs across bulk snapshots are not necessarily playable or eligible for the Companion's scoped card index.",
+    "Changed text hashes are review leads, not authority to rewrite cards, artwork or rules.",
+    "This evidence does not certify a completed MTG knowledge foundation or start deckbuilding."
+  ]
+}
