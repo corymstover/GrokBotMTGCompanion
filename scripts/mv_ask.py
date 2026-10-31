@@ -31,6 +31,8 @@ Two-event before/after questions route to the source-graded, **partial** in-univ
 chronology and retain UNKNOWN for missing links and narrated legends as legends.
 Set/category/card-printing questions route to the qualified October 29 Phase 1B
 historical shard index; recorded release dates are never in-universe chronology.
+Explicit rulings, keyword-rules and card-interaction questions surface dated
+published rulings and official CR 701/702 excerpts without simulating play.
 """
 import argparse
 import csv
@@ -649,6 +651,10 @@ def ask(text: str) -> dict:
     set_answer = set_atlas_answer(q)
     if set_answer is not None:
         return set_answer
+    from ask_rules_evidence import try_answer as rules_evidence_answer
+    evidence_answer = rules_evidence_answer(q)
+    if evidence_answer is not None:
+        return evidence_answer
     for rx in _PLANE_HISTORY_PATTERNS:
         m = rx.search(q)
         if m:

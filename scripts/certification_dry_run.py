@@ -56,8 +56,10 @@ RELEASE_BLOCKERS = {
           "data/lore_research/relative_chronology_2026-10-30.json"),
     ],
     "lookup_and_rules": [
-        B("ENGINEERING_OPEN", "Interactions with no published ruling are not modelled (no game simulation); Phase 7 lookup and "
-          "set-question boxes are still open.", "scripts/rules_interactions.py", "scripts/commander_rules.py"),
+        B("ENGINEERING_OPEN", "Bounded Phase 7 card/printing/set and published-rulings lookup is available, but "
+          "undocumented interactions remain unmodelled (no game simulation) and later rules/ruling changes "
+          "are not automatically reconciled.", "scripts/rules_interactions.py", "scripts/ask_rules_evidence.py",
+          "scripts/ask_set_atlas.py"),
         B("EXTERNAL_CI", "'Current' Scryfall means a fresh snapshot at release time; the active snapshot is "
           "snap-20261029-40848334824-1 and the Oracle drift report must be re-run against the release snapshot.",
           "data/scryfall_snapshots"),
@@ -72,7 +74,7 @@ RELEASE_BLOCKERS = {
     "knowledge_foundation": [
         B("EXTERNAL_CI", "The source-graded knowledge-foundation acceptance packet now exists with separate "
           "chronology ledgers, representative cited plane/character/faction/cross-plane evidence, explicit gaps and "
-          "twelve difficult Q&A cases. Its deterministic rebuild and representative rules/Q&A tests must still "
+          "fifteen difficult Q&A cases. Its deterministic rebuild and representative rules/Q&A tests must still "
           "pass on the exact candidate foundation-release commit; it does not establish exhaustive knowledge.",
           "data/release/foundation_acceptance_packet_2026-10-30.json",
           "research/FOUNDATION_ACCEPTANCE_PACKET_2026-10-30.md"),

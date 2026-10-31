@@ -382,6 +382,65 @@
       "direct_claims": null,
       "chronology_relation": null,
       "known_limitations": []
+    },
+    {
+      "id": "set_alpha",
+      "question": "How many cards are in Alpha?",
+      "route": "ask->set_atlas:set",
+      "confidence": "QUALIFIED",
+      "flags": [
+        "ENGLISH_PAPER_ONLY",
+        "RELEASED_AS_OF_SNAPSHOT",
+        "SOURCE_BULK_NOT_PRESENT",
+        "PRINTING_DATE_NOT_IN_UNIVERSE_CHRONOLOGY"
+      ],
+      "sources": [
+        "https://github.com/corymstover/GrokBotMTGCompanion/blob/main/data/set_atlas/catalog_2026-10-29.json",
+        "https://github.com/corymstover/GrokBotMTGCompanion/blob/main/data/set_atlas/historical_sets_0.json",
+        "https://scryfall.com/sets/lea"
+      ],
+      "response_sha256": "9e7b0d3cf4a7a46f57cb67876b9029ec51b6c0f2883fe1d1aeb5636e1ed8c060",
+      "direct_claims": null,
+      "chronology_relation": null,
+      "known_limitations": []
+    },
+    {
+      "id": "card_lotus_printings",
+      "question": "Which sets was Black Lotus printed in?",
+      "route": "ask->set_atlas:card_printings",
+      "confidence": "QUALIFIED",
+      "flags": [
+        "ENGLISH_PAPER_ONLY",
+        "RELEASED_AS_OF_SNAPSHOT",
+        "SOURCE_BULK_NOT_PRESENT",
+        "PRINTING_DATE_NOT_IN_UNIVERSE_CHRONOLOGY"
+      ],
+      "sources": [
+        "https://github.com/corymstover/GrokBotMTGCompanion/blob/main/data/set_atlas/historical_cards_5.json"
+      ],
+      "response_sha256": "1191a10f01ac2fbdc1821b5d4927075f0fc6ab3a6213340891af11f2a1344acb",
+      "direct_claims": null,
+      "chronology_relation": null,
+      "known_limitations": []
+    },
+    {
+      "id": "rules_published_interaction",
+      "question": "How does Urza's Saga interact with Urza's Tower?",
+      "route": "ask->rules_evidence:interaction",
+      "confidence": "QUALIFIED",
+      "flags": [
+        "HISTORICAL_RULINGS_SHARD_NOT_LIVE",
+        "NO_RULES_SIMULATION"
+      ],
+      "sources": [
+        "https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt",
+        "https://scryfall.com/card/cmm/1053/urzas-tower",
+        "https://scryfall.com/card/mh2/259/urzas-saga"
+      ],
+      "response_sha256": "530a370f86dc72c93078fa06dc1f004c0278aae8b8c8392e36030e0a7a954184",
+      "direct_claims": null,
+      "chronology_relation": null,
+      "known_limitations": []
     }
   ],
   "cross_plane_graph_navigation": [
@@ -459,5 +518,5 @@
     "python3 scripts/update_multiverse_progress_tracker.py --check"
   ],
   "owner_review_status": "PENDING_NOT_REQUESTED_UNTIL_ENGINEERING_EVIDENCE_AND_CI_COMPLETE",
-  "content_sha256": "4469d0d55799da5b5f06654ba28a0ac18b0704563a6535f20a0cbde7104cc821"
+  "content_sha256": "67f883e18b5f98e8b93021d17eefe9aa08fee999fffee010d3a3acc25823b618"
 }

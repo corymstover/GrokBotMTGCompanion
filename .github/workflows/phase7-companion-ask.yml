@@ -5,9 +5,11 @@ on:
     paths:
       - 'scripts/mv_ask.py'
       - 'scripts/ask_set_atlas.py'
+      - 'scripts/ask_rules_evidence.py'
       - 'scripts/historical_set_lookup.py'
       - 'data/set_atlas/**'
       - 'tests/test_mv_ask_set_atlas.py'
+      - 'tests/test_mv_ask_rules_evidence.py'
       - 'scripts/commander_rules.py'
       - 'scripts/rules_interactions.py'
       - 'scripts/build_cr_keyword_excerpt.py'
@@ -33,9 +35,11 @@ on:
     paths:
       - 'scripts/mv_ask.py'
       - 'scripts/ask_set_atlas.py'
+      - 'scripts/ask_rules_evidence.py'
       - 'scripts/historical_set_lookup.py'
       - 'data/set_atlas/**'
       - 'tests/test_mv_ask_set_atlas.py'
+      - 'tests/test_mv_ask_rules_evidence.py'
       - 'scripts/commander_rules.py'
       - 'scripts/rules_interactions.py'
       - 'scripts/build_cr_keyword_excerpt.py'
@@ -70,6 +74,8 @@ jobs:
           python3 scripts/mv_ask.py ask "Who defeated Ugin?"
           python3 scripts/mv_ask.py ask "How many cards are in Alpha?"
           python3 scripts/mv_ask.py ask "Which sets was Black Lotus printed in?" > /dev/null
+          python3 scripts/mv_ask.py ask "How does Urza's Saga interact with Urza's Tower?"
+          python3 scripts/mv_ask.py ask "What mechanics does Serra Angel have?" > /dev/null
           python3 scripts/mv_ask.py card "Sol Ring"
           set +e; python3 scripts/mv_ask.py ask "Who is Zorblax the Unreal?"; test $? -eq 3
       - name: Companion tests
