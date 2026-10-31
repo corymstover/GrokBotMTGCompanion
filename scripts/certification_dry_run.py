@@ -113,12 +113,7 @@ PHASE8_BLOCKERS = [
           "data/set_atlas/phase1b_snapshot_gates_2026-10-30.json"),
     ]),
     ("Update snapshot manifests", []),  # Exact Oct 28/Oct 15–16 bytes recovered, hashed, independently replayed.
-    ("Maintain an honest progress tracker", [
-        B("ONGOING", "The current progress checkpoint now includes a generated completed / under review / blocked / "
-          "not started triage for all 14 first-release and Phase 8 gates, with blocker types and an explicit "
-          "distinction from the 137-item project checklist. It must keep regenerating as evidence changes.",
-          "Progress Tracker.md", "scripts/update_multiverse_progress_tracker.py"),
-    ]),
+    ("Maintain an honest progress tracker", []),  # All 137 tasks now have verified four-state triage in CI.
     ("Define an MTG Multiverse Companion milestone release", [
         B("OWNER_DECISION", "release_readiness.py now scores a knowledge-only foundation (verdict NOT_RELEASE_READY); "
           "the owner must review the documented foundation scope, not any pilot deck.",

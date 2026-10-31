@@ -1,6 +1,6 @@
 # MTG Multiverse Companion — Master Workflow & Progress Checklist
 
-**Version:** 2.72
+**Version:** 2.73
 **Checkpoint date:** 2026-10-31
 **Repository:** [corymstover/GrokBotMTGCompanion](https://github.com/corymstover/GrokBotMTGCompanion)  
 **Purpose:** Durable project roadmap and handoff document. Update this file after verified milestone work; do not treat historical figures as live counters.
@@ -22,6 +22,36 @@ foundation release may document inherently unresolved canon and future
 maintenance; it must never claim exhaustive knowledge of all MTG history.
 The 62 approved Grixis decks, their hashes and all owner gates remain intact.
 Only a new explicit request from Cory can override the Phase 6 hold.
+
+**v2.73 official source-cache provenance replay and complete checklist triage (2026-10-31):**
+The complete **660-URL** official Wizards story/feature/format source inventory
+was rebuilt in the ignored local cache and passed the independent strict
+source-URL, nonempty body, minimum-length and no-collision checks. Of these,
+**652 recovered extractions have the exact historical SHA-256** from the
+October 29 provenance archive; **eight changed extracts are quarantined**
+for source review (seven older Planeswalker's Guide/feature pages each add ten
+extracted words; the Commander format page changed its extract hash without
+changing word count). None is silently regraded as lore evidence. The official
+**September 25, 2026 Comprehensive Rules** text and existing pinned Scryfall
+Default Cards/Rulings bulk restored independent quote verification:
+**2,726 quotations across 27 documentation pages**, with **zero unexplained
+failures**. The replay stores URLs, sizes, hashes and diagnoses, not
+copyrighted article bodies; portable CI validates the report without source
+downloads, and a full local cache invokes all 660 SHA checks. The complete
+Wizards citation audit also refreshed **920 distinct URLs** against the official
+sitemap or direct redirects/archival records, while checking **776 distinct
+Comprehensive Rules references**, with **zero citation-audit problems**.
+The complete
+137-task triage now distinguishes Completed, Under review, Blocked and Not
+started; it explicitly parks all ten Phase 6 deck tasks. Strict story-source
+recovery and truthful four-state checkpoint maintenance are now checked as
+engineering tasks: **88/137 checked, 49 open**, including parked and
+continuing work. **Foundation release remains NOT_RELEASE_READY** due to
+independently unresolved research, qualified release gates and exact-release
+CI. Cory's conditional automatic acceptance remains recorded but not yet
+effective; no new decks or protected approval records were changed. See
+`research/STORY_CACHE_RECOVERY_2026-10-31.md` and
+`research/FULL_CHECKLIST_TRIAGE_2026-10-31.md`.
 
 **v2.72 pinned historical Scryfall recovery and printing/art replay (2026-10-31):**
 The **exact** previously unavailable `default-cards-20261028090549.jsonl.gz`
@@ -746,7 +776,7 @@ Infrastructure checkpoint: [PR #783](https://github.com/corymstover/GrokBotMTGCo
 - [x] Recover and strictly audit all **660** official Wizards source URLs in the original inventory.
 - [x] Commit a metadata-only provenance record without republishing copyrighted article bodies.
 - [x] Perform initial bounded triage of **341** uncertain name-matched character links.
-- [ ] Ensure future environments can reliably refetch and strictly audit official story text before using it as evidence.
+- [x] Ensure future environments can reliably refetch and strictly audit official story text before using it as evidence. *(v2.73: all 660 inventoried Wizards URLs independently refetched and strictly audited; 652 exact historical extraction hashes and eight explicitly quarantined drifts, with a portable 660-page provenance regression and pinned parser dependencies. The rule is to review changed extracts before applying them as claims, never to trust them automatically. See `data/story_cache_recovery_2026-10-31.json`.)*
 - [x] Review the two additional official-source leads (Koth and Wrenn) for exact printing-specific relationships. *(Done 2026-10-30, Batch 4: `scripts/build_koth_wrenn_printing_leads.py` → `data/lore_research/koth_wrenn_printing_leads_2026-10-30.json`. The review found 10 verbatim leads on cached official pages, 6 of them printing-specific, matching 13 printings. The Legends of Reality Fracture image labels give exact collector numbers: Koth, the Geomancer is FRA #248 and Koth of the Homestead is FRA #199. Art captions credit the card name and artist: Koth, Fire of Resistance is Eric Wilkerson (ONE #138, plus its promos), and Wrenn and Seven is Heonhwa Choe (MID #208 and its same-art reprints; Scryfall's credit is the shorter 'Heonhwa'). MOM Episode 8 captions separate regular-frame and borderless Wrenn and Realmbreaker (MOM #217 / #322). Koth of the Hammer is named only in the planeswalker page title, which does not identify a printing. Three 'Wrenn and Six/Seven' strings are character prose, not card references. No grades changed.)*
 - [x] Investigate the enriched cards that lack a cited lore entry. *(v2.40, Batch 12, [#899](https://github.com/corymstover/GrokBotMTGCompanion/pull/899): the real pool is **2,835** cards whose Lore line reads "❓ No lore entry", not ~1,220. `scripts/build_card_lore_links.py` writes the separate overlay `data/lore_research/card_lore_links_2026-10-30.json` (card_enrichment.json untouched). Every card was examined: **205 LINKED**, conservatively graded (133 CLAIM_ANCHORED via cited claims; 47 NAMED_IN_OFFICIAL_TEXT with a verbatim ≥25-char snippet; 77 IMPLIED_SAME_SET_NAME with a limitation; 26 of these also have art credited on an official page), 1 ART_ONLY, and **2,629 NO_LORE_YET** (600 Universes Beyond, never text-matched; 2,029 with no official-text match). PRELIMINARY_RESEARCH, not owner approved.)* *(v2.41, Batch 13, [#903](https://github.com/corymstover/GrokBotMTGCompanion/pull/903): fixed a Universes Beyond detection error from #899 that had produced at least one false LINKED card (Peter Parker). The overlay now reads **208 LINKED / 1 ART_ONLY / 2,626 NO_LORE_YET** (1,304 UB; 1,322 no official-text match). A separate printed-flavor overlay, `data/lore_research/flavor_lore_links_2026-10-30.json`, grades Scryfall-printed flavor text and attributions as PRINTED_FLAVOR evidence, distinct from story claims: 23 FLAVOR_LINKED, 6 FLAVOR_NAME_ONLY, 11 FLAVOR_SPEAKER_CHARACTER, 1,282 still NO_LORE_YET.)*
 - [ ] Link direct printed depictions, official story references, artwork, flavor text, characters and important events where evidence supports them. *(Partial, v2.33: `scripts/build_story_image_label_printings.py` ([PR #860](https://github.com/corymstover/GrokBotMTGCompanion/pull/860)) links 577 official story-page image labels of the form `NNNN_MTGSET_Kind: Card Name` on 57 pages to exact snapshot printings. 570 match (560 distinct printings), including 159/160 Reality Fracture labels (146 `fra`, 13 `frc`). 6 NAME_MISMATCH and 1 NO_PRINTING are recorded unresolved, not forced. A label shows which printing's art file the page used. It is not a claim about the story event the art depicts.)*
@@ -854,7 +884,7 @@ explicitly lifts the hold).
 - [ ] Rebuild and reconcile the Phase 1B set catalog and bidirectional printing lookups when new sets or printings appear, retaining historical snapshots.
   - v2.43: `scripts/audit_phase1b_snapshot_gates.py` selects exactly the SHA-pinned 2026-10-29 `default-cards` filename from the committed manifest. A missing archive now returns `MTG_PINNED_BULK_MISSING` with its expected SHA and source URL rather than `IndexError` or an accidental newest-bulk substitution. The complete source-level gate is still blocked in a clean clone until those exact bytes are available; the saved dated report stays qualified.
 - [x] Update snapshot manifests with actual download bytes and stable hashes. *(v2.72: the original Oct 28 source is now hash-recovered and measured at **80,216,061 compressed bytes**, matching its pre-existing SHA-256. The three original Oct 15–16 locked files and all three active Oct 29 Companion archives also have independently matched bytes and SHA-256, preserved in `data/scryfall_snapshots/historical_bulk_replay_2026-10-31.json` alongside the existing October 29 release manifest. The historical export manifest's deterministic schema stays unchanged.)*
-- [ ] Maintain an honest progress tracker: completed, under review, blocked, and not started.
+- [x] Maintain an honest progress tracker: completed, under review, blocked, and not started. *(v2.73: a deterministic all-137 task triage documents each open item's source/owner/engineering/ongoing blocker; the checkpoint separately lists 14 foundation release/Phase 8 gates, keeps Phase 6 deferred, and fails CI when either report is stale.)*
   - v2.43 partial: `scripts/update_multiverse_progress_tracker.py` now generates/checks a *current* 2026-10-30 status block at the top of `Progress Tracker.md` from the live Master Workflow, graph, enrichment and recount. Old cycle-36 data remains explicitly historical. The full task-state dashboard (under review/blocked/not started for every item) is still to be built, so this high-level box stays unchecked.
   - v2.60: the current tracker adds a generated four-state **14-gate foundation-release** triage from the dry-run's typed blockers. This does not pretend to classify all 137 engineering tasks or accept continuing maintenance; the broader all-item dashboard remains an open improvement.
 - [ ] Define an MTG Multiverse Companion milestone release based on verified features, not an arbitrary percentage of all lore. *(v2.42, Batch 14, [#911](https://github.com/corymstover/GrokBotMTGCompanion/pull/911): certification-checklist dry run `scripts/certification_dry_run.py` → `data/release/certification_dry_run_2026-10-30.json` / `research/CERTIFICATION_DRY_RUN_2026-10-30.md` lists the typed blockers for each release criterion and Phase 8 item (OWNER_APPROVAL 3, OWNER_DECISION 5, EXTERNAL_CI 3, MISSING_SOURCE 2, ENGINEERING_OPEN 4, ONGOING 4). It certifies nothing; accepting the definition is the owner's call.)*

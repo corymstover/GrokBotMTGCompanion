@@ -240,17 +240,8 @@
   },
   {
    "item": "Maintain an honest progress tracker: completed, under review, blocked, and not started.",
-   "workflow_checked": false,
-   "blockers": [
-    {
-     "kind": "ONGOING",
-     "what": "The current progress checkpoint now includes a generated completed / under review / blocked / not started triage for all 14 first-release and Phase 8 gates, with blocker types and an explicit distinction from the 137-item project checklist. It must keep regenerating as evidence changes.",
-     "evidence": [
-      "Progress Tracker.md",
-      "scripts/update_multiverse_progress_tracker.py"
-     ]
-    }
-   ],
+   "workflow_checked": true,
+   "blockers": [],
    "blocked_by_owner": false,
    "bot_can_still_act": false
   },
@@ -296,7 +287,7 @@
   "ENGINEERING_OPEN": 2,
   "EXTERNAL_CI": 4,
   "MISSING_SOURCE": 1,
-  "ONGOING": 5,
+  "ONGOING": 4,
   "OWNER_APPROVAL": 2,
   "OWNER_CONDITIONAL": 1,
   "OWNER_DECISION": 5
@@ -309,7 +300,6 @@
   "Keep targeted CI checks for card counts, source integrity, graph relationships, rules/Q&A and set data; preserve existing deck-legality regression checks without starting new decks.",
   "Monitor new official stories, Oracle changes, releases, rules and Commander format updates.",
   "Rebuild and reconcile the Phase 1B set catalog and bidirectional printing lookups when new sets or printings appear, retaining historical snapshots.",
-  "Maintain an honest progress tracker: completed, under review, blocked, and not started.",
   "Define an MTG Multiverse Companion milestone release based on verified features, not an arbitrary percentage of all lore.",
   "Treat continual future MTG releases as an ongoing maintenance track rather than a permanently finishable backlog."
  ],

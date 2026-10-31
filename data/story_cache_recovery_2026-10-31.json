@@ -1,0 +1,112 @@
+{
+  "schema": "story-cache-provenance-replay/v1",
+  "as_of": "2026-10-31",
+  "original_metadata_sha256": "9dc5aacf314cdd36c3a67b68a8eb8bded96e55bc721eb544697e3d50a896d5ee",
+  "source_inventory": "data/primary_sources.csv + data/story_extra_sources.csv + fetch_story_pages.py ARTICLES",
+  "total": 660,
+  "strictly_present": 660,
+  "exact_original_extraction_hashes": 652,
+  "source_extract_drift": 8,
+  "kind_totals": {
+    "article": 8,
+    "extra": 26,
+    "story": 626
+  },
+  "drift_review_queue": [
+    {
+      "kind": "story",
+      "url": "https://magic.wizards.com/en/news/feature/a-planeswalkers-guide-to-zendikar-murasa-and-sejiri",
+      "old_sha256": "aef7b373b44eb9c487bb97ca1868a4c9531f72308b0473903aebc860287ec365",
+      "new_sha256": "5ed52b02b29ff1ad8840a0147d6dcae53211b8a7b380984aea8273acb8537189",
+      "old_words": 3468,
+      "new_words": 3478,
+      "old_title": "A Planeswalker's Guide to Zendikar: Murasa and Sejiri",
+      "new_title": "A Planeswalker's Guide to Zendikar: Murasa and Sejiri",
+      "status": "EXTRACT_DRIFT_REVIEW_ONLY"
+    },
+    {
+      "kind": "story",
+      "url": "https://magic.wizards.com/en/news/feature/a-planeswalkers-guide-to-new-phyrexia",
+      "old_sha256": "1966348339aae9033579cf824e840725712f7c4036cac28a4e2c2e484a241587",
+      "new_sha256": "8060c84480aab5a6e25c681d8933801850c327bd3cbf5c93fff1e56447700654",
+      "old_words": 665,
+      "new_words": 675,
+      "old_title": "A Planeswalker's Guide to New Phyrexia | Magic: The Gathering",
+      "new_title": "A Planeswalker's Guide to New Phyrexia | Magic: The Gathering",
+      "status": "EXTRACT_DRIFT_REVIEW_ONLY"
+    },
+    {
+      "kind": "story",
+      "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-avacyn-restored-part-2",
+      "old_sha256": "9f57a3f10e7c6ed727966a52b976598834d0d23cf9d37481978e4abbf8e8b13c",
+      "new_sha256": "65f7b654d3f492a910400674b002232a9f6d1d881ae2eed75a92a002ff5ca7d6",
+      "old_words": 2781,
+      "new_words": 2791,
+      "old_title": "Planeswalker's Guide to Avacyn Restored: Part 2",
+      "new_title": "Planeswalker's Guide to Avacyn Restored: Part 2",
+      "status": "EXTRACT_DRIFT_REVIEW_ONLY"
+    },
+    {
+      "kind": "story",
+      "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-avacyn-restored-part-1",
+      "old_sha256": "99060e58a0b3e2f9243c16df71bdfd3730c53cda7bbed7e03d58f2e7aad571f6",
+      "new_sha256": "1435859bb789c183f6858e02cd3135bceab3bf6c3dc93eac8bed4965e0abdd47",
+      "old_words": 2409,
+      "new_words": 2419,
+      "old_title": "Planeswalker's Guide to Avacyn Restored: Part 1 | Magic: The Gathering",
+      "new_title": "Planeswalker's Guide to Avacyn Restored: Part 1 | Magic: The Gathering",
+      "status": "EXTRACT_DRIFT_REVIEW_ONLY"
+    },
+    {
+      "kind": "story",
+      "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-return-to-ravnica-part-3",
+      "old_sha256": "0fd9619a9dd9e618ad14c1770985d705e451b18c3d6e8776e4f236a9db37187a",
+      "new_sha256": "f7f7d616b45e57a6dc8cb146fd865ed0d4be8950523ed5cd8fbf283e356ff40e",
+      "old_words": 2648,
+      "new_words": 2658,
+      "old_title": "Planeswalker's Guide to Return to Ravnica: Part 3",
+      "new_title": "Planeswalker's Guide to Return to Ravnica: Part 3",
+      "status": "EXTRACT_DRIFT_REVIEW_ONLY"
+    },
+    {
+      "kind": "story",
+      "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-gatecrash-part-1",
+      "old_sha256": "d77425602d73d06478684c349ffab58bf2727d739443f138ac60e150919def74",
+      "new_sha256": "0fab2a8552fe5400b99cfd4e00dfae79331915244973720ce28d719f948325da",
+      "old_words": 3208,
+      "new_words": 3218,
+      "old_title": "Planeswalker's Guide to Gatecrash: Part 1",
+      "new_title": "Planeswalker's Guide to Gatecrash: Part 1",
+      "status": "EXTRACT_DRIFT_REVIEW_ONLY"
+    },
+    {
+      "kind": "story",
+      "url": "https://magic.wizards.com/en/news/feature/behind-black-sun-2013-03-25",
+      "old_sha256": "3f20c17b306d59bd76e5e55cfd245ee45a7a85f6ceb7eebf72b05b66087eb4a0",
+      "new_sha256": "0bed4c8810e3bfcc87176bff0875e5013bae2cd0390d284b9e697056c973b389",
+      "old_words": 1832,
+      "new_words": 1842,
+      "old_title": "Behind the Black Sun | MAGIC: THE GATHERING",
+      "new_title": "Behind the Black Sun | MAGIC: THE GATHERING",
+      "status": "EXTRACT_DRIFT_REVIEW_ONLY"
+    },
+    {
+      "kind": "article",
+      "url": "https://magic.wizards.com/en/formats/commander",
+      "old_sha256": "05614d14f545d8d0188730477942ef5abb52a1951e0fcf53e35d97083cb23cbd",
+      "new_sha256": "b50e61c26ad1b0509e49e02f4f9100a09d9ee0e407e5ccb11a5d40a53b43931a",
+      "old_words": 1276,
+      "new_words": 1276,
+      "old_title": "MTG Commander Format | Magic: The Gathering",
+      "new_title": "MTG Commander Format | Magic: The Gathering",
+      "status": "EXTRACT_DRIFT_REVIEW_ONLY"
+    }
+  ],
+  "source_text_embedded": false,
+  "result": "STRICT_SOURCE_URL_AND_LENGTH_AUDIT_PASSED; changed cached extracts require independent review",
+  "limits": [
+    "A matching extract hash is not proof that an article covers all relevant canon.",
+    "A changed extract is not automatically a lore correction or a new canon claim.",
+    "Article contents are copyrighted and remain outside Git; only metadata are committed."
+  ]
+}

@@ -1,0 +1,4 @@
+# Rebuild the ignored 660-page Wizards source cache; no dependency on deck files.
+# Python 3.12 source-extraction environment verified 2026-10-31.
+beautifulsoup4==4.15.0
+lxml==6.1.3

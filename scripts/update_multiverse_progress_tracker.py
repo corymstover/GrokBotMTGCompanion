@@ -67,7 +67,10 @@ def build() -> str:
     coverage = load("data/lore_research/story_coverage_inventory_2026-10-30.json")["totals"]
     enrichment = load("data/card_enrichment.json")["cards"]
     readiness = load("data/release/readiness_2026-10-30.json")["verdict"]
+    full_triage = load("data/release/full_checklist_triage_2026-10-31.json")["totals"]
     done = sum(x == "x" for x in checks)
+    assert (full_triage["checked"], full_triage["open"], full_triage["items"]) == (
+        done, len(checks) - done, len(checks)), "137-item checklist dashboard is stale"
     assert len(enrichment) == 5362, "unexpected priority-enrichment count; review the tracker generator"
     current_claims = sum(graph["claims_by_status"].values())
     assert coverage["claims"] == current_claims, "story inventory and graph claim counts diverged"
@@ -110,6 +113,15 @@ Blocked **{gate_counts['Blocked']}** · Not started **{gate_counts['Not started'
 exact-commit CI and ongoing maintenance. "Blocked" means a documented missing
 source or remaining engineering work. The complete typed evidence is in
 `data/release/certification_dry_run_2026-10-30.json`.
+
+**All-137 engineering checklist triage (not release certification):**
+Completed **{full_triage['by_status']['Completed']}** · Under review **{full_triage['by_status']['Under review']}** ·
+Blocked **{full_triage['by_status']['Blocked']}** · Not started **{full_triage['by_status']['Not started']}**.
+Every checked and unchecked task is accounted for in
+`data/release/full_checklist_triage_2026-10-31.json` and
+`research/FULL_CHECKLIST_TRIAGE_2026-10-31.md`. The ten deferred Phase 6
+items count as blocked by the foundation-first directive, not unfinished
+foundation certification tasks.
 
 {gate_report}
 

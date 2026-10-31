@@ -1,8 +1,8 @@
 {
  "generated_by": "scripts/check_citations.py --online",
  "sitemap": "https://magic.wizards.com/en/sitemap.xml",
- "sitemap_urls": 4578,
- "checked": "2026-10-16",
+ "sitemap_urls": 4601,
+ "checked": "2026-10-31",
  "urls": {
   "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=73979": {
    "status": "redirect",
@@ -81,6 +81,10 @@
    "status": "sitemap",
    "checked": "2026-10-16"
   },
+  "https://magic.wizards.com/en/news/announcements/2023-apac-league-and-the-year-of-the-rabbit": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
+  },
   "https://magic.wizards.com/en/news/announcements/a-first-look-at-outlaws-of-thunder-junction": {
    "status": "sitemap",
    "checked": "2026-10-16"
@@ -88,6 +92,38 @@
   "https://magic.wizards.com/en/news/announcements/a-first-look-at-wilds-of-eldraine": {
    "status": "sitemap",
    "checked": "2026-10-16"
+  },
+  "https://magic.wizards.com/en/news/announcements/aligning-the-universes-making-all-our-sets-legal-in-all-our-formats": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
+  },
+  "https://magic.wizards.com/en/news/announcements/announcing-cowboy-bebop-collaboration-promo-cards": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
+  },
+  "https://magic.wizards.com/en/news/announcements/announcing-unsanctioned-2019-10-10": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
+  },
+  "https://magic.wizards.com/en/news/announcements/celebrate-30-years-magic-gathering-30th-anniversary-edition-2022-10-04": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
+  },
+  "https://magic.wizards.com/en/news/announcements/celebrate-year-tiger-apac-league-events-and-promos-2022-02-09": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
+  },
+  "https://magic.wizards.com/en/news/announcements/chaos-vault-the-zeta-set-puts-the-playtest-in-your-hands": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
+  },
+  "https://magic.wizards.com/en/news/announcements/commander-2021-edition-decklists-2021-04-05": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
+  },
+  "https://magic.wizards.com/en/news/announcements/commander-anthology-vol-ii-legends-and-decklists-2018-05-08": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
   },
   "https://magic.wizards.com/en/news/announcements/commander-banned-and-restricted-february-9-2026": {
    "status": "sitemap",
@@ -101,13 +137,137 @@
    "status": "sitemap",
    "checked": "2026-10-16"
   },
+  "https://magic.wizards.com/en/news/announcements/commander-collection-black-packaging-and-contents-2021-08-24": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
+  },
+  "https://magic.wizards.com/en/news/announcements/earn-sweet-year-of-the-snake-promos-at-your-local-game-store": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
+  },
+  "https://magic.wizards.com/en/news/announcements/final-fantasy-commander-decklists": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
+  },
+  "https://magic.wizards.com/en/news/announcements/foundations-commander-decklists": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
+  },
+  "https://magic.wizards.com/en/news/announcements/foundations-jumpstart-booster-themes": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
+  },
+  "https://magic.wizards.com/en/news/announcements/game-night-free-for-all-contents-update": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
+  },
   "https://magic.wizards.com/en/news/announcements/introducing-commander-brackets-beta": {
    "status": "sitemap",
    "checked": "2026-10-16"
   },
+  "https://magic.wizards.com/en/news/announcements/introducing-jumpstart-new-way-play-magic-2020-02-20": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
+  },
+  "https://magic.wizards.com/en/news/announcements/introducing-magic-game-night-and-updated-gift-pack-2018-08-27": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
+  },
+  "https://magic.wizards.com/en/news/announcements/kicking-magics-30th-anniversary-celebration-2022-10-04": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
+  },
+  "https://magic.wizards.com/en/news/announcements/love-your-local-game-store-more-summer-legend-promos-2021-06-23": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
+  },
+  "https://magic.wizards.com/en/news/announcements/love-your-local-game-store-returns-with-double-masters-2022": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
+  },
+  "https://magic.wizards.com/en/news/announcements/magic-extra-life-2019-10-03": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
+  },
+  "https://magic.wizards.com/en/news/announcements/magic-the-gathering-doctor-who-commander-decklists": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
+  },
+  "https://magic.wizards.com/en/news/announcements/magic-the-gathering-pricing-update": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
+  },
+  "https://magic.wizards.com/en/news/announcements/making-fetch-happen-secret-lair-ultimate-edition-2020-03-13": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
+  },
+  "https://magic.wizards.com/en/news/announcements/marvel-super-heroes-commander-decklists": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
+  },
+  "https://magic.wizards.com/en/news/announcements/mystery-booster-convention-edition-returns-store-events-2021-06-21": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
+  },
   "https://magic.wizards.com/en/news/announcements/official-reprint-policy": {
    "status": "sitemap",
    "checked": "2026-10-16"
+  },
+  "https://magic.wizards.com/en/news/announcements/ravnica-clue-edition-ravnica-cluedo-edition-booster-contents": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
+  },
+  "https://magic.wizards.com/en/news/announcements/reality-fracture-multiverse-reforged-commander-decklist": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
+  },
+  "https://magic.wizards.com/en/news/announcements/secret-lair-recap-2019-11-25": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
+  },
+  "https://magic.wizards.com/en/news/announcements/see-cards-vault-transform-2017-11-06": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
+  },
+  "https://magic.wizards.com/en/news/announcements/signature-spellbook-chandra-packaging-and-contents-2020-06-03": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
+  },
+  "https://magic.wizards.com/en/news/announcements/signature-spellbook-jace-packaging-and-contents-2018-03-20": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
+  },
+  "https://magic.wizards.com/en/news/announcements/starter-commander-decks-available-december-2-2022-09-29": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
+  },
+  "https://magic.wizards.com/en/news/announcements/warhammer-40000-commander-decklists": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
+  },
+  "https://magic.wizards.com/en/news/announcements/whats-new-on-the-list-for-wilds-of-eldraine": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
+  },
+  "https://magic.wizards.com/en/news/announcements/year-ox-store-challenger-series-2021-promos-2021-05-17": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
+  },
+  "https://magic.wizards.com/en/news/card-image-gallery/card-image-gallery-2012-05-21": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
+  },
+  "https://magic.wizards.com/en/news/card-image-gallery/modern-horizons-3-art-cards": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
+  },
+  "https://magic.wizards.com/en/news/card-image-gallery/war-of-the-spark": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
+  },
+  "https://magic.wizards.com/en/news/card-preview/commander-collection-green-packaging-and-contents-2020-08-22": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
   },
   "https://magic.wizards.com/en/news/card-preview/introducing-ward-2021-03-25": {
    "status": "sitemap",
@@ -121,6 +281,14 @@
    "status": "sitemap",
    "checked": "2026-10-16"
   },
+  "https://magic.wizards.com/en/news/card-preview/reality-fracture-tokens-and-art-cards": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
+  },
+  "https://magic.wizards.com/en/news/card-preview/sagas-kamigawa-neon-dynasty-2022-01-27": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
+  },
   "https://magic.wizards.com/en/news/card-preview/story-spotlight-cards-for-murders-at-karlov-manor": {
    "status": "sitemap",
    "checked": "2026-10-16"
@@ -128,6 +296,18 @@
   "https://magic.wizards.com/en/news/card-preview/story-spotlight-cards-for-the-lost-caverns-of-ixalan": {
    "status": "sitemap",
    "checked": "2026-10-16"
+  },
+  "https://magic.wizards.com/en/news/card-preview/the-tokens-of-modern-horizons-3": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
+  },
+  "https://magic.wizards.com/en/news/card-preview/the-tokens-of-outlaws-of-thunder-junction": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
+  },
+  "https://magic.wizards.com/en/news/card-preview/zendikar-rising-commander-decklists-2020-09-09": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
   },
   "https://magic.wizards.com/en/news/feature/a-legendary-crew-for-an-unbelievable-heist-outlaws-of-thunder-junction": {
    "status": "sitemap",
@@ -165,6 +345,14 @@
    "status": "sitemap",
    "checked": "2026-10-16"
   },
+  "https://magic.wizards.com/en/news/feature/archenemy-nicol-bolas-release-notes-2017-06-16": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
+  },
+  "https://magic.wizards.com/en/news/feature/archenemy-rules-revealed-2010-05-17": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
+  },
   "https://magic.wizards.com/en/news/feature/armor-crypt-2013-07-01": {
    "status": "sitemap",
    "checked": "2026-10-16"
@@ -188,6 +376,10 @@
   "https://magic.wizards.com/en/news/feature/battle-ninth-2013-06-19": {
    "status": "sitemap",
    "checked": "2026-10-16"
+  },
+  "https://magic.wizards.com/en/news/feature/battlebond-mechanics-2018-05-21": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
   },
   "https://magic.wizards.com/en/news/feature/beast-2014-06-19": {
    "status": "sitemap",
@@ -229,17 +421,69 @@
    "status": "sitemap",
    "checked": "2026-10-16"
   },
+  "https://magic.wizards.com/en/news/feature/buyer-beware-2004-04-26": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
+  },
   "https://magic.wizards.com/en/news/feature/chandras-origin-fire-logic-2015-06-10": {
    "status": "sitemap",
    "checked": "2026-10-16"
+  },
+  "https://magic.wizards.com/en/news/feature/checking-planeswalkers-2015-2015-08-19": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
   },
   "https://magic.wizards.com/en/news/feature/cogwork-2014-05-28-0": {
    "status": "sitemap",
    "checked": "2026-10-16"
   },
+  "https://magic.wizards.com/en/news/feature/collecting-avatar-the-last-airbender": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
+  },
+  "https://magic.wizards.com/en/news/feature/collecting-marvels-spider-man": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
+  },
+  "https://magic.wizards.com/en/news/feature/collecting-modern-horizons-2-2021-05-21": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
+  },
+  "https://magic.wizards.com/en/news/feature/collecting-modern-horizons-3": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
+  },
+  "https://magic.wizards.com/en/news/feature/collecting-teenage-mutant-ninja-turtles": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
+  },
+  "https://magic.wizards.com/en/news/feature/collecting-the-hobbit": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
+  },
+  "https://magic.wizards.com/en/news/feature/collecting-the-lost-caverns-of-ixalan": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
+  },
+  "https://magic.wizards.com/en/news/feature/commander-legends-battle-for-baldurs-gate-product-overview": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
+  },
   "https://magic.wizards.com/en/news/feature/consequences-attraction-2013-10-09": {
    "status": "sitemap",
    "checked": "2026-10-16"
+  },
+  "https://magic.wizards.com/en/news/feature/conspiracy-mechanics": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
+  },
+  "https://magic.wizards.com/en/news/feature/conspiracy-take-crown-mechanics-2016-08-15": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
+  },
+  "https://magic.wizards.com/en/news/feature/core-set-2019-release-notes-2018-06-22": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
   },
   "https://magic.wizards.com/en/news/feature/core-set-2021-and-jumpstart-release-notes-2020-06-20": {
    "status": "sitemap",
@@ -256,6 +500,10 @@
   "https://magic.wizards.com/en/news/feature/desperate-stand-2014-04-16-0": {
    "status": "sitemap",
    "checked": "2026-10-16"
+  },
+  "https://magic.wizards.com/en/news/feature/dominaria-united-release-notes-2022-08-26": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
   },
   "https://magic.wizards.com/en/news/feature/dragons-errand-2015-05-06": {
    "status": "sitemap",
@@ -276,6 +524,14 @@
   "https://magic.wizards.com/en/news/feature/fblthp-2013-12-25": {
    "status": "sitemap",
    "checked": "2026-10-16"
+  },
+  "https://magic.wizards.com/en/news/feature/flavorful-guide-guilds-ravnica-2018-10-03": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
+  },
+  "https://magic.wizards.com/en/news/feature/flavorful-guide-guilds-ravnica-allegiance-2019-02-07": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
   },
   "https://magic.wizards.com/en/news/feature/gideons-origin-kytheon-iora-akros-2015-07-01": {
    "status": "sitemap",
@@ -309,6 +565,14 @@
    "status": "sitemap",
    "checked": "2026-10-16"
   },
+  "https://magic.wizards.com/en/news/feature/innistrad-double-feature-product-overview-2021-11-15": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
+  },
+  "https://magic.wizards.com/en/news/feature/ixalan-release-notes": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
+  },
   "https://magic.wizards.com/en/news/feature/jaces-origin-absent-minds-2015-06-24": {
    "status": "sitemap",
    "checked": "2026-10-16"
@@ -316,6 +580,10 @@
   "https://magic.wizards.com/en/news/feature/journey-nexus-2014-12-10": {
    "status": "sitemap",
    "checked": "2026-10-16"
+  },
+  "https://magic.wizards.com/en/news/feature/kami-war-2022-01-11": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
   },
   "https://magic.wizards.com/en/news/feature/known-mutliverse-2008-03-19": {
    "status": "sitemap",
@@ -353,9 +621,17 @@
    "status": "sitemap",
    "checked": "2026-10-16"
   },
+  "https://magic.wizards.com/en/news/feature/life-toshiro-umezawa-2022-01-12": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
+  },
   "https://magic.wizards.com/en/news/feature/lilianas-origin-fourth-pact-2015-06-17": {
    "status": "sitemap",
    "checked": "2026-10-16"
+  },
+  "https://magic.wizards.com/en/news/feature/list-unfinity-un-usual-twist-list-2022-09-20": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
   },
   "https://magic.wizards.com/en/news/feature/lost-confession-2013-09-09": {
    "status": "sitemap",
@@ -377,9 +653,29 @@
    "status": "sitemap",
    "checked": "2026-10-16"
   },
+  "https://magic.wizards.com/en/news/feature/magic-origins-clash-pack-and-intro-pack-decklists-2015-07-09": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
+  },
+  "https://magic.wizards.com/en/news/feature/march-of-the-machine-release-notes": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
+  },
+  "https://magic.wizards.com/en/news/feature/michikos-reign-truth-2022-01-13": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
+  },
+  "https://magic.wizards.com/en/news/feature/modern-horizons-release-notes-2019-05-31": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
+  },
   "https://magic.wizards.com/en/news/feature/my-journey-2014-04-07": {
    "status": "sitemap",
    "checked": "2026-10-16"
+  },
+  "https://magic.wizards.com/en/news/feature/mystery-booster-release-notes-2019-11-11": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
   },
   "https://magic.wizards.com/en/news/feature/naming-nameless-brandon-sanderson-2018-12-12": {
    "status": "sitemap",
@@ -412,6 +708,18 @@
   "https://magic.wizards.com/en/news/feature/persistence-memory-2013-01-16": {
    "status": "sitemap",
    "checked": "2026-10-16"
+  },
+  "https://magic.wizards.com/en/news/feature/phyrexia-all-will-be-one-release-notes": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
+  },
+  "https://magic.wizards.com/en/news/feature/planechase-anthology-celebration-magics-history-2016-11-14": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
+  },
+  "https://magic.wizards.com/en/news/feature/planes-planechase-2009-12-30": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
   },
   "https://magic.wizards.com/en/news/feature/planeswalkers-guide-born-gods-2014-01-08": {
    "status": "sitemap",
@@ -613,6 +921,14 @@
    "status": "sitemap",
    "checked": "2026-10-16"
   },
+  "https://magic.wizards.com/en/news/feature/ravnica-then-and-now-2012-08-29-0": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
+  },
+  "https://magic.wizards.com/en/news/feature/reality-fracture-release-notes": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
+  },
   "https://magic.wizards.com/en/news/feature/reclamation-2016-01-06": {
    "status": "sitemap",
    "checked": "2026-10-16"
@@ -645,6 +961,10 @@
    "status": "sitemap",
    "checked": "2026-10-16"
   },
+  "https://magic.wizards.com/en/news/feature/secrets-of-strixhaven-release-notes": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
+  },
   "https://magic.wizards.com/en/news/feature/slaughter-games-2012-10-13": {
    "status": "sitemap",
    "checked": "2026-10-16"
@@ -652,6 +972,10 @@
   "https://magic.wizards.com/en/news/feature/stonekiller-2012-08-06": {
    "status": "sitemap",
    "checked": "2026-10-16"
+  },
+  "https://magic.wizards.com/en/news/feature/strixhaven-school-mages-and-commander-2021-edition-release-notes-2021-04-16": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
   },
   "https://magic.wizards.com/en/news/feature/ten-commanders-2013-10-29": {
    "status": "sitemap",
@@ -668,6 +992,10 @@
   "https://magic.wizards.com/en/news/feature/teysa-karlov-2013-04-10": {
    "status": "sitemap",
    "checked": "2026-10-16"
+  },
+  "https://magic.wizards.com/en/news/feature/the-brothers-war-release-notes": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
   },
   "https://magic.wizards.com/en/news/feature/the-legendary-team-ups-of-march-of-the-machine": {
    "status": "sitemap",
@@ -721,9 +1049,33 @@
    "status": "sitemap",
    "checked": "2026-10-16"
   },
+  "https://magic.wizards.com/en/news/feature/unfinity-release-notes-2022-10-07": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
+  },
+  "https://magic.wizards.com/en/news/feature/vanguard-2008-08-14": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
+  },
+  "https://magic.wizards.com/en/news/feature/vault-lore-2016-08-01": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
+  },
+  "https://magic.wizards.com/en/news/feature/whats-inside-mystery-booster-2": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
+  },
   "https://magic.wizards.com/en/news/feature/whats-inside-mystery-booster-commander-edition": {
    "status": "sitemap",
    "checked": "2026-10-16"
+  },
+  "https://magic.wizards.com/en/news/feature/whats-inside-the-brothers-war-boosters": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
+  },
+  "https://magic.wizards.com/en/news/feature/wilds-of-eldraine-release-notes": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
   },
   "https://magic.wizards.com/en/news/feature/worlds-magic-origins-2015-07-09": {
    "status": "sitemap",
@@ -2657,25 +3009,101 @@
    "status": "sitemap",
    "checked": "2026-10-16"
   },
+  "https://magic.wizards.com/en/news/making-magic/25-more-random-things-about-magic-2016-06-20": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
+  },
+  "https://magic.wizards.com/en/news/making-magic/25-random-things-about-magic-2009-02-16": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
+  },
+  "https://magic.wizards.com/en/news/making-magic/a-double-take-part-1": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
+  },
+  "https://magic.wizards.com/en/news/making-magic/act-of-war-part-1": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
+  },
+  "https://magic.wizards.com/en/news/making-magic/checking-planeswalkers-2014-06-17": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
+  },
   "https://magic.wizards.com/en/news/making-magic/choosing-your-battles-part-3": {
    "status": "sitemap",
    "checked": "2026-10-16"
+  },
+  "https://magic.wizards.com/en/news/making-magic/command-2012-10-25": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
   },
   "https://magic.wizards.com/en/news/making-magic/deciduous-2022-03-28": {
    "status": "sitemap",
    "checked": "2026-10-16"
   },
+  "https://magic.wizards.com/en/news/making-magic/devastation-information-part-3-2017-07-17": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
+  },
+  "https://magic.wizards.com/en/news/making-magic/double-deal-2020-07-20": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
+  },
+  "https://magic.wizards.com/en/news/making-magic/even-more-war-games-2019-05-06": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
+  },
   "https://magic.wizards.com/en/news/making-magic/evergreen-eggs-ham-2015-06-08": {
    "status": "sitemap",
    "checked": "2026-10-16"
+  },
+  "https://magic.wizards.com/en/news/making-magic/get-it-unstable-edition-2022-03-21": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
   },
   "https://magic.wizards.com/en/news/making-magic/journeys-end-2014-05-26": {
    "status": "sitemap",
    "checked": "2026-10-16"
   },
+  "https://magic.wizards.com/en/news/making-magic/lessons-learned-part-7": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
+  },
+  "https://magic.wizards.com/en/news/making-magic/looking-back-part-1": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
+  },
+  "https://magic.wizards.com/en/news/making-magic/looking-back-part-2": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
+  },
+  "https://magic.wizards.com/en/news/making-magic/more-odds-ends-core-set-2019-2018-08-06": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
+  },
+  "https://magic.wizards.com/en/news/making-magic/more-war-games-2019-04-29": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
+  },
+  "https://magic.wizards.com/en/news/making-magic/odds-ends-strixhaven-part-1-2021-05-03": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
+  },
   "https://magic.wizards.com/en/news/making-magic/odds-ends-theros-beyond-death-2020-01-27": {
    "status": "sitemap",
    "checked": "2026-10-16"
+  },
+  "https://magic.wizards.com/en/news/making-magic/odds-ends-zendikar-rising-2020-10-05": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
+  },
+  "https://magic.wizards.com/en/news/making-magic/origin-stories": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
+  },
+  "https://magic.wizards.com/en/news/making-magic/original-spin-2015-08-17": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
   },
   "https://magic.wizards.com/en/news/making-magic/planeswalkers-guide-theros-part-1-2013-08-21": {
    "status": "sitemap",
@@ -2689,9 +3117,73 @@
    "status": "sitemap",
    "checked": "2026-10-16"
   },
+  "https://magic.wizards.com/en/news/making-magic/prose-and-khans-part-2-2014-09-22": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
+  },
+  "https://magic.wizards.com/en/news/making-magic/seeing-forest-treefolk-2007-12-17-0": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
+  },
+  "https://magic.wizards.com/en/news/making-magic/starting-with-a-good-foundations-part-1": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
+  },
   "https://magic.wizards.com/en/news/making-magic/ten-stories-tall": {
    "status": "sitemap",
    "checked": "2026-10-16"
+  },
+  "https://magic.wizards.com/en/news/making-magic/the-brothers-war-card-stories-part-1": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
+  },
+  "https://magic.wizards.com/en/news/making-magic/the-brothers-war-card-stories-part-2": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
+  },
+  "https://magic.wizards.com/en/news/making-magic/the-rabiah-scale-part-3": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
+  },
+  "https://magic.wizards.com/en/news/making-magic/trivial-pursuit-more-or-less": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
+  },
+  "https://magic.wizards.com/en/news/making-magic/unstable-scraps-part-3-2017-12-11": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
+  },
+  "https://magic.wizards.com/en/news/making-magic/war-games-2019-04-22": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
+  },
+  "https://magic.wizards.com/en/news/making-magic/weatherlight-report-2007-12-03": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
+  },
+  "https://magic.wizards.com/en/news/making-magic/what-core-can-i-say-part-2-2019-07-08": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
+  },
+  "https://magic.wizards.com/en/news/mtg-arena/mtg-arena-announcements-november-28-2022": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
+  },
+  "https://magic.wizards.com/en/product-guide": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
+  },
+  "https://magic.wizards.com/en/products": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
+  },
+  "https://magic.wizards.com/en/products/midnight-hunt": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
+  },
+  "https://magic.wizards.com/en/products/the-brothers-war": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
   },
   "https://magic.wizards.com/en/rules": {
    "status": "sitemap",
@@ -3013,6 +3505,11 @@
    "status": "sitemap",
    "checked": "2026-10-16"
   },
+  "https://magic.wizards.com/zh-Hant/news/announcements/celebrate-the-year-of-the-horse-at-your-local-game-store-and-more": {
+   "status": "live",
+   "http": 200,
+   "checked": "2026-10-31"
+  },
   "https://media.wizards.com/2022/downloads/BRO_Release_Notes/EN_MTGBRO_ReleaseNotes_20221014_2Bg2YEfIsE.pdf": {
    "status": "live",
    "http": 200,
@@ -3219,9 +3716,42 @@
    "checked": "2026-10-16",
    "final": "https://wpn.wizards.com/en/rules-documents"
   },
+  "https://wpn.wizards.com/en/news/announcing-love-your-local-game-store-promotion": {
+   "status": "live",
+   "http": 200,
+   "checked": "2026-10-31"
+  },
+  "https://wpn.wizards.com/en/news/love-your-local-game-store-2024-begins-july-5-with-all-new-lylgs-draft-event": {
+   "status": "live",
+   "http": 200,
+   "checked": "2026-10-31"
+  },
+  "https://wpn.wizards.com/en/news/magic-30th-anniversary-kicks-off-with-promos-products-more": {
+   "status": "live",
+   "http": 200,
+   "checked": "2026-10-31"
+  },
+  "https://wpn.wizards.com/en/news/pro-tour-returns-re-ignite-your-stores-competitive-play": {
+   "status": "live",
+   "http": 200,
+   "checked": "2026-10-31"
+  },
+  "https://wpn.wizards.com/en/news/whats-coming-dmu-marketing-kit": {
+   "status": "live",
+   "http": 200,
+   "checked": "2026-10-31"
+  },
   "https://www.magic.wizards.com/en/news/announcements/banned-and-restricted-october-12-2026": {
    "status": "sitemap",
    "checked": "2026-10-16"
+  },
+  "https://www.magic.wizards.com/en/news/feature/whats-inside-mystery-booster-commander-edition": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
+  },
+  "https://www.magic.wizards.com/en/news/magic-story/planeswalkers-guide-to-reality-fracture": {
+   "status": "sitemap",
+   "checked": "2026-10-31"
   }
  }
 }
