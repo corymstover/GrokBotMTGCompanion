@@ -5,6 +5,9 @@ on:
     paths:
       - 'scripts/release_readiness.py'
       - 'scripts/certification_dry_run.py'
+      - 'scripts/audit_full_checklist.py'
+      - 'tests/test_full_checklist_triage.py'
+      - 'research/FULL_CHECKLIST_TRIAGE_2026-10-31.md'
       - 'scripts/build_foundation_acceptance_packet.py'
       - 'tests/test_foundation_acceptance_packet.py'
       - 'research/FOUNDATION_ACCEPTANCE_PACKET_2026-10-30.md'
@@ -49,6 +52,10 @@ jobs:
           PY
       - name: Certification dry run matches (lists blockers; certifies nothing)
         run: python3 scripts/certification_dry_run.py --check
+      - name: Every one of 137 project tasks is explicitly triaged
+        run: |
+          python3 scripts/audit_full_checklist.py --check
+          python3 -m unittest discover -s tests -p 'test_full_checklist_triage.py' -v
       - name: Knowledge-only foundation acceptance evidence (not owner certification)
         run: |
           python3 scripts/build_foundation_acceptance_packet.py --check

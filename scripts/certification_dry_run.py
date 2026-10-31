@@ -114,10 +114,11 @@ PHASE8_BLOCKERS = [
     ]),
     ("Update snapshot manifests", []),  # Exact Oct 28/Oct 15–16 bytes recovered, hashed, independently replayed.
     ("Maintain an honest progress tracker", [
-        B("ONGOING", "The current progress checkpoint now includes a generated completed / under review / blocked / "
-          "not started triage for all 14 first-release and Phase 8 gates, with blocker types and an explicit "
-          "distinction from the 137-item project checklist. It must keep regenerating as evidence changes.",
-          "Progress Tracker.md", "scripts/update_multiverse_progress_tracker.py"),
+        B("ONGOING", "All 137 project tasks now have a deterministic Completed / Under review / Blocked / "
+          "Not started audit and the 14 release/Phase 8 gates retain separate blocker triage. "
+          "The engineering checkpoint is checked, but must keep regenerating as source evidence changes.",
+          "Progress Tracker.md", "scripts/audit_full_checklist.py",
+          "data/release/full_checklist_triage_2026-10-31.json"),
     ]),
     ("Define an MTG Multiverse Companion milestone release", [
         B("OWNER_DECISION", "release_readiness.py now scores a knowledge-only foundation (verdict NOT_RELEASE_READY); "

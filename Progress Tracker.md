@@ -14,13 +14,13 @@ schema: 2
 <!-- MULTIVERSE-CURRENT:START -->
 ## MTG Multiverse Companion — current engineering checkpoint (2026-10-31)
 
-**Live authority:** [Master Workflow v2.72](MTG_MULTIVERSE_MASTER_WORKFLOW.md), the current
+**Live authority:** [Master Workflow v2.73](MTG_MULTIVERSE_MASTER_WORKFLOW.md), the current
 graph and dated recount. The older cycle-36/October-15 metrics **below this section are historical**;
 they are not the active Phase 1–8 completion counters.
 
 | Measure | Verified committed state | Important limitation |
 | --- | ---: | --- |
-| Master Workflow checklist | **86/137 checked; 51 open** | Engineering verification, never owner approval. |
+| Master Workflow checklist | **88/137 checked; 49 open** | Engineering verification, never owner approval. |
 | Priority card enrichments | **5362/5,362** | Enrichment does not imply every card has a sourced story. |
 | Source-page inventory | **576 cited + 50 reviewed = 626 accounted for** | Current inventoried pages only, not all fiction ever published. |
 | Cited lore claims | **1259** | Live graph/inventory concordance; claim packs remain preliminary research. |
@@ -33,12 +33,21 @@ they are not the active Phase 1–8 completion counters.
 | Official source watch | **Weekly review-only workflow** | Story index, Scryfall metadata and rules PDF candidates; not automatic lore/rules updates. |
 
 **First-release and Phase 8 gate triage (14 gates, separate from the 137-item engineering checklist):**
-Completed **1** · Under review **10** ·
+Completed **2** · Under review **9** ·
 Blocked **3** · Not started **0**.
 "Under review" does **not** mean approved; it includes pending owner decisions,
 exact-commit CI and ongoing maintenance. "Blocked" means a documented missing
 source or remaining engineering work. The complete typed evidence is in
 `data/release/certification_dry_run_2026-10-30.json`.
+
+**All-137 engineering checklist triage (not release certification):**
+Completed **88** · Under review **32** ·
+Blocked **17** · Not started **0**.
+Every checked and unchecked task is accounted for in
+`data/release/full_checklist_triage_2026-10-31.json` and
+`research/FULL_CHECKLIST_TRIAGE_2026-10-31.md`. The ten deferred Phase 6
+items count as blocked by the foundation-first directive, not unfinished
+foundation certification tasks.
 
 | Gate | Triage | Remaining blocker types |
 | --- | --- | --- |
@@ -53,7 +62,7 @@ source or remaining engineering work. The complete typed evidence is in
 | Monitor new official stories, Oracle changes, releases, rules… | Under review | ONGOING |
 | Rebuild and reconcile the Phase 1B set catalog and bidirection… | Under review | ONGOING |
 | Update snapshot manifests with actual download bytes and stabl… | Completed | none |
-| Maintain an honest progress tracker: completed, under review,… | Under review | ONGOING |
+| Maintain an honest progress tracker: completed, under review,… | Completed | ONGOING |
 | Define an MTG Multiverse Companion milestone release based on… | Under review | OWNER_DECISION |
 | Treat continual future MTG releases as an ongoing maintenance… | Under review | ONGOING, OWNER_DECISION |
 

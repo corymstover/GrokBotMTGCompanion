@@ -240,14 +240,15 @@
   },
   {
    "item": "Maintain an honest progress tracker: completed, under review, blocked, and not started.",
-   "workflow_checked": false,
+   "workflow_checked": true,
    "blockers": [
     {
      "kind": "ONGOING",
-     "what": "The current progress checkpoint now includes a generated completed / under review / blocked / not started triage for all 14 first-release and Phase 8 gates, with blocker types and an explicit distinction from the 137-item project checklist. It must keep regenerating as evidence changes.",
+     "what": "All 137 project tasks now have a deterministic Completed / Under review / Blocked / Not started audit and the 14 release/Phase 8 gates retain separate blocker triage. The engineering checkpoint is checked, but must keep regenerating as source evidence changes.",
      "evidence": [
       "Progress Tracker.md",
-      "scripts/update_multiverse_progress_tracker.py"
+      "scripts/audit_full_checklist.py",
+      "data/release/full_checklist_triage_2026-10-31.json"
      ]
     }
    ],
