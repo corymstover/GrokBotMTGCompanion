@@ -14,7 +14,7 @@ schema: 2
 <!-- MULTIVERSE-CURRENT:START -->
 ## MTG Multiverse Companion — current engineering checkpoint (2026-10-30)
 
-**Live authority:** [Master Workflow v2.59](MTG_MULTIVERSE_MASTER_WORKFLOW.md), the current
+**Live authority:** [Master Workflow v2.60](MTG_MULTIVERSE_MASTER_WORKFLOW.md), the current
 graph and dated recount. The older cycle-36/October-15 metrics **below this section are historical**;
 they are not the active Phase 1–8 completion counters.
 
@@ -30,6 +30,31 @@ they are not the active Phase 1–8 completion counters.
 | Parked graph-built Commander pilots | **3 unapproved** | Preserved, not a knowledge-foundation release gate. |
 | Foundation-release readiness | **NOT_RELEASE_READY** | Research, owner foundation review, external checks and engineering remain. |
 | Official source watch | **Weekly review-only workflow** | Story index, Scryfall metadata and rules PDF candidates; not automatic lore/rules updates. |
+
+**First-release and Phase 8 gate triage (14 gates, separate from the 137-item engineering checklist):**
+Completed **0** · Under review **10** ·
+Blocked **4** · Not started **0**.
+"Under review" does **not** mean approved; it includes pending owner decisions,
+exact-commit CI and ongoing maintenance. "Blocked" means a documented missing
+source or remaining engineering work. The complete typed evidence is in
+`data/release/certification_dry_run_2026-10-30.json`.
+
+| Gate | Triage | Remaining blocker types |
+| --- | --- | --- |
+| priority_enrichment | Under review | OWNER_APPROVAL |
+| foundation_graph | Blocked | MISSING_SOURCE, OWNER_APPROVAL, OWNER_DECISION |
+| lookup_and_rules | Blocked | ENGINEERING_OPEN, EXTERNAL_CI |
+| set_atlas | Blocked | ENGINEERING_OPEN, OWNER_DECISION |
+| knowledge_foundation | Under review | EXTERNAL_CI, OWNER_DECISION |
+| grixis_no_regression | Under review | EXTERNAL_CI |
+| ci_and_coverage | Under review | EXTERNAL_CI, ONGOING |
+| Keep targeted CI checks for card counts, source integrity, gra… | Under review | OWNER_DECISION |
+| Monitor new official stories, Oracle changes, releases, rules… | Under review | ONGOING |
+| Rebuild and reconcile the Phase 1B set catalog and bidirection… | Under review | ONGOING |
+| Update snapshot manifests with actual download bytes and stabl… | Blocked | MISSING_SOURCE |
+| Maintain an honest progress tracker: completed, under review,… | Under review | ONGOING |
+| Define an MTG Multiverse Companion milestone release based on… | Under review | OWNER_DECISION |
+| Treat continual future MTG releases as an ongoing maintenance… | Under review | ONGOING, OWNER_DECISION |
 
 **Priority next steps:** verify current-era Q&A answers; close only evidence-backed graph
 identity and chronology gaps; expand comprehensive plane, character, faction and cross-plane

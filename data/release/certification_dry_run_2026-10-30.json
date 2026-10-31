@@ -120,11 +120,11 @@
    "machine_note": "source-graded chronology, history coverage and difficult Q&A still need a documented foundation review; existing lore-deck pilots are parked, not a release blocker",
    "blockers": [
     {
-     "kind": "ENGINEERING_OPEN",
-     "what": "Build a bounded, source-graded foundation acceptance packet: verified in-universe chronology with unresolved pairs stated; representative plane, character, faction and cross-plane histories with documented gaps; difficult natural-language Q&A and rules regression evidence. Deck construction and review are expressly deferred.",
+     "kind": "EXTERNAL_CI",
+     "what": "The source-graded knowledge-foundation acceptance packet now exists with separate chronology ledgers, representative cited plane/character/faction/cross-plane evidence, explicit gaps and twelve difficult Q&A cases. Its deterministic rebuild and representative rules/Q&A tests must still pass on the exact candidate foundation-release commit; it does not establish exhaustive knowledge.",
      "evidence": [
-      "data/lore_research/relative_chronology_2026-10-30.json",
-      "data/lore_research/story_coverage_inventory_2026-10-30.json"
+      "data/release/foundation_acceptance_packet_2026-10-30.json",
+      "research/FOUNDATION_ACCEPTANCE_PACKET_2026-10-30.md"
      ]
     },
     {
@@ -136,7 +136,7 @@
     }
    ],
    "blocked_by_owner": true,
-   "bot_can_still_act": true
+   "bot_can_still_act": false
   },
   {
    "id": "grixis_no_regression",
@@ -203,22 +203,17 @@
    "workflow_checked": false,
    "blockers": [
     {
-     "kind": "ENGINEERING_OPEN",
-     "what": "No workflow is scheduled; Oracle drift runs only when invoked. A scheduled monitor for new story pages, CR and Commander format updates does not exist yet.",
-     "evidence": [
-      "scripts/oracle_drift_report.py"
-     ]
-    },
-    {
      "kind": "ONGOING",
-     "what": "Monitoring is a continuing practice, not a one-time deliverable.",
+     "what": "A read-only weekly workflow already checks Wizards story index, official rules/Commander page signals and Scryfall bulk timestamps, saving review artifacts without auto-ingesting changes. Its scope is deliberately not a complete story crawl or proof of rules changes; ongoing human review and release-time Oracle drift checks are still required.",
      "evidence": [
+      ".github/workflows/multiverse-update-watch.yml",
+      "scripts/monitor_multiverse_updates.py",
       "MTG_MULTIVERSE_MASTER_WORKFLOW.md"
      ]
     }
    ],
    "blocked_by_owner": false,
-   "bot_can_still_act": true
+   "bot_can_still_act": false
   },
   {
    "item": "Rebuild and reconcile the Phase 1B set catalog and bidirectional printing lookups when new sets or printings appear, retaining historical snapshots.",
@@ -256,16 +251,16 @@
    "workflow_checked": false,
    "blockers": [
     {
-     "kind": "ENGINEERING_OPEN",
-     "what": "'Progress Tracker.md' was last committed 2026-10-29 and does not use the completed / under review / blocked / not started split; the live status is in the workflow and the overnight handoff.",
+     "kind": "ONGOING",
+     "what": "The current progress checkpoint now includes a generated completed / under review / blocked / not started triage for all 14 first-release and Phase 8 gates, with blocker types and an explicit distinction from the 137-item project checklist. It must keep regenerating as evidence changes.",
      "evidence": [
       "Progress Tracker.md",
-      "handoffs/GROKBOT_OVERNIGHT_2026-10-30.md"
+      "scripts/update_multiverse_progress_tracker.py"
      ]
     }
    ],
    "blocked_by_owner": false,
-   "bot_can_still_act": true
+   "bot_can_still_act": false
   },
   {
    "item": "Define an MTG Multiverse Companion milestone release based on verified features, not an arbitrary percentage of all lore.",
@@ -306,19 +301,22 @@
   }
  ],
  "blocker_tally": {
-  "ENGINEERING_OPEN": 5,
-  "EXTERNAL_CI": 3,
+  "ENGINEERING_OPEN": 2,
+  "EXTERNAL_CI": 4,
   "MISSING_SOURCE": 2,
-  "ONGOING": 4,
+  "ONGOING": 5,
   "OWNER_APPROVAL": 2,
   "OWNER_DECISION": 6
  },
  "items_blocked_only_by_owner_or_ci": [
   "priority_enrichment",
+  "knowledge_foundation",
   "grixis_no_regression",
   "ci_and_coverage",
   "Keep targeted CI checks for card counts, source integrity, graph relationships, rules/Q&A and set data; preserve existing deck-legality regression checks without starting new decks.",
+  "Monitor new official stories, Oracle changes, releases, rules and Commander format updates.",
   "Rebuild and reconcile the Phase 1B set catalog and bidirectional printing lookups when new sets or printings appear, retaining historical snapshots.",
+  "Maintain an honest progress tracker: completed, under review, blocked, and not started.",
   "Define an MTG Multiverse Companion milestone release based on verified features, not an arbitrary percentage of all lore.",
   "Treat continual future MTG releases as an ongoing maintenance track rather than a permanently finishable backlog."
  ],

@@ -40,6 +40,18 @@ class DryRunTests(unittest.TestCase):
         self.assertTrue(rows["foundation_graph"]["blocked_by_owner"])
         self.assertNotIn("reviewed_graph_deck", rows)
 
+    def test_foundation_packet_and_scheduled_watch_have_honest_remaining_gates(self):
+        rows = {r['id']: r for r in self.d['release_definition']}
+        foundation = rows['knowledge_foundation']
+        self.assertNotIn('ENGINEERING_OPEN', {b['kind'] for b in foundation['blockers']})
+        self.assertIn('EXTERNAL_CI', {b['kind'] for b in foundation['blockers']})
+        p8 = self.d['phase8']
+        watch = next(r for r in p8 if r['item'].startswith('Monitor new official stories'))
+        self.assertEqual({b['kind'] for b in watch['blockers']}, {'ONGOING'})
+        self.assertTrue((ROOT / '.github/workflows/multiverse-update-watch.yml').is_file())
+        tracker = next(r for r in p8 if r['item'].startswith('Maintain an honest progress tracker'))
+        self.assertEqual({b['kind'] for b in tracker['blockers']}, {'ONGOING'})
+
 
 if __name__ == "__main__":
     unittest.main()

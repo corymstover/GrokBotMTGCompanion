@@ -70,12 +70,12 @@ RELEASE_BLOCKERS = {
           "is acceptable for the release.", "data/set_atlas/phase1b_qualified_functional_release_2026-10-29.json"),
     ],
     "knowledge_foundation": [
-        B("ENGINEERING_OPEN", "Build a bounded, source-graded foundation acceptance packet: verified in-universe "
-          "chronology with unresolved pairs stated; representative plane, character, faction and cross-plane "
-          "histories with documented gaps; difficult natural-language Q&A and rules regression evidence. "
-          "Deck construction and review are expressly deferred.",
-          "data/lore_research/relative_chronology_2026-10-30.json",
-          "data/lore_research/story_coverage_inventory_2026-10-30.json"),
+        B("EXTERNAL_CI", "The source-graded knowledge-foundation acceptance packet now exists with separate "
+          "chronology ledgers, representative cited plane/character/faction/cross-plane evidence, explicit gaps and "
+          "twelve difficult Q&A cases. Its deterministic rebuild and representative rules/Q&A tests must still "
+          "pass on the exact candidate foundation-release commit; it does not establish exhaustive knowledge.",
+          "data/release/foundation_acceptance_packet_2026-10-30.json",
+          "research/FOUNDATION_ACCEPTANCE_PACKET_2026-10-30.md"),
         B("OWNER_DECISION", "Cory reviews the actual knowledge-foundation scope and limitations after the "
           "engineering/CI evidence is complete. An owner-reviewed deck is NOT required.",
           "MTG_MULTIVERSE_MASTER_WORKFLOW.md"),
@@ -97,9 +97,11 @@ PHASE8_BLOCKERS = [
           "setting only the owner can change.", ".github/workflows"),
     ]),
     ("Monitor new official stories", [
-        B("ENGINEERING_OPEN", "No workflow is scheduled; Oracle drift runs only when invoked. A scheduled monitor for new "
-          "story pages, CR and Commander format updates does not exist yet.", "scripts/oracle_drift_report.py"),
-        B("ONGOING", "Monitoring is a continuing practice, not a one-time deliverable.", "MTG_MULTIVERSE_MASTER_WORKFLOW.md"),
+        B("ONGOING", "A read-only weekly workflow already checks Wizards story index, official rules/Commander page "
+          "signals and Scryfall bulk timestamps, saving review artifacts without auto-ingesting changes. Its scope "
+          "is deliberately not a complete story crawl or proof of rules changes; ongoing human review and release-time "
+          "Oracle drift checks are still required.", ".github/workflows/multiverse-update-watch.yml",
+          "scripts/monitor_multiverse_updates.py", "MTG_MULTIVERSE_MASTER_WORKFLOW.md"),
     ]),
     ("Rebuild and reconcile the Phase 1B set catalog", [
         B("ONGOING", "Triggered by new sets: the next is nau (Set API release 2027-02-05, no printings yet).",
@@ -110,9 +112,10 @@ PHASE8_BLOCKERS = [
           "original file is unavailable.", "data/printing_lore/manifest.json", "scripts/audit_snapshot_manifests.py"),
     ]),
     ("Maintain an honest progress tracker", [
-        B("ENGINEERING_OPEN", "'Progress Tracker.md' was last committed 2026-10-29 and does not use the completed / under "
-          "review / blocked / not started split; the live status is in the workflow and the overnight handoff.",
-          "Progress Tracker.md", "handoffs/GROKBOT_OVERNIGHT_2026-10-30.md"),
+        B("ONGOING", "The current progress checkpoint now includes a generated completed / under review / blocked / "
+          "not started triage for all 14 first-release and Phase 8 gates, with blocker types and an explicit "
+          "distinction from the 137-item project checklist. It must keep regenerating as evidence changes.",
+          "Progress Tracker.md", "scripts/update_multiverse_progress_tracker.py"),
     ]),
     ("Define an MTG Multiverse Companion milestone release", [
         B("OWNER_DECISION", "release_readiness.py now scores a knowledge-only foundation (verdict NOT_RELEASE_READY); "
