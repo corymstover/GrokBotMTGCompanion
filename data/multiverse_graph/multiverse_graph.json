@@ -7,7 +7,7 @@
   "HYPOTHETICAL": "Creative or deckbuilding connection; never canon.",
   "OPEN_QUESTION": "Primary sources leave the matter unresolved; do not assert either way."
  },
- "content_sha256": "c2dd3c26fa079d33c79f073694dc0a187569acd823c093712ad604f65187fba6",
+ "content_sha256": "a09decfc25f0e0c812c1c742f64b6fe456a9b545f049982dcd65720753d1788a",
  "edges": [
   {
    "artists": [
@@ -2339,7 +2339,7 @@
    "artists": [
     "Dmitry Burmak"
    ],
-   "from": "source:wc",
+   "from": "source:lf_bablovia_story",
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
    "to": "card:x"
@@ -4356,7 +4356,7 @@
    "artists": [
     "John Thacker"
    ],
-   "from": "source:wc",
+   "from": "source:lf_bablovia_story",
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
    "to": "card:s_n_e_a_k_dispatcher"
@@ -4950,6 +4950,15 @@
    "artists": [
     "Kev Walker"
    ],
+   "from": "source:lf_bablovia_story",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:clever_combo"
+  },
+  {
+   "artists": [
+    "Kev Walker"
+   ],
    "from": "source:or_limits",
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
@@ -4990,15 +4999,6 @@
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
    "to": "card:splatter_thug"
-  },
-  {
-   "artists": [
-    "Kev Walker"
-   ],
-   "from": "source:wc",
-   "relation": "art_captioned_in_story",
-   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
-   "to": "card:clever_combo"
   },
   {
    "artists": [
@@ -22983,6 +22983,162 @@
     "lci_ep2"
    ],
    "to": "plane:eldraine"
+  },
+  {
+   "claim": "LFP001",
+   "era": "bablovia_pentarchy_2017_narrator",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "plane:bablovia",
+   "grade": "ALTERNATE_CONTINUITY",
+   "relation": "was_organized_as",
+   "sources": [
+    "lf_bablovia_story"
+   ],
+   "to": "faction:bablovian_pentarchy"
+  },
+  {
+   "claim": "LFP002",
+   "era": "bablovia_widget_foundation_54_years_before_story",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "plane:bablovia",
+   "grade": "ALTERNATE_CONTINUITY",
+   "relation": "saw_founding_of",
+   "sources": [
+    "lf_bablovia_story"
+   ],
+   "to": "faction:order_of_the_widget"
+  },
+  {
+   "claim": "LFP003",
+   "era": "bablovia_sneak_origins_story_account",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "plane:bablovia",
+   "grade": "ALTERNATE_CONTINUITY",
+   "relation": "hosted_origins_of",
+   "sources": [
+    "lf_bablovia_story"
+   ],
+   "to": "faction:agents_of_sneak"
+  },
+  {
+   "claim": "LFP004",
+   "era": "bablovia_goblin_faction_foundation",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "plane:bablovia",
+   "grade": "ALTERNATE_CONTINUITY",
+   "relation": "hosted_formation_of",
+   "sources": [
+    "lf_bablovia_story"
+   ],
+   "to": "faction:goblin_explosioneers"
+  },
+  {
+   "claim": "LFP005",
+   "era": "ugin_early_meditation_before_bolas_war",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "plane:meditation_realm",
+   "grade": "CANON_CONFIRMED",
+   "relation": "was_used_for_contemplation_by",
+   "sources": [
+    "lf_meditation_chronicle"
+   ],
+   "to": "character:ugin"
+  },
+  {
+   "claim": "LFP006",
+   "era": "meditation_realm_bolas_madaran_court_past",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "plane:meditation_realm",
+   "grade": "CANON_CONFIRMED",
+   "relation": "hosted_court_meetings_of",
+   "sources": [
+    "lf_meditation_planechase"
+   ],
+   "to": "character:nicol_bolas"
+  },
+  {
+   "claim": "LFP007",
+   "era": "muraganda_ancient_magic_civilization_collapse",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "plane:muraganda",
+   "grade": "CANON_CONFIRMED",
+   "relation": "saw_collapse_of",
+   "sources": [
+    "lf_muraganda_guide"
+   ],
+   "to": "faction:muraganda_first_civilization"
+  },
+  {
+   "claim": "LFP008",
+   "era": "muraganda_shattered_moons_and_later_impacts",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "plane:muraganda",
+   "grade": "CANON_CONFIRMED",
+   "relation": "experienced",
+   "sources": [
+    "lf_muraganda_guide"
+   ],
+   "to": "event:muraganda_moonfall"
+  },
+  {
+   "claim": "LFP009",
+   "era": "muraganda_post_collapse_generations",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "plane:muraganda",
+   "grade": "CANON_CONFIRMED",
+   "relation": "developed",
+   "sources": [
+    "lf_muraganda_guide"
+   ],
+   "to": "faction:muraganda_survivor_cultures"
+  },
+  {
+   "claim": "LFP010",
+   "era": "muraganda_saurid_autocracy_dft_guide",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "plane:muraganda",
+   "grade": "CANON_CONFIRMED",
+   "relation": "was_ruled_in_part_by",
+   "sources": [
+    "lf_muraganda_guide"
+   ],
+   "to": "faction:saurid_autocracy"
+  },
+  {
+   "claim": "LFP011",
+   "era": "skalla_pre_destruction_cultural_conflict",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "plane:skalla",
+   "grade": "CANON_CONFIRMED",
+   "relation": "suffered",
+   "sources": [
+    "lf_vivien_bio"
+   ],
+   "to": "event:skalla_nature_progress_conflict"
+  },
+  {
+   "claim": "LFP012",
+   "era": "skalla_vivien_memory_of_ecosystem",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "plane:skalla",
+   "grade": "CANON_CONFIRMED",
+   "relation": "once_supported",
+   "sources": [
+    "lf_skalla_unbowed"
+   ],
+   "to": "concept:skalla_wildlife"
+  },
+  {
+   "claim": "LFP013",
+   "era": "skalla_arkbow_legacy_after_destruction",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "plane:skalla",
+   "grade": "CANON_CONFIRMED",
+   "relation": "has_wildlife_memory_preserved_by",
+   "sources": [
+    "lf_skalla_design"
+   ],
+   "to": "artifact:arkbow"
   },
   {
    "claim": "M13001",
@@ -43078,6 +43234,162 @@
    "to": "character:kellan"
   },
   {
+   "from": "claim:LFP001",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:bablovian_pentarchy"
+  },
+  {
+   "from": "claim:LFP001",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "plane:bablovia"
+  },
+  {
+   "from": "claim:LFP002",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:order_of_the_widget"
+  },
+  {
+   "from": "claim:LFP002",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "plane:bablovia"
+  },
+  {
+   "from": "claim:LFP003",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:agents_of_sneak"
+  },
+  {
+   "from": "claim:LFP003",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "plane:bablovia"
+  },
+  {
+   "from": "claim:LFP004",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:goblin_explosioneers"
+  },
+  {
+   "from": "claim:LFP004",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "plane:bablovia"
+  },
+  {
+   "from": "claim:LFP005",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:ugin"
+  },
+  {
+   "from": "claim:LFP005",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "plane:meditation_realm"
+  },
+  {
+   "from": "claim:LFP006",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:nicol_bolas"
+  },
+  {
+   "from": "claim:LFP006",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "plane:meditation_realm"
+  },
+  {
+   "from": "claim:LFP007",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:muraganda_first_civilization"
+  },
+  {
+   "from": "claim:LFP007",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "plane:muraganda"
+  },
+  {
+   "from": "claim:LFP008",
+   "relation": "asserts",
+   "role": "object",
+   "to": "event:muraganda_moonfall"
+  },
+  {
+   "from": "claim:LFP008",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "plane:muraganda"
+  },
+  {
+   "from": "claim:LFP009",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:muraganda_survivor_cultures"
+  },
+  {
+   "from": "claim:LFP009",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "plane:muraganda"
+  },
+  {
+   "from": "claim:LFP010",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:saurid_autocracy"
+  },
+  {
+   "from": "claim:LFP010",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "plane:muraganda"
+  },
+  {
+   "from": "claim:LFP011",
+   "relation": "asserts",
+   "role": "object",
+   "to": "event:skalla_nature_progress_conflict"
+  },
+  {
+   "from": "claim:LFP011",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "plane:skalla"
+  },
+  {
+   "from": "claim:LFP012",
+   "relation": "asserts",
+   "role": "object",
+   "to": "concept:skalla_wildlife"
+  },
+  {
+   "from": "claim:LFP012",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "plane:skalla"
+  },
+  {
+   "from": "claim:LFP013",
+   "relation": "asserts",
+   "role": "object",
+   "to": "artifact:arkbow"
+  },
+  {
+   "from": "claim:LFP013",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "plane:skalla"
+  },
+  {
    "from": "claim:M13001",
    "relation": "asserts",
    "role": "object",
@@ -53615,156 +53927,6 @@
   },
   {
    "from": "source:dft_guide2",
-   "image_labels": [
-    "0277_MTGDFT_StdLands: Plains"
-   ],
-   "limitation": "An art-file label is not a statement that the pictured card depicts a canon story event.",
-   "relation": "art_file_used_on_official_page",
-   "tier": "OFFICIAL_IMAGE_LABEL_PRINTING_MATCH",
-   "to": "printing:464723b3-0723-45f2-a258-32d098c39039"
-  },
-  {
-   "from": "source:dft_guide2",
-   "image_labels": [
-    "0278_MTGDFT_StdLands: Plains"
-   ],
-   "limitation": "An art-file label is not a statement that the pictured card depicts a canon story event.",
-   "relation": "art_file_used_on_official_page",
-   "tier": "OFFICIAL_IMAGE_LABEL_PRINTING_MATCH",
-   "to": "printing:4b97d2f5-498c-42db-95d9-f9002d4dfcc5"
-  },
-  {
-   "from": "source:dft_guide2",
-   "image_labels": [
-    "0279_MTGDFT_StdLands: Plains"
-   ],
-   "limitation": "An art-file label is not a statement that the pictured card depicts a canon story event.",
-   "relation": "art_file_used_on_official_page",
-   "tier": "OFFICIAL_IMAGE_LABEL_PRINTING_MATCH",
-   "to": "printing:a1cf2f81-3041-4349-9b37-f215c4e38c5b"
-  },
-  {
-   "from": "source:dft_guide2",
-   "image_labels": [
-    "0280_MTGDFT_StdLands: Island"
-   ],
-   "limitation": "An art-file label is not a statement that the pictured card depicts a canon story event.",
-   "relation": "art_file_used_on_official_page",
-   "tier": "OFFICIAL_IMAGE_LABEL_PRINTING_MATCH",
-   "to": "printing:5a8e9b9e-4947-4b6a-b21b-6fe009760fc5"
-  },
-  {
-   "from": "source:dft_guide2",
-   "image_labels": [
-    "0281_MTGDFT_StdLands: Island"
-   ],
-   "limitation": "An art-file label is not a statement that the pictured card depicts a canon story event.",
-   "relation": "art_file_used_on_official_page",
-   "tier": "OFFICIAL_IMAGE_LABEL_PRINTING_MATCH",
-   "to": "printing:f9369d0a-87c0-4c29-b43c-cd45c007f8d6"
-  },
-  {
-   "from": "source:dft_guide2",
-   "image_labels": [
-    "0282_MTGDFT_StdLands: Island"
-   ],
-   "limitation": "An art-file label is not a statement that the pictured card depicts a canon story event.",
-   "relation": "art_file_used_on_official_page",
-   "tier": "OFFICIAL_IMAGE_LABEL_PRINTING_MATCH",
-   "to": "printing:7a3c4a9d-48db-474f-aeb6-8b4fa08ce6fa"
-  },
-  {
-   "from": "source:dft_guide2",
-   "image_labels": [
-    "0283_MTGDFT_StdLands: Swamp"
-   ],
-   "limitation": "An art-file label is not a statement that the pictured card depicts a canon story event.",
-   "relation": "art_file_used_on_official_page",
-   "tier": "OFFICIAL_IMAGE_LABEL_PRINTING_MATCH",
-   "to": "printing:040d064e-b023-4750-afeb-1f58e36bc4ab"
-  },
-  {
-   "from": "source:dft_guide2",
-   "image_labels": [
-    "0284_MTGDFT_StdLands: Swamp"
-   ],
-   "limitation": "An art-file label is not a statement that the pictured card depicts a canon story event.",
-   "relation": "art_file_used_on_official_page",
-   "tier": "OFFICIAL_IMAGE_LABEL_PRINTING_MATCH",
-   "to": "printing:73e124b6-3af7-41c0-b829-ff85aa0c3782"
-  },
-  {
-   "from": "source:dft_guide2",
-   "image_labels": [
-    "0285_MTGDFT_StdLands: Swamp"
-   ],
-   "limitation": "An art-file label is not a statement that the pictured card depicts a canon story event.",
-   "relation": "art_file_used_on_official_page",
-   "tier": "OFFICIAL_IMAGE_LABEL_PRINTING_MATCH",
-   "to": "printing:85288987-6f3f-4b7b-9ecc-9393dd37f115"
-  },
-  {
-   "from": "source:dft_guide2",
-   "image_labels": [
-    "0286_MTGDFT_StdLands: Mountain"
-   ],
-   "limitation": "An art-file label is not a statement that the pictured card depicts a canon story event.",
-   "relation": "art_file_used_on_official_page",
-   "tier": "OFFICIAL_IMAGE_LABEL_PRINTING_MATCH",
-   "to": "printing:fb76cb6c-2f4d-4ca2-876f-d49ea529e59b"
-  },
-  {
-   "from": "source:dft_guide2",
-   "image_labels": [
-    "0287_MTGDFT_StdLands: Mountain"
-   ],
-   "limitation": "An art-file label is not a statement that the pictured card depicts a canon story event.",
-   "relation": "art_file_used_on_official_page",
-   "tier": "OFFICIAL_IMAGE_LABEL_PRINTING_MATCH",
-   "to": "printing:c872e70c-626f-4d2c-b26b-d94f815fceea"
-  },
-  {
-   "from": "source:dft_guide2",
-   "image_labels": [
-    "0288_MTGDFT_StdLands: Mountain"
-   ],
-   "limitation": "An art-file label is not a statement that the pictured card depicts a canon story event.",
-   "relation": "art_file_used_on_official_page",
-   "tier": "OFFICIAL_IMAGE_LABEL_PRINTING_MATCH",
-   "to": "printing:653e2393-30a7-4e0c-bd20-f05ca0ba3cb6"
-  },
-  {
-   "from": "source:dft_guide2",
-   "image_labels": [
-    "0289_MTGDFT_StdLands: Forest"
-   ],
-   "limitation": "An art-file label is not a statement that the pictured card depicts a canon story event.",
-   "relation": "art_file_used_on_official_page",
-   "tier": "OFFICIAL_IMAGE_LABEL_PRINTING_MATCH",
-   "to": "printing:b69adddd-3626-45d6-8100-26cf1f314d00"
-  },
-  {
-   "from": "source:dft_guide2",
-   "image_labels": [
-    "0290_MTGDFT_StdLands: Forest"
-   ],
-   "limitation": "An art-file label is not a statement that the pictured card depicts a canon story event.",
-   "relation": "art_file_used_on_official_page",
-   "tier": "OFFICIAL_IMAGE_LABEL_PRINTING_MATCH",
-   "to": "printing:6472e2a6-287f-4e7c-ad85-1454e40d4a46"
-  },
-  {
-   "from": "source:dft_guide2",
-   "image_labels": [
-    "0291_MTGDFT_StdLands: Forest"
-   ],
-   "limitation": "An art-file label is not a statement that the pictured card depicts a canon story event.",
-   "relation": "art_file_used_on_official_page",
-   "tier": "OFFICIAL_IMAGE_LABEL_PRINTING_MATCH",
-   "to": "printing:562b16ae-8ae7-4b2d-9098-bf3ff1429f7b"
-  },
-  {
-   "from": "source:dft_guide2",
    "relation": "cited_by",
    "to": "claim:DF013"
   },
@@ -56409,6 +56571,221 @@
    "from": "source:lci_pawns",
    "relation": "cited_by",
    "to": "claim:LC012"
+  },
+  {
+   "from": "source:lf_bablovia_story",
+   "relation": "cited_by",
+   "to": "claim:LFP001"
+  },
+  {
+   "from": "source:lf_bablovia_story",
+   "relation": "cited_by",
+   "to": "claim:LFP002"
+  },
+  {
+   "from": "source:lf_bablovia_story",
+   "relation": "cited_by",
+   "to": "claim:LFP003"
+  },
+  {
+   "from": "source:lf_bablovia_story",
+   "relation": "cited_by",
+   "to": "claim:LFP004"
+  },
+  {
+   "from": "source:lf_meditation_chronicle",
+   "relation": "cited_by",
+   "to": "claim:LFP005"
+  },
+  {
+   "from": "source:lf_meditation_planechase",
+   "relation": "cited_by",
+   "to": "claim:LFP006"
+  },
+  {
+   "from": "source:lf_muraganda_guide",
+   "image_labels": [
+    "0277_MTGDFT_StdLands: Plains"
+   ],
+   "limitation": "An art-file label is not a statement that the pictured card depicts a canon story event.",
+   "relation": "art_file_used_on_official_page",
+   "tier": "OFFICIAL_IMAGE_LABEL_PRINTING_MATCH",
+   "to": "printing:464723b3-0723-45f2-a258-32d098c39039"
+  },
+  {
+   "from": "source:lf_muraganda_guide",
+   "image_labels": [
+    "0278_MTGDFT_StdLands: Plains"
+   ],
+   "limitation": "An art-file label is not a statement that the pictured card depicts a canon story event.",
+   "relation": "art_file_used_on_official_page",
+   "tier": "OFFICIAL_IMAGE_LABEL_PRINTING_MATCH",
+   "to": "printing:4b97d2f5-498c-42db-95d9-f9002d4dfcc5"
+  },
+  {
+   "from": "source:lf_muraganda_guide",
+   "image_labels": [
+    "0279_MTGDFT_StdLands: Plains"
+   ],
+   "limitation": "An art-file label is not a statement that the pictured card depicts a canon story event.",
+   "relation": "art_file_used_on_official_page",
+   "tier": "OFFICIAL_IMAGE_LABEL_PRINTING_MATCH",
+   "to": "printing:a1cf2f81-3041-4349-9b37-f215c4e38c5b"
+  },
+  {
+   "from": "source:lf_muraganda_guide",
+   "image_labels": [
+    "0280_MTGDFT_StdLands: Island"
+   ],
+   "limitation": "An art-file label is not a statement that the pictured card depicts a canon story event.",
+   "relation": "art_file_used_on_official_page",
+   "tier": "OFFICIAL_IMAGE_LABEL_PRINTING_MATCH",
+   "to": "printing:5a8e9b9e-4947-4b6a-b21b-6fe009760fc5"
+  },
+  {
+   "from": "source:lf_muraganda_guide",
+   "image_labels": [
+    "0281_MTGDFT_StdLands: Island"
+   ],
+   "limitation": "An art-file label is not a statement that the pictured card depicts a canon story event.",
+   "relation": "art_file_used_on_official_page",
+   "tier": "OFFICIAL_IMAGE_LABEL_PRINTING_MATCH",
+   "to": "printing:f9369d0a-87c0-4c29-b43c-cd45c007f8d6"
+  },
+  {
+   "from": "source:lf_muraganda_guide",
+   "image_labels": [
+    "0282_MTGDFT_StdLands: Island"
+   ],
+   "limitation": "An art-file label is not a statement that the pictured card depicts a canon story event.",
+   "relation": "art_file_used_on_official_page",
+   "tier": "OFFICIAL_IMAGE_LABEL_PRINTING_MATCH",
+   "to": "printing:7a3c4a9d-48db-474f-aeb6-8b4fa08ce6fa"
+  },
+  {
+   "from": "source:lf_muraganda_guide",
+   "image_labels": [
+    "0283_MTGDFT_StdLands: Swamp"
+   ],
+   "limitation": "An art-file label is not a statement that the pictured card depicts a canon story event.",
+   "relation": "art_file_used_on_official_page",
+   "tier": "OFFICIAL_IMAGE_LABEL_PRINTING_MATCH",
+   "to": "printing:040d064e-b023-4750-afeb-1f58e36bc4ab"
+  },
+  {
+   "from": "source:lf_muraganda_guide",
+   "image_labels": [
+    "0284_MTGDFT_StdLands: Swamp"
+   ],
+   "limitation": "An art-file label is not a statement that the pictured card depicts a canon story event.",
+   "relation": "art_file_used_on_official_page",
+   "tier": "OFFICIAL_IMAGE_LABEL_PRINTING_MATCH",
+   "to": "printing:73e124b6-3af7-41c0-b829-ff85aa0c3782"
+  },
+  {
+   "from": "source:lf_muraganda_guide",
+   "image_labels": [
+    "0285_MTGDFT_StdLands: Swamp"
+   ],
+   "limitation": "An art-file label is not a statement that the pictured card depicts a canon story event.",
+   "relation": "art_file_used_on_official_page",
+   "tier": "OFFICIAL_IMAGE_LABEL_PRINTING_MATCH",
+   "to": "printing:85288987-6f3f-4b7b-9ecc-9393dd37f115"
+  },
+  {
+   "from": "source:lf_muraganda_guide",
+   "image_labels": [
+    "0286_MTGDFT_StdLands: Mountain"
+   ],
+   "limitation": "An art-file label is not a statement that the pictured card depicts a canon story event.",
+   "relation": "art_file_used_on_official_page",
+   "tier": "OFFICIAL_IMAGE_LABEL_PRINTING_MATCH",
+   "to": "printing:fb76cb6c-2f4d-4ca2-876f-d49ea529e59b"
+  },
+  {
+   "from": "source:lf_muraganda_guide",
+   "image_labels": [
+    "0287_MTGDFT_StdLands: Mountain"
+   ],
+   "limitation": "An art-file label is not a statement that the pictured card depicts a canon story event.",
+   "relation": "art_file_used_on_official_page",
+   "tier": "OFFICIAL_IMAGE_LABEL_PRINTING_MATCH",
+   "to": "printing:c872e70c-626f-4d2c-b26b-d94f815fceea"
+  },
+  {
+   "from": "source:lf_muraganda_guide",
+   "image_labels": [
+    "0288_MTGDFT_StdLands: Mountain"
+   ],
+   "limitation": "An art-file label is not a statement that the pictured card depicts a canon story event.",
+   "relation": "art_file_used_on_official_page",
+   "tier": "OFFICIAL_IMAGE_LABEL_PRINTING_MATCH",
+   "to": "printing:653e2393-30a7-4e0c-bd20-f05ca0ba3cb6"
+  },
+  {
+   "from": "source:lf_muraganda_guide",
+   "image_labels": [
+    "0289_MTGDFT_StdLands: Forest"
+   ],
+   "limitation": "An art-file label is not a statement that the pictured card depicts a canon story event.",
+   "relation": "art_file_used_on_official_page",
+   "tier": "OFFICIAL_IMAGE_LABEL_PRINTING_MATCH",
+   "to": "printing:b69adddd-3626-45d6-8100-26cf1f314d00"
+  },
+  {
+   "from": "source:lf_muraganda_guide",
+   "image_labels": [
+    "0290_MTGDFT_StdLands: Forest"
+   ],
+   "limitation": "An art-file label is not a statement that the pictured card depicts a canon story event.",
+   "relation": "art_file_used_on_official_page",
+   "tier": "OFFICIAL_IMAGE_LABEL_PRINTING_MATCH",
+   "to": "printing:6472e2a6-287f-4e7c-ad85-1454e40d4a46"
+  },
+  {
+   "from": "source:lf_muraganda_guide",
+   "image_labels": [
+    "0291_MTGDFT_StdLands: Forest"
+   ],
+   "limitation": "An art-file label is not a statement that the pictured card depicts a canon story event.",
+   "relation": "art_file_used_on_official_page",
+   "tier": "OFFICIAL_IMAGE_LABEL_PRINTING_MATCH",
+   "to": "printing:562b16ae-8ae7-4b2d-9098-bf3ff1429f7b"
+  },
+  {
+   "from": "source:lf_muraganda_guide",
+   "relation": "cited_by",
+   "to": "claim:LFP007"
+  },
+  {
+   "from": "source:lf_muraganda_guide",
+   "relation": "cited_by",
+   "to": "claim:LFP008"
+  },
+  {
+   "from": "source:lf_muraganda_guide",
+   "relation": "cited_by",
+   "to": "claim:LFP009"
+  },
+  {
+   "from": "source:lf_muraganda_guide",
+   "relation": "cited_by",
+   "to": "claim:LFP010"
+  },
+  {
+   "from": "source:lf_skalla_design",
+   "relation": "cited_by",
+   "to": "claim:LFP013"
+  },
+  {
+   "from": "source:lf_skalla_unbowed",
+   "relation": "cited_by",
+   "to": "claim:LFP012"
+  },
+  {
+   "from": "source:lf_vivien_bio",
+   "relation": "cited_by",
+   "to": "claim:LFP011"
   },
   {
    "from": "source:lithomancer",
@@ -65309,6 +65686,13 @@
     "file": "data/lore_research/pack_p5_four_more_plane_histories_2026-10-31.json",
     "sha256": "e33b65458ad25f55b7f2f7d417efcbeaae7106a958b8328c2abbdc13b87e3853",
     "sources": 7
+   },
+   {
+    "claims": 13,
+    "entities": 17,
+    "file": "data/lore_research/pack_p5_last_four_thin_planes_2026-10-31.json",
+    "sha256": "9cf87c29bba12830ef39df654326a50831fcb04f947ebccb8a203f86a9287857",
+    "sources": 8
    }
   ],
   "deck_evidence": [
@@ -65384,7 +65768,12 @@
   {
    "id": "artifact:arkbow",
    "name": "Arkbow",
+   "name_variants": [
+    "Arkbow",
+    "The Arkbow"
+   ],
    "origins": [
+    "pack_p5_last_four_thin_planes_2026-10-31.json",
     "pack_p5_untagged_grn_rna_2026-10-30.json"
    ],
    "type": "Object"
@@ -84747,6 +85136,7 @@
     "pack_p5_battle_for_zendikar_oath_2026-10-30.json",
     "pack_p5_ixalan_rivals_2026-10-30.json",
     "pack_p5_kaladesh_aether_revolt_2026-10-30.json",
+    "pack_p5_last_four_thin_planes_2026-10-31.json",
     "pack_p5_tarkir_dragonstorm_2026-10-30.json",
     "pack_p5_untagged_bios_2026-10-30.json",
     "pack_p5_untagged_grn_rna_2026-10-30.json",
@@ -86058,6 +86448,7 @@
     "pack_a_ugin_bolas_evidence_2026-10-30.json",
     "pack_p5_battle_for_zendikar_oath_2026-10-30.json",
     "pack_p5_ixalan_rivals_2026-10-30.json",
+    "pack_p5_last_four_thin_planes_2026-10-31.json",
     "pack_p5_shadows_eldritch_moon_2026-10-30.json",
     "pack_p5_tarkir_dragonstorm_2026-10-30.json",
     "pack_p5_untagged_bios_2026-10-30.json",
@@ -92254,6 +92645,166 @@
    ],
    "predicate": "originated_from",
    "stage": "lost_caverns_of_ixalan_lci_2023",
+   "type": "Claim"
+  },
+  {
+   "continuity": "Unstable silver-border Un-set setting",
+   "grade": "ALTERNATE_CONTINUITY",
+   "id": "claim:LFP001",
+   "limitation": "An in-world student report about the silver-border Un-set world; 'currently' belongs to that story, not to normal Magic continuity or 2026 politics.",
+   "name": "In the 2017 Unstable classroom story, Bablovia is described as a five-faction pentarchy.",
+   "origins": [
+    "pack_p5_last_four_thin_planes_2026-10-31.json"
+   ],
+   "predicate": "was_organized_as",
+   "stage": "bablovia_pentarchy_2017_narrator",
+   "type": "Claim"
+  },
+  {
+   "continuity": "Unstable silver-border Un-set setting",
+   "grade": "ALTERNATE_CONTINUITY",
+   "id": "claim:LFP002",
+   "limitation": "The relative '54 years' comes from one student narrator in a 2017 Unstable tale; it is neither an AR-year conversion nor a confirmed ordinary-canon chronology.",
+   "name": "A Bablovian classroom account dates Calvin Granderson's Order of the Widget to 54 years before that narration.",
+   "origins": [
+    "pack_p5_last_four_thin_planes_2026-10-31.json"
+   ],
+   "predicate": "saw_founding_of",
+   "stage": "bablovia_widget_foundation_54_years_before_story",
+   "type": "Claim"
+  },
+  {
+   "continuity": "Unstable silver-border Un-set setting",
+   "grade": "ALTERNATE_CONTINUITY",
+   "id": "claim:LFP003",
+   "limitation": "This is an in-world Unstable explanation on Bablovia, not independently corroborated multiverse history or proof of the faction's present activities.",
+   "name": "The Unstable classroom narrator traces the Agents of S.N.E.A.K. to a job-share board that developed into an organization.",
+   "origins": [
+    "pack_p5_last_four_thin_planes_2026-10-31.json"
+   ],
+   "predicate": "hosted_origins_of",
+   "stage": "bablovia_sneak_origins_story_account",
+   "type": "Claim"
+  },
+  {
+   "continuity": "Unstable silver-border Un-set setting",
+   "grade": "ALTERNATE_CONTINUITY",
+   "id": "claim:LFP004",
+   "limitation": "The classroom account is narrator-mediated and belongs to the Unstable world. It does not imply real-world legal card status or mainline cosmological connection.",
+   "name": "A Bablovian account attributes the Goblin Explosioneers' emergence as a political faction to Thorna's response to factory opposition.",
+   "origins": [
+    "pack_p5_last_four_thin_planes_2026-10-31.json"
+   ],
+   "predicate": "hosted_formation_of",
+   "stage": "bablovia_goblin_faction_foundation",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:LFP005",
+   "limitation": "This is a past scene told through Ugin's internal perspective; it is not proof of the realm's condition after the Dragonstorm-era rupture.",
+   "name": "In the Chronicle's early history, Ugin used the Meditation Realm for extended contemplation.",
+   "origins": [
+    "pack_p5_last_four_thin_planes_2026-10-31.json"
+   ],
+   "predicate": "was_used_for_contemplation_by",
+   "stage": "ugin_early_meditation_before_bolas_war",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:LFP006",
+   "limitation": "Wizards explicitly describes a historical novel-era use; the article's speculation about later travel is not asserted as fact or current status.",
+   "name": "The 2009 Wizards Planechase overview recalls Bolas using the meditation plane to meet his Madaran advisers.",
+   "origins": [
+    "pack_p5_last_four_thin_planes_2026-10-31.json"
+   ],
+   "predicate": "hosted_court_meetings_of",
+   "stage": "meditation_realm_bolas_madaran_court_past",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:LFP007",
+   "limitation": "The guide dates this only to the distant past beyond living memory; it does not name the regime or date the calamity in AR years.",
+   "name": "Muraganda had a prehistoric plane-spanning civilization that discovered magic and subsequently collapsed.",
+   "origins": [
+    "pack_p5_last_four_thin_planes_2026-10-31.json"
+   ],
+   "predicate": "saw_collapse_of",
+   "stage": "muraganda_ancient_magic_civilization_collapse",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:LFP008",
+   "limitation": "The text does not independently establish what shattered the moons, the exact date, or the status of impacts beyond the guide's publication era.",
+   "name": "Muraganda's moons broke apart, leaving recurring falling debris in the guide's era.",
+   "origins": [
+    "pack_p5_last_four_thin_planes_2026-10-31.json"
+   ],
+   "predicate": "experienced",
+   "stage": "muraganda_shattered_moons_and_later_impacts",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:LFP009",
+   "limitation": "This is relative generational development; the guide does not provide a complete dynastic sequence or prove the moon-strikes ended permanently.",
+   "name": "After the ancient calamity, Muragandan survivors formed new bands, tribes and kingdoms over generations.",
+   "origins": [
+    "pack_p5_last_four_thin_planes_2026-10-31.json"
+   ],
+   "predicate": "developed",
+   "stage": "muraganda_post_collapse_generations",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:LFP010",
+   "limitation": "Strongest state is not sole sovereign of the whole plane; its dominance is dated to the guide and was not reverified for a later current era.",
+   "name": "The Aetherdrift-era guide identifies the Saurid Autocracy as Muraganda's strongest state.",
+   "origins": [
+    "pack_p5_last_four_thin_planes_2026-10-31.json"
+   ],
+   "predicate": "was_ruled_in_part_by",
+   "stage": "muraganda_saurid_autocracy_dft_guide",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:LFP011",
+   "limitation": "The profile gives no named governments, definitive sequence of disputes or claim that this conflict by itself caused Bolas's destruction.",
+   "name": "Before its destruction, Skalla suffered a societal failure to balance progress with nature preservation.",
+   "origins": [
+    "pack_p5_last_four_thin_planes_2026-10-31.json"
+   ],
+   "predicate": "suffered",
+   "stage": "skalla_pre_destruction_cultural_conflict",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:LFP012",
+   "limitation": "The story is filtered through Vivien's recollection; it cannot serve as a census of species, ecosystems or post-destruction survivors.",
+   "name": "Vivien's remembered Skalla featured mangrove habitats, seasonal fires and diverse animal life.",
+   "origins": [
+    "pack_p5_last_four_thin_planes_2026-10-31.json"
+   ],
+   "predicate": "once_supported",
+   "stage": "skalla_vivien_memory_of_ecosystem",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:LFP013",
+   "limitation": "This is an official design explanation of the Arkbow premise, not proof that literal living Skallan animals or the plane itself survived.",
+   "name": "Wizards describes Vivien's Arkbow as summoning spirit copies of animals originating on destroyed Skalla.",
+   "origins": [
+    "pack_p5_last_four_thin_planes_2026-10-31.json"
+   ],
+   "predicate": "has_wildlife_memory_preserved_by",
+   "stage": "skalla_arkbow_legacy_after_destruction",
    "type": "Claim"
   },
   {
@@ -101169,6 +101720,14 @@
    "type": "Concept"
   },
   {
+   "id": "concept:skalla_wildlife",
+   "name": "Skalla's diverse former wildlife",
+   "origins": [
+    "pack_p5_last_four_thin_planes_2026-10-31.json"
+   ],
+   "type": "Concept"
+  },
+  {
    "id": "concept:tanuki_kami",
    "name": "Tanuki-shaped kami (Kaito's spark)",
    "origins": [
@@ -102477,6 +103036,14 @@
    "type": "Event"
   },
   {
+   "id": "event:muraganda_moonfall",
+   "name": "Muragandan shattered-moon calamity",
+   "origins": [
+    "pack_p5_last_four_thin_planes_2026-10-31.json"
+   ],
+   "type": "Event"
+  },
+  {
    "id": "event:original_tarkir_clash",
    "name": "Original-timeline Tarkir clash",
    "origins": [
@@ -102489,6 +103056,14 @@
    "name": "Conflicts following the Conflux of Alara's shards",
    "origins": [
     "pack_p5_alara_plane_profile_2026-10-30.json"
+   ],
+   "type": "Event"
+  },
+  {
+   "id": "event:skalla_nature_progress_conflict",
+   "name": "Skalla nature-versus-progress conflict",
+   "origins": [
+    "pack_p5_last_four_thin_planes_2026-10-31.json"
    ],
    "type": "Event"
   },
@@ -102588,6 +103163,14 @@
    "type": "Faction"
   },
   {
+   "id": "faction:agents_of_sneak",
+   "name": "Agents of S.N.E.A.K.",
+   "origins": [
+    "pack_p5_last_four_thin_planes_2026-10-31.json"
+   ],
+   "type": "Faction"
+  },
+  {
    "id": "faction:alamon",
    "name": "The Alamon",
    "origins": [
@@ -102644,6 +103227,14 @@
     "pack_p5_untagged_planes_2026-10-30.json",
     "pack_p5_untagged_stories_2014_2026-10-30.json",
     "pack_p5_war_spark_ravnica_2026-10-30.json"
+   ],
+   "type": "Faction"
+  },
+  {
+   "id": "faction:bablovian_pentarchy",
+   "name": "Bablovian pentarchy",
+   "origins": [
+    "pack_p5_last_four_thin_planes_2026-10-31.json"
    ],
    "type": "Faction"
   },
@@ -103007,6 +103598,14 @@
    "name": "Giants of Theros",
    "origins": [
     "pack_p5_theros_plane_profile_2026-10-30.json"
+   ],
+   "type": "Faction"
+  },
+  {
+   "id": "faction:goblin_explosioneers",
+   "name": "Goblin Explosioneers",
+   "origins": [
+    "pack_p5_last_four_thin_planes_2026-10-31.json"
    ],
    "type": "Faction"
   },
@@ -103380,6 +103979,22 @@
    "type": "Faction"
   },
   {
+   "id": "faction:muraganda_first_civilization",
+   "name": "Muraganda's first civilization",
+   "origins": [
+    "pack_p5_last_four_thin_planes_2026-10-31.json"
+   ],
+   "type": "Faction"
+  },
+  {
+   "id": "faction:muraganda_survivor_cultures",
+   "name": "Muragandan survivor societies",
+   "origins": [
+    "pack_p5_last_four_thin_planes_2026-10-31.json"
+   ],
+   "type": "Faction"
+  },
+  {
    "id": "faction:naya_armies",
    "name": "Forces of Naya",
    "origins": [
@@ -103446,6 +104061,14 @@
    "origins": [
     "pack_p5_shadows_eldritch_moon_2026-10-30.json",
     "pack_p5_untagged_guides_2012_2026-10-30.json"
+   ],
+   "type": "Faction"
+  },
+  {
+   "id": "faction:order_of_the_widget",
+   "name": "Order of the Widget",
+   "origins": [
+    "pack_p5_last_four_thin_planes_2026-10-31.json"
    ],
    "type": "Faction"
   },
@@ -103605,6 +104228,14 @@
    "name": "Saiba Futurists",
    "origins": [
     "pack_p5_kamigawa_history_profile_2026-10-30.json"
+   ],
+   "type": "Faction"
+  },
+  {
+   "id": "faction:saurid_autocracy",
+   "name": "Saurid Autocracy",
+   "origins": [
+    "pack_p5_last_four_thin_planes_2026-10-31.json"
    ],
    "type": "Faction"
   },
@@ -104998,6 +105629,7 @@
    "id": "plane:bablovia",
    "name": "Bablovia",
    "origins": [
+    "pack_p5_last_four_thin_planes_2026-10-31.json",
     "pack_p5_untagged_side_stories_2015_2026_2026-10-30.json"
    ],
    "type": "Plane"
@@ -105144,6 +105776,7 @@
    ],
    "origins": [
     "pack_a_ugin_bolas_evidence_2026-10-30.json",
+    "pack_p5_last_four_thin_planes_2026-10-31.json",
     "pack_p5_reality_fracture_2026-10-30.json",
     "pack_p5_tarkir_dragonstorm_2026-10-30.json"
    ],
@@ -105171,7 +105804,8 @@
    "id": "plane:muraganda",
    "name": "Muraganda",
    "origins": [
-    "pack_p5_aetherdrift_2026-10-30.json"
+    "pack_p5_aetherdrift_2026-10-30.json",
+    "pack_p5_last_four_thin_planes_2026-10-31.json"
    ],
    "type": "Plane"
   },
@@ -105263,6 +105897,7 @@
    "id": "plane:skalla",
    "name": "Skalla",
    "origins": [
+    "pack_p5_last_four_thin_planes_2026-10-31.json",
     "pack_p5_untagged_bios_2026-10-30.json",
     "pack_p5_untagged_grn_rna_2026-10-30.json"
    ],
@@ -117236,6 +117871,94 @@
    "url": "https://magic.wizards.com/en/news/magic-story/the-lost-caverns-of-ixalan-pawns"
   },
   {
+   "id": "source:lf_bablovia_story",
+   "kind": "official_unstable_story",
+   "name": "World Class",
+   "origins": [
+    "pack_p5_last_four_thin_planes_2026-10-31.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/world-class-2017-11-29"
+  },
+  {
+   "id": "source:lf_meditation_chronicle",
+   "kind": "official_magic_story",
+   "name": "Chronicle of Bolas: The Unwritten Now",
+   "origins": [
+    "pack_p5_last_four_thin_planes_2026-10-31.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-unwritten-now-2018-08-15"
+  },
+  {
+   "id": "source:lf_meditation_planechase",
+   "kind": "official_historical_feature",
+   "name": "The Planes of Planechase",
+   "origins": [
+    "pack_p5_last_four_thin_planes_2026-10-31.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/feature/planes-planechase-2009-12-30"
+  },
+  {
+   "id": "source:lf_muraganda_guide",
+   "kind": "official_planeswalkers_guide",
+   "name": "Planeswalker's Guide to Aetherdrift, Part 2",
+   "origins": [
+    "pack_p5_last_four_thin_planes_2026-10-31.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-aetherdrift-part-2"
+  },
+  {
+   "id": "source:lf_skalla_design",
+   "kind": "official_making_magic",
+   "name": "What Core Can I Say? – Part 2",
+   "origins": [
+    "pack_p5_last_four_thin_planes_2026-10-31.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/making-magic/what-core-can-i-say-part-2-2019-07-08"
+  },
+  {
+   "id": "source:lf_skalla_unbowed",
+   "kind": "official_magic_story",
+   "name": "Unbowed, Part 1",
+   "origins": [
+    "pack_p5_last_four_thin_planes_2026-10-31.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/unbowed-part-1-2018-08-29"
+  },
+  {
+   "id": "source:lf_unset_boundary",
+   "kind": "official_continuity_boundary",
+   "name": "Get It? Unstable Edition",
+   "origins": [
+    "pack_p5_last_four_thin_planes_2026-10-31.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/making-magic/get-it-unstable-edition-2022-03-21"
+  },
+  {
+   "id": "source:lf_vivien_bio",
+   "kind": "official_character_profile",
+   "name": "Vivien Reid | Planeswalker",
+   "origins": [
+    "pack_p5_last_four_thin_planes_2026-10-31.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/story/vivien-reid-planeswalker"
+  },
+  {
    "id": "source:lithomancer",
    "kind": "official_story",
    "name": "The Lithomancer",
@@ -121187,17 +121910,17 @@
  "problems": [],
  "schema": "multiverse-claim-graph/v1",
  "stats": {
-  "claim_edges_with_era": 1289,
+  "claim_edges_with_era": 1302,
   "claim_edges_with_in_universe_date": 36,
   "claims_by_status": {
-   "ALTERNATE_CONTINUITY": 2,
-   "CANON_CONFIRMED": 980,
+   "ALTERNATE_CONTINUITY": 6,
+   "CANON_CONFIRMED": 989,
    "CANON_DISPUTED": 8,
    "CANON_IMPLIED": 253,
    "OPEN_QUESTION": 3
   },
   "curated_bridges": 126,
-  "edges": 8421,
+  "edges": 8473,
   "exact_art_printings": 560,
   "literal_objects": 14,
   "node_types": {
@@ -121206,20 +121929,20 @@
    "CardRepresentation": 560,
    "CardTheme": 1,
    "Character": 484,
-   "Claim": 1246,
-   "Concept": 182,
+   "Claim": 1259,
+   "Concept": 183,
    "DeckProposal": 3,
-   "Event": 33,
-   "Faction": 149,
+   "Event": 35,
+   "Faction": 156,
    "Literal": 14,
    "Object": 54,
    "Place": 112,
    "Plane": 33,
-   "Source": 627
+   "Source": 635
   },
-  "nodes": 5259,
+  "nodes": 5290,
   "non_wizards_sources": 0,
-  "relations": 458,
-  "wizards_official_sources": 627
+  "relations": 471,
+  "wizards_official_sources": 635
  }
 }

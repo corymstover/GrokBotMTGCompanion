@@ -79,6 +79,10 @@ QA_CASES = [
     ('plane_kaldheim', 'What is the history of Kaldheim?', 'ask->plane_history', 'QUALIFIED'),
     ('plane_lorwyn_shadowmoor', 'What is the history of Lorwyn-Shadowmoor?', 'ask->plane_history', 'QUALIFIED'),
     ('plane_thunder_junction', 'What is the history of Thunder Junction?', 'ask->plane_history', 'QUALIFIED'),
+    ('plane_bablovia_unset', 'What is the history of Bablovia?', 'ask->plane_history', 'QUALIFIED'),
+    ('plane_meditation_realm', 'What is the history of Meditation Realm?', 'ask->plane_history', 'QUALIFIED'),
+    ('plane_muraganda', 'What is the history of Muraganda?', 'ask->plane_history', 'QUALIFIED'),
+    ('plane_skalla', 'What is the history of Skalla?', 'ask->plane_history', 'QUALIFIED'),
 ]
 
 
@@ -127,6 +131,10 @@ def qa_cases() -> list[dict]:
             raise ValueError('History route claims unsupported completeness')
         if key.startswith('plane_') and r['result']['direct_claims'] < 5:
             raise ValueError(f'Thin-plane history evidence regressed for {key}')
+        if key == 'plane_bablovia_unset' and (
+                'ALTERNATE_CONTINUITY_PRESENT' not in r['flags'] or
+                sum(item['grade'] == 'ALTERNATE_CONTINUITY' for item in r['result']['claims']) < 4):
+            raise ValueError('Bablovia Un-set continuity was erased from foundation answer')
         result = r.get('result', {})
         urls = set(r.get('sources', []))
         # The rules answer uses a separate cited-rule envelope, not `sources`.

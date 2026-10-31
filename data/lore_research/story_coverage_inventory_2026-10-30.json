@@ -79,7 +79,8 @@
    "data/lore_research/pack_p5_isolated_entity_history_2026-10-31.json",
    "data/lore_research/pack_p5_thin_plane_history_2026-10-31.json",
    "data/lore_research/pack_p5_four_plane_histories_2026-10-31.json",
-   "data/lore_research/pack_p5_four_more_plane_histories_2026-10-31.json"
+   "data/lore_research/pack_p5_four_more_plane_histories_2026-10-31.json",
+   "data/lore_research/pack_p5_last_four_thin_planes_2026-10-31.json"
   ],
   "reviewed_no_claim": "data/lore_research/reviewed_no_claim.json"
  },
@@ -93,8 +94,8 @@
   "arcs_all_cited": 31,
   "reviewed_no_claim_pages": 50,
   "arcs_all_cited_or_reviewed": 33,
-  "claims": 1246,
-  "pack_urls_outside_inventory": 15
+  "claims": 1259,
+  "pack_urls_outside_inventory": 18
  },
  "claims_per_pack": {
   "pack_a_ugin_bolas_evidence_2026-10-30.json": 12,
@@ -173,7 +174,8 @@
   "pack_p5_isolated_entity_history_2026-10-31.json": 5,
   "pack_p5_thin_plane_history_2026-10-31.json": 11,
   "pack_p5_four_plane_histories_2026-10-31.json": 12,
-  "pack_p5_four_more_plane_histories_2026-10-31.json": 12
+  "pack_p5_four_more_plane_histories_2026-10-31.json": 12,
+  "pack_p5_last_four_thin_planes_2026-10-31.json": 13
  },
  "arcs": [
   {
@@ -254,7 +256,8 @@
     "story": 8
    },
    "citing_packs": [
-    "pack_p5_aetherdrift_2026-10-30.json"
+    "pack_p5_aetherdrift_2026-10-30.json",
+    "pack_p5_last_four_thin_planes_2026-10-31.json"
    ],
    "status": "ALL_PAGES_CITED",
    "uncited_urls": [],
@@ -769,6 +772,7 @@
     "pack_p5_four_more_plane_histories_2026-10-31.json",
     "pack_p5_four_plane_histories_2026-10-31.json",
     "pack_p5_kamigawa_history_profile_2026-10-30.json",
+    "pack_p5_last_four_thin_planes_2026-10-31.json",
     "pack_p5_new_phyrexia_historical_profile_2026-10-30.json",
     "pack_p5_thin_plane_history_2026-10-31.json",
     "pack_p5_untagged_bios_2026-10-30.json",
@@ -846,5 +850,5 @@
    "unreviewed_urls": []
   }
  ],
- "sha256": "b4a34ca8caf054a46303168ceff1e4e3fb1c432392c7c5e1a12ba21195ca388d"
+ "sha256": "132c4a4a8514627179ad300d089cc87039b44273eea63cbce03615b6de18b37f"
 }

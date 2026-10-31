@@ -11,6 +11,7 @@ on:
       - 'scripts/audit_p5_thin_plane_history.py'
       - 'scripts/audit_p5_four_plane_histories.py'
       - 'scripts/audit_p5_four_more_plane_histories.py'
+      - 'scripts/audit_p5_last_four_thin_planes.py'
       - 'scripts/audit_phase1b_snapshot_gates.py'
       - 'scripts/update_multiverse_progress_tracker.py'
       - 'scripts/query_lore_chronology.py'
@@ -37,6 +38,7 @@ on:
       - 'data/lore_research/pack_p5_thin_plane_history_2026-10-31.json'
       - 'data/lore_research/pack_p5_four_plane_histories_2026-10-31.json'
       - 'data/lore_research/pack_p5_four_more_plane_histories_2026-10-31.json'
+      - 'data/lore_research/pack_p5_last_four_thin_planes_2026-10-31.json'
       - 'data/lore_research/source_event_sequences_spec_2026-10-30.json'
       - 'data/lore_research/source_event_sequences_2026-10-30.json'
       - 'data/lore_research/in_universe_dates_2026-10-30.json'
@@ -60,6 +62,7 @@ on:
       - 'tests/test_p5_thin_plane_history.py'
       - 'tests/test_p5_four_plane_histories.py'
       - 'tests/test_p5_four_more_plane_histories.py'
+      - 'tests/test_p5_last_four_thin_planes.py'
       - 'tests/test_plane_context_claims.py'
       - 'tests/test_lore_pack_c5_invasion_outcome.py'
       - 'tests/test_lore_pack_alara.py'
@@ -83,6 +86,7 @@ on:
       - 'scripts/audit_p5_thin_plane_history.py'
       - 'scripts/audit_p5_four_plane_histories.py'
       - 'scripts/audit_p5_four_more_plane_histories.py'
+      - 'scripts/audit_p5_last_four_thin_planes.py'
       - 'scripts/audit_phase1b_snapshot_gates.py'
       - 'scripts/update_multiverse_progress_tracker.py'
       - 'scripts/query_lore_chronology.py'
@@ -109,6 +113,7 @@ on:
       - 'data/lore_research/pack_p5_thin_plane_history_2026-10-31.json'
       - 'data/lore_research/pack_p5_four_plane_histories_2026-10-31.json'
       - 'data/lore_research/pack_p5_four_more_plane_histories_2026-10-31.json'
+      - 'data/lore_research/pack_p5_last_four_thin_planes_2026-10-31.json'
       - 'data/lore_research/source_event_sequences_spec_2026-10-30.json'
       - 'data/lore_research/source_event_sequences_2026-10-30.json'
       - 'data/lore_research/in_universe_dates_2026-10-30.json'
@@ -132,6 +137,7 @@ on:
       - 'tests/test_p5_thin_plane_history.py'
       - 'tests/test_p5_four_plane_histories.py'
       - 'tests/test_p5_four_more_plane_histories.py'
+      - 'tests/test_p5_last_four_thin_planes.py'
       - 'tests/test_plane_context_claims.py'
       - 'tests/test_lore_pack_c5_invasion_outcome.py'
       - 'tests/test_lore_pack_alara.py'
@@ -167,6 +173,8 @@ jobs:
           python3 -m unittest discover -s tests -p 'test_p5_four_plane_histories.py' -q
           python3 scripts/audit_p5_four_more_plane_histories.py --check
           python3 -m unittest discover -s tests -p 'test_p5_four_more_plane_histories.py' -q
+          python3 scripts/audit_p5_last_four_thin_planes.py --check
+          python3 -m unittest discover -s tests -p 'test_p5_last_four_thin_planes.py' -q
       - name: Confidence and graph regression tests
         run: |
           python3 -m unittest discover -s tests -p 'test_mv_ask*.py' -q

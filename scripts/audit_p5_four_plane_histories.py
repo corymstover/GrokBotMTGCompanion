@@ -48,10 +48,10 @@ def audit(html_by_source=None):
     by_name = {p["plane"]: p for p in dossiers["planes"]}
     counts = {name: by_name[name]["distinct_claims"] for name in EXPECTED}
     assert counts == EXPECTED, f"Plane dossier count drift: {counts}"
-    assert dossiers["counts"]["thin_planes_fewer_than_five_claims"] == 4
+    assert dossiers["counts"]["thin_planes_fewer_than_five_claims"] <= 4
     assert all(not p.get("complete_history") for p in by_name.values())
     return {"status": "PASS", "claims": 12, "source_pages": 5, "expanded_planes": counts,
-            "remaining_thin_planes": 4, "live_quote_checked": html_by_source is not None,
+            "remaining_thin_planes": dossiers["counts"]["thin_planes_fewer_than_five_claims"], "live_quote_checked": html_by_source is not None,
             "complete_histories": False, "owner_approved": False}
 
 

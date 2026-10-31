@@ -145,6 +145,7 @@ def build() -> dict:
         item = {
             'claim_id': edge['claim'],
             'grade': claim['grade'],
+            'continuity': claim.get('continuity', ''),
             'statement': claim['name'],
             'limitation': claim.get('limitation', ''),
             'relation': edge['relation'],

@@ -1,6 +1,6 @@
 # MTG Multiverse Companion — Master Workflow & Progress Checklist
 
-**Version:** 2.67
+**Version:** 2.68
 **Checkpoint date:** 2026-10-31
 **Repository:** [corymstover/GrokBotMTGCompanion](https://github.com/corymstover/GrokBotMTGCompanion)  
 **Purpose:** Durable project roadmap and handoff document. Update this file after verified milestone work; do not treat historical figures as live counters.
@@ -22,6 +22,32 @@ foundation release may document inherently unresolved canon and future
 maintenance; it must never claim exhaustive knowledge of all MTG history.
 The 62 approved Grixis decks, their hashes and all owner gates remain intact.
 Only a new explicit request from Cory can override the Phase 6 hold.
+
+**v2.68 Phase 5 last four thin-plane dossier pass (2026-10-31):**
+Added **13** narrowly scoped and live-excerpt-checked direct historical
+relations from **eight** official Wizards pages or source-context references:
+**Bablovia** (1→5), **Meditation Realm** (3→5), **Muraganda** (1→5) and
+**Skalla** (2→5). The Bablovia batch carries explicit
+`ALTERNATE_CONTINUITY` grades and the Wizards silver-border Un-set versus
+black-border distinction; the inherited `SSX020` grade from the older
+Unstable story is disclosed as a provenance debt, **not silently
+reclassified without the original source-cache audit**. Other histories
+distinguish Madaran-era Bolas meetings and early Ugin contemplation from
+the realm's later fate; Muraganda's ancient collapse, shattered moons and
+survivor societies from current politics; and Vivien's remembered Skalla
+ecology and Arkbow legacy from surviving living life. No cross-source AR
+dates or exhaustive outcomes are invented. All 33 registered plane dossiers
+now reach at least five direct cited claims (**0 thin**), but **0 complete
+histories are certified**. Graph: **1,259 graded claims, 5,290 nodes,
+8,473 edges**, with **640/640** registered Character/Faction nodes incident
+to a cited claim. The Phase 8 foundation review packet has **38 unique
+Q&A cases** and remains explicitly preliminary. Source-safe append mode
+accounts for **1,259 claims and 4,118 name anchors** without changing
+historical printing/art tiers while the pinned Scryfall bulk is absent.
+The engineering checklist remains **83/137**, readiness is
+**NOT_RELEASE_READY**, owner acceptance is ungranted, and the three
+unapproved lore pilots and 62 protected Grixis decks are unchanged.
+See `research/PHASE5_LAST_FOUR_THIN_PLANES_2026-10-31.md`.
 
 **v2.67 Phase 5 four further plane histories (2026-10-31):**
 Twelve additional direct, source-quoted `CANON_CONFIRMED` incidents and
