@@ -179,7 +179,13 @@ def check_composite(legacy, local):
 
 
 def compare_across_datasets(legacy, local, left, right):
-    """Only explicit same-event evidence may join independently scoped ledgers."""
+    """Only explicit same-event evidence may join independently scoped ledgers.
+
+    A pair from the *same* ledger may need a cited detour through the other
+    ledger. Preserve the original answer whenever it is already supported;
+    consult the composite graph only for UNKNOWN, and accept an improvement
+    only when its proof actually traverses an explicit SAME_EVENT bridge.
+    """
     old_ids = {n['id'] for n in legacy['nodes']}
     new_ids = {n['id'] for n in local['nodes']}
     lookup = {n['id']:n['label'] for n in legacy['nodes'] + local['nodes']}
@@ -191,10 +197,13 @@ def compare_across_datasets(legacy, local, left, right):
             raise ValueError(f'ambiguous or unknown chronology label {phrase!r}; use --list or a full event ID')
         return hits[0]
     left, right = resolve(left), resolve(right)
+    native = None
     if left in old_ids and right in old_ids:
-        return compare(legacy, left, right)
-    if left in new_ids and right in new_ids:
-        return SEQ.proof(local, left, right)
+        native = compare(legacy, left, right)
+    elif left in new_ids and right in new_ids:
+        native = SEQ.proof(local, left, right)
+    if native and native['result'] != 'UNKNOWN':
+        return native
     if (left in old_ids | new_ids) and (right in old_ids | new_ids):
         arcs, aliases = composite_arcs(legacy,local)
         a, b = aliases.get(left,left),aliases.get(right,right)
@@ -208,6 +217,8 @@ def compare_across_datasets(legacy, local, left, right):
                 raise ValueError('contradictory cross-ledger chronology paths')
             result,path = ('BEFORE',forward) if forward is not None else (
                 ('AFTER',backward) if backward is not None else ('UNKNOWN',[]))
+        if native is not None and not any(e['relation'] == 'SAME_EVENT' for e in path):
+            return native  # no new cross-ledger proof: retain the native UNKNOWN and its scope
         return {'result':result,'left':left,'right':right,'proof':path,
                 'confidence':'QUALIFIED_CITED_CROSS_LEDGER_SEQUENCE' if path else 'UNRESOLVED',
                 'limitation':('Only the seven explicitly source-corroborated event identities bridge the ledgers; '
