@@ -1,6 +1,6 @@
 # MTG Multiverse Companion — Master Workflow & Progress Checklist
 
-**Version:** 2.60
+**Version:** 2.61
 **Checkpoint date:** 2026-10-30
 **Repository:** [corymstover/GrokBotMTGCompanion](https://github.com/corymstover/GrokBotMTGCompanion)  
 **Purpose:** Durable project roadmap and handoff document. Update this file after verified milestone work; do not treat historical figures as live counters.
@@ -22,6 +22,26 @@ foundation release may document inherently unresolved canon and future
 maintenance; it must never claim exhaustive knowledge of all MTG history.
 The 62 approved Grixis decks, their hashes and all owner gates remain intact.
 Only a new explicit request from Cory can override the Phase 6 hold.
+
+**v2.61 Phase 7 bounded set and printing questions (2026-10-30):**
+`scripts/mv_ask.py ask` now routes explicit natural-language set/printing
+questions to `scripts/ask_set_atlas.py` and the fully committed, frozen
+Phase 1B historical shards. Supported answers distinguish **1,062 catalogued
+set codes** across qualified categories, including **136** source-reviewed
+historical regular/mainline codes (not a universal official expansion total);
+give complete or classified debut/reprint set card lists; distinguish stable
+Oracle identities from printing IDs; and report a card's dated printing
+history and earliest recorded set(s). Example: Alpha's **290** identities vs.
+**295** English-paper printing records; Black Lotus has **13** eligible
+printing records across **8** set codes in the snapshot, earliest Alpha
+(1993-08-05). All results are **QUALIFIED** with the **2026-10-29** cutoff,
+source file links, paper/language scope, original bulk-source absence, and
+explicit separation of product dates from in-universe time. Nine regression
+tests cover category policy, full lists, debut/reprint filtering, ambiguous
+sources, unknowns and existing rule/lore routes. This closes the *bounded*
+Phase 7 set-answering checklist capability, **not** the Phase 1B source-bulk
+gap, live freshness, comprehensive Q&A, or foundation certification.
+Phase 6 remains parked.
 
 **v2.60 Phase 8 foundation acceptance evidence and blocker reconciliation (2026-10-30):**
 `scripts/build_foundation_acceptance_packet.py` now reproducibly assembles
@@ -572,7 +592,7 @@ explicitly lifts the hold).
 
 - [x] **Answer bounded two-event chronology questions through the main natural-language Q&A interface.** *(v2.57: `mv_ask.py ask` compares recognized event label fragments through v2.56's cited source-local and Packs A–C event orders, returns yes/no/first-event only when justified by strict BEFORE/AFTER evidence, and reports UNKNOWN or unresolved ambiguity without guessing. Explicit flags preserve narrated legends, overlapping war events, and unrelated/unaligned eras. Nine dedicated regressions; not a total chronology or comprehensive open-domain Q&A solution.)*
 - [ ] Support precise lookups for card names, Oracle text, types, identities, mechanics, printings and relevant rulings.
-- [ ] Answer set questions with category-qualified totals, full set card lists, printing/debut/reprint distinctions and cited snapshot dates from Phase 1B.
+- [x] **Answer bounded set and printing questions with category-qualified totals, full set card lists, printing/debut/reprint distinctions and cited snapshot dates from Phase 1B.** *(v2.61: the normal `mv_ask.py ask` entry point serves the frozen 2026-10-29 historical shard index with the exact 1,062-code category breakdown, full per-set English-paper card lists and debut/reprint classes, and printing-ID-level histories. It explicitly marks 136 regular/mainline codes as a scoped research classification, not an official all-time premier count; qualifying flags preserve source-bulk absence and release-date versus lore-date separation. Nine focused regressions. Broader questions and source-level replay remain open.)*
 - [ ] Answer obscure lore and chronology questions through cited evidence and dated canon status.
 - [x] Explain ambiguous/retconned narratives rather than inventing certainty. *(v2.37, Batch 9: leader answers order cited leaders by the citing page's publication date. Claims whose summary or limitation sets them in a past era or an original or rewritten timeline are now kept as era context and never reported as the most recent leader. The answer carries the flag `ERA_OR_TIMELINE_CONTEXT` and an `era_note` saying that publication order is not in-universe order and that the cited claims do not by themselves establish the present-day leader. For example, Yasova, Tasigur, Alesha and Daghatar are Fate Reforged past-era khans; they are era context behind Surrak, Sidisi, Zurgo and Anafenza. Covered by `tests/test_batch_recount_b9.py`. There is no general retcon explainer beyond leadership yet. **v2.38, Batch 10:** a general continuity explainer (`continuity()` in `mv_ask`, route `ask->continuity`, `tests/test_mv_ask_continuity.py`) returns the conflicting or alternate cited accounts with `QUALIFIED` confidence and a "not resolved" note, or `NO_CITED_CONTINUITY_CONFLICT`. Checked as a capability; its answers are only as complete as the cited packs.)*
 - [ ] Integrate card, lore and rules search for difficult research questions; defer deck recommendations and deckbuilding flows until post-foundation Phase 6.
@@ -599,12 +619,12 @@ explicitly lifts the hold).
   - v2.60: a source-graded, 12-case knowledge-only review packet is now generated and CI-gated; the dry-run distinguishes this **completed engineering packet** from pending exact-head CI and Cory's foundation-scope decision. No release checklist acceptance is inferred.
 - [ ] Treat continual future MTG releases as an ongoing maintenance track rather than a permanently finishable backlog.
 
-## Immediate execution queue — v2.60 FOUNDATION FIRST (2026-10-30)
+## Immediate execution queue — v2.61 FOUNDATION FIRST (2026-10-30)
 
 1. **Phase 4 — Verified in-universe chronology:** expand the source-quoted BEFORE/AFTER/UNKNOWN event order, resolve high-value L244 gaps where primary evidence exists, and retain unknown/disputed ordering instead of inventing total dates. Keep release chronology separate.
 2. **Phases 2/5 — Comprehensive history:** systematically deepen thin plane dossiers, major factions, characters, wars, artifacts and cross-plane consequences; record both coverage and missing primary sources. Currently thin registered planes remain a priority, not a census of all planes; regenerate the exact count from the dossier rather than treating this prose as a live counter.
 3. **Phase 3 — Evidence-safe knowledge graph:** resolve or explicitly qualify orphan nodes, cross-pack aliases, identity/printing links and undated relations. Never merge identities or promote card art/name matches without evidence.
-4. **Phase 7 — Advanced Q&A and rules:** test difficult natural-language questions (chronology, contradictions, leaders, card/printing/set queries and nuanced rules) with citations, confidence limits, negative cases and currentness safeguards. No new deckbuilding tests are required here.
+4. **Phase 7 — Advanced Q&A and rules:** expand the new bounded set/printing route to nuanced multi-hop questions, chronology, contradictions, leaders and rules interactions with citations, confidence limits, negative cases and currentness safeguards. No new deckbuilding tests are required here.
 5. **Phases 1B/2 — Reproducibility and source integrity:** keep exact snapshot hashes, authoritative story quotations, per-set data and generated indexes testable. Recover original pinned bulk only by hash; do not alter historical Grixis locks. Treat the optional 555-product source queue as nonblocking unless it becomes material to an active knowledge gate.
 6. **Phase 8 — Maintenance and focused CI:** synchronize the generated Progress Tracker, monitor newly released official material, run targeted and exact-head checks, and audit actual gaps without calling a static knowledge snapshot permanently exhaustive.
 7. **Foundation-only release decision:** independently review chronology/history coverage, graph/search integrity, Q&A/rules, snapshots, known limitations, owner research decisions and protection of the 62 Grixis lists. Release readiness remains **NOT_RELEASE_READY** until its actual gates pass; no deck pilot approval may block this release.
