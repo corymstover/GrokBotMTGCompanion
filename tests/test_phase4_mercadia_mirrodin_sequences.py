@@ -90,9 +90,9 @@ class SourceHistoryExpansionTests(unittest.TestCase):
         self.assertIsNone(unknown['result']['answer'])
         self.assertIn('NO_CITED_CHRONOLOGY_PATH', unknown['flags'])
 
-    def test_composite_remains_cycle_free_with_existing_seven_bridges(self):
+    def test_composite_remains_cycle_free_with_approved_source_bridges(self):
         self.assertEqual(Q.check_composite(self.legacy, self.local)['strict_cycles'], 0)
-        self.assertEqual(self.local['counts']['verified_legacy_bridges'], 7)
+        self.assertEqual(self.local['counts']['verified_legacy_bridges'], 8)
 
 
 if __name__ == '__main__':

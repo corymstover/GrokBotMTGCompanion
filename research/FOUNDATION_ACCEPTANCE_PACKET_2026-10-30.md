@@ -14,7 +14,7 @@ This source-graded packet is reproducible from the repository, with exact input 
 ## In-universe chronology (not a complete timeline)
 
 - Legacy ledger: 56 events, 177/3074 ordered event pairs; 2897 unresolved, 13 components, 0 cycles.
-- Source-local ledger: 88 events, 314/3828 pairs. These counts are separate, not additive.
+- Source-local ledger: 107 events, 354/5671 pairs. These counts are separate, not additive.
 - L244 cross-source historical ordering remains open. UNKNOWN is the correct answer when no cited bridge exists.
 
 ## Representative end-to-end questions
@@ -42,6 +42,12 @@ This source-graded packet is reproducible from the repository, with exact input 
 | Did H:karn_creates_argentum happen before H:karn_restores_order? | `ask->chronology` | `QUALIFIED` | 1 |
 | Did T:weatherlight_leaves_mercadia happen before T:rath_overlay? | `ask->chronology` | `QUALIFIED` | 0 |
 | Did H:karn_restores_order happen before P:mirrans_overwhelmed? | `ask->chronology` | `QUALIFIED` | 0 |
+| Did R:brothers_war happen before R:weatherlight_thwarts_phyrexia? | `ask->chronology` | `QUALIFIED` | 1 |
+| Did R:dominarian_temporal_fractures happen before R:kami_war_begins? | `ask->chronology` | `QUALIFIED` | 1 |
+| Did C:karn_created happen before U:world_phyrexian_corruption? | `ask->chronology` | `QUALIFIED` | 1 |
+| Did R:dominarian_ice_age happen before R:urza_discovers_phyrexia? | `ask->chronology` | `QUALIFIED` | 0 |
+| Did R:kami_war_begins happen before R:planeswalkers_mend_rifts? | `ask->chronology` | `QUALIFIED` | 0 |
+| Did H:karn_creates_argentum happen before U:karn_creates_world? | `ask->chronology` | `QUALIFIED` | 0 |
 | What is the history of Eric Kenrith? | `ask->entity_history` | `QUALIFIED` | 1 |
 | What is the history of Hazel Kenrith? | `ask->entity_history` | `QUALIFIED` | 1 |
 | What is the history of Lyra Dawnbringer? | `ask->entity_history` | `QUALIFIED` | 1 |
@@ -96,6 +102,6 @@ python3 scripts/certification_dry_run.py --check
 python3 scripts/update_multiverse_progress_tracker.py --check
 ```
 
-Packet SHA-256 (canonical JSON): `0b1943b0adc36ef1b017f8a090aaa18c56aa7349f2bb51fbffef6c53344f4507`
+Packet SHA-256 (canonical JSON): `821f22b9db195157ead6cd7cd776f8c3d4de6961aef7b37806bc111ab42c7a2a`
 
 **No decks were built, modified, reviewed or approved.**

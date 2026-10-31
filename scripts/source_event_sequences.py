@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Reproducible source-local event orders across eight bounded plane/history accounts.
+"""Reproducible source-local event orders across bounded plane/history accounts.
 
 This supplements, NEVER silently rewrites, the legacy Packs A–C partial order.
 Cross-strand comparisons return UNKNOWN. A narrated legend can be ordered only
@@ -82,8 +82,12 @@ def build() -> dict:
 
     nodes, edges, strands = [], [], []
     ids: set[str] = set()
+    seen_strands: set[str] = set()
     for strand in spec['strands']:
         sid, certainty = strand['id'], strand['certainty']
+        if sid in seen_strands:
+            raise ValueError(f'duplicate source-local strand ID: {sid}')
+        seen_strands.add(sid)
         assert certainty in CERTAINTIES
         strand_ids = set()
         for node in strand['nodes']:
@@ -182,6 +186,8 @@ def build() -> dict:
             'Thran to first invasion: the 2008 historical retrospective does not establish a strict order between the soul-bomb decimation of Old Phyrexia and the Weatherlight Legacy destroying Yawgmoth.',
             'The Weatherlight leaves Mercadia to defend Dominaria after its strike, but the 2008 account does not strictly date that departure against the later Rath overlay.',
             'Original Mirrodin history in the 2008 account is an independent H strand: its mysterious contagion is not automatically identified with later oil accounts or assigned a relative order against the New Phyrexia P strand.',
+            'The official Dominaria synopsis and 2008 Kamigawa explanation establish a Dominarian-rift effect on Kamigawa, but not the strict order of the Kami War, the Mending and the Phyrexian invasion.',
+            'Karn\'s creation is independently source-bridged to the legacy ledger; his later profile-era motives and world corruption do not automatically establish a SAME_EVENT link to the separate 2008 Mirrodin contagion account.',
             'Serra\'s Realm: the retrospective does not order the end of Radiant\'s administration relative to Urza\'s final powerstone extraction, even though both follow Serra\'s departure.',
             'A DURING_OR_AFTER_START relation is not a strict BEFORE edge and never participates in transitive ordering.',
             'Unknown original plane names, absolute AR years and missing historical events are not supplied.',

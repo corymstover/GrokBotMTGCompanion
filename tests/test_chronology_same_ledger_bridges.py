@@ -82,7 +82,7 @@ class SameLedgerBridgeTest(unittest.TestCase):
 
     def test_no_new_cycle_or_unsourced_bridge(self):
         self.assertEqual(Q.check_composite(self.old, self.local)['strict_cycles'], 0)
-        self.assertEqual(len(self.local['legacy_bridges']), 7)
+        self.assertEqual(len(self.local['legacy_bridges']), 8)
 
 
 if __name__ == '__main__':
