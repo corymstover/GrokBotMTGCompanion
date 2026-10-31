@@ -145,18 +145,25 @@
     {
       "id": "plane:argentum",
       "name": "Argentum",
-      "claim_edges": 1,
-      "distinct_claims": 1,
+      "claim_edges": 5,
+      "distinct_claims": 5,
       "claims": [
-        "NP001"
+        "NP001",
+        "TPH008",
+        "TPH009",
+        "TPH010",
+        "TPH011"
       ],
       "official_source_ids": [
-        "np_intro"
+        "np_intro",
+        "tph_memnarch_2016",
+        "tph_multiverse_2008",
+        "tph_phyrexia_overview"
       ],
       "grades_present": [
         "CANON_CONFIRMED"
       ],
-      "research_priority": "THIN_DIRECT_EVIDENCE",
+      "research_priority": "EXPAND_NARRATIVE_DEPTH",
       "limitation": "Direct graph edges only; not the complete plane history or a canon completeness score."
     },
     {
@@ -259,23 +266,26 @@
     {
       "id": "plane:eldraine",
       "name": "Eldraine",
-      "claim_edges": 3,
-      "distinct_claims": 3,
+      "claim_edges": 5,
+      "distinct_claims": 5,
       "claims": [
         "EL011",
         "LC015",
+        "TPH001",
+        "TPH002",
         "WE010"
       ],
       "official_source_ids": [
         "eld_guide",
         "lci_ep2",
+        "tph_eldraine_2019",
         "woe_ep5"
       ],
       "grades_present": [
         "CANON_CONFIRMED",
         "CANON_IMPLIED"
       ],
-      "research_priority": "THIN_DIRECT_EVIDENCE",
+      "research_priority": "EXPAND_NARRATIVE_DEPTH",
       "limitation": "Direct graph edges only; not the complete plane history or a canon completeness score."
     },
     {
@@ -304,24 +314,27 @@
     {
       "id": "plane:ikoria",
       "name": "Ikoria",
-      "claim_edges": 4,
-      "distinct_claims": 4,
+      "claim_edges": 6,
+      "distinct_claims": 6,
       "claims": [
         "IK001",
         "IK002",
         "MOM003",
-        "MS002"
+        "MS002",
+        "TPH003",
+        "TPH004"
       ],
       "official_source_ids": [
         "iko_guide",
         "mom_ep01",
-        "moms_ikoria"
+        "moms_ikoria",
+        "tph_ikoria_2020"
       ],
       "grades_present": [
         "CANON_CONFIRMED",
         "CANON_IMPLIED"
       ],
-      "research_priority": "THIN_DIRECT_EVIDENCE",
+      "research_priority": "EXPAND_NARRATIVE_DEPTH",
       "limitation": "Direct graph edges only; not the complete plane history or a canon completeness score."
     },
     {
@@ -513,8 +526,8 @@
     {
       "id": "plane:mirrodin",
       "name": "Mirrodin / New Phyrexia",
-      "claim_edges": 10,
-      "distinct_claims": 10,
+      "claim_edges": 11,
+      "distinct_claims": 11,
       "claims": [
         "C005",
         "C007",
@@ -523,6 +536,7 @@
         "NPHH004",
         "ONE018",
         "ONE019",
+        "TPH011",
         "UP016",
         "UP024",
         "WSM007"
@@ -533,6 +547,7 @@
         "km",
         "np_intro",
         "one_ep4",
+        "tph_memnarch_2016",
         "up_mirrodin",
         "up_nph"
       ],
@@ -562,21 +577,25 @@
     {
       "id": "plane:new_capenna",
       "name": "New Capenna",
-      "claim_edges": 2,
-      "distinct_claims": 2,
+      "claim_edges": 5,
+      "distinct_claims": 5,
       "claims": [
         "MOM007",
-        "MS008"
+        "MS008",
+        "TPH005",
+        "TPH006",
+        "TPH007"
       ],
       "official_source_ids": [
         "mom_ep01",
         "mom_ep04",
-        "moms_capenna"
+        "moms_capenna",
+        "tph_capenna_2022"
       ],
       "grades_present": [
         "CANON_CONFIRMED"
       ],
-      "research_priority": "THIN_DIRECT_EVIDENCE",
+      "research_priority": "EXPAND_NARRATIVE_DEPTH",
       "limitation": "Direct graph edges only; not the complete plane history or a canon completeness score."
     },
     {

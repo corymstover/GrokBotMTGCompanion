@@ -7,8 +7,8 @@ This source-graded packet is reproducible from the repository, with exact input 
 ## Inventory and supported lookups
 
 - 576 official source pages cited and 50 reviewed without a claim within the inventoried 626-page scope. Citation does not mean exhaustive reading.
-- 1211 source-graded graph claims across 5186 nodes; 33 registered planes, 16 still thin.
-- 483 registered characters and 146 factions; 629 with direct cited claims, 0 without.
+- 1222 source-graded graph claims across 5209 nodes; 33 registered planes, 12 still thin.
+- 483 registered characters and 147 factions; 630 with direct cited claims, 0 without.
 - 53 previously researched on-plane contextual claims in 4 dossiers, strictly distinct from new/direct graph claims.
 
 ## In-universe chronology (not a complete timeline)
@@ -22,7 +22,7 @@ This source-graded packet is reproducible from the repository, with exact input 
 | Question | Route | Confidence | Cited URLs |
 | --- | --- | --- | ---: |
 | What is the history of Alara? | `ask->plane_history` | `QUALIFIED` | 1 |
-| What is the history of New Capenna? | `ask->plane_history` | `QUALIFIED` | 8 |
+| What is the historical background of New Capenna? | `ask->plane_history` | `QUALIFIED` | 8 |
 | What is the lore of Nicol Bolas? | `ask->entity_history` | `QUALIFIED` | 38 |
 | What is the history of the Gatewatch? | `ask->entity_history` | `QUALIFIED` | 17 |
 | What is the history of the Izzet? | `ask->entity_history` | `QUALIFIED` | 5 |
@@ -43,6 +43,10 @@ This source-graded packet is reproducible from the repository, with exact input 
 | What is the history of Lyra Dawnbringer? | `ask->entity_history` | `QUALIFIED` | 1 |
 | What is the history of Valentin? | `ask->entity_history` | `QUALIFIED` | 1 |
 | What is the history of the Cabaretti? | `ask->entity_history` | `QUALIFIED` | 1 |
+| What is the history of Argentum? | `ask->plane_history` | `QUALIFIED` | 4 |
+| What is the history of Eldraine? | `ask->plane_history` | `QUALIFIED` | 3 |
+| What is the history of Ikoria? | `ask->plane_history` | `QUALIFIED` | 3 |
+| What is the history of New Capenna? | `ask->plane_history` | `QUALIFIED` | 8 |
 
 The underlying JSON retains response digests, exact source URLs and caveat flags. The two graph-navigation examples are **not** evidence of chronological or causal paths.
 
@@ -65,6 +69,6 @@ python3 scripts/certification_dry_run.py --check
 python3 scripts/update_multiverse_progress_tracker.py --check
 ```
 
-Packet SHA-256 (canonical JSON): `648a179ed061759e0be0ecc971b6e5c5c7b3b2fd1f7915c3493a642b51fb89e3`
+Packet SHA-256 (canonical JSON): `1c85f5d2b7fe45a37e2d5b0682bde9d3b8218d3e668696bff49926772172e2d3`
 
 **No decks were built, modified, reviewed or approved.**

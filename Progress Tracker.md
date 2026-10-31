@@ -14,7 +14,7 @@ schema: 2
 <!-- MULTIVERSE-CURRENT:START -->
 ## MTG Multiverse Companion — current engineering checkpoint (2026-10-31)
 
-**Live authority:** [Master Workflow v2.64](MTG_MULTIVERSE_MASTER_WORKFLOW.md), the current
+**Live authority:** [Master Workflow v2.65](MTG_MULTIVERSE_MASTER_WORKFLOW.md), the current
 graph and dated recount. The older cycle-36/October-15 metrics **below this section are historical**;
 they are not the active Phase 1–8 completion counters.
 
@@ -23,9 +23,9 @@ they are not the active Phase 1–8 completion counters.
 | Master Workflow checklist | **83/137 checked; 54 open** | Engineering verification, never owner approval. |
 | Priority card enrichments | **5362/5,362** | Enrichment does not imply every card has a sourced story. |
 | Source-page inventory | **576 cited + 50 reviewed = 626 accounted for** | Current inventoried pages only, not all fiction ever published. |
-| Cited lore claims | **1211** | Live graph/inventory concordance; claim packs remain preliminary research. |
-| Cited graph | **5186 nodes / 8279 edges** | Unresolved orphan/variant and chronology work remains. |
-| Registered people/factions with direct claims | **629/629** | At least one cited relation per registered node, **not** a complete biography or census of all canon. |
+| Cited lore claims | **1222** | Live graph/inventory concordance; claim packs remain preliminary research. |
+| Cited graph | **5209 nodes / 8324 edges** | Unresolved orphan/variant and chronology work remains. |
+| Registered people/factions with direct claims | **630/630** | At least one cited relation per registered node, **not** a complete biography or census of all canon. |
 | Exact printing-specific representations | **560** | Frozen snapshot + official art-file label evidence, **not** canon scene depiction. |
 | In-universe dated claim edges | **36** | Most graph edges lack a verified in-world date. |
 | Parked graph-built Commander pilots | **3 unapproved** | Preserved, not a knowledge-foundation release gate. |

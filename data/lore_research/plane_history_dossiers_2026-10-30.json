@@ -2,18 +2,18 @@
   "schema": "plane-history-dossiers/v2",
   "as_of": "2026-10-30",
   "status": "PRELIMINARY_RESEARCH_NOT_OWNER_APPROVED",
-  "source_graph_sha256": "34c44cf3dc0e92846d24c342aea438184928abf35e689ec31b7fbd5cbbbcb556",
+  "source_graph_sha256": "f985c720c024558d1e19e1f699509ff725203cae58d1a7543ca7b407ce13b6be",
   "scope": "Named graph Plane nodes, direct incident claims, and an independently labeled curated subset of already cited on-plane story claims.",
   "chronology_policy": "Never infer ordering from article date, release date or an era_label; explicit dated quotes are retained verbatim as quoted metadata only.",
   "counts": {
     "registered_planes": 33,
     "planes_with_direct_claims": 33,
-    "direct_claim_edges": 183,
-    "thin_planes_fewer_than_five_claims": 16,
+    "direct_claim_edges": 195,
+    "thin_planes_fewer_than_five_claims": 12,
     "planes_with_curated_context": 4,
     "distinct_contextual_claims": 53,
     "claim_edge_grades": {
-      "CANON_CONFIRMED": 155,
+      "CANON_CONFIRMED": 167,
       "CANON_DISPUTED": 2,
       "CANON_IMPLIED": 25,
       "OPEN_QUESTION": 1
@@ -1215,7 +1215,7 @@
       "id": "plane:argentum",
       "plane": "Argentum",
       "evidence_status": "PARTIAL_DIRECT_AND_SEPARATELY_CURATED_CONTEXT",
-      "distinct_claims": 1,
+      "distinct_claims": 5,
       "facts": [
         {
           "claim_id": "NP001",
@@ -1238,6 +1238,107 @@
               "id": "np_intro",
               "title": "A Planeswalker's Guide to New Phyrexia: Introduction",
               "url": "https://magic.wizards.com/en/news/feature/a-planeswalkers-guide-to-new-phyrexia-introduction"
+            }
+          ]
+        },
+        {
+          "claim_id": "TPH008",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Karn created the metallic world originally called Argentum, later called Mirrodin.",
+          "limitation": "This is the historical plane creation, not a statement about Karn's control or the plane's current name after later events.",
+          "relation": "created_by",
+          "subject": {
+            "id": "plane:argentum",
+            "name": "Argentum"
+          },
+          "object": {
+            "id": "character:karn",
+            "name": "Karn"
+          },
+          "era_label": "argentum_creation",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "tph_phyrexia_overview",
+              "title": "New Phyrexia",
+              "url": "https://magic.wizards.com/en/story/new-phyrexia-plane"
+            }
+          ]
+        },
+        {
+          "claim_id": "TPH009",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Karn's creation Memnarch was assigned to watch over the plane when it was called Argentum.",
+          "limitation": "The claim concerns his original caretaker role, not his later corruption or continuing guardianship.",
+          "relation": "was_guarded_by",
+          "subject": {
+            "id": "plane:argentum",
+            "name": "Argentum"
+          },
+          "object": {
+            "id": "character:memnarch",
+            "name": "Memnarch"
+          },
+          "era_label": "argentum_memnarch_warden",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "tph_memnarch_2016",
+              "title": "From the Vault: Lore",
+              "url": "https://magic.wizards.com/en/news/feature/vault-lore-2016-08-01"
+            }
+          ]
+        },
+        {
+          "claim_id": "TPH010",
+          "grade": "CANON_CONFIRMED",
+          "statement": "A contagion introduced to Argentum spread into the plane itself, changing its inner core.",
+          "limitation": "The 2008 overview describes the early metal-world era; later Phyrexian transformation and the source's historical naming are separate questions.",
+          "relation": "was_infected_by",
+          "subject": {
+            "id": "plane:argentum",
+            "name": "Argentum"
+          },
+          "object": {
+            "id": "concept:phyrexian_oil",
+            "name": "Phyrexian oil"
+          },
+          "era_label": "argentum_corruption",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "tph_multiverse_2008",
+              "title": "The Known Multiverse",
+              "url": "https://magic.wizards.com/en/news/feature/known-mutliverse-2008-03-19"
+            },
+            {
+              "id": "tph_phyrexia_overview",
+              "title": "New Phyrexia",
+              "url": "https://magic.wizards.com/en/story/new-phyrexia-plane"
+            }
+          ]
+        },
+        {
+          "claim_id": "TPH011",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Memnarch renamed Argentum to Mirrodin; this is an earlier naming transition, not its complete later name history.",
+          "limitation": "The source describes a past renaming by Memnarch. The plane later bore the name New Phyrexia, so this is not its current canonical name.",
+          "relation": "was_renamed_to",
+          "subject": {
+            "id": "plane:argentum",
+            "name": "Argentum"
+          },
+          "object": {
+            "id": "plane:mirrodin",
+            "name": "Mirrodin / New Phyrexia"
+          },
+          "era_label": "argentum_memnarch_renaming",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "tph_memnarch_2016",
+              "title": "From the Vault: Lore",
+              "url": "https://magic.wizards.com/en/news/feature/vault-lore-2016-08-01"
             }
           ]
         }
@@ -1826,7 +1927,7 @@
       "id": "plane:eldraine",
       "plane": "Eldraine",
       "evidence_status": "PARTIAL_DIRECT_AND_SEPARATELY_CURATED_CONTEXT",
-      "distinct_claims": 3,
+      "distinct_claims": 5,
       "facts": [
         {
           "claim_id": "EL011",
@@ -1877,6 +1978,54 @@
               "id": "lci_ep2",
               "title": "The Lost Caverns of Ixalan | Episode 2",
               "url": "https://magic.wizards.com/en/news/magic-story/the-lost-caverns-of-ixalan-episode-2"
+            }
+          ]
+        },
+        {
+          "claim_id": "TPH001",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Eldraine's Realm is organized around five named royal courts, distinct from a claim about every region of the plane.",
+          "limitation": "The guide describes the human Realm within Eldraine; it does not claim those courts governed the Wilds or later held unchanged power.",
+          "relation": "has_royal_courts",
+          "subject": {
+            "id": "plane:eldraine",
+            "name": "Eldraine"
+          },
+          "object": {
+            "id": "concept:eldraine_royal_courts",
+            "name": "Five royal courts of the Realm"
+          },
+          "era_label": "eldraine_2019_realm_structure",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "tph_eldraine_2019",
+              "title": "Planeswalker's Guide to Eldraine",
+              "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-eldraine-2019-10-31"
+            }
+          ]
+        },
+        {
+          "claim_id": "TPH002",
+          "grade": "CANON_CONFIRMED",
+          "statement": "The 2019 guide says humans rose to rule the Realm and displaced elves after an earlier elven era.",
+          "limitation": "The eight-or-nine-generation span is relative to the 2019 guide's in-world narration, not an established AR calendar date or a claim that all elves left Eldraine.",
+          "relation": "historically_underwent",
+          "subject": {
+            "id": "plane:eldraine",
+            "name": "Eldraine"
+          },
+          "object": {
+            "id": "event:eldraine_human_ascendance",
+            "name": "Human ascendance in Eldraine's Realm"
+          },
+          "era_label": "eldraine_ancient_realm_historical_account",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "tph_eldraine_2019",
+              "title": "Planeswalker's Guide to Eldraine",
+              "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-eldraine-2019-10-31"
             }
           ]
         },
@@ -2289,7 +2438,7 @@
       "id": "plane:ikoria",
       "plane": "Ikoria",
       "evidence_status": "PARTIAL_DIRECT_AND_SEPARATELY_CURATED_CONTEXT",
-      "distinct_claims": 4,
+      "distinct_claims": 6,
       "facts": [
         {
           "claim_id": "IK001",
@@ -2384,6 +2533,54 @@
               "id": "moms_ikoria",
               "title": "March of the Machine | Ikoria: Survival of the Fittest",
               "url": "https://magic.wizards.com/en/news/magic-story/survival-of-the-fittest"
+            }
+          ]
+        },
+        {
+          "claim_id": "TPH003",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Vivien's 2020 Ikoria guide describes Drannith as its largest human sanctuary.",
+          "limitation": "The guide records a 2020 travel-era description; it is not proof of Drannith's survival or size after later invasions.",
+          "relation": "has_sanctuary",
+          "subject": {
+            "id": "plane:ikoria",
+            "name": "Ikoria"
+          },
+          "object": {
+            "id": "place:drannith",
+            "name": "Drannith"
+          },
+          "era_label": "ikoria_2020_sanctuary_profile",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "tph_ikoria_2020",
+              "title": "Planeswalker's Guide to Ikoria",
+              "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-ikoria-2020-04-02"
+            }
+          ]
+        },
+        {
+          "claim_id": "TPH004",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Skysail is an airborne Ikorian human sanctuary formed from connected balloon-driven airships.",
+          "limitation": "A dated description of a mobile sanctuary, not a fixed-coordinate location or proof of its later condition.",
+          "relation": "has_sanctuary",
+          "subject": {
+            "id": "plane:ikoria",
+            "name": "Ikoria"
+          },
+          "object": {
+            "id": "place:skysail",
+            "name": "Skysail"
+          },
+          "era_label": "ikoria_2020_sanctuary_profile",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "tph_ikoria_2020",
+              "title": "Planeswalker's Guide to Ikoria",
+              "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-ikoria-2020-04-02"
             }
           ]
         }
@@ -3851,7 +4048,7 @@
       "id": "plane:mirrodin",
       "plane": "Mirrodin / New Phyrexia",
       "evidence_status": "PARTIAL_DIRECT_AND_SEPARATELY_CURATED_CONTEXT",
-      "distinct_claims": 10,
+      "distinct_claims": 11,
       "facts": [
         {
           "claim_id": "C005",
@@ -4027,6 +4224,30 @@
           ]
         },
         {
+          "claim_id": "TPH011",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Memnarch renamed Argentum to Mirrodin; this is an earlier naming transition, not its complete later name history.",
+          "limitation": "The source describes a past renaming by Memnarch. The plane later bore the name New Phyrexia, so this is not its current canonical name.",
+          "relation": "was_renamed_to",
+          "subject": {
+            "id": "plane:argentum",
+            "name": "Argentum"
+          },
+          "object": {
+            "id": "plane:mirrodin",
+            "name": "Mirrodin / New Phyrexia"
+          },
+          "era_label": "argentum_memnarch_renaming",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "tph_memnarch_2016",
+              "title": "From the Vault: Lore",
+              "url": "https://magic.wizards.com/en/news/feature/vault-lore-2016-08-01"
+            }
+          ]
+        },
+        {
           "claim_id": "UP016",
           "grade": "CANON_CONFIRMED",
           "statement": "Karn created Mirrodin, originally called Argentum.",
@@ -4155,7 +4376,7 @@
       "id": "plane:new_capenna",
       "plane": "New Capenna",
       "evidence_status": "PARTIAL_DIRECT_AND_SEPARATELY_CURATED_CONTEXT",
-      "distinct_claims": 2,
+      "distinct_claims": 5,
       "facts": [
         {
           "claim_id": "MOM007",
@@ -4207,6 +4428,78 @@
               "id": "moms_capenna",
               "title": "March of the Machine | New Capenna: The Fall of Park Heights",
               "url": "https://magic.wizards.com/en/news/magic-story/the-fall-of-park-heights"
+            }
+          ]
+        },
+        {
+          "claim_id": "TPH005",
+          "grade": "CANON_CONFIRMED",
+          "statement": "The towering city of New Capenna was created as refuge during a devastating war against Old Capenna.",
+          "limitation": "This is the city's founding story within the plane's history, not proof that the city geographically encompasses every part of the plane.",
+          "relation": "sheltered_people_in",
+          "subject": {
+            "id": "plane:new_capenna",
+            "name": "New Capenna"
+          },
+          "object": {
+            "id": "place:new_capenna_city",
+            "name": "City of New Capenna"
+          },
+          "era_label": "old_capenna_refuge_city_foundation",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "tph_capenna_2022",
+              "title": "Planeswalker's Guide to Streets of New Capenna",
+              "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-streets-of-new-capenna"
+            }
+          ]
+        },
+        {
+          "claim_id": "TPH006",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Old Capenna's archangels helped mortal defenders resist the invasion before the city was founded.",
+          "limitation": "A pre-city historical role; the angels' later fate and political status are not inferred from this earlier defense.",
+          "relation": "historically_defended_by",
+          "subject": {
+            "id": "plane:new_capenna",
+            "name": "New Capenna"
+          },
+          "object": {
+            "id": "faction:capenna_archangels",
+            "name": "Archangels of Old Capenna"
+          },
+          "era_label": "old_capenna_archangel_defense",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "tph_capenna_2022",
+              "title": "Planeswalker's Guide to Streets of New Capenna",
+              "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-streets-of-new-capenna"
+            }
+          ]
+        },
+        {
+          "claim_id": "TPH007",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Old Capenna endured a destructive invasion by an enemy the 2022 overview deliberately leaves unnamed.",
+          "limitation": "The source calls the enemy forgotten; this claim does NOT identify it as Phyrexia or settle later historical interpretations.",
+          "relation": "historically_attacked_by",
+          "subject": {
+            "id": "plane:new_capenna",
+            "name": "New Capenna"
+          },
+          "object": {
+            "id": "faction:old_capenna_unnamed_invaders",
+            "name": "Unidentified invaders of Old Capenna"
+          },
+          "era_label": "old_capenna_cataclysm",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "tph_capenna_2022",
+              "title": "Planeswalker's Guide to Streets of New Capenna",
+              "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-streets-of-new-capenna"
             }
           ]
         }
@@ -6605,5 +6898,5 @@
       ]
     }
   ],
-  "content_sha256": "75827c1c1dfa934028aeb5f4e76c852287ac9b3889b99c6c06a46771734cefc9"
+  "content_sha256": "1031ca914f62f19e04f5a6aeb7d7211089f0e338bb6d0b8cd5bc7e093907a3ea"
 }
