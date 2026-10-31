@@ -12,7 +12,7 @@ on:
       - 'research/FULL_CHECKLIST_TRIAGE_2026-10-31.md'
       - 'research/RELEASE_TIME_SCRYFALL_2026-10-31.md'
       - 'data/scryfall_snapshots/**'
-      - 'data/card_db/oracle_drift_2026-10-31.json'
+      - 'data/card_db/oracle_drift_2026-10-30.json'
       - 'scripts/build_foundation_acceptance_packet.py'
       - 'tests/test_foundation_acceptance_packet.py'
       - 'research/FOUNDATION_ACCEPTANCE_PACKET_2026-10-30.md'

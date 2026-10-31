@@ -67,7 +67,7 @@ RELEASE_BLOCKERS = {
           "The final foundation release must repeat the freshness check if Scryfall publishes another bulk or "
           "the release candidate changes.",
           "data/scryfall_snapshots/oct29_to_oct30_release_delta_2026-10-31.json",
-          "data/card_db/oracle_drift_2026-10-31.json"),
+          "data/card_db/oracle_drift_2026-10-30.json"),
     ],
     "set_atlas": [
         B("ENGINEERING_OPEN", "Phase 1B QUALIFIED items: exact field parity between snapshots does not hold (342 prm release "

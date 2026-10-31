@@ -67,7 +67,7 @@
    "status": "PARTIAL",
    "note": "card lookups reconcile with snapshot 2026-10-30 (0 changes across 33894 cards); Commander deck-construction checks and ruling/CR-citation interaction checks are built; interactions with no published ruling are not modelled (no game simulation)",
    "evidence": {
-    "report": "data/card_db/oracle_drift_2026-10-31.json",
+    "report": "data/card_db/oracle_drift_2026-10-30.json",
     "snapshot_date": "2026-10-30",
     "changes": 0,
     "index_rows": 33894,

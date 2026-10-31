@@ -23,7 +23,7 @@ class ReleaseSnapshotFreshnessTests(unittest.TestCase):
 
     def test_release_snapshot_has_no_new_text_or_legality_change_for_indexed_cards(self):
         manifest = D.manifest(D.NEW)
-        report = json.loads((ROOT / "data/card_db/oracle_drift_2026-10-31.json").read_text())
+        report = json.loads((ROOT / "data/card_db/oracle_drift_2026-10-30.json").read_text())
         rec = json.loads((ROOT / "data/scryfall_snapshots/reconciliation_2026-10-31.json").read_text())
         self.assertEqual(report["snapshot_file"], manifest["files"]["oracle-cards"]["filename"])
         self.assertEqual(rec["snapshot_id"], manifest["snapshot_id"])
