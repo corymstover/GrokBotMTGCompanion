@@ -2,7 +2,7 @@
   "schema": "source-event-sequences/v1",
   "status": "PRELIMINARY_RESEARCH_NOT_OWNER_APPROVED",
   "date": "2026-10-30",
-  "scope": "Four bounded, individually sourced chronology strands. No cross-plane alignment, no absolute AR date conversion and no assertions that a narrated legend is historical fact. The New Phyrexia strand describes the early Mirrodin conquest as presented in Wizards' historical plane overview, not the post-March of the Machine political present.",
+  "scope": "Six bounded, individually sourced chronology strands. No cross-plane alignment, no absolute AR date conversion and no assertions that a narrated legend is historical fact. The New Phyrexia strand describes the early Mirrodin conquest as presented in Wizards' historical plane overview, not the post-March of the Machine political present. The Meditation Realm strand is Ugin's remembered early conflict, not an assertion about the Realm's later state after Tarkir: Dragonstorm.",
   "sources": {
     "blb_guide1": {
       "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-bloomburrow-part-1",
@@ -13,6 +13,16 @@
       "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-duskmourn",
       "title": "Planeswalker's Guide to Duskmourn",
       "published": "2024-08-31"
+    },
+    "lf_meditation_chronicle": {
+      "url": "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-unwritten-now-2018-08-15",
+      "title": "Chronicle of Bolas: The Unwritten Now",
+      "published": "2018-08-15"
+    },
+    "lf_muraganda_guide": {
+      "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-aetherdrift-part-2",
+      "title": "Planeswalker's Guide to Aetherdrift, Part 2",
+      "published": ""
     },
     "neo_guide": {
       "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-kamigawa-neon-dynasty-2022-02-03",
@@ -26,12 +36,12 @@
     }
   },
   "counts": {
-    "strands": 4,
-    "events": 31,
-    "strict_edges": 23,
-    "non_ordering_relations": 1,
-    "ordered_pairs": 52,
-    "total_pairs": 465
+    "strands": 6,
+    "events": 51,
+    "strict_edges": 37,
+    "non_ordering_relations": 2,
+    "ordered_pairs": 101,
+    "total_pairs": 1275
   },
   "strands": [
     {
@@ -69,9 +79,107 @@
       "events": 8,
       "strict_edges": 6,
       "non_ordering_relations": 0
+    },
+    {
+      "id": "M",
+      "title": "Muraganda — ancient collapse and early Grand Prix arrangements",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "limitation": "The guide reports ancient survivors' glyphs and the plane's later Grand Prix-era arrangements. It does not say the exact moon-shattering date relative to the collapse, that moon-strikes ended entirely, or when the Saurid Autocracy arose relative to the ancient survivor cultures.",
+      "events": 10,
+      "strict_edges": 5,
+      "non_ordering_relations": 1
+    },
+    {
+      "id": "B",
+      "title": "Meditation Realm — Ugin's remembered early conflict with Bolas",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "limitation": "These are the historical events represented by Ugin's memory in the 2018 Chronicle of Bolas story, not independent absolute dates, a claim that Ugin permanently died, or a statement that the Realm remains intact or Bolas confined after later stories.",
+      "events": 10,
+      "strict_edges": 9,
+      "non_ordering_relations": 0
     }
   ],
   "nodes": [
+    {
+      "id": "B:bolas_arrives",
+      "strand": "B",
+      "label": "Nicol Bolas arrives in the Meditation Realm",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": []
+    },
+    {
+      "id": "B:bolas_attacks",
+      "strand": "B",
+      "label": "Bolas attacks Ugin over the Meditation Realm waters",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": []
+    },
+    {
+      "id": "B:bolas_displaced",
+      "strand": "B",
+      "label": "Bolas is thrown from the Realm to Madara",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": []
+    },
+    {
+      "id": "B:bolas_strikes_ugin",
+      "strand": "B",
+      "label": "Bolas strikes Ugin in the Meditation Realm",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": []
+    },
+    {
+      "id": "B:multiplanar_pursuit",
+      "strand": "B",
+      "label": "Bolas pursues Ugin through several planes",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": []
+    },
+    {
+      "id": "B:realm_cataclysm",
+      "strand": "B",
+      "label": "Ugin's fall triggers a cataclysm in the Realm",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": []
+    },
+    {
+      "id": "B:ugin_flees",
+      "strand": "B",
+      "label": "Ugin flees the Realm to Zendikar",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": []
+    },
+    {
+      "id": "B:ugin_meditates",
+      "strand": "B",
+      "label": "Ugin rests and meditates in the Meditation Realm",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": [
+        {
+          "id": "LFP005",
+          "grade": "CANON_CONFIRMED"
+        }
+      ]
+    },
+    {
+      "id": "B:ugin_reforms",
+      "strand": "B",
+      "label": "Ugin reconstitutes himself and departs the Realm",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": []
+    },
+    {
+      "id": "B:ugin_returns",
+      "strand": "B",
+      "label": "Ugin returns to the Meditation Realm to await Bolas",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": [
+        {
+          "id": "LFP005",
+          "grade": "CANON_CONFIRMED"
+        }
+      ]
+    },
     {
       "id": "D:ascension",
       "strand": "D",
@@ -241,6 +349,106 @@
           "grade": "CANON_CONFIRMED"
         }
       ]
+    },
+    {
+      "id": "M:ancient_collapse",
+      "strand": "M",
+      "label": "Muraganda's first plane-spanning civilization collapses",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": [
+        {
+          "id": "LFP007",
+          "grade": "CANON_CONFIRMED"
+        }
+      ]
+    },
+    {
+      "id": "M:ancient_magic_discovered",
+      "strand": "M",
+      "label": "Muraganda's ancient plane-spanning civilization discovers magic",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": []
+    },
+    {
+      "id": "M:autocracy_expands",
+      "strand": "M",
+      "label": "Autocracy uses race agreements to extend its borders",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": [
+        {
+          "id": "LFP010",
+          "grade": "CANON_CONFIRMED"
+        }
+      ]
+    },
+    {
+      "id": "M:autocracy_treaties",
+      "strand": "M",
+      "label": "Saurid Autocracy reaches agreements with Avishkari delegations",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": [
+        {
+          "id": "LFP010",
+          "grade": "CANON_CONFIRMED"
+        }
+      ]
+    },
+    {
+      "id": "M:avishkar_advance_teams",
+      "strand": "M",
+      "label": "Avishkari advance teams deploy ahead of the Muraganda race",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": []
+    },
+    {
+      "id": "M:grand_prix_begins",
+      "strand": "M",
+      "label": "Ghirapur Grand Prix race begins after its advance deployment",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": []
+    },
+    {
+      "id": "M:moon_strikes_abate",
+      "strand": "M",
+      "label": "Muraganda's moon-strikes abate over generations",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": [
+        {
+          "id": "LFP008",
+          "grade": "CANON_CONFIRMED"
+        }
+      ]
+    },
+    {
+      "id": "M:moons_shatter",
+      "strand": "M",
+      "label": "Muraganda's moons shatter and their debris falls",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": [
+        {
+          "id": "LFP008",
+          "grade": "CANON_CONFIRMED"
+        }
+      ]
+    },
+    {
+      "id": "M:survivor_cultures",
+      "strand": "M",
+      "label": "Survivors form bands, tribes, and kingdoms over generations",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": [
+        {
+          "id": "LFP009",
+          "grade": "CANON_CONFIRMED"
+        }
+      ]
+    },
+    {
+      "id": "M:teams_discover_limits",
+      "strand": "M",
+      "label": "Avishkari crews discover limits of the Autocracy's treaties",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": []
     },
     {
       "id": "P:karn_brings_oil",
@@ -735,9 +943,251 @@
       "quote": "In reality, the house continued to expand. The horrors continued to increase, drowning all who lived within in terror. And the demon grew in power, until the entirety of the plane was swallowed up in the walls of Duskmourn.",
       "quote_sha256": "2909e3597803e929dd4cec3e7467c99ac3c2e51997e09ff4ca195e7bfcf85415",
       "note": "While Marina saw a false restoration, the House expanded into the Ascension."
+    },
+    {
+      "earlier": "M:ancient_magic_discovered",
+      "later": "M:ancient_collapse",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "lf_muraganda_guide",
+      "source_url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-aetherdrift-part-2",
+      "source_title": "Planeswalker's Guide to Aetherdrift, Part 2",
+      "quote": "a plane-spanning civilization that ruled over Muraganda discovered magic and then collapsed",
+      "quote_sha256": "5aba6fbb2fc4c8e63e8ba9c3aed2b6307d206fe6ccfd11571c03b71758e8587f",
+      "note": "The guide explicitly says 'then'; no absolute date or asserted cause of collapse."
+    },
+    {
+      "earlier": "M:moons_shatter",
+      "later": "M:moon_strikes_abate",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "lf_muraganda_guide",
+      "source_url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-aetherdrift-part-2",
+      "source_title": "Planeswalker's Guide to Aetherdrift, Part 2",
+      "quote": "The plane's moons shattered to pieces, and debris still falls onto the plane to this day.",
+      "quote_sha256": "70f540a7bbb7fb69a6366f6772e7e333dc3004f789d774c28efe1a90f5ee72a9",
+      "note": "Moon debris had to begin falling before the strikes could abate; 'abated' does not mean ceased."
+    },
+    {
+      "earlier": "M:moon_strikes_abate",
+      "later": "M:survivor_cultures",
+      "relation": "DURING_OR_AFTER_START",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "lf_muraganda_guide",
+      "source_url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-aetherdrift-part-2",
+      "source_title": "Planeswalker's Guide to Aetherdrift, Part 2",
+      "quote": "Muraganda changed over generations as the moon-strikes abated and survivors formed bands, tribes, and kingdoms.",
+      "quote_sha256": "446b8e624fc32b3cc242c3d334faa075d8e00cc30f4b31c7b140f24f1ee6a639",
+      "note": "The source says 'as': these developments overlap and are not strictly sequential."
+    },
+    {
+      "earlier": "M:avishkar_advance_teams",
+      "later": "M:grand_prix_begins",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "lf_muraganda_guide",
+      "source_url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-aetherdrift-part-2",
+      "source_title": "Planeswalker's Guide to Aetherdrift, Part 2",
+      "quote": "Advance teams from Avishkar were deployed to Muraganda a year before the beginning of the race.",
+      "quote_sha256": "281b51dc33367c56e4c5cf9508e1e20df38c90292fd36121c8f919d896885be4",
+      "note": "A relative one-year lead, not an in-universe absolute calendar date."
+    },
+    {
+      "earlier": "M:autocracy_treaties",
+      "later": "M:teams_discover_limits",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "lf_muraganda_guide",
+      "source_url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-aetherdrift-part-2",
+      "source_title": "Planeswalker's Guide to Aetherdrift, Part 2",
+      "quote": "the race's security and maintenance teams have since discovered that the treaties their counterparts in diplomacy secured were only treaties signed with a map",
+      "quote_sha256": "0388ec604222c8a6218124176e8a84cb350aeed1a21e2b53adb29e12ac058164",
+      "note": "The discovery follows treaties; no universal agreement on behalf of other Muragandan cultures is implied."
+    },
+    {
+      "earlier": "M:autocracy_treaties",
+      "later": "M:autocracy_expands",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "lf_muraganda_guide",
+      "source_url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-aetherdrift-part-2",
+      "source_title": "Planeswalker's Guide to Aetherdrift, Part 2",
+      "quote": "From their easements and agreements, the Autocracy advanced their own borders along the race route",
+      "quote_sha256": "7735e48452f8317e73e6340d89eedef7c5e4a3830fde386a541047ae728dd673",
+      "note": "The border expansion exploits the agreements; the source does not order it against Avishkari crews' discovery."
+    },
+    {
+      "earlier": "B:ugin_meditates",
+      "later": "B:bolas_arrives",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "lf_meditation_chronicle",
+      "source_url": "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-unwritten-now-2018-08-15",
+      "source_title": "Chronicle of Bolas: The Unwritten Now",
+      "quote": "although he has rested here for long periods to contemplate mystery and eternity, Ugin cannot calm his turbulent thoughts now.",
+      "quote_sha256": "baa19c2c6c9656f805ea1b57df8863c18673ce1a23ae89113347b6d443074705",
+      "note": "The prior meditations precede the encounter in Ugin's memory."
+    },
+    {
+      "earlier": "B:bolas_arrives",
+      "later": "B:bolas_attacks",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "lf_meditation_chronicle",
+      "source_url": "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-unwritten-now-2018-08-15",
+      "source_title": "Chronicle of Bolas: The Unwritten Now",
+      "quote": "Just before he hits the water, Nicol Bolas spreads his wings and rises. He shines as brightly as the sun, and ire is his color. With a howl on the wind and a searing blast of fire, he dives murderously toward his brother.",
+      "quote_sha256": "bee2dc2564cc3112a43b4bec7bb780e2fccb47ca926a58878340bda222a6b658",
+      "note": "The narrated arrival precedes the first attack."
+    },
+    {
+      "earlier": "B:bolas_attacks",
+      "later": "B:ugin_flees",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "lf_meditation_chronicle",
+      "source_url": "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-unwritten-now-2018-08-15",
+      "source_title": "Chronicle of Bolas: The Unwritten Now",
+      "quote": "Ugin takes the only path left open to him, even if it means Nicol will brand him a weakling and a coward for it. He walks out of the Meditation Realm",
+      "quote_sha256": "55f6a58d9ca31e8afbbf77a70ebd981bd0ca3804146e5c85f70999a0c51b4739",
+      "note": "The retreat follows Bolas's attack and Ugin's failed attempt to talk."
+    },
+    {
+      "earlier": "B:ugin_flees",
+      "later": "B:multiplanar_pursuit",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "lf_meditation_chronicle",
+      "source_url": "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-unwritten-now-2018-08-15",
+      "source_title": "Chronicle of Bolas: The Unwritten Now",
+      "quote": "He walks out of the Meditation Realm and through the darkness to drop into storm-wracked Zendikar.",
+      "quote_sha256": "a4dc7d9c7a4c895d3a3222fdc854b06a28deb437463d3c0308f2273c51b01942",
+      "note": "The flight begins the subsequent pursuit across multiple planes."
+    },
+    {
+      "earlier": "B:multiplanar_pursuit",
+      "later": "B:ugin_returns",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "lf_meditation_chronicle",
+      "source_url": "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-unwritten-now-2018-08-15",
+      "source_title": "Chronicle of Bolas: The Unwritten Now",
+      "quote": "Nicol will never stop pursuing him, not unless he thinks his twin is dead. He planeswalks back to the Meditation Realm, where he waits",
+      "quote_sha256": "9c7a3503fe5f7845f96ff9efb05402e3b1552fcff4a69fab2fe5b64b206288c3",
+      "note": "The deliberate return follows the extended pursuit in the remembered sequence."
+    },
+    {
+      "earlier": "B:ugin_returns",
+      "later": "B:bolas_strikes_ugin",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "lf_meditation_chronicle",
+      "source_url": "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-unwritten-now-2018-08-15",
+      "source_title": "Chronicle of Bolas: The Unwritten Now",
+      "quote": "In a burst of light, Nicol appears high in the lustrous sky. He dives, all teeth and claw.",
+      "quote_sha256": "b22a7fa31546d933bdc42063664762db39dc91396dff08d14c5c81da341317ab",
+      "note": "Bolas attacks after Ugin has returned and waited for him."
+    },
+    {
+      "earlier": "B:bolas_strikes_ugin",
+      "later": "B:realm_cataclysm",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "lf_meditation_chronicle",
+      "source_url": "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-unwritten-now-2018-08-15",
+      "source_title": "Chronicle of Bolas: The Unwritten Now",
+      "quote": "With a mighty splash, Ugin falls into the still waters. The impact resounds like thunder. Monstrous waves rise from the displacement",
+      "quote_sha256": "0037cbf65676a7c19ceef408d1a5527ff8ec414950370479d4f1c08ffe0be92b",
+      "note": "The fall after the strike provokes the cataclysm; this does not certify permanent death."
+    },
+    {
+      "earlier": "B:realm_cataclysm",
+      "later": "B:bolas_displaced",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "lf_meditation_chronicle",
+      "source_url": "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-unwritten-now-2018-08-15",
+      "source_title": "Chronicle of Bolas: The Unwritten Now",
+      "quote": "Dragged by the sheer shocking force of the cataclysm, Bolas flares like a sun and vanishes, torn away to the plane of his birth",
+      "quote_sha256": "2752ef2ae340f2a786f8cc9d933e1ac64cf368cdf278ffd5c31d5af150b900c1",
+      "note": "The cataclysm displaces Bolas; his later status is outside this memory strand."
+    },
+    {
+      "earlier": "B:realm_cataclysm",
+      "later": "B:ugin_reforms",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "lf_meditation_chronicle",
+      "source_url": "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-unwritten-now-2018-08-15",
+      "source_title": "Chronicle of Bolas: The Unwritten Now",
+      "quote": "A pale sheet of liquid trickles up as out of nowhere, returning from the unseen and untouchable web of darkness.",
+      "quote_sha256": "2176ffaf88ab6ebbe7914805b4843586882a220d76f2617b0e7e263767656db8",
+      "note": "The following account shows the Realm refill and Ugin reform; the ontology and elapsed time remain uncertain."
     }
   ],
   "precedes": {
+    "B:bolas_arrives": [
+      "B:bolas_attacks",
+      "B:bolas_displaced",
+      "B:bolas_strikes_ugin",
+      "B:multiplanar_pursuit",
+      "B:realm_cataclysm",
+      "B:ugin_flees",
+      "B:ugin_reforms",
+      "B:ugin_returns"
+    ],
+    "B:bolas_attacks": [
+      "B:bolas_displaced",
+      "B:bolas_strikes_ugin",
+      "B:multiplanar_pursuit",
+      "B:realm_cataclysm",
+      "B:ugin_flees",
+      "B:ugin_reforms",
+      "B:ugin_returns"
+    ],
+    "B:bolas_displaced": [],
+    "B:bolas_strikes_ugin": [
+      "B:bolas_displaced",
+      "B:realm_cataclysm",
+      "B:ugin_reforms"
+    ],
+    "B:multiplanar_pursuit": [
+      "B:bolas_displaced",
+      "B:bolas_strikes_ugin",
+      "B:realm_cataclysm",
+      "B:ugin_reforms",
+      "B:ugin_returns"
+    ],
+    "B:realm_cataclysm": [
+      "B:bolas_displaced",
+      "B:ugin_reforms"
+    ],
+    "B:ugin_flees": [
+      "B:bolas_displaced",
+      "B:bolas_strikes_ugin",
+      "B:multiplanar_pursuit",
+      "B:realm_cataclysm",
+      "B:ugin_reforms",
+      "B:ugin_returns"
+    ],
+    "B:ugin_meditates": [
+      "B:bolas_arrives",
+      "B:bolas_attacks",
+      "B:bolas_displaced",
+      "B:bolas_strikes_ugin",
+      "B:multiplanar_pursuit",
+      "B:realm_cataclysm",
+      "B:ugin_flees",
+      "B:ugin_reforms",
+      "B:ugin_returns"
+    ],
+    "B:ugin_reforms": [],
+    "B:ugin_returns": [
+      "B:bolas_displaced",
+      "B:bolas_strikes_ugin",
+      "B:realm_cataclysm",
+      "B:ugin_reforms"
+    ],
     "D:ascension": [],
     "D:house_spreads": [
       "D:ascension",
@@ -787,6 +1237,25 @@
       "K:realm_barrier_breaks"
     ],
     "K:realm_barrier_breaks": [],
+    "M:ancient_collapse": [],
+    "M:ancient_magic_discovered": [
+      "M:ancient_collapse"
+    ],
+    "M:autocracy_expands": [],
+    "M:autocracy_treaties": [
+      "M:autocracy_expands",
+      "M:teams_discover_limits"
+    ],
+    "M:avishkar_advance_teams": [
+      "M:grand_prix_begins"
+    ],
+    "M:grand_prix_begins": [],
+    "M:moon_strikes_abate": [],
+    "M:moons_shatter": [
+      "M:moon_strikes_abate"
+    ],
+    "M:survivor_cultures": [],
+    "M:teams_discover_limits": [],
     "P:karn_brings_oil": [
       "P:mirrans_overwhelmed",
       "P:mirrans_resist",
@@ -847,9 +1316,11 @@
     "No primary-source edge joins distinct strand IDs, so cross-plane comparisons remain UNKNOWN.",
     "Valley events order an explicitly legendary in-world account, not objectively certified ancient history.",
     "New Phyrexia events describe early Mirrodin conquest; the source does not order the complete war, the Mirrans being overwhelmed against Venser's sacrifice, or the political present after March of the Machine.",
+    "Muraganda: the ancient collapse versus moon-shattering sequence, the exact overlap of moon-strikes and survivor cultures, and the origin of the modern Autocracy remain unbridged.",
+    "Meditation Realm: Ugin's remembered early conflict does not date or establish the Realm's condition after Tarkir: Dragonstorm; the fall of Ugin is not a claim of permanent death.",
     "A DURING_OR_AFTER_START relation is not a strict BEFORE edge and never participates in transitive ordering.",
     "Unknown original plane names, absolute AR years and missing historical events are not supplied.",
     "This source-local supplement does not replace the original Packs A–C chronology or certify L244."
   ],
-  "content_sha256": "d5973cdde6f28a97933647d021e71771de1f4a6a19fef0fcb084377283706dd7"
+  "content_sha256": "2810b0d98c6602eba2302c0bdbd717d0433fcd37d8dfa419309004ee228596ca"
 }

@@ -22,8 +22,10 @@ class SourceEventSequencesTests(unittest.TestCase):
         d=dict(self.current)
         sig=d.pop('content_sha256')
         self.assertEqual(sig,S.digest(d))
-        self.assertEqual(self.current['counts']['strands'],4)
-        self.assertEqual(self.current['counts']['events'],31)
+        self.assertEqual(self.current['counts'],{
+            'strands':6,'events':51,'strict_edges':37,'non_ordering_relations':2,
+            'ordered_pairs':101,'total_pairs':1275,
+        })
 
     def test_source_proofs_have_original_claim_ids_and_digest(self):
         for node in self.current['nodes']:
@@ -71,6 +73,39 @@ class SourceEventSequencesTests(unittest.TestCase):
         self.assertEqual(S.proof(self.current,'P:karn_brings_oil','K:kami_war')['result'],'UNKNOWN')
         self.assertIn('not a statement about present-day New Phyrexia',
                       next(s for s in self.current['strands'] if s['id']=='P')['limitation'])
+
+    def test_muraganda_source_local_account_does_not_invent_moonfall_order(self):
+        claim=S.proof(self.current,'M:ancient_magic_discovered','M:ancient_collapse')
+        self.assertEqual(claim['result'],'BEFORE')
+        self.assertEqual(claim['proof'][0]['source_id'],'lf_muraganda_guide')
+        self.assertEqual(S.proof(self.current,'M:ancient_collapse','M:moons_shatter')['result'],'UNKNOWN')
+        overlap=S.proof(self.current,'M:moon_strikes_abate','M:survivor_cultures')
+        self.assertEqual(overlap['result'],'DURING_OR_AFTER_START')
+        self.assertNotIn('M:survivor_cultures',self.current['precedes']['M:moon_strikes_abate'])
+        self.assertEqual(S.proof(self.current,'M:autocracy_treaties','M:teams_discover_limits')['result'],'BEFORE')
+        self.assertEqual(S.proof(self.current,'M:teams_discover_limits','M:autocracy_expands')['result'],'UNKNOWN')
+        self.assertEqual(S.proof(self.current,'M:avishkar_advance_teams','M:grand_prix_begins')['result'],'BEFORE')
+
+    def test_ugin_bolas_memory_is_ordered_but_not_a_current_realm_status(self):
+        account=S.proof(self.current,'B:ugin_meditates','B:ugin_reforms')
+        self.assertEqual(account['result'],'BEFORE')
+        self.assertEqual(len(account['proof']),8)
+        self.assertEqual({p['source_id'] for p in account['proof']},{'lf_meditation_chronicle'})
+        self.assertIn('or a statement that the Realm remains intact',account['limitation'])
+        self.assertEqual(S.proof(self.current,'B:bolas_displaced','B:ugin_reforms')['result'],'UNKNOWN')
+        self.assertEqual(S.proof(self.current,'B:ugin_returns','P:venser_restores_karn')['result'],'UNKNOWN')
+
+    def test_new_source_local_questions_use_proof_and_unknown_in_normal_qa(self):
+        r=A.ask('Did M:ancient_magic_discovered happen before M:ancient_collapse?')
+        self.assertEqual(r['route'],'ask->chronology')
+        self.assertEqual(r['result']['relation'],'BEFORE')
+        self.assertEqual(r['sources'],['https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-aetherdrift-part-2'])
+        b=A.ask('Did B:bolas_attacks happen before B:realm_cataclysm?')
+        self.assertEqual(b['result']['relation'],'BEFORE')
+        self.assertEqual(b['result']['proof'][-1]['later'],'B:realm_cataclysm')
+        gap=A.ask('Did M:ancient_collapse happen before M:moons_shatter?')
+        self.assertEqual(gap['result']['relation'],'UNKNOWN')
+        self.assertEqual(gap['sources'],[])
 
     def test_normal_companion_routes_new_phyrexia_order_and_still_says_unknown(self):
         quoted='Did Karn introduces Phyrexian oil to Mirrodin happen before Mirran forces are overwhelmed in the early conquest?'

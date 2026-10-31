@@ -21,7 +21,7 @@
     },
     "source_local_chronology": {
       "path": "data/lore_research/source_event_sequences_2026-10-30.json",
-      "sha256": "ef31178b2bcad43b91941c5ac40677480564ba817588a95639b87f8faa6cf5bd"
+      "sha256": "a13a194984a98f29127b23068fe82158e322498a76cad4ede6c18e9c85c0b9d3"
     },
     "story_coverage": {
       "path": "data/lore_research/story_coverage_inventory_2026-10-30.json",
@@ -56,9 +56,9 @@
     "legacy_unresolved_pairs": 2897,
     "legacy_disconnected_components": 13,
     "legacy_cycles": 0,
-    "source_local_events": 31,
-    "source_local_ordered_pairs": 52,
-    "source_local_total_pairs": 465,
+    "source_local_events": 51,
+    "source_local_ordered_pairs": 101,
+    "source_local_total_pairs": 1275,
     "not_additive": "Legacy and source-local data are separately scoped; their pairs may not be summed as one chronology.",
     "l244_complete": false
   },
@@ -1013,6 +1013,68 @@
         "Era labels and publication dates are not a verified sequence or AR calendar year.",
         "Absence of a cited event or person is not evidence it never occurred or appeared."
       ]
+    },
+    {
+      "id": "muraganda_magic_before_collapse",
+      "question": "Did M:ancient_magic_discovered happen before M:ancient_collapse?",
+      "route": "ask->chronology",
+      "confidence": "QUALIFIED",
+      "flags": [
+        "PARTIAL_IN_UNIVERSE_CHRONOLOGY"
+      ],
+      "sources": [
+        "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-aetherdrift-part-2"
+      ],
+      "response_sha256": "7e7cc701be37389654cbf5baf6ffa75786b31480d49e0b60b4b4c49c2d8face2",
+      "direct_claims": null,
+      "chronology_relation": "BEFORE",
+      "known_limitations": []
+    },
+    {
+      "id": "muraganda_moonfall_order_unknown",
+      "question": "Did M:ancient_collapse happen before M:moons_shatter?",
+      "route": "ask->chronology",
+      "confidence": "QUALIFIED",
+      "flags": [
+        "PARTIAL_IN_UNIVERSE_CHRONOLOGY",
+        "NO_CITED_CHRONOLOGY_PATH"
+      ],
+      "sources": [],
+      "response_sha256": "7de45b88a4af8e9cf7c8282329d5ffda23df6fdc4d4dbeec448b886a1d3e4df6",
+      "direct_claims": null,
+      "chronology_relation": "UNKNOWN",
+      "known_limitations": []
+    },
+    {
+      "id": "meditation_early_conflict_order",
+      "question": "Did B:bolas_attacks happen before B:realm_cataclysm?",
+      "route": "ask->chronology",
+      "confidence": "QUALIFIED",
+      "flags": [
+        "PARTIAL_IN_UNIVERSE_CHRONOLOGY"
+      ],
+      "sources": [
+        "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-unwritten-now-2018-08-15"
+      ],
+      "response_sha256": "df878beafe657dadcad3514c05c0f150c47c886b9b7333baebf2c0d986a59747",
+      "direct_claims": null,
+      "chronology_relation": "BEFORE",
+      "known_limitations": []
+    },
+    {
+      "id": "meditation_displacement_order_unknown",
+      "question": "Did B:bolas_displaced happen before B:ugin_reforms?",
+      "route": "ask->chronology",
+      "confidence": "QUALIFIED",
+      "flags": [
+        "PARTIAL_IN_UNIVERSE_CHRONOLOGY",
+        "NO_CITED_CHRONOLOGY_PATH"
+      ],
+      "sources": [],
+      "response_sha256": "837377eb39337b36b1f48f568605bb38fa70d789a81dab81a62c213d55f858c4",
+      "direct_claims": null,
+      "chronology_relation": "UNKNOWN",
+      "known_limitations": []
     }
   ],
   "cross_plane_graph_navigation": [
@@ -1090,5 +1152,5 @@
     "python3 scripts/update_multiverse_progress_tracker.py --check"
   ],
   "owner_review_status": "PENDING_NOT_REQUESTED_UNTIL_ENGINEERING_EVIDENCE_AND_CI_COMPLETE",
-  "content_sha256": "4ea615c9e857e256069bc8ed983ef21a09a37acfd904a3c5f0e57943c62911e8"
+  "content_sha256": "135f88e89b2687a05216883975901c8fd753cd9bd46b216c911f638d55579f38"
 }

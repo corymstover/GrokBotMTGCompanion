@@ -1,12 +1,14 @@
 {
   "schema": "source-local-event-order-spec/v1",
   "status": "PRELIMINARY_RESEARCH_NOT_OWNER_APPROVED",
-  "scope": "Four bounded, individually sourced chronology strands. No cross-plane alignment, no absolute AR date conversion and no assertions that a narrated legend is historical fact. The New Phyrexia strand describes the early Mirrodin conquest as presented in Wizards' historical plane overview, not the post-March of the Machine political present.",
+  "scope": "Six bounded, individually sourced chronology strands. No cross-plane alignment, no absolute AR date conversion and no assertions that a narrated legend is historical fact. The New Phyrexia strand describes the early Mirrodin conquest as presented in Wizards' historical plane overview, not the post-March of the Machine political present. The Meditation Realm strand is Ugin's remembered early conflict, not an assertion about the Realm's later state after Tarkir: Dragonstorm.",
   "sources": {
     "neo_guide": "data/lore_research/pack_p5_kamigawa_history_profile_2026-10-30.json",
     "blb_guide1": "data/lore_research/pack_p5_bloomburrow_valley_history_2026-10-30.json",
     "dsk_guide": "data/lore_research/pack_p5_duskmourn_origin_2026-10-30.json",
-    "up_nph": "data/lore_research/pack_p5_new_phyrexia_historical_profile_2026-10-30.json"
+    "up_nph": "data/lore_research/pack_p5_new_phyrexia_historical_profile_2026-10-30.json",
+    "lf_muraganda_guide": "data/lore_research/pack_p5_last_four_thin_planes_2026-10-31.json",
+    "lf_meditation_chronicle": "data/lore_research/pack_p5_last_four_thin_planes_2026-10-31.json"
   },
   "strands": [
     {
@@ -102,6 +104,61 @@
         {"earlier":"D:marina_researches","later":"D:marina_confronts","source_id":"dsk_guide","quote":"Faced with the full truth at last of what she had done, Marina confronted the entity and demanded it stop.","note":"Her discovery precedes the confrontation."},
         {"earlier":"D:marina_confronts","later":"D:marina_illusion","source_id":"dsk_guide","quote":"With no other choice, the demon agreed to give her back the world as she remembered it.","note":"The false restoration follows Marina's ultimatum."},
         {"earlier":"D:marina_illusion","later":"D:ascension","source_id":"dsk_guide","quote":"In reality, the house continued to expand. The horrors continued to increase, drowning all who lived within in terror. And the demon grew in power, until the entirety of the plane was swallowed up in the walls of Duskmourn.","note":"While Marina saw a false restoration, the House expanded into the Ascension."}
+      ]
+    },
+    {
+      "id": "M",
+      "title": "Muraganda — ancient collapse and early Grand Prix arrangements",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "limitation": "The guide reports ancient survivors' glyphs and the plane's later Grand Prix-era arrangements. It does not say the exact moon-shattering date relative to the collapse, that moon-strikes ended entirely, or when the Saurid Autocracy arose relative to the ancient survivor cultures.",
+      "nodes": [
+        {"id":"M:ancient_magic_discovered","label":"Muraganda's ancient plane-spanning civilization discovers magic","claim_ids":[]},
+        {"id":"M:ancient_collapse","label":"Muraganda's first plane-spanning civilization collapses","claim_ids":["LFP007"]},
+        {"id":"M:moons_shatter","label":"Muraganda's moons shatter and their debris falls","claim_ids":["LFP008"]},
+        {"id":"M:moon_strikes_abate","label":"Muraganda's moon-strikes abate over generations","claim_ids":["LFP008"]},
+        {"id":"M:survivor_cultures","label":"Survivors form bands, tribes, and kingdoms over generations","claim_ids":["LFP009"]},
+        {"id":"M:avishkar_advance_teams","label":"Avishkari advance teams deploy ahead of the Muraganda race","claim_ids":[]},
+        {"id":"M:autocracy_treaties","label":"Saurid Autocracy reaches agreements with Avishkari delegations","claim_ids":["LFP010"]},
+        {"id":"M:teams_discover_limits","label":"Avishkari crews discover limits of the Autocracy's treaties","claim_ids":[]},
+        {"id":"M:autocracy_expands","label":"Autocracy uses race agreements to extend its borders","claim_ids":["LFP010"]},
+        {"id":"M:grand_prix_begins","label":"Ghirapur Grand Prix race begins after its advance deployment","claim_ids":[]}
+      ],
+      "edges": [
+        {"earlier":"M:ancient_magic_discovered","later":"M:ancient_collapse","source_id":"lf_muraganda_guide","quote":"a plane-spanning civilization that ruled over Muraganda discovered magic and then collapsed","note":"The guide explicitly says 'then'; no absolute date or asserted cause of collapse."},
+        {"earlier":"M:moons_shatter","later":"M:moon_strikes_abate","source_id":"lf_muraganda_guide","quote":"The plane's moons shattered to pieces, and debris still falls onto the plane to this day.","note":"Moon debris had to begin falling before the strikes could abate; 'abated' does not mean ceased."},
+        {"earlier":"M:moon_strikes_abate","later":"M:survivor_cultures","relation":"DURING_OR_AFTER_START","source_id":"lf_muraganda_guide","quote":"Muraganda changed over generations as the moon-strikes abated and survivors formed bands, tribes, and kingdoms.","note":"The source says 'as': these developments overlap and are not strictly sequential."},
+        {"earlier":"M:avishkar_advance_teams","later":"M:grand_prix_begins","source_id":"lf_muraganda_guide","quote":"Advance teams from Avishkar were deployed to Muraganda a year before the beginning of the race.","note":"A relative one-year lead, not an in-universe absolute calendar date."},
+        {"earlier":"M:autocracy_treaties","later":"M:teams_discover_limits","source_id":"lf_muraganda_guide","quote":"the race's security and maintenance teams have since discovered that the treaties their counterparts in diplomacy secured were only treaties signed with a map","note":"The discovery follows treaties; no universal agreement on behalf of other Muragandan cultures is implied."},
+        {"earlier":"M:autocracy_treaties","later":"M:autocracy_expands","source_id":"lf_muraganda_guide","quote":"From their easements and agreements, the Autocracy advanced their own borders along the race route","note":"The border expansion exploits the agreements; the source does not order it against Avishkari crews' discovery."}
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Meditation Realm — Ugin's remembered early conflict with Bolas",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "limitation": "These are the historical events represented by Ugin's memory in the 2018 Chronicle of Bolas story, not independent absolute dates, a claim that Ugin permanently died, or a statement that the Realm remains intact or Bolas confined after later stories.",
+      "nodes": [
+        {"id":"B:ugin_meditates","label":"Ugin rests and meditates in the Meditation Realm","claim_ids":["LFP005"]},
+        {"id":"B:bolas_arrives","label":"Nicol Bolas arrives in the Meditation Realm","claim_ids":[]},
+        {"id":"B:bolas_attacks","label":"Bolas attacks Ugin over the Meditation Realm waters","claim_ids":[]},
+        {"id":"B:ugin_flees","label":"Ugin flees the Realm to Zendikar","claim_ids":[]},
+        {"id":"B:multiplanar_pursuit","label":"Bolas pursues Ugin through several planes","claim_ids":[]},
+        {"id":"B:ugin_returns","label":"Ugin returns to the Meditation Realm to await Bolas","claim_ids":["LFP005"]},
+        {"id":"B:bolas_strikes_ugin","label":"Bolas strikes Ugin in the Meditation Realm","claim_ids":[]},
+        {"id":"B:realm_cataclysm","label":"Ugin's fall triggers a cataclysm in the Realm","claim_ids":[]},
+        {"id":"B:bolas_displaced","label":"Bolas is thrown from the Realm to Madara","claim_ids":[]},
+        {"id":"B:ugin_reforms","label":"Ugin reconstitutes himself and departs the Realm","claim_ids":[]}
+      ],
+      "edges": [
+        {"earlier":"B:ugin_meditates","later":"B:bolas_arrives","source_id":"lf_meditation_chronicle","quote":"although he has rested here for long periods to contemplate mystery and eternity, Ugin cannot calm his turbulent thoughts now.","note":"The prior meditations precede the encounter in Ugin's memory."},
+        {"earlier":"B:bolas_arrives","later":"B:bolas_attacks","source_id":"lf_meditation_chronicle","quote":"Just before he hits the water, Nicol Bolas spreads his wings and rises. He shines as brightly as the sun, and ire is his color. With a howl on the wind and a searing blast of fire, he dives murderously toward his brother.","note":"The narrated arrival precedes the first attack."},
+        {"earlier":"B:bolas_attacks","later":"B:ugin_flees","source_id":"lf_meditation_chronicle","quote":"Ugin takes the only path left open to him, even if it means Nicol will brand him a weakling and a coward for it. He walks out of the Meditation Realm","note":"The retreat follows Bolas's attack and Ugin's failed attempt to talk."},
+        {"earlier":"B:ugin_flees","later":"B:multiplanar_pursuit","source_id":"lf_meditation_chronicle","quote":"He walks out of the Meditation Realm and through the darkness to drop into storm-wracked Zendikar.","note":"The flight begins the subsequent pursuit across multiple planes."},
+        {"earlier":"B:multiplanar_pursuit","later":"B:ugin_returns","source_id":"lf_meditation_chronicle","quote":"Nicol will never stop pursuing him, not unless he thinks his twin is dead. He planeswalks back to the Meditation Realm, where he waits","note":"The deliberate return follows the extended pursuit in the remembered sequence."},
+        {"earlier":"B:ugin_returns","later":"B:bolas_strikes_ugin","source_id":"lf_meditation_chronicle","quote":"In a burst of light, Nicol appears high in the lustrous sky. He dives, all teeth and claw.","note":"Bolas attacks after Ugin has returned and waited for him."},
+        {"earlier":"B:bolas_strikes_ugin","later":"B:realm_cataclysm","source_id":"lf_meditation_chronicle","quote":"With a mighty splash, Ugin falls into the still waters. The impact resounds like thunder. Monstrous waves rise from the displacement","note":"The fall after the strike provokes the cataclysm; this does not certify permanent death."},
+        {"earlier":"B:realm_cataclysm","later":"B:bolas_displaced","source_id":"lf_meditation_chronicle","quote":"Dragged by the sheer shocking force of the cataclysm, Bolas flares like a sun and vanishes, torn away to the plane of his birth","note":"The cataclysm displaces Bolas; his later status is outside this memory strand."},
+        {"earlier":"B:realm_cataclysm","later":"B:ugin_reforms","source_id":"lf_meditation_chronicle","quote":"A pale sheet of liquid trickles up as out of nowhere, returning from the unseen and untouchable web of darkness.","note":"The following account shows the Realm refill and Ugin reform; the ontology and elapsed time remain uncertain."}
       ]
     }
   ]

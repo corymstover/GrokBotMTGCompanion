@@ -83,6 +83,18 @@ QA_CASES = [
     ('plane_meditation_realm', 'What is the history of Meditation Realm?', 'ask->plane_history', 'QUALIFIED'),
     ('plane_muraganda', 'What is the history of Muraganda?', 'ask->plane_history', 'QUALIFIED'),
     ('plane_skalla', 'What is the history of Skalla?', 'ask->plane_history', 'QUALIFIED'),
+    ('muraganda_magic_before_collapse',
+     'Did M:ancient_magic_discovered happen before M:ancient_collapse?',
+     'ask->chronology', 'QUALIFIED'),
+    ('muraganda_moonfall_order_unknown',
+     'Did M:ancient_collapse happen before M:moons_shatter?',
+     'ask->chronology', 'QUALIFIED'),
+    ('meditation_early_conflict_order',
+     'Did B:bolas_attacks happen before B:realm_cataclysm?',
+     'ask->chronology', 'QUALIFIED'),
+    ('meditation_displacement_order_unknown',
+     'Did B:bolas_displaced happen before B:ugin_reforms?',
+     'ask->chronology', 'QUALIFIED'),
 ]
 
 
@@ -112,6 +124,12 @@ def qa_cases() -> list[dict]:
         if key == 'new_phyrexia_order_unknown' and (
                 r['result']['relation'] != 'UNKNOWN' or r['sources']):
             raise ValueError('New Phyrexia unordered events falsely linked')
+        if key in {'muraganda_magic_before_collapse','meditation_early_conflict_order'} and (
+                r['result']['relation'] != 'BEFORE' or not r['result']['proof'] or not r['sources']):
+            raise ValueError(f'New source-local order lacks cited path for {key}')
+        if key in {'muraganda_moonfall_order_unknown','meditation_displacement_order_unknown'} and (
+                r['result']['relation'] != 'UNKNOWN' or r['sources']):
+            raise ValueError(f'Unsupported source-local order falsely linked for {key}')
         if key == 'present_leader_unknown' and 'CURRENT_LEADER_NOT_ESTABLISHED' not in r['flags']:
             raise ValueError('Present-day leadership is overstated')
         if key == 'commander_identity' and not r['result']['allowed']:

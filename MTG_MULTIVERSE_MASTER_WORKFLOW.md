@@ -1,6 +1,6 @@
 # MTG Multiverse Companion — Master Workflow & Progress Checklist
 
-**Version:** 2.68
+**Version:** 2.69
 **Checkpoint date:** 2026-10-31
 **Repository:** [corymstover/GrokBotMTGCompanion](https://github.com/corymstover/GrokBotMTGCompanion)  
 **Purpose:** Durable project roadmap and handoff document. Update this file after verified milestone work; do not treat historical figures as live counters.
@@ -22,6 +22,28 @@ foundation release may document inherently unresolved canon and future
 maintenance; it must never claim exhaustive knowledge of all MTG history.
 The 62 approved Grixis decks, their hashes and all owner gates remain intact.
 Only a new explicit request from Cory can override the Phase 6 hold.
+
+**v2.69 Phase 4 Muraganda and Meditation Realm source-local chronology (2026-10-31):**
+Expanded the qualified source-local event ledger with **20 events and 15
+source-quoted relations**, using the existing v2.68 registered Wizards
+references: *Planeswalker's Guide to Aetherdrift, Part 2* (Muraganda) and
+*Chronicle of Bolas: The Unwritten Now* (Ugin's early Meditation Realm
+memory). All **39 chronology excerpts from six official Wizards pages passed
+live quotation verification**. The ledger now has **six separately scoped
+strands, 51 events, 37 strict edges, two non-ordering relations and 101/1,275
+comparable pairs**. The Muraganda collapse versus moon-shattering, the
+overlapping moon-strike decline and survivor cultures, and Bolas's removal
+versus Ugin's restoration remain explicitly unproven where no strict edge
+exists. This does not import the later post-*Tarkir: Dragonstorm* Realm
+status into Ugin's remembered early story. The legacy 56-event ledger stays
+separate. Four new positive/negative direct chronology Q&A cases expand the
+Phase 8 packet to **42 representative questions**. Other foundation
+coverage stays at **1,259 graded claims, 5,290 nodes, 8,473 edges** and
+**83/137** checked items; readiness is **NOT_RELEASE_READY**. The missing
+pinned Scryfall bulk, incomplete lore and owner acceptance remain open.
+All 62 approved decks and the three unapproved lore pilots are untouched;
+Phase 6 stays deferred. See
+`research/PHASE4_SOURCE_LOCAL_EVENT_SEQUENCES_2026-10-30.md`.
 
 **v2.68 Phase 5 last four thin-plane dossier pass (2026-10-31):**
 Added **13** narrowly scoped and live-excerpt-checked direct historical
