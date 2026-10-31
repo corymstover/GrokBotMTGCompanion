@@ -69,6 +69,10 @@ _CHRONOLOGY_QUESTION_PATTERNS = [
     (re.compile(r"^did\s+(.+?)\s+happen\s+(before|after)\s+(.+?)\??$", re.I), "DID"),
     (re.compile(r"^was\s+(.+?)\s+(before|after)\s+(.+?)\??$", re.I), "DID"),
 ]
+_GRAPH_CONNECTION_PATTERNS = [
+    re.compile(r"^how (?:is|are|was|were) (.+?) (?:connected|related|linked) to (.+?)\??$", re.I),
+    re.compile(r"^what (?:is|was) the (?:connection|relationship|link) between (.+?) and (.+?)\??$", re.I),
+]
 
 _index = None
 
@@ -694,6 +698,59 @@ def chronology_question(text: str) -> dict | None:
     return envelope
 
 
+def graph_connection_question(text: str) -> dict | None:
+    """Find a source-backed navigation path, not an inferred historical relationship.
+
+    A route between two entities can contain reversed claim edges and unrelated
+    claims. It establishes only a traceable graph connection, never that the
+    endpoint entities met, caused one another's actions or share a dated era.
+    """
+    match = next((m for rx in _GRAPH_CONNECTION_PATTERNS if (m := rx.fullmatch(text))), None)
+    if match is None:
+        return None
+    left, right = (s.strip().rstrip('?').strip() for s in match.groups())
+    mg = graph()
+    envelope = {'route': 'ask->graph_connection', 'query': text,
+                'data_as_of': mg.g.get('evidence_cutoff') or '2026-10-30',
+                'sources': [], 'flags': ['GRAPH_NAVIGATION_ONLY', 'NOT_TEMPORAL_OR_CAUSAL_PROOF']}
+    src, dst = _find(left), _find(right)
+    if not src or not dst:
+        envelope.update(confidence='NOT_FOUND', flags=envelope['flags'] + ['UNKNOWN_OR_AMBIGUOUS_ENDPOINT'],
+                        result={'left_input': left, 'right_input': right, 'path': None,
+                                'limitation': 'One or both named entities are not uniquely identified by the registered graph.'})
+        return envelope
+    if src == dst:
+        envelope.update(confidence='NOT_FOUND', flags=envelope['flags'] + ['SAME_ENTITY_NOT_A_RELATIONSHIP'],
+                        result={'left_id': src, 'right_id': dst, 'path': None})
+        return envelope
+    path = mg.path(src, dst, max_depth=4)  # confirmed and source-cited only, enforced during BFS
+    if not path:
+        envelope.update(confidence='NOT_FOUND', flags=envelope['flags'] + ['NO_CITED_GRAPH_PATH_WITHIN_FOUR_HOPS'],
+                        result={'left_id': src, 'right_id': dst, 'path': None, 'max_hops': 4,
+                                'limitation': 'No qualifying path within the search bound is not proof that a relationship never existed.'})
+        return envelope
+    if not all(h['status'] == 'CANON_CONFIRMED' and h['claim'] and h['source_urls'] for h in path):
+        raise ValueError('Unverified graph edge escaped the confirmed-citation path filter')
+    sources = sorted({url for h in path for url in h['source_urls']})
+    flags = envelope['flags']
+    if ((mg.nodes[src]['name'].lower() != left.lower() and src == _first_name(left)) or
+            (mg.nodes[dst]['name'].lower() != right.lower() and dst == _first_name(right))):
+        flags.append('MATCHED_BY_FIRST_NAME')
+    if ((mg.nodes[src]['name'].lower() != left.lower() and src == _alias(left)) or
+            (mg.nodes[dst]['name'].lower() != right.lower() and dst == _alias(right))):
+        flags.append('MATCHED_BY_FACTION_ALIAS')
+    envelope.update(confidence='QUALIFIED', sources=sources, result={
+        'left_id': src, 'left_name': mg.nodes[src]['name'],
+        'right_id': dst, 'right_name': mg.nodes[dst]['name'],
+        'hops': len(path), 'direct_cited_relation': len(path) == 1,
+        'max_hops': 4, 'path': path,
+        'limitation': ('Each hop is an individually cited confirmed claim, but the overall path is navigation only. '
+                       'Reverse traversal does not reverse historical causation, and a multi-hop path is not a '
+                       'claim that the endpoints directly interacted or existed simultaneously.'),
+    })
+    return envelope
+
+
 def ask(text: str) -> dict:
     q = text.strip()
     for rx, kind in RULES_PATTERNS:
@@ -702,6 +759,11 @@ def ask(text: str) -> dict:
             env = _rules(kind, m)
             env.update(route="ask->rules:" + kind, query=q)
             return env
+    # A graph-only question must not require importing the large Set Atlas or
+    # historical rules shards; this route is also useful in a sparse clone.
+    connection = graph_connection_question(q)
+    if connection is not None:
+        return connection
     from ask_set_atlas import try_answer as set_atlas_answer
     set_answer = set_atlas_answer(q)
     if set_answer is not None:
