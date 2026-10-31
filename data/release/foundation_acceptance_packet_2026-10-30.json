@@ -1,0 +1,463 @@
+{
+  "schema": "foundation-acceptance-packet/v1",
+  "as_of": "2026-10-30",
+  "status": "RESEARCH_EVIDENCE_FOR_OWNER_REVIEW_NOT_CERTIFICATION",
+  "scope": "KNOWLEDGE_FOUNDATION_ONLY",
+  "owner_accepted": false,
+  "release_certified": false,
+  "phase6_deckbuilding_deferred": true,
+  "input_sha256": {
+    "graph": {
+      "path": "data/multiverse_graph/multiverse_graph.json",
+      "sha256": "7f549db1c1adf4872a456b9522b388279ca6e7d94c62e19260ba7c44c2467a43"
+    },
+    "plane_histories": {
+      "path": "data/lore_research/plane_history_dossiers_2026-10-30.json",
+      "sha256": "13a1fe484ce7e0055b60522a16f06a89a129da1d71614e44464567af0cfea017"
+    },
+    "chronology": {
+      "path": "data/lore_research/relative_chronology_2026-10-30.json",
+      "sha256": "7088dcd853b372c69b2fd768971f2db9f4705bfd03d1e86030cc56b1637b58c6"
+    },
+    "source_local_chronology": {
+      "path": "data/lore_research/source_event_sequences_2026-10-30.json",
+      "sha256": "0159769bf69db3b775585c13afc22321692c50ee5fa05e5d86786972954fee6b"
+    },
+    "story_coverage": {
+      "path": "data/lore_research/story_coverage_inventory_2026-10-30.json",
+      "sha256": "f88c815d67eb5f3be403e1a9eef1054fd22013ca409974a7a8a5c1fb5f12fc61"
+    },
+    "genealogy_disputes": {
+      "path": "data/lore_research/pack_a_genealogy_disputes_2026-10-30.json",
+      "sha256": "c906d185c659ba433671a1323f75a3295268469021ed176e61c88ff7b0056b53"
+    }
+  },
+  "coverage": {
+    "source_pages_in_inventoried_scope": 626,
+    "source_pages_cited": 576,
+    "source_pages_reviewed_without_claim": 50,
+    "graph_nodes": 5176,
+    "graph_edges": 8255,
+    "graph_claims": 1206,
+    "registered_plane_nodes": 33,
+    "thin_plane_dossiers": 16,
+    "curated_context_plane_count": 4,
+    "distinct_existing_context_claims": 53,
+    "registered_character_nodes": 483,
+    "registered_faction_nodes": 145,
+    "characters_and_factions_with_direct_claims": 623,
+    "characters_and_factions_without_direct_claims": 5
+  },
+  "chronology": {
+    "legacy_events": 56,
+    "legacy_ordered_pairs": 177,
+    "legacy_total_pairs": 3074,
+    "legacy_unresolved_pairs": 2897,
+    "legacy_disconnected_components": 13,
+    "legacy_cycles": 0,
+    "source_local_events": 24,
+    "source_local_ordered_pairs": 37,
+    "source_local_total_pairs": 276,
+    "not_additive": "Legacy and source-local data are separately scoped; their pairs may not be summed as one chronology.",
+    "l244_complete": false
+  },
+  "representative_questions": [
+    {
+      "id": "plane_alara",
+      "question": "What is the history of Alara?",
+      "route": "ask->plane_history",
+      "confidence": "QUALIFIED",
+      "flags": [
+        "PARTIAL_REGISTERED_PLANE_HISTORY",
+        "NO_VERIFIED_TOTAL_CHRONOLOGY"
+      ],
+      "sources": [
+        "https://magic.wizards.com/en/story/alara-plane"
+      ],
+      "response_sha256": "1519f26cd3f3f481eb37f439bdcf4f7dc957d97d07837804ac1d778124b61e20",
+      "direct_claims": 5,
+      "chronology_relation": null,
+      "known_limitations": [
+        "Direct claims are not an exhaustive history of this plane.",
+        "Curated same-plane story context is not a direct claim-to-plane edge and does not prove the geography of every participant in an entire arc.",
+        "Era labels and publication dates are not a verified sequence or AR calendar year.",
+        "Absence of a cited event or person is not evidence it never occurred or appeared."
+      ]
+    },
+    {
+      "id": "plane_new_capenna",
+      "question": "What is the history of New Capenna?",
+      "route": "ask->plane_history",
+      "confidence": "QUALIFIED",
+      "flags": [
+        "PARTIAL_REGISTERED_PLANE_HISTORY",
+        "NO_VERIFIED_TOTAL_CHRONOLOGY",
+        "CURATED_ON_PLANE_CONTEXT_NOT_DIRECT_GRAPH_CLAIMS",
+        "CANON_IMPLIED_PRESENT"
+      ],
+      "sources": [
+        "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-streets-of-new-capenna",
+        "https://magic.wizards.com/en/news/magic-story/episode-1-homecoming-2022-03-28",
+        "https://magic.wizards.com/en/news/magic-story/episode-1-triumph-of-the-fleshless",
+        "https://magic.wizards.com/en/news/magic-story/episode-3-tests-2022-03-30",
+        "https://magic.wizards.com/en/news/magic-story/episode-4-beneath-eyes-unblinking",
+        "https://magic.wizards.com/en/news/magic-story/episode-4-font-2022-04-04",
+        "https://magic.wizards.com/en/news/magic-story/episode-5-hymn-angels-2022-04-05",
+        "https://magic.wizards.com/en/news/magic-story/the-fall-of-park-heights"
+      ],
+      "response_sha256": "62f5c5a42980efc223d8faf1a701f3c1ab31285fb5fa1cd3f4419c25a2cc841a",
+      "direct_claims": 2,
+      "chronology_relation": null,
+      "known_limitations": [
+        "Direct claims are not an exhaustive history of this plane.",
+        "Curated same-plane story context is not a direct claim-to-plane edge and does not prove the geography of every participant in an entire arc.",
+        "Era labels and publication dates are not a verified sequence or AR calendar year.",
+        "Absence of a cited event or person is not evidence it never occurred or appeared."
+      ]
+    },
+    {
+      "id": "character_bolas",
+      "question": "What is the lore of Nicol Bolas?",
+      "route": "ask->entity_history",
+      "confidence": "QUALIFIED",
+      "flags": [
+        "PARTIAL_CITED_ENTITY_HISTORY",
+        "DIRECT_GRAPH_CLAIMS_ONLY",
+        "NO_VERIFIED_TOTAL_CHRONOLOGY",
+        "ALTERNATE_CONTINUITY_PRESENT",
+        "CANON_DISPUTED_PRESENT",
+        "CANON_IMPLIED_PRESENT",
+        "OPEN_QUESTION_PRESENT"
+      ],
+      "sources": [
+        "https://magic.wizards.com/en/news/feature/reforged-chain-2015-01-21",
+        "https://magic.wizards.com/en/news/feature/returning-legends-modern-horizons-2-2021-06-10",
+        "https://magic.wizards.com/en/news/magic-story/arbiter-law-left-chaos-his-wake-2018-01-24",
+        "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-blood-and-fire-2018-07-18",
+        "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-perspectives-2018-08-08",
+        "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-twins-2018-06-13",
+        "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-unwritten-now-2018-08-15",
+        "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-whispers-treachery-2018-07-11",
+        "https://magic.wizards.com/en/news/magic-story/favor-2017-07-05",
+        "https://magic.wizards.com/en/news/magic-story/hand-moves-2017-04-26",
+        "https://magic.wizards.com/en/news/magic-story/hour-devastation-2017-07-26",
+        "https://magic.wizards.com/en/news/magic-story/hour-eternity-2017-07-12",
+        "https://magic.wizards.com/en/news/magic-story/hour-revelation-2017-06-07",
+        "https://magic.wizards.com/en/news/magic-story/impact-2017-03-29",
+        "https://magic.wizards.com/en/news/magic-story/judgment-2017-05-17",
+        "https://magic.wizards.com/en/news/magic-story/khanfall-2015-02-18",
+        "https://magic.wizards.com/en/news/magic-story/lorwyn-eclipsed-episode-2-shake-off-slumber",
+        "https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-fate-reforged-2015-01-07",
+        "https://magic.wizards.com/en/news/magic-story/puppets-2017-01-25",
+        "https://magic.wizards.com/en/news/magic-story/renewal-2017-02-01",
+        "https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-12-2018-05-30",
+        "https://magic.wizards.com/en/news/magic-story/sabotage-2018-01-31",
+        "https://magic.wizards.com/en/news/magic-story/story-tarkir-block-2015-04-29",
+        "https://magic.wizards.com/en/news/magic-story/talented-captain-vraska-2017-09-20",
+        "https://magic.wizards.com/en/news/magic-story/tarkir-dragonstorm-episode-7-return",
+        "https://magic.wizards.com/en/news/magic-story/the-battle-of-fort-keff",
+        "https://magic.wizards.com/en/news/magic-story/the-madness-of-sarkhan",
+        "https://magic.wizards.com/en/news/magic-story/trust-2017-04-05",
+        "https://magic.wizards.com/en/news/magic-story/unbowed-part-2-2018-09-05",
+        "https://magic.wizards.com/en/news/magic-story/unkindness-ravens-2015-07-29",
+        "https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-rallying-reluctant-2019-05-22",
+        "https://magic.wizards.com/en/news/magic-story/writing-wall-2017-04-12",
+        "https://magic.wizards.com/en/news/making-magic/even-more-war-games-2019-05-06",
+        "https://magic.wizards.com/en/story/alara-plane",
+        "https://magic.wizards.com/en/story/amonkhet-plane",
+        "https://magic.wizards.com/en/story/sarkhan-vol-planeswalker",
+        "https://magic.wizards.com/en/story/ugin-planeswalker",
+        "https://www.magic.wizards.com/en/news/magic-story/planeswalkers-guide-to-reality-fracture"
+      ],
+      "response_sha256": "685d25186241467b6bc3c859f4bba285d4d9a9cc95159979ffb510579bc66896",
+      "direct_claims": 51,
+      "chronology_relation": null,
+      "known_limitations": [
+        "Only cited graph edges directly incident on this entity are included.",
+        "Other stories, relationships, eras and unregistered entities may be missing.",
+        "Publication dates and era labels cannot establish event order or present-day status.",
+        "The absence of a claim does not prove an event or relationship never occurred."
+      ]
+    },
+    {
+      "id": "faction_gatewatch",
+      "question": "What is the history of the Gatewatch?",
+      "route": "ask->entity_history",
+      "confidence": "QUALIFIED",
+      "flags": [
+        "PARTIAL_CITED_ENTITY_HISTORY",
+        "DIRECT_GRAPH_CLAIMS_ONLY",
+        "NO_VERIFIED_TOTAL_CHRONOLOGY"
+      ],
+      "sources": [
+        "https://magic.wizards.com/en/news/magic-story/battle-thraben-2016-07-20",
+        "https://magic.wizards.com/en/news/magic-story/breaking-points-2017-01-18",
+        "https://magic.wizards.com/en/news/magic-story/brink-extinction-2016-02-10",
+        "https://magic.wizards.com/en/news/magic-story/grateful-consulate-2016-10-19",
+        "https://magic.wizards.com/en/news/magic-story/homesick-2016-08-29",
+        "https://magic.wizards.com/en/news/magic-story/hour-devastation-2017-07-26",
+        "https://magic.wizards.com/en/news/magic-story/impact-2017-03-29",
+        "https://magic.wizards.com/en/news/magic-story/oath-gatewatch-2016-02-03",
+        "https://magic.wizards.com/en/news/magic-story/promised-end-2016-07-27",
+        "https://magic.wizards.com/en/news/magic-story/quiet-moments-2016-12-07",
+        "https://magic.wizards.com/en/news/magic-story/renewal-2017-02-01",
+        "https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-1-2018-03-21",
+        "https://magic.wizards.com/en/news/magic-story/trust-2017-04-05",
+        "https://magic.wizards.com/en/news/magic-story/zendikar-resurgent-2016-02-24",
+        "https://magic.wizards.com/en/news/magic-story/zendikars-last-stand-2016-02-17",
+        "https://magic.wizards.com/en/story/ajani-goldmane-planeswalker",
+        "https://magic.wizards.com/en/story/zendikar-plane"
+      ],
+      "response_sha256": "f17101b3c05aae98872efc8a631ff8465b5494207d81436775818c5c47820b30",
+      "direct_claims": 22,
+      "chronology_relation": null,
+      "known_limitations": [
+        "Only cited graph edges directly incident on this entity are included.",
+        "Other stories, relationships, eras and unregistered entities may be missing.",
+        "Publication dates and era labels cannot establish event order or present-day status.",
+        "The absence of a claim does not prove an event or relationship never occurred."
+      ]
+    },
+    {
+      "id": "faction_izzet_alias",
+      "question": "What is the history of the Izzet?",
+      "route": "ask->entity_history",
+      "confidence": "QUALIFIED",
+      "flags": [
+        "PARTIAL_CITED_ENTITY_HISTORY",
+        "DIRECT_GRAPH_CLAIMS_ONLY",
+        "NO_VERIFIED_TOTAL_CHRONOLOGY",
+        "MATCHED_BY_FACTION_ALIAS"
+      ],
+      "sources": [
+        "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-return-to-ravnica-part-1",
+        "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-return-to-ravnica-part-2",
+        "https://magic.wizards.com/en/news/magic-story/project-lightning-bug-2015-05-27",
+        "https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-path-opulent-2019-05-15",
+        "https://magic.wizards.com/en/story/ravnica-plane"
+      ],
+      "response_sha256": "cfec486d743d8a6e7096eacce2ced45a7f94448e39cae37e337fc71a613bab11",
+      "direct_claims": 5,
+      "chronology_relation": null,
+      "known_limitations": [
+        "Only cited graph edges directly incident on this entity are included.",
+        "Other stories, relationships, eras and unregistered entities may be missing.",
+        "Publication dates and era labels cannot establish event order or present-day status.",
+        "The absence of a claim does not prove an event or relationship never occurred."
+      ]
+    },
+    {
+      "id": "twin_identity",
+      "question": "Who is Ugin's twin?",
+      "route": "ask->lore:sibling_of|twin_sibling_of",
+      "confidence": "VERIFIED",
+      "flags": [],
+      "sources": [
+        "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-things-unseen-2018-06-27",
+        "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-twins-2018-06-13",
+        "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-whispers-treachery-2018-07-11",
+        "https://magic.wizards.com/en/story/ugin-planeswalker"
+      ],
+      "response_sha256": "b6a893d4725aad5cdcf369370be537586125b3d637b643c99619581fe563d2ac",
+      "direct_claims": null,
+      "chronology_relation": null,
+      "known_limitations": []
+    },
+    {
+      "id": "confirmed_death",
+      "question": "Who killed Elesh Norn?",
+      "route": "ask->lore:killed",
+      "confidence": "VERIFIED",
+      "flags": [],
+      "sources": [
+        "https://magic.wizards.com/en/news/magic-story/episode-9-the-old-sins-of-new-phyrexia"
+      ],
+      "response_sha256": "6cbf0a9dc6b0f7d038745c19fa187f8266095f4c4c2921d916ef1501a3f8d3bf",
+      "direct_claims": null,
+      "chronology_relation": null,
+      "known_limitations": []
+    },
+    {
+      "id": "continuity_caveat",
+      "question": "Explain the continuity of Ugin",
+      "route": "ask->continuity",
+      "confidence": "QUALIFIED",
+      "flags": [
+        "TIMELINE_CONTEXT_REQUIRED"
+      ],
+      "sources": [
+        "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-tarkir-dragonstorm-part-1",
+        "https://magic.wizards.com/en/news/feature/reforged-chain-2015-01-21",
+        "https://magic.wizards.com/en/news/magic-story/battle-zendikar-story-summary-2015-12-23",
+        "https://magic.wizards.com/en/news/magic-story/brink-extinction-2016-02-10",
+        "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-blood-and-fire-2018-07-18",
+        "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-first-lesson-2018-06-20",
+        "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-things-unseen-2018-06-27",
+        "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-twins-2018-06-13",
+        "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-unwritten-now-2018-08-15",
+        "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-whispers-treachery-2018-07-11",
+        "https://magic.wizards.com/en/news/magic-story/new-tarkir-old-2014-12-31",
+        "https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-fate-reforged-2015-01-07",
+        "https://magic.wizards.com/en/news/magic-story/sabotage-2018-01-31",
+        "https://magic.wizards.com/en/news/magic-story/sorins-restoration-2015-03-27",
+        "https://magic.wizards.com/en/news/magic-story/sorins-revelation",
+        "https://magic.wizards.com/en/news/magic-story/stone-and-blood-2016-06-15",
+        "https://magic.wizards.com/en/news/magic-story/story-tarkir-block-2015-04-29",
+        "https://magic.wizards.com/en/news/magic-story/tarkir-dragons-2015-02-25",
+        "https://magic.wizards.com/en/news/magic-story/tarkir-dragonstorm-episode-7-return",
+        "https://magic.wizards.com/en/news/magic-story/the-lithomancer",
+        "https://magic.wizards.com/en/news/magic-story/unbroken-and-unbowed-2015-04-22",
+        "https://magic.wizards.com/en/news/magic-story/zendikar-resurgent-2016-02-24",
+        "https://magic.wizards.com/en/news/making-magic/even-more-war-games-2019-05-06",
+        "https://magic.wizards.com/en/story/sarkhan-vol-planeswalker",
+        "https://magic.wizards.com/en/story/tarkir-plane",
+        "https://magic.wizards.com/en/story/ugin-planeswalker",
+        "https://magic.wizards.com/en/story/zendikar-plane"
+      ],
+      "response_sha256": "c815455d90a5a1a9e4119c9a91e2cd86ce7b6e756755f0e3f88436dc5929781d",
+      "direct_claims": null,
+      "chronology_relation": null,
+      "known_limitations": []
+    },
+    {
+      "id": "present_leader_unknown",
+      "question": "Who currently leads the Orzhov Syndicate?",
+      "route": "ask->lore:led|leader_of|leads",
+      "confidence": "QUALIFIED",
+      "flags": [
+        "MULTIPLE_LEADERS_ACROSS_ERAS",
+        "LATEST_CITED_LEADER_DEATH_RECORDED",
+        "CURRENT_LEADER_NOT_ESTABLISHED"
+      ],
+      "sources": [
+        "https://magic.wizards.com/en/news/magic-story/episode-1-ghosts-of-our-past",
+        "https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-operation-desperation-2019-06-05"
+      ],
+      "response_sha256": "a1a991fc4165d28cecab8efe5517107db324a5980657f5a007d33a7f01f0e9a5",
+      "direct_claims": null,
+      "chronology_relation": null,
+      "known_limitations": []
+    },
+    {
+      "id": "source_order",
+      "question": "Did Konda imprisons a part happen before Kyodai and Michiko defeat Konda?",
+      "route": "ask->chronology",
+      "confidence": "QUALIFIED",
+      "flags": [
+        "PARTIAL_IN_UNIVERSE_CHRONOLOGY"
+      ],
+      "sources": [
+        "https://magic.wizards.com/en/news/feature/planeswalkers-guide-kamigawa-neon-dynasty-2022-02-03"
+      ],
+      "response_sha256": "002de94d78cfb84edd195097df97a06c91441515d3da27fd07ef936af7d966d4",
+      "direct_claims": null,
+      "chronology_relation": "BEFORE",
+      "known_limitations": []
+    },
+    {
+      "id": "unanchored_order",
+      "question": "Did Konda imprisons a part happen before Marina lures her bullies?",
+      "route": "ask->chronology",
+      "confidence": "QUALIFIED",
+      "flags": [
+        "PARTIAL_IN_UNIVERSE_CHRONOLOGY",
+        "NO_CITED_CHRONOLOGY_PATH"
+      ],
+      "sources": [],
+      "response_sha256": "f24a98abc3ee17b412a619307a3b593951739f997290717d8e3e7b4f7ba94ee2",
+      "direct_claims": null,
+      "chronology_relation": "UNKNOWN",
+      "known_limitations": []
+    },
+    {
+      "id": "commander_identity",
+      "question": "Can Sol Ring go in a Urza, Lord High Artificer deck?",
+      "route": "ask->rules:include",
+      "confidence": "VERIFIED",
+      "flags": [],
+      "sources": [
+        "https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt"
+      ],
+      "response_sha256": "c5ada567cdd81c80a9838cca7d366b2a2831b54c8755cf80cb200a2b2a552559",
+      "direct_claims": null,
+      "chronology_relation": null,
+      "known_limitations": []
+    }
+  ],
+  "cross_plane_graph_navigation": [
+    {
+      "id": "tezzeret_kaladesh",
+      "from": "Tezzeret",
+      "to": "Kaladesh",
+      "evidence_type": "GRAPH_NAVIGATION_ONLY_NOT_TEMPORAL_OR_CAUSAL_PROOF",
+      "hops": [
+        {
+          "from": "character:tezzeret",
+          "relation": "ordered_arrest_of",
+          "to": "character:pia_nalaar",
+          "claim": "KLD006",
+          "status": "CANON_CONFIRMED",
+          "source_urls": [
+            "https://magic.wizards.com/en/news/magic-story/release-2016-10-05"
+          ]
+        },
+        {
+          "from": "character:pia_nalaar",
+          "relation": "parent_of",
+          "to": "character:chandra_nalaar",
+          "claim": "DF005",
+          "status": "CANON_CONFIRMED",
+          "source_urls": [
+            "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-aetherdrift-part-1",
+            "https://magic.wizards.com/en/news/magic-story/aetherdrift-episode-2-pit-stop"
+          ]
+        },
+        {
+          "from": "character:chandra_nalaar",
+          "relation": "returned_to",
+          "to": "plane:kaladesh",
+          "claim": "KLD002",
+          "status": "CANON_CONFIRMED",
+          "source_urls": [
+            "https://magic.wizards.com/en/news/magic-story/torch-defiance-2016-09-07"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "elspeth_new_phyrexia",
+      "from": "Elspeth Tirel",
+      "to": "New Phyrexia",
+      "evidence_type": "GRAPH_NAVIGATION_ONLY_NOT_TEMPORAL_OR_CAUSAL_PROOF",
+      "hops": [
+        {
+          "from": "plane:new_phyrexia",
+          "relation": "resisted_by_planeswalkers",
+          "to": "character:elspeth_tirel",
+          "claim": "NPHH006",
+          "status": "CANON_CONFIRMED",
+          "source_urls": [
+            "https://magic.wizards.com/en/story/new-phyrexia-plane"
+          ]
+        }
+      ]
+    }
+  ],
+  "unresolved_gates": [
+    "Quoted relative ordering does not yet establish a complete cross-source or cross-plane chronology.",
+    "Plane histories and direct character/faction claims are incomplete, not a census of Magic canon.",
+    "Pack A genealogy disputes GD2–GD7 require source-backed resolution or explicit owner decisions.",
+    "No general game-state simulation or proof for uncited complex card interactions exists.",
+    "Phase 1B qualified snapshot limits and release-time Oracle freshness require separate review.",
+    "Actual owner foundation-scope acceptance and exact-release CI have not occurred."
+  ],
+  "validation_commands": [
+    "python3 scripts/build_foundation_acceptance_packet.py --check",
+    "python3 -m unittest discover -s tests -p 'test_foundation_acceptance_packet.py' -q",
+    "python3 -m unittest discover -s tests -p 'test_mv_ask*.py' -q",
+    "python3 scripts/certification_dry_run.py --check",
+    "python3 scripts/update_multiverse_progress_tracker.py --check"
+  ],
+  "owner_review_status": "PENDING_NOT_REQUESTED_UNTIL_ENGINEERING_EVIDENCE_AND_CI_COMPLETE",
+  "content_sha256": "4469d0d55799da5b5f06654ba28a0ac18b0704563a6535f20a0cbde7104cc821"
+}

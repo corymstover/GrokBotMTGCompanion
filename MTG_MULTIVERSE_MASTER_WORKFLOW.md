@@ -1,6 +1,6 @@
 # MTG Multiverse Companion — Master Workflow & Progress Checklist
 
-**Version:** 2.59
+**Version:** 2.60
 **Checkpoint date:** 2026-10-30
 **Repository:** [corymstover/GrokBotMTGCompanion](https://github.com/corymstover/GrokBotMTGCompanion)  
 **Purpose:** Durable project roadmap and handoff document. Update this file after verified milestone work; do not treat historical figures as live counters.
@@ -22,6 +22,27 @@ foundation release may document inherently unresolved canon and future
 maintenance; it must never claim exhaustive knowledge of all MTG history.
 The 62 approved Grixis decks, their hashes and all owner gates remain intact.
 Only a new explicit request from Cory can override the Phase 6 hold.
+
+**v2.60 Phase 8 foundation acceptance evidence and blocker reconciliation (2026-10-30):**
+`scripts/build_foundation_acceptance_packet.py` now reproducibly assembles
+the source-graded **knowledge-only** review surface at
+`data/release/foundation_acceptance_packet_2026-10-30.json` and
+`research/FOUNDATION_ACCEPTANCE_PACKET_2026-10-30.md`. It records two
+**separate, non-additive** partial chronological ledgers; 33 registered
+plane dossiers, 16 thin; 623/628 character/faction nodes with direct cited
+claims; two strictly non-temporal graph-navigation examples; and 12 bounded
+end-to-end lore/chronology/continuity/Commander-rules Q&A cases with source
+references, flags and response digests. This is **NOT** owner review or final
+certification, and the packet explicitly names unverified scope and source
+gaps. The Phase 8 dry-run no longer falsely calls the already scheduled
+weekly source monitor unscheduled, or the updated progress tracker stale.
+`Progress Tracker.md` now separately triages all 14 first-release/Phase 8
+gates as Completed / Under review / Blocked / Not started with typed
+blockers, distinct from the 137-item engineering checklist. The packet
+itself awaits exact-release CI and owner scope review; two genuine remaining
+technical blockers (lookup/rules and qualified Phase 1B limits), plus
+missing historical sources, are **not** declared solved. Deckbuilding stays
+parked and the checklist remains **81/137**.
 
 **v2.59 Phase 5/7 partial character and faction history retrieval (2026-10-30):**
 The normal `mv_ask.py ask` route now surfaces direct source-graded graph claims
@@ -566,16 +587,19 @@ explicitly lifts the hold).
 - [ ] Monitor new official stories, Oracle changes, releases, rules and Commander format updates.
   - Partial (2026-10-30): `scripts/oracle_drift_report.py` ([PR #829](https://github.com/corymstover/GrokBotMTGCompanion/pull/829)) diffs the Oracle text against each new snapshot.
   - v2.47 read-only monitoring: `.github/workflows/multiverse-update-watch.yml` executes weekly/on demand, validates its source whitelist and saved current baseline, checks new URLs from Wizards' present Magic Story listing, compares Scryfall bulk *metadata* against the exact pinned active snapshot, and checks whether the Wizards rules hub references a new Comprehensive Rules PDF. The Commander page ETag is informational only because it varies with deployments. The output is an ephemeral review artifact, not automatic source ingestion or a verified rules change. This **remains open** until broader sources, release-time verification and curated update decisions are covered.
+  - v2.60 dry-run correction: a weekly monitor **already exists**; it is not an unscheduled engineering gap. The ongoing coverage limits and mandatory human review remain explicit.
 - [ ] Rebuild and reconcile the Phase 1B set catalog and bidirectional printing lookups when new sets or printings appear, retaining historical snapshots.
   - v2.43: `scripts/audit_phase1b_snapshot_gates.py` selects exactly the SHA-pinned 2026-10-29 `default-cards` filename from the committed manifest. A missing archive now returns `MTG_PINNED_BULK_MISSING` with its expected SHA and source URL rather than `IndexError` or an accidental newest-bulk substitution. The complete source-level gate is still blocked in a clean clone until those exact bytes are available; the saved dated report stays qualified.
 - [ ] Update snapshot manifests with actual download bytes and stable hashes. *(Partial, v2.41, Batch 13, [#906](https://github.com/corymstover/GrokBotMTGCompanion/pull/906): the active Companion manifest (`snap-20261029-40848334824-1`) is now committed at `data/scryfall_snapshots/`. `scripts/audit_snapshot_manifests.py` checks that all 3 files' compressed bytes and SHA-256 match the GitHub release asset sizes and the local copies. Stays open: the 2026-10-28 `data/printing_lore/manifest.json` baseline has a hash but no bytes, and cannot get them while L151's original file is unavailable.)*
 - [ ] Maintain an honest progress tracker: completed, under review, blocked, and not started.
   - v2.43 partial: `scripts/update_multiverse_progress_tracker.py` now generates/checks a *current* 2026-10-30 status block at the top of `Progress Tracker.md` from the live Master Workflow, graph, enrichment and recount. Old cycle-36 data remains explicitly historical. The full task-state dashboard (under review/blocked/not started for every item) is still to be built, so this high-level box stays unchecked.
+  - v2.60: the current tracker adds a generated four-state **14-gate foundation-release** triage from the dry-run's typed blockers. This does not pretend to classify all 137 engineering tasks or accept continuing maintenance; the broader all-item dashboard remains an open improvement.
 - [ ] Define an MTG Multiverse Companion milestone release based on verified features, not an arbitrary percentage of all lore. *(v2.42, Batch 14, [#911](https://github.com/corymstover/GrokBotMTGCompanion/pull/911): certification-checklist dry run `scripts/certification_dry_run.py` → `data/release/certification_dry_run_2026-10-30.json` / `research/CERTIFICATION_DRY_RUN_2026-10-30.md` lists the typed blockers for each release criterion and Phase 8 item (OWNER_APPROVAL 3, OWNER_DECISION 5, EXTERNAL_CI 3, MISSING_SOURCE 2, ENGINEERING_OPEN 4, ONGOING 4). It certifies nothing; accepting the definition is the owner's call.)*
   - Partial (2026-10-30): `scripts/release_readiness.py` ([PR #830](https://github.com/corymstover/GrokBotMTGCompanion/pull/830)) scores each written criterion from committed evidence. Current verdict: NOT_RELEASE_READY.
+  - v2.60: a source-graded, 12-case knowledge-only review packet is now generated and CI-gated; the dry-run distinguishes this **completed engineering packet** from pending exact-head CI and Cory's foundation-scope decision. No release checklist acceptance is inferred.
 - [ ] Treat continual future MTG releases as an ongoing maintenance track rather than a permanently finishable backlog.
 
-## Immediate execution queue — v2.58 FOUNDATION FIRST (2026-10-30)
+## Immediate execution queue — v2.60 FOUNDATION FIRST (2026-10-30)
 
 1. **Phase 4 — Verified in-universe chronology:** expand the source-quoted BEFORE/AFTER/UNKNOWN event order, resolve high-value L244 gaps where primary evidence exists, and retain unknown/disputed ordering instead of inventing total dates. Keep release chronology separate.
 2. **Phases 2/5 — Comprehensive history:** systematically deepen thin plane dossiers, major factions, characters, wars, artifacts and cross-plane consequences; record both coverage and missing primary sources. Currently thin registered planes remain a priority, not a census of all planes; regenerate the exact count from the dossier rather than treating this prose as a live counter.

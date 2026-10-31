@@ -7,6 +7,7 @@ Use --check in CI. A checked engineering item is never called approved/certified
 from __future__ import annotations
 
 import argparse
+from collections import Counter
 import json
 import re
 from pathlib import Path
@@ -19,6 +20,32 @@ END = "<!-- MULTIVERSE-CURRENT:END -->"
 
 def load(rel: str) -> dict:
     return json.loads((ROOT / rel).read_text(encoding="utf-8"))
+
+
+def gate_triage() -> tuple[list[dict], dict[str, int]]:
+    """Truthful four-state triage of release/Phase8 gates, not all checklist items.
+
+    The source is the typed certification dry run, never inferred from a loose
+    substring in a checklist item's prose or an arbitrary completion target.
+    """
+    from certification_dry_run import dry_run
+    audit = dry_run()
+    if audit['problems']:
+        raise ValueError('invalid certification blocker audit: ' + str(audit['problems']))
+    rows = []
+    for r in audit['release_definition'] + audit['phase8']:
+        kinds = sorted({b['kind'] for b in r['blockers']})
+        if r['workflow_checked']:
+            status = 'Completed'
+        elif any(k in kinds for k in ('MISSING_SOURCE', 'ENGINEERING_OPEN')):
+            status = 'Blocked'
+        elif kinds:
+            status = 'Under review'
+        else:
+            status = 'Not started'
+        rows.append({'id': r.get('id') or r['item'], 'status': status, 'blocker_kinds': kinds})
+    counts = Counter(r['status'] for r in rows)
+    return rows, {k: counts[k] for k in ('Completed', 'Under review', 'Blocked', 'Not started')}
 
 
 def build() -> str:
@@ -37,6 +64,17 @@ def build() -> str:
     assert len(enrichment) == 5362, "unexpected priority-enrichment count; review the tracker generator"
     current_claims = sum(graph["claims_by_status"].values())
     assert coverage["claims"] == current_claims, "story inventory and graph claim counts diverged"
+    gate_rows, gate_counts = gate_triage()
+    gate_lines = [
+        '| Gate | Triage | Remaining blocker types |',
+        '| --- | --- | --- |',
+    ]
+    for row in gate_rows:
+        title = row['id']
+        if len(title) > 65:
+            title = title[:62].rstrip() + '…'
+        gate_lines.append(f'| {title} | {row["status"]} | {", ".join(row["blocker_kinds"]) or "none"} |')
+    gate_report = '\n'.join(gate_lines)
     return f"""{START}
 ## MTG Multiverse Companion — current engineering checkpoint (2026-10-30)
 
@@ -56,6 +94,16 @@ they are not the active Phase 1–8 completion counters.
 | Parked graph-built Commander pilots | **3 unapproved** | Preserved, not a knowledge-foundation release gate. |
 | Foundation-release readiness | **{readiness}** | Research, owner foundation review, external checks and engineering remain. |
 | Official source watch | **Weekly review-only workflow** | Story index, Scryfall metadata and rules PDF candidates; not automatic lore/rules updates. |
+
+**First-release and Phase 8 gate triage (14 gates, separate from the 137-item engineering checklist):**
+Completed **{gate_counts['Completed']}** · Under review **{gate_counts['Under review']}** ·
+Blocked **{gate_counts['Blocked']}** · Not started **{gate_counts['Not started']}**.
+"Under review" does **not** mean approved; it includes pending owner decisions,
+exact-commit CI and ongoing maintenance. "Blocked" means a documented missing
+source or remaining engineering work. The complete typed evidence is in
+`data/release/certification_dry_run_2026-10-30.json`.
+
+{gate_report}
 
 **Priority next steps:** verify current-era Q&A answers; close only evidence-backed graph
 identity and chronology gaps; expand comprehensive plane, character, faction and cross-plane
