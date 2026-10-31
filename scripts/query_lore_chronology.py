@@ -221,7 +221,8 @@ def compare_across_datasets(legacy, local, left, right):
             return native  # no new cross-ledger proof: retain the native UNKNOWN and its scope
         return {'result':result,'left':left,'right':right,'proof':path,
                 'confidence':'QUALIFIED_CITED_CROSS_LEDGER_SEQUENCE' if path else 'UNRESOLVED',
-                'limitation':('Only the seven explicitly source-corroborated event identities bridge the ledgers; '
+                'limitation':(f'Only the {len(local.get("legacy_bridges", []))} explicitly source-corroborated '
+                              'event identities bridge the ledgers; '
                               'these do not establish a global chronology, an AR date or any unstated comparisons.')
                 if path else ('No cited cross-ledger SAME_EVENT bridge plus strict BEFORE chain connects '
                               'these events. UNKNOWN does not mean simultaneous or unrelated.')}

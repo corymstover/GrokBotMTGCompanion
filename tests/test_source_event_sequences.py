@@ -23,8 +23,8 @@ class SourceEventSequencesTests(unittest.TestCase):
         sig=d.pop('content_sha256')
         self.assertEqual(sig,S.digest(d))
         self.assertEqual(self.current['counts'],{
-            'strands':9,'events':88,'strict_edges':71,'non_ordering_relations':3,
-            'ordered_pairs':314,'total_pairs':3828,'verified_legacy_bridges':7,
+            'strands':11,'events':107,'strict_edges':87,'non_ordering_relations':3,
+            'ordered_pairs':354,'total_pairs':5671,'verified_legacy_bridges':8,
         })
 
     def test_source_proofs_have_original_claim_ids_and_digest(self):
@@ -34,10 +34,13 @@ class SourceEventSequencesTests(unittest.TestCase):
             self.assertTrue(e['source_url'].startswith('https://magic.wizards.com/'))
             self.assertEqual(e['quote_sha256'],hashlib.sha256(S.canon(e['quote']).encode()).hexdigest())
             self.assertNotIn('ar_year',e)
-        self.assertEqual(len(self.current['legacy_bridges']),7)
+        self.assertEqual(len(self.current['legacy_bridges']),8)
         for e in self.current['legacy_bridges']:
             self.assertEqual(e['relation'],'SAME_EVENT')
-            self.assertEqual(e['source_url'],'https://magic.wizards.com/en/news/feature/known-mutliverse-2008-03-19')
+            self.assertIn(e['source_url'], {
+                'https://magic.wizards.com/en/news/feature/known-mutliverse-2008-03-19',
+                'https://magic.wizards.com/en/story/karn-planeswalker',
+            })
             self.assertEqual(e['quote_sha256'],hashlib.sha256(S.canon(e['quote']).encode()).hexdigest())
 
     def test_historical_kamigawa_order_is_qualified(self):

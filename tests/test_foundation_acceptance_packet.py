@@ -77,6 +77,15 @@ class FoundationPacketTests(unittest.TestCase):
             self.assertEqual(cases[key]['chronology_relation'], 'UNKNOWN')
             self.assertEqual(cases[key]['sources'], [])
             self.assertIn('NO_CITED_CHRONOLOGY_PATH', cases[key]['flags'])
+        for key in ('brothers_war_to_weatherlight', 'dominarian_damage_to_kamigawa',
+                    'karn_origin_identity_bridge'):
+            self.assertEqual(cases[key]['chronology_relation'], 'BEFORE')
+            self.assertTrue(cases[key]['sources'])
+        self.assertIn('CROSS_LEDGER_SOURCE_BRIDGED', cases['karn_origin_identity_bridge']['flags'])
+        for key in ('ice_age_urza_discovery_order_unknown', 'kamigawa_mending_order_unknown',
+                    'karn_2008_profile_equivalence_unknown'):
+            self.assertEqual(cases[key]['chronology_relation'], 'UNKNOWN')
+            self.assertEqual(cases[key]['sources'], [])
         self.assertTrue(any('media.wizards.com' in url for url in cases['commander_identity']['sources']))
         for r in cases.values():
             self.assertEqual(len(r['response_sha256']), 64)

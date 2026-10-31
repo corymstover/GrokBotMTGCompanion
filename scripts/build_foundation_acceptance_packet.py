@@ -74,6 +74,24 @@ QA_CASES = [
     ('mirrodin_cross_account_unknown',
      'Did H:karn_restores_order happen before P:mirrans_overwhelmed?',
      'ask->chronology', 'QUALIFIED'),
+    ('brothers_war_to_weatherlight',
+     'Did R:brothers_war happen before R:weatherlight_thwarts_phyrexia?',
+     'ask->chronology', 'QUALIFIED'),
+    ('dominarian_damage_to_kamigawa',
+     'Did R:dominarian_temporal_fractures happen before R:kami_war_begins?',
+     'ask->chronology', 'QUALIFIED'),
+    ('karn_origin_identity_bridge',
+     'Did C:karn_created happen before U:world_phyrexian_corruption?',
+     'ask->chronology', 'QUALIFIED'),
+    ('ice_age_urza_discovery_order_unknown',
+     'Did R:dominarian_ice_age happen before R:urza_discovers_phyrexia?',
+     'ask->chronology', 'QUALIFIED'),
+    ('kamigawa_mending_order_unknown',
+     'Did R:kami_war_begins happen before R:planeswalkers_mend_rifts?',
+     'ask->chronology', 'QUALIFIED'),
+    ('karn_2008_profile_equivalence_unknown',
+     'Did H:karn_creates_argentum happen before U:karn_creates_world?',
+     'ask->chronology', 'QUALIFIED'),
     ('history_eric', 'What is the history of Eric Kenrith?', 'ask->entity_history', 'QUALIFIED'),
     ('history_hazel', 'What is the history of Hazel Kenrith?', 'ask->entity_history', 'QUALIFIED'),
     ('history_lyra', 'What is the history of Lyra Dawnbringer?', 'ask->entity_history', 'QUALIFIED'),
@@ -165,6 +183,20 @@ def qa_cases() -> list[dict]:
                 r['result']['relation'] != 'UNKNOWN' or r['sources'] or
                 'NO_CITED_CHRONOLOGY_PATH' not in r['flags']):
             raise ValueError(f'Unproven historic sequence falsely answered for {key}')
+        if key in {'brothers_war_to_weatherlight','dominarian_damage_to_kamigawa'} and (
+                r['result']['relation'] != 'BEFORE' or not r['result']['proof'] or not r['sources']):
+            raise ValueError(f'Source-backed cross-plane and long-history path lost: {key}')
+        if key == 'karn_origin_identity_bridge' and (
+                r['result']['relation'] != 'BEFORE' or
+                'CROSS_LEDGER_SOURCE_BRIDGED' not in r['flags'] or
+                'https://magic.wizards.com/en/story/karn-planeswalker' not in r['sources']):
+            raise ValueError('Karn origin chronology lacks explicit sourced same-event identity')
+        if key in {'ice_age_urza_discovery_order_unknown',
+                   'kamigawa_mending_order_unknown',
+                   'karn_2008_profile_equivalence_unknown'} and (
+                r['result']['relation'] != 'UNKNOWN' or r['sources'] or
+                'NO_CITED_CHRONOLOGY_PATH' not in r['flags']):
+            raise ValueError(f'Unsupported broad-history ordering was falsely inferred: {key}')
         if key in {'muraganda_magic_before_collapse','meditation_early_conflict_order'} and (
                 r['result']['relation'] != 'BEFORE' or not r['result']['proof'] or not r['sources']):
             raise ValueError(f'New source-local order lacks cited path for {key}')

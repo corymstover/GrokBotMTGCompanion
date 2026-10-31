@@ -2,12 +2,22 @@
   "schema": "source-event-sequences/v1",
   "status": "PRELIMINARY_RESEARCH_NOT_OWNER_APPROVED",
   "date": "2026-10-30",
-  "scope": "Eight bounded, individually sourced chronology strands. No automatic cross-strand alignment, no absolute AR date conversion and no assertions that a narrated legend is historical fact. The Thran-to-invasion strand uses the 2008 Wizards historical retrospective and does not decide the order between Old Phyrexia's decimation and Yawgmoth's destruction. The New Phyrexia strand describes early Mirrodin conquest, not post-March of the Machine politics. The Meditation Realm strand is Ugin's remembered early conflict, not a statement about the Realm's later state after Tarkir: Dragonstorm.",
+  "scope": "Eleven bounded, individually sourced chronology strands. No automatic cross-strand alignment, no absolute AR date conversion and no assertions that a narrated legend is historical fact. The Thran-to-invasion strand uses the 2008 Wizards historical retrospective and does not decide the order between Old Phyrexia's decimation and Yawgmoth's destruction. The Dominaria-to-Kamigawa fracture sequence quotes explicit cross-plane cause, but does not globally align all plane eras. The New Phyrexia strand describes early Mirrodin conquest, not post-March of the Machine politics. The Meditation Realm strand is Ugin's remembered early conflict, not a statement about the Realm's later state after Tarkir: Dragonstorm.",
   "sources": {
     "blb_guide1": {
       "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-bloomburrow-part-1",
       "title": "Planeswalker's Guide to Bloomburrow, Part 1",
       "published": "2024-07-11"
+    },
+    "c_dominaria_plane": {
+      "url": "https://magic.wizards.com/en/story/dominaria-plane",
+      "title": "Dominaria (plane profile)",
+      "published": null
+    },
+    "c_karn_profile": {
+      "url": "https://magic.wizards.com/en/story/karn-planeswalker",
+      "title": "Karn (Planeswalker profile)",
+      "published": null
     },
     "dsk_guide": {
       "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-duskmourn",
@@ -41,13 +51,13 @@
     }
   },
   "counts": {
-    "strands": 9,
-    "events": 88,
-    "strict_edges": 71,
+    "strands": 11,
+    "events": 107,
+    "strict_edges": 87,
     "non_ordering_relations": 3,
-    "ordered_pairs": 314,
-    "total_pairs": 3828,
-    "verified_legacy_bridges": 7
+    "ordered_pairs": 354,
+    "total_pairs": 5671,
+    "verified_legacy_bridges": 8
   },
   "strands": [
     {
@@ -120,6 +130,24 @@
       "limitation": "This is a dated Wizards historical account of original Mirrodin, not a proof that its unnamed contagion matches every later Phyrexian-oil retelling. No SAME_EVENT link to the New Phyrexia P strand, absolute year, or order against the first Dominarian invasion is inferred.",
       "events": 7,
       "strict_edges": 6,
+      "non_ordering_relations": 0
+    },
+    {
+      "id": "R",
+      "title": "Dominaria's Brothers' War, first Phyrexian threat, Mending and Kamigawa's weakened veil",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "limitation": "This is a high-level historical synthesis of the official Dominaria plane profile plus the 2008 Kamigawa explanation. It does not establish strict timing between the invasion, the onset of Dominaria's temporal fractures, the Mending and the Kami War beyond the explicitly quoted causal links. The Ice Age and Urza's discovery of Phyrexia are both placed after the Brothers' War began, not ordered against each other.",
+      "events": 14,
+      "strict_edges": 12,
+      "non_ordering_relations": 0
+    },
+    {
+      "id": "U",
+      "title": "Karn's Urza-built origin, independent purpose and Phyrexian-corrupted creation",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "limitation": "Karn's official profile is an abbreviated, profile-era historical account. The created plane's corruption is later than its creation, but the text does not prove when a specific Mirrodin/Phyrexian infection occurred or resolve the 2008 unnamed-contagion retelling. Only Karn's initial creation has an independent source-corroborated SAME_EVENT bridge to the legacy ledger.",
+      "events": 5,
+      "strict_edges": 4,
       "non_ordering_relations": 0
     },
     {
@@ -625,6 +653,104 @@
       ]
     },
     {
+      "id": "R:brothers_war",
+      "strand": "R",
+      "label": "Urza and Mishra wage the Brothers' War",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": []
+    },
+    {
+      "id": "R:dominaria_rebuilds",
+      "strand": "R",
+      "label": "Dominaria rebuilds cultures after generations of peace",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": []
+    },
+    {
+      "id": "R:dominarian_ice_age",
+      "strand": "R",
+      "label": "The Brothers' War plunges Dominaria into an ice age",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": []
+    },
+    {
+      "id": "R:dominarian_temporal_fractures",
+      "strand": "R",
+      "label": "Temporal-planar fractures destabilize Dominaria",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": []
+    },
+    {
+      "id": "R:fracture_damage_spreads",
+      "strand": "R",
+      "label": "Damage to Dominaria's time and space spreads to other planes",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": []
+    },
+    {
+      "id": "R:kami_war_begins",
+      "strand": "R",
+      "label": "The Kami War begins after Konda's theft",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": []
+    },
+    {
+      "id": "R:kamigawa_veil_weakened",
+      "strand": "R",
+      "label": "Dominaria's planar rifts weaken the veil between Kamigawa's realms",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": []
+    },
+    {
+      "id": "R:koilos_powerstones_found",
+      "strand": "R",
+      "label": "Urza and Mishra discover powerstones in the Caves of Koilos",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": []
+    },
+    {
+      "id": "R:konda_steals_kami",
+      "strand": "R",
+      "label": "Konda steals a kami from Kamigawa's spirit realm",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": []
+    },
+    {
+      "id": "R:phyrexian_threat",
+      "strand": "R",
+      "label": "Old Phyrexia threatens Dominaria with invasion",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": []
+    },
+    {
+      "id": "R:planeswalkers_mend_rifts",
+      "strand": "R",
+      "label": "Planeswalkers intervene to mend the planar rifts",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": []
+    },
+    {
+      "id": "R:urza_discovers_phyrexia",
+      "strand": "R",
+      "label": "Urza discovers the dark plane of Phyrexia at the war's end",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": []
+    },
+    {
+      "id": "R:urza_mishra_born",
+      "strand": "R",
+      "label": "The brothers Urza and Mishra are born on Dominaria",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": []
+    },
+    {
+      "id": "R:weatherlight_thwarts_phyrexia",
+      "strand": "R",
+      "label": "The Weatherlight, its crew and the Legacy help thwart Phyrexia",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": []
+    },
+    {
       "id": "S:phyrexians_attack",
       "strand": "S",
       "label": "Phyrexians find and attack Serra's Realm",
@@ -841,6 +967,41 @@
       "id": "T:yawgmoth_rules",
       "strand": "T",
       "label": "Yawgmoth becomes master of Old Phyrexia",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": []
+    },
+    {
+      "id": "U:karn_created",
+      "strand": "U",
+      "label": "Urza constructs the silver golem Karn",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": []
+    },
+    {
+      "id": "U:karn_creates_world",
+      "strand": "U",
+      "label": "Karn creates his own artificial world",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": []
+    },
+    {
+      "id": "U:karn_resolves_against_phyrexians",
+      "strand": "U",
+      "label": "Karn resolves to prevent the Phyrexians from usurping his creation",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": []
+    },
+    {
+      "id": "U:karn_seeks_own_legacy",
+      "strand": "U",
+      "label": "Karn resolves to create his own legacy after becoming a Planeswalker",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": []
+    },
+    {
+      "id": "U:world_phyrexian_corruption",
+      "strand": "U",
+      "label": "Karn's world is corrupted through Phyrexian influence",
       "certainty": "HISTORICAL_SOURCE_ACCOUNT",
       "claims": []
     },
@@ -1763,6 +1924,198 @@
       "note": "Immediately after Glissa defeats Memnarch, the source explicitly says Karn 'could then' return and restore order."
     },
     {
+      "earlier": "R:urza_mishra_born",
+      "later": "R:koilos_powerstones_found",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "c_dominaria_plane",
+      "source_url": "https://magic.wizards.com/en/story/dominaria-plane",
+      "source_title": "Dominaria (plane profile)",
+      "quote": "the birthplace of brothers Urza and Mishra, master artificers who discovered ancient stones of power in the Caves of Koilos",
+      "quote_sha256": "ca614eb77ec85819fb0a7c6be78d0b06078f4d18a383293f74dfa16186beee83",
+      "note": "The brothers must have been born before their historical discovery; no birth years are asserted."
+    },
+    {
+      "earlier": "R:koilos_powerstones_found",
+      "later": "R:brothers_war",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "c_dominaria_plane",
+      "source_url": "https://magic.wizards.com/en/story/dominaria-plane",
+      "source_title": "Dominaria (plane profile)",
+      "quote": "In their lust for power, the brothers waged a savage war against each other",
+      "quote_sha256": "e8f91d5cee5821165924e4c8b62b1b89a254f8454e6cd4439342d0148ed8ccec",
+      "note": "The official plane account first describes the powerstone discovery, then their conflict; individual disputed war participants are not decided."
+    },
+    {
+      "earlier": "R:brothers_war",
+      "later": "R:dominarian_ice_age",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "c_dominaria_plane",
+      "source_url": "https://magic.wizards.com/en/story/dominaria-plane",
+      "source_title": "Dominaria (plane profile)",
+      "quote": "waged a savage war against each other, devastating Dominaria and plunging the plane into an ice age",
+      "quote_sha256": "d85439ac3f80826052bd636b1ba8c578f625ee804bdf06b55ea1569e6a264277",
+      "note": "The war's devastation causes the ice-age onset; it does not date the Ice Age relative to Urza's Phyrexian discovery."
+    },
+    {
+      "earlier": "R:brothers_war",
+      "later": "R:urza_discovers_phyrexia",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "c_dominaria_plane",
+      "source_url": "https://magic.wizards.com/en/story/dominaria-plane",
+      "source_title": "Dominaria (plane profile)",
+      "quote": "At the end of this war, Urza discovered the dark plane of Phyrexia",
+      "quote_sha256": "90c6d1e2c288357e3b3505b5ada80f1b9beca9641aff8bb4f4fc2f1142a08ac2",
+      "note": "The source explicitly puts discovery at the war's end; no independent AR year is added."
+    },
+    {
+      "earlier": "R:urza_discovers_phyrexia",
+      "later": "R:phyrexian_threat",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "c_dominaria_plane",
+      "source_url": "https://magic.wizards.com/en/story/dominaria-plane",
+      "source_title": "Dominaria (plane profile)",
+      "quote": "Phyrexia nearly invaded Dominaria, were it not for the skyship Weatherlight and its crew.",
+      "quote_sha256": "4751176e50a5449fc154375eb238dd1a6c0a0a95c551597918d60fae881a92b4",
+      "note": "The official Dominaria synopsis narrates Phyrexia's later threat after Urza discovers the plane; it is not an independent date or a detailed battle sequence."
+    },
+    {
+      "earlier": "R:phyrexian_threat",
+      "later": "R:weatherlight_thwarts_phyrexia",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "c_dominaria_plane",
+      "source_url": "https://magic.wizards.com/en/story/dominaria-plane",
+      "source_title": "Dominaria (plane profile)",
+      "quote": "The Weatherlight, its crew of heroes, and a collection of artifacts called the Legacy (including the Planeswalker, Karn) were all instrumental in thwarting the invasion.",
+      "quote_sha256": "3d24f17072bf4da4f3d54b7c8252584e7cd41f74ffcc063a484183a3ae4b6b61",
+      "note": "The defense counters the already-present Phyrexian threat; the profile does not separately date the Rath overlay and final Yawgmoth defeat."
+    },
+    {
+      "earlier": "R:dominarian_temporal_fractures",
+      "later": "R:fracture_damage_spreads",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "c_dominaria_plane",
+      "source_url": "https://magic.wizards.com/en/story/dominaria-plane",
+      "source_title": "Dominaria (plane profile)",
+      "quote": "The damage to time and space spread outward from Dominaria and started affecting other planes.",
+      "quote_sha256": "99f0e9093cf1f6d74b22aae7cbaafdde0fefa94aec965589c05e01f3510853a7",
+      "note": "The stated outward spread follows Dominarian temporal-planar damage, without timing it against the first invasion."
+    },
+    {
+      "earlier": "R:fracture_damage_spreads",
+      "later": "R:planeswalkers_mend_rifts",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "c_dominaria_plane",
+      "source_url": "https://magic.wizards.com/en/story/dominaria-plane",
+      "source_title": "Dominaria (plane profile)",
+      "quote": "A handful of powerful Planeswalkers intervened to mend the rifts, thus restabilizing all the planes.",
+      "quote_sha256": "f9ddcdfcc088610bc5d2f83e3cbb1edc4b0d368d22e37a87460c37fba454872b",
+      "note": "The Mending is the response to the already-spread damage; no individual planeswalker is assumed to have acted in every rift."
+    },
+    {
+      "earlier": "R:planeswalkers_mend_rifts",
+      "later": "R:dominaria_rebuilds",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "c_dominaria_plane",
+      "source_url": "https://magic.wizards.com/en/story/dominaria-plane",
+      "source_title": "Dominaria (plane profile)",
+      "quote": "Today, after generations of peaceful development, much of Dominaria has managed to rebuild the cultures of its past.",
+      "quote_sha256": "fdd2ecab89fd32f0ab3ac9b42303b5156588c89186f12b427ffe7000fa5afb39",
+      "note": "The dated plane profile describes later rebuilding after its Mending account; this is a profile-era present, not a 2026 current-status guarantee."
+    },
+    {
+      "earlier": "R:dominarian_temporal_fractures",
+      "later": "R:kamigawa_veil_weakened",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "km",
+      "source_url": "https://magic.wizards.com/en/news/feature/known-mutliverse-2008-03-19",
+      "source_title": "The Known Mutliverse",
+      "quote": "The planar-temporal rifts on Dominaria weakened the veil between Kamigawa's two halves",
+      "quote_sha256": "557e3978e29562f0aa4c0ee883cddfd89d75e9628ef021e86665b95720c5c1e1",
+      "note": "This is an explicit causal effect of Dominaria's rifts across planes, not a claim that every Dominarian catastrophe affected Kamigawa."
+    },
+    {
+      "earlier": "R:kamigawa_veil_weakened",
+      "later": "R:konda_steals_kami",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "km",
+      "source_url": "https://magic.wizards.com/en/news/feature/known-mutliverse-2008-03-19",
+      "source_title": "The Known Mutliverse",
+      "quote": "The planar-temporal rifts on Dominaria weakened the veil between Kamigawa's two halves",
+      "quote_sha256": "557e3978e29562f0aa4c0ee883cddfd89d75e9628ef021e86665b95720c5c1e1",
+      "note": "The weakening of the veil enabled Konda's subsequent theft, as explicitly described by the same source; exact overlap is not measured."
+    },
+    {
+      "earlier": "R:konda_steals_kami",
+      "later": "R:kami_war_begins",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "km",
+      "source_url": "https://magic.wizards.com/en/news/feature/known-mutliverse-2008-03-19",
+      "source_title": "The Known Mutliverse",
+      "quote": "This began the Kami War, in which the denizens of Kamigawa battled against their own 'gods.'",
+      "quote_sha256": "71534d166d0b6eb74614fcbbec2abc7d7788d522d4e40023fadc810c69f1804b",
+      "note": "The 'This' refers to Konda's theft in the immediately preceding sentence, not to unrelated later Kamigawa wars."
+    },
+    {
+      "earlier": "U:karn_created",
+      "later": "U:karn_seeks_own_legacy",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "c_karn_profile",
+      "source_url": "https://magic.wizards.com/en/story/karn-planeswalker",
+      "source_title": "Karn (Planeswalker profile)",
+      "quote": "After finding true friends, saving the Multiverse, and becoming a Planeswalker, Karn set off to create his own legacy.",
+      "quote_sha256": "a31de6fb6b526e4b893850bfaf5c46d885b6f740e0e6b203e308336292a3b496",
+      "note": "Karn's earlier construction by Urza precedes his later independent Planeswalker legacy; this does not date the friendship or Multiverse rescue separately."
+    },
+    {
+      "earlier": "U:karn_seeks_own_legacy",
+      "later": "U:karn_creates_world",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "c_karn_profile",
+      "source_url": "https://magic.wizards.com/en/story/karn-planeswalker",
+      "source_title": "Karn (Planeswalker profile)",
+      "quote": "He created his own world, becoming the “father” to an entire plane.",
+      "quote_sha256": "a13d1d0330c4e035975cdbf29849867f081053f6bdafd207b1cc7cd6cd255a7e",
+      "note": "The world realizes Karn's stated intent to create his own legacy, without assigning a creation year."
+    },
+    {
+      "earlier": "U:karn_creates_world",
+      "later": "U:world_phyrexian_corruption",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "c_karn_profile",
+      "source_url": "https://magic.wizards.com/en/story/karn-planeswalker",
+      "source_title": "Karn (Planeswalker profile)",
+      "quote": "Tragically, and through his own accidental actions, that world became twisted by the influence of Phyrexia.",
+      "quote_sha256": "c2fc15a1e4d4298beb695c35e38e99055f3d5b58c6ffa19240bf61132cd51a7b",
+      "note": "The profile identifies corruption of an already-existing world; no exact mechanism is invented."
+    },
+    {
+      "earlier": "U:world_phyrexian_corruption",
+      "later": "U:karn_resolves_against_phyrexians",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "c_karn_profile",
+      "source_url": "https://magic.wizards.com/en/story/karn-planeswalker",
+      "source_title": "Karn (Planeswalker profile)",
+      "quote": "Determined to prevent the Phyrexians from usurping his legacy, Karn will stop at nothing until they are destroyed.",
+      "quote_sha256": "b4fbc6d7a0d11fa35cc84a22becfef4305a6bef737338604c619005cbee09fb1",
+      "note": "This is Karn's stated resolve, NOT a claim that the Phyrexians have already been destroyed."
+    },
+    {
       "earlier": "S:serra_creates_realm",
       "later": "S:urza_flees",
       "relation": "BEFORE",
@@ -1924,6 +2277,17 @@
       "quote": "Rath's purpose was fulfilled as it was laid over Dominaria like a sickly skin",
       "quote_sha256": "2e93b0842aa8dca6062489e34013bd6c4aaa2387897785b444e0c8407f92f6ae",
       "note": "This is the same Rathi overlay; the onset of invasion is a related, near-simultaneous but distinct event and is not bridged."
+    },
+    {
+      "legacy": "C:karn_created",
+      "local": "U:karn_created",
+      "relation": "SAME_EVENT",
+      "source_id": "c_karn_profile",
+      "source_url": "https://magic.wizards.com/en/story/karn-planeswalker",
+      "source_title": "Karn (Planeswalker profile)",
+      "quote": "Created over 1200 years ago by the Planeswalker Urza",
+      "quote_sha256": "5be191aa79a7ca783e9af5e29a4c5a7ad282c7e51b476c8d9b00913810f3a60f",
+      "note": "Both refer to the single origin of Karn as Urza's constructed silver golem, on the same official profile. This does not equate the entire older Mirrodin/Phyrexian-oil account with the 2008 mysterious-contagion account."
     }
   ],
   "precedes": {
@@ -2118,6 +2482,60 @@
       "P:venser_restores_karn"
     ],
     "P:venser_restores_karn": [],
+    "R:brothers_war": [
+      "R:dominarian_ice_age",
+      "R:phyrexian_threat",
+      "R:urza_discovers_phyrexia",
+      "R:weatherlight_thwarts_phyrexia"
+    ],
+    "R:dominaria_rebuilds": [],
+    "R:dominarian_ice_age": [],
+    "R:dominarian_temporal_fractures": [
+      "R:dominaria_rebuilds",
+      "R:fracture_damage_spreads",
+      "R:kami_war_begins",
+      "R:kamigawa_veil_weakened",
+      "R:konda_steals_kami",
+      "R:planeswalkers_mend_rifts"
+    ],
+    "R:fracture_damage_spreads": [
+      "R:dominaria_rebuilds",
+      "R:planeswalkers_mend_rifts"
+    ],
+    "R:kami_war_begins": [],
+    "R:kamigawa_veil_weakened": [
+      "R:kami_war_begins",
+      "R:konda_steals_kami"
+    ],
+    "R:koilos_powerstones_found": [
+      "R:brothers_war",
+      "R:dominarian_ice_age",
+      "R:phyrexian_threat",
+      "R:urza_discovers_phyrexia",
+      "R:weatherlight_thwarts_phyrexia"
+    ],
+    "R:konda_steals_kami": [
+      "R:kami_war_begins"
+    ],
+    "R:phyrexian_threat": [
+      "R:weatherlight_thwarts_phyrexia"
+    ],
+    "R:planeswalkers_mend_rifts": [
+      "R:dominaria_rebuilds"
+    ],
+    "R:urza_discovers_phyrexia": [
+      "R:phyrexian_threat",
+      "R:weatherlight_thwarts_phyrexia"
+    ],
+    "R:urza_mishra_born": [
+      "R:brothers_war",
+      "R:dominarian_ice_age",
+      "R:koilos_powerstones_found",
+      "R:phyrexian_threat",
+      "R:urza_discovers_phyrexia",
+      "R:weatherlight_thwarts_phyrexia"
+    ],
+    "R:weatherlight_thwarts_phyrexia": [],
     "S:phyrexians_attack": [
       "S:radiant_assumes_rule",
       "S:radiant_paranoid",
@@ -2364,6 +2782,25 @@
       "T:yawgmoth_plots",
       "T:yawgmoth_power_grows"
     ],
+    "U:karn_created": [
+      "U:karn_creates_world",
+      "U:karn_resolves_against_phyrexians",
+      "U:karn_seeks_own_legacy",
+      "U:world_phyrexian_corruption"
+    ],
+    "U:karn_creates_world": [
+      "U:karn_resolves_against_phyrexians",
+      "U:world_phyrexian_corruption"
+    ],
+    "U:karn_resolves_against_phyrexians": [],
+    "U:karn_seeks_own_legacy": [
+      "U:karn_creates_world",
+      "U:karn_resolves_against_phyrexians",
+      "U:world_phyrexian_corruption"
+    ],
+    "U:world_phyrexian_corruption": [
+      "U:karn_resolves_against_phyrexians"
+    ],
     "V:animalfolk_shelter": [
       "V:holly_pact",
       "V:war_of_cinders",
@@ -2402,10 +2839,12 @@
     "Thran to first invasion: the 2008 historical retrospective does not establish a strict order between the soul-bomb decimation of Old Phyrexia and the Weatherlight Legacy destroying Yawgmoth.",
     "The Weatherlight leaves Mercadia to defend Dominaria after its strike, but the 2008 account does not strictly date that departure against the later Rath overlay.",
     "Original Mirrodin history in the 2008 account is an independent H strand: its mysterious contagion is not automatically identified with later oil accounts or assigned a relative order against the New Phyrexia P strand.",
+    "The official Dominaria synopsis and 2008 Kamigawa explanation establish a Dominarian-rift effect on Kamigawa, but not the strict order of the Kami War, the Mending and the Phyrexian invasion.",
+    "Karn's creation is independently source-bridged to the legacy ledger; his later profile-era motives and world corruption do not automatically establish a SAME_EVENT link to the separate 2008 Mirrodin contagion account.",
     "Serra's Realm: the retrospective does not order the end of Radiant's administration relative to Urza's final powerstone extraction, even though both follow Serra's departure.",
     "A DURING_OR_AFTER_START relation is not a strict BEFORE edge and never participates in transitive ordering.",
     "Unknown original plane names, absolute AR years and missing historical events are not supplied.",
     "This source-local supplement does not replace the original Packs A–C chronology or certify L244."
   ],
-  "content_sha256": "d71fbffbf5faa02dd694d981e09768ed0f81ab9fa52a5bd63bcb177e55a22cc6"
+  "content_sha256": "06ae06218473edbd7357a9a753a6367484fbbe199314169498d997b2e1648877"
 }

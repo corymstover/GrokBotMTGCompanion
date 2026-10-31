@@ -21,7 +21,7 @@
     },
     "source_local_chronology": {
       "path": "data/lore_research/source_event_sequences_2026-10-30.json",
-      "sha256": "9ff717a8a5e5767bc3872a145cacdbf10259e89b3e87e6b506db9c7d5cfae473"
+      "sha256": "182f9ee41f65e8b61472bc3e541a4204e003977b95aa57e88d6dfb034d78013f"
     },
     "story_coverage": {
       "path": "data/lore_research/story_coverage_inventory_2026-10-30.json",
@@ -56,9 +56,9 @@
     "legacy_unresolved_pairs": 2897,
     "legacy_disconnected_components": 13,
     "legacy_cycles": 0,
-    "source_local_events": 88,
-    "source_local_ordered_pairs": 314,
-    "source_local_total_pairs": 3828,
+    "source_local_events": 107,
+    "source_local_ordered_pairs": 354,
+    "source_local_total_pairs": 5671,
     "not_additive": "Legacy and source-local data are separately scoped; their pairs may not be summed as one chronology.",
     "l244_complete": false
   },
@@ -533,6 +533,100 @@
       ],
       "sources": [],
       "response_sha256": "d26006766596cbdcd78a2063afda1e58a9b3e9f65182ba25c33152116a1419e7",
+      "direct_claims": null,
+      "chronology_relation": "UNKNOWN",
+      "known_limitations": []
+    },
+    {
+      "id": "brothers_war_to_weatherlight",
+      "question": "Did R:brothers_war happen before R:weatherlight_thwarts_phyrexia?",
+      "route": "ask->chronology",
+      "confidence": "QUALIFIED",
+      "flags": [
+        "PARTIAL_IN_UNIVERSE_CHRONOLOGY"
+      ],
+      "sources": [
+        "https://magic.wizards.com/en/story/dominaria-plane"
+      ],
+      "response_sha256": "8ea1ee5afc09ef9c3e91b2273a51e10b09560ed36225a0ad6f158f0c685e6202",
+      "direct_claims": null,
+      "chronology_relation": "BEFORE",
+      "known_limitations": []
+    },
+    {
+      "id": "dominarian_damage_to_kamigawa",
+      "question": "Did R:dominarian_temporal_fractures happen before R:kami_war_begins?",
+      "route": "ask->chronology",
+      "confidence": "QUALIFIED",
+      "flags": [
+        "PARTIAL_IN_UNIVERSE_CHRONOLOGY"
+      ],
+      "sources": [
+        "https://magic.wizards.com/en/news/feature/known-mutliverse-2008-03-19"
+      ],
+      "response_sha256": "3b9e14b9bc5575db925eee146e4a883656f258df467fe1d248b4c0d4836ae693",
+      "direct_claims": null,
+      "chronology_relation": "BEFORE",
+      "known_limitations": []
+    },
+    {
+      "id": "karn_origin_identity_bridge",
+      "question": "Did C:karn_created happen before U:world_phyrexian_corruption?",
+      "route": "ask->chronology",
+      "confidence": "QUALIFIED",
+      "flags": [
+        "PARTIAL_IN_UNIVERSE_CHRONOLOGY",
+        "CROSS_LEDGER_SOURCE_BRIDGED"
+      ],
+      "sources": [
+        "https://magic.wizards.com/en/story/karn-planeswalker"
+      ],
+      "response_sha256": "af39d2b1e8af0b2b7f95ad32b070e2cae3cf186571fa1c81ac3b5870ecd7fe34",
+      "direct_claims": null,
+      "chronology_relation": "BEFORE",
+      "known_limitations": []
+    },
+    {
+      "id": "ice_age_urza_discovery_order_unknown",
+      "question": "Did R:dominarian_ice_age happen before R:urza_discovers_phyrexia?",
+      "route": "ask->chronology",
+      "confidence": "QUALIFIED",
+      "flags": [
+        "PARTIAL_IN_UNIVERSE_CHRONOLOGY",
+        "NO_CITED_CHRONOLOGY_PATH"
+      ],
+      "sources": [],
+      "response_sha256": "f78205a7716acedbc323646c31aea78bc8dddae9b42d075f440974256c0d0235",
+      "direct_claims": null,
+      "chronology_relation": "UNKNOWN",
+      "known_limitations": []
+    },
+    {
+      "id": "kamigawa_mending_order_unknown",
+      "question": "Did R:kami_war_begins happen before R:planeswalkers_mend_rifts?",
+      "route": "ask->chronology",
+      "confidence": "QUALIFIED",
+      "flags": [
+        "PARTIAL_IN_UNIVERSE_CHRONOLOGY",
+        "NO_CITED_CHRONOLOGY_PATH"
+      ],
+      "sources": [],
+      "response_sha256": "1401fa45bfbc312f0d91ba58976935628fee8458cc41cf8e57266d5c60721163",
+      "direct_claims": null,
+      "chronology_relation": "UNKNOWN",
+      "known_limitations": []
+    },
+    {
+      "id": "karn_2008_profile_equivalence_unknown",
+      "question": "Did H:karn_creates_argentum happen before U:karn_creates_world?",
+      "route": "ask->chronology",
+      "confidence": "QUALIFIED",
+      "flags": [
+        "PARTIAL_IN_UNIVERSE_CHRONOLOGY",
+        "NO_CITED_CHRONOLOGY_PATH"
+      ],
+      "sources": [],
+      "response_sha256": "fd275bb4c1e01e87b57dec51fdb1e4218fcd9e50b30f621bf22f46eb30dbcaad",
       "direct_claims": null,
       "chronology_relation": "UNKNOWN",
       "known_limitations": []
@@ -1212,7 +1306,7 @@
       "sources": [
         "https://magic.wizards.com/en/news/feature/known-mutliverse-2008-03-19"
       ],
-      "response_sha256": "386e6a8d9a4ad012625550e486907098176abf42a125789ed34f08a68cf55bac",
+      "response_sha256": "e8589757ea66aea14bf1dd5366b77c4dd746c2fa4e35a74e00335ebe935ce0e1",
       "direct_claims": null,
       "chronology_relation": "BEFORE",
       "known_limitations": []
@@ -1229,7 +1323,7 @@
       "sources": [
         "https://magic.wizards.com/en/news/feature/known-mutliverse-2008-03-19"
       ],
-      "response_sha256": "cae1c075dbdc6115ea5d96bb9aa1194b5f1f2f59430c56d23f428489ffa5de3d",
+      "response_sha256": "bba81098052fdb113445c5d021cfcd924bb531c6991b3b7e06ee698025933e43",
       "direct_claims": null,
       "chronology_relation": "SAME_EVENT",
       "known_limitations": []
@@ -1326,5 +1420,5 @@
     "python3 scripts/update_multiverse_progress_tracker.py --check"
   ],
   "owner_review_status": "PENDING_NOT_REQUESTED_UNTIL_ENGINEERING_EVIDENCE_AND_CI_COMPLETE",
-  "content_sha256": "0b1943b0adc36ef1b017f8a090aaa18c56aa7349f2bb51fbffef6c53344f4507"
+  "content_sha256": "821f22b9db195157ead6cd7cd776f8c3d4de6961aef7b37806bc111ab42c7a2a"
 }
