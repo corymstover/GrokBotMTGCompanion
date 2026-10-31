@@ -1187,6 +1187,9 @@ legality confirmation. Four synthetic adversarial regressions pass locally;
 the Phase 7 Action exercises them and the full real-card suite on GitHub.
 The cross-domain Phase 7 research and difficult Q&A checkboxes **remain open**;
 no broader rules simulation or current ban synchronization is claimed.
+Engineering evidence: [PR #954](https://github.com/corymstover/GrokBotMTGCompanion/pull/954)
+merged at `33a8c2d312b0e225960810d1267ed4782b5eb2a9` after **22/22**
+exact-head PR checks passed; **10/10** post-merge checks also passed.
 
 This non-checklist addendum is appended after the 137 numbered tasks so that
 the deterministic triage's recorded task lines remain stable. The release is
