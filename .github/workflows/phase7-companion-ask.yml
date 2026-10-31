@@ -4,6 +4,10 @@ on:
   pull_request:
     paths:
       - 'scripts/mv_ask.py'
+      - 'scripts/ask_set_atlas.py'
+      - 'scripts/historical_set_lookup.py'
+      - 'data/set_atlas/**'
+      - 'tests/test_mv_ask_set_atlas.py'
       - 'scripts/commander_rules.py'
       - 'scripts/rules_interactions.py'
       - 'scripts/build_cr_keyword_excerpt.py'
@@ -28,6 +32,10 @@ on:
   push:
     paths:
       - 'scripts/mv_ask.py'
+      - 'scripts/ask_set_atlas.py'
+      - 'scripts/historical_set_lookup.py'
+      - 'data/set_atlas/**'
+      - 'tests/test_mv_ask_set_atlas.py'
       - 'scripts/commander_rules.py'
       - 'scripts/rules_interactions.py'
       - 'scripts/build_cr_keyword_excerpt.py'
@@ -60,6 +68,8 @@ jobs:
           python3 scripts/mv_ask.py ask "Where did the Golgothian Sylex come from?"
           python3 scripts/mv_ask.py ask "Who killed Elesh Norn?"
           python3 scripts/mv_ask.py ask "Who defeated Ugin?"
+          python3 scripts/mv_ask.py ask "How many cards are in Alpha?"
+          python3 scripts/mv_ask.py ask "Which sets was Black Lotus printed in?" > /dev/null
           python3 scripts/mv_ask.py card "Sol Ring"
           set +e; python3 scripts/mv_ask.py ask "Who is Zorblax the Unreal?"; test $? -eq 3
       - name: Companion tests

@@ -29,6 +29,8 @@ Plane-history questions route to reproducible Phase 5 cited plane dossiers;
 all responses are QUALIFIED because the registered graph is never exhaustive.
 Two-event before/after questions route to the source-graded, **partial** in-universe
 chronology and retain UNKNOWN for missing links and narrated legends as legends.
+Set/category/card-printing questions route to the qualified October 29 Phase 1B
+historical shard index; recorded release dates are never in-universe chronology.
 """
 import argparse
 import csv
@@ -643,6 +645,10 @@ def ask(text: str) -> dict:
             env = _rules(kind, m)
             env.update(route="ask->rules:" + kind, query=q)
             return env
+    from ask_set_atlas import try_answer as set_atlas_answer
+    set_answer = set_atlas_answer(q)
+    if set_answer is not None:
+        return set_answer
     for rx in _PLANE_HISTORY_PATTERNS:
         m = rx.search(q)
         if m:
