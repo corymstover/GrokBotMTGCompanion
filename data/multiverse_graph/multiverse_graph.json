@@ -7,7 +7,7 @@
   "HYPOTHETICAL": "Creative or deckbuilding connection; never canon.",
   "OPEN_QUESTION": "Primary sources leave the matter unresolved; do not assert either way."
  },
- "content_sha256": "0aa114646b133d5bfff76df48a91a7d53c0bea9db9ade1b24402e42b902f0db0",
+ "content_sha256": "9014f4bf0d6358fc7e5b615ac04f525a73e098494d238039b6f9175eba3364c3",
  "edges": [
   {
    "artists": [
@@ -7989,15 +7989,6 @@
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
    "to": "card:workshop_assistant"
-  },
-  {
-   "artists": [
-    "Victor Adame Minguez"
-   ],
-   "from": "source:akh_brazen",
-   "relation": "art_captioned_in_story",
-   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
-   "to": "card:anointed_procession_anointed_procession"
   },
   {
    "artists": [
@@ -36447,6 +36438,20 @@
    "to": "printing:d899dde2-68e6-4807-b0e9-3f4e28824822"
   },
   {
+   "from": "character:ajani",
+   "name_match_basis": "unique_pack_declared_name_variant",
+   "relation": "see_also_curated_entry",
+   "tier": "contextual_pointer",
+   "to": "curated:Characters Index.md#ajani-goldmane"
+  },
+  {
+   "from": "character:ajani",
+   "name_match_basis": "unique_pack_declared_name_variant",
+   "relation": "see_also_curated_entry",
+   "tier": "contextual_pointer",
+   "to": "curated:Planeswalker Dossiers.md#ajani-goldmane"
+  },
+  {
    "from": "character:angrath",
    "relation": "see_also_curated_entry",
    "tier": "contextual_pointer",
@@ -36753,6 +36758,20 @@
    "to": "curated:Characters Index.md#mishra"
   },
   {
+   "from": "character:nahiri",
+   "name_match_basis": "unique_pack_declared_name_variant",
+   "relation": "see_also_curated_entry",
+   "tier": "contextual_pointer",
+   "to": "curated:Characters Index.md#nahiri"
+  },
+  {
+   "from": "character:nahiri",
+   "name_match_basis": "unique_pack_declared_name_variant",
+   "relation": "see_also_curated_entry",
+   "tier": "contextual_pointer",
+   "to": "curated:Planeswalker Dossiers.md#nahiri"
+  },
+  {
    "from": "character:narset",
    "relation": "see_also_curated_entry",
    "tier": "contextual_pointer",
@@ -36809,6 +36828,13 @@
    "relation": "see_also_curated_entry",
    "tier": "contextual_pointer",
    "to": "curated:Planeswalker Dossiers.md#niv-mizzet"
+  },
+  {
+   "from": "character:ob_nixilis",
+   "name_match_basis": "unique_pack_declared_name_variant",
+   "relation": "see_also_curated_entry",
+   "tier": "contextual_pointer",
+   "to": "curated:Characters Index.md#ob-nixilis"
   },
   {
    "from": "character:oko",
@@ -36877,6 +36903,20 @@
    "to": "curated:Characters Index.md#rowan-kenrith"
   },
   {
+   "from": "character:saheeli",
+   "name_match_basis": "unique_pack_declared_name_variant",
+   "relation": "see_also_curated_entry",
+   "tier": "contextual_pointer",
+   "to": "curated:Characters Index.md#saheeli-rai"
+  },
+  {
+   "from": "character:saheeli",
+   "name_match_basis": "unique_pack_declared_name_variant",
+   "relation": "see_also_curated_entry",
+   "tier": "contextual_pointer",
+   "to": "curated:Planeswalker Dossiers.md#saheeli-rai"
+  },
+  {
    "from": "character:samut",
    "relation": "see_also_curated_entry",
    "tier": "contextual_pointer",
@@ -36925,6 +36965,20 @@
    "to": "curated:Planeswalker Dossiers.md#sorin-markov"
   },
   {
+   "from": "character:tam",
+   "name_match_basis": "unique_pack_declared_name_variant",
+   "relation": "see_also_curated_entry",
+   "tier": "contextual_pointer",
+   "to": "curated:Characters Index.md#tam"
+  },
+  {
+   "from": "character:tam",
+   "name_match_basis": "unique_pack_declared_name_variant",
+   "relation": "see_also_curated_entry",
+   "tier": "contextual_pointer",
+   "to": "curated:Planeswalker Dossiers.md#tam"
+  },
+  {
    "from": "character:tamiyo",
    "relation": "see_also_curated_entry",
    "tier": "contextual_pointer",
@@ -36971,6 +37025,13 @@
    "relation": "see_also_curated_entry",
    "tier": "contextual_pointer",
    "to": "curated:Planeswalker Dossiers.md#tezzeret"
+  },
+  {
+   "from": "character:the_wanderer",
+   "name_match_basis": "unique_pack_declared_name_variant",
+   "relation": "see_also_curated_entry",
+   "tier": "contextual_pointer",
+   "to": "curated:Characters Index.md#the-wanderer"
   },
   {
    "from": "character:tibalt",
@@ -65788,9 +65849,17 @@
   ],
   "story_caption_packs": [
    {
-    "caption_edges": 1026,
+    "caption_edges": 1025,
     "file": "data/story_atlas/story_art_captions_2026-10-30.json",
-    "sha256": "cc9afe96ffdc211e06099c799c2c5a93579d86bc0fb7e4ef7c5e9754284c1eb2"
+    "sha256": "cc9afe96ffdc211e06099c799c2c5a93579d86bc0fb7e4ef7c5e9754284c1eb2",
+    "unresolved_card_identities": [
+     {
+      "caption_name": "Anointed Procession",
+      "card": "Anointed Procession // Anointed Procession",
+      "reason": "NO_SNAPSHOT_ORACLE_ID",
+      "url": "https://magic.wizards.com/en/news/magic-story/brazen-2017-05-03"
+     }
+    ]
    }
   ]
  },
@@ -66926,14 +66995,6 @@
    "origins": [
     "card_name_anchors_2026-10-30.json",
     "story_image_label_printings_2026-10-30.json"
-   ],
-   "type": "Card"
-  },
-  {
-   "id": "card:anointed_procession_anointed_procession",
-   "name": "Anointed Procession // Anointed Procession",
-   "origins": [
-    "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -101926,6 +101987,14 @@
    "type": "AlternateContinuity"
   },
   {
+   "id": "curated:Characters Index.md#ajani-goldmane",
+   "name": "Characters Index.md#ajani-goldmane",
+   "origins": [
+    "lore_graph.json"
+   ],
+   "type": "Concept"
+  },
+  {
    "id": "curated:Characters Index.md#angrath",
    "name": "Characters Index.md#angrath",
    "origins": [
@@ -102174,6 +102243,14 @@
    "type": "Concept"
   },
   {
+   "id": "curated:Characters Index.md#nahiri",
+   "name": "Characters Index.md#nahiri",
+   "origins": [
+    "lore_graph.json"
+   ],
+   "type": "Concept"
+  },
+  {
    "id": "curated:Characters Index.md#narset",
    "name": "Characters Index.md#narset",
    "origins": [
@@ -102206,6 +102283,14 @@
    "type": "Concept"
   },
   {
+   "id": "curated:Characters Index.md#ob-nixilis",
+   "name": "Characters Index.md#ob-nixilis",
+   "origins": [
+    "lore_graph.json"
+   ],
+   "type": "Concept"
+  },
+  {
    "id": "curated:Characters Index.md#oko",
    "name": "Characters Index.md#oko",
    "origins": [
@@ -102232,6 +102317,14 @@
   {
    "id": "curated:Characters Index.md#rowan-kenrith",
    "name": "Characters Index.md#rowan-kenrith",
+   "origins": [
+    "lore_graph.json"
+   ],
+   "type": "Concept"
+  },
+  {
+   "id": "curated:Characters Index.md#saheeli-rai",
+   "name": "Characters Index.md#saheeli-rai",
    "origins": [
     "lore_graph.json"
    ],
@@ -102278,6 +102371,14 @@
    "type": "Concept"
   },
   {
+   "id": "curated:Characters Index.md#tam",
+   "name": "Characters Index.md#tam",
+   "origins": [
+    "lore_graph.json"
+   ],
+   "type": "Concept"
+  },
+  {
    "id": "curated:Characters Index.md#tamiyo",
    "name": "Characters Index.md#tamiyo",
    "origins": [
@@ -102304,6 +102405,14 @@
   {
    "id": "curated:Characters Index.md#tezzeret",
    "name": "Characters Index.md#tezzeret",
+   "origins": [
+    "lore_graph.json"
+   ],
+   "type": "Concept"
+  },
+  {
+   "id": "curated:Characters Index.md#the-wanderer",
+   "name": "Characters Index.md#the-wanderer",
    "origins": [
     "lore_graph.json"
    ],
@@ -102670,6 +102779,14 @@
    "type": "Concept"
   },
   {
+   "id": "curated:Planeswalker Dossiers.md#ajani-goldmane",
+   "name": "Planeswalker Dossiers.md#ajani-goldmane",
+   "origins": [
+    "lore_graph.json"
+   ],
+   "type": "Concept"
+  },
+  {
    "id": "curated:Planeswalker Dossiers.md#angrath",
    "name": "Planeswalker Dossiers.md#angrath",
    "origins": [
@@ -102790,6 +102907,14 @@
    "type": "Concept"
   },
   {
+   "id": "curated:Planeswalker Dossiers.md#nahiri",
+   "name": "Planeswalker Dossiers.md#nahiri",
+   "origins": [
+    "lore_graph.json"
+   ],
+   "type": "Concept"
+  },
+  {
    "id": "curated:Planeswalker Dossiers.md#narset",
    "name": "Planeswalker Dossiers.md#narset",
    "origins": [
@@ -102838,6 +102963,14 @@
    "type": "Concept"
   },
   {
+   "id": "curated:Planeswalker Dossiers.md#saheeli-rai",
+   "name": "Planeswalker Dossiers.md#saheeli-rai",
+   "origins": [
+    "lore_graph.json"
+   ],
+   "type": "Concept"
+  },
+  {
    "id": "curated:Planeswalker Dossiers.md#samut",
    "name": "Planeswalker Dossiers.md#samut",
    "origins": [
@@ -102856,6 +102989,14 @@
   {
    "id": "curated:Planeswalker Dossiers.md#sorin-markov",
    "name": "Planeswalker Dossiers.md#sorin-markov",
+   "origins": [
+    "lore_graph.json"
+   ],
+   "type": "Concept"
+  },
+  {
+   "id": "curated:Planeswalker Dossiers.md#tam",
+   "name": "Planeswalker Dossiers.md#tam",
    "origins": [
     "lore_graph.json"
    ],
@@ -122032,18 +122173,18 @@
    "CANON_IMPLIED": 253,
    "OPEN_QUESTION": 3
   },
-  "curated_bridges": 126,
-  "edges": 8480,
+  "curated_bridges": 136,
+  "edges": 8489,
   "exact_art_printings": 560,
   "literal_objects": 14,
   "node_types": {
    "AlternateContinuity": 1,
-   "Card": 1767,
+   "Card": 1766,
    "CardRepresentation": 560,
    "CardTheme": 1,
    "Character": 484,
    "Claim": 1259,
-   "Concept": 183,
+   "Concept": 193,
    "DeckProposal": 3,
    "Event": 35,
    "Faction": 156,
@@ -122053,7 +122194,7 @@
    "Plane": 33,
    "Source": 635
   },
-  "nodes": 5297,
+  "nodes": 5306,
   "non_wizards_sources": 0,
   "relations": 471,
   "wizards_official_sources": 635

@@ -7,14 +7,14 @@ This source-graded packet is reproducible from the repository, with exact input 
 ## Inventory and supported lookups
 
 - 576 official source pages cited and 50 reviewed without a claim within the inventoried 626-page scope. Citation does not mean exhaustive reading.
-- 1259 source-graded graph claims across 5297 nodes; 33 registered planes, 0 still thin.
+- 1259 source-graded graph claims across 5306 nodes; 33 registered planes, 0 still thin.
 - 484 registered characters and 156 factions; 640 with direct cited claims, 0 without.
 - 53 previously researched on-plane contextual claims in 4 dossiers, strictly distinct from new/direct graph claims.
 
 ## In-universe chronology (not a complete timeline)
 
 - Legacy ledger: 56 events, 177/3074 ordered event pairs; 2897 unresolved, 13 components, 0 cycles.
-- Source-local ledger: 121 events, 381/7260 pairs. These counts are separate, not additive.
+- Source-local ledger: 134 events, 459/8911 pairs. These counts are separate, not additive.
 - L244 cross-source historical ordering remains open. UNKNOWN is the correct answer when no cited bridge exists.
 
 ## Representative end-to-end questions
@@ -93,6 +93,10 @@ This source-graded packet is reproducible from the repository, with exact input 
 | Did B:phyrexia_creator_dies happen before T:rath_constructed? | `ask->chronology` | `QUALIFIED` | 1 |
 | Did B:phyrexia_portal_closed happen before T:portal_closed? | `ask->chronology` | `QUALIFIED` | 1 |
 | Did B:phyrexia_creator_dies happen before T:yawgmoth_destroyed? | `ask->chronology` | `QUALIFIED` | 0 |
+| Did Z:bolas_eye_activation happen before Z:nissa_breaks_bonds? | `ask->chronology` | `QUALIFIED` | 1 |
+| Did Z:gatewatch_oath happen before Z:two_titans_destroyed? | `ask->chronology` | `QUALIFIED` | 1 |
+| Did Z:two_titans_destroyed happen before Z:zendikar_aftermath? | `ask->chronology` | `QUALIFIED` | 1 |
+| Did Z:gatewatch_oath happen before W:bolas_imprisoned? | `ask->chronology` | `QUALIFIED` | 0 |
 
 The underlying JSON retains response digests, exact source URLs and caveat flags. The two graph-navigation examples are **not** evidence of chronological or causal paths.
 
@@ -115,6 +119,6 @@ python3 scripts/certification_dry_run.py --check
 python3 scripts/update_multiverse_progress_tracker.py --check
 ```
 
-Packet SHA-256 (canonical JSON): `3bc25cc8a7ddc375e5be7c22312be8f774f27c6b5b063f654098db4c2aee9d51`
+Packet SHA-256 (canonical JSON): `8c864bdea723a04857bfd751bb7d32c72a8b6ef3e0bba9419afbbe74a147ea6b`
 
 **No decks were built, modified, reviewed or approved.**

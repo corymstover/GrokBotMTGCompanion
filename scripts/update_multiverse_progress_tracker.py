@@ -56,6 +56,9 @@ def build() -> str:
     checks = re.findall(r"^- \[(x| )\] ", workflow, re.M)
     graph_data = load("data/multiverse_graph/multiverse_graph.json")
     graph = graph_data["stats"]
+    graph_audit = load("data/multiverse_audits/entity_structure_audit_2026-10-30.json")["graph_integrity"]
+    card_id_gaps = len(graph_audit["cards_without_oracle_id"])
+    orphans = len(graph_audit["orphan_nodes"])
     named_people_factions = {n['id'] for n in graph_data['nodes']
                             if n['type'] in {'Character', 'Faction'}}
     nonstructural = {'cited_by', 'asserts', 'see_also_curated_entry', 'proposed_in'}
@@ -101,7 +104,7 @@ they are not the active Phase 1–8 completion counters.
 | Priority card enrichments | **{len(enrichment)}/5,362** | Enrichment does not imply every card has a sourced story. |
 | Source-page inventory | **{coverage['cited_pages']} cited + {coverage['reviewed_no_claim_pages']} reviewed = {coverage['pages']} accounted for** | Current inventoried pages only, not all fiction ever published. |
 | Cited lore claims | **{current_claims}** | Live graph/inventory concordance; claim packs remain preliminary research. |
-| Cited graph | **{graph['nodes']} nodes / {graph['edges']} edges** | Unresolved orphan/variant and chronology work remains. |
+| Cited graph | **{graph['nodes']} nodes / {graph['edges']} edges** | {card_id_gaps} Card nodes without Oracle UUID; {orphans} orphan nodes and unbridged histories remain. |
 | Registered people/factions with direct claims | **{len(directly_cited)}/{len(named_people_factions)}** | At least one cited relation per registered node, **not** a complete biography or census of all canon. |
 | Exact printing-specific representations | **{graph.get('exact_art_printings', 0)}** | Frozen snapshot + official art-file label evidence, **not** canon scene depiction. |
 | In-universe dated claim edges | **{graph['claim_edges_with_in_universe_date']}** | Most graph edges lack a verified in-world date. |

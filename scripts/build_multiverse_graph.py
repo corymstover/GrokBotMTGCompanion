@@ -274,18 +274,29 @@ def ingest_story_captions(g: Graph, rel: str) -> dict:
     origin = Path(rel).name
     by_url = {n["url"]: n["id"] for n in g.nodes.values() if n["type"] == "Source" and n.get("url")}
     n = 0
+    unresolved = []
     for page in d.get("pages", []):
         src = by_url.get(page["url"])
         if not src:
             continue
         artists: dict[str, set] = {}
         for c in page["captions"]:
+            # The caption atlas retains a genuine official art credit for a
+            # digital face-name entry whose snapshot oracle_id is null. An art
+            # label alone cannot promote that entry to a canonically identified
+            # card. Retain the original atlas evidence, but leave the graph
+            # navigation unresolved until an exact Oracle identity is proven.
+            if not c.get("oracle_id"):
+                unresolved.append({"url": page["url"], "card": c["card"],
+                                   "caption_name": c["caption_name"],
+                                   "reason": "NO_SNAPSHOT_ORACLE_ID"})
+                continue
             card = g.add_node(f"card:{slug(c['card'])}", "Card", c["card"], origin, oracle_id=c.get("oracle_id"))
             artists.setdefault(card, set()).add(c["artist"])
         for card in sorted(artists):
             g.edge(src, "art_captioned_in_story", card, tier=d.get("tier", ""), artists=sorted(artists[card]))
             n += 1
-    return {"file": rel, "caption_edges": n}
+    return {"file": rel, "caption_edges": n, "unresolved_card_identities": unresolved}
 
 
 def ingest_printing_labels(g: Graph, rel: str) -> dict:
@@ -358,10 +369,10 @@ def ingest_printing_labels(g: Graph, rel: str) -> dict:
 
 def bridge_curated(g: Graph, rel: str) -> int:
     lg = load(rel)
-    by_name: dict[str, list[str]] = {}
+    by_name: dict[str, list[dict]] = {}
     for n in lg.get("nodes", []):
         if n.get("kind") in {"character", "plane", "item", "arc", "dossier"}:
-            by_name.setdefault(n["name"].lower(), []).append(n["id"])
+            by_name.setdefault(n["name"].lower(), []).append(n)
     # Only the five strict, type-compatible legacy item names missed by punctuation/"The"
     # normalization are candidates. Require uniqueness on *both* sides to avoid false merges.
     item_candidates: dict[str, list[str]] = {}
@@ -372,17 +383,40 @@ def bridge_curated(g: Graph, rel: str) -> int:
     for node in g.nodes.values():
         if node["type"] == "Object":
             objects_by_name.setdefault(normalized_name(node["name"]), []).append(node["id"])
+    # Pack-local display-name variants belong to the SAME already registered
+    # graph ID. Unlike nickname/first-word guesses, these are direct pack
+    # declarations. Join them to legacy navigation only when the full name is
+    # unique across type-compatible graph entities. This never merges nodes.
+    legacy_compatible = {"Character": {"character", "dossier"},
+                         "Plane": {"plane"}, "Place": {"plane"},
+                         "Object": {"item"}, "Event": {"arc"}}
+    variants: dict[str, set[str]] = {}
+    for node in g.nodes.values():
+        if node["type"] not in legacy_compatible:
+            continue
+        for name in {node["name"], *node.get("name_variants", [])}:
+            variants.setdefault(name.lower(), set()).add(node["id"])
     hits = 0
     for node in list(g.nodes.values()):
         if node["type"] in {"Claim", "Source", "Literal", "DeckProposal", "Card"}:
             continue
-        targets = by_name.get(node["name"].lower(), [])
+        targets = [n["id"] for n in by_name.get(node["name"].lower(), [])]
         match_kind = "exact_name"
         if not targets and node["type"] == "Object":
             normalized = normalized_name(node["name"])
             if len(item_candidates.get(normalized, [])) == 1 and len(objects_by_name.get(normalized, [])) == 1:
                 targets = item_candidates[normalized]
                 match_kind = "unique_normalized_item_name"
+        if not targets and node.get("name_variants"):
+            for name in sorted(node["name_variants"]):
+                if variants.get(name.lower()) != {node["id"]}:
+                    continue
+                eligible = [n["id"] for n in by_name.get(name.lower(), [])
+                            if n["kind"] in legacy_compatible.get(node["type"], set())]
+                targets.extend(eligible)
+            if targets:
+                targets = sorted(set(targets))
+                match_kind = "unique_pack_declared_name_variant"
         for target in sorted(targets):
             tid = "curated:" + target
             g.add_node(tid, "Concept", target, Path(rel).name)

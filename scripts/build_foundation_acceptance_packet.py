@@ -182,6 +182,18 @@ QA_CASES = [
     ('cross_ledger_beyond_bridge_unknown',
      'Did B:phyrexia_creator_dies happen before T:yawgmoth_destroyed?',
      'ask->chronology', 'QUALIFIED'),
+    ('gatewatch_eye_activation_not_titan_freedom',
+     'Did Z:bolas_eye_activation happen before Z:nissa_breaks_bonds?',
+     'ask->chronology', 'QUALIFIED'),
+    ('gatewatch_oath_before_titans_defeated',
+     'Did Z:gatewatch_oath happen before Z:two_titans_destroyed?',
+     'ask->chronology', 'QUALIFIED'),
+    ('gatewatch_defeat_before_zendikar_aftermath',
+     'Did Z:two_titans_destroyed happen before Z:zendikar_aftermath?',
+     'ask->chronology', 'QUALIFIED'),
+    ('gatewatch_cross_arc_war_spark_unknown',
+     'Did Z:gatewatch_oath happen before W:bolas_imprisoned?',
+     'ask->chronology', 'QUALIFIED'),
 ]
 
 
@@ -257,6 +269,15 @@ def qa_cases() -> list[dict]:
                 r['result']['relation'] != 'UNKNOWN' or r['sources'] or
                 'CROSS_LEDGER_UNANCHORED' not in r['flags']):
             raise ValueError('Unproven cross-ledger sequence falsely answered')
+        if key in {'gatewatch_eye_activation_not_titan_freedom',
+                   'gatewatch_oath_before_titans_defeated',
+                   'gatewatch_defeat_before_zendikar_aftermath'} and (
+                r['result']['relation'] != 'BEFORE' or not r['result']['proof'] or not r['sources']):
+            raise ValueError(f'Gatewatch origin sequence lost its cited official source: {key}')
+        if key == 'gatewatch_cross_arc_war_spark_unknown' and (
+                r['result']['relation'] != 'UNKNOWN' or r['sources'] or
+                'NO_CITED_CHRONOLOGY_PATH' not in r['flags']):
+            raise ValueError('Gatewatch and War of the Spark falsely joined by publication order')
         if key == 'present_leader_unknown' and 'CURRENT_LEADER_NOT_ESTABLISHED' not in r['flags']:
             raise ValueError('Present-day leadership is overstated')
         if key == 'commander_identity' and not r['result']['allowed']:

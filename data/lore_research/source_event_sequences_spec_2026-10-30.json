@@ -1,7 +1,7 @@
 {
   "schema": "source-local-event-order-spec/v1",
   "status": "PRELIMINARY_RESEARCH_NOT_OWNER_APPROVED",
-  "scope": "Thirteen bounded, individually sourced chronology strands. No automatic cross-strand alignment, no absolute AR date conversion and no assertions that a narrated legend is historical fact. The Thran-to-invasion strand uses the 2008 Wizards historical retrospective and does not decide the order between Old Phyrexia's decimation and Yawgmoth's destruction. The Dominaria-to-Kamigawa fracture sequence quotes explicit cross-plane cause, but does not globally align all plane eras. The Alara strand places Gideon's isolated-Bant arrival before the Conflux without assigning a cause to Alara's unknown original Sundering; wars concurrent with border dissolution are not forced into a BEFORE relation. The New Phyrexia strand describes early Mirrodin conquest, not post-March of the Machine politics. The early Meditation Realm strand is Ugin's remembered conflict; the distinct War of the Spark-to-Dragonstorm strand tracks later imprisonment and escape without claiming either dragon's death, present location or current spark state.",
+  "scope": "Fourteen bounded, individually sourced chronology strands. No automatic cross-strand alignment, no absolute AR date conversion and no assertions that a narrated legend is historical fact. The Gatewatch founding strand uses the official Battle for Zendikar retrospective and contemporaneous Oath/Last Stand episodes, not real-world set release order; it establishes only the founding episode on Zendikar, not the complete Gatewatch biography. The Thran-to-invasion strand uses the 2008 Wizards historical retrospective and does not decide the order between Old Phyrexia's decimation and Yawgmoth's destruction. The Dominaria-to-Kamigawa fracture sequence quotes explicit cross-plane cause, but does not globally align all plane eras. The Alara strand places Gideon's isolated-Bant arrival before the Conflux without assigning a cause to Alara's unknown original Sundering; wars concurrent with border dissolution are not forced into a BEFORE relation. The New Phyrexia strand describes early Mirrodin conquest, not post-March of the Machine politics. The early Meditation Realm strand is Ugin's remembered conflict; the distinct War of the Spark-to-Dragonstorm strand tracks later imprisonment and escape without claiming either dragon's death, present location or current spark state.",
   "sources": {
     "neo_guide": "data/lore_research/pack_p5_kamigawa_history_profile_2026-10-30.json",
     "blb_guide1": "data/lore_research/pack_p5_bloomburrow_valley_history_2026-10-30.json",
@@ -15,7 +15,11 @@
     "tdm7": "data/lore_research/pack_a_ugin_bolas_evidence_2026-10-30.json",
     "lorwyn2": "data/lore_research/pack_a_ugin_bolas_evidence_2026-10-30.json",
     "up_alara": "data/lore_research/pack_p5_alara_plane_profile_2026-10-30.json",
-    "fph_origins_2015": "data/lore_research/pack_p5_four_plane_histories_2026-10-31.json"
+    "fph_origins_2015": "data/lore_research/pack_p5_four_plane_histories_2026-10-31.json",
+    "bfz_summary": "data/lore_research/pack_p5_battle_for_zendikar_oath_2026-10-30.json",
+    "ogw_oath": "data/lore_research/pack_p5_battle_for_zendikar_oath_2026-10-30.json",
+    "ogw_last_stand": "data/lore_research/pack_p5_battle_for_zendikar_oath_2026-10-30.json",
+    "ogw_resurgent": "data/lore_research/pack_p5_battle_for_zendikar_oath_2026-10-30.json"
   },
   "legacy_bridges": [
     {"legacy":"B:phyrexia_creator_dies","local":"T:phyrexian_creator_dies","source_id":"km","quote":"the planeswalker Dyfed took Yawgmoth to Phyrexia shortly after its creator and master had died","note":"The two ledger labels denote the same unnamed original Phyrexian master's death, without asserting that he was Yawgmoth."},
@@ -354,6 +358,41 @@
         {"earlier":"G:conflux_reunion","later":"G:five_colors_return","source_id":"up_alara","quote":"they have converged into one, and the rejoined plane flows with all five colors of mana once more","note":"Five-color mana describes Alara after the shards have rejoined, without any AR calendar conversion."},
         {"earlier":"G:conflux_reunion","later":"G:borders_dissolve","relation":"DURING_OR_AFTER_START","source_id":"up_alara","quote":"As the boundaries between the shards dissolve, cultures clash and wars ensue.","note":"The plane overview describes reunification and dissolving former borders as the same transition, not strictly ordered completed events."},
         {"earlier":"G:borders_dissolve","later":"G:shard_wars","relation":"DURING_OR_AFTER_START","source_id":"up_alara","quote":"As the boundaries between the shards dissolve, cultures clash and wars ensue.","note":"The wars begin AS borders dissolve, not after every border has finished dissolving; deliberately not a BEFORE edge."}
+      ]
+    },
+    {
+      "id": "Z",
+      "title": "Zendikar — Eldrazi prison, Gideon's return, Sea Gate, Gatewatch oaths and the titans' defeat",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "limitation": "This is the bounded Battle for Zendikar / Oath of the Gatewatch founding story, not the complete Gatewatch history. The initial Eye activation releases broods while the titans remain confined; Nissa breaks their remaining bonds later. The later temporary Ulamog-only hedron trap is a distinct event, then Ob Nixilis disrupts it. The founding four are Gideon, Jace, Nissa and Chandra, not the membership of the Gatewatch in any later era. The apparent deaths of Ulamog and Kozilek are explicitly attested in the next official story; Ugin raises the uncertainty of the Multiverse-wide consequences, not a claim that the titans survived. None of these events is dated to an absolute AR year or merged with another strand.",
+      "nodes": [
+        {"id":"Z:ancient_prison","label":"Ugin, Nahiri and Sorin imprison the three Eldrazi titans","claim_ids":["BZ001","BZ002"]},
+        {"id":"Z:nahiri_repairs","label":"Nahiri repairs the ancient Eldrazi prison after a near escape","claim_ids":["BZ003"]},
+        {"id":"Z:bolas_eye_activation","label":"Bolas arranges Jace, Chandra and Sarkhan's reactivation of the Eye","claim_ids":["BZ005"]},
+        {"id":"Z:nissa_breaks_bonds","label":"Nissa releases the remaining bonds and the titans emerge","claim_ids":["BZ006"]},
+        {"id":"Z:gideon_arrives","label":"Gideon arrives on Zendikar while searching for Chandra","claim_ids":["BZ007"]},
+        {"id":"Z:gideon_recruits_jace","label":"Gideon recruits Jace on Ravnica and returns to Zendikar","claim_ids":["BZ008"]},
+        {"id":"Z:sea_gate_liberated","label":"Gideon's allied Zendikari retake Sea Gate","claim_ids":["BZ014"]},
+        {"id":"Z:ulamog_hedron_trap","label":"Gideon, Jace and Nissa briefly entrap Ulamog with hedrons","claim_ids":["BZ016"]},
+        {"id":"Z:ob_nixilis_breaks_trap","label":"Ob Nixilis disrupts the hedrons and regains his spark","claim_ids":["BZ017","BZ018"]},
+        {"id":"Z:kozilek_emerges","label":"Kozilek emerges as the defenders face two titans","claim_ids":["BZ018","BZ020"]},
+        {"id":"Z:gatewatch_oath","label":"Gideon, Jace, Nissa and Chandra form the Gatewatch by oath","claim_ids":["BZ022"]},
+        {"id":"Z:two_titans_destroyed","label":"The founding Gatewatch destroys Ulamog and Kozilek","claim_ids":["BZ025"]},
+        {"id":"Z:zendikar_aftermath","label":"The surviving Zendikari begin the post-titan recovery","claim_ids":["BZ026"]}
+      ],
+      "edges": [
+        {"earlier":"Z:ancient_prison","later":"Z:nahiri_repairs","source_id":"bfz_summary","quote":"A little more than a thousand years ago, the Eldrazi nearly escaped—and neither Sorin nor Ugin returned to help.","note":"The ancient imprisonment predated the near escape and Nahiri's independent repair; the time phrase is relative, not an AR date."},
+        {"earlier":"Z:nahiri_repairs","later":"Z:bolas_eye_activation","source_id":"bfz_summary","quote":"Then, for reasons of his own, the elder dragon Planeswalker Nicol Bolas arranged for three Planeswalkers to converge on the Eye and unknowingly reactivate it.","note":"The retrospective introduces this later Bolas arrangement after Nahiri's repair and departure; it does not identify Bolas as the original prison's creator or destroyer."},
+        {"earlier":"Z:bolas_eye_activation","later":"Z:nissa_breaks_bonds","source_id":"bfz_summary","quote":"The activation of the Eye loosed teeming broods of Eldrazi upon the plane, but the titans themselves were not yet free.","note":"The Eye activation does NOT release the titans: that happens when Nissa breaks the remaining bonds in the next passage."},
+        {"earlier":"Z:nissa_breaks_bonds","later":"Z:gideon_arrives","source_id":"bfz_summary","quote":"It was then that Gideon Jura first arrived on Zendikar, after following Chandra's trail to the plane","note":"The narrated arrival follows Nissa's liberation of the titans and their initial feeding; it is not dated by set release order."},
+        {"earlier":"Z:gideon_arrives","later":"Z:gideon_recruits_jace","source_id":"bfz_summary","quote":"Vowing to return, he left in search of aid at the center of Planeswalker activity: the city-world of Ravnica.","note":"Gideon's decision to seek Ravnica allies follows his arrival and initial failed resistance on Zendikar."},
+        {"earlier":"Z:gideon_recruits_jace","later":"Z:sea_gate_liberated","source_id":"bfz_summary","quote":"Together, Gideon and Jace returned to Zendikar to face the threat of the Eldrazi.","note":"The subsequent Sea Gate campaign follows Gideon returning with the recruited Jace; recruitment is not the same as the founding oath."},
+        {"earlier":"Z:sea_gate_liberated","later":"Z:ulamog_hedron_trap","source_id":"bfz_summary","quote":"As they savored their first moments of victory, the merfolk Jori En returned with dire news—the Eldrazi titan Ulamog himself was headed towards Sea Gate.","note":"The defenders first retake Sea Gate, then face and temporarily trap Ulamog; the later destruction of Sea Gate is distinct."},
+        {"earlier":"Z:ulamog_hedron_trap","later":"Z:ob_nixilis_breaks_trap","source_id":"bfz_summary","quote":"knocked the hedrons out of alignment to siphon their energy and reignite his Planeswalker spark.","note":"Ob Nixilis sabotages an already aligned prison, releasing its captive titan."},
+        {"earlier":"Z:ob_nixilis_breaks_trap","later":"Z:kozilek_emerges","source_id":"bfz_summary","quote":"but Ob Nixilis had called Kozilek, one of the other Eldrazi titans, from beneath Zendikar's surface.","note":"The account associates Kozilek's renewed appearance with Ob Nixilis's intervention; no absolute elapsed time is inferred."},
+        {"earlier":"Z:kozilek_emerges","later":"Z:gatewatch_oath","source_id":"ogw_oath","quote":"When the Eldrazi destroyed Sea Gate, they threatened all I believe.","note":"Gideon's oath explicitly refers back to the destructive two-titan crisis; the sworn team is the original four only."},
+        {"earlier":"Z:gatewatch_oath","later":"Z:two_titans_destroyed","source_id":"ogw_last_stand","quote":"Chandra knew this was what she and her friends had come to put to an end. This was their mission. It was their oath.","note":"Chandra recalls their oath during the subsequent climactic spell. The official aftermath independently confirms both titans died; it does not settle Ugin's longer-range cautions."},
+        {"earlier":"Z:two_titans_destroyed","later":"Z:zendikar_aftermath","source_id":"ogw_resurgent","quote":"The Eldrazi titans have been destroyed. The world of Zendikar has been saved. Now the four Planeswalkers who acted to make this so must decide what is to come next.","note":"The subsequent official account explicitly identifies the titans' destruction as past and the surviving team's next plans as present."}
       ]
     },
     {
