@@ -432,12 +432,14 @@
       "id": "commander_identity",
       "question": "Can Sol Ring go in a Urza, Lord High Artificer deck?",
       "route": "ask->rules:include",
-      "confidence": "VERIFIED",
-      "flags": [],
+      "confidence": "QUALIFIED",
+      "flags": [
+        "DATED_SCRYFALL_LEGALITY_NOT_LIVE"
+      ],
       "sources": [
         "https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt"
       ],
-      "response_sha256": "c5ada567cdd81c80a9838cca7d366b2a2831b54c8755cf80cb200a2b2a552559",
+      "response_sha256": "957c172fe533e16cafb5b82a368bd68cf436fa79bbda60d2a842e235ff428557",
       "direct_claims": null,
       "chronology_relation": null,
       "known_limitations": []
@@ -1712,5 +1714,5 @@
     "python3 scripts/update_multiverse_progress_tracker.py --check"
   ],
   "owner_review_status": "PENDING_NOT_REQUESTED_UNTIL_ENGINEERING_EVIDENCE_AND_CI_COMPLETE",
-  "content_sha256": "8c864bdea723a04857bfd751bb7d32c72a8b6ef3e0bba9419afbbe74a147ea6b"
+  "content_sha256": "38c4a7fc5f87e4abc1af16e3897c5946f9533bd8e9f82a57999445b7c06d6b6c"
 }

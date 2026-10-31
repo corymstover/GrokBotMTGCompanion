@@ -35,7 +35,7 @@ This source-graded packet is reproducible from the repository, with exact input 
 | Who led the Izzet? | `ask->lore:led|leader_of|leads` | `VERIFIED` | 2 |
 | Did Konda imprisons a part happen before Kyodai and Michiko defeat Konda? | `ask->chronology` | `QUALIFIED` | 1 |
 | Did Konda imprisons a part happen before Marina lures her bullies? | `ask->chronology` | `QUALIFIED` | 0 |
-| Can Sol Ring go in a Urza, Lord High Artificer deck? | `ask->rules:include` | `VERIFIED` | 1 |
+| Can Sol Ring go in a Urza, Lord High Artificer deck? | `ask->rules:include` | `QUALIFIED` | 1 |
 | How many cards are in Alpha? | `ask->set_atlas:set` | `QUALIFIED` | 3 |
 | Which sets was Black Lotus printed in? | `ask->set_atlas:card_printings` | `QUALIFIED` | 1 |
 | How does Urza's Saga interact with Urza's Tower? | `ask->rules_evidence:interaction` | `QUALIFIED` | 3 |
@@ -119,6 +119,6 @@ python3 scripts/certification_dry_run.py --check
 python3 scripts/update_multiverse_progress_tracker.py --check
 ```
 
-Packet SHA-256 (canonical JSON): `8c864bdea723a04857bfd751bb7d32c72a8b6ef3e0bba9419afbbe74a147ea6b`
+Packet SHA-256 (canonical JSON): `38c4a7fc5f87e4abc1af16e3897c5946f9533bd8e9f82a57999445b7c06d6b6c`
 
 **No decks were built, modified, reviewed or approved.**

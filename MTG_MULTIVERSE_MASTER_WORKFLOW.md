@@ -1,6 +1,6 @@
 # MTG Multiverse Companion — Master Workflow & Progress Checklist
 
-**Version:** 2.84
+**Version:** 2.85
 **Checkpoint date:** 2026-10-31
 **Repository:** [corymstover/GrokBotMTGCompanion](https://github.com/corymstover/GrokBotMTGCompanion)  
 **Purpose:** Durable project roadmap and handoff document. Update this file after verified milestone work; do not treat historical figures as live counters.
@@ -1123,7 +1123,7 @@ explicitly lifts the hold).
   - v2.60: a source-graded, 12-case knowledge-only review packet was generated and CI-gated; v2.62 extended it to 15 dated set/printing/ruling cases, v2.63 to 17 with bounded New Phyrexia chronology, v2.64 to 22 with five character/faction histories, **v2.65 to 26** with four newly deepened plane histories, and **v2.66 to 30 unique questions** for four more plane histories and a duplicate-ID correction. The dry-run distinguishes this **completed engineering packet** from pending exact-head release CI and Cory's foundation-scope decision. No release checklist acceptance is inferred.
 - [ ] Treat continual future MTG releases as an ongoing maintenance track rather than a permanently finishable backlog.
 
-## Immediate execution queue — v2.83 FOUNDATION FIRST (2026-10-31)
+## Immediate execution queue — v2.85 FOUNDATION FIRST (2026-10-31)
 
 1. **Phase 4 — Verified in-universe chronology:** expand the source-quoted BEFORE/AFTER/UNKNOWN event order, resolve high-value L244 gaps where primary evidence exists, and retain unknown/disputed ordering instead of inventing total dates. Keep release chronology separate.
 2. **Phases 2/5 — Comprehensive history:** systematically deepen thin plane dossiers, major factions, characters, wars, artifacts and cross-plane consequences; record both coverage and missing primary sources. Currently thin registered planes remain a priority, not a census of all planes; regenerate the exact count from the dossier rather than treating this prose as a live counter.
@@ -1174,3 +1174,22 @@ decisions, foundation sign-off, exact-head CI and Grixis protections still
 apply; do not relabel current preliminary research as certified.
 
 *This is a living workflow, not a claim that all of Magic lore can be declared permanently finished. Preserve this file and revise the verified checkpoint after every substantive work batch.*
+
+## v2.85 engineering addendum — Phase 7 Commander Q&A safety (2026-10-31)
+
+The inclusion route now checks the **proposed commander configuration** as
+well as a candidate card's color identity and archived legality. Invalid
+banned/noncommander leaders and incompatible two-commander pairs can no longer
+produce a false `allowed: true` answer. Known-card Commander and inclusion
+answers now carry `QUALIFIED`, `DATED_SCRYFALL_LEGALITY_NOT_LIVE`, the card-shard
+date and the official CR excerpt's effective date; this is not live-format
+legality confirmation. Four synthetic adversarial regressions pass locally;
+the Phase 7 Action exercises them and the full real-card suite on GitHub.
+The cross-domain Phase 7 research and difficult Q&A checkboxes **remain open**;
+no broader rules simulation or current ban synchronization is claimed.
+
+This non-checklist addendum is appended after the 137 numbered tasks so that
+the deterministic triage's recorded task lines remain stable. The release is
+**89/137 checked, 48 open, NOT_RELEASE_READY**, with all 62 approved Grixis
+decks and three unapproved pilots untouched. See
+`research/PHASE7_COMMANDER_QA_CURRENTNESS_2026-10-31.md`.

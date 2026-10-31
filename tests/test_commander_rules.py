@@ -13,7 +13,8 @@ import mv_ask  # noqa: E402
 
 def allowed(names):
     out = cr.commander(names)
-    assert out["confidence"] == "VERIFIED", out
+    assert out["confidence"] == "QUALIFIED", out
+    assert cr.HISTORICAL_LEGALITY_FLAG in out["flags"]
     return out["result"]
 
 
