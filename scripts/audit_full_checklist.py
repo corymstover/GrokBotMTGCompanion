@@ -38,7 +38,6 @@ OPEN = {
     "Maintain two separately labeled timelines": ("Under review", "CHRONOLOGY_GAPS", "Real-world release dates and in-world events remain separate; cited bridges are incomplete."),
     "Connect sets to supported planes": ("Under review", "SOURCE_GRADING", "Existing cited story-series joins are not exhaustive set-to-canon relationships."),
     "Link direct printed depictions": ("Under review", "SOURCE_GRADING", "Proof tiers and 570 printing labels exist, but direct depiction evidence remains incomplete."),
-    "Keep unsupported matches explicitly unresolved": ("Under review", "ONGOING_SOURCE_TRIAGE", "Seven unmatched art labels and other name-only hypotheses remain review-only."),
     "Expand the primary-source inventory": ("Under review", "ONGOING_SOURCE_RESEARCH", "The source roster and quotation audits require continued expansion/review."),
     "Record directional, dated, cited relationships": ("Under review", "CHRONOLOGY_GAPS", "Only a subset of graph relations carry source-quoted in-universe time phrases."),
     "**Pack A: Ugin, Nicol Bolas": ("Under review", "PRELIMINARY_LORE", "Elder Dragon War history and genealogy are researched but not exhaustively settled."),
