@@ -1,4 +1,4 @@
-"""Independent all-pair oracle for the 12 source-local history strands.
+"""Independent all-pair oracle for all source-local history strands.
 
 Do not use the production closure implementation to calculate expected answers:
 an error in the builder and retriever must not pass both sides of the test.
@@ -41,7 +41,7 @@ class GlobalChronologyPairMatrix(unittest.TestCase):
                 frontier.extend(cls.adj[nxt] - seen)
             cls.reach[start] = seen
 
-    def test_reachability_rebuilt_independently_for_all_114_event_nodes(self):
+    def test_reachability_rebuilt_independently_for_all_source_local_event_nodes(self):
         self.assertEqual(self.data['counts']['events'], len(self.nodes))
         self.assertEqual(self.data['counts']['strands'], len(set(n['strand'] for n in self.nodes.values())))
         self.assertEqual(self.data['counts']['ordered_pairs'], sum(len(v) for v in self.reach.values()))
@@ -81,7 +81,7 @@ class GlobalChronologyPairMatrix(unittest.TestCase):
                 self.assertIn((a, b), self.non_strict)
         self.assertEqual(pairs, self.data['counts']['total_pairs'])
 
-    def test_no_strict_edge_can_be_derived_from_three_overlap_relations(self):
+    def test_no_strict_edge_can_be_derived_from_overlap_relations(self):
         self.assertEqual(len(self.non_strict), self.data['counts']['non_ordering_relations'])
         for a, b in self.non_strict:
             self.assertNotIn(b, self.reach[a])

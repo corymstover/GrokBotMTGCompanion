@@ -2,7 +2,7 @@
   "schema": "source-event-sequences/v1",
   "status": "PRELIMINARY_RESEARCH_NOT_OWNER_APPROVED",
   "date": "2026-10-30",
-  "scope": "Twelve bounded, individually sourced chronology strands. No automatic cross-strand alignment, no absolute AR date conversion and no assertions that a narrated legend is historical fact. The Thran-to-invasion strand uses the 2008 Wizards historical retrospective and does not decide the order between Old Phyrexia's decimation and Yawgmoth's destruction. The Dominaria-to-Kamigawa fracture sequence quotes explicit cross-plane cause, but does not globally align all plane eras. The New Phyrexia strand describes early Mirrodin conquest, not post-March of the Machine politics. The early Meditation Realm strand is Ugin's remembered conflict; the distinct War of the Spark-to-Dragonstorm strand tracks later imprisonment and escape without claiming either dragon's death, present location or current spark state.",
+  "scope": "Thirteen bounded, individually sourced chronology strands. No automatic cross-strand alignment, no absolute AR date conversion and no assertions that a narrated legend is historical fact. The Thran-to-invasion strand uses the 2008 Wizards historical retrospective and does not decide the order between Old Phyrexia's decimation and Yawgmoth's destruction. The Dominaria-to-Kamigawa fracture sequence quotes explicit cross-plane cause, but does not globally align all plane eras. The Alara strand places Gideon's isolated-Bant arrival before the Conflux without assigning a cause to Alara's unknown original Sundering; wars concurrent with border dissolution are not forced into a BEFORE relation. The New Phyrexia strand describes early Mirrodin conquest, not post-March of the Machine politics. The early Meditation Realm strand is Ugin's remembered conflict; the distinct War of the Spark-to-Dragonstorm strand tracks later imprisonment and escape without claiming either dragon's death, present location or current spark state.",
   "sources": {
     "blb_guide1": {
       "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-bloomburrow-part-1",
@@ -23,6 +23,11 @@
       "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-duskmourn",
       "title": "Planeswalker's Guide to Duskmourn",
       "published": "2024-08-31"
+    },
+    "fph_origins_2015": {
+      "url": "https://magic.wizards.com/en/news/feature/worlds-magic-origins-2015-07-09",
+      "title": "The Worlds of Magic Origins",
+      "published": "2015-07-09"
     },
     "km": {
       "url": "https://magic.wizards.com/en/news/feature/known-mutliverse-2008-03-19",
@@ -54,6 +59,11 @@
       "title": "Tarkir: Dragonstorm | Episode 7: Return",
       "published": null
     },
+    "up_alara": {
+      "url": "https://magic.wizards.com/en/story/alara-plane",
+      "title": "Alara",
+      "published": ""
+    },
     "up_nph": {
       "url": "https://magic.wizards.com/en/story/new-phyrexia-plane",
       "title": "New Phyrexia",
@@ -61,12 +71,12 @@
     }
   },
   "counts": {
-    "strands": 12,
-    "events": 114,
-    "strict_edges": 93,
-    "non_ordering_relations": 3,
-    "ordered_pairs": 371,
-    "total_pairs": 6441,
+    "strands": 13,
+    "events": 121,
+    "strict_edges": 97,
+    "non_ordering_relations": 5,
+    "ordered_pairs": 381,
+    "total_pairs": 7260,
     "verified_legacy_bridges": 8
   },
   "strands": [
@@ -168,6 +178,15 @@
       "events": 7,
       "strict_edges": 6,
       "non_ordering_relations": 0
+    },
+    {
+      "id": "G",
+      "title": "Alara — unknown Sundering, Gideon's isolated Bant arrival, Conflux and simultaneous shard wars",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "limitation": "The 2015 Worlds of Magic Origins feature explicitly locates Gideon's arrival during Bant's isolation and before the subsequent reunion; it calls Alara's original sundering cataclysm UNKNOWN. The Alara plane overview describes post-reunion five-color mana and wars as former shard boundaries dissolve. Conflux, boundary dissolution and the outbreak of fighting overlap in the prose: a DURING_OR_AFTER_START relation is NOT a strict before/after date. No Dominarian AR date, cause of the original cataclysm, or causal identity with Nicol Bolas's later conspiracy is inferred.",
+      "events": 7,
+      "strict_edges": 4,
+      "non_ordering_relations": 2
     },
     {
       "id": "S",
@@ -345,6 +364,84 @@
           "grade": "CANON_CONFIRMED"
         }
       ]
+    },
+    {
+      "id": "G:borders_dissolve",
+      "strand": "G",
+      "label": "Boundaries between reunited Alaran shards dissolve",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": [
+        {
+          "id": "ALA004",
+          "grade": "CANON_CONFIRMED"
+        }
+      ]
+    },
+    {
+      "id": "G:conflux_reunion",
+      "strand": "G",
+      "label": "Alara's five shards converge into a single plane",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": [
+        {
+          "id": "ALA003",
+          "grade": "CANON_CONFIRMED"
+        }
+      ]
+    },
+    {
+      "id": "G:five_colors_return",
+      "strand": "G",
+      "label": "The reunited Alara again has all five mana colors",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": [
+        {
+          "id": "ALA003",
+          "grade": "CANON_CONFIRMED"
+        }
+      ]
+    },
+    {
+      "id": "G:gideon_bant_arrival",
+      "strand": "G",
+      "label": "Gideon arrives on Bant while it remains isolated",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": []
+    },
+    {
+      "id": "G:shard_wars",
+      "strand": "G",
+      "label": "Formerly isolated shard cultures clash as their borders dissolve",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": [
+        {
+          "id": "ALA004",
+          "grade": "CANON_CONFIRMED"
+        }
+      ]
+    },
+    {
+      "id": "G:shards_isolated",
+      "strand": "G",
+      "label": "Alara's five shards evolve separately over centuries",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": [
+        {
+          "id": "ALA001",
+          "grade": "CANON_CONFIRMED"
+        },
+        {
+          "id": "ALA002",
+          "grade": "CANON_CONFIRMED"
+        }
+      ]
+    },
+    {
+      "id": "G:unknown_sundering",
+      "strand": "G",
+      "label": "An unidentified cataclysm sunders Alara into five shards",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": []
     },
     {
       "id": "H:glissa_defeats_memnarch",
@@ -2291,6 +2388,78 @@
       "note": "Ajani recounts the Realm expedition in the past tense in a later conversation with Liliana; his uncertainty about Bolas's spark remains in force."
     },
     {
+      "earlier": "G:unknown_sundering",
+      "later": "G:shards_isolated",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "fph_origins_2015",
+      "source_url": "https://magic.wizards.com/en/news/feature/worlds-magic-origins-2015-07-09",
+      "source_title": "The Worlds of Magic Origins",
+      "quote": "Sundered by some unknown cataclysm, their environments and cultures evolved independently",
+      "quote_sha256": "8e934f541c5373497552da6280b9514a78ce0c3685e96d83fbc209931404b05e",
+      "note": "An unidentified Sundering precedes the separate evolution of the shard civilizations; the cataclysm's cause is not identified."
+    },
+    {
+      "earlier": "G:shards_isolated",
+      "later": "G:gideon_bant_arrival",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "fph_origins_2015",
+      "source_url": "https://magic.wizards.com/en/news/feature/worlds-magic-origins-2015-07-09",
+      "source_title": "The Worlds of Magic Origins",
+      "quote": "at the time of Gideon's arrival, Bant was entirely isolated",
+      "quote_sha256": "4d4eab6494b3a95bce45ab58b1099a0782a501f9a0384a8549a4c095192d00b2",
+      "note": "The period of separation already existed when Gideon arrived; this is NOT a claim that isolation had ended by his arrival."
+    },
+    {
+      "earlier": "G:gideon_bant_arrival",
+      "later": "G:conflux_reunion",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "fph_origins_2015",
+      "source_url": "https://magic.wizards.com/en/news/feature/worlds-magic-origins-2015-07-09",
+      "source_title": "The Worlds of Magic Origins",
+      "quote": "Alara has since been reunited, and Bant is now one region on a larger plane. But at the time of Gideon's arrival, Bant was entirely isolated",
+      "quote_sha256": "74fa6bed31bd4518835ef97f351415ce765e24805ccc8ad3c37d4d4bbac3f729",
+      "note": "The retrospective explicitly distinguishes Gideon's isolated-Bant visit from the later reunion."
+    },
+    {
+      "earlier": "G:conflux_reunion",
+      "later": "G:five_colors_return",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "up_alara",
+      "source_url": "https://magic.wizards.com/en/story/alara-plane",
+      "source_title": "Alara",
+      "quote": "they have converged into one, and the rejoined plane flows with all five colors of mana once more",
+      "quote_sha256": "3040bbe34670289429bb7318e039a42fef0a637192f33787e5396266230d77cb",
+      "note": "Five-color mana describes Alara after the shards have rejoined, without any AR calendar conversion."
+    },
+    {
+      "earlier": "G:conflux_reunion",
+      "later": "G:borders_dissolve",
+      "relation": "DURING_OR_AFTER_START",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "up_alara",
+      "source_url": "https://magic.wizards.com/en/story/alara-plane",
+      "source_title": "Alara",
+      "quote": "As the boundaries between the shards dissolve, cultures clash and wars ensue.",
+      "quote_sha256": "94f614528c7114361c651960787fbb81d5436696ceaab3a07e3c6e2878652569",
+      "note": "The plane overview describes reunification and dissolving former borders as the same transition, not strictly ordered completed events."
+    },
+    {
+      "earlier": "G:borders_dissolve",
+      "later": "G:shard_wars",
+      "relation": "DURING_OR_AFTER_START",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "up_alara",
+      "source_url": "https://magic.wizards.com/en/story/alara-plane",
+      "source_title": "Alara",
+      "quote": "As the boundaries between the shards dissolve, cultures clash and wars ensue.",
+      "quote_sha256": "94f614528c7114361c651960787fbb81d5436696ceaab3a07e3c6e2878652569",
+      "note": "The wars begin AS borders dissolve, not after every border has finished dissolving; deliberately not a BEFORE edge."
+    },
+    {
       "earlier": "S:serra_creates_realm",
       "later": "S:urza_flees",
       "relation": "BEFORE",
@@ -2557,6 +2726,27 @@
     ],
     "D:valgavoth_bound": [
       "D:marina_meets"
+    ],
+    "G:borders_dissolve": [],
+    "G:conflux_reunion": [
+      "G:five_colors_return"
+    ],
+    "G:five_colors_return": [],
+    "G:gideon_bant_arrival": [
+      "G:conflux_reunion",
+      "G:five_colors_return"
+    ],
+    "G:shard_wars": [],
+    "G:shards_isolated": [
+      "G:conflux_reunion",
+      "G:five_colors_return",
+      "G:gideon_bant_arrival"
+    ],
+    "G:unknown_sundering": [
+      "G:conflux_reunion",
+      "G:five_colors_return",
+      "G:gideon_bant_arrival",
+      "G:shards_isolated"
     ],
     "H:glissa_defeats_memnarch": [
       "H:karn_restores_order"
@@ -3046,11 +3236,12 @@
     "The Weatherlight leaves Mercadia to defend Dominaria after its strike, but the 2008 account does not strictly date that departure against the later Rath overlay.",
     "Original Mirrodin history in the 2008 account is an independent H strand: its mysterious contagion is not automatically identified with later oil accounts or assigned a relative order against the New Phyrexia P strand.",
     "The official Dominaria synopsis and 2008 Kamigawa explanation establish a Dominarian-rift effect on Kamigawa, but not the strict order of the Kami War, the Mending and the Phyrexian invasion.",
+    "Alara: the cause of the original Sundering remains unknown; Gideon arrived during Bant's isolation before the Conflux, but the border collapse and inter-shard wars are overlapping, not independently ordered events. No cross-plane synchrony with the Mending or an invented Sundering/Bolas identity is supplied.",
     "Karn's creation is independently source-bridged to the legacy ledger; his later profile-era motives and world corruption do not automatically establish a SAME_EVENT link to the separate 2008 Mirrodin contagion account.",
     "Serra's Realm: the retrospective does not order the end of Radiant's administration relative to Urza's final powerstone extraction, even though both follow Serra's departure.",
     "A DURING_OR_AFTER_START relation is not a strict BEFORE edge and never participates in transitive ordering.",
     "Unknown original plane names, absolute AR years and missing historical events are not supplied.",
     "This source-local supplement does not replace the original Packs A–C chronology or certify L244."
   ],
-  "content_sha256": "1aed42054ab96fdfc76615d4ee05ef1563a2c1b724f0301731e1a8ac1b8f547e"
+  "content_sha256": "f5b3570159b0d54d9fb1678aa413a0fac010a2fc92b329d6bbdddfe7acbd160c"
 }

@@ -23,8 +23,8 @@ class SourceEventSequencesTests(unittest.TestCase):
         sig=d.pop('content_sha256')
         self.assertEqual(sig,S.digest(d))
         self.assertEqual(self.current['counts'],{
-            'strands':12,'events':114,'strict_edges':93,'non_ordering_relations':3,
-            'ordered_pairs':371,'total_pairs':6441,'verified_legacy_bridges':8,
+            'strands':13,'events':121,'strict_edges':97,'non_ordering_relations':5,
+            'ordered_pairs':381,'total_pairs':7260,'verified_legacy_bridges':8,
         })
 
     def test_source_proofs_have_original_claim_ids_and_digest(self):

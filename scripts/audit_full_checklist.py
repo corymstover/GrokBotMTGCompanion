@@ -55,7 +55,7 @@ OPEN = {
     "Maintain an explicit coverage/gaps inventory": ("Under review", "ONGOING_SOURCE_TRIAGE", "Dated coverage inventory exists, but future sources and gap reports remain ongoing."),
     "Answer obscure lore and chronology": ("Under review", "QA_COVERAGE", "Cited Q&A works on bounded claims; unsupported questions remain UNKNOWN."),
     "Integrate card, lore and rules search": ("Under review", "QA_COVERAGE", "Cross-domain answer routes and current rules edges need further breadth."),
-    "Test difficult representative queries": ("Under review", "QA_COVERAGE", "67 representative acceptance questions plus independent chronology and graph-path matrices are regression samples, not exhaustive interaction coverage."),
+    "Test difficult representative queries": ("Under review", "QA_COVERAGE", "72 representative acceptance questions plus independent chronology and graph-path matrices are regression samples, not exhaustive interaction coverage."),
 }
 
 
