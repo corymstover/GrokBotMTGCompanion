@@ -9,11 +9,11 @@
   "input_sha256": {
     "graph": {
       "path": "data/multiverse_graph/multiverse_graph.json",
-      "sha256": "ac7fe421b45efb8a6b8210c7de87f0cb90d989d59bed10d4c8c9751b0094740a"
+      "sha256": "16018efb043d93e7781af42224edffe081744d0daa506c29ebc27715516c9c24"
     },
     "plane_histories": {
       "path": "data/lore_research/plane_history_dossiers_2026-10-30.json",
-      "sha256": "438dc6a0042f9e810402cbdd85ad8830c6056d66ef8324d02dc441343a95c0f2"
+      "sha256": "89c9aa829336385be0376b7477dc8a7c43cc59f00503450f2aeeb49f2c30e001"
     },
     "chronology": {
       "path": "data/lore_research/relative_chronology_2026-10-30.json",
@@ -927,7 +927,7 @@
       "sources": [
         "https://magic.wizards.com/en/news/magic-story/world-class-2017-11-29"
       ],
-      "response_sha256": "65d780d0f65f9e132a0ba4f99ed98544c2f60533b5bc46f86a238f53ec64aa5b",
+      "response_sha256": "132fd1017a2de8a2cc43df63ad0c295cb3deb4d461bb7534b12f2aa76a2d1666",
       "direct_claims": 5,
       "chronology_relation": null,
       "known_limitations": [
@@ -1264,5 +1264,5 @@
     "python3 scripts/update_multiverse_progress_tracker.py --check"
   ],
   "owner_review_status": "PENDING_NOT_REQUESTED_UNTIL_ENGINEERING_EVIDENCE_AND_CI_COMPLETE",
-  "content_sha256": "ef0c62e5e6a13ab4da58afacb454a678e13013e03e4682f18a32de1014fcbc96"
+  "content_sha256": "d6e92d5ad892b14735f21b8af408cb62f2f64201cc4b936ed30e698650a59b0d"
 }

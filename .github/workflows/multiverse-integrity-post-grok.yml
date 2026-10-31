@@ -63,6 +63,7 @@ on:
       - 'tests/test_p5_four_plane_histories.py'
       - 'tests/test_p5_four_more_plane_histories.py'
       - 'tests/test_p5_last_four_thin_planes.py'
+      - 'tests/test_bablovia_unset_continuity.py'
       - 'tests/test_plane_context_claims.py'
       - 'tests/test_lore_pack_c5_invasion_outcome.py'
       - 'tests/test_lore_pack_alara.py'
@@ -138,6 +139,7 @@ on:
       - 'tests/test_p5_four_plane_histories.py'
       - 'tests/test_p5_four_more_plane_histories.py'
       - 'tests/test_p5_last_four_thin_planes.py'
+      - 'tests/test_bablovia_unset_continuity.py'
       - 'tests/test_plane_context_claims.py'
       - 'tests/test_lore_pack_c5_invasion_outcome.py'
       - 'tests/test_lore_pack_alara.py'
@@ -175,6 +177,7 @@ jobs:
           python3 -m unittest discover -s tests -p 'test_p5_four_more_plane_histories.py' -q
           python3 scripts/audit_p5_last_four_thin_planes.py --check
           python3 -m unittest discover -s tests -p 'test_p5_last_four_thin_planes.py' -q
+          python3 -m unittest discover -s tests -p 'test_bablovia_unset_continuity.py' -q
       - name: Confidence and graph regression tests
         run: |
           python3 -m unittest discover -s tests -p 'test_mv_ask*.py' -q

@@ -92,6 +92,6 @@ python3 scripts/certification_dry_run.py --check
 python3 scripts/update_multiverse_progress_tracker.py --check
 ```
 
-Packet SHA-256 (canonical JSON): `ef0c62e5e6a13ab4da58afacb454a678e13013e03e4682f18a32de1014fcbc96`
+Packet SHA-256 (canonical JSON): `d6e92d5ad892b14735f21b8af408cb62f2f64201cc4b936ed30e698650a59b0d`
 
 **No decks were built, modified, reviewed or approved.**
