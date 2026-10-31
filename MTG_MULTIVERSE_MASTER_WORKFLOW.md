@@ -1,6 +1,6 @@
 # MTG Multiverse Companion — Master Workflow & Progress Checklist
 
-**Version:** 2.81
+**Version:** 2.82
 **Checkpoint date:** 2026-10-31
 **Repository:** [corymstover/GrokBotMTGCompanion](https://github.com/corymstover/GrokBotMTGCompanion)  
 **Purpose:** Durable project roadmap and handoff document. Update this file after verified milestone work; do not treat historical figures as live counters.
@@ -22,6 +22,30 @@ foundation release may document inherently unresolved canon and future
 maintenance; it must never claim exhaustive knowledge of all MTG history.
 The 62 approved Grixis decks, their hashes and all owner gates remain intact.
 Only a new explicit request from Cory can override the Phase 6 hold.
+
+**v2.82 Phase 3/4/7 adversarial path, chronology and current-leader checks
+(2026-10-31):** Independently reproduced and corrected two trust-boundary
+bugs in the read-only knowledge foundation. Graph navigation previously
+returned a **truncated prefix** when the only path exceeded `max_depth` and
+could silently traverse `CANON_DISPUTED` and `ALTERNATE_CONTINUITY` claims as
+ordinary evidence. Paths now enforce the limit during search, use only
+source-cited `CANON_CONFIRMED` edges by default, expose original edge direction
+versus reverse traversal, and require explicit `--include-qualified` to inspect
+weaker or alternate-world paths. A plain present-tense question such as
+"Who leads the Izzet?" was previously labelled `VERIFIED` on the strength of
+the latest **published** citation; now present-tense leader questions retain
+cited history while explicitly leaving the current officeholder unverified.
+Past-tense, source-supported answers remain available. A separate independent
+reachability oracle validates **all 6,441 unordered pairs across 114 events
+and 12 source-local chronology strands**, including all supported `BEFORE`,
+`AFTER`, `UNKNOWN` and overlapping relations; eight qualified cross-ledger
+bridges and the 56-event legacy ledger remain unchanged. An adversarial graph
+fixture prevents unsourced/alternate shortcuts, and CI now exercises both
+new suites. Three additional Q&A cases bring the bounded Phase 8 packet to
+**67 cases (NOT CERTIFIED)**. This is an integrity/correctness milestone, not
+new lore coverage or L244 closure; **89/137 checked, 48 open,
+NOT_RELEASE_READY**. No deck, snapshot or owner record changed. See
+`research/PHASE3_PHASE7_PATH_AND_CURRENT_LEADER_SAFETY_2026-10-31.md`.
 
 **v2.81 Phase 4 Bolas/Ugin imprisonment-to-escape chronology (2026-10-31):**
 Added a **seven-event, six-strict-edge** official-source chronology for the
@@ -1051,7 +1075,7 @@ explicitly lifts the hold).
   - v2.60: a source-graded, 12-case knowledge-only review packet was generated and CI-gated; v2.62 extended it to 15 dated set/printing/ruling cases, v2.63 to 17 with bounded New Phyrexia chronology, v2.64 to 22 with five character/faction histories, **v2.65 to 26** with four newly deepened plane histories, and **v2.66 to 30 unique questions** for four more plane histories and a duplicate-ID correction. The dry-run distinguishes this **completed engineering packet** from pending exact-head release CI and Cory's foundation-scope decision. No release checklist acceptance is inferred.
 - [ ] Treat continual future MTG releases as an ongoing maintenance track rather than a permanently finishable backlog.
 
-## Immediate execution queue — v2.81 FOUNDATION FIRST (2026-10-31)
+## Immediate execution queue — v2.82 FOUNDATION FIRST (2026-10-31)
 
 1. **Phase 4 — Verified in-universe chronology:** expand the source-quoted BEFORE/AFTER/UNKNOWN event order, resolve high-value L244 gaps where primary evidence exists, and retain unknown/disputed ordering instead of inventing total dates. Keep release chronology separate.
 2. **Phases 2/5 — Comprehensive history:** systematically deepen thin plane dossiers, major factions, characters, wars, artifacts and cross-plane consequences; record both coverage and missing primary sources. Currently thin registered planes remain a priority, not a census of all planes; regenerate the exact count from the dossier rather than treating this prose as a live counter.

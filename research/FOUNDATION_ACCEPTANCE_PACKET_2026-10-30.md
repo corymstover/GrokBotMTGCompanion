@@ -30,6 +30,9 @@ This source-graded packet is reproducible from the repository, with exact input 
 | Who killed Elesh Norn? | `ask->lore:killed` | `VERIFIED` | 1 |
 | Explain the continuity of Ugin | `ask->continuity` | `QUALIFIED` | 27 |
 | Who currently leads the Orzhov Syndicate? | `ask->lore:led|leader_of|leads` | `QUALIFIED` | 2 |
+| Who leads the Izzet? | `ask->lore:led|leader_of|leads` | `QUALIFIED` | 2 |
+| Who rules the Azorius? | `ask->lore:ruled|led|leader_of|leads` | `QUALIFIED` | 3 |
+| Who led the Izzet? | `ask->lore:led|leader_of|leads` | `VERIFIED` | 2 |
 | Did Konda imprisons a part happen before Kyodai and Michiko defeat Konda? | `ask->chronology` | `QUALIFIED` | 1 |
 | Did Konda imprisons a part happen before Marina lures her bullies? | `ask->chronology` | `QUALIFIED` | 0 |
 | Can Sol Ring go in a Urza, Lord High Artificer deck? | `ask->rules:include` | `VERIFIED` | 1 |
@@ -107,6 +110,6 @@ python3 scripts/certification_dry_run.py --check
 python3 scripts/update_multiverse_progress_tracker.py --check
 ```
 
-Packet SHA-256 (canonical JSON): `b999ca0c75eb950ffe6f70f91c45164e6defe883cc725c77b53887c54c7c3e27`
+Packet SHA-256 (canonical JSON): `cc05e4807e0fbdb21ca9b2564cdd3198e781de62606cedb12eb7ffb13b1bca47`
 
 **No decks were built, modified, reviewed or approved.**

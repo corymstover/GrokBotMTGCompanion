@@ -116,7 +116,7 @@ The machine-readable JSON records every task, its original workflow line, triage
 - **K121 · Under review · QA_COVERAGE** — Integrate card, lore and rules search for difficult research questions; defer deck recommendations and deckbuilding flows until post-foundation Phase 6.
   - Cross-domain answer routes and current rules edges need further breadth.
 - **K122 · Under review · QA_COVERAGE** — Test difficult representative queries, cross-references, and interaction explanations.
-  - 64 representative acceptance questions are a regression sample, not exhaustive interaction coverage.
+  - 67 representative acceptance questions plus independent chronology and graph-path matrices are regression samples, not exhaustive interaction coverage.
 
 ## Phase 8 — Release quality and continuing upkeep
 

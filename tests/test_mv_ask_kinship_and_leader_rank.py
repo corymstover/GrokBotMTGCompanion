@@ -84,9 +84,11 @@ class LeaderRankSafety(unittest.TestCase):
                 self.assertIsNone(lead['verified_requested_leader'])
                 self.assertEqual(lead['most_recent_cited']['node'], 'character:ral_zarek')
 
-    def test_nonranked_leader_query_still_has_a_cited_answer(self):
+    def test_nonranked_leader_query_preserves_claims_but_not_current_office(self):
         env = A.ask('Who leads the Izzet?')
-        self.assertEqual(env['confidence'], 'VERIFIED')
+        self.assertEqual(env['confidence'], 'QUALIFIED')
+        self.assertIn('CURRENT_LEADER_NOT_ESTABLISHED', env['flags'])
+        self.assertIsNone(env['result']['leadership']['verified_current_leader'])
         self.assertNotIn('REQUESTED_LEADER_CHRONOLOGY_NOT_ESTABLISHED', env['flags'])
 
 

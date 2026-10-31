@@ -16,7 +16,9 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 import mv_ask as A  # noqa: E402
 
-# (phrasings, expected claim, expected answering node, expected confidence)
+# (phrasings, expected claim, expected answering node, cited-claim confidence)
+# v2.82: present-tense leadership answers now qualify current office separately
+# even where the underlying historical claim remains CANON_CONFIRMED.
 CASES = [
     (["Who killed the Buried Lord?", "Who was the Buried Lord killed by?", "Who beheaded the Buried Lord?"],
      "MV016", "character:liesa", "VERIFIED"),
@@ -63,10 +65,17 @@ class RephrasedB8(unittest.TestCase):
             for q in phrasings:
                 with self.subTest(q=q):
                     env = A.ask(q)
-                    self.assertEqual(env["confidence"], conf, q)
+                    present_leader = ('leadership' in env.get('result', {}) and
+                                      A._PRESENT_LEADER_QUESTION.search(q) is not None)
+                    self.assertEqual(env["confidence"], 'QUALIFIED' if present_leader else conf, q)
+                    if present_leader:
+                        self.assertIn('CURRENT_LEADER_NOT_ESTABLISHED', env['flags'])
+                        self.assertIsNone(env['result']['leadership']['verified_current_leader'])
                     hits = [r for r in _rows(env) if r["claim"] == claim]
                     self.assertTrue(hits, f"{q}: {claim} not among {[r['claim'] for r in _rows(env)]}")
                     self.assertEqual(hits[0]["node"], node)
+                    self.assertEqual(hits[0]['status'],
+                                     'CANON_CONFIRMED' if conf == 'VERIFIED' else 'CANON_IMPLIED')
                     for u in env["sources"]:
                         self.assertTrue(u.startswith("https://magic.wizards.com/"), u)
 

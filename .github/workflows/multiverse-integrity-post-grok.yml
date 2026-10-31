@@ -53,11 +53,13 @@ on:
       - 'data/multiverse_audits/**'
       - 'tests/test_mv_ask*.py'
       - 'tests/test_graph_integrity_post_grok.py'
+      - 'tests/test_graph_path_evidence_safety.py'
       - 'tests/test_graph_display_name_variants.py'
       - 'tests/test_printing_card_representations.py'
       - 'tests/test_multiverse_progress_tracker.py'
       - 'tests/test_phase5_chronology_coverage.py'
       - 'tests/test_source_event_sequences.py'
+      - 'tests/test_chronology_global_pair_matrix.py'
       - 'tests/test_chronology_same_ledger_bridges.py'
       - 'tests/test_phase4_mercadia_mirrodin_sequences.py'
       - 'tests/test_phase4_dominaria_karn_chronology.py'
@@ -134,11 +136,13 @@ on:
       - 'data/multiverse_audits/**'
       - 'tests/test_mv_ask*.py'
       - 'tests/test_graph_integrity_post_grok.py'
+      - 'tests/test_graph_path_evidence_safety.py'
       - 'tests/test_graph_display_name_variants.py'
       - 'tests/test_printing_card_representations.py'
       - 'tests/test_multiverse_progress_tracker.py'
       - 'tests/test_phase5_chronology_coverage.py'
       - 'tests/test_source_event_sequences.py'
+      - 'tests/test_chronology_global_pair_matrix.py'
       - 'tests/test_chronology_same_ledger_bridges.py'
       - 'tests/test_phase4_mercadia_mirrodin_sequences.py'
       - 'tests/test_phase4_dominaria_karn_chronology.py'
@@ -192,6 +196,7 @@ jobs:
         run: |
           python3 -m unittest discover -s tests -p 'test_mv_ask*.py' -q
           python3 -m unittest discover -s tests -p 'test_graph_integrity_post_grok.py' -q
+          python3 -m unittest discover -s tests -p 'test_graph_path_evidence_safety.py' -q
           python3 -m unittest discover -s tests -p 'test_graph_display_name_variants.py' -q
           python3 -m unittest discover -s tests -p 'test_printing_card_representations.py' -q
           python3 -m unittest discover -s tests -p 'test_phase1b_snapshot_cache_diagnostics.py' -q
@@ -206,6 +211,7 @@ jobs:
           python3 scripts/query_lore_chronology.py --check
           python3 scripts/source_event_sequences.py --check
           python3 -m unittest discover -s tests -p 'test_source_event_sequences.py' -q
+          python3 -m unittest discover -s tests -p 'test_chronology_global_pair_matrix.py' -q
           python3 -m unittest discover -s tests -p 'test_chronology_same_ledger_bridges.py' -q
           python3 -m unittest discover -s tests -p 'test_phase4_mercadia_mirrodin_sequences.py' -q
           python3 -m unittest discover -s tests -p 'test_phase4_dominaria_karn_chronology.py' -q

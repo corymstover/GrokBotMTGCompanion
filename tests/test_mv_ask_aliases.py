@@ -40,7 +40,8 @@ class FactionAliases(unittest.TestCase):
     def test_alias_match_is_flagged_and_answers(self):
         env = A.ask("Who leads the Izzet?")
         self.assertIn("MATCHED_BY_FACTION_ALIAS", env["flags"])
-        self.assertEqual(env["confidence"], "VERIFIED")
+        self.assertEqual(env["confidence"], "QUALIFIED")
+        self.assertIn("CURRENT_LEADER_NOT_ESTABLISHED", env["flags"])
         self.assertEqual(env["result"]["leadership"]["most_recent_cited"]["node"], "character:ral_zarek")
 
     def test_unknown_short_name_not_found(self):
