@@ -173,18 +173,24 @@
     {
       "id": "plane:bablovia",
       "name": "Bablovia",
-      "claim_edges": 1,
-      "distinct_claims": 1,
+      "claim_edges": 5,
+      "distinct_claims": 5,
       "claims": [
+        "LFP001",
+        "LFP002",
+        "LFP003",
+        "LFP004",
         "SSX020"
       ],
       "official_source_ids": [
+        "lf_bablovia_story",
         "wc"
       ],
       "grades_present": [
+        "ALTERNATE_CONTINUITY",
         "CANON_CONFIRMED"
       ],
-      "research_priority": "THIN_DIRECT_EVIDENCE",
+      "research_priority": "EXPAND_NARRATIVE_DEPTH",
       "limitation": "Direct graph edges only; not the complete plane history or a canon completeness score."
     },
     {
@@ -520,14 +526,18 @@
     {
       "id": "plane:meditation_realm",
       "name": "Meditation Realm",
-      "claim_edges": 3,
-      "distinct_claims": 3,
+      "claim_edges": 5,
+      "distinct_claims": 5,
       "claims": [
         "A009",
+        "LFP005",
+        "LFP006",
         "RF013",
         "TD021"
       ],
       "official_source_ids": [
+        "lf_meditation_chronicle",
+        "lf_meditation_planechase",
         "lorwyn2",
         "rf_guide",
         "tdm7",
@@ -537,7 +547,7 @@
         "CANON_CONFIRMED",
         "CANON_IMPLIED"
       ],
-      "research_priority": "THIN_DIRECT_EVIDENCE",
+      "research_priority": "EXPAND_NARRATIVE_DEPTH",
       "limitation": "Direct graph edges only; not the complete plane history or a canon completeness score."
     },
     {
@@ -577,18 +587,24 @@
     {
       "id": "plane:muraganda",
       "name": "Muraganda",
-      "claim_edges": 1,
-      "distinct_claims": 1,
+      "claim_edges": 5,
+      "distinct_claims": 5,
       "claims": [
-        "DF024"
+        "DF024",
+        "LFP007",
+        "LFP008",
+        "LFP009",
+        "LFP010"
       ],
       "official_source_ids": [
-        "dft_beast"
+        "dft_beast",
+        "lf_muraganda_guide"
       ],
       "grades_present": [
+        "CANON_CONFIRMED",
         "CANON_IMPLIED"
       ],
-      "research_priority": "THIN_DIRECT_EVIDENCE",
+      "research_priority": "EXPAND_NARRATIVE_DEPTH",
       "limitation": "Direct graph edges only; not the complete plane history or a canon completeness score."
     },
     {
@@ -786,20 +802,26 @@
     {
       "id": "plane:skalla",
       "name": "Skalla",
-      "claim_edges": 2,
-      "distinct_claims": 2,
+      "claim_edges": 5,
+      "distinct_claims": 5,
       "claims": [
         "GR001",
+        "LFP011",
+        "LFP012",
+        "LFP013",
         "UB028"
       ],
       "official_source_ids": [
         "gr_unb2",
+        "lf_skalla_design",
+        "lf_skalla_unbowed",
+        "lf_vivien_bio",
         "ub_vivien"
       ],
       "grades_present": [
         "CANON_CONFIRMED"
       ],
-      "research_priority": "THIN_DIRECT_EVIDENCE",
+      "research_priority": "EXPAND_NARRATIVE_DEPTH",
       "limitation": "Direct graph edges only; not the complete plane history or a canon completeness score."
     },
     {

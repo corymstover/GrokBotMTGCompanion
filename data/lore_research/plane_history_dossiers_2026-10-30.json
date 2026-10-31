@@ -2,18 +2,19 @@
   "schema": "plane-history-dossiers/v2",
   "as_of": "2026-10-30",
   "status": "PRELIMINARY_RESEARCH_NOT_OWNER_APPROVED",
-  "source_graph_sha256": "c2dd3c26fa079d33c79f073694dc0a187569acd823c093712ad604f65187fba6",
+  "source_graph_sha256": "a09decfc25f0e0c812c1c742f64b6fe456a9b545f049982dcd65720753d1788a",
   "scope": "Named graph Plane nodes, direct incident claims, and an independently labeled curated subset of already cited on-plane story claims.",
   "chronology_policy": "Never infer ordering from article date, release date or an era_label; explicit dated quotes are retained verbatim as quoted metadata only.",
   "counts": {
     "registered_planes": 33,
     "planes_with_direct_claims": 33,
-    "direct_claim_edges": 219,
-    "thin_planes_fewer_than_five_claims": 4,
+    "direct_claim_edges": 232,
+    "thin_planes_fewer_than_five_claims": 0,
     "planes_with_curated_context": 4,
     "distinct_contextual_claims": 53,
     "claim_edge_grades": {
-      "CANON_CONFIRMED": 191,
+      "ALTERNATE_CONTINUITY": 4,
+      "CANON_CONFIRMED": 200,
       "CANON_DISPUTED": 2,
       "CANON_IMPLIED": 25,
       "OPEN_QUESTION": 1
@@ -38,6 +39,7 @@
         {
           "claim_id": "ALA001",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Alara had five long-separated shards: Bant, Esper, Grixis, Jund, and Naya.",
           "limitation": "This profile does not supply the calendar date when the original division occurred. These are regions/shards, not five independent present-day planes.",
           "relation": "was_divided_into",
@@ -62,6 +64,7 @@
         {
           "claim_id": "ALA001",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Alara had five long-separated shards: Bant, Esper, Grixis, Jund, and Naya.",
           "limitation": "This profile does not supply the calendar date when the original division occurred. These are regions/shards, not five independent present-day planes.",
           "relation": "was_divided_into",
@@ -86,6 +89,7 @@
         {
           "claim_id": "ALA001",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Alara had five long-separated shards: Bant, Esper, Grixis, Jund, and Naya.",
           "limitation": "This profile does not supply the calendar date when the original division occurred. These are regions/shards, not five independent present-day planes.",
           "relation": "was_divided_into",
@@ -110,6 +114,7 @@
         {
           "claim_id": "ALA001",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Alara had five long-separated shards: Bant, Esper, Grixis, Jund, and Naya.",
           "limitation": "This profile does not supply the calendar date when the original division occurred. These are regions/shards, not five independent present-day planes.",
           "relation": "was_divided_into",
@@ -134,6 +139,7 @@
         {
           "claim_id": "ALA001",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Alara had five long-separated shards: Bant, Esper, Grixis, Jund, and Naya.",
           "limitation": "This profile does not supply the calendar date when the original division occurred. These are regions/shards, not five independent present-day planes.",
           "relation": "was_divided_into",
@@ -158,6 +164,7 @@
         {
           "claim_id": "ALA002",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Each of Alara's five separated shards had access to three mana colors during its isolation.",
           "limitation": "The profile states the three-color condition generally; the separate identity of each shard's three colors requires its own card/color evidence.",
           "relation": "separated_shards_had",
@@ -182,6 +189,7 @@
         {
           "claim_id": "ALA003",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Following the convergence, the rejoined Alara again flowed with all five mana colors.",
           "limitation": "The profile supplies no Dominarian AR year for the convergence.",
           "relation": "reunited_with",
@@ -206,6 +214,7 @@
         {
           "claim_id": "ALA004",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "As shard boundaries dissolved, formerly isolated cultures clashed and wars broke out across reunited Alara.",
           "limitation": "The wars and convergence overlap in this prose; do not convert their descriptions into a precise BEFORE ordering in the master timeline.",
           "relation": "reunion_spurred",
@@ -230,6 +239,7 @@
         {
           "claim_id": "UP001",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Nicol Bolas engineered the reunion of Alara's five shards to feed on its mana.",
           "limitation": "",
           "relation": "manipulated",
@@ -269,6 +279,7 @@
         {
           "claim_id": "AER015",
           "grade": "CANON_IMPLIED",
+          "continuity": "",
           "statement": "Liliana tells the Gatewatch that Bolas completely controls Amonkhet.",
           "limitation": "Liliana's in-character report; her 'he created it' is explicitly hedged ('As far as I know') and is not modelled as a claim.",
           "relation": "controls",
@@ -293,6 +304,7 @@
         {
           "claim_id": "AKH001",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "The five Gatewatch members come to Amonkhet to slay Nicol Bolas.",
           "limitation": "",
           "relation": "travelled_to",
@@ -317,6 +329,7 @@
         {
           "claim_id": "AKH002",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "On Amonkhet Nicol Bolas is the God-Pharaoh.",
           "limitation": "",
           "relation": "worshipped_as",
@@ -346,6 +359,7 @@
         {
           "claim_id": "AKH003",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Bolas has overwritten Amonkhet's past (official recap).",
           "limitation": "",
           "relation": "overwrote_history_of",
@@ -370,6 +384,7 @@
         {
           "claim_id": "AKH004",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Liliana came to Amonkhet to kill another of her demon creditors.",
           "limitation": "",
           "relation": "hunts_demon_creditor_on",
@@ -394,6 +409,7 @@
         {
           "claim_id": "AKH007",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Kefnet is Amonkhet's God of Knowledge.",
           "limitation": "",
           "relation": "god_of",
@@ -418,6 +434,7 @@
         {
           "claim_id": "AKH008",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "The God-Pharaoh returns and the five Hours arrive (official recap).",
           "limitation": "",
           "relation": "returned_to",
@@ -442,6 +459,7 @@
         {
           "claim_id": "AKH012",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Chandra planeswalks away from the losing fight.",
           "limitation": "",
           "relation": "fled",
@@ -466,6 +484,7 @@
         {
           "claim_id": "AKH013",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Wounded, Gideon leaves Amonkhet through the Blind Eternities.",
           "limitation": "",
           "relation": "fled",
@@ -490,6 +509,7 @@
         {
           "claim_id": "AKH017",
           "grade": "CANON_IMPLIED",
+          "continuity": "",
           "statement": "Bolas came to Amonkhet decades before the story and shaped its present order around sixty years earlier.",
           "limitation": "'Several decades' and 'sixty years ago' are Bolas's point-of-view narration relative to the story; kept as relative dates, not absolute years.",
           "relation": "prepared",
@@ -518,6 +538,7 @@
         {
           "claim_id": "AKH019",
           "grade": "CANON_IMPLIED",
+          "continuity": "",
           "statement": "On Amonkhet the dead always rise again; this is the Curse of Wandering.",
           "limitation": "Revealed to Nissa as a vision of the plane's own voice, not narrated as a general rule.",
           "relation": "afflicts",
@@ -542,6 +563,7 @@
         {
           "claim_id": "AKH030",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "The official plane page states that Amonkhet's God-Pharaoh is actually Nicol Bolas.",
           "limitation": "Object is the plane; the precise relation is 'God-Pharaoh of Amonkhet'.",
           "relation": "identified_with",
@@ -566,6 +588,7 @@
         {
           "claim_id": "AKH031",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Each of Amonkhet's five gods oversees one of five trials: solidarity, knowledge, strength, ambition and zeal.",
           "limitation": "",
           "relation": "located_on",
@@ -590,6 +613,7 @@
         {
           "claim_id": "DF016",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Ketramose is one of two new risen deities on Amonkhet.",
           "limitation": "",
           "relation": "located_on",
@@ -614,6 +638,7 @@
         {
           "claim_id": "DF017",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Sab-Sunen is the other new risen deity on Amonkhet, alongside Hazoret.",
           "limitation": "",
           "relation": "located_on",
@@ -638,6 +663,7 @@
         {
           "claim_id": "SSX013",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "The Gatewatch travels to Amonkhet (2017).",
           "limitation": "",
           "relation": "traveled_to",
@@ -677,6 +703,7 @@
         {
           "claim_id": "EC006",
           "grade": "CANON_IMPLIED",
+          "continuity": "",
           "statement": "Dina leads Strixhaven students on a sample-collecting trip to the Harrier's Wood, an hour's walk from campus.",
           "limitation": "Location on Arcavios is inferred from the campus and Strixhaven references.",
           "relation": "located_on",
@@ -701,6 +728,7 @@
         {
           "claim_id": "FPH001",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "The 2021 guide describes Arcavios's birth amid the overlapping mana of two planes.",
           "limitation": "A source's origin account, not an identified pair of parent planes, a mechanism of planar fusion, or a dated universal chronology.",
           "relation": "formed_amid",
@@ -725,6 +753,7 @@
         {
           "claim_id": "FPH002",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Five founder dragons hatched from luminous mana vortices during Arcavios's early history.",
           "limitation": "The guide presents the dragons' origin on Arcavios, not their current locations, a complete dragon genealogy or their exact age in AR years.",
           "relation": "birthed",
@@ -749,6 +778,7 @@
         {
           "claim_id": "FPH003",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "The five dragons founded Strixhaven University on Arcavios roughly seven centuries before the guide's era.",
           "limitation": "Seven centuries is relative to the guide's narrative viewpoint; it is not converted into a fixed in-universe calendar date or a claim about the university today.",
           "relation": "historically_founded_in",
@@ -773,6 +803,7 @@
         {
           "claim_id": "SS023",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Chandra is on Arcavios during the Secrets of Strixhaven story.",
           "limitation": "",
           "relation": "travelled_to",
@@ -1292,6 +1323,7 @@
         {
           "claim_id": "NP001",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "The plane was once named Argentum, then Mirrodin, and now bears a third name (New Phyrexia).",
           "limitation": "",
           "relation": "formerly_named",
@@ -1316,6 +1348,7 @@
         {
           "claim_id": "TPH008",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Karn created the metallic world originally called Argentum, later called Mirrodin.",
           "limitation": "This is the historical plane creation, not a statement about Karn's control or the plane's current name after later events.",
           "relation": "created_by",
@@ -1340,6 +1373,7 @@
         {
           "claim_id": "TPH009",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Karn's creation Memnarch was assigned to watch over the plane when it was called Argentum.",
           "limitation": "The claim concerns his original caretaker role, not his later corruption or continuing guardianship.",
           "relation": "was_guarded_by",
@@ -1364,6 +1398,7 @@
         {
           "claim_id": "TPH010",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "A contagion introduced to Argentum spread into the plane itself, changing its inner core.",
           "limitation": "The 2008 overview describes the early metal-world era; later Phyrexian transformation and the source's historical naming are separate questions.",
           "relation": "was_infected_by",
@@ -1393,6 +1428,7 @@
         {
           "claim_id": "TPH011",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Memnarch renamed Argentum to Mirrodin; this is an earlier naming transition, not its complete later name history.",
           "limitation": "The source describes a past renaming by Memnarch. The plane later bore the name New Phyrexia, so this is not its current canonical name.",
           "relation": "was_renamed_to",
@@ -1427,11 +1463,112 @@
       "id": "plane:bablovia",
       "plane": "Bablovia",
       "evidence_status": "PARTIAL_DIRECT_AND_SEPARATELY_CURATED_CONTEXT",
-      "distinct_claims": 1,
+      "distinct_claims": 5,
       "facts": [
+        {
+          "claim_id": "LFP001",
+          "grade": "ALTERNATE_CONTINUITY",
+          "continuity": "Unstable silver-border Un-set setting",
+          "statement": "In the 2017 Unstable classroom story, Bablovia is described as a five-faction pentarchy.",
+          "limitation": "An in-world student report about the silver-border Un-set world; 'currently' belongs to that story, not to normal Magic continuity or 2026 politics.",
+          "relation": "was_organized_as",
+          "subject": {
+            "id": "plane:bablovia",
+            "name": "Bablovia"
+          },
+          "object": {
+            "id": "faction:bablovian_pentarchy",
+            "name": "Bablovian pentarchy"
+          },
+          "era_label": "bablovia_pentarchy_2017_narrator",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "lf_bablovia_story",
+              "title": "World Class",
+              "url": "https://magic.wizards.com/en/news/magic-story/world-class-2017-11-29"
+            }
+          ]
+        },
+        {
+          "claim_id": "LFP002",
+          "grade": "ALTERNATE_CONTINUITY",
+          "continuity": "Unstable silver-border Un-set setting",
+          "statement": "A Bablovian classroom account dates Calvin Granderson's Order of the Widget to 54 years before that narration.",
+          "limitation": "The relative '54 years' comes from one student narrator in a 2017 Unstable tale; it is neither an AR-year conversion nor a confirmed ordinary-canon chronology.",
+          "relation": "saw_founding_of",
+          "subject": {
+            "id": "plane:bablovia",
+            "name": "Bablovia"
+          },
+          "object": {
+            "id": "faction:order_of_the_widget",
+            "name": "Order of the Widget"
+          },
+          "era_label": "bablovia_widget_foundation_54_years_before_story",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "lf_bablovia_story",
+              "title": "World Class",
+              "url": "https://magic.wizards.com/en/news/magic-story/world-class-2017-11-29"
+            }
+          ]
+        },
+        {
+          "claim_id": "LFP003",
+          "grade": "ALTERNATE_CONTINUITY",
+          "continuity": "Unstable silver-border Un-set setting",
+          "statement": "The Unstable classroom narrator traces the Agents of S.N.E.A.K. to a job-share board that developed into an organization.",
+          "limitation": "This is an in-world Unstable explanation on Bablovia, not independently corroborated multiverse history or proof of the faction's present activities.",
+          "relation": "hosted_origins_of",
+          "subject": {
+            "id": "plane:bablovia",
+            "name": "Bablovia"
+          },
+          "object": {
+            "id": "faction:agents_of_sneak",
+            "name": "Agents of S.N.E.A.K."
+          },
+          "era_label": "bablovia_sneak_origins_story_account",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "lf_bablovia_story",
+              "title": "World Class",
+              "url": "https://magic.wizards.com/en/news/magic-story/world-class-2017-11-29"
+            }
+          ]
+        },
+        {
+          "claim_id": "LFP004",
+          "grade": "ALTERNATE_CONTINUITY",
+          "continuity": "Unstable silver-border Un-set setting",
+          "statement": "A Bablovian account attributes the Goblin Explosioneers' emergence as a political faction to Thorna's response to factory opposition.",
+          "limitation": "The classroom account is narrator-mediated and belongs to the Unstable world. It does not imply real-world legal card status or mainline cosmological connection.",
+          "relation": "hosted_formation_of",
+          "subject": {
+            "id": "plane:bablovia",
+            "name": "Bablovia"
+          },
+          "object": {
+            "id": "faction:goblin_explosioneers",
+            "name": "Goblin Explosioneers"
+          },
+          "era_label": "bablovia_goblin_faction_foundation",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "lf_bablovia_story",
+              "title": "World Class",
+              "url": "https://magic.wizards.com/en/news/magic-story/world-class-2017-11-29"
+            }
+          ]
+        },
         {
           "claim_id": "SSX020",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "The Carta Scientia is the oldest document in Bablovia (Unstable, 2017).",
           "limitation": "",
           "relation": "located_in",
@@ -1471,6 +1608,7 @@
         {
           "claim_id": "BL011",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Ral, who appeared as an otterfolk on Bloomburrow, planeswalks away after the adventure.",
           "limitation": "",
           "relation": "left",
@@ -1495,6 +1633,7 @@
         {
           "claim_id": "BL018",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Valley lies within Bloomburrow.",
           "limitation": "",
           "relation": "located_on",
@@ -1519,6 +1658,7 @@
         {
           "claim_id": "BLH001",
           "grade": "CANON_IMPLIED",
+          "continuity": "",
           "statement": "Valley's narrated ancient history recalls powerful Calamity Beasts dominating its environment.",
           "limitation": "This section is an in-world tale presented by Ms. Bumbleflower, not independent historical proof of every event.",
           "relation": "legend_recalls_calamity_dominance",
@@ -1543,6 +1683,7 @@
         {
           "claim_id": "BLH005",
           "grade": "CANON_IMPLIED",
+          "continuity": "",
           "statement": "The Valley account describes a War of Cinders lasting two generations.",
           "limitation": "Two generations is a span within the narrated legend, not an AR date or precisely measured total of all Calamity conflicts.",
           "relation": "legend_recalls",
@@ -1571,6 +1712,7 @@
         {
           "claim_id": "BLH009",
           "grade": "CANON_IMPLIED",
+          "continuity": "",
           "statement": "The Valley tale places a period of peace and settlement after Lily's victory.",
           "limitation": "Narrated relative ordering only; other regions of Bloomburrow are not documented here.",
           "relation": "legend_recounts_peace_after_lily",
@@ -1595,6 +1737,7 @@
         {
           "claim_id": "BLH012",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Valley is a specific small region of Bloomburrow with five described biomes.",
           "limitation": "The five biomes are within Valley, not a complete map or biome count for the entire plane.",
           "relation": "contains_valley_five_biomes",
@@ -1634,6 +1777,7 @@
         {
           "claim_id": "A004",
           "grade": "CANON_DISPUTED",
+          "continuity": "Bolas narrated recollection",
           "statement": "Bolas reports his first planeswalk and discovery of the connected Multiverse.",
           "limitation": "His claim to be the first or alone is a narrator claim, not objective proof of priority over every planeswalker.",
           "relation": "planeswalker_spark_awakening_recounted",
@@ -1658,6 +1802,7 @@
         {
           "claim_id": "C008",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Yawgmoth was a medical genius from Dominaria.",
           "limitation": "The Thran-era origin story (novel The Thran) is not ingested; 'medical genius' is the only biographical detail used.",
           "relation": "native_of",
@@ -1682,6 +1827,7 @@
         {
           "claim_id": "C011",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Yawgmoth used the Phyrexians to launch repeated invasions of his home plane.",
           "limitation": "",
           "relation": "invaded",
@@ -1706,6 +1852,7 @@
         {
           "claim_id": "C026",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Dominaria was the epicenter of temporal-planar fractures; a handful of powerful Planeswalkers mended the rifts.",
           "limitation": "Participants in the Mending are not named in the cited source.",
           "relation": "epicenter_of",
@@ -1730,6 +1877,7 @@
         {
           "claim_id": "RTD008",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Liliana's spark ignited as she fled Dominaria after Josu's transformation.",
           "limitation": "",
           "relation": "spark_ignited_leaving",
@@ -1754,6 +1902,7 @@
         {
           "claim_id": "UB011",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Jaya Ballard was born on Dominaria more than 1,500 years ago.",
           "limitation": "",
           "relation": "originated_from",
@@ -1782,6 +1931,7 @@
         {
           "claim_id": "UB027",
           "grade": "CANON_IMPLIED",
+          "continuity": "",
           "statement": "The profile implies Venser comes from Dominaria.",
           "limitation": "Implied by his spark giving him access beyond Dominaria; not stated as his birthplace.",
           "relation": "originated_from",
@@ -1821,6 +1971,7 @@
         {
           "claim_id": "DH001",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "The original name of the plane that became Duskmourn is no longer known in the 2024 guide.",
           "limitation": "The guide does not furnish the missing name or prove no future story could recover it.",
           "relation": "original_name_forgotten",
@@ -1845,6 +1996,7 @@
         {
           "claim_id": "DH002",
           "grade": "CANON_IMPLIED",
+          "continuity": "",
           "statement": "Surviving artifacts imply the original plane had substantial magical and technical knowledge.",
           "limitation": "The guide explicitly uses 'hint', so a complete history of that civilization is not confirmed.",
           "relation": "ancient_artifacts_suggest",
@@ -1869,6 +2021,7 @@
         {
           "claim_id": "DH003",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Before the Ascension, the plane held at least material, demonic and spirit realms.",
           "limitation": "At least three does not imply exactly three, nor does it fully explain their cosmology.",
           "relation": "once_had_at_least_three_realms",
@@ -1893,6 +2046,7 @@
         {
           "claim_id": "DH008",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "The House's shifting geography is described through five overlapping zones.",
           "limitation": "These are loose categories, not physically fixed or exhaustive barriers.",
           "relation": "house_has_five_zones",
@@ -1917,6 +2071,7 @@
         {
           "claim_id": "DH012",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "The Below is described as the only fixed point amid the House's changing geography.",
           "limitation": "Rumors of an exit in the Below are not verified by the guide and are not asserted here.",
           "relation": "contains_fixed_location",
@@ -1941,6 +2096,7 @@
         {
           "claim_id": "DS002",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Valgavoth expands his prison until the House swallows the whole plane (the Ascension), creating Duskmourn.",
           "limitation": "",
           "relation": "seized_control_of",
@@ -1965,6 +2121,7 @@
         {
           "claim_id": "DS101",
           "grade": "CANON_IMPLIED",
+          "continuity": "",
           "statement": "A second-person welcome to guests 'here in Duskmourn' plays on the name being both the plane and the House.",
           "limitation": "Framing narrator; the House/plane relation is inferred.",
           "relation": "located_on",
@@ -2004,6 +2161,7 @@
         {
           "claim_id": "EL011",
           "grade": "CANON_IMPLIED",
+          "continuity": "",
           "statement": "Elves ruled the land before humans drove them out eight or nine generations ago.",
           "limitation": "Past state only; the object stands for the land that became the realm. The guide is an in-universe traveller's account; it reports what the realm's folk say and believe.",
           "relation": "leader_of",
@@ -2032,6 +2190,7 @@
         {
           "claim_id": "LC015",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Kellan tells the vampire expedition he came from Eldraine.",
           "limitation": "He says he came from Eldraine; the passage does not state where he was born.",
           "relation": "originated_from",
@@ -2056,6 +2215,7 @@
         {
           "claim_id": "TPH001",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Eldraine's Realm is organized around five named royal courts, distinct from a claim about every region of the plane.",
           "limitation": "The guide describes the human Realm within Eldraine; it does not claim those courts governed the Wilds or later held unchanged power.",
           "relation": "has_royal_courts",
@@ -2080,6 +2240,7 @@
         {
           "claim_id": "TPH002",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "The 2019 guide says humans rose to rule the Realm and displaced elves after an earlier elven era.",
           "limitation": "The eight-or-nine-generation span is relative to the 2019 guide's in-world narration, not an established AR calendar date or a claim that all elves left Eldraine.",
           "relation": "historically_underwent",
@@ -2104,6 +2265,7 @@
         {
           "claim_id": "WE010",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Kellan steps through an unfamiliar portal leading somewhere other than Eldraine, hoping to find his father.",
           "limitation": "",
           "relation": "left",
@@ -2404,6 +2566,7 @@
         {
           "claim_id": "FMP001",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Wizards' Fiora profile records a past massacre in the outlying settlement of Drakestown.",
           "limitation": "The official profile says the victims died in an unknown scheme; neither the killers nor exact timing are established here.",
           "relation": "was_site_of",
@@ -2428,6 +2591,7 @@
         {
           "claim_id": "FMP002",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Paliano's governing laws exert magical binding force over Fiora's population.",
           "limitation": "This is the source profile's political account, not proof that every later regime, region or visitor remains permanently subject to unchanged laws.",
           "relation": "enforces_laws_through",
@@ -2452,6 +2616,7 @@
         {
           "claim_id": "FMP003",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Queen Marchesa publicly claimed sovereign authority over Paliano following Brago's reported final passing.",
           "limitation": "This certifies Marchesa's 2016 in-world proclamation, not the truth of every claim she made about succession, lawful legitimacy or the former guard.",
           "relation": "witnessed_royal_proclamation_by",
@@ -2476,6 +2641,7 @@
         {
           "claim_id": "UB006",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Dack Fayden comes from Drakeston on Fiora.",
           "limitation": "",
           "relation": "originated_from",
@@ -2500,6 +2666,7 @@
         {
           "claim_id": "UB007",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Daretti returned to Fiora to reshape the power structures of Paliano.",
           "limitation": "",
           "relation": "returned_to",
@@ -2524,6 +2691,7 @@
         {
           "claim_id": "UP004",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Paliano, the High City, is the capital of Fiora.",
           "limitation": "",
           "relation": "located_on",
@@ -2548,6 +2716,7 @@
         {
           "claim_id": "UP005",
           "grade": "CANON_IMPLIED",
+          "continuity": "",
           "statement": "Selvala was one of the first explorers of Fiora's wilderness frontier.",
           "limitation": "The object is the Fioran frontier rather than the plane as a whole.",
           "relation": "travelled_to",
@@ -2587,6 +2756,7 @@
         {
           "claim_id": "IK001",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Vivien Reid travelled Ikoria and wrote the guide.",
           "limitation": "Vivien is the author-narrator, so this is her own account.",
           "relation": "visited",
@@ -2611,6 +2781,7 @@
         {
           "claim_id": "IK002",
           "grade": "CANON_IMPLIED",
+          "continuity": "",
           "statement": "Vivien says Narset travelled to Ikoria and explained the triomes to her.",
           "limitation": "The guide is Vivien Reid's first-person travel account; legends she reports are attributed to Rielle.",
           "relation": "visited",
@@ -2635,6 +2806,7 @@
         {
           "claim_id": "MOM003",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Elesh Norn sends the compleated Lukka to Ikoria to add its monsters to Phyrexia's ranks.",
           "limitation": "",
           "relation": "sent_to_invade",
@@ -2659,6 +2831,7 @@
         {
           "claim_id": "MS002",
           "grade": "CANON_IMPLIED",
+          "continuity": "",
           "statement": "Jirina Kudro leads the people of Drannith across Ikoria during the Phyrexian invasion.",
           "limitation": "She leads Drannith's people, not all of Ikoria; the object is the plane for lack of a Drannith node.",
           "relation": "leads",
@@ -2683,6 +2856,7 @@
         {
           "claim_id": "TPH003",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Vivien's 2020 Ikoria guide describes Drannith as its largest human sanctuary.",
           "limitation": "The guide records a 2020 travel-era description; it is not proof of Drannith's survival or size after later invasions.",
           "relation": "has_sanctuary",
@@ -2707,6 +2881,7 @@
         {
           "claim_id": "TPH004",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Skysail is an airborne Ikorian human sanctuary formed from connected balloon-driven airships.",
           "limitation": "A dated description of a mobile sanctuary, not a fixed-coordinate location or proof of its later condition.",
           "relation": "has_sanctuary",
@@ -2746,6 +2921,7 @@
         {
           "claim_id": "IG003",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "The Church of Avacyn is humanity's religion on Innistrad.",
           "limitation": "",
           "relation": "religion_of",
@@ -2770,6 +2946,7 @@
         {
           "claim_id": "IG004",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Avacyn went missing, and the church at Thraben hid her disappearance (Innistrad 2011).",
           "limitation": "",
           "relation": "disappeared_from",
@@ -2798,6 +2975,7 @@
         {
           "claim_id": "MS004",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Gisa and Geralf turn their creations against the Phyrexians at Havengul.",
           "limitation": "Havengul's defence, not Innistrad as a whole.",
           "relation": "defended",
@@ -2822,6 +3000,7 @@
         {
           "claim_id": "MV011",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "The coven completes the Celestus ritual with the recovered key, and day returns to Innistrad: the first sunrise in months.",
           "limitation": "",
           "relation": "restored",
@@ -2846,6 +3025,7 @@
         {
           "claim_id": "RF017",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Tam measures the dimensions of the (Echoverse) plane of Innistrad.",
           "limitation": "Whether this Innistrad is the original plane or its Echoverse counterpart is not graded.",
           "relation": "surveyed",
@@ -2870,6 +3050,7 @@
         {
           "claim_id": "SE028",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "With Avacyn dead, Emrakul rose on Innistrad, as Nahiri intended.",
           "limitation": "The quotes give the outcome; Nahiri's method is told across EMN.",
           "relation": "arrived_on",
@@ -2894,6 +3075,7 @@
         {
           "claim_id": "UB023",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Sorin Markov's home plane is Innistrad, where he lorded for millennia.",
           "limitation": "",
           "relation": "originated_from",
@@ -2918,6 +3100,7 @@
         {
           "claim_id": "UB024",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Tibalt was born human on Innistrad and became a half-devil through fiendish magic.",
           "limitation": "",
           "relation": "originated_from",
@@ -2957,6 +3140,7 @@
         {
           "claim_id": "LC012",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Saheeli was stranded on Ixalan.",
           "limitation": "",
           "relation": "stranded_on",
@@ -2981,6 +3165,7 @@
         {
           "claim_id": "MS003",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Huatli faces the Phyrexian invasion of Ixalan from Pachatupa and Orazca.",
           "limitation": "",
           "relation": "defended",
@@ -3005,6 +3190,7 @@
         {
           "claim_id": "UB010",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Huatli is a Warrior Poet from Ixalan.",
           "limitation": "",
           "relation": "originated_from",
@@ -3029,6 +3215,7 @@
         {
           "claim_id": "XLN001",
           "grade": "CANON_IMPLIED",
+          "continuity": "",
           "statement": "Jace wakes on Ixalan with no memory of who he is.",
           "limitation": "The episode calls him only 'the man'; identifying him as Jace rests on the episode title ('Jace, Alone') and later episodes.",
           "relation": "lost_memory_on",
@@ -3053,6 +3240,7 @@
         {
           "claim_id": "XLN002",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Huatli's spark ignites in a moment of mortal danger.",
           "limitation": "",
           "relation": "spark_ignited",
@@ -3077,6 +3265,7 @@
         {
           "claim_id": "XLN007",
           "grade": "CANON_IMPLIED",
+          "continuity": "",
           "statement": "An Azorius symbol blocked planeswalking on Ixalan; the Immortal Sun is described as an artifact that imprisons Planeswalkers, and it and the barrier vanish together.",
           "limitation": "Each quote is a character's observation or speculation ('Perhaps they were one and the same'); no narration states the mechanism.",
           "relation": "blocked_planeswalking_on",
@@ -3111,6 +3300,7 @@
         {
           "claim_id": "XLN012",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "With the Immortal Sun gone, Angrath planeswalks away from Ixalan.",
           "limitation": "",
           "relation": "left",
@@ -3135,6 +3325,7 @@
         {
           "claim_id": "XLN018",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "The Legion of Dusk seeks to conquer Ixalan.",
           "limitation": "",
           "relation": "seeks_to_conquer",
@@ -3174,6 +3365,7 @@
         {
           "claim_id": "DF014",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Avishkar (the renamed Kaladesh) sees Ravnica as its chief multiversal rival.",
           "limitation": "Avishkar is modelled on the existing kaladesh plane node; the guide calls it a rival, 'not as an enemy (yet)'.",
           "relation": "rival_of",
@@ -3203,6 +3395,7 @@
         {
           "claim_id": "KLD002",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Chandra returns to her home plane of Kaladesh without consulting the rest of the Gatewatch.",
           "limitation": "",
           "relation": "returned_to",
@@ -3227,6 +3420,7 @@
         {
           "claim_id": "KLD010",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Planeswalker's Guide: Kaladesh's bright existence depends on visible, tangible aether.",
           "limitation": "",
           "relation": "sustains",
@@ -3251,6 +3445,7 @@
         {
           "claim_id": "UP002",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Kaladesh has been reborn as Avishkar and is governed by the Avishkar Assembly.",
           "limitation": "The profile reflects the plane after the Consulate fell; the relation is plane-to-government.",
           "relation": "identified_with",
@@ -3275,6 +3470,7 @@
         {
           "claim_id": "XLN013",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "On her first planeswalk, Huatli meets Saheeli Rai on Kaladesh.",
           "limitation": "",
           "relation": "met",
@@ -3314,6 +3510,7 @@
         {
           "claim_id": "DS008",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Tyvar Kell is an elf prince of Kaldheim.",
           "limitation": "",
           "relation": "related_to",
@@ -3338,6 +3535,7 @@
         {
           "claim_id": "FMP004",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Kaldheim's mini-plane realms connect through the World Tree, which the guide describes as birthing the realms.",
           "limitation": "The 2021 guide calls ten realms well known but explicitly allows others; it gives no exhaustive count or post-invasion health report for the tree.",
           "relation": "binds_realms_with",
@@ -3362,6 +3560,7 @@
         {
           "claim_id": "FMP005",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Kaldheim's moving realms sometimes collide in a destructive event called a Doomskar.",
           "limitation": "This is a general mechanism, not a dated claim that a specific Doomskar caused a particular later conflict.",
           "relation": "experiences",
@@ -3386,6 +3585,7 @@
         {
           "claim_id": "FMP006",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "The Skoti gods displaced the Einir as Kaldheim's ruling divine family before the guide's era.",
           "limitation": "The 'few centuries' dating and word 'current' are relative to the 2021 guide; this does not independently certify today's leadership.",
           "relation": "was_taken_over_by_gods",
@@ -3410,6 +3610,7 @@
         {
           "claim_id": "KH013",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Vorinclex of New Phyrexia came to Kaldheim, and in the epilogue a portal welcomes him back.",
           "limitation": "Who greets him is not named here.",
           "relation": "arrived_on",
@@ -3439,6 +3640,7 @@
         {
           "claim_id": "KH023",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Niko Aris is on Kaldheim, in a longhall of warriors.",
           "limitation": "",
           "relation": "visited",
@@ -3463,6 +3665,7 @@
         {
           "claim_id": "UB025",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Tyvar Kell is the younger brother of the elf king of Kaldheim.",
           "limitation": "The profile does not name the king.",
           "relation": "originated_from",
@@ -3502,6 +3705,7 @@
         {
           "claim_id": "KMH001",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Kamigawa is described as two interacting realms: material utsushiyo and spirit kakuriyo.",
           "limitation": "The undated profile is a broad structural description, not a complete cosmology.",
           "relation": "contains_two_symbiotic_realms",
@@ -3526,6 +3730,7 @@
         {
           "claim_id": "KMH001",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Kamigawa is described as two interacting realms: material utsushiyo and spirit kakuriyo.",
           "limitation": "The undated profile is a broad structural description, not a complete cosmology.",
           "relation": "contains_two_symbiotic_realms",
@@ -3550,6 +3755,7 @@
         {
           "claim_id": "KMH002",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "The kami attack on Reito marked the beginning of the Kami War, and the profile specifies twenty subsequent years of devastation.",
           "limitation": "Twenty years is a span in the narrated conflict, not an AR year or an independently verified total war duration.",
           "relation": "endured",
@@ -3578,6 +3784,7 @@
         {
           "claim_id": "KMH007",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "O-Kagachi's death broke the boundary between Kamigawa's mortal and spirit realms, beginning their merger.",
           "limitation": "The source does not say the two realms were already fully merged at Neon Dynasty's time.",
           "relation": "realm_barrier_broke_after_death_of",
@@ -3602,6 +3809,7 @@
         {
           "claim_id": "KMH008",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Sites of merging between Kamigawa's two realms appeared unpredictably in the Neon Dynasty guide.",
           "limitation": "A 2022 story-period description; no claims about the state of all sites in later continuity.",
           "relation": "developed_random",
@@ -3626,6 +3834,7 @@
         {
           "claim_id": "KMH010",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "The Kamigawan Imperial organization developed from merge management into government and rulership.",
           "limitation": "The political description belongs to the Neon Dynasty period; it is not a verified current government as of 2026.",
           "relation": "governed_in_neon_dynasty_period_by",
@@ -3650,6 +3859,7 @@
         {
           "claim_id": "MOM004",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Elesh Norn commands the compleated Tamiyo to bring Kamigawa under Phyrexian control.",
           "limitation": "The addressee is identified by the preceding paragraphs ('Tamiyo,' Norn repeats), not inside the quote.",
           "relation": "sent_to_invade",
@@ -3674,6 +3884,7 @@
         {
           "claim_id": "NEO009",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Kyodai is the guardian spirit of Kamigawa, with its main shrine in the Imperial Palace; it speaks through the emperor.",
           "limitation": "",
           "relation": "guardian_of",
@@ -3703,6 +3914,7 @@
         {
           "claim_id": "UB013",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Kaito Shizuki's home plane is Kamigawa.",
           "limitation": "",
           "relation": "originated_from",
@@ -3742,6 +3954,7 @@
         {
           "claim_id": "EC005",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Eclipsed realms are pockets of a third state, neither light nor shadow, where Lorwyn and Shadowmoor meet.",
           "limitation": "",
           "relation": "located_on",
@@ -3766,6 +3979,7 @@
         {
           "claim_id": "EC016",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Maralen, originally an avatar of Oona, is steward of Lorwyn-Shadowmoor alongside Eirdu and Isilu.",
           "limitation": "",
           "relation": "steward_of",
@@ -3790,6 +4004,7 @@
         {
           "claim_id": "FMP007",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "During the earlier Great Aurora cycle, Lorwyn-Shadowmoor switched its whole-plane aspects roughly every 300 years.",
           "limitation": "The quoted interval belongs to the former Age of Oona; it must not be treated as the current cycle or a verified conversion to AR dates.",
           "relation": "historically_shifted_during",
@@ -3814,6 +4029,7 @@
         {
           "claim_id": "FMP008",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "In the guide's newer era, Lorwyn and Shadowmoor form adjacent day and night regions with shifting boundaries.",
           "limitation": "The guide contrasts this with Oona's historical plane-wide shift; borders are dynamic, not a fixed map or permanent division for all future stories.",
           "relation": "has_aspect_borders",
@@ -3838,6 +4054,7 @@
         {
           "claim_id": "FMP009",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Lorwyn-Shadowmoor's crossing aurora boundaries transform land and living residents between aspects.",
           "limitation": "The same guide recognizes rare suppression and immunity; this should not be read as no exceptions or as a universal effect outside the plane.",
           "relation": "undergoes",
@@ -3862,6 +4079,7 @@
         {
           "claim_id": "UP014",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Oona, queen of the faeries, caused the transformation of Lorwyn into Shadowmoor.",
           "limitation": "The page says she caused the transformation; it does not describe how.",
           "relation": "cursed",
@@ -4244,11 +4462,12 @@
       "id": "plane:meditation_realm",
       "plane": "Meditation Realm",
       "evidence_status": "PARTIAL_DIRECT_AND_SEPARATELY_CURATED_CONTEXT",
-      "distinct_claims": 3,
+      "distinct_claims": 5,
       "facts": [
         {
           "claim_id": "A009",
           "grade": "CANON_CONFIRMED",
+          "continuity": "current story by 2025",
           "statement": "The Meditation Realm prison fails during Tarkir: Dragonstorm, freeing Bolas; the later Lorwyn story confirms he escaped.",
           "limitation": "An escape is not evidence that he recovered his planeswalker spark or arrived at a particular destination.",
           "relation": "escaped",
@@ -4276,8 +4495,59 @@
           ]
         },
         {
+          "claim_id": "LFP005",
+          "grade": "CANON_CONFIRMED",
+          "continuity": "",
+          "statement": "In the Chronicle's early history, Ugin used the Meditation Realm for extended contemplation.",
+          "limitation": "This is a past scene told through Ugin's internal perspective; it is not proof of the realm's condition after the Dragonstorm-era rupture.",
+          "relation": "was_used_for_contemplation_by",
+          "subject": {
+            "id": "plane:meditation_realm",
+            "name": "Meditation Realm"
+          },
+          "object": {
+            "id": "character:ugin",
+            "name": "Ugin"
+          },
+          "era_label": "ugin_early_meditation_before_bolas_war",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "lf_meditation_chronicle",
+              "title": "Chronicle of Bolas: The Unwritten Now",
+              "url": "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-unwritten-now-2018-08-15"
+            }
+          ]
+        },
+        {
+          "claim_id": "LFP006",
+          "grade": "CANON_CONFIRMED",
+          "continuity": "",
+          "statement": "The 2009 Wizards Planechase overview recalls Bolas using the meditation plane to meet his Madaran advisers.",
+          "limitation": "Wizards explicitly describes a historical novel-era use; the article's speculation about later travel is not asserted as fact or current status.",
+          "relation": "hosted_court_meetings_of",
+          "subject": {
+            "id": "plane:meditation_realm",
+            "name": "Meditation Realm"
+          },
+          "object": {
+            "id": "character:nicol_bolas",
+            "name": "Nicol Bolas"
+          },
+          "era_label": "meditation_realm_bolas_madaran_court_past",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "lf_meditation_planechase",
+              "title": "The Planes of Planechase",
+              "url": "https://magic.wizards.com/en/news/feature/planes-planechase-2009-12-30"
+            }
+          ]
+        },
+        {
           "claim_id": "RF013",
           "grade": "CANON_IMPLIED",
+          "continuity": "",
           "statement": "The Planeswalker's Guide's in-universe narrator says Jace was unmade in the Meditation Realm and the new reality was built from there.",
           "limitation": "The guide is written in an in-universe first-person plural voice, so its account is point-of-view.",
           "relation": "related_to",
@@ -4302,6 +4572,7 @@
         {
           "claim_id": "TD021",
           "grade": "CANON_IMPLIED",
+          "continuity": "",
           "statement": "Thanks to Loot, Jace and Vraska know the Omenpath route to Tarkir and from there to the Meditation Realm.",
           "limitation": "That the Meditation Realm is Jace's goal is inferred from this route.",
           "relation": "sought",
@@ -4341,6 +4612,7 @@
         {
           "claim_id": "C005",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Karn created Mirrodin, an independent metallic plane with five colored suns.",
           "limitation": "",
           "relation": "created",
@@ -4370,6 +4642,7 @@
         {
           "claim_id": "C007",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "The oil slowly corrupted Mirrodin from the inside out; Mirrans became Phyrexians and the plane became New Phyrexia.",
           "limitation": "Scars of Mirrodin story chronology is summarized, not ingested episode by episode.",
           "relation": "corrupted",
@@ -4394,6 +4667,7 @@
         {
           "claim_id": "NP001",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "The plane was once named Argentum, then Mirrodin, and now bears a third name (New Phyrexia).",
           "limitation": "",
           "relation": "formerly_named",
@@ -4418,6 +4692,7 @@
         {
           "claim_id": "NP002",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Mirrodin was remade and renamed New Phyrexia, its third name.",
           "limitation": "The quote does not spell the name; the guide's title gives it.",
           "relation": "formerly_named",
@@ -4442,6 +4717,7 @@
         {
           "claim_id": "NPHH004",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "The oil's spread escalated into the Phyrexian campaign to compleat Mirrodin, producing New Phyrexia.",
           "limitation": "This is an early historical trajectory; later events in March of the Machine must be tracked separately.",
           "relation": "emerged_from_conquest_of",
@@ -4466,6 +4742,7 @@
         {
           "claim_id": "ONE018",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Koth is a born Mirran.",
           "limitation": "",
           "relation": "native_of",
@@ -4490,6 +4767,7 @@
         {
           "claim_id": "ONE019",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Melira is a born Mirran.",
           "limitation": "",
           "relation": "native_of",
@@ -4514,6 +4792,7 @@
         {
           "claim_id": "TPH011",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Memnarch renamed Argentum to Mirrodin; this is an earlier naming transition, not its complete later name history.",
           "limitation": "The source describes a past renaming by Memnarch. The plane later bore the name New Phyrexia, so this is not its current canonical name.",
           "relation": "was_renamed_to",
@@ -4538,6 +4817,7 @@
         {
           "claim_id": "UP016",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Karn created Mirrodin, originally called Argentum.",
           "limitation": "",
           "relation": "created",
@@ -4567,6 +4847,7 @@
         {
           "claim_id": "UP024",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "The Phyrexians compleated Mirrodin and overwhelmed the Mirrans.",
           "limitation": "",
           "relation": "invaded",
@@ -4591,6 +4872,7 @@
         {
           "claim_id": "WSM007",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Karn created Mirrodin (as of 2008).",
           "limitation": "",
           "relation": "created",
@@ -4625,11 +4907,12 @@
       "id": "plane:muraganda",
       "plane": "Muraganda",
       "evidence_status": "PARTIAL_DIRECT_AND_SEPARATELY_CURATED_CONTEXT",
-      "distinct_claims": 1,
+      "distinct_claims": 5,
       "facts": [
         {
           "claim_id": "DF024",
           "grade": "CANON_IMPLIED",
+          "continuity": "",
           "statement": "The Telu-Set's stronghold Mon'Telu lies on Muraganda.",
           "limitation": "The story is set on Muraganda; Mon'Telu's location is inferred from the setting.",
           "relation": "located_on",
@@ -4648,6 +4931,106 @@
               "id": "dft_beast",
               "title": "Aetherdrift | Like No Other Beast",
               "url": "https://magic.wizards.com/en/news/magic-story/aetherdrift-like-no-other-beast"
+            }
+          ]
+        },
+        {
+          "claim_id": "LFP007",
+          "grade": "CANON_CONFIRMED",
+          "continuity": "",
+          "statement": "Muraganda had a prehistoric plane-spanning civilization that discovered magic and subsequently collapsed.",
+          "limitation": "The guide dates this only to the distant past beyond living memory; it does not name the regime or date the calamity in AR years.",
+          "relation": "saw_collapse_of",
+          "subject": {
+            "id": "plane:muraganda",
+            "name": "Muraganda"
+          },
+          "object": {
+            "id": "faction:muraganda_first_civilization",
+            "name": "Muraganda's first civilization"
+          },
+          "era_label": "muraganda_ancient_magic_civilization_collapse",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "lf_muraganda_guide",
+              "title": "Planeswalker's Guide to Aetherdrift, Part 2",
+              "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-aetherdrift-part-2"
+            }
+          ]
+        },
+        {
+          "claim_id": "LFP008",
+          "grade": "CANON_CONFIRMED",
+          "continuity": "",
+          "statement": "Muraganda's moons broke apart, leaving recurring falling debris in the guide's era.",
+          "limitation": "The text does not independently establish what shattered the moons, the exact date, or the status of impacts beyond the guide's publication era.",
+          "relation": "experienced",
+          "subject": {
+            "id": "plane:muraganda",
+            "name": "Muraganda"
+          },
+          "object": {
+            "id": "event:muraganda_moonfall",
+            "name": "Muragandan shattered-moon calamity"
+          },
+          "era_label": "muraganda_shattered_moons_and_later_impacts",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "lf_muraganda_guide",
+              "title": "Planeswalker's Guide to Aetherdrift, Part 2",
+              "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-aetherdrift-part-2"
+            }
+          ]
+        },
+        {
+          "claim_id": "LFP009",
+          "grade": "CANON_CONFIRMED",
+          "continuity": "",
+          "statement": "After the ancient calamity, Muragandan survivors formed new bands, tribes and kingdoms over generations.",
+          "limitation": "This is relative generational development; the guide does not provide a complete dynastic sequence or prove the moon-strikes ended permanently.",
+          "relation": "developed",
+          "subject": {
+            "id": "plane:muraganda",
+            "name": "Muraganda"
+          },
+          "object": {
+            "id": "faction:muraganda_survivor_cultures",
+            "name": "Muragandan survivor societies"
+          },
+          "era_label": "muraganda_post_collapse_generations",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "lf_muraganda_guide",
+              "title": "Planeswalker's Guide to Aetherdrift, Part 2",
+              "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-aetherdrift-part-2"
+            }
+          ]
+        },
+        {
+          "claim_id": "LFP010",
+          "grade": "CANON_CONFIRMED",
+          "continuity": "",
+          "statement": "The Aetherdrift-era guide identifies the Saurid Autocracy as Muraganda's strongest state.",
+          "limitation": "Strongest state is not sole sovereign of the whole plane; its dominance is dated to the guide and was not reverified for a later current era.",
+          "relation": "was_ruled_in_part_by",
+          "subject": {
+            "id": "plane:muraganda",
+            "name": "Muraganda"
+          },
+          "object": {
+            "id": "faction:saurid_autocracy",
+            "name": "Saurid Autocracy"
+          },
+          "era_label": "muraganda_saurid_autocracy_dft_guide",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "lf_muraganda_guide",
+              "title": "Planeswalker's Guide to Aetherdrift, Part 2",
+              "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-aetherdrift-part-2"
             }
           ]
         }
@@ -4669,6 +5052,7 @@
         {
           "claim_id": "MOM007",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Norn assigns Atraxa to destroy New Capenna, and Atraxa leads the Phyrexian forces there.",
           "limitation": "",
           "relation": "led_invasion_of",
@@ -4698,6 +5082,7 @@
         {
           "claim_id": "MS008",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Atraxa leads the conversion of New Capenna; Park Heights falls.",
           "limitation": "Stated by characters in dialogue.",
           "relation": "invaded",
@@ -4722,6 +5107,7 @@
         {
           "claim_id": "TPH005",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "The towering city of New Capenna was created as refuge during a devastating war against Old Capenna.",
           "limitation": "This is the city's founding story within the plane's history, not proof that the city geographically encompasses every part of the plane.",
           "relation": "sheltered_people_in",
@@ -4746,6 +5132,7 @@
         {
           "claim_id": "TPH006",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Old Capenna's archangels helped mortal defenders resist the invasion before the city was founded.",
           "limitation": "A pre-city historical role; the angels' later fate and political status are not inferred from this earlier defense.",
           "relation": "historically_defended_by",
@@ -4770,6 +5157,7 @@
         {
           "claim_id": "TPH007",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Old Capenna endured a destructive invasion by an enemy the 2022 overview deliberately leaves unnamed.",
           "limitation": "The source calls the enemy forgotten; this claim does NOT identify it as Phyrexia or settle later historical interpretations.",
           "relation": "historically_attacked_by",
@@ -5298,6 +5686,7 @@
         {
           "claim_id": "MOM016",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Zhalfir's armies meet the New Phyrexian forces at the portal.",
           "limitation": "",
           "relation": "fought",
@@ -5326,6 +5715,7 @@
         {
           "claim_id": "NP002",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Mirrodin was remade and renamed New Phyrexia, its third name.",
           "limitation": "The quote does not spell the name; the guide's title gives it.",
           "relation": "formerly_named",
@@ -5350,6 +5740,7 @@
         {
           "claim_id": "NP009",
           "grade": "CANON_IMPLIED",
+          "continuity": "",
           "statement": "Yawgmoth led the earlier Phyrexian civilization, in the past era before New Phyrexia.",
           "limitation": "The quote contrasts New Phyrexia with the former Phyrexia led by Yawgmoth; object is the civilization, not the plane.",
           "relation": "led",
@@ -5374,6 +5765,7 @@
         {
           "claim_id": "NPHH004",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "The oil's spread escalated into the Phyrexian campaign to compleat Mirrodin, producing New Phyrexia.",
           "limitation": "This is an early historical trajectory; later events in March of the Machine must be tracked separately.",
           "relation": "emerged_from_conquest_of",
@@ -5398,6 +5790,7 @@
         {
           "claim_id": "NPHH005",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Mirran forces resisted the early Phyrexian conquest but were overwhelmed.",
           "limitation": "No claim that every Mirran died or that every resistance effort failed forever.",
           "relation": "fought_against",
@@ -5422,6 +5815,7 @@
         {
           "claim_id": "NPHH006",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Koth, Elspeth and Venser were among planeswalkers unable to reverse the early Phyrexian conquest.",
           "limitation": "This evaluates the early campaign; it does not negate their actions in later stories.",
           "relation": "resisted_by_planeswalkers",
@@ -5446,6 +5840,7 @@
         {
           "claim_id": "NPHH006",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Koth, Elspeth and Venser were among planeswalkers unable to reverse the early Phyrexian conquest.",
           "limitation": "This evaluates the early campaign; it does not negate their actions in later stories.",
           "relation": "resisted_by_planeswalkers",
@@ -5470,6 +5865,7 @@
         {
           "claim_id": "NPHH006",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Koth, Elspeth and Venser were among planeswalkers unable to reverse the early Phyrexian conquest.",
           "limitation": "This evaluates the early campaign; it does not negate their actions in later stories.",
           "relation": "resisted_by_planeswalkers",
@@ -5494,6 +5890,7 @@
         {
           "claim_id": "NPHH007",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "The official early New Phyrexia overview describes rival praetor factions struggling for power.",
           "limitation": "The page's historical present cannot be taken as the current political state after March of the Machine.",
           "relation": "had_competing_praetor_factions",
@@ -5518,6 +5915,7 @@
         {
           "claim_id": "NPHH008",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Mirran survivors faced daily threats under early New Phyrexian domination.",
           "limitation": "This does not identify present-day survivors or establish New Phyrexia's current accessibility.",
           "relation": "struggled_under",
@@ -5542,6 +5940,7 @@
         {
           "claim_id": "RTD021",
           "grade": "CANON_DISPUTED",
+          "continuity": "",
           "statement": "Ajani tells Jhoira the Phyrexians are contained on one fallen plane; Jaya doubts the common belief that they are no longer a threat.",
           "limitation": "These are in-story assessments; later official stories show a Phyrexian threat to Dominaria.",
           "relation": "assessed",
@@ -5586,6 +5985,7 @@
         {
           "claim_id": "B006",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Mishra was corrupted by the Phyrexians (cards: Mishra, Claimed by Gix; Mishra, Lost to Phyrexia); Tawnos says he was turned by 'that creature' and fused with a machine.",
           "limitation": "The design article and dialogue do not narrate the full mechanism of corruption.",
           "relation": "corrupted_by",
@@ -5615,6 +6015,7 @@
         {
           "claim_id": "B013",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Urza's obsession with Dominaria's history led to a millennia-long vendetta against Yawgmoth and Phyrexia.",
           "limitation": "",
           "relation": "vendetta_against",
@@ -5639,6 +6040,7 @@
         {
           "claim_id": "C009",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Yawgmoth planeswalked to Old Phyrexia and installed himself as its new ruler, the Father of Machines.",
           "limitation": "",
           "relation": "ruled",
@@ -5663,6 +6065,7 @@
         {
           "claim_id": "C010",
           "grade": "OPEN_QUESTION",
+          "continuity": "",
           "statement": "Old Phyrexia was an artificial plane created by an unknown Planeswalker; the creator is not identified.",
           "limitation": "Do not name a creator from non-Wizards sources.",
           "relation": "created_by",
@@ -5687,6 +6090,7 @@
         {
           "claim_id": "C013",
           "grade": "CANON_IMPLIED",
+          "continuity": "",
           "statement": "Old Phyrexia was destroyed after Yawgmoth's defeat.",
           "limitation": "The guide states Old Phyrexia was destroyed but does not explicitly tie the destruction to the same battle.",
           "relation": "destroyed_in",
@@ -5711,6 +6115,7 @@
         {
           "claim_id": "C025",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "At the end of the Brothers' War, Urza discovered the plane of Phyrexia.",
           "limitation": "",
           "relation": "discovered",
@@ -5735,6 +6140,7 @@
         {
           "claim_id": "C502",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "The same official retrospective says a group of planeswalkers decimated Old Phyrexia using soul bombs during the invasion's defeat.",
           "limitation": "The retrospective does not name those planeswalkers or state whether Old Phyrexia's decimation came before or after Yawgmoth's destruction. Do not invent that ordering.",
           "relation": "decimated_by_soul_bombs_from",
@@ -5759,6 +6165,7 @@
         {
           "claim_id": "WSM010",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Yawgmoth and the Phyrexians were trapped in Phyrexia when the portal closed.",
           "limitation": "",
           "relation": "trapped_on",
@@ -5798,6 +6205,7 @@
         {
           "claim_id": "DF014",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Avishkar (the renamed Kaladesh) sees Ravnica as its chief multiversal rival.",
           "limitation": "Avishkar is modelled on the existing kaladesh plane node; the guide calls it a rival, 'not as an enemy (yet)'.",
           "relation": "rival_of",
@@ -5827,6 +6235,7 @@
         {
           "claim_id": "DF015",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "The guide names Niv-Mizzet as leader of Ravnica's guilds.",
           "limitation": "",
           "relation": "leader_of",
@@ -5851,6 +6260,7 @@
         {
           "claim_id": "DS106",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "An interactive Ravnica-set side story opens with Niv-Mizzet at work in a Ninth District courtyard.",
           "limitation": "Branching 'door' format; only the opening is graded.",
           "relation": "located_on",
@@ -5875,6 +6285,7 @@
         {
           "claim_id": "SSX018",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "The Traveler's Noticeboard, visible only to planeswalkers, hangs in Precinct Five on Ravnica (2022).",
           "limitation": "",
           "relation": "located_in",
@@ -5899,6 +6310,7 @@
         {
           "claim_id": "UB029",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Vraska's home plane is Ravnica.",
           "limitation": "",
           "relation": "originated_from",
@@ -5923,6 +6335,7 @@
         {
           "claim_id": "UP025",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Boros is Ravnica's military guild.",
           "limitation": "",
           "relation": "located_on",
@@ -5947,6 +6360,7 @@
         {
           "claim_id": "UP026",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "The dragon-led Izzet is the Ravnican guild of innovation.",
           "limitation": "The page does not name the dragon.",
           "relation": "located_on",
@@ -5971,6 +6385,7 @@
         {
           "claim_id": "UP027",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "The Golgari guild controls an undead army and labor force under the city.",
           "limitation": "",
           "relation": "located_on",
@@ -5995,6 +6410,7 @@
         {
           "claim_id": "UP028",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "The Azorius Senate are Ravnica's primary lawmakers.",
           "limitation": "",
           "relation": "located_on",
@@ -6019,6 +6435,7 @@
         {
           "claim_id": "UP029",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "The Guildpact kept the power of each Ravnican guild in check.",
           "limitation": "Profile written while the Guildpact was dissolving.",
           "relation": "located_on",
@@ -6043,6 +6460,7 @@
         {
           "claim_id": "WR014",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Dovin Baan fled Ravnica.",
           "limitation": "",
           "relation": "left",
@@ -6082,6 +6500,7 @@
         {
           "claim_id": "BZ024",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Before returning to Zendikar, Chandra stayed on Regatha as abbot of the pyromancer-monks.",
           "limitation": "",
           "relation": "located_at",
@@ -6106,6 +6525,7 @@
         {
           "claim_id": "FPH010",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Wizards identifies Jaya Ballard as the founder of the Regathan monastery later attended by Chandra.",
           "limitation": "The developer commentary identifies the founder but does not provide an absolute founding date or establish Jaya's current identity or whereabouts.",
           "relation": "saw_monastery_founded_by",
@@ -6130,6 +6550,7 @@
         {
           "claim_id": "FPH011",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Keral Keep is a monastery on Regatha, with fire-monk training in nearby lava fields.",
           "limitation": "A location and training scene from the 2015 story, not a complete geographic survey or proof of its safety and occupancy at later dates.",
           "relation": "hosts_volcanic_monastery",
@@ -6154,6 +6575,7 @@
         {
           "claim_id": "FPH012",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Keral Keep's fire acolytes ritualized some of Jaya's spells as part of their teachings.",
           "limitation": "This reports a practiced monastic tradition at Keral Keep, not the full origin of Regathan pyromancy or a current curriculum guarantee.",
           "relation": "preserves_tradition",
@@ -6178,6 +6600,7 @@
         {
           "claim_id": "KLD003",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Chandra's spark ignited as Baral was about to kill her, and she planeswalked to the fire monasteries of Regatha.",
           "limitation": "",
           "relation": "first_planeswalked_to",
@@ -6217,6 +6640,7 @@
         {
           "claim_id": "FPH007",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Phyrexian pursuers invaded and corrupted Serra's Realm after Urza took refuge there.",
           "limitation": "The article is a retrospective of the original realm; it does not imply the realm survived as a functioning modern plane.",
           "relation": "was_corrupted_by",
@@ -6241,6 +6665,7 @@
         {
           "claim_id": "FPH008",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "The archangel Radiant assumed authority over Serra's Realm after Serra departed.",
           "limitation": "A historical succession amid corruption and collapse, not a claim that Radiant remained ruler after the realm's destruction.",
           "relation": "was_ruled_by",
@@ -6265,6 +6690,7 @@
         {
           "claim_id": "FPH009",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Urza collapsed Serra's Realm into the powerstone used by the Weatherlight's planeswalking engine.",
           "limitation": "The realm was already collapsing; the source does not claim Urza alone caused its initial corruption or give a precise date for the finale.",
           "relation": "was_collapsed_into",
@@ -6289,6 +6715,7 @@
         {
           "claim_id": "UB034",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Serra created the artificial plane known as Serra's Realm.",
           "limitation": "The profile says Serra and her realm are long gone.",
           "relation": "created",
@@ -6313,6 +6740,7 @@
         {
           "claim_id": "WSM011",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Serra created Serra's Realm.",
           "limitation": "",
           "relation": "created",
@@ -6352,6 +6780,7 @@
         {
           "claim_id": "M13009",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Thune is a region of Shandalar.",
           "limitation": "",
           "relation": "located_in",
@@ -6376,6 +6805,7 @@
         {
           "claim_id": "S14017",
           "grade": "CANON_IMPLIED",
+          "continuity": "",
           "statement": "Liliana fetched the Chain Veil from Shandalar.",
           "limitation": "Inferred: she was sent to Shandalar to fetch it.",
           "relation": "found_in",
@@ -6400,6 +6830,7 @@
         {
           "claim_id": "S14019",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Lesh is a city on Shandalar.",
           "limitation": "",
           "relation": "located_in",
@@ -6424,6 +6855,7 @@
         {
           "claim_id": "UP030",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Shandalar was once home to the Onakke ogre civilization.",
           "limitation": "",
           "relation": "located_on",
@@ -6448,6 +6880,7 @@
         {
           "claim_id": "UP031",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "The slivers threaten to consume Shandalar.",
           "limitation": "",
           "relation": "attacked",
@@ -6482,11 +6915,12 @@
       "id": "plane:skalla",
       "plane": "Skalla",
       "evidence_status": "PARTIAL_DIRECT_AND_SEPARATELY_CURATED_CONTEXT",
-      "distinct_claims": 2,
+      "distinct_claims": 5,
       "facts": [
         {
           "claim_id": "GR001",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Nicol Bolas destroyed Skalla, Vivien's home plane, in her past.",
           "limitation": "",
           "relation": "destroyed",
@@ -6509,8 +6943,84 @@
           ]
         },
         {
+          "claim_id": "LFP011",
+          "grade": "CANON_CONFIRMED",
+          "continuity": "",
+          "statement": "Before its destruction, Skalla suffered a societal failure to balance progress with nature preservation.",
+          "limitation": "The profile gives no named governments, definitive sequence of disputes or claim that this conflict by itself caused Bolas's destruction.",
+          "relation": "suffered",
+          "subject": {
+            "id": "plane:skalla",
+            "name": "Skalla"
+          },
+          "object": {
+            "id": "event:skalla_nature_progress_conflict",
+            "name": "Skalla nature-versus-progress conflict"
+          },
+          "era_label": "skalla_pre_destruction_cultural_conflict",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "lf_vivien_bio",
+              "title": "Vivien Reid | Planeswalker",
+              "url": "https://magic.wizards.com/en/story/vivien-reid-planeswalker"
+            }
+          ]
+        },
+        {
+          "claim_id": "LFP012",
+          "grade": "CANON_CONFIRMED",
+          "continuity": "",
+          "statement": "Vivien's remembered Skalla featured mangrove habitats, seasonal fires and diverse animal life.",
+          "limitation": "The story is filtered through Vivien's recollection; it cannot serve as a census of species, ecosystems or post-destruction survivors.",
+          "relation": "once_supported",
+          "subject": {
+            "id": "plane:skalla",
+            "name": "Skalla"
+          },
+          "object": {
+            "id": "concept:skalla_wildlife",
+            "name": "Skalla's diverse former wildlife"
+          },
+          "era_label": "skalla_vivien_memory_of_ecosystem",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "lf_skalla_unbowed",
+              "title": "Unbowed, Part 1",
+              "url": "https://magic.wizards.com/en/news/magic-story/unbowed-part-1-2018-08-29"
+            }
+          ]
+        },
+        {
+          "claim_id": "LFP013",
+          "grade": "CANON_CONFIRMED",
+          "continuity": "",
+          "statement": "Wizards describes Vivien's Arkbow as summoning spirit copies of animals originating on destroyed Skalla.",
+          "limitation": "This is an official design explanation of the Arkbow premise, not proof that literal living Skallan animals or the plane itself survived.",
+          "relation": "has_wildlife_memory_preserved_by",
+          "subject": {
+            "id": "plane:skalla",
+            "name": "Skalla"
+          },
+          "object": {
+            "id": "artifact:arkbow",
+            "name": "Arkbow"
+          },
+          "era_label": "skalla_arkbow_legacy_after_destruction",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "lf_skalla_design",
+              "title": "What Core Can I Say? – Part 2",
+              "url": "https://magic.wizards.com/en/news/making-magic/what-core-can-i-say-part-2-2019-07-08"
+            }
+          ]
+        },
+        {
           "claim_id": "UB028",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Vivien Reid is the last survivor of her home plane Skalla.",
           "limitation": "",
           "relation": "originated_from",
@@ -6550,6 +7060,7 @@
         {
           "claim_id": "A010",
           "grade": "CANON_CONFIRMED",
+          "continuity": "Tarkir: Dragonstorm story",
           "statement": "Ugin returns visibly to Tarkir and tells others that he failed to keep Bolas imprisoned.",
           "limitation": "Do not infer all subsequent activities or power changes from this one scene.",
           "relation": "returned_to",
@@ -6574,6 +7085,7 @@
         {
           "claim_id": "A025",
           "grade": "CANON_CONFIRMED",
+          "continuity": "time travel to shared Tarkir past",
           "statement": "Sarkhan crosses into Tarkir's past, approximately 1,280 years before his original present, to change a decisive ancient battle.",
           "limitation": "This relative interval is the 2015 story's account, not an absolute Multiverse calendar date.",
           "relation": "traveled_into_past",
@@ -6603,6 +7115,7 @@
         {
           "claim_id": "TD002",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Gravely injured, Ugin hibernated inside a nest of hedrons on Tarkir.",
           "limitation": "",
           "relation": "hibernated_on",
@@ -6627,6 +7140,7 @@
         {
           "claim_id": "TD004",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Ugin awoke and departed Tarkir five years before the Dragonstorm story.",
           "limitation": "'Five years ago' is relative to the guide's present (2025 release).",
           "relation": "left",
@@ -6655,6 +7169,7 @@
         {
           "claim_id": "TD005",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "In the Khanfall timeline the dragonlords' forces killed the clan leaders and ruled Tarkir.",
           "limitation": "",
           "relation": "ruled",
@@ -6679,6 +7194,7 @@
         {
           "claim_id": "TD007",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "The Sultai live in Tarkir's jungles; their necromancers raise honored dead to keep leading and serving.",
           "limitation": "",
           "relation": "located_on",
@@ -6703,6 +7219,7 @@
         {
           "claim_id": "TD008",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "The nomadic Mardu claim Tarkir's central steppes and plains, moving in massive mobile cities.",
           "limitation": "",
           "relation": "located_on",
@@ -6727,6 +7244,7 @@
         {
           "claim_id": "TKS010",
           "grade": "CANON_IMPLIED",
+          "continuity": "",
           "statement": "Sarkhan Vol was born on a war-torn world where dragons are extinct (Tarkir, as of 2014).",
           "limitation": "The primer sentence does not name the world; the page names Tarkir elsewhere.",
           "relation": "born_on",
@@ -6751,6 +7269,7 @@
         {
           "claim_id": "UB015",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Narset's home plane is Tarkir.",
           "limitation": "",
           "relation": "originated_from",
@@ -6775,6 +7294,7 @@
         {
           "claim_id": "UB016",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Sarkhan Vol is a native of Tarkir.",
           "limitation": "The profile adds that after he changed history he is a man who was never born and has no home world.",
           "relation": "originated_from",
@@ -6814,6 +7334,7 @@
         {
           "claim_id": "MOM006",
           "grade": "CANON_IMPLIED",
+          "continuity": "",
           "statement": "Atraxa's question to Norn indicates Ajani was sent to Theros.",
           "limitation": "Stated within Atraxa's question, not by the narrator; Ajani's activity on Theros is not modelled from Episode 6 here.",
           "relation": "sent_to_invade",
@@ -6838,6 +7359,7 @@
         {
           "claim_id": "THP001",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "The official Theros profile describes the plane as ruled by a pantheon of gods whose whims and wrath affect mortals.",
           "limitation": "This describes the pantheon's broad influence, not a complete list of gods or a formal constitutional government.",
           "relation": "ruled_by_pantheon",
@@ -6862,6 +7384,7 @@
         {
           "claim_id": "THP002",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "The plane primer presents Meletis, Akros and Setessa as major poleis where mortals have sustained organized civilization.",
           "limitation": "These three named cities are examples from the primer; the text does not assert they exhaust every polis on Theros.",
           "relation": "contains_poleis",
@@ -6886,6 +7409,7 @@
         {
           "claim_id": "THP002",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "The plane primer presents Meletis, Akros and Setessa as major poleis where mortals have sustained organized civilization.",
           "limitation": "These three named cities are examples from the primer; the text does not assert they exhaust every polis on Theros.",
           "relation": "contains_poleis",
@@ -6910,6 +7434,7 @@
         {
           "claim_id": "THP002",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "The plane primer presents Meletis, Akros and Setessa as major poleis where mortals have sustained organized civilization.",
           "limitation": "These three named cities are examples from the primer; the text does not assert they exhaust every polis on Theros.",
           "relation": "contains_poleis",
@@ -6934,6 +7459,7 @@
         {
           "claim_id": "THP010",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Akros's cliff-top fortress is linked to an outpost network protecting areas beyond its walls.",
           "limitation": "This describes a defensive function; it does not verify every defended territory or a specific dated war.",
           "relation": "defended",
@@ -6958,6 +7484,7 @@
         {
           "claim_id": "UB004",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Calix was created on Theros by the God of Destiny.",
           "limitation": "",
           "relation": "originated_from",
@@ -6982,6 +7509,7 @@
         {
           "claim_id": "UB032",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Xenagos is a satyr of the Skola Valley on Theros.",
           "limitation": "",
           "relation": "originated_from",
@@ -7021,6 +7549,7 @@
         {
           "claim_id": "FMP010",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "The 2024 Wizards preview records a discovered ancient vault on Thunder Junction; the story names it Maag Taranau.",
           "limitation": "A vault described as ancient is not evidence of a precise construction date or of the truth of characters' speculation about its builders.",
           "relation": "contains_ancient_vault",
@@ -7050,6 +7579,7 @@
         {
           "claim_id": "FMP011",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Oko assembled an interplanar outlaw crew for a high-profile heist on Thunder Junction.",
           "limitation": "The preview describes the heist's setup, not its outcome, every participant's ultimate role, or a permanent political order on the plane.",
           "relation": "hosted_heist_plot_by",
@@ -7074,6 +7604,7 @@
         {
           "claim_id": "FMP012",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "The Wizards character guide places the vault above Tarnation, a Hellspur city on Thunder Junction.",
           "limitation": "This is a 2024 setting description; it does not independently identify who built the vault or establish the current city's later control.",
           "relation": "has_frontier_city",
@@ -7098,6 +7629,7 @@
         {
           "claim_id": "OS005",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Gisa and Geralf travel across Thunder Junction.",
           "limitation": "",
           "relation": "visited",
@@ -7122,6 +7654,7 @@
         {
           "claim_id": "OS006",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Wizards' first-look article frames Thunder Junction as reached through the open Omenpaths after the Phyrexian invasion.",
           "limitation": "Marketing feature, not fiction.",
           "relation": "connect",
@@ -7161,6 +7694,7 @@
         {
           "claim_id": "FPH004",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Vryn's mage-ring network routes mana from outlying regions toward its Core States.",
           "limitation": "Wizards explicitly says the rings' age and origin are unknown; this 2015 account does not settle their builders or current operating condition.",
           "relation": "channels_mana_through",
@@ -7185,6 +7719,7 @@
         {
           "claim_id": "FPH005",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "In the Origins-era profile, the Ampryn League holds ascendant political power on Vryn.",
           "limitation": "Ascendance describes the profile's depicted period, not a verified everlasting government or the result of the Vryn factional conflict.",
           "relation": "was_politically_dominated_by",
@@ -7209,6 +7744,7 @@
         {
           "claim_id": "FPH006",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "The Trovian Separatists opposed Ampryn control, contesting strings of Vryn's mage-rings.",
           "limitation": "This is the 2015 profile's political conflict; it neither identifies a final victor nor proves the separatists' present status.",
           "relation": "was_contested_by",
@@ -7233,6 +7769,7 @@
         {
           "claim_id": "OT012",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Jace brings Vraska to his healer mother's home on Vryn.",
           "limitation": "",
           "relation": "returned_to",
@@ -7257,6 +7794,7 @@
         {
           "claim_id": "RF010",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Jace is laid to rest on Vryn as a son of Vryn.",
           "limitation": "related_to records burial/origin; no dedicated burial relation exists.",
           "relation": "related_to",
@@ -7296,6 +7834,7 @@
         {
           "claim_id": "BZ107",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Kiora returns from Theros to her home plane, Zendikar.",
           "limitation": "The first quote is from the official editorial introduction to the story.",
           "relation": "returned_to",
@@ -7320,6 +7859,7 @@
         {
           "claim_id": "MB002",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "In the past, three Planeswalkers lured the three Eldrazi titans to Zendikar and trapped them there.",
           "limitation": "Primer page; the three Planeswalkers are not named in this sentence.",
           "relation": "trapped_on",
@@ -7348,6 +7888,7 @@
         {
           "claim_id": "MOM005",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "The compleated Nahiri tells Norn she was born on Zendikar, her assigned homeland.",
           "limitation": "",
           "relation": "born_on",
@@ -7372,6 +7913,7 @@
         {
           "claim_id": "SSX003",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Zendikar is Nahiri's home plane.",
           "limitation": "",
           "relation": "born_on",
@@ -7396,6 +7938,7 @@
         {
           "claim_id": "TKS011",
           "grade": "CANON_CONFIRMED",
+          "continuity": "",
           "statement": "Ob Nixilis was stripped of his spark and trapped on Zendikar thousands of years ago (as of 2014).",
           "limitation": "",
           "relation": "trapped_on",
@@ -7424,6 +7967,7 @@
         {
           "claim_id": "U004",
           "grade": "CANON_CONFIRMED",
+          "continuity": "main",
           "statement": "Ugin and Sorin agreed to come back if the prison needed them.",
           "limitation": "",
           "relation": "promised_to_return_to",
@@ -7448,6 +7992,7 @@
         {
           "claim_id": "UB014",
           "grade": "CANON_IMPLIED",
+          "continuity": "",
           "statement": "The profile implies that Nahiri is a Kor whose homeland is Zendikar.",
           "limitation": "Implied by the Kor and Zendikar reference; the profile does not state outright that Zendikar is her homeland.",
           "relation": "originated_from",
@@ -7479,5 +8024,5 @@
       ]
     }
   ],
-  "content_sha256": "9ab116488e39d15a00bb393b63b6701fa32c614dee985a3ef448633b0ec03382"
+  "content_sha256": "3849aec4e1cd63d7d7510d3e154ad52288e6ec35b76095e16f5daddf37d95527"
 }

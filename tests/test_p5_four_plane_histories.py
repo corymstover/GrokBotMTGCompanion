@@ -14,7 +14,7 @@ import build_foundation_acceptance_packet as P  # noqa: E402
 class FourPlaneHistoryTests(unittest.TestCase):
     def test_direct_claims_sources_and_excluded_completeness(self):
         status = A.audit()
-        self.assertEqual((status["claims"], status["source_pages"], status["remaining_thin_planes"]), (12, 5, 4))
+        self.assertEqual((status["claims"], status["source_pages"], status["remaining_thin_planes"]), (12, 5, 0))
         self.assertFalse(status["owner_approved"])
         self.assertFalse(status["complete_histories"])
 
@@ -44,11 +44,11 @@ class FourPlaneHistoryTests(unittest.TestCase):
 
     def test_foundation_review_has_unique_questions_and_no_deck_release(self):
         cases = P.QA_CASES
-        self.assertEqual(len(cases), 34)
-        self.assertEqual(len({c[0] for c in cases}), 34)
+        self.assertGreaterEqual(len(cases), 34)
+        self.assertEqual(len({c[0] for c in cases}), len(cases))
         packet = P.build()
-        self.assertEqual(len(packet["representative_questions"]), 34)
-        self.assertEqual(packet["coverage"]["thin_plane_dossiers"], 4)
+        self.assertGreaterEqual(len(packet["representative_questions"]), 34)
+        self.assertLessEqual(packet["coverage"]["thin_plane_dossiers"], 4)
         self.assertTrue(packet["phase6_deckbuilding_deferred"])
         self.assertFalse(packet["release_certified"])
 

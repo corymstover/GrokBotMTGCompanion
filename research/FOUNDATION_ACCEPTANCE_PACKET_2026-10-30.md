@@ -7,8 +7,8 @@ This source-graded packet is reproducible from the repository, with exact input 
 ## Inventory and supported lookups
 
 - 576 official source pages cited and 50 reviewed without a claim within the inventoried 626-page scope. Citation does not mean exhaustive reading.
-- 1246 source-graded graph claims across 5259 nodes; 33 registered planes, 4 still thin.
-- 484 registered characters and 149 factions; 633 with direct cited claims, 0 without.
+- 1259 source-graded graph claims across 5290 nodes; 33 registered planes, 0 still thin.
+- 484 registered characters and 156 factions; 640 with direct cited claims, 0 without.
 - 53 previously researched on-plane contextual claims in 4 dossiers, strictly distinct from new/direct graph claims.
 
 ## In-universe chronology (not a complete timeline)
@@ -23,7 +23,7 @@ This source-graded packet is reproducible from the repository, with exact input 
 | --- | --- | --- | ---: |
 | What is the history of Alara? | `ask->plane_history` | `QUALIFIED` | 1 |
 | What is the historical background of New Capenna? | `ask->plane_history` | `QUALIFIED` | 8 |
-| What is the lore of Nicol Bolas? | `ask->entity_history` | `QUALIFIED` | 38 |
+| What is the lore of Nicol Bolas? | `ask->entity_history` | `QUALIFIED` | 39 |
 | What is the history of the Gatewatch? | `ask->entity_history` | `QUALIFIED` | 17 |
 | What is the history of the Izzet? | `ask->entity_history` | `QUALIFIED` | 5 |
 | Who is Ugin's twin? | `ask->lore:sibling_of|twin_sibling_of` | `VERIFIED` | 4 |
@@ -55,6 +55,10 @@ This source-graded packet is reproducible from the repository, with exact input 
 | What is the history of Kaldheim? | `ask->plane_history` | `QUALIFIED` | 6 |
 | What is the history of Lorwyn-Shadowmoor? | `ask->plane_history` | `QUALIFIED` | 9 |
 | What is the history of Thunder Junction? | `ask->plane_history` | `QUALIFIED` | 4 |
+| What is the history of Bablovia? | `ask->plane_history` | `QUALIFIED` | 1 |
+| What is the history of Meditation Realm? | `ask->plane_history` | `QUALIFIED` | 6 |
+| What is the history of Muraganda? | `ask->plane_history` | `QUALIFIED` | 2 |
+| What is the history of Skalla? | `ask->plane_history` | `QUALIFIED` | 4 |
 
 The underlying JSON retains response digests, exact source URLs and caveat flags. The two graph-navigation examples are **not** evidence of chronological or causal paths.
 
@@ -77,6 +81,6 @@ python3 scripts/certification_dry_run.py --check
 python3 scripts/update_multiverse_progress_tracker.py --check
 ```
 
-Packet SHA-256 (canonical JSON): `2b900bfc705928e254f07c94c7b5adbbf7eb113162763e377bd9b87cc854aba3`
+Packet SHA-256 (canonical JSON): `4ea615c9e857e256069bc8ed983ef21a09a37acfd904a3c5f0e57943c62911e8`
 
 **No decks were built, modified, reviewed or approved.**

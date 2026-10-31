@@ -35015,6 +35015,78 @@
    "card": "Oko, the Trickster",
    "oracle_id": "f4bf8bd1-71b0-4eb1-976c-54677238b2a6",
    "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "LFP005",
+   "pack": "pack_p5_last_four_thin_planes_2026-10-31.json",
+   "participant": "ugin",
+   "card": "Ugin, Eye of the Storms",
+   "oracle_id": "5c58353a-fd60-4528-bf0d-669626cda0b2",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "LFP005",
+   "pack": "pack_p5_last_four_thin_planes_2026-10-31.json",
+   "participant": "ugin",
+   "card": "Ugin, the Ineffable",
+   "oracle_id": "18bdc181-9592-4147-81fb-7f83ce137f70",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "LFP005",
+   "pack": "pack_p5_last_four_thin_planes_2026-10-31.json",
+   "participant": "ugin",
+   "card": "Ugin, the Spirit Dragon",
+   "oracle_id": "eecb3047-a563-441a-9175-200421981ac3",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "LFP006",
+   "pack": "pack_p5_last_four_thin_planes_2026-10-31.json",
+   "participant": "nicol_bolas",
+   "card": "Nicol Bolas",
+   "oracle_id": "e26bf6a9-b31c-4bc0-b55b-c01f2f69be6b",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "LFP006",
+   "pack": "pack_p5_last_four_thin_planes_2026-10-31.json",
+   "participant": "nicol_bolas",
+   "card": "Nicol Bolas, Dragon-God",
+   "oracle_id": "581eedc4-efe4-4ae4-baf2-88071e7e6f6d",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "LFP006",
+   "pack": "pack_p5_last_four_thin_planes_2026-10-31.json",
+   "participant": "nicol_bolas",
+   "card": "Nicol Bolas, God-Pharaoh",
+   "oracle_id": "cb33e07b-9599-4979-991f-df0c43ddac31",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "LFP006",
+   "pack": "pack_p5_last_four_thin_planes_2026-10-31.json",
+   "participant": "nicol_bolas",
+   "card": "Nicol Bolas, Planeswalker",
+   "oracle_id": "05e9b55e-6329-48ec-b7d7-24c6b9692244",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "LFP006",
+   "pack": "pack_p5_last_four_thin_planes_2026-10-31.json",
+   "participant": "nicol_bolas",
+   "card": "Nicol Bolas, the Deceiver",
+   "oracle_id": "524b00ea-0372-40f9-a6a1-76a8497a1ea6",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "LFP006",
+   "pack": "pack_p5_last_four_thin_planes_2026-10-31.json",
+   "participant": "nicol_bolas",
+   "card": "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+   "oracle_id": "55e4b27e-5447-4fc2-8cae-a03e344600c6",
+   "tier": "NAMED_PARTICIPANT"
   }
  ],
  "by_pack": {
@@ -35255,6 +35327,13 @@
    "ART_IN_CITED_SOURCE": 0,
    "PRINTED_IN_STORY_SET": 14,
    "NAMED_PARTICIPANT": 42
+  },
+  "pack_p5_last_four_thin_planes_2026-10-31.json": {
+   "claims": 13,
+   "claims_anchored": 2,
+   "ART_IN_CITED_SOURCE": 0,
+   "PRINTED_IN_STORY_SET": 0,
+   "NAMED_PARTICIPANT": 9
   },
   "pack_p5_lorwyn_eclipsed_2026-10-30.json": {
    "claims": 18,
@@ -35559,12 +35638,12 @@
   }
  },
  "counts": {
-  "claims": 1246,
-  "claims_anchored": 975,
-  "anchors": 4109,
+  "claims": 1259,
+  "claims_anchored": 977,
+  "anchors": 4118,
   "ART_IN_CITED_SOURCE": 123,
   "PRINTED_IN_STORY_SET": 546,
-  "NAMED_PARTICIPANT": 3440
+  "NAMED_PARTICIPANT": 3449
  },
- "content_sha256": "37c9b474ef467929ec60aadbd54c54561db60bd0556399f41f11d5f0acec92b4"
+ "content_sha256": "a3e7e6aacdbbe22d5ca69b1a164a3e83181641161f548d8318e710ea09f3ddab"
 }

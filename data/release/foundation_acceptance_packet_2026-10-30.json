@@ -9,11 +9,11 @@
   "input_sha256": {
     "graph": {
       "path": "data/multiverse_graph/multiverse_graph.json",
-      "sha256": "36030ee12f9b6ffa997899d1c0ee189c91de91f779662ec3f9a43d21d8b83d30"
+      "sha256": "d7a6c29a9d9c73ea969a60218259be352b40eaf1d6473ebd6a6b35f186c8d2db"
     },
     "plane_histories": {
       "path": "data/lore_research/plane_history_dossiers_2026-10-30.json",
-      "sha256": "9845696b7303b94cc03a73f7f076b5369a29c13ac5db367bb51e498dd22377c2"
+      "sha256": "6aedec29982b0bd544fdcaf7c85c50d1ac4b460505b4e4528c353a7d70e38f7b"
     },
     "chronology": {
       "path": "data/lore_research/relative_chronology_2026-10-30.json",
@@ -25,7 +25,7 @@
     },
     "story_coverage": {
       "path": "data/lore_research/story_coverage_inventory_2026-10-30.json",
-      "sha256": "91d65a33647e9f9894cefd4ae490c412992b66c7242a90807a35725c2a251c57"
+      "sha256": "651255dcf08c9370024a34a849e7c249b18c7f876b9e8247d69a7afa7de9fe26"
     },
     "genealogy_disputes": {
       "path": "data/lore_research/pack_a_genealogy_disputes_2026-10-30.json",
@@ -36,16 +36,16 @@
     "source_pages_in_inventoried_scope": 626,
     "source_pages_cited": 576,
     "source_pages_reviewed_without_claim": 50,
-    "graph_nodes": 5259,
-    "graph_edges": 8421,
-    "graph_claims": 1246,
+    "graph_nodes": 5290,
+    "graph_edges": 8473,
+    "graph_claims": 1259,
     "registered_plane_nodes": 33,
-    "thin_plane_dossiers": 4,
+    "thin_plane_dossiers": 0,
     "curated_context_plane_count": 4,
     "distinct_existing_context_claims": 53,
     "registered_character_nodes": 484,
-    "registered_faction_nodes": 149,
-    "characters_and_factions_with_direct_claims": 633,
+    "registered_faction_nodes": 156,
+    "characters_and_factions_with_direct_claims": 640,
     "characters_and_factions_without_direct_claims": 0,
     "registered_character_faction_direct_claim_gaps": []
   },
@@ -131,6 +131,7 @@
         "OPEN_QUESTION_PRESENT"
       ],
       "sources": [
+        "https://magic.wizards.com/en/news/feature/planes-planechase-2009-12-30",
         "https://magic.wizards.com/en/news/feature/reforged-chain-2015-01-21",
         "https://magic.wizards.com/en/news/feature/returning-legends-modern-horizons-2-2021-06-10",
         "https://magic.wizards.com/en/news/magic-story/arbiter-law-left-chaos-his-wake-2018-01-24",
@@ -170,8 +171,8 @@
         "https://magic.wizards.com/en/story/ugin-planeswalker",
         "https://www.magic.wizards.com/en/news/magic-story/planeswalkers-guide-to-reality-fracture"
       ],
-      "response_sha256": "685d25186241467b6bc3c859f4bba285d4d9a9cc95159979ffb510579bc66896",
-      "direct_claims": 51,
+      "response_sha256": "9d0d4ddb56f4fa04dfcea3a43b1e8af8d448315f9a12e0cb7f3eebd4b45df50b",
+      "direct_claims": 52,
       "chronology_relation": null,
       "known_limitations": [
         "Only cited graph edges directly incident on this entity are included.",
@@ -315,7 +316,7 @@
         "https://magic.wizards.com/en/story/ugin-planeswalker",
         "https://magic.wizards.com/en/story/zendikar-plane"
       ],
-      "response_sha256": "c815455d90a5a1a9e4119c9a91e2cd86ce7b6e756755f0e3f88436dc5929781d",
+      "response_sha256": "3d36351f35af5a4127f0e04b9206605cb975d183364099be1d62606812e3db42",
       "direct_claims": null,
       "chronology_relation": null,
       "known_limitations": []
@@ -912,6 +913,106 @@
         "Era labels and publication dates are not a verified sequence or AR calendar year.",
         "Absence of a cited event or person is not evidence it never occurred or appeared."
       ]
+    },
+    {
+      "id": "plane_bablovia_unset",
+      "question": "What is the history of Bablovia?",
+      "route": "ask->plane_history",
+      "confidence": "QUALIFIED",
+      "flags": [
+        "PARTIAL_REGISTERED_PLANE_HISTORY",
+        "NO_VERIFIED_TOTAL_CHRONOLOGY",
+        "ALTERNATE_CONTINUITY_PRESENT"
+      ],
+      "sources": [
+        "https://magic.wizards.com/en/news/magic-story/world-class-2017-11-29"
+      ],
+      "response_sha256": "65d780d0f65f9e132a0ba4f99ed98544c2f60533b5bc46f86a238f53ec64aa5b",
+      "direct_claims": 5,
+      "chronology_relation": null,
+      "known_limitations": [
+        "Direct claims are not an exhaustive history of this plane.",
+        "Curated same-plane story context is not a direct claim-to-plane edge and does not prove the geography of every participant in an entire arc.",
+        "Era labels and publication dates are not a verified sequence or AR calendar year.",
+        "Absence of a cited event or person is not evidence it never occurred or appeared."
+      ]
+    },
+    {
+      "id": "plane_meditation_realm",
+      "question": "What is the history of Meditation Realm?",
+      "route": "ask->plane_history",
+      "confidence": "QUALIFIED",
+      "flags": [
+        "PARTIAL_REGISTERED_PLANE_HISTORY",
+        "NO_VERIFIED_TOTAL_CHRONOLOGY",
+        "CANON_IMPLIED_PRESENT"
+      ],
+      "sources": [
+        "https://magic.wizards.com/en/news/feature/planes-planechase-2009-12-30",
+        "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-unwritten-now-2018-08-15",
+        "https://magic.wizards.com/en/news/magic-story/lorwyn-eclipsed-episode-2-shake-off-slumber",
+        "https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-to-reality-fracture",
+        "https://magic.wizards.com/en/news/magic-story/tarkir-dragonstorm-episode-6-how-wretched-love",
+        "https://magic.wizards.com/en/news/magic-story/tarkir-dragonstorm-episode-7-return"
+      ],
+      "response_sha256": "8484bcfeebbe0b914a3df303fd7c1b05960ef4e57785a9d7732a8527bd7f972f",
+      "direct_claims": 5,
+      "chronology_relation": null,
+      "known_limitations": [
+        "Direct claims are not an exhaustive history of this plane.",
+        "Curated same-plane story context is not a direct claim-to-plane edge and does not prove the geography of every participant in an entire arc.",
+        "Era labels and publication dates are not a verified sequence or AR calendar year.",
+        "Absence of a cited event or person is not evidence it never occurred or appeared."
+      ]
+    },
+    {
+      "id": "plane_muraganda",
+      "question": "What is the history of Muraganda?",
+      "route": "ask->plane_history",
+      "confidence": "QUALIFIED",
+      "flags": [
+        "PARTIAL_REGISTERED_PLANE_HISTORY",
+        "NO_VERIFIED_TOTAL_CHRONOLOGY",
+        "CANON_IMPLIED_PRESENT"
+      ],
+      "sources": [
+        "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-aetherdrift-part-2",
+        "https://magic.wizards.com/en/news/magic-story/aetherdrift-like-no-other-beast"
+      ],
+      "response_sha256": "7d1d3f4c481c399c9db510beead5c1183a305a87f95143a06eed46b4c6b32d4b",
+      "direct_claims": 5,
+      "chronology_relation": null,
+      "known_limitations": [
+        "Direct claims are not an exhaustive history of this plane.",
+        "Curated same-plane story context is not a direct claim-to-plane edge and does not prove the geography of every participant in an entire arc.",
+        "Era labels and publication dates are not a verified sequence or AR calendar year.",
+        "Absence of a cited event or person is not evidence it never occurred or appeared."
+      ]
+    },
+    {
+      "id": "plane_skalla",
+      "question": "What is the history of Skalla?",
+      "route": "ask->plane_history",
+      "confidence": "QUALIFIED",
+      "flags": [
+        "PARTIAL_REGISTERED_PLANE_HISTORY",
+        "NO_VERIFIED_TOTAL_CHRONOLOGY"
+      ],
+      "sources": [
+        "https://magic.wizards.com/en/news/magic-story/unbowed-part-1-2018-08-29",
+        "https://magic.wizards.com/en/news/magic-story/unbowed-part-2-2018-09-05",
+        "https://magic.wizards.com/en/news/making-magic/what-core-can-i-say-part-2-2019-07-08",
+        "https://magic.wizards.com/en/story/vivien-reid-planeswalker"
+      ],
+      "response_sha256": "870a3eded8815f70eb1ad5b3de2fe83e3d93aef72d8288ae83e23e4efe0353e6",
+      "direct_claims": 5,
+      "chronology_relation": null,
+      "known_limitations": [
+        "Direct claims are not an exhaustive history of this plane.",
+        "Curated same-plane story context is not a direct claim-to-plane edge and does not prove the geography of every participant in an entire arc.",
+        "Era labels and publication dates are not a verified sequence or AR calendar year.",
+        "Absence of a cited event or person is not evidence it never occurred or appeared."
+      ]
     }
   ],
   "cross_plane_graph_navigation": [
@@ -989,5 +1090,5 @@
     "python3 scripts/update_multiverse_progress_tracker.py --check"
   ],
   "owner_review_status": "PENDING_NOT_REQUESTED_UNTIL_ENGINEERING_EVIDENCE_AND_CI_COMPLETE",
-  "content_sha256": "2b900bfc705928e254f07c94c7b5adbbf7eb113162763e377bd9b87cc854aba3"
+  "content_sha256": "4ea615c9e857e256069bc8ed983ef21a09a37acfd904a3c5f0e57943c62911e8"
 }

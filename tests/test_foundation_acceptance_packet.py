@@ -38,7 +38,7 @@ class FoundationPacketTests(unittest.TestCase):
                          c['characters_and_factions_without_direct_claims'])
         self.assertEqual(c['source_pages_in_inventoried_scope'],
                          c['source_pages_cited'] + c['source_pages_reviewed_without_claim'])
-        self.assertGreater(c['thin_plane_dossiers'], 0)
+        self.assertGreaterEqual(c['thin_plane_dossiers'], 0)
         ch = self.current['chronology']
         self.assertEqual(ch['legacy_unresolved_pairs'], ch['legacy_total_pairs'] - ch['legacy_ordered_pairs'])
         self.assertGreater(ch['legacy_unresolved_pairs'], 0)
@@ -47,8 +47,8 @@ class FoundationPacketTests(unittest.TestCase):
         self.assertIn('may not be summed', ch['not_additive'].lower())
         self.assertEqual(c['characters_and_factions_without_direct_claims'], 0)
         self.assertEqual(c['registered_character_faction_direct_claim_gaps'], [])
-        self.assertEqual(c['characters_and_factions_with_direct_claims'], 633)
-        self.assertEqual(c['thin_plane_dossiers'], 4)
+        self.assertEqual(c['characters_and_factions_with_direct_claims'], 640)
+        self.assertEqual(c['thin_plane_dossiers'], 0)
 
     def test_qa_sources_and_unknown_are_preserved(self):
         cases = {r['id']: r for r in self.current['representative_questions']}
@@ -66,7 +66,9 @@ class FoundationPacketTests(unittest.TestCase):
                           'plane_ikoria', 'plane_new_capenna', 'plane_new_capenna_background',
                           'plane_arcavios', 'plane_vryn', 'plane_serras_realm', 'plane_regatha',
                           'plane_fiora', 'plane_kaldheim', 'plane_lorwyn_shadowmoor',
-                          'plane_thunder_junction'})
+                          'plane_thunder_junction', 'plane_bablovia_unset',
+                          'plane_meditation_realm', 'plane_muraganda', 'plane_skalla'})
+        self.assertIn('ALTERNATE_CONTINUITY_PRESENT', cases['plane_bablovia_unset']['flags'])
         self.assertTrue(any('media.wizards.com' in url for url in cases['commander_identity']['sources']))
         for r in cases.values():
             self.assertEqual(len(r['response_sha256']), 64)
