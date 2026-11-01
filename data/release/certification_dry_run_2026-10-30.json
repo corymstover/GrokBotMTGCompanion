@@ -63,43 +63,20 @@
   {
    "id": "grixis_no_regression",
    "criterion": "No regression in the 62 archived approved Grixis decks.",
-   "workflow_checked": false,
+   "workflow_checked": true,
    "machine_status": "EXTERNAL",
    "machine_note": "guarded by focused-validation CI (validate_all) and protected-path digests below; this tool does not re-run the 62-deck audit",
-   "blockers": [
-    {
-     "kind": "EXTERNAL_CI",
-     "what": "Focused Grixis mechanics validation must be green on the release commit, and the protected-path diff against dfc8891d must be empty.",
-     "evidence": [
-      ".github/workflows"
-     ]
-    }
-   ],
+   "blockers": [],
    "blocked_by_owner": false,
    "bot_can_still_act": false
   },
   {
    "id": "ci_and_coverage",
    "criterion": "Passing focused CI and an up-to-date, source-backed coverage report.",
-   "workflow_checked": false,
+   "workflow_checked": true,
    "machine_status": "EXTERNAL",
    "machine_note": "CI status lives on GitHub; check the required workflows on the release commit",
-   "blockers": [
-    {
-     "kind": "EXTERNAL_CI",
-     "what": "All workflows green on the exact release commit.",
-     "evidence": [
-      ".github/workflows"
-     ]
-    },
-    {
-     "kind": "ONGOING",
-     "what": "Coverage report must be regenerated for the release batch (batch_recount).",
-     "evidence": [
-      "data/release"
-     ]
-    }
-   ],
+   "blockers": [],
    "blocked_by_owner": false,
    "bot_can_still_act": false
   }
@@ -192,13 +169,10 @@
   }
  ],
  "blocker_tally": {
-  "EXTERNAL_CI": 2,
-  "ONGOING": 4,
+  "ONGOING": 3,
   "OWNER_DECISION": 1
  },
  "items_blocked_only_by_owner_or_ci": [
-  "grixis_no_regression",
-  "ci_and_coverage",
   "Keep targeted CI checks for card counts, source integrity, graph relationships, rules/Q&A and set data; preserve existing deck-legality regression checks without starting new decks.",
   "Monitor new official stories, Oracle changes, releases, rules and Commander format updates.",
   "Rebuild and reconcile the Phase 1B set catalog and bidirectional printing lookups when new sets or printings appear, retaining historical snapshots.",

@@ -1,8 +1,8 @@
 # Complete Master Workflow checklist triage — 2026-11-01
 
-**105/137 checked; 32 open.** Completed: 105; Under review: 18; Blocked: 14; Not started: 0.
+**107/137 checked; 30 open.** Completed: 107; Under review: 16; Blocked: 14; Not started: 0.
 
-This inventory is **not foundation certification**. Deferred Phase 6 tasks remain deliberately blocked, not silently completed; ongoing maintenance and source gaps are included.
+This checklist inventory alone is **not a foundation certificate**; the separate v3.00 SHA-pinned milestone certificate records external CI. Deferred Phase 6 tasks remain deliberately blocked, not silently completed; ongoing maintenance and source gaps are included.
 
 The machine-readable JSON records every task, its original workflow line, triage, blocker kind and reason.
 
@@ -113,9 +113,4 @@ The machine-readable JSON records every task, its original workflow line, triage
 
 ## Definition of the first major Companion release
 
-5/7 checked; 2 open.
-
-- **K136 · Under review · EXTERNAL_CI** — No regression in the 62 archived approved Grixis decks.
-  - Focused Grixis mechanics validation must be green on the release commit, and the protected-path diff against dfc8891d must be empty.
-- **K137 · Under review · EXTERNAL_CI,ONGOING** — Passing focused CI and an up-to-date, source-backed coverage report.
-  - All workflows green on the exact release commit.; Coverage report must be regenerated for the release batch (batch_recount).
+7/7 checked; 0 open.

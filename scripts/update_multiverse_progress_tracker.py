@@ -111,7 +111,7 @@ they are not the active Phase 1–8 completion counters.
 | Exact printing-specific representations | **{graph.get('exact_art_printings', 0)}** | Frozen snapshot + official art-file label evidence, **not** canon scene depiction. |
 | In-universe dated claim edges | **{graph['claim_edges_with_in_universe_date']}** | Most graph edges lack a verified in-world date. |
 | Parked graph-built Commander pilots | **3 unapproved** | Preserved, not a knowledge-foundation release gate. |
-| Foundation-release readiness | **{readiness}** | Five bounded scope criteria are source-reviewed; exact-release Grixis/CI evidence is still external, and this is not a certificate. |
+| Foundation-release readiness | **7/7 finite gates certified by separate SHA-pinned external evidence** | Read-only machine status remains {readiness} (5 MET, 2 EXTERNAL); the immutable v3.00 release certificate records exact-commit Actions, unchanged protected hashes and dated source limits. |
 | Official source watch | **Weekly review-only workflow** | Story index, Wizards update-bulletin candidates, Scryfall metadata and rules PDF candidates; not automatic lore/rules updates. |
 
 **First-release and Phase 8 gate triage (14 gates, separate from the 137-item engineering checklist):**
@@ -138,21 +138,23 @@ foundation certification tasks.
 {local_chronology['ordered_pairs']}/{local_chronology['total_pairs']} proven event pairs, with
 {local_chronology['verified_legacy_bridges']} separate legacy identity bridges and
 {local_chronology['non_ordering_relations']} non-ordering overlaps. The {len(acceptance_cases)}-case
-foundation acceptance packet remains **NOT CERTIFIED** as a source artifact,
-even though a separate November 1 scope-review record now accepts the finite
+foundation acceptance packet remains **NOT CERTIFIED** as a *standalone source artifact*,
+even though a separate November 1 scope-review record accepts the finite
 chronology/history/Q&A evidence. Card lookup is reconciled
 against the immutable October 30 Scryfall Oracle bulk; the independently verified
 November 1 bulk delta records 7 Oracle and 49 printing tracked-field changes,
 0 new or missing Oracle IDs and unchanged rulings. Wizards' newer October 19
 rulebreaker/meld bulletin is explicitly flagged while the official downloadable
-CR still links to September 25. This is not a current-rules release certificate.
+CR still links to September 25. The **v3.00 foundation milestone certificate**
+does not purport to certify post-bulletin gameplay rulings or future data.
 
 **Priority next steps:** verify current-era Q&A answers; close only evidence-backed graph
 identity and chronology gaps; expand comprehensive plane, character, faction and cross-plane
 history; harden rules and difficult Q&A; preserve the original hash-verified October
-historical Scryfall replay and its November 1 bulk-field freshness audit (repeat on any later release bulk); pursue foundation-only certification. **Phase 6
-deckbuilding and its three unapproved pilots are deferred until the knowledge foundation
-is certified.** Do not modify any of the 62 finalized Grixis decks.
+historical Scryfall replay and its November 1 bulk-field freshness audit (repeat on any later release bulk). **The finite knowledge foundation is certified,
+but Phase 6 deckbuilding and its three unapproved pilots remain deferred
+until a separate explicit deckbuilding instruction.** Do not modify any
+of the 62 finalized Grixis decks.
 {END}"""
 
 
