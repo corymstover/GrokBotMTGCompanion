@@ -1,0 +1,66 @@
+{
+  "schema": "foundation-capability-scope/v1",
+  "as_of": "2026-11-01",
+  "status": "BOUNDED_ENGINEERING_CAPABILITIES_VERIFIED_NOT_RELEASE_CERTIFIED",
+  "capabilities": {
+    "primary_source_inventory_and_integrity": {
+      "supported": true,
+      "pages_in_declared_inventory": 626,
+      "cited_pages": 576,
+      "reviewed_without_claim": 50,
+      "arcs_accounted_for": 33
+    },
+    "later_stories_and_omenpaths_curated_scope": {
+      "supported": true,
+      "reviewed_arcs": [
+        "BLB",
+        "DFT",
+        "DSK",
+        "ECL",
+        "EOE",
+        "LCI",
+        "MKM",
+        "MOM",
+        "OTJ",
+        "TDM",
+        "WOE"
+      ],
+      "all_inventory_arcs_accounted_for": 33
+    },
+    "cross_plane_navigation_and_retcon_qualification": {
+      "supported": true,
+      "official_legacy_identity_bridges": 8,
+      "bounded_graph_path_exemplars": 2,
+      "no_cross_strand_total_order": true
+    },
+    "hard_lore_and_chronology_qa": {
+      "supported": true,
+      "representative_questions": 115,
+      "distinct_routes": 23,
+      "confidence_distribution": {
+        "NOT_FOUND": 6,
+        "QUALIFIED": 99,
+        "VERIFIED": 10
+      }
+    },
+    "integrated_card_lore_rules_set_lookup": {
+      "supported": true,
+      "three_domain_probes": 5,
+      "published_rulings_and_dual_timeline_cases": 2,
+      "dated_not_live": true
+    }
+  },
+  "limitations": [
+    "A cited page is not an exhaustive reading or the entire Wizards story corpus.",
+    "This verifies retrieval/provenance within the declared scope, not every fictional fact or later release.",
+    "Cross-plane graph paths are navigation only; unquoted temporal edges stay UNKNOWN.",
+    "Unreviewed Elder Dragon genealogies and source-pending historical set product identities stay open.",
+    "Published rules evidence does not simulate gameplay or certify live rulings, Oracle or bans.",
+    "Owner acceptance, exact-release CI, current-bulk reconciliation, and 62 protected-deck checks remain separate gates.",
+    "Phase 6 deckbuilding and three unapproved pilots remain parked."
+  ],
+  "release_certified": false,
+  "owner_accepted": false,
+  "phase6_deckbuilding_deferred": true,
+  "sha256": "60be7fe4ecb977914083576dcb4ed6c1c77fb4a5c85accc849395d60be75980c"
+}

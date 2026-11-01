@@ -1,6 +1,6 @@
 # Complete Master Workflow checklist triage — 2026-11-01
 
-**94/137 checked; 43 open.** Completed: 94; Under review: 26; Blocked: 17; Not started: 0.
+**99/137 checked; 38 open.** Completed: 99; Under review: 21; Blocked: 17; Not started: 0.
 
 This inventory is **not foundation certification**. Deferred Phase 6 tasks remain deliberately blocked, not silently completed; ongoing maintenance and source gaps are included.
 
@@ -28,12 +28,10 @@ The machine-readable JSON records every task, its original workflow line, triage
 
 ## Phase 2 — Lore enrichment and primary-source integrity
 
-7/9 checked; 2 open.
+8/9 checked; 1 open.
 
 - **K064 · Under review · SOURCE_GRADING** — Link direct printed depictions, official story references, artwork, flavor text, characters and important events where evidence supports them.
   - Proof tiers and 570 printing labels exist, but direct depiction evidence remains incomplete.
-- **K066 · Under review · ONGOING_SOURCE_RESEARCH** — Expand the primary-source inventory and rerun targeted reference-integrity checks.
-  - The source roster and quotation audits require continued expansion/review.
 
 ## Phase 3 — Searchable Multiverse relationship graph
 
@@ -59,7 +57,7 @@ The machine-readable JSON records every task, its original workflow line, triage
 
 ## Phase 5 — Full-history and plane-by-plane expansion
 
-11/17 checked; 6 open.
+13/17 checked; 4 open.
 
 - **K098 · Under review · COVERAGE_GAPS** — Expand the Mending, major planeswalkers and the Gatewatch.
   - Mending and Gatewatch biographies/events are not comprehensively source-audited.
@@ -67,10 +65,6 @@ The machine-readable JSON records every task, its original workflow line, triage
   - War of the Spark sources are only partially extracted.
 - **K100 · Under review · COVERAGE_GAPS** — Expand Mirrodin/New Phyrexia and March of the Machine.
   - Main-story claim packs do not exhaust side stories or consequences.
-- **K101 · Under review · COVERAGE_GAPS** — Expand Omenpaths and later canonical stories.
-  - Newer stories and continuity changes require further cited claims.
-- **K103 · Under review · CHRONOLOGY_GAPS** — Connect cross-plane histories and document contradictions/retcons.
-  - Explicit SAME_EVENT bridges exist, but most cross-plane order/retcon claims are unresolved.
 - **K105 · Under review · ONGOING_SOURCE_TRIAGE** — Maintain an explicit coverage/gaps inventory as new sets and stories arrive.
   - Dated coverage inventory exists, but future sources and gap reports remain ongoing.
 
@@ -101,12 +95,8 @@ The machine-readable JSON records every task, its original workflow line, triage
 
 ## Phase 7 — Ultimate MTG question-answering companion
 
-6/8 checked; 2 open.
+8/8 checked; 0 open.
 
-- **K119 · Under review · QA_COVERAGE** — Answer obscure lore and chronology questions through cited evidence and dated canon status.
-  - Cited Q&A works on bounded claims; unsupported questions remain UNKNOWN.
-- **K121 · Under review · QA_COVERAGE** — Integrate card, lore and rules search for difficult research questions; defer deck recommendations and deckbuilding flows until post-foundation Phase 6.
-  - Cross-domain answer routes and current rules edges need further breadth.
 
 ## Phase 8 — Release quality and continuing upkeep
 

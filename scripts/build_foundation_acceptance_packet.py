@@ -256,6 +256,34 @@ QA_CASES = [
     ('dual_timeline_unknown_set',
      'Compare the release and lore timelines for Zorblax Time Rift',
      'ask->set_atlas:dual_timeline', 'NOT_FOUND'),
+    # Release-scope hard-query sweep: distinct cited relations, cross-plane
+    # navigation without invented causality, retcons, two independent histories,
+    # and a card/lore/rules join whose card has no verified story identity.
+    ('hard_vito_killer', 'Who killed Vito?', 'ask->lore:killed', 'VERIFIED'),
+    ('hard_valgavoth_release', 'Who released Valgavoth?', 'ask->lore:freed', 'VERIFIED'),
+    ('hard_loot_capture', 'Who captured Loot?', 'ask->lore:captured', 'VERIFIED'),
+    ('hard_tamiyo_abduction', 'Who kidnapped Tamiyo?', 'ask->lore:abducted', 'VERIFIED'),
+    ('hard_kellan_father', "Who is Kellan's father?", 'ask->lore:father_of', 'VERIFIED'),
+    ('hard_chandra_partner', "Who is Chandra Nalaar's lover?",
+     'ask->lore:romantically_involved_with', 'VERIFIED'),
+    ('hard_jace_allies', "Who are Jace's allies?",
+     'ask->lore:allied_with|friend_of|childhood_friend_of', 'VERIFIED'),
+    ('graph_nav_tezzeret_kaladesh', 'How is Tezzeret connected to Kaladesh?',
+     'ask->graph_connection', 'QUALIFIED'),
+    ('graph_nav_amonkhet_ravnica', 'How is Amonkhet connected to Ravnica?',
+     'ask->graph_connection', 'QUALIFIED'),
+    ('graph_nav_unknown', 'How is Zorblax connected to Kaladesh?',
+     'ask->graph_connection', 'NOT_FOUND'),
+    ('retcon_bolas', 'Explain the continuity of Nicol Bolas', 'ask->continuity', 'QUALIFIED'),
+    ('strand_bare_azorius', 'Timeline of Azorius', 'ask->chronology_overview', 'QUALIFIED'),
+    ('strand_war_of_spark_title', 'Show chronology of the War of the Spark',
+     'ask->chronology_overview', 'QUALIFIED'),
+    ('strand_mirrodin_new_phyrexia_explicit', 'Show chronology strand P',
+     'ask->chronology_overview', 'QUALIFIED'),
+    ('strand_mirrodin_argentum_explicit', 'Show chronology strand H',
+     'ask->chronology_overview', 'QUALIFIED'),
+    ('cross_domain_black_lotus', 'What are the lore and Commander eligibility of Black Lotus?',
+     'ask->card_lore_commander_evidence', 'QUALIFIED'),
 ]
 
 
@@ -279,7 +307,8 @@ def qa_cases() -> list[dict]:
             raise ValueError('Unanchored chronology was falsely answered or sourced')
         if key == 'source_order' and r['result']['relation'] != 'BEFORE':
             raise ValueError('Source-grounded chronology no longer supported')
-        if key in {'strand_azorius_overview', 'strand_azorius_direct_id'} and (
+        if key in {'strand_azorius_overview', 'strand_azorius_direct_id',
+                   'strand_bare_azorius', 'strand_war_of_spark_title'} and (
                 r['result']['strand']['id'] != 'X' or
                 len(r['result']['strict_edges']) != 4 or
                 r['result']['ordered_event_pairs'] != 10 or
@@ -308,6 +337,11 @@ def qa_cases() -> list[dict]:
                 not r['result']['unresolved_strict_pairs'] or
                 r['result']['source_local_total_order']):
             raise ValueError('Amonkhet/Ravnica account was falsely linearized')
+        if key in {'strand_mirrodin_new_phyrexia_explicit', 'strand_mirrodin_argentum_explicit'} and (
+                r['result']['strand']['id'] != (
+                    'P' if key.endswith('explicit') and 'new_phyrexia' in key else 'H') or
+                len(r['result']['events']) != 7 or not r['sources']):
+            raise ValueError('Explicit Mirrodin chronology choices lost independent sources')
         if key.startswith('strand_') and r['result']['verified_total_chronology']:
             raise ValueError('Source-local overview asserted a verified global timeline')
         if key == 'new_phyrexia_source_order' and (r['result']['relation'] != 'BEFORE' or
@@ -405,6 +439,26 @@ def qa_cases() -> list[dict]:
                 if key == 'cross_domain_blackblade_no_name_bridge' and (
                         names or 'NO_CITED_NAMED_ENTITY_BRIDGE' not in r['flags']):
                     raise ValueError('Blackblade falsely assigned a lore subject')
+                if key == 'cross_domain_black_lotus' and names:
+                    raise ValueError('Black Lotus acquired an unverified lore subject')
+        if key.startswith('hard_') and (
+                not r['sources'] or not all(url.startswith('https://magic.wizards.com/')
+                                            for url in r['sources']) or
+                not r['result'].get('relations_by_status', {}).get('CANON_CONFIRMED')):
+            raise ValueError(f'Hard lore question lost confirmed first-party proof: {key}')
+        if key.startswith('graph_nav_'):
+            if 'NOT_TEMPORAL_OR_CAUSAL_PROOF' not in r['flags']:
+                raise ValueError('Cross-plane graph path was silently treated as historical proof')
+            if key == 'graph_nav_unknown':
+                if r['result']['path'] is not None or r['sources']:
+                    raise ValueError('Unknown graph endpoint obtained a fabricated source path')
+            elif not r['result']['path'] or not all(
+                    h['status'] == 'CANON_CONFIRMED' and h['claim'] and h['source_urls']
+                    for h in r['result']['path']):
+                raise ValueError(f'Confirmed graph path evidence missing: {key}')
+        if key == 'retcon_bolas' and (
+                'CANON_DISPUTED_PRESENT' not in r['flags'] or not r['sources']):
+            raise ValueError('Conflicting Bolas accounts lost dispute/citation qualifiers')
         if key.startswith('set_story_'):
             if ('SET_DATE_NOT_IN_UNIVERSE_CHRONOLOGY' not in r['flags'] or
                     'HISTORICAL_SET_API_METADATA_ONLY' not in r['flags'] or
