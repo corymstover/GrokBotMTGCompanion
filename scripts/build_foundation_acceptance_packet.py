@@ -203,6 +203,18 @@ QA_CASES = [
     ('amonkhet_warning_vs_shutoff_unknown',
      'Did E:samut_warns_ravnica happen before E:eternal_flow_stopped?',
      'ask->chronology', 'QUALIFIED'),
+    ('cross_domain_ugin_ineligible',
+     'What are the lore and Commander eligibility of Ugin, the Spirit Dragon?',
+     'ask->card_lore_commander_evidence', 'QUALIFIED'),
+    ('cross_domain_bolas_dual_face',
+     'Show card, lore, and Commander rules for Nicol Bolas, the Ravager',
+     'ask->card_lore_commander_evidence', 'QUALIFIED'),
+    ('cross_domain_blackblade_no_name_bridge',
+     'Tell me the lore and Commander eligibility of Blackblade Reforged',
+     'ask->card_lore_commander_evidence', 'QUALIFIED'),
+    ('cross_domain_unknown_card',
+     'What are the lore and Commander eligibility of Zorblax the Unreal?',
+     'ask->card_lore_commander_evidence', 'NOT_FOUND'),
 ]
 
 
@@ -300,6 +312,27 @@ def qa_cases() -> list[dict]:
                 r['result']['relation'] != 'UNKNOWN' or r['sources'] or
                 'NO_CITED_CHRONOLOGY_PATH' not in r['flags']):
             raise ValueError('Amonkhet/Ravnica parallel events falsely ordered')
+        if key.startswith('cross_domain_'):
+            if key == 'cross_domain_unknown_card':
+                if r['sources'] or r['result']['card'] is not None:
+                    raise ValueError('Unknown card fabricated cross-domain citations')
+            else:
+                if ('DATED_SCRYFALL_LEGALITY_NOT_LIVE' not in r['flags'] or
+                        'GRAPH_NAME_BRIDGE_NOT_DEPICTION_PROOF' not in r['flags'] or
+                        not any('media.wizards.com' in url for url in r['sources'])):
+                    raise ValueError(f'Cross-domain citation/currentness guard missing: {key}')
+                names = [n['name'] for n in r['result']['named_lore_subjects']]
+                if key == 'cross_domain_ugin_ineligible' and (
+                        names != ['Ugin'] or r['result']['commander_eligibility']['allowed']):
+                    raise ValueError('Ugin card eligibility or subject identity overstated')
+                if key == 'cross_domain_bolas_dual_face' and (
+                        names != ['Nicol Bolas'] or
+                        'CANON_DISPUTED_PRESENT' not in r['flags'] or
+                        not r['result']['commander_eligibility']['allowed']):
+                    raise ValueError('Bolas dual-face identity or disputes lost')
+                if key == 'cross_domain_blackblade_no_name_bridge' and (
+                        names or 'NO_CITED_NAMED_ENTITY_BRIDGE' not in r['flags']):
+                    raise ValueError('Blackblade falsely assigned a lore subject')
         if key == 'present_leader_unknown' and 'CURRENT_LEADER_NOT_ESTABLISHED' not in r['flags']:
             raise ValueError('Present-day leadership is overstated')
         if key == 'commander_identity' and not r['result']['allowed']:

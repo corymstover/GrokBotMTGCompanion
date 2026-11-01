@@ -1672,6 +1672,103 @@
       "direct_claims": null,
       "chronology_relation": "UNKNOWN",
       "known_limitations": []
+    },
+    {
+      "id": "cross_domain_ugin_ineligible",
+      "question": "What are the lore and Commander eligibility of Ugin, the Spirit Dragon?",
+      "route": "ask->card_lore_commander_evidence",
+      "confidence": "QUALIFIED",
+      "flags": [
+        "DATED_SCRYFALL_LEGALITY_NOT_LIVE",
+        "GRAPH_NAME_BRIDGE_NOT_DEPICTION_PROOF",
+        "LORE_CLAIMS_TRUNCATED_TO_EIGHT_PER_SUBJECT",
+        "NO_RULES_SIMULATION",
+        "PARTIAL_DIRECT_LORE_ONLY"
+      ],
+      "sources": [
+        "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-blood-and-fire-2018-07-18",
+        "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-first-lesson-2018-06-20",
+        "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-twins-2018-06-13",
+        "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-unwritten-now-2018-08-15",
+        "https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-fate-reforged-2015-01-07",
+        "https://magic.wizards.com/en/news/magic-story/tarkir-dragonstorm-episode-7-return",
+        "https://magic.wizards.com/en/news/making-magic/even-more-war-games-2019-05-06",
+        "https://magic.wizards.com/en/story/tarkir-plane",
+        "https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt",
+        "https://scryfall.com/card/m21/1/ugin-the-spirit-dragon"
+      ],
+      "response_sha256": "370b299341a99681f09350ad3a3df6dae8374a93fc38a89645b3a0e1bb92aff7",
+      "direct_claims": null,
+      "chronology_relation": null,
+      "known_limitations": []
+    },
+    {
+      "id": "cross_domain_bolas_dual_face",
+      "question": "Show card, lore, and Commander rules for Nicol Bolas, the Ravager",
+      "route": "ask->card_lore_commander_evidence",
+      "confidence": "QUALIFIED",
+      "flags": [
+        "ALTERNATE_CONTINUITY_PRESENT",
+        "CANON_DISPUTED_PRESENT",
+        "CANON_IMPLIED_PRESENT",
+        "DATED_SCRYFALL_LEGALITY_NOT_LIVE",
+        "GRAPH_NAME_BRIDGE_NOT_DEPICTION_PROOF",
+        "LORE_CLAIMS_TRUNCATED_TO_EIGHT_PER_SUBJECT",
+        "NO_RULES_SIMULATION",
+        "OPEN_QUESTION_PRESENT",
+        "PARTIAL_DIRECT_LORE_ONLY"
+      ],
+      "sources": [
+        "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-blood-and-fire-2018-07-18",
+        "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-perspectives-2018-08-08",
+        "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-twins-2018-06-13",
+        "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-unwritten-now-2018-08-15",
+        "https://magic.wizards.com/en/news/magic-story/lorwyn-eclipsed-episode-2-shake-off-slumber",
+        "https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-fate-reforged-2015-01-07",
+        "https://magic.wizards.com/en/news/magic-story/tarkir-dragonstorm-episode-7-return",
+        "https://magic.wizards.com/en/news/making-magic/even-more-war-games-2019-05-06",
+        "https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt",
+        "https://scryfall.com/card/m19/218/nicol-bolas-the-ravager-nicol-bolas-the-arisen"
+      ],
+      "response_sha256": "127addeb38dd66f4c8022b384aca8b8f3d8b6556f90e7f2d2c737dd505434a7c",
+      "direct_claims": null,
+      "chronology_relation": null,
+      "known_limitations": []
+    },
+    {
+      "id": "cross_domain_blackblade_no_name_bridge",
+      "question": "Tell me the lore and Commander eligibility of Blackblade Reforged",
+      "route": "ask->card_lore_commander_evidence",
+      "confidence": "QUALIFIED",
+      "flags": [
+        "DATED_SCRYFALL_LEGALITY_NOT_LIVE",
+        "GRAPH_NAME_BRIDGE_NOT_DEPICTION_PROOF",
+        "NO_CITED_NAMED_ENTITY_BRIDGE",
+        "NO_RULES_SIMULATION",
+        "PARTIAL_DIRECT_LORE_ONLY"
+      ],
+      "sources": [
+        "https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt",
+        "https://scryfall.com/card/dmc/178/blackblade-reforged"
+      ],
+      "response_sha256": "1c5938fade1021c431a23e4eb333d8e4da86edeaf41bd1d72aa0bd2f09fafc09",
+      "direct_claims": null,
+      "chronology_relation": null,
+      "known_limitations": []
+    },
+    {
+      "id": "cross_domain_unknown_card",
+      "question": "What are the lore and Commander eligibility of Zorblax the Unreal?",
+      "route": "ask->card_lore_commander_evidence",
+      "confidence": "NOT_FOUND",
+      "flags": [
+        "NO_SUCH_CARD_IN_INDEX"
+      ],
+      "sources": [],
+      "response_sha256": "653862cd49e3775f2d70ad98bffe6a6f08e99b31d2a05224fc3a7af062829bee",
+      "direct_claims": null,
+      "chronology_relation": null,
+      "known_limitations": []
     }
   ],
   "cross_plane_graph_navigation": [
@@ -1761,5 +1858,5 @@
     "python3 scripts/update_multiverse_progress_tracker.py --check"
   ],
   "owner_review_status": "PENDING_NOT_REQUESTED_UNTIL_ENGINEERING_EVIDENCE_AND_CI_COMPLETE",
-  "content_sha256": "b93e8b55a364f8f64e1e902725142aa7a92de49b1b307f666b656a094eaaec48"
+  "content_sha256": "7cffcb3077b3004cab97c1e0f5d93495bc365a1950ee4b5177695b393364e76e"
 }

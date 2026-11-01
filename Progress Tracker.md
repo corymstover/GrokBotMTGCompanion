@@ -12,9 +12,9 @@ schema: 2
 # Progress Tracker
 
 <!-- MULTIVERSE-CURRENT:START -->
-## MTG Multiverse Companion — current engineering checkpoint (2026-10-31)
+## MTG Multiverse Companion — current engineering checkpoint (2026-11-01)
 
-**Live authority:** [Master Workflow v2.87](MTG_MULTIVERSE_MASTER_WORKFLOW.md), the current
+**Live authority:** [Master Workflow v2.88](MTG_MULTIVERSE_MASTER_WORKFLOW.md), the current
 graph and dated recount. The older cycle-36/October-15 metrics **below this section are historical**;
 they are not the active Phase 1–8 completion counters.
 

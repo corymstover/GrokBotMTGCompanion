@@ -100,6 +100,10 @@ This source-graded packet is reproducible from the repository, with exact input 
 | Did E:amonkhet_devastated happen before E:samut_warns_ravnica? | `ask->chronology` | `QUALIFIED` | 1 |
 | Did E:eternals_begin_arriving happen before E:eternal_flow_stopped? | `ask->chronology` | `QUALIFIED` | 1 |
 | Did E:samut_warns_ravnica happen before E:eternal_flow_stopped? | `ask->chronology` | `QUALIFIED` | 0 |
+| What are the lore and Commander eligibility of Ugin, the Spirit Dragon? | `ask->card_lore_commander_evidence` | `QUALIFIED` | 10 |
+| Show card, lore, and Commander rules for Nicol Bolas, the Ravager | `ask->card_lore_commander_evidence` | `QUALIFIED` | 10 |
+| Tell me the lore and Commander eligibility of Blackblade Reforged | `ask->card_lore_commander_evidence` | `QUALIFIED` | 2 |
+| What are the lore and Commander eligibility of Zorblax the Unreal? | `ask->card_lore_commander_evidence` | `NOT_FOUND` | 0 |
 
 The underlying JSON retains response digests, exact source URLs and caveat flags. The two graph-navigation examples are **not** evidence of chronological or causal paths.
 
@@ -122,6 +126,6 @@ python3 scripts/certification_dry_run.py --check
 python3 scripts/update_multiverse_progress_tracker.py --check
 ```
 
-Packet SHA-256 (canonical JSON): `b93e8b55a364f8f64e1e902725142aa7a92de49b1b307f666b656a094eaaec48`
+Packet SHA-256 (canonical JSON): `7cffcb3077b3004cab97c1e0f5d93495bc365a1950ee4b5177695b393364e76e`
 
 **No decks were built, modified, reviewed or approved.**

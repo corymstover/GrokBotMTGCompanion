@@ -73,6 +73,11 @@ _GRAPH_CONNECTION_PATTERNS = [
     re.compile(r"^how (?:is|are|was|were) (.+?) (?:connected|related|linked) to (.+?)\??$", re.I),
     re.compile(r"^what (?:is|was) the (?:connection|relationship|link) between (.+?) and (.+?)\??$", re.I),
 ]
+_CARD_LORE_RULES_PATTERNS = [
+    re.compile(r"^(?:show(?: me)?|give me) (?:the )?card,? lore,? and commander (?:rules|eligibility) for (.+?)\??$", re.I),
+    re.compile(r"^what (?:are|is) the lore and commander eligibility (?:of|for) (.+?)\??$", re.I),
+    re.compile(r"^tell me (?:the |about the )?lore and commander eligibility (?:of|for) (.+?)\??$", re.I),
+]
 
 _index = None
 
@@ -751,6 +756,92 @@ def graph_connection_question(text: str) -> dict | None:
     return envelope
 
 
+def card_lore_rules_question(text: str) -> dict | None:
+    """Join three independently sourced domains without turning a name into art/canon proof.
+
+    A graph names_entity edge identifies the card's *named subject* only. It is
+    navigation rather than evidence of a particular illustration, depicted
+    event, or story-era print. All legality is dated, and the lore sample is
+    deliberately bounded with the total direct-claim count disclosed.
+    """
+    match = next((m for rx in _CARD_LORE_RULES_PATTERNS if (m := rx.fullmatch(text))), None)
+    if match is None:
+        return None
+    requested = match.group(1).strip().rstrip('?').strip()
+    import commander_rules
+    row = commander_rules.resolve(requested)
+    env = {'route': 'ask->card_lore_commander_evidence', 'query': text,
+           'confidence': 'NOT_FOUND', 'flags': [], 'sources': [], 'data_as_of': None}
+    if row is None:
+        env.update(flags=['NO_SUCH_CARD_IN_INDEX'],
+                   result={'requested_card': requested, 'card': None,
+                           'limitation': 'No unambiguously indexed card matches this name or unique front face.'})
+        return env
+
+    found = card(row['name'])
+    rule = commander_rules.commander([row['name']])
+    if found['confidence'] == 'NOT_FOUND' or rule['confidence'] == 'NOT_FOUND':
+        raise ValueError('Indexed cross-domain card unexpectedly failed its own source lookup')
+
+    mg = graph()
+    matches = [nid for nid, node in mg.nodes.items()
+               if node.get('type') == 'Card' and node.get('oracle_id') == row['oracle_id']]
+    flags = ['DATED_SCRYFALL_LEGALITY_NOT_LIVE', 'NO_RULES_SIMULATION',
+             'GRAPH_NAME_BRIDGE_NOT_DEPICTION_PROOF', 'PARTIAL_DIRECT_LORE_ONLY']
+    flags += found.get('flags', []) + rule.get('flags', [])
+    if len(matches) > 1:
+        # A duplicated Oracle identity would make the graph-to-card join
+        # ambiguous. Never select a favorite node by title similarity.
+        flags.append('AMBIGUOUS_GRAPH_CARD_ORACLE_ID')
+        matches = []
+    if not matches:
+        flags.append('NO_UNIQUE_GRAPH_CARD_ANCHOR')
+
+    entities, urls = [], set(found['sources']) | {rule['rules_source']['url']}
+    if matches:
+        named = [r for r in mg.neighbors(matches[0])
+                 if r['relation'] in {'names_entity', 'inverse_of:names_entity'}
+                 and r['type'] in {'Character', 'Faction'}]
+        subjects = sorted({r['node'] for r in named})
+        if not subjects:
+            flags.append('NO_CITED_NAMED_ENTITY_BRIDGE')
+        if len(subjects) > 1:
+            flags.append('MULTIPLE_NAMED_SUBJECTS_NO_SINGLE_IDENTITY_INFERRED')
+        for nid in subjects:
+            history = entity_history(nid)
+            if history is None:
+                raise ValueError('Named graph subject is missing from direct history lookup')
+            claims = history['result']['claims']
+            sample = claims[:8]
+            for claim in sample:
+                urls.update(claim['sources'])
+            flags += [flag for flag in history['flags'] if flag.endswith('_PRESENT')]
+            if len(claims) > len(sample):
+                flags.append('LORE_CLAIMS_TRUNCATED_TO_EIGHT_PER_SUBJECT')
+            entities.append({'id': nid, 'name': history['result']['name'],
+                             'type': history['result']['type'],
+                             'bridge': 'GRAPH_NAMES_ENTITY_NAVIGATION_ONLY',
+                             'direct_claim_count': len(claims),
+                             'direct_claim_grades': sorted({c['grade'] for c in claims}),
+                             'sampled_claims': sample,
+                             'omitted_claim_count': len(claims) - len(sample)})
+
+    env.update(confidence='QUALIFIED', flags=sorted(set(flags)), sources=sorted(urls),
+               data_as_of=mg.g.get('evidence_cutoff') or '2026-10-30',
+               evidence_as_of={'card_shard': found['data_as_of'],
+                               'scryfall_commander_legality': rule['card_data_as_of'],
+                               'comprehensive_rules': rule['rules_source']['effective']},
+               result={'card': found['result'], 'commander_eligibility': rule['result'],
+                       'commander_rules': rule['rules'], 'rules_source': rule['rules_source'],
+                       'named_lore_subjects': entities,
+                       'limitation': ('The named-entity graph bridge is a card-name association, not proof of which '
+                                      'scene or event the illustration depicts. The lore shown is a bounded sample '
+                                      'of direct source-graded claims, not a complete character history. Commander '
+                                      'eligibility combines dated Scryfall legality and dated official rules; it '
+                                      'is not a live ban check, gameplay simulation or deck recommendation.')})
+    return env
+
+
 def ask(text: str) -> dict:
     q = text.strip()
     for rx, kind in RULES_PATTERNS:
@@ -764,6 +855,9 @@ def ask(text: str) -> dict:
     connection = graph_connection_question(q)
     if connection is not None:
         return connection
+    combined = card_lore_rules_question(q)
+    if combined is not None:
+        return combined
     # The bounded, cited event ledger is independent of the much larger
     # card-printing and rules snapshots. An event-order question should use
     # that ledger directly, including in research-only sparse checkouts.

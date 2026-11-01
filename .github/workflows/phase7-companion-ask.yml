@@ -25,6 +25,7 @@ on:
       - 'tests/test_mv_ask_aliases.py'
       - 'tests/test_mv_ask_entity_history.py'
       - 'tests/test_mv_ask_graph_connection.py'
+      - 'tests/test_mv_ask_cross_domain_card_lore_rules.py'
       - 'tests/test_mv_ask_leader_phrasings_b14.py'
       - 'tests/test_mv_ask_kinship_and_leader_rank.py'
       - 'scripts/batch_recount.py'
@@ -57,6 +58,7 @@ on:
       - 'tests/test_mv_ask_aliases.py'
       - 'tests/test_mv_ask_entity_history.py'
       - 'tests/test_mv_ask_graph_connection.py'
+      - 'tests/test_mv_ask_cross_domain_card_lore_rules.py'
       - 'tests/test_mv_ask_kinship_and_leader_rank.py'
       - 'scripts/batch_recount.py'
       - 'tests/test_batch_recount_b9.py'
@@ -82,6 +84,8 @@ jobs:
           python3 scripts/mv_ask.py ask "How many cards are in Alpha?"
           python3 scripts/mv_ask.py ask "Which sets was Black Lotus printed in?" > /dev/null
           python3 scripts/mv_ask.py ask "How does Urza's Saga interact with Urza's Tower?"
+          python3 scripts/mv_ask.py ask "What are the lore and Commander eligibility of Ugin, the Spirit Dragon?" > /dev/null
+          python3 scripts/mv_ask.py ask "Show card, lore, and Commander rules for Nicol Bolas, the Ravager" > /dev/null
           python3 scripts/mv_ask.py ask "What mechanics does Serra Angel have?" > /dev/null
           python3 scripts/mv_ask.py card "Sol Ring"
           set +e; python3 scripts/mv_ask.py ask "Who is Zorblax the Unreal?"; test $? -eq 3
