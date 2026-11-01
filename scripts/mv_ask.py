@@ -29,6 +29,8 @@ Plane-history questions route to reproducible Phase 5 cited plane dossiers;
 all responses are QUALIFIED because the registered graph is never exhaustive.
 Two-event before/after questions route to the source-graded, **partial** in-universe
 chronology and retain UNKNOWN for missing links and narrated legends as legends.
+Source-local timeline overviews expose the attested events and cited order edges
+without flattening an incomplete strand into a fabricated linear timeline.
 Set/category/card-printing questions route to the qualified October 29 Phase 1B
 historical shard index; recorded release dates are never in-universe chronology.
 Explicit rulings, keyword-rules and card-interaction questions surface dated
@@ -69,6 +71,19 @@ _CHRONOLOGY_QUESTION_PATTERNS = [
     (re.compile(r"^did\s+(.+?)\s+happen\s+(before|after)\s+(.+?)\??$", re.I), "DID"),
     (re.compile(r"^was\s+(.+?)\s+(before|after)\s+(.+?)\??$", re.I), "DID"),
 ]
+_CHRONOLOGY_OVERVIEW_PATTERNS = [
+    re.compile(r"^(?:the )?(?:source[- ]local )?"
+               r"(?:timeline|chronology|event sequence|sequence of events) "
+               r"(?:of|for|on|in) (.+?)\??$", re.I),
+    re.compile(r"^(?:show|give me|list|summari[sz]e) (?:me )?(?:the )?"
+               r"(?:source[- ]local )?(?:timeline|chronology|event sequence|sequence of events) "
+               r"(?:of|for|on|in) (.+?)\??$", re.I),
+    re.compile(r"^what(?:'s| is) (?:the )?(?:source[- ]local )?"
+               r"(?:timeline|chronology|event sequence|sequence of events) "
+               r"(?:of|for|on|in) (.+?)\??$", re.I),
+]
+_EXPLICIT_STRAND = re.compile(r"^show (?:me )?(?:the )?"
+                              r"(?:source[- ]local )?chronology strand ([A-Za-z])\??$", re.I)
 _GRAPH_CONNECTION_PATTERNS = [
     re.compile(r"^how (?:is|are|was|were) (.+?) (?:connected|related|linked) to (.+?)\??$", re.I),
     re.compile(r"^what (?:is|was) the (?:connection|relationship|link) between (.+?) and (.+?)\??$", re.I),
@@ -738,6 +753,88 @@ def chronology_question(text: str) -> dict | None:
     return envelope
 
 
+def chronology_overview_question(text: str) -> dict | None:
+    """Present one *bounded* source-local partial order, never a synthetic timeline.
+
+    A strand must be selected uniquely by explicit ID, full title, or a phrase
+    appearing in exactly one title. Ambiguous subjects are not arbitrarily
+    resolved to the best-known account (e.g. Mirrodin has distinct ledgers).
+    """
+    explicit = _EXPLICIT_STRAND.fullmatch(text)
+    topic = explicit.group(1) if explicit else next(
+        (m.group(1) for rx in _CHRONOLOGY_OVERVIEW_PATTERNS
+         if (m := rx.fullmatch(text))), None)
+    if topic is None:
+        return None
+
+    from source_event_sequences import OUT
+    local = json.loads(OUT.read_text(encoding='utf-8'))
+    term = topic.strip().strip('?.! ').casefold()
+    if not explicit:
+        term = re.sub(r'^the\s+', '', term)
+    if explicit:
+        choices = [s for s in local['strands'] if s['id'].casefold() == term]
+    elif len(term) >= 4:
+        choices = [s for s in local['strands'] if s['title'].casefold() == term or
+                   re.search(r'(?<!\w)' + re.escape(term) + r'(?!\w)',
+                             s['title'].casefold())]
+    else:
+        choices = []
+    env = {'route': 'ask->chronology_overview', 'query': text,
+           'data_as_of': local['date'], 'sources': [],
+           'flags': ['SOURCE_LOCAL_NOT_GLOBAL_CHRONOLOGY']}
+    if len(choices) != 1:
+        ambiguous = len(choices) > 1
+        env.update(confidence='NOT_FOUND',
+                   flags=env['flags'] + [
+                       'AMBIGUOUS_SOURCE_STRAND' if ambiguous else 'NO_MATCHING_SOURCE_STRAND'],
+                   result={'topic': topic, 'strand': None, 'events': [],
+                           'strict_edges': [], 'candidates': [
+                               {'id': s['id'], 'title': s['title']} for s in choices],
+                           'guidance': ('Specify the exact strand ID with "Show chronology strand X" '
+                                        'or use a unique phrase from the strand title.'),
+                           'verified_total_chronology': False})
+        return env
+
+    strand = choices[0]
+    sid = strand['id']
+    nodes = [n for n in local['nodes'] if n['strand'] == sid]
+    ids = {n['id'] for n in nodes}
+    edges = [e for e in local['edges'] if e['earlier'] in ids and e['later'] in ids]
+    before = [e for e in edges if e['relation'] == 'BEFORE']
+    other = [e for e in edges if e['relation'] != 'BEFORE']
+    reaches = {nid: [end for end in local['precedes'][nid] if end in ids]
+               for nid in sorted(ids)}
+    pairs = sum(len(v) for v in reaches.values())
+    possible = len(nodes) * (len(nodes) - 1) // 2
+    unresolved = possible - pairs
+    if unresolved < 0 or len(nodes) != strand['events'] or len(before) != strand['strict_edges']:
+        raise ValueError(f'Invalid source-local chronology metadata for {sid}')
+    flags = env['flags'] + ['PARTIAL_SOURCE_LOCAL_CHRONOLOGY']
+    if unresolved:
+        flags.append('UNRESOLVED_STRICT_EVENT_ORDER')
+    if other:
+        flags.append('NON_STRICT_TEMPORAL_RELATIONS_PRESENT')
+    if strand['certainty'] == 'NARRATED_TRADITION_ONLY':
+        flags.append('NARRATED_LEGEND_NOT_VERIFIED_HISTORY')
+    env.update(confidence='QUALIFIED', flags=flags,
+               sources=sorted({e['source_url'] for e in edges}),
+               result={'topic': topic, 'strand': strand,
+                       'events': nodes,  # ID order is NOT chronology order.
+                       'strict_edges': before, 'non_strict_relations': other,
+                       'strict_order_reachability': reaches,
+                       'ordered_event_pairs': pairs, 'possible_event_pairs': possible,
+                       'unresolved_strict_pairs': unresolved,
+                       'source_local_total_order': unresolved == 0,
+                       'verified_total_chronology': False,
+                       'limitation': strand['limitation'],
+                       'display_guidance': ('Event array order is by ID, not event time. '
+                                            'Only BEFORE edges and their transitive closure prove strict order; '
+                                            'other pairs are UNKNOWN or non-strict overlaps. '
+                                            'No inter-strand chronology or absolute years are inferred.')})
+    return env
+
+
 def graph_connection_question(text: str) -> dict | None:
     """Find a source-backed navigation path, not an inferred historical relationship.
 
@@ -899,6 +996,9 @@ def ask(text: str) -> dict:
     chronology = chronology_question(q)
     if chronology is not None:
         return chronology
+    overview = chronology_overview_question(q)
+    if overview is not None:
+        return overview
     from ask_set_atlas import try_answer as set_atlas_answer
     set_answer = set_atlas_answer(q)
     if set_answer is not None:

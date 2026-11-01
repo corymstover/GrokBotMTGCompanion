@@ -1,6 +1,6 @@
 # MTG Multiverse Companion — Master Workflow & Progress Checklist
 
-**Version:** 2.93
+**Version:** 2.94
 **Checkpoint date:** 2026-11-01
 **Repository:** [corymstover/GrokBotMTGCompanion](https://github.com/corymstover/GrokBotMTGCompanion)  
 **Purpose:** Durable project roadmap and handoff document. Update this file after verified milestone work; do not treat historical figures as live counters.
@@ -22,6 +22,27 @@ foundation release may document inherently unresolved canon and future
 maintenance; it must never claim exhaustive knowledge of all MTG history.
 The 62 approved Grixis decks, their hashes and all owner gates remain intact.
 Only a new explicit request from Cory can override the Phase 6 hold.
+
+**v2.94 source-local chronology overview and ambiguity-safe Q&A
+(2026-11-01):** The Phase 7 `mv_ask.py` route can now present a named
+source-local history strand as a **partial order**: individually claim-graded
+event IDs, quote-backed strict ordering, separately named non-strict temporal
+relations, exact source-local reachability and unresolved strict-pair counts.
+It explicitly distinguishes a strand that is locally totally ordered from
+the **unverified global Multiverse chronology**. An unqualified Mirrodin
+request returns `NOT_FOUND` with the two distinct `H`/`P` candidates, not an
+invented merged account. An unknown subject also fails closed; Bloomburrow's
+`V` account remains narrated legend only. Users can select a unique title
+phrase or explicit `Show chronology strand X` syntax. Seven distinct
+supported/ambiguous/UNKNOWN examples expand the Phase 8 review packet from
+**92 to 99 representative cases, NOT CERTIFIED**. The independently verified
+16-strand corpus remains **144 events, 116 strict edges, 472/10,296 source-local
+ordered pairs**, five non-strict relations and eight legacy identity bridges;
+no new historical facts or cross-strand temporal links are asserted.
+**94/137 checked, 43 open, NOT_RELEASE_READY**; this is measurable Phase 7
+engineering coverage, not closure of K119/K121 or foundation release approval.
+See `research/PHASE7_SOURCE_LOCAL_CHRONOLOGY_OVERVIEWS_2026-11-01.md`.
+The 62 approved Grixis decks and three parked pilots remain untouched.
 
 **v2.93 War of the Spark Azorius succession and October 30 card lookup freshness
 (2026-11-01):** A new bounded **five-event, four-strict-edge** official-story
