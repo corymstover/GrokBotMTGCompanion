@@ -1,0 +1,265 @@
+{
+  "schema": "war-spark-chapter-gap-audit/v1",
+  "status": "PRELIMINARY_SOURCE_LOCAL_RESEARCH",
+  "reviewed_on": "2026-11-01",
+  "scope": "Two previously unused 2019 Wizards War of the Spark: Ravnica chapters: bounded Rat-narrated event order only. Neither publication order nor shared characters creates an edge to the existing Y/Azorius/Amonkhet chronology ledgers.",
+  "source_pack": "data/lore_research/pack_p5_war_spark_ravnica_2026-10-30.json",
+  "source_pack_sha256": "4800c778cdabc64fb4d204287efd90e4a6f9bd3887e8e013851e52e2c400165c",
+  "spec_sha256": "3baae7514ffbe4221a903b985f305a3976082190fdc9342e022e94f643e0673a",
+  "sources": {
+    "wr_path_opulent": {
+      "title": "War of the Spark: Ravnica – The Path to Opulent",
+      "url": "https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-path-opulent-2019-05-15",
+      "published": "2019-05-15"
+    },
+    "wr_desperate": {
+      "title": "War of the Spark: Ravnica—Desperate Operatives",
+      "url": "https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-desperate-operatives-2019-05-29",
+      "published": "2019-05-29"
+    }
+  },
+  "strands": [
+    {
+      "id": "PO",
+      "title": "The Path to Opulent — Kaya, Teyo and Rat encounter Domri's defenders",
+      "source_id": "wr_path_opulent",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "limitation": "Rat's remembered encounter and interpretation of the battle; Kaya's intent to summon the Orzhov is not evidence that the entire guild joined. Domri's in-scene conduct is not a claim to current Gruul leadership.",
+      "events": 5,
+      "strict_edges": 4
+    },
+    {
+      "id": "DO",
+      "title": "Desperate Operatives — the four-guild mission, Vraska and evacuation",
+      "source_id": "wr_desperate",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "limitation": "Rat narrates guild recruitment and rescue amid the war; Vraska's return and aid are not a current-leadership verdict, and her alleged betrayal is not resolved in this sequence. No other war front or date is implied.",
+      "events": 5,
+      "strict_edges": 4
+    }
+  ],
+  "nodes": [
+    {
+      "id": "PO:hekara_mourned",
+      "label": "Rat mourns Hekara amid the invasion",
+      "strand": "PO",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT"
+    },
+    {
+      "id": "PO:kaya_recruits",
+      "label": "Kaya invites Rat and Teyo to accompany her",
+      "strand": "PO",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT"
+    },
+    {
+      "id": "PO:orzhova_route",
+      "label": "The trio travel toward Orzhova to seek Orzhov aid",
+      "strand": "PO",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT"
+    },
+    {
+      "id": "PO:domri_rescues",
+      "label": "Domri's Gruul warriors attack the Eternals behind the trapped trio",
+      "strand": "PO",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT"
+    },
+    {
+      "id": "PO:simic_izzet_arrive",
+      "label": "The travelling group encounters Simic and Izzet forces fighting Eternals",
+      "strand": "PO",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT"
+    },
+    {
+      "id": "DO:kaya_commissioned",
+      "label": "Ral and Jace task Kaya with bringing four guilds to Operation Desperation",
+      "strand": "DO",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT"
+    },
+    {
+      "id": "DO:emmara_appeal",
+      "label": "Kaya petitions Emmara and the Selesnya leadership for cooperation",
+      "strand": "DO",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT"
+    },
+    {
+      "id": "DO:gruul_appeal",
+      "label": "Rat urges Borborygmos and Gan Shokta to unite the Gruul",
+      "strand": "DO",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT"
+    },
+    {
+      "id": "DO:vraska_returns",
+      "label": "Vraska returns and claims her Golgari throne",
+      "strand": "DO",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT"
+    },
+    {
+      "id": "DO:golgari_rescue",
+      "label": "Vraska's party helps Ajani evacuate people into Golgari tunnels",
+      "strand": "DO",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT"
+    }
+  ],
+  "edges": [
+    {
+      "earlier": "PO:hekara_mourned",
+      "later": "PO:kaya_recruits",
+      "quote": "Kaya turned to Teyo and me and said",
+      "note": "Rat recounts the immediately preceding grief before Kaya asks them to go with her; no exact elapsed time.",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "wr_path_opulent",
+      "source_url": "https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-path-opulent-2019-05-15",
+      "source_title": "War of the Spark: Ravnica – The Path to Opulent",
+      "quote_sha256": "343344bed0fec251d8badae8f44731203ec8e4f4c693931a54e638eaa4415b5b"
+    },
+    {
+      "earlier": "PO:kaya_recruits",
+      "later": "PO:orzhova_route",
+      "quote": "Mistress Kaya was trying to get to Orzhova to summon her guild into battle.",
+      "note": "Kaya's declared purpose precedes the trio's narrated journey; the attempt is not proof of successful recruitment.",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "wr_path_opulent",
+      "source_url": "https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-path-opulent-2019-05-15",
+      "source_title": "War of the Spark: Ravnica – The Path to Opulent",
+      "quote_sha256": "f361d8f0d201b969b076c41527b55bb2938f03fd71e84961354ca0f62b14e140"
+    },
+    {
+      "earlier": "PO:orzhova_route",
+      "later": "PO:domri_rescues",
+      "quote": "attacked the Eternals from behind",
+      "note": "Domri's group intervenes after the travelers become trapped by Eternals on their Orzhova route.",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "wr_path_opulent",
+      "source_url": "https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-path-opulent-2019-05-15",
+      "source_title": "War of the Spark: Ravnica – The Path to Opulent",
+      "quote_sha256": "1dfa022a08366c3f4b260ccb5dd1aeccda57939185f5d9db1bfa5257f005f3ed"
+    },
+    {
+      "earlier": "PO:domri_rescues",
+      "later": "PO:simic_izzet_arrive",
+      "quote": "We soon ran into a phalanx of Eternals",
+      "note": "Rat describes travelling with the Gruul group afterward and then meeting Simic/Izzet fighters.",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "wr_path_opulent",
+      "source_url": "https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-path-opulent-2019-05-15",
+      "source_title": "War of the Spark: Ravnica – The Path to Opulent",
+      "quote_sha256": "38f0841888534ec19c4d0b13583a0b3b2a80b1ade9f445bae13c3222a2415a72"
+    },
+    {
+      "earlier": "DO:kaya_commissioned",
+      "later": "DO:emmara_appeal",
+      "quote": "Our first stop would be Selesnya",
+      "note": "The mission assignment explicitly precedes the first Selesnya visit in this narrator's account.",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "wr_desperate",
+      "source_url": "https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-desperate-operatives-2019-05-29",
+      "source_title": "War of the Spark: Ravnica—Desperate Operatives",
+      "quote_sha256": "d4582e5aba220c143acd80a320f6ec1a9c664db5bd2a016aa9c03792d67102eb"
+    },
+    {
+      "earlier": "DO:emmara_appeal",
+      "later": "DO:gruul_appeal",
+      "quote": "This final tunnel soon opened up onto Skarrg",
+      "note": "After the Selesnya encounter, Rat guides the group to the Gruul meeting place.",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "wr_desperate",
+      "source_url": "https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-desperate-operatives-2019-05-29",
+      "source_title": "War of the Spark: Ravnica—Desperate Operatives",
+      "quote_sha256": "5d475d7b755e79ed8ecb0d01540fe94949c23e934ea9f06391e7054a1215e5c6"
+    },
+    {
+      "earlier": "DO:gruul_appeal",
+      "later": "DO:vraska_returns",
+      "quote": "Two down. Two to go.",
+      "note": "Rat counts the preceding recruiting attempts before recounting Vraska's later Golgari return; this is an account-local ordering only.",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "wr_desperate",
+      "source_url": "https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-desperate-operatives-2019-05-29",
+      "source_title": "War of the Spark: Ravnica—Desperate Operatives",
+      "quote_sha256": "cc8a03653cbc24887d9ea1a891eb9675fb8ebfd2e607766532a197c10a14629d"
+    },
+    {
+      "earlier": "DO:vraska_returns",
+      "later": "DO:golgari_rescue",
+      "quote": "Bring everyone down. The Golgari will keep them safe.",
+      "note": "Vraska's aid to the trapped evacuees follows her documented return; no current trust or leadership assertion.",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "wr_desperate",
+      "source_url": "https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-desperate-operatives-2019-05-29",
+      "source_title": "War of the Spark: Ravnica—Desperate Operatives",
+      "quote_sha256": "bc992ec117ded7bb43f635c4d3340d4e40f366dbfbd7c355a872e5c2697a33c2"
+    }
+  ],
+  "precedes": {
+    "DO:emmara_appeal": [
+      "DO:golgari_rescue",
+      "DO:gruul_appeal",
+      "DO:vraska_returns"
+    ],
+    "DO:golgari_rescue": [],
+    "DO:gruul_appeal": [
+      "DO:golgari_rescue",
+      "DO:vraska_returns"
+    ],
+    "DO:kaya_commissioned": [
+      "DO:emmara_appeal",
+      "DO:golgari_rescue",
+      "DO:gruul_appeal",
+      "DO:vraska_returns"
+    ],
+    "DO:vraska_returns": [
+      "DO:golgari_rescue"
+    ],
+    "PO:domri_rescues": [
+      "PO:simic_izzet_arrive"
+    ],
+    "PO:hekara_mourned": [
+      "PO:domri_rescues",
+      "PO:kaya_recruits",
+      "PO:orzhova_route",
+      "PO:simic_izzet_arrive"
+    ],
+    "PO:kaya_recruits": [
+      "PO:domri_rescues",
+      "PO:orzhova_route",
+      "PO:simic_izzet_arrive"
+    ],
+    "PO:orzhova_route": [
+      "PO:domri_rescues",
+      "PO:simic_izzet_arrive"
+    ],
+    "PO:simic_izzet_arrive": []
+  },
+  "counts": {
+    "new_strands": 2,
+    "new_events": 10,
+    "new_strict_edges": 8,
+    "new_source_local_pairs": 20,
+    "official_pages": 2,
+    "live_verifiable_quotes": 8
+  },
+  "excluded_from_certified_v300_graph_and_packet": true,
+  "explicitly_unknown_pairs": [
+    [
+      "PO:simic_izzet_arrive",
+      "DO:kaya_commissioned"
+    ],
+    [
+      "DO:vraska_returns",
+      "Y:blackblade_shatters"
+    ],
+    [
+      "DO:golgari_rescue",
+      "W:bolas_imprisoned"
+    ]
+  ],
+  "content_sha256": "01848398e624b0fc995c10c2450be8dcff7658fe88d727d97dd6e34a933bd88f"
+}
