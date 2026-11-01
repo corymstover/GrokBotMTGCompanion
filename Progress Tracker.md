@@ -14,13 +14,13 @@ schema: 2
 <!-- MULTIVERSE-CURRENT:START -->
 ## MTG Multiverse Companion — current engineering checkpoint (2026-11-01)
 
-**Live authority:** [Master Workflow v2.90](MTG_MULTIVERSE_MASTER_WORKFLOW.md), the current
+**Live authority:** [Master Workflow v2.91](MTG_MULTIVERSE_MASTER_WORKFLOW.md), the current
 graph and dated recount. The older cycle-36/October-15 metrics **below this section are historical**;
 they are not the active Phase 1–8 completion counters.
 
 | Measure | Verified committed state | Important limitation |
 | --- | ---: | --- |
-| Master Workflow checklist | **92/137 checked; 45 open** | Engineering verification, never owner approval. |
+| Master Workflow checklist | **93/137 checked; 44 open** | Engineering verification, never owner approval. |
 | Priority card enrichments | **5362/5,362** | Enrichment does not imply every card has a sourced story. |
 | Source-page inventory | **576 cited + 50 reviewed = 626 accounted for** | Current inventoried pages only, not all fiction ever published. |
 | Cited lore claims | **1259** | Live graph/inventory concordance; claim packs remain preliminary research. |
@@ -41,7 +41,7 @@ source or remaining engineering work. The complete typed evidence is in
 `data/release/certification_dry_run_2026-10-30.json`.
 
 **All-137 engineering checklist triage (not release certification):**
-Completed **92** · Under review **28** ·
+Completed **93** · Under review **27** ·
 Blocked **17** · Not started **0**.
 Every checked and unchecked task is accounted for in
 `data/release/full_checklist_triage_2026-11-01.json` and

@@ -1839,6 +1839,85 @@
       "direct_claims": null,
       "chronology_relation": null,
       "known_limitations": []
+    },
+    {
+      "id": "dual_timeline_bro_exact_source_join",
+      "question": "Compare The Brothers' War set release chronology with cited in-universe events",
+      "route": "ask->set_atlas:dual_timeline",
+      "confidence": "QUALIFIED",
+      "flags": [
+        "HISTORICAL_SET_API_METADATA_ONLY",
+        "STORY_TITLE_LINK_INDEX_NOT_EXHAUSTIVE",
+        "SET_DATE_NOT_IN_UNIVERSE_CHRONOLOGY",
+        "SET_TO_OFFICIAL_STORY_TITLE_LINK_ONLY",
+        "ONLY_SAMPLE_OF_STORY_PAGES_SHOWN",
+        "EXACT_OFFICIAL_PAGE_TO_EVENT_SOURCE_JOIN",
+        "IN_UNIVERSE_ORDER_ONLY_FROM_CITED_QUOTES",
+        "NO_REAL_WORLD_TO_FICTIONAL_TIME_CONVERSION"
+      ],
+      "sources": [
+        "https://github.com/corymstover/GrokBotMTGCompanion/blob/main/data/lore_research/relative_chronology_2026-10-30.json",
+        "https://github.com/corymstover/GrokBotMTGCompanion/blob/main/data/set_atlas/catalog_2026-10-29.json",
+        "https://github.com/corymstover/GrokBotMTGCompanion/blob/main/data/set_atlas/phase1b_release_scope_story_bridge_2026-10-29.json",
+        "https://magic.wizards.com/en/news/magic-story/the-brothers-war-chapter-1-stronghold",
+        "https://magic.wizards.com/en/news/magic-story/the-brothers-war-episode-1-the-end",
+        "https://magic.wizards.com/en/news/magic-story/the-brothers-war-episode-2-the-beginning",
+        "https://magic.wizards.com/en/news/making-magic/looking-back-part-2",
+        "https://scryfall.com/sets/bro"
+      ],
+      "response_sha256": "e34d298eb45ed407ee4919fa6c0c79a355ed4dc7f3907ac90b30a4dac748a2f7",
+      "direct_claims": null,
+      "chronology_relation": null,
+      "known_limitations": []
+    },
+    {
+      "id": "dual_timeline_bloomburrow_no_source_local_order",
+      "question": "Compare the release and lore timelines for Bloomburrow",
+      "route": "ask->set_atlas:dual_timeline",
+      "confidence": "QUALIFIED",
+      "flags": [
+        "HISTORICAL_SET_API_METADATA_ONLY",
+        "STORY_TITLE_LINK_INDEX_NOT_EXHAUSTIVE",
+        "SET_DATE_NOT_IN_UNIVERSE_CHRONOLOGY",
+        "SET_TO_OFFICIAL_STORY_TITLE_LINK_ONLY",
+        "ONLY_SAMPLE_OF_STORY_PAGES_SHOWN",
+        "EXACT_OFFICIAL_PAGE_TO_EVENT_SOURCE_JOIN",
+        "IN_UNIVERSE_ORDER_ONLY_FROM_CITED_QUOTES",
+        "NO_REAL_WORLD_TO_FICTIONAL_TIME_CONVERSION",
+        "NO_CITED_IN_UNIVERSE_EVENT_ON_LINKED_SAMPLE_PAGES"
+      ],
+      "sources": [
+        "https://github.com/corymstover/GrokBotMTGCompanion/blob/main/data/set_atlas/catalog_2026-10-29.json",
+        "https://github.com/corymstover/GrokBotMTGCompanion/blob/main/data/set_atlas/phase1b_release_scope_story_bridge_2026-10-29.json",
+        "https://magic.wizards.com/en/news/magic-story/episode-1-calamity-comes-to-valley",
+        "https://magic.wizards.com/en/news/magic-story/episode-2-an-expected-party",
+        "https://magic.wizards.com/en/news/magic-story/episode-3-the-lost-and-the-found",
+        "https://magic.wizards.com/en/products",
+        "https://scryfall.com/sets/blb"
+      ],
+      "response_sha256": "d734c031c5ab920d361b4df5f4663bd766e8a3d3deb894613ced3ec8ebbfa9ab",
+      "direct_claims": null,
+      "chronology_relation": null,
+      "known_limitations": []
+    },
+    {
+      "id": "dual_timeline_unknown_set",
+      "question": "Compare the release and lore timelines for Zorblax Time Rift",
+      "route": "ask->set_atlas:dual_timeline",
+      "confidence": "NOT_FOUND",
+      "flags": [
+        "HISTORICAL_SET_API_METADATA_ONLY",
+        "STORY_TITLE_LINK_INDEX_NOT_EXHAUSTIVE",
+        "SET_DATE_NOT_IN_UNIVERSE_CHRONOLOGY",
+        "UNKNOWN_SET_IN_SNAPSHOT"
+      ],
+      "sources": [
+        "https://github.com/corymstover/GrokBotMTGCompanion/blob/main/data/set_atlas/catalog_2026-10-29.json"
+      ],
+      "response_sha256": "022734d437837ff4c92c2b33f0bba34ad1a3cdb4e8dd31c359c3ccc672546c19",
+      "direct_claims": null,
+      "chronology_relation": null,
+      "known_limitations": []
     }
   ],
   "cross_plane_graph_navigation": [
@@ -1928,5 +2007,5 @@
     "python3 scripts/update_multiverse_progress_tracker.py --check"
   ],
   "owner_review_status": "PENDING_NOT_REQUESTED_UNTIL_ENGINEERING_EVIDENCE_AND_CI_COMPLETE",
-  "content_sha256": "b34dd95b15aaa38f23b92990333685d3df167ac745210d3f7181f7989be98a35"
+  "content_sha256": "a0913db57a140573567a565a7ae340dde59c4cb2b9ef50fcc35c07f956f7f752"
 }

@@ -34,7 +34,6 @@ OPEN = {
     "Resolve the remaining **2** curated/reprint": ("Blocked", "MISSING_PRIMARY_SOURCE", "Thirteen named catalog exceptions lack individual Wizards product evidence."),
     "Research the remaining **11** older boxed": ("Blocked", "MISSING_PRIMARY_SOURCE", "Older preconstructed/regional box codes need first-party product citations."),
     "Publish reproducible totals for **all Scryfall set codes**": ("Under review", "QUALIFIED_SCOPE", "All 1,062 categories are counted; an all-time first-party premier-set count is not certified."),
-    "Maintain two separately labeled timelines": ("Under review", "CHRONOLOGY_GAPS", "Real-world release dates and in-world events remain separate; cited bridges are incomplete."),
     "Connect sets to supported planes": ("Under review", "SOURCE_GRADING", "Existing cited story-series joins are not exhaustive set-to-canon relationships."),
     "Link direct printed depictions": ("Under review", "SOURCE_GRADING", "Proof tiers and 570 printing labels exist, but direct depiction evidence remains incomplete."),
     "Expand the primary-source inventory": ("Under review", "ONGOING_SOURCE_RESEARCH", "The source roster and quotation audits require continued expansion/review."),

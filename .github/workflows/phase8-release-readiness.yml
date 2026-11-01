@@ -9,6 +9,7 @@ on:
       - 'scripts/audit_release_snapshot_delta.py'
       - 'tests/test_full_checklist_triage.py'
       - 'tests/test_foundation_v290_checklist_closure.py'
+      - 'tests/test_foundation_v291_dual_timeline.py'
       - 'tests/test_release_snapshot_freshness.py'
       - 'research/FULL_CHECKLIST_TRIAGE_2026-10-31.md'
       - 'research/FULL_CHECKLIST_TRIAGE_2026-11-01.md'
@@ -65,6 +66,8 @@ jobs:
           python3 -m unittest discover -s tests -p 'test_full_checklist_triage.py' -v
       - name: Independently verify three newly closed engineering tasks
         run: python3 -m unittest tests.test_foundation_v290_checklist_closure -v
+      - name: Source-safe dual-timeline closure (distinct real and fictional dates)
+        run: python3 -m unittest tests.test_foundation_v291_dual_timeline -v
       - name: Latest source manifest and cross-bulk release-freshness proof
         run: |
           python3 scripts/audit_release_snapshot_delta.py --check

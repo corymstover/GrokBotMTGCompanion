@@ -1,6 +1,6 @@
 # MTG Multiverse Companion — Master Workflow & Progress Checklist
 
-**Version:** 2.90
+**Version:** 2.91
 **Checkpoint date:** 2026-11-01
 **Repository:** [corymstover/GrokBotMTGCompanion](https://github.com/corymstover/GrokBotMTGCompanion)  
 **Purpose:** Durable project roadmap and handoff document. Update this file after verified milestone work; do not treat historical figures as live counters.
@@ -990,7 +990,7 @@ Infrastructure checkpoint: [PR #783](https://github.com/corymstover/GrokBotMTGCo
 - [x] Publish for **each set** all English/default-language printing records and a deduplicated card inventory, with counts for printings, unique identities, first appearances and reprints. *(v2.40, Batch 12, [#900](https://github.com/corymstover/GrokBotMTGCompanion/pull/900), `data/set_atlas/phase1b_snapshot_gates_2026-10-30.json`: PASS: per-set printing and released English-paper oracle counts match the catalog for every code (0 mismatches). Mechanical verification, not owner approval.)*
 - [x] Build bidirectional searches: **set → card list/counts** and **card → first printing, all sets, chronological printing history**. Support set code, name, year, product type and date-range filters. *(v2.40, Batch 12, [#900](https://github.com/corymstover/GrokBotMTGCompanion/pull/900), `data/set_atlas/phase1b_snapshot_gates_2026-10-30.json`: PASS: sample queries replay for lea, leg, c21, pznr and ydmu. Mechanical verification, not owner approval.)*
 - [x] Verify debut/reprint attribution using dated, stable card identities; document edge cases such as promos, same-day releases, digital-first objects, variants, tokens and double-faced cards. *(v2.40, Batch 12, [#900](https://github.com/corymstover/GrokBotMTGCompanion/pull/900), `data/set_atlas/phase1b_snapshot_gates_2026-10-30.json`: QUALIFIED: 37,853 English-paper identities; 0 per-set debut mismatches; edge cases counted (4,087 same-day ties, 364 promo-only debuts, 431 earliest English-paper printings flagged reprint by Scryfall, 1,311 with no English-paper printing). Scryfall dates are not sourced street dates. Mechanical verification, not owner approval.)* *(v2.90 closure: an independent read-only recount of every Oracle-ID historical lookup bucket verifies 37,853 released English-paper identities, 33,766 single-set debuts and 4,087 same-day multi-set ties against the audit; 0 per-set mismatches. The G6 audit discloses promo-first, alternate layouts/DFCs/tokens, absent-paper and Scryfall `reprint` disagreements. The engineering check verifies **dated snapshot identities**, not independent retail street dates, current legality or an all-language corpus; see `research/FOUNDATION_ENGINEERING_CLOSURE_V290_2026-11-01.md`.)*
-- [ ] Maintain two separately labeled timelines: **real-world set/product release chronology** and **in-universe lore chronology**; link them only with sourced claims, not assumed chronological equivalence. *(v2.40, Batch 12, [#900](https://github.com/corymstover/GrokBotMTGCompanion/pull/900), `data/set_atlas/phase1b_snapshot_gates_2026-10-30.json`: QUALIFIED: real-world chronology exists; the in-universe side is relative spans only (32 verbatim phrases, 0 AR years). Mechanical verification, not owner approval.)* *(v2.41, Batch 13, [#904](https://github.com/corymstover/GrokBotMTGCompanion/pull/904): a separate in-universe relative chronology for Packs A–C now exists, `data/lore_research/relative_chronology_2026-10-30.json`, quote-gated and with no invented years. It is still not linked to the release timeline.)*
+- [x] Maintain two separately labeled timelines: **real-world set/product release chronology** and **in-universe lore chronology**; link them only with sourced claims, not assumed chronological equivalence. *(v2.40, Batch 12, [#900](https://github.com/corymstover/GrokBotMTGCompanion/pull/900), `data/set_atlas/phase1b_snapshot_gates_2026-10-30.json`: QUALIFIED: real-world chronology exists; the in-universe side is relative spans only (32 verbatim phrases, 0 AR years). Mechanical verification, not owner approval.)* *(v2.41, Batch 13, [#904](https://github.com/corymstover/GrokBotMTGCompanion/pull/904): a separate in-universe relative chronology for Packs A–C now exists, `data/lore_research/relative_chronology_2026-10-30.json`, quote-gated and with no invented years. It is still not linked to the release timeline.)* *(v2.91 closure: the user-facing dual-timeline Q&A now joins set metadata → exact first-party story-title URL → separately cited in-universe event relation only when the **same official page** appears in both ledgers. All 12 titled set bridges are checked, with three directly cited Brothers' War relations including a printed 69 AR header. Real-world Scryfall release date, official story publication date and in-universe order remain separate, and unsupported comparisons stay NOT_COMPARABLE/UNKNOWN. This closes **source-safe two-axis navigation**, not a complete lore chronology or product street-date audit; see `research/FOUNDATION_DUAL_TIMELINE_CLOSURE_2026-11-01.md`.)*
 - [ ] Connect sets to supported planes, story arcs, factions, characters, mechanics and Commander-relevant releases without inventing lore connections. *(v2.40, Batch 12, [#900](https://github.com/corymstover/GrokBotMTGCompanion/pull/900), `data/set_atlas/phase1b_snapshot_gates_2026-10-30.json`: QUALIFIED: publication-series bridge per arc; per-card canon lives in claim packs. Mechanical verification, not owner approval.)*
 - [x] Add automated checks for per-set counts, uniqueness, category totals, date order, broken references, and sample queries (including Alpha, Legends, a Commander product, a promo set and a digital release). *(v2.40, Batch 12, [#900](https://github.com/corymstover/GrokBotMTGCompanion/pull/900), `data/set_atlas/phase1b_snapshot_gates_2026-10-30.json`: PASS: counts, uniqueness, totals, date order (55 codes with an earlier-dated printing, listed), references and the five sample queries, all in `--check`. Mechanical verification, not owner approval.)*
 - [x] Publish a user-facing set index with an explicit snapshot date, coverage/exception report, source links and exportable English card lists; keep it maintainable as new releases arrive. *(v2.40, Batch 12, [#900](https://github.com/corymstover/GrokBotMTGCompanion/pull/900), `data/set_atlas/phase1b_snapshot_gates_2026-10-30.json`: PASS: SET_ATLAS.md carries the snapshot date, exceptions, sources and exports, plus the new Batch 12 gate section. Mechanical verification, not owner approval.)*
@@ -1340,3 +1340,33 @@ source freshness, unresolved first-party lore/printing evidence and owner
 decisions have **not** been waived. The 62 approved Grixis decks remain
 untouched. See
 `research/FOUNDATION_ENGINEERING_CLOSURE_V290_2026-11-01.md`.
+
+## v2.91 engineering addendum — verified dual chronology axes (2026-11-01)
+
+The normal Companion Q&A now **compares** a named release's Scryfall Set
+API `released_at` with dates of **official Wizards story publications** and
+the separately quoted in-universe event relations from those **same exact
+source URLs**. No event is linked because its character, product era or
+storyline happens to sound similar. Evidence comes from the existing
+Phase 1B title bridge and both preliminary cited chronology ledgers,
+preserving the exact original event relation, grade, quote and hash.
+
+For **The Brothers' War**, source-matching official episode and chapter
+pages connect its separately recorded 2022-11-18 Scryfall set date and
+October 2022 story publication dates to **three** supported fictional
+relations: an explicitly printed **69 AR** scene header and two historical
+`BEFORE` relations. The publication dates are *not* interpreted as 69 AR,
+and the relation `SAME_TIME_AS_LABEL` is **not** misreported as `BEFORE`.
+The other source-graded 12-title index entries are independently tested;
+when an exact linked page lacks event-order claims, the answer says so.
+
+Three new deterministic Q&A cases raise the foundation packet to
+**89 representative cases, NOT CERTIFIED**; a two-test independent audit
+checks every release title and the strict non-equivalence of the timelines.
+This satisfies the distinct-axes and sourced-join engineering requirement
+**K054** while leaving broad in-world chronology, exact street dates,
+cross-plane historical inference, source updates and release gates open.
+
+**93/137 engineering tasks checked, 44 open, NOT_RELEASE_READY**.
+The ten parked Phase 6 tasks and all 62 approved Grixis decks remain
+unchanged. See `research/FOUNDATION_DUAL_TIMELINE_CLOSURE_2026-11-01.md`.
