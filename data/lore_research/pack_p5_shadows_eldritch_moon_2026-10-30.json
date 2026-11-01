@@ -1073,6 +1073,25 @@
    ],
    "summary": "Lake Zhava lies in Nephalia's highlands, near Gavony.",
    "limitation": ""
+  },
+  {
+   "id": "SE037",
+   "subject": "gisa",
+   "predicate": "imprisoned_at",
+   "object": "riders_lock",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "innistrad_soi_emn_2016",
+   "source_ids": [
+    "soi_games"
+   ],
+   "evidence": [
+    {
+     "source_id": "soi_games",
+     "quote": "Odric, a champion of the church, captured Gisa and held her imprisoned in Rider's Lock."
+    }
+   ],
+   "summary": "After the siege of Thraben, Gisa was held prisoner in Rider's Lock.",
+   "limitation": "This attests a historical detention, not that Rider's Lock remains a functioning prison today."
   }
  ],
  "pages_registered": 21,

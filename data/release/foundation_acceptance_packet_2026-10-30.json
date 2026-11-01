@@ -9,11 +9,11 @@
   "input_sha256": {
     "graph": {
       "path": "data/multiverse_graph/multiverse_graph.json",
-      "sha256": "f8e21887e911b07ddf4dd01161a73f470cde3d931d87d70dac1628964b6978c2"
+      "sha256": "d3ed91e337e4fefad58877d024fc16194feac5ecab6993d931cf4facfb057fd1"
     },
     "plane_histories": {
       "path": "data/lore_research/plane_history_dossiers_2026-10-30.json",
-      "sha256": "1fceeba2a0263d1fd4318886948790b300259d004969033afce703cffb2a1b7a"
+      "sha256": "3715d122548b6c49909590b75572355222289d7db4dde1e14e164110c38f9129"
     },
     "chronology": {
       "path": "data/lore_research/relative_chronology_2026-10-30.json",
@@ -25,7 +25,7 @@
     },
     "story_coverage": {
       "path": "data/lore_research/story_coverage_inventory_2026-10-30.json",
-      "sha256": "651255dcf08c9370024a34a849e7c249b18c7f876b9e8247d69a7afa7de9fe26"
+      "sha256": "5e711174545bd14b0c4cbd7c7c1eff0c486ffd6c668b3d08c077ffbd07083961"
     },
     "genealogy_disputes": {
       "path": "data/lore_research/pack_a_genealogy_disputes_2026-10-30.json",
@@ -36,9 +36,9 @@
     "source_pages_in_inventoried_scope": 626,
     "source_pages_cited": 576,
     "source_pages_reviewed_without_claim": 50,
-    "graph_nodes": 5306,
-    "graph_edges": 8489,
-    "graph_claims": 1259,
+    "graph_nodes": 5310,
+    "graph_edges": 8505,
+    "graph_claims": 1263,
     "registered_plane_nodes": 33,
     "thin_plane_dossiers": 0,
     "curated_context_plane_count": 4,
@@ -2493,5 +2493,5 @@
     "python3 scripts/update_multiverse_progress_tracker.py --check"
   ],
   "owner_review_status": "PENDING_NOT_REQUESTED_UNTIL_ENGINEERING_EVIDENCE_AND_CI_COMPLETE",
-  "content_sha256": "bb65ee0a1ee9aac812e0c2df16fee0e12996f15dc92a4602a9c315068e0d7094"
+  "content_sha256": "fbf4b58d5e39b2ce1f51359930c6bba9493a81e9195917f4b327da6af36beae9"
 }

@@ -1,6 +1,6 @@
 # MTG Multiverse Companion — Master Workflow & Progress Checklist
 
-**Version:** 2.95
+**Version:** 2.96
 **Checkpoint date:** 2026-11-01
 **Repository:** [corymstover/GrokBotMTGCompanion](https://github.com/corymstover/GrokBotMTGCompanion)  
 **Purpose:** Durable project roadmap and handoff document. Update this file after verified milestone work; do not treat historical figures as live counters.
@@ -22,6 +22,23 @@ foundation release may document inherently unresolved canon and future
 maintenance; it must never claim exhaustive knowledge of all MTG history.
 The 62 approved Grixis decks, their hashes and all owner gates remain intact.
 Only a new explicit request from Cory can override the Phase 6 hold.
+
+**v2.96 verified direct-source entity repair (2026-11-01):** Recovered all
+**four previously uncited registered entities** in one Wizards-primary-source
+batch, without inventing cross-plane chronology: Ardenvale (`EL012`), the
+Great Henge (`EL013`), Rider's Lock (`SE037`), and the Sotheran supervoid
+(`EO031`). The three regenerated arc packs have **113/113 verbatim quotations**
+verified against live official page text, including all four new relations.
+The source-graded graph now has **1,263 claims, 5,310 nodes and 8,505 edges**.
+The registered-entity coverage audit now records **839/839 with at least one
+direct cited relation**; 139 have *only qualified* direct relations and many
+others have only one. This is **not** a complete world/character history,
+not resolution of disputed lore, and not an excuse to infer current status
+from historical events or intentions. The missing precise first-party
+`fbb`/`4bb`/`rin` printing identities and strict Weatherlight/Old Phyrexia
+chronology remain open. **No further checklist items close: 98/137 checked,
+39 open; NOT_RELEASE_READY.** See
+`research/FOUR_ENTITY_SOURCE_REPAIR_2026-11-01.md` and the v2.96 handoff.
 
 **v2.95 accelerated scoped-capability review (2026-11-01):** Five existing
 engineering capabilities now have an independent, fail-closed release-scope

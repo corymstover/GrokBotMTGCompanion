@@ -3,15 +3,15 @@
  "pack": "data/lore_research/pack_p5_shadows_eldritch_moon_2026-10-30.json",
  "pack_status": "PRELIMINARY_RESEARCH (not owner approved, not certified)",
  "arc": "SOI/EMN",
- "claims": 36,
+ "claims": 37,
  "entities": 39,
  "sources": 21,
  "grades": {
-  "CANON_CONFIRMED": 35,
+  "CANON_CONFIRMED": 36,
   "CANON_IMPLIED": 1
  },
- "quotes": 45,
- "quotes_verbatim": 45,
+ "quotes": 46,
+ "quotes_verbatim": 46,
  "quote_rows": [
   {
    "claim": "SE001",
@@ -282,9 +282,15 @@
    "source_id": "soi_sacrifice",
    "quote_sha256": "c5cf24e5e78a54ff08dde6292c7f359bcbe9d9e67fa8f96b9109bf3662a97509",
    "status": "VERBATIM"
+  },
+  {
+   "claim": "SE037",
+   "source_id": "soi_games",
+   "quote_sha256": "066bc8ff232eb61110bf4b40ff6cb1a6c38e010bcb3d26c22378e170fff7cdb6",
+   "status": "VERBATIM"
   }
  ],
  "problems": [],
  "note": "Verbatim-quote audit against cached official Wizards story text. Research evidence only: not owner approval, not certification, not an exhaustive reading.",
- "content_sha256": "e1a4313120d4df4aecb69333c5fe1d8abfefd1294d2763700394d364754fe5c7"
+ "content_sha256": "d61265c9fe294aa0b165b91f14b38507238b332269959c57f9801e47b92af684"
 }

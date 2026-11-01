@@ -18,14 +18,13 @@
   },
   "Place": {
    "registered": 112,
-   "with_any_direct_claim": 109,
-   "without_direct_claim": 3,
-   "with_one_direct_claim_only": 65,
+   "with_any_direct_claim": 112,
+   "without_direct_claim": 0,
+   "with_one_direct_claim_only": 67,
    "only_qualified_direct_claims": 14,
    "gap_counts": {
-    "MULTIPLE_CONFIRMED_OR_MIXED_CLAIMS": 30,
-    "NO_DIRECT_CITED_CLAIM": 3,
-    "ONE_DIRECT_CLAIM_ONLY": 65,
+    "MULTIPLE_CONFIRMED_OR_MIXED_CLAIMS": 31,
+    "ONE_DIRECT_CLAIM_ONLY": 67,
     "ONLY_QUALIFIED_DIRECT_CLAIMS": 14
    }
   },
@@ -43,14 +42,13 @@
   },
   "Object": {
    "registered": 54,
-   "with_any_direct_claim": 53,
-   "without_direct_claim": 1,
-   "with_one_direct_claim_only": 19,
+   "with_any_direct_claim": 54,
+   "without_direct_claim": 0,
+   "with_one_direct_claim_only": 20,
    "only_qualified_direct_claims": 9,
    "gap_counts": {
     "MULTIPLE_CONFIRMED_OR_MIXED_CLAIMS": 25,
-    "NO_DIRECT_CITED_CLAIM": 1,
-    "ONE_DIRECT_CLAIM_ONLY": 19,
+    "ONE_DIRECT_CLAIM_ONLY": 20,
     "ONLY_QUALIFIED_DIRECT_CLAIMS": 9
    }
   },
@@ -67,7 +65,7 @@
    }
   }
  },
- "nodes_without_direct_claim": 4,
+ "nodes_without_direct_claim": 0,
  "nodes_with_only_qualified_direct_claims": 139,
  "priority_review_candidates": [
   "plane:bablovia",
@@ -1273,12 +1271,18 @@
    "registered_origins": [
     "pack_p5_throne_of_eldraine_2026-10-30.json"
    ],
-   "graph_incident_edges": 0,
-   "direct_distinct_claim_count": 0,
-   "direct_claim_ids": [],
-   "direct_grades": [],
-   "official_source_urls": [],
-   "gap": "NO_DIRECT_CITED_CLAIM"
+   "graph_incident_edges": 2,
+   "direct_distinct_claim_count": 1,
+   "direct_claim_ids": [
+    "EL012"
+   ],
+   "direct_grades": [
+    "CANON_CONFIRMED"
+   ],
+   "official_source_urls": [
+    "https://magic.wizards.com/en/news/feature/planeswalkers-guide-eldraine-2019-10-31"
+   ],
+   "gap": "ONE_DIRECT_CLAIM_ONLY"
   },
   {
    "id": "place:argoth",
@@ -1820,10 +1824,11 @@
    "registered_origins": [
     "pack_p5_throne_of_eldraine_2026-10-30.json"
    ],
-   "graph_incident_edges": 2,
-   "direct_distinct_claim_count": 1,
+   "graph_incident_edges": 4,
+   "direct_distinct_claim_count": 2,
    "direct_claim_ids": [
-    "EL009"
+    "EL009",
+    "EL013"
    ],
    "direct_grades": [
     "CANON_CONFIRMED"
@@ -1831,7 +1836,7 @@
    "official_source_urls": [
     "https://magic.wizards.com/en/news/feature/planeswalkers-guide-eldraine-2019-10-31"
    ],
-   "gap": "ONE_DIRECT_CLAIM_ONLY"
+   "gap": null
   },
   {
    "id": "place:gatstaf",
@@ -2779,12 +2784,18 @@
    "registered_origins": [
     "pack_p5_shadows_eldritch_moon_2026-10-30.json"
    ],
-   "graph_incident_edges": 0,
-   "direct_distinct_claim_count": 0,
-   "direct_claim_ids": [],
-   "direct_grades": [],
-   "official_source_urls": [],
-   "gap": "NO_DIRECT_CITED_CLAIM"
+   "graph_incident_edges": 2,
+   "direct_distinct_claim_count": 1,
+   "direct_claim_ids": [
+    "SE037"
+   ],
+   "direct_grades": [
+    "CANON_CONFIRMED"
+   ],
+   "official_source_urls": [
+    "https://magic.wizards.com/en/news/magic-story/games-2016-04-27"
+   ],
+   "gap": "ONE_DIRECT_CLAIM_ONLY"
   },
   {
    "id": "place:sea_gate",
@@ -3201,12 +3212,18 @@
    "registered_origins": [
     "pack_p5_edge_of_eternities_2026-10-30.json"
    ],
-   "graph_incident_edges": 0,
-   "direct_distinct_claim_count": 0,
-   "direct_claim_ids": [],
-   "direct_grades": [],
-   "official_source_urls": [],
-   "gap": "NO_DIRECT_CITED_CLAIM"
+   "graph_incident_edges": 2,
+   "direct_distinct_claim_count": 1,
+   "direct_claim_ids": [
+    "EO031"
+   ],
+   "direct_grades": [
+    "CANON_CONFIRMED"
+   ],
+   "official_source_urls": [
+    "https://magic.wizards.com/en/news/magic-story/the-legends-of-edge-of-eternities"
+   ],
+   "gap": "ONE_DIRECT_CLAIM_ONLY"
   },
   {
    "id": "place:tangle",
@@ -7467,12 +7484,18 @@
    "registered_origins": [
     "pack_p5_throne_of_eldraine_2026-10-30.json"
    ],
-   "graph_incident_edges": 0,
-   "direct_distinct_claim_count": 0,
-   "direct_claim_ids": [],
-   "direct_grades": [],
-   "official_source_urls": [],
-   "gap": "NO_DIRECT_CITED_CLAIM"
+   "graph_incident_edges": 2,
+   "direct_distinct_claim_count": 1,
+   "direct_claim_ids": [
+    "EL013"
+   ],
+   "direct_grades": [
+    "CANON_CONFIRMED"
+   ],
+   "official_source_urls": [
+    "https://magic.wizards.com/en/news/feature/planeswalkers-guide-eldraine-2019-10-31"
+   ],
+   "gap": "ONE_DIRECT_CLAIM_ONLY"
   },
   {
    "id": "artifact:halo",
@@ -8032,11 +8055,12 @@
    "registered_origins": [
     "pack_p5_edge_of_eternities_2026-10-30.json"
    ],
-   "graph_incident_edges": 4,
-   "direct_distinct_claim_count": 2,
+   "graph_incident_edges": 6,
+   "direct_distinct_claim_count": 3,
    "direct_claim_ids": [
     "EO006",
-    "EO007"
+    "EO007",
+    "EO031"
    ],
    "direct_grades": [
     "CANON_CONFIRMED"
@@ -11789,15 +11813,16 @@
     "pack_p5_outlaws_of_thunder_junction_2026-10-30.json",
     "pack_p5_shadows_eldritch_moon_2026-10-30.json"
    ],
-   "graph_incident_edges": 14,
-   "direct_distinct_claim_count": 6,
+   "graph_incident_edges": 16,
+   "direct_distinct_claim_count": 7,
    "direct_claim_ids": [
     "MS004",
     "MV015",
     "OS005",
     "OT006",
     "SE018",
-    "SE019"
+    "SE019",
+    "SE037"
    ],
    "direct_grades": [
     "CANON_CONFIRMED",
@@ -12271,13 +12296,14 @@
     "pack_p5_isolated_entity_history_2026-10-31.json",
     "pack_p5_throne_of_eldraine_2026-10-30.json"
    ],
-   "graph_incident_edges": 12,
-   "direct_distinct_claim_count": 6,
+   "graph_incident_edges": 14,
+   "direct_distinct_claim_count": 7,
    "direct_claim_ids": [
     "EL001",
     "EL002",
     "EL003",
     "EL005",
+    "EL012",
     "IEH001",
     "IEH002"
    ],
@@ -20591,5 +20617,5 @@
   "Graph degree ranks only local research connectivity, never canonical historical importance.",
   "This audit inventories evidence and gaps; it does not create unsupported lore edges or resolve contradictions."
  ],
- "content_sha256": "07f7c593c23106c59a8ce3bc43e0f7c97dbc011ffeec9d6b189e548b0c762060"
+ "content_sha256": "29e5f21941617344be0d5560752575af0efdc8503e1cc01e4456a5566d52afb7"
 }

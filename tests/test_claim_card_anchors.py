@@ -70,6 +70,34 @@ class ClaimCardAnchorTests(unittest.TestCase):
         del missing['by_pack'][pack]
         self.assertTrue(A.coverage_problems(missing))
 
+    def test_four_claim_suffix_uses_only_reused_same_source_tiers(self):
+        newly_sourced = {'EL012', 'EL013', 'SE037', 'EO031'}
+        old = copy.deepcopy(self.d)
+        old['anchors'] = [r for r in old['anchors'] if r['claim'] not in newly_sourced]
+        for pack, n in {
+            'pack_p5_throne_of_eldraine_2026-10-30.json': 2,
+            'pack_p5_shadows_eldritch_moon_2026-10-30.json': 1,
+            'pack_p5_edge_of_eternities_2026-10-30.json': 1,
+        }.items():
+            old['by_pack'][pack]['claims'] -= n
+        soi = old['by_pack']['pack_p5_shadows_eldritch_moon_2026-10-30.json']
+        soi['claims_anchored'] -= 1
+        soi['NAMED_PARTICIPANT'] -= 2
+        old['counts']['claims'] -= 4
+        old['counts']['claims_anchored'] -= 1
+        old['counts']['anchors'] -= 2
+        old['counts']['NAMED_PARTICIPANT'] -= 2
+        old['content_sha256'] = A.sha({k: v for k, v in old.items() if k != 'content_sha256'})
+        self.assertEqual(A.append_same_source_claims(old, newly_sourced), self.d)
+        with self.assertRaisesRegex(ValueError, 'explicit append IDs differ'):
+            A.append_same_source_claims(old, {'SE037'})
+        no_prior_tier = copy.deepcopy(old)
+        no_prior_tier['anchors'] = [r for r in no_prior_tier['anchors']
+                                    if not (r['participant'] == 'gisa'
+                                            and r['pack'] == 'pack_p5_shadows_eldritch_moon_2026-10-30.json')]
+        with self.assertRaisesRegex(ValueError, 'full Scryfall snapshot rebuild required'):
+            A.append_same_source_claims(no_prior_tier, newly_sourced)
+
 
 if __name__ == "__main__":
     unittest.main()

@@ -3,15 +3,15 @@
  "pack": "data/lore_research/pack_p5_throne_of_eldraine_2026-10-30.json",
  "pack_status": "PRELIMINARY_RESEARCH (not owner approved, not certified)",
  "arc": "ELD",
- "claims": 11,
+ "claims": 13,
  "entities": 19,
  "sources": 1,
  "grades": {
-  "CANON_CONFIRMED": 9,
+  "CANON_CONFIRMED": 11,
   "CANON_IMPLIED": 2
  },
- "quotes": 12,
- "quotes_verbatim": 12,
+ "quotes": 15,
+ "quotes_verbatim": 15,
  "quote_rows": [
   {
    "claim": "EL001",
@@ -84,9 +84,27 @@
    "source_id": "eld_guide",
    "quote_sha256": "f5b2527b06c2720736b1532dace0857d6ec8c6351c53fe13da74320512e395bc",
    "status": "VERBATIM"
+  },
+  {
+   "claim": "EL012",
+   "source_id": "eld_guide",
+   "quote_sha256": "2069d9827115948c8a4c610ecbb1f803450fbd9a7a66833848b661fdb2a25c8e",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "EL012",
+   "source_id": "eld_guide",
+   "quote_sha256": "c50d5dd0f0020d9d17808e0b10a6a8aaf25e5aef92c668051b62819a6f7786e8",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "EL013",
+   "source_id": "eld_guide",
+   "quote_sha256": "8d64a8e2762c9ed9410632cc536f22eb1d0a555e201fd7b2f4378cdad4bf3e83",
+   "status": "VERBATIM"
   }
  ],
  "problems": [],
  "note": "Verbatim-quote audit against cached official Wizards story text. Research evidence only: not owner approval, not certification, not an exhaustive reading.",
- "content_sha256": "c8dc883a1760c5a629c48f7725e43a47f5c74d0b5a02c09cec014090f79fd2b5"
+ "content_sha256": "51d600643488dc4b458fbb9891e166de5761b4762e0bbc10688bf338469f8174"
 }

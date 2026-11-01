@@ -325,6 +325,48 @@
    ],
    "summary": "Elves ruled the land before humans drove them out eight or nine generations ago.",
    "limitation": "Past state only; the object stands for the land that became the realm. The guide is an in-universe traveller's account; it reports what the realm's folk say and believe."
+  },
+  {
+   "id": "EL012",
+   "subject": "ardenvale",
+   "predicate": "home_of",
+   "object": "high_king_kenrith",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "eldraine_eld_2019",
+   "source_ids": [
+    "eld_guide"
+   ],
+   "evidence": [
+    {
+     "source_id": "eld_guide",
+     "quote": "Ardenvale is a beacon of peace in the realm, standing as both a symbolic and literal object of power."
+    },
+    {
+     "source_id": "eld_guide",
+     "quote": "The castle is home to both High King Kenrith and Queen Linden, along with their four children: Rowan, Will, Hazel, and Eric."
+    }
+   ],
+   "summary": "Castle Ardenvale is the home of High King Kenrith and Queen Linden's family.",
+   "limitation": "'The castle' is identified as Ardenvale in the same official guide paragraph; this does not establish its later political status."
+  },
+  {
+   "id": "EL013",
+   "subject": "great_henge",
+   "predicate": "located_at",
+   "object": "garenbrig",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "eldraine_eld_2019",
+   "source_ids": [
+    "eld_guide"
+   ],
+   "evidence": [
+    {
+     "source_id": "eld_guide",
+     "quote": "The main bulk of Garenbrig is its relic, the Great Henge, which sits atop a jutting stone outcropping."
+    }
+   ],
+   "summary": "The Great Henge is Garenbrig's monumental relic and forms the main bulk of the court.",
+   "limitation": ""
   }
  ],
  "pages_registered": 1,

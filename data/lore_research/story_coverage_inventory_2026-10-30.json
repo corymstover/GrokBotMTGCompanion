@@ -94,7 +94,7 @@
   "arcs_all_cited": 31,
   "reviewed_no_claim_pages": 50,
   "arcs_all_cited_or_reviewed": 33,
-  "claims": 1259,
+  "claims": 1263,
   "pack_urls_outside_inventory": 18
  },
  "claims_per_pack": {
@@ -114,7 +114,7 @@
   "pack_p5_kamigawa_neon_dynasty_2026-10-30.json": 12,
   "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json": 25,
   "pack_p5_streets_of_new_capenna_2026-10-30.json": 16,
-  "pack_p5_edge_of_eternities_2026-10-30.json": 30,
+  "pack_p5_edge_of_eternities_2026-10-30.json": 31,
   "pack_p5_reality_fracture_2026-10-30.json": 21,
   "pack_p5_wilds_of_eldraine_2026-10-30.json": 14,
   "pack_p5_murders_at_karlov_manor_2026-10-30.json": 15,
@@ -129,9 +129,9 @@
   "pack_p5_theros_beyond_death_2026-10-30.json": 29,
   "pack_p5_theros_ths_2026-10-30.json": 37,
   "pack_p5_mom_aftermath_2026-10-30.json": 12,
-  "pack_p5_throne_of_eldraine_2026-10-30.json": 11,
+  "pack_p5_throne_of_eldraine_2026-10-30.json": 13,
   "pack_p5_secrets_of_strixhaven_2026-10-30.json": 29,
-  "pack_p5_shadows_eldritch_moon_2026-10-30.json": 36,
+  "pack_p5_shadows_eldritch_moon_2026-10-30.json": 37,
   "pack_p5_battle_for_zendikar_oath_2026-10-30.json": 26,
   "pack_p5_tarkir_dragonstorm_2026-10-30.json": 22,
   "pack_p5_lorwyn_eclipsed_2026-10-30.json": 18,
@@ -850,5 +850,5 @@
    "unreviewed_urls": []
   }
  ],
- "sha256": "132c4a4a8514627179ad300d089cc87039b44273eea63cbce03615b6de18b37f"
+ "sha256": "774eaa455dfa1eccd9a9b4032a22bd5255eee7ff955a44ab7caafcb22e75b038"
 }
