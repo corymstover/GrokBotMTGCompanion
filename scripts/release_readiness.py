@@ -101,7 +101,7 @@ def c_lookup():
         return "NOT_MET", "no Oracle drift report", {}
     d = json.loads(drift[-1].read_text(encoding="utf-8"))
     changed = sum(len(v) for v in d["changed"].values())
-    fresh = _json("data/scryfall_snapshots/oct30_to_nov01_release_delta_2026-11-01.json") or {}
+    fresh = _json("data/scryfall_snapshots/oct30_to_nov01_2200_release_delta_2026-11-01.json") or {}
     update = _json("data/rules/cr_20261019_bulletin_review.json") or {}
     ev = {"report": drift[-1].relative_to(ROOT).as_posix(), "snapshot_date": d["snapshot_date"], "changes": changed,
           "latest_independently_replayed_bulk": fresh.get("current_snapshot"),

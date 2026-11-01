@@ -72,7 +72,7 @@
     "report": "data/card_db/oracle_drift_2026-10-30.json",
     "snapshot_date": "2026-10-30",
     "changes": 0,
-    "latest_independently_replayed_bulk": "snap-20261101-live-20261101",
+    "latest_independently_replayed_bulk": "snap-20261101-2200-live-20261101",
     "latest_bulk_tracked_field_changes": {
      "oracle-cards": 7,
      "default-cards": 49
