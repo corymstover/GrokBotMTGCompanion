@@ -138,6 +138,49 @@ class SetAtlasAskTests(unittest.TestCase):
         r = ask.ask("What happened on Innistrad?")
         self.assertNotEqual(r["route"], "ask->set_atlas:set_story")
 
+    def test_brothers_war_two_timeline_join_uses_exact_official_page(self):
+        r = ask.ask("Compare The Brothers' War set release chronology with cited in-universe events")
+        self.assertEqual(r["route"], "ask->set_atlas:dual_timeline")
+        self.assertEqual(r["confidence"], "QUALIFIED")
+        both = r["result"]["two_chronology_axes"]
+        self.assertEqual(both["real_world_set_release"], "2022-11-18")
+        self.assertEqual(both["cited_in_universe_relations_total"], 3)
+        self.assertEqual(both["omitted_in_universe_relations"], 0)
+        self.assertIsNone(both["fictional_event_date_corresponding_to_set_release"])
+        self.assertEqual(both["release_vs_fictional_event_order"],
+                         "NOT_COMPARABLE_DIFFERENT_CHRONOLOGY_AXES")
+        rels = both["in_universe_relations_on_exact_linked_pages"]
+        self.assertIn("BEFORE", {edge["relation"] for edge in rels})
+        self.assertIn("SAME_TIME_AS_LABEL", {edge["relation"] for edge in rels})
+        self.assertIn("69 AR", " ".join(edge["later_event"] for edge in rels))
+        source_pages = {page["url"] for page in r["result"]["official_story_series"]
+                        ["sampled_official_story_pages"]}
+        for edge in rels:
+            self.assertIn(edge["source_url"], source_pages)
+            self.assertIn(edge["source_url"], r["sources"])
+            self.assertEqual(len(edge["quote_sha256"]), 64)
+            self.assertTrue(edge["quote"])
+        self.assertIn("IN_UNIVERSE_ORDER_ONLY_FROM_CITED_QUOTES", r["flags"])
+        self.assertIn("NO_REAL_WORLD_TO_FICTIONAL_TIME_CONVERSION", r["flags"])
+
+    def test_lore_timeline_route_never_infers_lore_from_a_title_only(self):
+        r = ask.ask("Compare the release and lore timelines for Bloomburrow")
+        self.assertEqual(r["result"]["set"]["code"], "blb")
+        self.assertEqual(r["result"]["two_chronology_axes"]["in_universe_relations_on_exact_linked_pages"], [])
+        self.assertIn("NO_CITED_IN_UNIVERSE_EVENT_ON_LINKED_SAMPLE_PAGES", r["flags"])
+        self.assertIsNone(r["result"]["two_chronology_axes"]["fictional_event_date_corresponding_to_set_release"])
+
+    def test_dual_timeline_known_unlinked_and_unknown_sets_fail_closed(self):
+        known = ask.ask("Compare the release and lore timelines for War of the Spark")
+        self.assertEqual(known["confidence"], "QUALIFIED")
+        self.assertIsNone(known["result"]["official_story_series"])
+        self.assertEqual(known["result"]["two_chronology_axes"]["cited_in_universe_relations_total"], 0)
+        self.assertIn("NO_OFFICIAL_TITLE_STORY_LINK_IN_BOUNDED_INDEX", known["flags"])
+        missing = ask.ask("Compare the release and lore timelines for Zorblax Time Rift")
+        self.assertEqual(missing["confidence"], "NOT_FOUND")
+        self.assertIsNone(missing["result"]["set"])
+        self.assertFalse(any("magic.wizards.com" in url for url in missing["sources"]))
+
 
 if __name__ == "__main__":
     unittest.main()

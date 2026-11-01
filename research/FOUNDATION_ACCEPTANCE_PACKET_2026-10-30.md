@@ -107,6 +107,9 @@ This source-graded packet is reproducible from the repository, with exact input 
 | What official Magic stories are linked to The Brothers' War set? | `ask->set_atlas:set_story` | `QUALIFIED` | 7 |
 | Is War of the Spark linked to an official story series? | `ask->set_atlas:set_story` | `QUALIFIED` | 4 |
 | What official stories are linked to Zorblax Time Rift set? | `ask->set_atlas:set_story` | `NOT_FOUND` | 1 |
+| Compare The Brothers' War set release chronology with cited in-universe events | `ask->set_atlas:dual_timeline` | `QUALIFIED` | 8 |
+| Compare the release and lore timelines for Bloomburrow | `ask->set_atlas:dual_timeline` | `QUALIFIED` | 7 |
+| Compare the release and lore timelines for Zorblax Time Rift | `ask->set_atlas:dual_timeline` | `NOT_FOUND` | 1 |
 
 The underlying JSON retains response digests, exact source URLs and caveat flags. The two graph-navigation examples are **not** evidence of chronological or causal paths.
 
@@ -129,6 +132,6 @@ python3 scripts/certification_dry_run.py --check
 python3 scripts/update_multiverse_progress_tracker.py --check
 ```
 
-Packet SHA-256 (canonical JSON): `b34dd95b15aaa38f23b92990333685d3df167ac745210d3f7181f7989be98a35`
+Packet SHA-256 (canonical JSON): `a0913db57a140573567a565a7ae340dde59c4cb2b9ef50fcc35c07f956f7f752`
 
 **No decks were built, modified, reviewed or approved.**

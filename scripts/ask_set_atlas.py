@@ -52,6 +52,10 @@ _SET_STORY_QUESTIONS = [
     re.compile(r"^show (?:me )?the release date and official story series for (.+?)\??$", re.I),
     re.compile(r"^is (.+?) linked to an official story series\??$", re.I),
 ]
+_DUAL_TIMELINE_QUESTIONS = [
+    re.compile(r"^compare (.+?) set release chronology with cited in-universe events\??$", re.I),
+    re.compile(r"^compare (?:the )?release and lore timelines for (.+?)\??$", re.I),
+]
 
 
 @lru_cache(maxsize=1)
@@ -70,6 +74,21 @@ def _story_bridge():
     if bridge["as_of"] != catalog["as_of"] or set(bridge["set_scope_records"]) != set(catalog["sets"]):
         raise ValueError("Story-series bridge and Set Atlas do not describe the same snapshot")
     return bridge
+
+
+@lru_cache(maxsize=1)
+def _cited_chronology_ledgers():
+    paths = [ROOT / 'data/lore_research/relative_chronology_2026-10-30.json',
+             ROOT / 'data/lore_research/source_event_sequences_2026-10-30.json']
+    ledgers = []
+    for path in paths:
+        ledger = json.loads(path.read_text(encoding='utf-8'))
+        if ledger.get('status') not in {'PRELIMINARY_RESEARCH', 'PRELIMINARY_RESEARCH_NOT_OWNER_APPROVED'}:
+            raise ValueError('Changed chronology research grade must be reviewed before set linkage')
+        nodes = {n['id']: n['label'] for n in ledger['nodes']}
+        edges = ledger['stated_edges'] if 'stated_edges' in ledger else ledger['edges']
+        ledgers.append((path, ledger.get('as_of') or ledger.get('date'), nodes, edges))
+    return ledgers
 
 
 def _envelope(query, route, result, sources, flags=None, confidence="QUALIFIED", scope_flags=None):
@@ -234,11 +253,73 @@ def _answer_set_story(query, raw_set):
     }, sorted(set(sources)), flags, scope_flags=STORY_SCOPE_FLAGS)
 
 
+def _answer_dual_timeline(query, raw_set):
+    """Compare real publication dates and *only exact-page cited* fictional relations."""
+    env = _answer_set_story(query, raw_set)
+    env['route'] = 'ask->set_atlas:dual_timeline'
+    if env['confidence'] == 'NOT_FOUND':
+        return env
+    env['flags'] = [f for f in env['flags'] if f != 'NO_IN_UNIVERSE_EVENT_ORDER_INFERRED']
+    result = env['result']
+    series = result['official_story_series']
+    pages = {page['url']: page for page in series['sampled_official_story_pages']} if series else {}
+    relations, ledger_dates = [], {}
+    for path, as_of, nodes, edges in _cited_chronology_ledgers():
+        hits = [edge for edge in edges if edge.get('source_url') in pages]
+        if hits:
+            env['sources'].append('https://github.com/corymstover/GrokBotMTGCompanion/blob/main/'
+                                  + path.relative_to(ROOT).as_posix())
+            ledger_dates[path.name] = as_of
+        for edge in hits:
+            if (not edge.get('quote') or not re.fullmatch(r'[a-f0-9]{64}', edge.get('quote_sha256', ''))):
+                raise ValueError('Cited in-universe relation lacks source-quote hash')
+            relations.append({
+                'ledger': path.name, 'source_url': edge['source_url'],
+                'published_date': pages[edge['source_url']]['published_date'],
+                'earlier_event_id': edge['earlier'], 'earlier_event': nodes[edge['earlier']],
+                'later_event_id': edge['later'], 'later_event': nodes[edge['later']],
+                'relation': edge['relation'], 'source_grade': edge.get('certainty') or edge.get('kind'),
+                'quote': edge['quote'], 'quote_sha256': edge['quote_sha256'],
+                'note': edge.get('note') or None,
+            })
+    relations.sort(key=lambda row: (row['source_url'], row['ledger'], row['earlier_event_id'],
+                                    row['later_event_id'], row['relation']))
+    result['two_chronology_axes'] = {
+        'real_world_set_release': result['set']['scryfall_recorded_release_date'],
+        'real_world_story_publications': [
+            {'url': page['url'], 'date': page['published_date']}
+            for page in (series['sampled_official_story_pages'] if series else [])],
+        'in_universe_relations_on_exact_linked_pages': relations[:8],
+        'cited_in_universe_relations_total': len(relations),
+        'omitted_in_universe_relations': max(0, len(relations) - 8),
+        'chronology_ledger_as_of': ledger_dates,
+        'fictional_event_date_corresponding_to_set_release': None,
+        'release_vs_fictional_event_order': 'NOT_COMPARABLE_DIFFERENT_CHRONOLOGY_AXES',
+    }
+    result['limitation'] += (' Only quoted event relations from the exact same cited official story '
+                             'pages are joined. Source-page identity is not evidence that a release date '
+                             'corresponds to an in-universe era, that all scenes are depicted on cards, '
+                             'or that these sparse event relations form a complete chronology.')
+    env['flags'] += ['EXACT_OFFICIAL_PAGE_TO_EVENT_SOURCE_JOIN',
+                     'IN_UNIVERSE_ORDER_ONLY_FROM_CITED_QUOTES',
+                     'NO_REAL_WORLD_TO_FICTIONAL_TIME_CONVERSION']
+    if not relations:
+        env['flags'].append('NO_CITED_IN_UNIVERSE_EVENT_ON_LINKED_SAMPLE_PAGES')
+    if len(relations) > 8:
+        env['flags'].append('IN_UNIVERSE_RELATIONS_SAMPLED')
+    env['sources'] = sorted(set(env['sources']))
+    return env
+
+
 def try_answer(text):
     """Return an evidence-enveloped set answer, or None for non-set questions."""
     query = text.strip()
     if _TOTAL.fullmatch(query):
         return _answer_total(query)
+    for pattern in _DUAL_TIMELINE_QUESTIONS:
+        match = pattern.fullmatch(query)
+        if match:
+            return _answer_dual_timeline(query, match.group(1))
     for pattern in _SET_STORY_QUESTIONS:
         match = pattern.fullmatch(query)
         if match:

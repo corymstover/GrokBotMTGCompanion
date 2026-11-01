@@ -224,6 +224,15 @@ QA_CASES = [
     ('set_story_unknown_release',
      'What official stories are linked to Zorblax Time Rift set?',
      'ask->set_atlas:set_story', 'NOT_FOUND'),
+    ('dual_timeline_bro_exact_source_join',
+     "Compare The Brothers' War set release chronology with cited in-universe events",
+     'ask->set_atlas:dual_timeline', 'QUALIFIED'),
+    ('dual_timeline_bloomburrow_no_source_local_order',
+     'Compare the release and lore timelines for Bloomburrow',
+     'ask->set_atlas:dual_timeline', 'QUALIFIED'),
+    ('dual_timeline_unknown_set',
+     'Compare the release and lore timelines for Zorblax Time Rift',
+     'ask->set_atlas:dual_timeline', 'NOT_FOUND'),
 ]
 
 
@@ -361,6 +370,30 @@ def qa_cases() -> list[dict]:
                     r['result']['set'] is not None or r['result']['official_story_series'] is not None or
                     any('magic.wizards.com' in url for url in r['sources'])):
                 raise ValueError('Unknown set acquired fabricated publication evidence')
+        if key.startswith('dual_timeline_'):
+            if key == 'dual_timeline_unknown_set':
+                if r['result']['set'] is not None or any('magic.wizards.com' in u for u in r['sources']):
+                    raise ValueError('Unknown set acquired fabricated timeline evidence')
+            else:
+                axes = r['result']['two_chronology_axes']
+                if (axes['fictional_event_date_corresponding_to_set_release'] is not None or
+                        axes['release_vs_fictional_event_order'] != 'NOT_COMPARABLE_DIFFERENT_CHRONOLOGY_AXES' or
+                        'NO_REAL_WORLD_TO_FICTIONAL_TIME_CONVERSION' not in r['flags']):
+                    raise ValueError('Source-local story events falsely equated with set release date')
+                if key == 'dual_timeline_bro_exact_source_join' and (
+                        r['result']['set']['code'] != 'bro' or
+                        axes['real_world_set_release'] != '2022-11-18' or
+                        axes['cited_in_universe_relations_total'] < 3 or
+                        not any(edge['relation'] == 'SAME_TIME_AS_LABEL' for edge in
+                                axes['in_universe_relations_on_exact_linked_pages']) or
+                        not all(edge['source_url'] in r['sources'] for edge in
+                                axes['in_universe_relations_on_exact_linked_pages'])):
+                    raise ValueError('Brothers War exact-page chronology bridge lost its source')
+                if key == 'dual_timeline_bloomburrow_no_source_local_order' and (
+                        r['result']['set']['code'] != 'blb' or
+                        axes['cited_in_universe_relations_total'] != 0 or
+                        'NO_CITED_IN_UNIVERSE_EVENT_ON_LINKED_SAMPLE_PAGES' not in r['flags']):
+                    raise ValueError('No-source Bloomburrow events fabricated a timeline')
         if key == 'present_leader_unknown' and 'CURRENT_LEADER_NOT_ESTABLISHED' not in r['flags']:
             raise ValueError('Present-day leadership is overstated')
         if key == 'commander_identity' and not r['result']['allowed']:

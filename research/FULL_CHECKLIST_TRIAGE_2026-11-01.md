@@ -1,6 +1,6 @@
 # Complete Master Workflow checklist triage — 2026-11-01
 
-**92/137 checked; 45 open.** Completed: 92; Under review: 28; Blocked: 17; Not started: 0.
+**93/137 checked; 44 open.** Completed: 93; Under review: 27; Blocked: 17; Not started: 0.
 
 This inventory is **not foundation certification**. Deferred Phase 6 tasks remain deliberately blocked, not silently completed; ongoing maintenance and source gaps are included.
 
@@ -13,7 +13,7 @@ The machine-readable JSON records every task, its original workflow line, triage
 
 ## Phase 1B — MTG Set & Printing Atlas (official milestone)
 
-41/47 checked; 6 open.
+42/47 checked; 5 open.
 
 - **K022 · Blocked · MISSING_PRIMARY_SOURCE** — Independently corroborate `fbb` and `4bb` foreign-border variants with Wizards primary documentation; third-party Cardmarket corroboration is recorded but does not close this gate.
   - Wizards evidence for two foreign-border printing variants is still unverified.
@@ -23,8 +23,6 @@ The machine-readable JSON records every task, its original workflow line, triage
   - Older preconstructed/regional box codes need first-party product citations.
 - **K050 · Under review · QUALIFIED_SCOPE** — Publish reproducible totals for **all Scryfall set codes** and separately for **premier expansion/core sets**, plus other clearly defined product categories; never report an unqualified "total sets" figure.
   - All 1,062 categories are counted; an all-time first-party premier-set count is not certified.
-- **K054 · Under review · CHRONOLOGY_GAPS** — Maintain two separately labeled timelines: **real-world set/product release chronology** and **in-universe lore chronology**; link them only with sourced claims, not assumed chronological equivalence.
-  - Real-world release dates and in-world events remain separate; cited bridges are incomplete.
 - **K055 · Under review · SOURCE_GRADING** — Connect sets to supported planes, story arcs, factions, characters, mechanics and Commander-relevant releases without inventing lore connections.
   - Existing cited story-series joins are not exhaustive set-to-canon relationships.
 

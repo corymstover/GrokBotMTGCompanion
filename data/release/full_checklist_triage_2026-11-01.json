@@ -5,11 +5,11 @@
  "disclaimer": "All 137 tasks, not the seven foundation-release criteria; completed means a checked engineering task, not certified lore or deck approval.",
  "totals": {
   "items": 137,
-  "checked": 92,
-  "open": 45,
+  "checked": 93,
+  "open": 44,
   "by_status": {
-   "Completed": 92,
-   "Under review": 28,
+   "Completed": 93,
+   "Under review": 27,
    "Blocked": 17,
    "Not started": 0
   }
@@ -22,8 +22,8 @@
   },
   "Phase 1B — MTG Set & Printing Atlas (official milestone)": {
    "total": 47,
-   "checked": 41,
-   "open": 6
+   "checked": 42,
+   "open": 5
   },
   "Phase 2 — Lore enrichment and primary-source integrity": {
    "total": 9,
@@ -601,11 +601,11 @@
    "id": "K054",
    "line": 993,
    "section": "Phase 1B — MTG Set & Printing Atlas (official milestone)",
-   "checked": false,
-   "task": "Maintain two separately labeled timelines: **real-world set/product release chronology** and **in-universe lore chronology**; link them only with sourced claims, not assumed chronological equivalence. *(v2.40, Batch 12, [#900](https://github.com/corymstover/GrokBotMTGCompanion/pull/900), `data/set_atlas/phase1b_snapshot_gates_2026-10-30.json`: QUALIFIED: real-world chronology exists; the in-universe side is relative spans only (32 verbatim phrases, 0 AR years). Mechanical verification, not owner approval.)* *(v2.41, Batch 13, [#904](https://github.com/corymstover/GrokBotMTGCompanion/pull/904): a separate in-universe relative chronology for Packs A–C now exists, `data/lore_research/relative_chronology_2026-10-30.json`, quote-gated and with no invented years. It is still not linked to the release timeline.)*",
-   "status": "Under review",
-   "blocker_kind": "CHRONOLOGY_GAPS",
-   "reason": "Real-world release dates and in-world events remain separate; cited bridges are incomplete."
+   "checked": true,
+   "task": "Maintain two separately labeled timelines: **real-world set/product release chronology** and **in-universe lore chronology**; link them only with sourced claims, not assumed chronological equivalence. *(v2.40, Batch 12, [#900](https://github.com/corymstover/GrokBotMTGCompanion/pull/900), `data/set_atlas/phase1b_snapshot_gates_2026-10-30.json`: QUALIFIED: real-world chronology exists; the in-universe side is relative spans only (32 verbatim phrases, 0 AR years). Mechanical verification, not owner approval.)* *(v2.41, Batch 13, [#904](https://github.com/corymstover/GrokBotMTGCompanion/pull/904): a separate in-universe relative chronology for Packs A–C now exists, `data/lore_research/relative_chronology_2026-10-30.json`, quote-gated and with no invented years. It is still not linked to the release timeline.)* *(v2.91 closure: the user-facing dual-timeline Q&A now joins set metadata → exact first-party story-title URL → separately cited in-universe event relation only when the **same official page** appears in both ledgers. All 12 titled set bridges are checked, with three directly cited Brothers' War relations including a printed 69 AR header. Real-world Scryfall release date, official story publication date and in-universe order remain separate, and unsupported comparisons stay NOT_COMPARABLE/UNKNOWN. This closes **source-safe two-axis navigation**, not a complete lore chronology or product street-date audit; see `research/FOUNDATION_DUAL_TIMELINE_CLOSURE_2026-11-01.md`.)*",
+   "status": "Completed",
+   "blocker_kind": null,
+   "reason": "Checklist-verified engineering task; this is not owner approval."
   },
   {
    "id": "K055",
