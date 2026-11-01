@@ -13,20 +13,11 @@
   {
    "id": "priority_enrichment",
    "criterion": "Priority-card enrichment backlog fully accounted for (completed or explicitly documented exceptions/gaps).",
-   "workflow_checked": false,
+   "workflow_checked": true,
    "machine_status": "MET",
    "machine_note": "all priority cards enriched",
-   "blockers": [
-    {
-     "kind": "OWNER_APPROVAL",
-     "what": "5,362/5,362 priority cards are enriched; the documented gaps (2,626 cards with no story lore yet, 1,304 of them Universes Beyond; 341 uncertain name-matched links) are listed, not resolved. Ticking the box means accepting that list as the documented exception set.",
-     "evidence": [
-      "data/card_enrichment.json",
-      "data/lore_research/card_lore_links_2026-10-30.json"
-     ]
-    }
-   ],
-   "blocked_by_owner": true,
+   "blockers": [],
+   "blocked_by_owner": false,
    "bot_can_still_act": false
   },
   {
@@ -66,23 +57,23 @@
    "criterion": "Reliable lookup and rules checks backed by current Scryfall and official sources.",
    "workflow_checked": false,
    "machine_status": "PARTIAL",
-   "machine_note": "card lookups reconcile with snapshot 2026-10-30 (0 changes across 33894 cards); Commander deck-construction checks and ruling/CR-citation interaction checks are built; interactions with no published ruling are not modelled (no game simulation)",
+   "machine_note": "card lookups reconcile with snapshot 2026-10-30 (0 changes across 33894 cards); November 1 Scryfall bulk was SHA-replayed with scoped differences, but the new official October 19 rules bulletin is newer than Wizards' linked September 25 CR TXT. Unmodelled rulebreaker/meld interactions are explicitly qualified, not certified. Published-rulings evidence is not game simulation.",
    "blockers": [
     {
      "kind": "ENGINEERING_OPEN",
-     "what": "Bounded Phase 7 card/printing/set and published-rulings lookup is available, but undocumented interactions remain unmodelled (no game simulation) and later rules/ruling changes are not automatically reconciled.",
+     "what": "Bounded Phase 7 card/printing/set and published-rulings lookup is available, but undocumented interactions remain unmodelled; Wizards' October 19 rules update adds rulebreaker and reclassifies meld cards while its rules landing page still links a September 25 TXT. The app now flags rulebreaker exceptions and a separate official bulletin, but needs authoritative updated CR text before claiming current-rules coverage.",
      "evidence": [
-      "scripts/rules_interactions.py",
-      "scripts/ask_rules_evidence.py",
-      "scripts/ask_set_atlas.py"
+      "data/rules/cr_20261019_bulletin_review.json",
+      "scripts/commander_rules.py",
+      "scripts/rules_interactions.py"
      ]
     },
     {
      "kind": "EXTERNAL_CI",
-     "what": "The October 30 latest-published Scryfall Oracle, Default Cards and Rulings bulk was independently downloaded and SHA-verified on October 31. Indexed Oracle and ruling fields have zero mismatches; the one global Oracle type-line change and 104 printing metadata changes are review-only. The final foundation release must repeat the freshness check if Scryfall publishes another bulk or the release candidate changes.",
+     "what": "The November 1 Scryfall Oracle, Default Cards and Rulings bulks were independently downloaded and SHA/record-verified; 7 Oracle and 49 printing records have tracked-field changes relative to October 30, while ruling records are identical. The final candidate needs exact-head CI and release-time freshness recheck; metadata and source caveats are not silently promoted.",
      "evidence": [
-      "data/scryfall_snapshots/oct29_to_oct30_release_delta_2026-10-31.json",
-      "data/card_db/oracle_drift_2026-10-30.json"
+      "data/scryfall_snapshots/oct30_to_nov01_release_delta_2026-11-01.json",
+      "data/scryfall_snapshots/snap-20261101-live-20261101.manifest.json"
      ]
     }
    ],
@@ -92,27 +83,12 @@
   {
    "id": "set_atlas",
    "criterion": "A verified Phase 1B set catalog with category-specific counts, set → card and card → set lookups, debut/reprint identification and English export support.",
-   "workflow_checked": false,
+   "workflow_checked": true,
    "machine_status": "MET",
    "machine_note": "Phase 1B qualified functional release (with stated limitations)",
-   "blockers": [
-    {
-     "kind": "ENGINEERING_OPEN",
-     "what": "Phase 1B QUALIFIED items: exact field parity between snapshots does not hold (342 prm release dates, 6 trk paper flags); Scryfall dates are not sourced street dates; the in-universe chronology is not linked to the release timeline.",
-     "evidence": [
-      "data/set_atlas/phase1b_snapshot_gates_2026-10-30.json"
-     ]
-    },
-    {
-     "kind": "OWNER_DECISION",
-     "what": "Whether the qualified gate (with its stated limitations and 555 optional source-pending records) is acceptable for the release.",
-     "evidence": [
-      "data/set_atlas/phase1b_qualified_functional_release_2026-10-29.json"
-     ]
-    }
-   ],
-   "blocked_by_owner": true,
-   "bot_can_still_act": true
+   "blockers": [],
+   "blocked_by_owner": false,
+   "bot_can_still_act": false
   },
   {
    "id": "knowledge_foundation",
@@ -206,11 +182,11 @@
    "blockers": [
     {
      "kind": "ONGOING",
-     "what": "A read-only weekly workflow already checks Wizards story index, official rules/Commander page signals and Scryfall bulk timestamps, saving review artifacts without auto-ingesting changes. Its scope is deliberately not a complete story crawl or proof of rules changes; ongoing human review and release-time Oracle drift checks are still required.",
+     "what": "A read-only weekly workflow already checks Wizards story index, official rules/Commander page signals, official update-bulletin listing candidates and Scryfall bulk timestamps against the November 1 pinned manifest, saving review artifacts without auto-ingesting changes. Its scope is deliberately not a complete story crawl or proof of rules changes; ongoing human review and release-time Oracle drift checks are still required.",
      "evidence": [
       ".github/workflows/multiverse-update-watch.yml",
       "scripts/monitor_multiverse_updates.py",
-      "MTG_MULTIVERSE_MASTER_WORKFLOW.md"
+      "data/maintenance/multiverse_update_monitor_baseline_2026-11-01.json"
      ]
     }
    ],
@@ -258,62 +234,36 @@
   },
   {
    "item": "Define an MTG Multiverse Companion milestone release based on verified features, not an arbitrary percentage of all lore.",
-   "workflow_checked": false,
-   "blockers": [
-    {
-     "kind": "OWNER_DECISION",
-     "what": "release_readiness.py now scores a knowledge-only foundation (verdict NOT_RELEASE_READY); the owner must review the documented foundation scope, not any pilot deck.",
-     "evidence": [
-      "scripts/release_readiness.py"
-     ]
-    }
-   ],
-   "blocked_by_owner": true,
+   "workflow_checked": true,
+   "blockers": [],
+   "blocked_by_owner": false,
    "bot_can_still_act": false
   },
   {
    "item": "Treat continual future MTG releases as an ongoing maintenance track rather than a permanently finishable backlog.",
-   "workflow_checked": false,
-   "blockers": [
-    {
-     "kind": "OWNER_DECISION",
-     "what": "A policy statement: checking it is the owner's call; the bot does not mark policy accepted.",
-     "evidence": [
-      "MTG_MULTIVERSE_MASTER_WORKFLOW.md"
-     ]
-    },
-    {
-     "kind": "ONGOING",
-     "what": "Maintenance track by design.",
-     "evidence": [
-      "MTG_MULTIVERSE_MASTER_WORKFLOW.md"
-     ]
-    }
-   ],
-   "blocked_by_owner": true,
+   "workflow_checked": true,
+   "blockers": [],
+   "blocked_by_owner": false,
    "bot_can_still_act": false
   }
  ],
  "blocker_tally": {
-  "ENGINEERING_OPEN": 2,
+  "ENGINEERING_OPEN": 1,
   "EXTERNAL_CI": 4,
   "MISSING_SOURCE": 1,
-  "ONGOING": 5,
-  "OWNER_APPROVAL": 2,
+  "ONGOING": 4,
+  "OWNER_APPROVAL": 1,
   "OWNER_CONDITIONAL": 1,
-  "OWNER_DECISION": 5
+  "OWNER_DECISION": 2
  },
  "items_blocked_only_by_owner_or_ci": [
-  "priority_enrichment",
   "knowledge_foundation",
   "grixis_no_regression",
   "ci_and_coverage",
   "Keep targeted CI checks for card counts, source integrity, graph relationships, rules/Q&A and set data; preserve existing deck-legality regression checks without starting new decks.",
   "Monitor new official stories, Oracle changes, releases, rules and Commander format updates.",
   "Rebuild and reconcile the Phase 1B set catalog and bidirectional printing lookups when new sets or printings appear, retaining historical snapshots.",
-  "Maintain an honest progress tracker: completed, under review, blocked, and not started.",
-  "Define an MTG Multiverse Companion milestone release based on verified features, not an arbitrary percentage of all lore.",
-  "Treat continual future MTG releases as an ongoing maintenance track rather than a permanently finishable backlog."
+  "Maintain an honest progress tracker: completed, under review, blocked, and not started."
  ],
  "problems": []
 }

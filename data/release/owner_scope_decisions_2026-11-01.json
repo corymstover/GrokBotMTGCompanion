@@ -1,0 +1,39 @@
+{
+  "schema": "foundation-owner-scope-decisions/v1",
+  "recorded_on": "2026-11-01",
+  "authority": "Cory's explicit 2026-11-01 instruction approving release-related owner actions; bounded interpretation only, not a claim of independent source verification",
+  "scope": "KNOWLEDGE_FOUNDATION_MILESTONE_ONLY",
+  "accepted_documented_scope_decisions": [
+    {
+      "checklist_id": "K131",
+      "decision": "ACCEPT_DOCUMENTED_PRIORITY_ENRICHMENT_EXCEPTIONS",
+      "evidence": ["data/card_enrichment.json", "data/lore_research/card_lore_links_2026-10-30.json"],
+      "acceptance": "5,362/5,362 priority records completed. The 2,626 no-story-lore and 341 uncertain name-link records remain explicitly unverified; 1,304 of the no-story-lore records are Universes Beyond. No invented lore joins are authorized."
+    },
+    {
+      "checklist_id": "K134",
+      "decision": "ACCEPT_QUALIFIED_HISTORICAL_SET_ATLAS_FUNCTIONAL_SCOPE",
+      "evidence": ["data/set_atlas/phase1b_qualified_functional_release_2026-10-29.json", "data/set_atlas/phase1b_snapshot_gates_2026-10-30.json"],
+      "acceptance": "The dated qualified set atlas supports category-specific totals, bidirectional printing lookup, first-printed/reprint identification and English export. Cross-snapshot metadata parity, independent street dates and global in-universe joins are not certified; 555 optional source-pending product records remain open."
+    },
+    {
+      "checklist_id": "K129",
+      "decision": "ACCEPT_FIRST_MILESTONE_DEFINITION",
+      "acceptance": "The first milestone is a finite, source-graded knowledge-foundation release consisting of the seven written release criteria. It is not an exhaustive lore encyclopedia or the post-foundation deckbuilding engine. Certification still requires real passing evidence for all criteria."
+    },
+    {
+      "checklist_id": "K130",
+      "decision": "ACCEPT_PERPETUAL_MAINTENANCE_POLICY",
+      "acceptance": "Future Magic stories, Oracle changes, card sets, rules and Commander restrictions are ongoing maintenance; this policy item is considered decided, but no future maintenance run is pre-certified."
+    }
+  ],
+  "unresolved_or_unapproved": [
+    "K132 foundational source-reviewed genealogy and full cross-pack chronology",
+    "K133 reliable current-rules coverage and post-bulletin rulebreaker/meld evidence",
+    "K135 chronology/history/Q&A release acceptance conditional on actual engineering tests and exact-head CI",
+    "K136 and K137 exact release-commit protected-deck and CI checks",
+    "K106-K115 post-foundation Phase 6 and three unapproved deck pilots"
+  ],
+  "overall_foundation_certified": false,
+  "changes_to_62_approved_decks_authorized": false
+}

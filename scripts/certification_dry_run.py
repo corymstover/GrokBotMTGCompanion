@@ -40,12 +40,7 @@ def B(kind, what, *evidence):
 
 # Release-definition criteria (ids match release_readiness.CRITERIA, same order as the workflow list).
 RELEASE_BLOCKERS = {
-    "priority_enrichment": [
-        B("OWNER_APPROVAL", "5,362/5,362 priority cards are enriched; the documented gaps (2,626 cards with no story lore "
-          "yet, 1,304 of them Universes Beyond; 341 uncertain name-matched links) are listed, not resolved. Ticking the box "
-          "means accepting that list as the documented exception set.",
-          "data/card_enrichment.json", "data/lore_research/card_lore_links_2026-10-30.json"),
-    ],
+    "priority_enrichment": [],  # v2.98 documented owner-accepted finite exception set, not canonical lore proof.
     "foundation_graph": [
         B("OWNER_APPROVAL", "Every claim pack, including foundational Packs A, B and C, is PRELIMINARY_RESEARCH; none is "
           "owner reviewed.", "data/multiverse_graph/manifest.json"),
@@ -58,24 +53,19 @@ RELEASE_BLOCKERS = {
     ],
     "lookup_and_rules": [
         B("ENGINEERING_OPEN", "Bounded Phase 7 card/printing/set and published-rulings lookup is available, but "
-          "undocumented interactions remain unmodelled (no game simulation) and later rules/ruling changes "
-          "are not automatically reconciled.", "scripts/rules_interactions.py", "scripts/ask_rules_evidence.py",
-          "scripts/ask_set_atlas.py"),
-        B("EXTERNAL_CI", "The October 30 latest-published Scryfall Oracle, Default Cards and Rulings bulk was "
-          "independently downloaded and SHA-verified on October 31. Indexed Oracle and ruling fields have zero "
-          "mismatches; the one global Oracle type-line change and 104 printing metadata changes are review-only. "
-          "The final foundation release must repeat the freshness check if Scryfall publishes another bulk or "
-          "the release candidate changes.",
-          "data/scryfall_snapshots/oct29_to_oct30_release_delta_2026-10-31.json",
-          "data/card_db/oracle_drift_2026-10-30.json"),
+          "undocumented interactions remain unmodelled; Wizards' October 19 rules update adds rulebreaker and "
+          "reclassifies meld cards while its rules landing page still links a September 25 TXT. The app now "
+          "flags rulebreaker exceptions and a separate official bulletin, but needs authoritative updated CR text "
+          "before claiming current-rules coverage.", "data/rules/cr_20261019_bulletin_review.json",
+          "scripts/commander_rules.py", "scripts/rules_interactions.py"),
+        B("EXTERNAL_CI", "The November 1 Scryfall Oracle, Default Cards and Rulings bulks were independently "
+          "downloaded and SHA/record-verified; 7 Oracle and 49 printing records have tracked-field changes "
+          "relative to October 30, while ruling records are identical. The final candidate needs exact-head CI "
+          "and release-time freshness recheck; metadata and source caveats are not silently promoted.",
+          "data/scryfall_snapshots/oct30_to_nov01_release_delta_2026-11-01.json",
+          "data/scryfall_snapshots/snap-20261101-live-20261101.manifest.json"),
     ],
-    "set_atlas": [
-        B("ENGINEERING_OPEN", "Phase 1B QUALIFIED items: exact field parity between snapshots does not hold (342 prm release "
-          "dates, 6 trk paper flags); Scryfall dates are not sourced street dates; the in-universe chronology is not linked "
-          "to the release timeline.", "data/set_atlas/phase1b_snapshot_gates_2026-10-30.json"),
-        B("OWNER_DECISION", "Whether the qualified gate (with its stated limitations and 555 optional source-pending records) "
-          "is acceptable for the release.", "data/set_atlas/phase1b_qualified_functional_release_2026-10-29.json"),
-    ],
+    "set_atlas": [],  # v2.98 qualified dated functional scope owner-accepted; optional source work remains open.
     "knowledge_foundation": [
         B("EXTERNAL_CI", "The source-graded knowledge-foundation acceptance packet now exists with separate "
           "chronology ledgers, representative cited plane/character/faction/cross-plane evidence, explicit gaps and "
@@ -107,10 +97,11 @@ PHASE8_BLOCKERS = [
     ]),
     ("Monitor new official stories", [
         B("ONGOING", "A read-only weekly workflow already checks Wizards story index, official rules/Commander page "
-          "signals and Scryfall bulk timestamps, saving review artifacts without auto-ingesting changes. Its scope "
+          "signals, official update-bulletin listing candidates and Scryfall bulk timestamps against the "
+          "November 1 pinned manifest, saving review artifacts without auto-ingesting changes. Its scope "
           "is deliberately not a complete story crawl or proof of rules changes; ongoing human review and release-time "
           "Oracle drift checks are still required.", ".github/workflows/multiverse-update-watch.yml",
-          "scripts/monitor_multiverse_updates.py", "MTG_MULTIVERSE_MASTER_WORKFLOW.md"),
+          "scripts/monitor_multiverse_updates.py", "data/maintenance/multiverse_update_monitor_baseline_2026-11-01.json"),
     ]),
     ("Rebuild and reconcile the Phase 1B set catalog", [
         B("ONGOING", "Triggered by new sets: the next is nau (Set API release 2027-02-05, no printings yet).",
@@ -124,16 +115,8 @@ PHASE8_BLOCKERS = [
           "Progress Tracker.md", "scripts/audit_full_checklist.py",
           "data/release/full_checklist_triage_2026-11-01.json"),
     ]),
-    ("Define an MTG Multiverse Companion milestone release", [
-        B("OWNER_DECISION", "release_readiness.py now scores a knowledge-only foundation (verdict NOT_RELEASE_READY); "
-          "the owner must review the documented foundation scope, not any pilot deck.",
-          "scripts/release_readiness.py"),
-    ]),
-    ("Treat continual future MTG releases", [
-        B("OWNER_DECISION", "A policy statement: checking it is the owner's call; the bot does not mark policy accepted.",
-          "MTG_MULTIVERSE_MASTER_WORKFLOW.md"),
-        B("ONGOING", "Maintenance track by design.", "MTG_MULTIVERSE_MASTER_WORKFLOW.md"),
-    ]),
+    ("Define an MTG Multiverse Companion milestone release", []),  # Owner scope decision K129.
+    ("Treat continual future MTG releases", []),  # Perpetual upkeep policy accepted; execution continues.
 ]
 
 
@@ -201,9 +184,11 @@ def dry_run() -> dict:
 
 
 def to_md(d) -> str:
-    L = ["# Certification checklist dry run (2026-10-30, Batch 14)", "",
+    L = ["# Certification checklist dry run (v2.98, revised 2026-11-01)", "",
          "Generated by `scripts/certification_dry_run.py` from `data/release/certification_dry_run_2026-10-30.json`. "
-         "**This is a dry run, not certification.** It checks no box and approves nothing.", "",
+         "**This is a dry run, not certification.** Four explicitly owner-authorized scope/policy "
+         "decisions are recorded separately in `data/release/owner_scope_decisions_2026-11-01.json`; "
+         "this report cannot approve sources or certify the foundation.", "",
          f"Machine readiness verdict: **{d['readiness_verdict']}** ({d['readiness_tally']}). Blockers by kind: {d['blocker_tally']}.", ""]
     for title, rows, key in (("Definition of the first major Companion release", d["release_definition"], "criterion"),
                              ("Phase 8", d["phase8"], "item")):

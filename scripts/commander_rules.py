@@ -23,7 +23,9 @@ Scope and limits:
 - Inclusion checks reject an invalid proposed commander configuration; passing
   color identity alone does not make a deck legal.
 - Card text that changes the commander rules in a way not modelled here (for example
-  un-set text) yields QUALIFIED with the flag UNMODELLED_COMMANDER_TEXT.
+  un-set text or post-2026-09-25 rulebreaker) yields QUALIFIED with an explicit
+  review flag; an apparent color-identity violation is not called illegal when
+  the designated commander has an unmodelled rulebreaker exception.
 - Confidence uses the mv_ask levels: VERIFIED, QUALIFIED and NOT_FOUND (exit code 3).
 """
 import argparse
@@ -42,6 +44,7 @@ BASIC_TYPES = {"Plains": "W", "Island": "U", "Swamp": "B", "Mountain": "R", "For
 DASH = "\u2014"
 CARD_SHARDS_AS_OF = "2026-10-15"
 HISTORICAL_LEGALITY_FLAG = "DATED_SCRYFALL_LEGALITY_NOT_LIVE"
+RULES_BULLETIN = json.loads((ROOT / "data/rules/cr_20261019_bulletin_review.json").read_text(encoding="utf-8"))
 
 
 def cite(*ids):
@@ -92,6 +95,7 @@ def facts(row: dict, sec: str | None = None) -> dict:
             "identity": "".join(c for c in COLORS if c in row["color_identity"]),
             "legality": row["commander_legality"], "pt": pt.group(1) if pt else None, "abilities": ab,
             "can_be_commander_text": bool(re.search(r"can be your commander", text, re.I)),
+            "rulebreaker": bool(re.search(r"\brulebreaker\s*" + DASH, text, re.I)),
             "unmodelled": bool(re.search(r"as your commanders|as though they each had partner|spell commander",
                                          text, re.I)),
             "shard": f"{row['shard']}#{row['anchor']}"}
@@ -124,6 +128,9 @@ def _env(route, query, result, flags, rules):
     return {"route": route, "query": query, "confidence": "QUALIFIED", "flags": flags,
             "rules_source": {"document": CR["title"], "effective": CR["effective"], "url": CR["source_url"],
                              "sha256": CR["source_sha256"]},
+            "later_official_rules_bulletin": {"date": RULES_BULLETIN["bulletin"]["published_on"],
+                                              "url": RULES_BULLETIN["bulletin"]["url"],
+                                              "status": RULES_BULLETIN["status"]},
             "card_source": "Scryfall-derived records: data/card_index.csv and cards/ shards",
             "card_data_as_of": CARD_SHARDS_AS_OF,
             "limitation": ("The result uses dated card/legality data and a dated Comprehensive Rules excerpt. "
@@ -175,6 +182,8 @@ def commander(names: list) -> dict:
                     "shard": f["shard"]})
         if f["unmodelled"]:
             flags.append("UNMODELLED_COMMANDER_TEXT")
+        if f.get("rulebreaker", False):
+            flags.append("RULEBREAKER_COMMANDER_EXCEPTION_NOT_MODELLED")
     legal = all(p["scryfall_commander_legality"] == "legal" for p in per)
     if len(fs) == 1:
         p = per[0]
@@ -214,24 +223,34 @@ def include(card_name: str, commanders: list) -> dict:
     ident = {x for f in cmd for x in f["identity"]}
     rules = ["903.4", "903.5c"] + (["702.124c"] if len(cmd) == 2 else [])
     reasons = []
+    unresolved = []
     flags = []
+    rulebreaker = any(f.get("rulebreaker", False) for f in cmd)
+    if rulebreaker:
+        flags.append("RULEBREAKER_COMMANDER_EXCEPTION_NOT_MODELLED")
     if not proposed["result"]["allowed"]:
         reasons.append("proposed commander configuration is not legal: "
                        + proposed["result"].get("reason", "commander eligibility or pairing requirement failed"))
         flags.append("INVALID_COMMANDER_CONFIGURATION")
     outside = "".join(x for x in COLORS if x in c["identity"] and x not in ident)
     if outside:
-        reasons.append(f"color identity {c['identity']} has {outside}, outside the commander identity")
+        note = f"color identity {c['identity']} has {outside}, outside the ordinary commander identity"
+        (unresolved if rulebreaker else reasons).append(note)
     if "Land" in c["type_line"].split(DASH)[0]:
         basics = [t for t in c["subtypes"] if t in BASIC_TYPES]
         if basics:
             rules.append("903.5d")
             bad = [t for t in basics if BASIC_TYPES[t] not in ident]
             if bad:
-                reasons.append(f"basic land type(s) {', '.join(bad)} produce mana outside the commander identity")
+                note = f"basic land type(s) {', '.join(bad)} produce mana outside the ordinary commander identity"
+                (unresolved if rulebreaker else reasons).append(note)
     if c["legality"] != "legal":
         reasons.append(f"Scryfall commander legality is '{c['legality']}'")
-    result = {"allowed": not reasons, "card": c["name"], "card_identity": c["identity"] or "C",
+    result = {"allowed": False if reasons else None if unresolved else True,
+              "determination": "REQUIRES_RULEBREAKER_REVIEW" if unresolved and not reasons else
+                               "REJECTED" if reasons else "ALLOWED_UNDER_MODELLED_RULES",
+              "unresolved_rulebreaker_questions": unresolved,
+              "card": c["name"], "card_identity": c["identity"] or "C",
               "commander_identity": "".join(x for x in COLORS if x in ident) or "C",
               "commander_configuration": {"allowed": proposed["result"]["allowed"],
                                           "commanders": [f["name"] for f in cmd],

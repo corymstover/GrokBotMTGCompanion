@@ -1,6 +1,6 @@
 # Complete Master Workflow checklist triage — 2026-11-01
 
-**98/137 checked; 39 open.** Completed: 98; Under review: 22; Blocked: 17; Not started: 0.
+**102/137 checked; 35 open.** Completed: 102; Under review: 19; Blocked: 16; Not started: 0.
 
 This inventory is **not foundation certification**. Deferred Phase 6 tasks remain deliberately blocked, not silently completed; ongoing maintenance and source gaps are included.
 
@@ -102,31 +102,23 @@ The machine-readable JSON records every task, its original workflow line, triage
 
 ## Phase 8 — Release quality and continuing upkeep
 
-2/7 checked; 5 open.
+4/7 checked; 3 open.
 
 - **K124 · Under review · OWNER_DECISION** — Keep targeted CI checks for card counts, source integrity, graph relationships, rules/Q&A and set data; preserve existing deck-legality regression checks without starting new decks.
   - No documented set of required status checks protects main; choosing them is a repository setting only the owner can change.
 - **K125 · Under review · ONGOING** — Monitor new official stories, Oracle changes, releases, rules and Commander format updates.
-  - A read-only weekly workflow already checks Wizards story index, official rules/Commander page signals and Scryfall bulk timestamps, saving review artifacts without auto-ingesting changes. Its scope is deliberately not a complete story crawl or proof of rules changes; ongoing human review and release-time Oracle drift checks are still required.
+  - A read-only weekly workflow already checks Wizards story index, official rules/Commander page signals, official update-bulletin listing candidates and Scryfall bulk timestamps against the November 1 pinned manifest, saving review artifacts without auto-ingesting changes. Its scope is deliberately not a complete story crawl or proof of rules changes; ongoing human review and release-time Oracle drift checks are still required.
 - **K126 · Under review · ONGOING** — Rebuild and reconcile the Phase 1B set catalog and bidirectional printing lookups when new sets or printings appear, retaining historical snapshots.
   - Triggered by new sets: the next is nau (Set API release 2027-02-05, no printings yet).
-- **K129 · Under review · OWNER_DECISION** — Define an MTG Multiverse Companion milestone release based on verified features, not an arbitrary percentage of all lore.
-  - release_readiness.py now scores a knowledge-only foundation (verdict NOT_RELEASE_READY); the owner must review the documented foundation scope, not any pilot deck.
-- **K130 · Under review · ONGOING,OWNER_DECISION** — Treat continual future MTG releases as an ongoing maintenance track rather than a permanently finishable backlog.
-  - A policy statement: checking it is the owner's call; the bot does not mark policy accepted.; Maintenance track by design.
 
 ## Definition of the first major Companion release
 
-0/7 checked; 7 open.
+2/7 checked; 5 open.
 
-- **K131 · Under review · OWNER_APPROVAL** — Priority-card enrichment backlog fully accounted for (completed or explicitly documented exceptions/gaps).
-  - 5,362/5,362 priority cards are enriched; the documented gaps (2,626 cards with no story lore yet, 1,304 of them Universes Beyond; 341 uncertain name-matched links) are listed, not resolved. Ticking the box means accepting that list as the documented exception set.
 - **K132 · Blocked · MISSING_SOURCE,OWNER_APPROVAL,OWNER_DECISION** — Searchable cited connections across the three foundational lore packs.
   - Every claim pack, including foundational Packs A, B and C, is PRELIMINARY_RESEARCH; none is owner reviewed.; Pack A genealogy disputes GD2-GD7 have no official statement that settles them; the owner decision cells are blank (GD1 has an official answer but is still unapplied).; L244 verified chronology is incomplete: story presents on different pages are unanchored, and Yawgmoth's end / Old Phyrexia's decimation have no official recap ordering (novel text is not ingested).
 - **K133 · Blocked · ENGINEERING_OPEN,EXTERNAL_CI** — Reliable lookup and rules checks backed by current Scryfall and official sources.
-  - Bounded Phase 7 card/printing/set and published-rulings lookup is available, but undocumented interactions remain unmodelled (no game simulation) and later rules/ruling changes are not automatically reconciled.; The October 30 latest-published Scryfall Oracle, Default Cards and Rulings bulk was independently downloaded and SHA-verified on October 31. Indexed Oracle and ruling fields have zero mismatches; the one global Oracle type-line change and 104 printing metadata changes are review-only. The final foundation release must repeat the freshness check if Scryfall publishes another bulk or the release candidate changes.
-- **K134 · Blocked · ENGINEERING_OPEN,OWNER_DECISION** — A verified Phase 1B set catalog with category-specific counts, set → card and card → set lookups, debut/reprint identification and English export support.
-  - Phase 1B QUALIFIED items: exact field parity between snapshots does not hold (342 prm release dates, 6 trk paper flags); Scryfall dates are not sourced street dates; the in-universe chronology is not linked to the release timeline.; Whether the qualified gate (with its stated limitations and 555 optional source-pending records) is acceptable for the release.
+  - Bounded Phase 7 card/printing/set and published-rulings lookup is available, but undocumented interactions remain unmodelled; Wizards' October 19 rules update adds rulebreaker and reclassifies meld cards while its rules landing page still links a September 25 TXT. The app now flags rulebreaker exceptions and a separate official bulletin, but needs authoritative updated CR text before claiming current-rules coverage.; The November 1 Scryfall Oracle, Default Cards and Rulings bulks were independently downloaded and SHA/record-verified; 7 Oracle and 49 printing records have tracked-field changes relative to October 30, while ruling records are identical. The final candidate needs exact-head CI and release-time freshness recheck; metadata and source caveats are not silently promoted.
 - **K135 · Under review · EXTERNAL_CI,OWNER_CONDITIONAL** — Source-graded in-universe chronology, broad plane/character/faction history and difficult Q&A coverage reviewed for the documented knowledge-foundation scope, with explicit unresolved gaps.
   - The source-graded knowledge-foundation acceptance packet now exists with separate chronology ledgers, representative cited plane/character/faction/cross-plane evidence, explicit gaps and an expanding set of distinct difficult Q&A cases. Its deterministic rebuild and representative rules/Q&A tests must still pass on the exact candidate foundation-release commit; it does not establish exhaustive knowledge.; Cory has explicitly authorized automatic foundation-only acceptance once the documented engineering and exact-head CI gates genuinely pass. The authorization is recorded but not effective while those conditions are unmet; no second approval request is needed. An owner-reviewed deck is NOT required.
 - **K136 · Under review · EXTERNAL_CI** — No regression in the 62 archived approved Grixis decks.

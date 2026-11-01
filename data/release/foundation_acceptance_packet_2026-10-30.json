@@ -566,7 +566,7 @@
       "sources": [
         "https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt"
       ],
-      "response_sha256": "957c172fe533e16cafb5b82a368bd68cf436fa79bbda60d2a842e235ff428557",
+      "response_sha256": "55267ae14dd9016807c06f3dd3e7b5f991036d3ccb2a59f041139e59787aa929",
       "direct_claims": null,
       "chronology_relation": null,
       "known_limitations": []
@@ -618,14 +618,15 @@
       "confidence": "QUALIFIED",
       "flags": [
         "HISTORICAL_RULINGS_SHARD_NOT_LIVE",
-        "NO_RULES_SIMULATION"
+        "NO_RULES_SIMULATION",
+        "NEWER_OFFICIAL_RULES_BULLETIN_NOT_IN_CITED_EXCERPT"
       ],
       "sources": [
         "https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt",
         "https://scryfall.com/card/cmm/1053/urzas-tower",
         "https://scryfall.com/card/mh2/259/urzas-saga"
       ],
-      "response_sha256": "530a370f86dc72c93078fa06dc1f004c0278aae8b8c8392e36030e0a7a954184",
+      "response_sha256": "2f3d79234c498d96e7e3a1ca9b70be04f669626e43cb7925d27278f712d0a8b9",
       "direct_claims": null,
       "chronology_relation": null,
       "known_limitations": []
@@ -2559,5 +2560,5 @@
     "python3 scripts/update_multiverse_progress_tracker.py --check"
   ],
   "owner_review_status": "PENDING_NOT_REQUESTED_UNTIL_ENGINEERING_EVIDENCE_AND_CI_COMPLETE",
-  "content_sha256": "56026c8aa141d1967332c241f8100b809ade7f77a95e2851249c9706a95e4fef"
+  "content_sha256": "e26a41466557711c5b9460a46ce62d77275070bbaeb2edfb2f26615ad2cf2524"
 }

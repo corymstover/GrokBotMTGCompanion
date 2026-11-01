@@ -1,0 +1,420 @@
+{
+  "baseline_manifest_files": {
+    "default-cards": {
+      "compressed_bytes": 80615941,
+      "filename": "default-cards-20261030210604.jsonl.gz",
+      "records": 120019,
+      "scryfall_updated_at": "2026-10-30T21:06:04.129+00:00",
+      "sha256": "7c62468c9c34607ae5fe232b24235f62a30eb798a3508968d2f5888e65f6a5a7",
+      "source_url": "https://data.scryfall.io/default-cards/default-cards-20261030210604.jsonl.gz"
+    },
+    "oracle-cards": {
+      "compressed_bytes": 25288113,
+      "filename": "oracle-cards-20261030210201.jsonl.gz",
+      "records": 39287,
+      "scryfall_updated_at": "2026-10-30T21:02:01.127+00:00",
+      "sha256": "e8b920b7d77e0b314575d18312b53f4307c6cda75eaea52008ae93550f66af54",
+      "source_url": "https://data.scryfall.io/oracle-cards/oracle-cards-20261030210201.jsonl.gz"
+    },
+    "rulings": {
+      "compressed_bytes": 5422271,
+      "filename": "rulings-20261030210034.jsonl.gz",
+      "records": 79706,
+      "scryfall_updated_at": "2026-10-30T21:00:34.143+00:00",
+      "sha256": "ed07018faec96fdb368b7756d9004d3e718eb9eca2fdbc3f5b375e56d218925e",
+      "source_url": "https://data.scryfall.io/rulings/rulings-20261030210034.jsonl.gz"
+    }
+  },
+  "baseline_snapshot": "snap-20261030-live-20261031",
+  "current_manifest_files": {
+    "default-cards": {
+      "compressed_bytes": 80728089,
+      "filename": "default-cards-20261101100643.jsonl.gz",
+      "records": 120019,
+      "scryfall_updated_at": "2026-11-01T10:06:43.420+00:00",
+      "sha256": "fe1acb30f942191d1c365547c4f2a5e07cf97b73ee66cfbbfbd5eac9e6046bd7",
+      "source_url": "https://data.scryfall.io/default-cards/default-cards-20261101100643.jsonl.gz"
+    },
+    "oracle-cards": {
+      "compressed_bytes": 25301441,
+      "filename": "oracle-cards-20261101100202.jsonl.gz",
+      "records": 39287,
+      "scryfall_updated_at": "2026-11-01T10:02:02.149+00:00",
+      "sha256": "d8553e17deb5c9505d598b64bb12fda74fe10e763ff92a5c6c8d6985743d9533",
+      "source_url": "https://data.scryfall.io/oracle-cards/oracle-cards-20261101100202.jsonl.gz"
+    },
+    "rulings": {
+      "compressed_bytes": 5422271,
+      "filename": "rulings-20261101100032.jsonl.gz",
+      "records": 79706,
+      "scryfall_updated_at": "2026-11-01T10:00:32.394+00:00",
+      "sha256": "4e472a02fd489ab10f09a79b4d2b75ad67a60bedda28fc4a50140d58ada5481b",
+      "source_url": "https://data.scryfall.io/rulings/rulings-20261101100032.jsonl.gz"
+    }
+  },
+  "current_snapshot": "snap-20261101-live-20261101",
+  "delta": {
+    "default-cards": {
+      "added_ids": 0,
+      "baseline_records": 120019,
+      "changed_existing_samples": [
+        {
+          "fields": [
+            "released_at"
+          ],
+          "id": "10f7ec1f-390d-4f2c-a13e-7a684676ce70",
+          "name": null
+        },
+        {
+          "fields": [
+            "released_at"
+          ],
+          "id": "1103b7ae-adf0-417f-9f18-eef9278113e8",
+          "name": null
+        },
+        {
+          "fields": [
+            "released_at"
+          ],
+          "id": "14669860-96c6-4080-bc92-c5205f0b817a",
+          "name": null
+        },
+        {
+          "fields": [
+            "released_at"
+          ],
+          "id": "181992b6-c0b9-47f3-868f-5a6fa54e13e1",
+          "name": null
+        },
+        {
+          "fields": [
+            "collector_number"
+          ],
+          "id": "1dea4d0f-5145-4a56-ba42-e7755670421f",
+          "name": null
+        },
+        {
+          "fields": [
+            "released_at"
+          ],
+          "id": "1ed2953c-31fc-42d0-81c2-069b642032f6",
+          "name": null
+        },
+        {
+          "fields": [
+            "released_at"
+          ],
+          "id": "2ca13d10-d6e7-432c-93c1-cb9f68d7e83f",
+          "name": null
+        },
+        {
+          "fields": [
+            "released_at"
+          ],
+          "id": "2ca4b840-23a6-4e41-9240-c994823aa46c",
+          "name": null
+        },
+        {
+          "fields": [
+            "released_at"
+          ],
+          "id": "309c2015-5f93-40a0-a2ea-2a4be3d379bc",
+          "name": null
+        },
+        {
+          "fields": [
+            "released_at"
+          ],
+          "id": "376884f9-529d-4eeb-884c-ea6192a4ea54",
+          "name": null
+        },
+        {
+          "fields": [
+            "released_at"
+          ],
+          "id": "3821254e-dec8-4d54-9973-f9b6df935353",
+          "name": null
+        },
+        {
+          "fields": [
+            "layout"
+          ],
+          "id": "3b9c4950-9890-4977-87a0-6eba840e1f66",
+          "name": null
+        },
+        {
+          "fields": [
+            "released_at"
+          ],
+          "id": "3bea8d02-a3c7-441f-bf67-e10b2cf1f51f",
+          "name": null
+        },
+        {
+          "fields": [
+            "released_at"
+          ],
+          "id": "3faeceeb-f835-482a-b742-71aba3fd2f96",
+          "name": null
+        },
+        {
+          "fields": [
+            "released_at"
+          ],
+          "id": "48be1b2d-21ae-42d9-b713-23a7abb6f749",
+          "name": null
+        },
+        {
+          "fields": [
+            "released_at"
+          ],
+          "id": "4faaae9f-062d-45bc-b4e7-6ad38525b133",
+          "name": null
+        },
+        {
+          "fields": [
+            "released_at"
+          ],
+          "id": "5971f10e-f111-48c2-9cc5-e1cdb11f36e4",
+          "name": null
+        },
+        {
+          "fields": [
+            "released_at"
+          ],
+          "id": "5e1fe590-6b4d-45ad-a610-d2326de5f113",
+          "name": null
+        },
+        {
+          "fields": [
+            "released_at"
+          ],
+          "id": "5e7a331b-fcaf-4eb7-9c32-d57cb18a2627",
+          "name": null
+        },
+        {
+          "fields": [
+            "released_at"
+          ],
+          "id": "63f95d04-6bfa-4aa1-99c3-dd3f7955792f",
+          "name": null
+        },
+        {
+          "fields": [
+            "released_at"
+          ],
+          "id": "6e0f3a97-24ed-4077-a1a9-3a14eb7d7cc0",
+          "name": null
+        },
+        {
+          "fields": [
+            "released_at"
+          ],
+          "id": "70af9da5-b17d-42ff-a5f6-f33e91fe4bdf",
+          "name": null
+        },
+        {
+          "fields": [
+            "released_at"
+          ],
+          "id": "75197629-3ba6-4f92-aad5-8e56a492debf",
+          "name": null
+        },
+        {
+          "fields": [
+            "released_at"
+          ],
+          "id": "761ac224-070c-4b84-8a9e-8533928e4bba",
+          "name": null
+        },
+        {
+          "fields": [
+            "released_at"
+          ],
+          "id": "7b1e6347-0e68-4eac-95a8-5bac5ccc3dae",
+          "name": null
+        }
+      ],
+      "changed_fields": {
+        "artist": 1,
+        "collector_number": 1,
+        "digital": 0,
+        "illustration_id": 2,
+        "image_status": 0,
+        "lang": 0,
+        "layout": 1,
+        "oracle_id": 0,
+        "released_at": 45,
+        "set": 0
+      },
+      "current_records": 120019,
+      "existing_ids_with_tracked_field_changes": 49,
+      "new_id_samples": [],
+      "other_untracked_metadata_changed": 97126,
+      "removed_id_samples": [],
+      "removed_ids": 0
+    },
+    "oracle-cards": {
+      "added_ids": 0,
+      "baseline_records": 39287,
+      "changed_existing_samples": [
+        {
+          "fields": [
+            "oracle_text_digest"
+          ],
+          "id": "083dc9dc-3548-4e55-90d1-3fae33f71dab",
+          "name": "Enter the Eternities"
+        },
+        {
+          "fields": [
+            "keywords"
+          ],
+          "id": "1fdcdb1c-a140-40ee-b711-5ea539eb1084",
+          "name": "Melkotian Adjudicator"
+        },
+        {
+          "fields": [
+            "keywords"
+          ],
+          "id": "29775eb6-f658-4839-a434-2fa063069f1c",
+          "name": "T'Pring, Never Parted"
+        },
+        {
+          "fields": [
+            "color_identity"
+          ],
+          "id": "457cf958-8129-4bf6-b4d5-211eb8c58763",
+          "name": "Q Continuum"
+        },
+        {
+          "fields": [
+            "keywords"
+          ],
+          "id": "8cb700bb-daa5-4a26-bb84-e22bc11bdaff",
+          "name": "Test of Identity"
+        },
+        {
+          "fields": [
+            "layout"
+          ],
+          "id": "9c3c0e04-b222-4bc9-adbe-a3b37cc8c44e",
+          "name": "Spirit Sorcerer Token"
+        },
+        {
+          "fields": [
+            "keywords"
+          ],
+          "id": "adbbb968-5721-427c-a15a-320d49ab4c3e",
+          "name": "Stray from History"
+        }
+      ],
+      "changed_fields": {
+        "color_identity": 1,
+        "commander_legality": 0,
+        "game_changer": 0,
+        "keywords": 4,
+        "layout": 1,
+        "name": 0,
+        "oracle_text_digest": 1,
+        "type_line": 0
+      },
+      "current_records": 39287,
+      "existing_ids_with_tracked_field_changes": 7,
+      "new_id_samples": [],
+      "other_untracked_metadata_changed": 32454,
+      "removed_id_samples": [],
+      "removed_ids": 0
+    },
+    "rulings": {
+      "added_records": 0,
+      "baseline_records": 79706,
+      "current_records": 79706,
+      "identical_record_multiset": true,
+      "removed_records": 0
+    }
+  },
+  "indexed_card_parity": {
+    "current_ids": 39287,
+    "field_differences": {
+      "color_identity": {
+        "count": 0,
+        "first_20_names": []
+      },
+      "commander_legality": {
+        "count": 0,
+        "first_20_names": []
+      },
+      "game_changer": {
+        "count": 0,
+        "first_20_names": []
+      },
+      "name": {
+        "count": 66,
+        "first_20_names": [
+          "B.F.M. (Big Furry Monster) (UGL #28)",
+          "B.F.M. (Big Furry Monster) (UGL #29)",
+          "Everythingamajig (UST #147a)",
+          "Everythingamajig (UST #147b)",
+          "Everythingamajig (UST #147c)",
+          "Everythingamajig (UST #147d)",
+          "Everythingamajig (UST #147e)",
+          "Everythingamajig (UST #147f)",
+          "Fast // Furious (MH2 #123)",
+          "Fast // Furious (UNK #CR15a)",
+          "Garbage Elemental (UST #82a)",
+          "Garbage Elemental (UST #82b)",
+          "Garbage Elemental (UST #82c)",
+          "Garbage Elemental (UST #82d)",
+          "Garbage Elemental (UST #82e)",
+          "Garbage Elemental (UST #82f)",
+          "Ineffable Blessing (UST #113a)",
+          "Ineffable Blessing (UST #113b)",
+          "Ineffable Blessing (UST #113c)",
+          "Ineffable Blessing (UST #113d)"
+        ]
+      },
+      "type_line": {
+        "count": 0,
+        "first_20_names": []
+      }
+    },
+    "indexed_ids": 33894,
+    "missing_indexed_ids": 0,
+    "new_ids_not_in_index": 5393,
+    "new_ids_samples": [
+      "1997 World Championships Ad",
+      "1998 World Championships Ad",
+      "1999 World Championships Ad",
+      "2000 World Championships Ad",
+      "2001 World Championships Ad",
+      "2002 World Championships Ad",
+      "2003 World Championships Ad",
+      "2004 World Championships Ad",
+      "A Display of My Dark Power",
+      "A Golden Opportunity",
+      "A Little Chat // A Little Chat",
+      "A Mysterious Creature",
+      "A Premonition of Your Demise",
+      "A Reckoning Approaches",
+      "Aang",
+      "Aang Tutorial",
+      "Aang and Katara // Aang and Katara",
+      "Aang's Iceberg // Aang's Iceberg",
+      "Aang, Swift Savior // Aang, Swift Savior",
+      "Aang, at the Crossroads // Aang, at the Crossroads"
+    ]
+  },
+  "limits": [
+    "Field-level differences require explicit review; this is not a live legality guarantee.",
+    "No card shards, historical snapshots, approved decks or lore claims were changed.",
+    "The current Scryfall bulk files must be re-checked against API metadata at release time."
+  ],
+  "prior_art_source_integrity": {
+    "checked_specific_printings": 581,
+    "limitation": "Source metadata parity only; prior human visual matches were not repeated.",
+    "material_art_identity_changes": [],
+    "missing_from_new_bulk": []
+  },
+  "schema": "release-bulk-field-delta/v1",
+  "source_bytes_sha256_and_counts_verified": true,
+  "status": "SOURCE_DRIFT_AUDIT_NOT_AUTO_INGESTION"
+}

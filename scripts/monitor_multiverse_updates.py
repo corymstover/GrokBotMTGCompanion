@@ -22,7 +22,7 @@ from urllib.parse import urljoin, urlsplit, urlunsplit
 from urllib.request import Request, urlopen
 
 ROOT = Path(__file__).resolve().parents[1]
-BASELINE = ROOT / "data/maintenance/multiverse_update_monitor_baseline_2026-10-30.json"
+BASELINE = ROOT / "data/maintenance/multiverse_update_monitor_baseline_2026-11-01.json"
 TIMEOUT = 18
 
 
@@ -67,6 +67,26 @@ class RulesDocumentLinks(HTMLParser):
                     self.urls.add(url)
 
 
+class RulesBulletinLinks(HTMLParser):
+    """Wizards-only update-bulletin links on the announcements listing page."""
+    def __init__(self, origin):
+        super().__init__()
+        self.origin = origin
+        self.urls = set()
+
+    def handle_starttag(self, tag, attrs):
+        if tag != "a":
+            return
+        for key, value in attrs:
+            if key == "href" and value:
+                url = canonical_url(urljoin(self.origin, value))
+                p = urlsplit(url)
+                if (p.netloc == "magic.wizards.com" and
+                    p.path.startswith("/en/news/announcements/") and
+                    "update-bulletin" in p.path):
+                    self.urls.add(url)
+
+
 def known_story_urls(baseline):
     known = set()
     for path in baseline["story_inventory_sources"]:
@@ -86,6 +106,12 @@ def baseline_data():
         raise ValueError("monitor may watch only official Wizards rules/Commander pages")
     if d["story_index_url"] != "https://magic.wizards.com/en/news/magic-story":
         raise ValueError("unexpected official story index")
+    if d.get("rules_bulletin_index_url") != "https://magic.wizards.com/en/news/announcements":
+        raise ValueError("unexpected official rules bulletin index")
+    if not d.get("known_official_rules_bulletins") or not all(
+            u.startswith("https://magic.wizards.com/en/news/announcements/") and "update-bulletin" in u
+            for u in d["known_official_rules_bulletins"]):
+        raise ValueError("official rules bulletin baseline missing or untrusted")
     if not all(urlsplit(u).netloc == "media.wizards.com" and u.endswith(".pdf")
                for u in d["known_official_rules_documents"]):
         raise ValueError("unrecognized baseline official rules PDF URL")
@@ -105,6 +131,16 @@ def story_signals(page_html: str, origin: str, known: set[str]) -> dict:
     return {"status": "NEW_CANDIDATES_REVIEW_REQUIRED" if candidates else "NO_NEW_LINK_CANDIDATES_ON_INDEX_PAGE",
             "current_index_links": len(parser.urls), "new_story_url_candidates": candidates,
             "limitation": "One official listing page only, not a complete crawling/indexing of Wizards fiction."}
+
+
+def bulletin_signals(page_html: str, origin: str, known: set[str]) -> dict:
+    parser = RulesBulletinLinks(origin)
+    parser.feed(page_html)
+    new = sorted(parser.urls - known)
+    return {"status": "NEW_OFFICIAL_BULLETIN_CANDIDATES_REVIEW_REQUIRED" if new else
+                      "NO_NEW_BULLETIN_LINK_CANDIDATES_ON_LISTING_PAGE",
+            "current_listing_bulletin_links": len(parser.urls), "new_official_update_bulletins": new,
+            "limitation": "Only links matching update-bulletin on one Wizards announcements listing; a missing link is not proof no rules changed."}
 
 
 def scryfall_signals(payload: dict, snapshot: dict) -> dict:
@@ -143,6 +179,13 @@ def live_report(baseline, snapshot, getter=fetch):
         report["requires_review"].extend(report["sources"]["official_stories"]["new_story_url_candidates"])
     except (OSError, HTTPError, URLError, ValueError, TimeoutError) as e:
         report["sources"]["official_stories"] = {"status": "SOURCE_UNAVAILABLE", "error": type(e).__name__}
+    try:
+        page, _ = getter(baseline["rules_bulletin_index_url"])
+        report["sources"]["official_rules_bulletins"] = bulletin_signals(
+            page, baseline["rules_bulletin_index_url"], set(baseline["known_official_rules_bulletins"]))
+        report["requires_review"].extend(report["sources"]["official_rules_bulletins"]["new_official_update_bulletins"])
+    except (OSError, HTTPError, URLError, ValueError, TimeoutError) as e:
+        report["sources"]["official_rules_bulletins"] = {"status": "SOURCE_UNAVAILABLE", "error": type(e).__name__}
     try:
         data, _ = getter(baseline["scryfall_bulk_metadata_url"])
         report["sources"]["scryfall"] = scryfall_signals(json.loads(data), snapshot)
@@ -183,6 +226,7 @@ def main():
     if args.validate:
         print(json.dumps({"status": "PASS", "known_official_urls": len(known_story_urls(baseline)),
                           "watched_rules_pages": len(baseline["watch_pages"]),
+                          "watched_rules_bulletins": len(baseline["known_official_rules_bulletins"]),
                           "pinned_snapshot": snapshot["snapshot_id"]}))
         return
     report = live_report(baseline, snapshot)

@@ -51,8 +51,9 @@ class DualTimelineAcceptance(unittest.TestCase):
         item = [r for r in rows if r['task'].startswith('Maintain two separately labeled timelines')]
         self.assertEqual(len(item), 1)
         self.assertTrue(item[0]['checked'])
-        self.assertTrue(all(not r['checked'] for r in rows
-                            if r['section'].startswith('Definition of the first major')))
+        self.assertEqual([r['checked'] for r in rows
+                          if r['section'].startswith('Definition of the first major')],
+                         [True, False, False, True, False, False, False])
         self.assertTrue(all(not r['checked'] for r in rows if r['section'].startswith('Phase 6')))
 
 
