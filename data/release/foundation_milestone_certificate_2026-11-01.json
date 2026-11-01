@@ -1,0 +1,62 @@
+{
+  "schema": "mtg-knowledge-foundation-certificate/v1",
+  "status": "CERTIFIED_BOUNDED_KNOWLEDGE_FOUNDATION_MILESTONE",
+  "certified_on": "2026-11-01",
+  "authorized_by": "Cory's explicit November 1 completion and approval instruction",
+  "scope": "Finite seven-criterion first major Companion knowledge-foundation milestone, with recorded qualified source and feature boundaries; NOT all MTG canon or future Phase 6 decks",
+  "repository": "corymstover/GrokBotMTGCompanion",
+  "verified_candidate_pull_request": 969,
+  "verified_candidate_head": "6911010326cd5707fcd5c7a68076743907624ed9",
+  "verified_merged_main_commit": "188949ddac10d21bc6c069342722c95fd4404d57",
+  "verified_candidate_and_merge_tree": "3aeca7a9cc5db7caf4edaa1ea842125dd168d378",
+  "pre_release_base_commit": "f70a7c44a006e5f76044492cf5497b9517ce55ce",
+  "source_review_sha256": {
+    "data/release/foundation_graph_scope_review_2026-11-01.json": "df067f4dc4fb6cceddb0c070f522149aac1aa04e5955742ad09043835d7ebd2d",
+    "data/release/lookup_rules_scope_review_2026-11-01.json": "b7529ac901fbc72d1ad1ddc475eb2a1d1d0b9f5c639b27a4731d0f9a717ce0f9",
+    "data/release/knowledge_foundation_acceptance.json": "c6e1483b4c080466e2994a24c7626b7c3f806bce4aa1a6827cde22204c8012e3",
+    "data/release/batch_recount_2026-11-01.json": "dae68af6a472fdd9aa242b862c6a906dff381159c2ad06d84d22d902c1bb3dbb",
+    "data/scryfall_snapshots/oct30_to_nov01_2200_release_delta_2026-11-01.json": "fc3b6e83f6af9f4817f99fa08c922ae25030b0e62c0d02281f62b93ecc3982ea"
+  },
+  "foundation_gates": {
+    "priority_enrichment": "SOURCE_BOUNDED_MET",
+    "foundation_graph": "SOURCE_BOUNDED_MET",
+    "lookup_and_rules": "SOURCE_BOUNDED_MET",
+    "set_atlas": "SOURCE_BOUNDED_MET",
+    "knowledge_foundation": "SOURCE_BOUNDED_MET",
+    "grixis_no_regression": "EXTERNALLY_VERIFIED_MET",
+    "ci_and_coverage": "EXTERNALLY_VERIFIED_MET"
+  },
+  "external_verification": {
+    "method": "GitHub compare_commits and public GitHub Actions workflow-run responses, checked live after the relevant heads completed; offline artifact alone cannot authenticate future GitHub state",
+    "protected_path_changes_against_pre_release_main": [],
+    "protected_path_sha256": {
+      "state/current_deck_overrides.json": null,
+      "data/lore_decks/approvals": "b109307718d35bd16f032630bb2604d28aa9270a0c6a05c484a389d1ed0e3f7a",
+      "data/grixis/approvals.json": "991e9e0cd54bedfc9d4a7f58047df3e8e9ce5c50eef0faac2520053088505a45",
+      "data/grixis/exceptions.json": "b603c0bdfa2e895dcacd24131806b8d44f01acc1df8be48c0f6c265649937c69",
+      "data/grixis/dev_snapshot_lock.json": "8b341b4134cc319fab5a93302fbfa935746fad14a0bca540e2bd35307c33e69c"
+    },
+    "candidate_pr_workflows": {
+      "head": "6911010326cd5707fcd5c7a68076743907624ed9",
+      "expected_runs": 14,
+      "conclusion": "success",
+      "run_ids": [41358272651, 41358272746, 41358272793, 41358272699, 41358272758, 41358272850, 41358272770, 41358272693, 41358272882, 41358272657, 41358272741, 41358272679, 41358272743, 41358272687],
+      "focused_grixis_mechanics_run_id": 41358272657,
+      "source_bound_phase8_release_readiness_run_id": 41358272743
+    },
+    "merged_main_workflows": {
+      "head": "188949ddac10d21bc6c069342722c95fd4404d57",
+      "expected_runs": 10,
+      "conclusion": "success",
+      "run_ids": [41358368197, 41358368144, 41358368169, 41358368216, 41358368198, 41358368140, 41358368125, 41358368225, 41358368159, 41358368193]
+    }
+  },
+  "not_certified_or_not_modified": [
+    "Global exhaustive Magic history, official parentage where unknown, unresolved cross-source event order, and unknown current leaders",
+    "Definitive new rulebreaker/meld/DFC gameplay decisions until post-bulletin official Comprehensive Rules text is reconciled",
+    "Future Scryfall bulks, unindexed Oracle cards, all set-story associations, and universal rules simulation",
+    "Ten deferred Phase 6 tasks, three unapproved lore deck pilots, or any modification to the 62 approved archived Grixis decks",
+    "Remaining research, source discovery, owner policy and routine monitoring items in the 137-task project checklist"
+  ],
+  "superseding_untested_commit_claimed": false
+}

@@ -53,7 +53,7 @@ class DualTimelineAcceptance(unittest.TestCase):
         self.assertTrue(item[0]['checked'])
         self.assertEqual([r['checked'] for r in rows
                           if r['section'].startswith('Definition of the first major')],
-                         [True, True, True, True, True, False, False])
+                         [True] * 7)
         self.assertTrue(all(not r['checked'] for r in rows if r['section'].startswith('Phase 6')))
 
 

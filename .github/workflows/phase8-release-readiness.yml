@@ -5,6 +5,7 @@ on:
     paths:
       - 'scripts/release_readiness.py'
       - 'scripts/audit_foundation_graph_scope.py'
+      - 'scripts/audit_foundation_milestone_certificate.py'
       - 'scripts/audit_lookup_rules_scope.py'
       - 'scripts/audit_release_bulk_delta.py'
       - 'scripts/certification_dry_run.py'
@@ -31,6 +32,7 @@ on:
       - 'MTG_MULTIVERSE_MASTER_WORKFLOW.md'
       - 'tests/test_release_readiness.py'
       - 'tests/test_foundation_graph_scope.py'
+      - 'tests/test_foundation_milestone_certificate.py'
       - 'tests/test_lookup_rules_scope.py'
       - 'data/release/**'
       - 'data/multiverse_graph/**'
@@ -94,6 +96,10 @@ jobs:
           python3 scripts/audit_foundation_graph_scope.py --check
           python3 scripts/audit_lookup_rules_scope.py --check
           python3 -m unittest tests.test_foundation_graph_scope tests.test_lookup_rules_scope -v
+      - name: Bounded foundation certificate local invariants (external Actions evidence is SHA-pinned)
+        run: |
+          python3 scripts/audit_foundation_milestone_certificate.py
+          python3 -m unittest tests.test_foundation_milestone_certificate -v
       - name: Tests
         run: |
           python3 -m unittest discover -s tests -p 'test_release_readiness.py' -v

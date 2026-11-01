@@ -78,10 +78,10 @@ class EntityCoverageCensus(unittest.TestCase):
         self.assertEqual(len(audit), 1)
         self.assertTrue(audit[0]['checked'])
         self.assertFalse(next(r for r in rows if r['task'].startswith('Connect cross-plane histories'))['checked'])
-        # v2.99 verifies five *bounded scope* gates, but both exact-CI gates remain open.
+        # v3.00 certifies seven bounded gates with separately witnessed exact-SHA CI.
         self.assertEqual([r['checked'] for r in rows
                           if r['section'].startswith('Definition of the first major')],
-                         [True, True, True, True, True, False, False])
+                         [True] * 7)
         self.assertTrue(all(not r['checked'] for r in rows if r['section'].startswith('Phase 6')))
 
 

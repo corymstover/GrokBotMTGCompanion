@@ -1,6 +1,6 @@
 # MTG Multiverse Companion — Master Workflow & Progress Checklist
 
-**Version:** 2.99
+**Version:** 3.00
 **Checkpoint date:** 2026-11-01
 **Repository:** [corymstover/GrokBotMTGCompanion](https://github.com/corymstover/GrokBotMTGCompanion)  
 **Purpose:** Durable project roadmap and handoff document. Update this file after verified milestone work; do not treat historical figures as live counters.
@@ -22,6 +22,28 @@ foundation release may document inherently unresolved canon and future
 maintenance; it must never claim exhaustive knowledge of all MTG history.
 The 62 approved Grixis decks, their hashes and all owner gates remain intact.
 Only a new explicit request from Cory can override the Phase 6 hold.
+
+**v3.00 finite knowledge-foundation milestone CERTIFIED (2026-11-01):**
+The final two release criteria K136/K137 are checked on *observed external
+evidence*, not on a fabricated offline machine status. [PR #969](https://github.com/corymstover/GrokBotMTGCompanion/pull/969)
+passed **14/14** GitHub workflow runs at exact candidate head `6911010326cd5707fcd5c7a68076743907624ed9`;
+its merge to main `188949ddac10d21bc6c069342722c95fd4404d57`
+passed **10/10** push workflows. The merge/candidate tree is the same
+`3aeca7a9cc5db7caf4edaa1ea842125dd168d378`; GitHub compared **zero**
+changes in the protected Grixis approval/deck paths relative to v2.98, and
+the protected-path hashes match the unchanged archive. The SHA-pinned
+certificate, source hashes and individual workflow run IDs are recorded in
+`data/release/foundation_milestone_certificate_2026-11-01.json` and audited by
+`scripts/audit_foundation_milestone_certificate.py`. **All seven finite
+knowledge-foundation release criteria are satisfied (5 source-bounded,
+2 externally verified). 107/137 project tasks checked; 30 remain open.**
+The read-only `release_readiness.py` intentionally *continues* to call the
+two CI-dependent criteria EXTERNAL because it cannot authenticate current
+GitHub Actions offline; the separate immutable certificate records what was
+verified. This certification does **not** convert disputed genealogy to
+canon, reconcile the post-bulletin comprehensive rules, cover every future
+set/story, or approve any of the three Phase 6 lore pilots. The Phase 6 hold
+is preserved until a separate explicit deckbuilding instruction.
 
 **v2.99 bounded foundation scope review (2026-11-01):** The 5-file Packs
 A/B/C graph scope has now independently passed an owner-authorized, fail-closed
@@ -1323,15 +1345,16 @@ explicitly lifts the hold).
 - [x] Reliable lookup and rules checks backed by current Scryfall and official sources. *(v2.99: SHA-pinned November 1 bulk parity for all 33,894 indexed Oracle UUIDs, published-ruling and supported Commander routes, official September 25 CR plus October 19 update bulletin, fail-closed rulebreaker/meld UNKNOWN results. This is a bounded **dated, source-qualified** capability, not a full current game simulator; see `data/release/lookup_rules_scope_review_2026-11-01.json`.)*
 - [x] A verified Phase 1B set catalog with category-specific counts, set → card and card → set lookups, debut/reprint identification and English export support. *(v2.98: owner accepts the existing `QUALIFIED_OFFLINE_FUNCTIONAL_RELEASE_READY` evidence as a **dated functional** atlas, retaining cross-snapshot metadata/date/source and 555 optional source-queue limitations. This does not assert current November 1 printing parity or globally resolved in-universe chronology; see `data/release/owner_scope_decisions_2026-11-01.json`.)*
 - [x] Source-graded in-universe chronology, broad plane/character/faction history and difficult Q&A coverage reviewed for the documented knowledge-foundation scope, with explicit unresolved gaps. *(v2.99: Cory's authorized scoped acceptance records 626 accounted-for source pages, 17 source-local strands/155 events/126 strict edges/525 evidenced order pairs, and 119 deterministic difficult Q&A cases. Unknown chronology, thin outside-inventory history and post-foundation Phase 6 remain explicit; `data/release/knowledge_foundation_acceptance.json`. This does **not** certify the seven-gate release before exact-head CI.)*
-- [ ] No regression in the 62 archived approved Grixis decks.
-- [ ] Passing focused CI and an up-to-date, source-backed coverage report.
+- [x] No regression in the 62 archived approved Grixis decks. *(v3.00: [PR #969](https://github.com/corymstover/GrokBotMTGCompanion/pull/969) changed zero protected approval/deck paths and preserved their recorded SHA-256 values. Exact-head focused Grixis mechanics Actions run `41358272657` passed; no approved deck or pilot was edited. External evidence is recorded under `data/release/foundation_milestone_certificate_2026-11-01.json`.)*
+- [x] Passing focused CI and an up-to-date, source-backed coverage report. *(v3.00: exact candidate `6911010` passed 14/14 PR workflows, merged `188949d` passed 10/10 push workflows, and the November 1 batch recount and current 22:00 Scryfall replay hashes were independently frozen in the final certificate. The SHA of any subsequent commit requires its own CI and does not inherit this result.)*
 
 **Scope boundary:** This is a **knowledge-foundation release**, not a deck
 release. Graph-built Commander pilots and the Phase 6 deckbuilding workflow
 will be evaluated in their own post-foundation stage. No new lore deck or
-owner deck approval is required for this release. Owner research/canon
-decisions, foundation sign-off, exact-head CI and Grixis protections still
-apply; do not relabel current preliminary research as certified.
+owner deck approval is required for this release. The v3.00 certificate
+attests only the finite seven-criterion foundation milestone; owner canon
+decisions, future exact-head CI and Grixis protections still apply to later
+changes. Do not relabel individual preliminary research packs as certified.
 
 *This is a living workflow, not a claim that all of Magic lore can be declared permanently finished. Preserve this file and revise the verified checkpoint after every substantive work batch.*
 

@@ -125,7 +125,8 @@ def markdown(data: dict) -> str:
     lines = ["# Complete Master Workflow checklist triage — 2026-11-01", "",
              f"**{t['checked']}/{t['items']} checked; {t['open']} open.** "
              + "; ".join(f"{k}: {v}" for k, v in t["by_status"].items()) + ".", "",
-             "This inventory is **not foundation certification**. Deferred Phase 6 tasks remain deliberately blocked, "
+             "This checklist inventory alone is **not a foundation certificate**; the separate v3.00 SHA-pinned "
+             "milestone certificate records external CI. Deferred Phase 6 tasks remain deliberately blocked, "
              "not silently completed; ongoing maintenance and source gaps are included.", "",
              "The machine-readable JSON records every task, its original workflow line, triage, blocker kind and reason.", ""]
     for phase, counts in data["by_phase"].items():
@@ -135,7 +136,7 @@ def markdown(data: dict) -> str:
             lines.append(f"- **{item['id']} · {item['status']} · {item['blocker_kind']}** — {clean}")
             lines.append(f"  - {item['reason']}")
         lines.append("")
-    return "\n".join(lines)
+    return "\n".join(lines).rstrip("\n") + "\n"
 
 
 def main() -> int:
