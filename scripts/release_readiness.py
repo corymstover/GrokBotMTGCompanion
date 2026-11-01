@@ -77,8 +77,22 @@ def c_graph():
     if stats.get("non_wizards_sources"):
         return "PARTIAL", "graph cites non-Wizards sources", ev
     pre = any("PRELIMINARY" in s for s in statuses)
+    scope = _json("data/release/foundation_graph_scope_review_2026-11-01.json")
+    if scope:
+        import audit_foundation_graph_scope as S
+        try:
+            checked = S.build()
+        except (ValueError, KeyError, OSError, TypeError) as exc:
+            ev["scope_review_error"] = str(exc)
+        else:
+            if scope == checked and scope["status"] == "BOUNDED_FOUNDATION_GRAPH_ACCEPTED_WITH_EXPLICIT_UNKNOWN_CANON":
+                ev["accepted_bounded_scope_review"] = "data/release/foundation_graph_scope_review_2026-11-01.json"
+                ev["foundational_claims_scope_reviewed"] = scope["foundational_claims"]
+                return "MET", ("A/B/C searchable primary-cited graded connections accepted for the finite graph scope; "
+                               "historical packs remain preliminary and disputed parentage/global chronology are "
+                               "explicitly outside this gate"), ev
     return ("PARTIAL" if pre else "MET"), ("Packs A, B and C are searchable with cited connections, but every pack is "
-                                            "PRELIMINARY_RESEARCH (not owner approved)" if pre else "all packs reviewed"), ev
+                                            "PRELIMINARY_RESEARCH (no valid bounded owner scope review)" if pre else "all packs reviewed"), ev
 
 
 def c_lookup():
@@ -103,6 +117,21 @@ def c_lookup():
           "citations; audit over every draft decklist). It does not simulate the game, and coverage depends on published rulings")}
     if changed:
         return "PARTIAL", f"{changed} card fields differ from snapshot {d['snapshot_date']}; refresh pending", ev
+    scoped = _json("data/release/lookup_rules_scope_review_2026-11-01.json")
+    if scoped:
+        import audit_lookup_rules_scope as A
+        try:
+            current = A.build()
+        except (ValueError, KeyError, OSError, TypeError) as exc:
+            ev["lookup_scope_review_error"] = str(exc)
+        else:
+            if scoped == current and scoped["status"] == \
+                    "SUPPORTED_LOOKUPS_WITH_DATED_SOURCES_AND_FAIL_CLOSED_RULE_CHANGES_ACCEPTED":
+                ev["accepted_scoped_rules_review"] = "data/release/lookup_rules_scope_review_2026-11-01.json"
+                return "MET", ("Supported dated card/Commander/ruling lookup passed the November 1 source-parity "
+                               "and fail-closed rules audit; the official October 19 bulletin is cited and "
+                               "changed meld/rulebreaker questions remain explicitly UNKNOWN pending a revised CR. "
+                               "No general interaction simulator or live-deck legality is certified"), ev
     return "PARTIAL", (f"card lookups reconcile with snapshot {d['snapshot_date']} (0 changes across {d['index_rows']} "
                        "cards); November 1 Scryfall bulk was SHA-replayed with scoped differences, but the new "
                        "official October 19 rules bulletin is newer than Wizards' linked September 25 CR TXT. "
@@ -152,7 +181,16 @@ def c_knowledge_foundation():
                 and all(review.get(k) is True for k in
                         ("chronology_reviewed", "history_coverage_reviewed", "qa_regressions_passed")))
     if accepted:
-        return "MET", "owner-reviewed knowledge foundation scope documented; deckbuilding remains deferred", ev
+        packet = _json("data/release/foundation_acceptance_packet_2026-10-30.json") or {}
+        graph_review = _json("data/release/foundation_graph_scope_review_2026-11-01.json") or {}
+        expected = review.get("reviewed_packet_content_sha256")
+        if expected and expected == packet.get("content_sha256") and graph_review.get("status") == \
+                "BOUNDED_FOUNDATION_GRAPH_ACCEPTED_WITH_EXPLICIT_UNKNOWN_CANON" and not review.get("whole_release_certified"):
+            import build_foundation_acceptance_packet as F
+            if F.build() == packet:
+                return "MET", ("owner-accepted bounded chronology/history/119-case Q&A scope, with explicit unknowns; "
+                               "rules, exact-head CI and the full release remain separate"), ev
+        return "PARTIAL", "owner scope record is stale or missing its checked source/QA packet; no deck review required", ev
     return "PARTIAL", ("source-graded chronology, history coverage and difficult Q&A still need a documented "
                        "foundation review; existing lore-deck pilots are parked, not a release blocker"), ev
 

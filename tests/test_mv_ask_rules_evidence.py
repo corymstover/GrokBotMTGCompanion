@@ -47,6 +47,15 @@ class RulesEvidenceQuestions(unittest.TestCase):
         self.assertTrue(answer["result"]["comprehensive_rules"]["text"])
         self.assertIn("CR_KEYWORD_EXCERPT_ONLY", answer["flags"])
 
+    def test_meld_and_transform_questions_fail_closed_on_rules_version(self):
+        for q in ("What does meld mean?", "What does transform mean?"):
+            answer = mv_ask.ask(q)
+            self.assertEqual(answer["confidence"], "QUALIFIED")
+            self.assertIn("RULES_UPDATE_AFFECTED_TOPIC_REQUIRES_CURRENT_CR_REVIEW", answer["flags"])
+            self.assertEqual(answer["result"]["current_gameplay_application"],
+                             "UNRESOLVED_PENDING_CURRENT_CR_TEXT_RECONCILIATION")
+            self.assertTrue(any("update-bulletin" in x for x in answer["sources"]))
+
     def test_no_published_ruling_does_not_mean_no_interaction(self):
         answer = mv_ask.ask("How do Sol Ring and Serra Angel interact?")
         self.assertEqual(answer["route"], "ask->rules_evidence:interaction")

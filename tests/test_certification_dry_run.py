@@ -36,15 +36,20 @@ class DryRunTests(unittest.TestCase):
 
     def test_owner_gated_items_are_marked(self):
         rows = {r["id"]: r for r in self.d["release_definition"]}
-        self.assertTrue(rows["knowledge_foundation"]["blocked_by_owner"])
-        self.assertTrue(rows["foundation_graph"]["blocked_by_owner"])
+        self.assertFalse(rows["knowledge_foundation"]["blocked_by_owner"])
+        self.assertFalse(rows["foundation_graph"]["blocked_by_owner"])
+        self.assertEqual(rows["knowledge_foundation"]["machine_status"], "MET")
+        self.assertEqual(rows["foundation_graph"]["machine_status"], "MET")
+        self.assertTrue(rows["grixis_no_regression"]["blockers"])
+        self.assertTrue(rows["ci_and_coverage"]["blockers"])
         self.assertNotIn("reviewed_graph_deck", rows)
 
     def test_foundation_packet_and_scheduled_watch_have_honest_remaining_gates(self):
         rows = {r['id']: r for r in self.d['release_definition']}
         foundation = rows['knowledge_foundation']
         self.assertNotIn('ENGINEERING_OPEN', {b['kind'] for b in foundation['blockers']})
-        self.assertIn('EXTERNAL_CI', {b['kind'] for b in foundation['blockers']})
+        self.assertEqual(foundation['blockers'], [])
+        self.assertIn('EXTERNAL_CI', {b['kind'] for b in rows['ci_and_coverage']['blockers']})
         p8 = self.d['phase8']
         watch = next(r for r in p8 if r['item'].startswith('Monitor new official stories'))
         self.assertEqual({b['kind'] for b in watch['blockers']}, {'ONGOING'})

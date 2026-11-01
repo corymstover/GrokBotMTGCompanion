@@ -10,6 +10,8 @@ import rules_interactions as evidence
 from commander_rules import RULES_BULLETIN
 
 CARD_RULINGS_AS_OF = "2026-10-15"  # committed card shard ruling text, not the newer Oracle drift date
+OCTOBER_RULE_CHANGE_TOPIC = re.compile(r"\b(?:meld(?:ed|ing)?|double[- ]faced|transform(?:ed|ing)?|"
+                                       r"convert(?:ed|ing)?|rulebreaker)\b", re.I)
 _PAIR = [
     re.compile(r"^how (?:does|do) (.+?) interact with (.+?)\??$", re.I),
     re.compile(r"^how do (.+?) and (.+?) interact\??$", re.I),
@@ -32,7 +34,7 @@ def _sources(*names):
     # The card pages are navigational citations; the dated ruling text is read
     # from the committed Scryfall-derived shards named in each result.
     from mv_ask import card
-    urls = [evidence.CR["source_url"]]
+    urls = [evidence.CR["source_url"], RULES_BULLETIN["bulletin"]["url"]]
     for name in names:
         lookup = card(name)
         for url in lookup.get("sources", []):
@@ -42,6 +44,16 @@ def _sources(*names):
 
 
 def _base(query, route, result, flags, names=(), confidence="QUALIFIED", card_evidence=True):
+    affected = bool(OCTOBER_RULE_CHANGE_TOPIC.search(query))
+    if affected:
+        # A September 25 excerpt may directly contradict the subsequent
+        # official bulletin's planned DFC/meld/rulebreaker reorganization.
+        # Preserve its historical citation but never give a current-gameplay
+        # determination from it for these affected subjects.
+        result = {**result, "current_gameplay_application": "UNRESOLVED_PENDING_CURRENT_CR_TEXT_RECONCILIATION",
+                  "post_bulletin_limitation": ("The official October 19 bulletin announced changes to rulebreaker "
+                                              "and meld/double-faced rules; this is the cited September 25 text, "
+                                              "not a verified post-update ruling.")}
     return {"route": "ask->rules_evidence:" + route, "query": query,
             "confidence": confidence,
             "data_as_of": CARD_RULINGS_AS_OF if card_evidence else evidence.CR["effective"],
@@ -50,7 +62,8 @@ def _base(query, route, result, flags, names=(), confidence="QUALIFIED", card_ev
                                               "url": RULES_BULLETIN["bulletin"]["url"],
                                               "status": RULES_BULLETIN["status"]},
             "flags": (["HISTORICAL_RULINGS_SHARD_NOT_LIVE"] if card_evidence else ["DATED_CR_EXCERPT_ONLY"])
-            + ["NO_RULES_SIMULATION", "NEWER_OFFICIAL_RULES_BULLETIN_NOT_IN_CITED_EXCERPT"] + flags,
+            + ["NO_RULES_SIMULATION", "NEWER_OFFICIAL_RULES_BULLETIN_NOT_IN_CITED_EXCERPT"]
+            + (["RULES_UPDATE_AFFECTED_TOPIC_REQUIRES_CURRENT_CR_REVIEW"] if affected else []) + flags,
             "result": result}
 
 

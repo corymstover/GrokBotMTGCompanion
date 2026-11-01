@@ -622,11 +622,12 @@
         "NEWER_OFFICIAL_RULES_BULLETIN_NOT_IN_CITED_EXCERPT"
       ],
       "sources": [
+        "https://magic.wizards.com/en/news/announcements/mystery-booster-commander-edition-update-bulletin",
         "https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt",
         "https://scryfall.com/card/cmm/1053/urzas-tower",
         "https://scryfall.com/card/mh2/259/urzas-saga"
       ],
-      "response_sha256": "2f3d79234c498d96e7e3a1ca9b70be04f669626e43cb7925d27278f712d0a8b9",
+      "response_sha256": "1e1b499e51e3e57938ea62850776bb8c2066123ec57b276d35380b6f3aef6857",
       "direct_claims": null,
       "chronology_relation": null,
       "known_limitations": []
@@ -2560,5 +2561,5 @@
     "python3 scripts/update_multiverse_progress_tracker.py --check"
   ],
   "owner_review_status": "PENDING_NOT_REQUESTED_UNTIL_ENGINEERING_EVIDENCE_AND_CI_COMPLETE",
-  "content_sha256": "e26a41466557711c5b9460a46ce62d77275070bbaeb2edfb2f26615ad2cf2524"
+  "content_sha256": "c4c359ccef1058c89648c63724a4314ff4c141b31bf7de40c54bf0372a4cd3d2"
 }

@@ -61,7 +61,9 @@ def fields(item: dict, kind: str) -> dict:
                 "commander_legality": item.get("legalities", {}).get("commander"),
                 "game_changer": item.get("game_changer"),
                 "oracle_text_digest": text_digest(item), "layout": item.get("layout"),
-                "keywords": item.get("keywords")}
+                # Scryfall may reorder a keyword array without changing the
+                # card's abilities. Treat only membership changes as drift.
+                "keywords": sorted(item.get("keywords") or [])}
     if kind == "default-cards":
         return {k: item.get(k) for k in PRINT_FIELDS}
     raise ValueError(kind)

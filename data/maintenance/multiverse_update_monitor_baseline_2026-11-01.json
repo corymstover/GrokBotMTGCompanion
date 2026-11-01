@@ -5,7 +5,7 @@
   "story_index_url": "https://magic.wizards.com/en/news/magic-story",
   "story_inventory_sources": ["data/story_index.csv", "data/story_extra_sources.csv"],
   "scryfall_bulk_metadata_url": "https://api.scryfall.com/bulk-data",
-  "active_snapshot_manifest": "data/scryfall_snapshots/snap-20261101-live-20261101.manifest.json",
+  "active_snapshot_manifest": "data/scryfall_snapshots/snap-20261101-2200-live-20261101.manifest.json",
   "rules_bulletin_index_url": "https://magic.wizards.com/en/news/announcements",
   "known_official_rules_bulletins": [
     "https://magic.wizards.com/en/news/announcements/mystery-booster-commander-edition-update-bulletin"

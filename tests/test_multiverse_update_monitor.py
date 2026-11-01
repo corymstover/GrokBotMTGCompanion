@@ -78,7 +78,7 @@ class SourceMonitorTests(unittest.TestCase):
         self.assertEqual(report["requires_review"], [])
 
     def test_active_snapshot_is_hash_pinned_and_owner_gates_untouched(self):
-        self.assertEqual(self.snapshot["snapshot_id"], "snap-20261101-live-20261101")
+        self.assertEqual(self.snapshot["snapshot_id"], "snap-20261101-2200-live-20261101")
         self.assertEqual(len(self.snapshot["files"]["default-cards"]["sha256"]), 64)
         self.assertIn("Never auto-ingest", self.baseline["policy"])
 

@@ -41,10 +41,16 @@ class ReadinessTests(unittest.TestCase):
         if ev["remaining"]:
             self.assertEqual(c["status"], "PARTIAL")
 
-    def test_preliminary_packs_cannot_be_met(self):
+    def test_preliminary_pack_status_does_not_override_a_verified_bounded_owner_review(self):
         c = next(c for c in self.r["criteria"] if c["id"] == "foundation_graph")
         if any("PRELIMINARY" in s for s in c["evidence"].get("pack_statuses", [])):
-            self.assertNotEqual(c["status"], "MET")
+            self.assertEqual(c["status"], "MET")
+            self.assertIn("accepted_bounded_scope_review", c["evidence"])
+            self.assertIn("global chronology", c["note"])
+            real = R._json
+            with mock.patch.object(R, "_json", side_effect=lambda rel: None if rel ==
+                                   "data/release/foundation_graph_scope_review_2026-11-01.json" else real(rel)):
+                self.assertEqual(R.c_graph()[0], "PARTIAL")
 
     def test_missing_pack_is_not_met(self):
         real = R._json
@@ -69,14 +75,14 @@ class ReadinessTests(unittest.TestCase):
         self.assertNotIn("deck approval", c["note"].lower())
 
     def test_foundation_acceptance_requires_explicit_scope_and_three_reviews(self):
-        review = {"status": "OWNER_ACCEPTED", "scope": "KNOWLEDGE_FOUNDATION_ONLY",
-                  "chronology_reviewed": True, "history_coverage_reviewed": True,
-                  "qa_regressions_passed": True}
+        review = R._json("data/release/knowledge_foundation_acceptance.json")
+        self.assertEqual(review["status"], "OWNER_ACCEPTED")
+        self.assertFalse(review["whole_release_certified"])
         real = R._json
         with mock.patch.object(R, "_json", side_effect=lambda rel: review if rel ==
                                "data/release/knowledge_foundation_acceptance.json" else real(rel)):
             self.assertEqual(R.c_knowledge_foundation()[0], "MET")
-        review["qa_regressions_passed"] = False
+        review = dict(review, qa_regressions_passed=False)
         with mock.patch.object(R, "_json", side_effect=lambda rel: review if rel ==
                                "data/release/knowledge_foundation_acceptance.json" else real(rel)):
             self.assertEqual(R.c_knowledge_foundation()[0], "PARTIAL")
