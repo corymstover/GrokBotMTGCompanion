@@ -16,6 +16,7 @@ existing files are skipped unless --refresh; each file is written atomically (sc
 an interrupted run never leaves a partial page. Pages that fail are listed at the end (exit code 1).
 
   python3 scripts/fetch_story_pages.py [--refresh|--repair] [--delay 1.0] [--only SUBSTRING]
+  python3 scripts/fetch_story_pages.py --arc SOI/EMN --delay 0.1
   python3 scripts/fetch_story_pages.py --start-index 221 --end-index 440 --delay 1.0
 """
 import atomic_io  # noqa: F401  atomic Path.write_text (Bot cycle 34)
@@ -95,6 +96,7 @@ def main(argv=None):
     ap.add_argument("--repair", action="store_true", help="refetch only missing, short, or invalid cached pages")
     ap.add_argument("--delay", type=float, default=1.0)
     ap.add_argument("--only", default="")
+    ap.add_argument("--arc", default="", help="fetch only story sources matching this exact inventory arc")
     ap.add_argument("--start-index", type=int, default=1, help="1-based inclusive inventory position for resumable range fetch")
     ap.add_argument("--end-index", type=int, default=None, help="1-based inclusive inventory position; default all")
     a = ap.parse_args(argv)
@@ -103,7 +105,7 @@ def main(argv=None):
     if a.start_index < 1 or (a.end_index is not None and a.end_index < a.start_index):
         ap.error("invalid inventory range")
     # Share exactly the same URL inventory and path mapping as the auditor.
-    all_jobs = [job for job in inventory() if a.only in job["url"]]
+    all_jobs = [job for job in inventory() if a.only in job["url"] and (not a.arc or job["arc"] == a.arc)]
     jobs = all_jobs[a.start_index - 1:a.end_index]
     TEXT.mkdir(parents=True, exist_ok=True)
     ART.mkdir(parents=True, exist_ok=True)

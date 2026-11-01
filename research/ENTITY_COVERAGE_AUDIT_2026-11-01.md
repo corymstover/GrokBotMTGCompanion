@@ -2,14 +2,14 @@
 
 **2026-11-01 · source-graded coverage and explicit gaps, NOT a complete canon census.**
 
-**839 registered entities** across the five audited node types; **4** without a direct cited claim and **139** with only qualified direct claims.
+**839 registered entities** across the five audited node types; **0** without a direct cited claim and **139** with only qualified direct claims.
 
 | Graph type | Registered | With direct claim | No direct claim | Qualified-only | One confirmed direct claim |
 | --- | ---: | ---: | ---: | ---: | ---: |
 | Plane | 33 | 33 | 0 | 1 | 0 |
-| Place | 112 | 109 | 3 | 14 | 65 |
+| Place | 112 | 112 | 0 | 14 | 67 |
 | Faction | 156 | 156 | 0 | 28 | 68 |
-| Object | 54 | 53 | 1 | 9 | 19 |
+| Object | 54 | 54 | 0 | 9 | 20 |
 | Character | 484 | 484 | 0 | 87 | 157 |
 
 ## Review priority (connectivity is not canonical importance)

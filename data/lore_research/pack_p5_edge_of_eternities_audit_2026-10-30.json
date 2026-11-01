@@ -3,15 +3,15 @@
  "pack": "data/lore_research/pack_p5_edge_of_eternities_2026-10-30.json",
  "pack_status": "PRELIMINARY_RESEARCH (not owner approved, not certified)",
  "arc": "EOE",
- "claims": 30,
+ "claims": 31,
  "entities": 34,
  "sources": 18,
  "grades": {
-  "CANON_CONFIRMED": 20,
+  "CANON_CONFIRMED": 21,
   "CANON_IMPLIED": 10
  },
- "quotes": 51,
- "quotes_verbatim": 51,
+ "quotes": 52,
+ "quotes_verbatim": 52,
  "quote_rows": [
   {
    "claim": "EO001",
@@ -318,9 +318,15 @@
    "source_id": "eoe_ep2",
    "quote_sha256": "2d7afe8c6da3a060783fb929691b88a5310b5d0cec79f72c8a1088323744a73b",
    "status": "VERBATIM"
+  },
+  {
+   "claim": "EO031",
+   "source_id": "eoe_legends",
+   "quote_sha256": "21c01497077838c5f8c2a27b899fb955d112fc1f449b03ce0a27a61be457c749",
+   "status": "VERBATIM"
   }
  ],
  "problems": [],
  "note": "Verbatim-quote audit against cached official Wizards story text. Research evidence only: not owner approval, not certification, not an exhaustive reading.",
- "content_sha256": "e0c0647eaf203037fc025d19efe7e81534a6e2d1ce6ffe8881ecf97df4834097"
+ "content_sha256": "2c3acfca6f791d39f467f317a83e971686d0dd25f683d78e90fa59dfca23ddc6"
 }

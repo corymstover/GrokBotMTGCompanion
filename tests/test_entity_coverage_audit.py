@@ -26,17 +26,30 @@ class EntityCoverageCensus(unittest.TestCase):
             self.assertEqual(stats['registered'], sum(stats['gap_counts'].values()), kind)
             self.assertEqual(stats['registered'], stats['with_any_direct_claim'] + stats['without_direct_claim'])
 
-    def test_no_direct_source_is_not_fabricated(self):
+    def test_all_registered_entities_have_direct_official_sources(self):
         no_proof = [n for n in self.report['all_registered_entities']
                     if n['gap'] == 'NO_DIRECT_CITED_CLAIM']
-        self.assertEqual(self.report['nodes_without_direct_claim'], 4)
-        self.assertEqual({n['id'] for n in no_proof},
-                         {'place:ardenvale', 'place:riders_lock',
-                          'place:sotheran_supervoid', 'artifact:great_henge'})
-        for node in no_proof:
-            self.assertEqual(node['direct_distinct_claim_count'], 0)
-            self.assertEqual(node['official_source_urls'], [])
+        self.assertEqual(self.report['nodes_without_direct_claim'], 0)
+        self.assertEqual(no_proof, [])
         self.assertEqual(self.report['nodes_with_only_qualified_direct_claims'], 139)
+
+    def test_four_prior_evidence_gaps_are_resolved_by_specific_official_claims(self):
+        by_id = {row['id']: row for row in self.report['all_registered_entities']}
+        expected = {
+            'place:ardenvale': ('EL012', 'feature/planeswalkers-guide-eldraine-2019-10-31'),
+            'artifact:great_henge': ('EL013', 'feature/planeswalkers-guide-eldraine-2019-10-31'),
+            'place:riders_lock': ('SE037', 'magic-story/games-2016-04-27'),
+            'place:sotheran_supervoid': ('EO031', 'magic-story/the-legends-of-edge-of-eternities'),
+        }
+        for node_id, (claim_id, source_suffix) in expected.items():
+            with self.subTest(node_id=node_id):
+                row = by_id[node_id]
+                self.assertIn(claim_id, row['direct_claim_ids'])
+                self.assertIn('CANON_CONFIRMED', row['direct_grades'])
+                self.assertEqual(row['direct_distinct_claim_count'], 1)
+                self.assertEqual(row['gap'], 'ONE_DIRECT_CLAIM_ONLY')
+                self.assertEqual(len(row['official_source_urls']), 1)
+                self.assertTrue(row['official_source_urls'][0].endswith(source_suffix))
 
     def test_every_direct_claim_citation_is_exact_first_party_and_graded(self):
         for node in self.report['all_registered_entities']:

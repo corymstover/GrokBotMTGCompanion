@@ -35143,6 +35143,22 @@
    "card": "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
    "oracle_id": "55e4b27e-5447-4fc2-8cae-a03e344600c6",
    "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SE037",
+   "pack": "pack_p5_shadows_eldritch_moon_2026-10-30.json",
+   "participant": "gisa",
+   "card": "Gisa, Glorious Resurrector",
+   "oracle_id": "f1354b1b-896c-4492-b0c0-3dd07c6d3917",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SE037",
+   "pack": "pack_p5_shadows_eldritch_moon_2026-10-30.json",
+   "participant": "gisa",
+   "card": "Gisa, the Hellraiser",
+   "oracle_id": "696363c9-e8a7-4c65-b65c-4a94891ec43d",
+   "tier": "NAMED_PARTICIPANT"
   }
  ],
  "by_pack": {
@@ -35308,7 +35324,7 @@
    "NAMED_PARTICIPANT": 10
   },
   "pack_p5_edge_of_eternities_2026-10-30.json": {
-   "claims": 30,
+   "claims": 31,
    "claims_anchored": 20,
    "ART_IN_CITED_SOURCE": 0,
    "PRINTED_IN_STORY_SET": 45,
@@ -35483,11 +35499,11 @@
    "NAMED_PARTICIPANT": 75
   },
   "pack_p5_shadows_eldritch_moon_2026-10-30.json": {
-   "claims": 36,
-   "claims_anchored": 34,
+   "claims": 37,
+   "claims_anchored": 35,
    "ART_IN_CITED_SOURCE": 15,
    "PRINTED_IN_STORY_SET": 6,
-   "NAMED_PARTICIPANT": 71
+   "NAMED_PARTICIPANT": 73
   },
   "pack_p5_snc_side_stories_2026-10-30.json": {
    "claims": 5,
@@ -35546,7 +35562,7 @@
    "NAMED_PARTICIPANT": 10
   },
   "pack_p5_throne_of_eldraine_2026-10-30.json": {
-   "claims": 11,
+   "claims": 13,
    "claims_anchored": 7,
    "ART_IN_CITED_SOURCE": 0,
    "PRINTED_IN_STORY_SET": 4,
@@ -35694,12 +35710,12 @@
   }
  },
  "counts": {
-  "claims": 1259,
-  "claims_anchored": 979,
-  "anchors": 4125,
+  "claims": 1263,
+  "claims_anchored": 980,
+  "anchors": 4127,
   "ART_IN_CITED_SOURCE": 123,
   "PRINTED_IN_STORY_SET": 546,
-  "NAMED_PARTICIPANT": 3456
+  "NAMED_PARTICIPANT": 3458
  },
- "content_sha256": "e8be66a95f6d56eae1bef4325e09b8b219d89f4fd89179a7b7222d2f61022906"
+ "content_sha256": "91ea7cc2266c6a72f0500eb9297fbf8996d9fc7ac5b1e5fb0ffcc913bec2c76e"
 }

@@ -25,6 +25,7 @@ to a current claim, participant and card-name anchor.
 from __future__ import annotations
 
 import argparse
+import copy
 import glob
 import gzip
 import hashlib
@@ -265,12 +266,81 @@ def append_unmapped_packs(cur: dict) -> dict:
     return result
 
 
+def append_same_source_claims(cur: dict, new_claim_ids: set[str]) -> dict:
+    """Snapshot-free append of explicit suffix claims with *reused* same-source tiers.
+
+    No novel card/printing inference is permitted. Every new claim-card anchor
+    must inherit the tier of an existing claim in the same pack, with exactly
+    the same cited page URLs and participant/card. Otherwise require the locked
+    Scryfall snapshot for a full rebuild.
+    """
+    expected: dict[str, list[tuple[dict, dict]]] = {}
+    for pack, claim, reg in claims():
+        expected.setdefault(pack, []).append((claim, reg))
+    if set(expected) != set(cur['by_pack']):
+        raise ValueError('pack inventory changed; full rebuild required')
+    result = copy.deepcopy(cur)
+    names = json.loads(NAMES.read_text(encoding='utf-8'))
+    by_entity = {x['entity']: x['cards'] for x in names['anchors']}
+    covered = set()
+    for pack, specs in expected.items():
+        old_count = cur['by_pack'][pack]['claims']
+        if len(specs) < old_count:
+            raise ValueError(f'{pack} lost claims; full rebuild required')
+        old, added = specs[:old_count], specs[old_count:]
+        added_ids = {claim['id'] for claim, _ in added}
+        if len(added_ids) != len(added) or added_ids & covered:
+            raise ValueError(f'{pack}: duplicate appended claim IDs')
+        covered.update(added_ids)
+        # An existing ID's card rows must still match its participants.
+        prior = {c['id']: (c, reg) for c, reg in old}
+        for c, reg in added:
+            urls = {reg[s]['url'] for s in c.get('source_ids', [])}
+            added_rows = []
+            for ent in participants(c):
+                for card in by_entity.get(ent, []):
+                    candidates = []
+                    for old_id, (old_claim, old_reg) in prior.items():
+                        old_urls = {old_reg[s]['url'] for s in old_claim.get('source_ids', [])}
+                        if ent not in participants(old_claim) or urls != old_urls:
+                            continue
+                        candidates += [row for row in cur['anchors']
+                                       if row['pack'] == pack and row['claim'] == old_id
+                                       and row['participant'] == ent and row['oracle_id'] == card['oracle_id']]
+                    if not candidates or any(row['tier'] != candidates[0]['tier'] for row in candidates):
+                        raise ValueError(f'{c["id"]}/{ent}: missing or conflicting same-source card tier; '
+                                         'full Scryfall snapshot rebuild required')
+                    copied = copy.deepcopy(candidates[0])
+                    copied['claim'] = c['id']
+                    added_rows.append(copied)
+            result['anchors'].extend(added_rows)
+            stats = result['by_pack'][pack]
+            stats['claims'] += 1
+            stats['claims_anchored'] += bool(added_rows)
+            for row in added_rows:
+                stats[row['tier']] += 1
+    if covered != new_claim_ids or not covered:
+        raise ValueError(f'explicit append IDs differ: actual={sorted(covered)}, supplied={sorted(new_claim_ids)}')
+    result['counts'] = {
+        'claims': sum(x['claims'] for x in result['by_pack'].values()),
+        'claims_anchored': sum(x['claims_anchored'] for x in result['by_pack'].values()),
+        'anchors': len(result['anchors']),
+        **{t: sum(r['tier'] == t for r in result['anchors']) for t in TIERS},
+    }
+    result['content_sha256'] = sha({k: v for k, v in result.items() if k != 'content_sha256'})
+    if structural_problems(result) or coverage_problems(result):
+        raise ValueError('same-source append failed structural or coverage validation')
+    return result
+
+
 def main(argv=None) -> int:
     p = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     p.add_argument("--check", action="store_true")
     p.add_argument("--append-unmapped-packs", action="store_true")
+    p.add_argument("--append-same-source-claims", nargs='+', metavar='CLAIM_ID',
+                   help='append only named suffix claims, reusing exactly matched prior source/card tiers')
     a = p.parse_args(argv)
-    if a.check or a.append_unmapped_packs:
+    if a.check or a.append_unmapped_packs or a.append_same_source_claims:
         cur = json.loads(OUT.read_text(encoding="utf-8"))
         if sha({k: v for k, v in cur.items() if k != "content_sha256"}) != cur.get("content_sha256"):
             print("FAIL: claim card anchors self-hash mismatch"); return 1
@@ -284,6 +354,14 @@ def main(argv=None) -> int:
                 print(f'FAIL: {exc}'); return 1
             OUT.write_text(json.dumps(updated, indent=1, ensure_ascii=False) + "\n", encoding='utf-8')
             print(f"PASS appended non-set packs without rewriting historical tiers: {updated['counts']}")
+            return 0
+        if a.append_same_source_claims:
+            try:
+                updated = append_same_source_claims(cur, set(a.append_same_source_claims))
+            except ValueError as exc:
+                print(f'FAIL: {exc}'); return 1
+            OUT.write_text(json.dumps(updated, indent=1, ensure_ascii=False) + "\n", encoding='utf-8')
+            print(f"PASS appended same-source claims without Scryfall tier guesses: {updated['counts']}")
             return 0
         coverage = coverage_problems(cur)
         if coverage:

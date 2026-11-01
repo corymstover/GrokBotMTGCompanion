@@ -7,7 +7,7 @@
   "HYPOTHETICAL": "Creative or deckbuilding connection; never canon.",
   "OPEN_QUESTION": "Primary sources leave the matter unresolved; do not assert either way."
  },
- "content_sha256": "9014f4bf0d6358fc7e5b615ac04f525a73e098494d238039b6f9175eba3364c3",
+ "content_sha256": "51050774c26b272984b92e2d01921d218f279d0852a6c5d6e465ac742994e010",
  "edges": [
   {
    "artists": [
@@ -20708,6 +20708,30 @@
    "to": "plane:eldraine"
   },
   {
+   "claim": "EL012",
+   "era": "eldraine_eld_2019",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "place:ardenvale",
+   "grade": "CANON_CONFIRMED",
+   "relation": "home_of",
+   "sources": [
+    "eld_guide"
+   ],
+   "to": "character:high_king_kenrith"
+  },
+  {
+   "claim": "EL013",
+   "era": "eldraine_eld_2019",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "artifact:great_henge",
+   "grade": "CANON_CONFIRMED",
+   "relation": "located_at",
+   "sources": [
+    "eld_guide"
+   ],
+   "to": "place:garenbrig"
+  },
+  {
    "claim": "EO001",
    "era": "eoe_prologue_2025",
    "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
@@ -21075,6 +21099,18 @@
     "eoe_ep2"
    ],
    "to": "place:chopright_colony"
+  },
+  {
+   "claim": "EO031",
+   "era": "sothera_eoe_2025",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "artifact:dawnsire",
+   "grade": "CANON_CONFIRMED",
+   "relation": "intended_to_reignite",
+   "sources": [
+    "eoe_legends"
+   ],
+   "to": "place:sotheran_supervoid"
   },
   {
    "claim": "FMP001",
@@ -27294,6 +27330,18 @@
     "soi_sacrifice"
    ],
    "to": "place:nephalia"
+  },
+  {
+   "claim": "SE037",
+   "era": "innistrad_soi_emn_2016",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:gisa",
+   "grade": "CANON_CONFIRMED",
+   "relation": "imprisoned_at",
+   "sources": [
+    "soi_games"
+   ],
+   "to": "place:riders_lock"
   },
   {
    "claim": "SN001",
@@ -41106,6 +41154,30 @@
    "to": "faction:eldraine_elves"
   },
   {
+   "from": "claim:EL012",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:high_king_kenrith"
+  },
+  {
+   "from": "claim:EL012",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "place:ardenvale"
+  },
+  {
+   "from": "claim:EL013",
+   "relation": "asserts",
+   "role": "object",
+   "to": "place:garenbrig"
+  },
+  {
+   "from": "claim:EL013",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "artifact:great_henge"
+  },
+  {
    "from": "claim:EO001",
    "relation": "asserts",
    "role": "object",
@@ -41464,6 +41536,18 @@
    "relation": "asserts",
    "role": "subject",
    "to": "character:sami"
+  },
+  {
+   "from": "claim:EO031",
+   "relation": "asserts",
+   "role": "object",
+   "to": "place:sotheran_supervoid"
+  },
+  {
+   "from": "claim:EO031",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "artifact:dawnsire"
   },
   {
    "from": "claim:FMP001",
@@ -47482,6 +47566,18 @@
    "relation": "asserts",
    "role": "subject",
    "to": "place:lake_zhava"
+  },
+  {
+   "from": "claim:SE037",
+   "relation": "asserts",
+   "role": "object",
+   "to": "place:riders_lock"
+  },
+  {
+   "from": "claim:SE037",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:gisa"
   },
   {
    "from": "claim:SN001",
@@ -54791,6 +54887,16 @@
    "to": "claim:EL011"
   },
   {
+   "from": "source:eld_guide",
+   "relation": "cited_by",
+   "to": "claim:EL012"
+  },
+  {
+   "from": "source:eld_guide",
+   "relation": "cited_by",
+   "to": "claim:EL013"
+  },
+  {
    "from": "source:emn_battle_thraben",
    "relation": "cited_by",
    "to": "claim:SE032"
@@ -55369,6 +55475,11 @@
    "from": "source:eoe_legends",
    "relation": "cited_by",
    "to": "claim:EO009"
+  },
+  {
+   "from": "source:eoe_legends",
+   "relation": "cited_by",
+   "to": "claim:EO031"
   },
   {
    "from": "source:eoe_wefthunter",
@@ -62419,6 +62530,11 @@
    "to": "claim:SE020"
   },
   {
+   "from": "source:soi_games",
+   "relation": "cited_by",
+   "to": "claim:SE037"
+  },
+  {
    "from": "source:soi_gaze",
    "relation": "cited_by",
    "to": "claim:SE035"
@@ -65371,10 +65487,10 @@
     "sources": 6
    },
    {
-    "claims": 30,
+    "claims": 31,
     "entities": 34,
     "file": "data/lore_research/pack_p5_edge_of_eternities_2026-10-30.json",
-    "sha256": "1940a7b1006c4b21ad4fc46ce1ff13f2449e7db36047b05daef53d3eaaec4894",
+    "sha256": "21c982027414c549e83441873bbb223b8bc39d29ac8ae258e3a713ddfeaf0583",
     "sources": 18
    },
    {
@@ -65476,10 +65592,10 @@
     "sources": 2
    },
    {
-    "claims": 11,
+    "claims": 13,
     "entities": 19,
     "file": "data/lore_research/pack_p5_throne_of_eldraine_2026-10-30.json",
-    "sha256": "c18267fe39acea5eacd64270cc54fad7dbc7c5ff99b6b112b588c867a8a232f3",
+    "sha256": "477fe6f8c964179eda6905858f1812d9d33df1dc9be96108557a61aaa82e3a62",
     "sources": 1
    },
    {
@@ -65490,10 +65606,10 @@
     "sources": 14
    },
    {
-    "claims": 36,
+    "claims": 37,
     "entities": 39,
     "file": "data/lore_research/pack_p5_shadows_eldritch_moon_2026-10-30.json",
-    "sha256": "9a60610c0837201a31b316d3f7bae0eaf028eb1c0311a8505f73846ae9b21a37",
+    "sha256": "e0e5f7f4941e0480ca1d0017ed009f890491e2f2827b3e84acf1034b2888eba1",
     "sources": 21
    },
    {
@@ -90712,6 +90828,29 @@
   },
   {
    "grade": "CANON_CONFIRMED",
+   "id": "claim:EL012",
+   "limitation": "'The castle' is identified as Ardenvale in the same official guide paragraph; this does not establish its later political status.",
+   "name": "Castle Ardenvale is the home of High King Kenrith and Queen Linden's family.",
+   "origins": [
+    "pack_p5_throne_of_eldraine_2026-10-30.json"
+   ],
+   "predicate": "home_of",
+   "stage": "eldraine_eld_2019",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:EL013",
+   "name": "The Great Henge is Garenbrig's monumental relic and forms the main bulk of the court.",
+   "origins": [
+    "pack_p5_throne_of_eldraine_2026-10-30.json"
+   ],
+   "predicate": "located_at",
+   "stage": "eldraine_eld_2019",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
    "id": "claim:EO001",
    "name": "After the Phyrexian invasion, Tezzeret was ejected from the Blind Eternities into the Edge by unknown means.",
    "origins": [
@@ -91051,6 +91190,18 @@
     "pack_p5_edge_of_eternities_2026-10-30.json"
    ],
    "predicate": "explored",
+   "stage": "sothera_eoe_2025",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:EO031",
+   "limitation": "The story states a mission goal, not that the supervoid was actually reignited or what its underlying nature is.",
+   "name": "The Dawnsire is intended to reignite the Sotheran supervoid, a goal the Monoists oppose.",
+   "origins": [
+    "pack_p5_edge_of_eternities_2026-10-30.json"
+   ],
+   "predicate": "intended_to_reignite",
    "stage": "sothera_eoe_2025",
    "type": "Claim"
   },
@@ -96743,6 +96894,18 @@
     "pack_p5_shadows_eldritch_moon_2026-10-30.json"
    ],
    "predicate": "located_in",
+   "stage": "innistrad_soi_emn_2016",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:SE037",
+   "limitation": "This attests a historical detention, not that Rider's Lock remains a functioning prison today.",
+   "name": "After the siege of Thraben, Gisa was held prisoner in Rider's Lock.",
+   "origins": [
+    "pack_p5_shadows_eldritch_moon_2026-10-30.json"
+   ],
+   "predicate": "imprisoned_at",
    "stage": "innistrad_soi_emn_2016",
    "type": "Claim"
   },
@@ -122164,17 +122327,17 @@
  "problems": [],
  "schema": "multiverse-claim-graph/v1",
  "stats": {
-  "claim_edges_with_era": 1302,
+  "claim_edges_with_era": 1306,
   "claim_edges_with_in_universe_date": 36,
   "claims_by_status": {
    "ALTERNATE_CONTINUITY": 7,
-   "CANON_CONFIRMED": 988,
+   "CANON_CONFIRMED": 992,
    "CANON_DISPUTED": 8,
    "CANON_IMPLIED": 253,
    "OPEN_QUESTION": 3
   },
   "curated_bridges": 136,
-  "edges": 8489,
+  "edges": 8505,
   "exact_art_printings": 560,
   "literal_objects": 14,
   "node_types": {
@@ -122183,7 +122346,7 @@
    "CardRepresentation": 560,
    "CardTheme": 1,
    "Character": 484,
-   "Claim": 1259,
+   "Claim": 1263,
    "Concept": 193,
    "DeckProposal": 3,
    "Event": 35,
@@ -122194,9 +122357,9 @@
    "Plane": 33,
    "Source": 635
   },
-  "nodes": 5306,
+  "nodes": 5310,
   "non_wizards_sources": 0,
-  "relations": 471,
+  "relations": 473,
   "wizards_official_sources": 635
  }
 }
