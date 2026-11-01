@@ -1,7 +1,7 @@
 # MTG Multiverse Companion — Master Workflow & Progress Checklist
 
-**Version:** 2.87
-**Checkpoint date:** 2026-10-31
+**Version:** 2.88
+**Checkpoint date:** 2026-11-01
 **Repository:** [corymstover/GrokBotMTGCompanion](https://github.com/corymstover/GrokBotMTGCompanion)  
 **Purpose:** Durable project roadmap and handoff document. Update this file after verified milestone work; do not treat historical figures as live counters.
 
@@ -1246,3 +1246,32 @@ The original 137 checklist task lines are untouched: **89 checked, 48 open,
 NOT_RELEASE_READY**. Phase 6 stays parked and all 62 approved Grixis decks
 remain unchanged. See
 `research/PHASE4_AMONKHET_RAVNICA_BRIDGE_CHRONOLOGY_2026-10-31.md`.
+
+## v2.88 engineering addendum — joined card/lore/Commander evidence (2026-11-01)
+
+The normal Phase 7 Q&A route can now answer bounded questions combining
+**one exact indexed card, its named lore subject(s) and official Commander
+eligibility evidence**. The join uses the card's exact **Oracle UUID** in
+the registered graph; `names_entity` is explicitly *navigation only*, never
+proof of a card-art scene or in-universe era. Named subject histories list
+their direct claim counts and up to eight separately cited, graded claims
+per subject, with omitted-claim counts and disclosed disputes. Cards without
+this explicit name bridge receive an honest absence flag, while ambiguous
+duplicate Oracle anchors fail closed.
+
+Commander checks distinguish a card's dated Scryfall `legal` field from
+whether the card can actually be designated commander under the archived
+2026-09-25 CR. Example: **Ugin, the Spirit Dragon** is marked format-legal
+as a card but is **not** an eligible commander. The combined answer remains
+`QUALIFIED`, carries the 2026-10-15 shard/legality dates and official CR
+effective date, and neither recommends decks nor simulates interactions.
+Six adversarial tests cover Ugin, a unique Nicol Bolas double-face, missing
+card/subject links, ambiguity and citation completeness. The Phase 7 Action
+exercises the integration, and the regenerated foundation acceptance packet
+has **83 representative Q&A cases, NOT CERTIFIED**. The broader integrated
+research, current Oracle checks and difficult-Q&A tasks remain open.
+
+No original checklist item is falsely checked: **89/137 checked, 48 open,
+NOT_RELEASE_READY**. The 62 approved Grixis decks, historical snapshot locks,
+three parked pilots and owner gates remain unchanged. See
+`research/PHASE7_CARD_LORE_COMMANDER_EVIDENCE_2026-11-01.md`.
