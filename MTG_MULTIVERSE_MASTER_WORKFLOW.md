@@ -1,6 +1,6 @@
 # MTG Multiverse Companion — Master Workflow & Progress Checklist
 
-**Version:** 2.88
+**Version:** 2.89
 **Checkpoint date:** 2026-11-01
 **Repository:** [corymstover/GrokBotMTGCompanion](https://github.com/corymstover/GrokBotMTGCompanion)  
 **Purpose:** Durable project roadmap and handoff document. Update this file after verified milestone work; do not treat historical figures as live counters.
@@ -1275,3 +1275,31 @@ No original checklist item is falsely checked: **89/137 checked, 48 open,
 NOT_RELEASE_READY**. The 62 approved Grixis decks, historical snapshot locks,
 three parked pilots and owner gates remain unchanged. See
 `research/PHASE7_CARD_LORE_COMMANDER_EVIDENCE_2026-11-01.md`.
+
+## v2.89 engineering addendum — set release/story-series navigation (2026-11-01)
+
+The Phase 7 natural-language entry point now offers a **bounded, explicitly
+qualified Phase 1B → official story-series navigation route**. For a uniquely
+resolved set code or exact catalogued name, it separates the Scryfall Set API
+`released_at` metadata from **published dates of directly linked Wizards
+story pages**. The joined evidence is limited to the 12 release-title matches
+already recorded in the immutable Phase 1B story bridge. The example
+**The Brothers' War** has a set metadata date of 2022-11-18 and official
+story pages published as early as 2022-10-20; those are **real-world dates**,
+not an inferred in-universe event order or proof of specific card art.
+
+Three source-safe outcomes are distinguished: verified publication-title
+link with up to three individually cited story pages and a disclosed total;
+known set with **no link in the bounded index** (not a claim no story exists);
+and an unknown/ambiguous set that fails closed without invented story evidence.
+Five new Set Atlas regression tests check these boundaries and preserve
+the existing lore/rules routes. Three acceptance Q&A cases bring the packet
+to **86 representative cases, NOT CERTIFIED**. This is progress on open
+Set Atlas/storyline navigation and hard-Q&A requirements, not an assertion
+that all 1,062 set codes have documented stories or that published order
+proves in-world chronology.
+
+All original task checkboxes remain honest: **89/137 checked, 48 open,
+NOT_RELEASE_READY**. Phase 6 and its three pilots remain parked; the 62
+approved Grixis decks and historical snapshot locks are unchanged. See
+`research/PHASE7_SET_STORY_NAVIGATION_EVIDENCE_2026-11-01.md`.

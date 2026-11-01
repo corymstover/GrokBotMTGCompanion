@@ -93,6 +93,51 @@ class SetAtlasAskTests(unittest.TestCase):
         self.assertEqual(ask.ask("Who is Urza's brother?")["route"], "ask->lore:sibling_of|twin_sibling_of")
         self.assertEqual(ask.ask("Can Sol Ring be my commander?")["route"], "ask->rules:single")
 
+    def test_brothers_war_set_links_only_official_publication_series(self):
+        r = ask.ask("What official Magic stories are linked to The Brothers' War set?")
+        self.assertEqual(r["route"], "ask->set_atlas:set_story")
+        self.assertEqual(r["confidence"], "QUALIFIED")
+        self.assertEqual(r["result"]["set"]["code"], "bro")
+        self.assertEqual(r["result"]["set"]["scryfall_recorded_release_date"], "2022-11-18")
+        series = r["result"]["official_story_series"]
+        self.assertEqual(series["official_title"], "The Brothers' War")
+        self.assertEqual(series["official_story_count_in_recovered_index"], 10)
+        self.assertEqual(len(series["sampled_official_story_pages"]), 3)
+        self.assertLess(series["sampled_official_story_pages"][0]["published_date"], "2022-11-18")
+        self.assertFalse(series["sample_is_complete"])
+        self.assertIn("ONLY_SAMPLE_OF_STORY_PAGES_SHOWN", r["flags"])
+        self.assertIn("NO_IN_UNIVERSE_EVENT_ORDER_INFERRED", r["flags"])
+        for page in series["sampled_official_story_pages"]:
+            self.assertIn(page["url"], r["sources"])
+
+    def test_named_release_date_and_series_are_separate_from_story_dates(self):
+        r = ask.ask("Show the release date and official story series for Bloomburrow")
+        self.assertEqual(r["result"]["set"]["code"], "blb")
+        self.assertEqual(r["result"]["official_story_series"]["official_title"], "Bloomburrow")
+        self.assertEqual(r["result"]["story_link_coverage"],
+                         {"linked_series": 12, "total_catalogued_set_codes": 1062})
+        self.assertIn("real-world dates, not dates of in-universe events", r["result"]["limitation"])
+
+    def test_missing_wizards_title_link_does_not_mean_no_story_exists(self):
+        r = ask.ask("Is War of the Spark linked to an official story series?")
+        self.assertEqual(r["result"]["set"]["code"], "war")
+        self.assertIsNone(r["result"]["official_story_series"])
+        self.assertIn("NO_OFFICIAL_TITLE_STORY_LINK_IN_BOUNDED_INDEX", r["flags"])
+        self.assertFalse(any("/magic-story/" in source for source in r["sources"]))
+        self.assertIn("not no story exists", r["result"]["limitation"])
+
+    def test_unknown_set_does_not_fabricate_a_story_series(self):
+        r = ask.ask("What official stories are linked to Zorblax Time Rift set?")
+        self.assertEqual(r["confidence"], "NOT_FOUND")
+        self.assertIsNone(r["result"]["set"])
+        self.assertIsNone(r["result"]["official_story_series"])
+        self.assertIn("UNKNOWN_SET_IN_SNAPSHOT", r["flags"])
+        self.assertFalse(any("magic.wizards.com" in source for source in r["sources"]))
+
+    def test_story_route_does_not_steal_in_universe_history_questions(self):
+        r = ask.ask("What happened on Innistrad?")
+        self.assertNotEqual(r["route"], "ask->set_atlas:set_story")
+
 
 if __name__ == "__main__":
     unittest.main()

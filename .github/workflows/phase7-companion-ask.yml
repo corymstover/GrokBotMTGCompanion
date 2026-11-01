@@ -82,6 +82,7 @@ jobs:
           python3 scripts/mv_ask.py ask "Who killed Elesh Norn?"
           python3 scripts/mv_ask.py ask "Who defeated Ugin?"
           python3 scripts/mv_ask.py ask "How many cards are in Alpha?"
+          python3 scripts/mv_ask.py ask "What official Magic stories are linked to The Brothers' War set?" > /dev/null
           python3 scripts/mv_ask.py ask "Which sets was Black Lotus printed in?" > /dev/null
           python3 scripts/mv_ask.py ask "How does Urza's Saga interact with Urza's Tower?"
           python3 scripts/mv_ask.py ask "What are the lore and Commander eligibility of Ugin, the Spirit Dragon?" > /dev/null

@@ -1769,6 +1769,76 @@
       "direct_claims": null,
       "chronology_relation": null,
       "known_limitations": []
+    },
+    {
+      "id": "set_story_brothers_war_publication_only",
+      "question": "What official Magic stories are linked to The Brothers' War set?",
+      "route": "ask->set_atlas:set_story",
+      "confidence": "QUALIFIED",
+      "flags": [
+        "HISTORICAL_SET_API_METADATA_ONLY",
+        "STORY_TITLE_LINK_INDEX_NOT_EXHAUSTIVE",
+        "SET_DATE_NOT_IN_UNIVERSE_CHRONOLOGY",
+        "SET_TO_OFFICIAL_STORY_TITLE_LINK_ONLY",
+        "NO_IN_UNIVERSE_EVENT_ORDER_INFERRED",
+        "ONLY_SAMPLE_OF_STORY_PAGES_SHOWN"
+      ],
+      "sources": [
+        "https://github.com/corymstover/GrokBotMTGCompanion/blob/main/data/set_atlas/catalog_2026-10-29.json",
+        "https://github.com/corymstover/GrokBotMTGCompanion/blob/main/data/set_atlas/phase1b_release_scope_story_bridge_2026-10-29.json",
+        "https://magic.wizards.com/en/news/magic-story/the-brothers-war-chapter-1-stronghold",
+        "https://magic.wizards.com/en/news/magic-story/the-brothers-war-episode-1-the-end",
+        "https://magic.wizards.com/en/news/magic-story/the-brothers-war-episode-2-the-beginning",
+        "https://magic.wizards.com/en/news/making-magic/looking-back-part-2",
+        "https://scryfall.com/sets/bro"
+      ],
+      "response_sha256": "eefc55607f6830a85cb5b9fa6c2ab46bc63bbf5c66e7fb687872313456f2e0c4",
+      "direct_claims": null,
+      "chronology_relation": null,
+      "known_limitations": []
+    },
+    {
+      "id": "set_story_war_missing_bridge",
+      "question": "Is War of the Spark linked to an official story series?",
+      "route": "ask->set_atlas:set_story",
+      "confidence": "QUALIFIED",
+      "flags": [
+        "HISTORICAL_SET_API_METADATA_ONLY",
+        "STORY_TITLE_LINK_INDEX_NOT_EXHAUSTIVE",
+        "SET_DATE_NOT_IN_UNIVERSE_CHRONOLOGY",
+        "SET_TO_OFFICIAL_STORY_TITLE_LINK_ONLY",
+        "NO_IN_UNIVERSE_EVENT_ORDER_INFERRED",
+        "NO_OFFICIAL_TITLE_STORY_LINK_IN_BOUNDED_INDEX"
+      ],
+      "sources": [
+        "https://github.com/corymstover/GrokBotMTGCompanion/blob/main/data/set_atlas/catalog_2026-10-29.json",
+        "https://github.com/corymstover/GrokBotMTGCompanion/blob/main/data/set_atlas/phase1b_release_scope_story_bridge_2026-10-29.json",
+        "https://magic.wizards.com/en/news/making-magic/looking-back-part-2",
+        "https://scryfall.com/sets/war"
+      ],
+      "response_sha256": "9ad2369bd5dc76142f54eea95018168459b8995a3af16017943e22d7677ea0aa",
+      "direct_claims": null,
+      "chronology_relation": null,
+      "known_limitations": []
+    },
+    {
+      "id": "set_story_unknown_release",
+      "question": "What official stories are linked to Zorblax Time Rift set?",
+      "route": "ask->set_atlas:set_story",
+      "confidence": "NOT_FOUND",
+      "flags": [
+        "HISTORICAL_SET_API_METADATA_ONLY",
+        "STORY_TITLE_LINK_INDEX_NOT_EXHAUSTIVE",
+        "SET_DATE_NOT_IN_UNIVERSE_CHRONOLOGY",
+        "UNKNOWN_SET_IN_SNAPSHOT"
+      ],
+      "sources": [
+        "https://github.com/corymstover/GrokBotMTGCompanion/blob/main/data/set_atlas/catalog_2026-10-29.json"
+      ],
+      "response_sha256": "923472cfc7d570eb806f67fb21dd211cf838f0d65edc09ca04f0f44e9109f2a1",
+      "direct_claims": null,
+      "chronology_relation": null,
+      "known_limitations": []
     }
   ],
   "cross_plane_graph_navigation": [
@@ -1858,5 +1928,5 @@
     "python3 scripts/update_multiverse_progress_tracker.py --check"
   ],
   "owner_review_status": "PENDING_NOT_REQUESTED_UNTIL_ENGINEERING_EVIDENCE_AND_CI_COMPLETE",
-  "content_sha256": "7cffcb3077b3004cab97c1e0f5d93495bc365a1950ee4b5177695b393364e76e"
+  "content_sha256": "b34dd95b15aaa38f23b92990333685d3df167ac745210d3f7181f7989be98a35"
 }

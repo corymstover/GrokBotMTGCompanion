@@ -104,6 +104,9 @@ This source-graded packet is reproducible from the repository, with exact input 
 | Show card, lore, and Commander rules for Nicol Bolas, the Ravager | `ask->card_lore_commander_evidence` | `QUALIFIED` | 10 |
 | Tell me the lore and Commander eligibility of Blackblade Reforged | `ask->card_lore_commander_evidence` | `QUALIFIED` | 2 |
 | What are the lore and Commander eligibility of Zorblax the Unreal? | `ask->card_lore_commander_evidence` | `NOT_FOUND` | 0 |
+| What official Magic stories are linked to The Brothers' War set? | `ask->set_atlas:set_story` | `QUALIFIED` | 7 |
+| Is War of the Spark linked to an official story series? | `ask->set_atlas:set_story` | `QUALIFIED` | 4 |
+| What official stories are linked to Zorblax Time Rift set? | `ask->set_atlas:set_story` | `NOT_FOUND` | 1 |
 
 The underlying JSON retains response digests, exact source URLs and caveat flags. The two graph-navigation examples are **not** evidence of chronological or causal paths.
 
@@ -126,6 +129,6 @@ python3 scripts/certification_dry_run.py --check
 python3 scripts/update_multiverse_progress_tracker.py --check
 ```
 
-Packet SHA-256 (canonical JSON): `7cffcb3077b3004cab97c1e0f5d93495bc365a1950ee4b5177695b393364e76e`
+Packet SHA-256 (canonical JSON): `b34dd95b15aaa38f23b92990333685d3df167ac745210d3f7181f7989be98a35`
 
 **No decks were built, modified, reviewed or approved.**
