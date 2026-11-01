@@ -16,9 +16,12 @@ ROOT = Path(__file__).resolve().parents[1]
 ATLAS = ROOT / "data" / "set_atlas"
 CATALOG_PATH = ATLAS / "catalog_2026-10-29.json"
 RELEASE_PATH = ATLAS / "phase1b_qualified_functional_release_2026-10-29.json"
+STORY_BRIDGE_PATH = ATLAS / "phase1b_release_scope_story_bridge_2026-10-29.json"
 REPO_SOURCE = "https://github.com/corymstover/GrokBotMTGCompanion/blob/main/data/set_atlas/"
 SCOPE_FLAGS = ["ENGLISH_PAPER_ONLY", "RELEASED_AS_OF_SNAPSHOT", "SOURCE_BULK_NOT_PRESENT",
                "PRINTING_DATE_NOT_IN_UNIVERSE_CHRONOLOGY"]
+STORY_SCOPE_FLAGS = ["HISTORICAL_SET_API_METADATA_ONLY", "STORY_TITLE_LINK_INDEX_NOT_EXHAUSTIVE",
+                     "SET_DATE_NOT_IN_UNIVERSE_CHRONOLOGY"]
 
 _ALIASES = {"alpha": "lea", "beta": "leb", "unlimited": "2ed", "revised": "3ed"}
 _TOTAL = re.compile(
@@ -44,6 +47,11 @@ _CARD_QUESTIONS = [
                r"(?:of|for) (.+?)\??$", re.I),
     re.compile(r"^what (?:set|expansion) did (.+?) debut in\??$", re.I),
 ]
+_SET_STORY_QUESTIONS = [
+    re.compile(r"^what official (?:magic )?stor(?:y|ies) (?:are|were) linked to (.+?)\??$", re.I),
+    re.compile(r"^show (?:me )?the release date and official story series for (.+?)\??$", re.I),
+    re.compile(r"^is (.+?) linked to an official story series\??$", re.I),
+]
 
 
 @lru_cache(maxsize=1)
@@ -55,11 +63,20 @@ def _data():
     return catalog, release
 
 
-def _envelope(query, route, result, sources, flags=None, confidence="QUALIFIED"):
+@lru_cache(maxsize=1)
+def _story_bridge():
+    bridge = json.loads(STORY_BRIDGE_PATH.read_text(encoding="utf-8"))
+    catalog, _ = _data()
+    if bridge["as_of"] != catalog["as_of"] or set(bridge["set_scope_records"]) != set(catalog["sets"]):
+        raise ValueError("Story-series bridge and Set Atlas do not describe the same snapshot")
+    return bridge
+
+
+def _envelope(query, route, result, sources, flags=None, confidence="QUALIFIED", scope_flags=None):
     catalog, _ = _data()
     return {"route": "ask->set_atlas:" + route, "query": query, "confidence": confidence,
             "data_as_of": catalog["as_of"], "sources": sources,
-            "flags": SCOPE_FLAGS + (flags or []), "result": result}
+            "flags": (SCOPE_FLAGS if scope_flags is None else scope_flags) + (flags or []), "result": result}
 
 
 def _clean_set_name(name):
@@ -76,7 +93,8 @@ def _set_code(raw):
     alias = _ALIASES.get(name.casefold(), name.casefold())
     if alias in sets:
         return alias, []
-    matches = [code for code, meta in sets.items() if meta["name"].casefold() == name.casefold()]
+    matches = [code for code, meta in sets.items()
+               if re.sub(r"^the\s+", "", meta["name"], flags=re.I).casefold() == name.casefold()]
     if len(matches) == 1:
         return matches[0], []
     return None, sorted(matches)
@@ -159,11 +177,72 @@ def _answer_card(query, raw_card):
                      flags, "QUALIFIED" if cards else "NOT_FOUND")
 
 
+def _answer_set_story(query, raw_set):
+    """Offer only the 12 source-backed publication-title bridges, not inferred story canon."""
+    code, ambiguous = _set_code(raw_set)
+    catalog, _ = _data()
+    if code is None:
+        return _envelope(query, "set_story", {
+            "requested_set": _clean_set_name(raw_set), "set": None,
+            "ambiguous_set_codes": ambiguous, "official_story_series": None,
+        }, [REPO_SOURCE + CATALOG_PATH.name],
+            ["AMBIGUOUS_SET_NAME" if ambiguous else "UNKNOWN_SET_IN_SNAPSHOT"],
+            "NOT_FOUND", STORY_SCOPE_FLAGS)
+
+    bridge = _story_bridge()
+    record = bridge["set_scope_records"][code]
+    link = bridge["wizards_story_series_set_links"].get(code)
+    if record["name"] != catalog["sets"][code]["name"]:
+        raise ValueError("Story bridge set name conflicts with the frozen catalog")
+    flags = ["SET_TO_OFFICIAL_STORY_TITLE_LINK_ONLY", "NO_IN_UNIVERSE_EVENT_ORDER_INFERRED"]
+    sources = [REPO_SOURCE + CATALOG_PATH.name, REPO_SOURCE + STORY_BRIDGE_PATH.name,
+               "https://scryfall.com/sets/" + code]
+    if record.get("wizards_release_source"):
+        sources.append(record["wizards_release_source"])
+    story = None
+    if link:
+        if link["connection_scope"] != ("Wizards story publication titled for the named release; "
+                                        "no card-lore, plot, or in-universe chronology inference"):
+            raise ValueError("Unrecognized story-series citation grade")
+        samples = link["sample_first_party_story_sources"]
+        if (len(samples) > link["official_story_count_in_recovered_index"] or
+                any(not p["url"].startswith("https://magic.wizards.com/") for p in samples)):
+            raise ValueError("Unverified or impossible official story-page sample")
+        story = {"official_title": link["series_name_as_published"],
+                 "official_story_count_in_recovered_index": link["official_story_count_in_recovered_index"],
+                 "sampled_official_story_pages": samples,
+                 "sample_is_complete": len(samples) == link["official_story_count_in_recovered_index"],
+                 "link_grade": "PUBLICATION_TITLE_ONLY"}
+        sources.extend(p["url"] for p in samples)
+        if not story["sample_is_complete"]:
+            flags.append("ONLY_SAMPLE_OF_STORY_PAGES_SHOWN")
+    else:
+        flags.append("NO_OFFICIAL_TITLE_STORY_LINK_IN_BOUNDED_INDEX")
+    return _envelope(query, "set_story", {
+        "set": {"code": code, "name": record["name"],
+                "scryfall_recorded_release_date": record["released_at"],
+                "catalogued_set_type": record["scryfall_set_type"],
+                "scope_label": record["scope_label"]},
+        "official_story_series": story,
+        "story_link_coverage": {"linked_series": bridge["story_series_with_primary_title_links"],
+                                "total_catalogued_set_codes": bridge["all_set_codes"]},
+        "limitation": ("A Scryfall set release date and a Wizards story-page publication date are "
+                       "real-world dates, not dates of in-universe events. A matching official "
+                       "story-series title is navigation only, not proof of a card depiction, "
+                       "plot, canonical event order or comprehensive story coverage. A missing "
+                       "bridge means no link in this bounded research index, not no story exists."),
+    }, sorted(set(sources)), flags, scope_flags=STORY_SCOPE_FLAGS)
+
+
 def try_answer(text):
     """Return an evidence-enveloped set answer, or None for non-set questions."""
     query = text.strip()
     if _TOTAL.fullmatch(query):
         return _answer_total(query)
+    for pattern in _SET_STORY_QUESTIONS:
+        match = pattern.fullmatch(query)
+        if match:
+            return _answer_set_story(query, match.group(1))
     for pattern, mode in _SET_QUESTIONS:
         match = pattern.fullmatch(query)
         if match:

@@ -215,6 +215,15 @@ QA_CASES = [
     ('cross_domain_unknown_card',
      'What are the lore and Commander eligibility of Zorblax the Unreal?',
      'ask->card_lore_commander_evidence', 'NOT_FOUND'),
+    ('set_story_brothers_war_publication_only',
+     "What official Magic stories are linked to The Brothers' War set?",
+     'ask->set_atlas:set_story', 'QUALIFIED'),
+    ('set_story_war_missing_bridge',
+     'Is War of the Spark linked to an official story series?',
+     'ask->set_atlas:set_story', 'QUALIFIED'),
+    ('set_story_unknown_release',
+     'What official stories are linked to Zorblax Time Rift set?',
+     'ask->set_atlas:set_story', 'NOT_FOUND'),
 ]
 
 
@@ -333,6 +342,25 @@ def qa_cases() -> list[dict]:
                 if key == 'cross_domain_blackblade_no_name_bridge' and (
                         names or 'NO_CITED_NAMED_ENTITY_BRIDGE' not in r['flags']):
                     raise ValueError('Blackblade falsely assigned a lore subject')
+        if key.startswith('set_story_'):
+            if ('SET_DATE_NOT_IN_UNIVERSE_CHRONOLOGY' not in r['flags'] or
+                    'HISTORICAL_SET_API_METADATA_ONLY' not in r['flags'] or
+                    'ENGLISH_PAPER_ONLY' in r['flags']):
+                raise ValueError(f'Set story route lost date boundary: {key}')
+            if key == 'set_story_brothers_war_publication_only' and (
+                    r['result']['set']['code'] != 'bro' or
+                    r['result']['official_story_series']['official_story_count_in_recovered_index'] != 10 or
+                    'NO_IN_UNIVERSE_EVENT_ORDER_INFERRED' not in r['flags'] or
+                    not any('magic.wizards.com/en/news/magic-story/' in url for url in r['sources'])):
+                raise ValueError('Brothers War publication-title link or source proof lost')
+            if key == 'set_story_war_missing_bridge' and (
+                    r['result']['set']['code'] != 'war' or r['result']['official_story_series'] is not None or
+                    'NO_OFFICIAL_TITLE_STORY_LINK_IN_BOUNDED_INDEX' not in r['flags']):
+                raise ValueError('War of the Spark acquired an unsupported official title bridge')
+            if key == 'set_story_unknown_release' and (
+                    r['result']['set'] is not None or r['result']['official_story_series'] is not None or
+                    any('magic.wizards.com' in url for url in r['sources'])):
+                raise ValueError('Unknown set acquired fabricated publication evidence')
         if key == 'present_leader_unknown' and 'CURRENT_LEADER_NOT_ESTABLISHED' not in r['flags']:
             raise ValueError('Present-day leadership is overstated')
         if key == 'commander_identity' and not r['result']['allowed']:
