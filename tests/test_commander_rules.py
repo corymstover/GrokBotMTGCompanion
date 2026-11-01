@@ -4,6 +4,7 @@ import re
 import sys
 import unittest
 from pathlib import Path
+from unittest.mock import patch
 
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "scripts"))
@@ -33,6 +34,35 @@ class CommanderRulesTests(unittest.TestCase):
         assert d["rules"]["903.5c"].startswith("A card can be included in a Commander deck only if every color")
         for out in (cr.commander(["Krark, the Thumbless"]), cr.include("Sol Ring", ["Krark, the Thumbless"])):
             assert out["rules"] and all(r["text"] == d["rules"][r["rule"]] for r in out["rules"])
+
+    def test_newer_official_bulletin_is_disclosed_and_rulebreaker_not_overrejected(self):
+        review = cr.RULES_BULLETIN
+        self.assertEqual(review["bulletin"]["published_on"], "2026-10-19")
+        self.assertEqual(review["committed_cited_excerpt_effective"], cr.CR["effective"])
+        self.assertIn("903.5e", review["announced_new_rules"])
+        actual = cr.commander(["Tolabow, Loch Rascal"])
+        self.assertIn("RULEBREAKER_COMMANDER_EXCEPTION_NOT_MODELLED", actual["flags"])
+        self.assertEqual(actual["later_official_rules_bulletin"]["date"], "2026-10-19")
+
+        # The conservative path must not claim that an out-of-identity instant
+        # is illegal solely by 903.5c if an eligible commander has rulebreaker.
+        def fake_facts(row):
+            if row["name"] == "Example Commander":
+                return {"name": row["name"], "identity": "U", "rulebreaker": True,
+                        "legality": "legal", "type_line": "Legendary Creature — Otter", "subtypes": ["Otter"]}
+            return {"name": row["name"], "identity": "R", "rulebreaker": False,
+                    "legality": "legal", "type_line": "Instant", "subtypes": [], "shard": "test"}
+
+        def fake_commander(names):
+            return {"result": {"allowed": True, "commanders": [{"name": names[0]}]}}
+
+        with (patch.object(cr, "resolve", side_effect=lambda name: {"name": name}),
+              patch.object(cr, "facts", side_effect=fake_facts),
+              patch.object(cr, "commander", side_effect=fake_commander)):
+            result = cr.include("Off-Identity Instant", ["Example Commander"])
+            self.assertIsNone(result["result"]["allowed"])
+            self.assertEqual(result["result"]["determination"], "REQUIRES_RULEBREAKER_REVIEW")
+            self.assertEqual(result["result"]["reasons"], [])
 
     def test_single_commanders(self):
         assert allowed(["Krark, the Thumbless"])["allowed"]

@@ -7,6 +7,7 @@ older printed ruling as proof that today's rules and Oracle text are unchanged.
 import re
 
 import rules_interactions as evidence
+from commander_rules import RULES_BULLETIN
 
 CARD_RULINGS_AS_OF = "2026-10-15"  # committed card shard ruling text, not the newer Oracle drift date
 _PAIR = [
@@ -45,8 +46,11 @@ def _base(query, route, result, flags, names=(), confidence="QUALIFIED", card_ev
             "confidence": confidence,
             "data_as_of": CARD_RULINGS_AS_OF if card_evidence else evidence.CR["effective"],
             "rules_effective": evidence.CR["effective"], "sources": _sources(*names),
+            "later_official_rules_bulletin": {"date": RULES_BULLETIN["bulletin"]["published_on"],
+                                              "url": RULES_BULLETIN["bulletin"]["url"],
+                                              "status": RULES_BULLETIN["status"]},
             "flags": (["HISTORICAL_RULINGS_SHARD_NOT_LIVE"] if card_evidence else ["DATED_CR_EXCERPT_ONLY"])
-            + ["NO_RULES_SIMULATION"] + flags,
+            + ["NO_RULES_SIMULATION", "NEWER_OFFICIAL_RULES_BULLETIN_NOT_IN_CITED_EXCERPT"] + flags,
             "result": result}
 
 

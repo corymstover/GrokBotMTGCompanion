@@ -19,6 +19,8 @@ class RulesEvidenceQuestions(unittest.TestCase):
         self.assertEqual(answer["rules_effective"], "2026-09-25")
         self.assertIn("HISTORICAL_RULINGS_SHARD_NOT_LIVE", answer["flags"])
         self.assertIn("NO_RULES_SIMULATION", answer["flags"])
+        self.assertIn("NEWER_OFFICIAL_RULES_BULLETIN_NOT_IN_CITED_EXCERPT", answer["flags"])
+        self.assertEqual(answer["later_official_rules_bulletin"]["date"], "2026-10-19")
         self.assertIn("media.wizards.com", answer["sources"][0])
 
     def test_card_rulings_are_dated_and_complete_for_committed_shard(self):

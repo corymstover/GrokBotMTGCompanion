@@ -14,13 +14,13 @@ schema: 2
 <!-- MULTIVERSE-CURRENT:START -->
 ## MTG Multiverse Companion — current engineering checkpoint (2026-11-01)
 
-**Live authority:** [Master Workflow v2.97](MTG_MULTIVERSE_MASTER_WORKFLOW.md), the current
+**Live authority:** [Master Workflow v2.98](MTG_MULTIVERSE_MASTER_WORKFLOW.md), the current
 graph and dated recount. The older cycle-36/October-15 metrics **below this section are historical**;
 they are not the active Phase 1–8 completion counters.
 
 | Measure | Verified committed state | Important limitation |
 | --- | ---: | --- |
-| Master Workflow checklist | **98/137 checked; 39 open** | Engineering verification, never owner approval. |
+| Master Workflow checklist | **102/137 checked; 35 open** | Engineering verification, never owner approval. |
 | Priority card enrichments | **5362/5,362** | Enrichment does not imply every card has a sourced story. |
 | Source-page inventory | **576 cited + 50 reviewed = 626 accounted for** | Current inventoried pages only, not all fiction ever published. |
 | Cited lore claims | **1263** | Live graph/inventory concordance; claim packs remain preliminary research. |
@@ -30,19 +30,19 @@ they are not the active Phase 1–8 completion counters.
 | In-universe dated claim edges | **36** | Most graph edges lack a verified in-world date. |
 | Parked graph-built Commander pilots | **3 unapproved** | Preserved, not a knowledge-foundation release gate. |
 | Foundation-release readiness | **NOT_RELEASE_READY** | Research, exact-release CI and engineering remain; Cory's conditional acceptance is recorded but not yet effective. |
-| Official source watch | **Weekly review-only workflow** | Story index, Scryfall metadata and rules PDF candidates; not automatic lore/rules updates. |
+| Official source watch | **Weekly review-only workflow** | Story index, Wizards update-bulletin candidates, Scryfall metadata and rules PDF candidates; not automatic lore/rules updates. |
 
 **First-release and Phase 8 gate triage (14 gates, separate from the 137-item engineering checklist):**
-Completed **2** · Under review **9** ·
-Blocked **3** · Not started **0**.
+Completed **6** · Under review **6** ·
+Blocked **2** · Not started **0**.
 "Under review" does **not** mean approved; it includes pending owner decisions,
 exact-commit CI and ongoing maintenance. "Blocked" means a documented missing
 source or remaining engineering work. The complete typed evidence is in
 `data/release/certification_dry_run_2026-10-30.json`.
 
 **All-137 engineering checklist triage (not release certification):**
-Completed **98** · Under review **22** ·
-Blocked **17** · Not started **0**.
+Completed **102** · Under review **19** ·
+Blocked **16** · Not started **0**.
 Every checked and unchecked task is accounted for in
 `data/release/full_checklist_triage_2026-11-01.json` and
 `research/FULL_CHECKLIST_TRIAGE_2026-11-01.md`. The ten deferred Phase 6
@@ -51,10 +51,10 @@ foundation certification tasks.
 
 | Gate | Triage | Remaining blocker types |
 | --- | --- | --- |
-| priority_enrichment | Under review | OWNER_APPROVAL |
+| priority_enrichment | Completed | none |
 | foundation_graph | Blocked | MISSING_SOURCE, OWNER_APPROVAL, OWNER_DECISION |
 | lookup_and_rules | Blocked | ENGINEERING_OPEN, EXTERNAL_CI |
-| set_atlas | Blocked | ENGINEERING_OPEN, OWNER_DECISION |
+| set_atlas | Completed | none |
 | knowledge_foundation | Under review | EXTERNAL_CI, OWNER_CONDITIONAL |
 | grixis_no_regression | Under review | EXTERNAL_CI |
 | ci_and_coverage | Under review | EXTERNAL_CI, ONGOING |
@@ -63,8 +63,8 @@ foundation certification tasks.
 | Rebuild and reconcile the Phase 1B set catalog and bidirection… | Under review | ONGOING |
 | Update snapshot manifests with actual download bytes and stabl… | Completed | none |
 | Maintain an honest progress tracker: completed, under review,… | Completed | ONGOING |
-| Define an MTG Multiverse Companion milestone release based on… | Under review | OWNER_DECISION |
-| Treat continual future MTG releases as an ongoing maintenance… | Under review | ONGOING, OWNER_DECISION |
+| Define an MTG Multiverse Companion milestone release based on… | Completed | none |
+| Treat continual future MTG releases as an ongoing maintenance… | Completed | none |
 
 **Latest bounded QA/chronology evidence:** 17 source-local historical strands,
 155 events and 126 strict order edges;
@@ -72,13 +72,16 @@ foundation certification tasks.
 8 separate legacy identity bridges and
 5 non-ordering overlaps. The 119-case
 foundation acceptance packet remains **NOT CERTIFIED**. Card lookup is reconciled
-against the immutable October 30 Scryfall Oracle bulk, while published rulings
-and official rules remain separately dated. This is not a live release check.
+against the immutable October 30 Scryfall Oracle bulk; the independently verified
+November 1 bulk delta records 7 Oracle and 49 printing tracked-field changes,
+0 new or missing Oracle IDs and unchanged rulings. Wizards' newer October 19
+rulebreaker/meld bulletin is explicitly flagged while the official downloadable
+CR still links to September 25. This is not a current-rules release certificate.
 
 **Priority next steps:** verify current-era Q&A answers; close only evidence-backed graph
 identity and chronology gaps; expand comprehensive plane, character, faction and cross-plane
 history; harden rules and difficult Q&A; preserve the original hash-verified October
-historical Scryfall replay and its October 30 live-source freshness check (repeat on any later release bulk); pursue foundation-only certification. **Phase 6
+historical Scryfall replay and its November 1 bulk-field freshness audit (repeat on any later release bulk); pursue foundation-only certification. **Phase 6
 deckbuilding and its three unapproved pilots are deferred until the knowledge foundation
 is certified.** Do not modify any of the 62 finalized Grixis decks.
 <!-- MULTIVERSE-CURRENT:END -->

@@ -1,6 +1,6 @@
 # MTG Multiverse Companion — Master Workflow & Progress Checklist
 
-**Version:** 2.97
+**Version:** 2.98
 **Checkpoint date:** 2026-11-01
 **Repository:** [corymstover/GrokBotMTGCompanion](https://github.com/corymstover/GrokBotMTGCompanion)  
 **Purpose:** Durable project roadmap and handoff document. Update this file after verified milestone work; do not treat historical figures as live counters.
@@ -22,6 +22,35 @@ foundation release may document inherently unresolved canon and future
 maintenance; it must never claim exhaustive knowledge of all MTG history.
 The 62 approved Grixis decks, their hashes and all owner gates remain intact.
 Only a new explicit request from Cory can override the Phase 6 hold.
+
+**v2.98 owner-scope closure and November source freshness (2026-11-01):**
+Cory's explicit blanket owner authorization is applied to **four bounded
+policy/scope checklist gates** only: documented priority-enrichment gaps
+(K131); the existing qualified historical Phase 1B set atlas (K134); the
+finite knowledge-foundation milestone definition (K129); and ongoing
+maintenance as a policy (K130). These are **accepted limitations**, not
+fabricated canon, unverified source resolution, current Oracle ingestion, or
+overall foundation certification. The exact **October 30 → November 1
+Scryfall bulk files** were downloaded, SHA-256 and record-count verified:
+39,287 Oracle records, 120,019 printing records and 79,706 rulings, with
+**7 Oracle and 49 printing tracked-field changes** and an unchanged rulings
+record multiset. The committed card index has no new type-line, color-identity,
+legality or game-changer parity differences, but remains a dated snapshot;
+66 printed name-variant aliases differ and 5,393 Scryfall Oracle objects are
+not indexed. All **581 prior exact-art source printing IDs** retain matching
+art-identity fields in the new export. Wizards' **October 19 Mystery Booster Commander Edition rules
+bulletin** announces new rulebreaker rule 903.5e and moves meld cards out
+of the double-faced classification, yet the Wizards rules hub still linked
+the September 25 comprehensive-rules TXT on November 1. Commander inclusion
+now returns **REQUIRES_RULEBREAKER_REVIEW** instead of an unsupported
+color-identity rejection when a rulebreaker commander has a possible exception;
+rules Q&A explicitly warns of the newer bulletin, and the weekly watcher now
+scans official update-bulletin listing links. **102/137 checked, 35 open;
+NOT_RELEASE_READY.** The source-sensitive Packs A/B/C chronology, updated
+full CR text, release-commit CI and foundation acceptance gates remain open.
+Phase 6 and all 62 approved Grixis decks are untouched. See
+`research/FOUNDATION_CERTIFICATION_SPRINT_V298_2026-11-01.md` and the v2.98
+handoff.
 
 **v2.97 War of the Spark operations chronology (2026-11-01):** A new
 source-local **Y** strand uses four of the six independently downloaded
@@ -1226,10 +1255,10 @@ explicitly lifts the hold).
 - [x] Maintain an honest progress tracker: completed, under review, blocked, and not started. *(v2.73: a deterministic all-137 task triage documents each open item's source/owner/engineering/ongoing blocker; the checkpoint separately lists 14 foundation release/Phase 8 gates, keeps Phase 6 deferred, and fails CI when either report is stale.)*
   - v2.43 partial: `scripts/update_multiverse_progress_tracker.py` now generates/checks a *current* 2026-10-30 status block at the top of `Progress Tracker.md` from the live Master Workflow, graph, enrichment and recount. Old cycle-36 data remains explicitly historical. The full task-state dashboard (under review/blocked/not started for every item) is still to be built, so this high-level box stays unchecked.
   - v2.60: the current tracker adds a generated four-state **14-gate foundation-release** triage from the dry-run's typed blockers. This does not pretend to classify all 137 engineering tasks or accept continuing maintenance; the broader all-item dashboard remains an open improvement.
-- [ ] Define an MTG Multiverse Companion milestone release based on verified features, not an arbitrary percentage of all lore. *(v2.42, Batch 14, [#911](https://github.com/corymstover/GrokBotMTGCompanion/pull/911): certification-checklist dry run `scripts/certification_dry_run.py` → `data/release/certification_dry_run_2026-10-30.json` / `research/CERTIFICATION_DRY_RUN_2026-10-30.md` lists the typed blockers for each release criterion and Phase 8 item (OWNER_APPROVAL 3, OWNER_DECISION 5, EXTERNAL_CI 3, MISSING_SOURCE 2, ENGINEERING_OPEN 4, ONGOING 4). It certifies nothing; accepting the definition is the owner's call.)*
+- [x] Define an MTG Multiverse Companion milestone release based on verified features, not an arbitrary percentage of all lore. *(v2.42, Batch 14, [#911](https://github.com/corymstover/GrokBotMTGCompanion/pull/911): certification-checklist dry run `scripts/certification_dry_run.py` → `data/release/certification_dry_run_2026-10-30.json` / `research/CERTIFICATION_DRY_RUN_2026-10-30.md` lists the typed blockers for each release criterion and Phase 8 item (OWNER_APPROVAL 3, OWNER_DECISION 5, EXTERNAL_CI 3, MISSING_SOURCE 2, ENGINEERING_OPEN 4, ONGOING 4). It certifies nothing; accepting the definition is the owner's call. **v2.98:** Cory's November 1 blanket owner authorization accepts the *finite foundation-only milestone definition* in `data/release/owner_scope_decisions_2026-11-01.json`; neither release certification nor deck approval follows from this policy decision.)*
   - Partial (2026-10-30): `scripts/release_readiness.py` ([PR #830](https://github.com/corymstover/GrokBotMTGCompanion/pull/830)) scores each written criterion from committed evidence. Current verdict: NOT_RELEASE_READY.
   - v2.60: a source-graded, 12-case knowledge-only review packet was generated and CI-gated; v2.62 extended it to 15 dated set/printing/ruling cases, v2.63 to 17 with bounded New Phyrexia chronology, v2.64 to 22 with five character/faction histories, **v2.65 to 26** with four newly deepened plane histories, and **v2.66 to 30 unique questions** for four more plane histories and a duplicate-ID correction. The dry-run distinguishes this **completed engineering packet** from pending exact-head release CI and Cory's foundation-scope decision. No release checklist acceptance is inferred.
-- [ ] Treat continual future MTG releases as an ongoing maintenance track rather than a permanently finishable backlog.
+- [x] Treat continual future MTG releases as an ongoing maintenance track rather than a permanently finishable backlog. *(v2.98: finite policy decision accepted under Cory's November 1 instruction; future weekly checks and releases remain ongoing work, not pre-certified by this checkbox.)*
 
 ## Immediate execution queue — v2.85 FOUNDATION FIRST (2026-10-31)
 
@@ -1266,10 +1295,10 @@ explicitly lifts the hold).
 
 ## Definition of the first major Companion release
 
-- [ ] Priority-card enrichment backlog fully accounted for (completed or explicitly documented exceptions/gaps).
+- [x] Priority-card enrichment backlog fully accounted for (completed or explicitly documented exceptions/gaps). *(v2.98: 5,362/5,362 priority records complete; the documented 2,626 no-story-lore, 1,304 Universes Beyond subset and 341 uncertain name-link exceptions are explicitly accepted as gaps under `data/release/owner_scope_decisions_2026-11-01.json`, **not** represented as proven canonical lore.)*
 - [ ] Searchable cited connections across the three foundational lore packs.
 - [ ] Reliable lookup and rules checks backed by current Scryfall and official sources.
-- [ ] A verified Phase 1B set catalog with category-specific counts, set → card and card → set lookups, debut/reprint identification and English export support.
+- [x] A verified Phase 1B set catalog with category-specific counts, set → card and card → set lookups, debut/reprint identification and English export support. *(v2.98: owner accepts the existing `QUALIFIED_OFFLINE_FUNCTIONAL_RELEASE_READY` evidence as a **dated functional** atlas, retaining cross-snapshot metadata/date/source and 555 optional source-queue limitations. This does not assert current November 1 printing parity or globally resolved in-universe chronology; see `data/release/owner_scope_decisions_2026-11-01.json`.)*
 - [ ] Source-graded in-universe chronology, broad plane/character/faction history and difficult Q&A coverage reviewed for the documented knowledge-foundation scope, with explicit unresolved gaps.
 - [ ] No regression in the 62 archived approved Grixis decks.
 - [ ] Passing focused CI and an up-to-date, source-backed coverage report.

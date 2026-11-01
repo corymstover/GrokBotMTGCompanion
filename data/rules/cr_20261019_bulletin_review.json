@@ -1,0 +1,42 @@
+{
+  "schema": "official-rules-bulletin-review/v1",
+  "reviewed_on": "2026-11-01",
+  "status": "OFFICIAL_UPDATE_BULLETIN_NEWER_THAN_LINKED_CR_DOWNLOAD",
+  "bulletin": {
+    "publisher": "Wizards of the Coast",
+    "title": "Mystery Booster Commander Edition Update Bulletin",
+    "published_on": "2026-10-19",
+    "url": "https://magic.wizards.com/en/news/announcements/mystery-booster-commander-edition-update-bulletin"
+  },
+  "official_rules_page": "https://magic.wizards.com/en/rules",
+  "official_rules_page_current_link_checked_on": "2026-11-01",
+  "official_rules_page_still_links_to": "https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt",
+  "committed_cited_excerpt_effective": "2026-09-25",
+  "announced_new_rules": ["903.5e", "713"],
+  "announced_updated_rules": ["122.1g", "201.4f", "205.3j", "207.2c", "608.2g", "614.13a", "701.27", "701.28", "712"],
+  "functional_changes": [
+    {
+      "subject": "rulebreaker Commander abilities",
+      "source_section": "New Rules: 903.5e",
+      "source_summary": "A rulebreaker ability applies before the game when its card is the player's commander.",
+      "engineering_action": "Do not issue a definitive negative color-identity/deck-inclusion result when a designated commander has an unmodelled rulebreaker exception."
+    },
+    {
+      "subject": "meld card classification",
+      "source_section": "General Double-Faced Cards Organizational Update",
+      "source_summary": "Meld cards no longer count as double-faced cards; a card referring to double-faced cards, such as Overgrown Pest, no longer includes meld cards.",
+      "engineering_action": "Rules/keyword answers based on the 2026-09-25 701/702/712 excerpts are explicitly dated; do not assert current DFC/meld semantics from them."
+    },
+    {
+      "subject": "Tolabow, Loch Rascal Oracle wording",
+      "source_section": "Oracle Updates: That Rascally Otter",
+      "source_summary": "The printed rulebreaker wording was replaced with explicit instant/sorcery color-identity and basic-land exemptions.",
+      "engineering_action": "Treat the Oracle update as independently sourced; do not infer universal rulebreaker exceptions from Tolabow."
+    }
+  ],
+  "limits": [
+    "The October 19 bulletin calls these planned changes and explicitly defers to the official published Comprehensive Rules in case of discrepancy.",
+    "The Wizards rules landing page still linked to the September 25 TXT at the November 1 observation; there is no independently verified newer CR TXT SHA-256 to replace the verbatim excerpts.",
+    "This audit does not certify a current-rule rules engine or gameplay simulation."
+  ]
+}

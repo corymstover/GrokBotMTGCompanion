@@ -29,8 +29,8 @@ class SourceMonitorTests(unittest.TestCase):
         self.assertEqual(result["new_story_url_candidates"], [])
 
     def test_scryfall_bulks_are_compared_by_real_timestamps(self):
-        data = {"data": [{"type": "default_cards", "updated_at": "2026-10-30T09:05:46+00:00"},
-                         {"type": "oracle_cards", "updated_at": "2026-10-29T09:02:02.225+00:00"},
+        data = {"data": [{"type": "default_cards", "updated_at": "2026-11-02T09:05:46+00:00"},
+                         {"type": "oracle_cards", "updated_at": "2026-11-01T09:02:02.225+00:00"},
                          {"type": "rulings", "updated_at": "invalid"}]}
         result = m.scryfall_signals(data, self.snapshot)
         self.assertEqual(result["default-cards"]["status"], "NEWER_BULK_AVAILABLE_REVIEW_FIRST")
@@ -51,16 +51,34 @@ class SourceMonitorTests(unittest.TestCase):
         self.assertEqual(report["sources"]["wizards_rules_pages"][1]["status"],
                          "ETAG_DIFFERENT_INFORMATIONAL_ONLY")
 
+    def test_official_rules_update_bulletin_cannot_hide_behind_stale_rules_download(self):
+        origin = self.baseline["rules_bulletin_index_url"]
+        html = ('<a href="/en/news/announcements/next-set-update-bulletin">new</a>'
+                '<a href="https://impostor.example/en/news/announcements/other-update-bulletin">unsafe</a>'
+                '<a href="/en/news/announcements/mystery-booster-commander-edition-update-bulletin">known</a>')
+        result = m.bulletin_signals(html, origin, set(self.baseline["known_official_rules_bulletins"]))
+        self.assertEqual(result["new_official_update_bulletins"],
+                         ["https://magic.wizards.com/en/news/announcements/next-set-update-bulletin"])
+        def fake(url, *, head=False):
+            if url == origin:
+                return html, None
+            if url == self.baseline["scryfall_bulk_metadata_url"]:
+                return json.dumps({"data": []}), None
+            return "", None
+        report = m.live_report(self.baseline, self.snapshot, fake)
+        self.assertEqual(report["requires_review"], result["new_official_update_bulletins"])
+
     def test_outage_preserves_unavailable_instead_of_fake_no_changes(self):
         def fails(url, *, head=False):
             raise OSError("offline")
         report = m.live_report(self.baseline, self.snapshot, fails)
         self.assertEqual(report["sources"]["official_stories"]["status"], "SOURCE_UNAVAILABLE")
+        self.assertEqual(report["sources"]["official_rules_bulletins"]["status"], "SOURCE_UNAVAILABLE")
         self.assertEqual(report["sources"]["scryfall"]["status"], "SOURCE_UNAVAILABLE")
         self.assertEqual(report["requires_review"], [])
 
     def test_active_snapshot_is_hash_pinned_and_owner_gates_untouched(self):
-        self.assertEqual(self.snapshot["snapshot_id"], "snap-20261029-40848334824-1")
+        self.assertEqual(self.snapshot["snapshot_id"], "snap-20261101-live-20261101")
         self.assertEqual(len(self.snapshot["files"]["default-cards"]["sha256"]), 64)
         self.assertIn("Never auto-ingest", self.baseline["policy"])
 

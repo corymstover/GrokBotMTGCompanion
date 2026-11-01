@@ -1,0 +1,20 @@
+{
+  "schema": "multiverse-update-monitor-baseline/v1",
+  "observed_date": "2026-11-01",
+  "status": "READ_ONLY_RESEARCH_BASELINE_NOT_A_RULES_CERTIFICATION",
+  "story_index_url": "https://magic.wizards.com/en/news/magic-story",
+  "story_inventory_sources": ["data/story_index.csv", "data/story_extra_sources.csv"],
+  "scryfall_bulk_metadata_url": "https://api.scryfall.com/bulk-data",
+  "active_snapshot_manifest": "data/scryfall_snapshots/snap-20261101-live-20261101.manifest.json",
+  "rules_bulletin_index_url": "https://magic.wizards.com/en/news/announcements",
+  "known_official_rules_bulletins": [
+    "https://magic.wizards.com/en/news/announcements/mystery-booster-commander-edition-update-bulletin"
+  ],
+  "rules_bulletin_review_added_on": "2026-11-01",
+  "known_official_rules_documents": ["https://media.wizards.com/2026/downloads/MagicCompRules 20260925.pdf"],
+  "watch_pages": [
+    {"name": "Wizards rules hub", "url": "https://magic.wizards.com/en/rules", "etag": "\"24c65-tFmnmU2nmM8Y995Tgqwf84WxEHg\""},
+    {"name": "Wizards Commander format", "url": "https://magic.wizards.com/en/formats/commander", "etag": "\"42f1e-FYTCdbYjez0Y7swWyU/LnUlAh7w\""}
+  ],
+  "policy": "New official rules-document URLs, newly listed official update bulletins and newer Scryfall bulk metadata are REVIEW SIGNALS only. A listings page is incomplete and can lag; Web-page ETags vary with deployments and are informational, not automatic rule/ban-change alerts. Never auto-ingest or update historical locks."
+}

@@ -78,8 +78,10 @@ class EntityCoverageCensus(unittest.TestCase):
         self.assertEqual(len(audit), 1)
         self.assertTrue(audit[0]['checked'])
         self.assertFalse(next(r for r in rows if r['task'].startswith('Connect cross-plane histories'))['checked'])
-        self.assertTrue(all(not r['checked'] for r in rows
-                            if r['section'].startswith('Definition of the first major')))
+        # v2.98 accepts two *qualified scope* gates, not the five source/CI gates.
+        self.assertEqual([r['checked'] for r in rows
+                          if r['section'].startswith('Definition of the first major')],
+                         [True, False, False, True, False, False, False])
         self.assertTrue(all(not r['checked'] for r in rows if r['section'].startswith('Phase 6')))
 
 

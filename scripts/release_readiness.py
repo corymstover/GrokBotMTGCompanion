@@ -87,7 +87,16 @@ def c_lookup():
         return "NOT_MET", "no Oracle drift report", {}
     d = json.loads(drift[-1].read_text(encoding="utf-8"))
     changed = sum(len(v) for v in d["changed"].values())
+    fresh = _json("data/scryfall_snapshots/oct30_to_nov01_release_delta_2026-11-01.json") or {}
+    update = _json("data/rules/cr_20261019_bulletin_review.json") or {}
     ev = {"report": drift[-1].relative_to(ROOT).as_posix(), "snapshot_date": d["snapshot_date"], "changes": changed,
+          "latest_independently_replayed_bulk": fresh.get("current_snapshot"),
+          "latest_bulk_tracked_field_changes": {
+              key: (fresh.get("delta", {}).get(key, {}).get("existing_ids_with_tracked_field_changes"))
+              for key in ("oracle-cards", "default-cards")},
+          "latest_bulk_rulings_unchanged": fresh.get("delta", {}).get("rulings", {}).get("identical_record_multiset"),
+          "rules_bulletin_date": update.get("bulletin", {}).get("published_on"),
+          "rules_bulletin_newer_than_cited_cr": update.get("status") == "OFFICIAL_UPDATE_BULLETIN_NEWER_THAN_LINKED_CR_DOWNLOAD",
           "index_rows": d["index_rows"], "rules_checks": ("Commander deck-construction checks built (scripts/commander_rules.py, CR 2026-09-25 "
           "excerpt; eligibility audit agrees with every index row); gameplay rules-interaction evidence surfacing built "
           "(scripts/rules_interactions.py: published rulings that name another card, keyword rulings, verbatim CR 701/702 "
@@ -95,15 +104,19 @@ def c_lookup():
     if changed:
         return "PARTIAL", f"{changed} card fields differ from snapshot {d['snapshot_date']}; refresh pending", ev
     return "PARTIAL", (f"card lookups reconcile with snapshot {d['snapshot_date']} (0 changes across {d['index_rows']} "
-                       "cards); Commander deck-construction checks and ruling/CR-citation interaction checks are built; "
-                       "interactions with no published ruling are not modelled (no game simulation)"), ev
+                       "cards); November 1 Scryfall bulk was SHA-replayed with scoped differences, but the new "
+                       "official October 19 rules bulletin is newer than Wizards' linked September 25 CR TXT. "
+                       "Unmodelled rulebreaker/meld interactions are explicitly qualified, not certified. "
+                       "Published-rulings evidence is not game simulation."), ev
 
 
 def c_atlas():
     d = _json("data/set_atlas/phase1b_qualified_functional_release_2026-10-29.json")
     if not d:
         return "NOT_MET", "no Phase 1B release record", {}
-    ev = {"gate": d.get("gate"), "as_of": d.get("as_of"), "limitations": len(d.get("release_limitations", []))}
+    ev = {"gate": d.get("gate"), "as_of": d.get("as_of"), "limitations": len(d.get("release_limitations", [])),
+          "owner_scope_decision": "ACCEPT_QUALIFIED_HISTORICAL_SET_ATLAS_FUNCTIONAL_SCOPE"
+          if _json("data/release/owner_scope_decisions_2026-11-01.json") else "NOT_RECORDED"}
     if d.get("gate") == "QUALIFIED_OFFLINE_FUNCTIONAL_RELEASE_READY":
         return "MET", "Phase 1B qualified functional release (with stated limitations)", ev
     return "PARTIAL", f"gate {d.get('gate')}", ev

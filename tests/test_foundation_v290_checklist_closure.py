@@ -103,8 +103,9 @@ class FoundationChecklistClosure(unittest.TestCase):
             self.assertEqual(len(found), 1)
             self.assertTrue(found[0]['checked'], item)
         self.assertTrue(all(not r['checked'] for r in rows if r['section'].startswith('Phase 6')))
-        self.assertTrue(all(not r['checked'] for r in rows
-                            if r['section'].startswith('Definition of the first major')))
+        self.assertEqual([r['checked'] for r in rows
+                          if r['section'].startswith('Definition of the first major')],
+                         [True, False, False, True, False, False, False])
 
 
 if __name__ == '__main__':
