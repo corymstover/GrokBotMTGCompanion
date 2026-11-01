@@ -22,8 +22,8 @@ sys.path.insert(0, str(ROOT / "scripts"))
 import certification_dry_run as D  # noqa: E402
 
 WORKFLOW = ROOT / "MTG_MULTIVERSE_MASTER_WORKFLOW.md"
-OUT = ROOT / "data/release/full_checklist_triage_2026-10-31.json"
-MD = ROOT / "research/FULL_CHECKLIST_TRIAGE_2026-10-31.md"
+OUT = ROOT / "data/release/full_checklist_triage_2026-11-01.json"
+MD = ROOT / "research/FULL_CHECKLIST_TRIAGE_2026-11-01.md"
 STATES = ("Completed", "Under review", "Blocked", "Not started")
 
 # Explicitly classified open engineering work OUTSIDE the separate release/
@@ -34,7 +34,6 @@ OPEN = {
     "Resolve the remaining **2** curated/reprint": ("Blocked", "MISSING_PRIMARY_SOURCE", "Thirteen named catalog exceptions lack individual Wizards product evidence."),
     "Research the remaining **11** older boxed": ("Blocked", "MISSING_PRIMARY_SOURCE", "Older preconstructed/regional box codes need first-party product citations."),
     "Publish reproducible totals for **all Scryfall set codes**": ("Under review", "QUALIFIED_SCOPE", "All 1,062 categories are counted; an all-time first-party premier-set count is not certified."),
-    "Verify debut/reprint attribution using dated": ("Under review", "QUALIFIED_DATES", "Stable printing IDs are audited, but Scryfall first-card dates are not verified product street dates."),
     "Maintain two separately labeled timelines": ("Under review", "CHRONOLOGY_GAPS", "Real-world release dates and in-world events remain separate; cited bridges are incomplete."),
     "Connect sets to supported planes": ("Under review", "SOURCE_GRADING", "Existing cited story-series joins are not exhaustive set-to-canon relationships."),
     "Link direct printed depictions": ("Under review", "SOURCE_GRADING", "Proof tiers and 570 printing labels exist, but direct depiction evidence remains incomplete."),
@@ -51,11 +50,9 @@ OPEN = {
     "Expand Omenpaths": ("Under review", "COVERAGE_GAPS", "Newer stories and continuity changes require further cited claims."),
     "Audit major planes, regions": ("Under review", "COVERAGE_GAPS", "A registered 33-plane inventory is not a complete canon census or biography set."),
     "Connect cross-plane histories": ("Under review", "CHRONOLOGY_GAPS", "Explicit SAME_EVENT bridges exist, but most cross-plane order/retcon claims are unresolved."),
-    "Use the Phase 1B Set & Printing Atlas": ("Under review", "SOURCE_GRADING", "Atlas-to-story and era joins are incomplete; publication must not imply in-world time."),
     "Maintain an explicit coverage/gaps inventory": ("Under review", "ONGOING_SOURCE_TRIAGE", "Dated coverage inventory exists, but future sources and gap reports remain ongoing."),
     "Answer obscure lore and chronology": ("Under review", "QA_COVERAGE", "Cited Q&A works on bounded claims; unsupported questions remain UNKNOWN."),
     "Integrate card, lore and rules search": ("Under review", "QA_COVERAGE", "Cross-domain answer routes and current rules edges need further breadth."),
-    "Test difficult representative queries": ("Under review", "QA_COVERAGE", "76 representative acceptance questions plus independent chronology and graph-path matrices are regression samples, not exhaustive interaction coverage."),
 }
 
 
@@ -120,7 +117,7 @@ def build() -> dict:
         part = [r for r in rows if r["section"] == phase]
         phases[phase] = {"total": len(part), "checked": sum(r["checked"] for r in part),
                          "open": sum(not r["checked"] for r in part)}
-    return {"schema": "full-engineering-checklist-triage/v1", "as_of": "2026-10-31",
+    return {"schema": "full-engineering-checklist-triage/v1", "as_of": "2026-11-01",
             "authority": "MTG_MULTIVERSE_MASTER_WORKFLOW.md",
             "disclaimer": "All 137 tasks, not the seven foundation-release criteria; completed means a checked engineering task, not certified lore or deck approval.",
             "totals": {"items": len(rows), "checked": counts["Completed"],
@@ -131,7 +128,7 @@ def build() -> dict:
 
 def markdown(data: dict) -> str:
     t = data["totals"]
-    lines = ["# Complete Master Workflow checklist triage — 2026-10-31", "",
+    lines = ["# Complete Master Workflow checklist triage — 2026-11-01", "",
              f"**{t['checked']}/{t['items']} checked; {t['open']} open.** "
              + "; ".join(f"{k}: {v}" for k, v in t["by_status"].items()) + ".", "",
              "This inventory is **not foundation certification**. Deferred Phase 6 tasks remain deliberately blocked, "
