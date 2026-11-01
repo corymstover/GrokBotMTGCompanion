@@ -36,7 +36,6 @@ OPEN = {
     "Publish reproducible totals for **all Scryfall set codes**": ("Under review", "QUALIFIED_SCOPE", "All 1,062 categories are counted; an all-time first-party premier-set count is not certified."),
     "Connect sets to supported planes": ("Under review", "SOURCE_GRADING", "Existing cited story-series joins are not exhaustive set-to-canon relationships."),
     "Link direct printed depictions": ("Under review", "SOURCE_GRADING", "Proof tiers and 570 printing labels exist, but direct depiction evidence remains incomplete."),
-    "Expand the primary-source inventory": ("Under review", "ONGOING_SOURCE_RESEARCH", "The source roster and quotation audits require continued expansion/review."),
     "Record directional, dated, cited relationships": ("Under review", "CHRONOLOGY_GAPS", "Only a subset of graph relations carry source-quoted in-universe time phrases."),
     "**Pack A: Ugin, Nicol Bolas": ("Under review", "PRELIMINARY_LORE", "Elder Dragon War history and genealogy are researched but not exhaustively settled."),
     "Finish Pack A's disputed Elder Dragon War": ("Blocked", "OWNER_AND_SOURCE_DECISION", "Several conflicting genealogies require citations or explicit decisions; pilots remain parked."),
@@ -46,11 +45,8 @@ OPEN = {
     "Expand the Mending, major planeswalkers": ("Under review", "COVERAGE_GAPS", "Mending and Gatewatch biographies/events are not comprehensively source-audited."),
     "Expand Bolas's schemes": ("Under review", "COVERAGE_GAPS", "War of the Spark sources are only partially extracted."),
     "Expand Mirrodin/New Phyrexia": ("Under review", "COVERAGE_GAPS", "Main-story claim packs do not exhaust side stories or consequences."),
-    "Expand Omenpaths": ("Under review", "COVERAGE_GAPS", "Newer stories and continuity changes require further cited claims."),
-    "Connect cross-plane histories": ("Under review", "CHRONOLOGY_GAPS", "Explicit SAME_EVENT bridges exist, but most cross-plane order/retcon claims are unresolved."),
+    "Connect cross-plane histories": ("Under review", "CHRONOLOGY_GAPS", "Explicit SAME_EVENT bridges and cited graph navigation exist, but most cross-plane temporal ordering and retcon synthesis remain unresolved."),
     "Maintain an explicit coverage/gaps inventory": ("Under review", "ONGOING_SOURCE_TRIAGE", "Dated coverage inventory exists, but future sources and gap reports remain ongoing."),
-    "Answer obscure lore and chronology": ("Under review", "QA_COVERAGE", "Cited Q&A works on bounded claims; unsupported questions remain UNKNOWN."),
-    "Integrate card, lore and rules search": ("Under review", "QA_COVERAGE", "Cross-domain answer routes and current rules edges need further breadth."),
 }
 
 

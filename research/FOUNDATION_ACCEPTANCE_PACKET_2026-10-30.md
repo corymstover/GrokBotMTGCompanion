@@ -120,6 +120,22 @@ This source-graded packet is reproducible from the repository, with exact input 
 | Compare The Brothers' War set release chronology with cited in-universe events | `ask->set_atlas:dual_timeline` | `QUALIFIED` | 8 |
 | Compare the release and lore timelines for Bloomburrow | `ask->set_atlas:dual_timeline` | `QUALIFIED` | 7 |
 | Compare the release and lore timelines for Zorblax Time Rift | `ask->set_atlas:dual_timeline` | `NOT_FOUND` | 1 |
+| Who killed Vito? | `ask->lore:killed` | `VERIFIED` | 1 |
+| Who released Valgavoth? | `ask->lore:freed` | `VERIFIED` | 1 |
+| Who captured Loot? | `ask->lore:captured` | `VERIFIED` | 1 |
+| Who kidnapped Tamiyo? | `ask->lore:abducted` | `VERIFIED` | 1 |
+| Who is Kellan's father? | `ask->lore:father_of` | `VERIFIED` | 1 |
+| Who is Chandra Nalaar's lover? | `ask->lore:romantically_involved_with` | `VERIFIED` | 2 |
+| Who are Jace's allies? | `ask->lore:allied_with|friend_of|childhood_friend_of` | `VERIFIED` | 3 |
+| How is Tezzeret connected to Kaladesh? | `ask->graph_connection` | `QUALIFIED` | 4 |
+| How is Amonkhet connected to Ravnica? | `ask->graph_connection` | `QUALIFIED` | 4 |
+| How is Zorblax connected to Kaladesh? | `ask->graph_connection` | `NOT_FOUND` | 0 |
+| Explain the continuity of Nicol Bolas | `ask->continuity` | `QUALIFIED` | 39 |
+| Timeline of Azorius | `ask->chronology_overview` | `QUALIFIED` | 3 |
+| Show chronology of the War of the Spark | `ask->chronology_overview` | `QUALIFIED` | 3 |
+| Show chronology strand P | `ask->chronology_overview` | `QUALIFIED` | 1 |
+| Show chronology strand H | `ask->chronology_overview` | `QUALIFIED` | 1 |
+| What are the lore and Commander eligibility of Black Lotus? | `ask->card_lore_commander_evidence` | `QUALIFIED` | 2 |
 
 The underlying JSON retains response digests, exact source URLs and caveat flags. The two graph-navigation examples are **not** evidence of chronological or causal paths.
 
@@ -142,6 +158,6 @@ python3 scripts/certification_dry_run.py --check
 python3 scripts/update_multiverse_progress_tracker.py --check
 ```
 
-Packet SHA-256 (canonical JSON): `ea4aea47bf88b68e341b565d564c8756aedc4450339d9396f4f410819cc91769`
+Packet SHA-256 (canonical JSON): `bb65ee0a1ee9aac812e0c2df16fee0e12996f15dc92a4602a9c315068e0d7094`
 
 **No decks were built, modified, reviewed or approved.**

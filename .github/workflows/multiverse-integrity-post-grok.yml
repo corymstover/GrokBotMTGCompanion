@@ -17,6 +17,9 @@ on:
       - 'scripts/query_lore_chronology.py'
       - 'scripts/source_event_sequences.py'
       - 'scripts/build_foundation_acceptance_packet.py'
+      - 'scripts/audit_foundation_capabilities.py'
+      - 'data/release/foundation_capability_scope_2026-11-01.json'
+      - 'tests/test_foundation_capability_scope.py'
       - 'scripts/monitor_multiverse_updates.py'
       - 'scripts/build_plane_history_priorities.py'
       - 'scripts/build_plane_history_dossiers.py'
@@ -102,6 +105,9 @@ on:
       - 'scripts/query_lore_chronology.py'
       - 'scripts/source_event_sequences.py'
       - 'scripts/build_foundation_acceptance_packet.py'
+      - 'scripts/audit_foundation_capabilities.py'
+      - 'data/release/foundation_capability_scope_2026-11-01.json'
+      - 'tests/test_foundation_capability_scope.py'
       - 'scripts/monitor_multiverse_updates.py'
       - 'scripts/build_plane_history_priorities.py'
       - 'scripts/build_plane_history_dossiers.py'
@@ -206,6 +212,9 @@ jobs:
           python3 -m unittest discover -s tests -p 'test_phase1b_snapshot_cache_diagnostics.py' -q
       - name: Current progress checkpoint, read-only release dry run and representative queries
         run: |
+          python3 scripts/build_foundation_acceptance_packet.py --check
+          python3 scripts/audit_foundation_capabilities.py --check
+          python3 -m unittest tests.test_foundation_capability_scope -q
           python3 scripts/update_multiverse_progress_tracker.py --check
           python3 -m unittest discover -s tests -p 'test_multiverse_progress_tracker.py' -q
           python3 scripts/certification_dry_run.py --check

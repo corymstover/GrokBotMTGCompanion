@@ -2092,6 +2092,318 @@
       "direct_claims": null,
       "chronology_relation": null,
       "known_limitations": []
+    },
+    {
+      "id": "hard_vito_killer",
+      "question": "Who killed Vito?",
+      "route": "ask->lore:killed",
+      "confidence": "VERIFIED",
+      "flags": [],
+      "sources": [
+        "https://magic.wizards.com/en/news/magic-story/the-lost-caverns-of-ixalan-episode-6"
+      ],
+      "response_sha256": "08875f46ef132cd41aeededcafa1999be62718f4fef2bc53c18696205f5b77c4",
+      "direct_claims": null,
+      "chronology_relation": null,
+      "known_limitations": []
+    },
+    {
+      "id": "hard_valgavoth_release",
+      "question": "Who released Valgavoth?",
+      "route": "ask->lore:freed",
+      "confidence": "VERIFIED",
+      "flags": [],
+      "sources": [
+        "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-duskmourn"
+      ],
+      "response_sha256": "49f196736f4bf08acfa67b522dd4ba261bd60ad6a772f8388320962fc474a8f9",
+      "direct_claims": null,
+      "chronology_relation": null,
+      "known_limitations": []
+    },
+    {
+      "id": "hard_loot_capture",
+      "question": "Who captured Loot?",
+      "route": "ask->lore:captured",
+      "confidence": "VERIFIED",
+      "flags": [],
+      "sources": [
+        "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-aetherdrift-part-1"
+      ],
+      "response_sha256": "f5bd01e850f3f4be7f97d8f42a961cfe1853188f4eb350866dc19c293aca2a4e",
+      "direct_claims": null,
+      "chronology_relation": null,
+      "known_limitations": []
+    },
+    {
+      "id": "hard_tamiyo_abduction",
+      "question": "Who kidnapped Tamiyo?",
+      "route": "ask->lore:abducted",
+      "confidence": "VERIFIED",
+      "flags": [],
+      "sources": [
+        "https://magic.wizards.com/en/news/magic-story/episode-5-threads-war-2022-01-27"
+      ],
+      "response_sha256": "78a797e8822231655be37dde57a3703811434710990f063d34e28356c1aa25bc",
+      "direct_claims": null,
+      "chronology_relation": null,
+      "known_limitations": []
+    },
+    {
+      "id": "hard_kellan_father",
+      "question": "Who is Kellan's father?",
+      "route": "ask->lore:father_of",
+      "confidence": "VERIFIED",
+      "flags": [
+        "PARENT_ROLE_EXPLICIT_IN_CITED_CLAIM"
+      ],
+      "sources": [
+        "https://magic.wizards.com/en/news/magic-story/episode-5-broken-oaths"
+      ],
+      "response_sha256": "9f8f4907c572c81cde9ddee3a4c00493e39c3e059544e829831ea1ed09ae1425",
+      "direct_claims": null,
+      "chronology_relation": null,
+      "known_limitations": []
+    },
+    {
+      "id": "hard_chandra_partner",
+      "question": "Who is Chandra Nalaar's lover?",
+      "route": "ask->lore:romantically_involved_with",
+      "confidence": "VERIFIED",
+      "flags": [],
+      "sources": [
+        "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-aetherdrift-part-1",
+        "https://magic.wizards.com/en/news/magic-story/aetherdrift-episode-2-pit-stop"
+      ],
+      "response_sha256": "1880e5d18df7dce076ddc0ebcd8dd0b8e46db69822471d3eb86fc533c4a8be9a",
+      "direct_claims": null,
+      "chronology_relation": null,
+      "known_limitations": []
+    },
+    {
+      "id": "hard_jace_allies",
+      "question": "Who are Jace's allies?",
+      "route": "ask->lore:allied_with|friend_of|childhood_friend_of",
+      "confidence": "VERIFIED",
+      "flags": [
+        "MATCHED_BY_FIRST_NAME"
+      ],
+      "sources": [
+        "https://magic.wizards.com/en/news/magic-story/episode-four-dont-give-up",
+        "https://magic.wizards.com/en/news/magic-story/race-part-2-2017-10-18",
+        "https://magic.wizards.com/en/news/magic-story/skies-over-ghirapur-2017-01-11"
+      ],
+      "response_sha256": "5db9d70abe7b0d3f4f1702c09faee7f71883bd60548990bf140c00660a13e2a9",
+      "direct_claims": null,
+      "chronology_relation": null,
+      "known_limitations": []
+    },
+    {
+      "id": "graph_nav_tezzeret_kaladesh",
+      "question": "How is Tezzeret connected to Kaladesh?",
+      "route": "ask->graph_connection",
+      "confidence": "QUALIFIED",
+      "flags": [
+        "GRAPH_NAVIGATION_ONLY",
+        "NOT_TEMPORAL_OR_CAUSAL_PROOF"
+      ],
+      "sources": [
+        "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-aetherdrift-part-1",
+        "https://magic.wizards.com/en/news/magic-story/aetherdrift-episode-2-pit-stop",
+        "https://magic.wizards.com/en/news/magic-story/release-2016-10-05",
+        "https://magic.wizards.com/en/news/magic-story/torch-defiance-2016-09-07"
+      ],
+      "response_sha256": "a8d58872483b899f1c4e68b2724e9eed6bec96e3a337d4d6a0e47d2fbbf3d72e",
+      "direct_claims": null,
+      "chronology_relation": null,
+      "known_limitations": []
+    },
+    {
+      "id": "graph_nav_amonkhet_ravnica",
+      "question": "How is Amonkhet connected to Ravnica?",
+      "route": "ask->graph_connection",
+      "confidence": "QUALIFIED",
+      "flags": [
+        "GRAPH_NAVIGATION_ONLY",
+        "NOT_TEMPORAL_OR_CAUSAL_PROOF"
+      ],
+      "sources": [
+        "https://magic.wizards.com/en/news/magic-story/favor-2017-07-05",
+        "https://magic.wizards.com/en/news/magic-story/talented-captain-vraska-2017-09-20",
+        "https://magic.wizards.com/en/news/magic-story/trust-2017-04-05",
+        "https://magic.wizards.com/en/story/vraska-planeswalker"
+      ],
+      "response_sha256": "86d29e355f54c51a973d676c7abaf0f8c8d4ccc05e7e4503bf3113db9b95cc6d",
+      "direct_claims": null,
+      "chronology_relation": null,
+      "known_limitations": []
+    },
+    {
+      "id": "graph_nav_unknown",
+      "question": "How is Zorblax connected to Kaladesh?",
+      "route": "ask->graph_connection",
+      "confidence": "NOT_FOUND",
+      "flags": [
+        "GRAPH_NAVIGATION_ONLY",
+        "NOT_TEMPORAL_OR_CAUSAL_PROOF",
+        "UNKNOWN_OR_AMBIGUOUS_ENDPOINT"
+      ],
+      "sources": [],
+      "response_sha256": "cf1633e056ebd30d8f704a4fb99d65e1130ee99c925a0a9e87aa4023ef385aa8",
+      "direct_claims": null,
+      "chronology_relation": null,
+      "known_limitations": []
+    },
+    {
+      "id": "retcon_bolas",
+      "question": "Explain the continuity of Nicol Bolas",
+      "route": "ask->continuity",
+      "confidence": "QUALIFIED",
+      "flags": [
+        "TIMELINE_CONTEXT_REQUIRED",
+        "ALTERNATE_CONTINUITY_PRESENT",
+        "CANON_DISPUTED_PRESENT",
+        "OPEN_QUESTION_PRESENT"
+      ],
+      "sources": [
+        "https://magic.wizards.com/en/news/feature/planes-planechase-2009-12-30",
+        "https://magic.wizards.com/en/news/feature/reforged-chain-2015-01-21",
+        "https://magic.wizards.com/en/news/feature/returning-legends-modern-horizons-2-2021-06-10",
+        "https://magic.wizards.com/en/news/magic-story/arbiter-law-left-chaos-his-wake-2018-01-24",
+        "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-blood-and-fire-2018-07-18",
+        "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-perspectives-2018-08-08",
+        "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-twins-2018-06-13",
+        "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-unwritten-now-2018-08-15",
+        "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-whispers-treachery-2018-07-11",
+        "https://magic.wizards.com/en/news/magic-story/favor-2017-07-05",
+        "https://magic.wizards.com/en/news/magic-story/hand-moves-2017-04-26",
+        "https://magic.wizards.com/en/news/magic-story/hour-devastation-2017-07-26",
+        "https://magic.wizards.com/en/news/magic-story/hour-eternity-2017-07-12",
+        "https://magic.wizards.com/en/news/magic-story/hour-revelation-2017-06-07",
+        "https://magic.wizards.com/en/news/magic-story/impact-2017-03-29",
+        "https://magic.wizards.com/en/news/magic-story/judgment-2017-05-17",
+        "https://magic.wizards.com/en/news/magic-story/khanfall-2015-02-18",
+        "https://magic.wizards.com/en/news/magic-story/lorwyn-eclipsed-episode-2-shake-off-slumber",
+        "https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-fate-reforged-2015-01-07",
+        "https://magic.wizards.com/en/news/magic-story/puppets-2017-01-25",
+        "https://magic.wizards.com/en/news/magic-story/renewal-2017-02-01",
+        "https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-12-2018-05-30",
+        "https://magic.wizards.com/en/news/magic-story/sabotage-2018-01-31",
+        "https://magic.wizards.com/en/news/magic-story/story-tarkir-block-2015-04-29",
+        "https://magic.wizards.com/en/news/magic-story/talented-captain-vraska-2017-09-20",
+        "https://magic.wizards.com/en/news/magic-story/tarkir-dragonstorm-episode-7-return",
+        "https://magic.wizards.com/en/news/magic-story/the-battle-of-fort-keff",
+        "https://magic.wizards.com/en/news/magic-story/the-madness-of-sarkhan",
+        "https://magic.wizards.com/en/news/magic-story/trust-2017-04-05",
+        "https://magic.wizards.com/en/news/magic-story/unbowed-part-2-2018-09-05",
+        "https://magic.wizards.com/en/news/magic-story/unkindness-ravens-2015-07-29",
+        "https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-rallying-reluctant-2019-05-22",
+        "https://magic.wizards.com/en/news/magic-story/writing-wall-2017-04-12",
+        "https://magic.wizards.com/en/news/making-magic/even-more-war-games-2019-05-06",
+        "https://magic.wizards.com/en/story/alara-plane",
+        "https://magic.wizards.com/en/story/amonkhet-plane",
+        "https://magic.wizards.com/en/story/sarkhan-vol-planeswalker",
+        "https://magic.wizards.com/en/story/ugin-planeswalker",
+        "https://www.magic.wizards.com/en/news/magic-story/planeswalkers-guide-to-reality-fracture"
+      ],
+      "response_sha256": "645b61d41d90b31fc3fbd235a16754284190c398d01362b04abe7de3dc1e28d1",
+      "direct_claims": null,
+      "chronology_relation": null,
+      "known_limitations": []
+    },
+    {
+      "id": "strand_bare_azorius",
+      "question": "Timeline of Azorius",
+      "route": "ask->chronology_overview",
+      "confidence": "QUALIFIED",
+      "flags": [
+        "SOURCE_LOCAL_NOT_GLOBAL_CHRONOLOGY",
+        "PARTIAL_SOURCE_LOCAL_CHRONOLOGY"
+      ],
+      "sources": [
+        "https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-old-friends-and-new-2019-05-08",
+        "https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-operation-desperation-2019-06-05",
+        "https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-rallying-reluctant-2019-05-22"
+      ],
+      "response_sha256": "6022cabd2cfe5054d1b9fdf94e0c2a6e1a124030a5bba7980232657184aec4ba",
+      "direct_claims": null,
+      "chronology_relation": null,
+      "known_limitations": []
+    },
+    {
+      "id": "strand_war_of_spark_title",
+      "question": "Show chronology of the War of the Spark",
+      "route": "ask->chronology_overview",
+      "confidence": "QUALIFIED",
+      "flags": [
+        "SOURCE_LOCAL_NOT_GLOBAL_CHRONOLOGY",
+        "PARTIAL_SOURCE_LOCAL_CHRONOLOGY"
+      ],
+      "sources": [
+        "https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-old-friends-and-new-2019-05-08",
+        "https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-operation-desperation-2019-06-05",
+        "https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-rallying-reluctant-2019-05-22"
+      ],
+      "response_sha256": "e8c82387c0b0d840fdf64d671e9496404a7ae7a58a3945e1e8258ca1a71db16e",
+      "direct_claims": null,
+      "chronology_relation": null,
+      "known_limitations": []
+    },
+    {
+      "id": "strand_mirrodin_new_phyrexia_explicit",
+      "question": "Show chronology strand P",
+      "route": "ask->chronology_overview",
+      "confidence": "QUALIFIED",
+      "flags": [
+        "SOURCE_LOCAL_NOT_GLOBAL_CHRONOLOGY",
+        "PARTIAL_SOURCE_LOCAL_CHRONOLOGY",
+        "UNRESOLVED_STRICT_EVENT_ORDER"
+      ],
+      "sources": [
+        "https://magic.wizards.com/en/story/new-phyrexia-plane"
+      ],
+      "response_sha256": "84e28be2971cbe60c06bf0ba7182c1ad8d131e1386685c376a6e380485a275d7",
+      "direct_claims": null,
+      "chronology_relation": null,
+      "known_limitations": []
+    },
+    {
+      "id": "strand_mirrodin_argentum_explicit",
+      "question": "Show chronology strand H",
+      "route": "ask->chronology_overview",
+      "confidence": "QUALIFIED",
+      "flags": [
+        "SOURCE_LOCAL_NOT_GLOBAL_CHRONOLOGY",
+        "PARTIAL_SOURCE_LOCAL_CHRONOLOGY"
+      ],
+      "sources": [
+        "https://magic.wizards.com/en/news/feature/known-mutliverse-2008-03-19"
+      ],
+      "response_sha256": "0072cf6b5ffaee278c5f517c1368405d177a12a5ce39c45f869c1f6ab66b4b79",
+      "direct_claims": null,
+      "chronology_relation": null,
+      "known_limitations": []
+    },
+    {
+      "id": "cross_domain_black_lotus",
+      "question": "What are the lore and Commander eligibility of Black Lotus?",
+      "route": "ask->card_lore_commander_evidence",
+      "confidence": "QUALIFIED",
+      "flags": [
+        "DATED_SCRYFALL_LEGALITY_NOT_LIVE",
+        "GRAPH_NAME_BRIDGE_NOT_DEPICTION_PROOF",
+        "NO_RULES_SIMULATION",
+        "NO_UNIQUE_GRAPH_CARD_ANCHOR",
+        "PARTIAL_DIRECT_LORE_ONLY"
+      ],
+      "sources": [
+        "https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt",
+        "https://scryfall.com/card/vma/4/black-lotus"
+      ],
+      "response_sha256": "05c379917cf727f86caf011db6fa08d9f944e5bcfb43b5de647ec88fbfe5bad3",
+      "direct_claims": null,
+      "chronology_relation": null,
+      "known_limitations": []
     }
   ],
   "cross_plane_graph_navigation": [
@@ -2181,5 +2493,5 @@
     "python3 scripts/update_multiverse_progress_tracker.py --check"
   ],
   "owner_review_status": "PENDING_NOT_REQUESTED_UNTIL_ENGINEERING_EVIDENCE_AND_CI_COMPLETE",
-  "content_sha256": "ea4aea47bf88b68e341b565d564c8756aedc4450339d9396f4f410819cc91769"
+  "content_sha256": "bb65ee0a1ee9aac812e0c2df16fee0e12996f15dc92a4602a9c315068e0d7094"
 }
