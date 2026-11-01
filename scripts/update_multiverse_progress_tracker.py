@@ -80,6 +80,8 @@ def build() -> str:
     assert len(enrichment) == 5362, "unexpected priority-enrichment count; review the tracker generator"
     current_claims = sum(graph["claims_by_status"].values())
     assert coverage["claims"] == current_claims, "story inventory and graph claim counts diverged"
+    local_chronology = load("data/lore_research/source_event_sequences_2026-10-30.json")["counts"]
+    acceptance_cases = load("data/release/foundation_acceptance_packet_2026-10-30.json")["representative_questions"]
     gate_rows, gate_counts = gate_triage()
     gate_lines = [
         '| Gate | Triage | Remaining blocker types |',
@@ -130,6 +132,15 @@ items count as blocked by the foundation-first directive, not unfinished
 foundation certification tasks.
 
 {gate_report}
+
+**Latest bounded QA/chronology evidence:** {local_chronology['strands']} source-local historical strands,
+{local_chronology['events']} events and {local_chronology['strict_edges']} strict order edges;
+{local_chronology['ordered_pairs']}/{local_chronology['total_pairs']} proven event pairs, with
+{local_chronology['verified_legacy_bridges']} separate legacy identity bridges and
+{local_chronology['non_ordering_relations']} non-ordering overlaps. The {len(acceptance_cases)}-case
+foundation acceptance packet remains **NOT CERTIFIED**. Card lookup is reconciled
+against the immutable October 30 Scryfall Oracle bulk, while published rulings
+and official rules remain separately dated. This is not a live release check.
 
 **Priority next steps:** verify current-era Q&A answers; close only evidence-backed graph
 identity and chronology gaps; expand comprehensive plane, character, faction and cross-plane

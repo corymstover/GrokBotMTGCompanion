@@ -21,7 +21,7 @@
     },
     "source_local_chronology": {
       "path": "data/lore_research/source_event_sequences_2026-10-30.json",
-      "sha256": "94d0e873507c6c49679b88ad0373dc65498cd64c8b7974adda879c0755431abd"
+      "sha256": "7d91c9a871efc5919c6692f261e844643b2d0a3a22621f0ad2f2292d1383ef7a"
     },
     "story_coverage": {
       "path": "data/lore_research/story_coverage_inventory_2026-10-30.json",
@@ -56,9 +56,9 @@
     "legacy_unresolved_pairs": 2897,
     "legacy_disconnected_components": 13,
     "legacy_cycles": 0,
-    "source_local_events": 139,
-    "source_local_ordered_pairs": 462,
-    "source_local_total_pairs": 9591,
+    "source_local_events": 144,
+    "source_local_ordered_pairs": 472,
+    "source_local_total_pairs": 10296,
     "not_additive": "Legacy and source-local data are separately scoped; their pairs may not be summed as one chronology.",
     "l244_complete": false
   },
@@ -720,6 +720,53 @@
       "response_sha256": "2d3af33c9de10c93b8bfdc2e5e3d695cad073578e7aad9bfbe417f3345f47172",
       "direct_claims": null,
       "chronology_relation": "BEFORE",
+      "known_limitations": []
+    },
+    {
+      "id": "azorius_isperia_before_dovin",
+      "question": "Did X:isperia_assassinated happen before X:dovin_new_guildmaster?",
+      "route": "ask->chronology",
+      "confidence": "QUALIFIED",
+      "flags": [
+        "PARTIAL_IN_UNIVERSE_CHRONOLOGY"
+      ],
+      "sources": [
+        "https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-rallying-reluctant-2019-05-22"
+      ],
+      "response_sha256": "5390155eb91d3c4912f06faf9c82d1fc252a3a3e3d522683bb456c1bc774c6ed",
+      "direct_claims": null,
+      "chronology_relation": "BEFORE",
+      "known_limitations": []
+    },
+    {
+      "id": "azorius_dovin_flight_before_lavinia_acting",
+      "question": "Did X:dovin_flees happen before X:lavinia_acting?",
+      "route": "ask->chronology",
+      "confidence": "QUALIFIED",
+      "flags": [
+        "PARTIAL_IN_UNIVERSE_CHRONOLOGY"
+      ],
+      "sources": [
+        "https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-operation-desperation-2019-06-05"
+      ],
+      "response_sha256": "72ebec0489e04aad3a758f315ecd09f15ab8dd8566694a725d985ee4218a5942",
+      "direct_claims": null,
+      "chronology_relation": "BEFORE",
+      "known_limitations": []
+    },
+    {
+      "id": "azorius_2019_event_vs_amonkhet_bridge_unknown",
+      "question": "Did X:lavinia_acting happen before E:eternal_flow_stopped?",
+      "route": "ask->chronology",
+      "confidence": "QUALIFIED",
+      "flags": [
+        "PARTIAL_IN_UNIVERSE_CHRONOLOGY",
+        "NO_CITED_CHRONOLOGY_PATH"
+      ],
+      "sources": [],
+      "response_sha256": "2a3adce9f053d6d47b99a2ee741132a147f16f74f3db3e3bc95c33e8a67f1f88",
+      "direct_claims": null,
+      "chronology_relation": "UNKNOWN",
       "known_limitations": []
     },
     {
@@ -2007,5 +2054,5 @@
     "python3 scripts/update_multiverse_progress_tracker.py --check"
   ],
   "owner_review_status": "PENDING_NOT_REQUESTED_UNTIL_ENGINEERING_EVIDENCE_AND_CI_COMPLETE",
-  "content_sha256": "a0913db57a140573567a565a7ae340dde59c4cb2b9ef50fcc35c07f956f7f752"
+  "content_sha256": "7a531049a759805ad2ec6e7498ccc97d1d8cdf0561a860d12ca6c11259f1a4c2"
 }

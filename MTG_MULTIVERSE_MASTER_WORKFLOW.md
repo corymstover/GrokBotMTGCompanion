@@ -1,6 +1,6 @@
 # MTG Multiverse Companion — Master Workflow & Progress Checklist
 
-**Version:** 2.92
+**Version:** 2.93
 **Checkpoint date:** 2026-11-01
 **Repository:** [corymstover/GrokBotMTGCompanion](https://github.com/corymstover/GrokBotMTGCompanion)  
 **Purpose:** Durable project roadmap and handoff document. Update this file after verified milestone work; do not treat historical figures as live counters.
@@ -22,6 +22,29 @@ foundation release may document inherently unresolved canon and future
 maintenance; it must never claim exhaustive knowledge of all MTG history.
 The 62 approved Grixis decks, their hashes and all owner gates remain intact.
 Only a new explicit request from Cory can override the Phase 6 hold.
+
+**v2.93 War of the Spark Azorius succession and October 30 card lookup freshness
+(2026-11-01):** A new bounded **five-event, four-strict-edge** official-story
+strand tracks Isperia's assassination while guildmaster, Dovin Baan's later
+attested office and flight from Ravnica, and Lavinia's subsequent *acting*
+guildmaster role. The independent source-local chronology now has **16 strands,
+144 events, 116 strict edges, five non-ordering overlaps and 472/10,296
+supported ordered pairs**, plus eight unchanged legacy identity bridges.
+All **129 quoted excerpts across 21 live Wizards pages** pass the live replay.
+The sequence does not claim appointment dates, a permanent Lavinia appointment,
+or a verified current Azorius leader; the independent all-pair oracle and three
+new supported/UNKNOWN Q&A examples preserve these bounds. The Phase 8
+representative packet now contains **92 cases, NOT CERTIFIED**.
+
+Separately, the card lookup's reconciliation now refers to the **October 30
+independently replayed Scryfall Oracle bulk**, and fails closed if the stored
+drift report disagrees with the actual snapshot manifest, indexed row count or
+per-field evidence. Unchanged indexed cards can be labeled reconciled to that
+dated bulk; this is **not** a live November 1 Oracle or ban-list check. The
+published-rulings shard and official rules remain explicitly dated, and this
+does not close the cross-domain Q&A/release gates. **94/137 checked, 43 open,
+NOT_RELEASE_READY.** The 62 approved decks, three parked pilots and snapshots
+are untouched. See `research/PHASE4_AZORIUS_SUCCESSION_AND_PHASE7_FRESHNESS_2026-11-01.md`.
 
 **v2.84 Gatewatch founding chronology and Phase 3 identity integrity
 (2026-10-31):** A new separately source-bounded Zendikar/Gatewatch strand

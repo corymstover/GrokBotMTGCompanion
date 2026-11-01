@@ -1,6 +1,8 @@
 """Phase 7 companion: representative hard queries with explicit confidence flags."""
 import sys
 import unittest
+import copy
+import json
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -9,6 +11,35 @@ import mv_ask as A  # noqa: E402
 
 
 class CompanionTests(unittest.TestCase):
+    def test_current_reconciled_scryfall_bulk_is_attached_to_the_actual_lookup(self):
+        self.assertEqual(A.CURRENT_SNAPSHOT_DATE, '2026-10-30')
+        self.assertTrue(A._reconciled('Sol Ring'))
+        r = A.card('Sol Ring')
+        self.assertEqual(r['confidence'], 'VERIFIED')
+        self.assertEqual(r['data_as_of'], '2026-10-15')
+        self.assertEqual(r['flags_info'], ['ORACLE_RECONCILED_WITH_SNAPSHOT_2026-10-30'])
+
+    def test_reconciliation_fails_closed_on_partial_or_mismatched_evidence(self):
+        d = json.loads(A.DRIFT_REPORT.read_text(encoding='utf-8'))
+        m = json.loads(A.SNAPSHOT_MANIFEST.read_text(encoding='utf-8'))
+        n = d['index_rows']
+        self.assertEqual(A._validated_drift(d, m, n), (True, set()))
+        wrong = copy.deepcopy(m)
+        wrong['files']['oracle-cards']['filename'] = 'different-source.jsonl.gz'
+        self.assertEqual(A._validated_drift(d, wrong, n), (False, set()))
+        incomplete = copy.deepcopy(d)
+        incomplete['counts']['shard_text_unparsed'] = 1
+        self.assertEqual(A._validated_drift(incomplete, m, n), (False, set()))
+        omitted = copy.deepcopy(d)
+        del omitted['changed']['commander_legality']
+        self.assertEqual(A._validated_drift(omitted, m, n), (False, set()))
+        changed = copy.deepcopy(d)
+        changed['counts']['oracle_text'] = 1
+        changed['changed']['oracle_text'] = ['Sol Ring: fixture old -> changed']
+        self.assertEqual(A._validated_drift(changed, m, n), (True, {'Sol Ring'}))
+        changed['changed']['oracle_text'] = []
+        self.assertEqual(A._validated_drift(changed, m, n), (False, set()))
+
     def test_card_lookup_separates_oracle_and_flavor_and_flags_staleness(self):
         r = A.card("Sol Ring")
         self.assertEqual(r["result"]["oracle_text"], "{T}: Add {C}{C}.")
