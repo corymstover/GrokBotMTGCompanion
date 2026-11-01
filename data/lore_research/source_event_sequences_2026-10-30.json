@@ -2,7 +2,7 @@
   "schema": "source-event-sequences/v1",
   "status": "PRELIMINARY_RESEARCH_NOT_OWNER_APPROVED",
   "date": "2026-10-30",
-  "scope": "Fifteen bounded, individually sourced chronology strands. No automatic cross-strand alignment, no absolute AR date conversion and no assertions that a narrated legend is historical fact. The Gatewatch founding strand uses the official Battle for Zendikar retrospective and contemporaneous Oath/Last Stand episodes, not real-world set release order; it establishes only the founding episode on Zendikar, not the complete Gatewatch biography. The Thran-to-invasion strand uses the 2008 Wizards historical retrospective and does not decide the order between Old Phyrexia's decimation and Yawgmoth's destruction. The Dominaria-to-Kamigawa fracture sequence quotes explicit cross-plane cause, but does not globally align all plane eras. The Alara strand places Gideon's isolated-Bant arrival before the Conflux without assigning a cause to Alara's unknown original Sundering; wars concurrent with border dissolution are not forced into a BEFORE relation. The New Phyrexia strand describes early Mirrodin conquest, not post-March of the Machine politics. The early Meditation Realm strand is Ugin's remembered conflict; the distinct War of the Spark-to-Dragonstorm strand tracks later imprisonment and escape without claiming either dragon's death, present location or current spark state. The Amonkhet-to-Ravnica strand preserves Samut's firsthand warning and the Eternal flow's later shutdown as bounded, separate sequences; it does not invent a total interplane event order.",
+  "scope": "Sixteen bounded, individually sourced chronology strands. No automatic cross-strand alignment, no absolute AR date conversion and no assertions that a narrated legend is historical fact. The Gatewatch founding strand uses the official Battle for Zendikar retrospective and contemporaneous Oath/Last Stand episodes, not real-world set release order; it establishes only the founding episode on Zendikar, not the complete Gatewatch biography. The Thran-to-invasion strand uses the 2008 Wizards historical retrospective and does not decide the order between Old Phyrexia's decimation and Yawgmoth's destruction. The Dominaria-to-Kamigawa fracture sequence quotes explicit cross-plane cause, but does not globally align all plane eras. The Alara strand places Gideon's isolated-Bant arrival before the Conflux without assigning a cause to Alara's unknown original Sundering; wars concurrent with border dissolution are not forced into a BEFORE relation. The New Phyrexia strand describes early Mirrodin conquest, not post-March of the Machine politics. The early Meditation Realm strand is Ugin's remembered conflict; the distinct War of the Spark-to-Dragonstorm strand tracks later imprisonment and escape without claiming either dragon's death, present location or current spark state. The Amonkhet-to-Ravnica strand preserves Samut's firsthand warning and the Eternal flow's later shutdown as bounded, separate sequences; the separate Azorius-succession strand tracks the 2019 attested offices of Isperia, Dovin Baan and acting guildmaster Lavinia without asserting appointment dates or current leadership. Neither strand invents total interplane event order.",
   "sources": {
     "bfz_summary": {
       "url": "https://magic.wizards.com/en/news/magic-story/battle-zendikar-story-summary-2015-12-23",
@@ -94,6 +94,16 @@
       "title": "War of the Spark: Ravnica—Ashes",
       "published": "2019-06-12"
     },
+    "wr_old_friends": {
+      "url": "https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-old-friends-and-new-2019-05-08",
+      "title": "War of the Spark: Ravnica—Old Friends and New",
+      "published": "2019-05-08"
+    },
+    "wr_operation": {
+      "url": "https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-operation-desperation-2019-06-05",
+      "title": "War of the Spark: Ravnica—Operation Desperation",
+      "published": "2019-06-05"
+    },
     "wr_rallying": {
       "url": "https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-rallying-reluctant-2019-05-22",
       "title": "War of the Spark: Ravnica – Rallying the Reluctant",
@@ -101,12 +111,12 @@
     }
   },
   "counts": {
-    "strands": 15,
-    "events": 139,
-    "strict_edges": 112,
+    "strands": 16,
+    "events": 144,
+    "strict_edges": 116,
     "non_ordering_relations": 5,
-    "ordered_pairs": 462,
-    "total_pairs": 9591,
+    "ordered_pairs": 472,
+    "total_pairs": 10296,
     "verified_legacy_bridges": 8
   },
   "strands": [
@@ -234,6 +244,15 @@
       "limitation": "Samut's firsthand statement on Ravnica places the devastation of her Amonkhet home before her warning. Jace's concurrent account identifies the ongoing Planar Bridge flow from Amonkhet and its planned shutdown, while Rat later reports that flow stopped. These are partial source-local comparisons, not one continuous global sequence: the exact timing of the Amonkhet Hours against the Bridge's first activation and the order of every War of the Spark mission are not independently established. Neither story publication dates nor mechanical card-set release order creates an event-order edge.",
       "events": 5,
       "strict_edges": 3,
+      "non_ordering_relations": 0
+    },
+    {
+      "id": "X",
+      "title": "War of the Spark — Azorius leadership from Isperia through Dovin to acting guildmaster Lavinia",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "limitation": "The official 2019 Ravnica episodes attest an Azorius succession during the war, not appointment dates or an exhaustive guildmaster roster. Isperia was assassinated while guildmaster; Dovin is subsequently called the new guildmaster, and he later flees while Lavinia is called acting guildmaster. The source does not establish who holds the office today, precisely when Dovin took office, or whether Lavinia became permanent guildmaster. Story publication dates do not serve as in-universe dates.",
+      "events": 5,
+      "strict_edges": 4,
       "non_ordering_relations": 0
     },
     {
@@ -1401,6 +1420,66 @@
       "claims": [
         {
           "id": "A010",
+          "grade": "CANON_CONFIRMED"
+        }
+      ]
+    },
+    {
+      "id": "X:dovin_flees",
+      "strand": "X",
+      "label": "Dovin Baan flees Ravnica during the war",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": [
+        {
+          "id": "WR014",
+          "grade": "CANON_CONFIRMED"
+        }
+      ]
+    },
+    {
+      "id": "X:dovin_new_guildmaster",
+      "strand": "X",
+      "label": "Dovin Baan is attested as the new Azorius guildmaster",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": [
+        {
+          "id": "WR008",
+          "grade": "CANON_CONFIRMED"
+        }
+      ]
+    },
+    {
+      "id": "X:isperia_assassinated",
+      "strand": "X",
+      "label": "Vraska assassinates Azorius guildmaster Isperia",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": [
+        {
+          "id": "WR001",
+          "grade": "CANON_CONFIRMED"
+        }
+      ]
+    },
+    {
+      "id": "X:isperia_guildmaster",
+      "strand": "X",
+      "label": "Isperia is Azorius guildmaster before her assassination",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": [
+        {
+          "id": "WR003",
+          "grade": "CANON_CONFIRMED"
+        }
+      ]
+    },
+    {
+      "id": "X:lavinia_acting",
+      "strand": "X",
+      "label": "Lavinia is acting Azorius guildmaster after Dovin flees",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": [
+        {
+          "id": "WR013",
           "grade": "CANON_CONFIRMED"
         }
       ]
@@ -2896,6 +2975,54 @@
       "note": "The past-perfect shutdown presupposes the earlier flow. It does not date the exact moment the portal first opened or establish a strict order with Samut's warning."
     },
     {
+      "earlier": "X:isperia_guildmaster",
+      "later": "X:isperia_assassinated",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "wr_old_friends",
+      "source_url": "https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-old-friends-and-new-2019-05-08",
+      "source_title": "War of the Spark: Ravnica—Old Friends and New",
+      "quote": "assassinated Mistress Isperia, the Azorius guildmaster",
+      "quote_sha256": "57c1633bc93d56ad5c028137d969d8415713b393ba6ea7f0646f0fc6e51ca486",
+      "note": "The official account identifies Isperia as guildmaster when Vraska assassinated her; this is not an independently dated term of office."
+    },
+    {
+      "earlier": "X:isperia_assassinated",
+      "later": "X:dovin_new_guildmaster",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "wr_rallying",
+      "source_url": "https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-rallying-reluctant-2019-05-22",
+      "source_title": "War of the Spark: Ravnica – Rallying the Reluctant",
+      "quote": "the new Azorius guildmaster, Dovin Baan",
+      "quote_sha256": "13c1c5b10fdd3a246ad156208d37f919349a241141bb2ce964cecf290a499d19",
+      "note": "The war council names Isperia as deceased and Dovin as the new holder of her office. This orders the attested statuses, not the unknown exact date of Dovin's appointment."
+    },
+    {
+      "earlier": "X:dovin_new_guildmaster",
+      "later": "X:dovin_flees",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "wr_operation",
+      "source_url": "https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-operation-desperation-2019-06-05",
+      "source_title": "War of the Spark: Ravnica—Operation Desperation",
+      "quote": "It seems Master Dovin Baan had fled Ravnica, and Mistress Lavinia was now acting guildmaster of the Azorius Senate.",
+      "quote_sha256": "bbef37fceca29fda32014ed0a155376d3124e796d74b6d6dfb4bd519e49b2f01",
+      "note": "The later episode identifies Dovin as having fled, after the previous episode attests his office. No claim is made about his present location."
+    },
+    {
+      "earlier": "X:dovin_flees",
+      "later": "X:lavinia_acting",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "wr_operation",
+      "source_url": "https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-operation-desperation-2019-06-05",
+      "source_title": "War of the Spark: Ravnica—Operation Desperation",
+      "quote": "It seems Master Dovin Baan had fled Ravnica, and Mistress Lavinia was now acting guildmaster of the Azorius Senate.",
+      "quote_sha256": "bbef37fceca29fda32014ed0a155376d3124e796d74b6d6dfb4bd519e49b2f01",
+      "note": "Lavinia is acting guildmaster once Dovin has fled; the story does not document a permanent appointment or current leadership."
+    },
+    {
       "earlier": "S:serra_creates_realm",
       "later": "S:urza_flees",
       "relation": "BEFORE",
@@ -3670,6 +3797,25 @@
       "W:brothers_vanish",
       "W:narset_escapes"
     ],
+    "X:dovin_flees": [
+      "X:lavinia_acting"
+    ],
+    "X:dovin_new_guildmaster": [
+      "X:dovin_flees",
+      "X:lavinia_acting"
+    ],
+    "X:isperia_assassinated": [
+      "X:dovin_flees",
+      "X:dovin_new_guildmaster",
+      "X:lavinia_acting"
+    ],
+    "X:isperia_guildmaster": [
+      "X:dovin_flees",
+      "X:dovin_new_guildmaster",
+      "X:isperia_assassinated",
+      "X:lavinia_acting"
+    ],
+    "X:lavinia_acting": [],
     "Z:ancient_prison": [
       "Z:bolas_eye_activation",
       "Z:gatewatch_oath",
@@ -3794,5 +3940,5 @@
     "Unknown original plane names, absolute AR years and missing historical events are not supplied.",
     "This source-local supplement does not replace the original Packs A–C chronology or certify L244."
   ],
-  "content_sha256": "bf60fe269d9c1f49d7cca16d050352c2c395e7eb74ff5ffc3246424f12c0a737"
+  "content_sha256": "4762f15c7720cfeb44b71d587d99f0d2deaf14787b5cc00cdc7a09efef08b745"
 }

@@ -46,7 +46,7 @@ sys.path.insert(0, str(ROOT / "scripts"))
 from query_multiverse_graph import MG  # noqa: E402
 
 CARD_INDEX = ROOT / "data" / "card_index.csv"
-CURRENT_SNAPSHOT_DATE = "2026-10-29"  # active verified Scryfall release (snap-20261029)
+CURRENT_SNAPSHOT_DATE = "2026-10-30"  # latest committed, independently replayed Scryfall release
 QUALIFYING = {"CANON_DISPUTED", "OPEN_QUESTION", "ALTERNATE_CONTINUITY", "CANON_IMPLIED", "HYPOTHETICAL"}
 STRUCTURAL = {"cited_by", "asserts", "see_also_curated_entry", "proposed_in"}
 # A confirmed event in an erased timeline is not necessarily true in the surviving timeline.
@@ -97,7 +97,43 @@ def _section(shard: Path, name: str) -> str:
 
 
 DRIFT_REPORT = ROOT / "data" / "card_db" / f"oracle_drift_{CURRENT_SNAPSHOT_DATE}.json"
+SNAPSHOT_MANIFEST = ROOT / "data" / "scryfall_snapshots" / "snap-20261030-live-20261031.manifest.json"
 _drift = None
+
+
+def _validated_drift(d: dict, manifest: dict, indexed_rows: int) -> tuple[bool, set[str]]:
+    """Admit per-card freshness only if the report covers our exact frozen input.
+
+    A success-shaped but incomplete report, mismatched snapshot, or missing
+    comparison category must *not* turn old printed card shards into VERIFIED.
+    Individual changed cards remain qualified while unaffected cards can be
+    marked reconciled against the newer published bulk.
+    """
+    expected = ('oracle_text', 'name', 'type_line', 'color_identity',
+                'commander_legality', 'game_changer')
+    try:
+        if (d['schema'] != 'oracle-drift-report/v1'
+                or d['snapshot_date'] != CURRENT_SNAPSHOT_DATE
+                or d['snapshot_file'] != manifest['files']['oracle-cards']['filename']
+                or d['index_rows'] != indexed_rows
+                or d['shard_sections_parsed'] != indexed_rows
+                or d['counts']['missing_from_snapshot'] != 0
+                or d['counts']['shard_text_unparsed'] != 0):
+            return False, set()
+        changed = d['changed']
+        if any(not isinstance(changed[k], list) or d['counts'][k] != len(changed[k])
+               for k in expected):
+            return False, set()
+        names = {re.split(r'(?:: | -> )', entry)[0]
+                 for k in expected for entry in changed[k]
+                 if isinstance(entry, str)}
+        # Non-string change entries cannot safely be attributed to a card.
+        if sum(len(changed[k]) for k in expected) != sum(
+                isinstance(entry, str) for k in expected for entry in changed[k]):
+            return False, set()
+        return True, names
+    except (KeyError, TypeError, ValueError):
+        return False, set()
 
 
 def _reconciled(name: str) -> bool:
@@ -106,9 +142,8 @@ def _reconciled(name: str) -> bool:
     if _drift is None:
         try:
             d = json.loads(DRIFT_REPORT.read_text(encoding="utf-8"))
-            ok = d.get("snapshot_date") == CURRENT_SNAPSHOT_DATE and "changed" in d
-            names = {re.split(r"(?:: | -> )", x)[0] for v in d.get("changed", {}).values() for x in v}
-            _drift = (ok, names)
+            manifest = json.loads(SNAPSHOT_MANIFEST.read_text(encoding="utf-8"))
+            _drift = _validated_drift(d, manifest, len(card_index()))
         except (OSError, ValueError):
             _drift = (False, set())
     ok, changed = _drift

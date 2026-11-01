@@ -23,9 +23,29 @@ class SourceEventSequencesTests(unittest.TestCase):
         sig=d.pop('content_sha256')
         self.assertEqual(sig,S.digest(d))
         self.assertEqual(self.current['counts'],{
-            'strands':15,'events':139,'strict_edges':112,'non_ordering_relations':5,
-            'ordered_pairs':462,'total_pairs':9591,'verified_legacy_bridges':8,
+            'strands':16,'events':144,'strict_edges':116,'non_ordering_relations':5,
+            'ordered_pairs':472,'total_pairs':10296,'verified_legacy_bridges':8,
         })
+
+    def test_azorius_war_successions_are_dated_only_relative_to_the_2019_story(self):
+        data = self.current
+        chain = ['X:isperia_guildmaster', 'X:isperia_assassinated',
+                 'X:dovin_new_guildmaster', 'X:dovin_flees', 'X:lavinia_acting']
+        proof = S.proof(data, chain[0], chain[-1])
+        self.assertEqual(proof['result'], 'BEFORE')
+        self.assertEqual(len(proof['proof']), 4)
+        self.assertEqual([e['source_id'] for e in proof['proof']],
+                         ['wr_old_friends', 'wr_rallying', 'wr_operation', 'wr_operation'])
+        self.assertEqual(S.proof(data, 'X:dovin_flees', 'X:lavinia_acting')['result'], 'BEFORE')
+        self.assertEqual(S.proof(data, 'X:lavinia_acting', 'E:eternal_flow_stopped')['result'], 'UNKNOWN')
+        answer = A.ask('Did X:isperia_assassinated happen before X:lavinia_acting?')
+        self.assertEqual((answer['route'], answer['confidence'], answer['result']['relation']),
+                         ('ask->chronology', 'QUALIFIED', 'BEFORE'))
+        self.assertIn('https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-operation-desperation-2019-06-05', answer['sources'])
+        # Published in 2019 does not answer who occupies the office in 2026.
+        today = A.ask('Who currently leads the Azorius?')
+        self.assertEqual(today['confidence'], 'QUALIFIED')
+        self.assertIn('CURRENT_LEADER_NOT_ESTABLISHED', today['flags'])
 
     def test_zendikar_gatewatch_oath_is_after_two_distinct_eldrazi_prisons(self):
         source = self.current
