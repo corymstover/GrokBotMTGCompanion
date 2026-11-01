@@ -73,7 +73,7 @@ def build() -> str:
     if not readiness_files:
         raise ValueError("no current foundation readiness report")
     readiness = json.loads(readiness_files[-1].read_text(encoding="utf-8"))["verdict"]
-    full_triage = load("data/release/full_checklist_triage_2026-10-31.json")["totals"]
+    full_triage = load("data/release/full_checklist_triage_2026-11-01.json")["totals"]
     done = sum(x == "x" for x in checks)
     assert (full_triage["checked"], full_triage["open"], full_triage["items"]) == (
         done, len(checks) - done, len(checks)), "137-item checklist dashboard is stale"
@@ -124,8 +124,8 @@ source or remaining engineering work. The complete typed evidence is in
 Completed **{full_triage['by_status']['Completed']}** · Under review **{full_triage['by_status']['Under review']}** ·
 Blocked **{full_triage['by_status']['Blocked']}** · Not started **{full_triage['by_status']['Not started']}**.
 Every checked and unchecked task is accounted for in
-`data/release/full_checklist_triage_2026-10-31.json` and
-`research/FULL_CHECKLIST_TRIAGE_2026-10-31.md`. The ten deferred Phase 6
+`data/release/full_checklist_triage_2026-11-01.json` and
+`research/FULL_CHECKLIST_TRIAGE_2026-11-01.md`. The ten deferred Phase 6
 items count as blocked by the foundation-first directive, not unfinished
 foundation certification tasks.
 

@@ -37,7 +37,7 @@ Machine readiness verdict: **NOT_RELEASE_READY** ({'MET': 2, 'PARTIAL': 3, 'NOT_
   - `ONGOING`: Triggered by new sets: the next is nau (Set API release 2027-02-05, no printings yet). Evidence: `data/set_atlas/phase1b_snapshot_gates_2026-10-30.json`
 - [x] **Update snapshot manifests with actual download bytes and stable hashes.**
 - [x] **Maintain an honest progress tracker: completed, under review, blocked, and not started.**
-  - `ONGOING`: All 137 project tasks now have a deterministic Completed / Under review / Blocked / Not started audit and the 14 release/Phase 8 gates retain separate blocker triage. The engineering checkpoint is checked, but must keep regenerating as source evidence changes. Evidence: `Progress Tracker.md`, `scripts/audit_full_checklist.py`, `data/release/full_checklist_triage_2026-10-31.json`
+  - `ONGOING`: All 137 project tasks now have a deterministic Completed / Under review / Blocked / Not started audit and the 14 release/Phase 8 gates retain separate blocker triage. The engineering checkpoint is checked, but must keep regenerating as source evidence changes. Evidence: `Progress Tracker.md`, `scripts/audit_full_checklist.py`, `data/release/full_checklist_triage_2026-11-01.json`
 - [ ] **Define an MTG Multiverse Companion milestone release based on verified features, not an arbitrary percentage of all lore.**
   - `OWNER_DECISION`: release_readiness.py now scores a knowledge-only foundation (verdict NOT_RELEASE_READY); the owner must review the documented foundation scope, not any pilot deck. Evidence: `scripts/release_readiness.py`
 - [ ] **Treat continual future MTG releases as an ongoing maintenance track rather than a permanently finishable backlog.**

@@ -122,7 +122,7 @@ PHASE8_BLOCKERS = [
           "Not started audit and the 14 release/Phase 8 gates retain separate blocker triage. "
           "The engineering checkpoint is checked, but must keep regenerating as source evidence changes.",
           "Progress Tracker.md", "scripts/audit_full_checklist.py",
-          "data/release/full_checklist_triage_2026-10-31.json"),
+          "data/release/full_checklist_triage_2026-11-01.json"),
     ]),
     ("Define an MTG Multiverse Companion milestone release", [
         B("OWNER_DECISION", "release_readiness.py now scores a knowledge-only foundation (verdict NOT_RELEASE_READY); "
