@@ -1,6 +1,6 @@
 # MTG Multiverse Companion — Master Workflow & Progress Checklist
 
-**Version:** 2.96
+**Version:** 2.97
 **Checkpoint date:** 2026-11-01
 **Repository:** [corymstover/GrokBotMTGCompanion](https://github.com/corymstover/GrokBotMTGCompanion)  
 **Purpose:** Durable project roadmap and handoff document. Update this file after verified milestone work; do not treat historical figures as live counters.
@@ -22,6 +22,26 @@ foundation release may document inherently unresolved canon and future
 maintenance; it must never claim exhaustive knowledge of all MTG history.
 The 62 approved Grixis decks, their hashes and all owner gates remain intact.
 Only a new explicit request from Cory can override the Phase 6 hold.
+
+**v2.97 War of the Spark operations chronology (2026-11-01):** A new
+source-local **Y** strand uses four of the six independently downloaded
+official 2019 Ravnica web chapters to record **11 events and 10 strictly
+quoted temporal edges**: the portal invasion, Jace's council, Bridge
+shutdown, Firemind's Vessel and Niv-Mizzet's incapacitation, the renewed
+assault, Dack Fayden's stolen spark and Blackblade's shattering. All **10/10
+new edge quotations** were matched against fresh official-page text. The
+independent corpus grows to **17 strands / 155 events / 126 strict edges /
+525 of 11,935 ordered pairs**; eight old-ledger SAME_EVENT bridges remain
+unchanged. Five new/updated difficult Q&A cases bring the acceptance sample
+to **119**. An unspecific War of the Spark overview now deliberately reports
+the competing Azorius **X** and operations **Y** accounts instead of merging
+them. Dack's blocked escape is observed, but Rat's attribution to the
+Immortal Sun remains an inference; his death and the Blackblade strike are
+**not** strictly ordered against one another. No fictional time is inferred
+from publication dates, and Bolas's eventual fate is not asserted by the
+chapter ending. **98/137 checked, 39 open; NOT_RELEASE_READY.** Phase 6,
+the three parked pilots and all 62 approved Grixis decks remain untouched.
+See `research/WAR_SPARK_OPERATIONS_CHRONOLOGY_2026-11-01.md` and v2.97 handoff.
 
 **v2.96 verified direct-source entity repair (2026-11-01):** Recovered all
 **four previously uncited registered entities** in one Wizards-primary-source

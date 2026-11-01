@@ -35,11 +35,11 @@
     },
     "hard_lore_and_chronology_qa": {
       "supported": true,
-      "representative_questions": 115,
+      "representative_questions": 119,
       "distinct_routes": 23,
       "confidence_distribution": {
-        "NOT_FOUND": 6,
-        "QUALIFIED": 99,
+        "NOT_FOUND": 7,
+        "QUALIFIED": 102,
         "VERIFIED": 10
       }
     },
@@ -62,5 +62,5 @@
   "release_certified": false,
   "owner_accepted": false,
   "phase6_deckbuilding_deferred": true,
-  "sha256": "60be7fe4ecb977914083576dcb4ed6c1c77fb4a5c85accc849395d60be75980c"
+  "sha256": "76a66f3c57e71575fcb96314c8c0ea93ff6a455db37ade21010ca03a7d84a1ea"
 }

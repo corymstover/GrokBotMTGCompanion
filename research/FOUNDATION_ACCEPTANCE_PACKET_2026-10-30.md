@@ -14,7 +14,7 @@ This source-graded packet is reproducible from the repository, with exact input 
 ## In-universe chronology (not a complete timeline)
 
 - Legacy ledger: 56 events, 177/3074 ordered event pairs; 2897 unresolved, 13 components, 0 cycles.
-- Source-local ledger: 144 events, 472/10296 pairs. These counts are separate, not additive.
+- Source-local ledger: 155 events, 525/11935 pairs. These counts are separate, not additive.
 - L244 cross-source historical ordering remains open. UNKNOWN is the correct answer when no cited bridge exists.
 
 ## Representative end-to-end questions
@@ -132,7 +132,11 @@ This source-graded packet is reproducible from the repository, with exact input 
 | How is Zorblax connected to Kaladesh? | `ask->graph_connection` | `NOT_FOUND` | 0 |
 | Explain the continuity of Nicol Bolas | `ask->continuity` | `QUALIFIED` | 39 |
 | Timeline of Azorius | `ask->chronology_overview` | `QUALIFIED` | 3 |
-| Show chronology of the War of the Spark | `ask->chronology_overview` | `QUALIFIED` | 3 |
+| Show chronology of the War of the Spark | `ask->chronology_overview` | `NOT_FOUND` | 0 |
+| Show chronology strand Y | `ask->chronology_overview` | `QUALIFIED` | 4 |
+| Did Y:portal_opens happen before Y:dack_dies? | `ask->chronology` | `QUALIFIED` | 4 |
+| Did Y:dack_dies happen before Y:blackblade_shatters? | `ask->chronology` | `QUALIFIED` | 0 |
+| Did Y:blackblade_shatters happen before W:bolas_imprisoned? | `ask->chronology` | `QUALIFIED` | 0 |
 | Show chronology strand P | `ask->chronology_overview` | `QUALIFIED` | 1 |
 | Show chronology strand H | `ask->chronology_overview` | `QUALIFIED` | 1 |
 | What are the lore and Commander eligibility of Black Lotus? | `ask->card_lore_commander_evidence` | `QUALIFIED` | 2 |
@@ -158,6 +162,6 @@ python3 scripts/certification_dry_run.py --check
 python3 scripts/update_multiverse_progress_tracker.py --check
 ```
 
-Packet SHA-256 (canonical JSON): `fbf4b58d5e39b2ce1f51359930c6bba9493a81e9195917f4b327da6af36beae9`
+Packet SHA-256 (canonical JSON): `56026c8aa141d1967332c241f8100b809ade7f77a95e2851249c9706a95e4fef`
 
 **No decks were built, modified, reviewed or approved.**

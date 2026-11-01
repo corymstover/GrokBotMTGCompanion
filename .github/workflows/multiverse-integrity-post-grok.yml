@@ -62,6 +62,7 @@ on:
       - 'tests/test_multiverse_progress_tracker.py'
       - 'tests/test_phase5_chronology_coverage.py'
       - 'tests/test_source_event_sequences.py'
+      - 'tests/test_phase4_war_spark_operations.py'
       - 'tests/test_chronology_global_pair_matrix.py'
       - 'tests/test_chronology_same_ledger_bridges.py'
       - 'tests/test_phase4_mercadia_mirrodin_sequences.py'
@@ -224,6 +225,7 @@ jobs:
           python3 scripts/query_lore_chronology.py --check
           python3 scripts/source_event_sequences.py --check
           python3 -m unittest discover -s tests -p 'test_source_event_sequences.py' -q
+          python3 -m unittest discover -s tests -p 'test_phase4_war_spark_operations.py' -q
           python3 -m unittest discover -s tests -p 'test_chronology_global_pair_matrix.py' -q
           python3 -m unittest discover -s tests -p 'test_chronology_same_ledger_bridges.py' -q
           python3 -m unittest discover -s tests -p 'test_phase4_mercadia_mirrodin_sequences.py' -q

@@ -9,7 +9,7 @@ The following are finite, machine-evidenced **features**, not claims of exhausti
 | Official primary-source inventory | 626 declared pages: 576 cited, 50 reviewed without a claim; 33/33 arc buckets accounted for |
 | Later/Omenpaths research within curated scope | 11 named recent arc buckets have cited claims and all inventoried pages triaged |
 | Cross-plane paths and continuity | 8 official same-event bridges, 2 independent cited graph path exemplars; no temporal synthesis |
-| Difficult lore/chronology Q&A | 115 distinct executable representative questions across 23 routes, including confirmed, qualified and unknown |
+| Difficult lore/chronology Q&A | 119 distinct executable representative questions across 23 routes, including confirmed, qualified and unknown |
 | Joined card/lore/rules and sets | 5 cross-domain probes, published ruling and two-axis timeline cases; dated and qualified |
 
 ## Explicitly unfinished or owner-blocked

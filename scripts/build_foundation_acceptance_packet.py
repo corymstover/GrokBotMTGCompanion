@@ -276,8 +276,16 @@ QA_CASES = [
      'ask->graph_connection', 'NOT_FOUND'),
     ('retcon_bolas', 'Explain the continuity of Nicol Bolas', 'ask->continuity', 'QUALIFIED'),
     ('strand_bare_azorius', 'Timeline of Azorius', 'ask->chronology_overview', 'QUALIFIED'),
-    ('strand_war_of_spark_title', 'Show chronology of the War of the Spark',
+    ('strand_war_of_spark_ambiguous', 'Show chronology of the War of the Spark',
+     'ask->chronology_overview', 'NOT_FOUND'),
+    ('strand_war_operations_explicit', 'Show chronology strand Y',
      'ask->chronology_overview', 'QUALIFIED'),
+    ('war_operations_portal_to_dack', 'Did Y:portal_opens happen before Y:dack_dies?',
+     'ask->chronology', 'QUALIFIED'),
+    ('war_operations_dack_blackblade_unknown', 'Did Y:dack_dies happen before Y:blackblade_shatters?',
+     'ask->chronology', 'QUALIFIED'),
+    ('war_operations_to_bolas_prison_unknown', 'Did Y:blackblade_shatters happen before W:bolas_imprisoned?',
+     'ask->chronology', 'QUALIFIED'),
     ('strand_mirrodin_new_phyrexia_explicit', 'Show chronology strand P',
      'ask->chronology_overview', 'QUALIFIED'),
     ('strand_mirrodin_argentum_explicit', 'Show chronology strand H',
@@ -308,12 +316,32 @@ def qa_cases() -> list[dict]:
         if key == 'source_order' and r['result']['relation'] != 'BEFORE':
             raise ValueError('Source-grounded chronology no longer supported')
         if key in {'strand_azorius_overview', 'strand_azorius_direct_id',
-                   'strand_bare_azorius', 'strand_war_of_spark_title'} and (
+                   'strand_bare_azorius'} and (
                 r['result']['strand']['id'] != 'X' or
                 len(r['result']['strict_edges']) != 4 or
                 r['result']['ordered_event_pairs'] != 10 or
                 not r['result']['source_local_total_order'] or len(r['sources']) != 3):
             raise ValueError('Azorius timeline overview lost exact source-local proof')
+        if key == 'strand_war_of_spark_ambiguous' and (
+                {s['id'] for s in r['result']['candidates']} != {'X', 'Y'} or
+                'AMBIGUOUS_SOURCE_STRAND' not in r['flags'] or r['sources']):
+            raise ValueError('Multiple War of the Spark source accounts were falsely merged')
+        if key == 'strand_war_operations_explicit' and (
+                r['result']['strand']['id'] != 'Y' or
+                len(r['result']['events']) != 11 or
+                len(r['result']['strict_edges']) != 10 or
+                r['result']['source_local_total_order'] or
+                len(r['sources']) != 4):
+            raise ValueError('War operations source-local chronology lost partial-order evidence')
+        if key == 'war_operations_portal_to_dack' and (
+                r['result']['relation'] != 'BEFORE' or
+                len(r['result']['proof']) != 9 or len(r['sources']) != 4):
+            raise ValueError('War operations chronology lost sourced invasion-to-Dack path')
+        if key in {'war_operations_dack_blackblade_unknown',
+                   'war_operations_to_bolas_prison_unknown'} and (
+                r['result']['relation'] != 'UNKNOWN' or r['sources'] or
+                'NO_CITED_CHRONOLOGY_PATH' not in r['flags']):
+            raise ValueError('War operations invented an unsourced outcome or attack ordering')
         if key == 'strand_gatewatch_overview' and (
                 r['result']['strand']['id'] != 'Z' or
                 len(r['result']['events']) != 13 or not r['sources']):
