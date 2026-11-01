@@ -14,7 +14,7 @@ schema: 2
 <!-- MULTIVERSE-CURRENT:START -->
 ## MTG Multiverse Companion — current engineering checkpoint (2026-11-01)
 
-**Live authority:** [Master Workflow v2.96](MTG_MULTIVERSE_MASTER_WORKFLOW.md), the current
+**Live authority:** [Master Workflow v2.97](MTG_MULTIVERSE_MASTER_WORKFLOW.md), the current
 graph and dated recount. The older cycle-36/October-15 metrics **below this section are historical**;
 they are not the active Phase 1–8 completion counters.
 
@@ -66,11 +66,11 @@ foundation certification tasks.
 | Define an MTG Multiverse Companion milestone release based on… | Under review | OWNER_DECISION |
 | Treat continual future MTG releases as an ongoing maintenance… | Under review | ONGOING, OWNER_DECISION |
 
-**Latest bounded QA/chronology evidence:** 16 source-local historical strands,
-144 events and 116 strict order edges;
-472/10296 proven event pairs, with
+**Latest bounded QA/chronology evidence:** 17 source-local historical strands,
+155 events and 126 strict order edges;
+525/11935 proven event pairs, with
 8 separate legacy identity bridges and
-5 non-ordering overlaps. The 115-case
+5 non-ordering overlaps. The 119-case
 foundation acceptance packet remains **NOT CERTIFIED**. Card lookup is reconciled
 against the immutable October 30 Scryfall Oracle bulk, while published rulings
 and official rules remain separately dated. This is not a live release check.

@@ -2,7 +2,7 @@
   "schema": "source-event-sequences/v1",
   "status": "PRELIMINARY_RESEARCH_NOT_OWNER_APPROVED",
   "date": "2026-10-30",
-  "scope": "Sixteen bounded, individually sourced chronology strands. No automatic cross-strand alignment, no absolute AR date conversion and no assertions that a narrated legend is historical fact. The Gatewatch founding strand uses the official Battle for Zendikar retrospective and contemporaneous Oath/Last Stand episodes, not real-world set release order; it establishes only the founding episode on Zendikar, not the complete Gatewatch biography. The Thran-to-invasion strand uses the 2008 Wizards historical retrospective and does not decide the order between Old Phyrexia's decimation and Yawgmoth's destruction. The Dominaria-to-Kamigawa fracture sequence quotes explicit cross-plane cause, but does not globally align all plane eras. The Alara strand places Gideon's isolated-Bant arrival before the Conflux without assigning a cause to Alara's unknown original Sundering; wars concurrent with border dissolution are not forced into a BEFORE relation. The New Phyrexia strand describes early Mirrodin conquest, not post-March of the Machine politics. The early Meditation Realm strand is Ugin's remembered conflict; the distinct War of the Spark-to-Dragonstorm strand tracks later imprisonment and escape without claiming either dragon's death, present location or current spark state. The Amonkhet-to-Ravnica strand preserves Samut's firsthand warning and the Eternal flow's later shutdown as bounded, separate sequences; the separate Azorius-succession strand tracks the 2019 attested offices of Isperia, Dovin Baan and acting guildmaster Lavinia without asserting appointment dates or current leadership. Neither strand invents total interplane event order.",
+  "scope": "Seventeen bounded, individually sourced chronology strands. No automatic cross-strand alignment, no absolute AR date conversion and no assertions that a narrated legend is historical fact. The Gatewatch founding strand uses the official Battle for Zendikar retrospective and contemporaneous Oath/Last Stand episodes, not real-world set release order; it establishes only the founding episode on Zendikar, not the complete Gatewatch biography. The Thran-to-invasion strand uses the 2008 Wizards historical retrospective and does not decide the order between Old Phyrexia's decimation and Yawgmoth's destruction. The Dominaria-to-Kamigawa fracture sequence quotes explicit cross-plane cause, but does not globally align all plane eras. The Alara strand places Gideon's isolated-Bant arrival before the Conflux without assigning a cause to Alara's unknown original Sundering; wars concurrent with border dissolution are not forced into a BEFORE relation. The New Phyrexia strand describes early Mirrodin conquest, not post-March of the Machine politics. The early Meditation Realm strand is Ugin's remembered conflict; the distinct War of the Spark-to-Dragonstorm strand tracks later imprisonment and escape without claiming either dragon's death, present location or current spark state. The Amonkhet-to-Ravnica strand preserves Samut's firsthand warning and the Eternal flow's later shutdown as bounded, separate sequences; the separate Azorius-succession strand tracks the 2019 attested offices of Isperia, Dovin Baan and acting guildmaster Lavinia without asserting appointment dates or current leadership. A separate Rat-narrated War of the Spark operations strand records the portal invasion, war council, Niv-Mizzet ritual and failed Blackblade strike, with Dack Fayden's blocked escape distinctly qualified as the narrator's inference; it does not date all war fronts or prove the ultimate outcome. None of these strands is a total interplane event order.",
   "sources": {
     "bfz_summary": {
       "url": "https://magic.wizards.com/en/news/magic-story/battle-zendikar-story-summary-2015-12-23",
@@ -111,12 +111,12 @@
     }
   },
   "counts": {
-    "strands": 16,
-    "events": 144,
-    "strict_edges": 116,
+    "strands": 17,
+    "events": 155,
+    "strict_edges": 126,
     "non_ordering_relations": 5,
-    "ordered_pairs": 472,
-    "total_pairs": 10296,
+    "ordered_pairs": 525,
+    "total_pairs": 11935,
     "verified_legacy_bridges": 8
   },
   "strands": [
@@ -253,6 +253,15 @@
       "limitation": "The official 2019 Ravnica episodes attest an Azorius succession during the war, not appointment dates or an exhaustive guildmaster roster. Isperia was assassinated while guildmaster; Dovin is subsequently called the new guildmaster, and he later flees while Lavinia is called acting guildmaster. The source does not establish who holds the office today, precisely when Dovin took office, or whether Lavinia became permanent guildmaster. Story publication dates do not serve as in-universe dates.",
       "events": 5,
       "strict_edges": 4,
+      "non_ordering_relations": 0
+    },
+    {
+      "id": "Y",
+      "title": "War of the Spark — portal assault, Ravnica council, failed Firemind plan and Blackblade strike",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "limitation": "This is Rat's bounded first-person account across four official War of the Spark: Ravnica web chapters, not the complete novel or a full chronology of every battlefield. The war council's five operational problems and the later reported shutdown are distinct from the separate E strand, and no source-corroborated SAME_EVENT bridge is invented. Rat infers that Chandra reactivated the Immortal Sun when Dack fails to planeswalk; his failed escape and death are narrated, but the device's exact reactivation instant is not independently established. The Ashes chapter ends with Blackblade shattering, not with an on-page final defeat or death of Bolas. Story publication order is not used as the proof of event order.",
+      "events": 11,
+      "strict_edges": 10,
       "non_ordering_relations": 0
     },
     {
@@ -1480,6 +1489,92 @@
       "claims": [
         {
           "id": "WR013",
+          "grade": "CANON_CONFIRMED"
+        }
+      ]
+    },
+    {
+      "id": "Y:blackblade_shatters",
+      "strand": "Y",
+      "label": "Blackblade shatters on Bolas's brow during Gideon's attack",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": []
+    },
+    {
+      "id": "Y:bridge_disabled",
+      "strand": "Y",
+      "label": "The Planar Bridge is disabled before the final Firemind ritual",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": []
+    },
+    {
+      "id": "Y:dack_dies",
+      "strand": "Y",
+      "label": "An Eternal extracts Dack Fayden's spark and kills him",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": []
+    },
+    {
+      "id": "Y:dack_escape_fails",
+      "strand": "Y",
+      "label": "Dack fails to planeswalk; Rat suspects the Immortal Sun is active",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": []
+    },
+    {
+      "id": "Y:eternals_enter",
+      "strand": "Y",
+      "label": "A metallic army marches from the portal onto Ravnica",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": []
+    },
+    {
+      "id": "Y:final_assault",
+      "strand": "Y",
+      "label": "The combined defenders begin the ground and aerial assault",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": []
+    },
+    {
+      "id": "Y:firemind_vessel",
+      "strand": "Y",
+      "label": "The Firemind's Vessel is placed with Niv-Mizzet's remains for the ritual",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": []
+    },
+    {
+      "id": "Y:jace_retreat",
+      "strand": "Y",
+      "label": "Jace orders regrouping and a guildmaster/Planeswalker war council",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": []
+    },
+    {
+      "id": "Y:niv_exhausted",
+      "strand": "Y",
+      "label": "Resurrected Niv-Mizzet lies catatonic after a God-Eternal fight",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": []
+    },
+    {
+      "id": "Y:portal_opens",
+      "strand": "Y",
+      "label": "A gigantic portal destroys part of the Embassy of the Guildpact",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": []
+    },
+    {
+      "id": "Y:war_council",
+      "strand": "Y",
+      "label": "Jace enumerates five problems and proposed war operations",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": [
+        {
+          "id": "WR008",
+          "grade": "CANON_CONFIRMED"
+        },
+        {
+          "id": "WR009",
           "grade": "CANON_CONFIRMED"
         }
       ]
@@ -3023,6 +3118,126 @@
       "note": "Lavinia is acting guildmaster once Dovin has fled; the story does not document a permanent appointment or current leadership."
     },
     {
+      "earlier": "Y:portal_opens",
+      "later": "Y:eternals_enter",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "wr_old_friends",
+      "source_url": "https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-old-friends-and-new-2019-05-08",
+      "source_title": "War of the Spark: Ravnica—Old Friends and New",
+      "quote": "An army. An army was marching through the portal.",
+      "quote_sha256": "db922952068b822e2bdc3e3c32ad0eaba4bb14a13c533106244869f7916cdb9a",
+      "note": "Rat witnesses the destructive portal opening before the metallic invaders emerge. The army is not dated by the article's publication date."
+    },
+    {
+      "earlier": "Y:eternals_enter",
+      "later": "Y:jace_retreat",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "wr_rallying",
+      "source_url": "https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-rallying-reluctant-2019-05-22",
+      "source_title": "War of the Spark: Ravnica – Rallying the Reluctant",
+      "quote": "Retreat. We need a plan. Contact every Planeswalker and guildmaster you can find. Meet us at the Azorius Senate. Now.",
+      "quote_sha256": "077cf69550cc600e16a9e47126aff258a0a32bebc3f6b182b293ce9ad02d926e",
+      "note": "Jace's retrospective command follows the ongoing invasion and calls for a later council; no total ordering of other planes is inferred."
+    },
+    {
+      "earlier": "Y:jace_retreat",
+      "later": "Y:war_council",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "wr_rallying",
+      "source_url": "https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-rallying-reluctant-2019-05-22",
+      "source_title": "War of the Spark: Ravnica – Rallying the Reluctant",
+      "quote": "We face a number of problems. Five to be exact.",
+      "quote_sha256": "2805e864c8fbfdf17622b287c3056eb2d67c8fef1264bd1d2215872e11c019a9",
+      "note": "Jace discusses the operational problems at the assembly he previously ordered. The narration includes intervening preparations, not a precise elapsed time."
+    },
+    {
+      "earlier": "Y:war_council",
+      "later": "Y:bridge_disabled",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "wr_operation",
+      "source_url": "https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-operation-desperation-2019-06-05",
+      "source_title": "War of the Spark: Ravnica—Operation Desperation",
+      "quote": "The leylines were disrupted by the Planar Bridge, but with the Bridge gone, I believe I can repair them",
+      "quote_sha256": "67037c19fd8612d214b5c83481a4ca025b1ad30992eac9ca4e0ff01bb89a7cd7",
+      "note": "After the council identifies the active bridge as a target, the later Firemind preparation explicitly speaks of it as already gone. This does not order all other missions."
+    },
+    {
+      "earlier": "Y:bridge_disabled",
+      "later": "Y:firemind_vessel",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "wr_operation",
+      "source_url": "https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-operation-desperation-2019-06-05",
+      "source_title": "War of the Spark: Ravnica—Operation Desperation",
+      "quote": "Operation Desperation, the Firemind's final plan requires all ten guilds, the leylines of Ravnica, the charred bones of Niv-Mizzet",
+      "quote_sha256": "c1171ecfc0588af4c880d11da5507beac37be80c4a2c683d77dec2d9c84cafe7",
+      "note": "The later operation occurs after the bridge shutdown as independently confirmed in the same scene. Vessel preparation is not conflated with successful restoration."
+    },
+    {
+      "earlier": "Y:firemind_vessel",
+      "later": "Y:niv_exhausted",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "wr_ashes",
+      "source_url": "https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-ashes-2019-06-12",
+      "source_title": "War of the Spark: Ravnica—Ashes",
+      "quote": "the new Living Guildpact—Master Niv-Mizzet, the Firemind—lay catatonic on the ground amid the ruins of the embassy",
+      "quote_sha256": "7ed47c22be1c3c5704178021c39a6ce746003c44f236cd3726e456376a190808",
+      "note": "The following narrated aftermath attests a restored but incapacitated Niv-Mizzet; this does not imply permanent death or permanent office."
+    },
+    {
+      "earlier": "Y:niv_exhausted",
+      "later": "Y:final_assault",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "wr_ashes",
+      "source_url": "https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-ashes-2019-06-12",
+      "source_title": "War of the Spark: Ravnica—Ashes",
+      "quote": "So, all right, we don't have the Firemind's help. But things are far from hopeless here.",
+      "quote_sha256": "528b897fb22df9a4cfaf4a69db1945af26959181dd9eddbc1977baf052cb90e0",
+      "note": "Gideon's new assault plan is made after the Firemind cannot assist; the earlier ritual is not equated to victory over Bolas."
+    },
+    {
+      "earlier": "Y:final_assault",
+      "later": "Y:dack_escape_fails",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "wr_ashes",
+      "source_url": "https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-ashes-2019-06-12",
+      "source_title": "War of the Spark: Ravnica—Ashes",
+      "quote": "An Eternal grabbed Mister Fayden from behind.",
+      "quote_sha256": "1bb22c8cb592dcd3304209da09249e4358a411b5730f9a393859249831be96bb",
+      "note": "Dack's interrupted escape occurs during the subsequently narrated assault. Rat's diagnosis of the Immortal Sun's reactivation remains an inference, not a dated mechanical finding."
+    },
+    {
+      "earlier": "Y:dack_escape_fails",
+      "later": "Y:dack_dies",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "wr_ashes",
+      "source_url": "https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-ashes-2019-06-12",
+      "source_title": "War of the Spark: Ravnica—Ashes",
+      "quote": "As Dack's Spark was ripped from him, it looked as if his body was being drained of all fluids",
+      "quote_sha256": "23cc30f20d63dfbcf5bc62f8a2ddcf0b3e1b590eb129eb60fd4a25da9abce634",
+      "note": "The failed escape precedes the explicit spark extraction and death; the account does not establish the timing of the Immortal Sun's activation relative to other missions."
+    },
+    {
+      "earlier": "Y:final_assault",
+      "later": "Y:blackblade_shatters",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "wr_ashes",
+      "source_url": "https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-ashes-2019-06-12",
+      "source_title": "War of the Spark: Ravnica—Ashes",
+      "quote": "Blackblade shattered against Nicol Bolas's invincible brow.",
+      "quote_sha256": "93d371b83bd84ed5bdc79f37683e25fe108eabc4d0de13d1e21b6057a1522e94",
+      "note": "The shattered strike occurs after the combined assault begins. This chapter does not supply Bolas's eventual defeat or the fate of Gideon after his fall."
+    },
+    {
       "earlier": "S:serra_creates_realm",
       "later": "S:urza_flees",
       "relation": "BEFORE",
@@ -3816,6 +4031,79 @@
       "X:lavinia_acting"
     ],
     "X:lavinia_acting": [],
+    "Y:blackblade_shatters": [],
+    "Y:bridge_disabled": [
+      "Y:blackblade_shatters",
+      "Y:dack_dies",
+      "Y:dack_escape_fails",
+      "Y:final_assault",
+      "Y:firemind_vessel",
+      "Y:niv_exhausted"
+    ],
+    "Y:dack_dies": [],
+    "Y:dack_escape_fails": [
+      "Y:dack_dies"
+    ],
+    "Y:eternals_enter": [
+      "Y:blackblade_shatters",
+      "Y:bridge_disabled",
+      "Y:dack_dies",
+      "Y:dack_escape_fails",
+      "Y:final_assault",
+      "Y:firemind_vessel",
+      "Y:jace_retreat",
+      "Y:niv_exhausted",
+      "Y:war_council"
+    ],
+    "Y:final_assault": [
+      "Y:blackblade_shatters",
+      "Y:dack_dies",
+      "Y:dack_escape_fails"
+    ],
+    "Y:firemind_vessel": [
+      "Y:blackblade_shatters",
+      "Y:dack_dies",
+      "Y:dack_escape_fails",
+      "Y:final_assault",
+      "Y:niv_exhausted"
+    ],
+    "Y:jace_retreat": [
+      "Y:blackblade_shatters",
+      "Y:bridge_disabled",
+      "Y:dack_dies",
+      "Y:dack_escape_fails",
+      "Y:final_assault",
+      "Y:firemind_vessel",
+      "Y:niv_exhausted",
+      "Y:war_council"
+    ],
+    "Y:niv_exhausted": [
+      "Y:blackblade_shatters",
+      "Y:dack_dies",
+      "Y:dack_escape_fails",
+      "Y:final_assault"
+    ],
+    "Y:portal_opens": [
+      "Y:blackblade_shatters",
+      "Y:bridge_disabled",
+      "Y:dack_dies",
+      "Y:dack_escape_fails",
+      "Y:eternals_enter",
+      "Y:final_assault",
+      "Y:firemind_vessel",
+      "Y:jace_retreat",
+      "Y:niv_exhausted",
+      "Y:war_council"
+    ],
+    "Y:war_council": [
+      "Y:blackblade_shatters",
+      "Y:bridge_disabled",
+      "Y:dack_dies",
+      "Y:dack_escape_fails",
+      "Y:final_assault",
+      "Y:firemind_vessel",
+      "Y:niv_exhausted"
+    ],
     "Z:ancient_prison": [
       "Z:bolas_eye_activation",
       "Z:gatewatch_oath",
@@ -3934,11 +4222,12 @@
     "Alara: the cause of the original Sundering remains unknown; Gideon arrived during Bant's isolation before the Conflux, but the border collapse and inter-shard wars are overlapping, not independently ordered events. No cross-plane synchrony with the Mending or an invented Sundering/Bolas identity is supplied.",
     "Gatewatch: the founding-four oath on Zendikar and the subsequent destruction of Ulamog and Kozilek are proven within the official BFZ/OGW account. This does not establish later Gatewatch membership, the absolute date of any episode, a sourced chronology edge to the separate Amonkhet-to-Ravnica account, or the ultimate cosmic consequences of killing two titans.",
     "Amonkhet to Ravnica: Samut recalls Bolas's devastation of Amonkhet before her Ravnica war-council warning; the Eternals already flow through the Planar Bridge when the council plans to close it, and the flow later stops. No cited edge joins the warning and bridge-flow timelines or establishes the exact first activation, every mission's order, or a link to the earlier Gatewatch oath on Zendikar.",
+    "War of the Spark operations: Rat's four-chapter source-local account orders the portal assault, council, reported Bridge shutdown, Firemind ritual and the later assault. It does not establish the order of Dack Fayden's death versus the Blackblade shattering, the final outcome for Bolas or Gideon, or a same-event bridge to the separate Azorius and Amonkhet-Ravnica ledgers. Rat's belief that the Immortal Sun blocked Dack is explicitly an inference.",
     "Karn's creation is independently source-bridged to the legacy ledger; his later profile-era motives and world corruption do not automatically establish a SAME_EVENT link to the separate 2008 Mirrodin contagion account.",
     "Serra's Realm: the retrospective does not order the end of Radiant's administration relative to Urza's final powerstone extraction, even though both follow Serra's departure.",
     "A DURING_OR_AFTER_START relation is not a strict BEFORE edge and never participates in transitive ordering.",
     "Unknown original plane names, absolute AR years and missing historical events are not supplied.",
     "This source-local supplement does not replace the original Packs A–C chronology or certify L244."
   ],
-  "content_sha256": "4762f15c7720cfeb44b71d587d99f0d2deaf14787b5cc00cdc7a09efef08b745"
+  "content_sha256": "72cae728e82c3ba5544820efcb75a87f2b9700f67d7780d53df29381c625f5a3"
 }

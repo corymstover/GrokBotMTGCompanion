@@ -23,8 +23,8 @@ class SourceEventSequencesTests(unittest.TestCase):
         sig=d.pop('content_sha256')
         self.assertEqual(sig,S.digest(d))
         self.assertEqual(self.current['counts'],{
-            'strands':16,'events':144,'strict_edges':116,'non_ordering_relations':5,
-            'ordered_pairs':472,'total_pairs':10296,'verified_legacy_bridges':8,
+            'strands':17,'events':155,'strict_edges':126,'non_ordering_relations':5,
+            'ordered_pairs':525,'total_pairs':11935,'verified_legacy_bridges':8,
         })
 
     def test_azorius_war_successions_are_dated_only_relative_to_the_2019_story(self):
