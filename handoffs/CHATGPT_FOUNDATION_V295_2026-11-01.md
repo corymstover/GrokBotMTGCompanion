@@ -12,8 +12,8 @@
 
 ## v2.95 implementation
 
-- One bounded scope audit verifies **five existing but formerly unchecked
-  engineering capabilities**: declared 626-page primary-source review,
+- One bounded scope audit verifies **five existing capabilities**: declared
+  626-page primary-source review,
   Omenpaths/later-story coverage across the declared 33 arcs, eight separately
   sourced legacy identity bridges and safe cross-plane graph navigation,
   difficult source-graded lore/chronology answers, and date-qualified
@@ -27,8 +27,10 @@
   fixture failures; checks fail when an inventory page is missing, a source
   ambiguity is dropped, a graph path is falsely dated or certification is
   asserted without authority.
-- Marked only the five bounded feature-capability tasks checked. Master
-  Workflow now **99/137 checked, 38 open** (21 under review, 17 blocked).
+- Marked only **four** bounded feature-capability tasks checked; the broader
+  cross-plane history task remains open because independent graph paths are
+  not a full historical/temporal synthesis. Master Workflow now
+  **98/137 checked, 39 open** (22 under review, 17 blocked).
   Release verdict remains **NOT_RELEASE_READY**.
 
 ## Still real blockers / next move

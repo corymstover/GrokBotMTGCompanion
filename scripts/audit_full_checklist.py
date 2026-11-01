@@ -45,6 +45,7 @@ OPEN = {
     "Expand the Mending, major planeswalkers": ("Under review", "COVERAGE_GAPS", "Mending and Gatewatch biographies/events are not comprehensively source-audited."),
     "Expand Bolas's schemes": ("Under review", "COVERAGE_GAPS", "War of the Spark sources are only partially extracted."),
     "Expand Mirrodin/New Phyrexia": ("Under review", "COVERAGE_GAPS", "Main-story claim packs do not exhaust side stories or consequences."),
+    "Connect cross-plane histories": ("Under review", "CHRONOLOGY_GAPS", "Explicit SAME_EVENT bridges and cited graph navigation exist, but most cross-plane temporal ordering and retcon synthesis remain unresolved."),
     "Maintain an explicit coverage/gaps inventory": ("Under review", "ONGOING_SOURCE_TRIAGE", "Dated coverage inventory exists, but future sources and gap reports remain ongoing."),
 }
 

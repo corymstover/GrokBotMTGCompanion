@@ -1,6 +1,6 @@
 # Complete Master Workflow checklist triage — 2026-11-01
 
-**99/137 checked; 38 open.** Completed: 99; Under review: 21; Blocked: 17; Not started: 0.
+**98/137 checked; 39 open.** Completed: 98; Under review: 22; Blocked: 17; Not started: 0.
 
 This inventory is **not foundation certification**. Deferred Phase 6 tasks remain deliberately blocked, not silently completed; ongoing maintenance and source gaps are included.
 
@@ -57,7 +57,7 @@ The machine-readable JSON records every task, its original workflow line, triage
 
 ## Phase 5 — Full-history and plane-by-plane expansion
 
-13/17 checked; 4 open.
+12/17 checked; 5 open.
 
 - **K098 · Under review · COVERAGE_GAPS** — Expand the Mending, major planeswalkers and the Gatewatch.
   - Mending and Gatewatch biographies/events are not comprehensively source-audited.
@@ -65,6 +65,8 @@ The machine-readable JSON records every task, its original workflow line, triage
   - War of the Spark sources are only partially extracted.
 - **K100 · Under review · COVERAGE_GAPS** — Expand Mirrodin/New Phyrexia and March of the Machine.
   - Main-story claim packs do not exhaust side stories or consequences.
+- **K103 · Under review · CHRONOLOGY_GAPS** — Connect cross-plane histories and document contradictions/retcons.
+  - Explicit SAME_EVENT bridges and cited graph navigation exist, but most cross-plane temporal ordering and retcon synthesis remain unresolved.
 - **K105 · Under review · ONGOING_SOURCE_TRIAGE** — Maintain an explicit coverage/gaps inventory as new sets and stories arrive.
   - Dated coverage inventory exists, but future sources and gap reports remain ongoing.
 
