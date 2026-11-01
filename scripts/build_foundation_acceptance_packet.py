@@ -55,6 +55,20 @@ QA_CASES = [
      'ask->chronology', 'QUALIFIED'),
     ('unanchored_order', 'Did Konda imprisons a part happen before Marina lures her bullies?',
      'ask->chronology', 'QUALIFIED'),
+    ('strand_azorius_overview', 'Show timeline of Azorius',
+     'ask->chronology_overview', 'QUALIFIED'),
+    ('strand_gatewatch_overview', 'Show chronology of the Gatewatch',
+     'ask->chronology_overview', 'QUALIFIED'),
+    ('strand_mirrodin_ambiguous', 'Show timeline of Mirrodin',
+     'ask->chronology_overview', 'NOT_FOUND'),
+    ('strand_bloomburrow_legend', 'Show timeline of Bloomburrow Valley',
+     'ask->chronology_overview', 'QUALIFIED'),
+    ('strand_unknown_subject', 'Show timeline of Zorblax',
+     'ask->chronology_overview', 'NOT_FOUND'),
+    ('strand_amonkhet_partial', 'Show chronology strand E',
+     'ask->chronology_overview', 'QUALIFIED'),
+    ('strand_azorius_direct_id', 'Show chronology strand X',
+     'ask->chronology_overview', 'QUALIFIED'),
     ('commander_identity', 'Can Sol Ring go in a Urza, Lord High Artificer deck?',
      'ask->rules:include', 'QUALIFIED'),
     ('set_alpha', 'How many cards are in Alpha?', 'ask->set_atlas:set', 'QUALIFIED'),
@@ -265,6 +279,37 @@ def qa_cases() -> list[dict]:
             raise ValueError('Unanchored chronology was falsely answered or sourced')
         if key == 'source_order' and r['result']['relation'] != 'BEFORE':
             raise ValueError('Source-grounded chronology no longer supported')
+        if key in {'strand_azorius_overview', 'strand_azorius_direct_id'} and (
+                r['result']['strand']['id'] != 'X' or
+                len(r['result']['strict_edges']) != 4 or
+                r['result']['ordered_event_pairs'] != 10 or
+                not r['result']['source_local_total_order'] or len(r['sources']) != 3):
+            raise ValueError('Azorius timeline overview lost exact source-local proof')
+        if key == 'strand_gatewatch_overview' and (
+                r['result']['strand']['id'] != 'Z' or
+                len(r['result']['events']) != 13 or not r['sources']):
+            raise ValueError('Gatewatch overview lost source-local history')
+        if key == 'strand_mirrodin_ambiguous' and (
+                {s['id'] for s in r['result']['candidates']} != {'H', 'P'} or
+                'AMBIGUOUS_SOURCE_STRAND' not in r['flags'] or r['sources']):
+            raise ValueError('Mirrodin independent accounts were silently merged')
+        if key == 'strand_bloomburrow_legend' and (
+                r['result']['strand']['id'] != 'V' or
+                'NARRATED_LEGEND_NOT_VERIFIED_HISTORY' not in r['flags'] or
+                not r['result']['non_strict_relations'] or
+                not r['result']['unresolved_strict_pairs']):
+            raise ValueError('Narrated legend timeline lost partial-order caveats')
+        if key == 'strand_unknown_subject' and (
+                'NO_MATCHING_SOURCE_STRAND' not in r['flags'] or
+                r['result']['events'] or r['sources']):
+            raise ValueError('Unsupported chronology subject was invented')
+        if key == 'strand_amonkhet_partial' and (
+                r['result']['strand']['id'] != 'E' or
+                not r['result']['unresolved_strict_pairs'] or
+                r['result']['source_local_total_order']):
+            raise ValueError('Amonkhet/Ravnica account was falsely linearized')
+        if key.startswith('strand_') and r['result']['verified_total_chronology']:
+            raise ValueError('Source-local overview asserted a verified global timeline')
         if key == 'new_phyrexia_source_order' and (r['result']['relation'] != 'BEFORE' or
                                                   len(r['result']['proof']) != 4):
             raise ValueError('New Phyrexia source-local order lost its cited path')

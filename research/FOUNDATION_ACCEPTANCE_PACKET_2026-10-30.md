@@ -35,6 +35,13 @@ This source-graded packet is reproducible from the repository, with exact input 
 | Who led the Izzet? | `ask->lore:led|leader_of|leads` | `VERIFIED` | 2 |
 | Did Konda imprisons a part happen before Kyodai and Michiko defeat Konda? | `ask->chronology` | `QUALIFIED` | 1 |
 | Did Konda imprisons a part happen before Marina lures her bullies? | `ask->chronology` | `QUALIFIED` | 0 |
+| Show timeline of Azorius | `ask->chronology_overview` | `QUALIFIED` | 3 |
+| Show chronology of the Gatewatch | `ask->chronology_overview` | `QUALIFIED` | 4 |
+| Show timeline of Mirrodin | `ask->chronology_overview` | `NOT_FOUND` | 0 |
+| Show timeline of Bloomburrow Valley | `ask->chronology_overview` | `QUALIFIED` | 1 |
+| Show timeline of Zorblax | `ask->chronology_overview` | `NOT_FOUND` | 0 |
+| Show chronology strand E | `ask->chronology_overview` | `QUALIFIED` | 2 |
+| Show chronology strand X | `ask->chronology_overview` | `QUALIFIED` | 3 |
 | Can Sol Ring go in a Urza, Lord High Artificer deck? | `ask->rules:include` | `QUALIFIED` | 1 |
 | How many cards are in Alpha? | `ask->set_atlas:set` | `QUALIFIED` | 3 |
 | Which sets was Black Lotus printed in? | `ask->set_atlas:card_printings` | `QUALIFIED` | 1 |
@@ -135,6 +142,6 @@ python3 scripts/certification_dry_run.py --check
 python3 scripts/update_multiverse_progress_tracker.py --check
 ```
 
-Packet SHA-256 (canonical JSON): `7a531049a759805ad2ec6e7498ccc97d1d8cdf0561a860d12ca6c11259f1a4c2`
+Packet SHA-256 (canonical JSON): `ea4aea47bf88b68e341b565d564c8756aedc4450339d9396f4f410819cc91769`
 
 **No decks were built, modified, reviewed or approved.**

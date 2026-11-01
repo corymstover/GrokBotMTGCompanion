@@ -44,6 +44,27 @@ These answers group multi-shard relations under their original claim and
 retain canon disputes, limitations, and the fact that no complete in-world
 chronology has been established. Unknown planes fall through to normal lookup.
 
+### Phase 7: cited source-local timeline overviews (v2.94)
+
+```bash
+python3 scripts/mv_ask.py ask 'Show timeline of Azorius'
+python3 scripts/mv_ask.py ask 'Show chronology of the Gatewatch'
+python3 scripts/mv_ask.py ask 'Show timeline of Mirrodin'
+python3 scripts/mv_ask.py ask 'Show chronology strand H'
+python3 scripts/mv_ask.py ask 'Show timeline of Bloomburrow Valley'
+```
+
+These queries read the **16 committed source-local chronology strands**, not
+real-world publication dates or a global AR calendar. A unique title phrase or
+explicit strand ID returns its cited events, direct strict BEFORE edges, any
+non-strict overlaps, and source-local reachable/unresolved pair counts. Event
+array order is **by ID, not a fabricated chronological sort**. Mirrodin has
+two separately sourced strands (`H` and `P`), so an unqualified request is
+`NOT_FOUND` with both candidates; select one by ID. Bloomburrow Valley's `V`
+strand is an *in-world narrated tradition*, not certified historical fact.
+UNKNOWN orders stay unresolved, and a bounded strand is never proof of a
+complete cross-plane history. The foundation is still NOT_RELEASE_READY.
+
 ### How to read evidence
 
 - `literal_printing_text_match`: the **specific Scryfall printing** contains the searched words in its flavor text or Saga chapter rules text. Not proof of an event's depiction or an in-world relationship.

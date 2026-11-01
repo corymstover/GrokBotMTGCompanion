@@ -429,6 +429,133 @@
       "known_limitations": []
     },
     {
+      "id": "strand_azorius_overview",
+      "question": "Show timeline of Azorius",
+      "route": "ask->chronology_overview",
+      "confidence": "QUALIFIED",
+      "flags": [
+        "SOURCE_LOCAL_NOT_GLOBAL_CHRONOLOGY",
+        "PARTIAL_SOURCE_LOCAL_CHRONOLOGY"
+      ],
+      "sources": [
+        "https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-old-friends-and-new-2019-05-08",
+        "https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-operation-desperation-2019-06-05",
+        "https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-rallying-reluctant-2019-05-22"
+      ],
+      "response_sha256": "a3c91ef774348a050bf6ad801d85167da8f6a1d6d31ff87371403f422a9645a7",
+      "direct_claims": null,
+      "chronology_relation": null,
+      "known_limitations": []
+    },
+    {
+      "id": "strand_gatewatch_overview",
+      "question": "Show chronology of the Gatewatch",
+      "route": "ask->chronology_overview",
+      "confidence": "QUALIFIED",
+      "flags": [
+        "SOURCE_LOCAL_NOT_GLOBAL_CHRONOLOGY",
+        "PARTIAL_SOURCE_LOCAL_CHRONOLOGY"
+      ],
+      "sources": [
+        "https://magic.wizards.com/en/news/magic-story/battle-zendikar-story-summary-2015-12-23",
+        "https://magic.wizards.com/en/news/magic-story/oath-gatewatch-2016-02-03",
+        "https://magic.wizards.com/en/news/magic-story/zendikar-resurgent-2016-02-24",
+        "https://magic.wizards.com/en/news/magic-story/zendikars-last-stand-2016-02-17"
+      ],
+      "response_sha256": "3905ef9bf13f52ebd80de7a22f73fa941b82e33fc86fa8acc4b6a8d3e273f54d",
+      "direct_claims": null,
+      "chronology_relation": null,
+      "known_limitations": []
+    },
+    {
+      "id": "strand_mirrodin_ambiguous",
+      "question": "Show timeline of Mirrodin",
+      "route": "ask->chronology_overview",
+      "confidence": "NOT_FOUND",
+      "flags": [
+        "SOURCE_LOCAL_NOT_GLOBAL_CHRONOLOGY",
+        "AMBIGUOUS_SOURCE_STRAND"
+      ],
+      "sources": [],
+      "response_sha256": "1e035dab2b8cf5e429329562cfdf221d8ff01f5042276c8877f3b596133d7418",
+      "direct_claims": null,
+      "chronology_relation": null,
+      "known_limitations": []
+    },
+    {
+      "id": "strand_bloomburrow_legend",
+      "question": "Show timeline of Bloomburrow Valley",
+      "route": "ask->chronology_overview",
+      "confidence": "QUALIFIED",
+      "flags": [
+        "SOURCE_LOCAL_NOT_GLOBAL_CHRONOLOGY",
+        "PARTIAL_SOURCE_LOCAL_CHRONOLOGY",
+        "UNRESOLVED_STRICT_EVENT_ORDER",
+        "NON_STRICT_TEMPORAL_RELATIONS_PRESENT",
+        "NARRATED_LEGEND_NOT_VERIFIED_HISTORY"
+      ],
+      "sources": [
+        "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-bloomburrow-part-1"
+      ],
+      "response_sha256": "c9c6d2553767f724de13a9336acd7b7f663c634e95123ab55030062229ca5d07",
+      "direct_claims": null,
+      "chronology_relation": null,
+      "known_limitations": []
+    },
+    {
+      "id": "strand_unknown_subject",
+      "question": "Show timeline of Zorblax",
+      "route": "ask->chronology_overview",
+      "confidence": "NOT_FOUND",
+      "flags": [
+        "SOURCE_LOCAL_NOT_GLOBAL_CHRONOLOGY",
+        "NO_MATCHING_SOURCE_STRAND"
+      ],
+      "sources": [],
+      "response_sha256": "c22d9bbbbfadd57c59a4c814c0f24ba2f523d6fa8f29a6db551e2d85140d9671",
+      "direct_claims": null,
+      "chronology_relation": null,
+      "known_limitations": []
+    },
+    {
+      "id": "strand_amonkhet_partial",
+      "question": "Show chronology strand E",
+      "route": "ask->chronology_overview",
+      "confidence": "QUALIFIED",
+      "flags": [
+        "SOURCE_LOCAL_NOT_GLOBAL_CHRONOLOGY",
+        "PARTIAL_SOURCE_LOCAL_CHRONOLOGY",
+        "UNRESOLVED_STRICT_EVENT_ORDER"
+      ],
+      "sources": [
+        "https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-ashes-2019-06-12",
+        "https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-rallying-reluctant-2019-05-22"
+      ],
+      "response_sha256": "e4c393d824aba6006da203aa22b884999dbefd75efbae17cbb4a3d386078e8b1",
+      "direct_claims": null,
+      "chronology_relation": null,
+      "known_limitations": []
+    },
+    {
+      "id": "strand_azorius_direct_id",
+      "question": "Show chronology strand X",
+      "route": "ask->chronology_overview",
+      "confidence": "QUALIFIED",
+      "flags": [
+        "SOURCE_LOCAL_NOT_GLOBAL_CHRONOLOGY",
+        "PARTIAL_SOURCE_LOCAL_CHRONOLOGY"
+      ],
+      "sources": [
+        "https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-old-friends-and-new-2019-05-08",
+        "https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-operation-desperation-2019-06-05",
+        "https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-rallying-reluctant-2019-05-22"
+      ],
+      "response_sha256": "8e759f1179aa583d148c283261b146d03f6dd5fad176de8cabf47bcf51394d68",
+      "direct_claims": null,
+      "chronology_relation": null,
+      "known_limitations": []
+    },
+    {
       "id": "commander_identity",
       "question": "Can Sol Ring go in a Urza, Lord High Artificer deck?",
       "route": "ask->rules:include",
@@ -2054,5 +2181,5 @@
     "python3 scripts/update_multiverse_progress_tracker.py --check"
   ],
   "owner_review_status": "PENDING_NOT_REQUESTED_UNTIL_ENGINEERING_EVIDENCE_AND_CI_COMPLETE",
-  "content_sha256": "7a531049a759805ad2ec6e7498ccc97d1d8cdf0561a860d12ca6c11259f1a4c2"
+  "content_sha256": "ea4aea47bf88b68e341b565d564c8756aedc4450339d9396f4f410819cc91769"
 }
