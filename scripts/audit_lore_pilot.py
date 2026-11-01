@@ -119,8 +119,9 @@ def audit(spec_path):
     if len(gcs) > spec.get("game_changer_ceiling", 3):
         raise ValueError("Game Changer ceiling exceeded")
     imp = f["archidekt_import.txt"].read_text(encoding="utf-8").splitlines()
-    if imp[0] != "1x " + rows[0][1].split(" // ")[0] or len(imp) != len(rows):
-        raise ValueError("Archidekt import must be commander-first and mirror the decklist")
+    expected_import = [f"{qty}x {name.split(' // ')[0]}" for qty, name, *_ in rows]
+    if imp != expected_import:
+        raise ValueError("Archidekt import must match every decklist name/quantity, commander first")
     tags = prop["archidekt_tags"]
     if len(tags) != 3 or len(set(tags)) != 3:
         raise ValueError("need three distinct Archidekt tags")

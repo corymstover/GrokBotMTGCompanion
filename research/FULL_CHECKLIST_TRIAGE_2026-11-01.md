@@ -1,8 +1,8 @@
 # Complete Master Workflow checklist triage — 2026-11-01
 
-**107/137 checked; 30 open.** Completed: 107; Under review: 16; Blocked: 14; Not started: 0.
+**111/137 checked; 26 open.** Completed: 111; Under review: 18; Blocked: 8; Not started: 0.
 
-This checklist inventory alone is **not a foundation certificate**; the separate v3.00 SHA-pinned milestone certificate records external CI. Deferred Phase 6 tasks remain deliberately blocked, not silently completed; ongoing maintenance and source gaps are included.
+This checklist inventory alone is **not a foundation certificate**; the separate v3.00 SHA-pinned milestone certificate records external CI. Remaining post-foundation Phase 6 tasks include individual pilot approvals, not silently completed; ongoing maintenance and source gaps are included.
 
 The machine-readable JSON records every task, its original workflow line, triage, blocker kind and reason.
 
@@ -70,30 +70,22 @@ The machine-readable JSON records every task, its original workflow line, triage
 - **K105 · Under review · ONGOING_SOURCE_TRIAGE** — Maintain an explicit coverage/gaps inventory as new sets and stories arrive.
   - Dated coverage inventory exists, but future sources and gap reports remain ongoing.
 
-## Phase 6 — Lore-first Commander deckbuilding engine (DEFERRED UNTIL FOUNDATION CERTIFICATION)
+## Phase 6 — Lore-first Commander deckbuilding engine (post-foundation engineering resumed)
 
-0/10 checked; 10 open.
+4/10 checked; 6 open.
 
-- **K106 · Blocked · POST_FOUNDATION_DEFERRED** — Retrieve lore-relevant cards with grades: direct depiction, canon reference, lore-inspired, mechanical stand-in.
-  - Cory deferred all Phase 6 deckbuilding/pilots until the knowledge foundation is certified.
-- **K107 · Blocked · POST_FOUNDATION_DEFERRED** — Compare eligible commander choices with verified color identity and relevant story context.
-  - Cory deferred all Phase 6 deckbuilding/pilots until the knowledge foundation is certified.
-- **K108 · Blocked · POST_FOUNDATION_DEFERRED** — Build mechanically coherent, realistic-power Commander strategies around the narrative.
-  - Cory deferred all Phase 6 deckbuilding/pilots until the knowledge foundation is certified.
-- **K109 · Blocked · POST_FOUNDATION_DEFERRED** — Support optional set/era/first-printed-in restrictions using verified Phase 1B data without confusing reprints with original debuts.
-  - Cory deferred all Phase 6 deckbuilding/pilots until the knowledge foundation is certified.
-- **K110 · Blocked · POST_FOUNDATION_DEFERRED** — Verify each final 100-card list, singleton restrictions, relevant rules/combinations, legality and current bracket.
-  - Cory deferred all Phase 6 deckbuilding/pilots until the knowledge foundation is certified.
-- **K111 · Blocked · POST_FOUNDATION_DEFERRED** — Provide three Archidekt tags and one clean commander-first `1x Name` import list.
-  - Cory deferred all Phase 6 deckbuilding/pilots until the knowledge foundation is certified.
-- **K112 · Blocked · POST_FOUNDATION_DEFERRED** — Pilot 1: **Ugin & Nicol Bolas — Elder Dragon Duality**. Owner approval is pending, so the box stays unchecked until Cory approves.
-  - Cory deferred all Phase 6 deckbuilding/pilots until the knowledge foundation is certified.
-- **K113 · Blocked · POST_FOUNDATION_DEFERRED** — Pilot 2: **Original Primeval Dragons**.
-  - Cory deferred all Phase 6 deckbuilding/pilots until the knowledge foundation is certified.
-- **K114 · Blocked · POST_FOUNDATION_DEFERRED** — Pilot 3: **Ugin's Allies and Heroes**.
-  - Cory deferred all Phase 6 deckbuilding/pilots until the knowledge foundation is certified.
-- **K115 · Blocked · POST_FOUNDATION_DEFERRED** — Preserve the original approved 62 decks; a new pilot never overwrites them.
-  - Cory deferred all Phase 6 deckbuilding/pilots until the knowledge foundation is certified.
+- **K107 · Under review · COMMANDER_COMPARISON_OPEN** — Compare eligible commander choices with verified color identity and relevant story context.
+  - No independently graded multi-commander comparison with story context is certified.
+- **K108 · Under review · STRATEGY_REVIEW_OPEN** — Build mechanically coherent, realistic-power Commander strategies around the narrative.
+  - Three full sample decks exist, but realistic-power and interaction testing is not independently certified.
+- **K110 · Blocked · CURRENT_RULES_NOT_RECONCILED** — Verify each final 100-card list, singleton restrictions, relevant rules/combinations, legality and current bracket.
+  - Dated pilot legality and deck-size checks pass; post-bulletin official Commander rules, combos and bracket remain unsettled.
+- **K112 · Blocked · INDIVIDUAL_PILOT_APPROVAL_PENDING** — Pilot 1: **Ugin & Nicol Bolas — Elder Dragon Duality**. Owner approval is pending, so the box stays unchecked until Cory approves.
+  - Ugin/Bolas proposal is UNAPPROVED and requires explicit individual deck review.
+- **K113 · Blocked · INDIVIDUAL_PILOT_APPROVAL_PENDING** — Pilot 2: **Original Primeval Dragons**.
+  - Primeval Dragons proposal is UNAPPROVED and requires explicit individual deck review.
+- **K114 · Blocked · INDIVIDUAL_PILOT_APPROVAL_PENDING** — Pilot 3: **Ugin's Allies and Heroes**.
+  - Ugin Allies proposal is UNAPPROVED and requires explicit individual deck review.
 
 ## Phase 7 — Ultimate MTG question-answering companion
 

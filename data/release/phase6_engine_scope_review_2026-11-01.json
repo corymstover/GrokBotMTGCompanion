@@ -1,0 +1,115 @@
+{
+  "schema": "phase6-engine-scope-acceptance/v1",
+  "as_of": "2026-11-01",
+  "scope": "Four bounded existing/incremental Phase 6 engine capabilities, not pilot approval or whole-project certification",
+  "foundation_certificate": "data/release/foundation_milestone_certificate_2026-11-01.json",
+  "criteria": {
+    "K106_curator_graded_lore_card_retrieval": "PASS_BOUNDED_TO_EXISTING_CURATED_POOL",
+    "K109_printing_set_publication_era_oracle_debut_filters": "PASS_DATED_PHASE1B_ENGLISH_PAPER",
+    "K111_three_tags_exact_commander_first_import": "PASS_ALL_THREE_UNAPPROVED_PILOTS",
+    "K115_protected_Grixis_baseline": "PASS_UNCHANGED_CERTIFIED_PROTECTED_DIGESTS"
+  },
+  "grade_totals": {
+    "DIRECT_DEPICTION": 6,
+    "CANON_REFERENCE": 104,
+    "LORE_INSPIRED": 52,
+    "MECHANICAL_SYMBOL": 93
+  },
+  "pilots": [
+    {
+      "stem": "ugin_bolas_elder_dragon_duality",
+      "status": "UNAPPROVED PROPOSAL - awaiting Cory's review; not approved, not locked, not certified",
+      "snapshot": "snap-20261029-40848334824-1",
+      "total_cards": 100,
+      "graded_nonbasic_candidates": 83,
+      "graded_retrieval": {
+        "DIRECT_DEPICTION": 6,
+        "CANON_REFERENCE": 54,
+        "LORE_INSPIRED": 8,
+        "MECHANICAL_SYMBOL": 15
+      },
+      "three_archidekt_tags": [
+        "Story: Ugin & Bolas Duality",
+        "Grixis Elder Dragon",
+        "Unapproved Lore Pilot"
+      ],
+      "commander_first_exact_import": true,
+      "pilot_approval_flags_all_false": true,
+      "first_printed_in_lea_example": {
+        "ALLOWED": 1,
+        "EXCLUDED": 82,
+        "UNKNOWN": 0
+      },
+      "spec_sha256": "7c31a70d859413620c3591a969ed0b8ff1262ced79962dd068a890598805b7f8",
+      "evidence_sha256": "640fbfded8891cdc01f0407d95ae63f0fb03490114832a1c6319a600c92731e0"
+    },
+    {
+      "stem": "original_primeval_dragons",
+      "status": "UNAPPROVED PROPOSAL - awaiting Cory's review; not approved, not locked, not certified",
+      "snapshot": "snap-20261029-40848334824-1",
+      "total_cards": 100,
+      "graded_nonbasic_candidates": 85,
+      "graded_retrieval": {
+        "DIRECT_DEPICTION": 0,
+        "CANON_REFERENCE": 35,
+        "LORE_INSPIRED": 12,
+        "MECHANICAL_SYMBOL": 38
+      },
+      "three_archidekt_tags": [
+        "Story: Original Primeval Dragons",
+        "Five-Color Dragons",
+        "Unapproved Lore Pilot"
+      ],
+      "commander_first_exact_import": true,
+      "pilot_approval_flags_all_false": true,
+      "first_printed_in_lea_example": {
+        "ALLOWED": 2,
+        "EXCLUDED": 83,
+        "UNKNOWN": 0
+      },
+      "spec_sha256": "6175b1b720c3d6a5d278aff70f13a1c073642030bd0f889954bf62bdd0289133",
+      "evidence_sha256": "e88ad609d22c7fa768513195c26c709ea0acc5ee33f99f3757a2eb95b99f3245"
+    },
+    {
+      "stem": "ugins_allies_and_heroes",
+      "status": "UNAPPROVED PROPOSAL - awaiting Cory's review; not approved, not locked, not certified",
+      "snapshot": "snap-20261029-40848334824-1",
+      "total_cards": 100,
+      "graded_nonbasic_candidates": 87,
+      "graded_retrieval": {
+        "DIRECT_DEPICTION": 0,
+        "CANON_REFERENCE": 15,
+        "LORE_INSPIRED": 32,
+        "MECHANICAL_SYMBOL": 40
+      },
+      "three_archidekt_tags": [
+        "Story: Ugin's Allies and Heroes",
+        "Four-Color Planeswalkers",
+        "Unapproved Lore Pilot"
+      ],
+      "commander_first_exact_import": true,
+      "pilot_approval_flags_all_false": true,
+      "first_printed_in_lea_example": {
+        "ALLOWED": 3,
+        "EXCLUDED": 84,
+        "UNKNOWN": 0
+      },
+      "spec_sha256": "3e865b34c71a77de9b98e418b9127b3d22cddee7709f36ee0bab4cae9b9c8559",
+      "evidence_sha256": "abcdf2bdbe2667898d799bd53e18a4da146d46a0063b1c153d80bb45d408ff9c"
+    }
+  ],
+  "protected_baseline_sha256": {
+    "state/current_deck_overrides.json": null,
+    "data/lore_decks/approvals": "b109307718d35bd16f032630bb2604d28aa9270a0c6a05c484a389d1ed0e3f7a",
+    "data/grixis/approvals.json": "991e9e0cd54bedfc9d4a7f58047df3e8e9ce5c50eef0faac2520053088505a45",
+    "data/grixis/exceptions.json": "b603c0bdfa2e895dcacd24131806b8d44f01acc1df8be48c0f6c265649937c69",
+    "data/grixis/dev_snapshot_lock.json": "8b341b4134cc319fab5a93302fbfa935746fad14a0bca540e2bd35307c33e69c"
+  },
+  "limitations": [
+    "Graded candidates are already curated, not autonomous canon classification for arbitrary prompts.",
+    "Printing-era dates are publication history, not in-world story eras.",
+    "First-recorded debut is Oracle-ID-specific English paper as of October 29, not an absolute cross-language/world first.",
+    "Commander choice comparison, realistic deck strategy, live rules/legality/bracket and three explicit owner pilot approvals remain open.",
+    "Existing 62 Grixis canonical deck approvals/lists and all three unapproved pilot proposals were not modified."
+  ]
+}
