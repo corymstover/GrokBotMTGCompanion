@@ -82,7 +82,10 @@ class EntityCoverageCensus(unittest.TestCase):
         self.assertEqual([r['checked'] for r in rows
                           if r['section'].startswith('Definition of the first major')],
                          [True] * 7)
-        self.assertTrue(all(not r['checked'] for r in rows if r['section'].startswith('Phase 6')))
+        # The v2.92 entity research gate predates the independently certified
+        # v3.00 foundation; v3.02 now allows only four audited engine boxes.
+        self.assertEqual({r['id'] for r in rows if r['section'].startswith('Phase 6') and r['checked']},
+                         {'K106', 'K109', 'K111', 'K115'})
 
 
 if __name__ == '__main__':
