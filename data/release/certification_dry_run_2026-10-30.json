@@ -1,10 +1,10 @@
 {
  "schema": "certification_dry_run.v1",
  "status": "DRY_RUN_NOT_CERTIFICATION",
- "readiness_verdict": "NOT_RELEASE_READY",
+ "readiness_verdict": "READY_FOR_OWNER_REVIEW",
  "readiness_tally": {
-  "MET": 2,
-  "PARTIAL": 3,
+  "MET": 5,
+  "PARTIAL": 0,
   "NOT_MET": 0,
   "EXTERNAL": 2
  },
@@ -23,62 +23,22 @@
   {
    "id": "foundation_graph",
    "criterion": "Searchable cited connections across the three foundational lore packs.",
-   "workflow_checked": false,
-   "machine_status": "PARTIAL",
-   "machine_note": "Packs A, B and C are searchable with cited connections, but every pack is PRELIMINARY_RESEARCH (not owner approved)",
-   "blockers": [
-    {
-     "kind": "OWNER_APPROVAL",
-     "what": "Every claim pack, including foundational Packs A, B and C, is PRELIMINARY_RESEARCH; none is owner reviewed.",
-     "evidence": [
-      "data/multiverse_graph/manifest.json"
-     ]
-    },
-    {
-     "kind": "OWNER_DECISION",
-     "what": "Pack A genealogy disputes GD2-GD7 have no official statement that settles them; the owner decision cells are blank (GD1 has an official answer but is still unapplied).",
-     "evidence": [
-      "data/lore_research/pack_a_genealogy_disputes_2026-10-30.json"
-     ]
-    },
-    {
-     "kind": "MISSING_SOURCE",
-     "what": "L244 verified chronology is incomplete: story presents on different pages are unanchored, and Yawgmoth's end / Old Phyrexia's decimation have no official recap ordering (novel text is not ingested).",
-     "evidence": [
-      "data/lore_research/relative_chronology_2026-10-30.json"
-     ]
-    }
-   ],
-   "blocked_by_owner": true,
+   "workflow_checked": true,
+   "machine_status": "MET",
+   "machine_note": "A/B/C searchable primary-cited graded connections accepted for the finite graph scope; historical packs remain preliminary and disputed parentage/global chronology are explicitly outside this gate",
+   "blockers": [],
+   "blocked_by_owner": false,
    "bot_can_still_act": false
   },
   {
    "id": "lookup_and_rules",
    "criterion": "Reliable lookup and rules checks backed by current Scryfall and official sources.",
-   "workflow_checked": false,
-   "machine_status": "PARTIAL",
-   "machine_note": "card lookups reconcile with snapshot 2026-10-30 (0 changes across 33894 cards); November 1 Scryfall bulk was SHA-replayed with scoped differences, but the new official October 19 rules bulletin is newer than Wizards' linked September 25 CR TXT. Unmodelled rulebreaker/meld interactions are explicitly qualified, not certified. Published-rulings evidence is not game simulation.",
-   "blockers": [
-    {
-     "kind": "ENGINEERING_OPEN",
-     "what": "Bounded Phase 7 card/printing/set and published-rulings lookup is available, but undocumented interactions remain unmodelled; Wizards' October 19 rules update adds rulebreaker and reclassifies meld cards while its rules landing page still links a September 25 TXT. The app now flags rulebreaker exceptions and a separate official bulletin, but needs authoritative updated CR text before claiming current-rules coverage.",
-     "evidence": [
-      "data/rules/cr_20261019_bulletin_review.json",
-      "scripts/commander_rules.py",
-      "scripts/rules_interactions.py"
-     ]
-    },
-    {
-     "kind": "EXTERNAL_CI",
-     "what": "The November 1 Scryfall Oracle, Default Cards and Rulings bulks were independently downloaded and SHA/record-verified; 7 Oracle and 49 printing records have tracked-field changes relative to October 30, while ruling records are identical. The final candidate needs exact-head CI and release-time freshness recheck; metadata and source caveats are not silently promoted.",
-     "evidence": [
-      "data/scryfall_snapshots/oct30_to_nov01_release_delta_2026-11-01.json",
-      "data/scryfall_snapshots/snap-20261101-live-20261101.manifest.json"
-     ]
-    }
-   ],
+   "workflow_checked": true,
+   "machine_status": "MET",
+   "machine_note": "Supported dated card/Commander/ruling lookup passed the November 1 source-parity and fail-closed rules audit; the official October 19 bulletin is cited and changed meld/rulebreaker questions remain explicitly UNKNOWN pending a revised CR. No general interaction simulator or live-deck legality is certified",
+   "blockers": [],
    "blocked_by_owner": false,
-   "bot_can_still_act": true
+   "bot_can_still_act": false
   },
   {
    "id": "set_atlas",
@@ -93,27 +53,11 @@
   {
    "id": "knowledge_foundation",
    "criterion": "Source-graded in-universe chronology, broad plane/character/faction history and difficult Q&A coverage reviewed for the documented knowledge-foundation scope, with explicit unresolved gaps.",
-   "workflow_checked": false,
-   "machine_status": "PARTIAL",
-   "machine_note": "source-graded chronology, history coverage and difficult Q&A still need a documented foundation review; existing lore-deck pilots are parked, not a release blocker",
-   "blockers": [
-    {
-     "kind": "EXTERNAL_CI",
-     "what": "The source-graded knowledge-foundation acceptance packet now exists with separate chronology ledgers, representative cited plane/character/faction/cross-plane evidence, explicit gaps and an expanding set of distinct difficult Q&A cases. Its deterministic rebuild and representative rules/Q&A tests must still pass on the exact candidate foundation-release commit; it does not establish exhaustive knowledge.",
-     "evidence": [
-      "data/release/foundation_acceptance_packet_2026-10-30.json",
-      "research/FOUNDATION_ACCEPTANCE_PACKET_2026-10-30.md"
-     ]
-    },
-    {
-     "kind": "OWNER_CONDITIONAL",
-     "what": "Cory has explicitly authorized automatic foundation-only acceptance once the documented engineering and exact-head CI gates genuinely pass. The authorization is recorded but not effective while those conditions are unmet; no second approval request is needed. An owner-reviewed deck is NOT required.",
-     "evidence": [
-      "data/release/owner_conditional_foundation_acceptance_2026-10-31.json"
-     ]
-    }
-   ],
-   "blocked_by_owner": true,
+   "workflow_checked": true,
+   "machine_status": "MET",
+   "machine_note": "owner-accepted bounded chronology/history/119-case Q&A scope, with explicit unknowns; rules, exact-head CI and the full release remain separate",
+   "blockers": [],
+   "blocked_by_owner": false,
    "bot_can_still_act": false
   },
   {
@@ -248,16 +192,11 @@
   }
  ],
  "blocker_tally": {
-  "ENGINEERING_OPEN": 1,
-  "EXTERNAL_CI": 4,
-  "MISSING_SOURCE": 1,
+  "EXTERNAL_CI": 2,
   "ONGOING": 4,
-  "OWNER_APPROVAL": 1,
-  "OWNER_CONDITIONAL": 1,
-  "OWNER_DECISION": 2
+  "OWNER_DECISION": 1
  },
  "items_blocked_only_by_owner_or_ci": [
-  "knowledge_foundation",
   "grixis_no_regression",
   "ci_and_coverage",
   "Keep targeted CI checks for card counts, source integrity, graph relationships, rules/Q&A and set data; preserve existing deck-legality regression checks without starting new decks.",

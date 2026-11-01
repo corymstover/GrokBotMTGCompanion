@@ -45,7 +45,7 @@ This source-graded packet is reproducible from the repository, with exact input 
 | Can Sol Ring go in a Urza, Lord High Artificer deck? | `ask->rules:include` | `QUALIFIED` | 1 |
 | How many cards are in Alpha? | `ask->set_atlas:set` | `QUALIFIED` | 3 |
 | Which sets was Black Lotus printed in? | `ask->set_atlas:card_printings` | `QUALIFIED` | 1 |
-| How does Urza's Saga interact with Urza's Tower? | `ask->rules_evidence:interaction` | `QUALIFIED` | 3 |
+| How does Urza's Saga interact with Urza's Tower? | `ask->rules_evidence:interaction` | `QUALIFIED` | 4 |
 | Did Karn introduces Phyrexian oil to Mirrodin happen before Mirran forces are overwhelmed in the early conquest? | `ask->chronology` | `QUALIFIED` | 1 |
 | Did P:mirrans_overwhelmed happen before P:venser_restores_karn? | `ask->chronology` | `QUALIFIED` | 0 |
 | Did T:weatherlight_seized happen before T:mercadia_strike? | `ask->chronology` | `QUALIFIED` | 1 |
@@ -162,6 +162,6 @@ python3 scripts/certification_dry_run.py --check
 python3 scripts/update_multiverse_progress_tracker.py --check
 ```
 
-Packet SHA-256 (canonical JSON): `e26a41466557711c5b9460a46ce62d77275070bbaeb2edfb2f26615ad2cf2524`
+Packet SHA-256 (canonical JSON): `c4c359ccef1058c89648c63724a4314ff4c141b31bf7de40c54bf0372a4cd3d2`
 
 **No decks were built, modified, reviewed or approved.**

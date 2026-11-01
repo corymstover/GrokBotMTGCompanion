@@ -1,6 +1,6 @@
 # MTG Multiverse Companion — Master Workflow & Progress Checklist
 
-**Version:** 2.98
+**Version:** 2.99
 **Checkpoint date:** 2026-11-01
 **Repository:** [corymstover/GrokBotMTGCompanion](https://github.com/corymstover/GrokBotMTGCompanion)  
 **Purpose:** Durable project roadmap and handoff document. Update this file after verified milestone work; do not treat historical figures as live counters.
@@ -22,6 +22,29 @@ foundation release may document inherently unresolved canon and future
 maintenance; it must never claim exhaustive knowledge of all MTG history.
 The 62 approved Grixis decks, their hashes and all owner gates remain intact.
 Only a new explicit request from Cory can override the Phase 6 hold.
+
+**v2.99 bounded foundation scope review (2026-11-01):** The 5-file Packs
+A/B/C graph scope has now independently passed an owner-authorized, fail-closed
+source/grade audit: **78 existing first-party-cited claims**, 32/18/28 per
+pack and seven *conservative* genealogy dispositions. GD2–GD7 retain unknown
+or disputed parentage/roster/fates, with no invented timeline, promoted
+canonical claim or approved lore deck. The 119-case chronology/history/Q&A
+packet and the 626-page inventoried source scope are owner-reviewed with
+explicit limits, not declared exhaustive. A separate current-source lookup
+audit reconciles **33,894 indexed Oracle IDs** against the full SHA-pinned
+November 1 Scryfall replay, showing no indexed Oracle-text, identity, type,
+legality or game-changer drift; the one indexed newly changed record is a
+layout-only token. It tests ordinary Commander inclusion, published-ruling
+presence/absence, and rulebreaker/meld *negative* evidence. Because the
+October 19 official bulletin and the linked September 25 Comprehensive Rules
+TXT differ, affected questions stay **QUALIFIED / current verdict UNKNOWN**.
+These guarded, dated capabilities satisfy the bounded K132/K133/K135
+foundation-release scope, **not** all interactions or a current gameplay
+simulator. The seven gate evaluation is **5 MET / 0 PARTIAL / 2 EXTERNAL**;
+**105/137 checked, 32 open.** Actual exact-release-commit CI and protected
+Grixis verification must still pass before a certificate may be issued. Phase
+6 and the three unapproved pilots remain parked. See
+`research/FOUNDATION_SCOPE_REVIEW_V299_2026-11-01.md` and the v2.99 handoff.
 
 **v2.98 owner-scope closure and November source freshness (2026-11-01):**
 Cory's explicit blanket owner authorization is applied to **four bounded
@@ -1296,10 +1319,10 @@ explicitly lifts the hold).
 ## Definition of the first major Companion release
 
 - [x] Priority-card enrichment backlog fully accounted for (completed or explicitly documented exceptions/gaps). *(v2.98: 5,362/5,362 priority records complete; the documented 2,626 no-story-lore, 1,304 Universes Beyond subset and 341 uncertain name-link exceptions are explicitly accepted as gaps under `data/release/owner_scope_decisions_2026-11-01.json`, **not** represented as proven canonical lore.)*
-- [ ] Searchable cited connections across the three foundational lore packs.
-- [ ] Reliable lookup and rules checks backed by current Scryfall and official sources.
+- [x] Searchable cited connections across the three foundational lore packs. *(v2.99: 78 existing source-graded cited A/B/C claims, explicit unknown genealogy GD2–GD7 and cross-source chronology limits accepted only for the finite searchable-graph scope; historical claim packs remain PRELIMINARY, see `data/release/foundation_graph_scope_review_2026-11-01.json`.)*
+- [x] Reliable lookup and rules checks backed by current Scryfall and official sources. *(v2.99: SHA-pinned November 1 bulk parity for all 33,894 indexed Oracle UUIDs, published-ruling and supported Commander routes, official September 25 CR plus October 19 update bulletin, fail-closed rulebreaker/meld UNKNOWN results. This is a bounded **dated, source-qualified** capability, not a full current game simulator; see `data/release/lookup_rules_scope_review_2026-11-01.json`.)*
 - [x] A verified Phase 1B set catalog with category-specific counts, set → card and card → set lookups, debut/reprint identification and English export support. *(v2.98: owner accepts the existing `QUALIFIED_OFFLINE_FUNCTIONAL_RELEASE_READY` evidence as a **dated functional** atlas, retaining cross-snapshot metadata/date/source and 555 optional source-queue limitations. This does not assert current November 1 printing parity or globally resolved in-universe chronology; see `data/release/owner_scope_decisions_2026-11-01.json`.)*
-- [ ] Source-graded in-universe chronology, broad plane/character/faction history and difficult Q&A coverage reviewed for the documented knowledge-foundation scope, with explicit unresolved gaps.
+- [x] Source-graded in-universe chronology, broad plane/character/faction history and difficult Q&A coverage reviewed for the documented knowledge-foundation scope, with explicit unresolved gaps. *(v2.99: Cory's authorized scoped acceptance records 626 accounted-for source pages, 17 source-local strands/155 events/126 strict edges/525 evidenced order pairs, and 119 deterministic difficult Q&A cases. Unknown chronology, thin outside-inventory history and post-foundation Phase 6 remain explicit; `data/release/knowledge_foundation_acceptance.json`. This does **not** certify the seven-gate release before exact-head CI.)*
 - [ ] No regression in the 62 archived approved Grixis decks.
 - [ ] Passing focused CI and an up-to-date, source-backed coverage report.
 

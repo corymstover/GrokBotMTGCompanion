@@ -14,13 +14,13 @@ schema: 2
 <!-- MULTIVERSE-CURRENT:START -->
 ## MTG Multiverse Companion — current engineering checkpoint (2026-11-01)
 
-**Live authority:** [Master Workflow v2.98](MTG_MULTIVERSE_MASTER_WORKFLOW.md), the current
+**Live authority:** [Master Workflow v2.99](MTG_MULTIVERSE_MASTER_WORKFLOW.md), the current
 graph and dated recount. The older cycle-36/October-15 metrics **below this section are historical**;
 they are not the active Phase 1–8 completion counters.
 
 | Measure | Verified committed state | Important limitation |
 | --- | ---: | --- |
-| Master Workflow checklist | **102/137 checked; 35 open** | Engineering verification, never owner approval. |
+| Master Workflow checklist | **105/137 checked; 32 open** | Engineering verification, never owner approval. |
 | Priority card enrichments | **5362/5,362** | Enrichment does not imply every card has a sourced story. |
 | Source-page inventory | **576 cited + 50 reviewed = 626 accounted for** | Current inventoried pages only, not all fiction ever published. |
 | Cited lore claims | **1263** | Live graph/inventory concordance; claim packs remain preliminary research. |
@@ -29,20 +29,20 @@ they are not the active Phase 1–8 completion counters.
 | Exact printing-specific representations | **560** | Frozen snapshot + official art-file label evidence, **not** canon scene depiction. |
 | In-universe dated claim edges | **36** | Most graph edges lack a verified in-world date. |
 | Parked graph-built Commander pilots | **3 unapproved** | Preserved, not a knowledge-foundation release gate. |
-| Foundation-release readiness | **NOT_RELEASE_READY** | Research, exact-release CI and engineering remain; Cory's conditional acceptance is recorded but not yet effective. |
+| Foundation-release readiness | **READY_FOR_OWNER_REVIEW** | Five bounded scope criteria are source-reviewed; exact-release Grixis/CI evidence is still external, and this is not a certificate. |
 | Official source watch | **Weekly review-only workflow** | Story index, Wizards update-bulletin candidates, Scryfall metadata and rules PDF candidates; not automatic lore/rules updates. |
 
 **First-release and Phase 8 gate triage (14 gates, separate from the 137-item engineering checklist):**
-Completed **6** · Under review **6** ·
-Blocked **2** · Not started **0**.
+Completed **9** · Under review **5** ·
+Blocked **0** · Not started **0**.
 "Under review" does **not** mean approved; it includes pending owner decisions,
 exact-commit CI and ongoing maintenance. "Blocked" means a documented missing
 source or remaining engineering work. The complete typed evidence is in
 `data/release/certification_dry_run_2026-10-30.json`.
 
 **All-137 engineering checklist triage (not release certification):**
-Completed **102** · Under review **19** ·
-Blocked **16** · Not started **0**.
+Completed **105** · Under review **18** ·
+Blocked **14** · Not started **0**.
 Every checked and unchecked task is accounted for in
 `data/release/full_checklist_triage_2026-11-01.json` and
 `research/FULL_CHECKLIST_TRIAGE_2026-11-01.md`. The ten deferred Phase 6
@@ -52,10 +52,10 @@ foundation certification tasks.
 | Gate | Triage | Remaining blocker types |
 | --- | --- | --- |
 | priority_enrichment | Completed | none |
-| foundation_graph | Blocked | MISSING_SOURCE, OWNER_APPROVAL, OWNER_DECISION |
-| lookup_and_rules | Blocked | ENGINEERING_OPEN, EXTERNAL_CI |
+| foundation_graph | Completed | none |
+| lookup_and_rules | Completed | none |
 | set_atlas | Completed | none |
-| knowledge_foundation | Under review | EXTERNAL_CI, OWNER_CONDITIONAL |
+| knowledge_foundation | Completed | none |
 | grixis_no_regression | Under review | EXTERNAL_CI |
 | ci_and_coverage | Under review | EXTERNAL_CI, ONGOING |
 | Keep targeted CI checks for card counts, source integrity, gra… | Under review | OWNER_DECISION |
@@ -71,7 +71,9 @@ foundation certification tasks.
 525/11935 proven event pairs, with
 8 separate legacy identity bridges and
 5 non-ordering overlaps. The 119-case
-foundation acceptance packet remains **NOT CERTIFIED**. Card lookup is reconciled
+foundation acceptance packet remains **NOT CERTIFIED** as a source artifact,
+even though a separate November 1 scope-review record now accepts the finite
+chronology/history/Q&A evidence. Card lookup is reconciled
 against the immutable October 30 Scryfall Oracle bulk; the independently verified
 November 1 bulk delta records 7 Oracle and 49 printing tracked-field changes,
 0 new or missing Oracle IDs and unchanged rulings. Wizards' newer October 19

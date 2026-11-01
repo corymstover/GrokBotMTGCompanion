@@ -1,0 +1,53 @@
+{
+  "schema": "pack-a-owner-dispositions/v1",
+  "recorded_on": "2026-11-01",
+  "authority": "Cory's explicit November 1 authorization for conservative owner decisions; these choices do not supply missing Wizards evidence",
+  "source_dispute_matrix": "data/lore_research/pack_a_genealogy_disputes_2026-10-30.json",
+  "scope": "REVIEW_OF_EXISTING_GRADED_GRAPH_CONNECTIONS_ONLY",
+  "dispositions": [
+    {
+      "id": "GD1",
+      "decision": "RETAIN_CONFIRMED_TWINS_WITH_NARRATOR_DISSENT",
+      "claim_effect": "A001 remains CANON_CONFIRMED from direct Wizards editorial and third-person statements. Bolas's ambiguous in-story denial remains separately documented; no wider genealogy follows."
+    },
+    {
+      "id": "GD2",
+      "decision": "UNKNOWN_TWINS_PARENTAGE",
+      "claim_effect": "Do not infer Ur-Dragon parentage of Ugin or Bolas by chaining general Elder Dragon origin statements."
+    },
+    {
+      "id": "GD3",
+      "decision": "RETAIN_DISPUTED_SURVIVOR_ROSTER",
+      "claim_effect": "A003 remains CANON_DISPUTED and the separate Piru editorial claim retains its recorded grade. Neither account is an exhaustive roster; no forced reconciliation."
+    },
+    {
+      "id": "GD4",
+      "decision": "RETAIN_LIMITED_RAIDER_DESCENDANT_CLAIM",
+      "claim_effect": "A014 retains its existing narration-frame limitation; no individual generation is invented."
+    },
+    {
+      "id": "GD5",
+      "decision": "RETAIN_CROSIS_ANCESTOR_GENERATION_UNKNOWN",
+      "claim_effect": "Keep the independently quoted Piru–Crosis ancestor relationship at its grade; Piru's relationship to the twins and the exact generation stay unknown."
+    },
+    {
+      "id": "GD6",
+      "decision": "RETAIN_DARIGAAZ_RITH_SIBLING_AS_RESEARCH_NOTE",
+      "claim_effect": "No unstated shared parent or new genealogy graph edge is authorized from a sibling statement."
+    },
+    {
+      "id": "GD7",
+      "decision": "CHROMIUM_FATES_UNORDERED",
+      "claim_effect": "Banishment and murder accounts remain separate events with no asserted before/after relation."
+    }
+  ],
+  "canon_claims_promoted": 0,
+  "deck_pilots_approved": 0,
+  "remaining_source_questions": [
+    "Direct Wizards text naming the twins' parent, if any",
+    "An authoritative reconciliation of Piru with Bolas's survivor roster, if any",
+    "Source-grounded relative ordering of Chromium's reported banishment and murder, if any",
+    "Strict relation between Old Phyrexia's decimation and Yawgmoth's end without conflating different source accounts"
+  ],
+  "overall_foundation_certified": false
+}

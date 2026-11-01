@@ -1,0 +1,55 @@
+{
+  "schema": "foundation-graph-scope-review/v1",
+  "reviewed_on": "2026-11-01",
+  "status": "BOUNDED_FOUNDATION_GRAPH_ACCEPTED_WITH_EXPLICIT_UNKNOWN_CANON",
+  "scope": "SEARCHABLE_GRADED_PACK_A_B_C_CONNECTIONS_NOT_COMPLETE_GENEALOGY_OR_GLOBAL_CHRONOLOGY",
+  "owner_decision": "APPROVED_AS_DOCUMENTED_UNDER_CORY_NOVEMBER_1_INSTRUCTION",
+  "foundational_claims": 78,
+  "claims_by_pack": {
+    "a": 32,
+    "b": 18,
+    "c": 28
+  },
+  "claim_grades": {
+    "ALTERNATE_CONTINUITY": 1,
+    "CANON_CONFIRMED": 69,
+    "CANON_DISPUTED": 4,
+    "CANON_IMPLIED": 2,
+    "OPEN_QUESTION": 2
+  },
+  "distinct_official_source_ids": 37,
+  "registered_graph_claims": 1263,
+  "source_pages_accounted_for": 626,
+  "source_local_events": 155,
+  "source_local_proven_strict_pairs": 525,
+  "source_local_total_pairs": 11935,
+  "conservative_genealogy_decisions": {
+    "GD1": "RETAIN_CONFIRMED_TWINS_WITH_NARRATOR_DISSENT",
+    "GD2": "UNKNOWN_TWINS_PARENTAGE",
+    "GD3": "RETAIN_DISPUTED_SURVIVOR_ROSTER",
+    "GD4": "RETAIN_LIMITED_RAIDER_DESCENDANT_CLAIM",
+    "GD5": "RETAIN_CROSIS_ANCESTOR_GENERATION_UNKNOWN",
+    "GD6": "RETAIN_DARIGAAZ_RITH_SIBLING_AS_RESEARCH_NOTE",
+    "GD7": "CHROMIUM_FATES_UNORDERED"
+  },
+  "input_sha256": {
+    "data/multiverse_graph/manifest.json": "b12dc694a8d0d367f07ed3c01b2f6d19ec0faaa9a32d55b1e2414589da0eefea",
+    "data/multiverse_graph/multiverse_graph.json": "d3ed91e337e4fefad58877d024fc16194feac5ecab6993d931cf4facfb057fd1",
+    "data/lore_research/story_coverage_inventory_2026-10-30.json": "5e711174545bd14b0c4cbd7c7c1eff0c486ffd6c668b3d08c077ffbd07083961",
+    "data/lore_research/source_event_sequences_2026-10-30.json": "247f4e789a3d5855d4cecf04cf2c3f837ab760b3b2c7e59365daf2f3a3f4c131",
+    "data/lore_research/pack_a_genealogy_disputes_2026-10-30.json": "c906d185c659ba433671a1323f75a3295268469021ed176e61c88ff7b0056b53",
+    "data/release/pack_a_genealogy_owner_dispositions_2026-11-01.json": "e190a5fd3efe72ce87e94aa46de7d6d8cd94d81eff28dea78fab88986b29fb45",
+    "data/lore_research/pack_a_ugin_bolas_evidence_2026-10-30.json": "1d43a0d9386189085a79f5ad7b6a8bcbd5a5144ee8f6f988a4840132037a3ff8",
+    "data/lore_research/pack_a_elder_dragon_war_extension_2026-10-30.json": "31624d759d7597bfa1792bbba19fbd53dfa61dbbceed7a0a3b77ea880586a48f",
+    "data/lore_research/pack_a_tarkir_card_scenes_2026-10-30.json": "fb4a6bed888700fd41aa1ee374fd01df82a8e73f0aa267618f2762af77d3dc44",
+    "data/lore_research/pack_b_thran_yawgmoth_brothers_war_2026-10-30.json": "540d1a5514e58a20104cfc85476fc47491dae22babc777685b9c781f84069dee",
+    "data/lore_research/pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json": "75bfb5657647eba8bc8e0978ab327a09e3f212f428939772164e04ca3e356133"
+  },
+  "out_of_scope": [
+    "Unproven twins' parentage, full Elder Dragon survivor count and all other GD2-GD7 assertions",
+    "Ordering Old Phyrexia's decimation against Yawgmoth's end without a direct source",
+    "A complete worldwide or cross-plane chronology, exhaustive canon, or present-day status",
+    "Any lore-deck, Commander-legal-list or Grixis deck approval"
+  ],
+  "overall_foundation_certified": false
+}

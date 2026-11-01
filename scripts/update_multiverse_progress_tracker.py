@@ -111,7 +111,7 @@ they are not the active Phase 1–8 completion counters.
 | Exact printing-specific representations | **{graph.get('exact_art_printings', 0)}** | Frozen snapshot + official art-file label evidence, **not** canon scene depiction. |
 | In-universe dated claim edges | **{graph['claim_edges_with_in_universe_date']}** | Most graph edges lack a verified in-world date. |
 | Parked graph-built Commander pilots | **3 unapproved** | Preserved, not a knowledge-foundation release gate. |
-| Foundation-release readiness | **{readiness}** | Research, exact-release CI and engineering remain; Cory's conditional acceptance is recorded but not yet effective. |
+| Foundation-release readiness | **{readiness}** | Five bounded scope criteria are source-reviewed; exact-release Grixis/CI evidence is still external, and this is not a certificate. |
 | Official source watch | **Weekly review-only workflow** | Story index, Wizards update-bulletin candidates, Scryfall metadata and rules PDF candidates; not automatic lore/rules updates. |
 
 **First-release and Phase 8 gate triage (14 gates, separate from the 137-item engineering checklist):**
@@ -138,7 +138,9 @@ foundation certification tasks.
 {local_chronology['ordered_pairs']}/{local_chronology['total_pairs']} proven event pairs, with
 {local_chronology['verified_legacy_bridges']} separate legacy identity bridges and
 {local_chronology['non_ordering_relations']} non-ordering overlaps. The {len(acceptance_cases)}-case
-foundation acceptance packet remains **NOT CERTIFIED**. Card lookup is reconciled
+foundation acceptance packet remains **NOT CERTIFIED** as a source artifact,
+even though a separate November 1 scope-review record now accepts the finite
+chronology/history/Q&A evidence. Card lookup is reconciled
 against the immutable October 30 Scryfall Oracle bulk; the independently verified
 November 1 bulk delta records 7 Oracle and 49 printing tracked-field changes,
 0 new or missing Oracle IDs and unchanged rulings. Wizards' newer October 19

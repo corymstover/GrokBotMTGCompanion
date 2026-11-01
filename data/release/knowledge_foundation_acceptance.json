@@ -1,0 +1,38 @@
+{
+  "schema": "knowledge-foundation-owner-acceptance/v1",
+  "recorded_on": "2026-11-01",
+  "status": "OWNER_ACCEPTED",
+  "authority": "Cory's explicit November 1 blanket approval for finite foundation owner decisions, applied after deterministic source, chronology and difficult-Q&A review",
+  "scope": "KNOWLEDGE_FOUNDATION_ONLY",
+  "chronology_reviewed": true,
+  "history_coverage_reviewed": true,
+  "qa_regressions_passed": true,
+  "reviewed_packet": "data/release/foundation_acceptance_packet_2026-10-30.json",
+  "reviewed_packet_content_sha256": "c4c359ccef1058c89648c63724a4314ff4c141b31bf7de40c54bf0372a4cd3d2",
+  "reviewed_capability_scope": "data/release/foundation_capability_scope_2026-11-01.json",
+  "reviewed_foundational_graph_scope": "data/release/foundation_graph_scope_review_2026-11-01.json",
+  "reviewed_evidence": {
+    "inventoried_wizards_pages": 626,
+    "pages_with_cited_claims": 576,
+    "reviewed_pages_without_new_claims": 50,
+    "source_local_event_strands": 17,
+    "source_local_events": 155,
+    "strict_source_local_edges": 126,
+    "proven_source_local_event_pairs": 525,
+    "representative_distinct_difficult_qa_cases": 119,
+    "cited_foundational_pack_claims": 78
+  },
+  "reviewed_limits": [
+    "A bounded review of inventoried Wizards source pages, not the entirety of Wizards lore or all future releases.",
+    "The source-local historical partial orders cannot be combined into a complete cross-plane chronology without exact quoted bridges.",
+    "Pack A genealogy GD2-GD7 decisions deliberately retain disputed or unknown canon; no novel-only or unsourced genealogy is promoted.",
+    "The three lore-first Commander pilots and all Phase 6 deck construction remain parked until the entire release, including rules, no-regression and exact-head CI, is certified.",
+    "No general gameplay simulator or proof of unsupported card interactions is included in the accepted scope."
+  ],
+  "knowledge_foundation_scope_accepted": true,
+  "whole_release_certified": false,
+  "rules_freshness_separately_required": true,
+  "exact_head_ci_separately_required": true,
+  "deck_pilots_approved": 0,
+  "protected_grixis_decks_changed": 0
+}

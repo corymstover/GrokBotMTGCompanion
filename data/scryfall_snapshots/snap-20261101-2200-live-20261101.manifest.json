@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "snap-20261101-2200-live-20261101",
+  "captured_at": "2026-11-01T22:30:02+00:00",
+  "source": "Scryfall JSONL bulk API",
+  "files": {
+    "oracle-cards": {
+      "filename": "oracle-cards-20261101220203.jsonl.gz",
+      "sha256": "de52a058b9497983bdc058080745106a79e2a9d0f90f9e8a2d4065700b9608a4",
+      "compressed_bytes": 25301472,
+      "records": 39287,
+      "scryfall_updated_at": "2026-11-01T22:02:03.472+00:00",
+      "source_url": "https://data.scryfall.io/oracle-cards/oracle-cards-20261101220203.jsonl.gz"
+    },
+    "default-cards": {
+      "filename": "default-cards-20261101220628.jsonl.gz",
+      "sha256": "a823acbb2c4460ce95b62c61d9966829bc218f0bfa984912fe97fabea855c922",
+      "compressed_bytes": 80728085,
+      "records": 120019,
+      "scryfall_updated_at": "2026-11-01T22:06:28.662+00:00",
+      "source_url": "https://data.scryfall.io/default-cards/default-cards-20261101220628.jsonl.gz"
+    },
+    "rulings": {
+      "filename": "rulings-20261101220033.jsonl.gz",
+      "sha256": "2d886cf3205d26e83828ca5e3fce808f936df394ece6b54cb2d5ea6b4060392f",
+      "compressed_bytes": 5422271,
+      "records": 79706,
+      "scryfall_updated_at": "2026-11-01T22:00:33.616+00:00",
+      "source_url": "https://data.scryfall.io/rulings/rulings-20261101220033.jsonl.gz"
+    }
+  },
+  "legacy_grixis_snapshot_unchanged": "snap-20261016"
+}

@@ -1,0 +1,37 @@
+{
+  "schema": "bounded-lookup-rules-scope-review/v1",
+  "reviewed_on": "2026-11-01",
+  "status": "SUPPORTED_LOOKUPS_WITH_DATED_SOURCES_AND_FAIL_CLOSED_RULE_CHANGES_ACCEPTED",
+  "owner_authorization": "Cory's November 1 finite foundation acceptance; no claim to all gameplay rules",
+  "oracle_source": "snap-20261101-2200-live-20261101",
+  "indexed_oracle_ids_reconciled": 33894,
+  "indexed_november_oracle_text_or_identity_differences": 0,
+  "november_unindexed_oracle_text_change_ids": [
+    "083dc9dc-3548-4e55-90d1-3fae33f71dab",
+    "492ba01e-c0fa-414c-95fd-df5b59212d2a"
+  ],
+  "indexed_layout_only_changes": [
+    "9c3c0e04-b222-4bc9-adbe-a3b37cc8c44e"
+  ],
+  "rulings_record_count": 79706,
+  "new_rulings_since_october_30": 0,
+  "current_full_cr_download_effective": "2026-09-25",
+  "newer_official_bulletin_date": "2026-10-19",
+  "post_bulletin_rulebreaker_and_meld_current_verdict": "UNKNOWN_UNTIL_OFFICIAL_TEXT_RECONCILED",
+  "independent_checked_routes": [
+    "normal Commander inclusion",
+    "invalid identity inclusion",
+    "rulebreaker advisory",
+    "specific published ruling",
+    "no published ruling",
+    "meld/version mismatch"
+  ],
+  "supported_scope": "Dated indexed card/printing lookup, Commander eligibility/inclusion under cited ordinary rules, published-rulings retrieval and dated keyword evidence; unsupported cases return QUALIFIED or NOT_FOUND",
+  "out_of_scope": [
+    "Global/current gameplay simulation or a conclusive interaction with no matching official ruling",
+    "Unannounced/unsupported rulebreaker exceptions or current meld/DFC semantics after the bulletin",
+    "New unindexed Oracle IDs and automatically rewriting archived Commander lists",
+    "A future Scryfall bulk or revised official CR not yet independently replayed"
+  ],
+  "full_foundation_release_certified": false
+}
