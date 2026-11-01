@@ -14,13 +14,13 @@ schema: 2
 <!-- MULTIVERSE-CURRENT:START -->
 ## MTG Multiverse Companion — current engineering checkpoint (2026-11-01)
 
-**Live authority:** [Master Workflow v3.01](MTG_MULTIVERSE_MASTER_WORKFLOW.md), the current
+**Live authority:** [Master Workflow v3.02](MTG_MULTIVERSE_MASTER_WORKFLOW.md), the current
 graph and dated recount. The older cycle-36/October-15 metrics **below this section are historical**;
 they are not the active Phase 1–8 completion counters.
 
 | Measure | Verified committed state | Important limitation |
 | --- | ---: | --- |
-| Master Workflow checklist | **107/137 checked; 30 open** | Engineering verification, never owner approval. |
+| Master Workflow checklist | **111/137 checked; 26 open** | Engineering verification, never owner approval. |
 | Priority card enrichments | **5362/5,362** | Enrichment does not imply every card has a sourced story. |
 | Source-page inventory | **576 cited + 50 reviewed = 626 accounted for** | Current inventoried pages only, not all fiction ever published. |
 | Cited lore claims | **1263** | Live graph/inventory concordance; claim packs remain preliminary research. |
@@ -28,7 +28,7 @@ they are not the active Phase 1–8 completion counters.
 | Registered people/factions with direct claims | **640/640** | At least one cited relation per registered node, **not** a complete biography or census of all canon. |
 | Exact printing-specific representations | **560** | Frozen snapshot + official art-file label evidence, **not** canon scene depiction. |
 | In-universe dated claim edges | **36** | Most graph edges lack a verified in-world date. |
-| Parked graph-built Commander pilots | **3 unapproved** | Preserved, not a knowledge-foundation release gate. |
+| Post-foundation lore-deck pilot drafts | **3 unapproved** | Four bounded Phase 6 engine capabilities now verified; no deck approval or current legality claim. |
 | Foundation-release readiness | **7/7 finite gates certified by separate SHA-pinned external evidence** | Read-only machine status remains READY_FOR_OWNER_REVIEW (5 MET, 2 EXTERNAL); the immutable v3.00 release certificate records exact-commit Actions, unchanged protected hashes and dated source limits. |
 | Official source watch | **Weekly review-only workflow** | Story index, Wizards update-bulletin candidates, Scryfall metadata and rules PDF candidates; not automatic lore/rules updates. |
 
@@ -41,13 +41,13 @@ source or remaining engineering work. The complete typed evidence is in
 `data/release/certification_dry_run_2026-10-30.json`.
 
 **All-137 engineering checklist triage (not release certification):**
-Completed **107** · Under review **16** ·
-Blocked **14** · Not started **0**.
+Completed **111** · Under review **18** ·
+Blocked **8** · Not started **0**.
 Every checked and unchecked task is accounted for in
 `data/release/full_checklist_triage_2026-11-01.json` and
-`research/FULL_CHECKLIST_TRIAGE_2026-11-01.md`. The ten deferred Phase 6
-items count as blocked by the foundation-first directive, not unfinished
-foundation certification tasks.
+`research/FULL_CHECKLIST_TRIAGE_2026-11-01.md`. The post-foundation Phase 6
+engine has resumed; individual pilot approvals and current legality/strategy
+remain open and are not unfinished foundation certification tasks.
 
 | Gate | Triage | Remaining blocker types |
 | --- | --- | --- |
@@ -84,9 +84,10 @@ does not purport to certify post-bulletin gameplay rulings or future data.
 **Priority next steps:** verify current-era Q&A answers; close only evidence-backed graph
 identity and chronology gaps; expand comprehensive plane, character, faction and cross-plane
 history; harden rules and difficult Q&A; preserve the original hash-verified October
-historical Scryfall replay and its November 1 bulk-field freshness audit (repeat on any later release bulk). **The finite knowledge foundation is certified,
-but Phase 6 deckbuilding and its three unapproved pilots remain deferred
-until a separate explicit deckbuilding instruction.** Do not modify any
+historical Scryfall replay and its November 1 bulk-field freshness audit (repeat on any later release bulk). **The finite knowledge foundation is certified.
+Post-foundation Phase 6 engine checks K106/K109/K111/K115 now pass within
+an explicitly limited and source-dated scope, while individual pilot approvals,
+choice/strategy and current legality remain open.** Do not modify any
 of the 62 finalized Grixis decks.
 <!-- MULTIVERSE-CURRENT:END -->
 

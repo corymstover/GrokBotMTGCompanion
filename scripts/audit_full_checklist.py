@@ -3,7 +3,7 @@
 
 Unlike the separate seven-criterion release-readiness test, this inventory covers
 all 137 engineering tasks, including optional research, continuing maintenance,
-and the ten Phase 6 items explicitly deferred until foundation certification.
+and the Phase 6 items resumed after independently certified foundation.
 No item is marked complete by this tool and none of these statuses is approval.
 Each unchecked non-release item has a manually curated, fail-closed blocker
 classification; additions must be reviewed before this report can regenerate.
@@ -49,6 +49,18 @@ OPEN = {
     "Maintain an explicit coverage/gaps inventory": ("Under review", "ONGOING_SOURCE_TRIAGE", "Dated coverage inventory exists, but future sources and gap reports remain ongoing."),
 }
 
+# The v3.00 certified foundation lifted the prerequisite. The v3.02 bounded
+# engine audit completes K106/K109/K111/K115, but unreviewed gameplay and
+# individually unapproved pilot proposals are not inferred complete.
+PHASE6_OPEN = {
+    "Compare eligible commander choices": ("Under review", "COMMANDER_COMPARISON_OPEN", "No independently graded multi-commander comparison with story context is certified."),
+    "Build mechanically coherent": ("Under review", "STRATEGY_REVIEW_OPEN", "Three full sample decks exist, but realistic-power and interaction testing is not independently certified."),
+    "Verify each final 100-card list": ("Blocked", "CURRENT_RULES_NOT_RECONCILED", "Dated pilot legality and deck-size checks pass; post-bulletin official Commander rules, combos and bracket remain unsettled."),
+    "Pilot 1:": ("Blocked", "INDIVIDUAL_PILOT_APPROVAL_PENDING", "Ugin/Bolas proposal is UNAPPROVED and requires explicit individual deck review."),
+    "Pilot 2:": ("Blocked", "INDIVIDUAL_PILOT_APPROVAL_PENDING", "Primeval Dragons proposal is UNAPPROVED and requires explicit individual deck review."),
+    "Pilot 3:": ("Blocked", "INDIVIDUAL_PILOT_APPROVAL_PENDING", "Ugin Allies proposal is UNAPPROVED and requires explicit individual deck review."),
+}
+
 
 def items() -> list[dict]:
     result, section = [], ""
@@ -91,8 +103,10 @@ def build() -> dict:
             kind = ",".join(sorted(set(kinds))) or "GATE_REVIEW_NOT_STARTED"
             note = "; ".join(b["what"] for b in ref["blockers"]) or "No release-gate evidence reviewed yet."
         elif phase.startswith("Phase 6"):
-            status, kind = "Blocked", "POST_FOUNDATION_DEFERRED"
-            note = "Cory deferred all Phase 6 deckbuilding/pilots until the knowledge foundation is certified."
+            matches = [key for key in PHASE6_OPEN if row["task"].startswith(key)]
+            if len(matches) != 1:
+                raise ValueError(f"{row['id']}: open post-foundation Phase 6 task not classified")
+            status, kind, note = PHASE6_OPEN[matches[0]]
         else:
             matches = [key for key in OPEN if row["task"].startswith(key)]
             if len(matches) != 1:
@@ -126,7 +140,7 @@ def markdown(data: dict) -> str:
              f"**{t['checked']}/{t['items']} checked; {t['open']} open.** "
              + "; ".join(f"{k}: {v}" for k, v in t["by_status"].items()) + ".", "",
              "This checklist inventory alone is **not a foundation certificate**; the separate v3.00 SHA-pinned "
-             "milestone certificate records external CI. Deferred Phase 6 tasks remain deliberately blocked, "
+             "milestone certificate records external CI. Remaining post-foundation Phase 6 tasks include individual pilot approvals, "
              "not silently completed; ongoing maintenance and source gaps are included.", "",
              "The machine-readable JSON records every task, its original workflow line, triage, blocker kind and reason.", ""]
     for phase, counts in data["by_phase"].items():

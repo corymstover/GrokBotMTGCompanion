@@ -19,11 +19,15 @@ class FullChecklistTriageTests(unittest.TestCase):
         self.assertTrue(all(r["status"] in C.STATES and r["reason"] and r["section"] for r in report["items"]))
         self.assertTrue(all((r["status"] == "Completed") == r["checked"] for r in report["items"]))
 
-    def test_phase6_remains_deferred_even_when_other_gates_advance(self):
+    def test_phase6_resumes_bounded_engineering_only_after_foundation_certificate(self):
         report = C.build()
-        parked = [r for r in report["items"] if r["section"].startswith("Phase 6")]
-        self.assertEqual(len(parked), 10)
-        self.assertTrue(all(r["status"] == "Blocked" and r["blocker_kind"] == "POST_FOUNDATION_DEFERRED" for r in parked))
+        phase = [r for r in report["items"] if r["section"].startswith("Phase 6")]
+        self.assertEqual(len(phase), 10)
+        self.assertEqual({r["id"] for r in phase if r["status"] == "Completed"},
+                         {"K106", "K109", "K111", "K115"})
+        self.assertEqual(len([r for r in phase if r["status"] != "Completed"]), 6)
+        self.assertTrue(all(r["blocker_kind"] == "INDIVIDUAL_PILOT_APPROVAL_PENDING"
+                            for r in phase if r["id"] in ("K112", "K113", "K114")))
 
     def test_dated_json_and_human_report_are_exactly_rebuildable(self):
         report = C.build()

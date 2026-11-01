@@ -1,6 +1,6 @@
 # MTG Multiverse Companion — Master Workflow & Progress Checklist
 
-**Version:** 3.01
+**Version:** 3.02
 **Checkpoint date:** 2026-11-01
 **Repository:** [corymstover/GrokBotMTGCompanion](https://github.com/corymstover/GrokBotMTGCompanion)  
 **Purpose:** Durable project roadmap and handoff document. Update this file after verified milestone work; do not treat historical figures as live counters.
@@ -22,6 +22,27 @@ foundation release may document inherently unresolved canon and future
 maintenance; it must never claim exhaustive knowledge of all MTG history.
 The 62 approved Grixis decks, their hashes and all owner gates remain intact.
 Only a new explicit request from Cory can override the Phase 6 hold.
+
+**v3.02 post-certification Phase 6 engineering acceptance (2026-11-01):**
+Following the independently verified v3.00 foundation certificate and Cory's
+subsequent explicit request to finish the remaining project work, the
+*engineering* part of Phase 6 is resumed. A deterministic, offline acceptance
+audit (`scripts/audit_phase6_engine_scope.py`) verifies four bounded
+capabilities: **K106** curator-graded exact-printing retrieval across all four
+lore tiers; **K109** optional selected-edition, first-recorded Oracle-ID debut
+and real-world printing-era restrictions using the October 29 Phase 1B atlas;
+**K111** all three distinct Archidekt tags and exact commander-first import
+rows; **K115** all three proposals still UNAPPROVED with certified Grixis
+approval/state digests unchanged. The `lore_deck_restrictions.py` filter fails
+closed on ambiguous/missing identities and never equates reprints with debuts;
+the pilot import audit now compares **every** card/quantity, not only length.
+This closes **4 bounded engine tasks**: **111/137 checked, 26 open**. It
+**does not approve or optimize any of the three draft pilots**, settle
+commander strategy/choice, certify live Commander legality/bracket, assert
+in-world era from publication dates, or exhaust the remaining canon research.
+The v3.00 7/7 foundation certificate remains valid for its exact prior tree.
+See `data/release/phase6_engine_scope_review_2026-11-01.json`,
+`research/PHASE6_ENGINE_SCOPE_V302_2026-11-01.md` and the v3.02 handoff.
 
 **v3.01 post-foundation War of the Spark six-chapter source pass (2026-11-01):**
 The two previously unused official *War of the Spark: Ravnica* web episodes,
@@ -1265,22 +1286,21 @@ Infrastructure checkpoint: [PR #783](https://github.com/corymstover/GrokBotMTGCo
 - [x] Use the Phase 1B Set & Printing Atlas to navigate published sets and storylines while keeping real-world release dates separate from in-universe event order. *(v2.90 closure: all 12 first-party publication-title bridges now round-trip through the qualified set/story Q&A route with official URLs and separate Scryfall set vs story-page publication dates; a known unlinked release explicitly retains an incomplete-index flag. This certifies **supported navigation**, not an exhaustive association of all 1,062 codes or the chronology of fictional events; see `research/FOUNDATION_ENGINEERING_CLOSURE_V290_2026-11-01.md`.)*
 - [ ] Maintain an explicit coverage/gaps inventory as new sets and stories arrive. *(Started 2026-10-30, Batch 4: `scripts/build_story_coverage_inventory.py` generates `data/lore_research/story_coverage_inventory_2026-10-30.json` from the 626-page `primary_sources.csv` and the 9 graph claim packs, and CI rebuilds and compares it. Claim packs cite 57 of the 626 pages. Of the 33 arc buckets, 1 has every page cited (ONE, 6/6), 9 are partial (MOM 10/11, DOM/WAR 12/18, BRO 4/10, BFZ/OGW 3/19, TDM 2/14, SOI/EMN 1/21, DMU 1/6, ECL 1/12, untagged 17/305) and 23 are not started, including KLD/AER, AKH/HOU, XLN/RIX, EOE and RF. "Cited" means the page is used at least once, not that it was read exhaustively. The box stays unchecked because the inventory still has to be refreshed when new stories arrive. **Batch 5 refresh:** 12 claim packs and 231 claims now cite 88 of the 626 pages. 1 arc is fully cited, 12 are partial (now including KLD/AER 14/17, XLN/RIX 10/17 and AKH/HOU 7/16), and 20 are not started. **v2.33 (after NEO):** 13 packs and 243 claims cite 94 of 626 pages. 2 arcs are fully cited, 12 partial and 19 not started. **v2.38, Batch 10 refresh:** 516/626 pages cited, 40 reviewed with no claim, 31 of 33 arcs fully cited; untagged 119 + 38 reviewed of 227.)* *(v2.39, Batch 11: **626/626 pages cited or reviewed** (576 cited, 50 reviewed with no claim, 0 unread); all 33 arcs cited-or-reviewed; 1,139 claims. Stays unchecked: upkeep is ongoing as new stories arrive.)*
 
-## Phase 6 — Lore-first Commander deckbuilding engine (DEFERRED UNTIL FOUNDATION CERTIFICATION)
+## Phase 6 — Lore-first Commander deckbuilding engine (post-foundation engineering resumed)
 
-**Execution hold (v2.53):** The engineering infrastructure and three unapproved
-pilot proposals are retained as historical evidence, not active work. Do not
-construct, refine, request approval for, or certify lore decks while Phases
-1/1B–5, 7 and the Phase 8 knowledge-foundation release are unfinished. Do not
-interpret the checked pilot-subtask boxes below as owner approval. This phase
-resumes only after the foundation release is independently certified (or Cory
-explicitly lifts the hold).
+**Execution hold history (v2.53 → v3.02):** The foundation was independently
+certified in v3.00. Cory then explicitly requested post-foundation completion;
+therefore bounded Phase 6 *engineering* work has resumed. The original hold
+remains in the historical record. The three pilot proposals are still
+UNAPPROVED, with no deck approval/optimization or change to the 62 Grixis
+decks. Unreviewed gameplay/canon and new final deck approvals remain separate.
 
-- [ ] Retrieve lore-relevant cards with grades: direct depiction, canon reference, lore-inspired, mechanical stand-in.
+- [x] Retrieve lore-relevant cards with grades: direct depiction, canon reference, lore-inspired, mechanical stand-in. *(v3.02 bounded acceptance: `lore_deck_candidates.py` returns the exact chosen printing, Oracle ID, source, why and four curator-assigned grades across three audited pilot pools; this is not autonomous canon grading for arbitrary themes. `audit_phase6_engine_scope.py --check` verifies all four tiers and their source links.)*
 - [ ] Compare eligible commander choices with verified color identity and relevant story context.
 - [ ] Build mechanically coherent, realistic-power Commander strategies around the narrative.
-- [ ] Support optional set/era/first-printed-in restrictions using verified Phase 1B data without confusing reprints with original debuts.
+- [x] Support optional set/era/first-printed-in restrictions using verified Phase 1B data without confusing reprints with original debuts. *(v3.02: `lore_deck_restrictions.py` filters an existing pilot by selected printing set, real-world publication-era years and **first-recorded English paper printing per stable Oracle ID** using the frozen Phase 1B historical shards. It retains same-day debut ties, rejects unknown printing IDs and prints dated scope warnings. It does **not** claim an in-universe lore era from a release date or live legality.)*
 - [ ] Verify each final 100-card list, singleton restrictions, relevant rules/combinations, legality and current bracket.
-- [ ] Provide three Archidekt tags and one clean commander-first `1x Name` import list.
+- [x] Provide three Archidekt tags and one clean commander-first `1x Name` import list. *(v3.02: all three UNAPPROVED pilot artifacts have three unique tags and a complete import list. The audit now asserts **every** imported quantity/name equals the underlying 100-card deck, including commander first; a middle-row corruption regression fails.)*
 - [ ] Pilot 1: **Ugin & Nicol Bolas — Elder Dragon Duality**. Owner approval is pending, so the box stays unchecked until Cory approves.
   - [x] Complete, verified 100-card proposal (2026-10-30, [PR #823](https://github.com/corymstover/GrokBotMTGCompanion/pull/823)). Every card is graded, and three Archidekt tags plus a commander-first import list are provided. A scripted builder (`scripts/build_ugin_bolas_duality_pilot.py`) reads printings from `snap-20261029-40848334824-1`, never from the Grixis lock. The offline audit and tests run in `phase6-pilot1-ugin-bolas-duality.yml`. Status: **UNAPPROVED**.
 - [ ] Pilot 2: **Original Primeval Dragons**.
@@ -1288,7 +1308,7 @@ explicitly lifts the hold).
 - [ ] Pilot 3: **Ugin's Allies and Heroes**.
   - [x] Claim research, Pack A5 (2026-10-30): 16 verbatim-quoted claims. Audit: `scripts/audit_lore_pack_a5.py --check`. Next: War of the Spark ally evidence (Kaya, Teyo).
   - [x] Complete, verified 100-card proposal (2026-10-30, [PR #844](https://github.com/corymstover/GrokBotMTGCompanion/pull/844), merge `0344cd53`). The commander is Jace, Multiverse Architect (WUBR, "can be your commander"; the CR 903.3a check passes). Built with `scripts/build_lore_pilot.py` from Pack A5 and the caption atlas. Tiers: 15 CANON_REFERENCE (each cites a CANON_CONFIRMED A5 claim), 32 LORE_INSPIRED (caption-atlas art from the cited stories, plus Elspeth, whose U016 claim is only implied), 40 MECHANICAL_SYMBOL, 13 basics, 0 Game Changers. `tests/test_pilot3_ugins_allies.py` checks every caption statement against the atlas. Status: **UNAPPROVED**.
-- [ ] Preserve the original approved 62 decks; a new pilot never overwrites them.
+- [x] Preserve the original approved 62 decks; a new pilot never overwrites them. *(v3.02: pilot tools are read-only except dedicated `data/lore_decks/drafts/` outputs, and `audit_phase6_engine_scope.py` rejects drift of all five SHA-pinned protected Grixis/approval paths from the v3.00 certificate. No original Grixis deck, approval, registry or lock was edited. This is a protection regression, not permission to modify the decks.)*
 
 ## Phase 7 — Ultimate MTG question-answering companion
 

@@ -110,7 +110,7 @@ they are not the active Phase 1–8 completion counters.
 | Registered people/factions with direct claims | **{len(directly_cited)}/{len(named_people_factions)}** | At least one cited relation per registered node, **not** a complete biography or census of all canon. |
 | Exact printing-specific representations | **{graph.get('exact_art_printings', 0)}** | Frozen snapshot + official art-file label evidence, **not** canon scene depiction. |
 | In-universe dated claim edges | **{graph['claim_edges_with_in_universe_date']}** | Most graph edges lack a verified in-world date. |
-| Parked graph-built Commander pilots | **3 unapproved** | Preserved, not a knowledge-foundation release gate. |
+| Post-foundation lore-deck pilot drafts | **3 unapproved** | Four bounded Phase 6 engine capabilities now verified; no deck approval or current legality claim. |
 | Foundation-release readiness | **7/7 finite gates certified by separate SHA-pinned external evidence** | Read-only machine status remains {readiness} (5 MET, 2 EXTERNAL); the immutable v3.00 release certificate records exact-commit Actions, unchanged protected hashes and dated source limits. |
 | Official source watch | **Weekly review-only workflow** | Story index, Wizards update-bulletin candidates, Scryfall metadata and rules PDF candidates; not automatic lore/rules updates. |
 
@@ -127,9 +127,9 @@ Completed **{full_triage['by_status']['Completed']}** · Under review **{full_tr
 Blocked **{full_triage['by_status']['Blocked']}** · Not started **{full_triage['by_status']['Not started']}**.
 Every checked and unchecked task is accounted for in
 `data/release/full_checklist_triage_2026-11-01.json` and
-`research/FULL_CHECKLIST_TRIAGE_2026-11-01.md`. The ten deferred Phase 6
-items count as blocked by the foundation-first directive, not unfinished
-foundation certification tasks.
+`research/FULL_CHECKLIST_TRIAGE_2026-11-01.md`. The post-foundation Phase 6
+engine has resumed; individual pilot approvals and current legality/strategy
+remain open and are not unfinished foundation certification tasks.
 
 {gate_report}
 
@@ -151,9 +151,10 @@ does not purport to certify post-bulletin gameplay rulings or future data.
 **Priority next steps:** verify current-era Q&A answers; close only evidence-backed graph
 identity and chronology gaps; expand comprehensive plane, character, faction and cross-plane
 history; harden rules and difficult Q&A; preserve the original hash-verified October
-historical Scryfall replay and its November 1 bulk-field freshness audit (repeat on any later release bulk). **The finite knowledge foundation is certified,
-but Phase 6 deckbuilding and its three unapproved pilots remain deferred
-until a separate explicit deckbuilding instruction.** Do not modify any
+historical Scryfall replay and its November 1 bulk-field freshness audit (repeat on any later release bulk). **The finite knowledge foundation is certified.
+Post-foundation Phase 6 engine checks K106/K109/K111/K115 now pass within
+an explicitly limited and source-dated scope, while individual pilot approvals,
+choice/strategy and current legality remain open.** Do not modify any
 of the 62 finalized Grixis decks.
 {END}"""
 
