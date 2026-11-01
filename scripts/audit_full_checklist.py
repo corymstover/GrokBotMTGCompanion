@@ -47,7 +47,6 @@ OPEN = {
     "Expand Bolas's schemes": ("Under review", "COVERAGE_GAPS", "War of the Spark sources are only partially extracted."),
     "Expand Mirrodin/New Phyrexia": ("Under review", "COVERAGE_GAPS", "Main-story claim packs do not exhaust side stories or consequences."),
     "Expand Omenpaths": ("Under review", "COVERAGE_GAPS", "Newer stories and continuity changes require further cited claims."),
-    "Audit major planes, regions": ("Under review", "COVERAGE_GAPS", "A registered 33-plane inventory is not a complete canon census or biography set."),
     "Connect cross-plane histories": ("Under review", "CHRONOLOGY_GAPS", "Explicit SAME_EVENT bridges exist, but most cross-plane order/retcon claims are unresolved."),
     "Maintain an explicit coverage/gaps inventory": ("Under review", "ONGOING_SOURCE_TRIAGE", "Dated coverage inventory exists, but future sources and gap reports remain ongoing."),
     "Answer obscure lore and chronology": ("Under review", "QA_COVERAGE", "Cited Q&A works on bounded claims; unsupported questions remain UNKNOWN."),

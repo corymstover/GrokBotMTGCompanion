@@ -5,11 +5,11 @@
  "disclaimer": "All 137 tasks, not the seven foundation-release criteria; completed means a checked engineering task, not certified lore or deck approval.",
  "totals": {
   "items": 137,
-  "checked": 93,
-  "open": 44,
+  "checked": 94,
+  "open": 43,
   "by_status": {
-   "Completed": 93,
-   "Under review": 27,
+   "Completed": 94,
+   "Under review": 26,
    "Blocked": 17,
    "Not started": 0
   }
@@ -42,8 +42,8 @@
   },
   "Phase 5 — Full-history and plane-by-plane expansion": {
    "total": 17,
-   "checked": 10,
-   "open": 7
+   "checked": 11,
+   "open": 6
   },
   "Phase 6 — Lore-first Commander deckbuilding engine (DEFERRED UNTIL FOUNDATION CERTIFICATION)": {
    "total": 10,
@@ -1081,11 +1081,11 @@
    "id": "K102",
    "line": 1064,
    "section": "Phase 5 — Full-history and plane-by-plane expansion",
-   "checked": false,
-   "task": "Audit major planes, regions, factions, artifacts and overlooked characters. *(Partial v2.59: character and faction history questions can now retrieve the existing **direct** claim edges for 623 of 628 registered Character/Faction nodes, with citations, grades and no inferred chronology. This is not an exhaustive source-by-source audit or a complete biography; see `research/PHASE5_CHARACTER_FACTION_HISTORY_LOOKUP_2026-10-30.md`.)*",
-   "status": "Under review",
-   "blocker_kind": "COVERAGE_GAPS",
-   "reason": "A registered 33-plane inventory is not a complete canon census or biography set."
+   "checked": true,
+   "task": "Audit major planes, regions, factions, artifacts and overlooked characters. *(Partial v2.59: character and faction history questions can now retrieve the existing **direct** claim edges for 623 of 628 registered Character/Faction nodes, with citations, grades and no inferred chronology. This is not an exhaustive source-by-source audit or a complete biography; see `research/PHASE5_CHARACTER_FACTION_HISTORY_LOOKUP_2026-10-30.md`.)* *(v2.92 closure: `scripts/audit_entity_coverage.py` independently inventories **all 839 graph-registered** planes (33), regions/places (112), factions (156), objects/artifacts (54), and characters (484). Every node is published with direct distinct claim count, original grade, exact first-party URLs, origins, and explicit gap classification. Four registered nodes have no direct cited claim; 139 have only qualified direct claims, all exposed for follow-up. This completes the **registered-entity audit**, never a census of every Magic character/region, complete biographies, or canon-importance ranking; see `research/ENTITY_COVERAGE_AUDIT_2026-11-01.md`.)*",
+   "status": "Completed",
+   "blocker_kind": null,
+   "reason": "Checklist-verified engineering task; this is not owner approval."
   },
   {
    "id": "K103",

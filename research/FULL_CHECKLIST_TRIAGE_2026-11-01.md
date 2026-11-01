@@ -1,6 +1,6 @@
 # Complete Master Workflow checklist triage — 2026-11-01
 
-**93/137 checked; 44 open.** Completed: 93; Under review: 27; Blocked: 17; Not started: 0.
+**94/137 checked; 43 open.** Completed: 94; Under review: 26; Blocked: 17; Not started: 0.
 
 This inventory is **not foundation certification**. Deferred Phase 6 tasks remain deliberately blocked, not silently completed; ongoing maintenance and source gaps are included.
 
@@ -59,7 +59,7 @@ The machine-readable JSON records every task, its original workflow line, triage
 
 ## Phase 5 — Full-history and plane-by-plane expansion
 
-10/17 checked; 7 open.
+11/17 checked; 6 open.
 
 - **K098 · Under review · COVERAGE_GAPS** — Expand the Mending, major planeswalkers and the Gatewatch.
   - Mending and Gatewatch biographies/events are not comprehensively source-audited.
@@ -69,8 +69,6 @@ The machine-readable JSON records every task, its original workflow line, triage
   - Main-story claim packs do not exhaust side stories or consequences.
 - **K101 · Under review · COVERAGE_GAPS** — Expand Omenpaths and later canonical stories.
   - Newer stories and continuity changes require further cited claims.
-- **K102 · Under review · COVERAGE_GAPS** — Audit major planes, regions, factions, artifacts and overlooked characters.
-  - A registered 33-plane inventory is not a complete canon census or biography set.
 - **K103 · Under review · CHRONOLOGY_GAPS** — Connect cross-plane histories and document contradictions/retcons.
   - Explicit SAME_EVENT bridges exist, but most cross-plane order/retcon claims are unresolved.
 - **K105 · Under review · ONGOING_SOURCE_TRIAGE** — Maintain an explicit coverage/gaps inventory as new sets and stories arrive.
