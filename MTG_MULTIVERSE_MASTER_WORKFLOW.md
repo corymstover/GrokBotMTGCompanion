@@ -1,6 +1,6 @@
 # MTG Multiverse Companion — Master Workflow & Progress Checklist
 
-**Version:** 3.00
+**Version:** 3.01
 **Checkpoint date:** 2026-11-01
 **Repository:** [corymstover/GrokBotMTGCompanion](https://github.com/corymstover/GrokBotMTGCompanion)  
 **Purpose:** Durable project roadmap and handoff document. Update this file after verified milestone work; do not treat historical figures as live counters.
@@ -22,6 +22,23 @@ foundation release may document inherently unresolved canon and future
 maintenance; it must never claim exhaustive knowledge of all MTG history.
 The 62 approved Grixis decks, their hashes and all owner gates remain intact.
 Only a new explicit request from Cory can override the Phase 6 hold.
+
+**v3.01 post-foundation War of the Spark six-chapter source pass (2026-11-01):**
+The two previously unused official *War of the Spark: Ravnica* web episodes,
+*The Path to Opulent* and *Desperate Operatives*, now have independently
+verified supplementary source-local chronology: **2 pages, 10 event nodes,
+8 strict quoted BEFORE edges and 20 evidenced within-episode event pairs**.
+All eight short quotations passed a fresh live verification against the
+Wizards stories. The new `scripts/audit_war_spark_chapter_gap.py` can query
+the two within-chapter chains while returning UNKNOWN for three expressly
+unsupported comparisons against each other and the certified war/postwar
+strands. Its source-pack SHA and each quote digest are reproducibly checked
+in CI. It does **not** rewrite the v3.00-certified core, promote Rat's
+narration to a global timeline, settle Vraska's present office, or finish
+the broad K099/K103 research tasks. **107/137 project tasks checked,
+30 still open; 7/7 foundation gates remain certified for their versioned
+baseline.** See `research/POSTFOUNDATION_WAR_SPARK_CHAPTER_GAP_V301_2026-11-01.md`
+and the v3.01 handoff. Phase 6 and all approved Grixis decks remain untouched.
 
 **v3.00 finite knowledge-foundation milestone CERTIFIED (2026-11-01):**
 The final two release criteria K136/K137 are checked on *observed external

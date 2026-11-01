@@ -1,0 +1,51 @@
+{
+  "schema": "war-spark-chapter-gap-spec/v1",
+  "status": "PRELIMINARY_SOURCE_LOCAL_RESEARCH",
+  "scope": "Two previously unused 2019 Wizards War of the Spark: Ravnica chapters: bounded Rat-narrated event order only. Neither publication order nor shared characters creates an edge to the existing Y/Azorius/Amonkhet chronology ledgers.",
+  "source_pack": "data/lore_research/pack_p5_war_spark_ravnica_2026-10-30.json",
+  "strands": [
+    {
+      "id": "PO",
+      "source_id": "wr_path_opulent",
+      "title": "The Path to Opulent — Kaya, Teyo and Rat encounter Domri's defenders",
+      "limitation": "Rat's remembered encounter and interpretation of the battle; Kaya's intent to summon the Orzhov is not evidence that the entire guild joined. Domri's in-scene conduct is not a claim to current Gruul leadership.",
+      "events": [
+        {"id": "PO:hekara_mourned", "label": "Rat mourns Hekara amid the invasion"},
+        {"id": "PO:kaya_recruits", "label": "Kaya invites Rat and Teyo to accompany her"},
+        {"id": "PO:orzhova_route", "label": "The trio travel toward Orzhova to seek Orzhov aid"},
+        {"id": "PO:domri_rescues", "label": "Domri's Gruul warriors attack the Eternals behind the trapped trio"},
+        {"id": "PO:simic_izzet_arrive", "label": "The travelling group encounters Simic and Izzet forces fighting Eternals"}
+      ],
+      "edges": [
+        {"earlier": "PO:hekara_mourned", "later": "PO:kaya_recruits", "quote": "Kaya turned to Teyo and me and said", "note": "Rat recounts the immediately preceding grief before Kaya asks them to go with her; no exact elapsed time."},
+        {"earlier": "PO:kaya_recruits", "later": "PO:orzhova_route", "quote": "Mistress Kaya was trying to get to Orzhova to summon her guild into battle.", "note": "Kaya's declared purpose precedes the trio's narrated journey; the attempt is not proof of successful recruitment."},
+        {"earlier": "PO:orzhova_route", "later": "PO:domri_rescues", "quote": "attacked the Eternals from behind", "note": "Domri's group intervenes after the travelers become trapped by Eternals on their Orzhova route."},
+        {"earlier": "PO:domri_rescues", "later": "PO:simic_izzet_arrive", "quote": "We soon ran into a phalanx of Eternals", "note": "Rat describes travelling with the Gruul group afterward and then meeting Simic/Izzet fighters."}
+      ]
+    },
+    {
+      "id": "DO",
+      "source_id": "wr_desperate",
+      "title": "Desperate Operatives — the four-guild mission, Vraska and evacuation",
+      "limitation": "Rat narrates guild recruitment and rescue amid the war; Vraska's return and aid are not a current-leadership verdict, and her alleged betrayal is not resolved in this sequence. No other war front or date is implied.",
+      "events": [
+        {"id": "DO:kaya_commissioned", "label": "Ral and Jace task Kaya with bringing four guilds to Operation Desperation"},
+        {"id": "DO:emmara_appeal", "label": "Kaya petitions Emmara and the Selesnya leadership for cooperation"},
+        {"id": "DO:gruul_appeal", "label": "Rat urges Borborygmos and Gan Shokta to unite the Gruul"},
+        {"id": "DO:vraska_returns", "label": "Vraska returns and claims her Golgari throne"},
+        {"id": "DO:golgari_rescue", "label": "Vraska's party helps Ajani evacuate people into Golgari tunnels"}
+      ],
+      "edges": [
+        {"earlier": "DO:kaya_commissioned", "later": "DO:emmara_appeal", "quote": "Our first stop would be Selesnya", "note": "The mission assignment explicitly precedes the first Selesnya visit in this narrator's account."},
+        {"earlier": "DO:emmara_appeal", "later": "DO:gruul_appeal", "quote": "This final tunnel soon opened up onto Skarrg", "note": "After the Selesnya encounter, Rat guides the group to the Gruul meeting place."},
+        {"earlier": "DO:gruul_appeal", "later": "DO:vraska_returns", "quote": "Two down. Two to go.", "note": "Rat counts the preceding recruiting attempts before recounting Vraska's later Golgari return; this is an account-local ordering only."},
+        {"earlier": "DO:vraska_returns", "later": "DO:golgari_rescue", "quote": "Bring everyone down. The Golgari will keep them safe.", "note": "Vraska's aid to the trapped evacuees follows her documented return; no current trust or leadership assertion."}
+      ]
+    }
+  ],
+  "explicitly_unknown_pairs": [
+    ["PO:simic_izzet_arrive", "DO:kaya_commissioned"],
+    ["DO:vraska_returns", "Y:blackblade_shatters"],
+    ["DO:golgari_rescue", "W:bolas_imprisoned"]
+  ]
+}
