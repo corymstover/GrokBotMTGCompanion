@@ -10,6 +10,10 @@ on:
       - 'tests/test_full_checklist_triage.py'
       - 'tests/test_foundation_v290_checklist_closure.py'
       - 'tests/test_foundation_v291_dual_timeline.py'
+      - 'tests/test_entity_coverage_audit.py'
+      - 'scripts/audit_entity_coverage.py'
+      - 'research/ENTITY_COVERAGE_AUDIT_2026-11-01.md'
+      - 'data/lore_research/entity_coverage_audit_2026-11-01.json'
       - 'tests/test_release_snapshot_freshness.py'
       - 'research/FULL_CHECKLIST_TRIAGE_2026-10-31.md'
       - 'research/FULL_CHECKLIST_TRIAGE_2026-11-01.md'
@@ -68,6 +72,10 @@ jobs:
         run: python3 -m unittest tests.test_foundation_v290_checklist_closure -v
       - name: Source-safe dual-timeline closure (distinct real and fictional dates)
         run: python3 -m unittest tests.test_foundation_v291_dual_timeline -v
+      - name: Registered world/entity source-grade coverage audit
+        run: |
+          python3 scripts/audit_entity_coverage.py --check
+          python3 -m unittest tests.test_entity_coverage_audit -v
       - name: Latest source manifest and cross-bulk release-freshness proof
         run: |
           python3 scripts/audit_release_snapshot_delta.py --check
