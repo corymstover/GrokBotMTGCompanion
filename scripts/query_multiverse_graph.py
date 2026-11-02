@@ -83,7 +83,8 @@ class MG:
             urls.append(self.nodes[e["from"]].get("url", ""))
         return sorted(set(u for u in urls if u))
 
-    def neighbors(self, term: str, status: str | None = None, include_structural=False) -> list[dict]:
+    def neighbors(self, term: str, status: str | None = None, include_structural=False,
+                  *, include_temporal: bool = False) -> list[dict]:
         nid = self.find(term)
         rows = []
         for direction, edges in (("out", self.out.get(nid, [])), ("in", self.inc.get(nid, []))):
@@ -94,13 +95,19 @@ class MG:
                     continue
                 other = e["to"] if direction == "out" else e["from"]
                 rel = e["relation"] if direction == "out" else self.inverse.get(e["relation"], f"inverse_of:{e['relation']}")
-                rows.append({"direction": direction, "relation": rel, "node": other,
+                row = {"direction": direction, "relation": rel, "node": other,
                              "name": self.nodes[other]["name"], "type": self.nodes[other]["type"],
                              "claim": e.get("claim"), "status": e.get("grade") or ("NAVIGATION_ONLY" if e["relation"] in {"proposed_in", "see_also_curated_entry", "has_printing", "art_file_used_on_official_page"} else e.get("tier", "")),
-                             "tier": e.get("tier"), "source_urls": self._sources(e)})
+                             "tier": e.get("tier"), "source_urls": self._sources(e)}
+                if include_temporal:
+                    row.update({"in_universe_date": e.get("in_universe_date"),
+                                "time_qualification": ("QUOTED_SOURCE_LOCAL_SPAN" if e.get("in_universe_date")
+                                                       else "SOURCE_NOT_DATED" if e.get("claim") else "NOT_A_CANON_CHRONOLOGY_EDGE")})
+                rows.append(row)
         return sorted(rows, key=lambda r: (r["direction"], r["relation"], r["node"]))
 
-    def path(self, a: str, b: str, max_depth: int = 6, *, include_qualified: bool = False) -> list[dict] | None:
+    def path(self, a: str, b: str, max_depth: int = 6, *, include_qualified: bool = False,
+             include_temporal: bool = False) -> list[dict] | None:
         """Find a fully connected, depth-bounded, sourced *navigation* path.
 
         The path traverses citation-bearing claim edges in either direction.
@@ -133,24 +140,28 @@ class MG:
         hops, cur = [], dst
         while prev[cur]:
             p, e = prev[cur]
-            hops.append({"from": e["from"], "relation": e["relation"], "to": e["to"], "claim": e["claim"],
+            row = {"from": e["from"], "relation": e["relation"], "to": e["to"], "claim": e["claim"],
                          "status": e["grade"], "source_urls": self._sources(e),
                          "traversal_from": p, "traversal_to": cur,
-                         "traversal_direction": "forward" if p == e["from"] else "reverse"})
+                         "traversal_direction": "forward" if p == e["from"] else "reverse"}
+            if include_temporal:
+                row.update({"in_universe_date": e.get("in_universe_date"),
+                            "time_qualification": "QUOTED_SOURCE_LOCAL_SPAN" if e.get("in_universe_date") else "SOURCE_NOT_DATED"})
+            hops.append(row)
             cur = p
         return list(reversed(hops))
 
-    def card(self, term: str) -> dict:
+    def card(self, term: str, *, include_temporal: bool = False) -> dict:
         nid = self.find(term, prefer="Card")
         n = self.nodes[nid]
-        return {"card": n, "relationships": self.neighbors(nid)}
+        return {"card": n, "relationships": self.neighbors(nid, include_temporal=include_temporal)}
 
-    def printing(self, set_code: str, collector_number: str) -> list[dict]:
+    def printing(self, set_code: str, collector_number: str, *, include_temporal: bool = False) -> list[dict]:
         code = set_code.lower().strip()
         number = collector_number.lower().strip()
         found = [n for n in self.g["nodes"] if n["type"] == "CardRepresentation"
                  and n["set"].lower() == code and n["collector_number"].lower() == number]
-        return [{"printing": n, "relationships": self.neighbors(n["id"])} for n in found]
+        return [{"printing": n, "relationships": self.neighbors(n["id"], include_temporal=include_temporal)} for n in found]
 
     def status(self, status: str) -> list[dict]:
         return [{"claim": n["id"], "summary": n["name"], "limitation": n.get("limitation", "")}
@@ -167,12 +178,17 @@ def main(argv=None) -> int:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     sub = ap.add_subparsers(dest="cmd", required=True)
     for name in ("node", "card", "search"):
-        sub.add_parser(name).add_argument("term")
+        cmd = sub.add_parser(name); cmd.add_argument("term")
+        if name == "card":
+            cmd.add_argument("--temporal", action="store_true")
     nb = sub.add_parser("neighbors"); nb.add_argument("term"); nb.add_argument("--status"); nb.add_argument("--structural", action="store_true")
+    nb.add_argument("--temporal", action="store_true", help="include attested quoted source-local time or explicit undated markers")
     pa = sub.add_parser("path"); pa.add_argument("a"); pa.add_argument("b")
     pa.add_argument("--max-depth", type=int, default=6)
     pa.add_argument("--include-qualified", action="store_true", help="also traverse disputed, open, implied and alternate-continuity claims")
+    pa.add_argument("--temporal", action="store_true", help="include quoted source-local time/undated markers")
     pr = sub.add_parser("printing"); pr.add_argument("set_code"); pr.add_argument("collector_number")
+    pr.add_argument("--temporal", action="store_true")
     st = sub.add_parser("status"); st.add_argument("status")
     a = ap.parse_args(argv)
     mg = MG()
@@ -180,13 +196,14 @@ def main(argv=None) -> int:
         if a.cmd == "node":
             nid = mg.find(a.term); res = {"node": mg.nodes[nid], "relationships": mg.neighbors(nid)}
         elif a.cmd == "neighbors":
-            res = mg.neighbors(a.term, a.status, a.structural)
+            res = mg.neighbors(a.term, a.status, a.structural, include_temporal=a.temporal)
         elif a.cmd == "card":
-            res = mg.card(a.term)
+            res = mg.card(a.term, include_temporal=a.temporal)
         elif a.cmd == "printing":
-            res = mg.printing(a.set_code, a.collector_number)
+            res = mg.printing(a.set_code, a.collector_number, include_temporal=a.temporal)
         elif a.cmd == "path":
-            res = mg.path(a.a, a.b, max_depth=a.max_depth, include_qualified=a.include_qualified)
+            res = mg.path(a.a, a.b, max_depth=a.max_depth, include_qualified=a.include_qualified,
+                          include_temporal=a.temporal)
         elif a.cmd == "status":
             res = mg.status(a.status)
         else:

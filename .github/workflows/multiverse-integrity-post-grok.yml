@@ -6,6 +6,9 @@ on:
       - 'scripts/mv_ask.py'
       - 'scripts/build_multiverse_graph.py'
       - 'scripts/query_multiverse_graph.py'
+      - 'scripts/audit_card_relationship_acceptance.py'
+      - 'data/release/card_relationship_acceptance_2026-11-01.json'
+      - 'tests/test_card_relationship_acceptance.py'
       - 'scripts/audit_entity_structures.py'
       - 'scripts/audit_p5_isolated_entity_history.py'
       - 'scripts/audit_p5_thin_plane_history.py'
@@ -213,6 +216,8 @@ jobs:
           python3 -m unittest discover -s tests -p 'test_bablovia_unset_continuity.py' -q
       - name: Confidence and graph regression tests
         run: |
+          python3 scripts/audit_card_relationship_acceptance.py --check
+          python3 -m unittest discover -s tests -p 'test_card_relationship_acceptance.py' -q
           python3 -m unittest discover -s tests -p 'test_mv_ask*.py' -q
           python3 -m unittest discover -s tests -p 'test_graph_integrity_post_grok.py' -q
           python3 -m unittest discover -s tests -p 'test_graph_path_evidence_safety.py' -q

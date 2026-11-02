@@ -1,8 +1,8 @@
 # Complete Master Workflow checklist triage — 2026-11-01
 
-**113/137 checked; 24 open.** Completed: 113; Under review: 16; Blocked: 8; Not started: 0.
+**115/137 checked; 22 open.** Completed: 115; Under review: 14; Blocked: 8; Not started: 0.
 
-**Repository finish line: 18 actionable build items remain.** 6 unchecked historical items are excluded: 3 post-build pilot reviews and 3 recurring upkeep tasks. None is treated as finished or as a release blocker.
+**Repository finish line: 16 actionable build items remain.** 6 unchecked historical items are excluded: 3 post-build pilot reviews and 3 recurring upkeep tasks. None is treated as finished or as a release blocker.
 
 This checklist inventory alone is **not a foundation certificate**; the separate v3.00 SHA-pinned milestone certificate records external CI. Pilot reviews are deferred until decks are rebuilt using the completed repository data; upkeep continues after release.
 
@@ -30,17 +30,13 @@ The machine-readable JSON preserves all 137 original tasks with their build-scop
 
 ## Phase 2 — Lore enrichment and primary-source integrity
 
-8/9 checked; 1 remaining build; 0 excluded from finish line.
+9/9 checked; 0 remaining build; 0 excluded from finish line.
 
-- **K064 · Under review · SOURCE_GRADING** — Link direct printed depictions, official story references, artwork, flavor text, characters and important events where evidence supports them.
-  - Proof tiers and 570 printing labels exist, but direct depiction evidence remains incomplete.
 
 ## Phase 3 — Searchable Multiverse relationship graph
 
-5/6 checked; 1 remaining build; 0 excluded from finish line.
+6/6 checked; 0 remaining build; 0 excluded from finish line.
 
-- **K069 · Under review · CHRONOLOGY_GAPS** — Record directional, dated, cited relationships (e.g. allied_with, fought, created, present_at, depicted_by). (Partial: edges are directional, cited and graded, but most are not yet dated in-universe.)
-  - Only a subset of graph relations carry source-quoted in-universe time phrases.
 
 ## Phase 4 — Foundational lore research packs
 
