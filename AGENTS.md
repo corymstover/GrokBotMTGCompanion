@@ -21,8 +21,9 @@ labels. Any unresolved lore/rules question remains explicitly UNKNOWN.
 canonical approval registry (`state/current_deck_overrides.json` in **that
 repository**, not at this repository root). This repo also contains an archived
 Grixis source copy and local audit digests; neither supersedes the canonical
-registry. All nine lore decks **#1–8 and #10** have owner approval receipts in
-[`data/lore_decks/approvals/`](data/lore_decks/approvals/) and must remain
+registry. All nine lore decks **#1–8 and #10** are indexed in
+[`docs/LORE_DECK_APPROVAL_INDEX.md`](docs/LORE_DECK_APPROVAL_INDEX.md), with
+exact owner approval receipts in [`data/lore_decks/approvals/`](data/lore_decks/approvals/), and must remain
 unchanged. The three graph-built foundation pilots remain **UNAPPROVED** and
 are to be rebuilt/reviewed only on Cory's later explicit request.
 

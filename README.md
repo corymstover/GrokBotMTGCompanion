@@ -17,7 +17,7 @@ labelled rather than guessed.
 | Inspect a specific card | `python3 scripts/mv_ask.py card "Sol Ring"` |
 | Query cited relationships | `python3 scripts/mv_ask.py lore "Ugin"` |
 | Read program status | [Master Workflow v3.09](MTG_MULTIVERSE_MASTER_WORKFLOW.md) · [Progress Tracker](Progress%20Tracker.md) |
-| Examine owner-approved lore decks | [Lore approval receipts](data/lore_decks/approvals/) (#1–8, #10) |
+| Examine owner-approved lore decks | [Single lore-deck approval index](docs/LORE_DECK_APPROVAL_INDEX.md) (#1–8, #10) |
 | Find the canonical Grixis approvals | [Separate Grixis encyclopedia repository](https://github.com/corymstover/grixis-commander-encyclopediaGPT) |
 
 Run the targeted everyday-question checks with
