@@ -97,7 +97,7 @@ def build() -> str:
         gate_lines.append(f'| {title} | {row["status"]} | {", ".join(row["blocker_kinds"]) or "none"} |')
     gate_report = '\n'.join(gate_lines)
     return f"""{START}
-## MTG Multiverse Companion — current engineering checkpoint (2026-11-01)
+## MTG Multiverse Companion — current engineering checkpoint (2026-11-02)
 
 **Live authority:** [Master Workflow v{version.group(1)}](MTG_MULTIVERSE_MASTER_WORKFLOW.md), the current
 graph and dated recount. The older cycle-36/October-15 metrics **below this section are historical**;
@@ -105,8 +105,8 @@ they are not the active Phase 1–8 completion counters.
 
 | Measure | Verified committed state | Important limitation |
 | --- | ---: | --- |
-| Master Workflow checklist | **{done}/{len(checks)} checked; {len(checks)-done} open** | Engineering verification, never owner approval. |
-| Repository completion finish line | **{full_triage['remaining_repository_build']} actionable build items remain** | {full_triage['excluded_from_repository_build']} historical open items excluded: {full_triage['post_build_pilot_reviews']} later pilot approvals, {full_triage['recurring_maintenance']} recurring upkeep; no item silently checked. |
+| Master Workflow checklist | **{done}/{len(checks)} checked; {len(checks)-done} open** | Engineering checklist; only K112–K114 carry independent exact SHA-bound owner approval. |
+| Repository completion finish line | **{full_triage['remaining_repository_build']} actionable build items remain** | The {full_triage['excluded_from_repository_build']} open items are recurring upkeep, not unfinished initial construction. |
 | Priority card enrichments | **{len(enrichment)}/5,362** | Enrichment does not imply every card has a sourced story. |
 | Source-page inventory | **{coverage['cited_pages']} cited + {coverage['reviewed_no_claim_pages']} reviewed = {coverage['pages']} accounted for** | Current inventoried pages only, not all fiction ever published. |
 | Cited lore claims | **{current_claims}** | Live graph/inventory concordance; claim packs remain preliminary research. |
@@ -114,7 +114,7 @@ they are not the active Phase 1–8 completion counters.
 | Registered people/factions with direct claims | **{len(directly_cited)}/{len(named_people_factions)}** | At least one cited relation per registered node, **not** a complete biography or census of all canon. |
 | Exact printing-specific representations | **{graph.get('exact_art_printings', 0)}** | Frozen snapshot + official art-file label evidence, **not** canon scene depiction. |
 | In-universe dated claim edges | **{graph['claim_edges_with_in_universe_date']}** | Most graph edges lack a verified in-world date. |
-| Post-foundation lore-deck pilot drafts | **3 unapproved** | Four bounded Phase 6 engine capabilities and a dated Oracle-anchored strategy preflight now reproducible; realistic-power, current legality and owner approval remain open. |
+| Post-foundation lore-deck pilot drafts | **3 exact historical lists owner-approved** | [November 2 SHA-bound receipt](data/lore_decks/owner_decisions/2026-11-02_cory_approved_phase6_pilots.md); original draft approval=false metadata remains archival; no rebuild, contemporary legality, power certification or playtesting implied. |
 | Foundation-release readiness | **7/7 finite gates certified by separate SHA-pinned external evidence** | Read-only machine status remains {readiness} (5 MET, 2 EXTERNAL); the immutable v3.00 release certificate records exact-commit Actions, unchanged protected hashes and dated source limits. |
 | Official source watch | **Weekly review-only workflow** | Story index, Wizards update-bulletin candidates, Scryfall metadata and rules PDF candidates; not automatic lore/rules updates. |
 
@@ -132,14 +132,14 @@ Completed **{full_triage['by_status']['Completed']}** · Under review **{full_tr
 Blocked **{full_triage['by_status']['Blocked']}** · Not started **{full_triage['by_status']['Not started']}**.
 **Active repository build: {full_triage['remaining_repository_build']} remaining**;
 **excluded from repository completion: {full_triage['excluded_from_repository_build']}**
-({full_triage['post_build_pilot_reviews']} post-build pilot approvals,
-{full_triage['recurring_maintenance']} recurring upkeep tasks).
+(all {full_triage['recurring_maintenance']} are recurring upkeep tasks).
 Every checked and unchecked task is accounted for in
 `data/release/full_checklist_triage_2026-11-01.json` and
 `research/FULL_CHECKLIST_TRIAGE_2026-11-01.md`. The post-foundation Phase 6
-engine has resumed; the gameplay/rules **engineering** tasks remain build work,
-but individual *pilot acceptance* is deferred until the completed repository
-data is used to rebuild those decks. Recurring monitoring is not a build gate.
+engine has resumed; Cory **approved the three exact historical pilot hashes
+without changes** on November 2, before any future rebuilding. This is owner
+approval, not contemporary rules/power certification. Recurring monitoring
+is not a finite build gate.
 
 {gate_report}
 
@@ -163,12 +163,11 @@ identity and chronology gaps; expand comprehensive plane, character, faction and
 history; harden rules and difficult Q&A; preserve the original hash-verified October
 historical Scryfall replay and its November 1 bulk-field freshness audit (repeat on any later release bulk). **The finite knowledge foundation is certified.
 Post-foundation Phase 6 engine checks K106/K109/K111/K115 and the preliminary
-three-pilot functional strategy preflight now pass within a limited and
-source-dated scope. **Cory's repository completion definition excludes
-individual pilot acceptance and ongoing upkeep (6 historical checklist entries); 18 genuine build items remain.**
-Current legality and tested strategy power remain build work; pilot rebuilding
-and approval happen only *after* repository completion. Do not modify any
-of the 62 finalized Grixis decks.
+three-pilot functional strategy preflight pass within a limited, source-dated
+scope. **Cory's exact hash-bound owner approval closes K112/K113/K114 without
+changing any cards; only K105/K125/K126 recurring upkeep remains unchecked.**
+Current legality and tested strategy power remain unverified and future pilot
+revisions need new owner approval. Do not modify any of the 62 Grixis decks.
 {END}"""
 
 

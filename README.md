@@ -10,14 +10,15 @@ service or a live Commander ban-list feed. It contains searchable card records,
 Magic lore relationships and chronology, official-rules excerpts, and
 Commander-deck evaluation tools. Unknown, disputed and outdated facts are
 labelled rather than guessed.
+**Repository visibility:** Public by Cory's explicit November 2 decision.
 
 | Need | Entry point |
 |---|---|
 | Ask a question about a card, lore, rules or sets | `python3 scripts/mv_ask.py ask "What does Sol Ring do?"` |
 | Inspect a specific card | `python3 scripts/mv_ask.py card "Sol Ring"` |
 | Query cited relationships | `python3 scripts/mv_ask.py lore "Ugin"` |
-| Read program status | [Master Workflow v3.09](MTG_MULTIVERSE_MASTER_WORKFLOW.md) · [Progress Tracker](Progress%20Tracker.md) |
-| Examine owner-approved lore decks | [Single lore-deck approval index](docs/LORE_DECK_APPROVAL_INDEX.md) (#1–8, #10) |
+| Read program status | [Master Workflow v3.11](MTG_MULTIVERSE_MASTER_WORKFLOW.md) · [Progress Tracker](Progress%20Tracker.md) |
+| Examine owner-approved lore decks | [Single lore-deck approval index](docs/LORE_DECK_APPROVAL_INDEX.md) (#1–8, #10, plus three separately approved historical pilots) |
 | Find the canonical Grixis approvals | [Separate Grixis encyclopedia repository](https://github.com/corymstover/grixis-commander-encyclopediaGPT) |
 
 Run the targeted everyday-question checks with
@@ -31,34 +32,37 @@ The [archived workflow index](docs/archive/PHASE1B_WORKFLOW_ARCHIVE_2026-11-02.m
 preserves links to the 28 retired dated CI entry points and explains their
 replacement; their specialized audit scripts remain available.
 
-The accepted **v3.09 bounded build milestone** is distinct from ongoing
-**v3.10 usability, test reliability and maintenance work**. The three
-unapproved foundation pilots await Cory's later individual reviews; there are
-no implied new deck approvals. Agents should follow [AGENTS.md](AGENTS.md).
+The accepted **v3.09 bounded build milestone** and **v3.10 hardening** are
+historical checkpoints. **v3.11** records Cory's later explicit approval of
+the three original Phase 6 decks *by exact SHA-256*, with no card changes and
+without claiming live legality or tested power. The current 137-task checklist
+is **134 checked / 3 recurring upkeep items open**. Agents should follow
+[AGENTS.md](AGENTS.md).
 
 ## Bounded repository-build acceptance (2026-11-02)
 
 Cory explicitly redefined the remaining repository finish line: **tested,
 source-graded capabilities with plainly documented UNKNOWN facts count as
 construction complete**. Under that newly selected standard, the Master
-Workflow has **131/137 historical checkboxes checked** and **0 active
-repository-build items**. The other six checkboxes are **not complete**:
-three pilot-deck reviews deliberately occur **after** the repository is
-finished and decks are rebuilt, and three recurring source/rules/set-update
-duties have no permanent finish date. Nothing is deleted or falsely approved.
+Workflow had **131/137 historical checkboxes checked** and **0 active
+repository-build items**. The other six boxes were three pilot reviews and
+three recurring source/rules/set-update duties. The later **v3.11 exact owner
+approval checks off all three pilot boxes**, leaving only the recurring
+maintenance duties open. The original bounded milestone remains historical.
 
 - [Reproducible 14-gate bounded completion audit](data/release/bounded_repository_completion_2026-11-02.json) ·
   `python3 scripts/audit_bounded_repository_completion.py --check`
-- [Master Workflow v3.09](MTG_MULTIVERSE_MASTER_WORKFLOW.md) ·
+- [Master Workflow v3.11](MTG_MULTIVERSE_MASTER_WORKFLOW.md) ·
   [current progress tracker](Progress%20Tracker.md)
 - [Separate 7/7 foundation milestone certificate](data/release/foundation_milestone_certificate_2026-11-01.json)
 
 **What bounded means:** missing individual first-party historical product
 sources remain missing; disputed Elder Dragon genealogy stays disputed;
 cross-plane dating and some side-story coverage remain unknown; and the
-three unapproved Commander pilots have not been rebuilt, playtested or
-individually accepted. Current rules/bracket interactions are not declared
-live-certified. All **62 owner-approved Grixis decks remain protected**.
+three original Commander pilots have **not** been rebuilt or playtested,
+although Cory subsequently accepted their exact historical hashes. Current
+rules/bracket interactions are not declared live-certified. All **62
+owner-approved Grixis decks remain protected**.
 GitHub exact-main CI is required before reporting the bounded repository
 release as verified; this is not universal lore or deck certification.
 

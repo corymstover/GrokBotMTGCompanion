@@ -1,12 +1,14 @@
-name: Phase 6 lore pilots (spec-driven, unapproved)
+name: Phase 6 lore pilots (historical drafts and owner approvals)
 
 on:
   pull_request:
     paths:
       - 'data/lore_decks/specs/**'
       - 'data/lore_decks/drafts/**'
+      - 'data/lore_decks/owner_decisions/**'
       - 'scripts/build_lore_pilot.py'
       - 'scripts/audit_lore_pilot.py'
+      - 'scripts/audit_lore_pilot_owner_approvals.py'
       - 'scripts/audit_phase6_engine_scope.py'
       - 'scripts/lore_deck_candidates.py'
       - 'scripts/lore_deck_restrictions.py'
@@ -14,6 +16,7 @@ on:
       - 'scripts/audit_phase6_strategy_preflight.py'
       - 'tests/test_lore_pilot_builder.py'
       - 'tests/test_pilot3_ugins_allies.py'
+      - 'tests/test_lore_pilot_owner_approvals.py'
       - 'tests/test_phase6_engine_scope.py'
       - 'tests/test_lore_deck_restrictions.py'
       - 'tests/test_lore_commander_comparison.py'
@@ -25,6 +28,7 @@ on:
       - 'data/release/phase6_engine_scope_review_2026-11-01.json'
       - 'data/story_atlas/**'
       - 'data/lore_research/**'
+      - 'MTG_MULTIVERSE_MASTER_WORKFLOW.md'
       - '.github/workflows/phase6-lore-pilots.yml'
   workflow_dispatch:
 
@@ -41,6 +45,10 @@ jobs:
           python-version: '3.11'
       - name: Audit every pilot spec against its committed proposal
         run: python3 scripts/audit_lore_pilot.py
+      - name: Verify Cory's exact historical pilot approvals and revised boundaries
+        run: |
+          python3 scripts/audit_lore_pilot_owner_approvals.py --check
+          python3 -m unittest discover -s tests -p 'test_lore_pilot_owner_approvals.py' -v
       - name: Builder and audit tests
         run: python3 -m unittest discover -s tests -p 'test_lore_pilot_builder.py' -v
       - name: Pilot 3 (Ugin's Allies and Heroes) checks

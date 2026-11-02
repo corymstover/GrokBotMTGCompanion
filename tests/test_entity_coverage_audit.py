@@ -84,10 +84,10 @@ class EntityCoverageCensus(unittest.TestCase):
         self.assertEqual([r['checked'] for r in rows
                           if r['section'].startswith('Definition of the first major')],
                          [True] * 7)
-        # v3.09 adds K108/K110 as bounded preflight build acceptances;
-        # the three owner pilot reviews remain unapproved and unchecked.
+        # v3.09 accepted K108/K110 as bounded preflight build capabilities;
+        # v3.11 separately records Cory's three exact hash-bound pilot approvals.
         self.assertEqual({r['id'] for r in rows if r['section'].startswith('Phase 6') and r['checked']},
-                         {'K106', 'K107', 'K108', 'K109', 'K110', 'K111', 'K115'})
+                         {f'K{x}' for x in range(106, 116)})
 
 
 if __name__ == '__main__':

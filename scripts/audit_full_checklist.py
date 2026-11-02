@@ -4,7 +4,8 @@
 Unlike the separate seven-criterion release-readiness test, this inventory covers
 all 137 engineering tasks, including optional research, continuing maintenance,
 and the Phase 6 items resumed after independently certified foundation.
-No item is marked complete by this tool and none of these statuses is approval.
+No item is marked complete by this tool; the three specific owner-signoff
+checkboxes additionally require independently verified exact approval hashes.
 Each unchecked non-release item has a manually curated, fail-closed blocker
 classification; additions must be reviewed before this report can regenerate.
 """
@@ -20,22 +21,19 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 import certification_dry_run as D  # noqa: E402
+import audit_lore_pilot_owner_approvals as approvals  # noqa: E402
 
 WORKFLOW = ROOT / "MTG_MULTIVERSE_MASTER_WORKFLOW.md"
 OUT = ROOT / "data/release/full_checklist_triage_2026-11-01.json"
 MD = ROOT / "research/FULL_CHECKLIST_TRIAGE_2026-11-01.md"
 STATES = ("Completed", "Under review", "Blocked", "Not started")
 
-# v3.05 owner-defined repository finish line: these unchecked historical
-# checklist entries are real records, but are NOT unfinished repository-build
-# work. They must never be auto-checked or used to approve a preserved pilot.
-# Revalidate the task wording so future numbering edits cannot silently move
-# an exclusion to an unrelated engineering gate.
+# v3.11: only intrinsically recurring upkeep is still open/excluded. The
+# previously deferred Phase 6 pilot signoffs were explicitly granted by Cory
+# for three exact historical hashes, independently replayed below. Revalidate
+# wording so future numbering edits cannot silently move an exclusion.
 EXCLUDED_FROM_BUILD = {
     "K105": ("RECURRING_MAINTENANCE", "Maintain an explicit coverage/gaps inventory", "Future source/coverage watch continues after a finished repository release."),
-    "K112": ("POST_BUILD_PILOT_REVIEW", "Pilot 1:", "Cory will rebuild and individually review this pilot after repository development is finished."),
-    "K113": ("POST_BUILD_PILOT_REVIEW", "Pilot 2:", "Cory will rebuild and individually review this pilot after repository development is finished."),
-    "K114": ("POST_BUILD_PILOT_REVIEW", "Pilot 3:", "Cory will rebuild and individually review this pilot after repository development is finished."),
     "K125": ("RECURRING_MAINTENANCE", "Monitor new official stories", "Future story, rules, Oracle and release monitoring continues after the build finish line."),
     "K126": ("RECURRING_MAINTENANCE", "Rebuild and reconcile the Phase 1B", "Future-set re-ingestion is event-triggered upkeep, not unfinished initial construction."),
 }
@@ -46,16 +44,6 @@ EXCLUDED_FROM_BUILD = {
 OPEN = {
     "Maintain an explicit coverage/gaps inventory": ("Under review", "ONGOING_SOURCE_TRIAGE", "Dated coverage inventory exists, but future sources and gap reports remain ongoing."),
 }
-
-# The v3.00 certified foundation lifted the prerequisite. The v3.02 bounded
-# engine audit completes K106/K109/K111/K115, but unreviewed gameplay and
-# individually unapproved pilot proposals are not inferred complete.
-PHASE6_OPEN = {
-    "Pilot 1:": ("Blocked", "INDIVIDUAL_PILOT_APPROVAL_PENDING", "Ugin/Bolas proposal is UNAPPROVED and requires explicit individual deck review."),
-    "Pilot 2:": ("Blocked", "INDIVIDUAL_PILOT_APPROVAL_PENDING", "Primeval Dragons proposal is UNAPPROVED and requires explicit individual deck review."),
-    "Pilot 3:": ("Blocked", "INDIVIDUAL_PILOT_APPROVAL_PENDING", "Ugin Allies proposal is UNAPPROVED and requires explicit individual deck review."),
-}
-
 
 def items() -> list[dict]:
     result, section = [], ""
@@ -77,6 +65,13 @@ def build() -> dict:
     audit = D.dry_run()
     if audit["problems"]:
         raise ValueError("certification release audit invalid: " + repr(audit["problems"]))
+    # A checked K112-114 must have exact, still-matching owner decision bytes;
+    # the old draft approval=false flags alone are not present-day authority.
+    approved = approvals.check()["checklist_ids"]
+    for key in approved:
+        row = next((r for r in rows if r["id"] == key), None)
+        if not row or not row["checked"] or not row["task"].startswith("Pilot "):
+            raise ValueError(f"{key}: owner-approved pilot checklist checkbox is missing")
     manual_found = collections.Counter()
     p8_idx = release_idx = 0
     for row in rows:
@@ -90,7 +85,11 @@ def build() -> dict:
         else:
             ref = None
         if row["checked"]:
-            status, kind, note = "Completed", None, "Checklist-verified engineering task; this is not owner approval."
+            if row["id"] in approvals.EXPECTED:
+                status, kind, note = ("Completed", "EXACT_OWNER_APPROVAL",
+                                      "Cory approved this exact original decklist by SHA-256 on 2026-11-02; no cards changed, current gameplay legality/power not certified.")
+            else:
+                status, kind, note = "Completed", None, "Checklist-verified engineering task; this is not owner approval."
         elif ref is not None:
             kinds = [b["kind"] for b in ref["blockers"]]
             status = ("Blocked" if any(x in kinds for x in ("MISSING_SOURCE", "ENGINEERING_OPEN"))
@@ -98,10 +97,7 @@ def build() -> dict:
             kind = ",".join(sorted(set(kinds))) or "GATE_REVIEW_NOT_STARTED"
             note = "; ".join(b["what"] for b in ref["blockers"]) or "No release-gate evidence reviewed yet."
         elif phase.startswith("Phase 6"):
-            matches = [key for key in PHASE6_OPEN if row["task"].startswith(key)]
-            if len(matches) != 1:
-                raise ValueError(f"{row['id']}: open post-foundation Phase 6 task not classified")
-            status, kind, note = PHASE6_OPEN[matches[0]]
+            raise ValueError(f"{row['id']}: Phase 6 unchecked despite exact approved pilot register")
         else:
             matches = [key for key in OPEN if row["task"].startswith(key)]
             if len(matches) != 1:
@@ -125,9 +121,8 @@ def build() -> dict:
         raise ValueError("release/Phase 8 audit and checklist item counts disagree")
     counts = collections.Counter(r["status"] for r in rows)
     scopes = collections.Counter(r["completion_scope"] for r in rows)
-    if (scopes["ACTIVE_REPOSITORY_BUILD"] + scopes["POST_BUILD_PILOT_REVIEW"]
-            + scopes["RECURRING_MAINTENANCE"] != len(rows) - counts["Completed"]
-            or scopes["POST_BUILD_PILOT_REVIEW"] != 3
+    if (scopes["ACTIVE_REPOSITORY_BUILD"] + scopes["RECURRING_MAINTENANCE"] != len(rows) - counts["Completed"]
+            or scopes["POST_BUILD_PILOT_REVIEW"] != 0
             or scopes["RECURRING_MAINTENANCE"] != 3):
         raise ValueError("owner-defined build scope does not reconcile with 137 historical tasks")
     phases = {}
@@ -136,15 +131,14 @@ def build() -> dict:
         phases[phase] = {"total": len(part), "checked": sum(r["checked"] for r in part),
                          "open": sum(not r["checked"] for r in part),
                          "active_build": sum(r["completion_scope"] == "ACTIVE_REPOSITORY_BUILD" for r in part),
-                         "excluded_from_build": sum(r["completion_scope"] in (
-                             "POST_BUILD_PILOT_REVIEW", "RECURRING_MAINTENANCE") for r in part)}
-    return {"schema": "full-engineering-checklist-triage/v1", "as_of": "2026-11-01",
+                         "excluded_from_build": sum(r["completion_scope"] == "RECURRING_MAINTENANCE" for r in part)}
+    return {"schema": "full-engineering-checklist-triage/v1", "as_of": "2026-11-02",
             "authority": "MTG_MULTIVERSE_MASTER_WORKFLOW.md",
-            "disclaimer": "All 137 tasks, not the seven foundation-release criteria; completed means a checked engineering task, not certified lore or deck approval.",
+            "disclaimer": "All 137 tasks, not the seven foundation-release criteria. Only K112-K114 have verified, exact owner deck approval; other completed engineering work does not imply owner signoff or live gameplay certification.",
             "totals": {"items": len(rows), "checked": counts["Completed"],
                        "open": len(rows) - counts["Completed"],
                        "remaining_repository_build": scopes["ACTIVE_REPOSITORY_BUILD"],
-                       "excluded_from_repository_build": scopes["POST_BUILD_PILOT_REVIEW"] + scopes["RECURRING_MAINTENANCE"],
+                       "excluded_from_repository_build": scopes["RECURRING_MAINTENANCE"],
                        "post_build_pilot_reviews": scopes["POST_BUILD_PILOT_REVIEW"],
                        "recurring_maintenance": scopes["RECURRING_MAINTENANCE"],
                        "by_status": {k: counts[k] for k in STATES}},
@@ -153,16 +147,16 @@ def build() -> dict:
 
 def markdown(data: dict) -> str:
     t = data["totals"]
-    lines = ["# Complete Master Workflow checklist triage — 2026-11-01", "",
+    lines = ["# Complete Master Workflow checklist triage — 2026-11-02", "",
              f"**{t['checked']}/{t['items']} checked; {t['open']} open.** "
              + "; ".join(f"{k}: {v}" for k, v in t["by_status"].items()) + ".", "",
              f"**Repository finish line: {t['remaining_repository_build']} actionable build items remain.** "
              f"{t['excluded_from_repository_build']} unchecked historical items are excluded: "
-             f"{t['post_build_pilot_reviews']} post-build pilot reviews and "
-             f"{t['recurring_maintenance']} recurring upkeep tasks. None is treated as finished or as a release blocker.", "",
+             f"{t['recurring_maintenance']} recurring upkeep tasks. None is treated as permanently finished.", "",
              "This checklist inventory alone is **not a foundation certificate**; the separate v3.00 SHA-pinned "
-             "milestone certificate records external CI. Pilot reviews are deferred until decks are rebuilt "
-             "using the completed repository data; upkeep continues after release.", "",
+             "milestone certificate records external CI. Three exact original pilot decklists were subsequently "
+             "owner-approved by SHA-256, without rebuilding, under the newer v3.11 decision; "
+             "current Commander legality and gameplay power remain uncertified. Upkeep continues after release.", "",
              "The machine-readable JSON preserves all 137 original tasks with their build-scope classification.", ""]
     for phase, counts in data["by_phase"].items():
         lines += [f"## {phase}", "", f"{counts['checked']}/{counts['total']} checked; "
@@ -174,8 +168,7 @@ def markdown(data: dict) -> str:
         lines.append("")
     lines += ["## Outside repository-build completion (not remaining work)", "",
               "These stay unchecked in the archival 137-task record. They are not counted in the repository finish line.", ""]
-    for item in (i for i in data["items"] if i["completion_scope"] in (
-            "POST_BUILD_PILOT_REVIEW", "RECURRING_MAINTENANCE")):
+    for item in (i for i in data["items"] if i["completion_scope"] == "RECURRING_MAINTENANCE"):
         clean = re.sub(r"\s*\*\(.*$", "", item["task"]).strip()
         lines.append(f"- **{item['id']} · {item['completion_scope']}** — {clean}")
         lines.append(f"  - {item['build_scope_reason']}")

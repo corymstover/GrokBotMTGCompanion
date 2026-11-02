@@ -102,14 +102,11 @@ class FoundationChecklistClosure(unittest.TestCase):
             found = [r for r in rows if r['task'].startswith(item)]
             self.assertEqual(len(found), 1)
             self.assertTrue(found[0]['checked'], item)
-        # v2.90 precedes the v3.00 external foundation certificate. The
-        # subsequent v3.02 post-certification engine-only milestone can close
-        # its five bounded capabilities without approving any Phase 6 pilot.
+        # v2.90 preceded foundation certification; Cory subsequently approved
+        # the three exact historical Phase 6 hashes in the v3.11 overlay.
         phase6 = [r for r in rows if r['section'].startswith('Phase 6')]
         self.assertEqual({r['id'] for r in phase6 if r['checked']},
-                         {'K106', 'K107', 'K108', 'K109', 'K110', 'K111', 'K115'})
-        self.assertTrue(all(not r['checked'] for r in phase6 if r['id'] in
-                            {'K112', 'K113', 'K114'}))
+                         {f'K{x}' for x in range(106, 116)})
         self.assertEqual([r['checked'] for r in rows
                           if r['section'].startswith('Definition of the first major')],
                          [True] * 7)

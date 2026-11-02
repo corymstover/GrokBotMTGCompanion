@@ -46,7 +46,12 @@ GATES = {
     "K108": ("STRATEGY_PREFLIGHT_ENGINE_READY", "Three unchanged unapproved pilots have four Oracle-proven roles, staged plans and dated mana curves; matchup power is untested."),
     "K110": ("VALIDATOR_READY_FOR_POST_BUILD_DECKS", "100-card/singleton/color/snapshot legality, printing and source-aware rules infrastructure is ready; live brackets, combos and rebuilt lists await later review."),
 }
-EXCLUDED = {"K105", "K112", "K113", "K114", "K125", "K126"}
+# The v3.09 report captures the pre-approval bounded finish-line decision.
+# These current-state assertions account for Cory's later v3.11 exact pilot
+# approval, but the dated v3.09 artifact below must not be rewritten as if its
+# original 131/137 checkpoint had already received that decision.
+EXCLUDED = {"K105", "K125", "K126"}
+NOW_APPROVED = {"K112", "K113", "K114"}
 
 
 def read(path: Path) -> dict:
@@ -150,15 +155,16 @@ def build(paths: dict[str, Path] | None = None) -> dict:
     if len(engine_result["pilots"]) != 3 or strategy_result != st:
         raise ValueError("protected deck or strategy-engine replay drifted")
     triage = checklist.build()
-    if (triage["totals"]["checked"] != 131 or triage["totals"]["open"] != 6
+    if (triage["totals"]["checked"] != 134 or triage["totals"]["open"] != 3
             or triage["totals"]["remaining_repository_build"] != 0
-            or triage["totals"]["excluded_from_repository_build"] != 6):
-        raise ValueError("bounded finish line not exactly 131 checked / 6 owner exclusions")
+            or triage["totals"]["excluded_from_repository_build"] != 3):
+        raise ValueError("current finish line not exactly 134 checked / 3 recurring upkeep")
     by_id = {x["id"]: x for x in triage["items"]}
     if (any(not by_id[k]["checked"] for k in GATES)
             or any(by_id[k]["checked"] for k in EXCLUDED)
+            or any(not by_id[k]["checked"] for k in NOW_APPROVED)
             or len(GATES) != 14):
-        raise ValueError("bounded gate or excluded historical checkbox misclassified")
+        raise ValueError("bounded gate, approved pilot or recurring upkeep misclassified")
 
     return {
         "schema": "owner-redefined-bounded-repository-completion/v1",
@@ -200,7 +206,8 @@ def main(argv=None) -> int:
     if a.check:
         if not OUT.exists() or OUT.read_text(encoding="utf-8") != rendered:
             raise ValueError("owner-bounded repository acceptance is stale")
-        print("PASS owner-bounded repository completion: 14 scoped gates, 0 active build, 6 preserved exclusions")
+        print("PASS historical v3.09 bounded completion: 14 scoped gates, 0 active build, "
+              "6 exclusions at that checkpoint; v3.11 has 3 owner-approved pilots")
     else:
         OUT.write_text(rendered, encoding="utf-8")
         print("Wrote " + str(OUT.relative_to(ROOT)))

@@ -1,9 +1,25 @@
 # MTG Multiverse Companion — Master Workflow & Progress Checklist
 
-**Version:** 3.09
-**Checkpoint date:** 2026-11-01
+**Version:** 3.11
+**Checkpoint date:** 2026-11-02
 **Repository:** [corymstover/GrokBotMTGCompanion](https://github.com/corymstover/GrokBotMTGCompanion)  
 **Purpose:** Durable project roadmap and handoff document. Update this file after verified milestone work; do not treat historical figures as live counters.
+
+**v3.11 EXACT OWNER APPROVAL OF THREE HISTORICAL PHASE 6 PILOTS (2026-11-02):**
+Cory explicitly approved **the three exact October 29 historical pilot
+decklists as presented, without changing a card**, and reserved the right to
+revise them later. This **supersedes the earlier post-rebuild review plan**;
+it does not claim the lists were rebuilt, optimized, playtested, or certified
+against current Commander legality/brackets. [The exact owner receipt](data/lore_decks/owner_decisions/2026-11-02_cory_approved_phase6_pilots.md)
+binds K112/K113/K114 to raw SHA-256 values and the approved 100-card files;
+`scripts/audit_lore_pilot_owner_approvals.py --check` independently replays
+the original unchanged drafts and rejects any checksum or authority drift.
+The original proposal/spec `UNAPPROVED` fields remain archival *preapproval*
+metadata, not a present denial of this later owner decision. The 62 Grixis
+lists, nine separately numbered approved lore decks, and Ugin lore Deck #9
+remain untouched. **Current historical checklist: 134/137 checked, 3 open**
+(only K105/K125/K126 recurring upkeep), with **zero remaining repository
+construction items**. The v3.09 131/137 milestone below is historical.
 
 **v3.09 OWNER-SELECTED BOUNDED REPOSITORY FINISH LINE (2026-11-02):**
 Cory explicitly selected **"Redefine bounded completion"** for the final
@@ -1462,13 +1478,13 @@ decks. Unreviewed gameplay/canon and new final deck approvals remain separate.
 - [x] Support optional set/era/first-printed-in restrictions using verified Phase 1B data without confusing reprints with original debuts. *(v3.02: `lore_deck_restrictions.py` filters an existing pilot by selected printing set, real-world publication-era years and **first-recorded English paper printing per stable Oracle ID** using the frozen Phase 1B historical shards. It retains same-day debut ties, rejects unknown printing IDs and prints dated scope warnings. It does **not** claim an in-universe lore era from a release date or live legality.)*
 - [x] Verify each final 100-card list, singleton restrictions, relevant rules/combinations, legality and current bracket. *(v3.09 owner-redefined bounded repository acceptance; see `data/release/bounded_repository_completion_2026-11-02.json`. Unverified source/canon/chronology/deck specifics remain explicitly UNKNOWN; this is not a claim that they were resolved.)*
 - [x] Provide three Archidekt tags and one clean commander-first `1x Name` import list. *(v3.02: all three UNAPPROVED pilot artifacts have three unique tags and a complete import list. The audit now asserts **every** imported quantity/name equals the underlying 100-card deck, including commander first; a middle-row corruption regression fails.)*
-- [ ] Pilot 1: **Ugin & Nicol Bolas — Elder Dragon Duality**. Owner approval is pending, so the box stays unchecked until Cory approves.
-  - [x] Complete, verified 100-card proposal (2026-10-30, [PR #823](https://github.com/corymstover/GrokBotMTGCompanion/pull/823)). Every card is graded, and three Archidekt tags plus a commander-first import list are provided. A scripted builder (`scripts/build_ugin_bolas_duality_pilot.py`) reads printings from `snap-20261029-40848334824-1`, never from the Grixis lock. The offline audit and tests run in `phase6-pilot1-ugin-bolas-duality.yml`. Status: **UNAPPROVED**.
-- [ ] Pilot 2: **Original Primeval Dragons**.
-  - [x] Complete, verified 100-card proposal (2026-10-30, [PR #832](https://github.com/corymstover/GrokBotMTGCompanion/pull/832)). The commander is The Ur-Dragon, as a thematic progenitor graded LORE_INSPIRED. It was built with the generic `scripts/build_lore_pilot.py` and audited offline. Tiers: 35 CANON_REFERENCE, 12 LORE_INSPIRED, 38 MECHANICAL_SYMBOL, 15 basics. Status: **UNAPPROVED**.
-- [ ] Pilot 3: **Ugin's Allies and Heroes**.
+- [x] Pilot 1: **Ugin & Nicol Bolas — Elder Dragon Duality**. *(Cory approved the exact original 100-card SHA-256 `01d087aa2819b1ed3c7ac1f64843f76f36b551b72fda62d64218d19c40b0ab45` on 2026-11-02, with no card changes. [Owner receipt](data/lore_decks/owner_decisions/2026-11-02_cory_approved_phase6_pilots.md); future revisions require fresh approval.)*
+  - [x] Complete, verified 100-card proposal (2026-10-30, [PR #823](https://github.com/corymstover/GrokBotMTGCompanion/pull/823)). Every card is graded, and three Archidekt tags plus a commander-first import list are provided. A scripted builder (`scripts/build_ugin_bolas_duality_pilot.py`) reads printings from `snap-20261029-40848334824-1`, never from the Grixis lock. The offline audit and tests run in `phase6-pilot1-ugin-bolas-duality.yml`. Historical October 30 draft status: **UNAPPROVED**; superseded by exact owner receipt above.
+- [x] Pilot 2: **Original Primeval Dragons**. *(Cory approved the exact original 100-card SHA-256 `6ef1af37c371891b7d3e60a08c2d1bcee1d1205f2c01e5c3093a220fb4414888` on 2026-11-02, without changing cards. [Owner receipt](data/lore_decks/owner_decisions/2026-11-02_cory_approved_phase6_pilots.md).)*
+  - [x] Complete, verified 100-card proposal (2026-10-30, [PR #832](https://github.com/corymstover/GrokBotMTGCompanion/pull/832)). The commander is The Ur-Dragon, as a thematic progenitor graded LORE_INSPIRED. It was built with the generic `scripts/build_lore_pilot.py` and audited offline. Tiers: 35 CANON_REFERENCE, 12 LORE_INSPIRED, 38 MECHANICAL_SYMBOL, 15 basics. Historical October 30 draft status: **UNAPPROVED**; superseded by exact owner receipt above.
+- [x] Pilot 3: **Ugin's Allies and Heroes**. *(Cory approved the exact original 100-card SHA-256 `05cd56bd3d58b153f35ad86f896d6c383f99bca9722e6124e627daad74641c6c` on 2026-11-02, without changing cards. [Owner receipt](data/lore_decks/owner_decisions/2026-11-02_cory_approved_phase6_pilots.md).)*
   - [x] Claim research, Pack A5 (2026-10-30): 16 verbatim-quoted claims. Audit: `scripts/audit_lore_pack_a5.py --check`. Next: War of the Spark ally evidence (Kaya, Teyo).
-  - [x] Complete, verified 100-card proposal (2026-10-30, [PR #844](https://github.com/corymstover/GrokBotMTGCompanion/pull/844), merge `0344cd53`). The commander is Jace, Multiverse Architect (WUBR, "can be your commander"; the CR 903.3a check passes). Built with `scripts/build_lore_pilot.py` from Pack A5 and the caption atlas. Tiers: 15 CANON_REFERENCE (each cites a CANON_CONFIRMED A5 claim), 32 LORE_INSPIRED (caption-atlas art from the cited stories, plus Elspeth, whose U016 claim is only implied), 40 MECHANICAL_SYMBOL, 13 basics, 0 Game Changers. `tests/test_pilot3_ugins_allies.py` checks every caption statement against the atlas. Status: **UNAPPROVED**.
+  - [x] Complete, verified 100-card proposal (2026-10-30, [PR #844](https://github.com/corymstover/GrokBotMTGCompanion/pull/844), merge `0344cd53`). The commander is Jace, Multiverse Architect (WUBR, "can be your commander"; the CR 903.3a check passes). Built with `scripts/build_lore_pilot.py` from Pack A5 and the caption atlas. Tiers: 15 CANON_REFERENCE (each cites a CANON_CONFIRMED A5 claim), 32 LORE_INSPIRED (caption-atlas art from the cited stories, plus Elspeth, whose U016 claim is only implied), 40 MECHANICAL_SYMBOL, 13 basics, 0 Game Changers. `tests/test_pilot3_ugins_allies.py` checks every caption statement against the atlas. Historical October 30 draft status: **UNAPPROVED**; superseded by exact owner receipt above.
 - [x] Preserve the original approved 62 decks; a new pilot never overwrites them. *(v3.02: pilot tools are read-only except dedicated `data/lore_decks/drafts/` outputs, and `audit_phase6_engine_scope.py` rejects drift of all five SHA-pinned protected Grixis/approval paths from the v3.00 certificate. No original Grixis deck, approval, registry or lock was edited. This is a protection regression, not permission to modify the decks.)*
 
 ## Phase 7 — Ultimate MTG question-answering companion
