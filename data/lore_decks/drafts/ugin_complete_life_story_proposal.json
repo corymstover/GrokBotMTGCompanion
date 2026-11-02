@@ -1,0 +1,758 @@
+{
+  "schema": "lore_story_deck_draft/v1",
+  "theme": "Ugin: The Spirit Dragon — From the Ur-Dragon's Brood to the End of the Meditation Realm",
+  "status": "PROPOSED LORE DECK #9 — awaiting Cory's approval",
+  "commander": "The Ur-Dragon",
+  "narrator_note": "The Ur-Dragon is the primordial progenitor of Ugin and Nicol Bolas, WUBRG commander for biography framing. No official source identifies it as explicitly female; call it a progenitor rather than literal mom.",
+  "beats": [
+    {
+      "title": "I. Egg-stones and brothers: birth on Dominaria, their first wound, and the Elder Dragon War",
+      "lore_keys": [
+        "Ugin",
+        "Ur-Dragon",
+        "Nicol Bolas",
+        "Elder Dragons"
+      ],
+      "cards": [
+        {
+          "name": "The Elder Dragon War",
+          "why": "Retrospective Saga anchoring the ancient catastrophe that changed dragonkind; the war was instigated by Nicol Bolas, not by Ugin.",
+          "evidence": "historical_event_saga",
+          "source": "https://magic.wizards.com/en/news/feature/returning-legends-modern-horizons-2-2021-06-10",
+          "preferred_set": "DMU"
+        },
+        {
+          "name": "Arcades Sabboth",
+          "why": "Ugin and Nicol's elder brother, who sheltered the young twins and taught them how mortals and dragons coexist.",
+          "evidence": "documented_older_sibling",
+          "source": "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-first-lesson-2018-06-20",
+          "preferred_set": "LEG"
+        },
+        {
+          "name": "Chromium",
+          "why": "Another surviving Elder Dragon and sibling; a witness to how the twins differed from the older generation.",
+          "evidence": "documented_older_sibling",
+          "source": "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-first-lesson-2018-06-20",
+          "preferred_set": "LEG"
+        },
+        {
+          "name": "Palladia-Mors",
+          "why": "Their terrifying elder sister, whose disdain for the smaller twins helped shape Nicol's insecurity.",
+          "evidence": "documented_older_sibling",
+          "source": "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-first-lesson-2018-06-20",
+          "preferred_set": "LEG"
+        },
+        {
+          "name": "Vaevictis Asmadi",
+          "why": "A member of the same primordial Elder Dragon lineage; contextual extended family, not evidence that he accompanied Ugin.",
+          "evidence": "ancient_lineage_context",
+          "source": "https://magic.wizards.com/en/news/feature/returning-legends-modern-horizons-2-2021-06-10",
+          "preferred_set": "LEG"
+        },
+        {
+          "name": "Piru, the Volatile",
+          "why": "Elder Dragon spawned by the Ur-Dragon, Chromium's mate and survivor of the Elder Dragon War; contextual family history.",
+          "evidence": "historical_elder_relative",
+          "source": "https://magic.wizards.com/en/news/feature/returning-legends-modern-horizons-2-2021-06-10",
+          "preferred_set": "MH2"
+        },
+        {
+          "name": "Nicol Bolas",
+          "why": "The original Legends depiction of Ugin's twin, born from the same egg; his fear and ambition begin the central rivalry.",
+          "evidence": "direct_twin",
+          "source": "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-first-lesson-2018-06-20",
+          "preferred_set": "LEG"
+        },
+        {
+          "name": "Nicol Bolas, the Ravager",
+          "why": "A later portrait of the twin's controlling, predatory nature; visual retrospective, not a distinct early-life incident.",
+          "evidence": "retrospective_character_portrait",
+          "source": "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-unwritten-now-2018-08-15",
+          "preferred_set": "M19"
+        }
+      ]
+    },
+    {
+      "title": "II. A different road: Ugin's spark, discovery, ghostfire and philosophy",
+      "lore_keys": [
+        "Ugin",
+        "The Meditation Realm",
+        "Ghostfire"
+      ],
+      "cards": [
+        {
+          "name": "Ghostfire",
+          "why": "Ugin's signature invisible flame, whose colorless expression illustrates his transcendence of individual colors.",
+          "evidence": "direct_signature_magic",
+          "source": "https://magic.wizards.com/en/story/ugin-planeswalker",
+          "preferred_set": "FUT"
+        },
+        {
+          "name": "Spatial Contortion",
+          "why": "Its original flavor is attributed to Ugin about the dangers of the Blind Eternities, contextualizing planeswalker travel.",
+          "evidence": "quoted_ugin_flavor",
+          "source": "https://magic.wizards.com/en/story/ugin-planeswalker",
+          "preferred_set": "OGW"
+        },
+        {
+          "name": "Scroll of Fate",
+          "why": "An Ugin-attributed philosophical quote in its Commander 2019 printing; symbolic meditation, not a literal artifact he owned.",
+          "evidence": "quoted_ugin_flavor_symbolic",
+          "source": "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-unwritten-now-2018-08-15",
+          "preferred_set": "C19"
+        }
+      ]
+    },
+    {
+      "title": "III. Tarkir: Ugin's draconic essence and the dragon tempests",
+      "lore_keys": [
+        "Tarkir",
+        "Ugin",
+        "Dragon Tempests"
+      ],
+      "cards": [
+        {
+          "name": "Dragon Tempest",
+          "why": "The storms born from Ugin's magic that populate Tarkir with dragons.",
+          "evidence": "direct_worldbuilding_magic",
+          "source": "https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-fate-reforged-2015-01-07",
+          "preferred_set": "DTK"
+        },
+        {
+          "name": "Dragonstorm",
+          "why": "An older spell chosen as a visual shorthand for Tarkir's dragon-generating magical phenomenon; not a specific dated incident.",
+          "evidence": "symbolic_dragon_tempest",
+          "source": "https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-fate-reforged-2015-01-07",
+          "preferred_set": "SCG"
+        },
+        {
+          "name": "Fearsome Awakening",
+          "why": "Its Fate Reforged flavor directly connects the dragonstorms to Ugin's presence.",
+          "evidence": "literal_ugin_printing_flavor",
+          "source": "https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-fate-reforged-2015-01-07",
+          "preferred_set": "FRF"
+        },
+        {
+          "name": "Soul Summons",
+          "why": "A Fate Reforged card that explicitly says Ugin's magic also reached Tarkir's humanoid clans.",
+          "evidence": "literal_ugin_printing_flavor",
+          "source": "https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-fate-reforged-2015-01-07",
+          "preferred_set": "FRF"
+        },
+        {
+          "name": "Ugin's Mastery",
+          "why": "Articulates the Spirit Dragon's colorless and manifest philosophy; a later card, used as a thematic portrait.",
+          "evidence": "named_ugin_magic",
+          "source": "https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-fate-reforged-2015-01-07",
+          "preferred_set": "CMM"
+        }
+      ]
+    },
+    {
+      "title": "IV. The Eldrazi dilemma: Ugin, Sorin, Nahiri, and the prison on Zendikar",
+      "lore_keys": [
+        "Eldrazi",
+        "Sorin Markov",
+        "Nahiri",
+        "Zendikar"
+      ],
+      "cards": [
+        {
+          "name": "Sorin Markov",
+          "why": "The vampire planeswalker who joined Ugin and Nahiri in the ancient plan to contain the three titans.",
+          "evidence": "documented_ally",
+          "source": "https://magic.wizards.com/en/news/magic-story/battle-zendikar-story-summary-2015-12-23",
+          "preferred_set": "ZEN"
+        },
+        {
+          "name": "Nahiri, the Lithomancer",
+          "why": "The planeswalker who built the hedron network on her home plane at Ugin's direction.",
+          "evidence": "documented_ally",
+          "source": "https://magic.wizards.com/en/news/magic-story/battle-zendikar-story-summary-2015-12-23",
+          "preferred_set": "C14"
+        },
+        {
+          "name": "Emrakul, the Aeons Torn",
+          "why": "One of the three actual Eldrazi titans trapped by the trio. Intentionally retains a banned card for complete lore.",
+          "evidence": "literal_central_titan_rule0",
+          "source": "https://magic.wizards.com/en/news/magic-story/battle-zendikar-story-summary-2015-12-23",
+          "preferred_set": "ROE"
+        },
+        {
+          "name": "Kozilek, Butcher of Truth",
+          "why": "The second titan imprisoned within Zendikar's hedron network.",
+          "evidence": "literal_central_titan",
+          "source": "https://magic.wizards.com/en/news/magic-story/battle-zendikar-story-summary-2015-12-23",
+          "preferred_set": "ROE"
+        },
+        {
+          "name": "Ulamog, the Infinite Gyre",
+          "why": "The third titan imprisoned within Zendikar's hedron network.",
+          "evidence": "literal_central_titan",
+          "source": "https://magic.wizards.com/en/news/magic-story/battle-zendikar-story-summary-2015-12-23",
+          "preferred_set": "ROE"
+        },
+        {
+          "name": "Aligned Hedron Network",
+          "why": "A direct card representation of the hedron prison Ugin and his allies designed.",
+          "evidence": "literal_prison_technology",
+          "source": "https://magic.wizards.com/en/news/magic-story/battle-zendikar-story-summary-2015-12-23",
+          "preferred_set": "BFZ"
+        },
+        {
+          "name": "Perilous Vault",
+          "why": "Its original flavor explicitly credits Ugin with aligning hedrons to channel Zendikar's energy.",
+          "evidence": "literal_printing_ugin_hedrons",
+          "source": "https://magic.wizards.com/en/news/magic-story/battle-zendikar-story-summary-2015-12-23",
+          "preferred_set": "M15"
+        },
+        {
+          "name": "Hedron Archive",
+          "why": "Original flavor quotes Ugin explaining to Jace that the Eldrazi could be held captive.",
+          "evidence": "literal_ugin_dialogue",
+          "source": "https://magic.wizards.com/en/news/magic-story/battle-zendikar-story-summary-2015-12-23",
+          "preferred_set": "BFZ"
+        },
+        {
+          "name": "Ugin's Construct",
+          "why": "Its Fate Reforged flavor directly explains that Ugin learned lithomancy while setting the Eldrazi trap.",
+          "evidence": "literal_printing_lore",
+          "source": "https://magic.wizards.com/en/news/magic-story/battle-zendikar-story-summary-2015-12-23",
+          "preferred_set": "FRF"
+        },
+        {
+          "name": "Dreamstone Hedron",
+          "why": "An actual hedron artifact illustrating the Eldrazi's strange ability to exploit prison magic; technology context.",
+          "evidence": "period_artifact_context",
+          "source": "https://magic.wizards.com/en/news/magic-story/battle-zendikar-story-summary-2015-12-23",
+          "preferred_set": "ROE"
+        },
+        {
+          "name": "Lithomancer's Focus",
+          "why": "Original Battle for Zendikar card with Ugin's direct comment on the effectiveness of Nahiri's hedrons.",
+          "evidence": "quoted_ugin_lore",
+          "source": "https://magic.wizards.com/en/news/magic-story/battle-zendikar-story-summary-2015-12-23",
+          "preferred_set": "BFZ"
+        }
+      ]
+    },
+    {
+      "title": "V. Brothers at war: the original tragedy, Sarkhan's rewrite, and the dragonlord future",
+      "lore_keys": [
+        "Ugin versus Bolas",
+        "Fate Reforged",
+        "Sarkhan Vol",
+        "Tarkir two timelines"
+      ],
+      "cards": [
+        {
+          "name": "Crux of Fate",
+          "why": "The defining clash above Tarkir: Bolas strikes Ugin down in the original history; Sarkhan's later intervention changes that outcome.",
+          "evidence": "literal_story_climax_altered_history",
+          "source": "https://magic.wizards.com/en/news/magic-story/story-tarkir-block-2015-04-29",
+          "preferred_set": "FRF"
+        },
+        {
+          "name": "Bitter Revelation",
+          "why": "Its Khans printing speaks to Ugin's apparent corpse and belongs to the erased original Tarkir timeline.",
+          "evidence": "literal_original_timeline_flavor",
+          "source": "https://magic.wizards.com/en/news/magic-story/story-tarkir-block-2015-04-29",
+          "preferred_set": "KTK"
+        },
+        {
+          "name": "Yasova Dragonclaw",
+          "why": "The ancient Temur khan who witnessed the confrontation and received Nicol Bolas's manipulative visions.",
+          "evidence": "documented_witness",
+          "source": "https://magic.wizards.com/en/news/magic-story/story-tarkir-block-2015-04-29",
+          "preferred_set": "FRF"
+        },
+        {
+          "name": "Sarkhan Vol",
+          "why": "The time-traveling planeswalker whose connection to Ugin's whispered summons is pivotal.",
+          "evidence": "documented_rescuer",
+          "source": "https://magic.wizards.com/en/news/magic-story/story-tarkir-block-2015-04-29",
+          "preferred_set": "ALA"
+        },
+        {
+          "name": "Sarkhan Unbroken",
+          "why": "Sarkhan after rewriting Tarkir's fate; a character portrait of his changed history.",
+          "evidence": "after_time_rewrite_portrait",
+          "source": "https://magic.wizards.com/en/news/magic-story/story-tarkir-block-2015-04-29",
+          "preferred_set": "DTK"
+        },
+        {
+          "name": "Ugin's Nexus",
+          "why": "The original Khans card marking the temporal nexus where Ugin's voice ceased for Sarkhan.",
+          "evidence": "literal_temporal_location",
+          "source": "https://magic.wizards.com/en/news/magic-story/story-tarkir-block-2015-04-29",
+          "preferred_set": "KTK"
+        },
+        {
+          "name": "Nexus of Fate",
+          "why": "Core Set 2019 flavor explicitly says Sarkhan wandered into a tomb and back through time.",
+          "evidence": "literal_time_rewrite_printing",
+          "source": "https://magic.wizards.com/en/news/magic-story/story-tarkir-block-2015-04-29",
+          "preferred_set": "M19"
+        },
+        {
+          "name": "Fate Forgotten",
+          "why": "The Dragons of Tarkir printing explicitly acknowledges that saving Ugin rewrote Tarkir's history.",
+          "evidence": "literal_timeline_change",
+          "source": "https://magic.wizards.com/en/news/magic-story/story-tarkir-block-2015-04-29",
+          "preferred_set": "DTK"
+        },
+        {
+          "name": "Scion of Ugin",
+          "why": "Its original flavor describes Ugin's centuries-long slumber in the protective cocoon Sarkhan made.",
+          "evidence": "literal_ugin_slumber",
+          "source": "https://magic.wizards.com/en/news/magic-story/story-tarkir-block-2015-04-29",
+          "preferred_set": "DTK"
+        },
+        {
+          "name": "Tormenting Voice",
+          "why": "The Dragons of Tarkir printing speaks of the centuries Ugin spent unconscious while Bolas operated freely.",
+          "evidence": "literal_post_slumber_flavor",
+          "source": "https://magic.wizards.com/en/news/magic-story/story-tarkir-block-2015-04-29",
+          "preferred_set": "DTK"
+        },
+        {
+          "name": "Sarkhan's Triumph",
+          "why": "Sarkhan's joy on seeing Tarkir restored to a world where dragons survive.",
+          "evidence": "documented_rescuer_aftermath",
+          "source": "https://magic.wizards.com/en/news/magic-story/story-tarkir-block-2015-04-29",
+          "preferred_set": "DTK"
+        },
+        {
+          "name": "Ugin, the Spirit Dragon",
+          "why": "Ugin surviving and returning; direct planeswalker portrait placed at the altered-history awakening.",
+          "evidence": "direct_protagonist_card",
+          "source": "https://magic.wizards.com/en/news/magic-story/story-tarkir-block-2015-04-29",
+          "preferred_set": "FRF"
+        },
+        {
+          "name": "Dragonlord Atarka",
+          "why": "One of the five dragonlord lineages empowered by continued storms after Sarkhan saved Ugin.",
+          "evidence": "five_broods_consequence",
+          "source": "https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-fate-reforged-2015-01-07",
+          "preferred_set": "DTK"
+        },
+        {
+          "name": "Dragonlord Dromoka",
+          "why": "The protective brood whose ascent follows the surviving dragonstorms.",
+          "evidence": "five_broods_consequence",
+          "source": "https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-fate-reforged-2015-01-07",
+          "preferred_set": "DTK"
+        },
+        {
+          "name": "Dragonlord Kolaghan",
+          "why": "The swift brood arising from Ugin's restored dragonstorm ecology.",
+          "evidence": "five_broods_consequence",
+          "source": "https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-fate-reforged-2015-01-07",
+          "preferred_set": "DTK"
+        },
+        {
+          "name": "Dragonlord Ojutai",
+          "why": "The scholarly brood whose rule is part of Tarkir's rewritten world.",
+          "evidence": "five_broods_consequence",
+          "source": "https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-fate-reforged-2015-01-07",
+          "preferred_set": "DTK"
+        },
+        {
+          "name": "Dragonlord Silumgar",
+          "why": "The ruthless Sultai-replacing brood of the restored dragonstorm world.",
+          "evidence": "five_broods_consequence",
+          "source": "https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-fate-reforged-2015-01-07",
+          "preferred_set": "DTK"
+        }
+      ]
+    },
+    {
+      "title": "VI. Ugin's long plan: the Eldrazi release, Azor's ancient trap, and Bolas's defeat",
+      "lore_keys": [
+        "Battle for Zendikar",
+        "Azor Immortal Sun",
+        "War of the Spark",
+        "Bolas defeated"
+      ],
+      "cards": [
+        {
+          "name": "Ugin's Insight",
+          "why": "Ugin's original dialogue warns Jace not to focus on Ulamog and forget the other two titans.",
+          "evidence": "literal_ugin_dialogue",
+          "source": "https://magic.wizards.com/en/news/magic-story/battle-zendikar-story-summary-2015-12-23",
+          "preferred_set": "BFZ"
+        },
+        {
+          "name": "Dispel",
+          "why": "The Battle for Zendikar printing quotes Jace rejecting Ugin's suggestion to return the Eldrazi to stasis.",
+          "evidence": "literal_ugin_jace_disagreement",
+          "source": "https://magic.wizards.com/en/news/magic-story/battle-zendikar-story-summary-2015-12-23",
+          "preferred_set": "BFZ"
+        },
+        {
+          "name": "Fall of the Titans",
+          "why": "The Gatewatch destroys Ulamog and Kozilek, taking a different path from Ugin's preferred stasis plan.",
+          "evidence": "historical_consequence_of_disagreement",
+          "source": "https://magic.wizards.com/en/news/magic-story/battle-zendikar-story-summary-2015-12-23",
+          "preferred_set": "OGW"
+        },
+        {
+          "name": "Kozilek's Return",
+          "why": "The titan's reappearance during the Zendikar crisis that Ugin had tried to contain.",
+          "evidence": "historical_eldrazi_crisis",
+          "source": "https://magic.wizards.com/en/news/magic-story/battle-zendikar-story-summary-2015-12-23",
+          "preferred_set": "OGW"
+        },
+        {
+          "name": "Azor, the Lawbringer",
+          "why": "Ugin's ancient collaborator on the Immortal Sun gambit against Nicol Bolas, revealed in later story.",
+          "evidence": "documented_secret_collaborator_flashback",
+          "source": "https://magic.wizards.com/en/news/magic-story/sabotage-2018-01-31",
+          "preferred_set": "RIX"
+        },
+        {
+          "name": "The Immortal Sun",
+          "why": "Azor's device fueled by his relinquished spark, originally part of an unrealized Bolas trap coordinated with Ugin.",
+          "evidence": "literal_anti_bolas_device",
+          "source": "https://magic.wizards.com/en/news/magic-story/sabotage-2018-01-31",
+          "preferred_set": "RIX"
+        },
+        {
+          "name": "Finale of Revelation",
+          "why": "The War of the Spark flavor explicitly says Ugin understood Bolas's Meditation Realm gem could undo him.",
+          "evidence": "literal_ugin_plan_flavor",
+          "source": "https://magic.wizards.com/en/news/making-magic/even-more-war-games-2019-05-06",
+          "preferred_set": "WAR"
+        },
+        {
+          "name": "Prison Realm",
+          "why": "The printed War of the Spark story card for the final confinement of the desparked Nicol Bolas under Ugin's watch.",
+          "evidence": "literal_ugin_bolas_outcome",
+          "source": "https://magic.wizards.com/en/news/making-magic/even-more-war-games-2019-05-06",
+          "preferred_set": "WAR"
+        },
+        {
+          "name": "Nicol Bolas, Dragon-God",
+          "why": "Bolas's attempted restoration to godhood, the crisis Ugin's long preparation addresses.",
+          "evidence": "literal_antagonist_at_climax",
+          "source": "https://magic.wizards.com/en/news/making-magic/even-more-war-games-2019-05-06",
+          "preferred_set": "WAR"
+        },
+        {
+          "name": "The Elderspell",
+          "why": "The dangerous spell at the center of Bolas's attempt to harvest planeswalker sparks.",
+          "evidence": "literal_antagonist_plot",
+          "source": "https://magic.wizards.com/en/news/making-magic/even-more-war-games-2019-05-06",
+          "preferred_set": "WAR"
+        },
+        {
+          "name": "Ugin, the Ineffable",
+          "why": "Ugin's War of the Spark planeswalker portrait, printed in the showdown's set.",
+          "evidence": "direct_protagonist_at_climax",
+          "source": "https://magic.wizards.com/en/news/making-magic/even-more-war-games-2019-05-06",
+          "preferred_set": "WAR"
+        },
+        {
+          "name": "Sarkhan's Catharsis",
+          "why": "The card's original flavor has Sarkhan confront Bolas over past damage; Ugin's rescue made this opposition possible.",
+          "evidence": "documented_rescuer_joins_finale",
+          "source": "https://magic.wizards.com/en/news/making-magic/even-more-war-games-2019-05-06",
+          "preferred_set": "WAR"
+        }
+      ]
+    },
+    {
+      "title": "VII. Storms beyond Tarkir: the collapsing Meditation Realm and Ugin's uncertain future",
+      "lore_keys": [
+        "Tarkir Dragonstorm 2025",
+        "Nicol Bolas freed",
+        "Ugin disappeared",
+        "Reality Fracture 2026"
+      ],
+      "cards": [
+        {
+          "name": "Ugin, Eye of the Storms",
+          "why": "2025 modern portrait and emblem of the Spirit Dragon's legacy; NOT evidence he returned bodily to Tarkir from his watch.",
+          "evidence": "retrospective_modern_protagonist",
+          "source": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-tarkir-dragonstorm-part-1",
+          "preferred_set": "TDM"
+        },
+        {
+          "name": "Call the Spirit Dragons",
+          "why": "The Stormnexus Ritual and Tarkir's spirit-dragon reawakening, consequences of the world Ugin had altered.",
+          "evidence": "modern_consequence_of_ugin_magic",
+          "source": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-tarkir-dragonstorm-part-1",
+          "preferred_set": "TDM"
+        },
+        {
+          "name": "Roiling Dragonstorm",
+          "why": "The continuing storms on Tarkir after Ugin leaves, a key part of the 2025 conflict.",
+          "evidence": "modern_plane_consequence",
+          "source": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-tarkir-dragonstorm-part-1",
+          "preferred_set": "TDM"
+        },
+        {
+          "name": "Dracogenesis",
+          "why": "Its Tarkir: Dragonstorm printing directly relates Ugin's survival/death to the magical storms across eras.",
+          "evidence": "literal_printing_ugin_reflection",
+          "source": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-tarkir-dragonstorm-part-1",
+          "preferred_set": "TDM",
+          "preferred_collector": "402"
+        },
+        {
+          "name": "Sarkhan, Dragon Ascendant",
+          "why": "Sarkhan's 2025 transformation becomes a threat even as Ugin tries and fails to retain Bolas in the vanishing Meditation Realm.",
+          "evidence": "modern_causal_aftermath",
+          "source": "https://magic.wizards.com/en/news/magic-story/tarkir-dragonstorm-episode-7-return",
+          "preferred_set": "TDM"
+        },
+        {
+          "name": "Narset's Rebuke",
+          "why": "Narset's resistance to Sarkhan's Dragonstorm schemes; the contemporary cost of the broken magical balance.",
+          "evidence": "modern_aftermath_context",
+          "source": "https://magic.wizards.com/en/news/magic-story/tarkir-dragonstorm-episode-7-return",
+          "preferred_set": "TDM"
+        },
+        {
+          "name": "The Theorist, Jace Beleren",
+          "why": "In 2026, Jace's fractured mind develops reality-making techniques in the Meditation Realm, a method he explicitly attributes to Ugin. This is Ugin's intellectual legacy, not proof he is alive or personally present.",
+          "evidence": "official_2026_meditation_realm_legacy",
+          "source": "https://magic.wizards.com/en/news/magic-story/reality-fracture-episode-5-i-dont-need-to-convince-you",
+          "preferred_set": "FRA"
+        },
+        {
+          "name": "Death Begets Life",
+          "why": "Its 2025 Ugin-attributed philosophy is a fitting uncertain epilogue; no source confirms he definitively died or survived in the collapse.",
+          "evidence": "quoted_ugin_flavor_uncertain_ending",
+          "source": "https://magic.wizards.com/en/news/magic-story/tarkir-dragonstorm-episode-7-return",
+          "preferred_set": "TDM",
+          "preferred_collector": "406"
+        }
+      ]
+    },
+    {
+      "title": "VIII. A map of the Spirit Dragon's life: Dominaria, Zendikar, Tarkir, Ravnica and Madara",
+      "lore_keys": [
+        "Ugin locations",
+        "Zendikar",
+        "Tarkir",
+        "War of the Spark"
+      ],
+      "cards": [
+        {
+          "name": "Haven of the Spirit Dragon",
+          "why": "Historic Tarkir refuge and memorial to Ugin's draconic presence.",
+          "evidence": "named_ugin_tarkir_location",
+          "source": "https://magic.wizards.com/en/news/magic-story/story-tarkir-block-2015-04-29",
+          "preferred_set": "DTK"
+        },
+        {
+          "name": "Tomb of the Spirit Dragon",
+          "why": "The place Sarkhan found Ugin's apparent remains in the erased history; printed flavor states the connection.",
+          "evidence": "literal_original_timeline_land_flavor",
+          "source": "https://magic.wizards.com/en/news/magic-story/story-tarkir-block-2015-04-29",
+          "preferred_set": "KTK"
+        },
+        {
+          "name": "Crucible of the Spirit Dragon",
+          "why": "The Tarkir locus of the dragonstorms and of Sarkhan's ritual to preserve Ugin.",
+          "evidence": "named_ugin_tarkir_location",
+          "source": "https://magic.wizards.com/en/news/magic-story/story-tarkir-block-2015-04-29",
+          "preferred_set": "FRF"
+        },
+        {
+          "name": "Eye of Ugin",
+          "why": "The Zendikar prison's central control chamber named for its designer Ugin.",
+          "evidence": "literal_hedrons_location",
+          "source": "https://magic.wizards.com/en/news/magic-story/battle-zendikar-story-summary-2015-12-23",
+          "preferred_set": "WWK"
+        },
+        {
+          "name": "Sanctum of Ugin",
+          "why": "A Zendikar site connected by name to the Spirit Dragon and his colorless magic.",
+          "evidence": "named_ugin_zendikar_location",
+          "source": "https://magic.wizards.com/en/news/magic-story/battle-zendikar-story-summary-2015-12-23",
+          "preferred_set": "BFZ"
+        },
+        {
+          "name": "Ugin's Labyrinth",
+          "why": "A later card naming Ugin's mysterious pathways; thematic representation, not a documented itinerary stop.",
+          "evidence": "named_ugin_symbolic_location",
+          "source": "https://magic.wizards.com/en/story/ugin-planeswalker",
+          "preferred_set": "MH3"
+        },
+        {
+          "name": "Maelstrom of the Spirit Dragon",
+          "why": "A 2025 Tarkir land bound to the continuing dragonstorm phenomenon and Ugin's lingering influence.",
+          "evidence": "named_ugin_tarkir_location",
+          "source": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-tarkir-dragonstorm-part-1",
+          "preferred_set": "TDM"
+        },
+        {
+          "name": "Shrine of the Forsaken Gods",
+          "why": "Original flavor identifies Ulamog, Emrakul, and Kozilek behind Zendikar's misleading merfolk myths.",
+          "evidence": "literal_eldrazi_memory_land_flavor",
+          "source": "https://magic.wizards.com/en/news/magic-story/battle-zendikar-story-summary-2015-12-23",
+          "preferred_set": "BFZ"
+        },
+        {
+          "name": "Sea Gate Wreckage",
+          "why": "A literal landscape scar from the Eldrazi crisis, following the prison's failure.",
+          "evidence": "historical_eldrazi_damage",
+          "source": "https://magic.wizards.com/en/news/magic-story/battle-zendikar-story-summary-2015-12-23",
+          "preferred_set": "OGW"
+        },
+        {
+          "name": "Evolving Wilds",
+          "why": "Choose the Battle for Zendikar printing, whose flavor emphasizes Zendikar's resistance to Eldrazi destruction.",
+          "evidence": "selected_printing_world_context",
+          "source": "https://magic.wizards.com/en/news/magic-story/battle-zendikar-story-summary-2015-12-23",
+          "preferred_set": "BFZ"
+        },
+        {
+          "name": "Emergence Zone",
+          "why": "The War of the Spark land whose flavor depicts the Planar Bridge opening over the Guildpact, the scene of Bolas's scheme.",
+          "evidence": "literal_war_of_spark_location",
+          "source": "https://magic.wizards.com/en/news/making-magic/even-more-war-games-2019-05-06",
+          "preferred_set": "WAR"
+        },
+        {
+          "name": "Gateway Plaza",
+          "why": "Ravnica's battle-scarred Guildpact plaza during the confrontation that ended with Ugin jailering Bolas.",
+          "evidence": "war_of_spark_location",
+          "source": "https://magic.wizards.com/en/news/making-magic/even-more-war-games-2019-05-06",
+          "preferred_set": "WAR"
+        },
+        {
+          "name": "Interplanar Beacon",
+          "why": "War of the Spark landscape representing the arrival of planeswalkers trapped by the Immortal Sun.",
+          "evidence": "war_of_spark_location",
+          "source": "https://magic.wizards.com/en/news/making-magic/even-more-war-games-2019-05-06",
+          "preferred_set": "WAR"
+        },
+        {
+          "name": "Cori Mountain Monastery",
+          "why": "A 2025 Tarkir learning sanctuary: its printed flavor about teaching is an editorial echo of Ugin's contemplative legacy, not a documented place he visited.",
+          "evidence": "modern_tarkir_philosophical_echo",
+          "source": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-tarkir-dragonstorm-part-1",
+          "preferred_set": "TDM",
+          "preferred_collector": "393"
+        },
+        {
+          "name": "Talon Gates of Madara",
+          "why": "Named ancient stronghold of Nicol Bolas on Dominaria; a retrospective marker of the twin's far-reaching schemes.",
+          "evidence": "antagonist_historical_location",
+          "source": "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-unwritten-now-2018-08-15",
+          "preferred_set": "M3C"
+        },
+        {
+          "name": "Bloodstained Mire",
+          "why": "The Khans of Tarkir printing evokes a land where dragons' bones remain after Ugin's original-timeline fall.",
+          "evidence": "literal_erased_timeline_land_flavor",
+          "source": "https://magic.wizards.com/en/news/magic-story/story-tarkir-block-2015-04-29",
+          "preferred_set": "KTK"
+        },
+        {
+          "name": "Flooded Strand",
+          "why": "Khans edition describes dragon bones, illustrating the timeline where Bolas's victim never returned.",
+          "evidence": "literal_erased_timeline_land_flavor",
+          "source": "https://magic.wizards.com/en/news/magic-story/story-tarkir-block-2015-04-29",
+          "preferred_set": "KTK"
+        },
+        {
+          "name": "Polluted Delta",
+          "why": "Khans edition mourns vanished dragons, an important environmental echo of the failed original timeline.",
+          "evidence": "literal_erased_timeline_land_flavor",
+          "source": "https://magic.wizards.com/en/news/magic-story/story-tarkir-block-2015-04-29",
+          "preferred_set": "KTK"
+        },
+        {
+          "name": "Windswept Heath",
+          "why": "Khans edition evokes the extinct dragon roars after Ugin died in the original history.",
+          "evidence": "literal_erased_timeline_land_flavor",
+          "source": "https://magic.wizards.com/en/news/magic-story/story-tarkir-block-2015-04-29",
+          "preferred_set": "KTK"
+        },
+        {
+          "name": "Wooded Foothills",
+          "why": "Khans edition remembers freezing dragon bones from a dragonless world.",
+          "evidence": "literal_erased_timeline_land_flavor",
+          "source": "https://magic.wizards.com/en/news/magic-story/story-tarkir-block-2015-04-29",
+          "preferred_set": "KTK"
+        },
+        {
+          "name": "Sandsteppe Citadel",
+          "why": "The Abzan clan's home in Tarkir's original khan-led timeline.",
+          "evidence": "original_tarkir_clan_location",
+          "source": "https://magic.wizards.com/en/news/magic-story/story-tarkir-block-2015-04-29",
+          "preferred_set": "KTK"
+        },
+        {
+          "name": "Mystic Monastery",
+          "why": "The Jeskai clan home of the original timeline; scholars grappled with the Spirit Dragon's voice.",
+          "evidence": "original_tarkir_clan_location",
+          "source": "https://magic.wizards.com/en/news/magic-story/story-tarkir-block-2015-04-29",
+          "preferred_set": "KTK"
+        },
+        {
+          "name": "Nomad Outpost",
+          "why": "The Mardu clan's home in the erased khan-led timeline.",
+          "evidence": "original_tarkir_clan_location",
+          "source": "https://magic.wizards.com/en/news/magic-story/story-tarkir-block-2015-04-29",
+          "preferred_set": "KTK"
+        },
+        {
+          "name": "Opulent Palace",
+          "why": "The Sultai clan's center in the erased khan-led timeline.",
+          "evidence": "original_tarkir_clan_location",
+          "source": "https://magic.wizards.com/en/news/magic-story/story-tarkir-block-2015-04-29",
+          "preferred_set": "KTK"
+        },
+        {
+          "name": "Frontier Bivouac",
+          "why": "The Temur clan's home when Ugin's death led to the original khan-led Tarkir.",
+          "evidence": "original_tarkir_clan_location",
+          "source": "https://magic.wizards.com/en/news/magic-story/story-tarkir-block-2015-04-29",
+          "preferred_set": "KTK"
+        }
+      ]
+    }
+  ],
+  "basics": {
+    "Plains": 2,
+    "Island": 2,
+    "Swamp": 2,
+    "Mountain": 2,
+    "Forest": 2
+  },
+  "basic_printing_plan": "For each basic use one original Dominaria (DOM) and one 2025 Tarkir: Dragonstorm (TDM) illustration if available; these are artistic markers and not extra deck slots.",
+  "source_index": {
+    "origin": "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-twins-2018-06-13",
+    "first": "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-first-lesson-2018-06-20",
+    "unwritten": "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-unwritten-now-2018-08-15",
+    "ugin": "https://magic.wizards.com/en/story/ugin-planeswalker",
+    "ur": "https://magic.wizards.com/en/news/feature/returning-legends-modern-horizons-2-2021-06-10",
+    "fate": "https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-fate-reforged-2015-01-07",
+    "tarkir": "https://magic.wizards.com/en/news/magic-story/story-tarkir-block-2015-04-29",
+    "eldrazi": "https://magic.wizards.com/en/news/magic-story/battle-zendikar-story-summary-2015-12-23",
+    "nahiri": "https://magic.wizards.com/en/news/magic-story/the-lithomancer",
+    "azor": "https://magic.wizards.com/en/news/magic-story/sabotage-2018-01-31",
+    "war": "https://magic.wizards.com/en/news/making-magic/even-more-war-games-2019-05-06",
+    "dragonstorm": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-tarkir-dragonstorm-part-1",
+    "ep7": "https://magic.wizards.com/en/news/magic-story/tarkir-dragonstorm-episode-7-return",
+    "reality": "https://magic.wizards.com/en/news/magic-story/reality-fracture-episode-5-i-dont-need-to-convince-you"
+  },
+  "canon_caveats": [
+    "The Ur-Dragon is a primordial progenitor, not canonically identified as Ugin's female biological mother.",
+    "Ugin's birth occurred on Dominaria; some older Fate Reforged prose calls Tarkir his native plane, which conflicts with later Chronicle of Bolas. This deck follows the more explicit 2018 birth narrative.",
+    "Crux of Fate/Bitter Revelation and the five Khans fetch-land flavor texts depict the original Tarkir timeline that Sarkhan rewrote; they must not be mistaken for the surviving continuity.",
+    "Ugin and Sorin/Nahiri imprisoned rather than killed the titans; later Gatewatch members killed Ulamog and Kozilek against Ugin's preferred stasis approach.",
+    "Azor and the Immortal Sun appear as an ancient flashback whose plan pays off only during the War of the Spark, not as a new 2019 invention.",
+    "In the 2019 finale, Bolas was desparked and Ugin served as his jailer in the Meditation Realm.",
+    "In the 2025 Tarkir: Dragonstorm story, the Meditation Realm collapsed, Bolas's bonds broke, Ugin tried to hold him, and BOTH disappeared; their survival is explicitly uncertain in the cited story. Do not assert definitive death, rescue, or continuing imprisonment.",
+    "The 2026 Reality Fracture story invokes the power of the Meditation Realm in Jace's Echoverse project; this is not evidence Ugin is alive or physically participates.",
+    "Emrakul, the Aeons Torn is banned in sanctioned Commander and is retained as a deliberate story-first Rule 0 exception.",
+    "The original Ugin, the Spirit Dragon is colorless; the biography's colored allies/antagonists are included because the Ur-Dragon frames WUBRG, not because Ugin was personally color-identified with those cards.",
+    "Generic landscape and evocative cards are labeled as locations, consequences, or symbolic portraits rather than fabricated literal appearances."
+  ]
+}
