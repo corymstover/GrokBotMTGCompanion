@@ -1,0 +1,98 @@
+{
+  "schema": "phase6-curated-strategy-preflight-spec/v1",
+  "as_of": "2026-11-01",
+  "pilots": [
+    {
+      "stem": "ugin_bolas_elder_dragon_duality",
+      "strategy": "Grixis Bolas/Ugin control: defend the table with countermagic, wipes and spot removal, then use mana rocks to cast expensive Elder Dragons and planeswalkers. The Bolas commander can transform late to provide cards and removal; this is not a fast combo deck.",
+      "opening": "Keep adequate lands and at least one early mana rock or an interaction spell; do not treat a hand full of seven- and eight-mana Bolas/Ugin payoffs as a functioning keep.",
+      "middle": "Use a counterspell or sweeper to trade resources. Build mana with the dated artifact ramp package while preserving life total and fixing blue, black and red sources for triple-colored costs.",
+      "finish": "Stabilize into Nicol Bolas, Dragon-God or other high-end planeswalkers, and pressure with Dragons. Bolas's Citadel supplies a conditional alternate value engine, but does not by itself prove an infinite combo.",
+      "failure_mode": "The lore-first slots are expensive and many are not efficient multiplayer interaction or card advantage; an opponent may deploy a faster engine before the pilot can stabilize.",
+      "power_hypothesis": "SLOW_CASUAL_UNTESTED",
+      "anchors": {
+        "ACCELERATION": [
+          {"name": "Sol Ring", "oracle_contains": "Add {C}{C}"},
+          {"name": "Arcane Signet", "oracle_contains": "commander's color identity"},
+          {"name": "Hedron Archive", "oracle_contains": "Add {C}{C}"}
+        ],
+        "RESOURCE_FLOW": [
+          {"name": "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen", "oracle_contains": "Draw two cards"},
+          {"name": "Ugin's Insight", "oracle_contains": "Draw three cards"}
+        ],
+        "INTERACTION": [
+          {"name": "Mana Drain", "oracle_contains": "Counter target spell"},
+          {"name": "Crux of Fate", "oracle_contains": "Destroy all"},
+          {"name": "Nicol Bolas, Dragon-God", "oracle_contains": "Destroy target creature or planeswalker"}
+        ],
+        "PAYOFF": [
+          {"name": "Nicol Bolas, Dragon-God", "oracle_contains": "Each opponent who doesn't control a legendary creature or planeswalker loses the game"},
+          {"name": "Bolas's Citadel", "oracle_contains": "pay life equal to its mana value"},
+          {"name": "Ugin, the Spirit Dragon", "oracle_contains": "Exile each permanent"}
+        ]
+      }
+    },
+    {
+      "stem": "original_primeval_dragons",
+      "strategy": "Five-color Elder/Primeval Dragon combat deck: use The Ur-Dragon's command-zone cost reduction with land ramp and tribal discounts, then attack with actual Dragon bodies. The historic character roster constrains efficiency and is not a claim that every card depicts an exact canon battle.",
+      "opening": "Prioritize green access for land ramp and any two fixing sources; five-color Dragon spells are often stranded when a starting hand has only a few colors even if it has sufficient land count.",
+      "middle": "Develop land-based ramp, Herald's Horn or Urza's Incubator, then deploy a Dragon before loading the battlefield with additional high-mana legendary creatures. Reserve removal for an opposing faster engine.",
+      "finish": "Attack with multiple Dragons to trigger The Ur-Dragon's draw-and-put-permanent effect if it reaches the field. Rith and Sarkhan's Unsealing provide board impact, but there is no verified deterministic win loop.",
+      "failure_mode": "The five-color legend suite has unusually heavy colored costs; three of each basic plus many tapped nonbasics can make the theoretical mana curve optimistic. One board wipe may reset the primary combat plan.",
+      "power_hypothesis": "MANA_INTENSIVE_CASUAL_UNTESTED",
+      "anchors": {
+        "ACCELERATION": [
+          {"name": "Cultivate", "oracle_contains": "basic land cards"},
+          {"name": "Dragonlord's Servant", "oracle_contains": "Dragon spells you cast cost {1} less"},
+          {"name": "Urza's Incubator", "oracle_contains": "chosen type cost {2} less"}
+        ],
+        "RESOURCE_FLOW": [
+          {"name": "Kindred Discovery", "oracle_contains": "draw a card"},
+          {"name": "Harmonize", "oracle_contains": "Draw three cards"},
+          {"name": "Herald's Horn", "oracle_contains": "put it into your hand"}
+        ],
+        "INTERACTION": [
+          {"name": "Swords to Plowshares", "oracle_contains": "Exile target creature"},
+          {"name": "Anguished Unmaking", "oracle_contains": "Exile target nonland permanent"}
+        ],
+        "PAYOFF": [
+          {"name": "The Ur-Dragon", "oracle_contains": "Whenever one or more Dragons you control attack"},
+          {"name": "Sarkhan's Unsealing", "oracle_contains": "deals 4 damage"},
+          {"name": "Rith, Liberated Primeval", "oracle_contains": "create a 4/4 red Dragon creature token"}
+        ]
+      }
+    },
+    {
+      "stem": "ugins_allies_and_heroes",
+      "strategy": "Four-color Jace/Gatewatch planeswalker-value control deck: deploy rocks and efficient answers, let Jace smooth draws, then exploit loyalty and proliferate effects while the Eldrazi/Ugin story cards serve as high-end closers. The individual story cards are evidence-graded separately.",
+      "opening": "Mulligan for sources that can cast Jace's WUBR cost and either an early rock or cheap interaction; one off-color tapland plus expensive Eldrazi is not an adequate keep.",
+      "middle": "Use spot removal, countermagic and sweepers to defend planeswalkers. Draw toward double-loyalty, proliferate and counter-doubling engines; do not spend resources assuming a protected planeswalker battlefield.",
+      "finish": "Accumulate multiple loyalty activations through Oath of Teferi or The Chain Veil, while retaining a credible independent Eldrazi or Ugin threat. This describes a synergy plan, not a verified combo or tested win rate.",
+      "failure_mode": "A four-color commander plus several disconnected Eldrazi/canon beats can split the game plan. The Chain Veil costs four to activate and punishes turns without loyalty activations.",
+      "power_hypothesis": "SYNERGY_DEPENDENT_CASUAL_UNTESTED",
+      "anchors": {
+        "ACCELERATION": [
+          {"name": "Sol Ring", "oracle_contains": "Add {C}{C}"},
+          {"name": "Arcane Signet", "oracle_contains": "commander's color identity"},
+          {"name": "Mind Stone", "oracle_contains": "Add {C}"}
+        ],
+        "RESOURCE_FLOW": [
+          {"name": "Jace, Multiverse Architect", "oracle_contains": "Draw two cards"},
+          {"name": "Fact or Fiction", "oracle_contains": "top five cards"},
+          {"name": "Oath of Jace", "oracle_contains": "draw three cards"}
+        ],
+        "INTERACTION": [
+          {"name": "Swords to Plowshares", "oracle_contains": "Exile target creature"},
+          {"name": "Supreme Verdict", "oracle_contains": "Destroy all creatures"},
+          {"name": "Counterspell", "oracle_contains": "Counter target spell"}
+        ],
+        "PAYOFF": [
+          {"name": "Oath of Teferi", "oracle_contains": "loyalty abilities of planeswalkers you control twice"},
+          {"name": "Flux Channeler", "oracle_contains": "proliferate"},
+          {"name": "Deepglow Skate", "oracle_contains": "double the number of each kind of counter"},
+          {"name": "The Chain Veil", "oracle_contains": "you may activate one of its loyalty abilities once"}
+        ]
+      }
+    }
+  ]
+}
