@@ -1,0 +1,3656 @@
+{
+  "schema": "github-head-pruning-readonly-snapshot/v1",
+  "repository": "corymstover/GrokBotMTGCompanion",
+  "as_of": "2026-11-02",
+  "destructive_actions_taken": 0,
+  "branch_count": 888,
+  "distinct_head_count": 876,
+  "exact_duplicate_head_groups": 12,
+  "not_deletion_authority": "Branches with distinct heads are not proven redundant; ancestry/owner/PR/automation reference checks and a deletion interface are required before any deletion.",
+  "must_retain": [
+    "main",
+    "chatgpt-cycle76-m6-refinement",
+    "chatgpt-abaddon-rev3-owner-receipt-canonical-verified-20261023",
+    "chatgpt-m7-lord-approved-case-transfer-20261025"
+  ],
+  "exact_head_duplicates": [
+    {
+      "sha": "fd143871f84b21ccb03ff8714f5a3df597bd83f1",
+      "branches": [
+        "chatgpt-abaddon-final-j-oracle-capture-20261022",
+        "chatgpt-abaddon-oracle-j-frozen-20261022"
+      ]
+    },
+    {
+      "sha": "ef42d0a1fdaa1e4b3987df2d3d57477d89f0a6ef",
+      "branches": [
+        "chatgpt-abaddon-final-m6-ij-20261022",
+        "chatgpt-abaddon-ij-strict-final-frozen-20261022"
+      ]
+    },
+    {
+      "sha": "6cf0b8cf37305bf08f318f621ca7f06b60bdde8e",
+      "branches": [
+        "chatgpt-abaddon-full-oracle-frozen-20261022",
+        "chatgpt-abaddon-persist-full-oracle-20261022"
+      ]
+    },
+    {
+      "sha": "5c84c4a5e1ceb436bc315bb197f93a537cd444f0",
+      "branches": [
+        "chatgpt-abaddon-m6-6-7-adjudication-20261022",
+        "chatgpt-abaddon-m6-6-7-fixed-frozen-20261022"
+      ]
+    },
+    {
+      "sha": "875752deda9c4b93f6efb6f1c05093a55d27f46d",
+      "branches": [
+        "chatgpt-abaddon-m6-j-candidate-mana-redteam-20261022",
+        "chatgpt-abaddon-m6-j-validated-source-crosswalk-20261022"
+      ]
+    },
+    {
+      "sha": "d899fb4f829bab33a646d30cfb9cd9d222eae51c",
+      "branches": [
+        "chatgpt-abaddon-m7-opportunity-reopen-20261022",
+        "chatgpt-abaddon-m7-reopen-frozen-20261022"
+      ]
+    },
+    {
+      "sha": "7359216b52f0406261cb03fc6801b7e98ebe2066",
+      "branches": [
+        "chatgpt-abaddon-owner-ready-frozen-20261022",
+        "chatgpt-abaddon-owner-ready-m6-ij-20261022"
+      ]
+    },
+    {
+      "sha": "029fdb9a8fdefe2ef81be09be6dc03cb54c59d30",
+      "branches": [
+        "chatgpt-abaddon-p0-030-exact-head-20261022",
+        "chatgpt-abaddon-p0-030-threshold-doublers-20261022"
+      ]
+    },
+    {
+      "sha": "139c97118e8436f0b160a10a8025fc05906cc7e6",
+      "branches": [
+        "chatgpt-abaddon-p0-030-ledger-20261022",
+        "chatgpt-abaddon-p0-030-ledger-exact-head-20261022"
+      ]
+    },
+    {
+      "sha": "fb5a4a7e56e9b428304274045d8a9f16d71f789a",
+      "branches": [
+        "chatgpt-abaddon-p1-final-frozen-20261022",
+        "chatgpt-abaddon-remaining-p1-20261022"
+      ]
+    },
+    {
+      "sha": "b872f7aa9821068458eddda1bea593ed8e6998be",
+      "branches": [
+        "chatgpt-abaddon-p1-frozen-head-20261022",
+        "chatgpt-abaddon-residual-p1-reconciliation-20261022"
+      ]
+    },
+    {
+      "sha": "85ac36b161020fd00d1afc82b508326d60d3c69d",
+      "branches": [
+        "chatgpt-m7-no-few-swaps-owner-hard-corrected-20261022",
+        "chatgpt-m7-no-few-swaps-owner-hard-gate-20261022"
+      ]
+    }
+  ],
+  "heads": [
+    {
+      "branch": "audit/m8-admiral-original-case-current-sha-20261028",
+      "sha": "981b18537737b9543c621cd275322129c0109f6b"
+    },
+    {
+      "branch": "audit/m8-parnesse-original-p1-partial-20261028",
+      "sha": "91c5aa962a6c0bd63ede637c8fef9c560f12d6d0"
+    },
+    {
+      "branch": "audit/m8-parnesse-whole99-quality-20261028",
+      "sha": "3690f2ea40721231a3954a92bd75c723c63b09ed"
+    },
+    {
+      "branch": "bot-cycle15",
+      "sha": "f5e9f6e006bc5fc14247bd983f395b92f4a87851"
+    },
+    {
+      "branch": "bot-cycle16-grixis",
+      "sha": "0a3e74f40ead61e2d2b1f37ac62993d5680349a2"
+    },
+    {
+      "branch": "bot-cycle17-schema-validation",
+      "sha": "9e343b9cb2dea3d3c8cb244cb408bc6e8a093a82"
+    },
+    {
+      "branch": "bot-cycle18-crossrefs",
+      "sha": "712870dccf0ed42c0034f41cdb1e244a1d8fc545"
+    },
+    {
+      "branch": "bot-cycle19-calibration",
+      "sha": "129de5b939aaf2fe36734ef2b0d0bf9d9afde4dc"
+    },
+    {
+      "branch": "bot-cycle23-lore-85",
+      "sha": "fe0d4fd0c72b642453859f0a6836662f4f8d8d52"
+    },
+    {
+      "branch": "bot-cycle24-lore",
+      "sha": "3892567fa5b12ae5b4aeb2da0324d7f5089a15ec"
+    },
+    {
+      "branch": "bot-cycle3-lore",
+      "sha": "029b044c7b7a27b7f8804419652fdf1764b587af"
+    },
+    {
+      "branch": "bot-cycle4",
+      "sha": "2b26624a05c329f831073690fc0a1f2d9e2a2987"
+    },
+    {
+      "branch": "bot-cycle47-authority",
+      "sha": "b9365bedd937040991cc0ce136bcc28abe85c8dc"
+    },
+    {
+      "branch": "bot-cycle5",
+      "sha": "26817ad2d11504b339a429fd7e1d80f6fa86a06c"
+    },
+    {
+      "branch": "bot-cycle50-blueprints",
+      "sha": "5ad4a286ddab841abef5885b5474cba3d70cdec6"
+    },
+    {
+      "branch": "bot-cycle52-blueprints",
+      "sha": "69b2026198908d2359847f2524a3c0cd504521c3"
+    },
+    {
+      "branch": "bot-cycle53-blueprints",
+      "sha": "fac0309de623195aea45206c933e6536d21a0136"
+    },
+    {
+      "branch": "bot-cycle55-blueprints",
+      "sha": "8748d7db894e86836f856c373c2f063c8e1ceb94"
+    },
+    {
+      "branch": "bot-cycle57-m3",
+      "sha": "015d74617fa6c40d461d2c7d14436c564f98ce09"
+    },
+    {
+      "branch": "bot-cycle59-m4",
+      "sha": "406d52c30796af6f7ce3b490d1dda945fd549b32"
+    },
+    {
+      "branch": "bot-cycle6",
+      "sha": "ff20bfd6c0c42becdd0243d6a4a0077a54f46c9b"
+    },
+    {
+      "branch": "bot-cycle60-m5",
+      "sha": "41bae0993f49ff317ff07ecdf20ce8f0de171d3f"
+    },
+    {
+      "branch": "bot-cycle61-constraints",
+      "sha": "28c49289175bcc6cb834a2a298742b26d69c1952"
+    },
+    {
+      "branch": "bot-cycle62-accept",
+      "sha": "fbdcfa4302a824c18f826e33abe95042d9e4907c"
+    },
+    {
+      "branch": "bot-cycle63-accept-m2-m4",
+      "sha": "5fe98acc352001afc6f8d7dc80b5925c522abcd5"
+    },
+    {
+      "branch": "bot-cycle64-g0",
+      "sha": "aa118466c152953cba7bce2b09bc8bfbcbe27604"
+    },
+    {
+      "branch": "bot-cycle65-saturation",
+      "sha": "5e3498d716d73e9f1ec3c04d744bf412ea76c7ba"
+    },
+    {
+      "branch": "bot-cycle66-2",
+      "sha": "4f7347e21fc8b0aefb0e9e5f468fa28a0d3bdabc"
+    },
+    {
+      "branch": "bot-cycle66-2a",
+      "sha": "287108133217cf4020ccf8a493dfc5f52dd4e3f9"
+    },
+    {
+      "branch": "bot-cycle66-3",
+      "sha": "a46f567981f9ea2b1b7de6d8f6c2b63f6f82ae06"
+    },
+    {
+      "branch": "bot-cycle66-4",
+      "sha": "4d85265e9c76998560270682308eb78a5b7b05ab"
+    },
+    {
+      "branch": "bot-cycle66-lock",
+      "sha": "4b9c60da04d319450a7fbf458a31ad137f54eb71"
+    },
+    {
+      "branch": "bot-cycle66-mechanics",
+      "sha": "56f8ac88a0a72c98af2d3c8fb73fdf5beb8ed480"
+    },
+    {
+      "branch": "bot-cycle7",
+      "sha": "829159bd91f283469a3665cd7c74681145d87361"
+    },
+    {
+      "branch": "bot-cycle8",
+      "sha": "4e575c22ccff9b06a7efb5149a7e681180b051b7"
+    },
+    {
+      "branch": "bot-cycle9",
+      "sha": "5f899dae3b070e5ca8286a2b02fec6c59b4110a1"
+    },
+    {
+      "branch": "chatgpt-abaddon-final-ij-frozen-20261022",
+      "sha": "d54cad9f6c4a90bc7476164b2f5f0ebd75d507bd"
+    },
+    {
+      "branch": "chatgpt-abaddon-final-j-oracle-capture-20261022",
+      "sha": "fd143871f84b21ccb03ff8714f5a3df597bd83f1"
+    },
+    {
+      "branch": "chatgpt-abaddon-final-m6-ij-20261022",
+      "sha": "ef42d0a1fdaa1e4b3987df2d3d57477d89f0a6ef"
+    },
+    {
+      "branch": "chatgpt-abaddon-full-oracle-frozen-20261022",
+      "sha": "6cf0b8cf37305bf08f318f621ca7f06b60bdde8e"
+    },
+    {
+      "branch": "chatgpt-abaddon-ij-strict-final-frozen-20261022",
+      "sha": "ef42d0a1fdaa1e4b3987df2d3d57477d89f0a6ef"
+    },
+    {
+      "branch": "chatgpt-abaddon-inclusive-cascade-oracle-fix-20261022",
+      "sha": "4e8a07d4c34007e0a0ee742e33c681f5ca42f095"
+    },
+    {
+      "branch": "chatgpt-abaddon-m6-6-7-adjudication-20261022",
+      "sha": "5c84c4a5e1ceb436bc315bb197f93a537cd444f0"
+    },
+    {
+      "branch": "chatgpt-abaddon-m6-6-7-fixed-frozen-20261022",
+      "sha": "5c84c4a5e1ceb436bc315bb197f93a537cd444f0"
+    },
+    {
+      "branch": "chatgpt-abaddon-m6-6-7-frozen-20261022",
+      "sha": "ce07ad21813d2446359cd83cf1e5822cf3a4d8e6"
+    },
+    {
+      "branch": "chatgpt-abaddon-m6-7-final-choice-20261022",
+      "sha": "dc92c49a4127351a7f4c1dd93c0c3a3237882988"
+    },
+    {
+      "branch": "chatgpt-abaddon-m6-ci-reconciliation-20261022",
+      "sha": "6115813f12f8c55cb1bfe4511b5d4c1839eeb871"
+    },
+    {
+      "branch": "chatgpt-abaddon-m6-coverage-i-block-20261022",
+      "sha": "9b516714e856ec3fa9dbb78940668e5e8f765cee"
+    },
+    {
+      "branch": "chatgpt-abaddon-m6-coverage-ledger-20261022",
+      "sha": "0ca360e0c954a6f14c4e70dcd27c682b941d9fbc"
+    },
+    {
+      "branch": "chatgpt-abaddon-m6-disposition-synthesis-20261022",
+      "sha": "7709bae87b476d46517f903950ab6bde4995329d"
+    },
+    {
+      "branch": "chatgpt-abaddon-m6-evidence-ledger-20261022",
+      "sha": "a8bf1bdfd7de8ed57709b67863fe20ebfadc8197"
+    },
+    {
+      "branch": "chatgpt-abaddon-m6-evidence-preflight-20261022",
+      "sha": "7362fba0a86bb42d73342677defe35dc18baf2e3"
+    },
+    {
+      "branch": "chatgpt-abaddon-m6-j-candidate-mana-redteam-20261022",
+      "sha": "875752deda9c4b93f6efb6f1c05093a55d27f46d"
+    },
+    {
+      "branch": "chatgpt-abaddon-m6-j-validated-source-crosswalk-20261022",
+      "sha": "875752deda9c4b93f6efb6f1c05093a55d27f46d"
+    },
+    {
+      "branch": "chatgpt-abaddon-m6-p0-tested-pool-20261022",
+      "sha": "58623406fe99758c2483d1d954049c9c569d8f0e"
+    },
+    {
+      "branch": "chatgpt-abaddon-m7-cascade-mv-cost-stage6-20261022",
+      "sha": "ce0f991f3986bcf06cf49b27c87ebf5402ab2368"
+    },
+    {
+      "branch": "chatgpt-abaddon-m7-decisive-comparison-20261022",
+      "sha": "06b87c190079dff8bd89430b5e713f7a400bd9d8"
+    },
+    {
+      "branch": "chatgpt-abaddon-m7-final-owner-ready-rev2-20261022",
+      "sha": "ad8ad6fa5c4ce36985ab348dc4ef81a611a40c11"
+    },
+    {
+      "branch": "chatgpt-abaddon-m7-harmonic-payable-stage5-20261022",
+      "sha": "a2fec6581570eba35047b986a29637bbd5e81cca"
+    },
+    {
+      "branch": "chatgpt-abaddon-m7-live-oracle-gate-20261022",
+      "sha": "2e987dd61ae09f9f0240ffeca6c441904fe80d76"
+    },
+    {
+      "branch": "chatgpt-abaddon-m7-open-ended-packages-stage4-20261022",
+      "sha": "593f3fc5746daf68ec931ac82a7ff497c33596f4"
+    },
+    {
+      "branch": "chatgpt-abaddon-m7-opportunity-reopen-20261022",
+      "sha": "d899fb4f829bab33a646d30cfb9cd9d222eae51c"
+    },
+    {
+      "branch": "chatgpt-abaddon-m7-oracle-mechanics-stage3-20261022",
+      "sha": "4693f25d72a01bc702c1bf63f16fe942ff6e020b"
+    },
+    {
+      "branch": "chatgpt-abaddon-m7-reopen-frozen-20261022",
+      "sha": "d899fb4f829bab33a646d30cfb9cd9d222eae51c"
+    },
+    {
+      "branch": "chatgpt-abaddon-m7-rev2-mechanics-20261022",
+      "sha": "655c5968a4652b973772eb8cc01c6972b1af64be"
+    },
+    {
+      "branch": "chatgpt-abaddon-m7-six-swap-source-review-20261022",
+      "sha": "d8f3a7b4fb2b96af3f8b1055fb10d4ae53114c6d"
+    },
+    {
+      "branch": "chatgpt-abaddon-m7-sourcebound-staging-20261022",
+      "sha": "9fd2add98fef228487db15d9cdf52968c2319cec"
+    },
+    {
+      "branch": "chatgpt-abaddon-m7-stage7-interference-packages-20261022",
+      "sha": "df91bd36b6ece821be9ee548e992fa3f9cb044e4"
+    },
+    {
+      "branch": "chatgpt-abaddon-m7-stage8-impact-tremors-offranking-20261022",
+      "sha": "54b9c2bbb2f6f846e460d35a4547f175339a73db"
+    },
+    {
+      "branch": "chatgpt-abaddon-m7-stage9-durable-continuation-20261022",
+      "sha": "a1e8e78ecd19535cb6817387dc51ca5e0ba9cfb1"
+    },
+    {
+      "branch": "chatgpt-abaddon-m7-stage9-veyran-trigger-crosswalk-20261022",
+      "sha": "09078f2dd510ae68809e9c15267bc40ed65f5c54"
+    },
+    {
+      "branch": "chatgpt-abaddon-minds-desire-p0-029-20261022",
+      "sha": "adb073c7fa29b3f812565511e9b54b4d40e9712f"
+    },
+    {
+      "branch": "chatgpt-abaddon-oracle-j-frozen-20261022",
+      "sha": "fd143871f84b21ccb03ff8714f5a3df597bd83f1"
+    },
+    {
+      "branch": "chatgpt-abaddon-owner-ready-frozen-20261022",
+      "sha": "7359216b52f0406261cb03fc6801b7e98ebe2066"
+    },
+    {
+      "branch": "chatgpt-abaddon-owner-ready-m6-ij-20261022",
+      "sha": "7359216b52f0406261cb03fc6801b7e98ebe2066"
+    },
+    {
+      "branch": "chatgpt-abaddon-p0-021-call-forth-20261022",
+      "sha": "422a55c6466274ea899a7cf37837164fc03716f5"
+    },
+    {
+      "branch": "chatgpt-abaddon-p0-022-suspend-20261022",
+      "sha": "13fb5896589a74bd398ee7b517da6b0e3b7f58e0"
+    },
+    {
+      "branch": "chatgpt-abaddon-p0-023-breach-led-freeze-20261022",
+      "sha": "c8946e87a3acb81e0884a804744210bb3ffb6122"
+    },
+    {
+      "branch": "chatgpt-abaddon-p0-024-wild-magic-20261022",
+      "sha": "3f2c089e68083e345fd94ab7ffc49593a815ad5a"
+    },
+    {
+      "branch": "chatgpt-abaddon-p0-025-nalfeshnee-20261022",
+      "sha": "78e88638d9c03f3be25733692907cc0fb01dd535"
+    },
+    {
+      "branch": "chatgpt-abaddon-p0-026-archaeologist-20261022",
+      "sha": "a55e1bd8b6956e37933494f3a90234021b06351a"
+    },
+    {
+      "branch": "chatgpt-abaddon-p0-027-prosper-20261022",
+      "sha": "d32d3bbe9374d50fc02ab62b1fcb5e5dcafd3e91"
+    },
+    {
+      "branch": "chatgpt-abaddon-p0-028-storm-kiln-20261022",
+      "sha": "07dec977d4a02a985e17444b5f05693dd273e9f9"
+    },
+    {
+      "branch": "chatgpt-abaddon-p0-030-exact-head-20261022",
+      "sha": "029fdb9a8fdefe2ef81be09be6dc03cb54c59d30"
+    },
+    {
+      "branch": "chatgpt-abaddon-p0-030-ledger-20261022",
+      "sha": "139c97118e8436f0b160a10a8025fc05906cc7e6"
+    },
+    {
+      "branch": "chatgpt-abaddon-p0-030-ledger-exact-head-20261022",
+      "sha": "139c97118e8436f0b160a10a8025fc05906cc7e6"
+    },
+    {
+      "branch": "chatgpt-abaddon-p0-030-threshold-doublers-20261022",
+      "sha": "029fdb9a8fdefe2ef81be09be6dc03cb54c59d30"
+    },
+    {
+      "branch": "chatgpt-abaddon-p1-final-frozen-20261022",
+      "sha": "fb5a4a7e56e9b428304274045d8a9f16d71f789a"
+    },
+    {
+      "branch": "chatgpt-abaddon-p1-frozen-head-20261022",
+      "sha": "b872f7aa9821068458eddda1bea593ed8e6998be"
+    },
+    {
+      "branch": "chatgpt-abaddon-persist-full-oracle-20261022",
+      "sha": "6cf0b8cf37305bf08f318f621ca7f06b60bdde8e"
+    },
+    {
+      "branch": "chatgpt-abaddon-post-admiral-edhrec-reopen-20261022",
+      "sha": "c793c4b895cf08e623655f8a363e13895cd1e10c"
+    },
+    {
+      "branch": "chatgpt-abaddon-remaining-p1-20261022",
+      "sha": "fb5a4a7e56e9b428304274045d8a9f16d71f789a"
+    },
+    {
+      "branch": "chatgpt-abaddon-residual-p1-reconciliation-20261022",
+      "sha": "b872f7aa9821068458eddda1bea593ed8e6998be"
+    },
+    {
+      "branch": "chatgpt-abaddon-rev2-100-oracle-archive-20261022",
+      "sha": "af16ffa583e93f260456702182ffd8b9a20ceccd"
+    },
+    {
+      "branch": "chatgpt-abaddon-rev2-ij-packet-draft-20261022",
+      "sha": "20de5e441c237310d017b42824b44f5e98746466"
+    },
+    {
+      "branch": "chatgpt-abaddon-rev3-callforth-oracle-erratum-20261023",
+      "sha": "f22b79e0e0bce13d56d50c106bcf2f725a7a4499"
+    },
+    {
+      "branch": "chatgpt-abaddon-rev3-owner-lock-receipt-20261023",
+      "sha": "f77390369c54f4b62286868b7116ef1036de6698"
+    },
+    {
+      "branch": "chatgpt-abaddon-rev3-owner-ready-checkpoint-20261023",
+      "sha": "7003f7fa5a83bac64e87d82dd2a8e0830b2f7dcc"
+    },
+    {
+      "branch": "chatgpt-abaddon-rev3-owner-receipt-canonical-verified-20261023",
+      "sha": "6ca2e52ea2e9a8570691324af019486e37043859"
+    },
+    {
+      "branch": "chatgpt-abaddon-stage10-familiar-combo-adversarial-20261022",
+      "sha": "e25938f9e7221302701dd3f40db675f2b76121e8"
+    },
+    {
+      "branch": "chatgpt-abaddon-stage10-merge-receipt-ledger-20261022",
+      "sha": "d7b4ff4a4764f1c4b0ff988933557bfae98e143d"
+    },
+    {
+      "branch": "chatgpt-abaddon-stage11-precombat-shrine-token-quality-20261022",
+      "sha": "9a01064f97d0d06b54577991ed46469b039afea5"
+    },
+    {
+      "branch": "chatgpt-abaddon-stage11-provenance-ledger-20261022",
+      "sha": "c0c922f524aab7966a5add23aec8c37015a01281"
+    },
+    {
+      "branch": "chatgpt-abaddon-stage12-openended-portfolios-20261022",
+      "sha": "11679ef47b7bc38801412994795f47ba5898a6d9"
+    },
+    {
+      "branch": "chatgpt-abaddon-stage12-provenance-ledger-20261022",
+      "sha": "9c5ff452baa83d4bc1f15dbbd56a8fb7eb1437fa"
+    },
+    {
+      "branch": "chatgpt-abaddon-stage13-mage-protected-engine-20261023",
+      "sha": "314d19d6a86ae5f1f0f4141b84233132003745a6"
+    },
+    {
+      "branch": "chatgpt-abaddon-stage14-protected-six-preflight-20261023",
+      "sha": "e1ff4b45939936dbca2dbc7701b14a969ad41242"
+    },
+    {
+      "branch": "chatgpt-abaddon-stage14-provenance-ledger-20261023",
+      "sha": "532d7d729935c3315ea2b48b1ea5d047ac5451cd"
+    },
+    {
+      "branch": "chatgpt-abaddon-stage15-execution-receipt-20261023",
+      "sha": "a114c58d51589e0720e7895303de5759a69d4700"
+    },
+    {
+      "branch": "chatgpt-abaddon-stage15-targeted-m6-changed-fixtures-20261023",
+      "sha": "7d4c079d0f7420753608254ddb33f63e6b8a4fd5"
+    },
+    {
+      "branch": "chatgpt-abaddon-stage16-reconcile-legacy-fixtures-20261023",
+      "sha": "b3d9d1d6e3a8e857e52efd346d0483782e379462"
+    },
+    {
+      "branch": "chatgpt-abaddon-stage17-complete-95-oracle-source-20261023",
+      "sha": "f23bec193bf6626d7e8d34d622adeadfaf864248"
+    },
+    {
+      "branch": "chatgpt-abaddon-stage18-changed-mana-redteam-20261023",
+      "sha": "b5f4b598cbd22ac00741430f1d62ebb2b4930609"
+    },
+    {
+      "branch": "chatgpt-abaddon-stage18-final-mana-redteam-20261023",
+      "sha": "1a960c68d4ab54462778fa0a9fa011a0ef7318d9"
+    },
+    {
+      "branch": "chatgpt-abaddon-stage19-legacy-betrayal-correction-20261023",
+      "sha": "b92c3a149f79bccbc53f445d409f78255ffb6fb3"
+    },
+    {
+      "branch": "chatgpt-abaddon-stage20-new-exact-six-ij-20261023",
+      "sha": "407205fce4b8f79e353f101059719afd30bbfbe4"
+    },
+    {
+      "branch": "chatgpt-abaddon-stage21-owner-review-gate-20261023",
+      "sha": "6dea40fb11b1cbaf366ea90f14e5bf3b0e36ca3c"
+    },
+    {
+      "branch": "chatgpt-abaddon-stage7-continuation-receipt-20261022",
+      "sha": "74b6d835e022358c5d053b6e00aca191237876f6"
+    },
+    {
+      "branch": "chatgpt-admiral-beckett-p0-city-fastgate-20261022",
+      "sha": "c5f45db3f6beedce9a7ba73e92ad32e5d0a1e0db"
+    },
+    {
+      "branch": "chatgpt-admiral-candidate-d-effect-coverage-adversarial-20261022",
+      "sha": "6df80bbf93126146b497f35e57dff702927ca1d4"
+    },
+    {
+      "branch": "chatgpt-admiral-ij-hash-pool-and-reports-20261022",
+      "sha": "05b42affdfc25b8f9b31aad616b9e0c044645f5d"
+    },
+    {
+      "branch": "chatgpt-admiral-m6-6-7-scope-closure-20261022",
+      "sha": "456b5eb5b76aae8cb7a8380950352a3a8dbf852b"
+    },
+    {
+      "branch": "chatgpt-admiral-m6-i-four-package-effects-20261022",
+      "sha": "3196e72560fd22c2d88628d8e336506c791d8967"
+    },
+    {
+      "branch": "chatgpt-admiral-m6-i-scoped-five-list-closure-20261022",
+      "sha": "dc7b208474672e8e32a96caef89e815c03dd0b8b"
+    },
+    {
+      "branch": "chatgpt-admiral-m6-j-candidate-d-bundle-20261022",
+      "sha": "b1a0e219f379433ce38289294559f60d78c6c23a"
+    },
+    {
+      "branch": "chatgpt-admiral-m7-evasion-horizon-20261022",
+      "sha": "3cd43995f7983f85b91f439e895b543220f91dab"
+    },
+    {
+      "branch": "chatgpt-admiral-m7-ledger-tracker-20261022",
+      "sha": "a04904624f2dc3ca77d0be74af53d6d20a4e6be7"
+    },
+    {
+      "branch": "chatgpt-admiral-m7-owner-packet-20261022",
+      "sha": "089d355e7b59433c2527036f8546ec7c0b768e63"
+    },
+    {
+      "branch": "chatgpt-admiral-m7-owner-receipt-abaddon-reopen-20261022",
+      "sha": "f7ced4fcd3e8ffa34244755cdd6bb1418e1557f5"
+    },
+    {
+      "branch": "chatgpt-admiral-m7-reassessment-ci-handoff-20261022",
+      "sha": "30ec4cade304cf0dd949a44acf750a339bf65f0a"
+    },
+    {
+      "branch": "chatgpt-admiral-source-and-paid-effects-20261022",
+      "sha": "23f58845555619aa8042725df6b4ada4fb015b55"
+    },
+    {
+      "branch": "chatgpt-admiral-stage10-rev2-tested_pool-20261022",
+      "sha": "4ad0667de095a4d5ba56e9bb756d12b422e2c6a5"
+    },
+    {
+      "branch": "chatgpt-admiral-stage11-m6_i_local_best-20261022",
+      "sha": "c5e1451bf436b085d289876b90ea5241c591d1dd"
+    },
+    {
+      "branch": "chatgpt-admiral-stage12-rev2_j_bundle-20261022",
+      "sha": "0f976b74d5fd5a9fd886b3938b77ab10bcffca75"
+    },
+    {
+      "branch": "chatgpt-admiral-stage13-m7_rev2_ownerready-20261022",
+      "sha": "00cce844dcfc70e8e94eca9011e68c5ea8c6f355"
+    },
+    {
+      "branch": "chatgpt-admiral-stage6-threshold-comparison-20261022",
+      "sha": "e1ff457f58a63ec709a2be327aedbb8933b0d66e"
+    },
+    {
+      "branch": "chatgpt-admiral-stage7-whole_deck-adjudication-20261022",
+      "sha": "0e1e16959f64b467d222fabfc9b6cefd2816f978"
+    },
+    {
+      "branch": "chatgpt-admiral-stage8-wave-palisade-paid-combat-20261022",
+      "sha": "152c3add699797c65971f9842518503dc2de8e7f"
+    },
+    {
+      "branch": "chatgpt-admiral-stage9-candidate_specific_m6_rebind-20261022",
+      "sha": "f6e378cf03f6c1ba8e079286374a828ba7d08232"
+    },
+    {
+      "branch": "chatgpt-admiral-unbounded-six-seven-20261022",
+      "sha": "e14eaa92e9970653ef25ff7cb9abdb8dc138d6da"
+    },
+    {
+      "branch": "chatgpt-bounded-repo-completion-v309",
+      "sha": "e4b986340965f3c461c4d3ad96a59e080177456f"
+    },
+    {
+      "branch": "chatgpt-build-finish-line-v305",
+      "sha": "a07e33c34d78b584628232aa65037b63021bb508"
+    },
+    {
+      "branch": "chatgpt-card-relations-v306",
+      "sha": "91a96e16db548bd165dbe68464a75eb05271492c"
+    },
+    {
+      "branch": "chatgpt-commander-ci-v303",
+      "sha": "f010432deed0c78204c23452fe6a5c1a5214eb35"
+    },
+    {
+      "branch": "chatgpt-cycle100-general-state-kernel",
+      "sha": "3f3e792c39d2081bdf2a15bb6b232763d87a0056"
+    },
+    {
+      "branch": "chatgpt-cycle101-transactional-stack",
+      "sha": "129640ffd70d04218e02ea4650105cdc5b0af0e7"
+    },
+    {
+      "branch": "chatgpt-cycle102-priority-basic-access",
+      "sha": "f7152d65b5db53d356d04ebedb9d3501e7df1e1e"
+    },
+    {
+      "branch": "chatgpt-cycle103-nonbasic-mana",
+      "sha": "3b579425dbed666953cfe8ec6cfa9e1cc0dac03a"
+    },
+    {
+      "branch": "chatgpt-cycle104-fetch-city-tomb",
+      "sha": "0fb461ec83b9b08783c642d7b54dd627135edebe"
+    },
+    {
+      "branch": "chatgpt-cycle105-abaddon-decision-gates",
+      "sha": "62f3dad7591c15672008b2ee4f412cde0c907083"
+    },
+    {
+      "branch": "chatgpt-cycle106-abaddon-physical-opportunities",
+      "sha": "651ee36ad55dad909aab991ed28d2b6c503564df"
+    },
+    {
+      "branch": "chatgpt-cycle107-blast-balanced-target",
+      "sha": "e6ef3a2e7c8207d4ebb5d36f56c1753c3dff79e5"
+    },
+    {
+      "branch": "chatgpt-cycle108-cascade-value-audit",
+      "sha": "1ef8944555e1609fac3967a57b73e4fdaa1b5186"
+    },
+    {
+      "branch": "chatgpt-cycle109-oracle-cascade-replay",
+      "sha": "6be8a158efabcf622638b6a89e73ccc015def92b"
+    },
+    {
+      "branch": "chatgpt-cycle110-abaddon-common-board",
+      "sha": "69b49c23761e85b5226d90f99fe0466b8d9e1b3f"
+    },
+    {
+      "branch": "chatgpt-cycle111-62-refinement-triage",
+      "sha": "85fef11e9d5faf0ee2049d1bfe882c7eb140db5e"
+    },
+    {
+      "branch": "chatgpt-cycle112-three-commander-judgments",
+      "sha": "848578710df6963265258f484500dfd98093df36"
+    },
+    {
+      "branch": "chatgpt-cycle113-commander-batch-and-critique",
+      "sha": "fb96d816ea2c15fa2365bff8b7dd10c74947808b"
+    },
+    {
+      "branch": "chatgpt-cycle114-inalla-rani-bolas-review",
+      "sha": "2222319c7d6ece94780cd95a0cbc776ce995dbe6"
+    },
+    {
+      "branch": "chatgpt-cycle115-three-commander-identity",
+      "sha": "c8ddf29e1eae2269469dce56f1f02190006f1ea5"
+    },
+    {
+      "branch": "chatgpt-cycle116-three-commander-audit",
+      "sha": "d25ef8a7b42d89ffebd8cf95518058366c532432"
+    },
+    {
+      "branch": "chatgpt-cycle117-independent-review-gates",
+      "sha": "877cdf68b475a9d04b9cef1b78ec4e46531f9d7b"
+    },
+    {
+      "branch": "chatgpt-cycle118-supported-paired-evidence",
+      "sha": "fb33a4919d08bef51ae4d79c2d90b7a084e38ddc"
+    },
+    {
+      "branch": "chatgpt-cycle119-bounded-effect-kernel",
+      "sha": "f3372662a05efeded3269481c491605ae0489903"
+    },
+    {
+      "branch": "chatgpt-cycle120-physical-source-access",
+      "sha": "45ef95ff8c3b404c901d4c2e2ac0f006aea65daf"
+    },
+    {
+      "branch": "chatgpt-cycle121-physical-basic-casts",
+      "sha": "f847cf5e38e8e00adbd4f6d7b116c88550f77c3d"
+    },
+    {
+      "branch": "chatgpt-cycle122-nonbasic-source-casts",
+      "sha": "6c8d73133e298674020d7aec1e5b9785a1999b32"
+    },
+    {
+      "branch": "chatgpt-cycle123-conditional-offer-stack",
+      "sha": "54ba20da2fd4d43ebbb5d80bfa4be25970790788"
+    },
+    {
+      "branch": "chatgpt-cycle123-progress-receipt",
+      "sha": "f6dd3a57534cdae533c6772fb07b8d5f0da813b2"
+    },
+    {
+      "branch": "chatgpt-cycle124-independent-critic-packets",
+      "sha": "78d002d12f5f18f5777a34eed5f15118bbb4ea6a"
+    },
+    {
+      "branch": "chatgpt-cycle124-progress-receipt",
+      "sha": "7cf551bd65abf9fcc407dd0e09a8b0702549f36a"
+    },
+    {
+      "branch": "chatgpt-cycle125-grok-passc-intake-rings-erratum",
+      "sha": "f2fa9cf42434ba2bf1e5b4c97a2b9f15b69057f9"
+    },
+    {
+      "branch": "chatgpt-cycle125-review-progress-receipt",
+      "sha": "e95a83f3d584ddc93d37e4b08d4548fae82ecb08"
+    },
+    {
+      "branch": "chatgpt-cycle126-bolas-source-mana-loyalty-pressure",
+      "sha": "17d7243929f37d625fd3ba85fd561657892c19f8"
+    },
+    {
+      "branch": "chatgpt-cycle126-m6-m7-progress-receipt",
+      "sha": "f1d0c9169c33969f45e5cc33ff567afd172e090c"
+    },
+    {
+      "branch": "chatgpt-cycle127-m6-batch-review-workflow",
+      "sha": "94f564a7b9a1113087016b82f70fecee98ba908b"
+    },
+    {
+      "branch": "chatgpt-cycle128-progress-receipt",
+      "sha": "048e7428bda033f1cc0e89d1ff6c6411e734c6d7"
+    },
+    {
+      "branch": "chatgpt-cycle128-six-source-judgments",
+      "sha": "863be124c859b74d9c34d844bc5af1a9c5ccfe1e"
+    },
+    {
+      "branch": "chatgpt-cycle129-progress-receipt",
+      "sha": "3b5bc8ec651fce554c9acf8056a2bb1fb3e732f3"
+    },
+    {
+      "branch": "chatgpt-cycle129-six-commander-reviews",
+      "sha": "b76c197af904858425a931e037cb4f260a448218"
+    },
+    {
+      "branch": "chatgpt-cycle130-progress-receipt",
+      "sha": "560f1fbc7a61c0cc03905fe9e1260d74602ea35c"
+    },
+    {
+      "branch": "chatgpt-cycle130-six-commander-reviews",
+      "sha": "b67373b0f18a36dc8c96f54ed1761390c98a8fc3"
+    },
+    {
+      "branch": "chatgpt-cycle131-authored-complete-tracker",
+      "sha": "7533b0ec7c2abc28d86322325bb28e5d14116a64"
+    },
+    {
+      "branch": "chatgpt-cycle131-complete-authored-62",
+      "sha": "50d10350f2aa45774d119416d74648cca281052c"
+    },
+    {
+      "branch": "chatgpt-cycle66-10-stax",
+      "sha": "32a4987d33f462e3d11141e26eab2e3233830a57"
+    },
+    {
+      "branch": "chatgpt-cycle66-11-breach",
+      "sha": "2f49533dff138e47a33506f0c34873ddb2f9a5f6"
+    },
+    {
+      "branch": "chatgpt-cycle66-12-pressure",
+      "sha": "f59cf2cc2eaf37a79f32484ee9c40c57e6bf1613"
+    },
+    {
+      "branch": "chatgpt-cycle66-13-step-e-closure",
+      "sha": "ef3fdeb696e7154b0789759ea5f91a6859c9397a"
+    },
+    {
+      "branch": "chatgpt-cycle66-5a-attack-semantics",
+      "sha": "12f688e50f90dc6d8aa8c9529974a5e4e08b836d"
+    },
+    {
+      "branch": "chatgpt-cycle66-5b-recursion-semantics",
+      "sha": "49504a2c3c45af6970df61ea8f82124f82758068"
+    },
+    {
+      "branch": "chatgpt-cycle66-6-stack",
+      "sha": "a6b1ecca3c0320e54ff9a6b5cb60528a2d85a2c9"
+    },
+    {
+      "branch": "chatgpt-cycle66-7-costs",
+      "sha": "cdca35941ea42b807455041139f72af794638457"
+    },
+    {
+      "branch": "chatgpt-cycle66-8-tutors",
+      "sha": "9af7fbe91ad3e48ef21841a15f22f65a474c1656"
+    },
+    {
+      "branch": "chatgpt-cycle66-9-opponent-draw",
+      "sha": "5dc0a6d8e79d3ec2efb1d2acf03afccef0f8d9c3"
+    },
+    {
+      "branch": "chatgpt-cycle67-1-combo-quality",
+      "sha": "552ff6f5da17286aa9e04e5465fd88133c831c15"
+    },
+    {
+      "branch": "chatgpt-cycle67-2-power-core",
+      "sha": "02bc981641615f16500f5ad763e1b01f3b112f86"
+    },
+    {
+      "branch": "chatgpt-cycle67-3-combo-steps",
+      "sha": "205fe0092b381a985eb9a9cb86e5db59b588ac75"
+    },
+    {
+      "branch": "chatgpt-cycle67-4-combo-families",
+      "sha": "07471ccb02b1b3d513a3086f30c3d5260ca347af"
+    },
+    {
+      "branch": "chatgpt-cycle67-4-step-b-closure",
+      "sha": "13e3bc41419d9826723c519eae2a903dc48d3f4c"
+    },
+    {
+      "branch": "chatgpt-cycle67-5-step-b-closure",
+      "sha": "c80af61d22df98cc707874b3d1fc4c143c7a0bfa"
+    },
+    {
+      "branch": "chatgpt-cycle68-1-mana-baseline",
+      "sha": "b44f69edc183b92e07d135c76bb792d7d84fba06"
+    },
+    {
+      "branch": "chatgpt-cycle68-2-mana-timing",
+      "sha": "03e7021861b03dc06d78e04045e6f5837b0a134c"
+    },
+    {
+      "branch": "chatgpt-cycle68-3-commander-mana",
+      "sha": "9a614b27796ac14fc6397b92917a66c7d3c4b793"
+    },
+    {
+      "branch": "chatgpt-cycle68-4-mana-opportunity",
+      "sha": "0ec366fe825258b1c9b1b3c5806dbfa086ed7868"
+    },
+    {
+      "branch": "chatgpt-cycle68-5-mana-resilience",
+      "sha": "fabc6dcb1a2c9df8150d41c116070b61a87a767c"
+    },
+    {
+      "branch": "chatgpt-cycle68-6-mana-integration",
+      "sha": "8482ad0ada1cba31c24bdfd4216f9eb14c7c6d05"
+    },
+    {
+      "branch": "chatgpt-cycle69-1-commander-structure",
+      "sha": "53f5ca48df30923d4e3c765f152a22572045bcee"
+    },
+    {
+      "branch": "chatgpt-cycle69-2-commander-counterfactual",
+      "sha": "1c5beb563d76fd481a6e09f0b1afd174f96b49a9"
+    },
+    {
+      "branch": "chatgpt-cycle69-3-commander-integration",
+      "sha": "4f7b4028ed8173b48eebb6e28ad7288bf96d8469"
+    },
+    {
+      "branch": "chatgpt-cycle70-1-bracket-stress-prereg",
+      "sha": "e0105c3e0df9548ae2a6f392a0ccd1ed17cd174f"
+    },
+    {
+      "branch": "chatgpt-cycle70-2-bracket-runner",
+      "sha": "deec5070220d2f7bec99454c366dba815f0a09a4"
+    },
+    {
+      "branch": "chatgpt-cycle70-3-red-team-packets",
+      "sha": "5475d5cf771cc2e79ca1572039d0941d7926aca6"
+    },
+    {
+      "branch": "chatgpt-cycle70-4-bracket-integration",
+      "sha": "17d9c2f40801cf4a8d1c04db71278a0d893e94e1"
+    },
+    {
+      "branch": "chatgpt-cycle71-1-human-sampling-policy",
+      "sha": "e437a3c64ee21470154c61928123071c387e3833"
+    },
+    {
+      "branch": "chatgpt-cycle71-2-human-sampler",
+      "sha": "222e85d6da109f78c028a3ed3f4ca2d71982e437"
+    },
+    {
+      "branch": "chatgpt-cycle71-3-human-sampling-integration",
+      "sha": "f1cf38efb1724eeed7960167df55c25d74990175"
+    },
+    {
+      "branch": "chatgpt-cycle72-2-frozen-cache-gates",
+      "sha": "fe9265ce8612b5350940a26bf4a2c799f9ce602d"
+    },
+    {
+      "branch": "chatgpt-cycle73-m5-rebuild",
+      "sha": "68fab6944d15994cb9736884f71051511dacdcdc"
+    },
+    {
+      "branch": "chatgpt-cycle74-birthday-authority",
+      "sha": "bf3ed22d879aca76d10191a775c70001b76fb41d"
+    },
+    {
+      "branch": "chatgpt-cycle74b-lift-correction",
+      "sha": "fcd28daff7d3f7b091de04299699645ba7e47aa2"
+    },
+    {
+      "branch": "chatgpt-cycle75-m5-acceptance",
+      "sha": "d8884a3e87cd669f47dec4b620ac1cd597bc81c9"
+    },
+    {
+      "branch": "chatgpt-cycle76-m6-refinement",
+      "sha": "778a9101d0b831d3b7692d6eb50dd43876e48a68"
+    },
+    {
+      "branch": "chatgpt-cycle77-ij-sealing",
+      "sha": "a576b600fa1848ef680511050b39a8078b28c4df"
+    },
+    {
+      "branch": "chatgpt-cycle78-m5-replay-forwardport",
+      "sha": "e32c101ad6cc81a1b4b3542dee2a6787e9a93c71"
+    },
+    {
+      "branch": "chatgpt-cycle79-m6-evidence-gates",
+      "sha": "64b2f29e052cc23e9ec5695474d54f50c561a4a5"
+    },
+    {
+      "branch": "chatgpt-cycle80-m6-separate-runners",
+      "sha": "65c02b1d7830e7a2ed9fa4acf99a6f35e4a68724"
+    },
+    {
+      "branch": "chatgpt-cycle81-abaddon-critic",
+      "sha": "486077a7217a727760d78f1e63ffae478035a244"
+    },
+    {
+      "branch": "chatgpt-cycle82-abaddon-phaseb-plan",
+      "sha": "11831dba55d1c246ea42dbccc819e774c0a3c390"
+    },
+    {
+      "branch": "chatgpt-cycle83-abaddon-tests",
+      "sha": "49fbe12eb44a9d27be47aa3731640a10f1c1269b"
+    },
+    {
+      "branch": "chatgpt-cycle84-abaddon-mana-pair",
+      "sha": "84757161ee4fd2373b77014dea47383bbc41dea4"
+    },
+    {
+      "branch": "chatgpt-cycle85-conditional-mox-audit",
+      "sha": "a4a9dac66079a88f3d7f80f35db7956987b7ac2e"
+    },
+    {
+      "branch": "chatgpt-cycle86-abaddon-mana-delta",
+      "sha": "6e4b06dc3985c075b63fe1e117434e9b1e2efcdb"
+    },
+    {
+      "branch": "chatgpt-cycle87-station-breach-trace",
+      "sha": "0a6c976dd5a52d26468a41e2fad918e5cd2671ba"
+    },
+    {
+      "branch": "chatgpt-cycle88-mox-static-25",
+      "sha": "a46c152914b1e7515e9baf352a810b5148e6aef5"
+    },
+    {
+      "branch": "chatgpt-cycle89-mox-nofast-25",
+      "sha": "95cfbbcd9f4f749473476af87e8666a3f072a64e"
+    },
+    {
+      "branch": "chatgpt-cycle90-mox-downstream-proofs",
+      "sha": "29c83b32eae191e01b289c85a2bdd6472f64218c"
+    },
+    {
+      "branch": "chatgpt-cycle91-mox-aggregate-overlay",
+      "sha": "fc75bde11551beaa77e7226fa492a64cf5db67e0"
+    },
+    {
+      "branch": "chatgpt-cycle92-abaddon-threshold-roles",
+      "sha": "cffec1c7fd1e4bea772bb69eff5b59755043fed8"
+    },
+    {
+      "branch": "chatgpt-cycle93-abaddon-interaction-grid",
+      "sha": "6b418a0b19d230ae9c8e8de60916cc58fec3449c"
+    },
+    {
+      "branch": "chatgpt-cycle94-abaddon-followthrough",
+      "sha": "e0e814cfad2b735b7711b1593fdb1a3207f26799"
+    },
+    {
+      "branch": "chatgpt-cycle95-abaddon-deckwide-access",
+      "sha": "3b4ed9864dbfdde76bd98e970eb8b2907d53dccb"
+    },
+    {
+      "branch": "chatgpt-cycle96-abaddon-turn-state",
+      "sha": "16057625fc885d2e54d02c7688645267e58d4b51"
+    },
+    {
+      "branch": "chatgpt-cycle97-abaddon-real-library-replay",
+      "sha": "dfc0301fda4adc84367388f2c11e2f9cc3be080a"
+    },
+    {
+      "branch": "chatgpt-cycle98-abaddon-effect-coverage",
+      "sha": "ddbceb473d0b0ceeb79fb4e0542e8a35613a94ab"
+    },
+    {
+      "branch": "chatgpt-cycle99-abaddon-oracle-tutors",
+      "sha": "5a8aaaaf64b55fed2e087d8e1571a6e51dc317b2"
+    },
+    {
+      "branch": "chatgpt-davros-m7-independent-rev2-20261023",
+      "sha": "f9608321853a1a90cd0f4882d1227a255301355a"
+    },
+    {
+      "branch": "chatgpt-deck06-ashnod-m7-rev2-independent-20261023",
+      "sha": "c7b907d4aecc97513a6ce3c28ed107aecd5a3be9"
+    },
+    {
+      "branch": "chatgpt-deck07-belakor-m7-rev2-eight-20261023",
+      "sha": "bcf3e8fc40f1084c0a612c368b1ecba5899be884"
+    },
+    {
+      "branch": "chatgpt-deck08-cecily-bjorna-lutri-m7-rev2-ten-20261023",
+      "sha": "1dc33504fc6c5d3c91b99c457d3a99ac0b9ddb96"
+    },
+    {
+      "branch": "chatgpt-deck09-cormela-m7-rev2-six-20261023",
+      "sha": "6a267c9f38f8e8d610e1ac8f2f7bc69dbe0bb56b"
+    },
+    {
+      "branch": "chatgpt-deck10-crosis-m7-rev2-20261023",
+      "sha": "6bc6ff135e90db1237c0dd9881017aaf36e249fe"
+    },
+    {
+      "branch": "chatgpt-deck11-cult-of-skaro-m7-rev2-20261023",
+      "sha": "426d8afcd76924ee1c036d91a91dc33abd1d79f7"
+    },
+    {
+      "branch": "chatgpt-deck15-eggman-m7-rev2-independent-audit-20261023",
+      "sha": "b48cf6302e5a6bc9bc6f8823b6c4202cd88d5494"
+    },
+    {
+      "branch": "chatgpt-deck16-edea-m7-rev2-independent-audit-20261023",
+      "sha": "734f2c2b18697e3b420697ac8c3a9bc134b183f1"
+    },
+    {
+      "branch": "chatgpt-deck17-edward-m7-rev2-independent-audit-20261023",
+      "sha": "fb13316667f4f8ccf48407a273a7be7bd0bdda87"
+    },
+    {
+      "branch": "chatgpt-deck18-evelyn-m7-rev2-independent-audit-20261023",
+      "sha": "8d307f9ffc84f76ed64e8199d5476d71dbb04620"
+    },
+    {
+      "branch": "chatgpt-deck19-azula-independent-audit-20261024",
+      "sha": "f795c9f932346152b4a7f79c5839d45203a17786"
+    },
+    {
+      "branch": "chatgpt-deck20-garza-independent-m7-rev2-20261024",
+      "sha": "d816097a24a4d302f50222457e6c0b21f79579e5"
+    },
+    {
+      "branch": "chatgpt-deck26-kess-m7-rev1-20261024",
+      "sha": "cd52815e58b540b400b25fdf6de2b3d5b291583d"
+    },
+    {
+      "branch": "chatgpt-deck27-grixistax-m7-rev1-20261025",
+      "sha": "dca07c0f58e751398ecc2d29753da4a65542bb14"
+    },
+    {
+      "branch": "chatgpt-deck31-lynde-m7-rev1-precert-20261025",
+      "sha": "5afa197e915137837e54e828e62d4e6950980a67"
+    },
+    {
+      "branch": "chatgpt-deck31-lynde-stagea-provenance-v2-20261025",
+      "sha": "071e091ec95f1978b5662838836d6853400b2825"
+    },
+    {
+      "branch": "chatgpt-deck32-mai-zuko-m7-rev1-20261025",
+      "sha": "d0fd3fb9d88daeb3e98416ed73fcea1406032786"
+    },
+    {
+      "branch": "chatgpt-deck34-marchesa-dealer-m7-rev1-research-20261025",
+      "sha": "1b66b2dfb0bec32a2ec78d029c5cad0450f9372f"
+    },
+    {
+      "branch": "chatgpt-deck36-mishra-artificer-m7-rev1-20261026",
+      "sha": "cc12a8179ba560a4f2409c22790b648ad45f9f57"
+    },
+    {
+      "branch": "chatgpt-deck47-rogsi-m7-rev1-20261027",
+      "sha": "bade585753d9512e75239418ca1ff254240418f5"
+    },
+    {
+      "branch": "chatgpt-deck48-saruman-m7-rev1-20261027",
+      "sha": "ef3bcd2d41e7212a8fd86c7c34b9745a69deefe2"
+    },
+    {
+      "branch": "chatgpt-deck49-sauron-lotr-m7-rev1-20261027",
+      "sha": "a159c542199a4e750eb48fe8ca615b786907647a"
+    },
+    {
+      "branch": "chatgpt-deck50-sauron-dark-lord-m7-rev1-20261027",
+      "sha": "beb3487d95b7e32c0b5f2279520f1686e229a97b"
+    },
+    {
+      "branch": "chatgpt-deck51-sedris-m7-rev1",
+      "sha": "d11d02d36cc6c5cadba6e96101d4693e9dda1693"
+    },
+    {
+      "branch": "chatgpt-deck52-solkanar-m7-rev1",
+      "sha": "4e4b6c7ebbdc70b96c218d88d9fd67ec1c6e327b"
+    },
+    {
+      "branch": "chatgpt-deck53-solkanar-tainted-m7-rev1",
+      "sha": "a0ad5e80a8e8f11ac7418d5a4d306d7a661ec1f9"
+    },
+    {
+      "branch": "chatgpt-deck54-tetsuo-m7-rev1",
+      "sha": "bd3c95fef93197e6503990a35778f7a06298ce87"
+    },
+    {
+      "branch": "chatgpt-deck55-tetsuo-imperial-m7-rev1",
+      "sha": "885bf09d513b74a1642ff0edf73212fe744e8d1a"
+    },
+    {
+      "branch": "chatgpt-deck56-m6-p0-transfer-followup-20261027",
+      "sha": "df803bccfda2d2cffb88161b3a991b64b97d1be5"
+    },
+    {
+      "branch": "chatgpt-deck56-madcap-jester-m7-rev1",
+      "sha": "efe4a4ec7cc611815789f64318c5782acb43538f"
+    },
+    {
+      "branch": "chatgpt-deck57-rani-m6-p0-certification",
+      "sha": "a84f8e93737ebc06ce08c775d30c1cb601e4ae73"
+    },
+    {
+      "branch": "chatgpt-deck57-the-rani-m7-rev1",
+      "sha": "e4e18415dde7eae5fc06b0ef257a167cfa0bcb98"
+    },
+    {
+      "branch": "chatgpt-deck58-the-valeyard-m7-rev1",
+      "sha": "f2f0c9673dcf8ebccac59604dae7fcf79edba555"
+    },
+    {
+      "branch": "chatgpt-deck60-tresserhorn-m7-rev1-research-20261027",
+      "sha": "2e423a4cca7b630b526a2b4152f3569a2cb235e4"
+    },
+    {
+      "branch": "chatgpt-doctor-doom-m7-independent-rev2-20261023",
+      "sha": "0a20ca02ecb680f9230fc5fcae7eda1f8ae5195d"
+    },
+    {
+      "branch": "chatgpt-don-andres-m7-independent-rev2-20261023",
+      "sha": "3fc6011ec261e6ecc4f9365b503633b7559a7ab1"
+    },
+    {
+      "branch": "chatgpt-dual-timeline-v291-20261101",
+      "sha": "32be90a3b49a981b344cb1a3f2fa47ce9647f6a7"
+    },
+    {
+      "branch": "chatgpt-entity-coverage-audit-v292-20261101",
+      "sha": "327b589ac2475bd5f586cee97f32b24b05017f27"
+    },
+    {
+      "branch": "chatgpt-firstparty-set-context-v307",
+      "sha": "c12788d2084a691162d8d6582da03f4ec4120230"
+    },
+    {
+      "branch": "chatgpt-foundation-acceptance-v260",
+      "sha": "076fc8e526fb4d4de9871ab5ce7d374f43339557"
+    },
+    {
+      "branch": "chatgpt-foundation-bablovia-continuity-v276-20261031",
+      "sha": "ae2bcbfcb0a26ed02f0e04c0d07549f126fbcc2b"
+    },
+    {
+      "branch": "chatgpt-foundation-certificate-v300",
+      "sha": "e3c338c0d4d6d54ab87a20b246b6eda98cb461b8"
+    },
+    {
+      "branch": "chatgpt-foundation-certification-sprint-v298",
+      "sha": "8aea1ce41382fe6b319ab043081f5d86a74c935c"
+    },
+    {
+      "branch": "chatgpt-foundation-certification-v299",
+      "sha": "6911010326cd5707fcd5c7a68076743907624ed9"
+    },
+    {
+      "branch": "chatgpt-foundation-checklist-closure-v290-20261101",
+      "sha": "d7438b1cdf9ffb847f998c69f7447c3219d976ed"
+    },
+    {
+      "branch": "chatgpt-foundation-first-v253-20261030",
+      "sha": "aa204faae5c60a571c40fe8c404a08455f9dc08a"
+    },
+    {
+      "branch": "chatgpt-foundation-four-more-planes-v267",
+      "sha": "d93f94ad79e50234c5b3c1152b0da40e60349316"
+    },
+    {
+      "branch": "chatgpt-foundation-four-plane-histories-v266",
+      "sha": "94687bd81feda8587707c9b5b6d5657e71715416"
+    },
+    {
+      "branch": "chatgpt-foundation-graph-qa-20261031",
+      "sha": "91d2f8a65964510552ce8d2dd9ed8e71df5b21a2"
+    },
+    {
+      "branch": "chatgpt-foundation-integrity-20261031",
+      "sha": "bb3aa5f2a857bba800a14a622076e9ebf0ec1e1a"
+    },
+    {
+      "branch": "chatgpt-foundation-release-sprint-v295-20261101",
+      "sha": "7ee6ab9560044914c76190f92a1a15b07f8e4be3"
+    },
+    {
+      "branch": "chatgpt-foundation-source-gaps-v294-20261101",
+      "sha": "858a3eaf3805075e950d4389dac2b869d2a36ad4"
+    },
+    {
+      "branch": "chatgpt-foundation-source-recovery-v296-20261101",
+      "sha": "cf2f7ec7268797e70788279b760ae41f8a7067b1"
+    },
+    {
+      "branch": "chatgpt-foundation-story-recovery-v273-20261031",
+      "sha": "a638fd5cfb89c903205038eea2f29ac8d0ead888"
+    },
+    {
+      "branch": "chatgpt-foundation-unresolved-links-v275-20261031",
+      "sha": "2644c1655988404ea33aaaebcd109bb0aa63a3d2"
+    },
+    {
+      "branch": "chatgpt-foundation-war-operations-v297-20261101",
+      "sha": "229a872bc3cc7b4117a53d48d3a8fc1459794d3b"
+    },
+    {
+      "branch": "chatgpt-foundation-war-qa-v293-20261101",
+      "sha": "5c3c0e974bfd84795bda405bc644d0fb10a4ef72"
+    },
+    {
+      "branch": "chatgpt-goben-norman-name-equivalence",
+      "sha": "7dea4f0efc7a1b4b6c6cf34bf3af001c856cf719"
+    },
+    {
+      "branch": "chatgpt-graph-variant-lookup-20261030",
+      "sha": "1d2dfe7a1aa5da7b412908ddf7a8d32343be26ed"
+    },
+    {
+      "branch": "chatgpt-jlk-pass-c-abaddon-20261021",
+      "sha": "e8ec2c9bfd9df4c470aebedf929a0c307e33c7ac"
+    },
+    {
+      "branch": "chatgpt-jlk-pass-c-beckett-20261021",
+      "sha": "adce5b116066993013ac16c5e5d9d299230b5bf5"
+    },
+    {
+      "branch": "chatgpt-jlk-pass-c-ledger-01-20261021",
+      "sha": "7a74d1f644eadc82faf1eb12c6bcae05b0221968"
+    },
+    {
+      "branch": "chatgpt-jlk-pass-c-ledger-02-20261021",
+      "sha": "3fcbea741bcb4dacc0000241dd3fa1523f6cac5a"
+    },
+    {
+      "branch": "chatgpt-karn-lore-100card-example-20261028",
+      "sha": "55e14510e8d84f1500438060b8237c14d08c6156"
+    },
+    {
+      "branch": "chatgpt-legacy-yawgmoth-story-draft-20261028",
+      "sha": "5ab2edb0a2ee03fddf2a7bb6b53ec3b64bf1f770"
+    },
+    {
+      "branch": "chatgpt-loki-m7-rev1-independent-20261025",
+      "sha": "b316ce65c6355523c32169454ed51d4211d07ea0"
+    },
+    {
+      "branch": "chatgpt-lord-xander-m7-rev1-20261025",
+      "sha": "fcff8a8a4aa184c144daaaab4f12974d7ed486d4"
+    },
+    {
+      "branch": "chatgpt-lore-brothers-war-deck4-20261028",
+      "sha": "2fd136efdf51462e4fc0ab7fd361b0f851aeb2e9"
+    },
+    {
+      "branch": "chatgpt-lore-deep-research-gate-20261029",
+      "sha": "88005d1b368782563a09a09e35fa3f642d487cc9"
+    },
+    {
+      "branch": "chatgpt-lore-evidence-graph-20261028",
+      "sha": "4de57da8a3711eb22272763c424c564736e3787d"
+    },
+    {
+      "branch": "chatgpt-lore-github-shards-20261028",
+      "sha": "ac0c21ee92865878f6d8602e8b4557051c48e14d"
+    },
+    {
+      "branch": "chatgpt-lore-kami-war-deck5-20261028",
+      "sha": "9bbc597ce54a008ed51119eeda4595ea44afcef3"
+    },
+    {
+      "branch": "chatgpt-lore-karn-life-deck8-20261028",
+      "sha": "f432df8c13a5c5b207c2dac36132babdf78cf61e"
+    },
+    {
+      "branch": "chatgpt-lore-mending-deck2-20261028",
+      "sha": "2581fc86c37ce15c811a5cfd982d18d5649a9b7c"
+    },
+    {
+      "branch": "chatgpt-lore-printing-evidence-20261028",
+      "sha": "1c3462f606931fb71f3e247b5c394d5c68bd6dc8"
+    },
+    {
+      "branch": "chatgpt-lore-printing-index-20261028",
+      "sha": "7e2a995616f493a302b8e9ec39371c1b2b4cec66"
+    },
+    {
+      "branch": "chatgpt-lore-printing-validation-20261028",
+      "sha": "156945d6c2da7de6fde04a519705fdd27b15ded2"
+    },
+    {
+      "branch": "chatgpt-lore-ravnica-guildpact-deck7-20261028",
+      "sha": "8fb8419884a19a1ad48789e75ad9c32915b03ba6"
+    },
+    {
+      "branch": "chatgpt-lore-ready-final-20261028",
+      "sha": "ff6630962bf497fbb0f0c586ebcb44fe64418aa2"
+    },
+    {
+      "branch": "chatgpt-lore-ugin-life-deck9-20261028",
+      "sha": "2103014aca9161fcb2fdd07544bd6483ace3c231"
+    },
+    {
+      "branch": "chatgpt-lore-unified-query-20261028",
+      "sha": "77f8080ccce53c59d9e1edfd61edf82bc5995b38"
+    },
+    {
+      "branch": "chatgpt-lore-war-of-spark-deck3-20261028",
+      "sha": "81b6d9ed2c6b908f8af98162ba1d8f4c7b80f6a0"
+    },
+    {
+      "branch": "chatgpt-lore-yawgmoth-biography-deck10-20261028",
+      "sha": "a27cd17b1a42d01f852c81e08ad71f032efea150"
+    },
+    {
+      "branch": "chatgpt-lore-zendikar-gatewatch-deck6-20261028",
+      "sha": "7004586962ba9718e39709ef737b9a873c9f4a95"
+    },
+    {
+      "branch": "chatgpt-m6-abaddon-cascade-evidence-ledger-20261021",
+      "sha": "52f8d51a840754be2900bfda9c12fc0d2e6b168d"
+    },
+    {
+      "branch": "chatgpt-m6-abaddon-cascade-hit-20261021",
+      "sha": "e326ea9135dc707851cf48acabe2280be2561244"
+    },
+    {
+      "branch": "chatgpt-m6-abaddon-chaos-warp-stax-20261021",
+      "sha": "876ddc549a4ffa60eaed873125118e124a1b1dd9"
+    },
+    {
+      "branch": "chatgpt-m6-abaddon-chronological-casting-20261021",
+      "sha": "cf510fd1d82b8ead9ce0e2b83f0be6f291df8ac4"
+    },
+    {
+      "branch": "chatgpt-m6-abaddon-chronological-ledger-20261021",
+      "sha": "1824645e2400be516edf1dff867af61cd18e00c6"
+    },
+    {
+      "branch": "chatgpt-m6-abaddon-decision-grade-20261021",
+      "sha": "bf89b477a3891fd0e97a8c2536d187715dcd2e6c"
+    },
+    {
+      "branch": "chatgpt-m6-abaddon-evidence-closure-20261021",
+      "sha": "895b8abe29ff8b12866d304c2b50e6526a0eacc8"
+    },
+    {
+      "branch": "chatgpt-m6-abaddon-factorial-ledger-20261022",
+      "sha": "4e9890a22a842b3b09509d6769fc3784cd7d0dc7"
+    },
+    {
+      "branch": "chatgpt-m6-abaddon-factorial-ramp-cascade-20261022",
+      "sha": "1f5c316c83689c004bd2fe71ba89ea851e7d535e"
+    },
+    {
+      "branch": "chatgpt-m6-abaddon-hand-ramp-20261022",
+      "sha": "325d1445682d414359411790cde66f6802946d36"
+    },
+    {
+      "branch": "chatgpt-m6-abaddon-hand-ramp-ledger-20261022",
+      "sha": "c08283d02c2d9f50753176eddd7f6344f55fe4f2"
+    },
+    {
+      "branch": "chatgpt-m6-abaddon-ignus-ledger-20261021",
+      "sha": "7c4c8038984c69d1519f916b1b0bece93507d7fc"
+    },
+    {
+      "branch": "chatgpt-m6-abaddon-ignus-paid-access-20261021",
+      "sha": "a8ca1a80b278d0dcf0784443ab4ef1e9047d47cd"
+    },
+    {
+      "branch": "chatgpt-m6-abaddon-ignus-paid-evidence-ledger-20261021",
+      "sha": "a1a2e759f5eddce0b892256d6f16d446c40cf742"
+    },
+    {
+      "branch": "chatgpt-m6-abaddon-ignus-priority-20261021",
+      "sha": "f4fcefbb914a4e5d61a33db9c9b8bf04e8bf095f"
+    },
+    {
+      "branch": "chatgpt-m6-abaddon-ignus-shared-effects-20261022",
+      "sha": "fae04f55c8d6a5a4cdac90d5db02b4677fb78b35"
+    },
+    {
+      "branch": "chatgpt-m6-abaddon-ignus-stack-windows-20261022",
+      "sha": "321cdddb9947ac26ab81c7eeb62a4566e0cc4815"
+    },
+    {
+      "branch": "chatgpt-m6-abaddon-judgment-ledger-20261021",
+      "sha": "73cc068f5a9820d796f7588a8e86ba4baac14098"
+    },
+    {
+      "branch": "chatgpt-m6-abaddon-matched-access-20261021",
+      "sha": "0dc7352411084b9a9d66a359064d74ce69465a34"
+    },
+    {
+      "branch": "chatgpt-m6-abaddon-neheb-assault-phaseb-20261021",
+      "sha": "af38c8f37389be79e4ac42700ec2e1250fd28dab"
+    },
+    {
+      "branch": "chatgpt-m6-abaddon-other-hand-cascade-20261022",
+      "sha": "e577b759aa386dc831fe0a7ce09a2cc1ad9da9fd"
+    },
+    {
+      "branch": "chatgpt-m6-abaddon-other-hand-cascade-ledger-20261022",
+      "sha": "d14d3fe5b08642735f54db9cc491df74cfd6cac2"
+    },
+    {
+      "branch": "chatgpt-m6-abaddon-rakdos-ledger-20261021",
+      "sha": "1fa8b4097b96433493b7a6f90302e2d342972e9b"
+    },
+    {
+      "branch": "chatgpt-m6-abaddon-rakdos-role-20261021",
+      "sha": "e88fdf3fca802c5cf379c06b3f97eb5226d87d89"
+    },
+    {
+      "branch": "chatgpt-m6-abaddon-ruinous-cascade-20261021",
+      "sha": "a2082e1f10800afc264febc4935254d89ba3b5b1"
+    },
+    {
+      "branch": "chatgpt-m6-abaddon-shared-effects-ledger-20261022",
+      "sha": "746e028c70794a4a9cfc5e542d9dcb8c1010f3d2"
+    },
+    {
+      "branch": "chatgpt-m6-abaddon-stack-windows-ledger-20261022",
+      "sha": "ccac4a722d60c5a9265d9b7093daf7cecabadff9"
+    },
+    {
+      "branch": "chatgpt-m6-abaddon-warp-evidence-ledger-20261021",
+      "sha": "98a61340c6f19934470dd1fc6b317f1c2b375bfe"
+    },
+    {
+      "branch": "chatgpt-m6-admiral-beckett-full-blueprint-ci-receipt-20261022",
+      "sha": "8549c9f1bba542511a10b52685d8eb4e13db44fd"
+    },
+    {
+      "branch": "chatgpt-m6-admiral-beckett-p0-ci-receipt-20261022",
+      "sha": "da0180aa1eab7c2dc74237d5783c2105767b5f3a"
+    },
+    {
+      "branch": "chatgpt-m6-admiral-beckett-p0-mechanics-20261022",
+      "sha": "03b0c7ebcaf69b07866078f224a382ddceacdd2d"
+    },
+    {
+      "branch": "chatgpt-m6-admiral-beckett-p1-ci-receipt-20261022",
+      "sha": "f9dc67249d858d6e0b85f3cfc2d26607da50bf40"
+    },
+    {
+      "branch": "chatgpt-m6-admiral-beckett-p1-tranche1-20261022",
+      "sha": "fdc1699183cb98a7d390c8a6c1734660be0238e5"
+    },
+    {
+      "branch": "chatgpt-m6-admiral-beckett-p1-tranche2-20261022",
+      "sha": "8d1a34944e1b3c7a99ae643a8a1a3741c3c4bb38"
+    },
+    {
+      "branch": "chatgpt-m6-be-lakor-review-20261019-v2",
+      "sha": "85a2cd00de72319b16271e374b9290d0e30e51ac"
+    },
+    {
+      "branch": "chatgpt-m6-checkpoint-the-rani-57",
+      "sha": "aeb2035191dbb1ab5950127e4584027f111da1c4"
+    },
+    {
+      "branch": "chatgpt-m6-complete-agreement-register-20261020",
+      "sha": "76f5e4b940e7aa113239c9743d1f2c4a48b09c46"
+    },
+    {
+      "branch": "chatgpt-m6-crossdeck-reuse-runner-20261022",
+      "sha": "448157fbaab8a27bf427e1a3937f177695eb5b08"
+    },
+    {
+      "branch": "chatgpt-m6-cult-of-skaro-depth-20261019",
+      "sha": "f1585a0aeb23d86f510d5a6da13b25df667cb757"
+    },
+    {
+      "branch": "chatgpt-m6-deep-review-abaddon-20261019",
+      "sha": "27323f86f14ccadf9d6f4d540b6f5b7df56f9c2c"
+    },
+    {
+      "branch": "chatgpt-m6-deep-review-anhelo-20261019",
+      "sha": "0c890b55b0f1f9048f7295de16e254db5bc0acb4"
+    },
+    {
+      "branch": "chatgpt-m6-deep-review-ashad-20261019",
+      "sha": "4a707e7dd93b7cff9c49c44483956d928df6d184"
+    },
+    {
+      "branch": "chatgpt-m6-deep-review-ashnod-20261019",
+      "sha": "cb7fbf0cb8fe3da1bb5582ed67bd4f2edb0c1876"
+    },
+    {
+      "branch": "chatgpt-m6-deep-review-azula-20261019",
+      "sha": "a877fbbfee169ba4a179f1621f322735980b9f61"
+    },
+    {
+      "branch": "chatgpt-m6-deep-review-beckett-20261019",
+      "sha": "1fdbdf2cb40db02e226a0ae5edd4f403c5933a5e"
+    },
+    {
+      "branch": "chatgpt-m6-deep-review-belakor-20261019",
+      "sha": "6cc9a6008ab420f734690b4e6f86027b0004614d"
+    },
+    {
+      "branch": "chatgpt-m6-deep-review-belakor-20261019-v3",
+      "sha": "2b5015933857a2112d190c4d6bd00cecad9a867b"
+    },
+    {
+      "branch": "chatgpt-m6-deep-review-cecily-bjorna-lutri-20261019",
+      "sha": "2d4958b75a129e3d25090d3f8c511d81d1366708"
+    },
+    {
+      "branch": "chatgpt-m6-deep-review-cormela-20261019",
+      "sha": "5d918de8d07f465606ae8a439c27b1ac3b0b2f9c"
+    },
+    {
+      "branch": "chatgpt-m6-deep-review-crosis-20261019",
+      "sha": "f200a1cace100b96478a2410be7fda8e5d269d42"
+    },
+    {
+      "branch": "chatgpt-m6-deep-review-cult-of-skaro-20261019",
+      "sha": "93421b5d1febba6627a64049d6ceb9866f403de5"
+    },
+    {
+      "branch": "chatgpt-m6-deep-review-davros-20261019",
+      "sha": "294ea4d7efc2fd282dcb4b4c93f5af5b8ac92ae2"
+    },
+    {
+      "branch": "chatgpt-m6-deep-review-don-andres-20261019",
+      "sha": "b128319003d75d8194a8b8fcdb65985d06bfe56d"
+    },
+    {
+      "branch": "chatgpt-m6-deep-review-doom-20261019",
+      "sha": "28e633457eb7c8157baab472daaf13617b195b5f"
+    },
+    {
+      "branch": "chatgpt-m6-deep-review-edea-20261019",
+      "sha": "3b7508d3bcffbd1b3afab21a82abe40e44f26580"
+    },
+    {
+      "branch": "chatgpt-m6-deep-review-edward-20261019",
+      "sha": "9118a41f2a7c3172dcb231b9b6c3e2f3567b78d2"
+    },
+    {
+      "branch": "chatgpt-m6-deep-review-eggman-20261019",
+      "sha": "3ae321a7b720c435840d5a058bebd7cda6634d61"
+    },
+    {
+      "branch": "chatgpt-m6-deep-review-evelyn-20261019",
+      "sha": "55b10bd088000060d0c3a75fb1172f7d242a2dc4"
+    },
+    {
+      "branch": "chatgpt-m6-deep-review-garza-20261019",
+      "sha": "a2ce52f83767025f2e8cea8050c09e95db7a9b55"
+    },
+    {
+      "branch": "chatgpt-m6-deep-review-goben-norman-43",
+      "sha": "ee4ef54d3f160bde293700716fb1058d38bfd707"
+    },
+    {
+      "branch": "chatgpt-m6-deep-review-goben-norman-43-tracker",
+      "sha": "86df328623b4f47bcffb39eec246d28a6bb56e21"
+    },
+    {
+      "branch": "chatgpt-m6-deep-review-goro-20261019",
+      "sha": "1fa4fadcfc511e8c703efbafbe22249ec9894388"
+    },
+    {
+      "branch": "chatgpt-m6-deep-review-grixistax-20261019",
+      "sha": "8d234f0d398eec5a684d47a762454e687cc47bde"
+    },
+    {
+      "branch": "chatgpt-m6-deep-review-gwendlyn-20261019",
+      "sha": "ad5d25ab4f30628379b648da79acd53a8bb574c5"
+    },
+    {
+      "branch": "chatgpt-m6-deep-review-inalla-20261019",
+      "sha": "177904c9b84ca77a41cbf2d6f8929a81ced5ef38"
+    },
+    {
+      "branch": "chatgpt-m6-deep-review-jeleva-20261019",
+      "sha": "79ac23632839398432e5caaed8feb56a697ca633"
+    },
+    {
+      "branch": "chatgpt-m6-deep-review-kefka-20261019",
+      "sha": "36e39f484889257f017ac0e7fff38a80dec49665"
+    },
+    {
+      "branch": "chatgpt-m6-deep-review-kess-20261019",
+      "sha": "e16fc6b284fe6ee23e433e0e8f972816cb8add5e"
+    },
+    {
+      "branch": "chatgpt-m6-deep-review-loki-20261019",
+      "sha": "c5a96b2175e2bbe6bbff09d211f61452fbda49b3"
+    },
+    {
+      "branch": "chatgpt-m6-deep-review-lord-of-tresserhorn-29",
+      "sha": "fe22c4fb86beb4357ca62f6f7b295bbbaff73e6b"
+    },
+    {
+      "branch": "chatgpt-m6-deep-review-lord-tresserhorn-20261019",
+      "sha": "dbbe82978b88d508d17a61a9a61ca99ef9275f62"
+    },
+    {
+      "branch": "chatgpt-m6-deep-review-lord-xander-20261019",
+      "sha": "eed3f18cf3321013720eee0d0ed1b0c61e07070c"
+    },
+    {
+      "branch": "chatgpt-m6-deep-review-lord-xander-30",
+      "sha": "41ec5cdc3649454ff7601e7fbcfd01cff33bf4f1"
+    },
+    {
+      "branch": "chatgpt-m6-deep-review-lynde-31",
+      "sha": "9b68d3a1e9e284b6226983e869c0c90a6f6d2f3a"
+    },
+    {
+      "branch": "chatgpt-m6-deep-review-lynde-31-authored",
+      "sha": "ca55455755beda45fa3e1a8296daaa1e90e3b1da"
+    },
+    {
+      "branch": "chatgpt-m6-deep-review-madcap-jester-56",
+      "sha": "4459ce927eb38adfef026ca6b473056d51675c53"
+    },
+    {
+      "branch": "chatgpt-m6-deep-review-madcap-jester-56-checkpoint",
+      "sha": "06616f657c863b4910432a6b45382034d2c4477d"
+    },
+    {
+      "branch": "chatgpt-m6-deep-review-mai-zuko-32",
+      "sha": "073f9f9bddfc10a795bbef0be48d4179516b9019"
+    },
+    {
+      "branch": "chatgpt-m6-deep-review-mairsil-33",
+      "sha": "9d40ee195b9c2fdc26cc4540713616ef06a40aa9"
+    },
+    {
+      "branch": "chatgpt-m6-deep-review-marchesa-black-rose-35",
+      "sha": "30d28c6da5ff8fefc6b062c95d7cc79642af50d6"
+    },
+    {
+      "branch": "chatgpt-m6-deep-review-marchesa-dealer-34",
+      "sha": "7d6e8444cf77cb19b643cff84ef4e4aeecccc55c"
+    },
+    {
+      "branch": "chatgpt-m6-deep-review-mishra-artificer-36",
+      "sha": "9754ff7abd7b4c6b89eb2fc5a03a63fd29a2157e"
+    },
+    {
+      "branch": "chatgpt-m6-deep-review-mishra-eminent-one-37",
+      "sha": "14b9051da031c3d5a118b8d49870e551c5f191d3"
+    },
+    {
+      "branch": "chatgpt-m6-deep-review-missy-38",
+      "sha": "bfeb6428ebb52175b245ff16dd5796bf43118c00"
+    },
+    {
+      "branch": "chatgpt-m6-deep-review-nathan-drake-39",
+      "sha": "f137e9855acc148b3b686b8d7c493476b281afea"
+    },
+    {
+      "branch": "chatgpt-m6-deep-review-nekusar-40",
+      "sha": "efdfd85d71a818c54248609b345266f24f9e789b"
+    },
+    {
+      "branch": "chatgpt-m6-deep-review-nicol-bolas-41",
+      "sha": "13d609f845159d42714cf5367e10873552d3af11"
+    },
+    {
+      "branch": "chatgpt-m6-deep-review-nicol-bolas-41-tracker",
+      "sha": "cc6d220f55434a53e06b2d920d49f77fb93760d6"
+    },
+    {
+      "branch": "chatgpt-m6-deep-review-obeka-44",
+      "sha": "25780fd2fde6119796be77613d86d95b680c2068"
+    },
+    {
+      "branch": "chatgpt-m6-deep-review-obeka-44-tracker",
+      "sha": "e9ed01b752542dc4ef8e3b55afbee243a1a3d7a7"
+    },
+    {
+      "branch": "chatgpt-m6-deep-review-obeka-splitter-45",
+      "sha": "8e75c5f641d5883a2d477839ad47c8d4f7c2703a"
+    },
+    {
+      "branch": "chatgpt-m6-deep-review-obeka-splitter-45-tracker",
+      "sha": "14242dcd7f8205d7b56a8fb5feaad80792d5c437"
+    },
+    {
+      "branch": "chatgpt-m6-deep-review-parnesse-46",
+      "sha": "195ac5f0646ab6809a7fc033d9fed9cc8f7f5380"
+    },
+    {
+      "branch": "chatgpt-m6-deep-review-parnesse-46-tracker",
+      "sha": "5986c32149add760e74dc6fc019ddf0967d20aee"
+    },
+    {
+      "branch": "chatgpt-m6-deep-review-pass-c-intake-handoff-62",
+      "sha": "150bc4a497a2336038da0dc6438c8140a2998ecb"
+    },
+    {
+      "branch": "chatgpt-m6-deep-review-ravager-42",
+      "sha": "3f7b4291ed3b6b983d06a6d99b229dea550f96b4"
+    },
+    {
+      "branch": "chatgpt-m6-deep-review-ravager-42-tracker",
+      "sha": "2061a81f15452bd0b2e47e283eab24d8f9af2559"
+    },
+    {
+      "branch": "chatgpt-m6-deep-review-rogsi-47",
+      "sha": "beecd0fd646530712d0b3d42d9924f2a22783f0d"
+    },
+    {
+      "branch": "chatgpt-m6-deep-review-rogsi-47-tracker",
+      "sha": "1cccbdbfb52ce7c72cb4d03415eb76c59b380ad7"
+    },
+    {
+      "branch": "chatgpt-m6-deep-review-saruman-48",
+      "sha": "3e950912875ebde2f41fc910c1eefa5363775d0c"
+    },
+    {
+      "branch": "chatgpt-m6-deep-review-saruman-48-tracker",
+      "sha": "585dc4ea2cae19dac0b0266a5dac9ff6f3077f8c"
+    },
+    {
+      "branch": "chatgpt-m6-deep-review-sauron-50",
+      "sha": "63a9dd02008e1cac1eb0f1d9c8086f2dd16e2e55"
+    },
+    {
+      "branch": "chatgpt-m6-deep-review-sauron-50-checkpoint",
+      "sha": "35d20c1ef7f30115eed3df86317eacc4b79f783f"
+    },
+    {
+      "branch": "chatgpt-m6-deep-review-sauron-lotr-49",
+      "sha": "0de967fbffaf5a0f2232f6dc80156268ac5b44a3"
+    },
+    {
+      "branch": "chatgpt-m6-deep-review-sauron-lotr-49-tracker",
+      "sha": "6d1bf859fcfdb3fc28a88ea6200ad75c1b1c0c33"
+    },
+    {
+      "branch": "chatgpt-m6-deep-review-sedris-51",
+      "sha": "dbd979ac7c57a6694eb5f0f6e025ad1f8ae0b1cb"
+    },
+    {
+      "branch": "chatgpt-m6-deep-review-sedris-51-checkpoint",
+      "sha": "f7cb7cd16e8ccc3ad3174cb6fdea9833a6521c58"
+    },
+    {
+      "branch": "chatgpt-m6-deep-review-solkanar-52",
+      "sha": "aaffd96494d55324fc1bbb8f10fc5fd0b34bd169"
+    },
+    {
+      "branch": "chatgpt-m6-deep-review-solkanar-52-checkpoint",
+      "sha": "48767233aeeb67b2a07bcbb4f2bc9e0278b00466"
+    },
+    {
+      "branch": "chatgpt-m6-deep-review-solkanar-tainted-53",
+      "sha": "460177d534153ac354f2a1bb2d6e6791adf47d82"
+    },
+    {
+      "branch": "chatgpt-m6-deep-review-solkanar-tainted-53-checkpoint",
+      "sha": "95f5b39f4e4e126522eed1d6c03e811dc8d65c62"
+    },
+    {
+      "branch": "chatgpt-m6-deep-review-tetsuo-54",
+      "sha": "ec7baf3b7d9127daf5c080f4e21d4d061872a83e"
+    },
+    {
+      "branch": "chatgpt-m6-deep-review-tetsuo-imperial-55",
+      "sha": "8fa222cdc91c35f048b113ced267f25a466443b6"
+    },
+    {
+      "branch": "chatgpt-m6-deep-review-tetsuo-imperial-55-checkpoint",
+      "sha": "854b81cd59c6e5a017800b58b93e574937fb00b6"
+    },
+    {
+      "branch": "chatgpt-m6-deep-review-tetsuo-umezawa-54",
+      "sha": "24c4d19950bc214c1780c67a6f8dc19072a85fdf"
+    },
+    {
+      "branch": "chatgpt-m6-deep-review-tetsuo-umezawa-54-checkpoint",
+      "sha": "e3c0d256a63f1885edcd7dcb69a2d217eb24aca5"
+    },
+    {
+      "branch": "chatgpt-m6-deep-review-the-rani-57",
+      "sha": "79df4e2f60ac5ee71d34910a8041bf95bded44a5"
+    },
+    {
+      "branch": "chatgpt-m6-deep-review-the-rani-57-checkpoint",
+      "sha": "a7229d54e100d2870099f7d9f7ede6be9b6f63a7"
+    },
+    {
+      "branch": "chatgpt-m6-deep-review-the-valeyard-58",
+      "sha": "1e53ef559c0a1e115b8dd44ef3e8becd0885cb53"
+    },
+    {
+      "branch": "chatgpt-m6-deep-review-the-valeyard-58-checkpoint",
+      "sha": "4a8a4ebb74ce628df5fed6ed388b20437b18b9bf"
+    },
+    {
+      "branch": "chatgpt-m6-deep-review-thraximundar-59",
+      "sha": "d99430791dddeb98f65b53077cf925ac9792cef8"
+    },
+    {
+      "branch": "chatgpt-m6-deep-review-thraximundar-59-checkpoint",
+      "sha": "4515edb128aa16e6e049be00ed692de3cbd52b9c"
+    },
+    {
+      "branch": "chatgpt-m6-deep-review-tresserhorns-lord-returned-60",
+      "sha": "e5933bcba6a4799cce56308f599f7f55b78f2202"
+    },
+    {
+      "branch": "chatgpt-m6-deep-review-tresserhorns-lord-returned-60-checkpoint",
+      "sha": "074c68629aea420502a98ed4256e6bb025f6921d"
+    },
+    {
+      "branch": "chatgpt-m6-deep-review-unsinkable-20261019",
+      "sha": "9f85c19b4709be30ca7f652371139ba582a6e9fe"
+    },
+    {
+      "branch": "chatgpt-m6-deep-review-wick-the-whorled-mind-61",
+      "sha": "9fb7adb7f41a81ec7286469040ba4b2275d9e02f"
+    },
+    {
+      "branch": "chatgpt-m6-deep-review-wick-the-whorled-mind-61-checkpoint",
+      "sha": "2d6c90fddbfe6f302c26aff1cae552204d3a8258"
+    },
+    {
+      "branch": "chatgpt-m6-deep-review-zevlor-elturel-exile-62",
+      "sha": "bace50cda271838c40863e98c0777aa0e3922c08"
+    },
+    {
+      "branch": "chatgpt-m6-deep-review-zevlor-elturel-exile-62-checkpoint",
+      "sha": "8d0497c82f5b441ef19b050b481415be794dc55b"
+    },
+    {
+      "branch": "chatgpt-m6-evidence-ci-20261020",
+      "sha": "963c7fba13074b217eb271de8b615306278d0fcf"
+    },
+    {
+      "branch": "chatgpt-m6-evidence-xander-stagea-seal-v2-20261025",
+      "sha": "6ef49b8fbceca40dc40d3b2e8be7f4e8fe0d18c3"
+    },
+    {
+      "branch": "chatgpt-m6-j-owner-waiver-receipt-20261022",
+      "sha": "ac760352f7a0d2c9965b6d761e2721651e8a040f"
+    },
+    {
+      "branch": "chatgpt-m6-jlk-owner-accepted-formal-pass-c-20261020",
+      "sha": "9974fa045900b9c8f4c02e67d231039a281ff995"
+    },
+    {
+      "branch": "chatgpt-m6-jlk-owner-substitute-protocol-20261020",
+      "sha": "a5abc88ed2395afdf538e038eb569c6ace20eafc"
+    },
+    {
+      "branch": "chatgpt-m6-josh-lee-kwai-reconciliation-index-20261020",
+      "sha": "02ee47b31008e639d01d5e5cac08f33bdb1e03f6"
+    },
+    {
+      "branch": "chatgpt-m6-lynde-depth-31-authored",
+      "sha": "76ec4eed5b09942b81a74b1966ceb22ecbaaf135"
+    },
+    {
+      "branch": "chatgpt-m6-m7-progress-subtracker",
+      "sha": "d0c5eb6869da6a8943f446d25a499ad3322b9a18"
+    },
+    {
+      "branch": "chatgpt-m6-pass-c-handoff-after-62-deep-reviews",
+      "sha": "afb692de3c50699dab0a4c5522fd0d8ad6416f88"
+    },
+    {
+      "branch": "chatgpt-m6-pass-c-owner-formal-waiver-20261021",
+      "sha": "4c008473d8a9c3853037dfe4262e08e33d55cef7"
+    },
+    {
+      "branch": "chatgpt-m6-passc-closure-20261021",
+      "sha": "f39a60d691a3560d3f4220955cc9945fade2fc31"
+    },
+    {
+      "branch": "chatgpt-m6-phaseb-abaddon-receipt-ledger-20261021",
+      "sha": "74996b417774b2500c739ddf161903e23bfc0773"
+    },
+    {
+      "branch": "chatgpt-m6-reconcile-abaddon-20261020",
+      "sha": "39263c9b3807a43bb7977bb238940f68a9c66394"
+    },
+    {
+      "branch": "chatgpt-m6-reconcile-admiral-brass-20261020",
+      "sha": "7922db5649571adc594084c0368fd3e3727ab61a"
+    },
+    {
+      "branch": "chatgpt-m6-reconcile-anhelo-20261020",
+      "sha": "0b000a6c340fc507facd024cbf7427389ae31f19"
+    },
+    {
+      "branch": "chatgpt-m6-reconcile-crosis-20261020",
+      "sha": "1a4aa849d9b9648ae483d16a4adf149d349f5591"
+    },
+    {
+      "branch": "chatgpt-m6-reconcile-doctor-doom-20261020",
+      "sha": "0ec770f897577b33e6cde7e672f223b41178879b"
+    },
+    {
+      "branch": "chatgpt-m6-reconcile-don-andres-20261020",
+      "sha": "01ab54ec5023b8bb91ef3e99023bd103b2ff6d71"
+    },
+    {
+      "branch": "chatgpt-m6-reconcile-gwendlyn-20261020",
+      "sha": "d33dda841c3faacdc34e4fd061814b7654e13f21"
+    },
+    {
+      "branch": "chatgpt-m6-reconcile-jeleva-20261020",
+      "sha": "ae882ae1d337137bf130ba1300b2d2d146c36279"
+    },
+    {
+      "branch": "chatgpt-m6-reconcile-keep-cluster01-20261020",
+      "sha": "9ee9aa6bf0c1bb661778fef5f4f4b515023b9522"
+    },
+    {
+      "branch": "chatgpt-m6-reconcile-keep-cluster02-20261020",
+      "sha": "4219072ac38bc53bd673947572cdb3e2ddafc7d9"
+    },
+    {
+      "branch": "chatgpt-m6-reconcile-kess-20261020",
+      "sha": "746478d0135ed9421e3f0c223e49af9cdb12693e"
+    },
+    {
+      "branch": "chatgpt-m6-reconcile-ledger15-20261020",
+      "sha": "f5cb2db309a1af3068fdf73d8792bb676bb537aa"
+    },
+    {
+      "branch": "chatgpt-m6-reconcile-ledger20-20261020",
+      "sha": "eb7e5aeac8710f8f333a641303f2faf880920c58"
+    },
+    {
+      "branch": "chatgpt-m6-reconcile-lynde-20261020",
+      "sha": "45339e76ac8f472007a067fc4ff1c3b71890d27d"
+    },
+    {
+      "branch": "chatgpt-m6-reconcile-madcap-20261020",
+      "sha": "b325328c771cd4e11a63b7dd4df2b039d48e89a6"
+    },
+    {
+      "branch": "chatgpt-m6-reconcile-mai-zuko-20261020",
+      "sha": "d1fd7125570211a1dc3392c959dfb47f8a71a2f2"
+    },
+    {
+      "branch": "chatgpt-m6-reconcile-mishra-prodigy-20261020",
+      "sha": "dbac14ece60cb8a5a4158f15fcdcf6c2f5d83bec"
+    },
+    {
+      "branch": "chatgpt-m6-reconcile-nekusar-20261020",
+      "sha": "9e0f52747ee4dcfa7ea9fafb36dfd7ffeb986ea8"
+    },
+    {
+      "branch": "chatgpt-m6-reconcile-obeka-splitter-20261020",
+      "sha": "0659b95fa59300b6eb489ce9d96cfa62698c768d"
+    },
+    {
+      "branch": "chatgpt-m6-reconcile-parnesse-20261020",
+      "sha": "430d68cbd223eb45ca2e48ea8473d7f14b90cf03"
+    },
+    {
+      "branch": "chatgpt-m6-reconcile-progress-20261020",
+      "sha": "1ab36cb283eeb9c33dc964bb6fde81a9c4a699ea"
+    },
+    {
+      "branch": "chatgpt-m6-reconcile-sedris-20261020",
+      "sha": "37a94a30c772cb588543842ec31002507c1175e4"
+    },
+    {
+      "branch": "chatgpt-m6-reconcile-solkanar-swamp-20261020",
+      "sha": "e7058ff8259a46570ba552872b7315d9f805aefc"
+    },
+    {
+      "branch": "chatgpt-m6-reconcile-tetsuo-20261020",
+      "sha": "c569927a00f072cf8af5a2410c5a1c4e7c631e1d"
+    },
+    {
+      "branch": "chatgpt-m6-reconcile-tresserhorn-returned-20261020",
+      "sha": "dd67f0e0959e5987f4ae8e5e5fbb08b9c836f763"
+    },
+    {
+      "branch": "chatgpt-m6-remaining61-test-designs-20261022",
+      "sha": "585732b218b689d07951ab1bc3d9625c642577d2"
+    },
+    {
+      "branch": "chatgpt-m6-single-deck-review-standard",
+      "sha": "f45232b5674d0c2849443577c7a87cc328938898"
+    },
+    {
+      "branch": "chatgpt-m7-42-ravager-rev1-proposal",
+      "sha": "f0b979dc115d82e0d9e37853e95dde566f35b901"
+    },
+    {
+      "branch": "chatgpt-m7-abaddon-lost-keeper-effect-20261022",
+      "sha": "771d83e47a2f996ab8574d2f52f08471f4a15c15"
+    },
+    {
+      "branch": "chatgpt-m7-abaddon-oracle-correction-v2-20261022",
+      "sha": "3b58698749592d02fd6b2d35f20a6319befeb3e4"
+    },
+    {
+      "branch": "chatgpt-m7-abaddon-owner-approval-ledger-20261022",
+      "sha": "47ac69238255c92b8e70ae427ccdb80c38a21b54"
+    },
+    {
+      "branch": "chatgpt-m7-abaddon-whole-deck-challengers-20261022",
+      "sha": "6c24e31a07dd20698ee6a9563a185b3fdc3c9119"
+    },
+    {
+      "branch": "chatgpt-m7-admiral-continuation-ledger-20261022",
+      "sha": "ce1dcaed8d8766ddeedd75b9a9fd4340c4499d46"
+    },
+    {
+      "branch": "chatgpt-m7-admiral-d-changed-effects-20261022",
+      "sha": "fc551acba0e4bbc7ff486541014a9986b995b996"
+    },
+    {
+      "branch": "chatgpt-m7-admiral-full-oracle-resilience-20261022",
+      "sha": "3c003ddcf05510edea21907d01037b0f746c044a"
+    },
+    {
+      "branch": "chatgpt-m7-admiral-material-decisions-20261022",
+      "sha": "42e0b637ad7abb1e2f3aba939aeeae22ddab2533"
+    },
+    {
+      "branch": "chatgpt-m7-admiral-opportunity-research-20261022",
+      "sha": "afa708e0aaa451f33a31d4ad47bee861e1a164c2"
+    },
+    {
+      "branch": "chatgpt-m7-admiral-pirate-density-paid-20261022",
+      "sha": "2e952d76c98367a337abdf76f3929040556f26ff"
+    },
+    {
+      "branch": "chatgpt-m7-decisive-optimization-standard-20261022",
+      "sha": "4a5f64df8d52f99e3db86473b9711ba8c5bc4f63"
+    },
+    {
+      "branch": "chatgpt-m7-deck21-goro-satoru-independent-20261024",
+      "sha": "1d3c45bad93e8531d4b9e5a27edb19f1b034f61b"
+    },
+    {
+      "branch": "chatgpt-m7-deck22-gwendlyn-independent-20261024",
+      "sha": "ea44dbfa62391fe53c0ead6654d2565a1daf3c65"
+    },
+    {
+      "branch": "chatgpt-m7-deck23-inalla-independent-20261024",
+      "sha": "4f4a6e9a09704dac5f15f7189510f39eb7d0841c"
+    },
+    {
+      "branch": "chatgpt-m7-deck24-jeleva-independent-20261024",
+      "sha": "6596a61f147a4f70efccea1e792dd5ffa982659f"
+    },
+    {
+      "branch": "chatgpt-m7-deck25-kefka-independent-20261024",
+      "sha": "d7b5dcf3e7ba272941990d4ba0c88d837f4f8a64"
+    },
+    {
+      "branch": "chatgpt-m7-deck33-mairsil-rev1-20261025",
+      "sha": "6f82a3635a5f84c1c6a081831348b41addd266e3"
+    },
+    {
+      "branch": "chatgpt-m7-deck35-marchesa-black-rose-rev1",
+      "sha": "043646be33f37d43bb2cb4b8cabc92d6be10a8a8"
+    },
+    {
+      "branch": "chatgpt-m7-deck55-p0-case-repair-20261027",
+      "sha": "48d800ca78803fefb78ca27642e862c5a5b91297"
+    },
+    {
+      "branch": "chatgpt-m7-lord-approved-case-transfer-20261025",
+      "sha": "0d4c51d2c5756a0c6207fe4b5d47d4e8afdd0920"
+    },
+    {
+      "branch": "chatgpt-m7-nathan-drake-rev1-20261026",
+      "sha": "e8777840aaf5d0241d4d4f4aa4a79a8ce7688767"
+    },
+    {
+      "branch": "chatgpt-m7-nekusar-live-oracle-20261026",
+      "sha": "61a322fe75ac09e446a2b59ed79d0e9f4c95ae20"
+    },
+    {
+      "branch": "chatgpt-m7-nekusar-rev1-20261026",
+      "sha": "4962de014b02e010dd71dba3d4e35f2b3d4c2f9f"
+    },
+    {
+      "branch": "chatgpt-m7-no-few-swaps-owner-hard-corrected-20261022",
+      "sha": "85ac36b161020fd00d1afc82b508326d60d3c69d"
+    },
+    {
+      "branch": "chatgpt-m7-no-few-swaps-owner-hard-frozen-20261022",
+      "sha": "af1b01680a7215812bd385197d06466811b861aa"
+    },
+    {
+      "branch": "chatgpt-m7-no-few-swaps-owner-hard-gate-20261022",
+      "sha": "85ac36b161020fd00d1afc82b508326d60d3c69d"
+    },
+    {
+      "branch": "chatgpt-m7-obeka-brute-44-rev1-20261026",
+      "sha": "1a70749a92001bf3fa86ad5907c80791c565bd00"
+    },
+    {
+      "branch": "chatgpt-m7-one-command-contract-20261024",
+      "sha": "d90d59d8c226b880cfa8353058b8cd04efc14ccd"
+    },
+    {
+      "branch": "chatgpt-m7-one-command-integration-pointer-20261024",
+      "sha": "12dfe38e993131c44c0595553590596f4c2625c7"
+    },
+    {
+      "branch": "chatgpt-m7-transfer-repair-audit-20261027",
+      "sha": "a6d0a81a11ee4f8b8dc4c71e62162f785e5a0660"
+    },
+    {
+      "branch": "chatgpt-m7-unbounded-search-admiral-reopen-20261022",
+      "sha": "cac44b6db952cbdfd8ec13874fca943baea24cec"
+    },
+    {
+      "branch": "chatgpt-mairsil-retrospective-p0-transfer-20261026",
+      "sha": "36ab5bfb53e7a31d1003ae85edda4b38ce44e9dc"
+    },
+    {
+      "branch": "chatgpt-multiverse-master-workflow-20261029",
+      "sha": "917b60584f64756c4ba2d68339805c190ec10f7a"
+    },
+    {
+      "branch": "chatgpt-multiverse-phase1b-set-atlas-20261029",
+      "sha": "0d7fbcd1584668558f1b91a761f445bb4eed0c9c"
+    },
+    {
+      "branch": "chatgpt-multiverse-snapshot-reconcile-20261029",
+      "sha": "f868d5915f940a9448b08e2a5c0d62d550c2a35b"
+    },
+    {
+      "branch": "chatgpt-multiverse-snapshot-repair-20261029",
+      "sha": "4d05a2199ead8d97766146a68c9e3d682f1b94ba"
+    },
+    {
+      "branch": "chatgpt-oracle-exclusion-audit-20261029",
+      "sha": "bfd485104e9d32dbd887fd744b22fc800995361d"
+    },
+    {
+      "branch": "chatgpt-pack-a-ugin-bolas-claim-foundation-20261030",
+      "sha": "ddac730202376b84a98ed9582e9e8bb02591039e"
+    },
+    {
+      "branch": "chatgpt-pack-a2-elder-war-primary-sources-20261030",
+      "sha": "e7b68f0054ade64a13ca827d394d58820fd691a1"
+    },
+    {
+      "branch": "chatgpt-pack-a3-tarkir-art-context-20261030",
+      "sha": "0cb6df92f265cdc5046f397813459b702c5ed0c3"
+    },
+    {
+      "branch": "chatgpt-pack-a4-exact-art-printings-20261030",
+      "sha": "e7368235ebd9de0cd42376e0aa57eb76fac4c273"
+    },
+    {
+      "branch": "chatgpt-pack-c5-phyrexian-outcome-20261030",
+      "sha": "40d1d4066f8a57407f9b19ad9d518a0b8f274f63"
+    },
+    {
+      "branch": "chatgpt-phase1b-apac-lunar-promos-20261029",
+      "sha": "0e46d570e2bef0c7df6e7ddcbe33fa6c94363174"
+    },
+    {
+      "branch": "chatgpt-phase1b-art-series-sources-20261029",
+      "sha": "0a8b5a868d2d616b6afbabdf4f7a979b81f0fdb5"
+    },
+    {
+      "branch": "chatgpt-phase1b-atlas-audit-20261029",
+      "sha": "bf4dd48e876649ef8133f16ac3125027046e8321"
+    },
+    {
+      "branch": "chatgpt-phase1b-boxed-schemes-planechase-20261029",
+      "sha": "736759bb99916a18e881e02ed8d0fd7184a34637"
+    },
+    {
+      "branch": "chatgpt-phase1b-boxed-special-lair-global-20261029",
+      "sha": "38f900f532c49514404cd2db2ff4d817735d81c1"
+    },
+    {
+      "branch": "chatgpt-phase1b-boxed-specialty-20261029",
+      "sha": "199bedaf9fa7d1e2262b720c51a63ab616ffd040"
+    },
+    {
+      "branch": "chatgpt-phase1b-commander-modern-20261029",
+      "sha": "e9cc7863f344be4d2e0268ffb0019e6a3e017de7"
+    },
+    {
+      "branch": "chatgpt-phase1b-commander-series-20261029",
+      "sha": "53a6bed92231c4f6bde944808712d7a779a64ffa"
+    },
+    {
+      "branch": "chatgpt-phase1b-commander-set-linked-20261029",
+      "sha": "ec858095a968c378ab531ba9a22587f2303da6e7"
+    },
+    {
+      "branch": "chatgpt-phase1b-cross-category-20261029",
+      "sha": "91d5c1ef20611ebce6554d97fecc786b72e55ddb"
+    },
+    {
+      "branch": "chatgpt-phase1b-draft-starter-final-evidence-20261029",
+      "sha": "026b394168a14ba21bf31150759b9e66ec4bb216"
+    },
+    {
+      "branch": "chatgpt-phase1b-draft-starter-source-batch-20261029",
+      "sha": "323561656cd347a36da3253211435a794b6d8cde"
+    },
+    {
+      "branch": "chatgpt-phase1b-duel-decks-20261029",
+      "sha": "022b95c7dcfe5188105e75ae24eab9ee0e54a6de"
+    },
+    {
+      "branch": "chatgpt-phase1b-event-collab-promos-20261029",
+      "sha": "043d372268e484d19606db06580320574d2ac2d7"
+    },
+    {
+      "branch": "chatgpt-phase1b-export-acceptance-20261029",
+      "sha": "5b62a2ad1f41d50182342221bd45b46e484cda02"
+    },
+    {
+      "branch": "chatgpt-phase1b-fasttrack-readiness-20261029",
+      "sha": "9345a4c32c845466d53580b1df615d6b44bd4ed0"
+    },
+    {
+      "branch": "chatgpt-phase1b-historic-shards-20261029",
+      "sha": "e78d65699f81b6b6e76b1480167b5350ed743e8a"
+    },
+    {
+      "branch": "chatgpt-phase1b-inserts-clash-spellbook-20261029",
+      "sha": "42a5418037c79e865513d81d90890e63e080cdb4"
+    },
+    {
+      "branch": "chatgpt-phase1b-masterpieces-collectibles-20261029",
+      "sha": "f789608b7e9f8b85cfdbb7d75debc526d524b420"
+    },
+    {
+      "branch": "chatgpt-phase1b-premier-1993-2002-20261029",
+      "sha": "a2198c2138d8305785a6b1f4a8e4e6b4ced1e898"
+    },
+    {
+      "branch": "chatgpt-phase1b-premier-2003-2022-20261029",
+      "sha": "f5c6c154c2a5f683897a975e245017cd068bf87a"
+    },
+    {
+      "branch": "chatgpt-phase1b-product-family-triage-20261029",
+      "sha": "d24e7211b74b46631f0aa56c29471cab53fdc1cf"
+    },
+    {
+      "branch": "chatgpt-phase1b-qualified-functional-release-20261029",
+      "sha": "ead884bd150a59ddb6e58b538a9f5f0f3ffe63c4"
+    },
+    {
+      "branch": "chatgpt-phase1b-release-scope-story-20261029",
+      "sha": "695a48d8901cb988a6d39d161ee8d9acd3de2836"
+    },
+    {
+      "branch": "chatgpt-phase1b-reprint-curated-source-batch-20261029",
+      "sha": "1652aa972d3b234ede948aaa89d239fe8b3428d7"
+    },
+    {
+      "branch": "chatgpt-phase1b-set-products-20261029",
+      "sha": "f88716b63c242982185a5ef96adbf64ce5d2d6c1"
+    },
+    {
+      "branch": "chatgpt-phase1b-token-families-20261029",
+      "sha": "681c74da25a19d02749bdd5c531e21e7e87f25af"
+    },
+    {
+      "branch": "chatgpt-phase1b-vanguard-worlds-lgs-20261029",
+      "sha": "f4ab3ddb914b94d296e57756bfc395c29a02226b"
+    },
+    {
+      "branch": "chatgpt-phase1b-wotc-premier-20261029",
+      "sha": "e06c5e7d58762653dd1789a12d49f9ffb902526f"
+    },
+    {
+      "branch": "chatgpt-phase3-printing-phase8-monitor-20261030",
+      "sha": "dc76828180151a82e0dbdd57a20de78d0424867c"
+    },
+    {
+      "branch": "chatgpt-phase4-alara-conflux-20261031",
+      "sha": "7ab24d84e5bbedd061a6b4db371631ad89d67796"
+    },
+    {
+      "branch": "chatgpt-phase4-amonkhet-ravnica-v287-20261031",
+      "sha": "3a7757573d00f14db35a0d44072013030073b4e0"
+    },
+    {
+      "branch": "chatgpt-phase4-bolas-current-20261031",
+      "sha": "368bb9284ea436a9d920ae3785380c39f4d9d4a8"
+    },
+    {
+      "branch": "chatgpt-phase4-chrono-history-20261031",
+      "sha": "3425d43bc49c9ab98d3fe80c5ac141f14af7a9ee"
+    },
+    {
+      "branch": "chatgpt-phase4-cross-ledger-bridges-v271",
+      "sha": "34ffb5b1938fe48d12e79e986b245223077669c8"
+    },
+    {
+      "branch": "chatgpt-phase4-muraganda-meditation-v269",
+      "sha": "d007c67bf215c8951facf9c7d69d62cab00b376c"
+    },
+    {
+      "branch": "chatgpt-phase4-new-phyrexia-chronology-v263",
+      "sha": "ca4962bc2c0451e2502a861911997fc6743b30ae"
+    },
+    {
+      "branch": "chatgpt-phase4-source-order-20261030",
+      "sha": "db09be4773d260a298268701cee975197a68afee"
+    },
+    {
+      "branch": "chatgpt-phase4-source-sequences-20261031",
+      "sha": "61136f3c9d970c6adc0d0ad7b1d13a9a29f98156"
+    },
+    {
+      "branch": "chatgpt-phase4-thran-invasion-serra-v270",
+      "sha": "10076127772299b96d908e96587cc1236ff874e2"
+    },
+    {
+      "branch": "chatgpt-phase4-verified-ledger-bridges-20261031",
+      "sha": "f120a0c7e4233a0dd8731e00dd6ef60b454d6ce5"
+    },
+    {
+      "branch": "chatgpt-phase45-bloomburrow-duskmourn-20261030",
+      "sha": "4966cd0962a39fd6c85d8a45559291e3edf24520"
+    },
+    {
+      "branch": "chatgpt-phase45-kamigawa-nph-history-20261030",
+      "sha": "d06ee34d5a04de46ceab51258ffb756b647b2038"
+    },
+    {
+      "branch": "chatgpt-phase5-alara-profile-20261030",
+      "sha": "b275748463188181bf82cd119f1d51ee6e6071fe"
+    },
+    {
+      "branch": "chatgpt-phase5-character-faction-histories-v259",
+      "sha": "799dad8225a5df2f38005a670e9687491c0f45c2"
+    },
+    {
+      "branch": "chatgpt-phase5-context-dossiers-20261030",
+      "sha": "5ae2b2cb827a9672c89d115c9ab05c41d97940c8"
+    },
+    {
+      "branch": "chatgpt-phase5-history-chronology-20261030",
+      "sha": "6ab41fad6cbf6ab77fe93e449767e78bdace436e"
+    },
+    {
+      "branch": "chatgpt-phase5-isolated-entities-v264",
+      "sha": "fc326ffb5f87a52019713bcda666f45a1151526a"
+    },
+    {
+      "branch": "chatgpt-phase5-last-four-planes-v268",
+      "sha": "f8df742859d79c461c7754a81d6fe728a46c4ee5"
+    },
+    {
+      "branch": "chatgpt-phase5-plane-dossiers-20261030",
+      "sha": "361248e24b6eac73cf04f73dd1364ed05eb26f52"
+    },
+    {
+      "branch": "chatgpt-phase5-theros-profile-20261030",
+      "sha": "ce09c396af6da8db24227b69d14aae467680ef17"
+    },
+    {
+      "branch": "chatgpt-phase5-thin-planes-v265",
+      "sha": "7af20b8e547c5560ed62dcaa28b5532cb7eeac11"
+    },
+    {
+      "branch": "chatgpt-phase6-engine-v302",
+      "sha": "96562cf4339ddb851ef12d29eaa30e986f2f589a"
+    },
+    {
+      "branch": "chatgpt-phase6-strategy-preflight-v304",
+      "sha": "5c54337807a1fcee133612d116d9dcc40275c8b3"
+    },
+    {
+      "branch": "chatgpt-phase7-card-lore-rules-v288-20261101",
+      "sha": "5220c20caba0c52a671f2d9dff8dfb5996b38a1c"
+    },
+    {
+      "branch": "chatgpt-phase7-chronology-qa-20261030",
+      "sha": "577cd92548c30a9d96899a8415adb5a125b0f8a0"
+    },
+    {
+      "branch": "chatgpt-phase7-commander-safety-20261031",
+      "sha": "4171f186e6424f3dec67357d2d2abb5e66d552b4"
+    },
+    {
+      "branch": "chatgpt-phase7-graph-connections-v286-20261031",
+      "sha": "5146371e518cb1cac398845ce52d3f9dfc28ae73"
+    },
+    {
+      "branch": "chatgpt-phase7-kinship-leadership-confidence-20261031",
+      "sha": "6efffeda66b3909590e55f2afc457ee03bc25d9a"
+    },
+    {
+      "branch": "chatgpt-phase7-plane-history-qa-20261030",
+      "sha": "ac5f0dd263ca968fe1b6256c5e8fd1ef2295ad67"
+    },
+    {
+      "branch": "chatgpt-phase7-rules-evidence-v262",
+      "sha": "74497aa5cf29eb199030519a5069e4c51fee2386"
+    },
+    {
+      "branch": "chatgpt-phase7-set-questions-v261",
+      "sha": "eca174223fac7676dedcfe0e25e666a006096af8"
+    },
+    {
+      "branch": "chatgpt-phase7-set-story-v289-20261101",
+      "sha": "1addb1dc2fcda752958312edf0092594cac9c885"
+    },
+    {
+      "branch": "chatgpt-phase8-batch37-20261029",
+      "sha": "3ccb23416778ea00c5828d3ae8395ff2e1059c0a"
+    },
+    {
+      "branch": "chatgpt-phase8-legends-evidence-20261029",
+      "sha": "99f0d010e8abafc781fe0db0658cd3dab8ad97ec"
+    },
+    {
+      "branch": "chatgpt-phase8-name-match-triage-20261029",
+      "sha": "9de772b7cc206a8fbae4f190065de571853d00aa"
+    },
+    {
+      "branch": "chatgpt-phase8-safe-lore-maintenance-20261029",
+      "sha": "28073c9f01a036e4fa7208d70d1f98a0a248bc59"
+    },
+    {
+      "branch": "chatgpt-phase8-story-repair-manifest-20261029",
+      "sha": "6eda1642f775a314acd17f122269072023cfa4e3"
+    },
+    {
+      "branch": "chatgpt-phase8-story-source-audit-20261029",
+      "sha": "8c587aba242f3e8e1ae626e635d898d02fe77c1c"
+    },
+    {
+      "branch": "chatgpt-pinned-scryfall-replay-v272",
+      "sha": "50a36e702c71bfc1632d6340df48bcfbff1cb6cb"
+    },
+    {
+      "branch": "chatgpt-post-grok-integrity-20261030",
+      "sha": "145ae707fb0cc42a6ffe1380ceb37f5fb20d80e4"
+    },
+    {
+      "branch": "chatgpt-post-m5-authority-integration",
+      "sha": "672afe7997583362ec02d32e632be83a3ec04e71"
+    },
+    {
+      "branch": "chatgpt-postfoundation-war-spark-v301",
+      "sha": "d298fd907edc3afb4458a77edcea4afe1c052908"
+    },
+    {
+      "branch": "chatgpt-qualified-set-totals-v308",
+      "sha": "36bcc36008ac5d1ccf89c7149c5699af5d098b9b"
+    },
+    {
+      "branch": "chatgpt-release-scryfall-freshness-v274-20261031",
+      "sha": "0cf195b0cd9df4745bc60f16c92096ff457a4bae"
+    },
+    {
+      "branch": "chatgpt-story-deck-planner-20261028",
+      "sha": "cbf54d56e8f2aac6f3f52d35357521aadfeb7e2b"
+    },
+    {
+      "branch": "chatgpt-v285-postmerge-handoff-20261031",
+      "sha": "1eb152edcf9083fd5ed2c59ce76c7cbdf39ca315"
+    },
+    {
+      "branch": "chatgpt-v310-owner-approval-index-20261102",
+      "sha": "acedc3c4abae2b449fc93a6e8600f966622d120b"
+    },
+    {
+      "branch": "chatgpt-v310-reliability-usability-20261102",
+      "sha": "6300af9bf2a2dacff60e4eb42c309842dae9d5a3"
+    },
+    {
+      "branch": "chatgpt-v311-exact-pilot-approvals-20261102",
+      "sha": "e0da186a03796ac7e9a6e1a78e9e91e549551b99"
+    },
+    {
+      "branch": "closeout/kefka-p1-w2-breach-2026-10-28",
+      "sha": "3296b6b58f60cfb50a9509123cf4c83a44b0dcc1"
+    },
+    {
+      "branch": "closeout/nekusar-m6-p1-bounded-2026-10-28",
+      "sha": "bfbe82091c01ec9b24934b968112014fe209395e"
+    },
+    {
+      "branch": "closeout/obeka-splitter-p1-2026-10-28",
+      "sha": "d40eab094cf9c50eec6847ec3d291afc1712e17e"
+    },
+    {
+      "branch": "deck41-nicol-bolas-m7-rev1-proposal-20261026",
+      "sha": "35f4740298b61723ed8b859c5bdb84e3c22f2f5c"
+    },
+    {
+      "branch": "grixis-m6-sealed-commander-first-20261017",
+      "sha": "4fd295bf526354b2dfaa31c15ed8375946b8fe3d"
+    },
+    {
+      "branch": "grixis-m6-sealed-performance-20261017",
+      "sha": "9eb564cdab747e73e5fd19963e71e58e8229e979"
+    },
+    {
+      "branch": "grokbot-advisory-batch-02-21",
+      "sha": "e5273140802193b85bd6e32ce2e61d38f46265b3"
+    },
+    {
+      "branch": "grokbot-advisory-batch-22-42",
+      "sha": "2f5971becc4826e4a723fe957b719516108564f5"
+    },
+    {
+      "branch": "grokbot-advisory-batch-43-62",
+      "sha": "1e99199f7b70a44e26a742033db5707e5a1597a7"
+    },
+    {
+      "branch": "grokbot-ask-c4-relations-20261030",
+      "sha": "8f5f72e72d691cb58b981a918b34528c1d9b020c"
+    },
+    {
+      "branch": "grokbot-b10-docs-recount-20261030",
+      "sha": "191b0bb43e5b2b07833c97246de69af7ea349307"
+    },
+    {
+      "branch": "grokbot-b10-recount-20261030",
+      "sha": "aa3cd6ab9e13f8dfd56fb236e88dcb8667043d27"
+    },
+    {
+      "branch": "grokbot-b10-untagged-guides-conspiracy-20261030",
+      "sha": "ed12ccecf29cbce0e244b653a04e244e75a8f7bc"
+    },
+    {
+      "branch": "grokbot-b10-untagged-guides2012-maelstrom-20261030",
+      "sha": "34ea1ec9475856c81d6bd99c487d195e3d967659"
+    },
+    {
+      "branch": "grokbot-b10-untagged-misc-20261030",
+      "sha": "0215ad0ab0c2a8514a512c1298d86c9a1899e653"
+    },
+    {
+      "branch": "grokbot-b10-untagged-ori-grn-20261030",
+      "sha": "eb547c26944b8503786916b7942540d3d0afee5b"
+    },
+    {
+      "branch": "grokbot-b10-untagged-znr-20261030",
+      "sha": "e3eabb2915794f1a00ffd6140f9679b655d2b6a2"
+    },
+    {
+      "branch": "grokbot-b11-docs-20261030",
+      "sha": "1d463931d9f58385a0bdab1750eb49bd7372e89d"
+    },
+    {
+      "branch": "grokbot-b11-leader-union-20261030",
+      "sha": "7baacb1d45407c0f08a29c23caad331fc47c7b1e"
+    },
+    {
+      "branch": "grokbot-b11-m13-2012-20261030",
+      "sha": "e2f9ef23bf59b9f2455f875c4d9e53cb727056db"
+    },
+    {
+      "branch": "grokbot-b12-card-lore-links-20261030",
+      "sha": "f6dc4f15b13263f27056a71002625ca3e4ce1e8d"
+    },
+    {
+      "branch": "grokbot-b12-docs-20261030",
+      "sha": "e988fd6c7ecb88bd9c907ebcb2bd4d1a45835ffd"
+    },
+    {
+      "branch": "grokbot-b12-pack-dossiers-20261030",
+      "sha": "6101f57631e34af135b90c77c747ad93fbac6692"
+    },
+    {
+      "branch": "grokbot-b12-phase1b-snapshot-gates-20261030-v2",
+      "sha": "eaea69759f3ddccb6e151993458b413bb3bf66a5"
+    },
+    {
+      "branch": "grokbot-b12-pipefail-20261030",
+      "sha": "7f2478be8d0c239d9469f09bedfb9c1ff4cae826"
+    },
+    {
+      "branch": "grokbot-b13-chronology-20261030",
+      "sha": "2cfc2ee4cbae051002522a9e193be3fd96ab9537"
+    },
+    {
+      "branch": "grokbot-b13-docs-20261030",
+      "sha": "2a607e4f22820015629687e39d73fe2d675d7998"
+    },
+    {
+      "branch": "grokbot-b13-flavor-lore-20261030",
+      "sha": "9ec36708c1cf7ee6eec233b3323cd8c43ec679ec"
+    },
+    {
+      "branch": "grokbot-b13-pack-a-disputes-20261030",
+      "sha": "81885e64e7dba03a86f20e20d73afac3439f0d8e"
+    },
+    {
+      "branch": "grokbot-b13-sweep-20261030",
+      "sha": "2b5f1415e4067e7f43353303eee6397ad7d3033b"
+    },
+    {
+      "branch": "grokbot-b14-cert-dry-run-20261030",
+      "sha": "5a473b14fe22bd7d2425cfdc29a4ae022a1e2cd6"
+    },
+    {
+      "branch": "grokbot-b14-chronology-sources-20261030",
+      "sha": "6ba78354c18ab79f30f7e8d1d64e0d2ba4d5ee1c"
+    },
+    {
+      "branch": "grokbot-b14-docs-20261030",
+      "sha": "0b6c3910196b669c6ccf81792534117a70567adb"
+    },
+    {
+      "branch": "grokbot-b14-entity-audit-20261030",
+      "sha": "f6e5739a4733a8b390871cf13136d87cedffd216"
+    },
+    {
+      "branch": "grokbot-b14-leader-phrasings-20261030",
+      "sha": "988250141aedb4ea52adb8730ad924cda8cf10ff"
+    },
+    {
+      "branch": "grokbot-b4-docs-fix-20261030",
+      "sha": "0acaadec548336e5e4cc03ab5f2e566c22c73dff"
+    },
+    {
+      "branch": "grokbot-b4-handoff-20261030",
+      "sha": "2b5c4aa5aa6f3864c8e7fe9e71c2140c487aa457"
+    },
+    {
+      "branch": "grokbot-b4-lore-links-20261030",
+      "sha": "af27dc8940b21b49ca890baa1fc8f72fb06a3bdd"
+    },
+    {
+      "branch": "grokbot-b9-aliases-20261030",
+      "sha": "6a7e0000d691ada3706463dcff6db21e5510af67"
+    },
+    {
+      "branch": "grokbot-b9-authoring-20261030",
+      "sha": "9b0fe348338abc899a54f883f28c16a3cd96a5d2"
+    },
+    {
+      "branch": "grokbot-b9-handoff-20261030",
+      "sha": "6d683c9773c164d9dd9d41153857f4d4371e6f11"
+    },
+    {
+      "branch": "grokbot-b9-handoff2-20261030",
+      "sha": "d95070abcd32caed2064aace06a4da2cdcc2d3ef"
+    },
+    {
+      "branch": "grokbot-b9-recount-era-20261030",
+      "sha": "b7d77e132eb35a894ba0cfb152588158caede870"
+    },
+    {
+      "branch": "grokbot-b9-reviewed-marker-20261030",
+      "sha": "8a7e7ded71670e624dfb5ce8c2e6095fd3d2c9d5"
+    },
+    {
+      "branch": "grokbot-b9-untagged-2-20261030",
+      "sha": "2e58f997bb775be29b9931ed0ee3bbcf1aded32d"
+    },
+    {
+      "branch": "grokbot-b9-untagged-packs-20261030",
+      "sha": "d0aa85804b86e4c3bc007db5a3d6ac5d985e905e"
+    },
+    {
+      "branch": "grokbot-batch2-handoff-20261030",
+      "sha": "8695d01c08a79e325ae8d2162148b39e434bd77a"
+    },
+    {
+      "branch": "grokbot-batch3-brief-20261030",
+      "sha": "978f95e9d9e6b61b9c52675bd9665374bbe8c8c4"
+    },
+    {
+      "branch": "grokbot-batch3-final-handoff-20261030",
+      "sha": "4ca3c0ed48aa6a9c80bdee2db59e1602b4ecde9d"
+    },
+    {
+      "branch": "grokbot-batch3-handoff-20261030",
+      "sha": "4bb4add7f136c390a251e42f1d685cdad1815b40"
+    },
+    {
+      "branch": "grokbot-batch5-handoff-20261030",
+      "sha": "ba93fed376dc66d9dfcf30544dbec1ea83748621"
+    },
+    {
+      "branch": "grokbot-c4-mom-20261030",
+      "sha": "9bb44f9a338a7d7768a4351dd0e49f850787758e"
+    },
+    {
+      "branch": "grokbot-claim-anchors-20261030",
+      "sha": "621eb080d431fc2870009ad6aad758687c3f0fd9"
+    },
+    {
+      "branch": "grokbot-commander-rules-20261030",
+      "sha": "db9e7f86fa55a37b731a8e4152e7ec90b763205a"
+    },
+    {
+      "branch": "grokbot-deck04-anhelo-the-painter-m7-20261023",
+      "sha": "ceeda7b280f378a2f195fd15005268080f5cb09a"
+    },
+    {
+      "branch": "grokbot-deck05-ashad-the-lone-cyberman-m7-20261023",
+      "sha": "ef7a1f726f26648886cf9b44069f2c8e205df189"
+    },
+    {
+      "branch": "grokbot-deck06-ashnod-the-uncaring-m7-20261023",
+      "sha": "cb670d59c6dd5c9a62b68197a6f3274aaef8422b"
+    },
+    {
+      "branch": "grokbot-deck07-belakor-the-dark-master-m7-20261023",
+      "sha": "ce713a71d2a4696f8cab3727d7fdf49a73db1b0c"
+    },
+    {
+      "branch": "grokbot-deck08-cecily-bjorna-lutri-m7-20261023",
+      "sha": "14f33de88685dbcbee9c8cc59e59ac5272ccf2fe"
+    },
+    {
+      "branch": "grokbot-deck09-cormela-glamour-thief-m7-20261023",
+      "sha": "257dac3391fe3044d509b8dcadba5631a6906959"
+    },
+    {
+      "branch": "grokbot-deck10-crosis-the-purger-m7-20261023",
+      "sha": "7953eef5ef1159360a2571625f90076d8ce7376c"
+    },
+    {
+      "branch": "grokbot-deck11-cult-of-skaro-m7-20261023",
+      "sha": "488e1d05fb994a1770a663baa971d7b3e9001c74"
+    },
+    {
+      "branch": "grokbot-deck12-davros-dalek-creator-m7-20261023",
+      "sha": "bb3be7d3acbd9422ea4291b3a0a9cc188ad9a0f1"
+    },
+    {
+      "branch": "grokbot-deck13-doctor-doom-king-of-latveria-m7-20261023",
+      "sha": "8bcc4c5481da414930758422b56b78f764839f1a"
+    },
+    {
+      "branch": "grokbot-deck14-don-andres-the-renegade-m7-20261023",
+      "sha": "bc4b9d53bd3afaf51f9c059fc55f8ba1ac7097c6"
+    },
+    {
+      "branch": "grokbot-deck15-dr-eggman-m7-20261023",
+      "sha": "3b67994a8fdfa1f3fe11e801ed02d0de94222cbc"
+    },
+    {
+      "branch": "grokbot-deck16-edea-possessed-sorceress-m7-20261023",
+      "sha": "cc2e6d45e5ad4a74b96d30ce07428144f8a111f4"
+    },
+    {
+      "branch": "grokbot-deck17-edward-kenway-m7-20261023",
+      "sha": "5f5a3a0fbe576ada80c9ea6f71a466834ea9f694"
+    },
+    {
+      "branch": "grokbot-deck18-evelyn-the-covetous-m7-20261023",
+      "sha": "8150b96898bcd4d8631ae80352b5f59ec158dbcf"
+    },
+    {
+      "branch": "grokbot-deck19-fire-lord-azula-m7-20261023",
+      "sha": "1946a316e457f5751dbd8bca2f3e67bdf0530cd7"
+    },
+    {
+      "branch": "grokbot-deck20-garza-zol-plague-queen-m7-20261023",
+      "sha": "909543a544aee2a170aca9e668141624d2343e50"
+    },
+    {
+      "branch": "grokbot-deck21-goro-goro-and-satoru-m7-20261023",
+      "sha": "3d550c79d11e23b8eefc3bf8cd86705b28356c1a"
+    },
+    {
+      "branch": "grokbot-deck22-gwendlyn-di-corci-m7-20261023",
+      "sha": "7483728a700e01f2b45172c9c55438903d9092ac"
+    },
+    {
+      "branch": "grokbot-deck23-inalla-archmage-ritualist-m7-20261023",
+      "sha": "1efba1a2fb541eaa2d3ea8f8347d6668acf0ffa1"
+    },
+    {
+      "branch": "grokbot-deck24-jeleva-nephalias-scourge-m7-20261023",
+      "sha": "e77466fa8323f56133baea3ddbad0cedb09b5df5"
+    },
+    {
+      "branch": "grokbot-deck25-kefka-court-mage-m7-20261023",
+      "sha": "ee2abd0a4f9c4729371c16233c5979c1331ae1a8"
+    },
+    {
+      "branch": "grokbot-deck26-kess-dissident-mage-m7-20261023",
+      "sha": "b505d828cf8936871385d33f57725def295f0b7c"
+    },
+    {
+      "branch": "grokbot-deck27-grixistax-october-2026-m7-20261023",
+      "sha": "3465b542cecca0164737e2cdedb85e9d171be665"
+    },
+    {
+      "branch": "grokbot-deck28-loki-the-deceiver-m7-20261023",
+      "sha": "842f78d94d51770e05f6672e562eadb33eadbdd2"
+    },
+    {
+      "branch": "grokbot-deck29-lord-of-tresserhorn-m7-20261023",
+      "sha": "e117a5ca7acbd45bfb44c077e80d3038ed8dabf1"
+    },
+    {
+      "branch": "grokbot-deck3-admiral-brass-unsinkable-m7-20261023",
+      "sha": "eb40e8e965c79762d9881b1a26dfd1289c49a5eb"
+    },
+    {
+      "branch": "grokbot-deck30-lord-xander-m7-20261023",
+      "sha": "d2132bfbf396cb8c60fb85b1e8b6c01b5c1982a2"
+    },
+    {
+      "branch": "grokbot-deck31-lynde-cheerful-tormentor-m7-20261023",
+      "sha": "0400721e229dfc2e5b655870a3dcce89c1a61bfe"
+    },
+    {
+      "branch": "grokbot-deck32-mai-and-zuko-m7-20261023",
+      "sha": "7b6a0ede1609c3b322586e2db97edf1a33bc82f1"
+    },
+    {
+      "branch": "grokbot-docs-b7-20261030",
+      "sha": "36c8dd8c10ae9f02990f2041d6dd1d09ea509f1e"
+    },
+    {
+      "branch": "grokbot-docs-batch6-20261030",
+      "sha": "4031d8be57e39a7ae618a93fbb4111457a45823c"
+    },
+    {
+      "branch": "grokbot-edge-eras-20261030",
+      "sha": "4b279723d8a408f4f82d798e1a47c730937c79fd"
+    },
+    {
+      "branch": "grokbot-enrichment-b38-20261030",
+      "sha": "7baf7ede8417c4d2bff062715da0eaeebebf253b"
+    },
+    {
+      "branch": "grokbot-generic-lore-pilot-builder-20261030",
+      "sha": "77e6c6d26206d6f052474312f8acf7a9a31827f2"
+    },
+    {
+      "branch": "grokbot-graph-pilot2-20261030",
+      "sha": "3d99b02861bd35ad5d7791d6c57606484df74a58"
+    },
+    {
+      "branch": "grokbot-handoff-b8-final-20261030",
+      "sha": "6360b4332cb89e78462ba85eba6b1d22216d4f14"
+    },
+    {
+      "branch": "grokbot-koth-wrenn-printings-20261030",
+      "sha": "2a603fef0da922d3c5f690e11928faea4bb8231e"
+    },
+    {
+      "branch": "grokbot-m7-production-ledger",
+      "sha": "15a80a2af4aa1494ca4826c70e99e6d786e6696f"
+    },
+    {
+      "branch": "grokbot-multiverse-claim-graph-20261030",
+      "sha": "918af2126a17b9d0ed6e7e1d6fac09ca2a9a080a"
+    },
+    {
+      "branch": "grokbot-overnight-handoff-20261030",
+      "sha": "6032faf5115fcbfa42b516217da85520a53f03d0"
+    },
+    {
+      "branch": "grokbot-p5-fill-b7-1",
+      "sha": "b08d13599759ea84796e8213aa6142c99334e3c1"
+    },
+    {
+      "branch": "grokbot-p5-fill-b7-3",
+      "sha": "8448a3c9cd9c289f85ce34ff67a57900e780de8d"
+    },
+    {
+      "branch": "grokbot-p5-fill-b8-1-20261030",
+      "sha": "1c2937cbf389ba9f100d3c1173a3c5592734719d"
+    },
+    {
+      "branch": "grokbot-p5-fill-b8-2-20261030",
+      "sha": "754c875ce2ac60d4c2de1e2048a85c8bd1ebbf5e"
+    },
+    {
+      "branch": "grokbot-p5-fill-b8-3-20261030",
+      "sha": "9a9cf337cc93fe77be7f881fad7858d72291abd7"
+    },
+    {
+      "branch": "grokbot-p5-neo-pack-20261030",
+      "sha": "007b2a9b4919c520deea4b6583dc98676db70545"
+    },
+    {
+      "branch": "grokbot-p5-packs-b6a-20261030",
+      "sha": "a77ba4b1908e9f093834e1ef85b1f5ab669eaea7"
+    },
+    {
+      "branch": "grokbot-p5-packs-b6b-20261030",
+      "sha": "74e65010105d5206b776787272fca97f83733c7f"
+    },
+    {
+      "branch": "grokbot-p5-packs-b6c-20261030",
+      "sha": "5ee82d4130a1e4113d3cc69c115fdedb0f0aa628"
+    },
+    {
+      "branch": "grokbot-p5-packs-b6d-20261030",
+      "sha": "538df47d8a5270d6f2ab3b51dbb6a37f6d6e153a"
+    },
+    {
+      "branch": "grokbot-p5-packs-b7a-20261030",
+      "sha": "95277b764be2a3a75b46b76a82f8e60b4ff8b4e5"
+    },
+    {
+      "branch": "grokbot-p5-packs-b7b-20261030",
+      "sha": "7d446b9be1dcf4e56b4d0c745b5219fb2d59dc77"
+    },
+    {
+      "branch": "grokbot-p5-triage-b7-2",
+      "sha": "feef018161f580f83fee9be59682787debdb74cd"
+    },
+    {
+      "branch": "grokbot-p7-paraphrase-b8-20261030",
+      "sha": "8ee555ac53258a81904ecd7198db5c7eb5fe6196"
+    },
+    {
+      "branch": "grokbot-p7-rephrased-20261030",
+      "sha": "633d08562417b6e778d802e76d875937dc41b8ec"
+    },
+    {
+      "branch": "grokbot-pack-a-a003-correction-20261030",
+      "sha": "2d430d2b62c57ff68a4e2b54fcb24947e50f5783"
+    },
+    {
+      "branch": "grokbot-pack-a-open-questions-20261030",
+      "sha": "b8ff1f4f4a6c7e287bdd98eecf3b0c6735ede252"
+    },
+    {
+      "branch": "grokbot-pack-anchors-20261030",
+      "sha": "68b9d369320b92d74a765053a6cf7d1ac21f8e1b"
+    },
+    {
+      "branch": "grokbot-pack-b-thran-brothers-war-20261030",
+      "sha": "52710e8ba9e30ba1f44380ca175fc0de45fb170d"
+    },
+    {
+      "branch": "grokbot-pack-c-weatherlight-invasion-20261030",
+      "sha": "c5b0af21d4529d25246b5eddeb8d7cea322cfaa1"
+    },
+    {
+      "branch": "grokbot-pack-c3-one-20261030",
+      "sha": "4a6cc0567bb62cd942ee492913fc9c01ddebb66a"
+    },
+    {
+      "branch": "grokbot-passc-advisory-01-abaddon",
+      "sha": "42980df61b4c943126f511b0267a72343b31a13e"
+    },
+    {
+      "branch": "grokbot-phase1-oracle-drift-20261030",
+      "sha": "b77401b76871055b556526b7d1e9fda6736279af"
+    },
+    {
+      "branch": "grokbot-phase7-companion-ask-20261030",
+      "sha": "5eb0ca2aa76141e8dbb6a268c6de82545e31422e"
+    },
+    {
+      "branch": "grokbot-phase7-relation-tests-20261030",
+      "sha": "208cec004d976d0bffdde63fa95a556eeb38cf9a"
+    },
+    {
+      "branch": "grokbot-phase8-release-readiness-20261030",
+      "sha": "23c294e610af039c49886b8642d98e361acb3ead"
+    },
+    {
+      "branch": "grokbot-pilot3-ugin-allies-20261030",
+      "sha": "2ff74cc491e758de700b20f25b76263d3354bd29"
+    },
+    {
+      "branch": "grokbot-pilot3-ugins-allies-20261030",
+      "sha": "d7bdca2cf9d27e3ff795c664f90db9730805460d"
+    },
+    {
+      "branch": "grokbot-rtd-extraction-20261030",
+      "sha": "556e4ed6162a73e17f6d559c18b115373c1c9787"
+    },
+    {
+      "branch": "grokbot-rules-interactions-20261030",
+      "sha": "2ada9513666a26c3272a538e2a095d50dcf5aa16"
+    },
+    {
+      "branch": "grokbot-story-art-captions-20261030",
+      "sha": "37f8615da34311a1eb0eddb5a69f12eef3edfffa"
+    },
+    {
+      "branch": "grokbot-story-claim-pipeline-20261030",
+      "sha": "a850dd3651c03ba689e1cfa1b5b130082b8a4714"
+    },
+    {
+      "branch": "grokbot-story-coverage-20261030",
+      "sha": "1f0bcea02dcfb4b52fa5d305eaaa7b6b9397b07a"
+    },
+    {
+      "branch": "grokbot-story-image-labels-20261030",
+      "sha": "680f836bbae9dab2dc8b1502e21fd3139a49b944"
+    },
+    {
+      "branch": "grokbot-ugin-bolas-duality-pilot-20261030",
+      "sha": "a3e0c3a5bfdfdb9780a854a25f3803fc43569e12"
+    },
+    {
+      "branch": "grokbot-workflow-v228-20261030",
+      "sha": "8ee1d4385d905bee01c7d6bee14fedb921939242"
+    },
+    {
+      "branch": "jlk-pass-c-03-admiral-brass-unsinkable",
+      "sha": "302af570b9100f5dc0f820b474e16f74b11e381d"
+    },
+    {
+      "branch": "jlk-pass-c-04-anhelo-the-painter",
+      "sha": "6a8704cc7d2ddb679fa9db4855f6769b38898382"
+    },
+    {
+      "branch": "jlk-pass-c-05-ashad-progress",
+      "sha": "064e3f5e7201a662707b6fca03a411d50b4ebb54"
+    },
+    {
+      "branch": "jlk-pass-c-05-ashad-the-lone-cyberman",
+      "sha": "35822d1ad1cc8ce3af611aa6802ab3d1bc6809bf"
+    },
+    {
+      "branch": "jlk-pass-c-06-ashnod-progress",
+      "sha": "256583d4605d91bccf024988c3a42d4ebbbee2fa"
+    },
+    {
+      "branch": "jlk-pass-c-06-ashnod-the-uncaring",
+      "sha": "fc4bec156e4006effd4b44721518058bc9c09fcb"
+    },
+    {
+      "branch": "jlk-pass-c-07-belakor-progress",
+      "sha": "e8910cd725cfb73680c8f5833fe5cd6fa81090a8"
+    },
+    {
+      "branch": "jlk-pass-c-07-belakor-the-dark-master",
+      "sha": "70af760e2bccd57f208c5c94e2117725c4001d2a"
+    },
+    {
+      "branch": "jlk-pass-c-08-cecily-bjorna-lutri",
+      "sha": "95ea1223b38d69cf5ddec3654f2962db42e2579c"
+    },
+    {
+      "branch": "jlk-pass-c-08-cecily-progress",
+      "sha": "474b240e31c03b60c26c5859c29a952ccd2905b9"
+    },
+    {
+      "branch": "jlk-pass-c-09-cormela-glamour-thief",
+      "sha": "69c458a831c57858ff08b8a5eb0d38b1f1bbfa19"
+    },
+    {
+      "branch": "jlk-pass-c-09-cormela-progress",
+      "sha": "02f1b6c5415d12290e92e2843edb0f8f3c0f80dc"
+    },
+    {
+      "branch": "jlk-pass-c-10-crosis-progress",
+      "sha": "c7d737775f0cb484a255383b876df68e20e57078"
+    },
+    {
+      "branch": "jlk-pass-c-10-crosis-the-purger",
+      "sha": "37021040ac6000d15acf4f12c328c2a6b0ab6208"
+    },
+    {
+      "branch": "jlk-pass-c-11-cult-of-skaro",
+      "sha": "51dbe2b9619ad1d1e168108cc986fc09ab042259"
+    },
+    {
+      "branch": "jlk-pass-c-11-cult-of-skaro-progress",
+      "sha": "348fc58c009ce24235ae4b6443ee3e7bd491ffee"
+    },
+    {
+      "branch": "jlk-pass-c-12-davros-dalek-creator",
+      "sha": "be4058711a50c8978be05efb2d44afa5683d2916"
+    },
+    {
+      "branch": "jlk-pass-c-12-davros-dalek-creator-progress",
+      "sha": "9e3b05a5a32b07493630f84b681f629981945fb3"
+    },
+    {
+      "branch": "jlk-pass-c-13-doctor-doom-king-of-latveria",
+      "sha": "f73fbe8f2b3029826fcf024cc9f310cfc0d1c70c"
+    },
+    {
+      "branch": "jlk-pass-c-13-doctor-doom-king-of-latveria-progress",
+      "sha": "ffd01472287db1d27544a72bda45540c1fb974ea"
+    },
+    {
+      "branch": "jlk-pass-c-14-don-andres-the-renegade",
+      "sha": "8416e8050603b3b59d3a58ec592019d5e46642d1"
+    },
+    {
+      "branch": "jlk-pass-c-14-don-andres-the-renegade-progress",
+      "sha": "258882112811a6a06cddcfe3cd23c65e99bc3bbc"
+    },
+    {
+      "branch": "jlk-pass-c-15-dr-eggman",
+      "sha": "15a1d0ace5d95ce9bd5e1e2c3d1f119ea8736d2c"
+    },
+    {
+      "branch": "jlk-pass-c-15-dr-eggman-ledger",
+      "sha": "4917be10f0ac5d73b91e90961bb84a42466c55a0"
+    },
+    {
+      "branch": "jlk-pass-c-16-edea-ledger",
+      "sha": "22ab39249a5f3fa8d6aa2d602ddc496f9a442821"
+    },
+    {
+      "branch": "jlk-pass-c-16-edea-possessed-sorceress",
+      "sha": "af1305a7ecc25d51563c90c22b3431a5bc62f7f7"
+    },
+    {
+      "branch": "jlk-pass-c-17-edward-kenway",
+      "sha": "60c3c95a6b5a01c51ffba4cc45ebf044ca877803"
+    },
+    {
+      "branch": "jlk-pass-c-17-edward-kenway-ledger",
+      "sha": "d01e32d66ae4144d7003d1bf1c7e3f96eb017f27"
+    },
+    {
+      "branch": "jlk-pass-c-18-evelyn",
+      "sha": "a403a43ba0e0c295eb66b3d3b22f336a406ead93"
+    },
+    {
+      "branch": "jlk-pass-c-18-evelyn-ledger",
+      "sha": "203860b4d9d49fe121413c5ff173a95ab0442126"
+    },
+    {
+      "branch": "jlk-pass-c-19-fire-lord-azula",
+      "sha": "35ea57e637f37bbcd5eab97aecbaf66c662acd7a"
+    },
+    {
+      "branch": "jlk-pass-c-19-fire-lord-azula-ledger",
+      "sha": "cf3b3d7cea511d68b6d6312d00ad08db3546a2f1"
+    },
+    {
+      "branch": "jlk-pass-c-20-garza-zol-evidence",
+      "sha": "f454d39dc2d241dc1ad2fb457edf0bb72ecad5e5"
+    },
+    {
+      "branch": "jlk-pass-c-20-garza-zol-ledger",
+      "sha": "f6f02ff9ce051cd2e134455e90b64fcb10ccc9dd"
+    },
+    {
+      "branch": "jlk-pass-c-21-goro-goro-satoru-evidence",
+      "sha": "5aff6e9db2228dc9a07b829737d08f1bfbca64d0"
+    },
+    {
+      "branch": "jlk-pass-c-21-goro-goro-satoru-progress",
+      "sha": "73ca0a8a462983da7ad48cfb4c9d224d1a2d1bae"
+    },
+    {
+      "branch": "jlk-pass-c-22-gwendlyn-di-corci-evidence",
+      "sha": "19efd7f0bc2be9de704178b1634d391bce1f3945"
+    },
+    {
+      "branch": "jlk-pass-c-22-gwendlyn-di-corci-progress",
+      "sha": "6642077e54e3055e7d02517b59df1930ec175b0f"
+    },
+    {
+      "branch": "jlk-pass-c-23-inalla-evidence",
+      "sha": "c15a5150e6cf6708ace0fd234f458c1916292829"
+    },
+    {
+      "branch": "jlk-pass-c-23-inalla-progress",
+      "sha": "02936dcd52d84a450b6f2ff80af059e72105f676"
+    },
+    {
+      "branch": "jlk-pass-c-24-jeleva-evidence",
+      "sha": "413b91ec6b05132e01a7959039ab0ad976386ed7"
+    },
+    {
+      "branch": "jlk-pass-c-24-jeleva-progress",
+      "sha": "07ce58b116479392fc9fd482f703160f71874a64"
+    },
+    {
+      "branch": "jlk-pass-c-25-kefka-evidence",
+      "sha": "47144bdfe544607cd399f78a41013cf27bc8e290"
+    },
+    {
+      "branch": "jlk-pass-c-25-kefka-evidence-20261021",
+      "sha": "0b9dacba1bb2738573137fa402a8828199af3173"
+    },
+    {
+      "branch": "jlk-pass-c-25-kefka-progress",
+      "sha": "0b7c1177ac5d081fe80488a01821e7d026a08bd5"
+    },
+    {
+      "branch": "jlk-pass-c-26-kess-evidence",
+      "sha": "49cfce246f7995a54e722602684046a28d30df1b"
+    },
+    {
+      "branch": "jlk-pass-c-26-kess-progress",
+      "sha": "97f7c99755b39f9fde11cd3aad776bf4d8b5a4c6"
+    },
+    {
+      "branch": "jlk-pass-c-27-grixistax-evidence",
+      "sha": "51943735ea71de222a8ea4d85eaa459f10bf2f4f"
+    },
+    {
+      "branch": "jlk-pass-c-27-grixistax-progress",
+      "sha": "12cb0ef698a36599d44e8055634097008ef902e8"
+    },
+    {
+      "branch": "jlk-pass-c-28-loki-evidence",
+      "sha": "bda61fca863e15bde079c6a8b18df11f85606197"
+    },
+    {
+      "branch": "jlk-pass-c-28-loki-progress",
+      "sha": "d747be631c060382086caee1c946ea17c36f2fdb"
+    },
+    {
+      "branch": "jlk-pass-c-29-lord-tresserhorn-evidence",
+      "sha": "0278a3e74242168c3a014ee19cb09bab727b5e68"
+    },
+    {
+      "branch": "jlk-pass-c-29-lord-tresserhorn-ledger",
+      "sha": "bf5fefec2d99eb6ac91fa051245559158f9abec0"
+    },
+    {
+      "branch": "jlk-pass-c-30-lord-xander-evidence",
+      "sha": "a676329169dd7d8f4e045ffc15395618add7b6e3"
+    },
+    {
+      "branch": "jlk-pass-c-30-lord-xander-ledger",
+      "sha": "9877f102f36fc7ee21548a093ba0b3d3fbf82a82"
+    },
+    {
+      "branch": "jlk-pass-c-31-lynde-evidence",
+      "sha": "de8565d197cb58254ccede8d3e70d5d5f8adc46e"
+    },
+    {
+      "branch": "jlk-pass-c-31-lynde-ledger",
+      "sha": "6b0c6e29ba2b49dd8dbeba8b83eb32cb005e57e0"
+    },
+    {
+      "branch": "jlk-pass-c-32-mai-and-zuko",
+      "sha": "fbca98288a75b30448d56009504dfa850bc4c28a"
+    },
+    {
+      "branch": "jlk-pass-c-32-mai-and-zuko-ledger",
+      "sha": "bbe1c7e0e33429a21fb90991c4addffbaf851f7a"
+    },
+    {
+      "branch": "jlk-pass-c-33-mairsil",
+      "sha": "7654a4656442c151e2c1fb473b099e8e4ac21e7a"
+    },
+    {
+      "branch": "jlk-pass-c-33-mairsil-ledger",
+      "sha": "ba10fae85f832506bbd4abc7e34a1b4d617d5385"
+    },
+    {
+      "branch": "jlk-pass-c-34-marchesa-dealer",
+      "sha": "67f0c941d19ad8524083cefec5094949184ccbd9"
+    },
+    {
+      "branch": "jlk-pass-c-34-marchesa-dealer-ledger",
+      "sha": "de6ddae40d0b63660bf5d649a9477e2e6108e0e7"
+    },
+    {
+      "branch": "jlk-pass-c-35-marchesa-black-rose",
+      "sha": "7a9fd7e0d25141dcf1a41da75d95d749e91a5c61"
+    },
+    {
+      "branch": "jlk-pass-c-35-marchesa-black-rose-ledger",
+      "sha": "ed91c3d128dcb375b9261c87846d983b93b73a45"
+    },
+    {
+      "branch": "jlk-pass-c-36-mishra-artificer-prodigy",
+      "sha": "734d3b8571b5f4bcd786f53a711ba4eda3c1a23d"
+    },
+    {
+      "branch": "jlk-pass-c-36-mishra-artificer-prodigy-ledger",
+      "sha": "79451dc763e2208507695d426831b90c73cef0d6"
+    },
+    {
+      "branch": "jlk-pass-c-37-mishra-eminent-one",
+      "sha": "eb91ccccc497fcd910ccbfc669a580493ee8cca1"
+    },
+    {
+      "branch": "jlk-pass-c-37-mishra-eminent-one-ledger",
+      "sha": "b1db115acc7e15d702d9313edaa8acb81dc286d2"
+    },
+    {
+      "branch": "jlk-pass-c-38-missy-evidence",
+      "sha": "3d8a907c86d667e2ec0170ba57671719eb91a628"
+    },
+    {
+      "branch": "jlk-pass-c-38-missy-ledger",
+      "sha": "c90935013dc897d49a3829169b052f4c404ba0dd"
+    },
+    {
+      "branch": "jlk-pass-c-39-nathan-drake-evidence",
+      "sha": "88ceb95f55ccdb4621cd913cb7a1550a32b1fac5"
+    },
+    {
+      "branch": "jlk-pass-c-39-nathan-drake-ledger",
+      "sha": "0b84ec2750212bad9f822c8c2d65d2c18264f466"
+    },
+    {
+      "branch": "jlk-pass-c-40-nekusar-evidence",
+      "sha": "454fa1b70ee12eb951733f67601af0fbe7660f05"
+    },
+    {
+      "branch": "jlk-pass-c-40-nekusar-ledger",
+      "sha": "8268f7569e867c2790cb26b9c873b0e9d0bc481a"
+    },
+    {
+      "branch": "jlk-pass-c-41-nicol-bolas-evidence",
+      "sha": "8c16d9f6dafaeab3bf3a19737038eedb7c3d78fa"
+    },
+    {
+      "branch": "jlk-pass-c-41-nicol-bolas-ledger",
+      "sha": "27488d16632e642727f10c40da14f400975a3911"
+    },
+    {
+      "branch": "jlk-pass-c-42-nicol-ravager-evidence",
+      "sha": "edd47c6baa56df7e9c5dbbc36fcbc8aedf656122"
+    },
+    {
+      "branch": "jlk-pass-c-42-nicol-ravager-ledger",
+      "sha": "a574f9b7fbd79bfcd8315040a907ef559a3c8de3"
+    },
+    {
+      "branch": "jlk-pass-c-43-norman-evidence",
+      "sha": "16a82ab9b2f2d9e18a1e404f23864eb8ca5593bc"
+    },
+    {
+      "branch": "jlk-pass-c-43-norman-ledger",
+      "sha": "4673c263461c8d02dfb6ce48a80c7b14c38241ed"
+    },
+    {
+      "branch": "jlk-pass-c-44-obeka-evidence",
+      "sha": "ab32988e4ff35ef9736c99812f60f29d26f97729"
+    },
+    {
+      "branch": "jlk-pass-c-44-obeka-ledger",
+      "sha": "a9f3d3d34ea788999527fac761f80af56b09a19d"
+    },
+    {
+      "branch": "jlk-pass-c-45-obeka-splitter-evidence",
+      "sha": "bc38f6f192621cf30b3465be353ee38664b9045a"
+    },
+    {
+      "branch": "jlk-pass-c-45-obeka-splitter-ledger",
+      "sha": "a19f0065bbcc60471b32f90c311915a8f2222994"
+    },
+    {
+      "branch": "jlk-pass-c-46-parnesse-evidence",
+      "sha": "0c479ab8a8674e8ef50a486ecbea8a61acd92bbc"
+    },
+    {
+      "branch": "jlk-pass-c-46-parnesse-ledger",
+      "sha": "47217df946311f37010d98b0d7855db049446472"
+    },
+    {
+      "branch": "jlk-pass-c-47-rogsi-evidence",
+      "sha": "7c3bbefbf72515d0f7a54aa17ca773b345450fb9"
+    },
+    {
+      "branch": "jlk-pass-c-47-rogsi-ledger",
+      "sha": "5b5fa35d58c84566037714ec75a1325ba42a95c1"
+    },
+    {
+      "branch": "jlk-pass-c-48-saruman-evidence",
+      "sha": "ecb11deeb2f8ca1f56a1bbb02ab1393a3fa1eb18"
+    },
+    {
+      "branch": "jlk-pass-c-48-saruman-ledger",
+      "sha": "cd0843f77afc37c1198220b21973fed38420841c"
+    },
+    {
+      "branch": "jlk-pass-c-49-sauron-lord-evidence",
+      "sha": "44c6438f0cb94432cb3c579fb0aa0539dd3db7d0"
+    },
+    {
+      "branch": "jlk-pass-c-49-sauron-lord-ledger",
+      "sha": "2c9eb4e2f296c9bbc55c14dfeff9bcbb194d4347"
+    },
+    {
+      "branch": "jlk-pass-c-50-sauron-dark-evidence",
+      "sha": "cc28c93a44afd8fd4e22a3ac677b5c6094242acf"
+    },
+    {
+      "branch": "jlk-pass-c-50-sauron-dark-ledger",
+      "sha": "49b94959077e7e1604216aa2d0f86cad24b30969"
+    },
+    {
+      "branch": "jlk-pass-c-51-sedris-20261021",
+      "sha": "a493fc5060780f558c0acf8fbed176e3c10d6f99"
+    },
+    {
+      "branch": "jlk-pass-c-51-sedris-evidence",
+      "sha": "0865e5fbc3124cb400c41ea6f6cba79f6c503d6a"
+    },
+    {
+      "branch": "jlk-pass-c-51-sedris-ledger",
+      "sha": "9bda0b178112a86cce66c1cab5457ad2e0e17497"
+    },
+    {
+      "branch": "jlk-pass-c-52-solkanar-20261021",
+      "sha": "36bd4f99e1d9bea3e70c678595cf50f8807dd82b"
+    },
+    {
+      "branch": "jlk-pass-c-52-solkanar-evidence",
+      "sha": "207f618647c138b7f6cd48c0005325017f74c3c7"
+    },
+    {
+      "branch": "jlk-pass-c-52-solkanar-ledger-20261021",
+      "sha": "6e8e6c31104b4c8ecdeb1a056eb105b3646c7a99"
+    },
+    {
+      "branch": "jlk-pass-c-53-solkanar-tainted-20261021",
+      "sha": "d230ccaa7acecd43eb25f17ef22bd850f6d7aeb9"
+    },
+    {
+      "branch": "jlk-pass-c-53-tainted-evidence",
+      "sha": "22715cbee70930884644857e64d052465c19cb8e"
+    },
+    {
+      "branch": "jlk-pass-c-53-tainted-ledger",
+      "sha": "6d399ddfeb6c10ac6fefd139b39334285cd69fc1"
+    },
+    {
+      "branch": "jlk-pass-c-54-tetsuo-umezawa-evidence",
+      "sha": "f702ed0b5e14290f70472fc1d34652ee0a573446"
+    },
+    {
+      "branch": "jlk-pass-c-54-tetsuo-umezawa-ledger",
+      "sha": "2f0568a6a9d228f2fe5cb5de17751d0c5011b9c6"
+    },
+    {
+      "branch": "jlk-pass-c-55-imperial-evidence",
+      "sha": "4b9d0ede116d4a87a2be1d72a20ee9950f5a3898"
+    },
+    {
+      "branch": "jlk-pass-c-55-imperial-ledger",
+      "sha": "124c1cc4efcf8dbc7760cc666bc6159b03b1179d"
+    },
+    {
+      "branch": "jlk-pass-c-56-madcap-evidence",
+      "sha": "26e94d9d19c8492d8def5e3be14d98eab9ea96e3"
+    },
+    {
+      "branch": "jlk-pass-c-56-madcap-ledger",
+      "sha": "6b1e8d8ae7c62abddc0c8ad7ff1183c27885471b"
+    },
+    {
+      "branch": "jlk-pass-c-57-rani-evidence",
+      "sha": "b0a996f1130d78809a8472dbb5d14fe978b4e72b"
+    },
+    {
+      "branch": "jlk-pass-c-57-rani-ledger",
+      "sha": "8bacc4c672816c165192dd8a4afc74d5ca376f4c"
+    },
+    {
+      "branch": "jlk-pass-c-58-valeyard-evidence",
+      "sha": "b9338c1c8e313cac22fa14c52c399d793270f54d"
+    },
+    {
+      "branch": "jlk-pass-c-58-valeyard-ledger",
+      "sha": "8737ef72649b0cd58df564e7fc47caba4daaa337"
+    },
+    {
+      "branch": "jlk-pass-c-59-thraximundar-evidence",
+      "sha": "4edfce358e193ed74c5703831606516a27a0f6b8"
+    },
+    {
+      "branch": "jlk-pass-c-59-thraximundar-ledger",
+      "sha": "b04cd1e163a26933ca1823484f3676e867ce8582"
+    },
+    {
+      "branch": "jlk-pass-c-60-tresserhorn-evidence",
+      "sha": "0e62c39cded5f708be1e0058b2ab00d8db9f810c"
+    },
+    {
+      "branch": "jlk-pass-c-60-tresserhorn-ledger",
+      "sha": "0323a9bf403bf1bcc9357510ae1b86b93f186c31"
+    },
+    {
+      "branch": "jlk-pass-c-61-wick-evidence",
+      "sha": "20aa70acec17f6cd69a9571da27d79e7ffeda166"
+    },
+    {
+      "branch": "jlk-pass-c-61-wick-ledger",
+      "sha": "a32a3b35ac19fc3afa28103ce2fa2ee8d2b9adfb"
+    },
+    {
+      "branch": "jlk-pass-c-62-zevlor-evidence",
+      "sha": "9f99a0adacfe5165c2577de2c4e8a03859c91c39"
+    },
+    {
+      "branch": "jlk-pass-c-62-zevlor-ledger",
+      "sha": "2e2c41f29f1446fafe1ebf82dff7e721ecdc3a32"
+    },
+    {
+      "branch": "jlk-progress-03-admiral-brass-unsinkable",
+      "sha": "e7db269e112144e83cfdfb40549732f0d65a8cb8"
+    },
+    {
+      "branch": "jlk-progress-04-anhelo-the-painter",
+      "sha": "12aaf68c8097327c545e04bccac6e5ccd115a445"
+    },
+    {
+      "branch": "m7-deck37-mishra-eminent-one-rev1-20261026",
+      "sha": "670f0cecf0812583a880d02135752c1aee40e19b"
+    },
+    {
+      "branch": "m7-deck38-missy-rev1-20261026",
+      "sha": "0afd9afc474880769c28fbe6cbc461d35d56f930"
+    },
+    {
+      "branch": "m7-deck43-norman-chatgpt-rev1",
+      "sha": "f98793c3673a8a99fcae394fb02885f3cb424a2d"
+    },
+    {
+      "branch": "m7-deck45-obeka-splitter-rev1-review",
+      "sha": "6b1e4203210f3f6f765f2876597a0c4af554ceb6"
+    },
+    {
+      "branch": "m7/deck61-wick-rev1-approval",
+      "sha": "d6ca6d87c7174fbef0de888bd75bd9b21ad88e6f"
+    },
+    {
+      "branch": "m7/deck62-zevlor-rev1-exact-20261027",
+      "sha": "4145603e8a13c3470486f9663c15239f247ff3d6"
+    },
+    {
+      "branch": "m7/evidence-backfill-eight-p0-20261027",
+      "sha": "ae45cb6c13797228df0c0f380a04d3dfe92f82a2"
+    },
+    {
+      "branch": "main",
+      "sha": "380d5c5182abbbd373c6434fb34fd7fc12d989e9"
+    },
+    {
+      "branch": "reconcile/m7-obeka-splitter-decision-gate-20261028",
+      "sha": "7933d217cbf84fe8c56849fa9148975c21318fdd"
+    },
+    {
+      "branch": "reconcile/m7-obeka-splitter-p0-source-20261028",
+      "sha": "78f010162ae12ca51ecabaf3996fce7d8af458f2"
+    },
+    {
+      "branch": "reconcile/m7-thraximundar-59-source-20261028",
+      "sha": "e9fbfe9963e6a3287196fa2665d48258610b47f5"
+    },
+    {
+      "branch": "research/deck61-wick-m7-rev1-20261027",
+      "sha": "1907ae10451bdbbd68e9b689c1a5d41612b0e0ac"
+    }
+  ]
+}

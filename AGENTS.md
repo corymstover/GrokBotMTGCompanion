@@ -1,10 +1,11 @@
 # MTG Companion — current agent entry point
 
-**Current baseline (2026-11-02):** Master Workflow **v3.11** retains v3.09's
+**Current baseline (2026-11-02):** Master Workflow **v3.12** retains v3.09's
 owner-selected **bounded repository construction acceptance**, plus the new
 explicit owner approval of the three exact original Phase 6 pilot hashes.
-**134/137** historical boxes are checked; zero active build requirements and
-three perpetual upkeep duties remain open. This is not universal lore, live
+**134/134 finite checklist items are checked; 0 are open.** Historical
+K105/K125/K126 moved to [continuing maintenance](docs/MAINTENANCE_POLICY.md),
+not falsely completed forever. This is not universal lore, live
 rules/ban, or empirical Commander power certification. See
 [`MTG_MULTIVERSE_MASTER_WORKFLOW.md`](MTG_MULTIVERSE_MASTER_WORKFLOW.md),
 [`data/release/bounded_repository_completion_2026-11-02.json`](data/release/bounded_repository_completion_2026-11-02.json),
@@ -26,10 +27,12 @@ labels. Any unresolved lore/rules question remains explicitly UNKNOWN.
 canonical approval registry (`state/current_deck_overrides.json` in **that
 repository**, not at this repository root). This repo also contains an archived
 Grixis source copy and local audit digests; neither supersedes the canonical
-registry. All nine lore decks **#1–8 and #10** are indexed in
+registry. All ten lore decks **#1–#10**, including the exact Ugin #9 historical
+list with its banned Emrakul Rule 0 exception, are indexed in
 [`docs/LORE_DECK_APPROVAL_INDEX.md`](docs/LORE_DECK_APPROVAL_INDEX.md), with
 exact owner approval receipts in [`data/lore_decks/approvals/`](data/lore_decks/approvals/), and must remain
-unchanged. The three graph-built foundation pilots are now **OWNER APPROVED
+unchanged, with [#9's SHA-bound owner receipt](data/lore_decks/owner_decisions/2026-11-02_cory_approved_lore_deck_9_ugin.md).
+The three graph-built foundation pilots are now **OWNER APPROVED
 AS EXACT HISTORICAL OCTOBER 29 LISTS**, according to
 [`data/lore_decks/owner_decisions/2026-11-02_cory_approved_phase6_pilots.md`](data/lore_decks/owner_decisions/2026-11-02_cory_approved_phase6_pilots.md).
 Their unmodified source specs and proposal JSON retain their *older*
@@ -55,4 +58,4 @@ The one-click `M7 One-Command Evidence Intake` Action is read-only evidence reco
 
 ## Other MTG lore and creative decks (tools ready; explicit requests only)
 
-The Grixis instructions above apply only to explicit Grixis finalization and must never be silently applied to a new lore-deck request. For knowledge queries, use [`LORE_QUERY_QUICKSTART.md`](LORE_QUERY_QUICKSTART.md), `scripts/lore_query.py`, `scripts/mv_ask.py`, and the cited graph, timeline and Q&A tools. [`LORE_DECKBUILDING_READY.md`](LORE_DECKBUILDING_READY.md), `scripts/story_deck_planner.py` and `scripts/evaluate_decklist.py` are available for a **new explicit** deckbuilding request. Separate printed facts, official story claims, contextual links, and creative flavor. An old draft's "awaiting approval" line does not override a later exact owner approval receipt; the nine numbered lore deck specifications and three newly approved historical pilot hashes are protected. No draft becomes approved merely by an engineering merge without an explicit owner record.
+The Grixis instructions above apply only to explicit Grixis finalization and must never be silently applied to a new lore-deck request. For knowledge queries, use [`LORE_QUERY_QUICKSTART.md`](LORE_QUERY_QUICKSTART.md), `scripts/lore_query.py`, `scripts/mv_ask.py`, and the cited graph, timeline and Q&A tools. [`LORE_DECKBUILDING_READY.md`](LORE_DECKBUILDING_READY.md), `scripts/story_deck_planner.py` and `scripts/evaluate_decklist.py` are available for a **new explicit** deckbuilding request. Separate printed facts, official story claims, contextual links, and creative flavor. An old draft's "awaiting approval" line does not override a later exact owner approval receipt; all ten numbered lore deck specifications and three newly approved historical pilot hashes are protected. No draft becomes approved merely by an engineering merge without an explicit owner record.

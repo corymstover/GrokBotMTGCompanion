@@ -1,7 +1,8 @@
 # Lore-first Commander decks — owner approval index
 
-**As of 2026-11-02:** Cory approved exactly **nine numbered lore decks**:
-**#1–8 and #10**. Deck **#9 (Ugin)** is an unapproved proposal. Approval
+**As of 2026-11-02:** Cory approved **all ten numbered lore decks, #1–#10**.
+Deck **#9 (Ugin)** was approved today against the *exact original* PR #776
+decklist SHA-256; its original preapproval notes remain historical. Approval
 belongs to an exact historical artifact and never implies current Commander
 legality, a certified bracket, permission for card substitutions, or approval
 of a different revision. The Grixis 62-deck canonical registry is separate.
@@ -16,11 +17,8 @@ of a different revision. The Grixis 62-deck canonical registry is separate.
 | 6 | Battle for Zendikar: Rise of the Gatewatch | [#1–7 receipt](../data/lore_decks/approvals/2026-10-28_cory_approved_lore_decks_1-7.md) | [Story spec](../data/lore_decks/drafts/battle_for_zendikar_story_proposal.json) · PR #773 |
 | 7 | Ravnica: Ten Guilds and the Living Guildpact | [#1–7 receipt](../data/lore_decks/approvals/2026-10-28_cory_approved_lore_decks_1-7.md) | [Story spec](../data/lore_decks/drafts/ravnica_guildpact_story_proposal.json) · PR #774 |
 | 8 | Karn: The Silver Golem's Life | [#8 receipt](../data/lore_decks/approvals/2026-10-28_cory_approved_lore_deck_8_karn.md) | [Approved decklist](../data/lore_decks/drafts/karn_complete_life_story_decklist.txt) · raw SHA-256 `00328faa623c32eaa5082612125baa460e7befc5b6b7f8b319db8cfa28a6c30e` |
+| 9 | Ugin's Complete Life Story (Rule 0) | [#9 exact-SHA owner receipt](../data/lore_decks/owner_decisions/2026-11-02_cory_approved_lore_deck_9_ugin.md) | [Original unchanged decklist](../data/lore_decks/drafts/ugin_complete_life_story_decklist.txt) · raw SHA-256 `94fe43d3b748ee3f49b265797d4384e6a5948d719796308e4ad620e66b0202a8` · PR #776 merged |
 | 10 | Yawgmoth: Father of Machines — Complete Biography | [#10 receipt](../data/lore_decks/approvals/2026-10-29_cory_approved_lore_deck_10_yawgmoth.md) | [Approved decklist](../data/lore_decks/drafts/yawgmoth_complete_biography_decklist.txt) · raw SHA-256 `d77fb2e2976c01c18db233a3e39816241f46e891c696b9a301a85bbd75b9812f` |
-
-## Pending — not owner-approved
-
-- **#9 — Ugin's life:** [Unapproved review PR #776](https://github.com/corymstover/GrokBotMTGCompanion/pull/776). Its existing proposal and Rule 0 notes must not be called approved or merged as an approved deck without Cory's specific acceptance.
 
 ## Separately owner-approved Phase 6 historical pilots (2026-11-02)
 
@@ -38,7 +36,9 @@ and [machine-readable owner record](../data/lore_decks/owner_decisions/2026-11-0
 
 This acceptance does **not** certify current rules, legality, power, matchup
 performance or any changed future version. The three explicit owner review
-boxes are now checked; only ongoing upkeep remains open in the 137-item list.
+boxes are now checked. The three recurring duties have been moved out of
+the finite checklist into the [maintenance policy](MAINTENANCE_POLICY.md):
+**134/134 checked, 0 open**.
 
 ## Authority and legality
 

@@ -95,7 +95,7 @@ class FoundationChecklistClosure(unittest.TestCase):
     def test_three_scoped_engineering_items_are_checked_without_release_claims(self):
         import audit_full_checklist
         rows = audit_full_checklist.items()
-        self.assertEqual(len(rows), 137)
+        self.assertEqual(len(rows), 134)
         for item in ("Verify debut/reprint attribution using dated",
                      "Use the Phase 1B Set & Printing Atlas",
                      "Test difficult representative queries"):

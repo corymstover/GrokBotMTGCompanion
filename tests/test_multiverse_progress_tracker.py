@@ -22,15 +22,15 @@ class ProgressTrackerCheckpoint(unittest.TestCase):
 
     def test_release_gates_have_typed_four_state_triage_not_owner_approval(self):
         rows, counts = P.gate_triage()
-        self.assertEqual(len(rows), 14)
-        self.assertEqual(sum(counts.values()), 14)
+        self.assertEqual(len(rows), 12)
+        self.assertEqual(sum(counts.values()), 12)
         self.assertEqual(set(counts), {'Completed', 'Under review', 'Blocked', 'Not started'})
         # A completed, independently verified gate can truthfully have no remaining blocker.
         self.assertTrue(all(row['status'] in counts and
                             (row['blocker_kinds'] or row['status'] == 'Completed') for row in rows))
         self.assertTrue(any(row['status'] == 'Completed' and not row['blocker_kinds'] for row in rows))
         self.assertIn('Under review', P.build())
-        self.assertIn('separate from the 137-item engineering checklist', P.build())
+        self.assertIn('separate from the historical 137-position / current 134-item checklist', P.build())
 
 
 if __name__ == "__main__":

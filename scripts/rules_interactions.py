@@ -162,7 +162,7 @@ def deck(path: Path) -> dict:
 def audit() -> dict:
     decks = [deck(p) for p in DECKS]
     return {"schema": "rules-interaction-audit/v1",
-            "status": "AUTOMATED_EVIDENCE_SURFACING (not a rules certification; decks remain UNAPPROVED proposals)",
+            "status": "AUTOMATED_EVIDENCE_SURFACING (not a rules certification; individual historical proposal files may have later exact-SHA owner approvals)",
             "limitation": LIMIT, "rules_source": {k: CR[k] for k in ("title", "effective", "source_sha256")},
             "card_source": "Scryfall-derived shards (cards/, Oracle bulk 2026-10-15)",
             "decks": decks,

@@ -76,7 +76,7 @@ def build() -> str:
     full_triage = load("data/release/full_checklist_triage_2026-11-01.json")["totals"]
     done = sum(x == "x" for x in checks)
     assert (full_triage["checked"], full_triage["open"], full_triage["items"]) == (
-        done, len(checks) - done, len(checks)), "137-item checklist dashboard is stale"
+        done, len(checks) - done, len(checks)), "finite checklist dashboard is stale"
     if (full_triage["remaining_repository_build"] + full_triage["excluded_from_repository_build"]
             != full_triage["open"]):
         raise ValueError("owner-defined repository finish line does not reconcile")
@@ -105,8 +105,8 @@ they are not the active Phase 1–8 completion counters.
 
 | Measure | Verified committed state | Important limitation |
 | --- | ---: | --- |
-| Master Workflow checklist | **{done}/{len(checks)} checked; {len(checks)-done} open** | Engineering checklist; only K112–K114 carry independent exact SHA-bound owner approval. |
-| Repository completion finish line | **{full_triage['remaining_repository_build']} actionable build items remain** | The {full_triage['excluded_from_repository_build']} open items are recurring upkeep, not unfinished initial construction. |
+| Master Workflow checklist | **{done}/{len(checks)} checked; {len(checks)-done} open** | The three perpetual duties were archived outside the finite checklist; K112–K114 have independent exact SHA-bound pilot approval. |
+| Repository completion finish line | **{full_triage['remaining_repository_build']} actionable build items remain** | Recurring work follows [maintenance policy](docs/MAINTENANCE_POLICY.md), without impossible-to-complete checkboxes. |
 | Priority card enrichments | **{len(enrichment)}/5,362** | Enrichment does not imply every card has a sourced story. |
 | Source-page inventory | **{coverage['cited_pages']} cited + {coverage['reviewed_no_claim_pages']} reviewed = {coverage['pages']} accounted for** | Current inventoried pages only, not all fiction ever published. |
 | Cited lore claims | **{current_claims}** | Live graph/inventory concordance; claim packs remain preliminary research. |
@@ -115,31 +115,31 @@ they are not the active Phase 1–8 completion counters.
 | Exact printing-specific representations | **{graph.get('exact_art_printings', 0)}** | Frozen snapshot + official art-file label evidence, **not** canon scene depiction. |
 | In-universe dated claim edges | **{graph['claim_edges_with_in_universe_date']}** | Most graph edges lack a verified in-world date. |
 | Post-foundation lore-deck pilot drafts | **3 exact historical lists owner-approved** | [November 2 SHA-bound receipt](data/lore_decks/owner_decisions/2026-11-02_cory_approved_phase6_pilots.md); original draft approval=false metadata remains archival; no rebuild, contemporary legality, power certification or playtesting implied. |
+| Numbered lore decks | **10/10 owner-approved** | [Exact #9 Ugin SHA-bound receipt](data/lore_decks/owner_decisions/2026-11-02_cory_approved_lore_deck_9_ugin.md); original Rule 0 Emrakul exception remains; approval is not sanctioned Commander legality. |
 | Foundation-release readiness | **7/7 finite gates certified by separate SHA-pinned external evidence** | Read-only machine status remains {readiness} (5 MET, 2 EXTERNAL); the immutable v3.00 release certificate records exact-commit Actions, unchanged protected hashes and dated source limits. |
 | Official source watch | **Weekly review-only workflow** | Story index, Wizards update-bulletin candidates, Scryfall metadata and rules PDF candidates; not automatic lore/rules updates. |
 
-**First-release and Phase 8 gate triage (14 gates, separate from the 137-item engineering checklist):**
+**First-release and Phase 8 finite gate triage ({len(gate_rows)} gates, separate from the historical 137-position / current 134-item checklist):**
 Completed **{gate_counts['Completed']}** · Under review **{gate_counts['Under review']}** ·
 Blocked **{gate_counts['Blocked']}** · Not started **{gate_counts['Not started']}**.
 "Under review" does **not** mean approved; it includes pending owner decisions,
-exact-commit CI and ongoing maintenance. Both unfinished Phase 8 gate rows are
-**recurring upkeep excluded from the repository finish line**. "Blocked" means a documented missing
+exact-commit CI. The two former perpetual Phase 8 gate rows are archived in
+the separate [maintenance policy](docs/MAINTENANCE_POLICY.md). "Blocked" means a documented missing
 source or remaining engineering work. The complete typed evidence is in
 `data/release/certification_dry_run_2026-10-30.json`.
 
-**All-137 engineering checklist triage (not release certification):**
+**All-134 finite engineering checklist triage (not release certification):**
 Completed **{full_triage['by_status']['Completed']}** · Under review **{full_triage['by_status']['Under review']}** ·
 Blocked **{full_triage['by_status']['Blocked']}** · Not started **{full_triage['by_status']['Not started']}**.
 **Active repository build: {full_triage['remaining_repository_build']} remaining**;
-**excluded from repository completion: {full_triage['excluded_from_repository_build']}**
-(all {full_triage['recurring_maintenance']} are recurring upkeep tasks).
-Every checked and unchecked task is accounted for in
+**archived recurring duties outside the checklist: {full_triage['archived_recurring_duties']}**.
+Every finite item is accounted for in
 `data/release/full_checklist_triage_2026-11-01.json` and
 `research/FULL_CHECKLIST_TRIAGE_2026-11-01.md`. The post-foundation Phase 6
 engine has resumed; Cory **approved the three exact historical pilot hashes
 without changes** on November 2, before any future rebuilding. This is owner
 approval, not contemporary rules/power certification. Recurring monitoring
-is not a finite build gate.
+is covered by the maintenance policy rather than a finite checklist.
 
 {gate_report}
 
@@ -165,7 +165,8 @@ historical Scryfall replay and its November 1 bulk-field freshness audit (repeat
 Post-foundation Phase 6 engine checks K106/K109/K111/K115 and the preliminary
 three-pilot functional strategy preflight pass within a limited, source-dated
 scope. **Cory's exact hash-bound owner approval closes K112/K113/K114 without
-changing any cards; only K105/K125/K126 recurring upkeep remains unchecked.**
+changing any cards. The three formerly unchecked K105/K125/K126 duties are
+archived outside the now **134/134-complete finite checklist**.**
 Current legality and tested strategy power remain unverified and future pilot
 revisions need new owner approval. Do not modify any of the 62 Grixis decks.
 {END}"""

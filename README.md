@@ -17,8 +17,8 @@ labelled rather than guessed.
 | Ask a question about a card, lore, rules or sets | `python3 scripts/mv_ask.py ask "What does Sol Ring do?"` |
 | Inspect a specific card | `python3 scripts/mv_ask.py card "Sol Ring"` |
 | Query cited relationships | `python3 scripts/mv_ask.py lore "Ugin"` |
-| Read program status | [Master Workflow v3.11](MTG_MULTIVERSE_MASTER_WORKFLOW.md) · [Progress Tracker](Progress%20Tracker.md) |
-| Examine owner-approved lore decks | [Single lore-deck approval index](docs/LORE_DECK_APPROVAL_INDEX.md) (#1–8, #10, plus three separately approved historical pilots) |
+| Read program status | [Master Workflow v3.12](MTG_MULTIVERSE_MASTER_WORKFLOW.md) · [Progress Tracker](Progress%20Tracker.md) · [Continuing maintenance](docs/MAINTENANCE_POLICY.md) |
+| Examine owner-approved lore decks | [Single lore-deck approval index](docs/LORE_DECK_APPROVAL_INDEX.md) (all ten numbered decks, plus three separately approved historical pilots) |
 | Find the canonical Grixis approvals | [Separate Grixis encyclopedia repository](https://github.com/corymstover/grixis-commander-encyclopediaGPT) |
 
 Run the targeted everyday-question checks with
@@ -33,10 +33,13 @@ preserves links to the 28 retired dated CI entry points and explains their
 replacement; their specialized audit scripts remain available.
 
 The accepted **v3.09 bounded build milestone** and **v3.10 hardening** are
-historical checkpoints. **v3.11** records Cory's later explicit approval of
-the three original Phase 6 decks *by exact SHA-256*, with no card changes and
-without claiming live legality or tested power. The current 137-task checklist
-is **134 checked / 3 recurring upkeep items open**. Agents should follow
+historical checkpoints. **v3.11** records Cory's approval of the three Phase 6
+decks *by exact SHA-256*, with no card changes. **v3.12** records separate
+approval of the unchanged original Ugin lore deck **#9** (including its
+story-first Rule 0 exception) and removes three perpetual upkeep duties from
+the finite checklist. **134/134 items are checked; 0 remain open.** Continuing
+maintenance is governed by [policy](docs/MAINTENANCE_POLICY.md), not an
+impossible-to-complete checklist. Agents should follow
 [AGENTS.md](AGENTS.md).
 
 ## Bounded repository-build acceptance (2026-11-02)
@@ -47,12 +50,12 @@ construction complete**. Under that newly selected standard, the Master
 Workflow had **131/137 historical checkboxes checked** and **0 active
 repository-build items**. The other six boxes were three pilot reviews and
 three recurring source/rules/set-update duties. The later **v3.11 exact owner
-approval checks off all three pilot boxes**, leaving only the recurring
-maintenance duties open. The original bounded milestone remains historical.
+approval checks off all three pilot boxes**; v3.12 then moves recurring
+maintenance out of the finite checklist. The original bounded milestone remains historical.
 
 - [Reproducible 14-gate bounded completion audit](data/release/bounded_repository_completion_2026-11-02.json) ·
   `python3 scripts/audit_bounded_repository_completion.py --check`
-- [Master Workflow v3.11](MTG_MULTIVERSE_MASTER_WORKFLOW.md) ·
+- [Master Workflow v3.12](MTG_MULTIVERSE_MASTER_WORKFLOW.md) ·
   [current progress tracker](Progress%20Tracker.md)
 - [Separate 7/7 foundation milestone certificate](data/release/foundation_milestone_certificate_2026-11-01.json)
 

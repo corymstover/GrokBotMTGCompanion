@@ -106,7 +106,8 @@ class CommanderRulesTests(unittest.TestCase):
     def test_lore_drafts_pass_include_checks(self):
         """Colour identity must hold for every draft. A card that is banned per Scryfall is allowed
         only where an owner approval record already names it as an intentional exception (read-only)."""
-        approvals = " ".join(p.read_text(encoding="utf-8") for p in (ROOT / "data/lore_decks/approvals").glob("*.md"))
+        approval_dirs = [ROOT / "data/lore_decks/approvals", ROOT / "data/lore_decks/owner_decisions"]
+        approvals = " ".join(p.read_text(encoding="utf-8") for folder in approval_dirs for p in folder.glob("*.md"))
         drafts = sorted((ROOT / "data/lore_decks/drafts").glob("*_decklist.txt"))
         assert len(drafts) >= 2
         for path in (d.relative_to(ROOT) for d in drafts):

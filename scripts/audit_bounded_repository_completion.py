@@ -50,7 +50,7 @@ GATES = {
 # These current-state assertions account for Cory's later v3.11 exact pilot
 # approval, but the dated v3.09 artifact below must not be rewritten as if its
 # original 131/137 checkpoint had already received that decision.
-EXCLUDED = {"K105", "K125", "K126"}
+ARCHIVED_DUTIES = {"K105", "K125", "K126"}
 NOW_APPROVED = {"K112", "K113", "K114"}
 
 
@@ -155,13 +155,14 @@ def build(paths: dict[str, Path] | None = None) -> dict:
     if len(engine_result["pilots"]) != 3 or strategy_result != st:
         raise ValueError("protected deck or strategy-engine replay drifted")
     triage = checklist.build()
-    if (triage["totals"]["checked"] != 134 or triage["totals"]["open"] != 3
+    if (triage["totals"]["checked"] != 134 or triage["totals"]["open"] != 0
             or triage["totals"]["remaining_repository_build"] != 0
-            or triage["totals"]["excluded_from_repository_build"] != 3):
-        raise ValueError("current finish line not exactly 134 checked / 3 recurring upkeep")
+            or triage["totals"]["excluded_from_repository_build"] != 0
+            or triage["totals"]["archived_recurring_duties"] != len(ARCHIVED_DUTIES)):
+        raise ValueError("current finish line not exactly 134/134; historical upkeep not archived")
     by_id = {x["id"]: x for x in triage["items"]}
     if (any(not by_id[k]["checked"] for k in GATES)
-            or any(by_id[k]["checked"] for k in EXCLUDED)
+            or any(k in by_id for k in ARCHIVED_DUTIES)
             or any(not by_id[k]["checked"] for k in NOW_APPROVED)
             or len(GATES) != 14):
         raise ValueError("bounded gate, approved pilot or recurring upkeep misclassified")

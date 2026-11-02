@@ -14,14 +14,14 @@ schema: 2
 <!-- MULTIVERSE-CURRENT:START -->
 ## MTG Multiverse Companion — current engineering checkpoint (2026-11-02)
 
-**Live authority:** [Master Workflow v3.11](MTG_MULTIVERSE_MASTER_WORKFLOW.md), the current
+**Live authority:** [Master Workflow v3.12](MTG_MULTIVERSE_MASTER_WORKFLOW.md), the current
 graph and dated recount. The older cycle-36/October-15 metrics **below this section are historical**;
 they are not the active Phase 1–8 completion counters.
 
 | Measure | Verified committed state | Important limitation |
 | --- | ---: | --- |
-| Master Workflow checklist | **134/137 checked; 3 open** | Engineering checklist; only K112–K114 carry independent exact SHA-bound owner approval. |
-| Repository completion finish line | **0 actionable build items remain** | The 3 open items are recurring upkeep, not unfinished initial construction. |
+| Master Workflow checklist | **134/134 checked; 0 open** | The three perpetual duties were archived outside the finite checklist; K112–K114 have independent exact SHA-bound pilot approval. |
+| Repository completion finish line | **0 actionable build items remain** | Recurring work follows [maintenance policy](docs/MAINTENANCE_POLICY.md), without impossible-to-complete checkboxes. |
 | Priority card enrichments | **5362/5,362** | Enrichment does not imply every card has a sourced story. |
 | Source-page inventory | **576 cited + 50 reviewed = 626 accounted for** | Current inventoried pages only, not all fiction ever published. |
 | Cited lore claims | **1263** | Live graph/inventory concordance; claim packs remain preliminary research. |
@@ -30,31 +30,31 @@ they are not the active Phase 1–8 completion counters.
 | Exact printing-specific representations | **560** | Frozen snapshot + official art-file label evidence, **not** canon scene depiction. |
 | In-universe dated claim edges | **36** | Most graph edges lack a verified in-world date. |
 | Post-foundation lore-deck pilot drafts | **3 exact historical lists owner-approved** | [November 2 SHA-bound receipt](data/lore_decks/owner_decisions/2026-11-02_cory_approved_phase6_pilots.md); original draft approval=false metadata remains archival; no rebuild, contemporary legality, power certification or playtesting implied. |
+| Numbered lore decks | **10/10 owner-approved** | [Exact #9 Ugin SHA-bound receipt](data/lore_decks/owner_decisions/2026-11-02_cory_approved_lore_deck_9_ugin.md); original Rule 0 Emrakul exception remains; approval is not sanctioned Commander legality. |
 | Foundation-release readiness | **7/7 finite gates certified by separate SHA-pinned external evidence** | Read-only machine status remains READY_FOR_OWNER_REVIEW (5 MET, 2 EXTERNAL); the immutable v3.00 release certificate records exact-commit Actions, unchanged protected hashes and dated source limits. |
 | Official source watch | **Weekly review-only workflow** | Story index, Wizards update-bulletin candidates, Scryfall metadata and rules PDF candidates; not automatic lore/rules updates. |
 
-**First-release and Phase 8 gate triage (14 gates, separate from the 137-item engineering checklist):**
-Completed **12** · Under review **2** ·
+**First-release and Phase 8 finite gate triage (12 gates, separate from the historical 137-position / current 134-item checklist):**
+Completed **12** · Under review **0** ·
 Blocked **0** · Not started **0**.
 "Under review" does **not** mean approved; it includes pending owner decisions,
-exact-commit CI and ongoing maintenance. Both unfinished Phase 8 gate rows are
-**recurring upkeep excluded from the repository finish line**. "Blocked" means a documented missing
+exact-commit CI. The two former perpetual Phase 8 gate rows are archived in
+the separate [maintenance policy](docs/MAINTENANCE_POLICY.md). "Blocked" means a documented missing
 source or remaining engineering work. The complete typed evidence is in
 `data/release/certification_dry_run_2026-10-30.json`.
 
-**All-137 engineering checklist triage (not release certification):**
-Completed **134** · Under review **3** ·
+**All-134 finite engineering checklist triage (not release certification):**
+Completed **134** · Under review **0** ·
 Blocked **0** · Not started **0**.
 **Active repository build: 0 remaining**;
-**excluded from repository completion: 3**
-(all 3 are recurring upkeep tasks).
-Every checked and unchecked task is accounted for in
+**archived recurring duties outside the checklist: 3**.
+Every finite item is accounted for in
 `data/release/full_checklist_triage_2026-11-01.json` and
 `research/FULL_CHECKLIST_TRIAGE_2026-11-01.md`. The post-foundation Phase 6
 engine has resumed; Cory **approved the three exact historical pilot hashes
 without changes** on November 2, before any future rebuilding. This is owner
 approval, not contemporary rules/power certification. Recurring monitoring
-is not a finite build gate.
+is covered by the maintenance policy rather than a finite checklist.
 
 | Gate | Triage | Remaining blocker types |
 | --- | --- | --- |
@@ -66,8 +66,6 @@ is not a finite build gate.
 | grixis_no_regression | Completed | none |
 | ci_and_coverage | Completed | none |
 | Keep targeted CI checks for card counts, source integrity, gra… | Completed | none |
-| Monitor new official stories, Oracle changes, releases, rules… | Under review | ONGOING |
-| Rebuild and reconcile the Phase 1B set catalog and bidirection… | Under review | ONGOING |
 | Update snapshot manifests with actual download bytes and stabl… | Completed | none |
 | Maintain an honest progress tracker: completed, under review,… | Completed | ONGOING |
 | Define an MTG Multiverse Companion milestone release based on… | Completed | none |
@@ -95,7 +93,8 @@ historical Scryfall replay and its November 1 bulk-field freshness audit (repeat
 Post-foundation Phase 6 engine checks K106/K109/K111/K115 and the preliminary
 three-pilot functional strategy preflight pass within a limited, source-dated
 scope. **Cory's exact hash-bound owner approval closes K112/K113/K114 without
-changing any cards; only K105/K125/K126 recurring upkeep remains unchecked.**
+changing any cards. The three formerly unchecked K105/K125/K126 duties are
+archived outside the now **134/134-complete finite checklist**.**
 Current legality and tested strategy power remain unverified and future pilot
 revisions need new owner approval. Do not modify any of the 62 Grixis decks.
 <!-- MULTIVERSE-CURRENT:END -->

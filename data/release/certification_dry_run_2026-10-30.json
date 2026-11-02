@@ -90,38 +90,6 @@
    "bot_can_still_act": false
   },
   {
-   "item": "Monitor new official stories, Oracle changes, releases, rules and Commander format updates.",
-   "workflow_checked": false,
-   "blockers": [
-    {
-     "kind": "ONGOING",
-     "what": "A read-only weekly workflow already checks Wizards story index, official rules/Commander page signals, official update-bulletin listing candidates and Scryfall bulk timestamps against the November 1 pinned manifest, saving review artifacts without auto-ingesting changes. Its scope is deliberately not a complete story crawl or proof of rules changes; ongoing human review and release-time Oracle drift checks are still required.",
-     "evidence": [
-      ".github/workflows/multiverse-update-watch.yml",
-      "scripts/monitor_multiverse_updates.py",
-      "data/maintenance/multiverse_update_monitor_baseline_2026-11-01.json"
-     ]
-    }
-   ],
-   "blocked_by_owner": false,
-   "bot_can_still_act": false
-  },
-  {
-   "item": "Rebuild and reconcile the Phase 1B set catalog and bidirectional printing lookups when new sets or printings appear, retaining historical snapshots.",
-   "workflow_checked": false,
-   "blockers": [
-    {
-     "kind": "ONGOING",
-     "what": "Triggered by new sets: the next is nau (Set API release 2027-02-05, no printings yet).",
-     "evidence": [
-      "data/set_atlas/phase1b_snapshot_gates_2026-10-30.json"
-     ]
-    }
-   ],
-   "blocked_by_owner": false,
-   "bot_can_still_act": false
-  },
-  {
    "item": "Update snapshot manifests with actual download bytes and stable hashes.",
    "workflow_checked": true,
    "blockers": [],
@@ -161,11 +129,9 @@
   }
  ],
  "blocker_tally": {
-  "ONGOING": 3
+  "ONGOING": 1
  },
  "items_blocked_only_by_owner_or_ci": [
-  "Monitor new official stories, Oracle changes, releases, rules and Commander format updates.",
-  "Rebuild and reconcile the Phase 1B set catalog and bidirectional printing lookups when new sets or printings appear, retaining historical snapshots.",
   "Maintain an honest progress tracker: completed, under review, blocked, and not started."
  ],
  "problems": []
