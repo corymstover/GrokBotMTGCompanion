@@ -9,7 +9,7 @@
         "run: python3 scripts/audit_lore_pilot.py",
         "test_lore_pilot_builder.py"
       ],
-      "workflow_sha256": "6b27fcd11147d6b012d2000456a82dc874bba1273006b5d8d309287d039d7a40",
+      "workflow_sha256": "ce31723d73f4c8a7c1f8131a30aa21e054f7083cf06d62c803fe02c77120e9c3",
       "pull_request_trigger": true,
       "no_continue_on_error": true
     },
@@ -29,7 +29,7 @@
         "run: python3 scripts/audit_lore_pilot.py",
         "test_pilot3_ugins_allies.py"
       ],
-      "workflow_sha256": "6b27fcd11147d6b012d2000456a82dc874bba1273006b5d8d309287d039d7a40",
+      "workflow_sha256": "ce31723d73f4c8a7c1f8131a30aa21e054f7083cf06d62c803fe02c77120e9c3",
       "pull_request_trigger": true,
       "no_continue_on_error": true
     },

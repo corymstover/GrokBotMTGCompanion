@@ -75,7 +75,7 @@ The machine-readable JSON records every task, its original workflow line, triage
 5/10 checked; 5 open.
 
 - **K108 · Under review · STRATEGY_REVIEW_OPEN** — Build mechanically coherent, realistic-power Commander strategies around the narrative.
-  - Three full sample decks exist, but realistic-power and interaction testing is not independently certified.
+  - All three unapproved lists now have Oracle-anchored early/mid/late strategy preflights and reproducible full mana curves; realistic-power, color-source, matchup and combo testing remain unverified.
 - **K110 · Blocked · CURRENT_RULES_NOT_RECONCILED** — Verify each final 100-card list, singleton restrictions, relevant rules/combinations, legality and current bracket.
   - Dated pilot legality and deck-size checks pass; post-bulletin official Commander rules, combos and bracket remain unsettled.
 - **K112 · Blocked · INDIVIDUAL_PILOT_APPROVAL_PENDING** — Pilot 1: **Ugin & Nicol Bolas — Elder Dragon Duality**. Owner approval is pending, so the box stays unchecked until Cory approves.

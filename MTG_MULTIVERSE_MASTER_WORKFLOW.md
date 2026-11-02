@@ -1,9 +1,31 @@
 # MTG Multiverse Companion — Master Workflow & Progress Checklist
 
-**Version:** 3.03
+**Version:** 3.04
 **Checkpoint date:** 2026-11-01
 **Repository:** [corymstover/GrokBotMTGCompanion](https://github.com/corymstover/GrokBotMTGCompanion)  
 **Purpose:** Durable project roadmap and handoff document. Update this file after verified milestone work; do not treat historical figures as live counters.
+
+**v3.04 strategy preflight, not a Commander power certificate (2026-11-01):**
+The three pre-existing UNAPPROVED pilots have new independent, replayable
+*mechanical strategy preflights*. The curated staged play sequences cite
+actual, dated indexed Oracle excerpts for four functional packages each:
+mana acceleration, card/resource flow, interaction, and a payoff. Full
+100-card mana curves are computed independently of the draft prose:
+Ugin/Bolas **35 lands, 4.185 average nonland MV, 32 spells at MV 5+**;
+Primeval Dragons **37 lands, 4.302 average nonland MV, 26 at MV 5+**;
+Ugin's Allies **36 lands, 3.641 average nonland MV, 16 at MV 5+**.
+`audit_phase6_strategy_preflight.py --check` regenerates the recorded audit;
+negative tests fail when an invented ability, card outside the exact list,
+missing role, omitted pilot or fabricated power tier is introduced. CI reruns
+both checks. These reveal concrete mana/tempo liabilities in the lore-heavy
+drafts; they are **not goldfish/matchup simulations, proof of current rules or
+brackets, a reliable win-rate prediction, or owner-approved strategies**.
+K108 remains **Under review**, K110 and K112–K114 remain blocked; the overall
+engineering checklist remains **113/137 checked, 24 open**. The v3.00 finite
+knowledge foundation stays **7/7 certified for its immutable baseline**.
+No original approved Grixis cards, lore pilot lists or approval flags changed.
+See `research/POSTFOUNDATION_STRATEGY_PREFLIGHT_V304_2026-11-01.md` and
+`handoffs/CHATGPT_POSTFOUNDATION_V304_2026-11-01.md`.
 
 **v2.53 OWNER DIRECTIVE — FOUNDATION FIRST (2026-10-30):** Cory has explicitly
 deferred **all new lore-first deck construction, pilot refinement, deck approval
@@ -1318,7 +1340,7 @@ decks. Unreviewed gameplay/canon and new final deck approvals remain separate.
 
 - [x] Retrieve lore-relevant cards with grades: direct depiction, canon reference, lore-inspired, mechanical stand-in. *(v3.02 bounded acceptance: `lore_deck_candidates.py` returns the exact chosen printing, Oracle ID, source, why and four curator-assigned grades across three audited pilot pools; this is not autonomous canon grading for arbitrary themes. `audit_phase6_engine_scope.py --check` verifies all four tiers and their source links.)*
 - [x] Compare eligible commander choices with verified color identity and relevant story context. *(v3.03, bounded to the three unapproved themes: `audit_lore_commander_comparison.py` independently checks two dated-Commander-eligible options per pilot against CR 903.3/903.3a, the card index, and the current draft's color pool. First-party story ties are taken only from source-audited pilot cards; Scion/Jodah thematic alternatives explicitly carry **NO VERIFIED** story linkage. No new cards or commander assignments are changed, and current banned-list/bracket questions remain open.)*
-- [ ] Build mechanically coherent, realistic-power Commander strategies around the narrative.
+- [ ] Build mechanically coherent, realistic-power Commander strategies around the narrative. *(v3.04 evidence, not completion: all three preserved UNAPPROVED drafts now have staged gameplay plans with at least two genuine Oracle-proven cards in each of acceleration, card flow, interaction and payoffs. A deterministic audit independently counts all 100 cards/lands and the 5+ / 7+ mana curve. High average spell costs and color/tempo vulnerabilities are candidly flagged; qualitative casual-power hypotheses are **UNTESTED**, so realistic power, actual interactions and matchups are not yet independently established. No list or status changed.)*
 - [x] Support optional set/era/first-printed-in restrictions using verified Phase 1B data without confusing reprints with original debuts. *(v3.02: `lore_deck_restrictions.py` filters an existing pilot by selected printing set, real-world publication-era years and **first-recorded English paper printing per stable Oracle ID** using the frozen Phase 1B historical shards. It retains same-day debut ties, rejects unknown printing IDs and prints dated scope warnings. It does **not** claim an in-universe lore era from a release date or live legality.)*
 - [ ] Verify each final 100-card list, singleton restrictions, relevant rules/combinations, legality and current bracket.
 - [x] Provide three Archidekt tags and one clean commander-first `1x Name` import list. *(v3.02: all three UNAPPROVED pilot artifacts have three unique tags and a complete import list. The audit now asserts **every** imported quantity/name equals the underlying 100-card deck, including commander first; a middle-row corruption regression fails.)*

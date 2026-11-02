@@ -11,13 +11,17 @@ on:
       - 'scripts/lore_deck_candidates.py'
       - 'scripts/lore_deck_restrictions.py'
       - 'scripts/audit_lore_commander_comparison.py'
+      - 'scripts/audit_phase6_strategy_preflight.py'
       - 'tests/test_lore_pilot_builder.py'
       - 'tests/test_pilot3_ugins_allies.py'
       - 'tests/test_phase6_engine_scope.py'
       - 'tests/test_lore_deck_restrictions.py'
       - 'tests/test_lore_commander_comparison.py'
+      - 'tests/test_phase6_strategy_preflight.py'
       - 'data/lore_decks/commander_comparison_spec_2026-11-01.json'
+      - 'data/lore_decks/strategy_preflight_spec_2026-11-01.json'
       - 'data/release/phase6_commander_comparison_2026-11-01.json'
+      - 'data/release/phase6_strategy_preflight_2026-11-01.json'
       - 'data/release/phase6_engine_scope_review_2026-11-01.json'
       - 'data/story_atlas/**'
       - 'data/lore_research/**'
@@ -51,3 +55,7 @@ jobs:
         run: |
           python3 scripts/audit_lore_commander_comparison.py --check
           python3 -m unittest discover -s tests -p 'test_lore_commander_comparison.py' -v
+      - name: Oracle-anchored preflight of three unapproved Commander strategies
+        run: |
+          python3 scripts/audit_phase6_strategy_preflight.py --check
+          python3 -m unittest discover -s tests -p 'test_phase6_strategy_preflight.py' -v

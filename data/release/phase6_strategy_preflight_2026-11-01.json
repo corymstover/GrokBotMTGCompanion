@@ -1,0 +1,287 @@
+{
+  "schema": "phase6-strategy-preflight/v1",
+  "as_of": "2026-11-01",
+  "strategy_spec_sha256": "5cb9cf84694ccc72c9b4b5c188e8a0ffb003ca46926730c1d636e654de89e093",
+  "dated_card_index_sha256": "e09a2bcd317e85377c6f795ecb67c3f54405e1b3befbaeec111e3cbf397fc411",
+  "scope": "Three existing source-graded UNAPPROVED pilots, unchanged; evidence for functional plans, not quantified matchup power",
+  "status": "PRELIMINARY_MECHANICAL_STRATEGIES_K108_OPEN",
+  "pilots": [
+    {
+      "stem": "ugin_bolas_elder_dragon_duality",
+      "status": "UNAPPROVED PROPOSAL - awaiting Cory's review; not approved, not locked, not certified",
+      "approval_flags_all_false": true,
+      "decklist_sha256": "01d087aa2819b1ed3c7ac1f64843f76f36b551b72fda62d64218d19c40b0ab45",
+      "oracle_index_date": "2026-10-15",
+      "mana_curve": {
+        "lands_including_basics": 35,
+        "nonlands_including_commander": 65,
+        "average_nonland_mana_value": 4.185,
+        "nonlands_mv_at_least_5": 32,
+        "nonlands_mv_at_least_7": 7
+      },
+      "strategy": "Grixis Bolas/Ugin control: defend the table with countermagic, wipes and spot removal, then use mana rocks to cast expensive Elder Dragons and planeswalkers. The Bolas commander can transform late to provide cards and removal; this is not a fast combo deck.",
+      "opening": "Keep adequate lands and at least one early mana rock or an interaction spell; do not treat a hand full of seven- and eight-mana Bolas/Ugin payoffs as a functioning keep.",
+      "middle": "Use a counterspell or sweeper to trade resources. Build mana with the dated artifact ramp package while preserving life total and fixing blue, black and red sources for triple-colored costs.",
+      "finish": "Stabilize into Nicol Bolas, Dragon-God or other high-end planeswalkers, and pressure with Dragons. Bolas's Citadel supplies a conditional alternate value engine, but does not by itself prove an infinite combo.",
+      "failure_mode": "The lore-first slots are expensive and many are not efficient multiplayer interaction or card advantage; an opponent may deploy a faster engine before the pilot can stabilize.",
+      "power_hypothesis": "SLOW_CASUAL_UNTESTED",
+      "verified_oracle_anchors": {
+        "ACCELERATION": [
+          {
+            "card": "Sol Ring",
+            "oracle_excerpt": "Add {C}{C}",
+            "oracle_id": "6ad8011d-3471-4369-9d68-b264cc027487"
+          },
+          {
+            "card": "Arcane Signet",
+            "oracle_excerpt": "commander's color identity",
+            "oracle_id": "0bc7f093-bef0-4f1a-852c-4b75ebf54838"
+          },
+          {
+            "card": "Hedron Archive",
+            "oracle_excerpt": "Add {C}{C}",
+            "oracle_id": "32263baa-d3f0-463f-92b3-4e9938476add"
+          }
+        ],
+        "RESOURCE_FLOW": [
+          {
+            "card": "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+            "oracle_excerpt": "Draw two cards",
+            "oracle_id": "55e4b27e-5447-4fc2-8cae-a03e344600c6"
+          },
+          {
+            "card": "Ugin's Insight",
+            "oracle_excerpt": "Draw three cards",
+            "oracle_id": "ad7b9db0-e061-4360-9b81-0408d18d971d"
+          }
+        ],
+        "INTERACTION": [
+          {
+            "card": "Mana Drain",
+            "oracle_excerpt": "Counter target spell",
+            "oracle_id": "74d3277a-38e5-4732-afed-084a56148f20"
+          },
+          {
+            "card": "Crux of Fate",
+            "oracle_excerpt": "Destroy all",
+            "oracle_id": "52a0dae4-2a95-487e-acd4-eabdb2d031e2"
+          },
+          {
+            "card": "Nicol Bolas, Dragon-God",
+            "oracle_excerpt": "Destroy target creature or planeswalker",
+            "oracle_id": "581eedc4-efe4-4ae4-baf2-88071e7e6f6d"
+          }
+        ],
+        "PAYOFF": [
+          {
+            "card": "Nicol Bolas, Dragon-God",
+            "oracle_excerpt": "Each opponent who doesn't control a legendary creature or planeswalker loses the game",
+            "oracle_id": "581eedc4-efe4-4ae4-baf2-88071e7e6f6d"
+          },
+          {
+            "card": "Bolas's Citadel",
+            "oracle_excerpt": "pay life equal to its mana value",
+            "oracle_id": "2bd111bb-ce02-414c-b5b7-e0e037d8d96b"
+          },
+          {
+            "card": "Ugin, the Spirit Dragon",
+            "oracle_excerpt": "Exile each permanent",
+            "oracle_id": "eecb3047-a563-441a-9175-200421981ac3"
+          }
+        ]
+      },
+      "game_changers_in_dated_printing_evidence": [
+        "Bolas's Citadel"
+      ]
+    },
+    {
+      "stem": "original_primeval_dragons",
+      "status": "UNAPPROVED PROPOSAL - awaiting Cory's review; not approved, not locked, not certified",
+      "approval_flags_all_false": true,
+      "decklist_sha256": "6ef1af37c371891b7d3e60a08c2d1bcee1d1205f2c01e5c3093a220fb4414888",
+      "oracle_index_date": "2026-10-15",
+      "mana_curve": {
+        "lands_including_basics": 37,
+        "nonlands_including_commander": 63,
+        "average_nonland_mana_value": 4.302,
+        "nonlands_mv_at_least_5": 26,
+        "nonlands_mv_at_least_7": 10
+      },
+      "strategy": "Five-color Elder/Primeval Dragon combat deck: use The Ur-Dragon's command-zone cost reduction with land ramp and tribal discounts, then attack with actual Dragon bodies. The historic character roster constrains efficiency and is not a claim that every card depicts an exact canon battle.",
+      "opening": "Prioritize green access for land ramp and any two fixing sources; five-color Dragon spells are often stranded when a starting hand has only a few colors even if it has sufficient land count.",
+      "middle": "Develop land-based ramp, Herald's Horn or Urza's Incubator, then deploy a Dragon before loading the battlefield with additional high-mana legendary creatures. Reserve removal for an opposing faster engine.",
+      "finish": "Attack with multiple Dragons to trigger The Ur-Dragon's draw-and-put-permanent effect if it reaches the field. Rith and Sarkhan's Unsealing provide board impact, but there is no verified deterministic win loop.",
+      "failure_mode": "The five-color legend suite has unusually heavy colored costs; three of each basic plus many tapped nonbasics can make the theoretical mana curve optimistic. One board wipe may reset the primary combat plan.",
+      "power_hypothesis": "MANA_INTENSIVE_CASUAL_UNTESTED",
+      "verified_oracle_anchors": {
+        "ACCELERATION": [
+          {
+            "card": "Cultivate",
+            "oracle_excerpt": "basic land cards",
+            "oracle_id": "8b755881-a72d-4e21-a369-d2924eb4585a"
+          },
+          {
+            "card": "Dragonlord's Servant",
+            "oracle_excerpt": "Dragon spells you cast cost {1} less",
+            "oracle_id": "faf81ae0-0b35-45ef-a50d-6cecf0c0eeeb"
+          },
+          {
+            "card": "Urza's Incubator",
+            "oracle_excerpt": "chosen type cost {2} less",
+            "oracle_id": "b380c04b-0bce-4328-8f0a-1425e48bee72"
+          }
+        ],
+        "RESOURCE_FLOW": [
+          {
+            "card": "Kindred Discovery",
+            "oracle_excerpt": "draw a card",
+            "oracle_id": "005ee549-1bf5-478f-bc3f-3e791bd7eecf"
+          },
+          {
+            "card": "Harmonize",
+            "oracle_excerpt": "Draw three cards",
+            "oracle_id": "7eff84f1-f772-497a-b350-bbc93d0230f7"
+          },
+          {
+            "card": "Herald's Horn",
+            "oracle_excerpt": "put it into your hand",
+            "oracle_id": "c02c5547-b9c9-4b2d-9d12-e87bfba8f2d2"
+          }
+        ],
+        "INTERACTION": [
+          {
+            "card": "Swords to Plowshares",
+            "oracle_excerpt": "Exile target creature",
+            "oracle_id": "b1544f21-7e98-461b-aed5-e748b0168c52"
+          },
+          {
+            "card": "Anguished Unmaking",
+            "oracle_excerpt": "Exile target nonland permanent",
+            "oracle_id": "ad09b3c3-c8e7-481c-8c45-e7f234935117"
+          }
+        ],
+        "PAYOFF": [
+          {
+            "card": "The Ur-Dragon",
+            "oracle_excerpt": "Whenever one or more Dragons you control attack",
+            "oracle_id": "87b22b09-4f6d-4bc5-9cfc-663e4c7c6981"
+          },
+          {
+            "card": "Sarkhan's Unsealing",
+            "oracle_excerpt": "deals 4 damage",
+            "oracle_id": "c27c9514-7b5a-461a-a109-f8abafd83523"
+          },
+          {
+            "card": "Rith, Liberated Primeval",
+            "oracle_excerpt": "create a 4/4 red Dragon creature token",
+            "oracle_id": "f89de40f-52d3-44b1-8faa-6ddaa32880d0"
+          }
+        ]
+      },
+      "game_changers_in_dated_printing_evidence": []
+    },
+    {
+      "stem": "ugins_allies_and_heroes",
+      "status": "UNAPPROVED PROPOSAL - awaiting Cory's review; not approved, not locked, not certified",
+      "approval_flags_all_false": true,
+      "decklist_sha256": "05cd56bd3d58b153f35ad86f896d6c383f99bca9722e6124e627daad74641c6c",
+      "oracle_index_date": "2026-10-15",
+      "mana_curve": {
+        "lands_including_basics": 36,
+        "nonlands_including_commander": 64,
+        "average_nonland_mana_value": 3.641,
+        "nonlands_mv_at_least_5": 16,
+        "nonlands_mv_at_least_7": 7
+      },
+      "strategy": "Four-color Jace/Gatewatch planeswalker-value control deck: deploy rocks and efficient answers, let Jace smooth draws, then exploit loyalty and proliferate effects while the Eldrazi/Ugin story cards serve as high-end closers. The individual story cards are evidence-graded separately.",
+      "opening": "Mulligan for sources that can cast Jace's WUBR cost and either an early rock or cheap interaction; one off-color tapland plus expensive Eldrazi is not an adequate keep.",
+      "middle": "Use spot removal, countermagic and sweepers to defend planeswalkers. Draw toward double-loyalty, proliferate and counter-doubling engines; do not spend resources assuming a protected planeswalker battlefield.",
+      "finish": "Accumulate multiple loyalty activations through Oath of Teferi or The Chain Veil, while retaining a credible independent Eldrazi or Ugin threat. This describes a synergy plan, not a verified combo or tested win rate.",
+      "failure_mode": "A four-color commander plus several disconnected Eldrazi/canon beats can split the game plan. The Chain Veil costs four to activate and punishes turns without loyalty activations.",
+      "power_hypothesis": "SYNERGY_DEPENDENT_CASUAL_UNTESTED",
+      "verified_oracle_anchors": {
+        "ACCELERATION": [
+          {
+            "card": "Sol Ring",
+            "oracle_excerpt": "Add {C}{C}",
+            "oracle_id": "6ad8011d-3471-4369-9d68-b264cc027487"
+          },
+          {
+            "card": "Arcane Signet",
+            "oracle_excerpt": "commander's color identity",
+            "oracle_id": "0bc7f093-bef0-4f1a-852c-4b75ebf54838"
+          },
+          {
+            "card": "Mind Stone",
+            "oracle_excerpt": "Add {C}",
+            "oracle_id": "c97361b5-af16-4a7b-af85-a429dbaf4ad2"
+          }
+        ],
+        "RESOURCE_FLOW": [
+          {
+            "card": "Jace, Multiverse Architect",
+            "oracle_excerpt": "Draw two cards",
+            "oracle_id": "3321c134-bf5b-4f63-8035-fca0bbdfa86b"
+          },
+          {
+            "card": "Fact or Fiction",
+            "oracle_excerpt": "top five cards",
+            "oracle_id": "437b2dab-15e0-4b9a-a204-58622d37a3b3"
+          },
+          {
+            "card": "Oath of Jace",
+            "oracle_excerpt": "draw three cards",
+            "oracle_id": "dc92b420-8ac7-4478-a287-3d897357be08"
+          }
+        ],
+        "INTERACTION": [
+          {
+            "card": "Swords to Plowshares",
+            "oracle_excerpt": "Exile target creature",
+            "oracle_id": "b1544f21-7e98-461b-aed5-e748b0168c52"
+          },
+          {
+            "card": "Supreme Verdict",
+            "oracle_excerpt": "Destroy all creatures",
+            "oracle_id": "0230de18-8d15-4cfa-9d42-7ccddd9f9570"
+          },
+          {
+            "card": "Counterspell",
+            "oracle_excerpt": "Counter target spell",
+            "oracle_id": "cc187110-1148-4090-bbb8-e205694a39f5"
+          }
+        ],
+        "PAYOFF": [
+          {
+            "card": "Oath of Teferi",
+            "oracle_excerpt": "loyalty abilities of planeswalkers you control twice",
+            "oracle_id": "ee00a42d-6ee4-4e46-92d6-62e8e5910880"
+          },
+          {
+            "card": "Flux Channeler",
+            "oracle_excerpt": "proliferate",
+            "oracle_id": "83874e60-291b-47a7-ba9f-69437fa7e3c7"
+          },
+          {
+            "card": "Deepglow Skate",
+            "oracle_excerpt": "double the number of each kind of counter",
+            "oracle_id": "debce64a-18bd-42f5-9e85-158c2242e9e9"
+          },
+          {
+            "card": "The Chain Veil",
+            "oracle_excerpt": "you may activate one of its loyalty abilities once",
+            "oracle_id": "fb88fb3d-6a85-4bb1-b316-7f759b45a0fa"
+          }
+        ]
+      },
+      "game_changers_in_dated_printing_evidence": []
+    }
+  ],
+  "limitations": [
+    "Oracle excerpts and mana values are from committed October 15 card shards, not a live updated legality or rulings feed.",
+    "Card text establishes a possible mechanic, not a goldfish, mulligan, interaction, color-fixing, win-rate or matchup simulation.",
+    "The average mana value includes the commander but does not model command-zone access, reductions, alternate casting costs or land timing.",
+    "Power hypotheses are deliberately qualitative and untested; current Commander bracket and combo interactions remain unverified (K108/K110).",
+    "All three pilot proposals remain UNAPPROVED; no pilot list, card, Grixis deck, owner gate or certification is modified."
+  ]
+}

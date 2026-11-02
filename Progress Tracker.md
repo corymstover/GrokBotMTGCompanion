@@ -14,7 +14,7 @@ schema: 2
 <!-- MULTIVERSE-CURRENT:START -->
 ## MTG Multiverse Companion — current engineering checkpoint (2026-11-01)
 
-**Live authority:** [Master Workflow v3.03](MTG_MULTIVERSE_MASTER_WORKFLOW.md), the current
+**Live authority:** [Master Workflow v3.04](MTG_MULTIVERSE_MASTER_WORKFLOW.md), the current
 graph and dated recount. The older cycle-36/October-15 metrics **below this section are historical**;
 they are not the active Phase 1–8 completion counters.
 
@@ -28,7 +28,7 @@ they are not the active Phase 1–8 completion counters.
 | Registered people/factions with direct claims | **640/640** | At least one cited relation per registered node, **not** a complete biography or census of all canon. |
 | Exact printing-specific representations | **560** | Frozen snapshot + official art-file label evidence, **not** canon scene depiction. |
 | In-universe dated claim edges | **36** | Most graph edges lack a verified in-world date. |
-| Post-foundation lore-deck pilot drafts | **3 unapproved** | Four bounded Phase 6 engine capabilities now verified; no deck approval or current legality claim. |
+| Post-foundation lore-deck pilot drafts | **3 unapproved** | Four bounded Phase 6 engine capabilities and a dated Oracle-anchored strategy preflight now reproducible; realistic-power, current legality and owner approval remain open. |
 | Foundation-release readiness | **7/7 finite gates certified by separate SHA-pinned external evidence** | Read-only machine status remains READY_FOR_OWNER_REVIEW (5 MET, 2 EXTERNAL); the immutable v3.00 release certificate records exact-commit Actions, unchanged protected hashes and dated source limits. |
 | Official source watch | **Weekly review-only workflow** | Story index, Wizards update-bulletin candidates, Scryfall metadata and rules PDF candidates; not automatic lore/rules updates. |
 
@@ -46,8 +46,8 @@ Blocked **8** · Not started **0**.
 Every checked and unchecked task is accounted for in
 `data/release/full_checklist_triage_2026-11-01.json` and
 `research/FULL_CHECKLIST_TRIAGE_2026-11-01.md`. The post-foundation Phase 6
-engine has resumed; individual pilot approvals and current legality/strategy
-remain open and are not unfinished foundation certification tasks.
+engine has resumed; individual pilot approvals, current legality and untested
+strategy power remain open and are not unfinished foundation certification tasks.
 
 | Gate | Triage | Remaining blocker types |
 | --- | --- | --- |
@@ -85,9 +85,10 @@ does not purport to certify post-bulletin gameplay rulings or future data.
 identity and chronology gaps; expand comprehensive plane, character, faction and cross-plane
 history; harden rules and difficult Q&A; preserve the original hash-verified October
 historical Scryfall replay and its November 1 bulk-field freshness audit (repeat on any later release bulk). **The finite knowledge foundation is certified.
-Post-foundation Phase 6 engine checks K106/K109/K111/K115 now pass within
-an explicitly limited and source-dated scope, while individual pilot approvals,
-choice/strategy and current legality remain open.** Do not modify any
+Post-foundation Phase 6 engine checks K106/K109/K111/K115 and the preliminary
+three-pilot functional strategy preflight now pass within a limited and
+source-dated scope, while individual pilot approvals, tested strategy power
+and current legality remain open.** Do not modify any
 of the 62 finalized Grixis decks.
 <!-- MULTIVERSE-CURRENT:END -->
 
