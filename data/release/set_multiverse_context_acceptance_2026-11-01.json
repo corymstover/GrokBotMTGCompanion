@@ -1,0 +1,1792 @@
+{
+  "schema": "set-multiverse-context-acceptance/v1",
+  "as_of": "2026-11-01",
+  "input_sha256": {
+    "phase1b_release_scope_story_bridge_2026-10-29.json": "658bc17c3d23b462258ea7d21a98146fd6fd40bed5ce9a9bedf23365465c393c",
+    "product_catalog_2026-10-29.json": "5911dac93b5a8e3fee0a4051fa7c04f561c7b05ca7dc5ae6cbb71943979316d0",
+    "multiverse_graph.json": "d3ed91e337e4fefad58877d024fc16194feac5ecab6993d931cf4facfb057fd1",
+    "set_context_primary_sources_2026-11-01.json": "c9478deff2a7ba4a96a8cf68a4315012186ffdb8e787dd883b8e7206584a5da7"
+  },
+  "counts": {
+    "all_scryfall_codes_queryable": 1062,
+    "official_story_series_sets": 12,
+    "official_story_sample_pages": 35,
+    "typed_claim_entity_associations": {
+      "Character": 117,
+      "Faction": 11,
+      "Plane": 8
+    },
+    "sets_with_verified_mechanics_feature": 3,
+    "official_related_commander_product_links": 1
+  },
+  "scope": "First-party publication and cited-claim navigation for 12 named releases; three mechanics features and one Commander product link; unknown elsewhere, not exhaustive set canon.",
+  "sets_with_verified_context": {
+    "blb": {
+      "set_name": "Bloomburrow",
+      "set_type": "expansion",
+      "official_publication_series": "Bloomburrow",
+      "official_stories_in_recovered_index": 5,
+      "sample_story_source_urls": [
+        "https://magic.wizards.com/en/news/magic-story/episode-1-calamity-comes-to-valley",
+        "https://magic.wizards.com/en/news/magic-story/episode-2-an-expected-party",
+        "https://magic.wizards.com/en/news/magic-story/episode-3-the-lost-and-the-found"
+      ],
+      "source_claim_entity_associations": [
+        {
+          "entity_id": "character:jace_beleren",
+          "entity_name": "Jace Beleren",
+          "entity_type": "Character",
+          "claim_id": "claim:BL001",
+          "claim_grade": "CANON_CONFIRMED",
+          "claim_summary": "Ral Zarek searches for Jace Beleren, starting from where he last saw him on Thunder Junction.",
+          "claim_role": "object",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/episode-1-calamity-comes-to-valley",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "character:lily_of_the_valley",
+          "entity_name": "Lily of the Valley",
+          "entity_type": "Character",
+          "claim_id": "claim:BL007",
+          "claim_grade": "CANON_IMPLIED",
+          "claim_summary": "In Valley's legends, Lily of the Valley drove Calamity Beasts away with the sword Cragflame.",
+          "claim_role": "subject",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/episode-2-an-expected-party",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "character:mabel",
+          "entity_name": "Mabel",
+          "entity_type": "Character",
+          "claim_id": "claim:BL010",
+          "claim_grade": "CANON_CONFIRMED",
+          "claim_summary": "Mabel travels with Zoraline, Hugs and others on the quest.",
+          "claim_role": "subject",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/episode-3-the-lost-and-the-found",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "character:maha",
+          "entity_name": "Maha, the Night Owl",
+          "entity_type": "Character",
+          "claim_id": "claim:BL004",
+          "claim_grade": "CANON_CONFIRMED",
+          "claim_summary": "Maha, the Night Owl Calamity Beast, attacks and destroys Helga's village of Pondside.",
+          "claim_role": "subject",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/episode-2-an-expected-party",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "character:ral_zarek",
+          "entity_name": "Ral Zarek",
+          "entity_type": "Character",
+          "claim_id": "claim:BL001",
+          "claim_grade": "CANON_CONFIRMED",
+          "claim_summary": "Ral Zarek searches for Jace Beleren, starting from where he last saw him on Thunder Junction.",
+          "claim_role": "subject",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/episode-1-calamity-comes-to-valley",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "character:ral_zarek",
+          "entity_name": "Ral Zarek",
+          "entity_type": "Character",
+          "claim_id": "claim:BL002",
+          "claim_grade": "CANON_CONFIRMED",
+          "claim_summary": "Ral Zarek is married to Tomik.",
+          "claim_role": "subject",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/episode-1-calamity-comes-to-valley",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "character:ral_zarek",
+          "entity_name": "Ral Zarek",
+          "entity_type": "Character",
+          "claim_id": "claim:BL003",
+          "claim_grade": "CANON_IMPLIED",
+          "claim_summary": "Ral asks the Wanderer to help track Jace; she says her spark is gone and she cannot help.",
+          "claim_role": "object",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/episode-1-calamity-comes-to-valley",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "character:the_wanderer",
+          "entity_name": "The Wanderer (Emperor of Kamigawa)",
+          "entity_type": "Character",
+          "claim_id": "claim:BL003",
+          "claim_grade": "CANON_IMPLIED",
+          "claim_summary": "Ral asks the Wanderer to help track Jace; she says her spark is gone and she cannot help.",
+          "claim_role": "subject",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/episode-1-calamity-comes-to-valley",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "character:tomik_vrona",
+          "entity_name": "Tomik Vrona",
+          "entity_type": "Character",
+          "claim_id": "claim:BL002",
+          "claim_grade": "CANON_CONFIRMED",
+          "claim_summary": "Ral Zarek is married to Tomik.",
+          "claim_role": "object",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/episode-1-calamity-comes-to-valley",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "character:zoraline",
+          "entity_name": "Zoraline",
+          "entity_type": "Character",
+          "claim_id": "claim:BL010",
+          "claim_grade": "CANON_CONFIRMED",
+          "claim_summary": "Mabel travels with Zoraline, Hugs and others on the quest.",
+          "claim_role": "object",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/episode-3-the-lost-and-the-found",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "faction:calamity_beasts",
+          "entity_name": "Calamity Beasts",
+          "entity_type": "Faction",
+          "claim_id": "claim:BL007",
+          "claim_grade": "CANON_IMPLIED",
+          "claim_summary": "In Valley's legends, Lily of the Valley drove Calamity Beasts away with the sword Cragflame.",
+          "claim_role": "object",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/episode-2-an-expected-party",
+          "association_not_set_card_canon": true
+        }
+      ],
+      "mechanics_official_feature": {
+        "set_code": "blb",
+        "mechanic_labels": [
+          "Offspring",
+          "Forage",
+          "Valiant"
+        ],
+        "source_title": "Bloomburrow Mechanics",
+        "source_url": "https://magic.wizards.com/en/news/feature/bloomburrow-mechanics",
+        "evidence_scope": "Mechanic headings explained by Wizards for the named set, not every card's abilities"
+      },
+      "related_commander_product": null,
+      "unknowns": [
+        "No inferred connections to individual cards, undocumented planes or other set codes.",
+        "Publication year and set release date are not in-universe event dates."
+      ]
+    },
+    "bro": {
+      "set_name": "The Brothers' War",
+      "set_type": "expansion",
+      "official_publication_series": "The Brothers' War",
+      "official_stories_in_recovered_index": 10,
+      "sample_story_source_urls": [
+        "https://magic.wizards.com/en/news/magic-story/the-brothers-war-chapter-1-stronghold",
+        "https://magic.wizards.com/en/news/magic-story/the-brothers-war-episode-1-the-end",
+        "https://magic.wizards.com/en/news/magic-story/the-brothers-war-episode-2-the-beginning"
+      ],
+      "source_claim_entity_associations": [
+        {
+          "entity_id": "character:ajani",
+          "entity_name": "Ajani",
+          "entity_type": "Character",
+          "claim_id": "claim:B017",
+          "claim_grade": "CANON_CONFIRMED",
+          "claim_summary": "Karn unearths the Golgothian Sylex; Ajani, revealed as a Phyrexian sleeper agent, destroys it.",
+          "claim_role": "subject",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/the-brothers-war-chapter-1-stronghold",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "character:ashnod",
+          "entity_name": "Ashnod",
+          "entity_type": "Character",
+          "claim_id": "claim:B005",
+          "claim_grade": "CANON_CONFIRMED",
+          "claim_summary": "Ashnod was an artificer who worked for Mishra during the war; Tawnos names transmogrants as her work.",
+          "claim_role": "subject",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/the-brothers-war-episode-1-the-end",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "character:gix",
+          "entity_name": "Gix",
+          "entity_type": "Character",
+          "claim_id": "claim:B006",
+          "claim_grade": "CANON_CONFIRMED",
+          "claim_summary": "Mishra was corrupted by the Phyrexians (cards: Mishra, Claimed by Gix; Mishra, Lost to Phyrexia); Tawnos says he was turned by 'that creature' and fused with a machine.",
+          "claim_role": "object",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/the-brothers-war-episode-1-the-end",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "character:harbin",
+          "entity_name": "Harbin",
+          "entity_type": "Character",
+          "claim_id": "claim:B003",
+          "claim_grade": "CANON_CONFIRMED",
+          "claim_summary": "Harbin is Kayla's son by Urza; he served as a pilot and officer and did not return from the war.",
+          "claim_role": "subject",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/the-brothers-war-episode-1-the-end",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "character:kayla_bin_kroog",
+          "entity_name": "Kayla bin-Kroog",
+          "entity_type": "Character",
+          "claim_id": "claim:B002",
+          "claim_grade": "CANON_CONFIRMED",
+          "claim_summary": "Kayla bin-Kroog, princess of Kroog, is Urza's wife and rules Penregon after the war.",
+          "claim_role": "subject",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/the-brothers-war-episode-1-the-end",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "character:kayla_bin_kroog",
+          "entity_name": "Kayla bin-Kroog",
+          "entity_type": "Character",
+          "claim_id": "claim:B003",
+          "claim_grade": "CANON_CONFIRMED",
+          "claim_summary": "Harbin is Kayla's son by Urza; he served as a pilot and officer and did not return from the war.",
+          "claim_role": "object",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/the-brothers-war-episode-1-the-end",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "character:mishra",
+          "entity_name": "Mishra",
+          "entity_type": "Character",
+          "claim_id": "claim:B001",
+          "claim_grade": "CANON_CONFIRMED",
+          "claim_summary": "Urza and Mishra are brothers; Tawnos tells Kayla that Urza's brother was turned and fused with a machine.",
+          "claim_role": "object",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/the-brothers-war-episode-1-the-end",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "character:mishra",
+          "entity_name": "Mishra",
+          "entity_type": "Character",
+          "claim_id": "claim:B005",
+          "claim_grade": "CANON_CONFIRMED",
+          "claim_summary": "Ashnod was an artificer who worked for Mishra during the war; Tawnos names transmogrants as her work.",
+          "claim_role": "object",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/the-brothers-war-episode-1-the-end",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "character:mishra",
+          "entity_name": "Mishra",
+          "entity_type": "Character",
+          "claim_id": "claim:B006",
+          "claim_grade": "CANON_CONFIRMED",
+          "claim_summary": "Mishra was corrupted by the Phyrexians (cards: Mishra, Claimed by Gix; Mishra, Lost to Phyrexia); Tawnos says he was turned by 'that creature' and fused with a machine.",
+          "claim_role": "subject",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/the-brothers-war-episode-1-the-end",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "character:saheeli",
+          "entity_name": "Saheeli",
+          "entity_type": "Character",
+          "claim_id": "claim:B018",
+          "claim_grade": "CANON_CONFIRMED",
+          "claim_summary": "Saheeli crafts a replica of the sylex whose workings are unknown.",
+          "claim_role": "subject",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/the-brothers-war-chapter-1-stronghold",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "character:tawnos",
+          "entity_name": "Tawnos",
+          "entity_type": "Character",
+          "claim_id": "claim:B004",
+          "claim_grade": "CANON_CONFIRMED",
+          "claim_summary": "Tawnos is Urza's former assistant and an artificer who returns to Penregon in 69 AR.",
+          "claim_role": "subject",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/the-brothers-war-episode-1-the-end",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "character:tawnos",
+          "entity_name": "Tawnos",
+          "entity_type": "Character",
+          "claim_id": "claim:BR001",
+          "claim_grade": "CANON_CONFIRMED",
+          "claim_summary": "Urza's instruction turned Tawnos from a clever toymaker into a master artificer.",
+          "claim_role": "object",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/the-brothers-war-episode-2-the-beginning",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "character:tawnos",
+          "entity_name": "Tawnos",
+          "entity_type": "Character",
+          "claim_id": "claim:BR002",
+          "claim_grade": "CANON_CONFIRMED",
+          "claim_summary": "Tawnos designed Penregon's civil machines, based on the theory of Urza's war machines.",
+          "claim_role": "subject",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/the-brothers-war-episode-2-the-beginning",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "character:urza",
+          "entity_name": "Urza",
+          "entity_type": "Character",
+          "claim_id": "claim:B001",
+          "claim_grade": "CANON_CONFIRMED",
+          "claim_summary": "Urza and Mishra are brothers; Tawnos tells Kayla that Urza's brother was turned and fused with a machine.",
+          "claim_role": "subject",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/the-brothers-war-episode-1-the-end",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "character:urza",
+          "entity_name": "Urza",
+          "entity_type": "Character",
+          "claim_id": "claim:B002",
+          "claim_grade": "CANON_CONFIRMED",
+          "claim_summary": "Kayla bin-Kroog, princess of Kroog, is Urza's wife and rules Penregon after the war.",
+          "claim_role": "object",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/the-brothers-war-episode-1-the-end",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "character:urza",
+          "entity_name": "Urza",
+          "entity_type": "Character",
+          "claim_id": "claim:B003",
+          "claim_grade": "CANON_CONFIRMED",
+          "claim_summary": "Harbin is Kayla's son by Urza; he served as a pilot and officer and did not return from the war.",
+          "claim_role": "object",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/the-brothers-war-episode-1-the-end",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "character:urza",
+          "entity_name": "Urza",
+          "entity_type": "Character",
+          "claim_id": "claim:B004",
+          "claim_grade": "CANON_CONFIRMED",
+          "claim_summary": "Tawnos is Urza's former assistant and an artificer who returns to Penregon in 69 AR.",
+          "claim_role": "object",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/the-brothers-war-episode-1-the-end",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "character:urza",
+          "entity_name": "Urza",
+          "entity_type": "Character",
+          "claim_id": "claim:BR001",
+          "claim_grade": "CANON_CONFIRMED",
+          "claim_summary": "Urza's instruction turned Tawnos from a clever toymaker into a master artificer.",
+          "claim_role": "subject",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/the-brothers-war-episode-2-the-beginning",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "plane:old_phyrexia",
+          "entity_name": "Phyrexia",
+          "entity_type": "Plane",
+          "claim_id": "claim:B006",
+          "claim_grade": "CANON_CONFIRMED",
+          "claim_summary": "Mishra was corrupted by the Phyrexians (cards: Mishra, Claimed by Gix; Mishra, Lost to Phyrexia); Tawnos says he was turned by 'that creature' and fused with a machine.",
+          "claim_role": "object",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/the-brothers-war-episode-1-the-end",
+          "association_not_set_card_canon": true
+        }
+      ],
+      "mechanics_official_feature": {
+        "set_code": "bro",
+        "mechanic_labels": [
+          "Prototype",
+          "Powerstones"
+        ],
+        "source_title": "The Brothers' War Mechanics",
+        "source_url": "https://magic.wizards.com/en/news/feature/the-brothers-war-mechanics",
+        "evidence_scope": "Mechanic headings explained by Wizards for the named set, not every card's abilities"
+      },
+      "related_commander_product": null,
+      "unknowns": [
+        "No inferred connections to individual cards, undocumented planes or other set codes.",
+        "Publication year and set release date are not in-universe event dates."
+      ]
+    },
+    "dft": {
+      "set_name": "Aetherdrift",
+      "set_type": "expansion",
+      "official_publication_series": "Aetherdrift",
+      "official_stories_in_recovered_index": 8,
+      "sample_story_source_urls": [
+        "https://magic.wizards.com/en/news/magic-story/aetherdrift-episode-1-the-dashing-and-the-desperate",
+        "https://magic.wizards.com/en/news/magic-story/aetherdrift-episode-2-pit-stop",
+        "https://magic.wizards.com/en/news/magic-story/aetherdrift-hour-of-restoration"
+      ],
+      "source_claim_entity_associations": [
+        {
+          "entity_id": "character:chandra_nalaar",
+          "entity_name": "Chandra Nalaar",
+          "entity_type": "Character",
+          "claim_id": "claim:DF004",
+          "claim_grade": "CANON_CONFIRMED",
+          "claim_summary": "Chandra races to win the Aetherspark for her lover Nissa.",
+          "claim_role": "subject",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/aetherdrift-episode-2-pit-stop",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "character:chandra_nalaar",
+          "entity_name": "Chandra Nalaar",
+          "entity_type": "Character",
+          "claim_id": "claim:DF005",
+          "claim_grade": "CANON_CONFIRMED",
+          "claim_summary": "Pia Nalaar is Chandra's mother.",
+          "claim_role": "object",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/aetherdrift-episode-2-pit-stop",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "character:mahitab",
+          "entity_name": "Mahitab",
+          "entity_type": "Character",
+          "claim_id": "claim:DF012",
+          "claim_grade": "CANON_CONFIRMED",
+          "claim_summary": "Mahitab freed Niharet after she was entombed.",
+          "claim_role": "subject",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/aetherdrift-hour-of-restoration",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "character:niharet",
+          "entity_name": "Niharet",
+          "entity_type": "Character",
+          "claim_id": "claim:DF012",
+          "claim_grade": "CANON_CONFIRMED",
+          "claim_summary": "Mahitab freed Niharet after she was entombed.",
+          "claim_role": "object",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/aetherdrift-hour-of-restoration",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "character:nissa_revane",
+          "entity_name": "Nissa Revane",
+          "entity_type": "Character",
+          "claim_id": "claim:DF004",
+          "claim_grade": "CANON_CONFIRMED",
+          "claim_summary": "Chandra races to win the Aetherspark for her lover Nissa.",
+          "claim_role": "object",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/aetherdrift-episode-2-pit-stop",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "character:pia_nalaar",
+          "entity_name": "Pia Nalaar",
+          "entity_type": "Character",
+          "claim_id": "claim:DF005",
+          "claim_grade": "CANON_CONFIRMED",
+          "claim_summary": "Pia Nalaar is Chandra's mother.",
+          "claim_role": "subject",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/aetherdrift-episode-2-pit-stop",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "character:winter",
+          "entity_name": "Winter",
+          "entity_type": "Character",
+          "claim_id": "claim:DF008",
+          "claim_grade": "CANON_IMPLIED",
+          "claim_summary": "Winter races for the Aetherspark to win his freedom.",
+          "claim_role": "subject",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/aetherdrift-episode-1-the-dashing-and-the-desperate",
+          "association_not_set_card_canon": true
+        }
+      ],
+      "mechanics_official_feature": null,
+      "related_commander_product": null,
+      "unknowns": [
+        "No inferred connections to individual cards, undocumented planes or other set codes.",
+        "Publication year and set release date are not in-universe event dates."
+      ]
+    },
+    "eoe": {
+      "set_name": "Edge of Eternities",
+      "set_type": "expansion",
+      "official_publication_series": "Edge of Eternities",
+      "official_stories_in_recovered_index": 16,
+      "sample_story_source_urls": [
+        "https://magic.wizards.com/en/news/magic-story/edge-of-eternities-episode-1",
+        "https://magic.wizards.com/en/news/magic-story/edge-of-eternities-episode-2",
+        "https://magic.wizards.com/en/news/magic-story/edge-of-eternities-grasp-in-the-dark"
+      ],
+      "source_claim_entity_associations": [
+        {
+          "entity_id": "character:farakatolar",
+          "entity_name": "Harkener Sergeant Farakatolar",
+          "entity_type": "Character",
+          "claim_id": "claim:EO019",
+          "claim_grade": "CANON_IMPLIED",
+          "claim_summary": "Harkener Sergeant Farakatolar leads a squad sent to investigate a drifting memorial vault for the Kav Memorial Navy.",
+          "claim_role": "subject",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/edge-of-eternities-grasp-in-the-dark",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "character:sami",
+          "entity_name": "Sami",
+          "entity_type": "Character",
+          "claim_id": "claim:EO030",
+          "claim_grade": "CANON_IMPLIED",
+          "claim_summary": "Sami and Tan explore a fully built colony, still in its wrap, whose intended settlers (the Choprights) never arrived.",
+          "claim_role": "subject",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/edge-of-eternities-episode-2",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "faction:kav",
+          "entity_name": "The Kav",
+          "entity_type": "Faction",
+          "claim_id": "claim:EO018",
+          "claim_grade": "CANON_CONFIRMED",
+          "claim_summary": "The Kav mined so deep into their homeworld Kavaron that they tore it in two (Kavaron That Is / Kavaron Before).",
+          "claim_role": "subject",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/edge-of-eternities-episode-1",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "faction:kav_memorial_navy",
+          "entity_name": "Kav Memorial Navy",
+          "entity_type": "Faction",
+          "claim_id": "claim:EO019",
+          "claim_grade": "CANON_IMPLIED",
+          "claim_summary": "Harkener Sergeant Farakatolar leads a squad sent to investigate a drifting memorial vault for the Kav Memorial Navy.",
+          "claim_role": "object",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/edge-of-eternities-grasp-in-the-dark",
+          "association_not_set_card_canon": true
+        }
+      ],
+      "mechanics_official_feature": null,
+      "related_commander_product": null,
+      "unknowns": [
+        "No inferred connections to individual cards, undocumented planes or other set codes.",
+        "Publication year and set release date are not in-universe event dates."
+      ]
+    },
+    "lci": {
+      "set_name": "The Lost Caverns of Ixalan",
+      "set_type": "expansion",
+      "official_publication_series": "The Lost Caverns of Ixalan",
+      "official_stories_in_recovered_index": 7,
+      "sample_story_source_urls": [
+        "https://magic.wizards.com/en/news/magic-story/the-lost-caverns-of-ixalan-episode-1",
+        "https://magic.wizards.com/en/news/magic-story/the-lost-caverns-of-ixalan-episode-2",
+        "https://magic.wizards.com/en/news/magic-story/the-lost-caverns-of-ixalan-episode-3"
+      ],
+      "source_claim_entity_associations": [
+        {
+          "entity_id": "character:aclazotz",
+          "entity_name": "Aclazotz",
+          "entity_type": "Character",
+          "claim_id": "claim:LC001",
+          "claim_grade": "CANON_CONFIRMED",
+          "claim_summary": "Vito leads a vampire expedition into the Core to find and awaken Aclazotz.",
+          "claim_role": "object",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/the-lost-caverns-of-ixalan-episode-1",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "character:aclazotz",
+          "entity_name": "Aclazotz",
+          "entity_type": "Character",
+          "claim_id": "claim:LC001",
+          "claim_grade": "CANON_CONFIRMED",
+          "claim_summary": "Vito leads a vampire expedition into the Core to find and awaken Aclazotz.",
+          "claim_role": "object",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/the-lost-caverns-of-ixalan-episode-3",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "character:amalia",
+          "entity_name": "Amalia",
+          "entity_type": "Character",
+          "claim_id": "claim:LC014",
+          "claim_grade": "CANON_CONFIRMED",
+          "claim_summary": "Amalia saves Kellan from a fall and vouches for him to Vito.",
+          "claim_role": "subject",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/the-lost-caverns-of-ixalan-episode-2",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "character:huatli",
+          "entity_name": "Huatli",
+          "entity_type": "Character",
+          "claim_id": "claim:LC013",
+          "claim_grade": "CANON_CONFIRMED",
+          "claim_summary": "Inti is one of the Imperial officers sent by the emperor to aid Huatli's expedition.",
+          "claim_role": "object",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/the-lost-caverns-of-ixalan-episode-2",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "character:inti",
+          "entity_name": "Inti",
+          "entity_type": "Character",
+          "claim_id": "claim:LC013",
+          "claim_grade": "CANON_CONFIRMED",
+          "claim_summary": "Inti is one of the Imperial officers sent by the emperor to aid Huatli's expedition.",
+          "claim_role": "subject",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/the-lost-caverns-of-ixalan-episode-2",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "character:kellan",
+          "entity_name": "Kellan",
+          "entity_type": "Character",
+          "claim_id": "claim:LC014",
+          "claim_grade": "CANON_CONFIRMED",
+          "claim_summary": "Amalia saves Kellan from a fall and vouches for him to Vito.",
+          "claim_role": "object",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/the-lost-caverns-of-ixalan-episode-2",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "character:kellan",
+          "entity_name": "Kellan",
+          "entity_type": "Character",
+          "claim_id": "claim:LC015",
+          "claim_grade": "CANON_CONFIRMED",
+          "claim_summary": "Kellan tells the vampire expedition he came from Eldraine.",
+          "claim_role": "subject",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/the-lost-caverns-of-ixalan-episode-2",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "character:vito",
+          "entity_name": "Vito",
+          "entity_type": "Character",
+          "claim_id": "claim:LC001",
+          "claim_grade": "CANON_CONFIRMED",
+          "claim_summary": "Vito leads a vampire expedition into the Core to find and awaken Aclazotz.",
+          "claim_role": "subject",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/the-lost-caverns-of-ixalan-episode-1",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "character:vito",
+          "entity_name": "Vito",
+          "entity_type": "Character",
+          "claim_id": "claim:LC001",
+          "claim_grade": "CANON_CONFIRMED",
+          "claim_summary": "Vito leads a vampire expedition into the Core to find and awaken Aclazotz.",
+          "claim_role": "subject",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/the-lost-caverns-of-ixalan-episode-3",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "plane:eldraine",
+          "entity_name": "Eldraine",
+          "entity_type": "Plane",
+          "claim_id": "claim:LC015",
+          "claim_grade": "CANON_CONFIRMED",
+          "claim_summary": "Kellan tells the vampire expedition he came from Eldraine.",
+          "claim_role": "object",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/the-lost-caverns-of-ixalan-episode-2",
+          "association_not_set_card_canon": true
+        }
+      ],
+      "mechanics_official_feature": null,
+      "related_commander_product": null,
+      "unknowns": [
+        "No inferred connections to individual cards, undocumented planes or other set codes.",
+        "Publication year and set release date are not in-universe event dates."
+      ]
+    },
+    "mat": {
+      "set_name": "March of the Machine: The Aftermath",
+      "set_type": "expansion",
+      "official_publication_series": "March of the Machine: The Aftermath",
+      "official_stories_in_recovered_index": 2,
+      "sample_story_source_urls": [
+        "https://magic.wizards.com/en/news/magic-story/beyond-repair",
+        "https://magic.wizards.com/en/news/magic-story/she-who-breaks-the-world"
+      ],
+      "source_claim_entity_associations": [
+        {
+          "entity_id": "character:ajani",
+          "entity_name": "Ajani",
+          "entity_type": "Character",
+          "claim_id": "claim:MA008",
+          "claim_grade": "CANON_CONFIRMED",
+          "claim_summary": "As a Phyrexian, Ajani was Elesh Norn's most faithful evangel and favored lieutenant.",
+          "claim_role": "subject",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/beyond-repair",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "character:ajani",
+          "entity_name": "Ajani",
+          "entity_type": "Character",
+          "claim_id": "claim:MA009",
+          "claim_grade": "CANON_IMPLIED",
+          "claim_summary": "Nahiri accuses Ajani of murdering Jaya Ballard and slaughtering the gods of Theros.",
+          "claim_role": "subject",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/beyond-repair",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "character:ajani",
+          "entity_name": "Ajani",
+          "entity_type": "Character",
+          "claim_id": "claim:MA011",
+          "claim_grade": "CANON_CONFIRMED",
+          "claim_summary": "Ajani came to Zendikar to find Nahiri.",
+          "claim_role": "subject",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/beyond-repair",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "character:chandra_nalaar",
+          "entity_name": "Chandra Nalaar",
+          "entity_type": "Character",
+          "claim_id": "claim:MA005",
+          "claim_grade": "CANON_CONFIRMED",
+          "claim_summary": "Chandra planeswalks away from Zhalfir to find Ajani, leaving Nissa behind.",
+          "claim_role": "subject",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/she-who-breaks-the-world",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "character:elesh_norn",
+          "entity_name": "Elesh Norn",
+          "entity_type": "Character",
+          "claim_id": "claim:MA008",
+          "claim_grade": "CANON_CONFIRMED",
+          "claim_summary": "As a Phyrexian, Ajani was Elesh Norn's most faithful evangel and favored lieutenant.",
+          "claim_role": "object",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/beyond-repair",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "character:jaya_ballard",
+          "entity_name": "Jaya Ballard",
+          "entity_type": "Character",
+          "claim_id": "claim:MA009",
+          "claim_grade": "CANON_IMPLIED",
+          "claim_summary": "Nahiri accuses Ajani of murdering Jaya Ballard and slaughtering the gods of Theros.",
+          "claim_role": "object",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/beyond-repair",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "character:karn",
+          "entity_name": "Karn",
+          "entity_type": "Character",
+          "claim_id": "claim:MA003",
+          "claim_grade": "CANON_CONFIRMED",
+          "claim_summary": "Karn and Koth build a new home for the Mirran refugees on Zhalfir.",
+          "claim_role": "subject",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/she-who-breaks-the-world",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "character:koth",
+          "entity_name": "Koth",
+          "entity_type": "Character",
+          "claim_id": "claim:MA003",
+          "claim_grade": "CANON_CONFIRMED",
+          "claim_summary": "Karn and Koth build a new home for the Mirran refugees on Zhalfir.",
+          "claim_role": "object",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/she-who-breaks-the-world",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "character:koth",
+          "entity_name": "Koth",
+          "entity_type": "Character",
+          "claim_id": "claim:MA013",
+          "claim_grade": "CANON_CONFIRMED",
+          "claim_summary": "Koth's spark faded after the Phyrexian invasion.",
+          "claim_role": "subject",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/she-who-breaks-the-world",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "character:nahiri",
+          "entity_name": "Nahiri, the Lithomancer",
+          "entity_type": "Character",
+          "claim_id": "claim:MA007",
+          "claim_grade": "CANON_CONFIRMED",
+          "claim_summary": "Nahiri lost her spark in the Skyclave, and her last hope of recovering it was destroyed.",
+          "claim_role": "subject",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/beyond-repair",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "character:nahiri",
+          "entity_name": "Nahiri, the Lithomancer",
+          "entity_type": "Character",
+          "claim_id": "claim:MA010",
+          "claim_grade": "CANON_CONFIRMED",
+          "claim_summary": "Nahiri swears that no Planeswalker will set foot on Zendikar again.",
+          "claim_role": "subject",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/beyond-repair",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "character:nahiri",
+          "entity_name": "Nahiri, the Lithomancer",
+          "entity_type": "Character",
+          "claim_id": "claim:MA011",
+          "claim_grade": "CANON_CONFIRMED",
+          "claim_summary": "Ajani came to Zendikar to find Nahiri.",
+          "claim_role": "object",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/beyond-repair",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "character:nissa_revane",
+          "entity_name": "Nissa Revane",
+          "entity_type": "Character",
+          "claim_id": "claim:MA002",
+          "claim_grade": "CANON_CONFIRMED",
+          "claim_summary": "After the invasion Nissa can no longer planeswalk, although she still wants to.",
+          "claim_role": "subject",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/beyond-repair",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "character:nissa_revane",
+          "entity_name": "Nissa Revane",
+          "entity_type": "Character",
+          "claim_id": "claim:MA002",
+          "claim_grade": "CANON_CONFIRMED",
+          "claim_summary": "After the invasion Nissa can no longer planeswalk, although she still wants to.",
+          "claim_role": "subject",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/she-who-breaks-the-world",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "character:teferi",
+          "entity_name": "Teferi",
+          "entity_type": "Character",
+          "claim_id": "claim:MA001",
+          "claim_grade": "CANON_CONFIRMED",
+          "claim_summary": "Teferi's spark faded after the Phyrexian invasion.",
+          "claim_role": "subject",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/she-who-breaks-the-world",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "character:teferi",
+          "entity_name": "Teferi",
+          "entity_type": "Character",
+          "claim_id": "claim:MA004",
+          "claim_grade": "CANON_CONFIRMED",
+          "claim_summary": "After the invasion Teferi has his homeland of Zhalfir again.",
+          "claim_role": "subject",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/she-who-breaks-the-world",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "character:wrenn",
+          "entity_name": "Wrenn",
+          "entity_type": "Character",
+          "claim_id": "claim:MA006",
+          "claim_grade": "CANON_CONFIRMED",
+          "claim_summary": "Wrenn knit herself into the Invasion Tree and is now a sprout growing on Zhalfir.",
+          "claim_role": "subject",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/she-who-breaks-the-world",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "faction:planeswalkers",
+          "entity_name": "Planeswalkers",
+          "entity_type": "Faction",
+          "claim_id": "claim:MA010",
+          "claim_grade": "CANON_CONFIRMED",
+          "claim_summary": "Nahiri swears that no Planeswalker will set foot on Zendikar again.",
+          "claim_role": "object",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/beyond-repair",
+          "association_not_set_card_canon": true
+        }
+      ],
+      "mechanics_official_feature": null,
+      "related_commander_product": null,
+      "unknowns": [
+        "No inferred connections to individual cards, undocumented planes or other set codes.",
+        "Publication year and set release date are not in-universe event dates."
+      ]
+    },
+    "mkm": {
+      "set_name": "Murders at Karlov Manor",
+      "set_type": "expansion",
+      "official_publication_series": "Murders at Karlov Manor",
+      "official_stories_in_recovered_index": 11,
+      "sample_story_source_urls": [
+        "https://magic.wizards.com/en/news/magic-story/episode-1-ghosts-of-our-past",
+        "https://magic.wizards.com/en/news/magic-story/episode-2-monsters-we-became",
+        "https://magic.wizards.com/en/news/magic-story/episode-3-shadows-of-regret"
+      ],
+      "source_claim_entity_associations": [
+        {
+          "entity_id": "character:alquist_proft",
+          "entity_name": "Alquist Proft",
+          "entity_type": "Character",
+          "claim_id": "claim:MK010",
+          "claim_grade": "CANON_CONFIRMED",
+          "claim_summary": "Alquist Proft works with the Agency.",
+          "claim_role": "subject",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/episode-3-shadows-of-regret",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "character:etrata",
+          "entity_name": "Etrata",
+          "entity_type": "Character",
+          "claim_id": "claim:MK007",
+          "claim_grade": "CANON_CONFIRMED",
+          "claim_summary": "Azorius mages take Etrata into custody after the murder at Karlov Manor.",
+          "claim_role": "object",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/episode-3-shadows-of-regret",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "character:kaya",
+          "entity_name": "Kaya",
+          "entity_type": "Character",
+          "claim_id": "claim:MK015",
+          "claim_grade": "CANON_CONFIRMED",
+          "claim_summary": "In Episode 2, Kaya and Teysa run through Karlov Manor together after the murder.",
+          "claim_role": "subject",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/episode-2-monsters-we-became",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "character:teysa_karlov",
+          "entity_name": "Teysa Karlov",
+          "entity_type": "Character",
+          "claim_id": "claim:MK009",
+          "claim_grade": "CANON_CONFIRMED",
+          "claim_summary": "Teysa Karlov is the newest head of the Orzhov Syndicate.",
+          "claim_role": "subject",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/episode-1-ghosts-of-our-past",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "character:teysa_karlov",
+          "entity_name": "Teysa Karlov",
+          "entity_type": "Character",
+          "claim_id": "claim:MK015",
+          "claim_grade": "CANON_CONFIRMED",
+          "claim_summary": "In Episode 2, Kaya and Teysa run through Karlov Manor together after the murder.",
+          "claim_role": "object",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/episode-2-monsters-we-became",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "faction:agency",
+          "entity_name": "Ravnica Agency of Magical Investigation",
+          "entity_type": "Faction",
+          "claim_id": "claim:MK010",
+          "claim_grade": "CANON_CONFIRMED",
+          "claim_summary": "Alquist Proft works with the Agency.",
+          "claim_role": "object",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/episode-3-shadows-of-regret",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "faction:azorius_senate",
+          "entity_name": "Azorius Senate",
+          "entity_type": "Faction",
+          "claim_id": "claim:MK007",
+          "claim_grade": "CANON_CONFIRMED",
+          "claim_summary": "Azorius mages take Etrata into custody after the murder at Karlov Manor.",
+          "claim_role": "subject",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/episode-3-shadows-of-regret",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "faction:orzhov_syndicate",
+          "entity_name": "Orzhov Syndicate",
+          "entity_type": "Faction",
+          "claim_id": "claim:MK009",
+          "claim_grade": "CANON_CONFIRMED",
+          "claim_summary": "Teysa Karlov is the newest head of the Orzhov Syndicate.",
+          "claim_role": "object",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/episode-1-ghosts-of-our-past",
+          "association_not_set_card_canon": true
+        }
+      ],
+      "mechanics_official_feature": null,
+      "related_commander_product": null,
+      "unknowns": [
+        "No inferred connections to individual cards, undocumented planes or other set codes.",
+        "Publication year and set release date are not in-universe event dates."
+      ]
+    },
+    "mom": {
+      "set_name": "March of the Machine",
+      "set_type": "expansion",
+      "official_publication_series": "March of the Machine",
+      "official_stories_in_recovered_index": 18,
+      "sample_story_source_urls": [
+        "https://magic.wizards.com/en/news/magic-story/episode-1-triumph-of-the-fleshless",
+        "https://magic.wizards.com/en/news/magic-story/episode-2-holding-your-breath",
+        "https://magic.wizards.com/en/news/magic-story/episode-3-mother-son-and-story"
+      ],
+      "source_claim_entity_associations": [
+        {
+          "entity_id": "character:ajani",
+          "entity_name": "Ajani",
+          "entity_type": "Character",
+          "claim_id": "claim:MOM002",
+          "claim_grade": "CANON_IMPLIED",
+          "claim_summary": "Sheoldred is beheaded in Norn's sanctum immediately after Norn orders Ajani to execute her.",
+          "claim_role": "subject",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/episode-1-triumph-of-the-fleshless",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "character:ajani",
+          "entity_name": "Ajani",
+          "entity_type": "Character",
+          "claim_id": "claim:MOM006",
+          "claim_grade": "CANON_IMPLIED",
+          "claim_summary": "Atraxa's question to Norn indicates Ajani was sent to Theros.",
+          "claim_role": "subject",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/episode-1-triumph-of-the-fleshless",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "character:atraxa",
+          "entity_name": "Atraxa",
+          "entity_type": "Character",
+          "claim_id": "claim:MOM007",
+          "claim_grade": "CANON_CONFIRMED",
+          "claim_summary": "Norn assigns Atraxa to destroy New Capenna, and Atraxa leads the Phyrexian forces there.",
+          "claim_role": "subject",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/episode-1-triumph-of-the-fleshless",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "character:chandra_nalaar",
+          "entity_name": "Chandra Nalaar",
+          "entity_type": "Character",
+          "claim_id": "claim:MOM008",
+          "claim_grade": "CANON_IMPLIED",
+          "claim_summary": "Chandra waits out two weeks in one of Liliana's warded cabins on Dominaria.",
+          "claim_role": "object",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/episode-2-holding-your-breath",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "character:elesh_norn",
+          "entity_name": "Elesh Norn",
+          "entity_type": "Character",
+          "claim_id": "claim:MOM001",
+          "claim_grade": "CANON_CONFIRMED",
+          "claim_summary": "Elesh Norn orders Ajani to execute the captured Sheoldred.",
+          "claim_role": "subject",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/episode-1-triumph-of-the-fleshless",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "character:liliana_vess",
+          "entity_name": "Liliana Vess",
+          "entity_type": "Character",
+          "claim_id": "claim:MOM008",
+          "claim_grade": "CANON_IMPLIED",
+          "claim_summary": "Chandra waits out two weeks in one of Liliana's warded cabins on Dominaria.",
+          "claim_role": "subject",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/episode-2-holding-your-breath",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "character:lukka",
+          "entity_name": "Lukka",
+          "entity_type": "Character",
+          "claim_id": "claim:MOM003",
+          "claim_grade": "CANON_CONFIRMED",
+          "claim_summary": "Elesh Norn sends the compleated Lukka to Ikoria to add its monsters to Phyrexia's ranks.",
+          "claim_role": "subject",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/episode-1-triumph-of-the-fleshless",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "character:nahiri",
+          "entity_name": "Nahiri, the Lithomancer",
+          "entity_type": "Character",
+          "claim_id": "claim:MOM005",
+          "claim_grade": "CANON_CONFIRMED",
+          "claim_summary": "The compleated Nahiri tells Norn she was born on Zendikar, her assigned homeland.",
+          "claim_role": "subject",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/episode-1-triumph-of-the-fleshless",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "character:nashi",
+          "entity_name": "Nashi",
+          "entity_type": "Character",
+          "claim_id": "claim:MOM010",
+          "claim_grade": "CANON_CONFIRMED",
+          "claim_summary": "Tamiyo is Nashi's mother; the emperor consoles Nashi after Tamiyo falls.",
+          "claim_role": "object",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/episode-3-mother-son-and-story",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "character:sheoldred",
+          "entity_name": "Sheoldred",
+          "entity_type": "Character",
+          "claim_id": "claim:MOM001",
+          "claim_grade": "CANON_CONFIRMED",
+          "claim_summary": "Elesh Norn orders Ajani to execute the captured Sheoldred.",
+          "claim_role": "object",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/episode-1-triumph-of-the-fleshless",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "character:sheoldred",
+          "entity_name": "Sheoldred",
+          "entity_type": "Character",
+          "claim_id": "claim:MOM002",
+          "claim_grade": "CANON_IMPLIED",
+          "claim_summary": "Sheoldred is beheaded in Norn's sanctum immediately after Norn orders Ajani to execute her.",
+          "claim_role": "object",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/episode-1-triumph-of-the-fleshless",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "character:tamiyo",
+          "entity_name": "Tamiyo",
+          "entity_type": "Character",
+          "claim_id": "claim:MOM004",
+          "claim_grade": "CANON_CONFIRMED",
+          "claim_summary": "Elesh Norn commands the compleated Tamiyo to bring Kamigawa under Phyrexian control.",
+          "claim_role": "subject",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/episode-1-triumph-of-the-fleshless",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "character:tamiyo",
+          "entity_name": "Tamiyo",
+          "entity_type": "Character",
+          "claim_id": "claim:MOM009",
+          "claim_grade": "CANON_CONFIRMED",
+          "claim_summary": "The emperor of Kamigawa strikes down the compleated Tamiyo.",
+          "claim_role": "object",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/episode-3-mother-son-and-story",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "character:tamiyo",
+          "entity_name": "Tamiyo",
+          "entity_type": "Character",
+          "claim_id": "claim:MOM010",
+          "claim_grade": "CANON_CONFIRMED",
+          "claim_summary": "Tamiyo is Nashi's mother; the emperor consoles Nashi after Tamiyo falls.",
+          "claim_role": "subject",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/episode-3-mother-son-and-story",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "character:the_wanderer",
+          "entity_name": "The Wanderer (Emperor of Kamigawa)",
+          "entity_type": "Character",
+          "claim_id": "claim:MOM009",
+          "claim_grade": "CANON_CONFIRMED",
+          "claim_summary": "The emperor of Kamigawa strikes down the compleated Tamiyo.",
+          "claim_role": "subject",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/episode-3-mother-son-and-story",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "plane:ikoria",
+          "entity_name": "Ikoria",
+          "entity_type": "Plane",
+          "claim_id": "claim:MOM003",
+          "claim_grade": "CANON_CONFIRMED",
+          "claim_summary": "Elesh Norn sends the compleated Lukka to Ikoria to add its monsters to Phyrexia's ranks.",
+          "claim_role": "object",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/episode-1-triumph-of-the-fleshless",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "plane:kamigawa",
+          "entity_name": "Kamigawa",
+          "entity_type": "Plane",
+          "claim_id": "claim:MOM004",
+          "claim_grade": "CANON_CONFIRMED",
+          "claim_summary": "Elesh Norn commands the compleated Tamiyo to bring Kamigawa under Phyrexian control.",
+          "claim_role": "object",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/episode-1-triumph-of-the-fleshless",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "plane:new_capenna",
+          "entity_name": "New Capenna",
+          "entity_type": "Plane",
+          "claim_id": "claim:MOM007",
+          "claim_grade": "CANON_CONFIRMED",
+          "claim_summary": "Norn assigns Atraxa to destroy New Capenna, and Atraxa leads the Phyrexian forces there.",
+          "claim_role": "object",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/episode-1-triumph-of-the-fleshless",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "plane:theros",
+          "entity_name": "Theros",
+          "entity_type": "Plane",
+          "claim_id": "claim:MOM006",
+          "claim_grade": "CANON_IMPLIED",
+          "claim_summary": "Atraxa's question to Norn indicates Ajani was sent to Theros.",
+          "claim_role": "object",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/episode-1-triumph-of-the-fleshless",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "plane:zendikar",
+          "entity_name": "Zendikar",
+          "entity_type": "Plane",
+          "claim_id": "claim:MOM005",
+          "claim_grade": "CANON_CONFIRMED",
+          "claim_summary": "The compleated Nahiri tells Norn she was born on Zendikar, her assigned homeland.",
+          "claim_role": "object",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/episode-1-triumph-of-the-fleshless",
+          "association_not_set_card_canon": true
+        }
+      ],
+      "mechanics_official_feature": null,
+      "related_commander_product": null,
+      "unknowns": [
+        "No inferred connections to individual cards, undocumented planes or other set codes.",
+        "Publication year and set release date are not in-universe event dates."
+      ]
+    },
+    "one": {
+      "set_name": "Phyrexia: All Will Be One",
+      "set_type": "expansion",
+      "official_publication_series": "Phyrexia: All Will Be One",
+      "official_stories_in_recovered_index": 5,
+      "sample_story_source_urls": [
+        "https://magic.wizards.com/en/news/magic-story/a-hollow-body",
+        "https://magic.wizards.com/en/news/magic-story/cinders",
+        "https://magic.wizards.com/en/news/magic-story/hard-as-anger-bright-as-joy"
+      ],
+      "source_claim_entity_associations": [
+        {
+          "entity_id": "character:atraxa",
+          "entity_name": "Atraxa",
+          "entity_type": "Character",
+          "claim_id": "claim:ON001",
+          "claim_grade": "CANON_IMPLIED",
+          "claim_summary": "In the Fair Basilica the narrator kneels before Atraxa, the Grand Unifier, while Elesh Norn holds the council seat.",
+          "claim_role": "subject",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/a-hollow-body",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "character:elesh_norn",
+          "entity_name": "Elesh Norn",
+          "entity_type": "Character",
+          "claim_id": "claim:ON001",
+          "claim_grade": "CANON_IMPLIED",
+          "claim_summary": "In the Fair Basilica the narrator kneels before Atraxa, the Grand Unifier, while Elesh Norn holds the council seat.",
+          "claim_role": "object",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/a-hollow-body",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "character:glissa",
+          "entity_name": "Glissa",
+          "entity_type": "Character",
+          "claim_id": "claim:ON004",
+          "claim_grade": "CANON_CONFIRMED",
+          "claim_summary": "On New Phyrexia, Lukka fights Glissa while Nissa fights Vorinclex.",
+          "claim_role": "object",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/hard-as-anger-bright-as-joy",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "character:jace_beleren",
+          "entity_name": "Jace Beleren",
+          "entity_type": "Character",
+          "claim_id": "claim:ON003",
+          "claim_grade": "CANON_CONFIRMED",
+          "claim_summary": "Jace recruited Lukka for the New Phyrexia infiltration for his military expertise.",
+          "claim_role": "subject",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/hard-as-anger-bright-as-joy",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "character:lukka",
+          "entity_name": "Lukka",
+          "entity_type": "Character",
+          "claim_id": "claim:ON003",
+          "claim_grade": "CANON_CONFIRMED",
+          "claim_summary": "Jace recruited Lukka for the New Phyrexia infiltration for his military expertise.",
+          "claim_role": "object",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/hard-as-anger-bright-as-joy",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "character:lukka",
+          "entity_name": "Lukka",
+          "entity_type": "Character",
+          "claim_id": "claim:ON004",
+          "claim_grade": "CANON_CONFIRMED",
+          "claim_summary": "On New Phyrexia, Lukka fights Glissa while Nissa fights Vorinclex.",
+          "claim_role": "subject",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/hard-as-anger-bright-as-joy",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "character:neyali",
+          "entity_name": "Neyali",
+          "entity_type": "Character",
+          "claim_id": "claim:ON002",
+          "claim_grade": "CANON_CONFIRMED",
+          "claim_summary": "Neyali leads a Mirran resistance cell near the Quiet Furnace, succeeding Elham.",
+          "claim_role": "subject",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/cinders",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "faction:mirran_resistance",
+          "entity_name": "Mirran resistance",
+          "entity_type": "Faction",
+          "claim_id": "claim:ON002",
+          "claim_grade": "CANON_CONFIRMED",
+          "claim_summary": "Neyali leads a Mirran resistance cell near the Quiet Furnace, succeeding Elham.",
+          "claim_role": "object",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/cinders",
+          "association_not_set_card_canon": true
+        }
+      ],
+      "mechanics_official_feature": null,
+      "related_commander_product": null,
+      "unknowns": [
+        "No inferred connections to individual cards, undocumented planes or other set codes.",
+        "Publication year and set release date are not in-universe event dates."
+      ]
+    },
+    "otj": {
+      "set_name": "Outlaws of Thunder Junction",
+      "set_type": "expansion",
+      "official_publication_series": "Outlaws of Thunder Junction",
+      "official_stories_in_recovered_index": 12,
+      "sample_story_source_urls": [
+        "https://magic.wizards.com/en/news/magic-story/episode-1-an-offer-of-revenge",
+        "https://magic.wizards.com/en/news/magic-story/episode-2-the-jailbreak",
+        "https://magic.wizards.com/en/news/magic-story/no-tells"
+      ],
+      "source_claim_entity_associations": [
+        {
+          "entity_id": "character:akul",
+          "entity_name": "Akul",
+          "entity_type": "Character",
+          "claim_id": "claim:OT003",
+          "claim_grade": "CANON_IMPLIED",
+          "claim_summary": "Akul and the Hellspurs built the town of Tarnation around the vault to control it.",
+          "claim_role": "subject",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/episode-2-the-jailbreak",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "character:annie_flash",
+          "entity_name": "Annie Flash",
+          "entity_type": "Character",
+          "claim_id": "claim:OT001",
+          "claim_grade": "CANON_CONFIRMED",
+          "claim_summary": "Oko recruits Annie Flash into his crew to rob Akul, and she joins to stop him.",
+          "claim_role": "object",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/episode-1-an-offer-of-revenge",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "character:annie_flash",
+          "entity_name": "Annie Flash",
+          "entity_type": "Character",
+          "claim_id": "claim:OT001",
+          "claim_grade": "CANON_CONFIRMED",
+          "claim_summary": "Oko recruits Annie Flash into his crew to rob Akul, and she joins to stop him.",
+          "claim_role": "object",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/episode-2-the-jailbreak",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "character:ashiok",
+          "entity_name": "Ashiok",
+          "entity_type": "Character",
+          "claim_id": "claim:OT002",
+          "claim_grade": "CANON_IMPLIED",
+          "claim_summary": "Ashiok hires Oko's crew to break into the vault Maag Taranau.",
+          "claim_role": "subject",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/episode-2-the-jailbreak",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "character:elnor",
+          "entity_name": "Elnor",
+          "entity_type": "Character",
+          "claim_id": "claim:OS001",
+          "claim_grade": "CANON_CONFIRMED",
+          "claim_summary": "The narrator Yuma and Elnor were friends and partners before a falling-out over money.",
+          "claim_role": "object",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/no-tells",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "character:kellan",
+          "entity_name": "Kellan",
+          "entity_type": "Character",
+          "claim_id": "claim:OT004",
+          "claim_grade": "CANON_CONFIRMED",
+          "claim_summary": "Kellan is Oko's son.",
+          "claim_role": "object",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/episode-1-an-offer-of-revenge",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "character:oko",
+          "entity_name": "Oko",
+          "entity_type": "Character",
+          "claim_id": "claim:OT001",
+          "claim_grade": "CANON_CONFIRMED",
+          "claim_summary": "Oko recruits Annie Flash into his crew to rob Akul, and she joins to stop him.",
+          "claim_role": "subject",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/episode-1-an-offer-of-revenge",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "character:oko",
+          "entity_name": "Oko",
+          "entity_type": "Character",
+          "claim_id": "claim:OT001",
+          "claim_grade": "CANON_CONFIRMED",
+          "claim_summary": "Oko recruits Annie Flash into his crew to rob Akul, and she joins to stop him.",
+          "claim_role": "subject",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/episode-2-the-jailbreak",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "character:oko",
+          "entity_name": "Oko",
+          "entity_type": "Character",
+          "claim_id": "claim:OT002",
+          "claim_grade": "CANON_IMPLIED",
+          "claim_summary": "Ashiok hires Oko's crew to break into the vault Maag Taranau.",
+          "claim_role": "object",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/episode-2-the-jailbreak",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "character:oko",
+          "entity_name": "Oko",
+          "entity_type": "Character",
+          "claim_id": "claim:OT004",
+          "claim_grade": "CANON_CONFIRMED",
+          "claim_summary": "Kellan is Oko's son.",
+          "claim_role": "subject",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/episode-1-an-offer-of-revenge",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "character:yuma",
+          "entity_name": "Yuma",
+          "entity_type": "Character",
+          "claim_id": "claim:OS001",
+          "claim_grade": "CANON_CONFIRMED",
+          "claim_summary": "The narrator Yuma and Elnor were friends and partners before a falling-out over money.",
+          "claim_role": "subject",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/no-tells",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "plane:thunder_junction",
+          "entity_name": "Thunder Junction",
+          "entity_type": "Plane",
+          "claim_id": "claim:FMP010",
+          "claim_grade": "CANON_CONFIRMED",
+          "claim_summary": "The 2024 Wizards preview records a discovered ancient vault on Thunder Junction; the story names it Maag Taranau.",
+          "claim_role": "subject",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/episode-2-the-jailbreak",
+          "association_not_set_card_canon": true
+        }
+      ],
+      "mechanics_official_feature": null,
+      "related_commander_product": null,
+      "unknowns": [
+        "No inferred connections to individual cards, undocumented planes or other set codes.",
+        "Publication year and set release date are not in-universe event dates."
+      ]
+    },
+    "tdm": {
+      "set_name": "Tarkir: Dragonstorm",
+      "set_type": "expansion",
+      "official_publication_series": "Tarkir: Dragonstorm",
+      "official_stories_in_recovered_index": 12,
+      "sample_story_source_urls": [
+        "https://magic.wizards.com/en/news/magic-story/tarkir-dragonstorm-abzan-siege-blossoms",
+        "https://magic.wizards.com/en/news/magic-story/tarkir-dragonstorm-episode-1-stories-and-their-bones",
+        "https://magic.wizards.com/en/news/magic-story/tarkir-dragonstorm-episode-2-omens"
+      ],
+      "source_claim_entity_associations": [
+        {
+          "entity_id": "character:elspeth_tirel",
+          "entity_name": "Elspeth Tirel",
+          "entity_type": "Character",
+          "claim_id": "claim:TD011",
+          "claim_grade": "CANON_CONFIRMED",
+          "claim_summary": "Elspeth, now winged, comes to a Jeskai skyship to see Narset.",
+          "claim_role": "subject",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/tarkir-dragonstorm-episode-2-omens",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "character:mehtma",
+          "entity_name": "Mehtma",
+          "entity_type": "Character",
+          "claim_id": "claim:TD009",
+          "claim_grade": "CANON_CONFIRMED",
+          "claim_summary": "Mehtma, a lieutenant, was a krumar orphan adopted into the Abzan House Fenzala.",
+          "claim_role": "subject",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/tarkir-dragonstorm-abzan-siege-blossoms",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "character:narset",
+          "entity_name": "Narset",
+          "entity_type": "Character",
+          "claim_id": "claim:TD010",
+          "claim_grade": "CANON_CONFIRMED",
+          "claim_summary": "Narset is the Jeskai waymaster, effectively the clan's leader.",
+          "claim_role": "subject",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/tarkir-dragonstorm-episode-1-stories-and-their-bones",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "character:narset",
+          "entity_name": "Narset",
+          "entity_type": "Character",
+          "claim_id": "claim:TD011",
+          "claim_grade": "CANON_CONFIRMED",
+          "claim_summary": "Elspeth, now winged, comes to a Jeskai skyship to see Narset.",
+          "claim_role": "object",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/tarkir-dragonstorm-episode-2-omens",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "faction:house_fenzala",
+          "entity_name": "House Fenzala (Abzan)",
+          "entity_type": "Faction",
+          "claim_id": "claim:TD009",
+          "claim_grade": "CANON_CONFIRMED",
+          "claim_summary": "Mehtma, a lieutenant, was a krumar orphan adopted into the Abzan House Fenzala.",
+          "claim_role": "object",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/tarkir-dragonstorm-abzan-siege-blossoms",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "faction:jeskai",
+          "entity_name": "The Jeskai",
+          "entity_type": "Faction",
+          "claim_id": "claim:TD010",
+          "claim_grade": "CANON_CONFIRMED",
+          "claim_summary": "Narset is the Jeskai waymaster, effectively the clan's leader.",
+          "claim_role": "object",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/tarkir-dragonstorm-episode-1-stories-and-their-bones",
+          "association_not_set_card_canon": true
+        }
+      ],
+      "mechanics_official_feature": {
+        "set_code": "tdm",
+        "mechanic_labels": [
+          "Endure",
+          "Behold",
+          "Mobilize",
+          "Harmonize",
+          "Omens"
+        ],
+        "source_title": "Tarkir: Dragonstorm Mechanics",
+        "source_url": "https://magic.wizards.com/en/news/feature/tarkir-dragonstorm-mechanics",
+        "evidence_scope": "Mechanic headings explained by Wizards for the named set, not every card's abilities"
+      },
+      "related_commander_product": {
+        "parent_set_code": "tdm",
+        "commander_set_code": "tdc",
+        "source_title": "Tarkir: Dragonstorm Commander Decklists",
+        "source_url": "https://magic.wizards.com/en/news/announcements/tarkir-dragonstorm-commander-decklists",
+        "evidence_scope": "Five Wizards-published preconstructed Commander lists, joined to their Scryfall parent/child product metadata; no pilot deck approval"
+      },
+      "unknowns": [
+        "No inferred connections to individual cards, undocumented planes or other set codes.",
+        "Publication year and set release date are not in-universe event dates."
+      ]
+    },
+    "woe": {
+      "set_name": "Wilds of Eldraine",
+      "set_type": "expansion",
+      "official_publication_series": "Wilds of Eldraine",
+      "official_stories_in_recovered_index": 5,
+      "sample_story_source_urls": [
+        "https://magic.wizards.com/en/news/magic-story/episode-1-pure-of-heart",
+        "https://magic.wizards.com/en/news/magic-story/episode-2-wandering-knight-budding-hero",
+        "https://magic.wizards.com/en/news/magic-story/episode-3-two-great-banquets"
+      ],
+      "source_claim_entity_associations": [
+        {
+          "entity_id": "character:ashiok",
+          "entity_name": "Ashiok",
+          "entity_type": "Character",
+          "claim_id": "claim:WE006",
+          "claim_grade": "CANON_CONFIRMED",
+          "claim_summary": "Ashiok is at Eriette's court and fights alongside Eriette's dreamers at the final battle.",
+          "claim_role": "subject",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/episode-3-two-great-banquets",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "character:ashiok",
+          "entity_name": "Ashiok",
+          "entity_type": "Character",
+          "claim_id": "claim:WE007",
+          "claim_grade": "CANON_IMPLIED",
+          "claim_summary": "Rowan asks to planeswalk again; Ashiok tells her that her spark is gone.",
+          "claim_role": "object",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/episode-3-two-great-banquets",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "character:eriette",
+          "entity_name": "Eriette",
+          "entity_type": "Character",
+          "claim_id": "claim:WE005",
+          "claim_grade": "CANON_CONFIRMED",
+          "claim_summary": "Rowan Kenrith joins Eriette and studies her sleep magic for some weeks, believing it can save Eldraine.",
+          "claim_role": "object",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/episode-3-two-great-banquets",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "character:eriette",
+          "entity_name": "Eriette",
+          "entity_type": "Character",
+          "claim_id": "claim:WE006",
+          "claim_grade": "CANON_CONFIRMED",
+          "claim_summary": "Ashiok is at Eriette's court and fights alongside Eriette's dreamers at the final battle.",
+          "claim_role": "object",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/episode-3-two-great-banquets",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "character:kellan",
+          "entity_name": "Kellan",
+          "entity_type": "Character",
+          "claim_id": "claim:WE001",
+          "claim_grade": "CANON_CONFIRMED",
+          "claim_summary": "Kellan sets out on a quest for Talion, his fae lord, carrying Talion's basket-hilt gift.",
+          "claim_role": "subject",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/episode-2-wandering-knight-budding-hero",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "character:kellan",
+          "entity_name": "Kellan",
+          "entity_type": "Character",
+          "claim_id": "claim:WE012",
+          "claim_grade": "CANON_CONFIRMED",
+          "claim_summary": "Ruby travels with Kellan on his quest.",
+          "claim_role": "object",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/episode-3-two-great-banquets",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "character:peter",
+          "entity_name": "Peter",
+          "entity_type": "Character",
+          "claim_id": "claim:WE011",
+          "claim_grade": "CANON_IMPLIED",
+          "claim_summary": "Ruby says Peter is her brother.",
+          "claim_role": "object",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/episode-2-wandering-knight-budding-hero",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "character:rowan_kenrith",
+          "entity_name": "Rowan Kenrith",
+          "entity_type": "Character",
+          "claim_id": "claim:WE005",
+          "claim_grade": "CANON_CONFIRMED",
+          "claim_summary": "Rowan Kenrith joins Eriette and studies her sleep magic for some weeks, believing it can save Eldraine.",
+          "claim_role": "subject",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/episode-3-two-great-banquets",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "character:rowan_kenrith",
+          "entity_name": "Rowan Kenrith",
+          "entity_type": "Character",
+          "claim_id": "claim:WE007",
+          "claim_grade": "CANON_IMPLIED",
+          "claim_summary": "Rowan asks to planeswalk again; Ashiok tells her that her spark is gone.",
+          "claim_role": "subject",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/episode-3-two-great-banquets",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "character:ruby",
+          "entity_name": "Ruby",
+          "entity_type": "Character",
+          "claim_id": "claim:WE011",
+          "claim_grade": "CANON_IMPLIED",
+          "claim_summary": "Ruby says Peter is her brother.",
+          "claim_role": "subject",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/episode-2-wandering-knight-budding-hero",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "character:ruby",
+          "entity_name": "Ruby",
+          "entity_type": "Character",
+          "claim_id": "claim:WE012",
+          "claim_grade": "CANON_CONFIRMED",
+          "claim_summary": "Ruby travels with Kellan on his quest.",
+          "claim_role": "subject",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/episode-3-two-great-banquets",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "character:talion",
+          "entity_name": "Talion, the Kindly Lord",
+          "entity_type": "Character",
+          "claim_id": "claim:WE001",
+          "claim_grade": "CANON_CONFIRMED",
+          "claim_summary": "Kellan sets out on a quest for Talion, his fae lord, carrying Talion's basket-hilt gift.",
+          "claim_role": "object",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/episode-2-wandering-knight-budding-hero",
+          "association_not_set_card_canon": true
+        },
+        {
+          "entity_id": "faction:phyrexians",
+          "entity_name": "The Phyrexians",
+          "entity_type": "Faction",
+          "claim_id": "claim:WE003",
+          "claim_grade": "CANON_IMPLIED",
+          "claim_summary": "The Wicked Slumber was meant to stop, and is said to have stopped, the Phyrexian invaders in Eldraine.",
+          "claim_role": "object",
+          "official_story_url": "https://magic.wizards.com/en/news/magic-story/episode-1-pure-of-heart",
+          "association_not_set_card_canon": true
+        }
+      ],
+      "mechanics_official_feature": null,
+      "related_commander_product": null,
+      "unknowns": [
+        "No inferred connections to individual cards, undocumented planes or other set codes.",
+        "Publication year and set release date are not in-universe event dates."
+      ]
+    }
+  },
+  "limitations": [
+    "A Wizards story series named for a set identifies a publication relationship, not a claim about every card or a universal plane/faction roster.",
+    "A graph entity appears only because a cited claim structurally references it; grade and source URL remain visible, including disputes and alternate continuity.",
+    "Mechanics are attested on three named Wizards feature pages, not automatically assigned to every printing in the set.",
+    "The Scryfall parent_set_code plus an official Wizards decklist page connects one Commander product; it does not approve the project's pilot decks.",
+    "The other set codes are explicitly unknown for lore context; a shared name, release year, parent link or story-art filename is not proof of canon."
+  ]
+}

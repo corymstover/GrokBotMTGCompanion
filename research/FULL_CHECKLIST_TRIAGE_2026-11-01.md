@@ -1,8 +1,8 @@
 # Complete Master Workflow checklist triage — 2026-11-01
 
-**115/137 checked; 22 open.** Completed: 115; Under review: 14; Blocked: 8; Not started: 0.
+**116/137 checked; 21 open.** Completed: 116; Under review: 13; Blocked: 8; Not started: 0.
 
-**Repository finish line: 16 actionable build items remain.** 6 unchecked historical items are excluded: 3 post-build pilot reviews and 3 recurring upkeep tasks. None is treated as finished or as a release blocker.
+**Repository finish line: 15 actionable build items remain.** 6 unchecked historical items are excluded: 3 post-build pilot reviews and 3 recurring upkeep tasks. None is treated as finished or as a release blocker.
 
 This checklist inventory alone is **not a foundation certificate**; the separate v3.00 SHA-pinned milestone certificate records external CI. Pilot reviews are deferred until decks are rebuilt using the completed repository data; upkeep continues after release.
 
@@ -15,7 +15,7 @@ The machine-readable JSON preserves all 137 original tasks with their build-scop
 
 ## Phase 1B — MTG Set & Printing Atlas (official milestone)
 
-42/47 checked; 5 remaining build; 0 excluded from finish line.
+43/47 checked; 4 remaining build; 0 excluded from finish line.
 
 - **K022 · Blocked · MISSING_PRIMARY_SOURCE** — Independently corroborate `fbb` and `4bb` foreign-border variants with Wizards primary documentation; third-party Cardmarket corroboration is recorded but does not close this gate.
   - Wizards evidence for two foreign-border printing variants is still unverified.
@@ -25,8 +25,6 @@ The machine-readable JSON preserves all 137 original tasks with their build-scop
   - Older preconstructed/regional box codes need first-party product citations.
 - **K050 · Under review · QUALIFIED_SCOPE** — Publish reproducible totals for **all Scryfall set codes** and separately for **premier expansion/core sets**, plus other clearly defined product categories; never report an unqualified "total sets" figure.
   - All 1,062 categories are counted; an all-time first-party premier-set count is not certified.
-- **K055 · Under review · SOURCE_GRADING** — Connect sets to supported planes, story arcs, factions, characters, mechanics and Commander-relevant releases without inventing lore connections.
-  - Existing cited story-series joins are not exhaustive set-to-canon relationships.
 
 ## Phase 2 — Lore enrichment and primary-source integrity
 

@@ -19,7 +19,7 @@
         "python3 scripts/build_multiverse_graph.py --check",
         "test_graph_integrity_post_grok.py"
       ],
-      "workflow_sha256": "c5f497f2f20ffa9e4545285dcaf3d76a36f4d02b67935835203e3356b402b54b",
+      "workflow_sha256": "718db42f36dded613155388d3702a5284aeb9b01194f12c092e6c12f80bb8d17",
       "pull_request_trigger": true,
       "no_continue_on_error": true
     },
