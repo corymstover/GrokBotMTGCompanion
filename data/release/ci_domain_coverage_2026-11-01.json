@@ -1,0 +1,101 @@
+{
+  "schema": "bounded-targeted-ci-coverage/v1",
+  "as_of": "2026-11-01",
+  "status": "TARGETED_CI_WORKFLOWS_PRESENT_AND_ASSERTED",
+  "coverage_domains": {
+    "card_counts_and_color_identity": {
+      "workflow": ".github/workflows/phase6-lore-pilots.yml",
+      "required_step_fragments": [
+        "run: python3 scripts/audit_lore_pilot.py",
+        "test_lore_pilot_builder.py"
+      ],
+      "workflow_sha256": "6b27fcd11147d6b012d2000456a82dc874bba1273006b5d8d309287d039d7a40",
+      "pull_request_trigger": true,
+      "no_continue_on_error": true
+    },
+    "cited_graph_relationships": {
+      "workflow": ".github/workflows/multiverse-integrity-post-grok.yml",
+      "required_step_fragments": [
+        "python3 scripts/build_multiverse_graph.py --check",
+        "test_graph_integrity_post_grok.py"
+      ],
+      "workflow_sha256": "9bf70a73ebdde680866a947ffa7f00b9860a0869efb2c3ba27d04424952410f7",
+      "pull_request_trigger": true,
+      "no_continue_on_error": true
+    },
+    "frozen_pilot_decklist_legality": {
+      "workflow": ".github/workflows/phase6-lore-pilots.yml",
+      "required_step_fragments": [
+        "run: python3 scripts/audit_lore_pilot.py",
+        "test_pilot3_ugins_allies.py"
+      ],
+      "workflow_sha256": "6b27fcd11147d6b012d2000456a82dc874bba1273006b5d8d309287d039d7a40",
+      "pull_request_trigger": true,
+      "no_continue_on_error": true
+    },
+    "historical_set_and_printing_data": {
+      "workflow": ".github/workflows/phase1b-set-atlas-validation.yml",
+      "required_step_fragments": [
+        "test_set_printing_atlas.py"
+      ],
+      "workflow_sha256": "f7d7fadc763228dceb0ec95f8d95fcfa730025f1c76332cd76fa4820bcdac616",
+      "pull_request_trigger": true,
+      "no_continue_on_error": true
+    },
+    "official_story_source_integrity": {
+      "workflow": ".github/workflows/phase3-multiverse-claim-graph.yml",
+      "required_step_fragments": [
+        "python3 scripts/story_claim_pipeline.py check",
+        "test_story_claim_pipeline.py"
+      ],
+      "workflow_sha256": "ddf424d25d4e388ed0a646c7c8b1131f798c9ee70a64be4d3ba4c467095513b8",
+      "pull_request_trigger": true,
+      "no_continue_on_error": true
+    },
+    "original_grixis_mechanics_regressions": {
+      "workflow": ".github/workflows/chatgpt-branch-validation.yml",
+      "required_step_fragments": [
+        "test_mech_attack_semantics.py",
+        "test_mech_router_semantics.py",
+        "scripts/grixis_mechanics.py --check"
+      ],
+      "workflow_sha256": "f64de213670f760a98b8f8ca435a5e234977985811b77c6e8dd557a4a5f0b607",
+      "pull_request_trigger": true,
+      "no_continue_on_error": true
+    },
+    "published_rules_and_commander_eligibility": {
+      "workflow": ".github/workflows/phase7-companion-ask.yml",
+      "required_step_fragments": [
+        "python3 scripts/commander_rules.py audit-eligibility --check",
+        "test_commander_rules.py"
+      ],
+      "workflow_sha256": "991ca44ebcd875ac179c5b6bc8c6224c72d29bbe0ef0c6261e8e931f7014913f",
+      "pull_request_trigger": true,
+      "no_continue_on_error": true
+    },
+    "question_answer_regressions": {
+      "workflow": ".github/workflows/phase7-companion-ask.yml",
+      "required_step_fragments": [
+        "test_mv_ask.py",
+        "test_rules_interactions.py"
+      ],
+      "workflow_sha256": "991ca44ebcd875ac179c5b6bc8c6224c72d29bbe0ef0c6261e8e931f7014913f",
+      "pull_request_trigger": true,
+      "no_continue_on_error": true
+    },
+    "whole_project_progress_and_release": {
+      "workflow": ".github/workflows/phase8-release-readiness.yml",
+      "required_step_fragments": [
+        "python3 scripts/audit_full_checklist.py --check",
+        "python3 scripts/certification_dry_run.py --check"
+      ],
+      "workflow_sha256": "32a957218cc519d4d9afae7c020891edc628e9f80cd3100b6d6efdcaec28be1d",
+      "pull_request_trigger": true,
+      "no_continue_on_error": true
+    }
+  },
+  "count": 9,
+  "administrative_limitation": "This tests committed workflow configuration only. It does NOT prove GitHub branch protection requires status checks or that any unobserved future run is green.",
+  "external_green_ancestor": "PR #972 candidate 13/13 and merge 9/9 (observed separately, not reauthenticated by this local tool)",
+  "scope": "Keeps targeted CI in versioned repository code; future additions must update this map and regenerate."
+}

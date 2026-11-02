@@ -83,9 +83,9 @@ class EntityCoverageCensus(unittest.TestCase):
                           if r['section'].startswith('Definition of the first major')],
                          [True] * 7)
         # The v2.92 entity research gate predates the independently certified
-        # v3.00 foundation; v3.02 now allows only four audited engine boxes.
+        # v3.00 foundation; v3.03 now allows five audited engine boxes.
         self.assertEqual({r['id'] for r in rows if r['section'].startswith('Phase 6') and r['checked']},
-                         {'K106', 'K109', 'K111', 'K115'})
+                         {'K106', 'K107', 'K109', 'K111', 'K115'})
 
 
 if __name__ == '__main__':

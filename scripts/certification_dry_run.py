@@ -51,10 +51,7 @@ RELEASE_BLOCKERS = {
 
 # Phase 8 items, in workflow order (matched by a leading phrase).
 PHASE8_BLOCKERS = [
-    ("Keep targeted CI checks", [
-        B("OWNER_DECISION", "No documented set of required status checks protects main; choosing them is a repository "
-          "setting only the owner can change.", ".github/workflows"),
-    ]),
+    ("Keep targeted CI checks", []),  # v3.03 nine targeted PR CI domains accepted; branch protection is NOT asserted.
     ("Monitor new official stories", [
         B("ONGOING", "A read-only weekly workflow already checks Wizards story index, official rules/Commander page "
           "signals, official update-bulletin listing candidates and Scryfall bulk timestamps against the "

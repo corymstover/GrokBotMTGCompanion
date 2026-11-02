@@ -84,17 +84,9 @@
  "phase8": [
   {
    "item": "Keep targeted CI checks for card counts, source integrity, graph relationships, rules/Q&A and set data; preserve existing deck-legality regression checks without starting new decks.",
-   "workflow_checked": false,
-   "blockers": [
-    {
-     "kind": "OWNER_DECISION",
-     "what": "No documented set of required status checks protects main; choosing them is a repository setting only the owner can change.",
-     "evidence": [
-      ".github/workflows"
-     ]
-    }
-   ],
-   "blocked_by_owner": true,
+   "workflow_checked": true,
+   "blockers": [],
+   "blocked_by_owner": false,
    "bot_can_still_act": false
   },
   {
@@ -169,11 +161,9 @@
   }
  ],
  "blocker_tally": {
-  "ONGOING": 3,
-  "OWNER_DECISION": 1
+  "ONGOING": 3
  },
  "items_blocked_only_by_owner_or_ci": [
-  "Keep targeted CI checks for card counts, source integrity, graph relationships, rules/Q&A and set data; preserve existing deck-legality regression checks without starting new decks.",
   "Monitor new official stories, Oracle changes, releases, rules and Commander format updates.",
   "Rebuild and reconcile the Phase 1B set catalog and bidirectional printing lookups when new sets or printings appear, retaining historical snapshots.",
   "Maintain an honest progress tracker: completed, under review, blocked, and not started."

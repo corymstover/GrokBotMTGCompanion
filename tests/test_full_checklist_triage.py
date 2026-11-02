@@ -24,8 +24,8 @@ class FullChecklistTriageTests(unittest.TestCase):
         phase = [r for r in report["items"] if r["section"].startswith("Phase 6")]
         self.assertEqual(len(phase), 10)
         self.assertEqual({r["id"] for r in phase if r["status"] == "Completed"},
-                         {"K106", "K109", "K111", "K115"})
-        self.assertEqual(len([r for r in phase if r["status"] != "Completed"]), 6)
+                         {"K106", "K107", "K109", "K111", "K115"})
+        self.assertEqual(len([r for r in phase if r["status"] != "Completed"]), 5)
         self.assertTrue(all(r["blocker_kind"] == "INDIVIDUAL_PILOT_APPROVAL_PENDING"
                             for r in phase if r["id"] in ("K112", "K113", "K114")))
 

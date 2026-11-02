@@ -1,0 +1,51 @@
+{
+  "schema": "phase6-commander-comparison-spec/v1",
+  "purpose": "Compare already-curated story options with date-qualified card/rule evidence; never approve or rebuild a pilot",
+  "pilots": [
+    {
+      "stem": "ugin_bolas_elder_dragon_duality",
+      "candidates": [
+        {
+          "name": "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+          "context": "CURATED_OFFICIAL_SOURCE",
+          "context_note": "The existing source-reviewed commander card explicitly names Bolas. It does not prove an individual battle scene from its art."
+        },
+        {
+          "name": "Nicol Bolas",
+          "context": "CURATED_OFFICIAL_SOURCE",
+          "context_note": "The original Elder Dragon appears in the pilot's cited Chronicle of Bolas research and is an alternative Grixis commander; no unique card art is treated as a depicted event."
+        }
+      ]
+    },
+    {
+      "stem": "original_primeval_dragons",
+      "candidates": [
+        {
+          "name": "The Ur-Dragon",
+          "context": "THEMATIC_UNVERIFIED_IDENTITY",
+          "context_note": "The current five-color progenitor is a creative interpretation of Primeval-era printed flavor, not a proven shared identity with any specific Primeval."
+        },
+        {
+          "name": "Scion of the Ur-Dragon",
+          "context": "THEMATIC_UNVERIFIED_IDENTITY",
+          "context_note": "A five-color Dragon Avatar mechanical alternative; no Wizards story source in the curated pilot proves it is an Elder Dragon War participant or one of the Primevals."
+        }
+      ]
+    },
+    {
+      "stem": "ugins_allies_and_heroes",
+      "candidates": [
+        {
+          "name": "Jace, Multiverse Architect",
+          "context": "CURATED_OFFICIAL_SOURCE",
+          "context_note": "The existing confirmed Pack A5 references Jace consulting Ugin at the Eye; the card's later printing is not asserted to depict that scene."
+        },
+        {
+          "name": "Jodah, the Unifier",
+          "context": "NO_VERIFIED_UGIN_ALLY_LINK",
+          "context_note": "Five-color legendary mechanical fallback that could host the card colors, but the pilot contains no verified first-party claim connecting this Jodah to Ugin's Eldrazi-sealing or Tarkir story."
+        }
+      ]
+    }
+  ]
+}

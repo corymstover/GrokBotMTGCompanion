@@ -10,6 +10,8 @@ on:
       - 'scripts/audit_release_bulk_delta.py'
       - 'scripts/certification_dry_run.py'
       - 'scripts/audit_full_checklist.py'
+      - 'scripts/audit_ci_domain_coverage.py'
+      - 'tests/test_ci_domain_coverage.py'
       - 'scripts/audit_release_snapshot_delta.py'
       - 'tests/test_full_checklist_triage.py'
       - 'tests/test_foundation_v290_checklist_closure.py'
@@ -75,6 +77,10 @@ jobs:
         run: |
           python3 scripts/audit_full_checklist.py --check
           python3 -m unittest discover -s tests -p 'test_full_checklist_triage.py' -v
+      - name: Nine targeted CI domains remain enabled and audited
+        run: |
+          python3 scripts/audit_ci_domain_coverage.py --check
+          python3 -m unittest discover -s tests -p 'test_ci_domain_coverage.py' -v
       - name: Independently verify three newly closed engineering tasks
         run: python3 -m unittest tests.test_foundation_v290_checklist_closure -v
       - name: Source-safe dual-timeline closure (distinct real and fictional dates)
