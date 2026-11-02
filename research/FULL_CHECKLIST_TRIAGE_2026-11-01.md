@@ -2,18 +2,20 @@
 
 **113/137 checked; 24 open.** Completed: 113; Under review: 16; Blocked: 8; Not started: 0.
 
-This checklist inventory alone is **not a foundation certificate**; the separate v3.00 SHA-pinned milestone certificate records external CI. Remaining post-foundation Phase 6 tasks include individual pilot approvals, not silently completed; ongoing maintenance and source gaps are included.
+**Repository finish line: 18 actionable build items remain.** 6 unchecked historical items are excluded: 3 post-build pilot reviews and 3 recurring upkeep tasks. None is treated as finished or as a release blocker.
 
-The machine-readable JSON records every task, its original workflow line, triage, blocker kind and reason.
+This checklist inventory alone is **not a foundation certificate**; the separate v3.00 SHA-pinned milestone certificate records external CI. Pilot reviews are deferred until decks are rebuilt using the completed repository data; upkeep continues after release.
+
+The machine-readable JSON preserves all 137 original tasks with their build-scope classification.
 
 ## Phase 1 — Card database and research inputs
 
-10/10 checked; 0 open.
+10/10 checked; 0 remaining build; 0 excluded from finish line.
 
 
 ## Phase 1B — MTG Set & Printing Atlas (official milestone)
 
-42/47 checked; 5 open.
+42/47 checked; 5 remaining build; 0 excluded from finish line.
 
 - **K022 · Blocked · MISSING_PRIMARY_SOURCE** — Independently corroborate `fbb` and `4bb` foreign-border variants with Wizards primary documentation; third-party Cardmarket corroboration is recorded but does not close this gate.
   - Wizards evidence for two foreign-border printing variants is still unverified.
@@ -28,21 +30,21 @@ The machine-readable JSON records every task, its original workflow line, triage
 
 ## Phase 2 — Lore enrichment and primary-source integrity
 
-8/9 checked; 1 open.
+8/9 checked; 1 remaining build; 0 excluded from finish line.
 
 - **K064 · Under review · SOURCE_GRADING** — Link direct printed depictions, official story references, artwork, flavor text, characters and important events where evidence supports them.
   - Proof tiers and 570 printing labels exist, but direct depiction evidence remains incomplete.
 
 ## Phase 3 — Searchable Multiverse relationship graph
 
-5/6 checked; 1 open.
+5/6 checked; 1 remaining build; 0 excluded from finish line.
 
 - **K069 · Under review · CHRONOLOGY_GAPS** — Record directional, dated, cited relationships (e.g. allied_with, fought, created, present_at, depicted_by). (Partial: edges are directional, cited and graded, but most are not yet dated in-universe.)
   - Only a subset of graph relations carry source-quoted in-universe time phrases.
 
 ## Phase 4 — Foundational lore research packs
 
-11/16 checked; 5 open.
+11/16 checked; 5 remaining build; 0 excluded from finish line.
 
 - **K074 · Under review · PRELIMINARY_LORE** — **Pack A: Ugin, Nicol Bolas, Elder Dragon origins and the Elder Dragon War.** Chronology, rivalries, allies, factions, planes, cards and primary sources.
   - Elder Dragon War history and genealogy are researched but not exhaustively settled.
@@ -57,7 +59,7 @@ The machine-readable JSON records every task, its original workflow line, triage
 
 ## Phase 5 — Full-history and plane-by-plane expansion
 
-12/17 checked; 5 open.
+12/17 checked; 4 remaining build; 1 excluded from finish line.
 
 - **K098 · Under review · COVERAGE_GAPS** — Expand the Mending, major planeswalkers and the Gatewatch.
   - Mending and Gatewatch biographies/events are not comprehensively source-audited.
@@ -67,38 +69,44 @@ The machine-readable JSON records every task, its original workflow line, triage
   - Main-story claim packs do not exhaust side stories or consequences.
 - **K103 · Under review · CHRONOLOGY_GAPS** — Connect cross-plane histories and document contradictions/retcons.
   - Explicit SAME_EVENT bridges and cited graph navigation exist, but most cross-plane temporal ordering and retcon synthesis remain unresolved.
-- **K105 · Under review · ONGOING_SOURCE_TRIAGE** — Maintain an explicit coverage/gaps inventory as new sets and stories arrive.
-  - Dated coverage inventory exists, but future sources and gap reports remain ongoing.
 
 ## Phase 6 — Lore-first Commander deckbuilding engine (post-foundation engineering resumed)
 
-5/10 checked; 5 open.
+5/10 checked; 2 remaining build; 3 excluded from finish line.
 
 - **K108 · Under review · STRATEGY_REVIEW_OPEN** — Build mechanically coherent, realistic-power Commander strategies around the narrative.
   - All three unapproved lists now have Oracle-anchored early/mid/late strategy preflights and reproducible full mana curves; realistic-power, color-source, matchup and combo testing remain unverified.
 - **K110 · Blocked · CURRENT_RULES_NOT_RECONCILED** — Verify each final 100-card list, singleton restrictions, relevant rules/combinations, legality and current bracket.
   - Dated pilot legality and deck-size checks pass; post-bulletin official Commander rules, combos and bracket remain unsettled.
-- **K112 · Blocked · INDIVIDUAL_PILOT_APPROVAL_PENDING** — Pilot 1: **Ugin & Nicol Bolas — Elder Dragon Duality**. Owner approval is pending, so the box stays unchecked until Cory approves.
-  - Ugin/Bolas proposal is UNAPPROVED and requires explicit individual deck review.
-- **K113 · Blocked · INDIVIDUAL_PILOT_APPROVAL_PENDING** — Pilot 2: **Original Primeval Dragons**.
-  - Primeval Dragons proposal is UNAPPROVED and requires explicit individual deck review.
-- **K114 · Blocked · INDIVIDUAL_PILOT_APPROVAL_PENDING** — Pilot 3: **Ugin's Allies and Heroes**.
-  - Ugin Allies proposal is UNAPPROVED and requires explicit individual deck review.
 
 ## Phase 7 — Ultimate MTG question-answering companion
 
-8/8 checked; 0 open.
+8/8 checked; 0 remaining build; 0 excluded from finish line.
 
 
 ## Phase 8 — Release quality and continuing upkeep
 
-5/7 checked; 2 open.
+5/7 checked; 0 remaining build; 2 excluded from finish line.
 
-- **K125 · Under review · ONGOING** — Monitor new official stories, Oracle changes, releases, rules and Commander format updates.
-  - A read-only weekly workflow already checks Wizards story index, official rules/Commander page signals, official update-bulletin listing candidates and Scryfall bulk timestamps against the November 1 pinned manifest, saving review artifacts without auto-ingesting changes. Its scope is deliberately not a complete story crawl or proof of rules changes; ongoing human review and release-time Oracle drift checks are still required.
-- **K126 · Under review · ONGOING** — Rebuild and reconcile the Phase 1B set catalog and bidirectional printing lookups when new sets or printings appear, retaining historical snapshots.
-  - Triggered by new sets: the next is nau (Set API release 2027-02-05, no printings yet).
 
 ## Definition of the first major Companion release
 
-7/7 checked; 0 open.
+7/7 checked; 0 remaining build; 0 excluded from finish line.
+
+
+## Outside repository-build completion (not remaining work)
+
+These stay unchecked in the archival 137-task record. They are not counted in the repository finish line.
+
+- **K105 · RECURRING_MAINTENANCE** — Maintain an explicit coverage/gaps inventory as new sets and stories arrive.
+  - Future source/coverage watch continues after a finished repository release.
+- **K112 · POST_BUILD_PILOT_REVIEW** — Pilot 1: **Ugin & Nicol Bolas — Elder Dragon Duality**. Owner approval is pending, so the box stays unchecked until Cory approves.
+  - Cory will rebuild and individually review this pilot after repository development is finished.
+- **K113 · POST_BUILD_PILOT_REVIEW** — Pilot 2: **Original Primeval Dragons**.
+  - Cory will rebuild and individually review this pilot after repository development is finished.
+- **K114 · POST_BUILD_PILOT_REVIEW** — Pilot 3: **Ugin's Allies and Heroes**.
+  - Cory will rebuild and individually review this pilot after repository development is finished.
+- **K125 · RECURRING_MAINTENANCE** — Monitor new official stories, Oracle changes, releases, rules and Commander format updates.
+  - Future story, rules, Oracle and release monitoring continues after the build finish line.
+- **K126 · RECURRING_MAINTENANCE** — Rebuild and reconcile the Phase 1B set catalog and bidirectional printing lookups when new sets or printings appear, retaining historical snapshots.
+  - Future-set re-ingestion is event-triggered upkeep, not unfinished initial construction.

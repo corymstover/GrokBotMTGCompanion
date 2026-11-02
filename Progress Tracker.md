@@ -14,13 +14,14 @@ schema: 2
 <!-- MULTIVERSE-CURRENT:START -->
 ## MTG Multiverse Companion — current engineering checkpoint (2026-11-01)
 
-**Live authority:** [Master Workflow v3.04](MTG_MULTIVERSE_MASTER_WORKFLOW.md), the current
+**Live authority:** [Master Workflow v3.05](MTG_MULTIVERSE_MASTER_WORKFLOW.md), the current
 graph and dated recount. The older cycle-36/October-15 metrics **below this section are historical**;
 they are not the active Phase 1–8 completion counters.
 
 | Measure | Verified committed state | Important limitation |
 | --- | ---: | --- |
 | Master Workflow checklist | **113/137 checked; 24 open** | Engineering verification, never owner approval. |
+| Repository completion finish line | **18 actionable build items remain** | 6 historical open items excluded: 3 later pilot approvals, 3 recurring upkeep; no item silently checked. |
 | Priority card enrichments | **5362/5,362** | Enrichment does not imply every card has a sourced story. |
 | Source-page inventory | **576 cited + 50 reviewed = 626 accounted for** | Current inventoried pages only, not all fiction ever published. |
 | Cited lore claims | **1263** | Live graph/inventory concordance; claim packs remain preliminary research. |
@@ -36,18 +37,24 @@ they are not the active Phase 1–8 completion counters.
 Completed **12** · Under review **2** ·
 Blocked **0** · Not started **0**.
 "Under review" does **not** mean approved; it includes pending owner decisions,
-exact-commit CI and ongoing maintenance. "Blocked" means a documented missing
+exact-commit CI and ongoing maintenance. Both unfinished Phase 8 gate rows are
+**recurring upkeep excluded from the repository finish line**. "Blocked" means a documented missing
 source or remaining engineering work. The complete typed evidence is in
 `data/release/certification_dry_run_2026-10-30.json`.
 
 **All-137 engineering checklist triage (not release certification):**
 Completed **113** · Under review **16** ·
 Blocked **8** · Not started **0**.
+**Active repository build: 18 remaining**;
+**excluded from repository completion: 6**
+(3 post-build pilot approvals,
+3 recurring upkeep tasks).
 Every checked and unchecked task is accounted for in
 `data/release/full_checklist_triage_2026-11-01.json` and
 `research/FULL_CHECKLIST_TRIAGE_2026-11-01.md`. The post-foundation Phase 6
-engine has resumed; individual pilot approvals, current legality and untested
-strategy power remain open and are not unfinished foundation certification tasks.
+engine has resumed; the gameplay/rules **engineering** tasks remain build work,
+but individual *pilot acceptance* is deferred until the completed repository
+data is used to rebuild those decks. Recurring monitoring is not a build gate.
 
 | Gate | Triage | Remaining blocker types |
 | --- | --- | --- |
@@ -87,8 +94,10 @@ history; harden rules and difficult Q&A; preserve the original hash-verified Oct
 historical Scryfall replay and its November 1 bulk-field freshness audit (repeat on any later release bulk). **The finite knowledge foundation is certified.
 Post-foundation Phase 6 engine checks K106/K109/K111/K115 and the preliminary
 three-pilot functional strategy preflight now pass within a limited and
-source-dated scope, while individual pilot approvals, tested strategy power
-and current legality remain open.** Do not modify any
+source-dated scope. **Cory's repository completion definition excludes
+individual pilot acceptance and ongoing upkeep (6 historical checklist entries); 18 genuine build items remain.**
+Current legality and tested strategy power remain build work; pilot rebuilding
+and approval happen only *after* repository completion. Do not modify any
 of the 62 finalized Grixis decks.
 <!-- MULTIVERSE-CURRENT:END -->
 
