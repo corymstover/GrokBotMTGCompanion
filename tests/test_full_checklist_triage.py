@@ -24,15 +24,16 @@ class FullChecklistTriageTests(unittest.TestCase):
         phase = [r for r in report["items"] if r["section"].startswith("Phase 6")]
         self.assertEqual(len(phase), 10)
         self.assertEqual({r["id"] for r in phase if r["status"] == "Completed"},
-                         {"K106", "K107", "K109", "K111", "K115"})
-        self.assertEqual(len([r for r in phase if r["status"] != "Completed"]), 5)
+                         {"K106", "K107", "K108", "K109", "K110", "K111", "K115"})
+        self.assertEqual(len([r for r in phase if r["status"] != "Completed"]), 3)
         self.assertTrue(all(r["blocker_kind"] == "INDIVIDUAL_PILOT_APPROVAL_PENDING"
                             for r in phase if r["id"] in ("K112", "K113", "K114")))
 
     def test_owner_finish_line_excludes_pilot_signoff_and_perpetual_upkeep(self):
         report = C.build()
         t = report["totals"]
-        self.assertEqual(t["remaining_repository_build"], 14)
+        self.assertEqual(t["remaining_repository_build"], 0)
+        self.assertEqual(t["checked"], 131)
         self.assertEqual(t["excluded_from_repository_build"], 6)
         self.assertEqual(t["post_build_pilot_reviews"], 3)
         self.assertEqual(t["recurring_maintenance"], 3)
@@ -43,14 +44,14 @@ class FullChecklistTriageTests(unittest.TestCase):
         self.assertTrue(all(not r["checked"] and r["status"] != "Completed" for r in excluded.values()))
         self.assertEqual({r["id"] for r in report["items"] if r["completion_scope"] == "ACTIVE_REPOSITORY_BUILD"}
                          & set(excluded), set())
-        self.assertTrue(all(r["completion_scope"] == "ACTIVE_REPOSITORY_BUILD"
+        self.assertTrue(all(r["completion_scope"] == "COMPLETED"
                             for r in report["items"] if r["id"] in ("K108", "K110")))
         self.assertTrue(all(r["checked"] and r["completion_scope"] == "COMPLETED"
                             for r in report["items"] if r["id"] in ("K050", "K055", "K064", "K069")))
 
     def test_finish_line_report_does_not_present_pilot_approvals_as_build_blockers(self):
         text = C.markdown(C.build())
-        self.assertIn("14 actionable build items remain", text)
+        self.assertIn("0 actionable build items remain", text)
         self.assertIn("Outside repository-build completion", text)
         self.assertNotIn("K112 · Blocked", text)
         self.assertIn("K112 · POST_BUILD_PILOT_REVIEW", text)

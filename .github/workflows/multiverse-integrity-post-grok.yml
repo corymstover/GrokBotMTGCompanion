@@ -16,6 +16,9 @@ on:
       - 'scripts/audit_set_totals_acceptance.py'
       - 'data/release/set_totals_acceptance_2026-11-01.json'
       - 'tests/test_set_totals_acceptance.py'
+      - 'scripts/audit_bounded_repository_completion.py'
+      - 'data/release/bounded_repository_completion_2026-11-02.json'
+      - 'tests/test_bounded_repository_completion.py'
       - 'scripts/audit_entity_structures.py'
       - 'scripts/audit_p5_isolated_entity_history.py'
       - 'scripts/audit_p5_thin_plane_history.py'
@@ -229,6 +232,8 @@ jobs:
           python3 -m unittest discover -s tests -p 'test_set_multiverse_context.py' -q
           python3 scripts/audit_set_totals_acceptance.py --check
           python3 -m unittest discover -s tests -p 'test_set_totals_acceptance.py' -q
+          python3 scripts/audit_bounded_repository_completion.py --check
+          python3 -m unittest discover -s tests -p 'test_bounded_repository_completion.py' -q
           python3 -m unittest discover -s tests -p 'test_mv_ask*.py' -q
           python3 -m unittest discover -s tests -p 'test_graph_integrity_post_grok.py' -q
           python3 -m unittest discover -s tests -p 'test_graph_path_evidence_safety.py' -q

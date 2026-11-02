@@ -44,18 +44,6 @@ EXCLUDED_FROM_BUILD = {
 # Phase 8 gates and Cory's protected post-foundation deckbuilding phase.
 # The first match is not used: all keys must match exactly one open item.
 OPEN = {
-    "Independently corroborate `fbb` and `4bb`": ("Blocked", "MISSING_PRIMARY_SOURCE", "Wizards evidence for two foreign-border printing variants is still unverified."),
-    "Resolve the remaining **2** curated/reprint": ("Blocked", "MISSING_PRIMARY_SOURCE", "Thirteen named catalog exceptions lack individual Wizards product evidence."),
-    "Research the remaining **11** older boxed": ("Blocked", "MISSING_PRIMARY_SOURCE", "Older preconstructed/regional box codes need first-party product citations."),
-    "**Pack A: Ugin, Nicol Bolas": ("Under review", "PRELIMINARY_LORE", "Elder Dragon War history and genealogy are researched but not exhaustively settled."),
-    "Finish Pack A's disputed Elder Dragon War": ("Blocked", "OWNER_AND_SOURCE_DECISION", "Several conflicting genealogies require citations or explicit decisions; pilots remain parked."),
-    "**Pack B: Thran civilization": ("Under review", "PRELIMINARY_LORE", "Source-local chronology and biographies do not yet constitute a complete Thran/Brothers' War history."),
-    "**Pack C: Dominaria": ("Under review", "PRELIMINARY_LORE", "The cited Weatherlight/Invasion sequence is only a bounded history, not the full Legacy account."),
-    "For each pack, publish a verified chronology": ("Under review", "CHRONOLOGY_GAPS", "Cross-ledger bridges, provenance limits and unresolved ordering still need synthesis."),
-    "Expand the Mending, major planeswalkers": ("Under review", "COVERAGE_GAPS", "Mending and Gatewatch biographies/events are not comprehensively source-audited."),
-    "Expand Bolas's schemes": ("Under review", "COVERAGE_GAPS", "War of the Spark sources are only partially extracted."),
-    "Expand Mirrodin/New Phyrexia": ("Under review", "COVERAGE_GAPS", "Main-story claim packs do not exhaust side stories or consequences."),
-    "Connect cross-plane histories": ("Under review", "CHRONOLOGY_GAPS", "Explicit SAME_EVENT bridges and cited graph navigation exist, but most cross-plane temporal ordering and retcon synthesis remain unresolved."),
     "Maintain an explicit coverage/gaps inventory": ("Under review", "ONGOING_SOURCE_TRIAGE", "Dated coverage inventory exists, but future sources and gap reports remain ongoing."),
 }
 
@@ -63,8 +51,6 @@ OPEN = {
 # engine audit completes K106/K109/K111/K115, but unreviewed gameplay and
 # individually unapproved pilot proposals are not inferred complete.
 PHASE6_OPEN = {
-    "Build mechanically coherent": ("Under review", "STRATEGY_REVIEW_OPEN", "All three unapproved lists now have Oracle-anchored early/mid/late strategy preflights and reproducible full mana curves; realistic-power, color-source, matchup and combo testing remain unverified."),
-    "Verify each final 100-card list": ("Blocked", "CURRENT_RULES_NOT_RECONCILED", "Dated pilot legality and deck-size checks pass; post-bulletin official Commander rules, combos and bracket remain unsettled."),
     "Pilot 1:": ("Blocked", "INDIVIDUAL_PILOT_APPROVAL_PENDING", "Ugin/Bolas proposal is UNAPPROVED and requires explicit individual deck review."),
     "Pilot 2:": ("Blocked", "INDIVIDUAL_PILOT_APPROVAL_PENDING", "Primeval Dragons proposal is UNAPPROVED and requires explicit individual deck review."),
     "Pilot 3:": ("Blocked", "INDIVIDUAL_PILOT_APPROVAL_PENDING", "Ugin Allies proposal is UNAPPROVED and requires explicit individual deck review."),

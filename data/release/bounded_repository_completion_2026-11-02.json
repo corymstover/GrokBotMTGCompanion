@@ -1,0 +1,130 @@
+{
+  "schema": "owner-redefined-bounded-repository-completion/v1",
+  "owner_decision_date": "2026-11-02",
+  "decision": "Cory selected bounded completion: verified capabilities and explicit UNKNOWN source/canon/gameplay gaps constitute repository construction acceptance; this modifies the original strict checklist interpretation.",
+  "status": "BOUNDED_REPOSITORY_BUILD_ACCEPTED_NOT_UNIVERSAL_CANON_OR_LIVE_DECK_CERTIFICATION",
+  "gates": [
+    {
+      "id": "K022",
+      "acceptance_mode": "SOURCE_GAP_DOCUMENTED",
+      "scope_limitation": "Two foreign-border Scryfall variants remain provisional and have no independently corroborated Wizards source."
+    },
+    {
+      "id": "K045",
+      "acceptance_mode": "SOURCE_GAP_DOCUMENTED",
+      "scope_limitation": "Thirteen curated, foreign, starter or special codes stay individually pending; no new official product evidence is inferred."
+    },
+    {
+      "id": "K046",
+      "acceptance_mode": "SOURCE_GAP_DOCUMENTED",
+      "scope_limitation": "Eleven older boxed and regional products remain source-pending and never automatically become premier sets."
+    },
+    {
+      "id": "K074",
+      "acceptance_mode": "SOURCE_GRADED_RESEARCH_ACCEPTED",
+      "scope_limitation": "Pack A has a sourced claims/relationship/card dossier; Elder Dragon genealogy, faction breadth and chronology remain incomplete."
+    },
+    {
+      "id": "K078",
+      "acceptance_mode": "DISPUTES_RETAINED_WITH_OWNER_DISPOSITIONS",
+      "scope_limitation": "Seven genealogy disputes carry conservative owner dispositions; unresolved canon is not invented and pilot cards stay proposals."
+    },
+    {
+      "id": "K079",
+      "acceptance_mode": "SOURCE_GRADED_RESEARCH_ACCEPTED",
+      "scope_limitation": "Pack B cited Thran, Yawgmoth, Old Phyrexia and Brothers' War dossier remains a bounded historical slice."
+    },
+    {
+      "id": "K080",
+      "acceptance_mode": "SOURCE_GRADED_RESEARCH_ACCEPTED",
+      "scope_limitation": "Pack C cited Weatherlight, Legacy and invasions dossier is bounded; unextracted novels/side stories remain explicit."
+    },
+    {
+      "id": "K088",
+      "acceptance_mode": "PARTIAL_ORDER_ACCEPTED_WITH_UNKNOWNS",
+      "scope_limitation": "All three pack dossiers and an acyclic strictly sourced partial chronology are published; unresolved cross-source pairs remain UNKNOWN."
+    },
+    {
+      "id": "K098",
+      "acceptance_mode": "CITED_ARC_COVERAGE_ACCEPTED",
+      "scope_limitation": "Cited Mending and Gatewatch strands exist; no exhaustive planeswalker biography or total chronology is asserted."
+    },
+    {
+      "id": "K099",
+      "acceptance_mode": "CITED_ARC_COVERAGE_ACCEPTED",
+      "scope_limitation": "Bolas and War of the Spark graph/story evidence is queryable; extraction of every event/card is not claimed."
+    },
+    {
+      "id": "K100",
+      "acceptance_mode": "CITED_ARC_COVERAGE_ACCEPTED",
+      "scope_limitation": "Phyrexian and March of the Machine source arcs are represented without assuming every side-story consequence is ingested."
+    },
+    {
+      "id": "K103",
+      "acceptance_mode": "SOURCE_LOCAL_BRIDGES_WITH_UNKNOWN_PAIRS",
+      "scope_limitation": "Eight verified legacy bridges allow conservative navigation; undated or unbridged cross-plane history is UNKNOWN."
+    },
+    {
+      "id": "K108",
+      "acceptance_mode": "STRATEGY_PREFLIGHT_ENGINE_READY",
+      "scope_limitation": "Three unchanged unapproved pilots have four Oracle-proven roles, staged plans and dated mana curves; matchup power is untested."
+    },
+    {
+      "id": "K110",
+      "acceptance_mode": "VALIDATOR_READY_FOR_POST_BUILD_DECKS",
+      "scope_limitation": "100-card/singleton/color/snapshot legality, printing and source-aware rules infrastructure is ready; live brackets, combos and rebuilt lists await later review."
+    }
+  ],
+  "counts": {
+    "bounded_gates_accepted": 14,
+    "historical_checklist_items": 137,
+    "historical_checked": 131,
+    "historical_open_owner_exclusions": 6,
+    "active_repository_build_remaining": 0,
+    "phase6_pilot_approvals": 0,
+    "pack_claims": {
+      "A": 48,
+      "B": 18,
+      "C": 107
+    },
+    "chronology_known_pairs": 177,
+    "chronology_total_pairs": 3074,
+    "source_arc_partial_count": 2
+  },
+  "evidence_sha256": {
+    "data/set_atlas/phase1b_release_scope_story_bridge_2026-10-29.json": "658bc17c3d23b462258ea7d21a98146fd6fd40bed5ce9a9bedf23365465c393c",
+    "data/set_atlas/product_catalog_2026-10-29.json": "5911dac93b5a8e3fee0a4051fa7c04f561c7b05ca7dc5ae6cbb71943979316d0",
+    "data/set_atlas/draft_starter_primary_audit_2026-10-29.json": "ac07f97671537f65d11565a94647e8537b1f3162349e4b9a0e9382d0039931f6",
+    "data/set_atlas/boxed_precon_source_audit_2026-10-29.json": "e7f6c9383c379f2c608bf64c28c7803892d72d059225637f65bc725d22f43241",
+    "data/lore_research/pack_dossiers_2026-10-30.json": "68625e0d2bb22079af9bed2cb4989a2c728e3ff78c3abd6ad02381ecc132f327",
+    "data/lore_research/pack_a_genealogy_disputes_2026-10-30.json": "c906d185c659ba433671a1323f75a3295268469021ed176e61c88ff7b0056b53",
+    "data/release/pack_a_genealogy_owner_dispositions_2026-11-01.json": "e190a5fd3efe72ce87e94aa46de7d6d8cd94d81eff28dea78fab88986b29fb45",
+    "data/lore_research/relative_chronology_2026-10-30.json": "7088dcd853b372c69b2fd768971f2db9f4705bfd03d1e86030cc56b1637b58c6",
+    "data/lore_research/source_event_sequences_2026-10-30.json": "247f4e789a3d5855d4cecf04cf2c3f837ab760b3b2c7e59365daf2f3a3f4c131",
+    "data/lore_research/story_coverage_inventory_2026-10-30.json": "5e711174545bd14b0c4cbd7c7c1eff0c486ffd6c668b3d08c077ffbd07083961",
+    "data/release/lookup_rules_scope_review_2026-11-01.json": "b7529ac901fbc72d1ad1ddc475eb2a1d1d0b9f5c639b27a4731d0f9a717ce0f9",
+    "data/release/phase6_strategy_preflight_2026-11-01.json": "2c52d79335160729bc37915b5c35662128746066ecbb496bbf53d41a72e94978"
+  },
+  "foundation_milestone": "CERTIFIED_BOUNDED_KNOWLEDGE_FOUNDATION_MILESTONE_7_OF_7_UNCHANGED",
+  "protected_grixis_digests_unchanged": true,
+  "three_pilot_proposals_still_unapproved": true,
+  "deferred_post_build_pilot_reviews": [
+    "K112",
+    "K113",
+    "K114"
+  ],
+  "recurring_upkeep_excluded_not_permanently_complete": [
+    "K105",
+    "K125",
+    "K126"
+  ],
+  "not_certified": [
+    "Missing individual Wizards primary sources for foreign border, draft/starter and boxed/region-specific historical products",
+    "A single canonical resolution for six disputed Elder Dragon genealogy matters",
+    "Complete in-universe calendars and a total order across unbridged plane/story events",
+    "Exhaustive every-article/every-card lore biographies or complete side-story consequences",
+    "Empirically established Commander power/matchups, current unindexed interactions and brackets",
+    "Any rebuilt final pilot list or individual owner pilot approval, deferred until after repository construction",
+    "Perpetual completion of new-source/Oracle/rules monitoring and future-set ingestion"
+  ]
+}
