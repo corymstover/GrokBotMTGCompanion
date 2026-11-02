@@ -311,3 +311,12 @@ By name prefix: `chatgpt` 457, `jlk` 124, `grokbot` 35, `m7` 7, `audit` 3, `clos
 
 Manual-review note: 439 of these heads are fully contained in another retained branch (417 inside `chatgpt-cycle76-m6-refinement`). They are still kept: the deletion rule requires reachability from `main`, and pruning them would need an explicit owner decision.
 
+
+## Execution record (added after deletion)
+
+All 213 proposed deletions were executed on 2026-11-02 between 05:15 and 05:21 CST, after this manifest merged in PR #984 (merge commit `92fcef2c4bf6ef6a105c631053f35d52c2e36266`). Each ref was deleted individually with `gh api -X DELETE .../git/refs/heads/<exact-name>` only after its remote SHA matched the manifest (re-checked immediately before the delete) and its basis (ancestor of current `main`, or retained twin at the same SHA) was re-verified. No deletion was skipped or stopped. Batches: 12 duplicates, then 3 × 67 merged branches (disjoint ranges; the last two merged batches ran concurrently, so the full re-verification ran after batch 1, after batch 2, and after batches 3–4 together). After each verification, `main`, the four never-delete branches and all 676 preserved branches were confirmed at their manifest SHAs.
+
+- Per-branch log (name, SHA, basis, batch, time): [`data/maintenance/branch_cleanup_execution_2026-11-02.json`](../../data/maintenance/branch_cleanup_execution_2026-11-02.json)
+- Branch count: 889 before → 677 after (676 preserved + the merged `grokbot-branch-cleanup-manifest-20261102` head).
+- Recovery: `git push origin <head_sha>:refs/heads/<name>`.
+- Root Markdown clutter (Part 4): **no files moved.** Every root `.md` is either a registered knowledge-base page in `scripts/front_matter.py` `PAGES` (whose computed `related:` lists reach protected `grixis/` pages; for example `grixis/Grixis Mission.md` lists `ROADMAP.md`), or a listed operations doc that `README.md`/`AGENTS.md` still cite as current. Moving any of them would change protected files or live entry points, so all were left in place.
