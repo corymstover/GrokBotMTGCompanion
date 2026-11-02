@@ -1,9 +1,31 @@
 # MTG Multiverse Companion — Master Workflow & Progress Checklist
 
-**Version:** 3.07
+**Version:** 3.08
 **Checkpoint date:** 2026-11-01
 **Repository:** [corymstover/GrokBotMTGCompanion](https://github.com/corymstover/GrokBotMTGCompanion)  
 **Purpose:** Durable project roadmap and handoff document. Update this file after verified milestone work; do not treat historical figures as live counters.
+
+**v3.08 qualified all-set census acceptance (2026-11-02):** K050's
+*reproducible and separately labelled total* requirement now has a
+failure-closed independent audit. All **1,062** frozen Scryfall set codes are
+bijectively partitioned into six distinct categories. **145** Scryfall
+expansion/core-type codes across dates/media contain **142** released paper
+candidate codes as of 2026-10-29; of these **136** are separately reviewed
+Wizards-source-backed historical regular/mainline releases, **four** are
+documented auxiliary/discarded and **two** (`fbb`, `4bb`) are provisional
+localized border variants still lacking Wizards confirmation. **848** other
+paper-category codes, **62** released digital-only codes and **10** announced
+future codes complete the exhaustive exclusive partition. The report links
+all **140** Wizards-supported regular/auxiliary release codes to their
+first-party citations and explicitly sets
+`all_time_wizards_premier_census_certified: false`. It closes the finite
+category-count *publication* requirement, **not** an all-time Wizards
+premier-set census or unresolved primary-source K022/K045/K046. Nine
+independent tests reject false premier claims, category drift, substituted
+citations and foreign-border promotion. All pilots remain UNAPPROVED;
+all 62 protected Grixis lists unchanged. Checklist **117/137** checked,
+**20** historical unchecked; **14** actual build tasks remain after six
+owner-excluded pilot-review/upkeep items. Foundation still 7/7 certified.
 
 **v3.07 first-party set-context joins (2026-11-01):** K055 now has a
 replayable, bounded set-to-Multiverse query and independent negative tests.
@@ -1316,7 +1338,7 @@ Infrastructure checkpoint: [PR #783](https://github.com/corymstover/GrokBotMTGCo
 
 - [x] Audit the existing printing index and per-set shards against the archived Default Cards snapshot; document missing categories, duplicates, and stable joins. *(v2.72: the exact original Oct 28 source now reproduces all 105 archived shards byte-for-byte, with 119,509 distinct printing IDs and no missing/mismatched source records. The independent Oct 29-to-Oct 28 comparison still documents 192 new IDs, 342 `prm` release-date changes and six `trk` paper-flag changes as **real cross-snapshot differences**, not errors or fabricated field equality. See the historical replay and `data/set_atlas/phase1b_snapshot_gates_2026-10-30.json`. Atlas product and release-date qualifications remain.)*
 - [x] Establish a normalized set catalog: canonical name/code, `set_type`, release date, paper/digital status, parent set/product associations and authoritative source provenance. *(v2.40, Batch 12, [#900](https://github.com/corymstover/GrokBotMTGCompanion/pull/900), `data/set_atlas/phase1b_snapshot_gates_2026-10-30.json`: PASS: every parent link resolves (`tnau`→`nau` resolves to the Set API record of the announced 2027-02-05 set, which has no printings yet). Mechanical verification, not owner approval.)*
-- [ ] Publish reproducible totals for **all Scryfall set codes** and separately for **premier expansion/core sets**, plus other clearly defined product categories; never report an unqualified "total sets" figure. *(v2.40, Batch 12, [#900](https://github.com/corymstover/GrokBotMTGCompanion/pull/900), `data/set_atlas/phase1b_snapshot_gates_2026-10-30.json`: QUALIFIED: per-set totals reproduce for all 1,062 codes; 136 stays a sourced regular/mainline classification, not an all-time premier census. Mechanical verification, not owner approval.)*
+- [x] Publish reproducible totals for **all Scryfall set codes** and separately for **premier expansion/core sets**, plus other clearly defined product categories; never report an unqualified "total sets" figure. *(v3.08, `scripts/audit_set_totals_acceptance.py`, `data/release/set_totals_acceptance_2026-11-01.json`: BOUNDED PASS of **separately labelled candidate/primary-supported regular-mainline category totals**: 1,062 Scryfall codes, 145 all-date expansion/core, 142 released nondigital candidates, 136 Wizards-reviewed regular/mainline, 4 auxiliary, 2 provisional foreign-border, 848 other paper, 62 digital-only and 10 future. Independent negative checks explicitly prohibit treating 136 as an all-time Wizards-certified premier census; K022/K045/K046 remain open for missing first-party product proof. This checkbox is category-count publication, not definitive all-time classification.)*
 - [x] Publish for **each set** all English/default-language printing records and a deduplicated card inventory, with counts for printings, unique identities, first appearances and reprints. *(v2.40, Batch 12, [#900](https://github.com/corymstover/GrokBotMTGCompanion/pull/900), `data/set_atlas/phase1b_snapshot_gates_2026-10-30.json`: PASS: per-set printing and released English-paper oracle counts match the catalog for every code (0 mismatches). Mechanical verification, not owner approval.)*
 - [x] Build bidirectional searches: **set → card list/counts** and **card → first printing, all sets, chronological printing history**. Support set code, name, year, product type and date-range filters. *(v2.40, Batch 12, [#900](https://github.com/corymstover/GrokBotMTGCompanion/pull/900), `data/set_atlas/phase1b_snapshot_gates_2026-10-30.json`: PASS: sample queries replay for lea, leg, c21, pznr and ydmu. Mechanical verification, not owner approval.)*
 - [x] Verify debut/reprint attribution using dated, stable card identities; document edge cases such as promos, same-day releases, digital-first objects, variants, tokens and double-faced cards. *(v2.40, Batch 12, [#900](https://github.com/corymstover/GrokBotMTGCompanion/pull/900), `data/set_atlas/phase1b_snapshot_gates_2026-10-30.json`: QUALIFIED: 37,853 English-paper identities; 0 per-set debut mismatches; edge cases counted (4,087 same-day ties, 364 promo-only debuts, 431 earliest English-paper printings flagged reprint by Scryfall, 1,311 with no English-paper printing). Scryfall dates are not sourced street dates. Mechanical verification, not owner approval.)* *(v2.90 closure: an independent read-only recount of every Oracle-ID historical lookup bucket verifies 37,853 released English-paper identities, 33,766 single-set debuts and 4,087 same-day multi-set ties against the audit; 0 per-set mismatches. The G6 audit discloses promo-first, alternate layouts/DFCs/tokens, absent-paper and Scryfall `reprint` disagreements. The engineering check verifies **dated snapshot identities**, not independent retail street dates, current legality or an all-language corpus; see `research/FOUNDATION_ENGINEERING_CLOSURE_V290_2026-11-01.md`.)*

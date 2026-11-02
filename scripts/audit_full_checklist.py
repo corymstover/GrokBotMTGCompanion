@@ -47,7 +47,6 @@ OPEN = {
     "Independently corroborate `fbb` and `4bb`": ("Blocked", "MISSING_PRIMARY_SOURCE", "Wizards evidence for two foreign-border printing variants is still unverified."),
     "Resolve the remaining **2** curated/reprint": ("Blocked", "MISSING_PRIMARY_SOURCE", "Thirteen named catalog exceptions lack individual Wizards product evidence."),
     "Research the remaining **11** older boxed": ("Blocked", "MISSING_PRIMARY_SOURCE", "Older preconstructed/regional box codes need first-party product citations."),
-    "Publish reproducible totals for **all Scryfall set codes**": ("Under review", "QUALIFIED_SCOPE", "All 1,062 categories are counted; an all-time first-party premier-set count is not certified."),
     "**Pack A: Ugin, Nicol Bolas": ("Under review", "PRELIMINARY_LORE", "Elder Dragon War history and genealogy are researched but not exhaustively settled."),
     "Finish Pack A's disputed Elder Dragon War": ("Blocked", "OWNER_AND_SOURCE_DECISION", "Several conflicting genealogies require citations or explicit decisions; pilots remain parked."),
     "**Pack B: Thran civilization": ("Under review", "PRELIMINARY_LORE", "Source-local chronology and biographies do not yet constitute a complete Thran/Brothers' War history."),
