@@ -14,14 +14,14 @@ schema: 2
 <!-- MULTIVERSE-CURRENT:START -->
 ## MTG Multiverse Companion — current engineering checkpoint (2026-11-01)
 
-**Live authority:** [Master Workflow v3.05](MTG_MULTIVERSE_MASTER_WORKFLOW.md), the current
+**Live authority:** [Master Workflow v3.06](MTG_MULTIVERSE_MASTER_WORKFLOW.md), the current
 graph and dated recount. The older cycle-36/October-15 metrics **below this section are historical**;
 they are not the active Phase 1–8 completion counters.
 
 | Measure | Verified committed state | Important limitation |
 | --- | ---: | --- |
-| Master Workflow checklist | **113/137 checked; 24 open** | Engineering verification, never owner approval. |
-| Repository completion finish line | **18 actionable build items remain** | 6 historical open items excluded: 3 later pilot approvals, 3 recurring upkeep; no item silently checked. |
+| Master Workflow checklist | **115/137 checked; 22 open** | Engineering verification, never owner approval. |
+| Repository completion finish line | **16 actionable build items remain** | 6 historical open items excluded: 3 later pilot approvals, 3 recurring upkeep; no item silently checked. |
 | Priority card enrichments | **5362/5,362** | Enrichment does not imply every card has a sourced story. |
 | Source-page inventory | **576 cited + 50 reviewed = 626 accounted for** | Current inventoried pages only, not all fiction ever published. |
 | Cited lore claims | **1263** | Live graph/inventory concordance; claim packs remain preliminary research. |
@@ -43,9 +43,9 @@ source or remaining engineering work. The complete typed evidence is in
 `data/release/certification_dry_run_2026-10-30.json`.
 
 **All-137 engineering checklist triage (not release certification):**
-Completed **113** · Under review **16** ·
+Completed **115** · Under review **14** ·
 Blocked **8** · Not started **0**.
-**Active repository build: 18 remaining**;
+**Active repository build: 16 remaining**;
 **excluded from repository completion: 6**
 (3 post-build pilot approvals,
 3 recurring upkeep tasks).
