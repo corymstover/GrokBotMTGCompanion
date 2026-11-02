@@ -23,6 +23,10 @@ def _setup(tmp_path, monkeypatch, present=True):
     monkeypatch.setattr(ing, "LOCK_FILE", lock)
     monkeypatch.delenv("SCRYFALL_OFFLINE", raising=False)
     monkeypatch.delenv("SCRYFALL_BIRTHDAY_SNAPSHOT", raising=False)
+    # Other tests may choose the independent modern-cache mode. This fixture
+    # explicitly exercises the legacy frozen-lock path regardless of order.
+    monkeypatch.delenv("MTG_SCRYFALL_MODE", raising=False)
+    monkeypatch.delenv("MTG_MULTIVERSE_CACHE", raising=False)
 
     def no_net(url):
         raise AssertionError(f"network fetch attempted under the lock: {url}")

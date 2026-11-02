@@ -7,6 +7,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "scripts"))
 import grixis_saturation as gs  # noqa: E402
+from _helpers import require_pinned_bulk  # noqa: E402
 
 SRC = (gs.ROOT / "scripts" / "grixis_saturation.py").read_text()
 
@@ -47,6 +48,7 @@ def test_screening_never_excludes():
 
 
 def test_full_pool_sweep_covers_every_eligible_card():
+    require_pinned_bulk()
     import grixis_candidates as gc
     import grixis_authority as ga
     R0, reg, pool, first, almost = gc._ctx()

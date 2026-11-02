@@ -25,6 +25,19 @@ def skip(msg):
     raise unittest.SkipTest(msg)
 
 
+def require_pinned_bulk():
+    """Skip integration tests only when the immutable historical bulk is absent.
+
+    Downloading a newer Scryfall file cannot reproduce the frozen Grixis baseline.
+    These assertions still run normally wherever the exact cache exists.
+    """
+    import ingest_scryfall as ing
+    lock = json.loads(ing.LOCK_FILE.read_text(encoding='utf-8'))
+    name = lock['files']['oracle-cards']
+    if not (ing.DEFAULT_CACHE / name).is_file():
+        skip(f"PINNED_BULK_UNAVAILABLE: restore {name} into {ing.DEFAULT_CACHE}; do not substitute a newer file")
+
+
 class FakeR:
     """Minimal resolver: name -> card with a deterministic oracle_id."""
 

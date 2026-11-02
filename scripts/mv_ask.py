@@ -502,6 +502,7 @@ def _is_card(name: str) -> bool:
 RULES_PATTERNS = [  # Commander deck-construction questions, answered by scripts/commander_rules.py
     (re.compile(r"^can (.+?) and (.+?) (?:be (?:my )?(?:co-?)?commanders(?: together)?|partner(?: together)?)\??$", re.I), "pair"),
     (re.compile(r"^can (.+?) be (?:my |a )?commander\??$", re.I), "single"),
+    (re.compile(r"^can i (?:put|play|run|include) (.+?) in (?:a |an |my )?(.+?) deck\??$", re.I), "include"),
     (re.compile(r"^can (?:i (?:play|run|include) )?(.+?) (?:go )?in (?:a |an |my )?(.+?) deck\??$", re.I), "include"),
 ]
 
@@ -513,6 +514,66 @@ def _rules(kind: str, m) -> dict:
     if kind == "single":
         return commander_rules.commander([m.group(1)])
     return commander_rules.include(m.group(1), [x.strip() for x in re.split(r" and | \+ ", m.group(2))])
+
+
+# These common questions do not designate a commander, and must not be fed to
+# the commander-specific inclusion checker with a fabricated commander name.
+_FORMAT_LEGALITY_QUESTIONS = [
+    (re.compile(r"^is (.+?) banned (?:in|from) (?:the )?commander(?: format)?\??$", re.I), "banned"),
+    (re.compile(r"^is (.+?) (?:legal|allowed) in (?:the )?commander(?: format)?\??$", re.I), "legal"),
+    (re.compile(r"^can (?:i |you )?(?:play|use|run|include) (.+?) in (?:the )?commander(?: format)?\??$", re.I), "legal"),
+    (re.compile(r"^can (.+?) (?:be|go) in (?:a |any )?commander deck\??$", re.I), "deck"),
+    (re.compile(r"^can i (?:put|play|run|include) (.+?) in (?:a |my )?commander deck\??$", re.I), "deck"),
+]
+_CARD_TEXT_QUESTIONS = [
+    re.compile(r"^what does (.+?) do\??$", re.I),
+    re.compile(r"^what(?:'s| is) (?:the )?(?:oracle text|card text|mana cost|color identity|type line) (?:of|for|on) (.+?)\??$", re.I),
+    re.compile(r"^how much (?:mana )?does (.+?) cost\??$", re.I),
+    re.compile(r"^(?:show|explain|describe) (?:me )?(?:the )?(?:card )?(.+?)\??$", re.I),
+]
+
+
+def common_card_question(question: str) -> dict | None:
+    """Answer only exact known cards; never turn arbitrary prose into a card name.
+
+    Legality comes from the dated committed Scryfall card record, not a live
+    Commander ban list. A general format answer does NOT establish eligibility
+    for a deck whose commander's color identity was not provided.
+    """
+    for pattern, intent in _FORMAT_LEGALITY_QUESTIONS:
+        match = pattern.fullmatch(question)
+        if not match:
+            continue
+        import commander_rules  # deferred to avoid circular import
+        row = commander_rules.resolve(match.group(1).strip())
+        if row is None:
+            return None
+        found = card(row['name'])
+        legality = row['commander_legality']
+        found.update(route='ask->commander_format', query=question, confidence='QUALIFIED')
+        found['flags'] = sorted(set(found['flags'] +
+                                    ['DATED_SCRYFALL_LEGALITY_NOT_LIVE', 'COMMANDER_IDENTITY_NOT_SPECIFIED']))
+        found['sources'] = list(dict.fromkeys(found['sources'] + [commander_rules.CR['source_url']]))
+        found['rules_source'] = {'url': commander_rules.CR['source_url'],
+                                 'effective': commander_rules.CR['effective']}
+        found['result'] = {
+            'card': row['name'], 'scryfall_commander_legality': legality,
+            'is_banned_in_snapshot': legality == 'banned',
+            'format_legal_in_snapshot': legality == 'legal',
+            'can_be_in_some_commander_deck_in_snapshot': legality == 'legal',
+            'asked': intent,
+            'limitation': ('Based on the committed dated Scryfall Commander legality. '
+                           'This is not a live ban-list check. A particular deck additionally '
+                           'requires a legal commander and compatible color identity; '
+                           'unknown release and special rules may require review.')}
+        return found
+    for pattern in _CARD_TEXT_QUESTIONS:
+        match = pattern.fullmatch(question)
+        if match and _is_card(match.group(1).strip()):
+            found = card(match.group(1).strip())
+            found.update(route='ask->card', query=question)
+            return found
+    return None
 
 
 def plane_history(name: str) -> dict | None:
@@ -976,6 +1037,9 @@ def card_lore_rules_question(text: str) -> dict | None:
 
 def ask(text: str) -> dict:
     q = text.strip()
+    common = common_card_question(q)
+    if common is not None:
+        return common
     for rx, kind in RULES_PATTERNS:
         m = rx.search(q)
         if m:

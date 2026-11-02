@@ -9,7 +9,14 @@ related: ["Progress Tracker.md", "Front-Matter Schema.md", "EDH Bracket Calibrat
 schema: 2
 ---
 
-> **Roadmap**: the user's refinement sprint brief (2026-10-15), copied verbatim below. Bot cycle 6 created one GitHub milestone per phase and one issue per bullet. Progress is tracked on GitHub ([milestones](https://github.com/corymstover/GrokBotMTGCompanion/milestones)) and in [Progress Tracker](Progress%20Tracker.md).
+> **Historical roadmap (2026-10-15):** This is the original refinement sprint,
+> retained for provenance and not an active work queue. Master Workflow v3.09
+> accepted the bounded repository build on 2026-11-02. Current reliability,
+> usability and maintenance priorities are in the README and AGENTS.md. Do not
+> derive open work or owner approvals from the older statuses below.
+>
+> Bot cycle 6 originally created one GitHub milestone per phase and one issue
+> per bullet. Historical progress is tracked in [Progress Tracker](Progress%20Tracker.md).
 
 # MTG Companion Refinement Sprint (user brief, 2026-10-15)
 

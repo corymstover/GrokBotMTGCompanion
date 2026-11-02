@@ -12,7 +12,7 @@ def test_m1_m3_accepted_with_verbatim_scope_others_not():
         assert x["status"] == "accepted" and x["accepted_by"] == "corymstover" and x["accepted_date"] == "2026-10-16"
         assert x["accepted_at"] == "2026-10-16T17:39Z" and "t48u" in x["acceptance_evidence"]
         assert x["scope_verbatim"] == ga.MILESTONE_SCOPE_VERBATIM
-    # Bot cycle 63.2: M0-M4 accepted with Cory's verbatim scope (M2/M4: t52u); M5 not accepted; M6-M8 not started
+    # M0-M4 accepted; subsequent M5 acceptance is in the registry as 2026-10-17.
     assert ms["M0"]["status"] == "accepted"
     for m in ("M2", "M4"):
         x = ms[m]
@@ -20,7 +20,9 @@ def test_m1_m3_accepted_with_verbatim_scope_others_not():
         assert "t52u" in x["acceptance_evidence"] and x["scope_verbatim"].startswith("M2 Commander Blueprints are accepted as complete")
         assert "It does not approve any decklist, challenger, swap, M5 conclusion, or later refinement result." in x["scope_verbatim"]
         assert "without my explicit per-deck sign-off" in x["scope_verbatim"]
-    assert ms["M5"]["status"] != "accepted" and not ms["M5"]["accepted_by"]
+    assert ms["M5"]["status"] == "accepted" and ms["M5"]["accepted_by"] == "corymstover"
+    assert ms["M5"]["scope_verbatim"] == "Accept M5 and proceed"
+    assert "approves no card swap" in ms["M5"]["scope_note"]
     for m in ("M6", "M7", "M8"):
         assert ms[m]["status"] == "not_started" and not ms[m]["accepted_by"]
     # no deck is APPROVED or CANONICAL_LOCKED, and no human approvals were recorded

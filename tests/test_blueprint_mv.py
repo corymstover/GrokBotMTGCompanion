@@ -1,5 +1,5 @@
 """Bot cycle 62: mana-value claims in blueprints must match the Scryfall cache cmc (Thraximundar root cause)."""
-import _helpers  # noqa: F401  (sys.path)
+from _helpers import require_pinned_bulk  # noqa: F401  (sys.path)
 import grixis_blueprints as gb
 
 
@@ -16,6 +16,7 @@ def test_cost_mv():
 
 
 def test_wrong_commander_mv_fails_right_passes():
+    require_pinned_bulk()
     f = gb.cmc_lookup()
     assert gb.mv_problems(_bp("Removal taxes a six-mana commander."), f)
     assert not gb.mv_problems(_bp("Removal taxes a seven-mana commander."), f)
@@ -25,6 +26,7 @@ def test_wrong_commander_mv_fails_right_passes():
 
 
 def test_card_entry_and_parenthesised_lists():
+    require_pinned_bulk()
     f = gb.cmc_lookup()
     bp = {"commanders": {"value": [{"name": "Thraximundar"}]}, "identity_core": [{"card": "Entomb", "why": "Two-mana setup.", "evidence": []}]}
     assert gb.mv_problems(bp, f)
@@ -35,6 +37,7 @@ def test_card_entry_and_parenthesised_lists():
 
 
 def test_all_blueprints_pass_mv_rule():
+    require_pinned_bulk()
     f = gb.cmc_lookup()
     probs = [p for slug, bp in gb.load_all().items() for p in gb.mv_problems(bp, f)]
     assert probs == []

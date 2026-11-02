@@ -1,5 +1,5 @@
 """Logical (lh1) vs raw list hashes (brief §19)."""
-from _helpers import FakeR, ga, load, resolver, ROOT
+from _helpers import FakeR, ga, load, resolver, ROOT, require_pinned_bulk
 
 
 def test_logical_hash_ignores_order_tags_and_layout():
@@ -46,6 +46,7 @@ def test_hash_definition_documents_both():
 
 def test_registry_hashes_match_deck_pages_and_exports():
     """Integration: every canonical hash recomputes from its deck page; index.json hashes match the files."""
+    require_pinned_bulk()
     R = resolver()
     reg = load("data/grixis/registry.json")
     for did, e in reg["decks"].items():

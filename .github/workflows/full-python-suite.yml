@@ -1,0 +1,46 @@
+name: Full Python suite (offline, source-safe)
+
+on:
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - '.github/workflows/full-python-suite.yml'
+      - 'scripts/**'
+      - 'tests/**'
+      - 'data/grixis/**'
+      - 'data/rules/**'
+      - 'data/release/**'
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/full-python-suite.yml'
+      - 'scripts/**'
+      - 'tests/**'
+      - 'data/grixis/**'
+      - 'data/rules/**'
+      - 'data/release/**'
+
+jobs:
+  complete-offline-suite:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # Benchmark source-attestation tests need the historical PR merge commits.
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install full-suite test dependencies
+        run: python3 -m pip install pytest jsonschema
+      - name: Run all discoverable tests without network fallback
+        env:
+          SCRYFALL_OFFLINE: '1'
+        run: python3 -m pytest -q -rs --disable-warnings
+      - name: Recheck current card/rules queries
+        env:
+          SCRYFALL_OFFLINE: '1'
+        run: |
+          python3 -m unittest discover -s tests -p 'test_mv_ask*.py' -q
+          python3 -m unittest discover -s tests -p 'test_multiverse_snapshots.py' -q
