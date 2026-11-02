@@ -29,6 +29,30 @@ class FullChecklistTriageTests(unittest.TestCase):
         self.assertTrue(all(r["blocker_kind"] == "INDIVIDUAL_PILOT_APPROVAL_PENDING"
                             for r in phase if r["id"] in ("K112", "K113", "K114")))
 
+    def test_owner_finish_line_excludes_pilot_signoff_and_perpetual_upkeep(self):
+        report = C.build()
+        t = report["totals"]
+        self.assertEqual(t["remaining_repository_build"], 18)
+        self.assertEqual(t["excluded_from_repository_build"], 6)
+        self.assertEqual(t["post_build_pilot_reviews"], 3)
+        self.assertEqual(t["recurring_maintenance"], 3)
+        self.assertEqual(t["remaining_repository_build"] + t["excluded_from_repository_build"], t["open"])
+        excluded = {r["id"]: r for r in report["items"]
+                    if r["completion_scope"] in ("POST_BUILD_PILOT_REVIEW", "RECURRING_MAINTENANCE")}
+        self.assertEqual(set(excluded), {"K105", "K112", "K113", "K114", "K125", "K126"})
+        self.assertTrue(all(not r["checked"] and r["status"] != "Completed" for r in excluded.values()))
+        self.assertEqual({r["id"] for r in report["items"] if r["completion_scope"] == "ACTIVE_REPOSITORY_BUILD"}
+                         & set(excluded), set())
+        self.assertTrue(all(r["completion_scope"] == "ACTIVE_REPOSITORY_BUILD"
+                            for r in report["items"] if r["id"] in ("K108", "K110")))
+
+    def test_finish_line_report_does_not_present_pilot_approvals_as_build_blockers(self):
+        text = C.markdown(C.build())
+        self.assertIn("18 actionable build items remain", text)
+        self.assertIn("Outside repository-build completion", text)
+        self.assertNotIn("K112 · Blocked", text)
+        self.assertIn("K112 · POST_BUILD_PILOT_REVIEW", text)
+
     def test_dated_json_and_human_report_are_exactly_rebuildable(self):
         report = C.build()
         self.assertEqual(C.OUT.read_text(encoding="utf-8"),

@@ -77,6 +77,9 @@ def build() -> str:
     done = sum(x == "x" for x in checks)
     assert (full_triage["checked"], full_triage["open"], full_triage["items"]) == (
         done, len(checks) - done, len(checks)), "137-item checklist dashboard is stale"
+    if (full_triage["remaining_repository_build"] + full_triage["excluded_from_repository_build"]
+            != full_triage["open"]):
+        raise ValueError("owner-defined repository finish line does not reconcile")
     assert len(enrichment) == 5362, "unexpected priority-enrichment count; review the tracker generator"
     current_claims = sum(graph["claims_by_status"].values())
     assert coverage["claims"] == current_claims, "story inventory and graph claim counts diverged"
@@ -103,6 +106,7 @@ they are not the active Phase 1–8 completion counters.
 | Measure | Verified committed state | Important limitation |
 | --- | ---: | --- |
 | Master Workflow checklist | **{done}/{len(checks)} checked; {len(checks)-done} open** | Engineering verification, never owner approval. |
+| Repository completion finish line | **{full_triage['remaining_repository_build']} actionable build items remain** | {full_triage['excluded_from_repository_build']} historical open items excluded: {full_triage['post_build_pilot_reviews']} later pilot approvals, {full_triage['recurring_maintenance']} recurring upkeep; no item silently checked. |
 | Priority card enrichments | **{len(enrichment)}/5,362** | Enrichment does not imply every card has a sourced story. |
 | Source-page inventory | **{coverage['cited_pages']} cited + {coverage['reviewed_no_claim_pages']} reviewed = {coverage['pages']} accounted for** | Current inventoried pages only, not all fiction ever published. |
 | Cited lore claims | **{current_claims}** | Live graph/inventory concordance; claim packs remain preliminary research. |
@@ -118,18 +122,24 @@ they are not the active Phase 1–8 completion counters.
 Completed **{gate_counts['Completed']}** · Under review **{gate_counts['Under review']}** ·
 Blocked **{gate_counts['Blocked']}** · Not started **{gate_counts['Not started']}**.
 "Under review" does **not** mean approved; it includes pending owner decisions,
-exact-commit CI and ongoing maintenance. "Blocked" means a documented missing
+exact-commit CI and ongoing maintenance. Both unfinished Phase 8 gate rows are
+**recurring upkeep excluded from the repository finish line**. "Blocked" means a documented missing
 source or remaining engineering work. The complete typed evidence is in
 `data/release/certification_dry_run_2026-10-30.json`.
 
 **All-137 engineering checklist triage (not release certification):**
 Completed **{full_triage['by_status']['Completed']}** · Under review **{full_triage['by_status']['Under review']}** ·
 Blocked **{full_triage['by_status']['Blocked']}** · Not started **{full_triage['by_status']['Not started']}**.
+**Active repository build: {full_triage['remaining_repository_build']} remaining**;
+**excluded from repository completion: {full_triage['excluded_from_repository_build']}**
+({full_triage['post_build_pilot_reviews']} post-build pilot approvals,
+{full_triage['recurring_maintenance']} recurring upkeep tasks).
 Every checked and unchecked task is accounted for in
 `data/release/full_checklist_triage_2026-11-01.json` and
 `research/FULL_CHECKLIST_TRIAGE_2026-11-01.md`. The post-foundation Phase 6
-engine has resumed; individual pilot approvals, current legality and untested
-strategy power remain open and are not unfinished foundation certification tasks.
+engine has resumed; the gameplay/rules **engineering** tasks remain build work,
+but individual *pilot acceptance* is deferred until the completed repository
+data is used to rebuild those decks. Recurring monitoring is not a build gate.
 
 {gate_report}
 
@@ -154,8 +164,10 @@ history; harden rules and difficult Q&A; preserve the original hash-verified Oct
 historical Scryfall replay and its November 1 bulk-field freshness audit (repeat on any later release bulk). **The finite knowledge foundation is certified.
 Post-foundation Phase 6 engine checks K106/K109/K111/K115 and the preliminary
 three-pilot functional strategy preflight now pass within a limited and
-source-dated scope, while individual pilot approvals, tested strategy power
-and current legality remain open.** Do not modify any
+source-dated scope. **Cory's repository completion definition excludes
+individual pilot acceptance and ongoing upkeep (6 historical checklist entries); 18 genuine build items remain.**
+Current legality and tested strategy power remain build work; pilot rebuilding
+and approval happen only *after* repository completion. Do not modify any
 of the 62 finalized Grixis decks.
 {END}"""
 

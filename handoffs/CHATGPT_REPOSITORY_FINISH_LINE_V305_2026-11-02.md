@@ -1,0 +1,11 @@
+# v3.05 handoff — 18 actual build tasks, 6 historical exclusions
+
+**Cory's controlling direction:** Do not count individual pilot approvals or perpetual monitoring toward repository completion. **Build the GitHub repository first**, then redo the three pilot decklists using the finished, updated data, and request Cory's **individual approval afterward**. Do not silently mark those pilots approved now.
+
+The v3.05 triage retains **113/137 original boxes checked and 24 unchecked** but counts **18 active build items**. Excluded from the finish line: K112/K113/K114 (post-build pilot review), K105/K125/K126 (recurring source/Oracle/rules/sets upkeep). All six remain unchecked historically. K108/K110 continue to be engineering requirements for the general Commander functionality and current rules/interaction logic; they do not approve a pilot. Exact 18-item active list: K022, K045, K046, K050, K055, K064, K069, K074, K078, K079, K080, K088, K098, K099, K100, K103, K108, K110.
+
+The authoritative generated `data/release/full_checklist_triage_2026-11-01.json` now records `completion_scope` for each of 137 tasks, plus 18/6 scoped counters, and `research/FULL_CHECKLIST_TRIAGE_2026-11-01.md` has separate actionable/excluded sections. `scripts/update_multiverse_progress_tracker.py` mirrors them into `Progress Tracker.md`. Source: `research/REPOSITORY_BUILD_FINISH_LINE_V305_2026-11-02.md`.
+
+**Do not say the GitHub repo is finished yet:** the 18 active tasks have not all passed source/engineering verification. The existing **7/7 foundation certification** from v3.00 remains separately valid; v3.04 merged at `557de7b2c4bde12cec39a1c28384a30abbaed330` with 13/13 PR and 9/9 postmerge CI green. The approved Grixis deck baseline is immutable. The two user-owned untracked set-atlas temp files must remain untouched.
+
+**Next:** Continue source-qualified work on the 18 actionable items. Avoid inflating a partial source packet to complete canon. For each new code change: check generated triage/tracker, certificate and relevant exact-head Actions before merge; verify merged tree and postmerge Actions. Notify Cory **only when 18/18 actionable build items are genuinely closed** and GitHub CI confirms a clean repository; later pilot deck rebuild/approval and indefinite upkeep are explicitly beyond that finish line.

@@ -1,9 +1,33 @@
 # MTG Multiverse Companion — Master Workflow & Progress Checklist
 
-**Version:** 3.04
+**Version:** 3.05
 **Checkpoint date:** 2026-11-01
 **Repository:** [corymstover/GrokBotMTGCompanion](https://github.com/corymstover/GrokBotMTGCompanion)  
 **Purpose:** Durable project roadmap and handoff document. Update this file after verified milestone work; do not treat historical figures as live counters.
+
+**v3.05 OWNER REDEFINITION — repository completion versus later work
+(2026-11-02):** Cory directs that **individual pilot-deck acceptance** and
+**indefinite ongoing monitoring** are **not repository-building work** and
+must not prevent calling the GitHub repository *finished*. The original
+137-item checklist and its statuses remain untouched for historical audit:
+**113 checked; 24 unchecked**. But only **18 unfinished items** are in the
+actionable **repository-build finish line**. Exactly **six** unchecked tasks
+are outside it: **K112/K113/K114** (three individual pilot reviews, explicitly
+**after** the finished repository supplies new data and decks are rebuilt) and
+**K105/K125/K126** (three intrinsically recurring coverage, official-update,
+and future-set reconciliation duties). They are **not completed, approved or
+quietly deleted**; they simply do not count as unfinished construction.
+K108/K110, the mechanical-strategy and rules/legality **engine-building**
+tasks, still count toward the 18 remaining repository tasks; this does not
+authorize finalizing any specific pilot before its later rebuild and review.
+`scripts/audit_full_checklist.py --check` deterministically validates this
+classification against the exact named tasks, and the generated progress
+tracker distinguishes all 137 historical statuses from the narrower
+repository finish line. **Do not notify Cory that the repository is finished
+until those 18 active tasks are actually completed and exact-commit CI
+passes.** The 7/7 foundation release certificate remains valid and separate.
+See `research/REPOSITORY_BUILD_FINISH_LINE_V305_2026-11-02.md` and
+`handoffs/CHATGPT_REPOSITORY_FINISH_LINE_V305_2026-11-02.md`.
 
 **v3.04 strategy preflight, not a Commander power certificate (2026-11-01):**
 The three pre-existing UNAPPROVED pilots have new independent, replayable
