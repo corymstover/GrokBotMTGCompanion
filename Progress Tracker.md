@@ -12,16 +12,16 @@ schema: 2
 # Progress Tracker
 
 <!-- MULTIVERSE-CURRENT:START -->
-## MTG Multiverse Companion — current engineering checkpoint (2026-11-01)
+## MTG Multiverse Companion — current engineering checkpoint (2026-11-02)
 
-**Live authority:** [Master Workflow v3.09](MTG_MULTIVERSE_MASTER_WORKFLOW.md), the current
+**Live authority:** [Master Workflow v3.11](MTG_MULTIVERSE_MASTER_WORKFLOW.md), the current
 graph and dated recount. The older cycle-36/October-15 metrics **below this section are historical**;
 they are not the active Phase 1–8 completion counters.
 
 | Measure | Verified committed state | Important limitation |
 | --- | ---: | --- |
-| Master Workflow checklist | **131/137 checked; 6 open** | Engineering verification, never owner approval. |
-| Repository completion finish line | **0 actionable build items remain** | 6 historical open items excluded: 3 later pilot approvals, 3 recurring upkeep; no item silently checked. |
+| Master Workflow checklist | **134/137 checked; 3 open** | Engineering checklist; only K112–K114 carry independent exact SHA-bound owner approval. |
+| Repository completion finish line | **0 actionable build items remain** | The 3 open items are recurring upkeep, not unfinished initial construction. |
 | Priority card enrichments | **5362/5,362** | Enrichment does not imply every card has a sourced story. |
 | Source-page inventory | **576 cited + 50 reviewed = 626 accounted for** | Current inventoried pages only, not all fiction ever published. |
 | Cited lore claims | **1263** | Live graph/inventory concordance; claim packs remain preliminary research. |
@@ -29,7 +29,7 @@ they are not the active Phase 1–8 completion counters.
 | Registered people/factions with direct claims | **640/640** | At least one cited relation per registered node, **not** a complete biography or census of all canon. |
 | Exact printing-specific representations | **560** | Frozen snapshot + official art-file label evidence, **not** canon scene depiction. |
 | In-universe dated claim edges | **36** | Most graph edges lack a verified in-world date. |
-| Post-foundation lore-deck pilot drafts | **3 unapproved** | Four bounded Phase 6 engine capabilities and a dated Oracle-anchored strategy preflight now reproducible; realistic-power, current legality and owner approval remain open. |
+| Post-foundation lore-deck pilot drafts | **3 exact historical lists owner-approved** | [November 2 SHA-bound receipt](data/lore_decks/owner_decisions/2026-11-02_cory_approved_phase6_pilots.md); original draft approval=false metadata remains archival; no rebuild, contemporary legality, power certification or playtesting implied. |
 | Foundation-release readiness | **7/7 finite gates certified by separate SHA-pinned external evidence** | Read-only machine status remains READY_FOR_OWNER_REVIEW (5 MET, 2 EXTERNAL); the immutable v3.00 release certificate records exact-commit Actions, unchanged protected hashes and dated source limits. |
 | Official source watch | **Weekly review-only workflow** | Story index, Wizards update-bulletin candidates, Scryfall metadata and rules PDF candidates; not automatic lore/rules updates. |
 
@@ -43,18 +43,18 @@ source or remaining engineering work. The complete typed evidence is in
 `data/release/certification_dry_run_2026-10-30.json`.
 
 **All-137 engineering checklist triage (not release certification):**
-Completed **131** · Under review **3** ·
-Blocked **3** · Not started **0**.
+Completed **134** · Under review **3** ·
+Blocked **0** · Not started **0**.
 **Active repository build: 0 remaining**;
-**excluded from repository completion: 6**
-(3 post-build pilot approvals,
-3 recurring upkeep tasks).
+**excluded from repository completion: 3**
+(all 3 are recurring upkeep tasks).
 Every checked and unchecked task is accounted for in
 `data/release/full_checklist_triage_2026-11-01.json` and
 `research/FULL_CHECKLIST_TRIAGE_2026-11-01.md`. The post-foundation Phase 6
-engine has resumed; the gameplay/rules **engineering** tasks remain build work,
-but individual *pilot acceptance* is deferred until the completed repository
-data is used to rebuild those decks. Recurring monitoring is not a build gate.
+engine has resumed; Cory **approved the three exact historical pilot hashes
+without changes** on November 2, before any future rebuilding. This is owner
+approval, not contemporary rules/power certification. Recurring monitoring
+is not a finite build gate.
 
 | Gate | Triage | Remaining blocker types |
 | --- | --- | --- |
@@ -93,12 +93,11 @@ identity and chronology gaps; expand comprehensive plane, character, faction and
 history; harden rules and difficult Q&A; preserve the original hash-verified October
 historical Scryfall replay and its November 1 bulk-field freshness audit (repeat on any later release bulk). **The finite knowledge foundation is certified.
 Post-foundation Phase 6 engine checks K106/K109/K111/K115 and the preliminary
-three-pilot functional strategy preflight now pass within a limited and
-source-dated scope. **Cory's repository completion definition excludes
-individual pilot acceptance and ongoing upkeep (6 historical checklist entries); 18 genuine build items remain.**
-Current legality and tested strategy power remain build work; pilot rebuilding
-and approval happen only *after* repository completion. Do not modify any
-of the 62 finalized Grixis decks.
+three-pilot functional strategy preflight pass within a limited, source-dated
+scope. **Cory's exact hash-bound owner approval closes K112/K113/K114 without
+changing any cards; only K105/K125/K126 recurring upkeep remains unchecked.**
+Current legality and tested strategy power remain unverified and future pilot
+revisions need new owner approval. Do not modify any of the 62 Grixis decks.
 <!-- MULTIVERSE-CURRENT:END -->
 
 > **Maintenance handoff (2026-10-29):** The Phase 8 numbers below are a recorded Grok Bot cycle-36 baseline, not freshly regenerated coverage. [PHASE8_RESTART.md](PHASE8_RESTART.md) explains the cache-recovery and owner-lock safeguards; [PR #779](https://github.com/corymstover/GrokBotMTGCompanion/pull/779) proposes the guarded rebuild entrypoint. Run `python3 scripts/phase8_status.py` against `data/card_enrichment.json` to obtain current stored-artifact counts.

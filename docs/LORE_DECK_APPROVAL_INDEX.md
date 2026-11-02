@@ -21,7 +21,24 @@ of a different revision. The Grixis 62-deck canonical registry is separate.
 ## Pending — not owner-approved
 
 - **#9 — Ugin's life:** [Unapproved review PR #776](https://github.com/corymstover/GrokBotMTGCompanion/pull/776). Its existing proposal and Rule 0 notes must not be called approved or merged as an approved deck without Cory's specific acceptance.
-- **Three separate graph-built foundation pilot decks:** also **UNAPPROVED**. They are not numbered approvals in this table and await rebuilding and individual owner review after the knowledge foundation.
+
+## Separately owner-approved Phase 6 historical pilots (2026-11-02)
+
+Cory explicitly approved these **three exact original 100-card lists**, without
+rebuilding them or changing cards. They are not numbered decks #9–#12 above.
+The original draft `UNAPPROVED` flags are dated archival metadata, superseded
+only for these exact raw SHA-256 values by the later [owner approval receipt](../data/lore_decks/owner_decisions/2026-11-02_cory_approved_phase6_pilots.md)
+and [machine-readable owner record](../data/lore_decks/owner_decisions/2026-11-02_cory_approved_phase6_pilots.json).
+
+| Pilot | Commander | Exact approved 100-card source | Raw SHA-256 |
+|---|---|---|---|
+| 1 — Ugin & Nicol Bolas duality (K112) | Nicol Bolas, the Ravager | [Original decklist](../data/lore_decks/drafts/ugin_bolas_elder_dragon_duality_decklist.txt) | `01d087aa2819b1ed3c7ac1f64843f76f36b551b72fda62d64218d19c40b0ab45` |
+| 2 — Original & Primeval Dragons (K113) | The Ur-Dragon | [Original decklist](../data/lore_decks/drafts/original_primeval_dragons_decklist.txt) | `6ef1af37c371891b7d3e60a08c2d1bcee1d1205f2c01e5c3093a220fb4414888` |
+| 3 — Ugin's Allies and Heroes (K114) | Jace, Multiverse Architect | [Original decklist](../data/lore_decks/drafts/ugins_allies_and_heroes_decklist.txt) | `05cd56bd3d58b153f35ad86f896d6c383f99bca9722e6124e627daad74641c6c` |
+
+This acceptance does **not** certify current rules, legality, power, matchup
+performance or any changed future version. The three explicit owner review
+boxes are now checked; only ongoing upkeep remains open in the 137-item list.
 
 ## Authority and legality
 

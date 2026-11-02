@@ -1,10 +1,10 @@
-# Complete Master Workflow checklist triage — 2026-11-01
+# Complete Master Workflow checklist triage — 2026-11-02
 
-**131/137 checked; 6 open.** Completed: 131; Under review: 3; Blocked: 3; Not started: 0.
+**134/137 checked; 3 open.** Completed: 134; Under review: 3; Blocked: 0; Not started: 0.
 
-**Repository finish line: 0 actionable build items remain.** 6 unchecked historical items are excluded: 3 post-build pilot reviews and 3 recurring upkeep tasks. None is treated as finished or as a release blocker.
+**Repository finish line: 0 actionable build items remain.** 3 unchecked historical items are excluded: 3 recurring upkeep tasks. None is treated as permanently finished.
 
-This checklist inventory alone is **not a foundation certificate**; the separate v3.00 SHA-pinned milestone certificate records external CI. Pilot reviews are deferred until decks are rebuilt using the completed repository data; upkeep continues after release.
+This checklist inventory alone is **not a foundation certificate**; the separate v3.00 SHA-pinned milestone certificate records external CI. Three exact original pilot decklists were subsequently owner-approved by SHA-256, without rebuilding, under the newer v3.11 decision; current Commander legality and gameplay power remain uncertified. Upkeep continues after release.
 
 The machine-readable JSON preserves all 137 original tasks with their build-scope classification.
 
@@ -40,7 +40,7 @@ The machine-readable JSON preserves all 137 original tasks with their build-scop
 
 ## Phase 6 — Lore-first Commander deckbuilding engine (post-foundation engineering resumed)
 
-7/10 checked; 0 remaining build; 3 excluded from finish line.
+10/10 checked; 0 remaining build; 0 excluded from finish line.
 
 
 ## Phase 7 — Ultimate MTG question-answering companion
@@ -64,12 +64,6 @@ These stay unchecked in the archival 137-task record. They are not counted in th
 
 - **K105 · RECURRING_MAINTENANCE** — Maintain an explicit coverage/gaps inventory as new sets and stories arrive.
   - Future source/coverage watch continues after a finished repository release.
-- **K112 · POST_BUILD_PILOT_REVIEW** — Pilot 1: **Ugin & Nicol Bolas — Elder Dragon Duality**. Owner approval is pending, so the box stays unchecked until Cory approves.
-  - Cory will rebuild and individually review this pilot after repository development is finished.
-- **K113 · POST_BUILD_PILOT_REVIEW** — Pilot 2: **Original Primeval Dragons**.
-  - Cory will rebuild and individually review this pilot after repository development is finished.
-- **K114 · POST_BUILD_PILOT_REVIEW** — Pilot 3: **Ugin's Allies and Heroes**.
-  - Cory will rebuild and individually review this pilot after repository development is finished.
 - **K125 · RECURRING_MAINTENANCE** — Monitor new official stories, Oracle changes, releases, rules and Commander format updates.
   - Future story, rules, Oracle and release monitoring continues after the build finish line.
 - **K126 · RECURRING_MAINTENANCE** — Rebuild and reconcile the Phase 1B set catalog and bidirectional printing lookups when new sets or printings appear, retaining historical snapshots.

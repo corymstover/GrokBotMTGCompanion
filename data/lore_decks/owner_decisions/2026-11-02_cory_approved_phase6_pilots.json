@@ -1,0 +1,49 @@
+{
+  "schema": "phase6-owner-exact-approval/v1",
+  "owner": "Cory",
+  "decision_date": "2026-11-02",
+  "owner_decision": "Approve these three exact historical decklists — record approval against the three source SHA-256 hashes shown above, without changing cards. We will make changes later. I just want to get this checked off the liat for now",
+  "reviewed_main_commit": "e620fd60a75abf8e1b966a89a518ff105d8aa7df",
+  "status": "APPROVED_EXACT_HISTORICAL_REVISIONS",
+  "original_draft_files_remain_unchanged": true,
+  "current_legality_or_bracket_certified": false,
+  "approval_applies_to_future_revisions": false,
+  "pilots": [
+    {
+      "number": 1,
+      "checklist_id": "K112",
+      "theme": "Ugin & Nicol Bolas — Elder Dragon Duality",
+      "stem": "ugin_bolas_elder_dragon_duality",
+      "commander": "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+      "decklist": "data/lore_decks/drafts/ugin_bolas_elder_dragon_duality_decklist.txt",
+      "raw_sha256": "01d087aa2819b1ed3c7ac1f64843f76f36b551b72fda62d64218d19c40b0ab45",
+      "cards": 100,
+      "snapshot": "snap-20261029-40848334824-1",
+      "original_proposal_pr": 823
+    },
+    {
+      "number": 2,
+      "checklist_id": "K113",
+      "theme": "Original & Primeval Dragons",
+      "stem": "original_primeval_dragons",
+      "commander": "The Ur-Dragon",
+      "decklist": "data/lore_decks/drafts/original_primeval_dragons_decklist.txt",
+      "raw_sha256": "6ef1af37c371891b7d3e60a08c2d1bcee1d1205f2c01e5c3093a220fb4414888",
+      "cards": 100,
+      "snapshot": "snap-20261029-40848334824-1",
+      "original_proposal_pr": 832
+    },
+    {
+      "number": 3,
+      "checklist_id": "K114",
+      "theme": "Ugin's Allies and Heroes",
+      "stem": "ugins_allies_and_heroes",
+      "commander": "Jace, Multiverse Architect",
+      "decklist": "data/lore_decks/drafts/ugins_allies_and_heroes_decklist.txt",
+      "raw_sha256": "05cd56bd3d58b153f35ad86f896d6c383f99bca9722e6124e627daad74641c6c",
+      "cards": 100,
+      "snapshot": "snap-20261029-40848334824-1",
+      "original_proposal_pr": 844
+    }
+  ]
+}

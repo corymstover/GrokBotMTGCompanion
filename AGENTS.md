@@ -1,13 +1,18 @@
 # MTG Companion — current agent entry point
 
-**Current baseline (2026-11-02):** Master Workflow **v3.09** records owner-selected
-**bounded repository construction acceptance**: 131/137 historical boxes checked,
-zero active build requirements, and six deliberately open items (three pilot
-reviews and three perpetual upkeep duties). This is not universal lore, live
+**Current baseline (2026-11-02):** Master Workflow **v3.11** retains v3.09's
+owner-selected **bounded repository construction acceptance**, plus the new
+explicit owner approval of the three exact original Phase 6 pilot hashes.
+**134/137** historical boxes are checked; zero active build requirements and
+three perpetual upkeep duties remain open. This is not universal lore, live
 rules/ban, or empirical Commander power certification. See
 [`MTG_MULTIVERSE_MASTER_WORKFLOW.md`](MTG_MULTIVERSE_MASTER_WORKFLOW.md),
 [`data/release/bounded_repository_completion_2026-11-02.json`](data/release/bounded_repository_completion_2026-11-02.json),
 and [`Progress Tracker.md`](Progress%20Tracker.md) for authoritative history.
+
+**Repository visibility:** Cory explicitly chose to keep
+`corymstover/GrokBotMTGCompanion` **public** on 2026-11-02. Do not change its
+visibility without a later owner direction.
 
 **Current owner directive (v3.10 hardening):** Improve reliability and everyday
 use: run the full offline test suite, fix failures and unsafe network fallback,
@@ -24,8 +29,15 @@ Grixis source copy and local audit digests; neither supersedes the canonical
 registry. All nine lore decks **#1–8 and #10** are indexed in
 [`docs/LORE_DECK_APPROVAL_INDEX.md`](docs/LORE_DECK_APPROVAL_INDEX.md), with
 exact owner approval receipts in [`data/lore_decks/approvals/`](data/lore_decks/approvals/), and must remain
-unchanged. The three graph-built foundation pilots remain **UNAPPROVED** and
-are to be rebuilt/reviewed only on Cory's later explicit request.
+unchanged. The three graph-built foundation pilots are now **OWNER APPROVED
+AS EXACT HISTORICAL OCTOBER 29 LISTS**, according to
+[`data/lore_decks/owner_decisions/2026-11-02_cory_approved_phase6_pilots.md`](data/lore_decks/owner_decisions/2026-11-02_cory_approved_phase6_pilots.md).
+Their unmodified source specs and proposal JSON retain their *older*
+`UNAPPROVED` labels solely as historical metadata; the later hash-bound owner
+receipt governs present acceptance. No list was rebuilt/optimized/changed, and
+no live legality, bracket, power or playtesting certificate is implied. Later
+revisions require new exact approvals. Verify the overlay with
+`python3 scripts/audit_lore_pilot_owner_approvals.py --check`.
 
 **Testing:** Prefer reproducible tests with `SCRYFALL_OFFLINE=1` and
 `MTG_SCRYFALL_MODE=multiverse`; a requested live update is separate and must
@@ -43,4 +55,4 @@ The one-click `M7 One-Command Evidence Intake` Action is read-only evidence reco
 
 ## Other MTG lore and creative decks (tools ready; explicit requests only)
 
-The Grixis instructions above apply only to explicit Grixis finalization and must never be silently applied to a new lore-deck request. For knowledge queries, use [`LORE_QUERY_QUICKSTART.md`](LORE_QUERY_QUICKSTART.md), `scripts/lore_query.py`, `scripts/mv_ask.py`, and the cited graph, timeline and Q&A tools. [`LORE_DECKBUILDING_READY.md`](LORE_DECKBUILDING_READY.md), `scripts/story_deck_planner.py` and `scripts/evaluate_decklist.py` are available for a **new explicit** deckbuilding request. Separate printed facts, official story claims, contextual links, and creative flavor. An old draft's "awaiting approval" line does not override a later exact owner approval receipt; the nine approved lore deck specifications are protected. No unapproved pilot becomes locked by an engineering merge.
+The Grixis instructions above apply only to explicit Grixis finalization and must never be silently applied to a new lore-deck request. For knowledge queries, use [`LORE_QUERY_QUICKSTART.md`](LORE_QUERY_QUICKSTART.md), `scripts/lore_query.py`, `scripts/mv_ask.py`, and the cited graph, timeline and Q&A tools. [`LORE_DECKBUILDING_READY.md`](LORE_DECKBUILDING_READY.md), `scripts/story_deck_planner.py` and `scripts/evaluate_decklist.py` are available for a **new explicit** deckbuilding request. Separate printed facts, official story claims, contextual links, and creative flavor. An old draft's "awaiting approval" line does not override a later exact owner approval receipt; the nine numbered lore deck specifications and three newly approved historical pilot hashes are protected. No draft becomes approved merely by an engineering merge without an explicit owner record.
