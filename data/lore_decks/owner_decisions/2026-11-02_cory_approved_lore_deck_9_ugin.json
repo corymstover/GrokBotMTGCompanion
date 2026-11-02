@@ -1,0 +1,23 @@
+{
+  "schema": "lore-deck-owner-approval/v1",
+  "owner": "Cory M. Stover",
+  "decision_date": "2026-11-02",
+  "owner_instruction": "Auto-Approve Lore Deck #9",
+  "deck_number": 9,
+  "status": "OWNER_APPROVED_EXACT_HISTORICAL_LIST",
+  "title": "Ugin's Complete Life Story",
+  "commander": "The Ur-Dragon",
+  "source_path": "data/lore_decks/drafts/ugin_complete_life_story_decklist.txt",
+  "source_sha256": "94fe43d3b748ee3f49b265797d4384e6a5948d719796308e4ad620e66b0202a8",
+  "historical_proposal_pr": 776,
+  "historical_proposal_head_sha": "2103014aca9161fcb2fdd07544bd6483ace3c231",
+  "historical_proposal_merge_sha": "380d5c5182abbbd373c6434fb34fd7fc12d989e9",
+  "total_cards_including_commander": 100,
+  "lands": 35,
+  "rule_zero_exceptions": ["Emrakul, the Aeons Torn"],
+  "cards_modified_in_approval": 0,
+  "modern_commander_legality_certified": false,
+  "gameplay_power_certified": false,
+  "different_revision_approved": false,
+  "approval_receipt": "data/lore_decks/owner_decisions/2026-11-02_cory_approved_lore_deck_9_ugin.md"
+}

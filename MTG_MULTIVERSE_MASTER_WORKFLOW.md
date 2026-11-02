@@ -1,11 +1,26 @@
 # MTG Multiverse Companion — Master Workflow & Progress Checklist
 
-**Version:** 3.11
+**Version:** 3.12
 **Checkpoint date:** 2026-11-02
 **Repository:** [corymstover/GrokBotMTGCompanion](https://github.com/corymstover/GrokBotMTGCompanion)  
 **Purpose:** Durable project roadmap and handoff document. Update this file after verified milestone work; do not treat historical figures as live counters.
 
-**v3.11 EXACT OWNER APPROVAL OF THREE HISTORICAL PHASE 6 PILOTS (2026-11-02):**
+**v3.12 FINITE CHECKLIST / DECK #9 APPROVAL (2026-11-02):** Cory
+removed the three intrinsically recurring maintenance duties K105/K125/K126
+from the active checklist rather than treating indefinite work as ever
+complete. The original text and historical IDs are retained in
+[`docs/archive/RECURRING_CHECKLIST_ITEMS_2026-11-02.md`](docs/archive/RECURRING_CHECKLIST_ITEMS_2026-11-02.md),
+with continuing obligations described in [`docs/MAINTENANCE_POLICY.md`](docs/MAINTENANCE_POLICY.md).
+The **finite checklist is now 134/134 checked, 0 open**. Older 137-item
+counts in dated sections below describe historical snapshots, not today's
+active checklist. Cory also expressly approved **numbered lore Deck #9** as
+the exact unchanged 100-card Ugin historical proposal at raw SHA-256
+`94fe43d3b748ee3f49b265797d4384e6a5948d719796308e4ad620e66b0202a8`,
+documented by its [owner receipt](data/lore_decks/owner_decisions/2026-11-02_cory_approved_lore_deck_9_ugin.md).
+Its banned Emrakul remains a **Rule 0** exception, not sanctioned legality;
+all ten numbered lore decks (#1–#10) now have owner approval records.
+
+**v3.11 HISTORICAL — EXACT OWNER APPROVAL OF THREE PHASE 6 PILOTS (2026-11-02):**
 Cory explicitly approved **the three exact October 29 historical pilot
 decklists as presented, without changing a card**, and reserved the right to
 revise them later. This **supersedes the earlier post-rebuild review plan**;
@@ -1461,7 +1476,7 @@ Infrastructure checkpoint: [PR #783](https://github.com/corymstover/GrokBotMTGCo
 - [x] Audit major planes, regions, factions, artifacts and overlooked characters. *(Partial v2.59: character and faction history questions can now retrieve the existing **direct** claim edges for 623 of 628 registered Character/Faction nodes, with citations, grades and no inferred chronology. This is not an exhaustive source-by-source audit or a complete biography; see `research/PHASE5_CHARACTER_FACTION_HISTORY_LOOKUP_2026-10-30.md`.)* *(v2.92 closure: `scripts/audit_entity_coverage.py` independently inventories **all 839 graph-registered** planes (33), regions/places (112), factions (156), objects/artifacts (54), and characters (484). Every node is published with direct distinct claim count, original grade, exact first-party URLs, origins, and explicit gap classification. Four registered nodes have no direct cited claim; 139 have only qualified direct claims, all exposed for follow-up. This completes the **registered-entity audit**, never a census of every Magic character/region, complete biographies, or canon-importance ranking; see `research/ENTITY_COVERAGE_AUDIT_2026-11-01.md`.)*
 - [x] Connect cross-plane histories and document contradictions/retcons. *(Partial, v2.38, Batch 10: `mv_ask` continuity route ("explain the continuity of X", "is X canon / a retcon", "conflicting accounts of X") lists every cited CANON_DISPUTED, ALTERNATE_CONTINUITY and OPEN_QUESTION claim and any claim whose limitation names a retcon, timeline rewrite or conflicting account, each with its sources and why it is listed; it never resolves them. Limited to what the packs cite, so this stays unchecked.)* *(v2.39, Batch 11: leader questions union `led`/`leader_of` ([#895](https://github.com/corymstover/GrokBotMTGCompanion/pull/895)); past-era Tarkir leaders tagged "Tarkir's past". Still partial.)* *(v3.09 owner-redefined bounded repository acceptance; see `data/release/bounded_repository_completion_2026-11-02.json`. Unverified source/canon/chronology/deck specifics remain explicitly UNKNOWN; this is not a claim that they were resolved.)*
 - [x] Use the Phase 1B Set & Printing Atlas to navigate published sets and storylines while keeping real-world release dates separate from in-universe event order. *(v2.90 closure: all 12 first-party publication-title bridges now round-trip through the qualified set/story Q&A route with official URLs and separate Scryfall set vs story-page publication dates; a known unlinked release explicitly retains an incomplete-index flag. This certifies **supported navigation**, not an exhaustive association of all 1,062 codes or the chronology of fictional events; see `research/FOUNDATION_ENGINEERING_CLOSURE_V290_2026-11-01.md`.)*
-- [ ] Maintain an explicit coverage/gaps inventory as new sets and stories arrive. *(Started 2026-10-30, Batch 4: `scripts/build_story_coverage_inventory.py` generates `data/lore_research/story_coverage_inventory_2026-10-30.json` from the 626-page `primary_sources.csv` and the 9 graph claim packs, and CI rebuilds and compares it. Claim packs cite 57 of the 626 pages. Of the 33 arc buckets, 1 has every page cited (ONE, 6/6), 9 are partial (MOM 10/11, DOM/WAR 12/18, BRO 4/10, BFZ/OGW 3/19, TDM 2/14, SOI/EMN 1/21, DMU 1/6, ECL 1/12, untagged 17/305) and 23 are not started, including KLD/AER, AKH/HOU, XLN/RIX, EOE and RF. "Cited" means the page is used at least once, not that it was read exhaustively. The box stays unchecked because the inventory still has to be refreshed when new stories arrive. **Batch 5 refresh:** 12 claim packs and 231 claims now cite 88 of the 626 pages. 1 arc is fully cited, 12 are partial (now including KLD/AER 14/17, XLN/RIX 10/17 and AKH/HOU 7/16), and 20 are not started. **v2.33 (after NEO):** 13 packs and 243 claims cite 94 of 626 pages. 2 arcs are fully cited, 12 partial and 19 not started. **v2.38, Batch 10 refresh:** 516/626 pages cited, 40 reviewed with no claim, 31 of 33 arcs fully cited; untagged 119 + 38 reviewed of 227.)* *(v2.39, Batch 11: **626/626 pages cited or reviewed** (576 cited, 50 reviewed with no claim, 0 unread); all 33 arcs cited-or-reviewed; 1,139 claims. Stays unchecked: upkeep is ongoing as new stories arrive.)*
+<!-- HISTORICAL-MAINTENANCE K105: moved to docs/MAINTENANCE_POLICY.md on 2026-11-02; no active checkbox -->
 
 ## Phase 6 — Lore-first Commander deckbuilding engine (post-foundation engineering resumed)
 
@@ -1504,11 +1519,11 @@ decks. Unreviewed gameplay/canon and new final deck approvals remain separate.
 
 - [x] Keep targeted CI checks for card counts, source integrity, graph relationships, rules/Q&A and set data; preserve existing deck-legality regression checks without starting new decks. *(v3.03 finite CI configuration scope: nine domains and their existing PR-triggered, non-continue-on-error checks are independently hashed/replayed by `audit_ci_domain_coverage.py --check`; the new check itself runs in Phase 8 CI. The prior exact-head PR #972 checks passed 13/13 and postmerge passed 9/9. **GitHub branch protection/enforced required-status settings are not established**, and future runs must still be verified before merge. No protected deck, approval or snapshot was edited.)*
   - Partial (2026-10-30): claim-graph, companion-ask, oracle-drift and release-readiness workflows were added, alongside the existing focused-validation and pilot audits.
-- [ ] Monitor new official stories, Oracle changes, releases, rules and Commander format updates.
+<!-- HISTORICAL-MAINTENANCE K125: moved to docs/MAINTENANCE_POLICY.md on 2026-11-02; no active checkbox -->
   - Partial (2026-10-30): `scripts/oracle_drift_report.py` ([PR #829](https://github.com/corymstover/GrokBotMTGCompanion/pull/829)) diffs the Oracle text against each new snapshot.
   - v2.47 read-only monitoring: `.github/workflows/multiverse-update-watch.yml` executes weekly/on demand, validates its source whitelist and saved current baseline, checks new URLs from Wizards' present Magic Story listing, compares Scryfall bulk *metadata* against the exact pinned active snapshot, and checks whether the Wizards rules hub references a new Comprehensive Rules PDF. The Commander page ETag is informational only because it varies with deployments. The output is an ephemeral review artifact, not automatic source ingestion or a verified rules change. This **remains open** until broader sources, release-time verification and curated update decisions are covered.
   - v2.60 dry-run correction: a weekly monitor **already exists**; it is not an unscheduled engineering gap. The ongoing coverage limits and mandatory human review remain explicit.
-- [ ] Rebuild and reconcile the Phase 1B set catalog and bidirectional printing lookups when new sets or printings appear, retaining historical snapshots.
+<!-- HISTORICAL-MAINTENANCE K126: moved to docs/MAINTENANCE_POLICY.md on 2026-11-02; no active checkbox -->
   - v2.43: `scripts/audit_phase1b_snapshot_gates.py` selects exactly the SHA-pinned 2026-10-29 `default-cards` filename from the committed manifest. A missing archive now returns `MTG_PINNED_BULK_MISSING` with its expected SHA and source URL rather than `IndexError` or an accidental newest-bulk substitution. The complete source-level gate is still blocked in a clean clone until those exact bytes are available; the saved dated report stays qualified.
 - [x] Update snapshot manifests with actual download bytes and stable hashes. *(v2.72: the original Oct 28 source is now hash-recovered and measured at **80,216,061 compressed bytes**, matching its pre-existing SHA-256. The three original Oct 15–16 locked files and all three active Oct 29 Companion archives also have independently matched bytes and SHA-256, preserved in `data/scryfall_snapshots/historical_bulk_replay_2026-10-31.json` alongside the existing October 29 release manifest. The historical export manifest's deterministic schema stays unchanged.)*
 - [x] Maintain an honest progress tracker: completed, under review, blocked, and not started. *(v2.73: a deterministic all-137 task triage documents each open item's source/owner/engineering/ongoing blocker; the checkpoint separately lists 14 foundation release/Phase 8 gates, keeps Phase 6 deferred, and fails CI when either report is stale.)*

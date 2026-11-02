@@ -1,6 +1,6 @@
 {
  "schema": "rules-interaction-audit/v1",
- "status": "AUTOMATED_EVIDENCE_SURFACING (not a rules certification; decks remain UNAPPROVED proposals)",
+ "status": "AUTOMATED_EVIDENCE_SURFACING (not a rules certification; individual historical proposal files may have later exact-SHA owner approvals)",
  "limitation": "Surfaces published rulings and verbatim Comprehensive Rules text; it does not simulate the game. No ruling does not mean no interaction.",
  "rules_source": {
   "title": "Magic: The Gathering Comprehensive Rules — keyword actions (701) and keyword abilities (702) excerpt",
@@ -133,6 +133,23 @@
    ]
   },
   {
+   "deck": "data/lore_decks/drafts/ugin_complete_life_story_decklist.txt",
+   "cards": 95,
+   "resolved": 95,
+   "missing": [],
+   "cards_with_rulings": 53,
+   "rulings_total": 190,
+   "direct_ruling_links": [
+    {
+     "kind": "DIRECT_RULING",
+     "ruling_of": "Sarkhan, Dragon Ascendant",
+     "names": "Dragonstorm",
+     "date": "2025-04-04",
+     "text": "If an effect refers to a “[subtype] card,” it refers only to a card that has that subtype. For example, Teeming Dragonstorm is a card that cares about Dragons and features Dragons in its art, but it isn’t a Dragon card."
+    }
+   ]
+  },
+  {
    "deck": "data/lore_decks/drafts/ugins_allies_and_heroes_decklist.txt",
    "cards": 91,
    "resolved": 91,
@@ -188,8 +205,8 @@
   }
  ],
  "totals": {
-  "decks": 6,
-  "direct_ruling_links": 17,
+  "decks": 7,
+  "direct_ruling_links": 18,
   "unresolved_cards": 0
  }
 }

@@ -52,8 +52,9 @@ class DryRunTests(unittest.TestCase):
         self.assertEqual(rows['ci_and_coverage']['blockers'], [])
         self.assertTrue((ROOT / 'data/release/foundation_milestone_certificate_2026-11-01.json').is_file())
         p8 = self.d['phase8']
-        watch = next(r for r in p8 if r['item'].startswith('Monitor new official stories'))
-        self.assertEqual({b['kind'] for b in watch['blockers']}, {'ONGOING'})
+        self.assertFalse(any(r['item'].startswith('Monitor new official stories') for r in p8))
+        self.assertFalse(any(r['item'].startswith('Rebuild and reconcile the Phase 1B') for r in p8))
+        self.assertIn('K125', (ROOT / 'docs/archive/RECURRING_CHECKLIST_ITEMS_2026-11-02.md').read_text(encoding='utf-8'))
         self.assertTrue((ROOT / '.github/workflows/multiverse-update-watch.yml').is_file())
         tracker = next(r for r in p8 if r['item'].startswith('Maintain an honest progress tracker'))
         self.assertEqual({b['kind'] for b in tracker['blockers']}, {'ONGOING'})

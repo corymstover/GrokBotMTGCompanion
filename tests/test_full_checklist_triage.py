@@ -9,13 +9,15 @@ import audit_full_checklist as C  # noqa: E402
 
 
 class FullChecklistTriageTests(unittest.TestCase):
-    def test_all_137_items_are_accounted_without_silent_completion(self):
+    def test_all_134_finite_items_checked_and_3_duties_archived(self):
         report = C.build()
         t = report["totals"]
-        self.assertEqual(t["items"], 137)
-        self.assertEqual(t["checked"] + t["open"], 137)
-        self.assertEqual(sum(t["by_status"].values()), 137)
-        self.assertEqual(len(report["items"]), 137)
+        self.assertEqual(t["items"], 134)
+        self.assertEqual(t["checked"] + t["open"], 134)
+        self.assertEqual(sum(t["by_status"].values()), 134)
+        self.assertEqual(len(report["items"]), 134)
+        self.assertEqual(t["archived_recurring_duties"], 3)
+        self.assertEqual(t["historical_positions"], 137)
         self.assertTrue(all(r["status"] in C.STATES and r["reason"] and r["section"] for r in report["items"]))
         self.assertTrue(all((r["status"] == "Completed") == r["checked"] for r in report["items"]))
 
@@ -36,14 +38,14 @@ class FullChecklistTriageTests(unittest.TestCase):
         t = report["totals"]
         self.assertEqual(t["remaining_repository_build"], 0)
         self.assertEqual(t["checked"], 134)
-        self.assertEqual(t["excluded_from_repository_build"], 3)
+        self.assertEqual(t["excluded_from_repository_build"], 0)
         self.assertEqual(t["post_build_pilot_reviews"], 0)
-        self.assertEqual(t["recurring_maintenance"], 3)
+        self.assertEqual(t["recurring_maintenance"], 0)
         self.assertEqual(t["remaining_repository_build"] + t["excluded_from_repository_build"], t["open"])
         excluded = {r["id"]: r for r in report["items"]
                     if r["completion_scope"] in ("POST_BUILD_PILOT_REVIEW", "RECURRING_MAINTENANCE")}
-        self.assertEqual(set(excluded), {"K105", "K125", "K126"})
-        self.assertTrue(all(not r["checked"] and r["status"] != "Completed" for r in excluded.values()))
+        self.assertEqual(set(excluded), set())
+        self.assertEqual({"K105", "K125", "K126"} & {r["id"] for r in report["items"]}, set())
         self.assertEqual({r["id"] for r in report["items"] if r["completion_scope"] == "ACTIVE_REPOSITORY_BUILD"}
                          & set(excluded), set())
         self.assertTrue(all(r["completion_scope"] == "COMPLETED"
@@ -54,10 +56,10 @@ class FullChecklistTriageTests(unittest.TestCase):
     def test_finish_line_report_does_not_present_pilot_approvals_as_build_blockers(self):
         text = C.markdown(C.build())
         self.assertIn("0 actionable build items remain", text)
-        self.assertIn("Outside repository-build completion", text)
+        self.assertIn("Ongoing obligations (not checklist items)", text)
         self.assertNotIn("K112 · Blocked", text)
         self.assertNotIn("K112 · POST_BUILD_PILOT_REVIEW", text)
-        self.assertIn("K112", C.build()["items"][111]["id"])
+        self.assertEqual("K112", C.build()["items"][110]["id"])
 
     def test_dated_json_and_human_report_are_exactly_rebuildable(self):
         report = C.build()

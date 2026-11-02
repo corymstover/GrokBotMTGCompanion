@@ -52,18 +52,6 @@ RELEASE_BLOCKERS = {
 # Phase 8 items, in workflow order (matched by a leading phrase).
 PHASE8_BLOCKERS = [
     ("Keep targeted CI checks", []),  # v3.03 nine targeted PR CI domains accepted; branch protection is NOT asserted.
-    ("Monitor new official stories", [
-        B("ONGOING", "A read-only weekly workflow already checks Wizards story index, official rules/Commander page "
-          "signals, official update-bulletin listing candidates and Scryfall bulk timestamps against the "
-          "November 1 pinned manifest, saving review artifacts without auto-ingesting changes. Its scope "
-          "is deliberately not a complete story crawl or proof of rules changes; ongoing human review and release-time "
-          "Oracle drift checks are still required.", ".github/workflows/multiverse-update-watch.yml",
-          "scripts/monitor_multiverse_updates.py", "data/maintenance/multiverse_update_monitor_baseline_2026-11-01.json"),
-    ]),
-    ("Rebuild and reconcile the Phase 1B set catalog", [
-        B("ONGOING", "Triggered by new sets: the next is nau (Set API release 2027-02-05, no printings yet).",
-          "data/set_atlas/phase1b_snapshot_gates_2026-10-30.json"),
-    ]),
     ("Update snapshot manifests", []),  # Exact Oct 28/Oct 15–16 bytes recovered, hashed, independently replayed.
     ("Maintain an honest progress tracker", [
         B("ONGOING", "All 137 project tasks now have a deterministic Completed / Under review / Blocked / "
