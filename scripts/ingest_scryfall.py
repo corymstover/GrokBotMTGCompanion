@@ -127,6 +127,13 @@ def get_bulk(cache_dir: Path, bulk_file: str | None, kind: str = "oracle-cards")
         cached = sorted(cache_dir.glob(f"{kind}-*.json*"))
         if cached:
             bulk_file = str(cached[-1])
+        else:
+            # This must fail before any metadata request. Formerly an empty
+            # offline cache fell through into the online branch below.
+            raise SystemExit(
+                f"SCRYFALL_OFFLINE=1: no cached {kind} bulk in {cache_dir}; "
+                "restore a verified snapshot or explicitly run an online update"
+            )
     if bulk_file:
         path = Path(bulk_file)
         m = re.search(r"-(\d{4})(\d{2})(\d{2})(\d{2})(\d{2})(\d{2})\.", path.name)

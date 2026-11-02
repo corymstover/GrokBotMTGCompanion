@@ -11,6 +11,7 @@ import grixis_sim as gs  # noqa: E402
 import grixis_mech as gm  # noqa: E402
 from grixis_mech import observe, router, combat, graveyard  # noqa: E402
 import grixis_mechanics as gmx  # noqa: E402
+from _helpers import require_pinned_bulk  # noqa: E402
 
 
 def _h(x):
@@ -19,6 +20,7 @@ def _h(x):
 
 def test_v11_outputs_byte_identical_to_main():
     """Golden hashes generated from origin/main 996350d before any step-E code existed."""
+    require_pinned_bulk()
     gold = json.loads((ROOT / "tests/data/sim_v11_golden.json").read_text())
     for key, h in gold.items():
         slug, m = key.split("|")
@@ -26,6 +28,7 @@ def test_v11_outputs_byte_identical_to_main():
 
 
 def test_observer_does_not_change_results_and_is_deterministic():
+    require_pinned_bulk()
     d = gs.load_deck("wick-the-whorled-mind")
     plain = [gs.play_game(d, random.Random(gs.seed_for(66, i)), model="1.1") for i in range(40)]
     traced = observe.trace_games(d, 40, 66)
@@ -49,9 +52,9 @@ def test_router():
 
 def test_combat_proxy_bounds():
     games = [(None, [{"turn": t, "battlefield": ["Z"] if t >= 3 else [], "graveyard": [], "hand": []} for t in range(1, 11)])]
-    assert combat.triggers(games, "Z", False, 6, 0.0, 1.0) == 3  # lands T3, attacks T4-T6
-    assert combat.triggers(games, "Z", True, 6, 0.0, 1.0) == 4
-    assert combat.triggers(games, "Z", False, 6, 0.5, 0.7) < combat.triggers(games, "Z", False, 6, 0.0, 1.0)
+    cards = {"Z": {"type_line": "Creature", "text": "Whenever Z attacks, draw a card."}}
+    assert combat.triggers(games, "Z", "self", 6, 1.0, 1.0, cards) == 3  # T3 summoning sick; T4-T6 attack
+    assert combat.triggers(games, "Z", "self", 6, 0.5, 0.7, cards) < combat.triggers(games, "Z", "self", 6, 1.0, 1.0, cards)
 
 
 def test_graveyard_live():

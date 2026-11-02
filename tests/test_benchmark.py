@@ -1,13 +1,22 @@
 """Bot cycle 64.1 (G0): benchmark corpus checker: sealing, leak detection, source existence, holdout rule."""
 import copy
 import sys
+import unittest
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "scripts"))
 import grixis_benchmark as gb  # noqa: E402
 
 
+def require_full_git_history():
+    # Source-attestation checks use `git cat-file` on historical merge commits.
+    # An intentionally shallow checkout cannot prove their absence.
+    if (Path(__file__).resolve().parents[1] / '.git' / 'shallow').is_file():
+        raise unittest.SkipTest('HISTORY_UNAVAILABLE: shallow checkout; verify with full git history')
+
+
 def test_corpus_clean():
+    require_full_git_history()
     assert gb.problems() == []
 
 
@@ -43,6 +52,7 @@ def test_manifest_records_freeze_rule():
 
 
 def test_corpus_frozen_and_any_change_detected():
+    require_full_git_history()
     m = gb.load(gb.B / "manifest.json")
     assert m["status"] == "immutable" and m["frozen_at"] and m["corpus_sha256"].startswith("sha256:")
     p = gb.B / "corpus.json"

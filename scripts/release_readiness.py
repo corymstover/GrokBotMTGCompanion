@@ -20,6 +20,13 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 
+# Historical certificate digest contract. The first path is deliberately
+# ABSENT here: the live state/current_deck_overrides.json belongs to the
+# separate corymstover/grixis-commander-encyclopediaGPT canonical repository.
+# It was included in older reports as a null local digest; do not present that
+# null as evidence of a checked canonical lock. Keep this list stable so prior
+# certificates remain reproducible; the approval authority is documented in
+# AGENTS.md, not inferred from this local tree digest.
 PROTECTED = ["state/current_deck_overrides.json", "data/lore_decks/approvals", "data/grixis/approvals.json",
              "data/grixis/exceptions.json", "data/grixis/dev_snapshot_lock.json"]
 FOUNDATION_PACKS = {"A": "pack_a_", "B": "pack_b_", "C": "pack_c_"}

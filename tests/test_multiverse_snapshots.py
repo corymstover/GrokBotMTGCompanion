@@ -20,6 +20,15 @@ def gz_card(name="Island"):
 
 
 class MultiverseSnapshotTests(unittest.TestCase):
+    def test_empty_offline_cache_never_attempts_network(self):
+        with tempfile.TemporaryDirectory() as temp:
+            env = {"MTG_SCRYFALL_MODE": "multiverse", "MTG_MULTIVERSE_CACHE": temp,
+                   "SCRYFALL_OFFLINE": "1"}
+            with patch.dict(os.environ, env), patch.object(ing, "http_get",
+                                                        side_effect=AssertionError("network used")):
+                with self.assertRaisesRegex(SystemExit, "SCRYFALL_OFFLINE=1: no cached"):
+                    ing.get_bulk(ing.DEFAULT_CACHE, None)
+
     def test_multiverse_isolated_offline_and_legacy_lock_unchanged(self):
         original = ing.LOCK_FILE.read_bytes()
         with tempfile.TemporaryDirectory() as temp:

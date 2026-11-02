@@ -1,0 +1,46 @@
+name: Phase 1B consolidated source and product-family evidence
+
+on:
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - 'data/set_atlas/**'
+      - 'scripts/audit_*sources.py'
+      - 'scripts/audit_phase1b_*.py'
+      - 'scripts/audit_phase1b_family_ci.py'
+      - 'scripts/product_family_lookup.py'
+      - 'scripts/publish_historical_set_index.py'
+      - 'tests/test_*sources.py'
+      - 'tests/test_phase1b*.py'
+      - '.github/workflows/phase1b-family-validation.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'data/set_atlas/**'
+      - 'scripts/audit_*sources.py'
+      - 'scripts/audit_phase1b_*.py'
+      - 'scripts/audit_phase1b_family_ci.py'
+      - 'scripts/product_family_lookup.py'
+      - 'scripts/publish_historical_set_index.py'
+      - 'tests/test_*sources.py'
+      - 'tests/test_phase1b*.py'
+      - '.github/workflows/phase1b-family-validation.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  dated-family-audits:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      SCRYFALL_OFFLINE: '1'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Execute every legacy Phase 1B family audit without writes or downloads
+        run: python3 scripts/audit_phase1b_family_ci.py --check
+      - name: Exercise all source-family regression tests
+        run: python3 -m unittest discover -s tests -p 'test_*sources.py' -q

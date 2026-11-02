@@ -103,6 +103,14 @@ PAGES = {
 }
 INDEX_ONLY = {"Lore Entry Index.md", "Card Enrichment.md"}  # generated hub that links every lore page; never counted as another page's "related"
 SUBDIRS = ["grixis"]  # sub-folders whose .md pages must be registered (decks/ folders are handled as decks)
+# Operational handoffs/instructions are deliberately not knowledge entries.
+# They have no source-graded article front matter and must not be rewritten by
+# the article generator. Keep this finite exemption visible and reviewable.
+OPERATIONS_DOCS = {
+    "AGENTS.md", "MTG_MULTIVERSE_MASTER_WORKFLOW.md", "LORE_DECKBUILDING_READY.md",
+    "PHASE8_RESTART.md", "UPDATE_PROCESS.md", "LORE_QUERY_QUICKSTART.md",
+    "SET_ATLAS.md", "grixis/M7 ONE_COMMAND FINISH.md",
+}
 DECK_DIRS = ["decks", "grixis/decks"]
 SHARD_DIR = "cards"
 REF_DIR = "references"  # reverse card index (Bot cycle 18, #66; scripts/build_crossrefs.py)
@@ -530,8 +538,10 @@ def main(check: bool, shards: bool = True) -> int:
                 p.write_text(new, encoding="utf-8")
     if missing:
         bad.append(f"registry lists missing pages: {missing}")
-    unreg = [p.name for p in ROOT.glob("*.md") if p.name not in PAGES and p.name not in ("README.md", "GOAL.md")]
-    unreg += [str(p.relative_to(ROOT)) for d in SUBDIRS for p in (ROOT / d).glob("*.md") if str(p.relative_to(ROOT)) not in PAGES]
+    unreg = [p.name for p in ROOT.glob("*.md") if p.name not in PAGES
+             and p.name not in ("README.md", "GOAL.md") and p.name not in OPERATIONS_DOCS]
+    unreg += [str(p.relative_to(ROOT)) for d in SUBDIRS for p in (ROOT / d).glob("*.md")
+              if str(p.relative_to(ROOT)) not in PAGES and str(p.relative_to(ROOT)) not in OPERATIONS_DOCS]
     if unreg:
         bad.append(f"top-level pages not in the registry: {unreg}")
     print(f"front-matter: {'checked' if check else 'wrote'} {n} files (schema v{SCHEMA_VERSION}), {len(bad)} problems")

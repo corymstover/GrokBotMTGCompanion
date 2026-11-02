@@ -1,5 +1,5 @@
 {
-  "$schema": "https://json-schema.org/draft/2020/schema",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://github.com/corymstover/GrokBotMTGCompanion/data/grixis/schemas/combo_line_semantics.schema.json",
   "title": "Commander Spellbook line semantics v1",
   "description": "Step B cache-derived line semantics from Commander Spellbook's community-maintained steps. These are evidence/context, not official rules or a win claim.",

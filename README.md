@@ -3,6 +3,39 @@
 > Standing goal: **[GOAL.md](GOAL.md)** — the most complete, accurate, practically useful Magic: The Gathering companion (lore, card data, rules, Commander/EDH).
 > Origin: the Grok project "MTG Companion", initially maintained in Grok Bot hourly cycles. The cycle notes below are historical records, not a claim of an active Grok Bot process.
 
+## Start here — current state (November 2, 2026)
+
+This is an **offline-first, source-graded research companion**, not a chatbot
+service or a live Commander ban-list feed. It contains searchable card records,
+Magic lore relationships and chronology, official-rules excerpts, and
+Commander-deck evaluation tools. Unknown, disputed and outdated facts are
+labelled rather than guessed.
+
+| Need | Entry point |
+|---|---|
+| Ask a question about a card, lore, rules or sets | `python3 scripts/mv_ask.py ask "What does Sol Ring do?"` |
+| Inspect a specific card | `python3 scripts/mv_ask.py card "Sol Ring"` |
+| Query cited relationships | `python3 scripts/mv_ask.py lore "Ugin"` |
+| Read program status | [Master Workflow v3.09](MTG_MULTIVERSE_MASTER_WORKFLOW.md) · [Progress Tracker](Progress%20Tracker.md) |
+| Examine owner-approved lore decks | [Lore approval receipts](data/lore_decks/approvals/) (#1–8, #10) |
+| Find the canonical Grixis approvals | [Separate Grixis encyclopedia repository](https://github.com/corymstover/grixis-commander-encyclopediaGPT) |
+
+Run the targeted everyday-question checks with
+`python3 -m unittest discover -s tests -p 'test_mv_ask*.py' -q`.
+The broader suite uses `pytest`, and some legacy Grixis integration tests
+require the original *external* pinned bulk cache. Missing bytes must never be
+silently replaced with a newer snapshot or treated as a successful replay.
+The consolidated historical Phase 1B source audits run with
+`python3 scripts/audit_phase1b_family_ci.py --check`.
+The [archived workflow index](docs/archive/PHASE1B_WORKFLOW_ARCHIVE_2026-11-02.md)
+preserves links to the 28 retired dated CI entry points and explains their
+replacement; their specialized audit scripts remain available.
+
+The accepted **v3.09 bounded build milestone** is distinct from ongoing
+**v3.10 usability, test reliability and maintenance work**. The three
+unapproved foundation pilots await Cory's later individual reviews; there are
+no implied new deck approvals. Agents should follow [AGENTS.md](AGENTS.md).
+
 ## Bounded repository-build acceptance (2026-11-02)
 
 Cory explicitly redefined the remaining repository finish line: **tested,
@@ -29,13 +62,13 @@ live-certified. All **62 owner-approved Grixis decks remain protected**.
 GitHub exact-main CI is required before reporting the bounded repository
 release as verified; this is not universal lore or deck certification.
 
-## Current maintenance (2026-10-29)
+## Historical maintenance notes (2026-10-29)
 
 - **Lore evidence tooling:** [PR #778](https://github.com/corymstover/GrokBotMTGCompanion/pull/778) is merged: edition-specific flavor, character associations and pre-approval gap audits.
 - **Unfinished Phase 8:** Grok Bot stopped at 3,397 / 5,361 priority cards (63.4%) in the recorded 2026-10-15 snapshot; 1,964 legendary creatures and 341 name-match-only links remained. See [Phase 8 restart](PHASE8_RESTART.md) and [safe-rebuild review PR #779](https://github.com/corymstover/GrokBotMTGCompanion/pull/779). These numbers must be refreshed from the stored artifact, not treated as permanent live totals.
 - **Grixis approval authority:** the 62 owner-approved lists and canonical lock records remain separate from this knowledge-base research; no Phase 8 batch may overwrite them.
 
-## 📊 Dashboard (historical snapshot updated 2026-10-15)
+## Historical dashboard (October 15, 2026 — not live status)
 
 ### Cards
 <!-- CARD-STATS:START -->
