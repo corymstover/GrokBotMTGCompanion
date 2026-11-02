@@ -55,7 +55,7 @@ class DualTimelineAcceptance(unittest.TestCase):
                           if r['section'].startswith('Definition of the first major')],
                          [True] * 7)
         self.assertEqual({r['id'] for r in rows if r['section'].startswith('Phase 6') and r['checked']},
-                         {'K106', 'K107', 'K109', 'K111', 'K115'})
+                         {'K106', 'K107', 'K108', 'K109', 'K110', 'K111', 'K115'})
 
 
 if __name__ == '__main__':

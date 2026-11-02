@@ -3,6 +3,32 @@
 > Standing goal: **[GOAL.md](GOAL.md)** — the most complete, accurate, practically useful Magic: The Gathering companion (lore, card data, rules, Commander/EDH).
 > Origin: the Grok project "MTG Companion", initially maintained in Grok Bot hourly cycles. The cycle notes below are historical records, not a claim of an active Grok Bot process.
 
+## Bounded repository-build acceptance (2026-11-02)
+
+Cory explicitly redefined the remaining repository finish line: **tested,
+source-graded capabilities with plainly documented UNKNOWN facts count as
+construction complete**. Under that newly selected standard, the Master
+Workflow has **131/137 historical checkboxes checked** and **0 active
+repository-build items**. The other six checkboxes are **not complete**:
+three pilot-deck reviews deliberately occur **after** the repository is
+finished and decks are rebuilt, and three recurring source/rules/set-update
+duties have no permanent finish date. Nothing is deleted or falsely approved.
+
+- [Reproducible 14-gate bounded completion audit](data/release/bounded_repository_completion_2026-11-02.json) ·
+  `python3 scripts/audit_bounded_repository_completion.py --check`
+- [Master Workflow v3.09](MTG_MULTIVERSE_MASTER_WORKFLOW.md) ·
+  [current progress tracker](Progress%20Tracker.md)
+- [Separate 7/7 foundation milestone certificate](data/release/foundation_milestone_certificate_2026-11-01.json)
+
+**What bounded means:** missing individual first-party historical product
+sources remain missing; disputed Elder Dragon genealogy stays disputed;
+cross-plane dating and some side-story coverage remain unknown; and the
+three unapproved Commander pilots have not been rebuilt, playtested or
+individually accepted. Current rules/bracket interactions are not declared
+live-certified. All **62 owner-approved Grixis decks remain protected**.
+GitHub exact-main CI is required before reporting the bounded repository
+release as verified; this is not universal lore or deck certification.
+
 ## Current maintenance (2026-10-29)
 
 - **Lore evidence tooling:** [PR #778](https://github.com/corymstover/GrokBotMTGCompanion/pull/778) is merged: edition-specific flavor, character associations and pre-approval gap audits.

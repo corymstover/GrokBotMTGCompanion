@@ -71,21 +71,23 @@ class EntityCoverageCensus(unittest.TestCase):
         self.assertIn('Not a census of all MTG canon', self.report['scope'])
         self.assertTrue(any('not a complete biography' in limit for limit in self.report['limits']))
 
-    def test_k102_checked_while_broader_histories_and_release_remain_open(self):
+    def test_k102_checked_with_bounded_broader_history_acceptance(self):
         import audit_full_checklist
         rows = audit_full_checklist.items()
         audit = [r for r in rows if r['task'].startswith('Audit major planes, regions')]
         self.assertEqual(len(audit), 1)
         self.assertTrue(audit[0]['checked'])
-        self.assertFalse(next(r for r in rows if r['task'].startswith('Connect cross-plane histories'))['checked'])
+        # K103 is accepted only under the owner's v3.09 bounded repository
+        # finish line.  The cited graph retains explicit UNKNOWN canon gaps.
+        self.assertTrue(next(r for r in rows if r['task'].startswith('Connect cross-plane histories'))['checked'])
         # v3.00 certifies seven bounded gates with separately witnessed exact-SHA CI.
         self.assertEqual([r['checked'] for r in rows
                           if r['section'].startswith('Definition of the first major')],
                          [True] * 7)
-        # The v2.92 entity research gate predates the independently certified
-        # v3.00 foundation; v3.03 now allows five audited engine boxes.
+        # v3.09 adds K108/K110 as bounded preflight build acceptances;
+        # the three owner pilot reviews remain unapproved and unchecked.
         self.assertEqual({r['id'] for r in rows if r['section'].startswith('Phase 6') and r['checked']},
-                         {'K106', 'K107', 'K109', 'K111', 'K115'})
+                         {'K106', 'K107', 'K108', 'K109', 'K110', 'K111', 'K115'})
 
 
 if __name__ == '__main__':

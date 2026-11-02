@@ -107,9 +107,9 @@ class FoundationChecklistClosure(unittest.TestCase):
         # its five bounded capabilities without approving any Phase 6 pilot.
         phase6 = [r for r in rows if r['section'].startswith('Phase 6')]
         self.assertEqual({r['id'] for r in phase6 if r['checked']},
-                         {'K106', 'K107', 'K109', 'K111', 'K115'})
+                         {'K106', 'K107', 'K108', 'K109', 'K110', 'K111', 'K115'})
         self.assertTrue(all(not r['checked'] for r in phase6 if r['id'] in
-                            {'K108', 'K110', 'K112', 'K113', 'K114'}))
+                            {'K112', 'K113', 'K114'}))
         self.assertEqual([r['checked'] for r in rows
                           if r['section'].startswith('Definition of the first major')],
                          [True] * 7)
