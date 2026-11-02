@@ -1,0 +1,36 @@
+{
+  "schema": "set-context-official-links/v1",
+  "as_of": "2026-11-01",
+  "mechanics": [
+    {
+      "set_code": "blb",
+      "mechanic_labels": ["Offspring", "Forage", "Valiant"],
+      "source_title": "Bloomburrow Mechanics",
+      "source_url": "https://magic.wizards.com/en/news/feature/bloomburrow-mechanics",
+      "evidence_scope": "Mechanic headings explained by Wizards for the named set, not every card's abilities"
+    },
+    {
+      "set_code": "bro",
+      "mechanic_labels": ["Prototype", "Powerstones"],
+      "source_title": "The Brothers' War Mechanics",
+      "source_url": "https://magic.wizards.com/en/news/feature/the-brothers-war-mechanics",
+      "evidence_scope": "Mechanic headings explained by Wizards for the named set, not every card's abilities"
+    },
+    {
+      "set_code": "tdm",
+      "mechanic_labels": ["Endure", "Behold", "Mobilize", "Harmonize", "Omens"],
+      "source_title": "Tarkir: Dragonstorm Mechanics",
+      "source_url": "https://magic.wizards.com/en/news/feature/tarkir-dragonstorm-mechanics",
+      "evidence_scope": "Mechanic headings explained by Wizards for the named set, not every card's abilities"
+    }
+  ],
+  "commander_product_links": [
+    {
+      "parent_set_code": "tdm",
+      "commander_set_code": "tdc",
+      "source_title": "Tarkir: Dragonstorm Commander Decklists",
+      "source_url": "https://magic.wizards.com/en/news/announcements/tarkir-dragonstorm-commander-decklists",
+      "evidence_scope": "Five Wizards-published preconstructed Commander lists, joined to their Scryfall parent/child product metadata; no pilot deck approval"
+    }
+  ]
+}

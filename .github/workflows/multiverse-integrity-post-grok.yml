@@ -9,6 +9,10 @@ on:
       - 'scripts/audit_card_relationship_acceptance.py'
       - 'data/release/card_relationship_acceptance_2026-11-01.json'
       - 'tests/test_card_relationship_acceptance.py'
+      - 'scripts/audit_set_multiverse_context.py'
+      - 'data/set_atlas/set_context_primary_sources_2026-11-01.json'
+      - 'data/release/set_multiverse_context_acceptance_2026-11-01.json'
+      - 'tests/test_set_multiverse_context.py'
       - 'scripts/audit_entity_structures.py'
       - 'scripts/audit_p5_isolated_entity_history.py'
       - 'scripts/audit_p5_thin_plane_history.py'
@@ -218,6 +222,8 @@ jobs:
         run: |
           python3 scripts/audit_card_relationship_acceptance.py --check
           python3 -m unittest discover -s tests -p 'test_card_relationship_acceptance.py' -q
+          python3 scripts/audit_set_multiverse_context.py --check
+          python3 -m unittest discover -s tests -p 'test_set_multiverse_context.py' -q
           python3 -m unittest discover -s tests -p 'test_mv_ask*.py' -q
           python3 -m unittest discover -s tests -p 'test_graph_integrity_post_grok.py' -q
           python3 -m unittest discover -s tests -p 'test_graph_path_evidence_safety.py' -q
