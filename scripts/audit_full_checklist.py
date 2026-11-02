@@ -53,7 +53,6 @@ OPEN = {
 # engine audit completes K106/K109/K111/K115, but unreviewed gameplay and
 # individually unapproved pilot proposals are not inferred complete.
 PHASE6_OPEN = {
-    "Compare eligible commander choices": ("Under review", "COMMANDER_COMPARISON_OPEN", "No independently graded multi-commander comparison with story context is certified."),
     "Build mechanically coherent": ("Under review", "STRATEGY_REVIEW_OPEN", "Three full sample decks exist, but realistic-power and interaction testing is not independently certified."),
     "Verify each final 100-card list": ("Blocked", "CURRENT_RULES_NOT_RECONCILED", "Dated pilot legality and deck-size checks pass; post-bulletin official Commander rules, combos and bracket remain unsettled."),
     "Pilot 1:": ("Blocked", "INDIVIDUAL_PILOT_APPROVAL_PENDING", "Ugin/Bolas proposal is UNAPPROVED and requires explicit individual deck review."),

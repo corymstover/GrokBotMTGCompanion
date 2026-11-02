@@ -1,6 +1,6 @@
 # Complete Master Workflow checklist triage — 2026-11-01
 
-**111/137 checked; 26 open.** Completed: 111; Under review: 18; Blocked: 8; Not started: 0.
+**113/137 checked; 24 open.** Completed: 113; Under review: 16; Blocked: 8; Not started: 0.
 
 This checklist inventory alone is **not a foundation certificate**; the separate v3.00 SHA-pinned milestone certificate records external CI. Remaining post-foundation Phase 6 tasks include individual pilot approvals, not silently completed; ongoing maintenance and source gaps are included.
 
@@ -72,10 +72,8 @@ The machine-readable JSON records every task, its original workflow line, triage
 
 ## Phase 6 — Lore-first Commander deckbuilding engine (post-foundation engineering resumed)
 
-4/10 checked; 6 open.
+5/10 checked; 5 open.
 
-- **K107 · Under review · COMMANDER_COMPARISON_OPEN** — Compare eligible commander choices with verified color identity and relevant story context.
-  - No independently graded multi-commander comparison with story context is certified.
 - **K108 · Under review · STRATEGY_REVIEW_OPEN** — Build mechanically coherent, realistic-power Commander strategies around the narrative.
   - Three full sample decks exist, but realistic-power and interaction testing is not independently certified.
 - **K110 · Blocked · CURRENT_RULES_NOT_RECONCILED** — Verify each final 100-card list, singleton restrictions, relevant rules/combinations, legality and current bracket.
@@ -94,10 +92,8 @@ The machine-readable JSON records every task, its original workflow line, triage
 
 ## Phase 8 — Release quality and continuing upkeep
 
-4/7 checked; 3 open.
+5/7 checked; 2 open.
 
-- **K124 · Under review · OWNER_DECISION** — Keep targeted CI checks for card counts, source integrity, graph relationships, rules/Q&A and set data; preserve existing deck-legality regression checks without starting new decks.
-  - No documented set of required status checks protects main; choosing them is a repository setting only the owner can change.
 - **K125 · Under review · ONGOING** — Monitor new official stories, Oracle changes, releases, rules and Commander format updates.
   - A read-only weekly workflow already checks Wizards story index, official rules/Commander page signals, official update-bulletin listing candidates and Scryfall bulk timestamps against the November 1 pinned manifest, saving review artifacts without auto-ingesting changes. Its scope is deliberately not a complete story crawl or proof of rules changes; ongoing human review and release-time Oracle drift checks are still required.
 - **K126 · Under review · ONGOING** — Rebuild and reconcile the Phase 1B set catalog and bidirectional printing lookups when new sets or printings appear, retaining historical snapshots.

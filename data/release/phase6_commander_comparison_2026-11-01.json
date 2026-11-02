@@ -1,0 +1,123 @@
+{
+  "schema": "phase6-source-graded-commander-comparison/v1",
+  "as_of": "2026-11-01",
+  "scope": "Three existing unapproved pilot themes; two dated card/rules-eligible commander options each",
+  "card_index_date": "2026-10-15",
+  "comprehensive_rules_effective": "2026-09-25",
+  "newer_rules_bulletin": "2026-10-19",
+  "index_sha256": "e09a2bcd317e85377c6f795ecb67c3f54405e1b3befbaeec111e3cbf397fc411",
+  "comparison_spec_sha256": "69577a4537e0c900caca90ff2b6c68cba5917c5351905cac626486cf2ecd1930",
+  "pilots": [
+    {
+      "stem": "ugin_bolas_elder_dragon_duality",
+      "theme": "Ugin & Nicol Bolas - Elder Dragon Duality (Phase 6 Pilot 1)",
+      "draft_status": "UNAPPROVED PROPOSAL - awaiting Cory's review; not approved, not locked, not certified",
+      "selected_draft_color_pool": "UBR",
+      "candidates": [
+        {
+          "name": "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+          "eligible_commander_in_dated_model": true,
+          "indexed_color_identity": "UBR",
+          "candidate_index_source": "cards/N/ni.md#nicol-bolas-the-ravager--nicol-bolas-the-arisen",
+          "eligibility_basis": "legendary creature",
+          "can_host_existing_100_card_color_pool": true,
+          "story_context_grade": "CURATED_OFFICIAL_SOURCE",
+          "verified_first_party_story_source": "https://magic.wizards.com/en/news/making-magic/more-odds-ends-core-set-2019-2018-08-06",
+          "existing_curated_card_tier": "CANON_REFERENCE",
+          "story_context_note": "The existing source-reviewed commander card explicitly names Bolas. It does not prove an individual battle scene from its art.",
+          "currently_selected": true
+        },
+        {
+          "name": "Nicol Bolas",
+          "eligible_commander_in_dated_model": true,
+          "indexed_color_identity": "UBR",
+          "candidate_index_source": "cards/N/ni.md#nicol-bolas",
+          "eligibility_basis": "legendary creature",
+          "can_host_existing_100_card_color_pool": true,
+          "story_context_grade": "CURATED_OFFICIAL_SOURCE",
+          "verified_first_party_story_source": "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-twins-2018-06-13",
+          "existing_curated_card_tier": "CANON_REFERENCE",
+          "story_context_note": "The original Elder Dragon appears in the pilot's cited Chronicle of Bolas research and is an alternative Grixis commander; no unique card art is treated as a depicted event.",
+          "currently_selected": false
+        }
+      ],
+      "number_eligible_to_host_color_pool": 2
+    },
+    {
+      "stem": "original_primeval_dragons",
+      "theme": "Original Primeval Dragons - the Elder Dragons and their Primeval heirs (Phase 6 Pilot 2)",
+      "draft_status": "UNAPPROVED PROPOSAL - awaiting Cory's review; not approved, not locked, not certified",
+      "selected_draft_color_pool": "WUBRG",
+      "candidates": [
+        {
+          "name": "The Ur-Dragon",
+          "eligible_commander_in_dated_model": true,
+          "indexed_color_identity": "WUBRG",
+          "candidate_index_source": "cards/T/theu.md#the-ur-dragon",
+          "eligibility_basis": "legendary creature",
+          "can_host_existing_100_card_color_pool": true,
+          "story_context_grade": "THEMATIC_UNVERIFIED_IDENTITY",
+          "verified_first_party_story_source": null,
+          "existing_curated_card_tier": null,
+          "story_context_note": "The current five-color progenitor is a creative interpretation of Primeval-era printed flavor, not a proven shared identity with any specific Primeval.",
+          "currently_selected": true
+        },
+        {
+          "name": "Scion of the Ur-Dragon",
+          "eligible_commander_in_dated_model": true,
+          "indexed_color_identity": "WUBRG",
+          "candidate_index_source": "cards/S/sc.md#scion-of-the-ur-dragon",
+          "eligibility_basis": "legendary creature",
+          "can_host_existing_100_card_color_pool": true,
+          "story_context_grade": "THEMATIC_UNVERIFIED_IDENTITY",
+          "verified_first_party_story_source": null,
+          "existing_curated_card_tier": null,
+          "story_context_note": "A five-color Dragon Avatar mechanical alternative; no Wizards story source in the curated pilot proves it is an Elder Dragon War participant or one of the Primevals.",
+          "currently_selected": false
+        }
+      ],
+      "number_eligible_to_host_color_pool": 2
+    },
+    {
+      "stem": "ugins_allies_and_heroes",
+      "theme": "Ugin's Allies and Heroes: the Eldrazi sealers, Tarkir and the Gatewatch (Phase 6 Pilot 3)",
+      "draft_status": "UNAPPROVED PROPOSAL - awaiting Cory's review; not approved, not locked, not certified",
+      "selected_draft_color_pool": "WUBR",
+      "candidates": [
+        {
+          "name": "Jace, Multiverse Architect",
+          "eligible_commander_in_dated_model": true,
+          "indexed_color_identity": "WUBR",
+          "candidate_index_source": "cards/J/ja.md#jace-multiverse-architect",
+          "eligibility_basis": "Oracle text: \"can be your commander\"",
+          "can_host_existing_100_card_color_pool": true,
+          "story_context_grade": "CURATED_OFFICIAL_SOURCE",
+          "verified_first_party_story_source": "https://magic.wizards.com/en/news/magic-story/revelation-eye-2015-10-14",
+          "existing_curated_card_tier": "CANON_REFERENCE",
+          "story_context_note": "The existing confirmed Pack A5 references Jace consulting Ugin at the Eye; the card's later printing is not asserted to depict that scene.",
+          "currently_selected": true
+        },
+        {
+          "name": "Jodah, the Unifier",
+          "eligible_commander_in_dated_model": true,
+          "indexed_color_identity": "WUBRG",
+          "candidate_index_source": "cards/J/jo.md#jodah-the-unifier",
+          "eligibility_basis": "legendary creature",
+          "can_host_existing_100_card_color_pool": true,
+          "story_context_grade": "NO_VERIFIED_UGIN_ALLY_LINK",
+          "verified_first_party_story_source": null,
+          "existing_curated_card_tier": null,
+          "story_context_note": "Five-color legendary mechanical fallback that could host the card colors, but the pilot contains no verified first-party claim connecting this Jodah to Ugin's Eldrazi-sealing or Tarkir story.",
+          "currently_selected": false
+        }
+      ],
+      "number_eligible_to_host_color_pool": 2
+    }
+  ],
+  "limitations": [
+    "Not a live Commander legality/ban or current bracket certification; October 19 bulletin not reconciled with September 25 full CR.",
+    "Story context is graded; a thematic resemblance is not canon participant identity or a verified relationship.",
+    "Eligibility to host the existing color pool is necessary, not sufficient for deck quality or unchanged legality under a rulebreaker.",
+    "Each selected pilot remains UNAPPROVED; no deck/card selection is changed."
+  ]
+}

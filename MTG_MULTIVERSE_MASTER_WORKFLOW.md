@@ -1,6 +1,6 @@
 # MTG Multiverse Companion — Master Workflow & Progress Checklist
 
-**Version:** 3.02
+**Version:** 3.03
 **Checkpoint date:** 2026-11-01
 **Repository:** [corymstover/GrokBotMTGCompanion](https://github.com/corymstover/GrokBotMTGCompanion)  
 **Purpose:** Durable project roadmap and handoff document. Update this file after verified milestone work; do not treat historical figures as live counters.
@@ -22,6 +22,27 @@ foundation release may document inherently unresolved canon and future
 maintenance; it must never claim exhaustive knowledge of all MTG history.
 The 62 approved Grixis decks, their hashes and all owner gates remain intact.
 Only a new explicit request from Cory can override the Phase 6 hold.
+
+**v3.03 post-foundation Commander comparison and CI evidence (2026-11-01):**
+The three existing **UNAPPROVED** lore pilots now have six source-graded,
+date-qualified commander-option comparisons using the real `commander_rules`
+model and Oracle/card-shard identities: Bolas the Ravager versus original
+Bolas, The Ur-Dragon versus Scion, and Jace versus Jodah. All six are eligible
+in the **dated** deck-construction model, and both options in each theme can
+host its color pool; cited official-story relationships are distinguished
+from **unverified** theme-only alternatives. `audit_lore_commander_comparison.py`
+rebuilds the file, and negative tests reject invented commanders, fake
+first-party context and drift. A separate `audit_ci_domain_coverage.py`
+replays the configuration of **nine targeted CI domains** (card counts,
+source, graph, rules, Q&A, set/printing, lore-deck legality, Grixis mechanics,
+progress/release). This owner-authorized, bounded engineering acceptance closes
+**K107 and K124**: **113/137 checked, 24 open**. It does **not** claim that
+GitHub branch-protection requires these checks; that administrative policy
+remains an explicit gap, nor does it prove post-bulletin current Commander
+rules, realistic deck power or approve any pilot. The v3.00 7/7 finite
+knowledge-foundation certificate remains valid for its exact versioned tree.
+See `research/POSTFOUNDATION_COMMANDER_AND_CI_V303_2026-11-01.md` and
+`handoffs/CHATGPT_POSTFOUNDATION_V303_2026-11-01.md`.
 
 **v3.02 post-certification Phase 6 engineering acceptance (2026-11-01):**
 Following the independently verified v3.00 foundation certificate and Cory's
@@ -1296,7 +1317,7 @@ UNAPPROVED, with no deck approval/optimization or change to the 62 Grixis
 decks. Unreviewed gameplay/canon and new final deck approvals remain separate.
 
 - [x] Retrieve lore-relevant cards with grades: direct depiction, canon reference, lore-inspired, mechanical stand-in. *(v3.02 bounded acceptance: `lore_deck_candidates.py` returns the exact chosen printing, Oracle ID, source, why and four curator-assigned grades across three audited pilot pools; this is not autonomous canon grading for arbitrary themes. `audit_phase6_engine_scope.py --check` verifies all four tiers and their source links.)*
-- [ ] Compare eligible commander choices with verified color identity and relevant story context.
+- [x] Compare eligible commander choices with verified color identity and relevant story context. *(v3.03, bounded to the three unapproved themes: `audit_lore_commander_comparison.py` independently checks two dated-Commander-eligible options per pilot against CR 903.3/903.3a, the card index, and the current draft's color pool. First-party story ties are taken only from source-audited pilot cards; Scion/Jodah thematic alternatives explicitly carry **NO VERIFIED** story linkage. No new cards or commander assignments are changed, and current banned-list/bracket questions remain open.)*
 - [ ] Build mechanically coherent, realistic-power Commander strategies around the narrative.
 - [x] Support optional set/era/first-printed-in restrictions using verified Phase 1B data without confusing reprints with original debuts. *(v3.02: `lore_deck_restrictions.py` filters an existing pilot by selected printing set, real-world publication-era years and **first-recorded English paper printing per stable Oracle ID** using the frozen Phase 1B historical shards. It retains same-day debut ties, rejects unknown printing IDs and prints dated scope warnings. It does **not** claim an in-universe lore era from a release date or live legality.)*
 - [ ] Verify each final 100-card list, singleton restrictions, relevant rules/combinations, legality and current bracket.
@@ -1325,7 +1346,7 @@ decks. Unreviewed gameplay/canon and new final deck approvals remain separate.
 
 ## Phase 8 — Release quality and continuing upkeep
 
-- [ ] Keep targeted CI checks for card counts, source integrity, graph relationships, rules/Q&A and set data; preserve existing deck-legality regression checks without starting new decks.
+- [x] Keep targeted CI checks for card counts, source integrity, graph relationships, rules/Q&A and set data; preserve existing deck-legality regression checks without starting new decks. *(v3.03 finite CI configuration scope: nine domains and their existing PR-triggered, non-continue-on-error checks are independently hashed/replayed by `audit_ci_domain_coverage.py --check`; the new check itself runs in Phase 8 CI. The prior exact-head PR #972 checks passed 13/13 and postmerge passed 9/9. **GitHub branch protection/enforced required-status settings are not established**, and future runs must still be verified before merge. No protected deck, approval or snapshot was edited.)*
   - Partial (2026-10-30): claim-graph, companion-ask, oracle-drift and release-readiness workflows were added, alongside the existing focused-validation and pilot audits.
 - [ ] Monitor new official stories, Oracle changes, releases, rules and Commander format updates.
   - Partial (2026-10-30): `scripts/oracle_drift_report.py` ([PR #829](https://github.com/corymstover/GrokBotMTGCompanion/pull/829)) diffs the Oracle text against each new snapshot.
