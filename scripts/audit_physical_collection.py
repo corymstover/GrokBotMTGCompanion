@@ -19,6 +19,8 @@ from zipfile import ZipFile
 
 ROOT = Path(__file__).resolve().parents[1]
 SNAPSHOT = ROOT / "data" / "physical_collection" / "2026-11-08"
+CURRENT_STATUS = ROOT / "data" / "physical_collection" / "current_status.json"
+CURRENT_POOL = ROOT / "data" / "physical_collection" / "current_available.csv"
 MASTER = SNAPSHOT / "master_inventory.csv"
 ARCHIVE = SNAPSHOT / "original_six_decks.zip"
 DECKS = {
@@ -143,6 +145,24 @@ def main(write: bool) -> None:
             path.write_bytes(content)
         elif not path.is_file() or path.read_bytes() != content:
             raise ValueError(f"Missing, modified, or stale generated file: {path}")
+    if CURRENT_STATUS.exists():
+        current = json.loads(CURRENT_STATUS.read_text(encoding="utf-8"))
+        if sorted(current["built_decks"]) != sorted(name for name, info in DECKS.items()
+                                                    if info[2] == "keep_built"):
+            raise ValueError("Current built deck list disagrees with reserved original decks")
+        if sorted(current["disassembled_decks"]) != sorted(name for name, info in DECKS.items()
+                                                          if info[2] == "proposed_disassembly"):
+            raise ValueError("Current disassembled deck list disagrees with original six decks")
+        if (current["reserved_cards"] != sum(reserved.values())
+                or current["available_cards"] != sum(after_disassembly.values())
+                or current["available_distinct_names"] != len(after_disassembly)
+                or current["current_available_pool"] != "data/physical_collection/current_available.csv"):
+            raise ValueError("Current collection status counts or pool path disagree")
+        current_bytes = csv_bytes(after_disassembly)
+        if write:
+            CURRENT_POOL.write_bytes(current_bytes)
+        elif not CURRENT_POOL.is_file() or CURRENT_POOL.read_bytes() != current_bytes:
+            raise ValueError("Current available pool does not match owner-confirmed teardown")
     print(json.dumps({"result": "written" if write else "verified",
                       "master_cards": sum(master.values()),
                       "distinct_names": len(master),

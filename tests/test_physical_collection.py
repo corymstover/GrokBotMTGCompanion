@@ -33,6 +33,15 @@ class PhysicalCollectionSnapshotTests(unittest.TestCase):
         self.assertEqual(sum(decks["Dihada_EDH_IRL.csv"].values()), 100)
         self.assertEqual(sum(decks["Stefanie_Jund_Prerelease.csv"].values()), 43)
 
+    def test_owner_confirmed_teardown_is_current(self):
+        import json
+        state = json.loads(audit.CURRENT_STATUS.read_text(encoding="utf-8"))
+        self.assertEqual(len(state["built_decks"]), 2)
+        self.assertEqual(len(state["disassembled_decks"]), 4)
+        self.assertEqual(state["available_cards"], 1131)
+        with redirect_stdout(io.StringIO()):
+            audit.main(write=False)
+
 
 if __name__ == "__main__":
     unittest.main()

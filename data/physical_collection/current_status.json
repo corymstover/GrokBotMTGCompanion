@@ -1,0 +1,21 @@
+{
+  "as_of_date": "2026-11-08",
+  "owner_confirmation": "Cory explicitly confirmed: 'I officially took apart the other 4 Decks.'",
+  "original_inventory_snapshot": "2026-11-08",
+  "built_decks": [
+    "Xander_EDH_IRL.csv",
+    "Dihada_EDH_IRL.csv"
+  ],
+  "disassembled_decks": [
+    "Rith__Liberated_Primeval.csv",
+    "Saruman__the_White_Hand_.csv",
+    "Cory_Orzhov_Prerelease.csv",
+    "Stefanie_Jund_Prerelease.csv"
+  ],
+  "reserved_cards": 201,
+  "available_cards": 1131,
+  "available_distinct_names": 629,
+  "current_available_pool": "data/physical_collection/current_available.csv",
+  "historical_decklists_unchanged": true,
+  "ownership_quantities_unchanged": true
+}
