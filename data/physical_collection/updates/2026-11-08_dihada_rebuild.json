@@ -1,0 +1,26 @@
+{
+  "date": "2026-11-08",
+  "deck": "Dihada_EDH_IRL.csv",
+  "source_snapshot": "data/physical_collection/2026-11-08/decks/Dihada_EDH_IRL.csv",
+  "current_deck": "data/physical_collection/current_decks/Dihada_EDH_IRL.csv",
+  "current_deck_sha256": "7286c9d8217c996d5b5d1194a2ee2a42cb19feec07f9845f66989ce367537165",
+  "owner_confirmation": "Cory confirmed: 'We made the physical swaps!' following the full 15-swap final Dihada recommendation, including the four land-base adjustments.",
+  "description": "11 one-for-one spell/land upgrades plus four final land improvements; Stefanie's exact 100-card current Dihada deck is reserved and all removed cards return to the free pool.",
+  "swaps": [
+    {"out": "Reliquary Tower", "in": "Blood Crypt"},
+    {"out": "Hero's Downfall", "in": "Path to Exile"},
+    {"out": "Unbreakable Formation", "in": "Flare of Fortitude"},
+    {"out": "Anafenza, Kin-Tree Spirit", "in": "Belladonna Took"},
+    {"out": "Moira, Urborg Haunt", "in": "The Sackville-Bagginses"},
+    {"out": "Josu Vess, Lich Knight", "in": "Krenko, Mob Boss"},
+    {"out": "Ria Ivor, Bane of Bladehold", "in": "Way of the Mentor"},
+    {"out": "Tori D'Avenant, Fury Rider", "in": "Zeriam, Golden Wind"},
+    {"out": "Kaya's Wrath", "in": "Austere Command"},
+    {"out": "Silence", "in": "Celebrate the Mountain-king"},
+    {"out": "Kothophed, Soul Hoarder", "in": "The Circle of Loyalty"},
+    {"out": "Terramorphic Expanse", "in": "Hobbit Hole"},
+    {"out": "Rakdos Carnarium", "in": "Mountain Valley"},
+    {"out": "Tyrite Sanctum", "in": "Meticulous Commons"},
+    {"out": "Swamp", "in": "Plains"}
+  ]
+}

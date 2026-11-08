@@ -1,6 +1,6 @@
 {
   "as_of_date": "2026-11-08",
-  "owner_confirmation": "Cory confirmed the four prior teardowns, then: 'I have made the physical swaps!' for Xander's 19 upgrades and the additional Swamp-to-The Unicomplex swap.",
+  "owner_confirmation": "Cory confirmed the four prior teardowns, Xander's 20 physical swaps, then Stefanie's full 15-swap Dihada rebuild: 'We made the physical swaps!'",
   "original_inventory_snapshot": "2026-11-08",
   "built_decks": [
     "Xander_EDH_IRL.csv",
@@ -8,9 +8,10 @@
   ],
   "active_built_decklists": {
     "Xander_EDH_IRL.csv": "data/physical_collection/current_decks/Xander_EDH_IRL.csv",
-    "Dihada_EDH_IRL.csv": "data/physical_collection/2026-11-08/decks/Dihada_EDH_IRL.csv"
+    "Dihada_EDH_IRL.csv": "data/physical_collection/current_decks/Dihada_EDH_IRL.csv"
   },
   "xander_rebuild_event": "data/physical_collection/updates/2026-11-08_xander_rebuild.json",
+  "dihada_rebuild_event": "data/physical_collection/updates/2026-11-08_dihada_rebuild.json",
   "disassembled_decks": [
     "Rith__Liberated_Primeval.csv",
     "Saruman__the_White_Hand_.csv",

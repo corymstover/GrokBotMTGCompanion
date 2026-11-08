@@ -46,15 +46,21 @@ class OwnedCardKnowledgeTests(unittest.TestCase):
         self.assertFalse(sol_ring["has_regular_common_printing"])
         self.assertEqual(sum(c["legalities"]["pauper"] == "legal" for c in self.records), 239)
         self.assertEqual(sum(c["legalities"]["pauper"] == "legal" and c["copies_available"] > 0
-                             for c in self.records), 216)
+                             for c in self.records), 215)
 
-    def test_confirmed_xander_rebuild_updates_available_cards(self):
-        # Removed cards are free; singleton upgrades and The Unicomplex are
-        # reserved. The official legalities snapshot remains date-pinned.
+    def test_confirmed_rebuilds_update_available_cards(self):
+        # Xander's and Dihada's removed cards are free; confirmed upgrades
+        # are reserved. The official legalities snapshot remains date-pinned.
         self.assertEqual(self.catalogue.get("Trepanation Blade")["copies_available"], 1)
         self.assertEqual(self.catalogue.get("The Unicomplex")["copies_available"], 0)
         self.assertEqual(self.catalogue.get("Vraska's Final Mercy")["copies_available"], 0)
         self.assertTrue(self.catalogue.get("The Unicomplex")["future_only"])
+        self.assertEqual(self.catalogue.get("Moira, Urborg Haunt")["copies_available"], 1)
+        self.assertEqual(self.catalogue.get("Kaya's Wrath")["copies_available"], 1)
+        self.assertEqual(self.catalogue.get("Blood Crypt")["copies_available"], 0)
+        self.assertEqual(self.catalogue.get("Hobbit Hole")["copies_available"], 0)
+        self.assertEqual(self.catalogue.get("Belladonna Took")["copies_available"], 1)
+        self.assertEqual(self.catalogue.get("Meticulous Commons")["copies_available"], 0)
 
     def test_search_filters_color_identity_and_available_copies(self):
         pool = [c for c in self.records if eligible(c, True, "WB", True, "Creature", "")]

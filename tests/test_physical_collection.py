@@ -42,31 +42,46 @@ class PhysicalCollectionSnapshotTests(unittest.TestCase):
         self.assertEqual(state["available_distinct_names"], 621)
         self.assertEqual(state["active_built_decklists"]["Xander_EDH_IRL.csv"],
                          "data/physical_collection/current_decks/Xander_EDH_IRL.csv")
+        self.assertEqual(state["active_built_decklists"]["Dihada_EDH_IRL.csv"],
+                         "data/physical_collection/current_decks/Dihada_EDH_IRL.csv")
         with redirect_stdout(io.StringIO()):
             audit.main(write=False)
 
-    def test_confirmed_20_swaps_release_removed_cards_and_preserve_dihada(self):
+    def test_both_confirmed_rebuilds_release_removed_cards_and_preserve_ownership(self):
         import json
-        event = json.loads(audit.XANDER_REBUILD.read_text(encoding="utf-8"))
-        original = audit.parse_counts((audit.SNAPSHOT / "decks/Xander_EDH_IRL.csv").read_bytes(), "old")
-        active = audit.parse_counts(audit.CURRENT_XANDER.read_bytes(), "current")
-        dihada = audit.parse_counts((audit.SNAPSHOT / "decks/Dihada_EDH_IRL.csv").read_bytes(), "Dihada")
+        xander_event = json.loads(audit.XANDER_REBUILD.read_text(encoding="utf-8"))
+        dihada_event = json.loads(audit.DIHADA_REBUILD.read_text(encoding="utf-8"))
+        original_xander = audit.parse_counts((audit.SNAPSHOT / "decks/Xander_EDH_IRL.csv").read_bytes(), "old Xander")
+        original_dihada = audit.parse_counts((audit.SNAPSHOT / "decks/Dihada_EDH_IRL.csv").read_bytes(), "old Dihada")
+        active_xander = audit.parse_counts(audit.CURRENT_XANDER.read_bytes(), "current Xander")
+        active_dihada = audit.parse_counts(audit.CURRENT_DIHADA.read_bytes(), "current Dihada")
         master = audit.parse_counts(audit.MASTER.read_bytes(), "master")
         available = audit.parse_counts(audit.CURRENT_POOL.read_bytes(), "free")
-        self.assertEqual(len(event["swaps"]), 20)
-        self.assertEqual(sum(active.values()), 101)
-        self.assertEqual(active["Lutri, the Spellchaser"], 1)
-        self.assertEqual(active["Swamp"], 8)
-        self.assertEqual(active["The Unicomplex"], 1)
-        self.assertEqual(active + dihada + available, master)
+        self.assertEqual(len(xander_event["swaps"]), 20)
+        self.assertEqual(len(dihada_event["swaps"]), 15)
+        self.assertEqual(sum(active_xander.values()), 101)
+        self.assertEqual(sum(active_dihada.values()), 100)
+        self.assertEqual(active_xander["Lutri, the Spellchaser"], 1)
+        self.assertEqual(active_xander["Swamp"], 8)
+        self.assertEqual(active_xander["The Unicomplex"], 1)
+        self.assertEqual(active_dihada["Dihada, Binder of Wills"], 1)
+        self.assertEqual(active_dihada["Swamp"], 4)
+        self.assertEqual(active_dihada["Plains"], 7)
+        self.assertEqual(active_dihada["Blood Crypt"], 1)
+        self.assertEqual(audit.sha256(audit.CURRENT_DIHADA.read_bytes()),
+                         dihada_event["current_deck_sha256"])
+        self.assertEqual(active_xander + active_dihada + available, master)
+        self.assertEqual(sum(available.values()), 1131)
         self.assertEqual(len(available), 621)
-        for item in event["swaps"]:
-            removed, added = item["out"], item["in"]
-            # Every removed Xander copy is available again, while the newly
-            # reserved replacement is unavailable except for extra owned copies.
-            self.assertEqual(available[removed], master[removed] - dihada[removed] - active[removed])
-            self.assertEqual(available[added], master[added] - dihada[added] - active[added])
-            self.assertGreaterEqual(original[removed], 1)
+        for event, original in ((xander_event, original_xander),
+                                (dihada_event, original_dihada)):
+            for item in event["swaps"]:
+                removed, added = item["out"], item["in"]
+                self.assertEqual(available[removed],
+                                 master[removed] - active_xander[removed] - active_dihada[removed])
+                self.assertEqual(available[added],
+                                 master[added] - active_xander[added] - active_dihada[added])
+                self.assertGreaterEqual(original[removed], 1)
 
 
 if __name__ == "__main__":

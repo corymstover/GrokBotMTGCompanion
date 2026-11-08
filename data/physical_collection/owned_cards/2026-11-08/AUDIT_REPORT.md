@@ -2,7 +2,7 @@
 
 **Scope:** Every distinct name in Cory and Stefanie's November 8 physical master
 inventory, whether currently free, in Xander, or in Dihada. The owner-confirmed
-Xander rebuild was applied to the **availability counts only**, without changing
+Xander and Dihada rebuilds were applied to the **availability counts only**, without changing
 the Scryfall metadata snapshot. This is a *dated personal card-data overlay*; the protected
 62-deck Encyclopedia and repository-wide pinned Scryfall data are unchanged.
 
@@ -19,7 +19,7 @@ the Scryfall metadata snapshot. This is a *dated personal card-data overlay*; th
 | Indexed names with detected single-face Oracle-text drift | **0** |
 | Indexed names with detected type, color-identity, Oracle-ID, or Commander-status drift | **0** |
 | Owned names marked Pauper legal by the source snapshot | **239** |
-| Pauper-legal names currently unreserved | **216** |
+| Pauper-legal names currently unreserved | **215** |
 | Names with no generally released printing by the snapshot date | **137** |
 
 The 88 missing names are predominantly newer *Star Trek* cards. Their Scryfall
@@ -45,7 +45,7 @@ interaction, or specific physical printing was independently audited.**
 - Records are in `part-001.json` to `part-038.json`. `manifest.json` maps
   exact card names to shards. Oracle, identity, legality, rarity and printing
   values remain source-pinned; physical `copies_available` and `copies_reserved`
-  have been refreshed to match the owner-confirmed Xander rebuild.
+  have been refreshed to match both owner-confirmed physical deck rebuilds.
 - WotC [Pauper format reference](https://magic.wizards.com/en/formats/pauper)
   and [2026 format update](https://magic.wizards.com/en/news/announcements/on-the-zeta-set-in-pauper)
   govern format interpretation; Scryfall supplies this **dated** legality
