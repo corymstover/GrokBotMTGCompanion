@@ -233,6 +233,11 @@ def build(bulk_path: Path, updated_at: str, as_of: str) -> dict:
 def check(data: dict) -> None:
     master = read_counts(SNAP / "master_inventory.csv")
     free = read_counts(COLLECTION / "current_available.csv")
+    if (data["inventory"]["available_names"] != len(free)
+            or data["inventory"]["available_copies"] != sum(free.values())
+            or data["inventory"]["owned_names"] != len(master)
+            or data["inventory"]["owned_copies"] != sum(master.values())):
+        raise ValueError("Owned card catalogue's allocation summary is stale")
     if set(data["cards"]) != set(master):
         raise ValueError("Owned knowledge coverage does not equal the full master collection")
     for name, card in data["cards"].items():
@@ -294,6 +299,45 @@ def load_shards() -> dict:
     return data
 
 
+def refresh_availability() -> None:
+    """Update current physical copy counts without rerunning pinned Scryfall bulk.
+
+    All Oracle, printing, rarity, ruling and legalities fields remain untouched;
+    only copy counts, the inventory summary and affected shard hashes change.
+    """
+    manifest = json.loads(MANIFEST.read_text(encoding="utf-8"))
+    master = read_counts(SNAP / "master_inventory.csv")
+    free = read_counts(COLLECTION / "current_available.csv")
+    if set(manifest["name_to_shard"]) != set(master) or set(free) - set(master):
+        raise ValueError("Cannot refresh allocation: names differ from master")
+    if any(qty > master[name] for name, qty in free.items()):
+        raise ValueError("Cannot refresh allocation: free count exceeds ownership")
+    planned = {}
+    for shard in manifest["shards"]:
+        file = OUTDIR / shard["file"]
+        blob = file.read_bytes()
+        if hashlib.sha256(blob).hexdigest() != shard["sha256"]:
+            raise ValueError(f"Cannot refresh allocation: checksum mismatch in {file}")
+        partial = json.loads(blob)
+        if len(partial["cards"]) != shard["names"]:
+            raise ValueError(f"Cannot refresh allocation: invalid shard names in {file}")
+        for name, card in partial["cards"].items():
+            if card["copies_owned"] != master[name]:
+                raise ValueError(f"Cannot refresh allocation: owned count changed for {name}")
+            card["copies_available"] = free.get(name, 0)
+            card["copies_reserved"] = master[name] - free.get(name, 0)
+        updated = (json.dumps(partial, ensure_ascii=False, separators=(",", ":")) + "\n").encode("utf-8")
+        planned[file] = updated
+        shard["sha256"] = hashlib.sha256(updated).hexdigest()
+    manifest["inventory"]["available_names"] = len(free)
+    manifest["inventory"]["available_copies"] = sum(free.values())
+    for file, blob in planned.items():
+        if file.read_bytes() != blob:
+            file.write_bytes(blob)
+    MANIFEST.write_text(json.dumps(manifest, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+    check(load_shards())
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     sub = parser.add_subparsers(dest="command", required=True)
@@ -302,6 +346,7 @@ def main() -> None:
     builder.add_argument("--updated-at", required=True)
     builder.add_argument("--as-of", default="2026-11-08")
     sub.add_parser("check", help="Verify existing catalogue against owned/current quantities")
+    sub.add_parser("refresh-availability", help="Sync only physical copy counts from current_available.csv")
     options = parser.parse_args()
     if options.command == "build":
         result = build(options.bulk, options.updated_at, options.as_of)
@@ -309,6 +354,9 @@ def main() -> None:
         save_shards(result)
         check(load_shards())
         print(f"Wrote {MANIFEST.relative_to(ROOT)} and its card shards")
+    elif options.command == "refresh-availability":
+        refresh_availability()
+        print(f"Updated physical availability in {MANIFEST.relative_to(ROOT)} and affected shards")
     else:
         check(load_shards())
 
