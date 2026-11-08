@@ -6,14 +6,15 @@ The authoritative starting snapshot was supplied by Cory on **2026-11-08**.
 
 **Current physical state (owner-confirmed 2026-11-08):** Cory took apart Rith,
 Saruman, Orzhov Borg and Jund, then physically rebuilt Xander with 19 named
-one-for-one upgrades and **Swamp → The Unicomplex**. **Only rebuilt Xander and
-unchanged Dihada remain built.** The current free inventory is **1,131 cards /
-621 names**, with **201 cards reserved**. Use
+one-for-one upgrades and **Swamp → The Unicomplex**. Cory subsequently confirmed
+Stefanie physically rebuilt Dihada with **15 exact one-for-one swaps**, including
+four mana-base changes. **Only the updated Xander and Dihada decks remain built.**
+The current free inventory is **1,131 cards / 621 names**, with **201 cards reserved**. Use
 [`current_available.csv`](current_available.csv) for IRL-only deckbuilding and
 [`current_status.json`](current_status.json) for the live deck allocation state.
 The original [teardown record](2026-11-08/disassembly_confirmation.md) and the
-subsequent [Xander swap event](updates/2026-11-08_xander_rebuild.json) are both
-preserved.
+subsequent [Xander swap event](updates/2026-11-08_xander_rebuild.json) and
+[Dihada swap event](updates/2026-11-08_dihada_rebuild.json) are all preserved.
 
 ## Which files should an agent use?
 
@@ -22,7 +23,9 @@ preserved.
 | **What can actually be used in a new deck today** | [`current_available.csv`](current_available.csv) |
 | **Which decks are currently built** | [`current_status.json`](current_status.json) |
 | **Exact current rebuilt Xander list** | [`current_decks/Xander_EDH_IRL.csv`](current_decks/Xander_EDH_IRL.csv) |
+| **Exact current rebuilt Dihada list** | [`current_decks/Dihada_EDH_IRL.csv`](current_decks/Dihada_EDH_IRL.csv) |
 | **20 owner-confirmed physical swaps** | [`updates/2026-11-08_xander_rebuild.json`](updates/2026-11-08_xander_rebuild.json) |
+| **15 owner-confirmed Dihada swaps** | [`updates/2026-11-08_dihada_rebuild.json`](updates/2026-11-08_dihada_rebuild.json) |
 | All actual cards owned, **including every card in a deck** | [`2026-11-08/master_inventory.csv`](2026-11-08/master_inventory.csv) |
 | Exact source ZIP, preserved without alteration | [`2026-11-08/original_six_decks.zip`](2026-11-08/original_six_decks.zip) |
 | Human-readable six original CSVs | [`2026-11-08/decks/`](2026-11-08/decks/) |
@@ -35,10 +38,10 @@ preserved.
 
 ## Allocation policy
 
-- **Keep built / reserve every physical card:** Cory's **Lord Xander, the Collector** EDH deck (100-card main deck plus **Lutri, the Spellchaser** as a separately tracked companion, 101 physical cards) **as represented by the current rebuilt list**, and Stefanie's **unchanged Dihada, Binder of Wills** EDH deck (100 cards).
+- **Keep built / reserve every physical card:** Cory's **Lord Xander, the Collector** EDH deck (100-card main deck plus **Lutri, the Spellchaser** as a separately tracked companion, 101 physical cards) and Stefanie's **Dihada, Binder of Wills** EDH deck (100 cards), **both as represented by their separately rebuilt current lists**.
 - **Confirmed dismantled 2026-11-08:** **Rith, Liberated Primeval** EDH (100), **Saruman, the White Hand** EDH (100), **Cory's Orzhov Borg prerelease** (40), and **Stefanie's Jund prerelease** (**43 entries in the source CSV**, even though Cory calls it a 40-card deck). Keep all six historical CSVs unchanged.
-- Master inventory = **1,332 physical cards / 751 exact names**. The historical six-deck snapshot allocated **484 cards**, without ownership shortfalls. Originally unassigned: **848 / 492 names**. The four completed disassemblies initially released **283 cards**, producing **1,131 cards / 629 names** free. Xander's subsequent 20 one-for-one swaps changed the available *names* to **621** while preserving **1,131 free copies** and **201 reserved** for Xander and Dihada.
-- Removed Xander cards (including the one Swamp) return to the free pool at their exact quantities. Incoming cards are subtracted from that pool, never added to ownership. **Stefanie's Dihada card allocations are never changed.**
+- Master inventory = **1,332 physical cards / 751 exact names**. The historical six-deck snapshot allocated **484 cards**, without ownership shortfalls. Originally unassigned: **848 / 492 names**. The four completed disassemblies initially released **283 cards**, producing **1,131 cards / 629 names** free. Xander's 20 swaps changed available *names* to **621**; Dihada's subsequent 15 swaps left that name count unchanged. **1,131 free copies** and **201 reserved** remain reconciled.
+- Removed Xander **and Dihada** cards (including the respective basic-land reductions) return to the free pool at their exact quantities. Incoming cards are subtracted, never added to ownership. Both current decklists are reconstructible from their untouched historical sources plus the separate swap events.
 - The master **already includes** deck cards. Never add the deck totals to the master; that would double-count ownership.
 - Never consume more copies than owned. A proposal may request cards from a keep-built deck only with an explicit disclosure and Cory's approval.
 - Treat future snapshots as new dated records. Do not rewrite or erase this source evidence to describe a later trade, purchase, sale, swap, or physical disassembly.
@@ -61,9 +64,9 @@ python3 scripts/owned_cards.py pauper --available --colors WB
 
 The read-only check verifies original-vs-extracted bytes, all source quantities,
 deck allocations, SHA-256 hashes, both historical pool views, the exact owner-
-confirmed 20-swap reconstruction, and the active availability record. Use
-`--write` only when intentionally reproducing the derived live deck and pool
-from the preserved sources and confirmation event.
+confirmed 20-swap Xander and 15-swap Dihada reconstructions, and the active
+availability record. Use `--write` only when intentionally reproducing the
+derived live decks and pool from the preserved sources and confirmation events.
 
 If the active pool changes again, run
 `python3 scripts/build_owned_card_knowledge.py refresh-availability` after

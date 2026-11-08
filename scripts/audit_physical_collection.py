@@ -2,8 +2,8 @@
 """Audit the immutable six-deck snapshot and owner-confirmed live allocations.
 
 The original ZIP, master inventory and six historical decklists are never edited.
-The current Xander deck is independently reproduced from confirmed physical
-swaps; the active available pool subtracts it and unchanged Dihada from master.
+Both current decks are independently reproduced from their owner-confirmed
+physical swaps; the active available pool subtracts them from the master.
 """
 
 from __future__ import annotations
@@ -23,7 +23,9 @@ SNAPSHOT = ROOT / "data" / "physical_collection" / "2026-11-08"
 CURRENT_STATUS = ROOT / "data" / "physical_collection" / "current_status.json"
 CURRENT_POOL = ROOT / "data" / "physical_collection" / "current_available.csv"
 CURRENT_XANDER = ROOT / "data" / "physical_collection" / "current_decks" / "Xander_EDH_IRL.csv"
+CURRENT_DIHADA = ROOT / "data" / "physical_collection" / "current_decks" / "Dihada_EDH_IRL.csv"
 XANDER_REBUILD = ROOT / "data" / "physical_collection" / "updates" / "2026-11-08_xander_rebuild.json"
+DIHADA_REBUILD = ROOT / "data" / "physical_collection" / "updates" / "2026-11-08_dihada_rebuild.json"
 MASTER = SNAPSHOT / "master_inventory.csv"
 ARCHIVE = SNAPSHOT / "original_six_decks.zip"
 DECKS = {
@@ -160,11 +162,13 @@ def main(write: bool) -> None:
             raise ValueError("Current disassembled deck list disagrees with original six decks")
         if current.get("active_built_decklists") != {
             "Xander_EDH_IRL.csv": "data/physical_collection/current_decks/Xander_EDH_IRL.csv",
-            "Dihada_EDH_IRL.csv": "data/physical_collection/2026-11-08/decks/Dihada_EDH_IRL.csv",
+            "Dihada_EDH_IRL.csv": "data/physical_collection/current_decks/Dihada_EDH_IRL.csv",
         }:
-            raise ValueError("Current deck references do not identify Xander's rebuilt physical list")
+            raise ValueError("Current deck references do not identify both rebuilt physical lists")
         if current.get("xander_rebuild_event") != "data/physical_collection/updates/2026-11-08_xander_rebuild.json":
             raise ValueError("Current Xander rebuild event reference is missing")
+        if current.get("dihada_rebuild_event") != "data/physical_collection/updates/2026-11-08_dihada_rebuild.json":
+            raise ValueError("Current Dihada rebuild event reference is missing")
         event = json.loads(XANDER_REBUILD.read_text(encoding="utf-8"))
         if (event.get("deck") != "Xander_EDH_IRL.csv"
                 or event.get("source_snapshot") != "data/physical_collection/2026-11-08/decks/Xander_EDH_IRL.csv"
@@ -199,7 +203,42 @@ def main(write: bool) -> None:
             CURRENT_XANDER.write_bytes(current_deck_bytes)
         elif not CURRENT_XANDER.is_file() or CURRENT_XANDER.read_bytes() != current_deck_bytes:
             raise ValueError("Current Xander deck does not match confirmed 20-swap reconstruction")
-        active_reserved = active_xander + deck_counts["Dihada_EDH_IRL.csv"]
+        dihada_event = json.loads(DIHADA_REBUILD.read_text(encoding="utf-8"))
+        if (dihada_event.get("deck") != "Dihada_EDH_IRL.csv"
+                or dihada_event.get("source_snapshot") != "data/physical_collection/2026-11-08/decks/Dihada_EDH_IRL.csv"
+                or dihada_event.get("current_deck") != "data/physical_collection/current_decks/Dihada_EDH_IRL.csv"
+                or len(dihada_event.get("swaps", [])) != 15):
+            raise ValueError("Malformed confirmed Dihada rebuild event")
+        active_dihada = deck_counts["Dihada_EDH_IRL.csv"].copy()
+        dihada_outs, dihada_ins = set(), set()
+        for item in dihada_event["swaps"]:
+            old, new = item["out"], item["in"]
+            if (old == new or old in dihada_outs or new in dihada_ins
+                    or active_dihada[old] < 1
+                    or (old != "Swamp" and active_dihada[old] != 1)):
+                raise ValueError(f"Invalid or duplicated Dihada physical swap: {item}")
+            dihada_outs.add(old)
+            dihada_ins.add(new)
+            active_dihada[old] -= 1
+            if active_dihada[old] == 0:
+                del active_dihada[old]
+            active_dihada[new] += 1
+        if (sum(active_dihada.values()) != 100
+                or active_dihada["Dihada, Binder of Wills"] != 1
+                or active_dihada["Swamp"] != 4
+                or active_dihada["Plains"] != 7
+                or active_dihada["Blood Crypt"] != 1
+                or active_dihada["Meticulous Commons"] != 1):
+            raise ValueError("Rebuilt Dihada list does not match the confirmed 15 swaps")
+        current_dihada_bytes = csv_bytes(active_dihada)
+        if sha256(current_dihada_bytes) != dihada_event.get("current_deck_sha256"):
+            raise ValueError("Rebuilt Dihada deck checksum does not match owner-confirmed event")
+        if write:
+            CURRENT_DIHADA.parent.mkdir(parents=True, exist_ok=True)
+            CURRENT_DIHADA.write_bytes(current_dihada_bytes)
+        elif not CURRENT_DIHADA.is_file() or CURRENT_DIHADA.read_bytes() != current_dihada_bytes:
+            raise ValueError("Current Dihada deck does not match confirmed 15-swap reconstruction")
+        active_reserved = active_xander + active_dihada
         overbooked = active_reserved - master
         if overbooked:
             raise ValueError(f"Current built decks exceed owned copies: {dict(overbooked)}")
@@ -213,7 +252,7 @@ def main(write: bool) -> None:
         if write:
             CURRENT_POOL.write_bytes(current_bytes)
         elif not CURRENT_POOL.is_file() or CURRENT_POOL.read_bytes() != current_bytes:
-            raise ValueError("Current available pool does not match rebuilt Xander plus Dihada")
+            raise ValueError("Current available pool does not match both rebuilt decks")
     print(json.dumps({"result": "written" if write else "verified",
                       "master_cards": sum(master.values()),
                       "distinct_names": len(master),
