@@ -95,6 +95,7 @@ _CARD_LORE_RULES_PATTERNS = [
 ]
 
 _index = None
+_owned_catalogue = None
 
 
 def card_index():
@@ -103,6 +104,39 @@ def card_index():
         with CARD_INDEX.open(encoding="utf-8") as fh:
             _index = {r["name"].lower(): r for r in csv.DictReader(fh)}
     return _index
+
+
+def _owned_card(name: str):
+    """Read only the separate, provenance-stamped personal overlay if present."""
+    global _owned_catalogue
+    if _owned_catalogue is None:
+        try:
+            from owned_cards import OwnedCards
+            _owned_catalogue = OwnedCards()
+        except (OSError, ValueError, KeyError):
+            _owned_catalogue = False
+    return _owned_catalogue.get(name) if _owned_catalogue else None
+
+
+def _owned_details(record: dict) -> dict:
+    return {
+        "name": record["name"], "oracle_id": record["oracle_id"],
+        "mana_cost": record["mana_cost"], "mana_value": record["mana_value"],
+        "colors": record["colors"], "color_identity": record["color_identity"],
+        "type_line": record["type_line"], "oracle_text": record["oracle_text"],
+        "card_faces": record["card_faces"], "keywords": record["keywords"],
+        "representative_rarity": record["representative_printing_rarity"],
+        "all_recorded_rarities": record["all_recorded_rarities"],
+        "has_regular_common_printing": record["has_regular_common_printing"],
+        "pauper_legality": record["legalities"].get("pauper"),
+        "commander_legality": record["legalities"].get("commander"),
+        "future_only": record["future_only"],
+        "copies_owned": record["copies_owned"],
+        "copies_available": record["copies_available"],
+        "rulings_uri": record["rulings_uri"],
+        "published_rulings_cached": len(record.get("published_rulings", [])),
+        "printings_search_uri": record["prints_search_uri"],
+    }
 
 
 def _section(shard: Path, name: str) -> str:
@@ -165,10 +199,22 @@ def _reconciled(name: str) -> bool:
     return ok and name not in changed
 
 
-def card(name: str) -> dict:
+def card(name: str, include_owned: bool = False) -> dict:
     row = card_index().get(name.strip().lower())
+    # Preserve pinned foundation Q&A response bytes for pre-indexed names.
+    # A caller can explicitly request newer personal data, while names absent
+    # from the older index still receive a carefully qualified fallback.
+    owned = _owned_card(name) if include_owned or not row else None
     env = {"route": "card", "query": name, "flags": [], "sources": []}
     if not row:
+        if owned:
+            env.update(confidence="QUALIFIED", data_as_of="2026-11-08",
+                       flags=["OWNED_COLLECTION_OVERLAY_NOT_IN_CANONICAL_INDEX"],
+                       sources=[u for u in (owned.get("scryfall_uri"), owned.get("rulings_uri")) if u],
+                       result=_owned_details(owned))
+            if owned["future_only"]:
+                env["flags"].append("PRERELEASE_NOT_YET_GENERAL_CONSTRUCTED_LEGALITY")
+            return env
         sugg = sorted(n for n in card_index() if name.lower() in n)[:5]
         env.update(confidence="NOT_FOUND", data_as_of=None,
                    result={"suggestions": sugg}, flags=["NO_SUCH_CARD_IN_INDEX"] + (["AMBIGUOUS_NAME"] if sugg else []))
@@ -197,6 +243,13 @@ def card(name: str) -> dict:
         "commander_legality": row["commander_legality"], "game_changer": row["game_changer"] == "1",
         "oracle_text": oracle, "flavor_text": flavor or None, "rulings": int(rulings.group(1)) if rulings else 0,
         "shard": f"{row['shard']}#{row['anchor']}"})
+    if owned:
+        env["result"]["owned_collection_update"] = _owned_details(owned)
+        env["sources"].append(owned["scryfall_uri"])
+        env["collection_data_as_of"] = "2026-11-08"
+        if owned["future_only"]:
+            env["flags"].append("PRERELEASE_NOT_YET_GENERAL_CONSTRUCTED_LEGALITY")
+            env["confidence"] = "QUALIFIED"
     return env
 
 
@@ -1145,6 +1198,10 @@ def ask(text: str) -> dict:
         env = card(term)
         env["query"] = q
         return env
+    if _owned_card(term):
+        env = card(term)
+        env["query"] = q
+        return env
     env = lore(term)
     env["query"] = q
     return env
@@ -1153,11 +1210,14 @@ def ask(text: str) -> dict:
 def main(argv=None):
     p = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     sub = p.add_subparsers(dest="cmd", required=True)
-    sub.add_parser("card").add_argument("name")
+    cp = sub.add_parser("card")
+    cp.add_argument("name")
+    cp.add_argument("--owned", action="store_true",
+                    help="Attach newer IRL ownership/Oracle/Pauper data to existing card-index results")
     lp = sub.add_parser("lore"); lp.add_argument("term"); lp.add_argument("--relation")
     sub.add_parser("ask").add_argument("text")
     a = p.parse_args(argv)
-    out = card(a.name) if a.cmd == "card" else lore(a.term, a.relation) if a.cmd == "lore" else ask(a.text)
+    out = card(a.name, include_owned=a.owned) if a.cmd == "card" else lore(a.term, a.relation) if a.cmd == "lore" else ask(a.text)
     print(json.dumps(out, indent=1, ensure_ascii=False))
     return 0 if out["confidence"] != "NOT_FOUND" else 3
 
