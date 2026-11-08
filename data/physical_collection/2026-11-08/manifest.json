@@ -1,0 +1,82 @@
+{
+  "snapshot_date": "2026-11-08",
+  "source": "Cory's original physical inventory and six deck CSVs",
+  "master_includes_deck_cards": true,
+  "original_master_sha256": "594c6fb45b73b0464b20e4f1f4e3c475f415eefe99b67810861547c3f6c793d3",
+  "original_archive_sha256": "eb270cc3aec0f8c7c745a5ac7a14fff75b3a68f09708c32be1f7d3aa8ffe436d",
+  "master": {
+    "cards": 1332,
+    "distinct_names": 751
+  },
+  "all_six_decks": {
+    "cards": 484,
+    "distinct_names": 333
+  },
+  "keep_built_two_decks": {
+    "cards": 201,
+    "distinct_names": 160
+  },
+  "unassigned_now": {
+    "cards": 848,
+    "distinct_names": 492
+  },
+  "available_after_proposed_disassembly": {
+    "cards": 1131,
+    "distinct_names": 629
+  },
+  "decks": {
+    "Xander_EDH_IRL.csv": {
+      "display_name": "Lord Xander, the Collector",
+      "format": "commander_with_companion",
+      "status": "keep_built",
+      "cards": 101,
+      "distinct_names": 80,
+      "sha256": "31ba4ecfdd7a170f0e7c8faf73e2fc859b218fc5d3d55c7221792be7ae087412"
+    },
+    "Dihada_EDH_IRL.csv": {
+      "display_name": "Dihada, Binder of Wills",
+      "format": "commander",
+      "status": "keep_built",
+      "cards": 100,
+      "distinct_names": 87,
+      "sha256": "8ede3b6b3b65d803ffb332daf6adba09254a38527337bb36e61e06651814fcb7"
+    },
+    "Rith__Liberated_Primeval.csv": {
+      "display_name": "Rith, Liberated Primeval",
+      "format": "commander",
+      "status": "proposed_disassembly",
+      "cards": 100,
+      "distinct_names": 84,
+      "sha256": "86143e3f45c6b68cdcbd3519fb4216cbec4be207aea86f8568da1880e27967df"
+    },
+    "Saruman__the_White_Hand_.csv": {
+      "display_name": "Saruman, the White Hand",
+      "format": "commander",
+      "status": "proposed_disassembly",
+      "cards": 100,
+      "distinct_names": 69,
+      "sha256": "6972027a6f686b8329a5b61b487ab8efc415d40b0435c12b12b20826ad5ce429"
+    },
+    "Cory_Orzhov_Prerelease.csv": {
+      "display_name": "Orzhov Borg prerelease",
+      "format": "limited",
+      "status": "proposed_disassembly",
+      "cards": 40,
+      "distinct_names": 26,
+      "sha256": "13b10ea558e15110eb8e5b7bb329eaa24f5d08e15b5faf3aced48b77d21297ab"
+    },
+    "Stefanie_Jund_Prerelease.csv": {
+      "display_name": "Jund prerelease",
+      "format": "limited",
+      "status": "proposed_disassembly",
+      "cards": 43,
+      "distinct_names": 24,
+      "sha256": "665494df2d588cf230bfa213c9c46091948cc18f9fda34d62ad284f49e80cb95"
+    }
+  },
+  "known_discrepancies": [
+    "Stefanie_Jund_Prerelease.csv has 43 cards, although described as a 40-card deck. All 43 entries are preserved."
+  ],
+  "interpretation": "The four proposed disassemblies are hypothetical; the six original lists stay intact.",
+  "identity_note": "Names and quantities only; editions, conditions, foils and prices are not specified."
+}
