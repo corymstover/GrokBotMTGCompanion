@@ -16,7 +16,7 @@ Quantity,Name
 2,Anthropological Mission
 2,Arcane Amphisbaena
 1,Arcane Sanctum
-3,Archaeomancer
+4,Archaeomancer
 1,"Archelos, Lagoon Mystic"
 1,"Arni, Humble Scribe"
 1,"Arni, Renowned Champion"
@@ -54,11 +54,10 @@ Quantity,Name
 1,"Bilbo, Luckwearer // Burglar's Plot"
 1,Blastoneuron
 1,Blazing Crescendo
-2,Blood Crypt
+1,Blood Crypt
 1,Blood-Chin Rager
 2,Blossoming Sands
 1,Boarding Action
-1,Bojuka Bog
 1,Bolg's Company
 1,Bolt of Keranos
 1,Bone to Ash
@@ -97,7 +96,6 @@ Quantity,Name
 1,"Cleveland Booker, Empath"
 2,Cloak and Phaser
 2,Cloistered Telepath
-1,Coalition Relic
 1,Coiling Oracle
 1,Cold-Blooded Crew
 2,Collective Drone
@@ -124,12 +122,12 @@ Quantity,Name
 1,Deep Space 9
 2,Defend the Hearth
 1,Deflecting Palm
-2,Desecration Demon
+3,Desecration Demon
 1,Desperate Futurescribe
-1,Dimir Guildgate
+2,Dimir Guildgate
 1,Dispel
 2,Disperse
-1,Divination
+2,Divination
 2,Dominion Assault Force
 1,Dominion Infiltration
 1,Dominion Supervisor
@@ -149,7 +147,7 @@ Quantity,Name
 2,Dromoka's Gift
 4,Druid's Deliverance
 1,Duneblast
-4,Duress
+5,Duress
 1,Duskmantle Guildmage
 4,Duskwatch Hunter
 1,Dwarven Provisioner
@@ -157,7 +155,6 @@ Quantity,Name
 1,Dáin Ironfoot
 1,"Dáin, Lord of the Iron Hills"
 1,Eardrum Rattler
-1,Echoing Truth
 1,"Edgar, Ancient Bloodlord"
 1,Eject the Warp Core
 1,"Elim Garak, Simple Tailor"
@@ -173,7 +170,6 @@ Quantity,Name
 1,Essence Scatter
 1,"Evelyn, the Covetous"
 2,Evolving Wilds
-1,Exotic Orchard
 2,Experiment One
 1,Exploratory Mission
 1,Explore
@@ -187,14 +183,12 @@ Quantity,Name
 2,Fearsome Goblin Pair
 2,Federation Field Medic
 2,Federation Probe
-1,Fellwar Stone
 1,Ferocity of the Hunt
 1,Fiery Impulse
 2,Firemane Avenger
 3,First Contact
 4,Flames of the Firebrand
 1,Flare of Fortitude
-1,Fleetfeather Sandals
 2,Flickering Hound
 1,Flood Plain
 2,Fog Bank
@@ -213,7 +207,6 @@ Quantity,Name
 1,Gaseous Anomaly
 1,Geier Reach Sanitarium
 1,Genesis Effect
-1,Gerrard's Hourglass Pendant
 1,Getaway Barrel
 1,Ghirapur Gearcrafter
 1,Ghitu Encampment
@@ -232,7 +225,7 @@ Quantity,Name
 1,Grasslands
 1,Graveblade Marauder
 2,"Gray and Adira, Forever Joined"
-2,Gray Merchant of Asphodel
+3,Gray Merchant of Asphodel
 3,Graypelt Refuge
 2,Great Fierce Bee
 1,Great Ugly-Looking Goblin // Clap! Snap!
@@ -245,6 +238,7 @@ Quantity,Name
 1,Head of the Hunt
 1,Heartstring Puller
 1,Heartwood Crafter // Soul Tether
+1,Hedron Archive
 1,Hell's Thunder
 1,Hellraiser Goblin
 2,Hellrider
@@ -278,6 +272,7 @@ Quantity,Name
 1,Isolinear Processor
 1,Izzet Charm
 1,Izzet Guildgate
+1,Jace's Ingenuity
 6,Jace's Phantasm
 1,"Jadzia Dax, Living Legacy"
 1,Jared Carthalion
@@ -289,9 +284,7 @@ Quantity,Name
 1,"Jiang Yanggu, Never Alone"
 1,Jungle Shrine
 2,"Kai Winn, Faithless Leader"
-1,"Kardur, Doomscourge"
 1,"Kari Zev, Skyship Raider"
-1,"Kess, Dissident Mage"
 1,Key to the Side-Door
 2,Khaaaaaaaaaaaannn!
 1,"Kirk, Commanding Officer"
@@ -327,7 +320,6 @@ Quantity,Name
 4,Magnificent End
 1,Make It So
 1,Mana Cannons
-1,"Marchesa, Dealer of Death"
 1,Mardu Banner
 1,Mardu Hateblade
 1,Mardu Scout
@@ -344,8 +336,9 @@ Quantity,Name
 1,Millstone
 1,Mind Funeral
 4,Mind Rot
-3,Mind Sculpt
+4,Mind Sculpt
 1,Mindseeker Oculus
+1,"Mirko Vosk, Mind Drinker"
 1,Mirkwood
 3,Mirkwood Meditator
 1,Mirkwood Nurturer
@@ -359,7 +352,6 @@ Quantity,Name
 2,Murder
 2,Murder Investigation
 1,Murmuring Bosk
-1,My Precious // Allure of Power
 1,Mystic Monastery
 1,Nasty Little Rabbit
 1,Naya Charm
@@ -382,7 +374,6 @@ Quantity,Name
 1,"Ori, Keeper of Songs"
 1,Outland Colossus
 1,Overgrown Tomb
-1,Painful Truths
 1,Path to Exile
 1,Path to the World Tree
 1,Pattern Buffer Preservation
@@ -412,13 +403,13 @@ Quantity,Name
 1,Psychic Strike
 1,Pyre Rhymer // Molten Tide
 1,Quark's Bar
+1,Quest for the Gravelord
+1,Quietus Spike
 1,Radiant Flames
 2,Rage into the Valley
 2,Raise the Alarm
 2,Rancor
-1,Rank Rat
 2,Ravening Warg
-1,Reckless Impulse
 1,Reclaim
 2,Reduce in Stature
 3,Relentless Drednok
@@ -439,6 +430,7 @@ Quantity,Name
 1,"Ruric Thar, Magecrusher"
 1,"Saavik, Stoic Student"
 2,Salt Road Quartermasters
+1,"Samut, Tyrant of Naktamun"
 1,Sandsteppe Citadel
 1,"Sarcophagus, Ship of the Dead"
 1,"Sarek, Federation Ambassador"
@@ -476,6 +468,7 @@ Quantity,Name
 1,Slime Molding
 2,Smaug's Fury
 2,"Smaug, the Great Calamity // Spew Flame"
+1,Smoldering Spires
 1,Sol'kanar the Swamp King
 1,Solitary Cell
 1,Spark Trooper
@@ -489,7 +482,6 @@ Quantity,Name
 4,Starfleet Spanner Jockey
 1,Stern Mentor
 1,Stingerquill Voxmancer // Vicious Verse
-1,Stir Up Trouble
 1,Stomping Ground
 2,Stone by Sunlight
 3,Stony-Voiced Goblins
@@ -504,7 +496,7 @@ Quantity,Name
 1,Surrak Dragonclaw
 4,Suurok-Class Science Vessel
 1,Suus Mahna Practitioner
-49,Swamp
+50,Swamp
 1,Swift Warkite
 1,Sword of the Chosen
 1,Sylvan Reclamation
@@ -518,6 +510,7 @@ Quantity,Name
 1,Temple of Triumph
 4,Temporal Conqueror
 1,Temur Battle Rage
+1,Tenacious Dead
 1,Tenacious Drone
 1,"Tenza, Godo's Maul"
 1,Terminal Agony
@@ -534,7 +527,6 @@ Quantity,Name
 2,The Measure of a Man
 1,The Naked Time
 1,The Sackville-Bagginses
-1,The Unicomplex
 1,Theoretical Necromancer
 2,Theorix Annex
 1,Theorix Metamage // Omit Variables
@@ -543,7 +535,6 @@ Quantity,Name
 4,Thought Scour
 2,Thranduil's Decree
 1,"Thranduil, the Elvenking"
-1,Thrill of Possibility
 1,Thunderbreak Regent
 3,Thunderous Wrath
 2,Tidings of War
@@ -553,6 +544,7 @@ Quantity,Name
 4,Titanic Growth
 1,"Tom, Bert, and William"
 4,Tome Scour
+1,Tormenting Voice
 4,Totally Lost
 1,Traitorous Instinct
 1,Transguild Courier
@@ -560,6 +552,7 @@ Quantity,Name
 1,"Traxos, Scourge Eternal"
 1,"Traxos, Scourge of Kroog"
 4,Tread Upon
+1,Trepanation Blade
 1,Tricorder
 1,Troll Negotiations
 1,Trumpet Blast
@@ -575,7 +568,7 @@ Quantity,Name
 1,Uneasy Partings
 2,Unflinching Courage
 1,Unite the Coalition
-3,Unsummon
+4,Unsummon
 1,Utter End
 1,"V'Ger, the Intruder"
 1,"Vash, Freelance Archaeologist"
@@ -586,13 +579,13 @@ Quantity,Name
 2,Vexing Drone
 2,Vigorbloom Charm
 1,Vindictive Triumph
+1,Vivid Crag
 1,Vivid Meadow
 2,Void Extrapolator // Omit Variables
 1,Volcanic Dragon
 1,Volcanic Rush
 1,Vow to Erebor
 2,Voyage's End
-1,Vraska's Final Mercy
 1,Vulcan Mind-Meld
 2,Wake the Reflections
 1,Wall of Frost
@@ -611,7 +604,6 @@ Quantity,Name
 1,"Will Riker, First in the Field"
 1,Wind-Scarred Crag
 1,"Winter, Team Player"
-1,"Winter, Tormented Loner"
 1,Wizard's Staff
 2,Wood Elves
 1,Woodland Weavemaster

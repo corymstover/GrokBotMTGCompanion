@@ -23,7 +23,7 @@ class OwnedCardKnowledgeTests(unittest.TestCase):
         self.assertEqual(len(self.records), 751)
         self.assertEqual(sum(c["copies_owned"] for c in self.records), 1332)
         self.assertEqual(sum(c["copies_available"] for c in self.records), 1131)
-        self.assertEqual(sum(bool(c["copies_available"]) for c in self.records), 629)
+        self.assertEqual(sum(bool(c["copies_available"]) for c in self.records), 621)
         self.assertEqual(self.catalogue.manifest["index_coverage"], {"present": 663, "missing": 88})
         self.assertEqual(self.catalogue.manifest["drift"].get("oracle_text", []), [])
         check(load_shards())
@@ -46,7 +46,15 @@ class OwnedCardKnowledgeTests(unittest.TestCase):
         self.assertFalse(sol_ring["has_regular_common_printing"])
         self.assertEqual(sum(c["legalities"]["pauper"] == "legal" for c in self.records), 239)
         self.assertEqual(sum(c["legalities"]["pauper"] == "legal" and c["copies_available"] > 0
-                             for c in self.records), 222)
+                             for c in self.records), 216)
+
+    def test_confirmed_xander_rebuild_updates_available_cards(self):
+        # Removed cards are free; singleton upgrades and The Unicomplex are
+        # reserved. The official legalities snapshot remains date-pinned.
+        self.assertEqual(self.catalogue.get("Trepanation Blade")["copies_available"], 1)
+        self.assertEqual(self.catalogue.get("The Unicomplex")["copies_available"], 0)
+        self.assertEqual(self.catalogue.get("Vraska's Final Mercy")["copies_available"], 0)
+        self.assertTrue(self.catalogue.get("The Unicomplex")["future_only"])
 
     def test_search_filters_color_identity_and_available_copies(self):
         pool = [c for c in self.records if eligible(c, True, "WB", True, "Creature", "")]

@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
-"""Reproduce and audit Cory's exact 2026-11-08 physical MTG inventory.
+"""Audit the immutable six-deck snapshot and owner-confirmed live allocations.
 
-Only the two keep-built decks are reserved in the hypothetical post-disassembly
-pool. This script never changes decklists, ownership counts, or deck statuses.
+The original ZIP, master inventory and six historical decklists are never edited.
+The current Xander deck is independently reproduced from confirmed physical
+swaps; the active available pool subtracts it and unchanged Dihada from master.
 """
 
 from __future__ import annotations
@@ -21,6 +22,8 @@ ROOT = Path(__file__).resolve().parents[1]
 SNAPSHOT = ROOT / "data" / "physical_collection" / "2026-11-08"
 CURRENT_STATUS = ROOT / "data" / "physical_collection" / "current_status.json"
 CURRENT_POOL = ROOT / "data" / "physical_collection" / "current_available.csv"
+CURRENT_XANDER = ROOT / "data" / "physical_collection" / "current_decks" / "Xander_EDH_IRL.csv"
+XANDER_REBUILD = ROOT / "data" / "physical_collection" / "updates" / "2026-11-08_xander_rebuild.json"
 MASTER = SNAPSHOT / "master_inventory.csv"
 ARCHIVE = SNAPSHOT / "original_six_decks.zip"
 DECKS = {
@@ -145,6 +148,8 @@ def main(write: bool) -> None:
             path.write_bytes(content)
         elif not path.is_file() or path.read_bytes() != content:
             raise ValueError(f"Missing, modified, or stale generated file: {path}")
+    if not CURRENT_STATUS.exists():
+        raise ValueError("Missing active physical collection status")
     if CURRENT_STATUS.exists():
         current = json.loads(CURRENT_STATUS.read_text(encoding="utf-8"))
         if sorted(current["built_decks"]) != sorted(name for name, info in DECKS.items()
@@ -153,22 +158,69 @@ def main(write: bool) -> None:
         if sorted(current["disassembled_decks"]) != sorted(name for name, info in DECKS.items()
                                                           if info[2] == "proposed_disassembly"):
             raise ValueError("Current disassembled deck list disagrees with original six decks")
-        if (current["reserved_cards"] != sum(reserved.values())
-                or current["available_cards"] != sum(after_disassembly.values())
-                or current["available_distinct_names"] != len(after_disassembly)
+        if current.get("active_built_decklists") != {
+            "Xander_EDH_IRL.csv": "data/physical_collection/current_decks/Xander_EDH_IRL.csv",
+            "Dihada_EDH_IRL.csv": "data/physical_collection/2026-11-08/decks/Dihada_EDH_IRL.csv",
+        }:
+            raise ValueError("Current deck references do not identify Xander's rebuilt physical list")
+        if current.get("xander_rebuild_event") != "data/physical_collection/updates/2026-11-08_xander_rebuild.json":
+            raise ValueError("Current Xander rebuild event reference is missing")
+        event = json.loads(XANDER_REBUILD.read_text(encoding="utf-8"))
+        if (event.get("deck") != "Xander_EDH_IRL.csv"
+                or event.get("source_snapshot") != "data/physical_collection/2026-11-08/decks/Xander_EDH_IRL.csv"
+                or event.get("current_deck") != "data/physical_collection/current_decks/Xander_EDH_IRL.csv"
+                or len(event.get("swaps", [])) != 20):
+            raise ValueError("Malformed confirmed Xander rebuild event")
+        active_xander = deck_counts["Xander_EDH_IRL.csv"].copy()
+        outs, ins = set(), set()
+        for item in event["swaps"]:
+            old, new = item["out"], item["in"]
+            if old in outs or new in ins or old == new or active_xander[old] != 1:
+                # A basic Swamp is the only multi-copy card removed; all 20
+                # changes are otherwise distinct singleton replacements.
+                if not (old == "Swamp" and old not in outs and active_xander[old] > 1
+                        and new not in ins):
+                    raise ValueError(f"Invalid or duplicated physical swap: {item}")
+            outs.add(old)
+            ins.add(new)
+            active_xander[old] -= 1
+            if active_xander[old] == 0:
+                del active_xander[old]
+            active_xander[new] += 1
+        if (sum(active_xander.values()) != 101
+                or active_xander["Lord Xander, the Collector"] != 1
+                or active_xander["Lutri, the Spellchaser"] != 1
+                or active_xander["Swamp"] != 8
+                or active_xander["The Unicomplex"] != 1):
+            raise ValueError("Rebuilt Xander list is not the owner-confirmed 100 + companion")
+        current_deck_bytes = csv_bytes(active_xander)
+        if write:
+            CURRENT_XANDER.parent.mkdir(parents=True, exist_ok=True)
+            CURRENT_XANDER.write_bytes(current_deck_bytes)
+        elif not CURRENT_XANDER.is_file() or CURRENT_XANDER.read_bytes() != current_deck_bytes:
+            raise ValueError("Current Xander deck does not match confirmed 20-swap reconstruction")
+        active_reserved = active_xander + deck_counts["Dihada_EDH_IRL.csv"]
+        overbooked = active_reserved - master
+        if overbooked:
+            raise ValueError(f"Current built decks exceed owned copies: {dict(overbooked)}")
+        available_now = master - active_reserved
+        if (current["reserved_cards"] != sum(active_reserved.values())
+                or current["available_cards"] != sum(available_now.values())
+                or current["available_distinct_names"] != len(available_now)
                 or current["current_available_pool"] != "data/physical_collection/current_available.csv"):
             raise ValueError("Current collection status counts or pool path disagree")
-        current_bytes = csv_bytes(after_disassembly)
+        current_bytes = csv_bytes(available_now)
         if write:
             CURRENT_POOL.write_bytes(current_bytes)
         elif not CURRENT_POOL.is_file() or CURRENT_POOL.read_bytes() != current_bytes:
-            raise ValueError("Current available pool does not match owner-confirmed teardown")
+            raise ValueError("Current available pool does not match rebuilt Xander plus Dihada")
     print(json.dumps({"result": "written" if write else "verified",
                       "master_cards": sum(master.values()),
                       "distinct_names": len(master),
                       "allocated_cards": sum(allocated.values()),
                       "unassigned_cards": sum(unassigned.values()),
                       "available_after_proposed_disassembly": sum(after_disassembly.values()),
+                      "current_available_cards": current["available_cards"] if CURRENT_STATUS.exists() else None,
                       "jund_list_cards": sum(deck_counts["Stefanie_Jund_Prerelease.csv"].values())}))
 
 

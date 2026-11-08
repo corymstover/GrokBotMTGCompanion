@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-08",
+  "deck": "Xander_EDH_IRL.csv",
+  "source_snapshot": "data/physical_collection/2026-11-08/decks/Xander_EDH_IRL.csv",
+  "current_deck": "data/physical_collection/current_decks/Xander_EDH_IRL.csv",
+  "owner_confirmation": "Cory confirmed: 'I have made the physical swaps!' after reporting the separate Swamp-to-The Unicomplex change.",
+  "description": "19 one-for-one upgrades plus one Swamp replaced by The Unicomplex; 101 physical cards including Lutri remain reserved.",
+  "swaps": [
+    {"out": "Vivid Crag", "in": "Blood Crypt"},
+    {"out": "Dimir Guildgate", "in": "Exotic Orchard"},
+    {"out": "Smoldering Spires", "in": "Bojuka Bog"},
+    {"out": "Trepanation Blade", "in": "Fellwar Stone"},
+    {"out": "Hedron Archive", "in": "Coalition Relic"},
+    {"out": "Archaeomancer", "in": "Kess, Dissident Mage"},
+    {"out": "Desecration Demon", "in": "Marchesa, Dealer of Death"},
+    {"out": "Quietus Spike", "in": "My Precious // Allure of Power"},
+    {"out": "Jace's Ingenuity", "in": "Painful Truths"},
+    {"out": "Unsummon", "in": "Echoing Truth"},
+    {"out": "Duress", "in": "Rank Rat"},
+    {"out": "Quest for the Gravelord", "in": "Winter, Tormented Loner"},
+    {"out": "Mind Sculpt", "in": "Stir Up Trouble"},
+    {"out": "Tormenting Voice", "in": "Thrill of Possibility"},
+    {"out": "Mirko Vosk, Mind Drinker", "in": "Fleetfeather Sandals"},
+    {"out": "Gray Merchant of Asphodel", "in": "Kardur, Doomscourge"},
+    {"out": "Divination", "in": "Reckless Impulse"},
+    {"out": "Tenacious Dead", "in": "Gerrard's Hourglass Pendant"},
+    {"out": "Samut, Tyrant of Naktamun", "in": "Vraska's Final Mercy"},
+    {"out": "Swamp", "in": "The Unicomplex"}
+  ]
+}
