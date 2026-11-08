@@ -70,7 +70,9 @@ class OwnedCardKnowledgeTests(unittest.TestCase):
         self.assertIn("OWNED_COLLECTION_OVERLAY_NOT_IN_CANONICAL_INDEX", new["flags"])
         self.assertTrue(new["result"]["future_only"])
         self.assertIn("PRE", new["flags"][-1])
-        old = mv_ask.card("Baleful Strix")
+        original = mv_ask.card("Baleful Strix")
+        self.assertNotIn("owned_collection_update", original["result"])
+        old = mv_ask.card("Baleful Strix", include_owned=True)
         self.assertEqual(old["result"]["owned_collection_update"]["pauper_legality"], "legal")
         self.assertEqual(old["collection_data_as_of"], "2026-11-08")
 

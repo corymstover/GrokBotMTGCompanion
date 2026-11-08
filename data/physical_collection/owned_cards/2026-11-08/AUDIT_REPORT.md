@@ -92,6 +92,7 @@ python3 scripts/owned_cards.py card 'Baleful Strix' --json
 python3 scripts/owned_cards.py pauper --available --colors WB --type Creature --limit 30
 python3 scripts/owned_cards.py find 'create a token' --available --limit 40
 python3 scripts/mv_ask.py card 'The Unicomplex'
+python3 scripts/mv_ask.py card 'Baleful Strix' --owned
 python3 -m unittest discover -s tests -p 'test_owned_cards.py' -v
 ```
 
@@ -107,6 +108,8 @@ python3 scripts/build_owned_card_knowledge.py build \
 
 The builder refuses missing owned card names, mismatched ownership totals,
 unknown structural identity, or incomplete generated shards. Existing main
-Q&A lookups prefer their canonical index but append the newer personal overlay;
-missing original-index cards fall back to the dated owned catalogue with a
-clearly qualified confidence label.
+Q&A lookups preserve their historical canonical-index responses by default,
+which maintains byte-for-byte pinned acceptance evidence. Explicit
+`card <name> --owned` requests append the newer personal overlay. Cards absent
+from the original index fall back to the dated owned catalogue by default,
+with a clearly qualified confidence label.

@@ -199,9 +199,12 @@ def _reconciled(name: str) -> bool:
     return ok and name not in changed
 
 
-def card(name: str) -> dict:
+def card(name: str, include_owned: bool = False) -> dict:
     row = card_index().get(name.strip().lower())
-    owned = _owned_card(name)
+    # Preserve pinned foundation Q&A response bytes for pre-indexed names.
+    # A caller can explicitly request newer personal data, while names absent
+    # from the older index still receive a carefully qualified fallback.
+    owned = _owned_card(name) if include_owned or not row else None
     env = {"route": "card", "query": name, "flags": [], "sources": []}
     if not row:
         if owned:
@@ -1207,11 +1210,14 @@ def ask(text: str) -> dict:
 def main(argv=None):
     p = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     sub = p.add_subparsers(dest="cmd", required=True)
-    sub.add_parser("card").add_argument("name")
+    cp = sub.add_parser("card")
+    cp.add_argument("name")
+    cp.add_argument("--owned", action="store_true",
+                    help="Attach newer IRL ownership/Oracle/Pauper data to existing card-index results")
     lp = sub.add_parser("lore"); lp.add_argument("term"); lp.add_argument("--relation")
     sub.add_parser("ask").add_argument("text")
     a = p.parse_args(argv)
-    out = card(a.name) if a.cmd == "card" else lore(a.term, a.relation) if a.cmd == "lore" else ask(a.text)
+    out = card(a.name, include_owned=a.owned) if a.cmd == "card" else lore(a.term, a.relation) if a.cmd == "lore" else ask(a.text)
     print(json.dumps(out, indent=1, ensure_ascii=False))
     return 0 if out["confidence"] != "NOT_FOUND" else 3
 
