@@ -1,0 +1,29 @@
+{
+  "date": "2026-11-08",
+  "deck": "Stefanie_MonoBlack_Pauper_IRL.csv",
+  "current_deck": "data/physical_collection/current_decks/Stefanie_MonoBlack_Pauper_IRL.csv",
+  "current_deck_sha256": "ff09a8286643470f81bfbeddff9d738eade65992e81c2af728ff709f97cac149",
+  "owner_confirmation": "Cory confirmed Stefanie's proposed 60-card Mono-Black Devotion Control deck: 'Sleeved up! Locked in.'",
+  "description": "Stefanie's newly sleeved 60-card Pauper deck; no sideboard is included or reserved. Xander, Dihada, and Cory's Izzet Pauper deck are unaffected.",
+  "format": "pauper",
+  "main_deck_cards": 60,
+  "sideboard_cards": 0,
+  "sideboard": [],
+  "main_deck": [
+    {"quantity": 3, "name": "Relentless Drednok"},
+    {"quantity": 3, "name": "Battle-Scarred Survivalist"},
+    {"quantity": 3, "name": "Stony-Voiced Goblins"},
+    {"quantity": 3, "name": "Tal Shiar Operative"},
+    {"quantity": 2, "name": "Ravening Warg"},
+    {"quantity": 4, "name": "Liliana's Shade"},
+    {"quantity": 3, "name": "Gray Merchant of Asphodel"},
+    {"quantity": 3, "name": "Duress"},
+    {"quantity": 2, "name": "Sign in Blood"},
+    {"quantity": 1, "name": "Eject the Warp Core"},
+    {"quantity": 2, "name": "Murder"},
+    {"quantity": 2, "name": "Stab Wound"},
+    {"quantity": 1, "name": "He's Dead, Jim"},
+    {"quantity": 4, "name": "Corrupt"},
+    {"quantity": 24, "name": "Swamp"}
+  ]
+}

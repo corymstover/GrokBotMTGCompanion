@@ -1,29 +1,32 @@
 {
   "as_of_date": "2026-11-08",
-  "owner_confirmation": "Cory confirmed the four prior teardowns, Xander's 20 physical swaps, Stefanie's full 15-swap Dihada rebuild, and then physically sleeved up a 60-card Izzet Pauper main deck with no sideboard.",
+  "owner_confirmation": "Cory confirmed the four prior teardowns, Xander's 20 physical swaps, Stefanie's full 15-swap Dihada rebuild, Cory's 60-card Izzet Pauper deck, and Stefanie's 60-card Mono-Black Devotion Control Pauper deck: 'Sleeved up! Locked in.'",
   "original_inventory_snapshot": "2026-11-08",
   "built_decks": [
     "Xander_EDH_IRL.csv",
     "Dihada_EDH_IRL.csv",
-    "Izzet_Pauper_IRL.csv"
+    "Izzet_Pauper_IRL.csv",
+    "Stefanie_MonoBlack_Pauper_IRL.csv"
   ],
   "active_built_decklists": {
     "Xander_EDH_IRL.csv": "data/physical_collection/current_decks/Xander_EDH_IRL.csv",
     "Dihada_EDH_IRL.csv": "data/physical_collection/current_decks/Dihada_EDH_IRL.csv",
-    "Izzet_Pauper_IRL.csv": "data/physical_collection/current_decks/Izzet_Pauper_IRL.csv"
+    "Izzet_Pauper_IRL.csv": "data/physical_collection/current_decks/Izzet_Pauper_IRL.csv",
+    "Stefanie_MonoBlack_Pauper_IRL.csv": "data/physical_collection/current_decks/Stefanie_MonoBlack_Pauper_IRL.csv"
   },
   "xander_rebuild_event": "data/physical_collection/updates/2026-11-08_xander_rebuild.json",
   "dihada_rebuild_event": "data/physical_collection/updates/2026-11-08_dihada_rebuild.json",
   "izzet_pauper_build_event": "data/physical_collection/updates/2026-11-08_izzet_pauper_build.json",
+  "stefanie_monoblack_pauper_build_event": "data/physical_collection/updates/2026-11-08_stefanie_monoblack_pauper_build.json",
   "disassembled_decks": [
     "Rith__Liberated_Primeval.csv",
     "Saruman__the_White_Hand_.csv",
     "Cory_Orzhov_Prerelease.csv",
     "Stefanie_Jund_Prerelease.csv"
   ],
-  "reserved_cards": 261,
-  "available_cards": 1071,
-  "available_distinct_names": 611,
+  "reserved_cards": 321,
+  "available_cards": 1011,
+  "available_distinct_names": 599,
   "current_available_pool": "data/physical_collection/current_available.csv",
   "historical_decklists_unchanged": true,
   "ownership_quantities_unchanged": true

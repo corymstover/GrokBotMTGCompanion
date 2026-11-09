@@ -2,9 +2,9 @@
 """Audit the immutable six-deck snapshot and owner-confirmed live allocations.
 
 The original ZIP, master inventory and six historical decklists are never edited.
-Both rebuilt Commander decks and Cory's newly sleeved Izzet Pauper deck are
+Both rebuilt Commander decks and the two newly sleeved Pauper decks are
 independently reproduced from owner confirmations. The current pool subtracts
-all three live decks from the immutable physical master.
+all four live decks from the immutable physical master.
 """
 
 from __future__ import annotations
@@ -26,9 +26,11 @@ CURRENT_POOL = ROOT / "data" / "physical_collection" / "current_available.csv"
 CURRENT_XANDER = ROOT / "data" / "physical_collection" / "current_decks" / "Xander_EDH_IRL.csv"
 CURRENT_DIHADA = ROOT / "data" / "physical_collection" / "current_decks" / "Dihada_EDH_IRL.csv"
 CURRENT_IZZET = ROOT / "data" / "physical_collection" / "current_decks" / "Izzet_Pauper_IRL.csv"
+CURRENT_STEFANIE_PAUPER = ROOT / "data" / "physical_collection" / "current_decks" / "Stefanie_MonoBlack_Pauper_IRL.csv"
 XANDER_REBUILD = ROOT / "data" / "physical_collection" / "updates" / "2026-11-08_xander_rebuild.json"
 DIHADA_REBUILD = ROOT / "data" / "physical_collection" / "updates" / "2026-11-08_dihada_rebuild.json"
 IZZET_BUILD = ROOT / "data" / "physical_collection" / "updates" / "2026-11-08_izzet_pauper_build.json"
+STEFANIE_PAUPER_BUILD = ROOT / "data" / "physical_collection" / "updates" / "2026-11-08_stefanie_monoblack_pauper_build.json"
 MASTER = SNAPSHOT / "master_inventory.csv"
 ARCHIVE = SNAPSHOT / "original_six_decks.zip"
 DECKS = {
@@ -158,7 +160,7 @@ def main(write: bool) -> None:
     if CURRENT_STATUS.exists():
         current = json.loads(CURRENT_STATUS.read_text(encoding="utf-8"))
         expected_built = [name for name, info in DECKS.items() if info[2] == "keep_built"]
-        expected_built.append("Izzet_Pauper_IRL.csv")
+        expected_built.extend(["Izzet_Pauper_IRL.csv", "Stefanie_MonoBlack_Pauper_IRL.csv"])
         if sorted(current["built_decks"]) != sorted(expected_built):
             raise ValueError("Current built deck list disagrees with owner-confirmed decks")
         if sorted(current["disassembled_decks"]) != sorted(name for name, info in DECKS.items()
@@ -168,14 +170,17 @@ def main(write: bool) -> None:
             "Xander_EDH_IRL.csv": "data/physical_collection/current_decks/Xander_EDH_IRL.csv",
             "Dihada_EDH_IRL.csv": "data/physical_collection/current_decks/Dihada_EDH_IRL.csv",
             "Izzet_Pauper_IRL.csv": "data/physical_collection/current_decks/Izzet_Pauper_IRL.csv",
+            "Stefanie_MonoBlack_Pauper_IRL.csv": "data/physical_collection/current_decks/Stefanie_MonoBlack_Pauper_IRL.csv",
         }:
-            raise ValueError("Current deck references do not identify both rebuilt physical lists")
+            raise ValueError("Current deck references do not identify all built physical lists")
         if current.get("xander_rebuild_event") != "data/physical_collection/updates/2026-11-08_xander_rebuild.json":
             raise ValueError("Current Xander rebuild event reference is missing")
         if current.get("dihada_rebuild_event") != "data/physical_collection/updates/2026-11-08_dihada_rebuild.json":
             raise ValueError("Current Dihada rebuild event reference is missing")
         if current.get("izzet_pauper_build_event") != "data/physical_collection/updates/2026-11-08_izzet_pauper_build.json":
             raise ValueError("Current Izzet Pauper build event reference is missing")
+        if current.get("stefanie_monoblack_pauper_build_event") != "data/physical_collection/updates/2026-11-08_stefanie_monoblack_pauper_build.json":
+            raise ValueError("Current Stefanie Mono-Black Pauper build event reference is missing")
         event = json.loads(XANDER_REBUILD.read_text(encoding="utf-8"))
         if (event.get("deck") != "Xander_EDH_IRL.csv"
                 or event.get("source_snapshot") != "data/physical_collection/2026-11-08/decks/Xander_EDH_IRL.csv"
@@ -277,7 +282,39 @@ def main(write: bool) -> None:
             CURRENT_IZZET.write_bytes(current_izzet_bytes)
         elif not CURRENT_IZZET.is_file() or CURRENT_IZZET.read_bytes() != current_izzet_bytes:
             raise ValueError("Current Izzet Pauper deck does not match owner-confirmed 60-card list")
-        active_reserved = active_xander + active_dihada + active_izzet
+        stefanie_event = json.loads(STEFANIE_PAUPER_BUILD.read_text(encoding="utf-8"))
+        if (stefanie_event.get("deck") != "Stefanie_MonoBlack_Pauper_IRL.csv"
+                or stefanie_event.get("current_deck") != "data/physical_collection/current_decks/Stefanie_MonoBlack_Pauper_IRL.csv"
+                or stefanie_event.get("format") != "pauper"
+                or stefanie_event.get("main_deck_cards") != 60
+                or stefanie_event.get("sideboard_cards") != 0
+                or stefanie_event.get("sideboard") != []):
+            raise ValueError("Malformed owner-confirmed Stefanie Pauper build event or sideboard")
+        stefanie_cards = stefanie_event.get("main_deck")
+        if not isinstance(stefanie_cards, list) or len(stefanie_cards) != 15:
+            raise ValueError("Stefanie's Pauper event must declare all 15 distinct main-deck names")
+        active_stefanie_pauper: Counter[str] = Counter()
+        for entry in stefanie_cards:
+            name, quantity = entry.get("name"), entry.get("quantity")
+            if (not isinstance(name, str) or not name or name in active_stefanie_pauper
+                    or type(quantity) is not int or quantity < 1
+                    or (name != "Swamp" and quantity > 4)):
+                raise ValueError(f"Invalid Stefanie Pauper main-deck entry: {entry}")
+            active_stefanie_pauper[name] = quantity
+        if (sum(active_stefanie_pauper.values()) != 60
+                or active_stefanie_pauper["Swamp"] != 24
+                or active_stefanie_pauper["Corrupt"] != 4
+                or active_stefanie_pauper["Gray Merchant of Asphodel"] != 3):
+            raise ValueError("Stefanie Pauper main deck differs from her sleeved Mono-Black list")
+        current_stefanie_bytes = csv_bytes(active_stefanie_pauper)
+        if sha256(current_stefanie_bytes) != stefanie_event.get("current_deck_sha256"):
+            raise ValueError("Stefanie Pauper checksum does not match the confirmation event")
+        if write:
+            CURRENT_STEFANIE_PAUPER.parent.mkdir(parents=True, exist_ok=True)
+            CURRENT_STEFANIE_PAUPER.write_bytes(current_stefanie_bytes)
+        elif not CURRENT_STEFANIE_PAUPER.is_file() or CURRENT_STEFANIE_PAUPER.read_bytes() != current_stefanie_bytes:
+            raise ValueError("Current Stefanie Pauper deck does not match owner-confirmed 60-card list")
+        active_reserved = active_xander + active_dihada + active_izzet + active_stefanie_pauper
         overbooked = active_reserved - master
         if overbooked:
             raise ValueError(f"Current built decks exceed owned copies: {dict(overbooked)}")
@@ -291,7 +328,7 @@ def main(write: bool) -> None:
         if write:
             CURRENT_POOL.write_bytes(current_bytes)
         elif not CURRENT_POOL.is_file() or CURRENT_POOL.read_bytes() != current_bytes:
-            raise ValueError("Current available pool does not match all three active decks")
+            raise ValueError("Current available pool does not match all four active decks")
     print(json.dumps({"result": "written" if write else "verified",
                       "master_cards": sum(master.values()),
                       "distinct_names": len(master),
