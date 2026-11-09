@@ -22,8 +22,8 @@ class OwnedCardKnowledgeTests(unittest.TestCase):
     def test_full_source_and_allocation_reconciliation(self):
         self.assertEqual(len(self.records), 751)
         self.assertEqual(sum(c["copies_owned"] for c in self.records), 1332)
-        self.assertEqual(sum(c["copies_available"] for c in self.records), 1071)
-        self.assertEqual(sum(bool(c["copies_available"]) for c in self.records), 611)
+        self.assertEqual(sum(c["copies_available"] for c in self.records), 1011)
+        self.assertEqual(sum(bool(c["copies_available"]) for c in self.records), 599)
         self.assertEqual(self.catalogue.manifest["index_coverage"], {"present": 663, "missing": 88})
         self.assertEqual(self.catalogue.manifest["drift"].get("oracle_text", []), [])
         check(load_shards())
@@ -46,10 +46,10 @@ class OwnedCardKnowledgeTests(unittest.TestCase):
         self.assertFalse(sol_ring["has_regular_common_printing"])
         self.assertEqual(sum(c["legalities"]["pauper"] == "legal" for c in self.records), 239)
         self.assertEqual(sum(c["legalities"]["pauper"] == "legal" and c["copies_available"] > 0
-                             for c in self.records), 206)
+                             for c in self.records), 198)
 
-    def test_confirmed_rebuilds_and_pauper_build_update_available_cards(self):
-        # The two Commander upgrades and the Pauper build reserve their own
+    def test_confirmed_rebuilds_and_both_pauper_builds_update_available_cards(self):
+        # The two Commander upgrades and both Pauper builds reserve their own
         # cards. The official legalities snapshot remains date-pinned.
         self.assertEqual(self.catalogue.get("Trepanation Blade")["copies_available"], 1)
         self.assertEqual(self.catalogue.get("The Unicomplex")["copies_available"], 0)
@@ -65,6 +65,11 @@ class OwnedCardKnowledgeTests(unittest.TestCase):
         self.assertEqual(self.catalogue.get("Tome Scour")["copies_available"], 0)
         self.assertEqual(self.catalogue.get("Mind Sculpt")["copies_available"], 0)
         self.assertEqual(self.catalogue.get("Guttersnipe")["copies_available"], 3)
+        self.assertEqual(self.catalogue.get("Corrupt")["copies_available"], 0)
+        self.assertEqual(self.catalogue.get("Gray Merchant of Asphodel")["copies_available"], 0)
+        self.assertEqual(self.catalogue.get("Liliana's Shade")["copies_available"], 0)
+        self.assertEqual(self.catalogue.get("Relentless Drednok")["copies_available"], 0)
+        self.assertEqual(self.catalogue.get("Swamp")["copies_available"], 27)
 
     def test_search_filters_color_identity_and_available_copies(self):
         pool = [c for c in self.records if eligible(c, True, "WB", True, "Creature", "")]

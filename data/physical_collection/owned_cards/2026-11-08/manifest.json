@@ -13,8 +13,8 @@
  "inventory": {
   "owned_names": 751,
   "owned_copies": 1332,
-  "available_names": 611,
-  "available_copies": 1071
+  "available_names": 599,
+  "available_copies": 1011
  },
  "index_coverage": {
   "present": 663,
@@ -162,7 +162,7 @@
   {
    "file": "part-003.json",
    "names": 20,
-   "sha256": "d078873522eaabbf7629cc3b2a395a6235bdd3ebf45d08ba4a227e9199d1262b"
+   "sha256": "ad0d28b6ce374d639792e4de5e644b69b2d3380a3c8c4b833cfb14ae9d4a1d44"
   },
   {
    "file": "part-004.json",
@@ -182,7 +182,7 @@
   {
    "file": "part-007.json",
    "names": 20,
-   "sha256": "53dfd5d4b649c3fba634d3de99b253b35005c8f763a0edbc5913cc514066060b"
+   "sha256": "0a042d2ed10ed4a355b96e1e0fc826b7322ac68add142e1ca08612476c68f32f"
   },
   {
    "file": "part-008.json",
@@ -197,7 +197,7 @@
   {
    "file": "part-010.json",
    "names": 20,
-   "sha256": "1a05e59e25f631d51915df59289b50887af469f8abb65dc20bf876747ec9b22d"
+   "sha256": "ababc1a5c3be3b842d0fda71f568c0fdfe68b67c614933cf40920fbdd0d3a665"
   },
   {
    "file": "part-011.json",
@@ -217,12 +217,12 @@
   {
    "file": "part-014.json",
    "names": 20,
-   "sha256": "002c7463f97530432a2dcb50ea40899987e11ff76221754fcd664be6b513aead"
+   "sha256": "bf3193fc6e5f3d02cb5550c4228a4846202b302461d9eaaaa460e945861135a3"
   },
   {
    "file": "part-015.json",
    "names": 20,
-   "sha256": "6d1d368a993b9d30177f71067170a8d1fd6aad7b93d71e43ae44dfef09406514"
+   "sha256": "698f37d6ebfdb494b34e4f090c966c5607b359382e58245117567f7485052512"
   },
   {
    "file": "part-016.json",
@@ -242,7 +242,7 @@
   {
    "file": "part-019.json",
    "names": 20,
-   "sha256": "ae35dde9adb8481f17b7e1764161f527f355b5db6ffccb76f04d27673a1376a3"
+   "sha256": "d996e09cfc437ecfa97bf5b1f28ef9fc5722740878ec8e5498bf4108c19ca048"
   },
   {
    "file": "part-020.json",
@@ -257,7 +257,7 @@
   {
    "file": "part-022.json",
    "names": 20,
-   "sha256": "f8b9314ee12b9f141eab8d5b1b6343c10692bb6e07014345453ae19eb2bd5365"
+   "sha256": "d44e0b010a48af864f9615a8451e50695f103994799cbde822dfc4374880a9bb"
   },
   {
    "file": "part-023.json",
@@ -272,12 +272,12 @@
   {
    "file": "part-025.json",
    "names": 20,
-   "sha256": "657ebc42d55107261c3ae7a9278a2cbe9836f5ba8fa1c7d1d0d78950c9635d50"
+   "sha256": "f68f1b57bda0ff8baef6c410d613a935e2c00ff7c566b906ef39933727f85e3a"
   },
   {
    "file": "part-026.json",
    "names": 20,
-   "sha256": "68c7f7d803170d8d507760cd637367cbb0fa01b677ef4060439c9be53f650aba"
+   "sha256": "d8ffcf417af8445c53f1948f17df7a0633197683f3847f6977a414ee7f2657b8"
   },
   {
    "file": "part-027.json",
@@ -287,22 +287,22 @@
   {
    "file": "part-028.json",
    "names": 20,
-   "sha256": "e48dbd9adcdc07aeb59da745e668ffe6a7b7e579888cc6a42a21f2dd426be59f"
+   "sha256": "62bf955ffb869f4cef0d2d89bd18ea6693e402713392c4c1b07ad15c90d06de5"
   },
   {
    "file": "part-029.json",
    "names": 20,
-   "sha256": "6805fd36d40364ea1293c99d1bae4f7ebf8c5cc3a56957593f371e1146e11a8b"
+   "sha256": "e8227f210da31a855ba3376a04c96822000a23fdea04e50e7eafd1610cf3a3d7"
   },
   {
    "file": "part-030.json",
    "names": 20,
-   "sha256": "b649ffd904a9d2b4c269986a2bbcf69018821a96685a44c7131253e506b32737"
+   "sha256": "44664dd5f30023f8b0bd47f6212e5848b20a1fbec13765a57009f752b58565d7"
   },
   {
    "file": "part-031.json",
    "names": 20,
-   "sha256": "4d7403274690f56af8c2fa3cddd836bc6625a7b6613386ae0b95adf33b09e776"
+   "sha256": "1ce6ac707b8889c9141ab25348098a861d2576936d28f588b33284b3690f540c"
   },
   {
    "file": "part-032.json",
