@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-08",
+  "deck": "Izzet_Pauper_IRL.csv",
+  "current_deck": "data/physical_collection/current_decks/Izzet_Pauper_IRL.csv",
+  "current_deck_sha256": "75a7388814b9375ddc654d1654e36cbac191346bb47a909db9e1304f5d7fc829",
+  "owner_confirmation": "Cory supplied the complete 60-card decklist and confirmed: 'Sleeved up. I will NOT be using the Sideboard though.'",
+  "description": "One newly assembled 60-card Izzet Pauper deck using owned physical cards; no sideboard was assembled or allocated. Xander and Dihada remain built and unchanged.",
+  "format": "pauper",
+  "main_deck_cards": 60,
+  "sideboard_cards": 0,
+  "sideboard": [],
+  "main_deck": [
+    {"quantity": 4, "name": "Jace's Phantasm"},
+    {"quantity": 4, "name": "Guttersnipe"},
+    {"quantity": 4, "name": "Tome Scour"},
+    {"quantity": 4, "name": "Mind Sculpt"},
+    {"quantity": 4, "name": "Thought Scour"},
+    {"quantity": 4, "name": "Shock"},
+    {"quantity": 4, "name": "Magma Jet"},
+    {"quantity": 4, "name": "Dragon Fodder"},
+    {"quantity": 2, "name": "No Admittance"},
+    {"quantity": 2, "name": "Unsummon"},
+    {"quantity": 2, "name": "Icy Reception"},
+    {"quantity": 1, "name": "Dispel"},
+    {"quantity": 9, "name": "Island"},
+    {"quantity": 7, "name": "Mountain"},
+    {"quantity": 4, "name": "Andoria"},
+    {"quantity": 1, "name": "Izzet Guildgate"}
+  ]
+}
