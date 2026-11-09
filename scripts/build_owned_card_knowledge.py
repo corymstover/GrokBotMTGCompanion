@@ -72,7 +72,10 @@ def build(bulk_path: Path, updated_at: str, as_of: str) -> dict:
     free = read_counts(COLLECTION / "current_available.csv")
     with INDEX.open(encoding="utf-8", newline="") as f:
         old = {r["name"]: r for r in csv.DictReader(f) if r["name"] in owned}
-    if len(owned) != 751 or sum(owned.values()) != 1332 or sum(free.values()) != 1131:
+    status = json.loads((COLLECTION / "current_status.json").read_text(encoding="utf-8"))
+    if (len(owned) != 751 or sum(owned.values()) != 1332
+            or sum(free.values()) != status["available_cards"]
+            or len(free) != status["available_distinct_names"]):
         raise ValueError("Source inventory no longer matches verified November 8 snapshot")
     if set(free) - set(owned):
         raise ValueError("Available pool contains a card not in the master inventory")

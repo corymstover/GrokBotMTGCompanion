@@ -36,18 +36,20 @@ class PhysicalCollectionSnapshotTests(unittest.TestCase):
     def test_owner_confirmed_teardown_is_current(self):
         import json
         state = json.loads(audit.CURRENT_STATUS.read_text(encoding="utf-8"))
-        self.assertEqual(len(state["built_decks"]), 2)
+        self.assertEqual(len(state["built_decks"]), 3)
         self.assertEqual(len(state["disassembled_decks"]), 4)
-        self.assertEqual(state["available_cards"], 1131)
-        self.assertEqual(state["available_distinct_names"], 621)
+        self.assertEqual(state["available_cards"], 1071)
+        self.assertEqual(state["available_distinct_names"], 611)
         self.assertEqual(state["active_built_decklists"]["Xander_EDH_IRL.csv"],
                          "data/physical_collection/current_decks/Xander_EDH_IRL.csv")
         self.assertEqual(state["active_built_decklists"]["Dihada_EDH_IRL.csv"],
                          "data/physical_collection/current_decks/Dihada_EDH_IRL.csv")
+        self.assertEqual(state["active_built_decklists"]["Izzet_Pauper_IRL.csv"],
+                         "data/physical_collection/current_decks/Izzet_Pauper_IRL.csv")
         with redirect_stdout(io.StringIO()):
             audit.main(write=False)
 
-    def test_both_confirmed_rebuilds_release_removed_cards_and_preserve_ownership(self):
+    def test_all_three_active_decks_preserve_ownership_and_release_swapped_cards(self):
         import json
         xander_event = json.loads(audit.XANDER_REBUILD.read_text(encoding="utf-8"))
         dihada_event = json.loads(audit.DIHADA_REBUILD.read_text(encoding="utf-8"))
@@ -55,6 +57,7 @@ class PhysicalCollectionSnapshotTests(unittest.TestCase):
         original_dihada = audit.parse_counts((audit.SNAPSHOT / "decks/Dihada_EDH_IRL.csv").read_bytes(), "old Dihada")
         active_xander = audit.parse_counts(audit.CURRENT_XANDER.read_bytes(), "current Xander")
         active_dihada = audit.parse_counts(audit.CURRENT_DIHADA.read_bytes(), "current Dihada")
+        active_izzet = audit.parse_counts(audit.CURRENT_IZZET.read_bytes(), "current Izzet Pauper")
         master = audit.parse_counts(audit.MASTER.read_bytes(), "master")
         available = audit.parse_counts(audit.CURRENT_POOL.read_bytes(), "free")
         self.assertEqual(len(xander_event["swaps"]), 20)
@@ -70,18 +73,35 @@ class PhysicalCollectionSnapshotTests(unittest.TestCase):
         self.assertEqual(active_dihada["Blood Crypt"], 1)
         self.assertEqual(audit.sha256(audit.CURRENT_DIHADA.read_bytes()),
                          dihada_event["current_deck_sha256"])
-        self.assertEqual(active_xander + active_dihada + available, master)
-        self.assertEqual(sum(available.values()), 1131)
-        self.assertEqual(len(available), 621)
+        self.assertEqual(active_xander + active_dihada + active_izzet + available, master)
+        self.assertEqual(sum(active_izzet.values()), 60)
+        self.assertEqual(sum(available.values()), 1071)
+        self.assertEqual(len(available), 611)
         for event, original in ((xander_event, original_xander),
                                 (dihada_event, original_dihada)):
             for item in event["swaps"]:
                 removed, added = item["out"], item["in"]
                 self.assertEqual(available[removed],
-                                 master[removed] - active_xander[removed] - active_dihada[removed])
+                                 master[removed] - active_xander[removed]
+                                 - active_dihada[removed] - active_izzet[removed])
                 self.assertEqual(available[added],
-                                 master[added] - active_xander[added] - active_dihada[added])
+                                 master[added] - active_xander[added]
+                                 - active_dihada[added] - active_izzet[added])
                 self.assertGreaterEqual(original[removed], 1)
+
+    def test_pauper_build_exactly_reserves_main_deck_without_a_sideboard(self):
+        import json
+        event = json.loads(audit.IZZET_BUILD.read_text(encoding="utf-8"))
+        main = audit.parse_counts(audit.CURRENT_IZZET.read_bytes(), "current Pauper")
+        self.assertEqual(event["sideboard"], [])
+        self.assertEqual(event["sideboard_cards"], 0)
+        self.assertEqual(main, {entry["name"]: entry["quantity"] for entry in event["main_deck"]})
+        self.assertEqual(audit.sha256(audit.CURRENT_IZZET.read_bytes()), event["current_deck_sha256"])
+        self.assertEqual(sum(main.values()), 60)
+        self.assertEqual(len(main), 16)
+        self.assertEqual(main["Andoria"], 4)
+        self.assertEqual(main["Jace's Phantasm"], 4)
+        self.assertEqual(main["Izzet Guildgate"], 1)
 
 
 if __name__ == "__main__":
