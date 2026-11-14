@@ -69,7 +69,7 @@ def _face_summary(face: dict) -> dict:
 
 def build(bulk_path: Path, updated_at: str, as_of: str) -> dict:
     owned = read_counts(SNAP / "master_inventory.csv")
-    free = read_counts(COLLECTION / "current_available.csv")
+    free = read_counts(COLLECTION / "2026-11-08/available_as_of_2026-11-08.csv")
     with INDEX.open(encoding="utf-8", newline="") as f:
         old = {r["name"]: r for r in csv.DictReader(f) if r["name"] in owned}
     status = json.loads((COLLECTION / "current_status.json").read_text(encoding="utf-8"))
@@ -235,7 +235,7 @@ def build(bulk_path: Path, updated_at: str, as_of: str) -> dict:
 
 def check(data: dict) -> None:
     master = read_counts(SNAP / "master_inventory.csv")
-    free = read_counts(COLLECTION / "current_available.csv")
+    free = read_counts(COLLECTION / "2026-11-08/available_as_of_2026-11-08.csv")
     if (data["inventory"]["available_names"] != len(free)
             or data["inventory"]["available_copies"] != sum(free.values())
             or data["inventory"]["owned_names"] != len(master)
@@ -303,6 +303,11 @@ def load_shards() -> dict:
 
 
 def refresh_availability() -> None:
+    # The 2026-11-08 Scryfall shard catalogue is now historical. Do not
+    # pretend its 751-name schema covers the newer 766-name physical collection.
+    current = json.loads((COLLECTION / "current_status.json").read_text(encoding="utf-8"))
+    if current.get("as_of_date") != "2026-11-08":
+        raise ValueError("The 2026-11-08 Oracle catalogue is historical. Rebuild a dated catalogue from a verified Scryfall snapshot before updating physical counts.")
     """Update current physical copy counts without rerunning pinned Scryfall bulk.
 
     All Oracle, printing, rarity, ruling and legalities fields remain untouched;

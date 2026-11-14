@@ -1,0 +1,104 @@
+{
+  "schema": "mtg-physical-collection-reconciliation/v1",
+  "as_of_date": "2026-11-14",
+  "source_archive_sha256": "a3350ff0616404c8fe95a5ea9ec7f4628652213904cba35b32b4920dc77fbf5c",
+  "previous_snapshot": "2026-11-08",
+  "totals_before": {
+    "owned": 1332,
+    "names": 751,
+    "built_decks": 4,
+    "reserved": 321,
+    "available": 1011,
+    "available_names": 599
+  },
+  "totals_after": {
+    "owned": 1348,
+    "names": 766,
+    "built_decks": 6,
+    "reserved": 521,
+    "available": 827,
+    "available_names": 508
+  },
+  "added_copies": [
+    {
+      "name": "Cavern-Hoard Dragon",
+      "quantity": 1
+    },
+    {
+      "name": "Deep Space Scan",
+      "quantity": 1
+    },
+    {
+      "name": "Geyadrone Dihada",
+      "quantity": 1
+    },
+    {
+      "name": "Glimpse the Unthinkable",
+      "quantity": 1
+    },
+    {
+      "name": "Kefka, Court Mage // Kefka, Ruler of Ruin",
+      "quantity": 1
+    },
+    {
+      "name": "Kuja, Genome Sorcerer // Trance Kuja, Fate Defied",
+      "quantity": 1
+    },
+    {
+      "name": "Mai and Zuko",
+      "quantity": 1
+    },
+    {
+      "name": "Mairsil, the Pretender",
+      "quantity": 1
+    },
+    {
+      "name": "Obeka, Brute Chronologist",
+      "quantity": 1
+    },
+    {
+      "name": "Obeka, Splitter of Seconds",
+      "quantity": 1
+    },
+    {
+      "name": "Slimefoot and Squee",
+      "quantity": 1
+    },
+    {
+      "name": "Sol'Kanar the Tainted",
+      "quantity": 1
+    },
+    {
+      "name": "Sol'kanar the Swamp King",
+      "quantity": 1
+    },
+    {
+      "name": "The Caretaker",
+      "quantity": 1
+    },
+    {
+      "name": "Vazi, Keen Negotiator",
+      "quantity": 1
+    },
+    {
+      "name": "Yurlok of Scorch Thrash",
+      "quantity": 1
+    }
+  ],
+  "previously_built_decks_still_built": [
+    "Xander_EDH_IRL.csv",
+    "Dihada_EDH_IRL.csv",
+    "Izzet_Pauper_IRL.csv",
+    "Stefanie_MonoBlack_Pauper_IRL.csv"
+  ],
+  "newly_built_decks": [
+    "Wasitora_Jund_EDH_IRL.csv",
+    "Locutus_Orzhov_Borg_EDH_IRL.csv"
+  ],
+  "notes": [
+    "Three new purchases are already in the Wasitora deck: Slimefoot and Squee, Vazi, Keen Negotiator, Yurlok of Scorch Thrash.",
+    "Xander's card multiset is identical to the prior current-deck file; the user's newer source CSV only interchanges two Jace row positions.",
+    "Dihada, Izzet Pauper and Mono-Black Pauper source files match their current-deck files byte-for-byte.",
+    "No existing protected historical deck source, approved Grixis encyclopedia list, or prior swap receipt was edited."
+  ]
+}

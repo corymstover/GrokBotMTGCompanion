@@ -1,0 +1,26 @@
+{
+  "schema": "mtg-physical-collection/v2",
+  "as_of_date": "2026-11-14",
+  "source_archive_filename": "Real_Life_Collection-11-14-2026.zip",
+  "source_archive_sha256": "a3350ff0616404c8fe95a5ea9ec7f4628652213904cba35b32b4920dc77fbf5c",
+  "archive_bytes_committed": false,
+  "file_sha256": {
+    "Every_Card_we_own_IRL.csv": "a08cdddb4698b8142b9edc7ff0e4cfa43fd4c17fef9c68eb513723cf7a8fe8d7",
+    "Cory_s_Lord_Xander_IRL_EDH.csv": "f8edf472811a92a4df7b8de596501934300183cc893bcb2643287525a632b1c2",
+    "Izzet.csv": "75a7388814b9375ddc654d1654e36cbac191346bb47a909db9e1304f5d7fc829",
+    "Mono_Black_Devotion_Control.csv": "ff09a8286643470f81bfbeddff9d738eade65992e81c2af728ff709f97cac149",
+    "Stefanie_s_IRL_Jund_EDH.csv": "3bd3a00b74fa708d3351231ac4f2ce2a6aa07f6ba6aa244a3ea21f5b1fed7c1b",
+    "Stefanie_Dihada_EDH_IRL.csv": "7286c9d8217c996d5b5d1194a2ee2a42cb19feec07f9845f66989ce367537165",
+    "Cory_s_IRL_Orzhov_Borg_EDH.csv": "cbcef5ce2908c81bb38bbf23e1c6e2762d9bc9230c0de3d207457f5c2b17e813"
+  },
+  "collection_cards": 1348,
+  "collection_distinct_names": 766,
+  "active_deck_cards_including_companion": 521,
+  "available_cards": 827,
+  "available_distinct_names": 508,
+  "notes": [
+    "The 7 exact extracted source CSV files are preserved in this snapshot; original ZIP was supplied in conversation and is identified by SHA-256 but is not committed.",
+    "Lutri is one separate physical companion card, counted in Xander 101; Commander companion legality is Rule 0 only.",
+    "No cards or decklists from the protected Grixis Encyclopedia were modified."
+  ]
+}

@@ -1,16 +1,23 @@
 {
-  "as_of_date": "2026-11-08",
-  "owner_confirmation": "Cory confirmed the four prior teardowns, Xander's 20 physical swaps, Stefanie's full 15-swap Dihada rebuild, Cory's 60-card Izzet Pauper deck, and Stefanie's 60-card Mono-Black Devotion Control Pauper deck: 'Sleeved up! Locked in.'",
+  "as_of_date": "2026-11-14",
+  "source_archive": "Real_Life_Collection-11-14-2026.zip",
+  "source_archive_sha256": "a3350ff0616404c8fe95a5ea9ec7f4628652213904cba35b32b4920dc77fbf5c",
+  "source_master_inventory": "data/physical_collection/2026-11-14/Every_Card_we_own_IRL.csv",
   "original_inventory_snapshot": "2026-11-08",
+  "owner_confirmation": "Six physical decks confirmed by Cory on 2026-11-14, with the exact supplied lists.",
   "built_decks": [
     "Xander_EDH_IRL.csv",
     "Dihada_EDH_IRL.csv",
+    "Wasitora_Jund_EDH_IRL.csv",
+    "Locutus_Orzhov_Borg_EDH_IRL.csv",
     "Izzet_Pauper_IRL.csv",
     "Stefanie_MonoBlack_Pauper_IRL.csv"
   ],
   "active_built_decklists": {
     "Xander_EDH_IRL.csv": "data/physical_collection/current_decks/Xander_EDH_IRL.csv",
     "Dihada_EDH_IRL.csv": "data/physical_collection/current_decks/Dihada_EDH_IRL.csv",
+    "Wasitora_Jund_EDH_IRL.csv": "data/physical_collection/current_decks/Wasitora_Jund_EDH_IRL.csv",
+    "Locutus_Orzhov_Borg_EDH_IRL.csv": "data/physical_collection/current_decks/Locutus_Orzhov_Borg_EDH_IRL.csv",
     "Izzet_Pauper_IRL.csv": "data/physical_collection/current_decks/Izzet_Pauper_IRL.csv",
     "Stefanie_MonoBlack_Pauper_IRL.csv": "data/physical_collection/current_decks/Stefanie_MonoBlack_Pauper_IRL.csv"
   },
@@ -24,10 +31,12 @@
     "Cory_Orzhov_Prerelease.csv",
     "Stefanie_Jund_Prerelease.csv"
   ],
-  "reserved_cards": 321,
-  "available_cards": 1011,
-  "available_distinct_names": 599,
+  "reserved_cards": 521,
+  "available_cards": 827,
+  "available_distinct_names": 508,
   "current_available_pool": "data/physical_collection/current_available.csv",
   "historical_decklists_unchanged": true,
-  "ownership_quantities_unchanged": true
+  "ownership_quantities_unchanged": false,
+  "owned_card_oracle_catalogue_as_of": "2026-11-08",
+  "owned_card_oracle_catalogue_is_current": false
 }
