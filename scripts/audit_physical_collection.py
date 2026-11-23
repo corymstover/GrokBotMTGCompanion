@@ -77,6 +77,10 @@ def csv_bytes(counts: Counter[str]) -> bytes:
 def main(write: bool) -> None:
     # A newer owner-confirmed snapshot supersedes only the current allocation,
     # not the immutable 2026-11-08 source records or their prior receipts.
+    if CURRENT_STATUS.exists() and json.loads(CURRENT_STATUS.read_text(encoding="utf-8")).get("as_of_date") == "2026-11-23":
+        from audit_physical_collection_2026_11_23 import verify
+        verify(write=write)
+        return
     if CURRENT_STATUS.exists() and json.loads(CURRENT_STATUS.read_text(encoding="utf-8")).get("as_of_date") == "2026-11-14":
         from audit_physical_collection_2026_11_14 import verify
         verify(write=write)

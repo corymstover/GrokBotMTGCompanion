@@ -1,0 +1,58 @@
+{
+  "schema": "mtg-physical-collection/v3",
+  "as_of_date": "2026-11-23",
+  "source_deck_archive_filename": "Real_Life_Decks-11-23-2026.zip",
+  "source_deck_archive_sha256": "bed7e300308291ca0c2351761732277d9b99a93f0252c16baf34145308349413",
+  "source_inventory_filename": "every_card we own irl (1).csv",
+  "source_inventory_sha256": "d8fdd1fd3e81a1340e1dac8699b4b693d0c55c6474a352071613025d70782a02",
+  "original_inventory_archive_filename": "Real_Life_Entire-Collection-11-23-2026.zip",
+  "original_inventory_archive_sha256": "79d176872765309285b60dcfee546605a994b8ea4f27acfbebd1939cd715f04f",
+  "authoritative_inventory_note": "Owner corrected CSV supersedes the inventory ZIP; deck CSVs remain exact extracted members of the deck archive.",
+  "archives_committed": false,
+  "file_sha256": {
+    "Every_Card_we_own_IRL_corrected.csv": "d8fdd1fd3e81a1340e1dac8699b4b693d0c55c6474a352071613025d70782a02",
+    "Cory_s_Lord_Xander_IRL_EDH.csv": "69d09b4e7d24aa817f5713f3f2cdfa21674ebf715a2156765b4b2ebe0f31a483",
+    "Mono_Black_Devotion_Control.csv": "ff09a8286643470f81bfbeddff9d738eade65992e81c2af728ff709f97cac149",
+    "Stefanie_s_IRL_Jund_EDH.csv": "bc705c44f41ddb443db1d1d67de9740b9991ffa49ca0edf0b2cedc3b7c186adb",
+    "Stefanie_Dihada_EDH_IRL.csv": "93e081094a758773ce677c708c509044624511b3d4bc137280d7a7a69c86fc18",
+    "Cory_s_IRL_Orzhov_Borg_EDH.csv": "65228c3d63f923260aef994277e7e15ddae1b5cb87aae611ef326a500271d92c",
+    "Mono_Red_Madness.csv": "83678420bec0483c6ec49531c6bebb46dfe7233466a42278c3f2f5422c6f50f4"
+  },
+  "active_deck_to_source": {
+    "Xander_EDH_IRL.csv": "Cory_s_Lord_Xander_IRL_EDH.csv",
+    "Dihada_EDH_IRL.csv": "Stefanie_Dihada_EDH_IRL.csv",
+    "Korvold_Jund_EDH_IRL.csv": "Stefanie_s_IRL_Jund_EDH.csv",
+    "Locutus_Orzhov_Borg_EDH_IRL.csv": "Cory_s_IRL_Orzhov_Borg_EDH.csv",
+    "MonoBlack_Pauper_IRL.csv": "Mono_Black_Devotion_Control.csv",
+    "MonoRed_Pauper_IRL.csv": "Mono_Red_Madness.csv"
+  },
+  "deck_counts": {
+    "Xander_EDH_IRL.csv": 101,
+    "Dihada_EDH_IRL.csv": 100,
+    "Korvold_Jund_EDH_IRL.csv": 100,
+    "Locutus_Orzhov_Borg_EDH_IRL.csv": 100,
+    "MonoBlack_Pauper_IRL.csv": 60,
+    "MonoRed_Pauper_IRL.csv": 60
+  },
+  "collection_cards": 1395,
+  "collection_distinct_names": 793,
+  "deck_slots": 521,
+  "physical_deck_cards_reserved": 508,
+  "proxies_pending": 13,
+  "available_cards": 887,
+  "available_distinct_names": 537,
+  "proxies_by_name": {
+    "Fireblast": 2,
+    "Grab the Prize": 4,
+    "Kessig Flamebreather": 1,
+    "Lava Dart": 2,
+    "Voldaren Epicure": 4
+  },
+  "notes": [
+    "Exactly seven source CSV member/snapshot files committed without mutating older 2026-11-08 or 2026-11-14 snapshots.",
+    "Lord Xander has 100 Commander cards plus one separate companion Lutri (one physically owned copy) by explicit local house rule, not official legality.",
+    "Mono-Red Burn/Madness has 13 incoming copies currently represented by proxies, excluded from physical ownership/reservations until arrival.",
+    "The older Jund deck is replaced by Korvold as commander; Wasitora appears in the 99.",
+    "Protected Grixis and approved lore artifacts remain unchanged."
+  ]
+}
