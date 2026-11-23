@@ -7,13 +7,12 @@
   "source_archive_sha256": "bed7e300308291ca0c2351761732277d9b99a93f0252c16baf34145308349413",
   "superseded_inventory_archive": "Real_Life_Entire-Collection-11-23-2026.zip",
   "superseded_inventory_archive_sha256": "79d176872765309285b60dcfee546605a994b8ea4f27acfbebd1939cd715f04f",
-  "owner_confirmation": "November 23, 2026: four current Commander and two current Pauper decks; Lord Xander 100 plus Lutri companion allowed locally; Mono-Red shortfalls are incoming proxy copies.",
+  "owner_confirmation": "November 23, 2026: four current Commander and one current Pauper deck. Stefanie's Mono-Black Devotion Pauper was dismantled and its 60 owned cards released for reuse; historical list retained for a future rebuild. Lord Xander 100 plus locally permitted Lutri companion; Mono-Red shortfalls remain 13 incoming proxy copies.",
   "built_decks": [
     "Xander_EDH_IRL.csv",
     "Dihada_EDH_IRL.csv",
     "Korvold_Jund_EDH_IRL.csv",
     "Locutus_Orzhov_Borg_EDH_IRL.csv",
-    "MonoBlack_Pauper_IRL.csv",
     "MonoRed_Pauper_IRL.csv"
   ],
   "active_built_decklists": {
@@ -21,14 +20,13 @@
     "Dihada_EDH_IRL.csv": "data/physical_collection/current_decks/Dihada_EDH_IRL.csv",
     "Korvold_Jund_EDH_IRL.csv": "data/physical_collection/current_decks/Korvold_Jund_EDH_IRL.csv",
     "Locutus_Orzhov_Borg_EDH_IRL.csv": "data/physical_collection/current_decks/Locutus_Orzhov_Borg_EDH_IRL.csv",
-    "MonoBlack_Pauper_IRL.csv": "data/physical_collection/current_decks/MonoBlack_Pauper_IRL.csv",
     "MonoRed_Pauper_IRL.csv": "data/physical_collection/current_decks/MonoRed_Pauper_IRL.csv"
   },
   "owned_cards": 1395,
   "owned_distinct_names": 793,
-  "deck_slots_including_xander_companion": 521,
-  "physical_deck_cards_reserved": 508,
-  "reserved_cards": 508,
+  "deck_slots_including_xander_companion": 461,
+  "physical_deck_cards_reserved": 448,
+  "reserved_cards": 448,
   "proxy_cards_pending": 13,
   "proxies_by_name": {
     "Fireblast": 2,
@@ -37,8 +35,8 @@
     "Lava Dart": 2,
     "Voldaren Epicure": 4
   },
-  "available_cards": 887,
-  "available_distinct_names": 537,
+  "available_cards": 947,
+  "available_distinct_names": 549,
   "current_available_pool": "data/physical_collection/current_available.csv",
   "xander_main_deck_cards_including_commander": 100,
   "xander_companion": "Lutri, the Spellchaser",
@@ -48,5 +46,9 @@
   "original_inventory_snapshot": "2026-11-08",
   "prior_collection_snapshot": "2026-11-14",
   "owned_card_oracle_catalogue_as_of": "2026-11-08",
-  "owned_card_oracle_catalogue_is_current": false
+  "owned_card_oracle_catalogue_is_current": false,
+  "disassembled_built_decks": [
+    "MonoBlack_Pauper_IRL.csv"
+  ],
+  "disassembly_event": "data/physical_collection/updates/2026-11-23_monoblack_devotion_disassembly.json"
 }
