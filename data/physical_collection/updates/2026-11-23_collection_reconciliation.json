@@ -1,0 +1,60 @@
+{
+  "schema": "mtg-physical-collection-reconciliation/v2",
+  "as_of_date": "2026-11-23",
+  "prior_snapshot": "2026-11-14",
+  "prior_owned_copies": 1348,
+  "prior_owned_distinct_names": 766,
+  "owned_copies": 1395,
+  "owned_distinct_names": 793,
+  "built_decks": [
+    "Xander_EDH_IRL.csv",
+    "Dihada_EDH_IRL.csv",
+    "Korvold_Jund_EDH_IRL.csv",
+    "Locutus_Orzhov_Borg_EDH_IRL.csv",
+    "MonoBlack_Pauper_IRL.csv",
+    "MonoRed_Pauper_IRL.csv"
+  ],
+  "active_deck_counts": {
+    "Xander_EDH_IRL.csv": 101,
+    "Dihada_EDH_IRL.csv": 100,
+    "Korvold_Jund_EDH_IRL.csv": 100,
+    "Locutus_Orzhov_Borg_EDH_IRL.csv": 100,
+    "MonoBlack_Pauper_IRL.csv": 60,
+    "MonoRed_Pauper_IRL.csv": 60
+  },
+  "deck_slots": 521,
+  "owned_copies_reserved": 508,
+  "proxies_pending": 13,
+  "proxy_shortfalls": [
+    {
+      "name": "Fireblast",
+      "quantity": 2
+    },
+    {
+      "name": "Grab the Prize",
+      "quantity": 4
+    },
+    {
+      "name": "Kessig Flamebreather",
+      "quantity": 1
+    },
+    {
+      "name": "Lava Dart",
+      "quantity": 2
+    },
+    {
+      "name": "Voldaren Epicure",
+      "quantity": 4
+    }
+  ],
+  "available_copies": 887,
+  "available_distinct_names": 537,
+  "source_master_inventory": "data/physical_collection/2026-11-23/Every_Card_we_own_IRL_corrected.csv",
+  "source_deck_snapshot": "data/physical_collection/2026-11-23/",
+  "notes": [
+    "Corrected collection CSV supersedes the 2026-11-23 inventory ZIP.",
+    "Historical decklists remain untouched; previous active Izzet and Wasitora deck references are retired.",
+    "Xander 101 CSV count represents a legal-sized 100-card main deck plus a Lutri companion permitted only under a local house rule.",
+    "Mono-Red cards not yet owned are tracked as incoming, not inventory."
+  ]
+}

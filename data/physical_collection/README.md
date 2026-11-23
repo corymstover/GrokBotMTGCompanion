@@ -1,79 +1,49 @@
 # Cory and Stefanie's physical Magic collection
 
-**Latest owner-confirmed inventory: November 14, 2026.** This folder tracks actual
-copies owned and their allocation to physically constructed decks. The repository
-contains no proxies or assumed extra copies; the owner's separately available
-basic lands are not silently added to the submitted CSV snapshot.
+**Latest owner-confirmed physical snapshot: November 23, 2026.** Use [current_status.json](current_status.json) and [current_available.csv](current_available.csv) for the current six-deck allocation and cards available for new builds. Exact owner-submitted source CSVs are kept in [2026-11-23/](2026-11-23/), with [manifest](2026-11-23/manifest.json) checksums. Older [November 14](2026-11-14/) and [November 8](2026-11-08/) snapshots remain historical and unchanged.
 
-## Current verified allocation
+## Physical inventory and allocation
 
-| Metric | 2026-11-08 | 2026-11-14 |
+| Metric | Nov 14 | Nov 23 current |
 | --- | ---: | ---: |
-| Owned cards | 1,332 | **1,348** |
-| Distinct owned names | 751 | **766** |
-| Built decks | 4 | **6** |
-| Physical cards reserved | 321 | **521** |
-| Unassigned copies | 1,011 | **827** |
-| Distinct unassigned names | 599 | **508** |
+| Physical copies recorded | 1,348 | **1,395** |
+| Distinct owned names | 766 | **793** |
+| Active built decks | 6 | **6** |
+| Decklist slots including companion | 521 | **521** |
+| Owned copies reserved in active decks | 521 | **508** |
+| Incoming Mono-Red proxy copies | 0 | **13** |
+| Unassigned physically owned copies | 827 | **887** |
+| Distinct available names | 508 | **537** |
 
-Use [current_available.csv](current_available.csv) for **free copies** and
-[current_status.json](current_status.json) for the current allocation. Both are
-calculated from the exact **November 14 source** in
-[2026-11-14/](2026-11-14/), not from November 8's older master.
-All six active cardlists are in [current_decks/](current_decks/).
+**Important:** The 508 owned copies allocated to decks include the one physically owned Lutri companion. The six CSV decklists contain 521 total entries by quantity: 508 actual owned copies + 13 incoming/proxy placeholders. Do not count those placeholders as copies in the physical collection; keep those named deck slots reserved for their arriving cards.
 
-| Owner | Format / commander | Current CSV | Physical cards |
+## Current six decks
+
+| Format | Current deck | Source CSV | Count |
 | --- | --- | --- | ---: |
-| Cory | Lord Xander, the Collector — Grixis Commander | [Xander](current_decks/Xander_EDH_IRL.csv) | 101 including separate Lutri companion |
-| Stefanie | Dihada, Binder of Wills — Mardu Commander | [Dihada](current_decks/Dihada_EDH_IRL.csv) | 100 |
-| Stefanie | Wasitora, Nekoru Queen — Jund Commander | [Wasitora](current_decks/Wasitora_Jund_EDH_IRL.csv) | 100 |
-| Cory | Locutus, the One Who Speaks — Orzhov Borg Commander | [Locutus](current_decks/Locutus_Orzhov_Borg_EDH_IRL.csv) | 100 |
-| Cory | Izzet Mill/Burn Pauper (no sideboard) | [Izzet](current_decks/Izzet_Pauper_IRL.csv) | 60 |
-| Stefanie | Mono-Black Devotion Control Pauper (no sideboard allocated) | [Mono-Black](current_decks/Stefanie_MonoBlack_Pauper_IRL.csv) | 60 |
+| Commander / Grixis | [Lord Xander](current_decks/Xander_EDH_IRL.csv) | [source](2026-11-23/Cory_s_Lord_Xander_IRL_EDH.csv) | 100 + 1 separate companion |
+| Commander / Mardu | [Dihada](current_decks/Dihada_EDH_IRL.csv) | [source](2026-11-23/Stefanie_Dihada_EDH_IRL.csv) | 100 |
+| Commander / Jund | [Korvold](current_decks/Korvold_Jund_EDH_IRL.csv) | [source](2026-11-23/Stefanie_s_IRL_Jund_EDH.csv) | 100 |
+| Commander / Orzhov Borg | [Locutus](current_decks/Locutus_Orzhov_Borg_EDH_IRL.csv) | [source](2026-11-23/Cory_s_IRL_Orzhov_Borg_EDH.csv) | 100 |
+| Pauper | [Mono-Black Devotion Control](current_decks/MonoBlack_Pauper_IRL.csv) | [source](2026-11-23/Mono_Black_Devotion_Control.csv) | 60 |
+| Pauper | [Mono-Red Burn/Madness](current_decks/MonoRed_Pauper_IRL.csv) | [source](2026-11-23/Mono_Red_Madness.csv) | 60 (13 incoming) |
 
-The two new Commander decks each reserve 100 cards. The other four previously
-built lists have **no card-count or card-identity changes** relative to the
-existing repository. Xander's newly supplied source only interchanges two Jace
-CSV row positions, without a card swap. No six-deck overlap exceeds ownership.
+**Lutri companion exception:** Lord Xander's CSV contains 101 physical card entries, including **Lutri, the Spellchaser** as a separate companion; the Commander plus the other 99 cards total 100. Lutri is banned in official Commander. Cory's local game shop permits it as a **Rule 0 house-rule exception**, not a general legality precedent. Lutri is owned, reserved, and excluded from the main-deck count.
 
-## November 14 purchase reconciliation
+**Mono-Red pending arrivals:** 2 Fireblast, 4 Grab the Prize, 1 Kessig Flamebreather, 2 Lava Dart, and 4 Voldaren Epicure (13 total). They are currently proxies and are **not** counted as owned physical copies. All other deck slots are covered by the corrected inventory. Reconcile arrivals only after confirmation that the cards arrived.
 
-The master grew by **16 copies**: 15 newly recorded names and one more
-*Sol'kanar the Swamp King*. See
-[updates/2026-11-14_collection_reconciliation.json](updates/2026-11-14_collection_reconciliation.json)
-for the exact named quantities. Three new cards are already in Stefanie's
-Wasitora deck: *Slimefoot and Squee*, *Vazi, Keen Negotiator* and
-*Yurlok of Scorch Thrash*.
+## Source authority
 
-The original uploaded ZIP is identified by SHA-256 in the November 14
-[manifest](2026-11-14/manifest.json). The ZIP itself is **not committed**;
-all seven original CSV member files are committed at their **exact source
-bytes**, individually SHA-256 verified. Previous November 8 source files,
-historical decklists, swap events, and manifest remain unchanged. The earlier
-README is preserved at
-[2026-11-08/README_state_2026-11-08.md](2026-11-08/README_state_2026-11-08.md).
+The original November 23 full-collection ZIP was superseded by the owner's corrected upload **`every_card we own irl (1).csv`**. The corrected source is [saved verbatim](2026-11-23/Every_Card_we_own_IRL_corrected.csv) alongside exact deck CSVs extracted from **`Real_Life_Decks-11-23-2026.zip`**. The ZIPs are identified by SHA-256 in the new manifest, but their binary archives are not committed. No unlisted basic lands, proxies, or cards on order were silently inserted.
 
-## Verification and data status
+## Validation and history
 
 ```bash
 python3 scripts/audit_physical_collection.py --check
-python3 scripts/audit_physical_collection_2026_11_14.py --check
+python3 scripts/audit_physical_collection_2026_11_23.py --check
 python3 scripts/build_owned_card_knowledge.py check
 ```
 
-The physical-allocation checks use the new 2026-11-14 snapshot. The
-[2026-11-08 owned-card Oracle knowledge](owned_cards/2026-11-08/) is **historical**:
-its Scryfall data and 38 shards cover only the former 751 names. The archived
-[2026-11-08 free pool](2026-11-08/available_as_of_2026-11-08.csv)
-allows that historical catalogue to be checked without falsely labeling it
-current. Do **not** use its old per-card available quantities for 2026-11-14
-deckbuilding; use the live current_available.csv. Newly acquired card Oracle,
-rarity and legality enrichment still requires a separately verified, dated
-Scryfall refresh. Do not mix old printed facts with the new purchase count.
+The first two commands check the **current allocation**. The separate November 8 Oracle/printing knowledge catalogue and its Scryfall evidence stay historical, not proof of live coverage for 793 owned names; the third command checks only that historical snapshot.
 
-**Rules exception:** Cory's Xander list contains **Lutri, the Spellchaser**
-as a separate companion, a Rule 0 exception: Lutri is banned as a Commander
-companion. A physical list is not an official legality certification.
-
-This collection update does not alter the protected 62-deck Grixis
-Encyclopedia, its approvals or hashes, or approved lore decks.
+The approved 62-deck Grixis Encyclopedia, its hashes and exceptions, and approved historical lore-deck lists were not modified.
