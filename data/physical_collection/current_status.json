@@ -1,13 +1,13 @@
 {
   "as_of_date": "2026-11-25",
-  "source_master_inventory": "data/physical_collection/2026-11-25/Every_Card_we_own_IRL_corrected.csv",
-  "source_master_inventory_filename": "every_card we own irl (3).csv",
-  "source_master_inventory_sha256": "818e947ff94695654cbdd3e9b199ed9366ed5a268662a752851330a925dc0714",
+  "source_master_inventory": "data/physical_collection/live_inventory/2026-11-25_after_balrog_sale.csv",
+  "source_master_inventory_filename": "2026-11-25_after_balrog_sale.csv",
+  "source_master_inventory_sha256": "0c23041bbfca5c260dc5a793707054f5d3f8b41031dcbfbe1f92b72272eb72ad",
   "source_archive": "Real_Life_Collection-11-25-2026.zip",
   "source_archive_sha256": "cb8ac3851e542e55f32940f85cb6679d5eaab24d649dae23a5e6104dce7ad106",
   "superseded_inventory_archive": "Real_Life_Entire-Collection-11-23-2026.zip",
   "superseded_inventory_archive_sha256": "79d176872765309285b60dcfee546605a994b8ea4f27acfbebd1939cd715f04f",
-  "owner_confirmation": "November 25, 2026: five built decks; owner-added cards remain unassigned, except 1 Ingris Stingerquill replaces The Balrog, Durin's Bane in Stefanie's Dihada deck. Earlier Mono-Black Pauper disassembly preserved; Xander 100 plus separate local-only Lutri companion, Mono-Red still 13 proxies. November 25 further owner confirmation: current Lord Xander 100 plus separate Lutri updated with exactly 18 physical-card swaps; no changes to other four decks.",
+  "owner_confirmation": "November 25, 2026: five built decks; owner-added cards remain unassigned, except 1 Ingris Stingerquill replaces The Balrog, Durin's Bane in Stefanie's Dihada deck. Earlier Mono-Black Pauper disassembly preserved; Xander 100 plus separate local-only Lutri companion, Mono-Red still 13 proxies. November 25 further owner confirmation: current Lord Xander 100 plus separate Lutri updated with exactly 18 physical-card swaps; no changes to other four decks. Owner correction: The Balrog, Durin's Bane was sold to obtain Ingris Stingerquill and is no longer owned; remove the Balrog's previously unassigned copy.",
   "built_decks": [
     "Xander_EDH_IRL.csv",
     "Dihada_EDH_IRL.csv",
@@ -22,8 +22,8 @@
     "Locutus_Orzhov_Borg_EDH_IRL.csv": "data/physical_collection/current_decks/Locutus_Orzhov_Borg_EDH_IRL.csv",
     "MonoRed_Pauper_IRL.csv": "data/physical_collection/current_decks/MonoRed_Pauper_IRL.csv"
   },
-  "owned_cards": 1471,
-  "owned_distinct_names": 845,
+  "owned_cards": 1470,
+  "owned_distinct_names": 844,
   "deck_slots_including_xander_companion": 461,
   "physical_deck_cards_reserved": 448,
   "reserved_cards": 448,
@@ -35,8 +35,8 @@
     "Lava Dart": 2,
     "Voldaren Epicure": 4
   },
-  "available_cards": 1023,
-  "available_distinct_names": 610,
+  "available_cards": 1022,
+  "available_distinct_names": 609,
   "current_available_pool": "data/physical_collection/current_available.csv",
   "xander_main_deck_cards_including_commander": 100,
   "xander_companion": "Lutri, the Spellchaser",
@@ -57,5 +57,9 @@
   ],
   "xander_current_deck_last_confirmed": "2026-11-25",
   "xander_current_deck_update_event": "data/physical_collection/updates/2026-11-25_lord_xander_upgrade.json",
-  "xander_current_deck_git_blob_sha": "3dcbbae7f369f35cbd1a28c025ff72dfd74fa2d5"
+  "xander_current_deck_git_blob_sha": "3dcbbae7f369f35cbd1a28c025ff72dfd74fa2d5",
+  "uploaded_master_inventory_path": "data/physical_collection/2026-11-25/Every_Card_we_own_IRL_corrected.csv",
+  "uploaded_master_inventory_sha256": "818e947ff94695654cbdd3e9b199ed9366ed5a268662a752851330a925dc0714",
+  "last_physical_inventory_correction": "2026-11-25",
+  "inventory_sale_event": "data/physical_collection/updates/2026-11-25_balrog_sale.json"
 }

@@ -37,8 +37,10 @@ def verify(write=False):
     event_file = "data/physical_collection/updates/2026-11-25_collection_reconciliation.json"
     event = json.loads((ROOT / event_file).read_text(encoding="utf-8"))
     assert status["as_of_date"] == manifest["as_of_date"] == event["as_of_date"] == "2026-11-25"
-    assert status["source_master_inventory"] == "data/physical_collection/2026-11-25/Every_Card_we_own_IRL_corrected.csv"
-    assert status["source_master_inventory_sha256"] == manifest["source_inventory_sha256"]
+    assert status["source_master_inventory"] == "data/physical_collection/live_inventory/2026-11-25_after_balrog_sale.csv"
+    assert status["uploaded_master_inventory_path"] == "data/physical_collection/2026-11-25/Every_Card_we_own_IRL_corrected.csv"
+    assert status["uploaded_master_inventory_sha256"] == manifest["source_inventory_sha256"]
+    assert hashlib.sha256((ROOT / status["source_master_inventory"]).read_bytes()).hexdigest() == status["source_master_inventory_sha256"]
     assert status["source_archive_sha256"] == manifest["source_deck_archive_sha256"]
     assert status["reconciliation_event"] == event_file
     xander_event_path = "data/physical_collection/updates/2026-11-25_lord_xander_upgrade.json"
@@ -53,13 +55,25 @@ def verify(write=False):
     for name, expected in manifest["file_sha256"].items():
         assert hashlib.sha256((SNAP / name).read_bytes()).hexdigest() == expected, name
     assert set(manifest["file_sha256"]) == {"Every_Card_we_own_IRL_corrected.csv"} | {d[0] for d in MAPPING.values()}
-    owned = read_csv(SNAP / "Every_Card_we_own_IRL_corrected.csv")
+    original_upload = read_csv(SNAP / "Every_Card_we_own_IRL_corrected.csv")
+    owned = read_csv(ROOT / status["source_master_inventory"])
     previous = read_csv(OLD / "Every_Card_we_own_IRL_corrected.csv")
-    assert (sum(owned.values()), len(owned)) == (1471, 845)
+    assert (sum(original_upload.values()), len(original_upload)) == (1471, 845)
+    assert (sum(owned.values()), len(owned)) == (1470, 844)
     assert (sum(previous.values()), len(previous)) == (1395, 793)
-    assert dict(owned - previous) == event["added_or_increased_by_name"]
-    assert dict(previous - owned) == event["removed_or_decreased_by_name"] == {"Cavern-Hoard Dragon": 1}
-    assert sum((owned - previous).values()) == 77
+    assert dict(original_upload - previous) == event["added_or_increased_by_name"]
+    assert dict(previous - original_upload) == event["removed_or_decreased_by_name"] == {"Cavern-Hoard Dragon": 1}
+    assert sum((original_upload - previous).values()) == 77
+    sale_path = "data/physical_collection/updates/2026-11-25_balrog_sale.json"
+    sale = json.loads((ROOT / sale_path).read_text(encoding="utf-8"))
+    assert status["inventory_sale_event"] == sale_path
+    assert status["last_physical_inventory_correction"] == "2026-11-25"
+    assert sale["owner_confirmed"] is True and sale["sold_copies"] == 1
+    assert sale["card_sold"] == "The Balrog, Durin's Bane"
+    assert original_upload - owned == Counter({"The Balrog, Durin's Bane": 1})
+    assert owned - original_upload == Counter()
+    assert sale["corrected_live_inventory_sha256"] == status["source_master_inventory_sha256"]
+    assert sale["immutable_original_source_sha256"] == manifest["source_inventory_sha256"]
     assert set(status["built_decks"]) == set(status["active_built_decklists"]) == set(MAPPING)
     assert status["disassembled_built_decks"] == [RETIRED]
     assert not (BASE / "current_decks" / RETIRED).exists()
@@ -94,15 +108,18 @@ def verify(write=False):
     assert total - owned == INCOMING
     assert (sum(total.values()), sum(INCOMING.values())) == (461, 13)
     pool = owned - total
-    assert (sum(pool.values()), len(pool)) == (1023, 610)
+    assert (sum(pool.values()), len(pool)) == (1022, 609)
     assert status["deck_slots_including_xander_companion"] == 461
     assert status["physical_deck_cards_reserved"] == status["reserved_cards"] == 448
     assert status["proxy_cards_pending"] == 13
     assert status["proxies_by_name"] == dict(INCOMING)
-    assert status["owned_cards"] == 1471 and status["owned_distinct_names"] == 845
-    assert status["available_cards"] == 1023 and status["available_distinct_names"] == 610
+    assert status["owned_cards"] == 1470 and status["owned_distinct_names"] == 844
+    assert status["available_cards"] == 1022 and status["available_distinct_names"] == 609
     assert status["current_available_pool"] == "data/physical_collection/current_available.csv"
-    assert pool["The Balrog, Durin's Bane"] == 1
+    assert pool["The Balrog, Durin's Bane"] == 0
+    assert owned["The Balrog, Durin's Bane"] == 0
+    assert owned["Ingris Stingerquill"] == 1
+    assert total["Ingris Stingerquill"] == 1
     assert pool["Ingris Stingerquill"] == 0
     assert pool["Gandalf, Goblins' Bane // Flameshape"] == 1
     assert pool["Fraying Sanity"] == 0 and pool["Hedron Crab"] == 0
@@ -113,10 +130,10 @@ def verify(write=False):
         POOL.write_bytes(expected)
     else:
         assert POOL.read_bytes() == expected, "Current available pool is stale"
-    result = {"verified": True, "as_of_date": "2026-11-25", "owned": 1471,
-              "distinct_owned": 845, "decks": 5, "deck_slots": 461,
+    result = {"verified": True, "as_of_date": "2026-11-25", "owned": 1470,
+              "distinct_owned": 844, "decks": 5, "deck_slots": 461,
               "physical_reserved": 448, "incoming_proxies": 13,
-              "available": 1023, "available_names": 610}
+              "available": 1022, "available_names": 609}
     print(json.dumps(result, sort_keys=True))
     return result
 
