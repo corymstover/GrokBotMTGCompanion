@@ -44,19 +44,35 @@ class PhysicalCollectionSnapshotTests(unittest.TestCase):
         self.assertEqual(result["deck_slots"], 461)
         self.assertEqual(result["physical_reserved"], 448)
         self.assertEqual(result["available"], 1023)
-        self.assertEqual(result["available_names"], 611)
+        self.assertEqual(result["available_names"], 610)
         self.assertEqual(result["incoming_proxies"], 13)
         self.assertEqual(len(MAPPING), 5)
         self.assertEqual(len(ACTIVE_MAPPING), 5)
 
     def test_house_rule_lutri_is_separate_from_main_deck(self):
-        xander = read_csv(SNAP / "Cory_s_Lord_Xander_IRL_EDH.csv")
+        xander = read_csv(BASE / "current_decks" / "Xander_EDH_IRL.csv")
         self.assertEqual(xander["Lord Xander, the Collector"], 1)
         self.assertEqual(xander["Lutri, the Spellchaser"], 1)
         self.assertEqual(sum(xander.values()) - xander["Lutri, the Spellchaser"], 100)
         state = json.loads((BASE / "current_status.json").read_text())
         self.assertTrue(state["xander_companion_counted_outside_main_deck"])
         self.assertIn("banned", state["xander_companion_status"])
+
+    def test_xander_exact_owner_confirmed_upgrade(self):
+        historical = read_csv(SNAP / "Cory_s_Lord_Xander_IRL_EDH.csv")
+        active = read_csv(BASE / "current_decks" / "Xander_EDH_IRL.csv")
+        event = json.loads((BASE / "updates" / "2026-11-25_lord_xander_upgrade.json").read_text())
+        self.assertEqual(historical - active, Counter(dict.fromkeys(event["removed"], 1)))
+        self.assertEqual(active - historical, Counter(dict.fromkeys(event["added"], 1)))
+        self.assertEqual(len(event["added"]), 18)
+        self.assertEqual(len(event["removed"]), 18)
+        self.assertEqual(sum(active.values()), 101)
+        self.assertEqual(active["Lord Xander, the Collector"], 1)
+        self.assertEqual(active["Lutri, the Spellchaser"], 1)
+        self.assertEqual(active["Fraying Sanity"], 1)
+        self.assertEqual(active["Nicol Bolas, God-Pharaoh"], 1)
+        self.assertEqual(active["Sauron, the Dark Lord"], 1)
+        self.assertEqual(event["lands"], 37)
 
     def test_monored_shortfalls_are_proxies_not_owned(self):
         inventory = read_csv(SNAP / "Every_Card_we_own_IRL_corrected.csv")
@@ -67,7 +83,8 @@ class PhysicalCollectionSnapshotTests(unittest.TestCase):
                            "Voldaren Epicure": 4})
         all_decks = Counter()
         for source, _, _ in ACTIVE_MAPPING.values():
-            all_decks.update(read_csv(SNAP / source))
+            live_name = next(name for name, rec in ACTIVE_MAPPING.items() if rec[0] == source)
+            all_decks.update(read_csv(BASE / "current_decks" / live_name))
         self.assertEqual(all_decks - inventory, proxies)
         self.assertEqual(inventory["Fireblast"], 1)
         self.assertEqual(inventory["Kessig Flamebreather"], 3)
@@ -79,11 +96,12 @@ class PhysicalCollectionSnapshotTests(unittest.TestCase):
         inventory = read_csv(SNAP / "Every_Card_we_own_IRL_corrected.csv")
         all_decks = Counter()
         for source, _, _ in ACTIVE_MAPPING.values():
-            all_decks.update(read_csv(SNAP / source))
+            live_name = next(name for name, rec in ACTIVE_MAPPING.items() if rec[0] == source)
+            all_decks.update(read_csv(BASE / "current_decks" / live_name))
         pool = read_csv(BASE / "current_available.csv")
         self.assertEqual(pool, inventory - all_decks)
         self.assertEqual(sum(pool.values()), 1023)
-        self.assertEqual(len(pool), 611)
+        self.assertEqual(len(pool), 610)
 
     def test_monoblack_devotion_released_but_archived(self):
         archived = read_csv(OLD / "Mono_Black_Devotion_Control.csv")
@@ -105,8 +123,10 @@ class PhysicalCollectionSnapshotTests(unittest.TestCase):
         self.assertEqual(before - after, Counter({"The Balrog, Durin's Bane": 1}))
         self.assertEqual(after - before, Counter({"Ingris Stingerquill": 1}))
         pool = read_csv(BASE / "current_available.csv")
-        for name in ["The Balrog, Durin's Bane", "Gandalf, Goblins' Bane // Flameshape", "Fraying Sanity", "Hedron Crab", "Ruin Crab", "Zellix, Sanity Flayer"]:
+        for name in ["The Balrog, Durin's Bane", "Gandalf, Goblins' Bane // Flameshape"]:
             self.assertGreaterEqual(pool[name], 1, name)
+        for name in ["Fraying Sanity", "Hedron Crab", "Ruin Crab", "Zellix, Sanity Flayer", "Nicol Bolas, God-Pharaoh"]:
+            self.assertEqual(pool[name], 0, name)
         self.assertEqual(pool["Ingris Stingerquill"], 0)
         self.assertEqual(pool["Cavern-Hoard Dragon"], 0)
 

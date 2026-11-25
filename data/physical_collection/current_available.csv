@@ -11,9 +11,9 @@ Quantity,Name
 2,Amok Time
 1,An Unexpected Party // At the Door
 1,Anchor to the Aether
-4,Andoria
+3,Andoria
 2,Andromedan Automatons
-2,Anthropological Mission
+1,Anthropological Mission
 2,Arcane Amphisbaena
 1,Arcane Sanctum
 4,Arcane Signet
@@ -47,6 +47,7 @@ Quantity,Name
 1,Blazing Crescendo
 1,Blightning
 1,Blood-Chin Rager
+1,Bloodsoaked Champion
 2,Blossoming Sands
 1,Boarding Action
 1,Bolg's Company
@@ -61,7 +62,7 @@ Quantity,Name
 1,Bubbling Cauldron
 1,Budding Insurgent
 2,"Burn, Burn, Tree and Fern"
-1,Burnished Hart
+2,Burnished Hart
 1,Butcher of Malakir
 1,Cached Defenses
 4,Call of the Conclave
@@ -94,7 +95,7 @@ Quantity,Name
 1,Collective Drone
 1,Collector's Vault
 3,Command the Stage
-1,Commander's Sphere
+2,Commander's Sphere
 2,Common Goal
 1,Compel Brutality
 2,Consider the Prime Directive
@@ -124,7 +125,7 @@ Quantity,Name
 2,Dimir Guildgate
 2,Dimir Keyrune
 1,Dimir Locket
-2,Dimir Signet
+1,Dimir Signet
 1,Dispel
 2,Disperse
 1,Disrupting Scepter
@@ -155,12 +156,12 @@ Quantity,Name
 1,Dwarven Shortsword
 1,Eardrum Rattler
 1,"Edgar, Ancient Bloodlord"
-1,Eject the Warp Core
 1,Elven Raft-Steerer
 1,Elvenking's Halls
 3,Elvenking's Harper
 2,Emergency Holographic Crew
 2,Enduring Scalelord
+1,"Erebos, God of the Dead"
 1,Esgaroth Garrison
 2,Essence Backlash
 1,Essence Scatter
@@ -168,7 +169,6 @@ Quantity,Name
 2,Experiment One
 2,Explosive Vegetation
 1,Faeburrow Elder
-1,Faithless Looting
 1,Fallaji Wayfarer
 1,Fatehold Annex
 1,Fatehold Chronologist // Peer Review
@@ -181,11 +181,11 @@ Quantity,Name
 2,Firemane Avenger
 3,First Contact
 4,Flames of the Firebrand
+1,Fleetfeather Sandals
 2,Flickering Hound
 1,Flood Plain
-2,Fog Bank
+3,Fog Bank
 31,Forest
-1,Fraying Sanity
 1,Frenzied Goblin
 1,Frontier Bivouac
 1,Frontline Medic
@@ -197,6 +197,7 @@ Quantity,Name
 1,"Gandalf, Spark Starter"
 2,"Gandalf, Wandering Wizard"
 1,Gaseous Anomaly
+1,Geier Reach Sanitarium
 1,Genesis Effect
 1,Getaway Barrel
 1,Geyadrone Dihada
@@ -227,12 +228,11 @@ Quantity,Name
 1,Gruul Signet
 1,Guardian of the Halls
 2,Guidance Failure
-4,Guttersnipe
+3,Guttersnipe
 1,"He's Dead, Jim"
 1,Heartstring Puller
 1,Heartwood Crafter // Soul Tether
 2,Hedron Archive
-1,Hedron Crab
 1,Hell's Thunder
 1,Hellraiser Goblin
 1,Hellrider
@@ -260,12 +260,12 @@ Quantity,Name
 24,Island
 1,Izzet Charm
 1,Izzet Cluestone
-1,Izzet Guildgate
+2,Izzet Guildgate
 2,Izzet Keyrune
 1,Izzet Locket
-2,Izzet Signet
+1,Izzet Signet
 1,Jace's Ingenuity
-6,Jace's Phantasm
+7,Jace's Phantasm
 1,Jalum Tome
 1,Jared Carthalion
 1,"Jared Carthalion, True Heir"
@@ -277,6 +277,7 @@ Quantity,Name
 1,"Josu Vess, Lich Knight"
 1,Jungle Shrine
 2,"Kai Winn, Faithless Leader"
+1,"Kardur, Doomscourge"
 1,Key to the Side-Door
 2,Khaaaaaaaaaaaannn!
 1,"Kirk, Commanding Officer"
@@ -349,7 +350,6 @@ Quantity,Name
 1,Naya Charm
 2,"Neelix, Moral Support"
 1,"Nethroi, Apex of Death"
-1,"Nicol Bolas, God-Pharaoh"
 2,No Admittance
 4,Nomad Outpost
 2,"Nori, Teller of Tales"
@@ -380,7 +380,7 @@ Quantity,Name
 1,"Pia, Aether Ascetic"
 1,"Pia, Determined Rebuilder"
 2,"Picard, Leading by Example"
-1,Pilfered Plans
+2,Pilfered Plans
 1,Pillar of Flame
 18,Plains
 2,Planetary Bombardment
@@ -393,11 +393,11 @@ Quantity,Name
 1,Precise Redaction
 3,Predictive Preparations
 1,Primeval Spawn
+1,"Professor Zei, Anthropologist"
 1,Protege's Awakening
 1,Psychic Barrier
 1,Psychic Strike
 1,Pyre Rhymer // Molten Tide
-1,Quark's Bar
 1,Quest for the Gravelord
 1,Quietus Spike
 1,Radiant Flames
@@ -407,7 +407,9 @@ Quantity,Name
 1,Rakdos Keyrune
 2,Rakdos Signet
 1,Rancor
+1,Rank Rat
 2,Ravening Warg
+1,Reassembling Skeleton
 1,Reckless Impulse
 1,Reclaim
 2,Reduce in Stature
@@ -425,7 +427,6 @@ Quantity,Name
 1,Royal Assassin
 1,Rubblebelt Raiders
 1,Rug of Smothering
-1,Ruin Crab
 1,Rules of Acquisition
 1,Rupture Spire
 1,"Ruric Thar, Magecrusher"
@@ -438,7 +439,6 @@ Quantity,Name
 1,Sarkhan's Triumph
 2,Satyr Grovedancer
 1,"Sauron, Lord of the Rings"
-1,"Sauron, the Dark Lord"
 1,Scion of Ugin
 1,Screamreach Brawler
 1,Screeching Soulbreaker
@@ -483,7 +483,6 @@ Quantity,Name
 1,Stir Up Trouble
 1,Stone by Sunlight
 3,Stony-Voiced Goblins
-1,Stormcatch Mentor
 1,Stormrider Rig
 1,Stormwing Dragon
 1,Subterranean Scout
@@ -502,9 +501,7 @@ Quantity,Name
 2,"Tajic, Blade of the Legion"
 1,Take Up Arms
 3,Tal Shiar Operative
-1,Talisman of Dominance
 1,Talisman of Impulse
-1,Talisman of Indulgence
 1,"Talrand, Sky Summoner"
 1,"Tea, Earl Grey, Hot"
 1,Temple of Triumph
@@ -514,7 +511,7 @@ Quantity,Name
 1,"Tenza, Godo's Maul"
 1,Terminal Agony
 2,Test of Identity
-2,Test of Priorities
+1,Test of Priorities
 1,Tethermage's Advantage
 1,"Tetsuko Umezawa, Fugitive"
 1,"Tetsuko Umezawa, Pursuer"
@@ -533,11 +530,14 @@ Quantity,Name
 4,Thought Scour
 1,"Thranduil, the Elvenking"
 2,Thranduil's Decree
+1,Thrill of Possibility
 1,Thunderbreak Regent
 3,Thunderous Wrath
 2,Tidings of War
 1,Tiller Engine
 1,Time Wipe
+1,"Tinybones, Bauble Burglar"
+1,"Tinybones, Pocket Nuisance"
 1,"Titanbones, Towering Heart"
 4,Titanic Growth
 4,Tome Scour
@@ -598,14 +598,13 @@ Quantity,Name
 1,Wizard's Staff
 1,Wood Elves
 1,Woodland Weavemaster
-1,Worn Powerstone
+2,Worn Powerstone
 1,Wrath of the Bloodmane
 1,Wrecking Gecko
 1,"Xyris, the Writhing Storm"
 1,Yurlok of Scorch Thrash
 1,"Zaxara, the Exemplary"
 2,"Zefram Cochrane, Warp Pioneer"
-1,"Zellix, Sanity Flayer"
 1,"Zero, Incorporeal Sensate"
 1,"Zetalpa, Primal Dawn"
 1,"Zevlor, Elturel Exile"

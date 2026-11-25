@@ -9,6 +9,10 @@ import hashlib
 import json
 from collections import Counter
 from pathlib import Path
+
+
+def git_blob_sha(data: bytes) -> str:
+    return hashlib.sha1(b"blob " + str(len(data)).encode() + b"\0" + data).hexdigest()
 from audit_physical_collection_2026_11_23 import read_csv, available_csv, INCOMING
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -37,6 +41,15 @@ def verify(write=False):
     assert status["source_master_inventory_sha256"] == manifest["source_inventory_sha256"]
     assert status["source_archive_sha256"] == manifest["source_deck_archive_sha256"]
     assert status["reconciliation_event"] == event_file
+    xander_event_path = "data/physical_collection/updates/2026-11-25_lord_xander_upgrade.json"
+    xander_event = json.loads((ROOT / xander_event_path).read_text(encoding="utf-8"))
+    assert xander_event["owner_confirmed"] is True
+    assert xander_event["date"] == "2026-11-25"
+    assert status["xander_current_deck_update_event"] == xander_event_path
+    assert status["xander_current_deck_last_confirmed"] == "2026-11-25"
+    assert status["xander_current_deck_git_blob_sha"] == xander_event["current_git_blob_sha"]
+    assert len(xander_event["added"]) == len(xander_event["removed"]) == 18
+    assert len(set(xander_event["added"])) == len(set(xander_event["removed"])) == 18
     for name, expected in manifest["file_sha256"].items():
         assert hashlib.sha256((SNAP / name).read_bytes()).hexdigest() == expected, name
     assert set(manifest["file_sha256"]) == {"Every_Card_we_own_IRL_corrected.csv"} | {d[0] for d in MAPPING.values()}
@@ -53,37 +66,48 @@ def verify(write=False):
     assert sum(read_csv(OLD / "Mono_Black_Devotion_Control.csv").values()) == 60
     total = Counter()
     for filename, (source, expected_size, commander) in MAPPING.items():
-        deck = read_csv(SNAP / source)
-        assert sum(deck.values()) == expected_size, filename
+        historical = read_csv(SNAP / source)
+        live_path = BASE / "current_decks" / filename
+        deck = read_csv(live_path)
+        assert sum(historical.values()) == sum(deck.values()) == expected_size, filename
         assert status["active_built_decklists"][filename] == "data/physical_collection/current_decks/" + filename
-        assert (BASE / "current_decks" / filename).read_bytes() == (SNAP / source).read_bytes(), filename
+        if filename == "Xander_EDH_IRL.csv":
+            assert historical - deck == Counter(dict.fromkeys(xander_event["removed"], 1))
+            assert deck - historical == Counter(dict.fromkeys(xander_event["added"], 1))
+            assert git_blob_sha((SNAP / source).read_bytes()) == xander_event["previous_git_blob_sha"]
+            assert git_blob_sha(live_path.read_bytes()) == xander_event["current_git_blob_sha"]
+        else:
+            assert live_path.read_bytes() == (SNAP / source).read_bytes(), filename
         if commander:
             assert deck[commander] == 1, commander
         old_deck = read_csv(OLD / source)
         if filename == "Dihada_EDH_IRL.csv":
-            assert old_deck - deck == Counter({"The Balrog, Durin's Bane": 1})
-            assert deck - old_deck == Counter({"Ingris Stingerquill": 1})
+            assert old_deck - historical == Counter({"The Balrog, Durin's Bane": 1})
+            assert historical - old_deck == Counter({"Ingris Stingerquill": 1})
         else:
-            assert old_deck == deck, filename
+            assert old_deck == historical, filename
         total.update(deck)
-    xander = read_csv(SNAP / "Cory_s_Lord_Xander_IRL_EDH.csv")
+    xander = read_csv(BASE / "current_decks" / "Xander_EDH_IRL.csv")
     assert xander["Lutri, the Spellchaser"] == 1 and sum(xander.values()) == 101
     assert status["xander_main_deck_cards_including_commander"] == 100
     assert status["xander_companion_counted_outside_main_deck"] is True
     assert total - owned == INCOMING
     assert (sum(total.values()), sum(INCOMING.values())) == (461, 13)
     pool = owned - total
-    assert (sum(pool.values()), len(pool)) == (1023, 611)
+    assert (sum(pool.values()), len(pool)) == (1023, 610)
     assert status["deck_slots_including_xander_companion"] == 461
     assert status["physical_deck_cards_reserved"] == status["reserved_cards"] == 448
     assert status["proxy_cards_pending"] == 13
     assert status["proxies_by_name"] == dict(INCOMING)
     assert status["owned_cards"] == 1471 and status["owned_distinct_names"] == 845
-    assert status["available_cards"] == 1023 and status["available_distinct_names"] == 611
+    assert status["available_cards"] == 1023 and status["available_distinct_names"] == 610
     assert status["current_available_pool"] == "data/physical_collection/current_available.csv"
     assert pool["The Balrog, Durin's Bane"] == 1
     assert pool["Ingris Stingerquill"] == 0
     assert pool["Gandalf, Goblins' Bane // Flameshape"] == 1
+    assert pool["Fraying Sanity"] == 0 and pool["Hedron Crab"] == 0
+    assert pool["Ruin Crab"] == 0 and pool["Zellix, Sanity Flayer"] == 0
+    assert pool["Nicol Bolas, God-Pharaoh"] == 0
     expected = available_csv(pool, owned)
     if write:
         POOL.write_bytes(expected)
@@ -92,7 +116,7 @@ def verify(write=False):
     result = {"verified": True, "as_of_date": "2026-11-25", "owned": 1471,
               "distinct_owned": 845, "decks": 5, "deck_slots": 461,
               "physical_reserved": 448, "incoming_proxies": 13,
-              "available": 1023, "available_names": 611}
+              "available": 1023, "available_names": 610}
     print(json.dumps(result, sort_keys=True))
     return result
 
