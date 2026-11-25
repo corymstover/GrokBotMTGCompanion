@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Audit owner-confirmed 2026-11-23 physical inventory and active six decks.
+"""Audit the November 23 immutable six-deck source and live five-deck allocation.
 
 The owner's corrected CSV is authoritative. Incoming Mono-Red proxy copies
 are deck placeholders, not physical inventory. This is a copy-allocation
@@ -30,6 +30,8 @@ MAPPING = {
     "MonoBlack_Pauper_IRL.csv": ("Mono_Black_Devotion_Control.csv", 60, None),
     "MonoRed_Pauper_IRL.csv": ("Mono_Red_Madness.csv", 60, None),
 }
+RETIRED = "MonoBlack_Pauper_IRL.csv"
+ACTIVE_MAPPING = {name: spec for name, spec in MAPPING.items() if name != RETIRED}
 INCOMING = Counter({"Fireblast": 2, "Grab the Prize": 4,
                     "Kessig Flamebreather": 1, "Lava Dart": 2,
                     "Voldaren Epicure": 4})
@@ -74,17 +76,21 @@ def verify(write: bool = False) -> dict:
     owned = read_csv(MASTER)
     assert sum(owned.values()) == 1395 and len(owned) == 793
     assert status["source_master_inventory"] == "data/physical_collection/2026-11-23/Every_Card_we_own_IRL_corrected.csv"
-    assert set(status["built_decks"]) == set(MAPPING)
-    assert set(status["active_built_decklists"]) == set(MAPPING)
+    assert set(status["built_decks"]) == set(ACTIVE_MAPPING)
+    assert set(status["active_built_decklists"]) == set(ACTIVE_MAPPING)
+    assert status["disassembled_built_decks"] == [RETIRED]
 
     slots = Counter()
     red = None
     for current, (source, expected_size, commander) in MAPPING.items():
+        deck = read_csv(SNAP / source)
+        assert sum(deck.values()) == expected_size, current
+        if current == RETIRED:
+            assert not (BASE / "current_decks" / current).exists(), "Retired deck still listed as current"
+            continue
         expected_path = f"data/physical_collection/current_decks/{current}"
         assert status["active_built_decklists"][current] == expected_path
-        deck = read_csv(SNAP / source)
         assert (BASE / "current_decks" / current).read_bytes() == (SNAP / source).read_bytes(), current
-        assert sum(deck.values()) == expected_size, current
         if commander:
             assert deck[commander] == 1, f"Missing commander: {commander}"
         if current == "Xander_EDH_IRL.csv":
@@ -95,19 +101,28 @@ def verify(write: bool = False) -> dict:
             red = deck
         slots.update(deck)
     assert red is not None
+    event_path = "data/physical_collection/updates/2026-11-23_monoblack_devotion_disassembly.json"
+    assert status["disassembly_event"] == event_path
+    event = json.loads((ROOT / event_path).read_text(encoding="utf-8"))
+    archived_black = read_csv(SNAP / MAPPING[RETIRED][0])
+    assert event["deck"] == RETIRED
+    assert event["preserved_source_decklist"] == f"data/physical_collection/2026-11-23/{MAPPING[RETIRED][0]}"
+    assert event["cards_released"] == dict(archived_black)
+    assert sum(archived_black.values()) == event["quantity_released"] == 60
+    assert len(archived_black) == event["distinct_names_released"] == 15
     outstanding = slots - owned
     assert outstanding == INCOMING, f"Unexpected inventory shortfall: {outstanding}"
     assert all(red[name] >= qty for name, qty in outstanding.items())
-    assert sum(slots.values()) == 521
+    assert sum(slots.values()) == status["deck_slots_including_xander_companion"] == 461
     assert sum(outstanding.values()) == 13
     available = owned - slots
-    assert (sum(available.values()), len(available)) == (887, 537)
-    assert status["reserved_cards"] == 508
-    assert status["physical_deck_cards_reserved"] == 508
+    assert (sum(available.values()), len(available)) == (947, 549)
+    assert status["reserved_cards"] == 448
+    assert status["physical_deck_cards_reserved"] == 448
     assert status["proxy_cards_pending"] == 13
     assert status["proxies_by_name"] == dict(INCOMING)
-    assert status["available_cards"] == 887
-    assert status["available_distinct_names"] == 537
+    assert status["available_cards"] == 947
+    assert status["available_distinct_names"] == 549
     assert status["current_available_pool"] == "data/physical_collection/current_available.csv"
     assert manifest["deck_counts"] == {name: count for name, (_, count, _) in MAPPING.items()}
     expected_csv = available_csv(available, owned)
@@ -116,9 +131,9 @@ def verify(write: bool = False) -> dict:
     else:
         assert POOL.read_bytes() == expected_csv, "Stale available-card CSV"
     result = {"verified": True, "date": "2026-11-23", "owned": 1395,
-              "distinct_owned": 793, "decks": 6, "deck_slots": 521,
-              "physical_reserved": 508, "incoming_proxies": 13,
-              "available": 887, "available_names": 537}
+              "distinct_owned": 793, "decks": 5, "deck_slots": 461,
+              "physical_reserved": 448, "incoming_proxies": 13,
+              "available": 947, "available_names": 549}
     print(json.dumps(result, sort_keys=True))
     return result
 

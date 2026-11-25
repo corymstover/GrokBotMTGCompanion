@@ -1,10 +1,8 @@
 #!/usr/bin/env python3
-"""Audit the immutable six-deck snapshot and owner-confirmed live allocations.
+"""Audit immutable historic snapshots and route to the latest physical allocation.
 
-The original ZIP, master inventory and six historical decklists are never edited.
-Both rebuilt Commander decks and the two newly sleeved Pauper decks are
-independently reproduced from owner confirmations. The current pool subtracts
-all four live decks from the immutable physical master.
+Historical source decklists are preserved even when the owner disassembles
+one of the previously built decks. The current pool follows current_status.json.
 """
 
 from __future__ import annotations

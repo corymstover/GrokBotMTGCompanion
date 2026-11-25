@@ -34,6 +34,7 @@ Quantity,Name
 1,Banefire
 1,Bard the Bowman
 1,Battle Brawler
+3,Battle-Scarred Survivalist
 2,"Beckett Mariner, Impetuous Ensign"
 1,Bellows Lizard
 2,"Bifur, Melodic Rider"
@@ -88,6 +89,7 @@ Quantity,Name
 2,Common Goal
 1,Compel Brutality
 2,Consider the Prime Directive
+4,Corrupt
 1,Crucible of Fire
 1,Crude Bent Blade
 1,Crusader of Odric
@@ -129,13 +131,14 @@ Quantity,Name
 2,Dromoka's Gift
 4,Druid's Deliverance
 1,Duneblast
-2,Duress
+5,Duress
 1,Duskmantle Guildmage
 4,Duskwatch Hunter
 1,Dwarven Provisioner
 1,Dwarven Shortsword
 1,Eardrum Rattler
 1,"Edgar, Ancient Bloodlord"
+1,Eject the Warp Core
 1,Elven Raft-Steerer
 1,Elvenking's Halls
 3,Elvenking's Harper
@@ -191,6 +194,7 @@ Quantity,Name
 1,Graft Surgeon
 1,Graveblade Marauder
 2,"Gray and Adira, Forever Joined"
+3,Gray Merchant of Asphodel
 3,Graypelt Refuge
 2,Great Fierce Bee
 1,Great Ugly-Looking Goblin // Clap! Snap!
@@ -199,6 +203,7 @@ Quantity,Name
 1,Guardian of the Halls
 2,Guidance Failure
 4,Guttersnipe
+1,"He's Dead, Jim"
 1,Heartstring Puller
 1,Heartwood Crafter // Soul Tether
 1,Hell's Thunder
@@ -258,6 +263,7 @@ Quantity,Name
 1,Lightning Javelin
 1,Lightning Shrieker
 1,Lightning Strike
+4,Liliana's Shade
 1,"Locutus, the One Who Speaks"
 2,Long Lake Nuisance
 2,Long-Bodied Grey Dog
@@ -297,7 +303,7 @@ Quantity,Name
 1,Most Decrepit Old Bird // Speak Secrets
 57,Mountain
 1,Mudbutton Torchrunner
-1,Murder
+3,Murder
 2,Murder Investigation
 1,Murmuring Bosk
 1,Mystic Monastery
@@ -355,9 +361,11 @@ Quantity,Name
 1,Raise the Alarm
 1,Rakdos Carnarium
 1,Rancor
+2,Ravening Warg
 1,Reckless Impulse
 1,Reclaim
 2,Reduce in Stature
+3,Relentless Drednok
 1,Reliquary Tower
 1,Repurposed Enforcer
 2,Return to the Earth
@@ -400,6 +408,7 @@ Quantity,Name
 1,Shivan Gorge
 5,Shock
 2,Shuttle Ace
+2,Sign in Blood
 1,Silence
 1,Silicate Surveyor
 2,Silvan Reveler
@@ -417,11 +426,13 @@ Quantity,Name
 1,Sphinx's Approach
 1,Sprinting Warbrute
 1,Squelching Leeches
+2,Stab Wound
 1,Starfleet Security
 4,Starfleet Spanner Jockey
 1,Stern Mentor
 1,Stingerquill Voxmancer // Vicious Verse
 1,Stone by Sunlight
+3,Stony-Voiced Goblins
 1,Stormcatch Mentor
 1,Stormrider Rig
 1,Stormwing Dragon
@@ -430,7 +441,7 @@ Quantity,Name
 1,Surrak Dragonclaw
 4,Suurok-Class Science Vessel
 1,Suus Mahna Practitioner
-3,Swamp
+27,Swamp
 1,Swift Warkite
 1,Sword of the Chosen
 1,Sylvan Reclamation
@@ -439,6 +450,7 @@ Quantity,Name
 3,Tactical Officer
 2,"Tajic, Blade of the Legion"
 1,Take Up Arms
+3,Tal Shiar Operative
 1,"Talrand, Sky Summoner"
 1,"Tea, Earl Grey, Hot"
 1,Temple of Triumph
