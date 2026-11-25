@@ -109,8 +109,15 @@ class PhysicalCollectionSnapshotTests(unittest.TestCase):
         self.assertEqual(len(archived), 15)
         self.assertFalse((BASE / "current_decks" / RETIRED).exists())
         pool = read_csv(BASE / "current_available.csv")
-        for name, count in archived.items():
-            self.assertGreaterEqual(pool[name], count, name)
+        owned = read_csv(SNAP / "Every_Card_we_own_IRL_corrected.csv")
+        active = Counter()
+        for filename in ACTIVE_MAPPING:
+            active.update(read_csv(BASE / "current_decks" / filename))
+        # Retired deck copies are in circulation: they may subsequently be
+        # assigned to other live decks (e.g., Eject the Warp Core in Xander).
+        for name in archived:
+            self.assertEqual(pool[name], max(0, owned[name] - active[name]), name)
+        self.assertEqual(read_csv(BASE / "current_decks" / "Xander_EDH_IRL.csv")["Eject the Warp Core"], 1)
         state = json.loads((BASE / "current_status.json").read_text())
         self.assertNotIn(RETIRED, state["built_decks"])
         self.assertEqual(state["disassembled_built_decks"], [RETIRED])
