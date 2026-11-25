@@ -1,0 +1,87 @@
+1x Adriana, Captain of the Guard (dmc) [Anthem]
+1x Alesha, Who Smiles at Death (dmc) [Recursion]
+1x Arcane Signet (fdc) [Ramp]
+1x Arvad the Cursed (moc) [Anthem]
+1x Astarion, the Decadent (clb) [Lifegain]
+1x Aurelia, the Warleader (fdn) [Finisher]
+1x Austere Command (fdc) [Removal]
+1x Battlefield Forge (blc)
+1x Bedevil (dmc) [Removal]
+1x Belladonna Took (hob) [Draw]
+1x Bladewing, Deathless Tyrant (dmc) [Tokens]
+1x Blood Crypt (trk) *F*
+1x Bojuka Bog (soc)
+1x Bontu's Monument (drc) [Ramp]
+1x Boros Garrison (c21)
+1x Cadric, Soul Kindler (dmc) [Tokens]
+1x Captain Lannery Storm (otc) [Ramp]
+1x Caves of Koilos (frc)
+1x Celebrate the Mountain-king (hob) [Removal]
+1x Clive's Hideaway (fin)
+1x Command Tower (plst)
+1x Dihada, Binder of Wills (dmc) [Commander{top}]
+1x Dragonskull Summit (dmc)
+1x Drana, Liberator of Malakir (lcc) [Counters]
+1x Edgar, Ancient Bloodlord (fra) [Lifegain]
+1x Elas il-Kor, Sadistic Pilgrim (dmu) [Drain]
+1x Etali, Primal Storm (fdn) [Draw]
+1x Evolving Wilds (drc)
+1x Faithless Looting (soc) [Draw]
+1x Fellwar Stone (frc) [Ramp]
+1x Flare of Fortitude (sds) [Protection]
+1x Foreboding Ruins (dmc)
+1x Garna, Bloodfist of Keld (dmu) [Draw]
+1x Garna, the Bloodflame (dmc) [Recursion]
+1x Generous Gift (dmc) [Removal]
+1x Gleaming Splendor (hob) [Ramp]
+1x Hammer of Purphoros (eoc) [Anthem]
+1x Hazoret's Monument (fdc) [Ramp]
+1x Hellrider (jmp) [Burn]
+1x Heroes' Podium (dmc) [Draw]
+1x Hobbit Hole (hob)
+1x Ingris Stingerquill (fra) [Burn]
+1x Kardur, Doomscourge (khm) [Protection]
+1x Kolaghan's Command (m3c) [Removal]
+1x Krenko, Mob Boss (m13) [Tokens]
+1x Krenko, Tin Street Kingpin (dmc) [Tokens]
+1x Legion's Initiative (2x2) [Protection]
+1x Meticulous Commons (fra)
+1x Mirror of Galadriel (ltr) [Draw]
+1x Mortify (onc) [Removal]
+5x Mountain (ltr) 720 *F*
+1x Mountain Valley (dmc)
+1x Nahiri, the Harbinger (cmm) [Removal]
+1x Neheb, Dreadhorde Champion (dmc) [Draw]
+1x Night's Whisper (soc) [Draw]
+1x Nomad Outpost (c20)
+1x Odric, Lunarch Marshal (inr) [Anthem]
+1x Oketra's Monument (dmc) [Ramp]
+1x Orzhov Basilica (dmc)
+1x Path to Exile (frc) [Removal]
+1x Piru, the Volatile (mh2) [Removal]
+7x Plains (ltr) 714 *F*
+1x Primevals' Glorious Rebirth (dmc) [Recursion]
+1x Rakdos Signet (frc) [Ramp]
+1x Read the Bones (j25) [Draw]
+1x Samut, Hazoret's Champion (fra) [Anthem]
+1x Shanid, Sleepers' Scourge (dmc) [Draw]
+1x Shizo, Death's Storehouse (dmc)
+1x Smaug, Wicked Worm (hob) [Draw]
+1x Smoldering Marsh (dmc)
+1x Sol Ring (fdc) [Ramp]
+1x Super-Adaptoid (msh) [Counters]
+4x Swamp (ltr) 718 *F*
+1x Sword of the Animist (plst) [Ramp]
+1x Temple of Malice (dmc)
+1x Temple of Silence (dmc)
+1x Temple of Triumph (otc)
+1x Teshar, Ancestor's Apostle (dmc) [Recursion]
+1x The Peregrine Dynamo (dmc) [Copy]
+1x The Reaver Cleaver (m3c) [Ramp]
+1x The Sackville-Bagginses (hob) [Drain]
+1x Urza's Ruinous Blast (cmm) [Removal]
+1x Way of the Mentor (fra) [Counters]
+1x Wear // Tear (pip) [Removal]
+1x Windcrag Siege (ptdm) [Copy]
+1x Zeriam, Golden Wind (dmc) [Tokens]
+1x Zurgo Helmsmasher (ddn) *F* [Counters]

@@ -44,7 +44,7 @@ class PhysicalCollectionSnapshotTests(unittest.TestCase):
         self.assertEqual(result["deck_slots"], 461)
         self.assertEqual(result["physical_reserved"], 448)
         self.assertEqual(result["available"], 1022)
-        self.assertEqual(result["available_names"], 609)
+        self.assertEqual(result["available_names"], 610)
         self.assertEqual(result["incoming_proxies"], 13)
         self.assertEqual(len(MAPPING), 5)
         self.assertEqual(len(ACTIVE_MAPPING), 5)
@@ -84,6 +84,22 @@ class PhysicalCollectionSnapshotTests(unittest.TestCase):
         self.assertEqual(live - uploaded, Counter())
         self.assertEqual(live["Ingris Stingerquill"], 1)
 
+    def test_dihada_exact_owner_confirmed_five_swaps(self):
+        original = read_csv(SNAP / "Stefanie_Dihada_EDH_IRL.csv")
+        active = read_csv(BASE / "current_decks" / "Dihada_EDH_IRL.csv")
+        event = json.loads((BASE / "updates" / "2026-11-25_dihada_upgrade.json").read_text())
+        self.assertEqual(original - active, Counter(dict.fromkeys(event["removed"], 1)))
+        self.assertEqual(active - original, Counter(dict.fromkeys(event["added"], 1)))
+        self.assertEqual(sum(active.values()), 100)
+        self.assertEqual(active["Dihada, Binder of Wills"], 1)
+        for keep in ["Piru, the Volatile", "Heroes' Podium", "Zeriam, Golden Wind", "Ingris Stingerquill"]:
+            self.assertEqual(active[keep], 1)
+        for addition in event["added"]:
+            self.assertEqual(active[addition], 1)
+        self.assertEqual(len(event["added"]), len(event["removed"]))
+        self.assertEqual(event["lands"], 36)
+        self.assertTrue((ROOT / event["approved_full_user_list"]).read_text().startswith("1x Adriana, Captain of the Guard (dmc)"))
+
     def test_monored_shortfalls_are_proxies_not_owned(self):
         state = json.loads((BASE / "current_status.json").read_text())
         inventory = read_csv(ROOT / state["source_master_inventory"])
@@ -113,7 +129,7 @@ class PhysicalCollectionSnapshotTests(unittest.TestCase):
         pool = read_csv(BASE / "current_available.csv")
         self.assertEqual(pool, inventory - all_decks)
         self.assertEqual(sum(pool.values()), 1022)
-        self.assertEqual(len(pool), 609)
+        self.assertEqual(len(pool), 610)
 
     def test_monoblack_devotion_released_but_archived(self):
         archived = read_csv(OLD / "Mono_Black_Devotion_Control.csv")

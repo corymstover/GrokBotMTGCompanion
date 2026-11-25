@@ -43,6 +43,7 @@ Quantity,Name
 2,"Bifur, Melodic Rider"
 2,"Bilbo Baggins, Burglar // Take a Glance"
 1,"Bilbo, Luckwearer // Burglar's Plot"
+1,Blackblade Reforged
 1,Blastoneuron
 1,Blazing Crescendo
 1,Blightning
@@ -59,6 +60,7 @@ Quantity,Name
 2,Boughside Wanderers
 1,Bow of Nylea
 1,"Brad Boimler, Eager Ensign"
+1,Brion Stoutarm
 1,Bubbling Cauldron
 1,Budding Insurgent
 2,"Burn, Burn, Tree and Fern"
@@ -114,6 +116,7 @@ Quantity,Name
 2,"Daniels, Temporal Agent"
 1,Dark Matter Manipulator
 3,Dathon and Picard at El-Adrel
+1,Day of Destiny
 1,Decanter of Endless Water
 1,Deep Space Scan
 2,Defend the Hearth
@@ -155,7 +158,6 @@ Quantity,Name
 1,Dwarven Provisioner
 1,Dwarven Shortsword
 1,Eardrum Rattler
-1,"Edgar, Ancient Bloodlord"
 1,Elven Raft-Steerer
 1,Elvenking's Halls
 3,Elvenking's Harper
@@ -235,7 +237,6 @@ Quantity,Name
 2,Hedron Archive
 1,Hell's Thunder
 1,Hellraiser Goblin
-1,Hellrider
 1,Herald of Anafenza
 1,Herald of Dromoka
 1,Hero of Precinct One
@@ -243,6 +244,7 @@ Quantity,Name
 2,Heroes' Reunion
 1,Hexhaven Battalion
 1,Hologram Stalker
+1,Honor-Worn Shaku
 4,Horta
 1,Hunter's Axe
 2,"I'm a Doctor, Not a . . ."
@@ -333,7 +335,6 @@ Quantity,Name
 1,"Mirko Vosk, Mind Drinker"
 3,Mirkwood Meditator
 1,Mirkwood Nurturer
-1,Mirror of Galadriel
 1,Mobilized District
 1,"Moira, Urborg Haunt"
 2,Moment of Glory
@@ -405,7 +406,7 @@ Quantity,Name
 1,Raise the Alarm
 1,Rakdos Carnarium
 1,Rakdos Keyrune
-2,Rakdos Signet
+1,Rakdos Signet
 1,Rancor
 1,Rank Rat
 2,Ravening Warg
@@ -557,6 +558,7 @@ Quantity,Name
 2,Tuskguard Captain
 1,Two-Headed Cerberus
 1,Two-Headed Hellkite
+1,"Tymaret, the Murder King"
 1,Typhoid Rats
 1,"Una Chin-Riley, Number One"
 1,Undulating Witness
@@ -592,7 +594,6 @@ Quantity,Name
 1,Wilderland Scrounger
 1,Wildfire Cerberus
 1,Wind-Scarred Crag
-1,Windcrag Siege
 1,"Winter, Team Player"
 1,Wizard's Staff
 1,Wood Elves
