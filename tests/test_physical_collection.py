@@ -18,7 +18,7 @@ SPEC = importlib.util.spec_from_file_location(
 assert SPEC and SPEC.loader
 audit = importlib.util.module_from_spec(SPEC)
 SPEC.loader.exec_module(audit)
-from audit_physical_collection_2026_11_23 import BASE, MAPPING, ACTIVE_MAPPING, RETIRED, SNAP, read_csv, verify
+from audit_physical_collection_2026_11_25 import BASE, MAPPING, ACTIVE_MAPPING, RETIRED, SNAP, OLD, read_csv, verify
 
 
 class PhysicalCollectionSnapshotTests(unittest.TestCase):
@@ -36,17 +36,17 @@ class PhysicalCollectionSnapshotTests(unittest.TestCase):
         with redirect_stdout(io.StringIO()):
             audit.main(write=False)
 
-    def test_owner_source_six_archived_decks_and_five_active_decks(self):
+    def test_owner_source_november_25_and_five_active_decks(self):
         with redirect_stdout(io.StringIO()):
             result = verify(write=False)
-        self.assertEqual(result["owned"], 1395)
-        self.assertEqual(result["distinct_owned"], 793)
+        self.assertEqual(result["owned"], 1471)
+        self.assertEqual(result["distinct_owned"], 845)
         self.assertEqual(result["deck_slots"], 461)
         self.assertEqual(result["physical_reserved"], 448)
-        self.assertEqual(result["available"], 947)
-        self.assertEqual(result["available_names"], 549)
+        self.assertEqual(result["available"], 1023)
+        self.assertEqual(result["available_names"], 611)
         self.assertEqual(result["incoming_proxies"], 13)
-        self.assertEqual(len(MAPPING), 6)
+        self.assertEqual(len(MAPPING), 5)
         self.assertEqual(len(ACTIVE_MAPPING), 5)
 
     def test_house_rule_lutri_is_separate_from_main_deck(self):
@@ -82,11 +82,11 @@ class PhysicalCollectionSnapshotTests(unittest.TestCase):
             all_decks.update(read_csv(SNAP / source))
         pool = read_csv(BASE / "current_available.csv")
         self.assertEqual(pool, inventory - all_decks)
-        self.assertEqual(sum(pool.values()), 947)
-        self.assertEqual(len(pool), 549)
+        self.assertEqual(sum(pool.values()), 1023)
+        self.assertEqual(len(pool), 611)
 
     def test_monoblack_devotion_released_but_archived(self):
-        archived = read_csv(SNAP / "Mono_Black_Devotion_Control.csv")
+        archived = read_csv(OLD / "Mono_Black_Devotion_Control.csv")
         self.assertEqual(sum(archived.values()), 60)
         self.assertEqual(len(archived), 15)
         self.assertFalse((BASE / "current_decks" / RETIRED).exists())
@@ -96,6 +96,19 @@ class PhysicalCollectionSnapshotTests(unittest.TestCase):
         state = json.loads((BASE / "current_status.json").read_text())
         self.assertNotIn(RETIRED, state["built_decks"])
         self.assertEqual(state["disassembled_built_decks"], [RETIRED])
+
+
+
+    def test_dihada_swap_and_new_grixis_cards(self):
+        before = read_csv(OLD / "Stefanie_Dihada_EDH_IRL.csv")
+        after = read_csv(SNAP / "Stefanie_Dihada_EDH_IRL.csv")
+        self.assertEqual(before - after, Counter({"The Balrog, Durin's Bane": 1}))
+        self.assertEqual(after - before, Counter({"Ingris Stingerquill": 1}))
+        pool = read_csv(BASE / "current_available.csv")
+        for name in ["The Balrog, Durin's Bane", "Gandalf, Goblins' Bane // Flameshape", "Fraying Sanity", "Hedron Crab", "Ruin Crab", "Zellix, Sanity Flayer"]:
+            self.assertGreaterEqual(pool[name], 1, name)
+        self.assertEqual(pool["Ingris Stingerquill"], 0)
+        self.assertEqual(pool["Cavern-Hoard Dragon"], 0)
 
 
 if __name__ == "__main__":
