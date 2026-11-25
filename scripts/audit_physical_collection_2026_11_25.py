@@ -7,6 +7,7 @@ from __future__ import annotations
 import argparse
 import hashlib
 import json
+import re
 from collections import Counter
 from pathlib import Path
 
@@ -52,6 +53,18 @@ def verify(write=False):
     assert status["xander_current_deck_git_blob_sha"] == xander_event["current_git_blob_sha"]
     assert len(xander_event["added"]) == len(xander_event["removed"]) == 18
     assert len(set(xander_event["added"])) == len(set(xander_event["removed"])) == 18
+    dihada_event_path = "data/physical_collection/updates/2026-11-25_dihada_upgrade.json"
+    dihada_event = json.loads((ROOT / dihada_event_path).read_text(encoding="utf-8"))
+    assert dihada_event["owner_confirmed"] is True
+    assert dihada_event["date"] == status["dihada_current_deck_last_confirmed"] == "2026-11-25"
+    assert status["dihada_current_deck_update_event"] == dihada_event_path
+    assert status["dihada_current_deck_git_blob_sha"] == dihada_event["current_git_blob_sha"]
+    assert status["dihada_approved_source"] == dihada_event["approved_full_user_list"]
+    assert status["dihada_approved_source_git_blob_sha"] == dihada_event["approved_full_user_list_git_blob_sha"]
+    assert dihada_event["commander"] == "Dihada, Binder of Wills"
+    assert dihada_event["main_deck_size"] == 100
+    assert dihada_event["lands"] == 36
+    assert len(set(dihada_event["added"])) == len(set(dihada_event["removed"])) == 5
     for name, expected in manifest["file_sha256"].items():
         assert hashlib.sha256((SNAP / name).read_bytes()).hexdigest() == expected, name
     assert set(manifest["file_sha256"]) == {"Every_Card_we_own_IRL_corrected.csv"} | {d[0] for d in MAPPING.values()}
@@ -90,6 +103,23 @@ def verify(write=False):
             assert deck - historical == Counter(dict.fromkeys(xander_event["added"], 1))
             assert git_blob_sha((SNAP / source).read_bytes()) == xander_event["previous_git_blob_sha"]
             assert git_blob_sha(live_path.read_bytes()) == xander_event["current_git_blob_sha"]
+        elif filename == "Dihada_EDH_IRL.csv":
+            assert historical - deck == Counter(dict.fromkeys(dihada_event["removed"], 1))
+            assert deck - historical == Counter(dict.fromkeys(dihada_event["added"], 1))
+            assert git_blob_sha((SNAP / source).read_bytes()) == dihada_event["previous_git_blob_sha"]
+            assert git_blob_sha(live_path.read_bytes()) == dihada_event["current_git_blob_sha"]
+            approval_bytes = (ROOT / dihada_event["approved_full_user_list"]).read_bytes()
+            assert git_blob_sha(approval_bytes) == dihada_event["approved_full_user_list_git_blob_sha"]
+            approved_deck = Counter()
+            approved_lines = approval_bytes.decode("utf-8").splitlines()
+            for line in approved_lines:
+                match = re.fullmatch(r"(\d+)x (.+?) \([^)]+\)(?: .*)?", line)
+                assert match, "Invalid approved Archidekt line: " + line
+                approved_deck[match.group(2)] += int(match.group(1))
+            assert len(approved_lines) == 87
+            assert approved_deck == deck
+            assert sum(approved_deck.values()) == 100
+            assert sum("[Commander{top}]" in line for line in approved_lines) == 1
         else:
             assert live_path.read_bytes() == (SNAP / source).read_bytes(), filename
         if commander:
@@ -108,13 +138,13 @@ def verify(write=False):
     assert total - owned == INCOMING
     assert (sum(total.values()), sum(INCOMING.values())) == (461, 13)
     pool = owned - total
-    assert (sum(pool.values()), len(pool)) == (1022, 609)
+    assert (sum(pool.values()), len(pool)) == (1022, 610)
     assert status["deck_slots_including_xander_companion"] == 461
     assert status["physical_deck_cards_reserved"] == status["reserved_cards"] == 448
     assert status["proxy_cards_pending"] == 13
     assert status["proxies_by_name"] == dict(INCOMING)
     assert status["owned_cards"] == 1470 and status["owned_distinct_names"] == 844
-    assert status["available_cards"] == 1022 and status["available_distinct_names"] == 609
+    assert status["available_cards"] == 1022 and status["available_distinct_names"] == 610
     assert status["current_available_pool"] == "data/physical_collection/current_available.csv"
     assert pool["The Balrog, Durin's Bane"] == 0
     assert owned["The Balrog, Durin's Bane"] == 0
@@ -125,6 +155,11 @@ def verify(write=False):
     assert pool["Fraying Sanity"] == 0 and pool["Hedron Crab"] == 0
     assert pool["Ruin Crab"] == 0 and pool["Zellix, Sanity Flayer"] == 0
     assert pool["Nicol Bolas, God-Pharaoh"] == 0
+    assert pool["Rakdos Signet"] == 1
+    for newly_reserved in ["Edgar, Ancient Bloodlord", "Hellrider", "Mirror of Galadriel", "Windcrag Siege"]:
+        assert pool[newly_reserved] == 0
+    for returned_to_pool in dihada_event["removed"]:
+        assert pool[returned_to_pool] >= 1
     expected = available_csv(pool, owned)
     if write:
         POOL.write_bytes(expected)
@@ -133,7 +168,7 @@ def verify(write=False):
     result = {"verified": True, "as_of_date": "2026-11-25", "owned": 1470,
               "distinct_owned": 844, "decks": 5, "deck_slots": 461,
               "physical_reserved": 448, "incoming_proxies": 13,
-              "available": 1022, "available_names": 609}
+              "available": 1022, "available_names": 610}
     print(json.dumps(result, sort_keys=True))
     return result
 

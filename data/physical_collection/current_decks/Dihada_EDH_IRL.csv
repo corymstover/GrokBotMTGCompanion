@@ -9,23 +9,21 @@ Quantity,Name
 1,Battlefield Forge
 1,Bedevil
 1,Belladonna Took
-1,Blackblade Reforged
 1,"Bladewing, Deathless Tyrant"
 1,Blood Crypt
 1,Bojuka Bog
 1,Bontu's Monument
 1,Boros Garrison
-1,Brion Stoutarm
 1,"Cadric, Soul Kindler"
 1,Captain Lannery Storm
 1,Caves of Koilos
 1,Celebrate the Mountain-king
 1,Clive's Hideaway
 1,Command Tower
-1,Day of Destiny
 1,"Dihada, Binder of Wills"
 1,Dragonskull Summit
 1,"Drana, Liberator of Malakir"
+1,"Edgar, Ancient Bloodlord"
 1,"Elas il-Kor, Sadistic Pilgrim"
 1,"Etali, Primal Storm"
 1,Evolving Wilds
@@ -39,9 +37,9 @@ Quantity,Name
 1,Gleaming Splendor
 1,Hammer of Purphoros
 1,Hazoret's Monument
+1,Hellrider
 1,Heroes' Podium
 1,Hobbit Hole
-1,Honor-Worn Shaku
 1,Ingris Stingerquill
 1,"Kardur, Doomscourge"
 1,Kolaghan's Command
@@ -49,6 +47,7 @@ Quantity,Name
 1,"Krenko, Tin Street Kingpin"
 1,Legion's Initiative
 1,Meticulous Commons
+1,Mirror of Galadriel
 1,Mortify
 5,Mountain
 1,Mountain Valley
@@ -63,6 +62,7 @@ Quantity,Name
 1,"Piru, the Volatile"
 7,Plains
 1,Primevals' Glorious Rebirth
+1,Rakdos Signet
 1,Read the Bones
 1,"Samut, Hazoret's Champion"
 1,"Shanid, Sleepers' Scourge"
@@ -80,9 +80,9 @@ Quantity,Name
 1,The Peregrine Dynamo
 1,The Reaver Cleaver
 1,The Sackville-Bagginses
-1,"Tymaret, the Murder King"
 1,Urza's Ruinous Blast
 1,Way of the Mentor
 1,Wear // Tear
+1,Windcrag Siege
 1,"Zeriam, Golden Wind"
 1,Zurgo Helmsmasher

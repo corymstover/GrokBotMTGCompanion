@@ -1,0 +1,50 @@
+{
+  "schema": "mtg-physical-deck-update/v1",
+  "date": "2026-11-25",
+  "owner_confirmed": true,
+  "deck": "Dihada_EDH_IRL.csv",
+  "path": "data/physical_collection/current_decks/Dihada_EDH_IRL.csv",
+  "commander": "Dihada, Binder of Wills",
+  "main_deck_size": 100,
+  "lands": 36,
+  "approved_full_user_list": "data/physical_collection/approvals/2026-11-25_Dihada_IRL_approved_archidekt.txt",
+  "approved_full_user_list_git_blob_sha": "e75070a04347b7dab28e466b1b42b6881fc9f3d7",
+  "source_historical_deck": "data/physical_collection/2026-11-25/Stefanie_Dihada_EDH_IRL.csv",
+  "previous_git_blob_sha": "0d51fde0f2d9290683d1e6d1bf2ce999c0d7e5d4",
+  "current_git_blob_sha": "09b3bfc041bbda7612b75d5f14f0c27e1ee23ed5",
+  "removed": [
+    "Tymaret, the Murder King",
+    "Honor-Worn Shaku",
+    "Day of Destiny",
+    "Brion Stoutarm",
+    "Blackblade Reforged"
+  ],
+  "added": [
+    "Edgar, Ancient Bloodlord",
+    "Windcrag Siege",
+    "Hellrider",
+    "Mirror of Galadriel",
+    "Rakdos Signet"
+  ],
+  "each_swap_quantity": 1,
+  "owned_physical_total": 1470,
+  "owned_distinct_names": 844,
+  "physical_reserved_before_and_after": 448,
+  "available_copies_before_and_after": 1022,
+  "available_distinct_names_before": 609,
+  "available_distinct_names_after": 610,
+  "mono_red_pending_proxies_unchanged": 13,
+  "unchanged_active_decks": [
+    "Xander_EDH_IRL.csv",
+    "Korvold_Jund_EDH_IRL.csv",
+    "Locutus_Orzhov_Borg_EDH_IRL.csv",
+    "MonoRed_Pauper_IRL.csv"
+  ],
+  "historical_snapshots_unchanged": true,
+  "notes": [
+    "This user-approved list includes exact printing codes/foil markers retained in approved_full_user_list; the quantity/name live CSV and physical master do not track printing identity.",
+    "Piru, the Volatile; Heroes' Podium; Zeriam, Golden Wind remain in Dihada.",
+    "The earlier owner-confirmed Balrog sale and Ingris substitution remain correctly represented.",
+    "The extra copy of Rakdos Signet stays available."
+  ]
+}
