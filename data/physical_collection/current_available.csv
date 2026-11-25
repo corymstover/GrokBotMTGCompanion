@@ -6,6 +6,8 @@ Quantity,Name
 1,Act of Treason
 1,Advent of the Wurm
 1,Aetherize
+1,Agent of the Iron Throne
+1,Agent of the Shadow Thieves
 2,Amok Time
 1,An Unexpected Party // At the Door
 1,Anchor to the Aether
@@ -14,6 +16,7 @@ Quantity,Name
 2,Anthropological Mission
 2,Arcane Amphisbaena
 1,Arcane Sanctum
+4,Arcane Signet
 4,Archaeomancer
 1,"Archelos, Lagoon Mystic"
 1,"Arni, Humble Scribe"
@@ -55,11 +58,14 @@ Quantity,Name
 2,Boughside Wanderers
 1,Bow of Nylea
 1,"Brad Boimler, Eager Ensign"
+1,Bubbling Cauldron
 1,Budding Insurgent
 2,"Burn, Burn, Tree and Fern"
+1,Burnished Hart
 1,Butcher of Malakir
 1,Cached Defenses
 4,Call of the Conclave
+1,Campus Guide
 1,Canopy Vista
 3,Cantankerous Captain
 1,Captain Benjamin Sisko
@@ -67,17 +73,18 @@ Quantity,Name
 1,Captain's Call
 2,Captain's Tutelage
 1,Cascading Cataracts
-1,Cavern-Hoard Dragon
 1,"Cecily, Haunted Mage"
 1,Cetacean Ops
 2,Cha'DIch Investigator
 1,"Chandra, Chill of Compliance"
 1,Chandra's Emberling
 2,Chandra's Fury
+2,Charcoal Diamond
 1,Charge the Sanctum
 1,Chief of the Edge
 1,Chief of the Scale
 1,Chromanticore
+1,Chromatic Sphere
 2,Citadel Castellan
 4,Class-F Shuttlecraft
 2,Cloak and Phaser
@@ -85,7 +92,9 @@ Quantity,Name
 1,Coiling Oracle
 1,Cold-Blooded Crew
 1,Collective Drone
+1,Collector's Vault
 3,Command the Stage
+1,Commander's Sphere
 2,Common Goal
 1,Compel Brutality
 2,Consider the Prime Directive
@@ -100,17 +109,25 @@ Quantity,Name
 1,Dahar Master
 1,Dáin Ironfoot
 1,"Dáin, Lord of the Iron Hills"
+1,Damping Sphere
 2,"Daniels, Temporal Agent"
 1,Dark Matter Manipulator
 3,Dathon and Picard at El-Adrel
+1,Decanter of Endless Water
 1,Deep Space Scan
 2,Defend the Hearth
 1,Deflecting Palm
+1,Demonmail Hauberk
 3,Desecration Demon
 1,Desperate Futurescribe
+1,Destroy the Evidence
 2,Dimir Guildgate
+2,Dimir Keyrune
+1,Dimir Locket
+2,Dimir Signet
 1,Dispel
 2,Disperse
+1,Disrupting Scepter
 2,Divination
 2,Dominion Assault Force
 1,Dominion Infiltration
@@ -158,7 +175,9 @@ Quantity,Name
 2,Fearsome Goblin Pair
 2,Federation Field Medic
 2,Federation Probe
+1,Fellwar Stone
 1,Fiery Impulse
+2,Fire Diamond
 2,Firemane Avenger
 3,First Contact
 4,Flames of the Firebrand
@@ -166,6 +185,7 @@ Quantity,Name
 1,Flood Plain
 2,Fog Bank
 31,Forest
+1,Fraying Sanity
 1,Frenzied Goblin
 1,Frontier Bivouac
 1,Frontline Medic
@@ -173,6 +193,7 @@ Quantity,Name
 1,Furnace Whelp
 1,Fusion Elemental
 1,Galvanic Blast
+1,"Gandalf, Goblins' Bane // Flameshape"
 1,"Gandalf, Spark Starter"
 2,"Gandalf, Wandering Wizard"
 1,Gaseous Anomaly
@@ -189,10 +210,12 @@ Quantity,Name
 1,Goblin-town
 1,Goblin-town Flunkies
 1,Goblinslide
+1,Golgari Cluestone
 1,"Gollum, Riddle Master"
 1,"Gollum, Silent Slinker // Meager Meal"
 1,Graft Surgeon
 1,Graveblade Marauder
+1,Gravestone Strider
 2,"Gray and Adira, Forever Joined"
 3,Gray Merchant of Asphodel
 3,Graypelt Refuge
@@ -200,12 +223,16 @@ Quantity,Name
 1,Great Ugly-Looking Goblin // Clap! Snap!
 1,Grim Repriser
 1,Growth Spiral
+1,Gruul Keyrune
+1,Gruul Signet
 1,Guardian of the Halls
 2,Guidance Failure
 4,Guttersnipe
 1,"He's Dead, Jim"
 1,Heartstring Puller
 1,Heartwood Crafter // Soul Tether
+2,Hedron Archive
+1,Hedron Crab
 1,Hell's Thunder
 1,Hellraiser Goblin
 1,Hellrider
@@ -232,9 +259,14 @@ Quantity,Name
 2,Iron Hills Stalwart
 24,Island
 1,Izzet Charm
+1,Izzet Cluestone
 1,Izzet Guildgate
+2,Izzet Keyrune
+1,Izzet Locket
+2,Izzet Signet
 1,Jace's Ingenuity
 6,Jace's Phantasm
+1,Jalum Tome
 1,Jared Carthalion
 1,"Jared Carthalion, True Heir"
 1,Jazal Goldmane
@@ -280,6 +312,7 @@ Quantity,Name
 1,"Mairsil, the Pretender"
 1,Make It So
 1,Mana Cannons
+1,Manalith
 1,Mardu Banner
 1,Mardu Hateblade
 1,Mardu Scout
@@ -287,15 +320,19 @@ Quantity,Name
 1,Master's Councillors
 2,Melkotian Adjudicator
 1,Mending Touch
+1,Meteorite
 1,"Mikokoro, Center of the Sea"
 1,Millstone
+1,Mimic
 1,Mind Funeral
 4,Mind Rot
 4,Mind Sculpt
+1,Mind Stone
 1,Mindseeker Oculus
 1,"Mirko Vosk, Mind Drinker"
 3,Mirkwood Meditator
 1,Mirkwood Nurturer
+1,Mirror of Galadriel
 1,Mobilized District
 1,"Moira, Urborg Haunt"
 2,Moment of Glory
@@ -306,27 +343,34 @@ Quantity,Name
 3,Murder
 2,Murder Investigation
 1,Murmuring Bosk
+1,Myr Convert
 1,Mystic Monastery
 1,Nasty Little Rabbit
 1,Naya Charm
 2,"Neelix, Moral Support"
 1,"Nethroi, Apex of Death"
+1,"Nicol Bolas, God-Pharaoh"
 2,No Admittance
 4,Nomad Outpost
 2,"Nori, Teller of Tales"
 1,"O-Kagachi, Vengeful Kami"
 1,"Obeka, Brute Chronologist"
 1,"Obeka, Splitter of Seconds"
+1,Obelisk of Jund
 1,Oberth-Class Starship
 1,"Obzedat, Ghost Council"
 1,Óin the Brave
 2,Old Fat Spider
 1,Old Fat Spider Can't See Me
 1,Old Thrush
+2,"Omnath, Locus of All"
+1,Opaline Unicorn
 1,Open Communications
 1,Opulent Palace
 1,Ordinary Bear
 1,"Ori, Keeper of Songs"
+1,Orzhov Locket
+1,Orzhov Signet
 1,Outland Colossus
 1,Path to the World Tree
 1,Perfected Theory
@@ -360,6 +404,8 @@ Quantity,Name
 2,Rage into the Valley
 1,Raise the Alarm
 1,Rakdos Carnarium
+1,Rakdos Keyrune
+2,Rakdos Signet
 1,Rancor
 2,Ravening Warg
 1,Reckless Impulse
@@ -378,6 +424,8 @@ Quantity,Name
 1,Rootborn Defenses
 1,Royal Assassin
 1,Rubblebelt Raiders
+1,Rug of Smothering
+1,Ruin Crab
 1,Rules of Acquisition
 1,Rupture Spire
 1,"Ruric Thar, Magecrusher"
@@ -413,6 +461,7 @@ Quantity,Name
 1,Silicate Surveyor
 2,Silvan Reveler
 1,Skullcrack
+3,Sky Diamond
 2,Sleep
 1,Slime Molding
 2,"Smaug, the Great Calamity // Spew Flame"
@@ -431,6 +480,7 @@ Quantity,Name
 4,Starfleet Spanner Jockey
 1,Stern Mentor
 1,Stingerquill Voxmancer // Vicious Verse
+1,Stir Up Trouble
 1,Stone by Sunlight
 3,Stony-Voiced Goblins
 1,Stormcatch Mentor
@@ -443,6 +493,7 @@ Quantity,Name
 1,Suus Mahna Practitioner
 27,Swamp
 1,Swift Warkite
+1,Swiftfoot Boots
 1,Sword of the Chosen
 1,Sylvan Reclamation
 1,"Sylvia Tilly, Joy of Discovery"
@@ -451,6 +502,9 @@ Quantity,Name
 2,"Tajic, Blade of the Legion"
 1,Take Up Arms
 3,Tal Shiar Operative
+1,Talisman of Dominance
+1,Talisman of Impulse
+1,Talisman of Indulgence
 1,"Talrand, Sky Summoner"
 1,"Tea, Earl Grey, Hot"
 1,Temple of Triumph
@@ -465,6 +519,7 @@ Quantity,Name
 1,"Tetsuko Umezawa, Fugitive"
 1,"Tetsuko Umezawa, Pursuer"
 1,"Teysa, Envoy of Ghosts"
+1,"The Balrog, Durin's Bane"
 1,The Caretaker
 1,The Circle of Loyalty
 1,The Eagles Are Coming!
@@ -491,6 +546,8 @@ Quantity,Name
 4,Totally Lost
 1,Traitorous Instinct
 1,Transguild Courier
+1,Transmogrant Altar
+1,Traveler's Amulet
 1,"Traxos, Academy Guardian"
 1,"Traxos, Scourge Eternal"
 4,Tread Upon
@@ -507,6 +564,7 @@ Quantity,Name
 1,Uneasy Partings
 2,Unflinching Courage
 1,Unite the Coalition
+1,Unruly Catapult
 4,Unsummon
 1,"V'Ger, the Intruder"
 1,"Vash, Freelance Archaeologist"
@@ -527,6 +585,8 @@ Quantity,Name
 3,Warg Tactics
 1,Warrior's Blades
 1,Way of the Mind Sculptor
+1,Wayfarer's Bauble
+1,Welder Automaton
 1,Whiplash Wordsmith // Vicious Verse
 4,Wight of Precinct Six
 2,Wild Ricochet
@@ -538,12 +598,14 @@ Quantity,Name
 1,Wizard's Staff
 1,Wood Elves
 1,Woodland Weavemaster
+1,Worn Powerstone
 1,Wrath of the Bloodmane
 1,Wrecking Gecko
 1,"Xyris, the Writhing Storm"
 1,Yurlok of Scorch Thrash
 1,"Zaxara, the Exemplary"
 2,"Zefram Cochrane, Warp Pioneer"
+1,"Zellix, Sanity Flayer"
 1,"Zero, Incorporeal Sensate"
 1,"Zetalpa, Primal Dawn"
 1,"Zevlor, Elturel Exile"
