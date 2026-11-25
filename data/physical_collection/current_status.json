@@ -7,7 +7,7 @@
   "source_archive_sha256": "cb8ac3851e542e55f32940f85cb6679d5eaab24d649dae23a5e6104dce7ad106",
   "superseded_inventory_archive": "Real_Life_Entire-Collection-11-23-2026.zip",
   "superseded_inventory_archive_sha256": "79d176872765309285b60dcfee546605a994b8ea4f27acfbebd1939cd715f04f",
-  "owner_confirmation": "November 25, 2026: five built decks; owner-added cards remain unassigned, except 1 Ingris Stingerquill replaces The Balrog, Durin's Bane in Stefanie's Dihada deck. Earlier Mono-Black Pauper disassembly preserved; Xander 100 plus separate local-only Lutri companion, Mono-Red still 13 proxies.",
+  "owner_confirmation": "November 25, 2026: five built decks; owner-added cards remain unassigned, except 1 Ingris Stingerquill replaces The Balrog, Durin's Bane in Stefanie's Dihada deck. Earlier Mono-Black Pauper disassembly preserved; Xander 100 plus separate local-only Lutri companion, Mono-Red still 13 proxies. November 25 further owner confirmation: current Lord Xander 100 plus separate Lutri updated with exactly 18 physical-card swaps; no changes to other four decks.",
   "built_decks": [
     "Xander_EDH_IRL.csv",
     "Dihada_EDH_IRL.csv",
@@ -36,7 +36,7 @@
     "Voldaren Epicure": 4
   },
   "available_cards": 1023,
-  "available_distinct_names": 611,
+  "available_distinct_names": 610,
   "current_available_pool": "data/physical_collection/current_available.csv",
   "xander_main_deck_cards_including_commander": 100,
   "xander_companion": "Lutri, the Spellchaser",
@@ -54,5 +54,8 @@
   "reconciliation_event": "data/physical_collection/updates/2026-11-25_collection_reconciliation.json",
   "notable_absence_in_new_inventory": [
     "Cavern-Hoard Dragon"
-  ]
+  ],
+  "xander_current_deck_last_confirmed": "2026-11-25",
+  "xander_current_deck_update_event": "data/physical_collection/updates/2026-11-25_lord_xander_upgrade.json",
+  "xander_current_deck_git_blob_sha": "3dcbbae7f369f35cbd1a28c025ff72dfd74fa2d5"
 }

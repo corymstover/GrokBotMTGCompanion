@@ -15,7 +15,7 @@
 
 **Owner-confirmed Dihada swap:** 1× **The Balrog, Durin's Bane** OUT, 1× **Ingris Stingerquill** IN. The Balrog is available again; Ingris is reserved to Dihada. The other four active decks are **byte-for-byte unchanged**.
 
-**New inventory reconciliation:** 77 copies added/increased, 1 removed/decreased, net +76. The new source omits **Cavern-Hoard Dragon**, which appeared once in the November 23 inventory; this absence is recorded as an inventory change, not assumed to represent a sale. New additions such as Gandalf, Goblins' Bane, Fraying Sanity, Hedron Crab, Ruin Crab, Zellix, Nicol Bolas, God-Pharaoh, and new mana rocks are not placed into any active deck.
+**New inventory reconciliation:** 77 copies added/increased, 1 removed/decreased, net +76. The new source omits **Cavern-Hoard Dragon**, which appeared once in the November 23 inventory; this absence is recorded as an inventory change, not assumed to represent a sale. New acquisitions now reserved to the owner-confirmed Xander list include Fraying Sanity, Hedron Crab, Ruin Crab, Zellix, Nicol Bolas, God-Pharaoh, and faster mana rocks; Gandalf, Goblins' Bane remains available.
 
 ## Five active decks
 
